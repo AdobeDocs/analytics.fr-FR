@@ -2,9 +2,9 @@
 title: Comment définir les préférences utilisateur en Analysis Workspace
 description: Vous pouvez définir des références de landing page et de projet dans un emplacement central.
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 28%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 28%
 
 # Préférences de l’utilisateur
 
-La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres Analysis Workspace et les composants associés pour vos utilisateurs. Les préférences utilisateur s’appliquent à tous les projets ou panneaux *nouveaux*.
+La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] permet de gérer les paramètres d’Analysis Workspace et de ses composants connexes au niveau de l’utilisateur. Les préférences utilisateur s’appliquent à tous les projets ou panneaux *nouveaux*.
 
 ![Préférences de l’utilisateur](assets/user-preferences.png)
 
