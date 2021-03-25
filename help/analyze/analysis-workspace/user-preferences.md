@@ -2,21 +2,17 @@
 title: Comment définir les préférences utilisateur en Analysis Workspace
 description: Vous pouvez définir des références de landing page et de projet dans un emplacement central.
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 17%
+source-wordcount: '223'
+ht-degree: 28%
 
 ---
 
 
 # Préférences de l’utilisateur
 
->[!NOTE]
->
->Cette fonctionnalité sera bientôt disponible. Disponibilité générale : 25 mars 2021.
-
-La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres Analysis Workspace et les composants associés pour vos utilisateurs. Les préférences utilisateur s’appliquent à *tous* les nouveaux projets ou panneaux.
+La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres Analysis Workspace et les composants associés pour vos utilisateurs. Les préférences utilisateur s’appliquent à tous les projets ou panneaux *nouveaux*.
 
 ![Préférences de l’utilisateur](assets/user-preferences.png)
 
@@ -26,21 +22,21 @@ Les préférences générales s’appliquent à votre expérience Adobe Analytic
 
 | Préférence | Options |
 | --- | --- |
-| Landing page | <ul><li>Liste de projet (par défaut)</li><li>Projet vierge</li><li>Projet spécifique</li></ul> |
+| Landing page | <ul><li>Liste de projet (par défaut)</li><li>Projet vierge</li><li>Projet spécifique sélectionné à partir d&#39;une liste</li></ul> |
 | Astuces | <ul><li>Activé (par défaut)</li><li>Désactivé</li></ul> |
 
 ## Préférences de projet
 
-Les préférences de projet s’appliquent aux nouveaux projets et aux nouveaux panneaux créés en Analysis Workspace. Les préférences peuvent également être gérées par projet sous [!UICONTROL Espace de travail] > [!UICONTROL Projet] > [!UICONTROL Informations et paramètres du projet].
+Les préférences de projet s’appliquent aux nouveaux projets et aux nouveaux panneaux créés en Analysis Workspace. Certaines préférences peuvent également être gérées par projet sous [!UICONTROL Espace de travail] > [!UICONTROL Projet] > [!UICONTROL Informations et paramètres du projet].
 
 | Section | Préférence | Options |
 | --- | --- | --- |
 | **Afficher** |  |  |
-|  | [Afficher la densité](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) | <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
-|  | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html) | <ul><li>Palettes fournies par l’Adobe (par défaut)</li><li>Palettes personnalisées</li></ul> |
+|  | [Afficher la densité](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) | <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
+|  | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | <ul><li>Palettes fournies par l’Adobe (par défaut)</li><li>Palettes personnalisées</li></ul> |
 | **Data** (Données) |  |  |
-|  | [Suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>Le plus récent (par défaut)</li><li>Spécifique - choisi à partir d’une liste</li></ul> |
-|  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Liste de plages de dates prêtes à l’emploi, y compris **[!UICONTROL Ce mois]** (par défaut) |
+|  | [Suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#report-suite) | <ul><li>Le plus récent (par défaut)</li><li>Suite de rapports spécifique sélectionnée à partir d’une liste</li></ul> |
+|  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?#calendar) | Effectuez une sélection à partir d&#39;une liste de : <ul><li>Plages fournies par l’Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
 |  | [Type de panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) | <ul><li>Structure libre (par défaut)</li><li>Vide</li><li>Aperçu rapide</li></ul> |
 |  | Format du nombre | <ul><li>1 000,00 (par défaut)</li><li>1 000 000</li><li>1 000 000</li></ul> |
-|  | Séparateur CSV | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
+|  | Caractère de séparation CSV (valeurs séparées par des virgules) | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
