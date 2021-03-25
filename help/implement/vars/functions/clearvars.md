@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: Elle efface les valeurs suivantes de l’objet d’instance. Cette fonction supprime les éléments (en les définissant comme « undefined »).
+description: Effacez les valeurs de variable de l'objet de suivi.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '158'
+ht-degree: 95%
 
 ---
 
