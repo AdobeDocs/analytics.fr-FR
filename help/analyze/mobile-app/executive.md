@@ -2,7 +2,7 @@
 description: Instructions pour l’utilisation des fiches d’évaluation des tableaux de bord.
 title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 100%
