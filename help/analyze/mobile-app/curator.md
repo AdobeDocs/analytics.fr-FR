@@ -2,10 +2,10 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
 workflow-type: tm+mt
-source-wordcount: '2380'
-ht-degree: 100%
+source-wordcount: '2399'
+ht-degree: 87%
 
 ---
 
@@ -72,9 +72,9 @@ Depuis l’écran **[!UICONTROL Projets]**, dans l’onglet **[!UICONTROL Compos
 
 ![Ajouter des projets](assets/add_project.png)
 
-**Utiliser les outils [!DNL Analytics]**
+**OU**
 
-Dans [!DNL Analytics], cliquez sur le menu **[!UICONTROL Outils]**, puis sélectionnez **[!UICONTROL Tableaux de bord Analytics (application mobile)]**. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
+Dans le menu **[!UICONTROL Outils]**, sélectionnez **[!UICONTROL tableaux de bord Analytics (application mobile)]**. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
 
 ### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
@@ -92,13 +92,13 @@ Pour implémenter le modèle de Fiche d’évaluation :
    *Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.*
 
 
-3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL DMA Region]** dans cet exemple) à la mesure **[!UICONTROL Unique Visitors]** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **[!UICONTROL Propriétés]** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+3. Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque. Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL DMA Region]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **[!UICONTROL Propriétés]** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
 
    ![Ajouter des dimensions](assets/layer_dimensions.png)
 
-   Vous pouvez également ajouter une dimension à toutes les mosaïques en la déposant sur la zone de travail de la Fiche d’évaluation.
-
    Lorsque vous cliquez sur une mosaïque du Créateur de la Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
+
+   ![Volet Propriétés](assets/properties_tile.png)
 
    En outre, si vous cliquez sur les mosaïques, une fenêtre pop-up dynamique affichera comment l’utilisateur en charge de l’exécution voit la vue de ventilation dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
 
@@ -110,19 +110,31 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    ![Création de segments pour le filtre](assets/segment_ui.png)
 
-5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la fiche d’évaluation, cliquez n’importe où sur la fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris sur le composant, comme indiqué ci-dessous pour le segment **[!DNL Mobile Customers]** :
+5. De même, pour supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur la carte de performance en dehors des mosaïques, puis supprimez-la en cliquant sur le **x** qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment **Premières visites** :
 
    ![Remove_components](assets/new_remove.png)
 
-6. Dans les **[!UICONTROL Propriétés]** de la Fiche d’évaluation, vous pouvez également préciser en option les éléments suivants :
+6. Ajoutez et supprimez des combinaisons de plages de dates qui peuvent être sélectionnées dans votre carte de performance en sélectionnant la liste déroulante des plages de dates.
 
-   * Une **[!UICONTROL période par défaut]**. Les périodes que vous précisez ici seront identiques à celles appliquées lorsque l’utilisateur en charge de l’exécution accède pour la première fois à la Fiche d’évaluation dans l’application.
+   ![Nouvelle carte de score](assets/new_score_card.png)
 
-   * Une **[!UICONTROL période de comparaison]**
+   Chaque nouvelle carte de performance début avec 6 combinaisons de plages de dates centrées sur les données d’aujourd’hui et d’hier. Vous pouvez supprimer des plages de dates inutiles en cliquant sur le x ou modifier chaque combinaison de plages de dates en cliquant sur le crayon.
 
-   * Tout **[!UICONTROL segment]** à appliquer à la totalité de la Fiche d’évaluation
+   ![Nouvelle carte de score2](assets/new_score_card2.png)
 
-7. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
+   Pour créer ou modifier une date Principale, utilisez la liste déroulante pour sélectionner une plage de dates disponible ou faites glisser et déposez un composant de date du rail de droite dans la zone de dépôt.
+
+   ![Nouvelle carte de score3](assets/new_score_card3.png)
+
+   Pour créer une date de comparaison, vous pouvez choisir parmi des préréglages pratiques pour les comparaisons d’heure courantes dans le menu déroulant. Vous pouvez également faire glisser et déposer un composant de date à partir du rail de droite.
+
+   ![Nouvelle carte de score4](assets/new_score_card4.png)
+
+   Si la période souhaitée n&#39;a pas encore été créée, vous pouvez en créer une nouvelle en cliquant sur l&#39;icône de calendrier.
+
+   ![Nouvelle carte de score4](assets/new_score_card5.png)
+
+7. Vous accédez ainsi au créateur de plages de dates, où vous pouvez créer et enregistrer un nouveau composant de plage de dates. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -201,7 +213,7 @@ Pour aider les utilisateurs en charge de l’exécution :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Expliquez à l’utilisateur en charge de l’exécution la façon dont les mosaïques apparaissent dans les fiches d’évaluation que vous partagez (la première fiche d’évaluation ci-dessous est configurée en mode sombre, consultez les **[!UICONTROL Préférences]** ci-dessous si vous pensez que l’utilisateur en charge de l’exécution préfère cette option d’affichage) :
+3. Expliquez à l’utilisateur exécutif comment les mosaïques apparaissent dans les cartes de performance que vous partagez (la première carte de performance ci-dessous est définie en mode noir ; voir **[!UICONTROL Préférences]** ci-dessous si vous pensez que l’utilisateur exécutif préfère cette option de visualisation) :
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -225,13 +237,9 @@ Pour aider les utilisateurs en charge de l’exécution :
 
    * Un tableau est inclus pour afficher les données des dimensions ajoutées à la mosaïque. Appuyez sur la flèche vers le bas pour sélectionner les dimensions. Si aucune dimension n’a été ajoutée à la mosaïque, le tableau affiche les données de graphique.
 
-5. Pour modifier les périodes de votre fiche d’évaluation :
+5. Pour modifier les plages de dates de votre Scorecard, appuyez sur l’en-tête Date et sélectionnez la combinaison Principale et de plage de dates de comparaison à vue.
 
    ![Modifier les dates](assets/changedate.png)
-
-   * Vous pouvez également modifier les périodes dans la vue Ventilation affichée ci-dessus de la même manière.
-
-   * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **[!UICONTROL COMPARER À]**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **[!UICONTROL Terminé]** en haut à droite de l’écran. Le champ **[!UICONTROL Périodes]** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
 6. Pour faire part de vos commentaires sur cette application :
 
