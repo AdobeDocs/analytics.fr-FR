@@ -1,12 +1,13 @@
 ---
 description: Vous pouvez filtrer les dimensions que vous ajoutez à la grille Libellés de lignes. Les filtres permettent de limiter les données renvoyées par les requêtes. Ils peuvent être appliqués à partir des dispositions croisées dynamiques ou personnalisées. Lorsque vous configurez le filtrage des dimensions à partir de la Disposition croisée dynamique, vous pouvez, en outre, préciser le nombre d’entrées de la cellule.
 title: Dimensions du filtre - Aperçu
-topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '439'
 ht-degree: 98%
 
 ---
