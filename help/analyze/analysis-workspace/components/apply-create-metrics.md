@@ -2,10 +2,12 @@
 description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 title: Mesures
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '257'
 ht-degree: 85%
 
 ---
