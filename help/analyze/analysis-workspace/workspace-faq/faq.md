@@ -1,10 +1,12 @@
 ---
 description: FAQ sur Workspace
 title: Questions fréquentes et résolution des problèmes dans Workspace
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '523'
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
