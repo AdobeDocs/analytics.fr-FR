@@ -2,13 +2,14 @@
 description: Grâce à l’option Inclure les données actives des Reports & Analytics, vous pouvez afficher les données d’analyse les plus récentes, souvent avant même qu’elles ne soient entièrement traitées et finalisées. Les données actives présentent la plupart des mesures en quelques minutes, ce qui vous permet de disposer d’informations exploitables pour une prise de décisions rapide.
 subtopic: Current Data
 title: Données actives
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Concepts de base des rapports et analyses
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
