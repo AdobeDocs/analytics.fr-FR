@@ -2,10 +2,12 @@
 description: Partage de projets et rôles de projets dans Workspace
 keywords: Partage Analysis Workspace
 title: Partage de projets
+feature: Traitement et partage
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1109'
 ht-degree: 99%
 
 ---
