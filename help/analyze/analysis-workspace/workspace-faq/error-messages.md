@@ -1,10 +1,12 @@
 ---
 description: Liste des messages d’erreur d’Adobe Analysis Workspace et ses composants connexes
 title: Messages d’erreur courants dans Analysis Workspace
-translation-type: ht
-source-git-commit: 5514e98703442fa68c8f19edce07fb3f2c74b874
-workflow-type: ht
-source-wordcount: '446'
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
