@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez actualiser les requêtes pour l’ensemble des feuilles ou pour plusieurs d’entre elles.
 title: Actualisation des requêtes de toutes les feuilles
-topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 98%
 
 ---
 
