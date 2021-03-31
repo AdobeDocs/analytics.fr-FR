@@ -1,10 +1,12 @@
 ---
 title: Panneau des visionneuses simultanées de médias
 description: Utilisation et interprétation du panneau Visionneuses simultanées de médias en Analysis Workspace.
+feature: Panneaux
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: aea820324da5153c85ab1c12110c756748aedec9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1064'
 ht-degree: 12%
 
 ---
