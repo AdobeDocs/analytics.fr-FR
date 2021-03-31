@@ -3,11 +3,13 @@ description: Dans Analysis Workspace, vous pouvez créer des segments d’après
 keywords: abandons et segmentation ; segments dans l’analyse des abandons ; comparer les segments dans les abandons
 title: Application de segments dans l’analyse des abandons
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
+feature: Visualisations
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 99%
 
 ---
 
