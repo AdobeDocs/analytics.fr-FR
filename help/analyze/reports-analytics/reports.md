@@ -1,11 +1,13 @@
 ---
 title: Rapports
 description: Les dimensions et mesures utilisées par Reports & Analytics pour chaque rapport.
+feature: Rapports & Concepts de base d’Analytics
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 100%
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
