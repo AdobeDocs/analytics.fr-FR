@@ -1,11 +1,13 @@
 ---
 title: Analyste virtuel
 description: Découvrez les fonctionnalités d’Adobe Analytics qui contribuent à l’analyste virtuel.
+feature: Outils AI
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 95%
 
 ---
 
