@@ -2,11 +2,13 @@
 description: Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions.
 title: Flux interdimensionnels
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
+feature: Visualisations
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 99%
 
 ---
 
