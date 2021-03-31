@@ -1,13 +1,14 @@
 ---
 description: Le Report Builder Adobe propose désormais des paramètres de gestion des autorisations analogues à ceux des Outils d’administration d’Analytics.
 title: Autorisations d’accès utilisateur pour les dimensions et les mesures
-topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 98%
 
 ---
 
