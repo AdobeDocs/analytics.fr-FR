@@ -1,13 +1,14 @@
 ---
 description: Cette section présente les fonctionnalités d’un rapport, notamment la barre d’outils, le calendrier et le tableau détaillé.
 title: Fonctionnalités d’un rapport
-topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
+feature: Concepts de base des rapports et analyses
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 98%
 
 ---
 
