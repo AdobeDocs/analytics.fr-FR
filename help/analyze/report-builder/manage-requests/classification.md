@@ -1,13 +1,14 @@
 ---
 description: Les ventilations de classification permettent de mettre en correspondance les données des rapports d’analyse et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins ; toutefois, elles servent principalement à classifier les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits.
 title: En-tête
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
