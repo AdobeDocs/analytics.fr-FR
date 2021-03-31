@@ -2,13 +2,14 @@
 description: Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et programmer la remise des tableaux de bord.
 subtopic: Dashboards
 title: Gestionnaire de tableaux de bord
-topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
+feature: Rapports
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 99%
 
 ---
 
