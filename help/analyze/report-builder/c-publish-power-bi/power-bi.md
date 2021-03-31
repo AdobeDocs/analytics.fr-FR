@@ -2,11 +2,13 @@
 description: Utilisation de Report Builder avec Microsoft Power BI.
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+feature: Report Builder
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1031'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +19,7 @@ Microsoft Power BI est une suite de tableaux de bord d’analyse commerciale p
 
 Auparavant, en tant qu’analyste, vous deviez planifier la diffusion des classeurs du Report Builder par courrier électronique (ou ftp). Vous pouvez désormais permettre à vos utilisateurs et intervenants métier d’accéder (depuis leur compte Power BI) à des données exactes et à jour dans un environnement Web qui est accessible quels que soient les plateformes et les périphériques utilisés.
 
-L’association de la fonctionnalité de génération de rapports du Report Builder aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients, des associations et des opportunités uniques.
+L’association de la fonctionnalité de génération de rapports du Report Builder aux fonctionnalités de visualisation de Power BI rend les informations plus accessibles pour tous les membres de l’organisation. Grâce à Power BI, vous pouvez également intégrer Adobe Analytics à d’autres sources de données (par exemple, point de vente, gestion de la relation client) de façon à découvrir des statistiques sur les clients uniques, des associations et des opportunités.
 
 ![](assets/aaplusbi.png)
 
