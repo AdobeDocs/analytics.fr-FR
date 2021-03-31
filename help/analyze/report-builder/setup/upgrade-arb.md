@@ -1,13 +1,14 @@
 ---
 description: Procédure de mise à niveau du Report Builder et considérations à prendre en compte.
 title: Mise à niveau du Report Builder
-topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 98%
 
 ---
 
