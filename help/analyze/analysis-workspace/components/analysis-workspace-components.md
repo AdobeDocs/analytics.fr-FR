@@ -1,10 +1,12 @@
 ---
 description: 'Les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments et de plages de dates que vous pouvez faire glisser sur un projet. '
 title: Aperçu des composants
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '742'
 ht-degree: 17%
 
 ---
