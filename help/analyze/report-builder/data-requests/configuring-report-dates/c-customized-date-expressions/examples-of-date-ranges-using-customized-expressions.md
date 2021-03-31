@@ -1,13 +1,14 @@
 ---
 description: Exemples, remarques et notes syntaxiques concernant l’utilisation de périodes dans des expressions personnalisées.
 title: Exemples de plages de dates utilisant des expressions personnalisées
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 
