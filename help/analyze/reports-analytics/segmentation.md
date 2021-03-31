@@ -1,13 +1,14 @@
 ---
 description: Les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs.
 title: Segmentation Analytics
-topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
+feature: Rapports
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 100%
+source-wordcount: '74'
+ht-degree: 95%
 
 ---
 
