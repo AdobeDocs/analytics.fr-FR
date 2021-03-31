@@ -1,13 +1,14 @@
 ---
 description: Lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication à utiliser dans le cadre de la distribution.
 title: Autoriser les remplacements de la liste de publication
-topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 94%
+source-wordcount: '169'
+ht-degree: 92%
 
 ---
 
