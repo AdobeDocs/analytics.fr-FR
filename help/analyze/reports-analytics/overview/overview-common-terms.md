@@ -1,13 +1,14 @@
 ---
 description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
 title: Termes courants
-topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
+feature: Rapports,Reports & Analytics
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 100%
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +59,7 @@ Cette section présente les termes utilisés couramment dans Adobe Analytics.
      <li id="li_09263F6B1E114A8DB477793B560A0417">Mensuel </li> 
      <li id="li_A0B2CA3D44564045B02B55AF6E392F76">Trimestriel </li> 
      <li id="li_296BC5B02921460690F35128B1192800">Annuel </li> 
-    </ul> <p>Alors qu’une personne peut se rendre sur votre site à plusieurs reprises et afficher plusieurs pages lors d’une période donnée, le rapport des visiteurs uniques enregistre cette personne en tant que visiteur unique. </p> <p> <b>Déduplication des visiteurs</b> : la collecte de données déduplique les visiteurs en fonction du titre du rapport, quelle que soit la période calendaire. Par exemple, un visiteur qui consulte une page quatre jours différents durant une semaine faisant l’objet d’un rapport est compté une fois dans le <span class="wintitle">rapport Visiteur unique hebdomadaire</span>. Dans un <span class="wintitle">rapport Visiteurs quotidiens uniques</span> couvrant cette semaine, le même visiteur est compté quatre fois. </p> </td> 
+    </ul> <p>Alors qu’une personne peut se rendre sur votre site à plusieurs reprises et afficher plusieurs pages lors d’une période donnée, le rapport Visiteurs uniques enregistre cette personne en tant que visiteur unique. </p> <p> <b>Déduplication des visiteurs</b> : la collecte de données déduplique les visiteurs en fonction du titre du rapport, quelle que soit la période calendaire. Par exemple, un visiteur qui consulte une page quatre jours différents durant une semaine faisant l’objet d’un rapport est compté une fois dans le <span class="wintitle">rapport Visiteur unique par semaine</span>. Dans un <span class="wintitle">rapport Visiteurs uniques par jour</span> couvrant cette semaine, le même visiteur est compté quatre fois. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Événements de conversion (succès) </p> </td> 
