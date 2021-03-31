@@ -1,11 +1,13 @@
 ---
 description: Les incohérences dans les données peuvent causer de gros problèmes. Apprenez comment identifier les anomalies statistiques à lʼaide des techniques de détection des anomalies dʼAdobe. Commencez dès aujourdʼhui.
 title: Techniques statistiques de la détection des anomalies
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+feature: Outils AI
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 99%
 
 ---
 
