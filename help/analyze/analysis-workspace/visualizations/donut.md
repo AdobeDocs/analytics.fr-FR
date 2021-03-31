@@ -1,11 +1,13 @@
 ---
 description: Utilisation de la visualisation en anneau dans un projet Workspace.
 title: Anneau
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '43'
-ht-degree: 100%
+feature: Visualisations
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 93%
 
 ---
 
