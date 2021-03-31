@@ -1,13 +1,14 @@
 ---
 description: De même que vous copiez et collez des requêtes, vous pouvez déplacer des requêtes dans la feuille de calcul en sélectionnant Couper la requête dans le menu contextuel.
 title: Copie de requêtes adjacentes
-topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 98%
 
 ---
 
