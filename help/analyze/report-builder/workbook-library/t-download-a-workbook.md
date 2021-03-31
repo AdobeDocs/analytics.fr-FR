@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez télécharger et modifier des classeurs partagés.
 title: Téléchargement d’un classeur
-topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +25,7 @@ Vous pouvez télécharger et modifier des classeurs partagés.
 >
 >* **Modifier** : télécharge et ouvre un classeur en vue de le modifier. Si vous souhaitez transférer un classeur téléchargé à des fins d’édition, vous devez effectuer cette opération manuellement.
 >* **Supprimer** : cette option permet de supprimer un classeur que vous avez transféré. Notez toutefois que cela n’est possible que si vous en êtes le propriétaire.
+
 >
 
 
