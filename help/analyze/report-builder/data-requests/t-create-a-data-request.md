@@ -1,13 +1,14 @@
 ---
 description: Procédure de création d’une requête de données avec le Report Builder.
 title: Création d’une requête de données
-topic: Report builder
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 96%
+source-wordcount: '310'
+ht-degree: 95%
 
 ---
 
