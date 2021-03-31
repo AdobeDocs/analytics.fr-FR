@@ -2,7 +2,7 @@
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
