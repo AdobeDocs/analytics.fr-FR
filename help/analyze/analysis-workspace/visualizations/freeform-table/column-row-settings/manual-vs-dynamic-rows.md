@@ -1,11 +1,13 @@
 ---
 title: Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre
 description: Interaction avec des éléments de dimension dynamiques et statiques dans des tableaux.
+feature: Tableaux à structure libre
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
