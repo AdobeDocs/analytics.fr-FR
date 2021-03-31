@@ -2,11 +2,12 @@
 title: Bonnes pratiques et résolution des problèmes pour la création de rapports
 description: Bonnes pratiques et conseils de résolution des problèmes lors de la génération de rapports.
 keywords: bonnes pratiques;échec;délai d’expiration;lent
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 99%
 
 ---
 
