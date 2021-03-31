@@ -1,13 +1,14 @@
 ---
 description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 title: Personnalisation des rapports - Aperçu
-topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
+feature: Concepts de base des rapports et analyses
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 99%
 
 ---
 
