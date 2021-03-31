@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez protéger toutes les requêtes d’un classeur contre l’ajout et la modification des demandes en verrouillant le classeur. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace.
 title: Verrouillez/déverrouillez des classeurs
-topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
