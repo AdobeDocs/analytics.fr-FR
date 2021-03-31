@@ -1,11 +1,13 @@
 ---
 description: Fonctionnalités de prise en charge de l’accessibilité dans Analysis Workspace
 title: Accessibilité dans Analysis Workspace
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 82%
+source-wordcount: '666'
+ht-degree: 83%
 
 ---
 
