@@ -1,12 +1,13 @@
 ---
 description: Méthodes pour optimiser le Créateur de rapports et liste des messages d’erreur qui peuvent parfois s’afficher.
 title: Résolution des problèmes et bonnes pratiques pour le Report Builder
-topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1404'
 ht-degree: 80%
 
 ---
