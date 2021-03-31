@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez désormais associer ces deux types de mesures en une seule et même requête, au lieu d’avoir à créer des requêtes distinctes.
 title: Association de mesures de trafic et de commerce dans la même requête
-topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
