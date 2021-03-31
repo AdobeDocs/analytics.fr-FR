@@ -1,11 +1,12 @@
 ---
 title: Utiliser la méthode tl() avec le Activity Map
-description: Vous pouvez utiliser la méthode tl() pour effectuer le suivi des éléments personnalisés et configurer le rendu d’incrustation pour le contenu dynamique.
-topic: Activity Map
+description: Vous pouvez utiliser la méthode tl() pour effectuer le suivi des éléments personnalisés et configurer le rendu des incrustations pour le contenu dynamique.
+feature: Activity Map
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 43%
 
 ---
