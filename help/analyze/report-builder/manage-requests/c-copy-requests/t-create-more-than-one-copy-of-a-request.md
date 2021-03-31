@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez créer plusieurs copies d’une requête d’origine, en remplissant une zone sélectionnée de cellules avec autant de copies de la requête que possible.
 title: Création de plusieurs copies d’une requête
-topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 97%
 
 ---
 
