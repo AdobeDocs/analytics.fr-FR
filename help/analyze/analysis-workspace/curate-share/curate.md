@@ -2,11 +2,13 @@
 description: Le traitement permet de limiter les composants avant de partager un projet.
 keywords: Analysis Workspace
 title: Traitement des projets
+feature: Traitement et partage
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 99%
+source-wordcount: '551'
+ht-degree: 98%
 
 ---
 
