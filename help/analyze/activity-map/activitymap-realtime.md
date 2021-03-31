@@ -1,12 +1,13 @@
 ---
 description: Les analyses des pages en temps réel (mode réel) vous permettent d’obtenir des résultats avec une granularité détaillée en temps réel.
 title: Analyse des pages en temps réel (mode réel)
-topic: Activity map
+feature: Activity Map
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 72%
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
