@@ -1,13 +1,14 @@
 ---
 description: Le mode hors ligne renvoie des données d’espace réservé afin d’accélérer le processus de création et de modification des requêtes.
 title: Mode hors ligne pour la création et la modification de requêtes
-topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
