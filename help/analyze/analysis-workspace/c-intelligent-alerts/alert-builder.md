@@ -2,11 +2,13 @@
 description: Recevez des alertes lorsque les composants du projet atteignent certains seuils.
 title: Générateur d’alertes
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+feature: Outils AI
+role: Professionnel, Administrateur
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
