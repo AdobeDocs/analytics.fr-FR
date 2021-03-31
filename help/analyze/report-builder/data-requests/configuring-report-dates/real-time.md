@@ -1,13 +1,14 @@
 ---
 description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
 title: Rapports en temps réel
-topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 96%
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
