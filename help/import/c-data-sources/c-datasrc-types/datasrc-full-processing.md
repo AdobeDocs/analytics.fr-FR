@@ -1,10 +1,11 @@
 ---
 description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
-title: Traitement complet option pour les sources de données
+title: Traitement complet
+topic: Développeur et mise en œuvre
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '727'
 ht-degree: 98%
 
 ---
