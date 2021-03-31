@@ -2,10 +2,12 @@
 description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '8206'
+source-wordcount: '8211'
 ht-degree: 99%
 
 ---
