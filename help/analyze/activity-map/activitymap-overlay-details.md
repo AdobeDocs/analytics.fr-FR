@@ -1,13 +1,14 @@
 ---
 description: Les détails de la superposition s’affichent lorsque vous survolez une superposition de lien.
 title: Détails de la superposition
-topic: Activity map
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
+feature: Activity Map
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 100%
+source-wordcount: '62'
+ht-degree: 95%
 
 ---
 
