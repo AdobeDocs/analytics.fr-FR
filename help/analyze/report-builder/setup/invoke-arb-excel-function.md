@@ -1,12 +1,13 @@
 ---
 description: Cette fonctionnalité intègre un peu plus l’utilisation du Report Builder dans le processus Excel naturel, sans nécessiter d’accéder à l’interface utilisateur du Report Builder.
 title: Appel de la fonctionnalité Report Builder depuis les fonctions Microsoft Excel
-topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '497'
 ht-degree: 99%
 
 ---
