@@ -1,13 +1,14 @@
 ---
 description: Décrit la procédure à suivre par l’administrateur Analytics pour activer la collecte des liens et le téléchargement par les utilisateurs d’Activity Map.
 title: Activation d’Activity Map
-topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
+feature: Activity Map
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 99%
 
 ---
 
