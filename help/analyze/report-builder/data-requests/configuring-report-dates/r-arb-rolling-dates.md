@@ -1,13 +1,14 @@
 ---
 description: Définition des champs relatifs aux dates roulantes dans le Créateur de rapports.
 title: Définitions de l’Assistant Requête - Dates roulantes
-topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 89%
+source-wordcount: '80'
+ht-degree: 86%
 
 ---
 
