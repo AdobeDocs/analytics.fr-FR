@@ -2,11 +2,13 @@
 description: L’extraction des données vous permet de choisir les paramètres à afficher sur les axes X et Y du rapport, ainsi que l’élément en fonction duquel le rapport sera filtré.
 subtopic: Schedule
 title: Extraction de données
+feature: Concepts de base des rapports et analyses
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 95%
 
 ---
 
