@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez préciser une période en sélectionnant, dans une feuille de calcul, les cellules qui contiennent une requête. Le Créateur de rapports utilise, dans ces requêtes, les informations spécifiques à la période. Si vous sélectionnez la date du jour, vous obtenez des données partielles en fonction de l’heure d’exécution de la requête.
 title: Dates à partir d’une cellule
-topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '169'
+ht-degree: 98%
 
 ---
 
