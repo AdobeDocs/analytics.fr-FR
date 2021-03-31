@@ -1,11 +1,12 @@
 ---
 title: PWA pour Analytics
 description: Applications web progressives pour Adobe Analytics
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 99%
 
 ---
 
