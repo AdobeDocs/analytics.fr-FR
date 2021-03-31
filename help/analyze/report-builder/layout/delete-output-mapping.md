@@ -1,13 +1,14 @@
 ---
 description: Si vous modifiez votre classeur et souhaitez libérer de l’espace pour de nouvelles requêtes, il vous faudra peut-être en supprimer quelques-unes.
 title: Suppression de la correspondance de sortie
-topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 100%
+source-wordcount: '131'
+ht-degree: 97%
 
 ---
 
