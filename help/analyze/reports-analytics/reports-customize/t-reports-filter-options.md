@@ -1,13 +1,14 @@
 ---
 description: Les filtres permettent de limiter le rapport en incluant ou en excluant des éléments de ligne qui correspondent à un filtre.
 title: Filtrage des données de rapport
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Concepts de base des rapports et analyses
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 99%
 
 ---
 
