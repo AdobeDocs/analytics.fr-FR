@@ -2,12 +2,13 @@
 description: Ventilez les dimensions et les éléments de dimension dans Analysis Workspace.
 keywords: Analysis Workspace
 title: Ventilation des dimensions
-topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
+feature: Concepts de base de Workspace
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
