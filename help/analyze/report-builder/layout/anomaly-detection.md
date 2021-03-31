@@ -1,13 +1,14 @@
 ---
 description: La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
 title: Détection des anomalies
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
+feature: Report Builder
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 99%
 
 ---
 
