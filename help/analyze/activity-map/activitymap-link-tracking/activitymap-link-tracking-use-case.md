@@ -1,13 +1,14 @@
 ---
 description: Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: Professionnel, Administrateur
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
