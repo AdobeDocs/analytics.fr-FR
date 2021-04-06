@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
 feature: Concepts de base de Workspace
 role: Professionnel, Administrateur
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
-ht-degree: 99%
+source-wordcount: '8326'
+ht-degree: 98%
 
 ---
-
 
 # Nouveautés d’Analysis Workspace
 
 Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Cloud, cliquez [ici](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr-FR).
+
+## Mars 2021
+
+| Fonctionnalité | Date cible | Description |
+| --- | --- | --- |
+| [!UICONTROL Composants]  > Préférences  [!UICONTROL utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. [!UICONTROL Les ] préférences utilisateur s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page de  [!UICONTROL préférences ] utilisateur :<ul><li>Paramètres de rapport : Séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres de rapport : Séparateur CSV</li><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Panneau vierge _Début de nouveaux projets avec cette option de panneau_</li></ul> |
+| [!UICONTROL Prédiction de segment dynamique de l’histogramme] | 25 mars 2021 | [!UICONTROL La ] prédiction des intervalles dynamiques de l’histogramme aide à utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de intervalles appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
+
 
 ## Février 2021
 
