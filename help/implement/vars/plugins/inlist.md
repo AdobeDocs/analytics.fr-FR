@@ -1,11 +1,11 @@
 ---
 title: inList
 description: Permet de vérifier si une valeur est contenue dans une autre valeur délimitée par des caractères.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -153,7 +153,7 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 
 ### 3.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### v2.1 (26 septembre 2019)
 
