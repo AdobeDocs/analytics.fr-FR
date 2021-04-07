@@ -1,11 +1,11 @@
 ---
 title: addProductEvar
 description: Permet d’ajouter des eVars de marchandisage à la variable products.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: abed7197898d6c27448069350c9f2217d58293c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ s.addProductEvar("eVar1", "blue");
 
 ### 2.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 1.0 (7 octobre 2019)
 
