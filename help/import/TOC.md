@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guide de mise en œuvre d’Analytics
 breadcrumb-title: Guide d’importation
 user-guide-description: 'Insérez des données dans Analytics à partir des sources externes, en masse ou en temps réel. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '535'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 96%
       + [ID de transaction](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [Identifiant visiteur](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [Traitement complet](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
-      + [Fin de vie pour le traitement complet](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+      + [Le traitement complet tire sa révérence](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [Intégration des transactions et des clients](c-data-sources/datasrc-integrating-offline-data.md)
    + [ID de transaction et profils du visiteur](c-data-sources/datasrc-tid-visitor-profile.md)
    + [FAQ sur les sources de données](c-data-sources/datasrc-faq.md)
 + [API d’insertion de données](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Prise en main des Data Connectors Analytics](data-connectors/getting-started-data-connectors.md)
-   + [Fin de vie des connecteurs de données Analytics](data-connectors/data-connectors-eol.md)
+   + [Fin de vie des connecteurs d&#39;Analytics Data Connectors](data-connectors/data-connectors-eol.md)
    + Connecteur de données appFigures pour Adobe Analytics {#appfigures}
       + [Présentation d’appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Avant l’activation de cette intégration](data-connectors/appfigures-overview/appfigures-before-activation.md)
@@ -72,7 +72,7 @@ ht-degree: 96%
       + [Dimensions Demandbase standard](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Dimensions Demandbase personnalisées](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Connecteur de données DFA pour Adobe Analytics {#dfa}
-      + [Informations de fin de vie sur l’intégration DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
+      + [Informations sur la fin de vie de lʼintégration DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Connecteur de données DFA pour Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Conditions préalables](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Fonctions d’intégration](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -130,5 +130,5 @@ ht-degree: 96%
       + [Variables d’intégration Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Intégration de Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Code du plug-in Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ Importer des cas d&#39;utilisation {#use-cases}
-   + [Importer des mesures de recherche payante à l’aide des sources de données](use-cases/paid-search-metrics.md)
++ Cas dʼutilisation dʼimportation {#use-cases}
+   + [Importation des mesures de référencement payant à lʼaide des sources de données](use-cases/paid-search-metrics.md)
