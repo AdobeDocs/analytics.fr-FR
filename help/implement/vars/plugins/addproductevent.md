@@ -1,11 +1,11 @@
 ---
 title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3359ed8e7ef7979be57ca5ec9ca1803fc52afe88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Le code ci-dessus ajoute également `"event35"` à la fin de `s.events` **ou**, 
 
 ### 2.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 1.0 (7 octobre 2019)
 
