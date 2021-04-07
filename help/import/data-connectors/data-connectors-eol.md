@@ -1,9 +1,9 @@
 ---
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Conductor 2.0 | Abandon |
 | ContactLab 2.0 (Contact Send Connector) | Abandon |
 | Coradiant TrueSight | Abandon |
-|  D&amp;B Visitor Intelligence | Abandon |
+| D&amp;B Visitor Intelligence | Abandon |
 | Datran Media | Abandon |
 | Decibel Insight | Abandon |
 | Decipher | Abandon |
