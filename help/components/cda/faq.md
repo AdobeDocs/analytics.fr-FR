@@ -1,11 +1,11 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ L’utilisation du type de périphérique mobile comme illustré ci-dessus vous 
 
 ## Quelle est la durée de regroupement des visiteurs par les analyses entre appareils ?
 
-L&#39;assemblage multipériphériques de l&#39;ADC se produit dans deux processus simultanés.
+Lʼassemblage entre appareils des analyses entre appareils (CDA) se produit dans deux processus simultanés.
 
-* Le premier processus est appelé &quot;assemblage en direct&quot;, qui se produit lorsque les données entrent en flux continu dans Adobe Analytics. Pendant l&#39;assemblage en direct, l&#39;ACD fait de son mieux pour retraiter les données au niveau de la personne. Cependant, si la personne est inconnue au moment de l&#39;assemblage en direct, l&#39;ADC revient à l&#39;ID de visiteur pour représenter la personne.
+* Le premier processus, nommé « assemblage dynamique », se produit quand les données arrivent en flux continu dans Adobe Analytics. Pendant lʼassemblage dynamique, les CDA sʼefforcent de retraiter les données au niveau de la personne. Cependant, si la personne est inconnue lors de lʼassemblage dynamique, les CDA reviennent à lʼidentifiant visiteur pour représenter la personne.
 
-* Le second processus s&#39;appelle &quot;replay&quot;. Au cours de la relecture, l’ADC revient en arrière dans le temps et redéclare les données historiques, si possible, dans une fenêtre de recherche en amont spécifiée. Cette fenêtre de recherche est de 1 jour ou 7 jours, selon la façon dont vous avez demandé la configuration de CDA. Au cours de la relecture, l’ADC tente de retraiter les accès où la personne était inconnue.
+* Le second processus est nommé « relecture ». Au cours de la relecture, les CDA remontent dans le temps et retraitent les données historiques, si possible, au cours dʼun intervalle de recherche en amont spécifié. Cet intervalle de recherche en amont est soit de 1 jour, soit de 7 jours, selon la configuration choisie pour les CDA. Au cours de la relecture, les CDA tentent de retraiter les accès où la personne était précédemment inconnue.
 
 * **Si vous utilisez un graphique d’appareil**, Adobe conserve les mappages de l’appareil dans le graphique Co-op et le graphique Privé pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans les analyses entre appareils ne sont pas affectées, mais les accès ultérieurs pour cet ECID sont considérés comme une nouvelle personne.
 
