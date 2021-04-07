@@ -1,11 +1,11 @@
 ---
 title: getPageName
 description: Permet de créer un pageName facile à lire à partir du chemin d’accès au site web actuel.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ s.pageName = getPageName();
 
 ### 4.2 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 4.1 (17 septembre 2019)
 
