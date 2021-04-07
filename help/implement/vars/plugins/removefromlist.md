@@ -1,11 +1,11 @@
 ---
 title: rfl
 description: Permet de supprimer une valeur spécifique d’une chaîne délimitée par des caractères.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -406,7 +406,7 @@ Pour rappel, le plug-in renvoie uniquement une valeur. Il ne « réinitialise 
 
 ### 2.1 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 2.01 (17 septembre 2019)
 
