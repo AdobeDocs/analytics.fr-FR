@@ -1,11 +1,11 @@
 ---
 title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Si l’objet n’existe pas encore, cette méthode renvoie la valeur `true` et c
 
 ### Exemple 1
 
-Le code suivant vérifie l’existence de l’objet « myobject » dans la page.  Si l’objet « myobject » n’existe pas, le code le crée et renvoie la valeur true.  Par conséquent, le code de l’instruction conditionnelle (c’est-à-dire console.log(&quot;hello&quot;);) s’exécutera.
+Le code suivant vérifie l’existence de l’objet « myobject » dans la page.  Si l’objet « myobject » n’existe pas, le code le crée et renvoie la valeur true.  Par conséquent, le code de l’instruction conditionnelle (c’est-à-dire Console.log(&#39;hello&#39;);) s’exécutera.
 
 D’autre part, si l’objet « myobject » existe déjà au moment de l’appel p_fo, la fonction p_fo renvoie la valeur false et, par conséquent, l’instruction conditionnelle est définie sur false.  Dans ce cas, le code de l’instruction conditionnelle ne s’exécute pas.
 
@@ -85,7 +85,7 @@ if(s.p_fo("myobject"))
 
 ### 3.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 2,0
 
