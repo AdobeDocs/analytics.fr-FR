@@ -1,11 +1,11 @@
 ---
 title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Dès qu’un accès est collecté, l’analyse entre appareils tente de le group
 
 *Données telles qu’elles apparaissent le jour de leur collecte :*
 
-| Horodatage | ECID | evar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
+| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (246) | `2` (246 et Bob) |
@@ -51,16 +51,16 @@ Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (t
 
 ### Groupement de relecture
 
-La relecture se produit tous les jours ou toutes les semaines, selon la façon dont vous avez demandé la configuration de CDA. Au cours de la relecture, CDA tente de retraiter les données historiques dans une fenêtre de recherche en amont définie :
+La relecture est quotidienne ou hebdomadaire, selon la configuration choisie pour les CDA. Pendant la relecture, les CDA tentent de retraiter les données historiques au cours dʼun intervalle de recherche en amont spécifié :
 
-* La relecture quotidienne utilise une fenêtre de recherche en amont d’un jour.
-* La relecture hebdomadaire utilise une fenêtre de recherche en amont de 7 jours.
+* La relecture quotidienne utilise un intervalle de recherche en amont dʼun jour.
+* La relecture hebdomadaire utilise un intervalle de recherche en amont de 7 jours.
 
 Si un appareil envoie des données alors qu’il n’est pas authentifié, puis se connecte, l’analyse entre appareils associe ces accès non authentifiés à la bonne personne. Le tableau suivant représente les mêmes données que ci-dessus, mais affiche des nombres différents à cause de la relecture des données.
 
 *Les mêmes données après relecture :*
 
-| Horodatage | ECID | evar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
+| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (grappe 1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
