@@ -1,11 +1,11 @@
 ---
 title: apl (appendToList)
 description: Permet d’ajouter des valeurs aux variables qui prennent en charge plusieurs valeurs.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d84d53dd237f5bba729c902c8c4980c0288dbbb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -302,7 +302,7 @@ Comme les deux arguments du délimiteur sont différents, la valeur transmise se
 
 ### 4.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 3.2 (25 septembre 2019)
 
