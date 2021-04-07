@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -105,11 +105,11 @@ Si le client se trouve dans le pays africain du Ghana :
 s.eVarX = getTimeParting();
 ```
 
-Le Ghana se trouve dans le fuseau horaire UTC/GMT. Cet exemple montre qu&#39;aucun argument de module externe n&#39;est nécessaire pour UTC/GMT.
+Le Ghana se trouve dans le fuseau horaire UTC/GMT. Cet exemple montre quʼaucun argument de module externe nʼest nécessaire pour les heures UTC/GMT.
 
 ### Prise en compte des navigateurs Internet Explorer
 
-Utilisez l’exemple suivant si vous souhaitez exclure les données de division du temps des Visiteurs Internet Explorer. La valeur renvoyée par les navigateurs IE est uniquement disponible en heure locale pour le visiteur.
+Utilisez lʼexemple suivant si vous souhaitez exclure les données de répartition du temps des visiteurs sous Internet Explorer. La valeur renvoyée par les navigateurs Internet Explorer (IE) est uniquement dans lʼheure locale du visiteur.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Résultats des appels
 
-Supposons qu’un visiteur de Denver Colorado visite un site le 31 août 2020 à 9h15.
+Considérons un scénario dans lequel un visiteur de Denver, dans le Colorado, se rend sur un site le 31 août 2020 à 9 h 15.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -138,7 +138,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.3 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 6.2 (5 novembre 2019)
 
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->Les versions précédentes de ce module externe ne s’adaptaient pas à toutes les années à venir. Si vous utilisez une version précédente de ce module externe, l’Adobe recommande vivement d’effectuer la mise à niveau vers la dernière version afin d’éviter les erreurs JavaScript et la perte de données. Si la mise à niveau de ce module externe n&#39;est pas possible, veillez à ce que la variable `s._tpdst` du code du module contienne les années appropriées à l&#39;avenir.
+>Les versions précédentes de ce module externe ne tenaient pas compte de toutes les années à venir. Si vous utilisez une version précédente de ce module externe, Adobe recommande vivement dʼeffectuer la mise à niveau vers la dernière version afin dʼéviter des erreurs JavaScript et des pertes de données. Si la mise à niveau de ce module nʼest pas possible, veillez à ce que la variable `s._tpdst` du code de module externe contienne les années appropriées dans le futur.
 
 ### 4.0 (22 août 2016)
 
