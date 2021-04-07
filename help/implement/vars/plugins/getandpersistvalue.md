@@ -1,11 +1,11 @@
 ---
 title: getAndPersistValue
 description: Permet de stocker une valeur qui peut être récupérée ultérieurement à tout moment.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2970e05abf0d1f963175db6e3554aa0e3034a70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '934'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ s.eVar30 = s.getAndPersistValue(s.eVar30);
 
 ### 3.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 2.0 (16 avril 2018)
 
