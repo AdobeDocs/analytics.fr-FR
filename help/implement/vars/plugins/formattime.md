@@ -1,11 +1,11 @@
 ---
 title: formatTime
 description: Permet de convertir un nombre de secondes en son équivalent en minutes, heures, etc.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -158,7 +158,7 @@ s.eVar1 = s.formatTime(145, "m", .4);
 
 ### 2.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 1.1 (21 mai 2018)
 
