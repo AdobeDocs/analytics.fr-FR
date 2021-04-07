@@ -1,11 +1,11 @@
 ---
 title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ### 1.1 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 1.0 (2 mai 2018)
 
