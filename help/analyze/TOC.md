@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1012'
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ ht-degree: 0%
    + [Suivi des liens robuste](activity-map/lnk-tracking-overview.md)
    + Suivi des liens {#link-tracking}
       + [Méthodologie de suivi des liens](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [Questions fréquentes sur le suivi des liens](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [FAQ sur le suivi des liens](activity-map/activitymap-link-tracking/link-tracking-faq.md)
       + [Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [Arrêt du suivi des liens](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [Utilisation de la fonction s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
@@ -267,7 +267,7 @@ ht-degree: 0%
    + [Détails de la superposition](activity-map/activitymap-overlay-details.md)
    + [Exportation dans un fichier CSV](activity-map/activitymap-csv.md)
    + [Systèmes pris en charge et configuration requise](activity-map/activitymap-sysreqs.md)
-   + [Questions fréquentes sur Activity Map](activity-map/activitymap-faq.md)
+   + [FAQ sur Activity Map](activity-map/activitymap-faq.md)
    + [Paramétrage d’Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interface utilisateur d’Activity Map](activity-map/activitymap-user-interface.md)
    + [Création de rapports Activity Map dans Analytics](activity-map/activitymap-reporting-analytics.md)
