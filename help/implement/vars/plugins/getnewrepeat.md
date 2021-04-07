@@ -1,11 +1,11 @@
 ---
 title: getNewRepeat
 description: Permet de suivre l’activité des nouveaux visiteurs par rapport aux visiteurs réguliers.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9d44226202cd690d069f9c0c85c8af2ef8fd0106
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ s.eVar1=s.getNewRepeat(365);
 
 ### 3.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 
 ### 2.1 (30 septembre 2019)
 
