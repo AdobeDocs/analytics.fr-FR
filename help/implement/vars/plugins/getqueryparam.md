@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -187,7 +187,7 @@ La valeur de 300 provient de la valeur du paramètre pos de la variable s.testUR
 
 ### 4.0 (19 mars 2021)
 
-* Numéro de version Ajouté en tant que données contextuelles.
+* Ajout du numéro de version comme donnée contextuelle.
 * Suppression des dépendances sur le module externe `pt`.
 
 ### 3.3 (24 septembre 2019)
