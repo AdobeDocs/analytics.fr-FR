@@ -1,14 +1,14 @@
 ---
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
-translation-type: ht
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+translation-type: tm+mt
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 86%
 
 ---
-
 
 # Analyses entre appareils
 
@@ -36,7 +36,7 @@ Voir [Journey IQ : page de lancement des analyses entre appareils](http://adobe
 L’utilisation des analyses entre appareils requiert tous les éléments suivants. Les méthodes [Groupement basé sur les champs](field-based-stitching.md) et [Graphique d’appareil](device-graph.md) comportent également leurs propres conditions préalables.
 
 * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
-* Les analyses entre appareils sont activées sur base des suites de rapports. Adobe recommande une suite de rapports contenant des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (Web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique.
+* Les analyses sur plusieurs périphériques sont activées par suite de rapports. Adobe recommande une suite de rapports contenant des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (Web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique.
 
 ## Limites
 
@@ -45,8 +45,9 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les analyses entre appareils sont uniquement disponibles dans Analysis Workspace.
 * Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Les suites de rapports Adobe Analytics ne peuvent pas mapper à plusieurs organisations IMS. Étant donné que les analyses entre appareils regroupent des appareils dans une suite de rapports donnée, il est impossible de les utiliser pour regrouper des données entre plusieurs organisations IMS.
-* Les analyses entre appareils ne sont actuellement pas compatibles avec les attributs du client. Ces deux fonctionnalités peuvent coïncider dans des suites de rapports virtuelles distinctes qui référencent la même suite de rapports source.
+* Private Graph exploite les mêmes synchronisations d’ID que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) de l’Experience Cloud et de Adobe Analytics. Cependant, les suites de rapports virtuelles CDA (qu’elles soient basées sur un graphique privé ou sur un assemblage basé sur un champ) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour une utilisation dans les suites de rapports virtuelles de l’ACD.
 * Pour le moment, les analyses entre appareils ne sont pas compatibles avec A4T.
 * Les analyses entre appareils utilisent une suite de rapports virtuelle et le traitement du temps de la période de rapport, qui ont leurs propres limites. Voir [Suites de rapports virtuelles](../vrs/vrs-about.md) et [traitement de la période de rapport](../vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
+* La surveillance principale du processus d&#39;assemblage de l&#39;ACD par Adobe est limitée aux Report Suites de production seulement.
