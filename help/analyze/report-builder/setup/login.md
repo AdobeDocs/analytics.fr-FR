@@ -3,21 +3,21 @@ description: Découvrez comment vous connecter au Report Builder à l’aide de 
 title: Comment se connecter au Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Ouverture de session dans le Report Builder
 
 >[!IMPORTANT]
 >
->Les versions 5.6.47 et ultérieures du Report Builder prennent en charge la connexion des Experience Cloud uniquement et ne prennent pas en charge les connexions héritées telles que la connexion unique à SiteCatalyst ou la connexion standard. D’ici le 30 avril 2021, tous les utilisateurs du Report Builder doivent mettre à jour l’Ajoute de Report Builder vers la version 5.6.47 ou ultérieure, ce qui inclut une mise à jour critique du processus de connexion.
+>Les versions 5.6.47 et ultérieures du Report Builder prennent en charge la connexion des Experience Cloud uniquement et ne prennent pas en charge les connexions héritées telles que la connexion unique à SiteCatalyst ou la connexion standard. **D’ici le 22 juillet 2021, tous les utilisateurs du Report Builder doivent mettre à jour l’Ajoute de Report Builder vers la version 5.6.47 ou ultérieure, ce qui inclut une mise à jour critique du processus de connexion.**
 
 Pour vous connecter au Report Builder, utilisez votre compte de connexion Experience Cloud.
 
@@ -43,4 +43,3 @@ Pour vous connecter au Report Builder
    * Cliquez sur une requête en doublon dans Excel.
 
 1. Renseignez les champs de la page [!UICONTROL Connexion], puis cliquez sur **[!UICONTROL OK]**.
-
