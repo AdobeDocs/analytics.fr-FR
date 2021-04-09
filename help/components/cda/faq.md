@@ -1,14 +1,14 @@
 ---
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # Questions fréquentes
 
@@ -97,3 +97,11 @@ Si vous souhaitez changer de méthode d’identification d’analyses entre appa
 ## Comment Adobe gère-t-il les limites uniques d’une eVar utilisée dans un groupement basé sur les champs ?
 
 Les analyses entre appareils extraient les éléments de dimension eVar avant de les optimiser pour les rapports. Vous n’avez pas à vous inquiéter des limites uniques à des fins d’analyses entre appareils. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md).
+
+## Combien de suites de rapports de ma société peuvent être activées pour l’ADC ?
+
+Il est possible d’activer plusieurs suites de rapports. Toutefois, chaque suite de rapports supplémentaire augmentera le temps de mise en service général si plusieurs suites de rapports sont demandées à la fois. CDA ne fusionne pas les suites de rapports. Chaque suite de rapports activée pour CDA doit être de nature inter-périphériques (contenant des données provenant de plusieurs surfaces telles que le web pour ordinateur, le web mobile, les applications mobiles, etc.)
+
+## Si mon organisation Experience Cloud (ou organisation IMS) a plusieurs sociétés dans différentes régions, puis-je activer l&#39;ACD pour toutes ?
+
+Non. Pour la même organisation, seule une région peut avoir activé l&#39;ADC.
