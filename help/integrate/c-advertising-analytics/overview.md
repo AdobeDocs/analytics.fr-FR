@@ -1,18 +1,18 @@
 ---
 description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics dans ce guide détaillé, qui revient notamment sur les autorisations requises et les dimensions et mesures disponibles.
 title: Guide d’Advertising Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Guide d’Advertising Analytics
 
-Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous obtiendrez maintenant les données suivantes dans Adobe Analytics : Impressions, Clics, Coûts, Note de qualité et Position moyenne directement à partir des moteurs de recherche ainsi que les Instances AMO ID (cliquez sur Instances).
+Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous allez maintenant obtenir les données suivantes en Adobe Analytics : Impressions, clics, coûts des données directement à partir des moteurs de recherche, ainsi que d’une instance d’identifiant AMO (Instances de clic). La note de qualité et les positions moyennes ne seront plus collectées car Google a dépercé ces mesures en septembre 2019.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis
 | Impressions AMO | Le nombre d’impressions d’annonces comme indiqué par le moteur de recherche. |
 | Clics AMO | Le nombre de clics sur les annonces comme indiqué par le moteur de recherche. |
 | Coût AMO | Le coût payé pour chaque mot-clé/annonce comme indiqué par le moteur de recherche. |
-| Pos. moy. | Une mesure calculée qui reflète la position moyenne des annonces comme indiqué par le moteur de recherche. |
-| Temps moyen note de qualité moyenne | Une mesure calculée qui reflète la note de qualité moyenne comme indiqué par le moteur de recherche. |
