@@ -1,20 +1,20 @@
 ---
 title: Fin de vie des sources de données à traitement complet
 description: Raisons de la fin de vie et comparaisons entre l’API d’insertion de données en bloc et les sources de données à traitement complet.
+exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1208'
 ht-degree: 32%
 
 ---
-
 
 # Fin de vie des sources de données à traitement complet
 
 Depuis plusieurs années, la fonctionnalité Sources de données à traitement complet vous permet d’envoyer des données au niveau de l’accès à Adobe Analytics. Ces données ont été traitées de la même manière que les données collectées via nos bibliothèques JavaScript et notre SDK d’application mobile. En 2020, Adobe a publié l&#39;[API d&#39;insertion de données en bloc](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), qui exécute les mêmes fonctions que les sources de données à traitement complet, mais avec des fonctionnalités supplémentaires. Cette rubrique fournit des détails sur les fonctionnalités supplémentaires fournies par l&#39;API d&#39;insertion de données en bloc et décrit les différences de formats de fichier.
 
-À compter du 25 mars 2021, l’Adobe empêchera la création de nouvelles connexions de sources de données à traitement complet. Les connexions existantes continueront d’être prises en charge jusqu’à ce que le service soit complètement abandonné. La dépréciation aura lieu en 2021, bien qu&#39;une date précise n&#39;ait pas encore été fixée.
+À compter du 25 mars 2021, l’Adobe empêchera la création de nouvelles connexions de sources de données à traitement complet. Les connexions existantes continueront d’être prises en charge jusqu’à ce que le service soit complètement abandonné le 31 juillet 2021.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
