@@ -2,20 +2,20 @@
 description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 title: Traitement complet
 topic: Développeur et mise en œuvre
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 97%
 
 ---
-
 
 # Traitement complet
 
 >[!IMPORTANT]
 >
->Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Adobe prévoit de rendre obsolètes les sources de données à traitement complet. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. L’Adobe prévoit d’abandonner les sources de données à traitement complet le 31 juillet 2021. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -256,4 +256,3 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
  </tbody> 
 </table>
-
