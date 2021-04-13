@@ -3,7 +3,7 @@ title: Fin de vie des sources de données à traitement complet
 description: Raisons de la fin de vie et comparaisons entre l’API d’insertion de données en bloc et les sources de données à traitement complet.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 32%
@@ -65,8 +65,8 @@ Pour plus d’informations, voir la comparaison suivante des valeurs de champ di
 | linkName | linkName | Nom du lien. |
 | linkType | linkType | Type de lien. Les valeurs acceptables sont : `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF du lien. |
-| Liste Par exemple, liste2. | Non pris en charge | Liste délimitée de valeurs transmises à une variable, puis signalées comme lignes individuelles pour la création de rapports. |
-| marketingCloudVisitorID | Non pris en charge | Marketing Cloud ID. Voir [Identification du Visiteur](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) et le service d’identification du Visiteur Marketing Cloud. |
+| Liste Par exemple, liste2. | Non pris en charge | Liste délimitée de valeurs transmises à une variable, puis signalées comme lignes individuelles pour la création de rapports |
+| marketingCloudVisitorID | Non pris en charge | Marketing Cloud ID. Voir [Identification du Visiteur](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) et service d’identification du Visiteur Marketing Cloud. |
 | Non pris en charge | charSet | Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. |
 | Non pris en charge | clickAction | Identificateur d’objet pour la carte des clics des visiteurs (oid). |
 | Non pris en charge | clickActionType | Type d’identificateur d’objet pour la carte des clics des visiteurs (oidt). |
@@ -76,7 +76,7 @@ Pour plus d’informations, voir la comparaison suivante des valeurs de champ di
 | Non pris en charge | clickTag | Nom de balise d’objet pour la carte des clics des visiteurs (ot). |
 | Non pris en charge | scXmlVer | Numéro de version de requête XML des rapports marketing (par exemple, 1.0). |
 | Non pris en charge | timezone | Décalage du fuseau horaire du visiteur par rapport à GMT, en heures (ex. : -8). |
-| pageName | pageName | Nom de la page. |
+| pageName | pageName | Nom de la page |
 | pageType | pageType | Type de page (ex. : &quot;Page d’erreur&quot;). |
 | pageURL | pageURL | URL de la page (par exemple, https://www.example.com/index.html). |
 | plugins | plugins | Liste de noms de modules complémentaires de navigateur séparés par des points-virgules. |
