@@ -5,10 +5,10 @@ feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 70%
+source-wordcount: '465'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Pour les **nouveaux** projets qui n’ont jamais été enregistrés, les modific
 
 ## Ouvrir la version précédente {#previous-version}
 
+>[!NOTE]
+>
+>Les versions précédentes du projet sont actuellement en version limitée.
+
 Pour ouvrir une version précédente d&#39;un projet :
 
-1. Accéder à Projet > Ouvrir la version précédente
-1. Examinez la liste des versions antérieures disponibles. Horodatage et éditeur sont fournis, en plus des notes si elles ont été ajoutées lors de l’enregistrement de l’éditeur. Les versions sans notes sont stockées pendant 90 jours ; les versions contenant des notes sont conservées pendant 1 an.
-1. Sélectionnez une version précédente et cliquez sur Charger.
-1. La version précédente se charge avec une notification. La version précédente ne deviendra pas la version enregistrée actuelle de votre projet tant que vous n&#39;aurez pas cliqué sur Enregistrer. Si vous quittez la version chargée, lorsque vous revenez, vous verrez la dernière version enregistrée du projet.
+1. Accédez à **[!UICONTROL Projet]** > **[!UICONTROL Ouvrir la version précédente]**
+1. Examinez la liste des versions antérieures disponibles.
+    Timestampand et   Editorare sont affichés, en plus de   Notess&#39;ils ont été ajoutés quand l&#39;  éditeur a été enregistré. Les versions sans notes sont stockées pendant 90 jours ; les versions contenant des notes sont conservées pendant 1 an.
+1. Sélectionnez une version précédente et cliquez sur **[!UICONTROL Charger]**.
+La version précédente se charge ensuite avec une notification. La version précédente ne devient la version enregistrée actuelle de votre projet que lorsque vous cliquez sur **[!UICONTROL Enregistrer]**. Si vous quittez la version chargée, lorsque vous revenez, vous verrez la dernière version enregistrée du projet.
