@@ -1,20 +1,20 @@
 ---
-description: Découvrez les différentes options d’enregistrement, notamment l’enregistrement automatique, Enregistrer sous et l’enregistrement en tant que modèle.
+description: Découvrez les différentes options d’enregistrement, notamment l’enregistrement automatique, l’enregistrement en tant que modèle, l’enregistrement en tant que modèle et l’ouverture des versions précédentes.
 title: Enregistrement des projets
 feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 69%
+ht-degree: 54%
 
 ---
 
 # Enregistrement des projets
 
-Pour enregistrer vos modifications dans un projet, accédez au menu **[!UICONTROL Projet]** de Workspace. En outre, Adobe enregistre automatiquement les projets dans certains cas.
+Pour enregistrer vos modifications dans un projet, accédez au menu **[!UICONTROL Projet]** de Workspace. Workspace enregistre également automatiquement les projets dans certains cas.
 
 ## Options d’enregistrement des projets {#Save}
 
@@ -22,8 +22,8 @@ Il existe différentes actions d’enregistrement que vous pouvez effectuer sous
 
 | Action | Description |
 |---|---| 
-| **[!UICONTROL Enregistrer]** | Enregistrez les modifications apportées au projet. Si le projet est partagé, les destinataires du projet verront également les modifications. Lorsque vous enregistrez le projet pour la première fois, vous êtes invité à lui attribuer un nom, une description (facultative) et à ajouter des balises (facultatives). |
-| **[!UICONTROL Enregistrer avec les notes]** | Avant l’enregistrement de votre projet, ajoutez des remarques sur les modifications apportées au projet. Les notes seront stockées avec la version du projet et sont disponibles pour tous les éditeurs sous Project > Open previous version. |
+| **[!UICONTROL Enregistrer]** | Enregistrez les modifications apportées au projet. Si le projet est partagé, les destinataires du projet verront également les modifications. Lorsque vous enregistrez votre projet pour la première fois, vous êtes invité à lui attribuer un nom, une description (facultative) et à ajouter des balises (facultatives). |
+| **[!UICONTROL Enregistrer avec les notes]** | Avant l’enregistrement de votre projet, ajoutez des remarques sur les modifications apportées au projet. Les notes sont stockées avec la version du projet et sont disponibles pour tous les éditeurs sous [!UICONTROL Project] > [!UICONTROL Ouvrir la version précédente]. |
 | **[!UICONTROL Enregistrer sous]** | Créez un doublon du projet. Le projet d’origine ne sera pas affecté. |
 | **[!UICONTROL Enregistrer en tant que modèle]** | Enregistrez votre projet comme [modèle personnalisé](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) disponible pour votre entreprise sous **[!UICONTROL Projet > Nouveau]** |
 
@@ -49,7 +49,7 @@ Le navigateur signale que les modifications non enregistrées seront perdues. Vo
 
 ### Blocage du navigateur ou expiration d’une session
 
-Pour les projets **existants**, lorsque l’utilisateur revient à Workspace, une fenêtre modale de **récupération du projet** s’affiche. Sélectionnez « Oui » pour restaurer le projet à partir de la copie locale enregistrée automatiquement. Sélectionnez « Non » pour supprimer la copie locale enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
+Pour les projets **existants**, lorsque vous revenez à Workspace, un module de récupération de projet **** s&#39;affiche. Si vous sélectionnez Oui, le projet est restauré à partir de la copie locale enregistrée automatiquement. Sélectionnez « Non » pour supprimer la copie locale enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
 
 ![](assets/project-recovery.png)
 
