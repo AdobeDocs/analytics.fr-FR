@@ -2,16 +2,16 @@
 description: Vous pouvez importer (télécharger) des données de classification à l’aide du navigateur. Cette méthode limite le téléchargement des données de classification à une seule suite de rapports.
 subtopic: Classifications
 title: Importation navigateur
-topic: Admin tools
+feature: Outils d’administration
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # Importation navigateur
 
@@ -51,7 +51,7 @@ Vous pouvez importer (télécharger) des données de classification à l’aide 
   </tr> 
   <tr> 
    <td colname="col1"> Télécharger automatiquement le fichier de classification après la fin de l’importation </td> 
-   <td colname="col2"> <p>Télécharge automatiquement un fichier délimité par des tabulations qui représente le jeu de données avec les données de classification nouvellement chargées. Adobe génère automatiquement ce fichier si l’importation crée des identifiants uniques ou en cas d’erreurs. </p> </td> 
+   <td colname="col2"> <p>Télécharge automatiquement un fichier délimité par des tabulations qui représente le jeu de données avec les données de classification nouvellement chargées. Adobe génère automatiquement ce fichier si l’importation crée des ID uniques ou en cas d’erreurs. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Vérifiez les messages de traitement dans la fenêtre d’état.
 1. (Sous condition) Si vous avez sélectionné **[!UICONTROL Télécharger automatiquement le fichier de classification au terme du téléchargement vers le serveur]**, indiquez où stocker le fichier obtenu une fois l’importation terminée.
 >Une importation réussie affiche immédiatement les modifications adéquates dans une exportation. Toutefois, les modifications des données dans les rapports peuvent prendre jusqu’à quatre heures pour s’afficher en cas d’importation avec l’option Navigateur (et jusqu’à 24 heures en cas d’importation FTP).
-
