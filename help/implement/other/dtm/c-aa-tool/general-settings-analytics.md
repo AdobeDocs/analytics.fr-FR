@@ -2,16 +2,16 @@
 description: Description des champs pour les paramètres Général dans le gestionnaire dynamique de balises, pour déploiement d’Adobe Analytics.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;paramètres généraux;conformité ue;jeu de caractères;code de devise;serveur de suivi;serveur de suivi ssl
 title: Général
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
+exl-id: f63e83bf-be87-4ea2-ba04-5c152e5d16d3
 translation-type: tm+mt
-source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
 ---
-
 
 # Général
 
@@ -63,4 +63,3 @@ Description des champs pour les paramètres Général dans DTM, pour déploiemen
   </tr> 
  </tbody> 
 </table>
-
