@@ -1,16 +1,16 @@
 ---
 description: Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 title: File d’attente des rapports planifiés
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # File d’attente des rapports planifiés
 
