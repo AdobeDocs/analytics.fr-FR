@@ -3,14 +3,14 @@ description: Cette section comprend des informations sur les problèmes courants
 keywords: Flux de données ; résolution des problèmes
 title: Résolution des problèmes liés aux flux de données
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 99%
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # Résolution des problèmes liés aux flux de données
 
@@ -72,3 +72,9 @@ Certains opérateurs mobiles (tels que T-Mobile et O1) ne fournissent plus d’i
 ## Aperçu du traitement de données {#section_6346328F8D8848A7B81474229481D404}
 
 Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les accès concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec horodatages compris dans cette tranche horaire, les compressent et les envoient via FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec horodatages compris dans cette tranche horaire, le processus fait une nouvelle tentative avec la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les accès qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
+
+## Formats de flux de données &quot;horaire&quot; ou &quot;quotidien&quot;
+
+Pour les données de plus de 7 jours, les fichiers &quot;Horaire&quot; d’une journée sont combinés dans un seul fichier &quot;Quotidien&quot;.
+
+Exemple : Un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont fournies sous la forme &quot;Horaire&quot;. Cependant, les fichiers &quot;Horaire&quot; antérieurs au 2 mars 2021 sont combinés en un seul fichier &quot;Quotidien&quot;. Vous pouvez extraire des fichiers &quot;Horaire&quot; uniquement à partir de données qui datent de moins de 7 jours à compter de la date de création. Dans ce cas, du 2 mars au 9 mars.
