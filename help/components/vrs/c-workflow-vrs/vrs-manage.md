@@ -2,16 +2,16 @@
 description: Le Gestionnaire de suites de rapports virtuelles permet aux administrateurs de modifier, ajouter, baliser, supprimer, renommer, approuver, copier, exporter et filtrer des suites de rapports virtuelles. Il n’est pas visible par les utilisateurs qui ne sont pas administrateurs.
 keywords: Suite de rapports virtuelle
 title: Gestion des suites de rapports virtuelles
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 99%
 
 ---
-
 
 # Gestion des suites de rapports virtuelles
 
