@@ -2,16 +2,16 @@
 description: Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
 keywords: event
 title: Événements de succès - Aperçu
-topic: Admin tools
+feature: Outils d’administration
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
+exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '718'
 ht-degree: 100%
 
 ---
-
 
 # Événements de succès - Aperçu
 
@@ -53,4 +53,3 @@ La page Événements de succès vous permet de configurer les variables Événem
 | Enregistrement d’événement unique | **Enregistrer une fois par visite** : Lie l’événement donné à la session du visiteur. Les comptes suivants effectués sur un événement donné au cours d’une même visite sont ignorés. Ce type de sérialisation d’événement ne nécessite aucune modification de l’implémentation.<br>**Utiliser l’ID d’événement :** Lie l’événement donné à un ID personnalisé. Les comptes suivants effectués sur un événement donné avec le même ID d’événement sont ignorés. Ce type de sérialisation d’événement nécessite un identifiant personnalisé dans les accès pour dédupliquer les valeurs. Voir [Sérialisation des ID d’événements](../../../implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre. |
 | Participation | Accorde un crédit d’attribution complet à tous les éléments de dimension de la visite. |
 | Avertissement (événement de devise) | Lorsque vous définissez un événement sur le type monétaire ou définissez ce type d’événement sur un autre, un message s’affiche pour vous informer que les données historiques ne sont pas disponibles dans les rapports.  Les différents types d’événement utilisent des tableaux de données distincts, et ne peuvent pas être utilisés simultanément. Certaines données historiques peuvent être restaurées si l’utilisateur rétablit le type d’événement. Cependant, les données collectées après la modification initiale ne sont pas disponibles. Soyez prudent lorsque vous changez un type d’événement. |
-
