@@ -1,16 +1,16 @@
 ---
 description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport.
 title: Valeur de faible trafic dans Adobe Analytics
-topic: Metrics
+feature: Mesures
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 94%
 
 ---
-
 
 # Valeur de faible trafic dans Adobe Analytics
 
