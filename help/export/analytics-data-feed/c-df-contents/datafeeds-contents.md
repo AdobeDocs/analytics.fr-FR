@@ -7,7 +7,7 @@ feature: Concepts de base des rapports et analyses
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -116,7 +116,7 @@ Après extraction, chaque fichier de données contient un fichier `hit_data.tsv`
 
 Lorsque les données sont collectées pour une heure, vous recevez un fichier de données compressé unique et un fichier de manifeste. Le fichier de données s’intitule :
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Après extraction, le fichier de données contient un fichier `hit_data.tsv` unique qui contient toutes les données pour cette heure, ainsi que les fichiers de recherche pour toutes les colonnes demandées.
 
@@ -124,7 +124,7 @@ Après extraction, le fichier de données contient un fichier `hit_data.tsv` uni
 
 Lorsque les données sont collectées pour une heure, vous recevez un ou plusieurs fichiers de données compressés et un fichier de manifeste. Le fichier de données s’intitule :
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Après extraction, chaque fichier de données contient un fichier unique `hit_data.tsv` qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
 
