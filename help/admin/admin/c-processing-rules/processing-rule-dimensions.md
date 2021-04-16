@@ -2,16 +2,16 @@
 description: Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’aide de règles de traitement.
 subtopic: Processing rules
 title: Dimensions disponibles pour les règles de traitement
-topic: Admin tools
+feature: Outils d’administration
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '744'
 ht-degree: 86%
 
 ---
-
 
 # Dimensions disponibles pour les règles de traitement
 
@@ -219,4 +219,3 @@ Les règles de traitement peuvent définir des événements, mais elles ne peuve
   </tr> 
  </tbody> 
 </table>
-
