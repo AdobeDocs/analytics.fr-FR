@@ -2,16 +2,16 @@
 description: Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
 subtopic: Marketing channels
 title: Gestion des canaux marketing
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # Gestion des canaux marketing
 
@@ -90,4 +90,3 @@ Lors d’une [configuration automatique](/help/components/c-marketing-channels/c
 >Adobe conseille de définir le rapport dans une suite de rapports à utiliser comme modèle pour les tests. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
 >
 >Reportez-vous à la section [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
