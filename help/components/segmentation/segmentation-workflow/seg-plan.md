@@ -1,16 +1,16 @@
 ---
 description: Présente les étapes et bonnes pratiques à suivre lors de la planification de vos segments.
 title: Planification des segments
-topic: Segments
+feature: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Planification des segments
 
@@ -29,4 +29,3 @@ Si vous consacrez du temps à la planification des filtres, vous augmentez les c
 
 1. Déterminez comment vous souhaitez que votre **processus d’approbation** se déroule. Est-ce qu’une seule personne consultera et approuvera les segments ou s’agira-t-il d’une décision en comité ?
 1. Définissez vos segments avec une vue sur une **bibliothèque de segments** qui permet aux utilisateurs [d’empiler](/help/components/segmentation/segmentation-workflow/seg-build.md) et de réutiliser, de manière modulaire, des parties de segments ou des composants. Quels « modules » devez-vous définir pour faire de cette bibliothèque une réalité ?
-
