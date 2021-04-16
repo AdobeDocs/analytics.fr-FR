@@ -1,16 +1,16 @@
 ---
 description: Définit des paramètres courants pour un site Web qui fournit des vidéos et articles d’assistance sur un produit.
 title: Média d’assistance
-topic: Admin tools
+feature: Outils d’administration
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 100%
 
 ---
-
 
 # Média d’assistance
 
@@ -46,4 +46,3 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Pages vues | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques par jour | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques | Compteur (sans sous-relations) | S.O. |
-
