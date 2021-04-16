@@ -1,16 +1,16 @@
 ---
 description: Description de la procédure de création d’une suite de rapports de cumul.
 title: Création d’une suite de rapports de cumul
-topic: Outils d’administration
+feature: Outils d’administration
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
+exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 translation-type: tm+mt
-source-git-commit: 42cdbdafdafb94b336253ff49dfa2fb77ed9f339
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 76%
 
 ---
-
 
 # Création d’une suite de rapports de cumul
 
