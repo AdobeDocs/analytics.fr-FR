@@ -2,16 +2,16 @@
 description: La variable de conversion Aperçu personnalisé (ou eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
 keywords: eVar
 title: Variables de conversion (eVar)
-topic: Admin tools
+feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
+exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1582'
 ht-degree: 100%
 
 ---
-
 
 # Variables de conversion (eVars)
 
