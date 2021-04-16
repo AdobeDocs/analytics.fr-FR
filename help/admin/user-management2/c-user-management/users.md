@@ -2,16 +2,16 @@
 description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 subtopic: Users and groups
 title: Gestion des utilisateurs - Aperçu
-topic: Admin tools
+feature: Outils d’administration
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des utilisateurs - Aperçu
 
@@ -95,4 +95,3 @@ Crée un tableau de bord par défaut pour une suite de données spécifique.
 | [!UICONTROL Message personnalisé] | Ajoute du contenu au message de bienvenue. Le champ du message personnalisé prend en charge le langage HTML, mais vous ne pouvez pas inclure de pièces jointes. |
 | [!UICONTROL Prévisualiser le message] | Affiche le courriel de bienvenue dans une fenêtre de navigation distincte. |
 | [!UICONTROL Définir comme message de bienvenue par défaut] | Modifie le message de bienvenue par défaut pour inclure le contenu personnalisé renseigné dans le volet Message personnalisé. |
-
