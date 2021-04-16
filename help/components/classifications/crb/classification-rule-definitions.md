@@ -2,16 +2,16 @@
 description: Définition des éléments d’interface sur les pages du créateur de règles de classification.
 subtopic: Classifications
 title: Règles de classification – Définitions
-topic: Admin tools
+feature: Outils d’administration
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # Règles de classification – Définitions
 
@@ -144,4 +144,3 @@ Cette page vous permet de tester des règles d’un jeu.
 |---|---|
 | Exécuter le test | Lorsque vous testez le jeu de règles, utilisez des clés du rapport afin de déterminer l’impact sur celles-ci. |
 | Filtrer | Filtre les valeurs du panneau [!UICONTROL Résultats]. |
-
