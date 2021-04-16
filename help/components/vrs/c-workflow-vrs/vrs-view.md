@@ -2,16 +2,16 @@
 description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
 keywords: Suite de rapports virtuelle
 title: Affichage des informations relatives à une suite de rapports virtuelle
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
-
 
 # Affichage des informations relatives à une suite de rapports virtuelle
 
@@ -27,4 +27,3 @@ Lorsque vous cliquez sur l’icône Informations située en regard de la suite d
 * Nombre total de visiteurs uniques.
 
 ![](assets/vrs-info.png)
-
