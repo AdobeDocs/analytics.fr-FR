@@ -1,16 +1,16 @@
 ---
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Créer une demande dans Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
+exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 100%
 
 ---
-
 
 # Créer une demande dans Data Warehouse
 
