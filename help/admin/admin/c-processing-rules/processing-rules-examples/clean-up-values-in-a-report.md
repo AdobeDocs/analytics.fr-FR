@@ -2,16 +2,16 @@
 description: Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
 subtopic: Processing rules
 title: Nettoyer les valeurs d’un rapport
-topic: Admin tools
+feature: Outils d’administration
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
+exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # Nettoyer les valeurs d’un rapport
 
@@ -27,4 +27,3 @@ Pour éviter toute correspondance accidentelle avec d’autres valeurs, utilisez
 Par exemple :
 
 ![](assets/clean-up-values-in-report.png)
-
