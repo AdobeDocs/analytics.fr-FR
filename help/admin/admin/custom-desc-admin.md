@@ -1,16 +1,16 @@
 ---
 description: Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars, les props, les classifications et les événements. Les descriptions sont visibles pour tous les utilisateurs finaux.
 title: Descriptions des rapports personnalisés
-topic: Admin tools
+feature: Outils d’administration
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
+exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # Descriptions des rapports personnalisés
 
@@ -36,4 +36,3 @@ La description est visible à deux emplacements :
 * Sous la forme d’une info-bulle lorsque vous survolez le rapport avec le curseur dans la navigation de gauche :
 
    ![](assets/report_description_3.png)
-
