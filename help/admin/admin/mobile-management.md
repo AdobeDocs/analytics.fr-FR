@@ -1,15 +1,15 @@
 ---
 description: Activer la gestion des applications permet d’activer les variables des solutions mobiles qui capturent le cycle de vie et d’autres mesures des applications mobiles.
 title: Gestion des applications
-topic: Admin tools
+feature: Outils d’administration
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des applications
 
@@ -81,4 +81,3 @@ Les classifications permettent de catégoriser des valeurs dans des groupes et d
 | Message en ligne in-app |  |
 | Abonnement push |  |
 | ID de données utiles |  |
-
