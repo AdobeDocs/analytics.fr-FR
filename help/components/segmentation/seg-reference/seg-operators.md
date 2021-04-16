@@ -1,16 +1,16 @@
 ---
 description: Le Créateur de segments permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés.
 title: Opérateurs de comparaison pour les segments
-topic: Segments
+feature: Segments
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Opérateurs de comparaison pour les segments
 
@@ -49,10 +49,9 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | est supérieur à | Renvoie les éléments dont le nombre est supérieur à la valeur saisie. |
 | est supérieur ou égal à | Renvoie les éléments dont le nombre est supérieur ou égal à la valeur saisie. |
 | **Comptage distinct** | Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ». |
-| est égal à | Renvoie les éléments de dimension dont le nombre unique est égal à la valeur saisie. |
-| n’est pas égal à | Renvoie les éléments de dimension dont le nombre unique n’est pas égal à la valeur saisie. |
-| est supérieur à | Renvoie les éléments de dimension dont le nombre est supérieur à la valeur saisie. |
-| est inférieur à | Renvoie les éléments de dimension dont le nombre est inférieur à la valeur saisie. |
-| est supérieur ou égal à | Renvoie les éléments de dimension dont le nombre est supérieur ou égal à la valeur saisie. |
-| est inférieur ou égal à | Renvoie les éléments de dimension dont le nombre est inférieur ou égal à la valeur saisie. |
-
+| est égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est égal à la valeur saisie. |
+| n’est pas égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques n’est pas égal à la valeur saisie. |
+| est supérieur à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur à la valeur saisie. |
+| est inférieur à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur à la valeur saisie. |
+| est supérieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur ou égal à la valeur saisie. |
+| est inférieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur ou égal à la valeur saisie. |
