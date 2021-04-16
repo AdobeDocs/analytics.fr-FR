@@ -2,16 +2,16 @@
 description: Conditions préalables à l’utilisation du connecteur de données DFA avec Adobe Analytics.
 keywords: DFA
 title: Conditions préalables
-topic: Connecteurs de données
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
 
 ---
-
 
 # Conditions préalables {#prerequisites}
 
@@ -31,4 +31,3 @@ Avant de commencer l’intégration des Data Connectors Adobe pour DFA, procéde
 * (Facultatif) Identifiez les événements Reports &amp; Analytics qui stockeront les données de coûts DFA. Vous pouvez renommer ces événements de manière appropriée.
 * (Facultatif) Identifiez une variable personnalisée Reports &amp; Analytics et l’événement de succès qui stockeront les erreurs et dépassements de délai DFA. Ces variables permettent de diagnostiquer les problèmes susceptibles de se produire avec l’intégration.
 * (Facultatif) Créez un compte de messagerie spécial où recevoir des informations et des notifications liées à l’intégration des Data Connectors pour DFA.
-
