@@ -2,16 +2,16 @@
 description: Après avoir copié les données appropriées dans le fichier de modèle de classification, vous pouvez les importer (télécharger) dans des serveurs de collecte de données Adobe.
 subtopic: Classifications
 title: Importation navigateur et FTP
-topic: Admin tools
+feature: Outils d’administration
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
+exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '116'
 ht-degree: 100%
 
 ---
-
 
 # Importation navigateur et FTP
 
