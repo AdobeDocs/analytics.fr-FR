@@ -1,16 +1,16 @@
 ---
 description: Si vous avez copié des paramètres d’une suite de rapports existante, un message système identifie tout paramètre non copié dans la nouvelle suite.
 title: Paramètres non copiés depuis une suite de rapports source
-topic: Admin tools
+feature: Outils d’administration
 uuid: 5176c561-a278-43e4-837f-a17759985d52
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Paramètres non copiés depuis une suite de rapports source
 
@@ -70,4 +70,3 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
   </tr> 
  </tbody> 
 </table>
-
