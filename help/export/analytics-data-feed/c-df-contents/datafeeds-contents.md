@@ -3,16 +3,16 @@ description: Cette section décrit les fichiers qui figurent dans une diffusion 
 keywords: Flux de données ; tâche ; contenu ; manifeste ; fichier ; recherche ; données d’accès ; contenu de la diffusion
 subtopic: data feeds
 title: Contenu du flux de données - Aperçu
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
+exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '746'
 ht-degree: 98%
 
 ---
-
 
 # Contenu du flux de données - Aperçu
 
