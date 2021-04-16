@@ -2,16 +2,16 @@
 description: Utilisez Dynamic Tag Management pour ajouter du code d’en-tête et de pied de page qui détermine le chargement de code JavaScript et de contenu de page sur votre site. Vous devez placer le code d’en-tête et de pied de page dans chaque page de votre site, quelle que soit l’option d’hébergement utilisée.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;code;code page;code d’en-tête;code de pied de page;onglet incorporer;incorporer
 title: Ajout de code d’en-tête et de pied de page
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
+exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 
 ---
-
 
 # Ajout de code d’en-tête et de pied de page
 
@@ -47,4 +47,3 @@ Dynamic Tag Management crée du code incorporé d’évaluation et de production
    >[!NOTE]
    >
    >L’ajout du suffixe [!DNL -staging] au nom de fichier du fragment de code d’évaluation permet de le distinguer du fragment de code de production. Le code de pied de page est identique dans les versions d’évaluation et de production.
-
