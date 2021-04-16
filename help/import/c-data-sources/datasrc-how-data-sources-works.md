@@ -2,16 +2,16 @@
 description: Informations sur la façon dont Adobe fournit l’accès aux sources de données.
 subtopic: Data sources
 title: Fonctionnement des sources de données
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
+exl-id: 3d56ca3f-6c45-48d0-bbd2-53d6babfbb83
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # Fonctionnement des sources de données
 
