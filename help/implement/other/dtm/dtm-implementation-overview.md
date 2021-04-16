@@ -2,16 +2,16 @@
 description: Implémentation d’Adobe Analytics à l’aide de la gestion dynamique des balises.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm
 title: Mise en œuvre de DTM - Aperçu
-topic: Développeur et mise en œuvre
+topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '225'
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre de DTM - Aperçu
 
@@ -32,4 +32,3 @@ Ce guide vous présente les étapes suivantes de mise en œuvre d’Analytics av
 1. Créez des [éléments de données](/help/implement/other/dtm/t-data-element.md), des [règles et des conditions](/help/implement/other/dtm/c-rules/t-rules-create.md), ainsi que des [actions](/help/implement/other/dtm/c-rules/t-rules-actions.md).
 
 1. Publication des outils et des règles sur le serveur de production.
-
