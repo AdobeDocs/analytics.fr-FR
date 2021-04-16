@@ -3,16 +3,16 @@ description: Tableau décrivant les colonnes du flux de données.
 keywords: Flux de données ; colonnes
 subtopic: data feeds
 title: Référence des colonnes de données
-topic: Reports & Analytics
+feature: Concepts de base des rapports et analyses
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3396'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Référence des colonnes de données
 
@@ -70,7 +70,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `duplicated_from` | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie de l’accès. Indique la suite de rapports à partir de laquelle l’accès a été copié. | varchar(40) |
 | `ef_id` | Le `ef_id` utilisé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
-| `event_list` | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche de `event.tsv`. | text |
+| `event_list` | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche de `event.tsv`. | texte |
 | `exclude_hit` | Indicateur signifiant que lʼaccès est exclu de la création de rapports. La colonne `visit_num` nʼest pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
 | `first_hit_page_url` | La toute première URL du visiteur. | varchar(255) |
 | `first_hit_pagename` | Variable utilisée dans la dimension [Page d’accès dʼorigine](/help/components/dimensions/entry-dimensions.md). Le nom de la page d’entrée d’origine du visiteur. | varchar(100) |
@@ -102,7 +102,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `latlon1` | Lieu (jusqu’à 10 km) | varchar(255) |
 | `latlon23` | Lieu (jusqu’à 100 m) | varchar(255) |
 | `latlon45` | Lieu (jusqu’à 1 m) | varchar(255) |
-| `mc_audiences` | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. | text |
+| `mc_audiences` | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. | texte |
 | `mcvisid` | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | `mobile_id` | Si l’utilisateur utilise un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. | int |
 | `mobileaction` | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
@@ -147,15 +147,15 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `mobilerelaunchcampaigntrackingcode` | Collecté à partir de la variable des données de contexte `a.launch.campaign.trackingcode`. Utilisé au moment de l’acquisition comme code de suivi de la campagne de lancement. | varchar(255) |
 | `mobileresolution` | Résolution de l’appareil mobile. `[Width] x [Height]` en pixels. | varchar(255) |
 | `monthly_visitor` | Indicateur signifiant que le visiteur est unique pour le mois en cours. | tinyint sans signe |
-| `mvvar1` - `mvvar3` | Valeurs des variables de liste. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. | text |
+| `mvvar1` - `mvvar3` | Valeurs des variables de liste. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. | texte |
 | `namespace` | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(50) |
 | `new_visit` | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | `os` | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. Utilise la recherche de `os`. | int sans signe |
-| `p_plugins` | N’est plus utilisé. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript `navigator.plugins()`. | text |
+| `p_plugins` | N’est plus utilisé. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript `navigator.plugins()`. | texte |
 | `page_event` | Le type d’accès qui est envoyé dans la demande d’image (accès standard, lien de téléchargement, lien personnalisé, lien de sortie). Voir [Recherche d’événement de page](datafeeds-page-event.md). | tinyint sans signe |
-| `page_event_var1` | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | text |
+| `page_event_var1` | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | texte |
 | `page_event_var2` | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
-| `page_event_var3` | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | text |
+| `page_event_var3` | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | texte |
 | `page_type` | Utilisé pour renseigner la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). Utilisé exclusivement pour les pages 404. Cette variable doit être vide ou contenir la valeur `ErrorPage`. | char(20) |
 | `page_url` | URL de l’accès à la Extrait des demandes d’image de suivi de liens. | varchar(255) |
 | `pagename` | Utilisé pour renseigner la dimension [Page](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
@@ -167,9 +167,9 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `pointofinterestdistance` | Distance du centre du point ciblé Mobile Services | varchar(255) |
 | Colonnes `post_` | Contient la valeur finalement utilisée dans les rapports. Chaque colonne « Post » est renseignée suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. | Voir la colonne « Non post » correspondante. |
 | `prev_page` | Inutilisé. Identifiant propriétaire Adobe de la page précédente. | int sans signe |
-| `product_list` | Liste des produits telle que transmise par l’intermédiaire de la variable [`products`](/help/implement/vars/page-vars/products.md). Les produits sont délimités par des virgules, tandis que les propriétés des produits individuels sont délimitées par des points-virgules. | text |
-| `product_merchandising` | Inutilisé. Utilisez `product_list` à la place. | text |
-| `prop1` - `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `product_list` | Liste des produits telle que transmise par l’intermédiaire de la variable [`products`](/help/implement/vars/page-vars/products.md). Les produits sont délimités par des virgules, tandis que les propriétés des produits individuels sont délimitées par des points-virgules. | texte |
+| `product_merchandising` | Inutilisé. Utilisez `product_list` à la place. | texte |
+| `prop1` -  `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilisé par la colonne `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel. | tinyint sans signe |
 | `ref_domain` | Basée sur la colonne Référent. Domaine référent de l’accès. Utilisé dans la dimension [Domaine référent](/help/components/dimensions/referring-domain.md). | varchar(100) |
@@ -200,15 +200,15 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `state` | Variable d’état. | varchar(50) |
 | `stats_server` | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
 | `t_time_info` | Heure locale pour le visiteur. Le format est : `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Utilisée dans les intégrations Adobe Target. | text |
-| `tnt_action` | Utilisée dans les intégrations Adobe Target. | text |
-| `tnt_post_vista` | N’est plus utilisé. Utilisez `post_tnt` à la place. | text |
-| `transactionid` | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
+| `tnt` | Utilisée dans les intégrations Adobe Target. | texte |
+| `tnt_action` | Utilisée dans les intégrations Adobe Target. | texte |
+| `tnt_post_vista` | N’est plus utilisé. Utilisez `post_tnt` à la place. | texte |
+| `transactionid` | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | texte |
 | `truncated_hit` | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |
 | `ua_color` | N’est plus utilisé. Anciennement utilisée comme solution de secours pour l’intensité de couleur. | char(20) |
 | `ua_os` | N’est plus utilisé. Anciennement utilisée comme solution de secours pour le système d’exploitation. | char(80) |
 | `ua_pixels` | N’est plus utilisé. Anciennement utilisée comme solution de secours pour la hauteur et la largeur du navigateur. | char(20) |
-| `user_agent` | Chaîne de l’agent utilisateur envoyée dans l’en-tête HTTP de la demande d’image. | text |
+| `user_agent` | Chaîne de l’agent utilisateur envoyée dans l’en-tête HTTP de la demande d’image. | texte |
 | `user_hash` | Inutilisable. Hachage de l’identifiant de suite de rapports. Utilisez `username` à la place. | int sans signe |
 | `user_server` | Utilisé dans la dimension [Serveur](/help/components/dimensions/server.md). | varchar(100) |
 | `userid` | Inutilisable. Identifiant numérique pour l’identifiant de suite de rapports. Utilisez `username` à la place. | int sans signe |
@@ -241,7 +241,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `videodaypart` | Moment de la journée de la vidéo | varchar(255) |
 | `videoepisode` | Épisode de la vidéo | varchar(255) |
 | `videofeedtype` | Type de flux vidéo | varchar(255) |
-| `videogenre` | Genre de la vidéo | text |
+| `videogenre` | Genre de la vidéo | texte |
 | `videolength` | Durée de la vidéo | varchar(255) |
 | `videomvpd` | Vidéo MVPD | varchar(255) |
 | `videoname` | Nom de la vidéo | varchar(255) |
@@ -254,8 +254,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `videoqoebuffertimeevar` | Période tampon de la qualité vidéo | varchar(255) |
 | `videoqoedroppedframecountevar` | Nombre d’images perdues au niveau de la qualité vidéo | varchar(255) |
 | `videoqoeerrorcountevar` | Comptage des erreurs de la qualité vidéo | varchar(255) |
-| `videoqoeextneralerrors` | Erreurs externes de la qualité vidéo | text |
-| `videoqoeplayersdkerrors` | Erreurs du SDK de la qualité vidéo | text |
+| `videoqoeextneralerrors` | Erreurs externes de la qualité vidéo | texte |
+| `videoqoeplayersdkerrors` | Erreurs du SDK de la qualité vidéo | texte |
 | `videoqoetimetostartevar` | Temps de démarrage de la qualité vidéo | varchar(255) |
 | `videoseason` | Saison de la vidéo | varchar(255) |
 | `videosegment` | Segment de vidéo | varchar(255) |
