@@ -2,16 +2,16 @@
 description: Vous pouvez copier la valeur d’une variable eVar sur une valeur Prop pour activer le cheminement.
 subtopic: Processing rules
 title: Déterminer un chemin en copiant une valeur eVar sur une valeur prop
-topic: Admin tools
+feature: Outils d’administration
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # Déterminer un chemin en copiant une valeur eVar sur une valeur prop
 
@@ -34,4 +34,3 @@ Vous ne pouvez modifier cette règle pour définir la valeur de Prop1 que si ell
 Par exemple :
 
 ![](assets/overwrite-empty-prop.png)
-
