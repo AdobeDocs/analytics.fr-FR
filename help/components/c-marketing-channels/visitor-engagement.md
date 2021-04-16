@@ -2,16 +2,16 @@
 description: Découvrez comment définir l’expiration de l’engagement des visiteurs dans les canaux marketing.
 subtopic: Marketing channels
 title: Expiration du canal marketing
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
-
 
 # Expiration du canal marketing
 
@@ -48,4 +48,3 @@ Indiquez la période d’engagement des visiteurs.
 
 3. Configurez les champs de la période d’engagement des visiteurs.
 4. Cliquez sur **[!UICONTROL Enregistrer]**.
-
