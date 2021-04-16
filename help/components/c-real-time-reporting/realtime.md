@@ -1,16 +1,16 @@
 ---
 description: Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit des données pratiques pour vos prises de décision professionnelles.
 title: Création de rapports en temps réel - Aperçu
-topic: Reports
+topic-fix: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
+exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
 
 ---
-
 
 # Création de rapports en temps réel - Aperçu
 
