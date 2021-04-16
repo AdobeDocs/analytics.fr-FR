@@ -2,12 +2,12 @@
 description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
 subtopic: Classifications
 title: Règles de classification
-topic: Admin tools
+feature: Outils d’administration
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 99%
 
 ---
@@ -329,10 +329,12 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   >
-   >   (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
-   >
-   >* Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
+      >
+      >   
+      (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+      >
+      >
+   * Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 
 
 1. Spécifiez s’il convient de remplacer les valeurs existantes :
