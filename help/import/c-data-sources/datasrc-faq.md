@@ -2,16 +2,16 @@
 description: Cette rubrique fournit des réponses aux questions courantes.
 subtopic: Data sources
 title: FAQ sur les sources de données
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
+exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 95%
 
 ---
-
 
 # FAQ sur les sources de données
 
