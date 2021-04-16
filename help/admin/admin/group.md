@@ -1,12 +1,12 @@
 ---
 description: Un groupe est un ensemble d’utilisateurs auxquels vous souhaitez attribuer un jeu commun d’autorisations et d’accès. Supposons, par exemple, que sur 50 utilisateurs de rapports marketing, seuls 20 d’entre eux doivent accéder à une Ad Hoc Analysis. Dans ce cas, vous pouvez créer un groupe pour ces 20 utilisateurs.
 title: Gestion des groupes
-topic: Admin tools
+feature: Outils d’administration
 uuid: e5596397-f07b-4887-bd8c-6a6dea44a07c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '97'
 ht-degree: 100%
 
 ---
