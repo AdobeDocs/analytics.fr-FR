@@ -1,16 +1,16 @@
 ---
 description: Définit des paramètres courants pour un site Web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
 title: Génération de pistes
-topic: Admin tools
+feature: Outils d’administration
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
-
 
 # Génération de pistes
 
@@ -46,4 +46,3 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Pages vues | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques par jour | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques | Compteur (sans sous-relations) | S.O. |
-
