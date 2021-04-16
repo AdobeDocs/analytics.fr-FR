@@ -2,12 +2,12 @@
 description: Description de la procédure d’ajout, de modification et de suppression d’utilisateurs de l’Ad Hoc Analysis.
 subtopic: Users and groups
 title: Gérer des utilisateurs des Ad Hoc Analysis
-topic: Admin tools
+feature: Outils d’administration
 uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
