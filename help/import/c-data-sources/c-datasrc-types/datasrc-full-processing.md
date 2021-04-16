@@ -1,12 +1,12 @@
 ---
 description: Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 title: Traitement complet
-topic: Développeur et mise en œuvre
+topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 97%
 
 ---
