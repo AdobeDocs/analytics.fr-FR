@@ -2,16 +2,16 @@
 description: Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes.
 subtopic: Qualtrics
 title: Déploiement de l’intégration
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '589'
 ht-degree: 98%
 
 ---
-
 
 # Déploiement de l’intégration {#deploying-the-integration}
 
@@ -36,7 +36,8 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
 |  Liste des réponses Qualtrics  | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
 |---|---|
 |  ID de réponse Qualtrics  | Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
-|  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable `trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
+|  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable 
+`trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
 |  Envois d’enquête Qualtrics  | Sélectionnez un événement disponible dans votre suite de rapports (vous aurez sans doute besoin d’activer un nouvel événement dans le Gestionnaire de suite de rapports).  |
 
 1. **Étape 3 de l’assistant** : aucune action n’est requise, étape informative uniquement.
@@ -86,5 +87,3 @@ Une fois toutes les étapes de déploiement terminées, vous pouvez vérifier qu
    >Ces données doivent apparaître dans les 24 à 48 heures suivant le déploiement, en supposant que l’enquête intégrée reçoive activement des réponses.
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
