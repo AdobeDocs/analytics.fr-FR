@@ -1,16 +1,16 @@
 ---
 description: Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Les segments sont conçus en tant que connaissances de l’audience codifiées que vous pouvez créer selon vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits d’Adobe et fonctionnalités d’Analytics.
 title: À propos des segments et des conteneurs
-topic: Segments
+feature: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3700'
 ht-degree: 100%
 
 ---
-
 
 # À propos des segments et des conteneurs
 
@@ -297,4 +297,3 @@ En résumé :
 
 * Le conteneur de visites renvoie toutes les pages vues lors d’une visite lorsqu’au moins une page respecte les critères. Ainsi, si une page n’est vue que lors de la visite 1 le jour 1, alors toutes les pages vues lors l’ensemble de la visite sont incluses dans les données.
 * Soyez attentif lorsque la condition que vous segmentez est définie sur une eVar ou un autre type de variable persistante. Par exemple, vous pouvez utiliser la condition « lorsque la campagne contient du courrier électronique » et elle expire au bout de 7 jours. Ainsi, si la campagne est définie sur la première visite, elle persistera pendant 7 jours de plus. Chaque visite sera incluse même si la campagne n’était définie que sur la première visite. Les autres visites seront également incluses (tant qu’elles figurent dans la période du rapport). Si vous souhaitez que les valeurs persistantes ne soient pas incluses, utilisez l’événement « instance de » ou une variable prop équivalente, si disponible.
-
