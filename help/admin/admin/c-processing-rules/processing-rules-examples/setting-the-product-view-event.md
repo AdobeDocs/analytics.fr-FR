@@ -2,16 +2,16 @@
 description: Les événements peuvent être définis sur la base des valeurs de page ou des valeurs spécifiques d’une variable.
 subtopic: Processing rules
 title: Définir l’événement d’affichage de produit à partir de la page d’aperçu des produits
-topic: Admin tools
+feature: Outils d’administration
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
+exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # Définir l’événement d’affichage de produit à partir de la page d’aperçu des produits
 
@@ -25,4 +25,3 @@ Les événements peuvent être définis sur la base des valeurs de page ou des v
 Par exemple :
 
 ![](assets/set-product-view-event.png)
-
