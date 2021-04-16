@@ -1,16 +1,16 @@
 ---
 description: Options de calendrier autres que le modèle grégorien. Les options incluent les modèles de calendrier 4-4-5, 4-5-4 et 5-4-4, qui sont tous des normes du secteur de la vente au détail. En outre, la création de rapports offre une option de personnalisation complète du calendrier.
 title: Personnalisation du calendrier
-topic: Outils d’administration
+feature: Outils d’administration
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
+exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 92%
 
 ---
-
 
 # Personnalisation du calendrier
 
@@ -57,4 +57,3 @@ Vous pouvez utiliser le calendrier pour définir le premier jour de la semaine e
   </tr> 
  </tbody> 
 </table>
-
