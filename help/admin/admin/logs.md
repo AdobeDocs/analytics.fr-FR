@@ -1,15 +1,15 @@
 ---
 description: Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 title: Journaux
-topic: Admin tools
+feature: Outils d’administration
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
-source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
-
 
 # Journaux
 
@@ -54,11 +54,11 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Signets | Un signet a été géré. |
 | Tableaux de bord | Un tableau de bord a été géré. |
 | Alertes | Une alerte a été gérée. |
-| Événements calendrier | Un événement de calendrier a été géré. |
+| Événements du calendrier | Un événement de calendrier a été géré. |
 | Cibles | Une cible a été gérée. |
 | Paramètres des rapports | Un paramètre de rapport a été géré. |
-| Rapports programmés | Un rapport planifié a été géré. |
-| Exclure par IP | Le paramètre IP a été modifié. |
+| Rapports planifiés | Un rapport planifié a été géré. |
+| Exclure par adresse IP | Le paramètre IP a été modifié. |
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
@@ -89,4 +89,3 @@ Les outils suivants permettent de modifier une suite de rapports hors des [!UICO
 | IP | Vous pouvez filtrer le journal par adresse IP. |
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
-
