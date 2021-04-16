@@ -1,16 +1,16 @@
 ---
 description: La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 title: Méthodes de recherche
-topic: Admin tools
+feature: Outils d’administration
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
+exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
-
 
 # Méthodes de recherche
 
@@ -58,4 +58,3 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
 >[!NOTE]
 >
 >Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
-
