@@ -2,16 +2,16 @@
 description: Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement sur votre site.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;code;code page;code d’en-tête;code de pied de page;code intégré;vérifier le code;vérifier le code d’en-tête;vérifier le code de pied de page;onglet incorporer;incorporer
 title: Vérification du code d’en-tête et de pied de page
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
+exl-id: bed44ba7-8e0e-49e2-bedc-fb1ba66e5b18
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # Vérification du code d’en-tête et de pied de page
 
@@ -31,4 +31,3 @@ Vérifiez si la bibliothèque de Dynamic Tag Management se charge correctement s
 
 * Vous avez ajouté le code d’en-tête complet à la section [!DNL HEAD] de chaque page du site, en le plaçant aussi près que possible de la balise `<head>` d’ouverture.
 * Le fragment de code ne contient pas de caractères inattendus, pouvant provenir de la copie et du collage d’un document mis en forme.
-
