@@ -2,16 +2,16 @@
 description: Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars.
 subtopic: Processing rules
 title: Copier une variable de données contextuelles dans une eVar
-topic: Admin tools
+feature: Outils d’administration
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
+exl-id: f52c2c6c-da3d-43d6-be13-92d0820c93b4
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 100%
 
 ---
-
 
 # Copier une variable de données contextuelles dans une eVar
 
