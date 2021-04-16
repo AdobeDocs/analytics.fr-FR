@@ -2,16 +2,16 @@
 description: Le fichier du modèle d’importation a pour but de vous aider à commencer l’importation.
 subtopic: Data sources
 title: Génération d’un modèle de fichier d’importation
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # Génération d’un modèle de fichier d’importation
 
@@ -35,8 +35,8 @@ Reportez-vous à la section [Référence du fichier d’importation](/help/impor
    | Page de l’Assistant | Champ | Description |
    |--- |--- |--- |
    | 1 | Nom | Nom du modèle affiché par Analytics dans le gestionnaire de la fonctionnalité Sources de données. |
-   | 1 | Courriel | Adresse électronique à laquelle sont envoyées toutes les notifications relatives à l’utilisation de ce modèle. |
-   | 1 | Case à cocher des frais associés | Cochez cette case pour indiquer que vous acceptez les frais associés à l’utilisation de ce modèle. |
+   | 3 | Courriel | Adresse électronique à laquelle sont envoyées toutes les notifications relatives à l’utilisation de ce modèle. |
+   | 3 | Case à cocher des frais associés | Cochez cette case pour indiquer que vous acceptez les frais associés à l’utilisation de ce modèle. |
    | 2 | Choisissez les mesures | Sélectionnez les mesures à importer à l’aide de cette source de données. Analytics recommande certaines mesures en fonction de la catégorie et du type de source de données sélectionnés à l’étape 3.  Pour définir une autre mesure, saisissez son nom dans un champ vierge, puis cochez la case pour activer la mesure. |
    | 3 | Faire correspondre les mesures | Sélectionnez un événement Analytics pour recevoir chaque mesure importée sélectionnée dans la page 2 de l’assistant.  Il doit s’agir d’événements nouveaux et non attribués auxquels vous avez auparavant attribué des noms qui correspondent aux données de mesure importées qu’ils recevront par l’intermédiaire de la fonctionnalité Sources de données.  Si une variable eVar, Produit ou Code de suivi est une variable de destination et que les valeurs transférées correspondent aux valeurs captées existantes, les événements transférés ajoutent des mesures aux valeurs existantes. Par exemple, vous pouvez créer une mesure « Commandes hors ligne » avec une dimension de données Produits qui comporte déjà les mesures existantes suivantes : Consultations des produits, Achats et Commandes. |
    | 4 | Choisissez la portée des données | Sélectionnez les portées de données pour la ventilation des mesures importées à partir de cette source de données. Analytics recommande certaines dimensions de données en fonction du type de source de données sélectionné à l’étape 3.  Pour définir une autre portée, saisissez son nom dans un champ vierge, puis cochez la case pour l’activer. |
@@ -45,4 +45,3 @@ Reportez-vous à la section [Référence du fichier d’importation](/help/impor
 1. Une fois le modèle généré, copiez les données dans les colonnes appropriées du modèle de source de données, en veillant à respecter le format de données requis pour cette colonne.
 
    Résultat de l’étape 1. Enregistrez le fichier en le nommant selon votre convenance. Adobe recommande d’appliquer une convention d’affectation de noms cohérente pour tous les fichiers de source de données. Utilisez une extension de fichier courante, telle que .txt ou .tsv (ou n’utilisez aucune extension).
-
