@@ -2,16 +2,16 @@
 description: Décrit la méthode de calcul de mesures courantes à l’aide de flux de données.
 keywords: Flux de données ; tâche ; mesures ; colonne prédéfinie ; colonne de publication ; robots ; filtrage de date ; chaîne de événement ; commun ; formules
 title: Mesures calculées
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '460'
 ht-degree: 96%
 
 ---
-
 
 # Utilise les flux de données pour calculer des mesures courantes
 
