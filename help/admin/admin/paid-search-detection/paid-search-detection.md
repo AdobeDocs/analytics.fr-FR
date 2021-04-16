@@ -1,16 +1,16 @@
 ---
 description: La détection de recherche payante fait la distinction entre les recherches payantes et les recherches naturelles dans les rapports Moteurs de recherche et Mots-clés de recherche. Vous pouvez indiquer les moteurs de recherche dans lesquels vous utilisez des annonces publicitaires payantes et spécifier une chaîne de caractères située dans l’URL d’une visite effectuée à partir d’une annonce payante.
 title: Détection de recherche payante
-topic: Admin tools
+feature: Outils d’administration
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
+exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # Détection de recherche payante
 
