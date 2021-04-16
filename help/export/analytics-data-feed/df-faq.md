@@ -2,14 +2,14 @@
 description: Questions fréquentes sur les flux de données
 keywords: Flux de données ; tâche ; colonne "Pré" ; colonne "Post" ; respect de la casse
 title: FAQ sur les flux de données
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 75%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # FAQ sur les flux de données
 
@@ -36,3 +36,9 @@ Les flux de données n’incluent pas les robots filtrés par les [règles de ro
 Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrondissent automatiquement de très grands nombres. La colonne `event_list` contient de nombreux nombres délimités par des virgules, ce qui peut parfois entraîner un traitement par Excel en nombre important. Il arrondit les derniers chiffres à `000`.
 
 Adobe recommande de ne pas ouvrir automatiquement les fichiers `hit_data.tsv` dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer des données d’Excel et assurez-vous que tous les champs sont traités comme du texte.
+
+## Pourquoi ne puis-je pas extraire des fichiers &quot;horaires&quot; à partir de données qui datent de plus de 7 jours ?
+
+Pour les données de plus de 7 jours, les fichiers &quot;Horaire&quot; d’une journée sont combinés dans un seul fichier &quot;Quotidien&quot;.
+
+Exemple : Un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont fournies sous la forme &quot;Horaire&quot;. Cependant, les fichiers &quot;Horaire&quot; antérieurs au 2 mars 2021 sont combinés en un seul fichier &quot;Quotidien&quot;. Vous pouvez extraire des fichiers &quot;Horaire&quot; uniquement à partir de données qui datent de moins de 7 jours à compter de la date de création. Dans ce cas, du 2 mars au 9 mars.
