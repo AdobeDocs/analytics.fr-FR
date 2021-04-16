@@ -3,16 +3,16 @@ description: Cette fonction dirige le navigateur vers un nouvel emplacement sans
 keywords: Mise en œuvre d’Analytics
 subtopic: Redirects
 title: Redirections et alias
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 100%
 
 ---
-
 
 # Redirections et alias
 
@@ -150,7 +150,7 @@ redirects_verify_referrer.xml
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr-FR).
+Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
