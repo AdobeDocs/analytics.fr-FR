@@ -1,16 +1,16 @@
 ---
 description: Les sections Trafic permanent vous permettent de modifier vos prévisions en termes de volume de trafic, de telle sorte qu’Adobe puisse réaffecter des ressources en conséquence.
 title: Indication d’une augmentation permanente du trafic
-topic: Admin tools
+feature: Outils d’administration
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
-
 
 # Indication d’une augmentation permanente du trafic
 
@@ -29,4 +29,3 @@ Lisez les informations relatives à l’ [Délai d’avance requis pour les augm
    >[!NOTE]
    >
    >Pour planifier une augmentation permanente du trafic, indiquez un numéro de téléphone dans vos coordonnées de contact, de telle sorte qu’Adobe puisse vous contacter si la moindre question se pose.
-
