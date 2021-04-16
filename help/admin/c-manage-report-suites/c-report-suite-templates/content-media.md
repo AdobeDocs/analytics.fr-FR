@@ -1,16 +1,16 @@
 ---
 description: Définit des paramètres courants pour un site Web qui développe le contenu d’origine et affiche des articles et des vidéos.
 title: Contenu et média
-topic: Admin tools
+feature: Outils d’administration
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Contenu et média
 
@@ -53,4 +53,3 @@ Le tableau suivant contient une liste d’événements commerciaux standard. La 
 | Pages vues | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques par jour | Compteur (sans sous-relations) | S.O. |
 | Visiteurs uniques | Compteur (sans sous-relations) | S.O. |
-
