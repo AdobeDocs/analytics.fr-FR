@@ -1,16 +1,16 @@
 ---
 description: Le Gestionnaire de segments offre plusieurs manières d’organiser les segments, par exemple le partage, le filtrage, le marquage, l’approbation, la copie, la suppression et le marquage en tant favoris.
 title: Gestion des segments
-topic: Segments
+feature: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des segments
 
