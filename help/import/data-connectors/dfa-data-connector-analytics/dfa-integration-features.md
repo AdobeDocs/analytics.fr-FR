@@ -2,16 +2,16 @@
 description: 'Une fois activée, l’intégration DFA des Data Connectors fournit les mesures suivantes pour vos rapports Adobe Analytics. '
 keywords: DFA
 title: Fonctions d’intégration
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # Fonctions d’intégration{#integration-features}
 
@@ -63,4 +63,3 @@ Si l’option **[!UICONTROL SearchCenter]** > **[!UICONTROL Déduplication DFA]
 >[!NOTE]
 >
 >Si l’option SearchCenter > Déduplication DFA est activée et que le paramètre de chaîne de requête SearchCenter est défini, la visite n’est pas prise en compte pour le traitement DFA. Ceci signifie que le paramètre de chaîne de requête SearchCenter doit différer du paramètre de clic publicitaire DFA et qu’aucune publicité affichée ne doit définir le paramètre de chaîne de requête SearchCenter.
-
