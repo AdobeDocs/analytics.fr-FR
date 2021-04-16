@@ -1,16 +1,16 @@
 ---
 description: Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. Vous pouvez demander des rapports qui présentent un niveau avancé de relations entre les données brutes, en fonction de vos questions. Les rapports d’entrepôt de données sont envoyés par courriel ou par FTP. Leur traitement peut prendre jusqu’à 72 heures. La durée de traitement dépend de la complexité de la requête et de la quantité de données demandées.
 title: Data Warehouse - Aperçu
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
-
 
 # Data Warehouse - Aperçu
 
@@ -77,4 +77,3 @@ Ce tableau décrit les champs et options de l’onglet [!UICONTROL Demande Data 
   </tr> 
  </tbody> 
 </table>
-
