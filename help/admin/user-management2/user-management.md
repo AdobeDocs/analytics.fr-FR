@@ -2,16 +2,16 @@
 description: Gestion des utilisateurs, des groupes et des produits Analytics dans Admin Console.
 subtopic: Users and groups
 title: Gestion des utilisateurs et des produits
-topic: Admin tools
+feature: Outils d’administration
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
+exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # Gestion des utilisateurs et des produits
 
@@ -128,4 +128,3 @@ Le tableau suivant décrit les éléments de l’onglet [!UICONTROL Utilisateurs
   </tr> 
  </tbody> 
 </table>
-
