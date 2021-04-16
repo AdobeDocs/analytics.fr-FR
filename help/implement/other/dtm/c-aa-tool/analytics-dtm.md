@@ -2,16 +2,16 @@
 description: Déployez Adobe Analytics à l’aide de Dynamic Tag Management en créant l’outil Adobe Analytics et en configurant le code de page automatiquement ou manuellement. La méthode automatique est recommandée pour la plupart des utilisateurs.
 keywords: Mise en œuvre d’Analytics;méthode de mise en œuvre;Dynamic Tag Management;dtm;outil analytics;propriété;type d’outil;nom d’outil;méthode de configuration;analytics premium;evars;événements
 title: Ajout de l’outil Adobe Analytics
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
+exl-id: 3f5e13f6-19d1-46b9-9011-6010b455007e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 100%
 
 ---
-
 
 # Ajout de l’outil Adobe Analytics
 
