@@ -1,16 +1,16 @@
 ---
 description: Combinez les données horodatées et non horodatées au sein d’une seule suite de rapports.
 title: Horodatages facultatifs
-topic: Admin tools
+feature: Outils d’administration
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # Horodatages facultatifs
 
@@ -51,4 +51,3 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 >[!NOTE]
 >
 >Si une suite de rapports a été définie sur **Horodatages facultatifs**, contactez le service à la clientèle Adobe si vous souhaitez modifier ce paramètre.
-
