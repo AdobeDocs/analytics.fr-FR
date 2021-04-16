@@ -1,16 +1,16 @@
 ---
 description: Vous pouvez créer une suite de rapports en sélectionnant un modèle prédéfini ou en utilisant l’une de vos suites de rapports existantes pour servir de modèle.
 title: Paramètres d’une nouvelle suite de rapports
-topic: Outils d’administration
+feature: Outils d’administration
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # Paramètres d’une nouvelle suite de rapports
 
@@ -32,7 +32,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Identifiant de suite de rapports </span> </td> 
-   <td colname="col2"> <p>Indique un identifiant unique pouvant uniquement contenir des caractères alphanumériques. Une fois créé, il ne peut plus être modifié. Adobe définit le préfixe d’ID requis qui lui aussi ne peut pas être modifié. </p> <p>Lorsque vous créez plusieurs suites de rapports, assurez-vous que la convention d’affectation des noms utilisée garantit l’unicité des identifiants. </p> </td> 
+   <td colname="col2"> <p>Indique un ID unique pouvant uniquement contenir des caractères alphanumériques. Une fois créé, il ne peut plus être modifié. Adobe définit le préfixe d’ID requis qui lui aussi ne peut pas être modifié. </p> <p>Lorsque vous créez plusieurs suites de rapports, assurez-vous que la convention d’affectation des noms utilisée garantit l’unicité des ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Titre du site</span> </td> 
@@ -68,4 +68,3 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
   </tr>  
  </tbody> 
 </table>
-
