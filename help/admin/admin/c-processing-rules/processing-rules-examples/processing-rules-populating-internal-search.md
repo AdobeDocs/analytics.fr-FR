@@ -2,16 +2,16 @@
 description: Si vous utilisez une variable courante, telle que q, pour renseigner des termes de recherche, vous pouvez utiliser des règles de traitement pour remplir la variable eVar Termes de recherche internes avec ces valeurs.
 subtopic: Processing rules
 title: Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête
-topic: Admin tools
+feature: Outils d’administration
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
+exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # Renseigner les termes de recherche interne à l’aide d’un paramètre de chaîne de requête
 
@@ -27,4 +27,3 @@ Les valeurs de chaîne de requête doivent être codées au format Unicode ou UT
 Par exemple :
 
 ![](assets/populate-internal-search-terms.png)
-
