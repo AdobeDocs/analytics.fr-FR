@@ -1,16 +1,16 @@
 ---
 description: Data Warehouse peut fournir des rapports au format de fichier TDE (Tableau Data Extract) qui permet de visualiser les données et les couches dans les données supplémentaires externes à Adobe Analytics. Vous pouvez envoyer ces informations par courrier électronique ou par FTP.
 title: Fichier de données Tableau
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
+exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # Fichier de données Tableau
 
