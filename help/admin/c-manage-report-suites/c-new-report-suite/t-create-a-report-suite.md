@@ -1,15 +1,15 @@
 ---
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics
 title: Création d’une suite de rapports
-topic: Admin tools
+feature: Outils d’administration
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
-source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 77%
 
 ---
-
 
 # Création d’une suite de rapports
 
