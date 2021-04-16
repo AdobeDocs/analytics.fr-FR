@@ -1,16 +1,16 @@
 ---
 description: Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
 title: Événements du calendrier
-topic: Reports and analytics
+feature: Concepts de base des rapports et analyses
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
+exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 99%
 
 ---
-
 
 # Événements du calendrier
 
@@ -44,4 +44,3 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    |---|---|
    | **Au rapport** | Permet d’afficher les modifications/mises à jour effectuées par le propriétaire de l’événement. |
    | **Annuler le partage** | Supprime cet événement de la liste des événements partagés. |
-
