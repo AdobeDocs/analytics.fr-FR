@@ -2,16 +2,16 @@
 description: Occasionnellement, certaines mesures ne produisent pas une différence acceptable lors de la comparaison des mesures Adobe Analytics aux mesures DFA. Vous trouverez ci-dessous une liste des définitions de mesures et des motifs d’écart possibles.
 keywords: DFA
 title: Rapprochement des écarts de mesures
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1270'
 ht-degree: 100%
 
 ---
-
 
 # Rapprochement des écarts de mesures {#reconciling-metric-discrepancies}
 
