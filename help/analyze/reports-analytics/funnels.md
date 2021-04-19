@@ -2,16 +2,16 @@
 description: Les taux de conversion mesurent généralement la conversion entre le début, la fin et les événements ou points qui jalonnent un processus de conversion. Une fois les événements de succès codés sur votre site, le rapport crée les taux applicables et les présente dans un rapport Entonnoir de conversion.
 title: Entonnoir de conversion
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Concepts de base des rapports et analyses
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses et analyses
+role: Business Practitioner, Administrator
+exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 98%
 
 ---
-
 
 # Entonnoir de conversion
 
@@ -36,4 +36,3 @@ Le tableau de rapport affiche des statistiques sur les ventes moyennes par clic 
 >[!NOTE]
 >
 >Les instances dans le contexte de ces rapports équivalent au nombre total de visites où une eVar ou un événement a été défini.
-
