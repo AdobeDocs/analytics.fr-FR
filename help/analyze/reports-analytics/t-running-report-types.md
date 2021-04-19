@@ -2,16 +2,16 @@
 description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Concepts de base des rapports et analyses
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses et analyses
+role: Business Practitioner, Administrator
+exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2363'
 ht-degree: 99%
 
 ---
-
 
 # Exécution de différents types de rapports
 
