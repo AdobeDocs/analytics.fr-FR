@@ -1,11 +1,15 @@
 ---
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+title: Comptes et suites de rapports
+description: Découvrez comment utiliser une société de connexion et une suite de rapports pour que les silos de données restent organisés dans Adobe Analytics.
+exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
 translation-type: tm+mt
-source-wordcount: '251'
-ht-degree: 86%
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 81%
 
 ---
+
 # Comptes et suites de rapports
 
 En Adobe Analytics, il existe deux niveaux pour organiser les silos de données :
