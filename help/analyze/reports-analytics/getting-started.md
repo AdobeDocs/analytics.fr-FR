@@ -1,16 +1,16 @@
 ---
 description: Avant d’utiliser Reports and Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 title: Prise en main de Reports and Analytics
-feature: Concepts de base des rapports et analyses
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses et analyses
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # Prise en main de Reports &amp; Analytics
 
