@@ -2,16 +2,16 @@
 description: Cette section décrit la procédure à suivre pour personnaliser un graphique afin qu’il convienne mieux à l’audience visée.
 title: Modification des graphiques des rapports
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Concepts de base des rapports et analyses
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses et analyses
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # Modification des graphiques des rapports
 
@@ -68,4 +68,3 @@ Le type de graphiques disponible dépend du type de rapport exécuté. Par exemp
    **[!UICONTROL Graphique à bulles]** : ce graphique affiche les mesures sélectionnées les unes par rapport aux autres. L’emplacement des bulles correspond aux relations entre les mesures sur les axes horizontal et vertical, tandis que leur taille désigne la mesure principale du rapport. Ces diagrammes vous permettent de visualiser les données en deux dimensions, afin que vous puissiez identifier les articles qui renvoient des valeurs aberrantes.
 
    ![](assets/graph_bubble.png)
-
