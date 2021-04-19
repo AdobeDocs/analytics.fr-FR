@@ -2,16 +2,16 @@
 description: Des sous-relations complètes sont activées sur tous les rapports de conversion, ce qui vous permet de ventiler n’importe quelle eVar par une autre eVar. Le menu Ventiler en fonction de dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
 title: Sous-relations
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Concepts de base des rapports et analyses
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses et analyses
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # Sous-relations
 
@@ -56,4 +56,3 @@ En bref, les sous-relations suivent les étapes suivantes pour générer votre r
 * Isoler les requêtes d’images contenant l’ou les événements de succès que vous visualisez dans le rapport.
 * Renvoyer les valeurs conservées de chaque variable de conversion utilisée dans la sous-relation.
 * Organiser les valeurs en fonction de l’ordre de sous-relation : Si une variable ne présente pas de valeur conservée (par exemple, si une valeur eVar n’était pas définie ou expirée), celle-ci serait répertoriée sous « Aucun ».
-
