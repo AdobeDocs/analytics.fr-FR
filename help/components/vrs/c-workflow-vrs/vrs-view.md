@@ -2,14 +2,14 @@
 description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
 keywords: Suite de rapports virtuelle
 title: Affichage des informations relatives à une suite de rapports virtuelle
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base des rapports et analyses et analyses
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 97%
+source-wordcount: '103'
+ht-degree: 95%
 
 ---
 
