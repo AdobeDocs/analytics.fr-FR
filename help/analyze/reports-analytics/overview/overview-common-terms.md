@@ -2,16 +2,16 @@
 description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
 title: Termes courants
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Rapports,Reports & Analytics
-role: Professionnel, Administrateur
+feature: Concepts de base des rapports et analyses, rapports et analyses
+role: Business Practitioner, Administrator
+exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 99%
 
 ---
-
 
 # Termes courants
 
@@ -71,4 +71,3 @@ Cette section présente les termes utilisés couramment dans Adobe Analytics.
   </tr> 
  </tbody> 
 </table>
-
