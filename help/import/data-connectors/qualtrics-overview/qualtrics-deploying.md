@@ -33,12 +33,11 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
    | Jeton Adobe SiteCatalyst | [Génération de votre jeton Adobe Analytics Qualtrics](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Étape 2 de l’assistant : correspondances de variables**
-|  Liste des réponses Qualtrics  | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
-|---|---|
-|  ID de réponse Qualtrics  | Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
-|  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable 
-`trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
-|  Envois d’enquête Qualtrics  | Sélectionnez un événement disponible dans votre suite de rapports (vous aurez sans doute besoin d’activer un nouvel événement dans le Gestionnaire de suite de rapports).  |
+   |  Liste des réponses Qualtrics  | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
+   |---|---|
+   |  ID de réponse Qualtrics  | Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
+   |  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable `trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
+   |  Envois d’enquête Qualtrics  | Sélectionnez un événement disponible dans votre suite de rapports (vous aurez sans doute besoin d’activer un nouvel événement dans le Gestionnaire de suite de rapports).  |
 
 1. **Étape 3 de l’assistant** : aucune action n’est requise, étape informative uniquement.
 
