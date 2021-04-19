@@ -329,12 +329,10 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-      >
-      >   
-      (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
-      >
-      >
-   * Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
+   >
+   >   (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+   >
+   >* Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 
 
 1. Spécifiez s’il convient de remplacer les valeurs existantes :
