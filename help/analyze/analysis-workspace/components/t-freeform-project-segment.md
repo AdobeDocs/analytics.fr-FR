@@ -2,8 +2,8 @@
 description: Utilisation de segments dans Analysis Workspace.
 title: Segments
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

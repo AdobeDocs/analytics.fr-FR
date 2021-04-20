@@ -1,7 +1,7 @@
 ---
 description: Vous pouvez désigner une série de variables de conversion (eVars) et d’événements personnalisés à utiliser dans le suivi et l’établissement de rapports vidéo.
 title: Gestion des vidéos
-feature: Outils d’administration
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

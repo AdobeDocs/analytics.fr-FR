@@ -3,7 +3,7 @@ description: Lorsque vous précisez une plage de dates ou une date fixe, le Cré
 title: Dates fixes et plages de dates enregistrées
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

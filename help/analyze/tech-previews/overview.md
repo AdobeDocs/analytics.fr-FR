@@ -2,7 +2,7 @@
 title: Guide d’utilisation de Labs
 description: Prévisualiser des projets de prototype pour Adobe Analytics
 feature: Labs
-role: Administrateur
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

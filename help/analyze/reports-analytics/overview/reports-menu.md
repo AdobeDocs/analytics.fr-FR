@@ -2,7 +2,7 @@
 description: Une présentation du menu Rapports dans Reports & Analytics.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 translation-type: tm+mt

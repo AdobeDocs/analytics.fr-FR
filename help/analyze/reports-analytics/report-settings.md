@@ -2,7 +2,7 @@
 description: Paramètres qui définissent la manière dont tous les rapports apparaissent et les informations qui mettent en correspondance les options de menu par défaut avec leur emplacement dans le menu simplifié.
 title: Paramètres d’affichage des rapports et navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

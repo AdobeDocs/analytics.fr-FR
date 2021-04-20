@@ -3,7 +3,7 @@ description: 'L’interface utilisateur d’Activity Map est composée de deux 
 title: Interface utilisateur d’Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Répertorie les paramètres de navigateur qui ne sont pas compatibl
 title: Dépannage des extensions de navigateur
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

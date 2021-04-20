@@ -2,7 +2,7 @@
 description: Vous pouvez utiliser l’option de concaténation pour renseigner des valeurs en en combinant d’autres.
 subtopic: Processing rules
 title: Ajouter une sous-catégorie en concaténant le nom de page et de catégorie
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
 translation-type: tm+mt

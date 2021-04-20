@@ -1,7 +1,7 @@
 ---
 description: Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars, les props, les classifications et les événements. Les descriptions sont visibles pour tous les utilisateurs finaux.
 title: Descriptions des rapports personnalisés
-feature: Outils d’administration
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

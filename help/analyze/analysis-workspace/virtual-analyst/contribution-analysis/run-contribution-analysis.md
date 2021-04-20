@@ -2,8 +2,8 @@
 description: Exécution d’un rapport d’analyse des contributions dans un projet Workspace.
 title: Exécution de l’analyse des contributions
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: Outils AI
-role: Professionnel, Administrateur
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

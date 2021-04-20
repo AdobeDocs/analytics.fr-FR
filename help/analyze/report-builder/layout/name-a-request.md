@@ -3,7 +3,7 @@ description: Vous pouvez attribuer un nom personnalisé à votre requête. Celui
 title: Nommage d’une requête
 uuid: 111326eb-33e2-490b-9a04-0f481a70e072
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

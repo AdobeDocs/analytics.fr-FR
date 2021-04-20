@@ -2,7 +2,7 @@
 description: Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
 keywords: Analysis Workspace
 title: Création d’un projet Workspace
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

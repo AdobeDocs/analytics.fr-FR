@@ -3,7 +3,7 @@ description: Contenu des autorisations héritées
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Modifications des autorisations d’utilisateur et des droits d’accès de groupe
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

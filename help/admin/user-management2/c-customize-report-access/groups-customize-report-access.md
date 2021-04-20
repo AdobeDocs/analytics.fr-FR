@@ -3,7 +3,7 @@ description: Personnalisez l’accès d’un groupe aux outils Analytics, aux ou
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation de l’accès aux rapports - Aperçu
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt

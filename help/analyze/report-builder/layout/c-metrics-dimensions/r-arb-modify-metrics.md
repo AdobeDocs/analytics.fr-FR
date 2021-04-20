@@ -3,7 +3,7 @@ description: Description des champs destinés à la configuration de mesures dan
 title: Modification des mesures - Définition des champs
 uuid: 5b82f4f7-f9d2-41c3-b5cb-eefcc2c1d3a6
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 subtopic: Users and groups
 title: Gestion des utilisateurs - Aperçu
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

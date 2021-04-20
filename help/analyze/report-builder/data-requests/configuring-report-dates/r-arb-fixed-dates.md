@@ -3,7 +3,7 @@ description: Définitions des dates fixes dans le Report Builder.
 title: Définitions de l’Assistant Requête - Dates fixes
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Tous les rapports mis en signet et de tableau de bord sont désorma
 title: Importation de rapports marqués d’un signet et de mini-rapports de tableau de bord
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

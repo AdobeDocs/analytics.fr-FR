@@ -3,7 +3,7 @@ description: Fournit des réponses et des suggestions en matière de dépannage 
 keywords: Dépannage d’Analytics
 title: Questions fréquentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

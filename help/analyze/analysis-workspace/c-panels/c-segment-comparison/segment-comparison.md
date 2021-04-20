@@ -2,8 +2,8 @@
 title: Panneau de comparaison des segments - Aperçu
 description: Découvrez comment utiliser le panneau de comparaison des segments, un composant de Segment IQ dans Analysis Workspace.
 keywords: Analysis Workspace ; Segment IQ
-feature: Panneaux
-role: Professionnel, Administrateur
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Définit des paramètres courants pour un site Web qui fournit des vidéos et articles d’assistance sur un produit.
 title: Média d’assistance
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt

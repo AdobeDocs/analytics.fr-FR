@@ -2,7 +2,7 @@
 description: Cette section contient des conseils et des bonnes pratiques à l’intention des nouveaux utilisateurs de suites de rapports virtuelles.
 keywords: Suite de rapports virtuelle
 title: FAQ sur les suites de rapports virtuelles
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt

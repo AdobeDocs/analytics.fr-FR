@@ -3,7 +3,7 @@ description: En supposant que le module de navigateur adapté ait été install�
 title: Lancement d’Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 feature: Activity Map
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

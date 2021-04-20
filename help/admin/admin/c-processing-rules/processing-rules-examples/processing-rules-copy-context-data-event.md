@@ -2,7 +2,7 @@
 description: Les règles de traitement peuvent déclencher des événements sur la base de variables Données contextuelles.
 subtopic: Processing rules
 title: Définir un événement à l’aide d’une variable de données contextuelles
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt

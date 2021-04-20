@@ -2,7 +2,7 @@
 description: Description de la procédure d’envoi d’un courriel à tous les utilisateurs de votre société.
 subtopic: Users and groups
 title: Envoyer un courrier électronique aux utilisateurs
-feature: Outils d’administration
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt

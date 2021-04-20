@@ -2,7 +2,7 @@
 description: Définition des éléments d’interface sur les pages du créateur de règles de classification.
 subtopic: Classifications
 title: Règles de classification – Définitions
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

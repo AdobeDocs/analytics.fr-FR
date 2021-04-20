@@ -2,7 +2,7 @@
 description: Les modifications apportées aux règles de traitement peuvent être visualisées dans l’historique.
 subtopic: Processing rules
 title: Afficher l’historique des règles de traitement
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 translation-type: tm+mt

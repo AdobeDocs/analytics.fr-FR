@@ -1,7 +1,7 @@
 ---
 description: Description de la méthode de génération d’une feuille de calcul Excel contenant tous les paramètres de la suite de rapports sélectionnée.
 title: Télécharger les paramètres d’une suite de rapports
-feature: Outils d’administration
+feature: Admin Tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt

@@ -1,8 +1,8 @@
 ---
 title: Tableaux de bord Adobe Analytics - Aperçu
 description: Documentation sur le produit et auto-assistance pour les tableaux de bord Adobe Analytics
-feature: Tableaux de bord Analytics
-role: Professionnel, Administrateur
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Tableau décrivant les colonnes du flux de données.
 keywords: Flux de données ; colonnes
 subtopic: data feeds
 title: Référence des colonnes de données
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

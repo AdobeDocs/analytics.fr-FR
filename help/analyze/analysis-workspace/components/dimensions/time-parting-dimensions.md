@@ -2,8 +2,8 @@
 description: La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
 title: Dimensions de répartition du temps
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

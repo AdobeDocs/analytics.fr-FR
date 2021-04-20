@@ -2,7 +2,7 @@
 description: La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
 subtopic: Classifications
 title: Hiérarchies de classification
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 translation-type: tm+mt

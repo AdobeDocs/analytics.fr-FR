@@ -3,8 +3,8 @@ description: Utilisez des alertes dans les rapports et analyses.
 subtopic: Alerts
 title: Alertes
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: Alertes
-role: Professionnel, Administrateur
+feature: Alerts
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

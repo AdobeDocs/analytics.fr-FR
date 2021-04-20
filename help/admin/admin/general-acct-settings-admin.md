@@ -1,7 +1,7 @@
 ---
 description: Description des champs Paramètres du compte général d’une suite de rapports dans Admin.
 title: Paramètres du compte général
-feature: Outils d’administration
+feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
 translation-type: tm+mt

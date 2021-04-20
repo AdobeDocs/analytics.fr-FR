@@ -2,8 +2,8 @@
 description: Affichez les valeurs supérieures d’une dimension avant de l’utiliser dans un projet.
 title: Aperçu des dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: Description de la procédure de téléchargement de fichiers de données via FTP.
 subtopic: Classifications
 title: Importation FTP
-feature: Outils d’administration
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 translation-type: tm+mt

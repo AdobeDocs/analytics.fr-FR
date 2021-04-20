@@ -2,8 +2,8 @@
 description: Désactivation de la détection des anomalies sur n’importe quelle mesure.
 title: Désactivation de la détection des anomalies
 uuid: d270d530-19da-4ee5-99a9-258050f8ae95
-feature: Outils AI
-role: Professionnel, Administrateur
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

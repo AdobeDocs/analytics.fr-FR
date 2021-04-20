@@ -1,7 +1,7 @@
 ---
 description: Les listes de publication permettent d’envoyer aisément divers rapports spécifiques à différents groupes de votre entreprise sans créer des rapports planifiés distincts. Elles se révèlent particulièrement utiles si vous disposez de suites de rapports spécifiques à l’emplacement et souhaitez fournir à chaque division une copie d’un tableau de bord particulier. Vous pouvez également utiliser des listes de publication pour envoyer des données à plusieurs personnes sans avoir à saisir individuellement leurs adresses de courriel (si vous utilisez une seule suite de rapports).
 title: Listes de publication
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt

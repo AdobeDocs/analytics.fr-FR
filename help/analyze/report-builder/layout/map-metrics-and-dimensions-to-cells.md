@@ -3,7 +3,7 @@ description: Avant de commencer le mappage des éléments sur la feuille de calc
 title: Mappage de mesures et de dimensions avec des cellules
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Permet de contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
 title: Gestionnaire de sécurité
-feature: Outils d’administration
+feature: Admin Tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 translation-type: tm+mt

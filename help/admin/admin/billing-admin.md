@@ -1,7 +1,7 @@
 ---
 description: La page Facturation vous permet d’accéder aux informations de facturation, dont les détails de trafic de chaque suite de rapports. Seul un administrateur autorisé peut accéder à cette page.
 title: Facturation
-feature: Outils d’administration
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

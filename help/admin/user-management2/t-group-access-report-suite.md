@@ -2,7 +2,7 @@
 description: Description de la procédure d’affectation de groupes d’utilisateurs à une suite de rapports.
 subtopic: Users and groups
 title: Affecter des groupes d’utilisateurs à une suite de rapports
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
 translation-type: tm+mt

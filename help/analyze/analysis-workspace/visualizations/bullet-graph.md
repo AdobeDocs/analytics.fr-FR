@@ -2,8 +2,8 @@
 description: Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs).
 title: Graphique à puces
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: Visualisations
-role: Professionnel, Administrateur
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

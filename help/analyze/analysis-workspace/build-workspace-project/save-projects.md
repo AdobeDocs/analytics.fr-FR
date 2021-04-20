@@ -1,7 +1,7 @@
 ---
 description: Découvrez les différentes options d’enregistrement, notamment l’enregistrement automatique, l’enregistrement en tant que modèle, l’enregistrement en tant que modèle et l’ouverture des versions précédentes.
 title: Enregistrement des projets
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

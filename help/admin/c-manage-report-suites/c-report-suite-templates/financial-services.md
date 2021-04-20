@@ -1,7 +1,7 @@
 ---
 description: Définit des paramètres courants pour les banques et autres institutions qui fournissent un accès à des services en ligne.
 title: Services financiers
-feature: Outils d’administration
+feature: Admin Tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt

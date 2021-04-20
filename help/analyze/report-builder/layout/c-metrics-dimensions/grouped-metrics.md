@@ -3,7 +3,7 @@ description: Vous pouvez désormais associer ces deux types de mesures en une se
 title: Association de mesures de trafic et de commerce dans la même requête
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

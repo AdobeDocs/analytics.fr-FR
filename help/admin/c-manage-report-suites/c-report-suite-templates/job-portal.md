@@ -1,7 +1,7 @@
 ---
 description: Définit des paramètres courants pour un portail d’emploi ou un site web de recherche d’emploi.
 title: Portail d’emploi
-feature: Outils d’administration
+feature: Admin Tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt

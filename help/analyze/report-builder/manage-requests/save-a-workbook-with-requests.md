@@ -3,7 +3,7 @@ description: Après avoir créé des rapports en y incorporant des requêtes, vo
 title: Enregistrement d’un classeur avec requêtes
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

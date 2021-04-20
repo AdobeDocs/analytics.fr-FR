@@ -2,8 +2,8 @@
 description: Découvrez comment créer des liens partageables vers des projets ou des visualisations
 keywords: Partage Analysis Workspace
 title: Création de liens partageables
-feature: Traitement et partage
-role: Professionnel, Administrateur
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

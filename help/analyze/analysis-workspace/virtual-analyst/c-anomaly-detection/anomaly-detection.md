@@ -2,8 +2,8 @@
 description: Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de données de manière contextuelle.
 title: Détection des anomalies - Aperçu
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: Outils AI
-role: Professionnel, Administrateur
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

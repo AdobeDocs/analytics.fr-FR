@@ -1,7 +1,7 @@
 ---
 description: Options de calendrier autres que le modèle grégorien. Les options incluent les modèles de calendrier 4-4-5, 4-5-4 et 5-4-4, qui sont tous des normes du secteur de la vente au détail. En outre, la création de rapports offre une option de personnalisation complète du calendrier.
 title: Personnalisation du calendrier
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 translation-type: tm+mt

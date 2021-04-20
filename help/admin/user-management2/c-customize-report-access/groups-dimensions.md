@@ -3,7 +3,7 @@ description: Personnalisez l’accès des utilisateurs à un niveau plus détail
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux dimensions
-feature: Outils d’administration
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

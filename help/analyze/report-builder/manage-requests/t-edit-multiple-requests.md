@@ -3,7 +3,7 @@ description: Vous pouvez modifier simultanément plusieurs requêtes, en fonctio
 title: Modification de plusieurs requêtes
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

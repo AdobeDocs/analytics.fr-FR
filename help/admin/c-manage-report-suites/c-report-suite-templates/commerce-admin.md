@@ -1,7 +1,7 @@
 ---
 description: Définit des paramètres courants pour le site Web de commerce électronique.
 title: Commerce
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt

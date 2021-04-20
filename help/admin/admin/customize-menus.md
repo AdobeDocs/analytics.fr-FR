@@ -1,7 +1,7 @@
 ---
 description: Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels les utilisateurs auront accès dans les Reports & Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cette fonctionnalité se révèle particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer le menu de gauche avec des données inusitées ou superflues.
 title: Personnalisation des menus
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt

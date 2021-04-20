@@ -2,7 +2,7 @@
 description: Cette section décrit la procédure à suivre pour personnaliser un graphique afin qu’il convienne mieux à l’audience visée.
 title: Modification des graphiques des rapports
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: La page Gérer les actions en attente vous permet de consulter la liste des actions en attente dans votre environnement Analytics. On désigne sous le nom d’action en attente, toute modification système qui nécessite une approbation de la part d’Adobe avant sa mise en œuvre.
 title: Actions en attente
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 translation-type: tm+mt

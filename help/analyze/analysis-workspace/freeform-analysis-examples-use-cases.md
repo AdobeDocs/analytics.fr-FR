@@ -2,7 +2,7 @@
 description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Cas d’utilisation d’Analysis Workspace
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

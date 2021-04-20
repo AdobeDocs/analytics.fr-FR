@@ -2,8 +2,8 @@
 description: 'Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une période, par exemple : année par année, trimestre par trimestre, mois par mois, etc.'
 title: Comparaison des dates
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

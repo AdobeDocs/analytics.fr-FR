@@ -2,7 +2,7 @@
 description: Vous pouvez rechercher les fautes d’orthographe courantes dans les valeurs et les mettre à jour afin qu’elles s’affichent correctement dans les rapports.
 subtopic: Processing rules
 title: Nettoyer les valeurs d’un rapport
-feature: Outils d’administration
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

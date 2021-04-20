@@ -1,7 +1,7 @@
 ---
 description: Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
 title: Événements du calendrier
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 translation-type: tm+mt

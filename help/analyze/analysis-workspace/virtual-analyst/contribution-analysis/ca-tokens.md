@@ -2,8 +2,8 @@
 description: Utilisation de l’analyse des contributions pour identifier les anomalies statistiques et les corrélations au sein des données.
 title: Analyse des contributions - Aperçu
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: Outils AI
-role: Professionnel, Administrateur
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

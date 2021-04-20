@@ -2,7 +2,7 @@
 description: Présentation des étapes requises pour planifier la mise en œuvre des suites de rapports virtuelles.
 keywords: Suite de rapports virtuelle
 title: Workflow des suites de rapports virtuelles
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt

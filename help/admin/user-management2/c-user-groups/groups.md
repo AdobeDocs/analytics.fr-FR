@@ -2,7 +2,7 @@
 description: Descriptions des éléments de la page Définir un groupe d’utilisateurs.
 subtopic: Users and groups
 title: Paramètres des groupes d’utilisateurs
-feature: Outils d’administration
+feature: Admin Tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 exl-id: f5cb40e6-bfcc-4071-bc6b-f3575f998edc
 translation-type: tm+mt

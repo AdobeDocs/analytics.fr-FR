@@ -3,7 +3,7 @@ description: Problèmes courants lors de l’utilisation du Report Builder avec 
 title: Dépannage de l’intégration de Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

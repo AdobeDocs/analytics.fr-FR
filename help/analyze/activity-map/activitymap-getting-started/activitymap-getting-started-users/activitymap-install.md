@@ -3,7 +3,7 @@ description: Le processus d’installation varie en fonction du navigateur que v
 title: Installation des modules de navigateur d’Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

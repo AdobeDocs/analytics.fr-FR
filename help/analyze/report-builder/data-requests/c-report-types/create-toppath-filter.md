@@ -3,7 +3,7 @@ description: Décrit comment créer des rapports Chemin avec des filtres prédé
 title: Filtrage des rapports Chemin en ajoutant des requêtes dépendantes
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

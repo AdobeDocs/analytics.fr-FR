@@ -2,8 +2,8 @@
 description: Création de projets Workspace basés sur des modèles standard ou personnalisés.
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

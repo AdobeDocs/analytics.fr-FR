@@ -2,7 +2,7 @@
 description: Pour utiliser efficacement les règles de traitement, il est essentiel de comprendre à quel moment elles sont appliquées dans le cadre d’une collecte de données.
 subtopic: Processing rules
 title: Ordre de traitement
-feature: Outils d’administration
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

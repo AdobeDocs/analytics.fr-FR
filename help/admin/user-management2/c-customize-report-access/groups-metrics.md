@@ -3,7 +3,7 @@ description: Activez les autorisations pour les mesures de trafic, les mesures d
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux mesures
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt

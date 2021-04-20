@@ -1,7 +1,7 @@
 ---
 description: Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez créer et personnaliser des règles de traitement des canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 title: Canaux marketing
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 exl-id: d9721fb9-2aa4-4db0-8030-cc7907bd953c
 translation-type: tm+mt

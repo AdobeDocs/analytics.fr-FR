@@ -2,7 +2,7 @@
 description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
 subtopic: Processing rules
 title: Astuces et conseils concernant les règles de traitement
-feature: Outils d’administration
+feature: Admin Tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 translation-type: tm+mt

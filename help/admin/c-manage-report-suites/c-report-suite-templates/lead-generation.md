@@ -1,7 +1,7 @@
 ---
 description: Définit des paramètres courants pour un site Web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
 title: Génération de pistes
-feature: Outils d’administration
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

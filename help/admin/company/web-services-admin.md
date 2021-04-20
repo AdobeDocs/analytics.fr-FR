@@ -1,7 +1,7 @@
 ---
 description: Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 title: Services web
-feature: Outils d’administration
+feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Adobe requiert d’être informée à l’avance de la configuration de nouveaux comptes, ainsi que des pics et augmentations de trafic. Le matériel doit être alloué à l’avance afin de minimiser la latence et les impacts négatifs sur l’ensemble du système.
 title: Délai d’avance requis pour les augmentations de trafic
-feature: Outils d’administration
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt

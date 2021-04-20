@@ -2,7 +2,7 @@
 title: FAQ sur Report Builder
 description: Questions fréquentes pour le Report Builder.
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

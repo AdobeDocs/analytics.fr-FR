@@ -3,7 +3,7 @@ description: Vous pouvez protéger toutes les requêtes d’un classeur contre l
 title: Verrouillez/déverrouillez des classeurs
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
-role: Professionnel, Administrateur
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

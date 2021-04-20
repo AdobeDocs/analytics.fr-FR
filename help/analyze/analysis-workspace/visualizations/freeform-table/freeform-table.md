@@ -1,8 +1,8 @@
 ---
 title: Tableau à structure libre
 description: Les tableaux à structure libre constituent la base de l’analyse des données dans Workspace.
-feature: Tableaux à structure libre
-role: Professionnel, Administrateur
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

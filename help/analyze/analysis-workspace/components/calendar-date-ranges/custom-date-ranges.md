@@ -3,8 +3,8 @@ description: Créez des périodes personnalisées dans Analysis Workspace et enr
 keywords: Analysis Workspace
 title: Création de périodes personnalisées
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Concepts de base de Workspace
-role: Professionnel, Administrateur
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

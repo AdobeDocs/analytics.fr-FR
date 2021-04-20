@@ -2,7 +2,7 @@
 description: Cliquez sur l’icône i (Informations) située en regard du nom de la suite de rapports pour obtenir des informations sur celle-ci.
 keywords: Suite de rapports virtuelle
 title: Affichage des informations relatives à une suite de rapports virtuelle
-feature: Concepts de base des rapports et analyses et analyses
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

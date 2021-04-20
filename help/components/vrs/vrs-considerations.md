@@ -2,7 +2,7 @@
 description: Les suites de rapports virtuelles et le balisage multisuite présentent des avantages différents. Découvrez ce qui est le mieux pour votre entreprise.
 keywords: Suite de rapports virtuelle,VRS
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
-feature: Paramètres des suites de rapports
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
