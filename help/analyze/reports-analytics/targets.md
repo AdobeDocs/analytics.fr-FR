@@ -2,13 +2,13 @@
 description: Les cibles vous permettent de mesurer les performances de votre site web et de suivre leur progression par rapport aux objectifs cibles. Vous pouvez par exemple augmenter le nombre de visiteurs provenant d’une zone géographique donnée, les recettes par commande ou le nombre de visites provenant d’un référent spécifique.
 title: 'Cibles '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '605'
 ht-degree: 99%
 
 ---
