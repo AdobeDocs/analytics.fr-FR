@@ -3,13 +3,13 @@ description: Grâce à l’option Inclure les données actives des Reports & Ana
 subtopic: Current Data
 title: Données actives
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 role: Business Practitioner, Administrator
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 96%
 
 ---
