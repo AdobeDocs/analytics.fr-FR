@@ -3,14 +3,14 @@ description: Informations relatives aux caractères spéciaux utilisés dans le 
 keywords: Flux de données ; tâche ; caractères spéciaux ; hit_data ; variables à plusieurs valeurs ; événements_liste ; products_liste ; mvvars
 subtopic: data feeds
 title: Caractères spéciaux dans les flux de données
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 94%
+source-wordcount: '344'
+ht-degree: 95%
 
 ---
 
