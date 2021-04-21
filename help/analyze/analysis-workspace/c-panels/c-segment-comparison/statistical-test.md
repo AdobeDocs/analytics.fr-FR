@@ -2,15 +2,15 @@
 description: Chacun des principaux tableaux de comparaison présente un score de différence calculé par plusieurs tests statistiques, selon le mode de comparaison. Toutefois, quel que soit le test utilisé, le score de différence est présenté comme une valeur comprise entre 0 et 1.
 keywords: Analysis Workspace ; Segment IQ
 title: Tests statistiques utilisés dans la comparaison de segments
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 role: Business Practitioner, Administrator
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 98%
+source-wordcount: '470'
+ht-degree: 99%
 
 ---
 
