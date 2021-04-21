@@ -2,14 +2,14 @@
 description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
 keywords: Flux de données;page;événement;page_événement;post_page_événement
 title: Recherche d’événement de page
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 93%
+source-wordcount: '209'
+ht-degree: 94%
 
 ---
 
