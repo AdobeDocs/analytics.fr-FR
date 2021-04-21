@@ -2,13 +2,13 @@
 description: Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la relation entre un segment ou un élément de rapport et d’autres rapports. On parle généralement de « ventilation » d’un rapport en fonction d’un autre rapport.
 title: Ventilations
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Concepts de base des rapports et analyses
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '296'
 ht-degree: 98%
 
 ---
