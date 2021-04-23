@@ -6,10 +6,10 @@ feature: Concepts de base des rapports et analyses
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Vous trouverez ci-dessous une description des champs et des options de la page [
 | [!UICONTROL Sélectionner un élément] | Affiche le formulaire de sélection pour l&#39;attribut ou l&#39;eVar sélectionné, de sorte que vous puissiez effectuer une recherche [!UICONTROL avancée] des éléments associés. Si, par exemple, vous sélectionnez l’eVar [!UICONTROL pays], la liste d’éléments vous permet de spécifier le pays. Si vous sélectionnez l’eVar [!UICONTROL produits], la liste d’éléments vous permet de spécifier le produit. Les variables Aperçu personnalisé figurent également dans le menu. Si une variable Custom Insight est configurée pour mesurer les tranches d’âge des visiteurs, alors la liste d’éléments affiche les tranches d’âge, telles que 18-24, 25-35, etc. |
 | [!UICONTROL Mesure] | Vous permet d’appliquer la cible à une mesure. Ce menu affiche uniquement les mesures qui s’appliquent à une eVar donnée. Si, par exemple, vous sélectionnez l’eVar [!UICONTROL produits], une mesure telle que [!UICONTROL Sorties de page] ne s’y applique pas. La mesure [!UICONTROL Sorties de page] peut s’appliquer à l’eVar d’une page web. |
 | [!UICONTROL Point] | Permet de définir la [!UICONTROL plage de dates] et la [!UICONTROL granularité] de la cible. En fonction des spécifications de la plage de dates, certaines options de granularité ne sont pas applicables. Lorsque vous entrez les valeurs des mesures, entrez une valeur pour chaque     paramètre de granularité. Si, par exemple, la plage de dates est le mois de février et votre choix de granularité est hebdomadaire, entrez une valeur pour chaque semaine du mois de février. [!UICONTROL Les rapports Cible s’affichent pour chaque paramètre de granularité.] |
-| [!UICONTROL Valeurs] | Permet de spécifier les valeurs cibles pour la période et la mesure sélectionnée. Ces valeurs correspondent aux valeurs cibles que vous tentez d’atteindre. Si, par exemple, la cible est basée sur les recettes et que vous souhaitez atteindre des recettes de 10 000 € pour un mois donné, entrez 10 000 dans le champ de valeur réservé au mois. |
+| [!UICONTROL Valeurs] | Permet de spécifier les valeurs cibles pour la période et la mesure sélectionnée. Ces valeurs sont les numéros de cible que vous tentez d’atteindre. Si, par exemple, la cible est basée sur les recettes et que vous souhaitez atteindre des recettes de 10 000 € pour un mois donné, entrez 10 000 dans le champ de valeur réservé au mois. |
 
 ## Ajouter une [!UICONTROL Cible] {#task_94915391E26E4F808F2538AA92BC7E71}
 
