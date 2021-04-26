@@ -3,10 +3,10 @@ title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 93%
+source-wordcount: '1605'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## Comment puis-je utiliser les analyses entre appareils pour voir comment les gens passent d’un type d’appareil à un autre ?
 
-Vous pouvez utiliser une visualisation de flux avec la dimension Type de périphérique mobile.
+Vous pouvez utiliser une visualisation [!UICONTROL Flux] avec la dimension Type de périphérique mobile.
 
 1. Connectez-vous à Adobe Analytics et créez un projet Workspace vide.
 2. Cliquez sur l’onglet Visualisations sur la gauche, puis faites glisser une visualisation de flux vers la zone de travail sur la droite.
@@ -105,3 +105,9 @@ Il est possible d’activer plusieurs suites de rapports. Toutefois, chaque suit
 ## Si mon organisation Experience Cloud (ou organisation IMS) a plusieurs sociétés dans différentes régions, puis-je activer l&#39;ACD pour toutes ?
 
 Non. Pour la même organisation, seule une région peut avoir activé l&#39;ADC.
+
+## Quels sont les avantages et les inconvénients d&#39;une relecture de 7 jours par rapport à une relecture de 1 jour ?
+
+L&#39;avantage de la fenêtre de recherche de relecture de 7 jours est que l&#39;ADC peut revenir plus loin dans le temps pour essayer d&#39;associer des événements anonymes antérieurs à une personne qui s&#39;est connectée plus tard dans les 7 jours. Les inconvénients de la fenêtre de recherche de 7 jours sont 1) la relecture ne s&#39;exécute qu&#39;une fois par semaine, et 2) les 7 derniers jours sont sujets à changement.
+
+Les avantages de l&#39;utilisation de la fenêtre de recherche de relecture de 1 jour sont 1) la relecture s&#39;exécute tous les jours et 2) seulement hier est sujet à changement. L&#39;inconvénient de la fenêtre de recherche en amont d&#39;un jour est que l&#39;ADC ne peut revenir qu&#39;en arrière d&#39;un jour pour essayer d&#39;associer des événements précédemment anonymes à une personne qui s&#39;est connectée hier.
