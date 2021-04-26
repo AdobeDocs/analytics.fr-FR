@@ -1,14 +1,14 @@
 ---
 title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
-translation-type: ht
-source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
+translation-type: tm+mt
+source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
-
 
 # Configuration des analyses entre appareils
 
@@ -18,9 +18,9 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 >
 >Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, consultez la [page d’aperçu](overview.md) et la méthode de regroupement souhaitée ([Regroupement basé sur les champs](field-based-stitching.md) ou [Graphique d’appareil](device-graph.md), respectivement).
 
-## Contactez votre Customer Success Manager pour que les analyses entre appareils soient configurées sur votre suite de rapports contenant des données de plusieurs appareils.
+## Ouvrez un ticket auprès du service à la clientèle pour que l’outil de développement de l’expérience client soit configuré sur votre suite de rapports sur plusieurs périphériques.
 
-Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Contactez votre Customer Success Manager avec les informations suivantes :
+Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Pour début ce processus, contactez le service à la clientèle et soyez prêt à fournir les informations suivantes :
 
 * Votre identifiant d’organisation Adobe Experience Cloud (chaîne alphanumérique se terminant par @AdobeOrg)
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
@@ -28,7 +28,7 @@ Les analyses entre appareils sont configurées sur votre suite de rapports conte
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
 * Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
 
-Une fois que vous avez fourni ces informations à votre Customer Success Manager, ce dernier collabore avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
+Une fois que vous avez fourni ces informations au service à la clientèle, il collaborera avec l’ingénierie d’Adobe pour activer la suite de rapports choisie pour le traitement de l’ACD.
 
 ## Créer une suite de rapports virtuelle sur plusieurs appareils pour afficher la vue sur plusieurs appareils
 
