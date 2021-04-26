@@ -3,10 +3,10 @@ title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ Non. Pour la même organisation, seule une région peut avoir activé l&#39;ADC.
 L&#39;avantage de la fenêtre de recherche de relecture de 7 jours est que l&#39;ADC peut revenir plus loin dans le temps pour essayer d&#39;associer des événements anonymes antérieurs à une personne qui s&#39;est connectée plus tard dans les 7 jours. Les inconvénients de la fenêtre de recherche de 7 jours sont 1) la relecture ne s&#39;exécute qu&#39;une fois par semaine, et 2) les 7 derniers jours sont sujets à changement.
 
 Les avantages de l&#39;utilisation de la fenêtre de recherche de relecture de 1 jour sont 1) la relecture s&#39;exécute tous les jours et 2) seulement hier est sujet à changement. L&#39;inconvénient de la fenêtre de recherche en amont d&#39;un jour est que l&#39;ADC ne peut revenir qu&#39;en arrière d&#39;un jour pour essayer d&#39;associer des événements précédemment anonymes à une personne qui s&#39;est connectée hier.
+
+## Qu’advient-il des données assemblées dans mes suites de rapports virtuelles CDA si ma société décide de réduire la mise à niveau d’Analytics Ultimate ?
+
+Si un client effectue une mise à niveau depuis Ultimate, il n’aura plus accès aux données assemblées. Toutes les données précédemment assemblées seront supprimées. Cela signifie que les suites de rapports virtuelles de l’ADC ne refléteront plus aucun assemblage sur plusieurs périphériques. Les données ressembleront à la suite de rapports désassemblée d’origine.
