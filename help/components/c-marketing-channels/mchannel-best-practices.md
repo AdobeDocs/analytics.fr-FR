@@ -1,8 +1,8 @@
 ---
 title: Meilleures pratiques pour la mise en oeuvre des Canaux Adobe Analytics Marketing
-description: Mise à jour des meilleures pratiques pour l’utilisation des canaux marketing avec Attribution IQ et Customer Journey Analytics
+description: Mise à jour des meilleures pratiques pour l’utilisation des Canaux marketing avec Attribution IQ et Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Utilisation de l’Attribution IQ avec les Canaux marketing - Bonnes pratiques
+# Attribution IQ avec les Canaux marketing - Bonnes pratiques
 
 [Les ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) canaux marketing sont une caractéristique précieuse et puissante de l’Adobe Analytics. Les directives actuelles concernant la mise en oeuvre du Canal marketing ont été formulées à un moment où il n&#39;existait ni [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) ni [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=fr#cja-usecases).
 
@@ -38,6 +38,6 @@ Les modèles d’attribution personnalisés utilisés avec la dimension Canal ma
 
 La définition de la période d’engagement du Visiteur sur une période minimale d’un jour réduit la probabilité de persistance des valeurs. Etant donné que les modèles d’attribution personnalisés (AIQ) autorisent des fenêtres de recherche en amont flexibles, nous vous recommandons de définir la valeur minimale afin de minimiser l’impact de ce paramètre.
 
-## Bonne pratique no 5 : Les règles de traitement des Canaux marketing n’existent que pour les canaux activés.
+## Bonne pratique no 5 : Les règles de traitement des Canaux marketing ne doivent exister que pour les canaux activés.
 
 Veillez à supprimer toutes les règles de traitement des Canaux marketing pour les canaux désactivés. Les règles ne doivent exister que pour les Canaux marketing cochés comme activés.
