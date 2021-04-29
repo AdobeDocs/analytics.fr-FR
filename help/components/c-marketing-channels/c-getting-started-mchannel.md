@@ -2,15 +2,19 @@
 title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 100%
+source-wordcount: '814'
+ht-degree: 97%
 
 ---
 
 
 # Prise en main des canaux marketing
+
+>[!NOTE]
+>
+>Pour optimiser l&#39;efficacité des Canaux marketing pour l&#39;Attribution IQ et le Customer Journey Analytics, nous avons publié quelques [meilleures pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
