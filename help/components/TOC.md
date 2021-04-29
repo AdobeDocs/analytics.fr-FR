@@ -5,10 +5,10 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 100%
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
    + [Prise en main des canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ avec les Canaux marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
    + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
    + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
