@@ -2,10 +2,10 @@
 title: Meilleures pratiques pour la mise en oeuvre des Canaux Adobe Analytics Marketing
 description: Mise à jour des meilleures pratiques pour l’utilisation des Canaux marketing avec Attribution IQ et Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +24,31 @@ Comme les dimensions du Canal marketing dépendent d’une définition de visite
 
 Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) au lieu de l’attribution de Canal marketing existante pour affiner votre analyse de Canal marketing. Suivez les autres bonnes pratiques pour assurer la cohérence et des contrôles robustes de votre analyse avec Attribution IQ.
 
+![](assets/attribution.png)
+
+* La configuration des dimensions Détails du Canal marketing et du Canal marketing établit les points de contact à évaluer, en fonction de chaque instance de Canal marketing.
+* Pour l’analyse des mesures, votre organisation doit s’aligner sur un ou plusieurs modèles d’attribution. Enregistrez des mesures personnalisées à l’aide de ce modèle afin de les réutiliser facilement.
+* Par défaut, les données sont attribuées à l’aide de la touche Dernière touche et du paramètre de la période d’engagement du Visiteur. Attribution IQ metric models offre un meilleur contrôle des fenêtres de recherche et plus de variété, y compris [l’attribution algorithmique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace).
+
 ## Bonne pratique no 2 : Aucune définition de canal Direct et Session Refresh
 
 Les canaux d’actualisation directe et interne/de session ne sont pas recommandés pour une utilisation avec des modèles d’attribution personnalisés (Attribution IQ).
 
 Que se passe-t-il si votre entreprise a déjà configuré Direct et Session Refresh ? Dans ce cas, nous vous recommandons de créer une classification pour vos Canaux marketing et de ne pas classer ces deux canaux. La dimension classifiée produira les mêmes résultats d’Attribution IQ que si ces canaux n’avaient jamais été configurés.
 
+![](assets/direct-session-refresh.png)
+
 ## Bonne pratique no 3 : Activer le remplacement du Canal Dernière touche pour tous les canaux
 
 Les modèles d’attribution personnalisés utilisés avec la dimension Canal marketing dans Workspace fonctionnent mieux lorsque ce paramètre est activé. Si ce paramètre est activé, une instance de Canal marketing est comptabilisée lorsqu’un nouveau canal/détail est rencontré. Vous devez l’activer pour tous les canaux, à l’exception de l’actualisation directe ou interne/session, que nous ne recommandons plus d’utiliser avec des modèles d’attribution personnalisés (Attribution IQ).
 
+![](assets/override.png)
+
 ## Bonne pratique no 4 : Réduire la période d’engagement des Visiteurs
 
 La définition de la période d’engagement du Visiteur sur une période minimale d’un jour réduit la probabilité de persistance des valeurs. Etant donné que les modèles d’attribution personnalisés (AIQ) autorisent des fenêtres de recherche en amont flexibles, nous vous recommandons de définir la valeur minimale afin de minimiser l’impact de ce paramètre.
+
+![](assets/expiration.png)
 
 ## Bonne pratique no 5 : Les règles de traitement des Canaux marketing ne doivent exister que pour les canaux activés.
 
