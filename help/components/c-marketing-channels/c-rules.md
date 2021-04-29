@@ -1,14 +1,14 @@
 ---
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 89%
 
 ---
-
 
 # Règles de traitement des canaux marketing
 
@@ -17,7 +17,8 @@ Les règles de traitement des canaux marketing déterminent si un accès visiteu
 ![](assets/buckets_2.png)
 
 Remarques supplémentaires sur le traitement :
-* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Il est donc vivement conseillé d’étudier tous les cas et de les prendre en compte avant d’enregistrer les [!UICONTROL règles de traitement des canaux marketing] afin de limiter la collecte de données dans des canaux incorrects.
+
+* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Nous vous recommandons vivement de vérifier et de prendre en compte toutes les circonstances avant d’enregistrer [!UICONTROL les règles de traitement du Canal marketing] afin d’atténuer les données collectées dans des canaux incorrects.
 * Le rapport peut traiter jusqu’à 25 canaux simultanément.
 * Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
 * Un même événement (tel qu’un achat ou un clic) n’est jamais porté au crédit de deux canaux marketing. En cela, les canaux marketing diffèrent des eVars (car deux eVars peuvent recevoir le crédit d’un seul et même événement).
@@ -27,6 +28,7 @@ Remarques supplémentaires sur le traitement :
 
 * Consultez les informations conceptuelles dans la section [Prise en main des Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing.](/help/components/c-marketing-channels/c-channels.md)
+* Examinez les meilleures pratiques relatives à l’utilisation de [!UICONTROL Canaux marketing] avec [!UICONTROL Attribution IQ].
 
 ## Création de règles de traitement des canaux marketing
 
