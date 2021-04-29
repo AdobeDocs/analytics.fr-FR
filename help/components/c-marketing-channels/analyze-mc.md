@@ -3,14 +3,18 @@ title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 85%
+source-wordcount: '414'
+ht-degree: 81%
 
 ---
 
 # Analyse des canaux marketing
+
+>[!NOTE]
+>
+>Pour optimiser l&#39;efficacité des Canaux marketing pour l&#39;Attribution IQ et le Customer Journey Analytics, nous avons publié quelques [meilleures pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus efficace et avec qui, afin de mieux cibler vos efforts et de bénéficier d’un meilleur retour sur votre investissement en marketing. Dans Adobe Analytics, les dimensions et les mesures des canaux marketing de Workspace sont l’un des outils qui peuvent vous aider à suivre l’influence de différents canaux sur vos commandes, recettes, etc. et vous donner des informations utiles sur les canaux. Voici les dimensions et les mesures que vous pouvez utiliser en lien avec les canaux marketing :
 
