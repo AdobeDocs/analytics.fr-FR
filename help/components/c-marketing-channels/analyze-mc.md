@@ -1,14 +1,14 @@
 ---
 title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 94%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
-
 
 # Analyse des canaux marketing
 
@@ -17,7 +17,7 @@ Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus ef
 ![](assets/mc-dims.png)
 
 | Dimension/Mesure | Définition |
-|---|---|
+| --- | --- |
 | Canal marketing | Il s’agit de la dimension Canaux marketing recommandée. Les modèles Attribution IQ peuvent être appliqués à celui-ci au moment de l’exécution. Cette dimension se comporte de la même manière que la dimension Canal Dernière touche, mais elle est étiquetée différemment pour éviter toute confusion lors de son utilisation avec un modèle d’attribution différent. |
 | Canal Dernière touche | Dimension héritée, avec modèle d’attribution Dernière touche préappliqué et non modifiable. |
 | Canal Première touche | Dimension héritée, avec modèle d’attribution Première touche préappliqué et non modifiable. |
@@ -54,7 +54,7 @@ Notez comment une même mesure (Commandes en ligne) génère des résultats diff
 
 ## Analyse marketing entre onglets
 
-En utilisant le Canal Première touche et le Canal Dernière touche hérités, vous pouvez obtenir des informations utiles sur les interactions de canal :
+En utilisant l’ancien Canal Première touche et le Canal Dernière touche, vous pouvez obtenir une vue utile sur les interactions canal :
 
 ![](assets/mc-viz6.png)
 
