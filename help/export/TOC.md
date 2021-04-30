@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '278'
+translation-type: tm+mt
+source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+workflow-type: tm+mt
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
    + [Bonnes pratiques relatives aux flux de données](analytics-data-feed/data-feeds-best-practices.md)
-   + [Résolution des problèmes liés aux flux de données](analytics-data-feed/feed-troubleshooting.md)
    + [Résolution des problèmes liés aux tâches](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
