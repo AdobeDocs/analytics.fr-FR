@@ -5,10 +5,10 @@ user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant d’analyse spécifique.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 90%
    + [Comparaison de dates aux plages précédentes](event/compare-dates.md)
    + [Dérivation de données affectées par les événements](event/calcmetrics.md)
    + [Communication d’événements aux utilisateurs](event/communicate.md)
-+ [Cookies de navigateur](cookies.md)
++ [Cookies] {#cookies}
+   + [Cookies de navigateur](cookies/cookies.md)
+   + [Options permettant d’atténuer l’effet des limitations des cookies du navigateur](cookies/cookieless.md)
 + [Rétention des données](data-retention.md)
 + [Exclure des données](exclude-data.md)
 + [IP et domaines utilisés par l’Adobe Analytics](ip-addresses.md)
