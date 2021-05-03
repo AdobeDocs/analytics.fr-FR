@@ -4,14 +4,14 @@ title: Questions fréquentes sur Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 25%
+source-wordcount: '655'
+ht-degree: 19%
 
 ---
-
 
 # Questions fréquentes sur Activity Map
 
@@ -20,6 +20,15 @@ Questions fréquentes sur l’installation, la configuration et l’utilisation 
 ## Tous les clients Analytics ont-ils accès à la page d’activation de Carte d’activités des outils d’administration ?
 
 Les entreprises ayant un contrat pour Adobe Analytics Standard, Premium et Ultimate ont accès au Activity Map.
+
+## Comment le Activity Map prend-il en charge les applications d’une seule page (SPA) ?
+
+Toutes les quelques secondes, le Activity Map analyse la page Web en recherchant des modifications. ActivityMap recherche le nouveau contenu sur la page sans avoir à charger une nouvelle page, mais ce nouveau contenu est toujours attribué au premier pageName trouvé lors du chargement de la page.
+
+* Le Activity Map vérifie si la visibilité des liens qu’il connaît a changé. Si un changement de visibilité est détecté, la colonne Présent de la table Liens de la page pour ce lien est mise à jour avec [!UICONTROL Affichage] ou [!UICONTROL Masqué].
+
+* Lorsque l’interaction de l’utilisateur crée un nouveau contenu, tout nouvel élément trouvé par AppMeasurement comme un lien sera ajouté au tableau [!UICONTROL Liens de la page]. Le Activity Map envoie une nouvelle requête de données qui inclut ces nouveaux liens. Les nouveaux liens doivent apparaître dans le tableau [!UICONTROL Liens de la page] lorsque la demande de données est traitée par l’interface utilisateur.
+
 
 ## Le Activity Map fournit-il des données sur les &quot;vues&quot; ?
 
