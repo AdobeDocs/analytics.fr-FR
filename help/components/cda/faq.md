@@ -3,10 +3,10 @@ title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 81%
+source-wordcount: '1674'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Ces deux identifiants sont calculés par Adobe au moment de l’exécution du ra
 
 ## Comment puis-je passer du graphique d’appareils au groupement basé sur les champs, ou vice versa ?
 
-Si vous souhaitez changer de méthode d’identification d’analyses entre appareils, contactez le gestionnaire de compte de votre entreprise. Le gestionnaire de compte peut configurer votre suite de rapports selon la méthode souhaitée pour identifier les personnes. *Les données historiques regroupées issues de la méthode précédente sont perdues.*
+Le service à la clientèle peut vous demander de passer du graphique du périphérique à l’assemblage sur le terrain ou vice versa. Cependant, la réalisation d&#39;un tel commutateur peut prendre quelques semaines ou plus et *les données assemblées historiques de la méthode précédente sont perdues.*
 
 ## Comment Adobe gère-t-il les limites uniques d’une eVar utilisée dans un groupement basé sur les champs ?
 
