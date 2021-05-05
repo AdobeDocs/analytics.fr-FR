@@ -1,30 +1,30 @@
 ---
 description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport.
 title: Valeur de faible trafic dans Adobe Analytics
-feature: Metrics
+feature: Mesures
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 94%
+source-wordcount: '485'
+ht-degree: 79%
 
 ---
 
 # Valeur de faible trafic dans Adobe Analytics
 
-Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous l’élément de ligne **(Faible trafic)**.
+Lorsqu&#39;un rapport comporte de nombreuses valeurs uniques, l&#39;Adobe permet de s&#39;assurer que les valeurs les plus importantes apparaissent dans le rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous l’élément de ligne **(Faible trafic)**.
 
 ## Fonctionnement du faible trafic
 
 * La création de rapports n’est pas affectée si la variable n’atteint pas 500 000 valeurs uniques au cours d’un mois donné.
 * Lorsqu’une variable atteint ce premier seuil de 500 000 valeurs, les données commencent à être groupées dans un compartiment à trafic faible. Chaque valeur dépassant ce seuil suit la logique suivante :
    * Si une valeur est déjà incluse dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur n’est pas encore incluse dans les rapports, vérifiez si elle a été consultée plus de dix fois environ aujourd’hui. Si tel est le cas, ajoutez cette valeur aux rapports. Si elle n’a pas été comptée plus de dix fois environ, laissez-la en faible trafic.
+   * Si une valeur n’est pas encore en rapports, les seuils &quot;valeurs numériques vues&quot; dépendent des configurations du serveur principal. Ils ne constituent pas exactement &quot;10&quot; ou &quot;100&quot; fois vus.
 * Si une suite de rapports atteint plus de 1 000 000 de valeurs uniques, un filtrage plus agressif est appliqué :
    * Si une valeur est déjà incluse dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur n’est pas encore incluse dans les rapports, vérifiez si elle a été consultée plus d’environ 100 fois aujourd’hui. Si c’est le cas, ajoutez la valeur aux rapports. Si ce n’est pas le cas, laissez-la en faible trafic.
+   * Si une valeur n’est pas encore en rapports, les seuils &quot;valeurs numériques vues&quot; dépendent des configurations du serveur principal. Ils ne constituent pas exactement &quot;10&quot; ou &quot;100&quot; fois vus.
 
 >[!NOTE]
 >
