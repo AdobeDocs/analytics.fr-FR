@@ -1,12 +1,12 @@
 ---
 title: Suppression de robots dans Adobe Analytics
-description: Trois méthodes pour supprimer des robots dans Adobe Analytics
+description: Suppression de robots en Adobe Analytics
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 translation-type: tm+mt
-source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+source-git-commit: bb8ccbf782a1431e5278a95923a42c9e9e9e862b
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '790'
+ht-degree: 53%
 
 ---
 
@@ -21,13 +21,13 @@ Les méthodes de filtrage de robots standard et personnalisées sont prises en c
 | Type de règle | Description |
 |--- |--- |
 | Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
-| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
+| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées en fonction des agents utilisateur, des adresses IP ou des plages d’adresses IP. |
 
 Pour plus d’informations, voir [Présentation des règles de robots](/help/admin/admin/bot-removal/bot-rules.md).
 
 ## Utilisez le module externe [!UICONTROL webBot] pour identifier les robots
 
-Le module externe webBot vous permet d’identifier de manière dynamique si les visiteurs de bureau sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
+Le module externe [!UICONTROL webBot] vous permet d’identifier de manière dynamique si les visiteurs de bureau sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
 
 Ce module effectue deux vérifications :
 
@@ -38,19 +38,19 @@ Pour plus d’informations, consultez le [Guide de mise en oeuvre Adobe Analytic
 
 ## Utiliser une combinaison d’outils Adobe
 
-En outre, comme les robots se transforment rapidement, Adobe propose plusieurs autres fonctionnalités performantes qui, lorsqu’elles sont combinées correctement et régulièrement, peuvent contribuer à venir à bout de ces ennemis de la qualité des données. Ces fonctionnalités sont les suivantes : le service Experience Cloud ID, la segmentation, Data Warehouse, les attributs du client et les suites de rapports virtuelles. Voici un aperçu de la manière dont vous pouvez tirer parti de ces outils.
+En outre, comme les robots se transforment rapidement, Adobe propose plusieurs autres fonctionnalités performantes qui, lorsqu’elles sont combinées correctement et régulièrement, peuvent contribuer à venir à bout de ces ennemis de la qualité des données. Ces fonctionnalités sont les suivantes : le service Experience Cloud ID, la segmentation, Data Warehouse, les attributs du client et les suites de rapports virtuelles. Voici un aperçu de la façon dont vous pouvez utiliser ces outils.
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
-Pour commencer, vous souhaiterez créer un ID déclaré dans le [service clé People](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html). Vous devrez transmettre l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour début, créez un nouvel identifiant déclaré dans le service principal [Personnes](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Transférez votre Experience Cloud visiteur ID dans ce nouvel ID déclaré, qui peut être effectué rapidement et facilement avec [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
-Voici la manière de capturer cet ID via l’élément de données. Veillez à renseigner correctement votre ID d’organisation Experience Cloud dans l’élément de données.
+Voici la manière de capturer cet ID via l’élément de données. Veillez à renseigner correctement votre OrgID Experience Cloud dans l’élément de données.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) pour transmettre les ID déclarés à l’outil ECID dans Launch.
+Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) pour transmettre les identifiants déclarés à l&#39;outil ECID dans le lancement d&#39;Adobe.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
@@ -60,18 +60,18 @@ Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vou
 
 ### Étape 3 : exporter tous les [!DNL Experience Cloud IDs] du segment via Data Warehouse
 
-Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à tirer parti de Data Warehouse pour extraire tous les Experience Cloud ID associés à ce segment. Voici comment configurer votre demande [Data Warehouse](https://docs.adobe.com/content/help/fr-FR/analytics/export/data-warehouse/data-warehouse.html) :
+Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à utiliser le Data Warehouse pour extraire tous les ID d’Experience Cloud associés à ce segment. Cette capture d’écran montre comment configurer votre requête [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) :
 
 ![](assets/bot-dwh-3.png)
 
-N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dimension et d’appliquer le segment Robots.
+N’oubliez pas d’utiliser l’ID de Visiteur Experience Cloud comme dimension et d’appliquer le segment Robots.
 
 ### Étape 4 : Renvoyer cette liste à Adobe en tant qu’attribut du client
 
-Une fois le rapport Data Warehouse généré, vous disposez d’une liste des ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces ECID dans un fichier .CSV vide avec seulement deux colonnes, ECID et Indicateur de robot.
+Une fois le rapport du Data Warehouse reçu, vous disposez d’une liste d’ECID qui doit être filtrée à partir des données historiques. Copiez et collez ces ECID dans un fichier .CSV vide avec seulement deux colonnes, ECID et Indicateur de robot.
 
-* **ECID** : assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
-* **Indicateur de robot** : ajoutez-le en tant que dimension de schéma d’attribut du client.
+* **ECID** : Assurez-vous que cet en-tête de colonne correspond au nom que vous avez attribué au nouvel ID déclaré ci-dessus.
+* **Indicateur** de robot : Ajoutez &quot;Bot Flag&quot; en tant que dimension schéma d’attributs du client.
 
 Utilisez ce fichier .CSV comme fichier d’importation d’attribut du client, puis abonnez vos suites de rapports à l’attribut du client, comme décrit dans cet [article de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
@@ -79,18 +79,18 @@ Utilisez ce fichier .CSV comme fichier d’importation d’attribut du client, p
 
 ### Étape 5 : Créer un segment qui tire parti du nouvel attribut du client
 
-Une fois votre jeu de données traité et intégré dans Analysis Workspace, créez un segment supplémentaire qui tire parti de votre nouvelle dimension d’attribut client « Indicateur de robot » et un conteneur [!UICONTROL Exclure] :
+Une fois que votre jeu de données a été traité et intégré à Analysis Workspace, créez un segment supplémentaire qui exploite votre nouvelle dimension d’attribut client &quot;Bot Flag&quot; et un conteneur [!UICONTROL Exclure] :
 
 ![](assets/bot-filter-seg2.png)
 
 ### Étape 6 : Utiliser ce segment comme filtre de suite de rapports virtuelle
 
-Enfin, vous devez créer une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui tire parti de ce segment pour filtrer les robots identifiés :
+Enfin, créez une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui utilise ce segment pour filtrer les robots identifiés :
 
 ![](assets/bot-vrs.png)
 
-Cette suite de rapports virtuelle récemment segmentée se caractérise désormais par un ensemble de données significativement plus propre, les robots identifiés étant complètement supprimés.
+Cette suite de rapports virtuelle nouvellement segmentée génère désormais un ensemble de données plus propre, les robots identifiés étant supprimés.
 
 ### Étape 7 : Répéter régulièrement les étapes 2, 3 et 4
 
-Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, peut-être avant l’analyse régulièrement programmée.
+Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, peut-être avant une analyse planifiée régulièrement.
