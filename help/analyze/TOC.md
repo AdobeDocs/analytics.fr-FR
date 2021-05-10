@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-translation-type: ht
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
+workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -246,7 +246,7 @@ ht-degree: 100%
    + Prise en main {#getting-started}
       + Prise en main pour les administrateurs {#get-started-admins}
          + [Activation d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Exemple de code de mise en œuvre](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Mise en oeuvre du Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Prise en main pour les utilisateurs {#get-started-users}
          + [Installation des modules de navigateur d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Lancement d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
