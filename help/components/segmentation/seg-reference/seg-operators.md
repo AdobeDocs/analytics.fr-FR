@@ -5,26 +5,25 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Opérateurs de comparaison pour les segments
 
-Le Créateur de segments vous permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés.
-
-Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
+Le Créateur de segments vous permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
 
 L’astérisque (*) est le seul caractère générique pris en charge. Si vous devez rechercher ce caractère, vous pouvez l’échapper par une barre oblique inverse.
 
 **Exemple** : supposons que vous ayez une page nommée « Mon super produit ». La règle de segmentation « Le nom de page correspond à Mon*produit » renvoie au nom de page ci-dessus. En revanche, la règle « Le nom de page correspond à Mon\\*produit » renvoie uniquement au nom de page « Mon*produit ».
 
+## Opérateurs standard
+
 | Opérateur | La dimension, le segment ou l’événement de mesure sélectionné... |
 |--- |--- |
-| **Standard** |  |
 | est égal à | Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne. Remarque : Si vous utilisez des caractères génériques, utilisez l’opérateur « correspond à ». |
 | n’est pas égal à | Renvoie les éléments qui ne comportent pas une correspondance exacte avec la valeur saisie.  Remarque : Si vous utilisez des caractères génériques, utilisez l’opérateur « ne correspond pas à ». |
 | égal à n’importe lequel ; | Renvoie les éléments qui correspondent exactement à n’importe quelle valeur du champ de saisie (jusqu’à 500 éléments). Par exemple, la saisie de « Résultats de la recherche, page d’accueil » avec cet opérateur correspondrait à « Résultats de la recherche » et « Page d’accueil », et serait considérée comme deux éléments. Le champ de saisie de cet opérateur est délimité par des virgules. |
@@ -43,12 +42,22 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | ne correspond pas à | Renvoie les éléments qui ne comportent pas une correspondance exacte avec la valeur saisie. Remarque : Utilisez cet opérateur lorsque vous utilisez les fonctions de caractère générique (expansion de nom de fichier). |
 | existe | Renvoie le nombre d’éléments existants. Par exemple, si vous évaluez la dimension Pages introuvables à l’aide de l’opérateur « existe », le nombre de pages d’erreur existantes est renvoyé. |
 | n’existe pas | Renvoie tous les éléments qui n’existent pas. Par exemple, si vous évaluez la dimension Pages introuvables à l’aide de l’opérateur « n’existe pas », le nombre de pages où cette page d’erreur n’existe pas est renvoyé. |
-| **Data Warehouse** |  |
+
+## Opérateurs Data Warehouse
+
+| Opérateur | La dimension, le segment ou l’événement de mesure sélectionné... |
+| --- | --- |
 | est inférieur à | Renvoie les éléments dont le nombre est inférieur à la valeur saisie. |
 | est inférieur ou égal à | Renvoie les éléments dont le nombre est inférieur ou égal à la valeur saisie. |
 | est supérieur à | Renvoie les éléments dont le nombre est supérieur à la valeur saisie. |
 | est supérieur ou égal à | Renvoie les éléments dont le nombre est supérieur ou égal à la valeur saisie. |
-| **Comptage distinct** | Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ». |
+
+## Opérateurs de nombre unique
+
+Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ».
+
+| Opérateur | La dimension, le segment ou l’événement de mesure sélectionné... |
+| --- | --- |
 | est égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est égal à la valeur saisie. |
 | n’est pas égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques n’est pas égal à la valeur saisie. |
 | est supérieur à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur à la valeur saisie. |
