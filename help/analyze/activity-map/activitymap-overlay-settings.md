@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '652'
+ht-degree: 50%
 
 ---
 
@@ -43,8 +43,8 @@ Ces paramètres s’appliquent à l’incrustation en mode standard.
 
 | Paramètre | Description |
 | --- | --- |
-| **[!UICONTROL Filtrage dynamique des données]** |  |
-| **[!UICONTROL Masquer les superpositions pour les liens qui n’ont reçu aucun accès]**. | Cette case à cocher vous permet de masquer les superpositions pour les liens qui n’ont reçu aucune visite, afin de limiter l’encombrement de l’interface. |
+| **[!UICONTROL Filtrage dynamique des données]** | Cette liste déroulante vous permet d’afficher des incrustations pour<ul><li>(par défaut) Tous les liens de la page</li><li>Nombre de liens classés en haut (plus élevé) ou en bas (plus bas) sur la page, où # peut être un choix entre 1, 10, 50 ou 100.</li></ul> |
+| **[!UICONTROL Masquer les superpositions pour les liens qui n’ont reçu aucun accès]**. | Case à cocher qui active la visibilité des incrustations pour les liens sans données.<ul><li>(par défaut) Si la case est cochée, aucune superposition n’est affichée lorsqu’un lien ne contient aucune donnée de lien ActivityMap.</li><li>Si la case à cocher est désactivée, si un lien ne contient aucune donnée de lien ActivityMap, une superposition s’affiche et porte le libellé &quot;-&quot;, ce qui signifie &quot;S/O&quot; (non applicable). |
 
 ## Paramètres en direct {#section_D30F6E62FB5D404090B588F396A460AF}
 
