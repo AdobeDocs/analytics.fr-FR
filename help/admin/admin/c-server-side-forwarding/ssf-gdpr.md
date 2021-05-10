@@ -2,14 +2,14 @@
 description: Explique les améliorations apportées au transfert côté serveur qui ont été apportées par la réglementation de conformité des cookies de l’UE.
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 91%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
-
 
 # Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 
@@ -30,7 +30,6 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 | Méthode de mise en œuvre | Étapes |
 |--- |--- |
 | Adobe Experience Platform Launch | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
-| Gestion dynamique des balises | Ajoutez la définition de la variable de données contextuelles à l’éditeur Code de page personnalisé : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 | AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 
 ## Reporting (facultatif) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ Pour configurer ce type de reporting, mappez la nouvelle variable contextuelle �
    1. Cliquez sur **[!UICONTROL Ajouter une règle]**.
    1. Sous **[!UICONTROL Toujours exécuter]**, remplacez la valeur de la prop que vous avez activée par la variable contextuelle « cm.ssf(Context Data) ».
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
