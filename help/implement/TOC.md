@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [Mise en correspondance des éléments de données Launch avec les variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
-   + Mise en œuvre d’Analytics avec DTM {#dtm}
-      + [Mise en œuvre de Dynamic Tag Management - Aperçu](other/dtm/dtm-implementation-overview.md)
-      + [Création d’une propriété web](other/dtm/t-create-web-property.md)
-      + [Configuration des options d’hébergement](other/dtm/t-configure-hosting.md)
-      + En-têtes et pieds de page {#headers-footers}
-         + [Ajout de code d’en-tête et de pied de page](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [Vérification du code d’en-tête et de pied de page](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Outil Adobe Analytics {#analytics-tool}
-         + [Ajout de l’outil Adobe Analytics](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [Général](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [Gestion des bibliothèques](other/dtm/c-aa-tool/library-management.md)
-         + [Insertion du code AppMeasurement de base](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [Variables globales](other/dtm/c-aa-tool/global-variables.md)
-         + [Pages vues et contenu](other/dtm/c-aa-tool/pageviews-content.md)
-         + [Suivi des liens](other/dtm/c-aa-tool/link-tracking.md)
-         + [Référents et campagnes](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookies](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [Personnalisation du code de page](other/dtm/c-aa-tool/customize-page-code.md)
-         + [FAQ sur l’outil Adobe Analytics](other/dtm/c-aa-tool/dtm-faq.md)
-      + [Création d’un élément de données](other/dtm/t-data-element.md)
-      + [Mise en œuvre manuelle d’Adobe Analytics (héritée)](other/dtm/t-analytics-deploy.md)
-      + Règles {#rules}
-         + [Création d’une règle](other/dtm/c-rules/t-rules-create.md)
-         + [Création de conditions pour les règles basées sur un événement](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [Création de conditions pour les règles de chargement de page](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [Création de conditions pour les règles d’appel direct](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [Configuration des actions que la condition doit déclencher](other/dtm/c-rules/t-rules-actions.md)
-         + [Test des règles non publiées pour l’hébergement Akamai](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [Test de règles pour le téléchargement de bibliothèque ou FTP](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [Mise en œuvre d’Analytics avec DTM](other/dtm-implementation-overview.md)
    + [Mise en œuvre d’Analytics sur Ajax](other/ajax.md)
    + [Mise en œuvre d’Analytics sur AMP](other/amp.md)
    + [Mise en œuvre d’Analytics pour les assistants numériques](other/digital-assistants.md)
