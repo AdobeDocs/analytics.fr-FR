@@ -2,13 +2,13 @@
 description: Les suites de rapports virtuelles et le balisage multisuite présentent des avantages différents. Découvrez ce qui est le mieux pour votre entreprise.
 keywords: Suite de rapports virtuelle,VRS
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
-feature: Report Suite Settings
+feature: Paramètres des suites de rapports
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,6 @@ Si vous optez pour la suppression des appels au serveur secondaire au profit des
    * Utilisez des conteneurs d’accès si vous souhaitez que les suites de rapports virtuelles restent mutuellement exclusives.
 2. Une fois que vous avez confirmé la configuration correcte des suites de rapports virtuelles, supprimez les identifiants des suites de rapports secondaires de votre implémentation. Pour supprimer les suites de rapports secondaires :
    * Dans le lancement d’Adobe Experience Platform Launch, cliquez sur le « X » en regard des suites de rapports que vous ne souhaitez plus utiliser.
-   * Dans DTM, recherchez la propriété et l’outil Analytics. Dans les champs Identifiant de compte de production et Identifiant de compte intermédiaire, supprimez tous les identifiants de suite de rapports que vous ne souhaitez plus utiliser.
    * Dans les implémentations JavaScript héritées, recherchez la variable `s.account` et supprimez les identifiants de suite de rapports que vous ne souhaitez plus utiliser.
    * Dans tous les cas, laissez uniquement l’identifiant de suite de rapports globale/parente pour collecter les données de vos sites et applications.
    * Accédez à Admin > Report Suites et masquez les suites de rapports secondaires qui ne sont plus utilisées.
