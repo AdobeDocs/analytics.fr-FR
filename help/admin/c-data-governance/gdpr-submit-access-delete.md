@@ -2,19 +2,16 @@
 description: Comment envoyer des demandes d’accès et de suppression des données dans Adobe Analytics.
 title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
-
 # Soumettre des demandes d’accès et de suppression
-
-
-## Aperçu {#section_BD70882995894C1CA19C205C49FEC23C}
 
 Si vos clients (consommateurs/sujets des données) veulent savoir quelles données vous détenez les concernant ou décident qu’ils veulent être supprimés de vos propriétés Analytics, vous êtes, en tant que contrôleur des données, responsable de la réponse à ces demandes. Le contrôleur des données détermine la manière dont votre organisation va interagir avec les sujets des données (par exemple, par le biais d’un portail utilisateur pour les sujets des données) et gère les interactions avec le sujet des données. Il incombe également au contrôleur de mettre fin à la collaboration avec le sujet des données lorsque la demande est satisfaite. En d’autres termes, Adobe Experience Cloud, en tant qu’entité de traitement des données, n’acceptera pas les demandes directement des sujets des données et ne leur renverra pas directement les données. Par contre, en votre qualité de contrôleur des données, Adobe recevra uniquement des demandes de votre part et ne renverra des données qu’à vous.
 
@@ -22,7 +19,7 @@ Vous pouvez également vous assurer que vos applications mobiles et vos sites we
 
 ## Gérer le consentement des consommateurs {#section_3012015E7E8942519FB9279CF7057EAB}
 
-En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos sujets de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et [d’implémenter un mécanisme d’exclusion](https://docs.adobe.com/content/help/fr-FR/dtm/using/tools/opt-in.html) sur votre site web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
+En tant que responsable du traitement des données, vous êtes responsable de l&#39;obtention du consentement explicite de vos personnes concernées avant de collecter des données les concernant (y compris éventuellement des données Adobe Analytics) et de la mise en oeuvre d&#39;un [mécanisme d&#39;exclusion](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site Web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
 
 ## Valider les utilisateurs et leurs données  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
