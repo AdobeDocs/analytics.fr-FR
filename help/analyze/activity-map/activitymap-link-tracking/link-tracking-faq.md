@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 47%
+source-wordcount: '513'
+ht-degree: 44%
 
 ---
 
@@ -43,10 +43,14 @@ Si un événement de clics survient sur un élément, l’élément doit passer 
 * Est-ce un `BUTTON` ?
 
 Si la réponse à l’une des questions ci-dessus est Oui, l’élément est considéré comme un lien et sera suivi.
- 
-Important : Les balises de bouton avec l’attribut type=&quot;button&quot; ne sont pas considérées comme des liens par AppMeasurement. Envisagez de supprimer type=&quot;button&quot; sur les balises de bouton et d’ajouter role=&quot;button&quot; ou submit=&quot;button&quot; à la place.
- 
-Important : Une balise d’ancrage avec un &quot;href&quot; qui début avec &quot;#&quot; est considérée comme un emplacement de cible interne par AppMeasurement, et non comme un lien (puisque vous ne quittez pas la page). Par défaut, Activity Map ne suit pas ces emplacements cibles internes. Il effectue uniquement le suivi des liens qui permettent à l’utilisateur d’accéder à une nouvelle page.
+
+>[!IMPORTANT]
+>
+>Les balises de bouton avec l’attribut type=&quot;button&quot; ne sont pas considérées comme des liens par AppMeasurement. Envisagez de supprimer type=&quot;button&quot; sur les balises de bouton et d’ajouter role=&quot;button&quot; ou submit=&quot;button&quot; à la place.
+
+>[!IMPORTANT]
+>
+>Une balise d&#39;ancrage avec un &quot;href&quot; qui début avec &quot;#&quot; est considérée comme un emplacement de cible interne par AppMeasurement, et non comme un lien (puisque vous ne quittez pas la page). Par défaut, Activity Map ne suit pas ces emplacements cibles internes. Il effectue uniquement le suivi des liens qui permettent à l’utilisateur d’accéder à une nouvelle page.
 
 ## Comment le Activity Map suit-il les autres éléments HTML visuels ?
 
@@ -55,7 +59,6 @@ a. Par le biais de la fonction `s.tl()`.
 Si le clic s&#39;est produit via un appel `s.tl()`, le Activity Map recevra également ce événement de clic et déterminera si une variable de chaîne `linkName` a été trouvée. Au cours de l&#39;exécution de `s.tl()`, linkName sera défini en tant qu&#39;ID de lien du Activity Map. L&#39;élément sur lequel l&#39;utilisateur a cliqué à l&#39;origine de l&#39;appel `s.tl()` sera utilisé pour déterminer la région. Exemple :
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b. Par le biais de la variable `s_objectID`. Exemple :
     
     &quot;
 
-Important :  Notez qu’un point-virgule de fin (;) est requis lors de l’utilisation de `s_objectID` en Activity Map.
+>[!IMPORTANT]
+>
+>Un point-virgule de fin (;) est requis lors de l’utilisation de `s_objectID` en Activity Map.
 
 ## Pouvez-vous me donner quelques exemples de liens qui seront suivis ?
 
