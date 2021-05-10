@@ -1,14 +1,14 @@
 ---
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
-
 
 # Termes utilisés dans Adobe Analytics
 
@@ -50,7 +50,6 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Sources de données :** permet à un utilisateur de télécharger les données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir [Sources de données](/help/import/c-data-sources/datasrc-home.md) dans le guide d’utilisation de l’importation.
 * **Data Warehouse :** fonction d’Adobe Analytics permettant de demander des rapports plus volumineux. Voir [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) dans le guide d’utilisation de l’exportation.
 * **Dimension :** type de composant contenant des valeurs de variable, telles que du texte. Il peut s’agir d’un nom de page, d’un code de suivi ou d’un domaine référent. Sa contrepartie est généralement une mesure.
-* **Dynamic Tag Management :** ancienne solution de gestion des balises d’Adobe. Voir [Présentation de la mise en œuvre de la gestion dynamique des balises](/help/implement/other/dtm/dtm-implementation-overview.md) dans le guide d’utilisation de la mise en œuvre. Adobe conseille d’utiliser plutôt Adobe Experience Platform Launch.
 * **Sérialisation d’événements :** mise en œuvre de mesures destinées à empêcher la collecte d’événements en double. Voir [Sérialisation des événements](../implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre.
 * **eVar :** voir Variable de conversion.
 * **Événement :** voir Événement de succès.
