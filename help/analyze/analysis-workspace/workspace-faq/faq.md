@@ -1,22 +1,22 @@
 ---
 description: FAQ sur Workspace
 title: Questions fréquentes et résolution des problèmes dans Workspace
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
+exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 97%
 
 ---
-
 
 # Questions fréquentes
 
 | Question | Réponse |
 |--- |--- |
-| Quelles sont les conditions préalables à l’utilisation d’Analysis Workspace ? | [Envoyer des données à Adobe Analytics à l’aide d’Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md) : l’utilisation d’Analysis Workspace nécessite une implémentation efficace. Assurez-vous que votre entreprise envoie les données à Adobe avant d’utiliser l’outil. D’autres implémentations, telles que la gestion dynamique des balises ou les implémentations manuelles héritées, peuvent également fonctionner. |
+| Quelles sont les conditions préalables à l’utilisation d’Analysis Workspace ? | [Envoyer des données à Adobe Analytics à l’aide d’Adobe Experience Platform Launch](/help/implement/launch/validate-publish-prod.md) : l’utilisation d’Analysis Workspace nécessite une implémentation efficace. Assurez-vous que votre entreprise envoie les données à Adobe avant d’utiliser l’outil. D’autres implémentations, telles que les implémentations manuelles héritées, peuvent également fonctionner. |
 | Quelles sont les exigences en matière d’administration et d’accès concernant Analysis Workspace ? | Voir [Configuration requise pour l’administration](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md). |
 | L’utilisation d’Analysis Workspace aura-t-elle une incidence sur la collecte des données ? | Analysis Workspace étant un outil de reporting, il n’a aucun impact sur la collecte de données. Il n’y a aucune répercussion si vous faites glisser sans distinction des composants dans un projet pour voir ce qui fonctionne. Faites glisser différentes combinaisons de dimensions et de mesures dans votre projet Workspace pour voir ce qui est mis à votre disposition. Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl+Z (Windows) ou sur cmd+Z (Mac) pour annuler la dernière action effectuée. Vous pouvez également commencer à zéro en cliquant sur *[!UICONTROL Projet] > [!UICONTROL Nouveau]* dans le menu supérieur gauche. |
 | Combien peut-on afficher de suites de rapports dans un projet Analysis Workspace ? | Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de données provenant de [plusieurs suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=fr-FR). |
