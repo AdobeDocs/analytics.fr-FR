@@ -1,14 +1,14 @@
 ---
 title: Débogueur Adobe Experience Cloud hérité
-description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service, DTM et Launch.
+description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises Analytics, Cible, Advertising Cloud, Identity Service et Launch.
+exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 98%
 
 ---
-
 
 # Débogueur Adobe Experience Cloud hérité
 
