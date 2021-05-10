@@ -1,14 +1,14 @@
 ---
 title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 translation-type: tm+mt
-source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 97%
 
 ---
-
 
 # Mise en œuvre d’Adobe Analytics
 
@@ -30,7 +30,7 @@ Le code JavaScript envoie une demande d’image aux serveurs de collecte de donn
 Adobe Analytics exige du code sur votre site web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes de mise en œuvre de ce code, selon la plateforme et les besoins de votre entreprise.
 
 * **Adobe Experience Platform Launch :** méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface de Launch pour déterminer la définition de chaque variable.
-* **Dynamic Tag Management :** le prédécesseur de Launch. DTM utilise une interface similaire pour implémenter Analytics, mais n’est plus mise à jour et n’est pas aussi flexible. Adobe recommande d’utiliser Launch pour implémenter Adobe Analytics.
+* **Gestion** dynamique des balises : La gestion dynamique des balises est désormais en fin de vie.
 * **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une mise en œuvre, ce qui peut s’avérer utile pour les mises en œuvre de Launch utilisant des règles avec du code personnalisé.
 * **SDK mobile :** bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 
