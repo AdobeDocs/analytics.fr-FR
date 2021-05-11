@@ -3,10 +3,10 @@ description: Découvrez quand et pourquoi les connecteurs de données Analytics 
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | MaritzCX (V 2.0) | Abandon |
 | Merkle | Abandon |
 | Official Oracle Eloqua Integration | Migration vers Exchange |
-| optivo broadmail (Episerver) | Migration vers Exchange |
+| optivo broadmail (Episerver) | Abandon |
 | Qualtrics v2 | Migration vers Exchange |
 | Responsys 2.0 | Abandon |
 | Selligent | Abandon |
