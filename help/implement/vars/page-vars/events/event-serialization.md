@@ -1,14 +1,14 @@
 ---
 title: Sérialisation d’événements
 description: Permet la déduplication des mesures sur votre site.
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 94%
 
 ---
-
 
 # Sérialisation de l’identifiant d’événement
 
@@ -43,7 +43,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Événements], où chaque événement contient un champ [!UICONTROL Identifiant d’événement].
 
-Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets.
+Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous entrez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.
 
 ## Utilisation d’identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
