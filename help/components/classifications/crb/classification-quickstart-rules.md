@@ -2,13 +2,13 @@
 description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
 subtopic: Classifications
 title: Règles de classification
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 99%
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Les règles de classification recherchent régulièrement des termes non class�
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Créateur de règles de classification]**
 
-Le Créateur de règles vous permet de créer un *`classification rule set`*, qui consiste en une liste de *`classification rules`*. Une règle établit une correspondance avec les critères spécifiés, puis exécute une action.
+Le Créateur de règles vous permet de créer un *jeu de règles de classification*, qui est une liste de *règles de classification*. Une règle établit une correspondance avec les critères spécifiés, puis exécute une action.
 
 Les règles de classification conviennent dans les cas suivants :
 
@@ -266,7 +266,7 @@ Dans ce résultat, `a:b:1313` n’indique pas de correspondance.
 | `a{3,}` | 3 ou plus de : a |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
-Le site https://rubular.com/ constitue une excellente ressource pour tester la validité d’une expression régulière.
+[https://rubular.com/](https://rubular.com/) constitue une bonne ressource pour tester la validité des expressions régulières.
 
 ## À propos de la priorité des règles
 
@@ -326,13 +326,15 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
    >[!NOTE]
    >
-   >Les suites de rapports s’affichent sur cette page *`only`* lorsque les conditions suivantes sont remplies :
+   >Les suites de rapports s’affichent sur cette page *uniquement* lorsque les conditions suivantes sont remplies :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   >
-   >   (Voir *`Variable`* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
-   >
-   >* Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
+      >
+      >   
+      (Voir *Variable* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+      >
+      >
+   * Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 
 
 1. Spécifiez s’il convient de remplacer les valeurs existantes :
@@ -405,7 +407,7 @@ Ces étapes décrivent la validation et l’activation de règles de classificat
 
    ![](assets/overwrite_keys.png)
 
-1. (Facultatif) Pour remplacer des classifications, activez l’option **[!UICONTROL Remplacer les classifications pour]** *`<selection>`*.
+1. (Facultatif) Pour remplacer les classifications, activez **[!UICONTROL Remplacer les classifications pour]** &quot;a2/>sélection&lt;a3/&quot;.**
 
    Cette option vous permet de remplacer des classifications pour les clés concernées.
 
