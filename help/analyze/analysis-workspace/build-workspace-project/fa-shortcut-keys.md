@@ -18,7 +18,8 @@ ht-degree: 100%
 Les touches d’accès rapide (raccourcis clavier) disponibles dans Analysis Workspace garantissent une navigation aisée. Elles permettent, en outre, d’effectuer des analyses, d’ajouter des panneaux et des visualisations, ou encore de partager des données.
 
 Remarque :
-* `Ctrl` = Windows et `Command` = Mac
+
+* `Ctrl` = Windows et `Commande` = Mac
 * `Alt` = Windows et `Option` = Mac
 
 ## Actions de navigation
