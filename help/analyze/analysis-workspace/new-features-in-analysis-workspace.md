@@ -2,11 +2,10 @@
 description: Nouvelles fonctionnalités d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Nouveautés d’Analysis Workspace
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 | [!UICONTROL Composants]  > Préférences  [!UICONTROL utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. Les [!UICONTROL préférences utilisateur] s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page des [!UICONTROL préférences utilisateur] :<ul><li>Paramètres des rapports : le séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres des rapports : séparateur CSV</li><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Panneau vierge _Option Démarrer de nouveaux projets avec ce panneau_</li></ul> |
 | [!UICONTROL Prédiction de segment dynamique de l’histogramme] | 25 mars 2021 | [!UICONTROL L’histogramme Prédiction de compartiments intelligents] aide à utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de compartiments appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
 
-
 ## Février 2021
 
 | Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
 | Sélection de composants | 4 février 2021 | Le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] sera ajouté à toutes les zones de dépôt dans [!UICONTROL Workspace]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
-
 
 ## Janvier 2021
 
@@ -1186,7 +1183,7 @@ La zone de dépôt **[!UICONTROL Déposer un segment ici]** a été ajoutée afi
 
 Ceci s’avère pratique si vous préférez créer des segments directement quand vous travaillez dans un projet, plutôt que d’utiliser le panneau [!UICONTROL Segment].
 
-## Mise en forme conditionnelle  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Mise en forme conditionnelle {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 Dans les paramètres de colonne, vous pouvez appliquer une mise en forme conditionnelle aux données des cellules.
 
@@ -1220,13 +1217,13 @@ Dans les paramètres de colonne, vous pouvez appliquer une mise en forme conditi
  </tbody> 
 </table>
 
-## Aperçu des dimensions  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Aperçu des dimensions {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 Dans le panneau du composant [!UICONTROL Dimension], vous pouvez placer le pointeur de la souris sur l’icône d’informations située en regard d’une dimension pour afficher l’aperçu des cinq premières dimensions.
 
 ![](assets/dimension-preview.png)
 
-## Légende visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Légende visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 Dans [!UICONTROL Paramètres de visualisation], l’option **[!UICONTROL Légende visible]** affiche ou masque la légende des visualisations.
 
@@ -1244,11 +1241,11 @@ Selon les chiffres des graphiques en courbes et des diagrammes de surface, la pa
 
 ![](assets/anchor_Y_axis.png)
 
-## Nom du projet dans le titre de l’onglet  {#section_497C61A030984BCCA2CEA553312C3226}
+## Nom du projet dans le titre de l’onglet {#section_497C61A030984BCCA2CEA553312C3226}
 
 Lors de l’enregistrement d’un projet, le titre sur l’onglet du navigateur s’affiche comme suit : « `<Project Name>` - Analysis Workspace ». Ceci s’avère pratique si vous ouvrez plusieurs projets dans plusieurs onglets de navigateur.
 
-## Transfert de la propriété du projet  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transfert de la propriété du projet {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Les administrateurs peuvent transférer les projets [!UICONTROL Analysis Workspace] d’un utilisateur à un autre.
 
