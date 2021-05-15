@@ -2,11 +2,10 @@
 title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-translation-type: tm+mt
-source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 95%
+source-wordcount: '874'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +87,15 @@ Toutes les colonnes sont disponibles qu’elles contiennent des données ou non.
 * **Supprimer les caractères avec échappement** : au cours d’une collecte de données, certains caractères (comme les sauts de lignes) peuvent occasionner des erreurs. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux.
 * **Format de compression** : le type de compression utilisé. Fichiers de sortie Gzip au format `.tar.gz`. Fichiers de sortie Zip au format `.zip`.
 * **Type de groupement** : un fichier unique sort le fichier `hit_data.tsv` dans un fichier unique pouvant être volumineux. La fonction plusieurs fichiers met en page vos données par blocs de 2 Go (non compressés). Si vous avez sélectionné plusieurs fichiers, mais que la taille des données non compressées pour la fenêtre de création de rapports est inférieure à 2 Go, un seul fichier est envoyé. Adobe recommande d’utiliser plusieurs fichiers pour la plupart des flux de données.
+* **Manifeste** : Indique si l’Adobe doit ou non livrer un  [ ](c-df-contents/datafeeds-contents.md#feed-manifest) fichier de manifeste à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez Fichier de manifeste, vous recevrez un fichier de manifeste semblable à celui-ci lorsqu’aucune donnée n’est collectée :
+
+```text
+   Datafeed-Manifest-Version: 1.0
+    Lookup-Files: 0
+    Data-Files: 0
+    Total-Records: 0
+```
+
 * **Modèles de colonnes** : lorsque vous créez plusieurs flux de données, Adobe vous recommande de créer un modèle de colonnes. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut.
 * **Colonnes disponibles** : Toutes les colonnes de données disponibles dans Adobe Analytics. Cliquez sur [!UICONTROL Toujours ajouter] pour inclure toutes les colonnes d’un flux de données.
 * **Colonnes incluses** : les colonnes à inclure à un flux de données. Cliquez sur [!UICONTROL Tout supprimer] pour supprimer toutes les colonnes d’un flux de données.
