@@ -3,11 +3,10 @@ description: Questions fréquentes sur les flux de données
 keywords: Flux de données ; tâche ; colonne "Pré" ; colonne "Post" ; respect de la casse
 title: FAQ sur les flux de données
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 50%
+source-wordcount: '1324'
+ht-degree: 49%
 
 ---
 
@@ -70,17 +69,6 @@ Pour certains fuseaux horaires, l’heure change deux fois par an en raison des 
 Lors de la création de transitions d&#39;heure STD -> DST (&quot;En avant du printemps&quot;), le client ne reçoit que 23 fichiers. L’heure qui est ignorée dans la transition DST est ignorée. Par exemple, si la transition se produit à 2h00, un fichier est obtenu pour 1 h00 et un autre pour 3 h00. Il n&#39;y a pas de fichier de 2h00, car à 2h00 STD, il devient 3h00 DST.
 
 Lors de la création de transitions DST -> STD (&quot;Retourner&quot;), le client reçoit 24 fichiers. Cependant, l&#39;heure de transition inclut en fait deux heures de données. Par exemple, si la transition se produit à 2h00, le fichier de 1h00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données de 1:00 DST à 2:00 STD (qui aurait été 3:00 DST). Le fichier suivant commence à 02h00 STD.
-
-## Est-ce que je recevrai des fichiers de manifeste lorsqu&#39;aucune donnée n&#39;est collectée ? {#section_72510794694D42A9A75C966B812AEB0F}
-
-Vous pouvez éventuellement configurer un fichier de données pour qu’il distribue un fichier de manifeste si aucune donnée n’est collectée pour une période spécifique. Si vous activez cette option, vous recevrez un fichier de manifeste semblable à ceci :
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## Comment Analytics gère-t-il les échecs de transfert FTP ? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
