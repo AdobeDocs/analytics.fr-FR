@@ -5,10 +5,10 @@ title: FAQ sur les suites de rapports virtuelles
 feature: Concepts de base de Reports & Analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 77%
+source-wordcount: '965'
+ht-degree: 75%
 
 ---
 
@@ -25,4 +25,4 @@ Cette section contient des conseils et des bonnes pratiques à l’intention des
 |  J’ai coché « démarrer une nouvelle visite au lancement ». Pourquoi les visites sont-elles toujours beaucoup plus élevées que les lancements ? | Lorsque « Démarrer une nouvelle visite au lancement » est cochée, le délai d’expiration s’applique toujours. Ainsi, si un utilisateur utilise l’application pendant dix minutes avec une pause d’une minute entre chaque action, une nouvelle visite commence au lancement, puis neuf visites supplémentaires sont créées lorsque la visite expire. Pour que les lancements et les visites soient aussi proches que possible lors de l’utilisation de l’option « Démarrer une nouvelle visite au lancement », vous devez utiliser un délai d’expiration supérieur au délai d’expiration de la session défini dans le SDK. |
 | J’ai défini « démarrer une nouvelle visite au lancement » et un délai d’expiration plus long que celui de mon SDK. Pourquoi mes lancements sont-ils toujours largement inférieurs aux visites ? | Si le délai d’expiration est supérieur à la valeur définie dans le SDK, il est très probable que votre application envoie des accès en arrière-plan et que ces accès soient enregistrés en tant que nouvelles visites. Vérifiez cela en utilisant la dimension de type accès de la suite de rapports parente pour voir s’il existe des accès en arrière-plan.<br>**Remarque** : Les accès en arrière-plan et en premier plan ne sont différenciés que dans la version 4.13.6 et ultérieure du SDK. Si vous utilisez une version inférieure, tous les accès s’affichent en premier plan. Si vous utilisez la version correcte du SDK, vous devez activer le paramètre « Empêcher les accès en arrière-plan de commencer une nouvelle visite ».    Remarque : Si vous avez désactivé le traitement hérité pour les accès en arrière-plan dans Admin Console, ils n’apparaîtront pas dans la suite de rapports parente mais apparaîtront dans la suite de rapports virtuelle. |
 |  Quelle version du SDK dois-je avoir pour effectuer le suivi des accès en arrière-plan ? | Vous devez disposer de la version 4.13.6 ou supérieure du SDK. |
-| Comment puis-je trouver l’identifiant d’une suite de rapports virtuelle ? | Dans l&#39;[API de suite de rapports virtuelle](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md). |
+| Comment puis-je trouver l’identifiant d’une suite de rapports virtuelle ? | <ul><li>En ouvrant un projet Workspace, cliquez sur le sélecteur de suite de rapports et recherchez le nom d’une suite de rapports virtuelle dans la zone de recherche. L’identifiant apparaît sous le nom dans les résultats de la recherche :<br>![](assets/vrs-id.png)</li><li> Ou, par programmation, dans l&#39;[API de suite de rapports virtuelle](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
