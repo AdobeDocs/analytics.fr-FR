@@ -2,22 +2,21 @@
 description: L’assistant d’intégration des Data Connectors vous guide tout au long du processus d’intégration.
 title: Exécution de l’assistant d’intégration des Data Connectors
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 9ba013cd-e0a5-4dbd-aad9-b6004f4a9e56
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
-
 
 # Exécution de l’assistant d’intégration des Data Connectors {#running-the-data-connectors-integration-wizard}
 
 L’assistant d’intégration des Data Connectors vous guide tout au long du processus d’intégration.
 
 1. Connectez-vous à [!DNL Adobe Experience Cloud].
-1. Assurez-vous que la suite de rapports souhaitée est active dans le menu [!DNL Report Suite].
-1. Cliquez sur **[!UICONTROL Adobe Experience Cloud]** > **[!UICONTROL Data Connectors]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Accès à la suite de rapports]** et vérifiez que la suite de rapports souhaitée est principale.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Connecteurs de données]**.
 
    >[!NOTE]
    >
