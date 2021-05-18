@@ -1,14 +1,13 @@
 ---
 title: Paramètres de requête de la collecte de données
 description: Répertorie tous les paramètres de chaîne de requête utilisés dans les demandes d’image.
-translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
+source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
-
 
 # Paramètres de requête de la collecte de données
 
@@ -46,6 +45,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |
 | `k` | Aucun | Utilisé dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Variables de liste. |
+| `lrt` | Aucun | &quot;minutage de la dernière requête&quot;, c’est-à-dire l’heure d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes sortent d’une page ou lorsque la page est une application d’une seule page (SPA). |
 | `mid` | Aucun | Identifiant visiteur Experience Cloud. |
 | `ndh` | Aucun | Indicateur précisant si la demande d’image provient d’AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Permet de déterminer l’emplacement des cookies. |
