@@ -2,14 +2,13 @@
 description: Étapes décrivant de quelle façon attribuer des éléments de compte d’utilisateur (tableaux de bord, mesures calculées, événements de calendrier, alertes, signets, segments, projets Analysis Workspace et projets programmés) d’un compte d’utilisateur à un autre.
 subtopic: Users and groups
 title: Transfert des éléments d’un compte d’utilisateur
-feature: Admin Tools
+feature: Outils d’administration
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Après la migration de tous les clients, le contenu de l’aide pour **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** sera supprimé.
 
 Étapes décrivant de quelle façon attribuer des éléments de compte d’utilisateur (tableaux de bord, mesures calculées, événements de calendrier, alertes, signets, segments, projets Analysis Workspace et projets programmés) d’un compte d’utilisateur à un autre.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]**.
 1. Cliquez sur **[!UICONTROL Modifier les utilisateurs]**.
 1. Recherchez l’utilisateur à partir duquel vous souhaitez transférer des ressources et cochez la case en regard de la ligne de cet utilisateur.
 1. Sélectionnez **[!UICONTROL Transférer les ressources]** dans la barre d’actions située en haut de l’écran.
