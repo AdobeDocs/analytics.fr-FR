@@ -2,11 +2,10 @@
 description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics dans ce guide détaillé, qui revient notamment sur les autorisations requises et les dimensions et mesures disponibles.
 title: Guide d’Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 96%
+source-wordcount: '1263'
+ht-degree: 93%
 
 ---
 
@@ -57,13 +56,13 @@ Avec Analytics, deux autorisations sont automatiquement accordées aux administr
   <tr> 
    <td colname="col1"> <p>Gestion Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permet aux utilisateurs de configurer, modifier ou afficher des comptes de recherche publicitaire. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils Analytics</span> &gt; <span class="uicontrol">Gestion Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt;  <span class="uicontrol"> Tous admin  </span>  &gt; Gestion <span class="uicontrol">  </span> utilisateur&gt;  <span class="uicontrol"> Groupes</span> &gt; Modifier l’accès à tous les rapports&gt; &gt; Personnaliser les outils AnalyticsAdvertising Analytics&gt; Gestion des </span></span><span class="uicontrol"></span><span class="uicontrol"></span><span class="uicontrol"> </span></td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Connectez-vous à adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produits</span> &gt; <span class="uicontrol">Profil des produits</span> &gt; <span class="uicontrol">Onglet Autorisations</span> &gt; <span class="uicontrol">Outils Analytics</span> &gt; <span class="uicontrol">Gestion Advertising Analytics</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuration Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Configuration Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Admin</span> &gt;  <span class="uicontrol"> Tous admin  </span>  &gt; Gestion <span class="uicontrol">  </span> utilisateur&gt;  <span class="uicontrol"> Groupes</span> &gt; Modifier l’accès à tous les rapports&gt; &gt; Personnaliser les outils de Report SuitesAdvertising Analytics&gt; Configuration de l’</span></span><span class="uicontrol"></span><span class="uicontrol"></span><span class="uicontrol"> </span></td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Connectez-vous à adminconsole.adobe.com</span> &gt; <span class="uicontrol">Produits</span> &gt; <span class="uicontrol">Profil des produits</span> &gt; <span class="uicontrol">Onglet Autorisations</span> &gt; <span class="uicontrol">Outils de suites de rapports</span> &gt; <span class="uicontrol">Configuration Advertising Analytics</span></span> </td> 
   </tr> 
  </tbody> 
