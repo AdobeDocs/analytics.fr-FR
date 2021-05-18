@@ -1,13 +1,12 @@
 ---
 description: Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 title: Journaux
-feature: Admin Tools
+feature: Outils d’administration
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Journaux]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous les administrateurs]** >  **[!UICONTROL Journaux]**
 
 ## Journal d’administration {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -71,7 +70,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Méthode API | Un appel d&#39;API a été effectué. |
 
 
-## Journal des modifications de la suite des rapports  {#section_3864966639414BBEA871F4D0352F56B6}
+## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}
 
 Le journal des modifications de la suite de rapports affiche les modifications apportées à vos suites de rapports en dehors de l’Administration.
 
