@@ -1,14 +1,13 @@
 ---
 title: Communiquer l’impact aux utilisateurs
 description: Découvrez des moyens efficaces de communiquer l'impact d'un événement dans votre organisation.
-translation-type: tm+mt
-source-git-commit: 022d9cbfdae11d7efe1efb7fe503f4fdaa785be1
+exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '400'
 ht-degree: 2%
 
 ---
-
 
 # Communiquer l&#39;impact du événement aux utilisateurs
 
@@ -55,13 +54,13 @@ Pour toute visualisation de tendance dans Workspace, vous pouvez ajouter une sé
 
 1. Ajoutez une visualisation en ligne. Les jours affectés sont représentés avec une couleur différente. Pour plus d’informations, les utilisateurs peuvent également cliquer sur l’icône &quot;Infos&quot; dans la mesure calculée.
 
-   ![Icône Info](assets/calcmetric_infoicon.png)
+   ![Icône Infos](assets/calcmetric_infoicon.png)
 
 ## Utilisation d’un événement de calendrier dans les rapports et analyses
 
 Si vous utilisez les rapports et analyses, vous pouvez utiliser un [événement de calendrier](/help/components/t-calendar-event.md) pour mettre en évidence les jours affectés dans tout rapport de tendances. Cette méthode ne s’applique pas à Analysis Workspace.
 
-1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL événements calendrier]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL événements de calendrier]**.
 2. Entrez le titre, la plage de dates et le texte de la note de votre choix.
 3. Cliquez sur **[!UICONTROL Enregistrer]**.
 
