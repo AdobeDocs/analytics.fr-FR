@@ -4,14 +4,13 @@ title: Création de rapports Activity Map dans Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Création de rapports Activity Map dans Analytics
 
@@ -22,7 +21,7 @@ Décrit la façon de définir les autorisations ainsi que les dimensions disponi
 Pour que les utilisateurs puissent créer des rapports sur les dimensions Activity Map, vous devez, en tant qu’administrateur :
 
 * [Ajouter des utilisateurs au groupe d’accès d’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Sélectionnez **[!UICONTROL Admin]** > **[!UICONTROL Gestion utilisateur]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès à Activity Map]** > **[!UICONTROL Modifier]**.
+* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Gestion utilisateur]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès Activity Map]** > **[!UICONTROL Modifier]**.
 * Personnaliser l’accès des utilisateurs aux dimensions. Voir la section suivante.
 
 ## Dimensions Activity Map dans Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://d
 * Dans Reports &amp; Analytics, sélectionnez **[!UICONTROL Afficher tous les rapports]** > **[!UICONTROL Activity Map]**.
 
 * Pour consulter un lien ou une région d’une page spécifique, il suffit de créer une ventilation à partir de la page Activity Map souhaitée dans Liens et région d’Activity Map.
-
