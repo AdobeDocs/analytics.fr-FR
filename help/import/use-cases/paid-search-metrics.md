@@ -1,14 +1,13 @@
 ---
 title: Importer les mesures de recherche payante
 description: Procédure de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de recherche payante (par exemple, Google AdWords, MSN, Yahoo, etc.) à l’aide de la fonctionnalité Sources de données.
-translation-type: tm+mt
-source-git-commit: 81592ab80942b802fff3df62d2cd44b1e376aff8
+exl-id: b25a2a26-d277-4a51-9194-973acb425095
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1212'
 ht-degree: 8%
 
 ---
-
 
 # Importer des mesures [!UICONTROL Recherche payée] à l&#39;aide de [!UICONTROL Sources de données]
 
@@ -51,7 +50,7 @@ Vous devriez recevoir un message indiquant que vos enregistrements ont été app
 
 [!UICONTROL Les sources de données ] vous permettent de partager des données hors parcours de navigation avec Adobe Analytics. Dans ce cas, nous utilisons Adobe Analytics pour effectuer le suivi des mesures de recherche payante. Nous utilisons le code de suivi comme clé pour relier les deux éléments de données - les mesures de recherche payée et les mesures Adobe Analytics -.
 
-1. Accédez à **[!UICONTROL Adobe Analytics > Admin > Sources de données]**.
+1. Accédez à **[!UICONTROL Adobe Analytics > Admin > All admin > Data sources]**.
 1. Sélectionnez l&#39;onglet **[!UICONTROL Créer]** pour début d&#39;activation de nouvelles sources de données.
 1. Sous **[!UICONTROL Sélectionner la Catégorie]**, sélectionnez **[!UICONTROL Ad Campaign]**.
 
