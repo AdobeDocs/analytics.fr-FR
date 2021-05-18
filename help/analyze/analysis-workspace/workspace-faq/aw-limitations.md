@@ -1,16 +1,15 @@
 ---
 description: 'Liste des limites connues d’Adobe Analysis Workspace et ses composants connexes :'
 title: Limites connues dans Analysis Workspace
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 98%
 
 ---
-
 
 # Limites connues dans Analysis Workspace
 
@@ -53,7 +52,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 * Lorsque la fonctionnalité de traitement de la période de rapport est activée, certains composants ne sont pas pris en charge. Pour obtenir la liste complète, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
-## Composants > Paramètres de rapport
+## Composants > Tous les composants > Paramètres de rapport
 
 * Certains paramètres de la page [!UICONTROL Paramètres de rapport] ne s’appliquent pas. Analysis Workspace utilise uniquement les paramètres [!UICONTROL Langue/Devise/Encodage] situés en bas : [!UICONTROL Séparateur des milliers], [!UICONTROL Encodage d’un rapport planifié] et [!UICONTROL Caractère de séparation CSV].
 
