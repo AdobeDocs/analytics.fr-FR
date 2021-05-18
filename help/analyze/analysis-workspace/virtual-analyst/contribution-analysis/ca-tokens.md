@@ -5,8 +5,7 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: Outils AI
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 91%
@@ -54,7 +53,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
 | Les jetons s’appliquent-ils à l’analyse des contributions dans les Reports &amp; Analytics ? | Non. L’Analyse des contributions n’est plus proposée dans les rapports et analyses depuis avril 2018. |
 | Si ma société n’a plus de jetons et souhaite exécuter des analyses des contributions supplémentaires, que pouvons-nous faire ? | Vous pouvez passer à une autre version d’Adobe Analytics, par exemple de Standard (2 jetons/mois) à Ultimate (20 jetons/mois). Vous ne pouvez pas acheter plus de jetons : vous devez effectuer une mise à niveau dans le cadre de la structure de package existante. |
 | Comment puis-je restreindre l’accès à l’analyse des contributions ? | Par défaut, seuls les administrateurs ont accès à l’exécution des Analyses de contribution. Toutefois, les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans le [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). Donnez l’autorisation d’utiliser l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et à qui vous accordez votre confiance pour ne pas en abuser. L’autorisation est appelée [!UICONTROL Analyse des contributions] sous [!UICONTROL Outils de la suite de rapports]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ? | Accédez à [!UICONTROL Admin] > [!UICONTROL Tous les administrateurs] >[!UICONTROL Paramètres de Société Accueil] >[!UICONTROL Niveaux d’accès aux fonctionnalités de Vue]. Regardez sous<ul><li>Analyse des contributions : nombre de jetons d’utilisation par mois</li><li>Analyse des contributions : nombre de jetons d’utilisation utilisés ce mois-ci</li></ul> |
+| Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ? | Accédez à [!UICONTROL Admin] > [!UICONTROL Tous les paramètres d’administration] >[!UICONTROL Paramètres de Société Accueil] >[!UICONTROL Niveaux d’accès aux fonctionnalités de Vue]. Regardez sous<ul><li>Analyse des contributions : nombre de jetons d’utilisation par mois</li><li>Analyse des contributions : nombre de jetons d’utilisation utilisés ce mois-ci</li></ul> |
 
 ## Autorisations pour la détection des anomalies et l’analyse des contributions {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
