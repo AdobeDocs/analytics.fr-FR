@@ -1,20 +1,19 @@
 ---
 title: Exclure par adresse IP
 description: Empêchez l’affichage des données générées par certaines adresses IP dans les rapports.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 85%
+source-wordcount: '223'
+ht-degree: 82%
 
 ---
-
 
 # Exclure par adresse IP
 
 Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclure par IP]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous les administrateurs]** >  **[!UICONTROL Exclure par IP]**
 
 >[!NOTE]
 >
