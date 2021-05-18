@@ -1,14 +1,13 @@
 ---
 title: Fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP]
 description: Découvrez la date de fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP] et les répercussions à attendre.
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 80%
 
 ---
-
 
 # Fin de vie de la fonction [!UICONTROL Exiger des restrictions d’identification par IP]
 
@@ -28,7 +27,7 @@ Enfin, Adobe propose une solution alternative fonctionnelle et bien plus perform
 
 Pour tout client ayant configuré **[!UICONTROL Mettre en oeuvre les restrictions d&#39;identification par IP]**, cette fonctionnalité sera supprimée en janvier 2021. À ce moment-là, les restrictions d’identification par IP toujours en vigueur ne seront plus appliquées. Si vous devez encore limiter la connexion par adresse IP, vous devez examiner et mettre en œuvre une solution recommandée : l’authentification unique ou Federated ID (plus d’informations et de ressources ci-dessous).
 
-De plus, le paramètre **[!UICONTROL Mettre en oeuvre les restrictions d’identification par IP]** sera supprimé de **[!UICONTROL Admin] > [!UICONTROL Paramètres de Société] > [!UICONTROL Gestionnaire de sécurité]** dans l’interface utilisateur d’Analytics (comme illustré ci-dessous).
+De plus, le paramètre **[!UICONTROL Mettre en oeuvre les restrictions d’identification par IP]** sera supprimé de **[!UICONTROL Admin] > [!UICONTROL Tous les paramètres d’administration] > [!UICONTROL Paramètres de Société] > [!UICONTROL Gestionnaire de sécurité]** dans l’interface utilisateur Analytics (comme illustré ci-dessous).
 
 ![](assets/sec-manager2.png)
 
