@@ -3,14 +3,13 @@ description: Utilisez le Gestionnaire de tableaux de bord pour copier, partager,
 subtopic: Dashboards
 title: Gestionnaire de tableaux de bord
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 99%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ Utilisez le Gestionnaire de tableaux de bord pour copier, partager, archiver et 
 >
 >Lorsque vous utilisez le gestionnaire de tableaux de bord, l’une des bonnes pratiques consiste à ne pas avoir plus de 300 tableaux de bord pour un utilisateur unique. Notez également que le gestionnaire charge tous les tableaux de bord partagés ci-dessous, soyez donc judicieux lorsque vous partagez les tableaux de bord.
 
-Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]**.
+Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Tableaux de bord]**.
 
 | Élément | Description |
 |--- |--- |
@@ -36,7 +35,7 @@ Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UIC
 
 Étapes décrivant comment utiliser les options de gestion du tableau de bord partagé.
 
-1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tableaux de bord]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Tableaux de bord]**.
 1. Sous [!UICONTROL Tableaux de bord partagés], localisez le tableau de bord partagé (ou le tableau de bord hérité) que vous souhaitez gérer et sélectionnez une ou plusieurs des options suivantes :
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
