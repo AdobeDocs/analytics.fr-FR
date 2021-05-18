@@ -3,14 +3,13 @@ description: Cette section contient des informations sur la planification, le t�
 subtopic: Schedule
 title: Planification et distribution des rapports
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Concepts de base des rapports et analyses, rapports et analyses
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1669'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +108,7 @@ Dans le [!UICONTROL Gestionnaire de planification des rapports], vous pouvez mod
 
 Le [!UICONTROL Gestionnaire de planification des rapports] affiche les éléments créés par un utilisateur spécifique. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues.
 
-1. Pour accéder au gestionnaire, cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Rapports programmés]**.
+1. Pour accéder au gestionnaire, cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Rapports planifiés]**.
 
 ## Partage d’un lien vers un rapport {#task_9711DDE9E140451B8C914EC5513E21EC}
 
