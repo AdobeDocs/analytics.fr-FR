@@ -2,14 +2,13 @@
 description: La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 subtopic: Users and groups
 title: Gestion des utilisateurs - Aperçu
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Après la migration de tous les clients, le contenu de l’aide pour **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** sera supprimé.
 
 La gestion des groupes et des utilisateurs de rapports sur la page Gestion utilisateur vous permet de gérer des utilisateurs et des groupes, ainsi que de contrôler l’accès aux rapports, outils et suites de rapports.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Modifier les utilisateurs]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous admin]** > Gestion **** utilisateur> Modifier les utilisateurs ]****[!UICONTROL 
 
 ## Descriptions des comptes d’utilisateurs {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
