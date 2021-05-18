@@ -1,14 +1,13 @@
 ---
 description: Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
 title: Événements du calendrier
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 99%
+source-wordcount: '341'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 99%
 
 Pour les rapports de tendances au fil du temps, vous pouvez afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site. Pour configurer un événement de calendrier, vous devez nommer l’événement, fixer les dates, ajouter des notes et choisir une icône. Avec Social, par exemple, vous pouvez créer un événement de calendrier afin d’indiquer qu’il existait une corrélation entre une augmentation du trafic sur le site et la mention d’un produit par une célébrité sur Twitter.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Événements calendrier]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL événements de calendrier]**.
 1. Cliquez sur **[!UICONTROL Ajouter nouveau]**.
    1. Sous **[!UICONTROL Titre]**, nommez l’événement de calendrier.
    1. Indiquez la **[!UICONTROL Date d’événement]**.
@@ -37,7 +36,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Événements calendrier]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL événements de calendrier]**.
 1. Sous **[!UICONTROL Calendrier des événements partagés]**, indiquez l’une de ces options :
 
    | **Mettez-moi en copie** | Ajoute une copie à votre liste d’événements, en utilisant le même nom que l’original. Néanmoins, vous ne pouvez pas voir les mises à jour/modifications effectuées par le propriétaire de l’événement. |
