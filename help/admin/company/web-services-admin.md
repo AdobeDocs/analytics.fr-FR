@@ -1,14 +1,13 @@
 ---
 description: Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 title: Services web
-feature: Admin Tools
+feature: Outils d’administration
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Paramètres de la société]** > **[!UICONTROL Services Web]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous les paramètres]**  d’administration **[!UICONTROL >]** Société> Services Web ]****[!UICONTROL 
 
 ## Gérer les services Web
 
