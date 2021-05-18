@@ -2,18 +2,17 @@
 description: Présentation de la fonctionnalité d’utilisation des appels au serveur Adobe Analytics.
 title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 98%
 
 ---
 
-
 # Aperçu de l’utilisation de l’appel au serveur
 
-## Pourquoi surveiller et alerter sur l’utilisation de l’appel au serveur ? {#section_060C29BF1D00444B85892AD1FCF55290}
+## Pourquoi surveiller et alerter sur l’utilisation de l’appel au serveur ?  {#section_060C29BF1D00444B85892AD1FCF55290}
 
 L’utilisation de l’appel au serveur d’Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation d’appel du navigateur et du serveur mobile. Il vous permet d’accéder à :
 
@@ -103,7 +102,7 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"><span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier tous les accès aux rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Personnaliser </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur</span></span>. </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Tous les administrateurs </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier l'accès aux rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; &lt;a 113/&gt; Personnaliser </span> &gt; <span class="uicontrol"> Utilisation des appels serveur </span> </span><span class="uicontrol"> </span></li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
@@ -114,4 +113,3 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
   </tr> 
  </tbody> 
 </table>
-
