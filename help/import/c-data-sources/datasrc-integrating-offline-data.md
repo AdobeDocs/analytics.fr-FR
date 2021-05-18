@@ -5,11 +5,10 @@ title: Intégration des transactions et des clients
 topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 84%
+source-wordcount: '315'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +38,7 @@ Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]
 
  -->
 
-Pour vérifier si l’enregistrement des identifiants de transaction est activé, sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Sources de données]**.
+Pour savoir si l’enregistrement des identifiants de transaction est activé, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
