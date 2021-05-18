@@ -2,11 +2,10 @@
 title: Autorisations du profil de produit pour les outils Analytics
 description: Utilisez les éléments d’autorisation des outils Analytics pour accorder l’accès aux fonctionnalités dans Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 73%
 
 ---
 
@@ -17,22 +16,22 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Élément d’autorisation lié aux outils Analytics | Description |
 |----|----|
 | Utilisation des appels au serveur | Accorde l’accès à Admin > Utilisation des appels serveur. |
-| Gestionnaire de code | Conservé à des fins héritées. Permet d’accéder à Admin > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
+| Gestionnaire de code | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
 | Code Manager – Web Services | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
-| Journaux | Accorde l’accès à Admin > Journaux. |
+| Journaux | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | Logs – Web Services | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
-| Gestion du trafic | Accorde l’accès à Admin > Gestion du trafic. |
-| Gestion des autorisations | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Gestion des utilisateurs. |
+| Gestion du trafic | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
+| Gestion des autorisations | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Tous les administrateurs > Gestion des utilisateurs. |
 | Autorisations (lecture) – Services web | N’est plus utilisé. Permet à l’utilisateur d’afficher les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
 | Autorisations (écriture) - Services Web | N’est plus utilisé. Permet à l’utilisateur de modifier les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
-| Sécurité | Accorde l’accès à Admin > Paramètres de la société > Gestionnaire de sécurité. |
-| Support technique | Accorde l’accès à Admin > Paramètres de la société > Informations sur l’assistance. |
-| Services web | Accorde l’accès à Admin > Paramètres de la société > Services web. |
+| Sécurité | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Gestionnaire de sécurité. |
+| Support technique | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Informations sur l’assistance. |
+| Services web | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Services Web. |
 | Authentification unique | N’est plus utilisé. Accorde l’accès au service d’authentification unique obsolète. |
-| Actions en attente | Accorde l’accès à Admin > Paramètres de la société > Actions en attente. |
-| Alliance de marques | N’est plus utilisé. Accorde l’accès à Admin > Paramètres de la société > Alliance de marques. |
+| Actions en attente | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Actions en attente. |
+| Alliance de marques | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Alliance de marques. |
 | Préférences | Inutilisé. |
-| Masquage des suites de rapports | Accorde l’accès à Admin > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
+| Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de Société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Utilisateurs sous licence Excel | Inutilisé. |
 | Activity Map | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Données actives | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
@@ -48,6 +47,6 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Création de segment | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | Gestion Advertising Analytics | Inutilisé. |
 | Publication de segment | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
-| Intégrations (créer) | Accorde l’accès à Admin > Data Connectors et permet à l’utilisateur de créer des Data Connectors. |
-| Intégrations (mettre à jour) | Accorde l’accès à Admin > Data Connectors et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
-| Intégrations (supprimer) | Accorde l’accès à Admin > Data Connectors et permet à l’utilisateur de supprimer des Data Connectors. |
+| Intégrations (créer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
+| Intégrations (mettre à jour) | Accorde l’accès à Admin > All admin > Data connectors et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
+| Intégrations (supprimer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer les connecteurs de données. |
