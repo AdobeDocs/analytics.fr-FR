@@ -4,14 +4,13 @@ title: Planification d’une requête de données
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # Planification de classeurs
 
@@ -23,7 +22,7 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 
 >[!NOTE]
 >
->Pour qu’il soit possible de planifier un classeur, Excel 2007 ou le module de compatibilité doit être installé. Le nombre maximal de classeurs planifiés par licence de Report Builder est de 10. Néanmoins, vous pouvez augmenter ce nombre en utilisant des classeurs d’autres licences. Pour ce faire, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Paramètres d’entreprise]** > **[!UICONTROL Rapports du Report Builder]**. Un classeur qui a été planifié (ou transféré dans la bibliothèque de classeurs) mais qui n’a pas été modifié (mis à jour ou remplacé) depuis plus de 28 mois sera supprimé.
+>Pour qu’il soit possible de planifier un classeur, Excel 2007 ou le module de compatibilité doit être installé. Le nombre maximal de classeurs planifiés par licence de Report Builder est de 10. Néanmoins, vous pouvez augmenter ce nombre en utilisant des classeurs d’autres licences. Pour ce faire, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les paramètres d’administration]** > **[!UICONTROL Paramètres de Société]** > **[!UICONTROL Rapports Report Builder]**. Un classeur qui a été planifié (ou transféré dans la bibliothèque de classeurs) mais qui n’a pas été modifié (mis à jour ou remplacé) depuis plus de 28 mois sera supprimé.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 1. Cliquez sur **[!UICONTROL OK]**, puis sur **[!UICONTROL Quitter]**.
 
    Le Report Builder affiche le classeur planifié dans le [Gestionnaire de tâches planifiées](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-
