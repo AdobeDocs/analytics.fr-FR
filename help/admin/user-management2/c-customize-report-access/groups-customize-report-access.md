@@ -3,14 +3,13 @@ description: Personnalisez l’accès d’un groupe aux outils Analytics, aux ou
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation de l’accès aux rapports - Aperçu
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 96%
+source-wordcount: '591'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits a désormais lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits a désormais lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Après la migration de tous les clients, le contenu de l’aide pour **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** sera supprimé.
 
 Personnalisez l’accès d’un groupe aux outils Analytics, aux outils de suites de rapports, aux mesures et aux dimensions.
 
