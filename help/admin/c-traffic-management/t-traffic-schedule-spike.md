@@ -1,14 +1,13 @@
 ---
 title: Prévision d’un pic de trafic
 description: Associez-vous à l'Adobe pour vous assurer que les événements à trafic élevé ne connaissent pas de latence.
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 27%
+source-wordcount: '581'
+ht-degree: 26%
 
 ---
-
 
 # Prévision d’un pic de trafic
 
@@ -18,7 +17,7 @@ L&#39;équilibrage avancé des données côté serveur avec plusieurs personnels
 
 Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md) avant de spécifier une hausse importante du trafic.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Report Suites]**.
 1. Sélectionnez une suite de rapports.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion du trafic]** > **[!UICONTROL Prévoir les pics]**.
 1. Dans le champ **[!UICONTROL Date de début du pic]**, indiquez la date de début prévue du pic de trafic.
