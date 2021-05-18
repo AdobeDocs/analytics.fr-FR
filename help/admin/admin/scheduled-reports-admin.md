@@ -4,11 +4,10 @@ title: File d’attente des rapports planifiés
 topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '315'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Permet aux utilisateurs de niveau administrateur d’afficher et de gérer des rapports planifiés à l’échelle de l’organisation.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Rapports programmés]**
+**[!UICONTROL Analytics]** >  **[!UICONTROL Composants]** >  **[!UICONTROL Tous les composants]** > Rapports  **[!UICONTROL planifiés]**
 
 Les fonctionnalités de niveau administrateur dans le gestionnaire de rapports programmés incluent :
 
@@ -35,7 +34,7 @@ Dans l’onglet **[!UICONTROL Liste des rapports]**, vous pouvez **[!UICONTROL A
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Fonctionnalités de filtrage avancées  {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Fonctionnalités de filtrage avancées {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Par exemple, si vous souhaitez filtrer selon tous les rapports planifiés par heure, indiquez **[!UICONTROL Fréquence égale par heure]** dans le filtre **[!UICONTROL Avancé]** et cliquez sur **[!UICONTROL Appliquer]** :
 
