@@ -1,14 +1,13 @@
 ---
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Mises à jour des fonctionnalités Adobe Analytics
 
@@ -41,4 +40,4 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 | Question | Réponse |
 |---|---|
 | Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/tech-previews/overview.html) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [!UICONTROL Administration] > [!UICONTROL Paramètres de l’entreprise] > [Niveaux d’accès aux fonctionnalités](https://docs.adobe.com/content/help/fr-FR/analytics/admin/company-settings/feature-access-levels.html). |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vue les détails de votre package Analytics sous  [!UICONTROL Admin]  >  [!UICONTROL Tous les paramètres]  d’administration >  [!UICONTROL Société > Niveaux d’accès aux ]   [fonctionnalités.](https://docs.adobe.com/content/help/fr-FR/analytics/admin/company-settings/feature-access-levels.html) |
