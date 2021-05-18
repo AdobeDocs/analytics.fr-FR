@@ -2,14 +2,13 @@
 description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 keywords: Suite de rapports virtuelle
 title: Création des suites de rapports virtuelles
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +49,7 @@ Avant de créer des suites de rapports virtuelles, vous devez tenir compte des q
   </tr> 
   <tr> 
    <td colname="col1"> Groupes </td> 
-   <td colname="col2"> <p>Sélectionnez les groupes d’autorisations qui doivent avoir accès à une suite de rapports virtuelle donnée. (Vous pouvez également gérer les autorisations de groupe sous <span class="ignoretag"><span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Gestion utilisateur</span> &gt; <span class="uicontrol">Groupes</span></span>.) </p> </td> 
+   <td colname="col2"> <p>Sélectionnez les groupes d’autorisations qui doivent avoir accès à une suite de rapports virtuelle donnée. (Vous pouvez également gérer les autorisations de groupe à partir de <span class="ignoretag"><span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Tous les administrateurs </span> &gt; <span class="uicontrol"> Gestion utilisateur</span> &gt; <span class="uicontrol"> Groupes</span></span>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Suite de rapports parente </td> 
