@@ -2,14 +2,13 @@
 description: Description de la procédure d’envoi d’un courriel à tous les utilisateurs de votre société.
 subtopic: Users and groups
 title: Envoyer un courrier électronique aux utilisateurs
-feature: Admin Tools
+feature: Outils d’administration
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 84%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Après la migration de tous les clients, le contenu de l’aide pour **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** sera supprimé.
 
 Description de la procédure d’envoi d’un courriel à tous les utilisateurs de votre société.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestion des utilisateurs]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]**.
 1. Cliquez sur **[!UICONTROL Utilisateurs de messagerie électronique]**.
 1. Cochez la case **[!UICONTROL Administrateurs uniquement]** pour limiter la messagerie aux administrateurs uniquement.
 
