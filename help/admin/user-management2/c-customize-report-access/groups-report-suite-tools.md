@@ -3,14 +3,13 @@ description: Activez les autorisations d’utilisateurs pour l’accès aux API,
 keywords: groupes ; autorisations
 subtopic: Users and groups
 title: Personnalisation des autorisations liées aux outils de suites de rapports
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 93%
+source-wordcount: '1167'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Une fois tous les utilisateurs migrés, le contenu d’aide **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Gestion des utilisateurs]** sera retiré.
+>La gestion des utilisateurs et des produits aura dorénavant lieu dans [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html). Adobe vous avertira lorsqu’il sera temps de migrer les utilisateurs. Après la migration de tous les clients, le contenu de l’aide pour **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** sera supprimé.
 
 Activez les autorisations d’utilisateurs pour l’accès aux API, la gestion des suites de rapports, les outils et les rapports, ainsi que les éléments de tableau de bord.
 
