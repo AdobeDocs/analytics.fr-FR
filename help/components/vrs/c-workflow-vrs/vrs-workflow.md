@@ -2,14 +2,13 @@
 description: Présentation des étapes requises pour planifier la mise en œuvre des suites de rapports virtuelles.
 keywords: Suite de rapports virtuelle
 title: Workflow des suites de rapports virtuelles
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 98%
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -29,17 +28,8 @@ Une fois créée, une suite de rapports virtuelle est considérée comme une sui
 
 Cliquez sur l’icône Informations située en regard du nom de la suite de rapports pour [afficher des informations sur celle-ci](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Définissez des [autorisations de groupe](/help/components/vrs/c-workflow-vrs/vrs-create.md) pour celle-ci.
+![](assets/step3_icon.png) Ouvrez un projet ou un rapport et sélectionnez une suite de rapports virtuelle pour obtenir une vue segmentée des données.
 
-Vous ajoutez des autorisations de groupe dans le cadre de la création d’une suite de rapports virtuelle.
-
-Vous pouvez modifier les autorisations de groupe de deux manières différentes :
-
-* Modifiez la suite de rapports virtuelle dans le Gestionnaire de suites de rapports virtuelles.
-* Accédez à Admin > Gestion utilisateur > Groupes et sélectionnez le groupe possédant des droits d’accès à la suite de rapports virtuelle, puis cliquez sur Modifier.
-
-![](assets/step4_icon.png) Ouvrez un projet ou un rapport et sélectionnez une suite de rapports virtuelle pour obtenir une vue segmentée des données.
-
-![](assets/step5_icon.png) [Gérer](/help/components/vrs/c-workflow-vrs/vrs-manage.md) la suite de rapports virtuelle.
+![](assets/step4_icon.png) [Gérer](/help/components/vrs/c-workflow-vrs/vrs-manage.md) la suite de rapports virtuelle.
 
 Le Gestionnaire de suites de rapports virtuelles permet de modifier, ajouter, baliser, supprimer, renommer, approuver, copier, exporter et filtrer des suites de rapports virtuelles. Il n’est pas visible par les utilisateurs qui ne sont pas administrateurs.
