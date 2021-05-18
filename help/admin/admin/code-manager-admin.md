@@ -1,14 +1,13 @@
 ---
 description: Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 title: Gestionnaire de code
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire de code]**.
+**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous admin]** > Gestionnaire **** de code.
 
 Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources d’implémentation sont disponibles dans le guide de l’utilisateur [Mise en œuvre](/help/implement/home.md).
 
