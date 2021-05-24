@@ -1,14 +1,14 @@
 ---
 title: Guide de traduction des mesures couramment utilisées sur d’autres plateformes
 description: Découvrez comment extraire des données de mesure pour de nombreux rapports courants en utilisant une terminologie plus familière aux utilisateurs de Google Analytics.
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Guide de traduction des mesures couramment utilisées sur d’autres plateformes
 
@@ -53,7 +53,7 @@ Le **Taux de rebond** est disponible en tant que mesure dans Analysis Workspace.
 
    Pour en savoir plus sur les [mesures calculées](/help/components/c-calcmetrics/cm-overview.md), voir le guide d’utilisation des composants.
 
-La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Pour en savoir plus sur les mesures [Durée de visite](/help/components/metrics/time-spent-per-visit.md) du guide d’utilisateur Composants.
+La **Durée de session moyenne** est à peu près équivalente à la **Durée de la visite (en secondes)**. Pour en savoir plus sur les mesures de [Durée de la visite](/help/components/metrics/time-spent-per-visit.md), consultez le guide d’utilisation des composants.
 
 ## Mesures de conversion
 
