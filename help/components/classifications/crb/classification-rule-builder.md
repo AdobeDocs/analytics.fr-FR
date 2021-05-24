@@ -2,14 +2,13 @@
 description: Au lieu de gérer et de transférer des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques en fonction des règles automatiques, puis les appliquer dans plusieurs suites de rapports. Les règles sont traitées à intervalles réguliers, selon le volume de trafic lié aux classifications.
 subtopic: Classifications
 title: Workflow du créateur de règles de classification
-feature: Admin Tools
+feature: Outils d’administration
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,4 +51,4 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 **Blog** : pour plus d’informations sur cette fonctionnalité, consultez le blog Digital Marketing : [Classifications selon des règles](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vidéo** : Vue de la vidéo  [Présentation ](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) des classifications.
+**Vidéo** : afficher la vidéo de [Présentation des classifications](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
