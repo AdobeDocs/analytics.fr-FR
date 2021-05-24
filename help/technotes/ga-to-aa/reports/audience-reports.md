@@ -1,14 +1,14 @@
 ---
 title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1715'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Rapports d’audience
 
@@ -18,7 +18,7 @@ Cette page part du principe que l’utilisateur maîtrise les bases de l’utili
 
 ## Utilisateurs actifs
 
-Les utilisateurs actifs montrent le nombre cumulé d’utilisateurs qui se sont connectés à votre site au cours des 1, 7, 14 ou 28 jours précédents. Bien qu’Adobe ne connaisse pas le calcul exact employé par Google Analytics, vous pouvez utiliser la mesure Visiteur unique pour obtenir le compte dédupliqué des utilisateurs qui se sont connectés à votre site sur la période sélectionnée.
+Les utilisateurs actifs montrent le nombre cumulé d’utilisateurs qui se sont connectés à votre site au cours des 1, 7, 14 ou 28 jours précédents. Bien qu’Adobe ne connaisse pas le calcul exact employé par Google Analytics, vous pouvez utiliser la mesure Visiteurs uniques pour obtenir le nombre dédupliqué d’utilisateurs qui se sont connectés à votre site sur la période sélectionnée.
 
 Pour obtenir un graphique linéaire des visiteurs uniques, suivez les étapes ci-dessous :
 
@@ -89,7 +89,7 @@ Si vous souhaitez obtenir le tableau en plus de la carte :
 1. Dans le menu Composants, recherchez la dimension **Pays** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, consultez les dimensions [Pays](/help/components/dimensions/countries.md) du guide de l’utilisateur Composants.
+Pour plus dʼinformations, voir la dimension [Pays](/help/components/dimensions/countries.md) dans le guide dʼutilisation des composants.
 
 ## Comportement - Visites nouvelles ou renouvelées
 
@@ -161,7 +161,7 @@ Le rapport Présentation mobile est à peu près équivalent à la dimension **T
 1. Dans le menu Composants, recherchez la dimension **Type d’appareil mobile** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d’informations, voir la dimension [Type de périphérique mobile](/help/components/dimensions/mobile-dimensions.md) dans le guide de l’utilisateur Composants.
+Pour plus dʼinformations, voir la dimension [Type de périphérique mobile](/help/components/dimensions/mobile-dimensions.md) dans le guide dʼutilisation des composants.
 
 ## Mobile - Appareils
 
@@ -170,7 +170,7 @@ Le rapport Appareils mobiles est à peu près équivalent à la dimension **Appa
 1. Dans le menu Composants, recherchez la dimension **Appareil mobile** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus d&#39;informations, consultez la dimension [Mobile device](/help/components/dimensions/mobile-dimensions.md) du guide de l&#39;utilisateur Composants.
+Pour plus dʼinformations, voir la dimension [Appareil mobile](/help/components/dimensions/mobile-dimensions.md) dans le guide dʼutilisation des composants.
 
 ## Rapports personnalisés
 
@@ -185,6 +185,6 @@ Les rapports d’évaluation permettent de comparer des facettes de vos données
 Le rapport de flux est disponible sur les deux plateformes. Pour créer un rapport de flux :
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
-2. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de Dimension sont de couleur jaune.
+2. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de dimension sont en jaune.
 3. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
