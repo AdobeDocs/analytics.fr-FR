@@ -3,14 +3,14 @@ description: Les mesures calculées ou calculées avancées (ou dérivées) sont
 keywords: Mesures calculées;mesures dérivées;mesures calculées avancées
 title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # Mesures calculées ou calculées avancées (dérivées)
 
@@ -19,7 +19,7 @@ Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures 
 Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, gérer et organiser les mesures. Ils vous permettent, en tant que responsables du marketing, chefs de produits et analystes, de poser des questions relatives aux données sans avoir à modifier votre implémentation [!DNL Analytics]. Les mesures personnalisées disponibles dans chaque module [!DNL Analytics] sont les suivantes :
 
 * Adobe [!DNL Analytics] Foundation : calculées
-* [Adobe Analytics Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html) : calculées + calculées avancées
+* [Adobe Analytics Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html) : calculées  + calculées avancées
 * [Adobe Analytics Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) : calculées + calculées avancées
 * [Adobe Analytics Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html) : calculées + calculées avancées
 
@@ -35,7 +35,7 @@ Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités 
 | [Fonctions de base (décompte, valeur absolue, moyenne, etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Non | Oui |
 | [Fonctions avancées (régression, si/alors, score normalisé, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Non | Oui |
 
-## Fonctionnalités {#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## Fonctionnalités  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Vous pouvez
 
@@ -52,7 +52,7 @@ Certaines fonctions d’[!DNL Analytics] permettent d’utiliser des événement
 * [!UICONTROL Entonnoirs] dans [!UICONTROL Reports &amp; Analytics]
 * [!UICONTROL Abandons] dans [!UICONTROL Analysis Workspace]
 * [!UICONTROL Analyse de cohortes] dans Analysis Workspace
-* [!UICONTROL Data Warehouse]
+* [!UICONTROL Data Warehouse]
 * [!UICONTROL Segments]
 * [!UICONTROL Rapports en temps réel]
 * [!UICONTROL Rapports Données actives]
@@ -98,7 +98,7 @@ Vous trouverez un bref aperçu des outils de [!UICONTROL mesures calculées] :
   </tr> 
   <tr> 
    <td colname="col1"> Rail Sélecteur de mesure </td> 
-   <td colname="col2"> <p>Remplace la fenêtre contextuelle <span class="uicontrol">Afficher les mesures</span> dans les <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Il permet de rechercher et d’ajouter/appliquer des mesures au rapport. Vous pouvez également modifier l’ordre de <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >tri</a> (les options sont : Alphabétique, Recommandés, Fréquemment utilisés, Récemment utilisés). En outre, vous pouvez filtrer selon les suites de rapports pour n’afficher que les mesures créées dans une suite de rapports spécifique. </p> <p>Pour accéder à ce sélecteur de mesures, cliquez sur l’icône Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> située à gauche d’un rapport. Le sélecteur de mesure ressemble à ceci : </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Remplace la fenêtre contextuelle <span class="uicontrol">Afficher les mesures</span> dans les <span class="uicontrol">Reports &amp; Analytics</span>. </p> <p>Il permet de rechercher et d’ajouter/appliquer des mesures au rapport. Vous pouvez également modifier l’ordre de  <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >tri</a> (les options sont : Alphabétique, Recommandés, Fréquemment utilisés, Récemment utilisés). En outre, vous pouvez filtrer selon les suites de rapports pour n’afficher que les mesures créées dans une suite de rapports spécifique. </p> <p>Pour accéder à ce sélecteur de mesures, cliquez sur l’icône Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> située à gauche d’un rapport. Le sélecteur de mesure ressemble à ceci : </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > API pour les mesures calculées</a> </td> 
@@ -106,4 +106,3 @@ Vous trouverez un bref aperçu des outils de [!UICONTROL mesures calculées] :
   </tr> 
  </tbody> 
 </table>
-
