@@ -1,14 +1,14 @@
 ---
 title: Mise en œuvre d’Analytics pour les appareils mobiles
 description: Déterminez la bibliothèque AppMeasurement mobile à utiliser.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre d’Analytics pour les appareils mobiles
 
