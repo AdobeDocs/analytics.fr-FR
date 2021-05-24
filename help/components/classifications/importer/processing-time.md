@@ -1,14 +1,14 @@
 ---
 title: Temps de traitement de l’importateur de classifications
 description: Comprenez la période pendant laquelle Adobe traite les fichiers de classification et comment réduire le temps de traitement.
-translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '416'
 ht-degree: 100%
 
 ---
-
 
 # Temps de traitement de l’importateur de classifications
 
