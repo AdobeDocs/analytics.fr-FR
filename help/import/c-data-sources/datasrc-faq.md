@@ -5,11 +5,10 @@ title: FAQ sur les sources de données
 topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1496'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 95%
 
 Cette rubrique fournit des réponses aux questions courantes.
 
-## Comment lier les données hors ligne aux événements en ligne ? {#section_F48A9474A70D4CB8B449DE305F199AD6}
+## Comment lier les données hors ligne aux événements en ligne ?  {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
 Pour que les sources de données d’ID de transaction lient des données hors ligne aux événements en ligne, vous devez activer l’enregistrement des identifiants de transaction. Voir [Enregistrement des ID de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
 
@@ -25,7 +24,7 @@ Pour que les sources de données d’ID de transaction lient des données hors l
 
 La fonctionnalité Sources de données n’engendre aucuns frais supplémentaires au-delà de l’appel au serveur standard. Des frais d’appel au serveur s’appliquent seulement pour les types de sources de données à traitement complet, quand des accès individuels sont envoyés sous forme de lignes de données. Les sources de données au niveau du trafic et de l’agrégat n’engendrent aucuns frais supplémentaires.
 
-## Comment inclure des commentaires dans les fichiers de la fonctionnalité Sources de données ? {#section_AA42152C7B30425EA541A7BA274E78ED}
+## Comment inclure des commentaires dans les fichiers de la fonctionnalité Sources de données ?  {#section_AA42152C7B30425EA541A7BA274E78ED}
 
 Chaque ligne d’un fichier de source de données qui commence par le symbole dièse (#) est traitée comme un commentaire.
 
@@ -33,7 +32,7 @@ Chaque ligne d’un fichier de source de données qui commence par le symbole di
 
 Oui. De nombreux rapports marketing pouvant être recherchés par date, vous devez inclure une colonne de dates.
 
-## Puis-je stocker des données dans les variables que j’utilise déjà ? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Puis-je stocker des données dans les variables que j’utilise déjà ?  {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Adobe recommande de sélectionner de nouvelles variables inutilisées pour importer les données à l’aide de la fonctionnalité Sources de données. Si vous ne connaissez pas la configuration de votre fichier de données ou si vous souhaitez mieux comprendre les risques inhérents à la réutilisation de variables, contactez l’assistance clientèle.
 
@@ -55,7 +54,7 @@ Lorsque vous transférez des données de sources de données, vous transférez l
 
 Si, par exemple, vous transférez les recettes du centre d’appels pour les produits que vous vendez sur votre site, ces données seront disponibles dans le même rapport que les recettes en ligne. Vous ne pourrez toutefois pas les utiliser conjointement avec les données Visites, car vous n’avez pas transféré le nombre de visites en même temps. Adobe peut uniquement reporter les mesures et éléments transférés au moyen de la fonctionnalité Sources de données (outre les mesures standard des rapports marketing).
 
-## Que se passe-t-il si je transmets des valeurs négatives dans les rapports au moyen de la fonctionnalité Sources de données ? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
+## Que se passe-t-il si je transmets des valeurs négatives dans les rapports au moyen de la fonctionnalité Sources de données ?  {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
 La valeur est diminuée en conséquence.
 
@@ -88,7 +87,7 @@ Le processus de source de données (pour les sources de données génériques, e
 
 Si les extensions d’un fichier de transfert de source de données ou d’un fichier de classification comportent des majuscules, les fichiers ne seront pas traités. Les extensions des fichiers de transfert de source de données doivent être en minuscules. Par exemple, [!DNL file.TXT] et [!DNL file.FIN] ne seront pas traités, de même que [!DNL .TAB] et [!DNL .FIN]. Toutefois, [!DNL .txt] et [!DNL .fin] sont traités.
 
-## Puis-je ajouter des événements supplémentaires au modèle généré ou suis-je limité à trois ? {#section_F184913926DD43B1872956CED308ADB5}
+## Puis-je ajouter des événements supplémentaires au modèle généré ou suis-je limité à trois ?  {#section_F184913926DD43B1872956CED308ADB5}
 
 Vous pouvez ajouter autant d’événements que vous le souhaitez. Toutefois, l’Assistant permet d’ajouter uniquement trois événements. Une fois le fichier de modèle créé, vous pouvez y ajouter autant d’événements que vous le souhaitez.
 
@@ -103,7 +102,7 @@ Si un fichier de source de données contient un ou plusieurs enregistrements qui
 
 Les informations des sources de données peuvent être cumulées ; toutefois, l’assistance clientèle Adobe doit retraiter le cumul à partir de la date d’historique pour inclure les données d’historique. Si, par exemple, la date actuelle est le 31 octobre 2015 et que vous avez transféré des données pour la période du 1er au 15 août 2015 à l’aide de la fonctionnalité Sources de données, le cumul devra être défini pour les retraiter à partir du 1er août 2015, afin que les données nouvellement importées soient incluses.
 
-Notez également que les données ne doivent jamais être transférées directement dans une suite de rapports de cumul à l’aide de la fonctionnalité Sources de données. Si vous souhaitez que ces données soient incluses dans un cumul, elles doivent être importées dans une suite de rapports standard, également appelée *`child suite`* du cumul. Contactez l’assistance clientèle Adobe pour en savoir plus.
+Notez également que les données ne doivent jamais être transférées directement dans une suite de rapports de cumul à l’aide de la fonctionnalité Sources de données. Si vous souhaitez que ces données soient incluses dans un cumul, elles doivent être importées dans une suite de rapports standard, également appelée  *`child suite`* du cumul. Contactez l’assistance clientèle Adobe pour en savoir plus.
 
 ## Pourquoi le rapport Pages vues n’affiche-t-il aucune donnée de source de données pour un seul jour, mais affiche les données correctes pour une semaine ?  {#section_E361A93AFDE1487989B4B0C4438EEDF7}
 
@@ -117,7 +116,7 @@ Le nombre de visiteurs uniques dans un journal de serveur web est calculé sous 
 
 Dans les sources de données, l’identifiant de suite de rapports correspond à la première partie de l’identifiant de connexion annexé par un numéro aléatoire qui identifie la source de données spécifique qui était configurée. Par exemple : `RSID-drmossdev5 Login-drmossdev5_0001343430`.
 
-## Quelles sont les répercussions de la version 15 et de la segmentation sur les sources de données ? {#section_7E9E541DB73C49CDAADC031B678F8678}
+## Quelles sont les répercussions de la version 15 et de la segmentation sur les sources de données ?  {#section_7E9E541DB73C49CDAADC031B678F8678}
 
 Dans la version 15, les sources de données se comportent différemment selon le type de la source :
 
@@ -137,11 +136,11 @@ Non pour le traitement complet, oui pour l’ID de transaction. Les sources de d
 Non. Les eVars transférées au moyen des sources de données des ID de transaction liront uniquement les informations de profil stockées ; elles ne mettront pas à jour le profil.
 Non. Les eVars sont les seules variables enregistrées dans l’instantané du profil du visiteur.
 
-## Comment les événements numériques et monétaires fonctionnent-ils avec les sources de données ?
+## Comment les événements numériques et monétaires fonctionnent-ils avec les sources de données ?
 
-Le traitement complet ne prend en charge que les formats de liste de événement hérités, à l’exclusion de la valeur de événement numérique/monétaire/compteur (plus de 1) directement dans la liste des événements, c’est-à-dire `"eventNN,eventKK"` et non `"eventNN=#.##"`. Cela signifie qu’il ne prend en charge un événement de compteur que s’il est transmis dans la colonne événements du fichier de source de données et s’il est incrémenté de 1.
+Le traitement complet ne prend en charge que les formats de liste dʼévénements hérités, à lʼexclusion de la valeur numérique/monétaire/compteur (plus de 1) de lʼévénement directement dans la liste des événements, à savoir `"eventNN,eventKK"` et non `"eventNN=#.##"`. Cela signifie quʼil ne prend en charge un événement compteur que sʼil est transmis dans la colonne des événements du fichier de source de données et quʼil sʼincrémente de 1.
 
-Si des événements numériques, monétaires ou de compteur (plus de 1) sont requis, utilisez la liste de produit :
+Si des événements numériques, monétaires ou compteurs (plus de 1) sont requis, utilisez la liste de produit suivante :
 
 ```js
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
