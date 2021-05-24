@@ -2,14 +2,14 @@
 description: Interprétez les identifiants capturés dans vos données Analytics et décidez lesquels utiliser pour les demandes relatives à la confidentialité des données.
 title: Bonnes pratiques en matière d’étiquetage
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2706'
 ht-degree: 100%
 
 ---
-
 
 # Bonnes pratiques en matière d’étiquetage
 
@@ -33,7 +33,7 @@ Même si votre entreprise collecte de nombreux ID différents dans vos données 
 * Certains ID peuvent correspondre à plusieurs personnes et vous ne voulez pas risquer de renvoyer des informations relatives à une personne à quelqu’un d’autre possédant le même ID. Par exemple, même si vous pouvez vérifier que le nom de la personne est John Smith, vous ne voulez peut-être pas renvoyer l’intégralité des données relatives à tous les John Smith de votre système.
 * Un autre exemple concerne un ID d’appareil, tel que l’ID de cookie Analytics. Si l’ID apparaît sur une application de téléphone portable, vous pouvez décider que toutes les interactions utilisant cet ID doivent être disponibles pour le propriétaire du téléphone portable en question. Toutefois, s’il apparaît sur un appareil partagé, tel qu’un ordinateur domestique ou un ordinateur dans une bibliothèque ou un cybercafé, vous pouvez estimer que la distinction entre les différents utilisateurs de cet appareil n’est pas possible et que le risque de renvoyer des données relatives à un autre utilisateur est trop important pour permettre l’utilisation de ce type d’ID.
 
-## Bonnes pratiques pour les ID pris en charge par Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Bonnes pratiques pour les ID pris en charge par Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
 
 Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors de la soumission de demandes relatives à la Confidentialité des données à Analytics. Lorsque vous connaîtrez ces informations, vous pourrez déterminer plus facilement les autres étiquettes à utiliser pour vos variables.
 
@@ -115,4 +115,3 @@ Bien que très peu de champs comportent une des autres étiquettes, il arrive so
   </tr> 
  </tbody> 
 </table>
-
