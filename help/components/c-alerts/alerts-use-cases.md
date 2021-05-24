@@ -2,14 +2,14 @@
 description: Cas d’utilisation relatifs à la création et à la gestion d’alertes intelligentes.
 title: Alertes intelligentes - Exemples d’utilisation
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
 ---
-
 
 # Alertes intelligentes - Exemples d’utilisation
 
@@ -33,9 +33,8 @@ Le Générateur d’alertes est ainsi automatiquement prérenseigné afin de cr�
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidation (empilement) des alertes plutôt que de créer plusieurs alertes {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidation (empilement) des alertes plutôt que de créer plusieurs alertes  {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 Les alertes empilées sont combinées, ce qui évite d’avoir à gérer plusieurs alertes distinctes.
 
 ![](assets/alerts_example2.png)
-
