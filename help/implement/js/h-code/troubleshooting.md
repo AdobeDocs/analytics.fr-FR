@@ -1,14 +1,14 @@
 ---
 title: Résolution des problèmes de mise en œuvre du code H
 description: Découvrez quelques problèmes courants liés aux mises en œuvre JavaScript héritées.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '244'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes de mise en œuvre du code H
 
