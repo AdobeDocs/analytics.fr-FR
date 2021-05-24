@@ -1,16 +1,16 @@
 ---
 title: referrer
 description: Permet de remplacer le référent collecté automatiquement pour un accès.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-
-# parrain
+# referrer
 
 La variable `referrer` remplace le référent collecté automatiquement dans les rapports. Cette variable s’avère utile lorsque le référent risque d’être perdu, par exemple lors des redirections ou du transfert temporaire du visiteur vers un processeur de paiement. Cette variable permet de renseigner les dimensions Référent et Domaine référent.
 
@@ -35,7 +35,7 @@ La variable `s.referrer` est une chaîne contenant l’URL de la page précéden
 s.referrer = "https://example.com";
 ```
 
-Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
+Si vous utilisez la `digitalData` [couche de données](../../prepare/data-layer.md) :
 
 ```js
 s.referrer = digitalData.page.pageInfo.referringURL;
@@ -43,7 +43,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->Évitez de définir cette variable sur des valeurs autres que les URL. Ne retirez pas le protocole de l’URL.
+>Évitez de définir cette variable sur des valeurs autres que les URL. Ne retirez pas le protocole de lʼURL.
 
 ## Exemple
 
