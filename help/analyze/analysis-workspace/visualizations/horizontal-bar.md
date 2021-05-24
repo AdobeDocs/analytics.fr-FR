@@ -2,16 +2,16 @@
 description: Utilisation de la visualisation à barres horizontales dans un projet Workspace.
 title: Barre horizontale et barres empilées horizontales
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 95%
+exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
-
 
 # Barre horizontale et barres empilées horizontales
 
@@ -21,7 +21,7 @@ Dans cette visualisation, des barres horizontales représentent plusieurs valeur
 
 ![](assets/horizontal_bar.png)
 
-## Barres empilées horizontales {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barres empilées horizontales  {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Cette visualisation ressemble au [!UICONTROL graphique à barres horizontales], mais les barres de chaque série semblent être empilées.
 
@@ -30,4 +30,3 @@ Cette visualisation ressemble au [!UICONTROL graphique à barres horizontales], 
 Un nouveau paramètre d’affichage [!UICONTROL Barres empilées horizontales] appliqué aux graphiques à barres empilées offre un aperçu « 100 % empilé » du diagramme :
 
 ![](assets/horizstacked100.png)
-
