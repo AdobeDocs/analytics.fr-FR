@@ -1,14 +1,14 @@
 ---
 description: Voici des instructions pour vous aider à trouver les ID de votre compte Google et Bing.
 title: Localisation des identifiants de compte
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
-
 
 # Localisation des identifiants de compte
 
@@ -18,17 +18,17 @@ Voici des instructions pour vous aider à trouver les ID de votre compte Google 
 
 >[!IMPORTANT]
 >
->Google AdWords utilise deux types de comptes : a) compte MCC (My Client Center) et b) compte standard. Pour cette intégration avec Adobe Analytics, **vous devez utiliser la connexion de votre compte standard et pas celle de votre compte MCC**. Cela tient au fait que les comptes MCC fonctionnent comme un compte « parapluie » qui peut accéder à de nombreux comptes AdWords grâce à une seule connexion, alors qu’un compte standard ne peut accéder qu’à un seul compte AdWords par connexion. Google prend en charge la liaison d&#39;un courrier électronique pour gérer 5 comptes, mais Advertising Analytics ne prend pas encore en charge cette fonctionnalité. Un e-mail peut uniquement être lié à un compte Adwords.
+>Google AdWords utilise deux types de comptes : a) compte MCC (My Client Center) et b) compte standard. Pour cette intégration avec Adobe Analytics, **vous devez utiliser la connexion de votre compte standard et pas celle de votre compte MCC**. Cela tient au fait que les comptes MCC fonctionnent comme un compte « parapluie » qui peut accéder à de nombreux comptes AdWords grâce à une seule connexion, alors qu’un compte standard ne peut accéder qu’à un seul compte AdWords par connexion. Google prend en charge la liaison d’une adresse e-mail pour la gestion de 5 comptes, mais Advertising Analytics ne prend pas encore en charge cette fonctionnalité. Une adresse e-mail ne peut être liée qu’à un seul compte Adwords.
 
 Cliquez sur l’icône Compte en haut à droite pour afficher le numéro de compte AdWords (ID de client).
 
 ![](assets/google_account.png)
 
-## Bing  {#section_F1B9C7E997444746936599732CD62665}
+## Bing   {#section_F1B9C7E997444746936599732CD62665}
 
 >[!NOTE]
 >
->Si votre compte Bing utilise la fonction d’importation de Google, veillez à mettre à jour la chaîne de suivi correcte. La chaîne de suivi ne sera pas automatiquement mise à jour de la version de Google vers la chaîne de suivi Bing correcte et peut générer des données non spécifiées. Pour plus de détails sur la fonction, voir [ici](https://help.ads.microsoft.com/apex/index/3/en/50851/).
+>Si votre compte Bing utilise la fonctionnalité d’importation de Google, veillez à mettre à jour la chaîne de suivi appropriée. La mise à jour de la chaîne de suivi depuis la version de Google vers la chaîne de suivi Bing appropriée ne s’effectue pas automatiquement. Par conséquent, cela peut générer des données non spécifiées. Retrouvez plus de détails sur cette fonctionnalité [ici](https://help.ads.microsoft.com/apex/index/3/fr/50851/).
 
 L’ID de compte, ainsi que celui du client sont requis. Ils sont répertoriés dans l’onglet Comptes.
 
