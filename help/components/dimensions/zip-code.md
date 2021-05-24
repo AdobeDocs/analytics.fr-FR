@@ -1,14 +1,14 @@
 ---
 title: Code postal
 description: Le code postal du visiteur.
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Code postal
 
@@ -31,9 +31,9 @@ L’[!UICONTROL option de code postal] sous [Paramètres généraux du compte](/
 
 Les éléments de dimension comprennent le code postal du visiteur.
 
-## Quels sont les codes postaux des pays sur lesquels vous pouvez vous reporter en Adobe Analytics ?
+## Quels sont les codes postaux des pays pour lesquels vous pouvez créer des rapports dans Adobe Analytics ?
 
-* Îles Aland
+* Îles Åland
 * Albanie
 * Algérie
 * Argentine
@@ -54,7 +54,7 @@ Les éléments de dimension comprennent le code postal du visiteur.
 * République tchèque
 * Danemark
 * Équateur
-* Egypte
+* Égypte
 * Estonie
 * Finlande
 * France
@@ -95,7 +95,7 @@ Les éléments de dimension comprennent le code postal du visiteur.
 * Philippines
 * Pologne
 * Portugal
-* Puerto Rico
+* Porto Rico
 * Qatar
 * Roumanie
 * Fédération de Russie
