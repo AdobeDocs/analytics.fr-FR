@@ -3,7 +3,6 @@ title: PWA pour Analytics
 description: Applications web progressives pour Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '277'
@@ -19,7 +18,7 @@ Cette page décrit comment utiliser Adobe Analytics avec les applications web p
 
 Les PWA peuvent apporter une expérience d’application native ainsi que des fonctionnalités hors ligne pour un site web. En règle générale, les PWA incluent un service worker, la mise en cache de provisions ainsi qu’un fichier de manifeste qui peuvent tous aider à obtenir des temps de chargement plus rapides, une navigation plus facile et un comportement réactif.
 
-Adobe Analytics travaille aussi facilement avec les PWA qu&#39;avec les sites web traditionnels. Bien que les PWA nécessitent quelques exigences supplémentaires pour se comporter de mieux en mieux dans l’absolu, ils ne créent aucune barrière ou limite sur la manière dont Analytics rassemble ou signale les données qu’ils contiennent par rapport aux sites web traditionnels. En fait, étant donné qu’Analytics inclut déjà des fonctionnalités de suivi hors ligne, les PWA peuvent vous aider à tirer profit de cette fonctionnalité intégrée plus facilement qu’avec les sites web traditionnels.
+Adobe Analytics travaille aussi facilement avec les PWA qu’avec les sites web traditionnels. Bien que les PWA nécessitent quelques exigences supplémentaires pour se comporter de mieux en mieux dans l’absolu, ils ne créent aucune barrière ou limite sur la manière dont Analytics rassemble ou signale les données qu’ils contiennent par rapport aux sites web traditionnels. En fait, étant donné qu’Analytics inclut déjà des fonctionnalités de suivi hors ligne, les PWA peuvent vous aider à tirer profit de cette fonctionnalité intégrée plus facilement qu’avec les sites web traditionnels.
 
 ## Obtenez vos données d’analyses PWA
 
@@ -47,6 +46,6 @@ s.trackOffline=true
 *** 
 ```
 
-Pour plus d’informations sur la configuration du fichier AppMeasurement.js, voir [Présentation des variables de configuration](/help/implement/vars/config-vars/configuration-variables.md) et les pages spécifiques aux variables individuelles dans le même sous-chapitre.
+Pour plus d’informations sur la configuration du fichier AppMeasurement.js, voir [Présentation des variables de configuration](/help/implement/vars/config-vars/configuration-variables.md) et les pages individuelles spécifiques aux variables dans le même sous-chapitre.
 
-Pour plus d’informations sur les caractéristiques du fichier AppMeasurement.js, voir [Présentation de la mise en oeuvre JavaScript](/help/implement/js/overview.md).
+Pour plus d’informations sur les caractéristiques du fichier AppMeasurement.js, consultez la [présentation de l’implémentation JavaScript](/help/implement/js/overview.md).
