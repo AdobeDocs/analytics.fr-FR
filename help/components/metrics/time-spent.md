@@ -1,14 +1,14 @@
 ---
 title: Méthode de calcul de la durée de la visite dans Adobe Analytics
 description: Une page agrégée des dimensions et mesures de durée de la visite.
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # Présentation de la durée de la visite
 
@@ -113,9 +113,9 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | - | Product | Accueil | Accueil (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Product | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C (définie) |
+| **prop1** | A  (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C  (définie) |
 | **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rouge (définie) | Rouge (persistante) | (expirée) | Bleu (définie) | Bleu (définie) | Bleu (persistante) | Rouge (définie) |
