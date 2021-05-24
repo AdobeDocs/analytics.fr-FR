@@ -2,10 +2,9 @@
 description: Définition des éléments d’interface sur les pages du créateur de règles de classification.
 subtopic: Classifications
 title: Règles de classification – Définitions
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '880'
@@ -87,7 +86,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numéro de rôle. </p> <p>Voir <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a>. </p> </td> 
+   <td colname="col2"> <p>Numéro de rôle. </p> <p>Voir  <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 
@@ -132,7 +131,7 @@ Vous pouvez modifier des expressions régulières sur la page [!UICONTROL Expres
 | Groupes correspondants | Affiche la correspondance entre l’expression régulière et les caractères d’identification de la campagne, de sorte que vous puissiez classer une position dans l’identifiant de campagne. |
 | Résultat correspondant | Affiche les parties d’une chaîne qui correspondent à l’expression régulière. |
 
-Voir [Expressions régulières dans les règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
+Voir  [Expressions régulières dans les règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Page Tests {#section_EC926F97901C4E65901413F9683AA70A}
 
