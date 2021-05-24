@@ -2,10 +2,9 @@
 description: La variable de conversion Aperçu personnalisé (ou eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
 keywords: eVar
 title: Variables de conversion (eVar)
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1582'
@@ -76,7 +75,7 @@ Description des champs utilisés lors de la [modification des variables de conve
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Expiration - mois : l’eVar expire 31 jours à compter du lundi à 7:15. </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Evénements de conversion spécifiques.</b> Tout autre événement de conversion qui est déclenché après l’événement spécifique désigné est associé à l’eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Jamais.</b> Tant que le cookie <span class="varname"> visitorID</span> est intact, un laps de temps indéfini peut s’écouler entre l’eVar et l’événement. </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Jamais.</b> Tant que le cookie  <span class="varname"> visitorID</span> est intact, un laps de temps indéfini peut s’écouler entre l’eVar et l’événement. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
