@@ -1,14 +1,14 @@
 ---
 title: sa
 description: Permet de modifier la suite de rapports à tout moment de votre mise en œuvre.
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: tm+mt
+exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 
 ---
-
 
 # sa
 
