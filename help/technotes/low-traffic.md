@@ -4,29 +4,28 @@ title: Valeur de faible trafic dans Adobe Analytics
 feature: Mesures
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-translation-type: tm+mt
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 48%
+ht-degree: 52%
 
 ---
 
 # Valeur de faible trafic dans Adobe Analytics
 
-Lorsqu&#39;un rapport comporte de nombreuses valeurs uniques, l&#39;Adobe permet de s&#39;assurer que les valeurs les plus importantes apparaissent dans le rapport. Les valeurs de variable unique collectées après environ 500 000 valeurs existantes sont répertoriées sous une ligne intitulée **[!UICONTROL Faible trafic]**.
+Lorsqu’un rapport contient de nombreuses valeurs uniques, Adobe permet de s’assurer que les valeurs les plus importantes apparaissent dans le rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous un élément de ligne intitulé **[!UICONTROL Faible trafic]**.
 
 ## Fonctionnement de [!UICONTROL Faible trafic]
 
 * La création de rapports n’est pas affectée si la variable n’atteint pas 500 000 valeurs uniques au cours d’un mois donné.
 * Lorsqu’une variable atteint ce premier seuil de 500 000 valeurs, les données commencent à être groupées dans un compartiment à trafic faible. Chaque valeur dépassant ce seuil suit la logique suivante :
-   * Si une valeur est déjà vue dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra dans la ligne [!UICONTROL Faible trafic]. Si une valeur incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle début être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être vu a de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports particulière.
+   * Si une valeur est déjà affichée dans les rapports, ajoutez-la comme vous le faites habituellement.
+   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra sur la ligne [!UICONTROL Faible trafic] . Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois dans un délai court, elle commence à être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être consulté comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports spécifique.
 * Si une suite de rapports atteint plus de 1 000 000 de valeurs uniques, un filtrage plus agressif est appliqué :
-   * Si une valeur est déjà vue dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra dans la ligne [!UICONTROL Faible trafic]. Si une valeur incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle début être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être vu a de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports particulière.
+   * Si une valeur est déjà affichée dans les rapports, ajoutez-la comme vous le faites habituellement.
+   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra sur la ligne [!UICONTROL Faible trafic] . Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois dans un délai court, elle commence à être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être consulté comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports spécifique.
 
-Pourquoi l’Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers sa propre ligne ? Par exemple, ce déplacement peut reconnaître une nouvelle page ou un nouvel élément populaire qui a été ajouté plus tard dans le mois (après dépassement des valeurs uniques) et qui obtient de nombreux accès/vues. Le déplacement n&#39;est pas destiné à capturer tout ce qui reçoit un certain nombre de visites/vues par jour ou par mois.
+Pourquoi l’Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut reconnaître une nouvelle page ou un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des limites) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
 
 ## Modification des seuils de limite uniques
 
@@ -48,5 +47,5 @@ Diverses fonctionnalités traitent des valeurs à faible trafic de différentes 
    * Dans un nombre limité de scénarios, des valeurs à faible trafic peuvent continuer à apparaître. Il peut s’agir de variables de liste, de props de liste, d’eVars de marchandisage et de dimensions détaillées des canaux marketing.
 * **Segmentation :** si les critères de segment incluent une variable avec un grand nombre de valeurs uniques, les valeurs capturées sous en trafic faible ne sont pas incluses.
 * **Classifications :** les rapports de classification sont également soumis à des limites uniques. Si la valeur de variable parente d’une classification est incluse dans le compartiment à faible trafic, la valeur n’est pas classée.
-   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire de l’importateur peuvent être affichées en Data Warehouse. <!-- AN-115871 -->
-   * Les valeurs de classification à faible trafic obtenues par l’intermédiaire du créateur de règles *ne peuvent pas* être affichées en Data Warehouse. <!-- AN-122872 -->
+   * Les valeurs de classification de faible trafic obtenues par lʼintermédiaire de lʼimportateur peuvent être affichées dans Data Warehouse. <!-- AN-115871 -->
+   * Les valeurs de classification de faible trafic obtenues par lʼintermédiaire du créateur de règles *ne peuvent pas* être affichées dans Data Warehouse. <!-- AN-122872 -->
