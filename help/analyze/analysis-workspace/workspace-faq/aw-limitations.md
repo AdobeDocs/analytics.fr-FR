@@ -36,7 +36,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 ## Composants > Segments
 
 * Il n’est pas possible de segmenter certaines mesures et dimensions, comme [!UICONTROL Occurrences], [!UICONTROL Visiteurs uniques], etc.
-* Les segments ad hoc créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr-FR) n’apparaîtront pas dans le rail de gauche de Workspace ou dans le gestionnaire de composants Segment, sauf s’ils sont rendus publics. Pour ce faire, modifiez le segment et sélectionnez **[!UICONTROL Rendre ce segment public]**.
+* Les segments ad hoc créés dans la [zone de dépôt du panneau](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/panels.html) n’apparaîtront pas dans le rail de gauche de Workspace ou dans le gestionnaire de composants Segment, sauf s’ils sont rendus publics. Pour ce faire, modifiez le segment et sélectionnez **[!UICONTROL Rendre ce segment public]**.
 
 ## Composants > Mesures calculées
 
@@ -52,7 +52,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 * Lorsque la fonctionnalité de traitement de la période de rapport est activée, certains composants ne sont pas pris en charge. Pour obtenir la liste complète, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
-## Composants > Tous les composants > Paramètres de rapport
+## Composants > Tous les composants > Paramètres des rapports
 
 * Certains paramètres de la page [!UICONTROL Paramètres de rapport] ne s’appliquent pas. Analysis Workspace utilise uniquement les paramètres [!UICONTROL Langue/Devise/Encodage] situés en bas : [!UICONTROL Séparateur des milliers], [!UICONTROL Encodage d’un rapport planifié] et [!UICONTROL Caractère de séparation CSV].
 
