@@ -1,52 +1,52 @@
 ---
 title: Personnalisation des rapports dans Adobe Analytics
 description: Découvrez comment personnaliser des rapports dans Adobe Analytics
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # Personnalisation des rapports
 
 Sur les plateformes tierces, telles que Google Analytics, plusieurs options de personnalisation sont disponibles. Ces personnalisations permettent à l’utilisateur de créer des tableaux de bord, des rapports personnalisés, des rapports enregistrés et des alertes personnalisées. Comme Analysis Workspace permet aux utilisateurs de créer des rapports à partir d’un canevas vierge, la plupart des personnalisations sont directement intégrées à l’outil.
 
-Cette page suppose que l’utilisateur possède une connaissance de base de l’utilisation de [!UICONTROL Analysis Workspace]. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de Google Analytics](reports/create-report.md) si vous ne connaissez pas encore l’outil dans Adobe Analytics.
+Cette page part du principe que l’utilisateur maîtrise les bases de l’utilisation d’[!UICONTROL Analysis Workspace]. Voir [Création d’un rapport de base dans Analysis Workspace pour les utilisateurs de Google Analytics](reports/create-report.md) si vous ne connaissez pas encore l’outil dans Adobe Analytics.
 
 ## Tableaux de bord
 
-L&#39;architecture [!UICONTROL Analysis Workspace] est construite de la même façon que le concept des widgets de tableau de bord. Les projets en [!UICONTROL Analysis Workspace] sont l&#39;équivalent approximatif des tableaux de bord en Google Analytics. Les visualisations dans [!UICONTROL Analysis Workspace] sont l&#39;équivalent approximatif des widgets en Google Analytics.
+L’architecture d’[!UICONTROL Analysis Workspace] est similaire au concept des widgets des tableaux de bord. Les projets d’[!UICONTROL Analysis Workspace] sont équivalents aux tableaux de bord de Google Analytics. Les visualisations d’[!UICONTROL Analysis Workspace] sont équivalentes aux widgets de Google Analytics.
 
 ### Ajout de contenu à un projet
 
-1. Cliquez sur l’icône [!UICONTROL Visualisations] sur la gauche et faites glisser la visualisation souhaitée sur l’espace de travail.
-2. Cliquez sur l’icône [!UICONTROL Composants] sur la gauche et faites glisser les dimensions et mesures de votre choix sur la visualisation pour la remplir avec des données.
+1. Cliquez sur l’icône [!UICONTROL Visualisations] à gauche et faites glisser la visualisation de votre choix sur l’espace de travail.
+2. Cliquez sur l’icône [!UICONTROL Composants] à gauche et faites glisser les dimensions et mesures de votre choix sur la visualisation pour y renseigner des données.
 3. Faites glisser les bords de la visualisation pour la redimensionner, et faites glisser le titre de la visualisation pour le déplacer.
 
-Tous les widgets Google Analytics sont disponibles dans [!UICONTROL Analysis Workspace] :
+Tous les widgets de Google Analytics sont disponibles dans [!UICONTROL Analysis Workspace] :
 
-* Le **widget Mesure** est à peu près équivalent à la visualisation Synthèse des chiffres.
-* Le **widget Chronologie** est à peu près équivalent à la visualisation Ligne.
-* Le **widget Geomap** est à peu près équivalent à la visualisation Carte.
-* Le **widget Tableau** est à peu près équivalent à la visualisation Tableau à structure libre.
-* Le **widget circulaire** est à peu près équivalent à la visualisation Anneau.
-* Le **widget Barre** est peu près équivalent à la visualisation Barre.
+* Le **widget Mesure** est à peu près équivalent à la visualisation [!UICONTROL Synthèse des chiffres].
+* Le **widget Chronologie** est à peu près équivalent à la visualisation [!UICONTROL Ligne].
+*  Le **widget Geomap** est à peu près équivalent à la visualisation [!UICONTROL Carte].
+* Le **widget Tableau** est à peu près équivalent à la visualisation [!UICONTROL Tableau à structure libre].
+* Le **widget circulaire** est à peu près équivalent à la visualisation [!UICONTROL Anneau].
+* Le **widget Barre** est peu près équivalent à la visualisation [!UICONTROL Barre].
 
-[!UICONTROL Analysis Workspace inclut de nombreuses autres options de visualisation pour présenter les données de la manière la plus adaptée à vos besoins de création de rapports. ] Pour plus d’informations, voir [Visualisations dans Analysis Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) dans le guide d’utilisation.
+[!UICONTROL Analysis Workspace] inclut de nombreuses autres options de visualisation pour présenter les données de la manière la plus adaptée à vos besoins de création de rapports. Pour plus d’informations, voir [Visualisations dans Analysis Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) dans le guide d’utilisation.
 
 ### Partage de projets
 
 Une fois que vous avez terminé d’ajouter du contenu à un projet, vous pouvez le partager.
 
-* Pour partager le projet avec vos collègues, accédez à **[!UICONTROL Partager > Partager le projet]**. Les destinataires sont d’autres utilisateurs de votre entreprise qui possèdent des comptes Adobe Analytics.
-* Pour partager votre projet via un lien, accédez à **[!UICONTROL Partager > Obtenir le lien du projet]**. Notez que cela nécessite également une connexion à Adobe Analytics au sein de votre entreprise.
+* Pour partager le projet avec vos collègues, accédez à **[!UICONTROL Partager > Partager le projet]**. Les destinataires sont d’autres utilisateurs de votre entreprise qui possèdent des comptes Adobe Analytics.
+* Pour partager votre projet via un lien, accédez à **[!UICONTROL Partager > Obtenir le lien du projet]**. Notez que cela nécessite également une connexion à Adobe Analytics au sein de votre entreprise.
 
 ### Exportation de projets
 
-Outre le format PDF, [!UICONTROL Analysis Workspace] offre une exportation CSV.
+Outre le format PDF, [!UICONTROL Analysis Workspace] propose une exportation au format CSV.
 
 1. Cliquez sur *[!UICONTROL Partager]* > *[!UICONTROL Envoyer le fichier maintenant]*. Une fenêtre modale s’ouvre.
 2. Précisez le type de fichier et les destinataires.
@@ -62,7 +62,7 @@ Les rapports personnalisés sont l’un des rares domaines de Google Analytics q
 
 Pour créer une mesure calculée :
 
-1. Cliquez sur l’icône **+**[!UICONTROL  près de la liste des mesures pour ouvrir le créateur de mesures calculées].
+1. Cliquez sur l’icône **+** près de la liste des mesures pour ouvrir le [!UICONTROL créateur de mesures calculées].
 2. Attribuez un nom à votre mesure calculée et spécifiez un format.
 3. Faites glisser des composants de mesure vers la zone de définition et utilisez les listes déroulantes entre chaque composant pour désigner un opérateur.
 4. Une fois que la mesure calculée contient la formule souhaitée, cliquez sur Enregistrer pour revenir à votre espace de travail.
