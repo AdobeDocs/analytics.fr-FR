@@ -1,14 +1,14 @@
 ---
 title: Utilisation des données XDM avec Analytics
-description: 'Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Utilisation des données Adobe Experience Platform Edge avec Analytics
 
@@ -25,11 +25,11 @@ La mise en correspondance automatique repose sur un [schéma](https://docs.adobe
 
 ## Mise en correspondance manuelle
 
-[](xdm-manual.md)La mise en correspondance manuelle des données XDM avec Analytics repose sur les [variables de données contextuelles Analytics](../vars/page-vars/contextdata.md). Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des [règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour appliquer ces données à des suites de rapports spécifiées.
+[La mise en correspondance manuelle des données XDM avec Analytics](xdm-manual.md) repose sur les [variables de données contextuelles Analytics](../vars/page-vars/contextdata.md). Ces variables sont placées dans des objets JSON correspondant aux schémas applicables. En règle générale, votre équipe de développement ajoute des données contextuelles lors de l’implémentation, puis les administrateurs définissent des [règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour appliquer ces données à des suites de rapports spécifiées.
 
 ## Configuration
 
-Pour configurer Analytics pour recevoir des données XDM :
+Pour configurer Analytics pour recevoir des données XDM :
 
 1. Installez et [configurez](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/fundamentals/configuring-the-sdk.html) le [SDK Web d’Adobe Experience Platform](https://docs.adobe.com/content/help/fr-FR/experience-platform/edge/fundamentals/installing-the-sdk.html).
 
