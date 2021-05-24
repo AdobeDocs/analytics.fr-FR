@@ -3,16 +3,16 @@ description: Créez des périodes personnalisées dans Analysis Workspace et enr
 keywords: Analysis Workspace
 title: Création de périodes personnalisées
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '253'
+exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
-
 
 # Création de périodes personnalisées
 
@@ -46,7 +46,7 @@ Par exemple, vous pouvez créer une plage de dates qui spécifie un créneau var
 
 ![](assets/create_date_range.png)
 
-Sélectionnez l’option *`rolling daily`*.
+Sélectionnez l’option  *`rolling daily`*.
 
 * Le paramètre Début correspondrait à *`current day minus 14 days`*.
 
