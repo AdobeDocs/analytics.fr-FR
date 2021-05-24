@@ -2,11 +2,10 @@
 title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 81%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Pour optimiser l&#39;efficacité des Canaux marketing pour l&#39;Attribution IQ et le Customer Journey Analytics, nous avons publié quelques [meilleures pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus efficace et avec qui, afin de mieux cibler vos efforts et de bénéficier d’un meilleur retour sur votre investissement en marketing. Dans Adobe Analytics, les dimensions et les mesures des canaux marketing de Workspace sont l’un des outils qui peuvent vous aider à suivre l’influence de différents canaux sur vos commandes, recettes, etc. et vous donner des informations utiles sur les canaux. Voici les dimensions et les mesures que vous pouvez utiliser en lien avec les canaux marketing :
 
@@ -58,8 +57,8 @@ Notez comment une même mesure (Commandes en ligne) génère des résultats diff
 
 ## Analyse marketing entre onglets
 
-En utilisant l’ancien Canal Première touche et le Canal Dernière touche, vous pouvez obtenir une vue utile sur les interactions canal :
+À l’aide des canaux Première touche et Dernière touche hérités, vous pouvez obtenir une vue utile des interactions des canaux :
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur l’analyse marketing par onglets croisés, consultez cette vidéo : [Utilisation de l’Analyse à onglets croisés pour explorer l’attribution de base du marketing dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
