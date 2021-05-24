@@ -1,14 +1,14 @@
 ---
 title: Domaine référent initial
 description: Le premier domaine référent sur lequel se trouvait un visiteur avant d’effectuer un clic pour accéder à votre site.
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '407'
 ht-degree: 100%
 
 ---
-
 
 # Domaine référent initial
 
