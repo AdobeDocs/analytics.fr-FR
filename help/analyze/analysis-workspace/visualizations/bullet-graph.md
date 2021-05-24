@@ -2,16 +2,16 @@
 description: Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs).
 title: Graphique à puces
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 96%
+exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '87'
+ht-degree: 100%
 
 ---
-
 
 # Graphique à puces
 
