@@ -1,16 +1,16 @@
 ---
 description: Méthode de calcul des totaux de Workspace.
 title: Totaux de Workspace
-feature: Freeform Tables
+feature: Tableaux à structure libre
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+exl-id: 883c3e44-4139-46a1-a261-e11841312465
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '516'
+ht-degree: 100%
 
 ---
-
 
 # Totaux de Workspace
 
@@ -21,7 +21,7 @@ Dans les tableaux à structure libre, une ligne de total s’affiche à chaque n
 
 ![](assets/total-row.png)
 
-## Paramètre Afficher le total {#display-total}
+## Paramètre Afficher le total  {#display-total}
 
 Sous **[!UICONTROL Paramètres de colonne]**, vous pouvez sélectionner les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]**. Si ces paramètres sont désactivés, les totaux sont supprimés du tableau. Cela peut être indiqué dans les cas où les totaux n’ont aucun intérêt, comme dans certains [scénarios de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html).
 
@@ -29,7 +29,7 @@ Sous **[!UICONTROL Paramètres de colonne]**, vous pouvez sélectionner les opti
 
 ## Paramètres Total de ligne statique  {#static-row-total}
 
-Les totaux de [ligne statique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=fr-FR) se comportent différemment et peuvent être contrôlés sous **[!UICONTROL Paramètres de la ligne]**.
+Les totaux de [ligne statique](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) se comportent différemment et peuvent être contrôlés sous **[!UICONTROL Paramètres de la ligne]**.
 
 * **[!UICONTROL Afficher la somme des lignes actuelles en tant que total]** : affiche la somme des lignes du tableau côté client, ce qui signifie que le total ne dédupliquera **pas** de mesures telles que les visites ou les visiteurs.
 * **[!UICONTROL Afficher le total général]** : indique une somme côté serveur, ce qui signifie que le total dédupliquera les mesures telles que les visites ou les visiteurs.
@@ -45,4 +45,3 @@ Les totaux de [ligne statique](https://experienceleague.adobe.com/docs/analytics
 | Lorsque des filtres de tableau personnalisés sont appliqués à un tableau à structure libre, est-ce que toutes mes mesures calculées et mon compte de mise en forme conditionnelle sont associés au filtre ? | Pas pour le moment. Le paramètre **[!UICONTROL y compris Non spécifié (Aucun)]** sera pris en compte, mais les filtres du tableau personnalisés n’auront aucun impact sur les éléments suivants :<ul><li>La plage max./min. de la colonne utilisée par la mise en forme conditionnelle s’appliquera à toutes les données.</li><li>Mesures calculées qui utilisent les types de mesures **[!UICONTROL Total général]**.</li><li>Mesures calculées avec des fonctions qui effectuent des calculs sur les lignes d’un tableau à structure libre, c’est-à-dire Somme de la colonne, Max. de la colonne, Min. de la colonne, Nombre, Moyenne, Médian, Percentile, Quartile, Nombre de lignes, Écart type, Variance, Cumulative, Moyenne cumulée, Variantes de régression, Score normalisé, Test en T, Score centré réduit, Test Z.</li></ul> |
 | Dans les mesures calculées, que signifie le type de mesure **[!UICONTROL Total général]** ? | **[!UICONTROL Total général]** continue de faire référence au **[!UICONTROL total général]** et ne reflète pas les filtres appliqués à un tableau ou au **[!UICONTROL total du tableau]**. |
 | Quel est le total affiché lorsque les données sont copiées et collées à partir d’un tableau à structure libre ou téléchargées via le format CSV ? | La ligne de total reflète uniquement le **[!UICONTROL total du tableau]** et respecte le paramètre **[!UICONTROL Afficher les totaux]** de la colonne. |
-
