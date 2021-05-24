@@ -1,14 +1,14 @@
 ---
 title: Mise en œuvre d’Analytics pour les assistants numériques
 description: Mettez en œuvre Adobe Analytics sur des assistants numériques, tels qu’Amazon Alexa ou Google Home.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre d’Analytics pour les assistants numériques
 
@@ -22,7 +22,7 @@ Cette page fournit une vue d’ensemble des meilleures façons d’utiliser Adob
 
 ## Vue d’ensemble de l’architecture de l’expérience numérique
 
-![Processus de l’assistant numérique](assets/Digital-Assitants.png)
+![Processus de lʼassistant numérique](assets/Digital-Assitants.png)
 
 À l’heure actuelle, la plupart des assistants numériques suivent la même architecture de niveau supérieur :
 
@@ -111,9 +111,9 @@ Cache-Control: no-cache
 
 Chacun des assistants numériques possède des algorithmes qui détectent les intentions et les transmettent ensuite à l’application afin qu’elle sache quoi faire. Ces intentions constituent une représentation succincte de la demande.
 
-Par exemple, si un utilisateur dit « Siri, envoie 20 $ à John pour le dîner d’hier soir avec mon application bancaire. », l’intention serait du type *sendMoney*.
+Par exemple, si un utilisateur dit « Siri, envoie 20 $ à John pour le dîner d’hier soir avec mon application bancaire. », l’intention serait du type  *sendMoney*.
 
-En envoyant chacune de ces demandes sous la forme d’une eVar, vous pourrez exécuter des rapports de cheminement sur chaque intention pour les applications conversationnelles. Assurez-vous que votre application peut également traiter les requêtes sans intention. L’Adobe recommande de transmettre &quot;Aucun mode spécifié&quot; à la variable de données contextuelles d’intention, plutôt que d’omettre la variable.
+En envoyant chacune de ces demandes sous la forme d’une eVar, vous pourrez exécuter des rapports de cheminement sur chaque intention pour les applications conversationnelles. Assurez-vous que votre application peut également traiter les requêtes sans intention. Adobe conseille de transmettre la variable « Aucun mode spécifié » à la variable de données contextuelles dʼintention, plutôt que de la supprimer.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
