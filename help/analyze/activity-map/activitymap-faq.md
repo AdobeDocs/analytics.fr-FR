@@ -5,11 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: tm+mt
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 19%
+ht-degree: 77%
 
 ---
 
@@ -17,70 +16,70 @@ ht-degree: 19%
 
 Questions fréquentes sur l’installation, la configuration et l’utilisation de fonctionnalités dans Activity Map.
 
-## Tous les clients Analytics ont-ils accès à la page d’activation de Carte d’activités des outils d’administration ?
+## Tous les clients Analytics ont-ils accès à la page dʼactivation dʼActivity Map dans les outils dʼadministration ?
 
-Les entreprises ayant un contrat pour Adobe Analytics Standard, Premium et Ultimate ont accès au Activity Map.
+Les entreprises ayant souscrit un contrat pour Adobe Analytics Standard, Premium et Ultimate ont accès à Activity Map.
 
-## Comment le Activity Map prend-il en charge les applications d’une seule page (SPA) ?
+## Comment Activity Map prend-il en charge les applications d’une seule page (SPA) ?
 
-Toutes les quelques secondes, le Activity Map analyse la page Web en recherchant des modifications. ActivityMap recherche le nouveau contenu sur la page sans avoir à charger une nouvelle page, mais ce nouveau contenu est toujours attribué au premier pageName trouvé lors du chargement de la page.
+Toutes les quelques secondes, Activity Map analyse la page web et recherche les modifications apportées à la page. ActivityMap trouve du nouveau contenu sur la page sans qu’il faille charger une nouvelle page, mais ce nouveau contenu est toujours attribué au premier pageName trouvé lors du chargement de la page.
 
-* Le Activity Map vérifie si la visibilité des liens qu’il connaît a changé. Si un changement de visibilité est détecté, la colonne Présent de la table Liens de la page pour ce lien est mise à jour avec [!UICONTROL Affichage] ou [!UICONTROL Masqué].
+* Activity Map vérifie si la visibilité des liens qu’il connaît a changé. Si une modification de visibilité est trouvée, la colonne Présent de la table Liens sur la page pour ce lien est mise à jour avec [!UICONTROL Visible] ou [!UICONTROL Masqué].
 
-* Lorsque l’interaction de l’utilisateur crée un nouveau contenu, tout nouvel élément trouvé par AppMeasurement comme un lien sera ajouté au tableau [!UICONTROL Liens de la page]. Le Activity Map envoie une nouvelle requête de données qui inclut ces nouveaux liens. Les nouveaux liens doivent apparaître dans le tableau [!UICONTROL Liens de la page] lorsque la demande de données est traitée par l’interface utilisateur.
+* Lorsque l’interaction de l’utilisateur crée du contenu, tout nouvel élément trouvé par AppMeasurement comme un lien sera ajouté à la table [!UICONTROL Liens sur la page]. Activity Map envoie une nouvelle demande de données qui inclut ces nouveaux liens. Les nouveaux liens doivent apparaître dans la table [!UICONTROL Liens sur la page] lorsque la demande de données est traitée par l’interface utilisateur.
 
 
-## Le Activity Map fournit-il des données sur les &quot;vues&quot; ?
+## Est-ce qu’Activity Map fournit des données sur les « vues » ?
 
-Non, l’Adobe ne suit pas les liens qui ont été consultés.
+Non, Adobe ne suit pas les liens qui ont été vus.
 
-## Quels navigateurs et versions le Activity Map prend-il en charge ?
+## Quels sont les navigateurs et les versions pris en charge par Activity Map ?
 
 Activity Map prend en charge la dernière version de la plupart des navigateurs modernes.
 
-## Le Activity Map augmente-t-il les appels au serveur ?
+## Activity Map augmente-t-il les appels au serveur ?
 
-Le Activity Map n&#39;envoie pas d&#39;appels serveur en lui-même. En revanche, les variables de données contextuelles du Activity Map sont incluses dans les appels de vue de page Analytics sur la page suivante.
+Activity Map nʼenvoie pas dʼappels au serveur par lui-même. En revanche, les variables de données contextuelles Activity Map sont incluses dans les appels de page vue Analytics sur la page suivante.
 
-## Pourquoi certaines incrustations d’éléments classés sont-elles manquantes ?**
+## Pourquoi les superpositions de certains éléments avec classement sont-elles manquantes ?**
 
-Certains liens avec classement, tels que les liens de sous-menu, sont masqués dans la page. Par conséquent, les incrustations de liens correspondantes ne s’affichent pas. Le classement est calculé pour tous les liens de la page, y compris les liens masqués.
+Certains liens avec classement, tels que les liens de sous-menu, sont masqués de la page. Par conséquent, les chevauchements de lien correspondants ne sʼaffichent pas. Le classement est calculé pour tous les liens de la page, y compris les liens masqués.
 
-## Comment le classement des liens est-il déterminé dans le rapport Tous les liens ?**
+## Comment le classement des liens est-il déterminé dans le rapport Tous les liens ?**
 
-* **En mode** Dégradé et Bulle : Le classement est déterminé par la colonne de mesures. Pour les liens disposant de la même valeur de mesure, le classement est déterminé selon l’ordre alphabétique des ID de lien.
-* **En mode** gagnant et perdant : Le classement est principalement déterminé par la colonne % Gain. Pour les liens avec le même gain, le classement est basé davantage sur l’ordre alphabétique de l’ID de lien.
+* **En mode dégradé et bulle** : le classement est déterminé par la colonne de mesures. Pour les liens disposant de la même valeur de mesure, le classement est déterminé selon l’ordre alphabétique des ID de lien.
+* **En mode gagnant et perdant** : le classement est principalement déterminé par la colonne de pourcentage de gain. Pour les liens disposant du même gain, le classement est déterminé selon lʼordre alphabétique des ID de lien.
 
-## Comment le Activity Map fonctionne-t-il avec les pages qui utilisent plusieurs suites de rapports ?
+## Comment Activity Map fonctionne-t-il avec les pages qui utilisent plusieurs suites de rapports ?
 
-Par défaut, le Activity Map utilise la suite de rapports associée à la première balise envoyée par la page. Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet **[!UICONTROL Paramètres d’Activity Map]** > **[!UICONTROL Autres]**.
+Par défaut, Activity Map utilise la suite de rapports associée à la première balise envoyée par la page. Vous pouvez sélectionner une suite de rapports balisée différente dans l’onglet **[!UICONTROL Paramètres d’Activity Map]** > **[!UICONTROL Autres]**.
 
-## Combien de temps le Activity Map recherche-t-il Adobe Analytics sur la page ?
+## Combien de temps Activity Map recherche-t-il Adobe Analytics sur la page ?
 
-La carte de l’Activité recherche la présence d’Adobe Analytics pendant 20 secondes au maximum après un événement de fin de page.
+Activity Map recherche la présence dʼAdobe Analytics pendant 20 secondes au maximum après un événement de fin de page.
 
-## Comment le Activity Map gère-t-il le contenu dynamique ?
+## Comment Activity Map gère-t-il le contenu dynamique ?
 
-Le Activity Map vérifie toutes les 2 secondes si l’état de la page Web a changé, par exemple :
+Activity Map vérifie toutes les 2 secondes si des changements ont été apportés à lʼétat de la page web, par exemple :
 
 * le contenu HTML devenu visible ;
 * le contenu HTML masqué ;
 * le nouveau contenu HTML injecté.
 
-Si le contenu est masqué ou visible, l’application modifie automatiquement l’état des liens affectés (et donc des superpositions) de masqué à visible ou de visible à masqué. Si du nouveau contenu est injecté, l’application récupère les liens associés, extrait les données d’analyse correspondantes et ajoute des superpositions pour ces liens.
+Si le contenu est masqué ou visible, l’application modifie automatiquement l’état des liens affectés (et donc des superpositions) de masqué à visible ou de visible à masqué. Si du nouveau contenu a été injecté, lʼapplication récupère les liens associés et les données dʼanalyse correspondantes et ajoute des superpositions pour ces liens.
 
-## Sur quelle mesure le rapport Flux de page repose-t-il ?
+## Sur quelle mesure se base le rapport Flux de page ?
 
-Toutes les données affichées sont basées sur les vues de page.
+Toutes les données affichées se basent sur les pages vues.
 
-## Puis-je exporter des variables de données contextuelles Activity Map par le biais de flux de données ?
+## Puis-je exporter des variables de données contextuelles Activity Map par le biais de flux de données ?
 
-Les variables de données contextuelles de mappage d’Activités ne sont pas disponibles dans les flux de données.
+Les variables de données contextuelles Activity Map ne sont pas disponibles dans les flux de données.
 
-## Les segments fonctionnent-ils en mode réel ?
+## Les segments fonctionnent-ils en mode réel ?
 
-Non, les segments ne fonctionnent pas en mode réel. Cette fonctionnalité est équivalente à celle du rapports en temps réel dans les rapports et analyses, qui ne prend pas en charge la segmentation.
+Non, les segments ne fonctionnent pas en mode réel. Cette fonctionnalité est similaire à celle du compte rendu des performances en temps réel dans Reports &amp; Analytics, qui ne prend pas en charge la segmentation.
 
-## Le Activity Map est-il compatible avec les suites de rapports virtuelles ?
+## Activity Map est-il compatible avec les suites de rapports virtuelles ?
 
-Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le mode réel d’Activity Map n’est pas compatible avec celles-ci.
+Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le mode réel d’Activity Map n’est pas compatible avec celles-ci.
