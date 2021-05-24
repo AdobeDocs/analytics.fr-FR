@@ -2,14 +2,14 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Alertes intelligentes
 
@@ -35,7 +35,7 @@ Vous pouvez accéder au Générateur d’alertes de quatre façons :
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
    `ctrl (or cmd) + shift + a`
-* En sélectionnant directement le Générateur d’alertes : **[!UICONTROL Espace de travail]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]** .
+* En sélectionnant directement le Générateur d’alertes : **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]** .
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
 
    ![](assets/create-alert-from-selection.png)
@@ -44,9 +44,9 @@ Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
    ![](assets/add-alert.png)
 
-## FAQ : Calcul et déclenchement des alertes {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## FAQ : Calcul et déclenchement des alertes  {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
+Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie,  [différents modèles](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -76,8 +76,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Il utilise une période de formation de 30 jours fixe, un intervalle de 95 % fixe. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Le Report Builder utilise une période de formation fixe de 30 jours, avec un intervalle fixe de 95 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
