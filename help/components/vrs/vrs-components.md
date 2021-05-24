@@ -2,14 +2,14 @@
 description: Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 title: Traitement des composants des suites de rapports virtuelles
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # Traitement des composants des suites de rapports virtuelles
 
@@ -33,7 +33,7 @@ Pour activer le traitement des composants,
    >Si la personnalisation des composants est activée, la suite de rapports virtuelle est **accessible uniquement dans Analysis Workspace** et ne l’est pas dans :
    >
    >* [!UICONTROL Reports &amp; Analytics]
-   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* API de création de rapports dans Analytics
@@ -64,12 +64,12 @@ Dans Analysis Workspace, cliquez sur l’icône d’information pour tout compo
 
 ![](assets/vrs-aw-renamed.png)
 
-## Groupes de composants {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Groupes de composants  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Utilisez les groupes de composants pour ajouter des composants en vrac à la suite de rapports virtuelle. Par exemple, si vous souhaitez importer un jeu de composants par défaut spécifique à l’analyse des applications mobiles, sélectionnez le groupe d’applications mobiles. Un jeu correspondant de dimensions et de mesures (déjà renommées) est automatiquement ajouté à la liste Inclus de la suite de rapports virtuelle.
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportement de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportement de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/curate.html).
