@@ -1,24 +1,24 @@
 ---
-description: Présentation du processus Advertising Analytics.
+description: Présentation du workflow Advertising Analytics.
 title: Workflow - Aperçu
-translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
-workflow-type: tm+mt
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-
 # Workflow - Aperçu
 
-![](assets/step1_icon.png) Faites correspondre toute suite de rapports Adobe Analytics dans laquelle vous souhaitez vue les données de recherche Google/Bing à votre organisation Experience Cloud.
+![](assets/step1_icon.png) Mappez toutes les suites de rapports Adobe Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing à votre organisation Experience Cloud.
 
 Voir [Mappage de suites de rapports à une organisation](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activation du reporting Advertising Analytics par suite de rapports](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Active le rapports [!UICONTROL Advertising Analytics] pour les suites de rapports activées pour Experience Cloud.
+Active le compte rendu des performances [!UICONTROL Advertising Analytics] pour les suites de rapports activées avec Experience Cloud.
 
 ![](assets/step3_icon.png) [Configuration d’un compte Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Remarque : les données de recherche sont extraites du moteur de recherche vers
 
 La création de rapports est disponible dans :
 
-* Analysis Workspace : [!UICONTROL Modèle Performance de recherche payante]
+* Analysis Workspace : modèle de [!UICONTROL performance de référencement payant]
 * Reports &amp; Analytics
 * Report Builder
 * API de création de rapports dans Analytics
