@@ -4,14 +4,14 @@ title: Résolution des problèmes et bonnes pratiques pour le Report Builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 80%
+exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1401'
+ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes et bonnes pratiques pour le Report Builder
 
@@ -42,13 +42,13 @@ Le Report Builder requiert une authentification pour créer des requêtes de don
 
 ## Recommandations pour optimiser les requêtes {#section_33EF919255BF46CD97105D8ACB43573F}
 
-Les facteurs suivants peuvent accroître la complexité des requêtes et ralentir le traitement.
+Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut ralentir le processus de traitement.
 
-* **Facteurs pouvant ralentir les diffusions** : Trop de signets, de tableaux de bord et de classeurs de Report Builder ont été planifiés en quelques heures. Considérons également que trop de classeurs de Report Builder ont été planifiés à peu près à la même heure. Lorsque cela se produit, la file d’attente de l’API de rapports comporte des travaux en souffrance.
-* **Facteurs pouvant ralentir l’exécution des classeurs**: Augmentation significative des classifications ou augmentation de la plage de dates de la demande au fil du temps.
-* **Causes de l’échec** de la diffusion du classeur : Formules Excel complexes dans un classeur, en particulier celles qui impliquent la date et l’heure.
-* **Cellules renvoyant des 0 (aucune valeur)** : Une apostrophe ou un guillemet simple dans le nom de la feuille Excel ne renvoie aucune valeur au créateur de rapports. (Il s’agit d’une limitation de Microsoft Excel.)
-* **Performances des requêtes**: La vitesse de traitement peut être affectée par les paramètres suivants :
+* **Facteurs pouvant ralentir les diffusions** : un trop grand nombre de signets, de tableaux de bord et de classeurs Report Builder planifiés en quelques heures. Prenez également en compte le fait que trop de classeurs Report Builder ont été planifiés à peu près à la même heure. Lorsque cela se produit, la file d’attente de l’API de rapports comporte des travaux en souffrance.
+* **Facteurs pouvant ralentir l’exécution des classeurs**: augmentation significative des classifications ou de la période de la requête au fil du temps.
+* **Causes des échecs de remise de classeurs** : des formules Excel complexes dans un classeur, en particulier celles qui impliquent la date et l’heure.
+* **Cellules renvoyant des zéros (aucune valeur)** : si le nom de la feuille Excel comporte une apostrophe ou un guillemet simple, Report Builder ne renvoie aucune valeur. (Il s’agit d’une limitation de Microsoft Excel.)
+* **Performances des requêtes**: les paramètres ci-dessous peuvent avoir un impact sur la vitesse de traitement.
 
    | Paramètre | Plus rapide | Plus lent |
    |--- |--- |--- |
@@ -81,10 +81,10 @@ Liste des messages d’erreur qui peuvent s’afficher lors de l’utilisation d
 * **La plage sélectionnée n’est pas valide. Sélectionnez une autre plage.**: Cette erreur s’affiche si vous sélectionnez, dans une feuille de calcul, une cellule à laquelle est déjà associée une requête. Supprimez la requête associée aux cellules ou sélectionnez une autre plage de cellules à mettre en correspondance. Si vous souhaitez supprimer les cellules, il est important de localiser celles qui contiennent des requêtes et de supprimer les requêtes avant de supprimer les cellules (suppression des lignes ou colonnes).
 * **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.**: Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Report Builder. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
 * **La plage sélectionnée chevauche une autre plage de la requête. Veuillez modifier votre sélection.**: Cette erreur s’affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
-* **Réparations au classeur (enregistrements supprimés : Formule à partir de /xl/calcChain.xml** : Il arrive que les formules d’un classeur soient endommagées lors de l’enregistrement ou du transfert. Lorsque le fichier est ouvert, Excel tente d&#39;exécuter ces formules et échoue. Vous pouvez résoudre ce problème en supprimant `calcChain.xml` de la feuille de calcul, forçant Excel à actualiser ses calculs de formule.
-   1. Renommez l’extension de fichier du classeur de `.xlsx` en `.zip`.
+* **Réparations du classeur (enregistrements supprimés : formule à partir de /xl/calcChain.xml)** : il arrive que les formules d’un classeur soient endommagées lors de l’enregistrement ou du transfert. Lors de l’ouverture du fichier, Excel tente d’exécuter ces formules et échoue. Vous pouvez résoudre ce problème en supprimant `calcChain.xml` de la feuille de calcul, ce qui force Excel à actualiser ses calculs de formule.
+   1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
    2. Décompressez le contenu et ouvrez le dossier `/xl/`.
    3. Supprimer `calcChain.xml`.
-   4. Récompressez le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
+   4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
    5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
-* **Les cellules Excel associées aux filtres d’entrée ou à la plage de sortie peuvent avoir été supprimées** : Report Builder utilise des noms Excel pour joindre des requêtes de données aux cellules. Si vous supprimez des noms Excel dans le Gestionnaire de noms, cette erreur s&#39;affiche. Les requêtes ne peuvent pas être récupérées si des noms Excel sont supprimés. Si le classeur a été planifié, vous pouvez télécharger une copie à partir du Gestionnaire de planification ou ouvrir des copies du classeur précédemment livrées.
+* **Les cellules Excel associées aux filtres d’entrée ou une plage de sortie peuvent avoir été supprimées** : Report Builder utilise des noms Excel pour joindre des requêtes de données aux cellules. Si vous supprimez des noms Excel dans le Gestionnaire de noms, cette erreur apparaît. Les requêtes ne peuvent pas être récupérées si des noms Excel sont supprimés. Si le classeur a été planifié, vous pouvez télécharger une copie à partir du Gestionnaire de planification ou ouvrir des copies du classeur précédemment diffusées.
