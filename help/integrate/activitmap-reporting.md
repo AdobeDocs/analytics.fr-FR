@@ -4,7 +4,6 @@ title: Compte rendu des performances d’Activity Map
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '162'
@@ -25,7 +24,7 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
 
    | Rapport | Description |
    |---|---|
-   | Activity Map Page | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
+   | Activity Map  Page | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
    | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
    | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
    | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
