@@ -2,14 +2,14 @@
 description: Dépannage et correction des problèmes liés aux segments.
 title: Dépannage de la segmentation
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
+exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '227'
 ht-degree: 100%
 
 ---
-
 
 # Dépannage de la segmentation
 
@@ -20,7 +20,7 @@ Cette erreur survient lorsque vous essayez d’enregistrer un segment dans le do
 * enregistrez le segment dans un dossier différent ;
 * supprimez ou modifiez les portions incompatibles du segment.
 
-## Pourquoi mon segment ne renvoie-t-il aucune donnée ? {#section_999749CBBE984142AEA49A6E68E6730A}
+## Pourquoi mon segment ne renvoie-t-il aucune donnée ?  {#section_999749CBBE984142AEA49A6E68E6730A}
 
 Raisons possibles :
 
@@ -28,7 +28,7 @@ Raisons possibles :
 * Le rapport ne prend pas en charge la segmentation.
 * Aucune donnée ne correspond aux critères de segmentation.
 
-## Pourquoi ne puis-je pas voir un segment que j’ai créé dans le Gestionnaire de segments ? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## Pourquoi ne puis-je pas voir un segment que j’ai créé dans le Gestionnaire de segments ?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Raisons possibles :
 
@@ -40,11 +40,10 @@ Raisons possibles :
 * Le segment n’a pas été enregistré.
 * L’adresse IP est peut-être bloquée du côté de l’utilisateur.
 
-## Pourquoi les données de page affichées après avoir appliqué un segment semblent-elles incorrectes ? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## Pourquoi les données de page affichées après avoir appliqué un segment semblent-elles incorrectes ?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Raisons possibles :
 
 * Les règles/opérateurs sont incorrects pour le résultat requis.
 * Application incorrecte des conteneurs sur le segment.
 * Les variables de trafic utilisées pour la segmentation ne sont pas configurées correctement ou ont expiré.
-
