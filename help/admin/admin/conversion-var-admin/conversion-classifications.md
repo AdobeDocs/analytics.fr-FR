@@ -1,14 +1,14 @@
 ---
 description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de recherche payante dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 title: Classifications des conversions
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: b4855000-adf3-4e3b-af36-f4803383126d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Classifications des conversions
 
@@ -16,11 +16,11 @@ Les classifications permettent de catégoriser des valeurs dans des groupes et d
 
 Les classifications de conversion vous permettent de classer des variables de conversion. Une fois classé, tout rapport pouvant être généré en utilisant les données clés peut également l’être à l’aide des propriétés de données associées.
 
-Après avoir activé les classifications, utilisez [l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
+Après avoir activé les classifications, utilisez  [l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
 
 >[!WARNING]
 >
->Le changement de nom d’une classification peut provoquer des problèmes avec les règles existantes créées dans le [créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md). Si vous renommez une classification qui comporte des règles de classification, veillez à corriger chaque règle afin qu’elle pointe vers la classification renommée.
+>La modification d’un nom de classification peut générer des problèmes relatifs aux règles existantes créées dans le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md). Si vous renommez une classification qui comporte des règles de classification, veillez à corriger chaque règle afin qu’elle pointe vers la classification renommée.
 
 ## Descriptions des classifications de conversion
 
