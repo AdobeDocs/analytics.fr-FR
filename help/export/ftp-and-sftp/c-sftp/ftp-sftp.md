@@ -3,14 +3,14 @@ description: SFTP est un protocole sécurisé de transfert des données, grâce 
 keywords: ftp;sftp
 title: Protocole de transfert de fichiers sécurisé - Aperçu
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: tm+mt
+exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Protocole de transfert de fichiers sécurisé - Aperçu
 
@@ -35,4 +35,3 @@ Ceci signifie que le fichier est envoyé à l’un des serveurs Adobe par l’in
 * [Connexion à Adobe via SFTP sans mot de passe.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 * [Connexion à un compte FTP Adobe par SFTP.](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
 * Vous pouvez transmettre des rapports vers des flux de données/rapports et analyses/analyses ad hoc de type FTP Adobe, puis les extraire. Adobe ne peut pas livrer ces rapports au serveur SFTP que vous avez configuré.
-
