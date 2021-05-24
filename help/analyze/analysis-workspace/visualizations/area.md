@@ -2,16 +2,16 @@
 description: Cette visualisation Workspace est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne.
 title: Surface et aires empilées
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 97%
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
-
 
 # Surface et aires empilées
 
@@ -30,4 +30,3 @@ Cette visualisation est semblable à un diagramme de surface, mais chaque série
 Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées offre un aperçu « 100 % empilé » du diagramme.
 
 ![](assets/areastacked100.png)
-
