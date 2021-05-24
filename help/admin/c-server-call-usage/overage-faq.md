@@ -2,14 +2,14 @@
 description: FAQ sur l’utilisation des appels au serveur Adobe Analytics
 title: FAQ sur l’utilisation de l’appel au serveur
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: a660542c-9389-4608-bc25-49831c21ceb7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
 ---
-
 
 # FAQ sur l’utilisation de l’appel au serveur
 
