@@ -1,16 +1,16 @@
 ---
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
-feature: Analytics Dashboards
+feature: Tableaux de bord Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 87%
+exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '2401'
+ht-degree: 100%
 
 ---
-
 
 # Guide du curateur pour les tableaux de bord Adobe Analytics
 
@@ -62,7 +62,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vier
 
 **Créer un nouveau projet**
 
-1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
+1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Workspace]**.
 2. Cliquez sur le bouton **[!UICONTROL Créer un nouveau projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Fiche d’évaluation mobile vierge]**.
 3. Cliquez sur le bouton **[!UICONTROL Créer]**.
 
@@ -76,7 +76,7 @@ Depuis l’écran **[!UICONTROL Projets]**, dans l’onglet **[!UICONTROL Compos
 
 **OU**
 
-Dans le menu **[!UICONTROL Outils]**, sélectionnez **[!UICONTROL tableaux de bord Analytics (application mobile)]**. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
+Dans le menu **[!UICONTROL Outils]**, sélectionnez **[!UICONTROL Tableaux de bord Analytics (application mobile)]**. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
 
 ### Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
 
@@ -112,31 +112,31 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
    ![Création de segments pour le filtre](assets/segment_ui.png)
 
-5. De même, pour supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur la carte de performance en dehors des mosaïques, puis supprimez-la en cliquant sur le **x** qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment **Premières visites** :
+5. De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
 
    ![Remove_components](assets/new_remove.png)
 
-6. Ajoutez et supprimez des combinaisons de plages de dates qui peuvent être sélectionnées dans votre carte de performance en sélectionnant la liste déroulante des plages de dates.
+6. Ajoutez et supprimez des combinaisons de périodes pouvant être sélectionnées dans votre carte de performance en cliquant sur le menu déroulant des périodes.
 
-   ![Nouvelle carte de score](assets/new_score_card.png)
+   ![Nouvelle carte de performance](assets/new_score_card.png)
 
-   Chaque nouvelle carte de performance début avec 6 combinaisons de plages de dates centrées sur les données d’aujourd’hui et d’hier. Vous pouvez supprimer des plages de dates inutiles en cliquant sur le x ou modifier chaque combinaison de plages de dates en cliquant sur le crayon.
+   Chaque nouvelle carte de performance démarre avec 6 combinaisons de périodes centrées sur les données du jour et de la veille. Vous pouvez supprimer les périodes inutiles en cliquant sur le x. Vous pouvez également modifier chaque combinaison de périodes en cliquant sur le crayon.
 
-   ![Nouvelle carte de score2](assets/new_score_card2.png)
+   ![Nouvelle carte de performance 2](assets/new_score_card2.png)
 
-   Pour créer ou modifier une date Principale, utilisez la liste déroulante pour sélectionner une plage de dates disponible ou faites glisser et déposez un composant de date du rail de droite dans la zone de dépôt.
+   Pour créer ou modifier une date principale, utilisez la liste déroulante pour sélectionner une période disponible ou faites glisser un composant de date depuis le rail de droite et déposez-le dans la zone de dépôt.
 
-   ![Nouvelle carte de score3](assets/new_score_card3.png)
+   ![Nouvelle carte de performance 3](assets/new_score_card3.png)
 
-   Pour créer une date de comparaison, vous pouvez choisir parmi des préréglages pratiques pour les comparaisons d’heure courantes dans le menu déroulant. Vous pouvez également faire glisser et déposer un composant de date à partir du rail de droite.
+   Pour créer une date de comparaison, vous pouvez choisir parmi des paramètres prédéfinis utiles aux comparaisons d’heures fréquentes dans le menu déroulant. Vous pouvez également glisser-déposer un composant de date à partir du rail de droite.
 
-   ![Nouvelle carte de score4](assets/new_score_card4.png)
+   ![Nouvelle carte de performance 4](assets/new_score_card4.png)
 
-   Si la période souhaitée n&#39;a pas encore été créée, vous pouvez en créer une nouvelle en cliquant sur l&#39;icône de calendrier.
+   Si la période souhaitée n’a pas encore été créée, vous pouvez en créer une en cliquant sur l’icône de calendrier.
 
-   ![Nouvelle carte de score4](assets/new_score_card5.png)
+   ![Nouvelle carte de performance 4](assets/new_score_card5.png)
 
-7. Vous accédez ainsi au créateur de plages de dates, où vous pouvez créer et enregistrer un nouveau composant de plage de dates. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
+7. Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer. Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -215,7 +215,7 @@ Pour aider les utilisateurs en charge de l’exécution :
    * Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Analytics et que la Fiche d’évaluation a bien été partagée.
 
 
-3. Expliquez à l’utilisateur exécutif comment les mosaïques apparaissent dans les cartes de performance que vous partagez (la première carte de performance ci-dessous est définie en mode noir ; voir **[!UICONTROL Préférences]** ci-dessous si vous pensez que l’utilisateur exécutif préfère cette option de visualisation) :
+3. Expliquez à l’utilisateur en charge de l’exécution la façon dont les mosaïques apparaissent dans les cartes de performance que vous partagez (la première carte de performance ci-dessous est configurée en mode sombre, consultez les **[!UICONTROL Préférences]** ci-dessous si vous pensez que l’utilisateur en charge de l’exécution préfère cette option d’affichage) :
 
    ![Explication des mosaïques](assets/newexplain.png)
 
@@ -239,7 +239,7 @@ Pour aider les utilisateurs en charge de l’exécution :
 
    * Un tableau est inclus pour afficher les données des dimensions ajoutées à la mosaïque. Appuyez sur la flèche vers le bas pour sélectionner les dimensions. Si aucune dimension n’a été ajoutée à la mosaïque, le tableau affiche les données de graphique.
 
-5. Pour modifier les plages de dates de votre Scorecard, appuyez sur l’en-tête Date et sélectionnez la combinaison Principale et de plage de dates de comparaison à vue.
+5. Pour modifier les périodes de votre carte de performance, appuyez sur l’en-tête de date et sélectionnez la combinaison de période de comparaison et de période principale que vous voulez afficher.
 
    ![Modifier les dates](assets/changedate.png)
 
