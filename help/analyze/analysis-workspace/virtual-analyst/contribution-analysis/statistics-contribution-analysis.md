@@ -2,16 +2,16 @@
 description: L’analyse des contributions est un processus intensif d’apprentissage automatique, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
 title: Techniques statistiques de l’analyse des contributions
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI Tools
+feature: Outils d’IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 98%
+exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '332'
+ht-degree: 100%
 
 ---
-
 
 # Techniques statistiques de l’analyse des contributions
 
@@ -40,4 +40,3 @@ Pour y parvenir, l’analyse des contributions exécute un algorithme en deux é
    (Une formule semblable peut être obtenue pour la période 1.)
 
    Afin de calculer les résultats finaux, le score pour chaque élément de dimension est ensuite pondéré par le V de Cramer et remis à l’échelle en fonction d’un facteur compris entre 0 et 1 afin de générer le score de contribution.
-
