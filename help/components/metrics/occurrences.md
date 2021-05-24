@@ -1,14 +1,14 @@
 ---
 title: Occurrences
 description: Nombre d’accès pour lesquels une variable a été définie ou conservée.
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
 ---
-
 
 # Occurrences
 
