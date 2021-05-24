@@ -1,14 +1,14 @@
 ---
 title: pageName
 description: Nom de la page de votre site.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
-
 
 # pageName
 
@@ -18,7 +18,7 @@ Si cette variable n’est pas définie sur un appel de suivi de page donné, la 
 
 >[!NOTE]
 >
->Les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’image [de suivi de liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez que cette dimension apparaisse dans les accès de suivi de liens, pensez à copier cette dimension dans un [eVar](evar.md).
+>Les serveurs de collecte de données Adobe éliminent cette dimension de toutes les demandes dʼimage de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez que cette dimension apparaisse dans les accès de suivi des liens, pensez à copier cette dimension dans une [eVar](evar.md).
 
 ## Nom de page dans Adobe Experience Platform Launch
 
@@ -45,7 +45,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
+Si vous utilisez la `digitalData` [couche de données](../../prepare/data-layer.md) :
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;
