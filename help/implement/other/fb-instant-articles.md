@@ -1,14 +1,14 @@
 ---
 title: Mise en œuvre avec des Instant Articles de Facebook
 description: Mettez en œuvre Adobe Analytics sur les pages Instant Article de Facebook.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # Mise en œuvre avec des Instant Articles de Facebook
 
@@ -88,7 +88,7 @@ L’exemple suivant illustre plusieurs variables personnalisées incluses dans u
 
 >[!NOTE]
 >
->La dimension Référent n’est pas automatiquement suivie en raison de la nature des iframes. Veillez à inclure cette dimension dans votre chaîne de requête si vous souhaitez en effectuer le suivi.
+>La dimension Référent n’est pas automatiquement suivie en raison de la nature des iFrames. Veillez à inclure cette dimension dans votre chaîne de requête si vous souhaitez en effectuer le suivi.
 
 ## Instant Articles et confidentialité de Facebook
 
