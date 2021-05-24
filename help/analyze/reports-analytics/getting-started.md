@@ -1,14 +1,13 @@
 ---
-description: Avant d’utiliser Reports and Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
-title: Prise en main de Reports and Analytics
-feature: Concepts de base des rapports et analyses
+description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+title: Prise en main de Reports & Analytics
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +43,7 @@ Configuration requise du navigateur et du système pour se connecter à l’inte
 * Les cookies et JavaScript doivent être activés.
 * Résolution d’écran 1024 x 768 avec codage des couleurs 16 bits (ou supérieure).
 
-## Connexion à Reports and Analytics
+## Connexion à Reports &amp; Analytics
 
 Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou à l’assistance clientèle d’Adobe de configurer le compte de votre société.
 
@@ -99,7 +98,7 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 
 ## Modification de la langue de l’interface
 
-Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports and Analytics dans la langue de votre choix.
+Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
 
 1. Connectez-vous à Analytics, puis sélectionnez l’onglet **[!UICONTROL Rapports]**.
 1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]**, puis sélectionnez votre langue préférée.
