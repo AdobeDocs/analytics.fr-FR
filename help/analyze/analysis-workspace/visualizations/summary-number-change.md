@@ -2,20 +2,20 @@
 description: Utilisez les visualisations Synthèse des chiffres et Synthèse des changements pour afficher des points de données importants dans un projet.
 title: Synthèse des chiffres et synthèse des changements
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
-
 # Synthèse des chiffres et synthèse des changements
 
-## Visualisation Synthèse des chiffres {#summary-number}
+## Visualisation Synthèse des chiffres  {#summary-number}
 
 Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un grand nombre d’éléments importants dans un projet. Cette visualisation fonctionne comme suit :
 
