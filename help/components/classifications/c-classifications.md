@@ -1,14 +1,14 @@
 ---
 title: Présentation des classifications
 description: Personnalisez le regroupement des éléments de dimension.
-translation-type: tm+mt
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
-
 
 # Présentation des classifications
 
@@ -34,7 +34,7 @@ Les rapports et analyses contiennent des classifications prédéfinies pour la v
 
 Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section [Structure générale d’un fichier](/help/components/classifications/importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
+Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section  [Structure générale d’un fichier](/help/components/classifications/importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
@@ -62,4 +62,3 @@ Le tableau ci-après décrit les différents types de classifications disponible
   </tr> 
  </tbody> 
 </table>
-
