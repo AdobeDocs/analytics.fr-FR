@@ -2,14 +2,14 @@
 description: Exemples de libellés relatifs à la confidentialité des données pour les variables Adobe Analytics
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '3649'
 ht-degree: 100%
 
 ---
-
 
 # Étiquettes relatives à la confidentialité des données pour les variables Analytics
 
@@ -23,7 +23,7 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
 
-## Étiquettes DULE {#section_B2E78130957647338495EF37DE21D6BC}
+## Étiquettes DULE  {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
   <tr> 
    <td colname="col1"> <p>Classifications </p> </td> 
    <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-PÉRIPHÉRIQUE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -290,7 +290,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
   <tr> 
    <td colname="col1"> <p>La plupart des autres variables </p> <p><i>(Voir le tableau ci-dessous pour les exceptions)</i> </p> </td> 
    <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-PÉRIPHÉRIQUE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
+   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -330,7 +330,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map Page </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map  Page </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre mise en œuvre ne collecte pas de données directement ou indirectement identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identité ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
@@ -436,8 +436,8 @@ Cette section vise à clarifier les informations concernant les variables Analyt
    <td colname="col2"> <p> Spécifie le nom de la suite de rapports Analytics contenant les données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID visiteur </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
+   <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
+   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID AMO </p> </td> 
