@@ -2,10 +2,10 @@
 title: Autorisations du profil de produit pour les outils Analytics
 description: Utilisez les éléments d’autorisation liés aux outils Analytics pour accorder l’accès aux fonctionnalités d’Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 72%
 
 ---
 
@@ -21,16 +21,10 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Journaux | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | Logs – Web Services | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
 | Gestion du trafic | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
-| Gestion des autorisations | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Tous les administrateurs > Gestion des utilisateurs. |
-| Autorisations (lecture) – Services web | N’est plus utilisé. Permet à l’utilisateur d’afficher les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
-| Autorisations (écriture) - Services Web | N’est plus utilisé. Permet à l’utilisateur de modifier les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
 | Sécurité | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
 | Support technique | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
 | Services web | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
-| Authentification unique | N’est plus utilisé. Accorde l’accès au service d’authentification unique obsolète. |
 | Actions en attente | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
-| Alliance de marques | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Alliance de marques. |
-| Préférences | Inutilisé. |
 | Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Utilisateurs sous licence Excel | Inutilisé. |
 | Activity Map | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
