@@ -1,14 +1,14 @@
 ---
 title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
-
 
 # pageURL
 
@@ -16,7 +16,7 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 
 >[!NOTE]
 >
->Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. De plus, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’image [de suivi de liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez utiliser l’URL de page en tant que dimension en Analysis Workspace ou que cette dimension soit utilisée dans les accès de suivi de liens, pensez à transmettre la variable `pageURL` dans un [eVar](evar.md) pour chaque accès.
+>Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. De plus, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’images de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez utiliser l’URL de la page en tant que dimension dans Analysis Workspace, ou que cette dimension soit utilisée dans les accès de suivi de liens, pensez à transmettre la variable `pageURL` dans une [eVar](evar.md) à chaque accès.
 
 ## URL de page dans Adobe Experience Platform Launch
 
@@ -46,7 +46,7 @@ Si vous souhaitez utiliser l’URL de page comme dimension dans les rapports, pe
 s.eVar1 = window.location.hostname + window.location.pathname;
 ```
 
-Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
+Si vous utilisez la `digitalData` [couche de données](../../prepare/data-layer.md) :
 
 ```js
 s.pageURL = digitalData.page.pageInfo.destinationURL;
