@@ -2,7 +2,6 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
@@ -102,6 +101,6 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 
 ## Exception : Adobe Campaign Classic
 
-L’exception ONE à la date du 1er août 2021 est l’intégration Adobe Campaign Classic. Cette intégration sera officiellement abandonnée le 1er mars 2022.
+L’exception ONE à la date du 1er août 2021 est l’intégration de Adobe Campaign Classic. Cette intégration sera officiellement abandonnée le 1er mars 2022.
 
-Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur des connecteurs de données avec toutes les autres intégrations ; cependant, les intégrations Campaign existantes continueront de collecter et de transmettre des données à Adobe Analytics jusqu&#39;au 1er mars 2022. Le 1er mars 2022, l&#39;intégration cessera de collecter et de transmettre des données à Adobe Analytics. Adobe Campaign est en train de construire une nouvelle intégration sur Adobe Exchange pour remplacer l’intégration des connecteurs de données actuelle. Adobe Campaign prévoit d’achever cette nouvelle intégration à temps pour permettre aux clients de migrer vers la nouvelle intégration avant la date d’abandon de mars 2022.
+Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur des Data Connectors avec toutes les autres intégrations ; cependant, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 1er mars 2022. Le 1er mars 2022, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics. Adobe Campaign est en train de créer une nouvelle intégration sur Adobe Exchange pour remplacer l’intégration des Data Connectors actuelle. Adobe Campaign prévoit de terminer cette nouvelle intégration à temps pour permettre aux clients de migrer vers la nouvelle intégration avant la date d’obsolescence de mars 2022.
