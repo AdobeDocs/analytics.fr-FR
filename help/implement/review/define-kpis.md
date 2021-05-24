@@ -1,43 +1,43 @@
 ---
 title: Définition des 5 principaux indicateurs clés de performance
-description: Assurez-vous que vos indicateurs de performances clés, ainsi que les mesures et dimensions associées, correspondent étroitement aux besoins de votre entreprise.
-translation-type: tm+mt
-source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
-workflow-type: tm+mt
+description: Assurez-vous que vos indicateurs clés de performance, ainsi que les mesures et dimensions associées, correspondent étroitement aux besoins de votre entreprise.
+exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Définition des 5 principaux indicateurs clés de performance
 
-Vous ne pouvez tout simplement pas tout mesurer et votre mise en oeuvre Adobe Analytics sera la plus performante si vous définissez les priorités de mesure de ce qui est le plus important pour l’entreprise. Contactez vos dirigeants d&#39;entreprise pour définir les indicateurs de performances clés (IPC) qui ont le plus d&#39;impact sur votre activité. Ensuite, concentrez vos efforts sur les mesures et les variables qui prennent en charge ces IPC.
+C’est simple, vous ne pouvez pas tout mesurer. En outre, vous obtiendrez de meilleures performances de la part de votre implémentation Adobe Analytics en définissant des priorités concernant les mesures, afin de privilégier ce qui est le plus important pour l’entreprise. Contactez les dirigeants de votre entreprise pour définir les indicateurs clés de performance (KPI) qui ont le plus d’impact sur votre activité. Ensuite, concentrez vos efforts sur les mesures et les variables qui prennent en charge ces KPI.
 
-## 1. Comprendre vos objectifs commerciaux
+## 1. Familiarisez-vous avec les objectifs de votre entreprise
 
-Début en comprenant les objectifs commerciaux, vous pouvez ainsi choisir les 5 IPC les plus importants pour l&#39;entreprise. Ces indicateurs de performance clés peuvent être des mesures telles que les recettes, des mesures calculées telles que les recettes par visite et des variables. NE copiez PAS les indicateurs de performance clés aléatoires d&#39;autres sociétés ou normes du secteur ; ils ne correspondent probablement pas à VOS objectifs commerciaux.
+Commencez par vous familiariser avec les objectifs de votre entreprise afin de choisir les 5 KPI les plus importants pour votre activité. Ces KPI peuvent être des mesures comme le chiffre d’affaires ou des mesures calculées comme les revenus par visite. Les mesures peuvent également comporter des variables. NE copiez PAS de KPI aléatoires provenant d’autres sociétés ou normes du secteur. En effet, il est peu probable que ceux-ci correspondent aux objectifs de VOTRE entreprise.
 
-## 2. Poser la question cruciale
+## 2. Posez-vous une question cruciale
 
-Demandez-vous : Si mon PDG était coincé sur une île et que vous ne pouviez lui dire que 5 choses sur la santé de l&#39;entreprise, qu&#39;est-ce que ce serait ? Si vous lui disiez que le temps moyen passé sur une page était de 1:30, cela ne l&#39;aiderait pas du tout. Cependant, si vous lui avez dit que votre revenu moyen par visite était de 2,00 $ et que vous aviez 2 millions de visites, cela lui donnera une vraie indication du succès de l&#39;entreprise.
+Posez-vous la question suivante : si ma PDG était coincée sur une île déserte et que je ne pouvais lui communiquer que 5 informations concernant la santé de l’entreprise, qu’est-ce que je lui dirais ? Lui dire que la durée moyenne de visite d’une page est d’1 minute 30 ne lui serait d’aucune aide. Cependant, lui dire que les recettes moyennes par visite sont de 2 $ et que vous avez eu 2 millions de visites lui donnera une véritable indication du succès de l’entreprise.
 
-## 3. Rappelez-vous quels sont les IPC et ce qu&#39;ils ne sont pas.
+## 3. Rappelez-vous ce que sont les KPI, et ce qu’ils ne sont pas
 
 ![](assets/kpis.png)
 
-## 4. Définissez vos IPC
+## 4. Définissez vos KPI
 
-Renseignez votre propre graphique, comme celui-ci :
+Renseignez votre propre graphique, comme celui-ci :
 
 | Objectif commercial | Mesures et dimensions |
 | --- | --- |
 | Augmenter les ventes grâce aux canaux numériques | Recettes par visite |
-| Sensibilisation à la marque | Visiteurs |
+| Augmenter la notoriété de la marque | Visiteurs |
 | Favoriser des relations client plus étroites et durables | Connexions, clics |
-| Conversion du site | Clics DEC / Nombre total de vues de page |
-| Engagement sur le site | Vues de page par visiteur unique, temps visiteur moyen sur le site |
+| Conversion du site | Clics sur les appels à l’action / Nombre total de pages vues |
+| Engagement sur le site | Pages vues par visiteur unique, temps moyen passé sur le site par visiteur |
 
-## 5. Examinez régulièrement vos IPC.
+## 5. Examinez régulièrement vos KPI
 
-Actualisez vos IPC au moins tous les 6 mois - n&#39;oubliez pas que les besoins de l&#39;entreprise changeront fréquemment !
+Actualisez vos KPI au moins tous les 6 mois. En effet, gardez en tête que les besoins de l’entreprise changeront fréquemment !
