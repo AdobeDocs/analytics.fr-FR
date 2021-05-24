@@ -2,14 +2,14 @@
 description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
+exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
 ---
-
 
 # Questions fréquentes
 
@@ -50,7 +50,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Utilisation d’Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Utilisation d’Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -129,7 +129,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Suivi automatique vs. manuel {#section_7437C4698A6D482EB7ED94A948390119}
+## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -157,4 +157,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
