@@ -3,14 +3,14 @@ description: Configurez et utilisez des comptes FTP hébergés par Adobe.
 keywords: ftp;sftp
 title: Configuration de comptes FTP - Aperçu
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Configuration de comptes FTP - Aperçu
 
