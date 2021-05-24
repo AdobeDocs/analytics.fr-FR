@@ -1,14 +1,14 @@
 ---
 title: FAQ sur l’identification des visiteurs sur plusieurs appareils
 description: Questions fréquentes sur l’identification des visiteurs sur plusieurs appareils
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: da972fee-fe6e-45b2-af01-50674989c375
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
 ---
-
 
 # FAQ sur l’identification des visiteurs sur plusieurs appareils
 
