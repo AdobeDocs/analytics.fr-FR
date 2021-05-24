@@ -1,14 +1,14 @@
 ---
 title: Durée totale en secondes
 description: Le nombre total agrégé de secondes passées sur l’élément de dimension.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
 ---
-
 
 # Durée totale en secondes
 
