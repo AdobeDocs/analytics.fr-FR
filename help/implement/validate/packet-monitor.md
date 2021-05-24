@@ -1,15 +1,15 @@
 ---
 title: Analyseurs de paquets
 description: Les analyseurs de paquets vous permettent de voir les données envoyées par votre mise en œuvre aux serveurs de collecte de données Adobe.
-keywords: renifleur de paquets, état http, 200, 302, charles
-translation-type: tm+mt
-source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
-workflow-type: tm+mt
+keywords: renifleur de paquets, statut http, 200, 302, charles
+exl-id: db077293-f72c-4933-8a30-f1e1963f332e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Analyseurs de paquets
 
@@ -34,7 +34,7 @@ Même si Adobe ne fournit pas un moniteur de paquets officiel, de nombreux monit
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visionneuse de balises) | [Charles](https://www.charlesproxy.com/) |
 | [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Chrome Developer Tools](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [Tamper Data](https://addons.mozilla.org/fr-FR/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
