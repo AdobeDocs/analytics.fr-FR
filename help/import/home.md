@@ -1,14 +1,14 @@
 ---
 title: Guide de mise en œuvre d’Analytics
-description: Ce guide explique comment obtenir des données dans Analytics à l’aide des sources de données, de l’API d’insertion de données et des connecteurs de données.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: Ce guide explique comment importer des données dans Analytics par le biais de sources de données, de l’API d’insertion des données ou des Data Connectors.
+exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '128'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # Guide de mise en œuvre d’Analytics
 
