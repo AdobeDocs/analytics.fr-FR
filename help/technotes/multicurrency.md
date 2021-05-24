@@ -3,7 +3,6 @@ description: Décrit comment définir des codes de devise cible pour permettre u
 title: Prise en charge multidevise
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1358'
@@ -19,7 +18,7 @@ Les codes de devise cible sont définis à trois niveaux :
 
 ## Niveau de page
 
-Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/currencycode.translate.html) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
+Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/currencycode.html) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
 
 
 ## Niveau de la suite de rapports
