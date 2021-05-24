@@ -1,14 +1,14 @@
 ---
 title: Configuration d’un compte publicitaire dans Advertising Analytics
 description: Vous permet de créer des comptes publicitaires et de mapper plusieurs comptes à plusieurs suites de rapports.
+exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '869'
 ht-degree: 100%
 
 ---
-
 
 # Configuration d’un compte Advertising
 
@@ -49,7 +49,7 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords : utilisez vos ID de compte Google. </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing : utilisez vos ID de compte Bing et vos ID de client Bing. </li> 
-       </ul> <p>Reportez-vous à la section <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Trouver les ID de votre compte</a> pour obtenir des informations sur ces ID. </p> <p>Une fois connecté, le champ du jeton OAuth affichera <code>Retrieved</code>. </p> </td> 
+       </ul> <p>Voir <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Trouver les ID de votre compte</a> pour obtenir des informations sur ces ID. </p> <p>Une fois connecté, le champ du jeton OAuth affichera  <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -92,4 +92,3 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
 >[!NOTE]
 >
 >Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics.
-
