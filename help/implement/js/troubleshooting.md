@@ -1,14 +1,14 @@
 ---
 title: Résolution des problèmes de mise en œuvre de JavaScript
 description: Découvrez les problèmes courants et les bonnes pratiques pour résoudre les problèmes de votre mise en œuvre JavaScript.
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '694'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes de mise en œuvre de JavaScript
 
