@@ -1,14 +1,14 @@
 ---
 title: registerPostTrackCallback
 description: Permet de créer des fonctions de rappel après l’envoi d’un accès à Adobe.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # registerPostTrackCallback
 
@@ -30,7 +30,7 @@ Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Uti
 
 ## s.registerPostTrackCallback dans AppMeasurement et l’éditeur de code personnalisé de Launch
 
-La fonction `s.registerPostTrackCallback` prend une fonction comme son seul argument. La fonction imbriquée s’exécute immédiatement après l’envoi d’une demande d’image.
+La fonction `s.registerPostTrackCallback` prend une fonction comme son seul argument. La fonction imbriquée s’exécute immédiatement après l’envoi réussi d’une demande d’image.
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
