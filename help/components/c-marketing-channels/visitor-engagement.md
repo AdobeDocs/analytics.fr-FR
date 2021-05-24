@@ -2,14 +2,13 @@
 description: Découvrez comment définir l’expiration de l’engagement des visiteurs dans les canaux marketing.
 subtopic: Marketing channels
 title: Expiration du canal marketing
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Pour optimiser l&#39;efficacité des Canaux marketing pour l&#39;Attribution IQ et le Customer Journey Analytics, nous avons publié quelques [meilleures pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Découvrez comment définir l’expiration ou la période d’engagement des visiteurs pour les canaux marketing.
 
