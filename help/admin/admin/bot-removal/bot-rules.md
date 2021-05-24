@@ -2,14 +2,13 @@
 description: Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
 subtopic: Bot rules
 title: Règles de robots - Aperçu
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1358'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +31,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 ## Règles de robots IAB standard
 
-Activez les règles de robots IAB standard en cochant la case [!UICONTROL Activer les règles de filtrage de robots IAB]. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. L&#39;Adobe met à jour cette liste de l&#39;IAB tous les mois.
+Activez les règles de robots IAB standard en cochant la case [!UICONTROL Activer les règles de filtrage de robots IAB]. Cette sélection va supprimer les robots de la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) pour supprimer le trafic de robots. Adobe met à jour cette liste de lʼIAB tous les mois.
 
 ![](assets/bot-iab-checkbox.png)
 
