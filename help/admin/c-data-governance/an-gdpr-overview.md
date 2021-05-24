@@ -2,20 +2,20 @@
 description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 
 Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
 
-## Présentation d’Adobe {#section_E582A1D77583410EBB790BB646854A2C}
+## Présentation d’Adobe  {#section_E582A1D77583410EBB790BB646854A2C}
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Adobe a conscience que vous connaissez mieux les données personnalisées de vos
 
 Pour ce faire, Adobe Analytics fournit une interface utilisateur de gouvernance des données qui vous permet, en tant que contrôleur des données, de définir des [étiquettes de confidentialité](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) sur vos suites de rapports Analytics et toutes les dimensions et mesures de ces suites de rapports. Vous pouvez identifier les colonnes de votre ensemble de données qui contiennent des données directement ou indirectement identifiables afin de pouvoir soumettre vos demandes d’accès et de suppression pour traiter ces données. Pour chaque demande, les étiquettes définies dans l’interface utilisateur de gouvernance des données d’Analytics seront attribuées à l’identifiant spécifique correspondant à cette requête.
 
-Voir [Étiqueter les données d’une suite de rapports](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) pour plus d’informations sur la façon de définir les étiquettes.
+Voir  [Étiqueter les données d’une suite de rapports](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) pour plus d’informations sur la façon de définir les étiquettes.
 
 ## Conditions préalables {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
