@@ -1,14 +1,14 @@
 ---
 title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Rapports d’acquisition
 
@@ -74,7 +74,7 @@ Pour plus d’informations sur la dimension [Domaine référent](/help/component
 
 Adobe utilise une fonctionnalité d’Analysis Workspace appelée Advertising Analytics pour importer des données de recherche et de publicité provenant de plusieurs plateformes, y compris Google.
 
-La fonction d’analyse des publicités nécessite d’être configurée pour renvoyer des données. Consultez l’[aide d&#39;Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md) pour plus d’informations sur la manière d’activer ces dimensions supplémentaires dans Analysis Workspace.
+La fonction d’analyse des publicités nécessite d’être configurée pour renvoyer des données. Consultez l’[aide d’Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md) pour plus d’informations sur la manière d’activer ces dimensions supplémentaires dans Analysis Workspace.
 
 ## Rapports sur les réseaux sociaux
 
@@ -112,7 +112,7 @@ Le rapport Flux d’utilisateurs affiche les données de cheminement dans le con
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser une visualisation de flux sur l’espace de travail situé au-dessus du tableau à structure libre.
 2. Cliquez sur l’icône Composants à gauche, puis faites glisser le segment **Visites issues des sites sociaux** sur la petite zone de tableau à structure libre intitulée « Déposer un segment ici ».
-3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de Dimension sont de couleur jaune.
+3. Recherchez la dimension **Pages**, puis cliquez sur l’icône en forme de flèche pour afficher les valeurs de page. Les éléments de dimension sont en jaune.
 4. Recherchez la valeur de page de votre choix et faites-la glisser sur l’espace « Dimension ou élément » au centre.
 5. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
