@@ -2,16 +2,16 @@
 description: Utilisation de la visualisation en ligne pour représenter les jeux de données des tendances (temporels).
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 65%
+exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '512'
+ht-degree: 100%
 
 ---
-
 
 # Ligne
 
@@ -33,21 +33,21 @@ Une liste déroulante de granularité accessible dans les [paramètres de visual
 
 ## Affichage des min. et max.
 
-Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositions]** > **[!UICONTROL Afficher les min./max.]**, vous pouvez superposer une étiquette de valeur minimale et maximale pour rapidement mettre en relief les pics et les creux d’une mesure. Remarque : Les valeurs min/max sont dérivées des points de données visibles dans la visualisation, et non du jeu complet de valeurs dans une dimension.
+Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositions]** > **[!UICONTROL Afficher les min./max.]**, vous pouvez superposer une étiquette de valeur minimale et maximale pour rapidement mettre en relief les pics et les creux d’une mesure. Remarque : les valeurs min/max sont dérivées des points de données visibles dans la visualisation, et non du jeu complet de valeurs dans une dimension.
 
 ![Afficher les min./max.](assets/min-max-labels.png)
 
 ## Affichage de courbes de tendance superposées
 
-Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Overlays]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir d&#39;ajouter une régression ou de déplacer la courbe de tendance moyenne à votre série de lignes. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
+Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositions]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir dʼajouter une régression ou une courbe de tendance de moyenne glissante à votre série de lignes. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
 
 >[!TIP]
 >
->Il est recommandé d’appliquer des lignes de tendances à des données qui n’incluent pas de dates d’aujourd’hui (données partielles) ou futures, car elles faussent la ligne de tendance. Toutefois, si vous devez inclure des dates futures, supprimez des zéros des données afin d’éviter les bizutages de ces jours. Pour ce faire, accédez au tableau de la source de données de la visualisation, choisissez votre colonne de mesures, puis activez **[!UICONTROL Paramètres de colonne]** > **[!UICONTROL Interpréter zéro comme aucune valeur]**.
+>Il est recommandé dʼappliquer les courbes de tendance à des données qui nʼincluent pas les dates du jour (données partielles) ou futures, car celles-ci fausseront la courbe de tendance. Toutefois, si vous devez inclure des dates futures, supprimez les zéros des données afin dʼéviter que ces jours ne soient faussés. Pour ce faire, accédez au tableau de la source de données de la visualisation, choisissez votre colonne de mesures et activez **[!UICONTROL Paramètres des colonnes]** > **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]**.
 
 ![Courbe de tendance linéaire](assets/show-linear-trendline.png)
 
-Toutes les lignes de tendances des modèles de régression sont ajustées en utilisant les moindres carrés ordinaires :
+Toutes les courbes de tendance des modèles de régression sont ajustées à lʼaide des moindres carrés ordinaires :
 
 | Modèle | Description |
 | --- | --- |
@@ -56,4 +56,4 @@ Toutes les lignes de tendances des modèles de régression sont ajustées en uti
 | Exponentiel | Crée une courbe. Utile lorsque les données augmentent ou diminuent à un rythme constamment croissant. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a + e^(b * x)` |
 | Puissance | Crée une courbe. Utile pour les jeux de données comparant des mesures qui augmentent à un rythme spécifique. Cette option ne doit pas être utilisée si vos données contiennent des valeurs nulles ou négatives. Équation : `y = a * x^b` |
 | Quadratique | Trouve la courbe la plus adaptée pour un jeu de données en forme de parabole (concave vers le haut ou vers le bas). Équation : `y = a + b * x + c * x^2` |
-| Moyenne glissante | Crée une courbe de tendance lisse basée sur un ensemble de moyennes. Connue également sous le nom de moyenne variable, une moyenne mobile utilise un nombre spécifique de points de données (déterminé par votre sélection &quot;Périodes&quot;), les calcule en moyenne et utilise la moyenne comme point de la ligne. Par exemple, une moyenne mobile de 7 jours ou de 4 semaines. |
+| Moyenne glissante | Crée une courbe de tendance lisse basée sur un ensemble de moyennes. Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par votre sélection de « Périodes »), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. Par exemple, une moyenne glissante de 7 jours ou de 4 semaines. |
