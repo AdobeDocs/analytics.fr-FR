@@ -1,14 +1,14 @@
 ---
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
-workflow-type: tm+mt
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
-
 
 # Collecte de données régionales
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 
 >[!IMPORTANT]
 >
->Le package d’Ajoute-on China RDC (China Performance Optimization) est un module complémentaire payant pour Adobe Analytics. L&#39;optimisation des performances de l&#39;Adobe en Chine continentale permet aux clients en Chine d&#39;envoyer directement des données au noeud de périphérie de la Chine, plutôt qu&#39;à d&#39;autres emplacements à l&#39;échelle mondiale. Ceci améliore les temps de chargement des pages et la précision des données lors de l’envoi des données vers des noeuds en dehors de la Chine. Pour plus d&#39;informations, contactez votre représentant commercial d&#39;Adobe.
+>Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. Lʼoptimisation des performances en Chine continentale dʼAdobe permet aux clients à lʼintérieur de la Chine dʼenvoyer directement des données au nœud de périphérie en Chine, plutôt quʼà dʼautres emplacements à lʼéchelle mondiale. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
@@ -26,9 +26,9 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 |---------------------|-------------------|
 | Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney, Chine* |
 
-Remarque : Si votre demande d’image Analytics est envoyée aux points de terminaison `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez d’une collecte de données tierce. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
+Remarque : si votre demande dʼimage Analytics est envoyée aux points d’entrée `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez alors dʼune collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
-*La collecte de données régionale pour la Chine nécessite le paquet Ajoute-On pour la Chine. Consultez la note &quot;Important&quot; ci-dessus.
+*La collecte de données régionale pour la Chine nécessite le package de composants additionnels pour la Chine. Consultez la remarque « Important » ci-dessus.
 
 ## Collecte de données HTTPS propriétaires
 
@@ -40,17 +40,17 @@ Remarque : Si votre demande d’image Analytics est envoyée aux points de termi
 | Asie-Pacifique uniquement | Mumbai, Singapour, Tokyo, Sydney |
 | Chine uniquement* | Pékin |
 
-*La collecte de données régionale pour la Chine nécessite le paquet Ajoute-On pour la Chine. Consultez la note &quot;Important&quot; ci-dessus.
+*La collecte de données régionale pour la Chine nécessite le package de composants additionnels pour la Chine. Consultez la remarque « Important » ci-dessus.
 
-Remarque : Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux.  Si vous souhaitez utiliser un autre type de CRD, contactez le service à la clientèle Adobe pour obtenir de l’aide.
+Remarque : Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux.  Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez lʼassistance clientèle dʼAdobe pour obtenir de lʼaide.
 
 ## Avantages de la collecte de données régionale
 
 | Avantage | Description |
 | --- | --- |
-| Performances | Avec la collecte de données régionale, vos visiteurs se connecteront au CDC le plus proche. Cela permet de disposer du temps de réponse le plus rapide, ce qui permet un suivi plus précis et des temps de chargement plus rapides. |
-| Redondance | En cas de rupture de la communication avec un CDC, la collecte de données est automatiquement acheminée vers le CDC le plus proche, assurant ainsi la continuité de service. |
-| Redondance | En cas de rupture de la communication entre le DCC et votre DPC, l’infrastructure de CRD de l’Adobe économise les données localement, puis les transfère au DPC lorsque les communications sont rétablies. |
+| Performances | Avec la collecte de données régionale, vos visiteurs se connectent au centre de collecte de données le plus proche. Cela permet de disposer du temps de réponse le plus rapide, ce qui autorise un suivi plus précis et des temps de chargement plus rapides. |
+| Redondance | En cas dʼinterruption de communication avec un centre de collecte de données, la collecte de données est automatiquement acheminée vers le prochain centre le plus proche, ce qui assure la continuité du service. |
+| Redondance | Dans le cas dʼune interruption de communication entre le centre de collecte de données et votre centre de traitement de données, lʼinfrastructure de collecte de données régionale dʼAdobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
 
 ## Fonctionnement de la collecte de données régionale
 
