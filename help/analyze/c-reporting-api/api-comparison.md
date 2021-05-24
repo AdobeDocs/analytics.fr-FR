@@ -4,14 +4,14 @@ title: Comparaison des API de création de rapports dans Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '284'
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Comparaison des API de création de rapports dans Analytics
 
@@ -95,4 +95,3 @@ Tableau de comparaison des API de création de rapports dans Analytics. Vous y t
 
 * [Adobe I/O](https://www.adobe.io/) - Source exhaustive de documentation technique et d’outils nécessaires pour intégrer les technologies Adobe à vos applications.
 * [API de requête des Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
