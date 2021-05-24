@@ -26,7 +26,7 @@ Une suite de rapports virtuelle hérite de la plupart des niveaux de service de 
 * Nom de la suite de rapports
 * Groupes d’autorisations (les suites de rapports virtuelles peuvent être affectées à leurs propres groupes d’autorisations)
 
-## Avantages des suites de rapports virtuelles {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Avantages des suites de rapports virtuelles  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 Les clients paient pour les appels au serveur secondaire. L’élimination de ces appels peut donc entraîner des économies importantes. Une suite de rapports virtuelle est également complètement rétroactive. Si la suite de rapports globale contient déjà des données, les données pertinentes sont automatiquement incluses dans une nouvelle suite de rapports virtuelle. Une nouvelle suite de rapports secondaire ne commence à collecter des données qu’après sa création, de sorte qu’elle n’inclut aucune donnée historique. Lorsque vous implémentez Analytics, il vous suffit d’envoyer des données à une seule suite de rapports plutôt que de devoir créer des implémentations pour la suite de rapports globale et chaque suite de rapports secondaire.
 
@@ -40,19 +40,19 @@ Les suites de rapports virtuelles bénéficient des avantages suivants :
 * Une vue client unique des données (à l’avenir).
 * La possibilité de créer des suites de rapports virtuelles illimitées pour segmenter les données.
 
-## Limites des suites de rapports virtuelles {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limites des suites de rapports virtuelles  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Les suites de rapports virtuelles comportent les limites suivantes :
 
-* Toutes les limites des segments s’appliquent également aux suites de rapports virtuelles.
+* Toutes les limites de segments s’appliquent également aux suites de rapports virtuelles
 
-   Une suite de rapports virtuelle n’est rien de plus qu’un segment appliqué à une suite de rapports. Chaque suite de rapports ayant son propre Data Warehouse et son propre flux de données, l’utilisation de plusieurs suites de rapports présente certains avantages que les segments ne fournissent pas.
+   Une suite de rapports virtuelle n’est rien de plus qu’un segment appliqué à une suite de rapports. Chaque suite de rapports ayant son propre Data Warehouse et son propre flux de données, l’utilisation de plusieurs suites de rapports présente des avantages que les segments ne fournissent pas.
 * Rapport en temps réel
-* Les paramètres et les noms de variable ne peuvent pas être personnalisés comme dans une suite de rapports complète.
+* Les paramètres et les noms de variable ne peuvent pas être personnalisés comme dans une suite de rapports complète
 
-## Suites de rapports virtuelles ou balisage multi-suite {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Suites de rapports virtuelles par rapport au balisage multi-suite {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Fonctionnalité | Suite de rapports virtuelle | Balisage multi-suite |
+| Fonctionnalité | Suite de rapports virtuelle | Balisage multisuite |
 |--- |--- |--- |
 | Offre des rapports en temps réel ou de données actives | Non | Oui |
 | Fonctionne dans tous les outils dʼAnalytics (Analysis Workspace, Report Builder, etc.) | Oui. **Remarque :** Vous pouvez modifier et identifier une suite de rapports virtuelle en tant que telle dans les Reports &amp; Analytics uniquement. Vous pouvez toutefois sélectionner des suites de rapports virtuelles dans les menus déroulants des suites de rapports dans d’autres outils. | Oui |
@@ -61,8 +61,8 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 | Peut être séparément ajoutée à des groupes d’autorisations | Oui | Oui |
 | Peut utiliser les fonctions d’administration pour modifier des paramètres spécifiques de cette suite de rapports (Admin > Suites de rapports) | Non (les paramètres sont hérités du parent) | Oui |
 
-## Combiner des suites de rapports virtuelles et un balisage multi-suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combiner les suites de rapports virtuelles et le balisage multi-suite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
-Dans certains cas, l’utilisation des suites de rapports virtuelles et du balisage multi-suite présente des avantages.
+Dans certains cas, l’utilisation du balisage multi-suite et des suites de rapports virtuelles présente des avantages.
 
 Par exemple, un détaillant peut utiliser une suite de rapports pour chaque marque et des suites de rapports virtuelles pour chaque marque afin de ventiler les données par région. De même, une organisation sportive peut utiliser une suite de rapports pour chaque équipe, puis des suites de rapports virtuelles pour diviser les fans entre ceux qui se trouvent dans la région de l’équipe et ceux qui se trouvent en dehors de la région.
