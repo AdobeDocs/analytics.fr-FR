@@ -1,14 +1,14 @@
 ---
 title: Prise en charge d’une implémentation Adobe Analytics existante
 description: Instructions destinées aux administrateurs qui découvrent une implémentation Adobe Analytics existante.
-translation-type: tm+mt
-source-git-commit: 159d40fc224c53d6295ad0f441e7c694f51d4961
-workflow-type: tm+mt
+exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Prise en charge d’une implémentation Adobe Analytics existante
 
