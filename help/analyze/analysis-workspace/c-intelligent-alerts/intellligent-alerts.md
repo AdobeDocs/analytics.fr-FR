@@ -2,22 +2,22 @@
 description: Le nouveau système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 title: Alertes intelligentes - Aperçu
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI Tools
+feature: Outils d’IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 94%
+exl-id: 49d47896-bf93-4960-b647-2765c935eb25
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
-
 
 # Alertes intelligentes - Aperçu
 
 La fonction Alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
 
-Voici un didacticiel vidéo sur [Alertes intelligentes](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+Voici un tutoriel vidéo sur les [Alertes intelligentes](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## Aperçu
 
@@ -40,7 +40,7 @@ Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
    ![Ajouter une alerte](assets/add-alert.png)
 
-Les seuils (exprimé en pour cent) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtenez davantage d’anomalies qu’avec un seuil plus élevé (99,75 %).
+Les seuils (exprimé en pour cent) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie,  [différents modèles](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer à quel point chaque donnée s’écarte de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtenez davantage d’anomalies qu’avec un seuil plus élevé (99,75 %).
 
 >[!IMPORTANT]
 >
