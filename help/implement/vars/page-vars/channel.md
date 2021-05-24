@@ -1,16 +1,16 @@
 ---
 title: channel
 description: Permet de renseigner la dimension « Sections du site ».
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-
-# canal
+# channel
 
 La variable `channel` stocke généralement la section du site sur laquelle se trouve une page donnée. Il est utile de déterminer les groupes de votre site les plus populaires. Cette variable renseigne la dimension Sections du site.
 
@@ -35,7 +35,7 @@ La variable `s.channel` est une chaîne qui contient généralement la section d
 s.channel = "Example site section";
 ```
 
-Si vous utilisez la couche de données `digitalData` [](../../prepare/data-layer.md) :
+Si vous utilisez la `digitalData` [couche de données](../../prepare/data-layer.md) :
 
 ```js
 s.channel = digitalData.page.category.primaryCategory;
