@@ -5,11 +5,10 @@ title: Migration des visiteurs
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +18,17 @@ La migration des visiteurs est une procédure par laquelle le cookie d’identif
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
-* Passage de `2o7.net` à `adobedc.net`.
+* Passer de `2o7.net` à `adobedc.net`.
 
-* Vous implémentez le [service d’ID de Visiteur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) et vous passez d’un domaine de collecte de données CNAME/propriétaire à `adobedc.net`, `2o7.net` ou `omtrdc.net`
+* Vous mettez en œuvre le [service dʼidentification des visiteurs dʼExperience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) et passez dʼun domaine de collecte de données propriétaire/CNAME à un domaine `adobedc.net`, `2o7.net` ou `omtrdc.net`.
 
-* Passage à une collecte de données cname/first-party ( [Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
+* Passage à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
 Une fois la migration des visiteurs configurée, si un utilisateur se rend sur le nouveau domaine sans cookie Identifiant visiteur, le serveur le redirige vers le nom d’hôte de collecte de données antérieur, récupère tout cookie Identifiant visiteur disponible, puis le redirige vers le nouveau domaine. Si aucun identifiant visiteur n’est trouvé sur le nom d’hôte précédent, un nouvel identifiant est généré. Cela ne se produit qu’une seule fois par visiteur.
 
-## Processus de migration des visiteurs {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Processus de migration des visiteurs  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
 
 Les tâches nécessaires à la migration des visiteurs sont répertoriées dans le tableau suivant :
 
@@ -51,11 +50,11 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>6 heures ou plus après le changement de configuration</b> : mettez à jour les variables <code> s.trackingServer</code> et <code> s.trackingServerSecure</code> dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. </p> </td> 
-   <td colname="col3"> <p>Après avoir apporté cette modification, utilisez le <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> débogueur Experience Cloud</a> pour vérifier que la demande d’image Analytics va au serveur de collecte de données mis à jour. </p> </td> 
+   <td colname="col3"> <p>Après avoir apporté cette modification, utilisez lʼ<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr">Experience Cloud Debugger</a> pour vérifier que la demande dʼimage Analytics est adressée au serveur de collecte de données mis à jour. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
-   <td colname="col3"> <p>Utilisez un  <a href="../implement/validate/packet-monitor.md"> moniteur de paquets pour vérifier que lorsque vous accédez à votre site pour la première fois, ou après avoir effacé les cookies, deux codes d’état HTTP 302 (redirection) s’affichent avant le code d’état HTTP 200 (OK). </a> S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
+   <td colname="col3"> <p>Utilisez un <a href="../implement/validate/packet-monitor.md"> analyseur de paquets</a> afin de vérifier que, lorsque vous accédez à votre site pour la première fois, ou après avoir effacé les cookies, deux codes dʼétat HTTP 302 (redirection) sont placés avant le code dʼétat HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Pendant toute la durée de la migration</b> : faites en sorte que l’enregistrement DNS du nom d’hôte précédent reste actif. </p> </td> 
