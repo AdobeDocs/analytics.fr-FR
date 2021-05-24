@@ -2,16 +2,16 @@
 description: Création, modification ou suppression des alertes.
 title: Gestionnaire d’alertes
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: Outils d’IA
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
-
 
 # Gestionnaire d’alertes
 
@@ -36,4 +36,3 @@ La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICO
 * Spécifier/modifier le propriétaire d’une alerte
 * Ajouter d’autres filtres
 * Définir la **date d’expiration** d’une alerte
-
