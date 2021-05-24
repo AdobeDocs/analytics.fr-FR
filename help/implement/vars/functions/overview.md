@@ -1,14 +1,14 @@
 ---
 title: Fonctions et méthodes
 description: Découvrez comment utiliser les fonctions et méthodes proposées par Adobe dans votre mise en œuvre.
-translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: tm+mt
+exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # Fonctions et méthodes
 
