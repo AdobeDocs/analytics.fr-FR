@@ -1,14 +1,14 @@
 ---
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # Graphique d’appareil
 
@@ -44,4 +44,3 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 ## Étapes suivantes
 
 Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer les analyses entre appareils](setup.md).
-
