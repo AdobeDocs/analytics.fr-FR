@@ -1,14 +1,14 @@
 ---
 title: writeSecureCookies
 description: Permet à AppMeasurement de définir des cookies avec l’attribut Secure.
-translation-type: tm+mt
-source-git-commit: defb701d01747685a421b89a553f47efe40f1432
-workflow-type: tm+mt
+exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # writeSecureCookies
 
@@ -16,16 +16,16 @@ La variable`writeSecureCookies` permet à AppMeasurement de définir des [cookie
 
 >[!IMPORTANT]
 >
->Si vous activez la variable`writeSecureCookies`, assurez-vous que tout le contenu de votre site est diffusé en toute sécurité via HTTPS. AppMeasurement ne fonctionne pas si cette variable est activée et que votre page contient du contenu non sécurisé.
+>Si vous activez la variable `writeSecureCookies`, assurez-vous que tout le contenu de votre site est diffusé en toute sécurité via HTTPS. AppMeasurement ne fonctionne pas si cette variable est activée et que votre page contient du contenu non sécurisé.
 
 ## Écrire des cookies sécurisés dans Adobe Experience Platform Launch
 
-[!UICONTROL Écrivez ] des cookies sécurisés dans une case à cocher située sous l&#39;  accordéon Cookiesaccordion lors de la configuration de l&#39;extension Adobe Analytics.
+[!UICONTROL Écrire des cookies sécurisés] est une case à cocher située sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Cookies], qui affiche la case [!UICONTROL Écrire des cookies sécurisés].
+4. Développez l’accordéon [!UICONTROL Cookies], qui affiche la case à cocher [!UICONTROL Écrire des cookies sécurisés].
 
 ## s.writeSecureCookies dans AppMeasurement et l’éditeur de code personnalisé Launch
 
