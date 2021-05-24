@@ -2,14 +2,14 @@
 description: Le créateur de mesures calculées fournit un canevas où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou des mesures calculées avancées complexes.
 title: Création de mesures
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '968'
 ht-degree: 100%
 
 ---
-
 
 # Création de mesures
 
@@ -135,7 +135,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <p>Liste des fonctions </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >De base</a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avancée</a>. </p> </td> 
+   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes :  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >De base</a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avancée</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Sélecteur de suite de rapports </p> </td> 
@@ -143,4 +143,3 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
  </tbody> 
 </table>
-
