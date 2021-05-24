@@ -1,14 +1,14 @@
 ---
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
+exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 translation-type: ht
-source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '499'
 ht-degree: 100%
 
 ---
-
 
 # Groupement basé sur les champs
 
@@ -28,7 +28,7 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 ## Limites spécifiques au groupement basé sur les champs
 
 * Lʼassemblage basé sur les champs fonctionne mieux sur les suites de rapports qui présentent un taux dʼidentification/dʼauthentification utilisateur élevé.
-* Bien que les variables prop et eVar contiennent chacune des règles de traitement des caractères majuscules et minuscules à des fins de comptes rendus des performances, lʼassemblage basé sur les champs ne transforme en aucune manière la variable prop ou eVar utilisée pour lʼassemblage. Lʼassemblage basé sur les champs utilise la valeur du champ spécifié telle quʼelle existe après les règles VISTA et après les règles de traitement. Le processus dʼassemblage est sensible à la casse. Par exemple, si le mot « Bob » apparaît dʼabord dans la variable prop ou eVar, et que le mot « BOB » apparaît ensuite, ils seront considérés comme deux personnes distinctes par le processus dʼassemblage.
+* Bien que les variables prop et eVar contiennent chacune des règles de traitement des caractères majuscules et minuscules à des fins de comptes rendus des performances, lʼassemblage basé sur les champs ne transforme en aucune manière la variable prop ou eVar utilisée pour lʼassemblage. Lʼassemblage basé sur les champs utilise la valeur du champ spécifié telle quʼelle existe après les règles VISTA et après les règles de traitement. Le processus dʼassemblage est sensible à la casse. Par exemple, si le mot « Bob » apparaît dʼabord dans la variable prop ou eVar, et que le mot « BOB » apparaît ensuite, ils seront considérés comme deux personnes distinctes par le processus dʼassemblage.
 * Étant donné que lʼassemblage basé sur les champs est sensible à la casse, Adobe recommande de revoir les règles VISTA ou de traitement qui sʼappliquent à la variable prop ou eVar utilisée pour lʼassemblage basé sur les champs. Elles doivent être revues pour sʼassurer quʼaucune dʼelles nʼintroduit de nouvelles formes du même identifiant. Par exemple, vous devez vous assurer quʼaucune règle VISTA ou de traitement nʼintroduit de minuscules dans la variable prop ou eVar sur une partie seulement des accès.
 * Lʼassemblage basé sur les champs ne prend pas en charge lʼutilisation de plusieurs variables prop ou eVar à des fins dʼassemblage. Par exemple, si la variable eVar12 contient un identifiant de connexion et la variable eVar20 une adresse électronique, vous devez choisir lʼune des deux.
 * Lʼassemblage basé sur les champs ne combine ni ne concatène les champs (par exemple, eVar10 + prop5).
