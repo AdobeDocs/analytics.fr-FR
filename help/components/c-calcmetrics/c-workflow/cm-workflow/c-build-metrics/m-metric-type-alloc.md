@@ -2,14 +2,14 @@
 description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # Type de mesure et attribution
 
@@ -33,6 +33,7 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 >* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/attribution/models.html).
 >* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
 >* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, Reports &amp; Analytics, l’API de création de rapports et Report Builder. Pour plus d’informations, consultez la section **Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)** ci-dessous.
+
 >
 
 
@@ -82,4 +83,3 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 | PROMO B | 2,50$ | 2,50$ | 2,50$ |
 | PROMO C | 2,50$ | 2,50$ | 2,50$ |
 | Total | 10,00$ | 10,00$ | 10,00$ |
-
