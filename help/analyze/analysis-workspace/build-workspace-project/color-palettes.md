@@ -1,16 +1,16 @@
 ---
 description: Comment utiliser la palette de couleurs des visualisations dans Analysis Workspace
 title: En quoi consistent les palettes de couleurs de visualisations et comment fonctionnent-elles ?
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '219'
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Palettes de couleurs de visualisations
 
@@ -29,11 +29,10 @@ Remarque :
 
 ## Changer de palette de couleurs :
 
-1. Sélectionnez **[!UICONTROL Espace de travail]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**.
+1. Sélectionnez **[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**.
 1. Dans la liste déroulante **[!UICONTROL Palette de couleurs du projet]**, vous pouvez choisir l’un des cinq modèles de couleurs prédéfinis.
 
    ![](assets/custom_palette.png)
 
 1. Pour spécifier votre propre palette, sélectionnez **[!UICONTROL Palette personnalisée]** en dessous des options prédéfinies.
 1. Indiquez jusqu’à 16 valeurs hexadécimales séparées par une virgule (par exemple, #00a4e4) correspondant aux couleurs que vous souhaitez utiliser. Si, par exemple, vous ne souhaitez utiliser que quatre valeurs, ces couleurs seront automatiquement répétées dans les visualisations contenant plus de couleurs.
-
