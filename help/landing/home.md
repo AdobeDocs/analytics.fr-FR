@@ -1,14 +1,14 @@
 ---
 title: Documentation technique d’Adobe Analytics
 description: Ressources et guides de l’utilisateur d’Analytics
+exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
-
 
 # Documentation Adobe Analytics
 
