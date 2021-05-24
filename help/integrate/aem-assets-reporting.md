@@ -1,14 +1,14 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports AEM Assets dans Analytics.
 title: Comment faire un rapport sur AEM Assets dans Adobe Analytics
+exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '116'
 ht-degree: 100%
 
 ---
-
 
 # Compte rendu des performances d’AEM Assets
 
