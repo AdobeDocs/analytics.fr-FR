@@ -1,14 +1,14 @@
 ---
 title: Pages introuvables
 description: Le nombre d’accès contenant une erreur.
-translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: tm+mt
+exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # Pages introuvables
 
