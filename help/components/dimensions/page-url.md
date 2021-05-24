@@ -1,14 +1,14 @@
 ---
 title: URL de la page
 description: L’URL de la page.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
-
 
 # URL de la page
 
@@ -16,15 +16,15 @@ La dimension « URL de la page » répertorie les adresses URL de votre site.
 
 >[!IMPORTANT]
 >
->Cette dimension est uniquement disponible dans Data Warehouse. Si vous souhaitez utiliser une dimension URL dans d’autres solutions Analytics, pensez à copier la valeur dans un [eVar](evar.md) pour chaque accès.
+>Cette dimension est uniquement disponible dans Data Warehouse. Si vous souhaitez utiliser une dimension URL dans dʼautres solutions Analytics, pensez à copier la valeur dans une [eVar](evar.md) pour chaque accès.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données des chaînes de requête [`g` et `-g`](/help/implement/validate/query-parameters.md) dans [Appels de vue de page (`t()`)](/help/implement/vars/functions/t-method.md). [Les appels de suivi de lien (`tl()`)](/help/implement/vars/functions/tl-method.md) dépouillent toujours cette dimension, même si la chaîne de  `g` requête existe.
+Cette dimension récupère les données des chaînes de requête [`g` et `-g`](/help/implement/validate/query-parameters.md) dans les [appels de visualisation de la page (`t()`)](/help/implement/vars/functions/t-method.md). Les [appels de suivi des liens (`tl()`)](/help/implement/vars/functions/tl-method.md) éliminent toujours cette dimension, même si la chaîne de requête `g` existe.
 
 Les URL dépassent parfois 255 octets. AppMeasurement utilise le paramètre de chaîne de requête `g` pour les 255 premiers octets de l’URL dans les demandes d’image. Si une URL dépasse 255 octets, le reste de l’URL est stocké dans le paramètre de chaîne de requête `-g`. Les chaînes de protocole et de requête de l’URL sont incluses dans cette variable.
 
-AppMeasurement collecte automatiquement ces données en fonction de l’URL de la page. Vous pouvez remplacer la valeur collectée à l’aide de la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
+AppMeasurement collecte automatiquement ces données en fonction de lʼURL de la page. Vous pouvez remplacer la valeur collectée à lʼaide de la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
 
 ## Renseignement d’une eVar avec une URL
 
