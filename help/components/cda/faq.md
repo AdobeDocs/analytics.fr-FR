@@ -2,7 +2,6 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-translation-type: tm+mt
 source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
 source-wordcount: '1674'
@@ -14,7 +13,7 @@ ht-degree: 79%
 
 ## Comment puis-je utiliser les analyses entre appareils pour voir comment les gens passent d’un type d’appareil à un autre ?
 
-Vous pouvez utiliser une visualisation [!UICONTROL Flux] avec la dimension Type de périphérique mobile.
+Vous pouvez utiliser une visualisation [!UICONTROL Flux] avec la dimension Type de périphérique mobile .
 
 1. Connectez-vous à Adobe Analytics et créez un projet Workspace vide.
 2. Cliquez sur l’onglet Visualisations sur la gauche, puis faites glisser une visualisation de flux vers la zone de travail sur la droite.
@@ -29,9 +28,9 @@ L’utilisation du type de périphérique mobile comme illustré ci-dessus vous 
 
 Lʼassemblage entre appareils des analyses entre appareils (CDA) se produit dans deux processus simultanés.
 
-* Le premier processus, nommé « assemblage dynamique », se produit quand les données arrivent en flux continu dans Adobe Analytics. Pendant lʼassemblage dynamique, les CDA sʼefforcent de retraiter les données au niveau de la personne. Cependant, si la personne est inconnue lors de lʼassemblage dynamique, les CDA reviennent à lʼidentifiant visiteur pour représenter la personne.
+* Le premier processus, nommé « assemblage dynamique », se produit quand les données arrivent en flux continu dans Adobe Analytics. Pendant lʼassemblage dynamique, les CDA sʼefforcent de retraiter les données au niveau de la personne. Cependant, si la personne est inconnue lors de lʼassemblage dynamique, les CDA reviennent à lʼidentifiant visiteur pour représenter la personne.
 
-* Le second processus est nommé « relecture ». Au cours de la relecture, les CDA remontent dans le temps et retraitent les données historiques, si possible, au cours dʼun intervalle de recherche en amont spécifié. Cet intervalle de recherche en amont est soit de 1 jour, soit de 7 jours, selon la configuration choisie pour les CDA. Au cours de la relecture, les CDA tentent de retraiter les accès où la personne était précédemment inconnue.
+* Le second processus est nommé « relecture ». Au cours de la relecture, les CDA remontent dans le temps et retraitent les données historiques, si possible, au cours dʼun intervalle de recherche en amont spécifié. Cet intervalle de recherche en amont est soit de 1 jour, soit de 7 jours, selon la configuration choisie pour les CDA. Au cours de la relecture, les CDA tentent de retraiter les accès où la personne était précédemment inconnue.
 
 * **Si vous utilisez un graphique d’appareil**, Adobe conserve les mappages de l’appareil dans le graphique Co-op et le graphique Privé pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans les analyses entre appareils ne sont pas affectées, mais les accès ultérieurs pour cet ECID sont considérés comme une nouvelle personne.
 
@@ -92,26 +91,26 @@ Ces deux identifiants sont calculés par Adobe au moment de l’exécution du ra
 
 ## Comment puis-je passer du graphique d’appareils au groupement basé sur les champs, ou vice versa ?
 
-Le service à la clientèle peut vous demander de passer du graphique du périphérique à l’assemblage sur le terrain ou vice versa. Cependant, la réalisation d&#39;un tel commutateur peut prendre quelques semaines ou plus et *les données assemblées historiques de la méthode précédente sont perdues.*
+Le passage du graphique d’appareil au groupement basé sur les champs ou vice versa peut être demandé via l’assistance clientèle. Cependant, la réalisation d’un tel changement peut prendre quelques semaines ou plus et *les données historiques regroupées de la méthode précédente sont perdues.*
 
 ## Comment Adobe gère-t-il les limites uniques d’une eVar utilisée dans un groupement basé sur les champs ?
 
 Les analyses entre appareils extraient les éléments de dimension eVar avant de les optimiser pour les rapports. Vous n’avez pas à vous inquiéter des limites uniques à des fins d’analyses entre appareils. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md).
 
-## Combien de suites de rapports de ma société peuvent être activées pour l’ADC ?
+## Combien de suites de rapports de mon entreprise peuvent être activées pour les analyses entre appareils ?
 
-Il est possible d’activer plusieurs suites de rapports. Toutefois, chaque suite de rapports supplémentaire augmentera le temps de mise en service général si plusieurs suites de rapports sont demandées à la fois. CDA ne fusionne pas les suites de rapports. Chaque suite de rapports activée pour CDA doit être de nature inter-périphériques (contenant des données provenant de plusieurs surfaces telles que le web pour ordinateur, le web mobile, les applications mobiles, etc.)
+Plusieurs suites de rapports peuvent être activées. Cependant, chaque suite de rapports supplémentaire augmentera le temps d’approvisionnement global si plusieurs suites de rapports sont demandées simultanément. Les analyses entre appareils ne fusionnent pas de suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être de nature multi-appareils (contenant des données provenant de plusieurs surfaces telles que le web pour ordinateur, le web mobile, l’application mobile, etc.)
 
-## Si mon organisation Experience Cloud (ou organisation IMS) a plusieurs sociétés dans différentes régions, puis-je activer l&#39;ACD pour toutes ?
+## Si mon organisation Experience Cloud (ou organisation IMS) compte plusieurs entreprises dans différentes régions, puis-je activer les analyses entre appareils pour toutes ?
 
-Non. Pour la même organisation, seule une région peut avoir activé l&#39;ADC.
+Non. Pour la même organisation, une seule région peut avoir les analyses entre appareils activées.
 
-## Quels sont les avantages et les inconvénients d&#39;une relecture de 7 jours par rapport à une relecture de 1 jour ?
+## Quels sont les avantages et les inconvénients d’une relecture de 7 jours par rapport à une relecture de 1 jour ?
 
-L&#39;avantage de la fenêtre de recherche de relecture de 7 jours est que l&#39;ADC peut revenir plus loin dans le temps pour essayer d&#39;associer des événements anonymes antérieurs à une personne qui s&#39;est connectée plus tard dans les 7 jours. Les inconvénients de la fenêtre de recherche de 7 jours sont 1) la relecture ne s&#39;exécute qu&#39;une fois par semaine, et 2) les 7 derniers jours sont sujets à changement.
+L’avantage de l’intervalle de recherche en amont de la relecture de 7 jours est que les analyses entre appareils peuvent revenir plus loin dans le temps pour essayer d’associer des événements précédemment anonymes à une personne qui s’est connectée plus tard au cours de ces 7 jours. Les inconvénients de l’intervalle de recherche en amont de 7 jours sont les suivants : 1) la relecture s’exécute une fois par semaine et 2) les 7 derniers jours peuvent faire l’objet de modifications.
 
-Les avantages de l&#39;utilisation de la fenêtre de recherche de relecture de 1 jour sont 1) la relecture s&#39;exécute tous les jours et 2) seulement hier est sujet à changement. L&#39;inconvénient de la fenêtre de recherche en amont d&#39;un jour est que l&#39;ADC ne peut revenir qu&#39;en arrière d&#39;un jour pour essayer d&#39;associer des événements précédemment anonymes à une personne qui s&#39;est connectée hier.
+L’utilisation de l’intervalle de recherche en amont de la relecture d’une journée présente les avantages suivants : 1) la relecture s’exécute tous les jours et 2) seulement hier peut faire l’objet de modifications. L’inconvénient de l’intervalle de recherche en amont d’un jour est que les analyses entre appareils ne peuvent revenir en arrière qu’un jour pour essayer d’associer des événements précédemment anonymes à une personne qui s’est connectée hier.
 
-## Qu’advient-il des données assemblées dans mes suites de rapports virtuelles CDA si ma société décide de réduire la mise à niveau d’Analytics Ultimate ?
+## Qu’advient-il des données regroupées dans ma ou mes suites de rapports virtuelles CDA si ma société décide de procéder à la mise à niveau à partir d’Analytics Ultimate ?
 
-Si un client effectue une mise à niveau depuis Ultimate, il n’aura plus accès aux données assemblées. Toutes les données précédemment assemblées seront supprimées. Cela signifie que les suites de rapports virtuelles de l’ADC ne refléteront plus aucun assemblage sur plusieurs périphériques. Les données ressembleront à la suite de rapports désassemblée d’origine.
+Si un client effectue une mise à niveau depuis Ultimate, il n’aura plus accès aux données groupées. Toutes les données précédemment regroupées seront supprimées. Cela signifie que les suites de rapports virtuelles des analyses entre appareils ne reflètent plus aucun regroupement entre appareils. Les données ressembleront à la suite de rapports désassemblée d’origine.
