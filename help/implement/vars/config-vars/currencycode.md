@@ -1,14 +1,14 @@
 ---
 title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # currencyCode
 
