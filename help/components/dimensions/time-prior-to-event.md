@@ -1,14 +1,14 @@
 ---
 title: Durée avant événement
 description: Durée entre la mesure et le premier accès de la visite.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
 ---
-
 
 # Durée avant événement
 
