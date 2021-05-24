@@ -1,14 +1,14 @@
 ---
 title: linkExternalFilters
 description: Utilisez la variable linkExternalFilters pour faciliter le suivi automatique des liens de sortie.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # linkExternalFilters
 
