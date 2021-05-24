@@ -1,14 +1,14 @@
 ---
 title: Guide d’administration Analytics
 description: Aide pour les administrateurs d’Adobe Analytics, notamment pour la gestion des utilisateurs et des produits dans Admin Console, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '316'
 ht-degree: 100%
 
 ---
-
 
 # Guide d’administration Analytics
 
