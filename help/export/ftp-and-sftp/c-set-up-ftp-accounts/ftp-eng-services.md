@@ -3,14 +3,14 @@ description: Nombre de contrats de services techniques Adobe Engineering Service
 keywords: ftp;sftp
 title: Contrats de services techniques Adobe Engineering Services à l’aide du FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Contrats de services techniques Adobe Engineering Services à l’aide du FTP
 
@@ -18,7 +18,7 @@ Nombre de contrats de services techniques Adobe Engineering Services impliquent 
 
 Ces contrats comprennent les projets [!UICONTROL DB VISTA] et personnalisés.
 
-Pour en savoir plus sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
+Pour en savoir plus sur les limites FTP et la conservation des données, voir  [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
