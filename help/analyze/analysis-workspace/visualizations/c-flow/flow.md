@@ -2,16 +2,16 @@
 description: Utilisation de la visualisation de flux dans un projet Workspace.
 title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 98%
+exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '212'
+ht-degree: 100%
 
 ---
-
 
 # Flux - Aperçu
 
@@ -35,6 +35,6 @@ Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis
 
 Chaque colonne peut présenter une dimension distincte. Faites glisser une dimension et ajoutez-la au diagramme en la déposant dans une zone de dépôt.
 
-## Exportation de diagrammes de flux dans des fichiers .CSV de projet {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exportation de diagrammes de flux dans des fichiers .CSV de projet  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
