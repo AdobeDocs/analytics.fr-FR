@@ -3,14 +3,14 @@ description: Découvrez comment utiliser le protocole FTP et SFTP pour transfér
 keywords: ftp;sftp
 title: Utilisation de FTP et SFTP avec Adobe Experience Cloud
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 03111429-6a32-4d0a-bf3c-9ca658de1684
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '126'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Utilisation de FTP et SFTP avec Adobe Experience Cloud
 
