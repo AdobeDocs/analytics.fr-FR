@@ -1,14 +1,14 @@
 ---
 title: Rapports en temps réel dans Adobe Analytics
 description: Découvrez comment extraire, dans Adobe Analytics, des rapports en temps réel destinés aux utilisateurs plus habitués à Google Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Rapports en temps réel
 
@@ -70,7 +70,7 @@ Les événements en temps réel vous indiquent quels événements se produisent 
 
 >[!NOTE]
 >
->Lors de l’utilisation de événements personnalisés dans des rapports en temps réel, l’élément de dimension doit être défini dans le même accès que le événement personnalisé. Par exemple, si vous affichez un événement personnalisé « Enregistrement » pour la dimension « Domaine référent », aucune donnée ne sera renvoyée sans mise en œuvre supplémentaire. Étant donné que le domaine référent n’apparaît que lors du premier accès et qu’un événement personnalisé s’affiche généralement plus tard dans la visite, les données ne peuvent pas être associées à des rapports en temps réel. Ces données peuvent être consultées à dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
+>En cas d’utilisation d’événements personnalisés dans des rapports en temps réel, l’élément de dimension doit être défini dans le même accès que l’événement personnalisé. Par exemple, si vous affichez un événement personnalisé « Enregistrement » pour la dimension « Domaine référent », aucune donnée ne sera renvoyée sans mise en œuvre supplémentaire. Étant donné que le domaine référent n’apparaît que lors du premier accès et qu’un événement personnalisé s’affiche généralement plus tard dans la visite, les données ne peuvent pas être associées à des rapports en temps réel. Ces données peuvent être consultées à dans Analysis Workspace en utilisant une latence de traitement standard, généralement comprise entre 30 et 90 minutes.
 
 ## Conversions en temps réel
 
