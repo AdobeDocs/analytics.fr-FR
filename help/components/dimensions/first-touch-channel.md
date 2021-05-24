@@ -1,14 +1,14 @@
 ---
 title: Canal Première touche
 description: Premier canal marketing dans l’expiration de l’engagement du visiteur.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '282'
 ht-degree: 100%
 
 ---
-
 
 # Canal Première touche
 
