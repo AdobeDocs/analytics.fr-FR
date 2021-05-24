@@ -1,14 +1,14 @@
 ---
 title: Pages introuvables
 description: Adresses URL ayant renvoyé une erreur sur votre site.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # Pages introuvables
 
@@ -21,7 +21,7 @@ La dimension « Pages introuvables » indique les adresses URL qui contenaient
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données des [`pageType` chaînes de requête `g` à partir de ](/help/implement/validate/query-parameters.md) et  dans les demandes d’image. Si la chaîne de requête `pageType` est égale à `errorPage`, la chaîne de requête `g` (URL de la page) est enregistrée. AppMeasurement collecte ces données à l’aide de la variable [`pageType`](/help/implement/vars/page-vars/pagetype.md). Si la variable `pageType` n’est pas définie ou si elle est définie sur autre chose que `errorPage`, aucune donnée n’est collectée pour cette dimension.
+Cette dimension récupère les données des [`pageType` chaînes de requête `g` à partir de ](/help/implement/validate/query-parameters.md) et dans les demandes d’image. Si la chaîne de requête `pageType` est égale à `errorPage`, la chaîne de requête `g` (URL de la page) est enregistrée. AppMeasurement collecte ces données à l’aide de la variable [`pageType`](/help/implement/vars/page-vars/pagetype.md). Si la variable `pageType` n’est pas définie ou si elle est définie sur autre chose que `errorPage`, aucune donnée n’est collectée pour cette dimension.
 
 ## Éléments de dimension
 
