@@ -4,14 +4,14 @@ title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # Publication sur Power BI - Aperçu
 
@@ -54,7 +54,7 @@ Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des
 
    ![](assets/workbooks-power-bi.png)
 
-1. Vous pouvez désormais visualiser les données de tableau de bord du classeur.  ![](assets/view-data-pbi.png)
+1. Vous pouvez désormais visualiser les données de tableau de bord du classeur.    ![](assets/view-data-pbi.png)
 
 1. Vous pouvez ensuite épingler une zone de ce classeur de façon à l’inclure dans l’un de vos tableaux de bord Power BI.
 
@@ -137,4 +137,3 @@ Chaque requête du Report Builder planifiée sera publiée en tant que tableau d
 1. Notez également l’existence d’un tableau supplémentaire intitulé **[!UICONTROL Légende]**. Si vous sortez une requête du contexte du Report Builder, il peut être difficile de se rappeler ce à quoi correspond chaque requête. Le tableau Légende a pour fonction, par exemple, d’afficher le nom de chaque requête sous Identifiant du tableau. Vous pouvez également ajouter les autres colonnes de Légende pour obtenir un aperçu global de la requête.
 
    ![](assets/legend-table.png)
-
