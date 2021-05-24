@@ -2,20 +2,20 @@
 description: Indique comment créer une mesure simple « Pages vues par visite ».
 title: Création d’une mesure simple « Pages vues par visite »
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
 
-
 # Création d’une mesure simple « Pages vues par visite »
 
 Indique comment créer une mesure simple « Pages vues par visite ».
 
-Pour une description détaillée des composants de l’interface utilisateur, voir [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+Pour une description détaillée des composants de l’interface utilisateur, voir  [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Voici comment créer une mesure simple « Pages vues par visite ».
 
@@ -33,4 +33,3 @@ Voici comment créer une mesure simple « Pages vues par visite ».
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Notez que la formule **[!UICONTROL Résumé]** se met à jour chaque fois que vous apportez une modification à la définition de mesure.
 1. Vous accédez à présent automatiquement au [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), qui est similaire au Gestionnaire de segments. Il permet de partager, approuver, (re)-baliser, renommer ou supprimer des mesures.
-
