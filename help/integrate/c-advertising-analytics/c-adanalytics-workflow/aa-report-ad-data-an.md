@@ -2,14 +2,14 @@
 description: Détails sur le modèle Analysis Workspace et sur la création de rapports dans Reports & Analytics, ainsi que dans Report Builder.
 title: Rapport sur les données Advertising dans Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: bbc830d9-e168-471d-a1ba-308277aab415
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # Rapport sur les données Advertising dans Adobe Analytics
 
