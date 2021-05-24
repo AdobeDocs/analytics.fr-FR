@@ -2,7 +2,6 @@
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-translation-type: tm+mt
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
 source-wordcount: '1834'
@@ -25,7 +24,7 @@ Cette section présente des concepts clés liés à Adobe Analytics, une brève
 | Data Warehouse | Données brutes non traitées pour le stockage et les rapports personnalisés, que vous pouvez traiter en filtrant les données. Aucun niveau d’accès. | [Accueil de Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications. | [Accueil de Mobile Services](https://docs.adobe.com/content/help/fr-FR/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (anciennement Genesis) | Importe dans Analytics des données de suivi issues d’applications tierces, permettant ainsi de bénéficier d’une visibilité de bout en bout au même endroit. À compter du 1er août 2021, Adobe a l’intention d’interrompre les intégrations des Data Connectors. | [Aide de Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Nouvelle génération de fonctionnalités de gestion de SDK mobile et de balises de sites web. | [Adobe Experience Platform Launch home](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | Nouvelle génération de fonctionnalités de gestion de SDK mobile et de balises de sites web. | [Accueil Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## Terminologie clé {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
