@@ -1,14 +1,14 @@
 ---
 title: Résolution des problèmes de l’importateur de classifications
 description: Problèmes de transfert courants lors de l’utilisation de l’importateur de classifications.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes de l’importateur de classifications
 
@@ -18,7 +18,7 @@ Les problèmes les plus courants lors du transfert de données de classification
 
 Les classifications nécessitent un type de fichier et un format spécifiques pour un transfert réussi. S’il n’est pas enregistré correctement, il génère une erreur et ne traite aucune ligne. L’erreur renvoyée est souvent *« La première colonne doit être la clé »*, mais le nombre d’erreurs peut varier. Assurez-vous de vérifier les éléments suivants :
 
-* **Téléchargement d’une feuille de calcul (.xlsx) au lieu d’un fichier** .tab ou .txt : Vous pouvez obtenir le message d’erreur  *&quot;La première colonne doit être la clé&quot;* lorsque vous téléchargez des fichiers de classification dans un format incorrect. L’importateur de classifications ne sait pas comment gérer les fichiers .xls ou .xlsx. Dans la boîte de dialogue « Enregistrer sous » d’Excel, définissez le type Enregistrer sous adéquat :
+* **Téléchargement dʼune feuille de calcul (.xlsx) au lieu dʼun fichier .tab ou .txt** : vous pouvez obtenir le message dʼerreur *« La première colonne doit être la clé »* lorsque vous téléchargez des fichiers de classification dans un format incorrect. Lʼimportateur de classifications ne sait pas comment gérer les fichiers .xls ou .xlsx. Dans la boîte de dialogue « Enregistrer sous » d’Excel, définissez le type Enregistrer sous adéquat :
    * Sous Windows, utilisez le format de fichier `Text (Tab delimited) (*.txt)`
    * Sous Mac, utilisez le format de fichier `Windows Formatted Text`.
 * **Modification de l’extension de nom de fichier après son enregistrement en tant que classeur** : tenter de renommer directement une extension de fichier génère un classeur non valide. N’utilisez que la fonction Enregistrer sous d’Excel ou modifiez les classifications dans un éditeur de texte tel que Notepad++.
@@ -38,7 +38,7 @@ Si le fichier téléchargé est correctement formaté, le chargeur tente d’imp
 * **Des sous-classifications existent et sont mal configurées** : si des sous-classifications existent, vérifiez les points suivants :
    * Toutes les valeurs de sous-classification disposent d’une valeur de classification parente
    * Deux sous-classifications ne font pas référence à la même valeur de classification parente
-* **Incohérence** de colonne : Vous pouvez obtenir le message d&#39;erreur  *&quot;La clé en ligne comporte trop de colonnes&quot;* s&#39;il y a un nombre non valide de colonnes sur une ligne donnée. Par exemple, votre téléchargement de classification comporte 3 colonnes et la variable n’a qu’une seule classification. Validez votre fichier de téléchargement pour vous assurer que le nombre de colonnes n’est pas supérieur au nombre de classifications configurées pour cette variable.
+* **Incohérence du nombre de colonnes** : vous pouvez obtenir le message dʼerreur *« La clé à la ligne comporte trop de colonnes »* sʼil y a un nombre non valide de colonnes sur une ligne donnée. Par exemple, votre téléchargement de classification comporte 3 colonnes et la variable nʼa quʼune seule classification. Validez votre fichier de téléchargement pour vous assurer que le nombre de colonnes nʼest pas supérieur au nombre de classifications configurées pour cette variable.
 
 ## Résolution des problèmes d’importation FTP
 
