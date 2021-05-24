@@ -2,14 +2,14 @@
 title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Notes de mise à jour d’AppMeasurement pour JavaScript
 
@@ -23,7 +23,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **4 août 2020**
 
-* Correction d’un parrain manquant lorsque le premier accès n’était pas envoyé en raison des préférences d’exclusion de l’utilisateur.
+* Correction relative à un référent manquant lorsque le premier accès n’était pas envoyé en raison des préférences de désinscription de l’utilisateur.
 
 ## Version 2.21.0
 
@@ -331,7 +331,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand  *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2
@@ -426,7 +426,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
 
 ## Version 1.1.1
 
