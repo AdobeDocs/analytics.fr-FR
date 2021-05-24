@@ -1,6 +1,6 @@
 ---
 title: Autorisations du profil de produit pour les outils de suites de rapports
-description: Identifiez chaque élément d’autorisation sous Outils de Report Suite.
+description: Découvrez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
@@ -48,7 +48,7 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Gestionnaire des flux de données | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
 | Rapport personnalisé de Data Warehouse | Accorde l’accès à Outils > Data Warehouse dans la barre de navigation supérieure d’Analytics. |
 | Visites retours quotidiennes | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
-| Gestionnaire des sources de données | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans la barre de navigation supérieure d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
+| Gestionnaire des sources de données | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Exclure par adresse IP | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
 | 100 derniers visiteurs | Inutilisé. |
 | ClickMap hérité | Inutilisé. Utilisez plutôt Activity Map sous Outils Analytics. |
