@@ -1,14 +1,14 @@
 ---
 title: Validation de la mise en œuvre d’un développement et publication en production
-description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics sur votre environnement de production.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de production.
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Validation de la mise en œuvre d’un développement et publication en production
 
@@ -64,7 +64,7 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 
 ## Étapes suivantes
 
-Maintenant qu’une mise en oeuvre de base est configurée, votre rôle au sein de votre organisation peut influencer le chemin sur lequel vous souhaitez en savoir plus :
+Maintenant qu’une implémentation de base est configurée, votre rôle au sein de votre organisation peut influencer le chemin sur lequel vous souhaitez davantage d’informations :
 
 * [Création d’un document de conception de solution](../prepare/solution-design.md) : planifier l’utilisation des variables personnalisées, puis les intégrez à votre mise en œuvre
 * [Prise en main de l’utilisation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) : passer directement à Adobe Analytics à l’aide de la fonctionnalité phare de l’outil.
