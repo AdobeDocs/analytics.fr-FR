@@ -1,14 +1,14 @@
 ---
 title: Page
 description: Nom de la page.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
-
 
 # Page
 
@@ -18,9 +18,9 @@ Cette dimension est liée aux dimensions [Section du site](site-section.md) et [
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne de requête [`pageName` ](/help/implement/validate/query-parameters.md) dans les appels de [vue de page (`t()`)](/help/implement/vars/functions/t-method.md). [Les appels de suivi de lien (`tl()`)](/help/implement/vars/functions/tl-method.md) dépouillent toujours cette dimension, même si la chaîne de  `pageName` requête existe.
+Cette dimension récupère les données de la [`pageName` chaîne de requête](/help/implement/validate/query-parameters.md) dans les [appels des pages vues (`t()`)](/help/implement/vars/functions/t-method.md). Les [appels de suivi des liens (`tl()`)](/help/implement/vars/functions/tl-method.md) éliminent toujours cette dimension, même si la chaîne de requête `pageName` existe.
 
-AppMeasurement collecte ces données à l’aide de la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). Si la variable `pageName` n&#39;est pas définie, elle revient à utiliser la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md).
+AppMeasurement collecte ces données à l’aide de la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). Si la variable `pageName` n’est pas définie, la variable [`pageURL`](/help/implement/vars/page-vars/pageurl.md) est utilisée.
 
 ## Éléments de dimension
 
