@@ -1,16 +1,16 @@
 ---
 description: Si une erreur survient, elle est indiquée dans la colonne État de la tâche.
-keywords: Flux de données ; tâche ; dépannage ; erreur ; ftp ; chdir ; connexion ; connexion ; mettre ; mettre
+keywords: Flux de données;tâche;résolution des problèmes;erreur;ftp;chdir;se connecter;connexion;put
 title: Résolution des problèmes liés aux tâches
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: c082bc95-cdae-448b-86b5-695660fb2352
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '464'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes liés aux tâches
 
