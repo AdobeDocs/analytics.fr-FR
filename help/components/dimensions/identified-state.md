@@ -1,14 +1,14 @@
 ---
 title: État identifié
 description: Indicateur déterminant la reconnaissance par le graphique d’appareil.
-translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
-
 
 # État identifié
 
