@@ -1,9 +1,8 @@
 ---
 description: Variables pour la création de rapports de confidentialité dans la Confidentialité des données.
 title: Variables de création de rapports de confidentialité
-feature: Admin Tools
+feature: Outils d’administration
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '435'
