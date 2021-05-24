@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Pour les rapports de tendances au fil du temps, vous pouvez afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site. Pour configurer un événement de calendrier, vous devez nommer l’événement, fixer les dates, ajouter des notes et choisir une icône. Avec Social, par exemple, vous pouvez créer un événement de calendrier afin d’indiquer qu’il existait une corrélation entre une augmentation du trafic sur le site et la mention d’un produit par une célébrité sur Twitter.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL événements de calendrier]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Événements de calendrier]**.
 1. Cliquez sur **[!UICONTROL Ajouter nouveau]**.
    1. Sous **[!UICONTROL Titre]**, nommez l’événement de calendrier.
    1. Indiquez la **[!UICONTROL Date d’événement]**.
@@ -36,7 +36,7 @@ Pour les rapports de tendances au fil du temps, vous pouvez afficher les événe
    1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Ainsi, les événements de calendrier sont beaucoup plus faciles à utiliser. Les analystes peuvent maintenant forcer un recouvrement sur les rapports des utilisateurs afin de donner plus de contexte.
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL événements de calendrier]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Événements de calendrier]**.
 1. Sous **[!UICONTROL Calendrier des événements partagés]**, indiquez l’une de ces options :
 
    | **Mettez-moi en copie** | Ajoute une copie à votre liste d’événements, en utilisant le même nom que l’original. Néanmoins, vous ne pouvez pas voir les mises à jour/modifications effectuées par le propriétaire de l’événement. |
