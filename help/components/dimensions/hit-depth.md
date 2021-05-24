@@ -1,14 +1,14 @@
 ---
 title: Profondeur d’accès
 description: Numéro de l’accès lors de la visite.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # Profondeur d’accès
 
