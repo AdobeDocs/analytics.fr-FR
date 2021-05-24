@@ -3,14 +3,14 @@ description: Le groupe Adobe Engineering Services peut configurer un projet pers
 keywords: ftp;sftp
 title: Envoi de données Adobe vers un compte FTP externe par SFTP
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 2490c452-cd05-45ab-95c0-7be34b033415
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # Envoi de données Adobe vers un compte FTP externe par SFTP
 
