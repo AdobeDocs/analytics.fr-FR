@@ -1,14 +1,14 @@
 ---
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
-translation-type: tm+mt
-source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 
 ---
-
 
 # tl
 
@@ -56,7 +56,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Type de lien (obligatoire)
+### Type de lien  (obligatoire)
 
 L’argument de type de lien est une chaîne d’un seul caractère qui détermine le type d’appel de suivi des liens. Il existe trois valeurs valides.
 
