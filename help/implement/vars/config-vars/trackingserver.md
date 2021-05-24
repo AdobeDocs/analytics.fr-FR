@@ -1,14 +1,14 @@
 ---
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
-
 
 # trackingServer
 
@@ -59,9 +59,9 @@ Si vous utilisez une mise en œuvre de cookies tiers, la valeur de `trackingServ
 s.trackingServer = "example.data.adobedc.net";
 ```
 
-Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics.  L’espace de nommage visiteur affecté à votre organisation est recommandé.  Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
+Sélectionnez un sous-domaine unique à votre organisation, qui ne sera probablement pas choisi par une autre organisation qui utilise Adobe Analytics.  Il est recommandé d’utiliser l’espace de noms du visiteur attribué à votre organisation.  Assurez-vous que toutes les mises en œuvre de votre entreprise utilisent le même serveur de suivi. Il peut s’avérer utile de conserver ces informations dans un [document de conception de solution](../../prepare/solution-design.md).
 
-Votre entreprise utilise peut-être déjà un serveur de suivi tiers dans les domaines `sc.omtrdc.net` ou `2o7.net`.  Elles ont été principalement utilisées dans les versions précédentes d&#39;Adobe Analytics et sont toujours valides.
+Votre organisation utilise peut-être déjà un serveur de suivi tiers dans les domaines `sc.omtrdc.net` ou `2o7.net`.  Ceux-ci étaient principalement utilisés dans les versions précédentes d’Adobe Analytics et sont toujours valides.
 
 >[!NOTE]
 >
