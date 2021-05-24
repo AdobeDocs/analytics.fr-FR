@@ -2,10 +2,10 @@
 title: Autorisations du profil de produit pour les outils de suites de rapports
 description: Découvrez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 96%
+source-wordcount: '623'
+ht-degree: 86%
 
 ---
 
@@ -15,10 +15,6 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 
 | Éléments d’autorisation liés aux outils de suites de rapports | Description |
 |------|------|
-| Data Warehouse | Inutilisé. Utilisez plutôt « Rapport personnalisé de Data Warehouse ». |
-| SiteCatalyst | Inutilisé. Utilisez plutôt Accès à Analysis Workspace. |
-| Suites de rapports (lecture) | Inutilisé. |
-| Suites de rapports (écriture) | Inutilisé. |
 | Gestion du trafic | Inutilisé. |
 | Gestion des suites de rapports | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | Résumé du compte | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
@@ -27,7 +23,6 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Recherche payante | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | Personnalisation des menus | Accorde l’accès à Général > Personnaliser les menus dans le Gestionnaire de suites de rapports. |
 | Configuration des rapports en temps réel | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
-| Paramètres vidéo | Inutilisé. |
 | Variables de trafic | Accorde l’accès à Trafic > Variables de trafic dans le Gestionnaire de suites de rapports. |
 | Canaux | Accorde l’accès à Canaux marketing, y compris Gestionnaire de canaux marketing, Règles de traitement des canaux marketing et Expiration du canal marketing dans le Gestionnaire de suites de rapports. |
 | Coûts | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
@@ -38,7 +33,6 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Variables de liste | Accorde l’accès à Conversion > Variables de liste dans le Gestionnaire de suites de rapports. |
 | Mesures par défaut | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
 | Règles de traitement | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
-| Configuration Advertising Analytics | Inutilisé. |
 | Détection des anomalies | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | Analyse des contributions | Accorde l’accès au menu contextuel « Exécuter l’analyse des contributions » dans Analysis Workspace. |
 | Rapport Canal | Accorde l’accès à Canaux marketing > Rapport Aperçu d’un canal dans Reports &amp; Analytics. |
@@ -50,19 +44,13 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Visites retours quotidiennes | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
 | Gestionnaire des sources de données | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Exclure par adresse IP | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
-| 100 derniers visiteurs | Inutilisé. |
-| ClickMap hérité | Inutilisé. Utilisez plutôt Activity Map sous Outils Analytics. |
-| Installation ClickMap héritée | Inutilisé. Utilisez plutôt Activity Map sous Outils Analytics. |
 | Visites retours | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
-| Rapport d’aperçu des applications mobiles | Inutilisé. |
 | Classifications | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic > Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion > Hiérarchies des classifications<br>Canaux marketing > Classifications des canaux marketing<br>Gestion des applications > Classifications des applications<br>Gestion des médias > Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
 | Mes rapports recommandés | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
-| Petit rapport récapitulatif pour la société | Inutilisé. |
-| Image | Inutilisé. |
-| IPC/Petit rapport de jauge | Inutilisé. |
-| Totaux de suites de rapports | Inutilisé. |
-| Petit rapport texte | Inutilisé. |
-| Petit rapport récapitulatif de l’utilisation | Inutilisé. |
-| Ressources web | Inutilisé. |
-| Social | Inutilisé. |
+| Mini-rapport d’image du tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport Évaluation des mesures du tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport Texte de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport externe de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
 | API de réparation des données | Accorde l’accès à l’API Data Repair |
