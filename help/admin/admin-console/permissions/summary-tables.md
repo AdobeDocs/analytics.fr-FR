@@ -19,11 +19,11 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | --- | --- | --- | --- | --- | --- |
 | Résumé du compte | x |  |  |  | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
 | Canaux | x |  |  |  | Accorde l’accès à Canaux marketing, y compris Gestionnaire de canaux marketing, Règles de traitement des canaux marketing et Expiration du canal marketing dans le Gestionnaire de suites de rapports. |
-| Classifications | x |  |  |  | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément dʼautorisation comprend : |
+| Classifications | x |  |  |  | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément dʼautorisation comprend : |
 | Variables de conversion | x |  |  |  | Accorde l’accès à Conversion > Variables de conversion dans le Gestionnaire de suites de rapports. |
 | Coûts | x |  |  |  | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
 | Calendrier personnalisé | x |  |  |  | Accorde l’accès à Général > Personnaliser le calendrier dans le Gestionnaire de suites de rapports. |
-| Gestionnaire des flux de données | x |  |  |  | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
+| Gestionnaire des flux de données | x |  |  |  | Accorde l’accès à Admin > Flux de données dans le volet de navigation supérieur d’Analytics. |
 | API de réparation des données | x |  |  |  | Accorde l’accès à l’API Data Repair |
 | Gestionnaire des sources de données | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Mesures par défaut | x |  |  |  | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
@@ -75,18 +75,18 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | --- | --- | --- | --- | --- | --- |
 | Gestionnaire de code | x |  |  |  | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
 | Code Manager – Web Services | x |  |  |  | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
-| Masquage des suites de rapports | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de Société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
+| Masquage des suites de rapports | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Intégrations (créer) | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
 | Intégrations (supprimer) | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer les connecteurs de données. |
-| Intégrations (mettre à jour) | x |  |  |  | Accorde l’accès à Admin > All admin > Data connectors et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
+| Intégrations (mettre à jour) | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
 | Journaux | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | Logs – Web Services | x |  |  |  | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
-| Actions en attente | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Actions en attente. |
-| Sécurité | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Gestionnaire de sécurité. |
+| Actions en attente | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
+| Sécurité | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
 | Utilisation des appels au serveur | x |  |  |  | Accorde l’accès à Admin > Utilisation des appels au serveur. |
-| Support technique | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Informations sur l’assistance. |
+| Support technique | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
 | Gestion du trafic | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
-| Services web | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Services Web. |
+| Services web | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
 | Activity Map |  | x |  |  | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis tire sa révérence. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accès à Analysis Workspace |  | x |  |  | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
@@ -100,7 +100,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Données actives |  |  | x |  | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
 | Accès aux Reports &amp; Analytics |  |  | x |  | Octroie l’accès aux Reports &amp; Analytics. Les utilisateurs doivent appartenir à ce groupe ou disposer d’un accès aux Analysis Workspace (recommandé) pour utiliser Adobe Analytics. |
 | Gestion Advertising Analytics |  |  |  | x | Inutilisé. |
-| Alliance de marques |  |  |  | x | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Alliance de marques. |
+| Alliance de marques |  |  |  | x | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Alliance de marques. |
 | Utilisateurs sous licence Excel |  |  |  | x | Inutilisé. |
 | Administration des applications mobiles |  |  |  | x | Inutilisé. |
 | Gestion des autorisations |  |  |  | x | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Tous les administrateurs > Gestion des utilisateurs. |
