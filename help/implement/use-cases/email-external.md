@@ -1,14 +1,14 @@
 ---
 title: Suivi des courriers électroniques externes
 description: Utilisez Adobe Analytics pour effectuer le suivi du contenu des courriers électroniques.
-translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
-workflow-type: tm+mt
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # Suivi des courriers électroniques externes
 
@@ -26,7 +26,7 @@ Les sociétés utilisent Analytics pour déterminer le succès d’une campagne 
 
 Des modifications dans le corps du courrier électronique HTML et la bibliothèque JavaScript sont nécessaires pour capturer les mesures clés affichées ci-dessus.
 
-## Mise en œuvre {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## Mise en œuvre  {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 Plusieurs étapes successives permettent d’afficher les données d’analyse des campagnes par courrier électronique. Ces étapes sont décrites ci-dessous :
 
@@ -73,7 +73,7 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
       s.doPlugins=s_doPlugins 
       ```
 
-      Chaque paramètre de chaîne de requête devant être copié dans une variable doit comporter un appel [!UICONTROL getQueryParam]. Dans l’exemple ci-dessus, le paramètre de chaîne de requête [!UICONTROL sc_cid] est copié dans *`campaign`*.
+      Chaque paramètre de chaîne de requête devant être copié dans une variable doit comporter un appel [!UICONTROL getQueryParam]. Dans l’exemple ci-dessus, le paramètre de chaîne de requête [!UICONTROL sc_cid] est copié dans  *`campaign`*.
 
       Seul le premier appel à [!UICONTROL getQueryParam] est nécessaire pour capturer les clics publicitaires. Contactez Adobe [!DNL Customer Care] pour implémenter cette fonction et pour vérifier que votre version du fichier JavaScript contient le plug-in [!UICONTROL getQueryParam].
 
@@ -102,4 +102,3 @@ Plusieurs étapes successives permettent d’afficher les données d’analyse d
       ```
 
       Lorsque le cheminement est activé pour la variable d’[!UICONTROL aperçu personnalisée], vous pouvez utiliser les rapports sur les [!UICONTROL chemins] (rapport [!UICONTROL Flux de page suivante] ou rapport sur les [!UICONTROL abandons], par exemple) pour afficher la navigation des visiteurs à partir de la page d’entrée.
-
