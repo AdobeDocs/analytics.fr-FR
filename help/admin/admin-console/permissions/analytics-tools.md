@@ -1,6 +1,6 @@
 ---
 title: Autorisations du profil de produit pour les outils Analytics
-description: Utilisez les éléments d’autorisation des outils Analytics pour accorder l’accès aux fonctionnalités dans Adobe Analytics.
+description: Utilisez les éléments d’autorisation liés aux outils Analytics pour accorder l’accès aux fonctionnalités d’Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
@@ -24,14 +24,14 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Gestion des autorisations | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Tous les administrateurs > Gestion des utilisateurs. |
 | Autorisations (lecture) – Services web | N’est plus utilisé. Permet à l’utilisateur d’afficher les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
 | Autorisations (écriture) - Services Web | N’est plus utilisé. Permet à l’utilisateur de modifier les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
-| Sécurité | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Gestionnaire de sécurité. |
-| Support technique | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Informations sur l’assistance. |
-| Services web | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Services Web. |
+| Sécurité | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
+| Support technique | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
+| Services web | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
 | Authentification unique | N’est plus utilisé. Accorde l’accès au service d’authentification unique obsolète. |
-| Actions en attente | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Actions en attente. |
-| Alliance de marques | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la Société > Alliance de marques. |
+| Actions en attente | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
+| Alliance de marques | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Alliance de marques. |
 | Préférences | Inutilisé. |
-| Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de Société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
+| Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Utilisateurs sous licence Excel | Inutilisé. |
 | Activity Map | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Données actives | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
@@ -48,5 +48,5 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Gestion Advertising Analytics | Inutilisé. |
 | Publication de segment | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
 | Intégrations (créer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
-| Intégrations (mettre à jour) | Accorde l’accès à Admin > All admin > Data connectors et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
+| Intégrations (mettre à jour) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
 | Intégrations (supprimer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer les connecteurs de données. |
