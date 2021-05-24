@@ -1,14 +1,14 @@
 ---
 title: Profondeur moyenne de page
 description: Le nombre moyen de pages dans lesquelles se trouve la dimension.
-translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
-workflow-type: tm+mt
+exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Profondeur moyenne de page
 
@@ -16,7 +16,7 @@ La mesure « Profondeur moyenne de page » indique le niveau auquel l’élém
 
 >[!TIP]
 >
->Utilisez cette mesure avec une autre mesure (telle que [Visites](visits.md)) pour obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page d’anomalie, qui sont généralement inutiles.
+>Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleurs insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page d’anomalie, qui sont généralement inutiles.
 
 ## Méthode de calcul de cette mesure
 
