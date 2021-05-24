@@ -2,14 +2,14 @@
 description: Selon vos autorisations, vous pouvez partager des mesures calculées avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 title: Partage des mesures calculées
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '275'
 ht-degree: 100%
 
 ---
-
 
 # Partage des mesures calculées
 
@@ -41,4 +41,3 @@ A quel moment devriez-vous partager des mesures calculées à l’échelle de l�
    L’icône Partagé s’affiche en regard de la mesure : ![](assets/share_icon.png)
 
 1. Vous pouvez filtrer par mesures partagées avec vous en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Partagé avec moi]**.
-
