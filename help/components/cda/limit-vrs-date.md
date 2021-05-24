@@ -1,41 +1,41 @@
 ---
 title: Limitation d’une suite de rapports virtuelle à certaines dates
-description: Comprenez comment limiter une plage de dates de la suite de rapports virtuelle pour vous concentrer uniquement sur les données assemblées.
-translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
-workflow-type: tm+mt
+description: Apprenez comment limiter la période dʼune suite de rapports virtuelle pour vous concentrer uniquement sur les données assemblées.
+exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Limitation d’une suite de rapports virtuelle à certaines dates
 
-Lorsque nous activons la couture, les débuts de couture sur une date spécifique. Supposons que la date soit le 1er juin. La SRV de l&#39;ADC contiendra des données non recoupées avant le 1er juin. Vous pouvez masquer les données de la suite de rapports virtuelle avant le 1er juin afin que votre analyse puisse se concentrer sur les plages de dates après le début de la sélection.
+Une fois lʼassemblage activé, il débute à une date précise. Supposons que la date soit le 1er juin. La suite de rapports virtuelle des données dʼattribut du client contiendra des données non assemblées antérieures au 1er juin. Vous pouvez masquer les données de la suite de rapports virtuelle antérieures au 1er juin afin que votre analyse puisse se concentrer sur les périodes postérieures au début de lʼassemblage.
 
-Vous pouvez limiter les données VRS à certaines dates en procédant comme suit :
+Vous pouvez limiter les données de la suite de rapports virtuelle à certaines dates en procédant comme suit :
 
-## Étape 1 : Créer une suite de rapports virtuelle avec une plage de dates quotidienne variable
+## Étape 1 : créer une suite de rapports virtuelle avec une période mobile quotidienne
 
-Lorsque vous configurez la suite de rapports virtuelle, sous Composants, ajoutez une plage de dates avec un début fixe, avec une plage de dates journalière variable. Le début fixe devrait être le jour où les coutures ont commencé.
+Lorsque vous configurez la suite de rapports virtuelle, sous Composants, ajoutez une période dont le début est fixe, avec une période mobile quotidienne. Le début fixe devrait être le jour de début de lʼassemblage.
 
 ![](assets/rolling-daily.png)
 
-## Étape 2 : Création d’un segment d’exclusion
+## Étape 2 : créer un segment « exclure-exclure »
 
-Créez ensuite un segment d’accès qui place la plage de dates dans un conteneur d’exclusion dans un autre conteneur d’exclusion. Il s’agit d’une exclusion.
+Créez ensuite un segment dʼaccès qui place la période dans un segment « exclure le conteneur » à lʼintérieur dʼun autre segment « exclure le conteneur ». Il sʼagit dʼun « exclure exclure ».
 
-La raison de l’exclusion est que les plages de dates sont destinées à remplacer la plage de dates du rapport. Ainsi, si vous incluez uniquement le 1er juin à l’avance, la plage de dates du rapport sera toujours reportée le 1er juin. Cela conduira à des résultats indésirables. Lorsque vous excluez l’exclusion, elle remplace ce comportement et limite simplement les données que vous pouvez extraire à la plage de dates appropriée.
+La raison de lʼ« exclure exclure » est que les périodes sont destinées à remplacer la période du rapport. Ainsi, si vous incluez uniquement les données à partir du 1er juin, la période du rapport sera toujours du 1er juin à la date actuelle. Cela conduira à des résultats indésirables. Avec le segment « exclure exclure », ce comportement est annulé et les données que vous pouvez extraire sont limitées à la période appropriée.
 
 ![](assets/exclude-exclude.png)
 
-## Étape 3 : Appliquer ce segment à votre suite de rapports virtuelle CDA
+## Étape 3 : appliquer ce segment à votre suite de rapports virtuelle des données dʼattribut du client
 
 ![](assets/apply-segment.png)
 
-## Étape 4 : Afficher les résultats dans le rapports
+## Étape 4 : afficher les résultats dans le compte rendu des performances
 
-Notez que le rapports début désormais à la date souhaitée, le jour même où l’assemblage a été mis en oeuvre pour la première fois :
+Remarquez que le compte rendu des performances débute désormais à la date souhaitée, le jour même où lʼassemblage a été mis en œuvre pour la première fois :
 
 ![](assets/report-limited-dates.png)
