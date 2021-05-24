@@ -2,20 +2,20 @@
 description: 'Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.'
 title: Recherche de mesures
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 
 ---
 
-
 # Recherche de mesures
 
 Décrit les deux moyens principaux de recherche de mesures : le tri et le filtrage.
 
-## Tri {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Tri  {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metrics_icon.png) située à gauche d’un rapport pour afficher le rail Mesures, la liste déroulante **[!UICONTROL Trier par]** du sélecteur de mesures propose quatre options de tri :
 
@@ -64,4 +64,3 @@ Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures, cliquez sur **
   </tr> 
  </tbody> 
 </table>
-
