@@ -3,14 +3,14 @@ description: Utilisez Analytics pour créer et gérer des sources de données ba
 keywords: ftp;sftp
 title: Sources de données
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Sources de données
 
@@ -22,7 +22,7 @@ Dans l’onglet [!UICONTROL Créer] du gestionnaire des sources de données, vou
 
 Dans la fenêtre [!UICONTROL Gérer les sources de données], recherchez votre source de données et cliquez sur le lien Infos FTP. Les informations de connexion FTP s’affichent dans la fenêtre [!UICONTROL Activer une source de données], sous la section [!UICONTROL Téléchargement / informations FTP].
 
-Pour en savoir plus sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
+Pour en savoir plus sur les limites FTP et la conservation des données, voir  [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## Fichier .fin pour les transferts de classifications et de sources de données {#section_1484719F8A134EAE91212DBD8F15174F}
 
