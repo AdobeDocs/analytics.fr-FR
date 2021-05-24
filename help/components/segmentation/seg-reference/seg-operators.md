@@ -4,10 +4,10 @@ title: Opérateurs de comparaison pour les segments
 feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
+source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 99%
+source-wordcount: '1086'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | n’est pas égal à | Renvoie les éléments qui ne comportent pas une correspondance exacte avec la valeur saisie.  Remarque : Si vous utilisez des caractères génériques, utilisez l’opérateur « ne correspond pas à ». |
 | égal à n’importe lequel ; | Renvoie les éléments qui correspondent exactement à n’importe quelle valeur du champ de saisie (jusqu’à 500 éléments). Par exemple, la saisie de « Résultats de la recherche, page d’accueil » avec cet opérateur correspondrait à « Résultats de la recherche » et « Page d’accueil », et serait considérée comme deux éléments. Le champ de saisie de cet opérateur est délimité par des virgules. |
 | n’est pas égal à n’importe lequel. | Identifie les éléments qui correspondent exactement à n’importe quelle valeur du champ de saisie (jusqu’à 500 éléments), puis renvoie uniquement les éléments sans ces valeurs. Par exemple, la saisie de « Résultats de la recherche, page d’accueil » avec cet opérateur identifierait « Résultats de la recherche » et « Page d’accueil », puis les exclut des éléments renvoyés. Cet exemple serait considéré comme deux éléments. Le champ de saisie de cet opérateur est délimité par des virgules. |
-| contient | Renvoie les éléments qui sont comparés aux sous-chaînes des valeurs saisies. Par exemple, si la règle pour « Page » contient « Recherche », elle correspondra à toute page dont la sous-chaîne est « Recherche », y compris « Résultats de la recherche », « Rechercher » et « En cours de recherche ». |
+| contient | Renvoie les éléments qui sont comparés aux sous-chaînes des valeurs saisies. Par exemple, si la règle pour « Page » contient « Recherche », elle correspondra à toute page dont la sous-chaîne est « Recherche », y compris « Résultats de la recherche », « Rechercher » et « En cours de recherche ». La clause &quot;contient&quot; n’est pas sensible à la casse dans Adobe Analytics, mais elle est sensible à la casse dans Customer Journey Analytics. |
 | ne contient pas | Renvoie l’inverse de la règle « contient ». Plus précisément, tous les éléments qui correspondent à la valeur entrée seront exclus des valeurs entrées. Par exemple, si la règle pour « Page » ne contient pas « Recherche », elle ne correspondra à aucune page comportant la sous-chaîne « Recherche », y compris « Résultats de la recherche », « Rechercher » et « En cours de recherche ». Ces valeurs seront exclues des résultats. |
 | contient tous les | Renvoie les éléments comparés aux sous-chaînes, notamment plusieurs valeurs associées. Par exemple, la saisie de « Résultats de la recherche » avec cet opérateur correspondrait à « Résultats de la recherche » et « Résultats de recherche » mais pas à « Recherche » ou « Résultats » indépendamment. Cet opérateur correspondrait à Recherche ET Résultats réunis. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
 | ne contient pas tous les | Identifie les éléments par rapport aux sous-chaînes (y compris plusieurs valeurs jointes ensemble) puis renvoie uniquement les éléments sans ces valeurs. Par exemple, la saisie de « Résultats de la recherche » avec cet opérateur identifierait « Résultats de la recherche » et « Résultats recherche » (mais pas « Recherche » ni « Résultats » indépendamment), puis exclurait ces éléments. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
@@ -37,7 +37,7 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | ne commence pas par | Renvoie tous les éléments qui ne commencent pas par les caractères ou les chaînes des valeurs saisies. Il s’agit de l’inverse de l’opérateur « commence par ». |
 | se termine par | Renvoie les éléments qui se terminent par le caractère ou les chaînes de la valeur saisie. |
 | ne se termine pas par | Renvoie tous les éléments qui ne se terminent pas par les caractères ou les chaînes de la valeur saisie. Il s’agit de l’inverse de l’opérateur « se termine par ». |
-| correspond à | Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne donnée. Remarque : Utilisez cet opérateur lorsque vous utilisez les fonctions de caractère générique (expansion de nom de fichier). |
+| correspond à | Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne donnée. La clause &quot;correspond à&quot; est sensible à la casse dans Adobe Analytics et en Customer Journey Analytics. **Remarque** : Utilisez cet opérateur lorsque vous utilisez les fonctions de caractère générique (expansion de nom de fichier). Exemples de &quot;globbing&quot; :<ul><li>`a*e` correspondrait à  `ae`,  `abcde`,  `adobe` et  `a whole sentence`</li><li>`adob*` correspondrait à  `adobe`,  `adobe analytics` et  `adobo recipe`</li><li>`*dobe` correspondrait à  `dobe`,  `adobe` et  `cute little dobe`</li></ul> |
 | ne correspond pas à | Renvoie les éléments qui ne comportent pas une correspondance exacte avec la valeur saisie. Remarque : Utilisez cet opérateur lorsque vous utilisez les fonctions de caractère générique (expansion de nom de fichier). |
 | existe | Renvoie le nombre d’éléments existants. Par exemple, si vous évaluez la dimension Pages introuvables à l’aide de l’opérateur « existe », le nombre de pages d’erreur existantes est renvoyé. |
 | n’existe pas | Renvoie tous les éléments qui n’existent pas. Par exemple, si vous évaluez la dimension Pages introuvables à l’aide de l’opérateur « n’existe pas », le nombre de pages où cette page d’erreur n’existe pas est renvoyé. |
