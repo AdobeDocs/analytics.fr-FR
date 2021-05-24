@@ -1,14 +1,14 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
 ---
-
 
 # Compatibilité des dimensions Analytics
 
@@ -38,7 +38,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Pays | `geocountry` |
 | Fidélité de la clientèle | `customerloyalty` |
 | Variables de conversion personnalisées | `evar1`, `evar2`, etc. |
-| Variables Aperçu personnalisé | `prop1`,  `prop2`, etc. |
+| Variables Aperçu personnalisé | `prop1`, `prop2`, etc. |
 | Lien personnalisé | `customlink` |
 | Jours avant le premier achat | `daysbeforefirstpurchase` |
 | Jours depuis le dernier achat | `dayssincelastpurchase` |
@@ -84,7 +84,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | SC-TnT | `tntbase` |
 | Moteur de recherche | `searchengine` |
 | Mot-clé de recherche | `searchenginekeyword` |
-| Moteur de recherche - Naturel | `searchenginenatural` |
+| Moteur de recherche  - Naturel | `searchenginenatural` |
 | Moteur de recherche - Payant | `searchenginepaid` |
 | Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
@@ -170,16 +170,16 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 |--- |--- |
 | Hauteur du navigateur | `browserheight` |
 | Largeur du navigateur | `browserwidth` |
-| Clients quotidiens uniques | `dailyuniquecustomers` |
+| Clients uniques par jour | `dailyuniquecustomers` |
 | JavaScript | `javascriptsupport` |
 | Version JavaScript | `javascriptversion` |
-| Clients mensuels uniques | `monthlyuniquecustomers` |
-| Clients trimestriels uniques | `quarterlyuniquecustomers` |
+| Clients uniques par mois | `monthlyuniquecustomers` |
+| Clients uniques par trimestre | `quarterlyuniquecustomers` |
 | Fuseaux horaires | `timezone` |
 | Domaines de haut niveau | `topleveldomain` |
 | État du visiteur | `legacystate` |
-| Clients hebdomadaires uniques | `weeklyuniquecustomers` |
-| Clients annuels uniques | `yearlyuniquecustomers` |
+| Clients uniques par semaine | `weeklyuniquecustomers` |
+| Clients uniques par an | `yearlyuniquecustomers` |
 
 ## Dimensions adaptées au contenu prises en charge à la fois par Reports &amp; Analytics et par Analysis Workspace
 
@@ -306,7 +306,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Lien d’Activity Map par région | `clickmaplinkbyregion` |
 | Région d’Activity Map | `clickmapregion` |
 | Lien d’Activity Map | `clickmaplink` |
-| Activity Map Page | `clickmappage` |
+| Activity Map  Page | `clickmappage` |
 
 ### Intégration Nielsen
 
