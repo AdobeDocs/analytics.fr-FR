@@ -1,14 +1,14 @@
 ---
 title: Guide d’exportation Analytics
-description: Ce guide décrit comment extraire des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
-workflow-type: tm+mt
+description: Ce guide décrit les méthodes d’extraction des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
+exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # Guide d’exportation Analytics
 
@@ -22,7 +22,7 @@ Ce guide décrit comment extraire des données d’Adobe Analytics. Il inclut :
 ## Principaux articles sur l’exportation Analytics
 
 * [Référence des colonnes de flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
-* [Data Warehouse](data-warehouse/data-warehouse.md)
+* [Data Warehouse](data-warehouse/data-warehouse.md)
 * [Exportation vers FTP](ftp-and-sftp/ftp-overview.md)
 
 ## Plus de guides d’utilisation d’Analytics
