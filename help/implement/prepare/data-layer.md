@@ -1,14 +1,14 @@
 ---
 title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # Création d’une couche de données
 
@@ -16,7 +16,7 @@ Une couche de données désigne une structure d’objets JavaScript sur votre si
 
 ## Conditions préalables
 
-[Créer un document de conception de solution :](solution-design.md) il est important que votre entreprise s’aligne sur les exigences de suivi. Assurez-vous d’être prêt à utiliser un document de conception de solution avant de vous adresser aux équipes de développement de votre entreprise.
+[Créer un document de conception de solution :](solution-design.md) il est important que votre entreprise s’aligne sur les exigences de suivi. Assurez-vous d’être préparé et de disposer d’un document de conception de solution avant de contacter les équipes de développement de votre organisation.
 
 ## Processus
 
@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n&#39;utilisent pas tous les objets ; par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours au tableau d’objets `digitalData.product`.
+Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n’utilisent pas tous les objets. Par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours au tableau d’objets `digitalData.product`.
 
 Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
 
