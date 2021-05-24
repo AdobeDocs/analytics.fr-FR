@@ -2,16 +2,16 @@
 description: Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 title: Mesures
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 85%
+exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '254'
+ht-degree: 100%
 
 ---
-
 
 # Mesures
 
@@ -31,11 +31,11 @@ Afin de faciliter la création rapide de mesures calculées, l’option **[!UICO
 
 ![](assets/calc_metrics.png)
 
-[Mesures calculées : Mesures](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html)  sans mise en oeuvre (3:42)
+[Mesures calculées : mesures sans implémentation](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html) (3:42)
 
 ## Comparaison de mesures avec différents modèles d’attribution
 
-Si vous souhaitez comparer rapidement et facilement un modèle d’attribution à un autre, cliquez avec le bouton droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
+Si vous souhaitez comparer rapidement et facilement deux modèles d’attribution, faites un clic droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
 
 ![Comparer l’attribution](assets/compare-attribution.png)
 
