@@ -4,7 +4,6 @@ title: Mesures et dimensions en temps réel prises en charge
 topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '106'
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
 
-## Mesures prises en charge {#section_514ED8B382494C47BFC0657894D1AF94}
+## Mesures prises en charge  {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * Recettes
 * Commandes
