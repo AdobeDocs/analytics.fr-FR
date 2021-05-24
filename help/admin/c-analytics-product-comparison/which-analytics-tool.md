@@ -2,20 +2,20 @@
 description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
-workflow-type: tm+mt
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
 
-
 # Quel outil Adobe Analytics dois-je utiliser ?
 
 Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 
-Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
+Pour en savoir plus sur la comparaison des produits Adobe Analytics,  [ici](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 
 ## Interfaces utilisateurs de la création de rapports Adobe Analytics {#user-interfaces}
 
@@ -40,7 +40,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics, [ici](/hel
 * Pour l’analyse de latence (durée avant/depuis un événement).
 * Pour l’identification et l’exportation de segments complexes par l’intermédiaire d’Adobe Experience Cloud.
 
-## Importation de données dans Adobe Analytics {#import}
+## Importation de données dans Adobe Analytics  {#import}
 
 **[Les classifications](/help/components/classifications/c-classifications.md)** doivent être utilisées :
 
