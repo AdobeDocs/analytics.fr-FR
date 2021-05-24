@@ -2,16 +2,16 @@
 description: Affichez les valeurs supérieures d’une dimension avant de l’utiliser dans un projet.
 title: Aperçu des dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '197'
+exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # Aperçu des dimensions
 
