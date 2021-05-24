@@ -1,17 +1,17 @@
 ---
 description: Le traitement permet de limiter les composants avant de partager un projet.
-keywords: Analysis Workspace
+keywords: Traitement d’Analysis Workspace
 title: Traitement des projets
-feature: Curate and Share
+feature: Traitement et partage
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 98%
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
-
 
 # Traitement des projets
 
@@ -68,4 +68,4 @@ Remarque : les rôles de vue non administrateurs n’ont pas accès au rail de 
 |---|---|---|---|
 | Suites de rapports virtuelles non traitées | Tous les composants de suites de rapports virtuelles non traités | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
 | Projet traité | Tous les composants de projets non traités | Tous les composants de projets non traités | Composants de projets non traités possédés par ce rôle ou avec lequel ils ont été partagés |
-| Projet traité dans une de suite de rapports virtuelle traitée | Tous les composants non traités ci-dessous **[!UICONTROL Composants de projets non traités]** et **[!UICONTROL Composants de suites de rapports virtuelles non traités]** | Tous les composants de projets non traités ET les composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de projets et de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
+| Projet traité dans une de suite de rapports virtuelle traitée | Tous les composants non traités ci-dessous  **[!UICONTROL Composants de projets non traités]** et **[!UICONTROL Composants de suites de rapports virtuelles non traités]** | Tous les composants de projets non traités ET les composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de projets et de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
