@@ -1,14 +1,14 @@
 ---
 title: Moteur de recherche
 description: Moteur de recherche utilisé par le visiteur pour accéder à votre site.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # Moteur de recherche
 
