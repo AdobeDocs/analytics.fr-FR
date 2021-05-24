@@ -2,16 +2,16 @@
 description: Utilisation de la visualisation à barres dans un projet Workspace.
 title: Barre et barres empilées
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizations
+feature: Visualisations
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 96%
+exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '89'
+ht-degree: 100%
 
 ---
-
 
 # Barre et barres empilées
 
@@ -32,4 +32,3 @@ Dans cette visualisation semblable à un graphique à barres, les barres des sé
 Un nouveau paramètre d’affichage appliqué aux graphiques à barres empilées offre un aperçu « 100 % empilé » du diagramme :
 
 ![](assets/stacked_100_percent.png)
-
