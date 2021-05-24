@@ -6,7 +6,6 @@ title: Redirections et alias
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '1125'
@@ -30,7 +29,7 @@ Il existe uniquement deux types de redirection, mais elles peuvent être implém
 
 [!DNL Analytics] rassemble certaines de ses données du navigateur et repose sur certaines propriétés du navigateur. Deux de ces propriétés, l’« URL de référence » (ou « référent ») et l’« URL active » peuvent être modifiées par une redirection côté serveur. Le navigateur sait qu’une URL a été demandée, mais qu’une autre URL a été renvoyée et il efface donc l’URL de référence. En conséquence, l’URL de référence est vide et [!DNL Analytics] peut signaler qu’il n’existe aucun référent pour la page.
 
-## Exemple : navigation sans redirection {#section_5C835A4D665A4625A23333C2C21F152D}
+## Exemple : navigation sans redirection  {#section_5C835A4D665A4625A23333C2C21F152D}
 
 Prenons l’hypothèse suivante, selon laquelle aucune redirection ne se présente à l’utilisateur :
 
@@ -111,7 +110,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable *`s_pageURL`* pour remplacer l’URL active.
+Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable  *`s_pageURL`* pour remplacer l’URL active.
 
 Il existe de nombreuses façons de mettre en œuvre une redirection. Identifiez avec votre groupe d’opérations web ou votre partenaire de publicité en ligne les mécanismes spécifiques qui exécutent les redirections sur votre site web.
 
@@ -150,7 +149,7 @@ redirects_verify_referrer.xml
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
+Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
