@@ -1,14 +1,14 @@
 ---
 title: Vitesse du contenu
 description: La vitesse du contenu mesure l’impact du contenu sur le contenu en aval.
-translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '57'
 ht-degree: 100%
 
 ---
-
 
 # Vitesse du contenu
 
