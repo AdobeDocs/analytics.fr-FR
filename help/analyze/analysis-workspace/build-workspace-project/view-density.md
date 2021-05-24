@@ -1,16 +1,16 @@
 ---
 description: Découvrez comment ajuster la densité d’affichage.
 title: Densité d’affichage
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '109'
+exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # Densité d’affichage
 
