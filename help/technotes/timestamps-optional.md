@@ -5,7 +5,6 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '618'
@@ -43,7 +42,7 @@ L’un des paramètres d’horodatage suivants peut être défini pour une suite
 * Horodatages requis (paramètre visitorID non pris en charge)
 * Horodatages facultatifs (paramètre visitorID pris en charge sauf sur les accès horodatés)
 
-## Paramètre Horodatages (facultatif) {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## Paramètre Horodatages (facultatif)  {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 Le paramètre Horodatages (facultatif) permet d’intégrer plusieurs suites de rapports et d’en produire des rapports, avec ou sans horodatage côté client. Avec ce paramètre, vous pouvez mettre à jour votre application afin d’utiliser les horodatages tout en continuant à utiliser les données non horodatées de l’application antérieure.
 
