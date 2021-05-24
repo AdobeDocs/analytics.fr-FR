@@ -3,14 +3,14 @@ description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ense
 solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '642'
 ht-degree: 100%
 
 ---
-
 
 # Utilisation des données d’audience dans Analytics
 
@@ -20,16 +20,16 @@ Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module
 
 Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux dimensions.
 
-1. Accédez à **[!UICONTROL Espace de travail]**.
+1. Accédez à **[!UICONTROL Workspace]**.
 1. Dans la liste des **[!UICONTROL Dimensions]**, sélectionnez les dimensions **[!UICONTROL ID d’audience]** ou **[!UICONTROL Nom d’audience]**. La dimension Nom d’audience est une classification conviviale de la dimension ID d’audience.
 
    ![](assets/aw-mcaudiences.png)
 
-## Comparaison des segments {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Comparaison des segments  {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
 [Comparaison des segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
 
-1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Workspace]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
 
 1. Recherchez [!UICONTROL Nom d’audience] dans le menu **[!UICONTROL Composant]**.
 
@@ -46,7 +46,7 @@ Dans Analysis Workspace, les segments AAM apparaissent sous la forme de deux di
 
 Les données de segments AAM sont transmises à Analytics accès par accès et représentent l’appartenance d’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
 
-1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez la visualisation **[!UICONTROL Flux]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation **[!UICONTROL Flux]** dans le rail de gauche.
 
 1. Faites glisser la dimension [!UICONTROL Nom d’audience] dans le générateur de flux.
 1. Cliquez sur **[!UICONTROL Créer]**.
@@ -54,13 +54,13 @@ Les données de segments AAM sont transmises à Analytics accès par accès et r
 
 ![](assets/flow-aamaudiences.png)
 
-Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
+Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Visualisation de Venn dans Analysis Workspace  {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 Les [visualisations de Venn](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/venn.html) affichent l’intersection entre 3 segments maximum.
 
-1. Accédez à **[!UICONTROL Espace de travail]** et sélectionnez la visualisation de **[!UICONTROL Venn]** dans le rail de gauche.
+1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation de **[!UICONTROL Venn]** dans le rail de gauche.
 
 1. Recherchez [!UICONTROL Nom d’audience] dans le menu Composants.
 1. Ouvrez [!UICONTROL Nom d’audience] pour faire apparaître les éléments de dimension associés.
@@ -88,4 +88,3 @@ Vous pouvez importer les dimensions d’audience dans le [Créateur de segments]
 1. Ce dossier permet d’accéder aux dimensions ID d’audience et Nom d’audience.
 
    ![](assets/mc-audiences.png)
-
