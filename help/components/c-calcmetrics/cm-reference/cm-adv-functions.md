@@ -2,14 +2,14 @@
 description: Accédez à ces fonctions en cochant Afficher les options avancées dans la liste déroulante Fonctions.
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
 ---
-
 
 # Référence : fonctions avancées
 
@@ -19,7 +19,7 @@ Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancée
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-## Que signifie le paramètre d’inclusion de zéros ? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
@@ -727,4 +727,3 @@ Renvoie la probabilité que la ligne actuelle puisse être vue par hasard dans l
 >[!NOTE]
 >
 >Présume que les valeurs sont distribuées normalement.
-
