@@ -4,7 +4,6 @@ title: Questions fréquentes
 feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '2078'
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Répond aux questions fréquemment posées sur les fonctionnalités de segmentation, l’accès, les autorisations, les bonnes pratiques et la gestion des segments hérités.
 
-## Fonctionnalités {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## Fonctionnalités  {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
 * Segmentation dans Analysis Workspace :
 
@@ -109,7 +108,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction des  [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Gestion des segments existants {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -117,7 +116,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de  modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -161,7 +160,7 @@ Ces segments seront migrés sous forme de modèles de segments dans le Créateur
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
@@ -314,7 +313,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
  </tbody> 
 </table>
 
-## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont été modifiées en types énumérés. Lors de la création d’un segment utilisant ces dimensions, la liste est pré-remplie avec toutes les valeurs connues et le seul opérateur pris en charge est « égal à ». Vous pouvez ainsi segmenter rapidement les valeurs exactes que vous recherchiez sans sélectionner des valeurs non voulues lors de l’utilisation d’une correspondance moins stricte.
 
