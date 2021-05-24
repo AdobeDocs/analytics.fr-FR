@@ -1,14 +1,14 @@
 ---
 title: Révision ciblée (après chaque mise à jour de site web)
 description: Suivez ces étapes pour vous assurer que votre implémentation reste dénuée d’erreurs et conforme à vos indicateurs clés de performance.
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
-
 
 # Révision ciblée (après chaque mise à jour de site web)
 
@@ -22,7 +22,7 @@ Connaître vos 5 principaux indicateurs clés de performances (KPI) vous aidera 
 
 Rappelez-vous qu’au fil du temps, les mises à jour du code peuvent avoir des ramifications inattendues. Vérifiez que toutes les mesures et dimensions associées à vos [5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, cela devrait être fait juste après une mise à jour de site web. Si vous ne l’avez pas fait au cours des derniers mois, faites-le *dès maintenant*. Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables importantes (ou définissez des [alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=fr-FR#analysis-workspace) pour chaque mesure). Ensuite, surveillez-les pendant un ou deux jours afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables importantes (ou définissez des [alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=fr#analysis-workspace) pour chaque mesure). Ensuite, surveillez-les pendant un ou deux jours afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales des mesures et variables de vos indicateurs clés de performance.
 
 *Pour plus d’informations concernant les manières de vous assurer que vos mesures et variables fonctionnent correctement, [consultez les conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, championne d’Adobe Analytics.*
@@ -35,7 +35,7 @@ Assurez-vous que la dernière mise à jour du site n’a pas eu d’incidence n�
 
 Si vous avez récemment ajouté ou modifié des mesures ou des variables, vous devez mettre à jour votre document d’exigences de l’entreprise (BRD) et votre document de référence pour la conception de solution (SDR).
 
-Si la documentation relative à votre implémentation est indisponible, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr-FR#implementation).
+Si la documentation relative à votre implémentation est indisponible, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
 
 ## 5. Résolvez immédiatement les problèmes liés à la qualité des données
 
