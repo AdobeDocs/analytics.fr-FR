@@ -4,7 +4,6 @@ title: Opérateurs de comparaison pour les segments
 feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-translation-type: tm+mt
 source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
 source-wordcount: '1041'
@@ -52,7 +51,7 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | est supérieur à | Renvoie les éléments dont le nombre est supérieur à la valeur saisie. |
 | est supérieur ou égal à | Renvoie les éléments dont le nombre est supérieur ou égal à la valeur saisie. |
 
-## Opérateurs de nombre unique
+## Opérateurs Comptage distinct
 
 Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ».
 
