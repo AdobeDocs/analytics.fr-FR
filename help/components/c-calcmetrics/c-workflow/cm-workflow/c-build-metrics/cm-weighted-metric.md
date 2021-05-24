@@ -2,20 +2,20 @@
 description: Affiche des exemples de mesures filtrées et pondérées.
 title: Mesures filtrées et pondérées
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: tm+mt
+exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
-
 # Mesures filtrées et pondérées
 
 Affiche des exemples de mesures filtrées et pondérées.
 
-## Taux de rebond filtré {#section_D42F2452E4464948934063EB6F2DAAB4}
+## Taux de rebond filtré  {#section_D42F2452E4464948934063EB6F2DAAB4}
 
 Cette mesure filtrée simple affiche le taux de rebond, uniquement pour les pages comportant plus de 100 visites :
 
@@ -34,4 +34,3 @@ Ce filtre affiche le taux de rebond pour les 30 % supérieurs des pages, lors d
 Supposons que vous souhaitiez trier par taux de rebond en général mais que les pages avec des visites supérieures doivent être plus élevées sur la liste. Vous pouvez créer un taux de rebond pondéré qui ressemble à ceci :
 
 ![](assets/cm_wbr.png)
-
