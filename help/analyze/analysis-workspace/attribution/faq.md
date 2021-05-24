@@ -3,14 +3,14 @@ title: FAQ sur l’Attribution
 description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
 feature: Attribution
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
-
 
 # FAQ sur l’Attribution
 
@@ -46,7 +46,7 @@ Le choix d’une recherche en amont de l’attribution dépend de votre cas d’
 
 L’attribution est recalculée au moment de l’exécution du rapport. Il n’y a donc aucune différence entre prop et eVar (ou toute autre dimension) pour la modélisation d’attribution. Les props peuvent persister à l’aide de n’importe quel intervalle de recherche en amont ou modèle d’attribution, et les paramètres d’attribution/expiration des eVars sont ignorés.
 
-## Les modèles d’attribution sont-ils disponibles dans d’autres fonctionnalités d’Analytics, telles que les flux de données ou l’Data Warehouse ?
+## Les modèles d’attribution sont-ils disponibles dans d’autres fonctionnalités d’Analytics, telles que les flux de données ou Data Warehouse ?
 
 Non. Les modèles d’attribution utilisent le traitement de la période de rapport, disponible uniquement dans Analysis Workspace. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
