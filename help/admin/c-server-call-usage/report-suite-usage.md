@@ -2,14 +2,14 @@
 description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: tm+mt
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
 ---
-
 
 # Affichage de l’utilisation des suites de rapports
 
@@ -41,7 +41,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 | Secondaire mobile (%) | Tous les appels au serveur secondaire mobile (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 
 
-## Télécharger le rapport d’utilisation {#section_D7345660B5E043CD8850954216509A3D}
+## Télécharger le rapport d’utilisation  {#section_D7345660B5E043CD8850954216509A3D}
 
 Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
 
@@ -59,6 +59,6 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 
-Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Il comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un identifiant unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
+Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Il comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un ID unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
 
 ![](assets/download-usage.png)
