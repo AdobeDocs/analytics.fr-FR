@@ -4,7 +4,6 @@ title: À propos des segments et des conteneurs
 feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3700'
@@ -18,7 +17,7 @@ Les segments vous permettent d’identifier des sous-ensembles de visiteurs selo
 
 Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que  [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segments {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -39,7 +38,7 @@ Lors de la création de segments d’audiences dans le Créateur de segments, vo
 
 Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL AND] et [!UICONTROL OR].
 
-## Segments séquentiels {#section_EE5B14287FC44E0B96E77679A2438948}
+## Segments séquentiels  {#section_EE5B14287FC44E0B96E77679A2438948}
 
 Les segments séquentiels permettent d’identifier les visiteurs selon la navigation et la page vue sur votre site, fournissant un segment d’actions et d’interactions définies. Les filtres séquentiels permettent d’identifier ce qu’aime un visiteur et ce qu’il évite. Lors de la création de segments séquentiels, l’opérateur [!UICONTROL THEN] est utilisé pour définir et classer la navigation du visiteur.
 
@@ -109,7 +108,7 @@ Les conteneurs d’accès incluent des valeurs basées sur des ventilations de p
 
 **Conteneur Groupe logique**
 
-Le conteneur Groupe logique vous permet de fournir un conteneur distinct dans les règles de segmentation afin de filtrer les entités qui ne reposent pas sur la hiérarchie. Vous pouvez par exemple souhaiter fournir un conteneur imbriqué dans le segment qui filtre les entités en fonction des visiteurs. Ce type de logique nécessite que vous rompiez la hiérarchie (puisque vous disposez déjà d’un conteneur Visiteur de niveau supérieur) afin de filtrer uniquement les entités pour les visiteurs sélectionnés. Vous pouvez y parvenir en utilisant le conteneur Groupe logique. Reportez-vous à la section [Exemples de groupes logiques](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour en savoir plus.
+Le conteneur Groupe logique vous permet de fournir un conteneur distinct dans les règles de segmentation afin de filtrer les entités qui ne reposent pas sur la hiérarchie. Vous pouvez par exemple souhaiter fournir un conteneur imbriqué dans le segment qui filtre les entités en fonction des visiteurs. Ce type de logique nécessite que vous rompiez la hiérarchie (puisque vous disposez déjà d’un conteneur Visiteur de niveau supérieur) afin de filtrer uniquement les entités pour les visiteurs sélectionnés. Vous pouvez y parvenir en utilisant le conteneur Groupe logique. Voir [Exemples de groupes logiques](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour en savoir plus.
 
 ## Imbrication de conteneurs {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -150,13 +149,13 @@ La segmentation séquentielle utilise les mêmes conteneurs de base, notamment [
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette [hiérarchie de conteneurs](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
+[!UICONTROL Visiteurs] est le conteneur dont l’ordre est le plus élevé dans la segmentation séquentielle ; [!UICONTROL Visites] se trouvant dans le conteneur [!UICONTROL Visiteurs] et [!UICONTROL Accès] se trouvant dans les conteneurs [!UICONTROL Visiteurs] ou [!UICONTROL Visites]. Cette  [hiérarchie de conteneurs](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) doit être conservée pour créer des segments séquentiels bien ordonnés.
 
 **Pour créer des segments séquentiels**, les conteneurs sont imbriqués et la séquence logique est associée à l’aide de l’opérateur [!UICONTROL THEN] qui exige que chaque conteneur soit défini sur « vrai » sur la base de la séquence du visiteur.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-S’agissant de cette hiérarchie de conteneurs, la seule exception réside dans l’utilisation du [Conteneur Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Le conteneur [!UICONTROL Groupe logique] vous permet d’imbriquer un accès dans un conteneur de manière non ordonnée, afin de capturer des événements et des dimensions, mais sans ordre séquentiel.
+S’agissant de cette hiérarchie de conteneurs, la seule exception réside dans l’utilisation du  [Conteneur Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). Le conteneur [!UICONTROL Groupe logique] vous permet d’imbriquer un accès dans un conteneur de manière non ordonnée, afin de capturer des événements et des dimensions, mais sans ordre séquentiel.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -249,7 +248,7 @@ L’utilisation d’un segment avec un conteneur plus petit que la portée de la
 
 Le filtrage par dimensions qui persistent dans une plage de pages, une eVar de campagne ou une dimension référente par exemple, affecte les données collectées au niveau du conteneur et doit être compris afin de garantir la précision de la création de rapports.
 
-Les données de segment peuvent varier selon la persistance d’une dimension ou d’une variable appliquée dans des pages sélectionnées. Certaines dimensions, comme la dimension Page, fournissent des valeurs uniques au niveau de la page et sont filtrées selon les données provenant du conteneur d’accès. (Voir [l’exemple Rapports basés sur les données de conteneur](/help/components/segmentation/seg-overview.md)). D’autres dimensions, telle la dimension Domaine référent, persistent dans plusieurs pages pour une visite. Certaines dimensions ou variables appliquées, comme la Durée de la visite, s’étalent sur l’ensemble de l’historique du visiteur.
+Les données de segment peuvent varier selon la persistance d’une dimension ou d’une variable appliquée dans des pages sélectionnées. Certaines dimensions, comme la dimension Page, fournissent des valeurs uniques au niveau de la page et sont filtrées selon les données provenant du conteneur d’accès. (Voir  [l’exemple Rapports basés sur les données de conteneur](/help/components/segmentation/seg-overview.md)). D’autres dimensions, telle la dimension Domaine référent, persistent dans plusieurs pages pour une visite. Certaines dimensions ou variables appliquées, comme la Durée de la visite, s’étalent sur l’ensemble de l’historique du visiteur.
 
 ![](assets/RefDomain_aol.png)
 
