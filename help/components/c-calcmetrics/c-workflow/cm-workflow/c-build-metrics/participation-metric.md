@@ -2,14 +2,14 @@
 description: Avec le créateur de mesures calculées, tout le monde peut créer une mesure de participation.
 title: Mesure de participation
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: bef185d6-72c0-4068-80f8-57261369573f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # Mesure de participation
 
@@ -33,4 +33,3 @@ Voici un cas d’utilisation simple : vous êtes propriétaire de contenu et so
    ![](assets/participation-pages.png)
 
 1. (Facultatif) Partagez la mesure avec d’autres utilisateurs de votre entreprise.
-
