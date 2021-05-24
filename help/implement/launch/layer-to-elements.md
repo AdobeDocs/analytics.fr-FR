@@ -1,14 +1,14 @@
 ---
 title: Mise en correspondance des objets de couche de données avec les éléments de données
 description: Configurez Launch pour lire à partir de votre couche de données.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '306'
 ht-degree: 100%
 
 ---
-
 
 # Mise en correspondance des objets de couche de données avec les éléments de données
 
