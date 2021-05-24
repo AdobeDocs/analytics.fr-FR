@@ -5,9 +5,8 @@ title: Raccourcis clavier
 feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -15,12 +14,11 @@ ht-degree: 100%
 
 # Raccourcis clavier
 
-Les touches d’accès rapide (raccourcis clavier) disponibles dans Analysis Workspace garantissent une navigation aisée. Elles permettent, en outre, d’effectuer des analyses, d’ajouter des panneaux et des visualisations, ou encore de partager des données.
+Les touches dʼaccès rapide (raccourcis clavier) sont disponibles dans Analysis Workspace pour une navigation, une analyse, un ajout de panneaux et de visualisations et une démocratisation (partage) sans faille.
 
 Remarque :
-
-* `Ctrl` = Windows et `Commande` = Mac
-* `Alt` = Windows et `Option` = Mac
+* `Ctrl` = Windows et `Command` = Mac
+* `Alt` = Windows et `Option` = Mac
 
 ## Actions de navigation
 
