@@ -2,16 +2,16 @@
 description: Grâce aux paramètres de colonne, vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
 title: Paramètres des colonnes
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: Freeform Tables
+feature: Tableaux à structure libre
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 99%
+exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL Paramètres des colonnes]
 
