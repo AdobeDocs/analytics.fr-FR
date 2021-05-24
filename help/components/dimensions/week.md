@@ -1,14 +1,14 @@
 ---
 title: Semaine
 description: La semaine au cours de laquelle la mesure a été effectuée.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
-
 
 # Semaine
 
@@ -20,6 +20,6 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 ## Éléments de dimension
 
-En Analysis Workspace, les éléments de dimension incluent la date (mois, jour et année) du premier jour de la semaine.
+Dans Analysis Workspace, les éléments de dimension comprennent la date (mois, jour et année) du premier jour de la semaine.
 
-En Data Warehouse, les éléments de dimension incluent des semaines numérotées en fonction de la plage de dates de la requête. Par exemple, la première semaine complète est `"Week 1"`. Si une requête inclut une semaine partielle, les données sont regroupées dans l’élément de dimension `"Week 0"`.
+Dans Data Warehouse, les éléments de dimension comprennent des semaines numérotées en fonction de la période de la requête. Par exemple, la première semaine complète est `"Week 1"`. Si une requête inclut une semaine partielle, les données sont regroupées dans l’élément de dimension `"Week 0"`.
