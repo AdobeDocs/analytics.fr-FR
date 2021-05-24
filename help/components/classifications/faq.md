@@ -2,7 +2,6 @@
 title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-translation-type: tm+mt
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
 workflow-type: tm+mt
 source-wordcount: '372'
@@ -35,7 +34,7 @@ Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel 
 
 ## Comment classer les valeurs contenant des caractères spéciaux ?
 
-L’utilisation d’espaces à gauche et à droite dans les données de classification et d’accès n’est pas prise en charge car Adobe Analytics tronquera les caractères vides de ces données.
+L’utilisation d’espaces vides de début et de fin dans les données de classification et d’accès n’est pas prise en charge, car Adobe Analytics tronquera les caractères vides de ces données.
 
 Il n’est généralement pas recommandé d’utiliser des caractères spéciaux tels que des virgules ou des guillemets dans les rapports. Cependant, dans certains cas, leur utilisation est nécessaire. Si vos valeurs de rapports contiennent des caractères que vous choisissez de classer, procédez comme suit :
 
