@@ -4,7 +4,6 @@ title: Création des segments séquentiels
 feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
@@ -31,7 +30,7 @@ Lors de la création d’un segment pour lequel « Inclure tout le monde » es
 | Correspond à | A puis B<br>A puis (lors d’une autre visite) B<br>A puis D puis B |
 | Ne correspond pas à | B puis A |
 
-## Seulement avant la séquence et Seulement après la séquence {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Seulement avant la séquence et Seulement après la séquence  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 Les options **[!UICONTROL Seulement avant la séquence]** et **[!UICONTROL Seulement après la séquence]** filtrent le segment en un sous-ensemble de données avant ou après la séquence spécifiée.
 
@@ -179,11 +178,11 @@ Les règles de segmentation incluent toutes les données, à moins que vous n’
 
 Par exemple :
 
-* **Exclure des pages**. Utilisez une règle de segmentation afin d’exclure une page spécifique *`Home Page`*) d’un rapport. Créez une règle Accès dans laquelle la page est égale à « Page d’accueil », puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
+* **Exclure des pages**. Utilisez une règle de segmentation afin d’exclure une page spécifique  *`Home Page`*) d’un rapport. Créez une règle Accès dans laquelle la page est égale à « Page d’accueil », puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
 * **Exclure des domaines référents**. Utilisez une règle qui inclut uniquement des domaines référents de Google.com et exclut tous les autres.
 * **Identifier les non-acheteurs**. Identifiez les commandes dont la valeur est supérieure à zéro et excluez ensuite le [!UICONTROL Visiteur].
 
-L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur  [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclure entre les points de contrôle
 
@@ -200,7 +199,7 @@ Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
 **Créer ce segment**
 
-Créez un segment comme vous le feriez pour un segment segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLUDE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
+Créez un segment comme vous le feriez pour un segment  segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLUDE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
 
 ![](assets/exclude_between_checkpoints.png)
 
