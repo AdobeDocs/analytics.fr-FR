@@ -2,14 +2,14 @@
 description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les étiquettes et leurs définitions.
 title: Étiqueter les données d’une suite de rapports
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
 ---
-
 
 # Étiqueter les données d’une suite de rapports
 
@@ -93,4 +93,3 @@ Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des don
    >Vous devez toujours vérifier les suites de rapports de destination pour vous assurer que les étiquettes sont copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
 
 1. Cliquez sur **[!UICONTROL Appliquer]**.
-
