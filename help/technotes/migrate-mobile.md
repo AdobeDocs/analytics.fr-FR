@@ -1,80 +1,80 @@
 ---
-description: Découvrez comment migrer les règles de traitement Mobile Services vers Adobe Analytics
+description: Découvrez comment effectuer la migration des règles de traitement Mobile Services vers Adobe Analytics.
 title: Migration des règles de traitement Mobile Services vers Adobe Analytics
-translation-type: tm+mt
-source-git-commit: d6601640d06f65dd1ddd09cb9bde0267df20eec3
-workflow-type: tm+mt
+exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Migration des règles de traitement Mobile Services vers Adobe Analytics
 
-Ce document vous explique comment migrer les règles de traitement supplémentaires - au-delà des mesures de cycle de vie - que vous avez créées dans l’interface utilisateur de Mobile Services vers Adobe Analytics.
+Ce document vous explique la procédure à suivre pour effectuer la migration de règles de traitement supplémentaires (au-delà des mesures de cycle de vie) que vous avez créées dans l’interface utilisateur de Mobile Services vers Adobe Analytics.
 
-Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars. Par exemple, vous pouvez placer la valeur d’une variable de données contextuelles de &quot;terme de recherche&quot; dans la valeur d’un eVar de variable Commerce et remplacer cette valeur sur chaque accès. Sans règles de traitement, les variables de données contextuelles n’ont aucun sens et ne renseignent des données dans aucun rapport dans Analytics.
+Les règles de traitement servent à déplacer des valeurs des variables Données contextuelles vers des props et des eVars. Par exemple, vous pouvez placer la valeur d’une variable de données contextuelles de « terme de recherche » dans la valeur d’une eVar de variable commerciale et remplacer cette valeur sur chaque accès. Sans règles de traitement, les variables de données contextuelles n’ont aucun sens et ne renseignent des données dans aucun rapport dans Analytics.
 
-Ce document vous montre également comment effectuer un rapports d&#39;utilisation mobile à Analysis Workspace.
+Ce document vous indique également comment effectuer un compte rendu des performances d’utilisation mobile dans Analysis Workspace.
 
-## Migrer les règles de traitement
+## Migration des règles de traitement
 
-Si vous exploitez Mobile Services pour des fonctionnalités complémentaires telles que les règles de traitement et les fonctions de rapports d’utilisation, vous pouvez passer facilement à l’interface utilisateur d’Analytics (interface utilisateur des règles de traitement ou Analysis Workspace) pour accomplir ces fonctions. Pour les mesures de cycle de vie ou les règles configurées dans l’interface utilisateur des règles de traitement AA, il n’est pas nécessaire d’effectuer une migration. Les mesures de cycle de vie sont des mesures prêtes à l’emploi qui sont automatiquement collectées lors de la première mise en oeuvre du kit SDK Mobile dans votre application.
+Si vous utilisez Mobile Services pour des fonctionnalités gratuites telles que les règles de traitement et les fonctions de compte rendu des performances d’utilisation, vous pouvez passer facilement à l’interface utilisateur d’Analytics (interface utilisateur des règles de traitement ou Analysis Workspace) pour accomplir ces fonctions. Pour les mesures de cycle de vie ou les règles configurées dans l’interface utilisateur des règles de traitement d’AA, il n’est pas nécessaire d’effectuer de migration. Les mesures de cycle de vie sont des mesures prêtes à l’emploi qui sont automatiquement collectées lors de la première implémentation du SDK mobile dans votre application.
 
-Cependant, si vous configurez d’autres règles de traitement dans l’interface utilisateur de Mobile Services (au-delà des mesures de cycle de vie), vous devez les migrer afin de pouvoir les modifier ou les supprimer dans Analytics après avoir perdu l’accès à Mobile Services.
+Cependant, si vous configurez des règles de traitement supplémentaires dans l’interface utilisateur de Mobile Services (au-delà des mesures de cycle de vie), vous devez les déplacer afin de pouvoir les modifier ou les supprimer dans Analytics après avoir perdu l’accès à Mobile Services.
 
 1. Connectez-vous à `experience.adobe.com` et accédez à Mobile Services.
-1. Cliquez sur l’icône d’engrenage d’une application mobile dont vous souhaitez migrer les mappages de variables contextuelles vers Adobe Analytics.
-1. Cliquez sur l&#39;option de menu **[!UICONTROL Gérer les variables et mesures]**, puis sur l&#39;onglet **[!UICONTROL Variables personnalisées]**. Ici, vous pouvez voir quels mappages de variables contextuelles (données contextuelles) ont été ajoutés à la configuration. Notez ces configurations (ou prenez une capture d’écran). Exemple :
+1. Cliquez sur l’icône d’engrenage d’une application mobile pour laquelle vous souhaitez déplacer les correspondances de variables contextuelles vers Adobe Analytics.
+1. Cliquez sur l’élément de menu **[!UICONTROL Gérer les variables et les mesures]**, puis sur l’onglet **[!UICONTROL Variables personnalisées]**. Là, vous pouvez voir quelles correspondances de variables contextuelles (données contextuelles) ont été ajoutés à la configuration. Notez ces configurations (ou faites une copie d’écran). Exemple :
 
-   ![Variable de contexte](assets/context-var.png)
+   ![Variable contextuelle](assets/context-var.png)
 
-1. Dans l’Experience Cloud, passez à Adobe Analytics et vérifiez que vous êtes dans la même suite de rapports mobile que celle que vous recherchiez dans Mobile Services.
-1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
+1. Dans Experience Cloud, passez à Adobe Analytics et vérifiez que vous êtes dans la même suite de rapports mobile que celle que vous recherchiez dans Mobile Services.
+1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]**.
-1. Ignorez les conditions et continuez à ajouter les mêmes variables contextuelles qui existent/s dans Mobile Services.
+1. Ignorez les conditions et continuez à ajouter la ou les même(s) variable(s) contextuelle(s) existant dans Mobile Services.
 
    ![Règle de traitement](assets/proc-rule.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Rapports d&#39;utilisation mobile en Analysis Workspace
+## Compte rendu des performances d’utilisation mobile dans Analysis Workspace
 
-Outre les mesures et dimensions mobiles (si la suite de rapports est activée pour Mobile Services), Analysis Workspace contient plusieurs modèles de projet Mobile qui peuvent faciliter l’analyse :
+Outre les mesures et dimensions mobiles (si la suite de rapports est activée pour Mobile Services), Analysis Workspace contient plusieurs modèles de projets mobiles qui peuvent faciliter l’analyse :
 
-* **[!UICONTROL Messagerie]** : Se concentre sur les performances de la messagerie in-app et push.
-* **[!UICONTROL Emplacement]** : Inclut une carte présentant les données d’emplacement.
-* **[!UICONTROL Mesures]** clés : Prenez le pouls des mesures clés de votre application.
-* **[!UICONTROL Utilisation]** de l’application : Combien d’utilisateurs, de lancements et de premiers lancements d’application l’application avait-elle, et quelle était la durée moyenne de session ?
-* **[!UICONTROL Acquisition]** : Quel est l’impact des liens d’acquisition mobile ?
-* **[!UICONTROL Performances]** : Quelles sont les performances de l’application et où les utilisateurs rencontrent-ils des problèmes ?
-* **[!UICONTROL Rétention]** : Qui sont mes fidèles utilisateurs et que font-ils ?
-* **[!UICONTROL Parcours]** : Quels sont les principaux schémas d’utilisation de mon application ?
+* **[!UICONTROL Messagerie]** : est axée sur les performances de la messagerie in-app et push.
+* **[!UICONTROL Emplacement]** : comprend une carte représentant les données d’emplacement.
+* **[!UICONTROL Mesures clés]** : sachez de quelle façon se comportent les mesures clés de votre application.
+* **[!UICONTROL Utilisation de l’application]** : combien d’utilisateurs, de lancements et de premiers lancements avait l’application et quelle est la durée de session moyenne ?
+* **[!UICONTROL Acquisition]** : quelles sont les performances des liens d’acquisition mobile ?
+* **[!UICONTROL Performances]** : quelles sont les performances de l’application et où les utilisateurs rencontrent-ils des problèmes ?
+* **[!UICONTROL Rétention]** : qui sont mes fidèles utilisateurs et que font-ils ?
+* **[!UICONTROL Parcours]** : quels sont les schémas d’utilisation dominants de mon application ?
 
-Voici un extrait du modèle d’utilisation des applications mobiles :
+Voici un extrait du modèle d’utilisation des applications mobiles :
 
 ![Utilisation des applications mobiles](assets/mobile-app-usage.png)
 
-Pour accéder aux modèles :
+Pour accéder aux modèles :
 
 1. Connectez-vous à `experience.adobe.com` et sélectionnez Analytics.
 1. Assurez-vous d’être dans une suite de rapports activée pour Mobile Services.
-1. Cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
+1. Cliquez sur l’onglet **[!UICONTROL Workspace]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]**.
-1. Sélectionnez l’un des modèles Mobile et cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionnez l’un des modèles mobiles et cliquez sur **[!UICONTROL Créer]**.
 
 ## Migration d’autres fonctionnalités Mobile Services
 
-La fonctionnalité Mobile Services suivante est également liée à Adobe Analytics, mais requiert un SKU Adobe Analytics acheté :
+La fonctionnalité Mobile Services suivante est également liée à Adobe Analytics, mais requiert l’achat d’un SKU Adobe Analytics :
 
 * Liens d’acquisition
 * Messagerie Push
 * Messagerie in-app
-* Gestion des points d&#39;intérêt d&#39;emplacement
+* Gestion des points d’intérêt de localisation
 
-Si vous utilisez Mobile Services pour les fonctionnalités payantes, vous n’avez pas de chemin de migration viable vers d’autres outils internes/externes :
+Si vous utilisez Mobile Services pour les fonctionnalités payantes, vous n’avez pas de chemin de migration viable vers d’autres outils internes/externes :
 
-* Pour les liens d’acquisition, nous pouvons vous diriger vers des partenaires d’Adobe pour répondre à vos besoins.
-* Les messages Push et les messages In-App sont disponibles dans Adobe Campaign Standard et Adobe Campaign Classic (Push uniquement). Cependant, le jeu de données sous-jacent utilisé pour le ciblage est différent. Nous vous suggérons de travailler avec votre équipe de comptes d’Adobe pour déterminer les options de migration pour la messagerie de données.
-* Pour la fonctionnalité Emplacement, nous vous encourageons à adopter le nouveau [service Emplacement Adobe Experience Platform](https://www.adobe.com/experience-platform/location-service.html), qui est gratuit pour tous les clients AEP.
+* Pour les liens d’acquisition, nous pouvons vous diriger vers des partenaires d’Adobe qui pourront répondre à vos besoins.
+* Les messageries push et in-app sont disponibles dans Adobe Campaign Standard et Adobe Campaign Classic (push uniquement). Cependant, le jeu de données sous-jacent utilisé pour le ciblage est différent. Nous vous suggérons de travailler avec l’équipe qui se charge de vos comptes Adobe afin de déterminer les options de migration pour les données de messagerie.
+* Pour la fonctionnalité de localisation, nous vous recommandons d’adopter le nouveau service [Adobe Experience Platform Location Service](https://www.adobe.com/fr/experience-platform/location-service.html), gratuit pour tous les clients AEP.
