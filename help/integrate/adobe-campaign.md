@@ -1,14 +1,14 @@
 ---
 description: Découvrez comment activer le compte rendu des performances Adobe Campaign dans Adobe Analytics
 title: Comment intégrer le compte rendu des performances Adobe Campaign dans Adobe Analytics ?
-translation-type: tm+mt
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Rapports Adobe Campaign
 
@@ -53,7 +53,7 @@ Une fois votre suite de rapports activée pour Adobe Campaign, les classificati
 * Libellé de la campagne (campagne dans Adobe Campaign)
 * Libellé de la diffusion exécutée (liste des diffusions individuelles exécutées)
 
-## Dimensions et mesures Adobe Campaign disponibles dans Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
+## Dimensions et mesures Adobe Campaign disponibles dans Adobe Analytics  {#section_F33385C9660644AF84172EC39601469B}
 
 Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de rapports d’Adobe Analytics :
 
@@ -63,7 +63,7 @@ Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de ra
 * Adobe Campaign Traités
 * Adobe Campaign Délivrés
 * Adobe Campaign Ouvertures uniques
-* Adobe Campaign Clics uniques
+* Clics uniques Adobe Campaign
 * Adobe Campaign Désinscriptions
 * Adobe Campaign Bounces total
 * Adobe Campaign Instances Identifiant Diffusion exécutée
