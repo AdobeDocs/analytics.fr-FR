@@ -1,16 +1,16 @@
 ---
-description: Les données qui sont collectées sur des sites Web ou sur des applications mobiles, ou qui sont chargées à l’aide de sources de données ou d’API de services Web, sont traitées et stockées dans Data Warehouse d’Adobe. Ces données brutes constituent le jeu de données utilisé par Adobe Analytics.
-keywords: parcours de navigation ; flux de données ; flux de données ; flux de données
+description: Les données qui sont collectées sur des sites Web ou sur des applications mobiles, ou qui sont chargées à l’aide de sources de données ou d’API de services Web, sont traitées et stockées dans Data Warehouse d’Adobe. Ces parcours de navigation bruts constituent le jeu de données utilisé par Adobe Analytics.
+keywords: parcours de navigation;flux de données;flux des données;Flux de données
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
-workflow-type: tm+mt
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Flux de données Analytics - Aperçu
 
@@ -68,4 +68,4 @@ Une fois que vous avez compris le flux de travail de base permettant d’obtenir
 
 Vidéo relative à la navigation dans l’interface des flux de données :
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
