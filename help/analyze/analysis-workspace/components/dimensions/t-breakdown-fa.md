@@ -3,16 +3,16 @@ description: Ventilez les dimensions et les éléments de dimension dans Analysi
 keywords: Analysis Workspace
 title: Ventilation des dimensions
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '233'
+exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Ventilation des dimensions
 
@@ -33,7 +33,7 @@ Ventilez vos données de différentes manières en fonction de vos besoins ; cr
 
 [Ajout de dimensions et de mesures à votre projet dans Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Utilisation des dimensions dans un tableau à structure libre](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[Utilisation des dimensions dans un tableau à structure libre](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Application des modèles d’attribution aux ventilations
 
