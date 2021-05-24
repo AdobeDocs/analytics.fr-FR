@@ -45,7 +45,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |
 | `k` | Aucun | Utilisé dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Variables de liste. |
-| `lrt` | Aucun | &quot;minutage de la dernière requête&quot;, c’est-à-dire l’heure d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes sortent d’une page ou lorsque la page est une application d’une seule page (SPA). |
+| `lrt` | Aucun | &quot;minutage de la dernière requête&quot;, qui correspond à l’heure d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes sortent d’une page ou lorsque la page est une application d’une seule page (SPA). |
 | `mid` | Aucun | Identifiant visiteur Experience Cloud. |
 | `ndh` | Aucun | Indicateur précisant si la demande d’image provient d’AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Permet de déterminer l’emplacement des cookies. |
