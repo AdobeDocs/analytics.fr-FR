@@ -4,7 +4,6 @@ title: Compatibilité des segments avec Data Warehouse
 feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '343'
@@ -21,7 +20,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
   <tr> 
    <th> </th> 
    <th> Analysis Workspace, Reports &amp; Analytics </th> 
-   <th> Data Warehouse </th> 
+   <th> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -47,7 +46,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, ces dimensions ne sont prises en charge que dans Analysis Workspace, Reports &amp; Analytics : 
+   <td>Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, ces dimensions ne sont prises en charge que dans Analysis Workspace, Reports &amp; Analytics : 
     <ul> 
      <li>Serveur d’accès </li> 
      <li>Catégorie d’accès </li> 
@@ -73,7 +72,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
      <li>Hiérarchie (toutes les dimensions commençant avec la hiérarchie) </li> 
      <li>Profondeur d’accès </li> 
      <li>Type d’accès </li> 
-     <li>Heure Jour </li> 
+     <li>Heure  Jour </li> 
      <li>Mois de l’année </li> 
      <li>Pages introuvables </li> 
      <li>Recherche payante </li> 
