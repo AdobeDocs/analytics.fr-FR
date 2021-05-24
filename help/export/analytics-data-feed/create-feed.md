@@ -87,7 +87,7 @@ Toutes les colonnes sont disponibles qu’elles contiennent des données ou non.
 * **Supprimer les caractères avec échappement** : au cours d’une collecte de données, certains caractères (comme les sauts de lignes) peuvent occasionner des erreurs. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux.
 * **Format de compression** : le type de compression utilisé. Fichiers de sortie Gzip au format `.tar.gz`. Fichiers de sortie Zip au format `.zip`.
 * **Type de groupement** : un fichier unique sort le fichier `hit_data.tsv` dans un fichier unique pouvant être volumineux. La fonction plusieurs fichiers met en page vos données par blocs de 2 Go (non compressés). Si vous avez sélectionné plusieurs fichiers, mais que la taille des données non compressées pour la fenêtre de création de rapports est inférieure à 2 Go, un seul fichier est envoyé. Adobe recommande d’utiliser plusieurs fichiers pour la plupart des flux de données.
-* **Manifeste** : Indique si l’Adobe doit ou non livrer un  [ ](c-df-contents/datafeeds-contents.md#feed-manifest) fichier de manifeste à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez Fichier de manifeste, vous recevrez un fichier de manifeste semblable à celui-ci lorsqu’aucune donnée n’est collectée :
+* **Manifeste** : Indique si l’Adobe doit ou non livrer un  [ ](c-df-contents/datafeeds-contents.md#feed-manifest) fichier de manifeste à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez Fichier de manifeste, vous recevrez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :
 
 ```text
    Datafeed-Manifest-Version: 1.0
