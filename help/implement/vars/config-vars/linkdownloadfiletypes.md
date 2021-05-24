@@ -1,14 +1,14 @@
 ---
 title: linkDownloadFileTypes
 description: Permet de déterminer les extensions de fichier qui sont automatiquement suivies comme liens de téléchargement.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # linkDownloadFileTypes
 
@@ -24,8 +24,10 @@ Utilisez `linkDownloadFileTypes` pour personnaliser les extensions de fichier qu
 > * Téléchargements déclenchés à la suite d’une redirection
 > * Clic droit et sélection de l’option « Enregistrer la cible sous... »
 > * Liens utilisant JavaScript, tels que `javascript:openLink()`
+
 >
-> Pour ces types de téléchargement, vous pouvez appeler manuellement la méthode [`tl()`](../functions/tl-method.md).
+> 
+Pour ces types de téléchargement, vous pouvez appeler manuellement la méthode [`tl()`](../functions/tl-method.md).
 
 Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
