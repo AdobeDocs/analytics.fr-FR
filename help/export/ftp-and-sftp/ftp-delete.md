@@ -3,14 +3,14 @@ description: La politique FTP d’Adobe désactive automatiquement l’accès au
 keywords: ftp;sftp
 title: Suppression des données et des comptes liés au FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: tm+mt
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Suppression des données et des comptes liés au FTP
 
@@ -28,4 +28,3 @@ Ces politiques restent en vigueur pour tous les comptes FTP, à compter du 5 j
 
 * Supprimez les données sortantes du système FTP une fois que les données ont été transférées vers votre environnement en interne. Adobe identifie et supprime les fichiers restant sur le système après 90 jours.
 * Quand les comptes FTP ne sont plus nécessaires, avertissez Adobe afin qu’il les désactive et les supprime.
-
