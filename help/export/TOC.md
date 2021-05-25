@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +26,7 @@ ht-degree: 100%
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Recherche d’attributs mobiles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [Recherche d’instances d’eVar de marchandisage dans post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
@@ -34,13 +34,13 @@ ht-degree: 100%
    + [Résolution des problèmes liés aux tâches](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
-   + [Ajouter un groupe d’utilisateurs de l’Data Warehouse](data-warehouse/t-dw-group.md)
-   + [Créer une demande d’Data Warehouse](data-warehouse/t-dw-create-request.md)
+   + [Ajouter un groupe d’utilisateurs dans Data Warehouse](data-warehouse/t-dw-group.md)
+   + [Créer une demande dans Data Warehouse](data-warehouse/t-dw-create-request.md)
    + [Heure de remise de la demande](data-warehouse/delivery-time.md)
    + [Fichier de données Tableau](data-warehouse/t-tableau.md)
    + [Tri par mesure](data-warehouse/sorting-by-metric.md)
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
-   + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
+   + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
    + [FAQ sur Data Warehouse](data-warehouse/faq.md)
    + [Bonnes pratiques relatives à Data Warehouse](data-warehouse/data-warehouse-bp.md)
@@ -65,7 +65,7 @@ ht-degree: 100%
       + [Protocole de transfert de fichiers sécurisé - Aperçu](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Connexion à un compte FTP Adobe par SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [Envoi de données Adobe vers un compte FTP externe par SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
-      + [Envoi de requêtes d’Data Warehouse vers les serveurs SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
+      + [Envoi de requêtes Data Warehouse vers les serveurs SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connexion à Adobe via SFTP sans mot de passe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Téléchargements Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [ API Adobe Analytics ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
