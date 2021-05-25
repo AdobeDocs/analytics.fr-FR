@@ -2,11 +2,10 @@
 title: eVar
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon 
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-Les eVars ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
+La casse (supérieure ou inférieure) utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou variable selon une période donnée (par exemple, mensuelle), en fonction de la variété et de la quantité de données associées à la suite de rapports.
 
 ## Renseignement des eVars avec des données
 
