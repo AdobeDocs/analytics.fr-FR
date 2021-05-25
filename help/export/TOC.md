@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
+source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 97%
+source-wordcount: '278'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Recherche d’événement de page](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Recherche d’attributs mobiles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [Recherche d’instances d’eVar de marchandisage dans post_product_list](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [Recherche d’eVar de marchandisage](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caractères spéciaux](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Accès tardifs](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
