@@ -3,11 +3,10 @@ description: Accédez à ces fonctions en cochant Afficher les options avancées
 title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +18,7 @@ Accédez à ces fonctions en cochant **[!UICONTROL Afficher les options avancée
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-## Que signifie le paramètre d’inclusion de zéros ?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## Que signifie le paramètre d’inclusion de zéros ? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie « rien » mais parfois, il est important.
 
@@ -27,7 +26,7 @@ Par exemple, en présence d’une mesure Recettes, vous ajoutez une mesure Pages
 
 D’un autre côté, si deux mesures vous intéressent, il n’est pas juste d’indiquer que l’une dispose d’une moyenne ou d’un minimum supérieur car certaines de ses lignes sont des zéros. Dans ce cas, n’activez pas le paramètre permettant d’inclure des zéros.
 
-## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## ET {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
 Renvoie la valeur de son argument. Utilisez NOT pour vous assurer qu’une valeur est différente d’une valeur spécifique.
 
@@ -56,7 +55,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Dimension pour laquelle vous souhaitez obtenir le nombre distinct approximatif d’éléments. |
 
-### Exemple de cas d’utilisation  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Exemple de cas d’utilisation {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 Le nombre distinct approximatif (eVar ID de client) est un cas d’utilisation courant pour cette fonction.
 
@@ -68,11 +67,11 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ![](assets/approx-customers.png)
 
-### Valeurs uniques dépassées  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Valeurs uniques dépassées {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
-### Comparaison des fonctions de comptage  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
 
@@ -217,7 +216,7 @@ Si N &lt;= 0, elle utilise toutes les lignes précédentes. Puisque la moyenne c
 cumul(revenue)/cumul(visitor)
 ```
 
-## Égal à {#concept_A3B97152B5F74E04A97018B35734BEEB}
+## equal (égal à) {#concept_A3B97152B5F74E04A97018B35734BEEB}
 
 Renvoie des éléments qui correspondent exactement à une valeur numérique ou de chaîne.
 
@@ -316,7 +315,7 @@ TANH(metric)
 |---|---|
 | *metric* | Angle en radians pour lequel vous souhaitez obtenir la tangente hyperbolique. |
 
-## IF (ligne) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
+## SI (ligne) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
 La fonction IF renvoie une valeur si une condition que vous spécifiez est évaluée sur TRUE, et une autre valeur si cette condition est évaluée sur FALSE.
 
@@ -354,7 +353,7 @@ Y = a X + b. Renvoie Y.
 
 Y = a X + b. Renvoie a.
 
-## Logarithme de base 10 {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
+## Logarithme de base 10 (ligne) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
 Renvoie le logarithme de base 10 d’un nombre.
 
@@ -432,7 +431,7 @@ LN(metric)
 |---|---|
 | *metric* | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme népérien. |
 
-## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
+## SAUF {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Renvoie 1 si le nombre est 0 ou renvoie 0 si autre nombre.
 
@@ -647,7 +646,7 @@ SIN(metric)
 
 ## Score normalisé {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
-Alias de score centré réduit, soit l’écart par rapport à la moyenne divisé par l’écart type
+Alias de score centré réduit, soit l’écart par rapport à la moyenne divisé par l’écart type.
 
 ## Test en t {#concept_A1F78F4A765348E38DBCAD2E8F638EB5}
 
