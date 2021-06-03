@@ -4,14 +4,13 @@ title: Création d’une requête de données
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 95%
+source-wordcount: '303'
+ht-degree: 94%
 
 ---
-
 
 # Création d’une requête de données dans le Report Builder
 
@@ -21,7 +20,7 @@ Procédure de création d’une requête de données de base.
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez une [suite de rapports](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Facultatif) Sélectionnez un segment à appliquer à la demande. Quand vous sélectionnez un ou plusieurs segments, ils sont déplacés en haut de la liste.
 
-   Le Report Builder utilise les segments de la même manière qu’Adobe Analytics. Voir le [guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html). 1. (Facultatif) Sélectionnez une [liste de publication](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) à utiliser pour la distribution.
+   Le Report Builder utilise les segments de la même manière qu’Adobe Analytics. Voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facultatif) Sélectionnez une [liste de publication](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) à utiliser pour la distribution.
 1. Sélectionnez un [type de rapport](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Spécifiez une [plage de dates](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) et une [granularité](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) de rapport.
 1. Cliquez sur **[!UICONTROL Suivant]**.
@@ -35,6 +34,6 @@ Procédure de création d’une requête de données de base.
 1. Sur l’onglet [!UICONTROL Valeurs de mesure], double-cliquez sur les mesures de l’arborescence (ou faites-les glisser) pour les ajouter à la grille [!UICONTROL Valeurs de mesure].
 1. Sur l’onglet [!UICONTROL Dimensions], double-cliquez sur les dimensions (ou faites-les glisser) dans la grille [!UICONTROL Libellés de lignes].
 
-   Les [dimensions](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibles à l’étape 2 dépendent du rapport de base sélectionné à l’étape 1 et de la configuration de votre suite de rapports. Les dimensions sont des éléments qui instaurent une corrélation ou une sous-relation, ou qui sont une classification de la mesure du type de rapport d’origine que vous avez sélectionnée dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]. L’ajout de plusieurs dimensions à l’étape 2 permet de créer une ventilation dans votre requête de données.
+   Les [dimensions](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html) disponibles à l’étape 2 dépendent du rapport de base sélectionné à l’étape 1 et de la configuration de votre suite de rapports. Les dimensions sont des éléments qui instaurent une corrélation ou une sous-relation, ou qui sont une classification de la mesure du type de rapport d’origine que vous avez sélectionnée dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]. L’ajout de plusieurs dimensions à l’étape 2 permet de créer une ventilation dans votre requête de données.
 
    Reportez-vous à la section [Ajout de mesures et de dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) pour plus d’informations.
