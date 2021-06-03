@@ -4,10 +4,10 @@ title: Gestionnaire de code
 feature: Outils d’administration
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 95%
+source-wordcount: '139'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous admin]** > Gestionnaire **** de code.
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Tous les administrateurs]**  >  **[!UICONTROL Gestionnaire de code]**.
 
 Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources d’implémentation sont disponibles dans le guide de l’utilisateur [Mise en œuvre](/help/implement/home.md).
 
@@ -25,5 +25,5 @@ Après avoir téléchargé la bibliothèque, vous devez configurer le code pour 
 |--- |--- |
 | [!UICONTROL Nom] | Le nom correspond à la plateforme sur laquelle vous souhaitez activer la collecte de données. Des bibliothèques sont fournies pour chaque plateforme répertoriée dans cette colonne. |
 | [!UICONTROL Type] | Type des applications qui peuvent être mesurées à l’aide de chaque bibliothèque. |
-| [!UICONTROL Version] | Liste de la dernière version de la bibliothèque. Cliquez sur le numéro de version pour afficher l’[historique de publication](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/appmeasurement-updates.html). |
+| [!UICONTROL Version] | Liste de la dernière version de la bibliothèque. Cliquez sur le numéro de version pour afficher l’[historique de publication](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html). |
 | [!UICONTROL Documentation] | Affichez la documentation de référence sur la bibliothèque. |
