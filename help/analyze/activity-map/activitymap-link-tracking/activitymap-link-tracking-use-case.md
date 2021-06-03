@@ -4,14 +4,13 @@ title: Différenciation de plusieurs liens se rapportant au même ID de lien et 
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 
@@ -45,26 +44,26 @@ Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifi�
    <td colname="col2">
      <br/>
      <br/>
-    Acheter <br/>
+    Acheter<br/>
      <br/>
      <br/>
     Acheter <br/>
      <br/>
      <br/>
-    Acheter <br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -76,7 +75,7 @@ Comment pouvez-vous personnaliser votre page web et le balisage pour différenci
 
 ## Personnalisation de l’ID de lien à l’aide de s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emplacement de lien sur une page, vous pouvez améliorer le suivi des Activity Map ou utiliser le Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable , rendez-vous [ici](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html).`s_objectID`
+En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi des Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable , rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).`s_objectID`
 
 >[!IMPORTANT]
 >
@@ -107,26 +106,26 @@ En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emp
    <td colname="col2">
      <br/>
      <br/>
-    Produit1<br/>
+    Product1<br/>
      <br/>
      <br/>
-    Produit2<br/>
+    Product2<br/>
      <br/>
      <br/>
-    Produit3<br/>
+    Product3<br/>
      <br/>
      <br/>
    </td> 
    <td colname="col3">
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
-    panneau de recommandation<br/>
+    recommendation panel<br/>
      <br/>
      <br/>
    </td>
@@ -134,12 +133,12 @@ En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emp
  </tbody>
 </table>
 
-## Personnalisation de la région  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personnalisation de la région {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Vous pouvez personnaliser la région en vous assurant que chaque lien &quot;Acheter&quot; a sa propre région définie. Pour ce faire, ajoutez un paramètre `"id"` à l’un des parents de chaque balise d’ancrage &quot;Buy&quot;.
+Vous pouvez personnaliser la région en vous assurant que la région de chaque lien &quot;Buy&quot; est définie. Pour ce faire, ajoutez un paramètre `"id"` à l’un des parents de chaque balise d’ancrage &quot;Buy&quot;.
 
 >[!NOTE]
->Vous n&#39;êtes pas strictement limité au paramètre `"id"` en tant qu&#39;identifiant de région. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript `"s.ActivityMap.regionIDAttribute"`.
+>L’identifiant de région n’est pas strictement limité au paramètre `"id"`. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript `"s.ActivityMap.regionIDAttribute"`.
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
@@ -168,13 +167,13 @@ Vous pouvez personnaliser la région en vous assurant que chaque lien &quot;Ache
    <td colname="col2">
      <br/>
      <br/>
-    Acheter <br/>
+    Acheter<br/>
      <br/>
      <br/>
     Acheter <br/>
      <br/>
      <br/>
-    Acheter <br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -195,7 +194,7 @@ Vous pouvez personnaliser la région en vous assurant que chaque lien &quot;Ache
  </tbody>
 </table>
 
-## Personnalisation du fichier du module Activity Map d’AppMeasurement  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personnalisation du fichier du module Activity Map d’AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 Testez le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
@@ -215,7 +214,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Le `linkName` est transmis lors des appels à `s.tl()`.
+`linkName` est transmis lors des appels à `s.tl()`.
 
 ```
 s.ActivityMap.region = function(ele) {
