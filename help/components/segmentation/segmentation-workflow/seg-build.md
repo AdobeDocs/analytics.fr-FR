@@ -4,10 +4,10 @@ title: Création de segments
 feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 100%
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 * **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
 * **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
-* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/data-requests/segmentation.html).
+* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -62,7 +62,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Valeur]** : valeur que vous avez saisie ou sélectionnée pour la dimension, le segment ou la mesure.
 1. **[!UICONTROL X]** : (Supprimer) permet de supprimer la partie en question de la définition de segment.
 1. **[!UICONTROL Publication Experience Cloud]** : la publication d’un segment Adobe Analytics dans Experience Cloud vous permet d’utiliser ce segment pour l’activité marketing dans [!DNL Audience Manager] et dans d’autres canaux d’activation. [En savoir plus...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Bibliothèque d’audiences]** : les services d’audience d’Adobe gèrent la conversion des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de partager les segments d’audience dans Experience Cloud. [En savoir plus...](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Bibliothèque d’audiences]** : les services d’audience d’Adobe gèrent la conversion des données de visiteur en segmentation de l’audience. Ainsi, la création et la gestion des audiences sont similaires à la création et à l’utilisation de segments, avec la possibilité de partager les segments d’audience dans Experience Cloud. [En savoir plus...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Rechercher]** : permet d’effectuer des recherches dans la liste de dimensions, de segments ou de mesures.
 1. **[!UICONTROL Dimensions]** : (Liste) cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Mesures]** : cliquez sur l’en-tête pour développer la liste.
