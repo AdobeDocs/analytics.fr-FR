@@ -2,14 +2,13 @@
 description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 95%
 
 ---
-
 
 # Données et référence de code du transfert côté serveur
 
@@ -17,7 +16,7 @@ Une liste complète et des descriptions des variables de configuration, des en-t
 
 ## Variables de configuration {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Paramètre | Description |
 |--- |--- |
@@ -43,7 +42,7 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
 |--- |--- |
@@ -73,11 +72,11 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | c_pageURL | Adresse de la page dans la barre d’adresse du navigateur. |
 | c_products | Chaîne de produit (définie par s.products ). |
 | c_prop | Props personnalisées. |
-| c_purchaseID | Identifiant unique pour l’achat. |
+| c_purchaseID | ID unique pour l’achat. |
 | c_referrer | Page précédant la page active. |
 | c_screenResolution | Largeur et hauteur de l’écran (en pixels). |
 | c_server | Nom du serveur web (défini par s.server ). |
 | c_state | Région géographique (définie par s.state ). |
 | c_timezone | Décalage horaire (en heures). |
-| c_transactionID | Identifiant unique pour une transaction. |
+| c_transactionID | ID unique pour une transaction. |
 | c_zip | Code postal (défini par s.zip). |
