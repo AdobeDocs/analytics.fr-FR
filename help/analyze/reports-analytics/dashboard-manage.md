@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 98%
+source-wordcount: '797'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Les tableaux de bord hérités existants continueront à être exécutés et vou
 
 >[!NOTE]
 >
->Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html) et leurs fonctionnalités de téléchargement et de planification.
+>Désormais, nous vous invitons à utiliser les [projets d’Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) et leurs fonctionnalités de téléchargement et de planification.
 
 Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modification et vous pouvez y ajouter du contenu hérité ou du nouveau contenu. Lorsque vous copiez un tableau de bord hérité, l’original est préservé dans la liste des tableaux de bord hérités.
 
