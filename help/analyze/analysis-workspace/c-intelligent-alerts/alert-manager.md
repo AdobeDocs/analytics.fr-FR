@@ -5,11 +5,10 @@ uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
 feature: Outils d’IA
 role: Business Practitioner, Administrator
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ![](assets/alert-manager.png)
 
-La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-manage.html) et du [Gestionnaire de mesures calculées](https://docs.adobe.com/content/help/fr-FR/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) et permet d’accomplir ce qui suit :
+La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) et du [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) et permet d’accomplir ce qui suit :
 
 ![](assets/alert-manager-tasks.png)
 
