@@ -2,20 +2,19 @@
 description: Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 title: Activation de l’intégration
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: d36c26ad-09c4-4a4d-a653-670c18f2ab19
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 95%
+source-wordcount: '421'
+ht-degree: 96%
 
 ---
-
 
 # Activation de l’intégration {#activate-the-integration}
 
 Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 
-1. Démarrez [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Démarrez [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
 1. Dans la liste **[!UICONTROL Affichage]**, sélectionnez **[!UICONTROL Par nom]** et faites glisser l’intégration du [!DNL ~Partner~] vers un emplacement de plug-in vide.
 1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
 
