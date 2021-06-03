@@ -2,14 +2,13 @@
 description: Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
 keywords: event
 title: Événements de succès - Aperçu
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Il existe de nombreux types d’événements de succès en fonction du type de v
 * **Haute technologie** : téléchargement de livres blancs, appels d’offres, remplissage de formulaires, demandes d’assistance
 * **Automobile** : envoi de pistes, demande de devis, téléchargement de brochures
 
-La variable [s.events](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html) définit un événement de succès.
+La variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) définit un événement de succès.
 
 ## Page Événements de succès – Descriptions {#section_681ECEC981694CABBDBF00E18165B447}
 
