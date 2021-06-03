@@ -2,11 +2,10 @@
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ La valeur de cette variable dépend de l’utilisation de cookies propriétaires
 
 ### Cookies propriétaires
 
-Si vous utilisez une mise en œuvre de cookies propriétaires, il est probable qu’une personne de votre entreprise ait déjà terminé le processus de cookies propriétaires. Pour plus d’informations sur le processus des cookies propriétaires, voir [Cookies propriétaires dans Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-first-party.html) dans le guide d’utilisation des services principaux.
+Si vous utilisez une mise en œuvre de cookies propriétaires, il est probable qu’une personne de votre entreprise ait déjà terminé le processus de cookies propriétaires. Pour plus d’informations sur le processus des cookies propriétaires, voir [Cookies propriétaires dans Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) dans le guide d’utilisation des services principaux.
 
 La personne qui configure initialement la mise en œuvre des cookies propriétaires définit également le domaine et le sous-domaine utilisés. Par exemple :
 
