@@ -4,10 +4,10 @@ title: Questions fréquentes
 feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 100%
+source-wordcount: '2072'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 
 * Segmentation dans Analysis Workspace :
 
-   * Vous pouvez [comparer des segments](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Utilisez les [segments comme dimensions](https://docs.adobe.com/content/help/fr-FR/core-services/interface/audiences/audience-library.html) dans une comparaison.
+   * Vous pouvez [comparer des segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
+   * Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans une comparaison.
    * Utilisez des segments dans [l’analyse des abandons](https://docs.adobe.com/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
@@ -73,7 +73,7 @@ Le menu déroulant des suites de rapports a été déplacé en regard du sélect
 
 **Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?**
 
-Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
+Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
 Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](/help/components/segmentation/seg-reference/seg-rights.md)
 
