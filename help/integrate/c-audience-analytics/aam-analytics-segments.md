@@ -3,11 +3,10 @@ description: Analytics et Audience Manager utilisent tous deux les segments. Ce
 title: Présentation des segments dans Analytics et Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ L’appartenance aux segments Audience Manager est fluctuante. Les utilisateurs
 
 Un segment Audience Manager est désigné en tant qu’audience dans Analytics.
 
-Pour plus d’informations, voir les sections [Données de population des caractéristiques et des segments dans le Créateur de segments](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/features/segments/segment-builder-data.html) et [Signaux, caractéristiques et segments](https://docs.adobe.com/content/help/fr-FR/audience-manager/user-guide/reference/signal-trait-segment.html).
+Pour plus d’informations, voir les sections [Données de population des caractéristiques et des segments dans le Créateur de segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) et [Signaux, caractéristiques et segments](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segments Analytics {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -45,4 +44,4 @@ Un segment Analytics est un mécanisme de filtrage des données dans vos rapport
 
    À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans AAM, ce visiteur sera inclus dans un segment « acheteur », indépendamment de la plage de dates. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
 
-Pour plus d’informations, voir le [Guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
+Pour plus d’informations, voir le [Guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
