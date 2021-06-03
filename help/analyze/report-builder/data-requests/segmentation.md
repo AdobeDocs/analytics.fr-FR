@@ -4,14 +4,13 @@ title: Gestion des segments
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
-
 
 # Gestion des segments
 
@@ -28,7 +27,7 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 >Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
-1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
+1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 1. Une fois le segment défini et enregistré, retournez à l’Assistant Requête.
 1. Cliquez sur l’icône Actualiser afin d’actualiser la liste des segments.
 
@@ -45,7 +44,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
    ![](assets/seg_in_context.png)
 
-   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
+   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
 1. L’interface utilisateur du Créateur de segments est à présent lancée dans Internet Explorer. Elle est initialisée avec le conteneur et le filtre que vous avez indiqués.
 1. Une fois que vous avez ajouté un nom et une description au segment, enregistrez-le.
@@ -103,7 +102,7 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
    ![](assets/seg_control2.png)
 
-## Actualisation de la liste de segments  {#section_22E4A86789444B4A998532396B476EFB}
+## Actualisation de la liste de segments {#section_22E4A86789444B4A998532396B476EFB}
 
 Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser (![](assets/refresh_icon.png) afin d’actualiser la liste mise en cache de segments.
 
@@ -126,4 +125,3 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
    | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |
-
