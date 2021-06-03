@@ -2,13 +2,12 @@
 description: Les filtres permettent de limiter le rapport en incluant ou en excluant des éléments de ligne qui correspondent à un filtre.
 title: Filtrage des données de rapport
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '677'
 ht-degree: 99%
 
 ---
@@ -55,7 +54,7 @@ Correspond si le terme se trouve dans l’élément de ligne. Opère de la même
 
 **Ne contient pas**
 
-Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/unspecified.translate.html) depuis les rapports utilisant « Ne contient pas ».
+Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) depuis les rapports utilisant « Ne contient pas ».
 
 Ne contient pas : `none`
 
