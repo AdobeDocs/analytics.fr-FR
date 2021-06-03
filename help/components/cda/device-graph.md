@@ -2,11 +2,10 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -30,9 +29,9 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://docs.adobe.com/content/help/fr-FR/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
-* Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID. Consultez la [page d’accueil](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
-* Votre implémentation doit appeler la fonction `setCustomerIDs` (ou SDK équivalent) chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [`setCustomerIDs`](https://docs.adobe.com/content/help/fr-FR/id-service/using/id-service-api/methods/setcustomerids.html) dans le guide de l’utilisateur du service d’identité d’Experience Cloud.
+* Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) du guide de l’utilisateur Device Co-op.
+* Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID. Consultez la [page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
+* Votre implémentation doit appeler la fonction `setCustomerIDs` (ou SDK équivalent) chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) dans le guide de l’utilisateur du service d’identité d’Experience Cloud.
 
 ## Limites spécifiques au graphique d’appareil
 
