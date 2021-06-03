@@ -2,10 +2,10 @@
 title: websiteBot
 description: Identifiez dynamiquement les robots à l’aide des mouvements de souris.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 53%
 
 ---
 
@@ -19,16 +19,19 @@ Le module `websiteBot` vous permet d’identifier de manière dynamique les visi
 
 Ce module effectue deux vérifications :
 
-* Tout d’abord, il détermine si l’appareil est un ordinateur ou un appareil mobile à l’aide de la variable `navigator.UserAgent`. Les appareils mobiles sont ignorés.
-* S’il s’agit d’un ordinateur, il ajoute un écouteur d’événements pour les mouvements de souris.
+* Tout d’abord, dans le cas d’un ordinateur de bureau, il ajoute un écouteur d’événement pour le mouvement de la souris.
+* Ensuite, il détermine si l’appareil est un ordinateur de bureau ou un appareil mobile à l’aide de la variable `navigator.UserAgent`. Les appareils mobiles sont ignorés.
 
-Si l’agent utilisateur se trouve sur un ordinateur de bureau et qu’aucun mouvement de souris n’est détecté, le module définit la variable `websiteBot` sur `true`. Si l’agent utilisateur est un appareil mobile ou si un mouvement de souris est détecté, le module définit la variable `websiteBot` sur `false`.
+Si l’agent utilisateur se trouve sur un bureau et qu’aucun mouvement de souris n’est détecté, le module externe peut
+
+* Effectuez un appel de règle [!UICONTROL Direct Call] (pour Adobe Experience Platform Launch) ou
+* effectuez un appel `s.tl` pour indiquer que le visiteur n’est pas un robot.
 
 ## Conditions préalables
 
 Adobe recommande d’effectuer les actions suivantes avant d’utiliser ce module :
 
-* **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définissez l’expiration sur **Jamais** et l’attribution sur **&quot;Valeur d’origine (première)&quot;**.
+* **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définissez l’expiration sur **Jamais** et l’attribution sur **&quot;Valeur d’origine (première)&quot;**. Cet eVar doit être défini dans les deux cas suivants : lorsque la règle [!UICONTROL Direct Call] ou l’appel `s.tl` est déclenché.
 * **Collectez l’agent utilisateur dans une variable distincte** : collectez la chaîne de l’agent utilisateur dans une variable distincte pour contrôler l’efficacité de ce module. Définissez une eVar sur `navigator.UserAgent` pour chaque accès afin de collecter ces données.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
