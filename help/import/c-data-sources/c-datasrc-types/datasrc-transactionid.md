@@ -1,14 +1,13 @@
 ---
 title: Sources de données des ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données des ID de transaction.
-translation-type: tm+mt
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # Sources de données des ID de transaction
 
@@ -21,7 +20,7 @@ Lorsque vous envoyez un accès en ligne contenant une valeur `transactionID`, Ad
 Utilisez le processus générique suivant pour commencer à utiliser des sources de données d’ID de transaction :
 
 1. Créez une source de données (Catégorie « générique » et « Source de données générique (ID de transaction) »).
-1. Suivez l’assistant de configuration du flux de données pour obtenir un emplacement FTP afin de transférer des données et télécharger un fichier de modèle de sources de données.
+1. Suivez l’assistant de configuration de la source de données pour obtenir un emplacement FTP afin de télécharger des données et un fichier de modèle de sources de données.
 1. Mettez à jour votre implémentation pour inclure la variable `transactionID`.
 1. Transférez un fichier de sources de données sur le site FTP avec un fichier `.fin`.
 
