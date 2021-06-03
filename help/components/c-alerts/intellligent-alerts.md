@@ -3,11 +3,10 @@ description: Le nouveau système d’alertes intelligentes permet de contrôler 
 title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ Les nouveaux Générateur d’alertes et Gestionnaire d’alerte remplacent la f
 * Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
 
-Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/alerts.html).
+Le nouveau système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne seront plus disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html).
 
 Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
@@ -76,7 +75,7 @@ Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts type
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Puis-je obtenir un tableau des « valeurs attendues » incluant la ligne pointillée ou un résultat quelconque indiquant à quoi correspondent ces valeurs ?</b> </p> </td> 
-   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Le Report Builder utilise une période de formation fixe de 30 jours, avec un intervalle fixe de 95 %. </p> </td> 
+   <td colname="col2"> <p>Pas dans l’espace de travail. Cela est possible en revanche dans le Report Builder (visionnez cette vidéo à propos de la <a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >détection des anomalies dans le Report Builder </a>). </p> <p>Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Le Report Builder utilise une période de formation fixe de 30 jours, avec un intervalle fixe de 95 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
