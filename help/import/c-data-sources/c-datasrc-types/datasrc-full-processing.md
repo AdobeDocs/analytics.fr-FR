@@ -3,11 +3,10 @@ description: Les variables suivantes sont prises en charge lors du traitement de
 title: Traitement complet
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 97%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. L’Adobe prévoit d’abandonner les sources de données à traitement complet le 31 juillet 2021. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (insertion de données en bloc)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que les sources de données à traitement complet. Le 31 juillet 2021, Adobe prévoit dʼabandonner les sources de données à traitement complet. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -48,7 +47,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>canal </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>Chaîne de canal (par exemple, section Sports). </p> </td> 
   </tr> 
   <tr> 
@@ -68,8 +67,8 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>événements </p> </td> 
-   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
+   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col3"> <p>Chaîne d’événements, formatée selon la même syntaxe que la variable <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Par exemple : </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -172,7 +171,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
+   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
