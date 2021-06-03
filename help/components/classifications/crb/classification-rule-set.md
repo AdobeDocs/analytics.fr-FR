@@ -2,13 +2,12 @@
 description: Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 subtopic: Classifications
 title: Jeux de règles de classification
-feature: Admin Tools
+feature: Outils d’administration
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +59,7 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
 1. (Condition préalable) Définissez la structure de classification sous **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Voir [Classifications](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
+   (Voir [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
 
    Les variables s’affichent dans le panneau [!UICONTROL Nouveau jeu de règles] uniquement une fois qu’au moins une classification est définie pour la variable.
 
