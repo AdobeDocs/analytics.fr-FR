@@ -5,10 +5,9 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualisations
 role: Business Practitioner, Administrator
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '372'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '370'
 ht-degree: 100%
 
 ---
@@ -63,4 +62,4 @@ Les segments prédéfinis du tableau sont des segments internes ; ils n’appar
 
 ![](assets/prebuilt_segments.png)
 
-Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (ventilations de données, par exemple), cliquez [ici](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
+Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (ventilations de données, par exemple), cliquez [ici](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr).
