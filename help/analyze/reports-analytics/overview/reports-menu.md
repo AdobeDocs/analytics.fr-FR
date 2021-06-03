@@ -2,14 +2,13 @@
 description: Une présentation du menu Rapports dans Reports & Analytics.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. C
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Pour obtenir plus de détails sur les rapports individuels, voir [Description des rapports](https://docs.adobe.com/content/help/fr-FR/analytics/components/dimensions/overview.html).
+Pour obtenir plus de détails sur les rapports individuels, voir [Description des rapports](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -66,7 +65,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segments <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Permet d’afficher le rail des segments qui vous permet d’ajouter ou de gérer des segments. Vous pouvez également accéder aux interfaces du <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >créateur de segments</a> et du <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >gestionnaire de segments</a> à partir de ce rail. </td> 
+   <td colname="col2">Permet d’afficher le rail des segments qui vous permet d’ajouter ou de gérer des segments. Vous pouvez également accéder aux interfaces du <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >créateur de segments</a> et du <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >gestionnaire de segments</a> à partir de ce rail. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mesures <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1">Sélecteur de Report Suites <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Vous permet de sélectionner des <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/report-suites-admin.html"  >suites de rapports de base</a> ou des <a href="https://docs.adobe.com/help/fr-FR/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
+   <td colname="col2">Vous permet de sélectionner des <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >suites de rapports de base</a> ou des <a href="https://docs.adobe.com/help/fr-FR/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendrier <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.html) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) dans l’aide destinée aux administrateurs.
