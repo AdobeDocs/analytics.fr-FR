@@ -2,11 +2,10 @@
 title: Résolution des problèmes de mise en œuvre de JavaScript
 description: Découvrez les problèmes courants et les bonnes pratiques pour résoudre les problèmes de votre mise en œuvre JavaScript.
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +85,7 @@ Ces deux valeurs de variable sont considérées comme distinctes dans Adobe Anal
 
 Les implémentations qui renseignent de nombreuses variables avec des valeurs longues rencontrent parfois des demandes d’image tronquées. Certains navigateurs plus anciens, comme Internet Explorer, imposent une limite de 2 083 caractères aux URL de demande d’image. Si votre entreprise fait face à de très longues demandes d’image, essayez les méthodes suivantes :
 
-* **Utilisez le service Experience Cloud ID** : les bibliothèques AppMeasurement 1.4.1 et ultérieures envoient automatiquement des demandes d’image POST HTTP lorsqu’elles sont trop longues. Les données envoyées à l’aide de cette méthode ne sont pas tronquées, quelle que soit leur longueur. Pour plus d’informations, consultez le [service Adobe Experience Cloud ID](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+* **Utilisez le service Experience Cloud ID** : les bibliothèques AppMeasurement 1.4.1 et ultérieures envoient automatiquement des demandes d’image POST HTTP lorsqu’elles sont trop longues. Les données envoyées à l’aide de cette méthode ne sont pas tronquées, quelle que soit leur longueur. Pour plus d’informations, consultez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 * **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/admin/c-processing-rules/processing-rules.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
 
    Exécutez :<br>
