@@ -2,14 +2,13 @@
 description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 title: Personnalisation des rapports - Aperçu
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 99%
+source-wordcount: '924'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +38,7 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 
 >[!MORELIKETHIS]
 >
->* [Personnalisation des menus](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/customize-menus.translate.html)
+>* [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ Il est impossible de comparer les dates entre des rapports de tendances.
 
 >[!NOTE]
 >
->Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
+>Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
 Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
 
@@ -210,7 +209,7 @@ Cette fonctionnalité s’applique uniquement aux rapports de tendances filtrés
 1. Exécutez un rapport de tendances pour une période spécifiée.
 1. Cliquez sur le lien **[!UICONTROL Jour de la semaine]**, puis cliquez sur un jour.
 
-## Bouton Essayer dans l’espace de travail {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Bouton Essayer dans l’espace de travail  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Un clic sur le bouton **[!UICONTROL Essayer dans l’espace de travail]** situé en haut d’un rapport entraîne le chargement de ce rapport dans Analysis Workspace.
 
@@ -224,4 +223,4 @@ La plupart des rapports dans Reports &amp; Analytics contiennent désormais un
 
 Actuellement, le bouton n’est disponible que si votre nom d’utilisateur dispose des droits complets dans Analysis Workspace.
 
-Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/home.html).
+Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
