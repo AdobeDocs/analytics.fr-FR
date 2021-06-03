@@ -4,11 +4,10 @@ keywords: ftp;sftp
 title: Protocole de transfert de fichiers sécurisé - Aperçu
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 SFTP est un protocole sécurisé de transfert des données, grâce auquel personne d’autre que vous ne peut accéder à vos données. Adobe Engineering Services peut configurer un compte SFTP afin de conserver vos données de manière sécurisée.
 
-## Livraison par émission (push) {#section_A47831BB1DCA490BB57F0940617AA506}
+## Livraison par émission (push)  {#section_A47831BB1DCA490BB57F0940617AA506}
 
 Cela signifie que les serveurs d’Adobe « poussent » le fichier sur vos serveurs. Grosso modo, nous délivrons le fichier à votre point de terminaison.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) et le [flux de données Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/export/analytics-data-feed/data-feed-overview.html) peuvent transmettre les données par SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) et le [flux de données Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html) peuvent transmettre les données par SFTP.
 
 Les outils Analytics suivants **ne peuvent pas** transmettre les données par SFTP :
 
@@ -28,7 +27,7 @@ Les outils Analytics suivants **ne peuvent pas** transmettre les données par SF
 * Ad Hoc Analysis
 * Report Builder
 
-## Livraison par extraction (pull) {#section_FA29FAEF02FE40B8B32452146A036F48}
+## Livraison par extraction (pull)  {#section_FA29FAEF02FE40B8B32452146A036F48}
 
 Ceci signifie que le fichier est envoyé à l’un des serveurs Adobe par l’intermédiaire d’un protocole FTP standard. Pour récupérer le fichier sur votre serveur, vous devez l’extraire du serveur Adobe par SFTP de votre serveur vers le serveur FTP Adobe. Vous pouvez le faire de trois façons :
 
