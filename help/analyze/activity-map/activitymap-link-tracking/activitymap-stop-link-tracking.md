@@ -4,14 +4,13 @@ title: Arrêt du suivi des liens
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 96%
+source-wordcount: '74'
+ht-degree: 89%
 
 ---
-
 
 # Arrêt du suivi des liens
 
@@ -27,7 +26,7 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js : 
+   <td colname="col2"> Supprimez le contenu suivant du fichier Appmeasurement.js :  
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -35,7 +34,7 @@ ht-degree: 96%
      &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
      &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
      &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
-     &nbsp;https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
+     &nbsp;https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html
      */
      function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
@@ -44,10 +43,9 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anciennement ClickMap des visiteurs) </td> 
-   <td colname="col2"> <p>Définissez la variable <a href="https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
+   <td colname="col2"> <p>Définissez la variable <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> sur false (valeur par défaut). La syntaxe est la suivante :       <code>
        s.trackInlineStats=false
      </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
