@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -21,16 +21,16 @@ Décrit la façon de définir les autorisations ainsi que les dimensions disponi
 Pour que les utilisateurs puissent créer des rapports sur les dimensions Activity Map, vous devez, en tant qu’administrateur :
 
 * [Ajouter des utilisateurs au groupe d’accès d’Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Gestion utilisateur]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès Activity Map]** > **[!UICONTROL Modifier]**.
+* Ajouter à ce groupe les suites de rapports auxquelles vous souhaitez accéder. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes]** > **[!UICONTROL Accès Activity Map]** > **[!UICONTROL Modifier]**.
 * Personnaliser l’accès des utilisateurs aux dimensions. Voir la section suivante.
 
 ## Dimensions Activity Map dans Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) à un niveau granulaire. Les dimensions Activity Map suivantes sont disponibles dans Analytics :
+Vous pouvez [personnaliser l’accès des utilisateurs aux dimensions](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html) à un niveau granulaire. Les dimensions Activity Map suivantes sont disponibles dans Analytics :
 
 | Dimension | Description |
 |---|---|
-| Activity Map Page | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
+| Activity Map  Page | Répertorie les pages sur lesquelles un utilisateur a cliqué sur un lien. |
 | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
 | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
 | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
