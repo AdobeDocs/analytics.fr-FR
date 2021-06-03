@@ -1,16 +1,15 @@
 ---
-description: Première étape lors de la création d’une requête dans le Report Builder.
+description: Première étape lors de la création d’une requête dans Report Builder.
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '418'
+ht-degree: 95%
 
 ---
-
 
 # Requêtes de données - Assistant Requête : Étape 1
 
@@ -22,7 +21,7 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
 1. **Sélecteur de plage** : permet de sélectionner un identifiant de suite de rapports à partir d’une cellule dans Excel. Reportez-vous à la section [Sélectionner des suites de rapports](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
+1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
    Vous pouvez, par exemple, exécuter un [!UICONTROL rapport Pages], puis appliquer un segment Premières visites.
 
