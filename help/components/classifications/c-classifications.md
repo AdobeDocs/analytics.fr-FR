@@ -2,11 +2,10 @@
 title: Présentation des classifications
 description: Personnalisez le regroupement des éléments de dimension.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '605'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +31,7 @@ Supposons qu’au lieu de visualiser des campagnes sur la seule base du code de 
 
 Les rapports et analyses contiennent des classifications prédéfinies pour la variable Code de suivi, ce qui génère des rapports basés sur les classifications appelés Éléments créatifs et Campagnes. Vous devez configurer manuellement les classifications pour toutes les autres variables de conversion et de trafic.
 
-Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Reportez-vous aux sections [Classifications de trafic](/help/admin/admin/c-traffic-variables/traffic-classifications.md) et [Classifications des conversions](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 Le tableau ci-après décrit les différents types de classifications disponibles et les types de variables les prenant en charge. Consultez les informations de la section  [Structure générale d’un fichier](/help/components/classifications/importer/c-saint-data-files.md) avant de télécharger les fichiers de données.
 
