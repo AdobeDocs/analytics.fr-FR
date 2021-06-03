@@ -4,11 +4,10 @@ description: Interaction avec des éléments de dimension dynamiques et statique
 feature: Tableaux à structure libre
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 98%
 
 ---
 
@@ -54,4 +53,4 @@ Vous pouvez ajouter des éléments de dimension de différentes dimensions au m�
 Les lignes dynamiques et statiques se comportent différemment dans la ligne de total à structure libre. Par défaut :
 
 * Les lignes dynamiques sont additionnées côté serveur et dédupliquent les mesures, telles que les visites ou les visiteurs.
-* Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
