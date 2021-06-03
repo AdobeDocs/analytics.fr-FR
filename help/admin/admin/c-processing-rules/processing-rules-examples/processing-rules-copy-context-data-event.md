@@ -2,14 +2,13 @@
 description: Les règles de traitement peuvent déclencher des événements sur la base de variables Données contextuelles.
 subtopic: Processing rules
 title: Définir un événement à l’aide d’une variable de données contextuelles
-feature: Admin Tools
+feature: Outils d’administration
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 95%
 
 ---
 
@@ -38,4 +37,4 @@ Par exemple :
 
 ![](assets/processing_rule_set_event.png)
 
-Reportez-vous à la rubrique [Variables Données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
+Reportez-vous à la rubrique [Variables Données contextuelles](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) dans l’aide d’implémentation.
