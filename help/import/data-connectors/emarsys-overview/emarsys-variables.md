@@ -2,20 +2,19 @@
 description: L’intégration des Data Connectors pour emarsys effectue le suivi des résultats de mesure à l’aide des variables Analytics.
 title: Variables Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: a59216f2-047b-429b-8714-a2bdaa271911
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 97%
 
 ---
-
 
 # Variables Analytics {#analytics-variables}
 
 L’intégration des Data Connectors pour emarsys effectue le suivi des résultats de mesure à l’aide des variables Analytics.
 
-Après avoir identifié l’événement et les eVars à utiliser avec l’intégration d’emarsys, activez-les dans [Admin Console](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/c-admin-tools.html).
+Après avoir identifié l’événement et les eVars à utiliser avec l’intégration d’emarsys, activez-les dans [Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html).
 
 **Variables obligatoires**
 
@@ -63,14 +62,13 @@ Après avoir identifié l’événement et les eVars à utiliser avec l’intég
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
    <td colname="col3"> <p>Collecté à partir des paramètres de requête dans les liens de courrier électronique par le biais de la méthode de collecte automatisée ou d’un plug-in JavaScript. </p> </td> 
-   <td colname="col4"> ID destinataire </td> 
+   <td colname="col4"> Recipient ID  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> eVar or s.campaign </td> 
+   <td colname="col1"> eVar ou s.campaign </td> 
    <td colname="col2"> ID de message </td> 
    <td colname="col3"> <p>Collecté à partir des paramètres de requête dans les liens de courrier électronique par le biais de la méthode de collecte automatisée ou d’un plug-in JavaScript. </p> </td> 
    <td colname="col4"> Cette valeur est souvent stockée dans la variable de campagne. </td> 
   </tr> 
  </tbody> 
 </table>
-
