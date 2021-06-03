@@ -2,20 +2,19 @@
 description: Cette intégration des courriers électroniques d’Adobe® Data Connectors™ combine des informations comportementales d’Analytics® avec la solution de marketing par courrier électronique afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 title: Connecteur de données DreamMail pour Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: a37bf616-0f2a-4009-825f-92c30e79336f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
-
 
 # Connecteur de données DreamMail pour Adobe Analytics {#dreammail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration des courriers électroniques d’Adobe® Data Connectors™ combine des informations comportementales d’Analytics® avec la solution de marketing par courrier électronique afin de créer un outil puissant permettant de redéfinir la mesure de succès et de cibler les audiences avec des messages plus pertinents.
 
@@ -55,7 +54,7 @@ Avant de démarrer l’intégration des Data Connectors pour , remplissez les ex
 * **Suivi externe :** si vous ne respectez pas actuellement la bonne pratique consistant à activer le suivi externe pour chaque campagne par e-mail envoyée, vous devez le faire pour garantir le succès de l’intégration. Consultez la section [!DNL ~Partner~] ci-dessous pour plus d’informations.
 * **Respect de la confidentialité :** vous devez comprendre qu’en activant le suivi des identifiants destinataires ou visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela entraîne des répercussions en matière de confidentialité qui nécessitent la mise en œuvre de procédures appropriées par votre organisation, comme la notification et la demande de consentement auprès des visiteurs de votre site.
 
-## Tarifs {#pricing}
+## Tarifs{#pricing}
 
 Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas.
 
@@ -73,4 +72,4 @@ Cette intégration peut engendrer des frais récurrents et de mise en œuvre. Ve
 
 Cette intégration nécessite que les variables Analytics effectuent le suivi des mesures.
 
-Après avoir identifié l’événement et les eVars à utiliser avec cette intégration, ils doivent être activés dans Analytics Admin Console (voir [Suites de rapports](https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/report-suites-admin.html) pour obtenir des instructions).
+Après avoir identifié l’événement et les eVars à utiliser avec cette intégration, ils doivent être activés dans Analytics Admin Console (voir [Suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) pour obtenir des instructions).
