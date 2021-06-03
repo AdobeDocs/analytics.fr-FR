@@ -5,11 +5,10 @@ title: Conditions requises et limites de transfert
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 
 * Chaque compte FTP est limité à un total de 50 Mo de données pour tous les fichiers. Le traitement s’interrompt au-delà de 50 Mo et ne reprend qu’une fois que le total est inférieur à 50 Mo.
 
-## Dates  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Dates {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * Chaque jour calendaire, vous pouvez transférer des données pour 90 dates uniques. Au-delà de cette limite, le chargement échoue et un message d’erreur s’affiche, indiquant que le nombre maximum de jours uniques a été dépassé.
 * Seules les données avec des dates en cours ou passées peuvent être importées. Ne tentez pas d’utiliser des dates futures dans vos données de sources de données.
@@ -60,7 +59,7 @@ La fonctionnalité Sources de données prend en charge le codage multioctet. Ell
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
+   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 avec marque d’ordre d’octet (EF BB BF) </td> 
@@ -90,12 +89,12 @@ Si vous envoyez un fichier UTF-8 ou ISO-8859-1 et que votre suite de rapports n�
 * L’erreur est détectée durant la conversion, auquel cas vous recevez un message du type « Caractère incorrect détecté dans le fichier à la position 18 lors de la conversion d’UTF-8 à ISO-8859-1 ».
 * Le fichier est traité sans erreur, mais des données altérées s’affichent dans le rapport.
 
-## Transfert de fichiers journaux Web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Transfert de fichiers journaux Web {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Les rapports de trafic, tels que les pages vues, constituent les rapports les plus utiles pour l’affichage de données de journaux Web.
 * Les noms de page s’affichent sous forme d’URL complète, incluant la chaîne de requête.
 * Chaque requête de fichier s’affiche sous forme d’une page distincte, comprenant les feuilles de style et les fichiers image.
-* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, l’Adobe enregistre les URL suivantes comme deux pages distinctes :
+* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, Adobe enregistre les URL suivantes comme deux pages distinctes :
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
