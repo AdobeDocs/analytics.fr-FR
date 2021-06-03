@@ -2,9 +2,9 @@
 title: Débogueur Adobe Experience Cloud hérité
 description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service et Launch.
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '684'
 ht-degree: 98%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Cet outil de débogage n’est plus pris en charge. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html).
+>Cet outil de débogage n’est plus pris en charge. Adobe recommande plutôt d’utiliser l’extension [Chrome du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html).
 
 Le [!UICONTROL débogueur hérité] examine les balises pour la plupart des services Adobe Experience Cloud. L’utilisation du débogueur vous permet de voir quelles données sont envoyées à Adobe sur une page donnée de votre site. Vous pouvez utiliser ces informations pour dépanner ou valider la mise en œuvre de votre entreprise.
 
@@ -35,7 +35,7 @@ Chaque navigateur gère les signets de différentes manières, mais le concept e
 
 #### Chrome
 
-Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
+Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
 
 1. Cliquez sur les trois points en haut à droite, puis sélectionnez Signets > Gestionnaire de signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Dans le coin supérieur droit du gestionnaire de signets, cliquez sur les trois points, puis cliquez sur Ajouter un nouveau signet.
