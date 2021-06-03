@@ -2,10 +2,10 @@
 title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 91%
+source-wordcount: '948'
+ht-degree: 82%
 
 ---
 
@@ -43,9 +43,19 @@ La prise en charge SFTP des flux de données est disponible. Nécessite un hôte
 
 ### S3
 
-Il est possible d’envoyer des flux directement vers des compartiments Amazon S3. Nécessite un nom de compartiment, un identifiant de clé d’accès et une clé secrète. Consultez les [conditions d’attribution de noms pour des compartiments Amazon S3](https://docs.aws.amazon.com/fr_fr/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) dans les documents Amazon S3 pour plus d’informations.
+Il est possible d’envoyer des flux directement vers des compartiments Amazon S3. Ce type de destination nécessite un nom de compartiment, un identifiant de clé d’accès et une clé secrète. Consultez les [conditions d’attribution de noms pour des compartiments Amazon S3](https://docs.aws.amazon.com/fr_fr/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) dans les documents Amazon S3 pour plus d’informations.
 
 ![Informations S3](assets/dest-s3.jpg)
+
+L’utilisateur que vous fournissez pour charger des flux de données doit disposer des [autorisations ](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) suivantes :
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >Pour chaque chargement vers un compartiment Amazon S3, [!DNL Analytics] ajoute le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl , que le compartiment ait ou non une stratégie qui le requiert. Pour plus d’informations, voir &quot;[Qu’est-ce que le paramètre BucketOwnerFullControl pour les flux de données Amazon S3 ?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’algorithme de signature approprié si nécessaire) :
 
