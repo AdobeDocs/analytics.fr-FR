@@ -2,10 +2,10 @@
 title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2169'
-ht-degree: 97%
+source-wordcount: '2163'
+ht-degree: 96%
 
 ---
 
@@ -121,13 +121,13 @@ Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche p
 
 ![](assets/example_paid_search.png)
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
 
 ### Recherche naturelle   {#natural-search}
 
 Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
 
-La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
 
 Pour la règle du canal marketing, les paramètres de la recherche naturelle sont les suivants :
 
@@ -169,7 +169,7 @@ Cette règle s’applique aux visiteurs dont l’URL de référence correspond a
 
 ![](assets/int-channel1.png)
 
-Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://docs.adobe.com/content/help/fr-FR/analytics/components/marketing-channels/c-faq.html#interne).
+Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal).
 
 ### Direct  {#direct}
 
