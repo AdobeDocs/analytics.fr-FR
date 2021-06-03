@@ -1,11 +1,10 @@
 ---
 description: Vous ne pouvez pas combiner le Créateur de règles de classification avec des sous-classifications.
 title: Sous-classifications et le Créateur de règles
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +39,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 >
 >Ces étapes décrivent la procédure à suivre pour réaliser le cas d’utilisation décrit dans [Sous-classifications et Créateur de règles](/help/components/classifications/crb/sub-classification-rule-builder.md).
 
-1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html).
+1. Créez des classifications et des sous-classifications dans le [Gestionnaire de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html).
 
    Exemple :
 
