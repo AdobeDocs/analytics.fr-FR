@@ -2,13 +2,12 @@
 description: L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
 subtopic: Classifications
 title: Fichiers de données de classification
-feature: Admin Tools
+feature: Outils d’administration
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 100%
+source-wordcount: '1771'
+ht-degree: 99%
 
 ---
 
@@ -164,13 +163,13 @@ Ces caractères ont une signification spéciale dans un fichier de données. Lor
 
 Les dates de campagne sont généralement des périodes (dates de début et de fin) associées à chaque campagne. Elles doivent apparaître au format AAAA/MM/JJ. Par exemple, 2013/06/15-2013/06/30.
 
-Pour plus d’informations, reportez-vous à la section [Classifications des conversions](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Pour plus d’informations, reportez-vous à la section [Classifications des conversions](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 >[!NOTE]
 >
 >Dans la version de maintenance du 10 mai 2018 d’[!DNL Analytics], Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
 
-## Utilisation de dates en association avec des [!UICONTROL classifications ] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Utilisation de dates en association avec des [!UICONTROL classifications ]  {#section_966A07B228CD4643B258E73FB8BA150A}
 
 Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périodes à vos campagnes ou autres [!UICONTROL classifications] de conversion ce qui permet une mesure plus précise des campagnes. Une fois la période d’une valeur indiquée, toute valeur correspondante qui se produit en dehors de la période ne sera pas classée. Cela est utile pour la mesure de campagne qui souhaite utiliser les dates exactes auxquelles une campagne était active et non tous les accès correspondant à la campagne elle-même. Afin de classer avec succès une valeur dans une période, les critères suivants doivent être respectés :
 
