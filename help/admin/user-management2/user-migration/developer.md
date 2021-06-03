@@ -1,15 +1,14 @@
 ---
-description: API de listes affectées par la migration des utilisateurs
+description: Répertorie les API affectées par la migration des utilisateurs
 title: API affectées par la migration des utilisateurs
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 88%
 
 ---
-
 
 # API affectées par la migration des utilisateurs{#apis-affected-by-the-migration}
 
@@ -34,7 +33,7 @@ Les méthodes d’API des versions 1.3 et 1.4 de l’API Admin suivantes ne ser
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## Actions possibles {#section-8b0b89a862614f729ebdbe092ce99027}
+## Actions possibles  {#section-8b0b89a862614f729ebdbe092ce99027}
 
 Si votre entreprise utilise actuellement ces méthodes, vous recevrez une notification vous informant de la migration, à compter du 31 mars 2018. La notification vous sera envoyée au moins 30 jours avant la date de début de la migration de votre entreprise vers l’authentification via Experience Cloud. Ces méthodes ne seront plus prises en charge à compter de cette date.
 
@@ -45,5 +44,4 @@ Pour en savoir plus :
 * [Généralités sur la gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/help/users.html)
 * [API de gestion des utilisateurs via adobe.io](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [Forum à propos des API de gestion des utilisateurs](https://forums.adobe.com/community/umapi/overview)
-* [Migration de l’accès et de la gestion des utilisateurs d’Analytics vers Experience Cloud](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
-
+* [Migration de l’accès et de la gestion des utilisateurs d’Analytics vers Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
