@@ -1,14 +1,13 @@
 ---
 description: La fonction Sources de données vous permet d’importer des données dans Analytics à partir de sources hors ligne. Une fois ces données importées, elles peuvent être traitées de la même manière que celles collectées en mode natif.
 title: Sources de données
-feature: Admin Tools
+feature: Outils d’administration
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 95%
 
 ---
 
@@ -24,4 +23,4 @@ Utilisez la fonctionnalité Sources de données pour effectuer les opérations s
 
 Lorsque la fonction Sources de données est activée sur une suite de rapports, un emplacement FTP est fourni, ce qui vous permet de télécharger les fichiers à intégrer dans le cadre de la création de rapports. Une fois le téléchargement effectué, les serveurs Adobe traitent automatiquement les données et les intègrent dans votre suite de rapports.
 
-Consultez l’[aide des sources de données](https://docs.adobe.com/content/help/fr-FR/analytics/import/data-sources/datasrc-home.html).
+Consultez l’[aide des sources de données](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html).
