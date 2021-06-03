@@ -5,10 +5,10 @@ title: Workflow du créateur de règles de classification
 feature: Outils d’administration
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 | Étape | Emplacement de l’action | Description |
 |--- |--- |--- |
-| Étape 1 (condition préalable requise) : [Configurer votre schéma de classification](https://docs.adobe.com/content/help/fr-FR/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Suites de rapports] > [!UICONTROL Modifier les paramètres] > &lt;Classifications de trafic ou Classifications des conversions> | Choisissez une variable et définissez les classifications à utiliser pour cette variable. <br>Au moins une colonne de classification doit être créée pour les variables pour qu’elles puissent être utilisées dans des règles.<br>Une fois les classifications activées, utilisez l’importateur et le créateur de règles pour classer des valeurs spécifiques. |
+| Étape 1 (condition préalable requise) : [Configurer votre schéma de classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html). | [!UICONTROL Admin] > [!UICONTROL Suites de rapports] > [!UICONTROL Modifier les paramètres] > &lt;Classifications de trafic ou Classifications des conversions> | Choisissez une variable et définissez les classifications à utiliser pour cette variable. <br>Au moins une colonne de classification doit être créée pour les variables pour qu’elles puissent être utilisées dans des règles.<br>Une fois les classifications activées, utilisez l’importateur et le créateur de règles pour classer des valeurs spécifiques. |
 | Étape 2 : [Créer un jeu de règles](/help/components/classifications/crb/classification-rule-set.md). | [!UICONTROL Admin] > [!UICONTROL Créateur de règles de classification] > [!UICONTROL Ajouter un jeu de règles] | Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. |
 | Étape 3 : Configurer des suites de rapports et des variables. | [!UICONTROL Créateur de règles de classification] > &lt;votre jeu de règles> | Appliquez le jeu de règles aux suites de rapports et aux variables. |
 | Étape 4 : [Ajouter des règles de classification au jeu](/help/components/classifications/crb/classification-quickstart-rules.md). | [!UICONTROL Créateur de règles de classification] > &lt;votre jeu de règles> | Fait correspondre une condition à une classification, puis précise l’action à effectuer pour la règle.  Familiarisez-vous avec les informations de la section [Méthode de traitement des règles](/help/components/classifications/crb/classification-quickstart-rules.md). |
@@ -51,4 +51,4 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 
 **Blog** : pour plus d’informations sur cette fonctionnalité, consultez le blog Digital Marketing : [Classifications selon des règles](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vidéo** : afficher la vidéo de [Présentation des classifications](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
+**Vidéo** : afficher la vidéo de [Présentation des classifications](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
