@@ -2,9 +2,9 @@
 description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics dans ce guide détaillé, qui revient notamment sur les autorisations requises et les dimensions et mesures disponibles.
 title: Guide d’Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1261'
 ht-degree: 93%
 
 ---
@@ -32,7 +32,7 @@ Cette intégration est destinée aux audiences ci-dessous :
 
 * Cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud ni d’AMO.
 * Vous devez être un administrateur Adobe Analytics pour accéder à Advertising Analytics. Par la suite, vous pourrez [accorder des autorisations d’accès](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) à des non-administrateurs.
-* Toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing doivent être [mappées à votre organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html).
+* Toutes les suites de rapports Analytics dans lesquelles vous souhaitez afficher les données de recherche Google/Bing doivent être [mappées à votre organisation Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 * Pour toute suite de rapports dans laquelle vous souhaitez afficher les données de recherche Google/Bing, vous devez [activer ces suites de rapports pour Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL Admin]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Configuration Advertising Analytics]**).
 
 * Vous avez besoin des informations de connexion pour un utilisateur autorisé à modifier le ou les comptes de recherche que vous souhaitez intégrer à Adobe Analytics, telles qu’un ID de compte Google et un mot de passe.
