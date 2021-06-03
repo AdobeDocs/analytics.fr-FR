@@ -2,20 +2,19 @@
 description: Cette intégration associe la puissance du système de retour intégré du logiciel de marketing par courrier électronique et le reporting comportemental d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 title: Connecteur de données optivo® broadmail pour Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 98%
 
 ---
-
 
 # Connecteur de données optivo® broadmail pour Adobe Analytics {#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration associe la puissance du système de retour intégré du logiciel de marketing par courrier électronique et le reporting comportemental d’Adobe Analytics afin de créer de puissantes opportunités d’analyse et d’optimisation pour votre entreprise.
 
@@ -72,7 +71,7 @@ Avant de démarrer l’intégration des Data Connectors pour , remplissez les ex
 
 * **Respect de la confidentialité :** vous devez comprendre qu’en activant le suivi des identifiants destinataires ou visiteurs, cette fonctionnalité peut effectuer le suivi des informations d’identification personnelle des visiteurs de votre site. Cela entraîne des répercussions en matière de confidentialité qui nécessitent la mise en œuvre de procédures appropriées par votre organisation, comme la notification et la demande de consentement auprès des visiteurs de votre site.
 
-## Tarifs {#pricing}
+## Tarifs{#pricing}
 
 Notez que l’activation de cette intégration peut entraîner des frais pour votre entreprise, conformément à votre contrat de service avec Adobe, Inc. ou votre contrat de service avec l’un des partenaires de confiance d’Adobe, selon le cas.
 
@@ -90,4 +89,4 @@ Cette intégration est disponible pour les clients [!DNL ~Partner~], mais des fr
 
 Cette intégration nécessite que les variables Adobe Analytics effectuent le suivi des mesures.
 
-Après avoir identifié l’événement et les eVars à utiliser avec cette intégration, ils doivent être activés dans Analytics Admin Console (voir [Suites de rapports](https://docs.adobe.com/content/help/fr-FR/analytics/admin/manage-report-suites/report-suites-admin.html) pour obtenir des instructions).
+Après avoir identifié l’événement et les eVars à utiliser avec cette intégration, ils doivent être activés dans Analytics Admin Console (voir [Suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) pour obtenir des instructions).
