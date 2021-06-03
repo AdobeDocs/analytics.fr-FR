@@ -3,11 +3,10 @@ title: Présentation des variables, fonctions, méthodes et plug-ins
 description: Découvrez les variables que vous pouvez inclure dans les données que vous envoyez à Adobe pour améliorer la création de rapports.
 keywords: appmeasurement,variables,vars,configuration,page,mise en œuvre
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +27,7 @@ Adobe propose plusieurs façons de mettre en œuvre Adobe Analytics. Chaque page
 Les bibliothèques AppMeasurement publiées par Adobe Analytics suivent un ordre spécifique lors de l’envoi de données à Adobe. Si vous exécutez ces tâches dans l’ordre, les données peuvent être incomplètes.
 
 1. Si votre site utilise une couche de données, assurez-vous que toutes les variables applicables sont renseignées en premier. Pour plus d’informations, reportez-vous à la section [Couches de données](../prepare/data-layer.md).
-2. Utilisez la couche de données pour renseigner les variables Analytics. Si vous utilisez Launch, cette tâche est facilement accomplie en utilisant des éléments de données, puis en affectant l’élément de données à une variable. Voir [Éléments de données](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/manage-resources/data-elements..html) dans le guide d’utilisation de Launch.
+2. Utilisez la couche de données pour renseigner les variables Analytics. Si vous utilisez Launch, cette tâche est facilement accomplie en utilisant des éléments de données, puis en affectant l’élément de données à une variable. Voir [Éléments de données](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html) dans le guide d’utilisation de Launch.
 3. Appelez la fonction de suivi. La plupart des bibliothèques AppMeasurement utilisent la méthode `t()`, mais certains kits SDK mobiles utilisent `track()`. Lorsque la fonction de suivi est appelée, toutes les variables prises en charge définies dans l’objet Analytics sont envoyées à Adobe sous la forme d’une demande d’image.
 
 ## Caractères interdits
