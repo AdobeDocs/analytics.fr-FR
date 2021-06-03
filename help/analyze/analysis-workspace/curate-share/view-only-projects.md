@@ -5,10 +5,9 @@ title: Projets en lecture seule
 feature: Traitement et partage
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ Les interactions désactivées dans un projet en lecture seule sont les suivante
 
 * Rail de gauche masqué
 * Suite de rapports
-* Période du calendrier du panneau. Remarque : si vous souhaitez accorder le contrôle du calendrier aux destinataires, ajoutez un [filtre déroulant de périodes](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Période du calendrier du panneau. Remarque : si vous souhaitez accorder le contrôle du calendrier aux destinataires, ajoutez un [filtre déroulant de périodes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr).
 * Filtrage à structure libre
 * Nombre de lignes visibles de la structure libre
 * Paramètres de ligne, de colonne ou de visualisation à structure libre
