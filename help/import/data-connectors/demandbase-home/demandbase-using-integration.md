@@ -2,14 +2,13 @@
 description: Une fois l’intégration déployée, vous pouvez commencer à utiliser les fonctionnalités supplémentaires qu’elle fournit.
 title: Utilisation de l’intégration
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 7c568f78-6cec-47ad-acf8-60138cd4aca7
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 96%
 
 ---
-
 
 # Utilisation de l’intégration {#using-the-integration}
 
@@ -37,6 +36,6 @@ Vous pouvez, par exemple, créer un segment qui inclura uniquement les visites d
 
 L’audience est égale à PME.
 
-Pour plus d’informations sur la création de segments, consultez le [guide de segmentation Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html).
+Pour plus d’informations sur la création de segments, consultez le [guide de segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
 
 Ce segment peut ensuite être appliqué à pratiquement n’importe quel rapport. Par exemple, le rapport Durée de la visite est présenté ici : ![](assets/segment_applied_report.png)
