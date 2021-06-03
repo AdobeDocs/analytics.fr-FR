@@ -2,20 +2,19 @@
 description: Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 title: Activation de l’intégration
 uuid: 3b2acdb8-9a1f-4f17-92f2-6a3780a8f626
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 18fb2f55-f1fb-4d97-bd1e-8c5e74dbde69
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 97%
+source-wordcount: '729'
+ht-degree: 98%
 
 ---
-
 
 # Activation de l’intégration {#activate-the-integration}
 
 Utilisez l’assistant de configuration des Data Connectors Adobe pour configurer l’intégration.
 
-1. Démarrez [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
+1. Démarrez [Data Connectors](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html) et cliquez sur **[!UICONTROL + Ajouter nouveau]** pour [ajouter une nouvelle intégration](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html).
 1. Dans la liste **[!UICONTROL Affichage]**, sélectionnez **[!UICONTROL Par nom]** et faites glisser l’intégration du [!DNL ~Partner~] vers un emplacement de plug-in vide.
 1. Renseignez l’assistant d’intégration à l’aide des informations du tableau suivant :
 
@@ -24,7 +23,7 @@ Utilisez l’assistant de configuration des Data Connectors Adobe pour configure
 | Suite de rapports | Suite de rapports qui reçoit les données de cette intégration. |
 | Nom d’intégration | Indiquez le nom de l’intégration que les Data Connectors affichent dans la liste d’intégration active de la suite de rapports. |
 | Adresse électronique | Précisez une adresse électronique où recevoir le rapport. |
-| ID de compte | Identificateur unique attribué à votre organisation par votre fournisseur de services de messagerie. Il sera utilisé lors de la demande de données de campagne par e-mail (ex. # Envoyé, # Ouvert, # Cliqué, etc.) à partir des segments de visiteurs et envoyé à votre fournisseur de services de messagerie. |
+| ID de compte | Identifiant unique attribué à votre organisation par votre fournisseur de services de messagerie. Il sera utilisé lors de la demande de données de campagne par e-mail (ex. # Envoyé, # Ouvert, # Cliqué, etc.) à partir des segments de visiteurs et envoyé à votre fournisseur de services de messagerie. |
 | Recipient ID | Cet identifiant est une représentation codée ou numérique d’une adresse électronique du système optivo® broadmail. Cet « ID de destinataire » est associé au comportement des visiteurs en aval sur le site (abandons de panier, achats, etc.) qui provient du système optivo® broadmail et peut être utilisé à des fins de remarketing. |
 | ID de message | (Obligatoire) Stocke l’ID de publipostage unique. Ces dimensions de classification sont créées par l’assistant des Data Connectors pour l’ID de message : <br>a)**Campaigns** : campagnes associées au message. <br>b)**Canal** : le canal de transmission, il s’agit pour l’instant de « optivo Broadmail ». <br>c)**Code pays** : ce champ contient le code pays du pays d’origine de l’expéditeur. C’est un « DE » constant. <br>d) **Outil de livraison** : méthode de transmission, toujours « E-mail ».<br> e) **Nom du message** : nom du publipostage, tel qu’il est configuré dans optivo® Broadmail. <br>f) **Date de début** : horodatage du début de ce publipostage. |
 | Heure post click | (Obligatoire) Cette donnée est nécessaire pour transmettre des informations sur une action du destinataire à optivo® broadmail, une fois que le destinataire a cliqué sur un lien dans un mail. |
