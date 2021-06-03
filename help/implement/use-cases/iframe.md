@@ -2,10 +2,10 @@
 title: Utilisation dʼAppMeasurement avec des iFrames
 description: Accédez aux variables Adobe Analytics à lʼintérieur dʼun iframe ou dʼune page parente dans un iframe.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Vous pouvez référencer des variables AppMeasurement à partir des iFrames enfant et parent. Il est nécessaire de définir toutes les variables au même emplacement où se trouve la bibliothèque AppMeasurement. Les exemples suivants expliquent la manière de définir les variables et méthodes AppMeasurement de base à lʼintérieur et à lʼextérieur dʼun iframe.
 
-Si vous utilisez Adobe Experience Platform Launch, assurez-vous que lʼobjet de suivi est accessible à tous. Voir [Présentation de lʼextension Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) dans le guide de lʼutilisateur de Launch.
+Si vous utilisez Adobe Experience Platform Launch, assurez-vous que lʼobjet de suivi est accessible à tous. Voir [Présentation de lʼextension Adobe Analytics](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) dans le guide de lʼutilisateur de Launch.
 
 >[!CAUTION]
 >
@@ -65,5 +65,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Comme pour tout autre code JavaScript, les iFrames ne peuvent communiquer que lorsque les domaines et les protocoles correspondent. Ces exemples ne fonctionnent pas si le contenu de lʼiframe réside sur un domaine différent de celui du parent.
 * Si AppMeasurement réside dans un iframe, la variable [`referrer`](../vars/page-vars/referrer.md) est définie sur lʼURL parente et non sur lʼURL référente réelle. Vous pouvez définir manuellement la variable `referrer` pour résoudre ce problème.
-* Lʼ[Experience Cloud Debugger dʼAdobe](https://docs.adobe.com/content/help/fr-FR/debugger/using/experience-cloud-debugger.html) ne reconnaît pas les demandes dʼimage déclenchées dans les iFrames.
+* Lʼ[Experience Cloud Debugger dʼAdobe](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html) ne reconnaît pas les demandes dʼimage déclenchées dans les iFrames.
 * Activity Map nʼaffiche pas la carte thermique sur les liens sur lesquels lʼutilisateur a cliqué dans les iFrames. La totalité de lʼiframe est mise en surbrillance à la place.
