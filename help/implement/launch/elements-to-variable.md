@@ -2,11 +2,10 @@
 title: Mise en correspondance des éléments de données Launch avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 
 ### Définition de variables dans les règles
 
-Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://docs.adobe.com/content/help/fr-FR/launch/using/reference/manage-resources/rules.html) dans le guide d’utilisation d’Adobe Experience Platform Launch.
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html) dans le guide d’utilisation d’Adobe Experience Platform Launch.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
 1. Cliquez sur la propriété Launch de votre choix.
