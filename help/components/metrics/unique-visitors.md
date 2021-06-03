@@ -2,11 +2,10 @@
 title: Visiteurs uniques
 description: Nombre d’ID de visiteur unique.
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 95%
 
 ---
 
@@ -29,9 +28,9 @@ Cette mesure comptabilise le nombre d’ID de visiteur unique pour un élément 
 | Ordre utilisé | Paramètre de requête (méthode de collecte) | Présenter quand |
 | --- | --- | --- |
 | 1 | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
-| 2 | `aid` | Le visiteur a un cookie [`s_vi`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
-| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, à l’aide du service [Adobe Experience Cloud Identity](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html). |
-| 4 | `fid` | Le visiteur a un cookie [`s_fid`](https://docs.adobe.com/content/help/fr-FR/core-services/interface/ec-cookies/cookies-analytics.html) existant, ou `aid` et `mid` ne peuvent être définis pour aucune raison. |
+| 2 | `aid` | Le visiteur a un cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
+| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existant. Défini lors de l’implémentation, à l’aide du service [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 4 | `fid` | Le visiteur a un cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) existant, ou `aid` et `mid` ne peuvent être définis pour aucune raison. |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. |
 
 >[!NOTE]
