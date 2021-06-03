@@ -5,10 +5,10 @@ title: Variables de conversion (eVar)
 feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1578'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Il est conseillé d’utiliser des variables de trafic si vous souhaitez procéd
 
 >[!NOTE]
 >
->Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/page-variables.html).
+>Une seule valeur peut être stockée dans une eVar dans une demande d’image. Pour stocker plusieurs valeurs dans une eVar, il est recommandé d’utiliser des [variables de liste](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variables de conversion - Descriptions {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -88,7 +88,7 @@ Description des champs utilisés lors de la [modification des variables de conve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b> :</span> associe la valeur eVar à un produit. Remarque : si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b> :</span> associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variables de marchandisage</a>. </p> </td> 
+   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b> :</span> associe la valeur eVar à un produit. Remarque : si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b> :</span> associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variables de marchandisage</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
