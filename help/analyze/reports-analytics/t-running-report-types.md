@@ -2,14 +2,13 @@
 description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Concepts de base des rapports et analyses
+feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 99%
+source-wordcount: '2335'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Code de suivi]** > **[!UICONTROL Entonnoir de conversion de campagne]**).
 
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://docs.adobe.com/content/help/fr-FR/analytics/components/dimensions/evar.html).
+Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html).
 
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-Découvrez le nouveau panneau [Analyse des abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
+Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
 1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Abandon]**.
 1. Sur la page du [!UICONTROL rapport sur les abandons], cliquez sur le bouton de **[!UICONTROL lancement du Report Builder d’abandons]**.
@@ -89,16 +88,16 @@ Découvrez le nouveau panneau [Analyse des abandons](https://docs.adobe.com/cont
 
 >[!MORELIKETHIS]
 >
->* [Description du rapport sur les abandons](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)
+>* [Description du rapport sur les abandons](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Les rapports de flux de page indiquent l’ordre dans lequel les visiteurs accèdent aux pages et parcourent votre site.
 
-Découvrez la nouvelle [visualisation Flux](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
+Découvrez la nouvelle [visualisation Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
-Exécutez un rapport [Chemins](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
+Exécutez un rapport [Chemins](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
 
 Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/t-running-report-types.html).
+1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
+Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
 
 **[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]**.
 
 >[!NOTE]
 >
->Vous pouvez également exécuter la détection des anomalies directement depuis les projets Analysis Workspace. [Plus...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>Vous pouvez également exécuter la détection des anomalies directement depuis les projets Analysis Workspace. [Plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
+Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
 La détection des anomalies présente deux types de graphiques : un graphique synthétique et des graphiques de mesures individuels. Les graphiques de mesures individuels ne s’affichent que si au moins une anomalie a été détectée pour la mesure.
 
@@ -183,7 +182,7 @@ La détection des anomalies présente deux types de graphiques : un graphique s
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 % </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur réelle inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Plus d’informations</a> sur la segmentation. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Plus d’informations</a> sur la segmentation. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Cliquez sur <span class="uicontrol">Modifier des mesures</span> pour sélectionner et désélectionner des mesures pour lesquelles vous souhaitez détecter des anomalies. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ Configurez la détection des anomalies indépendamment pour chaque suite de rapp
 
    ![](assets/ad_top_menu.png)
 
-   Voir le [guide de segmentation d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/components/segmentation/seg-home.html) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
+   Voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
 1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ».
 1. Vous pouvez à présent commencer à interpréter le rapport. [Affichage des graphiques de détection des anomalies](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://docs.adobe.com/content/help/fr-FR/analytics/landing/home.html#RealTime_Reports_Configuration).
+Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
 
 1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 
@@ -265,7 +264,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Sélectionner une suite de rapports</strong></td> 
-   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuration de rapports en temps réel </a>. </td> 
+   <td class="chdesc stentry"> Affiche la suite de rapports couverte par ce rapport en temps réel. Pour modifier la suite de rapports, voir <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >Configuration de rapports en temps réel </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Basculer entre les rapports</strong></td> 
