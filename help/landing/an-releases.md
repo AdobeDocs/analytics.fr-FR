@@ -2,10 +2,10 @@
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ Selon les mises à jour de fonctionnalité, la chronologie peut varier entre la 
 
 ## Indicateurs de fonctionnalités
 
-Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités pendant la mise à jour. Adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://docs.adobe.com/content/help/fr-FR/analytics/technotes/ip-addresses.html) de votre pare-feu pour une expérience optimale lors de la mise à jour. Peu de temps après avoir atteint la disponibilité générale, l’indicateur est retiré.
+Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités pendant la mise à jour. Adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=fr) de votre pare-feu pour une expérience optimale lors de la mise à jour. Peu de temps après avoir atteint la disponibilité générale, l’indicateur est retiré.
 
 Vous pouvez à tout moment afficher vos indicateurs de fonctionnalités actifs sous **Aide > À propos de Workspace > Indicateurs de fonctionnalités actifs**.
 
@@ -39,5 +39,5 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 
 | Question | Réponse |
 |---|---|
-| Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/tech-previews/overview.html) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez afficher les détails de votre package Analytics sous  [!UICONTROL Admin]  >  [!UICONTROL Tous les administrateurs]  >  [!UICONTROL Paramètres de la société]  >  [Niveaux d’accès aux fonctionnalités](https://docs.adobe.com/content/help/fr-FR/analytics/admin/company-settings/feature-access-levels.html). |
+| Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) pour faire part de vos commentaires sur nos innovations de pointe. |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez afficher les détails de votre package Analytics sous  [!UICONTROL Admin]  >  [!UICONTROL Tous les administrateurs]  >  [!UICONTROL Paramètres de la société]  >  [Niveaux d’accès aux fonctionnalités](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
