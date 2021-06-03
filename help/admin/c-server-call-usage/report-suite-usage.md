@@ -3,11 +3,10 @@ description: L’onglet Suite de rapports d’utilisation fournit des données d
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +18,7 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 >[!IMPORTANT]
 >
->Si une suite de rapports n’est [pas liée à une organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html), ses données d’utilisation ne seront pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
+>Si une suite de rapports n’est [pas liée à une organisation Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), ses données d’utilisation ne seront pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
