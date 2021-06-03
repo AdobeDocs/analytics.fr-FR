@@ -3,11 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2132'
+ht-degree: 98%
 
 ---
 
@@ -309,8 +308,8 @@ Date de publication : **18 juin 2015**
 
 Date de publication : **21 mai 2015**
 
-* Depuis le SDK iOS version 4.5, une nouvelle extension iOS permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension iOS. Reportez-vous à la section [Mise en œuvre des extensions iOS](https://docs.adobe.com/content/help/fr-FR/mobile-services/ios/ios-ext/ios-ext.html) dans le guide d’utilisation des Mobile Services.
-* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable. Reportez-vous à la page [Android Wearable](https://docs.adobe.com/content/help/fr-FR/mobile-services/android/wearables-android/android-wearable.html) dans le guide d’utilisation des Mobile Services.
+* Depuis le SDK iOS version 4.5, une nouvelle extension iOS permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension iOS. Reportez-vous à la section [Mise en œuvre des extensions iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html) dans le guide d’utilisation des Mobile Services.
+* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable. Reportez-vous à la page [Android Wearable](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html) dans le guide d’utilisation des Mobile Services.
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
@@ -395,7 +394,7 @@ Date de publication : **22 mai 2014**
 
 Date de publication : **17 avril 2014**
 
-* Prise en charge du service [d’identification des visiteurs Experience Cloud](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+* Prise en charge du service [d’identification des visiteurs Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.2.4
 
@@ -425,8 +424,8 @@ Date de publication : **15 novembre 2013**
 
 Date de publication : **14 novembre 2013**
 
-* Ajout de la prise en charge de la [mesure vidéo Pulsation](https://docs.adobe.com/content/help/fr-FR/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://docs.adobe.com/content/help/fr-FR/id-service/using/home.html).
+* Ajout de la prise en charge de la [mesure vidéo Pulsation](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.1.1
 
