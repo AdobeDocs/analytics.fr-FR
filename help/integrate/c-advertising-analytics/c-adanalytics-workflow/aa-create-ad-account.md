@@ -2,11 +2,10 @@
 title: Configuration d’un compte publicitaire dans Advertising Analytics
 description: Vous permet de créer des comptes publicitaires et de mapper plusieurs comptes à plusieurs suites de rapports.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -59,13 +58,13 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
 
    | Paramètre | Description |
    |--- |--- |
-   | Type | <ul><li>**Automatique :** laisse le moteur Advertising Cloud décider comment les paramètres de suivi sont ajoutés aux modèles de suivi/adresses URL de destination du moteur de recherche. Il s’agit de l’approche la plus simple, même si elle ne produit pas toujours le meilleur jeu de données intégré.<br>**Important :** pour configurer un compte de moteur de recherche en mode automatique, vous devez effectuer les actions suivantes :<br>- Le paramètre et la valeur « s_kwcid » seront ajoutés aux modèles de suivi de compte ou aux adresses URL de page de destination du compte ajouté. Ils seront alors insérés à la fin de l’URL. Par conséquent, vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. **Note :** découvrez si vous devez ajouter ou non ce paramètre à votre [politique de sécurité du contenu](https://docs.adobe.com/content/help/fr-FR/id-service/using/reference/csp.html).<br>- De plus, les mots-clés peuvent être insérés dans l’URL de destination avec la valeur « s_kwcid », donc s’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères (par exemple, le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée »).</li><li>**Manuel :** permet de gérer la façon dont les paramètres de suivi sont ajoutés aux modèles de suivi/adresses URL de destination du moteur de recherche. [Consultez ces exemples de suivi manuel pour chaque moteur de recherche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Type | <ul><li>**Automatique :** laisse le moteur Advertising Cloud décider comment les paramètres de suivi sont ajoutés aux modèles de suivi/adresses URL de destination du moteur de recherche. Il s’agit de l’approche la plus simple, même si elle ne produit pas toujours le meilleur jeu de données intégré.<br>**Important :** pour configurer un compte de moteur de recherche en mode automatique, vous devez effectuer les actions suivantes :<br>- Le paramètre et la valeur « s_kwcid » seront ajoutés aux modèles de suivi de compte ou aux adresses URL de page de destination du compte ajouté. Ils seront alors insérés à la fin de l’URL. Par conséquent, vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. **Note :** découvrez si vous devez ajouter ou non ce paramètre à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).<br>- De plus, les mots-clés peuvent être insérés dans l’URL de destination avec la valeur « s_kwcid », donc s’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères (par exemple, le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée »).</li><li>**Manuel :** permet de gérer la façon dont les paramètres de suivi sont ajoutés aux modèles de suivi/adresses URL de destination du moteur de recherche. [Consultez ces exemples de suivi manuel pour chaque moteur de recherche](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. Dans la section **[!UICONTROL Mappage]**, vous sélectionnerez les suites de rapport à lier à ce compte de moteur de recherche. Vous devez fournir au moins une suite de rapports pour pouvoir enregistrer votre compte Advertising. Vous pouvez mapper plusieurs comptes à plusieurs suites de rapports (1:1, 1:plusieurs, plusieurs:plusieurs). Remarque : Les données qu’AMO extrait du moteur de recherche sont simplement copiées dans toutes les suites de rapports mappées, il n’y a donc aucun partage de données.
 
    >[!IMPORTANT]
    >
-   >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Définissez les **[!UICONTROL Paramètres du mappage]** en procédant comme suit :
 
@@ -79,7 +78,7 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Mappage de suites de rapports </p> </td> 
-      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://docs.adobe.com/content/help/fr-FR/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
+      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
       </tr> 
     </tbody> 
     </table>
