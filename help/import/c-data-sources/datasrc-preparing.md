@@ -5,11 +5,10 @@ title: Préparation à l’utilisation des sources de données
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +20,7 @@ Procédure de préparation à l’utilisation des sources de données
 * [Identification des dimensions des données](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
 * [Code de suivi de campagne](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [ID de transaction](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
-* [Identification d’une période valide pour des données de source de données](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
+* [Identification d’une plage de dates valide pour des données de source de données](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
 ## Identification des mesures et attribution de nouveaux noms {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
@@ -29,7 +28,7 @@ Il est important de comprendre les mesures contenues dans vos sources de donnée
 
 Une fois les associations appropriées de mesure/événement déterminées pour les données des sources de données, renommez les événements à l’aide de noms explicites correspondant à la mesure concernée.
 
-Voir [Événements de succès](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide des outils d’administration.
+Voir [Événements de succès](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide des outils d’administration.
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ Après avoir défini les portées de données à utiliser avec une source de don
 
 Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné une eVar pour recevoir une portée de données à partir des sources de données, veillez à la nommer de façon appropriée.
 
-Voir [Événements de succès](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
+Voir [Événements de succès](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
 
 ## Code de suivi de campagne {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ Si vous n’importez pas les mesures de sources de données avec une valeur d’
 
 L’ID de transaction permet de connecter un événement en ligne à un événement hors ligne.
 
-## Identification d’une plage de dates valide pour des données de source de données  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identification d’une plage de dates valide pour des données de source de données {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Une fois définies vos mesures de sources de données (événements personnalisés) et vos portées de données (eVars), passez en revue la plage de dates des données de sources de données à importer. Vous ne pouvez pas importer des sources de données qui se situent en dehors de la plage de vos données de rapport existantes.
 
