@@ -2,10 +2,10 @@
 title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 86%
+source-wordcount: '410'
+ht-degree: 81%
 
 ---
 
@@ -49,7 +49,7 @@ Détail des canaux marketing permet d’approfondir les analyses de chaque canal
 
 ## Application des modèles d’attribution
 
-Vous pouvez utiliser [Attribution IQ](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/attribution.html) pour appliquer instantanément différents modèles d’attribution :
+Vous pouvez utiliser [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) pour appliquer instantanément différents modèles d’attribution :
 
 ![](assets/mc-viz5.png)
 
@@ -61,4 +61,4 @@ Notez comment une même mesure (Commandes en ligne) génère des résultats diff
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://docs.adobe.com/content/help/fr-FR/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
