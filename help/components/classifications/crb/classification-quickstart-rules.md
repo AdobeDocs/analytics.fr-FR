@@ -4,10 +4,9 @@ subtopic: Classifications
 title: Règles de classification
 feature: Outils d’administration
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -37,7 +36,7 @@ Vous pouvez configurer trois règles dans un jeu pour identifier les parties de 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
 | Commence par | em : | Canal | Courriel |
-| Se termine par | Sale | Type | Vente |
+| Se termine par | Sale | Type | Sale |
 | Contient | 2013 | Année | 2013 |
 
 ## Méthode de traitement des règles {#how-rules-are-processed}
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## Informations importantes concernant les règles
 
-* Spécifiez les [droits d’accès de groupe](https://docs.adobe.com/content/help/fr-FR/analytics/admin/user-product-management/user-groups/groups.html) correspondant aux classifications dans [!UICONTROL Outils d’administration].
+* Spécifiez les [droits d’accès de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) correspondant aux classifications dans [!UICONTROL Outils d’administration].
 
 * **Expressions régulières** : une aide est disponible sous [Expressions régulières dans des règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -208,7 +207,7 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 | Expression régulière  Pour la chaîne correspondante a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | Expression régulière  Pour la chaîne correspondante a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## Expressions régulières – Exemple « Ne contient pas » {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Expressions régulières – Exemple « Ne contient pas »  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Cet exemple illustre une expression régulière qui correspond à toute chaîne ne contenant pas de caractères spécifiques ; `13`, dans le cas présent.
 
@@ -266,7 +265,7 @@ Dans ce résultat, `a:b:1313` n’indique pas de correspondance.
 | `a{3,}` | 3 ou plus de : a |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
-[https://rubular.com/](https://rubular.com/) constitue une bonne ressource pour tester la validité des expressions régulières.
+[https://rubular.com/](https://rubular.com/) constitue une bonne ressource pour tester la validité d’une expression régulière.
 
 ## À propos de la priorité des règles
 
@@ -294,7 +293,7 @@ De même, supposons que vous configuriez deux règles d’un jeu pour les termes
 
 | Numéro de règle | Type de règle | Correspond à | Définir la classification | À |
 |---|---|---|---|---|
-| 1 | Contient | Cowboys | Ville | Dallas |
+| 3 | Contient | Cowboys | Ville | Dallas |
 | 2 | Contient | Broncos | Ville | Denver |
 
 Un utilisateur recherche *`Cowboys vs. Broncos`*. Si le créateur de règles détecte un conflit dans la correspondance de règles, la classification de la deuxième règle (Denver) s’applique à cette recherche.
@@ -407,7 +406,7 @@ Ces étapes décrivent la validation et l’activation de règles de classificat
 
    ![](assets/overwrite_keys.png)
 
-1. (Facultatif) Pour remplacer les classifications, activez **[!UICONTROL Remplacer les classifications pour]** &quot;a2/>sélection&lt;a3/&quot;.**
+1. (Facultatif) Pour remplacer des classifications, activez l’option **[!UICONTROL Remplacer les classifications pour]** &quot;a2/>sélection *.*
 
    Cette option vous permet de remplacer des classifications pour les clés concernées.
 
