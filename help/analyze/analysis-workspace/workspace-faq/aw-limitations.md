@@ -4,9 +4,9 @@ title: Limites connues dans Analysis Workspace
 feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 98%
 
 ---
@@ -36,7 +36,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 ## Composants > Segments
 
 * Il n’est pas possible de segmenter certaines mesures et dimensions, comme [!UICONTROL Occurrences], [!UICONTROL Visiteurs uniques], etc.
-* Les segments ad hoc créés dans la [zone de dépôt du panneau](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/panels/panels.html) n’apparaîtront pas dans le rail de gauche de Workspace ou dans le gestionnaire de composants Segment, sauf s’ils sont rendus publics. Pour ce faire, modifiez le segment et sélectionnez **[!UICONTROL Rendre ce segment public]**.
+* Les segments ad hoc créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) n’apparaîtront pas dans le rail de gauche de Workspace ou dans le gestionnaire de composants Segment, sauf s’ils sont rendus publics. Pour ce faire, modifiez le segment et sélectionnez **[!UICONTROL Rendre ce segment public]**.
 
 ## Composants > Mesures calculées
 
