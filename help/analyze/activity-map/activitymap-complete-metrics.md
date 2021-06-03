@@ -4,14 +4,13 @@ title: Jeu complet de mesures
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6de4ef4d-913d-4c66-916e-56cc81f1e6c7
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 98%
+source-wordcount: '182'
+ht-degree: 95%
 
 ---
-
 
 # Jeu complet de mesures
 
@@ -19,7 +18,7 @@ Vous permet d’accéder à un jeu complet de mesures provenant d’Adobe Analy
 
 Le fait de comprendre l’impact des clics sur les liens sur le comportement des utilisateurs en aval vous permet d’optimiser plus efficacement le contenu et l’agencement du site afin d’améliorer le parcours des clients. Quels liens sont impliqués dans les conversions ? En tant que détaillant, vous pouvez attribuer des recettes ou des commandes à des clics sur des liens spécifiques. En tant qu’éditeur, vous pouvez attribuer le temps passé sur le site à des clics sur des liens spécifiques.
 
-Les versions précédentes d’Activity Map disposaient d’une capacité limitée pour ajouter des mesures à l’outil. Cette version prend en charge toutes les mesures dans Adobe Analytics. Pour plus d’informations sur les mesures standard d’Analytics, rendez-vous [ici](https://docs.adobe.com/content/help/fr-FR/analytics/components/metrics/overview.html).
+Les versions précédentes d’Activity Map disposaient d’une capacité limitée pour ajouter des mesures à l’outil. Cette version prend en charge toutes les mesures dans Adobe Analytics. Pour plus d’informations sur les mesures standard d’Analytics, rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html).
 
 Vous pouvez accéder à votre jeu complet de mesures prises en charge par une eVar dans Adobe Analytics à l’aide du menu déroulant dans la barre d’outils.
 
