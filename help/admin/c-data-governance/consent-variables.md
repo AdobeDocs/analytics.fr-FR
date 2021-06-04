@@ -3,10 +3,10 @@ description: Variables pour la création de rapports de confidentialité dans la
 title: Variables de création de rapports de confidentialité
 feature: Outils d’administration
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -62,13 +62,13 @@ Chaque suite de rapports peut être configurée comme suit :
 
 Trois variables de données contextuelles ont été prédéfinies pour fonctionner avec les variables réservées à la gestion des rapports de confidentialité.  Il appartient à chaque ingénieur d’implémentation de déterminer comment gérer et conserver le paramétrage de ces variables.
 
-Voir [Variables de données contextuelles](https://docs.adobe.com/content/help/fr-FR/analytics/implementation/vars/page-vars/contextdata.html) pour obtenir des instructions générales sur l’implémentation des variables de données contextuelles.
+Voir [Variables de données contextuelles](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) pour obtenir des instructions générales sur l’implémentation des variables de données contextuelles.
 
 ### SSF (transfert côté serveur)
 
 * Données contextuelles : `contextData.['cm.ssf']`
 * Valeurs acceptées :
-   * 1 - Lorsque vous envoyez la valeur « 1 », cela indique que le transfert côté serveur est dans un état d’opt-out. La valeur « 1 » associée à cette variable bloquera le partage de cet accès avec Adobe Audience Manager. Voir [Conformité AAM à la directive ePrivacy](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Lorsque vous envoyez la valeur « 1 », cela indique que le transfert côté serveur est dans un état d’opt-out. La valeur « 1 » associée à cette variable bloquera le partage de cet accès avec Adobe Audience Manager. Voir [Conformité AAM à la directive ePrivacy](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * 0 - Facultatif. Utilisez la valeur « 0 » pour les clients qui ont consenti au marketing ciblé. Si la variable n’est pas définie, les résultats seront les mêmes.
 
 ### DMP (plate-forme de gestion des données)
