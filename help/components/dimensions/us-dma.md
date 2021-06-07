@@ -2,10 +2,9 @@
 title: DMA États-Unis
 description: Zone de marché désignée de l’accès.
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '306'
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -17,10 +16,6 @@ La dimension « DMA États-Unis » indique la zone de marché désignée (ou D
 ## Renseignement de cette dimension avec des données
 
 Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe collabore avec Nielsen pour gérer les recherches entre l’adresse IP et la DMA. Cette dimension est prête à l’emploi pour toutes les implémentations.
-
->[!TIP]
->
->Si votre entreprise suit des réglementations de confidentialité strictes dans lesquelles l’[obscurcissement d’adresse IP](/help/admin/admin/general-acct-settings-admin.md) ne suffit pas, vous pouvez demander la désactivation totale des données de géolocalisation. Contactez l’assistance clientèle avec l’identifiant de la suite de rapports et demandez la désactivation de l’option « Géographie » pour la suite de rapports.
 
 ## Éléments de dimension
 
