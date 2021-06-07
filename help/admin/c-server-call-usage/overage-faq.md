@@ -3,63 +3,24 @@ description: FAQ sur l’utilisation des appels au serveur Adobe Analytics
 title: FAQ sur l’utilisation de l’appel au serveur
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: 9186c8d61368074cbf1df6e63bd8d3136adf0f57
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 50%
 
 ---
 
 # FAQ sur l’utilisation de l’appel au serveur
 
-<table id="table_10384E2010B849708AE9462BB2B43438"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Question </th> 
-   <th colname="col2" class="entry"> Réponse </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Je suis un administrateur Analytics. Pourquoi vois-je un lien d’utilisation des appels au serveur dans la section Admin de ma société de connexion ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Vous pouvez choisir parmi vos sociétés de connexion celles qui afficheront le lien pour l’utilisation de l’appel au serveur dans la section Admin. Si vous ne le voyez pas, veuillez contacter le service clientèle pour l’activer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Est-ce que l’utilisation de l’appel au serveur est une fonctionnalité réservée aux administrateurs ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Tout comme la fonctionnalité de facturation que remplace l’utilisation de l’appel au serveur, vous pouvez permettre à un non-administrateur d’accéder au lien. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Est-ce que les détails de l’utilisation de l’appel au serveur et de l’engagement sont spécifiques à une société de connexion ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Les détails de l’utilisation de l’appel au serveur et de l’engagement affichés couvrent toutes les sociétés de connexion reliées à votre contrat Adobe Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Sous l’onglet Suite de rapports d’utilisation, je peux voir la consommation dans les suites de rapports qui ne sont pas disponibles pour le compte-rendu des performances sous la société de connexion actuelle. S’agit-il d’un bogue ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Tout comme les détails de votre consommation de l’appel au serveur et de votre engagement, la liste des suites de rapports s’étend à toutes les sociétés de connexion reliées à votre contrat Analytics. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : La période d’utilisation est-elle toujours identique à la durée de mon contrat ou de mon cycle de facturation Analytics ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. La période d’utilisation correspond à la durée d’application de votre engagement d’appel au serveur et peut être différente de la durée de votre contrat ou de votre cycle de facturation. Par exemple, votre contrat annuel peut vous donner le droit à un million d’appels au serveur par mois. Dans ce cas, votre engagement est d’un million d’appels au serveur et votre période d’utilisation est d’un mois. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Mon contrat inclut un engagement à Video Heart Beats, mais je ne vois pas les données sous l’utilisation de l’appel au serveur. Dois-je contacter le service clientèle ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Les détails de la consommation et de l’engagement pour Video Heart Beats ne font pas partie de la version actuelle de l’utilisation de l’appel au serveur. Nous mettons tout en œuvre pour étendre la portée afin d’inclure ceux-ci dans la prochaine version de la fonctionnalité. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Mon contrat n’inclut pas une configuration pour les appels au serveur secondaire, mais je les vois toujours sous l’onglet Utilisation actuelle et suites de rapports d’utilisation. S’agit-il d’un bogue ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Bien que votre contrat ne prévoie pas explicitement les appels au serveur secondaire, vous pouvez tout de même en avoir si vous envoyez des données Analytics à plusieurs de vos suites de rapports. Vous pouvez soit revoir votre implémentation pour vous assurer de ne pas envoyer ce genre d’appels, soit contacter votre responsable du succès client pour mettre à jour votre contrat afin d’y inclure une configuration pour ce genre d’appels. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Mon contrat n’inclut pas une configuration pour les appels au serveur secondaire, mais je les vois toujours sous l’onglet Utilisation actuelle et suites de rapports d’utilisation. Cela signifie-t-il que je vais commencer à avoir des dépassements ?</b> </p> </td> 
-   <td colname="col2"> <p>R : Le fait de commencer à avoir des dépassements lorsque vous envoyez des appels au serveur secondaire sans être configuré dépend de votre contrat. Dans certains cas, la consommation des appels au serveur secondaire peut être décomptée de votre engagement pour les appels au serveur principal, le réduisant plus vite que prévu. Dans d’autres cas, ces appels au serveur secondaire pourraient vous être facturés même si vous n’avez pas consommé tous vos appels au serveur principal. Veuillez vous reporter à votre contrat ou contacter votre responsable de succès client pour confirmation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Mon contrat/ma période d’utilisation vient de commencer et je reçois déjà des alertes à propos du dépassement de mon engagement pour les appels au serveur secondaire. S’agit-il d’un bogue et les dépassements vont-ils m’être facturés ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Cela peut signifier que vous consommez des appels au serveur secondaire sans qu’ils ne soient explicitement configurés par votre contrat Adobe Analytics. L’alerte permet simplement de vous prévenir et de vous permettre de prendre des mesures correctrices si besoin. Reportez-vous également à la FAQ 8 ci-dessus. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Q : Je n’ai créé aucune alerte d’utilisation des appels au serveur, mais j’en reçois beaucoup, toutes avec le même contenu. S’agit-il d’un bogue ? </b> </p> </td> 
-   <td colname="col2"> <p>R : Non. Les alertes par défaut sont déclenchées pour toutes les sociétés de connexion dont le lien d’utilisation de l’appel au serveur est activé dans la section Admin. Ces alertes comporteront le nom de la société qui les a déclenchées. En tant qu’administrateur, vous pouvez désactiver et/ou supprimer ces alertes pour éviter les doublons, vous retirer de la liste des destinataires ou demander au service clientèle de désactiver le lien d’utilisation de l’appel au serveur pour certaines sociétés. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Question | Réponse |
+|--- |--- |
+| Q : Je suis un administrateur Analytics. Pourquoi ne vois-je pas de lien [!UICONTROL Utilisation de l’appel au serveur] sous la section Admin de ma société de connexion ? | A : Vous pouvez choisir parmi vos sociétés de connexion celles qui afficheront le lien pour [!UICONTROL Utilisation de l’appel au serveur] sous la section Admin. Si vous ne le voyez pas, veuillez contacter le service clientèle pour l’activer. |
+| Q : Est-ce que [!UICONTROL l’utilisation de l’appel au serveur] est une fonctionnalité réservée aux administrateurs ?  | R : Non. Tout comme la fonction [!UICONTROL Facturation] que [!UICONTROL Utilisation de l’appel au serveur] remplace, vous pouvez attribuer à un non-administrateur l’autorisation d’accéder à ce lien. |
+| Q : Les [!UICONTROL détails de l’appel au serveur] et de l’engagement sont-ils spécifiques à une société de connexion ? | R : Non. Les détails de l’utilisation de l’appel au serveur et de l’engagement affichés couvrent toutes les sociétés de connexion reliées à votre contrat Adobe Analytics. |
+| Q : Sous l’onglet [!UICONTROL Suite de rapports d’utilisation], je peux voir la consommation dans les suites de rapports qui ne sont pas disponibles pour la création de rapports sous la société de connexion actuelle. S’agit-il d’un bogue ?  | R : Non. Tout comme votre [!UICONTROL utilisation de l’appel au serveur] et les détails de votre engagement, la liste des suites de rapports s’étend à toutes les sociétés de connexion que vous avez mises en oeuvre dans le cadre de votre contrat Analytics. |
+| Q : La période d’utilisation est-elle toujours identique à la durée de mon contrat ou de mon cycle de facturation Analytics ?  | R : Non. La période d’utilisation correspond à la durée d’application de votre engagement d’appel au serveur et peut être différente de la durée de votre contrat ou de votre cycle de facturation. Par exemple, votre contrat annuel peut vous donner le droit à un million d’appels au serveur par mois. Dans ce cas, votre engagement est d’un million d’appels au serveur et votre période d’utilisation est d’un mois. |
+| Q : Mon contrat inclut un engagement pour Video Heart Beats, mais je ne les vois pas sous [!UICONTROL Utilisation de l’appel au serveur]. Dois-je contacter le service clientèle ? | A : Les détails de consommation et d’engagement pour Video Heart Beats ne font pas partie de [!UICONTROL l’utilisation de l’appel au serveur]. |
+| Q : Mon contrat n’inclut pas de configuration pour les appels au serveur secondaire, mais je les vois toujours sous les onglets [!UICONTROL Utilisation actuelle] et [!UICONTROL Suite de rapports d’utilisation]. S’agit-il d’un bogue ?  | R : Non. Bien que votre contrat ne prévoie pas explicitement les appels au serveur secondaire, vous pouvez tout de même en avoir si vous envoyez des données Analytics à plusieurs de vos suites de rapports. Vous pouvez soit revoir votre mise en oeuvre pour vous assurer que vous n’envoyez pas de tels appels, soit contacter votre gestionnaire de compte pour mettre à jour votre contrat afin qu’il contienne une configuration pour ces appels. |
+| Q : Mon contrat n’inclut pas de configuration pour les appels au serveur secondaire, mais je les vois toujours sous les onglets [!UICONTROL Utilisation actuelle] et [!UICONTROL Suite de rapports d’utilisation]. Cela signifie-t-il que je vais commencer à avoir des dépassements ? | R : Le fait de commencer à avoir des dépassements lorsque vous envoyez des appels au serveur secondaire sans être configuré dépend de votre contrat. Dans certains cas, la consommation des appels au serveur secondaire peut être décomptée de votre engagement pour les appels au serveur principal, le réduisant plus vite que prévu. Dans d’autres cas, ces appels au serveur secondaire pourraient vous être facturés même si vous n’avez pas consommé tous vos appels au serveur principal. Reportez-vous à votre contrat ou contactez votre gestionnaire de compte pour confirmer. |
+| Q : Mon contrat/ma période d’utilisation vient de commencer et je reçois déjà des alertes à propos du dépassement de mon engagement pour les appels au serveur secondaire. S’agit-il d’un bogue et les dépassements vont-ils m’être facturés ?  | R : Non. Cela peut signifier que vous consommez des appels au serveur secondaire sans qu’ils ne soient explicitement configurés par votre contrat Adobe Analytics. L’alerte permet simplement de vous prévenir et de vous permettre de prendre des mesures correctrices si besoin. Reportez-vous également à la FAQ 8 ci-dessus. |
+| Q : Je n’ai créé aucune alerte [!UICONTROL Utilisation de l’appel au serveur], mais je reçois plusieurs alertes de ce type, toutes avec le même contenu. S’agit-il d’un bogue ?  | R : Non. Les alertes par défaut sont déclenchées pour toutes les sociétés de connexion dont le lien [!UICONTROL Utilisation de l’appel au serveur] est activé dans la section [!UICONTROL Admin]. Les alertes incluent le nom de la société qui a déclenché l’alerte. En tant qu’administrateur, vous pouvez désactiver et/ou supprimer ces alertes pour éviter les doublons, vous retirer de la liste des destinataires ou demander à l’Assistance clientèle de désactiver le lien [!UICONTROL Utilisation de l’appel au serveur] pour certaines sociétés. |
