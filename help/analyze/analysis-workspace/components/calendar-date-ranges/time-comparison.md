@@ -5,11 +5,10 @@ uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '640'
-ht-degree: 100%
+source-git-commit: baea0f33276b07a93144d2225935013ab7007005
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +17,9 @@ ht-degree: 100%
 Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une plage de dates, par exemple : année par année, trimestre par trimestre, mois par mois, etc.
 
 ## Comparaison de périodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL La comparaison de périodes ] tire parti des mesures calculées avancées. Par conséquent, il est disponible uniquement pour les clients qui disposent de SKU Select, Prime et Ultimate d’Analytics.
 
 Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
 
