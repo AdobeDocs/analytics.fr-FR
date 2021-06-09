@@ -5,10 +5,10 @@ title: Variables de conversion (eVar)
 feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 98%
+source-wordcount: '1582'
+ht-degree: 83%
 
 ---
 
@@ -34,68 +34,18 @@ Il est conseillé d’utiliser des variables de trafic si vous souhaitez procéd
 
 Description des champs utilisés lors de la [modification des variables de conversion](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md).
 
-<table id="table_E48D50926E6B492183300CA58A886927"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Élément </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Nom </span> </p> </td> 
-   <td colname="col2"> <p>Nom convivial de la variable de conversion. Il s’agit du nom sous lequel il est fait référence à l’eVar dans les rapports généraux. Il s’agira également du nom du rapport dans le menu de gauche. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Type</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Type de valeur de la variable : </p> <p> <b>Chaîne de texte</b> :</span> capture les valeurs textuelles utilisées sur votre site. Il s’agit du type d’eVar le plus courant et du paramètre par défaut. Cette chaîne se comporte comme les autres variables, la valeur qu’elle contient étant une chaîne de texte statique. Si vous effectuez le suivi d’éléments tels que des campagnes internes ou des mots-clés de recherche interne, ce paramètre est recommandé. </p> <p> <b>Compteur</b> :</span> compte le nombre d’occurrences d’une action avant l’événement de succès. Si, par exemple, vous utilisez une eVar pour suivre les recherches internes sur votre site, définissez cette valeur sur <span class="uicontrol">Chaîne de texte</span> pour suivre l’utilisation des termes de recherche. Définissez cette valeur sur <span class="uicontrol">Compteur</span> pour compter le nombre de recherches effectuées, quels que soient les termes recherchés. Vous pouvez, par exemple, utiliser une eVar de compteur pour suivre le nombre de fois où une personne a utilisé votre recherche interne avant d’effectuer un achat. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Attribution</span> </p> </td> 
-   <td colname="col2"> <p>Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont : </p> <p> <b>Le plus récent</b> : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b>Valeur d’origine</b> : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar. </p> <p> <b> Linéaire</b> : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite. </p> <p>Remarque : l’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs. </p> <p>Pour éviter tout risque de confusion dans les rapports, les données historiques ne sont pas mises à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Expire après</span> </p> </td> 
-   <td colname="col2"> <p>Indique une période, ou un événement, à l’issue de laquelle (ou duquel) la valeur eVar arrive à expiration (elle le reçoit plus de crédit pour les événements de succès). Si un événement de succès se produit après l’expiration de l’eVar, la valeur Aucun reçoit le crédit pour l’événement (aucune valeur eVar n’était active). </p> <p>Si vous sélectionnez un événement comme valeur d’expiration, la variable arrive uniquement à expiration si l’événement a lieu. Dans le cas contraire, la variable n’expire jamais. </p> <p>Les options d’expiration disponibles peuvent être classées dans quatre catégories principales : </p> 
-    <ul id="ul_810A37C9B6624F429F2FB45C18F7B43F"> 
-     <li id="li_654D9D9044EC4E61AA7ABA372DBF8A93"><b> Au niveau de la page vue ou de la visite.</b> Les événements de conversion situés au-delà de la page vue ou de la visite ne sont pas associés à l’eVar. </li> 
-     <li id="li_689FBC8B4DAC41B3B0166E6586DD1990"><b> Sur la base d’une période, telle qu’un jour, une semaine, un mois ou un an.</b> Les événements de conversion situés au-delà de la période spécifiée ne sont pas associés à l’eVar. La période d’expiration débute lorsque la variable est définie. Les eVar expirent selon la date définie exprimée en secondes (minute, heure, jour, mois, etc) : 
-      <ul id="ul_80C7E3182B6B4356B8A3CA920B81C6D5"> 
-       <li id="li_F16F60319CCE406D9EDEFEC0A200BC4D">MINUTE=60 secondes </li> 
-       <li id="li_45F47F3F5691415B84052B235DF3BB54">HEURE=3 600 secondes (60 minutes) </li> 
-       <li id="li_5288CE7D168E4C85B3D9BB67A44D32EC">JOUR=86 400 secondes (24 heures) </li> 
-       <li id="li_60FC8BCD657745EE87B4E458CBA69583">SEMAINE=604 800 secondes (7 jours) </li> 
-       <li id="li_7A05A66613C84F929F030310B9567CF5">MOIS=2 678 400 secondes (31 jour) </li> 
-       <li id="li_DCD3CABF59E34D5999B03E606B08AD85">TRIMESTRE=8 035 200 secondes (93 jours - 3 mois de 31 jours) </li> 
-       <li id="li_54351D2899454D39A8BA205910D2CCB1">AN=31 536 000 secondes (365 jours) </li> 
-      </ul> <p> </p> <p>Si une visite débute à 7:00 un lundi et si une eVar est définie dans cette visite à 7:15, l’expiration est la suivante : </p> 
-      <ul id="ul_72B311006BE6428698313D251C0940DB"> 
-       <li id="li_50925D4A40AD4ACA88704A523138C5B9">Expiration - jour : l’eVar expire à 7:15 le mardi. </li> 
-       <li id="li_25846328766D4B4BAF407236C65C956C">Expiration - semaine : l’eVar expire le lundi suivant à 7:15. </li> 
-       <li id="li_82DB2D7F53304623A5E1241D75C7DF94">Expiration - mois : l’eVar expire 31 jours à compter du lundi à 7:15. </li> 
-      </ul> </li> 
-     <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>Evénements de conversion spécifiques.</b> Tout autre événement de conversion qui est déclenché après l’événement spécifique désigné est associé à l’eVar. </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>Jamais.</b> Tant que le cookie  <span class="varname"> visitorID</span> est intact, un laps de temps indéfini peut s’écouler entre l’eVar et l’événement. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> État</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Définit l’état de la variable eVar : </p> <p><b>Désactivé</b> :</span> désactive la variable eVar. Supprime l’eVar de la liste des variables de conversion. </p> <p> <b>Sans sous-relations</b> :</span> empêche de ventiler l’eVar avec une sous-relation. </p> <p> <b>Sous-relations de base</b> :</span> permet de ventiler une variable eVar en fonction de n’importe quel rapport avec des sous-relations complètes (Produits ou Campagnes, par exemple). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Réinitialiser le</span> </p> </td> 
-   <td colname="col2"> <p>Réinitialise toute valeur dans la variable eVar. </p> <p>Utilisez ce paramètre lorsque vous redéfinissez l’objectif d’une eVar, afin d’éviter d’utiliser une ancienne valeur dans un nouveau rapport. La réinitialisation n’efface pas les données historiques. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes : </p> <p> <b>Syntaxe Produits</b> :</span> associe la valeur eVar à un produit. Remarque : si Syntaxe Produits est sélectionné, la section Événement de liaison de marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les événements de liaison ne sont pas applicables. </p> </p> <p> <b>Syntaxe de la variable de conversion</b> :</span> associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, sélectionnez les événements qui se comportent comme des événements de liaison. </p> <p>Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html"> Variables de marchandisage</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="uicontrol"> Événement de liaison de marchandisage</span> </p> <p>(eVar uniquement) </p> </td> 
-   <td colname="col2"> <p>Si le marchandisage est défini sur <span class="uicontrol"> Syntaxe de la variable de conversion</span>, les événements sélectionnés lieront la valeur de l’eVar active à un produit. </p> <p>Pour utiliser un événement de liaison, définissez l’attribution sur <span class="uicontrol"> Le plus récent</span>. Si <span class="uicontrol">l’attribution est définie sur Valeur d’origine</span>, la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. Il est possible de sélectionner plusieurs événements en cliquant sur plusieurs éléments de la liste tout en maintenant la touche <code>ctrl</code> (Windows) ou <code>cmd</code> (Mac) enfoncée. Vous ne pouvez sélectionner un élément que lorsque le paramètre « Syntaxe de la variable de conversion » est actif.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+
+| Élément | Description |
+| --- | --- |
+| [!UICONTROL Nom] | Nom convivial de la variable de conversion. Il s’agit du nom sous lequel il est fait référence à l’eVar dans les rapports généraux. Il s’agira également du nom du rapport/de la dimension dans le menu de gauche. |
+| [!UICONTROL Type]   (eVar uniquement) | Type de valeur de la variable :<ul><li>**[!UICONTROL Chaîne de texte]** : capture les valeurs textuelles utilisées sur votre site. Il s’agit du type d’eVar le plus courant et du paramètre par défaut. Cette chaîne se comporte comme les autres variables, la valeur qu’elle contient étant une chaîne de texte statique. Si vous effectuez le suivi d’éléments tels que des campagnes internes ou des mots-clés de recherche interne, ce paramètre est recommandé.</li><li>**[!UICONTROL Compteur]** : compte le nombre d’occurrences d’une action avant l’événement de succès. Si, par exemple, vous utilisez une eVar pour suivre les recherches internes sur votre site, définissez cette valeur sur [!UICONTROL Chaîne de texte] pour suivre l’utilisation des termes de recherche. Définissez cette valeur sur [!UICONTROL Compteur] pour compter le nombre de recherches effectuées, quels que soient les termes recherchés. Vous pouvez, par exemple, utiliser une eVar de compteur pour suivre le nombre de fois où une personne a utilisé votre recherche interne avant d’effectuer un achat.</li></ul> |
+| [!UICONTROL Attribution] | Détermine la manière dont Analytics attribue le crédit d’un événement de succès si une variable reçoit plusieurs valeurs avant l’événement. Les valeurs acceptables sont :<ul><li>**[!UICONTROL Le plus récent]** : la dernière valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar.</li><li>**[!UICONTROL Valeur d’origine]** : la première valeur eVar reçoit le crédit des événements de succès jusqu’à l’expiration de l’eVar.</li><li>**[!UICONTROL Linéaire]** : attribue uniformément les événements de succès sur toutes les valeurs eVar. Puisque l’attribution linéaire ne répartit précisément les valeurs que dans une visite, utilisez-la avec une expiration d’eVar de visite.</li></ul> **Remarque** : L’activation ou la désactivation d’une attribution de type Linéaire empêche l’affichage des données historiques. Mélanger divers types d’attribution dans l’interface de création de rapports peut se traduire par des données erronées dans les rapports. Il se peut, par exemple, qu’une attribution linéaire divise les recettes entre plusieurs valeurs eVar différentes. Après avoir rétabli le type d’attribution sur « Le plus récent », 100 % des recettes seront associées à la valeur unique la plus récente. Cette association peut mener à des conclusions incorrectes de la part des utilisateurs.<br><br>Pour éviter tout risque de confusion dans les rapports, Adobe Analytics ne met pas les données historiques à la disposition des utilisateurs dans l’interface. Elles peuvent être visualisées si vous décidez de redéfinir l’eVar sur le paramètre d’attribution initial, même s’il est déconseillé de modifier les paramètres d’attribution de l’eVar aux seules fins d’accéder aux données historiques. Adobe recommande d’utiliser une nouvelle eVar lorsque de nouveaux paramètres d’attribution sont souhaités pour des données déjà en cours d’enregistrement, plutôt que de modifier les paramètres d’attribution sur une eVar qui a déjà accumulé une certaine quantité de données historiques. |
+| [!UICONTROL Expire après] | Indique une période, ou un événement, à l’issue de laquelle (ou duquel) la valeur eVar arrive à expiration (elle le reçoit plus de crédit pour les événements de succès). Si un événement de succès se produit après l’expiration de l’eVar, la valeur Aucun reçoit le crédit pour l’événement (aucune valeur eVar n’était active).  Si vous sélectionnez un événement comme valeur d’expiration, la variable arrive uniquement à expiration si l’événement a lieu. Dans le cas contraire, la variable n’expire jamais.  Les options d’expiration disponibles peuvent être classées dans quatre catégories principales :<ul><li>**Au niveau de la page vue ou de la visite.** Les événements de conversion situés au-delà de la page vue ou de la visite ne sont pas associés à l’eVar.</li><li>**Sur la base d’une période, telle qu’un jour, une semaine, un mois ou un an.** Les événements de conversion situés au-delà de la période spécifiée ne sont pas associés à l’eVar. La période d’expiration débute lorsque la variable est définie. Les eVar expirent selon la date définie exprimée en secondes (minute, heure, jour, mois, etc) : <ul><li>MINUTE=60 secondes</li><li>HEURE=3 600 secondes (60 minutes)</li><li>JOUR=86 400 secondes (24 heures)</li><li>SEMAINE=604 800 secondes (7 jours)</li><li>MOIS=2 678 400 secondes (31 jour)</li><li>TRIMESTRE=8 035 200 secondes (93 jours - 3 mois de 31 jours)</li><li>AN=31 536 000 secondes (365 jours)</li><br>Si une visite débute à 7:00 un lundi et si une eVar est définie dans cette visite à 7:15, l’expiration est la suivante :<li>Expiration - jour : l’eVar expire à 7:15 le mardi.</li><li>Expiration - semaine : l’eVar expire le lundi suivant à 7:15.</li><li>Expiration - mois : l’eVar expire 31 jours à compter du lundi à 7:15.</li></ul><li>**Evénements de conversion spécifiques.** Tout autre événement de conversion qui est déclenché après l’événement spécifique désigné est associé à l’eVar.</li><li>**Jamais.** Tant que le cookie  visitorID est intact, un laps de temps indéfini peut s’écouler entre l’eVar et l’événement.</li></ul> |
+| [!UICONTROL État]   (eVar uniquement) | Définit l’état [!UICONTROL eVar] :<ul><li>**Désactivé**[!UICONTROL  : désactive la variable eVar]. Supprime l’[!UICONTROL eVar] de la liste des variables de conversion.</li><li>**Aucune sous-relation** : Permet d’empêcher la ventilation de l’  eVar selon une dimension.</li><li>**Sous-relations de base** : Permet de ventiler un eVar selon n’importe quelle dimension complète (par exemple, Produits ou Campagne).</li></ul> |
+| [!UICONTROL Réinitialiser le] | Réinitialise toute valeur dans la variable eVar. Utilisez ce paramètre lorsque vous redéfinissez l’objectif d’une eVar, afin d’éviter d’utiliser une ancienne valeur dans un nouveau rapport. La réinitialisation n’efface pas les données historiques. |
+| [!UICONTROL Marchandisage]   (eVar uniquement) | Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes :<ul><li>**[!UICONTROL Syntaxe Produits]** : associe la valeur eVar à un produit. **Remarque** : Si  [!UICONTROL Syntaxe ] Produits est sélectionné, la  [!UICONTROL section Événement de liaison de ] marchandisage est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, [!UICONTROL Les événements de liaison] ne sont pas applicables.</li><li>**[!UICONTROL Syntaxe de la variable de conversion]** : associe uniquement la valeur eVar à un produit si un événement de liaison survient. Dans ce cas, vous sélectionnez les événements qui agissent comme [!UICONTROL Événements de liaison].  Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir [Variables de marchandisage](https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html).</li></ul> |
+| [!UICONTROL Événement de liaison de marchandisage] (eVar uniquement) | Si le marchandisage est défini sur [!UICONTROL  Syntaxe de la variable de conversion], les événements sélectionnés lieront la valeur de l’eVar active à un produit. Pour utiliser un [!UICONTROL événement de liaison], définissez [!UICONTROL Affectation] sur [!UICONTROL Le plus récent]. Si [!UICONTROL l’attribution] est définie sur [!UICONTROL Valeur d’origine], la première liaison de produit eVar reste jusqu’à l’expiration de l’eVar. Vous pouvez sélectionner plusieurs événements en maintenant la touche ctrl (Windows) ou cmd (Mac) enfoncée et en cliquant sur plusieurs éléments de la liste. Vous ne pouvez sélectionner un événement que lorsque [!UICONTROL Syntaxe de la variable de conversion] est sélectionné. |
 
 **Expiration**
 
@@ -112,7 +62,7 @@ Autre exemple : Une eVar, d’une durée de validité de 21 jours, est utilis�
 
 **Respect de la casse**
 
-Les eVars sont insensibles à la casse, mais elles respectent la mise en majuscules de la première occurrence. Ainsi, si la première instance de la variable eVar1 est définie sur « Connecté », mais que toutes les instances suivantes sont transmises sous la forme « connecté », les rapports affichent toujours « Connecté » comme valeur de l’eVar.
+La casse supérieure ou inférieure utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou variable selon une période donnée (par exemple, mensuelle), en fonction de la variété et de la quantité de données associées à la suite de rapports.
 
 **Compteurs**
 
