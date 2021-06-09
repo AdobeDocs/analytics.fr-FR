@@ -5,10 +5,10 @@ title: Variables de conversion (eVar)
 feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
+source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 83%
+source-wordcount: '1587'
+ht-degree: 82%
 
 ---
 
@@ -62,7 +62,7 @@ Autre exemple : Une eVar, d’une durée de validité de 21 jours, est utilis�
 
 **Respect de la casse**
 
-La casse supérieure ou inférieure utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou variable selon une période donnée (par exemple, mensuelle), en fonction de la variété et de la quantité de données associées à la suite de rapports.
+Les eVars ne sont pas sensibles à la casse. La casse supérieure ou inférieure utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou variable selon une période donnée (par exemple, mensuelle), en fonction de la variété et de la quantité de données associées à la suite de rapports.
 
 **Compteurs**
 
