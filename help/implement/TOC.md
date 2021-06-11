@@ -4,11 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-translation-type: tm+mt
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '379'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +92,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins {#plugins}
+   + Plug-ins  {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -127,6 +126,7 @@ ht-degree: 100%
 + Préparation à la mise en œuvre d’Adobe Analytics {#prepare}
    + [Création d’une couche de données](prepare/data-layer.md)
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
+   + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
    + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
