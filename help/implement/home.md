@@ -2,10 +2,10 @@
 title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 97%
+source-wordcount: '368'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe requiert du code sur votre site ou application pour envoyer des données a
 Le code JavaScript envoie une demande d’image aux serveurs de collecte de données Adobe. Les données de page que vous avez définies dans votre mise en œuvre sont envoyées dans le cadre d’une chaîne de requête dans cette demande d’image.
 
 4. Adobe renvoie une image pixel transparente.
-5. Les serveurs Adobe stockent les données collectées dans une *suite de rapports*.
+5. Les serveurs Adobe stockent les données collectées dans une ou plusieurs *suites de rapports*.
 6. Les données de la suite de rapports renseignent les rapports auxquels vous avez accès dans un navigateur web.
 
    L’exécution du code JavaScript survient rapidement et n’affecte pas le temps de chargement de la page de manière notable. Grâce à cette méthode, vous pouvez comptabiliser les pages affichées quand un visiteur a cliqué sur **[!UICONTROL Recharger]** ou **[!UICONTROL Précédent]** pour atteindre une page, puisque le code JavaScript s’exécute même quand la page est récupérée dans la mémoire cache.
