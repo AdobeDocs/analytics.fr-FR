@@ -2,11 +2,10 @@
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 * `https://` désigne le protocole. Faites correspondre le protocole utilisé dans la demande d’image avec le protocole utilisé par le reste de votre site.
 * `example.data.adobedc.net` est la valeur contenue dans la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` est inclus dans toutes les demandes d’image. Il fait partie de la structure de fichiers des images stockées sur les serveurs de collecte de données Adobe.
-* `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données.
+* `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données. Pour plusieurs suites de rapports, séparez les identifiants par des virgules, sans espaces (par exemple `examplersid1,examplersid2`, etc.).
 * `/1/` est la source de l’accès. Voir `hit_source` dans la section [Référence des colonnes de données](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) du guide d’utilisation Exportation. Contrôle l’ordre que les cookies et les autres méthodes suivent pour identifier les visiteurs.
 * Tout ce qui suit le délimiteur de chaîne de requête (`?`) fait partie des données que vous souhaitez inclure dans les rapports. Voir [Paramètres de requête de collecte de données](../validate/query-parameters.md) pour obtenir la liste complète des paramètres que vous pouvez inclure dans une demande d’image.
 
