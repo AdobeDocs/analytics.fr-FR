@@ -3,9 +3,9 @@ title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -186,12 +186,12 @@ La valeur de 300 provient de la valeur du paramètre pos de la variable s.testUR
 
 ### 4.0.1 (26 mars 2021)
 
-* Mise à jour du problème en raison duquel undefined était renvoyé au lieu de &quot;&quot; si le paramètre de requête n’était pas présent dans la chaîne de requête.
+* Mise à jour du problème en raison duquel le statut non défini était renvoyé au lieu de &quot;&quot; si le paramètre de requête n’était pas présent dans la chaîne de requête.
 
 ### 4.0 (19 mars 2021)
 
 * Ajout du numéro de version comme donnée contextuelle.
-* Suppression des dépendances sur le module externe pt .
+* Suppression des dépendances sur pt plug-in.
 
 ### 3.3 (24 septembre 2019)
 
