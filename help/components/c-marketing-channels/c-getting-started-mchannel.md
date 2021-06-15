@@ -1,11 +1,10 @@
 ---
 title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Pour optimiser l&#39;efficacité des Canaux marketing pour l&#39;Attribution IQ et le Customer Journey Analytics, nous avons publié quelques [meilleures pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
@@ -33,7 +32,7 @@ La définition des canaux que vous utilisez constitue l’une des tâches les pl
 * Voulez-vous regrouper tous les sites de réseau social ou souhaitez-vous en suivre certains séparément ?
 * Existe-t-il d’autres canaux pouvant avoir un impact sur les conversions dont vous souhaitez effectuer le suivi ?
 
-Vous trouverez une liste des canaux recommandés dans la section [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
+Vous trouverez une liste des canaux recommandés dans la section  [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
 
 ![](assets/step2_icon.png) Ajoutez des canaux marketing dans la page [!UICONTROL Gestionnaire de canaux marketing].
 
@@ -63,7 +62,7 @@ Comment exécuter la configuration automatique des canaux marketing.
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sur la page [!UICONTROL Gestionnaire de Report Suites], sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 
    ![Résultat de l’étape](assets/wizard.png)
 
@@ -88,12 +87,12 @@ Comment utiliser une suite de rapports principale (maître) comme modèle pour t
 1. Assurez-vous que l’option Rapport Canal marketing est activée pour les suites de rapports sélectionnées. Cette étape est effectuée par votre gestionnaire de compte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sur la page **[!UICONTROL Gestionnaire de Report Suites]**, sélectionnez la suite de rapports modèle, ainsi qu’une ou plusieurs suites de rapports cibles.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 1. Sur la page **[!UICONTROL Sélectionner une Report Suite principale]**, sélectionnez une suite de rapports modèle.
 1. Cliquez sur **[!UICONTROL Tout enregistrer]**.
 1. Appliquez les règles d’un modèle à plusieurs suites de rapports :
    1. Revenez à la page [!UICONTROL Gestionnaire de Report Suites].
    1. Sélectionnez la suite de rapports modèle, ainsi qu’une ou plusieurs suites de rapports cibles.
-   1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
+   1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
    1. Cliquez sur **[!UICONTROL Enregistrer]**. Si le bouton Enregistrer est désactivé au cours de cette étape, activez-le en développant l’une des règles.
 
