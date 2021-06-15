@@ -5,7 +5,7 @@ exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 source-git-commit: 4460850971fe822ff8a0ebf3e3269d0e573fa1db
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analytics utilise les hôtes suivants pour améliorer les performances et 
 | Stockage Blob Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## Tous les blocs d’adresse IP de collecte de données Adobe Analytics
+## Tous les blocs dʼadresses IP des collectes de données d’Adobe Analytics
 
 Le tableau suivant couvre tous les serveurs de collecte de données standard et les serveurs de collecte de données régionaux pour Adobe Analytics. Elles n’incluent pas les hôtes AWS individuels.
 
