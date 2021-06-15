@@ -110,7 +110,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable  *`s_pageURL`* pour remplacer l’URL active.
+Le navigateur dépouille l’URL de référence ; vous devez donc configurer le mécanisme qui gère la redirection (par exemple, le serveur web, le code côté serveur, le code côté client) afin de transmettre les informations du référent original. Si vous souhaitez enregistrer l’URL du lien alias, ceci doit également être transmis à la page d’entrée finale. Utilisez la variable   *`s_pageURL`* pour remplacer l’URL active.
 
 Il existe de nombreuses façons de mettre en œuvre une redirection. Identifiez avec votre groupe d’opérations web ou votre partenaire de publicité en ligne les mécanismes spécifiques qui exécutent les redirections sur votre site web.
 
