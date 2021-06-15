@@ -5,7 +5,7 @@ feature: Outils d’administration
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Description de la procédure d’ajout ou de modification des variables de conve
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de conversion]**.
+1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de conversion]**.
 1. Sur la page [!UICONTROL Variables de conversion], cliquez sur l’icône **[!UICONTROL Développer]** [+] en regard de la variable de conversion à modifier.
 
    OU
