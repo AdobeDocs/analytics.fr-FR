@@ -3,11 +3,10 @@ description: Présente des exemples sur la manière d’étiqueter les données 
 title: Exemple d’étiquetage
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '815'
-ht-degree: 100%
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+workflow-type: tm+mt
+source-wordcount: '767'
+ht-degree: 87%
 
 ---
 
@@ -23,7 +22,7 @@ Supposons que vous avez les données d’accès suivantes :
 
 | Étiquettes | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
+| **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**   <br> **(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -31,78 +30,340 @@ Supposons que vous avez les données d’accès suivantes :
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+|  | Alice | 66 | A | N | z |
 
 ## Exemple de demande d’accès
 
-Si je soumets une demande d’accès, le fichier récapitulatif contiendra les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
+Si je soumets une demande d’accès, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
 
-| Valeurs de l’API | Valeurs de l’API | Type de fichier renvoyé | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif | Données du <br>fichier d’accès récapitulatif |
-|--- |--- |--- |---|---|---|---|---|
-| **Espace de noms/ID** | **expandIDs** |  | **MyProp1** | **Identifiant visiteur** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| AAID=77 | false | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
-| AAID=77 | true | périphérique | Variable non présente | 77 | Variable non présente | M, P | X, W |
-| user=Mary | false | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary | true | périphérique | non présente | 77, 88 | non présente | N, P | U, W |
-| user=Mary  AAID=66 | true | Personne | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | périphérique | non présente | 66, 77, 88 | non présente | N, P | U, W, Z |
-| xyz=X | false | périphérique | non présente | 55, 77 | non présente | M, R | X |
-| xyz=X | true | périphérique | non présente | 55, 77 | non présente | M, P, R | W, X |
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center">Valeurs de l’API</th>
+    <th rowspan="2">Type de fichier renvoyé<br></th>
+    <th colspan="5" style="text-align:center">Données du fichier d’accès récapitulatif</th>
+  </tr>
+  <tr>
+    <th>Espace de noms/ID</th>
+    <th>expandIDs</th>
+    <th>MyProp1</th>
+    <th>Visitor ID</th>
+    <th>MyEvar1</th>
+    <th>MyEvar2</th>
+    <th>MyEvar3 </th>
+  </tr>
+  <tr>
+    <td>AAID=77</td>
+    <td>false</td>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>77</td>
+    <td>non présente</td>
+    <td>M, P</td>
+    <td>X, W</td>
+  </tr>
+  <tr>
+    <td>AAID=77</td>
+    <td>true</td>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>77</td>
+    <td>non présente</td>
+    <td>M, P</td>
+    <td>X, W</td>
+  </tr>
+  <tr>
+    <td>user=Mary</td>
+    <td>false</td>
+    <td>Personne</td>
+    <td>Mary</td>
+    <td>77, 88, 99</td>
+    <td>A, B, C</td>
+    <td>M, N, O</td>
+    <td>X, Y, Z</td>
+  </tr>
+  <tr>
+    <td rowspan="2">user=Mary</td>
+    <td rowspan="2">true</td>
+    <td>Personne</td>
+    <td>Mary</td>
+    <td>77, 88, 99</td>
+    <td>A, B, C</td>
+    <td>M, N, O</td>
+    <td>X, Y, Z</td>
+  </tr>
+  <tr>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>77, 88</td>
+    <td>A, B, C</td>
+    <td>N, P</td>
+    <td>U, W</td>
+  </tr>
+  <tr>
+    <td rowspan="2">user=Mary <br>AAID=66</td>
+    <td rowspan="2">true</td>
+    <td>Personne</td>
+    <td>Mary</td>
+    <td>77, 88, 99</td>
+    <td>A, B, C</td>
+    <td>M, N, O</td>
+    <td>X, Y, Z</td>
+  </tr>
+  <tr>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>66, 77, 88</td>
+    <td>A, B, C</td>
+    <td>N, P</td>
+    <td>U, W, Z</td>
+  </tr>
+  <tr>
+    <td>xyz=X</td>
+    <td>false</td>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>55, 77</td>
+    <td>non présente</td>
+    <td>M, R</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>xyz=X</td>
+    <td>true</td>
+    <td>périphérique</td>
+    <td>non présente</td>
+    <td>55, 77</td>
+    <td>non présente</td>
+    <td>M, P, R</td>
+    <td>W, X</td>
+  </tr>
+</table>
 
 Notez que le paramètre des expandIDs n’influence pas le résultat lorsqu’un ID de cookie est utilisé.
 
-## Exemple de demande de suppression
+## Exemples de requêtes de suppression
 
 Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau d’accès sera mis à jour comme suit :
 
-| AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter | AAID=77 expandIDs value<br>does not matter |
-|---|---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 42 | D | Privacy-1866 | Privacy-8216 |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+<table>
+  <tr>
+    <th colspan="5" style="text-align:center">AAID=77 <br>(la valeur expandIDs n’a pas d’importance)</th>
+  </tr>
+  <tr>
+    <th>MyProp1</th>
+    <th>AAID</th>
+    <th>MyEvar1</th>
+    <th>MyEvar2</th>
+    <th>MyEvar3 </th>
+  </tr>
+  <tr>
+    <td>Mary</td>
+    <td>42</td>
+    <td>A</td>
+    <td>Privacy-7398</td>
+    <td>Privacy-9152</td>
+  </tr>
+  <tr>
+    <td>Mary</td>
+    <td>88</td>
+    <td>B</td>
+    <td>N</td>
+    <td>Y</td>
+  </tr>
+  <tr>
+    <td>Mary</td>
+    <td>99</td>
+    <td>C</td>
+    <td>O</td>
+    <td>z</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>42</td>
+    <td>D</td>
+    <td>Privacy-1866</td>
+    <td>Privacy-8216</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>88</td>
+    <td>E</td>
+    <td>N</td>
+    <td>U</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>44</td>
+    <td>F</td>
+    <td>Q</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>55</td>
+    <td>G</td>
+    <td>R</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>66</td>
+    <td>A</td>
+    <td>N</td>
+    <td>z</td>
+  </tr>
+</table>
 
 >[!NOTE]
 >
 >Seules les cellules des lignes contenant AAID=77 et une étiquette DEL-DEVICE sont impactées.
 
-| user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
-|--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+<table>
+  <tr>
+    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+  </tr>
+  <tr>
+    <th>MyProp1</th>
+    <th>AAID</th>
+    <th>MyEvar1</th>
+    <th>MyEvar2</th>
+    <th>MyEvar3 </th>
+  </tr>
+  <tr>
+    <td>Privacy-0523</td>
+    <td>77</td>
+    <td>Privacy-1866</td>
+    <td>Privacy-3681</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>Privacy-0523</td>
+    <td>88</td>
+    <td>Privacy-2178</td>
+    <td>Privacy-1975</td>
+    <td>Y</td>
+  </tr>
+  <tr>
+    <td>Privacy-0523</td>
+    <td>99</td>
+    <td>Privacy-9045</td>
+    <td>Privacy-2864</td>
+    <td>z</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>77</td>
+    <td>D</td>
+    <td>P</td>
+    <td>W</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>88</td>
+    <td>E</td>
+    <td>N</td>
+    <td>U</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>44</td>
+    <td>F</td>
+    <td>Q</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>55</td>
+    <td>G</td>
+    <td>R</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>66</td>
+    <td>A</td>
+    <td>N</td>
+    <td>z</td>
+  </tr>
+</table>
 
 >[!NOTE]
 >
 >Seules les cellules des lignes contenant user=Mary et une étiquette DEL-PERSON sont impactées. Dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar, et sa valeur de remplacement serait une chaîne commençant par « Privacy- » suivi d’un numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
 
-| user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
-|--- |---|---|---|---|
-| **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
-| Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
-| Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
-| John | 09 | D | Privacy-8454 | Privacy-8216 |
-| John | 16 | E | Privacy-2911 | Privacy-2930 |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+<table>
+  <tr>
+    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
+  </tr>
+  <tr>
+    <th>MyProp1</th>
+    <th>AAID</th>
+    <th>MyEvar1</th>
+    <th>MyEvar2</th>
+    <th>MyEvar3 </th>
+  </tr>
+  <tr>
+    <td>Privacy-5782</td>
+    <td>09</td>
+    <td>Privacy-0859</td>
+    <td>Privacy-8183</td>
+    <td>Privacy-9152</td>
+  </tr>
+  <tr>
+    <td>Privacy-5782</td>
+    <td>16</td>
+    <td>Privacy-6104</td>
+    <td>Privacy-2911</td>
+    <td>Privacy-6821</td>
+  </tr>
+  <tr>
+    <td>Privacy-5782</td>
+    <td>83</td>
+    <td>Privacy-2714</td>
+    <td>Privacy-0219</td>
+    <td>Privacy-4395</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>09</td>
+    <td>D</td>
+    <td>Privacy-8454</td>
+    <td>Privacy-8216</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>16</td>
+    <td>E</td>
+    <td>Privacy-2911</td>
+    <td>Privacy-2930</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>44</td>
+    <td>F</td>
+    <td>Q</td>
+    <td>V</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>55</td>
+    <td>G</td>
+    <td>R</td>
+    <td>X</td>
+  </tr>
+  <tr>
+    <td>Alice</td>
+    <td>66</td>
+    <td>A</td>
+    <td>N</td>
+    <td>z</td>
+  </tr>
+</table>
 
 Prenez note des points suivants :
 
-* Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-DEVICE` ou `DEL-PERSON` sont impactées, ainsi que les cellules comportant une étiquette `DEL-DEVICE` des lignes contenant un identifiant visiteur présent dans une ligne contenant `user=Mary`.
+* Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-DEVICE` ou `DEL-PERSON` sont impactées, ainsi que les cellules comportant une étiquette `DEL-DEVICE` sur les lignes contenant un identifiant visiteur (AAID) qui se produisait sur une ligne contenant `user=Mary`.
+* Le paramètre expandIDs ne s’étend pas à l’appel pour inclure des valeurs présentes dans MyEvar3, qui possède une étiquette ID-DEVICE, lorsque `user=Mary`. Développer les identifiants se développe uniquement pour inclure les identifiants visiteur (AAID dans cet exemple, mais également l’ECID) sur les lignes où `user=Mary`.
 * `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car celles-ci contiennent les mêmes valeurs d’identifiant visiteur que les première et deuxième lignes. Dès lors, l’extension d’ID les inclut pour les suppressions de niveau appareil.
 * Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. En revanche, après la suppression, la valeur N présente dans la dernière ligne ne correspond plus, car cette dernière n’a pas été mise à jour suite à la demande de suppression.
 * `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond dans les cinq premières lignes.
