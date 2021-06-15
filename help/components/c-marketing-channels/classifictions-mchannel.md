@@ -3,9 +3,9 @@ title: Classifications des canaux marketing
 description: Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,5 +40,5 @@ Les classifications ajoutées au cours de cette procédure s’affichent dans le
 Créez des classifications pour les [!UICONTROL Canaux marketing].
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
-1. Dans le [!UICONTROL Gestionnaire de Report Suites], cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Classifications de canal marketing]**.
+1. Dans le [!UICONTROL Gestionnaire de Report Suites], cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Classifications de canal marketing]**.
 1. Sous [!UICONTROL Classifications], cliquez sur **[!UICONTROL Ajouter classification]** (ou modifiez une classification existante).
