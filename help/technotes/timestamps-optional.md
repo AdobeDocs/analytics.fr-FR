@@ -5,10 +5,10 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restr
 
    Les données qui ne sont pas dans l’ordre peuvent inclure des données arrivées tardivement issues de collections de données hors ligne et d’accès tardifs, ou encore d’horloges désynchronisées sur les appareils mobiles hors ligne. Ceci risquerait de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de cheminement.
 
-* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) est défini. Ceci risque de désordonner les données.
+* Il n’est pas recommandé d’utiliser des horodatages si un attribut [s.visitorID](/help/implement/vars/config-vars/visitorid.md) est défini. Ceci risque de désordonner les données.
 
 * Il est préférable de ne pas avoir recours aux horodatages dans les applications hybrides composées d’une application (données hors ligne horodatées) ouvrant un navigateur web (données en direct non horodatées). Il en résulterait des rapports de session inexacts.
 
