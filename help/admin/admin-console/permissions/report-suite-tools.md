@@ -1,11 +1,11 @@
 ---
 title: Autorisations du profil de produit pour les outils de suites de rapports
-description: Découvrez chaque élément d’autorisation sous Outils de suites de rapports.
+description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Gestionnaire des flux de données | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
 | Rapport personnalisé de Data Warehouse | Accorde l’accès à Outils > Data Warehouse dans la barre de navigation supérieure d’Analytics. |
 | Visites retours quotidiennes | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
-| Gestionnaire des sources de données | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans le volet de navigation supérieur d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
+| Gestionnaire des sources de données | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans la barre de navigation supérieure d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | Exclure par adresse IP | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
 | Visites retours | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | Classifications | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic > Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion > Hiérarchies des classifications<br>Canaux marketing > Classifications des canaux marketing<br>Gestion des applications > Classifications des applications<br>Gestion des médias > Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
