@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ Questions fréquentes sur l’installation, la configuration et l’utilisation 
 
 Les entreprises ayant souscrit un contrat pour Adobe Analytics Standard, Premium et Ultimate ont accès à Activity Map.
 
-## Comment Activity Map prend-il en charge les applications d’une seule page (SPA) ?
+## Comment Activity Map prend-il en charge les applications d’une seule page ?
 
-Toutes les quelques secondes, Activity Map analyse la page web et recherche les modifications apportées à la page. ActivityMap trouve du nouveau contenu sur la page sans qu’il faille charger une nouvelle page, mais ce nouveau contenu est toujours attribué au premier pageName trouvé lors du chargement de la page.
+Toutes les quelques secondes, Activity Map analyse la page Web à la recherche de modifications apportées à celle-ci. ActivityMap trouve du contenu nouveau sur la page sans avoir besoin de charger une nouvelle page. Cependant, ce nouveau contenu est toujours attribué au premier pageName trouvé lors du chargement de la page.
 
-* Activity Map vérifie si la visibilité des liens qu’il connaît a changé. Si une modification de visibilité est trouvée, la colonne Présent de la table Liens sur la page pour ce lien est mise à jour avec [!UICONTROL Visible] ou [!UICONTROL Masqué].
+* Activity Map vérifie si la visibilité des liens qu’il connaît a changé. Si une modification de visibilité est trouvée, alors les liens de la page dans la colonne Présent du tableau sont mis à jour avec pour valeur [!UICONTROL Affiché] ou [!UICONTROL Masqué].
 
-* Lorsque l’interaction de l’utilisateur crée du contenu, tout nouvel élément trouvé par AppMeasurement comme un lien sera ajouté à la table [!UICONTROL Liens sur la page]. Activity Map envoie une nouvelle demande de données qui inclut ces nouveaux liens. Les nouveaux liens doivent apparaître dans la table [!UICONTROL Liens sur la page] lorsque la demande de données est traitée par l’interface utilisateur.
+* Lorsqu’une interaction d’un utilisateur crée du contenu, tout nouvel élément détecté comme un lien par AppMeasurement sera ajouté au tableau [!UICONTROL Liens sur la page]. Activity Map envoie une nouvelle requête de données qui inclut ces nouveaux liens. Les nouveaux liens doivent apparaître dans le tableau [!UICONTROL Liens sur la page] lorsque la requête de données est traitée par l’interface utilisateur.
 
 
 ## Est-ce qu’Activity Map fournit des données sur les « vues » ?
