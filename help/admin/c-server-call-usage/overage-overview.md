@@ -4,9 +4,9 @@ title: Aperçu de l’utilisation de l’appel au serveur
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ La permission de l’utilisation de l’appel au serveur est automatiquement acc
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> <span class="uicontrol"> </span> <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &lt;a 13/&gt; Personnaliser </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur </span> </span><span class="uicontrol"> </span></li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Tous les administrateurs</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <span class="uicontrol">Groupes</span> &gt; <span class="uicontrol">Modifier tous les accès aux rapports</span> &gt; <span class="uicontrol">Outils Analytics</span> &gt; <span class="uicontrol">Personnaliser</span> &gt; <span class="uicontrol">Utilisation de l’appel au serveur</span></span>. </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
