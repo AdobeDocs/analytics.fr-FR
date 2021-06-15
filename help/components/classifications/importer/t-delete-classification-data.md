@@ -6,7 +6,7 @@ feature: Outils d’administration
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Il est parfois nécessaire de supprimer les données de classification une fois 
 
 La suppression des données de classification implique de charger un fichier de classification contenant `~empty~` ou `~deletekey~` dans les cellules appropriées.
 
-1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
+1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Cliquez sur **[!UICONTROL Exportation Navigateur]**.
 1. Sélectionnez la suite de rapports et le jeu de données duquel vous souhaitez supprimer des données de classification.
 1. Configurez les éventuels paramètres facultatifs afin de filtrer les données que vous recherchez, puis cliquez sur **[!UICONTROL Exporter un fichier]**.
