@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Les règles de traitement des canaux marketing déterminent si un accès visiteu
 
 Remarques supplémentaires sur le traitement :
 
-* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Nous vous recommandons vivement de prendre en compte toutes les circonstances avant d’enregistrer les [!UICONTROL Règles de traitement des canaux marketing] afin de limiter la collecte des données dans des canaux incorrects.
+* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Nous vous conseillons vivement d’étudier tous les cas et de les prendre en compte avant d’enregistrer les [!UICONTROL règles de traitement des canaux marketing] afin de limiter la collecte de données dans des canaux incorrects.
 * Le rapport peut traiter jusqu’à 25 canaux simultanément.
 * Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
 * Un même événement (tel qu’un achat ou un clic) n’est jamais porté au crédit de deux canaux marketing. En cela, les canaux marketing diffèrent des eVars (car deux eVars peuvent recevoir le crédit d’un seul et même événement).
@@ -31,7 +31,7 @@ Remarques supplémentaires sur le traitement :
 
 * Consultez les informations conceptuelles dans la section [Prise en main des Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing.](/help/components/c-marketing-channels/c-channels.md)
-* Examinez les bonnes pratiques relatives à l’utilisation des [!UICONTROL canaux marketing] avec [!UICONTROL Attribution IQ].
+* Examinez les bonnes pratiques relatives à l’utilisation des [!UICONTROL Canaux marketing] avec [!UICONTROL Attribution IQ].
 
 ## Création de règles de traitement des canaux marketing
 
@@ -42,9 +42,9 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 
    La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche si aucun canal n’est défini dans votre suite de rapports.
 
-   Voir [Exécution de la configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Voir  [Exécution de la configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**. Si vous avez exécuté la configuration automatique, un ensemble de canaux et de règles a été automatiquement défini pour vous.
+3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**. Si vous avez exécuté la configuration automatique, un ensemble de canaux et de règles a été automatiquement défini pour vous.
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
@@ -79,12 +79,12 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 | ID AMO | Code de suivi principal utilisé par les intégrations Advertising Cloud et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe du code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising Cloud. Utilisez « AMO ID » en commençant par « AL » pour Rechercher, « AC » pour Afficher ou « AO » pour Social. Lorsque l’AMO ID est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal approprié (lorsqu’elles ne sont pas configurées, elles sont alors associées à Direct ou Aucun). |
 | AMO ED ID | Code de suivi secondaire utilisé par Advertising Cloud. Le principal objectif de ce code de suivi est de servir de clé pour renvoyer les données vers Advertising Cloud. Il peut toutefois également être utilisé pour identifier les clics publicitaires par rapport aux affichages publicitaires si vous souhaitez les voir comme deux canaux marketing distincts. Pour ce faire, définissez la logique du canal marketing pour « AMO EF ID » se terminant par « :d » pour les clics publicitaires ou « AMO EF ID » se terminant par « :i » pour les affichages publicitaires. Si vous ne souhaitez pas diviser Affichage en deux canaux, utilisez plutôt la dimension AMO ID. |
 | Variables de conversion | Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page.  Consultez le Guide d’implémentation . |
-| Existe | Plusieurs sélections sont disponibles, notamment :<ul><li>**N’existe pas** : indique que l’attribut de visite n’existe pas pour la demande. Dans un domaine référent par exemple, si l’utilisateur saisit une URL ou clique sur un signet, l’attribut de domaine référent n’existe pas.</li><li>**Est vide** : indique que l’attribut de visite existe, généralement sous la forme d’un paramètre de chaîne de requête ou eVar, mais qu’aucune valeur associée à l’attribut de visite n’est attribuée.</li><li>**Ne contient pas** : permet d’indiquer, par exemple, qu’un domaine référent ne contient pas de valeur spécifique (contrairement à l’utilisation de l’option  &quot;Contient&quot;.)</li></ul> |
+| Existe | Plusieurs sélections sont disponibles, notamment :<ul><li>**N’existe pas** : indique que l’attribut de visite n’existe pas pour la demande. Dans un domaine référent par exemple, si l’utilisateur saisit une URL ou clique sur un signet, l’attribut de domaine référent n’existe pas.</li><li>**Est vide** : indique que l’attribut de visite existe, généralement sous la forme d’un paramètre de chaîne de requête ou eVar, mais qu’aucune valeur associée à l’attribut de visite n’est attribuée.</li><li>**Ne contient pas** : permet d’indiquer, par exemple, qu’un domaine référent ne contient pas de valeur spécifique (contrairement à l’utilisation de l’option   &quot;Contient&quot;.)</li></ul> |
 | Identifier le canal comme | Associe la règle à un canal marketing ajouté à la page Gestionnaire de canaux marketing.  Reportez-vous à la section Ajout de canaux marketing . |
 | Fait correspondre les règles de détection des recherches payées | Une recherche payante détectée par Adobe. Lors des recherches payantes, les sociétés paient une somme au moteur de recherche pour répertorier leur site. Les recherches payantes figurent habituellement en haut ou à droite des résultats de la recherche. |
 | Fait correspondre les règles de détection des recherches naturelles | Une recherche non payante détectée par Adobe. |
 | Le référent correspond aux filtres d’URL internes | Une visite dont l’URL de page correspond à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. |
-| Le référent ne correspond pas aux filtres d’URL internes | L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec   URL de la page  et  Existe  afin de configurer une règle fourre-tout, de telle sorte qu’aucune visite ne figure dans la section  Aucun canal identifié  du rapport. |
+| Le référent ne correspond pas aux filtres d’URL internes | L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec     URL de la page  et  Existe  afin de configurer une règle fourre-tout, de telle sorte qu’aucune visite ne figure dans la section  Aucun canal identifié  du rapport. |
 | Ignorer les visites correspondant aux filtres URL internes | (Pour les référents) Effectue uniquement le suivi des visites provenant de sites externes. En règle générale, ce paramètre doit rester activé, à moins que vous ne souhaitiez inclure le trafic interne. |
 | Est la première page de la visite | La première page d’une visite détectée par Adobe. |
 | Page | Le nom d’une page web du site qui contient une balise web d’Adobe. Cette valeur équivaut à  s.pageName . Par exemple `Home Page` et `About Us`. |
@@ -123,7 +123,7 @@ Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche p
 
 Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
 
-### Recherche naturelle   {#natural-search}
+### Recherche naturelle    {#natural-search}
 
 Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
 
@@ -135,7 +135,7 @@ Pour la règle du canal marketing, les paramètres de la recherche naturelle son
 
 ### Afficher  {#display}
 
-Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas  *`Ad_01`*. Le paramètre de chaîne de requête et les valeurs recherchées sont évalués en tant que valeurs insensibles à la casse.
+Cette règle identifie les visiteurs provenant de bannières publicitaires. Elle est identifiée par un paramètre de chaîne de requête dans l’URL de destination, dans ce cas   *`Ad_01`*. Le paramètre de chaîne de requête et les valeurs recherchées sont évalués en tant que valeurs insensibles à la casse.
 
 ![](assets/example_display.png)
 
@@ -157,7 +157,7 @@ Une bonne pratique consiste à inclure un canal « Autres campagnes » qui sui
 
 ![](assets/other-campaigns.png)
 
-### Réseaux sociaux   {#social-networks}
+### Réseaux sociaux    {#social-networks}
 
 Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook;. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
 
