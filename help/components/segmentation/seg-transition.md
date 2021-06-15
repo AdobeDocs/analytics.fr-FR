@@ -20,7 +20,7 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 * Segmentation dans Analysis Workspace :
 
    * Vous pouvez [comparer des segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
-   * Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans une comparaison.
+   * Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans une comparaison.
    * Utilisez des segments dans [l’analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
@@ -108,7 +108,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des  [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction des   [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Gestion des segments existants {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -116,7 +116,7 @@ Si le segment a été [publié sur Experience Cloud](/help/components/segmentat
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de  modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de   modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -132,7 +132,7 @@ Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez un segment
 
 ![](assets/duplicate_seg_names.png)
 
-Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Puis, vous supprimez ce segment, car il s’agit d’un doublon. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet qui référence la nouvelle définition. Si vous n’êtes pas certain qu’un signet, tableau de bord ou rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin qu’il soit plus clair que le signet utilise le segment restant.
+Vous êtes doté d’un signet qui référence le segment pour la suite de rapports mainprod. Puis, vous supprimez ce segment, car il s’agit d’un doublon. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment maindev pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Il utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet pour référencer la nouvelle définition. Si vous n’êtes pas certain qu’un signet, tableau de bord ou rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant afin qu’il soit plus clair que le signet utilise le segment restant.
 
 **Qu’advient-il des segments Data Warehouse ?**
 
@@ -160,7 +160,7 @@ Ces segments seront migrés sous forme de modèles de segments dans le Créateur
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que  modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (sauf ceux marqués d’un astérisque *) seront migrés en tant que   modèles de segments dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
@@ -319,7 +319,7 @@ Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont 
 
 Les dimensions suivantes ont été modifiées en listes énumérées :
 
-| fabricant du périphérique mobile | longueur d’adresse électronique du périphérique mobile | intensité de couleur |
+| fabricant du périphérique mobile | longueur d’adresse électronique du périphérique mobile | profondeur de couleur |
 |---|---|---|
 | taille de l’écran du périphérique mobile | numéro du périphérique mobile | résolution de l’écran |
 | hauteur d’écran du périphérique mobile | mobile - presser pour parler | module externe |
@@ -333,7 +333,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | SE Mobile | cookie | DMA géo |
 | java VM de mobile | fidélisation des clients | cookie persistant |
 | longueur du signet du périphérique mobile | compatible java | recherche payante |
-| longueur de l’URL du périphérique mobile | langage |  |
+| longueur de l’URL du périphérique mobile | langue |  |
 
 ## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
