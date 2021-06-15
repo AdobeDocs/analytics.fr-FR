@@ -3,9 +3,9 @@ title: Résolution des problèmes de connexion à Adobe Analytics
 description: Étapes à suivre lorsque vous ne pouvez pas vous connecter à Adobe Analytics.
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Si le problème n’est pas résolu après avoir effacé les cookies et vidé le
 >Les étapes suivantes de réinitialisation du mot de passe d’un utilisateur s’appliquent uniquement aux identifiants Analytics hérités, et non aux Adobe ID. Si votre organisation utilise des Adobe ID, vous pouvez gérer les comptes d’utilisateurs à l’adresse [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Connectez-vous à Adobe Analytics avec un compte doté de droits d’administration.
-2. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]**.
+2. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]**.
 3. Cliquez sur l’onglet **[!UICONTROL Utilisateurs]**, puis sur **[!UICONTROL Modifier]** en regard de l’utilisateur concerné.
 4. Modifiez le mot de passe en le remplaçant par n’importe quelle valeur, puiss cochez la case **[!UICONTROL L’utilisateur devra changer de mot de passe lors de sa prochaine identification]**.
 5. Communiquez le nouveau mot de passe à l’utilisateur.
