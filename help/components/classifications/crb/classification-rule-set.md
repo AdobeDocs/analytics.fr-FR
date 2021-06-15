@@ -63,7 +63,7 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
    Les variables s’affichent dans le panneau [!UICONTROL Nouveau jeu de règles] uniquement une fois qu’au moins une classification est définie pour la variable.
 
-   Vous pouvez créer des classifications sur une variable dans **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Trafic]** > **[!UICONTROL Classifications de trafic]** (ou **[!UICONTROL Conversion]** > **[!UICONTROL Classifications des conversions]**). Sélectionnez ensuite la variable et cliquez sur **[!UICONTROL Ajouter une classification]**.
+   Vous pouvez créer des classifications sur une variable dans **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Trafic]** > **[!UICONTROL Classifications de trafic]** (ou **[!UICONTROL Conversion]** > **[!UICONTROL Classifications des conversions]**). Sélectionnez ensuite la variable et cliquez sur **[!UICONTROL Ajouter une classification]**.
 
 1. Pour créer le jeu de règles, cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Créateur de règles de classification]** > **[!UICONTROL Ajouter un jeu de règles]**.
 
@@ -78,6 +78,6 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
    La liste des suites de rapports et des variables contient toutes les variables classées disponibles dans l’ensemble des suites de rapports de la société qui a établi la connexion. Une variable unique d’une suite de rapports ne peut appartenir qu’à un seul jeu de règles.
 
-   Voir *`Variable`* dans les définitions de la page [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-definitions.md) pour plus d’informations.
+   Voir  *`Variable`* dans les définitions de la page [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-definitions.md) pour plus d’informations.
 1. Spécifiez les suites de rapports et variables à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
 1. Poursuivez en [ajoutant des règles de classification](/help/components/classifications/crb/classification-rule-set.md) au jeu de règles.
