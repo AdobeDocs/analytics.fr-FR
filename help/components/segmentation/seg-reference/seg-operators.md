@@ -7,7 +7,7 @@ exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ L’astérisque (*) est le seul caractère générique pris en charge. Si vous d
 | est supérieur à | Renvoie les éléments dont le nombre est supérieur à la valeur saisie. |
 | est supérieur ou égal à | Renvoie les éléments dont le nombre est supérieur ou égal à la valeur saisie. |
 
-## Opérateurs Comptage distinct
+## Opérateurs Comptage distincts
 
 Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ».
 
