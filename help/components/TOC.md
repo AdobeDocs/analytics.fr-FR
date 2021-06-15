@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-translation-type: tm+mt
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,10 +49,10 @@ ht-degree: 99%
    + [Lien de sortie](dimensions/exit-link.md)
    + [Canal Première touche](dimensions/first-touch-channel.md)
    + [Détails du canal Première touche](dimensions/first-touch-detail.md)
-   + [Détail des accès](dimensions/hit-depth.md)
+   + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -72,7 +71,7 @@ ht-degree: 99%
    + [URL de la page](dimensions/page-url.md)
    + [Page](dimensions/page.md)
    + [Pages introuvables](dimensions/pages-not-found.md)
-   + [Référencement payant](dimensions/paid-search.md)
+   + [Recherche payante](dimensions/paid-search.md)
    + [Prise en charge des cookies persistants](dimensions/persistent-cookie-support.md)
    + [Product](dimensions/product.md)
    + [Prop](dimensions/prop.md)
@@ -86,7 +85,7 @@ ht-degree: 99%
    + [Moteur de recherche](dimensions/search-engine.md)
    + [Mot-clé de recherche](dimensions/search-keyword.md)
    + [Serveur](dimensions/server.md)
-   + [Visites de page unique](dimensions/single-page-visits.md)
+   + [Visites sur une seule page](dimensions/single-page-visits.md)
    + [Section du site](dimensions/site-section.md)
    + [Durée avant événement](dimensions/time-prior-to-event.md)
    + [Durée de consultation de la page](dimensions/time-spent-on-page.md)
@@ -106,9 +105,9 @@ ht-degree: 99%
    + [Profondeur moyenne de page](metrics/average-page-depth.md)
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
    + [Durée de session moyenne](metrics/average-session-length.md)
-   + [Temps moyen passé sur le site](metrics/average-time-on-site.md)
+   + [Durée moyenne de la visite du site](metrics/average-time-on-site.md)
    + [Taux de rebond](metrics/bounce-rate.md)
-   + [Retours](metrics/bounces.md)
+   + [Rebonds](metrics/bounces.md)
    + [Ajouts au panier](metrics/cart-additions.md)
    + [Retraits du panier](metrics/cart-removals.md)
    + [Consultations du panier](metrics/cart-views.md)
@@ -124,16 +123,16 @@ ht-degree: 99%
    + [Occurrences](metrics/occurrences.md)
    + [Commandes par visite](metrics/orders-per-visit.md)
    + [Commandes](metrics/orders.md)
-   + [Événements de pages](metrics/page-events.md)
+   + [Événements de page](metrics/page-events.md)
    + [Pages vues](metrics/page-views.md)
    + [Pages introuvables](metrics/pages-not-found.md)
    + [Personnes](metrics/people.md)
-   + [Consultations produits](metrics/product-views.md)
+   + [Consultations de produit](metrics/product-views.md)
    + [Actualisations](metrics/reloads.md)
    + [Recettes](metrics/revenue.md)
    + [Recherches](metrics/searches.md)
    + [Accès unique](metrics/single-access.md)
-   + [Visites de page unique](metrics/single-page-visits.md)
+   + [Visites sur une seule page](metrics/single-page-visits.md)
    + [Durée de la visite](metrics/time-spent-per-visit.md)
    + [Durée par visiteur](metrics/time-spent-per-visitor.md)
    + [Présentation de la durée de la visite](metrics/time-spent.md)
@@ -238,8 +237,8 @@ ht-degree: 99%
       + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
       + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
-      + [Règles de classification – Définitions](classifications/crb/classification-rule-definitions.md)
-      + [Sous-classifications et Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
+      + [Règles de classification  - définitions](classifications/crb/classification-rule-definitions.md)
+      + [Sous-classifications et le Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
    + [Sous-classifications](classifications/c-sub-classifications.md)
    + [FAQ sur les classifications](classifications/faq.md)
 + [Événements du calendrier](t-calendar-event.md)
@@ -249,7 +248,7 @@ ht-degree: 99%
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
    + [Prise en main des canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ avec les Canaux marketing](c-marketing-channels/mchannel-best-practices.md)
+   + [Attribution IQ avec les canaux marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Gestion des canaux marketing](c-marketing-channels/c-channels.md)
    + [Règles de traitement des canaux marketing](c-marketing-channels/c-rules.md)
    + [Classifications des canaux marketing](c-marketing-channels/classifictions-mchannel.md)
