@@ -41,7 +41,7 @@ ht-degree: 96%
    + [Tri par mesure](data-warehouse/sorting-by-metric.md)
    + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
    + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
-   + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
+   + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
    + [FAQ sur Data Warehouse](data-warehouse/faq.md)
    + [Bonnes pratiques relatives à Data Warehouse](data-warehouse/data-warehouse-bp.md)
 + FTP et SFTP {#ftp-and-sftp}
@@ -52,7 +52,7 @@ ht-degree: 96%
       + [Sources de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Flux de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Rapports distribués sur l’Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
+      + [Rapports distribués sur Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Rapports distribués sur le Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Contrats de services techniques Adobe Engineering Services à l’aide du FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [Limitations du FTP et conservation des données](ftp-and-sftp/ftp-limits.md)
