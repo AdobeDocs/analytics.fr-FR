@@ -5,7 +5,7 @@ feature: Segmentation
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -22,9 +22,9 @@ Si vous consacrez du temps à la planification des filtres, vous augmentez les c
    * Quel est l’objet de ce segment ?
    * Quand dois-je utiliser ce segment ?
 
-1. Déterminez la **portée** du segment. Quel  [conteneur de segments](/help/components/segmentation/seg-overview.md) représente le mieux la portée ? Utilisez le plus petit conteneur possible.
+1. Déterminez la **portée** du segment. Quel   [conteneur de segments](/help/components/segmentation/seg-overview.md) représente le mieux la portée ? Utilisez le plus petit conteneur possible.
 
-1. Déterminez les **éléments** à inclure dans la définition de segment ainsi que les valeurs. Tenez compte de la  [persistance de la variable](/help/components/segmentation/seg-overview.md) lors de cette décision.
+1. Déterminez les **éléments** à inclure dans la définition de segment ainsi que les valeurs. Tenez compte de la   [persistance de la variable](/help/components/segmentation/seg-overview.md) lors de cette décision.
 
 1. Déterminez comment vous souhaitez que votre **processus d’approbation** se déroule. Est-ce qu’une seule personne consultera et approuvera les segments ou s’agira-t-il d’une décision en comité ?
 1. Définissez vos segments avec une vue sur une **bibliothèque de segments** qui permet aux utilisateurs [d’empiler](/help/components/segmentation/segmentation-workflow/seg-build.md) et de réutiliser, de manière modulaire, des parties de segments ou des composants. Quels « modules » devez-vous définir pour faire de cette bibliothèque une réalité ?
