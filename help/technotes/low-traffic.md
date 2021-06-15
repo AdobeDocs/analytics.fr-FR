@@ -5,27 +5,27 @@ feature: Mesures
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '641'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Valeur de faible trafic dans Adobe Analytics
 
-Lorsqu’un rapport contient de nombreuses valeurs uniques, Adobe permet de s’assurer que les valeurs les plus importantes apparaissent dans le rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous un élément de ligne intitulé **[!UICONTROL Faible trafic]**.
+Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous l’élément de ligne **[!UICONTROL Faible trafic]**.
 
-## Fonctionnement de [!UICONTROL Faible trafic]
+## Fonctionnement du [!UICONTROL Faible trafic]
 
 * La création de rapports n’est pas affectée si la variable n’atteint pas 500 000 valeurs uniques au cours d’un mois donné.
 * Lorsqu’une variable atteint ce premier seuil de 500 000 valeurs, les données commencent à être groupées dans un compartiment à trafic faible. Chaque valeur dépassant ce seuil suit la logique suivante :
-   * Si une valeur est déjà affichée dans les rapports, ajoutez-la comme vous le faites habituellement.
-   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra sur la ligne [!UICONTROL Faible trafic] . Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois dans un délai court, elle commence à être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être consulté comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports spécifique.
+   * Si une valeur figure déjà dans les rapports, ajoutez-la comme d’habitude.
+   * Si une valeur ne figure pas encore dans les rapports, elle apparaîtra sur l’élément de ligne [!UICONTROL Faible trafic]. Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle commence à être reconnue comme son propre élément de ligne Le nombre significatif de fois où un élément doit apparaître comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de daemons qui traitent les données pour cette suite de rapports spécifique.
 * Si une suite de rapports atteint plus de 1 000 000 de valeurs uniques, un filtrage plus agressif est appliqué :
-   * Si une valeur est déjà affichée dans les rapports, ajoutez-la comme vous le faites habituellement.
-   * Si une valeur n’est pas encore affichée dans les rapports, elle apparaîtra sur la ligne [!UICONTROL Faible trafic] . Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois dans un délai court, elle commence à être reconnue comme son propre élément de ligne. Le nombre significatif de fois où un élément doit être consulté comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de démons qui traitent les données pour cette suite de rapports spécifique.
+   * Si une valeur figure déjà dans les rapports, ajoutez-la comme d’habitude.
+   * Si une valeur ne figure pas encore dans les rapports, elle apparaîtra sur l’élément de ligne [!UICONTROL Faible trafic]. Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle commence à être reconnue comme son propre élément de ligne Le nombre significatif de fois où un élément doit apparaître comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de daemons qui traitent les données pour cette suite de rapports spécifique.
 
-Pourquoi l’Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut reconnaître une nouvelle page ou un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des limites) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
+Pourquoi Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut être dû à la reconnaissance d’une nouvelle page ou d’un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des valeurs uniques) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
 
 ## Modification des seuils de limite uniques
 
