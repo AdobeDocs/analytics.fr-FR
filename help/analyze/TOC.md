@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 99%
       + [Segments](analysis-workspace/components/t-freeform-project-segment.md)
       + Calendrier et plages de dates {#calendar-date-ranges}
          + [Calendrier et plages de dates - Aperçu](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [Création de plages de dates personnalisées](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [Création de périodes personnalisées](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualisations {#visualizations}
       + [Visualisations - Aperçu](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
@@ -56,7 +55,7 @@ ht-degree: 99%
          + [Cas d’utilisation de l’analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandon {#fallout}
          + [Abandon - Aperçu](analysis-workspace/visualizations/fallout/fallout-flow.md)
-         + [Configuration d’une visualisation d’abandon](analysis-workspace/visualizations/fallout/configuring-fallout.md)
+         + [Configuration d’une visualisation Abandons](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abandons interdimensionnels](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Application de segments dans l’analyse des abandons](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flux {#flow}
@@ -68,44 +67,44 @@ ht-degree: 99%
       + [Carte](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Surface et aires empilées](analysis-workspace/visualizations/area.md)
-      + [Barre et barres empilées](analysis-workspace/visualizations/bar.md)
+      + [Barres et barres empilées](analysis-workspace/visualizations/bar.md)
       + [Graphique à puces](analysis-workspace/visualizations/bullet-graph.md)
       + [Anneau](analysis-workspace/visualizations/donut.md)
-      + [Barre horizontale et Barres empilées horizontales](analysis-workspace/visualizations/horizontal-bar.md)
+      + [Barres horizontales et barres empilées horizontales](analysis-workspace/visualizations/horizontal-bar.md)
       + [Ligne](analysis-workspace/visualizations/line.md)
       + [Graphique de dispersion](analysis-workspace/visualizations/scatterplot.md)
-      + [Synthèse des chiffres et Synthèse des changements](analysis-workspace/visualizations/summary-number-change.md)
+      + [Synthèse des chiffres et synthèse des changements](analysis-workspace/visualizations/summary-number-change.md)
       + [Texte](analysis-workspace/visualizations/text.md)
       + [Arborescence](analysis-workspace/visualizations/treemap.md)
    + Panneaux {#panels}
       + [Panneaux - Aperçu](analysis-workspace/c-panels/panels.md)
       + [Panneau Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + [Panneau Attribution](analysis-workspace/c-panels/attribution.md)
+      + [Panneau d’attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau des visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traitement et partage de projets {#curate-share}
       + [Menu Partager](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Traitement des projets ](analysis-workspace/curate-share/curate.md)
+      + [Traitement des projets](analysis-workspace/curate-share/curate.md)
       + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
       + [Création de liens partageables](analysis-workspace/curate-share/shareable-links.md)
       + [Projets en lecture seule](analysis-workspace/curate-share/view-only-projects.md)
       + [Téléchargement de fichiers PDF ou CSV](analysis-workspace/curate-share/download-send.md)
       + [Planification de projets](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
-      + [Présentation de l’Attribution](analysis-workspace/attribution/overview.md)
-      + [Modèles d’attribution et fenêtres de recherche arrière](analysis-workspace/attribution/models.md)
+      + [Présentation d’Attribution](analysis-workspace/attribution/overview.md)
+      + [Modèles d’attribution et intervalles de recherche en amont](analysis-workspace/attribution/models.md)
       + [Attribution algorithmique](analysis-workspace/attribution/algorithmic.md)
       + [FAQ](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [Segment IQ](analysis-workspace/segment-iq.md)
    + Analyste virtuel {#virtual-analyst}
-      + [Présentation de Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
+      + [Présentation de Virtual Analyst](analysis-workspace/virtual-analyst/overview.md)
       + Détection des anomalies {#anomaly-detection}
          + [Détection des anomalies - Aperçu](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Affichage des anomalies dans Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -123,33 +122,33 @@ ht-degree: 99%
    + [Préférences de l’utilisateur](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
-      + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Messages d’erreur](analysis-workspace/workspace-faq/error-messages.md)
       + [Limites d’Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Configuration requise pour l’administration](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Aide du Report Builder d’Adobe](report-builder/home.md)
    + Configuration de Report Builder {#report-builder-setup}
       + [Configuration requise](report-builder/setup/system-requirements.md)
-      + [Installation de Report Builder](report-builder/setup/t-install-arb.md)
-      + [Mise à niveau de Report Builder](report-builder/setup/upgrade-arb.md)
-      + [Ouverture de session dans Report Builder](report-builder/setup/login.md)
-      + [Désinstallation de Report Builder](report-builder/setup/t-uninstall-arb.md)
-      + [Appel de la fonctionnalité de Report Builder depuis les fonctions Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
-   + [Barre d’outils de Report Builder](report-builder/reportbuilder-toolbar.md)
+      + [Installation du Report Builder](report-builder/setup/t-install-arb.md)
+      + [Mise à niveau du Report Builder](report-builder/setup/upgrade-arb.md)
+      + [Ouverture de session dans le Report Builder](report-builder/setup/login.md)
+      + [Désinstallation du Report Builder](report-builder/setup/t-uninstall-arb.md)
+      + [Appel de la fonctionnalité Report Builder depuis les fonctions Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
+   + [Barre d’outils du Report Builder](report-builder/reportbuilder-toolbar.md)
    + Requêtes de données {#data-requests}
       + [Requêtes de données - Assistant Requête : Étape 1](report-builder/data-requests/data-requests.md)
       + [Création d’une requête de données](report-builder/data-requests/t-create-a-data-request.md)
       + Suites de rapports {#report-suites}
          + [Sélectionnez une suite de rapports](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Sélection d’une suite de rapports à partir d’une requête existante dans Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Sélectionnez une suite de rapports  à partir d’une requête existante dans Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestion des segments](report-builder/data-requests/segmentation.md)
       + [Autorisation des remplacements de la liste de publication](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Types de rapports {#report-types}
          + [Types de rapports - Aperçu](report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Rapports Chemin et Abandon de chemin dans Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
+         + [Rapports Chemin et Abandon de chemin dans le Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête](report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrage des rapports Chemin en ajoutant des requêtes dépendantes](report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -171,7 +170,7 @@ ht-degree: 99%
             + [Considérations](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [Dates à partir d’une cellule](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [Granularité](report-builder/data-requests/configuring-report-dates/granularity.md)
-         + [Calendrier personnalisé ](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+         + [Calendrier personnalisé](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Contrôles interactifs](report-builder/data-requests/interactive-controls.md)
    + Disposition - Assistant Requête : Étape 2 {#layout}
       + [Mise en page - Aperçu](report-builder/layout/layout.md)
@@ -211,7 +210,7 @@ ht-degree: 99%
       + [Ajout de requêtes dépendantes](report-builder/manage-requests/add-dependent-requests.md)
       + [En-tête](report-builder/manage-requests/classification.md)
       + Copie de requêtes {#copy-requests}
-         + [Copie des requêtes - Aperçu](report-builder/manage-requests/c-copy-requests/copy-requests.md)
+         + [Copie de requêtes - Aperçu](report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [Copie de requêtes simples](report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [Copie de requêtes adjacentes](report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
          + [Copie de feuilles de calcul](report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
@@ -221,7 +220,7 @@ ht-degree: 99%
       + [Enregistrement d’un classeur avec requêtes](report-builder/manage-requests/save-a-workbook-with-requests.md)
       + [Définition d’une mise en forme conditionnelle](report-builder/manage-requests/specify-conditional-formatting.md)
       + [Mode hors ligne pour la création et la modification de requêtes](report-builder/manage-requests/offline-mode.md)
-   + [Options de Report Builder](report-builder/options.md)
+   + [Options du Report Builder](report-builder/options.md)
    + [Planification de requêtes de rapport](report-builder/schedule-report-requests.md)
    + [Planification d’un classeur](report-builder/t-schedule-a-data-request.md)
    + [Gestionnaires des tâches planifiées](report-builder/r-arb-scheduled-reports.md)
@@ -246,14 +245,14 @@ ht-degree: 99%
    + Prise en main {#getting-started}
       + Prise en main pour les administrateurs {#get-started-admins}
          + [Activation d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [Mise en oeuvre du Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [Implémentation d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + Prise en main pour les utilisateurs {#get-started-users}
          + [Installation des modules de navigateur d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [Lancement d’Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [Suivi des liens robuste](activity-map/lnk-tracking-overview.md)
    + Suivi des liens {#link-tracking}
       + [Méthodologie de suivi des liens](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [FAQ sur le suivi des liens](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [Questions fréquentes sur le suivi des liens](activity-map/activitymap-link-tracking/link-tracking-faq.md)
       + [Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [Arrêt du suivi des liens](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [Utilisation de la fonction s.tl()](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
@@ -267,7 +266,7 @@ ht-degree: 99%
    + [Détails de la superposition](activity-map/activitymap-overlay-details.md)
    + [Exportation dans un fichier CSV](activity-map/activitymap-csv.md)
    + [Systèmes pris en charge et configuration requise](activity-map/activitymap-sysreqs.md)
-   + [FAQ sur Activity Map](activity-map/activitymap-faq.md)
+   + [Questions fréquentes sur Activity Map](activity-map/activitymap-faq.md)
    + [Paramétrage d’Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interface utilisateur d’Activity Map](activity-map/activitymap-user-interface.md)
    + [Création de rapports Activity Map dans Analytics](activity-map/activitymap-reporting-analytics.md)
@@ -296,7 +295,7 @@ ht-degree: 99%
    + [Segmentation Analytics](reports-analytics/segmentation.md)
    + [Gestionnaire de signets](reports-analytics/bookmarks.md)
    + [Données actives](reports-analytics/current-data.md)
-   + [Tableaux de bord et mini-rapports](reports-analytics/dashboard.md)
+   + [Tableaux de bord et petits rapports](reports-analytics/dashboard.md)
    + [Gestionnaire de tableaux de bord](reports-analytics/dashboard-manage.md)
    + [Extraction de données](reports-analytics/data-extract.md)
    + [Rapports entonnoir](reports-analytics/funnels.md)
@@ -309,12 +308,12 @@ ht-degree: 99%
 + Tableaux de bord Adobe Analytics {#mobapp}
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Guide pour les curateurs](mobile-app/curator.md)
-   + [Guide de début rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
+   + [Guide pour une prise en main rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
 + Applications web progressives {#pwa}
    + [Applications web progressives](pwa/pwa.md)
-+ API de création de rapports dans Analytics {#analytics-reporting-api}
-   + [API de création de rapports dans Analytics - Aperçu](c-reporting-api/c-reporting-api.md)
-   + [Comparaison des API de création de rapports dans Analytics](c-reporting-api/api-comparison.md)
++ API Reporting dans Analytics {#analytics-reporting-api}
+   + [API Reporting dans Analytics - Aperçu](c-reporting-api/c-reporting-api.md)
+   + [Comparaison des API Reporting dans Analytics](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
 + Labs {#tech-previews}
    + [Présentation de Labs](tech-previews/overview.md)
