@@ -1,11 +1,11 @@
 ---
 title: Suppression de robots dans Adobe Analytics
-description: Comment supprimer des robots dans Adobe Analytics
+description: Comment supprimer des robots dans Adobe Analytics ?
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 52%
+ht-degree: 98%
 
 ---
 
@@ -20,20 +20,20 @@ Les méthodes de filtrage de robots standard et personnalisées sont prises en c
 | Type de règle | Description |
 |--- |--- |
 | Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
-| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages d’adresses IP. |
+| Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
 Pour plus d’informations, voir [Présentation des règles de robots](/help/admin/admin/bot-removal/bot-rules.md).
 
 ## Utilisez le plug-in [!UICONTROL websiteBot] pour identifier les robots.
 
-Le plug-in [!UICONTROL websiteBot] vous permet d’identifier dynamiquement si les visiteurs de bureau sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
+Le plug-in [!UICONTROL websiteBot] vous permet d’identifier de manière dynamique les visiteurs du bureau qui sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
 
 Ce module effectue deux vérifications :
 
-* Tout d’abord, il détermine si l’appareil est un ordinateur de bureau ou un appareil mobile à l’aide de la variable navigator.UserAgent . Les appareils mobiles sont ignorés.
+* Tout d’abord, il détermine si l’appareil est un ordinateur ou un appareil mobile à l’aide de la variable navigator.UserAgent. Les appareils mobiles sont ignorés.
 * S’il s’agit d’un ordinateur, il ajoute un écouteur d’événements pour les mouvements de souris.
 
-Pour plus d’informations, voir le [Guide de mise en oeuvre d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html).
+Pour plus d’informations, consultez le [Guide d’implémentation d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=fr).
 
 ## Utiliser une combinaison d’outils Adobe
 
@@ -41,7 +41,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
-Pour commencer, créez un ID déclaré dans le [service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html). Transmettez l’identifiant Experience Cloud de votre visiteur dans ce nouvel identifiant déclaré, ce qui peut être effectué rapidement et facilement avec [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour commencer, créez un nouvel ID déclaré dans le [Service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr). Transmettez l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré, ce qui peut être effectué rapidement et facilement à l’aide d’[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=fr). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -59,37 +59,37 @@ Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vou
 
 ### Étape 3 : exporter tous les [!DNL Experience Cloud IDs] du segment via Data Warehouse
 
-Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à utiliser Data Warehouse pour extraire tous les identifiants Experience Cloud associés à ce segment. Cette capture d’écran montre comment configurer votre requête [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) :
+Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à utiliser Data Warehouse pour extraire tous les Experience Cloud ID associés à ce segment. La copie d’écran montre comment vous devez configurer votre demande [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) :
 
 ![](assets/bot-dwh-3.png)
 
-N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dimension et d’appliquer le segment &quot;Robots&quot;.
+N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dimension et d’appliquer le segment « Robots ».
 
-### Étape 4 : Renvoyer cette liste à Adobe en tant qu’attribut du client
+### Étape 4 : renvoyer cette liste à Adobe en tant qu’attribut du client
 
-Une fois le rapport du Data Warehouse généré, vous disposez d’une liste d’ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces ECID dans un fichier .CSV vide avec seulement deux colonnes, ECID et Indicateur de robot.
+Une fois le rapport Data Warehouse généré, vous disposez d’une liste des ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces ECID dans un fichier .CSV vide avec seulement deux colonnes, ECID et Indicateur de robot.
 
-* **ECID** : Assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
-* **Indicateur de robot** : Ajoutez &quot;Indicateur de robot&quot; en tant que dimension de schéma d’attribut du client.
+* **ECID** : assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
+* **Indicateur de robot** : ajoutez « Indicateur de robot » en tant que dimension de schéma d’attribut du client.
 
 Utilisez ce fichier .CSV comme fichier d’importation d’attribut du client, puis abonnez vos suites de rapports à l’attribut du client, comme décrit dans cet [article de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](assets/bot-csv-4.png)
 
-### Étape 5 : Créer un segment qui tire parti du nouvel attribut du client
+### Étape 5 : créer un segment qui tire parti du nouvel attribut du client
 
-Une fois votre jeu de données traité et intégré dans Analysis Workspace, créez un segment supplémentaire qui tire parti de votre nouvelle dimension d’attribut client &quot;Indicateur de robot&quot; et un conteneur [!UICONTROL Exclure] :
+Une fois votre jeu de données traité et intégré dans Analysis Workspace, créez un segment supplémentaire qui tire parti de votre nouvelle dimension d’attribut client « Indicateur de robot » et un conteneur [!UICONTROL Exclure] :
 
 ![](assets/bot-filter-seg2.png)
 
-### Étape 6 : Utiliser ce segment comme filtre de suite de rapports virtuelle
+### Étape 6 : utiliser ce segment comme filtre de suite de rapports virtuelle
 
-Enfin, créez une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui utilise ce segment pour filtrer les robots identifiés :
+Enfin, créez une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui utilise ce segment pour filtrer les robots identifiés :
 
 ![](assets/bot-vrs.png)
 
-Cette suite de rapports virtuelle nouvellement segmentée génèrera désormais un jeu de données plus propre, avec les robots identifiés supprimés.
+Cette suite de rapports virtuelle récemment segmentée se caractérise désormais par un ensemble de données plus propre, les robots identifiés étant complètement supprimés.
 
-### Étape 7 : Répéter régulièrement les étapes 2, 3 et 4
+### Étape 7 : répéter régulièrement les étapes 2, 3 et 4
 
-Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, peut-être avant une analyse régulièrement planifiée.
+Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux robots, peut-être avant l’analyse régulièrement programmée.
