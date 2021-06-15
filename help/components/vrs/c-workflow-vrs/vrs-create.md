@@ -6,9 +6,9 @@ feature: Concepts de base de Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ Avant de créer des suites de rapports virtuelles, vous devez tenir compte des q
 * Les suites de rapports virtuelles ne peuvent pas être partagées. Le « partage » est effectué par le biais de groupes/autorisations.
 * Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur « Tout afficher » pour afficher les suites de rapports virtuelles des autres utilisateurs.
 
-1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
+1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 1. Cliquez sur **[!UICONTROL Ajouter +]**.
 
    ![](assets/new_vrs.png)
 
-## Définition des paramètres
+## Définir les paramètres
 
-Dans l’onglet [!UICONTROL Paramètres], définissez ces paramètres, puis cliquez sur **[!UICONTROL Continuer]**.
+Dans l’onglet [!UICONTROL Paramètres], définissez les paramètres, puis cliquez sur **[!UICONTROL Continuer]**.
 
 | Élément | Description |
 | --- |--- |
@@ -38,19 +38,19 @@ Dans l’onglet [!UICONTROL Paramètres], définissez ces paramètres, puis cliq
 | Fuseau horaire | Le choix d’un fuseau horaire est facultatif. Si vous choisissez un fuseau horaire, il est enregistré avec la suite de rapports virtuelle. Si aucun fuseau horaire n’est choisi, celui de la suite de rapports parente est utilisé.  Lors de la modification d’une suite de rapports virtuelle, le fuseau horaire enregistré avec la suite de rapports virtuelle apparaît dans le sélecteur déroulant. Si la suite de rapports virtuelle a été créée avant l’ajout de la prise en charge du fuseau horaire, le fuseau horaire de la suite de rapports parente s’affiche dans la liste de sélection déroulante. |
 | Segments | Vous pouvez ajouter un seul segment ou empiler des segments.   Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction AND, qui ne peut pas être changée en instruction OR. Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. |
 
-## Définition d’une définition de visite
+## Définir une définition de visite
 
-Dans l’onglet [!UICONTROL Définition de visite], définissez ces paramètres, puis cliquez sur **[!UICONTROL Continuer]**.
+Dans l’onglet [!UICONTROL Définition de visite], définissez les paramètres, puis cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/visit-definition.png)
 
 | Élément | Description |
 | --- |--- |
 | **Configurer la définition de visite** |  |
-| Mettre en place le traitement de la période de rapport | Utilisez le traitement de la période de rapport pour modifier la longueur par défaut du délai d’expiration de la visite. Ces paramètres sont non destructifs et s’appliquent à Analysis Workspace uniquement. [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) |
+| Mettre en place le traitement de la période de rapport | Utilisez le traitement de la période de rapport pour modifier la longueur par défaut du délai d’expiration de la visite. Ces paramètres sont non destructifs et s’appliquent à Analysis Workspace uniquement. [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) |
 | Délai de visite | Définit la quantité d’inactivité qu’un visiteur unique doit atteindre avant qu’une nouvelle visite soit automatiquement démarrée. Cette option concerne la mesure des visites, le conteneur de segment de visite et les eVar qui expirent lors de la visite. |
 | Commencer une nouvelle visite avec l’événement | Démarre une nouvelle session quand un des événements spécifiés est déclenché, qu’une session ait expiré ou non. |
-| **Paramètres de visite des applications mobiles** | Modifiez la façon dont les visites sont définies pour les résultats d’applications mobiles collectés par les Mobile SDK d’Adobe. Ces paramètres ne sont pas destructifs et s’appliquent dans Analysis Workspace uniquement. |
+| **Paramètres de visite des applications mobiles** | Modifiez la façon dont les visites sont définies pour les résultats d’applications mobiles collectés par les Mobile SDK d’Adobe. Ces paramètres ne sont pas destructifs et s’appliquent dans Analysis Workspace uniquement. |
 | Empêcher les résultats d’arrière-plan de démarrer une nouvelle visite | Empêche les accès en arrière-plan de démarrer une nouvelle visite, et de gonfler les mesures de visites et de visiteurs uniques. |
 | Démarrer une nouvelle visite à chaque lancement d’application | Démarre une nouvelle session lorsqu’une application est lancée. [En savoir plus](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
@@ -59,16 +59,16 @@ Dans l’onglet [!UICONTROL Définition de visite], définissez ces paramètres,
 ![](assets/components.png)
 
 1. Dans l’onglet [!UICONTROL Composants], cochez la case pour appliquer le traitement afin d’inclure, d’exclure et de renommer les composants de cette suite de rapports virtuelle dans Analysis Workspace.
-Pour plus d’informations sur le traitement des suites de rapports virtuelles, voir [Traitement des composants des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=en#virtual-report-suites).
+Pour plus d’informations sur le traitement des suites de rapports virtuelles, voir [Traitement des composants des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=fr#virtual-report-suites).
 
-1. Faites glisser les composants (dimensions, mesures, segments ou plages de dates) que vous souhaitez inclure dans la suite de rapports virtuelle dans la section [!UICONTROL Composants inclus] .
+1. Faites glisser les composants (dimensions, mesures, segments ou plages de dates) que vous souhaitez inclure dans la suite de rapports virtuelle dans la section [!UICONTROL Composants inclus].
 
 1. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Aperçu des données
 
-Sur le côté droit de chaque onglet, vous pouvez prévisualiser le nombre total d’accès, le nombre total de visites et le nombre total de visiteurs dans cette suite de rapports virtuelle, par rapport à la suite de rapports d’origine.
+Sur le côté droit de chaque onglet, vous pouvez apercevoir le nombre total d’accès, de visites et de visiteurs dans cette suite de rapports virtuelle, par rapport à la suite de rapports originale.
 
 ## Afficher la compatibilité des produits
 
-Certaines fonctionnalités des suites de rapports virtuelles ne sont pas prises en charge par tous les produits Adobe Analytics. La liste de compatibilité des produits vous permet de voir quels produits d’Adobe Analytics sont pris en charge en fonction des paramètres actuels de votre suite de rapports virtuelle.
+Certaines fonctionnalités des suites de rapports virtuelles ne sont pas prises en charge par tous les produits Adobe Analytics. La liste de compatibilité des produits vous permet de voir quels produits Adobe Analytics sont pris en charge en fonction des paramètres actuels de votre suite de rapports virtuelle.
