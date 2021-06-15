@@ -19,7 +19,7 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports &amp; 
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
-   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports > Mesures du site]** > **[!UICONTROL Temps réel]** et choisissez la suite de rapports dans le menu déroulant du haut :
+   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports > Mesures du site]** > **[!UICONTROL Temps réel]** et choisissez la suite de rapports dans le menu déroulant du haut :
 
    ![](assets/report_suite_selector.png)
 
