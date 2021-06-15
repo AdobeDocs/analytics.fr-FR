@@ -6,7 +6,7 @@ feature: Outils d’administration
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Un rapport [!UICONTROL Hiérarchie] permet de naviguer dans des jeux de données
 
 Vous pouvez créer des hiérarchies de classification pour des pages Web, des campagnes, des produits ou toute autre variable de rapport. Le rapport Hiérarchie affiche les unités, les commandes et les recettes pour chaque classification des variables de la hiérarchie.
 
-Par exemple, si une hiérarchie de produits contient Vêtements > Vêtements pour homme > Chemises > Polos > Polos taille XL, le rapport Hiérarchie affiche les données de vente de la classification Vêtements. Vous pourrez ensuite approfondir l’analyse pour afficher les données relatives à Vêtements pour homme, Chemises, Polos et Polos taille XL. Les hiérarchies de classification vous permettent d’identifier rapidement la contribution de chaque classification de la hiérarchie aux performances de la catégorie Vêtements.
+Par exemple, si une hiérarchie de produits contient Vêtements > Vêtements pour homme > Chemises > Polos > Polos taille XL, le rapport Hiérarchie affiche les données de vente de la classification Vêtements. Vous pourrez ensuite approfondir l’analyse pour afficher les données relatives à Vêtements pour homme, Chemises, Polos et Polos taille XL. Les hiérarchies de classification vous permettent d’identifier rapidement la contribution de chaque classification de la hiérarchie aux performances de la catégorie Vêtements.
 
 Créez les classifications avant de les ajouter à une hiérarchie.
 
