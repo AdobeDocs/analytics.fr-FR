@@ -8,7 +8,7 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Pour accéder à l’ensemble des notes de mise à jour d’Adobe Experience Clo
 
 | Fonctionnalité | Date cible | Description |
 | --- | --- | --- |
-| [!UICONTROL Composants] > [!UICONTROL Préférences de l’utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. Les [!UICONTROL préférences utilisateur] s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page des [!UICONTROL préférences utilisateur] :<ul><li>Paramètres des rapports : le séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres des rapports : séparateur CSV</li><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Panneau vierge _Option Démarrer de nouveaux projets avec ce panneau_</li></ul> |
+| [!UICONTROL Composants] > [!UICONTROL Préférences de l’utilisateur] | 25 mars 2021 | La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. Les [!UICONTROL préférences utilisateur] s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page des [!UICONTROL préférences utilisateur] :<ul><li>Paramètres des rapports : le séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres des rapports : séparateur CSV</li><li>Projets Workspace : Aide > Activer les conseils</li><li>Projets Workspace : Panneau vierge _Option Démarrer de nouveaux projets avec ce panneau_</li></ul> |
 | [!UICONTROL Histogramme Prédiction de compartiments intelligents] | 25 mars 2021 | [!UICONTROL L’histogramme Prédiction de compartiments intelligents] aide à utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de compartiments appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
 
 ## Février 2021
@@ -76,8 +76,8 @@ Nouvelles fonctionnalités au 18 juin 2020.
 | Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, vous permettant ainsi de choisir avec plus de transparence le processus d’analyse qui vous convient le mieux. |
 | Panneau Quick Insights (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Panneau Analytics for Target dans Workspace  (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
-| À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et permet de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
+| Panneau Analytics for Target dans Workspace   (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et permet de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
 
 ## Mai 2020
 
@@ -304,7 +304,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
    <td colname="col2"> <p>Lorsque cela est possible, nous affichons désormais les totaux pour les mesures calculées, y compris les pourcentages. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nouveau  <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini </a>de la période </b> </p> </td> 
+   <td colname="col1"> <p><b>Nouveau   <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini </a>de la période </b> </p> </td> 
    <td colname="col2"> <p>Ajout de « Treize dernières semaines complètes » aux paramètres prédéfinis de la période dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -353,7 +353,7 @@ Nouvelles fonctionnalités et améliorations au 10 mai 2018.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Conseils du jour</b> </p> </td> 
-   <td colname="col2"> <p>Nous proposons des conseils du jour (accompagnés d’une courte vidéo) dans le coin inférieur droit de l’interface. Leur but est de vous familiariser avec les nombreuses fonctionnalités très intéressantes d’Analysis Workspace. Vous pouvez ignorer ces Conseils ou y accéder en cliquant sur <span class="uicontrol"> Aide </span> &gt; <span class="uicontrol"> Conseils </span> à n’importe quel moment. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
+   <td colname="col2"> <p>Nous proposons des conseils du jour (accompagnés d’une courte vidéo) dans le coin inférieur droit de l’interface. Leur but est de vous familiariser avec les nombreuses fonctionnalités très intéressantes d’Analysis Workspace. Vous pouvez ignorer ces Conseils ou y accéder en cliquant sur <span class="uicontrol"> Aide </span> &gt; <span class="uicontrol"> Conseils </span> à n’importe quel moment. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Modèles de segments </a> et <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modèles de mesures calculées </a></b> </p> </td> 
@@ -364,7 +364,7 @@ Nouvelles fonctionnalités et améliorations au 10 mai 2018.
    <td colname="col2"> <p>Vous pouvez maintenant faire défiler vers le haut ou vers le bas tout en faisant glisser des composants vers un nouvel emplacement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Informations supplémentaires sur  <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > les anomalies </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Informations supplémentaires sur   <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > les anomalies </a></b> </p> </td> 
    <td colname="col2"> <p>Lorsque vous passez votre curseur sur une anomalie d’un graphique en courbes, la date et la valeur brute de l’anomalie s’affichent désormais dans les informations. </p> </td> 
   </tr> 
  </tbody> 
@@ -435,7 +435,7 @@ Nouvelles fonctionnalités et améliorations au 8 mars 2018.
    <td colname="col2"> <p>Pour les modèles personnalisés récemment publiés : </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Ajout d’une icône de modèle en haut du projet (près du titre) pour aider à différencier le mode d’édition de modèles de l’utilisation d’un modèle comme point de départ d’un projet. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Autorisation des non-administrateurs à créer (enregistrer sous) et à modifier des modèles de projet Workspace, à condition qu’ils aient reçu l’autorisation Créer/traiter des projets dans Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Tous les administrateurs </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Personnaliser les outils Analytics </span> &gt; &lt;a 13/&gt; Créer/traiter des projets dans Analysis Workspace </span> </span>).<span class="uicontrol"> </span></li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Autorisation des non-administrateurs à créer (enregistrer sous) et à modifier des modèles de projet Workspace, à condition qu’ils aient reçu l’autorisation Créer/traiter des projets dans Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol">Admin</span> &gt;<span class="uicontrol">Tous les administrateurs</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <span class="uicontrol">Groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils Analytics</span> &gt; <span class="uicontrol">Créer/traiter des projets dans Analysis Workspace</span></span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Nouvelles fonctionnalités et améliorations au 18 janvier 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analyse des contributions : <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notification des jetons </a> </p> </td> 
-   <td colname="col2"> <p>Si votre entreprise possède un nombre limité de jetons d’analyse des contributions, l’IU Analysis Workspace présente maintenant une notification lorsque vous en utilisez un. Elle indique également combien de jetons il vous reste.  </p> <p>(Utilisateurs administrateurs : vous pouvez désigner qui peut utiliser ces jetons en modifiant les autorisations des groupes. L’autorisation est appelée "Détection des anomalies et analyse des contributions" sous <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Tous les administrateurs </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> <span class="uicontrol"> Modifier les groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Personnaliser Les Outils De Suite De Rapports </span> &gt; <span class="uicontrol"> Outils Et Rapports </span>. )  </p> </td> 
+   <td colname="col2"> <p>Si votre entreprise possède un nombre limité de jetons d’analyse des contributions, l’IU Analysis Workspace présente maintenant une notification lorsque vous en utilisez un. Elle indique également combien de jetons il vous reste.  </p> <p>(Utilisateurs administrateurs : vous pouvez désigner qui peut utiliser ces jetons en modifiant les autorisations des groupes. L’autorisation est appelée « Détection des anomalies et analyse des contributions » sous <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Tous les administrateurs</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <span class="uicontrol">Modifier les groupes</span> &gt; <span class="uicontrol">Modifier l’accès à tous les rapports</span> &gt; <span class="uicontrol">Personnaliser les outils de suites de rapports</span> &gt; <span class="uicontrol">Outils et rapports</span>.)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fichiers CSV contenant des caractères à plusieurs octets </p> </td> 
@@ -797,7 +797,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Améliorations apportées aux <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Abandons </a></b> </td> 
+   <td colname="col1"> Améliorations apportées aux <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  >Abandons</a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Nombre de segments illimité pour la comparaison. </li> 
@@ -854,7 +854,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nouvelles <b>  <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Touches de raccourci </a></b> </p> </td> 
+   <td colname="col1"> <p>Nouvelles <b>   <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Touches de raccourci </a></b> </p> </td> 
    <td colname="col2"> <p>Ajout des raccourcis suivants : </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = Accéder au volet Panneaux </li> 
@@ -883,7 +883,7 @@ Nouvelles fonctionnalités au 20 avril 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à l’option Annuler/Rétablir </p> </td> 
-   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas  annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas   annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -956,7 +956,7 @@ Nouvelles fonctionnalités au 10 novembre 2016 :
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparaison des dates </a> </p> </td> 
-   <td colname="col2"> <p>La nouvelle fonctionnalité de comparaison de dates permet de choisir n’importe quelle colonne et de créer une comparaison de dates courante : d’un trimestre à l’autre, d’un mois à l’autre, etc. </p> <p>Les comparaisons de dates incluent automatiquement une  colonne des différences, qui montre l’évolution en pourcentage. </p> </td> 
+   <td colname="col2"> <p>La nouvelle fonctionnalité de comparaison de dates permet de choisir n’importe quelle colonne et de créer une comparaison de dates courante : d’un trimestre à l’autre, d’un mois à l’autre, etc. </p> <p>Les comparaisons de dates incluent automatiquement une   colonne des différences, qui montre l’évolution en pourcentage. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1048,7 +1048,7 @@ Nouvelles fonctionnalités au 20 octobre 2016 :
 Nouvelles fonctionnalités au 16 juin 2016 :
 
 * [Nouvelle autorisation de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) grâce à laquelle les administrateurs peuvent autoriser ou refuser l’accès à **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
-* Le  [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
+* Le   [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
 * [Nouvelle structure du menu Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : le menu supérieur est réorganisé et plus extensible. Par exemple, la création d’un **panneau de cohortes** nécessite maintenant de créer un panneau vierge et de le faire glisser dans une visualisation du tableau de cohortes.
 * [Nouveau rail de gauche](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : panneaux, visualisations, composants.
 * Un nouveau [type de visualisation de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) permet de faire glisser jusqu’à trois segments et une mesure et de générer un diagramme de Venn.
@@ -1059,7 +1059,7 @@ Nouvelles fonctionnalités au 16 juin 2016 :
 * Mises à jour mineures :
 
    * Possibilité de supprimer toutes les visualisations dans un panneau et tous les panneaux dans un projet. (Auparavant, vous deviez conserver au moins une visualisation ou un panneau.)
-   * Changements des  [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (touches d’accès rapide) afin de faciliter le travail dans Analysis Workspace.
+   * Changements des   [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (touches d’accès rapide) afin de faciliter le travail dans Analysis Workspace.
    * Changements des styles : polices plus petites dans les visualisations ; nuances de couleur sur les lignes ; déplacement du sélecteur de dates vers le bas (sur les panneaux).
 
 ## Avril 2016
@@ -1249,4 +1249,4 @@ Lors de l’enregistrement d’un projet, le titre sur l’onglet du navigateur 
 
 Les administrateurs peuvent transférer les projets [!UICONTROL Analysis Workspace] d’un utilisateur à un autre.
 
-Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Transférer]** pour transférer des projets.
+Sélectionnez **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Transférer]** pour transférer des projets.
