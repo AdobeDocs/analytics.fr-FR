@@ -1,19 +1,18 @@
 ---
 description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 keywords: Analysis Workspace
-title: Cas d’utilisation d’Analysis Workspace
-feature: Concepts de base des rapports et analyses
+title: Cas d’utilisation d’Analysis Workspace
+feature: Concepts de base de Reports & Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Cas d’utilisation d’Analysis Workspace
+# Cas d’utilisation d’Analysis Workspace
 
 Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 
@@ -60,5 +59,5 @@ Supposons que vous soyez un analyste marketing pour un vendeur au détail d’é
 
    Vous avez déjà ventilé les données de manière à générer des recommandations et des ventes croisées pour vos équipes de marchandisage afin de mettre en œuvre d’autres campagnes et de générer davantage de recettes pour votre entreprise. Vous pouvez créer d’autres ventilations jusqu’à obtenir les résultats attendus.
 
-   À présent, vous pouvez [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
+   À présent, vous pouvez  [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
 
