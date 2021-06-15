@@ -3,9 +3,9 @@ description: Importation des données de suivi à partir d’applications tierce
 title: Prise en main des connecteurs de données Analytics
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Avant de configurer une intégration des connecteurs de données pour votre prod
 Vous devez disposer d’un compte actif pour accéder à la page d’entrée [!UICONTROL Data Connectors] (console). Il est également conseillé de connaître Adobe Analytics.
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Connecteurs de données]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Connecteurs de données]**.
 1. Cliquez sur **[!UICONTROL Ajouter nouveau]**.
 1. Suivez l’interface **[!UICONTROL Ajouter une intégration]**.
 
