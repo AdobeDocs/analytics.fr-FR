@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 81%
+ht-degree: 95%
 
 ---
 
@@ -57,8 +57,8 @@ Notez comment une même mesure (Commandes en ligne) génère des résultats diff
 
 ## Analyse marketing entre onglets
 
-À l’aide des canaux Première touche et Dernière touche hérités, vous pouvez obtenir une vue utile des interactions des canaux :
+En utilisant le Canal Première touche et le Canal Dernière touche hérités, vous pouvez obtenir des informations utiles sur les interactions de canal :
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
