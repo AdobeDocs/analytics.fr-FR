@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ if(s._pltPreviousPage)
 
 ## Historique des versions
 
-### 2.0.1 (26 mars 2021)
+### 2.0.1 (26 mars 2021)
 
-* Correction d’un problème en raison duquel le module externe ne définissait pas correctement les valeurs sur l’objet s.
+* Correction d’un problème en raison duquel le plug-in ne définissait pas correctement les valeurs sur l’objet s.
 
 ### 2.0 (19 mars 2021)
 
