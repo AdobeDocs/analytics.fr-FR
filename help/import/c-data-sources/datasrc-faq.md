@@ -6,7 +6,7 @@ topic-fix: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1496'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Si un fichier de source de données contient un ou plusieurs enregistrements qui
 
 Les informations des sources de données peuvent être cumulées ; toutefois, l’assistance clientèle Adobe doit retraiter le cumul à partir de la date d’historique pour inclure les données d’historique. Si, par exemple, la date actuelle est le 31 octobre 2015 et que vous avez transféré des données pour la période du 1er au 15 août 2015 à l’aide de la fonctionnalité Sources de données, le cumul devra être défini pour les retraiter à partir du 1er août 2015, afin que les données nouvellement importées soient incluses.
 
-Notez également que les données ne doivent jamais être transférées directement dans une suite de rapports de cumul à l’aide de la fonctionnalité Sources de données. Si vous souhaitez que ces données soient incluses dans un cumul, elles doivent être importées dans une suite de rapports standard, également appelée  *`child suite`* du cumul. Contactez l’assistance clientèle Adobe pour en savoir plus.
+Notez également que les données ne doivent jamais être transférées directement dans une suite de rapports de cumul à l’aide de la fonctionnalité Sources de données. Si vous souhaitez que ces données soient incluses dans un cumul, elles doivent être importées dans une suite de rapports standard, également appelée   *`child suite`* du cumul. Contactez l’assistance clientèle Adobe pour en savoir plus.
 
 ## Pourquoi le rapport Pages vues n’affiche-t-il aucune donnée de source de données pour un seul jour, mais affiche les données correctes pour une semaine ?  {#section_E361A93AFDE1487989B4B0C4438EEDF7}
 
