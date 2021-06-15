@@ -5,7 +5,7 @@ feature: Segmentation
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
      <li>Hiérarchie (toutes les dimensions commençant avec la hiérarchie) </li> 
      <li>Profondeur d’accès </li> 
      <li>Type d’accès </li> 
-     <li>Heure  Jour </li> 
+     <li>Heure   Jour </li> 
      <li>Mois de l’année </li> 
      <li>Pages introuvables </li> 
      <li>Recherche payante </li> 
