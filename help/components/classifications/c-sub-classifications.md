@@ -6,7 +6,7 @@ feature: Outils d’administration
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '653'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Pour plus d’informations sur le fichier de données, consultez  [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
+Pour plus d’informations sur le fichier de données, consultez   [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
 Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
 
@@ -84,7 +84,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Polo homme, manches courtes (M,01) | M | M | 01 |
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
-| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | s | 23 |
+| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
 ### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
