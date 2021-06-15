@@ -5,7 +5,7 @@ feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -28,13 +28,13 @@ seg_workflow.xml
 
 Avez-vous posé toutes les questions appropriées avant de créer des segments et de configurer un environnement de gestion des segments ? Avez-vous conçu le segment en gardant à l’esprit son objectif prévu et son utilisation spécifique ?
 
-Voir la  liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
+Voir la   liste de contrôle de la planification des segments pour obtenir de l’aide lors de la planification et de l’organisation de vos segments.
 
 ![](assets/step2_icon.png) [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md)
 
 Créez et modifiez des segments pour une utilisation dans toutes les fonctionnalités d’Analytics.
 
-Voir  [Créer des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur ALORS.
+Voir   [Créer des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur ALORS.
 
 ![](assets/step3_icon.png) [ Balisage des segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
@@ -62,4 +62,4 @@ Le marquage des segments en tant que favoris est une autre manière de les organ
 
 [Gestion des segments](/help/components/segmentation/segmentation-workflow/seg-manage.md)
 
-Le Gestionnaire de segments offre plusieurs manières d’organiser les segments, par exemple le partage, le filtrage, le marquage, l’approbation, la copie, la suppression et le marquage en tant favoris.
+Le Gestionnaire de segments offre plusieurs manières d’organiser les segments, par exemple le partage, le filtrage, le marquage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
