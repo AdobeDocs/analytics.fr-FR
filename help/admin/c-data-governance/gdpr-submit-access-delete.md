@@ -4,9 +4,9 @@ title: Soumettre des demandes d’accès et de suppression
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1307'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez également vous assurer que vos applications mobiles et vos sites we
 
 ## Gérer le consentement des consommateurs  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos sujets de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter un [mécanisme d’exclusion](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
+En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos sujets de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter un [mécanisme de désinscription](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site Web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
 
 ## Valider les utilisateurs et leurs données  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
