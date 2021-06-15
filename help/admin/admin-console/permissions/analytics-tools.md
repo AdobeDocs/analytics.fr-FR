@@ -1,11 +1,11 @@
 ---
 title: Autorisations du profil de produit pour les outils Analytics
-description: Utilisez les éléments d’autorisation liés aux outils Analytics pour accorder l’accès aux fonctionnalités d’Adobe Analytics.
+description: Utilisez les éléments d’autorisation liés aux outils Analytics pour permettre l’accès aux fonctionnalités d’Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,16 +16,16 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Élément d’autorisation lié aux outils Analytics | Description |
 |----|----|
 | Utilisation des appels au serveur | Accorde l’accès à Admin > Utilisation des appels serveur. |
-| Gestionnaire de code | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
+| Gestionnaire de code | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans Adobe Experience Platform Launch. |
 | Code Manager – Web Services | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
-| Journaux | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
+| Journaux | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | Logs – Web Services | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
-| Gestion du trafic | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
-| Sécurité | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
-| Support technique | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
-| Services web | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
-| Actions en attente | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
-| Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
+| Gestion du trafic | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
+| Sécurité | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Gestionnaire de sécurité. |
+| Support technique | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Informations sur l’assistance. |
+| Services web | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Services Web. |
+| Actions en attente | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Actions en attente. |
+| Masquage des suites de rapports | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Utilisateurs sous licence Excel | Inutilisé. |
 | Activity Map | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Données actives | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
@@ -41,6 +41,6 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Création de segment | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | Gestion Advertising Analytics | Inutilisé. |
 | Publication de segment | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
-| Intégrations (créer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
-| Intégrations (mettre à jour) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
-| Intégrations (supprimer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer les connecteurs de données. |
+| Intégrations (créer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
+| Intégrations (mettre à jour) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
+| Intégrations (supprimer) | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer des connecteurs de données. |
