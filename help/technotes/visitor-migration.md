@@ -8,7 +8,7 @@ exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ La migration des visiteurs vous permet de conserver les cookies d’identificati
 
 * Vous mettez en œuvre le [service dʼidentification des visiteurs dʼExperience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) et passez dʼun domaine de collecte de données propriétaire/CNAME à un domaine `adobedc.net`, `2o7.net` ou `omtrdc.net`.
 
-* Passage à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html).
+* Passage à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=fr).
 
 * Passage d’un CNAME à un autre (changement de domaines).
 
@@ -44,8 +44,8 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
    <td colname="col1"> <p> <b>Pour commencer</b> : contactez le <a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html"  >service à la clientèle</a> pour communiquer le(s) domaine(s) à faire migrer, ainsi que la période de migration que vous souhaitez activer (30, 60 ou 90 jours). Veillez à inclure les domaines sécurisés et non sécurisés. </p> </td> 
    <td colname="col3"> <p>Créez une liste en utilisant la syntaxe <i>exacte</i> pour les domaines sources et cibles de la migration. </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
-     <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
-     <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; smetrics.example.com </li> 
+     <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
+     <li id="li_B0CA15A593BD4AB9802E33A3FF037C7A">example.102.112.2o7.net &gt; smetrics.example.com </li> 
     </ul> <p>Les noms d’hôte de migration sont configurés sur le serveur de collecte de données Adobe. Une fois le changement effectué, l’assistance clientèle vous en informera afin que vous puissiez planifier l’étape suivante. </p> </td> 
   </tr> 
   <tr> 
