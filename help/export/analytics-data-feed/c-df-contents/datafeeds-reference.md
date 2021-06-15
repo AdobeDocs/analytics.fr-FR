@@ -7,9 +7,9 @@ feature: Concepts de base de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3405'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `click_context_type` | N’est plus utilisé. Indique si click_context avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
 | `click_sourceid` | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité Clickmap. | int sans signe |
 | `click_tag` | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
-| `clickmaplink` | Activity Map  lien | varchar(255) |
+| `clickmaplink` | Activity Map   lien | varchar(255) |
 | `clickmaplinkbyregion` | Lien d’Activity Map par région | varchar(255) |
 | `clickmappage` | Page d’Activity Map | varchar(255) |
 | `clickmapregion` | Région d’Activity Map | varchar(255) |
@@ -156,7 +156,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `page_event_var2` | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
 | `page_event_var3` | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | text |
 | `page_type` | Utilisé pour renseigner la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). Utilisé exclusivement pour les pages 404. Cette variable doit être vide ou contenir la valeur `ErrorPage`. | char(20) |
-| `page_url` | URL de l’accès à la Dans sa post-variante (post_page_url), la valeur est supprimée pour les demandes d’image de suivi des liens. | varchar(255) |
+| `page_url` | URL de l’accès à la Dans sa variante post (post_page_url), la valeur est supprimée pour les demandes d’image de suivi de liens. | varchar(255) |
 | `pagename` | Utilisé pour renseigner la dimension [Page](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
 | `paid_search` | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
 | `partner_plugins` | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(255) |
@@ -168,7 +168,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `prev_page` | Inutilisé. Identifiant propriétaire Adobe de la page précédente. | int sans signe |
 | `product_list` | Liste des produits telle que transmise par l’intermédiaire de la variable [`products`](/help/implement/vars/page-vars/products.md). Les produits sont délimités par des virgules, tandis que les propriétés des produits individuels sont délimitées par des points-virgules. | text |
 | `product_merchandising` | Inutilisé. Utilisez `product_list` à la place. | text |
-| `prop1` -  `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` - `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilisé par la colonne `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel. | tinyint sans signe |
 | `ref_domain` | Basée sur la colonne Référent. Domaine référent de l’accès. Utilisé dans la dimension [Domaine référent](/help/components/dimensions/referring-domain.md). | varchar(100) |
