@@ -5,7 +5,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 82%
+ht-degree: 90%
 
 ---
 
@@ -20,9 +20,9 @@ Il est recommandé de posséder des connaissances élémentaires des flux de don
 * **Nom** : le nom du flux de données. Doit être unique au sein de la suite de rapports sélectionnée et peut comporter jusqu’à 255 caractères.
 * **Suite de rapports :** la suite de rapports sur laquelle le flux de données est basé. Si plusieurs flux de données sont créés pour une même suite de rapports, ils doivent avoir des définitions de colonne différentes. Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge.
 * **Envoyer par courrier électronique une fois terminé** : l’adresse électronique vers laquelle envoyer une notification lorsque le traitement d’un flux est terminé. L’adresse électronique doit être correctement formatée.
-* **Intervalle du flux** : les flux horaires contiennent l’équivalent d’une seule heure de données. Les flux quotidiens contiennent l’équivalent d’une journée complète de données ; elles incluent des données de minuit à minuit dans le fuseau horaire de la suite de rapports.
+* **Intervalle du flux** : les flux horaires contiennent l’équivalent d’une seule heure de données. Les flux quotidiens contiennent l’équivalent d’une journée complète de données. Ces flux comprennent les données de minuit à minuit dans le fuseau horaire de la suite de rapports.
 * **Traitement du délai** : patientez un certain temps avant de traiter un fichier de flux de données. Il peut être utile de mettre en place un délai pour donner aux appareils hors ligne la possibilité de se connecter et d’envoyer leurs données dans le cadre d’implémentations mobiles. Il est également possible d’utiliser un délai pour adapter les processus côté serveur de votre entreprise en ce qui concerne la gestion des fichiers traités précédemment. Dans la plupart des cas aucun délai n’est nécessaire. Un flux peut être se voir attribuer un délai pouvant aller jusqu’à 120 minutes.
-* **Dates de début et de fin** : la date de début indique la première date pour laquelle vous souhaitez un flux de données. Définissez cette date dans le passé pour commencer immédiatement à traiter les flux de données des données historiques. Le traitement du flux se poursuit jusqu’à ce que la date de fin soit atteinte. Les dates de début et de fin sont basées sur le fuseau horaire de la suite de rapports.
+* **Dates de début et de fin** : la date de début indique la première date pour laquelle vous souhaitez un flux de données. Définissez cette date dans le passé pour commencer immédiatement à traiter les flux de données des données historiques. Le traitement du flux se poursuit jusqu’à ce que la date de fin soit atteinte. Les dates de début et de fin sont définies en fonction du fuseau horaire de la suite de rapports.
 * **Flux continu** : cette case à cocher supprime la date de fin et permet à un flux de s’exécuter indéfiniment. Lorsqu’un flux termine le traitement de données historiques, un flux attend la fin de la collecte des données pour une heure ou un jour donné. Une fois l’heure ou le jour en question terminé, le traitement commence après le délai indiqué.
 
 ## Champs de destination
@@ -97,7 +97,7 @@ Toutes les colonnes sont disponibles qu’elles contiennent des données ou non.
 * **Supprimer les caractères avec échappement** : au cours d’une collecte de données, certains caractères (comme les sauts de lignes) peuvent occasionner des erreurs. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux.
 * **Format de compression** : le type de compression utilisé. Fichiers de sortie Gzip au format `.tar.gz`. Fichiers de sortie Zip au format `.zip`.
 * **Type de groupement** : un fichier unique sort le fichier `hit_data.tsv` dans un fichier unique pouvant être volumineux. La fonction plusieurs fichiers met en page vos données par blocs de 2 Go (non compressés). Si vous avez sélectionné plusieurs fichiers, mais que la taille des données non compressées pour la fenêtre de création de rapports est inférieure à 2 Go, un seul fichier est envoyé. Adobe recommande d’utiliser plusieurs fichiers pour la plupart des flux de données.
-* **Manifeste** : Indique si l’Adobe doit ou non livrer un  [ ](c-df-contents/datafeeds-contents.md#feed-manifest) fichier de manifeste à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez Fichier de manifeste, vous recevrez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :
+* **Manifeste** : indique si Adobe doit ou non livrer un [fichier de manifeste](c-df-contents/datafeeds-contents.md#feed-manifest) à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez Fichier de manifeste, vous recevrez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :
 
 ```text
    Datafeed-Manifest-Version: 1.0
