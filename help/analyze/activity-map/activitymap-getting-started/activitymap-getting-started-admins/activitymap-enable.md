@@ -8,7 +8,7 @@ exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Le module Activity Map fait partie du fichier AppMeasurement.js (situé en haut
 
 Les données d’Activity Map ne peuvent pas être collectées si vous n’effectuez pas la mise à jour vers cette version (ou ultérieure) d’AppMeasurement.
 
-1. Téléchargez le code AppMeasurement (AppMeasurement_Javascript-1.6.zip) le plus récent en sélectionnant **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]** et [implémentez-le](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=fr).
+1. Téléchargez le code AppMeasurement (AppMeasurement_Javascript-1.6.zip) le plus récent en sélectionnant **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]** et [implémentez-le](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=fr).
 
    Nous avons inclus un [exemple de code de mise en œuvre](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) afin de vous aider à visualiser les changements apportés au code suite à l’intégration du module Activity Map.
 
@@ -37,7 +37,7 @@ Les données d’Activity Map ne peuvent pas être collectées si vous n’effe
 
 1. Ventilez ce rapport par **[!UICONTROL lien d’Activity Map par région]** pour afficher le lien/la région pour cette page : ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## Étape 2. Activation des rapports d’Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Étape 2. Activation des rapports d’Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 Vous devez d’abord activer les rapports d’Activity Map au niveau de la suite de rapports.
 
@@ -48,7 +48,7 @@ Vous devez d’abord activer les rapports d’Activity Map au niveau de la suit
 
 1. Après environ une heure, consultez le [rapport Page d’Activity Map](/help/analyze/activity-map/activitymap-reporting-analytics.md) qui répertorie toutes les pages sur lesquelles les utilisateurs ont cliqué sur un lien.
 
-## Étape 3. Ajout d’utilisateurs au groupe d’Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## Étape 3. Ajout d’utilisateurs au groupe d’Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
 1. Cliquez sur **[!UICONTROL Ajouter des utilisateurs au groupe]**.
 
