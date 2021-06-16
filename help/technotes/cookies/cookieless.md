@@ -36,5 +36,6 @@ Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’
 Pour obtenir des instructions pratiques pour que votre entreprise puisse abandonner les cookies tiers, reportez-vous à la section [Obtenir et conserver des clients dans un monde sans cookies avec Adobe](https://business.adobe.com/fr/solutions/cookieless.html) et pour des informations plus détaillées, consultez le guide suivant [Thinking beyond the third-party cookie: Your complete guide to a world without third-party cookies](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf) (en anglais ; Voir au-delà du cookie tiers : votre guide complet vers un monde sans cookies tiers).
 
 >[!MORELIKETHIS]
-[Adobe Analytics et les cookies de navigateur](cookies.md)>
+>
+>[Adobe Analytics et les cookies de navigateur](cookies.md)>
 >
