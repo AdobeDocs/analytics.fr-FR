@@ -1,16 +1,16 @@
 ---
 description: Présente des exemples sur la manière d’étiqueter les données relatives aux accès, aux demandes d’accès et aux demandes de suppression.
-title: Exemple d’étiquetage
+title: Exemples d’étiquetage
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: fe277bea867dc67e8693673a547adecccf169332
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 87%
+source-wordcount: '770'
+ht-degree: 69%
 
 ---
 
-# Exemple d’étiquetage
+# Exemples d’étiquetage
 
 ## Exemple de données d’accès
 
@@ -289,7 +289,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les cellules des lignes contenant user=Mary et une étiquette DEL-PERSON sont impactées. Dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar, et sa valeur de remplacement serait une chaîne commençant par « Privacy- » suivi d’un numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
+>Seules les cellules des lignes contenant user=Mary et une étiquette DEL-PERSON sont impactées. En outre, dans la pratique, la variable contenant A_ID serait probablement une prop ou un eVar. Sa valeur de remplacement serait une chaîne commençant par &quot;Privacy-&quot;, suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
 
 <table>
   <tr>
@@ -364,6 +364,6 @@ Prenez note des points suivants :
 
 * Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-DEVICE` ou `DEL-PERSON` sont impactées, ainsi que les cellules comportant une étiquette `DEL-DEVICE` sur les lignes contenant un identifiant visiteur (AAID) qui se produisait sur une ligne contenant `user=Mary`.
 * Le paramètre expandIDs ne s’étend pas à l’appel pour inclure des valeurs présentes dans MyEvar3, qui possède une étiquette ID-DEVICE, lorsque `user=Mary`. Développer les identifiants se développe uniquement pour inclure les identifiants visiteur (AAID dans cet exemple, mais également l’ECID) sur les lignes où `user=Mary`.
-* `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car celles-ci contiennent les mêmes valeurs d’identifiant visiteur que les première et deuxième lignes. Dès lors, l’extension d’ID les inclut pour les suppressions de niveau appareil.
-* Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. En revanche, après la suppression, la valeur N présente dans la dernière ligne ne correspond plus, car cette dernière n’a pas été mise à jour suite à la demande de suppression.
-* `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond dans les cinq premières lignes.
+* `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car celles-ci contiennent les mêmes valeurs d’identifiant visiteur que celles des première et deuxième lignes. Par conséquent, l’extension d’ID les inclut pour les suppressions au niveau de l’appareil.
+* Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. Cependant, après la suppression, elles ne correspondent plus à la valeur N qui apparaît dans la dernière ligne, car cette ligne n’a pas été mise à jour dans le cadre de la requête de suppression.
+* `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond sur les cinq premières lignes.
