@@ -5,9 +5,9 @@ title: Nouveautés d’Analysis Workspace
 feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ Nouvelles fonctionnalités au 20 février 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs appareils | Ce modèle montre l’efficacité de la CDA pour regrouper les visites et vous informe sur les dimensions et les mesures exclusives à la CDA. Une suite de rapports utilisant CDA est requise. Voir [Configuration d’Analytics sur l’ensemble des appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html) pour plus d’informations. |
+| Nouveau modèle Workspace pour les organisations qui utilisent Analytics sur plusieurs appareils | Ce modèle montre l’efficacité de la CDA pour regrouper les visites et vous informe sur les dimensions et les mesures exclusives à la CDA. Une suite de rapports utilisant CDA est requise. Voir [Configuration des analyses entre appareils](/help/components/cda/setup.md) pour plus d’informations. |
 | Nouvelles touches de raccourci dans Workspace | <ul><li>Réduire/Développer tous les panneaux : `alt + m`</li><li>Réduire/Développer le panneau actif : `alt + ctrl + m`</li><li>Rechercher dans le rail de gauche : `ctrl + /`</li><li>Accéder au panneau suivant : `alt + Right Key`</li><li>Accéder au panneau précédent : `alt + Left Key`</li></ul>[En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Autres optimisations apportées à Workspace | <ul><li>Lorsqu’un panneau ou une visualisation est déposé dans Workspace, le rail de gauche passera désormais automatiquement aux composants pour accélérer le processus.</li><li>Des actions sont maintenant disponibles pour les composants de modèle (par exemple, ils peuvent être balisés, marqués comme favoris ou approuvés).</li><li>Les listes de mesures et de segments filtrées proposent le bouton + pour ajouter un nouveau composant si vous ne trouvez pas ce dont vous avez besoin.</li></ul> |
 | Débogueur Workspace | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
