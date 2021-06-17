@@ -4,10 +4,10 @@ description: Comment utiliser et interpréter le panneau d’observateurs simult
 feature: Panneaux
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,6 @@ Un tableau à structure libre n’est pas disponible dans cet affichage.  Pour a
 | Puis-je exécuter la détection des anomalies ? | Non.  La détection des anomalies n’est pas disponible pour ce panneau. |
 | Pourquoi utiliser des visiteurs uniques plutôt que des sessions actives ? | L’utilisation de visiteurs uniques permet de supprimer les pics indésirables aux limites de l’affichage (où les sessions se terminent et commencent simultanément). |
 | Que signifie le fait d’avoir des observateurs simultanés avec une granularité supérieure à la minute ? | Avec une granularité supérieure à une minute, les observateurs simultanés représentent la somme des observateurs simultanés uniques pour toutes les minutes de cette période.  Par exemple, les observateurs simultanés avec une granularité au niveau de l’heure représentent la somme des observateurs simultanés uniques pour toutes les minutes de cette heure. |
-| Comme dois-je procéder pour afficher plus d’un jour avec la granularité au niveau de la minute ? | Pour accéder aux données avec une granularité au niveau de la minute sur une durée maximum d’un mois à la fois, vous pouvez utiliser les API Analytics 2.0. Pour plus d’informations, consultez [Obtenir les données de rapport JSON sur les observateurs simultanés avec les API Analytics 2.0](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html). |
 | Le panneau Espace de travail affiche-t-il les mêmes informations que le rapport sur les observateurs simultanés ? | Non.  Dans Analysis Workspace, les observateurs simultanés sont définis comme le nombre de visiteurs uniques qui visualisent votre flux de médias à un moment précis, quel que soit le nombre de sessions.<br><br>Cette mesure est différente de celle des observateurs simultanés dans la section Rapports, qui utilise les sessions simultanées actives.  L’utilisation de visiteurs uniques entraîne la suppression des pics indésirables aux limites de l’affichage, où les sessions se terminent et commencent en même temps. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
