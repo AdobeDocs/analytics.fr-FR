@@ -4,10 +4,10 @@ title: Publication de segments dans Experience Cloud
 feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 96%
+source-wordcount: '1325'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Les captures d’écran suivantes montrent comment récupérer l’UUID AAM sur 
 
 **Méthode 1 : utiliser Adobe Experience Cloud Debugger**
 
-1. Téléchargez et installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/analytics/implementation/testing-and-validation/debugger.html) dans Chrome Web Store.
+1. Téléchargez et installez [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) dans Chrome Web Store.
 1. Lancez le débogueur lors du chargement d’une page.
 1. Accédez à la section Audience Manager et recherchez l’UUID AAM défini sur la page du navigateur actuelle
 (`50814298273775797762943354787774730612` dans l’exemple ci-dessous).
