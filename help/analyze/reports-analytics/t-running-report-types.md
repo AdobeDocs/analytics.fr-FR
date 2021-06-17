@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.ad
 
 Les rapports de flux de page indiquent l’ordre dans lequel les visiteurs accèdent aux pages et parcourent votre site.
 
-Découvrez la nouvelle [visualisation Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
-
-Exécutez un rapport [Chemins](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html).
+Consultez la [visualisation Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace !
 
 Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
-
-![](assets/page_flow.png)
-
-Ce rapport se lit de gauche à droite, en commençant par la page sélectionnée. Les pages vues après la page sélectionnée sont illustrées comme une branche s’étendant vers la droite.
-
-Le pourcentage d’affichage de chaque page consécutive est indiqué en regard du nom de la page. La largeur de la ligne reliée à chaque page suivante représente ce pourcentage relatif.
-
-**[!UICONTROL Vues chemins]** : indique le nombre de fois où une page a été vue, selon un chemin spécifique indiqué.
-
-La politique de confidentialité pourrait, par exemple, générer un total de 10 000 pages vues, mais seulement 500 de ces pages ont été affichées immédiatement après la page d’accueil. On emploie alors le terme « vue chemin ».
-
-Le pourcentage relatif est représenté par la largeur relative de la ligne. Par défaut, ce rapport affiche cinq branches de deuxième niveau et cinq branches de troisième niveau. Vous pouvez développer le nombre de branches afin d’afficher jusqu’à dix branches de deuxième niveau et cinq branches de troisième niveau. Dans ce cas, la hauteur du rapport augmente et vous devrez certainement utiliser la fonction de défilement pour visualiser le graphique entier.
 
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ Consultez l’aide sur le [canal marketing](/help/components/c-marketing-channel
 
 ## Exécution d’un rapport Détection des anomalies {#task_4808C96327354D789C075823F5C3A049}
 
-Décrit comment interpréter les graphiques de mesures synthétiques et individuels de la détection des anomalies.
-
-Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
-
-**[!UICONTROL Rapports]** > **[!UICONTROL Mesures du site]** > **[!UICONTROL Détection des anomalies]**.
-
->[!NOTE]
->
->Vous pouvez également exécuter la détection des anomalies directement depuis les projets Analysis Workspace. [Plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-Pour plus d’informations sur la configuration de la détection des anomalies, voir le [Guide de référence](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
-
-La détection des anomalies présente deux types de graphiques : un graphique synthétique et des graphiques de mesures individuels. Les graphiques de mesures individuels ne s’affichent que si au moins une anomalie a été détectée pour la mesure.
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Type de graphique </p> </th> 
-   <th colname="col2" class="entry"> <p>Son utilité </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Graphique synthétique </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">Chaque carré représente une anomalie, suivie par jour, qui correspond à une mesure ci-dessous. </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">Le vert indique les anomalies se situant au-dessus de la ligne de tendance, le bleu en dessous. </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">Indique l’ampleur de l’anomalie : plus l’anomalie est grande, plus la couleur du point de données est foncée et plus il est éloigné de la ligne de tendance. </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">Cliquez sur des anomalies individuelles pour afficher le tableau de mesures individuelles de cette anomalie (sous le tableau récapitulatif). </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Les valeurs du pourcentage d’écart (à gauche du graphique) sont calculées comme suit : 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si les limites supérieures et la valeur attendue sont les mêmes, le % d’écart est de 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">Sinon, le % d’écart est égal à : ((valeur réelle - valeur limite supérieure) / (valeur limite supérieure - valeur attendue)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si les limites inférieures et la valeur attendue sont identiques, le % d’écart est de -100 % </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">Sinon, le % d’écart est ((valeur réelle inférieure - valeur réelle) / (valeur attendue - valeur limite inférieure)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Cliquez sur <span class="uicontrol">Afficher Segments</span> pour afficher le rail des segments à partir duquel vous pouvez appliquer des segments à un rapport de détection des anomalies. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  > Plus d’informations</a> sur la segmentation. </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">Cliquez sur <span class="uicontrol">Modifier des mesures</span> pour sélectionner et désélectionner des mesures pour lesquelles vous souhaitez détecter des anomalies. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Graphique de mesures individuel </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">Affiche des points de données anormaux pour des mesures de tendance spécifiques (notamment les mesures calculées) sous la forme de points. </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">Affiche l’anomalie la plus récente en haut, et effectue ensuite un classement par nombre d’anomalies. </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">Affiche une ligne continue pour indiquer les données réelles actuellement collectées. Cette ligne est comparée à la prévision et à la marge d’erreur afin de déduire si les points de données sont anormaux. </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">Affiche une ligne en pointillés qui représente une prévision basée sur les données historiques (c’est-à-dire la période de formation). </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">Affiche en gris les intervalles/limites de confiance à 95 % supérieurs et inférieurs. </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">Permet de réduire et développer des rapports individuels en cliquant sur la double flèche vers le haut ou vers le bas en regard du nom de la mesure. </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">Modifie l’ordre dans lequel les graphiques de mesures apparaissent en réagissant aux déroulements vers le bas dans le rapport d’aperçu (voir ci-dessus). </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">Permet de filtrer les graphiques en utilisant des termes de recherche, tels que « page » pour toutes les mesures relatives aux pages. </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">Permet d’afficher toutes les mesures que vous avez définies ou uniquement celles comportant des anomalies. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Configuration de la détection des anomalies {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-Étapes permettant de sélectionner des suites de rapports, des mesures et des périodes de formation/d’affichage pour la détection des anomalies.
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-Configurez la détection des anomalies indépendamment pour chaque suite de rapports.
-
-1. Accédez à **[!UICONTROL Analytics > Rapports > Mesures du site > Détection des anomalies]**.
-1. Sélectionnez la suite de rapports pour laquelle vous souhaitez suivre quotidiennement la détection des anomalies. Pour afficher une liste des suites de rapports, cliquez sur le menu déroulant du sélecteur de suite de rapports.
-1. Pour sélectionner les mesures et/ou définir des mesures filtrées, cliquez sur **[!UICONTROL Modifier des mesures]** dans la partie supérieure droite de l’écran :  ![](assets/metrics_icon.png).
-
-   Vous pouvez sélectionner des mesures dans la liste (y compris des mesures calculées) de toutes les mesures ou dans une liste de mesures suivies. Vous pouvez également filtrer des termes spécifiques afin de préciser les résultats. 1. Une fois le rapport généré, définissez la **[!UICONTROL période de formation]** et la **[!UICONTROL période d’affichage]** pour la détection des anomalies. (Considérez la période de formation en tant que « période d’apprentissage » pour l’algorithme.)
-
-   ![](assets/view_training_periods.png)
-
-   Gardez les éléments suivants à l’esprit :
-
-* la période de formation se termine juste avant que la période d’affichage ne commence ;
-* la valeur par défaut des deux périodes est de 30 jours et vous pouvez l’étendre à 60 ou 90 ;
-* l’extension de la période de formation place vos données dans un contexte plus étendu et peut réduire la taille d’une anomalie.
-
-   Le rapport des mesures de détection des anomalies s’actualise chaque fois que vous modifiez un paramètre.
-1. (Facultatif) Appliquez les segments au rapport en cliquant sur **[!UICONTROL Afficher les segments]** et en sélectionnant un ou plusieurs segments existants ou en créant un nouveau segment et en l’appliquant.
-
-   ![](assets/ad_top_menu.png)
-
-   Voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) pour en savoir plus sur la création et la gestion des segments. 1. (Facultatif) Définissez le rapport comme favori ou signet.
-1. (Facultatif) Modifiez la date de fin de la période d’affichage. La valeur par défaut est « hier ».
-1. Vous pouvez à présent commencer à interpréter le rapport. [Affichage des graphiques de détection des anomalies](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+Vous ne pouvez exécuter [la détection des anomalies et l’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) que dans Analysis Workspace.
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
 Décrit comment afficher et interpréter les rapports en temps réel.
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL Rapports > Mesures du site > Temps réel]**.
 
