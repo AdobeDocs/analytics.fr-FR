@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Concepts de base de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 Procédure d’exécution de différents types de rapports
 
-
 ## Exécution d’un rapport de classement {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 Dans un rapport de classement, le tableau du rapport présente le classement des pages du rapport par rapport à la mesure, en fonction du nombre ou du pourcentage. Ces rapports peuvent afficher plusieurs mesures.
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. Générez un rapport, tel qu’un [!UICONTROL Rapport Pages] (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**).
 1. Dans l’en-tête du rapport, cliquez sur **[!UICONTROL Classement]**.
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 Les rapports de tendances affichent les mesures au fil du temps. Utilisez ce type de rapport lorsque vous souhaitez comparer la performance d’un segment d’une période par rapport à une autre.
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 Pour la plupart des rapports de conversion et de trafic, une vue Tendance est disponible. L’outil [!UICONTROL Calendrier] permet d’afficher l’amélioration de la ventilation pour n’importe quelle période, y compris les jours d’un mois, les semaines de l’année, les semaines d’un trimestre, les mois de l’année, et ainsi de suite. Les rapports de tendances affichent les tendances relatives à une mesure unique (recettes, commandes, vues, etc.) de cinq éléments au maximum (par exemple, produits, catégories, pages web, etc.).
 
 **Pour exécuter un rapport de tendances**
@@ -50,29 +37,9 @@ Pour la plupart des rapports de conversion et de trafic, une vue Tendance est di
 1. Exécutez un rapport de conversion ou de trafic, tel que **[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
 1. Sous **[!UICONTROL Type de rapport]**, cliquez sur **[!UICONTROL Tendance]**.
 
-## Exécution d’un rapport Entonnoir de conversion {#task_B926A74AA6A641138C2986C1635120CB}
-
-Les rapports Entonnoir de conversion affichent le pourcentage des visiteurs qui passent par un ensemble d’événements pour effectuer l’action souhaitée. Vous pouvez, par exemple, afficher la progression des visiteurs qui passent de l’affichage de votre page web à l’ajout d’éléments dans un panier, puis à l’achat d’un élément. Il précise également le nombre d’utilisateurs qui abandonnent en cours de route.
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-Pour exécuter ce rapport, sélectionnez un rapport, par exemple un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Code de suivi]** > **[!UICONTROL Entonnoir de conversion de campagne]**).
-
-Pour obtenir une description, reportez-vous à la section [Rapports de conversion](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html).
-
 ## Exécution d’un rapport sur les abandons {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 Le [!UICONTROL rapport sur les abandons] indique le nombre de visiteurs qui ont consulté une séquence de pages prédéfinie. Il indique également les taux de conversions et d’abandons entre deux étapes.
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
@@ -85,11 +52,6 @@ Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.ad
 1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
    ![Résultat de l’étape](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [Description du rapport sur les abandons](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## Exécution d’un rapport de flux de page {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ La politique de confidentialité pourrait, par exemple, générer un total de 10
 
 Le pourcentage relatif est représenté par la largeur relative de la ligne. Par défaut, ce rapport affiche cinq branches de deuxième niveau et cinq branches de troisième niveau. Vous pouvez développer le nombre de branches afin d’afficher jusqu’à dix branches de deuxième niveau et cinq branches de troisième niveau. Dans ce cas, la hauteur du rapport augmente et vous devrez certainement utiliser la fonction de défilement pour visualiser le graphique entier.
 
-## Exécution d’un rapport Entonnoir {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-Vous pouvez sélectionner des événements de succès et les ajouter à un rapport [!UICONTROL Entonnoir de conversion d’achat] ou [!UICONTROL Entonnoir de conversion de produits].
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Produits]** > [Entonnoir de conversion de produits](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html).
-
 ## Exécution d’un rapport Canal marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
 Ce rapport fournit un aperçu de la première et de la dernière allocation de canal, avec des mesures de rapport standard telles que les recettes, les commandes et les coûts. Grâce à ces rapports, vous pouvez analyser combien de recettes sont générées par chaque canal.
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 Consultez l’aide sur le [canal marketing](/help/components/c-marketing-channels/analyze-mc.md) pour en savoir plus.
 
 ## Exécution d’un rapport Détection des anomalies {#task_4808C96327354D789C075823F5C3A049}
 
 Décrit comment interpréter les graphiques de mesures synthétiques et individuels de la détection des anomalies.
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 Découvrez les nouvelles fonctions de [détection des anomalies et d’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) d’Analysis Workspace.
 
