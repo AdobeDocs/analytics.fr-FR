@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alertes
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 94%
+source-wordcount: '838'
+ht-degree: 95%
 
 ---
 
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Alertes avec un logement ASI comme la suite de rapports </p> </td> 
    <td colname="col2"> <p>Vous ne pouvez plus créer ni modifier de logements ASI ; ils ne sont pas non plus disponibles dans Analysis Workspace. Ils ne sont donc pas pris en charge par les nouvelles alertes. </p> <p> </p> </td> 
-   <td colname="col3"> <p>Indisponibles dans le nouveau Gestionnaire d’alertes. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Alertes utilisant des mesures de participation </p> </td> 
-   <td colname="col2"> <p> Les <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >mesures de participation</a> sont disponibles dans Reports &amp; Analytics, mais ne sont actuellement pas disponibles dans le nouveau système d’alertes d’Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>Indisponibles dans le nouveau Gestionnaire d’alertes. </p> </td> 
   </tr> 
   <tr> 
