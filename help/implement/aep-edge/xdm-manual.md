@@ -2,10 +2,10 @@
 title: Mappage manuel des données XDM vers Analytics
 description: Mappage manuel des données XDM d’Experience Platform vers Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 84%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ Le SDK Web Adobe Experience Platform (AEP) comprend des aides vous permettant de
 
 Pour les données XDM qui ne sont pas automatiquement mappées vers Analytics, vous pouvez ajouter des [données contextuelles](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html) correspondant à votre [schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html). Elles peuvent ensuite être utilisées par les [règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) Analytics pour renseigner les variables Analytics.
 
-Vous pouvez également utiliser des listes de produits et un ensemble d’actions par défaut pour envoyer ou récupérer des données avec le SDK Web AEP. Pour ce faire, consultez [Produits](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html).
+Vous pouvez également utiliser un ensemble d’actions et de listes de produits par défaut pour envoyer ou récupérer des données avec le [SDK Web AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
 
 ## Données contextuelles
 
