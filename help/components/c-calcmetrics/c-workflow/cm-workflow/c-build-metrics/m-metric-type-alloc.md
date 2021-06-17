@@ -3,10 +3,10 @@ description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 
 >[!IMPORTANT]
 >
->En juillet 2018, [!DNL Analytics] a ajouté la nouvelle fonctionnalité [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), qui a revu la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
+>[Attribution ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ a révisé la manière dont les modèles d’attribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
 >* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
 >* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
@@ -72,9 +72,9 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 | PROMO C | 1,67$ | 0 $ | 2,50$ |
 | Total | 10,00$ | 10,00$ | 10,00$ |
 
-**Résumé du fonctionnement de l’affectation linéaire à partir du 19 juillet 2018**
+**Résumé du fonctionnement actuel de l’affectation linéaire**
 
-À compter du 19 juillet, nous avons corrigé ce comportement dans les mesures calculées. Au lieu d’utiliser les valeurs qui ont persisté sur la base de la dernière ou de la première touche, [!DNL Analytics] utilise maintenant uniquement les valeurs qui ont été passées (première ligne en haut du tableau). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ et C = 10 * (1/4) = 2,50 $.
+Au lieu d’utiliser les valeurs qui ont persisté sur la base de la dernière ou de la première touche, [!DNL Analytics] utilise maintenant uniquement les valeurs qui ont été passées (première ligne en haut du tableau). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ et C = 10 * (1/4) = 2,50 $.
 
 | Valeurs | Nouvelle eVar de dernière touche | Nouvelle eVar de première touche | Nouvelle Prop |
 |---|---|---|---|
