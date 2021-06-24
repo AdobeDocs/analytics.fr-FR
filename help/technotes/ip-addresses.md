@@ -2,9 +2,9 @@
 title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 31fa03e0d8bba457953e10aa537d22b2d69b84c1
+source-git-commit: 9a43b69bbb7d5a1c331740fff00242e4b1eb2b25
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -124,27 +124,15 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
-| Inde | `65.0.114.116` |
-| Inde | `65.0.115.179` |
-| Inde | `65.0.25.111` |
 | Inde | `3.7.24.204` |
 | Inde | `3.108.50.194` |
 | Inde | `3.108.177.136` |
-| Irlande | `18.202.158.78` |
-| Irlande | `54.72.205.114` |
-| Irlande | `54.78.36.71` |
 | Irlande | `54.220.133.225` |
 | Irlande | `54.74.170.177` |
 | Irlande | `54.195.254.128` |
-| Oregon | `44.233.255.254` |
-| Oregon | `44.237.54.118` |
-| Oregon | `44.238.157.95` |
 | Oregon | `54.212.155.93` |
 | Oregon | `52.10.149.115` |
 | Oregon | `52.40.172.46` |
-| Singapour | `52.220.116.94` |
-| Singapour | `52.76.68.91` |
-| Singapour | `54.179.114.68` |
 | Singapour | `54.255.88.178` |
 | Singapour | `52.220.235.10` |
 | Singapour | `3.1.237.132` |
@@ -154,12 +142,12 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | Tokyo | `3.113.78.189` |
 | Tokyo | `13.115.137.161` |
 | Tokyo | `54.178.162.114` |
-| Virginie | `3.213.168.181` |
-| Virginie | `3.219.249.186` |
+| Virginie | `18.205.241.19` |
+| Virginie | `44.194.25.77` |
 | Virginie | `3.220.129.153` |
 | Virginie | `18.206.109.10` |
 | Virginie | `18.211.197.67` |
-| Virginie | `34.227.41.189` |
+| Virginie | `52.0.93.32` |
 | Virginie | `34.228.124.176` |
 | Virginie | `54.90.190.103` |
 | Virginie | `54.174.149.161` |
