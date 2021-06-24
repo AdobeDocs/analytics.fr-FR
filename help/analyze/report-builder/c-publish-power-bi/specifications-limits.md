@@ -4,14 +4,13 @@ title: Limitations et spécifications
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # Limitations et spécifications
 
@@ -38,7 +37,7 @@ La modification d’une requête du Report Builder après sa publication sur Pow
    **Voici un exemple de la façon dont la visualisation SERA corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
-   2. Planifiez la publication de cette demande au Power BI.
+   2. Planifiez la publication de cette requête sur Power BI.
    3. Dans Power BI, créez une visualisation pour Page et Pages vues.
    4. Maintenant, modifiez le classeur en supprimant Pages vues de la requête.
    5. Modifiez la planification avec le classeur mis à jour et republiez la requête sur Power BI.
@@ -71,6 +70,5 @@ Par défaut, le nom sera renseigné à partir du nom de fichier du classeur (san
 Gardez à l’esprit que :
 
 * L’intitulé ne peut pas être une combinaison de lettres et de nombres qui pourrait être confondue avec une adresse de ligne et de colonne. Par exemple, A100 ne peut pas être un intitulé car il s’agit de l’adresse d’une cellule de feuille de calcul.
-* Les caractères suivants ne sont pas des caractères d’intitulé valides : ’#’, ’@’, ’!’, ’$’, ’^’, ’&amp;’, ’*’, ’`’, ’~’, ’ ’ . Ils seront remplacés par un caractère de soulignement.
+* Les caractères suivants ne sont pas des caractères de libellé valides : `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; et `'~', ' '` . Ils sont remplacés par un caractère de soulignement.
 * Lorsque vous entrez un nom incorrect, un message d’avertissement s’affiche pour vous suggérer un nom généré automatiquement. Si vous cliquez sur **[!UICONTROL Oui]**, ce nom sera utilisé. Si vous cliquez sur **[!UICONTROL Non]**, l’interface utilisateur de l’Assistant Options avancées vous permet d’entrer le nouveau nom.
-
