@@ -2,10 +2,10 @@
 title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 9a43b69bbb7d5a1c331740fff00242e4b1eb2b25
+source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -136,18 +136,12 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | Singapour | `54.255.88.178` |
 | Singapour | `52.220.235.10` |
 | Singapour | `3.1.237.132` |
-| Tokyo | `18.182.161.178` |
-| Tokyo | `54.168.58.167` |
-| Tokyo | `54.178.61.109` |
 | Tokyo | `3.113.78.189` |
 | Tokyo | `13.115.137.161` |
 | Tokyo | `54.178.162.114` |
 | Virginie | `18.205.241.19` |
 | Virginie | `44.194.25.77` |
-| Virginie | `3.220.129.153` |
-| Virginie | `18.206.109.10` |
-| Virginie | `18.211.197.67` |
 | Virginie | `52.0.93.32` |
-| Virginie | `34.228.124.176` |
-| Virginie | `54.90.190.103` |
-| Virginie | `54.174.149.161` |
+| Virginie | `3.216.131.23` |
+| Virginie | `34.204.237.47` |
+| Virginie | `54.163.234.74` |
