@@ -5,9 +5,9 @@ feature: Outils d’administration
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,6 +56,6 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports &amp; 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer et afficher le rapport]**.
 
-   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=fr).
 
 1. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
