@@ -5,9 +5,9 @@ feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Une fois votre connexion effectuée, votre première étape doit être le tutori
 
 ## Créer un nouveau projet {#new-project}
 
-Une fois le tutoriel terminé, vous êtes prêt à commencer à créer votre premier projet. La **fenêtre modale du nouveau projet** vous offre différentes options pour démarrer votre analyse. Vous pouvez choisir de commencer à partir d’un projet vide ou à partir d’une [fiche d’évaluation mobile vide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html), selon que vous prévoyez de partager votre analyse à partir du navigateur ou de l’application mobile des tableaux de bord Adobe Analytics.
+Une fois le tutoriel terminé, vous êtes prêt à commencer à créer votre premier projet. La **fenêtre modale du nouveau projet** vous offre différentes options pour démarrer votre analyse. Vous pouvez choisir de commencer à partir d’un projet vide ou à partir d’une [fiche d’évaluation mobile vide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr), selon que vous prévoyez de partager votre analyse à partir du navigateur ou de l’application mobile des tableaux de bord Adobe Analytics.
 
 ![](assets/create-new-project.png)
 
@@ -45,7 +45,7 @@ Dans votre projet Workspace, **les panneaux, les tableaux, les visualisations et
 
 ### Composants
 
-Les **composants** sont les dimensions, les mesures, les segments ou les périodes, et ils peuvent tous être combinés dans un **[!UICONTROL tableau à structure libre]** pour commencer à répondre à la question que vous vous posez. Veillez à vous familiariser avec chaque [type de composant](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) avant de poursuivre votre analyse. Une fois que vous maîtrisez la terminologie des composants, vous pouvez commencer à faire glisser et à déposer des éléments pour [créer votre analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) dans un **[!UICONTROL tableau à structure libre]**.
+Les **composants** sont les dimensions, les mesures, les segments ou les périodes, et ils peuvent tous être combinés dans un **[!UICONTROL tableau à structure libre]** pour commencer à répondre à la question que vous vous posez. Veillez à vous familiariser avec chaque [type de composant](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) avant de poursuivre votre analyse. Une fois que vous maîtrisez la terminologie des composants, vous pouvez commencer à faire glisser et à déposer des éléments pour [créer votre analyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=fr) dans un **[!UICONTROL tableau à structure libre]**.
 
 ![](assets/build-components.png)
 
@@ -63,5 +63,5 @@ Les **panneaux** permettent d’organiser votre analyse au sein d’un projet et
 
 ## Ressources supplémentaires {#resources}
 
-* Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html).
+* Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=fr).
 * Voir [Nouveautés d’Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) pour des mises à jour des nouvelles fonctionnalités.
