@@ -3,9 +3,9 @@ title: Autorisations du profil de produit pour les outils de suites de rapports
 description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -47,10 +47,10 @@ Utilisez cette page pour comprendre chaque élément d’autorisation sous Outil
 | Visites retours | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | Classifications | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic > Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion > Hiérarchies des classifications<br>Canaux marketing > Classifications des canaux marketing<br>Gestion des applications > Classifications des applications<br>Gestion des médias > Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
 | Mes rapports recommandés | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
-| Mini-rapport d’image du tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
-| Petit rapport Évaluation des mesures du tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
-| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
-| Petit rapport Texte de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
-| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
-| Petit rapport externe de tableau de bord Reports &amp; Analytics | Accorde l’accès aux mini-rapports de tableau de bord. |
+| Petit rapport d’image du tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
+| Petit rapport de jauge des mesures du tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
+| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
+| Petit rapport Texte de tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
+| Petit rapport récapitulatif de la suite de rapports de tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
+| Petit rapport externe de tableau de bord Reports &amp; Analytics | Accorde l’accès aux petits rapports de tableau de bord. |
 | API de réparation des données | Accorde l’accès à l’API Data Repair |
