@@ -7,7 +7,7 @@ uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
 1. (Condition préalable) Définissez la structure de classification sous **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Voir [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
+   (Voir [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
 
    Les variables s’affichent dans le panneau [!UICONTROL Nouveau jeu de règles] uniquement une fois qu’au moins une classification est définie pour la variable.
 
