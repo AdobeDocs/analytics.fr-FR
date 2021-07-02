@@ -5,9 +5,9 @@ feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,6 +65,6 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais un libellé de suite de rapports indiquant :
 
-   * L’emplacement de création d’un segment : [Créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * L’emplacement de création d’une mesure calculée : [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * L’emplacement de création d’une alerte : [Générateur d’alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html).
+   * L’emplacement de création d’un segment : [Créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
+   * L’emplacement de création d’une mesure calculée : [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
+   * L’emplacement de création d’une alerte : [Générateur d’alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=fr).
