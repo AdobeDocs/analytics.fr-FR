@@ -5,7 +5,7 @@ exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,9 +121,9 @@ Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche p
 
 ![](assets/example_paid_search.png)
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) dans l’aide destinée à l’administration.
+Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=fr) dans l’aide destinée à l’administration.
 
-### Recherche naturelle    {#natural-search}
+### Recherche naturelle   {#natural-search}
 
 Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
 
@@ -157,7 +157,7 @@ Une bonne pratique consiste à inclure un canal « Autres campagnes » qui sui
 
 ![](assets/other-campaigns.png)
 
-### Réseaux sociaux    {#social-networks}
+### Réseaux sociaux   {#social-networks}
 
 Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook;. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
 
@@ -169,7 +169,7 @@ Cette règle s’applique aux visiteurs dont l’URL de référence correspond a
 
 ![](assets/int-channel1.png)
 
-Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal).
+Pour plus d’informations sur ce canal, consultez [Raisons d’utiliser le canal interne (actualisation de session)](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=fr#internal).
 
 ### Direct  {#direct}
 
