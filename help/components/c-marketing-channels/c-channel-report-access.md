@@ -3,9 +3,9 @@ description: Cette procédure décrit l’exécution du rapport Canal marketing,
 title: Autorisations des Canaux marketing
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ Voici les autorisations des outils de la suite de rapports nécessaires dans l�
 | Outils Analytics | Accès à Analysis Workspace | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (recommandé) ou à l’accès à Reports &amp; Analytics pour utiliser les dimensions des Canaux marketing dans Workspace. |
 | Outils Analytics | Accès à Reports &amp; Analytics | Octroie l’accès à Reports &amp; Analytics. Les utilisateurs doivent appartenir à ce groupe ou disposer d’un accès à Analysis Workspace (recommandé) pour utiliser Adobe Analytics. |
 
-Pour plus d’informations sur les profils de produits et les autorisations Adobe Analytics dans l’Admin Console, accédez à [ce lien](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html).
+Pour plus d’informations sur les profils de produits et les autorisations Adobe Analytics dans l’Admin Console, accédez à [ce lien](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr).
