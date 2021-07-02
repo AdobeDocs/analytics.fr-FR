@@ -4,9 +4,9 @@ title: Prise en charge multidevise
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ Les codes de devise cible sont définis à trois niveaux :
 
 ## Niveau de page
 
-Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
+Vous pouvez définir une variable JavaScript pour la devise cible au niveau de la page. Le propriétaire du site définit cette variable avec le code de devise ISO 4217 à trois lettres approprié (comme indiqué ci-dessous dans ce document). Si la variable [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=fr) n’est pas définie à ce niveau, la devise par défaut est la même que celle spécifiée dans la suite de rapports. Si la variable au niveau de la page est en conflit avec la variable spécifiée dans la suite de rapports, la variable dans la suite de rapports est prioritaire.
 
 
 ## Niveau de la suite de rapports
 
-La **devise de base** est spécifiée lors de la [création de suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html). Ce paramètre de devise par défaut est prioritaire sur les codes de devise définis au niveau de la page. Par conséquent, si une suite de rapports inclut des commandes qui acceptent les dollars américains, l’euro et la livre sterling, et si, dans la suite de rapports, le code de devise par défaut est défini sur les dollars américains, la base de données dorsale de rapports traduit toutes les transactions en dollars américains.
+La **devise de base** est spécifiée lors de la [création de suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=fr). Ce paramètre de devise par défaut est prioritaire sur les codes de devise définis au niveau de la page. Par conséquent, si une suite de rapports inclut des commandes qui acceptent les dollars américains, l’euro et la livre sterling, et si, dans la suite de rapports, le code de devise par défaut est défini sur les dollars américains, la base de données dorsale de rapports traduit toutes les transactions en dollars américains.
 
 Les rapports marketing utilisent le taux de change en vigueur au moment de la demande d’image afin de traduire les valeurs en devise au niveau de la page en valeurs dans la devise par défaut de la suite de rapports. Les suites de rapports utilisent le dollar américain comme devise par défaut.
 
