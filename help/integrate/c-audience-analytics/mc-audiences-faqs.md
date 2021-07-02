@@ -5,9 +5,9 @@ title: Questions fréquentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">Si des adresses postales ou électroniques sont contenues dans une entité prop ou eVar, envisagez d’effectuer un hachage des données lors de la collecte. </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Si votre pays considère l’adresse IP comme une information personnelle, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >activez la dissimulation d’adresses IP </a>. </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">Si votre pays considère l’adresse IP comme une information personnelle, <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=fr"  >activez la dissimulation d’adresses IP </a>. </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">Pour voir les données recueillies, adressez-vous à votre administrateur Analytics. </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">Contactez votre service juridique pour savoir ce qu’il considère comme des informations d’identification personnelle. </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Q : Comment créer une destination Analytics dans Audience Manager ?</b> </p> </td> 
-   <td colname="col2"> Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >Configuration d’une destination Analytics dans AAM</a>. </td> 
+   <td colname="col2"> Reportez-vous à la section <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr"  >Configuration d’une destination Analytics dans AAM</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Une fois une destination Analytics créée et enregistrée, combien de temps faut-il pour que les données apparaissent dans mes suites de rapports sélectionnées ?</b> </p> </td> 
