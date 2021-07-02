@@ -4,9 +4,9 @@ title: Traitement des composants des suites de rapports virtuelles
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,4 +71,4 @@ Utilisez les groupes de composants pour ajouter des composants en vrac à la sui
 
 ## Comportement de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html).
+Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
