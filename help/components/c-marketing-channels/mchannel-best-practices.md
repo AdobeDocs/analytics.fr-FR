@@ -2,9 +2,9 @@
 title: Les bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analytics
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution IQ et Customer Journey Analytics
 source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ Lorsque les canaux marketing ont été introduits pour la première fois, ils ne
 
 ## Bonne pratique n° 1 : utiliser Attribution IQ pour une analyse contrôlée
 
-Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) au lieu de l’attribution de canal marketing existante pour affiner votre analyse de ce dernier. Suivez les autres bonnes pratiques pour garantir la cohérence et la fiabilité des contrôles de vos analyses avec Attribution IQ.
+Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=fr#analysis-workspace) au lieu de l’attribution de canal marketing existante pour affiner votre analyse de ce dernier. Suivez les autres bonnes pratiques pour garantir la cohérence et la fiabilité des contrôles de vos analyses avec Attribution IQ.
 
 ![](assets/attribution.png)
 
-* La configuration des dimensions Canal marketing et Détails du canal marketing établit les points de contact à évaluer, correspondant à chaque instance de canal marketing.
+* La configuration des dimensions Canal marketing et Détails du canal marketing établit les points de contact à évaluer, en fonction de chaque instance du canal marketing.
 * Pour l’analyse des mesures, votre organisation doit s’aligner sur un ou plusieurs modèles d’attribution. Enregistrez les mesures personnalisées avec ce modèle pour une réutilisation facile.
 * Par défaut, les données sont attribuées à l’aide de la Dernière touche et du paramètre de la période d’engagement des visiteurs. Les modèles de mesure Attribution IQ offrent un meilleur contrôle sur les intervalles de recherche en amont et une plus grande variété, y compris [l’attribution algorithmique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=fr#analysis-workspace).
 
@@ -33,7 +33,7 @@ Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.ad
 
 Les canaux Direct et Interne/Actualisation de session ne sont pas recommandés pour une utilisation avec des modèles d’attribution personnalisés (Attribution IQ).
 
-Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=en) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution IQ que si ces canaux n’avaient jamais été configurés.
+Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html?lang=fr) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution IQ que si ces canaux n’avaient jamais été configurés.
 
 ![](assets/direct-session-refresh.png)
 
