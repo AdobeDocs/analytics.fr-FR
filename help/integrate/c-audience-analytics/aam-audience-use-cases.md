@@ -4,9 +4,9 @@ title: Cas d’utilisation d’Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ En tant qu’entreprise de voyages, vous pouvez rapidement superposer les préf�
 
 ## Modélisation analogue  {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-En tant qu’éditeur multimédia, vous pouvez comparer vos audiences de tierce partie à l’aide de l’outil [Segment IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) pour comprendre les principales caractéristiques de différenciation. Cela permet des créer des segments de première partie à forte valeur ajoutée que vous pouvez ensuite utiliser pour le ciblage.
+En tant qu’éditeur multimédia, vous pouvez comparer vos audiences de tierce partie à l’aide de l’outil [Segment IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=fr) pour comprendre les principales caractéristiques de différenciation. Cela permet des créer des segments de première partie à forte valeur ajoutée que vous pouvez ensuite utiliser pour le ciblage.
 
 ## Analyse des prospects  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-En tant que détaillant interentreprises, vous pouvez désormais analyser en profondeur le comportement de votre audience cible avant qu’ils n’effectuent un achat à l’aide de la [segmentation séquentielle](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html), qui vous aide à comprendre quelles actions favorisent la conversion.
+En tant que détaillant interentreprises, vous pouvez désormais analyser en profondeur le comportement de votre audience cible avant qu’ils n’effectuent un achat à l’aide de la [segmentation séquentielle](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=fr), qui vous aide à comprendre quelles actions favorisent la conversion.
 
 ## Ciblage démographique  {#section_F034DB721A06419283DBD29D4A1B444B}
 
-En tant que station de villégiature, vous pouvez utiliser la fonction [Histogrammes d’Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html) pour afficher la distribution des achats par tranche d’âge. Vous pouvez ainsi identifier l’audience idoine à cibler pour chacune des propriétés de votre station.
+En tant que station de villégiature, vous pouvez utiliser la fonction [Histogrammes d’Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=fr) pour afficher la distribution des achats par tranche d’âge. Vous pouvez ainsi identifier l’audience idoine à cibler pour chacune des propriétés de votre station.
