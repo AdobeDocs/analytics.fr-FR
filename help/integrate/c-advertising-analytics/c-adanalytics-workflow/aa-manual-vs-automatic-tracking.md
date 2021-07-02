@@ -3,9 +3,9 @@ description: Le suivi détermine la façon dont les données du moteur de recher
 title: Suivi en mode manuel et mode automatique
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Notez que pour configurer un compte de moteur de recherche en « mode automatiq
 
 >[!IMPORTANT]
 >
->Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html).
+>Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=fr).
 
 ## Suivi en mode manuel  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
