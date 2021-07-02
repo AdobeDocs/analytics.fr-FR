@@ -1,39 +1,39 @@
 ---
-description: Découvrez comment mettre en oeuvre le balisage multisuite pour envoyer une demande d’image à plusieurs suites de rapports.
+description: Découvrez comment mettre en œuvre le balisage multisuite afin dʼenvoyer une demande dʼimage à plusieurs suites de rapports.
 title: Implémentation du balisage multisuite
 exl-id: null
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Implémentation du balisage multisuite
 
-[Le ](/help/admin/c-manage-report-suites/rollup-report-suite.md) balisage multisuite vous permet d’envoyer des demandes d’image non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin que vous puissiez fournir des sous-ensembles des données de suite de rapports globale de votre entreprise à différents utilisateurs finaux.
+[Le balisage multisuite](/help/admin/c-manage-report-suites/rollup-report-suite.md) permet dʼenvoyer des demandes dʼimage non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin de pouvoir fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux.
 
-Pour implémenter le balisage multisuite, vous devez inclure l’identifiant de suite de rapports (RSID) pour la suite de rapports globale, ainsi que les RSID pour les suites de rapports enfants applicables dans le code de suivi de vos pages web et applications.
+Pour implémenter le balisage multisuite, vous devez inclure lʼidentifiant de suite de rapports (RSID) pour la suite de rapports globale, ainsi que les RSID pour les suites de rapports enfants applicables dans le code de suivi de vos pages web et applications.
 
-* Pour les implémentations Adobe Experience Platform Launch, spécifiez chacune des suites de rapports pour l’[[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html).
+* Pour les implémentations Adobe Experience Platform Launch, spécifiez chacune des suites de rapports pour lʼ[[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=fr).
 
 * Pour les implémentations JavaScript et SDK mobiles héritées, séparez les RSID par des virgules, sans espaces (`rsid1,rsid2,rsid3`, etc.).
 
-* Pour les autres types d’implémentation, utilisez la syntaxe requise pour répertorier plusieurs RSID.
+* Pour les autres types dʼimplémentation, utilisez la syntaxe requise pour répertorier plusieurs RSID.
 
 >[!TIP]
 >
-> La bonne pratique consiste à répertorier d’abord l’identifiant global de suite de rapports ou de suite de rapports.
+> Il est recommandé de répertorier dʼabord lʼidentifiant de suite de rapports globale ou lʼidentifiant de suite de rapports.
 
-Le balisage multisuite génère plusieurs appels serveur pour chaque demande d’image : un appel Principal à la suite de rapports globale et un appel secondaire pour chaque suite de rapports enfant.
+Le balisage multisuite entraîne plusieurs appels au serveur pour chaque demande dʼimage : un appel principal à la suite de rapports globale et un appel secondaire pour chaque suite de rapports enfant.
 
 >[!NOTE]
 >
-> [Les suites de rapports virtuelles](/help/components/vrs/vrs-about.md), qui vous permettent également de fournir des sous-ensembles des données de suite de rapports globale de votre entreprise à différents utilisateurs finaux, n’impliquent pas d’appels au serveur secondaire.
+> [Les suites de rapports virtuelles](/help/components/vrs/vrs-about.md), qui permettent également de fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux, nʼentraînent pas dʼappels au serveur secondaire.
 
 ## Dois-je implémenter le balisage multisuite ou les suites de rapports virtuelles ?
 
-L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais les besoins de votre entreprise déterminent la meilleure approche de suite de rapports pour votre entreprise.
+Il est recommandé dʼutiliser les suites de rapports virtuelles au lieu du balisage multisuite, mais ce sont les besoins de votre entreprise qui détermineront la suite de rapports à adopter.
 
-Pour savoir si les suites de rapports virtuelles constituent votre meilleure approche, voir &quot;[Suites de rapports virtuelles et considérations sur le balisage multisuite](/help/components/vrs/vrs-considerations.md)&quot;. Voir aussi &quot;[Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; pour une comparaison du balisage multisuite et de la fonctionnalité des suites de rapports virtuelles.
+Pour savoir si les suites de rapports virtuelles constituent lʼoption la plus adaptée à vos besoins, consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) ». Consultez également la section « [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) » afin dʼafficher une comparaison des fonctionnalités du balisage multisuite et des suites de rapports virtuelles.
