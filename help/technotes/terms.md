@@ -3,9 +3,9 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2429'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Corrélation :** terme remplacé par ventilations de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Données actives :** option de certains rapports permettant d’inclure des données récemment collectées qui n’ont pas encore été totalement traitées. Voir [Données actives](/help/analyze/reports-analytics/current-data.md) dans le guide d’utilisation Analyser.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
-* **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) dans le guide d’utilisation des services principaux.
+* **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
 * **Délégué du service clientèle :** utilisateur désigné autorisé à interagir directement avec le service clientèle d’Adobe. Voir [Délégués du service clientèle](https://helpx.adobe.com/fr/experience-cloud/supported-users.html) dans la base de connaissances d’Experience Cloud.
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
 * **Connecteurs de données :** solution de développement complète qui permet à un tiers d’automatiser le téléchargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. La plupart des connecteurs de données utilisent un processus similaire mis en œuvre dans les sources de données. Voir Data Connectors dans le guide d’utilisation de l’importation.
@@ -65,7 +65,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * À Custom Insight, le nom historique de la variable de trafic personnalisée.
 * **IPC :** abréviation d’indicateurs clés de performance. Mesures qui aident une entreprise à comprendre les performances de son site. Chaque organisation a des IPC différents qui mesurent divers aspects de son activité. Voir [Création d’un document de conception de solution](/help/implement/prepare/solution-design.md) dans le guide d’utilisation de la mise en œuvre.
 * **Latence :** délai entre le moment où les données sont collectées et celui où elles sont disponibles dans les rapports. La latence type dans une suite de rapports est de 30 à 90 minutes. Voir [Latence](/help/technotes/latency.md) dans le guide d’utilisation des notes techniques.
-* **Launch :** synonyme d’Adobe Experience Platform Launch, la solution de mise en œuvre actuelle d’Adobe. Voir [Présentation](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html) dans le guide d’utilisation d’Adobe Experience Platform Launch.
+* **Launch :** synonyme d’Adobe Experience Platform Launch, la solution de mise en œuvre actuelle d’Adobe. Voir [Présentation](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=fr) dans le guide d’utilisation d’Adobe Experience Platform Launch.
 * **Props de liste :** paramètre qui convertit une variable de trafic standard afin de prendre en charge plusieurs valeurs dans le même accès. Toute variable de trafic personnalisée peut devenir une prop de liste si le paramètre est activé. Voir [prop](../implement/vars/page-vars/prop.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de liste :** variable distincte des variables de conversion. Les variables de liste prennent en charge plusieurs valeurs dans un même accès et les valeurs de variable sont conservées au cours d’une même visite, comme les variables de conversion. Seules trois variables list sont disponibles pour une organisation. Voir [list](/help/implement/vars/page-vars/list.md) dans le guide d’utilisation de la mise en œuvre.
 * **Connexion de société :** collection de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation.
