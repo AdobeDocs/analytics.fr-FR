@@ -6,9 +6,9 @@ feature: Visualisations
 role: Business Practitioner, Administrator
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Elle vous offre les possibilités suivantes :
 >
 >Pour en savoir plus sur les différences de résultats de l’application des segments au flux entre Analysis Workspace et Reports &amp; Analytics, consultez [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Tutoriel vidéo sur la visualisation des flux](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
+[Tutoriel vidéo sur la visualisation des flux](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=fr) (4:56)
 
 ## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
