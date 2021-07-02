@@ -3,9 +3,9 @@ title: Durée de session moyenne (mobile)
 description: Durée de session moyenne de l’appareil mobile.
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,4 +15,4 @@ La mesure « Durée de session moyenne (mobile) » indique la durée moyenne d
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est calculée à l’aide des [mesures mobiles](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html) `'Total session length' / ('Launches' - 'First launches'`.
+Cette mesure est calculée à l’aide des [mesures mobiles](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr) `'Total session length' / ('Launches' - 'First launches'`.
