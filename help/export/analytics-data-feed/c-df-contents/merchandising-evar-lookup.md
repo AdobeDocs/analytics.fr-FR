@@ -1,19 +1,19 @@
 ---
 title: Recherche d’instances d’eVar de marchandisage dans post_product_list
-description: Recherchez l’instance eVar de marchandisage pour chaque valeur de recherche dans la colonne post_product_list d’un flux de données.
+description: Recherchez l’instance d’eVar de marchandisage pour chaque valeur de recherche dans la colonne post_product_list d’un flux de données.
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Recherche d’instances d’eVar de marchandisage dans post_product_list
 
-Dans les flux de données, la colonne [post_product_list](datafeeds-reference.md) peut contenir les instances d’eVar de marchandisage. Chaque eVar est représenté par un nombre.
+Dans les flux de données, la colonne [post_product_list](datafeeds-reference.md) peut contenir les instances d’eVar de marchandisage. Chaque eVar est représentée par un nombre.
 
-La recherche d’instance de l’eVar de marchandisage pour post_product_list est différente de la colonne de recherche event_list dans le flux de données.
+La recherche d’instance d’eVar de marchandisage pour post_product_list est différente de la colonne de recherche event_list dans le flux de données.
 
 | Valeur de recherche | Instance de marchandisage |
 |--- |--- |
@@ -217,7 +217,7 @@ La recherche d’instance de l’eVar de marchandisage pour post_product_list es
 | 1297 | eVar198 |
 | 1298 | eVar199 |
 | 1299 | eVar200 |
-| 1 300 | eVar201 |
+| 1300 | eVar201 |
 | 1301 | eVar202 |
 | 1302 | eVar203 |
 | 1303 | eVar204 |
