@@ -6,9 +6,9 @@ feature: Outils d’IA
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
    * Visualisation qui présente le nombre de **Visites** ce jour-là.
    * **Ligne de tendance des visites** mensuelle en fonction du contexte.
-   * Les **principaux éléments** à l’origine de cette anomalie, triés par [note de contribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html), plus la mesure en question, ainsi qu’une mesure Visiteurs uniques qui replace la mesure dans son contexte du point de vue de la taille.
+   * Les **principaux éléments** à l’origine de cette anomalie, triés par [note de contribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr), plus la mesure en question, ainsi qu’une mesure Visiteurs uniques qui replace la mesure dans son contexte du point de vue de la taille.
 
-   * Le tableau [Segments générés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
+   * Le tableau [Segments générés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
 
       ![](assets/auto_segment.png)
 
