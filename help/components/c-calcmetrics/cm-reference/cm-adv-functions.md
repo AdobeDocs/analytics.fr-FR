@@ -4,9 +4,9 @@ title: 'Référence : fonctions avancées'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2909'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Voici comment cette mesure pourrait être utilisée dans les rapports :
 
 ### Valeurs uniques dépassées {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
+Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soumises aux [limites « Valeurs uniques dépassées »](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html?lang=fr). Si la limite « Valeurs uniques dépassées » est atteinte au cours d’un mois spécifique pour une dimension, la valeur est comptée en tant que 1 élément de dimension.
 
 ### Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
