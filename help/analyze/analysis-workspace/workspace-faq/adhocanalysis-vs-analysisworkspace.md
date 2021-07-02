@@ -3,9 +3,9 @@ description: Terminologie et tâches d’Ad Hoc Analysis comparées à celles d�
 title: Comparaison entre Analysis Workspace et Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Terminologie et tâches d’Ad Hoc Analysis comparées à celles d’Analysis W
 
 La plupart des fonctions d’Ad Hoc Analysis sont accessibles par navigateur dans Analysis Workspace. Toutefois, si la terminologie et les fonctions des deux produits restent identiques, en partie du moins, Analysis Workspace introduit de nouveaux termes et de nouvelles approches en matière d’analyses.
 
-Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/analytics-product-comparison.html) pour consulter une comparaison technique des fonctions clés et de la configuration système requise de ces deux produits.
+Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/analytics-product-comparison.html?lang=fr) pour consulter une comparaison technique des fonctions clés et de la configuration système requise de ces deux produits.
 
 ## Comparaison de la terminologie clé {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -56,11 +56,11 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
      <li id="li_F2E050902F9A4831BBA57F466E07DEAE">Au <b>niveau du panneau</b>, ce qui applique les segments à toutes les visualisations du panneau. Ceci revient à appliquer un segment à un Workspace dans Ad Hoc Analysis. </li> 
      <li id="li_2D88E43E0161485C95B08DC3C593EFD9">Sous forme de <b>lignes d’un tableau</b>. Ceci revient à ajouter des segments à la section Lignes/ventilations du Générateur de tableau dans Ad Hoc Analysis. </li> 
      <li id="li_102E1A1DAA9247C08FC46C5AB3D78113">Sous forme de <b>colonnes d’un tableau</b>. Ceci revient à ajouter des segments à la section Colonnes du Générateur de tableau dans Ad Hoc Analysis ou à appliquer un segment au niveau du rapport dans Ad Hoc Analysis. </li> 
-    </ol> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project.html"  > Vidéo : Utilisation de segments dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/panel-level-segments.html"  > Vidéo : Application de segments dans un panneau</a> </p> </td> 
+    </ol> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project.html?lang=fr"  > Vidéo : Utilisation de segments dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/panel-level-segments.html"  > Vidéo : Application de segments dans un panneau</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Créer des segments temporaires (« ad hoc ») </p> </td> 
-   <td colname="col2"> <p>Vous pouvez <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >créer des segments instantanés et temporaires (« ad hoc »)</a> dans Analysis Workspace en faisant glisser les éléments de dimension sur la zone de dépôt des segments en haut du panneau. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt du panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions contrôlées avec le projet. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > Vidéo : Filtres déroulants dans Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>Vous pouvez <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >créer des segments instantanés et temporaires (« ad hoc »)</a> dans Analysis Workspace en faisant glisser les éléments de dimension sur la zone de dépôt des segments en haut du panneau. De plus, il est possible d’ajouter des filtres déroulants dans la zone de dépôt du panneau pour créer plusieurs segments temporaires en même temps, ce qui permet d’activer des interactions contrôlées avec le projet. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html?lang=fr"  > Vidéo : Segments ad hoc dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > Vidéo : Filtres déroulants dans Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Choisir les plages de dates et les granularités </p> </td> 
@@ -69,7 +69,7 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
      <li id="li_58FAE6A87B494A5C9007CD35BB101608">Les plages de dates peuvent être appliquées aux colonnes et aux lignes ; elles remplacent la plage de dates sélectionnée dans le panneau. Cela est identique aux plages de dates au niveau du rapport. </li> 
      <li id="li_85BB89EFF9C8466A992815BB7804EA37">Cliquez sur Appliquer pour appliquer une plage de dates à toutes les visualisations d’un panneau. Cela est identique aux plages de dates d’un Workspace dans Ad Hoc Analysis. </li> 
      <li id="li_BC18564A8FBB48F4A522BCAC60838759">Cliquez sur Appliquer à tous les panneaux pour appliquer une plage de dates à tous les panneaux d’un projet Analysis Workspace. Cela est identique aux plages de dates d’un projet dans Ad Hoc Analysis. </li> 
-    </ol> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html"  > Vidéo : Utilisation des dates dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/creating-custom-date-ranges-in-analysis-workspace.html"  > Vidéo : Plages de dates personnalisées</a> </p> </td> 
+    </ol> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=fr"  > Vidéo : Utilisation des dates dans Analysis Workspace</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/creating-custom-date-ranges-in-analysis-workspace.html?lang=fr"  > Vidéo : Plages de dates personnalisées</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utiliser les abandons et les entonnoirs de conversion </p> </td> 
@@ -78,7 +78,7 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Les abandons peuvent couvrir une visite ou un visiteur ; toutes les visites peuvent être incluses, en option. Des tendances d’abandon peuvent rapidement être disponibles via le menu contextuel. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Les éléments de dimension peuvent être connectés par un opérateur OR (comme pour les groupes) ; les événements peuvent être utilisés dans l’entonnoir. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Les étapes suivantes des transferts et des abandons peuvent également être générées via le menu contextuel. </li> 
-    </ol> <p>En outre, dans Analysis Workspace, les abandons permettent d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensions mixtes</a> dans les étapes, ce qui n’était pas possible dans Ad Hoc Analysis. Les dimensions mixtes dans les étapes sont gérées avec un opérateur AND. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html"  > Vidéo : Visualisation des abandons</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/multi-dimensional-fallout.html"  > Vidéo : Utilisation de plusieurs dimensions d’abandons</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/comparing-segments-in-fallout.html"  > Vidéo : Comparaison des segments dans les abandons</a> </p> </td> 
+    </ol> <p>En outre, dans Analysis Workspace, les abandons permettent d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensions mixtes</a> dans les étapes, ce qui n’était pas possible dans Ad Hoc Analysis. Les dimensions mixtes dans les étapes sont gérées avec un opérateur AND. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr"  > Vidéo : Visualisation des abandons</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/multi-dimensional-fallout.html?lang=fr"  > Vidéo : Utilisation de plusieurs dimensions d’abandons</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/comparing-segments-in-fallout.html?lang=fr"  > Vidéo : Comparaison des segments dans les abandons</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examiner le flux (Cheminement) </p> </td> 
@@ -87,7 +87,7 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Le flux peut couvrir une visite ou un visiteur. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Les statistiques clés s’affichent sous la forme de pourcentage de vues chemins. </li> 
     </ul> <p>En outre, avec les flux, il est possible d’utiliser des <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensions mixtes</a> et de cliquer droit pour créer un segment, ce qui n’était pas le cas dans Ad Hoc Analysis. </p> <p>Actuellement, dans Analysis Workspace, les flux <b>ne permettent pas</b> aux utilisateurs de choisir un événement de succès. </li> 
-    </ul> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html"  > Vidéo : Présentation de la visualisation Flux</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow.html"  > Vidéo : Flux multidimensionnel</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/expanding-on-flow-visualization.html"  > Vidéo : Création de segments à partir du flux</a> </p> </td> 
+    </ul> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=fr"  > Vidéo : Présentation de la visualisation Flux</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow.html?lang=fr"  > Vidéo : Flux multidimensionnel</a> </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/expanding-on-flow-visualization.html?lang=fr"  > Vidéo : Création de segments à partir du flux</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Effectuer des ventilations infinies </p> </td> 
@@ -95,11 +95,11 @@ Cliquez [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-over
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calculer rapidement la tendance des données </p> </td> 
-   <td colname="col2"> <p>Visualisez rapidement les données en cliquant sur l’icône de graphique dans la ligne du rapport. En outre, ces visualisations rapides seront liées au tableau source, de sorte que si vous cliquez sur différentes valeurs dans le tableau, le diagramme est automatiquement mis à jour. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/dimension-graph-live-linking.html"  > Vidéo : Établissement de liens en direct dans les diagrammes de dimensions</a> </p> </td> 
+   <td colname="col2"> <p>Visualisez rapidement les données en cliquant sur l’icône de graphique dans la ligne du rapport. En outre, ces visualisations rapides seront liées au tableau source, de sorte que si vous cliquez sur différentes valeurs dans le tableau, le diagramme est automatiquement mis à jour. </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/dimension-graph-live-linking.html?lang=fr"  > Vidéo : Établissement de liens en direct dans les diagrammes de dimensions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sélectionner des suites de rapports </p> </td> 
-   <td colname="col2"> <p>Vous pouvez ajouter plusieurs suites de rapports à un seul projet dans Analysis Workspace.  </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > Vidéo : Suites de rapports multiples dans Workspace</a> </p></td> 
+   <td colname="col2"> <p>Vous pouvez ajouter plusieurs suites de rapports à un seul projet dans Analysis Workspace.  </p> <p><a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html?lang=fr"  > Vidéo : Suites de rapports multiples dans Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
