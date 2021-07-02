@@ -6,9 +6,9 @@ feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Dans Analysis Workspace, appliquez une comparaison des dates commune à partir d
 ## Comparaison de périodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL La comparaison de périodes ] tire parti des mesures calculées avancées. Par conséquent, il est disponible uniquement pour les clients qui disposent de SKU Select, Prime et Ultimate d’Analytics.
+>[!UICONTROL La comparaison de périodes] utilise les mesures calculées avancées. Par conséquent, elle est disponible uniquement pour les clients qui disposent des SKU Select, Prime et Ultimate d’Analytics.
 
 Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
 
@@ -60,7 +60,7 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
 Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce qui permet d’ajouter une période différente de celle configurée pour votre calendrier. Cette fonctionnalité offre un autre moyen de comparer les dates.
 
-1. Cliquez avec le bouton droit de la souris dans le tableau, puis sélectionnez **[!UICONTROL Ajouter une colonne de périodes]**![](assets/add-time-period-column.png).
+1. Cliquez avec le bouton droit de la souris dans le tableau, puis sélectionnez **[!UICONTROL Ajouter une colonne de périodes]** ![](assets/add-time-period-column.png).
 
 1. Selon la façon dont sont définies les plages de dates du tableau, les options de comparaison suivantes sont disponibles :
 
