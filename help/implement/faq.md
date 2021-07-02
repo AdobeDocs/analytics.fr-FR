@@ -3,7 +3,7 @@ title: FAQ sur la mise en œuvre
 description: Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Identity Service affecte un identifiant persistant unique qui peut être partag�
 
 ## Comment mettre en œuvre le suivi des vidéos Pulsation ?
 
-Voir [Mesures audio et vidéo dans Adobe Analytics](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html).
+Voir [Mesures audio et vidéo dans Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Une interruption de service chez Adobe peut-elle affecter les performances ?
 
