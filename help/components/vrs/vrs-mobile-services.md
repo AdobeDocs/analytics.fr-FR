@@ -4,9 +4,9 @@ title: Prise en charge des suites de rapports virtuelles dans Mobile Services
 uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 exl-id: 3082333a-514d-45c6-9432-da32bd27a2eb
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ L’interface utilisateur d’Adobe Mobile Services combine les données sur l
 
 Adobe Mobile Services prend en charge les suites de rapports virtuelles. Si, toutefois, vous prévoyez de créer une suite de rapports virtuelle avec plusieurs applications et d’exécuter une activité de messagerie, spécifiez comme paramètre l’identifiant d’application individuel. Si vous créez un message Push, l’identifiant d’application doit être l’un des paramètres du segment que vous utilisez. Si vous créez un message in-app, l’identifiant d’application doit être l’un des paramètres des caractéristiques que vous établissez pour le message. Sinon, le message sera envoyé/déclenché vers tous les utilisateurs de toutes les applications qui répondent aux critères de segmentation/déclenchement.
 
-Pour en savoir plus, voir [Suites de rapports virtuelles](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/c-mob-vrs.html) dans la documentation Adobe Mobile Services.
+Pour en savoir plus, voir [Suites de rapports virtuelles](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/c-mob-vrs.html?lang=fr) dans la documentation Adobe Mobile Services.
