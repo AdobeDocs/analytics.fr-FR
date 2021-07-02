@@ -6,9 +6,9 @@ feature: Visualisations
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Une visualisation des abandons s’avère utile pour l’analyse des éléments 
 * Flux de trafic général de portée plus large : parmi les personnes qui ont consulté la page d’accueil, ce flux montre combien d’entre elles ont réalisé une recherche et combien d’entre elles ont consulté un article en particulier.
 * Corrélations entre les événements de votre site. Les corrélations indiquent quel pourcentage de personnes ayant consulté votre politique de confidentialité ont continué leur visite jusqu’à l’achat d’un produit.
 
-[Tutoriel vidéo sur la visualisation des abandons](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[Tutoriel vidéo sur la visualisation des abandons](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr) (4:15)
 
 ## Segmentation comme base des flux et des abandons {#section_654F37A398C24DDDB1552A543EE29AA9}
 
