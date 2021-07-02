@@ -3,9 +3,9 @@ description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lo
 title: Alerte d’utilisation des appels au serveur
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Lorsque vous configurez une alerte, elle s’applique à toutes les suites de ra
 
 ## Aperçu
 
-Une nouvelle catégorie d’alertes appelée **[!UICONTROL Alertes d’utilisation de l’appel au serveur]** fait partie de l’interface utilisateur existante [Gestion des alertes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html).
+Une nouvelle catégorie d’alertes appelée **[!UICONTROL Alertes d’utilisation de l’appel au serveur]** fait partie de l’interface utilisateur existante [Gestion des alertes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=fr).
 
 Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 
