@@ -5,7 +5,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,4 +61,4 @@ En utilisant le Canal Première touche et le Canal Dernière touche hérités, v
 
 ![](assets/mc-viz6.png)
 
-Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Pour en savoir plus sur l’analyse marketing entre onglets, consultez cette vidéo : [Utilisation de l’analyse croisée pour explorer l’attribution marketing de base dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html?lang=fr).
