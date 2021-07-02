@@ -5,9 +5,9 @@ feature: Concepts de base de Workspace
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez également régler les [paramètres d’affichage de la densité](ht
 
 ## Dimensions {#dimensions}
 
-Les [**dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) sont des attributs textuels qui décrivent le comportement du visiteur. Elles peuvent être affichées, divisées et comparées dans votre analyse. Elles se trouvent dans le rail des composants de gauche (section orange) et sont généralement appliquées sous forme de lignes d’un tableau.
+Les [**dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=fr) sont des attributs textuels qui décrivent le comportement du visiteur. Elles peuvent être affichées, divisées et comparées dans votre analyse. Elles se trouvent dans le rail des composants de gauche (section orange) et sont généralement appliquées sous forme de lignes d’un tableau.
 
 Parmi les exemples de dimensions, citons notamment [!UICONTROL Nom de page], [!UICONTROL Canaux marketing], [!UICONTROL Type d’appareil] et [!UICONTROL Produits]. Les dimensions sont fournies par Adobe et sont capturées par le biais de votre implémentation personnalisée (eVar, props, classifications et bien d’autres).
 
@@ -35,25 +35,25 @@ Parmi les exemples d’éléments de dimension, citons notamment [!UICONTROL Pag
 
 ## Mesures {#metrics}
 
-Les [**mesures**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) sont des mesures quantitatives relatives au comportement des visiteurs. Elles se trouvent dans le rail des composants de gauche (section verte) et sont généralement appliquées sous forme de colonnes d’un tableau.
+Les [**mesures**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=fr) sont des mesures quantitatives relatives au comportement des visiteurs. Elles se trouvent dans le rail des composants de gauche (section verte) et sont généralement appliquées sous forme de colonnes d’un tableau.
 
-Parmi les exemples de mesures, citons notamment [!UICONTROL Pages vues], [!UICONTROL Visites], [!UICONTROL Commandes], [!UICONTROL Durée moyenne de la visite] et [!UICONTROL Recettes/Commande]. Les mesures sont fournies par Adobe ou capturées par le biais de votre implémentation personnalisée ([!UICONTROL Événements de succès]). Elles peuvent également être créées à l’aide du [créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+Parmi les exemples de mesures, citons notamment [!UICONTROL Pages vues], [!UICONTROL Visites], [!UICONTROL Commandes], [!UICONTROL Durée moyenne de la visite] et [!UICONTROL Recettes/Commande]. Les mesures sont fournies par Adobe ou capturées par le biais de votre implémentation personnalisée ([!UICONTROL Événements de succès]). Elles peuvent également être créées à l’aide du [créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
 
 ![](assets/metrics.png)
 
 ## Segments {#segments}
 
-Les [**segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail des composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
+Les [**segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=fr) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail des composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
 
-Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appareils mobiles], [!UICONTROL Visites à partir d’un e-mail] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe ou créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html). Ils peuvent également être créés à l’aide du [créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appareils mobiles], [!UICONTROL Visites à partir d’un e-mail] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe ou créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr). Ils peuvent également être créés à l’aide du [créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
 
 ![](assets/segments.png)
 
 ## Périodes {#date-ranges}
 
-Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sont les plages de dates dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
+Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=fr) sont les plages de dates dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
 
-Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr).
 
 ![](assets/date-ranges.png)
 
