@@ -8,7 +8,7 @@ exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 >
 >Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
 
-Voir [Horodatages (facultatif)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html) pour en savoir plus sur la configuration.
+Voir [Horodatages (facultatif)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=fr) pour en savoir plus sur la configuration.
 
 ## Horodatages (facultatif) : intégration de données horodatées et non horodatées {#section_BF17CB593044462B993FD0D28EA56518}
 
