@@ -5,7 +5,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,5 +39,5 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 
 | Question | Réponse |
 | --- | --- |
-| Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [!UICONTROL Admin] > [!UICONTROL Tous les administrateurs] >[!UICONTROL Paramètres de l’entreprise] > [Niveaux d’accès aux fonctionnalités](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html). |
+| Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html?lang=fr) pour faire part de vos commentaires sur nos innovations de pointe. |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [!UICONTROL Admin] > [!UICONTROL Tous les administrateurs] >[!UICONTROL Paramètres de l’entreprise] > [Niveaux d’accès aux fonctionnalités](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html?lang=fr). |
