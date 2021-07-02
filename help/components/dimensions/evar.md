@@ -3,9 +3,9 @@ title: eVar
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon 
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-La casse (supérieure ou inférieure) utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou variable selon une période donnée (par exemple, mensuelle), en fonction de la variété et de la quantité de données associées à la suite de rapports.
+La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou varier en fonction d’une période (par exemple, mensuelle), selon la variété et la quantité des données associées à la suite de rapports.
 
 ## Renseignement des eVars avec des données
 
