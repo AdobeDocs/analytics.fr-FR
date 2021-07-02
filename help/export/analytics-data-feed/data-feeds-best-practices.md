@@ -7,7 +7,7 @@ exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 67%
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,6 @@ Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et 
 
 * Si vous utilisez sFTP, ne lisez pas ou supprimez les fichiers comportant un suffixe `.part`. Le suffixe `.part` indique que le fichier a été transféré en partie. Une fois le fichier transféré, le suffixe `.part` disparaît.
 
-* Si vous automatisez votre processus d’ingestion des flux, envisagez la possibilité que les accès et les fichiers puissent être transférés plusieurs fois. Votre processus d’ingestion des flux doit gérer les accès en double et les fichiers en double sans ignorer ni dupliquer les données. Nous vous recommandons d’utiliser la combinaison des colonnes `hitid_high` et `hitid_low` pour identifier de manière unique un accès.
+* Si vous automatisez votre processus d’ingestion des flux, envisagez la possibilité que les accès et les fichiers puissent être transférés plus d’une fois. Votre processus d’ingestion des flux doit gérer les accès et les fichiers en double sans ignorer ni dupliquer les données. Nous vous recommandons d’utiliser la combinaison des colonnes `hitid_high` et `hitid_low` pour identifier de manière unique un accès.
 
-   Dans de rares cas, les valeurs `hitid_high` et `hitid_low` peuvent être en double. Si cela se produit, vérifiez que le fichier n’a pas été précédemment envoyé et traité. Si seules certaines des lignes d’un fichier sont dupliquées, pensez à ajouter `visit_num` et `visit_page_num` pour déterminer l’unicité.
+   Dans de rares cas, vous pourriez voir les valeurs `hitid_high` et `hitid_low` en double. Si cela se produit, vérifiez que le fichier n’a pas été précédemment envoyé et traité. Si seules certaines des lignes d’un fichier sont dupliquées, pensez à ajouter `visit_num` et `visit_page_num` pour déterminer l’unicité.
