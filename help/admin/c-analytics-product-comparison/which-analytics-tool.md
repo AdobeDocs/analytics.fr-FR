@@ -4,9 +4,9 @@ title: Quel outil Adobe Analytics dois-je utiliser ?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Pour en savoir plus sur la comparaison des produits Adobe Analytics,  [ici](/he
 * Pour accéder à des visualisations vidéo uniques relatives à la Tranche horaire de la vidéo et à l’Abandon du visionnage.
 * Pour tirer parti des Listes de publication dans les rapports programmés.
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** doit être utilisé :
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=fr)** doit être utilisé :
 
 * En tant qu’option d’outil Analytics la plus souple (jusqu’à l’analyse au niveau des visiteurs et des accès).
 * Pour créer un jeu de données multicanal d’interactions en ligne et hors ligne, depuis la gestion de la relation client vers le POS jusqu’au Web.
@@ -70,7 +70,7 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 
 * L’API d’insertion de données et l’API d’insertion de données en bloc sont deux méthodes d’envoi de données de collecte côté serveur à Adobe Analytics. Les appels de l’API d’insertion de données sont effectués un événement à la fois. L’API d’insertion de données en bloc accepte les fichiers au format CSV contenant des données d’événement, un événement par ligne. Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d’utiliser l’API d’insertion de données en bloc.
 
-**[Les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)** doivent être utilisés :
+**[Les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr)** doivent être utilisés :
 
 * Si vous capturez les données des clients d’une entreprise dans une base de données de gestion de la relation client et que vous souhaitez transférer ces informations dans Experience Cloud.
 * Si vous souhaitez utiliser les données de gestion de la relation client pour une analyse plus approfondie dans Analytics ou comme critère de ciblage dans Adobe Target.
