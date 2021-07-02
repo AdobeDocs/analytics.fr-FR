@@ -3,15 +3,15 @@ title: Visiteurs avec un Experience Cloud ID
 description: Le nombre de visiteurs uniques utilisant le service Adobe Experience Cloud ID.
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Visiteurs avec un Experience Cloud ID
 
-La mesure « Visiteurs avec un Experience Cloud ID » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilisent le service d’ID. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
+La mesure « Visiteurs avec un Experience Cloud ID » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilisent le service d’ID. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ La mesure « Visiteurs avec un Experience Cloud ID » indique le nombre de vis
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)).
+Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr)).
 
 ## Débogage de la configuration Experience Cloud ID
 
