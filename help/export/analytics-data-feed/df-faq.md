@@ -4,9 +4,9 @@ keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sen
 title: FAQ sur les flux de données
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1375'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Questions fréquentes sur les flux de données.
 
 ## Les noms de flux doivent-ils être uniques ?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
-Les noms de fichiers des flux de données se composent de l’identifiant de la suite de rapports et de la date. Si deux flux sont configurés pour le même identifiant de suite de rapports et la ou les mêmes dates, ils portent le même nom de fichier. Si ces flux sont diffusés au même emplacement, un fichier remplace l’autre. Pour éviter que cela ne se produise, vous ne pouvez pas créer de flux qui puisse potentiellement remplacer un flux existant situé au même endroit.
+Les noms de fichiers des flux de données se composent de l’identifiant de la suite de rapports et de la date. Si deux flux sont configurés avec le même identifiant de suite de rapports et la ou les mêmes dates, ils auront le même nom de fichier. Si ces deux flux sont diffusés au même endroit, un fichier remplacera l’autre. Pour éviter que cela ne se produise, vous ne pouvez pas créer de flux qui puisse potentiellement remplacer un flux existant situé au même endroit.
 
 Lorsque vous essayez de créer un flux alors qu’un autre flux doté du même nom de fichier existe déjà, le message suivant s’affiche :
 
@@ -28,7 +28,7 @@ Si cette erreur survient, considérez les solutions suivantes :
 
 ## Quand les données sont-elles traitées ? {#section_6346328F8D8848A7B81474229481D404}
 
-Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les accès concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec horodatages compris dans cette période, les compressent et les envoient par FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec horodatages compris dans cette tranche horaire, le processus fait une nouvelle tentative avec la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les accès qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
+Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les accès concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec horodatages compris dans cette tranche horaire, les compressent et les envoient via FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec horodatages compris dans cette tranche horaire, le processus fait une nouvelle tentative avec la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les accès qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
 
 ## Quelle est la différence entre les colonnes comportant un préfixe `post_` et celle ne comportant pas de préfixe `post_` ?
 
@@ -40,7 +40,7 @@ Si une colonne ne contient pas de version `post_` (par exemple, `visit_num`), al
 
 Dans Adobe Analytics, la plupart des variables sont considérées comme ne respectant pas la casse à des fins de création de rapports. Par exemple, les valeurs « neige », « Neige », « NEIGE » et « nEige » sont toutes considérées comme étant la même valeur. Le respect de la casse est préservé dans les flux de données.
 
-Si vous observez différentes variations de la casse entre les colonnes &quot;Post&quot; et &quot;Post&quot; (par exemple, &quot;neige&quot; dans la colonne &quot;Pré&quot; et &quot;Neige&quot; dans la colonne &quot;Post&quot;), votre mise en oeuvre utilise des valeurs en majuscules et en minuscules sur l’ensemble de votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
+Si vous observez différentes variations de la casse entre des colonnes « Post » et non « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que votre implémentation utilise des valeurs à la fois en majuscules et en minuscules sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
 
 ## Les robots sont-ils filtrés par les règles de robots d’Admin Console incluses dans les flux de données ?
 
@@ -60,7 +60,7 @@ Certains opérateurs mobiles (tels que T-Mobile et O1) ne fournissent plus d’i
 
 Pour les données de plus de sept jours, les fichiers « Par heure » d’une journée sont combinés en un seul fichier « Quotidien ».
 
-Exemple : un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont diffusées « Par heure ». Toutefois, les fichiers &quot;Horaire&quot; d’avant le 2 mars 2021 sont combinés en un seul fichier &quot;Quotidien&quot;. Vous ne pouvez extraire des fichiers « Par heure » qu’à partir de données qui ont moins de sept jours à compter de la date de création. Dans ce cas-ci, du 2 au 9 mars.
+Exemple : un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont diffusées « Par heure ». Cependant, les fichiers « Par heure » antérieurs au 2 mars 2021 sont combinés en un seul fichier « Quotidien ». Vous ne pouvez extraire des fichiers « Par heure » qu’à partir de données qui ont moins de sept jours à compter de la date de création. Dans ce cas-ci, du 2 au 9 mars.
 
 ## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -72,7 +72,7 @@ Lors d’une transition DST > STD, (« Retour en arrière »), le client re�
 
 ## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
-En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d’une perte de connexion, d’une erreur de quota ou d’un autre problème), Adobe tente de se connecter automatiquement et d’envoyer les données jusqu’à trois fois différentes. Si le problème persiste, le flux est marqué comme ayant échoué et un message de notification est envoyé.
+En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d’une perte de connexion, d’une erreur de quota ou d’un autre problème), Adobe tente de se connecter automatiquement et d’envoyer les données jusqu’à trois fois. Si le problème persiste, le flux est marqué comme ayant échoué et un message de notification est envoyé.
 
 Si un transfert échoue, vous pouvez réexécuter une tâche jusqu’à ce qu’elle réussisse.
 
@@ -86,15 +86,15 @@ Une fois que vous avez vérifié ou corrigé le problème de diffusion, exécute
 
 **BucketOwnerFullControl** spécifie des droits entre comptes pour créer des objets dans d’autres compartiments.
 
-Cas d’utilisation type d’Amazon S3 : le titulaire du compte AWS (Amazon Web Services) crée un compartiment, puis crée un utilisateur qui est autorisé à créer des objets dans ce compartiment, puis spécifie les informations d’identification pour cet utilisateur. Dans ce cas, les objets d’un utilisateur appartiennent au même compte et le propriétaire du compte dispose implicitement d’un contrôle total sur l’objet (lecture, suppression, etc.). Ce processus fonctionne de la même manière que les remises par FTP.
+Cas d’utilisation type d’Amazon S3 : le titulaire du compte AWS (Amazon Web Services) crée un compartiment, puis crée un utilisateur qui est autorisé à créer des objets dans ce compartiment, puis spécifie les informations d’identification pour cet utilisateur. Dans ce cas, les objets de l’utilisateur appartiennent au même compte et le titulaire du compte bénéficie implicitement du contrôle total de l’objet (lecture, suppression, etc). Ce processus fonctionne de la même manière que les remises par FTP.
 
-AWS permet aussi à un utilisateur de créer des objets dans un compartiment qui appartient à un autre compte utilisateur. Par exemple, deux utilisateurs AWS, utilisateurA et utilisateurB, n’appartiennent pas au même compte AWS, mais souhaitent créer des objets dans d’autres compartiments. Si l’utilisateurA crée un compartiment appelé &quot;compartimentA&quot;, il peut créer une stratégie de compartiment qui permet explicitement à l’utilisateurB de créer des objets dans le compartimentA même si l’utilisateur ne possède pas le compartiment. Cette stratégie peut s’avérer avantageuse, car il n’est pas nécessaire que l’utilisateurA et l’utilisateurB échangent des informations d’identification. Au lieu de cela, l’utilisateurB fournit à l’utilisateurA son numéro de compte, puis l’utilisateurA crée une règle de compartiment qui autorise l’utilisateurB à créer des objets dans le compartimentA.
+AWS permet aussi à un utilisateur de créer des objets dans un compartiment qui appartient à un autre compte utilisateur. Par exemple, deux utilisateurs AWS (utilisateurA et utilisateurB) n’appartiennent pas au même compte AWS, mais souhaitent créer des objets dans d’autres compartiments. Si l’utilisateurA crée un compartiment (le compartimentA), il peut créer une règle de compartiment qui autorise explicitement l’utilisateurB à créer des objets dans le compartimentA, même si l’utilisateur n’est pas propriétaire du compartiment. Cette règle peut s’avérer avantageuse, car l’utilisateurA et l’utilisateurB n’ont pas à échanger d’informations d’identification. Au lieu de cela, l’utilisateurB fournit à l’utilisateurA son numéro de compte, puis l’utilisateurA crée une règle de compartiment qui autorise l’utilisateurB à créer des objets dans le compartimentA.
 
-Cependant, les objets n’héritent pas des autorisations du compartiment parent. Par conséquent, si l’utilisateurB charge un objet dans le compartiment de l’utilisateurA, l’utilisateurB &quot;possède&quot; toujours cet objet et, par défaut, l’utilisateurA n’a aucune autorisation sur cet objet même si l’utilisateurA possède le compartiment. L’utilisateurB doit explicitement octroyer les droits à l’utilisateurA, car il reste le propriétaire de l’objet. Pour accorder cette autorisation, l’utilisateurB doit charger l’objet avec une ACL BucketOwnerFullControl , qui spécifie que le propriétaire du compartiment (utilisateurA) se voit accorder des autorisations complètes sur l’objet (lecture, écriture, suppression, etc.), même si l’objet est &quot;détenu&quot; par l’utilisateurB.
+Cependant, les objets n’héritent pas des autorisations du compartiment parent. Si l’utilisateurB charge un objet dans le compartiment de l’utilisateurA, l’utilisateurB « détient » toujours cet objet et, par défaut, l’utilisateurA n’a aucune autorisation quant à cet objet, même si l’utilisateurA possède le compartiment. L’utilisateurB doit explicitement octroyer les droits à l’utilisateurA, car il reste le propriétaire de l’objet. Pour accorder cette autorisation, l’utilisateurB doit charger l’objet avec une liste de contrôle d’accès BucketOwnerFullControl, qui spécifie que le propriétaire du compartiment (utilisateurA) bénéficie de tous les droits sur l’objet (lecture, écriture, suppression, etc.), même si l’objet est « détenu » par l’utilisateurB.
 
 >[!NOTE]
 >
->[!DNL Analytics] ne détermine pas si le compartiment a une stratégie qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ou même si le propriétaire du compartiment est dans un compte différent de celui de l’utilisateur qui écrit les données. À la place, [!DNL Analytics] ajoute automatiquement le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl avec chaque chargement de flux.
+>[!DNL Analytics] ne détermine pas si le compartiment a une politique qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ou même si le propriétaire du compartiment est dans un compte différent de celui de l’utilisateur qui écrit les données. Au lieu de cela, [!DNL Analytics] ajoute automatiquement le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl avec chaque chargement de flux.
 
 >[!MORELIKETHIS]
 >
