@@ -3,9 +3,9 @@ description: Cette rubrique décrit les étapes d’administration pour activer 
 title: Comment faire un rapport sur AEM Assets dans Adobe Analytics
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ Permet à Analytics de collecter des impressions et des clics sur les ressources
 * Ajoute de nouvelles dimensions aux variables de ressources dans Analysis Workspace : ID de ressource, Source de ressource et ID de la ressource sélectionnée.
 * Ajoute de nouvelles dimensions aux événements de ressources : Clics sur une ressource et Impressions d’une ressource.
 
-Pour que les données soient renseignées, reportez-vous à la [documentation d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=en) afin d’obtenir des instructions d’implémentation complètes.
+Pour que les données soient renseignées, reportez-vous à la [documentation d’AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=fr) afin d’obtenir des instructions d’implémentation complètes.
