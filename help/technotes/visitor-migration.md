@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La migration des visiteurs vous permet de conserver les cookies d’identificati
 
 * Passer de `2o7.net` à `adobedc.net`.
 
-* Vous mettez en œuvre le [service dʼidentification des visiteurs dʼExperience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) et passez dʼun domaine de collecte de données propriétaire/CNAME à un domaine `adobedc.net`, `2o7.net` ou `omtrdc.net`.
+* Vous mettez en œuvre le [service dʼidentification des visiteurs dʼExperience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et passez dʼun domaine de collecte de données propriétaire/CNAME à un domaine `adobedc.net`, `2o7.net` ou `omtrdc.net`.
 
 * Passage à une collecte de données propriétaire/CNAME ([Cookies propriétaires)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=fr).
 
