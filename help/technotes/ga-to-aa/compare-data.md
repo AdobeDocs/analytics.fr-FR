@@ -3,7 +3,7 @@ title: Comparaison des données Adobe Analytics avec des produits tiers
 description: Découvrez les différentes possibilités qui s’offrent à vous lorsque vous comparez directement les données dans Adobe Analytics aux données collectées par d’autres solutions d’analyse.
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -17,6 +17,6 @@ En raison de ces définitions très différentes, de la structure des données e
 
 Si vous constatez une divergence importante entre Adobe Analytics et un outil d’analyse tiers, vous pouvez consulter les ressources suivantes :
 
-* **Autovérification à l’aide du débogueur** : vous pouvez vérifier les pages de votre site à l’aide du [débogueur d’Adobe](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html) ou d’un autre moniteur de paquets. L’utilisation du débogueur vous permet de valider votre mise en œuvre afin de vous assurer que les demandes d’image se déclenchent correctement avec les variables appropriées.
+* **Autovérification à l’aide du débogueur** : vous pouvez vérifier les pages de votre site à l’aide du [débogueur d’Adobe](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) ou d’un autre moniteur de paquets. L’utilisation du débogueur vous permet de valider votre mise en œuvre afin de vous assurer que les demandes d’image se déclenchent correctement avec les variables appropriées.
 * **Autovérification à l’aide de flux de données** : Adobe permet à votre entreprise de recevoir des [flux de données](/help/export/analytics-data-feed/data-feed-overview.md) contenant toutes les données brutes pour chaque jour. Votre entreprise peut ensuite utiliser ces données et les comparer à vos outils d’analyse tiers afin de détecter d’éventuelles divergences.
 * **Audit assisté et validation des données avec Adobe Consulting** : si vous souhaitez qu’un représentant Adobe officiel effectue un audit complet de la mise en œuvre sur votre site, contactez le gestionnaire de compte de votre entreprise. Il peut organiser une réunion avec un conseiller en mise en œuvre qui peut contrôler votre site en fonction du contrat de votre société.
