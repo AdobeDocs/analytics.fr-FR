@@ -6,9 +6,9 @@ feature: Outils d’IA
 role: Business Practitioner, Administrator
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 ![](assets/alert-manager.png)
 
-La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) et du [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) et permet d’accomplir ce qui suit :
+La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr) et permet d’accomplir ce qui suit :
 
 ![](assets/alert-manager-tasks.png)
 
