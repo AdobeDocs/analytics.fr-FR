@@ -7,7 +7,7 @@ exl-id: e1d3f894-b769-4294-b550-f46869b812be
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
    | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
    | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
 
-Pour que les données soient renseignées, reportez-vous à la [documentation d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) afin d’obtenir des instructions d’implémentation complètes.
+Pour que les données soient renseignées, reportez-vous à la [documentation d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) afin d’obtenir des instructions d’implémentation complètes.
