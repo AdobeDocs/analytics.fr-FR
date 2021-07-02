@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -69,4 +69,4 @@ ht-degree: 96%
       + [Connexion à Adobe via SFTP sans mot de passe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Téléchargements Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr)
 + [ API Adobe Analytics ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=fr)
