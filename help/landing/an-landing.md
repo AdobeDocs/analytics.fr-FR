@@ -2,7 +2,7 @@
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Nouvelle page d’entrée Adobe Analytics
 hide-in-toc: true
-source-git-commit: e81ffc2ae03dd3d45a0286d37d7851a4302ad3aa
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 4%
