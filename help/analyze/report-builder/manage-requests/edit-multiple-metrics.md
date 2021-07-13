@@ -2,15 +2,14 @@
 description: La fonctionnalité Modifier les mesures de plusieurs demandes vous permet d’ajouter, de supprimer ou de remplacer facilement des mesures dans des demandes préexistantes ou parmi un groupe de demandes.
 title: Modification des mesures de plusieurs demandes
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 99%
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
-
 
 # Modification des mesures de plusieurs demandes
 
@@ -77,4 +76,3 @@ Pour supprimer des mesures :
 
 1. Sélectionnez une ou plusieurs mesures à supprimer de la demande.
 1. Actualisez la demande. Tant que vous n’avez pas actualisé, les données hors connexion s’affichent.
-
