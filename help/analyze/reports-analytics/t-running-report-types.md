@@ -3,12 +3,12 @@ description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Concepts de base de Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Pour la plupart des rapports de conversion et de trafic, une vue Tendance est di
 
 Le [!UICONTROL rapport sur les abandons] indique le nombre de visiteurs qui ont consulté une séquence de pages prédéfinie. Il indique également les taux de conversions et d’abandons entre deux étapes.
 
-Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
+Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr) dans Analysis Workspace.
 
 1. Dans [!UICONTROL Adobe Analytics], cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Abandon]**.
 1. Sur la page du [!UICONTROL rapport sur les abandons], cliquez sur le bouton de **[!UICONTROL lancement du Report Builder d’abandons]**.
@@ -69,7 +69,7 @@ Consultez l’aide sur le [canal marketing](/help/components/c-marketing-channel
 
 ## Exécution d’un rapport Détection des anomalies {#task_4808C96327354D789C075823F5C3A049}
 
-Vous ne pouvez exécuter [la détection des anomalies et l’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) que dans Analysis Workspace.
+Vous ne pouvez exécuter [la détection des anomalies et l’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr) que dans Analysis Workspace.
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
