@@ -2,9 +2,9 @@
 description: Paramètres qui définissent la manière dont tous les rapports apparaissent et les informations qui mettent en correspondance les options de menu par défaut avec leur emplacement dans le menu simplifié.
 title: Paramètres d’affichage des rapports et navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 99%
@@ -17,7 +17,7 @@ Paramètres qui définissent la manière dont tous les rapports apparaissent et 
 
 ## Paramètres d’affichage des rapports et navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Composants]**  >  **[!UICONTROL Tous les composants]**  > Paramètres  **[!UICONTROL du rapport]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Composants]**  >  **[!UICONTROL Tous les composants]**  > Paramètres des  **[!UICONTROL rapports]**
 
 | Élément | Description |
 |--- |--- |
