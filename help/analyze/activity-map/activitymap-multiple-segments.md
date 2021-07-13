@@ -2,16 +2,15 @@
 description: Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
 title: Segmentation des clients
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 98%
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
-
 
 # Segmentation des clients
 
