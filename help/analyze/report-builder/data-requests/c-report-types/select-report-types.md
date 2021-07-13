@@ -3,15 +3,14 @@ description: Vous pouvez sélectionner le type de rapport de base à affecter à
 title: Types de rapports - Aperçu
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 97%
+source-wordcount: '117'
+ht-degree: 100%
 
 ---
-
 
 # Types de rapports - Aperçu
 
@@ -22,4 +21,3 @@ Vous ne pouvez choisir qu’un seul type de rapport de base pour une plage de ce
 Vous pouvez rechercher des rapports à l’aide de la barre de recherche à saisie semi-automatique. Après avoir sélectionné un rapport de cette façon, l’arborescence sélectionne automatiquement le nœud correspondant.
 
 ![](assets/search_reports.png)
-
