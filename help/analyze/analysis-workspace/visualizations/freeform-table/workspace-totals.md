@@ -2,10 +2,10 @@
 description: Méthode de calcul des totaux de Workspace.
 title: Totaux de Workspace
 feature: Tableaux à structure libre
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 100%
 
@@ -20,13 +20,13 @@ Dans les tableaux à structure libre, une ligne de total s’affiche à chaque n
 
 ![](assets/total-row.png)
 
-## Paramètre Afficher le total  {#display-total}
+## Paramètre Afficher le total {#display-total}
 
 Sous **[!UICONTROL Paramètres de colonne]**, vous pouvez sélectionner les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]**. Si ces paramètres sont désactivés, les totaux sont supprimés du tableau. Cela peut être indiqué dans les cas où les totaux n’ont aucun intérêt, comme dans certains [scénarios de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=fr).
 
 ![](assets/column-settings-total.png)
 
-## Paramètres Total de ligne statique  {#static-row-total}
+## Paramètres Total de ligne statique {#static-row-total}
 
 Les totaux de [ligne statique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=fr) se comportent différemment et peuvent être contrôlés sous **[!UICONTROL Paramètres de la ligne]**.
 
