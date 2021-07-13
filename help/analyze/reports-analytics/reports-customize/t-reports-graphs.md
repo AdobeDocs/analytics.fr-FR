@@ -2,14 +2,13 @@
 description: Cette section décrit la procédure à suivre pour personnaliser un graphique afin qu’il convienne mieux à l’audience visée.
 title: Modification des graphiques des rapports
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Concepts de base des rapports et analyses
-role: Business Practitioner, Administrator
+feature: Concepts de base de Reports & Analytics
+role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '595'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
