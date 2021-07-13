@@ -3,11 +3,10 @@ description: Utilisation de Report Builder avec Microsoft Power BI.
 title: Publication sur Power BI - Aperçu
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -54,7 +53,7 @@ Les classeurs planifiés sont des feuilles de calcul Excel renseignées avec des
 
    ![](assets/workbooks-power-bi.png)
 
-1. Vous pouvez désormais visualiser les données de tableau de bord du classeur.    ![](assets/view-data-pbi.png)
+1. Vous pouvez désormais visualiser les données de tableau de bord du classeur.     ![](assets/view-data-pbi.png)
 
 1. Vous pouvez ensuite épingler une zone de ce classeur de façon à l’inclure dans l’un de vos tableaux de bord Power BI.
 
