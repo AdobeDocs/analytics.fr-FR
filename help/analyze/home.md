@@ -2,11 +2,10 @@
 title: Guide sur les outils Analytics
 description: Documentation sur les produits et aide autonome pour Analysis Workspace, Tableaux de bord Adobe Analytics, Activity Map, Report Builder, API de création de rapports et Reports & Analytics.
 feature: Concepts de base de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -30,11 +29,11 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 * [Tableaux de bord Adobe Analytics - Aperçu](/help/analyze/mobile-app/home.md)
 * [Prise en main d’Analysis Workspace](analysis-workspace/home.md)
 * [Progressive Web Apps pour Adobe Analytics](/help/analyze/pwa/pwa.md)
-* [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
+* [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Prise en main de Report Builder](report-builder/home.md)
 * [Prise en main d’Activity Map](activity-map/activity-map.md)
 
-## Plus de guides d’utilisation Analytics
+## Plus de guides d’utilisation d’Analytics
 
 [Guides d’utilisation d’Analytics](/help/landing/home.md)
 
