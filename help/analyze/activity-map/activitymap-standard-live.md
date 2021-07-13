@@ -2,16 +2,15 @@
 description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 title: Mode standard et mode réel
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # Mode standard et mode réel
 
@@ -34,7 +33,7 @@ Q : Que se passe-t-il si une page contient des liens ayant le même nom dans de
 
 R : Cela dépend de la façon dont vous agrégez les données des liens. Dans Activity Map, nous tenons compte des informations ID de lien|Région pour une page donnée, de telle sorte que les données affectées s’appliquent à la combinaison « ID lien|Région ». Dans cette situation, étant donné que les régions sont distinctes, la combinaison lien|région sera différente et, par conséquent, toute recette affectée à la première combinaison lien|région sera différente de toute recette affectée pour le second lien. Mais dans l’interface utilisateur d’Adobe Analytics, vous pouvez simplement consulter le rapport sur l’ID de lien (au lieu du rapport Lien|Région) pour une page donnée (page ventilée par Lien). Dans ce cas, les recettes seront agrégées sur les deux régions.
 
-## Mode réel  {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Mode réel {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 En **mode réel**, les données Analytics sont affichées par incréments de 1 à 15 minutes, sous forme de tendances. Ce mode vise à analyser et à contrôler les tendances à court terme sur la page web.
 
@@ -45,4 +44,3 @@ Le mode réel répond aux besoins des organisations d’édition. Ces organisati
 >Les suites de rapports virtuelles sont uniquement compatibles avec le mode standard, et non le mode réel.
 
 ![](assets/live_mode.png)
-
