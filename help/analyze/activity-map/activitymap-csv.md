@@ -2,16 +2,15 @@
 description: En mode standard, exportez les données Analytics d’Activity Map dans un fichier CSV (valeurs séparées par des virgules).
 title: Exportation dans un fichier CSV
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: b385abaf-6994-4a60-a78d-efa09f17b15f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 98%
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
-
 
 # Exportation dans un fichier CSV
 
