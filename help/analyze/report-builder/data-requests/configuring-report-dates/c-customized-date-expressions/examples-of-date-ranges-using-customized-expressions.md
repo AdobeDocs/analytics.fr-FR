@@ -3,15 +3,14 @@ description: Exemples, remarques et notes syntaxiques concernant l’utilisation
 title: Exemples de plages de dates utilisant des expressions personnalisées
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 99%
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
-
 
 # Exemples de plages de dates utilisant des expressions personnalisées
 
@@ -51,4 +50,3 @@ Il est possible de créer des expressions personnalisées couvrant la plupart de
 * L’abréviation ne peut pas être précédée d’un simple zéro. Par exemple, 0w n’est pas autorisé.
 * Les opérateurs suivants permettent de concaténer les abréviations : + -
 * Puisqu’on suppose que les périodes sont relatives à la période en cours, le premier terme est une expression qui commence toujours par c.
-
