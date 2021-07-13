@@ -2,10 +2,10 @@
 description: Étapes pour arrêter le suivi des liens dans Activity Map ou la version héritée de ClickMap.
 title: Arrêt du suivi des liens
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-feature: Activity Map
-role: Business Practitioner, Administrator
+feature: 'Activity Map  '
+role: User, Admin
 exl-id: cdbec360-bff9-452c-9564-6b481e7175d3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 89%
