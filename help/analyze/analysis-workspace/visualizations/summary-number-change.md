@@ -5,9 +5,9 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualisations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -31,17 +31,6 @@ Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérie
 | Légende visible | Affiche des informations sur la mesure affichée. |
 | Abréger la valeur | Abrège les valeurs et affiche jusqu’à 3 chiffres après la virgule. |
 | Résumer la valeur par | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
-
-
-Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérieur droit pour configurer les paramètres de Synthèse des chiffres :
-
-| Paramètre | Définition |
-|--- |--- |
-| Pourcentages | Affichent des pourcentages plutôt que des chiffres bruts. |
-| Légende visible | Affiche des informations sur la mesure affichée. |
-| Abréger la valeur | Abrège les valeurs et affiche jusqu’à 3 chiffres après la virgule. |
-| Résumer la valeur par | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
-
 
 ## Visualisation Résumé des changements {#summary-change}
 
