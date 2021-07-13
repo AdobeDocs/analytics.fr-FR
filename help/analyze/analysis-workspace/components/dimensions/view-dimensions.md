@@ -3,11 +3,10 @@ description: Affichez les valeurs supérieures d’une dimension avant de l’ut
 title: Aperçu des dimensions
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
 feature: Concepts de base de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
