@@ -2,16 +2,15 @@
 description: Les superpositions proposent plusieurs manières de configurer la visualisation de données afin de consulter et de comprendre facilement la popularité des liens sur une page.
 title: Superpositions personnalisables
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # Superpositions personnalisables
 
@@ -64,4 +63,3 @@ Les superpositions bulle s’affichent lorsque vous sélectionnez cette superpos
 Cette superposition en temps réel établit le classement des clics en fonction des changements de la valeur de mesure entre la période précédente et la période actuelle.
 
 ![](assets/gainers_losers.png)
-
