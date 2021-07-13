@@ -3,15 +3,14 @@ description: Cette fonctionnalité intègre un peu plus l’utilisation du Repor
 title: Appel de la fonctionnalité Report Builder depuis les fonctions Microsoft Excel
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '494'
 ht-degree: 99%
 
 ---
-
 
 # Appel de la fonctionnalité Report Builder depuis les fonctions Microsoft Excel
 
@@ -78,4 +77,3 @@ Les deux fonctions qui utilisent un paramètre peuvent être utilisées avec le 
 1. Ouvrez la liste des paramètres du Créateur de rapports sous [!UICONTROL Formules] > [!UICONTROL Insérer fonction] > [!UICONTROL Adobe.ReportBuilder.Bridge].
 
 1. Sélectionnez une des deux fonctions qui se terminent par AltTextParam et cliquez sur **[!UICONTROL OK]**.
-
