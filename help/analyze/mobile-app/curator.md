@@ -2,11 +2,10 @@
 description: Instructions pour la configuration des fiches d’évaluation des tableaux de bord.
 title: Guide du curateur des tableaux de bord Adobe Analytics
 feature: Tableaux de bord Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2401'
 ht-degree: 100%
 
