@@ -3,15 +3,14 @@ description: Vous pouvez filtrer les dimensions que vous ajoutez à la grille Li
 title: Dimensions du filtre - Aperçu
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # Dimensions du filtre - Aperçu
 
@@ -89,7 +88,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Se termine par </p> </td> 
    <td colname="col02"> <p>Renvoie des résultats qui se terminent par une valeur spécifique. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas à <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avancé (caractères spéciaux) </p> </td> 
