@@ -3,12 +3,12 @@ description: Une fois un rapport exécuté, vous pouvez le personnaliser de mani
 title: Personnalisation des rapports - Aperçu
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Concepts de base de Reports & Analytics
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Il est impossible de comparer les dates entre des rapports de tendances.
 
 >[!NOTE]
 >
->Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
+>Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=fr) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
 Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
 
@@ -223,4 +223,4 @@ La plupart des rapports dans Reports &amp; Analytics contiennent désormais un
 
 Actuellement, le bouton n’est disponible que si votre nom d’utilisateur dispose des droits complets dans Analysis Workspace.
 
-Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html).
+Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr).
