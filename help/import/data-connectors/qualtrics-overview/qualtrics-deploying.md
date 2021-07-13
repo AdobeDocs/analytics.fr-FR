@@ -5,15 +5,14 @@ title: Déploiement de l’intégration
 feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
-# Déploiement de l’intégration {#deploying-the-integration}
+# Déploiement de l’intégration{#deploying-the-integration}
 
 Le déploiement de cette intégration est un processus simple qui nécessite les actions suivantes.
 
@@ -32,12 +31,13 @@ Pour activer l’intégration, vous devez exécuter l’assistant d’intégrati
    | ID d’organisation Qualtrics | [Recherche de votre ID d’organisation Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
    | Jeton Adobe SiteCatalyst | [Génération de votre jeton Adobe Analytics Qualtrics](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Étape 2 de l’assistant : correspondances de variables**
-   |  Liste des réponses Qualtrics  | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
+1. **Étape 2 de l’assistant - Correspondances de variables**
+
+   | Liste de réponses Qualtrics | Sélectionnez une variable de liste disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.) |
    |---|---|
-   |  ID de réponse Qualtrics  | Sélectionnez une eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.)  |
-   |  Serveur de suivi  |Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez la variable `trackingServerSecure` serveur de suivi s’il diffère de votre paramètre de serveur de suivi standard.  |
-   |  Envois d’enquête Qualtrics  | Sélectionnez un événement disponible dans votre suite de rapports (vous aurez sans doute besoin d’activer un nouvel événement dans le Gestionnaire de suite de rapports).  |
+   | ID de réponse Qualtrics | Sélectionnez un eVar ou une prop disponible dans votre suite de rapports. (Vous aurez sans doute besoin d’activer une nouvelle listVar dans le Gestionnaire de suite de rapports.) |
+   | Serveur de suivi | Indiquez le paramètre du serveur de suivi (domaine) que vous utilisez pour effectuer le suivi des données Adobe Analytics. Utilisez le serveur de suivi `trackingServerSecure` s’il diffère du paramètre de serveur de suivi standard. |
+   | Envois d&#39;enquête Qualtrics | Sélectionnez un événement disponible dans la suite de rapports (vous devrez peut-être activer un nouvel événement dans le Gestionnaire de suites de rapports). |
 
 1. **Étape 3 de l’assistant** : aucune action n’est requise, étape informative uniquement.
 
@@ -67,7 +67,7 @@ Après avoir finalisé l’assistant d’intégration, vous devez activer l’in
 
    ![](assets/integration_config.png)
 
-## Vérification de l’intégration {#verifying-the-integration}
+## Vérification de l’intégration{#verifying-the-integration}
 
 Une fois toutes les étapes de déploiement terminées, vous pouvez vérifier que l’intégration transfère bien des données.
 
