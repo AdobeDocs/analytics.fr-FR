@@ -3,12 +3,12 @@ description: Procédure de création d’une requête de données avec le Report
 title: Création d’une requête de données
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Procédure de création d’une requête de données de base.
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez une [suite de rapports](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 1. (Facultatif) Sélectionnez un segment à appliquer à la demande. Quand vous sélectionnez un ou plusieurs segments, ils sont déplacés en haut de la liste.
 
-   Le Report Builder utilise les segments de la même manière qu’Adobe Analytics. Voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). 1. (Facultatif) Sélectionnez une [liste de publication](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) à utiliser pour la distribution.
+   Le Report Builder utilise les segments de la même manière qu’Adobe Analytics. Voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr). 1. (Facultatif) Sélectionnez une [liste de publication](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md) à utiliser pour la distribution.
 1. Sélectionnez un [type de rapport](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 1. Spécifiez une [plage de dates](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) et une [granularité](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md) de rapport.
 1. Cliquez sur **[!UICONTROL Suivant]**.
