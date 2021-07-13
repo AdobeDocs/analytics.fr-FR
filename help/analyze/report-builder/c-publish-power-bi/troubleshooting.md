@@ -1,21 +1,20 @@
 ---
-description: Problèmes courants lors de l’utilisation du Report Builder avec le Power BI.
+description: Problèmes courants lors de l’utilisation du Report Builder avec Power BI.
 title: Dépannage de l’intégration de Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 50%
+source-wordcount: '372'
+ht-degree: 51%
 
 ---
 
-
 # Dépannage de l’intégration de Power BI
 
-Recherchez et résolvez des problèmes courants lors de l&#39;utilisation du Report Builder avec le Power BI.
+Recherchez et résolvez les problèmes courants lors de l’utilisation du Report Builder avec Power BI.
 
 ## Échec de la publication sur Power BI
 
@@ -37,10 +36,10 @@ Voici les principales raisons pour lesquelles vous pourriez obtenir des visualis
 * Vous avez modifié une requête dans le Report Builder, par exemple vous avez modifié des mesures ou des dimensions, puis vous l’avez à nouveau publiée sur Power BI. La modification des requêtes peut entraîner la corruption de vos visualisations.
 * Vous avez supprimé une requête qui était utilisée dans une visualisation.
 
-## Le Report Builder doit être autorisé à accéder aux ressources de votre organisation. Cet accès ne peut être accordé que par un administrateur. Demandez à un administrateur de vous accorder l’autorisation.
+## Report Builder doit être autorisé à accéder aux ressources de votre organisation. Cet accès ne peut être accordé que par un administrateur. Demandez à un administrateur de vous accorder l’autorisation.
 
-Demandez à un administrateur Microsoft de vérifier le paramètre &quot;Les utilisateurs peuvent enregistrer une application&quot; sous : **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Principale Directory]** > **[!UICONTROL Les paramètres utilisateur autorisent les options]**. Si cette option est définie sur Non, cet administrateur peut enregistrer ces types d’applications.
+Demandez à l’administrateur Microsoft de vérifier le paramètre &quot;Les utilisateurs peuvent enregistrer une application&quot; sous : **[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Principale Directory]** > **[!UICONTROL Les paramètres utilisateur autorisent les options]**. Si cette option est définie sur Non, cet administrateur peut enregistrer ces types d’applications.
 
-Les utilisateurs peuvent accorder l&#39;accès en utilisant le [lien](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) suivant.
+Les utilisateurs peuvent accorder l’accès en utilisant le [lien](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) suivant.
 
-Les administrateurs ont accordé l&#39;accès à chacun en utilisant le [lien](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) suivant.
+Les administrateurs ont accordé l’accès à chacun en utilisant le [lien](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US) suivant.
