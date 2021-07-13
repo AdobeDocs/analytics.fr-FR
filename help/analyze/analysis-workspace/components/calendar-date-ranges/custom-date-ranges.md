@@ -4,11 +4,10 @@ keywords: Analysis Workspace
 title: Création de périodes personnalisées
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 feature: Concepts de base de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -22,7 +21,7 @@ Créez des périodes personnalisées dans Analysis Workspace et enregistrez-les 
 
 Une période s’applique au niveau du panneau. Pour ajouter une période au projet, cliquez sur **Panneaux** > *`<select panel>`*, puis spécifiez une nouvelle période.
 
-## Période pour « deux mois auparavant » {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Période pour « deux mois auparavant »  {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 La période personnalisée suivante présente une période pour « deux mois auparavant », avec une visualisation Synthèse des changements présentant le changement directionnel.
 
