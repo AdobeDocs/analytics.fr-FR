@@ -3,15 +3,14 @@ description: Filtres qui s’appliquent à des termes de dimension spécifiques.
 title: Filtres spécifiques
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 90%
+source-wordcount: '318'
+ht-degree: 91%
 
 ---
-
 
 # Filtres spécifiques
 
@@ -37,6 +36,6 @@ Vous pouvez effectuer une recherche sur des éléments de dimension spécifiques
    * **À partir de la liste** : vous permet de sélectionner, dans une liste, des données auxquelles vous pouvez en ajouter d’autres.
 1. Si vous activez l’option **[!UICONTROL À partir de la liste]**, sélectionnez tout élément disponible dans la liste ou cliquez sur **[!UICONTROL Ajouter]**.
 
-   Lorsque vous cliquez sur **[!UICONTROL Ajouter]**, le formulaire [!UICONTROL Sélectionner à partir de la Liste] affiche une liste d’éléments de dimension disponibles pour la plage de dates de demande actuelle, limitée aux 10 000 premiers éléments. Vous pouvez effectuer une recherche dans ces éléments ou cliquer sur **[!UICONTROL Plus...]** afin d’afficher le formulaire [!UICONTROL Rechercher] dans lequel vous pouvez créer une recherche plus détaillée pour les dimensions.
+   Lorsque vous cliquez sur **[!UICONTROL Ajouter]**, le formulaire [!UICONTROL Sélectionner dans la liste] affiche une liste des éléments de dimension disponibles pour la période de demande actuelle, limitée aux 10 000 premiers éléments. Vous pouvez effectuer une recherche dans ces éléments ou cliquer sur **[!UICONTROL Plus...]** afin d’afficher le formulaire [!UICONTROL Rechercher] dans lequel vous pouvez créer une recherche plus détaillée pour les dimensions.
 1. Cliquez sur **[!UICONTROL OK]** dans le formulaire [!UICONTROL Sélectionner dans la liste].
 1. Dans le formulaire [!UICONTROL Sélectionner les pages], enregistrez votre filtre spécifique, le cas échéant, puis cliquez sur **[!UICONTROL OK]**.
