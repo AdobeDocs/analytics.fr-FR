@@ -3,14 +3,13 @@ description: En savoir plus sur la méthode de collecte des données pour Adobe 
 subtopic: Get started
 title: Collecte de données
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Concepts de base des rapports et analyses
-role: Business Practitioner, Administrator
+feature: Concepts de base de Reports & Analytics
+role: User, Admin
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
