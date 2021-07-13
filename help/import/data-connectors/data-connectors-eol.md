@@ -2,10 +2,10 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Apteligent | Abandon |
 | Suite eMarketing BlueHornet | Abandon |
 | Branche | Migration vers Exchange |
-| BrightEdge 2.0 | Abandon |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | Abandon |
 | Bronto Software | Abandon |
 | CheetahMail par Experian | Migration vers Exchange |
 | ClickTale | Abandon |
 | Clicktale CA | Abandon |
-| Conductor 2.0 | Abandon |
+| Conductor 2.0, Conducteur, Conducteur : mesures organiques | Abandon |
 | ContactLab 2.0 (Contact Send Connector) | Abandon |
 | Coradiant TrueSight | Abandon |
 | D&amp;B Visitor Intelligence | Abandon |
@@ -62,7 +62,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | DialogTech | Disponible sur Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Abandon |
 | DREAM | Abandon |
-| DREAMmail 2.0 | Abandon |
+| DREAMmail 1.0, DREAMmail 2.0 | Abandon |
 | Dynamic Signal (Nital Vora) | Migration vers Exchange |
 | eDialog Precision Central | Abandon |
 | eC-messenger | Abandon |
@@ -70,10 +70,11 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | emarsys xpress | Abandon |
 | Epsilon Harmony | Migration vers Exchange |
 | EveryoneSocial pour Adobe Analytics | Abandon |
+| ExactTarget, ExactTarget 2.0 | Abandon |
 | Fiksu | Abandon |
-| ForeSee (v2.0) | Abandon |
-| Foresee Feedback | Abandon |
+| ForeSee (v2.0), Foresee Feedback, Foresee Results | Abandon |
 | Gigya | Abandon |
+| Hootsuite | Abandon |
 | hybris | Abandon |
 | Kampyle (désormais Medallia) Feedback Analytics (1.1) | Abandon |
 | Listrak | Migration vers Exchange |
@@ -83,11 +84,13 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Official Oracle Eloqua Integration | Migration vers Exchange |
 | optivo broadmail (Episerver) | Abandon |
 | Qualtrics v2 | Migration vers Exchange |
-| Responsys 2.0 | Abandon |
+| Responsys 1.0, Responsys 2.0 | Abandon |
+| Salesforce.com | Abandon |
 | Selligent | Abandon |
-| seoClarity 2.0 | Abandon |
+| seoClarity, seoClarity 2.0 | Abandon |
 | Silverpop Engage (v2.0) | Abandon |
 | Sizmek | Abandon |
+| SmartFOCUS Digital | Abandon |
 | SpotEffects | Abandon |
 | StrongMail Systems, Inc | Abandon |
 | Syngergy!360 | Abandon |
@@ -98,6 +101,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | WhatCounts Email | Abandon |
 | wywy | Abandon |
 | Yesmail Enterprise | Abandon |
+| Zeta interactive | Abandon |
 
 ## Exception : Adobe Campaign Classic
 
