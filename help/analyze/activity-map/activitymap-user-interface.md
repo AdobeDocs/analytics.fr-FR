@@ -2,16 +2,15 @@
 description: 'L’interface utilisateur d’Activity Map est composée de deux parties '
 title: Interface utilisateur d’Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 98%
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
-
 
 # Interface utilisateur d’Activity Map
 
@@ -35,4 +34,3 @@ En bas de la page figurent les rapports [Liens sur la page](/help/analyze/activi
 Le rapport Liens sur la page vous offre un aperçu sous forme de tableur des liens de la page actuelle, dont des informations de clics supplémentaires. Le rapport Détails de la page présente des données d’analyse des pages qui ont été visitées avant et après la navigation vers la page actuellement affichée.
 
 ![](assets/bottom_panel.png)
-
