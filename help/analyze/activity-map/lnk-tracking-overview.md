@@ -2,16 +2,15 @@
 description: 'Activity Map effectue le suivi des liens à l’aide d’un algorithme plus robuste qui '
 title: Suivi des liens robuste
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: 1f077234-ff88-46ce-a931-2d21d68042b0
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
-
 
 # Suivi des liens robuste
 
