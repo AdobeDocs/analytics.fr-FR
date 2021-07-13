@@ -2,16 +2,15 @@
 description: L’onglet Détails de la page affiche le rapport Page en tant que tableau et le rapport Flux de page en tant que rapport « papillon ».
 title: Détails de la page
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # Détails de la page
 
@@ -39,4 +38,3 @@ Le rapport Flux de page est uniquement disponible en mode standard.
 | Pages précédentes | Nomme la page interne dans la suite de rapports avant la page actuelle. |
 | Pages suivantes | La page visitée après avoir quitté la page actuelle. |
 | Sorties du site | Nombre de visiteurs ayant quitté le site après avoir consulté la page. |
-
