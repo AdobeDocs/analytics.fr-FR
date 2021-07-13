@@ -1,13 +1,13 @@
 ---
 description: Les analyses des pages en temps réel (mode réel) vous permettent d’obtenir des résultats avec une granularité détaillée en temps réel.
 title: Analyse des pages en temps réel (mode réel)
-feature: Activity Map
-role: Business Practitioner, Administrator
+feature: 'Activity Map  '
+role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 67%
+ht-degree: 72%
 
 ---
 
@@ -35,13 +35,13 @@ Si vous souhaitez vérifier quel élément est le plus souvent sélectionné en 
 
 ## Latence des données suite à la configuration d’A4T
 
-Une fois l’[intégration A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) activée dans Adobe Target, vous remarquerez une latence supplémentaire de 5 à 10 minutes dans Adobe Analytics. Cette augmentation de la latence permet aux données provenant d’Analytics et de Target d’être stockées sur le même accès, permettant de ventiler les tests par page et par section de site.
+Une fois l’[intégration A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) activée dans Adobe Target, vous remarquerez une latence supplémentaire de 5 à 10 minutes dans Adobe Analytics. Cette augmentation de la latence permet aux données provenant d’Analytics et de Target d’être stockées sur le même accès, permettant de ventiler les tests par page et par section de site.
 
 Cette augmentation se reflète dans tous les services et outils d’Adobe Analytics, notamment la diffusion en continu active et la création de rapports en temps réel, et s’applique dans les scénarios suivants :
 
 * Pour la diffusion en continu active, les rapports en temps réel, les requêtes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
-Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://experienceleague.adobe.com/docs/id-service/using/home.html), même si vous n’avez pas entièrement implémenté cette intégration.
+Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le [service d’identité](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr), même si vous n’avez pas entièrement implémenté cette intégration.
 
 Plus d’informations [ici](/help/analyze/activity-map/activitymap-standard-live.md).
