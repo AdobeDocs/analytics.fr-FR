@@ -2,10 +2,10 @@
 description: 'Liste des limites connues d’Adobe Analysis Workspace et ses composants connexes :'
 title: Limites connues dans Analysis Workspace
 feature: Concepts de base de Workspace
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 100%
 
