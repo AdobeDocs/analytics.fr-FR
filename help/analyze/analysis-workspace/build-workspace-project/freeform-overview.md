@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Concepts de base de Workspace
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Les paramètres incluent :
 | Dernière modification | Date de la dernière modification du projet. |
 | Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. |
 | Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. |
-| Compter les instances répétées | Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports. Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons. |
+| Compter les instances répétées | Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports. Par exemple, ce paramètre (lorsqu’il est activé) traite plusieurs pages vues consécutives sur la même page comme plusieurs pages vues. Lorsque cette option est désactivée, ils sont comptés comme une seule page vue (cela n’affecte que certaines mesures, telles que Visites sur une seule page). **Remarque** : Ce paramètre ne s’applique pas aux visualisations Flux ou Abandons. |
 | [Palette de couleurs du projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | Vous pouvez modifier la palette de couleurs catégoriques utilisée dans Workspace en choisissant parmi les palettes prêtes à l’emploi qui ont été optimisées pour le daltonisme ou en spécifiant votre palette personnalisée. Cette fonction affecte de nombreux éléments dans Workspace, y compris la plupart des visualisations. |
 | [Densité d’affichage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) | Permet de voir plus de données sur l’écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. |
 
