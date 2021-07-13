@@ -1,17 +1,16 @@
 ---
-description: bonnes pratiques Power BI.
+description: Bonnes pratiques relatives aux Power BI.
 title: Bonnes pratiques
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
-
 
 # Bonnes pratiques
 
@@ -24,4 +23,3 @@ Si vous supprimez une requête dans votre classeur, assurez-vous qu’aucune vis
 * Dans la mesure du possible, ne supprimez pas les requêtes que vous avez créées dans le Report Builder
 * Si vous supprimez des requêtes dans le Report Builder, veillez à supprimer également la visualisation correspondante dans Power BI.
 * Si vous n’êtes pas sûr de vous : supprimez les requêtes dont vous n’avez plus besoin, puis republiez et accédez à Power BI pour voir quelles visualisations ont été corrompues
-
