@@ -2,16 +2,15 @@
 description: Activity Map est prise en charge par les navigateurs suivants.
 title: Systèmes pris en charge et configuration requise
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
-feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 'Activity Map  '
+role: User, Admin
+exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 59%
+source-wordcount: '113'
+ht-degree: 61%
 
 ---
-
 
 # Systèmes pris en charge et configuration requise
 
@@ -21,7 +20,7 @@ Activity Map est prise en charge par les navigateurs suivants.
 |--- |--- |
 | Internet Explorer | Dernière version |
 | Firefox | Dernière version |
-| Chrome | Dernière version. Remarque :  Le module externe Activity Map Chrome est actuellement un module externe &quot;mode développeur&quot; uniquement. Lorsque vous lancez ce module, vous recevrez un message vous encourageant à désactiver les extensions du mode développeur. Ce message s’affiche chaque fois que le module externe est lancé. |
+| Chrome | Dernière version. Remarque :  Pour le moment, le module Chrome Activity Map est un module en &quot;mode développeur&quot; uniquement. Lorsque vous lancez ce module externe, vous recevrez un message vous encourageant à désactiver les extensions du mode développeur. Ce message s’affiche chaque fois que le module externe est lancé. |
 
 >[!NOTE]
 >
@@ -31,4 +30,3 @@ Autres prérequis :
 
 * Code AppMeasurement version 1.6 ou ultérieure. [Plus...](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * Les cookies et JavaScript doivent être activés.
-
