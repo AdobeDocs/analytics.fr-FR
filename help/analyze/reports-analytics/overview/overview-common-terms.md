@@ -2,12 +2,12 @@
 description: Cette section présente les termes d’analyse marketing couramment utilisés dans les Reports & Analytics.
 title: Termes courants
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-feature: Concepts de base de Reports & Analytics, Reports and analytics
+feature: Concepts de base de Reports & Analytics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
+source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '725'
 ht-degree: 93%
 
 ---
