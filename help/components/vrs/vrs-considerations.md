@@ -5,10 +5,10 @@ title: Points à prendre en compte concernant le balisage multisuite et les suit
 feature: Paramètres des suites de rapports
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1712'
-ht-degree: 100%
+source-git-commit: 1cd14244b81fbf8d1e4c6f0642f181fd4b60705d
+workflow-type: tm+mt
+source-wordcount: '1752'
+ht-degree: 95%
 
 ---
 
@@ -84,7 +84,9 @@ Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreus
 
 ### Sources de données récapitulatives
 
-Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les sources de données récapitulatives contiennent des mesures fusionnées, elles ne peuvent pas être segmentées. Puisque les suites de rapports virtuelles (VRS) utilisent la segmentation, toutes les données importées à l’aide de sources de données récapitulatives ne sont pas disponibles dans les suites de rapports virtuelles. Les sources de données récapitulatives ne sont visibles que dans la suite de rapports source.
+Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les sources de données récapitulatives contiennent des mesures agrégées *sans identifiant visiteur*, elles ne peuvent pas être segmentées dans des conteneurs [!UICONTROL Visite] et [!UICONTROL Visiteur]. Étant donné que les suites de rapports virtuelles utilisent la segmentation, les données importées à l’aide de sources de données récapitulatives ne seront pas disponibles dans les suites de rapports virtuelles si le segment est créé à l’aide d’un conteneur Visite ou Visiteur.
+
+Les sources de données récapitulatives s’affichent dans la suite de rapports virtuelle si un conteneur Accès est utilisé et si les règles de ce conteneur Accès sont conditionnées pour inclure les informations de source de données.
 
 >[!TIP]
 >
