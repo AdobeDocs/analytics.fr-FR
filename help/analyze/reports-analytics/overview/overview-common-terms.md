@@ -1,14 +1,14 @@
 ---
-description: Cette section présente les termes d’analyse web couramment utilisés dans les rapports marketing.
+description: Cette section présente les termes d’analyse marketing couramment utilisés dans les Reports & Analytics.
 title: Termes courants
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 feature: Concepts de base de Reports & Analytics, Reports and analytics
 role: User, Admin
 exl-id: 78ad3e11-2bfa-49bd-b17a-c586701b56ad
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Cette section présente les termes utilisés couramment dans Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Visite </p> </td> 
-   <td> <p>Séquence de pages vues lors d’une session unique. La visite se termine uniquement après 30 minutes d’inactivité ou 12 heures d’activité continue (cette mesure temporelle est la norme industrielle pour les analyses web). Les visites sont surveillées par des cookies. Une visite commence quand un internaute accède à une page. Une visite est parfois désignée par le terme <span class="term"> session</span>, mais il ne s’agit pas d’une session de navigateur. Le fait d’accéder à un autre site, de fermer le navigateur, voire même de redémarrer l’ordinateur ne met pas un terme à une visite. </p> <p> Si le délai d’inactivité survient alors qu’un visiteur est en train de lire une page, la visite se termine et est traitée. Une nouvelle visite commence lorsque le visiteur clique pour accéder à une autre page. </p> <p>Si la date change durant une visite (par exemple s’il consulte un site à minuit), la visite est attribuée au jour où la visite a commencé. </p> </td> 
+   <td> <p>Séquence de pages vues lors d’une session unique. La visite se termine uniquement après 30 minutes d’inactivité ou 12 heures d’activité continue (Cette mesure temporelle est la norme industrielle d’Analytics marketing.) Les visites sont surveillées par des cookies. Une visite commence quand un internaute accède à une page. Une visite est parfois désignée par le terme <span class="term"> session</span>, mais il ne s’agit pas d’une session de navigateur. Le fait d’accéder à un autre site, de fermer le navigateur, voire même de redémarrer l’ordinateur ne met pas un terme à une visite. </p> <p> Si le délai d’inactivité survient alors qu’un visiteur est en train de lire une page, la visite se termine et est traitée. Une nouvelle visite commence lorsque le visiteur clique pour accéder à une autre page. </p> <p>Si la date change durant une visite (par exemple s’il consulte un site à minuit), la visite est attribuée au jour où la visite a commencé. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visiteur unique </p> </td> 
@@ -62,7 +62,7 @@ Cette section présente les termes utilisés couramment dans Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Événements de conversion (succès) </p> </td> 
-   <td> <p>Les événements de conversion sont les activités que les visiteurs de votre site sont censés exécuter (indicateurs de performances clés). Pour un site de commerce électronique, les événements de conversion peuvent correspondre à un affichage détaillé du produit, à un passage en caisse ou à un achat. Pour un site de génération de pistes, l’événement peut correspondre au remplissage d’un formulaire. Les événements de conversion sont comptabilisés sur le site et disposent de leurs propres rapports. Ces événements deviennent également des mesures à inclure dans d’autres rapports et peuvent indiquer la raison pour laquelle les événements de conversion se sont produits ou ce qui y a contribué. </p> <p>L’exception à cette règle d’un événement devenant une mesure est l’événement d’achat, qui recouvre trois mesures : recettes, commandes et unités. </p> <p>Il existe d’autres mesures de conversion qui ne sont pas définies ici, mais les mesures de conversion forment la base de vos analyses web sur lesquelles reposent les autres mesures et rapports. </p> </td> 
+   <td> <p>Les événements de conversion sont les activités que les visiteurs de votre site sont censés exécuter (indicateurs de performances clés). Pour un site de commerce électronique, les événements de conversion peuvent correspondre à un affichage détaillé du produit, à un passage en caisse ou à un achat. Pour un site de génération de pistes, l’événement peut correspondre au remplissage d’un formulaire. Les événements de conversion sont comptabilisés sur le site et disposent de leurs propres rapports. Ces événements deviennent également des mesures à inclure dans d’autres rapports et peuvent indiquer la raison pour laquelle les événements de conversion se sont produits ou ce qui y a contribué. </p> <p>L’exception à cette règle d’un événement devenant une mesure est l’événement d’achat, qui recouvre trois mesures : recettes, commandes et unités. </p> <p>Il existe d’autres mesures de conversion qui ne sont pas définies ici, mais les mesures de conversion forment la base de vos analyses marketing, sur lesquelles reposent les autres mesures et rapports. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
