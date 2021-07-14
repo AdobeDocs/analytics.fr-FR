@@ -2,10 +2,10 @@
 title: Sources de données des ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données des ID de transaction.
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 92%
+source-wordcount: '531'
+ht-degree: 45%
 
 ---
 
@@ -13,7 +13,19 @@ ht-degree: 92%
 
 Les sources de données des ID de transaction vous permettent non seulement d’afficher côte à côte des données en ligne et hors ligne, mais également de lier les données. Elles nécessitent l’utilisation de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md) dans votre implémentation Analytics.
 
-Lorsque vous envoyez un accès en ligne contenant une valeur `transactionID`, Adobe prend un « instantané » de toutes les variables définies ou qui persistent à ce moment-là. Si un ID de transaction correspondant transféré via les sources de données est trouvé, les données hors ligne et en ligne sont alors liées. Peu importe quelle source de données est affichée en premier.
+Lorsque vous envoyez un accès en ligne contenant une valeur `transactionID`, Adobe prend un « instantané » de toutes les variables définies ou qui persistent à ce moment-là. Si un ID de transaction correspondant transféré via les sources de données est trouvé, les données hors ligne et en ligne sont alors liées.
+
+Pour utiliser les transactions, l’accès en ligne avec un ID de transaction doit avoir été envoyé et traité avant que les données de source de données de transaction avec cet ID de transaction ne soient envoyées. L’accès en ligne contient des variables (eVars, etc.), mais pas des événements, qui se trouvaient sur l’accès en ligne enregistré avec les informations d’ID de transaction.
+
+Lorsqu’un accès à la source de données de transaction est envoyé, l’ID de transaction sur l’accès à la transaction de la source de données recherche les variables, etc. (et non les événements) qui étaient associés à l’accès en ligne d’origine avec cet ID de transaction. Elle utilise ces variables sur l’accès à la transaction de la source de données, s’il n’y avait aucune valeur pour une variable transmise sur l’accès à la transaction de la source de données.
+
+## Exemple
+
+Si un accès en ligne avec l’ID de transaction 1256 est transmis et qu’il contient `evar1=blue`, `evar2=water` et `event1` sont définis, les données de transaction pour l’ID de transaction 1256 sont enregistrées avec `evar1=blue`, `evar2=water`. Aucune valeur d’événement n’est enregistrée dans les informations de transaction.
+
+Supposons maintenant qu’un accès à la transaction d’une source de données soit transmis par le système avec l’ID de transaction 1256 et `evar1=yellow`, `evar3=mountain` et `event2` définis. Le système trouve les données de transaction enregistrées et dans les jeux d’accès de transaction de source de données `evar2=water` (puisqu’il s’agit de ce qui a été défini sur l’accès d’origine). Elle ne définit pas `evar1=blue` (comme c’était le cas pour l’accès d’origine), car une valeur pour `evar1` (jaune) était déjà définie sur l’accès à la transaction de la source de données.  Ainsi, l’accès à la transaction de la source de données génère `evar1=yellow`, `evar2=water` (à partir de l’accès en ligne d’origine) et `evar3=mountain`. `event2` est défini pour ces trois valeurs d’eVar : l’événement de l’accès à la transaction de la source de données.
+
+Aucune valeur de l’accès à la transaction de la source de données n’est définie `event1` lors du traitement de l’accès à la transaction de la source de données.
 
 ## Processus global des sources de données des ID de transaction
 
