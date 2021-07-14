@@ -4,10 +4,9 @@ audience: admin
 user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 100%
 
 + [Guide d’administration Analytics](home.md)
 + Administration d’Analytics - Aperçu {#admin-overview}
-   + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
+   + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Configuration système requise](sys-reqs.md)
++ [Configuration requise](sys-reqs.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [Classifications des conversions](admin/conversion-var-admin/conversion-classifications.md)
       + [Hiérarchies de classification](admin/conversion-var-admin/classification-hierarchies.md)
       + [Variables de liste](admin/conversion-var-admin/list-var-admin.md)
+      + [eVars de marchandisage](admin/conversion-var-admin/merchandising-evars.md)
    + [Codes de devise](admin/currency.md)
    + [Descriptions des rapports personnalisés](admin/custom-desc-admin.md)
    + [Personnaliser le calendrier](admin/custom-calendar.md)
@@ -113,7 +113,7 @@ ht-degree: 100%
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
       + [Profils de produit pour Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
-      + [Autorisations du profil de produits pour les outils Analytics](admin-console/permissions/analytics-tools.md)
+      + [Autorisations du profil de produit pour les outils Analytics](admin-console/permissions/analytics-tools.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
 + Paramètres de l’entreprise {#company-settings}
    + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
@@ -180,7 +180,7 @@ ht-degree: 100%
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
    + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Affichage/Gestion des paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
-   + [Étiquetage des données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
+   + [Étiqueter les données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
    + [Demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
    + [Étiquettes relatives à la confidentialité des données pour les variables Analytics](c-data-governance/gdpr-labels.md)
    + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
