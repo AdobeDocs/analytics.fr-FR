@@ -2,22 +2,22 @@
 description: Explique comment la nouvelle page d’entrée rassemble Analysis Workspace et Reports & Analytics dans une seule interface et un point d’accès sous l’égide de Workspace.
 title: Nouvelle page d’entrée Adobe Analytics
 role: User, Admin
-source-git-commit: d932a02375f6f124d84dd275cd1134bb25ff76ec
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
-source-wordcount: '3044'
+source-wordcount: '3046'
 ht-degree: 6%
 
 ---
 
 # Nouvelle page d’entrée Adobe Analytics
 
-La nouvelle page d’entrée pour l’analyse des Adobes rassemble Analysis Workspace et Reports &amp; Analytics dans une seule interface et un point d’accès sous l’égide de Workspace. Il comprend une nouvelle page d’accueil du chef de projet, un menu de rapports mis à jour, des rapports modernisés et une nouvelle section d’apprentissage pour vous aider à démarrer plus efficacement.
+La nouvelle page d’entrée d’Adobe Analytics rassemble Analysis Workspace et Reports &amp; Analytics dans une seule interface et un point d’accès sous l’égide de Workspace. Il comprend une nouvelle page d’accueil du chef de projet, un menu de rapports mis à jour, des rapports modernisés et une nouvelle section d’apprentissage pour vous aider à démarrer plus efficacement.
 
 La nouvelle page améliore la visibilité et guide les utilisateurs de Reports &amp; Analytics vers une expérience de création de rapports améliorée dans Workspace.
 
 >[!IMPORTANT]
 >
->Cette landing page sera bientôt en version bêta publique. Il s’agit d’un point de départ facultatif. Si vous préférez, vous pouvez utiliser votre page d’entrée existante, qu’il s’agisse de Workspace ou de Rapports. Si vous décidez de vous inscrire au programme bêta, accédez à la page et cliquez sur **[!UICONTROL Fournir des commentaires]** en haut de l’écran pour consigner vos commentaires et tous les bogues que vous pouvez rencontrer. Vous pouvez vous désinscrire ou revenir au programme bêta à tout moment. Tout travail effectué dans l’interface utilisateur bêta est transféré vers l’expérience Workspace existante/actuelle.
+>Cette landing page sera en version bêta ouverte à partir du 21 juillet 2021. Il s’agit d’un point de départ facultatif. Si vous préférez, vous pouvez utiliser votre page d’entrée existante, qu’il s’agisse de Workspace ou de Rapports. Si vous décidez de vous inscrire au programme bêta, accédez à la page et cliquez sur **[!UICONTROL Fournir des commentaires]** en haut de l’écran pour consigner vos commentaires et tous les bogues que vous pouvez rencontrer. Vous pouvez vous désinscrire ou revenir au programme bêta à tout moment. Tout travail effectué dans l’interface utilisateur bêta est transféré vers l’expérience Workspace existante/actuelle.
 
 ## Accéder à la nouvelle landing page {#access-landing}
 
