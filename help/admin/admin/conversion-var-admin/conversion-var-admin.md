@@ -5,7 +5,7 @@ title: Variables de conversion (eVar)
 feature: Outils d’administration
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Description des champs utilisés lors de la [modification des variables de conve
 | [!UICONTROL Marchandisage] (eVar uniquement) | Les variables de marchandisage peuvent se conformer à l’une des deux syntaxes suivantes :<ul><li>**[!UICONTROL Syntaxe Produits]** : associe la valeur eVar à un produit. **Remarque** : si [!UICONTROL Syntaxe Produits] est sélectionné, la section [!UICONTROL Événement de liaison de merchandising] est désactivée et ne peut pas être sélectionnée pour modification. Pour cette syntaxe, les [!UICONTROL Événements de liaison] ne sont pas applicables.</li><li>**[!UICONTROL Syntaxe de la variable de conversion]** : associe uniquement la valeur eVar à un produit si un [!UICONTROL événement de liaison] survient. Dans ce cas, sélectionnez les événements qui se comportent comme des [!UICONTROL Événements de liaison].  Si vous modifiez ce paramètre sans mettre à jour votre code JavaScript, vous perdrez des données. Voir [Variables de marchandisage](/help/components/dimensions/evar-merchandising.md).</li></ul> |
 | [!UICONTROL Événement de liaison de marchandisage] (eVar uniquement) | Si le marchandisage est défini sur [!UICONTROL Syntaxe de la variable de conversion], les événements sélectionnés lieront la valeur de l’eVar active à un produit. Pour utiliser un [!UICONTROL Événement de liaison], définissez l’[!UICONTROL affectation] sur [!UICONTROL Le plus récent]. Si [!UICONTROL Affectation] est définie sur [!UICONTROL Valeur d’origine], la première liaison de produit eVar demeure jusqu’à l’expiration de l’eVar. Il est possible de sélectionner plusieurs événements en cliquant sur plusieurs éléments de la liste tout en maintenant la touche ctrl (Windows) ou cmd (Mac) enfoncée. Vous ne pouvez sélectionner un élément que lorsque le paramètre « [!UICONTROL Syntaxe de la variable de conversion] » est sélectionné. |
 
-**Expiration**
+### Expiration
 
 Les `eVars` arrivent à expiration après une période que vous avez spécifiée. Une fois arrivées à expiration, elles ne reçoivent plus de crédit pour les événements de succès. Vous pouvez également configurer les eVars pour qu’elles arrivent à expiration lors d’un événement de succès. Ainsi, dans le cas d’une promotion interne qui arrive à expiration à la fin de la visite, celle-ci ne reçoit du crédit que pour les achats ou inscriptions qui ont lieu au cours de la visite pendant laquelle ils ont été activés.
 
@@ -58,10 +58,10 @@ Par exemple, si vous faites passer de 30 à 90 jours l’expiration d’une eVa
 
 Autre exemple : Une eVar, d’une durée de validité de 21 jours, est utilisée en mai pour faire état de promotions internes, et en juin, est utilisée pour capturer des mots-clés de recherche interne. Dans ce cas, le 1er juin, vous devez forcer l’expiration de cette variable ou la réinitialiser. De cette manière, les valeurs de promotion interne ne figureront pas dans les rapports du mois de juin.
 
-**Respect de la casse**
+### Respect de la casse
 
 Les eVars ne sont pas sensibles à la casse. La majuscule ou la minuscule utilisée dans le rapport est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou varier en fonction d’une période (par exemple, mensuelle), selon la variété et la quantité des données associées à la suite de rapports.
 
-**Compteurs**
+### Compteurs
 
 Bien que les eVars soient généralement utilisées pour contenir des valeurs de chaîne, elles peuvent également être configurées pour faire office de compteurs. Elles s’avèrent particulièrement utiles sous cette forme lorsque vous essayez de comptabiliser le nombre d’actions qu’un utilisateur effectue avant un événement. Vous pouvez, par exemple, utiliser une eVar pour capturer le nombre de recherches internes avant un achat. Chaque fois qu’un visiteur effectue une recherche, l’eVar doit contenir une valeur « +1 ». Si un utilisateur effectue quatre recherches avant un achat, une instance est affichée pour chaque compte total : 1.00, 2.00, 3.00 et 4.00. Cependant, seule la valeur 4.00 reçoit du crédit pour l’événement d’achat (mesures Commandes et Recettes). Seuls les nombres positifs sont autorisés comme valeurs d’un compteur eVar.
