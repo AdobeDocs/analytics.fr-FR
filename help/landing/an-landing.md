@@ -1,15 +1,15 @@
 ---
 description: Explique comment la nouvelle page d’entrée rassemble Analysis Workspace et Reports & Analytics dans une seule interface et un point d’accès sous l’égide de Workspace.
-title: Nouvelle page d’entrée Adobe Analytics
+title: Nouvelle page de destination dʼAdobe Analytics
 role: User, Admin
 source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
 workflow-type: tm+mt
 source-wordcount: '3046'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
-# Nouvelle page d’entrée Adobe Analytics
+# Nouvelle page de destination dʼAdobe Analytics
 
 La nouvelle page d’entrée d’Adobe Analytics rassemble Analysis Workspace et Reports &amp; Analytics dans une seule interface et un point d’accès sous l’égide de Workspace. Il comprend une nouvelle page d’accueil du chef de projet, un menu de rapports mis à jour, des rapports modernisés et une nouvelle section d’apprentissage pour vous aider à démarrer plus efficacement.
 
@@ -17,9 +17,9 @@ La nouvelle page améliore la visibilité et guide les utilisateurs de Reports &
 
 >[!IMPORTANT]
 >
->Cette landing page sera en version bêta ouverte à partir du 21 juillet 2021. Il s’agit d’un point de départ facultatif. Si vous préférez, vous pouvez utiliser votre page d’entrée existante, qu’il s’agisse de Workspace ou de Rapports. Si vous décidez de vous inscrire au programme bêta, accédez à la page et cliquez sur **[!UICONTROL Fournir des commentaires]** en haut de l’écran pour consigner vos commentaires et tous les bogues que vous pouvez rencontrer. Vous pouvez vous désinscrire ou revenir au programme bêta à tout moment. Tout travail effectué dans l’interface utilisateur bêta est transféré vers l’expérience Workspace existante/actuelle.
+>Cette landing page sera en version bêta ouverte à partir du 21 juillet 2021. Il s’agit d’un point de départ facultatif. Si vous préférez, vous pouvez utiliser votre page de destination existante, quʼil s’agisse de Workspace ou de Reports. Si vous décidez de vous inscrire au programme bêta, accédez à la page et cliquez sur **[!UICONTROL Fournir des commentaires]** en haut de l’écran pour consigner vos commentaires et tous les bogues que vous pouvez rencontrer. Vous pouvez vous désinscrire ou revenir au programme bêta à tout moment. Tout travail effectué dans l’interface utilisateur bêta est transféré vers l’expérience Workspace existante/actuelle.
 
-## Accéder à la nouvelle landing page {#access-landing}
+## Accès à la nouvelle page de destination {#access-landing}
 
 Après vous être connecté à Adobe Experience Cloud et Analytics, activez le bouton d’activation/désactivation [!UICONTROL Nouvelle page d’entrée - Bêta] dans le coin inférieur gauche. L’accès au bouton d’activation/désactivation est spécifique à l’utilisateur par organisation et non à l’entreprise.
 
@@ -142,7 +142,7 @@ La page Apprentissage contient des vidéos et des tutoriels pratiques, ainsi que
 
 * Le bouton **[!UICONTROL En savoir plus]** de la fenêtre modale de la vidéo permet d’accéder à une page de documentation Adobe Experience League contenant plus de contenu d’aide relatif à la vidéo que vous venez de regarder.  **[!UICONTROL D’autres]** vidéos vous montrent la liste de lecture complète d’Analysis Workspace YouTube.
 
-## FAQ sur la nouvelle page d’entrée {#landing-faq}
+## FAQ sur la nouvelle page de destination {#landing-faq}
 
 | Question | Réponse |
 | --- | --- |
@@ -152,4 +152,4 @@ La page Apprentissage contient des vidéos et des tutoriels pratiques, ainsi que
 | Mes favoris Reports &amp; Analytics actuels sont-ils transférés ? | Non, ils ne sont PAS portés vers l&#39;avant. Toutefois, les favoris de projet Workspace sont reportés. |
 | Y a-t-il un nombre maximal de projets que je puisse épingler ? | Non, le nombre de projets que vous pouvez épingler n’est pas limité. |
 | Les administrateurs peuvent-ils désigner cette nouvelle page d’entrée pour leurs utilisateurs ? | Non, les administrateurs ne peuvent pas désigner la nouvelle landing page au nom des utilisateurs. Les utilisateurs individuels doivent activer le bouton d’activation eux-mêmes. |
-| Tous les rapports qui existent actuellement dans Reports &amp; Analytics sont-ils toujours disponibles ? | Non, les rapports suivants ont été supprimés progressivement, en fonction des données d’utilisation globales : <ul><li>Toute eVar/prop/events/classifications personnalisée<li>Mes rapports recommandés</li><li>Visiteurs uniques par heure/par jour/par semaine/par mois/par trimestre/par an</li><li>Clients uniques quotidiens/hebdomadaires/mensuels/trimestriels/annuels</li><li>Profondeur de nom d’action</li><li>Synthèse des noms d’action</li><li>Ajouter tableau de bord</li><li>Âge</li><li>Prise en charge audio</li><li>Informations de facturation</li><li>Clics jusqu’à la page</li><li>Profondeur de couleur</li><li>Prise en charge des cookies</li><li>Cookies</li><li>Types de connexion</li><li>Éléments créatifs</li><li>Type de carte de crédit</li><li>Vente croisée</li><li>Entonnoirs d’événement personnalisés</li><li>Liens personnalisés</li><li>Customer ID</li><li>Jour de la semaine</li><li>Nom de l’action d’entrée</li><li>Quitter le nom de l’action</li><li>Liens de sortie</li><li>Abandon</li><li>Téléchargements de fichiers</li><li>Rechercher en magasin</li><li>Chemins complets</li><li>Genre</li><li>Règle VISTA de type accès</li><li>Prise en charge des images</li><li>Java</li><li>JavaScript</li><li>JavaScript version </li><li>Gestion des signets</li><li>Gérer les tableaux de bord</li><li>Intensité de couleur du moniteur</li><li>Surveiller les résolutions</li><li>Abonnements à la newsletter</li><li>Nom de l’action suivante</li><li>Flux de nom de l’action suivante</li><li>Recherches nulles</li><li>Système d’exploitation</li><li>Examen des commandes</li><li>Page du jour</li><li>Pages introuvables</li><li>PathFinder</li><li>Longueur de chemin</li><li>Nom de l’action précédente</li><li>Flux de nom d’action précédente</li><li>Activité Produit</li><li>Coût du produit</li><li>Service produit</li><li>Catégorie de stock de produit</li><li>Nom du produit</li><li>Études de produits</li><li>Saison des produits</li><li>Partages de produits</li><li>Zoom sur les produits</li><li>Recharge</li><li>Recherches</li><li>Serveurs</li><li>Visites sur une seule page</li><li>Informations d’expédition</li><li>Hiérarchie du site</li><li>Mentions des réseaux sociaux</li><li>Heure</li><li>Durée de consultation du nom de l’action</li><li>Prise en charge vidéo</li><li>État du visiteur</li></ul> |
+| Tous les rapports qui existent actuellement dans Reports &amp; Analytics sont-ils toujours disponibles ? | Non, les rapports suivants ont été rendu obsolètes, en fonction des données dʼutilisation globales : <ul><li>Toute eVar/prop/events/classifications personnalisée<li>Mes rapports recommandés</li><li>Visiteurs uniques par heure/par jour/par semaine/par mois/par trimestre/par an</li><li>Clients uniques quotidiens/hebdomadaires/mensuels/trimestriels/annuels</li><li>Profondeur de nom d’action</li><li>Synthèse des noms d’action</li><li>Ajouter tableau de bord</li><li>Âge</li><li>Prise en charge audio</li><li>Informations de facturation</li><li>Clics jusqu’à la page</li><li>Profondeur de couleur</li><li>Prise en charge des cookies</li><li>Cookies</li><li>Types de connexion</li><li>Éléments créatifs</li><li>Type de carte de crédit</li><li>Vente croisée</li><li>Entonnoirs d’événement personnalisés</li><li>Liens personnalisés</li><li>Customer ID</li><li>Jour de la semaine</li><li>Nom de l’action d’entrée</li><li>Quitter le nom de l’action</li><li>Liens de sortie</li><li>Abandon</li><li>Téléchargements de fichiers</li><li>Rechercher en magasin</li><li>Chemins complets</li><li>Genre</li><li>Règle VISTA de type accès</li><li>Prise en charge des images</li><li>Java</li><li>JavaScript</li><li>JavaScript version </li><li>Gestion des signets</li><li>Gérer les tableaux de bord</li><li>Intensité de couleur du moniteur</li><li>Surveiller les résolutions</li><li>Abonnements à la newsletter</li><li>Nom de l’action suivante</li><li>Flux de nom de l’action suivante</li><li>Recherches nulles</li><li>Système d’exploitation</li><li>Examen des commandes</li><li>Page du jour</li><li>Pages introuvables</li><li>PathFinder</li><li>Longueur de chemin</li><li>Nom de l’action précédente</li><li>Flux de nom d’action précédente</li><li>Activité Produit</li><li>Coût du produit</li><li>Service produit</li><li>Catégorie de stock de produit</li><li>Nom du produit</li><li>Études de produits</li><li>Saison des produits</li><li>Partages de produits</li><li>Zoom sur les produits</li><li>Recharge</li><li>Recherches</li><li>Serveurs</li><li>Visites sur une seule page</li><li>Informations d’expédition</li><li>Hiérarchie du site</li><li>Mentions des réseaux sociaux</li><li>Heure</li><li>Durée de consultation du nom de l’action</li><li>Prise en charge vidéo</li><li>État du visiteur</li></ul> |
