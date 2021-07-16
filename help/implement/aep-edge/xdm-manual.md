@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Le SDK Web Adobe Experience Platform (AEP) comprend des aides vous permettant de
 
 Pour les données XDM qui ne sont pas automatiquement mappées vers Analytics, vous pouvez ajouter des [données contextuelles](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=fr) correspondant à votre [schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr). Elles peuvent ensuite être utilisées par les [règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=fr) Analytics pour renseigner les variables Analytics.
 
-Vous pouvez également utiliser un ensemble d’actions et de listes de produits par défaut pour envoyer ou récupérer des données avec le [SDK Web AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
+Vous pouvez également utiliser des listes de produits et un ensemble dʼactions par défaut pour envoyer ou récupérer des données avec le [SDK Web AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=fr).
 
 ## Données contextuelles
 
