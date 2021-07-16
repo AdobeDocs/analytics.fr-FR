@@ -1,16 +1,20 @@
 ---
 title: eVars de marchandisage et méthodes de recherche de produits
 description: Exploration approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et allouent les données.
-source-git-commit: eb508167930019c51823e652fc16122e9e416d07
+source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
 workflow-type: tm+mt
-source-wordcount: '4949'
+source-wordcount: '5337'
 ht-degree: 0%
 
 ---
 
 # eVars de marchandisage et méthodes de recherche de produits
 
-Ce document détaillé explique les concepts sous-jacents aux eVars de marchandisage, qui traitent et allouent les données différemment des eVars standard. Il explique également comment les eVars de marchandisage se rapportent aux méthodes de recherche de produits.
+Ce document très détaillé explique les concepts sous-jacents aux eVars de marchandisage, qui traitent et allouent les données différemment des eVars standard. Il explique également comment les eVars de marchandisage se rapportent aux méthodes de recherche de produits.
+
+## Aperçu
+
+L’utilisation d’eVars de marchandisage vous permet d’allouer toute activité réussie aux valeurs capturées par les eVars à un niveau *par produit* au lieu d’un niveau *par visite/par commande*.
 
 Bien que la plupart des sites web de vente au détail disposent de plusieurs moyens de rechercher des produits, Adobe considère que les méthodes suivantes sont les méthodes de recherche de produits fondamentales dont chaque client de vente au détail doit effectuer le suivi dans Adobe Analytics :
 
@@ -30,7 +34,7 @@ Nous pouvons utiliser un eVar supplémentaire pour mesurer les performances de t
 
 * eVar1 : Méthodes de recherche de produits
 
-Au lieu de configurer l’une de ces variables comme eVars standard, configurez-les comme des eVars de marchandisage. L’utilisation d’eVars de marchandisage vous permet d’allouer toute activité réussie aux valeurs capturées par les eVars à un niveau *par produit* au lieu d’un niveau *par visite/par commande*. Ce document clarifie la différence entre l’attribution par produit et l’attribution par commande dans l’ensemble.
+Au lieu de configurer l’une de ces variables comme eVars standard, configurez-les comme des eVars de marchandisage.
 
 Pour démontrer comment définir ces variables, voici un exemple où un visiteur décide d’utiliser la recherche interne par mot-clé &quot;sandales&quot; pour trouver un produit sur le site. Sur la page des résultats de recherche par mot-clé, vous devez capturer des données dans au moins deux eVars :
 
@@ -49,11 +53,11 @@ Par exemple, lorsqu’un utilisateur recherche des produits à l’aide du mot-c
 
 ## Paramètres des eVars de marchandisage
 
-Avant de poursuivre l’exemple &quot;sandales&quot;, voici les différents paramètres que vous pouvez utiliser avec vos eVars de marchandisage.  La capture d’écran suivante provient du Gestionnaire de suites de rapports. Pour y accéder, sélectionnez Analytics > Admin > Suites de rapports > Modifier les paramètres > Conversion > Variables de conversion > Ajouter > Activer le marchandisage.
+Voici les différents paramètres que vous pouvez utiliser avec vos eVars de marchandisage. La capture d’écran suivante provient du Gestionnaire de suites de rapports. Accédez à [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Suites de rapports] > [!UICONTROL Modifier les paramètres] > [!UICONTROL Conversion] > [!UICONTROL Variables de conversion] > &lt;aAdd2/>new] > [!UICONTROL Activer le marchandisage].[!UICONTROL 
 
 ![](assets/merch-evars1.png)
 
-Les sections ci-dessous du tableau contiennent plus de détails sur ces paramètres.
+Pour plus d’informations sur ces paramètres, reportez-vous aux sections ci-dessous du tableau.
 
 | Paramètre | Description |
 |--- | --- |
@@ -118,19 +122,36 @@ Comme mentionné précédemment, les eVars de marchandisage vous permettent d’
 
 ### Expire après
 
-Le paramètre d’expiration d’un eVar de marchandisage vous permet de choisir le moment où les liaisons produit/eVar doivent expirer et le moment où la colonne post_evar ne doit plus être remplie automatiquement après qu’un eVar a été transmis dans une demande d’image. L’expiration d’un eVar peut avoir lieu lorsqu’un événement de succès (de votre choix) est enregistré ou qu’une certaine période (encore une fois, de votre choix) est écoulée. Adobe Analytics ne permet qu’un seul paramètre d’expiration à la fois par eVar.
+Le paramètre d’expiration d’un eVar de marchandisage vous permet de choisir
 
-Pour la solution de méthode de recherche de produit, la meilleure pratique pour définir l’expiration d’un eVar de marchandisage doit être de la définir sur la durée pendant laquelle un produit est conservé dans le panier d’un site avant que le site ne le supprime automatiquement du panier OU lorsque l’événement d’achat a lieu. Avec l’un ou l’autre des paramètres d’expiration, le crédit de commande/unité/recette attribué à tous les produits achetés par un visiteur sera attribué aux valeurs de l’eVar de marchandisage auxquelles les produits étaient liés à ce moment-là.
+* Lorsque les liaisons produit/eVar expirent, et
+
+* Lorsque la colonne post_evar ne doit plus être automatiquement remplie après qu’un eVar a été transmis dans une demande d’image.
+
+L’expiration d’un eVar peut avoir lieu lorsqu’un événement de succès est enregistré ou qu’une certaine période s’écoule. Adobe Analytics ne permet qu’un seul paramètre d’expiration à la fois, par eVar.
+
+Pour la méthode de recherche de produit, la meilleure pratique pour définir l’expiration d’un eVar de marchandisage doit être de la définir sur
+
+* Le temps qu’un produit est conservé dans le panier d’un site avant que le site ne le retire automatiquement du panier
+* OU lorsque l’événement d’achat a lieu.
+
+Avec l’un ou l’autre de ces paramètres, le crédit de commande/unité/recette attribué à tous les produits achetés par un visiteur est attribué aux valeurs de l’eVar de marchandisage auxquelles les produits étaient liés à ce moment-là.
 
 ### Type
 
-Le paramètre de type eVar détermine le type de données inséré dans l’eVar. Dans la plupart des cas, voire dans tous les cas, lors de la configuration d’un eVar de marchandisage, cette valeur doit être égale à &quot;Texte&quot;. L’utilisation d’un type de &quot;compteur&quot; pour un eVar de marchandisage est rare, mais, en fonction des besoins de suivi, peut être utilisée de manière efficace pour affecter les valeurs de l’eVar de marchandisage par produit.  La discussion de solutions avec un type de &quot;compteur&quot; n’entre pas dans le cadre de ce document.
+Le paramètre de type eVar détermine le type de données inséré dans l’eVar. Dans la plupart des cas, cette valeur doit être égale à &quot;Texte&quot;. L’utilisation de &quot;compteur&quot; pour un eVar de marchandisage est rare. Cependant, le &quot;compteur&quot; peut être utilisé pour affecter les valeurs de compteur à l’eVar sur une base de produit.  La discussion de solutions avec un type de &quot;compteur&quot; n’entre pas dans le cadre de ce document.
 
 ### Événement de liaison de marchandisage
 
-Le paramètre Événement de liaison de marchandisage vous permet de spécifier les conditions qui provoqueraient la liaison d’un produit à la valeur d’un eVar de marchandisage. Ces conditions sont limitées au déclenchement d’événements de succès ou d’eVars spécifiques uniquement ; le déclenchement de variables de trafic (par exemple, props) n’a aucun effet sur les liaisons de marchandisage.
+Le paramètre Événement de liaison de marchandisage permet de spécifier les conditions pour qu’un produit soit lié à la valeur d’un eVar de marchandisage. Ces conditions sont limitées au déclenchement d’événements de succès ou d’eVars spécifiques uniquement. Le déclenchement de variables de trafic (par exemple, props) n’a aucun effet sur les liaisons de marchandisage.
 
-L’une des fonctionnalités les plus utiles du paramètre Événement de liaison de marchandisage est la possibilité de lier un produit à une valeur d’eVar par le biais de plusieurs événements. Par exemple, le paramètre peut autoriser la liaison de produits à une valeur d’eVar de marchandisage par l’intermédiaire d’un événement d’affichage de produit, d’un événement d’ajout de panier ou d’un événement d’achat. Le paramètre peut même, et le fait par défaut, lier un produit à une valeur d’eVar de marchandisage chaque fois qu’un autre événement/eVar (le marchandisage ou autre) est contenu dans la même demande d’image que le produit.
+Notez que le paramètre Événement de liaison de marchandisage peut lier un produit à une valeur d’eVar par le biais de plusieurs événements. Exemples :
+
+* Au moyen d’un événement d’affichage de produit
+* Au moyen d’un événement d’ajout de panier
+* Par le biais d’un événement d’achat
+
+Par défaut, le paramètre associe un produit à une valeur d’eVar de marchandisage chaque fois qu’un autre événement/eVar (marchandisage ou standard) est contenu dans la même demande d’image que le produit.
 
 ### Réinitialiser le
 
@@ -141,7 +162,7 @@ Le paramètre Réinitialiser vous permet d’&quot;expirer&quot; immédiatement 
 
 ## Quels paramètres devez-vous utiliser ?
 
-Parmi les nombreuses combinaisons de paramètres disponibles, vous pouvez vous demander quels paramètres sont les &quot;bonnes pratiques&quot;.
+Parmi les nombreuses combinaisons de paramètres disponibles, vous pouvez vous demander : Quels paramètres sont les bonnes pratiques ?
 
 Si vous souhaitez lier &quot;recherche de mots-clés internes&quot; à l’ID de produit 12345, la variable products est définie comme suit :
 
@@ -206,7 +227,7 @@ La syntaxe du produit reste utile lorsque
 * Plusieurs produits avec le même ID de produit sont interactifs simultanément et
 * Les eVars à lier à ces produits doivent avoir des valeurs différentes par ID de produit.
 
-Par exemple, de nombreux produits vêtements disposent de &quot;SKU enfants&quot;, qui désignent la taille, la couleur, le style et tout autre attribut. Ces attributs séparent un seul produit enfant des autres produits frères appartenant au même produit parent. Disons que vous décidez d&#39;acheter un t-shirt bleu moyen plus un grand t-shirt rouge. Supposons que les deux chemises possèdent l’ID de produit parent &quot;tshirt123&quot; et que eVar10 ait été configuré pour capturer les SKU enfants. Les variables définies sur la page de confirmation d’achat sont définies comme suit :
+Par exemple, de nombreux produits vêtements disposent de &quot;SKU enfants&quot;, qui désignent la taille, la couleur, le style et tout autre attribut. Ces attributs séparent un seul produit enfant des autres produits appartenant au même produit parent. Disons que vous décidez d&#39;acheter un t-shirt bleu moyen plus un grand t-shirt rouge. Supposons que les deux chemises possèdent l’ID de produit parent &quot;tshirt123&quot; et que `eVar10` ait été configuré pour capturer les SKU enfants. Les variables définies sur la page de confirmation d’achat sont définies comme suit :
 
 ```
 s.events='purchase';
@@ -276,12 +297,14 @@ En reprenant l’exemple ci-dessus, la valeur `eVar2` de &quot;sandals&quot; et 
 
 Il y a une autre chose à reconsidérer avec la syntaxe de la variable de conversion. Les événements de liaison doivent être configurés pour lier une valeur d’eVar à un produit. La simple définition d’un eVar de marchandisage (dans sa propre variable) à côté d’un produit (dans la variable products) dans une demande d’image Adobe Analytics ne lie pas nécessairement la valeur d’eVar au produit.  Au lieu de cela, le paramètre Événement de liaison de marchandisage , défini dans le Gestionnaire de suites de rapports, détermine les critères qui lient une valeur d’eVar à un produit.
 
-Puisque nous voulons lier les valeurs de l’eVar de la méthode de recherche de produit aux produits chaque fois qu’une interaction de produit a lieu (ce qui implique qu’un produit a été &quot;trouvé&quot;), il est sans risque de présumer que les interactions &quot;produit trouvé&quot; les plus courantes qui peuvent avoir lieu sont soit une consultation de produit (lorsque les visiteurs accèdent à une page des détails du produit), soit un ajout au panier (lorsque les visiteurs ajoutent un produit au panier directement à partir d’une page de la méthode de recherche de produit).)  Par conséquent, nous pouvons choisir ces deux événements (prodView, scAdd) comme événements de liaison de marchandisage &quot;fondamentaux&quot;.
-Chaque fois que l’un de ces événements de liaison est contenu dans une demande d’image, tout ID de produit contenu dans la même demande (dans la variable products) et qui n’a pas déjà été lié à un eVar de marchandisage est lié aux valeurs les plus récentes transmises à l’eVar de marchandisage (comme contenu dans les colonnes post_evar ). Toute tentative de rebond de ces produits après cette liaison initiale sera ignorée lorsque le paramètre Affectation (liaison) est défini sur &quot;Valeur d’origine (première)&quot;.
+Puisque nous voulons lier les valeurs de l’eVar de la méthode de recherche de produit aux produits chaque fois qu’une interaction de produit a lieu (ce qui implique qu’un produit a été &quot;trouvé&quot;), il est sans risque de présumer que les interactions &quot;produit trouvé&quot; les plus courantes qui peuvent avoir lieu sont soit une consultation de produit (lorsque les visiteurs accèdent à une page des détails du produit), soit un ajout au panier (lorsque les visiteurs ajoutent un produit au panier directement à partir d’une page de la méthode de recherche de produit).)
+
+Par conséquent, nous pouvons choisir ces deux événements (prodView, scAdd) comme événements de liaison de marchandisage &quot;fondamentaux&quot;.
+Voici ce qui se passe lorsque l’un de ces événements de liaison est contenu dans une demande d’image. Tous les ID de produit qui sont contenus dans la même requête (dans la variable products) et qui n’ont pas été liés à un eVar de marchandisage sont liés aux valeurs les plus récentes transmises dans l’eVar de marchandisage (colonnes post_evar). Toute tentative de rebond de ces produits après cette liaison initiale est ignorée lorsque le paramètre Affectation (liaison) est défini sur &quot;Valeur d’origine (première)&quot;.
 
 ### Paramètres des bonnes pratiques
 
-Voici les paramètres des bonnes pratiques. Ils mettent en oeuvre la méthode de recherche de produit aussi facilement que possible avec l’ensemble de résultats le plus puissant. Adobe recommande aux clients de configurer chacune de leurs eVars de marchandisage de méthode de recherche de produit (en général) comme suit :
+Voici les paramètres des bonnes pratiques. Ils mettent facilement en oeuvre la méthode de recherche de produit avec les meilleurs résultats. Adobe recommande aux clients de configurer chacune de leurs eVars de marchandisage de méthode de recherche de produit (en général) comme suit :
 
 * Marchandisage activé : Activé
 * Marchandisage [syntaxe] : Syntaxe de la variable de conversion
@@ -323,7 +346,7 @@ s.products=";sandals123"
 s.events="prodView";
 ```
 
-Compte tenu des colonnes post_evar, les serveurs de traitement d’Adobe voient cet accès comme suit :
+Dans les colonnes post_evar, les serveurs de traitement d’Adobe voient cet accès comme suit :
 
 ```
 s.products=";sandals123"
@@ -344,4 +367,22 @@ post_events="prodView"
 post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell"
 ```
 
-La valeur contenue dans la colonne post_products peut vous être familière. Faites défiler ce document vers le haut et comparez cette valeur post_products à la valeur s.products , comme illustré sous .  Vous remarquerez que la colonne post_products est définie à l’aide de la syntaxe de la variable de produit. Cela signifie que la liaison &quot;copie&quot; les valeurs de l’eVar Syntaxe de la variable de conversion dans la variable products via Syntaxe du produit. Cette action de copie n’a lieu que lorsque la variable products et un événement de liaison (définis via la configuration de l’eVar) sont contenus dans la même requête. À ce stade, la ou les valeurs contenues dans la ou les colonnes post_eVar sont liées au produit. Cette liaison est représentée par l’intermédiaire de la syntaxe du produit, telle qu’elle est stockée dans la colonne post_products .
+La valeur contenue dans la colonne post_products peut vous être familière. Faites défiler ce document vers le haut et comparez cette valeur post_products à la valeur s.products , comme illustré sous .  Notez que la colonne post_products est définie à l’aide de la syntaxe de la variable de produit.
+
+Cela signifie que la liaison &quot;copie&quot; les valeurs de l’eVar Syntaxe de la variable de conversion dans la variable products via Syntaxe du produit. Cette action de copie n’a lieu que lorsque la variable products et un événement de liaison (définis via la configuration de l’eVar) sont contenus dans la même requête. À ce stade, la ou les valeurs contenues dans la ou les colonnes post_eVar sont liées au produit. Cette liaison est représentée par l’intermédiaire de la syntaxe du produit, telle qu’elle est stockée dans la colonne post_products .
+
+## eVars de marchandisage, mesure Instances et Attribution IQ
+
+Lorsqu’un eVar standard est envoyé dans un appel au serveur Analytics, la valeur de sa colonne post_evar lui est toujours attribuée. Les instances représentent le nombre de fois où un eVar a été défini sur une valeur particulière dans une demande d’image.
+
+Supposons, par exemple, que `eVar10` soit un eVar standard avec l’attribution [!UICONTROL Dernière touche]. Si vous définissez `s.eVar10="hello world"` sur une page, la valeur de &quot;hello world&quot; est transmise à la colonne post_evar10 lorsque Adobe traite l’accès. La mesure des instances est égale à &quot;1&quot; pour chaque paramètre `eVar10` individuel de `hello world`. Gardez à l’esprit qu’une instance n’est pas toujours enregistrée lorsque la colonne post_evar a une valeur. La colonne post_evar détermine plutôt la valeur qui obtient l’instance lorsqu’une instance est enregistrée.
+
+Les instances d’un eVar de marchandisage attribuent les valeurs collectées par l’eVar. Mais cela ne se produit que lorsqu’un produit lié à la valeur de l’eVar de marchandisage a été &quot;interagi&quot; avec en même temps.
+
+Par exemple, la définition de `s.eVar1="Internal Keyword Search"` en elle-même n’accorde aucun crédit de mesure d’instance à la valeur eVar1 de &quot;Recherche de mots-clés internes&quot;. Une instance IS enregistrée à ce stade. Cependant, à moins qu’un produit ne soit lié à cette valeur de &quot;recherche de mots-clés internes&quot; au même moment que `eVar1` soit défini, l’instance est attribuée au compartiment Non spécifié. En d’autres termes, la valeur `eVar1` de &quot;Recherche de mots-clés internes&quot; peut obtenir une instance. Mais cela se produit uniquement lorsqu’un produit lié à la valeur de &quot;recherche de mots-clés internes&quot; apparaît dans la variable products dans la même demande d’image.
+
+En résumé, sans configuration supplémentaire, la mesure Instances d’usine pour un eVar de marchandisage est moins utile. Heureusement, Adobe a publié [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Il vous permet d’appliquer plusieurs modèles d’attribution pour toute mesure personnalisée collectée par Adobe Analytics. Les mesures qui appliquent ces modèles d’attribution n’utilisent pas les valeurs contenues dans les colonnes post_evar ni les valeurs liées à un produit particulier. Ces mesures utilisent uniquement les valeurs transmises par le biais des demandes d’image (ou les valeurs capturées par le biais des règles de traitement Adobe Analytics). Vous pouvez utiliser les fonctionnalités d’Attribution IQ pour obtenir une mesure d’instances correctement attribuée pour toutes les eVars de marchandisage qui utilisent la syntaxe de la variable de conversion.
+
+![](assets/merch-evars3.png)
+
+Lors de l’ajout d’une mesure d’instance pour un eVar de marchandisage à un rapport, le modèle Attribution IQ approprié serait le modèle &quot;Dernière touche&quot;. Le paramètre Intervalle de recherche en amont pour le modèle n’a pas d’importance dans ce cas. La raison est qu’un modèle d’attribution Dernière touche &quot;forcé&quot; accorde toujours le crédit d’instance à chaque valeur individuelle transmise par le biais d’une requête. Cela ne se produit pas si les paramètres d’attribution/de liaison réels de l’eVar sont définis sur &quot;Le plus récent (Dernier)&quot; et sur &quot;Valeur d’origine (Première)&quot;.
