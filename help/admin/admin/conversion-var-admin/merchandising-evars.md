@@ -1,7 +1,7 @@
 ---
 title: eVars de marchandisage et méthodes de recherche de produits
 description: Exploration approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et allouent les données.
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ Par exemple, la définition de `s.eVar1="Internal Keyword Search"` en elle-même
 
 En résumé, sans configuration supplémentaire, la mesure Instances d’usine pour un eVar de marchandisage est moins utile. Heureusement, Adobe a publié [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en). Il vous permet d’appliquer plusieurs modèles d’attribution pour toute mesure personnalisée collectée par Adobe Analytics. Les mesures qui appliquent ces modèles d’attribution n’utilisent pas les valeurs contenues dans les colonnes post_evar ni les valeurs liées à un produit particulier. Ces mesures utilisent uniquement les valeurs transmises par le biais des demandes d’image (ou les valeurs capturées par le biais des règles de traitement Adobe Analytics). Vous pouvez utiliser les fonctionnalités d’Attribution IQ pour obtenir une mesure d’instances correctement attribuée pour toutes les eVars de marchandisage qui utilisent la syntaxe de la variable de conversion.
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 Lors de l’ajout d’une mesure d’instance pour un eVar de marchandisage à un rapport, le modèle Attribution IQ approprié serait le modèle &quot;Dernière touche&quot;. Le paramètre Intervalle de recherche en amont pour le modèle n’a pas d’importance dans ce cas. La raison est qu’un modèle d’attribution Dernière touche &quot;forcé&quot; accorde toujours le crédit d’instance à chaque valeur individuelle transmise par le biais d’une requête. Cela ne se produit pas si les paramètres d’attribution/de liaison réels de l’eVar sont définis sur &quot;Le plus récent (Dernier)&quot; et sur &quot;Valeur d’origine (Première)&quot;.
