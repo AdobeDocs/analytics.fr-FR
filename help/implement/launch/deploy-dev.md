@@ -1,28 +1,31 @@
 ---
 title: Déploiement d’Adobe Analytics dans un environnement de développement
-description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de développement.
+description: Découvrez comment utiliser des balises pour déployer Adobe Analytics dans votre environnement de développement.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '544'
-ht-degree: 100%
+source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 66%
 
 ---
 
 # Déploiement d’une mise en œuvre d’Analytics dans un environnement de développement
 
-Une fois qu’une propriété a été créée et configurée dans Launch, les bibliothèques sont prêtes à être déployées et le code est prêt à être mis en œuvre sur votre site.
+Une fois que vous avez créé et configuré une propriété de balise, les bibliothèques sont prêtes à être déployées et le code est implémenté sur votre site.
+
+>[!NOTE]
+>Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 
-[Créez et configurez une propriété pour Adobe Analytics dans Launch](create-analytics-property.md) : accédez à l’outil et créez un espace pour votre mise en œuvre Analytics.
+[Créez et configurez une propriété de balise pour Adobe Analytics](create-analytics-property.md) : Accédez à l’outil et créez un espace pour votre mise en oeuvre Analytics.
 
 ## Création d’adaptateurs et d’environnements
 
-Launch prend en charge de nombreux processus organisationnels pour le déploiement de code. Pour créer le minimum de composants nécessaires à une mise en œuvre Analytics, procédez comme suit. En tant qu’administrateur Launch, vous pouvez travailler au sein de votre organisation pour établir le processus approprié pour le déploiement de solutions Adobe.
+Les balises prennent en charge de nombreux workflows organisationnels dans le code de déploiement. Pour créer le minimum de composants nécessaires à une mise en œuvre Analytics, procédez comme suit. En tant qu’administrateur de balises, vous pouvez travailler au sein de votre organisation pour établir le processus approprié pour le déploiement des solutions Adobe.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
+2. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
 3. Cliquez sur l’onglet Adaptateurs, puis sur Ajouter un adaptateur.
 4. Nommez-le « Akamai », puis sélectionnez Akamai dans la liste déroulante de types. Cliquez sur Enregistrer.
 5. Accédez à l’onglet Environnements, puis cliquez sur Créer un environnement.
@@ -35,16 +38,16 @@ Launch prend en charge de nombreux processus organisationnels pour le déploieme
 Malgré toutes les modifications et configurations apportées jusqu’à présent, aucun code n’a été publié. La création d’une bibliothèque, grossièrement traduite en un ensemble de modifications, permet la publication de code à utiliser sur votre site.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
+2. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
 3. Cliquez sur l’onglet Publication, puis sur Ajouter une nouvelle bibliothèque.
 4. Nommez la bibliothèque « Modifications initiales », puis sélectionnez votre environnement de développement.
 5. Cliquez sur Ajouter toutes les ressources modifiées, ce qui permet de répertorier automatiquement Adobe Analytics, Identity Service et Core.
 6. Cliquez sur Enregistrer.
 7. Dans l’écran du processus de publication, cliquez sur la liste déroulante en regard de votre nouvelle bibliothèque, puis sur Créer pour le développement. Au bout de quelques secondes, le point jaune de la bibliothèque devient vert, ce qui indique que la compilation a réussi.
 8. Accédez à l’onglet Environnements, puis cliquez sur votre environnement de développement.
-9. Sous « Installer Launch », copiez les blocs de code et communiquez-les aux propriétaires du site web de votre organisation.
+9. Sous &quot;Installer des balises&quot;, copiez les blocs de code et fournissez-les aux propriétaires de site web de votre entreprise.
 
-## Installation de Launch dans l’environnement de développement de votre site web
+## Installer des balises dans l’environnement de développement de votre site web
 
 Si vous contrôlez le code de votre site web, mettez en œuvre les deux blocs de code dans leurs emplacements respectifs (dans la balise `<head>` et juste au-dessus de la balise de fermeture `</body>`) sur chaque page de votre site. Ce code est généralement placé dans le modèle global du site. Une page vierge contenant uniquement le code de mise en œuvre se présenterait comme suit :
 
@@ -71,8 +74,8 @@ Une raison fréquente est que des éléments existent déjà dans d’autres bib
 
 ## Documentation et ressources supplémentaires
 
-- [Prise en main de Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=fr) : découverte du processus de base de Launch
-- [Publication à l’aide de Launch](https://experienceleague.adobe.com/docs/launch/using/reference/publish/overview.html?lang=fr) : en savoir plus sur la publication et les environnements
+- [Guide](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) de démarrage rapide : Découvrez le processus de base de la mise en oeuvre des balises.
+- [Présentation de la publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=en) : En savoir plus sur la publication et les environnements
 
 ## Étapes suivantes
 
