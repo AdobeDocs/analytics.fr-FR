@@ -1,18 +1,20 @@
 ---
 title: Validation de la mise en œuvre d’un développement et publication en production
-description: Découvrez comment utiliser Adobe Experience Platform Launch pour déployer Adobe Analytics dans votre environnement de production.
+description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '645'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 64%
 
 ---
 
 # Validation de la mise en œuvre d’un développement et publication en production
 
-Une fois que votre bibliothèque Adobe Experience Platform Launch est envoyée en production, votre organisation peut commencer à utiliser Adobe Analytics pour extraire des rapports de base.
+Une fois votre bibliothèque de balises envoyée en production, votre entreprise peut commencer à utiliser Adobe Analytics pour extraire des rapports de base.
+
+>[!NOTE]
+>Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 
@@ -23,9 +25,9 @@ Une fois que votre bibliothèque Adobe Experience Platform Launch est envoyée e
 Le débogueur Experience Cloud est un plug-in Chrome qui affiche toutes les balises Experience Cloud présentes sur une page.
 
 1. Ouvrez [le navigateur web Chrome](https://www.google.com/intl/fr/chrome/) et accédez à [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) sur le Chrome Web Store pour installer l’extension.
-2. Accédez à votre site web de développement sur lequel vous avez mis en œuvre Launch.
+2. Accédez au site web de développement sur lequel vous avez implémenté des balises.
 3. Cliquez sur l’icône d’Adobe Experience Cloud Debugger dans l’angle supérieur droit de Chrome.
-4. Si tout est correctement mis en œuvre, le contenu doit s’afficher dans Adobe Analytics, dans Adobe Experience Platform Launch et dans le service d’identification des visiteurs d’Adobe Experience Cloud :
+4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud :
 
 ![débogueur][assets/debugger.png]
 
@@ -33,22 +35,24 @@ Le débogueur Experience Cloud est un plug-in Chrome qui affiche toutes les bali
 
 Une fois que vous avez validé les données affichées, vous pouvez transmettre votre mise en œuvre à la version en direct de votre site.
 
-1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-2. Cliquez sur la propriété Launch que vous prévoyez de mettre en œuvre sur votre site.
-3. Cliquez sur l’onglet Publication et recherchez votre bibliothèque dans la colonne de développement.
-4. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez Envoyer pour approbation. Cliquez sur Envoyer dans la fenêtre modale.
-5. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne Envoyer), puis sélectionnez Créer pour l’évaluation.
-6. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
-7. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez Approuver pour publication.
-8. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne Approuvé), puis sélectionnez Créer et Publier en production.
-9. Accédez à l’onglet Environnements, puis cliquez sur Environnement de production.
-10. Copiez le code d’en-tête de production + de pied de page et communiquez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
+1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez **[!UICONTROL Lancer / Collecte de données]**.
+1. Cliquez sur **[!UICONTROL Aller à Launch / Collecte de données]**, puis sélectionnez **[!UICONTROL Balises]**.
+1. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
+1. Cliquez sur l’onglet **[!UICONTROL Publication]** et localisez votre bibliothèque dans la colonne de développement.
+1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Soumettre pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
+1. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et publier en production]**.
+1. Accédez à l’onglet Environnements , puis cliquez sur **[!UICONTROL Environnement de production]**.
+1. Copiez le code d’en-tête de production + de pied de page et communiquez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 
 ## Validation de votre mise en œuvre de production
 
 Confirmez que vous voyez des données sur la version en direct de votre site et commencez la collecte officielle des données pour Adobe Analytics.
 
-1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code de Launch en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez le débogueur Adobe Experience Cloud.
+1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code de balise en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez le [!UICONTROL débogueur Adobe Experience Cloud].
 2. Si tout fonctionne correctement, vous devriez voir des données similaires à vos tests dans votre environnement de développement. À ce stade, vous collectez maintenant des données sur votre site et vous pouvez maintenant commencer à utiliser Adobe Analytics pour la création de rapports.
 
 ## Résolution des problèmes
