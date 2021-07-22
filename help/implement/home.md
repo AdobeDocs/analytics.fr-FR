@@ -2,10 +2,10 @@
 title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 83%
 
 ---
 
@@ -28,16 +28,15 @@ Le code JavaScript envoie une demande d’image aux serveurs de collecte de donn
 
 Adobe Analytics exige du code sur votre site web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes de mise en œuvre de ce code, selon la plateforme et les besoins de votre entreprise.
 
-* **Adobe Experience Platform Launch :** méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface de Launch pour déterminer la définition de chaque variable.
-* **Dynamic Tag Management** : Dynamic Tag Management a été abandonné.
-* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une mise en œuvre, ce qui peut s’avérer utile pour les mises en œuvre de Launch utilisant des règles avec du code personnalisé.
+* **Balises Adobe Experience Platform** : Méthode normalisée et recommandée pour implémenter Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface utilisateur de collecte de données pour déterminer comment chaque variable est définie.
+* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Présente les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations d’ à l’aide de règles avec du code personnalisé.
 * **SDK mobile :** bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 
 ## Principaux articles sur l’importation Analytics
 
 * [Prise en charge d’une implémentation Adobe Analytics existante](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [Création d’une propriété dans Experience Platform Launch](launch/create-analytics-property.md)
+* [Création d’une propriété de balise dans Experience Platform](launch/create-analytics-property.md)
 * [Mises à jour d’AppMeasurement](appmeasurement-updates.md)
 
 ## Plus de guides d’utilisation d’Analytics
