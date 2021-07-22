@@ -1,34 +1,37 @@
 ---
-title: Mise en correspondance des éléments de données Launch avec les variables Analytics
+title: Mise en correspondance des éléments de données de balise avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 76%
 
 ---
 
-# Mise en correspondance des éléments de données Launch avec les variables Analytics
+# Mise en correspondance des éléments de données de balise avec les variables Analytics
 
-Une fois que vous disposez d’un référentiel d’éléments de données dans Adobe Experience Platform Launch, vous pouvez les affecter aux dimensions Analytics.
+Une fois que vous disposez d’un référentiel d’éléments de données de balise, vous pouvez les affecter aux dimensions Analytics.
+
+>[!NOTE]
+>Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 
-[Mettre en correspondance des objets de couche de données aux éléments de données](layer-to-elements.md) : Assurez-vous de comprendre les éléments de données dans Launch et de disposer de plusieurs éléments pour travailler.
+[Mappage des objets de couche de données aux éléments](layer-to-elements.md) de données : Assurez-vous de bien comprendre les éléments de données de balise et de disposer de plusieurs éléments à utiliser.
 
 [Créer un document de conception de solution](../prepare/solution-design.md) : Un document de conception de solution est essentiel pour rester organisé. En suivant votre document de conception de solution, vous simplifiez l’affectation des éléments de données aux variables Analytics.
 
 ## Affectation d’éléments de données à des variables Analytics
 
-La publication d’une bibliothèque dans Launch après avoir suivi ces étapes vous permet d’utiliser des dimensions personnalisées dans Analysis Workspace. Vous pouvez définir des variables Analytics globalement ou dans des règles individuelles.
+La publication d’une bibliothèque de balises après avoir suivi ces étapes vous permet d’utiliser des dimensions personnalisées dans Analysis Workspace. Vous pouvez définir des variables Analytics globalement ou dans des règles individuelles.
 
 ### Définition de variables globales
 
 Les variables globales sont idéales lorsque vous souhaitez définir des valeurs de variable sur toutes les pages où se trouve votre élément de données.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-1. Cliquez sur la propriété Launch de votre choix.
+1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’[!UICONTROL onglet Extensions], puis sur [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Cliquez sur l’accordéon [!UICONTROL Variables globales], qui révèle l’interface permettant d’affecter des variables globales.
 
@@ -37,7 +40,7 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=fr) dans le guide d’utilisation d’Adobe Experience Platform Launch.
 
 1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
-1. Cliquez sur la propriété Launch de votre choix.
+1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet [!UICONTROL Règles], puis sur la règle de votre choix (ou créez-en une).
 1. Cliquez sur le bouton [!UICONTROL Ajouter] sous [!UICONTROL Actions].
 1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Définir des variables.
