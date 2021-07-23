@@ -2,11 +2,10 @@
 title: cookieDomainPeriods
 description: Permet d’aider AppMeasurement à comprendre quel domaine doit conserver les cookies si votre domaine comporte un point dans son suffixe.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 93%
 
 ---
 
@@ -27,14 +26,16 @@ La variable `cookieDomainPeriods` permet à AppMeasurement de déterminer où le
 
 Les points de domaine désignent un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Points de domaine].
+1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Points de domaine].
 
 Définissez ce champ sur `3` uniquement pour les domaines contenant un point dans le suffixe. Sinon, ce champ peut être laissé vide.
 
-## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `cookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement pour les domaines qui contiennent un point dans le suffixe. Sa valeur par défaut est `"2"`, ce qui prend en charge la plupart des domaines.
 
