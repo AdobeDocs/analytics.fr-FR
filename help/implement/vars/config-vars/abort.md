@@ -2,11 +2,10 @@
 title: abort
 description: La variable abort est une valeur booléenne qui empêche l’envoi d’un accès aux serveurs de collecte de données Adobe.
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 79%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `abort` est une valeur booléenne qui peut empêcher l’envoi de l’appel de suivi suivant à Adobe.
 
-## Utilisation de la variable abort dans Adobe Experience Platform Launch
+## Utilisation de la variable abort dans l’interface utilisateur de collecte de données de Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## Syntaxe AppMeasurement et éditeur de code personnalisé dans Launch
+## Syntaxe AppMeasurement et éditeur de code personnalisé dans l’interface utilisateur de la collecte de données
 
 La variable `abort` est une valeur booléenne. Sa valeur par défaut est `false`.
 
