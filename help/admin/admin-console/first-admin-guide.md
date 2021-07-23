@@ -2,10 +2,10 @@
 title: Guide Adobe Analytics pour le premier administrateur
 description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les types de rôles généraux et la connexion à l’interface utilisateur.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 91%
+source-wordcount: '949'
+ht-degree: 78%
 
 ---
 
@@ -40,23 +40,23 @@ Les administrateurs au niveau du système n’ont pas d’accès direct aux prod
 1. Entrez l’adresse électronique à laquelle vous souhaitez accorder un accès Analytics complet et attribuez-lui le profil d’accès administrateur complet récemment créé. Cliquez sur Enregistrer.
 1. L’utilisateur dispose désormais d’un accès complet à Adobe Analytics.
 
-## Octroi d’un accès administrateur de produit pour la collecte de données dans Experience Platform (anciennement appelé Launch)
+## Octroi d’un accès administrateur de produit pour la collecte de données dans Experience Platform
 
-L’accès administrateur de produit pour les balises dans Experience Platform est presque identique à l’octroi de l’accès administrateur de produit pour Analytics.
+L’accès administrateur de produit à la collecte de données dans Experience Platform est presque identique à l’octroi de l’accès administrateur de produit à Analytics.
 
 1. Connectez-vous à Admin Console à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur l’onglet Produits sur la partie supérieure. Tous les produits achetés par votre entreprise se trouvent sur la gauche. Cliquez sur Experience Platform Launch par Adobe, puis sur le bouton Nouveau profil.
-1. Nommez ce profil « Accès administrateur complet Experience Platform Launch », puis cliquez sur Terminé.
-1. De retour sur la page Profils du produit, cliquez sur le profil récemment créé, puis sur l’onglet Autorisations.
-1. Cliquez sur l’un des éléments de la ligne d’autorisation. Si l’inclusion automatique est disponible, activez-la. Si l’inclusion automatique n’est pas disponible, cliquez sur Ajouter tout. Les deux options déplacent tous les éléments d’autorisation vers la colonne de droite.
-1. Cliquez sur Enregistrer. Répétez l’étape ci-dessus pour toutes les catégories d’autorisations.
-1. Une fois que toutes les catégories d’autorisations ont été accordées au profil, revenez à la page Aperçu en cliquant sur Aperçu sur la partie supérieure.
-1. Sous le volet Experience Platform Launch par Adobe, cliquez sur Affecter des utilisateurs.
-1. Entrez l’adresse électronique à laquelle vous souhaitez accorder un accès Analytics complet et attribuez-lui le profil d’accès administrateur complet récemment créé. Cliquez sur Enregistrer.
-1. L’utilisateur dispose désormais d’un accès complet à Experience Platform Launch.
+1. Cliquez sur l’onglet **[!UICONTROL Produits]** en haut. Tous les produits achetés par votre entreprise se trouvent sur la gauche. Cliquez sur **[!UICONTROL Experience Platform Launch par Adobe]**, puis sur **[!UICONTROL Nouveau profil]**.
+1. Nommez ce profil &quot;accès administrateur complet Experience Platform Launch&quot;, puis cliquez sur **[!UICONTROL Terminé]**.
+1. De retour sur la page **[!UICONTROL Profils produit]** , cliquez sur le profil nouvellement créé, puis sur l’onglet **[!UICONTROL Autorisations]** .
+1. Cliquez sur l’un des éléments de la ligne d’autorisation. Si **[!UICONTROL Auto-include]** est disponible, activez-le. Si l’inclusion automatique n’est pas disponible, cliquez sur **[!UICONTROL Ajouter tout]**. Les deux options déplacent tous les éléments d’autorisation vers la colonne de droite.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Répétez l’étape ci-dessus pour toutes les catégories d’autorisations.
+1. Une fois toutes les catégories d’autorisations accordées au profil, revenez à la page Aperçu en cliquant sur **[!UICONTROL Aperçu]** en haut de la page.
+1. Sous la mosaïque [!UICONTROL Experience Platform Launch par Adobe] , cliquez sur **[!UICONTROL Attribuer des utilisateurs]**.
+1. Entrez l’adresse électronique à laquelle vous souhaitez accorder un accès Analytics complet et attribuez-lui le profil d’accès administrateur complet récemment créé. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. L’utilisateur dispose désormais d’un accès complet à la collecte de données Experience Platform.
 
 ## Étapes suivantes
 
 [Créer une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
 
-[Créer une propriété dans Experience Platform Launch](/help/implement/launch/create-analytics-property.md) : demandez à votre administrateur Experience Platform Launch de se connecter à l’outil et de créer une propriété à implémenter sur votre site.
+[Créez une propriété](/help/implement/launch/create-analytics-property.md) de balise Analytics : Demandez à l’administrateur de la collecte de données de se connecter à l’outil et de créer une propriété à implémenter sur votre site.
