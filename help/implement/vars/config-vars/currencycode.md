@@ -2,11 +2,10 @@
 title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ Si `currencyCode` est défini et différent de la devise de la suite de rapports
 
 Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
 
-## Code de devise dans Adobe Experience Platform Launch
+## Code de devise dans les balises Adobe Experience Platform
 
 Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].
+1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Cliquez sur la propriété de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
@@ -42,12 +43,12 @@ Vous pouvez utiliser un code de devise prédéfini ou un code de devise personna
 Le code de devise est transmis aux SDK Adobe Experience Platform Mobile par le biais de variables de données contextuelles dans l’extension Adobe Analytics.
 
 1. Définissez le code de devise dans une variable de données contextuelles pendant `trackState` ou `trackAction`.
-2. Créez une règle de traitement dans la console d’administration d’Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable du code de devise.
-3. Transmettez le code de devise à la variable `products` dans votre appel à `trackState` ou `trackAction`.
+1. Créez une règle de traitement dans la console d’administration d’Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable du code de devise.
+1. Transmettez le code de devise à la variable `products` dans votre appel à `trackState` ou `trackAction`.
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
-## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de la collecte de données
 
 La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
 
