@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 94%
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
 + Mise en oeuvre d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
    + [Présentation des balises](launch/overview.md)
-   + [Création d’une propriété de balise Analytics](launch/create-analytics-property.md)
+   + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
    + [Validation et publication en production](launch/validate-publish-prod.md)
    + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
