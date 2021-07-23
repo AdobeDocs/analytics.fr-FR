@@ -2,9 +2,9 @@
 title: Mise en oeuvre avec des balises dans Adobe Experience Platform
 description: Découvrez comment mettre en oeuvre Adobe Analytics à l’aide de balises
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '362'
 ht-degree: 47%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 47%
 
 Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour mettre en œuvre le code sur votre site pour la collecte de données. La méthode actuellement recommandée par l’Adobe consiste à utiliser des balises dans Adobe Experience Platform.
 
-Dans Adobe Experience Platform, les balises sont une solution de gestion des balises qui vous permet de déployer du code Analytics parallèlement à d’autres exigences de balisage. Adobe propose des intégrations à d’autres solutions et produits et vous permet de déployer du code personnalisé. Toutes ces tâches peuvent être effectuées sans faire appel aux équipes de développement de votre entreprise pour mettre à jour le code de votre site.
+Les balises dans la collecte de données Adobe Experience Platform est une solution de gestion des balises qui vous permet de déployer le code Analytics parallèlement à d’autres exigences de balisage. Adobe propose des intégrations à d’autres solutions et produits et vous permet de déployer du code personnalisé. Toutes ces tâches peuvent être effectuées sans faire appel aux équipes de développement de votre entreprise pour mettre à jour le code de votre site.
 
 Tous les clients disposant d’un principal contrat Adobe Experience Cloud peuvent utiliser des balises. Si vous n’êtes pas sûr d’y avoir accès, contactez l’un des administrateurs système Experience Cloud de votre entreprise.
 
