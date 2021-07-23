@@ -2,11 +2,10 @@
 title: Résolution de l’écran
 description: Résolution en pixels de l’écran du visiteur.
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +23,7 @@ Les dimensions du navigateur sont toujours plus petites que la résolution de l�
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`s`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `screen.width` et `screen.height` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `s` dans les demandes d’image.
+Cette dimension récupère les données de la [`s`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `screen.width` et `screen.height` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `s` dans les demandes d’image.
 
 ## Éléments de dimension
 
