@@ -2,11 +2,10 @@
 title: Types de systèmes d’exploitation
 description: Le système d’exploitation, quelle que soit la version.
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +15,7 @@ La dimension « Types de systèmes d’exploitation » indique le système d�
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
 
 ## Éléments de dimension
 
