@@ -3,10 +3,10 @@ description: Créez un conteneur de base pour la collecte de données dans Adobe
 title: Création d’une suite de rapports
 feature: Outils d’administration
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 65%
+source-wordcount: '376'
+ht-degree: 66%
 
 ---
 
@@ -47,4 +47,4 @@ Assurez-vous que vous êtes connecté via [Experience Cloud](https://experience.
 
 ## Étapes suivantes
 
-[Créez et configurez une propriété pour Adobe Analytics dans Adobe Experience Platform Launch](/help/implement/launch/create-analytics-property.md) : Créer une zone pour gérer votre implémentation Analytics
+[Créez une propriété de balise Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Créer une zone pour gérer votre implémentation Analytics
