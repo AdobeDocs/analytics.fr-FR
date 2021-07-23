@@ -2,11 +2,10 @@
 title: Présentation de la mise en œuvre JavaScript du code H
 description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers [Adobe Experience Platform Launch](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
+>Cette version de la collecte de données n’est plus prise en charge. Effectuez la mise à niveau vers les balises [dans Adobe Experience Platform](../../launch/overview.md) ou [AppMeasurement pour JavaScript](../overview.md).
 
 Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre correctement une page avec du code pour collecter des données. Les étapes suivantes vous invitent à parcourir une mise en œuvre de base du code H d’Analytics.
 
