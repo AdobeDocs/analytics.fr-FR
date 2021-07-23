@@ -2,10 +2,10 @@
 title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '586'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 95%
 
 ---
 
@@ -27,19 +27,22 @@ Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer 
 
 La page d’exclusion de votre organisation dépend de la valeur de variable [`trackingServer`](../vars/config-vars/trackingserver.md) dans votre mise en œuvre.
 
-* Dans Adobe Experience Platform Launch :
-   1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) et cliquez sur une propriété.
-   2. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
-   3. Cliquez sur l’accordéon [!UICONTROL Général], puis notez la valeur [!UICONTROL Serveur de suivi].
+* Dans l’interface utilisateur de la collecte de données Adobe Experience Platform :
+   1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+   1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+   1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+   1. Cliquez sur la propriété de votre choix.
+   1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
+   1. Cliquez sur l’accordéon [!UICONTROL Général], puis notez la valeur [!UICONTROL Serveur de suivi].
 
 * Dans une mise en œuvre JavaScript :
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
-   2. Notez la valeur de la variable `trackingServer`.
+   1. Notez la valeur de la variable `trackingServer`.
 
 * Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
-   2. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
-   3. Notez la valeur [!UICONTROL Request URL - Hostname].
+   1. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
+   1. Notez la valeur [!UICONTROL Request URL - Hostname].
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :
 
