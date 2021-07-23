@@ -2,10 +2,10 @@
 title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ Une organisation travaillant avec un partenaire Adobe peut suivre cette procédu
 
 ### Obtention du code de module Integrate
 
-L’obtention du code de module requiert un utilisateur disposant de l’accès Administrateur de produit ou appartenant à un profil de produit ayant accès au gestionnaire de code. La méthode d’obtention du code de module est la même pour toutes les méthodes d’implémentation, y compris Adobe Experience Platform Launch.
+L’obtention du code de module requiert un utilisateur disposant de l’accès Administrateur de produit ou appartenant à un profil de produit ayant accès au gestionnaire de code. La méthode d’obtention du code de module est la même pour toutes les méthodes d’implémentation, y compris les balises dans Adobe Experience Platform.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
@@ -40,13 +40,15 @@ L’obtention du code de module requiert un utilisateur disposant de l’accès 
 
 ### Placez le module Integrate dans votre implémentation
 
-La mise en œuvre du module Integrate sur votre site nécessite l’accès à Adobe Experience Platform Launch. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
+La mise en oeuvre du module Integrate sur votre site nécessite l’accès à l’interface utilisateur de collecte de données dans Adobe Experience Platform. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété Launch que vous souhaitez modifier.
-3. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
-4. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « Ouvrir l’éditeur ».
-5. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
+1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Cliquez sur la propriété de balise que vous avez l’intention de modifier.
+1. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
+1. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « Ouvrir l’éditeur ».
+1. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
 
 ## Méthodes du module Integrate
 
