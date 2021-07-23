@@ -2,11 +2,10 @@
 title: Compatible Java
 description: Détermine si Java est activé dans le navigateur.
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +15,7 @@ La dimension « Compatible Java » détermine si Java est activé dans le navi
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`v`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais d’Adobe Experience Platform Launch, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `v` contenant « Y » ou « N » si vous souhaitez utiliser cette dimension.
+Cette dimension récupère les données de la [`v`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données en détectant si Java est activé dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `v` contenant « Y » ou « N » si vous souhaitez utiliser cette dimension.
 
 ## Éléments de dimension
 
