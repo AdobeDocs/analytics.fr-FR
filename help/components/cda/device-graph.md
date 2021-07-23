@@ -2,10 +2,10 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
 * Votre entreprise doit utiliser le graphique Co-op ou Privé du service d’identité d’Adobe Experience Platform. Consultez la [page d’accueil](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=fr) du guide de l’utilisateur Device Co-op.
-* Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID. Consultez la [page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant Adobe Experience Platform Launch disposent déjà probablement d’un ECID déployé.
+* Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID. Consultez la [page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) du guide de l’utilisateur du service d’identité d’Experience Cloud. La plupart des implémentations utilisant des balises dans Adobe Experience Platform ont probablement déjà déployé ECID.
 * Votre implémentation doit appeler la fonction `setCustomerIDs` (ou SDK équivalent) chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=fr) dans le guide de l’utilisateur du service d’identité d’Experience Cloud.
 
 ## Limites spécifiques au graphique d’appareil
