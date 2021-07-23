@@ -2,10 +2,10 @@
 title: Suites de rapports globales dans Adobe Analytics
 description: Découvrez les avantages et les conditions requises pour utiliser une suite de rapports globale.
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '872'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Suivez les instructions générales suivantes pour comprendre le processus de mi
    >
    >Assurez-vous que toute variable personnalisée donnée est utilisée de manière similaire dans les domaines. N’utilisez pas la même eVar ou le même événement à des fins différentes sur vos sites.
 1. Assurez-vous que chaque domaine comporte une couche de données pour simplifier la collecte des données. Les données peuvent toujours être collectées sans couche de données, mais la fiabilité et la longévité de votre mise en œuvre diminuent, en particulier lors de la refonte de votre site.
-1. Utilisez Adobe Experience Platform Launch pour mettre en œuvre Analytics. Les différents sites nécessiteront probablement différents éléments de données. Utilisez des règles spécifiques à chaque domaine pour vous assurer que chaque élément de données est correctement renseigné, puis affectez ces éléments de données à leurs eVars et événements respectifs. Reportez-vous à la section [Présentation de Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=fr) dans le guide d’utilisation d’Adobe Experience Platform Launch.
+1. Utilisez des balises dans Adobe Experience Platform pour implémenter Analytics. Les différents sites nécessiteront probablement différents éléments de données. Utilisez des règles spécifiques à chaque domaine pour vous assurer que chaque élément de données est correctement renseigné, puis affectez ces éléments de données à leurs eVars et événements respectifs. Reportez-vous à la [présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 1. Incluez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et utilisez la fonction [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=fr). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs effectuent des clics d’un domaine à un autre.
 
 ## Modification d’une mise en œuvre existante avec une suite de rapports globale
@@ -50,8 +50,8 @@ Le processus de transfert d’une mise en œuvre existante sur plusieurs sites v
 
 1. Déterminez si vous souhaitez utiliser l’une de vos suites de rapports existantes ou si vous souhaitez recommencer à zéro avec une nouvelle suite de rapports. Si vous souhaitez modifier les utilisations des variables existantes dans votre mise en œuvre, il est recommandé de commencer par une nouvelle suite de rapports.
 2. Déterminez la date de coupure pour laquelle vous souhaitez passer à une suite de rapports globale. Le meilleur moment pour effectuer une coupure se trouve entre deux périodes de rapport importantes ou avec des modifications majeures de votre site. Par exemple, le début d’un trimestre ou d’une année fiscale, l’actualisation d’un site ou la modification d’un nouveau système de gestion des balises.
-3. Suivez les étapes ci-dessus (créez une suite de rapports, rassemblez les exigences de création de rapports dans un document de conception de solution et établissez une couche de données sur chaque site). Lors de la mise en œuvre de Launch, validez votre mise en œuvre à l’aide d’une version de développement de votre site web.
-4. Une fois que vous avez vérifié que votre mise en œuvre fonctionne sur le développement, mettez en œuvre votre mise en œuvre de Launch en direct à la date de coupure.
+3. Suivez les étapes ci-dessus (créez une suite de rapports, rassemblez les exigences de création de rapports dans un document de conception de solution et établissez une couche de données sur chaque site). Lors de l’implémentation de balises dans Adobe Experience Platform, validez votre implémentation à l’aide d’une version de développement de votre site web.
+4. Une fois que vous avez confirmé que votre mise en oeuvre fonctionne sur le développement, mettez en oeuvre votre mise en oeuvre de balises en direct à la date de coupure.
 
 ## Pages connexes
 
