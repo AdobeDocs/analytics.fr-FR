@@ -2,11 +2,10 @@
 title: account
 description: Utilisez la variable de compte pour déterminer la suite de rapports à laquelle les données sont envoyées.
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 80%
 
 ---
 
@@ -18,5 +17,5 @@ ht-degree: 100%
 
 Dans les versions précédentes d’Adobe Analytics, la variable `account` déterminait la suite de rapports à laquelle vous souhaitiez envoyer des données. Un identifiant de suite de rapports est nécessaire pour envoyer des données à Adobe Analytics.
 
-* Si vous utilisez Adobe Experience Platform Launch, les suites de rapports résident sous l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
+* Si vous utilisez des balises dans Adobe Experience Platform, les suites de rapports résident sous l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
 * Si vous utilisez la fonction [`s_gi()`](../functions/s-gi.md) pour instancier un objet de suivi Analytics, les identifiants de suite de rapports existent déjà en tant qu’argument obligatoire dans la fonction.
