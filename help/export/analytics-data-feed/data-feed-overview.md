@@ -4,10 +4,10 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Les flux de données sont un moyen puissant d’extraire des données brutes d�
 Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utiliser les flux de données.
 
 * Ayez un site FTP et des identifiants à portée de main. Les flux de données peuvent être envoyés uniquement vers une destination de serveur. Votre entreprise fournit généralement les identifiants au FTP. Adobe peut fournir un emplacement FTP avec une quantité modeste de stockage à votre demande. Contactez l’assistance clientèle pour demander une destination FTP pour les flux de données.
-* Une implémentation opérationnelle qui envoie des données vers les serveurs de collecte de données Adobe. Consultez [Valider et publier une implémentation dans Launch](/help/implement/launch/validate-publish-prod.md) dans le guide de l’utilisateur d’implémentation.
+* Une implémentation opérationnelle qui envoie des données vers les serveurs de collecte de données Adobe. Voir [Validation et publication d’une mise en oeuvre](/help/implement/launch/validate-publish-prod.md) dans le guide d’utilisation de la mise en oeuvre.
 * Votre compte est un compte administrateur produit Analytics ou il appartient à un profil produit ayant accès aux flux de données.
 
 ## Procédure de démarrage
