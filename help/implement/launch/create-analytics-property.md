@@ -2,14 +2,14 @@
 title: Création d’une propriété Analytics dans les balises
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide de balises.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 59%
 
 ---
 
-# Création d’une propriété de balise Analytics
+# Création d’une propriété de balise Adobe Analytics
 
 Les balises dans Adobe Experience Platform vous permettent d’intégrer des solutions Experience Cloud à votre site web (y compris Analytics). Cette page décrit spécifiquement comment un administrateur de balises peut configurer correctement une mise en oeuvre Adobe Analytics de base.
 
