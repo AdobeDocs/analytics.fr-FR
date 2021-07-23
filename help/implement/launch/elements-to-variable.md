@@ -2,10 +2,10 @@
 title: Mise en correspondance des éléments de données de balise avec les variables Analytics
 description: Affectez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 76%
+source-wordcount: '505'
+ht-degree: 65%
 
 ---
 
@@ -30,16 +30,20 @@ La publication d’une bibliothèque de balises après avoir suivi ces étapes v
 
 Les variables globales sont idéales lorsque vous souhaitez définir des valeurs de variable sur toutes les pages où se trouve votre élément de données.
 
-1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’[!UICONTROL onglet Extensions], puis sur [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Cliquez sur l’accordéon [!UICONTROL Variables globales], qui révèle l’interface permettant d’affecter des variables globales.
 
 ### Définition de variables dans les règles
 
-Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=fr) dans le guide d’utilisation d’Adobe Experience Platform Launch.
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) dans la documentation relative à la collecte de données Adobe Experience Platform.
 
-1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
+1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
+1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet [!UICONTROL Règles], puis sur la règle de votre choix (ou créez-en une).
 1. Cliquez sur le bouton [!UICONTROL Ajouter] sous [!UICONTROL Actions].
