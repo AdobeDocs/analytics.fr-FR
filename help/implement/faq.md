@@ -2,10 +2,10 @@
 title: FAQ sur la mise en œuvre
 description: Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Voir [Mesures audio et vidéo dans Adobe Analytics](https://experienceleague.ado
 
 ## Une interruption de service chez Adobe peut-elle affecter les performances ?
 
-Non. Le fichier JavaScript n’est pas hébergé sur les serveurs Adobe. Par conséquent, une panne des serveurs Adobe n’affecte pas votre bibliothèque AppMeasurement. Si vous utilisez Adobe Experience Platform Launch, le fichier JavaScript est hébergé par Akamai ou sur un emplacement de serveur déterminé par votre entreprise.
+Non. Le fichier JavaScript n’est pas hébergé sur les serveurs Adobe. Par conséquent, une panne des serveurs Adobe n’affecte pas votre bibliothèque AppMeasurement. Si vous utilisez des balises dans Adobe Experience Platform, le fichier JavaScript est hébergé par Akamai ou sur un emplacement de serveur déterminé par votre organisation.
 
 ## L’envoi de données du navigateur vers les services Adobe peut-il réduire les performances ?
 
@@ -33,7 +33,7 @@ AppMeasurement crée un objet image dans la page HTML, puis le navigateur demand
 
 Il arrive qu’une entreprise souhaite supprimer une mise en œuvre en raison de l’expiration du contrat ou afin de réduire le nombre d’appels au serveur.
 
-* **Mises en œuvre utilisant Launch** : désactivez ou désinstallez l’extension Adobe Analytics dans l’onglet [!UICONTROL Extensions], puis publiez.
+* **Implémentations à l’aide de balises dans Adobe Experience Platform** : Désactivez ou désinstallez l’extension Adobe Analytics dans l’onglet   Extensionstab, puis publiez.
 * **Mises en œuvre AppMeasurement héritées** : remplacez l’intégralité du contenu de votre fichier `s_code.js` par la ligne de code suivante :
 
 ```js
