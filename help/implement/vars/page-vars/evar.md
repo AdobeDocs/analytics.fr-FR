@@ -2,11 +2,10 @@
 title: eVar
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contr
 
 Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer chaque eVar dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
-## eVars dans Adobe Experience Platform Launch
+## eVars utilisant des balises dans Adobe Experience Platform
 
 Vous pouvez définir des eVars lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -35,7 +34,7 @@ Vous pouvez définir des eVars lors de la configuration de l’extension Analyti
 
 Vous pouvez définir une eVar sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
-## s.eVar1 - s.eVar250 dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.eVar1 - s.eVar250 dans AppMeasurement et l’éditeur de code personnalisé de 
 
 Chaque eVar est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Leur longueur maximale est de 255 octets ; les valeurs de plus de 255 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 
