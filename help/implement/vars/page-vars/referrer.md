@@ -2,11 +2,10 @@
 title: referrer
 description: Permet de remplacer le référent collecté automatiquement pour un accès.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 91%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `referrer` remplace le référent collecté automatiquement dans les rapports. Cette variable s’avère utile lorsque le référent risque d’être perdu, par exemple lors des redirections ou du transfert temporaire du visiteur vers un processeur de paiement. Cette variable permet de renseigner les dimensions Référent et Domaine référent.
 
-## Référent dans Adobe Experience Platform Launch
+## Référent utilisant des balises dans Adobe Experience Platform
 
 Vous pouvez définir le référent soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -27,7 +26,7 @@ Vous pouvez définir le référent soit lors de la configuration de l’extensio
 
 Vous pouvez définir le référent sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.referrer dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.referrer dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.referrer` est une chaîne contenant l’URL de la page précédente. Cette variable peut stocker un maximum de 255 octets ; les valeurs supérieures à 255 octets sont tronquées. AppMeasurement définit automatiquement cette variable sur `document.referrer` ; vous n’avez pas besoin de définir cette variable, sauf si vous souhaitez remplacer la valeur collectée automatiquement.
 
