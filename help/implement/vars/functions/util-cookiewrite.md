@@ -2,11 +2,10 @@
 title: Util.cookieWrite
 description: Permet d’inscrire une valeur dans un cookie.
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '128'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 82%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 Les cookies peuvent stocker et récupérer des informations sur plusieurs pages du même domaine. Utilisez la méthode `Util.cookieWrite()` pour définir une valeur sur un cookie. Vous pouvez utiliser la méthode [`Util.cookieRead()`](util-cookieread.md) pour récupérer les valeurs définies à l’aide de `Util.cookieWrite()`.
 
-## Définir des cookies dans Adobe Experience Platform Launch
+## Définition de cookies à l’aide de balises dans Adobe Experience Platform
 
-Launch ne permet pas de définir des cookies dans l’interface. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+L’interface utilisateur de la collecte de données ne permet pas de définir des cookies dans l’interface. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.Util.cookieWrite() dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.Util.cookieWrite() dans AppMeasurement et l’éditeur de code personnalisé de 
 
 Appelez la méthode `s.Util.cookieWrite()` pour définir un cookie sur la valeur souhaitée.
 
