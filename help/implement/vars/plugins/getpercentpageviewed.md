@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: Permet de connaître le pourcentage de la page consultée par le visiteur.
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 95%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 Le plug-in `getPercentPageViewed` mesure l’activité de défilement d’un visiteur pour savoir quelle partie d’une page il a vue avant de passer à une autre page. Ce plug-in n’est pas nécessaire si vos pages sont de petite taille ou si vous ne souhaitez pas mesurer l’activité de défilement.
 
-## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du module externe à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
@@ -33,9 +33,9 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type dʼaction : initialisation de getPercentPageViewed
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].
