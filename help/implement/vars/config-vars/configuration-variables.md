@@ -2,10 +2,10 @@
 title: Variables de configuration
 description: Utilisez les variables de configuration pour déterminer le mode de collecte des données.
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '125'
+ht-degree: 68%
 
 ---
 
@@ -19,9 +19,7 @@ Dans les mises en œuvre JavaScript utilisant `AppMeasurement.js` ; les variabl
 
 Dans les mises en oeuvre utilisant des balises Adobe Experience Platform, les variables de configuration sont généralement trouvées en configurant l’extension Adobe Analytics :
 
-1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
-1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
-1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété à modifier.
 1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
 
