@@ -2,11 +2,10 @@
 title: offlineHitLimit
 description: Permet de déterminer le nombre maximal d’accès à mettre en file d’attente pour le suivi hors ligne.
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '155'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +15,11 @@ Le suivi hors ligne est une méthode facultative de collecte de données dans Ad
 
 La variable `offlineHitLimit` plafonne le nombre d’accès que l’appareil stocke localement. Cette variable ne fonctionne que si [`trackOffline`](trackoffline.md) est activé.
 
-## Limite d’accès hors ligne dans Adobe Experience Platform Launch
+## Limite d’accès hors ligne à l’aide de balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.offlineHitLimit dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.offlineHitLimit dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.offlineHitLimit` est un entier représentant le nombre maximal d’accès qu’un appareil stocke lorsqu’il est hors ligne. Si cette variable n’est pas définie, le nombre d’accès qu’un appareil stocke hors ligne n’est pas limité.
 
