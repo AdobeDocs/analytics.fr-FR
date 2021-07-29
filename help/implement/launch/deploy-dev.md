@@ -2,10 +2,10 @@
 title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser des balises pour déployer Adobe Analytics dans votre environnement de développement.
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 66%
+source-wordcount: '594'
+ht-degree: 61%
 
 ---
 
@@ -24,7 +24,7 @@ Une fois que vous avez créé et configuré une propriété de balise, les bibli
 
 Les balises prennent en charge de nombreux workflows organisationnels dans le code de déploiement. Pour créer le minimum de composants nécessaires à une mise en œuvre Analytics, procédez comme suit. En tant qu’administrateur de balises, vous pouvez travailler au sein de votre organisation pour établir le processus approprié pour le déploiement des solutions Adobe.
 
-1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
 3. Cliquez sur l’onglet Adaptateurs, puis sur Ajouter un adaptateur.
 4. Nommez-le « Akamai », puis sélectionnez Akamai dans la liste déroulante de types. Cliquez sur Enregistrer.
@@ -37,7 +37,7 @@ Les balises prennent en charge de nombreux workflows organisationnels dans le co
 
 Malgré toutes les modifications et configurations apportées jusqu’à présent, aucun code n’a été publié. La création d’une bibliothèque, grossièrement traduite en un ensemble de modifications, permet la publication de code à utiliser sur votre site.
 
-1. Accédez à [Adobe Experience Platform Launch](https://launch.adobe.com) et connectez-vous si vous y êtes invité.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
 3. Cliquez sur l’onglet Publication, puis sur Ajouter une nouvelle bibliothèque.
 4. Nommez la bibliothèque « Modifications initiales », puis sélectionnez votre environnement de développement.
