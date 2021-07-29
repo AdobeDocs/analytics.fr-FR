@@ -2,9 +2,9 @@
 title: Autorisations du profil de produit pour les outils Analytics
 description: Utilisez les éléments d’autorisation liés aux outils Analytics pour permettre l’accès aux fonctionnalités d’Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Élément d’autorisation lié aux outils Analytics | Description |
 |----|----|
 | [!UICONTROL Utilisation des appels au serveur] | Accorde l’accès à Admin > Utilisation des appels serveur. |
-| [!UICONTROL Gestionnaire de code] | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans la collecte de données Adobe Experience Platform. |
+| [!UICONTROL Gestionnaire de code] | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans l’interface utilisateur de collecte de données. |
 | [!UICONTROL Code Manager – Web Services] | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
 | [!UICONTROL Journaux] | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | [!UICONTROL Logs – Web Services] | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
