@@ -2,11 +2,10 @@
 title: channel
 description: Permet de renseigner la dimension « Sections du site ».
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '169'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 87%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `channel` stocke généralement la section du site sur laquelle se trouve une page donnée. Il est utile de déterminer les groupes de votre site les plus populaires. Cette variable renseigne la dimension Sections du site.
 
-## Canal dans Adobe Experience Platform Launch
+## Canal utilisant des balises dans Adobe Experience Platform
 
 Vous pouvez définir le canal soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -27,7 +26,7 @@ Vous pouvez définir le canal soit lors de la configuration de l’extension Ana
 
 Vous pouvez définir le canal sur n’importe quelle valeur de chaîne ou élément de données.
 
-## s.channel dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.channel dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.channel` est une chaîne qui contient généralement la section du site de la page. Celle-ci a une valeur maximale de 100 octets ; les valeurs plus longues sont tronquées.
 
