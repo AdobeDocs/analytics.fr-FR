@@ -2,11 +2,10 @@
 title: dynamicVariablePrefix
 description: Permet de personnaliser la chaîne qui identifie les variables dynamiques.
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 89%
 
 ---
 
@@ -16,18 +15,18 @@ Les variables dynamiques sont un concept abrégé qui vous permet de copier des 
 
 Par défaut, les variables dynamiques utilisent le préfixe `D=`. La variable `dynamicVariablePrefix` vous permet de personnaliser la chaîne qui identifie les variables dynamiques. Elle est sensible à la casse.
 
-## Préfixe de variable dynamique dans Adobe Experience Platform Launch
+## Préfixe de variable dynamique à l’aide de balises dans Adobe Experience Platform
 
 Le préfixe de variable dynamique est un champ situé sous l’accordéon [!UICONTROL Variables globales] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Variables globales], qui affiche le champ [!UICONTROL Préfixe de variable dynamique].
 
 Ce champ contient `D=` par défaut. Vous pouvez modifier la valeur si vous souhaitez utiliser un préfixe de variable dynamique différent. Vous pouvez utiliser n’importe quelle valeur, à condition qu’elle corresponde au codage des caractères sur votre site.
 
-## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.dynamicVariablePrefix` est une chaîne pouvant contenir n’importe quelle séquence de caractères. Si cette variable n’est pas définie, AppMeasurement utilise la chaîne `D=` par défaut.
 
