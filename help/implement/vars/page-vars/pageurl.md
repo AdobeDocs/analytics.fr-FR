@@ -2,11 +2,10 @@
 title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '272'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 89%
 
 ---
 
@@ -18,11 +17,11 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 >
 >Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. De plus, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’images de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez utiliser l’URL de la page en tant que dimension dans Analysis Workspace, ou que cette dimension soit utilisée dans les accès de suivi de liens, pensez à transmettre la variable `pageURL` dans une [eVar](evar.md) à chaque accès.
 
-## URL de page dans Adobe Experience Platform Launch
+## URL de page utilisant des balises dans Adobe Experience Platform
 
-Launch renseigne automatiquement l’URL de la page. Vous pouvez toutefois définir le remplacement de l’URL de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+L’interface utilisateur de collecte de données renseigne automatiquement l’URL de la page. Vous pouvez toutefois définir le remplacement de l’URL de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet **[!UICONTROL Règles]**, puis cliquez sur une règle (ou créez une règle).
 4. Sous **[!UICONTROL Actions]**, cliquez sur une action existante **[!UICONTROL Adobe Analytics - Définir des variables]** ou cliquez sur l’icône « + ».
@@ -31,7 +30,7 @@ Launch renseigne automatiquement l’URL de la page. Vous pouvez toutefois défi
 
 Vous pouvez définir l’URL de la page sur n’importe quelle valeur de chaîne.
 
-## s.pageURL dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.pageURL dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.pageURL` est une chaîne qui contient l’URL de la page. AppMeasurement collecte automatiquement cette variable, mais vous pouvez remplacer sa valeur si vous le souhaitez.
 
