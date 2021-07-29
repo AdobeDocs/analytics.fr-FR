@@ -2,11 +2,10 @@
 title: trackDownloadLinks
 description: Permet d’activer ou de désactiver le suivi automatique des liens pour les liens de téléchargement.
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 87%
 
 ---
 
@@ -16,18 +15,18 @@ Adobe offre la possibilité de suivre les liens de téléchargement sans défini
 
 Lorsqu’il est activé, AppMeasurement compare l’URL du lien sur lequel l’utilisateur a cliqué aux valeurs de [`linkDownloadFileTypes`](linkdownloadfiletypes.md). S’il existe une correspondance, un appel de suivi des liens de téléchargement se déclenche automatiquement.
 
-## Suivi des liens de téléchargement dans Adobe Experience Platform Launch
+## Suivi des liens de téléchargement à l’aide de balises dans Adobe Experience Platform
 
 Lors de la configuration de l’extension Adobe Analytics, une case à cocher se trouve sous l’accordéon [!UICONTROL Suivi des liens] de téléchargement.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche la case à cocher des [!UICONTROL liens de téléchargement de suivi].
 
 Cochez la case pour activer le suivi automatique des liens de téléchargement.
 
-## s.trackDownloadLinks dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.trackDownloadLinks dans AppMeasurement et l’éditeur de code personnalisé de 
 
 `s.trackDownloadLinks` est d’une valeur booléenne qui active ou désactive le suivi automatique des liens de téléchargement. Si vous ne souhaitez pas suivre les liens de téléchargement ou si vous préférez appeler manuellement la méthode `tl()` pour effectuer le suivi des téléchargements, définissez cette variable sur `false`.
 
