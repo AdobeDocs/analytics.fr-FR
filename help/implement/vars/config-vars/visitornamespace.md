@@ -2,11 +2,10 @@
 title: visitorNameSpace
 description: Variable abandonnée qui déterminait le domaine du cookie.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 89%
 
 ---
 
@@ -22,18 +21,18 @@ Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la
 >
 >Adobe recommande d’utiliser des cookies propriétaires sur votre site. Les cookies propriétaires n’utilisent pas cette variable.
 
-## Espace de nom du visiteur dans Adobe Experience Platform Launch
+## Espace de noms du visiteur utilisant des balises dans Adobe Experience Platform
 
 [!UICONTROL L’espace de nom du visiteur] est un champ situé sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Espace de nom du visiteur].
 
 Adobe recommande de ne pas utiliser ce champ. Utilisez `trackingServer` et `trackingServerSecure` à la place.
 
-## s.visitorNamespace dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.visitorNamespace dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.visitorNamespace` est une chaîne qui contient une valeur unique par organisation. Les anciennes bibliothèques AppMeasurement incluaient automatiquement cette valeur unique lorsqu’elles étaient téléchargées à partir des versions précédentes d’Adobe Analytics. Les bibliothèques AppMeasurement actuelles n’utilisent pas cette variable, sauf si `trackingServer` et `trackingServerSecure` ne sont pas définies.
 
