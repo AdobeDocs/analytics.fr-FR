@@ -2,11 +2,10 @@
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 96%
 
 ---
 
@@ -16,11 +15,11 @@ Les dimensions et les mesures sont des composants essentiels des rapports. La va
 
 Avant d’implémenter des événements, veillez à les créer et à les configurer sous [Événements de succès](/help/admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement configurés.
 
-## Événements dans Adobe Experience Platform Launch
+## Événements utilisant des balises dans Adobe Experience Platform
 
 Vous pouvez définir des événements lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -34,7 +33,7 @@ Plusieurs fonctionnalités sont disponibles :
 * Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` sous la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 pour les rapports.
 * Bouton permettant d’ajouter un autre événement. Il n’existe pas de limite raisonnable au nombre d’événements que vous pouvez inclure dans un accès.
 
-## s.events dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.events dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. Il n’y a pas de limite d’octets pour cette variable. Elle n’est donc pas tronquée. Les valeurs valides sont les suivantes :
 
