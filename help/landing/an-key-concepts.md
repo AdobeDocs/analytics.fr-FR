@@ -2,10 +2,10 @@
 description: Cette section présente des concepts clés liés à Adobe Analytics, une brève description du concept et un lien vers une documentation spécifique comprenant des détails supplémentaires sur le sujet.
 title: Adobe Analytics – Concepts clés
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Cette section présente des concepts clés liés à Adobe Analytics, une brève
 | Data Warehouse | Données brutes non traitées pour le stockage et les rapports personnalisés, que vous pouvez traiter en filtrant les données. Aucun niveau d’accès. | [Accueil de Data Warehouse](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | Réunit l’ensemble des fonctionnalités de marketing mobile pour les applications mobiles d’Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications. | [Accueil de Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=fr) |
 | Adobe Exchange Data Connectors (anciennement Genesis) | Importe dans Analytics des données de suivi issues d’applications tierces, permettant ainsi de bénéficier d’une visibilité de bout en bout au même endroit. À compter du 1er août 2021, Adobe a l’intention d’interrompre les intégrations des Data Connectors. | [Aide de Data Connectors](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Nouvelle génération de fonctionnalités de gestion de SDK mobile et de balises de sites web. | [Page d’accueil du guide d’Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=fr) |
+| Balises dans Adobe Experience Platform | Nouvelle génération de fonctionnalités de gestion de SDK mobile et de balises de sites web. | [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## Terminologie clé {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ Cliquez [ici](/help/technotes/terms.md) pour consulter un glossaire complet des 
 | Guide de mise en œuvre | Description des variables de collecte de données et informations détaillées sur l’implémentation du code de collecte de données dans JavaScript. | [Guide de mise en œuvre](/help/implement/home.md) |
 | AppMeasurement (s_code) | Gestion globale des variables. | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | SDK d’application | Package personnalisé qui comprend une version prérenseignée du fichier de configuration pour les applications. | <ul><li>[iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=fr)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=fr)</li></ul> |
-| Adobe Experience Platform Launch | Voir Outils Analytics. |  |
+| Balises dans Adobe Experience Platform | Voir Outils Analytics. |  |
 | VISTA | Permet d’appliquer une logique côté serveur pour modifier ou segmenter les données au fur et à mesure de leur collecte. | [Règles VISTA](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Règles de traitement | Permet de définir, modifier et copier des variables dans l’interface utilisateur d’Analytics afin de modifier les données collectées. | [Règles de traitement](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | Options de débogage | Plusieurs débogueurs et renifleurs de paquets peuvent vous aider à valider votre mise en œuvre, notamment le débogueur Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=fr) |
