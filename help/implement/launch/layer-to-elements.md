@@ -2,10 +2,10 @@
 title: Mise en correspondance des objets de couche de données avec les éléments de données
 description: Configurez des balises à lire à partir de votre couche de données.
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 60%
+source-wordcount: '357'
+ht-degree: 61%
 
 ---
 
@@ -24,9 +24,7 @@ Une fois que votre entreprise a établi et mis en oeuvre une couche de données 
 
 [Les ](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) éléments de données sont des composants de l’interface utilisateur de collecte de données que vous pouvez utiliser dans l’ensemble de l’outil. Vous pouvez attribuer des valeurs de variable dans l’extension Adobe Analytics à l’aide d’éléments de données.
 
-1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous lorsque vous y êtes invité.
-1. Sélectionnez **[!UICONTROL Lancer / Collecte de données]**.
-1. Cliquez sur **[!UICONTROL Aller à Launch / Collecte de données]**, puis sélectionnez **[!UICONTROL Balises]**.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet **[!UICONTROL Éléments de données]**, puis sur **[!UICONTROL Ajouter un élément de données]**.
 
