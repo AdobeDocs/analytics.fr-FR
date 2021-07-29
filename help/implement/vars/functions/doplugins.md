@@ -2,11 +2,10 @@
 title: doPlugins
 description: Permet de configurer la logique juste avant qu’un accès ne soit compilé et envoyé à Adobe.
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 88%
 
 ---
 
@@ -19,11 +18,11 @@ La variable `doPlugins` agit comme un « dernier appel » pour définir des va
 
 Utilisez la variable `doPlugins` pour appeler le code du plug-in et définir les valeurs des variables finales juste avant la compilation et l’envoi d’une demande d’image à Adobe.
 
-## Plug-ins dans Adobe Experience Platform Launch
+## Modules externes utilisant des balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.doPlugins dans AppMeasurement et le code personnalisé de Launch
+## s.doPlugins dans AppMeasurement et le code personnalisé de 
 
 Définissez la variable `s.doPlugins` sur une fonction contenant le code souhaité. La fonction s’exécute automatiquement lorsque vous effectuez un appel de suivi.
 
