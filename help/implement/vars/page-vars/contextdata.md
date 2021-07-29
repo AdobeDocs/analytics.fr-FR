@@ -2,11 +2,10 @@
 title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
 
@@ -16,11 +15,11 @@ Les variables de données contextuelles vous permettent de définir des variable
 
 Les variables de données contextuelles permettent aux équipes de développement de collecter des données dans des éléments nommés plutôt que dans des variables numérotées. Par exemple, au lieu de demander aux équipes de développement d’affecter l’auteur de la page à `eVar10`, vous pouvez demander à ce qu’elles l’affectent à `s.contextData["author"]` à la place. Un administrateur Analytics de votre entreprise peut alors créer des règles de traitement pour mapper des variables de données contextuelles dans des variables d’analyse pour la création de rapports. En fin de compte, les équipes de développement se soucient uniquement des variables de données contextuelles au lieu des nombreuses variables de page proposées par Adobe.
 
-## Variables de données contextuelles dans Adobe Experience Platform Launch
+## Variables de données contextuelles utilisant des balises dans Adobe Experience Platform
 
-Launch ne dispose pas d’un emplacement dédié pour définir des variables de données contextuelles. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+L’interface utilisateur de collecte de données ne dispose pas d’un emplacement dédié pour définir des variables de données contextuelles. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.contextData dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.contextData dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.contextData` ne prend pas directement une valeur. Définissez plutôt les propriétés de cette variable sur une chaîne.
 
