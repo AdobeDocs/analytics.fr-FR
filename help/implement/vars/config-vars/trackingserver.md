@@ -2,10 +2,10 @@
 title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 >
 >Si vous modifiez cette valeur, AppMeasurement recherche les cookies à un autre emplacement. Le nombre de visiteurs uniques peut augmenter temporairement la création de rapports lorsque les cookies de visiteurs sont définis au nouvel emplacement.
 
-## Serveur de suivi dans Adobe Experience Platform Launch
+## Serveur de suivi à l’aide de balises dans Adobe Experience Platform
 
 Le serveur de suivi est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi].
 
 Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].data.adobedc.net`.
 
-## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.trackingServer` est une chaîne qui contient l’emplacement d’envoi des données.
 
