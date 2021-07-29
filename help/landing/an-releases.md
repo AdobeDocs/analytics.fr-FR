@@ -2,10 +2,10 @@
 description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Selon les mises à jour de fonctionnalité, la chronologie peut varier entre la 
 
 ## Indicateurs de fonctionnalités
 
-Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités pendant la mise à jour. Adobe recommande d’ajouter app.launchdarkly.com à la [liste autorisée](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=fr) de votre pare-feu pour une expérience optimale lors de la mise à jour. Peu de temps après avoir atteint la disponibilité générale, l’indicateur est retiré.
+Les indicateurs de fonctionnalités permettent de contrôler la visibilité des nouvelles fonctionnalités pendant la mise à jour. Adobe recommande d’ajouter `app.launchdarkly.com` à la [liste autorisée](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=fr) de votre pare-feu pour une expérience optimale lors de la mise à jour. Peu de temps après avoir atteint la disponibilité générale, l’indicateur est retiré.
 
 Vous pouvez à tout moment afficher vos indicateurs de fonctionnalités actifs sous **Aide > À propos de Workspace > Indicateurs de fonctionnalités actifs**.
 
