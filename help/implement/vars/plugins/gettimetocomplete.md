@@ -2,11 +2,10 @@
 title: getTimeToComplete
 description: Permet de mesurer le temps nécessaire à l’accomplissement d’une tâche.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '768'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 Le plug-in `getTimeToComplete` permet d’effectuer le suivi du temps nécessaire à un utilisateur pour terminer un processus sur un site. Le « compte à rebours » commence au moment de l’appel de l’action `start` et se termine lorsque l’action `stop` est appelée. Adobe recommande d’utiliser ce plug-in s’il existe un workflow sur le site qui dure longtemps et que vous souhaitez connaître le temps nécessaire aux visiteurs pour le terminer. Il n’est pas nécessaire d’utiliser ce plug-in si le workflow sur le site ne dure pas longtemps (moins de 3 secondes), car la granularité est réduite à la seconde complète.
 
-## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du module externe à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
@@ -34,11 +33,11 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de getTimeToComplete
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].
