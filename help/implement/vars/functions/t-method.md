@@ -2,11 +2,10 @@
 title: t
 description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe reçoit la demande d’image, puis analyse l’en-tête de la demande, l’URL et les paramètres de chaîne de requête. Les serveurs de collecte de données renvoient ensuite une image transparente de 1x1 pixel, affichée de manière invisible sur votre site.
 
-## Appel de suivi des pages vues dans Adobe Experience Platform Launch
+## Appel de suivi des pages vues à l’aide de balises dans Adobe Experience Platform
 
-Launch a un emplacement dédié défini un appel de suivi des pages vues.
+L’interface utilisateur de la collecte de données dispose d’un emplacement dédié et d’un appel de suivi des pages vues.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
 6. Cochez la case `s.t()`.
 
-## s.t() dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.t() dans AppMeasurement et l’éditeur de code personnalisé de 
 
 Appelez la méthode `s.t()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 
