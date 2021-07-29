@@ -2,10 +2,10 @@
 title: charSet
 description: La variable charSet détermine le codage utilisé par Adobe pour analyser votre demande d’image.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 90%
+source-wordcount: '198'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,7 @@ Définissez cette variable uniquement si vous voyez des valeurs illisibles ([moj
 
 Le jeu de caractères désigne un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
-1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
-1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Jeu de caractères].
