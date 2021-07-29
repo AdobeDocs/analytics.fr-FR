@@ -2,11 +2,10 @@
 title: useLinkTrackSessionStorage
 description: Stockez les données de suivi des liens dans l’enregistrement de session plutôt que dans un cookie.
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +24,11 @@ L’utilisation de l’enregistrement de session d’un navigateur pour le suivi
 
 AppMeasurement supprime les données de suivi des liens d’enregistrement de session après l’envoi d’un accès à Adobe. Il expire également automatiquement lorsque l’onglet du navigateur est fermé.
 
-## Utilisation de l’enregistrement de session de suivi de lien dans Adobe Experience Platform Launch
+## Utilisation du suivi des liens pour le stockage des sessions à l’aide de balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.useLinkTrackSessionStorage dans AppMeasurement et éditeur de code personnalisé Launch
+## s.useLinkTrackSessionStorage dans AppMeasurement et éditeur de code personnalisé 
 
 La variable `s.useLinkTrackSessionStorage` est une valeur booléenne qui détermine si AppMeasurement utilise l’enregistrement de session pour les données de suivi des liens au lieu du cookie `s_sq`. Sa valeur par défaut est `false`. Définissez cette variable sur `true` si vous souhaitez qu’AppMeasurement utilise l’enregistrement de session au lieu du cookie `s_sq` pour le suivi des liens et Activity Map.
 
