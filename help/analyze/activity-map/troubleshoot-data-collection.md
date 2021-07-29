@@ -4,7 +4,7 @@ description: Déterminer pourquoi vous ne pouvez pas voir les données de Activi
 feature: 'Activity Map  '
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Tout d’abord, assurez-vous qu’AppMeasurement collecte correctement les donn�
 Vérifiez chacun des éléments suivants pour vous assurer que les composants Activity Map sont présents :
 
 * **Version** d’AppMeasurement : Activity Map est pris en charge sur v1.6 et versions ultérieures. De nombreux problèmes de cas de périphérie sont résolus lorsque vous effectuez une mise à niveau vers la dernière version stable d’AppMeasurement.
-* **Module** Activity Map : Vérifiez si le  `AppMeasurement_Module_Activity_Map` module est présent dans votre  `AppMeasurement.js` fichier . Si votre mise en oeuvre utilise la collecte de données Adobe Experience Platform (Launch), assurez-vous que l’option **[!UICONTROL Activer le ClickMap]** est cochée lors de la configuration de l’extension Analytics sous **[!UICONTROL Suivi des liens]**.
+* **Module** Activity Map : Vérifiez si le  `AppMeasurement_Module_Activity_Map` module est présent dans votre  `AppMeasurement.js` fichier . Si votre mise en oeuvre utilise Adobe Experience Platform pour collecter des données, assurez-vous que l’option **[!UICONTROL Activer le ClickMap]** est cochée lors de la configuration de l’extension Analytics sous **[!UICONTROL Suivi des liens]**.
 * **Le  `s_sq` cookie** : Activity Map dépend du  `s_sq` cookie pour la collecte de données.
    * Assurez-vous que la variable `cookieDomainPeriods` est correctement définie, en particulier pour les domaines régionaux tels que `*.co.uk` ou `*.co.jp`.
    * Assurez-vous que la variable `linkInternalFilters` est définie sur les valeurs souhaitées. Si un lien cliqué ne correspond pas aux filtres internes, Activity Map le considère comme un lien de sortie et ne collecte pas de données.
