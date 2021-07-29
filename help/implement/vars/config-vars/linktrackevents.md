@@ -2,11 +2,10 @@
 title: linkTrackEvents
 description: Permet de déterminer les événements à inclure dans les demandes d’image de suivi de liens.
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 67%
 
 ---
 
@@ -16,15 +15,15 @@ Certaines mises en œuvre ne souhaitent pas inclure toutes les variables dans to
 
 Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()`](../functions/t-method.md)).
 
-## Événements dans les appels de suivi de liens à l’aide d’Adobe Experience Platform Launch
+## Événements des appels de suivi des liens utilisant des balises dans Adobe Experience Platform
 
-Launch détecte automatiquement les événements définis dans l’interface et les inclut dans les accès de suivi de liens.
+Adobe Experience Platform inclut automatiquement les événements définis dans les accès de suivi de liens si vous n’utilisez pas de code personnalisé.
 
 >[!IMPORTANT]
 >
->Si vous définissez des événements dans Launch à l’aide de l’éditeur de code personnalisé, vous devez inclure l’événement dans `linkTrackEvents` en utilisant également le code personnalisé.
+>Si vous définissez des événements dans l’interface utilisateur de la collecte de données à l’aide de l’éditeur de code personnalisé, vous devez également inclure l’événement dans `linkTrackEvents` à l’aide du code personnalisé.
 
-## s.linkTrackEvents dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.linkTrackEvents dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.linkTrackEvents` est une chaîne contenant une liste d’événements délimitée par des virgules que vous souhaitez inclure dans les demandes d’image de suivi de liens (méthode `tl()`). Les trois critères suivants doivent être satisfaits pour inclure des mesures dans les accès de suivi des liens :
 
@@ -36,7 +35,7 @@ La variable `s.linkTrackEvents` est une chaîne contenant une liste d’événem
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-La valeur par défaut de cette variable est une chaîne vide. Si cette variable n’est pas définie, tous les événements sont inclus dans les demandes d’image de suivi des liens. Notez que Launch renseigne automatiquement cette variable en fonction des événements définis dans l’interface ; celle-ci est donc toujours définie dans les mises en œuvre à l’aide de Launch.
+La valeur par défaut de cette variable est une chaîne vide. Si cette variable n’est pas définie, tous les événements sont inclus dans les demandes d’image de suivi des liens. Notez que la collecte de données renseigne automatiquement cette variable en fonction des événements définis dans l’interface. Elle est donc toujours définie pour les implémentations qui utilisent des balises dans Adobe Experience Platform.
 
 >[!TIP]
 >
