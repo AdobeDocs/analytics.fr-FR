@@ -2,11 +2,10 @@
 title: linkInternalFilters
 description: Utilisez la variable linkInternalFilters pour faciliter le suivi automatique des liens de sortie.
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 93%
 
 ---
 
@@ -24,18 +23,18 @@ Activity Map utilise cette variable pour aider à déterminer quels liens sont i
 >
 >`linkInternalFilters` et les [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) sont des fonctionnalités distinctes qui remplissent des fonctions distinctes. La variable `linkInternalFilters` fonctionne spécifiquement pour le suivi des liens de sortie. Les filtres d’URL internes sont un paramètre d’administration qui permet d’utiliser des dimensions de sources de trafic telles que Domaine référent.
 
-## Liens sortants - Ne jamais effectuer le suivi dans Adobe Experience Platform Launch
+## Liens sortants - Ne jamais effectuer le suivi à l’aide de balises dans Adobe Experience Platform
 
 Le champ Ne jamais suivre est une liste de filtres séparés par des virgules (généralement des domaines) sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche le champ [!UICONTROL Liens sortants - Ne jamais suivre].
 
 Placez dans ce champ des filtres que vous ne souhaitez jamais suivre comme liens de sortie. Séparez plusieurs domaines par une virgule sans espace.
 
-## s.linkInternalFilters dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.linkInternalFilters dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.linkInternalFilters` est une chaîne contenant des filtres (tels que les domaines) que vous considérez comme internes à votre site. Séparez plusieurs filtres à l’aide d’une virgule sans espaces.
 
