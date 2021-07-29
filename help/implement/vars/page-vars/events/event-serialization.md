@@ -2,10 +2,10 @@
 title: Sérialisation d’événements
 description: Permet la déduplication des mesures sur votre site.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 93%
 
 ---
 
@@ -31,11 +31,11 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 >
 >Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
 
-## Utilisation d’identifiants d’événement dans Adobe Experience Platform Launch
+## Utilisation des ID d’événement à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir le champ Identifiant d’événement lors de la configuration de l’extension Analytics (variables globales) ou en tant qu’action dans une règle.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -44,7 +44,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 
 Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous saisissez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.
 
-## Utilisation d’identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## Utilisation d’identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La sérialisation des événements fait partie de la variable `s.events`. Attribuez un identifiant à chaque événement à l’aide d’un deux-points dans la chaîne.
 
