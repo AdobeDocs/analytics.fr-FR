@@ -2,11 +2,10 @@
 title: getAndPersistValue
 description: Permet de stocker une valeur qui peut être récupérée ultérieurement à tout moment.
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '934'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 90%
 
 ---
 
@@ -16,13 +15,13 @@ ht-degree: 100%
 >
 >Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
-Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à celui de la fonction [!UICONTROL Durée du stockage] dans Adobe Experience Platform Launch. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la fonction [!UICONTROL Durée du stockage] de Launch est suffisante, ou si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce plug-in, car ces variables sont conservées côté serveur par Adobe.
+Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à la fonction [!UICONTROL Durée de stockage] en utilisant des balises dans Adobe Experience Platform. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la fonction [!UICONTROL Durée de stockage] de Adobe Experience Platform est suffisante. Il n’est pas non plus nécessaire d’utiliser ce plug-in si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas l’utilisation de ce plug-in, car ces variables sont conservées côté serveur par Adobe.
 
-## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du module externe à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
@@ -34,11 +33,11 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de getAndPersistValue
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].
