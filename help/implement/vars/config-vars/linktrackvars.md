@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: Permet de spécifier les variables à inclure dans les demandes d’image de suivi des liens.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ Certaines mises en œuvre ne souhaitent pas inclure toutes les variables dans to
 
 Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()`](../functions/t-method.md)).
 
-## Variables des appels de suivi de liens à l’aide d’Adobe Experience Platform Launch
+## Variables des appels de suivi des liens à l’aide de balises dans Adobe Experience Platform
 
-Launch renseigne automatiquement cette variable sur le serveur principal en fonction des variables définies dans l’interface. Elle est donc toujours définie dans les mises en œuvre à l’aide de Launch.
+Adobe Experience Platform renseigne automatiquement cette variable sur le serveur principal en fonction des variables définies dans l’interface. Elle est donc toujours définie dans les implémentations à l’aide de balises dans Adobe Experience Platform.
 
 >[!IMPORTANT]
 >
->Si vous définissez des variables dans Launch à l’aide de l’éditeur de code personnalisé, vous devez également inclure la variable dans `linkTrackVars` à l’aide du code personnalisé.
+>Si vous définissez des variables à l’aide de l’éditeur de code personnalisé, vous devez également inclure la variable dans `linkTrackVars` à l’aide du code personnalisé.
 
-## s.linkTrackVars dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.linkTrackVars dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.linkTrackVars` est une chaîne contenant une liste de variables délimitées par des virgules que vous souhaitez inclure dans les demandes d’image de suivi de liens (méthode `tl()`). Les deux critères suivants doivent être satisfaits pour inclure des dimensions dans les accès de suivi des liens :
 
