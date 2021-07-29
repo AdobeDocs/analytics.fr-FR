@@ -2,11 +2,10 @@
 title: getVisitNum
 description: Permet d’assurer le suivi du nombre de visites actuelles d’un visiteur.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1048'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 96%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 Le plug-in `getVisitNum` renvoie le nombre de visites pour tous les visiteurs qui se rendent sur le site au cours du nombre de jours souhaité. Analysis Workspace propose une dimension « Nombre de visites » qui offre des fonctionnalités similaires. Adobe recommande d’utiliser ce plug-in si vous souhaitez avoir un meilleur contrôle sur la manière dont le nombre de visites est incrémenté. Ce plug-in n’est pas nécessaire si la dimension « Nombre de visites » intégrée dans Analysis Workspace est suffisante pour vos besoins en matière de rapports.
 
-## Installation du plug-in à l’aide de l’extension Adobe Experience Platform Launch
+## Installation du module externe à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
@@ -34,11 +33,11 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de getVisitNum
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de Launch
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].
