@@ -2,10 +2,10 @@
 title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +25,11 @@ Si `currencyCode` est défini et différent de la devise de la suite de rapports
 
 Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
 
-## Code de devise dans les balises Adobe Experience Platform
+## Code de devise utilisant des balises dans Adobe Experience Platform
 
 Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Accédez à `experience.adobe.com` et connectez-vous lorsque vous y êtes invité.
-1. Sélectionnez [!UICONTROL Lancer / Collecte de données].
-1. Cliquez sur [!UICONTROL Aller à Launch / Collecte de données], puis sélectionnez [!UICONTROL Balises].
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].
@@ -48,7 +46,7 @@ Le code de devise est transmis aux SDK Adobe Experience Platform Mobile par le b
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
-## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de la collecte de données
+## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
 
