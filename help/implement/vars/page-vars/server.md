@@ -2,11 +2,10 @@
 title: server
 description: Permet de renseigner la dimension « Serveurs ».
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 La variable `server` stocke généralement le nom d’hôte de votre site. Elle est généralement utilisée dans les suites de rapports qui contiennent des données provenant de plusieurs domaines. Elle est fonctionnellement identique à une prop.
 
-## Serveur dans Adobe Experience Platform Launch
+## Serveur utilisant des balises dans Adobe Experience Platform
 
 Vous pouvez définir le serveur lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -27,7 +26,7 @@ Vous pouvez définir le serveur lors de la configuration de l’extension Analyt
 
 Vous pouvez définir le serveur sur n’importe quelle valeur de chaîne ou élément de données.
 
-## s.server dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.server dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.server` est une chaîne qui contient généralement le nom d’hôte de votre site. Celle-ci a une valeur maximale de 100 octets ; les valeurs plus longues sont tronquées.
 
