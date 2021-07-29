@@ -2,11 +2,10 @@
 title: trackOffline
 description: Permet d’activer ou de désactiver le suivi hors ligne, qui modifie la manière dont AppMeasurement collecte les données.
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +27,11 @@ Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoye
    * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
    * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
 
-## Suivi hors ligne dans Adobe Experience Platform Launch
+## Suivi hors ligne à l’aide de balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.trackOffline dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.trackOffline dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.trackOffline` est une valeur booléenne qui active ou désactive le suivi hors ligne. Sa valeur par défaut est `false`. Définissez cette valeur sur `true` si vous souhaitez activer le suivi hors ligne.
 
