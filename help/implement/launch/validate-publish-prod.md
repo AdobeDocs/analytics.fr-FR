@@ -2,9 +2,9 @@
 title: Validation de la mise en œuvre d’un développement et publication en production
 description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 64%
 
 ---
@@ -35,9 +35,7 @@ Le débogueur Experience Cloud est un plug-in Chrome qui affiche toutes les bali
 
 Une fois que vous avez validé les données affichées, vous pouvez transmettre votre mise en œuvre à la version en direct de votre site.
 
-1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous lorsque vous y êtes invité.
-1. Sélectionnez **[!UICONTROL Lancer / Collecte de données]**.
-1. Cliquez sur **[!UICONTROL Aller à Launch / Collecte de données]**, puis sélectionnez **[!UICONTROL Balises]**.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Publication]** et localisez votre bibliothèque dans la colonne de développement.
 1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Soumettre pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
