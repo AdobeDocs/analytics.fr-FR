@@ -2,11 +2,10 @@
 title: transactionID
 description: Utilisez cette variable pour lier des données en ligne et hors ligne.
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ Lorsque vous définissez `transactionID` sur un accès, Adobe prend un « insta
 
 Par défaut, Adobe mémorise toutes les valeurs d’identifiant de transaction (liées et non liées) pendant 90 jours au maximum. Si votre processus d’interaction hors ligne dépasse 90 jours, demandez à un agent du service clientèle d’étendre cette limite.
 
-## Identifiant de transaction dans Adobe Experience Platform Launch
+## ID de transaction à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir l’identifiant de transaction lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
@@ -35,7 +34,7 @@ Vous pouvez définir l’identifiant de transaction lors de la configuration de 
 
 Vous pouvez définir l’identifiant de transaction sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.transactionID dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.transactionID dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.transactionID` est une chaîne contenant un identifiant unique pour une transaction. Les valeurs valides comprennent des caractères alphanumériques d’une longueur maximale de 100 octets. Sa valeur par défaut est une chaîne vide.
 
