@@ -2,11 +2,10 @@
 title: purchaseID
 description: Permet de dédupliquer les accès en fonction d’un identifiant d’achat unique.
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ Lorsqu’Adobe reconnaît un accès comme un achat en double, toutes les donnée
 
 Les identifiants d’achat s’appliquent à tous les visiteurs et n’expirent pas. Si un visiteur définit un identifiant d’achat donné, puis un autre visiteur définit le même identifiant d’achat un an plus tard, le second achat est dédupliqué.
 
-## Identifiant d’achat dans Adobe Experience Platform Launch
+## Identifiant d’achat à l’aide de balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans Launch pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé de 
 
 La variable `s.purchaseID` est une chaîne qui contient un identifiant unique pour un achat. Celle-ci est définie sur le même accès qu’un événement d’achat. Utilisez uniquement des caractères alphanumériques pour renseigner cette variable.
 
