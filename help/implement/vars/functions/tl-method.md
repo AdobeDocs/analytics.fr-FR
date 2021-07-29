@@ -2,11 +2,10 @@
 title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ La méthode `tl()` est un composant principal important d’Adobe Analytics. Ell
 
 Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) sont activés, AppMeasurement appelle automatiquement la méthode `tl()` pour envoyer les données de suivi des liens de téléchargement et de sortie. Si votre organisation préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, vous pouvez appeler la méthode `tl()` manuellement. Les liens personnalisés ne peuvent être suivis que manuellement.
 
-## Appel de suivi des liens dans Adobe Experience Platform Launch
+## Appel de suivi des liens à l’aide de balises dans Adobe Experience Platform
 
-Launch a un emplacement dédié défini un appel de suivi des liens.
+L’interface utilisateur de la collecte de données comporte un emplacement dédié et un appel de suivi des liens.
 
-1. Connectez-vous à [launch.adobe.com](https://launch.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 1. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
 1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
 1. Cochez la case `s.tl()`.
 
-Vous ne pouvez pas définir d’arguments facultatifs dans Launch.
+Vous ne pouvez pas définir d’arguments facultatifs dans l’interface utilisateur de la collecte de données.
 
-## s.tl() dans AppMeasurement et l’éditeur de code personnalisé de Launch
+## s.tl() dans AppMeasurement et l’éditeur de code personnalisé de 
 
 Appelez la méthode `s.tl()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 
