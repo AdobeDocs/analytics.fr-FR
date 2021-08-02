@@ -2,10 +2,10 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
 
-**À compter du 1er août 2021**, Adobe a l’intention d’interrompre les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
+**À compter du 1er août 2021**, Adobe a interrompu les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
@@ -30,6 +30,8 @@ Chaque société fournissant une intégration a eu la possibilité d’en effect
 Pour toute question ou assistance supplémentaire, contactez l’assistance clientèle Adobe.
 
 ## Statut du partenaire du connecteur de données
+
+*Dernière mise à jour : 2 août 2021 (Hootsuite)*
 
 | Partenaire | État |
 | --- | --- |
@@ -49,7 +51,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | CheetahMail par Experian | Migration vers Exchange |
 | ClickTale | Abandon |
 | Clicktale CA | Abandon |
-| Conductor 2.0, Conducteur, Conducteur : mesures organiques | Abandon |
+| Conductor 2.0, Conductor, Conductor Organic Metrics | Abandon |
 | ContactLab 2.0 (Contact Send Connector) | Abandon |
 | Coradiant TrueSight | Abandon |
 | D&amp;B Visitor Intelligence | Abandon |
@@ -62,7 +64,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | DialogTech | Disponible sur Adobe Exchange |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Abandon |
 | DREAM | Abandon |
-| DREAMmail 1.0, DREAMmail 2.0 | Abandon |
+| DREAMmail 1.0, DREAMmail 2.0 | Abandon |
 | Dynamic Signal (Nital Vora) | Migration vers Exchange |
 | eDialog Precision Central | Abandon |
 | eC-messenger | Abandon |
@@ -70,11 +72,11 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | emarsys xpress | Abandon |
 | Epsilon Harmony | Migration vers Exchange |
 | EveryoneSocial pour Adobe Analytics | Abandon |
-| ExactTarget, ExactTarget 2.0 | Abandon |
+| ExactTarget, ExactTarget 2.0 | Abandon |
 | Fiksu | Abandon |
-| ForeSee (v2.0), Foresee Feedback, Foresee Results | Abandon |
+| ForeSee (v2.0), ForeSee Feedback, ForeSee Results | Abandon |
 | Gigya | Abandon |
-| Hootsuite | Abandon |
+| Hootsuite | Migration vers Exchange |
 | hybris | Abandon |
 | Kampyle (désormais Medallia) Feedback Analytics (1.1) | Abandon |
 | Listrak | Migration vers Exchange |
@@ -84,10 +86,10 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Official Oracle Eloqua Integration | Migration vers Exchange |
 | optivo broadmail (Episerver) | Abandon |
 | Qualtrics v2 | Migration vers Exchange |
-| Responsys 1.0, Responsys 2.0 | Abandon |
+| Responsys 1.0, Responsys 2.0 | Abandon |
 | Salesforce.com | Abandon |
 | Selligent | Abandon |
-| seoClarity, seoClarity 2.0 | Abandon |
+| seoClarity, seoClarity 2.0 | Abandon |
 | Silverpop Engage (v2.0) | Abandon |
 | Sizmek | Abandon |
 | SmartFOCUS Digital | Abandon |
@@ -101,10 +103,10 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | WhatCounts Email | Abandon |
 | wywy | Abandon |
 | Yesmail Enterprise | Abandon |
-| Zeta interactive | Abandon |
+| Zeta Interactive | Abandon |
 
 ## Exception : Adobe Campaign Classic
 
 La SEULE exception à la date du 1er août 2021 est l’intégration Adobe Campaign Classic. Cette intégration sera officiellement abandonnée le 1er mars 2022.
 
-Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur de  Data Connectors ainsi que de toutes les autres intégrations. Cependant, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 1er mars 2022. Le 1er mars 2022, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics. Si vous utilisez cette intégration, vous devez passer au nouveau connecteur Campaign-Analytics avant le 1er mars 2022. Pour en savoir plus, consultez la [documentation Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html).
+Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur de  Data Connectors ainsi que de toutes les autres intégrations. Cependant, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 1er mars 2022. Le 1er mars 2022, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics. Si vous utilisez cette intégration, vous devez passer au nouveau connecteur Campaign-Analytics avant le 1er mars 2022. Pour en savoir plus, consultez la [documentation Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=fr).
