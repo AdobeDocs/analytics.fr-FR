@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Traitement et partage de projets {#curate-share}
+   + Traitement, partage et planification de projets {#curate-share}
       + [Menu Partager](analysis-workspace/curate-share/send-schedule-files.md)
       + [Traitement des projets](analysis-workspace/curate-share/curate.md)
       + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
@@ -141,8 +141,8 @@ ht-degree: 100%
       + [Requêtes de données - Assistant Requête : Étape 1](report-builder/data-requests/data-requests.md)
       + [Création d’une requête de données](report-builder/data-requests/t-create-a-data-request.md)
       + Suites de rapports {#report-suites}
-         + [Sélectionnez une suite de rapports](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [Sélectionnez une suite de rapports  à partir d’une requête existante dans Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [Sélectionnez une suite de rapports ](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Sélection d’une suite de rapports à partir d’une requête existante dans Excel](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestion des segments](report-builder/data-requests/segmentation.md)
       + [Autorisation des remplacements de la liste de publication](report-builder/data-requests/allow-publishing-list-overrides.md)
