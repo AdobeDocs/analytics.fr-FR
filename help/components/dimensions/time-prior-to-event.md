@@ -2,11 +2,10 @@
 title: Durée avant événement
 description: Durée entre la mesure et le premier accès de la visite.
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 94%
 
 ---
 
@@ -20,4 +19,4 @@ Bien que cette dimension soit techniquement prête à l’emploi pour toutes les
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent des intervalles temporels compris entre `"Less than 1 minute"` et `"More than 15 hours"`. Par exemple, si 23 minutes s’écoulent entre le premier accès d’un visiteur et un achat, l’élément de dimension serait `"10 to 30 minutes"`.
+Les éléments de dimension comprennent des intervalles temporels compris entre `"Less than 1 minute"` et `"More than 15 hours"`. Par exemple, si 23 minutes s’écoulent entre le premier accès d’un visiteur et un achat, l’élément de dimension serait `"10 to 30 minutes"`. Les compartiments ne peuvent pas être personnalisés pour cette mesure.
