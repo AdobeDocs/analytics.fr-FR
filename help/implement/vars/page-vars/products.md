@@ -2,10 +2,10 @@
 title: products
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 91%
+source-wordcount: '505'
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 
 >[!NOTE]
 >
->Si cette variable est définie dans un accès sans événement de panier dans la variable [`events`](events/events-overview.md), la mesure [Consultations de produit](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir l’événement de panier approprié pour chaque accès avec la variable `products`.
+>Si cette variable est définie dans un accès sans la variable [`events`](events/events-overview.md) , la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Veillez à définir les événements appropriés sur chaque accès avec la variable `products` .
 
 ## Produits utilisant des balises dans Adobe Experience Platform
 
