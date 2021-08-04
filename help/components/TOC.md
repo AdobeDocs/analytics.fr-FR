@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -102,6 +102,7 @@ ht-degree: 100%
    + [Code postal](dimensions/zip-code.md)
 + Mesures {#metrics}
    + [Mesures - Aperçu](metrics/overview.md)
+   + [Compter les instances répétées](metrics/count-repeat-instances.md)
    + [Profondeur moyenne de page](metrics/average-page-depth.md)
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
    + [Durée de session moyenne](metrics/average-session-length.md)
@@ -236,8 +237,8 @@ ht-degree: 100%
    + Créateur de règles de classification {#classifications-rulebuilder}
       + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
-      + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
-      + [Règles de classification  - définitions](classifications/crb/classification-rule-definitions.md)
+      + [Règles de classification ](classifications/crb/classification-quickstart-rules.md)
+      + [Règles de classification – Définitions](classifications/crb/classification-rule-definitions.md)
       + [Sous-classifications et le Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
    + [Sous-classifications](classifications/c-sub-classifications.md)
    + [FAQ sur les classifications](classifications/faq.md)
