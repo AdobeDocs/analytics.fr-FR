@@ -5,8 +5,8 @@ title: Importation FTP
 feature: Outils d’administration
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -43,12 +43,6 @@ Avant de charger des données via FTP, vous devez créer un compte FTP. Pour plu
 
 ## Importer des classifications via FTP {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
 Description de la procédure d’utilisation d’un compte FTP pour importer des classifications dans Adobe Analytics.
 
 Pour plus d’informations sur la création d’un compte FTP, consultez   [Créer un compte FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
@@ -67,12 +61,6 @@ Pour plus d’informations sur la création d’un compte FTP, consultez   [Cré
 ## Créer un compte FTP {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 Avant de charger des données via FTP, vous devez créer un compte FTP. >
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 Voir [FTP et SFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=fr) pour en savoir plus sur les serveurs FTP d’Adobe.
 
