@@ -4,10 +4,10 @@ subtopic: Classifications
 title: Fichiers de données de classification
 feature: Outils d’administration
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -178,6 +178,9 @@ Vous pouvez utiliser les [!UICONTROL classifications] pour affecter des périod
 * La période impliquée doit contenir une date de début et (facultativement) une date de fin.
 
 Pour classer les campagnes selon une période :
+
+>[!IMPORTANT]
+>Cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification.
 
 1. Connectez-vous à [!DNL Analytics] et accédez à Admin > Classifications.
 1. Cliquez sur l’onglet **[!UICONTROL Exportation navigateur]**, assurez-vous que les paramètres de votre classification Date d’activation sont corrects, puis cliquez sur Exporter un fichier.
