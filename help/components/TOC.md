@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '644'
+ht-degree: 99%
 
 ---
 
@@ -231,6 +231,7 @@ ht-degree: 100%
       + [Modèle de classification](classifications/importer/c-download-saint-data.md)
       + [Importation navigateur et FTP](classifications/importer/import-file.md)
       + [Importation navigateur](classifications/importer/browser-import.md)
+      + [Exportation navigateur](classifications/importer/browser-export.md)
       + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Durée du traitement](classifications/importer/processing-time.md)
       + [Résolution des problèmes](classifications/importer/troubleshooting.md)
