@@ -2,11 +2,10 @@
 title: Méthode de calcul de la durée de la visite dans Adobe Analytics
 description: Une page agrégée des dimensions et mesures de durée de la visite.
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1557'
-ht-degree: 100%
+source-git-commit: 085fd95da383671a51ce1e5888bea3db92c038bd
+workflow-type: tm+mt
+source-wordcount: '1581'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +21,7 @@ Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont 
 | [!UICONTROL Durée de la visite] (en secondes) | *Durée totale en secondes / (visite-rebonds)*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique lors de chaque visite. | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Durée par visiteur] (en secondes) | *Durée totale en secondes / visiteur unique*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). | Analysis Workspace, Reports &amp; Analytics |
 | [!UICONTROL Durée moyenne de la visite du site] (en secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Cette option n’est pas limitée aux moyennes de la visite du « site » comme son nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Reports &amp; Analytics (en minutes), Report Builder (en minutes) |
+| [!UICONTROL Temps moyen passé sur le site] | Il s’agit de la même mesure que *Durée moyenne de la visite du site (en secondes)*, à l’exception du format Heure (hh:mm:ss). | Analysis Workspace |
 | [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la « Durée moyenne de la visite du site » si la durée moyenne d’un élément de dimension est requise. | Report Builder (lorsqu’une dimension figure dans la demande) |
 | [!UICONTROL Durée totale de la session], alias [!UICONTROL Durée de session précédente] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session.<br>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée sur la durée de cette session. La prochaine fois que vous lancez l’application, la [!UICONTROL Durée de la session précédente] est envoyée avec une valeur de 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, Mobile Services UI |
 | [!UICONTROL Durée de session moyenne] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br> Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, IU Mobile Services |
@@ -108,12 +108,12 @@ Par conséquent, ces mesures peuvent donner des résultats similaires au niveau 
 
 Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au cours d’une visite unique :
 
-| Accès de la visite | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| Accès de la visite | 1 | 2 | 1 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | - | Product | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Produit | Accueil | Accueil  (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A  (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C  (définie) |
 | **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
