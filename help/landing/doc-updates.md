@@ -3,10 +3,10 @@ title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables au référentiel de documentation Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 71%
+source-wordcount: '2859'
+ht-degree: 69%
 
 ---
 
@@ -47,8 +47,15 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 14 janvier 2021 | Ajout de l’option de sélection de la langue des tableaux de bord Analytics. |
 | 14 janvier 2021 | Documentation sur la manière d’ajouter des images aux projets Workspace en référençant une URL d’image publique. |
 | 14 janvier 2021 | Gestionnaire de paramètres et de source combinés pour les visualisations Workspace : Le gestionnaire de [!UICONTROL source de données] (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle, ce qui vous permet de gérer facilement votre source et vos paramètres à partir du même emplacement. |
+| **Décembre 2020** |  |
+| 7 décembre 2020 | Modification de toutes les pages pertinentes afin d’inclure ou de remplacer le point de terminaison &quot;adobedc.net&quot;. |
+| 8 décembre 2020 | Mises à jour de la page [Créer un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html) dans Workspace. |
 | **Novembre 2020** |  |
-| Novembre 2020 | Nouveaux documents relatifs à la révision des implémentations : <ul><li>[Révision intégrale des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=fr)</li><li>[Révision ciblée des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=fr)</li></ul> |
+| 24 novembre 2020 | Mises à jour de la page [Aperçu du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) dans Workspace. |
+| 24 novembre 2020 | Nouveaux documents relatifs à la révision des implémentations : <ul><li>[Révision intégrale des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=fr)</li><li>[Révision ciblée des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=fr)</li></ul> |
+| 24 novembre 2020 | Mise à jour de la page [Aperçu des visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) d’Analysis Workspace. |
+| 12 novembre 2020 | Nouvelle page sur [Mise en oeuvre héritée d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en). |
+| 2 novembre 2020 | Mise à jour du document sur [FTP pour les classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en). |
 | **Octobre 2020** |  |
 | 23 octobre 2020 | Visualisation Ligne de Workspace : [Option de tendance moyenne glissante](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr) : Ce paramètre a été ajouté aux paramètres de tendance de visualisation [!UICONTROL Ligne] . Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de **[!UICONTROL périodes]**), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. |
 | 23 octobre 2020 | La [page d’aide sur les performances](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=fr) de Workspace présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. |
@@ -94,12 +101,15 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 20 février 2020 | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 février 2020 | Ajout de la variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 février 2020 | Mises à jour et réorganisation de la documentation des [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
+| 12 février 2020 | Ajout de nouvelles touches de raccourci à [cette page Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 7 février 2020 | Mises à jour de [Configuration des analyses entre appareils](/help/components/cda/setup.md) et [FAQ](/help/components/cda/faq.md). |
 | 4 février 2020 | Réécriture complète du [Guide de mise en œuvre](/help/implement/home.md). |
 | 22 janvier 2020 | Mise à jour de la page Tableau à structure libre pour inclure des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | **Janvier 2020** |  |
+| 24 janvier 2020 | Mises à jour de la page [Paramètres de ligne](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) dans Workspace. |
 | 16 janvier 2020 | Nouvelle documentation sur [le générateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr). Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Workspace imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 | 13 janvier 2020 | Ajout de [Adobe Analytics et les cookies de navigateur](/help/technotes/cookies/cookies.md). |
+| 13 janvier 2020 | Modification de la page [Quel outil dois-je utiliser](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-overview/which-analytics-tool.html). |
 | **2019** |  |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie des restrictions d’identification par IP](/help/admin/company/login-restrictions-eol.md). |
