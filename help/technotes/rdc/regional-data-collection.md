@@ -2,10 +2,9 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '475'
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
+workflow-type: tm+mt
+source-wordcount: '451'
 ht-degree: 100%
 
 ---
@@ -49,7 +48,6 @@ Remarque : Experience Edge Global offre les meilleures performances pour vos ut
 | Avantage | Description |
 | --- | --- |
 | Performances | Avec la collecte de données régionale, vos visiteurs se connectent au centre de collecte de données le plus proche. Cela permet de disposer du temps de réponse le plus rapide, ce qui autorise un suivi plus précis et des temps de chargement plus rapides. |
-| Redondance | En cas dʼinterruption de communication avec un centre de collecte de données, la collecte de données est automatiquement acheminée vers le prochain centre le plus proche, ce qui assure la continuité du service. |
 | Redondance | Dans le cas dʼune interruption de communication entre le centre de collecte de données et votre centre de traitement de données, lʼinfrastructure de collecte de données régionale dʼAdobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
 
 ## Fonctionnement de la collecte de données régionale
