@@ -3,10 +3,10 @@ description: Questions fréquentes sur les flux de données
 keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sensible à la casse
 title: FAQ sur les flux de données
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ Les flux de données n’incluent pas les robots filtrés par les [règles de ro
 Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrondissent automatiquement les grands nombres. La colonne `event_list` contient de nombreux nombres délimités par des virgules, ce qui peut parfois entraîner Excel à la traiter comme un grand nombre. Il arrondit les derniers chiffres à `000`.
 
 Adobe recommande de ne pas ouvrir automatiquement les fichiers `hit_data.tsv` dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer les données dʼExcel et assurez-vous que tous les champs sont traités comme du texte.
+
+## Les colonnes comme `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties être uniques à l’accès ou à la visite ?
+
+Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un accès. Le même concept s’applique à la concaténation de `visid_high` et `visid_low` pour les visites. Cependant, les anomalies de traitement peuvent rarement provoquer le partage d’un même identifiant d’accès par deux accès. Adobe recommande de ne pas créer de flux de données qui dépendent de manière inflexible de chaque accès unique.
 
 ## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#section_B7508D65370442C7A314EAED711A2C75}
 
