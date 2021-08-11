@@ -3,10 +3,10 @@ title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables au référentiel de documentation Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
+source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 69%
+source-wordcount: '2845'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,6 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 * Pour plus d’informations sur [!UICONTROL Customer Journey Analytics], rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr).
 * Pour obtenir la liste complète des nouvelles fonctionnalités Adobe Analytics, des avis d’administration et des correctifs, reportez-vous aux dernières [notes de mise à jour d’Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr).
-* Pour plus d’informations sur les nouvelles fonctionnalités, voir [Nouvelles fonctionnalités d’Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) dans le Guide sur les outils.
 * Pour plus d’informations sur Adobe Analytics pour l’audio et la vidéo, voir [Mesures audio et vidéo dans Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Détails sur les mises à jour majeures de la documentation
@@ -101,7 +100,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 20 février 2020 | Le débogueur Workspace a été ajouté au menu Aide, ce qui vous permet de l’activer plus facilement pour le débogage des requêtes Workspace. [En savoir plus...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 février 2020 | Ajout de la variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
 | 12 février 2020 | Mises à jour et réorganisation de la documentation des [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| 12 février 2020 | Ajout de nouvelles touches de raccourci à [cette page Workspace](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 12 février 2020 | Ajout de nouvelles touches de raccourci à [cette page Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=en) |
 | 7 février 2020 | Mises à jour de [Configuration des analyses entre appareils](/help/components/cda/setup.md) et [FAQ](/help/components/cda/faq.md). |
 | 4 février 2020 | Réécriture complète du [Guide de mise en œuvre](/help/implement/home.md). |
 | 22 janvier 2020 | Mise à jour de la page Tableau à structure libre pour inclure des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
@@ -109,7 +108,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 24 janvier 2020 | Mises à jour de la page [Paramètres de ligne](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en) dans Workspace. |
 | 16 janvier 2020 | Nouvelle documentation sur [le générateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr). Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Workspace imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 | 13 janvier 2020 | Ajout de [Adobe Analytics et les cookies de navigateur](/help/technotes/cookies/cookies.md). |
-| 13 janvier 2020 | Modification de la page [Quel outil dois-je utiliser](https://docs.adobe.com/content/help/fr-FR/analytics/admin/admin-overview/which-analytics-tool.html). |
+| 13 janvier 2020 | Modification de la page [Quel outil Adobe Analytics dois-je utiliser ](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en). |
 | **2019** |  |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie des restrictions d’identification par IP](/help/admin/company/login-restrictions-eol.md). |
