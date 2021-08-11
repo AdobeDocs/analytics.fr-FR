@@ -1,21 +1,21 @@
 ---
-description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de recherche payante dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
+description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de référencement payant dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 title: Classifications des conversions
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Classifications des conversions
 
-Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Par exemple, vous pouvez classer toutes les campagnes de [!UICONTROL recherche payante] dans une catégorie telle que *termes de pop music* et générer des rapports sur le succès de cette catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès. Vous pouvez ajouter jusqu’à 255 classifications à une variable.
+Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de [!UICONTROL référencement payant] dans une catégorie comme *termes de pop music* et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès. Vous pouvez ajouter jusqu’à 255 classifications à une variable.
 
 Les classifications de conversion vous permettent de classer des variables de conversion. Une fois classé, tout rapport pouvant être généré en utilisant les données clés peut également l’être à l’aide des propriétés de données associées.
 
-Après avoir activé les classifications, utilisez  [l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
+Après avoir activé les classifications, utilisez   [l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
 
 >[!WARNING]
 >
