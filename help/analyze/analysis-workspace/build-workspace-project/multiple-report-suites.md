@@ -5,7 +5,7 @@ feature: Concepts de base de Workspace
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 * Créer un tableau de bord de mesures et de visualisations pour envoyer des rapports à d’autres organisations. Vous pouvez désormais extraire des données de plusieurs suites de rapports au sein du même projet.
 
-## Application d’une suite de rapports à tous les panneaux
+## Application de suites de rapports à tous les panneaux
 
 Vous pouvez appliquer une suite de rapports à tous les panneaux en même temps en cliquant avec le bouton droit de la souris sur l’en-tête d’un panneau et en sélectionnant **[!UICONTROL Application d’une suite de rapports à tous les panneaux]**.
 
