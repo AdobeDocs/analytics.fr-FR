@@ -6,7 +6,7 @@ feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Activity Map vous permet de configurer différents affichages afin d’identifi
 
 **Prise en main pour les utilisateurs**
 
-* [Installation des modules de navigateur d’Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+* [Installation des modules de navigateur d’Activity Map ](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Lancement d’Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
 **Fonctionnalités d’Activity Map**
