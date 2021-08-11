@@ -5,7 +5,7 @@ feature: Concepts de base de Workspace
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Les préférences générales sʼappliquent à votre expérience Adobe Analytics
 
 | Préférence | Options |
 | --- | --- |
-| Landing page | <ul><li>Liste des projets (par défaut)</li><li>Projet vierge</li><li>Projet spécifique   sélectionné dans une liste</li></ul> |
+| Landing page | <ul><li>Liste des projets (par défaut)</li><li>Projet vierge</li><li>Projet spécifique    sélectionné dans une liste</li></ul> |
 | Astuces | <ul><li>Activé (par défaut)</li><li>Désactivé</li></ul> |
 
 ## Préférences du projet
@@ -40,4 +40,4 @@ Les préférences de projet sʼappliquent aux nouveaux projets et aux nouveaux p
 |  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr#calendar) | Effectuez une sélection dans une liste de : <ul><li>Plages fournies par Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
 |  | [Type de panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) | <ul><li>À structure libre (par défaut)</li><li>Vide</li><li>Aperçu rapide</li></ul> |
 |  | Format du nombre | <ul><li>1 000,00 (par défaut)</li><li>1.000,00</li><li>1 000,00</li></ul> |
-|  | Séparateur CSV   caractère | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
+|  | Séparateur CSV    caractère | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
