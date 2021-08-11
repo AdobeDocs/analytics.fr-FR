@@ -79,7 +79,7 @@ Nouvelles fonctionnalités au 18 juin 2020.
 | Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, vous permettant ainsi de choisir avec plus de transparence le processus d’analyse qui vous convient le mieux. |
 | Panneau Quick Insights (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Panneau Analytics for Target dans Workspace   (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Panneau Analytics for Target dans Workspace    (25 juin 2020) | Le panneau Analytics for Target (A4T) vous permet d’analyser en toute confiance vos activités et expériences Adobe Target dans Analysis Workspace. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | À propos de la page Workspace | La page À propos de Workspace fournit des informations sur votre environnement Analysis Workspace, sur vos administrateurs Adobe Analytics (si vous avez besoin d’assistance) et permet de fournir des commentaires sur les produits. Ces informations se trouvent sous Workspace > Aide > À propos de Workspace. |
 
 ## Mai 2020
@@ -307,7 +307,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
    <td colname="col2"> <p>Lorsque cela est possible, nous affichons désormais les totaux pour les mesures calculées, y compris les pourcentages. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nouveau   <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini </a>de la période </b> </p> </td> 
+   <td colname="col1"> <p><b>Nouveau    <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > paramètre prédéfini </a>de la période </b> </p> </td> 
    <td colname="col2"> <p>Ajout de « Treize dernières semaines complètes » aux paramètres prédéfinis de la période dans Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,7 +367,7 @@ Nouvelles fonctionnalités et améliorations au 10 mai 2018.
    <td colname="col2"> <p>Vous pouvez maintenant faire défiler vers le haut ou vers le bas tout en faisant glisser des composants vers un nouvel emplacement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Informations supplémentaires sur   <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > les anomalies </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Informations supplémentaires sur    <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > les anomalies </a></b> </p> </td> 
    <td colname="col2"> <p>Lorsque vous passez votre curseur sur une anomalie d’un graphique en courbes, la date et la valeur brute de l’anomalie s’affichent désormais dans les informations. </p> </td> 
   </tr> 
  </tbody> 
@@ -857,7 +857,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nouvelles <b>   <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Touches de raccourci </a></b> </p> </td> 
+   <td colname="col1"> <p>Nouvelles <b>    <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Touches de raccourci </a></b> </p> </td> 
    <td colname="col2"> <p>Ajout des raccourcis suivants : </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = Accéder au volet Panneaux </li> 
@@ -886,7 +886,7 @@ Nouvelles fonctionnalités au 20 avril 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Améliorations apportées à l’option Annuler/Rétablir </p> </td> 
-   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas   annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>Ces listes indiquent ce que vous pouvez et ne pouvez pas    annuler/rétablir dans Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -959,7 +959,7 @@ Nouvelles fonctionnalités au 10 novembre 2016 :
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparaison des dates </a> </p> </td> 
-   <td colname="col2"> <p>La nouvelle fonctionnalité de comparaison de dates permet de choisir n’importe quelle colonne et de créer une comparaison de dates courante : d’un trimestre à l’autre, d’un mois à l’autre, etc. </p> <p>Les comparaisons de dates incluent automatiquement une   colonne des différences, qui montre l’évolution en pourcentage. </p> </td> 
+   <td colname="col2"> <p>La nouvelle fonctionnalité de comparaison de dates permet de choisir n’importe quelle colonne et de créer une comparaison de dates courante : d’un trimestre à l’autre, d’un mois à l’autre, etc. </p> <p>Les comparaisons de dates incluent automatiquement une    colonne des différences, qui montre l’évolution en pourcentage. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1051,7 +1051,7 @@ Nouvelles fonctionnalités au 20 octobre 2016 :
 Nouvelles fonctionnalités au 16 juin 2016 :
 
 * [Nouvelle autorisation de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=fr) grâce à laquelle les administrateurs peuvent autoriser ou refuser l’accès à **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** pour les utilisateurs. Depuis le 16 juin 2016, tous les utilisateurs ont accès à cet onglet. Pour refuser l’accès, il vous suffit de supprimer les utilisateurs du groupe Analysis Workspace Access (Accès à Analysis Workspace).
-* Le  [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
+* Le   [Panneau Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments, au moyen d’une analyse automatisée de chaque mesure et dimension auxquelles vous avez accès.
 * [Nouvelle structure du menu Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : le menu supérieur est réorganisé et plus extensible. Par exemple, la création d’un **panneau de cohortes** nécessite maintenant de créer un panneau vierge et de le faire glisser dans une visualisation du tableau de cohortes.
 * [Nouveau rail de gauche](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) : panneaux, visualisations, composants.
 * Un nouveau [type de visualisation de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) permet de faire glisser jusqu’à trois segments et une mesure et de générer un diagramme de Venn.
@@ -1062,7 +1062,7 @@ Nouvelles fonctionnalités au 16 juin 2016 :
 * Mises à jour mineures :
 
    * Possibilité de supprimer toutes les visualisations dans un panneau et tous les panneaux dans un projet. (Auparavant, vous deviez conserver au moins une visualisation ou un panneau.)
-   * Changements des   [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (touches d’accès rapide) afin de faciliter le travail dans Analysis Workspace.
+   * Changements des    [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (touches d’accès rapide) afin de faciliter le travail dans Analysis Workspace.
    * Changements des styles : polices plus petites dans les visualisations ; nuances de couleur sur les lignes ; déplacement du sélecteur de dates vers le bas (sur les panneaux).
 
 ## Avril 2016
