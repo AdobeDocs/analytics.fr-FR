@@ -6,9 +6,9 @@ title: Référence des colonnes de données
 feature: Concepts de base de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `hier1 - hier5` | Utilisé par les variables de hiérarchie. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
 | `hit_source` | Indique la source de l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de source de données actif avec horodatage <br>4 : inutilisée <br>5 : chargement de source de données générique <br>6 : chargement de source de données de traitement complet <br>7 : chargement de source de données TransactionID <br>8 : n’est plus utilisée ; versions précédentes des sources de données Adobe Advertising Cloud <br>9 : n’est plus utilisée ; mesures de résumé Adobe Social <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
 | `hit_time_gmt` | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
-| `hitid_high` | Utilisée en combinaison avec `hitid_low` pour identifier de manière unique un accès. | bigint sans signe |
-| `hitid_low` | Utilisée en combinaison avec `hitid_high` pour identifier de manière unique un accès. | bigint sans signe |
+| `hitid_high` | Utilisé en combinaison avec `hitid_low` pour identifier un accès. | bigint sans signe |
+| `hitid_low` | Utilisé en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
 | `homepage` | N’est plus utilisé. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
 | `hourly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur horaire. | tinyint sans signe |
 | `ip` | Adresse IP, basée sur l’en-tête HTTP de la demande d’image. | char(20) |
