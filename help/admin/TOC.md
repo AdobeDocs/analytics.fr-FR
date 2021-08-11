@@ -6,8 +6,8 @@ breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
 source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 99%
    + [Personnalisation des menus](admin/customize-menus.md)
    + [Visibilité des mesures](admin/metric-visibility.md)
    + [Gestion des applications](admin/mobile-management.md)
-   + Détection de recherche payante {#paid-search-detection}
-      + [Détection de recherche payante - Aperçu](admin/paid-search-detection/paid-search-detection.md)
-      + [Configuration de la détection de recherche payante](admin/paid-search-detection/t-paid-search-detection.md)
+   + Détection de référencement payant {#paid-search-detection}
+      + [Détection de référencement payant - Aperçu](admin/paid-search-detection/paid-search-detection.md)
+      + [Configuration de la détection de référencement payant](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listes de publication](admin/publishing-list.md)
    + [Widget de publication](admin/publishing-widgets-admin.md)
    + [Gestionnaire de préférences](admin/preferences-manager.md)
@@ -63,14 +63,14 @@ ht-degree: 99%
          + [Fonctionnement des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
          + [Ordre de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Créer des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [Afficher des règles de traitement actives](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+         + [Afficher les règles de traitement actives](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Afficher l’historique des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
          + [Restaurer des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
          + [Copier des règles de traitement dans une autre suite de rapports](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [Dimensions disponibles pour les règles de traitement](admin/c-processing-rules/processing-rule-dimensions.md)
       + Exemples de règles de traitement {#processing-rules-examples}
          + [Exemples de règles de traitement](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [Renseigner un ID de campagne à partir d’un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [Renseigner un identifiant de campagne à partir d’un paramètre de chaîne de requête](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [Définir l’événement d’affichage de produit à partir de la page d’aperçu des produits](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [Ajouter une sous-catégorie en concaténant le nom de page et de catégorie](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [Déterminer un chemin en copiant une valeur eVar sur une valeur prop](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
@@ -87,7 +87,7 @@ ht-degree: 99%
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
       + [Transfert côté serveur - Aperçu](admin/c-server-side-forwarding/ssf.md)
-      + [Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur](admin/c-server-side-forwarding/ssf-gdpr.md)
+      + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Conditions requises pour le transfert côté serveur](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Données et référence de code du transfert côté serveur](admin/c-server-side-forwarding/ssf-reference.md)
       + [Comment vérifier l’implémentation du transfert côté serveur](admin/c-server-side-forwarding/ssf-verify.md)
@@ -104,10 +104,10 @@ ht-degree: 99%
       + [Activer les rapports de variables de trafic](admin/c-traffic-variables/t-traffic-variable.md)
       + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visiteur unique {#unique-visitor-variable}
-      + [Définition de la variable Visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+      + [Définition de la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
-+ Analytics dans Adobe Admin Console {#admin-console}
++ Analytics  dans Adobe Admin Console {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
@@ -138,7 +138,7 @@ ht-degree: 99%
       + [Modèle par défaut](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
       + [Services financiers](c-manage-report-suites/c-report-suite-templates/financial-services.md)
       + [Portail d’emploi](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [Génération de pistes](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+      + [Génération de prospect](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
       + [Média d’assistance](c-manage-report-suites/c-report-suite-templates/support-media.md)
    + [Enregistrer une recherche de suite de rapports](c-manage-report-suites/t-report-suite-saved-search.md)
    + [Paramètres d’une suite de rapports spécifique](c-manage-report-suites/individual-rs-settings.md)
@@ -159,8 +159,8 @@ ht-degree: 99%
       + [Ajout d’un utilisateur à un groupe](user-management2/c-user-management/t-add-user-to-group.md)
       + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
-         + [Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
+         + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
+         + [Migration de comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
          + [Désactivation des comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
          + [API affectées par la migration](user-management2/user-migration/developer.md)
    + Groupes d’utilisateurs {#user-groups}
@@ -172,16 +172,16 @@ ht-degree: 99%
       + [Personnalisation des autorisations liées aux outils de suites de rapports](user-management2/c-customize-report-access/groups-report-suite-tools.md)
       + [Personnalisation des autorisations liées aux mesures](user-management2/c-customize-report-access/groups-metrics.md)
       + [Personnalisation des autorisations liées aux dimensions](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [Envoyer un courrier électronique aux utilisateurs](user-management2/t-email-users.md)
+   + [Envoyer un e-mail aux utilisateurs](user-management2/t-email-users.md)
 + Gouvernance des données {#data-governance}
    + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics et le CCPA](c-data-governance/an-ccpa-overview.md)
    + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
    + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Affichage/Gestion des paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
+   + [Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
    + [Étiqueter les données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
+   + [Envoyer des demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
    + [Étiquettes relatives à la confidentialité des données pour les variables Analytics](c-data-governance/gdpr-labels.md)
    + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
    + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
@@ -201,5 +201,5 @@ ht-degree: 99%
    + [Prévision d’un pic de trafic](c-traffic-management/t-traffic-schedule-spike.md)
    + [Estimation des appels au serveur précédents et planification d’un pic de trafic](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [Indication d’une augmentation permanente du trafic](c-traffic-management/t-traffic-permanent.md)
-   + [Délai d’avance requis pour les augmentations de trafic](c-traffic-management/traffic-lead-time.md)
+   + [Délai requis pour les augmentations de trafic](c-traffic-management/traffic-lead-time.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
