@@ -6,7 +6,7 @@ feature: Visualisations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ La visualisation des cartes dans Analysis Workspace :
 * prend en charge l’exportation au format PDF ;
 * tire parti de WebGL pour l’affichage des graphiques. Si vos pilotes graphiques ne prennent pas en charge le rendu WebGL, il se peut que vous deviez les mettre à jour.
 
-## Génération d’une visualisation des cartes {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Génération d’une visualisation de carte {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Dans la liste des visualisations, faites glisser la **[!UICONTROL Carte]** vers le panneau à structure libre :
 
