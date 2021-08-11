@@ -1,12 +1,12 @@
 ---
 description: Utilisation de la visualisation à barres horizontales dans un projet Workspace.
-title: Barre horizontale et barres empilées horizontales
+title: Barres horizontales et barres empilées horizontales
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualisations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
 ht-degree: 100%
 
