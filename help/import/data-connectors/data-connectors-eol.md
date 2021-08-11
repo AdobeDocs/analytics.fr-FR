@@ -4,8 +4,8 @@ title: Annonce préalable de fin de vie pour les connecteurs de données Analyti
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Acxiom | Abandon |
 | Adform | Abandon |
 | Adjust | Migration vers Adobe Exchange |
-| Adobe Campaign | Migration vers Adobe Exchange  (voir la remarque ci-dessous) |
+| Adobe Campaign | Migration vers Adobe Exchange   (voir la remarque ci-dessous) |
 | Appfigures | Migration vers Adobe Exchange |
 | Appsee | Abandon |
 | AppsFlyer | Migration vers Adobe Exchange |
