@@ -6,7 +6,7 @@ feature: Panneaux
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Une importante société de médias cherchait à optimiser l’engagement du con
 
 > *« Les visiteurs sur notre site issus des moteurs de recherche étaient trois fois plus susceptibles de répondre aux ventes incitatives que les autres. Nous avons donc renforcé nos efforts sur des mots-clés spécifiques et constaté une hausse de 56 % des ventes incitatives. »*
 
-Une grande société de services B2B souhaitait comprendre le type de trafic sur leur site issu des mots-clés de recherche payante. Les recherches payantes n’engendraient pas directement de nombreuses conversions et les responsables du marketing envisageaient de réduire le budget de ce poste. L’équipe marketing a alors créé un segment de visiteurs du site issus d’un référencement payant et l’a comparé, avec le panneau de comparaison des segments, à tous les autres visiteurs. Ils ont constaté que même si ces visiteurs n’étaient pas aussi susceptibles de convertir directement leur visite en achat, ils étaient trois fois plus susceptibles d’acheter la gamme supérieure d’un service déjà acheté. L’équipe marketing a concentré son budget simplement sur les mots-clés liés aux ventes incitatives et a enregistré une hausse de 56 % des ventes incitatives de service.
+Une grande société de services B2B souhaitait comprendre le type de trafic sur leur site issu des mots-clés de référencement payant. Les recherches payantes n’engendraient pas directement de nombreuses conversions et les responsables du marketing envisageaient de réduire le budget de ce poste. L’équipe marketing a alors créé un segment de visiteurs du site issus d’un référencement payant et l’a comparé, avec le panneau de comparaison des segments, à tous les autres visiteurs. Ils ont constaté que même si ces visiteurs n’étaient pas aussi susceptibles de convertir directement leur visite en achat, ils étaient trois fois plus susceptibles d’acheter la gamme supérieure d’un service déjà acheté. L’équipe marketing a concentré son budget simplement sur les mots-clés liés aux ventes incitatives et a enregistré une hausse de 56 % des ventes incitatives de service.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
