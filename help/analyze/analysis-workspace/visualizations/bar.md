@@ -1,12 +1,12 @@
 ---
 description: Utilisation de la visualisation à barres dans un projet Workspace.
-title: Barre et barres empilées
+title: Barres et barres empilées
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualisations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
 ht-degree: 100%
 
