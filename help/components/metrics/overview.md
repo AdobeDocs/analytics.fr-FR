@@ -2,11 +2,10 @@
 title: Mesures - Aperçu
 description: Consultez le nombre de données ou d’éléments de dimension au fil du temps.
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 88%
 
 ---
 
@@ -26,3 +25,9 @@ Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit prob
 
 * Si la mesure est un événement personnalisé, contactez un administrateur Analytics au sein de votre organisation ou le [document de conception de solution](/help/implement/prepare/solution-design.md) de la suite de rapports.
 * Si la mesure est une mesure calculée, cliquez sur l’icône d’informations pour en déterminer la formule.
+
+## Ajout de descriptions de mesure
+
+Voici une vidéo qui décrit comment ajouter des descriptions de mesure (et de dimension) dans Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
