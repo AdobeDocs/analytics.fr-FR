@@ -2,11 +2,10 @@
 title: Présentation des dimensions
 description: Variables contenant des valeurs de chaîne.
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ Par exemple, si vous combinez la dimension « Page » à la mesure « Visites
 | `Purchase page` | `100` |
 
 Chaque dimension représente une partie ou une facette différente de votre site. Vous pouvez combiner l’une de ces dimensions avec une ou plusieurs mesures pour créer un rapport.
+
+## Ajout de descriptions de dimension
+
+Voici une vidéo qui décrit comment ajouter des descriptions de dimension (et de mesure) dans Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
