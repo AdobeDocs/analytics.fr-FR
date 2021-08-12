@@ -3,10 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2132'
-ht-degree: 100%
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+workflow-type: tm+mt
+source-wordcount: '2171'
+ht-degree: 98%
 
 ---
 
@@ -17,6 +17,12 @@ Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gestionnaire de code](/help/admin/admin/code-manager-admin.md).
+
+## Version 2.22.1
+
+Date de publication : **12 août 2021**
+
+* Les clients qui utilisent l’exclusion ont peut-être vu les paramètres d’exclusion du transfert côté serveur non respectés lors du suivi des liens. Les correctifs de cette version entraînent l’envoi des indicateurs d’exclusion s’ils sont présents lors du suivi des liens.
 
 ## Version 2.22.0
 
@@ -425,7 +431,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## Version 1.1.1
 
