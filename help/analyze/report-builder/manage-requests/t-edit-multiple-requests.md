@@ -5,10 +5,10 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '321'
+ht-degree: 94%
 
 ---
 
@@ -42,3 +42,9 @@ Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite
 
 
 1. Sur le formulaire [!UICONTROL Modifier plusieurs requêtes], cliquez sur **[!UICONTROL OK]**.
+
+## Ajout simultané de segments à plusieurs requêtes
+
+Voici une vidéo montrant le processus :
+
+https://video.tv.adobe.com/v/25445/?quality=12
