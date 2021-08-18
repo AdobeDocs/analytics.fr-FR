@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
-   + [Traitement des composants des suites de rapports virtuelles](vrs/vrs-components.md)
+   + [Suite de rapports virtuelle : traitement des composants](vrs/vrs-components.md)
    + [Prise en charge des suites de rapports virtuelles dans Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessions contextuelles](vrs/vrs-mobile-visit-processing.md)
    + [Traitement de la période de rapport](vrs/vrs-report-time-processing.md)
+   + [Considérations d’A4T](vrs/vrs-a4t.md)
    + [FAQ sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Considérations sur les suites de rapports virtuelles et le balisage global et multisuite](vrs/vrs-considerations.md)
    + Workflow des suites de rapports virtuelles {#vrs-workflow}
