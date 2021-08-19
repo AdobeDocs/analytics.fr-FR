@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant d’analyse spécifique.
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Notes techniques d’Analytics {#technotes}
 
 + [Notes techniques d’Analytics](home.md)
++ [Mises à jour de la documentation](doc-updates.md)
 + Adobe Analytics pour les utilisateurs de Google Analytics {#ga-to-aa}
    + [Aide Adobe Analytics pour les utilisateurs de Google Analytics](ga-to-aa/home.md)
    + [Comptes et suites de rapports](ga-to-aa/accounts.md)
@@ -43,12 +44,14 @@ ht-degree: 100%
    + [Options pour atténuer l’effet des restrictions des cookies de navigateur](cookies/cookieless.md)
 + [Rétention des données](data-retention.md)
 + [Exclure des données](exclude-data.md)
++ [Versions des fonctionnalités](releases.md)
 + [Adresses IP et domaines utilisés par Adobe Analytics](ip-addresses.md)
 + [Latence](latency.md)
 + [Valeur de faible trafic](low-traffic.md)
 + [Migration des règles de traitement Mobile Services vers Adobe Analytics](migrate-mobile.md)
 + [Prise en charge multidevise](multicurrency.md)
 + [Confidentialité - Présentation](privacy-overview.md)
++ [Applications web progressives](pwa.md)
 + [Redirections et alias](redirects.md)
 + Collecte de données régionales {#rdc}
    + [Aide sur la collecte de données régionales](rdc/regional-data-collection.md)
