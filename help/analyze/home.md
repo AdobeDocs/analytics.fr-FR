@@ -4,9 +4,9 @@ description: Documentation sur les produits et aide autonome pour Analysis Works
 feature: Concepts de base de Workspace
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '237'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,13 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 
 * [Tableaux de bord Adobe Analytics - Aperçu](/help/analyze/mobile-app/home.md)
 * [Prise en main d’Analysis Workspace](analysis-workspace/home.md)
-* [Applications web progressives pour Adobe Analytics](/help/analyze/pwa/pwa.md)
 * [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Prise en main de Report Builder](report-builder/home.md)
 * [Prise en main d’Activity Map](activity-map/activity-map.md)
 
 ## Plus de guides d’utilisation d’Analytics
 
-[Guides d’utilisation d’Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
 
 ## Principales ressources Analytics
 
