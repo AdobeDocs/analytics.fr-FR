@@ -3,7 +3,7 @@ title: Lissage des données intelligent
 description: Découvrez comment le lissage intelligent des données analyse les tendances historiques afin de prédire la valeur d’une mesure au cours d’une période affectée.
 feature: Outils d’IA
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 Dans de rares occasions, certains facteurs peuvent avoir une incidence sur la qualité des données. Le trafic des robots, les modifications de mise en oeuvre ou les interruptions de service peuvent tous avoir un impact sur l’intégrité des données collectées. Elles compliquent également l’analyse de la manière dont l’événement peut avoir affecté l’exhaustivité des données.
 
-Le lissage intelligent des données est un prototype d’[Analytics Labs](/help/analyze/tech-previews/overview.md) qui peut vous aider à compléter cette vue en analysant les tendances historiques afin de prédire la valeur de n’importe quelle mesure au cours de la période affectée. Le prototype applique des algorithmes avancés d’apprentissage automatique pour tracer les valeurs attendues pour les mesures au cours de la période en cours d’analyse.
+Le lissage intelligent des données est un prototype d’[Analytics Labs](/help/analyze/labs.md) qui peut vous aider à compléter cette vue en analysant les tendances historiques afin de prédire la valeur de n’importe quelle mesure au cours de la période affectée. Le prototype applique des algorithmes avancés d’apprentissage automatique pour tracer les valeurs attendues pour les mesures au cours de la période en cours d’analyse.
 
 ## Exécution du lissage intelligent des données
 
