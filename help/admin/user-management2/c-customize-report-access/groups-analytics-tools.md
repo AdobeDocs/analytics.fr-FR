@@ -6,10 +6,10 @@ title: Personnalisation des autorisations liées aux outils Analytics
 feature: Outils d’administration
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 89%
+source-wordcount: '638'
+ht-degree: 94%
 
 ---
 
@@ -52,18 +52,18 @@ Les paramètres sur cette page se rapportent aux suites de rapports sélectionn�
 | [Sécurité](/help/admin/company/security-manager.md) | Donne accès à la page Gestionnaire de sécurité d’où vous pouvez contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel. |
 | Informations sur l’assistance | Permet d’autoriser l’accès aux Informations sur l’assistance dans les Paramètres de la société. |
 | [Services web](/help/admin/company/web-services-admin.md) | Autorise l’accès à la page Services web dans l’interface Outils d’administration ([!UICONTROL Paramètres de la société] > [!UICONTROL Services web]).<br>L’API Services web fournit un accès par programmation aux services Adobe Analytics grâce auxquels vous pouvez dupliquer et amplifier les fonctionnalités disponibles dans l’interface utilisateur. |
-| Connexion unique (héritée) | Permet d’octroyer l’accès à la page d’authentification unique dans les outils d’administration.<br>**Remarque :** dans Adobe Experience Cloud, l’authentification unique est mise en œuvre en [associant les comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) d’Experience Cloud et des solutions. |
+| Connexion unique (héritée) | Permet d’octroyer l’accès à la page d’authentification unique dans les outils d’administration.<br>**Remarque :** dans Adobe Experience Cloud, l’authentification unique est mise en œuvre en [associant les comptes](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr) d’Experience Cloud et des solutions. |
 | [Actions en attente](/help/admin/company/pending-actions-admin.md) | Permet d’autoriser la gestion des actions en attente dans les [!UICONTROL Paramètres de la société]. |
 | [Alliance de marques](/help/admin/company/co-branding-admin.md) | Permet d’autoriser l’alliance des marques Analytics. |
 | [Préférences](/help/admin/admin/preferences-manager.md) | Permet d’autoriser l’accès au [!UICONTROL Gestionnaire des préférences]. |
 | [Masquage des suites de rapports](/help/admin/company/c-hide-report-suites.md) | Permet d’autoriser le masquage des suites de rapports dans l’interface utilisateur d’Adobe Analytics. |
 | **Outils** | Ces paramètres donnent accès aux outils Analytics (interfaces et applications) et aux fonctionnalités avancées telles que la segmentation et les mesures calculées. |
-| [Données actives](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | Permet d’autoriser l’utilisation de la fonction Données actives dans les rapports. |
+| [Données actives](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=fr) | Permet d’autoriser l’utilisation de la fonction Données actives dans les rapports. |
 | Accès aux services Web | Permet aux non-administrateurs d’accéder aux services web. Génère les informations de connexion des services web. |
 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Octroie aux membres de ce groupe un accès aux licences du [!UICONTROL Report Builder]. |
-| Accès à [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) | Octroie aux utilisateurs un accès à Analysis Workspace, l’interface de création de rapports recommandée pour [!DNL Adobe Analytics]. |
-| [Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | Octroie aux utilisateurs l’accès aux Reports &amp; Analytics. |
+| Accès à [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) | Octroie aux utilisateurs un accès à Analysis Workspace, l’interface de création de rapports recommandée pour [!DNL Adobe Analytics]. |
+| [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | Octroie aux utilisateurs l’accès aux Reports &amp; Analytics. |
 | [Création de mesure calculée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | Octroie aux utilisateurs l’autorisation de créer des mesures calculées. |
-| [Création de segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | Octroie aux utilisateurs l’autorisation de créer des segments. |
+| [Création de segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) | Octroie aux utilisateurs l’autorisation de créer des segments. |
 | **Data Connectors** |  |
 | Intégrations (créer, mettre à jour ou supprimer) | Octroie aux utilisateurs l’autorisation de créer, de mettre à jour et de supprimer des intégrations du connecteur de données. |
