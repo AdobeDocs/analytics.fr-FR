@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '985'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Guide sur les outils Analytics {#analyze}
 
 + [Guide sur les outils Analytics](home.md)
++ [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
    + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Création de rapports Activity Map dans Analytics](activity-map/activitymap-reporting-analytics.md)
    + [Résolution des problèmes d’extension du navigateur](activity-map/troubleshooting-browser-extensions.md)
    + [Résolution des problèmes de collecte de données](activity-map/troubleshoot-data-collection.md)
-   + [Ressources](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Prise en main de Reports and Analytics](reports-analytics/getting-started.md)
-   + [Adobe Analytics – Concepts clés](reports-analytics/key-concepts.md)
    + Interface des rapports - Aperçu {#reporting-interface}
       + [Collecte de données](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapports](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Guide pour les curateurs](mobile-app/curator.md)
    + [Guide pour une prise en main rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
-+ Applications web progressives {#pwa}
-   + [Applications web progressives](pwa/pwa.md)
-+ API Reporting dans Analytics {#analytics-reporting-api}
-   + [API Reporting dans Analytics - Aperçu](c-reporting-api/c-reporting-api.md)
-   + [Comparaison des API Reporting dans Analytics](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Présentation de Labs](tech-previews/overview.md)
++ [API de création de rapports](reporting-api.md)
++ [Labs](labs.md)
