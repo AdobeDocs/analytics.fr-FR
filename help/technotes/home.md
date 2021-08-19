@@ -2,10 +2,9 @@
 title: Notes techniques d’Analytics
 description: Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '92'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
@@ -21,11 +20,11 @@ Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent
 
 ## Plus de guides d’utilisation d’Analytics
 
-[Guides d’utilisation d’Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
 
 ## Autres ressources Analytics
 
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Forum de la communauté Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
+* [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
