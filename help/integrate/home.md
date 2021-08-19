@@ -2,10 +2,9 @@
 title: Intégration d’Analytics
 description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
@@ -26,16 +25,16 @@ Configurez des intégrations avec d’autres solutions Adobe Experience Cloud,
 
 ## Principaux articles sur l’intégration d’Analytics
 
-* [Advertising Analytics](c-advertising-analytics/overview.md)
-* [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
+* [Advertising Analytics](c-advertising-analytics/overview.md)
+* [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
 
 ## Plus de guides d’utilisation d’Analytics
 
-[Guides d’utilisation d’Analytics](/help/landing/home.md)
+[Guides d’utilisation d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
 
 ## Principales ressources Analytics
 
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Ressources Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Forum de la communauté Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
+* [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
