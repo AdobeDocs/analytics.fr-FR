@@ -2,10 +2,10 @@
 title: inList
 description: Permet de vérifier si une valeur est contenue dans une autre valeur délimitée par des caractères.
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 85%
 
 ---
 
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Utilisation du plug-in
 
-La méthode `inList` utilise les arguments suivants :
+La fonction `inList` renvoie une valeur booléenne en fonction de ses entrées. Il utilise les arguments suivants :
 
 * **`lv`** (obligatoire, chaîne ou tableau) : liste délimitée de valeurs ou objet Array de JavaScript à rechercher.
 * **`vtc`** (obligatoire, chaîne) : valeur à rechercher.
 * **`d`** (facultatif, chaîne) : délimiteur utilisé pour séparer les valeurs individuelles dans l’argument `lv`. La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
-* **`cc`** (facultatif, booléen) : si cet argument est défini sur `true`, une vérification sensible à la casse est effectuée. S’il est défini sur `false` ou omis, une vérification non sensible à la casse est effectuée. La valeur par défaut est `false`.
+* **`cc`** (facultatif, booléen) : Si celle-ci est définie sur  `true` ou  `1`, une vérification sensible à la casse est effectuée. S’il est défini sur `false` ou omis, une vérification non sensible à la casse est effectuée. La valeur par défaut est `false`.
 
-L’appel de cette méthode renvoie la valeur `true` si une correspondance est trouvée, et `false` s’il n’y en a aucune.
+L’appel de cette fonction renvoie `true` s’il trouve une correspondance et `false` s’il ne trouve pas de correspondance.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Si…
+## Exemples
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-…et que le code suivant s’exécute…
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-…alors l’instruction conditionnelle if est définie sur true.
-
-### Exemple 2
-
-Si…
-
-```js
-s.events="event22,event24";
-```
-
-…et que le code suivant s’exécute…
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-…alors l’instruction conditionnelle if est définie sur false car l’appel inList n’a pas établi de correspondance exacte entre event2 et l’une des valeurs délimitées de s.events.
-
-### Exemple 3
-
-Si…
-
-```js
-s.events="event22,event24";
-```
-
-…et que le code suivant s’exécute…
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-…alors l’instruction conditionnelle if est définie sur true car l’appel inList n’a pas établi de correspondance exacte entre event23 et l’une des valeurs délimitées de s.events (notez l’opérateur « NOT » au début de l’appel de variable inList).
-
-### Exemple 4
-
-Si…
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-…et que le code suivant s’exécute…
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-…alors l’instruction conditionnelle if est définie sur false.  Bien que cet exemple ne soit pas concret, il démontre la nécessité de faire preuve de prudence lors de l’utilisation de l’indicateur sensible à la casse.
-
-### Exemple 5
-
-Si…
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-…et que le code suivant s’exécute…
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-…alors l’instruction conditionnelle if est définie sur false.  La valeur de l’argument d transmise à l’appel (c’est-à-dire « | ») laisse supposer que les valeurs individuelles dans s.linkTrackVars sont délimitées par une barre verticale, alors qu’en réalité, elles sont délimitées par une virgule.  Dans ce cas, le plug-in tente d’établir une correspondance entre la valeur totale de s.linkTrackVars (c’est-à-dire « events,eVar1 ») et la valeur à rechercher (c’est-à-dire « eVar1 »).
 
 ## Historique des versions
 
