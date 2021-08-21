@@ -2,10 +2,10 @@
 title: getValOnce
 description: Permet d’empêcher la définition d’une variable Analytics sur la même valeur deux fois de suite.
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## Utilisation du plug-in
 
-La méthode `getValOnce` utilise les arguments suivants :
+La fonction `getValOnce` utilise les arguments suivants :
 
 * **`vtc`** (obligatoire, chaîne) : variable à vérifier et à examiner pour savoir si elle vient d’être définie sur une valeur identique.
 * **`cn`** (facultatif, chaîne) : nom du cookie qui contient la valeur à vérifier. La valeur par défaut est `"s_gvo"`.
 * **`et`** (facultatif, entier) : expiration du cookie en jours (ou en minutes, selon l’argument `ep`). La valeur par défaut est `0`, qui expire à la fin de la session du navigateur.
 * **`ep`** (facultatif, chaîne) : ne définissez cet argument que si `et` est également défini. Définissez cet argument sur `"m"` si vous souhaitez que le délai d’expiration de l’argument `et` soit exprimé en minutes plutôt qu’en jours. La valeur par défaut est `"d"`, qui définit l’argument `et` en jours.
 
-Si l’argument `vtc` et la valeur du cookie correspondent, cette méthode renvoie une chaîne vide. Si l’argument `vtc` et la valeur du cookie ne correspondent pas, la méthode renvoie l’argument `vtc` sous forme de chaîne.
+Si l’argument `vtc` et la valeur du cookie correspondent, cette fonction renvoie une chaîne vide. Si l’argument `vtc` et la valeur du cookie ne correspondent pas, la fonction renvoie l’argument `vtc` sous la forme d’une chaîne.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Utilisez cet appel pour éviter que la même valeur soit transmise à s.campaign plusieurs fois de suite pendant les 30 prochains jours :
+## Exemples
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-Dans l’appel ci-dessus, le plug-in va d’abord comparer la valeur déjà contenue dans le cookie s_campaign avec la valeur provenant de la variable s.campaign actuelle.   Si aucune correspondance n’est établie, le plug-in définit le cookie s_campaign sur la nouvelle valeur provenant de s.campaign, puis renvoie la nouvelle valeur.   Cette comparaison sera effectuée au cours des 30 prochains jours.
-
-### Exemple 2
-
-Utilisez cet appel pour éviter que la même valeur soit définie tout au long de la session :
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-Ce code empêche la même valeur d’être transmise à s.eVar2 plusieurs fois de suite au cours de la session d’un utilisateur.  Il ignore également la valeur « m » dans l’argument ep (à la fin de l’appel) puisque le délai d’expiration est défini sur 0.   Le code stocke également la valeur de comparaison dans le cookie s_ev2.
 
 ## Historique des versions
 
