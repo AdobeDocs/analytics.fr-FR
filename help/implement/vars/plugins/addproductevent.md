@@ -2,10 +2,10 @@
 title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 94%
+source-wordcount: '518'
+ht-degree: 88%
 
 ---
 
@@ -57,84 +57,51 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Utilisation du plug-in
 
-La méthode `addProductEvent` utilise les arguments suivants :
+La fonction `addProductEvent` utilise les arguments suivants :
 
 * **`en`** (obligatoire, chaîne) : événement à ajouter à la dernière entrée de la variable `products`. Si la variable `products` est vide, alors une entrée de produit « vide » est créée avec l’événement associé (ainsi que sa valeur).
-* **`ev`** (obligatoire, chaîne) : valeur attribuée à l’événement numérique ou monétaire dans l’argument `en`.  La valeur par défaut est `1` lorsqu’elle n’est pas définie.
+* **`ev`** (obligatoire, chaîne) : valeur attribuée à l’événement numérique ou monétaire dans l’argument `en`.  La valeur par défaut est `1` lorsqu’elle n’est pas définie. Les nombres non encadrés dans des guillemets de chaîne sont également valides.
 * **`ap`** (facultatif, booléen) : si la variable products contient actuellement plusieurs entrées de produit, une valeur de `true` (ou `1`) ajoute l’événement à toutes les entrées de produit.  La valeur par défaut est `false` lorsqu’elle n’est pas définie.
 
 Le plug-in `addProductEvent` ne renvoie rien. Il ajoute plutôt l’événement et sa valeur à la variable `products`. De même, le plug-in ajoute automatiquement l’événement à la variable [`events`](../page-vars/events/events-overview.md), puisqu’il y est également obligatoire.
 
 ## Cookies
 
-Le plug-in addProductEvent ne crée ni n’utilise de cookies.
+La fonction `addProductEvent` ne crée ni n’utilise de cookies.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Le code suivant définit la variable `s.products` sur `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
+## Exemples
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase";
-s.addProductEvent("event35", "25");
-```
+// Sets the products variable to ";product1;3;300,;product2;2;122,;product3;1;25;event35=25".
+// Also sets the events variable to "purchase,event35".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+s.events = "purchase";
+addProductEvent("event35", "25");
 
-Le code ci-dessus définit également la variable `s.events` sur `"purchase,event35"`
+// Sets the products variable to ";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25".
+s.products = ";product1;3;300,;product2;2;122,;product3;1;25";
+addProductEvent("event35", 25, true);
 
-### Exemple 2
-
-Le code suivant définit la variable `s.products` sur `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25";
-s.addProductEvent("event35", 25, 1);
-```
-
-Lorsque le troisième argument de l’appel `addProductEvent`est `true` (ou `1`), l’événement spécifié dans l’appel est ajouté à la valeur de chaque entrée de produit.
-
-### Exemple 3
-
-Le code suivant définit la variable `s.products` sur `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
+// Also sets the s.events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
 s.events="purchase,event2";
-s.addProductEvent("event33", "12");
-s.addProductEvent("event34", "10");
-s.addProductEvent("event35", "15");
-```
+addProductEvent("event33", "12");
+addProductEvent("event34", "10");
+addProductEvent("event35", "15");
 
-Le code ci-dessus définit également la variable `s.events` sur `"purchase,event2,event33,event34,event35"`
-
-### Exemple 4
-
-Le code suivant définit la variable `s.products` sur `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
-
-```js
+// Sets the products variable to ";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15".
+// Also sets the events variable to "purchase,event2,event33,event34,event35".
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1);
-s.addProductEvent("event35", "15", 1);
+addProductEvent("event33", "12", 1);
+addProductEvent("event34", 10, 1);
+addProductEvent("event35", "15", 1);
+
+// If the products variable isn't already set, sets it to ";;;;event35=25".
+// Also appends event35 to the events variable.
+addProductEvent("event35", "25");
 ```
-
-Le code ci-dessus définit également la variable `s.events` sur `"purchase,event2,event33,event34,event35"`.
-
->[!NOTE]
->
->Le second argument de l’appel peut être un entier **ou** une chaîne représentant un nombre entier
-
-### Exemple 5
-
-Si `s.products` n’est pas déjà défini, le code suivant le définit sur `";;;;event35=25"`
-
-```js
-s.addProductEvent("event35", "25");
-```
-
-Le code ci-dessus ajoute également `"event35"` à la fin de `s.events` **ou**, si `s.events` n’est pas déjà défini, le code ci-dessus définit `s.events` sur `"event35"`
 
 ## Historique des versions
 
