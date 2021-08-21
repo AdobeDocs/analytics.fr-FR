@@ -2,10 +2,10 @@
 title: Numbers Suite
 description: Permet de générer et de manipuler des nombres pour les utiliser dans d’autres variables JavaScript.
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 94%
+ht-degree: 79%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## Utilisation des plug-ins
 
-La méthode `zeroPad` utilise les arguments suivants :
+La fonction `zeroPad` utilise les arguments suivants :
 
-* **num** (obligatoire, entier) : nombre à remplir. La méthode arrondit la valeur de cet argument s’il contient des décimales.
+* **num** (obligatoire, entier) : nombre à remplir. La fonction arrondit la valeur de cet argument s’il contient des décimales.
 * **nod** (obligatoire, entier) : nombre de chiffres dans la valeur finale renvoyée. Si le nombre à remplir contient moins de chiffres que le nombre de chiffres à rajouter, le plug-in ajoute des zéros au début de l’argument `num`.
 
-La méthode `randomNumber` utilise les arguments suivants :
+La fonction `randomNumber` utilise les arguments suivants :
 
 * **nod** (facultatif, entier) : nombre de chiffres dans le nombre aléatoire que vous souhaitez générer. La valeur maximale est de 17 chiffres. La valeur par défaut est de 10 chiffres.
 
-La méthode `twoDecimals` utilise les arguments suivants :
+La fonction `twoDecimals` utilise les arguments suivants :
 
 * **val** (obligatoire, nombre) : nombre (représenté par un objet String ou Number) que vous souhaitez arrondir au centième le plus proche.
 
 ## Retours
 
-* La méthode **zeroPad** renvoie une chaîne égale à l’argument `num`, mais avec un nombre spécifique de zéros ajoutés au début de sa valeur. Ainsi, la valeur renvoyée comporte le nombre correct de chiffres.
-* La méthode **randomNumber** renvoie une chaîne égale à un nombre aléatoire avec le nombre de chiffres souhaité.
-* La méthode **twoDecimals** renvoie un objet Number arrondi au centième le plus proche.
+* La fonction **zeroPad** renvoie une chaîne égale à l’argument `num` mais avec un nombre spécifique de zéros ajoutés au début de sa valeur, ce qui garantit que la valeur renvoyée comporte le nombre correct de chiffres.
+* La fonction **randomNumber** renvoie une chaîne égale à un nombre aléatoire avec le nombre de chiffres souhaité.
+* La fonction **twoDecimals** renvoie un objet Number arrondi au centième le plus proche.
 
 ## Exemples d’appels
 
