@@ -2,10 +2,10 @@
 title: Présentation des plug-ins
 description: Vous permet d’ajouter de nouvelles fonctionnalités en collant le code sur votre site.
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 84%
+source-wordcount: '366'
+ht-degree: 82%
 
 ---
 
@@ -37,7 +37,3 @@ Chaque organisation a des besoins différents en matière de mise en œuvre. Vou
 4. Pour finir, validez votre mise en œuvre et publiez-la.
 
 De nombreuses entreprises utilisent la fonction [`doPlugins`](../functions/doplugins.md) pour faire appel à des plug-ins. Bien que cette fonction ne soit pas requise, Adobe considère qu’il est préférable de l’utiliser. AppMeasurement appelle cette fonction juste avant de compiler et d’envoyer une demande d’image, ce qui est idéal puisque plusieurs plug-ins dépendent d’autres variables Analytics.
-
-## Utilisation de plug-ins avec des objets de suivi non standard
-
-Les plug-ins ne fonctionnent pas par défaut avec les objets de suivi autres que `s`. Cependant, vous pouvez modifier le code de plug-in pour l’adapter à l’objet de suivi personnalisé. Dans un plug-in donné, remplacez toutes les références à `s` par l’objet de suivi souhaité.
