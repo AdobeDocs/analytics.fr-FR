@@ -2,10 +2,10 @@
 title: getPageName
 description: Permet de créer un pageName facile à lire à partir du chemin d’accès au site web actuel.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -57,145 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Utilisation du plug-in
 
-La méthode `getPageName` utilise les arguments suivants :
+La fonction `getPageName` utilise les arguments suivants :
 
 * **`si`** (facultatif, chaîne) : identifiant inséré au début de la chaîne représentant l’identifiant du site. Cette valeur peut être un identifiant numérique ou un nom convivial. Lorsqu’elle n’est pas définie, elle prend par défaut le domaine actuel.
 * **`qv`** (facultatif, chaîne) : liste, délimitée par des virgules, de paramètres de chaîne de requête qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne.
 * **`hv`** (facultatif, chaîne) : liste, délimitée par des virgules, de paramètres trouvés dans le hachage de l’URL qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne.
 * **`de`** (facultatif, chaîne) : délimiteur permettant de séparer les différentes parties de la chaîne. Par défaut, il s’agit d’une barre verticale (`|`).
 
-La méthode renvoie une chaîne contenant une version formatée de l’URL. Cette chaîne est généralement attribuée à la variable `pageName`, mais peut également être utilisée dans d’autres variables.
+La fonction renvoie une chaîne contenant une version formatée de l’URL. Cette chaîne est généralement attribuée à la variable `pageName`, mais peut également être utilisée dans d’autres variables.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Si l’URL actuelle était…
+## Exemples
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-…et que le code suivant s’exécute…
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-…alors la valeur finale de s.pageName est :
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### Exemple 2
-
-Si l’URL actuelle était…
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-…et que le code suivant s’exécute…
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-…alors la valeur finale de s.pageName est :
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### Exemple 3
-
-Si l’URL actuelle était…
-
-```js
-https://www.google.com/
-```
-
-…et que le code suivant s’exécute…
-
-```js
-s.pageName = getPageName()
-```
-
-…alors la valeur finale de s.pageName est :
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**Remarque** : lorsque le code s’exécute sur une URL qui ne contient pas de chemin d’accès, il ajoute toujours la valeur de « home » à la fin de la valeur renvoyée.
-
-### Exemple 4
-
-Si l’URL actuelle était…
-
-```js
-https://www.google.com/
-```
-
-…et que le code suivant s’exécute…
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-…alors la valeur finale de s.pageName est :
-
-```js
-s.pageName = "google|home"
-```
-
-### Exemple 5
-
-Si l’URL actuelle était…
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-…et que le code suivant s’exécute…
-
-```js
-s.pageName = getPageName()
-```
-
-…alors la valeur finale de s.pageName est :
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-Cependant, si le code suivant s’exécute à la place…
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-…alors la valeur finale de s.pageName est :
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## Mise à niveau par rapport aux versions précédentes
 
-La version 4.0+ du plug-in getPageName ne dépend pas de l’existence de l’objet AppMeasurement d’Adobe Analytics (soit l’objet « s ») pour fonctionner.  Si vous choisissez d’effectuer la mise à niveau vers cette version, veillez à modifier le code qui appelle le plug-in en supprimant toutes les instances de l’objet « s » de l’appel.
-Par exemple, modifiez ceci :
-
-```js
-s.pageName = s.getPageName();
-```
-
-…par cela :
-
-```js
-s.pageName = getPageName();
-```
+La version 4.0+ du plug-in `getPageName` ne dépend pas de l’existence de l’objet AppMeasurement d’Adobe Analytics (c’est-à-dire l’objet `s`). Si vous effectuez une mise à niveau vers cette version, modifiez le code qui appelle le plug-in en supprimant toutes les instances de l’objet `s` de l’appel . Par exemple, remplacez `s.getPageName();` par `getPageName();`.
 
 ## Historique des versions
 
