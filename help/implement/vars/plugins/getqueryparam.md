@@ -2,10 +2,10 @@
 title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 92%
+source-wordcount: '666'
+ht-degree: 76%
 
 ---
 
@@ -55,132 +55,58 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Utilisation du plug-in
 
-La méthode `getQueryParam` utilise les arguments suivants :
+La fonction `getQueryParam` utilise les arguments suivants :
 
 * **`qsp`** (obligatoire) : liste, délimitée par des virgules, de paramètres de chaîne de requête à rechercher dans l’URL. Elle n’est pas sensible à la casse.
 * **`de`** (facultatif) : délimiteur à utiliser si plusieurs paramètres de chaîne de requête correspondent. Valeur par défaut définie sur une chaîne vide.
 * **`url`** (facultatif) : URL, chaîne ou variable personnalisée à partir de laquelle extraire les valeurs des paramètres de chaîne de requête. La valeur par défaut est `window.location`.
 
-L’appel de cette méthode renvoie une valeur en fonction des arguments ci-dessus et de l’URL :
+L’appel de cette fonction renvoie une valeur en fonction des arguments ci-dessus et de l’URL :
 
-* Si aucun paramètre de chaîne de requête correspondant n’est trouvé, la méthode renvoie une chaîne vide.
-* Si un paramètre de chaîne de requête correspondant est trouvé, la méthode renvoie la valeur de ce paramètre.
-* Si un paramètre de chaîne de requête correspondant est trouvé mais que la valeur est vide, la méthode renvoie `true`.
-* Si plusieurs paramètres de chaîne de requête correspondants sont trouvés, la méthode renvoie une chaîne dont chaque valeur de paramètre est délimitée par la chaîne dans l’argument `de`.
+* Si aucun paramètre de chaîne de requête correspondant n’est trouvé, la fonction renvoie une chaîne vide.
+* Si un paramètre de chaîne de requête correspondant est trouvé, la fonction renvoie la valeur du paramètre de chaîne de requête.
+* Si un paramètre de chaîne de requête correspondant est trouvé mais que la valeur est vide, la fonction renvoie `true`.
+* Si plusieurs paramètres de chaîne de requête correspondants sont trouvés, la fonction renvoie une chaîne dont chaque valeur de paramètre est délimitée par la chaîne dans l’argument `de`.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Si l’URL actuelle est la suivante :
+## Exemples
 
 ```js
-http://www.abc123.com/?cid=trackingcode1
+// Given the URL https://example.com/?cid=trackingcode
+// Sets the campaign variable to "trackingcode"
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode:123"
+s.campaign = getQueryParam('cid,ecid',':');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123
+// Sets the campaign variable to "trackingcode123"
+s.campaign = getQueryParam('cid,ecid');
+
+// Given the URL https://example.com/?cid=trackingcode&ecid=123#location
+// Sets the campaign variable to "123"
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com/#location&cid=trackingcode&ecid=123
+// Sets the campaign variable to "123"
+// The plug-in replaces the URL's hash character with a question mark if a question mark doesn't exist.
+s.campaign = getQueryParam('ecid');
+
+// Given the URL https://example.com
+// Does not set the campaign variable to a value.
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid');
+
+// Given the URL https://example.com
+// Sets the campaign variable to "trackingcode"
+s.pageURL = "https://example.com/?cid=trackingcode";
+s.campaign = getQueryParam('cid','',s.pageURL);
+
+// Given the URL https://example.com
+// Sets eVar2 to "123|trackingcode|true|300"
+s.eVar1 = "https://example.com/?cid=trackingcode&ecid=123#location&pos=300";
+s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ```
-
-Le code suivant définit s.campaign sur « trackingcode1 » :
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-### Exemple 2
-
-Si l’URL actuelle est la suivante :
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Le code suivant définit s.campaign sur « trackingcode1:123456 » :
-
-```js
-s.campaign=s.getQueryParam('cid,ecid',':');
-```
-
-### Exemple 3
-
-Si l’URL actuelle est la suivante :
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456
-```
-
-Le code suivant définit s.campaign sur « trackingcode1123456 » :
-
-```js
-s.campaign=s.getQueryParam('cid,ecid');
-```
-
-### Exemple 4
-
-Si l’URL actuelle est la suivante :
-
-```js
-http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
-```
-
-Le code suivant définit s.campaign sur « 123456 » :
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-### Exemple 5
-
-Si l’URL actuelle est la suivante :
-
-```js
-http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
-```
-
-Le code suivant définit s.campaign sur « 123456 » :
-
-```js
-s.campaign=s.getQueryParam('ecid');
-```
-
-**Remarque :** le plug-in remplace l’URL du caractère de hachage de la vérification par un point d’interrogation si ce dernier n’existe pas.  Si l’URL contient un point d’interrogation placé avant le caractère de hachage, le plug-in remplace l’URL du caractère de hachage de la vérification par une esperluette.
-
-### Exemple 6
-
-Si l’URL actuelle est la suivante…
-
-```js
-http://www.abc123.com/
-```
-
-…et si la variable s.testURL est définie comme suit :
-
-```js
-s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
-```
-
-Le code suivant ne définit pas du tout s.campaign :
-
-```js
-s.campaign=s.getQueryParam('cid');
-```
-
-Cependant, le code suivant définit s.campaign sur « trackingcode1 » :
-
-```js
-s.campaign=s.getQueryParam('cid','',s.testURL);
-```
-
-**Remarque :** le troisième paramètre peut être n’importe quelle chaîne/variable que le code utilisera pour rechercher les paramètres de chaîne de requête dans
-
-Le code suivant définit s.eVar2 sur « 123456|trackingcode1|true|300 » :
-
-```js
-s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
-```
-
-* La valeur de 123456 provient du paramètre ecid de la variable s.testURL.
-* La valeur de trackingcode1 provient du paramètre cid de la variable s.testURL.
-* La valeur de true provient de l’existence (mais pas de la valeur) du paramètre d’emplacement après le caractère de hachage dans la variable s.testURL.
-
-La valeur de 300 provient de la valeur du paramètre pos de la variable s.testURL.
 
 ## Historique des versions
 
