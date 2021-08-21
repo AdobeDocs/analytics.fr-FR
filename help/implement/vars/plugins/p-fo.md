@@ -2,10 +2,10 @@
 title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 82%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Utilisation du plug-in
 
-La méthode `p_fo` utilise les arguments suivants :
+La fonction `p_fo` utilise les arguments suivants :
 
 * **on** (obligatoire, chaîne) : nom de l’objet JavaScript créé par le plug-in si celui-ci n’existe pas encore sur la page.
 
-Si l’objet n’existe pas encore, cette méthode renvoie la valeur `true` et crée l’objet. Si l’objet existe déjà, cette méthode renvoie la valeur `false`.
+Si l’objet n’existe pas encore, cette fonction renvoie `true` et crée l’objet. Si l’objet existe déjà, cette fonction renvoie `false`.
 
 ## Exemples d’appels
 
@@ -71,14 +71,14 @@ Le code suivant vérifie l’existence de l’objet « myobject » dans la pag
 
 D’autre part, si l’objet « myobject » existe déjà au moment de l’appel p_fo, la fonction p_fo renvoie la valeur false et, par conséquent, l’instruction conditionnelle est définie sur false.  Dans ce cas, le code de l’instruction conditionnelle ne s’exécute pas.
 
-```javascript
-if(s.p_fo("myobject"))
+```js
+if(p_fo("myobject"))
 {
   console.log("hello");
 }
 ```
 
-**REMARQUE :** chaque fois qu’un nouveau modèle DOM/nouvel objet de page se charge (ou que la page active se recharge), l’objet spécifié dans l’argument on disparaît et le plug-in p_fo renvoie à nouveau la valeur true la première fois qu’il s’exécute après la fin du chargement de la page.
+**REMARQUE :** chaque fois qu’un nouvel objet de page/DOM se charge (ou que la page active se recharge), l’objet spécifié dans l’argument on n’existe plus et le plug-in p_fo renvoie à nouveau la valeur true la première fois qu’il s’exécute après la fin du chargement de la page.
 
 ## Historique des versions
 
