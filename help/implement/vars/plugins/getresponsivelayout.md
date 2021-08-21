@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '528'
+ht-degree: 80%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Utilisation du plug-in
 
-La méthode `getResponsiveLayout` utilise les arguments suivants :
+La fonction `getResponsiveLayout` utilise les arguments suivants :
 
 * **`ppw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode portrait au mode paysage.
 * **`plw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode paysage au mode tablette.
-* **`tw`** (obligatoire, booléen) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau.
+* **`tw`** (obligatoire, entier) : Largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau
 
-L’appel de cette méthode renvoie une chaîne contenant deux parties. La première partie utilise les valeurs suivantes, selon la largeur de la fenêtre du navigateur et les arguments ci-dessus :
+L’appel de cette fonction renvoie une chaîne contenant deux parties délimitées par deux points (`:`). La première partie de la chaîne contient l’une des valeurs suivantes, selon la largeur du navigateur et les arguments ci-dessus :
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -73,34 +73,22 @@ L’appel de cette méthode renvoie une chaîne contenant deux parties. La premi
 
 La deuxième partie de la chaîne renvoyée correspond aux dimensions en largeur et en hauteur du navigateur. Par exemple : `"desktop layout:1243x700"`.
 
-## Exemples d’appels
-
-### Exemple 1
-
-Si…
-
-* Votre site passe du mode portrait au mode paysage lorsque la largeur de la fenêtre du navigateur est supérieure à 500 pixels
-* Votre site passe du mode paysage au mode tablette lorsque la largeur de la fenêtre du navigateur est supérieure à 700 pixels
-* Votre site passe du mode tablette au mode bureau lorsque la largeur de la fenêtre du navigateur est supérieure à 1 000 pixels
-
-…le code suivant définit eVar10 sur la disposition actuelle de la conception adaptée selon l’expérience du visiteur ainsi que la largeur et les dimensions du navigateur.
+## Exemples
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### Exemple 2
-
-Si…
-
-* Votre site ne dispose que d’un mode téléphone, d’un mode tablette et d’un mode bureau
-* Votre site passe du mode téléphone au mode tablette lorsque la largeur de la fenêtre du navigateur est supérieure à 500 pixels
-* Votre site passe du mode tablette au mode bureau lorsque la largeur de la fenêtre du navigateur est supérieure à 1 100 pixels
-
-…le code suivant définit eVar10 sur la disposition actuelle de la conception adaptée selon l’expérience du visiteur ainsi que la largeur et les dimensions du navigateur.
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## Historique des versions
