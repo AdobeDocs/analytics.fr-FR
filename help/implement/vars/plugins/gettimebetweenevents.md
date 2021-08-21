@@ -2,10 +2,10 @@
 title: getTimeBetweenEvents
 description: Permet de mesurer le temps qui s’écoule entre deux événements.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 96%
+source-wordcount: '800'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Utilisation du plug-in
 
-La méthode `getTimeBetweenEvents` utilise les arguments suivants :
+La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 
 * **`ste`** (obligatoire, chaîne) : événements de démarrage du minuteur. Chaîne d’événements Analytics délimitée par des virgules permettant de « démarrer le minuteur ».
 * **`rt`** (obligatoire, booléen) : option de redémarrage du minuteur. Définissez cet argument sur `true` si vous souhaitez redémarrer le minuteur chaque fois que la variable `events` contient un événement de démarrage du minuteur. Définissez-le sur `false` si vous ne souhaitez pas que le minuteur redémarre lorsqu’il détecte un événement de démarrage du minuteur.
@@ -81,54 +81,28 @@ La méthode `getTimeBetweenEvents` utilise les arguments suivants :
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi selon le format de l’argument `fmt`. Par exemple, si l’argument `fmt` est sur `"s"` et que cet argument est défini sur `2`, la valeur renvoyée est arrondie à la référence de deux secondes la plus proche. Si l’argument `fmt` est sur `"m"` et que cet argument est défini sur `0.5`, la valeur renvoyée est arrondie à la référence d’une demi-minute la plus proche.
 * **`rte`** (facultatif, chaîne) : chaîne d’événements Analytics délimitée par des virgules qui supprime ou annule le minuteur. La valeur par défaut est nulle.
 
-L’appel de cette méthode renvoie un entier représentant le temps écoulé entre l’événement de démarrage du minuteur et l’événement d’arrêt du minuteur au format souhaité.
+L’appel de cette fonction renvoie un entier représentant le temps écoulé entre l’événement de démarrage du minuteur et l’événement d’arrêt du minuteur au format souhaité.
 
 ## Exemples d’appels
 
-### Exemple 1
-
-Le code suivant…
-
 ```js
+// The timer starts or restarts when the events variable contains event1
+// The timer stops and resets when the events variable contains event2
+// The timer resets when the events variable contains event3 or the visitor closes their browser
+// Sets eVar1 to the number of seconds between event1 and event2, rounded to the nearest 2-second benchmark
 s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
+
+// The timer starts when the events variable contains event1. It does NOT restart with subsequent hits that also contain event1
+// The timer records a "lap" when the events variable contains event2. It does not stop the timer.
+// The timer resets when the events variable contains event3 or if more than 20 days pass since the timer started
+// The timer is stored in a cookie labeled "s_20"
+// Sets eVar4 to the number of hours between event1 and event2, rounded to the nearest 90-minute benchmark
+s.eVar4 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
+
+// Similar to the above timer in eVar4, except the return value is returned in seconds/minutes/hours/days depending on the timer length.
+// The timer expires after 1 day.
+s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 ```
-
-…est configuré pour agir de la manière suivante :
-
-* Le minuteur démarre lorsque s.events contient event1.
-* Le minuteur redémarre chaque fois que s.events contient event1.
-* Le minuteur s’arrête lorsque s.events contient event2.
-* Le minuteur se réinitialise (c’est-à-dire qu’il passe à 0 seconde) chaque fois que s.events contient event2.
-* Le minuteur se réinitialise également lorsque s.events contient event3 OU si le visiteur ferme son navigateur.
-* Lorsqu’un temps réel entre event1 et event2 est enregistré, le plug-in définit eVar1 sur le nombre de secondes entre les deux événements configurés, arrondi à la référence de deux secondes la plus proche (par exemple 0 seconde, 2 secondes, 4 secondes, 10 secondes, 184 secondes, etc.).
-* Si s.events contient event2 avant le démarrage du minuteur, eVar1 ne sera pas du tout défini.
-
-### Exemple 2
-
-Le code suivant…
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
-```
-
-…est configuré pour agir de la manière suivante :
-
-* Le minuteur démarre lorsque s.events contient event1.
-* Le minuteur ne redémarre PAS chaque fois que s.events contient event1, mais le minuteur d’origine continue de fonctionner.
-* Le minuteur ne s’arrête PAS lorsque s.events contient event2, mais le plug-in enregistre le temps écoulé depuis l’enregistrement du paramètre event1 d’origine.
-* Le minuteur est stocké dans un cookie appelé « s_20 ».
-* Le minuteur ne se réinitialise que lorsque s.events contient event3 OU si 20 jours se sont écoulés depuis le démarrage du minuteur.
-* Lorsqu’un temps entre event1 (paramètre d’origine) et event2 est enregistré, le plug-in définit eVar1 sur le nombre d’heures entre les deux événements configurés, arrondi à la référence d’une heure et demie la plus proche (par exemple, 0 heure, 1,5 heure, 3 heures, 7,5 heures, 478,5 heures, etc.).
-
-### Exemple 3
-
-Le code suivant…
-
-```js
-s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
-```
-
-…produit des résultats similaires à ceux du premier exemple ci-dessus. Toutefois, la valeur d’eVar1 est renvoyée en secondes, minutes, heures ou jours, selon la durée finale du minuteur.  En outre, le minuteur expirera un jour après son premier paramétrage et non au moment où le visiteur ferme son navigateur.
 
 ## Historique des versions
 
