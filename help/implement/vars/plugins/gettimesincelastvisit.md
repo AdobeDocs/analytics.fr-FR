@@ -2,10 +2,10 @@
 title: getTimeSinceLastVisit
 description: Permet de mesurer le temps écoulé entre deux visites.
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## Utilisation du plug-in
 
-La méthode `getTimeSinceLastVisit` n’utilise aucun argument. Elle renvoie le temps écoulé depuis le dernier accès du visiteur au site, présenté sous le format suivant :
+La fonction `getTimeSinceLastVisit` n’utilise aucun argument. Elle renvoie le temps écoulé depuis le dernier accès du visiteur au site, présenté sous le format suivant :
 
 * Le temps compris entre 30 minutes et une heure depuis la dernière visite est défini selon la référence d’une demi-minute la plus proche. Par exemple, `"30.5 minutes"`, `"53 minutes"`.
 * Le temps entre une heure et un jour est arrondi à la référence d’un quart d’heure la plus proche. Par exemple, `"2.25 hours"`, `"7.5 hours"`.
@@ -70,22 +70,21 @@ La méthode `getTimeSinceLastVisit` n’utilise aucun argument. Elle renvoie le 
 
 Ce plug-in crée un cookie propriétaire appelé `"s_tslv"` défini sur un horodatage Unix de l’heure actuelle. Le cookie expire après deux ans d’inactivité.
 
-## Exemples d’appels
+## Exemples
 
-### Exemple 1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-Si un nouveau visiteur arrive sur le site et que le code suivant s’exécute sur la première page de la visite…
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-...alors la valeur de s.prop1 est définie sur « New Visitor ».
-
-Si le même code s’exécute sur le même domaine après 35 minutes d’inactivité, la valeur de s.prop1 est définie sur « 35 minutes ».
-
-Si le même code s’exécute sur le même domaine après 4 jours d’inactivité prolongée, la valeur de s.prop1 est définie sur « 4 jours ».
 
 ## Historique des versions
 
