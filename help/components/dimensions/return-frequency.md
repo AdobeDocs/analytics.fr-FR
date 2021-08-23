@@ -2,17 +2,16 @@
 title: Fréquence des retours
 description: Durée cumulée entre la visite en cours et la visite précédente.
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: d49a1eac29b949af04e6cefece9f1433fddf19cc
+workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Fréquence des retours
 
-La dimension « Fréquence des retours » indique le temps écoulé entre les visites des visiteurs réguliers. Lorsqu’un visiteur revient sur votre site, Adobe détermine la durée depuis la visite précédente et regroupe l’accès dans l’élément de dimension approprié. Cette dimension est utile pour jauger l’attrait de votre site et sa pertinence pour les visiteurs au fil du temps. Elle permet également d’identifier l’impact du contenu et des promotions de votre site sur vos visiteurs.
+La dimension &quot;Fréquence des retours&quot; indique le temps qui s’écoule entre les visites des visiteurs récurrents. Lorsqu’un visiteur revient sur votre site, Adobe détermine la durée depuis la visite précédente et regroupe l’accès dans l’élément de dimension approprié. Cette dimension est utile pour jauger l’attrait de votre site et sa pertinence pour les visiteurs au fil du temps. Elle permet également d’identifier l’impact du contenu et des promotions de votre site sur vos visiteurs.
 
 >[!TIP]
 >
