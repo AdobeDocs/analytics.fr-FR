@@ -2,10 +2,10 @@
 title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Le tableau suivant couvre tous les serveurs de collecte de données standard et 
 
 ## Collecte de données et blocs d’adresses IP FTP
 
-Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques, vous pouvez utiliser le tableau suivant. Toutes les plages de cette section sont incluses dans le tableau ci-dessus.
+Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques, vous pouvez utiliser le tableau suivant. Toutes les plages de cette section sont incluses dans le tableau ci-dessus. Les connexions FTP pour les flux de Data Warehouse et de données proviennent uniquement des emplacements de Londres, de l’Oregon et de Singapour.
 
 | Emplacement | Plage IP (notation CIDR) |
 | --- | --- |
