@@ -6,10 +6,10 @@ title: Référence des colonnes de données
 feature: Concepts de base de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
-ht-degree: 99%
+source-wordcount: '3422'
+ht-degree: 98%
 
 ---
 
@@ -199,8 +199,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `state` | Variable d’état. | varchar(50) |
 | `stats_server` | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
 | `t_time_info` | Heure locale pour le visiteur. Le format est : `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | Utilisée dans les intégrations Adobe Target. | text |
-| `tnt_action` | Utilisée dans les intégrations Adobe Target. | text |
+| `tnt` | Utilisée dans les intégrations Adobe Target. Représente tous les tests actuellement qualifiés. Le format est le suivant : `TargetCampaignID:TargetRecipeID:TargetType|Event/Action`. | text |
+| `tnt_action` | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels l’accès est qualifié. | text |
 | `tnt_post_vista` | N’est plus utilisé. Utilisez `post_tnt` à la place. | text |
 | `transactionid` | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | `truncated_hit` | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |
