@@ -3,9 +3,9 @@ description: La boîte de dialogue Gouvernance des données dans les Outils d’
 title: Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '553'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,7 @@ La boîte de dialogue Gouvernance des données dans les Outils d’administratio
    <td colname="col1"> <p>Mappage de l’organisation </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappé</b> : cette suite de rapports a déjà été mappée à la même organisation Experience Cloud que la société de connexion Analytics à laquelle vous êtes connecté. Seules les suites de rapports possédant ce paramètre peuvent être étiquetées. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Mapper la suite de rapports</b> : en cliquant sur ce lien, vous pouvez <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html">mapper une suite de rapports</a> à une organisation Experience Cloud. <p>Cela signifie que vous serez redirigé vers la page d’administration du mappage de la suite de rapports pour l’organisation Experience Cloud où vous devez trouver la suite de rapports et lui attribuer sa propre organisation. Une fois cette étape franchie, revenez à cette interface utilisateur de gouvernance des données. </p> </li> 
+     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Mappé</b> : cette suite de rapports a déjà été mappée à la même organisation Experience Cloud que la société de connexion Analytics à laquelle vous êtes connecté. Seules les suites de rapports possédant ce paramètre peuvent être étiquetées. </li>
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Mappé à une autre organisation</b> : une autre organisation Experience Cloud a déjà mappé cette suite de rapports à son organisation. </li> 
     </ul> </td> 
   </tr> 

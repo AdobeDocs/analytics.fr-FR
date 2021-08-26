@@ -2,11 +2,10 @@
 title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +23,7 @@ Pour déterminer si le réseau d’entreprise auquel vous êtes connecté engend
 
 ## Problèmes liés au proxy
 
-Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Adobe. Certains serveurs proxy, tels que Bluecoat (désormais détenu par Symantec), dépouillent les informations critiques d’en-tête d’autorisation utilisées par Adobe Analytics. La session expire si Adobe ne voit pas l’en-tête d’autorisation.
+Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Adobe. Certains proxies, comme Edge Secure Web Gateway (anciennement Bluecoat), dépouillent les informations critiques d’en-tête d’autorisation utilisées par Adobe Analytics. La session expire si Adobe ne voit pas l’en-tête d’autorisation.
 
 Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe informatique de votre entreprise afin d’autoriser l’en-tête d’autorisation via le proxy de votre entreprise.
 
@@ -32,7 +31,7 @@ Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe info
 >
 >Bien que les membres de la communauté Analytics aient trouvé les liens suivants utiles, ils ne sont pas la propriété d’Adobe. Tenez compte de cette remarque lorsque vous affichez leur contenu.
 
-Vous trouverez des informations sur les serveurs proxy et les en-têtes d’authentification Symantec à l’adresse suivante :
+Vous trouverez des informations sur les serveurs proxy et les en-têtes d’authentification à l’adresse suivante :
 
-* [Configurer l’authentification du proxy amont dans un déploiement de chaînes de proxy sur un appareil ProxySG ou ASG](https://support.symantec.com/en_US/article.TECH246122.html)
-* [Autoriser un ProxySG à toujours transférer l’autorisation du serveur en amont](https://support.symantec.com/en_US/article.TECH244708.html)
+* [Configurer l’authentification du proxy amont dans un déploiement de chaînes de proxy sur un appareil ProxySG ou ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Comment transférer les informations d’identification d’utilisateur à un serveur derrière l’appareil ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

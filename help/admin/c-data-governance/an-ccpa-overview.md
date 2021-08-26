@@ -3,9 +3,9 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour p
 title: Adobe Analytics et le CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '637'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '610'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,6 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/c-data-gov
 
 * Familiarisez-vous avec la [terminologie relative au règlement général sur la protection des données (RGPD).](/help/admin/c-data-governance/gdpr-terminology.md)
 * Associez votre société de connexion à une organisation Experience Cloud, si ce n’est pas déjà fait. Contactez l’assistance clientèle d’Adobe et reportez-vous à la section [Organisations et liaison de comptes.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
-* Mappez toute suite de rapports Adobe Analytics que vous souhaitez configurer pour la gouvernance des données dans [votre organisation Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Définissez une politique de conservation des données pour chaque suite de rapports afin que les demandes d’accès et de suppression en vertu du CCPA puissent être honorées.
 
    Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative aux Services de confidentialité, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données.

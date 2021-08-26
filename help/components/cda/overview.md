@@ -2,10 +2,10 @@
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
-workflow-type: ht
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Lorsque des périphériques sont regroupés, la persistance de variable est réa
 
 Dans un souci de partenariat et de transparence, nous voulons que nos clients soient conscients de notre utilisation de Microsoft Azure en association avec les analyses entre appareils. Adobe utilise Azure pour stocker les données graphiques des appareils et effectuer le regroupement entre appareils. Ainsi, les données Adobe Analytics sont échangées entre le centre de traitement des données d’Adobe et les instances configurées d’Adobe dans Microsoft Azure.
 
-Voir [Journey IQ : page de lancement des analyses entre appareils](http://adobe.ly/aacda) pour en savoir plus sur les capacités et les fonctionnalités des analyses entre appareils.
+Voir [Journey IQ : page de lancement des analyses entre appareils](https://adobe.ly/aacda) pour en savoir plus sur les capacités et les fonctionnalités des analyses entre appareils.
 
 ## Conditions préalables
 

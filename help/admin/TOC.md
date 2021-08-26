@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
-source-git-commit: 120b0ff4ed2ebd3870e56ca9fabd3364b7745a7c
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '723'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,6 @@ ht-degree: 0%
    + [Alliance de marques](company/co-branding-admin.md)
    + [Masquage des suites de rapports](company/c-hide-report-suites.md)
    + [Gestionnaire de sécurité](company/security-manager.md)
-   + [Fin de vie de la fonction « Exiger des restrictions d’identification par IP »](company/login-restrictions-eol.md)
 + Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)

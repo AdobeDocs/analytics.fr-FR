@@ -2,10 +2,10 @@
 title: Configuration d’un compte publicitaire dans Advertising Analytics
 description: Vous permet de créer des comptes publicitaires et de mapper plusieurs comptes à plusieurs suites de rapports.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -64,24 +64,24 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
 
    >[!IMPORTANT]
    >
-   >Seules les suites de rapports qui ont été [mappées à une organisation Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html) pourront être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Seules les suites de rapports mappées à une organisation Experience Cloud peuvent être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Définissez les **[!UICONTROL Paramètres du mappage]** en procédant comme suit :
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Paramètre </th> 
-      <th colname="col2" class="entry"> Description </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Mappage de suites de rapports </p> </td> 
-      <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> <p>Si la suite de rapports ne figure pas dans la liste, vous pouvez <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >mapper votre suite de rapports à une organisation Experience Cloud</a> en utilisant cet outil. </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> Paramètre </th> 
+   <th colname="col2" class="entry"> Description </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>Suite de rapports Mappage </p> </td> 
+   <td colname="col2"> <p>Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Après l’enregistrement, une clause de non-responsabilité affiche une liste d’avertissements. Vous devez confirmer que vous avez lu et compris cet accord. Cochez la case, puis cliquez sur **[!UICONTROL OK]**.

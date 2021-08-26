@@ -2,7 +2,7 @@
 title: Fin de vie des sources de données à traitement complet
 description: Raisons de la fin de vie et comparaisons entre l’API d’insertion de données en bloc et les sources de données à traitement complet.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 32%
@@ -13,7 +13,7 @@ ht-degree: 32%
 
 Depuis plusieurs années, les sources de données à traitement complet vous permettent d’envoyer des données au niveau de l’accès à Adobe Analytics. Ces données ont été traitées de la même manière que les données collectées via nos bibliothèques JavaScript et notre SDK d’applications mobiles. En 2020, Adobe a publié l’[API d’insertion de données en bloc](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md), qui exécute les mêmes fonctions que les sources de données à traitement complet, mais avec des fonctionnalités supplémentaires. Cette rubrique fournit des détails sur les fonctionnalités supplémentaires fournies par l’API Bulk Data Insertion et décrit les différences de formats de fichier.
 
-À compter du 25 mars 2021, Adobe empêchera la création de nouvelles connexions de sources de données à traitement complet. Les connexions existantes continueront à être prises en charge jusqu’à ce que le service soit complètement abandonné le 31 juillet 2021. Outre notre documentation standard, nous vous proposons une présentation des [étapes nécessaires à l’envoi de données via l’API Bulk Data Insertion](http://adobe.ly/aabdia).
+À compter du 25 mars 2021, Adobe empêchera la création de nouvelles connexions de sources de données à traitement complet. Les connexions existantes continueront à être prises en charge jusqu’à ce que le service soit complètement abandonné le 31 juillet 2021. Outre notre documentation standard, nous vous proposons une présentation des [étapes nécessaires à l’envoi de données via l’API Bulk Data Insertion](https://adobe.ly/aabdia).
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 

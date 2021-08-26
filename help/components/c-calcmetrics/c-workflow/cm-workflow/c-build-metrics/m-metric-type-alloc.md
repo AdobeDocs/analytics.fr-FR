@@ -3,10 +3,10 @@ description: 'En savoir plus sur les '
 title: Type de mesure et attribution
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,11 @@ Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’u
 
 >[!IMPORTANT]
 >
->[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) a revu la manière dont les modèles dʼattribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
+>[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) a revu la manière dont les modèles dʼattribution dans les mesures calculées sont évalués. Dans le cadre de cette modification, les mesures calculées qui n’utilisent pas un modèle d’attribution par défaut ont été migrées vers des nouveaux modèles d’attribution améliorés :
 >
->* Pour obtenir la liste complète des modèles d’attribution qui ne sont pas par défaut et les intervalles de recherche en amont pris en charge, consultez la documentation d’[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html).
+>* Pour obtenir la liste complète des modèles d’attribution autres que les modèles par défaut et les intervalles de recherche en amont pris en charge, voir [Modèles d’attribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
 >* Les modèles d’attribution « Dernière touche canal marketing » et « Première touche canal marketing » seront migrés vers les nouveaux modèles d’attribution « Dernière touche » et « Première touche », respectivement. (Remarque : les rapports « Canaux marketing » ne seront pas obsolètes, seuls les deux modèles d’attribution qui apparaissent dans les mesures calculées le seront.)
 >* De plus, nous corrigerons la façon dont l’affectation linéaire est calculée. Pour les clients qui utilisent des mesures calculées avec des modèles d’attribution « linéaire », les rapports peuvent légèrement changer afin de tenir compte du nouveau modèle d’attribution corrigé. Cette modification des mesures calculées sera reflétée dans Analysis Workspace, Reports &amp; Analytics, l’API de création de rapports et Report Builder. Pour plus d’informations, consultez la section **Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)** ci-dessous.
->
-
 
 
 ## Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)

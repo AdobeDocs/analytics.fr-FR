@@ -1,21 +1,20 @@
 ---
-description: Utilisez le connecteur de données sélective avec Adobe Analytics.
+description: Utilisez le connecteur de données Selligent avec Adobe Analytics.
 title: Connecteur de données Selligent pour Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: baeabd9c-10bc-4733-8779-abfa81807c54
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 97%
 
 ---
 
-
-# Connecteur de données Selligent pour Adobe Analytics {#selligent-data-connector-for-adobe-analytics}
+# Connecteur de données Selligent pour Adobe Analytics{#selligent-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la mise en service de la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Nous mettrons fin à la technologie Adobe Data Connector le 1er août 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Cette intégration présente les principaux avantages suivants :
 
@@ -78,7 +77,7 @@ Outre ces eVars, certains événements peuvent être réservés en fonction des 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
-   <td colname="col2"> ID destinataire </td> 
+   <td colname="col2"> ID de destinataire </td> 
    <td colname="col3"> Pour capturer l’identification anonyme de votre client qui a cliqué sur la campagne par e-mail. </td> 
    <td colname="col4"> <p><b>État</b> : activé </p> <p><b>Attribution</b> : le plus récent </p> <p><b>Expire après</b> : « décision commerciale » </p> </td> 
   </tr> 
@@ -131,7 +130,7 @@ Vous aurez besoin des informations suivantes sur votre compte Selligent lors de 
 
    L’URL peut être dérivée de l’URL utilisée pour se connecter à la solution de marketing Selligent. Remplacez la partie « /simweb/login.aspx » de l’URL par « /automation/omniture.asmx ».
 
-   Par exemple : `http://<client-specific install url>/automation/omniture.asmx`
+   Par exemple : `https://<client-specific install url>/automation/omniture.asmx`
 
 * **Paramètres de chaîne de requête** : ces informations sont ajoutées à l’URL de la page d’entrée pour l’ID de message et l’ID destinataire (identifiant visiteur). On parle toujours de MID et de RID respectivement pour l’ID de message et l’ID de destinataire.
 

@@ -3,9 +3,9 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour 
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '613'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,6 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/c-data-gov
 
 * Familiarisez-vous avec la [terminologie relative au règlement général sur la protection des données (RGPD).](/help/admin/c-data-governance/gdpr-terminology.md)
 * Associez votre société de connexion à une organisation Experience Cloud, si ce n’est pas déjà fait. Contactez l’assistance clientèle d’Adobe et reportez-vous à la section [Organisations et liaison de comptes.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
-* Mappez toute suite de rapports Adobe Analytics que vous souhaitez configurer pour la gouvernance des données dans [votre organisation Experience Cloud.](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)
 * Définissez une politique de conservation des données pour chaque suite de rapports afin que les demandes d’accès et de suppression en vertu du RGPD puissent être honorées.
 
    >[!NOTE]

@@ -3,10 +3,10 @@ description: L’onglet Suite de rapports d’utilisation fournit des données d
 title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 >[!IMPORTANT]
 >
->Si une suite de rapports n’est [pas liée à une organisation Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html), ses données d’utilisation ne seront pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
+>Si une suite de rapports n’est pas liée à une organisation Experience Cloud, ses données d’utilisation ne sont pas reflétées dans ce tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
@@ -32,7 +32,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 | Colonne | Définition |
 |--- |--- |
-| Nom de la suite de rapports | Le nom convivial de la suite de rapports |
+| Suite de rapports Nom | Le nom convivial de la suite de rapports |
 | Tous les appels (% du total) | Tous les appels au serveur effectués durant la période d’utilisation actuelle. |
 | Appels principaux (%) | Tous les appels au serveur principal (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 | Appels secondaires (%) | Tous les appels au serveur secondaire (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |

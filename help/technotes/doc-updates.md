@@ -3,9 +3,9 @@ title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables du jeu de documentation Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -31,9 +31,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de marque de [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en) |
 | **Juillet 2021** |  |
 | 23 juillet 2021 | Nouvelle discussion approfondie des [eVars de marchandisage](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) |
-| 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page d’entrée Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=fr) |
+| 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page d’entrée Adobe Analytics](/help/analyze/landing.md) |
 | **Juin 2021** |  |
-| 15 juin 2021 | Mise à jour de [Bonnes pratiques relatives aux canaux marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
+| 15 juin 2021 | Mise à jour de [Bonnes pratiques relatives aux canaux marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 3 juin 2021 | Mise à jour de la documentation destinée à mieux expliquer la [mise en œuvre des flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en) et [ici](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl). |
 | 25 mai 2021 | Mise à jour de la documentation sur le [respect de la casse des eVar dans le compte rendu des performances](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr). |
 | 13 mai 2021 | Mises à jour des [demandes d’API de Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Ils prennent désormais en charge les &quot;Heures&quot;. |
@@ -114,7 +114,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **2019** |  |
 | 19 décembre 2020 | Valeur par défaut [Limite de stockage des données FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en) modifiée et définie sur 10 Go. |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
-| 25 novembre 2019 | Nouvelle rubrique sur la [fin de vie des restrictions d’identification par IP](/help/admin/company/login-restrictions-eol.md). |
+| 25 novembre 2019 | Nouvelle rubrique sur la fin de vie des restrictions d’identification par IP. |
 | 21 novembre 2019 | Nouvelle documentation sur [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 21 novembre 2019 | Mise à jour de la [FAQ sur le processus d’Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en) pour indiquer la disponibilité dans LiveStream. |
 | 25 octobre 2019 | Mise à jour de la [page Concepts clés d’Adobe Analytics](/help/technotes/terms.md). |

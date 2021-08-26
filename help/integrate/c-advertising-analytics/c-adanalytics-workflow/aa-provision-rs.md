@@ -3,9 +3,9 @@ description: Configuration d’une suite de rapports mappée à Experience Cloud
 title: Activation de la suite de rapports pour Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '281'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 100%
 
 Afin d’afficher toutes les données de recherche Advertising Analytics dans Analytics, vous devez configurer chaque suite de rapports mappée à Experience Cloud pour le reporting Advertising Analytics.
 
-1. [Mappez votre suite de rapports à une organisation](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
 1. Sélectionnez la suite de rapports qui est mappée à votre organisation Experience Cloud.

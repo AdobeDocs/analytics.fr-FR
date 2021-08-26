@@ -3,16 +3,16 @@ description: Explique les améliorations apportées au transfert côté serveur,
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
 # Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 
-Cette section explique les améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm).
+Cette section explique les améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+et+technologies+similaires).
 
 Le transfert côté serveur permet de partager en temps réel des données d’Adobe Analytics vers d’autres [!DNL Experience Cloud Solutions], telles qu’Audience Manager. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
 

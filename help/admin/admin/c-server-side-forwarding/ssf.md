@@ -4,9 +4,9 @@ solution: Audience Manager
 title: Transfert côté serveur - Aperçu
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '821'
 ht-degree: 94%
 
 ---
@@ -32,7 +32,7 @@ Pour comprendre où se situe votre organisation en termes d’implémentation du
 
 ## ![image step1_icon.png](assets/step1_icon.png) Vérifiez l’implémentation du service ECID
 
-Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html).
+Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=fr).
 
 Dans l’onglet Requête, vérifiez qu’une valeur ECID est en cours de définition. Cela vous indique si le service d’identité est correctement implémenté, ce qui est une condition requise du transfert côté serveur.
 
@@ -51,7 +51,7 @@ Dans l’onglet « Réponse », vérifiez que la réponse contient les donnée
 
    * **Clients du module de gestion de l’audience (AAM) avec collecte de données côté client (DIL)** : coordonnez les deux éléments suivants en conjonction étroite :
 
-      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Supprimez le code DIL et installez le code de la page du [module de gestion de l’audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=fr).
       1. Activez le transfert côté serveur dans l’interface utilisateur d’administration d’Analytics comme décrit à l’étape 3. L’activation de ce paramètre avant la suppression du code DIL duplique les données et crée des appels serveur facturés supplémentaires à Audience Manager.
    * **Nouveaux clients du module de gestion de l’audience (AAM)** : installez la page de code du [module de gestion de l’audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) et passez à l’étape 3. Les données ne sont pas envoyées à Audience Manager tant que le transfert côté serveur n’est pas activé à l’étape 3.
 
@@ -64,10 +64,10 @@ Le transfert côté serveur au niveau des suites de rapports est recommandé par
 
 Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionnez des **suites de rapports**) > **Modifier les paramètres** > **Général** > **Transfert côté serveur**. Si la case à cocher est :
 
-* **Inactive** (vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à votre organisation IMS. Assurez-vous que les suites de rapports applicables sont mappées à l’organisation Experience Cloud appropriée à l’aide de [l’interface utilisateur de mappage des suites de rapports](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).
+* **Inactif**  (vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à une organisation IMS. Contactez l’assistance clientèle pour vous assurer que la suite de rapports est correctement mappée.
 * **Désactivée** : le nouveau transfert côté serveur n’est pas activé. Lisez le contenu de la page, puis procédez à l’activation de la fonctionnalité.
 * **Activée** : le nouveau transfert côté serveur est activé. Vous pouvez également configurer l’intégration d’Audience Analytics.
 
 >[!NOTE]
 >
->Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.translate.html) ou [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
+>Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) ou [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
