@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
-workflow-type: ht
-source-wordcount: '1674'
-ht-degree: 100%
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
+workflow-type: tm+mt
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -114,3 +114,11 @@ Les avantages à utiliser l’intervalle de recherche en amont de la relecture e
 ## Qu’advient-il des données regroupées dans mes suites de rapports virtuelles des analyses entre appareils si mon entreprise décide de passer à une version inférieure d’Analytics Ultimate ?
 
 Si un client passe à une version inférieure d’Ultimate, il n’aura plus accès aux données groupées. Toutes les données précédemment regroupées seront supprimées. Cela signifie que les suites de rapports virtuelles des analyses entre appareils ne reflèteront plus aucun regroupement entre appareils. Les données ressembleront à la suite de rapports non regroupés originale.
+
+## Pourquoi le nombre total d’accès est-il différent entre ma suite de rapports source et la suite de rapports virtuelle des analyses entre appareils ?
+
+Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec plusieurs composants dépendants. Une incohérence d’environ 1 % des données pour le nombre total d’accès entre la suite de rapports d’origine et la suite de rapports virtuelle des analyses entre appareils est attendue. Cela a un impact minimal sur les fonctionnalités multi-appareils.
+
+## Pourquoi la mesure &quot;Personnes identifiées&quot; est-elle exagérée ?
+
+Si le nombre est légèrement supérieur à ce qui était prévu, une valeur d’eVar peut appartenir à plusieurs personnes identifiées en raison de [collisions de hachage](/help/implement/validate/hash-collisions.md). Si le décompte est beaucoup plus élevé que prévu, contactez l’assistance clientèle pour obtenir des instructions de dépannage supplémentaires.

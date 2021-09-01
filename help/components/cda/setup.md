@@ -2,10 +2,10 @@
 title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,7 @@ Les analyses entre appareils sont configurées sur votre suite de rapports conte
 * La méthode d’analyses entre appareils que vous souhaitez utiliser (groupement basé sur les champs, Adobe Private Graph ou Adobe Co-Op Graph)
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
 * Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
+La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).
 
 Une fois que vous avez fourni ces informations à l’assistance clientèle, ce service va collaborer avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
 
@@ -50,7 +51,7 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 Lorsque les analyses entre appareils sont activées sur une suite de rapports virtuelle, notez les modifications suivantes :
 
 * Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
-* Une nouvelle dimension intitulée [État identifié](../dimensions/identified-state.md) est disponible. Cette dimension détermine si l’Experience Cloud ID sur cet accès est connu par le graphique de l’appareil à ce moment.
-* De nouvelles mesures intitulées [Personnes](../metrics/people.md) et [Appareils uniques](../metrics/unique-devices.md) sont disponibles.
+* Une nouvelle dimension intitulée [État identifié](../dimensions/identified-state.md) est disponible.
+* De nouvelles mesures intitulées [Personnes](../metrics/people.md), [Appareils uniques](../metrics/unique-devices.md), Personnes identifiées, Personnes non identifiées et Personnes avec ID Experience Cloud sont disponibles.
 * La mesure [Visiteurs uniques](../metrics/unique-visitors.md) n’est pas disponible, car elle est remplacée par « Personnes » et « Appareils uniques ».
 * Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».

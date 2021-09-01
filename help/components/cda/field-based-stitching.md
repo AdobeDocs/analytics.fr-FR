@@ -2,10 +2,10 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
+source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 94%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,8 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre mise en oeuvre doit définir une prop ou un eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Communiquez la variable d’identification de votre choix à votre gestionnaire de compte lors de l’attribution du groupement basé sur les champs.
+* Votre mise en oeuvre doit définir une prop ou un eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez d’attribuer une valeur par défaut à la prop ou à l’eVar.
+* Communiquez la variable d’identification de votre choix à votre gestionnaire de compte lors de l’attribution du groupement basé sur les champs.
 
 ## Limites spécifiques au groupement basé sur les champs
 

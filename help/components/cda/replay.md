@@ -2,11 +2,10 @@
 title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
 
@@ -48,6 +47,10 @@ Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (t
 * **Si vous utilisez le groupement basé sur les champs**, les accès non authentifiés sur des appareils reconnus sont groupés en direct à partir de ce moment-là.
 
    L’attribution fonctionne dès que la variable personnalisée d’identification est liée à un appareil. Dans l’exemple ci-dessus, tous les accès sauf l’accès 1 et l’accès 3 sont groupés en direct (ils utilisent tous l’identifiant `Bob`). L’attribution fonctionne sur les accès 1 et 3 après le groupement de relecture.
+
+>[!NOTE]
+>
+>Les accès horodatés de plus de 12 heures ne sont pas regroupés dans le flux en direct. Cependant, ces accès sont inclus dans le groupement de relecture tant qu’ils se trouvent dans l’intervalle de recherche en amont de relecture.
 
 ### Groupement de relecture
 
