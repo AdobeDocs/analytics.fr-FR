@@ -3,9 +3,9 @@ title: charSet
 description: La variable charSet détermine le codage utilisé par Adobe pour analyser votre demande d’image.
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le jeu de caractères désigne un champ sous l’accordéon [!UICONTROL Généra
 
 Vous pouvez utiliser un jeu de caractères prédéfini ou un jeu de caractères personnalisé. Évitez de modifier la valeur `UTF-8`, sauf si vous voyez des valeurs sont illisibles dans les rapports.
 
-## s.charSet dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.charSet dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `charSet` est une chaîne. Si vous avez des valeurs illisibles dans Adobe Analytics, définissez cette variable sur la même valeur que la balise HTML `<meta charset="">` de votre site.
 
