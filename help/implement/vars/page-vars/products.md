@@ -3,9 +3,9 @@ title: products
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 
 >[!NOTE]
 >
->Si cette variable est définie dans un accès sans la variable [`events`](events/events-overview.md) , la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Veillez à définir les événements appropriés sur chaque accès avec la variable `products` .
+>Si cette variable est définie dans un accès sans variable [`events`](events/events-overview.md), la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir les événements appropriés pour chaque accès avec la variable `products`.
 
-## Produits utilisant des balises dans Adobe Experience Platform
+## Variable products à laide de balises dans Adobe Experience Platform
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour définir cette variable ; cependant, plusieurs extensions tierces existent pour vous aider.
+Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour définir cette variable. Toutefois, il existe plusieurs extensions tierces pour vous aider.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
@@ -28,12 +28,12 @@ Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte
 
 Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnalisé en respectant la syntaxe AppMeasurement ci-dessous.
 
-## s.products dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.products dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.products` est une chaîne qui contient plusieurs champs délimités par produit. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
 
-* **Catégorie** (facultatif) : la catégorie de produits globale. Votre organisation décide de regrouper les produits en catégories. La longueur maximale de ce champ est de 100 octets.
-* **Nom du produit** (obligatoire) : nom du produit. La longueur maximale de ce champ est de 100 octets.
+* **Catégorie** (facultatif) : la catégorie de produits globale. Votre organisation décide de regrouper les produits en catégories. La longueur maximale de ce champ est de 100 octets.
+* **Nom du produit** (obligatoire) : nom du produit. La longueur maximale de ce champ est de 100 octets.
 * **Quantité** (facultatif) : quantité de ce produit dans le panier ? Ce champ s’applique uniquement aux accès avec l’événement d’achat.
 * **Prix** (facultatif) : prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Alignez la devise de cette valeur pour qu’elle corresponde à la variable [`currencyCode`](../config-vars/currencycode.md). N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec l’événement d’achat.
 * **Événements** (facultatif) : événements liés au produit. Délimitez plusieurs événements à l’aide d’une barre verticale (`|`). Voir [Événements](events/events-overview.md) pour plus d’informations.
@@ -44,7 +44,7 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` complète est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
+Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` complète est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
