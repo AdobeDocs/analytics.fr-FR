@@ -3,9 +3,9 @@ title: Résolution des problèmes de mise en œuvre du code H
 description: Découvrez quelques problèmes courants liés aux mises en œuvre JavaScript héritées.
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Vous trouverez ci-dessous les étapes de dépannage spécifiques aux mises en œ
 
 >[!NOTE]
 >
->Bien que les mises en oeuvre du code H exigent que le code soit référencé dans la balise `<body>` , d’autres mises en oeuvre (telles que l’utilisation de balises dans Adobe Experience Platform) nécessitent que le code soit référencé dans la balise `<head>` .
+>Bien que les implémentations du code H exigent que le code soit référencé dans la balise `<body>`, d’autres implémentations (telles que l’utilisation de balises dans Adobe Experience Platform) nécessitent que le code soit référencé dans la balise `<head>`.
 
 Le code Analytics crée une image invisible de 1x1 pixel. Auparavant, il était courant de placer la référence `s_code.js` dans la balise `<head>`. Le placement du code à cet endroit a empêché l’image d’affecter la mise en page de quelque manière que ce soit. Il s’exécute également plus tôt, ce qui permet de comptabiliser les pages vues pour les chargements de page partiels de façon plus efficace.
 
