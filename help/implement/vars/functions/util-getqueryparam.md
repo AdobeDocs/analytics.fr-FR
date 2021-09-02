@@ -3,9 +3,9 @@ title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez obtenir des données de paramètre de chaîne de requête en défini
 
 La valeur du paramètre de chaîne de requête est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter des variables Analytics.
 
-## s.Util.getQueryParam() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.Util.getQueryParam() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la méthode `s.Util.getQueryParam()` pour récupérer une valeur de chaîne de requête à partir de l’URL du navigateur. L’argument de chaîne contenant un paramètre de chaîne de requête est obligatoire. Cette méthode renvoie une chaîne que vous pouvez affecter aux variables Analytics :
 
