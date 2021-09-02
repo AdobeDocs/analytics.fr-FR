@@ -3,9 +3,9 @@ title: Hauteur du navigateur - Regroupement
 description: Hauteur de la fenêtre du navigateur en pixels.
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La hauteur du navigateur est toujours inférieure ou égale à la hauteur d’é
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`bh`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bh` lors du premier accès de chaque visite.
+Cette dimension récupère les données de la [`bh`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bh` lors du premier accès de chaque visite.
 
 Adobe conserve la hauteur du navigateur pour une visite. Si la hauteur du navigateur est ajustée en cours de visite, l’ajustement n’est pas enregistré.
 
