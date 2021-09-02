@@ -3,9 +3,9 @@ title: Largeur du navigateur - Regroupement
 description: La largeur de la fenêtre du navigateur en pixels.
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ La largeur du navigateur est toujours inférieure ou égale à la largeur d’é
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`bw`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bw` lors du premier accès de chaque visite.
+Cette dimension récupère les données de la [`bw`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bw` lors du premier accès de chaque visite.
 
 Adobe conserve la largeur du navigateur pour une visite. Si la largeur du navigateur est ajustée en cours de visite, l’ajustement n’est pas enregistré.
 
