@@ -3,9 +3,9 @@ title: Suppression de robots dans Adobe Analytics
 description: Comment supprimer des robots dans Adobe Analytics ?
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ En outre, comme les robots se transforment rapidement, Adobe propose plusieurs a
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
-Pour commencer, créez un nouvel ID déclaré dans le [Service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr). Transmettez l’identifiant Experience Cloud de votre visiteur à ce nouvel identifiant déclaré, ce qui peut être effectué rapidement et facilement avec des balises [dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour commencer, créez un nouvel ID déclaré dans le [Service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr). Transmettez l’ID Experience Cloud de votre visiteur à ce nouvel ID déclaré. Cela peut s’effectuer rapidement et facilement à l’aide des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ Voici la manière de capturer cet ID via l’élément de données. Veillez à r
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) pour transmettre les identifiants déclarés à l’outil ECID à l’aide de balises dans Adobe Experience Platform.
+Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
