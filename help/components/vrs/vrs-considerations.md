@@ -6,9 +6,9 @@ feature: Paramètres des suites de rapports
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1756'
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Si vous optez pour la suppression des appels au serveur secondaire au profit des
    * Une bonne pratique consiste à utiliser [l’empilement des segments](/help/components/segmentation/segmentation-workflow/seg-build.md) afin de pouvoir modifier un segment à un emplacement et de l’appliquer à toutes les suites de rapports virtuelles dépendantes.
    * Utilisez des conteneurs d’accès si vous souhaitez que les suites de rapports virtuelles restent mutuellement exclusives.
 2. Une fois que vous avez confirmé la configuration correcte des suites de rapports virtuelles, supprimez les identifiants des suites de rapports secondaires de votre implémentation. Pour supprimer les suites de rapports secondaires :
-   * Dans l’interface utilisateur de collecte de données de Adobe Experience Platform, cliquez sur le &quot;x&quot; en regard des suites de rapports que vous ne souhaitez plus utiliser.
+   * Dans l’interface utilisateur de la collecte de données d’Adobe Experience Platform, cliquez sur le « X » en regard des suites de rapports que vous ne souhaitez plus utiliser.
    * Dans les implémentations JavaScript héritées, recherchez la variable `s.account` et supprimez les identifiants de suite de rapports que vous ne souhaitez plus utiliser.
    * Dans tous les cas, laissez uniquement l’identifiant de suite de rapports globale/parente pour collecter les données de vos sites et applications.
    * Accédez à Admin > Report Suites et masquez les suites de rapports secondaires qui ne sont plus utilisées.
