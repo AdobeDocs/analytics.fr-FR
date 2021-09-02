@@ -3,9 +3,9 @@ title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer 
 
 >[!TIP]
 >
->Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](../../admin/admin/privacy-settings.md) dans le guide d’utilisation Administrateur.
+>Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](../../admin/admin/privacy-settings.md) dans le guide d’utilisation destiné à l’administrateur.
 
 ## URL d’exclusion
 
 La page d’exclusion de votre organisation dépend de la valeur de variable [`trackingServer`](../vars/config-vars/trackingserver.md) dans votre mise en œuvre.
 
-* Dans l’interface utilisateur de la collecte de données :
+* Dans l’interface utilisateur de la collecte de données :
    1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
    1. Cliquez sur la propriété de votre choix.
    1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
