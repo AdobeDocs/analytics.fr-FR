@@ -3,9 +3,9 @@ title: cookieDomainPeriods
 description: Permet d’aider AppMeasurement à comprendre quel domaine doit conserver les cookies si votre domaine comporte un point dans son suffixe.
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La variable `cookieDomainPeriods` permet à AppMeasurement de déterminer où le
 >
 >Ne prenez pas en compte les sous-domaines pour cette variable. Par exemple, ne définissez pas `cookieDomainPeriods` l’URL `store.toys.example.com`. AppMeasurement reconnaît par défaut que les cookies doivent être conservés sur `example.com`, même sur les URL comportant de nombreux sous-domaines.
 
-## Nombre de points de domaine utilisant des balises dans Adobe Experience Platform
+## Points de domaine à l’aide de balises dans Adobe Experience Platform
 
 Les points de domaine désignent un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
@@ -33,7 +33,7 @@ Les points de domaine désignent un champ sous l’accordéon [!UICONTROL Cookie
 
 Définissez ce champ sur `3` uniquement pour les domaines contenant un point dans le suffixe. Sinon, ce champ peut être laissé vide.
 
-## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `cookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement pour les domaines qui contiennent un point dans le suffixe. Sa valeur par défaut est `"2"`, ce qui prend en charge la plupart des domaines.
 
