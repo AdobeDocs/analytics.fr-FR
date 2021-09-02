@@ -3,9 +3,9 @@ title: zip
 description: Permet de renseigner manuellement la dimension « Code postal » si les paramètres de la suite de rapports le permettent.
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ La variable `zip` vous permet de renseigner manuellement la dimension « Code p
 
 >[!IMPORTANT]
 >
->Assurez-vous que l’[!UICONTROL option de code postal] des paramètres de la suite de rapports est définie sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation Administrateur.
+>Assurez-vous que l’[!UICONTROL option de code postal] des paramètres de la suite de rapports est définie sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation destiné à l’administrateur.
 
-## Code postal utilisant des balises dans Adobe Experience Platform
+## Code postal à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir le code postal lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -30,7 +30,7 @@ Vous pouvez définir le code postal lors de la configuration de l’extension An
 
 Vous pouvez définir le code postal sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.zip dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.zip dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.zip` est une chaîne qui contient généralement un code postal, mais qui peut contenir toute valeur souhaitée jusqu’à 50 octets de longueur.
 
