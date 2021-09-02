@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 91%
       + [Exemple de visite](js/xdevice-visid/visit-example.md)
       + [FAQ sur l’identification héritée de plusieurs appareils](js/xdevice-visid/xdevice-faq.md)
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
-+ Mise en oeuvre d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
++ Implémentation d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
    + [Validation et publication en production](launch/validate-publish-prod.md)
    + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
-   + [Mise en correspondance des éléments de données de balise avec les variables Analytics](launch/elements-to-variable.md)
+   + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
    + [Mise en œuvre d’Analytics avec DTM](other/dtm-implementation-overview.md)
