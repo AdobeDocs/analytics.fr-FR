@@ -3,15 +3,15 @@ title: Migration vers AppMeasurement pour JavaScript
 description: Déterminez ce qui est nécessaire pour migrer votre mise en œuvre hors du code H.
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Migration vers AppMeasurement pour JavaScript
 
-Si votre mise en œuvre utilise toujours le code H, Adobe recommande vivement d’effectuer la migration vers la dernière version d’AppMeasurement. Il est recommandé d’implémenter Analytics par le biais de balises [dans Adobe Experience Platform](../launch/overview.md), mais il est possible d’utiliser une mise en oeuvre JavaScript mise à jour.
+Si votre mise en œuvre utilise toujours le code H, Adobe recommande vivement d’effectuer la migration vers la dernière version d’AppMeasurement. Il est recommandé d’implémenter Analytics par le biais des [balises dans Adobe Experience Platform](../launch/overview.md), mais il est possible d’utiliser une implémentation JavaScript mise à jour.
 
 Les modifications notables suivantes sont présentes dans AppMeasurement par rapport au code H :
 
