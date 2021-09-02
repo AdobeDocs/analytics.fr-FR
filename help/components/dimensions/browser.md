@@ -3,9 +3,9 @@ title: Navigateur
 description: Le nom et la version du navigateur utilisé.
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ La dimension « Navigateur » indique le nom et la version du navigateur qui e
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
 
 ## Éléments de dimension
 
