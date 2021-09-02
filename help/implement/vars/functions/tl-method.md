@@ -3,9 +3,9 @@ title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '616'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Appel de suivi des liens à l’aide de balises dans Adobe Experience Platform
 
-L’interface utilisateur de la collecte de données comporte un emplacement dédié et un appel de suivi des liens.
+L’interface utilisateur de la collecte de données dispose d’un emplacement dédié définissant un appel de suivi des liens.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
@@ -28,7 +28,7 @@ L’interface utilisateur de la collecte de données comporte un emplacement dé
 
 Vous ne pouvez pas définir d’arguments facultatifs dans l’interface utilisateur de la collecte de données.
 
-## s.tl() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.tl() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la méthode `s.tl()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 
@@ -55,7 +55,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Type de lien  (obligatoire)
+### Type de lien   (obligatoire)
 
 L’argument de type de lien est une chaîne d’un seul caractère qui détermine le type d’appel de suivi des liens. Il existe trois valeurs valides.
 
