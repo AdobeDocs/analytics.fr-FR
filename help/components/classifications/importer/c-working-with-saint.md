@@ -6,9 +6,9 @@ feature: Outils d’administration
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ Les données importées à l’aide de l’outil d’importation doivent être d
 >
 >Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 
-Voir [Dépannage de l’importateur de classifications](/help/components/classifications/importer/troubleshooting.md). Cette rubrique décrit les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
+Consultez la section [Dépannage de l’importateur de classifications](/help/components/classifications/importer/troubleshooting.md). Cette rubrique décrit les problèmes provenant de formats et contenus de fichiers incorrects.
