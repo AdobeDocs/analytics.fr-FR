@@ -3,9 +3,9 @@ title: registerPreTrackCallback
 description: Permet de créer des fonctions de rappel avant d’envoyer un accès à Adobe.
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associ
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.registerPreTrackCallback dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.registerPreTrackCallback dans AppMeasurement et l’éditeur de code personnalisé
 
 La fonction `s.registerPreTrackCallback` prend une fonction comme son seul argument. La fonction imbriquée s’exécute juste avant l’envoi d’une demande d’image.
 
