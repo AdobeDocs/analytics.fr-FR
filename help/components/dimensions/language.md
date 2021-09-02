@@ -3,9 +3,9 @@ title: Langue
 description: Paramètre de langue préférée dans le navigateur.
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La dimension « Langue » affiche les principales langues dans lesquelles les 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `Accept-Language` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `Accept-Language` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
 
 ## Éléments de dimension
 
