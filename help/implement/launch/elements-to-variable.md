@@ -1,30 +1,30 @@
 ---
-title: Mise en correspondance des éléments de données de balise avec les variables Analytics
-description: Affectez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
+title: Mappage des éléments de données de balises aux variables Analytics
+description: Attribuez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
-# Mise en correspondance des éléments de données de balise avec les variables Analytics
+# Mappage des éléments de données de balises aux variables Analytics
 
-Une fois que vous disposez d’un référentiel d’éléments de données de balise, vous pouvez les affecter aux dimensions Analytics.
+Une fois que vous disposez d’un référentiel d’éléments de données de balises, vous pouvez les attribuer aux dimensions Analytics.
 
 >[!NOTE]
->Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) suivant pour consulter une référence consolidée des modifications terminologiques.
+>Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 
-[Mappage des objets de couche de données aux éléments](layer-to-elements.md) de données : Assurez-vous de bien comprendre les éléments de données de balise et de disposer de plusieurs éléments à utiliser.
+[Mapper des objets de couche de données aux éléments de données](layer-to-elements.md) : assurez-vous de comprendre les éléments de données de balises et de disposer de plusieurs éléments pour travailler.
 
 [Créer un document de conception de solution](../prepare/solution-design.md) : Un document de conception de solution est essentiel pour rester organisé. En suivant votre document de conception de solution, vous simplifiez l’affectation des éléments de données aux variables Analytics.
 
 ## Affectation d’éléments de données à des variables Analytics
 
-La publication d’une bibliothèque de balises après avoir suivi ces étapes vous permet d’utiliser des dimensions personnalisées dans Analysis Workspace. Vous pouvez définir des variables Analytics globalement ou dans des règles individuelles.
+La publication d’une bibliothèque de balises après le suivi de ces étapes vous permet d’utiliser des dimensions personnalisées dans Analysis Workspace. Vous pouvez définir des variables Analytics globalement ou dans des règles individuelles.
 
 ### Définition de variables globales
 
@@ -37,7 +37,7 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 
 ### Définition de variables dans les règles
 
-Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Voir [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html) dans la documentation sur les balises Adobe Experience Platform.
+Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Consultez la section [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=fr) de la documentation sur les balises Adobe Experience Platform.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
