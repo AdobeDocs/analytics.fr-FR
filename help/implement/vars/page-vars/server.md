@@ -3,9 +3,9 @@ title: server
 description: Permet de renseigner la dimension « Serveurs ».
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 La variable `server` stocke généralement le nom d’hôte de votre site. Elle est généralement utilisée dans les suites de rapports qui contiennent des données provenant de plusieurs domaines. Elle est fonctionnellement identique à une prop.
 
-## Serveur utilisant des balises dans Adobe Experience Platform
+## Serveur à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir le serveur lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -26,7 +26,7 @@ Vous pouvez définir le serveur lors de la configuration de l’extension Analyt
 
 Vous pouvez définir le serveur sur n’importe quelle valeur de chaîne ou élément de données.
 
-## s.server dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.server dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.server` est une chaîne qui contient généralement le nom d’hôte de votre site. Celle-ci a une valeur maximale de 100 octets ; les valeurs plus longues sont tronquées.
 
