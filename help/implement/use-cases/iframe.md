@@ -3,9 +3,9 @@ title: Utilisation dʼAppMeasurement avec des iFrames
 description: Accédez aux variables Adobe Analytics à lʼintérieur dʼun iframe ou dʼune page parente dans un iframe.
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 90%
 
 Vous pouvez référencer des variables AppMeasurement à partir des iFrames enfant et parent. Il est nécessaire de définir toutes les variables au même emplacement où se trouve la bibliothèque AppMeasurement. Les exemples suivants expliquent la manière de définir les variables et méthodes AppMeasurement de base à lʼintérieur et à lʼextérieur dʼun iframe.
 
-Si vous utilisez des balises dans Adobe Experience Platform, assurez-vous que l’objet de suivi est accessible globalement. Voir [Présentation de l’extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html).
+Si vous utilisez des balises dans Adobe Experience Platform, assurez-vous que lʼobjet de suivi est accessible de manière globale. Consultez la [Présentation de lʼextension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr).
 
 >[!CAUTION]
 >
