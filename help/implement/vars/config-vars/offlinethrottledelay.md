@@ -3,9 +3,9 @@ title: offlineThrottleDelay
 description: Permet de définir la fréquence des accès lorsqu’un appareil revient en ligne.
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Lorsqu’un appareil revient en ligne, tous les accès stockés sur l’appareil
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.offlineThrottleDelay dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.offlineThrottleDelay dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.offlineThrottleDelay` est un entier qui représente le nombre de millisecondes d’attente AppMeasurement entre l’envoi des accès en file d’attente. Sa valeur par défaut est `0`, ce qui signifie que tous les accès en file d’attente sont envoyés simultanément. Si `trackOffline` correspond à `false`, cette variable ne fait rien.
 
