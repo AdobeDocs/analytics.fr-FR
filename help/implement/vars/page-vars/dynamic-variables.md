@@ -3,9 +3,9 @@ title: Variables dynamiques
 description: Copiez des variables sans augmenter la longueur de la demande d’image.
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Lorsqu’Adobe reconnaît un préfixe de variable dynamique, il copie automatiqu
 >
 >Gardez à l’esprit les limites maximales de caractères lors de la copie de variables. Par exemple, en cas de copie de `eVar1` vers `prop1`, `prop1` peut avoir une valeur tronquée puisqu’elle est limitée à 100 octets (alors que `eVar1` est limitée à 255 octets).
 
-## Variables dynamiques utilisant des balises dans Adobe Experience Platform
+## Variables dynamiques à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dimension qui accepte une chaîne. Les éléments de dimension sont généralement définis lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -36,7 +36,7 @@ Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dim
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.
 
-## Variables dynamiques dans AppMeasurement et l’éditeur de code personnalisé de 
+## Variables dynamiques dans AppMeasurement et l’éditeur de code personnalisé
 
 Les variables dynamiques sont des chaînes de texte affectées à d’autres variables. Le préfixe de variable dynamique par défaut est `D=`. Les variables dynamiques sont sensibles à la casse.
 
