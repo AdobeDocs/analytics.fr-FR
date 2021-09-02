@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: Permet de conserver les chaînes de requête dans les dimensions de suivi des liens.
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions d
 >
 >Cette variable n’affecte pas les dimensions en dehors du suivi des liens. Elle affecte uniquement les liens personnalisés, les liens de sortie et les liens de téléchargement.
 
-## Conserver les paramètres d’URL à l’aide de balises dans Adobe Experience Platform
+## Conservation des paramètres d’URL à l’aide de balises dans Adobe Experience Platform
 
 [!UICONTROL Conserver les paramètres d’URL] est une case à cocher située sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
@@ -34,7 +34,7 @@ L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions d
 
 Cochez cette case si vous souhaitez inclure des chaînes de requête dans les dimensions de suivi des liens.
 
-## s.linkLeaveQueryString dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkLeaveQueryString dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkLeaveQueryString` est une valeur booléenne. Sa valeur par défaut est `false`.
 
