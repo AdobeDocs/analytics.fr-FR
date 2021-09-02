@@ -3,9 +3,9 @@ title: Visites sur une seule page
 description: Le nombre de fois que l’élément de dimension « Page » n’a pas changé au cours d’une visite.
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 57%
 
 *Cette page d’aide décrit le fonctionnement de la mesure « Visites de page unique ». Pour plus d’informations, consultez la dimension [Visites de page unique](../dimensions/single-page-visits.md).*
 
-La mesure [!UICONTROL Visites de page unique] indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure s’avère utile dans le contexte de dimensions dans lesquelles vous souhaitez afficher des visites courtes, mais qui ne sont pas aussi strictes que le font [[!UICONTROL Bounces]](bounces.md).
+La mesure [!UICONTROL Visites sur une seule page] indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
 
 ## Méthode de calcul de cette mesure
 
@@ -23,4 +23,4 @@ Consultez [Accès unique](single-access.md) pour une comparaison des mesures.
 
 ## Compter les instances répétées
 
-Ce paramètre indique si des instances de répétition sont comptabilisées dans les rapports. Pour plus d’informations, voir [Compter les instances de répétition](/help/components/metrics/count-repeat-instances.md).
+Ce paramètre indique si des instances de répétition sont comptabilisées dans les rapports. Pour plus d’informations, consultez la section [Compter les instances répétées](/help/components/metrics/count-repeat-instances.md).
