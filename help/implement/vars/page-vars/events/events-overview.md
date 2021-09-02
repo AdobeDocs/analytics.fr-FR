@@ -3,9 +3,9 @@ title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Les dimensions et les mesures sont des composants essentiels des rapports. La va
 
 Avant d’implémenter des événements, veillez à les créer et à les configurer sous [Événements de succès](/help/admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement configurés.
 
-## Événements utilisant des balises dans Adobe Experience Platform
+## Événements à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir des événements lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -33,7 +33,7 @@ Plusieurs fonctionnalités sont disponibles :
 * Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` sous la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 pour les rapports.
 * Bouton permettant d’ajouter un autre événement. Il n’existe pas de limite raisonnable au nombre d’événements que vous pouvez inclure dans un accès.
 
-## s.events dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.events dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. Il n’y a pas de limite d’octets pour cette variable. Elle n’est donc pas tronquée. Les valeurs valides sont les suivantes :
 
