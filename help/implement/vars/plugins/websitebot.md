@@ -3,9 +3,9 @@ title: websiteBot
 description: Identifiez dynamiquement les robots à l’aide des mouvements de souris.
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ Ce module effectue deux vérifications :
 
 Si l’agent utilisateur se trouve sur un bureau et qu’aucun mouvement de souris n’est détecté, le plug-in peut
 
-* Effectuez un appel de règle d’appel direct à l’aide de balises dans Adobe Experience Platform ou
-* Effectuez un appel de suivi des liens pour indiquer que le visiteur n’est pas un robot.
+* Effectuer un appel de règle d’appel direct à l’aide des balises dans Adobe Experience Platform ou
+* Effectuer un appel de suivi des liens pour indiquer que le visiteur n’est pas un robot.
 
 ## Conditions préalables
 
@@ -34,7 +34,7 @@ Adobe recommande d’effectuer les actions suivantes avant d’utiliser ce modul
 * **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définir l’expiration sur **Jamais** ou **Visite** et l’affectation sur **« Valeur originale (Première) »**. Cette eVar doit être définie dans les deux cas suivants : lorsque la règle [!UICONTROL Direct Call] ou l’appel `s.tl` est déclenché.
 * **Collectez l’agent utilisateur dans une variable distincte** : collectez la chaîne de l’agent utilisateur dans une variable distincte pour contrôler l’efficacité de ce module. Définissez une eVar sur `navigator.UserAgent` pour chaque accès afin de collecter ces données.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 1. Ajoutez une nouvelle règle `websiteBot`.
 1. Ajoutez un événement **Mouse Move Listener** à la règle `websiteBot`, avec ce code personnalisé :
