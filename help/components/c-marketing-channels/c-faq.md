@@ -2,7 +2,7 @@
 title: FAQ sur les canaux marketing
 description: Forum aux questions sur les canaux marketing.
 source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Assurez-vous que le nom du paramètre est spécifié dans les champs de paramèt
 
 ## Pourquoi la totalité du trafic Dernière touche est-elle attribuée à un domaine interne ?
 
-Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Dans le cas d’une règle telle que  *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
+Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Dans le cas d’une règle telle que   *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
 
 ## Comment déboguer le trafic qui s’affiche dans Aucun canal identifié sur le rapport ?
 
