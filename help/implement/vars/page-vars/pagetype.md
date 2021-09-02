@@ -3,9 +3,9 @@ title: pageType
 description: Permet de déterminer si la page active est une erreur 404.
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ La variable `pageType` est un indicateur utilisé pour désigner les pages d’e
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.pageType dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.pageType dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.pageType` est une chaîne dont la valeur `errorPage` est la seule valeur valide. Définissez cette variable sur cette valeur dans toute page d’erreur de votre site, par exemple sur des pages 404.
 
