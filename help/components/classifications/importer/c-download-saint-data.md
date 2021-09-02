@@ -5,9 +5,9 @@ title: Modèle de classification
 feature: Outils d’administration
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 85%
 | --- | ---|
 | Sélectionner une suite de rapports | Sélectionnez la suite de rapports à utiliser dans le modèle. La suite de rapports et l’ensemble de données doivent correspondre. |
 | Données à classer | Sélectionnez le type de données pour le fichier de données. Le menu comprend tous les rapports des suites de rapports qui sont configurés pour les classifications. |
-| Exporter Numérique 2 | **Important** : Cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
-| Encodage | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8.<br>**Important** : Cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| Exporter Numérique 2 | **Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| Encodage | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8.<br>**Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | Télécharger | Télécharge le fichier de modèle. |
 
 Ce modèle comprend les classifications actuellement définies (en-têtes de colonne) pour un ensemble de données spécifiques sans inclure les données associées à chaque classification.
