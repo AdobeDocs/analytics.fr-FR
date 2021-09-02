@@ -3,9 +3,9 @@ title: offlineHitLimit
 description: Permet de déterminer le nombre maximal d’accès à mettre en file d’attente pour le suivi hors ligne.
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La variable `offlineHitLimit` plafonne le nombre d’accès que l’appareil sto
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.offlineHitLimit dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.offlineHitLimit dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.offlineHitLimit` est un entier représentant le nombre maximal d’accès qu’un appareil stocke lorsqu’il est hors ligne. Si cette variable n’est pas définie, le nombre d’accès qu’un appareil stocke hors ligne n’est pas limité.
 
