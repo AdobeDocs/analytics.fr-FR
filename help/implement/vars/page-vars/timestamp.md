@@ -3,9 +3,9 @@ title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 >
 >N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
 
-## Horodatage utilisant des balises dans Adobe Experience Platform
+## Horodatage à l’aide de balises dans Adobe Experience Platform
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides sont [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix).
 
@@ -41,7 +41,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valeurs ISO 8601
 
-Les dates et les heures exprimées dans la [norme ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
+Les dates et les heures exprimées dans la [norme ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
 
 * La date et l’heure doivent être précisées, séparées par `T`.
 * Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.
