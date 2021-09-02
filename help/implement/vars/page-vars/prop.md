@@ -3,9 +3,9 @@ title: prop
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les props sont des variables personnalisées que vous pouvez utiliser comme bon 
 
 Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), vous pouvez attribuer ces dimensions personnalisées aux valeurs propres à votre entreprise. Le nombre de props disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 75 props.
 
-## Propriétés utilisant des balises dans Adobe Experience Platform
+## Props à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir des props lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -34,7 +34,7 @@ Vous pouvez définir des props lors de la configuration de l’extension Analyti
 
 Vous pouvez définir une prop sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
-## s.prop1 - s.prop75 dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.prop1 - s.prop75 dans AppMeasurement et l’éditeur de code personnalisé
 
 Chaque variable prop est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Leur longueur maximale est de 100 octets ; les valeurs de plus de 100 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 
@@ -48,7 +48,7 @@ Les props de liste désignent un paramètre appliqué aux props qui permet à la
 
 ### Configuration des props de liste
 
-Activez les props de liste dans les paramètres de la suite de rapports. Voir [Variables de trafic](/help/admin/admin/c-traffic-variables/traffic-var.md) dans le guide d’utilisation Administrateur. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
+Activez les props de liste dans les paramètres de la suite de rapports. Voir [Variables de trafic](/help/admin/admin/c-traffic-variables/traffic-var.md) dans le guide d’utilisation destiné à l’administrateur. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
 
 >[!TIP]
 >
