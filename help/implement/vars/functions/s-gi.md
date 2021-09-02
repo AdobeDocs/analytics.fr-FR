@@ -3,9 +3,9 @@ title: s_gi()
 description: Permet de créer des instances d’AppMeasurement et d’en effectuer le suivi.
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 La fonction `s_gi()` instancie ou trouve une instance d’AppMeasurement par identifiant de suite de rapports. AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction `s_gi()` renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée.
 
-## s_gi() utilisation de balises dans Adobe Experience Platform
+## Fonction s_gi() à l’aide de balises dans Adobe Experience Platform
 
 L’extension Analytics instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez également définir un objet de suivi global dans l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
 
@@ -24,7 +24,7 @@ L’extension Analytics instancie et gère l’objet de suivi à votre place. Ce
 
 Le champ de texte de variable globale vous permet de définir un objet de suivi personnalisé. Sa valeur par défaut est `s`.
 
-## s_gi() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s_gi() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la fonction `s_gi()` pour instancier un objet de suivi. Son seul argument contient une chaîne délimitée par des virgules d’identifiant de suite de rapports. L’argument d’identifiant de suite de rapports est obligatoire.
 
