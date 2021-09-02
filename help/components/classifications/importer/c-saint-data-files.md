@@ -5,9 +5,9 @@ title: Fichiers de données de classification
 feature: Outils d’administration
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1785'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
-* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement  [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
+* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement   [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
    ```
    \t     tab character 
@@ -205,5 +205,5 @@ Pour classer les campagnes selon une période :
 
 ## Résolution des problèmes affectant les classifications
 
-* [Problèmes de chargement des courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
+* [Problèmes de chargement des courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
 
