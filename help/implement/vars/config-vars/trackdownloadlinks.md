@@ -3,9 +3,9 @@ title: trackDownloadLinks
 description: Permet d’activer ou de désactiver le suivi automatique des liens pour les liens de téléchargement.
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Lors de la configuration de l’extension Adobe Analytics, une case à cocher se
 
 Cochez la case pour activer le suivi automatique des liens de téléchargement.
 
-## s.trackDownloadLinks dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.trackDownloadLinks dans AppMeasurement et l’éditeur de code personnalisé
 
 `s.trackDownloadLinks` est d’une valeur booléenne qui active ou désactive le suivi automatique des liens de téléchargement. Si vous ne souhaitez pas suivre les liens de téléchargement ou si vous préférez appeler manuellement la méthode `tl()` pour effectuer le suivi des téléchargements, définissez cette variable sur `false`.
 
