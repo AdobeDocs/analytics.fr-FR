@@ -3,9 +3,9 @@ title: eVar (marchandisage)
 description: Variables personnalisées liées à des produits individuels.
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 *Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVars (marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants.*
 
-Pour une discussion détaillée sur le fonctionnement des eVars de marchandisage, voir [eVars de marchandisage et méthodes de recherche de produits](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en).
+Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 
