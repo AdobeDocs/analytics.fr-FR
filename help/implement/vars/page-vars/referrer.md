@@ -3,9 +3,9 @@ title: referrer
 description: Permet de remplacer le référent collecté automatiquement pour un accès.
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 La variable `referrer` remplace le référent collecté automatiquement dans les rapports. Cette variable s’avère utile lorsque le référent risque d’être perdu, par exemple lors des redirections ou du transfert temporaire du visiteur vers un processeur de paiement. Cette variable permet de renseigner les dimensions Référent et Domaine référent.
 
-## Référent utilisant des balises dans Adobe Experience Platform
+## Référent à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir le référent soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
@@ -26,7 +26,7 @@ Vous pouvez définir le référent soit lors de la configuration de l’extensio
 
 Vous pouvez définir le référent sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.referrer dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.referrer dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.referrer` est une chaîne contenant l’URL de la page précédente. Cette variable peut stocker un maximum de 255 octets ; les valeurs supérieures à 255 octets sont tronquées. AppMeasurement définit automatiquement cette variable sur `document.referrer` ; vous n’avez pas besoin de définir cette variable, sauf si vous souhaitez remplacer la valeur collectée automatiquement.
 
