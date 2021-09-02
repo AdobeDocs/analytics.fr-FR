@@ -3,9 +3,9 @@ title: channel
 description: Permet de renseigner la dimension « Sections du site ».
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 La variable `channel` stocke généralement la section du site sur laquelle se trouve une page donnée. Il est utile de déterminer les groupes de votre site les plus populaires. Cette variable renseigne la dimension Sections du site.
 
-## Canal utilisant des balises dans Adobe Experience Platform
+## Canal à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir le canal soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
@@ -26,7 +26,7 @@ Vous pouvez définir le canal soit lors de la configuration de l’extension Ana
 
 Vous pouvez définir le canal sur n’importe quelle valeur de chaîne ou élément de données.
 
-## s.channel dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.channel dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.channel` est une chaîne qui contient généralement la section du site de la page. Celle-ci a une valeur maximale de 100 octets ; les valeurs plus longues sont tronquées.
 
