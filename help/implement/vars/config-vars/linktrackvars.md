@@ -3,9 +3,9 @@ title: linkTrackVars
 description: Permet de spécifier les variables à inclure dans les demandes d’image de suivi des liens.
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Platform renseigne automatiquement cette variable sur le serveu
 >
 >Si vous définissez des variables à l’aide de l’éditeur de code personnalisé, vous devez également inclure la variable dans `linkTrackVars` à l’aide du code personnalisé.
 
-## s.linkTrackVars dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkTrackVars dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkTrackVars` est une chaîne contenant une liste de variables délimitées par des virgules que vous souhaitez inclure dans les demandes d’image de suivi de liens (méthode `tl()`). Les deux critères suivants doivent être satisfaits pour inclure des dimensions dans les accès de suivi des liens :
 
