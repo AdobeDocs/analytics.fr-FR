@@ -3,9 +3,9 @@ title: linkExternalFilters
 description: Utilisez la variable linkExternalFilters pour faciliter le suivi automatique des liens de sortie.
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le champ Suivi est une liste de filtres séparés par des virgules (généraleme
 
 Placez des filtres que vous souhaitez toujours prendre en compte comme externes dans ce champ. Séparez plusieurs domaines par une virgule sans espace.
 
-## s.linkExternalFilters dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkExternalFilters dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkExternalFilters` est une chaîne contenant des filtres (tels que les domaines) que vous considérez comme des liens de sortie. Séparez plusieurs domaines à l’aide d’une virgule sans espaces.
 
