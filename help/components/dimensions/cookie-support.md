@@ -3,9 +3,9 @@ title: Prise en charge des cookies
 description: Détermine si le navigateur prend en charge les cookies.
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ La dimension « Prise en charge des cookies » indique si le navigateur prend 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension collecte les données de la [`k`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement tente de définir un cookie nommé `s_cc`, puis détecte si le cookie existe. Le résultat est la valeur du paramètre de chaîne de requête `Y` (si le navigateur prend en charge les cookies et qu’ils sont activés) ou `N` (si les cookies sont désactivés dans le navigateur). Si vous utilisez AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `k` sur chaque accès avec la valeur `Y` ou `N`.
+Cette dimension collecte les données de la [`k`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement tente de définir un cookie nommé `s_cc`, puis détecte si le cookie existe. Le résultat est la valeur du paramètre de chaîne de requête `Y` (si le navigateur prend en charge les cookies et qu’ils sont activés) ou `N` (si les cookies sont désactivés dans le navigateur). Si vous utilisez AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `k` sur chaque accès avec la valeur `Y` ou `N`.
 
 ## Éléments de dimension
 
