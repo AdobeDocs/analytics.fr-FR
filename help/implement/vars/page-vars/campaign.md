@@ -3,9 +3,9 @@ title: campaign
 description: Permet de renseigner la dimension « Code de suivi ».
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ La variable `campaign` est dédiée à la collecte des codes de suivi sur votre 
 
 Cette variable renseigne la dimension « Code de suivi ».
 
-## Campagne utilisant des balises dans Adobe Experience Platform
+## Campagne à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir la campagne soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
@@ -28,7 +28,7 @@ Vous pouvez définir la campagne soit lors de la configuration de l’extension 
 
 Vous pouvez définir la campagne sur une valeur ou un paramètre de chaîne de requête.
 
-## s.campaign dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.campaign dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.campaign` est une chaîne qui contient généralement un code de suivi utilisé dans les actions marketing. Sa longueur maximale est de 255 octets ; les valeurs de plus de 255 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 
