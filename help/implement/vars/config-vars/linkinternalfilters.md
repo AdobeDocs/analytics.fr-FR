@@ -3,9 +3,9 @@ title: linkInternalFilters
 description: Utilisez la variable linkInternalFilters pour faciliter le suivi automatique des liens de sortie.
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Activity Map utilise cette variable pour aider à déterminer quels liens sont i
 >
 >`linkInternalFilters` et les [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) sont des fonctionnalités distinctes qui remplissent des fonctions distinctes. La variable `linkInternalFilters` fonctionne spécifiquement pour le suivi des liens de sortie. Les filtres d’URL internes sont un paramètre d’administration qui permet d’utiliser des dimensions de sources de trafic telles que Domaine référent.
 
-## Liens sortants - Ne jamais effectuer le suivi à l’aide de balises dans Adobe Experience Platform
+## Liens sortants : ne jamais effectuer le suivi à l’aide de balises dans Adobe Experience Platform
 
 Le champ Ne jamais suivre est une liste de filtres séparés par des virgules (généralement des domaines) sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
@@ -34,7 +34,7 @@ Le champ Ne jamais suivre est une liste de filtres séparés par des virgules (g
 
 Placez dans ce champ des filtres que vous ne souhaitez jamais suivre comme liens de sortie. Séparez plusieurs domaines par une virgule sans espace.
 
-## s.linkInternalFilters dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkInternalFilters dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkInternalFilters` est une chaîne contenant des filtres (tels que les domaines) que vous considérez comme internes à votre site. Séparez plusieurs filtres à l’aide d’une virgule sans espaces.
 
