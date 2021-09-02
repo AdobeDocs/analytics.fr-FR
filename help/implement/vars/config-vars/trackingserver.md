@@ -3,9 +3,9 @@ title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '400'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Le serveur de suivi est un champ sous l’accordéon [!UICONTROL Général] lors
 
 Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].data.adobedc.net`.
 
-## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.trackingServer` est une chaîne qui contient l’emplacement d’envoi des données.
 
