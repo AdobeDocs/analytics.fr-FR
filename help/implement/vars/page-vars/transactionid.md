@@ -3,9 +3,9 @@ title: transactionID
 description: Utilisez cette variable pour lier des données en ligne et hors ligne.
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ La variable `transactionID` identifie de manière unique une transaction afin qu
 
 >[!NOTE]
 >
->Assurez-vous que le stockage des [!UICONTROL identifiants de transaction] est activé dans une suite de rapports avant d’utiliser cette variable. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation Administrateur.
+>Assurez-vous que le stockage des [!UICONTROL identifiants de transaction] est activé dans une suite de rapports avant d’utiliser cette variable. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation destiné à l’administrateur.
 
 Lorsque vous définissez `transactionID` sur un accès, Adobe prend un « instantané » de toutes les variables Analytics définies ou conservées à ce moment précis. Les données transférées via la fonctionnalité Sources de données avec un identifiant de transaction correspondant sont liées de manière permanente à ces valeurs de variable.
 
@@ -34,7 +34,7 @@ Vous pouvez définir l’identifiant de transaction lors de la configuration de 
 
 Vous pouvez définir l’identifiant de transaction sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.transactionID dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.transactionID dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.transactionID` est une chaîne contenant un identifiant unique pour une transaction. Les valeurs valides comprennent des caractères alphanumériques d’une longueur maximale de 100 octets. Sa valeur par défaut est une chaîne vide.
 
