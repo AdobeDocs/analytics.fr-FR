@@ -3,9 +3,9 @@ title: Util.cookieWrite
 description: Permet d’inscrire une valeur dans un cookie.
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les cookies peuvent stocker et récupérer des informations sur plusieurs pages 
 
 L’interface utilisateur de la collecte de données ne permet pas de définir des cookies dans l’interface. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.Util.cookieWrite() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.Util.cookieWrite() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la méthode `s.Util.cookieWrite()` pour définir un cookie sur la valeur souhaitée.
 
