@@ -3,9 +3,9 @@ title: pageName
 description: Nom de la page de votre site.
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Si cette variable n’est pas définie sur un appel de suivi de page donné, la 
 >
 >Les serveurs de collecte de données Adobe éliminent cette dimension de toutes les demandes dʼimage de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez que cette dimension apparaisse dans les accès de suivi des liens, pensez à copier cette dimension dans une [eVar](evar.md).
 
-## Nom de page à l’aide de balises dans Adobe Experience Platform
+## Nom de page avec balises dans Adobe Experience Platform
 
 Vous pouvez définir le nom de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -32,7 +32,7 @@ Vous pouvez définir le nom de la page lors de la configuration de l’extension
 
 Vous pouvez définir le nom de la page sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.pageName dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.pageName dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.pageName` est une chaîne qui contient généralement le nom de la page. Celle-ci a une valeur maximale de 100 octets ; les valeurs plus longues sont tronquées. Cette troncature inclut les instances auxquelles elle redevient `pageURL` si cette variable est vide.
 
