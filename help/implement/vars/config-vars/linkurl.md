@@ -3,9 +3,9 @@ title: linkURL
 description: Permet de remplacer l’URL de lien générée automatiquement utilisée par AppMeasurement dans les appels de suivi des liens.
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, les serveurs 
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.linkURL dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkURL dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkURL` est une chaîne contenant l’URL du navigateur lorsque l’utilisateur a cliqué sur le lien. Cette variable ne renseigne aucune dimension disponible dans les rapports.
 
