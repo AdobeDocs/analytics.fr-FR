@@ -3,9 +3,9 @@ title: purchaseID
 description: Permet de dédupliquer les accès en fonction d’un identifiant d’achat unique.
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Les identifiants d’achat s’appliquent à tous les visiteurs et n’expirent 
 
 Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.purchaseID` est une chaîne qui contient un identifiant unique pour un achat. Celle-ci est définie sur le même accès qu’un événement d’achat. Utilisez uniquement des caractères alphanumériques pour renseigner cette variable.
 
