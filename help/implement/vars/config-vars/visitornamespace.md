@@ -3,9 +3,9 @@ title: visitorNameSpace
 description: Variable abandonnée qui déterminait le domaine du cookie.
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la
 >
 >Adobe recommande d’utiliser des cookies propriétaires sur votre site. Les cookies propriétaires n’utilisent pas cette variable.
 
-## Espace de noms du visiteur utilisant des balises dans Adobe Experience Platform
+## Espace de noms du visiteur à l’aide de balises dans Adobe Experience Platform
 
 [!UICONTROL L’espace de nom du visiteur] est un champ situé sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
@@ -32,7 +32,7 @@ Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la
 
 Adobe recommande de ne pas utiliser ce champ. Utilisez `trackingServer` et `trackingServerSecure` à la place.
 
-## s.visitorNamespace dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.visitorNamespace dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.visitorNamespace` est une chaîne qui contient une valeur unique par organisation. Les anciennes bibliothèques AppMeasurement incluaient automatiquement cette valeur unique lorsqu’elles étaient téléchargées à partir des versions précédentes d’Adobe Analytics. Les bibliothèques AppMeasurement actuelles n’utilisent pas cette variable, sauf si `trackingServer` et `trackingServerSecure` ne sont pas définies.
 
