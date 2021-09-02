@@ -3,9 +3,9 @@ title: Sérialisation d’événements
 description: Permet la déduplication des mesures sur votre site.
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ La sérialisation des événements est le processus consistant à implémenter d
 
 ## Configuration de la sérialisation des événements
 
-Vous devez d’abord définir l’[!UICONTROL enregistrement d’événements uniques] d’un événement pour [!UICONTROL utiliser l’identifiant d’événement] dans les paramètres de la suite de rapports. Voir [Événements de réussite](/help/admin/admin/c-success-events/success-event.md) dans le guide d’utilisation Administrateur.
+Vous devez d’abord définir l’[!UICONTROL enregistrement d’événements uniques] d’un événement pour [!UICONTROL utiliser l’identifiant d’événement] dans les paramètres de la suite de rapports. Voir [Événements de réussite](/help/admin/admin/c-success-events/success-event.md) dans le guide d’utilisation destiné à l’administrateur.
 
 Lors de l’utilisation des identifiants d’événement, la déduplication se produit aux niveaux suivants :
 
@@ -44,7 +44,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 
 Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous saisissez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.
 
-## Utilisation d’identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé de 
+## Utilisation d’identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé
 
 La sérialisation des événements fait partie de la variable `s.events`. Attribuez un identifiant à chaque événement à l’aide d’un deux-points dans la chaîne.
 
