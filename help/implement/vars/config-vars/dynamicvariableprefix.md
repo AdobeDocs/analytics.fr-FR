@@ -3,9 +3,9 @@ title: dynamicVariablePrefix
 description: Permet de personnaliser la chaîne qui identifie les variables dynamiques.
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Les variables dynamiques sont un concept abrégé qui vous permet de copier des 
 
 Par défaut, les variables dynamiques utilisent le préfixe `D=`. La variable `dynamicVariablePrefix` vous permet de personnaliser la chaîne qui identifie les variables dynamiques. Elle est sensible à la casse.
 
-## Préfixe de variable dynamique à l’aide de balises dans Adobe Experience Platform
+## Préfixe de variables dynamiques à l’aide de balises dans Adobe Experience Platform
 
 Le préfixe de variable dynamique est un champ situé sous l’accordéon [!UICONTROL Variables globales] lors de la configuration de l’extension Adobe Analytics.
 
@@ -26,7 +26,7 @@ Le préfixe de variable dynamique est un champ situé sous l’accordéon [!UICO
 
 Ce champ contient `D=` par défaut. Vous pouvez modifier la valeur si vous souhaitez utiliser un préfixe de variable dynamique différent. Vous pouvez utiliser n’importe quelle valeur, à condition qu’elle corresponde au codage des caractères sur votre site.
 
-## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.dynamicVariablePrefix` est une chaîne pouvant contenir n’importe quelle séquence de caractères. Si cette variable n’est pas définie, AppMeasurement utilise la chaîne `D=` par défaut.
 
