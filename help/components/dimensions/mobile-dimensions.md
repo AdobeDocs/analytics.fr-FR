@@ -3,9 +3,9 @@ title: Dimensions mobiles
 description: Dimensions basées sur lʼadresse IP de lʼappareil.
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les dimensions mobiles fournissent des informations sur les propriétés des app
 ## Renseignement des données dans ces dimensions
 
 Ces dimensions font référence à des règles de recherche qui sont internes à Adobe. La recherche de lʼ[!UICONTROL opérateur de téléphonie mobile] est déterminée par lʼadresse IP, à lʼaide des données que nous obtenons de NetAcuity (un produit Digital Elements).
-Si vous utilisez une bibliothèque AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), toutes les dimensions mobiles sont prêtes à l’emploi.
+Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), toutes les dimensions mobiles sont prêtes à l’emploi.
 
 ## Descriptions des dimensions mobiles
 
