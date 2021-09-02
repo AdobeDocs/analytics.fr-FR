@@ -3,24 +3,24 @@ title: Création d’une propriété Analytics dans les balises
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide de balises.
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Création d’une propriété de balise Adobe Analytics
 
-Les balises dans Adobe Experience Platform vous permettent d’intégrer des solutions Experience Cloud à votre site web (y compris Analytics). Cette page décrit spécifiquement comment un administrateur de balises peut configurer correctement une mise en oeuvre Adobe Analytics de base.
+Les balises dans Adobe Experience Platform vous permettent d’intégrer des solutions Experience Cloud à votre site web (y compris Analytics). Cette page décrit spécifiquement la manière dont un administrateur de balises peut configurer correctement une implémentation Adobe Analytics de base.
 
 >[!NOTE]
->Adobe Experience Platform Launch a été rebaptisé en tant que suite de technologies de collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) suivant pour consulter une référence consolidée des modifications terminologiques.
+>Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 
 [Création d’une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : création d’un silo pour la collecte des données Analytics..
 
-## Création d’une propriété de balise et installation d’extensions essentielles
+## Création d’une propriété de balise et installation d’extensions vitales
 
 Les propriétés sont des conteneurs principaux que vous utilisez pour gérer les balises. Les extensions vous permettent d’installer des balises spécifiques à un produit et de les configurer.
 
@@ -38,7 +38,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 Les éléments de données sont des références à des composants spécifiques de votre site pour collecter des valeurs de variable.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
+1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Éléments de données]**, puis sur **[!UICONTROL Créer un élément de données]**.
 1. Définissez les paramètres suivants pour l’élément de données :
 
@@ -59,7 +59,7 @@ Les éléments de données sont des références à des composants spécifiques 
 Les règles mettent en correspondance les éléments de données avec des valeurs des variables Analytics et déterminent le moment où ces valeurs sont transmises aux serveurs d’Adobe.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise que vous avez l’intention d’implémenter sur votre site.
+1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur **[!UICONTROL Créer une règle]** et nommez-la `Global Rule`.
 1. Cliquez sur **[!UICONTROL Ajouter]** en regard des événements, puis saisissez les paramètres suivants :
    * Extension : Core
@@ -83,9 +83,9 @@ Les règles mettent en correspondance les éléments de données avec des valeur
 
 ## Documentation et ressources supplémentaires
 
-* [Documentation](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) de l’extension Adobe Analytics : Documentation complète spécifique à l’extension Adobe Analytics dans les balises .
-* [Prise en main des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en) : Documentation complète pour les balises, y compris un guide de prise en main plus détaillé
-* [Canal](https://experienceleague.adobe.com?tag=Launch&amp;lang=fr#recommended/solutions/experience-platform) Adobe Experience Platform Launch : Découvrez comment utiliser des balises par le biais de vidéos
+* [Documentation sur l’extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) : documentation complète spécifique à l’extension Adobe Analytics dans les balises.
+* [Prise en main des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=fr) : documentation complète sur les balises, y compris un guide de prise en main plus détaillé.
+* [Chaîne Adobe Experience Platform Launch](https://experienceleague.adobe.com/?tag=Launch&amp;lang=fr#recommended/solutions/experience-platform) : découvrez comment utiliser les balises par le biais de vidéos.
 
 ## Étapes suivantes
 
