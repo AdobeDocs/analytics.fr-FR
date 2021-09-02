@@ -3,9 +3,9 @@ title: Module Integrate
 description: Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation.
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ L’obtention du code de module requiert un utilisateur disposant de l’accès 
 
 ### Placez le module Integrate dans votre implémentation
 
-La mise en oeuvre du module Integrate sur votre site nécessite l’accès à l’interface utilisateur de collecte de données dans Adobe Experience Platform. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
+L’implémentation du module Integrate sur votre site nécessite l’accès à l’interface utilisateur de la collecte de données dans Adobe Experience Platform. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise que vous avez l’intention de modifier.
+1. Cliquez sur la propriété de balise que vous souhaitez modifier.
 1. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
 1. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « Ouvrir l’éditeur ».
 1. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
