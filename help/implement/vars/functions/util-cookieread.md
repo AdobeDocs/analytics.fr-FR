@@ -3,9 +3,9 @@ title: Util.cookieRead
 description: Obtient la valeur d’un cookie.
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez lire les cookies en définissant des valeurs dans les éléments de 
 
 La valeur du cookie est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter des variables Analytics.
 
-## s.Util.cookieRead() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.Util.cookieRead() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la méthode `s.Util.cookieRead()` pour lire une valeur de cookie. Son seul argument est une chaîne obligatoire. Cette méthode renvoie une chaîne contenant la valeur du cookie. Si les cookies n’existent pas, une chaîne vide est renvoyée.
 
