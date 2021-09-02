@@ -3,9 +3,9 @@ title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
 
-Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la variable [`products`](../page-vars/products.md) et les événements de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans le guide d’utilisation Administrateur pour consulter la devise de la suite de rapports.
+Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la variable [`products`](../page-vars/products.md) et les événements de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans le guide d’utilisation destiné à l’administrateur pour consulter la devise de la suite de rapports.
 
 Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
 
@@ -25,7 +25,7 @@ Si `currencyCode` est défini et différent de la devise de la suite de rapports
 
 Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
 
-## Code de devise utilisant des balises dans Adobe Experience Platform
+## Code de devise à l’aide de balises dans Adobe Experience Platform
 
 Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
@@ -46,7 +46,7 @@ Le code de devise est transmis aux SDK Adobe Experience Platform Mobile par le b
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
-## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
 
