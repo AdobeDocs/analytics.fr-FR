@@ -3,9 +3,9 @@ title: trackingServerSecure
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées sur les pages HTTPS.
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 
 Si ce champ n’est pas renseigné, la valeur de la variable [`trackingServer`](trackingserver.md) est utilisée par défaut.
 
-## s.trackingServerSecure dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.trackingServerSecure dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.trackingServerSecure` est une chaîne qui contient l’emplacement d’envoi des demandes d’image. Il s’agit presque toujours d’un sous-domaine de votre site. Les pratiques modernes de confidentialité dans les navigateurs rendent généralement les cookies tiers peu fiables. Si cette variable est vide, elle utilise la valeur de la variable `s.trackingServer`.
 
