@@ -3,9 +3,9 @@ title: linkDownloadFileTypes
 description: Permet de déterminer les extensions de fichier qui sont automatiquement suivies comme liens de téléchargement.
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Les extensions de téléchargement désignent une liste d’extensions de fichie
 
 Ajoutez des extensions de fichier à la liste en saisissant du texte dans le champ et en cliquant sur [!UICONTROL Ajouter]. Supprimez les extensions de fichier de la liste en cliquant sur leur icône « X » respective.
 
-## s.linkDownloadFileTypes dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.linkDownloadFileTypes dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.linkDownloadFileTypes` est une chaîne d’extensions de fichiers séparées par des virgules. N’utilisez pas d’espaces.
 
