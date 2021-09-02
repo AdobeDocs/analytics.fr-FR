@@ -3,9 +3,9 @@ title: Profondeur de couleur
 description: Profondeur de couleur de l’appareil.
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ La dimension « Profondeur de couleur » indique le nombre de couleurs prises 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche, convertissant la valeur en bits en un format plus lisible. Elle collecte les données de la [`c` chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement utilise la variable `screen.colorDepth` pour renseigner la chaîne de requête de demande d’image. Si vous utilisez AppMeasurement (par le biais de balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `c` sur chaque accès avec une valeur en bits valide.
+Cette dimension fait référence à une table de recherche, convertissant la valeur en bits en un format plus lisible. Elle collecte les données de la [`c` chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement utilise la variable `screen.colorDepth` pour renseigner la chaîne de requête de demande d’image. Si vous utilisez AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `c` sur chaque accès avec une valeur en bits valide.
 
 ## Éléments de dimension
 
