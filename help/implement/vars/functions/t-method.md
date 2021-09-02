@@ -3,9 +3,9 @@ title: t
 description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe reçoit la demande d’image, puis analyse l’en-tête de la demande, l�
 
 ## Appel de suivi des pages vues à l’aide de balises dans Adobe Experience Platform
 
-L’interface utilisateur de la collecte de données dispose d’un emplacement dédié et d’un appel de suivi des pages vues.
+L’interface utilisateur de la collecte de données dispose d’un emplacement dédié définissant un appel de suivi des pages vues.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de votre choix.
@@ -46,7 +46,7 @@ L’interface utilisateur de la collecte de données dispose d’un emplacement 
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
 6. Cochez la case `s.t()`.
 
-## s.t() dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.t() dans AppMeasurement et l’éditeur de code personnalisé
 
 Appelez la méthode `s.t()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 
