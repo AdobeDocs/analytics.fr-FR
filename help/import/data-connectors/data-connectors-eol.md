@@ -3,9 +3,9 @@ description: Découvrez quand et pourquoi les connecteurs de données Analytics 
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '667'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
 
-**À compter du 19 août 2021**, Adobe cessera les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
+**À compter du 19 août 2021**, Adobe va interrompre les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
@@ -31,14 +31,14 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 
 ## Statut du partenaire du connecteur de données
 
-*Dernière mise à jour : 2 août 2021 (Hootsuite)*
+*Dernière mise à jour : 2 août 2021 (Hootsuite)*
 
 | Partenaire | État |
 | --- | --- |
 | Acxiom | Abandon |
 | Adform | Abandon |
 | Adjust | Migration vers Adobe Exchange |
-| Adobe Campaign | Migration vers Adobe Exchange   (voir la remarque ci-dessous) |
+| Adobe Campaign | Migration vers Adobe Exchange    (voir la remarque ci-dessous) |
 | Appfigures | Migration vers Adobe Exchange |
 | Appsee | Abandon |
 | AppsFlyer | Migration vers Adobe Exchange |
@@ -109,4 +109,4 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 
 La SEULE exception à la date du 1er août 2021 est l’intégration Adobe Campaign Classic. Cette intégration sera officiellement abandonnée le 1er mars 2022.
 
-Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur de  Data Connectors ainsi que de toutes les autres intégrations. Cependant, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 1er mars 2022. Le 1er mars 2022, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics. Si vous utilisez cette intégration, vous devez passer au nouveau connecteur Campaign-Analytics avant le 1er mars 2022. Pour en savoir plus, consultez la [documentation Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=fr).
+Le 1er août 2021, Adobe Campaign Classic sera supprimé de l’interface utilisateur de Data Connectors ainsi que de toutes les autres intégrations. Cependant, les intégrations Campaign existantes continueront à collecter et à transmettre des données à Adobe Analytics jusqu’au 1er mars 2022. Le 1er mars 2022, l’intégration cessera de collecter et de transmettre des données à Adobe Analytics. Si vous utilisez cette intégration, vous devez passer au nouveau connecteur Campaign-Analytics avant le 1er mars 2022. Pour en savoir plus, consultez la [documentation Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=fr).
