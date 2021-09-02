@@ -3,9 +3,9 @@ title: trackExternalLinks
 description: Permet d’activer ou de désactiver le suivi automatique des liens pour les liens de sortie.
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Le suivi des liens sortants est une case à cocher située sous l’accordéon [
 
 Cochez la case pour activer le suivi automatique des liens de sortie.
 
-## s.trackExternalLinks dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.trackExternalLinks dans AppMeasurement et l’éditeur de code personnalisé
 
 `s.trackExternalLinks` est une valeur booléenne qui active ou désactive le suivi automatique des liens de sortie. Si vous ne souhaitez pas suivre les liens sortants ou si vous préférez appeler manuellement la méthode `tl()` de suivi des liens de sortie, définissez cette variable sur `false`.
 
