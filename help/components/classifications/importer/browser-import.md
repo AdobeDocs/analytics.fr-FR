@@ -6,9 +6,9 @@ feature: Outils d’administration
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,8 +29,8 @@ Vous pouvez importer (télécharger) des données de classification à l’aide 
 | Sélectionner une suite de rapports | Suite de rapports dans laquelle vous souhaitez importer les données de classification. Le fichier de données d’importation doit correspondre au format de l’ensemble de données de la suite de rapports. |
 | Données à classer | Jeu de données de réception des classifications. La liste déroulante comprend tous les rapports des suites de rapports qui sont configurés pour les classifications. |
 | Sélectionner le fichier à importer | Permet de rechercher le fichier de données d’importation à télécharger.  Remarque : La taille du fichier de téléchargement est limitée à 1 Mo. |
-| Remplacer les données en cas de conflit | Remplace automatiquement les données existantes qui entrent en conflit avec les données importées.<br>**Important** : Cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
-| Télécharger automatiquement le fichier de classification après la fin de l’importation | Télécharge automatiquement un fichier délimité par des tabulations qui représente le jeu de données avec les données de classification nouvellement chargées. Adobe génère automatiquement ce fichier si l’importation crée des ID uniques ou en cas d’erreurs.<br>**Important** : Cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| Remplacer les données en cas de conflit | Remplace automatiquement les données existantes qui entrent en conflit avec les données importées.<br>**Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| Télécharger automatiquement le fichier de classification après la fin de l’importation | Télécharge automatiquement un fichier délimité par des tabulations qui représente le jeu de données avec les données de classification nouvellement chargées. Adobe génère automatiquement ce fichier si l’importation crée des ID uniques ou en cas d’erreurs.<br>**Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
 
 
 ## Importer des classifications par le biais du navigateur {#task_D7D51CB6FB35437AB68599B1B23FEAC1}
