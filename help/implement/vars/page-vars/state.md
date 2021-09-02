@@ -3,9 +3,9 @@ title: État
 description: Permet de renseigner le « rapport État du visiteur » dans Reports & Analytics.
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 Dans les versions précédentes d’Adobe Analytics, la variable `state` était utilisée lorsque les visiteurs renseignaient les informations d’expédition sur les sites de vente au détail. Elle est fonctionnellement identique à une prop, mais n’est pas disponible dans Analysis Workspace.
 
-## État utilisant des balises dans Adobe Experience Platform
+## État à l’aide de balises dans Adobe Experience Platform
 
 Vous pouvez définir l’état lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
@@ -30,7 +30,7 @@ Vous pouvez définir l’état lors de la configuration de l’extension Analyti
 
 Vous pouvez définir l’état sur n’importe quelle valeur de chaîne ou élément de données.
 
-## s.state dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.state dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `s.state` est une chaîne qui contient généralement l’état ou la province du visiteur. Les noms d’état complets ou les codes à deux lettres sont tous deux valides. Celle-ci a une valeur maximale de 50 octets ; les valeurs plus longues sont tronquées. Sa valeur par défaut est une chaîne vide.
 
