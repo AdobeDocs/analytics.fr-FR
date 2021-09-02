@@ -3,9 +3,9 @@ title: cookieDomainPeriods
 description: Permet d’aider AppMeasurement à comprendre quel domaine doit conserver les cookies si votre domaine comporte un point dans son suffixe.
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La variable `fpCookieDomainPeriods` permet à AppMeasurement de déterminer où 
 >
 >Ne prenez pas en compte les sous-domaines pour cette variable. Par exemple, ne définissez pas `fpCookieDomainPeriods` l’URL `store.toys.example.com`. AppMeasurement reconnaît par défaut que les cookies doivent être conservés sur `example.com`, même sur les URL comportant de nombreux sous-domaines.
 
-## Périodes de domaine propriétaires utilisant des balises dans Adobe Experience Platform
+## Points de domaine propriétaires à l’aide de balises dans Adobe Experience Platform
 
 Les périodes de domaine propriétaires sont un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
@@ -31,7 +31,7 @@ Les périodes de domaine propriétaires sont un champ sous l’accordéon [!UICO
 
 Définissez ce champ sur `3` uniquement pour les domaines contenant un point dans le suffixe. Sinon, ce champ peut être laissé vide.
 
-## s.fpCookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé de 
+## s.fpCookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé
 
 La variable `fpCookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement pour les domaines qui contiennent un point dans le suffixe. Sa valeur par défaut est `"2"`, ce qui prend en charge la plupart des domaines.
 
