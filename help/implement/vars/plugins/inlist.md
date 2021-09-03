@@ -4,8 +4,8 @@ description: Permet de vérifier si une valeur est contenue dans une autre valeu
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 85%
 
 Le plug-in `inList` vous permet de vérifier si une valeur existe déjà dans une chaîne délimitée ou un objet Array de JavaScript. Plusieurs autres plug-ins dépendent du plug-in `inList` pour fonctionner. Ce plug-in offre un avantage certain par rapport à la méthode `indexOf()` de JavaScript où vous ne trouvez pas de chaînes partielles. Par exemple, si vous avez utilisé ce plug-in pour vérifier `"event2"`, il ne correspondra pas à une chaîne contenant `"event25"`. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin de vérifier les valeurs dans des chaînes ou des tableaux délimités, ou si vous souhaitez utiliser votre propre logique `indexOf()`.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -33,7 +33,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation d’inList
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 

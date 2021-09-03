@@ -4,8 +4,8 @@ description: Permet de générer et de manipuler des nombres pour les utiliser d
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Le plug-in Numbers Suite regroupe une série de fonctions JavaScript. Il compren
 * **`randomNumber`** : permet de générer un nombre aléatoire avec un nombre spécifique de chiffres. Ce plug-in est utile si vous déployez des balises tierces et que vous souhaitez obtenir un nombre aléatoire pour le contournement de la mémoire cache.
 * **`twoDecimals`** : permet d’arrondir un nombre au centième près. Ce plug-in est utile à des fins monétaires, car il vous permet d’arrondir un nombre à une valeur monétaire valide.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -37,7 +37,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de Numbers Suite
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 

@@ -4,8 +4,8 @@ description: Permet de supprimer une valeur spécifique d’une chaîne délimit
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Le plug-in utilise la logique suivante :
 * Si la valeur que vous souhaitez supprimer existe, le plug-in conserve tout dans la variable, à l’exception de la valeur à supprimer.
 * Si la valeur que vous souhaitez supprimer n’existe pas, le plug-in conserve la chaîne d’origine telle quelle.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -38,7 +38,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de rfl (Remove From List)
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 

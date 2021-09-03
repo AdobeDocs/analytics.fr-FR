@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment gérer les utilisateurs et les produi
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 99%
    + [Widget de publication](admin/publishing-widgets-admin.md)
    + [Gestionnaire de préférences](admin/preferences-manager.md)
    + [Paramètres de confidentialité](admin/privacy-settings.md)
-   + [Reporting sur la confidentialité](admin/privacy-reporting.md)
+   + [Compte rendu des performances sur la confidentialité](admin/privacy-reporting.md)
    + Règles de traitement {#processing-rules}
       + [Règles de traitement - Aperçu](admin/c-processing-rules/processing-rules.md)
       + Configuration des règles de traitement {#processing-rules-configuration}
@@ -107,7 +107,7 @@ ht-degree: 99%
       + [Définition de la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
-+ Analytics  dans Adobe Admin Console {#admin-console}
++ Analytics   dans Adobe Admin Console {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)

@@ -4,8 +4,8 @@ description: Permet de déterminer la mise en page d’un site web actuellement 
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Le plug-in `getResponsiveLayout` vous permet de savoir quelle version de votre site web basé sur une conception adaptée est actuellement consultée par un visiteur. Adobe recommande d’utiliser ce plug-in si votre site utilise une conception adaptée et que vous souhaitez effectuer le suivi de la version du site consultée par un visiteur. Ce plug-in n’est pas nécessaire si votre site n’utilise pas de conception adaptée.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -33,7 +33,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de getResponsiveLayout
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 

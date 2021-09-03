@@ -4,8 +4,8 @@ description: Glossaire pour Adobe Analytics, définition des termes courants uti
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -67,7 +67,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * À Custom Insight, le nom historique de la variable de trafic personnalisée.
 * **IPC :** abréviation d’indicateurs clés de performance. Mesures qui aident une entreprise à comprendre les performances de son site. Chaque organisation a des IPC différents qui mesurent divers aspects de son activité. Voir [Création d’un document de conception de solution](/help/implement/prepare/solution-design.md) dans le guide d’utilisation de la mise en œuvre.
 * **Latence :** délai entre le moment où les données sont collectées et celui où elles sont disponibles dans les rapports. La latence type dans une suite de rapports est de 30 à 90 minutes. Voir [Latence](/help/technotes/latency.md) dans le guide d’utilisation des notes techniques.
-* **Launch :** ce terme n’est plus utilisé. Ancien nom raccourci des balises dans Adobe Experience Platform, la solution de mise en oeuvre actuelle de l’Adobe. Voir [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) dans le guide d’utilisation de Adobe Experience Platform.
+* **Launch** : ce terme n’est plus utilisé. Ancien nom raccourci des balises dans Adobe Experience Platform, la solution d’implémentation actuelle d’Adobe. Reportez-vous à la section [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans le guide de l’utilisateur d’Adobe Experience Platform.
 * **Props de liste :** paramètre qui convertit une variable de trafic standard afin de prendre en charge plusieurs valeurs dans le même accès. Toute variable de trafic personnalisée peut devenir une prop de liste si le paramètre est activé. Voir [prop](../implement/vars/page-vars/prop.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de liste :** variable distincte des variables de conversion. Les variables de liste prennent en charge plusieurs valeurs dans un même accès et les valeurs de variable sont conservées au cours d’une même visite, comme les variables de conversion. Seules trois variables list sont disponibles pour une organisation. Voir [list](/help/implement/vars/page-vars/list.md) dans le guide d’utilisation de la mise en œuvre.
 * **Connexion de société :** collection de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation.

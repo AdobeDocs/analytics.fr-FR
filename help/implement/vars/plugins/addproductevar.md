@@ -4,8 +4,8 @@ description: Permet d’ajouter des eVars de marchandisage à la variable produc
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Le plug-in `addProductEvar` vous permet d’ajouter facilement une eVar de march
 >
 >Ce plug-in ne remplace pas les eVars qui existent déjà dans une entrée de produit. Il ajoute uniquement les valeurs que vous avez définies à l’aide de ce plug-in. Soyez prudent lorsque vous ajoutez des eVars qui existent déjà pour ce produit.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -37,7 +37,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialiser addProductEvar
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
