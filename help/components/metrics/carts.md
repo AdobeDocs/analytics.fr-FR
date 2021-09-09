@@ -2,17 +2,16 @@
 title: Paniers
 description: Le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit au panier.
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
 # Paniers
 
-La mesure « Retraits du panier » indique le nombre de fois qu’un visiteur a supprimé un article du panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients ne s’intéressent plus à un produit.
+La mesure &quot;Paniers&quot; indique le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit à un panier.
 
 ## Méthode de calcul de cette mesure
 
