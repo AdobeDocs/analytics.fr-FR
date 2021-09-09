@@ -6,10 +6,10 @@ title: Référence des colonnes de données
 feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
+source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3420'
+ht-degree: 98%
 
 ---
 
@@ -156,7 +156,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `page_event_var2` | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
 | `page_event_var3` | N’est plus utilisé. Contient les données des modules Survey et Media. Rapports vidéo hérités générés dans les versions précédentes d’Adobe Analytics. | text |
 | `page_type` | Utilisé pour renseigner la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). Utilisé exclusivement pour les pages 404. Cette variable doit être vide ou contenir la valeur `ErrorPage`. | char(20) |
-| `page_url` | URL de l’accès à la Dans sa variante post (post_page_url), la valeur est supprimée pour les demandes d’image de suivi de liens. | varchar(255) |
+| `page_url` | URL de l’accès à la Notez que `post_page_url` est supprimé pour les demandes d’image de suivi de liens et utilise un type de données varchar(255). | text |
 | `pagename` | Utilisé pour renseigner la dimension [Page](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
 | `paid_search` | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
 | `partner_plugins` | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(255) |
