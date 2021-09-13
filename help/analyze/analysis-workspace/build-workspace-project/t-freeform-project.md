@@ -2,11 +2,11 @@
 description: Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
 keywords: Analysis Workspace
 title: Création d’un projet Workspace
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # Création d’un projet Workspace
 
 Créez un projet et ajoutez des composants (dimensions, mesures, segments et plages de dates) au panneau à structure libre.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 Cet article présente les éléments d’Analysis Workspace et explique comment créer un projet.
 

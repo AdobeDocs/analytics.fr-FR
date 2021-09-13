@@ -4,9 +4,9 @@ description: Utilisation et interprétation du panneau d’attribution dans Anal
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '442'
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Panneau d’attribution
 
 Le panneau [!UICONTROL Attribution] vous permet de créer facilement une analyse comparant différents modèles d’attribution. Il s’agit d’une fonctionnalité d’[Attribution IQ](../attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Création d’un panneau d’attribution
 

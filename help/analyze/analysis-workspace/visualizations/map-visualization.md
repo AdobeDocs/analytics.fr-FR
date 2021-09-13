@@ -2,13 +2,13 @@
 description: Utilisation de la visualisation par cartes dans un projet Workspace.
 title: Carte
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Cliquez sur l’**icône d’engrenage** pour afficher ces paramètres de visual
 | Styles : Style de carte | Vous avez le choix entre De base, Rues, Lumineux, Clair, Foncé et Satellite. |
 | Rayon du groupe | Regroupe les points de données qui se trouvent dans le nombre spécifié de pixels. La valeur par défaut est 50. |
 | Valeur max. par défaut | Permet de modifier le seuil de la valeur maximale pour la carte. Le fait de modifier cette valeur ajuste l’échelle des valeurs de bulles/de la carte thermique (couleur et taille) en fonction de la valeur maximale personnalisée définie. |
+
+## Création d’une carte thermique des tranches horaires
+
+Voici une vidéo sur le sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
