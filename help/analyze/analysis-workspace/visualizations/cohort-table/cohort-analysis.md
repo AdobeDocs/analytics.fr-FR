@@ -1,13 +1,13 @@
 ---
 title: Quʼest-ce que lʼanalyse des cohortes et comment fonctionne-t-elle ?
 description: Analysez plus précisément les données sur votre audience et triez-les en groupes apparentés grâce à lʼanalyse des cohortes. En savoir plus sur l’analyse des cohortes dans Analysis Workspace.
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ Les capacités suivantes vous permettent d’exercer un contrôle précis sur le
 Un rapport de cohorte de [!UICONTROL rétention] sur les visiteurs récurrents : chaque cellule indique le nombre brut et le pourcentage de visiteurs dans la cohorte qui ont effectué l’action durant cette période. Vous pouvez inclure jusqu’à 3 mesures et 10 segments.
 
 ![](assets/retention-report.png)
+
+Voici une vidéo sur le calcul de la rétention glissante :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### Tableau de [!UICONTROL perte de clientèle]
 

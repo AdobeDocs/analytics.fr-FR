@@ -3,11 +3,10 @@ description: 'La segmentation de mesures individuelles permet d’effectuer des 
 title: Mesures segmentées
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '449'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +41,10 @@ Imaginons que vous souhaitez comparer différents aspects d’un segment « Vis
 1. Dans Analysis Workspace, faites glisser la dimension **[!UICONTROL Page]** dans un tableau à structure libre, puis faites glisser les 2 nouvelles mesures calculées l’une à côté de l’autre dans la partie supérieure :
 
    ![](assets/workspace-pages.png)
+
+Voici une présentation vidéo :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 ## Pourcentage de mesures totales {#percent-total}
 

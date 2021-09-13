@@ -5,10 +5,10 @@ title: Visualisations - Aperçu
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ Pour accéder à dʼautres fonctionnalités dʼun panneau, faites un clic droit 
 Si vous ne savez pas quelle visualisation choisir, cliquez sur lʼicône **[!UICONTROL Créer un visuel]** dans une ligne de tableau (disponible au survol de la souris). Il sʼagit de la méthode la plus rapide pour ajouter une visualisation. Analysis Workspace s’affiche alors et détermine quelle visualisation serait la mieux adaptée à vos données. Par exemple, si une ligne est sélectionnée, un graphique linéaire à tendance est créé. Si 3 lignes de segment sont sélectionnées, un diagramme de Venn est créé.
 
 ![](assets/quick-viz.png)
+
+## Modification de l’axe des dimensions sur les visualisations
+
+Voici une présentation vidéo :
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
