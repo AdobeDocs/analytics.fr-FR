@@ -3,13 +3,13 @@ description: Dans Analysis Workspace, vous pouvez créer des segments d’après
 keywords: abandons et segmentation ; segments dans l’analyse des abandons ; comparer les segments dans les abandons
 title: Application de segments dans l’analyse des abandons
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ Vous pouvez aussi créer un point de contact ET en faisant glisser le segment d
 ## Comparaison des segments dans la visualisation Abandons {#section_E0B761A69B1545908B52E05379277B56}
 
 Vous pouvez comparer un nombre illimité de segments dans la visualisation Abandons.
+
+Voici une vidéo sur la comparaison des segments dans les abandons :
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. Sélectionnez les segments que vous souhaitez comparer dans le rail [!UICONTROL Segments] de gauche. Dans notre exemple, nous avons sélectionné deux segments : Utilisateurs aux États-Unis et Utilisateurs hors des États-Unis.
 1. Faites-les glisser dans la zone de dépôt Segment en haut de l’écran.

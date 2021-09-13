@@ -2,13 +2,13 @@
 description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 keywords: Suite de rapports virtuelle
 title: Création des suites de rapports virtuelles
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 20bd38fc38fb14d724603b492bf093d313acbb7d
-workflow-type: ht
-source-wordcount: '663'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,10 @@ Dans l’onglet [!UICONTROL Paramètres], définissez les paramètres, puis cliq
 Dans l’onglet [!UICONTROL Définition de visite], définissez les paramètres, puis cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/visit-definition.png)
+
+Voici une vidéo sur la façon d’ajuster une définition de visite dans une suite de rapports virtuelle :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
 | Élément | Description |
 | --- |--- |
