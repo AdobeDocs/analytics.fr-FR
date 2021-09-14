@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 0%
    + [Événements personnalisés](metrics/custom-events.md)
    + [Entrées](metrics/entries.md)
    + [Sorties](metrics/exits.md)
+   + [Personnes identifiées](metrics/identified-people.md)
    + [Instances](metrics/instances.md)
    + [Affichages mobiles](metrics/mobile-views.md)
    + [Nouveaux engagements](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 0%
    + [Événements de page](metrics/page-events.md)
    + [Pages vues](metrics/page-views.md)
    + [Pages introuvables](metrics/pages-not-found.md)
+   + [Personnes avec identifiant Experience Cloud](metrics/people-with-exp-cloud-id.md)
    + [Personnes](metrics/people.md)
    + [Consultations de produit](metrics/product-views.md)
    + [Actualisations](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 0%
    + [Durée par visiteur](metrics/time-spent-per-visitor.md)
    + [Présentation de la durée de la visite](metrics/time-spent.md)
    + [Durée totale en secondes](metrics/total-seconds-spent.md)
+   + [Personnes non identifiées](metrics/unidentified-people.md)
    + [Appareils uniques](metrics/unique-devices.md)
    + [Visiteurs uniques](metrics/unique-visitors.md)
    + [Unités](metrics/units.md)

@@ -2,7 +2,7 @@
 title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 91%
@@ -52,6 +52,6 @@ Lorsque les analyses entre appareils sont activées sur une suite de rapports vi
 
 * Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
 * Une nouvelle dimension intitulée [État identifié](../dimensions/identified-state.md) est disponible.
-* De nouvelles mesures intitulées [Personnes](../metrics/people.md), [Appareils uniques](../metrics/unique-devices.md), Personnes identifiées, Personnes non identifiées et Personnes avec ID Experience Cloud sont disponibles.
+* De nouvelles mesures intitulées [Personnes](../metrics/people.md), [Appareils uniques](../metrics/unique-devices.md), [Personnes identifiées](../metrics/identified-people.md), [Personnes non identifiées](../metrics/unidentified-people.md) et [Personnes avec un ID Experience Cloud](../metrics/people-with-exp-cloud-id.md) sont disponibles.
 * La mesure [Visiteurs uniques](../metrics/unique-visitors.md) n’est pas disponible, car elle est remplacée par « Personnes » et « Appareils uniques ».
 * Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».
