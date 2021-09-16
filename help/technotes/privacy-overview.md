@@ -4,10 +4,10 @@ keywords: confidentialité
 title: Confidentialité - Présentation
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Analytics collecte les données suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Europe </td> 
-   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings?lang=fr"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings?lang=fr </a> </p> </td> 
+   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour plus d’informations sur les autres paramètres d’obscurcissement d’IP, voir </p> <p> <a href="/help/admin/admin/general-acct-settings-admin.md">Paramètres généraux du compte </a> dans le guide d’utilisation Administrateur.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Mondial </td> 

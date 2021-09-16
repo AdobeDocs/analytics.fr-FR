@@ -2,12 +2,12 @@
 description: Procédure d’exécution de différents types de rapports
 title: Exécution de différents types de rapports
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ Décrit comment afficher et interpréter les rapports en temps réel.
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Pour plus d’informations sur la configuration des rapports en temps réel, voir le [Guide de référence d’Analytics](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration).
+Voir [Présentation des rapports en temps réel](/help/components/c-real-time-reporting/realtime.md) pour plus d’informations.
 
 1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ Pour plus d’informations sur la configuration des rapports en temps réel, voi
    </tr> 
    </table>
 
-1. Cliquez sur un élément de liste dans le petit rapport principal pour lancer la vue **[!UICONTROL Détails]** pour cet élément de liste :  ![](assets/rtr_detail_report.png)
+2. Cliquez sur un élément de liste dans le petit rapport principal pour lancer la vue **[!UICONTROL Détails]** pour cet élément de liste :  ![](assets/rtr_detail_report.png)
 
    | **Mini-rapport Tendance des éléments** | Présente la ligne de tendance de l’élément qui a été sélectionné dans le rapport Aperçu pendant les N dernières minutes. Vous pouvez configurer N par l’intermédiaire du sélecteur de période. |
    |---|---|
