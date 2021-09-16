@@ -2,10 +2,10 @@
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,8 @@ ht-degree: 95%
 
 Les analyses entre appareils sont une fonctionnalité qui transforme les analyses, en passant d’une vue axée sur l’appareil à une vue axée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge deux workflows globaux pour lier les données des appareils :
 
-* [**Groupement basé sur les champs**](field-based-stitching.md) : permet de choisir une variable Analytics comme base pour le groupement entre appareils dans une suite de rapports virtuelle. Utilise une correspondance déterministe pour relier les appareils. Adobe recommande l’utilisation d’un groupement basé sur les champs pour la plupart des cas d’utilisation de correspondance déterministe.
+* [**Groupement basé sur les champs**](field-based-stitching.md) : Option de regroupement recommandée, car elle utilise uniquement une correspondance déterministe pour relier les appareils.
+Permet de choisir une variable Analytics comme base pour le groupement sur plusieurs appareils dans une suite de rapports virtuelle.
 * [**Graphique d’appareil**](device-graph.md) : les analyses entre appareils communiquent avec un graphique d’appareil pour regrouper les appareils. Le graphique Co-op utilise une correspondance déterministe et probabiliste.
 
 >[!NOTE]
@@ -56,3 +57,5 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les analyses entre appareils ne sont actuellement pas compatibles avec l’[API Data Repair](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) d’Adobe Analytics
 * Les données historiques de la suite de rapports virtuelle changent en fonction de la reconnaissance par Adobe des périphériques et de leur regroupement. Les données de la suite de rapports source ne changent pas.
 * Les données regroupées suivent une latence de 8 à 12 heures.
+* Les données d’historique de mappage pour un appareil donné sont stockées pendant un an au maximum.
+* Si un appareil atteint un nombre très élevé d’entrées d’historique de mappage au cours d’une année, l’historique de mappage est tronqué. La limite exacte dépend de l’option de groupement utilisée.

@@ -2,16 +2,16 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 92%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
 # Groupement basé sur les champs
 
-Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour regrouper les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils.
+Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour regrouper les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils. Adobe recommande cette option de regroupement pour plus de transparence et de prévisibilité dans le suivi des visiteurs.
 
 ## Conditions préalables spécifiques au groupement basé sur les champs
 
@@ -22,7 +22,7 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre mise en oeuvre doit définir une prop ou un eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez d’attribuer une valeur par défaut à la prop ou à l’eVar.
+* Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez d’attribuer une valeur par défaut à la prop ou à l’eVar.
 * Communiquez la variable d’identification de votre choix à votre gestionnaire de compte lors de l’attribution du groupement basé sur les champs.
 
 ## Limites spécifiques au groupement basé sur les champs
