@@ -1,13 +1,13 @@
 ---
 description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport.
 title: Valeur de faible trafic dans Adobe Analytics
-feature: Mesures
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionna
    * Si une valeur ne figure pas encore dans les rapports, elle apparaîtra sur l’élément de ligne [!UICONTROL Faible trafic]. Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle commence à être reconnue comme son propre élément de ligne Le nombre significatif de fois où un élément doit apparaître comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de daemons qui traitent les données pour cette suite de rapports spécifique.
 
 Pourquoi Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut être dû à la reconnaissance d’une nouvelle page ou d’un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des valeurs uniques) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
+
+>[!NOTE]
+>Le nombre de recherche de page n’inclut pas uniquement les valeurs du [!UICONTROL pagename]/[!UICONTROL page_url]. Le tableau de recherche de page comprend plusieurs colonnes/champs tels que [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] et le clic (l’ancien contexte) données de mappage).
 
 ## Modification des seuils de limite uniques
 
