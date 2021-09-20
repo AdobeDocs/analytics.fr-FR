@@ -2,10 +2,10 @@
 title: Suppression de robots dans Adobe Analytics
 description: Comment supprimer des robots dans Adobe Analytics ?
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 98%
 
 ---
 
@@ -49,11 +49,11 @@ Voici la manière de capturer cet ID via l’élément de données. Veillez à r
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
+Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
-Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=fr) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages d’entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
+Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages d’entrée inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
 
 ![](assets/bot-filter-seg1.png)
 

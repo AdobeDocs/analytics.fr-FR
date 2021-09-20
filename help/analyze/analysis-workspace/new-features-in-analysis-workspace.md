@@ -5,10 +5,10 @@ title: Nouveautés d’Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '8286'
+ht-degree: 99%
 
 ---
 
@@ -359,7 +359,7 @@ Nouvelles fonctionnalités et améliorations au 10 mai 2018.
    <td colname="col2"> <p>Nous proposons des conseils du jour (accompagnés d’une courte vidéo) dans le coin inférieur droit de l’interface. Leur but est de vous familiariser avec les nombreuses fonctionnalités très intéressantes d’Analysis Workspace. Vous pouvez ignorer ces Conseils ou y accéder en cliquant sur <span class="uicontrol"> Aide </span> &gt; <span class="uicontrol"> Conseils </span> à n’importe quel moment. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Modèles de segments </a> et <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modèles de mesures calculées </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Modèles de segments </a> et <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > modèles de mesures calculées </a></b> </p> </td> 
    <td colname="col2"> <p>Le rail gauche affiche maintenant des modèles de segments et de mesures calculées. </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ Nouvelles fonctionnalités au 26 octobre 2017.
    <td colname="col2"> <p>Vous pouvez désormais basculer facilement d’une granularité de temps à une autre lorsque la dimension de la source de données est une dimension temporelle. Les granularités peuvent être changées à partir d’une liste déroulante dans les paramètres de visualisation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Intégralité des dimensions et événements dans la zone de chute des segments </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Intégralité des dimensions et événements dans la zone de chute des segments </a> </p> </td> 
    <td colname="col2"> <p>Auparavant, vous pouviez uniquement déposer des éléments de dimension, des plages de dates ou des segments dans les zones de chute des segments. Désormais, vous pouvez déposer l’intégralité d’une dimension ou d’un événement dans ces zones. Dans les deux cas, Analysis Workspace créera des segments de chute « existe ». </p> <p>Exemples : « Déposer où eVar1 existe » ou « Déposer où event1 existe ». </p> <p>Remarque : Vous ne pouvez pas déposer de mesures calculées dans une zone de segments. Seules les dimensions/mesures pour lesquelles vous pouvez créer des segments peuvent être déposées dans une zone de segments. </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ Nouvelles fonctionnalités au 19 janvier 2017 :
    <td colname="col2"> <p>La visualisation des abandons au format CSV est maintenant prise en charge. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Périodes dans les segments </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Périodes dans les segments </a> </p> </td> 
    <td colname="col2"> <p>Déposez les plages de dates dans les zones de dépôt de segments (par exemple, les zones de dépôt de segments du panneau, les zones de dépôt des segments de visualisation d’abandons, etc.). Les plages de dates sont automatiquement transformées en segments. Les plages de dates peuvent être personnalisées ou non, mais cela ne s’applique pas aux granularités (par exemple, heure, jour, semaine, mois, trimestre, année). </p> </td> 
   </tr> 
   <tr> 
@@ -1058,7 +1058,7 @@ Nouvelles fonctionnalités au 16 juin 2016 :
 * Le graphique en courbes [Sélection de tendances](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) sur un tableau de classement est désormais lié.
 * [Icône Créer un visuel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) : lorsque vous cliquez sur cette icône, le programme devine votre prochaine action (graphique à barres, de Venn...).
 * Fonction [Lignes manuelles](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) étendue.
-* Zone de dépôt [Ajouter un segment](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+* Zone de dépôt [Ajouter un segment](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 * Mises à jour mineures :
 
    * Possibilité de supprimer toutes les visualisations dans un panneau et tous les panneaux dans un projet. (Auparavant, vous deviez conserver au moins une visualisation ou un panneau.)
