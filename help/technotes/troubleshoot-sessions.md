@@ -3,9 +3,9 @@ title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Pour déterminer si le réseau d’entreprise auquel vous êtes connecté engend
 
 ## Problèmes liés au proxy
 
-Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Adobe. Certains proxies, comme Edge Secure Web Gateway (anciennement Bluecoat), dépouillent les informations critiques d’en-tête d’autorisation utilisées par Adobe Analytics. La session expire si Adobe ne voit pas l’en-tête d’autorisation.
+Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Adobe. Certains proxys, tels que Edge Secure Web Gateway (anciennement Bluecoat), suppriment les informations dʼen-tête dʼautorisation importantes utilisées par Adobe Analytics. La session expire si Adobe ne voit pas l’en-tête d’autorisation.
 
 Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe informatique de votre entreprise afin d’autoriser l’en-tête d’autorisation via le proxy de votre entreprise.
 
@@ -34,4 +34,4 @@ Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe info
 Vous trouverez des informations sur les serveurs proxy et les en-têtes d’authentification à l’adresse suivante :
 
 * [Configurer l’authentification du proxy amont dans un déploiement de chaînes de proxy sur un appareil ProxySG ou ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
-* [Comment transférer les informations d’identification d’utilisateur à un serveur derrière l’appareil ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
+* [Comment transférer les informations dʼidentification utilisateur à un serveur situé derrière lʼappliance ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
