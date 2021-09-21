@@ -3,9 +3,9 @@ title: Modèle CDA Workspace
 description: Décrit chaque champ du modèle CDA dans Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe offre un modèle pour afficher les données de performances vitales entre 
 1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
 1. Cliquez sur [!UICONTROL Workspace] en haut de l’écran, puis sur [!UICONTROL Créer un projet].
-1. Recherchez le modèle &quot;Analyse entre appareils&quot;, puis cliquez sur [!UICONTROL Créer].
+1. Localisez le modèle « Analyses entre appareils », puis cliquez sur [!UICONTROL Créer].
 1. Si vous y êtes invité, remplacez la suite de rapports par une suite prenant en charge CDA (les Analyses entre appareils).
 
 Un projet Analysis Workspace est créé et contient plusieurs panneaux. Dans la partie supérieure, une table des matières et une introduction s’affichent, permettant de replacer le contexte du rapport et de naviguer jusqu’aux rapports individuels. Cliquez sur un lien dans la table des matières ou développez l’accordéon d’un panneau pour afficher ces rapports.
