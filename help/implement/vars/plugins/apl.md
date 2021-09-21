@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: Permet d’ajouter des valeurs aux variables qui prennent en charge plusieurs valeurs.
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '695'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## Utilisation du plug-in
 
-La fonction `apl` utilise les arguments suivants :
+La fonction `apl` utilise les arguments suivants :
 
 * **`lv`** (obligatoire, chaîne) : variable qui contient une liste délimitée d’éléments à laquelle ajouter une nouvelle valeur.
 * **`vta`** (obligatoire, chaîne) : liste délimitée par des virgules indiquant la ou les nouvelles valeurs à ajouter à la valeur de l’argument `lv`.
@@ -71,7 +71,7 @@ La fonction `apl` utilise les arguments suivants :
 * **`d2`** (facultatif, chaîne) : délimiteur de sortie. La valeur par défaut est la même que celle de `d1` lorsqu’elle n’est pas définie.
 * **`cc`** (facultatif, booléen) : indicateur précisant si une vérification sensible à la casse est utilisée. Si la valeur est définie sur `true`, la vérification de duplication est sensible à la casse. Si elle est définie sur `false` ou non définie, la vérification de duplication n’est pas sensible à la casse. La valeur par défaut est `false`.
 
-La fonction `apl` renvoie la valeur de l’argument `lv` plus toutes les valeurs non dupliquées de l’argument `vta`.
+La fonction `apl` renvoie la valeur de lʼargument `lv` plus toutes les valeurs non dupliquées de lʼargument `vta`.
 
 ## Exemples
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5 (18 février 2016)
 
-* Utilise désormais la fonction `inList` pour le traitement des comparaisons.
+* Utilisation de la fonction `inList` pour le traitement des comparaisons.
 
 ### 2.0 (26 janvier 2016)
 
