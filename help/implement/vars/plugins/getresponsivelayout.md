@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## Utilisation du plug-in
 
-La fonction `getResponsiveLayout` utilise les arguments suivants :
+La fonction `getResponsiveLayout` utilise les arguments suivants :
 
 * **`ppw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode portrait au mode paysage.
 * **`plw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode paysage au mode tablette.
-* **`tw`** (obligatoire, entier) : Largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau
+* **`tw`** (obligatoire, entier) : largeur maximale possible en pixels dʼune fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau.
 
-L’appel de cette fonction renvoie une chaîne contenant deux parties délimitées par deux points (`:`). La première partie de la chaîne contient l’une des valeurs suivantes, selon la largeur du navigateur et les arguments ci-dessus :
+Lʼappel de cette fonction renvoie une chaîne contenant deux parties délimitées par deux points (`:`). La première partie de la chaîne contient lʼune des valeurs suivantes, selon la largeur de la fenêtre du navigateur et les arguments ci-dessus :
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
