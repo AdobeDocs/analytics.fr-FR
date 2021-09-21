@@ -3,9 +3,9 @@ description: Explique la nouvelle stratégie de mise à jour continue des foncti
 title: Mises à jour des fonctionnalités Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient
 
 [!UICONTROL Analysis Workspace] utilise des indicateurs de fonctionnalité (également appelés « bascules ») pour contrôler la visibilité des nouvelles fonctionnalités, ce qui permet de les tester à échelle contrôlée avant la mise à jour complète. Cette stratégie de mise à jour comprend les phases suivantes :
 
-* **Mise en production** : le code est envoyé en production, mais la visibilité des fonctionnalités est désactivée dans Analysis Workspace. Cette fonctionnalité est parfois disponible dans l’API Analytics 2.0.
+* **Mise en production** : le code est envoyé en production, mais la visibilité des fonctionnalités est désactivée dans Analysis Workspace. Cette fonctionnalité est parfois disponible dans lʼAPI Analytics 2.0.
 
 * **Tests limités** : la mise à jour par étapes commence par un test réalisé par les utilisateurs Adobe internes. La visibilité de la mise à jour passe de 0 % à 100 % en quelques mois. Le déploiement par phases se produit au niveau de l’organisation Experience Cloud, de sorte que tous les utilisateurs autorisés d’une même organisation bénéficient de la même expérience.
 
@@ -40,4 +40,4 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 | Question | Réponse |
 | --- | --- |
 | Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](/help/analyze/labs.md) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez afficher les détails de votre package Analytics sous  [Niveaux d’accès aux fonctionnalités](/help/admin/company/feature-access-levels.md). |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [Niveaux dʼaccès aux fonctionnalités](/help/admin/company/feature-access-levels.md). |
