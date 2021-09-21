@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 73%
+workflow-type: ht
+source-wordcount: '133'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ La documentation des API Adobe Analytics se trouve sur [Adobe I/O](https://adobe
 | **Type d’API** | **Traitement complet** | **Temps réel** | **Livestream** | **Data Warehouse** |
 | --- | --- | --- | --- | --- |
 | **Description** | Données finalisées intégralement traitées disponibles dans toutes les interfaces d’Analytics. | Mesures limitées partiellement traitées disponibles quelques secondes après la collecte. | Données d’accès partiellement traitées disponibles quelques secondes après la collecte. | Données finalisées entièrement traitées utilisées pour l’extraction d’exportations volumineuses de données. |
-| [**Latence**](/help/technotes/latency.md) | 30-90 minutes | Secondes -10 minutes | Secondes -10 minutes | 90 minutes ou plus |
+| [**Latence**](/help/technotes/latency.md) | 30-90 minutes | Secondes -10 minutes | Secondes -10 minutes | + 90 minutes |
 | **Traitement** | Complet | Partiel | Partiel | Complet |
-| **Interfaces de création de rapports** | Analysis Workspace, Reports &amp; Analytics, Report Builder, API | Rapport en temps réel dans Reports &amp; Analytics, Report Builder, API 1.4 | API seulement | Data Warehouse, API |
+| **Interfaces de création de rapports** | Analysis Workspace, Reports &amp; Analytics, Report Builder, API | Rapport en temps réel dans Reports &amp; Analytics, Report Builder et lʼAPI 1.4 | API seulement | Data Warehouse, API |
 | **Granularité des données** | Récapitulatif | Récapitulatif | Au niveau des accès | Récapitulatif |
 | **Traitement du profil du visiteur** | Oui | Non | Non | Oui |
 | **Prise en charge des segments** | Oui | Non | Non | Partiel |
