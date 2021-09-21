@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '478'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## Utilisation du plug-in
 
-La fonction `getPageLoadTime` n’utilise aucun argument. Lors de l’appel de cette fonction, elle ne renvoie rien. Elle définit plutôt les variables suivantes :
+La fonction `getPageLoadTime` nʼutilise aucun argument. Lorsque vous appelez cette fonction, elle ne renvoie rien. Elle définit plutôt les variables suivantes :
 
 * `s._pltPreviousPage` : page précédente qui vous permet d’établir une corrélation entre le temps de chargement et la page précédente.
 * `s._pltLoadTime` : temps (en secondes) nécessaire au chargement de la page précédente.
