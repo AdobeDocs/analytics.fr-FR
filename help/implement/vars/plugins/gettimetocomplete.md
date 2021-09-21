@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: Permet de mesurer le temps nécessaire à l’accomplissement d’une tâche.
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## Utilisation du plug-in
 
-La fonction `getTimeToComplete` utilise les arguments suivants :
+La fonction `getTimeToComplete` utilise les arguments suivants :
 
 * **`sos`** (facultatif, chaîne) : définissez sur `"start"` le moment où vous souhaitez démarrer le minuteur. Définissez sur `"stop"` le moment où vous souhaitez arrêter le minuteur. La valeur par défaut est `"start"`.
 * **`cn`** (facultatif, chaîne) : nom du cookie permettant de mémoriser l’heure de début. La valeur par défaut est `"s_gttc"`.
 * **`exp`** (facultatif, entier) : nombre de jours d’expiration du cookie (et du minuteur). La valeur par défaut est `0`, ce qui représente la fin de la session de navigateur.
 
-L’appel de cette fonction renvoie une chaîne qui contient le nombre de jours, heures, minutes et/ou secondes écoulés entre l’action `"start"` et `"stop"`.
+Lʼappel de cette fonction renvoie une chaîne qui contient le nombre de jours, dʼheures, de minutes et/ou de secondes écoulés entre les actions `"start"` et `"stop"`.
 
 ## Exemples
 
