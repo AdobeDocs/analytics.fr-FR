@@ -3,9 +3,9 @@ title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -57,17 +57,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## Utilisation du plug-in
 
-La fonction `addProductEvent` utilise les arguments suivants :
+La fonction `addProductEvent` utilise les arguments suivants :
 
 * **`en`** (obligatoire, chaîne) : événement à ajouter à la dernière entrée de la variable `products`. Si la variable `products` est vide, alors une entrée de produit « vide » est créée avec l’événement associé (ainsi que sa valeur).
-* **`ev`** (obligatoire, chaîne) : valeur attribuée à l’événement numérique ou monétaire dans l’argument `en`.  La valeur par défaut est `1` lorsqu’elle n’est pas définie. Les nombres non encadrés dans des guillemets de chaîne sont également valides.
+* **`ev`** (obligatoire, chaîne) : valeur attribuée à l’événement numérique ou monétaire dans l’argument `en`.  La valeur par défaut est `1` lorsqu’elle n’est pas définie. Les nombres non encadrés par des guillemets sont également valables.
 * **`ap`** (facultatif, booléen) : si la variable products contient actuellement plusieurs entrées de produit, une valeur de `true` (ou `1`) ajoute l’événement à toutes les entrées de produit.  La valeur par défaut est `false` lorsqu’elle n’est pas définie.
 
 Le plug-in `addProductEvent` ne renvoie rien. Il ajoute plutôt l’événement et sa valeur à la variable `products`. De même, le plug-in ajoute automatiquement l’événement à la variable [`events`](../page-vars/events/events-overview.md), puisqu’il y est également obligatoire.
 
 ## Cookies
 
-La fonction `addProductEvent` ne crée ni n’utilise de cookies.
+La fonction `addProductEvent` ne crée ni nʼutilise de cookies.
 
 ## Exemples
 
