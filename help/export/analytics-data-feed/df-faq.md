@@ -4,9 +4,9 @@ keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sen
 title: FAQ sur les flux de données
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrond
 
 Adobe recommande de ne pas ouvrir automatiquement les fichiers `hit_data.tsv` dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer les données dʼExcel et assurez-vous que tous les champs sont traités comme du texte.
 
-## Les colonnes comme `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties être uniques à l’accès ou à la visite ?
+## Les colonnes telles que `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties comme étant uniques à lʼaccès ou à la visite ?
 
-Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un accès. Le même concept s’applique à la concaténation de `visid_high` et `visid_low` pour les visites. Cependant, les anomalies de traitement peuvent rarement provoquer le partage d’un même identifiant d’accès par deux accès. Adobe recommande de ne pas créer de flux de données qui dépendent de manière inflexible de chaque accès unique.
+Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un accès. Le même concept sʼapplique à la concaténation de `visid_high` et `visid_low` pour les visites. Cependant, les anomalies de traitement peuvent rarement faire en sorte que deux accès partagent le même identifiant dʼaccès. Adobe recommande de ne pas créer de workflows de flux de données qui supposent de manière inflexible que chaque accès soit unique.
 
 ## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#section_B7508D65370442C7A314EAED711A2C75}
 
