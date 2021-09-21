@@ -3,9 +3,9 @@ title: getGeoCoordinates
 description: Permet d’assurer le suivi de la géolocalisation d’un visiteur.
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## Utilisation du plug-in
 
-La fonction `getGeoCoordinates` n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
+La fonction `getGeoCoordinates` nʼutilise aucun argument. Elle renvoie l’une des valeurs suivantes :
 
 * `"geo coordinates not available"` : pour les appareils qui ne disposent pas de données de géolocalisation au moment de l’exécution du plug-in. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les visiteurs doivent d’abord donner leur consentement pour le suivi de leur emplacement.
 * `"error retrieving geo coordinates"` : lorsque le plug-in rencontre des erreurs lors de la tentative de récupération de l’emplacement de l’appareil.
