@@ -3,9 +3,9 @@ title: getVisitNum
 description: Permet d’assurer le suivi du nombre de visites actuelles d’un visiteur.
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '684'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## Utilisation du plug-in
 
-La fonction `getVisitNum` utilise les arguments suivants :
+La fonction `getVisitNum` utilise les arguments suivants :
 
 * **`rp`** (facultatif, entier OU chaîne) : nombre de jours avant la réinitialisation du compteur de visites.  La valeur par défaut est `365` lorsqu’elle n’est pas définie.
    * Lorsque cet argument est défini sur `"w"`, le compteur se réinitialise à la fin de la semaine (ce samedi à 23 h 59).
@@ -65,7 +65,7 @@ La fonction `getVisitNum` utilise les arguments suivants :
    * Lorsque cet argument est défini sur `"y"`, le compteur se réinitialise à la fin de l’année (le 31 décembre).
 * **`erp`** (facultatif, booléen) : lorsque l’argument `rp` est un nombre, cet argument détermine si le délai d’expiration du nombre de visites doit être prolongé. S’il est défini sur `true`, les accès ultérieurs à votre site réinitialisent le compteur de visites. S’il est défini sur `false`, les accès ultérieurs à votre site ne se prolongent pas lorsque le compteur de visites est réinitialisé. La valeur par défaut est `true`. Cet argument n’est pas valide lorsque l’argument `rp` est une chaîne.
 
-Le nombre de visites augmente chaque fois que le visiteur revient sur votre site après 30 minutes d’inactivité. L’appel de cette fonction renvoie un entier représentant le nombre de visites actuel du visiteur.
+Le nombre de visites augmente chaque fois que le visiteur revient sur votre site après 30 minutes d’inactivité. Lʼappel de cette fonction renvoie un nombre entier représentant le nombre de visites actuel du visiteur.
 
 Ce plug-in définit un cookie propriétaire appelé `"s_vnc[LENGTH]"` où `[LENGTH]` est la valeur transmise à l’argument `rp`. Par exemple, `"s_vncw"`, `"s_vncm"`, ou `"s_vnc365"`. La valeur du cookie est une combinaison d’un horodatage Unix qui représente le moment où le compteur de visites se réinitialise, par exemple à la fin de la semaine, à la fin du mois ou après 365 jours d’inactivité. Il contient également le nombre de visites actuel. Ce plug-in définit un autre cookie nommé `"s_ivc"` qui est défini sur `true` et expire après 30 minutes d’inactivité.
 
