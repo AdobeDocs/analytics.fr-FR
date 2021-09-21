@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: Permet de mesurer le temps qui s’écoule entre deux événements.
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '800'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## Utilisation du plug-in
 
-La fonction `getTimeBetweenEvents` utilise les arguments suivants :
+La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 
 * **`ste`** (obligatoire, chaîne) : événements de démarrage du minuteur. Chaîne d’événements Analytics délimitée par des virgules permettant de « démarrer le minuteur ».
 * **`rt`** (obligatoire, booléen) : option de redémarrage du minuteur. Définissez cet argument sur `true` si vous souhaitez redémarrer le minuteur chaque fois que la variable `events` contient un événement de démarrage du minuteur. Définissez-le sur `false` si vous ne souhaitez pas que le minuteur redémarre lorsqu’il détecte un événement de démarrage du minuteur.
@@ -81,7 +81,7 @@ La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi selon le format de l’argument `fmt`. Par exemple, si l’argument `fmt` est sur `"s"` et que cet argument est défini sur `2`, la valeur renvoyée est arrondie à la référence de deux secondes la plus proche. Si l’argument `fmt` est sur `"m"` et que cet argument est défini sur `0.5`, la valeur renvoyée est arrondie à la référence d’une demi-minute la plus proche.
 * **`rte`** (facultatif, chaîne) : chaîne d’événements Analytics délimitée par des virgules qui supprime ou annule le minuteur. La valeur par défaut est nulle.
 
-L’appel de cette fonction renvoie un entier représentant le temps écoulé entre l’événement de démarrage du minuteur et l’événement d’arrêt du minuteur au format souhaité.
+Lʼappel de cette fonction renvoie un entier représentant le temps écoulé entre lʼévénement de démarrage du minuteur et lʼévénement dʼarrêt du minuteur au format souhaité.
 
 ## Exemples d’appels
 
