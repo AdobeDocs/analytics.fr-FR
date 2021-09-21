@@ -3,9 +3,9 @@ title: getPageName
 description: Permet de créer un pageName facile à lire à partir du chemin d’accès au site web actuel.
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## Utilisation du plug-in
 
-La fonction `getPageName` utilise les arguments suivants :
+La fonction `getPageName` utilise les arguments suivants :
 
 * **`si`** (facultatif, chaîne) : identifiant inséré au début de la chaîne représentant l’identifiant du site. Cette valeur peut être un identifiant numérique ou un nom convivial. Lorsqu’elle n’est pas définie, elle prend par défaut le domaine actuel.
 * **`qv`** (facultatif, chaîne) : liste, délimitée par des virgules, de paramètres de chaîne de requête qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne.
 * **`hv`** (facultatif, chaîne) : liste, délimitée par des virgules, de paramètres trouvés dans le hachage de l’URL qui, s’ils figurent dans l’URL, sont ajoutés à la chaîne.
 * **`de`** (facultatif, chaîne) : délimiteur permettant de séparer les différentes parties de la chaîne. Par défaut, il s’agit d’une barre verticale (`|`).
 
-La fonction renvoie une chaîne contenant une version formatée de l’URL. Cette chaîne est généralement attribuée à la variable `pageName`, mais peut également être utilisée dans d’autres variables.
+La fonction renvoie une chaîne contenant une version conviviale de lʼURL. Cette chaîne est généralement attribuée à la variable `pageName`, mais peut également être utilisée dans d’autres variables.
 
 ## Exemples
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## Mise à niveau par rapport aux versions précédentes
 
-La version 4.0+ du plug-in `getPageName` ne dépend pas de l’existence de l’objet AppMeasurement d’Adobe Analytics (c’est-à-dire l’objet `s`). Si vous effectuez une mise à niveau vers cette version, modifiez le code qui appelle le plug-in en supprimant toutes les instances de l’objet `s` de l’appel . Par exemple, remplacez `s.getPageName();` par `getPageName();`.
+La version 4.0+ du plug-in `getPageName` ne dépend pas de lʼexistence de lʼobjet AppMeasurement dʼAdobe Analytics (soit lʼobjet `s`). Si vous effectuez la mise à niveau vers cette version, modifiez le code qui appelle le plug-in en supprimant toutes les instances de lʼobjet `s` de lʼappel. Par exemple, remplacez `s.getPageName();` par `getPageName();`.
 
 ## Historique des versions
 
