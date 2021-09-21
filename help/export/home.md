@@ -3,7 +3,7 @@ title: Guide d’exportation Analytics
 description: Ce guide décrit les méthodes d’extraction des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
 ht-degree: 100%
 
