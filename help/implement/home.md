@@ -3,9 +3,9 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ Le code JavaScript envoie une demande d’image aux serveurs de collecte de donn
 
 Adobe Analytics exige du code sur votre site web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes de mise en œuvre de ce code, selon la plateforme et les besoins de votre entreprise.
 
-* **Balises Adobe Experience Platform** : Méthode normalisée et recommandée pour implémenter Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface utilisateur de collecte de données pour déterminer comment chaque variable est définie.
-* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Présente les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations d’ à l’aide de règles avec du code personnalisé.
+* **Balises Adobe Experience Platform** : méthode normalisée et recommandée d’implémentation d’Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface utilisateur de la collecte de données pour déterminer la définition de chaque variable.
+* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de balises à l’aide de règles avec du code personnalisé.
 * **SDK mobile :** bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 
 ## Principaux articles sur l’importation Analytics
@@ -48,4 +48,4 @@ Adobe Analytics exige du code sur votre site web, votre application mobile ou to
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
 * [Forum de la communauté Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
-* [Experience League](https://landing.adobe.com/experience-league/)
+* [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
