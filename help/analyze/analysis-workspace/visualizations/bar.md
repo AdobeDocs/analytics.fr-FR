@@ -2,13 +2,13 @@
 description: Utilisation de la visualisation à barres dans un projet Workspace.
 title: Barres et barres empilées
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ Un nouveau paramètre d’affichage appliqué aux graphiques à barres empilées
 
 ![](assets/stacked_100_percent.png)
 
-Voici une vidéo sur &quot;Visualisations 100 % empilées&quot; :
+Regardez cette vidéo sur les « Visualisations 100 % empilées » :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
