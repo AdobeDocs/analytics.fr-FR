@@ -4,9 +4,9 @@ title: Suites de rapports virtuelles - Aperçu
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '790'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment.
 
-De nombreux clients disposent de données qui circulent dans une suite de rapports globale, mais également de données qui circulent dans des suites de rapports plus petites. Ils définissent une variable sur plusieurs suites de rapports et envoient leurs données à plusieurs suites de rapports. On parle alors de *balisage multisuite* ou de *suites de rapports de base/parentes*.
+De nombreux clients disposent de données qui circulent dans une suite de rapports globale, mais également de données qui circulent dans des suites de rapports plus petites. Ils définissent une variable sur plusieurs suites de rapports et envoient leurs données à plusieurs suites de rapports. Ceci est appelé *balisage multisuite* ou *suites de rapports de base/parentes*.
 
 Par exemple, toutes les données peuvent être collectées dans une suite de rapports, mais, ensuite, vous pouvez configurer des suites de rapports secondaires de sorte que le personnel de l’entreprise ait accès à une partie des données, mais pas à toutes. Les données peuvent être divisées par région. Vous pouvez avoir différents sites web pour différents pays. Autres exemples : des marques spécifiques appartenant à une plus grande entreprise, mais ayant chacune leurs propres équipes de marketing.
 
