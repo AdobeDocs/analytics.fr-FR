@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Répond aux questions fréquemment posées sur les fonctionnalités de segmentat
 * Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * Le conteneur Page vue a été renommé en conteneur Accès pour indiquer qu’il segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès. Notez qu’aucune modification n’a été apportée au fonctionnement de ce conteneur, il a simplement été renommé.
 
-Pour plus d’informations, consultez la publication [Amélioration de la segmentation dans Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) sur le blog Adobe.
+Voir lʼarticle [Amélioration de la segmentation dans Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html) sur le blog dʼAdobe pour en savoir plus.
 
 ## Accès aux outils de segmentation {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,7 +39,7 @@ Pour plus d’informations, consultez la publication [Amélioration de la segmen
 
 Accédez au Créateur de segments en procédant comme suit :
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![Icône Segment](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
+* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
 
 * Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](assets/add_button.png)
 
@@ -53,7 +53,7 @@ Accédez au Gestionnaire de segments en procédant comme suit :
 
 * sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
 
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![Icône Segment](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
+* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
 
 * appuyez sur la barre oblique « / » n’importe où dans l’interface et recherchez le Gestionnaire de segments.
 
