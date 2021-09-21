@@ -3,9 +3,9 @@ title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## Utilisation du plug-in
 
-La fonction `getTimeParting` utilise l’argument suivant :
+La fonction `getTimeParting` utilise lʼargument suivant :
 
 **`t`** (facultatif mais recommandé, chaîne) : nom du fuseau horaire auquel convertir l’heure locale du visiteur.  Par défaut, il s’agit de l’heure UTC/GMT. Consultez la [liste des fuseaux horaires de la tz database](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) sur Wikipédia pour obtenir une liste complète des valeurs valides.
 
@@ -74,7 +74,7 @@ Les valeurs valides courantes sont les suivantes :
 * `"America/Denver"` pour l’heure des Rocheuses
 * `"America/Los_Angeles"` pour l’heure du Pacifique
 
-L’appel de cette fonction renvoie une chaîne contenant les éléments suivants délimités par une barre verticale (`|`) :
+Lʼappel de cette fonction renvoie une chaîne contenant les éléments suivants délimités par une barre verticale (`|`) :
 
 * L’année en cours
 * Le mois en cours
