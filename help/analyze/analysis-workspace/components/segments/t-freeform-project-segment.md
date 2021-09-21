@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 57%
 
 ---
 
@@ -56,4 +56,9 @@ Plusieurs autres méthodes permettent d’appliquer des segments à un projet d�
 | Partager > Partager le projet ou Partager > Traiter les données du projet | Dans l’outil [Traiter et partager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr#concept_4A9726927E7C44AFA260E2BB2721AFC6), découvrez comment les segments que vous appliquez au projet sont disponibles dans l’analyse partagée avec le destinataire. |
 | Utilisation de segments comme des dimensions | Vidéo : [Utilisation de segments comme dimensions dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=fr) |
 
+## Segment IQ
 
+Segment IQ propose les fonctionnalités suivantes :
+
+* [Panneau de comparaison des segments :](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) fonctionnalité principale de Segment IQ. Faites glisser deux segments dans le panneau et affichez un rapport complet qui montre les différences les plus importantes sur le plan statistique et le chevauchement entre les deux audiences.
+* [Comparaison des segments dans la visualisation Abandons :](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) découvrez comment différentes audiences se comparent les unes aux autres dans le contexte d’une visualisation Abandons.
