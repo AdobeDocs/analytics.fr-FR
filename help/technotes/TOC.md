@@ -5,9 +5,9 @@ user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant d’analyse spécifique.
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 99%
    + [Options pour atténuer l’effet des restrictions des cookies de navigateur](cookies/cookieless.md)
 + [Rétention des données](data-retention.md)
 + [Exclure des données](exclude-data.md)
-+ [Versions des fonctionnalités](releases.md)
++ [Versions des fonctions](releases.md)
 + [Adresses IP et domaines utilisés par Adobe Analytics](ip-addresses.md)
 + [Latence](latency.md)
 + [Valeur de faible trafic](low-traffic.md)
