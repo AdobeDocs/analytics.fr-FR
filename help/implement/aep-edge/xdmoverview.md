@@ -3,15 +3,15 @@ title: Utilisation des données XDM avec Analytics
 description: Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: 3def20b348713b580429e342ad3319963cae6549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Utilisation des données Adobe Experience Platform Edge avec Analytics
 
-Vous pouvez utiliser le [SDK Web Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html) pour envoyer des données à Adobe Analytics. Cela fonctionne en traduisant le [modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) dans un format utilisé par Analytics.
+Vous pouvez utiliser le [SDK Web Adobe Experience Platform (AEP)](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=fr) pour envoyer des données à Adobe Analytics. Cela fonctionne en traduisant le [modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) dans un format utilisé par Analytics.
 
 Analytics collecte les données XDM de deux manières :
 
@@ -20,7 +20,7 @@ Analytics collecte les données XDM de deux manières :
 
 ## Mise en correspondance automatique
 
-La mise en correspondance automatique repose sur un [schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables Analytics automatiquement mises en correspondance depuis XDM vers vos suites de rapports configurées ne nécessitent aucun support développeur pour être incorporées. Voir [Variables mappées automatiquement dans Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) dans le guide d’utilisation du SDK Web Platform.
+La mise en correspondance automatique repose sur un [schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=fr) par défaut dans XDM qui renseigne automatiquement les objets JSON inclus dans la collecte de données Analytics standard. Les variables Analytics automatiquement mises en correspondance depuis XDM vers vos suites de rapports configurées ne nécessitent aucun support développeur pour être incorporées. Voir [Variables automatiquement mappées dans Analytics](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html?lang=fr) dans le guide de lʼutilisateur du SDK Web Platform.
 
 ## Mise en correspondance manuelle
 
