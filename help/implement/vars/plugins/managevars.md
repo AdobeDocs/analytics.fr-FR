@@ -3,9 +3,9 @@ title: manageVars
 description: Permet de modifier les valeurs de plusieurs variables Analytics à la fois.
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '703'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## Utilisation du plug-in
 
-La fonction `manageVars` utilise les arguments suivants :
+La fonction `manageVars` utilise les arguments suivants :
 
 * **`cb`** (obligatoire, chaîne) : nom d’une fonction de rappel utilisée par le plug-in pour manipuler les variables Analytics. Vous pouvez utiliser une fonction Adobe comme `cleanStr` ou votre propre fonction personnalisée.
 * **`l`** (facultatif, chaîne) : liste, délimitée par des virgules, de variables Analytics que vous souhaitez manipuler. La valeur par défaut est TOUTES les variables Adobe Analytics lorsqu’elle n’est pas définie, ce qui inclut :
@@ -79,7 +79,7 @@ La fonction `manageVars` utilise les arguments suivants :
    * Toutes les variables de données contextuelles
 * **`Il`** (facultatif, booléen) : définissez cet argument sur `false` si vous souhaitez *exclure* la liste des variables déclarées dans l’argument `l` au lieu de l’inclure. La valeur par défaut est `true`.
 
-L’appel de cette fonction ne renvoie rien. En revanche, il modifie les valeurs des variables Analytics selon la fonction de rappel souhaitée.
+Lʼappel de cette fonction ne renvoie rien. En revanche, il modifie les valeurs des variables Analytics selon la fonction de rappel souhaitée.
 
 ## Exemples d’appels
 
