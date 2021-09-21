@@ -2,13 +2,13 @@
 description: Cette visualisation Workspace est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne.
 title: Surface et aires empilées
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées 
 
 ![](assets/areastacked100.png)
 
-Voici une vidéo sur &quot;Visualisations 100 % empilées&quot; :
+Regardez cette vidéo sur les « Visualisations 100 % empilées » :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
