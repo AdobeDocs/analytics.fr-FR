@@ -3,9 +3,9 @@ title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 76%
 
 Le plug-in `getQueryParam` vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, provenant des URL de page d’entrée. Il convient également pour l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
 
-Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide de balises dans Adobe Experience Platform ou de la méthode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluse dans AppMeasurement.
+Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe vous recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide de balises dans Adobe Experience Platform ou la méthode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluse dans AppMeasurement.
 
-## Installation du module externe à l’aide de balises dans Adobe Experience Platform
+## Installation du plug-in à l’aide de balises dans Adobe Experience Platform
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
 
@@ -35,7 +35,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
    * Type d’action : initialisation de getQueryParam
 1. Enregistrez et publiez les modifications apportées à la règle.
 
-## Installation du plug-in à l’aide de l’éditeur de code personnalisé de 
+## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
@@ -55,18 +55,18 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## Utilisation du plug-in
 
-La fonction `getQueryParam` utilise les arguments suivants :
+La fonction `getQueryParam` utilise les arguments suivants :
 
 * **`qsp`** (obligatoire) : liste, délimitée par des virgules, de paramètres de chaîne de requête à rechercher dans l’URL. Elle n’est pas sensible à la casse.
 * **`de`** (facultatif) : délimiteur à utiliser si plusieurs paramètres de chaîne de requête correspondent. Valeur par défaut définie sur une chaîne vide.
 * **`url`** (facultatif) : URL, chaîne ou variable personnalisée à partir de laquelle extraire les valeurs des paramètres de chaîne de requête. La valeur par défaut est `window.location`.
 
-L’appel de cette fonction renvoie une valeur en fonction des arguments ci-dessus et de l’URL :
+Lʼappel de cette fonction renvoie une valeur en fonction des arguments ci-dessus et de lʼURL :
 
-* Si aucun paramètre de chaîne de requête correspondant n’est trouvé, la fonction renvoie une chaîne vide.
-* Si un paramètre de chaîne de requête correspondant est trouvé, la fonction renvoie la valeur du paramètre de chaîne de requête.
+* Si aucun paramètre de chaîne de requête correspondant nʼest trouvé, la fonction renvoie une chaîne vide.
+* Si un paramètre de chaîne de requête correspondant est trouvé, la fonction renvoie la valeur de ce paramètre.
 * Si un paramètre de chaîne de requête correspondant est trouvé mais que la valeur est vide, la fonction renvoie `true`.
-* Si plusieurs paramètres de chaîne de requête correspondants sont trouvés, la fonction renvoie une chaîne dont chaque valeur de paramètre est délimitée par la chaîne dans l’argument `de`.
+* Si plusieurs paramètres de chaîne de requête correspondants sont trouvés, la fonction renvoie une chaîne dont chaque valeur de paramètre est délimitée par la chaîne dans lʼargument `de`.
 
 ## Exemples
 
