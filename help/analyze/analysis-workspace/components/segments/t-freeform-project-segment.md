@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 75%
+source-wordcount: '496'
+ht-degree: 79%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 75%
 
 Vous pouvez créer différents types de segments, selon leur complexité, s’ils doivent s’appliquer uniquement à ce projet, etc. Voici un résumé des types de segments :
 
-| Type de segment | Où a été créé ? | Applicable où ? | Plusieurs conteneurs ? | Couleur de l’interface utilisateur |
-| --- | --- | --- | --- |
-| Segment de liste de composants | [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) | Pour tous les projets, depuis le rail de gauche | Oui | Bleu |
-| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Niveau de projet uniquement | Non | Gris? |
-| Segments ad hoc : | Voir ci-dessous | Niveau de projet uniquement | Non | ? |
-| - Segment de projet Ad Hoc Workspace | Effectuez un glisser-déposer dans le segment ? dans un nouveau projet |  |  |  |
-| - Segment basé sur les mesures calculées | Créateur de mesures calculées |  |  |  |
-| - Segment basé sur des suites de rapports virtuelles | Créateur de suites de rapports virtuelles |  |  |  |
-| - Créateur de segments &quot;apply&quot; | Créateur de segments |  |  |  |
+| Type de segment | Création de l’emplacement ? | Applicable où ? | Plusieurs conteneurs ? |
+| --- | --- | --- | 
+| Segment de liste de composants | [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) | Tous les projets, dans le rail de gauche | Oui | Bleu |
+| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Niveau de projet uniquement | Non |
+| Segments ad hoc : | Voir ci-dessous | Niveau de projet uniquement | Non |
+| - Segment de projet Ad Hoc Workspace | Effectuez un glisser-déposer dans le segment ? dans un nouveau projet |  |  |
+| - Segment basé sur les mesures calculées | Créateur de mesures calculées |  |  |
+| - Segment basé sur des suites de rapports virtuelles | Créateur de suites de rapports virtuelles |  |  |
+| - Créateur de segments &quot;apply&quot; | Créateur de segments |  |  |
 
 Pour une discussion approfondie sur la segmentation dans Adobe Analytics, rendez-vous [ici](/help/components/segmentation/seg-overview.md).
 
@@ -38,7 +38,7 @@ Le rail des segments sous le menu Composants affiche les segments, ainsi que les
 
 ## Segments ad hoc (temporaires) dans Analysis Workspace
 
-Voici une vidéo sur les segments ad hoc :
+Regardez cette vidéo sur les segments ad hoc :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
