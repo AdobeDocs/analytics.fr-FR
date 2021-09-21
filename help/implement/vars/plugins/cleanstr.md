@@ -3,9 +3,9 @@ title: cleanStr
 description: Permet de supprimer ou de remplacer tous les caractères superflus d’une chaîne.
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## Utilisation du plug-in
 
-La fonction `cleanStr` utilise les arguments suivants :
+La fonction `cleanStr` utilise les arguments suivants :
 
 * **`str`** (obligatoire, chaîne) : valeur souhaitée pour supprimer le codage HTML, les espaces supplémentaires, les tabulations ou autres caractères superflus.
 
-La fonction renvoie la valeur de l’argument `str` avec tous les caractères superflus supprimés.
+La fonction renvoie la valeur de lʼargument `str` avec tous les caractères superflus supprimés.
 
 ## Exemples
 
