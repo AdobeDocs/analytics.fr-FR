@@ -3,9 +3,9 @@ title: getNewRepeat
 description: Permet de suivre l’activité des nouveaux visiteurs par rapport aux visiteurs réguliers.
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '552'
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## Utilisation du plug-in
 
-La fonction `getNewRepeat` utilise les arguments suivants :
+La fonction `getNewRepeat` utilise les arguments suivants :
 
 * **`d`** (entier, facultatif) : nombre minimum de jours requis entre les visites qui réinitialise le statut des visiteurs à `"New"`. Si cet argument n’est pas défini, la période par défaut est de 30 jours.
 
-Cette fonction renvoie la valeur de `"New"` si le cookie défini par le plug-in n’existe pas ou a expiré. Elle renvoie la valeur de `"Repeat"` si le cookie défini par le plug-in existe et si le temps écoulé depuis l’accès actif et celui défini dans le cookie sont supérieurs à 30 minutes. Cette fonction renvoie la même valeur pour une visite entière.
+Cette fonction renvoie la valeur de `"New"` si le cookie défini par le plug-in nʼexiste pas ou a expiré. Elle renvoie la valeur de `"Repeat"` si le cookie défini par le plug-in existe et si le temps écoulé depuis l’accès actif et celui défini dans le cookie sont supérieurs à 30 minutes. Cette fonction renvoie la même valeur pour une visite complète.
 
 Ce plug-in utilise un cookie nommé `"s_nr[LENGTH]"` où `[LENGTH]` est égal à l’argument `d`. Le cookie contient un horodatage Unix représentant l’heure actuelle et le statut actuel du visiteur (`"New"` ou `"Repeat"`).
 
