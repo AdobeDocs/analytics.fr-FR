@@ -2,23 +2,23 @@
 description: Utilisation de la visualisation en ligne pour représenter les jeux de données des tendances (temporels).
 title: Ligne
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
 # Ligne
 
-La visualisation [!UICONTROL Ligne] représente les mesures à l’aide d’une ligne afin d’indiquer de quelle façon changent les valeurs sur une période donnée. Un [!UICONTROL graphique en courbes] ne peut être utilisé que lorsque le temps est utilisé comme dimension.
+Dans la visualisation de [!UICONTROL ligne], les mesures sont représentées sous la forme dʼune ligne afin dʼindiquer lʼévolution des valeurs dans le temps. Pour pouvoir utiliser un graphique en [!UICONTROL courbes], le temps doit être défini comme une dimension.
 
 ![Visualisation en ligne](assets/line-viz.png)
 
-Cliquez sur l’icône d’engrenage en haut à droite de la visualisation [!UICONTROL Ligne] pour accéder aux [**paramètres de visualisation**](freeform-analysis-visualizations.md) disponibles. Les paramètres sont classés comme suit :
+Cliquez sur lʼicône en forme dʼengrenage en haut à droite de la visualisation de [!UICONTROL ligne] pour accéder aux [**paramètres de visualisation**](freeform-analysis-visualizations.md) disponibles. Les paramètres sont classés comme suit :
 
 * **Général** : paramètres communs à tous les types de visualisation
 * **Axes** : paramètres qui affectent l’axe x ou y de la visualisation en ligne
@@ -40,7 +40,7 @@ Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositio
 
 Sous **[!UICONTROL Paramètres de visualisation]** > **[!UICONTROL Superpositions]** > **[!UICONTROL Afficher la courbe de tendance]**, vous pouvez choisir dʼajouter une régression ou une courbe de tendance de moyenne glissante à votre série de lignes. Les courbes de tendance permettent d’illustrer plus clairement un schéma dans les données.
 
-Voici une vidéo sur l’ajout de lignes de tendance aux visualisations Ligne :
+Pour plus dʼinformations, regardez cette vidéo sur lʼajout de lignes de tendance aux visualisations de ligne :
 
 >[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
