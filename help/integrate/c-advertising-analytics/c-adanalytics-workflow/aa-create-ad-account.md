@@ -3,9 +3,9 @@ title: Configuration d’un compte publicitaire dans Advertising Analytics
 description: Vous permet de créer des comptes publicitaires et de mapper plusieurs comptes à plusieurs suites de rapports.
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
 
    >[!IMPORTANT]
    >
-   >Seules les suites de rapports mappées à une organisation Experience Cloud peuvent être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Seules les suites de rapports qui sont mappées à une organisation Experience Cloud peuvent être sélectionnées. Si la suite de rapports ne figure pas dans la liste, consultez la [résolution des problèmes d’Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
    Définissez les **[!UICONTROL Paramètres du mappage]** en procédant comme suit :
 
