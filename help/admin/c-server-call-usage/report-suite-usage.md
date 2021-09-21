@@ -4,9 +4,9 @@ title: Affichage de l’utilisation des suites de rapports
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 >[!IMPORTANT]
 >
->Si une suite de rapports n’est pas liée à une organisation Experience Cloud, ses données d’utilisation ne sont pas reflétées dans ce tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
+>Si une suite de rapports nʼest pas liée à une organisation Experience Cloud, ses données dʼutilisation ne sont pas reflétées dans le tableau de bord. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation.
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
