@@ -3,9 +3,9 @@ title: getTimeSinceLastVisit
 description: Permet de mesurer le temps écoulé entre deux visites.
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '508'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## Utilisation du plug-in
 
-La fonction `getTimeSinceLastVisit` n’utilise aucun argument. Elle renvoie le temps écoulé depuis le dernier accès du visiteur au site, présenté sous le format suivant :
+La fonction `getTimeSinceLastVisit` nʼutilise aucun argument. Elle renvoie le temps écoulé depuis le dernier accès du visiteur au site, présenté sous le format suivant :
 
 * Le temps compris entre 30 minutes et une heure depuis la dernière visite est défini selon la référence d’une demi-minute la plus proche. Par exemple, `"30.5 minutes"`, `"53 minutes"`.
 * Le temps entre une heure et un jour est arrondi à la référence d’un quart d’heure la plus proche. Par exemple, `"2.25 hours"`, `"7.5 hours"`.
