@@ -3,9 +3,9 @@ title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (t
 
 >[!NOTE]
 >
->Les accès horodatés de plus de 12 heures ne sont pas regroupés dans le flux en direct. Cependant, ces accès sont inclus dans le groupement de relecture tant qu’ils se trouvent dans l’intervalle de recherche en amont de relecture.
+>Les accès datant de plus de 12 heures ne sont pas regroupés lors de lʼassemblage dynamique. Cependant, ces accès sont inclus dans la relecture sʼils sont compris dans lʼintervalle de recherche en amont de celle-ci.
 
 ### Groupement de relecture
 
