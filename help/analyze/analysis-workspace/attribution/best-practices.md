@@ -1,57 +1,57 @@
 ---
-title: Bonnes pratiques d’attribution
-description: Quelles sont les bonnes pratiques pour décider d’un modèle d’attribution ?
+title: Bonnes pratiques en matière dʼattribution
+description: Quelles sont les bonnes pratiques pour décider dʼun modèle dʼattribution ?
 source-git-commit: 3f586a6a183baf5ff388a55105886eb31fd4366a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# Bonnes pratiques d’attribution
+# Bonnes pratiques en matière dʼattribution
 
-Le choix du modèle d’attribution approprié pour votre organisation dépend de plusieurs considérations. Le présent article explore une méthodologie et quelques bonnes pratiques générales.
+Le choix du modèle dʼattribution approprié pour votre organisation dépend de plusieurs critères. Cet article explore une méthodologie et quelques bonnes pratiques générales.
 
-## Étape 1 : Analyse exploratoire
+## Étape 1 : analyse exploratoire
 
 >[!NOTE]
->Cette analyse doit avoir lieu avant de choisir un modèle d’attribution.
+>Cette analyse doit avoir lieu avant de choisir un modèle dʼattribution.
 
-Cette phase consiste initialement à comprendre le comportement des clients et à définir des mesures de conversion. Sur la base des mesures de conversion, des outils tels que [Flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (pour les données brutes) ou Analysis Workspace facilitent votre compréhension des
+Cette phase consiste dʼabord à comprendre le comportement des clients et à définir des mesures de conversion. Selon les mesures de conversion, des outils tels que les [Flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=fr) (pour les données brutes) ou Analysis Workspace facilitent votre compréhension des questions suivantes :
 
-* Combien de clients touchent différents canaux marketing avant la conversion ?
-* La proportion/distribution de ces comportements.
+* combien de clients empruntent plusieurs canaux marketing avant la conversion ?
+* La proportion/répartition de ces comportements.
 
-Par exemple, si 50 % des clients touchent 3 canaux avant la conversion, y a-t-il une interaction entre ces 3 canaux ?
-Vous pouvez ensuite effectuer une analyse des entonnoirs supérieur et inférieur afin d’améliorer votre compréhension.
+Par exemple, si 50 % des clients empruntent 3 canaux avant la conversion, y a-t-il une interaction entre ces 3 canaux ?
+Vous pouvez ensuite effectuer une analyse des entonnoirs supérieur et inférieur afin dʼaméliorer votre compréhension.
 
-### Analyse de l’entonnoir supérieur
+### Analyse de lʼentonnoir supérieur
 
-L’analyse de l’entonnoir supérieur analyse les canaux utilisés pour créer une notoriété de la marque ou du produit. Par exemple, l’objectif de la plupart des publicités télévisées est la sensibilisation à la marque. Vous pouvez utiliser le modèle d’attribution [ &quot;Décroissance temporelle&quot;](/help/analyze/analysis-workspace/attribution/models.md), car les visiteurs oublieront votre publicité télévisée au fil du temps.
+Lʼanalyse de lʼentonnoir supérieur étudie les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est de faire connaître la marque. Vous pouvez utiliser le [modèle dʼattribution « Décroissance temporelle »](/help/analyze/analysis-workspace/attribution/models.md), car les visiteurs oublieront votre publicité télévisée au fil du temps.
 
-### Analyse de l’entonnoir inférieur
+### Analyse de lʼentonnoir inférieur
 
-Dans cette analyse, on suppose que les gens connaissent déjà votre marque et que vous voulez qu’elle soit convertie. Utilisez des notifications par e-mail ou push ou des publicités Facebook.
+Dans cette analyse, le postulat est que les gens connaissent déjà votre marque et que vous souhaitez passer à la conversion. Utilisez des notifications par e-mail ou push ou des publicités Facebook.
 
-## Étape 2 : Attribution d’après les règles
+## Étape 2 : attribution basée sur les règles
 
 Cette étape a pour but de valider vos hypothèses.
 
 **Exemple 1**
 
-Supposons que votre hypothèse soit &quot;Mon canal Première touche a plus d’impact sur la conversion que mon canal Dernière touche. Vous utiliserez ensuite le modèle d’attribution [ &quot;En forme de J inversé&quot;](/help/analyze/analysis-workspace/attribution/models.md) pour tester cette hypothèse. Ce modèle accorde 60 % du crédit au point de première touche.
+Supposons que votre hypothèse soit la suivante : « Mon canal Première touche a plus dʼimpact sur la conversion que mon canal Dernière touche. » Vous choisirez alors le [modèle dʼattribution « En forme de J inversé »](/help/analyze/analysis-workspace/attribution/models.md) pour tester cette hypothèse. Ce modèle accorde 60 % du crédit au premier point de contact.
 
 **Exemple 2**
 
-Votre hypothèse peut être la suivante : &quot;Dans notre secteur (tel que celui des voyages), la période d’attribution est de 60 ou 90 jours, et non de 30 jours, car les clients font beaucoup de recherches avant d’acheter un produit. Vous remplacerez ensuite la [période de recherche arrière](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) par 90 jours.
+Votre hypothèse peut être la suivante : « Dans notre secteur (tel que celui des voyages), lʼintervalle dʼattribution est de 60 ou 90 jours, et non de 30 jours, car les clients font beaucoup de recherches avant dʼacheter un produit. » Vous remplacerez ensuite lʼ[intervalle de recherche en amont](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=fr#lookback-windows) par 90 jours.
 
-## Étape 3 : Utilisation de l’attribution algorithmique
+## Étape 3 : utilisation de lʼattribution algorithmique
 
-Comme il est très difficile de valider un grand nombre d’hypothèses et de combinaisons possibles, vous pouvez utiliser [l’attribution algorithmique](/help/analyze/analysis-workspace/attribution/algorithmic.md) pour laisser ce travail aux algorithmes intégrés. Si vous avez déjà trouvé le modèle d’attribution parfait qui répond à toutes vos questions et est idéal, alors vous n’avez évidemment pas besoin de passer à cette étape.
+Comme il est très difficile de valider un grand nombre dʼhypothèses et de combinaisons possibles, vous pouvez utiliser lʼ[attribution algorithmique](/help/analyze/analysis-workspace/attribution/algorithmic.md) pour laisser ce travail aux algorithmes intégrés. Si vous avez déjà trouvé le modèle dʼattribution idéal qui répond à toutes vos questions et besoins, alors vous nʼavez évidemment pas besoin de passer par cette étape.
 
 ## Autres considérations
 
-* Vous devrez peut-être utiliser les services d’un spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
+* Il se peut que vous deviez faire appel aux services dʼun spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
 * Vous pouvez vous fier aux données brutes, comme dans les flux de données Adobe.
-* Pensez à utiliser [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr), par exemple, si vous souhaitez prendre en compte vos données Impressions.
+* Envisagez dʼutiliser [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr), par exemple, si vous souhaitez prendre en compte vos données sur les Impressions.
