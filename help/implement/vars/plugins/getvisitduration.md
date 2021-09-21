@@ -3,9 +3,9 @@ title: getVisitDuration
 description: Permet d’effectuer le suivi du temps passé par un visiteur sur le site jusqu’à présent.
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## Utilisation du plug-in
 
-La fonction `getVisitDuration` n’utilise aucun argument. Elle renvoie l’une des valeurs suivantes :
+La fonction `getVisitDuration` nʼutilise aucun argument. Elle renvoie l’une des valeurs suivantes :
 
 * `"first hit of visit"`
 * `"less than a minute"`
