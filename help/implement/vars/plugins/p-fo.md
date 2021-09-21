@@ -3,9 +3,9 @@ title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## Utilisation du plug-in
 
-La fonction `p_fo` utilise les arguments suivants :
+La fonction `p_fo` utilise les arguments suivants :
 
 * **on** (obligatoire, chaîne) : nom de l’objet JavaScript créé par le plug-in si celui-ci n’existe pas encore sur la page.
 
-Si l’objet n’existe pas encore, cette fonction renvoie `true` et crée l’objet. Si l’objet existe déjà, cette fonction renvoie `false`.
+Si lʼobjet nʼexiste pas encore, cette fonction renvoie la valeur `true` et crée lʼobjet. Si lʼobjet existe déjà, cette fonction renvoie la valeur `false`.
 
 ## Exemples d’appels
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**REMARQUE :** chaque fois qu’un nouvel objet de page/DOM se charge (ou que la page active se recharge), l’objet spécifié dans l’argument on n’existe plus et le plug-in p_fo renvoie à nouveau la valeur true la première fois qu’il s’exécute après la fin du chargement de la page.
+**REMARQUE :** chaque fois quʼun nouveau modèle DOM/nouvel objet de page se charge (ou que la page active se recharge), lʼobjet spécifié dans lʼargument on disparaît et le plug-in p_fo renvoie à nouveau la valeur true la première fois quʼil sʼexécute après la fin du chargement de la page.
 
 ## Historique des versions
 
