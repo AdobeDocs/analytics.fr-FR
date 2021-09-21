@@ -3,9 +3,9 @@ title: formatTime
 description: Permet de convertir un nombre de secondes en son équivalent en minutes, heures, etc.
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '600'
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function formatTime(ns,tf,bml){var f=ns,d=tf,e=bml;function h(b,d,c,e){if("strin
 
 ## Utilisation du plug-in
 
-La fonction `formatTime` utilise les arguments suivants :
+La fonction `formatTime` utilise les arguments suivants :
 
 * **`ns`** (obligatoire, entier) : nombre de secondes à convertir ou à formater
 * **`tf`** (facultatif, chaîne) : type de format dans lequel restituer les secondes. Par défaut, il s’agit des secondes.
@@ -67,7 +67,7 @@ La fonction `formatTime` utilise les arguments suivants :
    * Définissez cette variable sur `"s"` si vous souhaitez que le temps soit exprimé en secondes (arrondi par défaut à la référence de cinq secondes la plus proche).
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi. Par défaut, les références figurant dans l’argument `tf`.
 
-La fonction renvoie le nombre de secondes formatées à l’aide de l’unité spécifiée dans l’argument `tf`. Si l’argument `tf` n’est pas défini :
+La fonction renvoie le nombre de secondes formatées à lʼaide de lʼunité spécifiée dans lʼargument `tf`. Si l’argument `tf` n’est pas défini :
 
 * Tout ce qui est inférieur à une minute est arrondi à la référence de cinq secondes la plus proche.
 * Tout ce qui se situe entre une minute et une heure est arrondi à la référence d’une demi-minute la plus proche.
