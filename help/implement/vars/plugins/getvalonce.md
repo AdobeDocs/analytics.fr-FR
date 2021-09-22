@@ -4,8 +4,8 @@ description: Permet d’empêcher la définition d’une variable Analytics sur 
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,14 +59,14 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## Utilisation du plug-in
 
-La fonction `getValOnce` utilise les arguments suivants :
+La fonction `getValOnce` utilise les arguments suivants :
 
 * **`vtc`** (obligatoire, chaîne) : variable à vérifier et à examiner pour savoir si elle vient d’être définie sur une valeur identique.
 * **`cn`** (facultatif, chaîne) : nom du cookie qui contient la valeur à vérifier. La valeur par défaut est `"s_gvo"`.
 * **`et`** (facultatif, entier) : expiration du cookie en jours (ou en minutes, selon l’argument `ep`). La valeur par défaut est `0`, qui expire à la fin de la session du navigateur.
 * **`ep`** (facultatif, chaîne) : ne définissez cet argument que si `et` est également défini. Définissez cet argument sur `"m"` si vous souhaitez que le délai d’expiration de l’argument `et` soit exprimé en minutes plutôt qu’en jours. La valeur par défaut est `"d"`, qui définit l’argument `et` en jours.
 
-Si l’argument `vtc` et la valeur du cookie correspondent, cette fonction renvoie une chaîne vide. Si l’argument `vtc` et la valeur du cookie ne correspondent pas, la fonction renvoie l’argument `vtc` sous la forme d’une chaîne.
+Si lʼargument `vtc` et la valeur du cookie correspondent, cette fonction renvoie une chaîne vide. Si lʼargument `vtc` et la valeur du cookie ne correspondent pas, la fonction renvoie lʼargument `vtc` sous forme de chaîne.
 
 ## Exemples
 

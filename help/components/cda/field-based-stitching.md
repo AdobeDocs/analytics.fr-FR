@@ -5,7 +5,7 @@ exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez d’attribuer une valeur par défaut à la prop ou à l’eVar.
+* Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez dʼattribuer une valeur par défaut à la prop ou à lʼeVar.
 * Communiquez la variable d’identification de votre choix à votre gestionnaire de compte lors de l’attribution du groupement basé sur les champs.
 
 ## Limites spécifiques au groupement basé sur les champs

@@ -7,7 +7,7 @@ user-guide-description: Vous aide à organiser vos données grâce à des compos
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -198,11 +198,11 @@ ht-degree: 97%
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
-   + [Suite de rapports virtuelle : traitement des composants](vrs/vrs-components.md)
+   + [Suite de rapports virtuelles - Traitement des composants](vrs/vrs-components.md)
    + [Prise en charge des suites de rapports virtuelles dans Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessions contextuelles](vrs/vrs-mobile-visit-processing.md)
    + [Traitement de la période de rapport](vrs/vrs-report-time-processing.md)
-   + [Considérations d’A4T](vrs/vrs-a4t.md)
+   + [Remarques concernant A4T](vrs/vrs-a4t.md)
    + [FAQ sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Considérations sur les suites de rapports virtuelles et le balisage global et multisuite](vrs/vrs-considerations.md)
    + Workflow des suites de rapports virtuelles {#vrs-workflow}

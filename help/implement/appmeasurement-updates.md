@@ -6,7 +6,7 @@ exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
 workflow-type: tm+mt
 source-wordcount: '2201'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Date de publication : **7 septembre 2021**
 
 Date de publication : **17 août 2021**
 
-* Les clients qui utilisent l’exclusion ont peut-être vu les paramètres d’exclusion du transfert côté serveur non respectés lors du suivi des liens. Les correctifs de cette version entraînent l’envoi des indicateurs d’exclusion s’ils sont présents lors du suivi des liens.
+* Les clients ayant choisi lʼexclusion peuvent avoir constaté que les paramètres dʼexclusion de transfert côté serveur ne sont pas respectés lors du suivi des liens. Les correctifs de cette version entraînent lʼenvoi des indicateurs dʼexclusion sʼils sont présents lors du suivi des liens.
 
 ## Version 2.22.0
 

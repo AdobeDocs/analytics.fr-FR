@@ -4,8 +4,8 @@ description: Découvrez le flux de travail pour mettre en œuvre le code H sur v
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ Le fichier JavaScript est mis en cache dans le navigateur du visiteur après son
 
 ## Compression du code H
 
-Si la taille du téléchargement du fichier `s_code.js` vous préoccupe, Adobe conseille de compresser le fichier `s_code.js` à l’aide de GZIP. GZIP est pris en charge par tous les principaux navigateurs et offre de meilleures performances que la compression JavaScript. Voir [Module Apache mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html) dans la documentation Apache.
+Si la taille du téléchargement du fichier `s_code.js` vous préoccupe, Adobe conseille de compresser le fichier `s_code.js` à l’aide de GZIP. GZIP est pris en charge par tous les principaux navigateurs et offre de meilleures performances que la compression JavaScript. Voir [Module Apache mod_deflate](https://httpd.apache.org/docs/current/fr/mod/mod_deflate.html) dans la documentation Apache.
