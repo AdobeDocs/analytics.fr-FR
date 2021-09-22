@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '499'
+ht-degree: 43%
 
 ---
 
@@ -20,9 +20,9 @@ Vous pouvez créer différents types de segments dans Workspace, selon leur comp
 | Type de segment | Création de l’emplacement ? | Applicable où ? | Conditions d’utilisation |
 | --- | --- | --- | --- |
 | Segment de liste de composants | Cliquez sur + pour accéder au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). | Tous les projets Workspace | Pour les segments plus complexes, les segments séquentiels |
-| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Au niveau du projet, mais vous pouvez enregistrer et ajouter des segments à votre liste de segments. | Flexibilité pour ajouter/modifier une ou plusieurs règles |
+| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Flexibilité pour ajouter/modifier une ou plusieurs règles |
 | Segments ad hoc : |  |  |  |
-| - Segment de projet Ad Hoc Workspace | [Glisser-déposer dans la zone de dépôt des segments dans un projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Au niveau du projet, mais vous pouvez enregistrer et ajouter des segments à votre liste de segments. | Pour les segments à règle unique par défaut (aucune limite) |
+| - Segment de projet Ad Hoc Workspace | [Glisser-déposer dans la zone de dépôt des segments dans un projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Pour les segments à règle unique par défaut (aucune limite) |
 | - Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Pour une mesure calculée individuelle | Appliquer le ou les segments dans votre définition de mesure |
 | - Segment basé sur des suites de rapports virtuelles | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Pour une suite de rapports virtuelle individuelle | Application d’un ou de plusieurs segments dans votre définition de suite de rapports virtuelle |
 

@@ -3,23 +3,23 @@ description: Utilisez des segments ad hoc dans Analysis Workspace.
 title: Segments ad hoc
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '369'
+ht-degree: 25%
 
 ---
 
 
-# Segments ad hoc
+# Segments de projet ad hoc
 
-Voici une vidéo sur la création de segments ad hoc :
+Voici une vidéo sur la création de segments de projet ad hoc :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-Vous pouvez créer des segments ad hoc si vous souhaitez explorer rapidement la manière dont un segment peut affecter votre projet, sans passer par le créateur de segments. Considérez ces segments comme des segments temporaires au niveau du projet. Ils ne font généralement pas partie de votre &quot;bibliothèque&quot; de segments comme les segments de composants dans le rail de gauche. Vous pouvez toutefois les enregistrer, comme illustré ci-dessous.
+Vous pouvez créer des segments de projet ad hoc si vous souhaitez explorer rapidement la manière dont un segment peut affecter votre projet, sans passer par le créateur de segments. Considérez ces segments comme des segments temporaires au niveau du projet. Ils ne font généralement pas partie de votre &quot;bibliothèque&quot; de segments comme les segments de composants dans le rail de gauche. Vous pouvez toutefois les enregistrer, comme illustré ci-dessous.
 
-Pour une comparaison des effets des segments ad hoc par rapport aux segments de niveau composant complet, voir [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Pour une comparaison des effets des segments de projet ad hoc par rapport aux segments de niveau de composant complet, voir [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 1. Déposez tout type de composant (dimension, élément de dimension, événement, mesure, segment, modèle de segment, période) dans la zone de dépôt des segments en haut d’un panneau. Les types de composants sont automatiquement transformés en segments.
 Voici un exemple de création d’un segment pour le domaine référent Twitter :
@@ -41,7 +41,7 @@ Remarque :
 >
 >Les segments créés de cette façon sont internes au projet.
 
-## Enregistrement des segments ad hoc {#ad-hoc-save}
+## Enregistrement des segments de projet ad hoc {#ad-hoc-save}
 
 Vous pouvez choisir d’enregistrer ces segments en procédant comme suit :
 
@@ -50,3 +50,6 @@ Vous pouvez choisir d’enregistrer ces segments en procédant comme suit :
 
    ![](assets/segment-info.png)
 
+## Que sont les segments de projet uniquement ?
+
+Les segments de projet uniquement sont des segments rapides ou des segments de projet Workspace ad hoc. Lorsque vous les modifiez/ouvrez dans le créateur de segments, la zone Projet uniquement s’affiche. S’ils APPLIQUENT un segment rapide dans le créateur, mais ne cochent pas la case rendre disponible, il s’agit toujours d’un segment de projet uniquement, mais il ne peut plus être ouvert dans le créateur QS. S’ils cochent la case et l’ENREGISTRER, il s’agit désormais d’un segment de liste de composants.
