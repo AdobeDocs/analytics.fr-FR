@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 43%
+source-wordcount: '511'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez créer différents types de segments dans Workspace, selon leur comp
 | Segment de liste de composants | Cliquez sur + pour accéder au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). | Tous les projets Workspace | Pour les segments plus complexes, les segments séquentiels |
 | Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Flexibilité pour ajouter/modifier une ou plusieurs règles |
 | Segments ad hoc : |  |  |  |
-| - Segment de projet Ad Hoc Workspace | [Glisser-déposer dans la zone de dépôt des segments dans un projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Pour les segments à règle unique par défaut (aucune limite) |
+| - Segment de projet Ad Hoc Workspace | [Glisser-déposer dans la zone de dépôt des segments dans un projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Pour les segments à règle unique (aucune limite) |
 | - Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Pour une mesure calculée individuelle | Appliquer le ou les segments dans votre définition de mesure |
 | - Segment basé sur des suites de rapports virtuelles | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Pour une suite de rapports virtuelle individuelle | Application d’un ou de plusieurs segments dans votre définition de suite de rapports virtuelle |
 
@@ -36,7 +36,7 @@ Vous pouvez créer différents types de segments dans Analysis Workspace :
 
 * [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [Segments ad hoc](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* Les segments de liste de composants réguliers qui se retrouvent dans la bibliothèque de segments (voir ci-dessous)
+* Segments de liste de composants standard que vous créez dans le créateur de segments et qui finissent dans la bibliothèque de segments (voir ci-dessous).
 
 ### Création de segments de liste de composants {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -46,7 +46,7 @@ Le rail de segments sous le menu Composants affiche
 
 ![](assets/segment_icons.png)
 
-Pour créer un segment de ce type, vous disposez de 2 options. Tous deux vous conduisent au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) dans Adobe Analytics.
+Pour créer un segment de ce type, vous disposez de 2 options. Tous deux vous conduisent au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) dans Adobe Analytics, où vous trouverez d’autres instructions.
 
 * Dans le rail de gauche, cliquez sur le signe plus (+) en regard de [!UICONTROL Segments] :
 

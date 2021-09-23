@@ -3,48 +3,49 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: ef232d1227430bb2430ca1da09756f5dd5106b1f
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 1%
 
 ---
 
 
 # Segments rapides
 
-Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Pour une comparaison des effets des segments rapides par rapport aux segments de liste de composants complète, accédez à [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Pour une comparaison des effets des segments rapides par rapport aux segments de liste de composants complète, accédez à [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md). Les segments rapides autorisent jusqu’à 3 règles et ne prennent pas en charge les conteneurs imbriqués ni les segments séquentiels.
 
 >[!IMPORTANT]
 > Les segments rapides font actuellement l’objet de tests limités et ne sont pas encore disponibles dans l’ensemble.
 
 ## Création de segments rapides
 
-1. Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-tête du panneau :
+Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-tête du panneau :
 
-   ![](assets/quick-seg1.png)
+![](assets/quick-seg1.png)
 
-   Notez que:
+| Paramètre | Description |
+| --- | --- |
+| Nom | Le nom par défaut d’un segment est une combinaison des règles du segment. Vous pouvez renommer le segment. |
+| Inclure/exclure | Vous pouvez inclure ou exclure des composants dans votre définition de segment, mais pas les deux. |
+| Conteneur d’accès/de visites/de visiteurs | Les segments rapides incluent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) qui vous permet d’inclure une dimension/mesure/plage de dates dans le segment (ou de l’exclure).  Visiteur contient les données principales spécifiques au visiteur pour les visites et les pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
+| Composants (Dimension/mesure/période) | Définissez jusqu’à 3 règles en ajoutant des dimensions et/ou des mesures de composants et/ou des plages de dates. Il existe trois façons de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segment rapide] recherche automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Faites glisser et déposez des composants à partir du rail de gauche.</li></ul> |
+| Opérateur | Utilisez le menu déroulant pour rechercher des opérateurs standard tels que `contains` et [!UICONTROL Nombre distinct]. |
+| Signe plus (+) | Ajouter une autre règle |
+| Qualificateurs Et/Ou | Vous pouvez ajouter des qualificateurs &quot;AND&quot; ou &quot;OR&quot; aux règles, mais vous ne pouvez pas mélanger &quot;AND&quot; et &quot;OR&quot; dans une seule définition de segment. |
+| Appliquer | Appliquez ce segment au panneau. |
+| Ouvrir le Builder | Ouvre le créateur de segments. |
+| Annuler | Annuler ce segment rapide : ne l’appliquez pas. |
+| Période | Le programme de validation utilise la période du panneau pour sa recherche de données. Cependant, toute période appliquée dans un segment rapide remplace la période du panneau en haut du panneau. |
+| Aperçu (en haut à droite) | Permet de vérifier si vous disposez d’un segment valide et sa largeur. Représente la ventilation du jeu de données que vous pouvez vous attendre à voir lorsque vous appliquez ce segment. |
 
-   - Il existe un seul conteneur de segments qui vous permet d’inclure une dimension/mesure/période dans le segment (ou de l’exclure).
-   - Vous pouvez définir le conteneur sur le niveau Accès, Visite ou Visiteur. La valeur par défaut est Accès.
+Voici un exemple de segment qui combine des dimensions et des mesures :
 
-1. Ajoutez une dimension/mesure/période de l’une des trois façons suivantes :
+![](assets/quick-seg2.png)
 
-   - Commencez la saisie et le [!UICONTROL créateur de segments rapide] recherche automatiquement le composant approprié.
-   - Utilisez la liste déroulante pour trouver le composant.
-   - Faites glisser et déposez des composants à partir du rail de gauche.
-
-1. Spécifiez la première règle, par exemple `Page equals workspace`. Vous pouvez avoir jusqu’à trois règles dans une définition de segment. Cliquez simplement sur le signe &quot;+&quot; pour ajouter une autre règle. Vous pouvez ajouter des qualificateurs &quot;AND&quot; ou &quot;OR&quot; aux règles, mais vous ne pouvez pas mélanger &quot;AND&quot; et &quot;OR&quot; dans une seule définition de segment.
-
-   Voici un exemple de segment qui combine des dimensions et des mesures :
-
-   ![](assets/quick-seg2.png)
-
-1. Cliquez sur **[!UICONTROL Appliquer]** pour appliquer ce segment au panneau.
 Le segment s’affiche en haut. Notez sa barre latérale grise, par opposition à la barre latérale bleue pour les segments au niveau du composant dans la bibliothèque de segments sur la gauche.
 
-   ![](assets/quick-seg3.png)
+![](assets/quick-seg3.png)
 
 ## Modification des segments rapides
 
@@ -53,7 +54,7 @@ Le segment s’affiche en haut. Notez sa barre latérale grise, par opposition �
 
 ## Enregistrement des segments rapides
 
-Pour enregistrer des segments rapides, procédez comme suit.
+Vous pouvez choisir d’enregistrer les segments rapides dans le créateur de segments rapides ou en procédant comme suit.
 
 >[!IMPORTANT]
 >Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapide, uniquement dans le Créateur de segments normal.
