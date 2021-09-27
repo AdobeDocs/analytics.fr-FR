@@ -3,7 +3,7 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
+source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Le segment s’affiche en haut. Notez sa barre latérale bleue, par opposition �
 
 ## Enregistrement des segments rapides
 
-Vous pouvez choisir d’enregistrer les segments rapides dans le créateur de segments rapide ou dans le créateur de segments.
+Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL Créateur de segments rapide] ou dans le [!UICONTROL créateur de segments].
 
 >[!IMPORTANT]
 >Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapide, uniquement dans le Créateur de segments normal.
