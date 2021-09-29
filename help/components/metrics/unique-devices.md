@@ -2,10 +2,10 @@
 title: Appareils uniques
 description: Nombre dʼappareils uniques.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors
 
 ![Nombre d’appareils uniques](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-L’affichage de ces données dans une suite de rapports virtuelle des analyses entre appareils avant [Relecture](/help/components/cda/replay.md) affiche :
+L’affichage de ces données dans une suite de rapports virtuelle CDA avant [Lecture](/help/components/cda/replay.md) pouvant potentiellement assembler des accès non authentifiés présenterait :
 
 * **5 appareils** uniques : 1 pour Bob non authentifié + 2 pour Bob + 1 pour Alice + 1 pour Charles
 * **4  [personnes](people.md)** : 1  [Personnes non identifiées](unidentified-people.md)  + 3 personnes  [identifiées](identified-people.md).
-

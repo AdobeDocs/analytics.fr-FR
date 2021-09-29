@@ -2,9 +2,8 @@
 title: Comparaison de différentes méthodes d’exclusion des robots
 description: Permet de comparer différentes méthodes d’exclusion des robots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -21,7 +20,7 @@ Le tableau suivant montre les différentes méthodes d’exclusion des robots et
 | **Est-il possible de voir quelles pages sont visitées par des robots ?** | Oui | Non | Non | Non | Oui | Non | Oui |
 | **Cela engendre-t-il des frais d’appel au serveur pour les robots ?** | Oui | Oui | Oui | Oui | Oui | Non | Oui |
 | **Les données de robots sont-elles disponibles dans les flux de données ?** | Non | Non | Oui | Oui | Oui | Non | Oui |
-| **Est-il possible de signaler le trafic des robots comme s’il s’agissait d’appels au serveur ?** | Non | Non | Oui | Oui | Oui | Oui | Non |
+| **Est-il possible de signaler le trafic des robots comme s’il s’agissait d’appels au serveur ?** | Non | Non | Oui | Oui | Oui | Non | Non |
 | **Peut-on supprimer rétroactivement des données d’un jeu de données ?** | Non | Non | Oui, une fois que les ID déclarés sont implémentés | Oui | Oui, une fois que les notes sont implémentées | Non | Non |
 | **Les critères font-ils l’objet de limites uniques ?** | Non | Non | Non | Oui | Non | Non | Non |
 | **Cela entraîne-t-il des frais supplémentaires ?** | Non | Non | Peut-être, en fonction du SKU d’Analytics | Non | Oui | Non | Oui, les frais d’implémentation et de maintenance d’une règle VISTA |

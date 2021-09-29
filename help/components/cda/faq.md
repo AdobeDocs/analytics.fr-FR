@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 73%
+source-wordcount: '1949'
+ht-degree: 76%
 
 ---
 
@@ -120,16 +120,16 @@ Les avantages à utiliser l’intervalle de recherche en amont de la relecture e
 
 Si un client passe à une version inférieure d’Ultimate, il n’aura plus accès aux données groupées. Toutes les données précédemment regroupées seront supprimées. Cela signifie que les suites de rapports virtuelles des analyses entre appareils ne reflèteront plus aucun regroupement entre appareils. Les données ressembleront à la suite de rapports non regroupés originale.
 
-## Pourquoi le nombre total d’accès est-il différent entre ma suite de rapports source et la suite de rapports virtuelle des analyses entre appareils ?
+## Pourquoi le nombre total dʼaccès est-il différent entre ma suite de rapports source et la suite de rapports virtuelle CDA (Cross-Device Analytics, Analyses entre appareils) ?
 
-Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec plusieurs composants dépendants. Une incohérence d’environ 1 % des données pour le nombre total d’accès entre la suite de rapports d’origine et la suite de rapports virtuelle des analyses entre appareils est attendue. Cela a un impact minimal sur les fonctionnalités multi-appareils.
+Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle CDA. Lʼimpact sur les fonctionnalités entre appareils est très réduit.
 
 ## Pourquoi la mesure &quot;Personnes identifiées&quot; est-elle exagérée ?
 
 Le nombre de mesures &quot;Personnes identifiées&quot; peut être légèrement plus élevé si la valeur de l’identifiant prop/eVar s’exécute dans une [collision de hachage](/help/implement/validate/hash-collisions.md).
 
-Le nombre de mesures &quot;Personnes identifiées&quot; peut être considérablement plus élevé si l’identifiant prop/eVar est sensible à la casse. Par exemple, `bob` et `Bob` sont censés être la même personne, mais le respect de la casse force la distinction entre ces deux valeurs.
+Pour le groupement basé sur les champs, la variable personnalisée de l’identifiant est sensible à la casse. Le nombre de mesures &quot;Personnes identifiées&quot; peut être considérablement plus élevé si les valeurs d’identifiant ne correspondent pas à la casse. Par exemple, si `bob` et `Bob` sont envoyés et doivent être la même personne, les analyses entre appareils interprètent ces deux valeurs comme distinctes.
 
-## Pourquoi est-ce que je vois des valeurs lors de l’affichage de l’identifiant prop/eVar avec la mesure &quot;Personnes non identifiées&quot; ?
+## Lors de l’affichage de l’identifiant prop/eVar, pourquoi est-ce que je vois des valeurs non nulles pour la mesure &quot;Personnes non identifiées&quot; ?
 
-Cette situation se produit généralement lorsqu’un visiteur génère des accès authentifiés et non authentifiés dans la fenêtre de création de rapports et que la fonction [Relecture](replay.md) ne s’est pas encore exécutée. Avant relecture, le visiteur appartient à la fois à &quot;Non identifié&quot; et à &quot;Identifié&quot; dans la dimension [État identifié](/help/components/dimensions/identified-state.md), ce qui entraîne certains visiteurs à attribuer des accès non identifiés à un identifiant. Les visiteurs restent dans cet état jusqu’à ce que la relecture s’exécute (tous les jours ou toutes les semaines, selon la manière dont votre organisation a configuré les analyses entre appareils). L’exécution de rapports uniquement sur les données après relecture atténue cette situation.
+Cette situation se produit généralement lorsqu’un visiteur génère des accès authentifiés et non authentifiés dans la fenêtre de création de rapports. Le visiteur appartient à la fois à la dimension &quot;Non identifié&quot; et &quot;Identifié&quot; dans la dimension [État identifié](/help/components/dimensions/identified-state.md), ce qui provoque une attribution des accès non identifiés à un identifiant. Ce scénario peut changer après l’exécution de [relecture](replay.md), selon la fréquence de relecture et le taux de succès.
