@@ -3,9 +3,9 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 313b4288774163b681f37da44fe2f3cc99abe28d
+source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 2%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 2%
 
 Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Segments rapides
 
-* S’appliquer uniquement à des projets spécifiques (vous pouvez modifier ce paramètre).
-* Autoriser jusqu’à 3 règles
+* S’appliquer uniquement aux projets dans lesquels ils ont été créés (vous pouvez modifier ce paramètre).
+* Autorisez jusqu’à 3 règles.
 * Ne prenez pas en charge les conteneurs imbriqués ni les règles séquentielles.
-* Fonctionnement des panneaux avec plusieurs suites de rapports
+* Travaillez dans des projets avec plusieurs suites de rapports.
 
 Pour une comparaison des effets des segments rapides par rapport aux segments de liste de composants complète, accédez à [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
@@ -65,7 +65,7 @@ Le segment s’affiche en haut. Notez sa barre latérale bleue, par opposition �
 
 ## Enregistrement des segments rapides
 
-Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL Créateur de segments rapide] ou dans le [!UICONTROL créateur de segments].
+Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL créateur de segments rapide] ou dans le [!UICONTROL créateur de segments].
 
 >[!IMPORTANT]
 >Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapide, uniquement dans le Créateur de segments normal.
