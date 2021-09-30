@@ -3,9 +3,9 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 7e95e1a51dac7771e32ab378209935d2806d752e
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '886'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Pour une comparaison des effets des segments rapides par rapport aux segments de
 
 ## Conditions préalables
 
-Les utilisateurs ont besoin de l’autorisation [!UICONTROL Création de segment] dans [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) pour pouvoir créer des segments rapides.
+N’importe qui peut créer un [!UICONTROL segment rapide]. Cependant, vous avez besoin de l’autorisation[!UICONTROL Création de segment] dans [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=en#analytics-tools) pour pouvoir enregistrer un segment rapide ou l’ouvrir dans le [!UICONTROL Créateur de segments].
 
 ## Création de segments rapides
 
@@ -56,7 +56,7 @@ Voici un exemple de segment qui combine des dimensions et des mesures :
 
 Le segment s’affiche en haut. Notez sa barre latérale bleue, par opposition à la barre latérale bleue pour les segments au niveau du composant dans la bibliothèque de segments sur la gauche.
 
-![](assets/quick-seg3.png)
+![](assets/quick-seg5.png)
 
 ## Modification des segments rapides
 
@@ -73,24 +73,15 @@ Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL cr�
 ### Enregistrer dans le créateur de segments rapides
 
 1. Une fois que vous avez appliqué le segment rapide, passez la souris dessus et sélectionnez l’icône d’information (&quot;i&quot;).
+
+   ![](assets/quick-seg6.png)
+
 1. Cliquez sur **[!UICONTROL Mettre à disposition tous les projets et ajoutez-les à votre liste de composants]**.
 1. (Facultatif) Renommez le segment.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La barre latérale du segment passe de bleu réparti par bandes à bleu. Il apparaît désormais dans la liste de vos composants dans le rail de gauche.
 
-### Enregistrer dans le créateur de segments
-
-1. Pointez sur le segment rapide et sélectionnez l’icône d’information (&quot;i&quot;).
-1. Sélectionnez **[!UICONTROL Enregistrer le segment]**.
-
-   ![](assets/save-quick-seg.png)
-
-1. Laissez le nom en l’état ou renommez le segment.
-
-   Revenez à Workspace et remarquez que le segment comporte désormais une barre latérale bleue. Cela indique qu’il ne peut plus être modifié/ouvert dans le Créateur de segments rapide. Et en l&#39;enregistrant, il devient une partie de la liste des composants.
-
-   ![](assets/quick-seg4.png)
 
 Après avoir appliqué le segment, vous pouvez choisir de l’ajouter à votre liste de composants de segment et de le rendre disponible pour tous vos projets.
 

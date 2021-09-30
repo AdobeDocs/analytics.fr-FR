@@ -4,10 +4,10 @@ description: Questions fréquentes sur Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Plutôt que d’utiliser ces fonctions Excel, Adobe vous recommande vivement d�
 
 Report Builder prend en charge les classeurs jusqu’aux limites suivantes :
 
-* **1 000 requêtes** : un classeur peut contenir jusqu’à 1 000 requêtes de données dans un seul classeur. Si vous disposez de rapports ou de projets nécessitant plus de 1 000 requêtes, Adobe vous recommande de les séparer pour les incorporer dans plusieurs classeurs.
+* **1 000 demandes** : Un seul classeur peut contenir jusqu’à 1 000 requêtes de données. Si vous disposez de rapports ou de projets nécessitant plus de 1 000 requêtes, Adobe vous recommande de les séparer pour les incorporer dans plusieurs classeurs.
 * **20 000 requêtes par heure pour chaque société** : Report Builder utilise l’API de création de rapports d’Analytics pour récupérer les données. Chaque requête utilise un appel d’API à chaque fois qu’elle est créée ou actualisée. Si votre organisation accumule plus de 20 000 appels d’API en une heure donnée, vous devez attendre l’heure suivante pour récupérer les données à nouveau.
-* **Temps de traitement de 4 heures** : les rapports planifiés expirent après 4 heures de traitement. Si votre classeur contient de nombreuses requêtes complexes qui utilisent des jeux de données volumineux, le rapport planifié peut échouer.
+* **Temps** de traitement de 4 heures : Les rapports planifiés expirent après traitement pendant plus de 4 heures. Si votre classeur contient de nombreuses requêtes complexes qui utilisent des jeux de données volumineux, le rapport planifié peut échouer.
