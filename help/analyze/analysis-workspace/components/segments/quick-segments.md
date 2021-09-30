@@ -3,9 +3,9 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '774'
 ht-degree: 2%
 
 ---
@@ -61,16 +61,13 @@ Le segment s’affiche en haut. Notez sa barre latérale bleue, par opposition �
 ## Modification des segments rapides
 
 1. Pointez sur le segment rapide et sélectionnez l’icône en forme de crayon.
-1. Modifiez la définition de segment ou le nom du segment.
+1. Modifiez la définition de segment et/ou le nom du segment.
+1. Cliquez sur [!UICONTROL Appliquer].
 
 ## Enregistrement des segments rapides
 
-Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL créateur de segments rapide] ou dans le [!UICONTROL créateur de segments].
-
 >[!IMPORTANT]
 >Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapide, uniquement dans le Créateur de segments normal.
-
-### Enregistrer dans le créateur de segments rapides
 
 1. Une fois que vous avez appliqué le segment rapide, passez la souris dessus et sélectionnez l’icône d’information (&quot;i&quot;).
 
@@ -81,20 +78,6 @@ Vous pouvez choisir d’enregistrer les segments rapides dans le [!UICONTROL cr�
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La barre latérale du segment passe de bleu réparti par bandes à bleu. Il apparaît désormais dans la liste de vos composants dans le rail de gauche.
-
-
-Après avoir appliqué le segment, vous pouvez choisir de l’ajouter à votre liste de composants de segment et de le rendre disponible pour tous vos projets.
-
-1. Pointez sur le segment enregistré et sélectionnez l’icône représentant un crayon.
-
-1. Dans la partie supérieure du créateur de segments, observez cette boîte de dialogue :
-
-   ![](assets/project-only.png)
-
-1. Cochez la case en regard de **[!UICONTROL Mettre ce segment à la disposition de tous vos projets et ajoutez-le à votre liste de composants.]**
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-1. Le segment apparaît désormais dans la liste des composants de segment pour tous vos projets.
-1. Vous pouvez également [partager le segment](/help/components/segmentation/segmentation-workflow/t-seg-share.md) avec d’autres personnes de votre entreprise.
 
 ## Que sont les segments de projet uniquement ?
 
