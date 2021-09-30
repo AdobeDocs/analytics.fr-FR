@@ -3,10 +3,10 @@ description: Comment créer une Fiche d’évaluation des tableaux de bord Analy
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
 
-## Configuration système requise pour les utilisateurs en charge de l’exécution
+## Vérifiez que les utilisateurs de l&#39;application ont accès à Adobe Analytics
+
+1. Configurez de nouveaux utilisateurs dans le [Admin Console Experience Cloud](/help/admin/admin-console/permissions/product-profile.md).
+
+1. Pour pouvoir partager des fiches d’évaluation, vous devez accorder aux utilisateurs de l’application les autorisations nécessaires pour accéder aux composants de la fiche d’évaluation, tels qu’Analysis Workspace, aux suites de rapports sur lesquelles les fiches d’évaluation sont basées, ainsi qu’aux segments, aux mesures et aux dimensions.
+
+## Configuration requise pour les utilisateurs de l’application
 
 Pour vous assurer que les utilisateurs en charge de l’exécution ont accès à vos fiches d’évaluation sur l’application, assurez-vous que :
 
 * Les spécifications minimales en matière de systèmes d’exploitation mobile sur leurs appareils sont la version 10 ou ultérieure d’iOS ou la version 4.4 (KitKat) ou ultérieure d’Android.
-* Ils possèdent des identifiants de connexion valides à Adobe Analytics.
-* Vous avez créé et partagé correctement des Fiches d’évaluation avec eux.
-* Ils ont accès à Analysis Workspace et à la suite de rapports sur laquelle la Fiche d’évaluation est basée.
-* Ils ont accès aux composants que la Fiche d’évaluation inclut. Notez que lorsque vous partagez vos Fiches d’évaluation, vous pouvez sélectionnez l’option **[!UICONTROL Partager les composants incorporés]**.
+* Ils possèdent des identifiants de connexion valides à Adobe Analytics..
+* Vous avez correctement créé des Fiches d’évaluation mobiles pour eux et partagé ces Fiches d’évaluation avec eux.
+* Ils ont accès aux composants que la fiche d’évaluation inclut. Notez que vous pouvez sélectionner une option lors du partage de vos fiches d’évaluation sur **[!UICONTROL Partager les composants incorporés]**.
 
 ## Aide les cadres à télécharger et à installer l’application
 
