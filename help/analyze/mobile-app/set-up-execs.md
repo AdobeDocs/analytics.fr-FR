@@ -3,10 +3,10 @@ description: Comment créer une Fiche d’évaluation des tableaux de bord Analy
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
 
 ![Écran de bienvenue de l’application](assets/welcome.png)
 
-## Aide les cadres à accéder à votre Fiche d’évaluation
+## Aide les cadres à accéder à votre fiche d’évaluation
 
 1. Demandez aux utilisateurs en charge de l’exécution de se connecter à l’application.
 
