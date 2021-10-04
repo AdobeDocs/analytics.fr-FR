@@ -3,9 +3,9 @@ description: Utilisez des segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Vous pouvez créer des segments rapides dans un projet afin de contourner la com
 Pour une comparaison des effets des segments rapides par rapport aux segments de liste de composants complète, accédez à [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
 
 >[!IMPORTANT]
-> Les segments rapides font actuellement l’objet de tests limités et ne sont pas encore disponibles dans l’ensemble.
+> Les segments rapides font actuellement l’objet de tests limités et seront disponibles en général le 21 octobre 2021.
 
 ## Conditions préalables
 

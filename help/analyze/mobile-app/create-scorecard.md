@@ -3,10 +3,10 @@ description: Comment créer une fiche d’évaluation des tableaux de bord Adobe
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1192'
+ht-degree: 60%
 
 ---
 
@@ -28,7 +28,7 @@ En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le Cr�
 Pour créer la Fiche d’évaluation, procédez comme suit :
 
 1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
-2. Configurer la Fiche d’évaluation avec des données, puis l’enregistrer.
+2. Configurez la fiche d’évaluation avec des données et enregistrez-la.
 
 ## Accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge]
 
@@ -42,10 +42,10 @@ Vous pouvez accéder au modèle [!UICONTROL Fiche d’évaluation mobile vierge]
 
 ![Modèle de Fiche d’évaluation](assets/new_template.png)
 
-### Modèle Outils
+### Menu Outils
 
 1. Dans le menu **[!UICONTROL Outils]**, sélectionnez **[!UICONTROL Tableaux de bord Analytics (application mobile)]**.
-1. Sur l’écran suivant, cliquez sur le bouton **[!UICONTROL Créer une fiche d’évaluation]**.
+1. Sur l’écran suivant, cliquez sur **[!UICONTROL Créer une fiche d’évaluation]**.
 
 ## Configuration de la Fiche d’évaluation avec des données et enregistrement
 
@@ -60,29 +60,15 @@ Pour implémenter le modèle de Fiche d’évaluation :
    ![Ajouter des mosaïques](assets/build_list.png)
 
 
-   *Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.*
+1. Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.
 
 ### Ajout de dimensions ou de mesures
 
-Pour ajouter une dimension associée à une mesure :
+Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque.
 
-Faites glisser une dimension à partir du panneau de gauche et déposez-la sur une mosaïque.
-
-Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL DMA Region]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en la faisant glisser et en la déposant sur la mosaïque. Les dimensions que vous ajoutez apparaîtront dans la section de ventilation des **[!UICONTROL Propriétés]** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Marketing Channel]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en la faisant glisser sur la mosaïque. Les ventilations de Dimensions s’affichent sous la section [!UICONTROL Exploration ] (ventilation) des **[!UICONTROL Propriétés]** spécifiques à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
 
 ![Ajouter des dimensions](assets/layer_dimensions.png)
-
-### Affichage et configuration des propriétés de mosaïque
-
-Lorsque vous cliquez sur une mosaïque dans le créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
-
-![Volet Propriétés](assets/properties_tile.png)
-
-En outre, si vous cliquez sur les mosaïques, une fenêtre pop-up dynamique affichera comment l’utilisateur en charge de l’exécution voit la vue de ventilation dans l’application. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
-
-![Breakdown_view](assets/break_view.png)
-
-Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
 ### Appliquer les segments
 
@@ -92,13 +78,7 @@ Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’
 
 ![Création de segments pour le filtre](assets/segment_ui.png)
 
-### Suppression de composants
-
-De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
-
-![Remove_components](assets/new_remove.png)
-
-### Périodes
+### Ajout de plages de dates
 
 Ajoutez et supprimez des combinaisons de périodes pouvant être sélectionnées dans votre carte de performance en cliquant sur le menu déroulant des périodes.
 
@@ -122,13 +102,57 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
+### Application de visualisations
+
+Les tableaux de bord d’Analytics offrent désormais quatre visualisations qui offrent de superbes informations sur les éléments de dimension. Appliquez une visualisation différente en modifiant le [!UICONTROL type de graphique] des propriétés d’une mosaïque :
+
+![Propriétés de la mosaïque](assets/properties.png)
+
+** Visualisation des dons**
+
+Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique en anneau pour comparer des pourcentages d’un total. Supposons, par exemple, que vous souhaitiez identifier la plateforme publicitaire qui a contribué au nombre total de visiteurs uniques :
+
+![Visualisation en anneau](assets/donut-viz.png)
+
+**Visualisation en ligne**
+
+Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension.
+
+**[!UICONTROL Visualisation ] Barre horizontale**
+
+Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures.
+
+### Affichage et configuration des propriétés de mosaïque
+
+Lorsque vous cliquez sur une mosaïque dans le créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
+
+![Volet Propriétés](assets/properties_tile.png)
+
+Lorsque vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique s’affiche pour l’utilisateur en charge de l’exécution dans l’application avec la vue Exploration (ventilation). Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
+
+Les ventilations affinent votre analyse en ventilant littéralement les mesures et les dimensions selon d’autres mesures et dimensions, comme dans cet exemple de vente au détail :
+
+* Mesure Visiteurs uniques ventilée par plateforme d’annonces publicitaires (AMO ID)
+* Visites ventilées par catégorie de produit (vente au détail)
+* Recettes totales ventilées par nom de produit
+
+![Breakdown_view](assets/break_view.png)
+
+Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
+
+### Suppression de composants
+
+De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
+
+![Remove_components](assets/new_remove.png)
+
 ## Nommer une fiche d’évaluation
 
 Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Partage de la fiche d’évaluation
+## Partage d’une fiche d’évaluation
 
 Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
@@ -136,10 +160,10 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 
 1. Dans le formulaire **[!UICONTROL Partager la fiche d’évaluation mobile]**, complétez les champs en :
 
-   * indiquant le nom de la Fiche d’évaluation ;
-   * indiquant une description de la Fiche d’évaluation ;
+   * indiquant le nom de la fiche d’évaluation ;
+   * Fournir une description de la fiche d’évaluation
    * ajoutant des balises pertinentes ;
-   * précisant les destinataires de la Fiche d’évaluation.
+   * Spécification des destinataires pour la fiche d’évaluation
 
 1. Cliquez sur **[!UICONTROL Partager]**.
 
@@ -147,4 +171,4 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 
 Une fois que vous avez partagé une fiche d’évaluation, vos destinataires peuvent y accéder dans leurs tableaux de bord Analytics. Si vous apportez des modifications ultérieures à la Fiche d’évaluation dans le Créateur de Fiche d’évaluation, elles seront automatiquement mises à jour dans la Fiche d’évaluation partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
 
-Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous voudrez peut-être partager à nouveau la Fiche d’évaluation (et cocher l’option **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
+Si vous mettez à jour la Fiche d’évaluation en ajoutant de nouveaux composants, vous pouvez vouloir partager à nouveau la Fiche d’évaluation (et cocher l’option **[!UICONTROL Partager les composants incorporés]** ) afin de vous assurer que vos utilisateurs en charge de l’exécution ont accès à ces modifications.
