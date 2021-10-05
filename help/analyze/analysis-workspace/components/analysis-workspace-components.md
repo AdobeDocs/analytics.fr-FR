@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,17 +43,17 @@ Parmi les exemples de mesures, citons notamment [!UICONTROL Pages vues], [!UICON
 
 ## Segments {#segments}
 
-Les [**segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail des composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
+Les [**segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=fr) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail des composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
 
-Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appareils mobiles], [!UICONTROL Visites à partir d’un e-mail] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe ou créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html). Ils peuvent également être créés à l’aide du [créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
+Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appareils mobiles], [!UICONTROL Visites à partir d’un e-mail] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe ou créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr). Ils peuvent également être créés à l’aide du [créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
 
 ![](assets/segments.png)
 
 ## Périodes {#date-ranges}
 
-Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) sont les plages de dates dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
+Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=fr) sont les plages de dates dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
 
-Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr).
 
 ![](assets/date-ranges.png)
 
