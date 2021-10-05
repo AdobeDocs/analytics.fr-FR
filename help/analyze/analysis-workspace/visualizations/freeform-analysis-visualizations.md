@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Pour accéder à dʼautres fonctionnalités dʼun panneau, faites un clic droit 
 | Insérer la copie du panneau/de la visualisation | Permet de coller (« insérer ») la copie d’un panneau ou d’une visualisation à un autre emplacement au sein du projet, ou dans un tout autre projet. |
 | Copier la visualisation | Permet de faire un clic droit et de copier une visualisation de sorte que vous puissiez lʼinsérer à un autre emplacement du projet, ou dans un tout autre projet. |
 | [Télécharger les éléments au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr#download-items) | Téléchargez jusquʼà 50 000 éléments de dimension au format CSV pour la dimension sélectionnée. |
-| [Télécharger les données au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr?#download-data) | Téléchargez la source de données de visualisation au format CSV. |
+| [Télécharger les données au format CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr#download-data) | Téléchargez la source de données de visualisation au format CSV. |
 | Dupliquer la visualisation | Crée un double exact de la visualisation actuelle, que vous pouvez ensuite modifier. |
 | Modifier la description | Permet dʼajouter (ou de modifier) une description textuelle de la visualisation. |
 | Obtenir le lien de la visualisation | Permet de renvoyer un utilisateur vers une visualisation spécifique dans un projet. Lorsque lʼutilisateur clique sur le lien, le destinataire doit se connecter avant dʼêtre dirigé vers la visualisation exacte à laquelle il est lié. |
@@ -101,8 +101,8 @@ Si vous ne savez pas quelle visualisation choisir, cliquez sur lʼicône **[!UIC
 
 ![](assets/quick-viz.png)
 
-## Modification de l’axe des dimensions sur les visualisations
+## Modification de l’échelle/l’axe sur les visualisations
 
-Voici une présentation vidéo :
+Voici une présentation vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
