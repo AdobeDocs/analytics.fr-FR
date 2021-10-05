@@ -2,15 +2,15 @@
 title: Personnes identifiées
 description: Nombre de personnes identifiées par les analyses entre appareils.
 source-git-commit: c6faacbc4b5365c500237682c3ec2ef71448be80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '58'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
 # Personnes identifiées
 
-La mesure &quot;Personnes identifiées&quot; est une mesure [Analyses entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs identifiés par les analyses entre appareils.
+La mesure « Personnes identifiées » est une mesure [Analyses entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs identifiés par les analyses entre appareils.
 
 ## Méthode de calcul de cette mesure
 
