@@ -3,9 +3,9 @@ title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
