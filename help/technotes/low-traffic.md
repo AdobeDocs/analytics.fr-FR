@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionna
 Pourquoi Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut être dû à la reconnaissance d’une nouvelle page ou d’un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des valeurs uniques) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
 
 >[!NOTE]
->Le nombre de recherche de page n’inclut pas uniquement les valeurs du [!UICONTROL pagename]/[!UICONTROL page_url]. Le tableau de recherche de page comprend plusieurs colonnes/champs tels que [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] et le clic (l’ancien contexte) données de mappage).
+>Le nombre de recherches de pages n’inclut pas uniquement les valeurs de [!UICONTROL pagename]/[!UICONTROL page_url]. Le tableau de recherches de pages comprend plusieurs colonnes/champs tels que [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] et le contexte de clic (anciennes données Clickmap).
 
 ## Modification des seuils de limite uniques
 
