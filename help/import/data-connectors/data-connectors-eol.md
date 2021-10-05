@@ -3,9 +3,9 @@ description: Découvrez quand et pourquoi les connecteurs de données Analytics 
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 82%
 
 Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
 
-**À compter du 19 août 2021**, Adobe a interrompu les intégrations des Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
+**À compter du 19 août 2021**, Adobe va interrompre les intégrations Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
-Cette fonctionnalité est alimentée par une technologie héritée qui n’est plus viable ni prise en charge. [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) est désormais l’endroit idéal pour trouver des intégrations actuelles pour les solutions d’Adobe.
+Cette fonctionnalité est alimentée par une technologie héritée qui n’est plus viable ni prise en charge. [Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) est désormais l’endroit idéal pour trouver des intégrations actuelles pour les solutions Adobe.
 
 ## En quoi la suppression de cette fonction vous concerne-t-elle ?
 
