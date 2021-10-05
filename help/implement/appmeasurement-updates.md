@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2201'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **7 septembre 2021**
 
-* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Voici une [liste complète des variables de consentement](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html).
+* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Voici une [liste complète des variables de consentement](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=fr).
 
 ## Version 2.22.1
 
@@ -437,7 +437,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## Version 1.1.1
 
