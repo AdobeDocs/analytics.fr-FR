@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3420'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `mcvisid` | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | `mobile_id` | Si l’utilisateur utilise un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. | int |
 | `mobileaction` | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
-| `mobileappid` | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :     `[AppName] [BundleVersion]` | varchar(255) |
+| `mobileappid` | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :    `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | Utilisé dans le connecteur de données Aptelignent. L’identifiant d’application utilisé dans Apteligent. | varchar(255) |
 | `mobileappperformancecrashid` | Utilisé dans le connecteur de données Aptelignent. L’identifiant de plantage utilisé dans Apteligent. | varchar(255) |
 | `mobileappstoreobjectid` | Utilisé dans le connecteur de données AppFigures. Identifiant de l’objet de la boutique d’applications. | varchar(255) |
@@ -168,7 +168,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | `prev_page` | Inutilisé. Identifiant propriétaire Adobe de la page précédente. | int sans signe |
 | `product_list` | Liste des produits telle que transmise par l’intermédiaire de la variable [`products`](/help/implement/vars/page-vars/products.md). Les produits sont délimités par des virgules, tandis que les propriétés des produits individuels sont délimitées par des points-virgules. | text |
 | `product_merchandising` | Inutilisé. Utilisez `product_list` à la place. | text |
-| `prop1` -  `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` - `prop75` | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilisé par la colonne `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel. | tinyint sans signe |
 | `ref_domain` | Basée sur la colonne Référent. Domaine référent de l’accès. Utilisé dans la dimension [Domaine référent](/help/components/dimensions/referring-domain.md). | varchar(100) |
