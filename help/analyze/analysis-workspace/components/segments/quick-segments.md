@@ -1,12 +1,12 @@
 ---
-description: Utilisez des segments rapides dans Analysis Workspace.
+description: Utilisation de segments rapides dans Analysis Workspace.
 title: Segments rapides
 feature: Workspace Basics
 role: User, Admin
 source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ N’importe qui peut créer un [!UICONTROL segment rapide]. Cependant, vous avez
 
 ## Création de segments rapides
 
-Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-tête du panneau :
+Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-tête du panneau :
 
 ![](assets/quick-seg1.png)
 
@@ -40,17 +40,17 @@ Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-t
 | Nom | Le nom par défaut d’un segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment. |
 | Inclure/exclure | Vous pouvez inclure ou exclure des composants dans votre définition de segment, mais pas les deux. |
 | Conteneur d’accès/de visites/de visiteurs | Les segments rapides incluent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=en#section_AF2A28BE92474DB386AE85743C71B2D6) qui vous permet d’inclure une dimension/mesure/plage de dates dans le segment (ou de l’exclure).  Visiteur contient les données principales spécifiques au visiteur pour les visites et les pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
-| Composants (Dimension/mesure/période) | Définissez jusqu’à 3 règles en ajoutant des dimensions et/ou des mesures et/ou des plages de dates aux composants et leurs valeurs. Il existe trois façons de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segment rapide] recherche automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Faites glisser et déposez des composants à partir du rail de gauche.</li></ul> |
+| Composants (Dimension/mesure/période) | Définissez jusqu’à 3 règles en ajoutant des dimensions et/ou des mesures et/ou des plages de dates aux composants et leurs valeurs. Il existe trois façons de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segment rapide] recherche automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
 | Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=en) |
 | Signe plus (+) | Ajouter une autre règle |
-| Qualificateurs ET/OU | Vous pouvez ajouter des qualificateurs &quot;AND&quot; ou &quot;OR&quot; aux règles, mais vous ne pouvez pas mélanger &quot;AND&quot; et &quot;OR&quot; dans une seule définition de segment. |
+| Qualificateurs ET/OU | Vous pouvez ajouter des qualificateurs « AND » ou « OR » aux règles, mais vous ne pouvez pas les mélanger dans une définition de segment unique. |
 | Appliquer | Appliquez ce segment au panneau. Si le segment ne contient aucune donnée, vous serez invité à continuer. |
 | Ouvrir le Builder | Ouvre le créateur de segments. Une fois le segment enregistré dans le créateur de segments, il n’est plus considéré comme un &quot;segment rapide&quot;. Il devient une partie de la bibliothèque de segments de la liste des composants. |
 | Annuler | Annuler ce segment rapide : ne l’appliquez pas. |
 | Période | Le programme de validation utilise la période du panneau pour sa recherche de données. Cependant, toute période appliquée dans un segment rapide remplace la période du panneau en haut du panneau. |
 | Aperçu (en haut à droite) | Permet de vérifier si vous disposez d’un segment valide et sa largeur. Représente la ventilation du jeu de données que vous pouvez vous attendre à voir lorsque vous appliquez ce segment. vous pourriez recevoir un avis indiquant que ce segment ne contient aucune donnée. Vous pouvez poursuivre ou modifier la définition de segment. |
 
-Voici un exemple de segment qui combine des dimensions et des mesures :
+Voici un exemple de segment qui combine des dimensions et des mesures :
 
 ![](assets/quick-seg2.png)
 

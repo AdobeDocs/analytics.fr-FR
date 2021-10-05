@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 76%
+ht-degree: 93%
 
 ---
 
@@ -20,9 +20,9 @@ Vous pouvez utiliser une visualisation de [!UICONTROL flux] avec la dimension Ty
 3. Cliquez sur l’onglet Composants sur la gauche, puis faites glisser la dimension « Type de périphérique mobile » vers l’emplacement central intitulé « Dimension ou élément ».
 4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour étendre les flux aux pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
-## Puis-je voir comment les personnes passent d’une expérience utilisateur à l’autre (par exemple, navigateur de bureau ou navigateur mobile ou application mobile) ?
+## Puis-je voir comment les personnes passent d’une expérience utilisateur à l’autre (par exemple, navigateur de bureau/navigateur mobile/application mobile) ?
 
-L’exemple Type de périphérique mobile illustré ci-dessus vous permet de voir comment les utilisateurs passent d’un type d’appareil mobile à un type d’ordinateur de bureau. Toutefois, il ne vous permet pas de distinguer les navigateurs de bureau des navigateurs mobiles. Si vous souhaitez obtenir ces informations, vous pouvez créer une variable personnalisée (une prop ou un eVar, par exemple) qui enregistre si l’expérience s’est produite sur un navigateur de bureau, un navigateur mobile ou une application mobile. Vous pouvez ensuite créer un diagramme Flux comme décrit ci-dessus, à l’aide de la variable personnalisée au lieu de la dimension Type de périphérique mobile . Cette méthode offre une vue légèrement différente du comportement sur plusieurs appareils.
+L’utilisation du type d’équipement mobile comme illustré ci-dessus vous permet de voir comment les utilisateurs passent d’un type de périphérique mobile à un type de périphérique de bureau. Toutefois, il ne vous permet pas de distinguer les navigateurs de bureau des navigateurs mobiles. Si vous souhaitez obtenir ces informations, vous pouvez créer une variable personnalisée (une prop ou une eVar, par exemple) qui enregistre si l’expérience s’est produite sur un navigateur de bureau, un navigateur mobile ou une application mobile. Vous pouvez ensuite créer un diagramme Flux comme décrit ci-dessus, à l’aide de la variable personnalisée au lieu de la dimension Type d’équipement mobile. Cela permet de disposer d’une vue légèrement différente du comportement sur plusieurs périphériques.
 
 ## Quelle est la durée de regroupement des visiteurs par les analyses entre appareils ?
 
@@ -53,7 +53,7 @@ Les clients qui utilisent déjà un identifiant visiteur personnalisé peuvent e
 Dans certains cas, il est possible que plusieurs personnes se connectent à partir du même appareil. Par exemple, un appareil partagé à la maison, des ordinateurs partagés dans une bibliothèque ou un kiosque dans un magasin de vente au détail.
 
 * **Si vous utilisez un graphique d’appareil**, votre capacité à gérer les appareils partagés est limitée. Le graphique d’appareil utilise un algorithme pour déterminer la propriété d’une « grappe » et peut changer chaque fois que cette grappe est publiée. Les utilisateurs de l’appareil partagé dépendent de la grappe à laquelle ils appartiennent.
-* **Si vous utilisez le groupement basé sur les champs**, la prop ou l’eVar que vous choisissez pour aider à identifier les utilisateurs connectés remplace d’autres identifiants. Les appareils partagés sont considérés comme des personnes distinctes, même s’ils proviennent du même appareil.
+* **Si vous utilisez le groupement basé sur les champs**, la prop ou l’eVar que vous choisissez pour identifier les utilisateurs connectés remplace d’autres identifiants. Les appareils partagés sont considérés comme des personnes distinctes, même s’ils proviennent du même appareil.
 
 ## Comment les analyses entre appareils gèrent-ils les situations où une seule personne a BEAUCOUP d’appareils/d’ECID ?
 
@@ -64,16 +64,16 @@ Dans certains cas, un utilisateur individuel peut s’associer à un grand nombr
 
 ## Quelle est la différence entre la mesure Personnes des analyses entre appareils et la mesure Visiteurs uniques en dehors des analyses entre appareils ?
 
-Les mesures [Personnes](/help/components/metrics/people.md) et [Visiteurs uniques](/help/components/metrics/unique-visitors.md) visent toutes deux à comptabiliser des visiteurs distincts (individus). Toutefois, envisagez la possibilité que 2 appareils différents puissent appartenir à la même personne. Les analyses entre appareils mappent les 2 appareils à la même personne, tandis que les 2 appareils sont enregistrés en tant que 2 &quot;visiteurs uniques&quot; distincts en dehors des analyses entre appareils.
+Les mesures [Personnes](/help/components/metrics/people.md) et [Visiteurs uniques](/help/components/metrics/unique-visitors.md) visent toutes deux à comptabiliser des visiteurs distincts (individus). Toutefois, envisagez la possibilité que 2 appareils différents peuvent appartenir à la même personne. Les analyses entre appareils mappent les 2 appareils à la même personne, tandis que les 2 appareils sont enregistrés en tant que 2 « visiteurs uniques » distincts en dehors des analyses entre appareils.
 
 ## Quelle est la différence entre la mesure « Appareils uniques » des Analyses entre appareils et la mesure « Visiteurs uniques » hors Analyses entre appareils ?
 
-Ces deux mesures sont à peu près équivalentes. Les différences entre les 2 mesures se produisent lorsque :
+Ces deux mesures sont à peu près équivalentes. Des différences entre les 2 mesures se produisent lorsque :
 
-* Un appareil partagé est mappé à plusieurs personnes. Dans ce scénario, 1 visiteur unique est comptabilisé, tandis que plusieurs appareils uniques sont comptabilisés.
-* Un périphérique reçoit du trafic non assemblé et provenant du même visiteur. Par exemple, un navigateur génère du trafic assemblé identifié + du trafic anonyme historique qui n’a pas été assemblé. Dans ce cas, 1 visiteur unique est comptabilisé, tandis que 2 appareils uniques sont comptabilisés.
+* Un appareil partagé est mappé à plusieurs personnes. Dans ce scénario, un visiteur unique et plusieurs appareils uniques sont comptabilisés.
+* Un périphérique reçoit du trafic groupé et non groupé provenant du même visiteur. Par exemple, un navigateur génère du trafic groupé identifié + du trafic anonyme historique qui n’a pas été groupé. Dans ce cas, 1 visiteur unique est comptabilisé, tandis que 2 appareils uniques sont comptabilisés.
 
-Voir [Appareils uniques](/help/components/metrics/unique-devices.md) pour plus d’exemples et de détails sur son fonctionnement.
+Voir la rubrique [Appareils uniques](/help/components/metrics/unique-devices.md) pour plus d’exemples et de détails sur son fonctionnement.
 
 ## Puis-je inclure des mesures des Analyses entre appareils à l’aide de l’API 2.0 ?
 
@@ -98,9 +98,9 @@ Ces deux identifiants sont calculés par Adobe au moment de l’exécution du ra
 
 Passer du graphique d’appareil au groupement basé sur les champs et inversement peut être demandé via l’assistance clientèle. Cependant, la réalisation d’un tel changement peut prendre quelques semaines ou plus encore et *les données historiques regroupées de la méthode précédente sont perdues.*
 
-## Comment Adobe gère-t-il les limites uniques d’une prop ou d’un eVar utilisé dans le groupement basé sur les champs ?
+## Comment les limites uniques d’une prop ou eVar utilisée dans un groupement basé sur les champs sont-elles gérées par Adobe ?
 
-Les analyses entre appareils extraient les éléments de dimension de variable d’identifiant avant qu’ils ne soient optimisés pour la création de rapports. Vous n’avez pas à vous inquiéter des limites uniques à des fins d’analyses entre appareils. Cependant, si vous avez essayé d’utiliser cette prop ou cet eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md) .
+Les analyses entre appareils extraient les éléments de dimension des variables avant de les optimiser pour le compte-rendu des performances. Vous n’avez pas à vous inquiéter des limites uniques à des fins d’analyses entre appareils. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md).
 
 ## Combien de suites de rapports de mon entreprise peuvent être activées pour les analyses entre appareils ?
 
@@ -124,9 +124,9 @@ Si un client passe à une version inférieure d’Ultimate, il n’aura plus acc
 
 Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle CDA. Lʼimpact sur les fonctionnalités entre appareils est très réduit.
 
-## Pourquoi la mesure &quot;Personnes identifiées&quot; est-elle exagérée ?
+## Pourquoi la mesure « Personnes identifiées » est-elle surévaluée ?
 
-Le nombre de mesures &quot;Personnes identifiées&quot; peut être légèrement plus élevé si la valeur de l’identifiant prop/eVar s’exécute dans une [collision de hachage](/help/implement/validate/hash-collisions.md).
+Le nombre de la mesure « Personnes identifiées » peut être légèrement plus élevé si la valeur de l’identifiant prop/eVar s’exécute dans une [collision de hachage](/help/implement/validate/hash-collisions.md).
 
 Pour le groupement basé sur les champs, la variable personnalisée de l’identifiant est sensible à la casse. Le nombre de mesures &quot;Personnes identifiées&quot; peut être considérablement plus élevé si les valeurs d’identifiant ne correspondent pas à la casse. Par exemple, si `bob` et `Bob` sont envoyés et doivent être la même personne, les analyses entre appareils interprètent ces deux valeurs comme distinctes.
 

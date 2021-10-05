@@ -8,14 +8,14 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 42%
+ht-degree: 48%
 
 ---
 
 
 # Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-Vous pouvez créer différents types de segments dans Workspace, selon leur complexité, s’ils doivent s’appliquer uniquement à ce projet, etc. Voici un résumé des types de segments :
+Vous pouvez créer différents types de segments dans Workspace, selon leur complexité, s’ils doivent s’appliquer uniquement à ce projet, etc. Voici un résumé des types de segments :
 
 | Type de segment | Création de l’emplacement ? | Applicable où ? | Conditions d’utilisation |
 | --- | --- | --- | --- |
