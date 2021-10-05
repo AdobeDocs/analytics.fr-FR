@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Un rapport de cohorte de [!UICONTROL rétention] sur les visiteurs récurrents 
 
 ![](assets/retention-report.png)
 
-Voici une vidéo sur le calcul de la rétention glissante :
+Voici une vidéo sur le calcul de la rétention glissante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
@@ -56,7 +56,7 @@ Une cohorte de [!UICONTROL perte de clientèle] est l’inverse d’un tableau d
 
 ![](assets/churn-report.png)
 
-Voici une vidéo sur l&#39;analyse de l&#39;attrition :
+Voici une vidéo sur l’analyse de l’attrition :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
