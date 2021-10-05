@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,8 +90,8 @@ Cliquez sur l’**icône d’engrenage** pour afficher ces paramètres de visual
 | Rayon du groupe | Regroupe les points de données qui se trouvent dans le nombre spécifié de pixels. La valeur par défaut est 50. |
 | Valeur max. par défaut | Permet de modifier le seuil de la valeur maximale pour la carte. Le fait de modifier cette valeur ajuste l’échelle des valeurs de bulles/de la carte thermique (couleur et taille) en fonction de la valeur maximale personnalisée définie. |
 
-## Création d’une carte thermique des tranches horaires
+## Création dʼune carte thermique de répartition du temps
 
-Voici une vidéo sur le sujet :
+Regardez cet aperçu vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
