@@ -3,9 +3,9 @@ description: Comment créer une fiche d’évaluation des tableaux de bord Adobe
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 3964f7e1595ccad7ee066018c2e76604e0f6d4c7
+source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1195'
 ht-degree: 60%
 
 ---
@@ -104,7 +104,7 @@ Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composa
 
 ### Application de visualisations
 
-Les tableaux de bord d’Analytics offrent désormais quatre visualisations qui offrent de superbes informations sur les éléments de dimension. Appliquez une visualisation différente en modifiant le [!UICONTROL type de graphique] des propriétés d’une mosaïque :
+Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent un aperçu complet des éléments de dimension et des mesures. Changez de visualisation en modifiant le [!UICONTROL type de graphique] des propriétés d’une mosaïque :
 
 ![Propriétés de la mosaïque](assets/properties.png)
 
@@ -117,6 +117,8 @@ Semblable à un graphique circulaire, cette visualisation présente les données
 **Visualisation en ligne**
 
 Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension.
+
+
 
 **[!UICONTROL Visualisation ] Barre horizontale**
 
