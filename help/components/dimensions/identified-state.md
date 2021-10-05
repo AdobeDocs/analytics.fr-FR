@@ -3,9 +3,9 @@ title: État identifié
 description: Indicateur déterminant la reconnaissance par le graphique d’appareil.
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
 source-git-commit: 1a58c3e87f5918c91b891faa6027f5ad8b6024b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -21,5 +21,5 @@ Tant qu’[Analytics sur l’ensemble des appareils](../cda/overview.md) est con
 
 Les éléments de dimension comprennent `"Identified"` et `"Unidentified"`.
 
-* **`"Identified"`**: L’accès est mappé à une personne.
-* **`"Unidentified"`**: L’accès n’est pas mappé à une personne et n’a pu être mappé par aucune méthode d’attribution.
+* **`"Identified"`**: l’accès est mappé à une personne.
+* **`"Unidentified"`**: l’accès n’est pas mappé à une personne et n’a pu être mappé par aucune méthode d’attribution.
