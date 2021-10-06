@@ -3,9 +3,9 @@ description: Comment créer une fiche d’évaluation des tableaux de bord Adobe
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
+source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1338'
 ht-degree: 54%
 
 ---
@@ -112,32 +112,32 @@ Ou cliquez sur l’icône [!UICONTROL Visualisations] dans le rail de gauche et 
 
 ![Visualisations](assets/vizs.png)
 
-**[!UICONTROL Numéro de résumé]**
+### [!UICONTROL Numéro de résumé]
 
 Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un grand nombre d’éléments importants dans un projet.
 
-![Numéro de résumé](assets/sparkline.png)
+![Numéro de résumé](assets/summary-number.png)
 
-** Visualisation en anneau**
+### [!UICONTROL Anneau]
 
 Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique en anneau pour comparer des pourcentages d’un total. Supposons, par exemple, que vous souhaitiez identifier la plateforme publicitaire qui a contribué au nombre total de visiteurs uniques :
 
 ![Visualisation en anneau](assets/donut-viz.png)
 
-**Visualisation en ligne**
+### [!UICONTROL Ligne]
 
 Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en courbes affiche les dimensions au fil du temps, mais fonctionne avec n’importe quelle visualisation. Dans cet exemple, vous visualisez la dimension de catégorie de produits.
 
 ![Visualisation en ligne](assets/line.png)
 
 
-**[!UICONTROL Visualisation ] Barre horizontale**
+### [!UICONTROL Barre horizontale]
 
 Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. Par exemple, pour voir facilement quels sont vos principaux produits, utilisez [!UICONTROL Barre horizontale] pour la visualisation de votre choix.
 
 ![barre horizontale](assets/horizontal.png)
 
-**Suppression d’éléments de dimension   non spécifiés**
+### Supprimer des éléments de dimension [!UICONTROL non spécifiés]
 
 Si vous souhaitez supprimer des éléments de dimension [!UICONTROL Non spécifiés] de vos données, procédez comme suit :
 
