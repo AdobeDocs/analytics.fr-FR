@@ -3,10 +3,10 @@ description: Comment créer une fiche d’évaluation des tableaux de bord Adobe
 title: Création d’une Fiche d’évaluation
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: e6109809afc73aa1f9a8e645e3777ef6aca9bbf9
+source-git-commit: 122daace52691b983db1f6978532ba37b42f5f7f
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 60%
+source-wordcount: '1341'
+ht-degree: 54%
 
 ---
 
@@ -62,7 +62,7 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 1. Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.
 
-### Ajout de dimensions ou de mesures
+## Ajout de dimensions ou de mesures
 
 Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque.
 
@@ -70,7 +70,7 @@ Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Mark
 
 ![Ajouter des dimensions](assets/layer_dimensions.png)
 
-### Appliquer les segments
+## Appliquer les segments
 
 Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque.
 
@@ -78,7 +78,7 @@ Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’
 
 ![Création de segments pour le filtre](assets/segment_ui.png)
 
-### Ajout de plages de dates
+## Ajout de plages de dates
 
 Ajoutez et supprimez des combinaisons de périodes pouvant être sélectionnées dans votre carte de performance en cliquant sur le menu déroulant des périodes.
 
@@ -102,13 +102,23 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
-### Application de visualisations
+## Application de visualisations
 
-Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent un aperçu complet des éléments de dimension et des mesures. Changez de visualisation en modifiant le [!UICONTROL type de graphique] des propriétés d’une mosaïque :
+Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent un aperçu complet des éléments de dimension et des mesures. Changez de visualisation en modifiant le [!UICONTROL type de graphique] des [!UICONTROL Propriétés] d’une mosaïque. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
 
 ![Propriétés de la mosaïque](assets/properties.png)
 
-** Visualisation des dons**
+Ou cliquez sur l’icône [!UICONTROL Visualisations] dans le rail de gauche et faites glisser la visualisation de droite sur la mosaïque :
+
+![Visualisations](assets/vizs.png)
+
+**[!UICONTROL Numéro de résumé]**
+
+Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un grand nombre d’éléments importants dans un projet.
+
+![Numéro de résumé](assets/sparkline.png)
+
+** Visualisation en anneau**
 
 Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique en anneau pour comparer des pourcentages d’un total. Supposons, par exemple, que vous souhaitiez identifier la plateforme publicitaire qui a contribué au nombre total de visiteurs uniques :
 
@@ -116,15 +126,29 @@ Semblable à un graphique circulaire, cette visualisation présente les données
 
 **Visualisation en ligne**
 
-Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Pour pouvoir utiliser un graphique en courbes, le temps doit être défini comme une dimension.
+Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en courbes affiche les dimensions au fil du temps, mais fonctionne avec n’importe quelle visualisation. Dans cet exemple, vous visualisez la dimension de catégorie de produits.
 
+![Visualisation en ligne](assets/line.png)
 
 
 **[!UICONTROL Visualisation ] Barre horizontale**
 
-Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures.
+Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. Par exemple, pour voir facilement quels sont vos principaux produits, utilisez [!UICONTROL Barre horizontale] pour la visualisation de votre choix.
 
-### Affichage et configuration des propriétés de mosaïque
+![barre horizontale](assets/horizontal.png)
+
+**Suppression d’éléments de dimension   non spécifiés**
+
+Si vous souhaitez supprimer des éléments de dimension [!UICONTROL Non spécifiés] de vos données, procédez comme suit :
+
+1. Sélectionnez la mosaïque appropriée.
+1. Dans le rail de droite, sous **[!UICONTROL Exploration]**, sélectionnez la flèche vers la droite en regard de l’élément de dimension dont vous souhaitez supprimer les éléments **[!UICONTROL Non spécifié]**.
+
+   ![non spécifié](assets/unspecified.png)
+
+1. Cliquez sur l’icône en regard de **[!UICONTROL Non spécifié]** pour supprimer les données non spécifiées de vos rapports. (Vous pouvez également supprimer tout autre élément de dimension.)
+
+## Affichage et configuration des propriétés de mosaïque
 
 Lorsque vous cliquez sur une mosaïque dans le créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
 
@@ -142,7 +166,7 @@ Les ventilations affinent votre analyse en ventilant littéralement les mesures 
 
 Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
-### Suppression de composants
+## Suppression de composants
 
 De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
 
