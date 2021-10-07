@@ -3,10 +3,10 @@ title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables de l’ensemble de documentation Adobe Analytics.
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '2899'
-ht-degree: 100%
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+workflow-type: tm+mt
+source-wordcount: '2918'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 | --- | --- |
+| **Octobre 2021** |  |
+| 7 octobre 2021 | Nouvelle documentation sur les [visualisations pour les Fiches d’évaluation mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **Août 2021** |  |
 | 18 août 2021 | Révision de la structure de premier niveau et consolidation en une [Page de destination](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) unique. |
 | 18 août 2021 | Nouvelle section sur [A4T et les suites de rapports virtuelles](/help/components/vrs/vrs-a4t.md) |
@@ -64,7 +66,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 23 octobre 2020 | Ajout d’améliorations à la documentation sur les Tableaux de bord Adobe Analytics. Le style de la carte de performance mobile de Workspace correspond désormais à l’application. |
 | **Septembre 2020** |  |
 | 17 septembre 2020 | [Télécharger 50 000 éléments pour une seule dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr#download-items) : vous pouvez désormais télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
-| 17 septembre 2020 | [Améliorations de la visualisation Ligne](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr): <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation [!UICONTROL Ligne]. Cela peut s’avérer particulièrement utile lorsque les visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
+| 17 septembre 2020 | [Améliorations de la visualisation Ligne](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html): <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation [!UICONTROL Ligne]. Cela peut s’avérer particulièrement utile lorsque les visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
 | 17 septembre 2020 | Nouvelles périodes dans Workspace : nous avons ajouté 5 nouvelles périodes afin que vous puissiez choisir parmi des périodes qui n’incluent pas de données de jour partielles à partir d’aujourd’hui. Ces périodes sont 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets et 90 derniers jours complets. |
 | 17 septembre 2020 | Nouvelle documentation sur le [Panneau d’observateurs simultanés de médias dans Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=fr). |
 | **Août 2020** |  |
@@ -79,8 +81,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 18 juin 2020 | Nouvelle documentation sur [Attribution IQ : intervalles de recherche en amont personnalisés](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=fr#lookback-windows). |
 | 18 juin 2020 | Nouvelle documentation pour les [Rôles de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) des projets Workspace partagés. Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. |
 | 18 juin 2020 | Nouvelle documentation sur les [projets Workspace « Consultation uniquement »](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=fr). Les projets peuvent être partagés avec les utilisateurs en autorisant uniquement l’Affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. |
-| 18 juin 2020 | Nouvelle documentation sur les [Rôles de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) des projets Workspace partagés. Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. |
-| 18 juin 2020 | Nouvelle documentation sur la [Cocréation de projets Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr). Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. |
+| 18 juin 2020 | Nouvelle documentation sur les [Rôles de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) des projets Workspace partagés. Lors du partage d’un projet Workspace, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. |
+| 18 juin 2020 | Nouvelle documentation sur la [Cocréation de projets Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html). Les destinataires ajoutés au rôle « Modifications autorisées » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. |
 | **Mai 2020** |  |
 | 31 mai 2020 | Nouvelle documentation sur l’[API d’insertion de données en bloc](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). |
 | 21 mai 2020 | Nouvelle documentation pour les [Tableaux de bord Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=fr) |
@@ -115,7 +117,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 19 décembre 2020 | Modification de la valeur par défaut de [Limite de stockage des données FTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=fr), désormais définie sur 10 Go. |
 | 29 novembre 2019 | Modification de la [documentation sur le flux de données](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 novembre 2019 | Nouvelle rubrique sur la fin de vie des restrictions d’identification par IP. |
-| 21 novembre 2019 | Nouvelle documentation sur [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr). |
+| 21 novembre 2019 | Nouvelle documentation sur [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html). |
 | 21 novembre 2019 | Mise à jour de la [FAQ sur les workflows d’Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=fr) pour indiquer la disponibilité dans LiveStream. |
 | 25 octobre 2019 | Mise à jour de la page [Concepts clés d’Adobe Analytics](/help/technotes/terms.md). |
 | 10 octobre 2019 | Mise à jour des totaux des tableaux à structure libre : ils comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=fr) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |

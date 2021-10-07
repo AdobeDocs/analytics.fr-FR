@@ -1,19 +1,19 @@
 ---
 description: Comment créer une fiche d’évaluation des tableaux de bord Adobe Analytics
-title: Création d’une Fiche d’évaluation
+title: Création d’une fiche d’évaluation mobile
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# Création d’une Fiche d’évaluation
+# Création d’une fiche d’évaluation mobile
 
-Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des tableaux de bord pour les utilisateurs en charge de l’exécution. Pour commencer, vous pouvez visionner la vidéo Créateur de Fiche d’évaluation des tableaux de bord Adobe Analytics :
+Les informations suivantes indiquent aux curateurs de données Adobe Analytics comment configurer et présenter des fiches d’évaluation mobiles pour les utilisateurs en charge de l’exécution. Pour commencer, vous pouvez visionner la vidéo Créateur de Fiche d’évaluation des tableaux de bord Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
 ## Application de visualisations
+
+Affichez une vidéo sur les visualisations pour les Fiches d’évaluation mobiles :
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent un aperçu complet des éléments de dimension et des mesures. Changez de visualisation en modifiant le [!UICONTROL type de graphique] des [!UICONTROL Propriétés] d’une mosaïque. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
 
