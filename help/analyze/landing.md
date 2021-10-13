@@ -3,9 +3,9 @@ description: Décrit comment la page de destination rassemble Analysis Workspace
 title: Page de destination dʼAdobe Analytics
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Pour créer un rapport Société, procédez comme suit :
 
 1. Ajoutez tous les champs de votre choix au modal et enregistrez-le.
 
-   Le rapport est ajouté à la liste Rapports d’entreprise et est disponible pour les utilisateurs de votre entreprise.
+   Le rapport est ajouté à la liste Rapports d’entreprise et est disponible pour les utilisateurs de votre société de connexion.
 
 Autres options de formation :
 
