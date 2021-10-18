@@ -7,7 +7,7 @@ user-guide-description: Fournit des instructions pratiques pour Analysis Workspa
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 98%
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau des visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [Panneau Durée de lecture du média](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [Panneau Durée de lecture des médias](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -311,7 +311,7 @@ ht-degree: 98%
    + [Résolution des problèmes](reports-analytics/report-troubleshooting.md)
 + Tableaux de bord Adobe Analytics {#mobapp}
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
-   + [Intro du curateur](mobile-app/curator.md)
+   + [Présentation du curateur](mobile-app/curator.md)
    + [Création d’une fiche d’évaluation mobile](mobile-app/create-scorecard.md)
    + [Configuration des cadres pour l’utilisation des tableaux de bord](mobile-app/set-up-execs.md)
    + [Guide pour une prise en main rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
