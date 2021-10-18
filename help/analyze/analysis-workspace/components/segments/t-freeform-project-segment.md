@@ -8,47 +8,47 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
 # Segments {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
-Vous pouvez créer différents types de segments dans Workspace, selon leur complexité, s’ils doivent s’appliquer uniquement à ce projet, etc. Voici un résumé des types de segments :
+Vous pouvez créer différents types de segments dans Workspace, selon la complexité requise et selon quʼils doivent sʼappliquer uniquement à ce projet, etc. Voici un résumé des types de segments :
 
-| Type de segment | Création de l’emplacement ? | Applicable où ? | Conditions d’utilisation |
+| Type de segment | Emplacement de création | Applicable où ? | Conditions d’utilisation |
 | --- | --- | --- | --- |
-| Segment de liste de composants | Cliquez sur + pour accéder au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). | Tous les projets Workspace | Pour les segments plus complexes, les segments séquentiels |
-| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Flexibilité pour ajouter/modifier une ou plusieurs règles |
-| Segments ad hoc : |  |  |  |
-| - Segment de projet Ad Hoc Workspace | [Glisser-déposer dans la zone de dépôt des segments dans un projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Projet uniquement, mais peut enregistrer et ajouter à votre liste de segments. | Pour les segments à règle unique |
-| - Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | Pour une mesure calculée individuelle | Appliquer le ou les segments dans votre définition de mesure |
-| - Segment basé sur des suites de rapports virtuelles | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | Pour une suite de rapports virtuelle individuelle | Application d’un ou de plusieurs segments dans votre définition de suite de rapports virtuelle |
+| Segment de la liste des composants | Cliquez sur « + » pour accéder au [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). | Tous vos projets Workspace | Pour les segments plus complexes et les segments séquentiels |
+| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Uniquement pour le projet, mais possibilité de lʼenregistrer et de lʼajouter à votre liste de segments. | Flexibilité pour ajouter/modifier une ou plusieurs règles |
+| Segments ad hoc : |  |  |  |
+| - Segment de projet Workspace ad hoc | [Opération de glisser-déposer dans la zone de dépôt des segments du projet](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | Uniquement pour le projet, mais possibilité de lʼenregistrer et de lʼajouter à votre liste de segments. | Pour les segments à règle unique |
+| - Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=fr) | À une mesure calculée individuelle | Application du ou des segments dans la définition de votre mesure |
+| - Segment basé sur des suites de rapports virtuelles | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) | À une suite de rapports virtuelle individuelle | Application dʼun ou de plusieurs segments dans la définition de votre suite de rapports virtuelle |
 
-Voici une vidéo sur l’utilisation de segments dans Analysis Workspace :
+Regardez cette vidéo sur lʼutilisation des segments dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## Création de segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
-Vous pouvez créer différents types de segments dans Analysis Workspace :
+Vous pouvez créer différents types de segments dans Analysis Workspace :
 
 * [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [Segments ad hoc](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* Segments de liste de composants standard que vous créez dans le créateur de segments et qui finissent dans la bibliothèque de segments (voir ci-dessous).
+* Segments standard de la liste des composants : ils sont créés dans le Créateur de segments et terminent dans la bibliothèque de segments (voir ci-dessous).
 
-### Création de segments de liste de composants {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
+### Création de segments de la liste des composants {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-Le rail de segments sous le menu Composants affiche
+Le rail des segments sous le menu Composants sʼaffiche
 * Segments que vous ou votre société avez créés
-* Modèles de segment, comme indiqué par l’icône d’Adobe :
+* Modèles de segment, comme indiqué par lʼicône Adobe :
 
 ![](assets/segment_icons.png)
 
-Pour créer un segment de ce type, vous disposez de 2 options. Tous deux vous conduisent au [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) dans Adobe Analytics, où vous trouverez d’autres instructions.
+Pour créer un segment de ce type, 2 choix sʼoffrent à vous. Vous devez invariablement passer par le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) dans Adobe Analytics, où dʼautres instructions sont disponibles.
 
-* Dans le rail de gauche, cliquez sur le signe plus (+) en regard de [!UICONTROL Segments] :
+* Dans le rail de gauche, cliquez sur le signe plus (+) en regard de [!UICONTROL Segments] :
 
 ![](assets/create-seg.png)
 
@@ -72,7 +72,7 @@ Plusieurs autres méthodes permettent d’appliquer des segments à un projet d�
 
 ## Segment IQ
 
-Segment IQ (également appelé comparaison de segments) comprend les fonctionnalités suivantes :
+Segment IQ (également appelé Comparaison de segments) comprend les fonctionnalités suivantes :
 
 * [Panneau de comparaison des segments :](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) fonctionnalité principale de Segment IQ. Faites glisser deux segments dans le panneau et affichez un rapport complet qui montre les différences les plus importantes sur le plan statistique et le chevauchement entre les deux audiences.
 * [Comparaison des segments dans la visualisation Abandons :](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md) découvrez comment différentes audiences se comparent les unes aux autres dans le contexte d’une visualisation Abandons.
