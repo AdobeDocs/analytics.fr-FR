@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -128,8 +128,8 @@ Les analyses entre appareils utilisent un pipeline de traitement parallèle comp
 
 Le nombre de la mesure « Personnes identifiées » peut être légèrement plus élevé si la valeur de l’identifiant prop/eVar s’exécute dans une [collision de hachage](/help/implement/validate/hash-collisions.md).
 
-Pour le groupement basé sur les champs, la variable personnalisée de l’identifiant est sensible à la casse. Le nombre de mesures &quot;Personnes identifiées&quot; peut être considérablement plus élevé si les valeurs d’identifiant ne correspondent pas à la casse. Par exemple, si `bob` et `Bob` sont envoyés et doivent être la même personne, les analyses entre appareils interprètent ces deux valeurs comme distinctes.
+Pour le groupement basé sur les champs, la variable personnalisée de lʼidentifiant est sensible à la casse. La valeur de la mesure « Personnes identifiées » peut être considérablement plus élevée si les valeurs des identifiants ne correspondent pas à la casse. Par exemple, si `bob` et `Bob` sont envoyés par une seule et même personne, l’Analyse entre appareils interprète ces deux valeurs comme distinctes.
 
-## Lors de l’affichage de l’identifiant prop/eVar, pourquoi est-ce que je vois des valeurs non nulles pour la mesure &quot;Personnes non identifiées&quot; ?
+## Lors de lʼaffichage de la variable prop/eVar de lʼidentifiant, pourquoi des valeurs non nulles pour la mesure « Personnes non identifiées » sont-elles présentes ?
 
-Cette situation se produit généralement lorsqu’un visiteur génère des accès authentifiés et non authentifiés dans la fenêtre de création de rapports. Le visiteur appartient à la fois à la dimension &quot;Non identifié&quot; et &quot;Identifié&quot; dans la dimension [État identifié](/help/components/dimensions/identified-state.md), ce qui provoque une attribution des accès non identifiés à un identifiant. Ce scénario peut changer après l’exécution de [relecture](replay.md), selon la fréquence de relecture et le taux de succès.
+Cette situation se produit généralement lorsquʼun visiteur génère des accès authentifiés et non authentifiés dans la fenêtre du compte rendu des performances. Le visiteur appartient à la fois à « Non identifié » et à « Identifié » dans la dimension [État identifié](/help/components/dimensions/identified-state.md), ce qui entraîne lʼattribution dʼaccès non identifiés à un identifiant. Ce scénario peut évoluer après lʼexécution de la [Relecture](replay.md), en fonction de la fréquence de relecture et du taux de réussite.
