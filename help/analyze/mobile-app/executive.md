@@ -7,7 +7,7 @@ exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 Les informations suivantes fournissent aux utilisateurs en charge de l’exécution des informations sur les bonnes pratiques pour l’utilisation et l’affichage des tableaux de bord Adobe Analytics. Pour regarder une vidéo présentant ces informations, reportez-vous à la section [Experience in-app des tableaux de bord Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
-L’objectif de ce guide est d’aider les utilisateurs en charge de l’exécution à lire et à interpréter les fiches d’évaluation des tableaux de bord Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
+Lʼobjectif de ce guide est dʼaider les utilisateurs en charge de lʼexécution à lire et à interpréter les cartes de performance dans les tableaux de bord Analytics. L’application permet aux utilisateurs en charge de l’exécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles.
 
 ## Configuration des tableaux de bord sur votre appareil
 
@@ -56,7 +56,7 @@ Pour utiliser les tableaux de bord :
 
    ![Séquence de connexion](assets/signseq.png)
 
-1. Choisissez une entreprise. Une fois connecté aux tableaux de bord, l’écran **[!UICONTROL Choisir une société]** s’affiche. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
+1. Choisissez une entreprise. Une fois que vous êtes connecté aux tableaux de bord, la variable **[!UICONTROL Choisir une entreprise]** s’affiche. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
 1. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
