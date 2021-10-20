@@ -2,13 +2,13 @@
 description: Vous pouvez spécifier les points de contact d’après lesquels créer une séquence d’abandons multidimensionnelle.
 title: Configuration d’une visualisation Abandons
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Chemin d’accès éventuel </p> <p>(Par défaut) </p> </td> 
-   <td colname="col2"> <p>Les visiteurs qui finiront par accéder à la page suivante du chemin d’accès de cette session seront comptés, mais pas nécessairement au prochain accès. </p> </td> 
+   <td colname="col2"> <p>Les visiteurs (ou les visites) sont comptés lorsqu'ils atterrissent finalement sur le prochain point de contact du chemin. Les détours sont autorisés entre les points de contact. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Prochain accès </p> </td> 
-   <td colname="col2"> <p>Nombre de visiteurs qui accéderont à la page suivante du chemin d’accès dès le prochain accès. </p> </td> 
+   <td colname="col2"> <p>Les visiteurs (ou les visites) sont comptés lorsqu’ils atterrissent immédiatement sur le prochain point de contact du chemin. L’accès suivant inclut tout type de succès (pages vues ou liens). Les détours ne sont pas autorisés entre les points de contact. </p> </td> 
   </tr> 
  </tbody> 
 </table>
