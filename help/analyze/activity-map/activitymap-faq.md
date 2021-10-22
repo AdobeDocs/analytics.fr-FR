@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '655'
-ht-degree: 100%
+source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Activity Map prend en charge la dernière version de la plupart des navigateurs 
 
 Activity Map nʼenvoie pas dʼappels au serveur par lui-même. En revanche, les variables de données contextuelles Activity Map sont incluses dans les appels de page vue Analytics sur la page suivante.
 
-## Pourquoi les superpositions de certains éléments avec classement sont-elles manquantes ?**
+## Pourquoi certaines incrustations d’éléments classés sont-elles manquantes ?
 
 Certains liens avec classement, tels que les liens de sous-menu, sont masqués de la page. Par conséquent, les chevauchements de lien correspondants ne sʼaffichent pas. Le classement est calculé pour tous les liens de la page, y compris les liens masqués.
 
@@ -83,3 +83,16 @@ Non, les segments ne fonctionnent pas en mode réel. Cette fonctionnalité est s
 ## Activity Map est-il compatible avec les suites de rapports virtuelles ?
 
 Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le mode réel d’Activity Map n’est pas compatible avec celles-ci.
+
+## Comment puis-je désactiver le Activity Map ?
+
+Vous avez trois options :
+
+* Supprimer la `AppMeasurement_Module_ActivityMap` à partir du fichier JS
+* Ajoutez un code personnalisé qui réécrit la fonction ci-dessus avec un corps vide, par exemple :
+
+   ```
+   function AppMeasurement_Module_ActivityMap() {}
+   ```
+
+* Configurer AppMeasurement en définissant `s.trackClickMap` et `s.trackInlineStats` à `false`
