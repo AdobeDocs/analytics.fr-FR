@@ -2,10 +2,10 @@
 title: Appareils uniques
 description: Nombre dʼappareils uniques.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 93%
+ht-degree: 76%
 
 ---
 
@@ -21,15 +21,15 @@ Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors
 
 ## Exemple
 
-1. Bob arrive sur votre site par le biais d’une publicité sur son téléphone, mais il n’est pas connecté.
-1. Bob veut faire un achat, mais il préférerait le faire sur l’ordinateur familial parce qu’il y est déjà connecté. Sur l’ordinateur familial, il effectue un achat.
-1. Le lendemain, il vérifie sa commande sur son téléphone et s’y authentifie.
+1. Sally arrive sur votre site par le biais d’une publicité, mais n’est pas connecté.
+1. Sally veut faire un achat, mais préférerait le faire sur l&#39;ordinateur de la famille car elle y est déjà connectée. Sur l&#39;ordinateur familial, elle fait un achat.
+1. Le lendemain, elle vérifie sa commande sur son téléphone et s&#39;y authentifie.
 1. Alice, la femme de Bob, navigue sur votre site en se connectant à son compte sur l’ordinateur familial.
 1. Le frère de Bob, Charles, navigue également sur votre site en se connectant à son compte sur l’ordinateur familial.
 
 ![Nombre d’appareils uniques](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-L’affichage de ces données dans une suite de rapports virtuelle CDA avant [Lecture](/help/components/cda/replay.md) pouvant potentiellement assembler des accès non authentifiés présenterait :
+Lʼaffichage de ces données dans une suite de rapports virtuelle d’analyse entre appareils avant que la [Relecture](/help/components/cda/replay.md) ne regroupe potentiellement les accès non authentifiés afficherait :
 
 * **5 appareils uniques** : 1 pour Bob non authentifié + 2 pour Bob + 1 pour Alice + 1 pour Charles
 * **4 [personnes](people.md)** : 1 [personne non identifiée](unidentified-people.md) + 3 [personnes identifiées](identified-people.md).

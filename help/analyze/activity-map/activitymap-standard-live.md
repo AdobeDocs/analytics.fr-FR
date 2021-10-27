@@ -2,13 +2,13 @@
 description: Activity Map propose deux modes de base permettant la création de rapports complémentaires sur l’activité de la page.
 title: Mode standard et mode réel
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-feature: 'Activity Map  '
+feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ En **mode standard**, vous pouvez sélectionner la période dans la barre d’ou
 
 ![](assets/standard_mode.png)
 
-Dans ce mode, les mesures de Commerce pour lesquelles « Participation » n’est pas activé sont affectées de façon linéaire. Par exemple, imaginons qu’un utilisateur clique sur « IPod mini » dans la page d’accueil, puis qu’il navigue dans 3 pages supplémentaires. À la 4e page, il achète un IPod mini pour 200 euros. Le lien « IPod mini » recevra une recette en participation de 200 EUR ainsi qu’une recette de 50 EUR (200 EUR/4) (recette affectée de façon linéaire).
+Dans ce mode, les mesures de Commerce pour lesquelles « Participation » n’est pas activé sont affectées de façon linéaire. Par exemple, imaginons qu’un utilisateur clique sur « IPod mini » dans la page d’accueil, puis qu’il navigue dans 3 pages supplémentaires. Sur la 4e page, l’utilisateur achète un IPod mini pour 200 $. Le lien « IPod mini » recevra une recette en participation de 200 EUR ainsi qu’une recette de 50 EUR (200 EUR/4) (recette affectée de façon linéaire).
 
 Q : Que se passe-t-il si une page contient des liens ayant le même nom dans des régions différentes ? Est-ce que les deux liens sont crédités séparément étant donné qu’ils sont associés à des régions différentes mais qu’ils ont le même nom de lien sur une page ?
 
