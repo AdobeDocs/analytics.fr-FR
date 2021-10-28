@@ -4,16 +4,20 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1049'
 ht-degree: 91%
 
 ---
 
 # Panneaux - Aperçu
 
-Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône située en haut à gauche dans Workspace ou à partir d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas pratiques d’analyses. Voici les types de panneau disponibles dans Analysis Workspace :
+Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône située en haut à gauche dans Workspace ou à partir d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas pratiques d’analyses.
+
+## Types de panneau
+
+Voici les types de panneau disponibles dans Analysis Workspace :
 
 | Nom du panneau | Description |
 | --- | --- |
