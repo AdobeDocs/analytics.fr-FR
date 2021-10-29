@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2218'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **11 octobre 2021**
 
-* Mise à jour des fichiers qui référencaient la documentation d’aide afin qu’ils pointent vers les emplacements d’aide actuels.
+* Mise à jour des fichiers qui font référence à la documentation dʼaide pour diriger vers les emplacements dʼaide actuels.
 
 ## Version 2.22.2
 
@@ -443,7 +443,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## Version 1.1.1
 
