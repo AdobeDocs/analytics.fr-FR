@@ -2,10 +2,10 @@
 title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Cette méthode de mise en œuvre peut être utilisée sur n’importe quelle pla
 Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 
 ```html
-<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` désigne le protocole. Faites correspondre le protocole utilisé dans la demande d’image avec le protocole utilisé par le reste de votre site.
@@ -32,6 +32,7 @@ Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 * `/b/ss/` est inclus dans toutes les demandes d’image. Il fait partie de la structure de fichiers des images stockées sur les serveurs de collecte de données Adobe.
 * `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données. Pour plusieurs suites de rapports, séparez les identifiants par des virgules, sans espaces (par exemple `examplersid1,examplersid2`, etc.).
 * `/1/` est la source de l’accès. Voir `hit_source` dans la section [Référence des colonnes de données](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) du guide d’utilisation Exportation. Contrôle l’ordre que les cookies et les autres méthodes suivent pour identifier les visiteurs.
+* `/s234234238479` (`"s"` + un nombre aléatoire) empêche le navigateur de mettre en cache la demande d’image.
 * Tout ce qui suit le délimiteur de chaîne de requête (`?`) fait partie des données que vous souhaitez inclure dans les rapports. Voir [Paramètres de requête de collecte de données](../validate/query-parameters.md) pour obtenir la liste complète des paramètres que vous pouvez inclure dans une demande d’image.
 
 ## Demandes d’image codées en dur dans Microsoft Outlook

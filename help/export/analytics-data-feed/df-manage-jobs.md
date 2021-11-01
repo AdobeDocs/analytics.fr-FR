@@ -2,11 +2,10 @@
 title: Gestion des tâches relatives aux flux de données
 description: Découvrez comment gérer des tâches individuelles dans les flux de données.
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +60,7 @@ Chaque tâche affiche plusieurs colonnes fournissant des informations la concern
    * En attente des données : la tâche est opérationnelle et les données de la fenêtre de création de rapports sont en cours de collecte.
    * Traitement : la tâche est en train de créer les fichiers de données et de préparer leur envoi.
    * Terminée : la tâche s’est terminée sans aucun problème.
-   * Échec : la tâche ne s’est pas terminée. Reportez-vous à [Résolution des problèmes liés aux tâches](jobs-troubleshooting.md) pour déterminer la cause de l’échec.
+   * Échec : la tâche ne s’est pas terminée. Voir [Résolution des problèmes liés aux flux de données](troubleshooting.md) pour aider à déterminer la cause de l’échec.
    * En attente d’exportation : les données de la fenêtre de création de rapports n’ont pas encore été entièrement traitées.
    * Aucune donnée : il n’y a pas de données dans la suite de rapport pour la fenêtre de création de rapports demandée.
 * **Heure de fin** : l’heure à laquelle la tâche s’est terminée. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports en tenant compte du décalage par rapport à GMT.

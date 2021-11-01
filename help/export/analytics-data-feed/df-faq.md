@@ -3,10 +3,10 @@ description: Questions fréquentes sur les flux de données
 keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sensible à la casse
 title: FAQ sur les flux de données
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: ht
-source-wordcount: '1440'
-ht-degree: 100%
+source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
+workflow-type: tm+mt
+source-wordcount: '1439'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d�
 
 Si un transfert échoue, vous pouvez réexécuter une tâche jusqu’à ce qu’elle réussisse.
 
-Si vous rencontrez des problèmes lors de l’affichage d’un flux de données sur votre site FTP, voir [Résolution des problèmes liés aux tâches](jobs-troubleshooting.md).
+Si vous rencontrez des problèmes lors de l’affichage d’un flux de données sur votre site FTP, reportez-vous à la section [Résolution des problèmes liés aux flux de données](troubleshooting.md).
 
 ## Comment puis-je renvoyer une tâche ? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
@@ -99,8 +99,3 @@ Cependant, les objets n’héritent pas des autorisations du compartiment parent
 >[!NOTE]
 >
 >[!DNL Analytics] ne détermine pas si le compartiment a une politique qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ou même si le propriétaire du compartiment est dans un compte différent de celui de l’utilisateur qui écrit les données. Au lieu de cela, [!DNL Analytics] ajoute automatiquement le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl avec chaque chargement de flux.
-
->[!MORELIKETHIS]
->
->* [Résolution des problèmes liés aux tâches](jobs-troubleshooting.md)
-
