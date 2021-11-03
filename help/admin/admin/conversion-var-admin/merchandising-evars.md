@@ -1,10 +1,11 @@
 ---
 title: eVars de marchandisage et méthodes de recherche de produit
 description: Analyse approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et affectent les données.
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ Toutefois, avec la **[!UICONTROL Syntaxe du produit]**, l’eVar est définie un
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* La [!UICONTROL Catégorie] est une fonctionnalité obsolète et n’est plus recommandée comme option viable pour effectuer le suivi des performances des catégories de produits.  Sa simple existence démontre pourquoi, dans la plupart des implémentations de la variable products, un seul point-virgule précède la partie productID de la valeur de la variable.
+* [!UICONTROL Catégorie] n’est plus recommandée comme option viable pour effectuer le suivi des performances des catégories de produits.  Sa simple existence démontre pourquoi, dans la plupart des implémentations de la variable products, un seul point-virgule précède la partie productID de la valeur de la variable.
 * La [!UICONTROL Quantité] et le [!UICONTROL Chiffre d’affaires] sont utiles lorsqu’un suivi est effectué sur un achat de produit.
 * Les [!UICONTROL Événements] sont utiles pour enregistrer des valeurs d’événements incrémentielles ou monétaires personnalisées qui ne sont pas censées être comptabilisées comme du chiffre d’affaires (notamment les frais d’expédition, les remises, etc.).
 
