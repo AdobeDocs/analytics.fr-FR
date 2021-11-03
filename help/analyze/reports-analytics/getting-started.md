@@ -1,17 +1,20 @@
 ---
 description: Avant d’utiliser Reports & Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 title: Prise en main de Reports & Analytics
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # Prise en main de Reports &amp; Analytics
+
+>[!NOTE]
+>Ce produit est autorisé à la vente en Amérique du Nord et dans d’autres régions où il est effectivement vendu et peut ne pas satisfaire aux exigences de vente dans d’autres pays ou régions.
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
@@ -31,15 +34,10 @@ Les rapports fournissent des informations sur vos canaux web classiques, ainsi q
 
 Configuration requise du navigateur et du système pour se connecter à l’interface de Reports &amp; Analytics.
 
-* Navigateurs :
+>[!NOTE]
+>Le 13 novembre 2018, Adobe a arrêté la prise en charge d’Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
 
-   * Privilégiés : dernières versions de Firefox, Chrome, Safari ou Edge.
-   * Dernière version de Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >Le 13 novembre 2018, Adobe a arrêté la prise en charge d’Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
-
+* Navigateurs préférés : Dernières versions de Firefox, Chrome, Safari ou Edge.
 * Les cookies et JavaScript doivent être activés.
 * Résolution d’écran 1024 x 768 avec codage des couleurs 16 bits (ou supérieure).
 
