@@ -2,19 +2,23 @@
 description: Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
 keywords: event
 title: Événements de succès - Aperçu
-feature: Outils d’administration
+feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 97%
 
 ---
 
 # Événements de succès - Aperçu
 
-Les événements de succès sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
+Les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
+
+Voici une présentation vidéo :
+
+>[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
 
 Accédez à la page Événements de succès dans les paramètres de la suite de rapports :
 
@@ -34,7 +38,7 @@ Il existe de nombreux types d’événements de succès en fonction du type de v
 * **Haute technologie** : téléchargement de livres blancs, appels d’offres, remplissage de formulaires, demandes d’assistance
 * **Automobile** : envoi de pistes, demande de devis, téléchargement de brochures
 
-La variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) définit un événement de succès.
+La variable [s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=fr) définit un événement de succès.
 
 ## Page Événements de succès – Descriptions {#section_681ECEC981694CABBDBF00E18165B447}
 

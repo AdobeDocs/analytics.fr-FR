@@ -2,16 +2,20 @@
 title: Notes techniques d’Analytics
 description: Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '96'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 92%
 
 ---
 
 # Notes techniques d’Analytics
 
 Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
+
+Voici un aperçu vidéo d’Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Principaux articles sur les notes techniques
 

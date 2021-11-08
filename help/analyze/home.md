@@ -4,10 +4,10 @@ description: Documentation sur les produits et aide autonome pour Analysis Works
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ Ce guide fournit de la documentation sur les produits et de l’aide autonome po
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
 * **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
+
+Voici un aperçu vidéo d’Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Principaux articles sur les outils d’Analytics
 

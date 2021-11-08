@@ -2,10 +2,10 @@
 title: Intégration d’Analytics
 description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 84%
+source-wordcount: '202'
+ht-degree: 80%
 
 ---
 
@@ -13,16 +13,21 @@ ht-degree: 84%
 
 ![Bannière](../../assets/doc_banner_integrate.png)
 
-Ce guide se concentre sur l&#39;intégration de plusieurs solutions Adobe Experience Cloud. Si vous recherchez des connecteurs de données Analytics, reportez-vous à la page [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) du guide de l’utilisateur pour l’importation.
+Ce guide se concentre sur l’intégration de plusieurs solutions Adobe Experience Cloud. Si vous recherchez des connecteurs de données Analytics, reportez-vous à la page [Data connectors](/help/import/data-connectors/getting-started-data-connectors.md) du guide de l’utilisateur pour l’importation.
 
 Configurez des intégrations avec d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target. Il inclut :
 
 * **Audience Analytics :** Intégrez Adobe Audience Manager à Adobe Analytics.
 * **Advertising Analytics :** Consultez les données de recherche payante juxtaposées aux données Adobe Analytics.
-* **Analytics pour Advertising Cloud :** Intègre Adobe Analytics et Adobe Advertising Cloud pour étendre et améliorer les capacités de chaque produit.
+* **Analytics pour Advertising Cloud DSP :** Intègre Adobe Analytics et Adobe Advertising Cloud pour étendre et améliorer les fonctionnalités de chaque produit. Voici une présentation vidéo :
+   >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target :** A4T intègre Adobe Analytics et Adobe Target ensemble.
 * **Rapports Adobe Campaign :** Intégrez Adobe Analytics à Adobe Campaign.
 * **Création de rapports AEM Assets :** Permet la collecte d’impressions et de clics sur les ressources diffusées à partir d’Adobe Experience Manager.
+
+Voici un aperçu vidéo d’Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## Principaux articles sur l’intégration d’Analytics
 
