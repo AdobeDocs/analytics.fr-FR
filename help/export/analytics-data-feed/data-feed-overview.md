@@ -4,10 +4,10 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utilise
 5. Remplissez les champs [!UICONTROL Informations sur le flux].
    * Nom : le nom que vous souhaitez, par exemple « Flux de données de test ».
    * Suite de rapports : sélectionnez la suite de rapports souhaitée.
-   * Envoyer par courrier électronique une fois terminé : saisissez votre adresse électronique.
+   * Envoyer par courrier électronique une fois terminé : saisissez votre adresse e-mail.
    * Intervalle du flux : sélectionnez l’intervalle souhaité (horaire ou quotidien).
    * Traitement du délai : peut être laissé sur [!UICONTROL pas de délai].
    * Dates de début et de fin : sélectionnez une date de début quelques jours auparavant et aujourd’hui comme date de fin.
@@ -67,4 +67,8 @@ Une fois que vous avez compris le flux de travail de base permettant d’obtenir
 
 Vidéo relative à la navigation dans l’interface des flux de données :
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+
+Vidéo expliquant comment trouver votre identifiant de flux de données :
+
+>[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)

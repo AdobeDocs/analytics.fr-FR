@@ -5,9 +5,9 @@ title: Utilisation du paramètre Horodatages (facultatif)
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # Utilisation du paramètre Horodatages (facultatif)
 
 Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation du paramètre Horodatages (facultatif).
+
+Regardez cet aperçu vidéo sur ce sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les nouvelles suites de rapports.
 
@@ -34,7 +38,6 @@ Avec l’option Horodatages (facultatif), vous pouvez combiner des données horo
 
 * **Données horodatées**. Les données d’horodatage côté client sont capturées et envoyées directement avec les données du périphérique à l’aide des variables d’horodatage côté client : Javascript sur une page web ou à l’aide d’un appel de SDK mobile ([!DNL offlineEnabled=true]) dans une application mobile.
 * **Données non horodatées**. Adobe définit un horodatage sur les données non horodatées dans une suite de rapports lorsque les données parviennent aux serveurs de collection.
-
 
 L’un des paramètres d’horodatage suivants peut être défini pour une suite de rapports :
 

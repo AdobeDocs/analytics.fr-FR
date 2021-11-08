@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,9 +26,15 @@ Vous pouvez créer différents types de segments dans Workspace, selon la comple
 | - Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=fr) | À une mesure calculée individuelle | Application du ou des segments dans la définition de votre mesure |
 | - Segment basé sur des suites de rapports virtuelles | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) | À une suite de rapports virtuelle individuelle | Application dʼun ou de plusieurs segments dans la définition de votre suite de rapports virtuelle |
 
-Regardez cette vidéo sur lʼutilisation des segments dans Analysis Workspace :
+## Vidéos
+
+Utilisation de segments dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+Recherche et création de segments:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## Création de segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 

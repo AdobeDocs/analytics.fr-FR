@@ -2,19 +2,23 @@
 description: Utilisation de la visualisation des abandons dans un projet Workspace.
 title: Abandon - Aperçu
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 98%
 
 ---
 
 # Abandon - Aperçu
 
 Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
+
+Voici une vidéo sur la visualisation Abandons :
+
+>[!VIDEO](https://video.tv.adobe.com/v/24042/?quality=12)
 
 Grâce aux visualisations Abandons, vous pouvez :
 
@@ -33,8 +37,6 @@ Une visualisation des abandons s’avère utile pour l’analyse des éléments 
 * Taux de conversion par le biais de processus particuliers sur votre site (tels qu’un processus d’achat ou d’enregistrement).
 * Flux de trafic général de portée plus large : parmi les personnes qui ont consulté la page d’accueil, ce flux montre combien d’entre elles ont réalisé une recherche et combien d’entre elles ont consulté un article en particulier.
 * Corrélations entre les événements de votre site. Les corrélations indiquent quel pourcentage de personnes ayant consulté votre politique de confidentialité ont continué leur visite jusqu’à l’achat d’un produit.
-
-[Tutoriel vidéo sur la visualisation des abandons](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=fr) (4:15)
 
 ## Segmentation comme base des flux et des abandons {#section_654F37A398C24DDDB1552A543EE29AA9}
 
