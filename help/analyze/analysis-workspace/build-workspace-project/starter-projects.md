@@ -2,13 +2,13 @@
 description: Création de projets Workspace basés sur des modèles standard ou personnalisés.
 title: Modèles
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,6 +36,10 @@ Les utilisateurs dotés de droits d’administration peuvent convertir n’impor
    >[!NOTE]
    >
    >Par défaut, toutes les personnes de l’organisation ont accès aux modèles de projet. Vous pouvez organiser les modèles en leur appliquant des balises. (Sélectionnez **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]** pour modifier les balises et les descriptions.)
+
+Voici une vidéo sur la création et la gestion de modèles personnalisés :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### Actions possibles sur les modèles personnalisés
 

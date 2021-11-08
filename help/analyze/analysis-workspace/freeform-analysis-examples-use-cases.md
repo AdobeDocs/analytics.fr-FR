@@ -2,17 +2,17 @@
 description: Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 keywords: Analysis Workspace
 title: Cas d’utilisation d’Analysis Workspace
-feature: Concepts de base de Reports & Analytics
+feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '521'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Cas d’utilisation d’Analysis Workspace
+# Cas d’utilisation d’Analysis Workspace
 
 Exemples d’utilisation des tableaux de données et des segments et suggestions d’utilisation d’Analysis Workspace.
 
@@ -61,3 +61,8 @@ Supposons que vous soyez un analyste marketing pour un vendeur au détail d’é
 
    À présent, vous pouvez  [partager](/help/analyze/analysis-workspace/curate-share/curate.md) le rapport avec ces équipes de marchandisage.
 
+## Analyse des ventes croisées dans Analysis Workspace
+
+Voici une vidéo sur ce sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
