@@ -2,19 +2,23 @@
 title: Panneau de comparaison des segments - Aperçu
 description: Découvrez comment utiliser le panneau de comparaison des segments, un composant de Segment IQ dans Analysis Workspace.
 keywords: Analysis Workspace ; Segment IQ
-feature: Panneaux
+feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 99%
 
 ---
 
 # Panneau de comparaison des segments - Aperçu
 
 Le panneau de comparaison des segments est un composant d’outil de [Segment IQ](../../segment-iq.md) qui détecte les différences les plus significatives sur le plan statistique parmi un nombre illimité de segments. La fonction effectue une itération au moyen d’une analyse automatisée de toutes les dimensions et mesures auxquelles vous avez accès. Les principales caractéristiques des segments d’audience qui stimulent les indicateurs clés de performances de votre entreprise sont ainsi détectées et vous pouvez savoir de cette façon à quel point des segments se chevauchent.
+
+Voici une vidéo sur la comparaison de segments :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
 ## Création d’un panneau de comparaison des segments
 

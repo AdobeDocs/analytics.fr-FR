@@ -4,10 +4,10 @@ title: Création de segments
 feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '2046'
+ht-degree: 99%
 
 ---
 
@@ -120,6 +120,10 @@ Vous pouvez par exemple créer facilement un segment qui comprend « toutes les
 Vous pouvez créer un conteneur Visite et dans celui-ci ajouter la période [!UICONTROL 60 derniers jours] et la mesure [!UICONTROL Ordre est supérieur ou égal à 1], avec un opérateur AND :
 
 ![](assets/date-ranges.png)
+
+Voici une vidéo sur l’utilisation de périodes flottantes dans les segments :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
 ## Empiler des segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
