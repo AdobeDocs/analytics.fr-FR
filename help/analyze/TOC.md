@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -52,7 +52,7 @@ ht-degree: 99%
             + [Paramètres des lignes](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Éléments dynamiques ou statiques](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Pagination, filtrage et tri des tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totaux de Workspace](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totaux de Espace de travail](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tableau de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -60,7 +60,7 @@ ht-degree: 99%
       + Abandon {#fallout}
          + [Abandon - Aperçu](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configuration d’une visualisation Abandons](analysis-workspace/visualizations/fallout/configuring-fallout.md)
-         + [Abandons interdimensionnels](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
+         + [Abandons multidimensionnels](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Application de segments dans l’analyse des abandons](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flux {#flow}
          + [Flux - Aperçu](analysis-workspace/visualizations/c-flow/flow.md)
@@ -126,7 +126,7 @@ ht-degree: 99%
          + [Gestionnaire d’alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertes intelligentes - Exemples d’utilisation](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Préférences de l’utilisateur](analysis-workspace/user-preferences.md)
-   + FAQ sur Workspace {#workspace-faq}
+   + FAQ sur Espace de travail {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Messages d’erreur](analysis-workspace/workspace-faq/error-messages.md)
@@ -312,8 +312,8 @@ ht-degree: 99%
 + Tableaux de bord Adobe Analytics {#mobapp}
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Présentation du curateur](mobile-app/curator.md)
-   + [Création d’une fiche d’évaluation mobile](mobile-app/create-scorecard.md)
-   + [Configuration des cadres pour l’utilisation des tableaux de bord](mobile-app/set-up-execs.md)
+   + [Création dʼune carte de performance mobile](mobile-app/create-scorecard.md)
+   + [Préparation des utilisateurs en charge de lʼexécution à lʼutilisation des tableaux de bord](mobile-app/set-up-execs.md)
    + [Guide pour une prise en main rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
 + [API de création de rapports](reporting-api.md)
 + [Labs](labs.md)

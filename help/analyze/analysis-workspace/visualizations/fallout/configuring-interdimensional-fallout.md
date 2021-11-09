@@ -1,20 +1,24 @@
 ---
 description: Dans Analysis Workspace, utilisez les abandons pour combiner et associer des dimensions et des mesures comme points de contact dans les entonnoirs et les processus. Vous disposez ainsi d’une plus grande flexibilité pour définir les étapes des utilisateurs sur lesquelles vous souhaitez en savoir plus.
-title: Abandons interdimensionnels
+title: Abandons multidimensionnels
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# Abandons interdimensionnels
+# Abandons multidimensionnels
 
 Dans Analysis Workspace, utilisez les abandons pour combiner et associer des dimensions et des mesures comme points de contact dans les entonnoirs et les processus. Vous disposez ainsi d’une plus grande flexibilité pour définir les étapes des utilisateurs sur lesquelles vous souhaitez en savoir plus.
+
+Voici une vidéo sur le sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **Exemple** : Outre, supposons, une dimension Page, vous pouvez ajouter à une visualisation Abandons des éléments de dimension basés sur l’action. Vous pouvez ainsi visualiser le rôle des pages et de certaines actions dans le parcours de vos clients.
 

@@ -2,10 +2,10 @@
 title: Présentation des classifications
 description: Personnalisez le regroupement des éléments de dimension.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ Lors de la classification, vous établissez une relation entre la variable et le
 Une fois classifié, tout rapport pouvant être généré en utilisant la variable clé peut aussi l’être en utilisant les attributs associés. Par exemple, il est possible de classer les [!UICONTROL ID de produits] avec des attributs de produit supplémentaires, tels que le nom, la couleur, la taille, la description et la référence du produit. Enrichir les données de rapports et analyses avec des attributs supplémentaires vous permet de disposer de rapports plus approfondis et complexes.
 
 Après avoir créé les classifications, vous pouvez exploiter les nouveaux attributs de données dans Adobe Analytics.
+
+Voici une vidéo de présentation des classifications Adobe Analytics :
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## Exemples de codes de suivi
 

@@ -1,13 +1,13 @@
 ---
 title: Suites de rapports multiples
 description: Découvrez comment et pourquoi créer des projets dans Workspace avec plusieurs suites de rapports.
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 * Comparer les données de deux régions différentes et que les données sont dans deux suites de rapports différentes. Vous pouvez créer des tableaux et des visualisations pour comparer les données côte à côte.
 
 * Créer un tableau de bord de mesures et de visualisations pour envoyer des rapports à d’autres organisations. Vous pouvez désormais extraire des données de plusieurs suites de rapports au sein du même projet.
+
+Voici une vidéo sur le sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## Application de suites de rapports à tous les panneaux
 
@@ -35,7 +39,7 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 >Vous pouvez faire glisser et déposer vers n’importe quel panneau situé dans la même suite de rapports que votre panneau actif. En faisant glisser le panneau vers un panneau inactif de la même suite de rapports, le panneau devient actif.
 
 | Tâche | Panneau actif | Panneau inactif |
-|---|---|---|
+| --- | --- | --- |
 | Modifier la suite de rapports | Oui | Non |
 | Glisser-déposer des composants | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |
 | Glisser-déposer des visualisations | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |

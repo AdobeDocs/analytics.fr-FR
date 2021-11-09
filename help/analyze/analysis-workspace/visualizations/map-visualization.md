@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ La visualisation des cartes dans Analysis Workspace :
 * prend en charge l’exportation au format PDF ;
 * tire parti de WebGL pour l’affichage des graphiques. Si vos pilotes graphiques ne prennent pas en charge le rendu WebGL, il se peut que vous deviez les mettre à jour.
 
+Voici une présentation vidéo :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## Génération d’une visualisation de carte {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. Dans la liste des visualisations, faites glisser la **[!UICONTROL Carte]** vers le panneau à structure libre :
@@ -33,18 +37,10 @@ La visualisation des cartes dans Analysis Workspace :
 1. Faites glisser une mesure depuis la liste des mesures (mesures calculées comprises).
 1. Spécifiez la source de données à partir de laquelle le tracé doit être effectué. (Cette boîte de dialogue apparaît uniquement si le suivi de l’emplacement est activé pour les données des applications mobiles.)
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>Lat/Long mobiles</b> </p> </td> 
-   <td colname="col2"> <p>Cette option représente les données des applications mobiles. </p> <p>Cette option apparaît uniquement si vous l’avez activée pour votre suite de rapports sous <span class="ignoretag"> <span class="uicontrol">Analytics </span> &gt; <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Suites de rapports </span> &gt; <span class="uicontrol"> &lt;sélectionnez la suite de rapports&gt; </span> &gt; <span class="uicontrol"> Modifier les paramètres </span> &gt; <span class="uicontrol"> Gestion mobile </span> &gt; <span class="uicontrol"> Activer le suivi de l’emplacement</span></span>. </p> <p>Il s’agit du paramètre par défaut (si le suivi de l’emplacement est activé). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>Dimension géographique</b> </p> </td> 
-   <td colname="col2"> <p>Cette option représente les données de segmentation géographique relatives à l’emplacement du visiteur sur la base de son adresse IP. Ces données sont transformées en pays, région et ville. Notez toutefois qu’elles ne vont pas jusqu’au niveau de la zone de marché ou du code postal. </p> <p>Cette dimension est activée pour pratiquement toutes les suites de rapports. Si ce n’est pas le cas pour la vôtre, contactez l’assistance clientèle Adobe pour faire activer les rapports géographiques. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Paramètre | Description |
+| --- | --- |
+| [!UICONTROL Lat/Long mobiles] | Cette option représente les données des applications mobiles. Cette option s’affiche uniquement si vous l’avez activée pour votre suite de rapports dans [!UICONTROL Analytics] > [!UICONTROL Administration] > [!UICONTROL Suites de rapports] > (sélectionner une suite de rapports) > [!UICONTROL Modifier les paramètres] >  [!UICONTROL Gestion mobile] > [!UICONTROL Activation du suivi de l’emplacement]. Il s’agit du paramètre par défaut (si le suivi de l’emplacement est activé). |
+| [!UICONTROL Dimension géographique] | Cette option représente les données de segmentation géographique relatives à l’emplacement du visiteur sur la base de son adresse IP. Ces données sont transformées en [!UICONTROL Pays], [!UICONTROL Région], et [!UICONTROL Ville]. Notez toutefois qu’elles ne vont pas jusqu’au niveau de la zone de marché ou du code postal. Cette dimension est activée pour pratiquement toutes les suites de rapports. Si ce n’est pas le cas pour la vôtre, contactez l’assistance clientèle Adobe pour faire activer les rapports géographiques. |
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
