@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Cas d’utilisation d’Analysis Workspace
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -66,3 +66,15 @@ Supposons que vous soyez un analyste marketing pour un vendeur au détail d’é
 Voici une vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## Utilisation de l’analyse croisée pour l’attribution marketing de base
+
+Il existe de nombreuses façons de faire évoluer votre méthodologie d’attribution avec Adobe Analytics. Dans cette vidéo, nous montrons comment vous pouvez obtenir des informations plus précises à partir du rapport Canaux marketing à l’aide d’une analyse croisée dans Workspace.
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## Utilisation des mesures de participation dans Analysis Workspace
+
+Cette vidéo montre comment obtenir des mesures de participation à l’aide de mesures calculées :
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

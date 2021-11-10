@@ -4,10 +4,10 @@ description: Le concept d’attribution du crédit d’un événement de succès
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,3 +45,9 @@ Attribution IQ propose les fonctionnalités suivantes :
 * [Appliquer l’attribution à une mesure](../visualizations/freeform-table/column-row-settings/column-settings.md) : utilisez une attribution autre que celle par défaut sur une mesure d’un projet.
 * [Appliquer l’attribution à une ventilation](../components/dimensions/t-breakdown-fa.md) : utilisez une attribution autre que celle par défaut sur une ventilation.
 * [Comparer des modèles d’attribution](../components/apply-create-metrics.md) : comparez rapidement les différents modèles d’attribution pour n’importe quelle mesure.
+
+## Vidéos
+
+Voici une vidéo sur l’utilisation de différents modèles Attribution IQ avec des segments, dans Analysis Workspace :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)

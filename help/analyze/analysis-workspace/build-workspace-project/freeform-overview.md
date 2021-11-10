@@ -6,7 +6,7 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -89,6 +89,12 @@ Les composants (dimensions, mesures, segments, périodes) du rail de gauche se r
 
 ![](assets/left-rail.png)
 
+## Menu contextuel
+
+Voici une vidéo sur l’utilisation du menu contextuel dans Analysis Workspace :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## Canevas de projet {#canvas}
 
 Le canevas du projet est l’emplacement où vous rassemblez des panneaux, des tableaux, des visualisations et des composants pour créer votre analyse. Un projet peut contenir de nombreux panneaux et chaque panneau peut contenir de nombreux tableaux et visualisations.
@@ -101,7 +107,9 @@ Selon le point de départ choisi pour vos projets, le canevas comporte soit un [
 
 ## Chef de projets {#manager}
 
-Les projets Analysis Workspace peuvent être gérés sous **Analytics > Composants > Projets**. Le Gestionnaire de projets affiche les éléments créés par un utilisateur spécifique. La propriété du projet peut être transférée à un nouvel utilisateur sous Admin > Utilisateurs et ressources Analytics > Transférer les ressources.
+Les projets Analysis Workspace peuvent être gérés sous **[!UICONTROL Analytics] > [!UICONTROL Composants] >  [!UICONTROL Projets]**. Le Gestionnaire de projets affiche les éléments créés par un utilisateur spécifique.
+
+La propriété du projet peut être transférée à un nouvel utilisateur sous [!UICONTROL Administration] > [!UICONTROL Utilisateurs et ressources Analytics] > [!UICONTROL Transférer les ressources].
 
 Le Gestionnaire de projets vous permet d’ajouter, baliser, partager, dupliquer/copier et bien plus encore. Utilisez la barre de recherche ou les options de filtre dans le rail de gauche pour rechercher un projet. Vous pouvez filtrer par balise, propriétaires, type de projet et bien d’autres.
 

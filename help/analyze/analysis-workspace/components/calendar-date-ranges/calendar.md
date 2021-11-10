@@ -2,19 +2,23 @@
 description: Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 title: Calendrier et plages de dates - Aperçu
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Calendrier et plages de dates - Aperçu
 
 Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
+
+Voici une vidéo sur l’utilisation des plages de dates et des calendriers dans Analysis Workspace :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 Les sélections du calendrier s’appliquent par défaut au panneau seulement, mais vous pouvez aussi les appliquer à l’ensemble des panneaux. Lorsque vous cliquez sur une période dans Workspace, l’interface affiche le mois civil en cours et le mois civil précédent. Vous pouvez ajuster ces deux calendriers en cliquant sur les flèches droite et gauche dans chaque coin supérieur respectif.
 

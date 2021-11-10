@@ -4,10 +4,10 @@ title: Questions fréquentes et résolution des problèmes dans Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 0%
 Regardez cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
+## Comment effectuer le suivi de l’utilisation de Workspace ?
+
+Regardez cette vidéo sur le suivi des logs d’utilisation pour Analysis Workspace :
+
+>[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
 ## Résolution des problèmes
 
