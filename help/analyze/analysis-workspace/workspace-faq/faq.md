@@ -1,13 +1,13 @@
 ---
 description: FAQ sur Workspace
 title: Questions fréquentes et résolution des problèmes dans Workspace
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | Puis-je utiliser Analysis Workspace pour Data Warehouse ? | Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord. |
 | Comment optimiser les performances d’Analysis Workspace ? | Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
+## Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
+
+Regardez cette vidéo :
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## Résolution des problèmes
 
 **Lorsque je fais glisser une mesure sur l’écran, un message indique « Données incorrectes ».**
@@ -38,3 +44,4 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
 * Accédez à votre site Web et utilisez [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) pour vérifier que la collecte des données s’effectue.
+

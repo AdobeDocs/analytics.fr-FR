@@ -2,19 +2,23 @@
 description: La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
 title: Dimensions de répartition du temps
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Dimensions de répartition du temps
 
 La répartition du temps utilise l’horodatage des accès collectés et les ventile en dimensions plus significatives telles que « Heure du jour » ou « Jour de la semaine ».
+
+Voici une vidéo sur les dimensions de répartition du temps :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 Les dimensions de répartition du temps sont basées sur le fuseau horaire de la suite de rapports ou de la suite de rapports virtuelle. Ces dimensions sont disponibles dans Analysis Workspace et peuvent aider à répondre aux questions suivantes :
 
@@ -30,7 +34,7 @@ Les dimensions de répartition du temps sont basées sur le fuseau horaire de la
 Les dimensions de répartition du temps dans Analysis Workspace incluent :
 
 | Dimension | Exemples de valeur |
-|--- |--- |
+| --- | --- |
 | Heure de la journée | 0-23 |
 | Matin/après-midi | AM, PM |
 | Jour de la semaine | Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche |

@@ -2,13 +2,13 @@
 description: Facteurs qui influeront les performances et les optimisations que vous pouvez effectuer sur Workspace
 title: Facteurs de performances et optimisation d’Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ Les facteurs supplémentaires qui ne sont pas inclus dans Aide > Performances so
 | Taille de la suite de rapports | La quantité de données collectées dans votre suite de rapports. | - | Consultez votre équipe de mise en œuvre ou un expert Adobe pour déterminer si des améliorations peuvent être apportées à l’implémentation afin d’améliorer l’expérience globale dans Adobe Analytics. |
 | Requêtes simultanées | Nombre de requêtes que votre entreprise demande à Adobe en même temps. Chaque entreprise a droit à un minimum de 5 requêtes simultanées. | Si un rapport prend beaucoup de temps, cʼest généralement parce quʼil est dans une file dʼattente avec dʼautres rapports. Cela signifie que votre entreprise essaie dʼexécuter de nombreuses requêtes simultanées sur une suite de rapports spécifique. Les requêtes peuvent provenir des demandes dʼAPI, des interfaces utilisateur des comptes rendus des performances (Analysis Workspace, Reports &amp; Analytics, Report Builder, etc.), des projets, rapports ou alertes planifiés et des utilisateurs simultanés qui effectuent des demandes de comptes rendus des performances. | Diffusez vos requêtes et plannings pour la suite de rapports de manière plus uniforme tout au long de la journée. De même, déplacez vos requêtes vers les heures creuses lorsque cela est possible. Le lundi matin, le mardi matin et le premier jour de chaque mois sont les périodes de pointe pour les comptes rendus des performances. |
 | Capacité du centre de données | Capacité de création de comptes rendus des performances que vous et dʼautres clients partagez au sein dʼun centre de données Adobe. | Cela dépend du nombre de requêtes simultanées effectuées par votre entreprise et dʼautres entreprises au sein de votre centre de données. | Votre entreprise a droit à une capacité déterminée, et, si le système est peu sollicité, Adobe vous transférera une capacité supérieure à celle à laquelle vous avez droit. |
+
+## Conseils pour augmenter la productivité dans Analysis Workspace
+
+Regardez cet aperçu vidéo sur ce sujet :
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
