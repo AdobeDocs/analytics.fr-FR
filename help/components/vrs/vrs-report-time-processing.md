@@ -3,28 +3,28 @@ description: Le traitement de la période de rapport est un paramètre des suite
 title: Traitement de la période de rapport
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
-workflow-type: ht
-source-wordcount: '1421'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 86%
 
 ---
 
 # Traitement de la période de rapport
 
-Le traitement de la période de rapport est un paramètre des suites de rapports virtuelles qui permet aux données d’être traitées de façon rétroactive et non destructrice.
+[!UICONTROL Le traitement de la période de rapport est un paramètre des suites de rapports virtuelles qui permet aux données d’être traitées de façon rétroactive et non destructrice.]
 
 >[!NOTE]
 >
->Le traitement de la période de rapport n’est disponible que dans Analysis Workspace.
+>[!UICONTROL Le traitement de la période de rapport n’est disponible que dans Analysis Workspace.]
 
-Le traitement de la période de rapport affecte uniquement les données de la suite de rapports virtuelle et n’a aucune incidence sur les données ou la collecte de données dans la suite de rapports de base (parente). La différence entre le traitement de la période de rapport et le traitement Analytics classique est plus facile à comprendre à l’aide du diagramme suivant :
+[!UICONTROL Traitement de la période de rapport] affecte uniquement les données de la suite de rapports virtuelle et n’a aucune incidence sur les données ou la collecte de données dans la suite de rapports de base. La différence entre [!UICONTROL Traitement de la période de rapport] et le traitement Analytics classique est mieux compris à l’aide du diagramme suivant :
 
 ![Google1](assets/google1.jpg)
 
 Lors du traitement des données Analytics, les données circulent dans le pipeline de collecte de données et dans une étape de prétraitement qui prépare les données pour la création de rapports. Cette étape de prétraitement applique une logique d’expiration de visite et une logique de persistance des eVars (entre autres) aux données lors de leur collecte. Le principal inconvénient de ce modèle de prétraitement est qu’il nécessite une configuration préalable, avant la collecte des données. Cela signifie, qu’à partir de ce moment-là, les modifications apportées aux paramètres de prétraitement s’appliquent uniquement aux nouvelles données. Cela pose problème si les données n’arrivent pas dans l’ordre ou si les paramètres ont été mal configurés.
 
-Le traitement de la période de rapport est une manière fondamentalement différente de traiter les données Analytics pour la création de rapports. Au lieu de prédéterminer la logique de traitement avant la collecte des données, Analytics ignore le jeu de données pendant l’étape de prétraitement et applique cette logique chaque fois qu’un rapport est exécuté :
+[!UICONTROL Le traitement de la période de rapport est une manière fondamentalement différente de traiter les données Analytics pour la création de rapports. ] Au lieu de prédéterminer la logique de traitement avant la collecte des données, Analytics ignore le jeu de données pendant l’étape de prétraitement et applique cette logique chaque fois qu’un rapport est exécuté :
 
 ![Google2](assets/google2.jpg)
 
@@ -32,13 +32,21 @@ Cette architecture de traitement offre des options de création de rapports beau
 
 Le traitement de la période de rapport permet également à Analytics d’empêcher les accès en arrière-plan de démarrer de nouvelles visites et permet au [SDK Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html) d’indiquer à la création de rapports de démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
 
+## Options de configuration
+
 Les options de configuration suivantes sont actuellement disponibles pour les suites de rapports virtuelles pour lesquelles le traitement de la période de rapport est activé :
 
-* **Délai de visite** : le paramètre Délai de visite définit le délai d’inactivité d’un visiteur unique avant qu’une nouvelle visite ne soit lancée automatiquement. Par défaut, il est fixé à 30 minutes. Par exemple, si vous définissez le délai de visite sur 15 minutes, un nouveau groupe de visites est créé pour chaque séquence d’accès collectés, séparé par 15 minutes d’inactivité. Ce paramètre impacte non seulement le nombre de visites, mais également la manière dont les conteneurs de segments de visite sont évalués, ainsi que la logique d’expiration de la visite pour les eVars expirant lors de la visite. La réduction du délai de visite augmentera probablement le nombre total de visites dans les rapports, tandis que l’augmentation du délai de visite réduira probablement le nombre total de visites dans les rapports.
-* **Paramètres de visite pour les applications mobiles** : pour les suites de rapports contenant des données générées par des applications mobiles via les [SDK Adobe Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html), des paramètres de visite supplémentaires sont disponibles. Ces paramètres sont non destructifs et affectent uniquement les accès collectés via les SDK Mobile. Ces paramètres n’ont aucun impact sur les données collectées en dehors du SDK Mobile.
-* **Empêcher les accès en arrière-plan de commencer une nouvelle visite** : les accès en arrière-plan sont collectés par les SDK mobiles lorsque l’application est en arrière-plan.
-* **Démarrer de nouvelles visites à chaque lancement d’une application** : en plus du délai de visite, vous pouvez forcer une visite à démarrer chaque fois qu’un événement de lancement d’application est enregistré depuis les SDK Mobile, quelle que soit la fenêtre d’inactivité. Ce paramètre affecte la mesure des visites et le conteneur de segments de visite, ainsi que la logique d’expiration de visite des eVars.
-* **Démarrer une nouvelle visite avec un événement** : une nouvelle session démarre lorsqu’un événement est déclenché, qu’une session ait expiré ou non. La session nouvellement créée inclut l’événement à l’origine de son démarrage. De plus, vous pouvez utiliser plusieurs événements pour démarrer une session. Une nouvelle session se déclenche alors si l’un de ces événements est observé dans les données. Ce paramètre aura un impact sur le nombre de visites, sur le conteneur de segmentation des visites et sur la logique d’expiration de visite des eVars.
+* **[!UICONTROL Délai d’expiration de la visite]:** Le paramètre Délai de visite définit le délai d’inactivité d’un visiteur unique avant qu’une nouvelle visite ne soit lancée automatiquement. Par défaut, il est fixé à 30 minutes. Par exemple, si vous définissez le délai de visite sur 15 minutes, un nouveau groupe de visites est créé pour chaque séquence d’accès collectés, séparé par 15 minutes d’inactivité. Ce paramètre impacte non seulement le nombre de visites, mais également la manière dont les conteneurs de segments de visite sont évalués, ainsi que la logique d’expiration de la visite pour les eVars expirant lors de la visite. La réduction du délai de visite augmentera probablement le nombre total de visites dans les rapports, tandis que l’augmentation du délai de visite réduira probablement le nombre total de visites dans les rapports.
+* **[!UICONTROL Paramètres de visite des applications mobiles]:** Pour les suites de rapports contenant des données générées par des applications mobiles via la variable [Adobe des SDK mobiles](https://www.adobe.io/apis/cloudplatform/mobile.html), des paramètres de visite supplémentaires sont disponibles. Ces paramètres sont non destructifs et affectent uniquement les accès collectés via les SDK Mobile. Ces paramètres n’ont aucun impact sur les données collectées en dehors du SDK Mobile.
+* **[!UICONTROL Empêcher les accès en arrière-plan de commencer une nouvelle visite]:** Les accès en arrière-plan sont collectés par les SDK mobiles lorsque l’application est à l’état d’arrière-plan.
+* **[!UICONTROL Démarrer une nouvelle visite à chaque lancement d’application]:** Outre le délai de visite, vous pouvez forcer une visite à commencer chaque fois qu’un événement de lancement d’application a été enregistré à partir des SDK Mobile, quelle que soit la fenêtre d’inactivité. Ce paramètre affecte la mesure des visites et le conteneur de segments de visite, ainsi que la logique d’expiration de visite des eVars.
+* **[!UICONTROL Commencer une nouvelle visite avec un événement]:** Une nouvelle session démarre lorsqu’un événement est déclenché, qu’une session ait expiré ou non. La session nouvellement créée inclut l’événement à l’origine de son démarrage. De plus, vous pouvez utiliser plusieurs événements pour démarrer une session. Une nouvelle session se déclenche alors si l’un de ces événements est observé dans les données. Ce paramètre aura un impact sur le nombre de visites, sur le conteneur de segmentation des visites et sur la logique d’expiration de visite des eVars.
+
+Voici une vidéo sur le démarrage d’une nouvelle visite avec un événement :
+
+>[!VIDEO](https://video.tv.adobe.com/v/23129/?quality=12)
+
+## Limites du traitement de la période de rapport
 
 Le traitement de la période de rapport ne prend pas en charge toutes les mesures et dimensions disponibles dans la création de rapports Analytics traditionnelle. Les suites de rapports virtuelles utilisant le report de traitement du temps sont accessibles uniquement dans Analysis Workspace. Elles ne sont pas accessibles dans [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, les flux de données ou l’API de création de rapports.
 
@@ -61,6 +69,8 @@ Vous trouverez ci-dessous une liste de mesures et de dimensions qui ne sont actu
 * **Dimension Domaine référent initial** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
 * **Nombre de visites** : en raison de la nature du fenêtrage de dates de l’option Traitement de la période de rapport, cette mesure n’est pas prise en charge. Autre possibilité dans les applications mobiles, vous pouvez utiliser une mesure calculée incluant les visiteurs/visites avec la mesure Installation de l’application pour identifier les nouveaux visiteurs ou les nouvelles visites.
 * **Sources de données d’ID de transaction** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
+
+## Dimensions et mesures affectées
 
 Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en fonction des paramètres de traitement de la période de rapport sélectionnés :
 

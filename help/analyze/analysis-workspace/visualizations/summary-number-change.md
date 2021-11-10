@@ -2,21 +2,25 @@
 description: Utilisez les visualisations Synthèse des chiffres et Synthèse des changements pour afficher des points de données importants dans un projet.
 title: Synthèse des chiffres et synthèse des changements
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 84%
 
 ---
 
 # Synthèse des chiffres et synthèse des changements
 
-## Visualisation Synthèse des chiffres  {#summary-number}
+Voici une vidéo sur ces deux visualisations :
 
-Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un grand nombre d’éléments importants dans un projet. Cette visualisation fonctionne comme suit :
+>[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+
+## [!UICONTROL Visualisation Synthèse des chiffres ] {#summary-number}
+
+Utilisez la variable [!UICONTROL Numéro de résumé] pour mettre en évidence un grand nombre d’éléments importants dans un projet. Cette visualisation fonctionne comme suit :
 
 * Sélectionne toutes les colonnes si aucune cellule n’est sélectionnée.
 * Si une seule cellule est sélectionnée, son résumé s’affiche.
@@ -27,14 +31,14 @@ Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérie
 
 | Paramètre | Définition |
 |--- |--- |
-| Pourcentages | Affichent des pourcentages plutôt que des chiffres bruts. |
-| Légende visible | Affiche des informations sur la mesure affichée. |
-| Abréger la valeur | Abrège les valeurs et affiche jusqu’à 3 chiffres après la virgule. |
-| Résumer la valeur par | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
+| [!UICONTROL Pourcentages] | Affichent des pourcentages plutôt que des chiffres bruts. |
+| [!UICONTROL Légende visible] | Affiche des informations sur la mesure affichée. |
+| [!UICONTROL Abréger la valeur] | Abrège les valeurs et affiche jusqu’à 3 chiffres après la virgule. |
+| [!UICONTROL Résumer la valeur par] | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
 
-## Visualisation Résumé des changements {#summary-change}
+## [!UICONTROL Visualisation Résumé des changements] {#summary-change}
 
-Utilisez la visualisation Synthèse des changements pour afficher le delta (changement) entre deux chiffres. La couleur verte et la couleur rouge de la Synthèse des changements peuvent être contrôlées par [polarité d’événement personnalisé](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=fr) ou par l’option [Tendance à la hausse affichée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) d’une mesure calculée.
+Utilisez la variable [!UICONTROL Résumé des changements] visualisation pour afficher le delta (changement) entre deux nombres. Couleur verte et rouge de l’objet [!UICONTROL Résumé des changements] peut être contrôlé par [polarité d’événement personnalisé](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=fr) ou d’une mesure calculée [Afficher la tendance à la hausse comme](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) .
 
 Cette visualisation fonctionne comme suit :
 
@@ -52,8 +56,8 @@ Cette visualisation fonctionne comme suit :
 Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérieur droit pour configurer les paramètres de Synthèse des changements :
 
 | Paramètre | Définition |
-|--- |--- |
-| Pourcentages | Affichent des pourcentages plutôt que des chiffres bruts. |
-| Légende visible | Affiche des informations sur la mesure affichée. |
-| Afficher le pourcentage de changement | Affiche le pourcentage de changement entre les 2 chiffres. |
-| Afficher la différence brute | Affiche la différence brute entre 2 nombres. Vous pouvez également abréger des valeurs et afficher jusqu’à 3 chiffres après la virgule avec cette option. |
+| --- | --- |
+| [!UICONTROL Pourcentages] | Affichent des pourcentages plutôt que des chiffres bruts. |
+| [!UICONTROL Légende visible] | Affiche des informations sur la mesure affichée. |
+| [!UICONTROL Afficher le pourcentage de changement] | Affiche le pourcentage de changement entre les 2 chiffres. |
+| [!UICONTROL Afficher la différence brute] | Affiche la différence brute entre 2 nombres. Vous pouvez également abréger des valeurs et afficher jusqu’à 3 chiffres après la virgule avec cette option. |

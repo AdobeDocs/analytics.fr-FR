@@ -4,10 +4,10 @@ title: À propos des segments et des conteneurs
 feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,10 @@ Un segment définit des conditions de filtrage d’un visiteur basées sur ses a
 L’architecture de conteneur utilisée dans le Créateur de segments définit **[!UICONTROL Visiteur]** en tant que conteneur le plus éloigné, comportant les données principales spécifiques au visiteur pour les visites et les pages vues. Un conteneur **[!UICONTROL Visite]** imbriqué permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur **[!UICONTROL Accès]** imbriqué permet de ventiler les informations du visiteur selon des pages vues spécifiques. Chaque conteneur permet de créer un rapport de l’historique du visiteur, de ses interactions ventilées par visites ou de ses ventilations par accès individuels.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+Voici un aperçu vidéo des conteneurs de segments :
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **Conteneur de visiteurs**
 
@@ -139,7 +143,7 @@ Country = United States + Order = True
 
 crée un segment qui se comporte dans cet ordre :
 
-1. Ce segment étudierait tout d’abord l’ensemble des données et identifierait tous les visiteurs compris dans les États-Unis.
+1. Ce segment étudie tout d’abord l’ensemble des données et identifie tous les visiteurs compris aux États-Unis.
 1. Le segment étudierait alors à nouveau toutes les données, recherchant si des visiteurs ont passé une commande.
 1. Les deux jeux de données s’appliqueraient alors au rapport.
 

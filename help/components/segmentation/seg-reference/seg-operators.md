@@ -4,10 +4,10 @@ title: Opérateurs de comparaison pour les segments
 feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 100%
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exem
 | est inférieur à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur à la valeur saisie. |
 | est supérieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur ou égal à la valeur saisie. |
 | est inférieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur ou égal à la valeur saisie. |
+
+Voici une vidéo sur la segmentation sur des nombres de dimensions distincts :
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
