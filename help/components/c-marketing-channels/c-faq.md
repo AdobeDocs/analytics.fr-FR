@@ -1,10 +1,10 @@
 ---
 title: FAQ sur les canaux marketing
 description: Forum aux questions sur les canaux marketing.
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
-workflow-type: ht
-source-wordcount: '1485'
-ht-degree: 100%
+source-git-commit: 9d4470dd297227333c6043572820053d7eb5e899
+workflow-type: tm+mt
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ La Dernière touche interne (actualisation de session) ne peut avoir lieu que si
 
 * **Effacement des cookies pendant la visite** : un visiteur se rend sur le site et efface ses cookies durant la visite. Les canaux Première touche et Dernière touche seront réinitialisés et la visite sera classée comme Actualisation de session (car le référent est interne).
 
-Voici un exemple de canal interne (actualisation de session) défini comme canaux Première touche et Dernière touche :
+Vous trouverez ci-dessous un exemple de canal interne (actualisation de session) défini comme canaux Première touche et Dernière touche :
 
 * Jour 1 : l’utilisateur accède au site par le biais de l’Affichage. Les canaux Première touche et Dernière touche seront définis sur Affichage.
 * Jour 2 : l’utilisateur se rend sur le site par le biais d’une Recherche naturelle. La première touche reste sur Affichage et la dernière touche est définie sur Recherche naturelle.
