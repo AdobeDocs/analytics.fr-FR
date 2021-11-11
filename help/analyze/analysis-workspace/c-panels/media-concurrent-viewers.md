@@ -1,13 +1,13 @@
 ---
 title: Panneau des visionneuses simultanées de médias
 description: Comment utiliser et interpréter le panneau d’observateurs simultanés de médias dans Analysis Workspace.
-feature: Panneaux
+feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '1012'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,10 @@ Les clients Media Analytics peuvent analyser les observateurs simultanés pour d
 Dans Analysis Workspace, les observateurs simultanés représentent le nombre de visiteurs uniques qui visualisent vos flux de médias à un moment donné, quel que soit le nombre de sessions.
 
 Le panneau d’observateurs simultanés de médias permet d’analyser les observateurs simultanés au fil du temps. Il fournit également des informations détaillées sur le pic d’accès simultanés et la possibilité de ventiler et de comparer.  Pour accéder au panneau d’observateurs simultanés de médias, naviguez vers une suite de rapports dans laquelle les composants Media Analytics sont activés. Cliquez ensuite sur l’icône du panneau située à l’extrémité gauche et faites glisser le panneau dans votre projet Analysis Workspace.
+
+Voici un aperçu vidéo de ce panneau :
+
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Entrées de panneau {#Input}
 

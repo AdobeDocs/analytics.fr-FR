@@ -4,10 +4,10 @@ description: Vous pouvez définir des préférences générales et de projet pou
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 79%
+source-wordcount: '277'
+ht-degree: 84%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 79%
 La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] permet de gérer les paramètres dʼAnalysis Workspace et de ses composants associés au niveau de lʼutilisateur. Les préférences utilisateur sʼappliquent à tous les *nouveaux* projets ou panneaux.
 
 ![Préférences de l’utilisateur](assets/user-preferences.png)
+
+Voici une courte vidéo sur les préférences de l’utilisateur :
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## Préférences générales
 
@@ -46,8 +50,8 @@ Les préférences de projet sʼappliquent aux nouveaux projets et aux nouveaux p
 
 Si vous préférez disposer d’un arrière-plan sombre pour l’interface utilisateur d’Adobe Analytics, vous pouvez passer à [!UICONTROL Thème sombre].
 
-1. Cliquez sur l’icône utilisateur Experience Cloud en haut à droite.
+1. Cliquez sur lʼicône dʼutilisateur dʼExperience Cloud en haut à droite.
 
-   ![dark-theme](assets/dark-theme.png)
+   ![thème-sombre](assets/dark-theme.png)
 
-1. Déplacer le **[!UICONTROL Thème sombre]** bascule vers la droite.
+1. Déplacez le bouton bascule du **[!UICONTROL Thème sombre]** vers la droite.
