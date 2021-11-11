@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez créer un projet d’après :
 
 ![](assets/start_modal.png)
 
-## Création d’un modèle personnalisé {#create-custom-template}
+## Créer des modèles personnalisés {#create-custom-template}
 
 Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
@@ -41,9 +41,7 @@ Voici une vidéo sur la création et la gestion de modèles personnalisés :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Actions possibles sur les modèles personnalisés
-
-![](assets/custom_templates.png)
+### Gestion des modèles personnalisés {#manage-custom-template}
 
 | Action | Description |
 |--- |--- |
@@ -66,11 +64,7 @@ Voici les modèles disponibles et les questions auxquelles chaque modèle peut c
 
 ### Formation
 
-Ces modèles standard vous guident dans la terminologie et les étapes courantes de création de votre première analyse dans Workspace. Il sont disponibles sous forme de modèle standard dans le modal Nouveau projet et remplacent l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
-
-* **Tutoriel de formation - Analyse de recherche interne** : Le tutoriel de recherche interne vous aide à comprendre ce que vos visiteurs recherchent sur le site Web ou dans l’application, sans le trouver. L’analyse de ce type de données peut faire apparaître des opportunités d’optimisation du contenu.
-
-* **Tutoriel de formation - Analyse marketing** : ce tutoriel vous explique comment assembler une analyse marketing pour vos cadres, y compris les dimensions et mesures personnalisées importantes.
+Ce modèle standard vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
 
 Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 
@@ -80,38 +74,40 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 
 >[!IMPORTANT]
 >
->Les modèles Publicité sont accessibles uniquement si votre suite de rapports est activée pour Advertising Cloud.
+>Les modèles de publicité ne sont disponibles que si votre suite de rapports est activée pour [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **Moteurs de recherche payante** : ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
 
 ### Commerce
 
-* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce sur internet en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, landing page, emplacement géographique, etc. Pour une présentation vidéo, voir :
+* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce sur internet en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, landing page, emplacement géographique, etc. Voici un tutoriel vidéo sur la [Magento : Modèle Marketing et Commerce](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=fr).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=fr)
+### Collecte de données
+
+* **Impact ITP**: Découvrez comment l’ITP d’Apple affecte vos données et comment ajuster le reporting en conséquence.
 
 ### Média
 
-* **Consommation audio** : quel contenu est le plus consommé et attire le plus d’utilisateurs ? Voici une vidéo sur le modèle Consommation audio :
+* **Consommation de contenu**: Qui sont mes fidèles lecteurs ?
+* **Récence - Fréquence - Fidélité**: Quel contenu est le plus consommé et attire le plus d’utilisateurs ?
+* **Consommation des médias en flux continu**: Fournit les tendances et les principales mesures de la consommation multimédia sur tous les appareils numériques. Voici une vidéo sur le modèle de consommation de médias en continu :
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
-
-* **Récence, fréquence, fidélité** : qui sont mes fidèles lecteurs ?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Les modèles mobiles sont accessibles uniquement si votre suite de rapports est activée pour Mobile.
+>Les modèles mobiles ne sont disponibles que si votre suite de rapports est activée pour l’analyse des applications mobiles.
 
-* **Message :** est axé sur les performances de la messagerie in-app et push.
-* **Emplacement :** comprend une carte représentant les données de positionnement.
-* **Mesures clés :** sachez de quelle façon se comportent les mesures clés de votre application.
-* **Utilisation de l’application :** combien d’utilisateurs, de lancements et de premiers lancements de l’application avait l’application et quelle est la durée de session moyenne ?
 * **Acquisition :** contrôlez les performances des liens d’acquisition mobile.
+* **Utilisation de l’application :** combien d’utilisateurs, de lancements et de premiers lancements de l’application avait l’application et quelle est la durée de session moyenne ?
+* **Parcours :** quels sont les schémas d’utilisation dominants de mon application ?
+* **Mesures clés :** sachez de quelle façon se comportent les mesures clés de votre application.
+* **Emplacement :** comprend une carte représentant les données de positionnement.
+* **Message :** est axé sur les performances de la messagerie in-app et push.
 * **Performances :** quelles sont les performances de l’application et où les utilisateurs rencontrent-ils des problèmes ?
 * **Rétention :** qui sont mes fidèles utilisateurs et que font-ils ?
-* **Parcours :** quels sont les schémas d’utilisation dominants de mon application ?
 
 ### Vente au détail
 
@@ -121,6 +117,7 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 ### Web
 
 * **Acquisition :** quels sont les principaux facteurs orientant le trafic vers mon site web ?
+* **AEM présentation des performances du site :** Quelles sont les performances de mon site Adobe Experience Manager ?
 * **Consommation de contenu :** où se rendent surtout les personnes sur mon site ?
 * **Rétention :** quels types d’utilisateurs seront a priori les plus fidèles à mon site ?
 * **Technologie :** quelle technologie utilisent les visiteurs de mon site ?
@@ -130,10 +127,6 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 >[!NOTE]
 >
 >Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=fr).
-
-Présentation vidéo du modèle Personnes :
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
 
@@ -145,7 +138,7 @@ Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de 
 * Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
 * Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
-### Journey IQ : Modèle d’analyse entre appareils
+### Parcours IQ : Modèle Analyses entre appareils
 
 <!--This content is mirrored in the CDA doc.-->
 
