@@ -3,10 +3,10 @@ description: Une liste complète et des descriptions des variables de configurat
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '611'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ Une liste complète et des descriptions des variables de configuration, des en-t
 
 ## Variables de configuration {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spéciales au niveau du système utilisées par nos [serveurs de collecte de données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=fr) (DCS). Voir aussi [Supported Attributes for DCS API calls (Attributs pris en charge pour les appels de l’API DCS)](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=fr).
 
 | Paramètre | Description |
 |--- |--- |
@@ -29,16 +29,14 @@ Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spé
 
 Ces en-têtes sont des champs contenant des informations telles que des demandes de données et de réponses d’un appel HTTP.
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-| En-tête HTTP | Description |
-|--- |--- |
-| Hôte | Défini sur le nom d’hôte de la collecte de données spécifique du client indiqué dans le fichier de configuration de l’hôte Analytics. Il apparaît sous la forme   `host name .demdex.net` .  Voir Signification des appels vers le domaine Demdex (Understanding Calls to the Demdex Domain). |
-| User-Agent | Défini sur l’en-tête User-Agent transmis à Analytics. |
-| X-Original-User-Agent | Défini uniquement si un autre agent-utilisateur a été spécifié par l’un des en-têtes suivants : </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
-| X-Forwarded-For | Défini sur l’adresse IP du client demandeur. Analytics a déjà analysé l’en-tête `X-Forwarded-For` entrant et déterminé l’adresse IP correcte à utiliser. |
-| Accept-Language | Défini sur l’en-tête `Accept-Language` transmis à Analytics. |
-| Referer | Défini sur l’URL de page transmise à Analytics ou recueillie auprès de l’en-tête Referer transmis à Analytics. |
+| En-tête HTTP | Description | h_ clés acceptées par l’Audience Manager |
+| --- | --- | --- |
+| Hôte | Défini sur le nom d’hôte de la collecte de données spécifique du client indiqué dans le fichier de configuration de l’hôte Analytics. Il apparaît sous la forme `host name .demdex.net`. Voir [Signification des appels vers le domaine Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) (Understanding Calls to the Demdex Domain). | `h_host` |
+| User-Agent | Défini sur l’en-tête User-Agent transmis à Analytics. | `h_user-agent` |
+| Accept-Language | Défini sur l’en-tête `Accept-Language` transmis à Analytics. | `h_accept-language` |
+| Referer | Défini l’URL de la page transmise à Analytics ou collectée à partir de l’en-tête `Referer` transmis à Analytics. | `h_referer` |
+| Référent | Défini l’URL de la page transmise à Analytics ou collectée à partir de l’en-tête `Referrer` transmis à Analytics. | `h_referrer` |
+| IP | Signal généré à partir de l’adresse IP de l’hôte qui envoie la demande au serveur de collecte de données. | `h_ip` |
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
@@ -49,7 +47,7 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | c_browserWidth et c_browserHeight | Largeur et hauteur de la fenêtre du navigateur. |
 | c_campaign | Défini par s.campaign . |
 | c_channel | Défini par s.channel . |
-| c_clientDateTime | Horodatage au format jj/mm/aaaa hh:mm:ss W TZ.    TZ est exprimé en minutes et correspond au retour de la méthode Date.getTimezoneOffset. |
+| c_clientDateTime | Horodatage au format jj/mm/aaaa hh:mm:ss W TZ .    TZ est exprimé en minutes et correspond au retour de la méthode Date.getTimezoneOffset. |
 | c_colorDepth | Spécifié en tant que couleur 16 ou 32 bits. |
 | c_connectionType | Indique le type de connexion. Les options incluent :<ul><li>modem</li><li>lan</li></ul> |
 | c_contextData.* | Exemples :<ul><li>AppMeasurement: s.contextData</li><li>[« category »] = « news » ;</li><li>Signal : c_contextData.category=news</li></ul> |
