@@ -3,10 +3,10 @@ description: Une liste complète et des descriptions des variables de configurat
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
+source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 94%
+source-wordcount: '510'
+ht-degree: 93%
 
 ---
 
@@ -20,16 +20,16 @@ Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spé
 
 | Paramètre | Description |
 |--- |--- |
-| d_rs | (Définit à l’aide du transfert côté serveur hérité/basé sur un serveur de suivi) <br>Définissez les suites de rapports transmises avec l’accès à Analytics. |
-| d_dst_filter | (Définit à l’aide du transfert côté serveur basé sur une suite de rapports) <br>Définissez les ID de suite de rapports transmis avec l’accès à Analytics. |
-| d_dst | Définissez d_dst=1<br> si la demande envoyée à Analytics s’attend à ce que du contenu relatif à la destination soit renvoyé au client. |
-| d_mid | Experience Cloud ID transmis à Analytics. |
+| `d_rs` | (Définit à l’aide du transfert côté serveur hérité/basé sur un serveur de suivi) <br>Définissez les suites de rapports transmises avec l’accès à Analytics. |
+| `d_dst_filter` | (Définit à l’aide du transfert côté serveur basé sur une suite de rapports) <br>Définissez les ID de suite de rapports transmis avec l’accès à Analytics. |
+| `d_dst` | Définissez `d_dst=1` si la demande envoyée à Analytics s’attend à ce que du contenu relatif à la destination soit renvoyé au client.<br> |
+| `d_mid` | Experience Cloud ID transmis à Analytics. |
 
 ## En-têtes HTTP {#section_0549705E76004F9585224AEF872066C0}
 
 Ces en-têtes sont des champs contenant des informations telles que des demandes de données et de réponses d’un appel HTTP.
 
-| En-tête HTTP | Description | h_ clés acceptées par l’Audience Manager |
+| En-tête HTTP | Description | h_ clé acceptée par l’Audience Manager |
 | --- | --- | --- |
 | Hôte | Défini sur le nom d’hôte de la collecte de données spécifique du client indiqué dans le fichier de configuration de l’hôte Analytics. Il apparaît sous la forme `host name .demdex.net`. Voir [Signification des appels vers le domaine Demdex](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) (Understanding Calls to the Demdex Domain). | `h_host` |
 | User-Agent | Défini sur l’en-tête User-Agent transmis à Analytics. | `h_user-agent` |
@@ -43,38 +43,38 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
-|--- |--- |
-| c_browserWidth et c_browserHeight | Largeur et hauteur de la fenêtre du navigateur. |
-| c_campaign | Défini par s.campaign . |
-| c_channel | Défini par s.channel . |
-| c_clientDateTime | Horodatage au format jj/mm/aaaa hh:mm:ss W TZ .    TZ est exprimé en minutes et correspond au retour de la méthode Date.getTimezoneOffset. |
-| c_colorDepth | Spécifié en tant que couleur 16 ou 32 bits. |
-| c_connectionType | Indique le type de connexion. Les options incluent :<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Exemples :<ul><li>AppMeasurement: s.contextData</li><li>[« category »] = « news » ;</li><li>Signal : c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | Indique si les cookies peuvent être activés. Les options incluent : oui, non, inconnu |
-| c_currencyCode | Type de devise utilisé pour la transaction. |
-| c_evar# | eVars personnalisées |
-| c_events | Défini par s.events. |
-| c_hier# | Variables de hiérarchie personnalisées. |
-| c_javaEnabled | Indique si Java peut être activé. Les options incluent : oui, non, inconnu |
-| c_javaScriptVersion | Version de JavaScript prise en charge par un navigateur. |
-| c_latitude | Latitude numérique |
-| c_linkClick | Les options incluent : personnalisé, télécharger une sortie |
-| c_linkCustomName | Nom personnalisé (le cas échéant) fourni pour le lien. |
-| c_linkDownloadURL | URL des liens de téléchargement. |
-| c_linkExitURL | URL du lien de sortie. |
-| c_list# | Variables de liste personnalisées. |
-| c_longitude | Longitude numérique. |
-| c_mediaPlayerType | Pour les demandes de suivi du flux multimédia. Les options incluent : autre, primetime |
-| c_pageName | Nom de la page (si défini). |
-| c_pageURL | Adresse de la page dans la barre d’adresse du navigateur. |
-| c_products | Chaîne de produit (définie par s.products ). |
-| c_prop | Props personnalisées. |
-| c_purchaseID | ID unique pour l’achat. |
-| c_referrer | Page précédant la page active. |
-| c_screenResolution | Largeur et hauteur de l’écran (en pixels). |
-| c_server | Nom du serveur web (défini par s.server ). |
-| c_state | Région géographique (définie par s.state ). |
-| c_timezone | Décalage horaire (en heures). |
-| c_transactionID | ID unique pour une transaction. |
-| c_zip | Code postal (défini par s.zip). |
+| --- |--- |
+| `c_browserWidth`  et `c_browserHeight` | Largeur et hauteur de la fenêtre du navigateur. |
+| `c_campaign` | Défini par `s.campaign`. |
+| `c_channel` | Défini par `s.channel`. |
+| `c_clientDateTime` | Horodatage au format `dd/mm/yyy hh:mm:ss  W TZ` . `TZ` est exprimé en minutes et correspond au retour de la méthode `Date.getTimezoneOffset` |
+| `c_colorDepth` | Spécifié en tant que couleur 16 ou 32 bits. |
+| `c_connectionType` | Indique le type de connexion. Les options incluent :<ul><li>modem</li><li>lan</li></ul> |
+| `c_contextData.*` | Exemples :<ul><li>AppMeasurement: `s.contextData`</li><li>[« category »] = « news » ;</li><li>Signal: `c_contextData.category=news`</li></ul> |
+| `c_cookiesEnabled` | Indique si les cookies peuvent être activés. Les options incluent : oui, non, inconnu |
+| `c_currencyCode` | Type de devise utilisé pour la transaction. |
+| `c_evar#` | eVars personnalisées |
+| `c_events` | Défini par `s.events`. |
+| `c_hier#` | Variables de hiérarchie personnalisées. |
+| `c_javaEnabled` | Indique si Java peut être activé. Les options incluent : oui, non, inconnu |
+| `c_javaScriptVersion` | Version de JavaScript prise en charge par un navigateur. |
+| `c_latitude` | Latitude numérique |
+| `c_linkClick` | Les options incluent : personnalisé, télécharger une sortie |
+| `c_linkCustomName` | Nom personnalisé (le cas échéant) fourni pour le lien. |
+| `c_linkDownloadURL` | URL des liens de téléchargement. |
+| `c_linkExitURL` | URL du lien de sortie. |
+| `c_list#` | Variables de liste personnalisées. |
+| `c_longitude` | Longitude numérique. |
+| `c_mediaPlayerType` | Pour les demandes de suivi du flux multimédia. Les options incluent : autre, primetime |
+| `c_pageName` | Nom de la page (si défini). |
+| `c_pageURL` | Adresse de la page dans la barre d’adresse du navigateur. |
+| `c_products` | Chaîne de produit (définie par `s.products`). |
+| `c_prop` | Props personnalisées. |
+| `c_purchaseID` | ID unique pour l’achat. |
+| `c_referrer` | Page précédant la page active. |
+| `c_screenResolution` | Largeur et hauteur de l’écran (en pixels). |
+| `c_server` | Nom du serveur web (défini par `s.server`). |
+| `c_state` | Région géographique (définie par `s.state`). |
+| `c_timezone` | Décalage horaire (en heures). |
+| `c_transactionID` | ID unique pour une transaction. |
+| `c_zip` | Code postal (défini par `s.zip`). |
