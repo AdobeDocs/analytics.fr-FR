@@ -3,10 +3,10 @@ description: Une liste complète et des descriptions des variables de configurat
 title: Données et référence de code du transfert côté serveur
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
+source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,8 @@ Ces en-têtes sont des champs contenant des informations telles que des demandes
 | Accept-Language | Défini sur l’en-tête `Accept-Language` transmis à Analytics. | `h_accept-language` |
 | Referer | Défini l’URL de la page transmise à Analytics ou collectée à partir de l’en-tête `Referer` transmis à Analytics. | `h_referer` |
 | Référent | Défini l’URL de la page transmise à Analytics ou collectée à partir de l’en-tête `Referrer` transmis à Analytics. | `h_referrer` |
-| IP | Signal généré à partir de l’adresse IP de l’hôte qui envoie la demande au serveur de collecte de données. | `h_ip` |
+
+En outre, un `h_ip` Le signal est généré à partir de l’adresse IP de l’hôte qui envoie la demande au serveur de collecte de données.
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
