@@ -4,10 +4,10 @@ description: Analysis Workspace est l’outil d’analyse principal d’Adobe An
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 94%
 
 ---
 
@@ -70,4 +70,4 @@ Voici un aperçu vidéo de la gestion de projet :
 ## Ressources supplémentaires {#resources}
 
 * Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=fr).
-* Voir [Nouveautés d’Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) pour des mises à jour des nouvelles fonctionnalités.
+* Voir [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) pour des mises à jour sur les nouvelles fonctionnalités.
