@@ -2,13 +2,13 @@
 description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
 keywords: Analysis Workspace
 title: Planification de projets
-feature: Traitement et partage
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics
 
 Dans le Gestionnaire de projets planifiés, vous pouvez modifier et supprimer les calendriers de projets récurrents. Utilisez la barre de recherche ou les options de filtre dans le rail de gauche pour rechercher un calendrier. Vous pouvez filtrer par balise, calendriers approuvés, propriétaires, etc.
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| Champ | Description |
+| --- | --- |
+| Favoris | Le fait de sélectionner l’icône en forme d’étoile rend ce planning favori. |
+| ID de planification | Cet identifiant est principalement utilisé à des fins de débogage. |
+| Titre et description | Titre et description de ce projet. |
+| Propriétaire | Personne qui a créé et est propriétaire du projet. |
+| Balises | (facultatif) Le balisage est un bon moyen d’organiser les projets. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un projet. Cependant, vous ne pouvez afficher les balises que pour les projets que vous possédez ou qui ont été partagés avec vous. |
+| Distribué à | Le ou les destinataires de ce projet planifié. |
+| Date d’expiration | La date d’expiration par défaut est d’un an à compter de la date de création. |
+| Fréquence | Fréquence à laquelle vous souhaitez envoyer ce projet de planification aux destinataires. |
+| Heure d’exécution | À quelle heure ce projet planifié est envoyé. |
+| Nombre de requêtes | Nombre de requêtes par rapport à ce projet. |
+
+## Actions communes
 
 Actions courantes du Gestionnaire de projets planifiés :
 

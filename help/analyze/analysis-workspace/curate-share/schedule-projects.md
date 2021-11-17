@@ -3,10 +3,10 @@ description: Gérez des projets planifiés d’Analysis Workspace
 keywords: Analysis Workspace
 title: Gestionnaire de projets planifiés
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 86%
 
 ---
 
@@ -28,6 +28,10 @@ Dans le Gestionnaire de planification des projets, vous pouvez modifier et suppr
 Le Gestionnaire de planification des projets affiche les éléments créés par un utilisateur spécifique. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues.
 
 ![](assets/scheduled-projects.png)
+
+## Planification des tâches du gestionnaire de projet
+
+Dans le [!UICONTROL Projets planifiés] Dans l’interface utilisateur, vous pouvez effectuer les opérations suivantes :
 
 * Modifier les projets planifiés
 * Afficher l’ID de planification d’un projet (principalement utilisé à des fins de débogage)
