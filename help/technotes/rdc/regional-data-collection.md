@@ -2,10 +2,10 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
-workflow-type: ht
-source-wordcount: '451'
-ht-degree: 100%
+source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 
 >[!IMPORTANT]
 >
->Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. Lʼoptimisation des performances en Chine continentale dʼAdobe permet aux clients à lʼintérieur de la Chine dʼenvoyer directement des données au nœud de périphérie en Chine, plutôt quʼà dʼautres emplacements à lʼéchelle mondiale. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
+>Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. L’optimisation des performances d’Adobe en Chine continentale permet aux clients ayant des utilisateurs en Chine d’envoyer ces données directement au noeud de périphérie de la Chine, plutôt qu’à d’autres emplacements à l’échelle mondiale. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
@@ -34,14 +34,16 @@ Remarque : si votre demande dʼimage Analytics est envoyée aux points d’entr
 | Type de collecte de données régionale | Centres de collecte de données |
 |---------------------|-------------------|
 | Mondiale (par défaut) | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
+| Global + Chine* | Chine*, Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney |
 | Amériques uniquement | Oregon, Virginie |
 | Europe uniquement | Irlande, Paris |
 | Asie-Pacifique uniquement | Mumbai, Singapour, Tokyo, Sydney |
 | Chine uniquement* | Pékin |
 
-*La collecte de données régionale pour la Chine nécessite le package de composants additionnels pour la Chine. Consultez la remarque « Important » ci-dessus.
+*Les types RDC Chine seule et Global + Chine nécessitent le package de module complémentaire Chine. Consultez la remarque « Important » ci-dessus. Global + Chine acheminera les données provenant de Chine vers notre RDC Chine tout en acheminant les données provenant de l’extérieur de la Chine vers la RDC la plus proche en dehors de la Chine.
 
-Remarque : Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux.  Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez lʼassistance clientèle dʼAdobe pour obtenir de lʼaide.
+>[!NOTE]
+>Experience Edge Global et Global + Chine offrent les meilleures performances pour vos utilisateurs finaux. Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez l’assistance clientèle Adobe pour obtenir de l’aide.
 
 ## Avantages de la collecte de données régionale
 
