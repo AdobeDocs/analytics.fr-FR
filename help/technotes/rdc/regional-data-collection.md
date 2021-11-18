@@ -2,10 +2,10 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e020e768b7a3a5495fcc86cb3fd1fbc5a421d224
+source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 78%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,9 +25,11 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 |---------------------|-------------------|
 | Par défaut | Oregon, Virginie, Irlande, Paris, Mumbai, Singapour, Tokyo, Sydney, Chine* |
 
-Remarque : si votre demande dʼimage Analytics est envoyée aux points d’entrée `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez alors dʼune collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
-
 *La collecte de données régionale pour la Chine nécessite le package de composants additionnels pour la Chine. Consultez la remarque « Important » ci-dessus.
+
+>[!NOTE]
+>
+>Si votre demande d’image Analytics est envoyée à la variable `adobedc`, `2o7.net` ou `omtrdc.net` points de terminaison , vous disposez ensuite d’une collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
 ## Collecte de données HTTPS propriétaires
 
@@ -43,7 +45,8 @@ Remarque : si votre demande dʼimage Analytics est envoyée aux points d’entr
 *Les types RDC Chine seule et Global + Chine nécessitent le package de module complémentaire Chine. Consultez la remarque « Important » ci-dessus. Global + Chine acheminera les données provenant de Chine vers notre RDC Chine tout en acheminant les données provenant de l’extérieur de la Chine vers la RDC la plus proche en dehors de la Chine.
 
 >[!NOTE]
->Experience Edge Global et Global + Chine offrent les meilleures performances pour vos utilisateurs finaux. Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez l’assistance clientèle Adobe pour obtenir de l’aide.
+>
+>Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux.  Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez l’assistance clientèle Adobe pour obtenir de l’aide.
 
 ## Avantages de la collecte de données régionale
 
