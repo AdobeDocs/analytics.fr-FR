@@ -2,10 +2,10 @@
 title: Guide de mise en œuvre d’Analytics
 description: Ce guide explique comment importer des données dans Analytics par le biais de sources de données, de l’API d’insertion des données ou des Data Connectors.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 94%
+source-wordcount: '149'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ Ce guide explique comment obtenir des données dans Analytics. Il inclut :
 
 * **[Sources de données](c-data-sources/datasrc-home.md)** : téléchargez un fichier vers un site FTP Adobe désigné. Adobe récupère le fichier et inclut les données dans votre suite de rapports.
 * **[API d’insertion de données](c-data-insertion-api/c-data-insertion-api.md)** : envoyez directement des données à la collecte de données d’Adobe via une API.
-* **[Data Connectors](data-connectors/getting-started-data-connectors.md)** : collaborez avec un tiers compatible pour importer ses données dans Adobe Analytics afin d’enrichir votre suite de rapports.
+* **Data Connectors**: À compter du 19 août 2021, Adobe a interrompu les intégrations des Data Connectors. La plupart de ces intégrations sont disponibles via [Adobe Exchange](https://exchange.adobe.com/experiencecloud.analytics.html#product) et peuvent continuer à être utilisés.
 
 Voici un aperçu vidéo d’Adobe Analytics :
 

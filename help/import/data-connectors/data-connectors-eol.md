@@ -2,7 +2,7 @@
 description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
 title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Fin de vie des Adobe Data Connectors
 
-Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
-
 **À compter du 19 août 2021**, Adobe va interrompre les intégrations Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
+
+Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la solution d’analyse web et marketing la meilleure de sa catégorie afin de répondre aux besoins des clients. Au fur et à mesure de l’évolution des besoins technologiques et commerciaux, nous nous efforçons de proposer et de satisfaire continuellement aux normes les plus exigeantes.  Malheureusement, les API qui font fonctionner cette intégration ne répondent plus à ces normes et ne sont plus acceptables dans l’infrastructure technologique Adobe Analytics moderne.
 
 ## Pourquoi cette fonctionnalité est-elle abandonnée ?
 
@@ -62,7 +62,7 @@ Pour toute question ou assistance supplémentaire, contactez l’assistance clie
 | Demandbase CA | Abandon |
 | Demandbase v3 | Abandon |
 | DialogTech | Migration vers les dernières API |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | Abandon |
+| [DoubleClick for Advertisers (DFA)] | Abandon |
 | DREAM | Abandon |
 | DREAMmail 1.0, DREAMmail 2.0 | Abandon |
 | Dynamic Signal (Nital Vora) | Migration vers les dernières API |
