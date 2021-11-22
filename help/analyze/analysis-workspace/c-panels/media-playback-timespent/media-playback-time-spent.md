@@ -4,10 +4,10 @@ description: Comment utiliser et interpréter le panneau Durée de lecture des m
 feature: Panels
 role: User, Admin
 exl-id: null
-source-git-commit: d89dba424ccfb08c095be27885facc361637f2c4
+source-git-commit: 0641938ca3f779268268e9cd81aeac337748c979
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 96%
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 96%
 # Panneau Durée de lecture des médias
 
 Les clients Media Analytics peuvent analyser la durée de la lecture pour déterminer où sʼest produit le pic dʼaccès simultanés ou à quel moment des abandons ont eu lieu. Cela permet de mieux comprendre la qualité du contenu et lʼengagement des observateurs, et contribue également à résoudre les problèmes ou à planifier le volume ou lʼéchelle.
-
-Voici un aperçu vidéo du panneau :
-
->[!VIDEO](https://video.tv.adobe.com/v/338699/?quality=12&learn=on)
 
 Dans Analysis Workspace, la Durée de lecture est le temps passé à visionner vos flux multimédia à un moment donné. Elle comprend la mise en pause, la mise en mémoire tampon et le temps jusquʼau démarrage.
 
