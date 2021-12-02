@@ -1,17 +1,17 @@
 ---
-title: Autorisations du profil de produit pour les outils de suites de rapports
+title: Autorisations de profil de produit pour les outils de suites de rapports dans Adobe Admin Console
 description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
 # Autorisations du profil de produit pour les outils de suites de rapports
 
-Utilisez cette page pour comprendre chaque élément d’autorisation sous Outils de suite de rapports.
+Utilisez cette page pour comprendre chaque élément d’autorisation sous Outils de suites de rapports dans Adobe Admin Console.
 
 | Éléments d’autorisation liés aux outils de suites de rapports | Description |
 |------|------|

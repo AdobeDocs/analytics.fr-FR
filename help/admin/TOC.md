@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide d’administration Analytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez comment gérer les utilisateurs et les produits dans Experience Cloud Admin Console, comment configurer des suites de rapports, et bien plus encore.
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '723'
+source-git-commit: 22bf5b376f1f5a5c1b6efea419cae9bd0c77991d
+workflow-type: tm+mt
+source-wordcount: '659'
 ht-degree: 100%
 
 ---
@@ -149,29 +149,12 @@ ht-degree: 100%
    + [Création d’un groupe de suites de rapports](c-manage-report-suites/t-create-rs-group.md)
 + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
    + [Gestion des utilisateurs et des produits](user-management2/user-management.md)
-   + [Affecter des groupes d’utilisateurs à une suite de rapports](user-management2/t-group-access-report-suite.md)
-   + Gestion des utilisateurs {#user-management}
-      + [Gestion des utilisateurs - Aperçu](user-management2/c-user-management/users.md)
-      + [Ajout d’un compte d’utilisateur](user-management2/c-user-management/t-add-user-account.md)
-      + [Modifications des autorisations d’utilisateur et des droits d’accès de groupe](user-management2/c-user-management/permissions-changes.md)
-      + [Transfert des éléments d’un compte d’utilisateur](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [Ajout d’un utilisateur à un groupe](user-management2/c-user-management/t-add-user-to-group.md)
-      + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
-         + [Migration des utilisateurs d’Analytics vers l’Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
-         + [Migration de comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
-         + [Désactivation des comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
-         + [API affectées par la migration](user-management2/user-migration/developer.md)
-   + Groupes d’utilisateurs {#user-groups}
-      + [Ajout d’un groupe d’utilisateurs](user-management2/c-user-groups/t-user-group.md)
-      + [Paramètres des groupes d’utilisateurs](user-management2/c-user-groups/groups.md)
-   + Personnalisation de l’accès aux rapports {#customize-report-access}
-      + [Personnalisation de l’accès aux rapports - Aperçu](user-management2/c-customize-report-access/groups-customize-report-access.md)
-      + [Personnalisation des autorisations liées aux outils Analytics](user-management2/c-customize-report-access/groups-analytics-tools.md)
-      + [Personnalisation des autorisations liées aux outils de suites de rapports](user-management2/c-customize-report-access/groups-report-suite-tools.md)
-      + [Personnalisation des autorisations liées aux mesures](user-management2/c-customize-report-access/groups-metrics.md)
-      + [Personnalisation des autorisations liées aux dimensions](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [Envoyer un e-mail aux utilisateurs](user-management2/t-email-users.md)
+   + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
+      + [Migration des utilisateurs d’Analytics vers l’Admin Console](user-management2/user-migration/c-migration-tool.md)
+      + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
+      + [Migration de comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
+      + [Désactivation des comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
+      + [API affectées par la migration](user-management2/user-migration/developer.md)
 + Gouvernance des données {#data-governance}
    + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics et le CCPA](c-data-governance/an-ccpa-overview.md)
