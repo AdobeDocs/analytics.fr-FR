@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Règles de classification
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 97%
@@ -257,7 +257,7 @@ Dans ce résultat, `a:b:1313` n’indique pas de correspondance.
 | `\W` | N’importe quel caractère n’appartenant pas à un mot |
 | `\b` | N’importe quelle limite de mot |
 | `(...)` | Acquérir tout ce qui est compris |
-| `(a|b)` | a ou b |
+| `(a\b)` | a ou b |
 | `a?` | Zéro ou un de : a |
 | `a*` | Zéro ou plus de : a |
 | `a+` | Un ou plus de : a |
