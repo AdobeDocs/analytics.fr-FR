@@ -2,10 +2,10 @@
 title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: e2fd69043e198d855dddd316b04215fde9f52cad
+source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '491'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 
 La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
 
-## Collecte de données HTTP et tierces
+## Collecte de données tierces
 
 | Type de collecte de données régionale | Centres de collecte de données |
 |---------------------|-------------------|
@@ -31,7 +31,7 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 >
 >Si votre demande d’image Analytics est envoyée à la variable `adobedc`, `2o7.net` ou `omtrdc.net` points de terminaison , vous disposez ensuite d’une collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
 
-## Collecte de données HTTPS propriétaires
+## Collecte de données propriétaires
 
 | Type de collecte de données régionale | Centres de collecte de données |
 |---------------------|-------------------|
