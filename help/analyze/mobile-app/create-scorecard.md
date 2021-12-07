@@ -1,19 +1,19 @@
 ---
 description: Méthode de création dʼune carte de performance pour les tableaux de bord Adobe Analytics
-title: Création d’une fiche d’évaluation mobile
+title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# Création d’une fiche d’évaluation mobile
+# Création dʼune carte de performance mobile
 
-Les informations suivantes indiquent aux curateurs de données Adobe Analytics comment configurer et présenter des fiches d’évaluation mobiles pour les utilisateurs en charge de l’exécution. Regardez dʼabord la vidéo sur le Créateur de cartes de performance pour les tableaux de bord Adobe Analytics :
+Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des cartes de performance mobiles pour les utilisateurs en charge de lʼexécution. Regardez dʼabord la vidéo sur le Créateur de cartes de performance pour les tableaux de bord Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -36,7 +36,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 
 ### Créer un nouveau projet
 
-1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Workspace]**.
+1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Carte de performance mobile vierge]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -104,19 +104,19 @@ Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composa
 
 ## Application de visualisations
 
-Affichez une vidéo sur les visualisations pour les Fiches d’évaluation mobiles :
+Regardez cette vidéo sur les visualisations pour les cartes de performance mobiles :
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent un aperçu complet des éléments de dimension et des mesures. Changement d’une autre visualisation en modifiant le [!UICONTROL type de graphique] d’une mosaïque [!UICONTROL Propriétés]. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
+Les tableaux de bord Analytics offrent quatre visualisations qui vous permettent de mieux comprendre les éléments de dimension et les mesures. Appliquez une visualisation différente en modifiant le [!UICONTROL type de graphique] des [!UICONTROL propriétés] d’une mosaïque. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
 
 ![Propriétés de la mosaïque](assets/properties.png)
 
-Ou cliquez sur le bouton [!UICONTROL Visualisations] dans le rail de gauche, puis faites glisser et déposez la visualisation de droite sur la mosaïque :
+Ou cliquez sur l’icône [!UICONTROL Visualisations] dans le rail de gauche, puis glissez-déposez la visualisation de droite sur la mosaïque :
 
 ![Visualisations](assets/vizs.png)
 
-### [!UICONTROL Numéro de résumé]
+### [!UICONTROL Numéro du résumé]
 
 Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un grand nombre d’éléments importants dans un projet.
 
@@ -130,27 +130,27 @@ Semblable à un graphique circulaire, cette visualisation présente les données
 
 ### [!UICONTROL Ligne]
 
-Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en courbes affiche les dimensions au fil du temps, mais fonctionne avec n’importe quelle visualisation. Dans cet exemple, vous visualisez la dimension de catégorie de produits.
+Dans la visualisation en ligne, les mesures sont représentées sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en lignes affiche les dimensions au fil du temps, mais fonctionne avec n’importe quelle visualisation. Dans cet exemple, vous visualisez la dimension de catégorie de produits.
 
 ![Visualisation en ligne](assets/line.png)
 
 
 ### [!UICONTROL Barre horizontale]
 
-Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. Par exemple, pour voir facilement quels sont vos principaux produits, utilisez [!UICONTROL Barre horizontale] pour la visualisation de votre choix.
+Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures. Par exemple, pour voir facilement quels sont vos principaux produits, utilisez [!UICONTROL Barre horizontale] comme visualisation préférée.
 
 ![barre horizontale](assets/horizontal.png)
 
-### Supprimer [!UICONTROL Non spécifié] éléments de dimension
+### Suppression des éléments de dimension [!UICONTROL Non spécifiés]
 
-Si vous souhaitez supprimer [!UICONTROL Non spécifié] des éléments de dimension de vos données, procédez comme suit :
+Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos données, procédez comme suit :
 
 1. Sélectionnez la mosaïque appropriée.
-1. Dans le rail de droite, sous **[!UICONTROL Exploration]**, sélectionnez la flèche vers la droite en regard de l’élément de dimension dont **[!UICONTROL Non spécifié]** éléments que vous souhaitez supprimer.
+1. Dans le rail de droite, sous **[!UICONTROL Analyses]**, sélectionnez la flèche vers la droite en regard de l’élément de dimension pour lequel vous voulez supprimer les éléments **[!UICONTROL Non spécifiés]**.
 
    ![non spécifié](assets/unspecified.png)
 
-1. Cliquez sur l’icône en regard de **[!UICONTROL Non spécifié]** pour supprimer les données non spécifiées de vos rapports. (Vous pouvez également supprimer tout autre élément de dimension.)
+1. Cliquez sur l’icône en regard de **[!UICONTROL Non spécifié]** pour supprimer les données non spécifiées de vos comptes rendus de performances. (Vous pouvez également supprimer tout autre élément de dimension.)
 
 ## Affichage et configuration des propriétés dʼune mosaïque
 

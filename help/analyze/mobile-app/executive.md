@@ -7,7 +7,7 @@ exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
 source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
 
 Pour utiliser les tableaux de bord :
 
-1. Connectez-vous à l’application. L’écran de connexion apparaîtra au lancement des tableaux de bord. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
+1. Connectez-vous à lʼapplication. L’écran de connexion apparaîtra au lancement des tableaux de bord. Suivez les instructions et utilisez vos informations d’identification Adobe Analytics existantes. Nous prenons en charge aussi bien les Adobe ID que les Enterprise/Federated ID.
 
    ![Séquence de connexion](assets/signseq.png)
 
-1. Choisissez une entreprise. Une fois que vous êtes connecté aux tableaux de bord, la variable **[!UICONTROL Choisir une entreprise]** s’affiche. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
+1. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, lʼécran **[!UICONTROL Choisir une entreprise]** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
 1. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
 
