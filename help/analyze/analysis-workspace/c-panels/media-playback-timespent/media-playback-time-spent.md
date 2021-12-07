@@ -3,8 +3,7 @@ title: Panneau Durée de lecture des médias
 description: Comment utiliser et interpréter le panneau Durée de lecture des médias dans Analysis Workspace.
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 0641938ca3f779268268e9cd81aeac337748c979
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%

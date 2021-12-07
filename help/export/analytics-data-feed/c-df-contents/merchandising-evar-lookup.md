@@ -1,9 +1,8 @@
 ---
 title: Recherche d’instances d’eVar de marchandisage dans post_product_list
 description: Recherchez l’instance d’eVar de marchandisage pour chaque valeur de recherche dans la colonne post_product_list d’un flux de données.
-exl-id: null
-source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: ht
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 

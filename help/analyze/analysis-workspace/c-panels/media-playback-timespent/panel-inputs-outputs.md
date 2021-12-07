@@ -3,8 +3,7 @@ title: Entrées et sorties du panneau Durée de lecture du média
 description: Quels sont les paramètres d’entrée et de sortie Temps de lecture du média ?
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 6a82b998d6ff079f5e100d2ea09d160f6e9f8c8a
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 92%

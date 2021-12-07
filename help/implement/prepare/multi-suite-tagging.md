@@ -1,9 +1,8 @@
 ---
 description: Découvrez comment mettre en œuvre le balisage multisuite afin dʼenvoyer une demande dʼimage à plusieurs suites de rapports.
 title: Implémentation du balisage multisuite
-exl-id: null
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
