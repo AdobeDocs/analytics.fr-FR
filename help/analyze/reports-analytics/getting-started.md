@@ -4,17 +4,14 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # Prise en main de Reports &amp; Analytics
-
->[!NOTE]
->Ce produit est autorisé à la vente en Amérique du Nord et dans d’autres régions où il est effectivement vendu et peut ne pas satisfaire aux exigences de vente dans d’autres pays ou régions.
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
@@ -102,3 +99,6 @@ Cette section décrit la procédure à suivre pour modifier la langue de l’int
 1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]**, puis sélectionnez votre langue préférée.
 
 Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. (**[!UICONTROL Aide]** > **[!UICONTROL Page d’accueil de l’aide]**.)
+
+>[!NOTE]
+>Ce produit est autorisé à la vente en Amérique du Nord et dans d&#39;autres régions où il est effectivement vendu. Il peut ne pas satisfaire aux exigences locales de vente dans d’autres pays ou régions.
