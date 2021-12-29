@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ Configuration requise du navigateur et du système pour se connecter à l’inte
 >[!NOTE]
 >Le 13 novembre 2018, Adobe a arrêté la prise en charge d’Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
 
-* Navigateurs préférés : Dernières versions de Firefox, Chrome, Safari ou Edge.
+* Navigateurs privilégiés : dernières versions de Firefox, Chrome, Safari ou Edge.
 * Les cookies et JavaScript doivent être activés.
 * Résolution d’écran 1024 x 768 avec codage des couleurs 16 bits (ou supérieure).
 
@@ -80,7 +80,7 @@ Informations concernant la modification des comptes utilisateur, la réinitialis
 
 Vous pouvez afficher et modifier les coordonnées, définir un mot de passe, afficher les informations sur les services web et exclure cet ordinateur de la collecte de données.
 
-Cliquez sur l’icône Compte ![](assets/account.png) en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
+Cliquez sur l’icône Compte ![](assets/account.png)en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
 
 Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
 
