@@ -4,9 +4,9 @@ title: Alertes intelligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Voici une présentation vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
-## Aperçu {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
+## Présentation {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Grâce aux alertes intelligentes, vous pouvez :
 * Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
 * Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
 
-Les composants du système d’alerte sont les suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes et meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Certaines fonctionnalités d’alerte héritées [ne sont plus disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=fr).
+Le système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne sont plus disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=fr).
 
 Vous pouvez accéder au Générateur d’alertes de quatre façons :
 
