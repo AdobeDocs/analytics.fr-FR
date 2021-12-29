@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '552'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Le traitement vous permet de limiter les composants (dimensions, mesures, segmen
 >[!NOTE]
 > Les profils de produit constituent le principal mécanisme contrôlant ce que voit un utilisateur. Ils sont gérés via l’Admin Console pour Adobe Experience Cloud. Le traitement est un filtre secondaire.
 
-Voici une vidéo sur le traitement et le partage des projets :
+Regardez cette vidéo sur le traitement et le partage de projet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
