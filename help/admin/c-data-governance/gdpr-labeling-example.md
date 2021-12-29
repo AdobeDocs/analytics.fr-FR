@@ -4,9 +4,9 @@ title: Exemples dʼétiquetage
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Supposons que vous avez les données d’accès suivantes :
 * La deuxième ligne correspond au nom de la variable. Si elle comporte une étiquette d’identification, elle contient l’espace de noms attribué entre parenthèses.
 * Les données d’accès commencent à partir de la troisième ligne.
 
-| Étiquettes | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
+| Étiquettes | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
@@ -30,7 +30,7 @@ Supposons que vous avez les données d’accès suivantes :
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | z |
+|  | Alice | 66 | A | N | Z |
 
 ## Exemple de demande d’accès
 
@@ -46,7 +46,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
     <th>Espace de noms/ID</th>
     <th>expandIDs</th>
     <th>MyProp1</th>
-    <th>Visitor ID</th>
+    <th>Identifiant visiteur</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3 </th>
@@ -175,7 +175,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>99</td>
     <td>C</td>
     <td>O</td>
-    <td>z</td>
+    <td>Z</td>
   </tr>
   <tr>
     <td>John</td>
@@ -210,7 +210,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>z</td>
+    <td>Z</td>
   </tr>
 </table>
 
@@ -220,7 +220,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -248,7 +248,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>99</td>
     <td>Privacy-9045</td>
     <td>Privacy-2864</td>
-    <td>z</td>
+    <td>Z</td>
   </tr>
   <tr>
     <td>John</td>
@@ -283,7 +283,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>z</td>
+    <td>Z</td>
   </tr>
 </table>
 
@@ -293,7 +293,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=true</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -356,15 +356,15 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>z</td>
+    <td>Z</td>
   </tr>
 </table>
 
 Prenez note des points suivants :
 
-* Cellules des lignes contenant `user=Mary` et un `DEL-PERSON` sont impactées.
-* En raison de l’extension d’ID, les cellules des lignes contenant `AAID=77`, `AAID=88` ou `AAID=99` (qui sont les valeurs AAID des lignes contenant `user=Mary`) et a `DEL-DEVICE` sont impactées. Cela inclut les cellules avec un `DEL-DEVICE` libellé sur les lignes où `user=Mary`. Les cellules des lignes 4 et 5 (ainsi que les lignes 1 à 3) sont ainsi constituées de `DEL-DEVICE` étiquettes (AAID, MyEvar2 et MyEvar3) à obscurcir.
-* Le paramètre expandIDs ne s’étend pas à l’appel pour inclure des valeurs présentes dans MyEvar3 (`X`, `Y` et `Z`), qui possède une étiquette ID-DEVICE, lorsque `user=Mary`. Les expandID ne sʼétendent que pour inclure les identifiants visiteur (AAID dans cet exemple, mais également lʼECID) sur les lignes contenant `user=Mary`. Ainsi, les deux dernières lignes, qui contiennent les valeurs MyEvar3 de `X` et `Z` ne sont pas affectées.
-* `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car celles-ci contiennent les mêmes valeurs d’identifiant visiteur (`77` et `88`) comme celles des première et deuxième lignes. Par conséquent, lʼextension dʼID les inclut pour les suppressions de niveau appareil.
-* Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. Cependant, après la suppression, elles ne correspondent plus à la valeur `N` qui se produit dans la dernière ligne, car cette ligne n’a pas été mise à jour dans le cadre de la requête de suppression.
+* Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-PERSON` sont impactées.
+* En raison de l’extension d’ID, les cellules des lignes contenant `AAID=77`, `AAID=88` ou `AAID=99` (qui sont les valeurs AAID des lignes contenant `user=Mary`) et une étiquette `DEL-DEVICE` sont impactées. Cela inclut les cellules avec un libellé `DEL-DEVICE` sur les lignes contenant `user=Mary`. En conséquence, les cellules des lignes 4 et 5 (ainsi que des lignes 1 à 3) avec les libellés `DEL-DEVICE` (AAID, MyEvar2 et MyEvar3) sont obfusquées.
+* Le paramètre pour les expandID ne sʼétend pas à lʼappel pour inclure les valeurs présentes dans MyEvar3 (`X`, `Y` et `Z`), qui possède un libellé ID-DEVICE, en cas de `user=Mary`. Les expandID ne sʼétendent que pour inclure les identifiants visiteur (AAID dans cet exemple, mais également lʼECID) sur les lignes contenant `user=Mary`. Ainsi, les deux dernières lignes, dont les valeurs de MyEvar3 sont `X` et `Z`, ne sont pas impactées.
+* `MyEvar2` est mis à jour dans les quatrième et cinquième lignes, car elles contiennent les mêmes valeurs dʼidentifiant visiteur (`77` et `88`) que les première et deuxième lignes. Par conséquent, lʼextension dʼID les inclut pour les suppressions de niveau appareil.
+* Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. En revanche, après la suppression, elles ne correspondent plus à la valeur `N` présente dans la dernière ligne, car cette dernière nʼa pas été mise à jour suite à la demande de suppression.
 * `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond dans les cinq premières lignes.
