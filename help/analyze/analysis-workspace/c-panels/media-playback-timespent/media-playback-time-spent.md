@@ -4,7 +4,7 @@ description: Comment utiliser et interpréter le panneau Durée de lecture des m
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
 ht-degree: 100%
 
