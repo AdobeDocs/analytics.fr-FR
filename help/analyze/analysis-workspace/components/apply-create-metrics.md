@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
 
 * Ou cliquez sur **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle mesure]**. Le [Créateur de mesures calculées](/help/components/c-calcmetrics/cm-overview.md) s’ouvre, où vous pouvez personnaliser les mesures existantes.
 
-Voici une vidéo sur l’utilisation de mesures dans un tableau à structure libre :
+Regardez cette vidéo sur l’utilisation des mesures dans un tableau à structure libre :
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,8 +46,8 @@ Si vous souhaitez comparer rapidement et facilement deux modèles d’attributio
 
 Ce raccourci vous permet de comparer rapidement et facilement deux modèles d’attribution sans faire glisser une mesure et la configurer deux fois.
 
-## Utilisez la variable [!UICONTROL moyenne cumulée] pour appliquer le lissage des mesures
+## Utilisation de la fonction [!UICONTROL moyenne cumulée] pour appliquer le lissage des mesures
 
-Regardez cet aperçu vidéo sur ce sujet :
+Regardez une vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
