@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +61,13 @@ Les **panneaux** permettent d’organiser votre analyse au sein d’un projet et
 
 ![](assets/build-panels.png)
 
-### Gestion de projet dans Analysis Workspace
+### Gestion de projets dans Analysis Workspace
 
-Voici un aperçu vidéo de la gestion de projet :
+Regardez cet aperçu vidéo sur la gestion de projets :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
 
 ## Ressources supplémentaires {#resources}
 
 * Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=fr).
-* Voir [Notes de mise à jour de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en#analytics) pour des mises à jour sur les nouvelles fonctionnalités.
+* Pour obtenir plus dʼinformations sur les nouvelles fonctionnalités, reportez-vous à la page [Notes de mise à jour dʼAdobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr#analytics).
