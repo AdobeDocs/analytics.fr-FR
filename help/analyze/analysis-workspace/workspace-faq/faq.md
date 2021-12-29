@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 94%
 | Puis-je utiliser Analysis Workspace pour Data Warehouse ? | Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord. |
 | Comment optimiser les performances d’Analysis Workspace ? | Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 
-## Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
+## Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Regardez cette vidéo :
+Regardez cette vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
-## Comment effectuer le suivi de l’utilisation de Workspace ?
+## Comment puis-je effectuer le suivi de l’utilisation de Workspace ?
 
-Regardez cette vidéo sur le suivi des logs d’utilisation pour Analysis Workspace :
+Regardez cette vidéo sur le suivi des journaux d’utilisation pour Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
 
