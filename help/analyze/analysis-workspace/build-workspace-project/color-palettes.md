@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Remarque :
 
 ## Changer de palette de couleurs :
 
-Voici une vidéo sur l’utilisation de palettes de couleurs personnalisées :
+Regardez une vidéo sur l’utilisation de palettes de couleurs personnalisées :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
