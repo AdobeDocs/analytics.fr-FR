@@ -6,9 +6,9 @@ feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1364'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les règles de robots vous permettent de supprimer du trafic de votre suite de rapports généré par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
 
-Voici une vidéo sur la configuration des règles de robots :
+Voici un aperçu vidéo sur la configuration des règles de robots :
 
 >[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
 
