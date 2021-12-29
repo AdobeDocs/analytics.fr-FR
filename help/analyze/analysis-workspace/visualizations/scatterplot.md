@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '118'
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ La visualisation en graphique à dispersion illustre la relation entre des élé
 
 ![Graphique de dispersion](assets/scatter.png)
 
-Voici une vidéo sur les visualisations en graphique de dispersion :
+Regardez cette vidéo sur les visualisations en graphique à dispersion :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
