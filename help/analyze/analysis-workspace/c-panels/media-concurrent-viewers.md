@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Dans Analysis Workspace, les observateurs simultanés représentent le nombre d
 
 Le panneau d’observateurs simultanés de médias permet d’analyser les observateurs simultanés au fil du temps. Il fournit également des informations détaillées sur le pic d’accès simultanés et la possibilité de ventiler et de comparer.  Pour accéder au panneau d’observateurs simultanés de médias, naviguez vers une suite de rapports dans laquelle les composants Media Analytics sont activés. Cliquez ensuite sur l’icône du panneau située à l’extrémité gauche et faites glisser le panneau dans votre projet Analysis Workspace.
 
-Voici un aperçu vidéo de ce panneau :
+Regardez cet aperçu vidéo de ce panneau :
 
 >[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
