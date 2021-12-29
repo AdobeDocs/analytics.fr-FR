@@ -3,9 +3,9 @@ title: Guide des composants d’Analytics
 description: Découvrez les différents composants proposés par Adobe Analytics.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Les composants Analytics permettent d’affiner et d’optimiser l’analyse des
 * **Création de rapports en temps réel :** Obtenez des tendances et des rapports dès qu’ils sont disponibles.
 * **Canaux marketing :** Comprenez comment les visiteurs arrivent sur votre site et déterminez les canaux les plus performants.
 
-Voici un aperçu vidéo d’Adobe Analytics :
+Voici un aperçu vidéo dʼAdobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
