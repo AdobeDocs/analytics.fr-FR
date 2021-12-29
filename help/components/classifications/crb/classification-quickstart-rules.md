@@ -5,9 +5,9 @@ title: Règles de classification
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Le Créateur de règles vous permet de créer un *jeu de règles de classificati
 
 Les règles de classification conviennent dans les cas suivants :
 
-* **Email** et **Publicités affichées**: Créez des règles de classification pour regrouper des campagnes d’affichage individuelles afin que vous puissiez découvrir les performances des campagnes d’affichage par rapport aux campagnes par courrier électronique.
+* **E-mail** et **Afficher les publicités** : créez des règles de classification pour regrouper les campagnes d’affichage individuelles, de sorte que vous puissiez comparer les performances des campagnes d’affichage et des campagnes par e-mail.
 
 * **Codes de suivi** : créez des règles de classification pour catégoriser les valeurs de clé provenant de chaînes dans des codes de suivi et les faire correspondre à des critères spécifiques que vous avez définis.
 * **Termes de recherche** : utilisez des  [expressions régulières](/help/components/classifications/crb/classification-quickstart-rules.md) et des caractères génériques pour simplifier la classification de termes de recherche. Si, par exemple, un terme de recherche contient *`baseball`*, vous pouvez définir une classification *`Sports League`* sur *`MLB`*.
@@ -298,7 +298,7 @@ De même, supposons que vous configuriez deux règles d’un jeu pour les termes
 
 Un utilisateur recherche  *`Cowboys vs. Broncos`*. Si le créateur de règles détecte un conflit dans la correspondance de règles, la classification de la deuxième règle (Denver) s’applique à cette recherche.
 
-## Ajouter une règle de classification à un jeu de règles {#add-classification-to-rule-set}
+## Ajout dʼune règle de classification à un jeu de règles {#add-classification-to-rule-set}
 
 <!-- 
 
