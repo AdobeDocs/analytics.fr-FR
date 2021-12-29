@@ -3,9 +3,9 @@ title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 Le gestionnaire des flux de données vous permet de créer, de modifier et de supprimer des flux de données pour votre entreprise. Si vous disposez d’autorisations pour accéder au gestionnaire des flux de données, vous pouvez gérer les flux de données pour toutes les suites de rapports qui s’affichent.
 
-Voici une vidéo sur l’interface utilisateur de la gestion des flux de données :
+Regardez une vidéo sur l’interface utilisateur de la gestion des flux de données :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
