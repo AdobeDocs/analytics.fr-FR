@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1428'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Les projets Workspace vous permettent de combiner des composants de données, des tableaux et des visualisations afin d’élaborer votre analyse et de la partager avec qui vous le souhaitez au sein de votre entreprise. Avant de démarrer votre premier projet, découvrez comment accéder à vos projets, les parcourir et les gérer.
 
-Voici une vidéo sur la création d’un projet Workspace :
+Regardez cette vidéo sur la création d’un projet Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
@@ -33,9 +33,9 @@ La page de liste de projets Workspace présente les informations suivantes :
 |---|---|
 | [Créer un projet](/help/analyze/analysis-workspace/home.md) | Cliquez sur ce lien pour démarrer un nouveau projet en partant de zéro ou en vous basant sur un [modèle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#analysis-workspace) créé pour vous. |
 | Gérer les projets | Cliquez sur ce lien pour accéder au Gestionnaire de composants des projets (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Projets]**), où sont répertoriés tous les projets et où vous pouvez baliser, partager, supprimer, renommer, approuver ou copier les projets et les exporter au format CSV. |
-| Définir comme page d’entrée | Transforme cette page en landing page Workspace. |
+| Définir comme page d’entrée | Transforme cette page en page de destination Workspace. |
 | [Afficher les tutoriels](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=fr) | Permet d’accéder aux tutoriels vidéos Analysis Workspace. |
-| Nom | Nom du projet de l’Workspace. |
+| Nom | Nom du projet de Workspace. |
 | Propriétaire | Personne qui a créé ce projet (vous ou quelqu’un qui a partagé le projet avec vous). |
 | Type | Indique s’il s’agit d’un projet Workspace ou d’une [fiche d’évaluation mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=fr). |
 | [Rôle de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) | Indique votre rôle pour ce projet : propriétaires, modifier, dupliquer, afficher. |
@@ -81,7 +81,7 @@ Les paramètres incluent :
 
 ## Rail de gauche {#left-rail}
 
-Dans un projet, les [panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr), les tableaux, les [visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) et les [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) sont accessibles à partir du rail de gauche. Ce sont les blocs de construction de votre projet.
+Dans un projet, les [panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr), les tableaux, les [visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) et les [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=fr) sont accessibles à partir du rail de gauche. Ce sont les blocs de construction de votre projet.
 
 Vous pouvez également accéder aux visualisations et aux panneaux à partir du [panneau vierge](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=fr).
 
@@ -91,7 +91,7 @@ Les composants (dimensions, mesures, segments, périodes) du rail de gauche se r
 
 ## Menu contextuel
 
-Voici une vidéo sur l’utilisation du menu contextuel dans Analysis Workspace :
+Regardez cette vidéo sur lʼutilisation du menu contextuel dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
 
@@ -99,17 +99,17 @@ Voici une vidéo sur l’utilisation du menu contextuel dans Analysis Workspace 
 
 Le canevas du projet est l’emplacement où vous rassemblez des panneaux, des tableaux, des visualisations et des composants pour créer votre analyse. Un projet peut contenir de nombreux panneaux et chaque panneau peut contenir de nombreux tableaux et visualisations.
 
-Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas pratiques d’analyses. Le panneau principal comporte une bordure bleue et détermine les composants disponibles dans le rail de gauche.
+Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation d’analyses. Le panneau principal comporte une bordure bleue et détermine les composants disponibles dans le rail de gauche.
 
-Selon le point de départ choisi pour vos projets, le canevas comporte soit un [panneau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr), soit un [panneau vierge](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) au démarrage. Le moyen le plus rapide de démarrer une analyse consiste à sélectionner un ou plusieurs composants, puis tout simplement à les faire glisser et les déposer dans le canevas du projet. Un tableau de données est alors automatiquement rendu. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) sur les différentes options de création d’un tableau ou sur la manière de tirer parti de notre [tutoriel de formation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr#training-tutorial) pour apprendre à créer votre premier projet.
+Selon le point de départ choisi pour vos projets, le canevas comporte soit un [panneau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr), soit un [panneau vierge](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=fr) au démarrage. Le moyen le plus rapide de démarrer une analyse consiste à sélectionner un ou plusieurs composants, puis tout simplement à les faire glisser et les déposer dans le canevas du projet. Un tableau de données est alors automatiquement rendu. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr) sur les différentes options de création d’un tableau ou sur la manière de tirer parti de notre [tutoriel de formation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr#training-tutorial) pour apprendre à créer votre premier projet.
 
 ![](assets/canvas.png)
 
 ## Chef de projets {#manager}
 
-Les projets Analysis Workspace peuvent être gérés sous **[!UICONTROL Analytics] > [!UICONTROL Composants] >  [!UICONTROL Projets]**. Le Gestionnaire de projets affiche les éléments créés par un utilisateur spécifique.
+Les projets Analysis Workspace peuvent être gérés sous **[!UICONTROL Analytics] > [!UICONTROL Composants] > [!UICONTROL Projets]**. Le Gestionnaire de projets affiche les éléments créés par un utilisateur spécifique.
 
-La propriété du projet peut être transférée à un nouvel utilisateur sous [!UICONTROL Administration] > [!UICONTROL Utilisateurs et ressources Analytics] > [!UICONTROL Transférer les ressources].
+La propriété du projet peut être transférée à un nouvel utilisateur sous [!UICONTROL Admin] > [!UICONTROL Utilisateurs et ressources Analytics] > [!UICONTROL Transférer les ressources].
 
 Le Gestionnaire de projets vous permet d’ajouter, baliser, partager, dupliquer/copier et bien plus encore. Utilisez la barre de recherche ou les options de filtre dans le rail de gauche pour rechercher un projet. Vous pouvez filtrer par balise, propriétaires, type de projet et bien d’autres.
 
@@ -119,9 +119,9 @@ Voici les actions courantes du Gestionnaire de projets, qui peuvent être exécu
 
 | Action | Description |
 |---|---|
-| Ajouter | Créez un projet en partant de zéro ou démarrez à partir d’un [modèle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html). |
+| Ajouter | Créez un projet en partant de zéro ou démarrez à partir d’un [modèle](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr). |
 | Baliser ou approuver | Choisissez « Baliser » ou « Approuver » pour organiser vos projets et en faciliter la recherche. |
-| [Partager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | Rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. |
+| [Partager](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) | Rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. |
 | Supprimer | Supprimez votre projet. |
 | Renommer | Modifiez le nom de votre projet. |
 | Copier | Créez un doublon du projet. Cela crée un projet ainsi qu’un identifiant de projet. Les partages ou les planifications liés au projet d’origine ne sont pas copiés. |
