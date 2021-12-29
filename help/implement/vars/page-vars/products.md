@@ -1,15 +1,15 @@
 ---
-title: products
+title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 9ec16e61560dd31f5240c7dd169ae8720761fbc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# products
+# produits
 
 La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages de produit individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et qu’Adobe analyse la valeur dans des éléments de dimension distincts.
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnal
 
 ## s.products dans AppMeasurement et l’éditeur de code personnalisé
 
-La variable `s.products` est une chaîne qui contient plusieurs champs délimités par produit. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
+La variable `s.products` est une chaîne qui contient plusieurs champs délimités par produit. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
 
 >[!IMPORTANT]
 >**[!UICONTROL Catégorie ]**n’est plus recommandée comme option viable pour effectuer le suivi des performances des catégories de produits. Par conséquent, toutes les chaînes de produit doivent commencer par le point-virgule, ce qui signifie que le premier champ est vide.
