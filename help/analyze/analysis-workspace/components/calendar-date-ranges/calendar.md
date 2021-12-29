@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '386'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dans le calendrier, vous pouvez spécifier des dates et des plages de dates, ou sélectionner un paramètre prédéfini.
 
-Voici une vidéo sur l’utilisation des plages de dates et des calendriers dans Analysis Workspace :
+Regardez cette vidéo sur l’utilisation des périodes et des calendriers dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
@@ -28,7 +28,7 @@ Le premier clic sur un calendrier démarre une sélection de période. Le deuxi�
 
 Vous pouvez également faire glisser des dates (et des dimensions temporelles) dans un projet Workspace. Sélectionnez des jours, des semaines, des mois ou des années spécifiques ou encore une date variable.
 
-[Utilisation des plages de dates et des calendriers dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=fr) (4:07)
+[Utilisation des plages de dates et des calendriers dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=fr) (4:07)
 
 | Paramètre | Description |
 |--- |--- |
