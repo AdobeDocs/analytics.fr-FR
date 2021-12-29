@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez créer un projet d’après :
 
 ![](assets/start_modal.png)
 
-## Créer des modèles personnalisés {#create-custom-template}
+## Création de modèles personnalisés {#create-custom-template}
 
 Les utilisateurs dotés de droits d’administration peuvent convertir n’importe quel projet qu’ils créent en un modèle personnalisé. Procédez comme suit :
 
@@ -37,11 +37,11 @@ Les utilisateurs dotés de droits d’administration peuvent convertir n’impor
    >
    >Par défaut, toutes les personnes de l’organisation ont accès aux modèles de projet. Vous pouvez organiser les modèles en leur appliquant des balises. (Sélectionnez **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]** pour modifier les balises et les descriptions.)
 
-Voici une vidéo sur la création et la gestion de modèles personnalisés :
+Regardez cette vidéo sur la création et la gestion de modèles personnalisés :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### Gestion des modèles personnalisés {#manage-custom-template}
+### Gestion de modèles personnalisés {#manage-custom-template}
 
 | Action | Description |
 |--- |--- |
@@ -64,9 +64,9 @@ Voici les modèles disponibles et les questions auxquelles chaque modèle peut c
 
 ### Formation
 
-Ce modèle standard vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
+Ce modèle standard vous guide dans la terminologie et les étapes courantes de création de votre première analyse dans Workspace. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste.
 
-Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
+Regardez cette vidéo sur le modèle [!UICONTROL Tutoriel de formation] :
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,23 +74,23 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 
 >[!IMPORTANT]
 >
->Les modèles de publicité ne sont disponibles que si votre suite de rapports est activée pour [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>Les modèles Publicité sont accessibles uniquement si votre suite de rapports est activée pour [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=fr).
 
 * **Moteurs de recherche payante** : ce modèle ventile les tendances publicitaires, les plateformes publicitaires, les mots-clés, les comptes, les campagnes, etc.
 
 ### Commerce
 
-* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce sur internet en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, landing page, emplacement géographique, etc. Voici un tutoriel vidéo sur la [Magento : Modèle Marketing et Commerce](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=fr).
+* **Magento : Marketing et commerce** : ce modèle ventile la conversion de votre commerce sur internet en fonction de l’attribution du canal marketing et fournit des informations par mot-clé de recherche, landing page, emplacement géographique, etc. Regardez ce tutoriel vidéo sur [Magento : modèle Marketing et Commerce](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=fr).
 
 ### Collecte de données
 
-* **Impact ITP**: Découvrez comment l’ITP d’Apple affecte vos données et comment ajuster le reporting en conséquence.
+* **Effets de lʼITP** : comprenez comment la fonctionnalité ITP dʼApple affecte vos données et comment ajuster les rapports en conséquence.
 
 ### Média
 
-* **Consommation de contenu**: Qui sont mes fidèles lecteurs ?
-* **Récence - Fréquence - Fidélité**: Quel contenu est le plus consommé et attire le plus d’utilisateurs ?
-* **Consommation des médias en flux continu**: Fournit les tendances et les principales mesures de la consommation multimédia sur tous les appareils numériques. Voici une vidéo sur le modèle de consommation de médias en continu :
+* **Consommation de contenu** : qui sont mes fidèles lecteurs ?
+* **Récence - Fréquence - Fidélité** : quel est le contenu le plus consommé et qui intéresse le plus les utilisateurs ?
+* **Consommation de médias en continu** : fournit des tendances et des mesures principales relatives à la consommation des médias sur tous les appareils numériques. Regardez cette vidéo sur le modèle de consommation de médias en continu :
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
@@ -98,7 +98,7 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 
 >[!IMPORTANT]
 >
->Les modèles mobiles ne sont disponibles que si votre suite de rapports est activée pour l’analyse des applications mobiles.
+>Les modèles mobiles sont accessibles uniquement si votre suite de rapports est activée pour les analyses des applications mobiles.
 
 * **Acquisition :** contrôlez les performances des liens d’acquisition mobile.
 * **Utilisation de l’application :** combien d’utilisateurs, de lancements et de premiers lancements de l’application avait l’application et quelle est la durée de session moyenne ?
@@ -117,7 +117,7 @@ Voici une vidéo sur la [!UICONTROL Tutoriel de formation] modèle :
 ### Web
 
 * **Acquisition :** quels sont les principaux facteurs orientant le trafic vers mon site web ?
-* **AEM présentation des performances du site :** Quelles sont les performances de mon site Adobe Experience Manager ?
+* **Performances du site AEM - Aperçu :** quelles sont les performances de mon site Adobe Experience Manager ?
 * **Consommation de contenu :** où se rendent surtout les personnes sur mon site ?
 * **Rétention :** quels types d’utilisateurs seront a priori les plus fidèles à mon site ?
 * **Technologie :** quelle technologie utilisent les visiteurs de mon site ?
@@ -138,7 +138,7 @@ Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de 
 * Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
 * Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
 
-### Parcours IQ : Modèle Analyses entre appareils
+### Journey IQ : modèle dʼanalyses entre appareils
 
 <!--This content is mirrored in the CDA doc.-->
 
