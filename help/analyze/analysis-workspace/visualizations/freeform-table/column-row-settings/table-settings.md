@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: 3903387ac6cba1ceb45e1de35fbceb259151f4f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Les configurations des lignes varient selon le composant déposé dans le tablea
 | Pourcentages | **Calculer les pourcentages par colonne** est le paramètre par défaut. Les pourcentages visibles dans une colonne sont calculés en fonction du total de la colonne. <br>**Calcul des pourcentages par ligne** oblige le tableau à structure libre à calculer les pourcentages des cellules par ligne, et non pas par colonne, avec le total général comme dénominateur. Cette fonctionnalité est particulièrement utile pour les pourcentages de tendance. Ce paramètre est activé par défaut lors de l’utilisation de l’icône Visualiser. |
 | Totaux des colonnes | Ces paramètres sont uniquement disponibles pour les lignes [statiques](manual-vs-dynamic-rows.md). <br> **Afficher comme somme des lignes actuelles** affiche la somme des lignes du tableau côté client, ce qui signifie que le total ne dédupliquera *pas* de mesures telles que les visites ou les visiteurs. <br> **Afficher le total général** indique une somme côté serveur, ce qui signifie que le total dédupliquera les mesures. |
 
-## Modifier le nombre de lignes
+## Modification du nombre de lignes
 
-Pour modifier le nombre de lignes affichées :
+Pour modifier le nombre de lignes affichées, procédez comme suit :
 
-1. Cliquez sur le numéro en regard de [!UICONTROL Lignes] en haut de la table.
+1. Cliquez sur le nombre en regard de [!UICONTROL Lignes] en haut du tableau.
 
    ![](assets/row-number.png)
 
