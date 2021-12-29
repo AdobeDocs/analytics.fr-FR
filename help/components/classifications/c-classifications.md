@@ -3,9 +3,9 @@ title: Présentation des classifications
 description: Personnalisez le regroupement des éléments de dimension.
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Une fois classifié, tout rapport pouvant être généré en utilisant la variab
 
 Après avoir créé les classifications, vous pouvez exploiter les nouveaux attributs de données dans Adobe Analytics.
 
-Voici une vidéo de présentation des classifications Adobe Analytics :
+Regardez cet aperçu vidéo sur les classifications Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
