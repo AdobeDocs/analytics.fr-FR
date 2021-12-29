@@ -5,15 +5,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Découvrez [!UICONTROL lʼanalyse des cohortes] dans Adobe Analytics
 
-Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’[!UICONTROL analyse des cohortes] s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’[!UICONTROL analyse des cohortes] sur le Web, tel le cours [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
+Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’[!UICONTROL analyse des cohortes] s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’[!UICONTROL analyse des cohortes] sur le Web, tel le cours [Cohort Analysis 101](https://fr.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
 Après avoir créé un rapport de cohorte, vous pouvez en traiter les composants (dimensions, mesures et segments spécifiques), puis partager le rapport avec les personnes de votre choix. Voir   [Traitement et partage](/help/analyze/analysis-workspace/curate-share/curate.md).
 
@@ -27,13 +27,13 @@ Exemples d’utilisation de l’[!UICONTROL analyse des cohortes] :
 
 L’[!UICONTROL analyse des cohortes] est disponible pour tous les clients Adobe Analytics avec des droits d’accès à [!UICONTROL Analysis Workspace].
 
-Vidéo sur les tableaux de cohortes dans Analysis Workspace :
+Vidéo sur les tableaux de cohortes dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL Analyse des cohortes] ne prend pas en charge les mesures qui ne peuvent pas être segmentées (y compris les mesures calculées), les mesures qui ne peuvent pas être des entiers (telles que Recettes > Occurrences). Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans [!UICONTROL Analyse des cohortes]et ne peuvent être incrémentés que de plus de 1 à la fois.
+>Lʼ[!UICONTROL Analyse des cohortes] ne prend pas en charge les mesures qui ne peuvent pas être segmentées (y compris les mesures calculées), les mesures non entières (telles que le chiffre d’affaires, >ou les occurrences). Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans une [!UICONTROL Analyse des cohortes]. En outre, elles ne peuvent être incrémentées que de >1 à la fois.
 
 ## Capacités de l’analyse des cohortes
 
