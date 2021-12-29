@@ -3,9 +3,9 @@ title: Intégration d’Analytics
 description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -13,21 +13,21 @@ ht-degree: 73%
 
 ![Bannière](../../assets/doc_banner_integrate.png)
 
-Ce guide porte sur l’intégration de plusieurs solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target. Il inclut :
+Ce guide porte sur l’intégration de plusieurs solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target. Il inclut :
 
 * **Audience Analytics :** Intégrez Adobe Audience Manager à Adobe Analytics.
 * **Advertising Analytics :** Consultez les données de recherche payante juxtaposées aux données Adobe Analytics.
-* **Analytics pour Advertising Cloud DSP :** Intègre Adobe Analytics et Adobe Advertising Cloud pour étendre et améliorer les fonctionnalités de chaque produit. Voici une présentation vidéo :
+* **Analytics pour Advertising Cloud DSP :** intègre Adobe Analytics et Adobe Advertising Cloud afin dʼétendre et dʼaméliorer les fonctionnalités de chaque produit. Voici une présentation vidéo :
    >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target :** A4T intègre Adobe Analytics et Adobe Target ensemble.
 * **Rapports Adobe Campaign :** Intégrez Adobe Analytics à Adobe Campaign.
 * **Création de rapports AEM Assets :** Permet la collecte d’impressions et de clics sur les ressources diffusées à partir d’Adobe Experience Manager.
 
-Voici un aperçu vidéo d’Adobe Analytics :
+Voici un aperçu vidéo dʼAdobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-## Principaux articles sur l’intégration d’Analytics
+## Principaux articles sur l’intégration dʼAnalytics
 
 * [Advertising Analytics](c-advertising-analytics/overview.md)
 * [Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
