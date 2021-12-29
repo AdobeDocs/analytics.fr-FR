@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Vous pouvez créer un rapport de cheminement sur les eVars, y compris les eVars 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Chemin d’accès éventuel </p> <p>(Par défaut) </p> </td> 
-   <td colname="col2"> <p>Les visiteurs (ou les visites) sont comptés lorsqu'ils atterrissent finalement sur le prochain point de contact du chemin. Les détours sont autorisés entre les points de contact. </p> </td> 
+   <td colname="col2"> <p>Les visiteurs (ou les visites) sont comptés dès lors qu’ils arrivent sur le prochain point de contact du parcours. Les détours sont autorisés entre les points de contact. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Prochain accès </p> </td> 
-   <td colname="col2"> <p>Les visiteurs (ou les visites) sont comptés lorsqu’ils atterrissent immédiatement sur le prochain point de contact du chemin. L’accès suivant inclut tout type de succès (pages vues ou liens). Les détours ne sont pas autorisés entre les points de contact. </p> </td> 
+   <td colname="col2"> <p>Les visiteurs (ou visites) sont comptés lorsqu’ils arrivent immédiatement sur le prochain point de contact du parcours. Le prochain accès comprend tous les types d’accès (pages vues ou liens). Les détours ne sont pas autorisés entre les points de contact. </p> </td> 
   </tr> 
  </tbody> 
 </table>
