@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 source-git-commit: a6b38c6e7a34c876524ebe15514ac205898549d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Vous trouverez ci-dessous un exemple de HTML utilisant l’attribut ID de régio
   </div>
 ```
 
-Si vous le souhaitez, vous pouvez baliser des éléments avec un identifiant de chaîne arbitraire, ici « lpos », puis ajouter des attributs avec le nom « lpos ».
+Si vous le souhaitez, vous pouvez baliser des éléments avec un identifiant de chaîne arbitraire, ici « lpos », puis ajouter des attributs avec le nom « lpos ».
 
 ```
 <script language="JavaScript" type="text/javascript">
@@ -119,7 +119,7 @@ Notez que ces variables sont répertoriées à titre de référence uniquement. 
 
 ### `s.ActivityMap.regionIDAttribute`
 
-Chaîne qui identifie l’attribut de balise à utiliser comme ID de région de certains éléments ancêtres (parent, parent.parent, ...) de `s.linkObject`, c&#39;est-à-dire, **l’élément sur lequel l’utilisateur a cliqué**.
+Chaîne qui identifie l’attribut de balise à utiliser comme ID de région à partir d’un élément ancêtre (parent, parent.parent, etc.) de `s.linkObject`, c’est-à-dire **l’élément sur lequel l’utilisateur a cliqué**.
 
 **Exemple**
 
@@ -127,7 +127,7 @@ La valeur par défaut est le paramètre « id ». Vous pouvez définir un autr
 
 ### `s.ActivityMap.link`
 
-Fonction qui reçoit le clic `HTMLElement` et doit renvoyer une valeur de chaîne qui représente le lien sur lequel vous avez cliqué. Si la valeur renvoyée est false (nul, non défini, chaîne vide, 0), aucun lien n’est suivi.
+Fonction qui reçoit lʼ`HTMLElement` visité et doit renvoyer une valeur de chaîne qui représente le lien sur lequel l’utilisateur a cliqué. Si la valeur renvoyée est false (nul, non défini, chaîne vide, 0), aucun lien n’est suivi.
 
 **Exemple**
 
@@ -144,7 +144,7 @@ function(clickedElement) {
 
 ### `s.ActivityMap.region`
 
-Fonction qui reçoit l’HTMLElement visité et doit renvoyer une valeur de chaîne qui représente **la région dans laquelle le lien a été trouvé lorsque l’utilisateur a cliqué dessus.** Si la valeur renvoyée est false (nul, non défini, chaîne vide, 0), aucun lien n’est suivi.
+Fonction qui reçoit l’HTMLElement visité et doit renvoyer une valeur de chaîne qui représente **la région dans laquelle le lien a été trouvé lorsque l’utilisateur a cliqué dessus.** Si la valeur renvoyée est false (nul, non défini, chaîne vide, 0), aucun lien n’est suivi.
 
 **Exemple**
 
