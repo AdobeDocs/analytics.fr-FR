@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ La page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur] permet
 
 ![Préférences de l’utilisateur](assets/user-preferences.png)
 
-Voici une courte vidéo sur les préférences de l’utilisateur :
+Regardez une courte vidéo sur les préférences de lʼutilisateur :
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
@@ -48,7 +48,7 @@ Les préférences de projet sʼappliquent aux nouveaux projets et aux nouveaux p
 
 ## [!UICONTROL Thème sombre]
 
-Si vous préférez disposer d’un arrière-plan sombre pour l’interface utilisateur d’Adobe Analytics, vous pouvez passer à [!UICONTROL Thème sombre].
+Si vous préférez afficher un arrière-plan sombre pour votre interface utilisateur dʼAdobe Analytics, vous pouvez activer le [!UICONTROL Thème sombre].
 
 1. Cliquez sur lʼicône dʼutilisateur dʼExperience Cloud en haut à droite.
 
