@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3705'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ L’architecture de conteneur utilisée dans le Créateur de segments définit *
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
-Voici un aperçu vidéo des conteneurs de segments :
+Regardez cet aperçu vidéo sur les conteneurs de segments :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
@@ -128,7 +128,7 @@ Vous pouvez utiliser l’imbrication de conteneurs ainsi que de règles dans un 
 |---|---|
 | Accès | Événements uniquement |
 | Visite | Conteneur d’accès, Événements |
-| Visitor | Conteneur de visites, Conteneur d’accès, Événements |
+| Visiteur | Conteneur de visites, Conteneur d’accès, Événements |
 | Groupe logique | Conteneur de visiteurs, conteneur de visites, conteneur d’accès |
 
 **Inclure plusieurs conteneurs dans une seule définition**
