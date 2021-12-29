@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Les segments avec des plages de dates incorporées fonctionnent toujours différ
 
 1. Définissez l’[opérateur](/help/components/segmentation/seg-reference/seg-operators.md) dans le menu déroulant.
 1. Saisissez ou sélectionnez une valeur pour l’élément sélectionné.
-1. Ajoutez des conteneurs supplémentaires, le cas échéant, en utilisant les règles **[!UICONTROL Et]**, **[!UICONTROL Ou]** ou **[!UICONTROL Alors]**.
+1. Ajoutez des conteneurs supplémentaires, le cas échéant, en utilisant les règles **[!UICONTROL AND]**, **[!UICONTROL OR]** ou **[!UICONTROL THEN]**.
 1. Après avoir placé les conteneurs et défini les règles, consultez les résultats du segment dans le graphique de validation dans la partie supérieure droite. Le programme de validation indique le pourcentage et le nombre absolu de pages vues, de visites et de visiteurs uniques qui correspondent au segment que vous avez créé.
 1. Sous **[!UICONTROL Balises]**,   [marquez](/help/components/segmentation/segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une nouvelle.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le segment.
@@ -121,7 +121,7 @@ Vous pouvez créer un conteneur Visite et dans celui-ci ajouter la période [!UI
 
 ![](assets/date-ranges.png)
 
-Voici une vidéo sur l’utilisation de périodes flottantes dans les segments :
+Regardez cette vidéo sur l’utilisation de périodes flottantes dans les segments :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
