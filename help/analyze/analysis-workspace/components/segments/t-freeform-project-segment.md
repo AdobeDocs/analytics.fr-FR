@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '514'
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Vous pouvez créer différents types de segments dans Workspace, selon la comple
 
 ## Vidéos
 
-Utilisation de segments dans Analysis Workspace :
+Utilisation des segments dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
-Recherche et création de segments:
+Recherche et création de segments :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Périodes flottantes dans les segments :
+Périodes flottantes dans les segments :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
