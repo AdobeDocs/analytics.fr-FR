@@ -5,9 +5,9 @@ feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 
 Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]** > **[!UICONTROL Services web]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]****[!UICONTROL Paramètres de la société]** > **[!UICONTROL Services web]**
 
-## Gérer les services Web
+## Gestion des services web
 
-Dans le [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) vous pouvez mettre à jour les autorisations afin d’inclure les utilisateurs qui doivent accéder aux API de services Web.
+Dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), vous pouvez mettre à jour les autorisations afin d’inclure les utilisateurs qui doivent accéder aux API des services web.
 
 ## WSDL : téléchargez le fichier WSDL de l’API des services web pour les développeurs de services.
 
