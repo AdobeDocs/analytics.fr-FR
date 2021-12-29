@@ -3,9 +3,9 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 ![Bannière](../../assets/doc_banner_implement.png)
 
-Voici un aperçu vidéo d’Adobe Analytics :
+Voici un aperçu vidéo dʼAdobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
