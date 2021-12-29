@@ -3,9 +3,9 @@ title: Appareils uniques
 description: Nombre dʼappareils uniques.
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors
 
 ## Exemple
 
-1. Sally arrive sur votre site par le biais d’une publicité, mais n’est pas connecté.
-1. Sally veut faire un achat, mais préférerait le faire sur l&#39;ordinateur de la famille car elle y est déjà connectée. Sur l&#39;ordinateur familial, elle fait un achat.
-1. Le lendemain, elle vérifie sa commande sur son téléphone et s&#39;y authentifie.
+1. Sally arrive sur votre site par le biais d’une publicité sur son téléphone, mais elle n’est pas connectée.
+1. Sally veut faire un achat, mais elle préférerait le faire sur l’ordinateur familial parce quʼelle y est déjà connectée. Sur l’ordinateur familial, elle effectue un achat.
+1. Le lendemain, elle vérifie sa commande sur son téléphone et s’y authentifie.
 1. Alice, la femme de Bob, navigue sur votre site en se connectant à son compte sur l’ordinateur familial.
 1. Le frère de Bob, Charles, navigue également sur votre site en se connectant à son compte sur l’ordinateur familial.
 
