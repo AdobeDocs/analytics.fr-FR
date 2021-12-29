@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '208'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Elle vous offre les possibilités suivantes :
 >
 >Pour en savoir plus sur les différences de résultats de l’application des segments au flux entre Analysis Workspace et Reports &amp; Analytics, consultez [Segmentation comme base des flux et des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-Voici un tutoriel vidéo sur la visualisation Flux :
+Voici un tutoriel vidéo sur la visualisation de flux :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24045/?quality=12)
 
