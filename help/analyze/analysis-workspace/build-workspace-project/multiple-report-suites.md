@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 * Créer un tableau de bord de mesures et de visualisations pour envoyer des rapports à d’autres organisations. Vous pouvez désormais extraire des données de plusieurs suites de rapports au sein du même projet.
 
-Voici une vidéo sur le sujet :
+Regardez cette vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
