@@ -5,9 +5,9 @@ title: Mesures calculées ou calculées avancées (dérivées)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités 
 Vous pouvez
 
 * Créer des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
-* Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Elles peuvent être consultées de manière historique car elles sont basées sur des segments. Voici une vidéo sur les mesures sans mise en oeuvre :
+* Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Elles peuvent être consultées de manière historique, car elles sont basées sur des segments. Regardez une vidéo sur les mesures ne nécessitant pas dʼimplémentation :
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * Partagez des mesures dans l’ensemble des suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
-* (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs », avec un décompte des personnes pour lesquelles il s’agit de la première session. Voici une vidéo sur ce sujet :
+* (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs », avec un décompte des personnes pour lesquelles il s’agit de la première session. Regardez une vidéo sur ce sujet :
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
