@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,14 @@ Il est également possible d’appliquer n’importe quel modèle d’attributio
 
 ## Vidéos
 
-Ajout de dimensions et de mesures à votre projet dans Analysis Workspace :
+Ajout de dimensions et de mesures à votre projet dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 
-Utilisation des dimensions dans un tableau à structure libre :
+Utilisation des dimensions dans un tableau à structure libre :
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
 
-Voici une vidéo sur les ventilations de dimensions par position :
+Regardez une vidéo sur les ventilations des dimensions par position :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
