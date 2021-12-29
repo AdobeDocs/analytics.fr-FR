@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -27,56 +27,56 @@ Vous trouverez ci-dessous certains cas connus de collecte des données relatives
 * Dans le cas des établissements financiers, le numéro de compte peut s’afficher sous la forme d’un lien. Le fait de cliquer dessus collecte le texte du lien.
 * Les sites web du secteur des soins de santé peuvent également afficher des données relatives aux informations d’identification personnelles sous la forme de liens. Le fait de cliquer sur ces liens collecte le texte du lien, et donc les données relatives aux informations d’identification personnelles.
 
-## Quand le suivi des liens se produit-il ?
+## Quand le suivi des liens se produit-il ?
 
-L’identification des liens et des régions de Activity Map se produit lorsque l’utilisateur clique sur une page.
+L’identification des liens et des régions dʼActivity Map se produit lorsque les utilisateurs cliquent sur une page.
 
-## Qu’est-ce qui est suivi par défaut ?
+## Quels éléments sont suivis par défaut ?
 
-Si un événement de clic se produit sur un élément, l’élément doit réussir certaines vérifications pour déterminer si AppMeasurement le traitera comme un lien. Ces vérifications sont les suivantes :
+Si un événement de clic se produit sur un élément, certaines vérifications doivent être effectuées afin de déterminer si AppMeasurement le considérera comme un lien. Ces vérifications sont les suivantes :
 
-* Est-ce que c&#39;est `A` ou `AREA` avec une balise `href` propriété ?
-* Y a-t-il un `onclick` qui définit un attribut `s_objectID` variable ?
-* Est-ce que c&#39;est `INPUT` ou `SUBMIT` avec une valeur ou un texte enfant ?
-* Est-ce que c&#39;est `INPUT` balise avec type `IMAGE` et un `src` propriété ?
-* S&#39;agit-il d&#39;un `BUTTON`?
+* S’agit-il d’une balise `A` ou `AREA` avec une propriété `href` ?
+* Un attribut `onclick` définit-il une variable `s_objectID` ?
+* S’agit-il d’une balise `INPUT` ou d’un bouton `SUBMIT` avec une valeur ou du texte enfant ?
+* S’agit-il d’une balise `INPUT` de type `IMAGE` avec une propriété `src` ?
+* Sʼagit-il dʼun `BUTTON` ?
 
 Si la réponse à l’une des questions ci-dessus est Oui, l’élément est considéré comme un lien et sera suivi.
 
 >[!IMPORTANT]
 >
->Les balises de bouton avec l’attribut type=&quot;button&quot; ne sont pas considérées comme des liens par AppMeasurement. Envisagez de supprimer type=&quot;button&quot; sur les balises de bouton et d’ajouter role=&quot;button&quot; ou encore send=&quot;button&quot; à la place.
+>Les balises de bouton avec l’attribut type=&quot;button&quot; ne sont pas considérées comme des liens par AppMeasurement. Envisagez de supprimer type=&quot;button&quot; sur les balises de bouton et d’ajouter à la place role=&quot;button&quot; ou submit=&quot;button&quot;.
 
 >[!IMPORTANT]
 >
->Une balise d&#39;ancrage avec un &quot;href&quot; commençant par &quot;#&quot; est considérée comme un emplacement cible interne par AppMeasurement, et non comme un lien (puisque vous ne quittez pas la page). Par défaut, Activity Map ne suit pas ces emplacements cibles internes. Il effectue uniquement le suivi des liens qui permettent à l’utilisateur d’accéder à une nouvelle page.
+>Une balise d’ancrage avec une balise « href » commençant par « # » est considérée comme un emplacement cible interne par AppMeasurement, et non comme un lien (puisque vous ne quittez pas la page). Par défaut, Activity Map ne suit pas ces emplacements cibles internes. Il effectue uniquement le suivi des liens qui permettent à l’utilisateur d’accéder à une nouvelle page.
 
-## Comment le Activity Map suit-il les autres éléments de HTML visuel ?
+## Comment Activity Map suit-il d’autres éléments HTML visuels ?
 
-a. Via le `s.tl()` fonction.
+a. Par le biais de la fonction `s.tl()`.
 
-Si le clic s’est produit via un `s.tl()` invocation, le Activity Map recevra également cet événement de clic et déterminera si un `linkName` variable de chaîne trouvée. Pendant `s.tl()` , ce linkName sera défini comme ID de lien Activity Map. L’élément sur lequel l’utilisateur a cliqué à l’origine de la `s.tl()` sera utilisé pour déterminer la région. Exemple :
+Si le clic s’est produit par le biais d’un appel `s.tl()`, Activity Map recevra également cet événement de clic et déterminera si une variable de chaîne `linkName` a été trouvée. Lors de l’exécution de `s.tl()`, ce linkName sera défini comme l’ID de lien dʼActivity Map. L’élément sur lequel l’utilisateur a cliqué et qui est à l’origine de l’appel `s.tl()` sera utilisé pour déterminer la région. Exemple :
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b. Via le `s_objectID` variable. Exemple :
+b. Par le biais de la variable `s_objectID`. Exemple :
 
-    &quot; 
+    ``` 
     
-    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
-    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
-    Lier le texte ici
+    &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/>
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
+    Texte du lien ici
     &lt;/a>
     
-    &quot;
+    ```
 
 >[!IMPORTANT]
 >
->Un point-virgule de fin (;) est requis lors de l’utilisation `s_objectID` en Activity Map.
+>Un point-virgule (;) de fin est requis lorsque la variable `s_objectID` est utilisée dans Activity Map.
 
-## Pouvez-vous me donner des exemples de liens qui seront suivis ?
+## Pouvez-vous me donner des exemples de liens qui seront suivis ?
 
 ### Exemple 1
 
@@ -96,7 +96,7 @@ b. Via le `s_objectID` variable. Exemple :
   <input type="image" src="submit-button.png"/>
 ```
 
-### Exemple 4
+### Exemple 4
 
 ```
     <p onclick="var s_objectID='custom link id';">
@@ -105,7 +105,7 @@ b. Via le `s_objectID` variable. Exemple :
     </p>
 ```
 
-### Exemple 5
+### Exemple 5
 
 ```
     <div onclick="s.tl(true,'o','custom link id')">
@@ -114,12 +114,12 @@ b. Via le `s_objectID` variable. Exemple :
     </div>
 ```
 
-## Pouvez-vous me donner quelques exemples de liens qui ne seront PAS suivis ?
+## Pouvez-vous me donner des exemples de liens qui ne seront PAS suivis ?
 
-1. Raison : la balise d’ancrage ne possède pas de valide `href`:
+1. Raison : la balise d’ancrage ne possède pas de `href` valide :
    `<a name="innerAnchor">Section header</a>`
 
-1. Motif : Ni `s_ObjectID` ni `s.tl()` présent :
+1. Raison : absence de `s_ObjectID` et `s.tl()` :
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b. Via le `s_objectID` variable. Exemple :
    </p>
    ```
 
-1. Motif : Ni `s_ObjectID` ni `s.tl()` présent :
+1. Raison : absence de `s_ObjectID` et `s.tl()` :
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,7 +137,7 @@ b. Via le `s_objectID` variable. Exemple :
    
    ```  
    
-1. Motif : La propriété &quot;src&quot; ne comporte pas d’élément d’entrée de formulaire :
+1. Raison : la propriété « src » présente un élément d’entrée de formulaire manquant :
 
    `<input type="image"/>`
 
