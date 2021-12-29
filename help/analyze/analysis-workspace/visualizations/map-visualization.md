@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Carte
 
-## Aperçu {#section_19F740FAF08D47B1AF1EF239A74FC75C}
+## Présentation {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 
 La visualisation des cartes dans Analysis Workspace :
 
@@ -39,8 +39,8 @@ Voici une présentation vidéo :
 
 | Paramètre | Description |
 | --- | --- |
-| [!UICONTROL Lat/Long mobiles] | Cette option représente les données des applications mobiles. Cette option s’affiche uniquement si vous l’avez activée pour votre suite de rapports dans [!UICONTROL Analytics] > [!UICONTROL Administration] > [!UICONTROL Suites de rapports] > (sélectionner une suite de rapports) > [!UICONTROL Modifier les paramètres] >  [!UICONTROL Gestion mobile] > [!UICONTROL Activation du suivi de l’emplacement]. Il s’agit du paramètre par défaut (si le suivi de l’emplacement est activé). |
-| [!UICONTROL Dimension géographique] | Cette option représente les données de segmentation géographique relatives à l’emplacement du visiteur sur la base de son adresse IP. Ces données sont transformées en [!UICONTROL Pays], [!UICONTROL Région], et [!UICONTROL Ville]. Notez toutefois qu’elles ne vont pas jusqu’au niveau de la zone de marché ou du code postal. Cette dimension est activée pour pratiquement toutes les suites de rapports. Si ce n’est pas le cas pour la vôtre, contactez l’assistance clientèle Adobe pour faire activer les rapports géographiques. |
+| [!UICONTROL Lat/Long pour applications mobiles] | Cette option représente les données des applications mobiles. Cette option apparaît uniquement si vous l’avez activée pour votre suite de rapports sous [!UICONTROL Analytics] > [!UICONTROL Administration] > [!UICONTROL Suites de rapports] > (sélectionnez la suite de rapports) > [!UICONTROL Modifier les paramètres] > [!UICONTROL Gestion mobile] > [!UICONTROL Activer le suivi de l’emplacement]. Il s’agit du paramètre par défaut (si le suivi de l’emplacement est activé). |
+| [!UICONTROL Dimension géographique] | Cette option représente les données de segmentation géographique relatives à l’emplacement du visiteur sur la base de son adresse IP. Ces données sont transformées en [!UICONTROL pays], [!UICONTROL région] et [!UICONTROL ville]. Notez toutefois qu’elles ne vont pas jusqu’au niveau de la DMA ou du code postal. Cette dimension est activée pour pratiquement toutes les suites de rapports. Si ce n’est pas le cas pour la vôtre, contactez l’assistance clientèle Adobe pour faire activer les rapports géographiques. |
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -88,6 +88,6 @@ Cliquez sur l’**icône d’engrenage** pour afficher ces paramètres de visual
 
 ## Création dʼune carte thermique de répartition du temps
 
-Regardez cet aperçu vidéo sur ce sujet :
+Regardez une vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
