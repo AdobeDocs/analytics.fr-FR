@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1121'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Le partage rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Les [traitements](curate.md) appliqués sont répercutés lorsque les destinataires ouvrent le projet.
 
-Voici un aperçu vidéo du partage de projet :
+Regardez cet aperçu vidéo sur le partage de projet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
@@ -30,7 +30,7 @@ Vous pouvez ajouter des destinataires à l’un des trois rôles de projet. Les 
 | Peut dupliquer | Les destinataires peuvent **[!UICONTROL Enregistrer sous]** et ont accès au rail de gauche. Les interactions avec le projet ne sont pas limitées dans ce rôle. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui comprennent les données de votre entreprise et comment utiliser Analysis Workspace, mais que vous ne souhaitez pas que votre projet soit modifié. |
 | Peut afficher | Les destinataires ne peuvent pas Enregistrer sous et n’ont pas accès au rail de gauche. Les interactions avec le projet sont également limitées. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général. Cependant, vous souhaitez tout de même qu’ils consomment des données et des informations dans un environnement sûr.<br>En savoir plus sur l’[expérience du projet Peut afficher](/help/analyze/analysis-workspace/curate-share/view-only-projects.md). |
 
-Voici une vidéo sur les projets en lecture seule dans Analysis Workspace :
+Regardez cette vidéo sur les projets en lecture seule dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
@@ -68,14 +68,14 @@ Vous pouvez également cliquer sur **[!UICONTROL Traiter et partager]** pour app
 
 ## Partage avec des groupes de destinataires {#Groups}
 
-Tous les utilisateurs peuvent partager des projets avec des groupes, qui représentent un ensemble de destinataires. Dans Adobe Analytics, les groupes sont définis par profils de produits dans l’[Admin Console pour Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Tous les utilisateurs peuvent partager des projets avec des groupes, qui représentent un ensemble de destinataires. Dans Adobe Analytics, les groupes sont définis par profils de produits dans l’[Admin Console pour Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
 
 * Les administrateurs peuvent partager des projets avec n’importe quel groupe, y compris « Tous ».
 * Les non-administrateurs peuvent partager des projets avec des groupes dont ils sont membres, à l’exception de « Tous ».
 
 ## Partage d’un lien de projet {#Links}
 
-Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager] > [!UICONTROL Obtenir le lien du projet]**. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si les destinataires n’ont pas reçu de rôle, ils recevront un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) sur la création de liens partageables vers des projets Workspace.
+Vous pouvez obtenir un lien vers un projet sous **[!UICONTROL Partager] > [!UICONTROL Obtenir le lien du projet]**. Lorsque vous cliquez dessus, les destinataires doivent se connecter avant d’accéder au projet. Si les destinataires n’ont pas reçu de rôle, ils recevront un rôle par défaut. Les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]**. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=fr) sur la création de liens partageables vers des projets Workspace.
 
 ## Partage de projets dans le gestionnaire de projets {#Manager}
 
@@ -95,7 +95,7 @@ Si les projets A et B sont sélectionnés, les destinataires 4 et 7 sont ajout
 
 ## Partage de composants intégrés
 
-Regardez cet aperçu vidéo sur ce sujet :
+Regardez une vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
