@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions.
 
-Voici une vidéo sur l’encapsulation de texte et le flux multidimensionnel dans Analysis Workspace :
+Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
