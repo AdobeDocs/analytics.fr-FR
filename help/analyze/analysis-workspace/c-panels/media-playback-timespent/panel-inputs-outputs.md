@@ -1,19 +1,19 @@
 ---
-title: Entrées et sorties du panneau Durée de lecture du média
-description: Quels sont les paramètres d’entrée et de sortie Temps de lecture du média ?
+title: Entrées et sorties du panneau Durée de lecture des médias
+description: Quels sont les paramètres dʼentrée et de sortie du panneau Durée de lecture des médias ?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# Entrées et sorties du panneau Durée de lecture du média {#Inputs-and-outputs}
+# Entrées et sorties du panneau Durée de lecture des médias {#Inputs-and-outputs}
 
-Vous pouvez personnaliser le panneau Durée de lecture multimédia à l’aide des paramètres d’entrée et de sortie suivants.
+Personnalisez le panneau Durée de lecture des médias à lʼaide des paramètres d’entrée et de sortie suivants.
 
 ## Entrées de panneau {#Input}
 
