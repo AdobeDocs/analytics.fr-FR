@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -55,8 +55,8 @@ Les lignes dynamiques et statiques se comportent différemment dans la ligne de 
 * Les lignes dynamiques sont additionnées côté serveur et dédupliquent les mesures, telles que les visites ou les visiteurs.
 * Les lignes statiques sont additionnées côté client et ne dédupliquent **pas** les mesures. Pour calculer la ligne de total côté serveur, définissez le paramètre des lignes sur **Afficher le total général**. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr)
 
-## Réorganiser les lignes statiques
+## Réorganisation des lignes statiques
 
-Regardez cet aperçu vidéo sur ce sujet :
+Regardez une vidéo sur ce sujet :
 
 >[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
