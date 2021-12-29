@@ -1,18 +1,18 @@
 ---
-title: FAQ sur le temps de lecture multimédia
-description: Que sont les questions fréquentes sur la durée de lecture des médias ?
+title: FAQ sur le panneau Durée de lecture des médias
+description: Quelles sont les questions fréquemment posées au sujet du panneau Durée de lecture des médias ?
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 
-# FAQ sur le temps de lecture multimédia
+# FAQ sur le panneau Durée de lecture des médias
 
 
 | Question | Réponse |
