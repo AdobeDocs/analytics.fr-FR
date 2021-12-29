@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exem
 | est supérieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur ou égal à la valeur saisie. |
 | est inférieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur ou égal à la valeur saisie. |
 
-Voici une vidéo sur la segmentation sur des nombres de dimensions distincts :
+Regardez cette vidéo concernant la segmentation sur des nombres de dimensions distincts :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
