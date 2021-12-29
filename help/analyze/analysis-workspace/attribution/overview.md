@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Attribution IQ propose les fonctionnalités suivantes :
 
 ## Vidéos
 
-Attribution IQ dans les tableaux à structure libre :
+Attribution IQ dans les tableaux à structure libre :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
@@ -56,11 +56,11 @@ Attribution IQ dans les mesures calculées
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Utilisation du panneau Attribution IQ :
+Utilisation du panneau Attribution IQ :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Ajout de comparaisons côte à côte des modèles Attribution IQ :
+Ajout de comparaisons côte à côte de modèles Attribution IQ :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
