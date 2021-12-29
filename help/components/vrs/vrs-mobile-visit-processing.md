@@ -4,9 +4,9 @@ title: Sessions contextuelles
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1563'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Les sessions contextuelles dans les suites de rapports virtuelles modifient la m
 
 Vous pouvez définir une visite comme vous le souhaitez sans modifier les données sous-jacentes, afin de correspondre à la façon dont vos visiteurs interagissent avec vos expériences digitales.
 
-Voici une vidéo sur les sessions contextuelles :
+Regardez cette vidéo sur les sessions contextuelles :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
