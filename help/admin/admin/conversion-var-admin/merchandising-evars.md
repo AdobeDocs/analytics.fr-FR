@@ -3,9 +3,9 @@ title: eVars de marchandisage et méthodes de recherche de produit
 description: Analyse approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et affectent les données.
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 Ce document hautement détaillé décrit les concepts sous-jacents aux eVars de marchandisage, qui traitent et attribuent les données différemment des eVars standards. Il explique également comment les eVars de marchandisage se rapportent aux méthodes de recherche de produit.
 
-## Aperçu
+## Présentation
 
 L’utilisation d’eVars de marchandisage vous permet d’attribuer toute activité réussie aux valeurs capturées par les eVars à un niveau *par produit* au lieu d’un niveau *par visite/par commande*.
 
@@ -87,7 +87,7 @@ Toutefois, avec la **[!UICONTROL Syntaxe du produit]**, l’eVar est définie un
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL Catégorie] n’est plus recommandée comme option viable pour effectuer le suivi des performances des catégories de produits.  Sa simple existence démontre pourquoi, dans la plupart des implémentations de la variable products, un seul point-virgule précède la partie productID de la valeur de la variable.
+* La [!UICONTROL Catégorie] nʼest plus recommandée comme option viable pour effectuer le suivi des performances des catégories de produits.  Sa simple existence démontre pourquoi, dans la plupart des implémentations de la variable products, un seul point-virgule précède la partie productID de la valeur de la variable.
 * La [!UICONTROL Quantité] et le [!UICONTROL Chiffre d’affaires] sont utiles lorsqu’un suivi est effectué sur un achat de produit.
 * Les [!UICONTROL Événements] sont utiles pour enregistrer des valeurs d’événements incrémentielles ou monétaires personnalisées qui ne sont pas censées être comptabilisées comme du chiffre d’affaires (notamment les frais d’expédition, les remises, etc.).
 
