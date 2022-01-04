@@ -5,16 +5,19 @@ title: Questions fréquentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # Questions fréquentes
 
 Fournit des réponses et des suggestions en matière de dépannage pour certaines des questions d’analyses les plus fréquemment posées concernant la section Reports &amp; Analytics. Pour les questions les plus fréquemment posées relatives à l’implémentation, consultez la [FAQ](/help/implement/faq.md) dans le guide d’utilisation de l’implémentation.
+
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
 
 **Mon compte a été verrouillé. Comment puis-je le déverrouiller ?**
 

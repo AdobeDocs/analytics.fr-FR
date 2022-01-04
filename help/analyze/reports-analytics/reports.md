@@ -1,13 +1,13 @@
 ---
 title: Rapports
 description: Les dimensions et mesures utilisées par Reports & Analytics pour chaque rapport.
-feature: Rapports & Concepts de base d’Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1866'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,9 @@ Chaque rapport dans Reports &amp; Analytics utilise une dimension dédiée et un
 >[!NOTE]
 >
 >L’aspect du menu des rapports peut varier en fonction des personnalisations effectuées par un administrateur de votre entreprise. Voir [Personnalisation des menus](/help/admin/admin/customize-menus.md) dans le guide d’utilisation Administrateur.
+
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
 
 ## Mesures du site
 

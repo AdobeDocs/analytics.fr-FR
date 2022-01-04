@@ -3,19 +3,22 @@ description: Cette section contient des informations sur la planification, le t�
 subtopic: Schedule
 title: Planification et distribution des rapports
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
-workflow-type: ht
-source-wordcount: '1666'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
 # Planification et distribution des rapports
 
 Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
+
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
 
 Lorsque vous planifiez la remise d’un rapport dans une application d’Adobe Analytics, vous pouvez utiliser les outils Planification et Diffusion pour afficher les fichiers qui ont été envoyés automatiquement et modifier ou interrompre les livraisons.
 
@@ -49,7 +52,7 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
    | Option | Description |
    |--- |--- |
    | Format | Sélectionnez le format PDF ou HTML. |
-   | Envoyer à | Précisez une adresse électronique où recevoir le rapport. |
+   | Envoyer à | Précisez une adresse e-mail où recevoir le rapport. |
    | Objet | Objet du courrier électronique. |
    | Planification | Choisissez d’envoyer le rapport immédiatement ou à un autre intervalle. |
 

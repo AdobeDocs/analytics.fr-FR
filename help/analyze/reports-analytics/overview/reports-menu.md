@@ -2,19 +2,22 @@
 description: Une présentation du menu Rapports dans Reports & Analytics.
 title: Menu Rapports
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 96%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # Menu Rapports{#reports-menu}
 
 Une présentation du menu Rapports dans Reports &amp; Analytics.
+
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
 
 Le menu Rapports permet ce qui suit :
 
@@ -113,7 +116,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1">Sélecteur de Report Suites <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Vous permet de sélectionner des <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >suites de rapports de base</a> ou des <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
+   <td colname="col2">Vous permet de sélectionner des <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr"  >suites de rapports de base</a> ou des <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendrier <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 

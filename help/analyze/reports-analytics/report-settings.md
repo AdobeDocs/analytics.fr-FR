@@ -4,10 +4,10 @@ title: Paramètres d’affichage des rapports et navigation
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 Paramètres qui définissent la manière dont tous les rapports apparaissent et les informations qui mettent en correspondance les options de menu par défaut avec leur emplacement dans le menu simplifié.
 
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
+
 ## Paramètres d’affichage des rapports et navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Composants]**  >  **[!UICONTROL Tous les composants]**  > Paramètres des  **[!UICONTROL rapports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Paramètres des rapports]**
 
 | Élément | Description |
 |--- |--- |

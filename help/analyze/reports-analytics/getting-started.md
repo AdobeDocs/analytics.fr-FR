@@ -4,16 +4,19 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 95%
+source-wordcount: '790'
+ht-degree: 84%
 
 ---
 
 # Prise en main de Reports &amp; Analytics
 
 Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+
+>[!IMPORTANT]
+>Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
 
 Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports
 
@@ -30,9 +33,6 @@ Les rapports fournissent des informations sur vos canaux web classiques, ainsi q
 ## Configuration requise du navigateur et du système
 
 Configuration requise du navigateur et du système pour se connecter à l’interface de Reports &amp; Analytics.
-
->[!NOTE]
->Le 13 novembre 2018, Adobe a arrêté la prise en charge d’Internet Explorer 11 dans Adobe Analytics. Veuillez utiliser Microsoft Edge ou un autre navigateur pris en charge dès que possible.
 
 * Navigateurs privilégiés : dernières versions de Firefox, Chrome, Safari ou Edge.
 * Les cookies et JavaScript doivent être activés.
