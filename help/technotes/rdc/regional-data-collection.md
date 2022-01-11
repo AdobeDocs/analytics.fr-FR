@@ -17,7 +17,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 >
 >Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. Lʼoptimisation des performances en Chine continentale dʼAdobe permet aux clients ayant des utilisateurs à lʼintérieur de la Chine dʼenvoyer directement ces données au nœud de périphérie en Chine, plutôt quʼà dʼautres emplacements à lʼéchelle mondiale. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
 
-La collecte de données régionale inclut les emplacements suivants (sujets à modification) :
+La collecte de données régionale inclut actuellement les emplacements suivants (sujets à modification) :
 
 ## Collecte de données tierces
 
@@ -29,7 +29,7 @@ La collecte de données régionale inclut les emplacements suivants (sujets à m
 
 >[!NOTE]
 >
->Si votre demande dʼimage Analytics est envoyée aux points d’entrée `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez alors dʼune collecte de données tierces. Vous pouvez le déterminer si vous voyez l’un des terminaux présents dans l’URL de vos requêtes.
+>Si votre demande dʼimage Analytics est envoyée aux points d’entrée `adobedc`, `2o7.net` ou `omtrdc.net`, vous disposez alors dʼune collecte de données tierces. Vous pouvez déterminer cela si l’un des points d’entrée apparaît dans l’URL de vos requêtes.
 
 ## Collecte de données propriétaires
 

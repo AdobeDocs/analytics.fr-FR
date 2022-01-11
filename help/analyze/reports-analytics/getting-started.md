@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -80,7 +80,7 @@ Informations concernant la modification des comptes utilisateur, la réinitialis
 
 Vous pouvez afficher et modifier les coordonnées, définir un mot de passe, afficher les informations sur les services web et exclure cet ordinateur de la collecte de données.
 
-Cliquez sur l’icône Compte ![](assets/account.png)en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
+Cliquez sur l’icône Compte ![](assets/account.png) en haut à droite, puis cliquez sur l’icône **[!UICONTROL Paramètres du compte]** (en forme de rouage) près de votre nom d’utilisateur.
 
 Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte]. Les informations suivantes peuvent être modifiées ou affichées :
 
@@ -101,4 +101,4 @@ Cette section décrit la procédure à suivre pour modifier la langue de l’int
 Vous pouvez y accéder, ainsi qu’à la page d’accueil, depuis Adobe Experience Cloud. (**[!UICONTROL Aide]** > **[!UICONTROL Page d’accueil de l’aide]**.)
 
 >[!NOTE]
->Ce produit est autorisé à la vente en Amérique du Nord et dans d&#39;autres régions où il est effectivement vendu. Il peut ne pas satisfaire aux exigences locales de vente dans d’autres pays ou régions.
+>La vente de ce produit est autorisée en Amérique du Nord et dans les autres régions où il est effectivement vendu. Il peut ne pas répondre aux exigences locales pour la vente dans dʼautres pays ou régions.
