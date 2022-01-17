@@ -5,9 +5,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1950'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Chaque rapport dans Reports &amp; Analytics utilise une dimension dédiée et un
 >L’aspect du menu des rapports peut varier en fonction des personnalisations effectuées par un administrateur de votre entreprise. Voir [Personnalisation des menus](/help/admin/admin/customize-menus.md) dans le guide d’utilisation Administrateur.
 
 >[!IMPORTANT]
->Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
+>À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
 ## Mesures du site
 
