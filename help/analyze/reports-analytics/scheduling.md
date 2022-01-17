@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
 
 >[!IMPORTANT]
->Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
+>À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
 Lorsque vous planifiez la remise d’un rapport dans une application d’Adobe Analytics, vous pouvez utiliser les outils Planification et Diffusion pour afficher les fichiers qui ont été envoyés automatiquement et modifier ou interrompre les livraisons.
 
