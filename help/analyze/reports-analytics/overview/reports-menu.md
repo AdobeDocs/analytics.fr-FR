@@ -1,23 +1,23 @@
 ---
 description: Une présentation du menu Rapports dans Reports & Analytics.
-title: Menu Rapports
+title: 'Menu Rapports '
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# Menu Rapports{#reports-menu}
+# Menu Rapports {#reports-menu}
 
 Une présentation du menu Rapports dans Reports &amp; Analytics.
 
 >[!IMPORTANT]
->Efficace **31 décembre 2023**, Adobe a l’intention d’arrêter les Reports &amp; Analytics et les rapports et fonctionnalités qui les accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings cesseront de fonctionner. Les rapports, les visualisations et la technologie sous-jacente qui optimisent Reports &amp; Analytics ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités et fonctionnalités des Reports &amp; Analytics ont été déplacées vers Analysis Workspace et un seuil de parité de workflow a été atteint. Cet avis explique le processus de fin de vie.
+>À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
 Le menu Rapports permet ce qui suit :
 
@@ -34,7 +34,7 @@ Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. C
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Pour plus d’informations sur les rapports individuels, voir [Dimensions](/help/components/dimensions/overview.md).
+Pour plus de détails sur les rapports individuels, consultez la section [Dimensions](/help/components/dimensions/overview.md).
 
 ## Recherche de rapports {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -116,7 +116,7 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
   </tr> 
   <tr> 
    <td colname="col1">Sélecteur de Report Suites <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Vous permet de sélectionner des <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr"  >suites de rapports de base</a> ou des <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >suites de rapports virtuelles</a>. </td> 
+   <td colname="col2">Vous permet de sélectionner des <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=fr"  >suites de rapports de base</a> ou des <a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr"  >suites de rapports virtuelles</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendrier <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -127,4 +127,4 @@ Appuyez sur la touche Tabulation ou sur la touche Flèche bas (↓) pour parcou
 
 ## Personnalisation du menu Tous les rapports {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html) dans l’aide destinée aux administrateurs.
+Les administrateurs peuvent modifier les rapports contenus dans le menu Rapports. Reportez-vous à la section [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=fr) dans l’aide destinée aux administrateurs.
