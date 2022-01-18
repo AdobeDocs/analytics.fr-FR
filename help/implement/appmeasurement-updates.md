@@ -3,10 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 99%
+source-wordcount: '2267'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **11 janvier 2022**
 
-* Correction de la fonction s.tl() pour ignorer de manière élégante les objets comportant des objets href au lieu des chaînes href.
+* Appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient une `href` attribut de type `string`. S’il ne s’agit pas d’une `string`, alors il ignorera gracieusement la variable `href` plutôt que d’échouer. Cela peut se produire lors de la transmission de `svg` aux objets de l’appel de suivi des liens.
 
 ## Version 2.22.3
 
