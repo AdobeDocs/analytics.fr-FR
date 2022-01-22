@@ -3,9 +3,9 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour 
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en ch
 
 >[!IMPORTANT]
 >
->Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le règlement général sur la protection des données (RGPD).
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à en remplacer un. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le règlement général sur la protection des données (RGPD).
 
 Le 25 mai 2018, le Règlement général sur la protection des données (RGPD) de l’Union européenne est entré en vigueur. Pour plus d’informations sur la réponse d’Adobe et sur ce que cela signifie pour vous en tant que client Adobe, voir [Le RGPD et votre entreprise.](https://www.adobe.com/fr/privacy/general-data-protection-regulation.html)
 
@@ -54,8 +54,3 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/c-data-gov
 
 * Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur d’Adobe Analytics.
 
-## AdobePrivacyJS : résolution des identités côté client pour les demandes RGPD
-
-Regardez cet aperçu vidéo sur ce sujet :
-
->[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)

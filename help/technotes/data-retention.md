@@ -2,11 +2,10 @@
 title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '557'
-ht-degree: 100%
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 91%
 
 ---
 
@@ -32,6 +31,10 @@ Dans le cadre de son rôle dans le traitement des données, Adobe doit prendre l
 ## Suppression des données
 
 Le délai prévu par votre politique de conservation des données dépassé, Adobe se réserve le droit de les supprimer sans récupération possible. Vous devez vous assurer que toutes les données que vous souhaitez conserver sont couvertes par la politique de conservation des données de votre entreprise.
+
+## Afficher/gérer la politique actuelle de conservation des données
+
+La boîte de dialogue Gouvernance des données dans [!UICONTROL Administration] Les outils offrent un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Il indique également s’ils ont été mappés à une organisation Experience Cloud et si une politique de conservation des données est en place pour cette suite de rapports. [Plus d’informations](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=fr)
 
 ## Questions fréquentes
 
