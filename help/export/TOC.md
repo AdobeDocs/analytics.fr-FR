@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
 source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
