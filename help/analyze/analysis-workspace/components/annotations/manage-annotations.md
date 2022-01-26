@@ -2,15 +2,19 @@
 title: Gestion des annotations
 description: Comment gérer les annotations dans Workspace.
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 11%
 
 ---
 
 
 # Gestion des annotations
+
+>[!NOTE]
+>
+>Cette fonctionnalité fait actuellement l’objet de tests limités.
 
 Le [!UICONTROL Composants] > [!UICONTROL Annotations] manager offre de nombreuses façons de gérer les annotations, telles que le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 
@@ -22,5 +26,12 @@ Le [!UICONTROL Annotations] manager vous présente toutes les annotations que vo
 
 ## Interface utilisateur du Gestionnaire d’annotations
 
-image d&#39;insertion
+| Elément de l’interface utilisateur | Description |
+| --- | --- | 
+| Titre et description |  |
+| Suite de rapports |  |
+| Propriétaire |  |
+| Période appliquée |  |
+| Partagé avec |  |
+| Date de modification |  |
 
