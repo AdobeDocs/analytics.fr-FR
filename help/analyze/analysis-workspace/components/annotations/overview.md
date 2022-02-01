@@ -2,9 +2,10 @@
 title: Aperçu des annotations
 description: Utilisation des annotations dans Workspace.
 role: User, Admin
-source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
+solution: Analytics
+source-git-commit: ba7a3193ef01f5865300554ed0ebb610146ebc5a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
@@ -19,7 +20,7 @@ Les annotations vous permettent de communiquer efficacement des nuances et des i
 
 ## Visibilité
 
-Les annotations sont visibles de différentes manières :
+Vous pouvez afficher les annotations de différentes manières :
 
 * Insérer une image de ligne via >
 
