@@ -2,10 +2,10 @@
 title: Autorisations du profil de produit pour les outils Analytics
 description: Utilisez les éléments d’autorisation liés aux outils Analytics pour permettre l’accès aux fonctionnalités d’Adobe Analytics.
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Activity Map] | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | [!UICONTROL Données actives] | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
 | [!UICONTROL Utilisateurs de la licence Ad Hoc Analysis] | Ad Hoc Analysis tire sa révérence. Voir [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
-| [!UICONTROL Administration des applications mobiles] | Inutilisé. |
+| [!UICONTROL Administrateur des applications mobiles] | Inutilisé. |
 | [!UICONTROL Accès aux services Web] | Permet d’utiliser l’API, notamment l’authentification auprès de sites tiers et l’envoi d’appels d’API. |
 | [!UICONTROL Report Builder] | Active le bouton de téléchargement sous Outils > Report Builder et permet à l’utilisateur de s’authentifier dans Microsoft Excel. |
 | [!UICONTROL Accès à Analysis Workspace] | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
@@ -41,6 +41,6 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Création de segment] | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | [!UICONTROL Gestion d’Advertising Analytics] | Inutilisé. |
 | [!UICONTROL Publication de segment] | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
-| [!UICONTROL Intégrations (créer)] | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |
-| [!UICONTROL Intégrations (mettre à jour)] | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de modifier les configurations de connecteur existantes. |
-| [!UICONTROL Intégrations (supprimer)] | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de supprimer des connecteurs de données. |
+| [!UICONTROL Intégrations (créer)] | Inutilisé. Les Data Connectors ont été mis hors service. |
+| [!UICONTROL Intégrations (mettre à jour)] | Inutilisé. |
+| [!UICONTROL Intégrations (supprimer)] | Inutilisé. |
