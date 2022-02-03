@@ -2,10 +2,10 @@
 title: Gestion des annotations
 description: Comment gérer les annotations dans Workspace.
 role: User, Admin
-source-git-commit: c4ffa987cd652b3e8f36fadf61ee6a395365fda0
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 4%
+source-wordcount: '477'
+ht-degree: 18%
 
 ---
 
@@ -47,23 +47,18 @@ La modification d’une annotation signifie que vous pouvez ajuster les plages d
 
 Ces deux options vous redirigent vers le créateur d’annotations. Vous pouvez y effectuer les réglages nécessaires et enregistrer la nouvelle version.
 
-## Partage des annotations
+## Autres tâches d’annotation
 
-![](assets/share-ann.png)
+Le gestionnaire des annotations permet aux administrateurs de modifier, ajouter, baliser, supprimer, renommer, approuver, copier, exporter et filtrer les annotations. Il n’est pas visible par les utilisateurs qui ne sont pas administrateurs.
 
-1. Sélectionnez la ou les annotations à partager, puis cliquez sur [!UICONTROL Partager].
+Sélectionnez simplement une ou plusieurs annotations et la barre Tâche s’affiche.
 
-1. Dans le [!UICONTROL Composant Partager] recherchez les individus ou les groupes avec lesquels vous souhaitez partager la ou les annotations.
-
-1. Sous [!UICONTROL Organisation], ....
-
-1. Cliquez sur [!UICONTROL Enregistrer].
-
-## Balisage des annotations
-
-Pour suivre
-
-
-
-
-
+| Tâche | Description |
+| --- | --- |
+| Ajouter | Permet d’accéder au créateur d’annotations où vous pouvez créer des annotations. |
+| Baliser | Tous les utilisateurs peuvent créer des balises pour les annotations et en appliquer une ou plusieurs à une annotation. Vous ne pouvez toutefois afficher que les balises qui vous appartiennent. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles :<ul><li>Des balises basées sur des noms d’équipe, par exemple Marketing des réseaux sociaux, Marketing des appareils mobiles</li><li>Les balises Projet (balises d’analyse), telles que l’analyse de la page d’accès</li><li>Les balises Catégorie : Hommes ; géographie</li><li>Les balises Workflow : Traité pour (une division spéciale) ; Approuvé.</li></ul> |
+| Supprimer | La suppression d’une annotation la supprime de tout projet de votre entreprise. |
+| Renommer | Le changement du nom d’une annotation la renomme dans tous les projets auxquels elle a été appliquée. |
+| Copier | Crée une copie distincte avec son propre ID d’annotation, mais avec le même nom et la même définition. |
+| Exporter dans un fichier CSV | Exportez la définition d’annotation dans un fichier .csv. |
+| Filtre (rail de gauche) | Filtrez par balises, suite de rapports, propriétaires et autres filtres (À moi, Approuvés, Favoris, Partagés avec moi et Tout afficher). |

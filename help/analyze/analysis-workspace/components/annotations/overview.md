@@ -3,9 +3,9 @@ title: Aperçu des annotations
 description: Utilisation des annotations dans Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '355'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 >
 >Cette fonctionnalité fait actuellement l’objet de tests limités.
 
-Les annotations vous permettent de communiquer efficacement des nuances et des informations contextuelles à votre organisation. Ils vous permettent de lier des événements de calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une période ou une période pour des problèmes de données, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site.
+Les annotations vous permettent de communiquer efficacement des nuances et des informations contextuelles à votre organisation. Ils vous permettent de lier des événements de calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une période ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site.
 
 Supposons, par exemple, que vous partagiez des projets que vous avez créés avec votre entreprise. Vous constatez un creux ou un pic de trafic ou d’autres données, et vous liez une annotation aux mesures, dimensions ou segments affectés. Ces annotations s’affichent ensuite dans un tableau ou une visualisation en ligne et fournissent un contexte de données pour vous et les consommateurs de vos projets Workspace.
 
@@ -38,7 +38,7 @@ Toutefois, les administrateurs peuvent attribuer la variable [!UICONTROL Créati
 
 ## Affichage des annotations
 
-Vous pouvez afficher les annotations de différentes manières : as a [!UICONTROL Ligne] visualisation (puisqu’il s’agit de données de tendance), sous la forme d’une [!UICONTROL Structure libre] , une [!UICONTROL Barre] ou dans un fichier .pdf exporté.
+Vous pouvez afficher les annotations de différentes manières : dans [!UICONTROL Ligne] (puisqu’il s’agit de données de tendance), dans une [!UICONTROL Structure libre] , une [!UICONTROL Barre] ou dans un fichier .pdf exporté.
 
 ### Visualisation en ligne
 

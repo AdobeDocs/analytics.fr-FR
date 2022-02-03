@@ -2,13 +2,13 @@
 description: Le Gestionnaire de suites de rapports virtuelles permet aux administrateurs de modifier, ajouter, baliser, supprimer, renommer, approuver, copier, exporter et filtrer des suites de rapports virtuelles. Il n’est pas visible par les utilisateurs qui ne sont pas administrateurs.
 keywords: Suite de rapports virtuelle
 title: Gestion des suites de rapports virtuelles
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 92%
 
 ---
 
@@ -25,9 +25,9 @@ Le Gestionnaire de suites de rapports virtuelles permet aux administrateurs de m
 >Dans le Gestionnaire de suites de rapports virtuelles, vous ne pouvez afficher que vos propres suites de rapports virtuelles. Vous devez cliquer sur **[!UICONTROL Tout afficher]** pour afficher les suites de rapports virtuelles des autres utilisateurs.
 
 | Tâche | Description |
-|--- |--- |
+| --- | --- |
 | Ajouter | Permet d’accéder au créateur de suites de rapports virtuelles où vous pouvez créer des suites de rapports virtuelles. |
-| Balise | Tous les utilisateurs peuvent créer des balises pour les segments et en appliquer une ou plusieurs à un segment. Vous ne pouvez toutefois afficher que les balises qui vous appartiennent. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles :<ul><li>Des balises basées sur des noms d’équipe, par exemple Marketing des réseaux sociaux, Marketing des appareils mobiles</li><li>Les balises Projet (balises d’analyse), telles que l’analyse de la page d’accès</li><li>Les balises Catégorie : Hommes ; géographie</li><li>Les balises Workflow : Traité pour (une division spéciale) ; Approuvé.</li></ul> |
+| Balise | Tous les utilisateurs peuvent créer des balises pour les suites de rapports virtuelles et en appliquer une ou plusieurs à une suite de rapports virtuelle. Cependant, vous ne pouvez afficher les balises que pour les suites de rapports virtuelles que vous détenez. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles :<ul><li>Des balises basées sur des noms d’équipe, par exemple Marketing des réseaux sociaux, Marketing des appareils mobiles</li><li>Les balises Projet (balises d’analyse), telles que l’analyse de la page d’accès</li><li>Les balises Catégorie : Hommes ; géographie</li><li>Les balises Workflow : Traité pour (une division spéciale) ; Approuvé.</li></ul> |
 | Supprimer | Si vous supprimez une suite de rapports virtuelle, les rapports planifiés et les tableaux de bord pour lesquels cette suite de rapports est appliquée continuent de fonctionner correctement (par exemple, le rapport ou le tableau de bord continue d’utiliser la suite de rapports virtuelle supprimée jusqu’à ce que vous enregistriez de nouveau le rapport planifié).  Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez une suite de rapports virtuelle portant le même nom.<br>Par exemple : vous disposez de deux suites de rapports virtuelles portant le même nom et de suites de rapports parentes différentes :<br>Un signet référence la suite de rapports virtuelle pour la suite de rapports mainprod. Vous supprimez ensuite cette suite de rapports virtuelle, car elle est en double. Le signet continue de fonctionner, en référençant la définition de la suite de rapports virtuelle supprimée. Si vous modifiez la définition de la suite de rapports virtuelle restante, celle appliquée au signet ne change pas. Elle utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet pour référencer la nouvelle définition. Si vous ne savez pas si un signet, un tableau de bord ou un rapport planifié utilise une suite de rapports virtuelle supprimée, vous pouvez modifier le nom de la suite de rapports virtuelle restante pour déterminer si le signet utilise cette dernière. |
 | Renommer | À tous les emplacements où s’affiche la suite de rapports virtuelle (comme dans le sélecteur de suite de rapports), son nouveau nom apparaît. |
 | Approuver/Ne plus approuver | Permet d’approuver les suites de rapports virtuelles pour les rendre officielles ou canoniques. Vous pouvez inverser le processus en annulant l’approbation. |
