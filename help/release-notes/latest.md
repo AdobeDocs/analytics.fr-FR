@@ -1,15 +1,19 @@
 ---
 title: Afficher les notes de mise à jour actuelles d’Adobe Analytics
 description: Dernières notes de mise à jour d’Analytics
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # Dernières notes de mise à jour d’Adobe Analytics
+
+**Janvier 2022**
+
+Découvrez les dernières mises à jour de versions des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html). Obtenez les derniers cours, tutoriels et documentation d’aide autonome sur Experience League.
 
 ## Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
