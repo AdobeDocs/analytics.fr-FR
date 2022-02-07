@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ Il est également possible d’appliquer n’importe quel modèle d’attributio
 
 ![Paramètres de ventilation](assets/breakdown_settings.png)
 
-Voici le comportement attendu lors de l’application des modèles d’attribution aux ventilations ou de leur modification :
+Voici le comportement attendu lors de l’application des modèles d’attribution aux ventilations ou lors de leur modification :
 
-* Si vous appliquez une attribution lorsqu’il n’existe aucune autre attribution, celle-ci s’applique à l’ensemble de l’arborescence des colonnes.
+* Si vous appliquez une attribution lorsqu’il n’en existe aucune autre, celle-ci s’applique à l’ensemble de l’arborescence des colonnes.
 
-* Si vous ajoutez une ventilation après l’application d’une attribution, elle utilise la valeur par défaut de la ventilation donnée ajoutée, si cette dimension comporte une valeur par défaut. Sinon, elle utilisera la ventilation de la colonne parente. Certaines dimensions disposent d’une allocation par défaut.  Par exemple : [!UICONTROL Heure] dimensions et [!UICONTROL Référent] use [!UICONTROL Même touche]. Le [!UICONTROL Produit] les dimensions [!UICONTROL Dernière touche]. Les autres dimensions n’ont pas de valeur par défaut et utiliseront l’allocation de colonne parente.
+* Si vous ajoutez une ventilation après l’application d’une attribution, elle utilise la valeur par défaut de la ventilation donnée ajoutée, si cette dimension comporte une valeur par défaut. Sinon, elle utilisera la ventilation de la colonne parente. Certaines dimensions disposent d’une attribution par défaut.  Par exemple : les dimensions [!UICONTROL temporelles] et le [!UICONTROL référent] utilisent la [!UICONTROL même touche]. La dimension de [!UICONTROL produit] utilise la [!UICONTROL dernière touche]. Les autres dimensions ne disposent pas de valeur par défaut et utiliseront l’attribution de la colonne parente.
 
-* S’il existe déjà des attributions dans l’arborescence des colonnes, la modification de l’attribution n’a un impact que sur celle que vous modifiez.
+* Si des attributions sont déjà disponibles dans l’arborescence des colonnes, la modification de l’attribution n’a un impact que sur celle que vous modifiez.
 
 ## Vidéos
 
