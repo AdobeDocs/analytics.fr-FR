@@ -4,9 +4,9 @@ title: Traitement complet
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe recommande d’utiliser la variable [API Bulk Data Insertion (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que des sources de données à traitement complet. Adobe a abandonné les sources de données à traitement complet le 31 janvier 2022. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=fr) plutôt que des sources de données à traitement complet. Adobe a mis fin à l’utilisation des sources de données à traitement complet le 31 juillet 2022. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
@@ -116,7 +116,7 @@ Par exemple, un utilisateur avec un identifiant visiteur `"user@example.com"` se
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Liste de produits (par exemple, <code> "Sports;Ball;1;5.95"</code>). Peut contenir une valeur maximale de 4 096 octets par ligne.</p> </td> 
+   <td colname="col3"> <p>Liste de produits (par exemple, <code> "Sports;Ball;1;5.95"</code>). Peut contenir une valeur maximale de 4 096 octets par ligne.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -171,7 +171,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
+   <td colname="col2"> <p>Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. </p> <p>Voir le livre blanc « <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=fr"  >Jeux de caractères à plusieurs octets (internationalisation)</a> » pour obtenir une liste complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -226,7 +226,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
    <td colname="col2"> <p>Version JavaScript (par exemple, 1.3). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>plugins </p> </td> 
+   <td colname="col1"> <p>plug-ins </p> </td> 
    <td colname="col2"> <p>Liste de noms des modules complémentaires de navigateur séparés par des points-virgules. </p> </td> 
   </tr> 
   <tr> 
@@ -238,7 +238,7 @@ Le tableau suivant contient des variables de trafic renseignées automatiquement
    <td colname="col2"> <p>URL du référent de la page. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>resolution </p> </td> 
+   <td colname="col1"> <p>résolution </p> </td> 
    <td colname="col2"> <p>Résolution de l’écran (par exemple, 1 024 x 768). </p> </td> 
   </tr> 
   <tr> 
