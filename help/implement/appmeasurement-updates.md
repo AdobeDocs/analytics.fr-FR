@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 71c4b4d7381dcdf79c550f968c8f720d87c63126
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 ## Version 2.22.4
 
-Date de publication : **18 janvier 2022**
+Date de publication : **18 janvier 2022**
 
-* `s.tl()``href``string` `string``href` `svg`
+* L’appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient un attribut `href` de type `string`. S’il ne s’agit pas d’une `string`, alors il ignorera gracieusement l’attribut `href` plutôt que d’échouer. Cela peut se produire lors de la transmission d’objets `svg` à l’appel de suivi des liens.
 
 ## Version 2.22.3
 
@@ -449,7 +449,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## Version 1.1.1
 
