@@ -4,18 +4,18 @@ audience: all
 user-guide-title: Notes de mise à jour d’Analytics
 breadcrumb-title: Notes de mise à jour
 user-guide-description: Liste des nouvelles descriptions de fonctionnalités et de correctifs de bogues.
-source-git-commit: 1d96018fefe605dda9e9123f6f12bdc996c0e12c
+source-git-commit: 4ccda7057df7543125be8c69e92aed6c45aed80f
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 48%
+source-wordcount: '34'
+ht-degree: 29%
 
 ---
 
 
-# Notes de mise à jour d’Analytics {#release-notes}
+# Notes de mise à jour d’Adobe Analytics {#release-notes}
 
-+ [Notes de mise à jour sur la version actuelle](latest.md)
-+ Notes de mise à jour précédentes {#previous}
++ [Notes de mise à jour d’Analytics actuelles](latest.md)
++ Notes de mise à jour d’Analytics précédentes {#previous}
    + [Notes de mise à jour 2022](2022.md)
    + [Notes de mise à jour 2021](2021.md)
    + [Notes de mise à jour 2020](2020.md)

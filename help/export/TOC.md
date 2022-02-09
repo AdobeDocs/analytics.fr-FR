@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Utilisez les flux de données pour recevoir une exportation horaire ou quotidienne de données brutes. Utilisez Data Warehouse pour afficher vos données sous forme de feuille de calcul.
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Guide d’exportation Analytics {#export}
+# Guide d’exportation Adobe Analytics {#export}
 
 + [Guide d’exportation Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Flux de données Analytics {#analytics-data-feed}
    + [Aperçu des flux de données](analytics-data-feed/data-feed-overview.md)
    + [Création ou modification d’un flux de données](analytics-data-feed/create-feed.md)

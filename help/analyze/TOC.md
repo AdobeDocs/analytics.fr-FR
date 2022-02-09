@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '1030'
+ht-degree: 98%
 
 ---
 
 
-# Guide sur les outils Analytics {#analyze}
+# Guide des outils Adobe Analytics {#analyze}
 
 + [Guide sur les outils Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)

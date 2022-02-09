@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics] Guide des composants {#components}
+# [!DNL Adobe Analytics] Guide des composants {#components}
 
 + [Guide des composants d’Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Dimensions {#dimensions}
    + [Présentation des dimensions](dimensions/overview.md)
    + [Compatibilité des dimensions](dimensions/compatibility.md)
