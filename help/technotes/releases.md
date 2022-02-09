@@ -1,17 +1,17 @@
 ---
-description: Explique la nouvelle stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
+description: Explique la stratégie de mise à jour continue des fonctionnalités d’Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+source-git-commit: 492f2333d07d887ce89d549306b05ee0df02fe90
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 92%
 
 ---
 
 # Mises à jour des fonctionnalités Adobe Analytics
 
-Historiquement, les mises à jour des fonctionnalités Adobe Analytics suivaient un calendrier mensuel fixe. Depuis avril 2020, Adobe Analytics a adopté un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
+Les versions d’Adobe Analytics fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
 
 ## Stratégie de mise à jour
 
