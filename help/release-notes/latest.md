@@ -2,28 +2,28 @@
 title: Afficher les notes de mise à jour actuelles d’Adobe Analytics
 description: Dernières notes de mise à jour d’Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# Dernières notes de mise à jour d’Adobe Analytics
+# Notes de mise à jour actuelles d’Adobe Analytics (février 2022)
 
 >[!IMPORTANT]
 >
 >Ces notes de mise à jour contiennent des informations de version préliminaire qui peuvent être modifiées.
 
-**16 février 2022**
+**Dernière mise à jour**: 10 février 2022
 
 Découvrez les dernières mises à jour de versions des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html). Obtenez les derniers cours, tutoriels et documentation d’aide autonome sur Experience League.
 
 ## Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-| Fonctionnalité | Description | Date ciblée |
+| Fonctionnalité | Description | [Date ciblée](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=fr) |
 | ----------- | ---------- | ------- |
-| Aucune nouvelle fonctionnalité ce mois-ci | S.O. | Voir la section [Disponibilité générale](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=fr) |
+| Mode d’aperçu du projet de Fiche d’évaluation mobile | Lancez un aperçu de l’apparence de votre fiche d’évaluation mobile dans l’application de tableaux de bord Analytics, directement à partir du créateur de Fiche d’évaluation. Le mode d’aperçu permet aux utilisateurs d’interagir avec les filtres et les graphiques de la même manière que dans l’application, ce qui leur permet de prévisualiser l’expérience avant d’enregistrer et de partager la fiche d’évaluation. Les utilisateurs peuvent également utiliser le sélecteur d’appareil en mode d’aperçu pour voir à quoi ressemblera leur fiche d’évaluation sur différents appareils. | 16 février 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
