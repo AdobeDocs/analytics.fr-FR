@@ -2,10 +2,10 @@
 title: Afficher les notes de mise à jour actuelles d’Adobe Analytics
 description: Dernières notes de mise à jour d’Analytics
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 61%
+source-wordcount: '641'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ Découvrez les dernières mises à jour de versions des [produits Adobe Experie
 
 ## Nouvelles fonctionnalités d’Adobe Analytics {#aa-features}
 
-| Fonctionnalité | Description | [Date ciblée](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=fr) |
+| Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
 | Mode d’aperçu du projet de Fiche d’évaluation mobile | Lancez un aperçu de l’apparence de votre fiche d’évaluation mobile dans l’application de tableaux de bord Analytics, directement à partir du créateur de Fiche d’évaluation. Le mode d’aperçu permet aux utilisateurs d’interagir avec les filtres et les graphiques de la même manière que dans l’application, ce qui leur permet de prévisualiser l’expérience avant d’enregistrer et de partager la fiche d’évaluation. Les utilisateurs peuvent également utiliser le sélecteur d’appareil en mode d’aperçu pour voir à quoi ressemblera leur fiche d’évaluation sur différents appareils. | 16 février 2022 |
 
