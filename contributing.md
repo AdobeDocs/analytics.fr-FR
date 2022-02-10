@@ -1,6 +1,8 @@
 ---
 source-git-commit: ea109ed2bd99e007a7cbaee9f736fdcd80713978
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # Contribution
@@ -11,7 +13,7 @@ Vous trouverez ci-dessous un recueil de directives à respecter lorsque vous con
 
 ## Code de conduite
 
-Ce projet respecte le [Code de conduite](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md) Adobe. En participant, vous convenez de respecter ce code. Veuillez signaler tout comportement inacceptable à SOMEEMAIL.
+Ce projet respecte le [code de conduite](https://git.corp.adobe.com/OpenSourceAdvisoryBoard/starter-repo/blob/master/CODE_OF_CONDUCT.md) d’Adobe. En participant, vous convenez de respecter ce code. Veuillez signaler tout comportement inacceptable à SOMEEMAIL.
 
 ## Contrat de licence du contributeur
 
@@ -19,4 +21,4 @@ Toutes les contributions tierces à ce projet doivent être accompagnées d’un
 
 ## Révisions du code
 
-Tous les envois doivent prendre la forme de demandes d’extraction et doivent être examinés par les responsables du projet. Lisez la [documentation sur la requête de tirage de GitHub](https://help.github.com/articles/about-pull-requests/) pour en savoir plus sur l’envoi de requêtes de tirage.
+Tous les envois doivent prendre la forme de demandes d’extraction et doivent être examinés par les responsables du projet. Lisez la [documentation relative aux demandes d’extraction de GitHub](https://help.github.com/articles/about-pull-requests/) pour plus d’informations sur l’envoi de demandes d’extraction.
