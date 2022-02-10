@@ -3,13 +3,13 @@ description: Méthode de création dʼune carte de performance pour les tableaux
 title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
+source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 100%
+source-wordcount: '1461'
+ht-degree: 92%
 
 ---
-
 
 # Création dʼune carte de performance mobile
 
@@ -30,11 +30,11 @@ Pour créer la Carte de performance, procédez comme suit :
 1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
 2. Configurer la carte de performance avec des données, puis enregistrez-la.
 
-## Accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge]
+## Accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge] {#template}
 
 Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierge] en créant un projet ou à partir du menu Outils.
 
-### Créer un nouveau projet
+### Créer un nouveau projet {#create}
 
 1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Carte de performance mobile vierge]**.
@@ -47,7 +47,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 1. Dans le menu **[!UICONTROL Outils]**, sélectionnez **[!UICONTROL Tableaux de bord Analytics (application mobile)]**.
 1. Sur lʼécran suivant, cliquez sur **[!UICONTROL Créer une carte de performance]**.
 
-## Configurez la carte de performance avec des données, puis enregistrez-la.
+## Configurez la carte de performance avec des données, puis enregistrez-la. {#configure}
 
 Pour implémenter le modèle de Fiche d’évaluation :
 
@@ -62,7 +62,7 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 1. Depuis chaque mosaïque, vous pouvez accéder à une vue détaillée qui affiche des informations supplémentaires sur la mesure comme les éléments principaux pour une liste de dimensions associées.
 
-## Ajout de dimensions ou de mesures
+## Ajout de dimensions ou de mesures {#dimsmetrics}
 
 Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque.
 
@@ -70,7 +70,7 @@ Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Mark
 
 ![Ajouter des dimensions](assets/layer_dimensions.png)
 
-## Appliquer les segments
+## Appliquer les segments {#segments}
 
 Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque.
 
@@ -78,7 +78,7 @@ Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’
 
 ![Création de segments pour le filtre](assets/segment_ui.png)
 
-## Ajout de périodes
+## Ajout de périodes {#dates}
 
 Ajoutez et supprimez des combinaisons de périodes pouvant être sélectionnées dans votre carte de performance en cliquant sur le menu déroulant des périodes.
 
@@ -102,7 +102,7 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
-## Application de visualisations
+## Application de visualisations {#viz}
 
 Regardez cette vidéo sur les visualisations pour les cartes de performance mobiles :
 
@@ -124,7 +124,7 @@ Utilisez la visualisation Synthèse des chiffres pour mettre en évidence un gra
 
 ### [!UICONTROL Anneau]
 
-Semblable à un graphique circulaire, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique en anneau pour comparer les pourcentages dʼun total. Supposons, par exemple, que vous souhaitiez identifier la plateforme publicitaire responsable du nombre total de visiteurs uniques :
+Semblable à un graphique en secteurs, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique en anneau pour comparer les pourcentages dʼun total. Supposons, par exemple, que vous souhaitiez identifier la plateforme publicitaire responsable du nombre total de visiteurs uniques :
 
 ![Visualisation en anneau](assets/donut-viz.png)
 
@@ -152,7 +152,7 @@ Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos
 
 1. Cliquez sur l’icône en regard de **[!UICONTROL Non spécifié]** pour supprimer les données non spécifiées de vos comptes rendus de performances. (Vous pouvez également supprimer tout autre élément de dimension.)
 
-## Affichage et configuration des propriétés dʼune mosaïque
+## Affichage et configuration des propriétés dʼune mosaïque {#tiles}
 
 Lorsque vous cliquez sur une mosaïque du Créateur de cartes de performance, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
 
@@ -170,19 +170,39 @@ Les ventilations affinent votre analyse en décomposant littéralement les mesur
 
 Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
 
-## Suppression de composants
+## Suppression de composants {#remove}
 
 De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
 
 ![Remove_components](assets/new_remove.png)
 
-## Nommer une carte de performance
+## Aperçu de la Fiche d’évaluation {#preview}
+
+Vous pouvez prévisualiser l’aspect et le fonctionnement de la fiche d’évaluation une fois qu’elle sera publiée dans l’application de tableaux de bord Analytics.
+
+1. Cliquez sur **[!UICONTROL Aperçu]** dans le coin supérieur droit de l’écran.
+
+   ![Preview_scorecards](assets/preview.png)
+
+1. Pour afficher la fiche d’évaluation telle qu’elle apparaîtra sur différents appareils, sélectionnez un appareil dans la [!UICONTROL Aperçu du périphérique] menu déroulant.
+
+   ![Device_preview](assets/device-preview.png)
+
+1. Pour interagir avec l’aperçu, vous pouvez :
+
+   * Cliquez avec le bouton gauche pour simuler l’appui sur l’écran du téléphone.
+
+   * Utilisez la fonction de défilement de votre ordinateur pour simuler le défilement de l’écran du téléphone avec votre doigt.
+
+   * Cliquez et maintenez-vous enfoncé pour simuler votre pression et tenez votre doigt sur l’écran du téléphone. Cela s’avère utile pour interagir avec les visualisations dans la vue détaillée.
+
+## Nommer une carte de performance {#name}
 
 Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
 ![Naming_Scorecards](assets/new_name.png)
 
-## Partage dʼune carte de performance
+## Partage dʼune carte de performance {#share}
 
 Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
