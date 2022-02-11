@@ -1,21 +1,19 @@
 ---
 description: Exemples de libellés relatifs à la confidentialité des données pour les variables Adobe Analytics
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
-uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '3649'
-ht-degree: 100%
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
+source-wordcount: '3913'
+ht-degree: 96%
 
 ---
 
 # Étiquettes relatives à la confidentialité des données pour les variables Analytics
 
-## Pourquoi étiqueter vos données ? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## Pourquoi étiqueter vos données ?  {#why-label}
 
-De nombreux clients Adobe ont fait examiner les lois sur la confidentialité des données (RGPD, CCPA, etc.) par des équipes juridiques et ont tiré leurs propres conclusions sur la façon dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu de la Confidentialité des données et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu de la Confidentialité des données de leurs données uniques. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
+De nombreux clients d’Adobe disposent d’équipes juridiques qui ont examiné les lois sur la Confidentialité des données (RGPD, CCPA, etc.). Ces équipes peuvent avoir tiré leurs propres conclusions sur la manière dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu de la Confidentialité des données et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu de la Confidentialité des données de leurs données uniques. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
 
 Adobe Analytics offre des outils d’étiquetage des données en fonction de leur confidentialité et des restrictions contractuelles. Les étiquettes sont essentielles et utiles pour aider : (1) à identifier les sujets des données, (2) à déterminer quelles données restituer dans le cadre d’une demande d’accès, et (3) à identifier les champs de données qui doivent être supprimés dans le cadre des demandes de suppression.
 
@@ -23,7 +21,7 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
 
-## Étiquettes DULE  {#section_B2E78130957647338495EF37DE21D6BC}
+## Étiquettes DULE  {#dule-labels}
 
 >[!NOTE]
 >
@@ -44,7 +42,7 @@ Les étiquettes « I » pour les données d’identification sont utilisées p
  <tbody> 
   <tr> 
    <td colname="col1"> <p>I1 </p> </td> 
-   <td colname="col2"> <p><b>Directement identifiables</b> : données qui peuvent spécifiquement identifier ou permettre un contact direct avec un individu, comme un nom ou une adresse électronique. </p> </td> 
+   <td colname="col2"> <p><b>Directement identifiables</b> : données qui peuvent spécifiquement identifier ou permettre un contact direct avec un individu, comme un nom ou une adresse e-mail. </p> </td> 
    <td colname="col3"> 
     <ul id="ul_4E2AD59D119E40D28B869D0BB63B9FD9"> 
      <li id="li_AC3E99B57E3A4AE2A12BE219680AFC58">Ne peut pas être défini sur des événements </li> 
@@ -90,7 +88,7 @@ Les étiquettes « S » pour les données sensibles sont utilisées pour caté
 
 Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise.
 
-**Étiquettes d’accès relatives à la confidentialité des données**
+### Étiquettes d’accès relatives à la confidentialité des données
 
 <table id="table_663EFF43A454498386F7F3E60875E0F8"> 
  <thead> 
@@ -121,7 +119,7 @@ Les étiquettes de gouvernance des données permettent aux utilisateurs de class
 
 Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre à ce que les étiquettes d’accès soient appliquées à la plupart de vos variables. Vous pouvez, cependant, en consultation avec votre équipe juridique, décider quelles données collectées doivent être partagées avec les sujets de données.
 
-**Étiquettes de suppression de la confidentialité des données**
+### Étiquettes de suppression de la confidentialité des données
 
 <table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
  <thead> 
@@ -164,7 +162,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
  </tbody> 
 </table>
 
-**Étiquettes d’identité relative à la confidentialité des données**
+### Étiquettes d’identité relative à la confidentialité des données
 
 <table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
  <thead> 
@@ -178,7 +176,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
   <tr> 
    <td colname="col1"> <p>Aucun </p> </td> 
    <td colname="col2"> <p>Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> <p>Vous ne devez définir l’une des autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via l’API relative à la Confidentialité des données ou l’interface utilisateur. </p> </td> 
+   <td colname="col3"> <p>Vous ne devez définir l’une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez lors de l’envoi de demandes d’accès ou de suppression via l’[API du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) ou l’interface utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -205,11 +203,17 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
  </tbody> 
 </table>
 
+| Étiquette | Définition | Autres exigences |
+| --- | --- | --- |
+| Aucun | Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. | Vous ne devez définir l’une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via la variable [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) ou de l’interface utilisateur. |
+| ID-DEVICE | Ce champ contient un ID qui peut être utilisé afin d’identifier un appareil pour une demande relative à la Confidentialité des données, mais ne peut pas distinguer les différents utilisateurs d’un appareil partagé.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
+| ID-PERSON | Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande relative à la Confidentialité des données.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
+
 ## Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau.
 
-**Utiliser un espace de noms défini précédemment**
+### Utiliser un espace de noms défini précédemment
 
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
@@ -218,7 +222,7 @@ Si vous aviez précédemment défini une étiquette d’identification pour d’
 
 ![](assets/namespace.png)
 
-**Définir un nouvel espace de noms**
+### Définir un nouvel espace de noms
 
 Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons de limiter les chaînes d’espace de noms à des caractères alphanumériques, plus le trait de soulignement, la barre oblique et l’espace. Ceux-ci seront tous convertis en minuscules.
 
@@ -231,7 +235,7 @@ Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons
 
 La chaîne que vous spécifiez comme espace de noms est la même que celle que vous devez utiliser pour soumettre des demandes via l’API relative à la Confidentialité des données comme valeur du paramètre « espace de noms ». Suite à cette demande, Adobe Analytics recherchera toutes les variables de toutes vos suites de rapports qui partagent cet espace de noms pour l’identifiant spécifié avec la demande.
 
-Vous ne devez pas spécifier l’étiquette ID-DEVICE ou ID-PERSON sur toutes les variables contenant des ID (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous allez soumettre des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. Par exemple, si eVar1 peut contenir une adresse électronique, et eVar2 un nom d’utilisateur de connexion, mais que vous soumettrez uniquement des demandes avec le nom d’utilisateur, vous pouvez alors étiqueter eVar1 comme I1, ACC-PERSON, DEL-PERSON, et eVar2 comme I2, ACC-PERSON, DEL-PERSON, ID-PERSON avec l’espace de noms « nom d’utilisateur ». Vous pouvez ensuite soumettre une demande avec un bloc JSON de section utilisateur comme suit :
+Vous ne devez pas spécifier l’étiquette ID-DEVICE ou ID-PERSON sur toutes les variables contenant des ID (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous allez soumettre des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. Par exemple, si eVar1 peut contenir une adresse e-mail, et eVar2 un nom d’utilisateur de connexion, mais que vous soumettrez uniquement des demandes avec le nom d’utilisateur, vous pouvez alors étiqueter eVar1 comme I1, ACC-PERSON, DEL-PERSON, et eVar2 comme I2, ACC-PERSON, DEL-PERSON, ID-PERSON avec l’espace de noms « nom d’utilisateur ». Vous pouvez ensuite soumettre une demande avec un bloc JSON de section utilisateur comme suit :
 
 ```
 {
@@ -436,7 +440,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
    <td colname="col2"> <p> Spécifie le nom de la suite de rapports Analytics contenant les données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
+   <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
    <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
@@ -483,4 +487,4 @@ Il existe cinq variables standard qui contiennent des horodatages :
 
 Le code permettant de générer les fichiers renvoyés lors des demandes d’accès relatives à la Confidentialité des données nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
-Le fichier CSV d’accès renvoyé lors des demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs pour passer d’horodatages uniques en champs date/heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
+Le fichier CSV d’accès renvoyé pour les demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs d’horodatages unix en champs de date/heure au format AAAA-MM-JJ HH.:MM:SS (par exemple, 2018-05-01 13):49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.

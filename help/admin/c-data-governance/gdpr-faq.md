@@ -3,10 +3,10 @@ description: FAQ sur la gouvernance des données Adobe Analytics
 title: Questions fréquentes
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Comment Adobe Analytics prend-il en charge les demandes d’accès et de suppression pour les utilisateurs finaux (Sujets de données) validées par les clients (Contrôleurs de données) ?</b> </p> </td> 
-   <td colname="col2"> <p>À compter de l’entrée en vigueur de plusieurs règles relatives à la Confidentialité des données (RGPD, CCPA), Adobe Analytics prendra en charge le traitement des demandes vérifiées soumises par les contrôleurs de données à l’API relative à la Confidentialité des données d’Adobe Experience Cloud en vue de favoriser l’automatisation du traitement. L’API relative à la Confidentialité des données d’Adobe Experience Cloud est conçue pour faciliter le traitement des demandes individuelles de droits (p. ex., demandes d’accès et de suppression) pour les données de nos clients stockées dans les solutions Adobe Experience Cloud. Flexible, cette API s’adapte en fonction du nombre de demandes d’accès et de suppression de données que votre société reçoit des sujets de données. L’API relative à la Confidentialité des données permet également au client de vérifier la progression du traitement des demandes d’accès et de suppression de données. </p> <p>Pour plus de détails, voir la documentation sur l’<a href="https://www.adobe.io/apis/cloudplatform/gdpr.html">API relative à la Confidentialité des données. </a> </p> </td> 
+   <td colname="col2"> <p>À compter de l’entrée en vigueur de plusieurs règles relatives à la Confidentialité des données (RGPD, CCPA), Adobe Analytics prendra en charge le traitement des demandes vérifiées soumises par les contrôleurs de données à l’API relative à la Confidentialité des données d’Adobe Experience Cloud en vue de favoriser l’automatisation du traitement. L’API relative à la Confidentialité des données d’Adobe Experience Cloud est conçue pour faciliter le traitement des demandes individuelles de droits (p. ex., demandes d’accès et de suppression) pour les données de nos clients stockées dans les solutions Adobe Experience Cloud. Flexible, cette API s’adapte en fonction du nombre de demandes d’accès et de suppression de données que votre société reçoit des sujets de données. En outre, l’API du Privacy Service permet au client de vérifier l’état du traitement des demandes d’accès et de suppression des données. </p> <p>Pour plus d’informations, voir <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Documentation de l’API du Privacy Service. </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Qui est chargé de recevoir, d’accepter et de répondre aux demandes relatives à la Confidentialité des données des utilisateurs finaux ?</b> </p> </td> 
