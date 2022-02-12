@@ -1,11 +1,11 @@
 ---
-title: Afficher les notes de mise à jour actuelles d’Adobe Analytics
-description: Dernières notes de mise à jour d’Analytics
+title: Dernières notes de mise à jour d’Analytics
+description: Affichez les notes de mise à jour actuelles d’Adobe Analytics.
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ Découvrez les dernières mises à jour de versions des [produits Adobe Experie
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
 | Mode d’aperçu du projet de Fiche d’évaluation mobile | Lancez un aperçu de l’apparence de votre fiche d’évaluation mobile dans l’application de tableaux de bord Analytics, directement à partir du créateur de Fiche d’évaluation. Le mode d’aperçu permet aux utilisateurs d’interagir avec les filtres et les graphiques de la même manière que dans l’application, ce qui leur permet de prévisualiser l’expérience avant d’enregistrer et de partager la fiche d’évaluation. Les utilisateurs peuvent également utiliser le sélecteur d’appareil en mode d’aperçu pour voir à quoi ressemblera leur fiche d’évaluation sur différents appareils. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 16 février 2022 |
+| Point de terminaison des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API . [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 1er février 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ Découvrez les dernières mises à jour de versions des [produits Adobe Experie
 * Correction d’un problème lié à la lenteur des rapports. (AN-280055)
 * Correction de problèmes en raison desquels les classifications ne classaient pas tous les éléments de dimension. (AN-280031)
 
-
 ### Correctifs supplémentaires dans Adobe Analytics
 
 AN-268093, AN-273820, AN-274435, AN-274904, AN-275356, AN-275947, AN-276160, AN-276258, AN-276705, AN-, AN-277051, AN-277957, AN-278693, AN-278882, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-AN-, AN-AN-AN-, AN-AN-AN-, AN-AN-, AN-AN-AN-, AN-AN-AN-AN-AN-, AN-AN-AN-, AN-AN-AN-AN-AN-, AN-AN-, AN-AN-AN-AN-AN-, AN-AN-AN-AN-, AN-AN-AN-, AN-AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN--AN-AN-
-
 
 ## Avis importants destinés aux administrateurs d’[!DNL Analytics]
 
@@ -55,4 +54,3 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement (v
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics]  Notes de mise à jour](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
