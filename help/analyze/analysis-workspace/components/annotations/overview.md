@@ -3,7 +3,8 @@ title: Aperçu des annotations
 description: Utilisation des annotations dans Workspace.
 role: User, Admin
 solution: Analytics
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
+source-git-commit: 38170806d0fbf6ae373ae089872f8d25306f416e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 2%
@@ -18,7 +19,9 @@ ht-degree: 2%
 
 Les annotations vous permettent de communiquer efficacement des nuances et des informations contextuelles à votre organisation. Ils vous permettent de lier des événements de calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une période ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, les recettes ou toute autre mesure de votre site.
 
-Supposons, par exemple, que vous partagiez des projets que vous avez créés avec votre entreprise. Vous constatez un creux ou un pic de trafic ou d’autres données, et vous liez une annotation aux mesures, dimensions ou segments affectés. Ces annotations s’affichent ensuite dans un tableau ou une visualisation en ligne et fournissent un contexte de données pour vous et les consommateurs de vos projets Workspace.
+Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si un pic de trafic important est dû à un événement de vente, vous pouvez créer une annotation &quot;Date de lancement de campagne&quot; et l’étendre à l’ensemble de la suite de rapports. Lorsque vos utilisateurs visualisaient des jeux de données incluant cette date, l’annotation apparaissait dans leurs projets, ainsi que leurs données.
+
+![](assets/multi-day.png)
 
 N’oubliez pas ce qui suit :
 
