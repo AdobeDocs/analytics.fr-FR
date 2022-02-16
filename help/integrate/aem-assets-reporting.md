@@ -2,10 +2,10 @@
 description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports AEM Assets dans Analytics.
 title: Comment faire un rapport sur AEM Assets dans Adobe Analytics
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
-workflow-type: ht
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ Cette rubrique décrit les étapes d’administration pour activer la création 
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL AEM]** > **[!UICONTROL Création de rapports AEM Assets]**
 
-Permet à Analytics de collecter des impressions et des clics sur les ressources diffusées à partir d’Aperçus AEM Assets. Cette intégration :
+Permet à Analytics de collecter des impressions et des clics sur [!UICONTROL Ressources] fourni à partir d’AEM Asset Insights. Cette intégration :
 
 * Permet l’activation de la création de rapports dans Analytics.
 * Ajoute de nouvelles dimensions aux variables de ressources dans Analysis Workspace : ID de ressource, Source de ressource et ID de la ressource sélectionnée.
