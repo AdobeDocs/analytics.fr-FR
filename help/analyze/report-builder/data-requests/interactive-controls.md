@@ -1,13 +1,12 @@
 ---
 description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Ainsi, vous disposez d’une plus grande souplesse lors de la mise à jour des requêtes du Créateur de rapports.
 title: Contrôles interactifs
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,6 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version antérieure du Créateur de rapports, ou si le Créateur de rapports n’est pas installé, vous pouvez modifier la valeur du contrôle interactif mais cela n’actualise pas la requête associée, ni ne met à jour les paramètres associés à la requête.
 >* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;. »
 >
-
 
 
 >[!IMPORTANT]

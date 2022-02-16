@@ -1,13 +1,12 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Report Builder.
 title: Gestion des segments
-uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '912'
 ht-degree: 100%
 
 ---
@@ -121,7 +120,7 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
 
    | Option | Description |
    |---|---|
-   | Ajouter un segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
+   | Ajouter Segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
    | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |

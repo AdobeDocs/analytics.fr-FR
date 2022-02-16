@@ -1,15 +1,15 @@
 ---
-description: Méthode de création dʼune carte de performance pour les tableaux de bord Analytics
-title: Création dʼune carte de performance
+description: Les utilisateurs en charge de l’exécution peuvent avoir besoin d’une assistance supplémentaire pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
+title: Configurer les utilisateurs en charge de l’exécution avec l’application
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
-
 
 # Configurer les utilisateurs en charge de l’exécution avec l’application
 

@@ -2,12 +2,11 @@
 description: Dans Analysis Workspace, vous pouvez créer des segments d’après un point de contact, ajouter des segments comme point de contact et comparer des processus clés pour plusieurs segments.
 keywords: abandons et segmentation ; segments dans l’analyse des abandons ; comparer les segments dans les abandons
 title: Application de segments dans l’analyse des abandons
-uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 100%
 

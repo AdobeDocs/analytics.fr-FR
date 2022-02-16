@@ -1,13 +1,12 @@
 ---
-description: Limites lors de l’utilisation de Report Builder et de Microsoft Power BI.
+description: Limites lors de l’utilisation de Report Builder et Microsoft Power BI.
 title: Limitations et spécifications
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 94%
 
 ---
@@ -70,5 +69,5 @@ Par défaut, le nom sera renseigné à partir du nom de fichier du classeur (san
 Gardez à l’esprit que :
 
 * L’intitulé ne peut pas être une combinaison de lettres et de nombres qui pourrait être confondue avec une adresse de ligne et de colonne. Par exemple, A100 ne peut pas être un intitulé car il s’agit de l’adresse d’une cellule de feuille de calcul.
-* Les caractères suivants ne sont pas des caractères de libellé valides : `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39; et `'~', ' '` . Ils sont remplacés par un caractère de soulignement.
+* Les caractères suivants ne sont pas des caractères de libellé valides : `'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;, et `'~', ' '` . Ils sont remplacés par un caractère de soulignement.
 * Lorsque vous entrez un nom incorrect, un message d’avertissement s’affiche pour vous suggérer un nom généré automatiquement. Si vous cliquez sur **[!UICONTROL Oui]**, ce nom sera utilisé. Si vous cliquez sur **[!UICONTROL Non]**, l’interface utilisateur de l’Assistant Options avancées vous permet d’entrer le nouveau nom.

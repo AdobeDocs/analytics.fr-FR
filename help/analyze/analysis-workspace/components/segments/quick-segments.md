@@ -1,15 +1,15 @@
 ---
 description: Utilisation de segments rapides dans Analysis Workspace.
 title: Segments rapides
-feature: Workspace Basics
+feature: Segmentation
 role: User, Admin
-source-git-commit: 533c58f3bcc3974dafab1d6b7dd3e239ad80831b
-workflow-type: ht
+exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 
 ---
-
 
 # Segments rapides
 
@@ -45,8 +45,8 @@ Configurez le segment rapide vierge :
 | Inclure/exclure | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
 | Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=fr#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
 | Composants (Dimension/mesure/période) | Définissez jusquʼà 3 règles maximum en ajoutant des composants (dimensions et/ou mesures et/ou périodes) et leurs valeurs. Il existe trois manières différentes de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segments rapides] trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
-| Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standard et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
-| Signe plus (+) | Permet dʼajouter une autre règle |
+| Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
+| Signe plus (+) | Ajouter une autre règle |
 | Qualificateurs AND/OR | Vous pouvez ajouter des qualificateurs « AND » ou « OR » aux règles, mais vous ne pouvez pas les mélanger dans une définition de segment unique. |
 | Appliquer | Permet dʼappliquer ce segment au panneau. Si le segment ne contient aucune donnée, vous serez invité à continuer. |
 | Ouvrir le Builder | Ouvre le créateur de segments. Une fois le segment enregistré ou appliqué dans le Créateur de segments, il nʼest plus considéré comme un « Segment rapide ». Il rejoint ensuite la bibliothèque de segments de la liste des composants. |

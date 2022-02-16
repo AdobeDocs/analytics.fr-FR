@@ -1,11 +1,11 @@
 ---
 title: Quʼest-ce que lʼanalyse des cohortes et comment fonctionne-t-elle ?
 description: Analysez plus précisément les données sur votre audience et triez-les en groupes apparentés grâce à lʼanalyse des cohortes. En savoir plus sur l’analyse des cohortes dans Analysis Workspace.
-feature: Visualizations
+feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
