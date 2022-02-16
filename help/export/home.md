@@ -2,10 +2,10 @@
 title: Guide d’exportation Analytics
 description: Ce guide décrit les méthodes d’extraction des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,7 @@ Ce guide décrit comment extraire des données d’Adobe Analytics. Il inclut :
 
 * **Flux de données :** Recevez une exportation horaire ou quotidienne des données brutes. Chaque ligne est un accès individuel et chaque colonne est une variable. Les flux de données sont généralement envoyés aux sites FTP.
 * **Data Warehouse :** Utilisez un Assistant Requête pour récupérer une sortie de données sous forme de feuille de calcul. Data Warehouse utilise une architecture de traitement différente pour permettre tout nombre de lignes et tout nombre de valeurs uniques.
+* **FTP et SFTP :** Bonnes pratiques relatives à l’utilisation de FTP et de SFTP avec Adobe
 
 Voici un aperçu vidéo dʼAdobe Analytics :
 
@@ -35,6 +36,6 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 ## Principales ressources Analytics
 
 * [Contacter l’assistance clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html)
-* [Forum de la communauté Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/?lang=fr#home)

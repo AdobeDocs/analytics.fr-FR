@@ -2,11 +2,10 @@
 description: Les modes FTP actif et passif contrôlent le mode de connexion des ports ; le choix du mode a des répercussions sur le pare-feu.
 keywords: ftp;sftp
 title: Utilisation du mode FTP passif
-uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
+feature: FTP Export
 exl-id: 92f39569-ee41-4c1d-b7de-7a0fff42896c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
 

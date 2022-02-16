@@ -1,8 +1,9 @@
 ---
 title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
+feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 100%
@@ -19,7 +20,7 @@ Il est recommandé de posséder des connaissances élémentaires des flux de don
 
 * **Nom** : le nom du flux de données. Doit être unique au sein de la suite de rapports sélectionnée et peut comporter jusqu’à 255 caractères.
 * **Suite de rapports :** la suite de rapports sur laquelle le flux de données est basé. Si plusieurs flux de données sont créés pour une même suite de rapports, ils doivent avoir des définitions de colonne différentes. Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge.
-* **Envoyer par courrier électronique une fois terminé** : l’adresse électronique vers laquelle envoyer une notification lorsque le traitement d’un flux est terminé. L’adresse électronique doit être correctement formatée.
+* **Envoyer par courrier électronique une fois terminé** : l’adresse e-mail vers laquelle envoyer une notification lorsque le traitement d’un flux est terminé. L’adresse e-mail doit être correctement formatée.
 * **Intervalle du flux** : les flux horaires contiennent l’équivalent d’une seule heure de données. Les flux quotidiens contiennent l’équivalent d’une journée complète de données. Ces flux comprennent les données de minuit à minuit dans le fuseau horaire de la suite de rapports.
 * **Traitement du délai** : patientez un certain temps avant de traiter un fichier de flux de données. Il peut être utile de mettre en place un délai pour donner aux appareils hors ligne la possibilité de se connecter et d’envoyer leurs données dans le cadre d’implémentations mobiles. Il est également possible d’utiliser un délai pour adapter les processus côté serveur de votre entreprise en ce qui concerne la gestion des fichiers traités précédemment. Dans la plupart des cas aucun délai n’est nécessaire. Un flux peut être se voir attribuer un délai pouvant aller jusqu’à 120 minutes.
 * **Dates de début et de fin** : la date de début indique la première date pour laquelle vous souhaitez un flux de données. Définissez cette date dans le passé pour commencer immédiatement à traiter les flux de données des données historiques. Le traitement du flux se poursuit jusqu’à ce que la date de fin soit atteinte. Les dates de début et de fin sont définies en fonction du fuseau horaire de la suite de rapports.

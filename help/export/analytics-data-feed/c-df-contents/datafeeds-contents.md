@@ -3,12 +3,11 @@ description: Cette section décrit les fichiers qui figurent dans une diffusion 
 keywords: Flux de données;tâche;contenu;manifeste;fichier;recherche;données d’accès;diffusion du contenu
 subtopic: data feeds
 title: Contenu du flux de données - Aperçu
-feature: Concepts de base de Reports & Analytics
-uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
+feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
-workflow-type: ht
-source-wordcount: '746'
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 Cette section décrit les fichiers qui figurent dans une diffusion de flux de données.
 
-## Fichier de manifeste  {#feed-manifest}
+## Fichier de manifeste {#feed-manifest}
 
 Le fichier de manifeste contient les informations suivantes sur chaque fichier qui compose le jeu de données téléchargé :
 

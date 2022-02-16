@@ -2,12 +2,12 @@
 description: Lorsque vous créez une intégration avec un partenaire Adobe en utilisant les connecteurs de données, Adobe peut transmettre à un compte FTP les données de remarketing ou d’autres données, que vous ou votre partenaire pouvez alors télécharger.
 keywords: ftp;sftp
 title: Data Connectors
+feature: FTP Export
 exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '142'
-ht-degree: 100%
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Nous mettrons fin à la technologie Adobe Data Connector vers le milieu ou la fin de 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
+>Fin de vie Adobe de la technologie Adobe Data Connector en 2021. [En savoir plus...](/help/import/data-connectors/data-connectors-eol.md)
 
 Lorsque vous créez une intégration avec un partenaire Adobe en utilisant les [connecteurs de données](https://www.adobeexchange.com/experiencecloud.html), Adobe peut transmettre à un compte FTP les données de remarketing ou d’autres données, que vous ou votre partenaire pouvez alors télécharger.
 

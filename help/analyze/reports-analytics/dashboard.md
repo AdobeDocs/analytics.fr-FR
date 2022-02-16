@@ -2,10 +2,10 @@
 description: Un tableau de bord est une série de rapports miniatures nommés mini-rapports. Il s’avère particulièrement utile s’il contient des mini-rapports connexes, qui fournissent des vues d’ensemble complètes de certains aspects de votre site (méthodes de recherche, profils du visiteur, etc.).
 subtopic: Dashboards
 title: Tableaux de bord et petits rapports
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -42,11 +42,11 @@ Remarque : Certains rapports fréquemment consultés ne peuvent pas être inclu
 
 Outre les tableaux de bord que vous créez, les tableaux de bord prédéfinis suivants sont inclus pour chaque utilisateur :
 
-**[!UICONTROL Composants]  >  [!UICONTROL Tous les composants]  >  [!UICONTROL Tableaux de bord]  >  [!UICONTROL Tableaux de bord partagés]  >  [!UICONTROL Sites locaux]**
+**[!UICONTROL Composants] > [!UICONTROL Tous les composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Sites locaux]**
 
 Ce tableau de bord personnalisable vous permet de déposer les mini-rapports dans le modèle fourni.
 
-**[!UICONTROL Composants]  >  [!UICONTROL Tous les composants]  >  [!UICONTROL Tableaux de bord]  >  [!UICONTROL Tableaux de bord partagés]  >  [!UICONTROL Tableau de bord des opérations sur le site]**
+**[!UICONTROL Composants] > [!UICONTROL Tous les composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Tableau de bord des opérations sur site]**
 
 Ce tableau de bord présente un aperçu des mesures clés liées aux opérations sur votre site web. Il contient les rapports suivants :
 
@@ -215,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Tous les administrateurs]**  >  **[!UICONTROL Paramètres de la société]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]**.
 1. Sur la page [!UICONTROL Paramètres de la société], cliquez sur **[!UICONTROL Co-marquer la suite Adobe Experience Cloud]**.
 1. Cliquez sur **[!UICONTROL Activer l’alliance de marques]**.
 1. Sélectionnez l’image à télécharger, puis cliquez sur **[!UICONTROL Enregistrer]**.

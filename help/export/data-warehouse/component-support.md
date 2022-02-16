@@ -1,14 +1,14 @@
 ---
 title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Data Warehouse
+exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
-
 
 # Prise en charge des composants dans Data Warehouse
 
@@ -22,7 +22,7 @@ Certaines dimensions et mesures peuvent être utilisées dans Data Warehouse alo
 
 * Experience Cloud ID : pour les implémentations qui utilisent le service Experience Cloud ID (ECID) un nombre 128 bits consitué de deux nombres 64 bits concaténés complétés par 19 chiffres.
 * URL de la page : l’URL de la page sur lequel l’accès s’est produit.
-* Identifiants d’achat : l’identificateur unique pour un achat, tel qu’il est défini à l’aide de la variable purchaseID.
+* Identifiants d’achat : l’identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable purchaseID.
 * Identifiant visiteur : fournit l’identifiant unique du visiteur. Cette valeur est la même que la valeur concaténée des colonnes `visid_high` et `visid_low` dans les flux de données. Pour en savoir plus, consultez [Référence des colonnes de données](../analytics-data-feed/c-df-contents/datafeeds-reference.md) dans les flux de données.
 
 ### Mesures prises en charge exclusivement

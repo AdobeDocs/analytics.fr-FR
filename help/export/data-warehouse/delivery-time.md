@@ -1,14 +1,14 @@
 ---
 title: Résolution des problèmes liés aux heures de remise des demandes de Data Warehouse
 description: Identifiez les problèmes potentiels liés à une demande de Data Warehouse qui peuvent prolonger les délais de remise.
-translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+feature: Data Warehouse
+exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes liés aux heures de remise des demandes de Data Warehouse
 
