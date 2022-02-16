@@ -2,8 +2,9 @@
 title: Profils de produit pour Adobe Analytics
 description: Découvrez comment les profils de produit peuvent être utilisés comme paramètres d’autorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs d’une organisation.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 

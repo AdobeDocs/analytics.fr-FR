@@ -1,13 +1,12 @@
 ---
 description: Si vous avez copié des paramètres d’une suite de rapports existante, un message système identifie tout paramètre non copié dans la nouvelle suite.
 title: Paramètres non copiés depuis une suite de rapports source
-feature: Outils d’administration
-uuid: 5176c561-a278-43e4-837f-a17759985d52
+feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 91%
+source-wordcount: '203'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +26,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Données de classification (la structure de classification est copiée) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=fr"> Documentation Importateur de classifications (Télécharger)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation de l’enregistrement des identifiants de transaction </p> </td> 

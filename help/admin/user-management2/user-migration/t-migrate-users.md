@@ -1,17 +1,16 @@
 ---
 description: Migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
 title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
-uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+feature: Admin Tools
+exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-
-# Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID {#migrate-analytics-user-accounts-for-adobe-ids}
+# Migration de comptes utilisateur Analytics sous la forme d’Adobe ID{#migrate-analytics-user-accounts-for-adobe-ids}
 
 Migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
 

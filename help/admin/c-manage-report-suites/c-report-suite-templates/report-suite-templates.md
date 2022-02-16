@@ -1,11 +1,9 @@
 ---
 description: Les modèles de suite de rapports configurent les paramètres les plus courants pour plusieurs types de suites de rapports.
 title: Modèles de suite de rapports - Aperçu
-feature: Admin Tools
-uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
+feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -18,4 +16,4 @@ Les modèles de suite de rapports configurent les paramètres les plus courants 
 
 Pour accélérer la procédure de création d’une suite de rapports, vous pouvez sélectionner un modèle semblable à la configuration de la suite que vous avez conçue. La sélection d’un modèle de suite de rapports ne limite, en aucune façon, votre implémentation. Toute configuration réalisée par un modèle de suite de rapports peut être modifiée après avoir créé la suite.
 
-<!-- Meike, links to relevant articles? -->
+[En savoir plus](/help/admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)

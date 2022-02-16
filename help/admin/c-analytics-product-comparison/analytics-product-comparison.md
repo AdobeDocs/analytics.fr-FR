@@ -2,14 +2,15 @@
 description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les, le Report Builder, Data Warehouse et Data Workbench.
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
 ---
 
-# Analytics  Configuration requise et comparaison des produits
+# Configuration requise et comparaison des produits Analytics
 
 Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds et API Analytics 2.0.
 
@@ -24,7 +25,7 @@ Pour savoir quel produit Adobe Analytics utiliser, accédez à ce [lien](/help/a
 | **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/components/c-real-time-reporting/realtime.md) distinct | Traitement complet avec [rapport en temps réel](/help/components/c-real-time-reporting/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet | Traitement complet |
 | **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/admin/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Oui - Rapport de robot distinct | Non | Non | Non | Non |
 | **Le faible trafic (valeurs uniques dépassées) apparaît** <br> [En savoir plus](/help/technotes/low-traffic.md) | Oui | Oui | Oui | Non | Non | Non | Oui |
-| **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
+| **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50 000 |
 | **Suites de rapports multiples** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |
 | **Nombre de ventilations** | Illimitées | Jusqu’à 2 | Jusqu’à 2 | Illimitées | Illimitées | Illimitées | Illimitées, appliquées à plusieurs requêtes |
 | **Segmentation** <br> [En savoir plus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui | Oui, avec des [limites](/help/components/segmentation/seg-reference/seg-compatibility.md) | Oui | Non | Oui |

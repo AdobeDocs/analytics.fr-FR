@@ -2,13 +2,11 @@
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
 subtopic: Processing rules
 title: Règles de traitement - Aperçu
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 68%
 
 ---
@@ -28,13 +26,13 @@ Les règles de traitement simplifient la collecte de données et gèrent le cont
 
 ## Autorisations des règles de traitement {#section_8A4846688050453784DAE4D89355169A}
 
-Les administrateurs ont le droit d&#39;utiliser les règles de traitement **par défaut**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir []
+Les administrateurs ont les droits d’utiliser les règles de traitement **par défaut**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Les règles de traitement affectant de manière permanente les données Analytics, l’Adobe recommande vivement que les administrateurs des règles de traitement reçoivent une formation de certification dans Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites Web standard, sites mobiles, applications mobiles, API d’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
+>Les règles de traitement affectant en permanence les données d’Analytics, Adobe recommande vivement que les administrateurs de règles de traitement reçoivent une formation de certification dans Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites web standard, sites mobiles, applications mobiles, API d’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
 
 ## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -46,20 +44,20 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-Une fois le code défini, vous pouvez définir des règles de traitement pour affecter des valeurs à des variables. Par exemple :
+Une fois défini dans le code, vous pouvez définir des règles de traitement pour affecter des valeurs à des variables. Par exemple :
 
-1. Faire correspondre `author` à `eVar2`
-2. Faire correspondre `section` à `prop1` et `eVar3`
-3. Si `author` et `section` existent, définissez `event5`
+1. Carte `author` to `eVar2`
+2. Carte `section` to `prop1` et `eVar3`
+3. If `author` et `section` existent, défini `event5`
 
-Pour plus d’informations, voir [contextData](/help/implement/vars/page-vars/contextdata.md) dans le guide de l’utilisateur Mise en oeuvre.
+Voir [contextData](/help/implement/vars/page-vars/contextdata.md) pour plus d’informations.
 
-## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement  {#section_8284E72E999244E091CD7FB1A22342B6}
+## Utiliser des règles de traitement pour transformer des données d’accès et des événements de déclenchement {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Les règles de traitement peuvent contrôler les valeurs entrantes afin de transformer les fautes de frappe courantes et définir des événements sur la base de données reprises dans un rapport. Les variables prop peuvent être copiées sur des eVars. Les valeurs peuvent être concaténées et des événements peuvent être définis.
 
-## Utilisation des variables de données contextuelles dans les rapports  {#section_BD098BC503024A0B8703596628071134}
+## Utilisation des variables de données contextuelles dans les rapports {#section_BD098BC503024A0B8703596628071134}
 
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
-Voir [Copier une variable de données contextuelles dans un eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définir un événement à l’aide d’une variable de données contextuelles](processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.
+Voir [Copier une variable de données contextuelles dans un eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définition d’un événement à l’aide d’une variable de données contextuelles](processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.

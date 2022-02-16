@@ -1,11 +1,10 @@
 ---
 description: Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
 title: Mesures et dimensions en temps réel prises en charge
-topic-fix: Reports
+feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Répertorie les mesures et les dimensions prises en charge par les rapports Temps réel. Si vous les avez définies, les classifications sont également prises en charge.
 
-## Mesures prises en charge {#section_514ED8B382494C47BFC0657894D1AF94}
+## Mesures prises en charge  {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * Recettes
 * Commandes
@@ -45,5 +44,5 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Code de suivi
 * Lien personnalisé
 * Téléchargement de fichier(s)
-* Exit Link (Lien de sortie)
+* Lien de sortie
 * Variables d’aperçu personnalisées (props) 1 à 75 (si elles sont activées dans la suite de rapports)

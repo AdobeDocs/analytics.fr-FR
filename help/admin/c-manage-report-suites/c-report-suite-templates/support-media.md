@@ -1,13 +1,11 @@
 ---
 description: Définit des paramètres courants pour un site Web qui fournit des vidéos et articles d’assistance sur un produit.
 title: Média d’assistance
-feature: Admin Tools
-uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 100%
 
 ---

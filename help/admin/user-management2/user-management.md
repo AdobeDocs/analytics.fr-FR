@@ -3,10 +3,9 @@ description: Gestion des utilisateurs, des groupes et des produits Analytics dan
 subtopic: Users and groups
 title: Gestion des utilisateurs et des produits
 feature: Admin Tools
-uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: 1c066c0ebdf581c7a85b532534cf3088877fd046
-workflow-type: ht
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 

@@ -1,16 +1,15 @@
 ---
 description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
-solution: Audience Manager
+solution: Analytics
 title: Comment vérifier l’implémentation du transfert côté serveur
-uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # Comment vérifier l’implémentation du transfert côté serveur
 

@@ -1,10 +1,10 @@
 ---
 description: Une liste complète et des descriptions des variables de configuration, des en-têtes HTTP et des signaux de données dans les appels au transfert côté serveur.
 title: Données et référence de code du transfert côté serveur
-uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
+feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 27af710f1ce9d85b1177fa4c5fd4d3f6e2875a48
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ En outre, un signal `h_ip` est généré à partir de l’adresse IP de l’hô
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=fr).
+Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Signal | Description |
 | --- |--- |

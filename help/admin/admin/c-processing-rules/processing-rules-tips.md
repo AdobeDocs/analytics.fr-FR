@@ -2,13 +2,11 @@
 description: Cette section contient des instructions relatives au test des règles de traitement, ainsi qu’une liste des erreurs courantes à éviter.
 subtopic: Processing rules
 title: Astuces et conseils concernant les règles de traitement
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -43,7 +41,7 @@ Il importe également de tenir compte de l’ordre de traitement. Dans l’exemp
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## Éviter l’écrasement des valeurs  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## Éviter l’écrasement des valeurs {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 Dans l’exemple ci-dessous, deux variables de données contextuelles sont utilisées sur le site pour capturer des termes de recherche : search_keyword et search_term. Cependant, sur base de la configuration, la valeur search_keyword est toujours écrasée, même si search_term est vide.
 
@@ -51,13 +49,13 @@ Cette règle doit être reconfigurée afin de tester chaque variable de données
 
 ![](assets/tips-search-keyword.png)
 
-## Encoder des termes de recherche au format UTF-8 ou Unicode  {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## Encoder des termes de recherche au format UTF-8 ou Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 Les termes de recherche extraits d’une chaîne de requête doivent être codés correctement, sans quoi la correspondance ne sera pas établie avec les règles de traitement.
 
 ![](assets/tips-multibyte.png)
 
-## Commence par, Contient et Se termine par  {#section_80CE853244FC435B844A09EA51868D8D}
+## Commence par, Contient et Se termine par {#section_80CE853244FC435B844A09EA51868D8D}
 
 Sélectionnez la condition de correspondance correcte afin de trouver la condition la plus restrictive. Vous pouvez rechercher des valeurs dans un rapport avant de créer une règle afin de vous assurer qu’il n’existe aucune correspondance indésirable. Vous devez, par exemple, effectuer une recherche dans le rapport Prop2 afin trouver tous les emplacements applicables avant d’activer cette règle.
 

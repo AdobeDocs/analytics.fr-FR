@@ -2,7 +2,8 @@
 title: Exclure par adresse IP
 description: Empêcher l’affichage des données générées par certaines adresses IP dans les rapports.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 79%
@@ -13,7 +14,7 @@ ht-degree: 79%
 
 Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Admin]**  >  **[!UICONTROL Tous les administrateurs]**  >  **[!UICONTROL Exclure par IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Exclure par IP]**
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ Vous pouvez utiliser des caractères de remplacement (*) pour exclure une plage 
 
 >[!TIP]
 >
->Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées incluent `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` et `169.254.*.*`.
+>Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées incluent : `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`, et `169.254.*.*`.
 
 ## Impact de l’obscurcissement des adresses IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 

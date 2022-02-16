@@ -2,8 +2,9 @@
 title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 100%
 
@@ -102,7 +103,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Gestion Advertising Analytics |  |  |  | x | Inutilisé. |
 | Alliance de marques |  |  |  | x | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Alliance de marques. |
 | Utilisateurs sous licence Excel |  |  |  | x | Inutilisé. |
-| Administration des applications mobiles |  |  |  | x | Inutilisé. |
+| Administrateur des applications mobiles |  |  |  | x | Inutilisé. |
 | Gestion des autorisations |  |  |  | x | N’est plus utilisé. Accorde l’accès à l’interface de gestion des utilisateurs héritée sous Admin > Tous les administrateurs > Gestion des utilisateurs. |
 | Autorisations (lecture) – Services web |  |  |  | x | N’est plus utilisé. Permet à l’utilisateur d’afficher les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
 | Autorisations (écriture) - Services Web |  |  |  | x | N’est plus utilisé. Permet à l’utilisateur de modifier les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |

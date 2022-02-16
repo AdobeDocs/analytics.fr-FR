@@ -1,13 +1,12 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 title: Configuration des rapports en temps réel
-feature: Outils d’administration
-uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
+feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +18,7 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
-   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports > Mesures du site]** > **[!UICONTROL Temps réel]** et choisissez la suite de rapports dans le menu déroulant du haut :
+   Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Afficher tous les rapports > Mesures du site]** > **[!UICONTROL Temps réel]** et choisissez la suite de rapports dans le menu déroulant du haut :
 
    ![](assets/report_suite_selector.png)
 
@@ -56,6 +55,6 @@ La configuration des rapports en temps réel dans les Reports &amp; Analytics co
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer et afficher le rapport]**.
 
-   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=fr).
 
 1. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.

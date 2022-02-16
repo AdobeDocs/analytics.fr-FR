@@ -1,9 +1,9 @@
 ---
-description: Page d’aperçu pour la configuration des paramètres qui s’appliquent à toutes les suites de rapports gérées par votre organisation.
+description: Page d’aperçu pour configurer les paramètres qui s’appliquent à toutes les suites de rapports gérées par votre organisation.
 title: Paramètres d’entreprise - Aperçu
-uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
+feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 66%
@@ -14,7 +14,7 @@ ht-degree: 66%
 
 La page [!UICONTROL Paramètres d’entreprise] vous permet de configurer les paramètres qui s’appliquent à toutes les suites de rapports gérées par votre organisation.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous les paramètres admin]** >  **[!UICONTROL Société]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]**
 
 + [Niveaux d’accès aux fonctions](feature-access-levels.md)
 + [Services web](web-services-admin.md)

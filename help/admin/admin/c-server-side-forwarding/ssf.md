@@ -1,10 +1,10 @@
 ---
 description: Le transfert côté serveur est conçu pour les clients qui souhaitent partager des données Analytics avec d’autres solutions Experience Cloud en temps réel. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
-solution: Audience Manager
+solution: Analytics
 title: Transfert côté serveur - Aperçu
-uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
+feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 94%
@@ -64,7 +64,7 @@ Le transfert côté serveur au niveau des suites de rapports est recommandé par
 
 Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionnez des **suites de rapports**) > **Modifier les paramètres** > **Général** > **Transfert côté serveur**. Si la case à cocher est :
 
-* **Inactif**  (vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à une organisation IMS. Contactez l’assistance clientèle pour vous assurer que la suite de rapports est correctement mappée.
+* **Inactif** (Vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à une organisation IMS. Contactez l’assistance clientèle pour vous assurer que la suite de rapports est correctement mappée.
 * **Désactivée** : le nouveau transfert côté serveur n’est pas activé. Lisez le contenu de la page, puis procédez à l’activation de la fonctionnalité.
 * **Activée** : le nouveau transfert côté serveur est activé. Vous pouvez également configurer l’intégration d’Audience Analytics.
 

@@ -1,9 +1,10 @@
 ---
 description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de référencement payant dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 title: Classifications des conversions
+feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 

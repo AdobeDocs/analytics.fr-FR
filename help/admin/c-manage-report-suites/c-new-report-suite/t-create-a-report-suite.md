@@ -1,24 +1,24 @@
 ---
 description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics
 title: Création d’une suite de rapports
-feature: Outils d’administration
+feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '374'
 ht-degree: 66%
 
 ---
 
 # Création d’une suite de rapports
 
-Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. L’introduction des [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) et du traitement de la période de rapport permet aux administrateurs de créer vos propres sous-ensembles de données, ce qui offre la possibilité d’obtenir des données globales et spécifiques au site.
+Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. L&#39;introduction de [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) et le traitement de la période de rapport permet aux administrateurs de créer vos propres sous-ensembles de données, ce qui vous permet d’obtenir des données globales et spécifiques au site.
 
 Cet article est destiné aux administrateurs au niveau du système ou aux administrateurs Adobe Analytics afin de les préparer à la collecte de données.
 
 ## Conditions préalables
 
-[Guide du premier administrateur d’Adobe Analytics](/help/admin/admin-console/first-admin-guide.md) : Assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via le Admin Console Experience Cloud.
+[Guide Adobe Analytics pour le premier administrateur](/help/admin/admin-console/first-admin-guide.md): Assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via le Admin Console Experience Cloud.
 
 ## Création d’une suite de rapports {#create-report-suite}
 
@@ -43,8 +43,8 @@ Cela signifie que votre compte n’a pas reçu les autorisations appropriées po
 
 **Une fois connecté à Adobe Analytics, la fenêtre contextuelle « Bienvenue dans Adobe Analytics » ne s’affiche pas.**
 
-Assurez-vous que vous êtes connecté via [Experience Cloud](https://experience.adobe.com) et non via my.omniture.com. En effet, les utilisateurs qui se connectent via my.omniture.com ne disposent pas de l’assistant de configuration de suite de rapports.
+Assurez-vous que vous êtes connecté via le [Experience Cloud](https://experience.adobe.com), et non via my.omniture.com. En effet, les utilisateurs qui se connectent via my.omniture.com ne disposent pas de l’assistant de configuration de suite de rapports.
 
 ## Étapes suivantes
 
-[Créez une propriété de balise Adobe Analytics  ](/help/implement/launch/create-analytics-property.md): Créer une zone pour gérer votre implémentation Analytics
+[Création d’une propriété de balise Adobe Analytics ](/help/implement/launch/create-analytics-property.md): Créer une zone pour gérer votre implémentation Analytics

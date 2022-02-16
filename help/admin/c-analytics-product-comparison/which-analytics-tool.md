@@ -1,12 +1,12 @@
 ---
 description: Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 title: Quel outil Adobe Analytics dois-je utiliser ?
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -62,9 +62,9 @@ Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)** doiv
    * ID de transaction : téléchargements de données qui connectent un point de terminaison en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
    * Traitement complet : sources de données horodatées traitées comme s’il s’agissait d’un accès collecté par les serveurs Adobe. En d’autres termes, les données sont insérées directement dans le parcours du visiteur.
 
-Les **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** doivent être utilisés :
+**[Intégrations Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** doit être utilisé :
 
-* Lorsque vous collaborez avec un fournisseur tiers qui a établi une connexion prise en charge par Adobe Analytics. En général, Data Connectors intègre périodiquement des données sommaires dans Adobe Analytics de façon permanente et automatique.
+* Lorsque vous collaborez avec un fournisseur tiers qui a établi une connexion prise en charge par Adobe Analytics. En règle générale, les applications d’intégration intègrent de manière permanente et automatique des données de niveau résumé dans Adobe Analytics, de manière récurrente.
 
 L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-insertion-api.md)** doit être utilisée :
 

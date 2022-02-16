@@ -1,17 +1,16 @@
 ---
 description: Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 title: Désactivation des comptes hérités
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-
-# Désactivation des comptes hérités {#disable-legacy-logins}
+# Désactivation des comptes hérités{#disable-legacy-logins}
 
 Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 
@@ -29,4 +28,3 @@ Une fois que vos utilisateurs ont migré du système de gestion des utilisateurs
    Désactiver le compte hérité indique lequel de vos utilisateurs peut continuer à utiliser ses nom d’utilisateur et mot de passe [!DNL my.omniture.com] hérités.
 
    Vous ne pouvez pas désactiver les comptes hérités d’un utilisateur qui doit encore être migré. Une fois la désactivation effectuée, l’utilisateur devra utiliser son Experience Cloud ID afin de se connecter et accéder à Analytics.
-

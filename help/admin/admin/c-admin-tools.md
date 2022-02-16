@@ -1,11 +1,10 @@
 ---
 description: Index des outils d’administration dans Adobe Analytics.
 title: Outils d’administration
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 + [Personnalisation des menus](customize-menus.md)
 + [Visibilité des mesures](metric-visibility.md)
 + [Gestion mobile](mobile-management.md)
-+ [Détection de recherche payante - Aperçu](paid-search-detection/paid-search-detection.md)
++ [Détection de référencement payant - Aperçu](paid-search-detection/paid-search-detection.md)
 + [Listes de publication](publishing-list.md)
 + [Widget de publication](publishing-widgets-admin.md)
 + [Gestionnaire de préférences](preferences-manager.md)
@@ -51,5 +50,5 @@ ht-degree: 100%
 + [Événements de succès - Aperçu](c-success-events/success-event.md)
 + [Horodatages facultatifs](timestamp-optional.md)
 + [Variable de trafic (prop) - Aperçu](c-traffic-variables/traffic-var.md)
-+ [Définition de la variable Visiteur unique](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [Définition de la variable de visiteur unique](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Gestion des vidéos](video-management.md)

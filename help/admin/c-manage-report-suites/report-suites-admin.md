@@ -1,13 +1,11 @@
 ---
-description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web. Une suite de rapports correspond habituellement à un site web, mais il peut s’agir d’un segment global dans lequel vous avez ajouté les valeurs de plusieurs sites pour obtenir des totaux. Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports). Une suite de rapports peut également être plus petite qu’un site web si vous souhaitez générer des rapports pour une partie seulement de votre site. Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
+description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web.
 title: Gestionnaire de suites de rapports
-feature: Admin Tools
-uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
+feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---

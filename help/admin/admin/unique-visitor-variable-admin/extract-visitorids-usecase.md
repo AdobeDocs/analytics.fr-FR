@@ -2,12 +2,10 @@
 description: Data Warehouse propose une fonctionnalité qui vous permet d’extraire une liste d’ID de visiteur. Il ne s’agit pas d’ID de cookie, mais des ID que vous capturez dans l’une de vos variables de conversion. Bien qu’il soit possible d’obtenir ces informations par d’autres moyens, l’exemple suivant permet de générer plus rapidement une demande Data Warehouse.
 title: Scénario d’utilisation - Extraction d’ID de visiteur
 feature: Admin Tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
