@@ -2,10 +2,10 @@
 description: 'Vous pouvez utiliser les dimensions d’audience AAM dans l’ensemble du module Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience '
 solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
-uuid: 203925fb-f070-441c-813a-43099cb9b2b9
+feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Les données de segments AAM sont transmises à Analytics accès par accès et r
 
 ![](assets/flow-aamaudiences.png)
 
-Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr).
+Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 ## Visualisation de Venn dans Analysis Workspace  {#section_E78AB764FB5047148B51DC1526B0DF89}
 

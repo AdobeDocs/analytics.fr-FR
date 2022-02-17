@@ -1,9 +1,10 @@
 ---
 title: Fin de vie des sources de données à traitement complet
 description: Raisons de la fin de vie et comparaisons entre l’API Bulk Data Insertion et les sources de données à traitement complet.
+feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -29,7 +30,7 @@ L’API Bulk Data Insertion (BDIA) fournit des fonctionnalités supplémentai
 
 ## Principales différences en termes de format et de contenu de fichier
 
-* L’API Bulk Data Insertion comporte d’autres champs obligatoires. Voir la [documentation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=fr#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour plus de détails.
+* L’API Bulk Data Insertion comporte d’autres champs obligatoires. Voir la [documentation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) pour plus de détails.
 * Pour garantir la continuité et l’attribution des visiteurs, l’API Bulk Data Insertion nécessite que les lignes des fichiers soient triées par ordre chronologique. Voir [Groupes de visiteurs](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=fr#!AdobeDocs/analytics-2.0-apis/master/bdia.md#visitor-groups) pour en savoir plus sur l’ordre de l’activité Visiteur dans les fichiers.
 * L’API Buk Data Insertion nécessite que les fichiers soient compressés en .csv au format .gzip.
 * BDIA utilise « horodatage » au lieu de « date ».

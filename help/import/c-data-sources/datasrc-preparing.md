@@ -3,12 +3,12 @@ description: Procédure de préparation à l’utilisation des sources de donné
 subtopic: Data sources
 title: Préparation à l’utilisation des sources de données
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Il est important de comprendre les mesures contenues dans vos sources de donnée
 
 Une fois les associations appropriées de mesure/événement déterminées pour les données des sources de données, renommez les événements à l’aide de noms explicites correspondant à la mesure concernée.
 
-Voir [Événements de succès](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide des outils d’administration.
+Voir [Événements de succès](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=fr) dans l’aide des outils d’administration.
 
 >[!NOTE]
 >

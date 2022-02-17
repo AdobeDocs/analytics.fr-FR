@@ -1,12 +1,10 @@
 ---
 description: Procédure de transfert d’un fichier de sources de données.
-subtopic: Data sources
 title: Transfert d’un fichier de sources de données
 topic-fix: Developer and implementation
-uuid: 5a9dde91-1297-47e5-9393-611b40413c17
+feature: Data Sources
 exl-id: 8b7fa32c-01f2-452b-bf8e-8a81da266926
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 87%
@@ -32,7 +30,7 @@ Une fois le fichier de données préparé, envoyez-le à la fonctionnalité Sour
    Le fichier [!DNL .fin] doit être nommé exactement de la même façon que le fichier de source de données, à l’exception de son extension. Le fichier de source de données n’est pas placé en file d’attente de traitement tant que le fichier [!DNL .fin] n’est pas transféré.
 
    Ne transférez pas le fichier tant que tous les fichiers de sources de données ne sont pas complètement transférés. Sinon, les sources de données peuvent tenter de traiter un fichier incomplet.
-1. Une fois le fichier .fin téléchargé, il est important de se déconnecter du site FTP Sources de données. La raison en est qu’Analytics utilise des événements de déconnexion comme déclencheur pour indiquer que les fichiers sont prêts pour le traitement.
+1. Une fois le fichier .fin transféré, il est important que vous vous déconnectiez du site FTP de la fonctionnalité Sources de données. Cela est dû au fait qu’Analytics utilise des événements de déconnexion comme déclencheur pour indiquer que les fichiers sont prêts pour le traitement.
 1. Vérifiez la présence éventuelle de messages durant le traitement du fichier de source de données.
 
    Le Gestionnaire des sources de données affiche des erreurs qui surviennent durant le traitement des fichiers.

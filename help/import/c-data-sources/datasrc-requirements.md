@@ -3,12 +3,12 @@ description: Informations sur les conditions requises pour votre suite de rappor
 subtopic: Data sources
 title: Conditions requises et limites de transfert
 topic-fix: Developer and implementation
-uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ La fonctionnalité Sources de données prend en charge le codage multioctet. Ell
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
+   <td colname="col2"> <p>Pris en charge. La suite de rapports utilisée avec la fonctionnalité Sources de données doit prendre en charge les caractères multioctets. </p> <p>Voir <a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=fr"  >Nouvelle suite de rapports</a> dans l’Aide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 avec marque d’ordre d’octet (EF BB BF) </td> 

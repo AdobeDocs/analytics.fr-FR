@@ -1,11 +1,10 @@
 ---
 description: Détails sur le modèle Analysis Workspace et sur la création de rapports dans Reports & Analytics, ainsi que dans Report Builder.
 title: Rapport sur les données Advertising dans Adobe Analytics
-uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
+feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -45,7 +44,7 @@ Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de r
 | Mots-clés | Graphique de dispersion des impressions, des clics et des coûts pour toutes les combinaisons de mots-clés/types de correspondance. |
 | Totaux des mots-clés | Tableau à structure libre des principales combinaisons de mots-clés/types de correspondance ventilé selon des mesures associées. |
 
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
+## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
 Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
 

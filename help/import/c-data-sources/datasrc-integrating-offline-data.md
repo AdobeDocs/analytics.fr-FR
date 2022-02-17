@@ -3,9 +3,9 @@ description: La fonctionnalité Sources de données fournit deux moyens supplém
 subtopic: Data sources
 title: Intégration des transactions et des clients
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ Accédez à **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]
 
  -->
 
-Pour savoir si l’enregistrement des identifiants de transaction est activé, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
+Pour savoir si l’enregistrement des identifiants de transaction est activé, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ Les ID de transaction permettent d’enregistrer l’état d’un visiteur à un
 
 Le client est souvent anonyme lorsqu’il passe d’en ligne à hors ligne.
 
-Les événements d’ID de transaction ne sont pas inclus dans les mesures Participation aux visites (celles qui sont affichées dans les rapports marketing). En effet, les données d’ID de transaction ne sont pas associées à une visite (car le événement hors ligne ne fait généralement pas partie du événement en ligne), mais elles sont associées au visiteur.
+Les événements d’ID de transaction ne sont pas inclus dans les mesures Participation de visite (elles sont affichées dans les rapports marketing). En effet, les données d’ID de transaction ne sont pas associées à une visite (car l’événement hors ligne ne fait généralement pas partie de l’événement en ligne), mais elles sont associées au visiteur.
 
 Voir [ID de transaction](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).

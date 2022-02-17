@@ -1,8 +1,9 @@
 ---
 title: Sources de données des ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données des ID de transaction.
+feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 45%
@@ -21,11 +22,11 @@ Lorsqu’un accès à la source de données de transaction est envoyé, l’ID d
 
 ## Exemple
 
-Si un accès en ligne avec l’ID de transaction 1256 est transmis et qu’il contient `evar1=blue`, `evar2=water` et `event1` sont définis, les données de transaction pour l’ID de transaction 1256 sont enregistrées avec `evar1=blue`, `evar2=water`. Aucune valeur d’événement n’est enregistrée dans les informations de transaction.
+Si un accès en ligne avec l’ID de transaction 1256 est transmis et placé dessus `evar1=blue`, `evar2=water` et `event1` sont définies, puis les données de transaction pour l’ID de transaction 1256 sont enregistrées avec `evar1=blue`, `evar2=water`. Aucune valeur d’événement n’est enregistrée dans les informations de transaction.
 
-Supposons maintenant qu’un accès à la transaction d’une source de données soit transmis par le système avec l’ID de transaction 1256 et `evar1=yellow`, `evar3=mountain` et `event2` définis. Le système trouve les données de transaction enregistrées et dans les jeux d’accès de transaction de source de données `evar2=water` (puisqu’il s’agit de ce qui a été défini sur l’accès d’origine). Elle ne définit pas `evar1=blue` (comme c’était le cas pour l’accès d’origine), car une valeur pour `evar1` (jaune) était déjà définie sur l’accès à la transaction de la source de données.  Ainsi, l’accès à la transaction de la source de données génère `evar1=yellow`, `evar2=water` (à partir de l’accès en ligne d’origine) et `evar3=mountain`. `event2` est défini pour ces trois valeurs d’eVar : l’événement de l’accès à la transaction de la source de données.
+Supposons maintenant qu’un accès à la transaction d’une source de données soit ensuite transmis par le système avec l’ID de transaction 1256 et `evar1=yellow`, `evar3=mountain` et `event2` définie. Le système trouve les données de transaction enregistrées et dans les jeux d’accès de transaction de source de données `evar2=water` (puisque c’est ce qui a été défini sur l’accès d’origine). Elle n’est pas définie sur `evar1=blue` (comme c’était le cas lors de l’accès d’origine), car une valeur pour `evar1` (jaune) déjà défini sur l’accès à la transaction de la source de données.  Ainsi, l’accès à la transaction de la source de données entraîne la présence de `evar1=yellow`, `evar2=water` (de l’accès en ligne d’origine) et `evar3=mountain`. Ces trois valeurs d’eVar ont `event2` set : événement de l’accès à la transaction de la source de données.
 
-Aucune valeur de l’accès à la transaction de la source de données n’est définie `event1` lors du traitement de l’accès à la transaction de la source de données.
+Aucune valeur de l’accès à la transaction de la source de données n’est obtenue `event1` définie lors du traitement de l’accès à la transaction de la source de données.
 
 ## Processus global des sources de données des ID de transaction
 

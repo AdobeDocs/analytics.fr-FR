@@ -3,9 +3,9 @@ description: Le fichier du modèle d’importation a pour but de vous aider à c
 subtopic: Data sources
 title: Génération d’un modèle de fichier d’importation
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ Le modèle Sources de données est un fichier .txt que vous pouvez ouvrir dans 
 Reportez-vous à la section [Référence du fichier d’importation](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) pour plus de détails.
 
 1. Connexion à Analytics.
-1. Dans l’en-tête de la Suite, sélectionnez **[!UICONTROL Admin]** > **[!UICONTROL Tous les admin]** > **[!UICONTROL Sources de données]**.
+1. Dans l’en-tête de la Suite, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
 1. Sur l’onglet **[!UICONTROL Créer]**, sélectionnez une catégorie et un type de modèle.
 1. Passez en revue les instructions et informations d’activation, puis cliquez sur **[!UICONTROL Activer]**.
 
@@ -34,7 +34,7 @@ Reportez-vous à la section [Référence du fichier d’importation](/help/impor
    | Page de l’Assistant | Champ | Description |
    |--- |--- |--- |
    | 1 | Nom | Nom du modèle affiché par Analytics dans le gestionnaire de la fonctionnalité Sources de données. |
-   | 1 | Courriel | Adresse électronique à laquelle sont envoyées toutes les notifications relatives à l’utilisation de ce modèle. |
+   | 1 | Courriel | Adresse e-mail à laquelle sont envoyées toutes les notifications relatives à l’utilisation de ce modèle. |
    | 1 | Case à cocher des frais associés | Cochez cette case pour indiquer que vous acceptez les frais associés à l’utilisation de ce modèle. |
    | 2 | Choisissez les mesures | Sélectionnez les mesures à importer à l’aide de cette source de données. Analytics recommande certaines mesures en fonction de la catégorie et du type de source de données sélectionnés à l’étape 3.  Pour définir une autre mesure, saisissez son nom dans un champ vierge, puis cochez la case pour activer la mesure. |
    | 3 | Faire correspondre les mesures | Sélectionnez un événement Analytics pour recevoir chaque mesure importée sélectionnée dans la page 2 de l’assistant.  Il doit s’agir d’événements nouveaux et non attribués auxquels vous avez auparavant attribué des noms qui correspondent aux données de mesure importées qu’ils recevront par l’intermédiaire de la fonctionnalité Sources de données.  Si une variable eVar, Produit ou Code de suivi est une variable de destination et que les valeurs transférées correspondent aux valeurs captées existantes, les événements transférés ajoutent des mesures aux valeurs existantes. Par exemple, vous pouvez créer une mesure « Commandes hors ligne » avec une dimension de données Produits qui comporte déjà les mesures existantes suivantes : Consultations des produits, Achats et Commandes. |

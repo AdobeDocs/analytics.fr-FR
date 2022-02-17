@@ -1,10 +1,10 @@
 ---
 title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
+feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
@@ -143,7 +143,7 @@ Pour plus d’informations sur leurs dimensions respectives, voir les pages suiv
 * [Navigateur](/help/components/dimensions/browser.md)
 * [Système d’exploitation](/help/components/dimensions/operating-systems.md)
 * [Résolution de l’écran](/help/components/dimensions/monitor-resolution.md)
-* [Codage des couleurs](/help/components/dimensions/color-depth.md)
+* [Profondeur de couleur](/help/components/dimensions/color-depth.md)
 
 ## Technologie - Réseau
 

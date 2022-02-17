@@ -1,10 +1,10 @@
 ---
 description: Voici des instructions pour vous aider à trouver les ID de votre compte Google et Bing.
 title: Localisation des identifiants de compte
+feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
 

@@ -1,9 +1,10 @@
 ---
 title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
+feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%
 

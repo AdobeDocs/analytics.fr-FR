@@ -1,13 +1,14 @@
 ---
 title: Options pour atténuer l’effet des restrictions des cookies de navigateur
 description: Découvrez comment atténuer l’effet des restrictions des cookies de navigateur afin d’améliorer la collecte de données pour Adobe Analytics.
-source-git-commit: 6c354a343648162ce2951c52a70a688970e1304d
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 100%
 
 ---
-
 
 # Options pour atténuer l’effet des restrictions des cookies de navigateur
 
@@ -37,5 +38,4 @@ Pour obtenir des instructions pratiques pour que votre entreprise puisse abandon
 
 >[!MORELIKETHIS]
 >
->[Adobe Analytics et les cookies de navigateur](cookies.md)>
->
+>[Adobe Analytics et les cookies de navigateur](cookies.md)
