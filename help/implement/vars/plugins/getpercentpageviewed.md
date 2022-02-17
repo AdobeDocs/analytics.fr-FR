@@ -1,11 +1,12 @@
 ---
 title: getPercentPageViewed
 description: Permet de connaître le pourcentage de la page consultée par le visiteur.
+feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 100%
 
 ---
 
@@ -55,19 +56,19 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## Utilisation du plug-in
 
-La fonction `getPercentPageViewed` utilise les arguments suivants :
+La fonction `getPercentPageViewed` utilise les arguments suivants :
 
 * **`pid`** (facultatif, chaîne) : identifiant basé sur une page que vous pouvez mettre en corrélation avec les pourcentages fournis par les mesures du plug-in.  Par défaut, la variable `pageName`.
 * **`ch`** (facultatif, booléen) : définissez cet argument sur `false` (ou `0`) si vous ne souhaitez pas que le plug-in prenne en compte les modifications apportées à la taille d’une page après son chargement initial. S’il est ignoré, cet argument prend par défaut la valeur `true`. Dans la plupart des cas, Adobe recommande d’ignorer cet argument.
 
-L’appel de cette fonction ne renvoie rien ; au lieu de cela, il définit les variables suivantes :
+Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les variables suivantes :
 
 * `s._ppvPreviousPage` : nom de la page précédente consultée. Les mesures finales de défilement de la page active ne sont disponibles qu’après le chargement d’une nouvelle page.
-* `s._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Point le plus éloigné vers lequel le visiteur a fait défiler la page précédente. Si la page entière est visible au premier chargement, cette valeur est `100`.
-* `s._ppvInitialPercentViewed` : pourcentage de la page précédente qui était visible lors du premier chargement de la page précédente. Si la page entière est visible au premier chargement, cette valeur est `100`.
+* `s._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Point le plus éloigné vers lequel le visiteur a fait défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
+* `s._ppvInitialPercentViewed` : pourcentage de la page précédente qui était visible lors du premier chargement de la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
 * `s._ppvHighestPixelsSeen` : nombre total de pixels le plus élevé affiché (en termes de hauteur) pendant que le visiteur faisait défiler la page précédente.
-* `s._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible au premier chargement, cette valeur est `1`.
-* `s._ppvFoldsAvailable` : nombre total de « plis de page » disponibles pour faire défiler la page précédente. Si la page entière est visible au premier chargement, cette valeur est `1`.
+* `s._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible lors du premier chargement, cette valeur est `1`.
+* `s._ppvFoldsAvailable` : nombre total de « plis de page » disponibles pour faire défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `1`.
 
 Affectez une ou plusieurs de ces variables à des eVars pour afficher les données sur les dimensions dans les rapports.
 

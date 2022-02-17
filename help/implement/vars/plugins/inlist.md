@@ -1,11 +1,12 @@
 ---
 title: inList
 description: Permet de vérifier si une valeur est contenue dans une autre valeur délimitée par des caractères.
+feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -57,14 +58,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Utilisation du plug-in
 
-La fonction `inList` renvoie une valeur booléenne en fonction de ses entrées. Il utilise les arguments suivants :
+La fonction `inList` renvoie une valeur booléenne selon ses entrées. Elle utilise les arguments suivants :
 
 * **`lv`** (obligatoire, chaîne ou tableau) : liste délimitée de valeurs ou objet Array de JavaScript à rechercher.
 * **`vtc`** (obligatoire, chaîne) : valeur à rechercher.
 * **`d`** (facultatif, chaîne) : délimiteur utilisé pour séparer les valeurs individuelles dans l’argument `lv`. La valeur par défaut est une virgule (`,`) lorsqu’elle n’est pas définie.
-* **`cc`** (facultatif, booléen) : Si celle-ci est définie sur  `true` ou  `1`, une vérification sensible à la casse est effectuée. S’il est défini sur `false` ou omis, une vérification non sensible à la casse est effectuée. La valeur par défaut est `false`.
+* **`cc`** (facultatif, booléen) : si cet argument est défini sur `true` ou `1`, une vérification sensible à la casse est effectuée. S’il est défini sur `false` ou omis, une vérification non sensible à la casse est effectuée. La valeur par défaut est `false`.
 
-L’appel de cette fonction renvoie `true` s’il trouve une correspondance et `false` s’il ne trouve pas de correspondance.
+Lʼappel de cette fonction renvoie la valeur `true` si une correspondance est trouvée, et `false` sʼil nʼy en a aucune.
 
 ## Exemples
 

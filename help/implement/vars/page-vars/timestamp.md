@@ -1,9 +1,10 @@
 ---
 title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
+feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -41,7 +42,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valeurs ISO 8601
 
-Les dates et les heures exprimées dans la [norme ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
+Les dates et les heures exprimées dans la [norme ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
 
 * La date et l’heure doivent être précisées, séparées par `T`.
 * Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.

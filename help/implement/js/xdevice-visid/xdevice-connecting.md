@@ -3,11 +3,10 @@ description: L’identification des visiteurs sur plusieurs appareils vous aide 
 keywords: Mise en œuvre d’Analytics
 subtopic: Visitors
 title: Connexion des utilisateurs à l’ensemble des appareils
-topic-fix: Developer and implementation
-uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
+feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ L’identification des visiteurs sur plusieurs appareils vous aide à connecter 
 
 Lorsque vous envoyez un accès avec un identifiant de visiteur personnalisé, Adobe recherche les profils de visiteurs qui possèdent un identifiant de visiteur correspondant. Le cas échéant, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
 
-En règle générale, l’identifiant visiteur `visitorID` est défini après l’authentification ou après qu’un visiteur a effectué une autre action vous permettant de l’identifier de manière unique, indépendamment de l’appareil utilisé. Les identifiants efficaces comprennent un hachage de leur nom d’utilisateur, de leur adresse électronique ou d’un identifiant interne qui ne contient aucune information d’identification personnelle.
+En règle générale, l’identifiant visiteur `visitorID` est défini après l’authentification ou après qu’un visiteur a effectué une autre action vous permettant de l’identifier de manière unique, indépendamment de l’appareil utilisé. Les identifiants efficaces comprennent un hachage de leur nom d’utilisateur, de leur adresse e-mail ou d’un identifiant interne qui ne contient aucune information d’identification personnelle.
 
 Une fois que le client s’est connecté à partir de chaque appareil, il est lié au même profil utilisateur. Si le visiteur se déconnecte ultérieurement sur un appareil, il continue d’appartenir au même profil du visiteur, car Adobe reconnaît que le cookie du navigateur sur chaque appareil appartient au même profil du visiteur. Adobe recommande d’utiliser la variable `visitorID` chaque fois que cela est possible, au cas où le cookie du navigateur serait supprimé.
 
