@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, l’outil principal d’analyse et de visualisation d’Analytics, ainsi que des outils tels que Tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 98%
+source-wordcount: '1035'
+ht-degree: 97%
 
 ---
 
@@ -92,6 +92,7 @@ ht-degree: 98%
       + [Panneau d’attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
+      + [Panneau Audience moyenne par minute du média](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Panneau des visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Durée de lecture des médias {#media-playback-timespent}
          + [Présentation](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)

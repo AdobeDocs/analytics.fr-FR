@@ -4,10 +4,10 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,9 @@ Voici les types de panneau disponibles dans Analysis Workspace :
 | [Panneau Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
 | [Panneau d’attribution](attribution.md) | Comparez et visualisez rapidement de nombreux modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion. |
 | [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des ventilations illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
+| [Panneau Audience moyenne par minute du média](average-minute-audience-panel.md) | Analysez l’audience moyenne par minute au fil du temps, avec des détails sur les vues de pointe et la possibilité de ventiler et de comparer. |
 | [Panneau des visionneuses simultanées de médias](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
+| [Panneau Durée de lecture du média](media-playback-timespent/media-playback-time-spent.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md) | Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes. |
 
 ![](assets/panel-overview.png)
