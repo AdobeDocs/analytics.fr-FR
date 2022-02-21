@@ -1,12 +1,12 @@
 ---
 title: Affichage des annotations
-description: Comment afficher les annotations dans Workspace.
+description: Comment afficher les annotations dans l’espace de travail.
 role: User, Admin
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 6%
+ht-degree: 78%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 6%
 >
 >Cette fonctionnalité fait actuellement l’objet de tests limités.
 
-Les annotations se manifestent légèrement différemment selon qu’elles s’étendent sur un seul jour ou sur une période.
+Les annotations se présentent de manière légèrement différente, selon qu’elles s’étendent sur un seul jour ou sur une période.
 
-## Affichage des annotations dans les graphiques en courbes ou les tableaux
+## Affichage des annotations dans les graphiques linéaires ou les tableaux
 
 | Date | Apparence |
 | --- | --- |
 | **Un seul jour** | ![](assets/single-day.png) |
-| **Période** | L’icône change et lorsque vous la survolez, la période s’affiche.<p>![](assets/multi-day.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png)<p>Notez les points suivants : les jours auxquels plusieurs annotations sont liées, l’icône est de couleur grise. |
+| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png)<p>Notez ce qui suit : les jours auxquels plusieurs annotations sont liées, l’icône est de couleur grise. |
 
 ## Affichage des annotations dans un graphique de synthèse
 
@@ -31,7 +31,7 @@ Les annotations se manifestent légèrement différemment selon qu’elles s’�
 
 ## Affichage des annotations dans un fichier .pdf
 
-Puisque vous ne pouvez pas placer le pointeur de la souris sur les icônes d’un fichier .pdf, ce fichier (après l’exportation) fournit des notes d’explication au bas d’un panneau. Voici un exemple :
+Puisque vous ne pouvez pas pointer sur les icônes dans un fichier .pdf, ce fichier (après l’exportation) fournit des notes d’explication au bas d’un panneau. Voici un exemple :
 
 ![](assets/ann-pdf.png)
 

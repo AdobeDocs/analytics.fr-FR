@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Journaux] | Accorde l’accès à Admin > Tous les administrateurs > Journaux. |
 | [!UICONTROL Journaux - Services web] | Accorde l’accès aux journaux d’extraction par le biais de l’API 1.4. |
 | [!UICONTROL Gestion du trafic] | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
-| [!UICONTROL Sécurité] | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Gestionnaire de sécurité. |
-| [!UICONTROL Assistance] | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Informations sur l’assistance. |
-| [!UICONTROL Services web] | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Services web. |
-| [!UICONTROL Actions en attente] | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Actions en attente. |
+| [!UICONTROL Sécurité] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
+| [!UICONTROL Assistance] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
+| [!UICONTROL Services web] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
+| [!UICONTROL Actions en attente] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
 | [!UICONTROL Masquage des suites de rapports] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | [!UICONTROL Utilisateurs sous licence Excel] | Inutilisé. |
 | [!UICONTROL Activity Map] | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
