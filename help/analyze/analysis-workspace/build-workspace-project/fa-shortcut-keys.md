@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Remarque :
 | --- | --- |
 | Rechercher dans le rail de gauche | Ctrl+/ |
 | Créer une alerte | Ctrl+Maj+A |
-| Création d’une annotation | ctrl + maj + o |
+| Créer une annotation | Ctrl+Maj+O |
 | Créer une mesure calculée | Ctrl+Maj+C |
 | Créer une plage de dates | Ctrl+Maj+D |
 | Créer un segment | Ctrl+Maj+E |
