@@ -1,11 +1,10 @@
 ---
 description: Utilisation des alertes dans Analysis Workspace.
 title: Générateur d’alertes
-uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
+feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -44,7 +43,7 @@ Spécifiez quand vérifier la mesure : chaque heure, chaque jour, chaque semain
 
 **Destinataires**
 
-Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisateur [!DNL Analytics] ou à un groupe [!DNL Analytics], à une adresse électronique brute ou à un numéro de téléphone.
+Spécifiez où envoyer l’alerte. Une alerte peut être envoyée à un utilisateur [!DNL Analytics] ou à un groupe [!DNL Analytics], à une adresse e-mail brute ou à un numéro de téléphone.
 
 >[!IMPORTANT]
 >

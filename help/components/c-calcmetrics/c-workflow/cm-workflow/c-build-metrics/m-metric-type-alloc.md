@@ -1,10 +1,10 @@
 ---
 description: 'En savoir plus sur les '
 title: Type de mesure et attribution
-uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ L’exemple suivant explique comment les mesures calculées avec l’affectation
 |  | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Données envoyées dans | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| eVar de première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| Exemple de Prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+| eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | 10 $ |
+| eVar de première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | 10 $ |
+| Exemple de Prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | 10 $ |
 
 Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable aux accès 1, 3, 4 et 6 avant la réalisation d’un achat de 10 $ à l’accès 7. Dans la deuxième ligne, ces valeurs persistent dans les accès sur une base de visite de dernière touche. La troisième ligne représente une persistance de visite de première touche. Enfin, la dernière ligne indique comment les données seraient enregistrées pour une Prop qui ne présente pas de persistance.
 
@@ -66,7 +66,7 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 |---|---|---|---|
 | PROMO A | 5,00 $ | 10,00$ | 5,00 $ |
 | PROMO B | 3,33$ | $0 | 2,50$ |
-| PROMO C | 1,67$ | $0 | 2,50$ |
+| PROMO C | 1,67$ | 0 $ | 2,50$ |
 | Total | 10,00$ | 10,00$ | 10,00$ |
 
 **Résumé du fonctionnement actuel de lʼaffectation linéaire**

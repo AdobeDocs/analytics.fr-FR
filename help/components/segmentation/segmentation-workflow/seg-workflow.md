@@ -2,11 +2,10 @@
 description: Décrit un processus suggéré pour les segments créés par le Créateur de segments et gérés dans le Gestionnaire de segments.
 title: Workflow de segmentation - Aperçu
 feature: Segmentation
-uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '241'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '240'
 ht-degree: 100%
 
 ---
@@ -14,12 +13,6 @@ ht-degree: 100%
 # Workflow de segmentation - Aperçu
 
 Décrit un processus suggéré pour les segments créés par le Créateur de segments et gérés dans le Gestionnaire de segments.
-
-<!-- 
-
-seg_workflow.xml
-
- -->
 
 ![](assets/seg_workflow.png)
 

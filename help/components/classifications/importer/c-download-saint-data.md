@@ -1,16 +1,14 @@
 ---
 description: (Facultatif) Avant d’importer des classifications dans des rapports marketing, vous pouvez télécharger un modèle qui vous aide à créer un fichier de données de classification. Ce fichier de données utilise les classifications voulues sous la forme d’en-têtes de colonne, puis classe le jeu de données de rapport sous les en-têtes de classification adéquats.
-subtopic: Classifications
 title: Modèle de classification
-feature: Outils d’administration
-uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
-source-wordcount: '353'
+feature: Classifications
+exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # Modèle de classification
 
@@ -52,4 +50,3 @@ Le modèle fournit le format de fichier que vous devez respecter pour les classi
 1. Enregistrez le fichier de modèle sur votre système local.
 
    Le fichier de modèle est un fichier de données délimité par des tabulations (extension de nom de fichier [!DNL .tab] ) qui est pris en charge par la plupart des tableurs.
-

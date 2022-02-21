@@ -1,11 +1,12 @@
 ---
 title: Personnes
 description: Nombre de personnes uniques, généralement avec plusieurs appareils.
+feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -17,4 +18,4 @@ Pour les membres de [Device Co-op](https://experienceleague.adobe.com/docs/devic
 
 Dans une suite de rapports virtuelle [Analyses entre appareils](../cda/overview.md), la mesure « Personnes » n’est pas une dérivation statistique. Les personnes constituent la somme des individus qui ont été identifiés dans le rapport, plus le nombre dʼappareils qui nʼont pas été identifiés comme appartenant à une personne.
 
-Si un visiteur est identifié en cours de visite, il peut compter comme 2 personnes (1 personne non identifiée et 1 personne identifiée). [](/help/components/cda/replay.md) Les lectures atténuent ce double comptage en fonction de la fenêtre de rapport, de la fréquence de relecture et du taux de succès. Voir [Appareils uniques](unique-devices.md) pour plus d’informations.
+Si un visiteur est identifié en cours de visite, il peut compter comme 2 personnes (1 personne non identifiée et 1 personne identifiée). La [Relecture](/help/components/cda/replay.md) atténue ce double comptage en fonction de lʼintervalle du compte rendu des performances, de la fréquence de relecture et du taux de réussite. Voir [Appareils uniques](unique-devices.md) pour plus d’informations.

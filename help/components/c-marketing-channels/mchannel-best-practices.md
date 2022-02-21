@@ -1,13 +1,14 @@
 ---
 title: Les bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analytics
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution IQ et Customer Journey Analytics
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: ht
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # Attribution IQ avec les canaux marketing - Les bonnes pratiques
 
@@ -21,7 +22,7 @@ Lorsque les canaux marketing ont été introduits pour la première fois, ils ne
 
 ## Bonne pratique n° 1 : utiliser Attribution IQ pour une analyse contrôlée
 
-Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=fr#analysis-workspace) au lieu de l’attribution de canal marketing existante pour affiner votre analyse de ce dernier. Suivez les autres bonnes pratiques pour garantir la cohérence et la fiabilité des contrôles de vos analyses avec Attribution IQ.
+Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) au lieu de l’attribution de canal marketing existante pour affiner votre analyse de ce dernier. Suivez les autres bonnes pratiques pour garantir la cohérence et la fiabilité des contrôles de vos analyses avec Attribution IQ.
 
 ![](assets/attribution.png)
 

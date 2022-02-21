@@ -1,9 +1,10 @@
 ---
 title: Dimensions mobiles
 description: Dimensions basées sur lʼadresse IP de lʼappareil.
+feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 100%
 
@@ -41,7 +42,7 @@ Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans
 * **Fabricant de l’appareil mobile** : regroupe les appareils mobiles par fabricant. Les exemples de valeurs comprennent `"Apple"`, `"Samsung"`, `"Huawei"` et `"Motorola"`.
 * **Longueur maximale du signet sur l’appareil mobile** : le nombre maximal d’octets pris en charge par l’appareil mobile dans les adresses URL marquées d’un signet. Les appareils récents n’ont généralement pas de limite.
 * **Longueur maximale d’URL de navigateur sur l’appareil mobile** : le nombre maximal d’octets pris en charge par l’appareil mobile dans les adresses URL. Les appareils récents n’ont généralement pas de limite.
-* **Longueur maximale d’adresse électronique sur l’appareil mobile** : le nombre maximal d’octets pris en charge par l’appareil mobile dans une adresse électronique. Les appareils récents n’ont généralement pas de limite.
+* **Longueur maximale d’adresse e-mail sur l’appareil mobile** : le nombre maximal d’octets pris en charge par l’appareil mobile dans une adresse e-mail. Les appareils récents n’ont généralement pas de limite.
 * **Protocoles réseau de l’appareil mobile** : les types de protocoles pris en charge par l’appareil lors de l’accès à Internet. Les exemples de valeurs comprennent `"EDGE"`, `"GPRS"`, `"UMTS"` et `"LTE"`.
 * **Système d’exploitation mobile (obsolète)** : utilisez plutôt la dimension [Système d’exploitation](operating-systems.md).
 * **Fonction mobile de pression pour parler** : détermine si l’appareil prend en charge PTT (Push to talk), ce qui permet à l’appareil mobile de se comporter comme une radio bidirectionnelle. Les appareils récents ne signalent généralement pas cette fonctionnalité.

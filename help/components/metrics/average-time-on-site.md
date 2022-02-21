@@ -1,12 +1,12 @@
 ---
 title: Durée moyenne de la visite du site
 description: La durée moyenne d’existence d’un élément de dimension donné entre les accès.
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,9 +37,9 @@ Prenons pour exemple la visite suivante :
 
 Si vous souhaitez obtenir la durée moyenne de la visite du site pour l’élément de la dimension `Product page A`, prenez tout d’abord le temps écoulé entre les accès pour cette dimension :
 
-* **12:04:20 - 12:05:30** : 1 minute et 10 secondes
-* **12:05:30 - 12:07:00** : 1 minute et 30 secondes
-* **12:07:40 - 12:08:10** : 30 secondes
+* **12:04:20 à 12:05:30** - 1 minute 10 secondes
+* **12:05:30 à 12:07:00** - 1 minute 30 secondes
+* **12:07:40 à 12:08:10** - 30 secondes
 * **12:25:40 - ?** - Non inclus
 
 La durée totale de la visite pour `Product page A` correspond à `00:03:10`. Cette visite comportait deux séquences ; la première séquence pour les deux valeurs consécutives et la seconde avant le passage en caisse. Le dernier accès de la visite n’est pas une séquence, puisqu’il n’existe pas de date et heure de fin.

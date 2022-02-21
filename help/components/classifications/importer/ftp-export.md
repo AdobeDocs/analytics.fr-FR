@@ -1,13 +1,14 @@
 ---
 title: Exportation des données de classification via FTP
 description: L’exportation FTP offre plus de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données à partir de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données comportant plus de 50 000 lignes de données.
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+feature: Classifications
+exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 
 ---
-
 
 # Exportation des données de classification via FTP
 
@@ -47,4 +48,3 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | [!UICONTROL Compte FTP] | Spécifiez les informations du serveur FTP où Adobe doit télécharger le fichier de données, dont le nom d’hôte et le port, le chemin d’accès au répertoire de destination, le nom d’utilisateur et le mot de passe. |
 | [!UICONTROL Notification] | Indiquez l’adresse e-mail à laquelle doivent être envoyées les notifications concernant ce téléchargement FTP. |
 | [!UICONTROL Encodage] | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est soit UTF-8, soit ISO-8859-1, selon le code qui a été téléchargé pour la classification. UTF-8 vers UTF-16 convertit les classifications codées UTF-8 en codage UTF-16. ISO-8859-1 vers UTF-16 convertit les classifications codées ISO-8859-1 en codage UTF-16.<br>**Remarque :** Si vous choisissez de convertir en UTF-16, le codage source doit correspondre au codage du téléchargement d’origine. Sinon, vous pourriez obtenir des résultats inattendus. Nous vous recommandons de coder tous les fichiers téléchargés en UTF-8 sans nomenclature. |
-

@@ -1,10 +1,10 @@
 ---
 title: Visites
 description: Séquence de pages vues lors d’une session unique.
+feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,6 +56,6 @@ Une visite compte pour chaque période impliquée. Par exemple, si un visiteur c
 
 Dans le contexte d’une dimension (par exemple, un [canal marketing](../dimensions/marketing-channel.md)), les visites indiquent le nombre de visites qui contenaient un élément de dimension spécifique à tout moment. Il est fréquent que plusieurs éléments de dimension existent sur différents accès au cours d’une même visite. Il n’est généralement pas logique de tenter d’additionner les visites qui génèrent des rapports sur les éléments de dimension.
 
-## « Visites - Tous les Visiteurs » dans Data Warehouse
+## Visites - Tous les visiteurs (Data Warehouse)
 
 La mesure « Visites - Tous les Visiteurs » est disponible dans Data Warehouse en plus de la mesure Visites. La mesure « Visites - Tous les Visiteurs » est comparable à la mesure « Visites » dans dʼautres outils Analytics. La mesure « Visites » dans Data Warehouse exclut les visiteurs qui nʼont pas de cookies persistants. Adobe recommande dʼutiliser « Visites - Tous les Visiteurs » dans les demandes de Data Warehouse lorsque les visites sont souhaitées comme mesure.

@@ -1,16 +1,14 @@
 ---
 description: Les règles de classification recherchent régulièrement des termes non classés. Si une correspondance de règle est trouvée, les règles ajoutent automatiquement les termes aux tableaux de données de classification. Vous pouvez également utiliser des règles de classification pour remplacer des clés existantes.
-subtopic: Classifications
 title: Règles de classification
-feature: Admin Tools
-uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
-workflow-type: ht
+feature: Classifications
+exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 100%
 
 ---
-
 
 # Règles de classification
 
@@ -328,8 +326,8 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    >Les suites de rapports s’affichent sur cette page *seulement* lorsque les conditions suivantes sont satisfaites :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   >
-   >   (Voir *Variable* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+      >
+      >   (Voir *Variable* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
    >
    >* Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 

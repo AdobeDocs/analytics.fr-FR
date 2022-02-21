@@ -3,11 +3,10 @@ description: Adobe Analytics permet de créer, gérer, partager et appliquer de
 keywords: segmentation;segments
 title: Segmentation Analytics
 feature: Segmentation
-uuid: 845c1743-1264-4090-bccc-78830477f52e
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '174'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---

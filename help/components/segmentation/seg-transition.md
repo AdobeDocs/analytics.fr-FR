@@ -2,10 +2,9 @@
 description: Questions fréquentes sur la segmentation.
 title: Questions fréquentes
 feature: Segmentation
-uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 100%
 
@@ -276,7 +275,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mobile - Longueur max. d’adresse électronique </td> 
+   <td colname="col1"> Mobile - Longueur max. d’adresse e-mail </td> 
    <td colname="col2"> Longueur maxi d’URL de messagerie pour mobile </td> 
    <td colname="col3"> - </td> 
   </tr> 
@@ -319,7 +318,7 @@ Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont 
 
 Les dimensions suivantes ont été modifiées en listes énumérées :
 
-| fabricant du périphérique mobile | longueur d’adresse électronique du périphérique mobile | profondeur de couleur |
+| fabricant du périphérique mobile | longueur d’adresse e-mail du périphérique mobile | profondeur de couleur |
 |---|---|---|
 | taille de l’écran du périphérique mobile | numéro du périphérique mobile | résolution de l’écran |
 | hauteur d’écran du périphérique mobile | mobile - presser pour parler | module externe |

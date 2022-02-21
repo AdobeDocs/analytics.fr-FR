@@ -1,9 +1,10 @@
 ---
 title: Prise en charge des cookies persistants
 description: Détermine si le visiteur peut prendre en charge les cookies persistants.
+feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 82d6137bc9229bbaa997c6856690bf76c20b755c
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
 

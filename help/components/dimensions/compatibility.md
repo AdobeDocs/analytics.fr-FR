@@ -1,10 +1,10 @@
 ---
 title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
+feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Prise en charge des cookies sur le dispositif portable | `mobilecookiesupport` |
 | Appareil mobile | `mobiledevicename` |
 | Type de périphérique mobile | `mobiledevicetype` |
-| Mobile - Longueur max. d’adresse électronique | `mobileemaillength` |
+| Mobile - Longueur max. d’adresse e-mail | `mobileemaillength` |
 | Prise en charge des images sur le dispositif portable | `mobileimagesupport` |
 | Fabricant du dispositif portable | `mobilemanufacturer` |
 | Système d’exploitation mobile (obsolète) | `mobileos` |

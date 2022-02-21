@@ -2,11 +2,11 @@
 description: Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
 subtopic: Marketing channels
 title: Gestion des canaux marketing
-feature: Concepts de base de Reports & Analytics
+feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: ht
-source-wordcount: '750'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '747'
 ht-degree: 100%
 
 ---

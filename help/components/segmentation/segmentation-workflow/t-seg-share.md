@@ -2,11 +2,10 @@
 description: Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de l’entreprise, des groupes ou des utilisateurs individuels.
 title: Partage des segments
 feature: Segmentation
-uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '276'
 ht-degree: 100%
 
 ---
