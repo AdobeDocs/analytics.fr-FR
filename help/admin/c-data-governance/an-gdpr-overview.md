@@ -1,10 +1,10 @@
 ---
 description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 100%
 

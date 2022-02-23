@@ -1,10 +1,10 @@
 ---
 description: Interprétez les identifiants capturés dans vos données Analytics et décidez lesquels utiliser pour les demandes relatives à la confidentialité des données.
 title: Bonnes pratiques en matière d’étiquetage
-uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 Même si votre entreprise collecte de nombreux ID différents dans vos données Analytics, vous pouvez choisir d’utiliser uniquement un sous-ensemble de ces ID pour les demandes relatives à la Confidentialité des données. Les raisons de ce choix pourraient être les suivantes :
 
-* Au sein de vos propres systèmes, il se peut que vous mappiez l’un des ID (par exemple, l’adresse électronique) à un ID différent (tel que l’ID de gestion de la relation client) ; puis, par souci de cohérence, que vous décidiez d’utiliser uniquement l’ID de gestion de la relation client pour les demandes relatives à la Confidentialité des données lors de votre traitement en vertu de la Confidentialité des données.
+* Au sein de vos propres systèmes, il se peut que vous mappiez l’un des ID (par exemple, l’adresse e-mail) à un ID différent (tel que l’ID de gestion de la relation client) ; puis, par souci de cohérence, que vous décidiez d’utiliser uniquement l’ID de gestion de la relation client pour les demandes relatives à la Confidentialité des données lors de votre traitement en vertu de la Confidentialité des données.
 * Vous n’avez pas de méthode pour confirmer si la personne est réellement celle associée à l’ID. Par exemple, cela peut être très difficile de confirmer si une adresse IP n’a été utilisée que par une seule personne et si la personne qui soumet la demande est réellement cette personne.
 * Certains ID peuvent correspondre à plusieurs personnes et vous ne voulez pas risquer de renvoyer des informations relatives à une personne à quelqu’un d’autre possédant le même ID. Par exemple, même si vous pouvez vérifier que le nom de la personne est John Smith, vous ne voulez peut-être pas renvoyer l’intégralité des données relatives à tous les John Smith de votre système.
 * Un autre exemple concerne un ID d’appareil, tel que l’ID de cookie Analytics. Si l’ID apparaît sur une application de téléphone portable, vous pouvez décider que toutes les interactions utilisant cet ID doivent être disponibles pour le propriétaire du téléphone portable en question. Toutefois, s’il apparaît sur un appareil partagé, tel qu’un ordinateur domestique ou un ordinateur dans une bibliothèque ou un cybercafé, vous pouvez estimer que la distinction entre les différents utilisateurs de cet appareil n’est pas possible et que le risque de renvoyer des données relatives à un autre utilisateur est trop important pour permettre l’utilisation de ce type d’ID.

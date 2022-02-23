@@ -1,10 +1,10 @@
 ---
 description: Présente des exemples sur la manière d’étiqueter les données relatives aux accès, aux demandes d’accès et aux demandes de suppression.
 title: Exemples dʼétiquetage
-uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Supposons que vous avez les données d’accès suivantes :
 |  | John | 88 | E | N | U |
 |  | John | 44 | F | Q | V |
 |  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+|  | Alice | 66 | A | N | z |
 
 ## Exemple de demande d’accès
 
@@ -175,7 +175,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>99</td>
     <td>C</td>
     <td>O</td>
-    <td>Z</td>
+    <td>z</td>
   </tr>
   <tr>
     <td>John</td>
@@ -210,7 +210,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>Z</td>
+    <td>z</td>
   </tr>
 </table>
 
@@ -248,7 +248,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>99</td>
     <td>Privacy-9045</td>
     <td>Privacy-2864</td>
-    <td>Z</td>
+    <td>z</td>
   </tr>
   <tr>
     <td>John</td>
@@ -283,7 +283,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>Z</td>
+    <td>z</td>
   </tr>
 </table>
 
@@ -356,7 +356,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
     <td>66</td>
     <td>A</td>
     <td>N</td>
-    <td>Z</td>
+    <td>z</td>
   </tr>
 </table>
 

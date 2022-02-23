@@ -2,8 +2,9 @@
 title: Mises à jour de la documentation technique pour Adobe Analytics
 description: Mises à jour notables de l’ensemble de documentation Adobe Analytics.
 short-title: Analytics documentation updates
+feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 487761e051abf1e37465094fde44af35fe625aeb
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '2958'
 ht-degree: 100%

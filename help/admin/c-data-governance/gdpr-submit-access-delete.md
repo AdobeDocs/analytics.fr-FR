@@ -1,10 +1,10 @@
 ---
 description: Comment envoyer des demandes d’accès et de suppression des données dans Adobe Analytics.
 title: Soumettre des demandes d’accès et de suppression
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ Remarquez que la section relative à l’utilisateur comporte trois blocs, repr�
 
 * La première demande est une demande d’accès qui utilise un ID de cookie Adobe Analytics classique (AAID).
 * La deuxième demande est également une demande d’accès, mais qui utilise un cookie MCID/ECID.
-* La troisième demande requiert à la fois l’accès et la suppression pour les ID spécifiés. Bien que l’extension d’ID soit spécifiée pour toutes les demandes, elle concerna principalement cette troisième demande, puisque c’est la seule qui utilise des ID non liés à un cookie. En conséquence, cette demande recherchera également les ID de cookies associés à chaque appareil disposant de l’ID de gestion de la relation client spécifié ou de cette adresse électronique, et elle s’étendra afin d’inclure aussi ces ID.
+* La troisième demande requiert à la fois l’accès et la suppression pour les ID spécifiés. Bien que l’extension d’ID soit spécifiée pour toutes les demandes, elle concerna principalement cette troisième demande, puisque c’est la seule qui utilise des ID non liés à un cookie. En conséquence, cette demande recherchera également les ID de cookies associés à chaque appareil disposant de l’ID de gestion de la relation client spécifié ou de cette adresse e-mail, et elle s’étendra afin d’inclure aussi ces ID.
 
 Gardez à l’esprit que :
 

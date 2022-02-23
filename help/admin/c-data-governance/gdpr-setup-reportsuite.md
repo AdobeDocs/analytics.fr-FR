@@ -1,11 +1,10 @@
 ---
 description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les étiquettes et leurs définitions.
 title: Étiqueter les données d’une suite de rapports
-uuid: a694851c-8933-496e-9118-113cc38cba8a
+feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -64,7 +63,7 @@ ht-degree: 100%
 
 1. Cliquez sur **[!UICONTROL Appliquer]** lorsque vous avez entièrement terminé l’étiquetage.
 
-## Copier des étiquettes dans une ou plusieurs suites de rapports {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copier des étiquettes dans une ou plusieurs suites de rapports  {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des données à plusieurs suites de rapports, vous pouvez procéder comme suit :
 

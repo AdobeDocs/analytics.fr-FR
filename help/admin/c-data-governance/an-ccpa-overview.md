@@ -1,10 +1,10 @@
 ---
 description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos sujets des données.
 title: Adobe Analytics et le CCPA
-uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
+feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en cha
 
 >[!IMPORTANT]
 >
->Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le CCPA.
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à en remplacer un. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le CCPA.
 
 Le 1er janvier 2020, le California Consumer Privacy Act (CCPA), loi sur la confidentialité des données, entrera en vigueur. Pour plus d’informations sur la réponse d’Adobe et sur ce que cela signifie pour vous en tant que client Adobe, consultez [Adobe Privacy Center.](https://www.adobe.com/fr/privacy.html)
 
@@ -30,7 +30,7 @@ En tant que contrôleur des données, vous déterminez les données personnelles
 
 Adobe Cloud Platform (ACP) fournit une solution intégrée qui relie l’infrastructure de gouvernance des données de votre marque aux outils Adobe qu’elle utilise pour créer et gérer les expériences des consommateurs. Les fonctions de gouvernance des données d’Adobe Cloud Platform permettent d’établir un lien direct entre la politique de gouvernance des données et l’utilisation des données.
 
-Familiarisez-vous avec la section [Comment Adobe Analytics gère les données relatives au RGPD](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) qui explique les étapes nécessaires pour se préparer à la confidentialité et comment intégrer l’API relative aux services de confidentialité d’Adobe Experience Cloud.
+Familiarisez-vous avec la section [Comment Adobe Analytics gère les données relatives au RGPD](https://www.adobe.com/fr/data-analytics-cloud/analytics/general-data-protection-regulation.html) qui explique les étapes nécessaires pour se préparer à la confidentialité et comment intégrer l’API relative aux services de confidentialité d’Adobe Experience Cloud.
 
 ## Préparation au CCPA et vos données Adobe Analytics
 

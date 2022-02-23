@@ -1,13 +1,15 @@
 ---
 title: Notes de mise à jour 2019 d’Adobe Analytics (et versions antérieures)
 description: Notes de mise à jour 2019 d’Adobe Analytics
-source-git-commit: e86db2338ab3326106b006c251bb6f24347be2da
-workflow-type: ht
-source-wordcount: '16'
-ht-degree: 100%
+feature: Release Notes
+exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '18'
+ht-degree: 88%
 
 ---
 
-
 # Notes de mise à jour d’Adobe Analytics pour 2019 (et versions antérieures)
 
+Pour suivre

@@ -1,32 +1,35 @@
 ---
 description: Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
 title: Confidentialité des données et Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
+feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '436'
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
 
 # Confidentialité des données et Data Connectors (Genesis)
 
-Cette page répertorie toutes les variables partenaires de Data Connectors (précédemment connu sous le nom de Genesis) susceptibles de contenir des données directement ou indirectement identifiables du sujet de données.
+>[!NOTE]
+>
+>**À compter du 19 août 2021**, Adobe va interrompre les intégrations Data Connectors. La fin de vie fait partie du cycle de vie de tout produit technologique, et Adobe cherche à rendre la transition aussi transparente que possible pour ses clients et ses partenaires. Un grand nombre de ces intégrations sont disponibles via Adobe Exchange et peuvent continuer à être utilisées.
 
-Ces informations vous permettent d’identifier toute donnée directement ou indirectement identifiable importée via nos connecteurs lors de la réception d’une demande relative à la Confidentialité des données.
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
-Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous suffit de vérifier quelles variables/classifications partenaires de votre intégration peuvent potentiellement contenir des données directement ou indirectement identifiables.
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
+
+If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
 
 >[!NOTE]
 >
->Ces informations sont fournies pour vous aider à identifier les variables à [étiqueter](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), mais il vous incombe, en tant que contrôleur des données, d’appliquer les étiquettes appropriées ou de prendre d’autres mesures pour [vous préparer à la Confidentialité des données](/help/admin/c-data-governance/an-gdpr-overview.md) (mise à jour des classifications, etc.).
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nom du connecteur </th> 
+   <th colname="col1" class="entry"> Connector Name </th> 
    <th colname="col2" class="entry"> Variables </th> 
    <th colname="col4" class="entry"> Type </th> 
   </tr>
@@ -107,7 +110,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
-   <td colname="col2"> <p>Adresse électronique </p> <p>Customer Key </p> </td> 
+   <td colname="col2"> <p>Email Address </p> <p>Customer Key </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +129,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +168,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Recipient ID  -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -175,7 +178,7 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage (v2.0)</b> </p> </td> 
-   <td colname="col2"> <p>Silverpop ID </p> <p>Adresse électronique </p> </td> 
+   <td colname="col2"> <p>Silverpop ID </p> <p>Email Address </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -199,4 +202,4 @@ Si vous utilisez une intégration de l’un des connecteurs ci-dessous, il vous 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
+</table>-->

@@ -1,9 +1,10 @@
 ---
 description: Découvrez les directives et les recommandations concernant le consentement des utilisateurs quant au stockage ou à la lecture de cookies non essentiels sur des appareils ou des navigateurs.
 title: Quelles sont les directives de la CNIL concernant le consentement des utilisateurs et les cookies ?
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 
