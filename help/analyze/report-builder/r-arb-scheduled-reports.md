@@ -4,10 +4,10 @@ title: Gestionnaires des tâches planifiées
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 51%
+source-wordcount: '655'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ L’objectif de cette pause est de gérer et gérer efficacement notre base de d
 | [!UICONTROL Options de publication] | Cette colonne répertorie les Power BI si l’une des [Options de publication de Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) est sélectionnée. |
 | [!UICONTROL Planifier] | Type de la remise planifiée. |
 | [!UICONTROL Format du fichier] | Format de remise du rapport, tel que Excel, PDF, HTML, etc. |
-| [!UICONTROL Réactiver] | Si l’exécution d’un classeur planifié échoue, le Report Builder effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois tentatives infructueuses, le Report Builder désactive le planning et affiche le bouton Réactiver. Lorsque vous réactivez un classeur, la remise planifiée redémarre au niveau du point de désactivation.  Par exemple, si vous avez réactivé aujourd’hui un classeur planifié qui a été désactivé il y a 14 jours, il est exécuté et distribué 14 fois, soit 1 fois par jour de désactivation. Si vous ne souhaitez pas que la remise soit effectuée pour les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un nouveau en utilisant les mêmes paramètres de planification.   Remarque : il est déconseillé de réactiver un classeur, sauf si vous connaissez le motif de sa désactivation. Une méthode de dépannage consiste à télécharger un classeur désactivé, puis à l’actualiser sur le client. Si aucune erreur n’est détectée, vous devriez être en mesure de le réactiver. |
+| [!UICONTROL Réactiver] | Si l’exécution d’un classeur planifié échoue, le Report Builder effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois tentatives infructueuses, le Report Builder désactive le planning et affiche le bouton Réactiver. Lorsque vous réactivez un classeur, la remise planifiée redémarre au niveau du point de désactivation.<p>Par exemple, si vous avez réactivé aujourd’hui un classeur planifié qui a été désactivé il y a 14 jours, il est exécuté et distribué 14 fois, soit 1 fois par jour de désactivation. Si vous ne souhaitez pas que la remise soit effectuée pour les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un nouveau en utilisant les mêmes paramètres de planification.<p>**Remarque :** Ne réactivez pas un classeur, sauf si vous connaissez le motif de sa désactivation. Pour résoudre les problèmes, téléchargez un classeur désactivé et actualisez-le du côté client. Si aucune erreur n’est détectée, vous devriez être en mesure de le réactiver. |
 | [!UICONTROL Dernier envoi] | Date et heure auxquelles le rapport a été envoyé en dernier. |
 | Onglet **Destinataire** |  |
 | [!UICONTROL Courriel du destinataire] | Adresse e-mail du destinataire du rapport. |
