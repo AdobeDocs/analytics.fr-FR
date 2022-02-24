@@ -3,10 +3,10 @@ description: Le traitement de la période de rapport est un paramètre des suite
 title: Traitement de la période de rapport
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 100%
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ Le [!UICONTROL traitement de la période de rapport] est une manière fondamenta
 
 Cette architecture de traitement offre des options de création de rapports beaucoup plus flexibles. Par exemple, vous pouvez modifier le délai de visite de manière non destructive et ces modifications sont répercutées rétroactivement dans la persistance des eVars et les conteneurs de segments, comme si vous aviez appliqué ces paramètres avant la collecte des données. En outre, vous pouvez créer un nombre illimité de suites de rapports virtuelles, chacune avec des options de traitement de la période de rapport différentes, basées sur la même suite de rapports de base (parente), sans modifier les données de cette dernière.
 
-Le [!UICONTROL traitement de la période de rapport] permet également à Analytics d’empêcher les accès en arrière-plan de démarrer de nouvelles visites et autorise le [SDK Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html) à indiquer à la création de rapports de démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
+[!UICONTROL Traitement de la période de rapport] permet également à Analytics d’empêcher les accès en arrière-plan de commencer de nouvelles visites et permet à la variable [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html) pour indiquer à la création de rapports de démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
 
 ## Options de configuration
 
 Les options de configuration suivantes sont actuellement disponibles pour les suites de rapports virtuelles pour lesquelles le traitement de la période de rapport est activé :
 
 * **[!UICONTROL Délai de visite] :** le paramètre Délai de visite définit le délai d’inactivité d’un visiteur unique avant qu’une nouvelle visite ne soit lancée automatiquement. Par défaut, il est fixé à 30 minutes. Par exemple, si vous définissez le délai de visite sur 15 minutes, un nouveau groupe de visites est créé pour chaque séquence d’accès collectés, séparé par 15 minutes d’inactivité. Ce paramètre impacte non seulement le nombre de visites, mais également la manière dont les conteneurs de segments de visite sont évalués, ainsi que la logique d’expiration de la visite pour les eVars expirant lors de la visite. La réduction du délai de visite augmentera probablement le nombre total de visites dans les rapports, tandis que l’augmentation du délai de visite réduira probablement le nombre total de visites dans les rapports.
-* **[!UICONTROL Paramètres de visite pour les applications mobiles] :** pour les suites de rapports contenant des données générées par des applications mobiles via les [SDK Adobe Mobile](https://www.adobe.io/apis/cloudplatform/mobile.html), des paramètres de visite supplémentaires sont disponibles. Ces paramètres sont non destructifs et affectent uniquement les accès collectés via les SDK Mobile. Ces paramètres n’ont aucun impact sur les données collectées en dehors du SDK Mobile.
+* **[!UICONTROL Paramètres de visite pour les applications mobiles] :** pour les suites de rapports contenant des données générées par des applications mobiles via les [SDK Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html), des paramètres de visite supplémentaires sont disponibles. Ces paramètres sont non destructifs et affectent uniquement les accès collectés via les SDK Mobile. Ces paramètres n’ont aucun impact sur les données collectées en dehors du SDK Mobile.
 * **[!UICONTROL Empêcher les accès en arrière-plan de commencer une nouvelle visite] :** les accès en arrière-plan sont collectés par les SDK mobiles lorsque l’application est en arrière-plan.
 * **[!UICONTROL Démarrer de nouvelles visites à chaque lancement d’une application] :** en plus du délai de visite, vous pouvez forcer une visite à démarrer chaque fois qu’un événement de lancement d’application est enregistré depuis les SDK Mobile, quelle que soit la fenêtre d’inactivité. Ce paramètre affecte la mesure des visites et le conteneur de segments de visite, ainsi que la logique d’expiration de visite des eVars.
 * **[!UICONTROL Démarrer une nouvelle visite avec un événement] :** une nouvelle session démarre lorsqu’un événement est déclenché, qu’une session ait expiré ou non. La session nouvellement créée inclut l’événement à l’origine de son démarrage. De plus, vous pouvez utiliser plusieurs événements pour démarrer une session. Une nouvelle session se déclenche alors si l’un de ces événements est observé dans les données. Ce paramètre aura un impact sur le nombre de visites, sur le conteneur de segmentation des visites et sur la logique d’expiration de visite des eVars.

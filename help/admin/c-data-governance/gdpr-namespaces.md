@@ -3,10 +3,10 @@ description: Chaque ID que vous voulez pouvoir rechercher se voit attribuer un e
 title: Espaces de noms
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que v
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Pour plus de détails, voir la [documentation de l’API relative à la Confidentialité des données d’Adobe Experience Cloud](https://docs.adobe.com/content/help/fr-FR/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md).
+Pour plus de détails, voir la [documentation de l’API relative à la Confidentialité des données d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
 
 ## ID de cookie
 
@@ -74,7 +74,7 @@ Vous pouvez également utiliser `"namespaceId": 4` à la place ou en plus de `"n
 
 Si le format de la portion de valeur de l’un de ces identifiants de cookie ne respecte pas le format décrit pour cet identifiant, la demande relative à la Confidentialité des données échouera en indiquant l’erreur « Format de la valeur incorrect ».
 
-Vous collecterez le plus souvent ces ID de cookie en utilisant le nouveau [code JavaScript sur la confidentialité](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm), qui fournira automatiquement toutes les paires clé/valeur appropriées pour ces ID JSON.
+Vous collecterez le plus souvent ces ID de cookie en utilisant le nouveau [code JavaScript sur la confidentialité](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), qui fournira automatiquement toutes les paires clé/valeur appropriées pour ces ID JSON.
 
 Ce code JavaScript renseigne la configuration JSON avec d’autres paires clé/valeur que celles répertoriées ci-dessus (espace de noms, type, valeur), mais les champs répertoriés ci-dessus sont les plus importants pour le traitement en vertu de la Confidentialité des données d’Analytics et les seuls que vous devez fournir si vous collectez les ID d’une autre manière.
 

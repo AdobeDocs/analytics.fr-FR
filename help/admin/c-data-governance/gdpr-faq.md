@@ -3,10 +3,10 @@ description: FAQ sur la gouvernance des données Adobe Analytics
 title: Questions fréquentes
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Comment les clients Adobe (Contrôleurs de données) sauront-ils quelles demandes relatives à la Confidentialité des données mappent à quels ID dans Adobe Analytics en vue du traitement en vertu de la Confidentialité des données ?</b> </p> </td> 
-   <td colname="col2"> <p>Les contrôleurs de données détermineront comment résoudre la question de l’identité pour les demandes émanant des sujets des données. Envisagez de déployer la <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">balise de récupération des ID en vertu de la Confidentialité des données d’Adobe. </a> Vos équipes de développement gagneront du temps en utilisant notre balise de récupération des ID en vertu de la Confidentialité des données pour capturer les ID d’utilisateurs (ID de cookies), puis en utilisant notre API relative à la Confidentialité des données pour envoyer ceux-ci aux solutions appropriées dans Adobe Experience Cloud en vue du traitement des demandes relatives à la Confidentialité des données. </p> <p>L’API relative à la Confidentialité des données prend en charge un large éventail d’ID de clients dans de nombreuses solutions Adobe. Si un sujet de données soumet une demande avec un ID (variable personnalisée - prop ou eVar), Adobe Analytics effectue alors une recherche dans tout l’historique conservé des données collectées pour l’ID en question. Pour plus d’informations sur la configuration des ID personnalisés stockés dans les variables props ou eVars d’Analytics, reportez-vous à la documentation d’Analytics sur les <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Espaces de noms.</a>
+   <td colname="col2"> <p>Les contrôleurs de données détermineront comment résoudre la question de l’identité pour les demandes émanant des sujets des données. Envisagez de déployer la <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">balise de récupération des ID en vertu de la Confidentialité des données d’Adobe. </a> Vos équipes de développement gagneront du temps en utilisant notre balise de récupération des ID en vertu de la Confidentialité des données pour capturer les ID d’utilisateurs (ID de cookies), puis en utilisant notre API relative à la Confidentialité des données pour envoyer ceux-ci aux solutions appropriées dans Adobe Experience Cloud en vue du traitement des demandes relatives à la Confidentialité des données. </p> <p>L’API relative à la Confidentialité des données prend en charge un large éventail d’ID de clients dans de nombreuses solutions Adobe. Si un sujet de données soumet une demande avec un ID (variable personnalisée - prop ou eVar), Adobe Analytics effectue alors une recherche dans tout l’historique conservé des données collectées pour l’ID en question. Pour plus d’informations sur la configuration des ID personnalisés stockés dans les variables props ou eVars d’Analytics, reportez-vous à la documentation d’Analytics sur les <a href="/help/admin/c-data-governance/gdpr-namespaces.md">Espaces de noms.</a>
     </p> </td> 
   </tr> 
   <tr> 

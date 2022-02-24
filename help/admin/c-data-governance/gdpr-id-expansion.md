@@ -3,10 +3,10 @@ description: 'Les ID que vous soumettez ne couvrent pas toujours toutes les donn
 title: Extension d’ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 100%
+source-wordcount: '1358'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accè
 "expandIds": true
 ```
 
-Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) pour savoir comment inclure cette option à la demande. Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) pour savoir comment inclure cette option à la demande. Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -60,7 +60,7 @@ En plus de sa valeur par défaut, le champ Priorité prend également en charge 
 
 >[!NOTE]
 >
->L’[API Privacy Service](https://www.adobe.io/apis/experienceplatform/gdpr.html) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
+>L’[API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
 
 Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative aux Services de confidentialité ne convient pas à cet usage.
 
