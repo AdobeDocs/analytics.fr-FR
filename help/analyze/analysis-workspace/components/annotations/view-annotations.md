@@ -4,10 +4,10 @@ description: Comment afficher les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ Les annotations se présentent de manière légèrement différente, selon qu’
 | Date | Apparence |
 | --- | --- |
 | **Un seul jour** | ![](assets/single-day.png) |
-| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png)<p>Notez ce qui suit : les jours auxquels plusieurs annotations sont liées, l’icône est de couleur grise. |
+| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png)<p>Notez les points suivants : les jours auxquels plusieurs annotations sont liées, l’icône s’affiche en gris. |
 
 ## Affichage des annotations dans un graphique de synthèse
 
