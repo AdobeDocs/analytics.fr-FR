@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 79%
+source-wordcount: '305'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 Les annotations vous permettent de communiquer efficacement à votre organisation les nuances et insights concernant les données contextuelles. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
 
-Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si un pic de trafic important est dû à un événement de vente, vous pouvez créer une annotation &quot;Date de lancement de campagne&quot; et l’étendre à l’ensemble de la suite de rapports. Lorsque vos utilisateurs visualisaient des jeux de données incluant cette date, l’annotation apparaissait dans leurs projets, ainsi que leurs données.
+Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si vous constatez un pic de trafic important en raison d’une campagne marketing, vous pouvez créer une annotation &quot;Date de lancement de campagne&quot; et l’étendre à l’ensemble de la suite de rapports. Lorsque vos utilisateurs affichent des jeux de données qui ont inclus cette date, ils voient l’annotation dans leurs projets, ainsi que leurs données.
 
 ![](assets/multi-day.png)
 

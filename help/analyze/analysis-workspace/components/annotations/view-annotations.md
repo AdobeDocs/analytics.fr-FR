@@ -4,10 +4,10 @@ description: Comment afficher les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
+source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 66%
+source-wordcount: '228'
+ht-degree: 50%
 
 ---
 
@@ -23,8 +23,9 @@ Les annotations se présentent de manière légèrement différente, selon qu’
 
 | Date | Apparence |
 | --- | --- |
-| **Un seul jour** | ![](assets/single-day.png) |
-| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png)<p>Notez les points suivants : les jours auxquels plusieurs annotations sont liées, l’icône s’affiche en gris. |
+| **Un seul jour** | ![](assets/single-day.png)<p>Lorsque vous placez le pointeur de la souris sur l’annotation, vous pouvez en afficher les détails, la modifier en sélectionnant l’icône de stylo ou la supprimer :<p> ![](assets/hover.png) |
+| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Lorsque vous la sélectionnez dans le graphique en courbes, les métadonnées d’annotation s’affichent et vous pouvez les modifier ou les supprimer :![](assets/multi-hover.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png) |
+| **Chevauchement des annotations** | Les jours auxquels plusieurs annotations sont liées, l’icône s’affiche en gris.<p>![](assets/grey.png)<p>Lorsque vous passez la souris sur l’icône grise, toutes les annotations qui se chevauchent s’affichent :<p>![](assets/overlap.png) |
 
 ## Affichage des annotations dans un graphique de synthèse
 
