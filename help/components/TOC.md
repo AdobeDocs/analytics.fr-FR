@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
-user-guide-description: Vous aide à organiser vos données grâce à des composants tels que les segments, les mesures calculées, les suites de rapports virtuels et les alertes.
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: Permet de gérer vos données à l’aide de composants tels que les segments, les mesures calculées, les suites de rapports virtuelles, les alertes, les canaux marketing, les classifications et en savoir plus sur les analyses entre appareils.
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 99%
+source-wordcount: '674'
+ht-degree: 95%
 
 ---
 
