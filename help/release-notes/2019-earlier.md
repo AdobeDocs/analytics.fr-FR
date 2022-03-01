@@ -1,6 +1,6 @@
 ---
-title: Notes de mise à jour 2019 d’Adobe Analytics (et versions antérieures)
-description: Notes de mise à jour 2019 d’Adobe Analytics
+title: Notes de mise à jour 2019 (et antérieures) d’Adobe Analytics
+description: Notes de mise à jour 2019 d’Adobe Analytics
 solution: Analytics
 feature: Release Notes
 exl-id: 5f6822e9-895a-4285-8f30-48a2ed9f1f0a

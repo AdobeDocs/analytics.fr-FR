@@ -1,18 +1,18 @@
 ---
-description: Explique la stratégie de mise à jour continue des fonctionnalités d’Adobe Analytics
+description: Explique la stratégie de mise à jour continue des fonctionnalités pour Adobe Analytics
 title: Mises à jour des fonctionnalités Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Mises à jour des fonctionnalités Adobe Analytics
 
-Les versions d’Adobe Analytics fonctionnent sur un modèle de diffusion continu qui permet une approche plus évolutive et progressive du déploiement des fonctionnalités.
+Les versions dʼAdobe Analytics suivent un modèle de livraison continue, ce qui permet un déploiement plus flexible et progressif des fonctionnalités.
 
 ## Stratégie de mise à jour
 
