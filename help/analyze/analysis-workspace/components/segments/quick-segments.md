@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 100%
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Segments rapides
 
-* Sʼappliquent uniquement aux projets dans lesquels ils ont été créés (ce paramètre est modifiable).
+* Appliquer comme [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
 * Autorisent jusquʼà 3 règles.
 * Ne prennent pas en compte les conteneurs imbriqués ni les règles séquentielles.
-* Ils sont compatibles avec les projets comprenant plusieurs suites de rapports.
 
 Pour une comparaison des effets des segments rapides par rapport aux segments complets de la liste des composants, rendez-vous [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
-
->[!IMPORTANT]
-> Les segments rapides sont actuellement en test limité et seront mis à disposition de tous les utilisateurs le 21 octobre 2021.
 
 ## Conditions préalables
 
@@ -81,14 +77,16 @@ Le segment sʼaffiche en haut. Remarquez sa barre latérale rayée bleue, par op
 1. (Facultatif) Renommez le segment.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Notez que la barre latérale du segment passe du bleu rayé au bleu plein. Il apparaît désormais dans la liste de vos composants dans le rail de gauche.
+Notez que la barre latérale du segment passe du bleu rayé au bleu plein. Il apparaît également dans la liste des composants du rail de gauche.
 
 ## Que sont les segments réservés à un projet unique ?
 
-Les segments applicables au projet uniquement sont des segments rapides ou des segments de projet Espace de travail ad hoc. Lorsque vous les modifiez/ouvrez dans le [!UICONTROL Créateur de segments], la boîte « Sʼapplique au projet uniquement » sʼaffiche. Si vous APPLIQUEZ un segment rapide dans le créateur sans cocher la case Rendre disponible, il sʼagit toujours dʼun segment applicable au projet uniquement, mais il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapides].
+Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Elles sont destinées à une exploration rapide de vos données sans avoir à créer et enregistrer un segment dans le rail de gauche. Les segments de projet uniquement peuvent être créés dans la zone de dépôt du panneau avec les segments rapides ou [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+
+Si un segment de projet uniquement est ouvert dans la variable [!UICONTROL Créateur de segments], une notification de projet uniquement s’affiche. Si vous ne cochez pas la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL APPLIQUER]**, le segment reste un segment réservé au projet. Remarque : Si vous appliquez un segment rapide à partir du créateur de segments, il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapide].
 
 ![Case à cocher « Sʼapplique au projet uniquement » décochée](assets/project-only-unchecked.png)
 
-Si vous cochez la case et cliquez sur **[!UICONTROL ENREGISTRER]**, il sʼagit désormais dʼun segment de la liste des composants.
+Si vous cochez la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL ENREGISTRER]**, le segment devient disponible dans la liste des composants du rail de gauche pour être utilisé dans d’autres projets. Il peut également être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.
 
 ![Case à cocher « Sʼapplique au projet uniquement » cochée](assets/project-only-checked.png)
