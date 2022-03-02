@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 77a83fdb8d805f8a3ca6128a9a0d3628833eb863
+source-git-commit: e07f51764c6eeaccb56ce44df4a102e43fd44384
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (février 2022)
 
-**Dernière mise à jour** : le 25 février 2022
+**Dernière mise à jour**: 2 mars 2022
 
 Découvrez les dernières mises à jour de versions des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html). Obtenez les derniers cours, tutoriels et documentation d’aide autonome sur Experience League.
 
@@ -39,11 +39,11 @@ AN-268093 ; AN-273820 ; AN-274435 ; AN-274904 ; AN-275356 ; AN-275947 ; AN
 
 ## Avis importants destinés aux administrateurs d’[!DNL Analytics]
 
-**Mise à jour le 25 janvier 2022**
+**Mise à jour le 2 mars 2022**
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Modification de la manière dont Analytics gère les données A4T collectées via Experience Edge | 25 février 2022 | Activé **8 mars 2022**, nous allons modifier la manière dont nous gérons certaines données liées à Target envoyées à Adobe Analytics via Experience Edge. Lors de l’utilisation du SDK Web Adobe Experience Platform avec Analytics et Target, certains événements de personnalisation étaient comptabilisés dans [!DNL Adobe Analytics] as [!UICONTROL Pages vues]. Cela a entraîné une augmentation du nombre de pages vues et des appels au serveur supplémentaires. Avec cette modification, les appels de personnalisation sans contenu Analytics seront ignorés. Les appels de personnalisation contenant des données A4T enregistrent les données A4T, mais ne sont pas enregistrés en tant qu’appels serveur facturables, et n’auront pas d’impact sur les pages vues ou les mesures d’événement de lien. |
+| Modification de la manière dont Analytics gère les données A4T collectées via Experience Edge | 25 février 2022 | Activé **7 mars 2022**, nous allons modifier la manière dont nous gérons certaines données liées à Target envoyées à Adobe Analytics via Experience Edge. Lors de l’utilisation du SDK Web Adobe Experience Platform avec Analytics et Target, certains événements de personnalisation étaient comptabilisés dans [!DNL Adobe Analytics] as [!UICONTROL Pages vues]. Cela a entraîné une augmentation du nombre de pages vues et des appels au serveur supplémentaires. Avec cette modification, les appels de personnalisation sans contenu Analytics seront ignorés. Les appels de personnalisation contenant des données A4T enregistrent les données A4T, mais ne sont pas enregistrés en tant qu’appels serveur facturables, et n’auront pas d’impact sur les pages vues ou les mesures d’événement de lien. |
 | Suspension des tâches de Report Builder planifiées plus anciennes | 24 février 2022 | **Effectives le 15 avril 2022**, Adobe a l’intention de suspendre toutes les tâches de Report Builder planifiées qui ont été créées il y a plus de deux ans. Plus précisément, cette pause s’applique à toutes les tâches créées avant le 31 janvier 2020. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Toutefois, les tâches identifiées comme ayant plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée. [En savoir plus](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | Expiration de l’extension de fin de vie de liste autorisée pour les intégrations héritées OAuth/JWT d’Analytics | 14 janvier 2022 | Le **25 mai 2022**, lʼextension de liste autorisée de [fin de vie de lʼAPI Analytics 1.3, de lʼAPI SOAP 1.4 et des intégrations héritées OAuth/JWT d’Analytics](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) arrive à expiration. Cette extension visait à offrir aux clients utilisant des identifiants OAuth/JWT [!DNL Adobe Analytics] un délai supplémentaire pour migrer leurs intégrations clientes vers les [identifiants Adobe IMS](https://developer.adobe.com/console). Cette expiration affecte (sans toutefois s’y limiter) les clients d’[!DNL Adobe Analytics Livestream] et d’[!DNL Adobe Campaign] qui n’ont pas terminé leurs migrations IMS requises. Les clients qui utilisent actuellement les identifiants OAuth/JWT herités d’[!DNL Analytics] via l’extension de liste autorisée et qui ne terminent pas leur migration vers les identifiants IMS d’ici le 25 mai 2022 perdront l’accès aux services Adobe. Les clients Livestream peuvent se référer à ces [instructions](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) lors de la migration de leurs applications clientes vers les identifiants IMS. Les clients [!DNL Campaign] peuvent contacter leur équipe de compte Adobe pour effectuer la mise à niveau vers la dernière version de [!DNL Campaign]. |
 | Fin de vie de [!DNL Reports & Analytics] | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] repose sur des rapports, des visualisations et une technologie sous-jacente qui ne répondent plus aux normes technologiques d’Adobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
