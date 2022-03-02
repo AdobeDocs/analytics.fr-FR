@@ -3,17 +3,14 @@ title: Implémentation avec des balises dans Adobe Experience Platform
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '308'
 ht-degree: 100%
 
 ---
 
 # Implémentation avec des balises dans Adobe Experience Platform
-
->[!NOTE]
->Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour mettre en œuvre le code sur votre site pour la collecte de données. La méthode actuellement recommandée par Adobe est celle réalisée par le biais de balises dans Adobe Experience Platform.
 

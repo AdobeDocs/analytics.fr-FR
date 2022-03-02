@@ -3,10 +3,10 @@ title: Validation de la mise en œuvre d’un développement et publication en p
 description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 81%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 Une fois que votre bibliothèque de balises est envoyée en production, votre organisation peut commencer à utiliser Adobe Analytics pour extraire des rapports de base.
 
->[!NOTE]
->Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
-
 ## Conditions préalables
 
 [Déployez votre mise en œuvre d’Analytics dans votre environnement de développement](deploy-dev.md) : une mise en œuvre d’Analytics doit être publiée dans votre environnement de développement pour suivre cette page.
 
 ## Validez votre mise en œuvre de développement à l’aide du débogueur Experience Cloud.
 
-Le débogueur Experience Cloud est un plug-in Chrome qui affiche toutes les balises Experience Cloud présentes sur une page.
+Le débogueur Experience Cloud est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
 
-1. Ouvrez [le navigateur web Chrome](https://www.google.com/intl/fr/chrome/) et accédez à [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) sur le Chrome Web Store pour installer l’extension.
+1. Installez l’extension pour : [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou [Firefox](https://addons.mozilla.org/fr/firefox/addon/adobe-experience-platform-dbg/).
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
-3. Cliquez sur l’icône d’Adobe Experience Cloud Debugger dans l’angle supérieur droit de Chrome.
-4. Si tout est correctement implémenté, le contenu doit s’afficher dans Adobe Analytics, dans les balises et dans le service d’identification des visiteurs d’Adobe Experience Cloud :
-
-![débogueur][assets/debugger.png]
+3. Cliquez sur l’icône du débogueur Adobe Experience Cloud dans votre navigateur.
+4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
 
 ## Déployez votre mise en œuvre de développement vers l’évaluation/la production
 
-Une fois que vous avez validé les données affichées, vous pouvez transmettre votre mise en œuvre à la version en direct de votre site.
+Une fois que vous avez validé l’affichage des données, vous pouvez transmettre votre mise en oeuvre à la version en ligne de votre site.
 
 1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
@@ -45,7 +40,7 @@ Une fois que vous avez validé les données affichées, vous pouvez transmettre 
 1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
 1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et publier en production]**.
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
-1. Copiez le code d’en-tête de production + de pied de page et communiquez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
+1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 
 ## Validation de votre mise en œuvre de production
 
@@ -63,7 +58,7 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 * Il n’y a aucune erreur JavaScript dans la console. Consultez les propriétaires du site web de votre organisation pour vous assurer que toutes les erreurs JS sont résolues.
 * Le code d’en-tête est correctement mis en œuvre : assurez-vous que le code d’en-tête se trouve à l’intérieur de la balise `<head>` et que le fichier existe.
 * La bibliothèque AppMeasurement existe : accédez directement à la source JS pour vous assurer que le fichier JS contient du code. Dans le cas contraire, assurez-vous que chaque environnement est créé et que la bibliothèque est publiée dans son environnement respectif.
-* Plug-ins d’interférence : certains plug-ins Chrome peuvent empêcher les demandes d’images de s’exécuter. Désactivez les plug-ins susceptibles d’empêcher l’envoi de données aux serveurs d’Adobe.
+* Interfération d’extensions : Certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
 
 ## Étapes suivantes
 

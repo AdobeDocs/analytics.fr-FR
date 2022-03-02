@@ -3,19 +3,17 @@ title: Mappage des éléments de données de balises aux variables Analytics
 description: Attribuez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
+
 # Mappage des éléments de données de balises aux variables Analytics
 
 Une fois que vous disposez d’un référentiel d’éléments de données de balises, vous pouvez les attribuer aux dimensions Analytics.
-
->[!NOTE]
->Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 

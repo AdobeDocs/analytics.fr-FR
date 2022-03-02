@@ -3,9 +3,9 @@ title: Mise en correspondance des objets de couche de données avec les élémen
 description: Configurez les balises pour la lecture à partir de votre couche de données.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,6 @@ ht-degree: 100%
 # Mise en correspondance des objets de couche de données avec les éléments de données
 
 Une fois que votre organisation a établi et implémenté une couche de données sur votre site, vous pouvez mapper des objets de couche de données à des éléments de données au sein des balises.
-
->[!NOTE]
->Adobe Experience Platform Launch est désormais une suite de technologies destinées à la collecte de données dans Experience Platform. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. Reportez-vous au [document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=fr) suivant pour consulter une référence consolidée des modifications terminologiques.
 
 ## Conditions préalables
 

@@ -3,10 +3,10 @@ description: Créez un conteneur de base pour la collecte de données dans Adobe
 title: Création d’une suite de rapports
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 66%
+source-wordcount: '318'
+ht-degree: 59%
 
 ---
 
@@ -24,13 +24,13 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Cliquez sur **[!UICONTROL Nouveau]** > **[!UICONTROL Suite de rapports]**.
-1. Pour copier les paramètres d’une suite de rapports, sélectionnez dans la liste des modèles un modèle prédéfini ou une suite de rapports existante à utiliser comme [modèle.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+1. Sélectionnez un modèle prédéfini ou une suite de rapports existante à utiliser comme [modèle](../c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
    >
    >Seuls les paramètres peuvent être copiés, pas les données. Si le service à la clientèle copie les paramètres, vous devez fournir une confirmation écrite de la clause de non-responsabilité fournie par le service à la clientèle concernant les risques encourus. Voir [Paramètres non copiés depuis une suite de rapports source](/help/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) pour plus d’informations.
 
-1. Renseignez les champs décrits à la section [Nouvelle suite de rapports.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+1. Renseignez les champs décrits à la section [Nouvelle suite de rapports.](../c-new-report-suite/new-report-suite.md)
 1. Cliquez sur **[!UICONTROL Créer une suite de rapports]**.
 
 La longueur maximale d’un identifiant de suite de rapports est de 40 octets. Un nom convivial de suite de rapports a une longueur maximale de 255 octets.
@@ -41,10 +41,6 @@ La longueur maximale d’un identifiant de suite de rapports est de 40 octets. U
 
 Cela signifie que votre compte n’a pas reçu les autorisations appropriées pour Analytics. Collaborez avec un administrateur au niveau du système de votre entreprise pour vous assurer que vous appartenez à un profil doté des autorisations adéquates pour accéder à Adobe Analytics.
 
-**Une fois connecté à Adobe Analytics, la fenêtre contextuelle « Bienvenue dans Adobe Analytics » ne s’affiche pas.**
-
-Assurez-vous que vous êtes connecté via le [Experience Cloud](https://experience.adobe.com), et non via my.omniture.com. En effet, les utilisateurs qui se connectent via my.omniture.com ne disposent pas de l’assistant de configuration de suite de rapports.
-
 ## Étapes suivantes
 
-[Création d’une propriété de balise Adobe Analytics ](/help/implement/launch/create-analytics-property.md): Créer une zone pour gérer votre implémentation Analytics
+[Création d’une propriété de balise Adobe Analytics](/help/implement/launch/create-analytics-property.md): Créez une zone pour gérer votre mise en oeuvre Analytics.
