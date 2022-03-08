@@ -2,9 +2,9 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
+source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1941'
 ht-degree: 100%
 
 ---
@@ -122,7 +122,7 @@ Si un client passe à une version inférieure d’Ultimate, il n’aura plus acc
 
 ## Pourquoi le nombre total dʼaccès est-il différent entre ma suite de rapports source et la suite de rapports virtuelle CDA (Cross-Device Analytics, Analyses entre appareils) ?
 
-Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle CDA. Lʼimpact sur les fonctionnalités entre appareils est très réduit.
+Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle CDA.
 
 ## Pourquoi la mesure « Personnes identifiées » est-elle surévaluée ?
 
