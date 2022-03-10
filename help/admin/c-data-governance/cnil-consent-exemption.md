@@ -3,10 +3,10 @@ description: Découvrez les directives et les recommandations concernant le cons
 title: Quelles sont les directives de la CNIL concernant le consentement des utilisateurs et les cookies ?
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ Les Directives fournissent une exemption limitée à l’exigence de consentemen
 
 Il convient également de tenir compte des considérations suivantes :
 
+* Adobe Analytics exploite des centres de traitement de données aux États-Unis, au Royaume-Uni et à Singapour afin de fournir à tous les clients la flexibilité nécessaire pour collecter, traiter et stocker leurs données à l’échelle régionale. Lors de la configuration initiale d’Adobe Analytics, les clients sélectionnent l’emplacement de leur centre de traitement des données. Les données des clients sont finalement stockées dans leur région sélectionnée pour le produit Analytics principal.
 * Envisagez de collecter le statut de consentement dans une variable Analytics afin de séparer les données que lʼutilisateur accepte/refuse de partager pour la segmentation, les suites de rapports virtuelles ou pour les acheminer vers des points de terminaison distincts.
 * Aucune mesure en dehors du site ou de l’application sans consentement préalable ; par exemple aucune campagne hors site, campagne par e-mail ni iFrame.
 * La collecte d’informations personnelles dans des variables n’est pas autorisée sans le consentement de l’intéressé. [Contrôler les activités Experience Cloud en fonction du consentement de l’utilisateur](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=fr&quot;\l&quot;implementation#implementation)
