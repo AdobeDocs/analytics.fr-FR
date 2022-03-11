@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 97%
+source-wordcount: '1717'
+ht-degree: 89%
 
 ---
 
@@ -30,16 +30,16 @@ En raison des différences dans les mécanismes de traitement et les plateformes
 
 Ces limites s’appliquent aux rapports téléchargés et planifiés individuels. Les tableaux de bord sont limités au volume d’espace disponible au sein d’un petit rapport.
 
->[!NOTE]
->
->L’« heure de remise »/« heure de la journée » saisie par l’utilisateur indique l’heure à laquelle le traitement du rapport doit commencer et non pas l’heure à laquelle il sera livré. L’heure réelle à laquelle le rapport sera livré est principalement basée sur la durée du traitement (les rapports complexes et de grande taille ont un temps de traitement plus long que les rapports plus simples). Par exemple, si le traitement d’un rapport prend 15 minutes, alors l’heure de remise actuelle sera au moins 15 minutes après l’« heure de remise »/« heure de la journée » indiquée au départ.
->En outre, un certain nombre de facteurs peut contribuer à augmenter le retard avant la diffusion effective du rapport :
->
-> * **L’exécution simultanée de nombreuses planifications du même type** (par exemple, plusieurs tableaux de bord, etc.) peut entraîner une surcharge du système. Le système de planification ne permet que l’exécution simultanée de quelques rapports (entre 5 et 10) d’un même type. Ainsi, si entre 5 et 10 rapports sont planifiés en même temps, certains devront attendre dans une file d’attente que les autres rapports soient terminés avant que leur traitement ne débute. Il est possible de limiter ce problème en planifiant les rapports d’une entreprise de manière échelonnée tout au long de la journée ou de l’heure, plutôt que simultanément.
-> * En plus du type de rapport spécifique (Tableaux de bord, etc.), les rapports attendront également dans une file d’attente si l’entreprise a **plus de 15 à 20 rapports planifiés en même temps, quel que soit le type de rapports (parmi tous les types différents de rapports)**. Ceci peut être évité en échelonnant les heures de planification au lieu d’avoir plusieurs lancements en même temps.
-> * **Les problèmes sur les services en aval** sur lesquels le Planificateur compte peuvent également avoir des conséquences sur la diffusion des rapports. Par exemple, si vous utilisez indépendamment les API pour exécuter des rapports et remplir la file d’attente de requête API, alors la diffusion de vos rapports planifiés sera plus lente puisque les API sont en concurrence pour cette ressource.
-> * **La latence de suite de rapports** (un retard dans la collecte de données) peut également retarder certains rapports planifiés.
+## Heure de remise et heure de traitement
 
+L’&quot;heure de remise&quot; ou l’&quot;heure de la journée&quot; saisie par l’utilisateur indique l’heure à laquelle le traitement du rapport doit commencer, et non l’heure à laquelle il sera livré. La date de remise du rapport dépend principalement du temps nécessaire au traitement. Le traitement des rapports complexes et volumineux prend plus de temps que des rapports plus simples. Par exemple, si le traitement d’un rapport prend 15 minutes, l’heure de remise réelle sera au moins 15 minutes après l’&quot;heure de remise&quot; ou l’&quot;heure de la journée&quot; initialement spécifiée.
+
+En outre, un certain nombre de facteurs peut contribuer à augmenter le retard avant la diffusion effective du rapport :
+
+* **L’exécution simultanée de nombreuses planifications du même type** (par exemple, plusieurs tableaux de bord, etc.) peut entraîner une surcharge du système. Le système de planification ne permet l’exécution simultanée que de quelques rapports (5 à 10) de n’importe quel type. Lorsque plus de 5 à 10 rapports sont tous programmés à la fois, certains doivent attendre la fin d’autres rapports avant de pouvoir commencer le traitement. Il est possible de limiter ce problème en planifiant les rapports d’une entreprise de manière échelonnée tout au long de la journée ou de l’heure, plutôt que simultanément.
+* En plus du type de rapport spécifique (Tableaux de bord, etc.), les rapports attendront également dans une file d’attente si l’entreprise a **plus de 15 à 20 rapports planifiés en même temps, quel que soit le type de rapports (parmi tous les types différents de rapports)**. Ceci peut être évité en échelonnant les heures de planification au lieu d’avoir plusieurs lancements en même temps.
+* **Les problèmes sur les services en aval** sur lesquels le Planificateur compte peuvent également avoir des conséquences sur la diffusion des rapports. Par exemple, si vous utilisez indépendamment les API pour exécuter des rapports et remplir la file d’attente de requête API, alors la diffusion de vos rapports planifiés sera plus lente puisque les API sont en concurrence pour cette ressource.
+* **La latence de suite de rapports** (un retard dans la collecte de données) peut également retarder certains rapports planifiés.
 
 
 ## Envoi d’un rapport {#task_27642CD33D484FD0BF59EBD159EEF52C}
@@ -59,7 +59,7 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
 1. Cliquez sur **[!UICONTROL Options de remise avancées]** afin de préciser un calendrier de remise.
 
 | Option | Description |
-|--- |--- |
+| --- |--- |
 | Nom de fichier du rapport | Spécifie le nom du rapport. Le format par défaut est `<report name> for <suite> - <report date range>`. Pour définir un nom personnalisé, sélectionnez [!UICONTROL Personnalisé]. |
 | Format de rapport | Vous permet de définir les formats PDF, CSV, Excel, HTML, Word ou Mobile pour la remise. Si vous sélectionnez CSV, vous pouvez également définir le codage CSV :<ul><li>Shift-JIS : codage des caractères japonais.</li><li>EUC-JP : code Unix étendu, principalement pour le japonais, le coréen et le chinois simplifié.</li></ul> |
 | Contenu du rapport | <ul><li>Nombre de lignes dans la table : définit le nombre de lignes visibles dans le tableau du rapport que vous envoyez.</li><li>Langue de l’en-tête et du pied de page : définit la langue de l’en-tête et du pied de page.</li><li>Commentaires : spécifie le texte qui apparaît au début du rapport.</li></ul> |
@@ -119,7 +119,7 @@ Cette section décrit la procédure à suivre pour partager un rapport en géné
 
 Lorsque le destinataire clique sur le lien, le système demande les informations de connexion (nom de l’entreprise, nom d’utilisateur et mot de passe). Après identification, le destinataire voit s’afficher le rapport généré par l’utilisateur initial. Des restrictions d’autorisation standard s’appliquent.
 
-**Pour partager un lien vers un rapport**
+Pour partager un lien vers un rapport,
 
 1. Exécutez un rapport.
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Lien vers ce rapport]**.
