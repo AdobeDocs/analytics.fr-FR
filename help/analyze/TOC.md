@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Instructions pratiques pour Analysis Workspace, l’outil d’analyse et de visualisation idéal pour Analytics, ainsi que des outils tels que les tableaux de bord, le Report Builder et le Activity Map Adobe Analytics.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1039'
 ht-degree: 96%
 
 ---
@@ -92,8 +92,8 @@ ht-degree: 96%
       + [Panneau d’attribution](analysis-workspace/c-panels/attribution.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panneau Audience moyenne par minute du média](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [Panneau des visionneuses simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [Panneau Audience moyenne par minute de média](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [Panneau Observateurs simultanés de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Durée de lecture des médias {#media-playback-timespent}
          + [Présentation](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Paramètres d’entrée et de sortie](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [Adobe Analytics pour iOS](reports-analytics/overview/app-ios.md)
    + [Paramètres d’affichage des rapports et navigation](reports-analytics/report-settings.md)
    + [Planification et distribution des rapports](reports-analytics/scheduling.md)
+   + [Avis de fin de vie pour les rapports planifiés](reports-analytics/scheduled-reports-eol.md)
    + [Types de rapports](reports-analytics/reports.md)
    + [Exécution de différents types de rapports](reports-analytics/t-running-report-types.md)
    + Personnalisation des rapports {#customize-reports}
