@@ -4,7 +4,7 @@ description: Comment gérer les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 0d20c6debdb71b86aefa43e78900453f15d83e8f
+source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 65%
@@ -60,7 +60,9 @@ Lors du partage d’annotations ou de l’utilisation d’annotations partagées
 
 ## Annotations et fuseaux horaires
 
-Toutes les annotations sont créées avec un horodatage, mais aucune information sur les heures ou les fuseaux horaires. Au moment du rapport, le fuseau horaire de la suite de rapports du panneau est toujours appliqué. Ainsi, une annotation créée pour le jour de Noël a lieu le 25 décembre, quel que soit le fuseau horaire de la suite de rapports dans laquelle vous vous trouvez. Autre exemple : le Nouvel An. Chaque heure, un fuseau horaire différent déclenche des feux d&#39;artifice au début de l&#39;année. A 10h heure des Rocheuses, la côte Est des États-Unis est en train de déclencher des feux car il est déjà 12h heure de l&#39;Est.
+Toutes les annotations sont créées avec un horodatage, mais aucune information sur les heures ou les fuseaux horaires. Au moment du rapport, le fuseau horaire de la suite de rapports du panneau est toujours appliqué. Ainsi, une annotation créée pour le jour de Noël a lieu le 25 décembre, quel que soit le fuseau horaire de la suite de rapports dans laquelle vous vous trouvez.
+
+Autre exemple : le Nouvel An. Chaque heure, un fuseau horaire différent déclenche des feux d&#39;artifice au début de l&#39;année. A 10h heure des Rocheuses, la côte Est des États-Unis est en train de déclencher des feux car il est déjà 12h heure de l&#39;Est.
 
 ## Autres tâches d’annotation
 
