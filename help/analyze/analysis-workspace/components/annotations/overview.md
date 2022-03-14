@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
+source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 80%
+source-wordcount: '307'
+ht-degree: 74%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 >
 >Cette fonctionnalité fait actuellement l’objet de tests limités.
 
-Les annotations vous permettent de communiquer efficacement à votre organisation les nuances et insights concernant les données contextuelles. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
+Les annotations dans Workspace vous permettent de communiquer efficacement des nuances de données contextuelles et des informations à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
 
 Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si vous constatez un pic de trafic important en raison d’une campagne marketing, vous pouvez créer une annotation &quot;Date de lancement de campagne&quot; et l’étendre à l’ensemble de la suite de rapports. Lorsque vos utilisateurs affichent des jeux de données qui ont inclus cette date, ils voient l’annotation dans leurs projets, ainsi que leurs données.
 
