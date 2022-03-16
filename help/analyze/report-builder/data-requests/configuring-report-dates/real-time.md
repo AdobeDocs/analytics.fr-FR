@@ -1,13 +1,13 @@
 ---
 description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
-title: Rapports en temps réel
+title: Rapports en temps réel de la validation
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '260'
 ht-degree: 94%
 
 ---

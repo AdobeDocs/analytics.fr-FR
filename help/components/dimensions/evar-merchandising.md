@@ -1,12 +1,12 @@
 ---
-title: eVar (marchandisage)
+title: eVar (marchandisage) pour les Dimensions
 description: Variables personnalisées liées à la dimension des produits.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 

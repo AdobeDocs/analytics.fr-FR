@@ -1,12 +1,12 @@
 ---
 description: Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
-title: Événements du calendrier
-feature: Concepts de base de Reports & Analytics
+title: Événements du calendrier de la validation
+feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '341'
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
