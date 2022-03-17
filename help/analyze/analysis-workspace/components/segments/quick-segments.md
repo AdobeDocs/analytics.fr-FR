@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ Le segment sʼaffiche en haut. Remarquez sa barre latérale rayée bleue, par op
 1. (Facultatif) Renommez le segment.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Notez que la barre latérale du segment passe du bleu rayé au bleu plein. Il apparaît également dans la liste des composants du rail de gauche.
+La barre latérale du segment passe du bleu réparti par bandes au bleu plus clair. Il apparaît également dans la liste des composants du rail de gauche.
 
 ## Que sont les segments réservés à un projet unique ?
 
