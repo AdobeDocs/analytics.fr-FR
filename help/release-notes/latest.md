@@ -3,14 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '888'
 ht-degree: 52%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (mars 2022)
+
+**Dernière mise à jour : 21 mars 2022**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 52%
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
 | Annotations dans Workspace | Les annotations dans Workspace vous permettent de communiquer efficacement des nuances de données contextuelles et des informations à votre organisation. [En savoir plus](/help/analyze/analysis-workspace/components/annotations/overview.md) | 23 mars 2022 |
-| Mises à jour des landing pages Adobe Analytics | Mises à jour de la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliorent la convivialité et facilitent la navigation. [En savoir plus](/help/analyze/landing.md) | À déterminer |
+| Mises à jour des landing pages Adobe Analytics | Mises à jour de la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliorent la convivialité et facilitent la navigation. [En savoir plus](/help/analyze/landing.md) | 1er avril 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
