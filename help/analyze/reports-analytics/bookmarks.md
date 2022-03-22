@@ -3,12 +3,12 @@ description: Les signets permettent d’accéder aux rapports les plus utilisés
 subtopic: Bookmarks
 title: Gestionnaire de signets
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '326'
 ht-degree: 98%
 
 ---
@@ -29,12 +29,12 @@ t_bookmarks_creating.xml
 
 1. Exécutez un rapport, puis cliquez sur **[!UICONTROL Mettre un signet]**.
 
-       |Nom|Un nom d’utilisateur facile à retenir pour ce signet.|
-       |---|---|
-       |Ajoutez à|Indique le dossier dans lequel vous souhaitez placer le signet.|
-       |Rendre public| Met ce signet à la disposition des utilisateurs ayant accès à la suite de rapports.|
-       |Afficher le rapport lors de la connexion| Affiche le rapport lorsque vous vous connectez.|
-   
+   | Nom | Nom facile à retenir pour ce signet. |
+   |---|---|
+   | Ajouter à | Indique le dossier dans lequel vous souhaitez placer le signet. |
+   | Rendre public | Met ce signet à la disposition des utilisateurs ayant accès à la suite de rapports. |
+   | Afficher le rapport lors de la connexion | Affiche le rapport lorsque vous vous connectez. |
+
 ## Gestion des signets {#task_1EE793CB52EA467787817BBD98DEF150}
 
 Une fois les signets du rapport créés, vous pouvez les gérer dans le [!UICONTROL Gestionnaire de signets]. Vous pouvez modifier, supprimer et classer les signets et dossiers à partir d’un seul et même emplacement. 
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL Composants]**  >  **[!UICONTROL Tous les composants]**  >  **[!UICONTROL Signets]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Signets]**.
 
 **Mes signets**
 
