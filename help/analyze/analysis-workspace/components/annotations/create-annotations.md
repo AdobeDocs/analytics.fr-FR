@@ -4,10 +4,10 @@ description: Comment créer des annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ce2e7352793384e2b7561498cbbaae973c661e66
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 59%
+source-wordcount: '597'
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->Cette fonctionnalité fait actuellement l’objet de tests limités.
+>Le déploiement progressif de cette fonctionnalité commence le 23 mars 2022. Disponibilité générale : 11 avril 2022.
 
 1. Pour créer des annotations, vous pouvez commencer de plusieurs façons :
 

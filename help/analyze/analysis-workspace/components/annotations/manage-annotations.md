@@ -4,10 +4,10 @@ description: Comment gérer les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 75cf6b9898e4afd1f10d7ee2f08f148219965343
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 65%
+source-wordcount: '687'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Cette fonctionnalité fait actuellement l’objet de tests limités.
+>Le déploiement progressif de cette fonctionnalité commence le 23 mars 2022. Disponibilité générale : 11 avril 2022.
 
 Le gestionnaire [!UICONTROL Composants] > [!UICONTROL Annotations] offre de nombreuses façons de gérer les annotations, comme le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 
