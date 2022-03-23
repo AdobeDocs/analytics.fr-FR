@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: a2d3336ec89823a764ce073526836b6af70f0b76
+source-git-commit: 00577a87f1f6ec69619dd17f18597dabe4c59bd2
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 96%
+source-wordcount: '1521'
+ht-degree: 91%
 
 ---
 
@@ -88,3 +88,4 @@ Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en 
 * **eVars de non-marchandisage/eVars réservés** : les valeurs définies dans une eVar ne sont conservées que si la valeur a été définie dans la plage de dates de création de rapports en raison du fenêtrage de dates de l’option Traitement de la période de rapport. En outre, les expirations basées sur le temps peuvent expirer une heure plus tôt ou une heure en retard si la persistance chevauche un passage à l’heure d’été/d’hiver.
 * **eVars de marchandisage/eVars réservées :** voir ci-dessus. De plus, pour la syntaxe de la conversion pour laquelle la liaison est définie sur « any event », « any hit » est utilisé à la place.
 * **Type d’accès** : cette dimension indique si un accès est de premier plan ou en arrière-plan.
+* **Dimensions avec (faible trafic) ou &quot;Valeurs uniques dépassées&quot; :** L’élément de ligne (Faible trafic) est déterminé légèrement différemment lors de l’utilisation du traitement de la période de rapport. Il n’est pas garanti qu’il corresponde à ce qui est observé lors de la création de rapports sur la suite de rapports de base. De plus, il n’est pas garanti que les éléments de ligne de dimension qui ne font pas partie d’un faible trafic représentent 100 % des données de cet élément de ligne, contrairement à une suite de rapports de base. Ces différences deviennent plus prononcées car plus le nombre de valeurs uniques existe dans une dimension.
