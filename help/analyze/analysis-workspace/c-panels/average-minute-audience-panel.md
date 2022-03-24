@@ -1,28 +1,25 @@
 ---
-title: Panneau Audience moyenne par minute du média
+title: Panneau Audience moyenne par minute de média
 description: Utilisation et interprétation du panneau Audience moyenne par minute du média dans Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 86f546da8a5eaded5abb4ee2ce8d4a536818574a
+source-git-commit: 31228b1a2e19a6b83dd7b5cbbde0f5692b0b8fc5
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 11%
+source-wordcount: '1313'
+ht-degree: 26%
 
 ---
 
-# Panneau Audience moyenne par minute du média
 
->[!NOTE]
->
->Cette fonctionnalité fait actuellement l’objet de tests limités.
+# Panneau Audience moyenne par minute de média
 
-Les clients Media Analytics peuvent utiliser le panneau d’audience de minute moyenne pour mieux comprendre la consommation moyenne de leur contenu. Une audience de moyenne minute permet de comparer des programmes de n’importe quelle longueur ou genre. En outre, les clients peuvent comparer ou ajouter cette audience numérique de moyenne par minute aux mesures de moyenne par minute de la télévision linéaire. Ce panneau offre davantage de flexibilité pour mesurer l’audience moyenne pour des périodes personnalisées, ainsi que le moment où la classification de durée a été mise à jour après coup. La mesure d’audience moyenne actuelle ne fonctionne que si la durée est disponible au moment du traitement.
+Le panneau dʼaudience moyenne par minute permet aux clients Media Analytics de mieux comprendre la consommation de leur contenu en moyenne. Lʼaudience moyenne par minute permet de comparer des programmes de toute longueur ou de tout genre. En outre, les clients peuvent comparer ou ajouter cette audience numérique moyenne par minute aux mesures moyennes par minute de la télévision linéaire. Ce panneau offre plus de flexibilité pour mesurer l’audience moyenne pour des périodes personnalisées, ainsi que lorsque la classification de la durée a été mise à jour après coup. La mesure d’audience moyenne par minute actuelle ne fonctionne que si la durée est disponible au moment du traitement.
 
-Dans Analysis Workspace, l’audience par minute moyenne correspond au temps passé à visionner votre flux multimédia, divisé par la durée du contenu ou la sélection totale de la période et de la granularité sélectionnée.
+Dans Analysis Workspace, l’audience moyenne par minute correspond au temps passé à regarder votre flux multimédia divisé par la durée du contenu ou la sélection totale de la période et de la granularité sélectionnée.
 
-Le panneau Audience moyenne par minute du média fournit une analyse de l’audience par minute moyenne selon le contenu spécifique sélectionné si la durée est rendue disponible à l’aide des classifications.
-Le panneau Audience moyenne par minute fournit également des analyses sur une période sélectionnée qui peuvent être filtrées selon du contenu spécifique, que la durée soit disponible ou non à l’aide de classifications. Pour accéder au panneau Audience moyenne par minute du média, accédez à une suite de rapports avec les composants Media Analytics activés. Cliquez ensuite sur l’icône du panneau située à l’extrémité gauche et faites glisser le panneau dans votre projet Analysis Workspace.
+Le panneau Audience moyenne par minute de média fournit une analyse de l’audience moyenne par minute pour le contenu spécifique sélectionné, si la durée est disponible à l’aide des classifications.
+Le panneau Audience moyenne par minute fournit également une analyse sur une période sélectionnée qui peut être filtrée par un contenu spécifique, que la durée soit disponible ou non à l’aide des classifications. Pour afficher le panneau Audience moyenne par minute de média, accédez à une suite de rapports dont les composants Media Analytics sont activés. Cliquez ensuite sur l’icône du panneau située à l’extrémité gauche et faites glisser le panneau dans votre projet Analysis Workspace.
 
 <!-- For more information, see the Media Average Minute Audience introduction video:
 << replace with AMA video when available >> -->
