@@ -1,45 +1,44 @@
 ---
-description: Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport.
+description: Lorsqu’un rapport comporte un grand nombre de valeurs uniques, Adobe utilise l’élément de dimension Faible trafic pour améliorer les performances du rapport.
 title: Valeur de faible trafic dans Adobe Analytics
 feature: Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e087c50784a99eb4e664021b243ad38c3b95e538
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 47%
 
 ---
 
 # Valeur de faible trafic dans Adobe Analytics
 
-Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous l’élément de ligne **[!UICONTROL Faible trafic]**.
+Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionnalités permettant de veiller à ce que les valeurs les plus importantes apparaissent dans ce rapport. Les valeurs de variable uniques collectées après environ 500 000 valeurs existantes sont répertoriées sous un élément de dimension intitulé **[!UICONTROL Faible trafic]**.
 
 ## Fonctionnement du [!UICONTROL Faible trafic]
 
 * La création de rapports n’est pas affectée si la variable n’atteint pas 500 000 valeurs uniques au cours d’un mois donné.
-* Lorsqu’une variable atteint ce premier seuil de 500 000 valeurs, les données commencent à être groupées dans un compartiment à trafic faible. Chaque valeur dépassant ce seuil suit la logique suivante :
+* Lorsqu’une variable atteint 500 000 valeurs uniques, les données commencent à être regroupées sous [!UICONTROL Faible trafic]. Chaque valeur dépassant ce seuil suit la logique suivante :
    * Si une valeur figure déjà dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur ne figure pas encore dans les rapports, elle apparaîtra sur l’élément de ligne [!UICONTROL Faible trafic]. Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle commence à être reconnue comme son propre élément de ligne Le nombre significatif de fois où un élément doit apparaître comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de daemons qui traitent les données pour cette suite de rapports spécifique.
-* Si une suite de rapports atteint plus de 1 000 000 de valeurs uniques, un filtrage plus agressif est appliqué :
-   * Si une valeur figure déjà dans les rapports, ajoutez-la comme d’habitude.
-   * Si une valeur ne figure pas encore dans les rapports, elle apparaîtra sur l’élément de ligne [!UICONTROL Faible trafic]. Si une valeur qui a été incluse dans l’élément de ligne [!UICONTROL Faible trafic] est vue un nombre important de fois en peu de temps, elle commence à être reconnue comme son propre élément de ligne Le nombre significatif de fois où un élément doit apparaître comporte de nombreuses dépendances, telles que le nombre de serveurs de traitement et de daemons qui traitent les données pour cette suite de rapports spécifique.
+   * Si une valeur n’est pas encore affichée dans les rapports, elle est initialement regroupée dans la variable [!UICONTROL Faible trafic] élément de dimension.
+   * Si une valeur est regroupée sous [!UICONTROL Faible trafic] apparaît quelque part à deux chiffres au cours de ce mois-ci, il commence à être reconnu comme son propre élément de dimension. Les instances collectées avant d’atteindre le seuil restent inférieures à [!UICONTROL Faible trafic]. Le seuil exact comporte de nombreuses dépendances, telles que le nombre de serveurs qui traitent les données pour la suite de rapports et le temps entre chaque instance d’élément de dimension.
+* Si une suite de rapports atteint plus de 1 000 000 valeurs uniques, un filtrage plus agressif est appliqué. Les valeurs uniques nécessitent des instances à trois chiffres avant d’être reconnues comme son propre élément de dimension.
 
-Pourquoi Adobe déplace-t-il un élément de la ligne [!UICONTROL Faible trafic] vers son propre élément de ligne ? Par exemple, ce déplacement peut être dû à la reconnaissance d’une nouvelle page ou d’un nouvel élément populaire qui a été ajouté plus tard dans le mois (après le dépassement des valeurs uniques) et qui obtient de nombreux accès/vues. Le déplacement n’est pas destiné à capturer tout ce qui reçoit un certain nombre d’accès/vues par jour ou par mois.
+Cette logique permet à l’Adobe d’optimiser les fonctionnalités de création de rapports tout en permettant à votre entreprise de créer des rapports sur les éléments de dimension cruciaux collectés plus tard dans le mois. Par exemple, votre entreprise gère un site contenant des millions d’articles. Un nouvel article est devenu populaire à la fin du mois (après avoir dépassé les deux seuils uniques). Vous pouvez toujours analyser les performances de cet article sans qu’il soit regroupé sous [!UICONTROL Faible trafic]. Notez que cette logique n’est pas destinée à supprimer le regroupement de tout ce qui obtient un certain nombre de pages vues par jour ou par mois.
 
 >[!NOTE]
->Le nombre de recherches de pages n’inclut pas uniquement les valeurs de [!UICONTROL pagename]/[!UICONTROL page_url]. Le tableau de recherches de pages comprend plusieurs colonnes/champs tels que [!UICONTROL pagename], [!UICONTROL first_hit_pagename]/[!UICONTROL page_url], [!UICONTROL visit_pagename]/[!UICONTROL page_url] et le contexte de clic (anciennes données Clickmap).
+>Le [Page](../components/dimensions/page.md) La dimension utilise plusieurs colonnes du serveur principal qui sont toutes prises en compte pour les seuils uniques, y compris `pagename`, `page_url`, `first_hit_pagename`, `first_hit_page_url`, `visit_pagename`, `visit_page_url`, et `click_context`. Ces colonnes peuvent provoquer [!UICONTROL Faible trafic] s’appliquer bien avant que le nombre d’éléments de dimension Page uniques dans Workspace n’atteigne 500 000.
 
 ## Modification des seuils de limite uniques
 
-Par défaut, les limites correspondent à 500 000 et à 1 million de valeurs uniques. Ces limites peuvent être modifiées selon chaque variable. Contactez le gestionnaire de compte de votre organisation pour demander cette modification. Lorsque vous demandez une modification, incluez :
+Par défaut, les limites correspondent à 500 000 et à 1 million de valeurs uniques. Ces limites peuvent être modifiées selon chaque variable. Contactez le service à la clientèle d’Adobe ou le gestionnaire de compte de votre entreprise pour demander cette modification. Lorsque vous demandez une modification, incluez :
 
 * l’identifiant de la suite de rapports ;
 * la variable pour laquelle vous souhaitez augmenter le seuil ;
 * les premier et second seuils souhaités.
 
-Les modifications de seuils peuvent avoir un impact sur les performances des rapports. Adobe conseille de faire preuve de prudence avant de demander une augmentation de valeurs uniques dans une variable.
+Les modifications de seuils peuvent avoir un impact sur les performances des rapports. Adobe conseille de faire preuve de prudence avant de demander une augmentation de valeurs uniques dans une variable. Augmentez uniquement les limites uniques pour les variables qui sont essentielles aux besoins de création de rapports de votre entreprise.
 
-Les seuils de faible trafic ne sont pas visibles dans l’interface utilisateur d’Analytics. Si vous souhaitez plus d’informations sur les seuils existants, demandez à un utilisateur habilité de votre organisation de contacter l’assistance clientèle d’Adobe.
+Les seuils de faible trafic ne sont pas visibles dans l’interface utilisateur d’Analytics. Contactez l’assistance clientèle d’Adobe si vous souhaitez plus d’informations sur les seuils existants.
 
 ## Composants à faible trafic et autres fonctionnalités
 
