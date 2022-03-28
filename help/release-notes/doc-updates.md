@@ -4,10 +4,10 @@ description: Mises à jour notables de l’ensemble de documentation Adobe Analy
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 96%
+source-wordcount: '3169'
+ht-degree: 93%
 
 ---
 
@@ -24,13 +24,16 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Date | Description |
 | --- | --- |
 | **Mars 2022** |  |
+| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;. |
 | Nouvelle documentation sur les annotations dans Workspace | [Annotations dans Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement des nuances et des informations sur les données contextuelles à votre organisation. |
 | Mises à jour des landing pages Adobe Analytics | [Mises à jour](/help/analyze/landing.md) à la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliore la convivialité et la facilité de navigation. |
 | [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] Panneau Espace de travail | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
 | [!UICONTROL Résumé de la page] Panneau Espace de travail | Ce panneau fournit une analyse approfondie d’une page de votre choix. |
-| **Février 2022** |  |
+| Nouvelle rubrique sur la mise en pause des rapports planifiés plus anciens | Efficace **15 avril 2022**, l’Adobe a l’intention de [suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans ;](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| **Février 2022** |
 | Mode de prévisualisation du projet de cartes de performance mobile | Le [mode aperçu](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une fiche d’évaluation. |
 | Point de terminaison des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API . [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Mise à jour de la rubrique sur la mise en pause d’anciennes tâches de Report Builder planifiées | **Effectives le 15 avril 2022**, l’Adobe a l’intention de [mettre en pause toutes les tâches de Report Builder planifiées qui ont été créées il y a plus de deux ans ;](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octobre 2021** |  |
 | 21 Octobre 2021 | Nouvelle documentation sur les [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) dans Analysis Workspace. |
 | 21 Octobre 2021 | Nouvelle documentation dans le panneau [Durée de lecture des médias](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=fr) dans Analysis Workspace. |
@@ -133,7 +136,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 25 octobre 2019 | Mise à jour de la page [Concepts clés d’Adobe Analytics](/help/technotes/terms.md). |
 | 10 octobre 2019 | Mise à jour des totaux des tableaux à structure libre : ils comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=fr) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
 | 10 octobre 2019 | Dans Espace de travail, la possibilité de supprimer facilement « Non spécifié (aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
-| 10 octobre 2019 | Dans Espace de travail, les composants de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Plages de dates]**. |
+| 10 octobre 2019 | Dans Espace de travail, les composants de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Périodes]**. |
 | 1 octobre 2019 | Nouvel article sur les [Totaux Espace de travail](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr#cja-workspace). |
 | 28 septembre 2019 | Nouveaux articles sur [les variables de configuration pour l’implémentation JavaScript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 septembre 2019 | Révision de la documentation sur la segmentation afin d’expliquer les [conteneurs Groupe logique](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=fr#logic-group-containers). |

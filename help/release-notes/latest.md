@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1102'
 ht-degree: 42%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 42%
 * Correction de problèmes liés au panneau Espace de travail A4T. (AN-281594 ; AN-282418)
 * Correction d’un problème en raison duquel certains utilisateurs ne pouvaient pas accéder à Adobe Analytics. (AN-282776)
 * Correction de problèmes en raison desquels certaines suites de rapports nouvellement créées ne collectaient pas de données. (AN-283114, AN-283311)
-* Correction de problèmes liés à l’impossibilité de détecter Win11 à l’aide de la dimension Système d’exploitation . (AN-275569, AN-275727; AN-280335)
 * Correction de problèmes liés aux messages électroniques de flux de données incorrectement envoyés. (AN-280255 ; AN-282051)
 
 
