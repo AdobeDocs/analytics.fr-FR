@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0eb88df05909be28877ac266655f7959cc086044
+source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 46%
+source-wordcount: '1115'
+ht-degree: 42%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (mars 2022)
 
-**Dernière mise à jour : 23 mars 2022**
+**Dernière mise à jour : 28 mars 2022**
 
 * Pour les notes de mise à jour de février 2022, accédez à [here](/help/release-notes/2022.md).
 * Découvrez les dernières mises à jour de versions des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html). Obtenez les derniers cours, tutoriels et documentation d’aide autonome sur Experience League.
@@ -47,6 +47,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| Mise à jour des méthodes de chiffrement de navigateur prises en charge pour certains clients | 28 mars 2022 | Adobe offre deux niveaux de sécurité de chiffrement pour répondre aux besoins divers des clients en matière de sécurité dans la collecte de données propriétaires. Activé **23 juin 2022** nous supprimerons la prise en charge de certains algorithmes de chiffrement HTTPS, appelés chiffrements, pour les clients dont le niveau de sécurité est défini sur &quot;Élevé&quot;. Cela signifie que certains systèmes d’exploitation plus anciens ne pourront plus envoyer de données à Analytics, car ils ne prennent pas en charge les méthodes de chiffrement modernes. Les clients qui utilisent les paramètres de sécurité du chiffrement standard par défaut ne seront pas affectés. Tous les clients utilisant actuellement le paramètre &quot;Élevé&quot; ont déjà été contactés directement. Vous trouverez une liste détaillée des chiffrements affectés par cette modification. [here](/help/technotes/rdc/encryption-algos.md). |
 | Suspension des rapports planifiés plus anciens | 11 mars 2022 | Efficace **15 avril 2022**, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (créés avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | Mises à jour des zones géographiques ISO 2022 | 11 mars 2021 | Adobe effectuera des mises à jour de région ISO 2022 sur **10 juin 2022**. Attendez-vous à voir des mises à jour mineures après cette version. |
 | Modification de la manière dont Analytics gère les données A4T collectées via Experience Edge | 25 février 2022 | Activé **7 mars 2022**, nous avons modifié la manière dont nous gérons certaines données liées à Target envoyées à Adobe Analytics via Experience Edge. Lors de l’utilisation du SDK Web Adobe Experience Platform avec Analytics et Target, certains événements de personnalisation étaient comptabilisés dans [!DNL Adobe Analytics] as [!UICONTROL Pages vues]. Cela a entraîné une augmentation du nombre de pages vues et des appels au serveur supplémentaires. Avec la modification, les appels de personnalisation sans contenu Analytics sont ignorés. Les appels de personnalisation contenant des données A4T enregistrent les données A4T, mais ne sont pas enregistrés en tant qu’appels serveur facturables, et n’auront pas d’impact sur les pages vues ou les mesures d’événement de lien. |
