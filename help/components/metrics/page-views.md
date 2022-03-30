@@ -1,16 +1,16 @@
 ---
-title: 'Mesure Pages vues expliquée | Adobe Analytics '
-description: Découvrez comment la mesure relative aux vues de page est traitée dans Adobe Analytics et saisissez également la différence entre les vues de page et les visites.
+title: Pages vues
+description: Nombre de fois où un élément de dimension a été défini ou conservé dans Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 39%
 
 ---
 
-# En savoir plus sur les Vues de page avec Adobe Analytics
+# Pages vues
 
 La mesure « Pages vues » indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
 
@@ -20,5 +20,5 @@ Cette mesure comptabilise tous les appels de suivi de page vue ([`t()`](/help/im
 
 ## Comparaison avec des mesures similaires
 
-* **Pages vues par rapport aux [visites](visits.md)** : les pages vues comptabilisent le nombre de fois où une page est consultée. Les visites comptabilisent le nombre de sessions des visiteurs. Une visite consiste en une ou plusieurs pages.
-* **Pages vues par rapport aux [événements de page](page-events.md)** : les pages vues comptabilisent le nombre d’appels de suivi de page vue (`t()`) et excluent les appels de suivi des liens (`tl()`). Les événements de page ont un fonctionnement contraire : ils comptabilisent le nombre d’appels de suivi des liens et excluent les pages vues.
+* **Pages vues par rapport à [Visites](visits.md)**: Les pages vues comptabilisent le nombre de fois où une page est consultée. Les visites comptabilisent le nombre de sessions des visiteurs. Une visite consiste en une ou plusieurs pages vues.
+* **Pages vues par rapport à [Événements de page](page-events.md)**: Les pages vues comptabilisent le nombre d’appels de suivi de pages vues (`t()`) et exclut les appels de suivi des liens (`tl()`). Les événements de page sont l’inverse. ils comptabilisent le nombre d’appels de suivi de liens et excluent les appels de suivi de pages vues.
