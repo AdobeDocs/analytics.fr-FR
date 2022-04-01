@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2665aadca6d11aca99bfc522f9f7e54311dadf77
+source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1138'
 ht-degree: 41%
 
 ---
@@ -49,7 +49,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Modification de la manière dont Analytics gère les données A4T collectées via Experience Edge | 31 mars 2022 | Activé **7 mars 2022**, nous avons modifié la manière dont nous gérons certains appels provenant d’Experience Edge qui incluent du contenu Target destiné aux rapports A4T. À compter du 7 mars, tous les accès avec du contenu de rapport A4T ont été modifiés afin qu’ils n’aient pas été traités comme des événements de page vue ou de lien. **À compter du 31 mars 2022**, nous avons modifié notre logique pour qu’elle soit plus sélective, de sorte que les événements Page vue et Clic standard ne soient pas modifiés. À l’avenir, les seuls événements qui seront modifiés seront les appels de personnalisation uniquement qui auront uniquement du contenu A4T. |
+| Modification de la manière dont Analytics gère les données A4T collectées via Experience Edge | 31 mars 2022 | Activé **7 mars 2022**, nous avons modifié la manière dont nous gérons certains appels provenant d’Experience Edge qui incluent du contenu Target destiné aux rapports Analytics for Target (A4T). À compter du 7 mars, tous les accès avec du contenu de rapport A4T ont été modifiés afin qu’ils n’aient pas été traités comme des événements de page vue ou de lien. **À compter du 31 mars 2022**, nous avons modifié notre logique pour qu’elle soit plus sélective, de sorte que les événements Page vue et Clic standard ne soient pas modifiés. À l’avenir, les seuls événements qui seront modifiés seront les appels de personnalisation uniquement qui auront uniquement du contenu A4T. |
 | Mise à jour des méthodes de chiffrement de navigateur prises en charge pour certains clients | 28 mars 2022 | Adobe offre deux niveaux de sécurité de chiffrement pour répondre aux besoins divers des clients en matière de sécurité dans la collecte de données propriétaires. Activé **23 juin 2022** nous supprimerons la prise en charge de certains algorithmes de chiffrement HTTPS, appelés chiffrements, pour les clients dont le niveau de sécurité est défini sur &quot;Élevé&quot;. Cela signifie que certains systèmes d’exploitation plus anciens ne pourront plus envoyer de données à Analytics, car ils ne prennent pas en charge les méthodes de chiffrement modernes. Les clients qui utilisent les paramètres de sécurité du chiffrement standard par défaut ne seront pas affectés. Tous les clients utilisant actuellement le paramètre &quot;Élevé&quot; ont déjà été contactés directement. Vous trouverez une liste détaillée des chiffrements affectés par cette modification. [here](/help/technotes/rdc/encryption-algos.md). |
 | Suspension des rapports planifiés plus anciens | 11 mars 2022 | Efficace **15 avril 2022**, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (créés avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | Mises à jour des zones géographiques ISO 2022 | 11 mars 2021 | Adobe effectuera des mises à jour de région ISO 2022 sur **10 juin 2022**. Des mises à jour mineures des informations géographiques sont attendues à cette version. |

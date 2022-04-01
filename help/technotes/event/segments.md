@@ -2,7 +2,7 @@
 title: Exclusion de dates spécifiques dans l’analyse
 description: Conseils pour exclure les dates ou plages de dates si vous ne souhaitez pas les inclure dans les rapports.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
-source-git-commit: 84f00a330334d6f4272f35140da0fecbf43622c9
+source-git-commit: d03206b127e16cbb98d1318b0acc6c304f91ca48
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 Si vous disposez de données [impact d’un événement](overview.md), vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par les événements peut empêcher votre entreprise de prendre des décisions sur des données partielles.
 
-## Isoler les jours concernés
+## Isoler les jours concernés {#isolate}
 
 Créez un segment qui isole le jour ou la période affecté. Ce segment est utile si vous souhaitez vous concentrer uniquement sur les jours problématiques pour afficher plus d’informations sur son impact.
 
@@ -31,7 +31,7 @@ Adobe recommande d’utiliser les composants de dimension de dimension orange, e
 
 ![Exclure le type de jour du segment](assets/exclude_segment_day_type.jpg)
 
-## Exclure les jours concernés
+## Exclure les jours concernés {#exclude}
 
 Créez un segment qui exclut le jour ou la période concerné. Ce segment est utile si vous souhaitez exclure les jours qui ont rencontré des problèmes afin de minimiser l’impact sur les rapports globaux.
 
@@ -46,7 +46,7 @@ Créez un segment qui exclut le jour ou la période concerné. Ce segment est ut
 
 Une fois le segment d’exclusion créé, vous pouvez l’utiliser exactement comme vous le feriez pour d’autres segments.
 
-### Comparaison de segments dans un rapport de tendances
+### Comparaison de segments dans un rapport de tendances {#compare}
 
 Vous pouvez appliquer les segments &quot;Jours affectés&quot; et &quot;Exclure les jours affectés&quot; dans un rapport afin de les comparer côte à côte. Faites glisser les deux segments au-dessus ou au-dessous d’une mesure pour les comparer :
 
@@ -60,7 +60,7 @@ Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisation
 
 ![Interpréter zéro](assets/interpret_zero.png)
 
-### Application du segment d’exclusion à un projet
+### Application du segment d’exclusion à un projet {#apply}
 
 Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un projet Workspace. Faites glisser le segment d’exclusion vers la section de canevas de Workspace intitulée *Déposer un segment ici*.
 
@@ -70,9 +70,9 @@ Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un p
 
 ![Segment appliqué à un panneau](assets/exclude_segment_panel.jpg)
 
-### Utilisation du segment d’exclusion dans une suite de rapports virtuelle
+### Utilisation du segment d’exclusion dans une suite de rapports virtuelle {#use-vrs}
 
-Vous pouvez utiliser le segment dans une [Suite de rapports virtuelle](/help/components/vrs/vrs-about.md) pour exclure plus facilement les données. Cette option est idéale dans la mesure où vous n’avez pas à vous rappeler d’appliquer le segment pour chaque rapport qui inclut la période affectée. Si vous utilisez déjà des suites de rapports virtuelles comme Principale source de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
+Vous pouvez utiliser le segment dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) pour exclure plus facilement les données. Cette option est idéale dans la mesure où vous n’avez pas à vous rappeler d’appliquer le segment pour chaque rapport qui inclut la période affectée. Si vous utilisez déjà des suites de rapports virtuelles comme Principale source de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
 
 1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 2. Cliquez sur **[!UICONTROL Ajouter]**.
