@@ -3,10 +3,10 @@ description: Comment télécharger des fichiers de données via FTP.
 title: Importation FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ Pour plus d’informations sur la création d’un compte FTP, consultez    [Cr�
    Le fichier FIN est un fichier vide qui porte le même nom que votre fichier de données et qui est doté de l’extension de fichier [!DNL .fin]. Par exemple, si votre fichier de données se nomme [!DNL classdata1.tab], le nom du fichier est [!DNL classdata1.fin] .fin.
 
 À intervalles réguliers, Adobe récupère les fichiers de données chargés auxquels un fichier FIN est associé. Adobe les importe ensuite dans les suites de rapports et dans les ensembles de données spécifiés dans la configuration du compte FTP.
+
+Une fois les fichiers lus et traités par Adobe Analytics transférés dans le dossier FTP, les fichiers sont automatiquement supprimés.
 
 ## Créer un compte FTP {#task_C019268E6C934C7C95F4326F42A22CCF}
 
