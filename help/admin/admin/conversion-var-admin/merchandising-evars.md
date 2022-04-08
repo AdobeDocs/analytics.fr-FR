@@ -4,7 +4,7 @@ description: Analyse approfondie des concepts sous-jacents aux eVars de marchand
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Pour plus d’informations sur ces paramètres, reportez-vous aux sections situ�
 |--- | --- |
 | Nom | Nom ou dimension de compte rendu des performances à laquelle la variable doit être associée. Si la variable `eVar1` est destinée à capturer les méthodes de recherche de produit, alors le champ Nom de `eVar1` doit être défini sur « Méthodes de recherche de produit ». |
 | Marchandisage | Type de syntaxe à utiliser pour capturer les valeurs de l’eVar de marchandisage. |
-| Attribution | Permet de déterminer la valeur de l’eVar de marchandisage qui doit être créditée lorsqu’un événement réussi se produit. |
+| Affectation | Permet de déterminer la valeur de l’eVar de marchandisage qui doit être créditée lorsqu’un événement réussi se produit. |
 | Expire après | Détermine le moment où les liaisons existantes d’eVar de marchandisage et de produit doivent cesser de fonctionner. |
 | Type | Type de données collectées dans l’eVar de marchandisage. |
 | Événement de liaison de marchandisage | Événement(s) déterminant le moment où un produit doit être lié à une valeur d’eVar de marchandisage. |
@@ -98,7 +98,7 @@ Les eVars de marchandisage configurées pour utiliser la Syntaxe du produit sont
 
 Notez que des espaces réservés délimités par des points-virgules sont toujours présents pour les parties de la variable products relatives à la quantité, au chiffre d’affaires et aux événements.  Sans ces espaces réservés, le paramètre `eVar1` de la recherche interne par mot-clé serait complètement ignoré.
 
-### Attribution
+### Affectation
 
 Le terme « Affectation » pour les eVars de marchandisage est trompeur, en particulier pour les eVars de marchandisage qui utilisent la syntaxe de la variable de conversion. Toutes les eVars standards peuvent avoir leur propre paramètre d’affectation individuel. Cependant, les eVars de marchandisage avec syntaxe de variable de conversion utilisent uniquement le paramètre d’affectation « Le dernier », quels que soient les paramètres d’affectation affichés dans le Gestionnaire de suites de rapports.
 
