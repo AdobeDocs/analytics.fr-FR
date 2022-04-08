@@ -4,7 +4,7 @@ description: État américain du visiteur.
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La dimension « État américain » indique l’état américain du visiteur. 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://info.digitalelement.com/fr/) pour gérer les recherches entre l’adresse IP et le pays. Cette dimension est prête à l’emploi pour toutes les implémentations.
+Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://www.digitalelement.com/) pour gérer les recherches entre l’adresse IP et le pays. Cette dimension est prête à l’emploi pour toutes les implémentations.
 
 ## Éléments de dimension
 
