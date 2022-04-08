@@ -4,7 +4,7 @@ description: Permet de vérifier si une valeur est contenue dans une autre valeu
 feature: Variables
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## Utilisation du plug-in
 
-La fonction `inList` renvoie une valeur booléenne selon ses entrées. Elle utilise les arguments suivants :
+La fonction `inList` renvoie une valeur booléenne selon ses entrées. Elle utilise les arguments suivants :
 
 * **`lv`** (obligatoire, chaîne ou tableau) : liste délimitée de valeurs ou objet Array de JavaScript à rechercher.
 * **`vtc`** (obligatoire, chaîne) : valeur à rechercher.
