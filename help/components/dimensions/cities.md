@@ -4,7 +4,7 @@ description: Ville d’où provient l’accès.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La dimension « Villes » indique la ville d’où provient l’accès. Cette 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://info.digitalelement.com/fr/) pour gérer les recherches entre l’adresse IP et la ville. Cette dimension est prête à l’emploi pour toutes les implémentations.
+Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://www.digitalelement.com/) pour gérer les recherches entre l’adresse IP et la ville. Cette dimension est prête à l’emploi pour toutes les implémentations.
 
 ## Éléments de dimension
 
