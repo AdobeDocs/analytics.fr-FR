@@ -1,11 +1,11 @@
 ---
-description: Décrit les étapes d’application de filtres à un rapport Abandon.
+description: Décrit les étapes d’application de filtres à un rapport sur les abandons.
 title: Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête
 
-Décrit les étapes d’application de filtres à un rapport Abandon.
+Décrit les étapes d’application de filtres à un rapport sur les abandons.
 
 Cet exemple affiche le rapport Page - Abandon.
 
