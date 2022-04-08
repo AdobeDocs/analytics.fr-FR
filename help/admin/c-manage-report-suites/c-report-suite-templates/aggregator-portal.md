@@ -4,7 +4,7 @@ title: Portail d’agrégation
 feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
 ht-degree: 100%
 
@@ -12,9 +12,9 @@ ht-degree: 100%
 
 # Portail d’agrégation
 
-Définit des paramètres courants pour un site web qui regroupe du contenu, tel qu’un portail d’actualités.
+Définit des paramètres courants pour un site Web qui regroupe du contenu, tel qu’un portail d’actualités.
 
-| Variables de conversion | Type | Sous-relations | Attribution | Expiration | Variable `s_code` |
+| Variables de conversion | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
 | Campagne interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
 | Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |
