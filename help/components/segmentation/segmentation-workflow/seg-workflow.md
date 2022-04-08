@@ -4,7 +4,7 @@ title: Workflow de segmentation - Aperçu
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Voir la   liste de contrôle de la planification des segments pour obtenir de l�
 
 Créez et modifiez des segments pour une utilisation dans toutes les fonctionnalités d’Analytics.
 
-Voir   [Créer des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur ALORS.
+Voir   [Créer des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md) pour voir comment créer des segments avec l’opérateur THEN.
 
 ![](assets/step3_icon.png) [ Balisage des segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
