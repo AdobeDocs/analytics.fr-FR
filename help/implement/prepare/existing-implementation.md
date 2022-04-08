@@ -4,7 +4,7 @@ description: Instructions destinées aux administrateurs qui découvrent une imp
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ Consultez les conseils de Sarah Owen, qui est également propriétaire technique
 
 Voir également :
 
-* [Liste de contrôle de la « Révision ciblée » pour une révision de votre implémentation après chaque publication de site web](/help/implement/review/focused-review.md)
-* [Liste de contrôle « Révision intégrale » pour une révision de votre implémentation conduite tous les 6 mois](/help/implement/review/full-review.md)
-* [Définition des 5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md)
+* [Liste de contrôle de la « Révision ciblée » pour une révision de votre implémentation après chaque publication de site Web](/help/implement/review/focused-review.md)
+* [Liste de contrôle « Révision intégrale » pour une révision de votre implémentation conduite tous les 6 mois](/help/implement/review/full-review.md)
+* [Définir les 5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md)
