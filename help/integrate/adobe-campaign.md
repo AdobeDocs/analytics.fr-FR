@@ -4,7 +4,7 @@ title: Comment intégrer le compte rendu des performances Adobe Campaign dans Ad
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Cette intégration entre Adobe Analytics et Adobe Campaign
 * ajoute 6 nouvelles dimensions Adobe Campaign ;
 * synchronise les données avec Analytics toutes les 15 minutes.
 
-## Étape 1. Activation des rapports Adobe Campaign {#section_C685EF10505045708A6536BB13F6CD58}
+## Étape 1. Activer les rapports Adobe Campaign {#section_C685EF10505045708A6536BB13F6CD58}
 
 Pour afficher les données de Campaign dans Analytics, vous devez d’abord activer les rapports Campaign.
 
@@ -33,7 +33,7 @@ Pour afficher les données de Campaign dans Analytics, vous devez d’abord acti
 
    ![](assets/enable-campaign.png)
 
-## Étape 2. Affichage des rapports Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
+## Étape 2. Afficher les rapports Adobe Campaign {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
 L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**
 
@@ -41,7 +41,7 @@ L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le r
 |--- |--- |
 | Adobe Campaign Identifiant Diffusion exécutée | Affiche les données importées depuis Adobe Campaign relatives à des e-mails envoyés depuis Adobe Campaign. |
 
-## Étape 3. Utilisation des classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## Étape 3. Utiliser les classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Classifications Adobe Campaign]**
 
