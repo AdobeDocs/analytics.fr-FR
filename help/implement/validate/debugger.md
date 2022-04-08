@@ -4,7 +4,7 @@ description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogu
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Chaque navigateur gère les signets de différentes manières, mais le concept e
 
 #### Chrome
 
-Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
+Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr), le signet d’applet du débogueur hérité peut être utilisé à la place.
 
 1. Cliquez sur les trois points en haut à droite, puis sélectionnez Signets > Gestionnaire de signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Dans le coin supérieur droit du gestionnaire de signets, cliquez sur les trois points, puis cliquez sur Ajouter un nouveau signet.
