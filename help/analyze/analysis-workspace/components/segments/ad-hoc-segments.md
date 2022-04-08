@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Regardez cette vidéo sur la création de segments de projet ad hoc :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Déplacez un type de composant (dimension, élément de dimension, événement, mesure, segment, modèle de segments, période) dans la zone de dépôt des segments en haut dʼun panneau. Les types de composants sont automatiquement convertis en segments ad hoc ou [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) si compatible.
+1. Déplacez un type de composant (dimension, élément de dimension, événement, mesure, segment, modèle de segments, période) dans la zone de dépôt des segments en haut dʼun panneau. Les types de composants sont automatiquement convertis en segments ad hoc ou [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) si compatible.
 Regardez cet exemple sur la création dʼun segment pour le domaine référent Twitter :
 
    ![](assets/ad-hoc1.png)

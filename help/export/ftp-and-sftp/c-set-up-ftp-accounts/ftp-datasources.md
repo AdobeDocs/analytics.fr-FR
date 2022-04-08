@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Dans la fenêtre [!UICONTROL Gérer les sources de données], recherchez votre s
 
 Pour en savoir plus sur les limites FTP et la conservation des données, voir  [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## Fichier .fin pour les transferts de classifications et de sources de données {#section_1484719F8A134EAE91212DBD8F15174F}
+## Fichier .fin pour les chargements de classifications et de sources de données {#section_1484719F8A134EAE91212DBD8F15174F}
 
 Lorsque vous transférez un fichier de classifications ou de [!UICONTROL source de données] ([!DNL .tab] ou [!DNL .txt]), vous devez également transférer un fichier vide portant le même nom que le fichier de données importé, mais avec une extension [!DNL .fin]. Ce fichier [!DNL .fin] est un fichier de finition. Il indique au système que le fichier de données a été entièrement transféré sur le compte FTP. Ce fichier [!DNL .fin] permet à Adobe de reconnaître quand l’importation est terminée. Après l’avoir soumis, Adobe supprime les deux fichiers du FTP et commence à traiter l’importation.
 Importer un fichier : [!DNL Classifications.tab]

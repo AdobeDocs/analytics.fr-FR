@@ -6,8 +6,8 @@ feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Q : Pourquoi est-il indiqué « Limite d’audience atteinte » dans mon rapport Analytics ? (Remarque : il sera également représenté sous la forme ID d’audience = -1 et "::max_audiences_exceeded::" en Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>Q : Pourquoi est-il indiqué « Limite d’audience atteinte » dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et « ::max_audiences_exceeded:: » dans Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>Par défaut, l’intégration Audience Analytics pour AAM envoie à Analytics tous les segments pour lesquels un visiteur est admissible, accès par accès. Si un visiteur appartient à plus de 150 segments AAM au cours d’un même accès, les <b>150 segments les plus récemment qualifiés</b> sont envoyés à Analytics, tandis que la liste des segments restants est tronquée. </p> <p>Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience. </p> <p>Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités : </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b> : Continuez de laisser l’intégration fonctionner dans sa version prête à l’emploi, qui envoie les 150 segments les plus récemment qualifiés pour un visiteur particulier. </li> 

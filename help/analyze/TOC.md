@@ -3,19 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
-user-guide-description: Instructions pratiques pour Analysis Workspace, l’outil d’analyse et de visualisation idéal pour Analytics, ainsi que des outils tels que les tableaux de bord, le Report Builder et le Activity Map Adobe Analytics.
+user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, lʼoutil principal dʼanalyse et de visualisation dʼAnalytics, ainsi que des outils tels que les tableaux de bord Adobe Analytics, Report Builder et Activity Map.
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Guide des outils Adobe Analytics {#analyze}
+# Guide sur les outils Adobe Analytics {#analyze}
 
 + [Guide sur les outils Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + [Landing page](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
@@ -44,8 +44,8 @@ ht-degree: 96%
          + [Création de segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segments rapides](analysis-workspace/components/segments/quick-segments.md)
          + [Segments ad hoc](analysis-workspace/components/segments/ad-hoc-segments.md)
-      + Calendrier et plages de dates {#calendar-date-ranges}
-         + [Calendrier et plages de dates - Aperçu](analysis-workspace/components/calendar-date-ranges/calendar.md)
+      + Calendrier et périodes {#calendar-date-ranges}
+         + [Calendrier et périodes - Aperçu](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Création de périodes personnalisées](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
    + Visualisations {#visualizations}
@@ -161,7 +161,7 @@ ht-degree: 96%
          + [Sélectionnez une suite de rapports à partir d’une requête existante dans Excel.](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestion des segments](report-builder/data-requests/segmentation.md)
-      + [Autorisation des remplacements de la liste de publication](report-builder/data-requests/allow-publishing-list-overrides.md)
+      + [Autoriser les remplacements de la liste de publication](report-builder/data-requests/allow-publishing-list-overrides.md)
       + Types de rapports {#report-types}
          + [Types de rapports - Aperçu](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Rapports Chemin et Abandon de chemin dans le Report Builder](report-builder/data-requests/c-report-types/report-path-fallout.md)
@@ -170,9 +170,9 @@ ht-degree: 96%
          + [Filtrage des rapports Chemin en ajoutant des requêtes dépendantes](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [Sélection d’un type de rapport](report-builder/data-requests/c-report-types/t-select-report-type.md)
       + [Importation de rapports marqués d’un signet et de mini-rapports de tableau de bord](report-builder/data-requests/import-bookmarked.md)
-      + Plages de dates {#date-ranges}
+      + Périodes {#date-ranges}
          + [Définitions de l’Assistant Requête - Dates préconfigurées](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
-         + [Dates fixes et plages de dates enregistrées](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
+         + [Dates fixes et périodes enregistrées](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
          + [Définitions de l’Assistant Requête - Dates fixes](report-builder/data-requests/configuring-report-dates/r-arb-fixed-dates.md)
          + [Dates roulantes](report-builder/data-requests/configuring-report-dates/t-rolling-dates.md)
          + [Définitions de l’Assistant Requête - Dates roulantes](report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
@@ -182,7 +182,7 @@ ht-degree: 96%
             + [Expressions de dates personnalisées - Aperçu](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [Abréviations des dates](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [Dates de début ou de fin individuelles](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
-            + [Exemples de plages de dates utilisant des expressions personnalisées](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
+            + [Exemples de périodes utilisant des expressions personnalisées](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [Considérations](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [Dates à partir d’une cellule](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
          + [Granularité](report-builder/data-requests/configuring-report-dates/granularity.md)

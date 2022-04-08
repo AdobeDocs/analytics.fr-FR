@@ -5,8 +5,8 @@ feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 1. Donnez un nom à votre propriété, comme le titre de votre site web, et saisissez le domaine sur lequel vous envisagez de mettre en œuvre Analytics. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Cliquez sur la propriété de balise que vous venez de créer pour en saisir les paramètres.
 1. Cliquez sur l’onglet **[!UICONTROL Extensions]**, puis sur **[!UICONTROL Catalogue]**.
-1. Recherchez &quot;Service d’ID Experience Cloud&quot;, puis cliquez sur **[!UICONTROL Installer]**.
+1. Recherchez « Experience Cloud ID Service », puis cliquez sur **[!UICONTROL Installer]**.
 1. Tous les paramètres, y compris l’identifiant d’organisation Experience Cloud, doivent être déjà renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans le catalogue des extensions, recherchez Adobe Analytics et cliquez sur **[!UICONTROL Installer]**.
 

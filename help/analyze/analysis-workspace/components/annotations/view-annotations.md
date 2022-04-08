@@ -6,8 +6,8 @@ feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ Les annotations se présentent de manière légèrement différente, selon qu’
 
 | Date | Apparence |
 | --- | --- |
-| **Un seul jour** | ![](assets/single-day.png)<p>Lorsque vous placez le pointeur de la souris sur l’annotation, vous pouvez en afficher les détails, la modifier en sélectionnant l’icône de stylo ou la supprimer :<p> ![](assets/hover.png) |
-| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Lorsque vous la sélectionnez dans le graphique en courbes, les métadonnées d’annotation s’affichent et vous pouvez les modifier ou les supprimer :![](assets/multi-hover.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png) |
-| **Chevauchement des annotations** | Les jours auxquels plusieurs annotations sont liées, l’icône s’affiche en gris.<p>![](assets/grey.png)<p>Lorsque vous passez la souris sur l’icône grise, toutes les annotations qui se chevauchent s’affichent :<p>![](assets/overlap.png) |
+| **Un seul jour** | ![](assets/single-day.png)<p>Lorsque vous pointez sur l’annotation, des options permettant dʼafficher les détails, de la modifier (via lʼicône de stylo) ou de la supprimer apparaissent :<p> ![](assets/hover.png) |
+| **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Lorsque vous la sélectionnez dans le graphique linéaire, les métadonnées de l’annotation apparaissent et vous pouvez les modifier ou les supprimer :![](assets/multi-hover.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png) |
+| **Annotations qui se chevauchent** | Les jours auxquels plusieurs annotations sont liées comportent une icône de couleur grise.<p>![](assets/grey.png)<p>Lorsque vous pointez sur l’icône grise, toutes les annotations qui se chevauchent s’affichent :<p>![](assets/overlap.png) |
 
 ## Affichage des annotations dans un fichier .pdf
 
@@ -35,7 +35,7 @@ Puisque vous ne pouvez pas pointer sur les icônes dans un fichier .pdf, ce fich
 
 ## Affichage des annotations avec des données non de tendance
 
-Parfois, les annotations s’affichent avec des données qui ne correspondent pas à des tendances, mais qui sont liées à une dimension spécifique. Dans ce cas, elles apparaissent uniquement dans une annotation récapitulative dans le coin inférieur droit. Voici un exemple :
+Parfois, les annotations s’affichent avec des données qui ne correspondent pas à des tendances, mais qui sont liées à une dimension spécifique. Ces annotations sont affichées sous la forme dʼune annotation sommaire, dans le coin inférieur droit. Voici un exemple :
 
 ![](assets/non-date.png)
 

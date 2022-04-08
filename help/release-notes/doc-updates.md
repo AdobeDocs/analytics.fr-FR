@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3169'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Nouvelle rubrique sur la mise en pause des rapports planifiés plus anciens | Efficace **15 avril 2022**, l’Adobe a l’intention de [suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans ;](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **Février 2022** |
 | Mode de prévisualisation du projet de cartes de performance mobile | Le [mode aperçu](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une fiche d’évaluation. |
-| Point de terminaison des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API . [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| Point dʼentrée des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | Mise à jour de la rubrique sur la mise en pause d’anciennes tâches de Report Builder planifiées | **Effectives le 15 avril 2022**, l’Adobe a l’intention de [mettre en pause toutes les tâches de Report Builder planifiées qui ont été créées il y a plus de deux ans ;](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octobre 2021** |  |
 | 21 Octobre 2021 | Nouvelle documentation sur les [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) dans Analysis Workspace. |

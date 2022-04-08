@@ -1,26 +1,26 @@
 ---
-description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics
-title: Création d’une suite de rapports
+description: Créez un conteneur de base pour la collecte de données dans Adobe Analytics.
+title: Créer une suite de rapports
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Création d’une suite de rapports
+# Créer une suite de rapports
 
-Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. L&#39;introduction de [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) et le traitement de la période de rapport permet aux administrateurs de créer vos propres sous-ensembles de données, ce qui vous permet d’obtenir des données globales et spécifiques au site.
+Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. Lʼintroduction des [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr#virtual-report-suites) et du traitement de la période de rapport permet aux administrateurs de créer leurs propres sous-ensembles de données, offrant ainsi la flexibilité dʼobtenir des données globales et spécifiques au site.
 
-Cet article est destiné aux administrateurs au niveau du système ou aux administrateurs Adobe Analytics afin de les préparer à la collecte de données.
+Cet article est destiné aux administrateurs au niveau du système ou aux administrateurs Adobe Analytics afin de les préparer à la collecte de données.
 
 ## Conditions préalables
 
-[Guide Adobe Analytics pour le premier administrateur](/help/admin/admin-console/first-admin-guide.md): Assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via le Admin Console Experience Cloud.
+[Guide dʼAdobe Analytics pour le premier administrateur](/help/admin/admin-console/first-admin-guide.md) : assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via lʼAdmin Console dʼExperience Cloud.
 
-## Création d’une suite de rapports {#create-report-suite}
+## Créer une suite de rapports {#create-report-suite}
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Cliquez sur **[!UICONTROL Nouveau]** > **[!UICONTROL Suite de rapports]**.
@@ -33,7 +33,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 1. Renseignez les champs décrits à la section [Nouvelle suite de rapports.](../c-new-report-suite/new-report-suite.md)
 1. Cliquez sur **[!UICONTROL Créer une suite de rapports]**.
 
-La longueur maximale d’un identifiant de suite de rapports est de 40 octets. Un nom convivial de suite de rapports a une longueur maximale de 255 octets.
+Lʼidentifiant de suite de rapports est limité à 40 octets. Le nom convivial dʼune suite de rapports est limité à 255 octets.
 
 ## Résolution des problèmes
 

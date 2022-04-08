@@ -5,8 +5,8 @@ feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: dd1b2d358e6074fc393e6e5999c4286549a1b82d
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Le **15 mai 2022**, Adobe Analytics procédera à la mise à niveau de ses se
 
 Le logiciel FTP/SFTP que vous utilisez doit indiquer les paramètres spécifiques utilisés dans les connexions qui ont été configurées pour échanger des données avec Adobe Analytics. Ce logiciel doit également inclure la documentation sur les différentes options disponibles pour les connexions. Les options qui seront prises en charge après cette mise à jour sont couramment utilisées et acceptées dans le secteur.
 
-Les options de connexion qui seront supprimées sont généralement considérées comme obsolètes et non utilisées dans le logiciel actuel. Si vous avez mis à niveau votre logiciel FTP/SFTP au cours des trois dernières années, vous disposez probablement déjà d’une connexion conforme.
+Les options de connexion qui seront supprimées sont généralement considérées comme obsolètes et non utilisées dans les logiciels actuels. Si vous avez mis à niveau votre logiciel FTP/SFTP au cours des trois dernières années, vous disposez probablement déjà d’une connexion conforme.
 
 ## Quelles fonctionnalités Adobe Analytics utilisent le protocole SFTP pour l’ingestion de données ?
 

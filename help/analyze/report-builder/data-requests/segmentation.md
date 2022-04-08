@@ -1,13 +1,13 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Report Builder.
-title: Gestion des segments (Report Builder)
+title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 ## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Chaque segment créé dans les Reports &amp; Analytics, dans , dans Report Builder ou dans Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
+Chaque segment créé dans Reports &amp; Analytics, Report Builder ou Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
@@ -66,7 +66,7 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 >
 >Dans le Report Builder, que vous soyez administrateur ou non, vous ne pouvez consulter que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Reports &amp; Analytics marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
 
-## Filtrage des segments {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrer des segments {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filtrez** les segments en cliquant sur l’icône Filtrer : ![](assets/segment_filter.png)
 
