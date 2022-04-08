@@ -5,9 +5,9 @@ title: Ordre de traitement
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Les tableaux suivants répertorient les données qui sont généralement disponi
 |--- |--- |
 | Recherche de variable dynamique | Les variables sont renseignées dynamiquement en extrayant des informations des en-têtes HTTP ou d’autres variables. Par exemple, `s.eVar5="D=c1"` insère la valeur de prop1 dans eVar5. |
 | AppMeasurement | Les fonctions et modules complémentaires utilisés dans AppMeasurement sont exécutés dans le navigateur ou dans l’application cliente. |
-| Gestion des balises | Les règles définies dans l’interface utilisateur de la collecte de données sont exécutées comme définies. |
+| Gestion des balises | Les règles définies dans l’interface utilisateur de la collecte de données sont exécutées telles quʼelles sont définies. |
 | Règles de robots | [Les règles de robots](/help/admin/admin/bot-removal/bot-rules.md) vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. |
 
 ## Après l’application de règles de traitement
