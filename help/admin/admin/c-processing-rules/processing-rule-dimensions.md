@@ -5,9 +5,9 @@ title: Dimensions disponibles pour les règles de traitement
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -89,11 +89,11 @@ Dimensions que vous pouvez lire et écrire (sauf indication contraire) à l’ai
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nom de la page </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : Les appels de suivi des liens réduisent la variable <code>pageName</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de nom de page à l’aide des règles de traitement, l’accès est considéré comme une page vue au lieu d’un appel de suivi des liens. Adobe recommande de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Remarque : les appels de suivi des liens suppriment la variable <code>pageName</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de nom de page à l’aide des règles de traitement, l’accès est considéré comme une page vue au lieu d’un appel de suivi des liens. Adobe recommande de vérifier que le nom de page est déjà défini avant de le modifier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la page </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. <p>Remarque : Les appels de suivi des liens réduisent la variable <code>pageURL</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme une page vue au lieu d’un appel de suivi des liens. Adobe recommande de vérifier que l’URL de la page est déjà définie avant de la modifier. </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> ou URL de la page en cours si <code> s.pageURL</code> n’est pas spécifié. <p>Remarque : les appels de suivi des liens suppriment la variable <code>pageURL</code> avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme une page vue au lieu d’un appel de suivi des liens. Adobe recommande de vérifier que l’URL de la page est déjà définie avant de la modifier. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Paramètre de chaîne de requête </p> </td> 
