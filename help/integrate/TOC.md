@@ -3,19 +3,19 @@ product: analytics
 audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
-user-guide-description: Configurez des intégrations avec d’autres solutions Adobe Experience Cloud, telles que Audience Manager et Advertising Cloud.
+user-guide-description: Configurez les intégrations à d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager et Advertising Cloud.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# Guide d’intégration Adobe Analytics {#integration}
+# Guide d’intégration d’Adobe Analytics {#integration}
 
 + [Intégration d’Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Audience Analytics {#audience-analytics}
    + [Audience Analytics - Aperçu](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
@@ -39,7 +39,7 @@ ht-degree: 86%
       + [Résolution des problèmes d’Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Questions fréquentes](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics pour Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=fr)
-+ [Adobe Analytics pour Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
 + [Compte rendu des performances Adobe Campaign dans Adobe Analytics](adobe-campaign.md)
 + [Intégration des données Adobe Analytics à Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Compte rendu des performances d’AEM Assets](aem-assets-reporting.md)
