@@ -4,7 +4,7 @@ title: Modèles de suite de rapports - Aperçu
 feature: Report Suite Settings
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 
