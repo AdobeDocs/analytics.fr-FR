@@ -4,7 +4,7 @@ description: Permet d’activer ou de désactiver le suivi automatique des liens
 feature: Variables
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
