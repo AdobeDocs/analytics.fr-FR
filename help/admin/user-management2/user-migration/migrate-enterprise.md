@@ -1,18 +1,18 @@
 ---
 description: Comment migrer des comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID vers l’Admin Console.
-title: Migration de comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID
+title: Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-# Migration de comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-Comment migrer des comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID vers l’Admin Console.
+Comment migrer des comptes utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID vers l’Admin Console.
 
 ## Conditions préalables {#prereqs}
 
@@ -68,7 +68,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
 
       >[!TIP]
       >
-      >Lors de cette étape, Adobe recommande d’écrémer votre liste d’utilisateurs pour vous assurer que seuls ceux possédant un ID de message électronique valide soient inclus dans la migration sous la forme d’Enterprise ID ou de Federated ID.
+      >Lors de cette étape, Adobe recommande d’écrémer votre liste d’utilisateurs pour vous assurer que seuls ceux possédant un ID d’e-mail valide soient inclus dans la migration sous la forme d’Enterprise ID ou de Federated ID.
 
 1. Téléchargez la liste des utilisateurs dans l’[!UICONTROL Admin Console] :
 
@@ -80,7 +80,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
 
       >[!IMPORTANT]
       >
-      > Si vous trouvez des doublons, supprimez-les dans le fichier Analytics [!DNL User Logins List.csv]. Cette étape permet de prévenir l’écrasement d’autorisations utilisateurs d’Experience Cloud dans l’Admin Console et d’obtenir la liste des comptes à migrer.
+      >Si vous trouvez des doublons, supprimez-les dans le fichier Analytics [!DNL User Logins List.csv]. Cette étape permet de prévenir l’écrasement d’autorisations utilisateurs d’Experience Cloud dans l’Admin Console et d’obtenir la liste des comptes à migrer.
 
 1. Téléchargez un modèle de fichier CSV depuis l’Admin Console :
    1. Dans l’onglet Utilisateurs, cliquez sur **[!UICONTROL Ajouter des utilisateurs par fichier CSV]**, puis sur **[!UICONTROL Télécharger un modèle de fichier CSV]**.
@@ -136,7 +136,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
  </tbody> 
 </table>
 
-Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/enterprise/using/users.html)
+Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
 
 >[!NOTE]
 >
