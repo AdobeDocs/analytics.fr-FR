@@ -4,7 +4,7 @@ title: Services financiers
 feature: Report Suite Settings
 exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Définit des paramètres courants pour les banques et autres institutions qui fournissent un accès à des services en ligne.
 
-| Variables de conversion (eVars) | Type | Sous-relations | Attribution | Expiration | Variable `s_code` |
+| Variables de conversion (eVars) | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
 | Promotion interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
 | Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |
