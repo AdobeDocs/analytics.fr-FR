@@ -1,16 +1,16 @@
 ---
 description: Cette procédure explique comment désigner l’eVar qui contient votre identifiant de visiteur.
-title: Définition de la variable Visiteur unique
+title: Définir la variable de visiteur unique
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
 ---
 
-# Définition de la variable Visiteur unique
+# Définir la variable de visiteur unique
 
 Cette procédure explique comment désigner l’eVar qui contient votre identifiant de visiteur.
 
