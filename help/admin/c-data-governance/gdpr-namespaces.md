@@ -4,9 +4,9 @@ title: Espaces de noms
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que v
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Pour plus de détails, voir la [documentation de l’API relative à la Confidentialité des données d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en).
+Pour plus de détails, voir la [documentation de l’API relative à la Confidentialité des données d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr).
 
 ## ID de cookie
 
