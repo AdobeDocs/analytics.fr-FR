@@ -1,16 +1,16 @@
 ---
-title: Définition des 5 principaux indicateurs clés de performance
+title: Définir les 5 principaux indicateurs clés de performance
 description: Assurez-vous que vos indicateurs clés de performance, ainsi que les mesures et dimensions associées, correspondent étroitement aux besoins de votre entreprise.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
 ht-degree: 100%
 
 ---
 
-# Définition des 5 principaux indicateurs clés de performance
+# Définir les 5 principaux indicateurs clés de performance
 
 C’est simple, vous ne pouvez pas tout mesurer. En outre, vous obtiendrez de meilleures performances de la part de votre implémentation Adobe Analytics en définissant des priorités concernant les mesures, afin de privilégier ce qui est le plus important pour l’entreprise. Contactez les dirigeants de votre entreprise pour définir les indicateurs clés de performance (KPI) qui ont le plus d’impact sur votre activité. Ensuite, concentrez vos efforts sur les mesures et les variables qui prennent en charge ces KPI.
 
