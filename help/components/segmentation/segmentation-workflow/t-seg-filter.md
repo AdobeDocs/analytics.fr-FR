@@ -1,16 +1,16 @@
 ---
 description: Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, Partagés avec moi, Favoris et Approuvés.)
-title: Filtrage des segments
+title: Filtrer des segments
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
 ---
 
-# Filtrage des segments
+# Filtrer des segments
 
 Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, Partagés avec moi, Favoris et Approuvés.)
 
