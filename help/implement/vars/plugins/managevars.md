@@ -3,8 +3,8 @@ title: manageVars
 description: Permet de modifier les valeurs de plusieurs variables Analytics à la fois.
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+source-git-commit: e3ce30e960f2adeaf2f4fb068d12efd2574c7ee9
+workflow-type: ht
 source-wordcount: '703'
 ht-degree: 100%
 
