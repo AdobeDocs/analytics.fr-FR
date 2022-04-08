@@ -4,7 +4,7 @@ description: Variables contenant des valeurs de chaîne.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -26,6 +26,6 @@ Chaque dimension représente une partie ou une facette différente de votre site
 
 ## Ajout de descriptions pour les dimensions
 
-Regardez cette vidéo pour découvrir comment ajouter des descriptions pour les dimensions (et les mesures) dans Adobe Analytics :
+Regardez cette vidéo pour découvrir comment ajouter des descriptions pour les dimensions (et les mesures) dans Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
