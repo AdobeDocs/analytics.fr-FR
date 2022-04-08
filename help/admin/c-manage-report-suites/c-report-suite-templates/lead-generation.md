@@ -4,7 +4,7 @@ title: Génération de pistes
 feature: Report Suite Settings
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Définit des paramètres courants pour un site web qui fournit des informations sur des services et produits vendus généralement par le biais d’un engagement plus poussé.
 
-| Variables de conversion | Type | Sous-relations | Attribution | Expiration | Variable `s_code` |
+| Variables de conversion | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
 | Promotion interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
 | Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |
