@@ -5,15 +5,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Palettes de couleurs de visualisations
 
-Vous pouvez modifier la palette de couleurs de visualisation utilisée dans Workspace en choisissant une autre palette de couleurs ou en spécifiant votre propre palette susceptible de correspondre aux couleurs de la marque de votre entreprise. Cette fonction affecte la plupart des visualisations dans Workspace, mais elle : **not** impact [!UICONTROL Résumé des changements], mise en forme conditionnelle dans [!UICONTROL Structure libre] et la variable [!UICONTROL Carte] visualisation.
+Vous pouvez modifier la palette de couleurs de visualisation utilisée dans Workspace en choisissant une autre palette de couleurs ou en spécifiant votre propre palette susceptible de correspondre aux couleurs de la marque de votre entreprise. Cette fonctionnalité affecte la plupart des visualisations dans Workspace, mais n’a **aucune** incidence sur la visualisation de la [!UICONTROL Synthèse des modifications], le formatage conditionnel dans les tableaux [!UICONTROL à structure libre] et la visualisation des [!UICONTROL cartes].
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ Remarque :
 * Vous pouvez choisir parmi cinq palettes de couleurs prédéfinies. La palette par défaut et la palette ci-dessous ont été optimisées pour un contraste optimal et sont toutes deux plus accessibles pour les personnes daltoniennes.
 * Les palettes de couleurs trois à cinq en dessous des deux premières ont été optimisées pour l’harmonie des couleurs.
 
-## Modifiez votre [!UICONTROL palette de couleurs]:
+## Changer de [!UICONTROL palette de couleurs] :
 
-Voici une vidéo sur l’utilisation de [!UICONTROL palette de couleurs]:
+Regardez cette vidéo sur l’utilisation de [!UICONTROL palettes de couleurs] personnalisées :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
