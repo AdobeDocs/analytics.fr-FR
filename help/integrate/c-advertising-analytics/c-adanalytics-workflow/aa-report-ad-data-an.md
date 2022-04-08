@@ -4,7 +4,7 @@ title: Rapport sur les données Advertising dans Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Détails sur le modèle Analysis Workspace et sur la création de rapports dans 
 >
 >Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que le reporting Analytics ne renverra pas de données pour la granularité horaire, car les données AMO ne prennent pas en charge ce type de granularité.
 
-## Analysis Workspace : Moteurs de recherche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Analysis Workspace : moteurs de recherche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
 Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de recherche d’accéder à de nombreuses données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Modèles]** > **[!UICONTROL Advertising]** > **[!UICONTROL Moteurs de recherche.]**
 
@@ -46,10 +46,10 @@ Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de r
 
 ## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
-Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
+Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
 
 ![](assets/aa_randa.png)
 
-## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
+## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
+Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
