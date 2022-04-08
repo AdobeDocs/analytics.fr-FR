@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >
 >Ne modifiez pas le nom du contrôle. (Pour afficher le nom, définissez la mise au point sur le contrôle et le nom du contrôle s’affiche juste au-dessus de la grille Excel, dans le coin supérieur gauche.)
 
-## Implémentation du contrôle interactif de périodes {#section_39B228F2D2C44985863D31424C953280}
+## Implémenter le contrôle interactif des périodes {#section_39B228F2D2C44985863D31424C953280}
 
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
 1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
@@ -63,7 +63,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
       >
       >Vous pouvez utiliser la fonctionnalité de contrôle Couper/Copier/Coller native de Microsoft Excel. Le Créateur de rapports reconnaît automatiquement les contrôles nouvellement ajoutés.
 
-## Implémentation du contrôle interactif de segments {#section_5003D3F724644280BF1BCD6E1B0CB784}
+## Implémenter le contrôle interactif des segments {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
 L’implémentation du contrôle interactif de segments est similaire à l’implémentation du contrôle de périodes.
 
