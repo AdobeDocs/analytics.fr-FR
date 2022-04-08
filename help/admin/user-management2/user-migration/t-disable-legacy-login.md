@@ -1,16 +1,16 @@
 ---
 description: Comment désactiver les comptes hérités pour les utilisateurs Analytics.
-title: Désactivation des comptes hérités
+title: Désactiver les comptes hérités
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Désactivation des comptes hérités{#disable-legacy-logins}
+# Désactiver les comptes hérités{#disable-legacy-logins}
 
 Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 
