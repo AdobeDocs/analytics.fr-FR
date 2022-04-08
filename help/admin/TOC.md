@@ -1,21 +1,21 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guide d’administration Analytics
+user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
-user-guide-description: Découvrez les tâches d’administration d’Analytics, telles que la gestion des utilisateurs et des produits dans le Admin Console Experience Cloud, la configuration des suites de rapports, etc.
+user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Guide de l’administrateur Adobe Analytics {#admin}
+# Guide de lʼadministrateur d’Adobe Analytics {#admin}
 
-+ [Guide d’administration Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Guide de lʼadministrateur dʼAnalytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Administration d’Analytics - Aperçu {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
@@ -25,7 +25,7 @@ ht-degree: 95%
    + [Facturation](admin/billing-admin.md)
    + Suppression de robots {#bot-removal}
       + [Suppression de robots](admin/bot-removal/bot-removal.md)
-      + [Règles de robots - Aperçu](admin/bot-removal/bot-rules.md)
+      + [Règles de robots - Présentation](admin/bot-removal/bot-rules.md)
       + [Signatures de robots courantes](admin/bot-removal/bot-signatures.md)
       + [Méthodes d’exclusion de robots](admin/bot-removal/bot-exclusion-methods.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
@@ -51,7 +51,7 @@ ht-degree: 95%
    + [Visibilité des mesures](admin/metric-visibility.md)
    + [Gestion des applications](admin/mobile-management.md)
    + Détection de référencement payant {#paid-search-detection}
-      + [Détection de référencement payant - Aperçu](admin/paid-search-detection/paid-search-detection.md)
+      + [Détection de référencement payant - Présentation](admin/paid-search-detection/paid-search-detection.md)
       + [Configuration de la détection de référencement payant](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listes de publication](admin/publishing-list.md)
    + [Widget de publication](admin/publishing-widgets-admin.md)
@@ -59,7 +59,7 @@ ht-degree: 95%
    + [Paramètres de confidentialité](admin/privacy-settings.md)
    + [Compte rendu des performances sur la confidentialité](admin/privacy-reporting.md)
    + Règles de traitement {#processing-rules}
-      + [Règles de traitement - Aperçu](admin/c-processing-rules/processing-rules.md)
+      + [Règles de traitement - Présentation](admin/c-processing-rules/processing-rules.md)
       + Configuration des règles de traitement {#processing-rules-configuration}
          + [Fonctionnement des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
          + [Ordre de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
@@ -82,12 +82,12 @@ ht-degree: 95%
          + [Supprimer un événement d’un accès](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Astuces et conseils concernant les règles de traitement](admin/c-processing-rules/processing-rules-tips.md)
    + Rapports en temps réel {#real-time-reports}
-      + [Rapports en temps réel - Aperçu](admin/realtime/realtime.md)
+      + [Rapports en temps réel - Présentation](admin/realtime/realtime.md)
       + [Configuration des rapports en temps réel](admin/realtime/t-realtime-admin.md)
       + [Mesures et dimensions en temps réel prises en charge](admin/realtime/realtime-metrics.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
-      + [Transfert côté serveur - Aperçu](admin/c-server-side-forwarding/ssf.md)
+      + [Transfert côté serveur - Présentation](admin/c-server-side-forwarding/ssf.md)
       + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Conditions requises pour le transfert côté serveur](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Données et référence de code du transfert côté serveur](admin/c-server-side-forwarding/ssf-reference.md)
@@ -101,11 +101,11 @@ ht-degree: 95%
       + [À propos du changement de type d’événement](admin/c-success-events/event-type.md)
    + [Horodatages facultatifs](admin/timestamp-optional.md)
    + Variables de trafic {#traffic-variables}
-      + [Variable de trafic (prop) - Aperçu](admin/c-traffic-variables/traffic-var.md)
+      + [Variable de trafic (prop) - Présentation](admin/c-traffic-variables/traffic-var.md)
       + [Activer les rapports de variables de trafic](admin/c-traffic-variables/t-traffic-variable.md)
       + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visiteur unique {#unique-visitor-variable}
-      + [Définition de la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+      + [Définir la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
 + Analytics   dans Adobe Admin Console {#admin-console}
@@ -144,7 +144,7 @@ ht-degree: 95%
    + [Paramètres d’une suite de rapports spécifique](c-manage-report-suites/individual-rs-settings.md)
    + [Télécharger les paramètres d’une suite de rapports](c-manage-report-suites/t-download-rs-settings.md)
    + Nouvelle suite de rapports {#new-report-suite}
-      + [Création d’une suite de rapports](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+      + [Créer une suite de rapports](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
       + [Paramètres d’une nouvelle suite de rapports](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [Paramètres non copiés depuis une suite de rapports source](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [Création d’un groupe de suites de rapports](c-manage-report-suites/t-create-rs-group.md)
@@ -153,8 +153,8 @@ ht-degree: 95%
    + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
       + [Migration des utilisateurs d’Analytics vers l’Admin Console](user-management2/user-migration/c-migration-tool.md)
       + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](user-management2/user-migration/t-migrate-users.md)
-      + [Migration de comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
-      + [Désactivation des comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
+      + [Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](user-management2/user-migration/migrate-enterprise.md)
+      + [Désactiver les comptes hérités](user-management2/user-migration/t-disable-legacy-login.md)
       + [API affectées par la migration](user-management2/user-migration/developer.md)
 + Gouvernance des données {#data-governance}
    + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
@@ -181,7 +181,7 @@ ht-degree: 95%
    + [FAQ sur l’utilisation des appels au serveur](c-server-call-usage/overage-faq.md)
 + Gestion du trafic {#traffic-management}
    + [Gestion du trafic](c-traffic-management/traffic-management.md)
-   + [Prévision d’un pic de trafic](c-traffic-management/t-traffic-schedule-spike.md)
+   + [Prévoir un pic de trafic](c-traffic-management/t-traffic-schedule-spike.md)
    + [Estimation des appels au serveur précédents et planification d’un pic de trafic](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
    + [Indication d’une augmentation permanente du trafic](c-traffic-management/t-traffic-permanent.md)
    + [Délai requis pour les augmentations de trafic](c-traffic-management/traffic-lead-time.md)
