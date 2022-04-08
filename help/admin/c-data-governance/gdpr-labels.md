@@ -4,17 +4,17 @@ title: Étiquettes relatives à la confidentialité des données pour les variab
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3913'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Étiquettes relatives à la confidentialité des données pour les variables Analytics
 
-## Pourquoi étiqueter vos données ?  {#why-label}
+## Pourquoi étiqueter vos données ? {#why-label}
 
-De nombreux clients d’Adobe disposent d’équipes juridiques qui ont examiné les lois sur la Confidentialité des données (RGPD, CCPA, etc.). Ces équipes peuvent avoir tiré leurs propres conclusions sur la manière dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu de la Confidentialité des données et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu de la Confidentialité des données de leurs données uniques. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
+De nombreux clients Adobe ont fait examiner les lois sur la confidentialité des données (RGPD, CCPA, etc.) par des équipes juridiques. Elles ont tiré leurs propres conclusions sur la façon dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu de la Confidentialité des données et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu de la Confidentialité des données de leurs données uniques. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
 
 Adobe Analytics offre des outils d’étiquetage des données en fonction de leur confidentialité et des restrictions contractuelles. Les étiquettes sont essentielles et utiles pour aider : (1) à identifier les sujets des données, (2) à déterminer quelles données restituer dans le cadre d’une demande d’accès, et (3) à identifier les champs de données qui doivent être supprimés dans le cadre des demandes de suppression.
 
@@ -177,7 +177,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
   <tr> 
    <td colname="col1"> <p>Aucun </p> </td> 
    <td colname="col2"> <p>Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> <p>Vous ne devez définir l’une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez lors de l’envoi de demandes d’accès ou de suppression via l’[API du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) ou l’interface utilisateur. </p> </td> 
+   <td colname="col3"> <p>Vous ne devez définir une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via lʼ[API Privacy Service] (https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) ou l’interface utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
@@ -206,7 +206,7 @@ Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
-| Aucun | Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. | Vous ne devez définir l’une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via la variable [API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) ou de l’interface utilisateur. |
+| Aucun | Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. | Vous ne devez définir une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via l’[API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) ou l’interface utilisateur. |
 | ID-DEVICE | Ce champ contient un ID qui peut être utilisé afin d’identifier un appareil pour une demande relative à la Confidentialité des données, mais ne peut pas distinguer les différents utilisateurs d’un appareil partagé.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
 | ID-PERSON | Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande relative à la Confidentialité des données.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
 
@@ -254,7 +254,7 @@ Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est 
 >
 >Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
-## Les types de variables et les étiquettes Confidentialité des données/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Types de variables et étiquettes Confidentialité des données/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
 
 L’étiquetage Confidentialité des données/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
 
@@ -441,7 +441,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
    <td colname="col2"> <p> Spécifie le nom de la suite de rapports Analytics contenant les données. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
+   <td colname="col1"> <p>Visitor ID </p> <p>MCID / ECID </p> </td> 
    <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
   </tr> 
   <tr> 
@@ -488,4 +488,4 @@ Il existe cinq variables standard qui contiennent des horodatages :
 
 Le code permettant de générer les fichiers renvoyés lors des demandes d’accès relatives à la Confidentialité des données nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
-Le fichier CSV d’accès renvoyé pour les demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs d’horodatages unix en champs de date/heure au format AAAA-MM-JJ HH.:MM:SS (par exemple, 2018-05-01 13):49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
+Le fichier CSV d’accès renvoyé lors des demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs pour passer d’horodatages au format Unix en champs date/heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
