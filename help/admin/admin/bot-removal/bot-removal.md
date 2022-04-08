@@ -4,7 +4,7 @@ description: Comment supprimer des robots dans Adobe Analytics ?
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '797'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Voici la manière de capturer cet ID via l’élément de données. Veillez à r
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
+Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
