@@ -1,12 +1,12 @@
 ---
 title: Exclure par adresse IP
-description: Empêcher l’affichage des données générées par certaines adresses IP dans les rapports.
+description: Empêchez les données générées par certaines adresses IP dʼapparaître dans les rapports.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 79%
 
 Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Exclure par IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Exclure par adresse IP]**
 
 >[!NOTE]
 >
->Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
+>Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=fr).
 
 Vous pouvez utiliser des caractères de remplacement (*) pour exclure une plage d’adresses. Par exemple, `[!DNL 0.0.*.0]` exclut toutes les adresses IP comprises entre `[!DNL 0.0.0.0]` et `[!DNL 0.0.255.0]`. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
 
 >[!TIP]
 >
->Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données d’Adobe. Les adresses privées incluent : `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*`, et `169.254.*.*`.
+>Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données dʼAdobe. Les adresses privées comprennent `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` et `169.254.*.*`.
 
 ## Impact de l’obscurcissement des adresses IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
