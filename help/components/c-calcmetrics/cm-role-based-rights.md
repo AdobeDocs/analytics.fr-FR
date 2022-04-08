@@ -4,9 +4,9 @@ title: 'Mesures calculées : droits en fonction du rôle'
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Les droits des mesures calculées diffèrent entre les utilisateurs administrate
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Administrateurs</b> </td> 
-   <td colname="col02"> Les administrateurs peuvent créer des mesures calculées ainsi que des profils de produit dans le Admin Console afin de limiter les droits de création de mesures calculées des utilisateurs. </td> 
+   <td colname="col02"> Pour limiter les droits de création de mesures calculées des utilisateurs, les administrateurs peuvent créer des mesures calculées ainsi que des profils de produits dans lʼAdmin Console. </td> 
    <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
    <td colname="col3"> <span class="keyword"> Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres mesures calculées et celles des autres utilisateurs. <p> <span class="keyword"> Report Builder </span> : peut, entre autres, consulter, modifier ou supprimer ses propres mesures calculées et celles partagées avec lui. </p> </td> 
    <td colname="col4"> Peuvent approuver les mesures calculées comme étant canoniques. </td> 
