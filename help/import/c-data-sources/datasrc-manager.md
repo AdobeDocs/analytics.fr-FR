@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Créez, gérez et consultez l’utilisation des sources de données dans une suite de rapports.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
 
 ## Onglet Créer {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-Cet onglet permet de configurer une nouvelle source de données pour la suite de rapports actuellement sélectionnée.  Lorsque vous activez une source de données, l’[!UICONTROL Assistant Sources de données] vous guide tout au long du processus de création d’un modèle de source de données, puis crée un emplacement FTP pour le transfert des données.
+L’onglet [!UICONTROL Créer] permet de configurer une nouvelle source de données pour la suite de rapports actuellement sélectionnée. Lorsque vous activez une source de données, l’[!UICONTROL Assistant Sources de données] vous guide tout au long du processus de création d’un modèle de source de données, puis crée un emplacement FTP pour le transfert des données.
 
 La sélection que vous effectuez sur l’onglet Créer détermine les champs initiaux dans le modèle créé. Reportez-vous à la section [Génération d’un modèle de fichier d’importation](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
@@ -78,4 +78,4 @@ La sélection que vous effectuez sur l’onglet Créer détermine les champs ini
 
 ## Onglet Journal des fichiers {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
-Le journal des fichiers est doté d’une fonction de recherche grâce à laquelle vous pouvez rechercher des informations par nom ou type de source de données, nom de fichier, date de réception ou état.
+Le journal des fichiers est doté d’une fonction de recherche grâce à laquelle vous pouvez rechercher des informations par nom ou type de source de données, nom de fichier, date de réception ou statut.
