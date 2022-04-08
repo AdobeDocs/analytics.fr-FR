@@ -4,7 +4,7 @@ title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >
 >Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
 
-## Attribuer ou modifier des étiquettes de suites de rapports {#section_39F829F35A274EACA532E2F6FF392996}
+## Attribuer ou modifier des libellés de suites de rapports {#section_39F829F35A274EACA532E2F6FF392996}
 
 **Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 1. Cliquez sur **[!UICONTROL Appliquer]** lorsque vous avez entièrement terminé l’étiquetage.
 
-## Copier des étiquettes dans une ou plusieurs suites de rapports  {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## Copier des libellés dans une ou plusieurs suites de rapports {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des données à plusieurs suites de rapports, vous pouvez procéder comme suit :
 
