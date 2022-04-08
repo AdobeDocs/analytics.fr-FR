@@ -4,7 +4,7 @@ description: Découvrez comment les mesures de prévention du suivi affectent le
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1985'
 ht-degree: 100%
 
@@ -51,9 +51,9 @@ Les stratégies d’ITP évoluent fréquemment. Pour connaître les dernières s
 
 Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les stratégies ITP :
 
-* [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
+* [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
 * Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
-* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
+* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
 
 #### Quel est l’impact d’ITP sur Safari pour Analytics ?
 
@@ -74,7 +74,7 @@ Si ces restrictions affectent vos données, vous verrez :
 
 Les cookies tiers ne sont pas créés par les sites que visitent les utilisateurs.
 
-Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation des cookies tiers Analytics d’un client, les navigateurs stockent l’identifiant [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) d’Adobe en tant que cookie tiers, mais le client n’effectue des appels qu’à Adobe, et non à des domaines tiers inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [Cookies et Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation des cookies tiers Analytics d’un client, les navigateurs stockent l’identifiant [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) d’Adobe en tant que cookie tiers, mais le client n’effectue des appels qu’à Adobe, et non à des domaines tiers inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [Cookies et Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
 Dans les implémentations d’Analytics, les cookies tiers sont utilisés pour le suivi interdomaines et pour les cas d’utilisation publicitaire, y compris les annonces de reciblage. Les cookies tiers vous permettent d’identifier les visiteurs qui visitent différents domaines que vous possédez ou qui voient des annonces sur des sites que vous ne possédez pas.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
