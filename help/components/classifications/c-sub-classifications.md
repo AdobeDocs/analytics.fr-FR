@@ -4,7 +4,7 @@ title: À propos des sous-classifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
 ht-degree: 100%
 
@@ -82,7 +82,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Polo homme, manches courtes (M,01) | M | M | 01 |
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
-| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | s | 23 |
+| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
 ### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
