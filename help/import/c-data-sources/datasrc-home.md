@@ -1,12 +1,12 @@
 ---
 description: Les sources de données Adobe Analytics permettent d’importer manuellement des données en ligne et hors ligne supplémentaires pour la création de rapports.
-title: Que sont les sources de données et dans quel intérêt ?
+title: Que sont les sources de données et à quoi servent-elles ?
 feature: Data Sources
 exl-id: 8e695f0a-06b7-4aac-8917-318ae80ce1ec
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Utilisez cette fonctionnalité pour mieux comprendre les données de pré-clic e
 >
 >Afin que les sources de données des ID de transaction puissent lier les données hors ligne aux événements en ligne, le service à la clientèle doit avoir activé l’enregistrement des identifiants de transaction. Voir [Enregistrement des ID de transaction](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) pour en savoir plus.
 
-Après l’importation, la plupart des données de sources de données sont disponibles dans Adobe Experience Cloud.
+Après l’importation, la plupart des données des sources de données sont disponibles dans tous les produits Adobe Experience Cloud.
