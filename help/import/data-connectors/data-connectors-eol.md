@@ -1,12 +1,12 @@
 ---
-description: Découvrez quand et pourquoi les connecteurs de données Analytics seront bientôt en fin de vie.
-title: Annonce préalable de fin de vie pour les connecteurs de données Analytics
+description: Découvrez quand et pourquoi les Analytics Data Connectors seront bientôt en fin de vie.
+title: Annonce préalable de fin de vie pour les Analytics Data Connectors
 feature: Data Connectors
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Depuis plus d’une décennie, Adobe Analytics a pour ambition de fournir la sol
 
 ## Pourquoi avons-nous mis fin à cette fonctionnalité ?
 
-Cette fonctionnalité a été alimentée par une technologie héritée qui n’est plus viable ni prise en charge. [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) est désormais l’endroit idéal pour trouver des intégrations actuelles pour les solutions Adobe.
+Cette fonctionnalité était alimentée par une technologie héritée qui n’est plus viable ni prise en charge. [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) est désormais l’endroit idéal pour trouver des intégrations actuelles pour les solutions Adobe.
 
 ## En quoi la suppression de cette fonction vous concerne-t-elle ?
 
