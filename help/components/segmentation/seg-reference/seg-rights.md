@@ -4,7 +4,7 @@ title: Droits des segments par rôle
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '133'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ La fonctionnalité de segment diffère désormais beaucoup entre les administrat
   <tr> 
    <td colname="col1"> <b>Utilisateurs non administrateur</b> </td> 
    <td colname="col2"> Peuvent effectuer un partage avec des utilisateurs individuels uniquement. </td> 
-   <td colname="col3"> Peuvent afficher/modifier/supprimer etc. uniquement leurs propres segments. </td> 
+   <td colname="col3"> Peuvent afficher/modifier/supprimer, etc. uniquement leurs propres segments. </td> 
    <td colname="col4"> Ne peuvent utiliser que les segments approuvés ; ne peuvent pas les marquer comme approuvé. </td> 
    <td colname="col5"> Peuvent appliquer leurs propres segments et les segments qui ont été partagés avec eux. </td> 
   </tr> 
