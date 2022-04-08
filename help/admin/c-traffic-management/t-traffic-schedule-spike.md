@@ -1,24 +1,24 @@
 ---
-title: Prévision d’un pic de trafic
-description: Associez avec un Adobe pour vous assurer que les événements à trafic élevé ne connaissent pas de latence.
+title: Prévoir un pic de trafic
+description: Faites équipe avec Adobe pour vous assurer que les événements à trafic élevé ne subissent pas de latence.
 feature: Traffic Management
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# Prévision d’un pic de trafic
+# Prévoir un pic de trafic
 
-Adobe fait le nécessaire pour créer des partenariats avec les clients afin de s’assurer qu’un événement à trafic élevé est réussi. La planification des pics de trafic est le point de départ de ce processus de partenariat. La section Prévoir les pics vous permet d’alerter Adobe au sujet des pics de trafic temporaires afin que les ressources appropriées puissent être allouées pour les gérer.
+Adobe fait le nécessaire pour créer des partenariats avec les clients afin de s’assurer qu’un événement à trafic élevé est réussi. La planification des pics de trafic est le point de départ de ce processus de partenariat. La section Prévoir les pics vous permet de signaler des pics de trafic temporaires à Adobe, de telle sorte que des ressources suffisantes puissent être allouées pour leur traitement.
 
-L’équilibrage avancé des données côté serveur avec plusieurs personnels dédiés est utilisé pour s’assurer que tous les clients disposent des rapports les plus à jour possible. À mesure que votre organisation informe l’Adobe de pics de trafic, l’Adobe peut s’assurer que l’augmentation soudaine du trafic est une expérience positive. Si vous ne notifiez pas l’Adobe d’une augmentation du trafic, la latence peut augmenter pendant les périodes de rapports critiques.
+Nous utilisons un système avancé dʼéquilibrage des données côté serveur et des employés dédiés pour nous assurer que tous les clients disposent des rapports les plus à jour possible. Lorsque votre organisation informe Adobe quʼelle connaît des pics de trafic, Adobe peut faire en sorte que cette augmentation soudaine du trafic soit une expérience positive. Si Adobe nʼest pas informé de lʼaugmentation du trafic, cela peut augmenter la latence pendant les périodes critiques.
 
-Veuillez lire les informations relatives à [Délai d’avance requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md) avant de planifier un pic de trafic.
+Avant de prévoir un pic de trafic, consultez les informations reprises dans la section [Délai requis pour les augmentations de trafic](/help/admin/c-traffic-management/traffic-lead-time.md).
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**.
+1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion du trafic]** > **[!UICONTROL Prévoir les pics]**.
 1. Dans le champ **[!UICONTROL Date de début du pic]**, indiquez la date de début prévue du pic de trafic.
@@ -31,18 +31,18 @@ Veuillez lire les informations relatives à [Délai d’avance requis pour les a
    >
    >Pour planifier un pic de trafic, indiquez un numéro de téléphone dans vos coordonnées de contact, de telle sorte qu’Adobe puisse vous contacter si la moindre question se pose.
 
-## Pourquoi il est important de toujours planifier des pics de trafic
+## Importance des prévisions des pics de trafic
 
-Lorsque les clients avertissent l’Adobe de pics de trafic pour chaque suite de rapports, Adobe fait tout son possible pour s’assurer qu’il a un impact minimal sur les rapports.
+Lorsque les clients signalent à Adobe des pics de trafic pour chaque suite de rapports, Adobe met tout en œuvre pour que lʼimpact sur les rapports soit minimal.
 
-* Les organisations qui ont planifié des pics de trafic reçoivent la priorité si les données commencent à devenir latentes. L’importance de ce concept est particulièrement importante pendant les vacances, car de nombreuses entreprises planifient des pics de trafic.
-* Si l’Adobe remarque que vous avez considérablement surestimé/sous-estimé le trafic attendu par rapport aux années précédentes, il peut vous contacter pour garantir la précision.
-* Il est important de planifier un pic de trafic chaque année, même si votre entreprise reçoit le même pic chaque année. De nombreuses entreprises publient de nouvelles applications, combinent des suites de rapports et migrent/retirent des suites de rapports tout au long de l’année. Adobe ne peut pas déterminer avec certitude quelles suites de rapports reçoivent un trafic supplémentaire, sauf si votre entreprise planifie un pic de trafic à chaque fois. Bien qu’Adobe utilise des données historiques pour obtenir une estimation, il est important que toutes les ressources supplémentaires soient placées sur la suite de rapports appropriée.
+* Les organisations qui ont prévu des pics de trafic sont prioritaires si les données commencent à devenir latentes. Ce concept revêt toute son importance durant la période des fêtes, car de nombreuses organisations prévoient des pics de trafic.
+* Si Adobe constate que vous avez considérablement surestimé/sous-estimé le trafic prévu par rapport aux années précédentes, nous pouvons vous contacter pour vérifier lʼexactitude des données.
+* Il est important de prévoir un pic de trafic chaque année, même si votre organisation connaît le même pic chaque année. De nombreuses organisations publient de nouvelles applications, combinent des suites de rapports et migrent/abandonnent des suites de rapports tout au long de lʼannée. Adobe ne peut déterminer avec certitude les suites de rapports qui connaissent un trafic supplémentaire, sauf si votre organisation prévoit un pic de trafic à chaque fois. Grâce aux données historiques, Adobe obtient une estimation, mais il est important que toutes les ressources supplémentaires soient placées sur la bonne suite de rapports.
 
-## Actions pouvant être entreprises par votre organisation
+## Mesures à prendre par votre organisation
 
-Adobe veut s’assurer que votre expérience avec les rapports à jour est cohérente. Pour que cette tâche soit la plus efficace, Adobe recommande vivement les éléments suivants :
+Adobe veut sʼassurer que votre expérience en matière de création de rapports à jour est cohérente. Pour gérer au mieux les pics de trafic, Adobe recommande vivement de procéder comme suit :
 
-* Planifier tous les pics de trafic en fonction de [Délai d’avance requis pour les augmentations de trafic](traffic-lead-time.md). **Il est particulièrement important que les pics de trafic prévus dans les mois de novembre à décembre soient programmés d’ici le 15 septembre.**. Si vous ratez la date limite, planifiez votre pic dès que possible. Moins de temps d’avance est préférable qu’aucun autre et Adobe fonctionne avec les ressources actuelles pour mieux s’adapter à vos suites de rapports.
-* Si Adobe vous contacte au sujet d’un pic de trafic planifié, veillez à communiquer si la création de rapports en temps réel ou de rapports de traitement complet est plus importante. Certaines organisations dépendent plus des rapports en temps réel que d’autres. La compréhension du type de rapport que vous utilisez peut aider l’Adobe à établir des priorités en conséquence.
-* Communiquer avec votre gestionnaire de compte sur les rapports les plus importants et, lorsque vous les extrayez, peut les aider à vous défendre.
+* Prévoyez tous les pics de trafic selon le [Délai requis pour les augmentations de trafic](traffic-lead-time.md). **Il est particulièrement important que les pics de trafic prévus pour les mois de novembre et décembre soient signalés avant le 15 septembre**. Au-delà de cette date, prévoyez votre pic dès que possible. Un délai réduit est préférable à un délai nul, et Adobe travaille avec les ressources actuelles pour répondre au mieux à vos suites de rapports.
+* Si Adobe vous contacte au sujet d’un pic de trafic prévu, veillez à indiquer le type de création de rapports qui vous importe le plus : en temps réel ou à traitement complet. Certaines organisations comptent plus que dʼautres sur les rapports en temps réel. Adobe peut établir des priorités si vous lui indiquez le type de création de rapports utilisé.
+* Communiquez à votre gestionnaire de compte les rapports les plus importants et le moment où vous les obtenez. De cette manière, il pourra défendre vos intérêts.
