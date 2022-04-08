@@ -5,9 +5,9 @@ title: Masquage des suites de rapports
 feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Lorsque vous masquez une suite de rapports, elle n’est plus répertoriée dans
 >
 >Les données envoyées dans une suite de rapports masquée sur votre site continuent à être collectées, traitées et facturées. En d’autres termes, une suite de rapports n’est jamais complètement supprimée.
 
-Pour masquer la suite de rapports, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]** > **[!UICONTROL Masquer les suites de rapports]**. Cochez la case **[!UICONTROL Masqué]** à gauche du nom de la suite de rapports.
+Pour masquer la suite de rapports, sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de la société]** > **[!UICONTROL Masquer les suites de rapports]**. Cochez la case **[!UICONTROL Masqué]** à gauche du nom de la suite de rapports.
 
 Pour afficher la suite de rapports, décochez la case **[!UICONTROL Masqué]**.
 
