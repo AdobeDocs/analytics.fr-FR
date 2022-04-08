@@ -4,7 +4,7 @@ description: La variable abort est une valeur booléenne qui empêche l’envoi 
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
