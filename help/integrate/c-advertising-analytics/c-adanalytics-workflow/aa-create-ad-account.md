@@ -4,9 +4,9 @@ description: Vous permet de créer des comptes publicitaires et de mapper plusie
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '819'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Les administrateurs peuvent également [accorder l’accès à des non-administr
 
    | Paramètre | Description |
    | --- | --- |
-   | Type | Vous disposez de deux options : Google AdWords et Microsoft Bing Ads.  Remarque : Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible. |
+   | Type | Vous disposez de deux options : Google AdWords et Microsoft Bing Ads.  Remarque : Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible. |
    | Nom du compte | Vous pouvez définir le nom que vous souhaitez donner à ce compte. C’est le nom convivial du compte qui apparaîtra dans l’interface utilisateur. |
-   | Jeton OAuth | **Remarque :** OAuth est un protocole libre de délégation d’accès, utilisé généralement afin d’autoriser des sites web ou des applications à accéder à leurs informations à partir d’autres sites web sans leur donner les mots de passe. Vous remarquerez que vous serez redirigé vers une URL tierce (efrontier.com). Adobe utilise efrontier pour faire fonctionner le processus d’authentification OAuth pour les trois moteurs de recherche. Si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à récupérer le jeton Oauth pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.<p>Un clic sur **[!UICONTROL Récupérer le jeton]** lancera le processus d’authentification OAuth2. Vous serez invité à vous connecter à votre compte de recherche Google/Bing à l’aide de vos informations d’identification. Selon le moteur de recherche utilisé, le processus sera légèrement différent : <ul><li>Google AdWords : utilisez vos ID de compte Google</li><li>Microsoft Bing : utilisez vos ID de compte Bing et vos ID de client Bing.</li></ul>Voir [ Trouver les ID de votre compte](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) pour obtenir des informations sur ces ID. Une fois que vous êtes connecté, la variable **[!UICONTROL Jeton OAuth]** affichage des champs **[!UICONTROL Récupéré]**. |
+   | Jeton OAuth | **Remarque :** OAuth est un protocole libre de délégation d’accès, utilisé généralement afin d’autoriser des sites web ou des applications à accéder à leurs informations à partir d’autres sites web sans leur donner les mots de passe. Remarque : vous serez redirigé vers une URL tierce (efrontier.com). Adobe utilise efrontier pour faire fonctionner le processus d’authentification OAuth pour les trois moteurs de recherche. Remarque : si vous utilisez Internet Explorer 11 (ou une version antérieure), vous ne parviendrez pas à récupérer le jeton OAuth pour aucun des trois moteurs de recherche. Utilisez d’autres navigateurs web en remplacement.<p>Un clic sur **[!UICONTROL Récupérer le jeton]** lancera le processus d’authentification OAuth2. Vous serez invité à vous connecter à votre compte de recherche Google/Bing en utilisant vos identifiants. Selon le moteur de recherche utilisé, le processus sera légèrement différent : <ul><li>Google AdWords : utilisez votre numéro de compte Google</li><li>Microsoft Bing : utilisez vos ID de compte Bing et vos ID de client Bing.</li></ul>Voir [Trouvez votre numéro de compte](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md) pour obtenir des informations sur ces numéros. Une fois votre connexion effectuée, le champ du **[!UICONTROL jeton OAuth]** affichera **[!UICONTROL Récupéré]**. |
 
 1. Dans la section **[!UICONTROL Suivi]**, vous fournissez des informations sur la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
 Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit :
