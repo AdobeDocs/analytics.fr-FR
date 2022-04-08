@@ -4,7 +4,7 @@ description: Utilisez la variable linkExternalFilters pour faciliter le suivi au
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Si cette variable contient une valeur, le suivi automatique des liens de sortie 
 
 Si vous utilisez à la fois `linkInternalFilters` et `linkExternalFilters`, le lien sur lequel l’utilisateur a cliqué doit correspondre à `linkExternalFilters` **et** ne pas correspondre à `linkInternalFilters` pour être considéré comme un lien de sortie. Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
-## Liens sortants : suivi à l’aide de balises dans Adobe Experience Platform
+## Liens sortants : suivi à l’aide de balises dans Adobe Experience Platform
 
 Le champ Suivi est une liste de filtres séparés par des virgules (généralement des domaines) sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
