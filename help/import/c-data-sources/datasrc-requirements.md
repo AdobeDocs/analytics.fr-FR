@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les sections suivantes répertorient les contraintes qui s’appliquent aux sour
 * [Dates](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
 * [Général](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
 * [Prise en charge multioctet](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Transfert de fichiers journaux Web](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Transfert de fichiers journaux web](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## Limites de taille {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -94,7 +94,7 @@ Si vous envoyez un fichier UTF-8 ou ISO-8859-1 et que votre suite de rapports n�
 * Les rapports de trafic, tels que les pages vues, constituent les rapports les plus utiles pour l’affichage de données de journaux Web.
 * Les noms de page s’affichent sous forme d’URL complète, incluant la chaîne de requête.
 * Chaque requête de fichier s’affiche sous forme d’une page distincte, comprenant les feuilles de style et les fichiers image.
-* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, Adobe enregistre les URL suivantes comme deux pages distinctes :
+* Si vous annexez des informations à l’URL, les fichiers peuvent être enregistrés sous forme de pages distinctes. Par exemple, Adobe enregistre les URL suivantes comme deux pages distinctes :
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
