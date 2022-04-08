@@ -5,7 +5,7 @@ title: Recherche d’événement de page
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -22,4 +22,4 @@ Table de recherche permettant de déterminer le type d’un accès d’après la
 | Vidéo jalon | 31 : Démarrage du média<br>32 : Mises à jour du média (aucun autre traitement de variable)<br>33 : Mises à jour des médias (avec d’autres variables) | 76 : Démarrage du média<br>77 : Mises à jour du média (aucun traitement de variable)<br>78 : Mises à jour du média (avec d’autres variables) |
 | Vidéo – Pulsation | 50 : Démarrage du flux média (hors Primetime)<br>51 : Fermeture du flux média (hors Primetime)<br>52 : Balayage du flux média (hors Primetime)<br>53 : Le flux média reste actif (hors Primetime)<br>54 : Démarrage d’une publicité dans le flux média (hors Primetime)<br>55 : Fermeture d’une publicité dans le flux média (hors Primetime)<br>56 : Balayage publicitaire dans le flux média (hors Primetime)<br>60 : Démarrage du flux média Primetime<br>61 : Fermeture du flux média Primetime<br>62 : Balayage du flux média Primetime<br>63 : Le flux média Primetime reste actif<br>64 : Démarrage d’une publicité dans le flux média Primetime<br>65 : Fermeture d’une publicité dans le flux média Primetime<br>66 : Balayage publicitaire dans le flux média Primetime | Même valeur que `page_event` |
 | Enquête | 40 : Tout appel généré par un questionnaire | 80 : Tout appel généré par un questionnaire |
-| Analytics pour Target | 70 : Accès incluant les données sur l’accès Target | Même valeur que `page_event` |
+| Analytics for Target | 70 : Accès incluant les données sur l’accès Target | Même valeur que `page_event` |
