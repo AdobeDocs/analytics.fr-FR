@@ -1,13 +1,13 @@
 ---
-description: Première étape lors de la création d’une requête dans Report Builder.
+description: Première étape lors de la création d’une requête dans Report Builder.
 title: 'Requêtes de données - Assistant Requête : Étape 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+source-git-commit: e3ce30e960f2adeaf2f4fb068d12efd2574c7ee9
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
