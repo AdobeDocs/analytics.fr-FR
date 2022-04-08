@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Le modèle Sources de données est un fichier .txt que vous pouvez ouvrir dans 
 Reportez-vous à la section [Référence du fichier d’importation](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) pour plus de détails.
 
 1. Connexion à Analytics.
-1. Dans l’en-tête de la Suite, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
+1. Dans l’en-tête de la Suite, cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Sources de données]**.
 1. Sur l’onglet **[!UICONTROL Créer]**, sélectionnez une catégorie et un type de modèle.
 1. Passez en revue les instructions et informations d’activation, puis cliquez sur **[!UICONTROL Activer]**.
 
