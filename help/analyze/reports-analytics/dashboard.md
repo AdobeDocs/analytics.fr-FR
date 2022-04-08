@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1827'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Outre les tableaux de bord que vous créez, les tableaux de bord prédéfinis su
 
 **[!UICONTROL Composants] > [!UICONTROL Tous les composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Sites locaux]**
 
-Ce tableau de bord personnalisable vous permet de déposer les mini-rapports dans le modèle fourni.
+Ce tableau de bord personnalisable vous permet de déposer les petits rapports dans le modèle fourni.
 
-**[!UICONTROL Composants] > [!UICONTROL Tous les composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Tableau de bord des opérations sur site]**
+**[!UICONTROL Composants] > [!UICONTROL Tous les composants] > [!UICONTROL Tableaux de bord] > [!UICONTROL Tableaux de bord partagés] > [!UICONTROL Tableau de bord des opérations sur le site]**
 
 Ce tableau de bord présente un aperçu des mesures clés liées aux opérations sur votre site web. Il contient les rapports suivants :
 
@@ -61,7 +61,7 @@ Utilisez le [!UICONTROL Gestionnaire de tableaux de bord] pour modifier et gére
 
 Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-manage.md).
 
-## Création d’un tableau de bord {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
+## Créer un tableau de bord {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
 Cette section décrit la procédure à suivre pour créer un tableau de bord.
 
@@ -92,7 +92,7 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
 
 1. (Facultatif) Pour définir le tableau de bord comme page d’entrée, cliquez sur **[!UICONTROL Autres options]** > **[!UICONTROL Définir comme page d’entrée]**.
 
-## Création d’un petit rapport {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
+## Créer un petit rapport {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
 Cette section décrit la procédure à suivre pour créer un mini-rapport. Une fois que vous avez créé un mini-rapport, vous pouvez l’afficher dans un tableau de bord.
 
@@ -118,7 +118,7 @@ t_dashboard_add_report.xml
 
    Ce petit rapport est ajouté au menu **[!UICONTROL Contenu des tableaux de bord]** dans l’éditeur du tableau de bord.
 
-## Ajout de contenu à un tableau de bord {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
+## Ajouter du contenu à un tableau de bord {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
 Étapes décrivant comment ajouter du contenu depuis d’autres tableaux de bord et des tableaux de bord partagés. Vous pouvez également ajouter le contenu de sources personnalisées et externes (texte et images, par exemple).
 
@@ -175,7 +175,7 @@ Vous pouvez créer les petits rapports de contenu d’utilisateur ci-après en i
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Modification des données d’un tableau de bord et d’un petit rapport {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
+## Modifier les données d’un tableau de bord et d’un petit rapport {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
 Vous pouvez modifier les paramètres des données au niveau du tableau de bord ou du mini-rapport. Vous pouvez par exemple modifier ou verrouiller la suite de rapports, modifier les dates, appliquer des segments, etc. Vous pouvez également personnaliser un tableau de bord en insérant la politique de confidentialité de votre entreprise et inclure des données HTML, XML, web API et CSV dans vos mini-rapports personnalisés.
 
@@ -187,7 +187,7 @@ t_dashboard_edit.xml
 
 **Pour modifier les données d’un tableau de bord et d’un mini-rapport**
 
-1. Cliquez sur **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Tableaux de bord]** > *nom du tableau de bord* pour ouvrir un tableau de bord.
+1. Cliquez sur **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Tableaux de bord]** > *nom du tableau de bord* pour ouvrir un tableau de bord.
 1. Cliquez sur **[!UICONTROL Mise en page]**.
 
 | À | Procédez comme suit : |
@@ -205,7 +205,7 @@ t_dashboard_edit.xml
 | Imprimer un tableau de bord | Dans un tableau de bord, cliquez sur [!UICONTROL Plus] > Imprimer. |
 | Enregistrer un tableau de bord | Dans un tableau de bord, cliquez sur Enregistrer sous, puis précisez un nom. |
 
-## Alliance de marques sur un tableau de bord {#task_603BDE7700B945699AF5514C2DEB81F7}
+## Associer des marques sur un tableau de bord {#task_603BDE7700B945699AF5514C2DEB81F7}
 
 Cette section décrit la procédure à suivre pour télécharger une image afin de l’afficher dans un tableau de bord.
 
@@ -215,14 +215,14 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]**.
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de la société]**.
 1. Sur la page [!UICONTROL Paramètres de la société], cliquez sur **[!UICONTROL Co-marquer la suite Adobe Experience Cloud]**.
 1. Cliquez sur **[!UICONTROL Activer l’alliance de marques]**.
 1. Sélectionnez l’image à télécharger, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    Afin d’optimiser l’affichage dans un navigateur, chargez une image de 100 x 30 pixels. Pour de meilleurs résultats en sortie PDF, chargez une image de 417 x 125 pixels (300 ppp). Les images trop grandes sont réduites tout en conservant leurs proportions.
 
-## Utilisation des segments avec les tableaux de bord {#concept_ED030C3713D54D03971FB7B209285750}
+## Utiliser des segments avec les tableaux de bord {#concept_ED030C3713D54D03971FB7B209285750}
 
 Comme la plupart des rapports dans Adobe Analytics, les tableaux de bord peuvent utiliser des segments pour extraire les données souhaitées.
 
