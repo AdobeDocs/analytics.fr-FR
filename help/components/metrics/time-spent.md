@@ -4,7 +4,7 @@ description: Une page agrégée des dimensions et mesures de durée de la visite
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1581'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | - | Produit | Accueil | Accueil   (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Product | Accueil | Accueil   (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A   (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C   (définie) |
 | **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
