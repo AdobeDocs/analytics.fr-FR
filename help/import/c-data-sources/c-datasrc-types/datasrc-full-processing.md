@@ -5,7 +5,7 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html?lang=fr) plutôt que des sources de données à traitement complet. Adobe a mis fin à l’utilisation des sources de données à traitement complet le 31 juillet 2022. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recommande aux clients d’utiliser l’[API Bulk Data Insertion (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) plutôt que des sources de données à traitement complet. Adobe a mis fin à l’utilisation des sources de données à traitement complet le 31 juillet 2022. [En savoir plus](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 Les variables suivantes sont prises en charge lors du traitement des données sous forme d’un appel de serveur standard (Générique > Traitement complet).
 
