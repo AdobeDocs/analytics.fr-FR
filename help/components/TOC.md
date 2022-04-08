@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
-user-guide-description: Permet de gérer vos données à l’aide de composants tels que les segments, les mesures calculées, les suites de rapports virtuelles, les alertes, les canaux marketing, les classifications et en savoir plus sur les analyses entre appareils.
+user-guide-description: Facilitez la gestion de vos données à l’aide de composants tels que des segments, des mesures calculées, des suites de rapports virtuelles, des alertes, des canaux marketing ainsi que des classifications et découvrez la fonctionnalité Analytics sur l’ensemble des appareils.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] Guide des composants {#components}
 
 + [Guide des composants d’Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Dimensions {#dimensions}
    + [Présentation des dimensions](dimensions/overview.md)
    + [Compatibilité des dimensions](dimensions/compatibility.md)
@@ -161,7 +161,7 @@ ht-degree: 95%
       + [Partage des segments](segmentation/segmentation-workflow/t-seg-share.md)
       + [Publication de segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Sélection et application des segments](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Filtrage des segments](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Filtrer des segments](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marquage des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Suppression des segments](segmentation/segmentation-workflow/seg-delete.md)
       + [Gestion des segments](segmentation/segmentation-workflow/seg-manage.md)
