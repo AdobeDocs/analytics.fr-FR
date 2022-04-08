@@ -4,13 +4,13 @@ title: Migration des utilisateurs d’Analytics vers l’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Migration des utilisateurs d’Analytics vers l’Admin Console{#analytics-user-migration-to-the-admin-console}
+# Migration des utilisateurs d’Analytics vers lʼAdmin Console{#analytics-user-migration-to-the-admin-console}
 
 Ce que vous devez savoir sur la migration des ID utilisateur d’Analytics vers l’Admin Console dans un environnement Adobe Experience Cloud.
 
@@ -38,7 +38,7 @@ Les avantages de l’utilisation de l’Admin Console sont les suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestion de l’identité des utilisateurs et des autorisations </p> </td> 
-   <td colname="col2"> <p>Les administrateurs d’Analytics peuvent gérer les utilisateurs et les autorisations exclusivement dans l’<a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Les administrateurs d’Analytics peuvent gérer les utilisateurs et les autorisations exclusivement dans l’<a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestion des produits et des services principaux </p> </td> 
@@ -47,7 +47,7 @@ Les avantages de l’utilisation de l’Admin Console sont les suivants :
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invitez de nouveaux utilisateurs </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Créez des profils produit </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Accordez des autorisations aux utilisateurs pour des produits et services spécifiques </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accédez aux <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html">services principaux inter-solutions</a> disponibles dans l’environnement Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accédez aux <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=fr">services principaux inter-solutions</a> disponibles dans l’environnement Adobe Experience Cloud. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ Réponses à certaines questions que vous pourriez vous poser avant la migration
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mise à jour de Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>Important : mettez à jour <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html"> Report Builder</a> vers la dernière version. </p> </p> </td> 
+   <td colname="col2"> <p> <p>Important : mettez à jour <a href="https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html?lang=fr"> Report Builder</a> vers la dernière version. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quand commence la migration ? </p> </td> 
@@ -97,7 +97,7 @@ Réponses à certaines questions que vous pourriez vous poser avant la migration
      <li id="li_418476105FE341229CE146E730AAB33D">Vos groupes d’autorisations existants d’Analytics sont répliqués automatiquement dans l’Admin Console sous la forme de profils produits, y compris leur description et les autorisations granulaires relatives aux suites de rapports, aux mesures, aux dimensions et aux outils Analytics et de suite de rapports. </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">Si certains de vos utilisateurs Analytics actuels ont été créés dans l’Admin Console (signifiant qu’ils disposent d’un Adobe/Enterprise ID lié), ils sont ajoutés aux profils produits appropriés dans l’Admin Console. </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">La section Gestion utilisateur de l’onglet Admin d’Analytics est définie sur <span class="term"> lecture seule</span>. Vous ne pourrez plus créer d’utilisateurs ou de groupes d’autorisations dans cette section et devrez effectuer ces actions via l’Admin Console. Pour plus d’informations, voir <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56"> Fonctionnalités d’Analytics non prises en charge par l’Admin Console</a>. </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">En tant qu’administrateur, il vous sera accordé un accès à l’outil <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">Migration de l’ID utilisateur</a>. En outre, une notification intégrée au produit s’affiche, incluant la date de fin de la migration (généralement 60 jours dans le futur) en plus de liens vers le contenu de l’aide et les FAQ. </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">En tant qu’administrateur, il vous sera accordé un accès à l’outil <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html?lang=fr">Migration de l’ID utilisateur</a>. En outre, une notification intégrée au produit s’affiche, incluant la date de fin de la migration (généralement 60 jours dans le futur) en plus de liens vers le contenu de l’aide et les FAQ. </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">Il vous sera accordé un accès à l’onglet Autorisations dans l’Admin Console qui permet de créer des profils produits avec toutes les options granulaires que vous connaissez dans Analytics. </li> 
     </ul> </td> 
   </tr> 
@@ -120,19 +120,19 @@ Réponses à certaines questions que vous pourriez vous poser avant la migration
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">vérifier que vous êtes un administrateur produit Analytics dans l’Admin Console ; </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">informer votre base d’utilisateurs du changement de leur mode de connexion dès lors que la migration aura commencé ; </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">auditer les utilisateurs et autorisations actuels et réaliser des activités de nettoyage. </li> 
-    </ul> <p>Pour accélérer votre migration, contactez votre gestionnaire de succès client via l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a> et soumettez une demande de date de début anticipée. </p> </td> 
+    </ul> <p>Pour accélérer votre migration, contactez votre gestionnaire de succès client via l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a> et soumettez une demande de date de début anticipée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Je suis un administrateur Analytics sans accès à l’Admin Console. Qui peut m’aider à avoir accès à l’Admin Console ? </p> </td> 
-   <td colname="col2"> <p>Tout administrateur système ou produit disposant d’un accès à l’Admin Console de votre organisation peut vous accorder cet accès. Si vous ne savez pas qui dans votre organisation dispose des privilèges administrateur de la console, contactez l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p> </td> 
+   <td colname="col2"> <p>Tout administrateur système ou produit disposant d’un accès à l’Admin Console de votre organisation peut vous accorder cet accès. Si vous ne savez pas qui dans votre organisation dispose des privilèges administrateur de la console, contactez l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Puis-je retarder la date de début de la migration ? </p> </td> 
-   <td colname="col2"> <p>Oui. Pour ce faire, contactez l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p><p>Voir ci-dessous la description des modifications apportées à votre gestion actuelle des utilisateurs et des autorisations d’Analytics à la date de début. </p> </td> 
+   <td colname="col2"> <p>Oui. Pour ce faire, contactez l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p><p>Voir ci-dessous la description des modifications apportées à votre gestion actuelle des utilisateurs et des autorisations d’Analytics à la date de début. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maintenant que ma société migre vers l’Admin Console, où puis-je créer les nouveaux utilisateurs et groupes d’autorisations avant la date de début de la migration ? </p> </td> 
-   <td colname="col2"> <p>Avant la date de début de la migration, vous pouvez créer des utilisateurs dans l’Admin Console ou sous Analytics &gt; Gestion utilisateur. </p> <p>Une fois que la migration aura commencé, vous ne pourrez créer les utilisateurs et les groupes d’autorisations que dans l’Admin Console. </p><p>voir la section Migration ci-dessous pour plus d’informations sur ce qui se passe à la date de début de la migration. </p>
+   <td colname="col2"> <p>Avant la date de début de la migration, vous pouvez créer des utilisateurs dans l’Admin Console ou sous Analytics &gt; Gestion utilisateur. </p> <p>Une fois que la migration aura commencé, vous ne pourrez créer les utilisateurs et les groupes d’autorisations que dans l’Admin Console. </p><p>consultez la section Migration ci-dessous pour plus d’informations sur ce qui se passe à la date de début de la migration. </p>
    </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
  </tbody> 
 </table>
 
-## Fonctionnalités d’Analytics non prises en charge par l’Admin Console {#section-928ffba27a0446e0af575b720434ef56}
+## Fonctionnalités d’Analytics non prises en charge par l’Admin Console {#section-928ffba27a0446e0af575b720434ef56}
 
 >[!IMPORTANT]
 >
@@ -288,7 +288,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
   </tr> 
   <tr> 
    <td colname="col1"> <p>Authentification unique </p> </td> 
-   <td colname="col2"> <p> Les configurations de connexion unique d’Analytics sont supprimées lorsque vous avez terminé la migration. Elles restent actives au cours de la migration. Les clients qui utilisent la connexion unique Analytics doivent effectuer une mise à niveau vers <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics recommande que vous migriez vos utilisateurs sous la forme d’Adobe ID dans un premier temps afin de créer facilement les comptes Experience Cloud, puis de convertir ces comptes en utilisateurs à connexion unique Federated. </p> </td> 
+   <td colname="col2"> <p> Les configurations de connexion unique d’Analytics sont supprimées lorsque vous avez terminé la migration. Elles restent actives au cours de la migration. Les clients qui utilisent la connexion unique Analytics doivent effectuer une mise à niveau vers <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics recommande que vous migriez vos utilisateurs sous la forme d’Adobe ID dans un premier temps afin de créer facilement les comptes Experience Cloud, puis de convertir ces comptes en utilisateurs à connexion unique Federated. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Téléchargement de groupes d’autorisations </p> </td> 
@@ -309,7 +309,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
 
 Vous souhaiterez peut-être communiquer ce plan de migration de manière proactive aux utilisateurs actuels. Vous trouverez ci-dessous un modèle de courrier électronique que vous pouvez personnaliser avant de l’envoyer à tous vos utilisateurs Analytics actuels :
 
-Pour envoyer un courrier électronique à tous les utilisateurs, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** > [Utilisateurs de messagerie électronique](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html).
+Pour envoyer un e-mail à tous les utilisateurs, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]** > [Envoyer un e-mail aux utilisateurs](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html?lang=fr).
 
 **Objet :** Très bientôt - Nouveau mode de connexion à Adobe Analytics et Adobe Experience Cloud.
 
@@ -321,7 +321,7 @@ Notre société va commencer à migrer tous les comptes Adobe Analytics depuis [
 
 **Ressources utiles :**
 
-[Connexion et gestion des paramètres du profil](https://helpx.adobe.com/fr/enterprise/admin-guide.html/fr/enterprise/using/manage-products.ug.html).
+[Connectez-vous et gérez les paramètres du profil](https://helpx.adobe.com/fr/enterprise/admin-guide.html/fr/enterprise/using/manage-products.ug.html).
 
 Contactez vos administrateurs Analytics en cas de questions ou problèmes.
 
