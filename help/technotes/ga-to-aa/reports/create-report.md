@@ -4,7 +4,7 @@ description: Découvrez comment créer un rapport de base dans Analysis Workspac
 feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Créez le modèle Consommation de contenu (similaire au rapport Toutes les pages
 
 Analysis Workspace étant un outil de reporting, il n’a aucun impact sur la collecte de données. Il n’y a aucune répercussion si vous faites glisser sans distinction des composants dans un projet pour voir ce qui fonctionne. Faites glisser différentes combinaisons de dimensions et de mesures dans votre projet Workspace pour voir ce qui est mis à votre disposition.
 
-Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl+Z (Windows) ou sur cmd+Z (Mac) pour annuler la dernière action effectuée. Vous pouvez également commencer à zéro en cliquant sur *[!UICONTROL Projet] > [!UICONTROL Nouveau]* dans le menu supérieur gauche.
+Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl + Z (Windows) ou sur cmd + Z (Mac) pour annuler la dernière action effectuée. Vous pouvez également commencer à zéro en cliquant sur *[!UICONTROL Projet] > [!UICONTROL Nouveau]* dans le menu supérieur gauche.
 
 Adobe a placé de nombreuses fonctionnalités d’Analysis Workspace dans le menu contextuel accessible par un clic droit. Il est possible d’effectuer un clic droit sur la plupart des visualisations et composants pour obtenir une analyse ou effectuer des interactions plus détaillées. Pensez à cliquer avec le bouton droit de la souris sur les composants de votre espace de travail pour voir quelles options sont disponibles.
 
