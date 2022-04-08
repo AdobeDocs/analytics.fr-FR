@@ -5,7 +5,7 @@ title: Expiration du canal marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Les paramètres d’expiration sont les suivants :
 | Jamais | La période d’engagement du visiteur n’expire jamais. |
 | Réinitialisation de canal | Fait expirer toutes les périodes d’engagement des visiteurs.  Si vous devez réinitialiser toutes les données de canal marketing, vous pouvez mettre fin à toutes les périodes d’activité des visiteurs. Vous devrez peut-être réinitialiser les données si vos règles de traitement étaient incorrectement configurées. Toutes les valeurs de canal Première touche et Dernière touche vont immédiatement expirer et seront réinitialisées au retour des visiteurs. |
 
-## Définition de l’expiration du canal marketing {#define-expiration}
+## Définir l’expiration du canal marketing {#define-expiration}
 
 Indiquez la période d’engagement des visiteurs.
 
