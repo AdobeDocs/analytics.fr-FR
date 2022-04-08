@@ -4,7 +4,7 @@ title: À propos des segments et des conteneurs
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3705'
 ht-degree: 100%
 
@@ -132,7 +132,7 @@ Vous pouvez utiliser l’imbrication de conteneurs ainsi que de règles dans un 
 
 **Inclure plusieurs conteneurs dans une seule définition**
 
-L’inclusion de plusieurs segments dans un nouveau segment composé permet d’affiner encore plus les données. Le fait de faire glisser deux segments existants ensemble agit comme une instruction « OU » lors du filtrage des visiteurs. Tous les conteneurs du canevas sont comparés à l’ensemble des données et les données qui correspondent à l’un des conteneurs sont incluses dans la création de rapports.
+L’inclusion de plusieurs segments dans un nouveau segment composé permet d’affiner encore plus les données. Le fait de faire glisser deux segments existants ensemble agit comme une instruction « OR » lors du filtrage des visiteurs. Tous les conteneurs du canevas sont comparés à l’ensemble des données et les données qui correspondent à l’un des conteneurs sont incluses dans la création de rapports.
 
 Par exemple, le fait de faire glisser un conteneur de visites pour lequel Pays = États-Unis avec un conteneur de visites pour lequel Commande = Vrai
 
