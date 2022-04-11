@@ -4,10 +4,10 @@ description: Comment créer des annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
+source-git-commit: 587de061b1a395892be55a1898dde9f3204f285c
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 54%
+source-wordcount: '597'
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 54%
 | **Cliquez avec le bouton droit de la souris sur un point dans un [!UICONTROL Ligne] graphique.** | Le [!UICONTROL Créateur d’annotations] s’ouvre. Notez que, par défaut, les annotations créées de cette manière sont visibles uniquement dans le projet dans lequel elles ont été créées. Mais vous pouvez les rendre accessibles à tous les projets. Notez également que la ou les dates et toute mesure, etc., ont déjà été renseignées.<p>![](assets/annotate-line.png) |
 | **Dans l’espace de travail, accédez à [!UICONTROL Composants] > [!UICONTROL Créer une annotation].** | Le [!UICONTROL Créateur d’annotations] s’ouvre. |
 | **Utiliser cette touche rapide** pour ouvrir le créateur d’annotations : (PC) `ctrl` `shift` + o, (Mac) `shift` + `command` + o | Notez qu’en utilisant la touche rapide pour créer une annotation, vous créez une annotation d’un seul jour pour la date actuelle, sans portée présélectionnée (mesures ou dimensions). |
-| **Utilisez la variable [API d’annotations 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Les API d’annotation Analytics 2.0 vous permettent de créer, mettre à jour ou récupérer des annotations par programmation via Adobe I/O. Ces API utilisent les mêmes données et méthodes que celles utilisées par Adobe dans l’interface utilisateur du produit. |
 
 1. Renseignez les [!UICONTROL Créateur d’annotations] éléments .
 
