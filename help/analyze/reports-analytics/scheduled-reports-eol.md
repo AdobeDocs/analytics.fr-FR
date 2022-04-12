@@ -3,17 +3,17 @@ title: Avis de fin de vie pour les rapports planifiés
 description: Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans.
 feature: Reports & Analytics Basics
 role: User, Admin
-source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
+exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
 
 ---
 
-
 # Avis de fin de vie pour les rapports planifiés
 
-À compter du 15 avril 2022, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (toutes les tâches créées avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé.
+À compter du 21 avril 2022, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (toutes les tâches créées avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé.
 
 Tous les rapports planifiés à envoyer peuvent être réactivés en se connectant simplement à Analytics et en ouvrant la variable [!UICONTROL Rapports planifiés] gestionnaire. Cliquez sur le bouton [!UICONTROL Modifier] et définissez une nouvelle heure et une nouvelle expiration planifiées. Tout rapport qui sera réactivé aura une expiration par défaut de 9 mois, sauf si une date d’expiration plus courte est choisie.
 

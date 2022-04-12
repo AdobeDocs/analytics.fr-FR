@@ -4,10 +4,10 @@ title: Gestionnaires des tâches planifiées
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Le [!UICONTROL Gestionnaire des tâches planifiées] vous permet d’afficher la
 
 ## Suspension des tâches planifiées plus anciennes
 
-**Effectives le 15 avril 2022**, Adobe a l’intention de suspendre toutes les tâches de Report Builder planifiées qui ont été créées il y a plus de deux ans. Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020 ;**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
+À compter du **21 avril 2022**, Adobe prévoit de suspendre toutes les tâches planifiées de Report Builder créées il y a plus de deux ans. Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020 ;**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
 
 Toutes les tâches que vous souhaitez reprendre l’envoi peuvent être réactivées. Connectez-vous à Report Builder et lancez le [!UICONTROL Gestionnaire des tâches planifiées]. Cliquez sur **[!UICONTROL Réactiver]** pour la tâche planifiée que vous souhaitez reprendre l’envoi. Toute tâche qui sera réactivée aura une expiration par défaut de 18 mois, sauf si une date d’expiration plus courte est choisie.
 
