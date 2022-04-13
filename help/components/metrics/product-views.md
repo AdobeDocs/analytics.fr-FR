@@ -3,10 +3,10 @@ title: Consultations de produit
 description: Nombre de pages de produit vues.
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +19,4 @@ La mesure « Consultations de produit » indique le nombre de fois où un prod
 Cette mesure comptabilise le nombre d’accès correspondant à **n’importe laquelle** des options suivantes :
 
 * La valeur `prodView` existe dans la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md), ou
-* La variable [`products`](/help/implement/vars/page-vars/products.md) est définie et aucun événement de panier n’existe dans la variable `events`. Tout événement non personnalisé (`event1` - `event1000`) est un événement de panier.
+* Le [`products`](/help/implement/vars/page-vars/products.md) est définie, et la variable `events` est vide.
