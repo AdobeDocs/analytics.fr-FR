@@ -1,16 +1,16 @@
 ---
-title: Configuration requise
+title: Configuration requise pour Adobe Analytics
 description: Configuration requise pour l’utilisation d’Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 92%
 
 ---
 
-# Configuration requise
+# Configuration requise pour Adobe Analytics
 
 Indique la configuration système requise pour utiliser les différentes solutions de produits dans Adobe Analytics.
 

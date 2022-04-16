@@ -2,10 +2,10 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ Les analyses entre appareils extraient les éléments de dimension des variables
 
 ## Combien de suites de rapports de mon entreprise peuvent être activées pour les analyses entre appareils ?
 
-Plusieurs suites de rapports peuvent être activées. Cependant, chaque suite de rapports supplémentaire augmentera le temps d’approvisionnement total si plusieurs suites de rapports sont demandées en même temps. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc.
+À compter du 1er mai 2022, toute nouvelle mise en oeuvre des Analyses entre appareils sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc..
 
 ## Si mon organisation Experience Cloud (ou organisation IMS) compte plusieurs entreprises dans différentes zones géographiques, puis-je activer les analyses entre appareils pour chacune d’entre elles ?
 

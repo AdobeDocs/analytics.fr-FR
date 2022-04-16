@@ -1,22 +1,17 @@
 ---
 description: Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, le chiffre d’affaires, etc.
-title: Présentation des mesures
-uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
+title: Mesures - Aperçu
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 99%
+source-wordcount: '325'
+ht-degree: 100%
 
 ---
 
-# Mesures
-
-Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, le chiffre d’affaires, etc.
-
-## Mesures - Aperçu
+# Mesures - Aperçu
 
 Les mesures sont la base des rapports ; elles vous aident à connaître et à comprendre les relations entre les données, et à comparer des ensembles de données relatives à votre site web. Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, le chiffre d’affaires, etc.
 
