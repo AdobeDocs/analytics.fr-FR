@@ -3,13 +3,13 @@ description: Le panneau Résumé de la page affiche des informations récapitula
 title: Panneau Résumé de la page
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # Panneau Résumé de la page
 
@@ -26,12 +26,12 @@ Vous pouvez accéder au panneau à partir de la fonction [!UICONTROL Rapports] o
 
 ## Entrées du panneau {#Input}
 
-Vous pouvez configurer la variable [!UICONTROL Élément suivant ou précédent] panneau à l’aide des paramètres d’entrée suivants :
+Vous pouvez configurer la variable [!UICONTROL Résumé de la page] à l’aide des paramètres d’entrée suivants :
 
 | Paramètre | Description |
 | --- | --- |
 | Zone de dépôt de segment (ou autre composant) | Vous pouvez faire glisser et déposer des segments ou d’autres composants pour filtrer davantage les résultats du panneau. |
-| Élément de dimension de page | Dans la liste déroulante, sélectionnez l’élément de dimension dont vous souhaitez explorer les statistiques clés. |
+| Élément de dimension de page | Dans la liste déroulante, sélectionnez l’élément de dimension Page dont vous souhaitez explorer les statistiques clés. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ Le [!UICONTROL Résumé de la page] renvoie un riche ensemble de données de mes
 | [!UICONTROL Flux] | Diagramme de flux avec la page sélectionnée comme point focal. Vous pouvez approfondir l’analyse des données comme n’importe quelle [Diagramme de flux](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
 
 {style=&quot;table-layout:auto&quot;}
+
+![Panneau Résumé de la page](assets/page-sum1.png)
+
+![Mesures et flux](assets/page-sum2.png)
