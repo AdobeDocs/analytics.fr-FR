@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '996'
 ht-degree: 40%
 
 ---
@@ -26,8 +26,8 @@ ht-degree: 40%
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
 | Mises à jour des landing pages Adobe Analytics | Mises à jour de la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliore la convivialité et la facilité de navigation. [En savoir plus](/help/analyze/landing.md) | 20 avril 2022 |
-| [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] Panneau Espace de travail | Le [!UICONTROL Élément suivant ou précédent] vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. Par exemple, utilisez-le si vous souhaitez afficher les pages suivantes ou précédentes d’une page de produit spécifique, d’un canal marketing ou même d’un type de périphérique. Ce panneau va au-delà des rapports précédents/suivants hérités, car il vous permet d’examiner n’importe quelle dimension et ne nécessite aucune nouvelle implémentation pour obtenir des informations. | 20 avril 2022 |
-| [!UICONTROL Résumé de la page] Panneau Espace de travail | Le [!UICONTROL Résumé de la page] fournit une analyse approfondie d’une page de votre choix. Il fournit les mêmes détails que l’ancien Reports &amp; Analytics. [!UICONTROL Résumé de la page] rapport, plus beaucoup plus. | 20 avril 2022 |
+| [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] Panneau Espace de travail | Le [!UICONTROL Élément suivant ou précédent] vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. Par exemple, utilisez-le si vous souhaitez afficher les pages suivantes ou précédentes d’une page de produit spécifique, d’un canal marketing ou même d’un type de périphérique. Ce panneau va au-delà des rapports précédents/suivants hérités, car il vous permet d’examiner n’importe quelle dimension et ne nécessite aucune nouvelle implémentation pour obtenir des informations. [En savoir plus](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 avril 2022 |
+| [!UICONTROL Résumé de la page] Panneau Espace de travail | Le [!UICONTROL Résumé de la page] fournit une analyse approfondie d’une page de votre choix. Il fournit les mêmes détails que l’ancien Reports &amp; Analytics. [!UICONTROL Résumé de la page] rapport, plus beaucoup plus. [En savoir plus](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 avril 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 

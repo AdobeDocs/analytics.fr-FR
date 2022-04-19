@@ -4,10 +4,10 @@ description: Mises à jour notables de l’ensemble de documentation Adobe Analy
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3212'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,10 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 | --- | --- |
+| **Avril 2022** |  |
+| Mises à jour des landing pages Adobe Analytics | Mises à jour de l’association [Page d’entrée Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
+| Nouvelle rubrique sur [!UICONTROL Résumé de la page] panel | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| Nouvelle rubrique sur [!UICONTROL Élément suivant/précédent] panel | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Mars 2022** |  |
 | Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;. |
 | Nouvelle documentation sur les annotations dans Workspace | [Annotations dans Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement des nuances et des informations sur les données contextuelles à votre organisation. |
