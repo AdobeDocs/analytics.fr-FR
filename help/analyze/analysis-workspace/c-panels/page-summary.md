@@ -3,9 +3,9 @@ description: Le panneau Résumé de la page affiche des informations récapitula
 title: Panneau Résumé de la page
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Panneau Résumé de la page
 
-Le [!UICONTROL Résumé de la page] a commencé sous la forme d’un rapport dans Reports &amp; Analytics, sous Rapports > Engagement > Analyse de page > Résumé de la page. Ce panneau Workspace vous permet d’explorer facilement les statistiques clés sur des pages spécifiques.
+Le [!UICONTROL Résumé de la page] a commencé sous la forme d’un rapport dans Reports &amp; Analytics, sous Rapports > Engagement > Analyse de page > Résumé de la page. Il s’agit désormais également d’un panneau Workspace. Ce panneau vous permet d’explorer facilement les statistiques clés sur des pages spécifiques.
 
 ## Accès au panneau
 
