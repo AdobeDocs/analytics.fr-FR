@@ -3,9 +3,9 @@ description: Panneau qui affiche les éléments de dimension précédents ou sui
 title: Panneau d’élément suivant ou précédent
 feature: Panels
 role: User, Admin
-source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
+source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 8%
 
 ---
@@ -13,8 +13,7 @@ ht-degree: 8%
 
 # Panneau d’élément suivant ou précédent
 
-Le [!UICONTROL Élément suivant ou précédent] a commencé en tant que rapport dans Reports &amp; Analytics, sous [!UICONTROL Rapports] > [!UICONTROL Le plus populaire] > [!UICONTROL Page suivante/page précédente]. Ce panneau Workspace contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple : 
-        
+Le [!UICONTROL Élément suivant ou précédent] a commencé en tant que rapport dans Reports &amp; Analytics, sous [!UICONTROL Rapports] > [!UICONTROL Le plus populaire] > [!UICONTROL Page suivante/page précédente]. Ce panneau Workspace contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple, vous souhaitez peut-être explorer les pages les plus consultées par les clients après avoir visité la page d’accueil.
 
 ## Accès au panneau
 
