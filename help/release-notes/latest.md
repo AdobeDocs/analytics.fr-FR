@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
+source-git-commit: 80e7241fd35e5c745c2341182983613f537ce224
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 32%
+source-wordcount: '1022'
+ht-degree: 31%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (avril 2022)
 
-**Dernière mise à jour**: 19 avril 2022
+**Dernière mise à jour**: 20 avril 2022
 
 * Pour les notes de mise à jour de mars 2022, accédez à [here](/help/release-notes/2022.md).
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 | Mises à jour des landing pages Adobe Analytics | Mises à jour de la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliore la convivialité et la facilité de navigation. [En savoir plus](/help/analyze/landing.md) | 20 avril 2022 |
 | [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] Panneau Espace de travail | Le [!UICONTROL Élément suivant ou précédent] vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. Par exemple, utilisez-le si vous souhaitez afficher les pages suivantes ou précédentes d’une page de produit spécifique, d’un canal marketing ou même d’un type de périphérique. Ce panneau va au-delà des rapports précédents/suivants hérités, car il vous permet d’examiner n’importe quelle dimension et ne nécessite aucune nouvelle implémentation pour obtenir des informations. [En savoir plus](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 20 avril 2022 |
 | [!UICONTROL Résumé de la page] Panneau Espace de travail | Le [!UICONTROL Résumé de la page] fournit une analyse approfondie d’une page de votre choix. Il fournit les mêmes détails que l’ancien Reports &amp; Analytics. [!UICONTROL Résumé de la page] rapport, plus beaucoup plus. [En savoir plus](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 20 avril 2022 |
-| Suppression de l’exigence de `x-proxy-global-company-id` en-tête des appels API 2.0 | Les API d’Adobe Analytics 2.0 ne nécessitent plus le `x-proxy-global-company-id` , car ces informations font partie de l’URL du point de terminaison . Vous pouvez toujours inclure cet en-tête, mais ne renvoie plus d’erreur s’il est manquant. | 20 avril 2022 |
+| Suppression de l’exigence de `x-proxy-global-company-id` en-tête des appels API 2.0 | Les API d’Adobe Analytics 2.0 ne nécessitent plus le `x-proxy-global-company-id` , car ces informations font partie de l’URL du point de terminaison . Vous pouvez toujours inclure cet en-tête, mais vous n’obtenez plus d’erreur s’il manque. | 20 avril 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
