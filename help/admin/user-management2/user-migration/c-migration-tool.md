@@ -3,10 +3,10 @@ description: Ce que vous devez savoir sur la migration des ID utilisateur d’An
 title: Migration des utilisateurs d’Analytics vers l’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -120,15 +120,15 @@ Réponses à certaines questions que vous pourriez vous poser avant la migration
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">vérifier que vous êtes un administrateur produit Analytics dans l’Admin Console ; </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">informer votre base d’utilisateurs du changement de leur mode de connexion dès lors que la migration aura commencé ; </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">auditer les utilisateurs et autorisations actuels et réaliser des activités de nettoyage. </li> 
-    </ul> <p>Pour accélérer votre migration, contactez votre gestionnaire de succès client via l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a> et soumettez une demande de date de début anticipée. </p> </td> 
+    </ul> <p>Pour accélérer votre migration, contactez votre gestionnaire de succès client via l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a> et soumettez une demande de date de début anticipée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Je suis un administrateur Analytics sans accès à l’Admin Console. Qui peut m’aider à avoir accès à l’Admin Console ? </p> </td> 
-   <td colname="col2"> <p>Tout administrateur système ou produit disposant d’un accès à l’Admin Console de votre organisation peut vous accorder cet accès. Si vous ne savez pas qui dans votre organisation dispose des privilèges administrateur de la console, contactez l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p> </td> 
+   <td colname="col2"> <p>Tout administrateur système ou produit disposant d’un accès à l’Admin Console de votre organisation peut vous accorder cet accès. Si vous ne savez pas qui dans votre organisation dispose des privilèges administrateur de la console, contactez l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Puis-je retarder la date de début de la migration ? </p> </td> 
-   <td colname="col2"> <p>Oui. Pour ce faire, contactez l’<a href="https://helpx.adobe.com/fr/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p><p>Voir ci-dessous la description des modifications apportées à votre gestion actuelle des utilisateurs et des autorisations d’Analytics à la date de début. </p> </td> 
+   <td colname="col2"> <p>Oui. Pour ce faire, contactez l’<a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">assistance clientèle d’Adobe</a>. </p><p>Voir ci-dessous la description des modifications apportées à votre gestion actuelle des utilisateurs et des autorisations d’Analytics à la date de début. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Maintenant que ma société migre vers l’Admin Console, où puis-je créer les nouveaux utilisateurs et groupes d’autorisations avant la date de début de la migration ? </p> </td> 
@@ -280,7 +280,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
   </tr> 
   <tr> 
    <td colname="col1"> <p>API de gestion des utilisateurs <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> Types d’identité pris en charge par Adobe</a> </p> </td> 
-   <td colname="col2"> <p> Les administrateurs migrant vers l’Admin Console doivent configurer les <a href="https://developer.adobe.com/UMAPI/">API de gestion des utilisateurs</a> fournies par Adobe I/O pour un accès programmatique aux comptes utilisateur dans l’Admin Console. </p> <p>Les API d’autorisation d’Analytics sont désactivées lorsque vous êtes activé pour la migration. </p> </td> 
+   <td colname="col2"> <p> Les administrateurs qui migrent vers le Admin Console doivent configurer<a href="https://developer.adobe.com/UMAPI/"> API de gestion des utilisateurs</a> proposé sur Adobe Developer pour un accès programmatique aux comptes utilisateur dans le Admin Console. </p> <p>Les API d’autorisation d’Analytics sont désactivées lorsque vous êtes activé pour la migration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informations de connexion aux services web </p> </td> 
@@ -288,7 +288,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
   </tr> 
   <tr> 
    <td colname="col1"> <p>Authentification unique </p> </td> 
-   <td colname="col2"> <p> Les configurations de connexion unique d’Analytics sont supprimées lorsque vous avez terminé la migration. Elles restent actives au cours de la migration. Les clients qui utilisent la connexion unique Analytics doivent effectuer une mise à niveau vers <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics recommande que vous migriez vos utilisateurs sous la forme d’Adobe ID dans un premier temps afin de créer facilement les comptes Experience Cloud, puis de convertir ces comptes en utilisateurs à connexion unique Federated. </p> </td> 
+   <td colname="col2"> <p> Les configurations de connexion unique d’Analytics sont supprimées lorsque vous avez terminé la migration. Elles restent actives au cours de la migration. Les clients qui utilisent la connexion unique Analytics doivent effectuer une mise à niveau vers <a href="https://helpx.adobe.com/enterprise/help/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics recommande que vous migriez vos utilisateurs sous la forme d’Adobe ID dans un premier temps afin de créer facilement les comptes Experience Cloud, puis de convertir ces comptes en utilisateurs à connexion unique Federated. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Téléchargement de groupes d’autorisations </p> </td> 

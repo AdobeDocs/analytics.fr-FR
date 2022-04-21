@@ -3,10 +3,10 @@ title: Profils de produit pour Adobe Analytics
 description: Découvrez comment les profils de produit peuvent être utilisés comme paramètres d’autorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs d’une organisation.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '671'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,6 @@ Les éléments d’autorisation liés aux outils Analytics octroient l’accès 
 
 ## Développeurs de profil de produit
 
-Les développeurs sont similaires aux utilisateurs, sauf qu’ils peuvent utiliser l’API Experience Cloud sur Adobe I/O. Pour plus d’informations, voir [Gestion des développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide de l’utilisateur Enterprise. Si un utilisateur bénéficie dʼun accès Développeur pour nʼimporte quel profil, il peut accéder à la console Développeur (console.adobe.io) et modifier les intégrations dʼAdobe Analytics. Les appels et les réponses de lʼAPI Analytics autorisés pour lʼutilisateur dépendront des autorisations de tous les profils dans lesquels cet utilisateur a un accès Développeur.
+Les développeurs sont similaires aux utilisateurs, sauf qu’ils peuvent utiliser l’API Experience Cloud sur les développeurs Adobe. Voir [Gestion des développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour plus d’informations. Si un utilisateur bénéficie dʼun accès Développeur pour nʼimporte quel profil, il peut accéder à la console Développeur (console.adobe.io) et modifier les intégrations dʼAdobe Analytics. Les appels et les réponses de lʼAPI Analytics autorisés pour lʼutilisateur dépendront des autorisations de tous les profils dans lesquels cet utilisateur a un accès Développeur.
 
 Par exemple, avec les autorisations du profil comprenant toutes les mesures, toutes les dimensions et une suite de rapports, un membre du profil avec un accès Développeur pourrait effectuer des appels API pertinents à tout composant de la suite concernée. Avec lʼajout de la détection des anomalies, les rapports pourraient inclure des réponses plus complètes, comprenant les données sur les anomalies. En règle générale, si un profil accorde lʼaccès à un scénario dans lʼinterface Adobe Analytics, lʼaccès Développeur à un autre profil défini de manière similaire active les appels et réponses de lʼAPI correspondante.
