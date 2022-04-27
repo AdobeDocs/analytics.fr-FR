@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
 source-wordcount: '3212'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -24,20 +24,20 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Date | Description |
 | --- | --- |
 | **Avril 2022** |  |
-| Mises à jour des landing pages Adobe Analytics | Mises à jour de l’association [Page d’entrée Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
+| Mises à jour de la page de destination dʼAdobe Analytics | Mises à jour de l’association [Page d’entrée Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
 | Nouvelle rubrique sur [!UICONTROL Résumé de la page] panel | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nouvelle rubrique sur [!UICONTROL Élément suivant/précédent] panel | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Mars 2022** |  |
-| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;. |
-| Nouvelle documentation sur les annotations dans Workspace | [Annotations dans Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement des nuances et des informations sur les données contextuelles à votre organisation. |
-| Mises à jour des landing pages Adobe Analytics | [Mises à jour](/help/analyze/landing.md) à la page d’entrée conjointe Workspace/Reports &amp; Analytics qui améliore la convivialité et la facilité de navigation. |
-| [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] Panneau Espace de travail | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
-| [!UICONTROL Résumé de la page] Panneau Espace de travail | Ce panneau fournit une analyse approfondie d’une page de votre choix. |
-| Nouvelle rubrique sur la mise en pause des rapports planifiés plus anciens | Efficace **15 avril 2022**, l’Adobe a l’intention de [suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans ;](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est défini sur « Élevé ». |
+| Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et insights sur les données contextuelles à votre organisation. |
+| Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
+| Panneau Espace de travail [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
+| Panneau de l’espace de travail [!UICONTROL Synthèse de la page] | Ce panneau fournit une analyse approfondie d’une page de votre choix. |
+| Nouvelle rubrique sur la suspension des anciens rapports planifiés | À compter du **15 avril 2022**, Adobe a l’intention de [suspendre tous les rapports planifiés dont la date de création remonte à plus de deux ans](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
 | **Février 2022** |
-| Mode de prévisualisation du projet de cartes de performance mobile | Le [mode aperçu](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une fiche d’évaluation. |
+| Mode de prévisualisation du projet de cartes de performance mobile | Le [mode Prévisualisation](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une carte de performance. |
 | Point dʼentrée des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Mise à jour de la rubrique sur la mise en pause d’anciennes tâches de Report Builder planifiées | **Effectives le 15 avril 2022**, l’Adobe a l’intention de [mettre en pause toutes les tâches de Report Builder planifiées qui ont été créées il y a plus de deux ans ;](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Mise à jour de la rubrique sur la suspension des anciennes tâches planifiées de Report Builder | **À compter du 15 avril 2022**, Adobe prévoit de [suspendre toutes les tâches planifiées de Report Builder qui ont été créées il y a plus de deux ans](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
 | **Octobre 2021** |  |
 | 21 Octobre 2021 | Nouvelle documentation sur les [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) dans Analysis Workspace. |
 | 21 Octobre 2021 | Nouvelle documentation dans le panneau [Durée de lecture des médias](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=fr) dans Analysis Workspace. |
@@ -51,7 +51,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de nom d’[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=fr). |
 | **Juillet 2021** |  |
 | 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). |
-| 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [landing page d’Adobe Analytics](/help/analyze/landing.md). |
+| 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page de destination d’Adobe Analytics](/help/analyze/landing.md). |
 | **Juin 2021** |  |
 | 15 juin 2021 | Mise à jour des [Bonnes pratiques relatives aux canaux marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=fr). |
 | 3 juin 2021 | Mise à jour de la documentation destinée à mieux expliquer la [mise en œuvre des flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) et [ici](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=fr#BucketOwnerFullControl). |
