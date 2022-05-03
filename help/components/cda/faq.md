@@ -2,9 +2,9 @@
 title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1934'
 ht-degree: 98%
 
 ---
@@ -104,11 +104,11 @@ Les analyses entre appareils extraient les éléments de dimension des variables
 
 ## Combien de suites de rapports de mon entreprise peuvent être activées pour les analyses entre appareils ?
 
-À compter du 1er mai 2022, toute nouvelle mise en oeuvre des Analyses entre appareils sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc..
+À compter du 1er mai 2022, toute nouvelle implémentation de CDA sera limitée à un maximum de trois ID de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc..
 
-## Si mon organisation Experience Cloud (ou organisation IMS) compte plusieurs entreprises dans différentes zones géographiques, puis-je activer les analyses entre appareils pour chacune d’entre elles ?
+## Si l’ID d’organisation comporte plusieurs sociétés dans différentes régions, puis-je activer les analyses entre appareils pour toutes ?
 
-Non. Pour la même organisation, une seule zone géographique peut avoir les analyses entre appareils activées.
+Non. Pour le même ID d’organisation, les analyses entre appareils peuvent être activées dans une seule région.
 
 ## Quels sont les avantages et les inconvénients d’une relecture de sept jours par rapport à une relecture d’un jour ?
 

@@ -4,7 +4,7 @@ solution: Analytics
 title: Transfert côté serveur - Aperçu
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 94%
@@ -64,7 +64,7 @@ Le transfert côté serveur au niveau des suites de rapports est recommandé par
 
 Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionnez des **suites de rapports**) > **Modifier les paramètres** > **Général** > **Transfert côté serveur**. Si la case à cocher est :
 
-* **Inactif** (Vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à une organisation IMS. Contactez l’assistance clientèle pour vous assurer que la suite de rapports est correctement mappée.
+* **Inactif** (Vous ne pouvez pas effectuer de sélection ou le menu n’existe pas) : les suites de rapports sélectionnées ne sont pas mappées à un ID d’organisation. Contactez l’assistance clientèle pour vous assurer que la suite de rapports est correctement mappée.
 * **Désactivée** : le nouveau transfert côté serveur n’est pas activé. Lisez le contenu de la page, puis procédez à l’activation de la fonctionnalité.
 * **Activée** : le nouveau transfert côté serveur est activé. Vous pouvez également configurer l’intégration d’Audience Analytics.
 

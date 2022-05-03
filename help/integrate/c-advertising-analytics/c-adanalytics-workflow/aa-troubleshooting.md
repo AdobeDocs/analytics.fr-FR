@@ -3,10 +3,10 @@ description: Dépannage et correction des problèmes liés à Advertising Analyt
 title: Résolution des problèmes d’Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Vous tentez de [configurer un nouveau compte Advertising](/help/integrate/c-adve
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. La suite de rapports n’est pas mappée à l’ID d’organisation Experience Cloud de l’identifiant de connexion. </p> </td> 
-   <td colname="col2"> <p>Contactez lʼAssistance clientèle pour mapper la suite de rapports à une organisation IMS.</p> </td> 
+   <td colname="col2"> <p>Contactez l’assistance clientèle pour mapper la suite de rapports à un ID d’organisation.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. La suite de rapports n’est pas configurée pour la création des rapports Advertising Analytics. </p> </td> 
