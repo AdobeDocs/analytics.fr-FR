@@ -4,16 +4,16 @@ description: Adobe a l’intention de suspendre tous les rapports planifiés don
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '336'
+ht-degree: 13%
 
 ---
 
 # Avis de fin de vie pour les rapports planifiés
 
-À compter du 21 avril 2022, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (toutes les tâches créées avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé.
+À compter du 21 avril 2022, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (toutes les tâches créées avant le 31 janvier 2020). Aucune rapport ni aucune donnée ne seront supprimés. Seuls les rapports identifiés comme ayant plus de deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé.
 
 Tous les rapports planifiés à envoyer peuvent être réactivés en se connectant simplement à Analytics et en ouvrant la variable [!UICONTROL Rapports planifiés] gestionnaire. Cliquez sur le bouton [!UICONTROL Modifier] et définissez une nouvelle heure et une nouvelle expiration planifiées. Tout rapport qui sera réactivé aura une expiration par défaut de 9 mois, sauf si une date d’expiration plus courte est choisie.
 
@@ -21,12 +21,13 @@ Pour tout rapport dont la date de création est inférieure à deux ans sans dat
 
 Enfin, toute modification d’un rapport planifié existant sans date d’expiration nécessite une date d’expiration de 9 mois ou moins. Sinon, vous ne pourrez pas enregistrer les modifications ou modifications apportées au rapport.
 
-Au moment de l’expiration, le rapport planifié sera suspendu. Cependant, le rapport peut être réactivé avec une nouvelle date d’expiration de 9 mois. Aucun rapport ou donnée ne sera supprimé.
+Au moment de l’expiration, le rapport planifié sera suspendu. Cependant, le rapport peut être réactivé avec une nouvelle date d’expiration de 9 mois. Aucune rapport ni aucune donnée ne seront supprimés.
 
 ## Nouvelle politique de gouvernance
 
 Cette action a pour but de gérer et de gérer efficacement les rapports planifiés au moment où nous nous préparons à la fin de vie annoncée précédemment pour Reports &amp; Analytics. Cela servira de nouvelle politique de gouvernance à l&#39;avenir :
 
+* Aucun nouveau rapport planifié ne peut être créé après le 15 avril 2022.
 * Après le 15 avril 2022, tous les rapports planifiés auront une date d’expiration maximale de 9 mois.
 * Au bout de 9 mois, les tâches expirées seront suspendues et pourront être réactivées, si nécessaire, jusqu’au 31 décembre 2023.
 * Le 31 décembre 2023, les Reports &amp; Analytics seront abandonnés.
