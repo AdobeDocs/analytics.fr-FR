@@ -5,20 +5,16 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
 # Aperçu des annotations
 
->[!NOTE]
->
->Le déploiement progressif de cette fonctionnalité commence le 23 mars 2022. Disponibilité générale : 11 avril 2022.
-
-Les annotations dans Workspace vous permettent de communiquer efficacement des nuances de données contextuelles et des informations à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
+Les annotations dans Analysis Workspace vous permettent de communiquer efficacement les nuances et insights des données contextuelles à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
 
 Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si vous constatez un pic de trafic important dû à une campagne marketing, vous pouvez créer une annotation « Date de lancement de la campagne » et l’appliquer à l’ensemble de la suite de rapports. Lorsque vos utilisateurs visualisent des jeux de données incluant cette date, ils voient l’annotation dans leurs projets, à côté de leurs données.
 
@@ -34,13 +30,13 @@ Gardez ceci à l’esprit :
 
 * Elles peuvent s’appliquer à la suite de rapports dans laquelle elles ont été créées (par défaut) ou à toutes les suites de rapports.
 
-## Autorisations
+## Autorisations {#permissions}
 
 Par défaut, seuls les administrateurs peuvent créer des annotations. Les utilisateurs ont le droit d’afficher les annotations comme ils le font avec d’autres composants d’Analytics (tels que les segments, les mesures calculées, etc.).
 
 Toutefois, les administrateurs peuvent accorder aux utilisateurs l’autorisation de [!UICONTROL Créer des annotations] (outils Analytics) via l’[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr).
 
-## Activation ou désactivation des annotations
+## Activation ou désactivation des annotations {#on-off}
 
 Les annotations peuvent être activées ou désactivées à plusieurs niveaux :
 

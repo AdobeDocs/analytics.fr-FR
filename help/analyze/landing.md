@@ -4,28 +4,20 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 84%
+source-wordcount: '3564'
+ht-degree: 83%
 
 ---
 
 # Page de destination dʼAdobe Analytics
 
-La page d’entrée d’Adobe Analytics rassemble les deux [!DNL Analysis Workspace] et [!DNL Reports & Analytics] dans une seule interface et un point d’accès sous [!DNL Workspace] parapluie. Elle comprend une page dʼaccueil pour le gestionnaire de projet, un menu de rapports mis à jour, des rapports modernisés et une section dʼapprentissage pour faciliter votre prise en main.
-
->[!IMPORTANT]
->
->Cette page d’entrée est actuellement en version bêta ouverte. Il sʼagit dʼun point de départ facultatif. Si vous préférez, vous pouvez utiliser votre landing page existante, selon le cas : [!UICONTROL Workspace] ou [!UICONTROL Rapports]. Si vous décidez de vous inscrire au programme bêta, accédez à la page et cliquez sur **[!UICONTROL Fournir des commentaires]** en haut de lʼécran pour transmettre vos commentaires et les éventuels bugs constatés. Vous pouvez vous désinscrire et réintégrer le programme bêta à tout moment. Tout travail effectué dans l’interface utilisateur de la version bêta est transféré dans le fichier existant/actuel [!UICONTROL Workspace] expérience.
+La page d’entrée d’Adobe Analytics rassemble les deux [!DNL Analysis Workspace] et [!DNL Reports & Analytics] dans une seule interface et un point d’accès sous [!DNL Workspace] parapluie. Elle comprend une page dʼaccueil pour le gestionnaire de projet, un menu de rapports mis à jour, des rapports modernisés et une section dʼapprentissage pour faciliter votre prise en main. Voici une présentation vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Nouvelles fonctionnalités de landing page
-
->[!NOTE]
->
->Ces ajouts et modifications sont actuellement [dans des tests limités](/help/release-notes/releases.md).
+## Nouvelles fonctionnalités de landing page {#new-features}
 
 | Fonctionnalité | Description | Capture d’écran |
 | --- | --- | --- |
@@ -36,7 +28,7 @@ La page d’entrée d’Adobe Analytics rassemble les deux [!DNL Analysis Worksp
 | Un seul clic pour ouvrir un rapport | Auparavant, vous deviez double-cliquer. |  |
 | Nouveaux liens vers **[!UICONTROL Reports &amp; Analytics]** rapports | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages de robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
 | Nouveaux rapports d’usine | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Le plus populaire]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Le plus populaire]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports se trouvent dans [!UICONTROL Workspace] et nécessitent une configuration et une version. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, [!UICONTROL Flux] visualisation, etc. Vous pouvez modifier ces rapports et modifier des dimensions, des éléments de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux sous les panneaux Workspace. | ![Page suivante](assets/next-page.png) |
-| **[!UICONTROL Créer]** modal est de retour | Lorsque vous cliquez sur **[!UICONTROL Créer]** dans Workspace, vous avez à nouveau le choix entre une [!UICONTROL Projet vierge] et un [!UICONTROL Fiche d’évaluation mobile vierge]. Vous pouvez également choisir parmi les modèles créés par votre société. | ![Nouveau](assets/create-new.png) |
+| **[!UICONTROL Créer]** modal est de retour | Lorsque vous cliquez sur **[!UICONTROL Créer]** dans Workspace, vous avez à nouveau le choix entre une [!UICONTROL Projet vierge] et un [!UICONTROL Fiche d’évaluation mobile vierge]. Vous pouvez également choisir parmi les modèles créés par votre société. | ![Créer](assets/create-new.png) |
 | Également disponible dans CJA | Cette landing page, sous une forme modifiée, sera également disponible dans CJA. |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -47,7 +39,7 @@ Après vous être connecté à Adobe Experience Cloud et Analytics, activez le b
 
 ![Landing](assets/landing.png)
 
-## Structure du menu
+## Structure du menu supérieur {#top-menu}
 
 ![Menu supérieur](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ Lʼonglet [!UICONTROL Rapports] regroupe trois jeux de rapports :
 
 Comme indiqué précédemment, seuls les rapports les plus couramment utilisés, qui étaient auparavant regroupés dans Reports &amp; Analytics, sont disponibles ici. Une minorité de rapports rarement utilisés ou qui ne sont plus pertinents nʼont pas été migrés. Consultez la FAQ ci-dessous pour plus de détails.
 
-### Menus et sous-menus
+### Menus et sous-menus {#menus}
 
 Découvrez les menus et leurs sous-menus ci-après. Si vous ne trouvez pas un rapport spécifique, effectuez une « Recherche sur la page » pour le localiser.
 
@@ -125,7 +117,7 @@ Découvrez les menus et leurs sous-menus ci-après. Si vous ne trouvez pas un ra
 | **[!UICONTROL Acquisition]** | <ul><li>Canaux marketing > Canal Première touche, détails du canal Première touche (quel canal Première touche, et quel canal Première touche spécifique est le plus performant ?)</li><li>Canaux marketing > Canal Dernière touche, détails du canal Dernière touche (quel canal Dernière touche, et quel canal Dernière touche spécifique est le plus performant ?)</li><li>Campagnes > Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Campagnes > Performances de la campagne (quelles campagnes génèrent le plus de chiffre d’affaires ?)</li><li>Campagnes > Code de suivi (quels sont les codes de suivi de campagne les plus performants ?)</li><li>[Acquisition web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#web)</li><li>[Acquisition mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics : référencement payant](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#advertising)</li><li>Mots-clés de recherche - tous, payants, naturels (quels mots-clés de recherche et mots-clés de référencement payant/naturel offrent les meilleures performances pour mes mesures clés ?)</li><li>Moteurs de recherche - tous, payants, naturels (quels sont les moteurs de recherche et les moteurs de référencement payant/naturel qui offrent les meilleures performances pour mes mesures clés ?)</li><li>Classement de toutes les pages de recherche (de quelle page de recherche mes utilisateurs proviennent-ils ?)</li><li>Domaines référents (quels domaines génèrent du trafic sur mon site ?)</li><li>Domaines référents d’origine (sur quel premier domaine les utilisateurs se trouvaient-ils avant de visiter mon site ?)</li><li>Référents (sur quelles URL mes visiteurs se trouvaient-ils avant de naviguer vers mon site ?)</li><li>Types de référents (à quelle catégorie mes URL de référence appartiennent-elles ?)</li></ul> |
 | **[!UICONTROL Rapports sur la société]** | Rapports que votre société a créés pour votre usage. Voir la section « Création d’un rapport d’entreprise » ci-dessous. |
 
-### Emplacement des modèles (désormais appelés rapports)
+### Emplacement des modèles (désormais appelés rapports) {#templates}
 
 | Nom du rapport (modèle) | Emplacement du rapport |
 | --- | --- |
@@ -152,7 +144,7 @@ Découvrez les menus et leurs sous-menus ci-après. Si vous ne trouvez pas un ra
 | Acquisition web | Acquisition > Acquisition web |
 | Advertising Analytics : référencement payant | Acquisition > Advertising Analytics : référencement payant |
 
-### Utilisation de l’onglet Rapports
+### Utilisation de l’onglet Rapports {#use-reports}
 
 Pour les utilisateurs actuels de Reports &amp; Analytics, voici une brève introduction sur l’utilisation des rapports auxquels vous êtes habitué et qui s’affichent désormais dans Espace de travail. Les rapports se comportent comme des modèles existants. En ce sens, si vous y apportez des modifications, vous êtes invité à enregistrer/ignorer vos modifications lorsque vous quittez la page ou accédez à un autre rapport. Si vous souhaitez enregistrer les modifications, le rapport est enregistré en tant que nouveau projet.
 
@@ -170,7 +162,7 @@ Pour les utilisateurs actuels de Reports &amp; Analytics, voici une brève intro
    * Vous pouvez modifier la période en accédant au calendrier en haut à droite.
    * Vous pouvez ajouter des ventilations de dimension, faire glisser d’autres mesures et, de manière générale, personnaliser le rapport comme vous le souhaitez.
 
-### Création d’un rapport d’entreprise (personnalisé)
+### Création d’un rapport d’entreprise (personnalisé) {#company-report}
 
 Les rapports personnalisés sont appelés Rapports d’entreprise et se trouvent dans le menu Rapports d’entreprise (voir ci-dessous). Tous les fichiers créés précédemment ainsi que tous les nouveaux fichiers sont répertoriés ici.
 
@@ -199,6 +191,22 @@ La page Formation contient des visites guidées vidéo et des tutoriels pratique
 * La visite guidée des [!UICONTROL Notions fondamentales de Espace de travail] vous emmène directement dans Espace de travail. Vous pouvez ainsi découvrir pas à pas la disposition de Espace de travail et où trouver/exécuter les actions les plus courantes. Cette visite peut également être relancée à tout moment, et ce, directement dans Espace de travail, via la fenêtre pop-over de l’infobulle qui se trouve dans l’en-tête du panneau.
 * Cliquer sur une vidéo/visite ajoute une balise **[!UICONTROL Consulté]**. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez cliquer sur la balise pour la faire disparaître si vous n’avez pas encore terminé le contenu.
 * Le bouton **[!UICONTROL En savoir plus]** de la fenêtre modale de la vidéo permet dʼaccéder à une page de documentation Adobe Experience League présentant du contenu dʼaide supplémentaire en rapport avec la vidéo que vous venez de regarder.  **[!UICONTROL Voir plus de vidéos]** permet dʼaccéder à la liste de lecture complète dʼAnalysis Workspace sur YouTube.
+
+## Définir la landing page {#set-landing}
+
+Les utilisateurs peuvent définir leur page d’entrée préférée.
+
+1. Accédez à Analytics > [!UICONTROL Composants] > [!UICONTROL Préférences] > [!UICONTROL Général].
+1. Vérifiez quelle landing page vous préférez :
+
+   ![Définir une landing page](assets/landing-pref.png)
+
+## Masquer l’onglet Rapport {#hide-reports}
+
+Les administrateurs peuvent masquer l’onglet Rapports pour tous les utilisateurs de leur entreprise.
+
+1. Accédez à [!UICONTROL Analytics] > [!UICONTROL Composants] > [!UICONTROL Préférences] > [!UICONTROL Société].
+1. Vérifier **[!UICONTROL Masquer l’onglet Rapports]**.
 
 ## FAQ sur la page de destination {#landing-faq}
 
