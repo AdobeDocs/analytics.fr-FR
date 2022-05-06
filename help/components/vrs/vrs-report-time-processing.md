@@ -5,34 +5,30 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 0bab340afcffdf337d0ff6bacb0351d744c1d9a5
+source-git-commit: ec4edb257490d326ab8f8de51a4ab9412a2b4a28
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 95%
+source-wordcount: '1306'
+ht-degree: 84%
 
 ---
 
 # Traitement de la période de rapport
 
-Le [!UICONTROL traitement de la période de rapport] est un paramètre des suites de rapports virtuelles qui permet aux données d’être traitées de façon rétroactive et non destructrice.
-
->[!NOTE]
->
->Le [!UICONTROL traitement de la période de rapport] n’est disponible que dans Analysis Workspace.
+[!UICONTROL Traitement de la période de rapport] est un paramètre de suite de rapports virtuelle qui permet aux données d’Analysis Workspace d’être traitées de manière rétroactive et non destructive.
 
 Le [!UICONTROL traitement de la période de rapport] affecte uniquement les données de la suite de rapports virtuelle et n’a aucune incidence sur les données ou la collecte de données dans la suite de rapports de base. La différence entre le [!UICONTROL traitement de la période de rapport] et le traitement Analytics classique est plus facile à comprendre à l’aide du diagramme suivant :
 
-![Google1](assets/google1.jpg)
+![Pipeline de traitement traditionnel](assets/google1.jpg)
 
 Lors du traitement des données Analytics, les données circulent dans le pipeline de collecte de données et dans une étape de prétraitement qui prépare les données pour la création de rapports. Cette étape de prétraitement applique une logique d’expiration de visite et une logique de persistance des eVars (entre autres) aux données lors de leur collecte. Le principal inconvénient de ce modèle de prétraitement est qu’il nécessite une configuration préalable, avant la collecte des données. Cela signifie, qu’à partir de ce moment-là, les modifications apportées aux paramètres de prétraitement s’appliquent uniquement aux nouvelles données. Cela pose problème si les données n’arrivent pas dans l’ordre ou si les paramètres ont été mal configurés.
 
 Le [!UICONTROL traitement de la période de rapport] est une manière fondamentalement différente de traiter les données Analytics pour la création de rapports. Au lieu de prédéterminer la logique de traitement avant la collecte des données, Analytics ignore le jeu de données pendant l’étape de prétraitement et applique cette logique chaque fois qu’un rapport est exécuté :
 
-![Google2](assets/google2.jpg)
+![Pipeline de traitement de la période de rapport](assets/google2.jpg)
 
-Cette architecture de traitement offre des options de création de rapports beaucoup plus flexibles. Par exemple, vous pouvez modifier le délai de visite de manière non destructive et ces modifications sont répercutées rétroactivement dans la persistance des eVars et les conteneurs de segments, comme si vous aviez appliqué ces paramètres avant la collecte des données. En outre, vous pouvez créer un nombre illimité de suites de rapports virtuelles, chacune avec des options de traitement de la période de rapport différentes, basées sur la même suite de rapports de base (parente), sans modifier les données de cette dernière.
+Cette architecture de traitement offre des options de création de rapports beaucoup plus flexibles. Par exemple, vous pouvez modifier le délai de visite de manière non destructive et ces modifications sont répercutées dans la persistance de votre eVar et dans les conteneurs de segments pendant toute la période de création de rapports. En outre, vous pouvez créer un nombre illimité de suites de rapports virtuelles, chacune avec des options de traitement de la période de rapport différentes, basées sur la même suite de rapports de base (parente), sans modifier les données de cette dernière.
 
-[!UICONTROL Le traitement de la période de rapport] permet également à Analytics d’empêcher les accès en arrière-plan de démarrer de nouvelles visites et permet au [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr) d’indiquer à la création de rapports de démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
+[!UICONTROL Traitement de la période de rapport] permet également à Analytics d’empêcher les accès en arrière-plan de commencer de nouvelles visites et permet à la variable [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr) pour démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
 
 ## Options de configuration
 
@@ -54,23 +50,23 @@ Le traitement de la période de rapport ne prend pas en charge toutes les mesure
 
 En outre, le traitement de la période de rapport traite uniquement les données comprises dans la plage de dates de création de rapports (appelée « fenêtrage de dates » ci-dessous). Cela signifie que les valeurs eVar définies sur « ne jamais expirer » pour un visiteur antérieurement à la plage de dates de création de rapports ne sont pas conservées dans les fenêtres de création de rapports et n’apparaissent pas dans les rapports. Cela signifie également que les mesures de fidélisation des clients sont basées exclusivement sur les données présentes dans la plage de dates de création de rapports et non sur l’ensemble de l’historique antérieurement à la plage de dates de création de rapports.
 
-Vous trouverez ci-dessous une liste de mesures et de dimensions qui ne sont actuellement pas prises en charge lors de l’utilisation du traitement de la période de rapport :
+Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitement de la période de rapport :
 
-* **Analytics for Target** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **Mesures/dimensions réservées d’Analytics pour Advertising Cloud :** actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **Mesure Accès unique** : sans prise en charge permanente.
-* **Variables de liste** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **eVars de compteur :** sans prise en charge permanente.
-* **Variables Canaux marketing** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **Jours depuis la dernière dimension d’achat** : en raison de la nature du fenêtrage de dates de traitement de l’heure des rapports, cette dimension n’est pas prise en charge.
-* **Jours avant la première dimension d’achat** : en raison de la nature du fenêtrage de dates de traitement de l’heure des rapports, cette dimension n’est pas prise en charge.
-* **Dimension Fréquence des retours** : en raison de la nature du fenêtrage de dates de l’option Traitement de la période de rapport, cette dimension n’est pas prise en charge. Une autre approche utilisant une mesure du nombre de visites dans un segment est possible, ou en utilisant la mesure des visites dans un rapport sous forme d’histogramme.
-* **Jours depuis la dimension Dernière visite** : en raison de la nature du fenêtrage de dates de traitement de l’heure des rapports, cette dimension n’est pas prise en charge.
-* **Dimension Page d’accès d’origine** : en raison de la nature du fenêtrage de dates de l’option Traitement de la période de rapport, cette dimension n’est pas prise en charge.
-* **eVars d’affectation linéaire** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **Dimension Domaine référent initial** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
-* **Nombre de visites** : en raison de la nature du fenêtrage de dates de l’option Traitement de la période de rapport, cette mesure n’est pas prise en charge. Autre possibilité dans les applications mobiles, vous pouvez utiliser une mesure calculée incluant les visiteurs/visites avec la mesure Installation de l’application pour identifier les nouveaux visiteurs ou les nouvelles visites.
-* **Sources de données d’ID de transaction** : actuellement non pris en charge. Une prise en charge est prévue à l’avenir.
+* **Analytics for Target**
+* **Dimensions/mesures Analytics pour Advertising Cloud**
+* **eVars de compteur**
+* **Jours avant le premier achat**
+* **Jours depuis le dernier achat**
+* **Jours depuis la dernière visite**
+* **Page d’accès d’origine**
+* **eVars d’attribution linéaire**
+* **eVars de liste**
+* **Dimensions des canaux marketing**
+* **Domaine référent initial**
+* **Fréquence des retours**
+* **Accès unique**
+* **Sources de données des ID de transaction**
+* **Nombre de visites**
 
 ## Dimensions et mesures affectées
 
