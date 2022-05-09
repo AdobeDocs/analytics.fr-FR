@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c29515da8c74ad3332aa9797db9de505af7fe3aa
-workflow-type: ht
-source-wordcount: '1070'
-ht-degree: 100%
+source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
+workflow-type: tm+mt
+source-wordcount: '1170'
+ht-degree: 95%
 
 ---
 
 # Notes de mise à jour actuelle d’Adobe Analytics (avril 2022)
 
-**Dernière mise à jour** : 28 avril 2022
+**Dernière mise à jour**: 9 mai 2022
 
 ## Ressources connexes
 
@@ -46,6 +46,7 @@ AN-274486 ; AN-279258 ; AN-279995 ; AN-280918 ; AN-281423 ; AN-282084 ; AN
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Mise à niveau SFTP** | 9 mai 2022 | Auparavant, nous avions annoncé que l’Adobe allait mettre à niveau ses services SFTP (Secure File Transfer Protocol) en mai 2022 afin de fournir une sécurité améliorée pour le transfert de fichiers. Nous avons reporté cet upgrade à l&#39;été 2022. Lorsque cette modification aura lieu, certaines configurations de client SFTP ne seront plus prises en charge. Cela n’affecte que les données envoyées ou récupérées depuis Adobe Analytics via SFTP. Le protocole FTP n’est pas affecté. Afin d’éviter toute perturbation du service, assurez-vous que vos clients SFTP (code, outils, services) sont compatibles avec les modifications détaillées [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=fr). |
 | **Droits relatifs à Analytics sur l’ensemble des appareils (CDA)** | 13 avril 2022 | À compter du **1er mai 2022**, toute nouvelle implémentation de [CDA](/help/components/cda/overview.md) sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. |
 | **Modification de la façon dont Adobe Analytics traite les données A4T collectées via Experience Edge** | 31 mars 2022 | Le 7 mars 2022, Analytics a modifié la façon de gérer certains appels provenant d’Experience Edge et comprenant du contenu Target destiné aux rapports Analytics for Target (A4T). À partir du 7 mars, tous les accès avec du contenu destiné aux rapports A4T ont été modifiés afin de ne pas être traités comme des événements de type Page vue ou Lien. Depuis le **31 mars 2022**, la logique est plus sélective, de sorte que les événements Page vue et Clic standards ne soient pas modifiés. À l’avenir, les seuls événements qui seront modifiés seront uniquement les appels de personnalisation contenant exclusivement du contenu A4T. |
 | **Mise à jour des méthodes de chiffrement du navigateur prises en charge pour certains clients** | 28 mars 2022 | Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données de première main. Le **23 juin 2022**, nous supprimerons la prise en charge de certains algorithmes de chiffrement HTTPS, appelés chiffrements, pour les clients dont le niveau de sécurité est défini sur « Élevé ». Cela signifie que certains systèmes d’exploitation plus anciens ne pourront plus envoyer de données à Analytics, car ils ne prennent pas en charge les méthodes de chiffrement modernes. Les clients utilisant les paramètres de sécurité de chiffrement « standard » par défaut ne seront pas concernés. Tous les clients qui utilisent actuellement le paramètre « Élevé » ont déjà été contactés directement. Une liste détaillée des chiffrements concernés par cette modification est disponible ici. |
