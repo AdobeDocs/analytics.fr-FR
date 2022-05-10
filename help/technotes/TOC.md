@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant d’analyse spécifique.
-source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
+source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,6 @@ ht-degree: 98%
    + [Comparaison de dates aux plages précédentes](event/compare-dates.md)
    + [Dérivation de données affectées par les événements](event/calcmetrics.md)
    + [Communication d’événements aux utilisateurs](event/communicate.md)
-   + [Lissage des données intelligent](event/intelligent-data-smoothing.md)
 + Cookies {#cookies}
    + [Cookies de navigateur](cookies/cookies.md)
    + [Options pour atténuer l’effet des restrictions des cookies de navigateur](cookies/cookieless.md)
