@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # Flux interdimensionnels
 
-Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions.
-
-Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
+Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions. Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ Un libellé de dimension dans la partie supérieure de chaque colonne Flux rend 
 
 Nous allons étudier deux exemples d’utilisation : sur le web et dans une application.
 
-## 1er exemple d’utilisation : Application {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 1er exemple d’utilisation : Application {#app}
 
 La dimension [!UICONTROL Nom de l’action] a été ajoutée au flux, le premier élément renvoyé étant [!UICONTROL ItemAdded] :
 
@@ -56,7 +54,7 @@ Voici ce qui se passe si vous faites glisser une autre dimension Nom de l’acti
 
 Vous avez ainsi accès à des statistiques plus détaillées et aux changements possibles à apporter à l’application que vous analysez.
 
-## 2e exemple d’utilisation : Web {#section_8D55983FA0C84926995270052AE01CD8}
+## 2e exemple d’utilisation : Web {#web}
 
 Cet exemple d’utilisation illustre la façon de déterminer quelles campagnes génèrent le plus d’entrées sur un site web.
 

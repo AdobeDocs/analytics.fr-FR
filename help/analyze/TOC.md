@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, lʼoutil principal dʼanalyse et de visualisation dʼAnalytics, ainsi que des outils tels que les tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: e865cd474b5b4a3251ed6e7cf6dae1f604f5a9c8
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 99%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 99%
       + Flux {#flow}
          + [Flux - Aperçu](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuration d’une visualisation de flux](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
+         + [Nouvelle visualisation de flux (version bêta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Paramètres de flux](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flux interdimensionnels](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogramme](analysis-workspace/visualizations/histogram.md)
@@ -98,7 +99,7 @@ ht-degree: 99%
          + [Présentation](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Paramètres d’entrée et de sortie](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Questions fréquentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Panneau d’élément suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
+      + [Panneau Suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
       + [Panneau Résumé de la page](analysis-workspace/c-panels/page-summary.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
