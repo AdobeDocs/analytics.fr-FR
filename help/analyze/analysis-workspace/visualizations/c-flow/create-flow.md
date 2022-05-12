@@ -3,13 +3,13 @@ description: Utilisation de la visualisation de flux dans un projet Workspace.
 title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 44%
+source-wordcount: '794'
+ht-degree: 41%
 
 ---
-
 
 # Configuration d’une visualisation de flux
 
@@ -17,13 +17,13 @@ ht-degree: 44%
 >
 >Cette nouvelle version de la fonction [!UICONTROL Flux] la visualisation est actuellement en version bêta privée. Voir [cette page](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) pour la fonctionnalité actuelle.
 
-Flux vous permet de suivre les parcours exacts que vos clients effectuent sur votre site web ou votre application. Il trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Chaque flux comporte un point de départ et un point de fin, ainsi qu’une mesure ou une dimension (ou un élément) dont vous effectuez le suivi.
+La visualisation Flux mise à jour vous permet de comprendre le parcours qui résulte d’un événement de conversion spécifique ou qui en résulte sur votre site web ou votre application. Il trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Le flux vous permet de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
 
 La nouvelle [!UICONTROL flow] expérience améliore votre workflow de plusieurs façons :
 
-* Il permet le suivi des mesures, en plus des dimensions et des éléments de dimension.
+* Vous pouvez désormais choisir de commencer ou de terminer votre chemin par la combinaison d’une mesure et d’une dimension de cheminement.
 * Contient [!UICONTROL Paramètres avancés] pour vous permettre de personnaliser davantage le [!UICONTROL flow].
-* Il vous permet de configurer la variable [!UICONTROL flow] avant de le construire.
+* Le nouveau bouton &quot;Créer&quot; permet de gagner du temps dans l’analyse en vous permettant de configurer le parcours en une seule fois, puis d’effectuer des requêtes, puis de créer automatiquement plusieurs colonnes et noeuds à la fois &#x200B;.
 
 ![nouvelle interface utilisateur de flux](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ La nouvelle [!UICONTROL flow] expérience améliore votre workflow de plusieurs 
    | --- | --- |
    | **[!UICONTROL Inclure les instances répétées]** | Les visualisations de flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des rechargements de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. Valeur par défaut = non coché. |
    | **[!UICONTROL Envoi d’étiquettes]** | Habituellement, les étiquettes sur les éléments de flux sont tronquées pour gagner de l’espace à l’écran, mais vous pouvez afficher l’étiquette complète en cochant cette case.  Valeur par défaut = non coché. |
-   | **[!UICONTROL Limiter aux entrées/sorties]** | Résultats limités aux chemins lorsque le premier/dernier point de contact est et entrée/sortie. |
+   | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent/se terminent par la première/dernière occurrence d’une dimension/élément/mesure. |
    | **[!UICONTROL Nombre de colonnes]** | Détermine le nombre de colonnes souhaité dans le diagramme Flux. |
    | **[!UICONTROL Éléments développés par colonne]** | Nombre d’éléments à inclure dans chaque colonne. |
    | **[!UICONTROL Conteneur de flux]** | <ul><li>Visite</li><li>Visiteur</li></ul> Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
