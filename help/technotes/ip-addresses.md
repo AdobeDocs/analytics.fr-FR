@@ -3,24 +3,24 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 
 # Adresses IP et domaines utilisés par Adobe Analytics
 
-Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
+Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise. Cette page comprend les systèmes entrants (tels que la collecte de données) et les systèmes sortants (tels que les flux de données) utilisés par l’Adobe.
 
 >[!IMPORTANT]
 >
->Bien qu’Adobe fasse de son mieux pour garder ce document à jour, il se peut que la liste des plages d’adresses IP fasse l’objet de modifications. Les changements possibles comprennent la croissance et l’expansion des activités, un registre Internet nécessitant des modifications de l’espace d’adressage IP d’Adobe ou l’arrêt du fonctionnement d’un fournisseur d’accès Internet.
+>Bien qu’Adobe fasse de son mieux pour garder ce document à jour, il ne peut garantir que la liste des plages d’adresses IP reste la même. Les changements possibles comprennent la croissance et l’expansion des activités, un registre Internet nécessitant des modifications de l’espace d’adressage IP d’Adobe ou l’arrêt du fonctionnement d’un fournisseur d’accès Internet.
 
 ## Autorisation des domaines technologiques dépendants
 
-Adobe Analytics utilise les hôtes suivants pour améliorer les performances et l’expérience du produit. Adobe recommande d’ajouter ces domaines à la liste autorisée de votre pare-feu pour une expérience optimale lors de l’utilisation d’Adobe Analytics.
+Adobe Analytics utilise les hôtes suivants pour améliorer les performances et l’expérience du produit. Adobe recommande d’autoriser ces domaines à travers le pare-feu de votre entreprise pour une expérience optimale avec Adobe Analytics.
 
 | Technologie | Domaine |
 | --- | --- |
