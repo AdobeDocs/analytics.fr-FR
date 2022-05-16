@@ -4,10 +4,10 @@ title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 41%
+source-wordcount: '808'
+ht-degree: 40%
 
 ---
 
@@ -44,6 +44,10 @@ La nouvelle [!UICONTROL flow] expérience améliore votre workflow de plusieurs 
 1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL Dimension de cheminement], comme illustré ici, que vous utiliserez pour créer le chemin. La valeur par défaut est [!UICONTROL Page].
 
    ![dimension de cheminement](assets/pathing-dim.png)
+
+   >[!IMPORTANT]
+   >
+   >Les mesures calculées ne peuvent pas être déposées dans la variable  **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]** zones de dépôt.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** pour configurer les paramètres avancés :
 
