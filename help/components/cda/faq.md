@@ -3,9 +3,9 @@ title: FAQ sur les analyses entre appareils
 description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1934'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,13 +102,13 @@ Passer du graphique d’appareil au groupement basé sur les champs et inverseme
 
 Les analyses entre appareils extraient les éléments de dimension des variables avant de les optimiser pour le compte-rendu des performances. Vous n’avez pas à vous inquiéter des limites uniques à des fins d’analyses entre appareils. Cependant, si vous avez essayé d’utiliser cette prop/eVar dans un projet Workspace, vous pouvez toujours voir l’élément de dimension [(Faible trafic)](/help/technotes/low-traffic.md).
 
-## Combien de suites de rapports de mon entreprise peuvent être activées pour les analyses entre appareils ?
+## Combien de suites de rapports de mon entreprise peuvent être activées pour Analytics sur l’ensemble des appareils ?
 
-À compter du 1er mai 2022, toute nouvelle implémentation de CDA sera limitée à un maximum de trois ID de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc..
+À compter du 1er mai 2022, toute nouvelle implémentation d’Analytics sur l’ensemble des appareils sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être entre appareils par définition et contenir des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc..
 
-## Si l’ID d’organisation comporte plusieurs sociétés dans différentes régions, puis-je activer les analyses entre appareils pour toutes ?
+## Si l’ID d’organisation comporte plusieurs sociétés dans différentes zones géographiques, puis-je activer Analytics sur l’ensemble des appareils pour chacune d’entre elles ?
 
-Non. Pour le même ID d’organisation, les analyses entre appareils peuvent être activées dans une seule région.
+Non. Pour le même ID d’organisation, une seule zone géographique peut avoir Analytics sur l’ensemble des appareils activé.
 
 ## Quels sont les avantages et les inconvénients d’une relecture de sept jours par rapport à une relecture d’un jour ?
 
@@ -122,7 +122,7 @@ Si un client passe à une version inférieure d’Ultimate, il n’aura plus acc
 
 ## Pourquoi le nombre total dʼaccès est-il différent entre ma suite de rapports source et la suite de rapports virtuelle CDA (Cross-Device Analytics, Analyses entre appareils) ?
 
-Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle CDA.
+Les analyses entre appareils utilisent un pipeline de traitement parallèle complexe, avec de multiples composants dépendants. Il faut sʼattendre à une discordance de données dʼenviron 1 % pour le nombre total dʼaccès entre la suite de rapports dʼorigine et la suite de rapports virtuelle dʼAnalytics sur lʼensemble des appareils.
 
 ## Pourquoi la mesure « Personnes identifiées » est-elle surévaluée ?
 
