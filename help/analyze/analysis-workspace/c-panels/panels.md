@@ -4,10 +4,10 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+workflow-type: tm+mt
+source-wordcount: '1098'
+ht-degree: 95%
 
 ---
 
@@ -68,9 +68,9 @@ Faites glisser et déposez un segment du rail de gauche dans la zone de dépôt 
 
 ### Filtres de segments ad hoc
 
-Vous pouvez également faire glisser les composants qui ne sont pas des segments directement vers la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et vous évite de passer par le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
+Vous pouvez également faire glisser des composants qui ne sont pas des segments directement dans la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et vous évite de passer par le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
 
-Les segments ad hoc sont locaux au projet et ne s’afficheront pas dans le rail de gauche, à moins que vous ne les rendiez publics.
+Les segments ad hoc sont locaux au projet et ne s’affichent pas dans le rail de gauche, sauf si vous les rendez publics.
 
 ![](assets/adhoc-segment-filter.png)
 
