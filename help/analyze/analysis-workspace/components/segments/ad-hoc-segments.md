@@ -1,13 +1,13 @@
 ---
-description: Utilisation de segments ad hoc dans Analysis Workspace.
+description: Utilisez des segments ad hoc dans Analysis Workspace.
 title: Segments ad hoc
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 47%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Les segments de projet ad hoc vous permettent de faire glisser et de déposer n’importe quel composant directement dans la zone de dépôt du panneau pour créer un segment. Le segment devient une [segment au niveau du projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) local au projet en cours.
 
-Regardez cette vidéo sur la création de segments de projet ad hoc :
+Voici une vidéo sur la création de segments de projet ad hoc :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. Déplacez un type de composant (dimension, élément de dimension, événement, mesure, segment, modèle de segments, période) dans la zone de dépôt des segments en haut dʼun panneau. Les types de composants sont automatiquement convertis en segments ad hoc ou [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr) si compatible.
+1. Déplacez un type de composant (dimension, élément de dimension, événement, mesure, segment, modèle de segments, période) dans la zone de dépôt des segments en haut dʼun panneau. Les types de composants sont automatiquement convertis en segments ad hoc ou [Segments rapides](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html) si compatible.
 Regardez cet exemple sur la création dʼun segment pour le domaine référent Twitter :
 
    ![](assets/ad-hoc1.png)
