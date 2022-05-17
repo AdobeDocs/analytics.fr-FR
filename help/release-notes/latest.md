@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aa4dc06dc1719f398c29aeca40051d88f339ce42
+source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 89%
+source-wordcount: '877'
+ht-degree: 86%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (mai 2022)
 
-**Dernière mise à jour**: 11 mai 2022
+**Dernière mise à jour**: 17 mai 2022
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ S.O.
 
 (Correctifs pour les clients individuels)
 
-AN-274429; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-285253; AN-285432; AN-285535; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
+AN-274429; AN-279640; AN-280918; AN-280945; AN-282884; AN-283565; AN-284785; AN-284814; AN-284854; AN-284989; AN-285244; AN-285253; AN-285432; AN-285528; AN-285535; AN-285710; AN-286255; AN-286340; AN-286434; AN-286454; AN-286630; AN-286716; AN-286854; AN-286911
 
 ### Avis importants pour les administrateurs d’Adobe Analytics
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | **Mise à niveau SFTP** | 9 mai 2022 | Auparavant, nous avions annoncé que l’Adobe allait mettre à niveau ses services SFTP (Secure File Transfer Protocol) en mai 2022 afin de fournir une sécurité améliorée pour le transfert de fichiers. Nous avons reporté cet upgrade à l&#39;été 2022. Lorsque cette modification aura lieu, certaines configurations de client SFTP ne seront plus prises en charge. Cela n’affecte que les données envoyées ou récupérées depuis Adobe Analytics via SFTP. Le protocole FTP n’est pas affecté. Afin d’éviter toute perturbation du service, assurez-vous que vos clients SFTP (code, outils, services) sont compatibles avec les modifications détaillées [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=fr). |
-| **Droits relatifs à Analytics sur l’ensemble des appareils (CDA)** | 13 avril 2022 | À compter du **1er mai 2022**, toute nouvelle implémentation de [CDA](/help/components/cda/overview.md) sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. |
+| **Droits relatifs à Analytics sur l’ensemble des appareils (CDA)** | 13 avril 2022 | Efficace **1er mai 2022**, toute nouvelle mise en oeuvre de [CDA](/help/components/cda/overview.md) sont limités à trois identifiants de suite de rapports (RSID) au maximum par client. |
 | **Modification de la façon dont Adobe Analytics traite les données A4T collectées via Experience Edge** | 31 mars 2022 | Le 7 mars 2022, Analytics a modifié la façon de gérer certains appels provenant d’Experience Edge et comprenant du contenu Target destiné aux rapports Analytics for Target (A4T). À partir du 7 mars, tous les accès avec du contenu destiné aux rapports A4T ont été modifiés afin de ne pas être traités comme des événements de type Page vue ou Lien. Depuis le **31 mars 2022**, la logique est plus sélective, de sorte que les événements Page vue et Clic standards ne soient pas modifiés. À l’avenir, les seuls événements qui seront modifiés seront uniquement les appels de personnalisation contenant exclusivement du contenu A4T. |
 | **Mise à jour des méthodes de chiffrement du navigateur prises en charge pour certains clients** | 28 mars 2022 | Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données de première main. Le **23 juin 2022**, nous supprimerons la prise en charge de certains algorithmes de chiffrement HTTPS, appelés chiffrements, pour les clients dont le niveau de sécurité est défini sur « Élevé ». Cela signifie que certains systèmes d’exploitation plus anciens ne pourront plus envoyer de données à Analytics, car ils ne prennent pas en charge les méthodes de chiffrement modernes. Les clients utilisant les paramètres de sécurité de chiffrement « standard » par défaut ne seront pas concernés. Tous les clients qui utilisent actuellement le paramètre « Élevé » ont déjà été contactés directement. Une liste détaillée des chiffrements concernés par cette modification est disponible ici. |
 | **Suspension des anciens rapports planifiés** | 12 avril 2022 | À compter du **20 avril 2022**, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (créés avant le 31 janvier 2020). Aucun rapport ou donnée n’est supprimé. Seuls les rapports identifiés comme ayant plus de deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé. En savoir plus |
