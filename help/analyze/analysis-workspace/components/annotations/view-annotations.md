@@ -4,18 +4,14 @@ description: Comment afficher les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
 
 # Affichage des annotations
-
->[!NOTE]
->
->Le déploiement progressif de cette fonctionnalité commence le 23 mars 2022. Disponibilité générale : 11 avril 2022.
 
 Les annotations se présentent de manière légèrement différente, selon qu’elles s’étendent sur un seul jour ou sur une période.
 
