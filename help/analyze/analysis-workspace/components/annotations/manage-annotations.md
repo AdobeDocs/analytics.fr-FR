@@ -4,10 +4,10 @@ description: Comment gérer les annotations dans l’espace de travail.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +33,8 @@ Le gestionnaire d’[!UICONTROL Annotations] vous présente toutes les annotatio
 | [!UICONTROL Période appliquée] | La date ou la période à laquelle cette annotation s’applique. |
 | [!UICONTROL Partagé avec] | Répertorie le nombre d’individus ou de groupes avec lesquels vous avez partagé l’annotation. Cliquez pour plus de détails. |
 | [!UICONTROL Date de modification] | Affiche la date et l’heure de la dernière modification de l’annotation. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Modification des annotations
 
@@ -75,3 +77,5 @@ Sélectionnez simplement une ou plusieurs annotations pour faire apparaître la 
 | [!UICONTROL Copier] | Permet de créer une copie distincte avec son propre identifiant d’annotation, mais avec le même nom et la même définition. |
 | [!UICONTROL Exporter dans un fichier CSV] | Exportez la définition d’annotation dans un fichier .csv. |
 | [!UICONTROL Filtrer] (rail de gauche) | Filtrez par balises, suite de rapports, propriétaires et autres filtres (À moi, Approuvés, Favoris, Partagés avec moi et Tout afficher). |
+
+{style=&quot;table-layout:auto&quot;}
