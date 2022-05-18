@@ -3,20 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
+source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 86%
+source-wordcount: '867'
+ht-degree: 87%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (mai 2022)
 
 **Dernière mise à jour**: 17 mai 2022
-
->[!NOTE]
->
->Cette page contient des informations de version préliminaire et peut faire l’objet de modifications.
 
 ## Ressources connexes
 
