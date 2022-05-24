@@ -3,10 +3,10 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 14f0ca66fdbd0468ef6b6eef41fcc020b43cddc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -165,6 +165,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
 * `trombi.com`
