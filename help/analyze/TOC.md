@@ -7,7 +7,7 @@ user-guide-description: Fournit des instructions pratiques pour Analysis Worksp
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
             + [Paramètres des lignes](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Éléments dynamiques ou statiques](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Pagination, filtrage et tri des tables](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Totaux de Espace de travail](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Totaux de l’espace de travail](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Tableau de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
       + Flux {#flow}
          + [Flux - Aperçu](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configuration d’une visualisation de flux](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [Nouvelle visualisation de flux (version bêta)](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [Nouvelle visualisation des flux (version Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Paramètres de flux](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [Flux interdimensionnels](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogramme](analysis-workspace/visualizations/histogram.md)
@@ -99,7 +99,7 @@ ht-degree: 98%
          + [Présentation](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Paramètres d’entrée et de sortie](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Questions fréquentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [Panneau Suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
+      + [Panneau d’éléments suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
       + [Panneau Résumé de la page](analysis-workspace/c-panels/page-summary.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
@@ -139,7 +139,7 @@ ht-degree: 98%
          + [Gestionnaire d’alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertes intelligentes - Exemples d’utilisation](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Préférences de l’utilisateur](analysis-workspace/user-preferences.md)
-   + FAQ sur Espace de travail {#workspace-faq}
+   + FAQ sur l’espace de travail {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Messages d’erreur](analysis-workspace/workspace-faq/error-messages.md)
