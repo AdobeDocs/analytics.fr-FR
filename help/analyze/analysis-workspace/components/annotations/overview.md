@@ -6,7 +6,7 @@ solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Aperçu des annotations
 
-Les annotations dans Analysis Workspace vous permettent de communiquer efficacement les nuances et insights des données contextuelles à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
+Les annotations dans l’espace de travail vous permettent de communiquer efficacement les nuances et insights des données contextuelles à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre chiffre d’affaires ou toute autre mesure.
 
 Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si vous constatez un pic de trafic important dû à une campagne marketing, vous pouvez créer une annotation « Date de lancement de la campagne » et l’appliquer à l’ensemble de la suite de rapports. Lorsque vos utilisateurs visualisent des jeux de données incluant cette date, ils voient l’annotation dans leurs projets, à côté de leurs données.
 
