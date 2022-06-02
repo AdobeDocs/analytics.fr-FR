@@ -7,7 +7,7 @@ user-guide-description: Fournit des instructions pratiques pour Analysis Worksp
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 + [Guide sur les outils Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ [Landing page](landing.md)
++ [Page de destination](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
    + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
