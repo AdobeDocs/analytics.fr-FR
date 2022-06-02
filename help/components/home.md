@@ -3,7 +3,7 @@ title: Guide des composants d’Analytics
 description: Découvrez les différents composants proposés par Adobe Analytics.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -15,12 +15,12 @@ ht-degree: 100%
 
 Les composants Analytics permettent d’affiner et d’optimiser l’analyse des données. Les composants incluent :
 
-* **Dimensions :** référence pour les dimensions utilisables dans Adobe Analytics.
-* **Mesures :** référence pour les mesures utilisables dans Adobe Analytics.
-* **Segmentation :** concentrez-vous sur un sous-ensemble de vos données.
+* **Dimensions :** Référence pour les dimensions utilisables dans Adobe Analytics.
+* **Mesures :** Référence pour les mesures utilisables dans Adobe Analytics.
+* **Segmentation :** Concentrez-vous sur un sous-ensemble de vos données.
 * **Mesures calculées :** Utilisez des formules simples pour combiner des mesures ou des fonctions avancées pour vos analyses statistiques.
 * **Suites de rapports virtuelles :** Créez un silo virtuel de données basé sur une suite de rapports. Permet de nettoyer ou de segmenter les données pour une meilleure expérience utilisateur. Certaines fonctionnalités ne peuvent être utilisées que dans des suites de rapports virtuelles.
-* **Analyses entre appareils** : un type spécial de suite de rapports virtuelle vous permet de configurer les analyses entre appareils.
+* **Analyses entre appareils** : Un type spécial de suite de rapports virtuelle vous permet de configurer les analyses entre appareils.
 * **Alertes :** Recevez des notifications à chaque fois que les données sont supérieures ou inférieures à un seuil.
 * **Classifications :** Réorganisez et groupez les dimensions pour obtenir des informations supplémentaires.
 * **Création de rapports en temps réel :** Obtenez des tendances et des rapports dès qu’ils sont disponibles.
