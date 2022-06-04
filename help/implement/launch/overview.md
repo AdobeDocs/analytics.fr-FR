@@ -1,16 +1,16 @@
 ---
-title: Implémentation avec des balises dans Adobe Experience Platform
+title: Mise en oeuvre d’Adobe Analytics avec des balises dans Adobe Experience Platform
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 94%
 
 ---
 
-# Implémentation avec des balises dans Adobe Experience Platform
+# Mise en oeuvre d’Adobe Analytics avec des balises dans Adobe Experience Platform
 
 Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour mettre en œuvre le code sur votre site pour la collecte de données. La méthode actuellement recommandée par Adobe est celle réalisée par le biais de balises dans Adobe Experience Platform.
 

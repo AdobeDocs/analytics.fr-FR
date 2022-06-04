@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '402'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # Guide de mise en oeuvre Adobe Analytics {#implementation}
 
 + [Mise en œuvre d’Adobe Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + [Notes de mise à jour d’AppMeasurement](appmeasurement-updates.md)
 + Variables, fonctions et méthodes Analytics {#vars}
    + [Aperçu](vars/overview.md)
@@ -131,6 +131,22 @@ ht-degree: 97%
    + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
++ Mise en oeuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
+   + [Présentation d’Experience Edge](aep-edge/overview.md)
+   + [Mappage des variables](aep-edge/variable-mapping.md)
+   + SDK Web {#web-sdk}
+      + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
+   + SDK Mobile {#mobile-sdk}
+      + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
+   + API Edge {#edge-api}
+      + [Présentation de l’API Edge](aep-edge/edge-api/overview.md)
++ Implémentation d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
+   + [Présentation des balises](launch/overview.md)
+   + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
+   + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
+   + [Validation et publication en production](launch/validate-publish-prod.md)
+   + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
+   + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
    + [Mise en œuvre des liens d’exclusion](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 97%
       + [Exemple de visite](js/xdevice-visid/visit-example.md)
       + [FAQ sur l’identification héritée de plusieurs appareils](js/xdevice-visid/xdevice-faq.md)
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
-+ Implémentation d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
-   + [Présentation des balises](launch/overview.md)
-   + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
-   + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
-   + [Validation et publication en production](launch/validate-publish-prod.md)
-   + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
-   + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
    + [Mise en œuvre d’Analytics avec DTM](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 97%
    + [Révision ciblée (après chaque mise à jour de site web)](review/focused-review.md)
    + [Révision intégrale (tous les 6 mois)](review/full-review.md)
    + [Définition des 5 principaux indicateurs clés de performance](review/define-kpis.md)
-+ Utilisation des données XDM avec Analytics {#aep-edge}
-   + [Utilisation du SDK Web AEP](aep-edge/xdmoverview.md)
-   + [Mappage manuel des données XDM vers Analytics](aep-edge/xdm-manual.md)

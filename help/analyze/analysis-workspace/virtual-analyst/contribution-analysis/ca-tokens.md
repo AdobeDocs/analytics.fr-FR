@@ -1,10 +1,9 @@
 ---
 description: Utilisation de l’analyse des contributions pour identifier les anomalies statistiques et les corrélations au sein des données.
 title: Analyse des contributions - Aperçu
-feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 100%
