@@ -4,10 +4,9 @@ title: Horodatages facultatifs
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 * Envoyez des données horodatées d’une application mobile vers une suite de rapports globale.
 * Mettez à niveau les applications afin d’utiliser le suivi hors ligne sans avoir à créer une suite de rapports.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si vous utilisez le paramètre Horodatages (facultatif), ne définissez pas l’attribut [s.visitorID](/help/implement/vars/config-vars/visitorid.md) pour les données déjà horodatées. Ceci risquerait de générer des données dans le désordre et de nuire aux calculs de durée (valeurs de durée) et aux rapports d’attribution (persistance des eVars), du nombre de visites/de visiteurs et de rapports de cheminement.
 

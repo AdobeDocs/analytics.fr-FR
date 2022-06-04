@@ -3,10 +3,10 @@ title: Variables eVar (marchandisage)
 description: Variables personnalisées liées à des produits individuels.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '382'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Pour obtenir des informations détaillées sur le fonctionnement des eVars de ma
 
 Avant d’utiliser des eVars dans votre implémentation, veillez à configurer l’eVar selon la syntaxe souhaitée dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si les eVars de marchandisage ne sont pas correctement configurées, cela entraîne des valeurs inattendues ou une perte de données pour la variable. Veillez à ce qu’elles soient correctement configurées pour votre implémentation.
 

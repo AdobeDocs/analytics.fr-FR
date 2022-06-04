@@ -3,7 +3,7 @@ title: Prop
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
@@ -38,7 +38,7 @@ Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la mê
 
 Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop où il est activé. Contactez l’assistance clientèle d’Adobe avec l’identifiant de suite de rapports et les variables souhaitées pour inverser le respect de la casse.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Activer/désactiver le respect de la casse peut réduire drastiquement les éléments de dimension, provoquer des résultats inattendus avec des segments et provoquer des problèmes avec les filtres. Adobe recommande vivement de modifier ce paramètre entre deux périodes importantes, comme au début d’un mois ou d’une année.
 

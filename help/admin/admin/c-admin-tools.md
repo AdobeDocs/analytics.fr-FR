@@ -3,8 +3,8 @@ description: Index des outils d’administration dans Adobe Analytics.
 title: Outils d’administration
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Si vous devez, par exemple, comparer des jeux de règles et les copier vers une nouvelle suite de rapports, nous suggérons que vous ouvriez un nouveau navigateur ou réalisiez une capture d’écran pour effectuer cette comparaison.
 

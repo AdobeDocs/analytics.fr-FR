@@ -4,8 +4,8 @@ description: Découvrez comment et pourquoi créer des projets dans Workspace av
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Vous pouvez appliquer une suite de rapports à tous les panneaux en même temps 
 
 Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et de « panneau inactif ». Le panneau actif est reconnaissable par la bordure bleue claire qui l’entoure. Il suffit de cliquer à l’intérieur d’un panneau pour l’activer.
 
->[!IMPORTANT]
+>[!TIP]
 >Vous pouvez faire glisser et déposer vers n’importe quel panneau situé dans la même suite de rapports que votre panneau actif. En faisant glisser le panneau vers un panneau inactif de la même suite de rapports, le panneau devient actif.
 
 | Tâche | Panneau actif | Panneau inactif |
@@ -50,7 +50,7 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 
 1. Créez un projet avec 2 panneaux ou plus dans Workspace.
 
-1. Faites glisser et déposez des composants (mesures, dimensions, segments, plages de dates) dans le panneau. Assurez-vous que les panneaux contiennent des données et des visualisations propres à leur suite de rapports.
+1. Faites glisser et déposez des composants (mesures, dimensions, segments, périodes) dans le panneau. Assurez-vous que les panneaux contiennent des données et des visualisations propres à leur suite de rapports.
 
 
    >[!NOTE]

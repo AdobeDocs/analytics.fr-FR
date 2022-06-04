@@ -4,8 +4,8 @@ title: Comparaison des dates
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -31,11 +31,11 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >Cette option contextuelle est désactivée pour les lignes de mesures, de périodes et de dimension temporelle.
 
-1. Selon la façon dont sont définies les plages de dates du tableau, les options de comparaison suivantes sont disponibles :
+1. Selon la façon dont sont définies les périodes du tableau, les options de comparaison suivantes sont disponibles :
 
    | Option | Description |
    |---|---|
@@ -65,7 +65,7 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
 
 1. Cliquez avec le bouton droit de la souris dans le tableau, puis sélectionnez **[!UICONTROL Ajouter une colonne de périodes]** ![](assets/add-time-period-column.png).
 
-1. Selon la façon dont sont définies les plages de dates du tableau, les options de comparaison suivantes sont disponibles :
+1. Selon la façon dont sont définies les périodes du tableau, les options de comparaison suivantes sont disponibles :
 
    | Option | Description |
    |---|---|
@@ -93,7 +93,7 @@ Un nouveau paramètre disponible pour tous les tableaux permet d’**[!UICONTROL
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Ce paramètre est **désactivé** (décoché) pour tous les projets existants et **activé** (coché) pour tous les nouveaux projets.
 

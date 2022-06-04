@@ -3,7 +3,7 @@ title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Utiliser des règles de traitement pour renseigner les variables d’analyse
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
 

@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: Règles de traitement - Présentation
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ Les règles de traitement simplifient la collecte de données et gèrent le cont
 
 Les administrateurs disposent des droits d’utiliser les règles de traitement **par défaut**. Les administrateurs peuvent également octroyer ces droits à des utilisateurs qui ne sont pas administrateurs à l’aide de l’interface des outils d’administration. Pour obtenir des instructions, voir [].
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->Les règles de traitement affectant en permanence les données d’Analytics, Adobe recommande vivement que leurs administrateurs soient parfaitement formés à Adobe Analytics et connaissent toutes les sources de données de vos suites de rapports (sites web normalisés, sites mobiles, applications mobiles, API pour l’insertion de données, etc.). La connaissance des variables de données contextuelles et des variables standard renseignées sur différentes plateformes permettra de prévenir la suppression ou la modification accidentelle des données.
+![Règles de traitement](assets/processing-rules.png)
 
 ## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
 

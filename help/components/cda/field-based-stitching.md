@@ -2,7 +2,7 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 97%
@@ -17,7 +17,7 @@ Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour re
 
 Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 

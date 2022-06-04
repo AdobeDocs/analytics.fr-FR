@@ -2,8 +2,8 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe offre deux types de graphiques d’appareil dans le cadre du service d’I
 
 Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l’aide de la méthode de graphique d’appareil, les conditions suivantes doivent être remplies. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
@@ -37,7 +37,7 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 
 * Les identifiants Analytics hérités ne sont pas pris en charge. Seuls les visiteurs avec un Experience Cloud ID sont regroupés.
 * Si votre entreprise utilise un graphique Privé, les nouveaux appareils peuvent mettre jusqu’à 24 heures pour être regroupés.
-* Si votre entreprise utilise le graphique Co-op, les nouveaux appareils qui visitent le site peuvent prendre jusqu’à deux semaines pour être regroupés. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des plages de dates datant de plus de deux semaines.
+* Si votre entreprise utilise le graphique Co-op, les nouveaux appareils qui visitent le site peuvent prendre jusqu’à deux semaines pour être regroupés. Le niveau de groupement dans les analyses entre appareils pour les deux dernières semaines est généralement inférieur à celui des périodes datant de plus de deux semaines.
 * Les graphiques d’appareils tiers ne sont pas pris en charge.
 
 ## Étapes suivantes

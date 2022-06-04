@@ -3,8 +3,8 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -399,7 +399,7 @@ Lorsque « Après 2 semaines » est spécifié, si un accès à la page A a 
 * [!UICONTROL Within] vous permet d’effectuer un suivi par année, mois, jour, heure et minute pour établir des correspondances avec des visites.
 * [!UICONTROL Within] ne peut être appliqué qu’à un conteneur [!UICONTROL Accès], car il s’agit du seul niveau pour lequel une granularité aussi fine est définie.
 
->[!IMPORTANT]
+>[!TIP]
 >
 >Dans une clause « dans » entre des instructions THEN, vous pouvez ajouter par exemple « dans une instance de mot-clé de recherche », « dans une instance eVar 47 ». Le segment est ainsi limité à une instance d’une dimension.
 

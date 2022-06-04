@@ -3,8 +3,8 @@ title: forceOffline
 description: Permet de définir manuellement l’état en ligne d’AppMeasurement.
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La méthode `forceOffline()` vous permet de remplacer l’état d’AppMeasurement détecté automatiquement.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >N’utilisez cette fonction que lorsque [`trackOffline`](../config-vars/trackoffline.md) est activé. L’utilisation de cette fonction en dehors du suivi hors ligne peut entraîner une perte de données.
 

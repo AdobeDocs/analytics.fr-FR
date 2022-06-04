@@ -3,8 +3,8 @@ title: trackingServerSecure
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées sur les pages HTTPS.
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Adobe collecte des données sur votre site en recevant une demande d’image générée par le visiteur. La variable `trackingServerSecure` détermine l’emplacement où une demande d’image est envoyée via HTTPS. Celle-ci détermine également l’emplacement où les cookies des visiteurs sont stockés. Si cette variable n’est pas correctement définie, votre mise en œuvre peut entraîner une perte de données.
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >Si vous modifiez cette valeur, AppMeasurement recherche les cookies à un autre emplacement. Le nombre de visiteurs uniques peut augmenter temporairement la création de rapports lorsque les cookies de visiteurs sont définis au nouvel emplacement.
 
