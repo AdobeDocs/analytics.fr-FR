@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 89%
+source-wordcount: '1772'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
 
 >[!IMPORTANT]
->À compter du 15 avril 2022, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans (toutes les tâches créées avant le 31 janvier 2020). Aucun rapport ou donnée ne sera supprimé. Seuls les rapports identifiés comme antérieurs à deux ans seront suspendus et aucun autre rapport planifié ne sera envoyé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en vue de la fin de vie précédemment annoncée de Reports &amp; Analytics. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouveaux extractions de données. En réponse aux demandes des clients qui recherchent une extension et pour faciliter la transition depuis les Reports &amp; Analytics, nous avons décidé d’étendre l’accès à ces fonctionnalités jusqu’au 31 janvier 2023. Veuillez noter que les délais d’expiration des rapports et des extractions de données continueront à être limités à neuf mois ; la remise des rapports et des extractions de données sera suspendue à la fin de cette période, sauf si le planning est réactivé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Lorsque vous planifiez la remise d’un rapport dans une application d’Adobe Analytics, vous pouvez utiliser les outils Planification et Diffusion pour afficher les fichiers qui ont été envoyés automatiquement et modifier ou interrompre les livraisons.
 
