@@ -4,10 +4,10 @@ title: Gestionnaires des tâches planifiées
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 52%
+source-wordcount: '769'
+ht-degree: 43%
 
 ---
 
@@ -17,13 +17,20 @@ Le [!UICONTROL Gestionnaire des tâches planifiées] vous permet d’afficher la
 
 ## Suspension des tâches planifiées plus anciennes
 
-À compter du **21 avril 2022**, Adobe prévoit de suspendre toutes les tâches planifiées de Report Builder créées il y a plus de deux ans. Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020 ;**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
+Le 21 avril 2022, nous avons apporté des modifications aux tâches planifiées dans le Report Builder dans le cadre de nos efforts d’optimisation des performances et des diffusions. Ces modifications comprenaient la suppression de la possibilité que des diffusions planifiées &quot;se terminent après x occurrences&quot;. En réponse à plusieurs demandes de clients qui recherchent plus de temps pour explorer et mettre en oeuvre des alternatives, nous avons décidé de restaurer cette option de manière limitée jusqu’à ce que **31 janvier 2023**.
+
+Vous pourrez continuer à planifier les tâches de Report Builder horaire et les terminer au maximum après 99 occurrences. Notez que la restauration s’applique uniquement aux tâches horaires ; la &quot;fin après x occurrences&quot; reste indisponible pour tous les autres intervalles de diffusion (quotidiens, hebdomadaires, mensuels et annuels).
+
+Cette option sera abandonnée le 31 janvier 2023.
+Pour plus de questions ou d’assistance, contactez l’assistance clientèle Adobe.
+
+Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020 ;**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
 
 Toutes les tâches que vous souhaitez reprendre l’envoi peuvent être réactivées. Connectez-vous à Report Builder et lancez le [!UICONTROL Gestionnaire des tâches planifiées]. Cliquez sur **[!UICONTROL Réactiver]** pour la tâche planifiée que vous souhaitez reprendre l’envoi. Toute tâche qui sera réactivée aura une expiration par défaut de 18 mois, sauf si une date d’expiration plus courte est choisie.
 
-En outre, toute tâche dont la date de création est inférieure à deux ans et dont la date d’expiration actuelle (ou dont la date d’expiration est supérieure à deux ans) sera appliquée à une date d’expiration de 18 mois par défaut. La nouvelle date d’expiration sera le 15 octobre 2023. Vous pouvez modifier cette date d’expiration pour qu’elle soit inférieure à 18 mois, mais pas supérieure. Au moment de l’expiration, la tâche sera suspendue. Vous pouvez toutefois réactiver la tâche avec une nouvelle date d’expiration de 18 mois. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé.
+En outre, toute tâche dont la date de création est inférieure à deux ans et dont la date d’expiration actuelle (ou dont la date d’expiration est supérieure à deux ans) sera appliquée à une date d’expiration de 18 mois par défaut. La nouvelle date d’expiration sera le 15 octobre 2023. Vous pouvez modifier cette date d’expiration pour qu’elle soit inférieure à 18 mois, mais pas supérieure. Au moment de l’expiration, la tâche sera suspendue. Vous pouvez toutefois réactiver la tâche avec une nouvelle date d’expiration de 18 mois. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé.
 
-L’objectif de cette pause est de gérer et gérer efficacement notre base de données de tâches planifiées afin d’assurer des performances et une diffusion optimales pour les tâches et les classeurs nécessaires. Cela servira de nouvelle politique de gouvernance. Après le 15 avril 2022, toutes les tâches auront une date d’expiration maximale de 18 mois. Au bout de 18 mois, les tâches expirées seront suspendues et pourront être réactivées si nécessaire.
+L’objectif de cette pause est de gérer et gérer efficacement notre base de données de tâches planifiées afin d’assurer des performances et une diffusion optimales pour les tâches et les classeurs nécessaires. Cela servira de nouvelle politique de gouvernance. Après le 31 janvier 2023, toutes les tâches auront une date d’expiration maximale de 18 mois. Au bout de 18 mois, les tâches expirées seront suspendues et pourront être réactivées si nécessaire.
 
 ## Configuration des tâches planifiées
 
