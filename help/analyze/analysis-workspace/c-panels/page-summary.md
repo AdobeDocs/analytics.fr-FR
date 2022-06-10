@@ -4,7 +4,7 @@ title: Panneau Résumé de la page
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
@@ -53,7 +53,7 @@ Le [!UICONTROL Résumé de la page] renvoie un riche ensemble de données de mes
 | [!UICONTROL Actualisations] | Le [!UICONTROL Actualisations] indique le nombre de fois où un élément de dimension a été présent lors d’un rechargement. Un visiteur actualisant son navigateur est la méthode la plus courante pour déclencher une actualisation. |
 | [!UICONTROL Entrées] | Le [!UICONTROL Entrées] mesure indique le nombre de fois où un élément de dimension donné est capturé comme première valeur d’une visite. |
 | [!UICONTROL Sorties] | Le [!UICONTROL Sorties] mesure indique le nombre de fois où un élément de dimension donné est capturé comme dernière valeur d’une visite. |
-| [!UICONTROL Flux] | Diagramme de flux avec la page sélectionnée comme point focal. Vous pouvez approfondir l’analyse des données comme n’importe quelle [Diagramme de flux](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md). |
+| [!UICONTROL Flux] | Diagramme de flux avec la page sélectionnée comme point focal. Vous pouvez approfondir l’analyse des données comme n’importe quelle [Diagramme de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
