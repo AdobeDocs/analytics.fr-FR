@@ -3,12 +3,13 @@ title: cookieDomainPeriods
 description: Permet d’aider AppMeasurement à comprendre quel domaine doit conserver les cookies si votre domaine comporte un point dans son suffixe.
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 84%
 
 ---
+
 
 # cookieDomainPeriods
 
@@ -23,18 +24,22 @@ La variable `cookieDomainPeriods` permet à AppMeasurement de déterminer où le
 >
 >Ne prenez pas en compte les sous-domaines pour cette variable. Par exemple, ne définissez pas `cookieDomainPeriods` l’URL `store.toys.example.com`. AppMeasurement reconnaît par défaut que les cookies doivent être conservés sur `example.com`, même sur les URL comportant de nombreux sous-domaines.
 
-## Points de domaine à l’aide de balises dans Adobe Experience Platform
+## Périodes de domaine à l’aide du SDK Web
+
+Le SDK Web peut déterminer le domaine de stockage de cookies correct sans cette variable.
+
+## Points de domaine à l’aide de l’extension Adobe Analytics
 
 Les points de domaine désignent un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Points de domaine].
 
 Définissez ce champ sur `3` uniquement pour les domaines contenant un point dans le suffixe. Sinon, ce champ peut être laissé vide.
 
-## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé
+## s.cookieDomainPeriods dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `cookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement pour les domaines qui contiennent un point dans le suffixe. Sa valeur par défaut est `"2"`, ce qui prend en charge la plupart des domaines.
 

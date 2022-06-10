@@ -3,10 +3,10 @@ title: websiteBot
 description: Identifiez dynamiquement les robots à l’aide des mouvements de souris.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ Ce module effectue deux vérifications :
 
 Si l’agent utilisateur se trouve sur un bureau et qu’aucun mouvement de souris n’est détecté, le plug-in peut
 
-* Effectuer un appel de règle d’appel direct à l’aide des balises dans Adobe Experience Platform ou
+* effectuer un appel de règle d’appel direct à l’aide du SDK Web ou de l’extension Adobe Analytics ; ou
 * Effectuer un appel de suivi des liens pour indiquer que le visiteur n’est pas un robot.
 
 ## Conditions préalables

@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: Permet de créer des fonctions de rappel avant d’envoyer un accès à Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 55%
 
 ---
 
@@ -24,11 +24,34 @@ Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associ
 >
 >Le timing et l’ordre des fonctions déclenchées entre `registerPreTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
-## Enregistrement d’un rappel de pré-suivi à l’aide de balises dans Adobe Experience Platform
+## Rappel de pré-suivi à l’aide de l’extension SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Le SDK Web ne permet pas d’associer une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données.
 
-## s.registerPreTrackCallback dans AppMeasurement et l’éditeur de code personnalisé
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier avant le code de rappel d’envoi d’événement]** bouton .
+1. Placez le code de votre choix dans l’éditeur.
+
+## Rappel de pré-suivi implémentant manuellement le SDK Web
+
+Le SDK Web ne permet pas d’associer une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme suit : `doPlugins`. Voir [Modification globale des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) pour plus d’informations, voir la documentation du SDK Web .
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## Rappel de pré-suivi à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.registerPreTrackCallback dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La fonction `s.registerPreTrackCallback` prend une fonction comme son seul argument. La fonction imbriquée s’exécute juste avant l’envoi d’une demande d’image.
 

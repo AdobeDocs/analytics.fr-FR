@@ -3,10 +3,10 @@ title: linkLeaveQueryString
 description: Permet de conserver les chaînes de requête dans les dimensions de suivi des liens.
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 80%
 
 ---
 
@@ -24,18 +24,22 @@ L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions d
 >
 >Cette variable n’affecte pas les dimensions en dehors du suivi des liens. Elle affecte uniquement les liens personnalisés, les liens de sortie et les liens de téléchargement.
 
-## Conservation des paramètres d’URL à l’aide de balises dans Adobe Experience Platform
+## Gestion des chaînes de requête de lien à l’aide du SDK Web
+
+Les chaînes de requête ne sont pas retirées du champ XDM `web.webInteraction.URL`. Si vous souhaitez supprimer les chaînes de requête de ce champ XDM, vous pouvez le modifier à l’aide de la propriété `onBeforeEventSend`.
+
+## Conserver les paramètres d’URL à l’aide de l’extension Adobe Analytics
 
 [!UICONTROL Conserver les paramètres d’URL] est une case à cocher située sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche la case à cocher [!UICONTROL Conserver les paramètres d’URL].
 
 Cochez cette case si vous souhaitez inclure des chaînes de requête dans les dimensions de suivi des liens.
 
-## s.linkLeaveQueryString dans AppMeasurement et l’éditeur de code personnalisé
+## s.linkLeaveQueryString dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.linkLeaveQueryString` est une valeur booléenne. Sa valeur par défaut est `false`.
 

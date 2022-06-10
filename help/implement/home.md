@@ -3,10 +3,10 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,8 @@ Le code JavaScript envoie une demande d’image aux serveurs de collecte de donn
 
 Adobe Analytics exige du code sur votre site web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes de mise en œuvre de ce code, selon la plateforme et les besoins de votre entreprise.
 
-* **Balises Adobe Experience Platform** : méthode normalisée et recommandée d’implémentation d’Adobe Analytics. Placez une balise de chargement sur chaque page et utilisez l’interface utilisateur de la collecte de données pour déterminer la définition de chaque variable.
+* **SDK Web**: Méthode normalisée et recommandée pour implémenter Adobe Analytics. Installez l’extension SDK Web dans la collecte de données Adobe Experience Platform, utilisez une balise de chargement sur chaque page et envoyez les données à Adobe Experience Platform Edge dans un format qui convient à votre entreprise. Experience Edge transfère les données entrantes vers Adobe Analytics au format correct.
+* **Extension Adobe Analytics**: Installez l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform. Placez une balise de chargement sur chaque page et utilisez l’extension Analytics pour déterminer comment chaque variable est définie.
 * **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de balises à l’aide de règles avec du code personnalisé.
 * **SDK mobile :** bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 

@@ -3,10 +3,10 @@ title: Événement d’achat
 description: Utilisez l’événement d’achat pour collecter des données pour les mesures Commandes, Unités et Recettes.
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 72%
 
 ---
 
@@ -22,20 +22,28 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 
 >[!NOTE]
 >
->Le chiffre d’affaires n’est pas multiplié par le champ de quantité. Par exemple, `s.products="Womens;Socks;5;4.50"` ne transmet pas 22,50 $ au chiffre d’affaires, mais 4,50 $. Assurez-vous que votre implémentation transmet le total du chiffre d’affaires pour la quantité répertoriée. Par exemple : `s.products="Womens;Socks;5;22.50"`.
+>Le chiffre d’affaires n’est pas multiplié par le champ de quantité. Par exemple : `s.products="Womens;Socks;5;4.50"` ne transmet pas 22,50 $ aux recettes ; il transmet 4,50 $. Assurez-vous que votre mise en oeuvre transmet le total des recettes pour la quantité répertoriée. Par exemple : `s.products="Womens;Socks;5;22.50"`.
 
-## Définition de l’événement d’achat à l’aide de balises dans Adobe Experience Platform
+## Définir l’événement d’achat à l’aide du SDK Web
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+L’événement d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous plusieurs champs XDM :
+
+* Les commandes sont associées à `commerce.purchases.value`.
+* Les unités sont mappées à la somme de tous les `productListItems[].quantity` champs.
+* Les recettes sont mises en correspondance avec la somme de toutes les `productListItems[].priceTotal` champs.
+
+## Définir l’événement d’achat à l’aide de l’extension Adobe Analytics
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Événements] et définissez la liste déroulante des événements sur [!UICONTROL achat].
 
-D’autres variables dépendantes telles que `products` et `purchaseID` ne comportent pas de champs dédiés dans l’interface utilisateur de la collecte de données. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
+Autres variables dépendantes, telles que `products` et `purchaseID` ne comportent pas de champs dédiés dans l’extension Analytics au sein de la collecte de données Adobe Experience Platform. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
 
-## Définition de l’événement d’achat dans AppMeasurement et l’éditeur de code personnalisé
+## Définition de l’événement d’achat dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 L’événement d’achat est une chaîne définie dans le cadre de la variable d’événements.
 

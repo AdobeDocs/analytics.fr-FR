@@ -3,10 +3,10 @@ title: useLinkTrackSessionStorage
 description: Stockez les données de suivi des liens dans l’enregistrement de session plutôt que dans un cookie.
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 81%
 
 ---
 
@@ -25,11 +25,15 @@ L’utilisation de l’enregistrement de session d’un navigateur pour le suivi
 
 AppMeasurement supprime les données de suivi des liens d’enregistrement de session après l’envoi d’un accès à Adobe. Il expire également automatiquement lorsque l’onglet du navigateur est fermé.
 
-## Utilisation de l’enregistrement de session de suivi de lien à l’aide de balises dans Adobe Experience Platform
+## Utiliser le suivi des liens pour le stockage des sessions à l’aide du SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Le SDK Web ne prend pas en charge cette fonctionnalité.
 
-## s.useLinkTrackSessionStorage dans AppMeasurement et l’éditeur de code personnalisé 
+## Utilisation de l’enregistrement de session de suivi de lien à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.useLinkTrackSessionStorage dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.useLinkTrackSessionStorage` est une valeur booléenne qui détermine si AppMeasurement utilise l’enregistrement de session pour les données de suivi des liens au lieu du cookie `s_sq`. Sa valeur par défaut est `false`. Définissez cette variable sur `true` si vous souhaitez qu’AppMeasurement utilise l’enregistrement de session au lieu du cookie `s_sq` pour le suivi des liens et Activity Map.
 

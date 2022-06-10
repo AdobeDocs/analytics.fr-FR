@@ -3,10 +3,10 @@ title: dynamicVariablePrefix
 description: Permet de personnaliser la chaîne qui identifie les variables dynamiques.
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -16,18 +16,22 @@ Les variables dynamiques sont un concept abrégé qui vous permet de copier des 
 
 Par défaut, les variables dynamiques utilisent le préfixe `D=`. La variable `dynamicVariablePrefix` vous permet de personnaliser la chaîne qui identifie les variables dynamiques. Elle est sensible à la casse.
 
-## Préfixe de variables dynamiques à l’aide de balises dans Adobe Experience Platform
+## Préfixe de variable dynamique à l’aide du SDK Web
+
+Le SDK Web n’utilise pas de formatage de variable dynamique. Vous pouvez plutôt utiliser le mappage de flux de données pour remplir plusieurs champs cibles à l’aide d’un seul champ source. Voir [Variables dynamiques à l’aide du SDK Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) pour plus d’informations.
+
+## Préfixe de variable dynamique à l’aide de l’extension Adobe Analytics
 
 Le préfixe de variable dynamique est un champ situé sous l’accordéon [!UICONTROL Variables globales] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Variables globales], qui affiche le champ [!UICONTROL Préfixe de variable dynamique].
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+1. Développez l’accordéon [!UICONTROL Variables globales], qui affiche le champ [!UICONTROL Préfixe de variable dynamique].
 
 Ce champ contient `D=` par défaut. Vous pouvez modifier la valeur si vous souhaitez utiliser un préfixe de variable dynamique différent. Vous pouvez utiliser n’importe quelle valeur, à condition qu’elle corresponde au codage des caractères sur votre site.
 
-## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé
+## s.dynamicVariablePrefix dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.dynamicVariablePrefix` est une chaîne pouvant contenir n’importe quelle séquence de caractères. Si cette variable n’est pas définie, AppMeasurement utilise la chaîne `D=` par défaut.
 

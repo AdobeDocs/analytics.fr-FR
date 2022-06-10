@@ -3,10 +3,10 @@ title: FAQ sur la mise en œuvre
 description: Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement crée un objet image dans la page HTML, puis le navigateur demand
 
 Il arrive qu’une entreprise souhaite supprimer une mise en œuvre en raison de l’expiration du contrat ou afin de réduire le nombre d’appels au serveur.
 
-* **Implémentations utilisant des balises dans Adobe Experience Platform** : désactivez ou désinstallez l’extension Adobe Analytics dans l’onglet [!UICONTROL Extensions], puis publiez.
+* **Mises en oeuvre à l’aide de la collecte de données Adobe Experience Platform**: Désactivez ou désinstallez l’extension Adobe Analytics, Web SDK ou Mobile applicable dans le [!UICONTROL Extensions] puis publier.
 * **Mises en œuvre AppMeasurement héritées** : remplacez l’intégralité du contenu de votre fichier `s_code.js` par la ligne de code suivante :
 
 ```js

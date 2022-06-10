@@ -3,10 +3,10 @@ title: trackingServer
 description: Permet de déterminer l’emplacement où les demandes d’image sont envoyées.
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 69%
 
 ---
 
@@ -18,22 +18,47 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 >
 >Si vous modifiez cette valeur, AppMeasurement recherche les cookies à un autre emplacement. Le nombre de visiteurs uniques peut augmenter temporairement la création de rapports lorsque les cookies de visiteurs sont définis au nouvel emplacement.
 
-## Serveur de suivi à l’aide de balises dans Adobe Experience Platform
+## Domaine Edge à l’aide de l’extension SDK Web
+
+Le SDK Web utilise [!UICONTROL Domaine Edge] pour gérer à la fois le serveur de suivi et le serveur de suivi sécurisé. Vous pouvez définir les [!UICONTROL Domaine Edge] lors de la configuration de l’extension SDK Web.
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Définissez les **[!UICONTROL Domaine Edge]** Champ de texte.
+
+Voir [Configuration de l’extension du SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html) pour plus d’informations, voir la documentation du SDK Web .
+
+>[!TIP]
+>
+>Si votre entreprise passe du SDK Web à une mise en oeuvre d’extension AppMeasurement ou Analytics, ce champ peut utiliser la même valeur que celle contenue dans la variable `trackingServerSecure` (ou `trackingServer`).
+
+## Domaine Edge implémentant manuellement le SDK Web
+
+Configuration du SDK à l’aide de [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr). Le champ est une chaîne qui détermine le domaine auquel envoyer les données.
+
+```json
+alloy("configure", {
+  "edgeDomain": "data.example.com"
+});
+```
+
+## Serveur de suivi utilisant l’extension Adobe Analytics
 
 Le serveur de suivi est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi].
 
 Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].data.adobedc.net`.
 
-## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé
+## s.trackingServer dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.trackingServer` est une chaîne qui contient l’emplacement d’envoi des données.
 
-## Déterminer la valeur de trackingServer
+## Déterminer la valeur de `trackingServer`
 
 La valeur de cette variable dépend de l’utilisation de cookies propriétaires ou tiers. Adobe recommande vivement d’utiliser des cookies propriétaires dans votre mise en œuvre.
 

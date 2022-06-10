@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 81%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 Les paramètres de chaîne de requête dans une URL de navigateur contiennent fréquemment des données importantes pour Analytics. Utilisez la méthode `Util.getQueryParam()` pour récupérer les données de la chaîne de requête.
 
-## Obtention des données de paramètre de chaîne de requête à l’aide de balises dans Adobe Experience Platform
+## Obtention des données de paramètre de chaîne de requête à l’aide de l’extension Adobe Analytics et de l’extension SDK Web
 
 Vous pouvez obtenir des données de paramètre de chaîne de requête en définissant des valeurs dans les éléments de données.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Éléments de données], puis cliquez sur l’élément de données souhaité (ou créez un élément de données).
-4. Définissez la liste déroulante [!UICONTROL Extension] sur [!UICONTROL Core] et le [!UICONTROL Type d’élément de données] sur [!UICONTROL Paramètre de chaîne de requête].
+4. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Core]** et le [!UICONTROL Type d’élément de données] sur **[!UICONTROL Paramètre de chaîne de requête]**.
 5. Entrez le paramètre de chaîne de requête dans le champ de texte.
 
-La valeur du paramètre de chaîne de requête est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter des variables Analytics.
+La valeur du paramètre de chaîne de requête est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter les variables souhaitées.
 
-## s.Util.getQueryParam() dans AppMeasurement et l’éditeur de code personnalisé
+## s.Util.getQueryParam() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Appelez la méthode `s.Util.getQueryParam()` pour récupérer une valeur de chaîne de requête à partir de l’URL du navigateur. L’argument de chaîne contenant un paramètre de chaîne de requête est obligatoire. Cette méthode renvoie une chaîne que vous pouvez affecter aux variables Analytics :
 

@@ -3,10 +3,10 @@ title: trackOffline
 description: Permet d’activer ou de désactiver le suivi hors ligne, qui modifie la manière dont AppMeasurement collecte les données.
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 83%
 
 ---
 
@@ -28,11 +28,15 @@ Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoye
    * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
    * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
 
-## Suivi hors ligne à l’aide de balises dans Adobe Experience Platform
+## Suivi hors ligne à l’aide du SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Le SDK Web ne prend pas en charge le suivi hors ligne.
 
-## s.trackOffline dans AppMeasurement et l’éditeur de code personnalisé
+## Suivi hors ligne à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.trackOffline dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.trackOffline` est une valeur booléenne qui active ou désactive le suivi hors ligne. Sa valeur par défaut est `false`. Définissez cette valeur sur `true` si vous souhaitez activer le suivi hors ligne.
 

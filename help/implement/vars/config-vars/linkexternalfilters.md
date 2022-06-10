@@ -3,16 +3,16 @@ title: linkExternalFilters
 description: Utilisez la variable linkExternalFilters pour faciliter le suivi automatique des liens de sortie.
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '310'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 62%
 
 ---
 
 # linkExternalFilters
 
-AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. Si [`trackExternalLinks`](trackexternallinks.md) est activé, une demande d’image est envoyée à Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
+AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. If [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackexternallinks.md) (SDK Web) est activé, une demande d’image est envoyée à l’Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
 
 Si cette variable contient une valeur, le suivi automatique des liens de sortie se comporte comme une liste autorisée. Si un clic sur un lien ne correspond à aucune valeur `linkExternalFilters`, ce lien n’est pas considéré comme un lien de sortie. L’URL entière est examinée par rapport à cette variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) est activé, la chaîne de requête est également examinée.
 
@@ -22,18 +22,24 @@ Si cette variable contient une valeur, le suivi automatique des liens de sortie 
 
 Si vous utilisez à la fois `linkInternalFilters` et `linkExternalFilters`, le lien sur lequel l’utilisateur a cliqué doit correspondre à `linkExternalFilters` **et** ne pas correspondre à `linkInternalFilters` pour être considéré comme un lien de sortie. Si un lien cliqué correspond à la fois aux critères de lien de sortie et de lien de téléchargement, le type de lien de téléchargement est prioritaire.
 
-## Liens sortants : suivi à l’aide de balises dans Adobe Experience Platform
+## Liens de sortie dans le SDK Web
+
+Les liens sont automatiquement considérés comme des liens de sortie si le domaine cible du lien diffère de celui en cours. `window.location.hostname`. Le SDK Web ne propose aucune variable de configuration permettant de modifier la détection automatique des liens de sortie. Si vous devez personnaliser les domaines considérés comme un lien de sortie, vous pouvez utiliser une logique personnalisée dans la variable `onBeforeEventSend` rappel.
+
+Voir [Suivi automatique des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) pour plus d’informations, voir la documentation du SDK Web .
+
+## Liens sortants : suivi à l’aide de l’extension Adobe Analytics
 
 Le champ Suivi est une liste de filtres séparés par des virgules (généralement des domaines) sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
+3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche le champ [!UICONTROL Liens sortants - Suivi].
 
 Placez des filtres que vous souhaitez toujours prendre en compte comme externes dans ce champ. Séparez plusieurs domaines par une virgule sans espace.
 
-## s.linkExternalFilters dans AppMeasurement et l’éditeur de code personnalisé
+## s.linkExternalFilters dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.linkExternalFilters` est une chaîne contenant des filtres (tels que les domaines) que vous considérez comme des liens de sortie. Séparez plusieurs domaines à l’aide d’une virgule sans espaces.
 

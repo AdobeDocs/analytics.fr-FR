@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 
@@ -18,18 +18,29 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 >
 >Si cette variable est définie dans un accès sans variable [`events`](events/events-overview.md), la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir les événements appropriés pour chaque accès avec la variable `products`.
 
-## Variable products à laide de balises dans Adobe Experience Platform
+## Produits utilisant le SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour définir cette variable. Toutefois, il existe plusieurs extensions tierces pour vous aider.
+Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous plusieurs champs XDM :
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+* La catégorie est mappée à `productListItems[].name`.
+* Le produit est mappé sur `productListItems[]._id`.
+* La quantité est mappée sur `productListItems[].quantity`.
+* Le prix est mappé sur `productListItems[].priceTotal`.
+* Les eVars de marchandisage sont mappées à `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.
+* Les événements de marchandisage sont associés à `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit.
+
+## Produits utilisant l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans la collecte de données Adobe Experience Platform pour définir cette variable ; cependant, plusieurs extensions tierces existent pour vous aider.
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur [!UICONTROL Catalogue] pour afficher toutes les extensions disponibles.
 4. Recherchez le terme « produit », qui révèle plusieurs extensions disponibles pour aider à définir cette variable.
 
 Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnalisé en respectant la syntaxe AppMeasurement ci-dessous.
 
-## s.products dans AppMeasurement et l’éditeur de code personnalisé
+## s.products dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.products` est une chaîne qui contient plusieurs champs délimités par produit. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
 

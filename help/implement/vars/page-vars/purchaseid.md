@@ -3,10 +3,10 @@ title: purchaseID
 description: Permet de dédupliquer les accès en fonction d’un identifiant d’achat unique.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,15 @@ Lorsqu’Adobe reconnaît un accès comme un achat en double, toutes les donnée
 
 Les identifiants d’achat s’appliquent à tous les visiteurs et n’expirent pas. Si un visiteur définit un identifiant d’achat donné, puis un autre visiteur définit le même identifiant d’achat un an plus tard, le second achat est dédupliqué.
 
-## Identifiant d’achat à l’aide de balises dans Adobe Experience Platform
+## Identifiant d’achat à l’aide du SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+L’ID d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `commerce.order.purchaseID`.
 
-## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé
+## Identifiant d’achat à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.purchaseID` est une chaîne qui contient un identifiant unique pour un achat. Celle-ci est définie sur le même accès qu’un événement d’achat. Utilisez uniquement des caractères alphanumériques pour renseigner cette variable.
 

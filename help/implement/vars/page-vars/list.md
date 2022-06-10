@@ -3,10 +3,10 @@ title: list
 description: Variables personnalisées qui contiennent plusieurs valeurs dans le même accès.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
@@ -24,11 +24,15 @@ Veillez à consigner dans votre [document de conception de solution](../../prepa
 
 Veillez à configurer chaque variable de liste dans les paramètres de la suite de rapports avant de l’utiliser dans votre mise en œuvre. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/list-var-admin.md) dans le guide Administrateur.
 
-## Variables de liste à l’aide de balises dans Adobe Experience Platform
+## Liste des variables à l’aide du SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Les variables de liste sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous les champs XDM `_experience.analytics.customDimensions.lists.list1` to `_experience.analytics.customDimensions.lists.list3`.
 
-## s.list1 - s.list3 dans AppMeasurement et l’éditeur de code personnalisé
+## Variables de liste à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.list1 - s.list3 dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Chaque variable de liste est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Celles-ci n’ont pas de nombre maximal d’octets ; toutefois, chaque valeur individuelle ne peut pas dépasser 255 octets. Le délimiteur que vous utilisez est déterminé lors de la configuration de la variable dans les paramètres de la suite de rapports. N’utilisez pas d’espaces lorsque vous délimitez plusieurs éléments.
 

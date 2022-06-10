@@ -3,10 +3,10 @@ title: s_gi()
 description: Permet de créer des instances d’AppMeasurement et d’en effectuer le suivi.
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '494'
+ht-degree: 68%
 
 ---
 
@@ -14,18 +14,43 @@ ht-degree: 100%
 
 La fonction `s_gi()` instancie ou trouve une instance d’AppMeasurement par identifiant de suite de rapports. AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction `s_gi()` renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée.
 
-## Fonction s_gi() à l’aide de balises dans Adobe Experience Platform
+## Instanciation d’un objet de suivi à l’aide de l’extension SDK Web
+
+L’extension SDK Web instancie et gère l’objet de suivi pour vous. Cependant, vous pouvez personnaliser le nom de l’objet de suivi dans les paramètres d’extension :
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous SDK Web Adobe Experience Platform.
+1. Modifiez la variable [!UICONTROL Nom] à la valeur souhaitée. Sa valeur par défaut est `alloy`.
+
+## Instanciation d’un objet de suivi implémentant manuellement le SDK Web
+
+Le code suivant charge le SDK Web et instancie un objet de suivi. Vous pouvez personnaliser le nom de l’objet de suivi en modifiant la chaîne `"alloy"` à la fin du script intégré à la valeur souhaitée.
+
+```js
+<script>
+  !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
+  []).push(o),n[o]=function(){var u=arguments;return new Promise(
+  function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
+  (window,["alloy"]);
+</script>
+<script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
+```
+
+Voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) pour plus d’informations, voir la documentation du SDK Web .
+
+## Instanciation d’un objet de suivi à l’aide de l’extension Adobe Analytics
 
 L’extension Analytics instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez également définir un objet de suivi global dans l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
-3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
-4. Développez l’accordéon [!UICONTROL Gestion des bibliothèques], puis cochez une case autre que [!UICONTROL Gérer la bibliothèque pour moi].
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+1. Développez l’accordéon [!UICONTROL Gestion des bibliothèques], puis cochez une case autre que [!UICONTROL Gérer la bibliothèque pour moi].
 
 Le champ de texte de variable globale vous permet de définir un objet de suivi personnalisé. Sa valeur par défaut est `s`.
 
-## s_gi() dans AppMeasurement et l’éditeur de code personnalisé
+## s_gi() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Appelez la fonction `s_gi()` pour instancier un objet de suivi. Son seul argument contient une chaîne délimitée par des virgules d’identifiant de suite de rapports. L’argument d’identifiant de suite de rapports est obligatoire.
 

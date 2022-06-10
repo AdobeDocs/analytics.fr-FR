@@ -3,10 +3,10 @@ title: prop
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '488'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -22,12 +22,16 @@ Les props sont des variables personnalisées que vous pouvez utiliser comme bon 
 
 Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), vous pouvez attribuer ces dimensions personnalisées aux valeurs propres à votre entreprise. Le nombre de props disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 75 props.
 
-## Props à l’aide de balises dans Adobe Experience Platform
+## Propriétés utilisant le SDK Web
+
+Les props sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous les champs XDM `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+
+## Propriétés utilisant l’extension Adobe Analytics
 
 Vous pouvez définir des props lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
@@ -35,7 +39,7 @@ Vous pouvez définir des props lors de la configuration de l’extension Analyti
 
 Vous pouvez définir une prop sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
-## s.prop1 - s.prop75 dans AppMeasurement et l’éditeur de code personnalisé
+## s.prop1 - s.prop75 dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Chaque variable prop est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Leur longueur maximale est de 100 octets ; les valeurs de plus de 100 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 

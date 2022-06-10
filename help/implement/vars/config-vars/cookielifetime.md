@@ -3,10 +3,10 @@ title: cookieLifetime
 description: Permet de remplacer l’expiration des cookies créés par AppMeasurement.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 80%
 
 ---
 
@@ -18,13 +18,17 @@ Les cookies définis par AppMeasurement ont généralement une expiration de 2 
 >
 >Cette variable a un impact sur le nombre et l’attribution des visiteurs uniques. Soyez prudent lorsque vous définissez cette variable.
 
-## Durée de vie des cookies à l’aide de balises dans Adobe Experience Platform
+## Durée de vie du cookie à l’aide du SDK Web
+
+Le SDK Web n’offre pas encore de personnalisation de la durée de vie des cookies qu’il définit.
+
+## Durée de vie des cookies à l’aide de l’extension Adobe Analytics
 
 La durée de vie des cookies est une liste déroulante sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Configurer] sous Adobe Analytics.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Cookies], qui affiche la liste déroulante [!UICONTROL Durée de vie du cookie].
 
 Cette liste déroulante contient les valeurs suivantes :
@@ -34,7 +38,7 @@ Cette liste déroulante contient les valeurs suivantes :
 * **Session** : le cookie expire à la fin de la session du visiteur.
 * **Secondes** : le cookie expire après l’expiration du nombre de secondes spécifié. Par exemple, si vous définissez cette liste déroulante sur [!UICONTROL Secondes] et placez `86400` dans le champ personnalisé, les cookies expirent exactement après 24 heures.
 
-## s.cookieLifetime dans AppMeasurement et l’éditeur de code personnalisé
+## s.cookieLifetime dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.cookieLifetime` est une chaîne qui détermine la date d’expiration des cookies définis par AppMeasurement.
 

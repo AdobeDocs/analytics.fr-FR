@@ -3,10 +3,10 @@ title: campaign
 description: Permet de renseigner la dimension « Code de suivi ».
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '195'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 77%
 
 ---
 
@@ -16,12 +16,16 @@ La variable `campaign` est dédiée à la collecte des codes de suivi sur votre 
 
 Cette variable renseigne la dimension « Code de suivi ».
 
-## Campagne à l’aide de balises dans Adobe Experience Platform
+## Campaign à l&#39;aide du SDK Web
+
+Campaign est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `marketing.trackingCode`.
+
+## Campaign à l’aide de l’extension Adobe Analytics
 
 Vous pouvez définir la campagne soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
@@ -29,7 +33,7 @@ Vous pouvez définir la campagne soit lors de la configuration de l’extension 
 
 Vous pouvez définir la campagne sur une valeur ou un paramètre de chaîne de requête.
 
-## s.campaign dans AppMeasurement et l’éditeur de code personnalisé
+## s.campaign dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.campaign` est une chaîne qui contient généralement un code de suivi utilisé dans les actions marketing. Sa longueur maximale est de 255 octets ; les valeurs de plus de 255 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 

@@ -3,10 +3,10 @@ title: Guide Adobe Analytics pour le premier administrateur
 description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les types de rôles généraux et la connexion à l’interface utilisateur.
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '942'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Un premier administrateur est le point de départ pour permettre au reste de l�
 Si votre entreprise a acheté Adobe Analytics, vous devez tenir compte de plusieurs rôles clés :
 
 * **Administrateurs Adobe Analytics :** ces utilisateurs disposent d’un accès complet à tous les éléments d’Adobe Analytics, y compris les paramètres de la suite de rapports et les autorisations d’utilisateur. Selon la structure de votre entreprise, différentes personnes ou équipes peuvent être responsables de différentes facettes de l’administration d’Analytics. Par exemple, une personne est responsable de la désignation des variables à utiliser dans une implémentation. Une autre personne peut être chargée de permettre aux utilisateurs d’extraire correctement des rapports en s’assurant que chacun dispose des autorisations appropriées. Identifiez au moins un utilisateur qui peut assumer la responsabilité des paramètres de la suite de rapports Analytics et des autorisations d’utilisateur. Il peut y inviter d’autres administrateurs Analytics.
-* **Administrateurs de la collecte de données** : ces utilisateurs disposent d’un accès complet à tous les éléments de l’interface utilisateur de la collecte de données (anciennement interface utilisateur d’Experience Platform Launch). Cela inclut les autorisations de publication, la création de conteneurs et les autorisations d’utilisateur. Ces utilisateurs ne sont pas nécessairement des programmeurs, mais une connaissance de base du code HTML, CSS et JavaScript est un plus. Il leur incombe de travailler avec les propriétaires du site Web de votre organisation pour que les balises Experience Platform soient implémentées sur votre site. Identifiez au moins un utilisateur responsable de l’implémentation de votre organisation et qui peut y inviter d’autres administrateurs de la collecte de données.
+* **Administrateurs de collecte de données :** Ces utilisateurs disposent d’un accès complet à tous les éléments de la collecte de données Adobe Experience Platform, y compris les autorisations de publication, la création de conteneurs et les autorisations d’utilisateur. Ces utilisateurs ne sont pas nécessairement des programmeurs, mais une connaissance de base du code HTML, CSS et JavaScript est un plus. Il leur incombe de travailler avec les propriétaires de site web de votre entreprise pour que les balises soient implémentées sur votre site. Identifiez au moins un utilisateur responsable de l’implémentation de votre organisation et qui peut y inviter d’autres administrateurs de la collecte de données.
 * **Délégués de l’assistance** : ils ne disposent pas de privilèges supplémentaires dans l’interface d’Analytics. Au lieu de cela, ils bénéficient de privilèges supplémentaires lorsqu’ils communiquent avec l’assistance clientèle d’Adobe. Généralement, ces utilisateurs sont également des administrateurs Analytics, car ils aident l’assistance clientèle à résoudre les problèmes rencontrés. Identifiez au moins un administrateur Analytics chargé de faciliter les interactions entre les utilisateurs finaux et l’assistance clientèle d’Adobe.
 * **Propriétaires de site web :** ces personnes ou ces équipes sont responsables du codage et du développement de votre site web. Elles n’ont pas besoin de comptes, mais travailler avec les administrateurs de la collecte de données leur permettra d’obtenir le code des balises afin de l’implémenter sur votre site Web.
 * **Utilisateurs finaux :** ces utilisateurs consultent généralement des rapports et recherchent des réponses aux questions opérationnelles. Les administrateurs Analytics accordent à ces utilisateurs l’autorisation de travailler au sein du produit.

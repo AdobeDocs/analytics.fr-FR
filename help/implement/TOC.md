@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: 'Personnalisez la collecte des données pour tirer le meilleur parti d’Adobe Analytics. '
-source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 94%
+source-wordcount: '401'
+ht-degree: 92%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 94%
       + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
    + API Edge {#edge-api}
       + [Présentation de l’API Edge](aep-edge/edge-api/overview.md)
-+ Implémentation d’Analytics à l’aide de balises dans Adobe Experience Platform {#launch}
++ Mise en oeuvre d’Analytics à l’aide de l’extension Adobe Analytics {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)

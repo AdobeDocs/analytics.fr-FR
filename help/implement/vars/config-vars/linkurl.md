@@ -3,10 +3,10 @@ title: linkURL
 description: Permet de remplacer l’URL de lien générée automatiquement utilisée par AppMeasurement dans les appels de suivi des liens.
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '118'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 61%
 
 ---
 
@@ -14,11 +14,15 @@ ht-degree: 100%
 
 Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, les serveurs de collecte de données détectent automatiquement l’URL. Utilisez la variable `linkURL` pour remplacer l’URL détectée.
 
-## URL du lien à l’aide de balises dans Adobe Experience Platform
+## URL du lien à l’aide du SDK Web
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+L’URL du lien est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webInteraction.URL`.
 
-## s.linkURL dans AppMeasurement et l’éditeur de code personnalisé
+## URL du lien à l’aide de l’extension Adobe Analytics
+
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+
+## s.linkURL dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.linkURL` est une chaîne contenant l’URL du navigateur lorsque l’utilisateur a cliqué sur le lien. Cette variable ne renseigne aucune dimension disponible dans les rapports.
 

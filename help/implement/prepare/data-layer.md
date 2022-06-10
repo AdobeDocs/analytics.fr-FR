@@ -3,10 +3,10 @@ title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
    >
    >Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
 1. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `digitalData.page.pageInfo.pageID`.
-1. **Utiliser les balises Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données** : créez des éléments de données dans l’interface utilisateur de la collecte de données d’Adobe Experience Platform et mappez-les aux attributs JavaScript décrits dans votre couche de données.
+1. **Utilisation de la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données**: Créez des éléments de données dans la collecte de données Adobe Experience Platform et mappez-les aux attributs JavaScript décrits dans votre couche de données.
 1. **Utiliser l’extension de balises Adobe Analytics pour mapper les éléments de données aux variables Analytics** : en suivant le document de conception de la solution, attribuez chaque élément de données à la variable Analytics appropriée.
 
 ## Spécifications

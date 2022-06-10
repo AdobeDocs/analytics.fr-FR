@@ -3,10 +3,10 @@ title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ La méthode `tl()` est un composant principal important d’Adobe Analytics. Ell
 
 Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExternalLinks`](../config-vars/trackexternallinks.md) sont activés, AppMeasurement appelle automatiquement la méthode `tl()` pour envoyer les données de suivi des liens de téléchargement et de sortie. Si votre organisation préfère avoir plus de contrôle sur les liens à suivre et sur leur comportement, vous pouvez appeler la méthode `tl()` manuellement. Les liens personnalisés ne peuvent être suivis que manuellement.
 
-## Appel de suivi des liens à l’aide de balises dans Adobe Experience Platform
+## Suivi des liens à l’aide du SDK Web
 
-L’interface utilisateur de la collecte de données dispose d’un emplacement dédié définissant un appel de suivi des liens.
+Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; toutes deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que vos données XDM comprennent `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de votre choix.
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## Suivi des liens à l’aide de l’extension Adobe Analytics
+
+L’extension Adobe Analytics dispose d’un emplacement dédié pour définir un appel de suivi des liens.
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-1. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
-1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Envoyer la balise.
+1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une action.
+1. Définissez la variable [!UICONTROL Extension] déroulant à **[!UICONTROL Adobe Analytics]**, et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer la balise]**.
 1. Cochez la case `s.tl()`.
 
-Vous ne pouvez pas définir d’arguments facultatifs dans l’interface utilisateur de la collecte de données.
+Vous ne pouvez pas définir d’arguments facultatifs dans l’extension Analytics.
 
-## s.tl() dans AppMeasurement et l’éditeur de code personnalisé
+## s.tl() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Appelez la méthode `s.tl()` lorsque vous souhaitez envoyer un appel de suivi à Adobe.
 

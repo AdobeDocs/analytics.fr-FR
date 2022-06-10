@@ -3,10 +3,10 @@ title: Variables eVar
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
@@ -22,12 +22,16 @@ Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contr
 
 Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer chaque eVar dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
-## eVars à l’aide de balises dans Adobe Experience Platform
+## eVars utilisant le SDK Web
+
+Les eVars sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous les champs XDM `_experience.analytics.customDimensions.eVars.eVar1` to `_experience.analytics.customDimensions.eVars.eVar250`.
+
+## eVars utilisant l’extension Adobe Analytics
 
 Vous pouvez définir des eVars lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
@@ -35,7 +39,7 @@ Vous pouvez définir des eVars lors de la configuration de l’extension Analyti
 
 Vous pouvez définir une eVar sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
-## s.eVar1 - s.eVar250 dans AppMeasurement et l’éditeur de code personnalisé
+## s.eVar1 - s.eVar250 dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 Chaque eVar est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Leur longueur maximale est de 255 octets ; les valeurs de plus de 255 octets sont automatiquement tronquées lorsqu’elles sont envoyées à Adobe.
 

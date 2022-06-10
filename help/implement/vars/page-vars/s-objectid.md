@@ -3,10 +3,10 @@ title: s_objectID
 description: Permet d’aider Activity Map à identifier les liens uniques de votre site.
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '404'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 91%
 
 ---
 
@@ -16,11 +16,11 @@ La variable `s_objectID` fournit un identifiant unique pour un lien. Elle permet
 
 Si la précision d’Activity Map est essentielle pour votre entreprise, Adobe conseille d’inclure la variable `s_objectID` dans l’événement `onClick` des liens de votre site. Pour plus d’informations, voir [Cas d’utilisation du suivi des liens d’Activity Map](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md) dans le guide d’utilisation Analyser.
 
-## ID d’objet à l’aide de balises dans Adobe Experience Platform
+## ID d’objet à l’aide de l’extension Adobe Analytics
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s_objectID dans AppMeasurement et l’éditeur de code personnalisé
+## s_objectID dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s_objectID` est une variable globale, ce qui signifie qu’elle fonctionne indépendamment de l’objet de suivi Analytics (`s` par défaut). Les valeurs valides pour cette variable peuvent être n’importe quelle chaîne d’une longueur maximale de 100 octets. Si cette variable n’est pas définie, Activity Map utilise l’URL du lien comme identifiant du lien.
 

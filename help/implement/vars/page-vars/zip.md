@@ -3,10 +3,10 @@ title: zip
 description: Permet de renseigner manuellement la dimension « Code postal » si les paramètres de la suite de rapports le permettent.
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 88%
 
 ---
 
@@ -18,12 +18,12 @@ La variable `zip` vous permet de renseigner manuellement la dimension « Code p
 >
 >Assurez-vous que l’[!UICONTROL option de code postal] des paramètres de la suite de rapports est définie sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) du guide d’utilisation destiné à l’administrateur.
 
-## Code postal à l’aide de balises dans Adobe Experience Platform
+## Code postal à l’aide de l’extension Adobe Analytics
 
 Vous pouvez définir le code postal lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
@@ -31,7 +31,7 @@ Vous pouvez définir le code postal lors de la configuration de l’extension An
 
 Vous pouvez définir le code postal sur n’importe quelle valeur de chaîne, y compris les éléments de données.
 
-## s.zip dans AppMeasurement et l’éditeur de code personnalisé
+## s.zip dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.zip` est une chaîne qui contient généralement un code postal, mais qui peut contenir toute valeur souhaitée jusqu’à 50 octets de longueur.
 

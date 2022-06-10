@@ -3,10 +3,10 @@ title: Création d’une propriété Analytics dans les balises
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide de balises.
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '516'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Les balises dans Adobe Experience Platform vous permettent d’intégrer des sol
 
 Les propriétés sont des conteneurs principaux que vous utilisez pour gérer les balises. Les extensions vous permettent d’installer des balises spécifiques à un produit et de les configurer.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Nouvelle propriété]**.
 1. Donnez un nom à votre propriété, comme le titre de votre site web, et saisissez le domaine sur lequel vous envisagez de mettre en œuvre Analytics. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Cliquez sur la propriété de balise que vous venez de créer pour en saisir les paramètres.
@@ -37,7 +37,7 @@ Consultez la documentation complète pour [Extension Adobe Analytics](https://ex
 
 Les éléments de données sont des références à des composants spécifiques de votre site pour collecter des valeurs de variable.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Éléments de données]**, puis sur **[!UICONTROL Ajouter un élément de données]**.
 1. Définissez les paramètres suivants pour l’élément de données :
@@ -58,7 +58,7 @@ Les éléments de données sont des références à des composants spécifiques 
 
 Les règles mettent en correspondance les éléments de données avec des valeurs des variables Analytics et déterminent le moment où ces valeurs sont transmises aux serveurs d’Adobe.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur le bouton **[!UICONTROL Règles]** , puis cliquez sur **[!UICONTROL Ajouter une règle]**. Nommez-le `Global Rule`.
 1. Cliquez sur **[!UICONTROL Ajouter]** en regard des événements, puis saisissez les paramètres suivants :

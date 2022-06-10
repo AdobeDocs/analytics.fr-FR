@@ -3,10 +3,10 @@ title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 78%
 
 ---
 
@@ -18,12 +18,16 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 >
 >Cette variable n’est pas une dimension disponible dans Analysis Workspace. Elle est uniquement disponible dans Data Warehouse et les flux de données. De plus, les serveurs de collecte de données d’Adobe éliminent cette dimension de toutes les demandes d’images de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez utiliser l’URL de la page en tant que dimension dans Analysis Workspace, ou que cette dimension soit utilisée dans les accès de suivi de liens, pensez à transmettre la variable `pageURL` dans une [eVar](evar.md) à chaque accès.
 
-## URL de page à l’aide de balises dans Adobe Experience Platform
+## URL de la page à l’aide du SDK Web
 
-L’interface utilisateur de la collecte de données renseigne automatiquement l’URL de page. Vous pouvez toutefois définir le remplacement de l’URL de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+L’URL de page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webPageDetails.URL`.
 
-1. Connectez-vous à l’[interface utilisateur de la collecte de données](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur la propriété de votre choix.
+## URL de page à l’aide de l’extension Adobe Analytics
+
+L’extension Analytics de la collecte de données Adobe Experience Platform renseigne automatiquement l’URL de la page. Vous pouvez toutefois définir le remplacement de l’URL de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+
+1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet **[!UICONTROL Règles]**, puis cliquez sur une règle (ou créez une règle).
 4. Sous **[!UICONTROL Actions]**, cliquez sur une action existante **[!UICONTROL Adobe Analytics - Définir des variables]** ou cliquez sur l’icône « + ».
 5. Définissez la liste déroulante **[!UICONTROL Extension]** sur Adobe Analytics et le **[!UICONTROL type d’action]** sur **[!UICONTROL Définir des variables]**.
@@ -31,7 +35,7 @@ L’interface utilisateur de la collecte de données renseigne automatiquement l
 
 Vous pouvez définir l’URL de la page sur n’importe quelle valeur de chaîne.
 
-## s.pageURL dans AppMeasurement et l’éditeur de code personnalisé
+## s.pageURL dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.pageURL` est une chaîne qui contient l’URL de la page. AppMeasurement collecte automatiquement cette variable, mais vous pouvez remplacer sa valeur si vous le souhaitez.
 

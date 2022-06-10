@@ -3,10 +3,10 @@ title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 100%
+source-wordcount: '1277'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 
 | Outil Analytics | Administration | Contrôles dʼaccès | Fonctionnalités des rapports uniquement | Obsolète | Description |
 | --- | --- | --- | --- | --- | --- |
-| Gestionnaire de code | x |  |  |  | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans l’interface utilisateur de la collecte de données. |
+| Gestionnaire de code | x |  |  |  | Conservé à des fins héritées. Accorde l’accès à Admin > Tous les administrateurs > Gestionnaire de code. Dans la plupart des cas, utilisez plutôt les bibliothèques incluses dans l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform. |
 | Gestionnaire de code – Services Web | x |  |  |  | Accorde l’accès au Gestionnaire de code par le biais de l’API 1.4. |
 | Masquage des suites de rapports | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Masquer les suites de rapports. Permet de masquer une suite de rapports dans l’entreprise, quel que soit son accès. |
 | Intégrations (créer) | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Connecteurs de données et permet à l’utilisateur de créer des connecteurs de données. |

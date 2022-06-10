@@ -3,10 +3,10 @@ title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 >
 >N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
 
-## Horodatage à l’aide de balises dans Adobe Experience Platform
+## Horodatage à l’aide de l’extension Adobe Analytics
 
-Il n’existe pas de champ dédié dans l’interface utilisateur de la collecte de données pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
-## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé
+## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides sont [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix).
 
