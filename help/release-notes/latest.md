@@ -3,7 +3,7 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 76190c666b8506e4b3acc1c80e08e60ca1736759
+source-git-commit: cf291c4d46a6bff9e1c61804ca7e897ee1d4e4d5
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 49%
@@ -18,7 +18,6 @@ ht-degree: 49%
 
 **Dernière mise à jour**: 10 juin 2022
 
-
 ## Ressources connexes
 
 * [Notes de mise à jour précédentes pour 2022](/help/release-notes/2022.md)
@@ -32,7 +31,7 @@ ht-degree: 49%
 | ----------- | ---------- | ------- |
 | Nouvelle interface utilisateur de visualisation de flux | Fournit des fonctionnalités supplémentaires à notre visualisation Flux pour la rendre plus puissante et plus performante. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 15 juin 2022 |
 | Partage des annotations dans les Fiches d’évaluation mobiles | Vous pouvez afficher les annotations créées dans Workspace dans les Fiches d’évaluation mobiles. Cela vous permet de partager des nuances de données contextuelles et des informations sur votre organisation et vos campagnes directement dans les projets de Fiche d’évaluation mobile, visibles dans l’application mobile des tableaux de bord Analytics. En savoir plus (à suivre) | 15 juin 2022 |
-| Prise en charge de la version de syntaxe de produit des variables de marchandisage avec la collection Edge | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe du produit en définissant les champs XDM appropriés. En savoir plus sur la syntaxe des produits pour les variables de marchandisage [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Voir les mappages pour la syntaxe du produit [here](https://experienceleague.corp.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juin 2022 |
+| Prise en charge de la version de syntaxe de produit des variables de marchandisage avec la collection Edge | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe du produit en définissant les champs XDM appropriés. En savoir plus sur la syntaxe des produits pour les variables de marchandisage [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Voir les mappages pour la syntaxe du produit [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juin 2022 |
 | Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Consultez la documentation pour plus d’informations sur les champs XDM associés aux rapports de cycle de vie mobile existants. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 mai 2022 |
 | Nouvelle expérience des classifications - Phase 1 | Cette version progressive d’une nouvelle expérience utilisateur de jeu de classifications améliore considérablement la visibilité des données de classification détenues par le client. La disponibilité générale est estimée au début de 2023. | Les tests limités démarrent le 15 juin 2022 |
 
