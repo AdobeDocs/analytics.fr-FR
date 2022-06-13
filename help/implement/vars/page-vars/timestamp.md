@@ -3,10 +3,10 @@ title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,10 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 >[!WARNING]
 >
 >N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
+
+## Horodatage à l’aide du SDK Web
+
+Horodatage [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `_experience.analytics.session.timestamp`. Ce champ ne prend en charge que l’heure Unix.
 
 ## Horodatage à l’aide de l’extension Adobe Analytics
 

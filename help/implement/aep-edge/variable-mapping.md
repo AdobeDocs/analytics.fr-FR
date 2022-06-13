@@ -2,7 +2,7 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '1355'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience Pla
 | `productListItems[].quantity` | Permet de déterminer la variable [Unités](../../components/metrics/units.md) mesure. |
 | `web.webInteraction.URL` | Le [linkURL](../vars/config-vars/linkurl.md) de mise en oeuvre. |
 | `web.webInteraction.name` | Le [Lien personnalisé](../../components/dimensions/custom-link.md), [Lien de téléchargement](../../components/dimensions/download-link.md)ou [Lien de sortie](../../components/dimensions/exit-link.md) selon la valeur de la variable `web.webInteraction.type` |
-| `web.webInteraction.type` | Détermine le type de lien sur lequel l’utilisateur a cliqué. Les valeurs valides sont les suivantes : `lnk_o` (Liens personnalisés), `lnk_d` (Liens de téléchargement) et `lnk_e` (Liens de sortie). |
+| `web.webInteraction.type` | Détermine le type de lien sur lequel l’utilisateur a cliqué. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie). |
 | `web.webPageDetails.URL` | Le [URL de la page](../../components/dimensions/page-url.md) dimension. |
 | `web.webPageDetails.errorPage` | Indicateur qui permet de déterminer &quot;Pages introuvables&quot; [dimension](../../components/dimensions/pages-not-found.md) et [metric](../../components/metrics/pages-not-found.md). |
 | `web.webPageDetails.name` | Le [Page](../../components/dimensions/page.md) dimension. |

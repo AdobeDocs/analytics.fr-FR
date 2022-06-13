@@ -3,10 +3,10 @@ title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,11 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Suivi des liens à l’aide du SDK Web
 
-Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; toutes deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que vos données XDM comprennent `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
+Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; toutes deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement XDM donné comme un appel de suivi des liens, assurez-vous que vos données XDM incluent ou sont mappées à `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
+
+* Le nom du lien est mappé à `web.webInteraction.name`.
+* L’URL de lien est mappée à `web.webInteraction.URL`.
+* Le type de lien est mappé à `web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
 
 ```js
 alloy("sendEvent", {
