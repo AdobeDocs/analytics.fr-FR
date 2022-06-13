@@ -5,7 +5,7 @@ title: Nouveautés d’Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+source-git-commit: c728df537c543eb171ba74e72b158f4200f1e828
 workflow-type: tm+mt
 source-wordcount: '8276'
 ht-degree: 99%
@@ -135,7 +135,7 @@ Améliorations publiées le 10 octobre 2019.
 |--- |--- |
 | Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=fr) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
 | Option de suppression pour Non spécifié/Aucun | La possibilité de supprimer facilement « Non spécifié (Aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
-| Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Plages de dates]**. |
+| Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Périodes]**. |
 
 ## Août 2019
 
@@ -169,7 +169,7 @@ Amélioration publiée le 9 mai 2019.
 
 | Amélioration | Description |
 |--- |--- |
-| Un nouveau paramètre a été ajouté aux paramètres de visualisation de flux : Inclure les instances de répétition. | [Paramètres de flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md) |
+| Un nouveau paramètre a été ajouté aux paramètres de visualisation de flux : Inclure les instances de répétition. | [Paramètres de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 
 ## Avril 2019
 
@@ -606,7 +606,7 @@ Nouvelles fonctionnalités au 26 octobre 2017.
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Intégralité des dimensions et événements dans la zone de chute des segments </a> </p> </td>
-   <td colname="col2"> <p>Auparavant, vous pouviez uniquement déposer des éléments de dimension, des plages de dates ou des segments dans les zones de chute des segments. Désormais, vous pouvez déposer l’intégralité d’une dimension ou d’un événement dans ces zones. Dans les deux cas, Analysis Workspace créera des segments de chute « existe ». </p> <p>Exemples : « Déposer où eVar1 existe » ou « Déposer où event1 existe ». </p> <p>Remarque : Vous ne pouvez pas déposer de mesures calculées dans une zone de segments. Seules les dimensions/mesures pour lesquelles vous pouvez créer des segments peuvent être déposées dans une zone de segments. </p> </td>
+   <td colname="col2"> <p>Auparavant, vous pouviez uniquement déposer des éléments de dimension, des périodes ou des segments dans les zones de dépôt des segments. Désormais, vous pouvez déposer l’intégralité d’une dimension ou d’un événement dans ces zones. Dans les deux cas, Analysis Workspace créera des segments de chute « existe ». </p> <p>Exemples : « Déposer où eVar1 existe » ou « Déposer où event1 existe ». </p> <p>Remarque : Vous ne pouvez pas déposer de mesures calculées dans une zone de segments. Seules les dimensions/mesures pour lesquelles vous pouvez créer des segments peuvent être déposées dans une zone de segments. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > Visualisations connectées mentionnées dans les paramètres de source de données </a> </p> </td>
@@ -811,7 +811,7 @@ Nouvelles fonctionnalités au 8 juin 2017.
     </ul> </td>
   </tr>
   <tr>
-   <td colname="col1"> Améliorations apportées aux <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>flux</b></a> </td>
+   <td colname="col1"> Améliorations apportées aux <a href="/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md"  ><b>flux</b></a> </td>
    <td colname="col2">
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1">
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Ajout d’un nouveau paramètre de visualisation appelé <span class="wintitle"> Désactiver la troncation des étiquettes </span> (valeur par défaut = non coché). </li>
@@ -928,7 +928,7 @@ Nouvelles fonctionnalités au 19 janvier 2017 :
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Partage automatique des composants du projet </a> </p> </td>
-   <td colname="col2"> <p>Vous avez désormais la possibilité de partager automatiquement les composants du projet (segments, mesures calculées et plages de dates) avec l’ensemble des destinataires. Une fois partagés, ces composants apparaîtront dans le menu déroulant des composants du Workspace du destinataire. </p> </td>
+   <td colname="col2"> <p>Vous avez désormais la possibilité de partager automatiquement les composants du projet (segments, mesures calculées et périodes) avec l’ensemble des destinataires. Une fois partagés, ces composants apparaîtront dans le menu déroulant des composants du Workspace du destinataire. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Visualisation des abandons au format CSV </p> </td>
@@ -936,7 +936,7 @@ Nouvelles fonctionnalités au 19 janvier 2017 :
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > Périodes dans les segments </a> </p> </td>
-   <td colname="col2"> <p>Déposez les plages de dates dans les zones de dépôt de segments (par exemple, les zones de dépôt de segments du panneau, les zones de dépôt des segments de visualisation d’abandons, etc.). Les plages de dates sont automatiquement transformées en segments. Les plages de dates peuvent être personnalisées ou non, mais cela ne s’applique pas aux granularités (par exemple, heure, jour, semaine, mois, trimestre, année). </p> </td>
+   <td colname="col2"> <p>Déposez les périodes dans les zones de dépôt de segments (par exemple, les zones de dépôt de segments du panneau, les zones de dépôt des segments de visualisation d’abandons, etc.). Les périodes sont automatiquement transformées en segments. Les périodes peuvent être personnalisées ou non, mais cela ne s’applique pas aux granularités (par exemple, heure, jour, semaine, mois, trimestre, année). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Ajout d’une période à chaque colonne d’un tableau </a> </p> </td>
@@ -1154,7 +1154,7 @@ Le graphique à puces dispose d’une seule mesure principale (par exemple, le c
 
 ![](assets/scatter.png)
 
-Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions. La taille de chaque point de données fournit une indication visuelle du nombre de fois moyen auquel un observateur a été exposé à une publicité. La taille et les données varient selon les dimensions, les plages de dates et les filtres que vous sélectionnez.
+Présente les impressions diffusées et le nombre d’utilisateurs uniques qui ont vu ces impressions. La taille de chaque point de données fournit une indication visuelle du nombre de fois moyen auquel un observateur a été exposé à une publicité. La taille et les données varient selon les dimensions, les périodes et les filtres que vous sélectionnez.
 
 >[!NOTE]
 >
@@ -1176,7 +1176,7 @@ Lorsque vous modifiez un segment (enregistré) existant dans le créateur de seg
 
 Le nouveau segment s’affiche dans le groupe [!UICONTROL Segments] du panneau [!UICONTROL Composants].
 
-*`Save As`* est également disponible pour le [!UICONTROL Créateur de mesures calculées] et le [!UICONTROL Créateur de plages de dates].
+*`Save As`* est également disponible pour le [!UICONTROL Créateur de mesures calculées] et le [!UICONTROL Créateur de périodes].
 
 ## Ajouter un nouveau segment
 
