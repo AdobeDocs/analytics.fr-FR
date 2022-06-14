@@ -4,10 +4,10 @@ title: Dépannage de l’intégration de Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 90%
 
 ---
 
@@ -45,23 +45,4 @@ Les administrateurs peuvent accorder lʼaccès à tout le monde via le lien suiv
 
 ## Atteindre la limite de l’API
 
-La création de rapports dans Power BI fonctionne avec l’API de création de rapports d’Analytics, de sorte que les limites de l’API s’appliquent. Pour les API Analytics 2.0, la limite de ralentissement est définie à 120 appels par minute, par utilisateur, quelle que soit la suite de rapports ou la société. Lorsque la limite de ralentissement est franchie, le serveur renvoie un état HTTP 429 à l’utilisateur avec le contenu du message suivant :
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe vous recommande de *adhérer à* les instructions suivantes :
-
-* Effectuez plusieurs requêtes plus petites au lieu d’une requête unique volumineuse.
-* Demandez les données une seule fois et mettez-les en cache.
-* N’interrogez pas les nouvelles données plus rapidement qu’un intervalle de 30 minutes.
-* Extrayez les données historiques et incrémentez-les régulièrement au lieu de demander l’ensemble du jeu de données.
-
-Adobe vous recommande de *éviter* les éléments suivants :
-
-* Demander autant de données que possible dans une seule requête
-* Demandez chaque jour une année de données avec une granularité quotidienne pour obtenir une fenêtre variable de 12 mois. Adobe recommande de demander les données du nouveau jour et de les fusionner avec les données existantes des jours précédents.
-* Conduire une page web avec un widget de performance de site en effectuant une requête API chaque fois que la page web est chargée
-* Migration depuis la version 1.4
+La création de rapports dans Power BI fonctionne avec l’API de création de rapports d’Analytics, de sorte que les limites de l’API s’appliquent. Pour plus d’informations, voir [Quelle est la limite de taux pour les appels API ?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
