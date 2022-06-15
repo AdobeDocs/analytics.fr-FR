@@ -1,16 +1,16 @@
 ---
 description: Adobe Analytics prend en charge les modèles de classifications à un seul niveau et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
-title: À propos des sous-classifications
+title: Sous-classifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '651'
+source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
 
-# À propos des sous-classifications
+# Sous-classifications
 
 Adobe Analytics prend en charge les modèles de classifications à un seul niveau et à plusieurs niveaux. Une hiérarchie de classification vous permet d’appliquer une classification à une autre classification.
 
@@ -82,12 +82,12 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Polo homme, manches courtes (M,01) | M | M | 01 |
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
-| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
+| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | s | 23 |
 
 ### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLÉ | CODE | CODE^COULEUR |
 |---|---|---|
-| * | 01 | Gris |
-| * | 03 | Bruyère |
-| * | 23 | Bleu-vert |
+| &#42; | 01 | Gris |
+| &#42; | 03 | Bruyère |
+| &#42; | 23 | Bleu-vert |

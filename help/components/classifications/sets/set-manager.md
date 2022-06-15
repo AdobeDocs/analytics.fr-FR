@@ -1,0 +1,50 @@
+---
+title: Gestionnaire de jeux de classifications
+description: Gérez les jeux de classifications dans Adobe Analytics.
+source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
+
+---
+
+
+# Gestionnaire de jeux de classifications
+
+Le Gestionnaire de jeux de classifications permet de créer, de modifier ou de supprimer des jeux de classifications.
+
+**[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Visionneuses]**
+
+Les jeux de classifications se composent de **Abonnements** (Suites de rapports auxquelles ce jeu de classifications s’applique) et **Noms de classification** (Dimensions supplémentaires contenant des données de classification).
+
+## Filtrer les jeux de classifications
+
+Le côté gauche du Gestionnaire de jeux de classifications fournit des paramètres de filtre pour localiser le jeu de classifications souhaité. Le fait de cliquer sur l’icône Filtrer change la visibilité des paramètres de filtre. Vous pouvez filtrer les jeux de classifications par **[!UICONTROL Balises]**, **[!UICONTROL Suite de rapports]** ou **[!UICONTROL Propriétaire]**.
+
+![Filtres de jeu de classifications](../assets/classification-set-filters.png)
+
+## Colonnes du gestionnaire de jeux de classifications
+
+Les colonnes suivantes sont disponibles dans le Gestionnaire de jeux de classifications :
+
+* **[!UICONTROL Jeu de classifications]**: Nom du jeu de classifications. Cliquez sur le nom d’un jeu de classifications pour [modifier ses paramètres ;](settings.md).
+* **[!UICONTROL Abonnements]**: Nombre d’abonnements ou nombre de suites de rapports auxquelles ce jeu de classifications s’applique.
+* **[!UICONTROL Propriétaire]**: Propriétaire du jeu de classifications.
+* **[!UICONTROL Classifications]**: Nombre de dimensions de classification contenues dans le jeu de classifications.
+* **[!UICONTROL Automatique]**: Indique si le jeu de classifications est configuré pour extraire automatiquement des données d’un site FTP.
+* **[!UICONTROL Dernière modification]**: Date et heure de la dernière modification du jeu de classifications.
+* **[!UICONTROL Hôte FTP + Chemin]**: S’il est automatisé, l’emplacement FTP à partir duquel le jeu de classifications extrait les données.
+
+## Options de création ou de modification
+
+Les boutons suivants sont disponibles dans le Gestionnaire de jeux de classifications :
+
+* **[!UICONTROL Ajouter]**: [Créer](create.md) un jeu de classifications.
+* **[!UICONTROL Recherche par titre]**: Recherchez Jeux de classifications par nom.
+* **[!UICONTROL Charger plus]**: Le Gestionnaire de jeux de classifications affiche initialement jusqu’à 1 000 jeux de classifications. Cliquez sur ce bouton pour charger 1 000 autres jeux de classifications.
+* **Afficher/masquer les colonnes**: Activer/désactiver la visibilité de n’importe quelle colonne en plus de [!UICONTROL Jeu de classifications].
+
+Sélectionnez un ou plusieurs jeux de classifications en cochant la case en regard du jeu de classifications de votre choix. La sélection d’un jeu de classifications affiche les options suivantes :
+
+* **[!UICONTROL Balise]**: Ajoutez une ou plusieurs balises au(x) jeu(s) de classifications sélectionné(s), ce qui vous permet d’organiser ou de regrouper des jeux de classifications pour les rendre plus faciles à localiser à l’avenir.
+* **[!UICONTROL Renommer]**: Renommez le jeu de classifications sélectionné.
