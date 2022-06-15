@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 43dc28d7c6b4560fd1b8397ce10cc8fbf8f5ca91
+source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 2%
 
 ---
 
@@ -23,23 +23,23 @@ Pour afficher les annotations dans les fiches d’évaluation mobiles, créez d�
 
 Pour plus d’informations sur la création d’annotations, voir [Création d’annotations](create-annotations.md). Par défaut, les annotations sont désactivées dans les Fiches d’évaluation mobiles et doivent être activées pour chaque Fiche d’évaluation que vous souhaitez afficher dans les Fiches d’évaluation mobiles.
 
-1. Activez les annotations. Pour activer les annotations, voir [Activation ou désactivation des annotations](overview.md#on-off).
+1. Activez les annotations. Pour activer les annotations, voir [Activation ou désactivation des annotations](overview.md#annotations-on-off).
 
 1. Créez une annotation et assurez-vous qu’elle est partagée avec tous vos projets. Pour créer une annotation dans Workspace, voir [Création d’annotations](create-annotations.md).
 
 1. Sélectionner **Afficher les annotations** pour afficher l’annotation dans les Fiches d’évaluation mobiles.
 
-   <img src="assets/show-annotations.png"  width="80%">
+   ![](assets/show-annotations.png)
 
 1. Confirmez que l’option afficher les annotations est sélectionnée. Pour **Projet** > **Informations et paramètres du projet**.
 
-   <img src="assets/project-info-settings.png" width="25%">
+   ![](assets/project-info-settings.png)
 
 ## Affichage des annotations dans les Fiches d’évaluation mobiles
 
 Lorsque les annotations sont activées, les icônes d’annotation sont visibles dans le créateur de Fiche d’évaluation. Les annotations apparaissent uniquement sur les graphiques et les tableaux dans la vue détaillée. Les annotations ne sont pas visibles à partir de l’affichage de la mosaïque principale de la fiche d’évaluation.
 
-<img src="assets/view-annotations.png"  width="80%">
+![](assets/view-annotations.png)
 
 Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas afficher ou interagir avec les annotations dans la zone de travail du créateur. Utilisez le mode Aperçu pour afficher et interagir avec les annotations telles qu’elles apparaissent dans l’application. ![](assets/preview-icon.png)
 
@@ -49,6 +49,6 @@ Les couleurs de l’annotation sont sélectionnées lors de la création de l’
 
 | Date | Apparence |
 | --- | --- |
-| **Un seul jour** | <img src="assets/single-day-mobile-annotations.png"  width="50%"><br></br> |
-| **Période** | <img src="assets/date-range.png"  width="50%"> |
-| **Annotations qui se chevauchent** | <img src="assets/overlapping-annotations.png"  width="50%"><br></br>Pour afficher les détails des annotations dans l’application de tableaux de bord Analytics, appuyez sur une icône d’annotation. <br></br>Lors de l’affichage d’une annotation dans un graphique, vous pouvez faire glisser vers la gauche et la droite pour parcourir toutes les annotations présentes dans le graphique. Lors de l’affichage d’une annotation dans le tableau, faites glisser les annotations vers la gauche et la droite pour parcourir toutes les annotations associées à cet élément de ligne dans le tableau. <br></br><img src="assets/swipe-multiple-annotations.png"  width="50%"> <br></br>Dans les graphiques qui n’ont pas d’heure *axe x*, par exemple les graphiques en anneau ou à barres horizontales, les annotations qui s’appliquent au graphique peuvent être visualisées en appuyant sur l’icône située dans le coin inférieur droit.<br></br> <img src="assets/charts-without-timebase.png"  width="50%"> |
+| **Un seul jour** | ![](assets/single-day-mobile-annotations.png)<br></br> |
+| **Période** | ![](assets/date-range.png) |
+| **Annotations qui se chevauchent** | ![](assets/overlapping-annotations.png)<br></br>Pour afficher les détails des annotations dans l’application de tableaux de bord Analytics, appuyez sur une icône d’annotation. <br></br>Lors de l’affichage d’une annotation dans un graphique, vous pouvez faire glisser vers la gauche et la droite pour parcourir toutes les annotations présentes dans le graphique. Lors de l’affichage d’une annotation dans le tableau, faites glisser les annotations vers la gauche et la droite pour parcourir toutes les annotations associées à cet élément de ligne dans le tableau. <br></br>![](assets/swipe-multiple-annotations.png) <br></br>Dans les graphiques qui n’ont pas d’heure *axe x*, par exemple les graphiques en anneau ou à barres horizontales, les annotations qui s’appliquent au graphique peuvent être visualisées en appuyant sur l’icône située dans le coin inférieur droit.<br></br> ![](assets/charts-without-timebase.png) |
