@@ -3,20 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 95f05bbf620c140f3e17a070d95b21b62db58bcc
+source-git-commit: 4df57547229c9dd0f70066dd1e9ca64947eabf13
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1073'
 ht-degree: 46%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (juin 2022)
 
->[!NOTE]
->
->Cette page contient des informations préliminaires. Elles peuvent être modifiées à tout moment.
-
-**Dernière mise à jour**: 15 juin 2022
+**Dernière mise à jour**: 16 juin 2022
 
 ## Ressources connexes
 
@@ -29,7 +25,7 @@ ht-degree: 46%
 
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
-| **Nouvelle interface utilisateur de visualisation de flux** | Fournit des fonctionnalités supplémentaires à notre visualisation Flux pour la rendre plus puissante et plus performante. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 15 juin 2022 |
+| **Nouvelle interface utilisateur de visualisation de flux** | Fournit des fonctionnalités supplémentaires à notre visualisation Flux pour la rendre plus puissante et plus performante. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | Le déploiement commence le 15 juin 2022 ; GA d&#39;ici le 27 ou le 28 juin 2022 |
 | **Partage des annotations dans les Fiches d’évaluation mobiles** | Vous pouvez afficher les annotations créées dans Workspace dans les Fiches d’évaluation mobiles. Cela vous permet de partager des nuances de données contextuelles et des informations sur votre organisation et vos campagnes directement dans les projets de Fiche d’évaluation mobile, visibles dans l’application mobile des tableaux de bord Analytics. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 15 juin 2022 |
 | **Prise en charge de la version de syntaxe de produit des variables de marchandisage avec la collection Edge** | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe du produit en définissant les champs XDM appropriés. En savoir plus sur la syntaxe des produits pour les variables de marchandisage [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Voir les mappages pour la syntaxe du produit [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juin 2022 |
 | **Remplir les dimensions et les mesures de cycle de vie via Experience Edge** | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Consultez la documentation pour plus d’informations sur les champs XDM associés aux rapports de cycle de vie mobile existants. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 mai 2022 |
