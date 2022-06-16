@@ -1,13 +1,13 @@
 ---
 title: Gestionnaire de jeux de classifications
 description: Gérez les jeux de classifications dans Adobe Analytics.
-source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # Gestionnaire de jeux de classifications
 

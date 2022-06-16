@@ -1,13 +1,13 @@
 ---
 title: Présentation des jeux de classifications
 description: Utilisez des jeux de classifications pour gérer les données de classification.
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # Présentation des jeux de classifications
 
@@ -15,7 +15,7 @@ Les jeux de classifications offrent une interface unique pour gérer les classif
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe du jeu de classifications pour la mise en service.
+>Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]**
 
