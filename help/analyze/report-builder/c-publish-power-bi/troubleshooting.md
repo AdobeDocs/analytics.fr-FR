@@ -4,10 +4,10 @@ title: Dépannage de l’intégration de Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
+source-git-commit: f6f65f34c4d8caf04eb3ea47108e36e5b9adf24f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 89%
 
 ---
 
@@ -45,4 +45,4 @@ Les administrateurs peuvent accorder lʼaccès à tout le monde via le lien suiv
 
 ## Atteindre la limite de l’API
 
-La création de rapports dans Power BI fonctionne avec l’API de création de rapports d’Analytics, de sorte que les limites de l’API s’appliquent. Pour plus d’informations, voir [Quelle est la limite de taux pour les appels API ?](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls).
+La création de rapports dans Power BI fonctionne avec l’API de création de rapports d’Analytics, de sorte que les limites de l’API s’appliquent. Pour plus d’informations, voir [Codes d’erreur des services Web](https://github.com/AdobeDocs/analytics-1.4-apis/blob/3dda746890743c2098256719d6595109b7748262/docs/getting-started/c_Web_Services_Error_Codes.md).
