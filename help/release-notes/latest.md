@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4df57547229c9dd0f70066dd1e9ca64947eabf13
+source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 46%
+source-wordcount: '1065'
+ht-degree: 45%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 46%
 | ----------- | ---------- | ------- |
 | **Nouvelle interface utilisateur de visualisation de flux** | Fournit des fonctionnalités supplémentaires à notre visualisation Flux pour la rendre plus puissante et plus performante. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | Le déploiement commence le 15 juin 2022 ; GA d&#39;ici le 27 ou le 28 juin 2022 |
 | **Partage des annotations dans les Fiches d’évaluation mobiles** | Vous pouvez afficher les annotations créées dans Workspace dans les Fiches d’évaluation mobiles. Cela vous permet de partager des nuances de données contextuelles et des informations sur votre organisation et vos campagnes directement dans les projets de Fiche d’évaluation mobile, visibles dans l’application mobile des tableaux de bord Analytics. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 15 juin 2022 |
-| **Prise en charge de la version de syntaxe de produit des variables de marchandisage avec la collection Edge** | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe du produit en définissant les champs XDM appropriés. En savoir plus sur la syntaxe des produits pour les variables de marchandisage [here](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Voir les mappages pour la syntaxe du produit [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge). | 15 juin 2022 |
+| **Prise en charge de la version de syntaxe de produit des variables de marchandisage avec la collection Edge** | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe du produit en définissant les champs XDM appropriés. Voir [variable products](../implement/vars/page-vars/products.md) pour plus d’informations sur la syntaxe du SDK Web avec la fonction `products` et [Mappage des variables Analytics dans Adobe Experience Edge](../implement/aep-edge/variable-mapping.md) pour obtenir la liste complète des variables disponibles. | 15 juin 2022 |
 | **Remplir les dimensions et les mesures de cycle de vie via Experience Edge** | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Consultez la documentation pour plus d’informations sur les champs XDM associés aux rapports de cycle de vie mobile existants. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 27 mai 2022 |
 | **Règles de traitement de Mobile Service disponibles dans les règles de traitement Analytics** | La date de fin de vie d’Adobe Mobile Services est le 31 décembre 2022. Les règles de traitement existantes créées ou générées par Adobe Mobile Services migrent automatiquement vers les règles de traitement Adobe Analytics, où vous pouvez les modifier et les gérer. Ils peuvent être visualisés, mais ne peuvent plus être modifiés dans Mobile Services tant que le produit n’a pas été supprimé. Pour toute question ou assistance supplémentaire, contactez l’assistance clientèle Adobe. [En savoir plus](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 15 juin 2022 |
-| **Nouvelle expérience des classifications - Phase 1** | Cette version progressive d’une nouvelle expérience utilisateur de jeu de classifications améliore considérablement la visibilité des données de classification détenues par le client. [Disponibilité générale](/help/release-notes/releases.md) est estimé au début de 2023. | Les tests limités démarrent le 15 juin 2022 |
+| **Jeux de classifications - Phase 1** | Cette version progressive d’une nouvelle expérience utilisateur de classifications améliore considérablement la visibilité des données de classification détenues par le client. Voir [Jeux de classifications](../components/classifications/sets/overview.md) pour plus d’informations. | Les tests limités démarrent le 15 juin 2022, disponibilité générale estimée début 2023 |
 
 {style=&quot;table-layout:auto&quot;}
 

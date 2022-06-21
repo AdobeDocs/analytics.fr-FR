@@ -2,9 +2,9 @@
 title: Gestionnaire de jeux de classifications
 description: Gérez les jeux de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ Les colonnes suivantes sont disponibles dans le Gestionnaire de jeux de classifi
 * **[!UICONTROL Abonnements]**: Nombre d’abonnements ou nombre de suites de rapports auxquelles ce jeu de classifications s’applique.
 * **[!UICONTROL Propriétaire]**: Propriétaire du jeu de classifications.
 * **[!UICONTROL Classifications]**: Nombre de dimensions de classification contenues dans le jeu de classifications.
-* **[!UICONTROL Automatique]**: Indique si le jeu de classifications est configuré pour extraire automatiquement des données d’un site FTP.
 * **[!UICONTROL Dernière modification]**: Date et heure de la dernière modification du jeu de classifications.
-* **[!UICONTROL Hôte FTP + Chemin]**: S’il est automatisé, l’emplacement FTP à partir duquel le jeu de classifications extrait les données.
 
 ## Options de création ou de modification
 
