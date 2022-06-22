@@ -2,9 +2,9 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
+source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,35 +17,27 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience Pla
 | --- | --- |
 | `application.id` | La dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `application.isClose` | Permet de définir la mesure mobile [Blocages](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
-| `application.closeType` | Détermine si un événement de fermeture est un blocage ou non. Les valeurs valides sont les suivantes : `close` (Une session de cycle de vie se termine et un événement pause a été reçu pour la session précédente) et `unknown` (Une session de cycle de vie se termine sans événement pause). |
+| `application.closeType` | Détermine si un événement de fermeture est un blocage ou non. Les valeurs valides sont les suivantes : `close` (Une session de cycle de vie se termine et un événement pause a été reçu pour la session précédente) et `unknown` (Une session de cycle de vie se termine sans événement pause). Permet de définir la variable [Blocages](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) mesure. |
 | `application.isInstall` | Mesure mobile [Installations](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isLaunch` | Mesure mobile [Lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.name` | Permet de définir la dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.launches.value` | Mesure mobile [Lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.isUpgrade` | Mesure mobile [Mises à niveau](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.version` | Permet de définir la dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `application.sessionLength` | Mesure mobile [Durée totale de la session](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.sessionLength` | Mesure mobile [Durée de la session précédente](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `commerce.checkouts.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Passages en caisse](../../components/metrics/checkouts.md) mesure. |
 | `commerce.checkouts.value` | Incrémente le [Passages en caisse](../../components/metrics/checkouts.md) par le montant souhaité. |
 | `commerce.order.currencyCode` | Définit la variable [currencyCode](../vars/config-vars/currencycode.md) de configuration. |
 | `commerce.order.purchaseID` | Définit la variable [purchaseID](../vars/page-vars/purchaseid.md) Variable de page. |
-| `commerce.productListAdds.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Ajouts au panier](../../components/metrics/cart-additions.md) mesure. |
-| `commerce.productListAdds.value` | Incrémente le [Ajouts au panier](../../components/metrics/cart-additions.md) par le montant souhaité. |
-| `commerce.productListOpens.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Paniers](../../components/metrics/carts.md) mesure. |
-| `commerce.productListOpens.value` | Incrémente le [Paniers](../../components/metrics/carts.md) par le montant souhaité. |
-| `commerce.productListRemovals.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Retraits du panier](../../components/metrics/cart-removals.md) mesure. |
-| `commerce.productListRemovals.value` | Incrémente le [Retraits du panier](../../components/metrics/cart-removals.md) par le montant souhaité. |
-| `commerce.productListViews.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Consultations du panier](../../components/metrics/cart-views.md) mesure. |
-| `commerce.productListViews.value` | Incrémente le [Consultations du panier](../../components/metrics/cart-views.md) par le montant souhaité. |
-| `commerce.productViews.id` | Application [sérialisation des événements](../vars/page-vars/events/event-serialization.md) au [Consultations produits](../../components/metrics/product-views.md) mesure. |
-| `commerce.productViews.value` | Incrémente le [Consultations produits](../../components/metrics/product-views.md) par le montant souhaité. |
-| `commerce.purchases.value` | Incrémente le [Commandes](../../components/metrics/orders.md) par le montant souhaité. |
-| `device.manufacturer` | fabricant du périphérique mobile. |
+| `commerce.productListAdds.value` | Incrémente le [Ajouts au panier](../../components/metrics/cart-additions.md) mesure. |
+| `commerce.productListOpens.value` | Incrémente le [Paniers](../../components/metrics/carts.md) mesure. |
+| `commerce.productListRemovals.value` | Incrémente le [Retraits du panier](../../components/metrics/cart-removals.md) mesure. |
+| `commerce.productListViews.value` | Incrémente le [Consultations du panier](../../components/metrics/cart-views.md) mesure. |
+| `commerce.productViews.value` | Incrémente le [Consultations produits](../../components/metrics/product-views.md) mesure. |
+| `commerce.purchases.value` | Incrémente le [Commandes](../../components/metrics/orders.md) mesure. |
 | `device.model` | La dimension mobile [Nom de l’appareil](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `device.modelNumber` | Numéro de modèle de l’appareil mobile. |
 | `device.colorDepth` | Permet de définir la variable [Profondeur de couleur](../../components/dimensions/color-depth.md) dimension. |
-| `device.screenHeight` | Permet de définir la variable [Résolution de l’écran](../../components/dimensions/monitor-resolution.md) dimension. Veillez également à définir le champ XDM `device.screenWidth`. |
-| `device.screenWidth` | Permet de définir la variable [Résolution de l’écran](../../components/dimensions/monitor-resolution.md) dimension. Veillez également à définir le champ XDM `device.screenHeight`. |
+| `device.screenHeight` | Permet de définir la variable [Résolution de l’écran](../../components/dimensions/monitor-resolution.md) dimension. |
+| `device.screenWidth` | Permet de définir la variable [Résolution de l’écran](../../components/dimensions/monitor-resolution.md) dimension. |
 | `device.type` | Type d’appareil mobile. |
 | `environment.browserDetails.acceptLanguage` | Permet de définir la variable [Langue](../../components/dimensions/language.md) dimension. |
 | `environment.browserDetails.cookiesEnabled` | Définit la variable [Prise en charge des cookies](../../components/dimensions/cookie-support.md) dimension. Les valeurs valides sont les suivantes : `Y` (le navigateur accepte les cookies) et `N` (le navigateur rejette les cookies). |
@@ -57,9 +49,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience Pla
 | `environment.connectionType` | Permet de définir la variable [Type de connexion](../../components/dimensions/connection-type.md) dimension. |
 | `environment.ipV4` | Utilisé comme solution de secours [visiteur unique](../../components/metrics/unique-visitors.md) méthode d&#39;identification. Généralement renseignée à l’aide de la variable `X-Forwarded-For` En-tête HTTP. |
 | `environment.language` | La dimension mobile Paramètres régionaux. |
-| `environment.operatingSystem` | La dimension mobile [Système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.operatingSystemVersion` | La dimension mobile [Version du système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
-| `environment.type` | Indique si l’événement provient d’un événement [wearable](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html) appareil. Les valeurs valides sont les suivantes : `Application` (l’événement provient de l’application), `Extension` (l’événement provient de l’application portable), ou `Widget` (l’événement provient d’un widget mobile). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Définit les [eVar](../../components/dimensions/evar.md) dimension. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Le délimiteur utilisé pour un [Prop de liste](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Un tableau de chaîne contenant les [Prop de liste](../vars/page-vars/prop.md#list-props) valeurs. |
@@ -110,10 +100,10 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience Pla
 | `placeContext.geo.stateProvince` | Le [États américains](../../components/dimensions/us-states.md) dimension. |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Application [syntaxe du produit](../vars/page-vars/products.md) marchandisage vers des eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Application [syntaxe du produit](../vars/page-vars/products.md) marchandisage vers des événements. |
-| `productListItems[].lineItemId` | Le [Catégorie](../../components/dimensions/category.md) dimension. |
-| `productListItems[].name` | Le [Produit](../../components/dimensions/product.md) dimension. |
-| `productListItems[].priceTotal` | Permet de déterminer la variable [Recettes](../../components/metrics/revenue.md) mesure. |
-| `productListItems[].quantity` | Permet de déterminer la variable [Unités](../../components/metrics/units.md) mesure. |
+| `productListItems[].lineItemId` | Le [Catégorie](../../components/dimensions/category.md) dimension. Voir aussi [products](../vars/page-vars/products.md) Variable de page. |
+| `productListItems[].name` | Le [Produit](../../components/dimensions/product.md) dimension. Voir aussi [products](../vars/page-vars/products.md) Variable de page. |
+| `productListItems[].priceTotal` | Permet de déterminer la variable [Recettes](../../components/metrics/revenue.md) mesure. Voir aussi [products](../vars/page-vars/products.md) Variable de page. |
+| `productListItems[].quantity` | Permet de déterminer la variable [Unités](../../components/metrics/units.md) mesure. Voir aussi [products](../vars/page-vars/products.md) Variable de page. |
 | `web.webInteraction.URL` | Le [linkURL](../vars/config-vars/linkurl.md) de mise en oeuvre. |
 | `web.webInteraction.name` | Le [Lien personnalisé](../../components/dimensions/custom-link.md), [Lien de téléchargement](../../components/dimensions/download-link.md)ou [Lien de sortie](../../components/dimensions/exit-link.md) selon la valeur de la variable `web.webInteraction.type` |
 | `web.webInteraction.type` | Détermine le type de lien sur lequel l’utilisateur a cliqué. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie). |
@@ -127,6 +117,12 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience Pla
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
+<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
+<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
+<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
+<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
+<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## Mappage d’autres champs XDM aux variables Analytics
 
