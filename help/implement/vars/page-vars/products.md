@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 77%
+source-wordcount: '600'
+ht-degree: 73%
 
 ---
 
@@ -28,6 +28,11 @@ Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 * Le prix est mappé sur `productListItems[].priceTotal`.
 * Les eVars de marchandisage sont mappées à `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.
 * Les événements de marchandisage sont associés à `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit.
+
+>[!NOTE]
+>
+>`lineItemId` doit être ajouté en tant que champ personnalisé, car il ne fait pas partie du schéma d’événement Analytics standard. Nous ajouterons un champ &quot;catégorie&quot; dédié à l&#39;avenir.
+
 
 ## Produits utilisant l’extension Adobe Analytics
 
