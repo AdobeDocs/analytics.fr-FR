@@ -2,9 +2,9 @@
 title: Paramètres du jeu de classifications
 description: Créez ou modifiez un jeu de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: c849f216f8dda83070fc3f8d8b1c25fba4d2786a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Paramètres du jeu de classifications
 
 Configurez un jeu de classifications, transférez des données ou téléchargez des données.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Visionneuses]** > Cliquez sur le nom du jeu de classifications de votre choix.
 

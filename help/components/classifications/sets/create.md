@@ -2,9 +2,9 @@
 title: Créer un jeu de classifications
 description: Champs et descriptions disponibles lors de la création d’un jeu de classifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Créer un jeu de classifications
 
 Vous pouvez utiliser le Gestionnaire de jeux de classifications pour créer un jeu de classifications.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Visionneuses]** > **[!UICONTROL Ajouter]**
 

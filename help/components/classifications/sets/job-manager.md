@@ -2,9 +2,9 @@
 title: Gestionnaire de tâches du jeu de classifications
 description: Affichez les tâches de classification actuelles et terminées générées à partir des jeux de classifications.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gestionnaire des tâches du jeu de classifications
 
 Le gestionnaire des tâches du jeu de classifications vous permet d’afficher les tâches de classification en cours et terminées qui ont été générées à partir de jeux de classifications. Vous pouvez également utiliser cette interface pour télécharger des données de classification ou des modèles pour une tâche spécifique, ou charger des données supplémentaires dans une tâche.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Tâches]**
 

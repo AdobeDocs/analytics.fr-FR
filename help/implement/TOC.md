@@ -7,12 +7,12 @@ user-guide-description: 'Personnalisez la collecte des données pour tirer le me
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
 
-# Guide de mise en oeuvre Adobe Analytics {#implementation}
+# Guide de mise en œuvre Adobe Analytics {#implementation}
 
 + [Mise en œuvre d’Adobe Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
@@ -93,7 +93,7 @@ ht-degree: 92%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins   {#plugins}
+   + Plug-ins  {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -131,8 +131,8 @@ ht-degree: 92%
    + [Fenêtre modale de mise en œuvre](prepare/implementation-modal.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
-+ Mise en oeuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
-   + [Présentation d’Experience Edge](aep-edge/overview.md)
++ Mise en œuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
+   + [Présentation d’Experience Edge](aep-edge/overview.md)
    + [Mappage des variables](aep-edge/variable-mapping.md)
    + SDK Web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)

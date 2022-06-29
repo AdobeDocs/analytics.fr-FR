@@ -2,9 +2,9 @@
 title: Gestionnaire de jeux de classifications
 description: Gérez les jeux de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # Gestionnaire de jeux de classifications
 
 Le Gestionnaire de jeux de classifications permet de créer, de modifier ou de supprimer des jeux de classifications.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Visionneuses]**
 
