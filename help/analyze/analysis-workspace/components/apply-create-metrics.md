@@ -4,36 +4,42 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '409'
+ht-degree: 23%
 
 ---
 
 # Mesures
 
-Dans Analysis Workspace, vous pouvez utiliser les mesures de deux façons.
+Les mesures vous permettent de quantifier les points de données dans Analysis Workspace. Elles sont généralement utilisées comme colonnes dans une visualisation et liées aux dimensions.
 
-* Vous pouvez soit faire glisser les mesures standard, les mesures calculées ou les modèles de mesures calculées du menu [!UICONTROL Composants] au tableau :
+Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
-   ![](assets/metrics_icons.png)
+* **Mesures standard**: La plupart des mesures que vous utilisez dans les projets sont des mesures standard. Exemples : [Pages vues](/help/components/metrics/page-views.md), [Recettes](/help/components/metrics/revenue.md)ou [Événements personnalisés](/help/components/metrics/custom-events.md). Voir [Présentation des mesures](/help/components/metrics/overview.md) dans le guide d’utilisation des composants pour plus d’informations.
 
-   >[!NOTE]
-   >
-   >Bien que cela paraisse simple, l’utilisation des mesures est plutôt performante. Vous pouvez ajouter des mesures à un rapport en faisant glisser la mesure appropriée vers la section des mesures d’un tableau. Vous pouvez également ventiler les dimensions par mesures, ce qui vous confère un contrôle précis au niveau de l’affichage du tableau. De plus, vous pouvez insérer une mesure sous forme de dimension et une dimension sous forme de mesure pour créer un rapport d’heures supplémentaires. Jouez avec les différents composants et voyez ce qu’ils vous proposent. Les possibilités sont infinies.
+   ![Mesure standard](assets/standard-metric.png)
 
-* Ou cliquez sur **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle mesure]**. Le [Créateur de mesures calculées](/help/components/c-calcmetrics/cm-overview.md) s’ouvre, où vous pouvez personnaliser les mesures existantes.
+* **Mesures calculées**: Mesures définies par l’utilisateur et basées sur des mesures standard, des nombres statiques ou des fonctions algorithmiques. Les mesures calculées définies par l’utilisateur affichent une icône de calculateur dans la liste des composants disponibles. Voir [Mesures calculées - Aperçu](/help/components/c-calcmetrics/cm-overview.md) dans le guide d’utilisation des composants pour plus d’informations.
 
-Regardez cette vidéo sur l’utilisation des mesures dans un tableau à structure libre :
+   ![Mesure calculée](assets/calculated-metric.png)
+
+* **Modèles de mesures calculées**: Mesures définies par l’Adobe qui se comportent de la même manière que les mesures calculées. Vous pouvez les utiliser tels quels dans les projets Workspace ou enregistrer une copie pour personnaliser sa logique. Les modèles de mesures calculées affichent une icône d’Adobe dans la liste des composants disponibles.
+
+   ![Modèle de mesure calculée](assets/calculated-metric-template.png)
+
+Leur utilisation dans Analysis Workspace est flexible. Faites glisser une mesure vers un tableau à structure libre vide pour afficher les tendances de cette mesure sur la période du projet. Vous pouvez également faire glisser une mesure lorsqu’une dimension est présente pour la comparer à chaque élément de dimension. Le fait de faire glisser une mesure au-dessus d’un en-tête de mesure existant la remplace, tandis que le fait de faire glisser une mesure en regard d’un en-tête vous permet d’afficher les deux mesures côte à côte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## Mesures calculées
 
-Afin de faciliter la création rapide de mesures calculées, l’option **[!UICONTROL Créer une mesure d’après la sélection]** a été ajoutée au menu contextuel des colonnes dans les tableaux à structure libre. Cette option s’affiche lorsqu’une ou plusieurs cellules de colonne d’en-tête sont sélectionnées.
+Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques. Il existe plusieurs façons de créer des mesures calculées :
 
-![](assets/calc_metrics.png)
+* Cliquez sur l’icône &quot;+&quot; en regard de l’en-tête des mesures sous la liste des composants sur la gauche.
+* Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]** > **[!UICONTROL Ajouter]**.
+* Cliquez avec le bouton droit de la souris sur un en-tête de colonne > **[!UICONTROL Création d’une mesure d’après une sélection]** lorsqu’une ou plusieurs cellules de colonne d’en-tête sont sélectionnées. Cette option crée automatiquement une mesure calculée pour vous sans avoir à utiliser le créateur de règles de mesures calculées.
 
 [Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr) (3:42)
 
