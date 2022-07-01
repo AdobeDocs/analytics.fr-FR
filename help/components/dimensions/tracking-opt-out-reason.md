@@ -3,14 +3,16 @@ title: Suivi du motif d’exclusion
 description: prévisualise les données qui seraient exclues si vous avez activé les paramètres de confidentialité.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-source-git-commit: 4c896fe930b52e440f8b91725fa6451faaa76fc8
+source-git-commit: b7209b914695423099266f5c507eaa34c2b98bc5
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '262'
+ht-degree: 9%
 
 ---
 
 # Suivi du motif d’exclusion
+
+*Cette page fait référence à la dimension qui vous permet d’afficher l’impact potentiel des données de l’activation de certains paramètres de suite de rapports. Il n’est pas lié à la variable [Service d’accord préalable de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr).*
 
 La dimension &quot;Raison de l’exclusion du suivi&quot; agit comme un aperçu des données qui seraient exclues si vous avez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation serait affectée négativement si vous avez activé [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) sous Paramètres de la suite de rapports.
 
