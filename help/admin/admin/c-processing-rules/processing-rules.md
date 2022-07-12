@@ -5,7 +5,7 @@ title: Règles de traitement - Présentation
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Les administrateurs disposent des droits d’utiliser les règles de traitement 
 
 ![Règles de traitement](assets/processing-rules.png)
 
-## Utilisation de données contextuelles afin de simplifier la collecte des données {#section_09EEA03612D24C15839631AA9E9668D8}
+## Utilisation de données contextuelles afin de simplifier la collecte de données {#section_09EEA03612D24C15839631AA9E9668D8}
 
 Les variables de données contextuelles représentent un type de variable disponible uniquement pour les règles de traitement. Pour utiliser les variables de données contextuelles, des paires de données clé/valeur sont envoyées par votre implémentation et les règles de traitement sont utilisées pour capturer ces valeurs dans des variables Analytics standard. De ce fait, les programmeurs ne doivent plus obligatoirement connaître la valeur contenue dans une variable prop et/ou eVar.
 
