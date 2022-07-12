@@ -1,69 +1,69 @@
 ---
-title: Paramètres du jeu de classifications
-description: Créez ou modifiez un jeu de classifications.
+title: Paramètres des ensembles de classifications
+description: Créez ou modifiez un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Paramètres du jeu de classifications
+# Paramètres des ensembles de classifications
 
-Configurez un jeu de classifications, transférez des données ou téléchargez des données.
+Configurez un ensemble de classifications, chargez des données ou téléchargez des données.
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement en version limitée. Si vous souhaitez accéder à cette fonctionnalité, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui peut transmettre votre demande à l’équipe Classifications pour la mise en service.
+>Cette fonctionnalité est actuellement limitée. Si vous souhaitez y avoir accès, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui pourra transmettre votre demande à l’équipe Classifications pour la mise en service.
 
-**[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Visionneuses]** > Cliquez sur le nom du jeu de classifications de votre choix.
+**[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]** > Cliquez sur le nom de l’ensemble de classifications de votre choix.
 
-Deux onglets sont disponibles lors de la modification d’un jeu de classifications. **[!UICONTROL Schéma]** et **[!UICONTROL Paramètres]**.
+Lorsque vous modifiez un ensemble de classifications, deux onglets sont disponibles : **[!UICONTROL Schéma]** et **[!UICONTROL Paramètres]**.
 
-## Paramètres 
+## Paramètres
 
-Les champs suivants sont disponibles dans la variable [!UICONTROL Paramètres] et peut être modifié :
+Les champs suivants sont disponibles dans l’onglet [!UICONTROL Paramètres] et peuvent être modifiés :
 
-* **[!UICONTROL Nom]**: Nom du jeu de classifications.
-* **[!UICONTROL Description]**: Description du jeu de classifications.
-* **[!UICONTROL Nom du propriétaire]**: Nom du propriétaire.
-* **[!UICONTROL Adresse électronique du propriétaire]**: Adresse électronique du propriétaire.
-* **[!UICONTROL Notification des problèmes]**: Liste, délimitée par des virgules, des adresses électroniques qui sont averties des problèmes liés à ce jeu de classifications.
-* **[!UICONTROL Balises]**: Ajoutez une ou plusieurs balises au(x) jeu(s) de classifications sélectionné(s), ce qui vous permet d’organiser ou de regrouper des jeux de classifications pour les rendre plus faciles à localiser à l’avenir.
+* **[!UICONTROL Nom]** : le nom de l’ensemble de classifications.
+* **[!UICONTROL Description]** : la description de l’ensemble de classifications.
+* **[!UICONTROL Nom du propriétaire]** : le nom du propriétaire.
+* **[!UICONTROL E-mail du propriétaire]** : l’adresse électronique du propriétaire.
+* **[!UICONTROL Notifier des problèmes]** : une liste, séparée par des virgules, d’adresses électroniques qui sont notifiées des problèmes de cet ensemble de classifications.
+* **[!UICONTROL Balises]** : ajoutez une ou plusieurs balises aux ensembles de classifications sélectionnés, ce qui vous permet d’organiser ou de regrouper les ensembles de classifications afin de les retrouver plus facilement à l’avenir.
 
-Les champs supplémentaires sont disponibles à titre d’information et ne peuvent pas être modifiés :
+Les champs supplémentaires sont disponibles à titre d’information et ne peuvent pas être modifiés :
 
-* **[!UICONTROL Type]**: Le type de classification entre [!UICONTROL Principal] et [!UICONTROL Recherche]. Les classifications Principal sont généralement utilisées.
-* **[!UICONTROL Abonnements]**: Suite de rapports et variable à laquelle s’applique le jeu de classifications. Actuellement, une seule suite de rapports est prise en charge pour un jeu de classifications donné. La prise en charge de plusieurs suites de rapports est prévue.
+* **[!UICONTROL Type]** : le type de classification entre [!UICONTROL Principal] et [!UICONTROL Recherche]. Les classifications principales sont généralement utilisées.
+* **[!UICONTROL Abonnements]** : la suite de rapports et la variable à laquelle l’ensemble de classifications s’applique. Pour l’instant, une seule suite de rapports est prise en charge pour un ensemble de classifications donné ; la prise en charge de plusieurs suites de rapports est prévue.
 
 ## Schéma
 
-Afficher les dimensions de classification actuellement configurées pour cet abonnement. Les boutons suivants sont disponibles :
+Affichez les dimensions de classifications actuellement configurées pour cet abonnement. Les boutons suivants sont disponibles :
 
-* **[!UICONTROL Télécharger]**: Chargez manuellement des données de classification pour une ou plusieurs dimensions de classification. Les fichiers JSON, CSV, TSV et TAB sont pris en charge. Le téléchargement d’un fichier valide affiche un aperçu du tableau des données à classer.
-   * **[!UICONTROL Encodage des fichiers]**: Sélectionnez le codage de fichier correct à l’aide de cette liste déroulante. Les options valides sont les suivantes : [!UICONTROL UTF-8] et [!UICONTROL Latin1].
-   * **[!UICONTROL Délimiteur de liste]**: Sélectionnez le délimiteur de liste approprié. Si vous utilisez un fichier téléchargé ou un fichier modèle, assurez-vous que la variable [!UICONTROL Délimiteur de liste] ici correspond à la variable [!UICONTROL Délimiteur de liste] lorsque le fichier a été téléchargé.
-   * **[!UICONTROL Appliquer]**: Enregistrez les données de classification chargées dans le jeu de classifications.
+* **[!UICONTROL Charger]** : chargez manuellement des données de classification pour une ou plusieurs dimensions de classification. Les fichiers JSON, CSV, TSV et TAB sont pris en charge. Le chargement d’un fichier valide affiche un aperçu sous forme de tableau des données à classer.
+   * **[!UICONTROL Encodage du fichier]** : sélectionnez l’encodage du fichier adapté à l’aide de cette liste déroulante. Les options valides comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1].
+   * **[!UICONTROL Délimiteur de liste]** : sélectionnez le délimiteur de liste approprié. Si vous utilisez un fichier téléchargé ou un fichier modèle, assurez-vous que le [!UICONTROL Délimiteur de liste] correspond au [!UICONTROL Délimiteur de liste] utilisé lors du téléchargement du fichier.
+   * **[!UICONTROL Appliquer]** : enregistrez les données de classification chargées dans l’ensemble de classifications.
 
-   ![Chargement du jeu de classifications](../assets/classification-set-upload.png)
+   ![Chargement des ensembles de classifications](../assets/classification-set-upload.png)
 
-* **[!UICONTROL Télécharger]**: Téléchargez les valeurs clés et leurs colonnes de classification.
-   * **[!UICONTROL Lignes]**: Nombre maximal de lignes à inclure dans le fichier de téléchargement.
-   * **[!UICONTROL Télécharger les lignes reçues entre]**: Sélecteur de date de calendrier qui vous permet de filtrer les valeurs clés selon le moment où elles apparaissent dans les rapports. Si une valeur de clé n’a pas été collectée au cours de cette période, elle n’apparaît pas dans le fichier téléchargé.
-   * **[!UICONTROL Données renvoyées]**: Liste déroulante qui vous permet de filtrer les valeurs clés incluses dans le fichier téléchargé en fonction des données de classification associées.
-      * **[!UICONTROL Toutes les valeurs classées]**: Inclut des lignes où des données de classification sont incluses dans au moins une colonne.
-      * **[!UICONTROL Toutes les valeurs non classées]**: Inclut les lignes où il manque des données de classification dans au moins une colonne.
-   * **[!UICONTROL Format du fichier]**: Liste déroulante qui détermine le format de fichier dans lequel se trouve le fichier de téléchargement. Les options incluent [!UICONTROL JSON], [!UICONTROL Valeurs séparées par des virgules], et [!UICONTROL Valeurs séparées par des tabulations Excel].
-   * **[!UICONTROL Encodage des fichiers]**: Liste déroulante qui détermine le codage du fichier. Les options incluent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
-   * **[!UICONTROL Délimiteurs de liste]**: Liste déroulante qui détermine le délimiteur de liste séparant les colonnes de classification de chaque ligne.
+* **[!UICONTROL Télécharger]** : téléchargez les valeurs clés et leurs colonnes de classification.
+   * **[!UICONTROL Lignes]** : le nombre maximum de lignes à inclure dans le fichier de téléchargement.
+   * **[!UICONTROL Télécharger les lignes reçues entre]** : sélecteur de date de calendrier qui vous permet de filtrer les valeurs clés en fonction du moment où elles apparaissent dans les rapports. Si une valeur de clé n’a pas été collectée au cours de cette période, elle n’apparaît pas dans le fichier téléchargé.
+   * **[!UICONTROL Données retournées]** : une liste déroulante qui vous permet de filtrer les valeurs clés incluses dans le fichier téléchargé en fonction des données de classifications qui leur sont associées.
+      * **[!UICONTROL Toutes les valeurs classées]** : inclut les lignes où les données de classifications sont incluses dans au moins une colonne.
+      * **[!UICONTROL Toutes les valeurs non classées]** : inclut les lignes où il manque des données de classifications dans au moins une colonne.
+   * **[!UICONTROL Format du fichier]** : liste déroulante qui détermine le format du fichier de téléchargement. Les options incluent [!UICONTROL JSON], les [!UICONTROL valeurs séparées par des virgules] et les [!UICONTROL valeurs séparées par des tabulations Excel].
+   * **[!UICONTROL Encodage du fichier]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
+   * **[!UICONTROL Délimiteurs de liste]** : liste déroulante qui détermine le délimiteur de liste séparant les colonnes de classification de chaque ligne.
 
-   ![Téléchargement du jeu de classifications](../assets/classification-set-download.png)
+   ![Téléchargement des ensembles de classifications](../assets/classification-set-download.png)
 
-* **[!UICONTROL Modèle]**: Téléchargez un fichier de modèle. Ce fichier est semblable au fichier [!UICONTROL Télécharger] , sauf qu’elle ne contient aucune donnée de classification ou valeur de clé.
-   * **[!UICONTROL Format du fichier]**: Liste déroulante qui détermine le format de fichier dans lequel se trouve le fichier de modèle. Les options incluent [!UICONTROL Valeurs séparées par des virgules], et [!UICONTROL Valeurs séparées par des tabulations Excel].
-   * **[!UICONTROL Encodage des fichiers]**: Liste déroulante qui détermine le codage du fichier. Les options incluent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
-   * **[!UICONTROL Délimiteurs de liste]**: Liste déroulante qui détermine le délimiteur de liste séparant les colonnes de classification de chaque ligne.
-* **[!UICONTROL Historique des tâches]**: Un lien de raccourci permettant d’accéder à la variable [Job manager](job-manager.md), affichant les tâches uniquement pour ce jeu de classifications.
+* **[!UICONTROL Modèle]** : téléchargez un fichier modèle. Ce fichier est similaire au bouton [!UICONTROL Télécharger], sauf qu’il ne contient pas de données de classification ni de valeurs clés.
+   * **[!UICONTROL Format de fichier]** : liste déroulante qui détermine le format de fichier du fichier modèle. Les options comprennent les [!UICONTROL valeurs séparées par des virgules] et les [!UICONTROL valeurs séparées par des tabulations Excel].
+   * **[!UICONTROL Encodage du fichier]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
+   * **[!UICONTROL Délimiteurs de liste]** : liste déroulante qui détermine le délimiteur de liste séparant les colonnes de classification de chaque ligne.
+* **[!UICONTROL Historique des tâches]** : un lien de raccourci qui vous permet d’accéder au [Gestionnaire des tâches](job-manager.md), affichant les tâches uniquement pour cet ensemble de classifications.
 
-   ![Modèle de jeu de classifications](../assets/classification-set-template.png)
+   ![Modèle d’ensemble de classifications](../assets/classification-set-template.png)
