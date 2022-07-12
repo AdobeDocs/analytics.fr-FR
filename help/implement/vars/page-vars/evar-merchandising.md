@@ -3,10 +3,11 @@ title: Variables eVar (marchandisage)
 description: Variables personnalisées liées à des produits individuels.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+mini-toc-levels: 3
+source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 99%
+source-wordcount: '503'
+ht-degree: 75%
 
 ---
 
@@ -41,6 +42,47 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 La valeur pour `eVar1` est affectée au produit. Tous les événements de succès suivants qui impliquent ce produit sont crédités à la valeur eVar.
 
+### Utilisation de XDM pour la collecte Edge
+
+Chaque champ de la variable &quot;products&quot; est renseigné par un champ XDM correspondant. Vous pouvez voir une liste de tous les mappages de XDM aux paramètres Analytics. [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). Vous trouverez ci-dessous un exemple illustrant la manière dont les champs XDM productListItems sont combinés pour créer une variable products.
+
+Structure XDM :
+
+```js
+              "productListItems": [
+                    {
+                        "name": "Bahama Shirt",
+                        "priceTotal": "12.99",
+                        "quantity": 3,
+                        "_experience": {
+                            "analytics": {
+                                "customDimensions" : {
+                                    "eVars" : {
+                                        "eVar10" : "green",
+                                        "eVar33" : "large"
+                                    }
+                                },
+                                "event1to100" : {
+                                    "event4" : {
+                                        "value" : 1
+                                    },
+                                    "event10" : {
+                                        "value" : 2,
+                                        "id" : "abcd"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+```
+
+Paramètre &quot;products&quot; obtenu transmis à Analytics :
+
+```js
+pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+```
+
 ## Implémentation à l’aide de la syntaxe de la variable de conversion
 
 La syntaxe de la variable de conversion est utilisée lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page n’est pas en mesure de déterminer le canal de marchandisage ou la méthode de recherche. Dans ce cas, vous devez définir la variable de marchandisage avant d’arriver à la page du produit et la valeur persiste jusqu’à l’événement de liaison.
@@ -53,10 +95,36 @@ s.eVar1 = "Aviary";
 
 // Place on the page where the binding event occurs:
 s.events = "prodView";
-s.products = "Birds;Canary";
+s.products = ";Canary";
 ```
 
 La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les événements de succès ultérieurs qui impliquent ce produit sont crédités à `"Canary"`. De plus, la valeur actuelle de la variable de marchandisage sera liée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
 
 * L’expiration de l’eVar (sur la base du paramètre « Expire After »)
 * L’eVar de marchandisage est remplacée par une nouvelle valeur.
+
+### Utilisation de XDM pour la collecte Edge
+
+Vous pouvez spécifier les mêmes informations à l’aide des champs XDM mappés aux champs Analytics. Vous pouvez voir une liste de tous les mappages de XDM aux paramètres Analytics. [here](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
+
+```js
+                  "_experience": {
+                      "analytics": {
+                          "customDimensions": {
+                              "eVars": {
+                                  "eVar1" : "Aviary"
+                              }
+                          }
+                      }
+                  },
+                  "commerce": {
+                      "productViews" : {
+                          "value" : 1
+                      }
+                  },
+                  "productListItems": [
+                      {
+                          "name": "Canary"
+                      }
+                  ]
+```
