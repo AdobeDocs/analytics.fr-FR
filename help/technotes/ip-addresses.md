@@ -3,10 +3,10 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: e777313f5a46939ef5525205deaffc807f33a894
+source-git-commit: 6788b904295fd92642d27ade65a31d61897069a3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 86%
+source-wordcount: '408'
+ht-degree: 85%
 
 ---
 
@@ -109,7 +109,6 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 | Virginie | `130.248.144.0/22` |
 | Virginie | `172.82.204.0/22` |
 | Virginie | `172.82.212.0/22` |
-| Virginie | Voir les hôtes AWS |
 
 ## Hôtes AWS
 
@@ -117,32 +116,17 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 
 | Emplacement | Hôte |
 | --- | --- |
-| Australie | `13.54.219.183` |
-| Australie | `52.62.137.88` |
-| Australie | `54.79.162.112` |
-| Chine | `52.81.111.133` |
-| Chine | `140.179.22.22` |
+| Chine | `140.179.89.228` |
+| Chine | `140.179.125.98` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
-| Inde | `3.7.24.204` |
-| Inde | `3.108.50.194` |
-| Inde | `3.108.177.136` |
-| Irlande | `54.220.133.225` |
 | Irlande | `54.74.170.177` |
 | Irlande | `54.195.254.128` |
-| Oregon | `54.212.155.93` |
+| Irlande | `54.220.133.225` |
 | Oregon | `52.10.149.115` |
 | Oregon | `52.40.172.46` |
-| Singapour | `54.255.88.178` |
-| Singapour | `52.220.235.10` |
-| Singapour | `3.1.237.132` |
-| Tokyo | `3.113.78.189` |
-| Tokyo | `13.115.137.161` |
-| Tokyo | `54.178.162.114` |
-| Virginie | `18.205.241.19` |
-| Virginie | `44.194.25.77` |
-| Virginie | `52.0.93.32` |
+| Oregon | `54.212.155.93` |
 | Virginie | `3.216.131.23` |
 | Virginie | `34.204.237.47` |
 | Virginie | `54.163.234.74` |
