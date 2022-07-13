@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
-workflow-type: ht
-source-wordcount: '1065'
-ht-degree: 100%
+source-git-commit: df9e8e323ba12985761b38c403bb4114cc99f5fe
+workflow-type: tm+mt
+source-wordcount: '1103'
+ht-degree: 96%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (juin 2022)
 
-**Dernière mise à jour** : 16 juin 2022
+**Dernière mise à jour**: 13 juillet 2022
 
 ## Ressources connexes
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 {style=&quot;table-layout:auto&quot;}
 
-### Correctifs dans Adobe Analytics
+### Correctifs dans Adobe Analytics 
 
 AN-251686 ; AN-283542 ; AN-286572 ; AN-286945 ; AN-286784 ; AN-286944 ; AN-287012 ; AN-287319 ; AN-287333 ; AN-287348 ; AN-287429 ; AN-288238 ; AN-288281 ; AN-288660 ; AN-288769 ; AN-288798 ; AN-288871 ; AN-288872 ; AN-288941 ; AN-288951 ; AN-288952 ; AN-288956 ; AN-289062 ; AN-289340 ; AN-289346 ; AN-289488 ; AN-289562 ; AN-289580 ; AN-289861 ; AN-289892 ;
 
@@ -42,6 +42,7 @@ AN-251686 ; AN-283542 ; AN-286572 ; AN-286945 ; AN-286784 ; AN-286944 ; AN
 
 | Remarque | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Nouveau domaine pour les emails générés par le système** | 13 juillet 2022 | L’Adobe a récemment modifié le domaine de l’expéditeur pour les emails provenant des projets Workspace, des alertes et des alertes de dépassement, de `noreply@omniture.com` to `noreply@adobe.com`. Ajoutez ce nouvel email à votre liste autorisée si votre entreprise n’autorise que des expéditeurs spécifiques. |
 | **Suspension des rapports planifiés dans Reports &amp; Analytics** | 8 juin 2022 | Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en prévision de la fin de vie de Reports &amp; Analytics annoncée précédemment. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouvelles extractions de données.<p>En réponse aux demandes des clients qui souhaitaient une prolongation et pour faciliter la transition depuis Reports and Analytics, nous avons décidé de prolonger l’accès à ces fonctionnalités jusqu’au **31 janvier 2023**. Veuillez noter que les fenêtres d’expiration pour les rapports et les extractions de données continueront d’être limitées à neuf mois ; la diffusion des rapports et des extractions de données s’interrompra à la fin de cette période, sauf si le planning est réactivé.<p>Pour réitérer, ces fonctionnalités seront abandonnées le 31 janvier 2023. Avant cette date, vous devez migrer vos rapports planifiés vers l’un des autres mécanismes disponibles dans Adobe Analytics. Pour toute question ou assistance supplémentaire, contactez l’Assistance clientèle d’Adobe. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **Suspension des tâches planifiées dans Report Builder** | 8 juin 2022 | Le 21 avril 2022, nous avons apporté des modifications aux tâches planifiées dans Report Builder dans le cadre de nos efforts d’optimisation des performances et des diffusions. Ces modifications comprenaient la suppression de la possibilité de faire en sorte que les diffusions planifiées prennent « fin après x occurrences ». En réponse à plusieurs demandes de clients souhaitant disposer de plus de temps pour explorer et implémenter des alternatives, nous avons décidé de restaurer cette option de manière limitée jusqu’au **31 janvier 2023**.<p>Vous pouvez continuer à planifier des tâches horaires de Report Builder et faire en sorte qu’elles se terminent après un maximum de 99 occurrences. Veuillez noter que la restauration ne s’applique qu’aux tâches horaires ; l’option « fin après x occurrences » restera indisponible pour tous les autres intervalles de diffusion (quotidien, hebdomadaire, mensuel et annuel). Veuillez noter que cette option sera abandonnée le 31 janvier 2023. Pour toute question ou assistance, contactez l’Assistance clientèle d’Adobe. [En savoir plus](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **Mise à niveau des services SFTP** | 9 mai 2022 | Nous avons précédemment annoncé qu’Adobe allait procéder à la mise à niveau de ses services SFTP (Secure File Transfer Protocol) en mai 2022, afin d’assurer une sécurité accrue pour le transfert de fichiers. Cette mise à niveau a été reportée à **l’été 2022**. Cette mise à niveau marque la fin de la prise en charge de certaines configurations de clients SFTP. Cela n’affecte que les données envoyées ou récupérées depuis Adobe Analytics via SFTP. Le protocole FTP n’est pas affecté. Afin d’éviter toute perturbation du service, assurez-vous que vos clients SFTP (code, outils, services) sont compatibles avec les modifications détaillées [ici](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=fr). |
