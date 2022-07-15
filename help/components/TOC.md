@@ -7,7 +7,7 @@ user-guide-description: Facilitez la gestion de vos données à l’aide de comp
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -228,10 +228,10 @@ ht-degree: 97%
 + Classifications {#classifications}
    + [Présentation des classifications](classifications/c-classifications.md)
    + Jeux de classifications {#sets}
-      + [Présentation des jeux de classifications](classifications/sets/overview.md)
+      + [Présentation des ensembles de classifications](classifications/sets/overview.md)
       + [Gestionnaire des jeux de classifications](classifications/sets/set-manager.md)
-      + [Gestionnaire des tâches du jeu de classifications](classifications/sets/job-manager.md)
-      + [Créer un jeu de classifications](classifications/sets/create.md)
+      + [Gestionnaire des tâches des ensembles de classifications](classifications/sets/job-manager.md)
+      + [Création d’un ensemble de classifications](classifications/sets/create.md)
       + [Paramètres du jeu de classifications](classifications/sets/settings.md)
    + Créateur de règles de classification {#classifications-rulebuilder}
       + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)

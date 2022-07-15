@@ -5,7 +5,7 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -108,7 +108,7 @@ ht-degree: 100%
       + [Définir la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Gestion des vidéos](admin/video-management.md)
-+ Analytics   dans Adobe Admin Console {#admin-console}
++ Analytics dans Adobe Admin Console {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
