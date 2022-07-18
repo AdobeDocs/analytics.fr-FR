@@ -1,16 +1,16 @@
 ---
-title: Questions fréquentes sur la migration vers Adobe Analytics
+title: Questions fréquentes concernant la migration vers Adobe Analytics
 description: Obtenez des réponses aux questions fréquentes lorsque vous passez d’une plateforme tierce à Adobe.
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
-# Questions fréquentes sur la migration vers Adobe Analytics
+# Questions fréquentes concernant la migration vers Adobe Analytics
 
 **Comment puis-je migrer mes données historiques de ma plateforme tierce vers Adobe Analytics ?**
 
@@ -18,7 +18,7 @@ Chaque plateforme Analytics dispose de différentes méthodes de collecte, de ge
 
 Si votre entreprise insiste pour que les données historiques soient transférées à Adobe, contactez le gestionnaire de compte de votre entreprise. Un conseiller en implémentation peut travailler avec votre entreprise pour traduire une exportation de données Google Analytics en une source de données pouvant être assimilée par les serveurs de collecte de données d’Adobe.
 
-Pour passer aux données historiques, il est recommandé d’utiliser [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr) qui peut importer n’importe quelle source de données omni-canal.
+Pour transférer les données historiques, il est recommandé d’utiliser [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr). Grâce à cette application, vous pouvez importer n’importe quelle source de données omnicanale.
 
 **Je suis habitué à une liste déroulante de segmentation dans la plupart de mes rapports. Comment puis-je recréer cela dans [!UICONTROL Analysis Workspace] ?**
 
@@ -31,4 +31,4 @@ Les utilisateurs accédant à ce projet [!UICONTROL Workspace] peuvent désormai
 
 **J’ai l’habitude de cliquer sur l’élément d’une dimension pour qu’une analyse en profondeur s’affiche. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
 
-Les éléments de dimension dans [!UICONTROL Analysis Workspace] offrent également un processus de ventilation facile. Accédez-y avec un clic droit au lieu d’un clic gauche. Faites un clic droit sur un élément de dimension, cliquez sur **[!UICONTROL Ventilation], puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
+Les éléments de dimension dans [!UICONTROL Analysis Workspace] offrent également un processus de ventilation facile. Accédez-y avec un clic droit au lieu d’un clic gauche. Faites un clic droit sur un élément de dimension, cliquez sur [!UICONTROL Ventilation], puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
