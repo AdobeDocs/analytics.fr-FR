@@ -4,10 +4,10 @@ keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sen
 title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '1439'
-ht-degree: 100%
+source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,59 +15,57 @@ ht-degree: 100%
 
 Questions fréquentes sur les flux de données.
 
-## Les noms de flux doivent-ils être uniques ?{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## Les noms de flux doivent-ils être uniques ?{#unique}
 
 Les noms de fichiers des flux de données se composent de l’identifiant de la suite de rapports et de la date. Si deux flux sont configurés avec le même identifiant de suite de rapports et la ou les mêmes dates, ils auront le même nom de fichier. Si ces deux flux sont diffusés au même endroit, un fichier remplacera l’autre. Pour éviter que cela ne se produise, vous ne pouvez pas créer de flux qui puisse potentiellement remplacer un flux existant situé au même endroit.
 
-Lorsque vous essayez de créer un flux alors qu’un autre flux doté du même nom de fichier existe déjà, le message suivant s’affiche :
-
-Si cette erreur survient, considérez les solutions suivantes :
+Si vous essayez de créer un flux lorsqu’un autre flux portant le même nom de fichier existe déjà, un message d’erreur s’affiche. Tenez compte des solutions suivantes :
 
 * Modifier le chemin de diffusion
 * Si possible, modifiez les dates
 * Si possible, modifiez la suite de rapports
 
-## Quand les données sont-elles traitées ? {#section_6346328F8D8848A7B81474229481D404}
+## Quand les données sont-elles traitées ? {#processed}
 
 Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les accès concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec horodatages compris dans cette tranche horaire, les compressent et les envoient via FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec horodatages compris dans cette tranche horaire, le processus fait une nouvelle tentative avec la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les accès qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
 
-## Quelle est la différence entre les colonnes comportant un préfixe `post_` et celle ne comportant pas de préfixe `post_` ?
+## Quelle est la différence entre les colonnes comportant un préfixe `post_` et celle ne comportant pas de préfixe `post_` ? {#post}
 
 Les colonnes sans le préfixe `post_` contiennent les données telles qu’elles ont été envoyées lors de la collecte de données. Les colonnes comportant le préfixe `post_` contiennent la valeur après traitement. La persistance de la variable, les règles de traitement, les règles VISTA, la conversion de la devise ou une autre logique côté serveur sont des exemples pouvant modifier une valeur appliqués par Adobe. Adobe recommande d’utiliser la version `post_` d’une colonne dans la mesure du possible.
 
 Si une colonne ne contient pas de version `post_` (par exemple, `visit_num`), alors la colonne peut être considérée comme une colonne « Post ».
 
-## Comment les flux de données gèrent-ils le respect de la casse ?
+## Comment les flux de données gèrent-ils le respect de la casse ? {#case}
 
 Dans Adobe Analytics, la plupart des variables sont considérées comme ne respectant pas la casse à des fins de création de rapports. Par exemple, les valeurs « neige », « Neige », « NEIGE » et « nEige » sont toutes considérées comme étant la même valeur. Le respect de la casse est préservé dans les flux de données.
 
 Si vous observez différentes variations de la casse entre des colonnes « Post » et non « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que votre implémentation utilise des valeurs à la fois en majuscules et en minuscules sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
 
-## Les robots sont-ils filtrés par les règles de robots d’Admin Console incluses dans les flux de données ?
+## Les robots sont-ils filtrés par les règles de robots d’Admin Console incluses dans les flux de données ? {#bots}
 
 Les flux de données n’incluent pas les robots filtrés par les [règles de robots d’Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=fr).
 
-## Pourquoi est-ce que je vois plusieurs valeurs `000` dans la colonne de flux de données `event_list` ou `post_event_list` ?
+## Pourquoi est-ce que je vois plusieurs valeurs `000` dans la colonne de flux de données `event_list` ou `post_event_list` ? {#values}
 
 Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrondissent automatiquement les grands nombres. La colonne `event_list` contient de nombreux nombres délimités par des virgules, ce qui peut parfois entraîner Excel à la traiter comme un grand nombre. Il arrondit les derniers chiffres à `000`.
 
 Adobe recommande de ne pas ouvrir automatiquement les fichiers `hit_data.tsv` dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer les données dʼExcel et assurez-vous que tous les champs sont traités comme du texte.
 
-## Les colonnes telles que `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties comme étant uniques à lʼaccès ou à la visite ?
+## Les colonnes telles que `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties comme étant uniques à lʼaccès ou à la visite ? {#hitid}
 
 Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un accès. Le même concept sʼapplique à la concaténation de `visid_high` et `visid_low` pour les visites. Cependant, les anomalies de traitement peuvent rarement faire en sorte que deux accès partagent le même identifiant dʼaccès. Adobe recommande de ne pas créer de workflows de flux de données qui supposent de manière inflexible que chaque accès soit unique.
 
-## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#section_B7508D65370442C7A314EAED711A2C75}
+## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#domain}
 
 Certains opérateurs mobiles (tels que T-Mobile et O1) ne fournissent plus d’informations sur les domaines pour les recherches DNS inversées. Par conséquent, ces données ne sont pas disponibles dans les rapports sur les domaines.
 
-## Pourquoi ne puis-je pas extraire des fichiers « Par heure » à partir de données qui ont plus de sept jours ?
+## Pourquoi ne puis-je pas extraire des fichiers « Par heure » à partir de données qui ont plus de sept jours ? {#hourly}
 
 Pour les données de plus de sept jours, les fichiers « Par heure » d’une journée sont combinés en un seul fichier « Quotidien ».
 
 Exemple : un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont diffusées « Par heure ». Cependant, les fichiers « Par heure » antérieurs au 2 mars 2021 sont combinés en un seul fichier « Quotidien ». Vous ne pouvez extraire des fichiers « Par heure » qu’à partir de données qui ont moins de sept jours à compter de la date de création. Dans ce cas-ci, du 2 au 9 mars.
 
-## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#section_70E867D942054DD09048E027A9474FFD}
+## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#dst}
 
 Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si, en revanche, le passage à l’heure d’été est appliqué, la remise des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02 h 00).
 
@@ -75,7 +73,7 @@ Lors d’un changement d’heure STD (heure standard) > DST (heure d’été) 
 
 Lors d’une transition DST > STD, (« Retour en arrière »), le client reçoit 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02 h 00, le fichier correspondant à 01 h 00 est retardé d’une heure, mais il contient l’équivalent de 2 heures de données. Il contient les données entre 01 h 00 DST et 02 h 00 STD, qui aurait normalement été 03 h 00 DST. Le fichier suivant commence à 02 h 00 STD.
 
-## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
+## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
 
 En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d’une perte de connexion, d’une erreur de quota ou d’un autre problème), Adobe tente de se connecter automatiquement et d’envoyer les données jusqu’à trois fois. Si le problème persiste, le flux est marqué comme ayant échoué et un message de notification est envoyé.
 
@@ -83,7 +81,7 @@ Si un transfert échoue, vous pouvez réexécuter une tâche jusqu’à ce qu’
 
 Si vous rencontrez des problèmes lors de l’affichage d’un flux de données sur votre site FTP, voir [Résolution des problèmes liés aux flux de données](troubleshooting.md).
 
-## Comment puis-je renvoyer une tâche ? {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+## Comment puis-je renvoyer une tâche ? {#resend}
 
 Une fois que vous avez vérifié ou corrigé le problème de diffusion, exécutez à nouveau la tâche pour obtenir les fichiers.
 
