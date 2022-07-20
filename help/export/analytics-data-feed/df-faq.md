@@ -4,10 +4,10 @@ keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sen
 title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ Cependant, les objets n’héritent pas des autorisations du compartiment parent
 
 >[!NOTE]
 >
->[!DNL Analytics] ne détermine pas si le compartiment a une politique qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ou même si le propriétaire du compartiment est dans un compte différent de celui de l’utilisateur qui écrit les données. Au lieu de cela, [!DNL Analytics] ajoute automatiquement le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl avec chaque chargement de flux.
+>Adobe Analytics ne détermine pas si le compartiment a une stratégie qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ni même si le propriétaire du compartiment se trouve dans un compte différent de celui de l’utilisateur qui écrit les données. À la place, Analytics ajoute automatiquement le propriétaire du compartiment à la variable `BucketOwnerFullControl` Liste de contrôle d’accès avec chaque chargement de flux.
+

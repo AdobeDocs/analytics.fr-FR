@@ -3,20 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bedda6ba1f3022562976ada7e73a9514947b5071
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 55%
+source-wordcount: '1087'
+ht-degree: 54%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (juillet 2022)
 
 **Dernière mise à jour**: 13 juillet 2022
-
->[!NOTE]
->
->Cette page contient des informations préliminaires. Elles peuvent être modifiées à tout moment.
 
 ## Ressources connexes
 
@@ -29,7 +25,7 @@ ht-degree: 55%
 
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
-| Prise en charge des variables de marchandisage dans XDM pour Edge Collection | Permet aux clients collectant des données via Experience Edge/Web SDK d’utiliser XDM pour spécifier les différentes valeurs des variables de marchandisage (eVars). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) | 29 juin 2022 |
+| Prise en charge des variables de marchandisage dans XDM pour Edge Collection | Permet aux clients collectant des données via Experience Edge/Web SDK d’utiliser XDM pour spécifier les différentes valeurs des variables de marchandisage (eVars). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) | 29 juin 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
