@@ -3,7 +3,7 @@ title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 84%
@@ -22,9 +22,7 @@ Les événements personnalisés sont [mappé pour Adobe Analytics](https://exper
 
 * Les événements personnalisés 1 à 100 sont mappés sur `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
 * Les événements personnalisés 101 à 200 sont mappés sur `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Ce modèle répète tous les 100 événements sur `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`.
-* `eventx.value` est utilisé pour spécifier la valeur.
-* `eventx.id` est utilisé pour spécifier l’identifiant pour la sérialisation.
+* Ce modèle répète tous les 100 événements sur `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` est utilisé pour spécifier la valeur. `eventx.id` est utilisé pour spécifier l’identifiant pour la sérialisation.
 * Les commandes sont associées à `commerce.purchases.value`.
 * Les unités sont mappées à la somme de tous les `productListItems[].quantity` champs.
 * Les recettes sont mises en correspondance avec la somme de toutes les `productListItems[].priceTotal` champs.
