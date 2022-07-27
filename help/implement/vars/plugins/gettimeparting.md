@@ -3,10 +3,10 @@ title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 95%
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,21 +24,21 @@ Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, don
 >
 >La version 4.0+ de ce plug-in est sensiblement différente par rapport aux versions précédentes. Adobe recommande vivement de mettre en œuvre ce plug-in de A à Z. Le code référençant le plug-in avant la version 4.0 n’est pas compatible avec la version actuelle de ce plug-in.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
-1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
-1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
-   * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : plug-ins Analytics communs
-   * Type d’action : initialisation de getTimeParting
-1. Enregistrez et publiez les modifications apportées à la règle.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getTimeParting
+1. Save and publish the changes to the rule.-->
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 

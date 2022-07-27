@@ -3,10 +3,10 @@ title: Numbers Suite
 description: Permet de générer et de manipuler des nombres pour les utiliser dans d’autres variables JavaScript.
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -22,21 +22,21 @@ Le plug-in Numbers Suite regroupe une série de fonctions JavaScript. Il compren
 * **`randomNumber`** : permet de générer un nombre aléatoire avec un nombre spécifique de chiffres. Ce plug-in est utile si vous déployez des balises tierces et que vous souhaitez obtenir un nombre aléatoire pour le contournement de la mémoire cache.
 * **`twoDecimals`** : permet d’arrondir un nombre au centième près. Ce plug-in est utile à des fins monétaires, car il vous permet d’arrondir un nombre à une valeur monétaire valide.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension Adobe Analytics
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés.
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
-1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
-1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
-   * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
-1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
-   * Extension : plug-ins Analytics communs
-   * Type d’action : initialisation de Numbers Suite
-1. Enregistrez et publiez les modifications apportées à la règle.
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize Numbers Suite
+1. Save and publish the changes to the rule.-->
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
