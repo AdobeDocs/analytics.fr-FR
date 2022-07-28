@@ -3,9 +3,9 @@ description: Utilisez la visualisation de synthèse des mesures clés pour compa
 title: Synthèse des mesures clés
 feature: Visualizations
 role: User, Admin
-source-git-commit: a126f51c82cf7b23f4e03134c2d870d216dadc47
+source-git-commit: 73de5dca8584d8d04b57a0d50dffcb57cfeefb08
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '605'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 6%
 >
 >Cette fonctionnalité fait actuellement l’objet de [tests limités](/help/release-notes/releases.md).
 
-La visualisation du résumé des mesures clés vous permet de visualiser les tendances d’une mesure importante au cours d’une seule période. Il vous permet également de comparer les performances des mesures sur deux périodes. Il offre les avantages de plusieurs visualisations combinées en une seule visualisation :
+Le [!UICONTROL Résumé des mesures clés] la visualisation vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une seule période. Il vous permet également de comparer les performances des mesures sur deux périodes. Il offre les avantages de plusieurs visualisations combinées en une seule visualisation :
 
 * **[!UICONTROL Ligne]** des visualisations qui montrent les tendances de la mesure pour les périodes Principales et de comparaison.
 
@@ -62,7 +62,7 @@ Remarque :
 
 * Le **[!UICONTROL Période précédente]** le graphique linéaire (toujours affiché en gris) correspond au **[!UICONTROL Période de comparaison]** à l’étape de configuration.
 
-* Si une période de comparaison n’est pas sélectionnée lors de la configuration ou si elle est masquée dans les paramètres de visualisation (voir plus sur les paramètres ci-dessous), seul le graphique linéaire correspondant à la période Principale s’affiche. Le résumé de la modification sera masqué.
+* Si aucune période de comparaison n’est spécifiée lors de la configuration ou si elle est masquée dans les paramètres de visualisation, seul le graphique linéaire correspondant à la période Principale s’affiche. Le résumé de la modification sera masqué.
 
 * À partir de là, vous pouvez placer le pointeur de la souris sur les graphiques linéaires pour afficher les statistiques pour chaque jour :
 
@@ -76,16 +76,16 @@ Le résumé des mesures clés offre plusieurs paramètres flexibles pour une mei
 
 | Paramètre | Description |
 | --- | --- |
-| Mettre en évidence le changement de pourcentage | Afficher le résumé du changement dans le style en gras au centre de la visualisation |
-| Souligner la valeur numérique | Afficher le numéro de résumé en caractères gras au centre de la visualisation |
-| Légende visible | Afficher ou masquer la légende au bas de la visualisation |
-| Afficher les annotations | Afficher ou masquer les annotations ajoutées par un administrateur |
-| Afficher les graphiques sparkline | Afficher ou masquer les graphiques en courbes au bas du graphique. Lorsqu’elle est masquée, la légende ne fait plus référence visuellement aux lignes. |
-| Afficher les min. et max. sur les graphiques sparkline | Afficher ou masquer les valeurs minimales et maximales sur les graphiques en courbes Principal et de comparaison |
-| Afficher la comparaison | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de changement de graphique en courbes de comparaison et de résumé sont masqués. |
-| Afficher le nombre total | Afficher ou masquer le nombre de synthèse |
-| Afficher la différence brute | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
-| Abréger la valeur | Abréger les valeurs numériques pour simplifier les insights communiqués (par exemple, 20 000 -> 20 000) |
+| **[!UICONTROL Mettre en évidence le changement de pourcentage]** | Afficher le résumé du changement dans le style en gras au centre de la visualisation |
+| **[!UICONTROL Souligner la valeur numérique]** | Afficher le numéro de résumé en caractères gras au centre de la visualisation |
+| **[!UICONTROL Légende visible]** | Afficher ou masquer la légende au bas de la visualisation |
+| **[!UICONTROL Afficher les annotations]** | Afficher ou masquer les annotations ajoutées par un administrateur |
+| **[!UICONTROL Afficher les graphiques sparkline]** | Afficher ou masquer les graphiques en courbes au bas du graphique. Lorsqu’elle est masquée, la légende ne fait plus référence visuellement aux lignes. |
+| **[!UICONTROL Afficher les min. et max. sur les graphiques sparkline]** | Afficher ou masquer les valeurs minimales et maximales sur les graphiques en courbes Principal et de comparaison |
+| **[!UICONTROL Afficher la comparaison]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de changement de graphique en courbes de comparaison et de résumé sont masqués. |
+| **[!UICONTROL Afficher le nombre total]** | Afficher ou masquer le nombre de synthèse |
+| **[!UICONTROL Afficher la différence brute]** | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
+| **[!UICONTROL Abréger la valeur]** | Abréger les valeurs numériques pour simplifier les insights communiqués (par exemple, 20 000 -> 20 000) |
 
 ## Modifier la visualisation
 
