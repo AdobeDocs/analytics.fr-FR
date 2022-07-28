@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Fournit des instructions pratiques pour Analysis Workspace, lʼoutil principal dʼanalyse et de visualisation dʼAnalytics, ainsi que des outils tels que les tableaux de bord Adobe Analytics, Report Builder et Activity Map.
-source-git-commit: 6f0d92a85003537447821687bf5385b1690dc33f
+source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1051'
 ht-degree: 100%
 
 ---
@@ -74,6 +74,7 @@ ht-degree: 100%
          + [Configuration d’une visualisation de flux](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flux interdimensionnels](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Histogramme](analysis-workspace/visualizations/histogram.md)
+      + [Synthèse des mesures clés](analysis-workspace/visualizations/key-metric.md)
       + [Carte](analysis-workspace/visualizations/map-visualization.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [Surface et aires empilées](analysis-workspace/visualizations/area.md)
