@@ -3,10 +3,10 @@ description: Permet de visualiser facilement les données de comparaison dans An
 title: Visualisation des diagrammes en courbes
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 32%
+source-wordcount: '763'
+ht-degree: 34%
 
 ---
 
@@ -30,9 +30,9 @@ Utilisez une [!UICONTROL Graphique en courbes] to
 Gardez à l’esprit que vous pouvez
 
 * Ajout de plusieurs comparaisons en une seule [!UICONTROL Graphique en courbes].
-* Si vous ajoutez une ou plusieurs comparaisons, elles doivent être du même type, telles que Période.
+* Si vous ajoutez une ou plusieurs comparaisons, celles-ci doivent être du même type, par exemple : [!UICONTROL Comparaison des heures].
 * Vous pouvez ajouter jusqu’à 5 comparaisons.
-* Vous pouvez appliquer un filtre à une mesure.
+* Vous pouvez appliquer jusqu’à 3 filtres (segments) à une mesure.
 
 ## Création d’un diagramme Combo
 
@@ -46,9 +46,9 @@ Gardez à l’esprit que vous pouvez
 
    | Type de comparaison de lignes | Définition |
    | --- | --- |
-   | Période | Type de comparaison le plus courant : comparaison de cette période à il y a 4 semaines, par exemple. Si vous avez sélectionné Période, effectuez une sélection secondaire pour déterminer à quelle période vous souhaitez comparer.<p>![](assets/combo-time-period.png) |
-   | Mesure supplémentaire | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure.<p>![](assets/combo-2metrics.png) |
-   | Fonction | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des fonctions prises en charge ci-dessous.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Comparaison de temps]** | Type de comparaison le plus courant : comparaison de cette période à il y a 4 semaines, par exemple. Si vous avez sélectionné [!UICONTROL Comparaison des heures], effectuez une sélection secondaire pour connaître la période à comparer.<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL Mesure supplémentaire]** | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure.<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL Fonction]** | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des fonctions prises en charge ci-dessous.<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ Si vous choisissez **[!UICONTROL Fonction]** comme la propriété [!UICONTROL Ty
 
 | Fonction | Définition |
 | --- | --- |
+| **[!UICONTROL Somme de la colonne]** | Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension) |
 | **[!UICONTROL Moyenne cumulée]** | Renvoie la moyenne des N dernières lignes. |
-| **[!UICONTROL Somme]** | Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension) |
-| **[!UICONTROL Exposant]** | Renvoie *e* élevé à la puissance d’un nombre donné. |
+| **[!UICONTROL Médiane]** | Renvoie la médiane pour une mesure dans une colonne. La médiane est le nombre au milieu d’un ensemble de nombres, c’est-à-dire que la moitié des nombres ont une valeur supérieure ou égale à la médiane et la moitié une valeur inférieure ou égale à la médiane. |
+| **[!UICONTROL Cumulé]** | Somme cumulée de N lignes. |
+| **[!UICONTROL Max. colonne]** | Renvoie la valeur la plus grande d’un ensemble d’éléments de dimension pour une colonne de mesures. |
 | **[!UICONTROL Moyenne]** | Renvoie la moyenne arithmétique, ou moyenne, pour une mesure. |
-| **[!UICONTROL Quartile]** | Renvoie le quartile des valeurs pour une mesure. Par exemple, les quartiles peuvent être utilisés pour trouver les 25 % de produits générant le plus de recettes. |
+| **[!UICONTROL Min. colonne]** | Renvoie la valeur la plus petite d’un ensemble d’éléments de dimension pour une colonne de mesures. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -90,13 +92,15 @@ Cliquez sur l’icône d’engrenage en haut à droite d’un graphique combiné
 
 | Paramètre | Définition |
 | --- | --- |
+| **[!UICONTROL Type de visualisation]** | Permet de passer à un autre type de visualisation. |
+| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. |
 | **[!UICONTROL Général]** |  |
 | **[!UICONTROL Pourcentages]** | Affiche les valeurs en pourcentages. |
 | **[!UICONTROL Légende visible]** | Permet de masquer le texte de légende détaillé pour la visualisation des graphiques en courbes. |
-| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. |
+| **[!UICONTROL Limiter le nombre maximal d’éléments]** | Réduit le nombre d’éléments sur l’axe X. Si vous disposez d’un jeu de données volumineux, vous pouvez uniquement afficher les 10 premiers éléments (ou toute valeur choisie). |
 | **[!UICONTROL Recouvrements]** | Afficher ou masquer les barres sur les lignes. |
 | **[!UICONTROL Axe]** |  |
-| **[!UICONTROL Afficher l’axe double]** | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
+| **[!UICONTROL Afficher l’axe double]** | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. La couleur de l’axe double correspond à la couleur du tableau, sauf s’il existe plusieurs comparaisons. Dans ce cas, la couleur de toutes les comparaisons est grise. |
 | **[!UICONTROL Normalisation]** | Force les mesures en proportions égales. Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | **[!UICONTROL Afficher l’axe X]** | Affichez l’axe X ou masquez-le. |
 | **[!UICONTROL Afficher l’axe Y]** | Affichez l’axe des ordonnées ou masquez-le. |
