@@ -3,10 +3,10 @@ description: Permet de visualiser facilement les données de comparaison dans An
 title: Visualisation des diagrammes en courbes
 feature: Visualizations
 role: User, Admin
-source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
+source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 7%
+source-wordcount: '644'
+ht-degree: 32%
 
 ---
 
@@ -19,13 +19,20 @@ ht-degree: 7%
 
 Le [!UICONTROL Graphique en courbes] la visualisation facilite la création rapide d’une visualisation de comparaison sans avoir à créer d’abord un tableau. Vous pouvez facilement afficher les tendances de vos données dans une combinaison ligne/barre.
 
-Utilisation d’un diagramme de type Combo pour
+Utilisez une [!UICONTROL Graphique en courbes] to
 
 * Comparez les commandes de cette semaine aux commandes en même temps le mois dernier (et l’année dernière), le tout en quelques clics.
 
 * Analysez et comparez rapidement plusieurs mesures (comme [!UICONTROL Visiteurs uniques] et [!UICONTROL Recettes]) les uns par rapport aux autres sur le même graphique.
 
 * Analyse d’une mesure par rapport à une fonction (telle que [!UICONTROL Moyenne cumulée]) sur un horizon temporel.
+
+Gardez à l’esprit que vous pouvez
+
+* Ajout de plusieurs comparaisons en une seule [!UICONTROL Graphique en courbes].
+* Si vous ajoutez une ou plusieurs comparaisons, elles doivent être du même type, telles que Période.
+* Vous pouvez ajouter jusqu’à 5 comparaisons.
+* Vous pouvez appliquer un filtre à une mesure.
 
 ## Création d’un diagramme Combo
 
@@ -40,8 +47,10 @@ Utilisation d’un diagramme de type Combo pour
    | Type de comparaison de lignes | Définition |
    | --- | --- |
    | Période | Type de comparaison le plus courant : comparaison de cette période à il y a 4 semaines, par exemple. Si vous avez sélectionné Période, effectuez une sélection secondaire pour déterminer à quelle période vous souhaitez comparer.<p>![](assets/combo-time-period.png) |
-   | Mesure supplémentaire | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure. |
-   | Fonction | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. |
+   | Mesure supplémentaire | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure.<p>![](assets/combo-2metrics.png) |
+   | Fonction | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des fonctions prises en charge ci-dessous.<p>![](assets/combo-functions.png) |
+
+   {style=&quot;table-layout:auto&quot;}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -49,7 +58,50 @@ Utilisation d’un diagramme de type Combo pour
 
    ![](assets/combo-output.png)
 
+   La période en cours s’affiche dans le graphique à barres et la période de comparaison est représentée par le graphique en courbes. Les points sur le graphique en courbes sont appelés &quot;barres&quot;.
 
+## Fonctions prises en charge
 
+Si vous choisissez **[!UICONTROL Fonction]** comme la propriété [!UICONTROL Type de comparaison de lignes], une fonction de la mesure choisie est renvoyée.
+
+| Fonction | Définition |
+| --- | --- |
+| **[!UICONTROL Moyenne cumulée]** | Renvoie la moyenne des N dernières lignes. |
+| **[!UICONTROL Somme]** | Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension) |
+| **[!UICONTROL Exposant]** | Renvoie *e* élevé à la puissance d’un nombre donné. |
+| **[!UICONTROL Moyenne]** | Renvoie la moyenne arithmétique, ou moyenne, pour une mesure. |
+| **[!UICONTROL Quartile]** | Renvoie le quartile des valeurs pour une mesure. Par exemple, les quartiles peuvent être utilisés pour trouver les 25 % de produits générant le plus de recettes. |
+
+{style=&quot;table-layout:auto&quot;}
+
+Voici un exemple de la moyenne cumulée de la mesure Recettes :
+
+![](assets/combo-cumul-avg.png)
+
+Voici un exemple de graphique combiné avec les fonctions Moyenne cumulée et Moyenne cumulée :
+
+![](assets/combo-two-functions.png)
+
+## Paramètres des graphiques combinés
+
+Cliquez sur l’icône d’engrenage en haut à droite d’un graphique combiné pour en modifier les paramètres.
+
+![](assets/combo-settings.png)
+
+| Paramètre | Définition |
+| --- | --- |
+| **[!UICONTROL Général]** |  |
+| **[!UICONTROL Pourcentages]** | Affiche les valeurs en pourcentages. |
+| **[!UICONTROL Légende visible]** | Permet de masquer le texte de légende détaillé pour la visualisation des graphiques en courbes. |
+| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. |
+| **[!UICONTROL Recouvrements]** | Afficher ou masquer les barres sur les lignes. |
+| **[!UICONTROL Axe]** |  |
+| **[!UICONTROL Afficher l’axe double]** | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
+| **[!UICONTROL Normalisation]** | Force les mesures en proportions égales. Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
+| **[!UICONTROL Afficher l’axe X]** | Affichez l’axe X ou masquez-le. |
+| **[!UICONTROL Afficher l’axe Y]** | Affichez l’axe des ordonnées ou masquez-le. |
+| **[!UICONTROL Axe Y de l’ancre à zéro]** | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
+
+{style=&quot;table-layout:auto&quot;}
 
 
