@@ -3,13 +3,13 @@ description: Permet de visualiser facilement les données de comparaison dans An
 title: Visualisation des diagrammes en courbes
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 34%
 
 ---
-
 
 # Graphique combo
 
@@ -47,8 +47,8 @@ Gardez à l’esprit que vous pouvez
    | Type de comparaison de lignes | Définition |
    | --- | --- |
    | **[!UICONTROL Comparaison de temps]** | Type de comparaison le plus courant : comparaison de cette période à il y a 4 semaines, par exemple. Si vous avez sélectionné [!UICONTROL Comparaison des heures], effectuez une sélection secondaire pour connaître la période à comparer.<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL Mesure supplémentaire]** | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure.<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL Fonction]** | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des fonctions prises en charge ci-dessous.<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL Mesure secondaire]** | Vous pouvez, par exemple, comparer des [!UICONTROL Recettes] à une autre mesure.<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ Cliquez sur l’icône d’engrenage en haut à droite d’un graphique combiné
 | **[!UICONTROL Axe Y de l’ancre à zéro]** | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
 
 {style=&quot;table-layout:auto&quot;}
-
-
