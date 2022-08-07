@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
 source-wordcount: '3448'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Date | Description |
 | --- | --- |
 | **Juin 2022** |  |
-| Variables de marchandisage dans XDM pour Edge Collection | Documentation sur [Prise en charge des variables de marchandisage dans XDM pour Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=fr) |
+| Variables de marchandisage dans XDM pour Edge Collection | Documentation sur la [prise en charge des variables de marchandisage dans XDM pour Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=fr) |
 | Documentation sur Experience Platform Edge | Nouveaux articles sur l’implémentation d’Adobe Analytics via le [SDK Web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=fr), le [SDK Mobile](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=fr) et l’[API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=fr). |
 | Mise à jour de la documentation sur la visualisation de flux | En fonction de la [nouvelle interface utilisateur](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=fr) |
-| Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Workspace dans les cartes de performance mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=fr). |
+| Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Analysis Workspace dans les cartes de performance mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=fr). |
 | Documentation sur la version de syntaxe de produit des variables de marchandisage avec Edge Collection | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe de produit en définissant les champs XDM correspondants. Vous trouverez plus de détails sur la syntaxe de produit pour les variables de marchandisage [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Consultez les mappages pour la syntaxe de produit [ici](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr#aep-edge). |
 | **Mai 2022** |  |
 | Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Consultez la documentation pour savoir quels champs XDM correspondent aux rapports de cycle de vie mobile existants. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) |
