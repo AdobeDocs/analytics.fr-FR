@@ -5,9 +5,9 @@ title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 Questions fréquentes sur les flux de données.
 
-## Les noms de flux doivent-ils être uniques ?{#unique}
+## Les noms de flux doivent-ils être uniques ? {#unique}
 
 Les noms de fichiers des flux de données se composent de l’identifiant de la suite de rapports et de la date. Si deux flux sont configurés avec le même identifiant de suite de rapports et la ou les mêmes dates, ils auront le même nom de fichier. Si ces deux flux sont diffusés au même endroit, un fichier remplacera l’autre. Pour éviter que cela ne se produise, vous ne pouvez pas créer de flux qui puisse potentiellement remplacer un flux existant situé au même endroit.
 
-Si vous essayez de créer un flux lorsqu’un autre flux portant le même nom de fichier existe déjà, un message d’erreur s’affiche. Tenez compte des solutions suivantes :
+Lorsque vous essayez de créer un flux alors qu’un autre flux doté du même nom de fichier existe déjà, un message d’erreur s’affiche. Prenons les exemples de solution suivants :
 
 * Modifier le chemin de diffusion
 * Si possible, modifiez les dates
@@ -97,5 +97,5 @@ Cependant, les objets n’héritent pas des autorisations du compartiment parent
 
 >[!NOTE]
 >
->Adobe Analytics ne détermine pas si le compartiment a une stratégie qui nécessite de donner au propriétaire du compartiment le contrôle total des nouveaux objets, ni même si le propriétaire du compartiment se trouve dans un compte différent de celui de l’utilisateur qui écrit les données. À la place, Analytics ajoute automatiquement le propriétaire du compartiment à la variable `BucketOwnerFullControl` Liste de contrôle d’accès avec chaque chargement de flux.
+>Adobe Analytics ne détermine pas si le compartiment a une politique qui oblige à donner au propriétaire du compartiment le contrôle total des nouveaux objets, ou même si le propriétaire se trouve sur un compte différent de celui de l’utilisateur qui écrit les données. Au lieu de cela, Analytics ajoute automatiquement le propriétaire du compartiment à la liste de contrôle d’accès `BucketOwnerFullControl` avec chaque téléchargement de flux.
 
