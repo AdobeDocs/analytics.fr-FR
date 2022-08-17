@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 73%
+source-wordcount: '602'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 
 ## Produits utilisant le SDK Web
 
-Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous plusieurs champs XDM :
+Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
 
 * La catégorie est mappée à `productListItems[].lineItemId`.
 * Le produit est mappé sur `productListItems[].name`.
@@ -31,8 +31,7 @@ Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->`lineItemId` doit être ajouté en tant que champ personnalisé, car il ne fait pas partie du schéma d’événement Analytics standard. Nous ajouterons un champ &quot;catégorie&quot; dédié à l&#39;avenir.
-
+>`lineItemId` doit être ajouté en tant que champ personnalisé, car il ne fait pas encore partie du schéma d’événement Analytics standard. Adobe prévoit d&#39;ajouter un champ &quot;Catégorie&quot; dédié à l&#39;avenir.
 
 ## Produits utilisant l’extension Adobe Analytics
 

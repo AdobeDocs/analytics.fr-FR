@@ -2,10 +2,10 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: ht
-source-wordcount: '1342'
-ht-degree: 100%
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+workflow-type: tm+mt
+source-wordcount: '1349'
+ht-degree: 99%
 
 ---
 
@@ -16,15 +16,15 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | Chemin d’accès au champ XDM | Dimension et description d’Analytics |
 | --- | --- |
 | `application.isClose` | Permet de définir la mesure mobile [Blocages](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.isInstall` | Permet de déterminer quand augmenter la mesure mobile [Premiers lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.isLaunch` | Permet de déterminer quand augmenter la mesure mobile [Premiers lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.closeType` | Détermine si un événement de fermeture est un blocage ou non. Les valeurs valides sont les suivantes : `close` (Une session de cycle de vie se termine et un événement pause a été reçu pour la session précédente) et `unknown` (Une session de cycle de vie se termine sans événement pause). Aide à définir la mesure des [accidents](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.isInstall` | Mesure mobile [Installations](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.isLaunch` | Mesure mobile [Lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
+| `application.isInstall` | Permet de déterminer quand augmenter la mesure mobile [Premiers lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Permet de déterminer quand augmenter la mesure mobile [Premiers lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.closeType` | Détermine si un événement de fermeture est un blocage ou non. Les valeurs valides sont les suivantes : `close` (Une session de cycle de vie se termine et un événement pause a été reçu pour la session précédente) et `unknown` (Une session de cycle de vie se termine sans événement pause). Aide à définir la mesure des [accidents](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isInstall` | Mesure mobile [Installations](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.isLaunch` | Mesure mobile [Lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `application.name` | Permet de définir la dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
-| `application.isUpgrade` | Mesure mobile [Mises à niveau](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
-| `application.version` | Permet de définir la dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
-| `application.sessionLength` | La mesure mobile de [durée de la session précédente](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
+| `application.isUpgrade` | Mesure mobile [Mises à niveau](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
+| `application.version` | Permet de définir la dimension mobile [ID de l’application](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `application.sessionLength` | La mesure mobile de [durée de la session précédente](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics). |
 | `commerce.checkouts.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure [Passages en caisse](../../components/metrics/checkouts.md). |
 | `commerce.checkouts.value` | Incrémente la mesure [Passages en caisse](../../components/metrics/checkouts.md) de la quantité souhaitée. |
 | `commerce.order.currencyCode` | Définit la variable de configuration [currencyCode](../vars/config-vars/currencycode.md). |
@@ -40,7 +40,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | `commerce.productViews.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure [Vues des produits](../../components/metrics/product-views.md). |
 | `commerce.productViews.value` | Incrémente la mesure [Consultations de produit](../../components/metrics/product-views.md). |
 | `commerce.purchases.value` | Incrémente la mesure [Commandes](../../components/metrics/orders.md). |
-| `device.model` | La dimension mobile [Nom de l’appareil](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
+| `device.model` | La dimension mobile [Nom de l’appareil](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `device.colorDepth` | Permet de définir la dimension [Profondeur de la couleur](../../components/dimensions/color-depth.md). |
 | `device.screenHeight` | Permet de définir la dimension [Résolution du moniteur.](../../components/dimensions/monitor-resolution.md) |
 | `device.screenWidth` | Permet de définir la dimension [Résolution du moniteur.](../../components/dimensions/monitor-resolution.md) |
@@ -51,16 +51,16 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | `environment.browserDetails.userAgent` | Utilisé comme méthode d’identification [visiteur unique](../../components/metrics/unique-visitors.md) de secours. Généralement renseignée à l’aide de l’en-tête de requête HTTP `User-Agent`. Vous pouvez associer ce champ à une eVar si vous souhaitez l’utiliser dans des rapports. |
 | `environment.browserDetails.viewportHeight` | Définit la dimension [Hauteur du navigateur](../../components/dimensions/browser-height.md). |
 | `environment.browserDetails.viewportWidth` | Définit la dimension [Largeur du navigateur](../../components/dimensions/browser-width.md). |
-| `environment.carrier` | La dimension mobile [Nom de l’opérateur](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
+| `environment.carrier` | La dimension mobile [Nom de l’opérateur](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `environment.connectionType` | Permet de définir la dimension [Type de connexion](../../components/dimensions/connection-type.md). |
 | `environment.ipV4` | Utilisé comme méthode d’identification [visiteur unique](../../components/metrics/unique-visitors.md) de secours. Généralement renseignée à l’aide de l’en-tête HTTP `X-Forwarded-For`. |
 | `environment.language` | La dimension mobile Paramètres régionaux. |
-| `environment.operatingSystem` | La dimension mobile [Système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
-| `environment.operatingSystemVersion` | Permet de définir la dimension [Version du système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#dimensions). |
+| `environment.operatingSystem` | La dimension mobile [Système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
+| `environment.operatingSystemVersion` | Permet de définir la dimension [Version du système d’exploitation](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | Définit la dimension [eVar](../../components/dimensions/evar.md) correspondante. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | Le délimiteur utilisé pour une [prop de liste](../vars/page-vars/prop.md#list-props) donnée. |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Un tableau de chaînes contenant les valeurs correspondantes de [prop de liste](../vars/page-vars/prop.md#list-props). |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | Définit la [variable de liste](../vars/page-vars/list.md) correspondante. |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatène tous les `value` chaînes dans chaque `list[]` de [Variable de liste](../vars/page-vars/list.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Définit la dimension [prop](../../components/dimensions/prop.md) correspondante. |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure correspondante des [événements personnalisés](../../components/metrics/custom-events.md). |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrémente la mesure correspondante des [événements personnalisés](../../components/metrics/custom-events.md) par la quantité désirée. |
