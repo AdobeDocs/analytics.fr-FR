@@ -3,16 +3,16 @@ title: DMA États-Unis
 description: Zone de marché désignée de l’accès.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 97%
 
 ---
 
 # DMA États-Unis
 
-La dimension « DMA États-Unis » indique la zone de marché désignée (ou DMA) du visiteur. Elle est basée sur les marchés des médias compilés par [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/).
+La dimension « DMA États-Unis » indique la zone de marché désignée (ou DMA) du visiteur. Elle est basée sur les marchés des médias compilés par [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Renseignement de cette dimension avec des données
 
