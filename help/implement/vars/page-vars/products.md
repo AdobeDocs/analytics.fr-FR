@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 74%
+source-wordcount: '611'
+ht-degree: 73%
 
 ---
 
@@ -23,7 +23,7 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
 
 * La catégorie est mappée à `productListItems[].lineItemId`.
-* Le produit est mappé sur `productListItems[].name`.
+* Le produit est mappé sur `productListItems[].SKU` ou `productListItems[].name`. Si les deux champs XDM sont présents, `productListItems[].SKU` est utilisée.
 * La quantité est mappée sur `productListItems[].quantity`.
 * Le prix est mappé sur `productListItems[].priceTotal`.
 * Les eVars de marchandisage sont mappées à `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.

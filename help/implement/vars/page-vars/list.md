@@ -3,10 +3,10 @@ title: list
 description: Variables personnalisées qui contiennent plusieurs valeurs dans le même accès.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ Les variables de liste sont [mappé pour Adobe Analytics](https://experienceleag
     }
 }
 ```
+
+>[!NOTE]
+>
+>Le schéma XDM d’Adobe contient `key` en plus des objets `value` objets dans chaque `list[]` tableau. Adobe n’utilise pas ces `key` lors de l’envoi de données à Adobe Analytics.
 
 Si votre organisation a besoin d’un délimiteur différent d’une virgule (&#39;`,`&quot;), vous pouvez transmettre la chaîne de liste entière, y compris les délimiteurs souhaités, dans un champ XDM personnalisé. Assurez-vous que la variable de liste est configurée pour accepter le délimiteur de votre choix dans [Paramètres de la suite de rapports](/help/admin/admin/conversion-var-admin/list-var-admin.md).
 
