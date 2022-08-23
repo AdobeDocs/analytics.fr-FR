@@ -3,10 +3,10 @@ title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
 
 Adobe recommande d’utiliser la variable [Adobe de la couche de données client](https://github.com/adobe/adobe-client-data-layer/wiki) pour les mises en oeuvre nouvelles ou restructurées.
 
-Votre entreprise peut utiliser librement d’autres spécifications de couche de données, telles que la variable [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf)ou une autre couche de données personnalisée entièrement. L’alignement sur une couche de données cohérente répondant aux besoins de votre entreprise est le plus important.
-
-
-
-Utilisez le rapport [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf) pour plus d’informations sur chaque objet et sous-objet. Tous les sites n’utilisent pas tous les objets. Par exemple, si vous hébergez un site d’actualités, il est peu probable que vous ayez recours au tableau d’objets `digitalData.product`.
+Votre entreprise peut utiliser librement d’autres spécifications de couche de données, telles que la variable [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf), ou une autre spécification personnalisée entièrement. L’alignement sur une couche de données cohérente répondant aux besoins de votre entreprise est le plus important.
 
 Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
 
