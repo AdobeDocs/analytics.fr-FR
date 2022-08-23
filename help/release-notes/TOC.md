@@ -5,7 +5,7 @@ user-guide-title: Notes de mise à jour d’Analytics
 breadcrumb-title: Notes de mise à jour
 user-guide-description: Liste des descriptions des nouvelles fonctionnalités et des correctifs.
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
 ht-degree: 100%
 
