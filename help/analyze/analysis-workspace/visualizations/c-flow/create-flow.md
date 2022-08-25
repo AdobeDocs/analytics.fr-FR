@@ -4,10 +4,10 @@ title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+source-git-commit: c0e590dab9e45768cf8f8bd20f17d7f5306f41bd
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 23%
+source-wordcount: '1388'
+ht-degree: 96%
 
 ---
 
@@ -15,70 +15,70 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->Cette nouvelle version de la fonction [!UICONTROL Flux] la visualisation fait actuellement l’objet de tests limités.
+>Cette nouvelle version de la visualisation [!UICONTROL Flux] fait actuellement l’objet de tests limités.
 
-La visualisation Flux mise à jour vous permet de comprendre le parcours qui résulte d’un événement de conversion spécifique ou qui en résulte sur votre site web ou votre application. Il trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Le flux vous permet de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
+La visualisation Flux mise à jour vous permet de comprendre le parcours qui résulte ou qui mène à un événement de conversion spécifique sur votre site web ou votre application. Elle trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Le flux vous permet de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
 
-La nouvelle [!UICONTROL flow] expérience améliore votre workflow de plusieurs façons :
+La nouvelle expérience [!UICONTROL flux] améliore votre workflow de plusieurs façons :
 
 * Vous pouvez désormais choisir de commencer ou de terminer votre chemin par la combinaison d’une mesure et d’une dimension de cheminement.
-* Contient [!UICONTROL Paramètres avancés] pour vous permettre de personnaliser davantage le [!UICONTROL flow].
-* Le nouveau bouton &quot;Créer&quot; permet de gagner du temps dans l’analyse en vous permettant de configurer le parcours en une seule fois, puis d’effectuer des requêtes, puis de créer automatiquement plusieurs colonnes et noeuds à la fois &#x200B;.
+* Cette expérience contient des [!UICONTROL Paramètres avancés] pour vous permettre de personnaliser davantage le [!UICONTROL flux].
+* Le nouveau bouton « Créer » permet de gagner du temps dans l’analyse en vous permettant de configurer le parcours en une seule fois, puis d’effectuer des requêtes, et de créer automatiquement plusieurs colonnes et nœuds à la fois.
 
 ![nouvelle interface utilisateur de flux](assets/new-flow.png)
 
 ## Étapes de configuration {#configure}
 
-1. Pour commencer à créer un diagramme de flux, ajoutez un panneau vierge à votre projet, puis cliquez sur l’icône Visualisations dans le rail de gauche. Faites ensuite glisser la visualisation Flux dans le panneau. Ou faites glisser le [!UICONTROL Flux] visualisation dans un projet existant.
+1. Pour commencer à créer un diagramme de flux, ajoutez un panneau vierge à votre projet, puis cliquez sur l’icône Visualisations dans le rail de gauche. Faites ensuite glisser la visualisation Flux dans le panneau. Vous pouvez aussi faire glisser la visualisation [!UICONTROL Flux] dans un projet existant.
 
-1. Ancrer votre visualisation Flux à l’aide de l’une des trois options suivantes :
+1. Ancrez votre visualisation Flux à l’aide de l’une des trois options suivantes :
 
    * [!UICONTROL Commence par] (mesures, dimensions ou éléments) ou
    * [!UICONTROL Contient] (dimensions ou éléments) ou
    * [!UICONTROL Se termine par] (mesures, dimensions ou éléments)
 
-   Chacune de ces catégories est présentée à l’écran comme une « zone de dépôt ». Vous pouvez remplir la zone de dépôt de trois manières :
+   Chacune de ces catégories est présentée à l’écran comme une « zone de dépôt ». Il existe 3 manières de renseigner la zone de dépôt :
 
-   * Utilisez le menu déroulant pour sélectionner des mesures ou des dimensions.
-   * Faites glisser des éléments de la liste des dimensions ou mesures.
-   * Utilisez la recherche pour rechercher les mesures ou la dimension que vous recherchez.
+   * Utiliser le menu déroulant pour sélectionner des mesures ou des dimensions.
+   * Faire glisser des éléments depuis la liste de dimensions ou de mesures.
+   * Effectuer une recherche pour trouver les mesures ou la dimension souhaitée(s).
 
-   Supposons, par exemple, que vous souhaitiez tracer tout ce qui mène à un événement de passage en caisse. Faites glisser une dimension ou une mesure liée à l’extraction (telle que [!UICONTROL L’ordre existe]) dans le **[!UICONTROL Se termine par]** zone de dépôt.
+   Supposons, par exemple, que vous souhaitiez suivre tout ce qui mène à un événement de passage en caisse. Faites glisser une dimension ou une mesure liée au passage en caisse (telle que [!UICONTROL La commande existe]) dans la zone de dépôt **[!UICONTROL Se termine par]**.
 
 1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL Dimension de cheminement], comme illustré ici, que vous utiliserez pour créer le chemin. La valeur par défaut est [!UICONTROL Page].
 
-   ![dimension de cheminement](assets/pathing-dim.png)
+   ![dimension du cheminement](assets/pathing-dim.png)
 
    >[!IMPORTANT]
    >
-   >Les mesures calculées ne peuvent pas être déposées dans la variable  **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]** zones de dépôt.
+   >Les mesures calculées ne peuvent pas être déposées dans les zones de dépôt **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]**.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** pour configurer les paramètres avancés :
+1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** pour configurer les paramètres avancés :
 
    ![paramètres avancés](assets/adv-settings.png)
 
    | Paramètre | Description |
    | --- | --- |
-   | **[!UICONTROL Envoi d’étiquettes]** | Habituellement, les étiquettes sur les éléments de flux sont tronquées pour gagner de l’espace à l’écran, mais vous pouvez afficher l’étiquette complète en cochant cette case.  Valeur par défaut = non coché. |
-   | **[!UICONTROL Inclure les instances répétées]** | Les visualisations de flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des rechargements de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. Valeur par défaut = non coché. |
-   | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent/se terminent par la première/dernière occurrence d’une dimension/élément/mesure. Consultez la section ci-dessous intitulée &quot;Exemple de scénario pour &quot;limite à la première/dernière occurrence&quot; pour une explication plus détaillée. |
+   | **[!UICONTROL Développer les étiquettes]** | Habituellement, les étiquettes sur les éléments de flux sont tronquées pour gagner de l’espace à l’écran, mais vous pouvez afficher l’étiquette complète en cochant cette case.  Valeur par défaut = non coché. |
+   | **[!UICONTROL Inclure des instances de répétition]** | Les visualisations de flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des rechargements de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. Valeur par défaut = non coché. |
+   | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent/se terminent par la première/dernière occurrence d’une dimension/élément/mesure. Consultez la section « Exemple de scénario de limitation à la première/dernière occurrence »ci-dessous pour en savoir plus. |
    | **[!UICONTROL Nombre de colonnes]** | Détermine le nombre de colonnes souhaité dans le diagramme Flux. |
    | **[!UICONTROL Éléments développés par colonne]** | Nombre d’éléments à inclure dans chaque colonne. |
    | **[!UICONTROL Conteneur de flux]** | <ul><li>Visite</li><li>Visiteur</li></ul> Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-## Affichage et modification de la sortie Flux {#output}
+## Afficher et modifier la sortie Flux {#output}
 
 ![sortie de flux](assets/flow-output.png)
 
 Un résumé de la configuration Flux s’affiche en haut du diagramme. Les tracés dans le diagramme sont proportionnels. Les tracés plus épais sont ceux pour lesquels l’activité est la plus intense.
 
-Pour approfondir l’analyse des données, vous disposez de plusieurs options :
+Pour approfondir l’analyse des données, vous disposez de plusieurs options :
 
 * Le diagramme de flux est interactif. Pointez sur le diagramme pour modifier les détails présentés.
 
-* Si vous cliquez sur un nœud du diagramme, les détails correspondants s’affichent. Cliquez à nouveau sur le noeud pour le réduire.
+* Si vous cliquez sur un nœud du diagramme, les détails correspondants s’affichent. Cliquez de nouveau sur le nœud pour le réduire.
 
    ![node-details](assets/node-details.png)
 
@@ -94,13 +94,13 @@ Pour approfondir l’analyse des données, vous disposez de plusieurs options :
 
 ## Filtrage
 
-Au-dessus de chaque colonne, un filtre s’affiche lorsque vous pointez dessus. En cliquant sur le filtre, vous obtenez la même boîte de dialogue de filtre qui existe actuellement dans le tableau à structure libre. Ce filtre fonctionne de la même manière que dans le tableau à structure libre.
+Un filtre apparaît au-dessus de chaque colonne lorsque vous le survolez avec votre curseur. En cliquant sur le filtre, vous verrez s’afficher une boîte de dialogue de filtre identique à celle qui se trouve actuellement dans le tableau à structure libre. Ce filtre fonctionne de la même manière que celui du tableau à structure libre.
 
-* Utilisez les paramètres avancés pour inclure ou exclure certains critères avec notre liste d&#39;opérateurs.
-* Une fois que vous avez filtré un élément de la liste, cette colonne spécifique reflète le filtrage. (Le filtre le réduit pour afficher uniquement l’élément autorisé dans le filtre ou supprime tous les éléments, à l’exception de celui que vous souhaitez dans le filtre.
-* Toutes les colonnes en aval et en amont doivent persister tant que les données se déversent dans les noeuds restants.
-* Une fois appliquée, l’icône de filtre apparaît en bleu au-dessus de la colonne qu’elle filtre.
-* Pour supprimer un filtre, cliquez sur l’icône de filtre pour ouvrir le menu de filtre. Supprimez les filtres appliqués, puis cliquez sur **[!UICONTROL Enregistrer]**. Le flux doit revenir à son état précédent, non filtré.
+* Utilisez les paramètres avancés pour inclure ou exclure certains critères avec notre liste d’opérateurs.
+* Une fois que vous avez filtré un élément de la liste, la colonne en question reflète le filtrage. (Le filtre la réduit et affiche uniquement l’élément autorisé dans le filtre ou supprime tous les éléments à l’exception de celui que vous avez sélectionné dans le filtre.)
+* Toutes les colonnes en aval et en amont doivent être conservées tant que les données alimentent les nœuds restants.
+* Une fois appliquée, l’icône de filtre devient bleue au-dessus de la colonne filtrée.
+* Pour supprimer un filtre, cliquez sur l’icône de filtre pour en ouvrir le menu. Supprimez les filtres appliqués, puis cliquez sur **[!UICONTROL Enregistrer]**. Le flux doit revenir à son état précédent, c’est-à-dire non filtré.
 
 ## Options du menu contextuel {#right-click}
 
@@ -113,42 +113,47 @@ Au-dessus de chaque colonne, un filtre s’affiche lorsque vous pointez dessus. 
 | [!UICONTROL Tendance] | Permet de créer un diagramme de tendance pour le nœud. |
 | [!UICONTROL Développer toute la colonne] | Permet de développer une colonne pour afficher tous les nœuds. Par défaut, seuls les cinq premiers nœuds sont présentés. |
 | [!UICONTROL Réduire toute la colonne] | Permet de masquer tous les nœuds d’une colonne. |
-| [!UICONTROL Exclure un élément]/[!UICONTROL Restaurer les éléments exclus] | Supprime un noeud spécifique de la colonne et le crée automatiquement en tant que filtre en haut de la colonne. Pour restaurer l’élément exclu, cliquez de nouveau avec le bouton droit de la souris et sélectionnez **[!UICONTROL Restaurer un élément exclu]**. vous pouvez également ouvrir le filtre dans la partie supérieure de la colonne et supprimer le cadre de contrôle avec l’élément que vous venez d’exclure. |
+| [!UICONTROL Exclure un élément]/[!UICONTROL Restaurer les éléments exclus] | Supprime un nœud donné de la colonne et le transforme automatiquement en filtre en haut de la colonne. Pour restaurer l’élément exclu, cliquez de nouveau avec le bouton droit de la souris et sélectionnez **[!UICONTROL Restaurer un élément exclu]**. Vous pouvez également ouvrir le filtre en haut de la colonne et supprimer le rectangle contenant l’élément que vous venez d’exclure. |
 
-## Exemple de scénario pour &quot;limiter à la première/dernière occurrence&quot;
+## Exemple de scénario de limitation à la première/dernière occurrence
 
-Lorsque vous utilisez cette option, gardez à l’esprit que :
+Lorsque vous utilisez cette option, gardez à l’esprit que :
 
-* **[!UICONTROL Limiter à la première/dernière occurrence]** compte uniquement la première ou la dernière occurrence de la série. Toutes les autres occurrences de la variable **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]** Les critères sont ignorés.
-* Si utilisé avec une **[!UICONTROL Commence par]** , seule la première occurrence correspondant au critère de début est incluse.
-* Si utilisé avec une **[!UICONTROL Se termine par]** , seule la dernière occurrence correspondant au critère de fin sera incluse.
-* La série utilisée diffère selon le conteneur. Si vous utilisez la variable **[!UICONTROL Visite]** , la série d’accès correspond à la session . Si vous utilisez la variable **[!UICONTROL Visiteur]** , la série d’accès correspond à tous les accès d’un utilisateur donné dans la période fournie.
-* Le **[!UICONTROL Limiter à la première/dernière occurrence]** peut être configurée dans les paramètres avancés lors de l’utilisation d’une mesure ou d’un élément de Dimension dans les champs &quot;Commence par&quot; ou &quot;Se termine par&quot;.
+* **[!UICONTROL Limiter à la première/dernière occurrence]** compte uniquement la première ou la dernière occurrence de la série. Toutes les autres occurrences du critère **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]** sont ignorées.
+* Si vous utilisez cette option avec un flux **[!UICONTROL Commence par]**, seule la première occurrence correspondant au critère de début est incluse.
+* Si vous utilisez cette option avec un flux **[!UICONTROL Se termine par]**, seule la dernière occurrence correspondant au critère de fin est incluse.
+* La série utilisée diffère en fonction du conteneur. Si vous utilisez le conteneur de **[!UICONTROL visites]**, la série d’accès correspond à la session. Si vous utilisez le conteneur de **[!UICONTROL visiteurs]**, la série d’accès correspond à tous les accès d’un utilisateur donné dans la période fournie.
+* L’option **[!UICONTROL Limiter à la première/dernière occurrence]** peut être configurée dans les paramètres avancés lors de l’utilisation d’un élément de mesure ou de dimension dans les champs « Commence par » ou « Se termine par ».
 
-Exemple de série d’accès :
+Exemple de série d’accès :
 
 Accueil > Produits > Ajouter au panier > Produits > Ajouter au panier > Facturation > Confirmation de commande
 
-### Examinez une analyse de flux à l’aide des paramètres suivants :
+### Prenons une analyse de flux aux paramètres suivants :
 
-* Commencer par[!UICONTROL  Ajouter au panier] (Élément de Dimension)
-* [!UICONTROL Page] dimension de cheminement
-* [!UICONTROL Visite] container
-
-Si &quot;Limiter à la première/dernière occurrence&quot; est désactivé, cette seule série d’accès comptabilise 2 occurrences de &quot;Ajouter au panier&quot;.
-Sortie de flux attendue : &quot;Ajouter au panier&quot; (2) —> &quot;Produits&quot; (1) -> &quot;Facturation&quot; (1)
-
-Cependant, si l’option &quot;Limiter à la première/dernière occurrence&quot; est activée, seule la première occurrence de &quot;Ajouter au panier&quot; est incluse dans l’analyse.
-Sortie de flux attendue : &quot;Ajouter au panier&quot; (1) —> &quot;Produits&quot; (1)
-
-### Tenez compte de la même série d’accès, mais en utilisant les paramètres suivants :
-
-* Se termine par [!UICONTROL Ajouter au panier] (Élément de Dimension)
-* [!UICONTROL Page] dimension de cheminement
-* [!UICONTROL Visite] container
+* Commencer par [!UICONTROL Ajouter au panier] (élément de dimension)
+* Dimension du cheminement [!UICONTROL Page]
+* Conteneur de [!UICONTROL visites]
 
 If **[!UICONTROL Limiter à la première/dernière occurrence]** is *disabled*, cette série unique d’accès comptabilise 2 occurrences de &quot;Ajouter au panier&quot;.
-Sortie de flux attendue : &quot;Produits&quot; (2) &lt;— &quot;Ajouter au panier&quot; (2)
+Sortie de flux attendue :
+« Ajouter au panier » (2) —> « Produits » (1)
+-> « Facturation » (1)
 
-Cependant, si **[!UICONTROL Limiter à la première/dernière occurrence]** is *enabled*, seule la dernière occurrence de [!UICONTROL Ajouter au panier] serait inclus dans l’analyse.
-Sortie de flux attendue : &quot;Produits&quot; (1) &lt;— &quot;Ajouter au panier&quot; (1)
+Cependant, si **[!UICONTROL Limiter à la première/dernière occurrence]** is *enabled*, seule la première occurrence de &quot;Ajouter au panier&quot; est incluse dans l’analyse.
+Sortie de flux attendue :
+« Ajouter au panier » (1) —> « Produits » (1)
+
+### Prenons la même série d’accès, mais avec les paramètres suivants :
+
+* Se termine par [!UICONTROL Ajouter au panier] (élément de dimension)
+* Dimension du cheminement [!UICONTROL Page]
+* Conteneur de [!UICONTROL visites]
+
+Si l’option **[!UICONTROL Limiter à la première/dernière occurrence]** est *désactivée*, cette seule série d’accès comptabilise alors 2 occurrences d’« Ajouter au panier ».
+Sortie de flux attendue :
+« Produits » (2) &lt;— « Ajouter au panier » (2)
+
+Cependant, si l’option **[!UICONTROL Limiter à la première/dernière occurrence]** est *activée*, seule la dernière occurrence d’[!UICONTROL Ajouter au panier] est incluse dans l’analyse.
+Sortie de flux attendue :
+« Produits » (1) &lt;— « Ajouter au panier » (1)
