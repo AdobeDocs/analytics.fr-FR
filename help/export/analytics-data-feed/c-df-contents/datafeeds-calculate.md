@@ -4,7 +4,7 @@ keywords: Flux de données;traitement;mesures;colonne « pre »;colonne « po
 title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 >[!NOTE]
 >
->Les accès qui sont exclus d’Adobe Analytics en temps normal sont inclus dans les flux de données. Utilisez `exclude_hit > 0` pour supprimer les accès exclus des requêtes sur les données brutes. Les données sourcées sont également incluses dans les flux de données. Si vous souhaitez exclure les sources de données, excluez toutes les lignes comportant `hit_source = 5,7,8,9`.
+>Les accès qui sont exclus d’Adobe Analytics en temps normal sont inclus dans les flux de données. Utilisez `exclude_hit = 0` pour supprimer les accès exclus des requêtes sur les données brutes. Les données sourcées sont également incluses dans les flux de données. Si vous souhaitez exclure les sources de données, excluez toutes les lignes comportant `hit_source = 5,7,8,9`.
 
 ## Pages vues
 
