@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 75%
+source-wordcount: '909'
+ht-degree: 73%
 
 ---
 
@@ -71,7 +71,7 @@ Le segment sʼaffiche en haut. Remarquez sa barre latérale rayée bleue, par op
 ## Enregistrement des segments rapides
 
 >[!IMPORTANT]
->Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapides, vous devez pour cela utiliser le Créateur de segments classique.
+>Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapides, vous devez pour cela utiliser le Créateur de segments classique. Seuls les administrateurs de produit Adobe Analytics et le créateur du segment rapide peuvent enregistrer les modifications apportées à un segment rapide existant.
 
 1. Une fois que vous avez appliqué le segment rapide, passez la souris dessus et sélectionnez lʼicône dʼinformations (« i »).
 
