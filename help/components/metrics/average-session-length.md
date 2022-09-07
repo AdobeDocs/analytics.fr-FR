@@ -3,16 +3,16 @@ title: Durée de session moyenne (mobile)
 description: Durée de session moyenne de l’appareil mobile.
 feature: Metrics
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '81'
-ht-degree: 100%
+source-git-commit: 47d5a532505aff48d43972836c78620870bd8221
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Durée de session moyenne (mobile)
 
-La mesure « Durée de session moyenne (mobile) » indique la durée moyenne de présence d’un élément de dimension donné par élément de dimension. Elle est similaire à la mesure [Temps moyen passé sur le site](average-time-on-site.md), sauf que cette mesure utilise des composants spécifiques au SDK mobile dans le cadre de son calcul.
+La mesure « Durée de session moyenne (mobile) » indique la durée moyenne de présence d’un élément de dimension donné par élément de dimension. Elle est similaire au [Durée de la visite [secondes]](https://experienceleague.adobe.com/docs/analytics/components/metrics/time-spent-per-visit.html) , à la différence que cette mesure utilise des composants spécifiques au SDK mobile dans le cadre de son calcul.
 
 ## Méthode de calcul de cette mesure
 
