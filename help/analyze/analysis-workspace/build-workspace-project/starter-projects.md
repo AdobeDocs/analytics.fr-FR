@@ -4,9 +4,9 @@ title: Modèles
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1410'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1313'
 ht-degree: 100%
 
 ---
@@ -123,19 +123,15 @@ Regardez cette vidéo sur le modèle [!UICONTROL Tutoriel de formation] :
 
 ### Personnes
 
->[!NOTE]
->
->Le modèle Personnes et la mesure Personnes associée peuvent être utilisés uniquement dans le cadre d’[Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=fr).
+Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit ::
 
-Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit :
-
-* Segmenter vos données pour les États-Unis/le Canada et le reste du monde. Device Co-op est actuellement uniquement disponible aux États-Unis.
-* Comparer côte à côte les mesures Personnes et Visiteurs uniques.
-* Afficher le « taux de compression », une mesure calculée qui détermine à quel point le résultat de la mesure Personnes, en pourcentage, est plus petit que celui de la mesure Visiteurs uniques.
+* Segmenter vos données pour les États-Unis/le Canada et le reste du monde
+* Comparer côte à côte les mesures Personnes et Visiteurs uniques
+* Afficher le « taux de compression », une mesure calculée qui détermine à quel point le résultat de la mesure Personnes, en pourcentage, est plus petit que celui de la mesure Visiteurs uniques
 * Comparer les nombres totaux de types de périphériques utilisés par vos clients.
-* Afficher le nombre moyen de périphériques utilisés par personne.
-* Découvrir comment utiliser l’empilement des segments avec la mesure Personnes.
-* Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes.
+* Afficher le nombre moyen de périphériques utilisés par personne
+* Découvrir comment utiliser l’empilement des segments avec la mesure Personnes
+* Découvrir comment l’utilisation d’Experience Cloud ID dans votre environnement améliore l’efficacité de la mesure Personnes
 
 ### Journey IQ : modèle dʼanalyses entre appareils
 
@@ -143,10 +139,8 @@ Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de 
 
 Ce modèle vous permet de visualiser des données de performances cruciales entre appareils. Il est disponible uniquement pour les clients qui ont accès à [l’Analyse entre appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=fr) (CDA).
 
-* **Note spéciale à l’intention des membres du graphique Co-op** : Indique la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique Co-op est pris en charge et les régions où il n’est pas pris en charge.
 * **Identification des utilisateurs** : Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses entre appareils.
 * **Mesure de la taille des audiences** : Affiche une comparaison entre « Appareils uniques » et « Personnes ». La proportion entre ces deux nombres est connue sous le nom de « Compression entre appareils », une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
-   * **Utilisation du graphique Co-op ou du graphique Privé** : En général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
    * **Taux de connexion** : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
    * **Couverture d’Experience Cloud ID** : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
    * **Utilisation de plusieurs appareils** : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.

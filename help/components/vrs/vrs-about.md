@@ -3,9 +3,9 @@ description: Les suites de rapports virtuelles segmentent les données Adobe An
 title: Suites de rapports virtuelles - Aperçu
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,6 @@ Les suites de rapports virtuelles bénéficient des avantages suivants :
 * Elles permettent de simplifier l’implémentation en autorisant l’utilisation d’un seul identifiant de suite de rapports dans tous les sites/domaines. Le regroupement de toutes les données dans une seule suite de rapports permet l’analyse des clients à mesure que nous migrons vers la prochaine génération d’Adobe Analytics.
 * Les utilisateurs de votre entreprise n’affichent toujours que les segments de données dont ils ont besoin.
 * Elles renforcent la sécurité en permettant aux utilisateurs administrateurs de contrôler plus facilement et plus précisément l’accès aux données après l’implémentation.
-* Elles fournissent la possibilité de participer à la fonctionnalité Device Co-op.
 * Mesure Personnes.
 * Une vue client unique des données (à l’avenir).
 * La possibilité de créer des suites de rapports virtuelles illimitées pour segmenter les données.

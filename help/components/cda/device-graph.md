@@ -2,23 +2,16 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 92%
 
 ---
 
 # Graphique d’appareil
 
-Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour regrouper les données. Cette méthode utilise le graphique Privé ou le graphique Co-op d’Adobe Experience Platform Identity Service pour regrouper les données. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
-
-## Différences entre le graphique Co-op et le graphique Privé
-
-Adobe offre deux types de graphiques d’appareil dans le cadre du service d’ID :
-
-* **Graphique Co-op** : un référentiel d’ID d’appareils hachés auquel tout client peut contribuer et qu’il peut référencer. Comme ce type de graphique d’appareil est collaboratif, il correspond généralement à plus d’appareils qu’un graphique privé.
-* **Graphique Privé** : un référentiel d’ID d’appareils hachés auquel seule votre entreprise fait référence.
+Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareils hachés propres à votre entreprise. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
 
 ## Conditions préalables spécifiques au graphique d’appareil
 

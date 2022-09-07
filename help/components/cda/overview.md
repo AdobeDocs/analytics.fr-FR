@@ -2,9 +2,9 @@
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ Les analyses entre appareils sont une fonctionnalité qui transforme les analyse
 
 * [**Groupement basé sur les champs**](field-based-stitching.md) : option de regroupement recommandée, car elle utilise uniquement une correspondance déterministe pour relier les appareils.
 Vous permet de choisir une variable Analytics comme base pour le groupement entre appareils dans une suite de rapports virtuelle.
-* [**Graphique d’appareil**](device-graph.md) : les analyses entre appareils communiquent avec un graphique d’appareil pour regrouper les appareils. Le graphique Co-op utilise une correspondance déterministe et probabiliste.
-
->[!NOTE]
->
->Pour en savoir plus sur la [fin de vie de Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=fr).
+* [**Graphique d’appareil**](device-graph.md) : les analyses entre appareils communiquent avec un graphique d’appareil pour regrouper les appareils.
 
 Les analyses entre appareils vous permettent de répondre à des questions telles que :
 

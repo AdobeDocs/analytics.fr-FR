@@ -2,9 +2,9 @@
 title: Modèle CDA Workspace
 description: Décrit chaque champ du modèle CDA dans Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: ht
-source-wordcount: '439'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,8 @@ Un projet Analysis Workspace est créé et contient plusieurs panneaux. Dans la
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **Note spéciale à l’intention des membres du graphique Co-op** : Affiche la partie de votre suite de rapports qui contient des visiteurs dans les régions où le graphique Co-op est pris en charge et les régions où il n’est pas pris en charge.
 * **Identification des utilisateurs** : Indique la fréquence à laquelle les visiteurs de votre site sont identifiés à l’aide de méthodes basées sur les analyses entre appareils.
 * **Mesure de la taille des audiences** : Affiche une comparaison entre « Appareils uniques » et « Personnes ». La proportion entre ces deux nombres est connue sous le nom de « Compression entre appareils », une mesure calculée visible dans ce panneau. Cette mesure de compression dépend d’un large éventail de facteurs :
-   * Utilisation du graphique Co-op ou du graphique Privé : en général, les entreprises qui utilisent le Device Co-op ont tendance à voir de meilleurs taux de compression que les celles qui utilisent le graphique Privé.
    * Taux de connexion : plus les utilisateurs se connectent sur votre site, plus Adobe est en mesure d’identifier et de regrouper les visiteurs entre plusieurs appareils. Les sites qui présentent un faible taux de connexion ont aussi de faibles taux de compression.
    * Couverture d’Experience Cloud ID : seuls les visiteurs avec un ECID peuvent être regroupés. Un pourcentage plus faible de visiteurs qui accèdent à votre site en utilisant un ECID correspond à des taux de compression plus faibles.
    * Utilisation de plusieurs appareils : si les visiteurs qui se rendent sur votre site n’utilisent pas plusieurs appareils, les taux de compression sont plus faibles.
