@@ -2,20 +2,21 @@
 title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 9c9322647145832503e4a5875789e9cf7e9a2397
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analyses entre appareils
 
-Les analyses entre appareils sont une fonctionnalité qui transforme les analyses, en passant d’une vue axée sur l’appareil à une vue axée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge deux workflows globaux pour lier les données des appareils :
+Les analyses entre appareils (CDA) sont une fonctionnalité qui transforme Analytics d’une vue axée sur l’appareil à une vue axée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge deux workflows globaux pour lier les données des appareils :
 
 * [**Groupement basé sur les champs**](field-based-stitching.md) : option de regroupement recommandée, car elle utilise uniquement une correspondance déterministe pour relier les appareils.
 Vous permet de choisir une variable Analytics comme base pour le groupement entre appareils dans une suite de rapports virtuelle.
-* [**Graphique d’appareil**](device-graph.md) : les analyses entre appareils communiquent avec un graphique d’appareil pour regrouper les appareils.
+
+* [**Graphique d’appareil**](device-graph.md): Les analyses entre appareils communiquent avec un graphique privé pour regrouper les appareils.
 
 Les analyses entre appareils vous permettent de répondre à des questions telles que :
 
@@ -36,7 +37,7 @@ Voir [Journey IQ : page de lancement des analyses entre appareils](https://adob
 L’utilisation des analyses entre appareils requiert tous les éléments suivants. Les méthodes [Groupement basé sur les champs](field-based-stitching.md) et [Graphique d’appareil](device-graph.md) comportent également leurs propres conditions préalables.
 
 * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
-* Les analyses entre appareils sont activées sur base des suites de rapports. Adobe recommande une suite de rapports contenant des données interpériphériques, ce qui signifie qu’elles proviennent de plusieurs types d’appareils (Web, applications, etc.). Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique.
+* Votre entreprise choisit les suites de rapports à activer pour les analyses entre appareils. Adobe recommande les suites de rapports qui contiennent des données multi-appareils, ce qui signifie que les données proviennent de plusieurs types d’appareils, de navigateurs ou d’applications. Certaines entreprises considèrent ce concept comme une suite de rapports « globale », bien que les analyses entre appareils ne doivent pas nécessairement être globales du point de vue géographique.
 
 ## Limites
 
