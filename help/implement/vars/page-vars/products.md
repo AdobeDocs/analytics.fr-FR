@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 * La quantité est mappée sur `productListItems[].quantity`.
 * Le prix est mappé sur `productListItems[].priceTotal`.
 * Les eVars de marchandisage sont mappées à `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.
-* Les événements de marchandisage sont associés à `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit.
+* Les événements de marchandisage sont associés à `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit. Si vous définissez un événement dans l’un de ces champs, il est automatiquement inclus dans la variable [event](events/events-overview.md) chaîne envoyée à Adobe Analytics.
 
 >[!NOTE]
 >
