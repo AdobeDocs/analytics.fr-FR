@@ -4,10 +4,10 @@ description: Variables personnalisées liées à des produits individuels.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 75%
+source-wordcount: '541'
+ht-degree: 71%
 
 ---
 
@@ -48,6 +48,10 @@ Les variables de marchandisage de syntaxe de produit sont [mappé pour Adobe Ana
 
 * Les eVars de marchandisage de syntaxe de produit sont mappées sous `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
 * Les événements de marchandisage de syntaxe de produit sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Sérialisation d’événements](events/event-serialization.md) Les champs XDM sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+
+>[!NOTE]
+>
+>Lorsque vous définissez des événements sous `productListItems`, vous n’avez pas besoin de les définir dans la chaîne d’événement. Si elles sont définies aux deux endroits, la valeur de la chaîne d’événement est prioritaire.
 
 L’exemple suivant illustre une seule [product](products.md) utilisation de plusieurs eVars et événements de marchandisage :
 
