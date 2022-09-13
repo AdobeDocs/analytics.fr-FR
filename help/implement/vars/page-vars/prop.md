@@ -3,10 +3,10 @@ title: prop
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 89%
+source-wordcount: '603'
+ht-degree: 73%
 
 ---
 
@@ -24,7 +24,7 @@ Si vous disposez d’un [document de conception de solution](/help/implement/pre
 
 ## Propriétés utilisant le SDK Web
 
-Les props sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous les champs XDM `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`.
+Les props sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. Les propriétés de liste sont spécifiées dans un ensemble distinct de champs.
 
 ## Propriétés utilisant l’extension Adobe Analytics
 
@@ -53,13 +53,17 @@ Les props de liste désignent un paramètre appliqué aux props qui permet à la
 
 ### Configuration des props de liste
 
-Activez les props de liste dans les paramètres de la suite de rapports. Voir [Variables de trafic](/help/admin/admin/c-traffic-variables/traffic-var.md) dans le guide d’utilisation destiné à l’administrateur. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
+Activation des props de liste dans [Variables de trafic](/help/admin/admin/c-traffic-variables/traffic-var.md) sous paramètres de la suite de rapports. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
 
 >[!TIP]
 >
->Les délimiteurs courants utilisés dans les mises en œuvre sont une virgule (`,`), deux-points (`:`), un point-virgule (`;`) ou une barre verticale (`|`). Vous pouvez utiliser n’importe quel délimiteur qui correspond le mieux à votre mise en œuvre.
+>Les délimiteurs courants utilisés dans les mises en œuvre sont une virgule (`,`), deux-points (`:`), un point-virgule (`;`) ou une barre verticale (`|`). Vous pouvez utiliser n’importe quel délimiteur ASCII non étendu qui correspond le mieux à votre mise en oeuvre.
 
-### Définition des props de liste
+### Définition des props de liste à l’aide du SDK Web
+
+Une fois que vous avez configuré les props de liste dans les paramètres de la suite de rapports avec le délimiteur souhaité, les props de liste sont mappées pour Adobe Analytics sous `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. Le SDK Web utilise automatiquement le délimiteur correct répertorié sous les paramètres de la suite de rapports. Si vous définissez le délimiteur dans le champ XDM (par exemple, `_experience.analytics.customDimensions.props.prop1.delimiter`), qui remplace le délimiteur automatiquement récupéré des paramètres de la suite de rapports et peut entraîner une analyse incorrecte de la chaîne de prop de liste.
+
+### Définition des props de liste à l’aide de l’extension Adobe Analytics et d’AppMeasurement
 
 Une fois que vous avez configuré les props de liste dans les paramètres de la suite de rapports avec le délimiteur souhaité, il n’y a aucune différence de mise en œuvre autre que l’utilisation du délimiteur.
 
