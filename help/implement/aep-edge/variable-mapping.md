@@ -2,10 +2,10 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 99%
+source-wordcount: '1398'
+ht-degree: 98%
 
 ---
 
@@ -106,6 +106,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | `placeContext.geo.longitude` | La longitude de la dimension mobile. |
 | `placeContext.geo.postalCode` | La dimension [Code postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimension [États américains](../../components/dimensions/us-states.md). |
+| `placeContext.localTime` | Permet de renseigner la variable [Fuseaux horaires](/help/analyze/reports-analytics/reports.md) dans Report &amp; Analytics. Apparaît comme `t_time_info` in [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applique le marchandisage de la [syntaxe du produit](../vars/page-vars/products.md) aux eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applique le marchandisage de la [syntaxe de produit](../vars/page-vars/products.md) aux événements. |
 | `productListItems[].lineItemId` | La dimension [Catégorie](../../components/dimensions/category.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |
