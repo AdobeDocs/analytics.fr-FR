@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant d’analyse spécifique.
-source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 97%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 97%
 + [Migration des règles de traitement Mobile Services vers Adobe Analytics](migrate-mobile.md)
 + [Prise en charge multidevise](multicurrency.md)
 + [Confidentialité - Présentation](privacy-overview.md)
++ [Ordre de traitement](processing-order.md)
 + [Applications web progressives](pwa.md)
 + [Redirections et alias](redirects.md)
 + Collecte de données régionales {#rdc}

@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 100%
       + [Règles de traitement - Présentation](admin/c-processing-rules/processing-rules.md)
       + Configuration des règles de traitement {#processing-rules-configuration}
          + [Fonctionnement des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [Ordre de traitement](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [Créer des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [Afficher les règles de traitement actives](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
          + [Afficher l’historique des règles de traitement](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)

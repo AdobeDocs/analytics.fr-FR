@@ -3,10 +3,10 @@ description: Les règles de robots vous permettent de supprimer de votre suite d
 title: Règles de robots - Aperçu
 feature: Bot Removal
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 65b3a9001aa062429a870d374af20618c532de35
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 98%
+source-wordcount: '1369'
+ht-degree: 97%
 
 ---
 
@@ -118,12 +118,11 @@ Cochez la case **[!UICONTROL Remplacer les règles existantes]** pour supprimer 
 
 Le bouton **[!UICONTROL Exporter le fichier de robot téléchargé]** exporte toutes les règles définies dans l’interface utilisateur au format CSV.
 
-
 ## Incidence des règles de robots sur la collecte de données {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 Les règles de robots s’appliquent à toutes les données d’analyse. Les données supprimées par les règles de robots ne sont visibles que dans les rapports Robots et Pages de robots.
 
-Les règles VISTA sont appliquées après les règles de robots (voir [Ordre de traitement).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
+Les règles VISTA sont appliquées après les règles de robots. Voir [Ordre de traitement](/help/technotes/processing-order.md) dans le guide d’utilisation de Technotes.
 
 **Traitement de visites enregistrant de nombreux accès** : si plus de 100 accès se produisent au cours d’une visite, la fonction de création de rapports détermine si la durée de la visite (en secondes) est inférieure ou égale au nombre d’accès. Dans ce cas, compte tenu des coûts de traitement des visites longues et intensives, la création de rapports recommence avec une nouvelle visite. Les visites qui enregistrent de nombreux accès sont généralement causées par des attaques de robots et ne sont pas considérées comme ses sessions de navigation normales effectuées par des visiteurs.
 
