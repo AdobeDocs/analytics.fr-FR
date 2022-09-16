@@ -6,7 +6,7 @@ exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 61%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, les serveurs 
 
 ## URL du lien à l’aide du SDK Web
 
-L’URL du lien est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webInteraction.URL`.
+L’URL du lien est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webInteraction.URL`.
 
 ## URL du lien à l’aide de l’extension Adobe Analytics
 

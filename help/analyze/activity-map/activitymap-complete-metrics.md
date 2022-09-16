@@ -2,12 +2,12 @@
 description: Vous permet d’accéder à un jeu complet de mesures provenant d’Adobe Analytics dans la barre d’outils d’Activity Map.
 title: Jeu complet de mesures
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
-feature: 'Activity Map  '
+feature: Activity Map
 role: User, Admin
 exl-id: 6de4ef4d-913d-4c66-916e-56cc81f1e6c7
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 100%
 
 ---

@@ -32,7 +32,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 | Colonne | Définition |
 |--- |--- |
-| Suite de rapports Nom | Le nom convivial de la suite de rapports |
+| Nom de la suite de rapports | Le nom convivial de la suite de rapports |
 | Tous les appels (% du total) | Tous les appels au serveur effectués durant la période d’utilisation actuelle. |
 | Appels principaux (%) | Tous les appels au serveur principal (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 | Appels secondaires (%) | Tous les appels au serveur secondaire (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 99%
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Vous trouverez ci-dessous un tableau comportant la liste des fonctions présent�
 
 | Nom de la fonction | Description |
 |---|---|
-| chaîne AsyncRefreshAll() | Actualise toutes les requêtes du Report Builder présentes dans un classeur. |
+| string AsyncRefreshAll() | Actualise toutes les requêtes du Report Builder présentes dans un classeur. |
 | string AsyncRefreshRange(string rangeAddressInA1Format) | Actualise toutes les requêtes du Report Builder présentes dans l’adresse de plage de cellules spécifiée (une expression string représentant une plage de cellules au format A1, par exemple « Sheet1!A2:A10 »). |
 | string AsyncRefreshRangeAltTextParam() | Actualise toutes les requêtes du Report Builder présentes dans la plage de cellules spécifiée qui est transférée par l’intermédiaire du Texte de remplacement du Contrôle de formulaire MS. |
 | string AsyncRefreshActiveWorksheet() | Actualise toutes les requêtes du Report Builder présentes dans la feuille de calcul active. |

@@ -6,7 +6,7 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ Les identifiants d’achat s’appliquent à tous les visiteurs et n’expirent 
 
 ## Identifiant d’achat à l’aide du SDK Web
 
-L’ID d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `commerce.order.purchaseID`.
+L’ID d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.purchaseID`.
 
 ## Identifiant d’achat à l’aide de l’extension Adobe Analytics
 

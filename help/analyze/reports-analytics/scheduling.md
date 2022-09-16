@@ -9,7 +9,7 @@ exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
 workflow-type: tm+mt
 source-wordcount: '1772'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
 
 >[!IMPORTANT]
->Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en vue de la fin de vie précédemment annoncée de Reports &amp; Analytics. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouveaux extractions de données. En réponse aux demandes des clients qui recherchent une extension et pour faciliter la transition depuis les Reports &amp; Analytics, nous avons décidé d’étendre l’accès à ces fonctionnalités jusqu’au 31 janvier 2023. Veuillez noter que les délais d’expiration des rapports et des extractions de données continueront à être limités à neuf mois ; la remise des rapports et des extractions de données sera suspendue à la fin de cette période, sauf si le planning est réactivé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en prévision de la fin de vie de Reports &amp; Analytics annoncée précédemment. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouvelles extractions de données. En réponse aux demandes des clients qui souhaitaient une prolongation et pour faciliter la transition depuis Reports &amp; Analytics, nous avons décidé de prolonger l’accès à ces fonctionnalités jusqu’au 31 janvier 2023. Veuillez noter que les fenêtres d’expiration pour les rapports et les extractions de données continueront d’être limitées à neuf mois ; la diffusion des rapports et des extractions de données s’interrompra à la fin de cette période, sauf si le planning est réactivé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 Lorsque vous planifiez la remise d’un rapport dans une application d’Adobe Analytics, vous pouvez utiliser les outils Planification et Diffusion pour afficher les fichiers qui ont été envoyés automatiquement et modifier ou interrompre les livraisons.
 

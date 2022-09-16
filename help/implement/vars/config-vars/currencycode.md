@@ -6,7 +6,7 @@ exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable
 
 ## Code de devise à l’aide du SDK Web
 
-Le code de devise est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `commerce.order.currencyCode`.
+Le code de devise est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.currencyCode`.
 
 ## Code de devise à l’aide de l’extension Adobe Analytics
 

@@ -4,7 +4,7 @@ title: Traitement des composants des suites de rapports virtuelles
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Pour activer le traitement des composants,
 
    >[!NOTE]
    >
-   >Il n’est plus nécessaire de *partager* les composants traités (segments, mesures calculées, plages de dates). S’ils sont traités pour la suite de rapports virtuelle, ils seront visibles dans Analysis Workspace, même s’ils ne sont pas partagés.
+   >Il n’est plus nécessaire de *partager* les composants traités (segments, mesures calculées, périodes). S’ils sont traités pour la suite de rapports virtuelle, ils seront visibles dans Analysis Workspace, même s’ils ne sont pas partagés.
 
 1. En outre, vous pouvez filtrer ou rechercher les composants et ajouter la totalité de la sélection filtrée à la colonne « inclus » en cliquant sur **[!UICONTROL Tout ajouter]**.
 

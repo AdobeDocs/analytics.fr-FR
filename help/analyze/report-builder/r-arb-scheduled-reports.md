@@ -7,7 +7,7 @@ exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 43%
+ht-degree: 58%
 
 ---
 
@@ -17,12 +17,12 @@ Le [!UICONTROL Gestionnaire des tâches planifiées] vous permet d’afficher la
 
 ## Suspension des tâches planifiées plus anciennes
 
-Le 21 avril 2022, nous avons apporté des modifications aux tâches planifiées dans le Report Builder dans le cadre de nos efforts d’optimisation des performances et des diffusions. Ces modifications comprenaient la suppression de la possibilité que des diffusions planifiées &quot;se terminent après x occurrences&quot;. En réponse à plusieurs demandes de clients qui recherchent plus de temps pour explorer et mettre en oeuvre des alternatives, nous avons décidé de restaurer cette option de manière limitée jusqu’à ce que **31 janvier 2023**.
+Le 21 avril 2022, nous avons apporté des modifications aux tâches planifiées dans Report Builder dans le cadre de nos efforts d’optimisation des performances et des diffusions. Ces modifications comprenaient la suppression de la possibilité de faire en sorte que les diffusions planifiées prennent « fin après x occurrences ». En réponse à plusieurs demandes de clients souhaitant disposer de plus de temps pour explorer et implémenter des alternatives, nous avons décidé de restaurer cette option de manière limitée jusqu’au **31 janvier 2023**.
 
-Vous pourrez continuer à planifier les tâches de Report Builder horaire et les terminer au maximum après 99 occurrences. Notez que la restauration s’applique uniquement aux tâches horaires ; la &quot;fin après x occurrences&quot; reste indisponible pour tous les autres intervalles de diffusion (quotidiens, hebdomadaires, mensuels et annuels).
+Vous pourrez continuer à planifier les tâches de Report Builder horaire et les terminer au maximum après 99 occurrences. Veuillez noter que la restauration ne s’applique qu’aux tâches horaires ; l’option « fin après x occurrences » restera indisponible pour tous les autres intervalles de diffusion (quotidien, hebdomadaire, mensuel et annuel).
 
-Cette option sera abandonnée le 31 janvier 2023.
-Pour plus de questions ou d’assistance, contactez l’assistance clientèle Adobe.
+Veuillez noter que cette option sera abandonnée le 31 janvier 2023.
+Pour toute question ou assistance, contactez l’Assistance clientèle d’Adobe.
 
 Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020 ;**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
 

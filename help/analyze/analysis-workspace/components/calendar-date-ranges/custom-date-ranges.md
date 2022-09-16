@@ -6,7 +6,7 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Vous pouvez la faire glisser dans une colonne le long d’une plage de dates var
 
 Une plage de dates s’applique au niveau du panneau. Pour ajouter une plage de dates au projet, cliquez sur **Actions** > **Ajouter le panneau**, puis spécifiez une nouvelle plage de dates.
 
-Dans le créateur de plages de dates, créez une plage de dates personnalisée qui s’affichera dans le panneau Composants avec les autres plages de dates.
+Dans le créateur de périodes, créez une période personnalisée qui s’affichera dans le panneau Composants avec les autres périodes.
 
 Par exemple, vous pouvez créer une plage de dates qui spécifie un créneau variable de 7 jours qui s’est terminé il y a une semaine :
 

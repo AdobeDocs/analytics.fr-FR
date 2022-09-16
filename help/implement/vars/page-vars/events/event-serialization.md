@@ -6,7 +6,7 @@ exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -34,7 +34,7 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 
 ## Utilisation des ID d’événement à l’aide du SDK Web
 
-La sérialisation des événements est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM d’événement souhaité `id`. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
+La sérialisation des événements est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM d’événement souhaité `id`. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
 
 Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez la variable `commerce.productListAdds.id` Champ XDM vers la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez la variable `_experience.analytics.event1to100.event20` Champ XDM vers la valeur de sérialisation souhaitée.
 

@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -176,25 +176,25 @@ De même, si vous souhaitez supprimer un composant appliqué à la totalité de 
 
 ![Remove_components](assets/new_remove.png)
 
-## Aperçu de la Fiche d’évaluation {#preview}
+## Prévisualiser la carte de performance {#preview}
 
-Vous pouvez prévisualiser l’aspect et le fonctionnement de la fiche d’évaluation une fois qu’elle sera publiée dans l’application de tableaux de bord Analytics.
+Vous pouvez prévisualiser l’aspect et le fonctionnement de la carte de performance une fois qu’elle sera publiée dans l’application de tableaux de bord Analytics.
 
-1. Cliquez sur **[!UICONTROL Aperçu]** dans le coin supérieur droit de l’écran.
+1. Cliquez sur **[!UICONTROL Prévisualisation]** dans le coin supérieur droit de l’écran.
 
    ![Preview_scorecards](assets/preview.png)
 
-1. Pour afficher la fiche d’évaluation telle qu’elle apparaîtra sur différents appareils, sélectionnez un appareil dans la [!UICONTROL Aperçu du périphérique] menu déroulant.
+1. Pour afficher la carte de performance telle qu’elle apparaîtra sur différents appareils, sélectionnez un appareil dans le menu déroulant [!UICONTROL Prévisualisation de l’appareil].
 
    ![Device_preview](assets/device-preview.png)
 
-1. Pour interagir avec l’aperçu, vous pouvez :
+1. Pour interagir avec la prévisualisation, vous pouvez :
 
-   * Cliquez avec le bouton gauche pour simuler l’appui sur l’écran du téléphone.
+   * Cliquer avec le bouton gauche pour simuler l’appui sur l’écran du téléphone.
 
-   * Utilisez la fonction de défilement de votre ordinateur pour simuler le défilement de l’écran du téléphone avec votre doigt.
+   * Utiliser la fonction de défilement de votre ordinateur pour simuler le défilement de l’écran du téléphone avec votre doigt.
 
-   * Cliquez et maintenez-vous enfoncé pour simuler votre pression et tenez votre doigt sur l’écran du téléphone. Cela s’avère utile pour interagir avec les visualisations dans la vue détaillée.
+   * Cliquer et maintenir la touche appuyée pour simuler la pression et le maintien de votre doigt sur l’écran du téléphone. Cela s’avère utile pour interagir avec les visualisations dans la vue détaillée.
 
 ## Nommer une carte de performance {#name}
 

@@ -1,19 +1,19 @@
 ---
 description: Découvrez les différentes options d’enregistrement, notamment l’enregistrement automatique, l’enregistrement sous, l’enregistrement en tant que modèle et ouvrez les versions précédentes.
 title: Enregistrement des projets
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '463'
+workflow-type: tm+mt
+source-wordcount: '461'
 ht-degree: 100%
 
 ---
 
 # Enregistrement des projets
 
-Pour enregistrer vos modifications dans un projet, accédez au menu **[!UICONTROL Projet]** de Workspace. Workspace enregistre également automatiquement les projets dans certains cas.
+Pour enregistrer vos modifications dans un projet, accédez au menu **[!UICONTROL Projet]** de Espace de travail. Espace de travail enregistre également automatiquement les projets dans certains cas.
 
 ## Options d’enregistrement des projets {#Save}
 
@@ -34,7 +34,7 @@ Les projets existants, c’est-à-dire les projets enregistrés au moins une foi
 
 Plusieurs scénarios permettent d’éviter les modifications non enregistrées d’un projet. Différentes actions s’offrent alors à vous.
 
-### Ouverture d’un autre projet Workspace
+### Ouverture d’un autre projet Espace de travail
 
 Adobe permet d’enregistrer avant de quitter la page. Après avoir quitté un projet existant, la copie locale enregistrée automatiquement est supprimée.
 
@@ -48,7 +48,7 @@ Le navigateur signale que les modifications non enregistrées seront perdues. Vo
 
 ### Blocage du navigateur ou expiration d’une session
 
-Pour les projets **existants**, lorsque vous revenez à Workspace, une fenêtre modale de **récupération du projet** s’affiche. Sélectionnez « Oui » pour restaurer le projet à partir de la copie locale enregistrée automatiquement. Sélectionnez « Non » pour supprimer la copie locale enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
+Pour les projets **existants**, lorsque vous revenez à Espace de travail, une fenêtre modale de **récupération du projet** s’affiche. Sélectionnez « Oui » pour restaurer le projet à partir de la copie locale enregistrée automatiquement. Sélectionnez « Non » pour supprimer la copie locale enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
 
 ![](assets/project-recovery.png)
 

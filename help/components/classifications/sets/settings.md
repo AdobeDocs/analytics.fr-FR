@@ -3,7 +3,7 @@ title: Paramètres des ensembles de classifications
 description: Créez ou modifiez un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 100%
 

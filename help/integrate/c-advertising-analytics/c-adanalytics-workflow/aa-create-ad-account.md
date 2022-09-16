@@ -4,7 +4,7 @@ description: Vous permet de créer des comptes publicitaires et de mapper plusie
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ Définissez les **[!UICONTROL Paramètres du suivi]** en procédant comme suit 
 
    | Paramètre | Description |
    | --- | --- |
-   | Suite de rapports Mappage | Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. |
+   | Mappage de suites de rapports | Le mappage de suites de rapports détermine la suite de rapports qui sera liée à ce compte de moteur de recherche. Autrement dit, il détermine dans quelles suites de rapports seront envoyées les données du moteur de recherche. |
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

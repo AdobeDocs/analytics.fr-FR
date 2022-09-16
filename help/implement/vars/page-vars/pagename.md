@@ -6,7 +6,7 @@ exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -22,7 +22,7 @@ Si cette variable n’est pas définie sur un appel de suivi de page donné, la 
 
 ## Nom de page à l’aide du SDK Web
 
-La page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webPageDetails.name`.
+La page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.name`.
 
 ## Nom de page à l’aide de l’extension Adobe Analytics
 

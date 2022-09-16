@@ -1,12 +1,12 @@
 ---
 description: Méthode de calcul des totaux de Workspace.
 title: Totaux de Workspace
-feature: Tableaux à structure libre
+feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '510'
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
 
 ---

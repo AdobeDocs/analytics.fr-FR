@@ -4,9 +4,9 @@ title: Planifier une requête récurrente
 feature: Data Warehouse
 exl-id: 8c532d14-d2bc-48e9-80a6-7741805b5aca
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## Planifier une requête récurrente {#topic_8C3CE0CE8A584F80946D24B377CB51BE}
 
-Pour planifier des demandes Data Warehouse quotidiennement/mensuellement/annuellement, assurez-vous que l’option *Prédéfinie* est correctement sélectionnée
+Pour planifier des demandes de Data Warehouse quotidiennes/mensuelles/annuelles, veillez à &#42;Paramètre prédéfini &#42;est correctement sélectionné
 
 1. Sous [!UICONTROL Date de rapport], sélectionnez **[!UICONTROL Prédéfinie]**.
 

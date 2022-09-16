@@ -6,7 +6,7 @@ exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 
 ## Définir l’événement d’achat à l’aide du SDK Web
 
-L’événement d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous plusieurs champs XDM :
+L’événement d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
 
 * Les commandes sont associées à `commerce.purchases.value`.
 * Les unités sont mappées à la somme de tous les `productListItems[].quantity` champs.

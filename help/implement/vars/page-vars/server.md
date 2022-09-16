@@ -6,7 +6,7 @@ exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `server` stocke généralement le nom d’hôte de votre site. Elle 
 
 ## Serveur utilisant le SDK Web
 
-Le serveur est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webPageDetails.server`.
+Le serveur est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.server`.
 
 ## Serveur utilisant l’extension Adobe Analytics
 

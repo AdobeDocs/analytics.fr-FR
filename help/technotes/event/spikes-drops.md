@@ -1,14 +1,13 @@
 ---
 title: Résolution des problèmes liés aux pics et aux baisses de données
 description: Découvrez les raisons expliquant les hausses ou les baisses spectaculaires des rapports de tendance.
-translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
 
 ---
-
 
 # Résolution des problèmes liés aux pics et aux baisses de données
 

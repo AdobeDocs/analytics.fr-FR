@@ -57,7 +57,7 @@ Découvrez le nouveau panneau [Analyse des abandons](https://experienceleague.ad
 
 Les rapports de flux de page indiquent l’ordre dans lequel les visiteurs accèdent aux pages et parcourent votre site.
 
-Consultez la [visualisation Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace !
+Consultez la section [Visualisation de flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) dans Analysis Workspace.
 
 Par exemple, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Chemins]** > **[!UICONTROL Pages]** > **[!UICONTROL Flux page suivante]**.
 
@@ -69,7 +69,7 @@ Consultez l’aide sur le [canal marketing](/help/components/c-marketing-channel
 
 ## Exécution d’un rapport Détection des anomalies {#task_4808C96327354D789C075823F5C3A049}
 
-Vous ne pouvez exécuter [la détection des anomalies et l’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr) que dans Analysis Workspace.
+Vous pouvez exécuter [Détection des anomalies et analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr) uniquement dans Analysis Workspace.
 
 ## Exécution d’un rapport en temps réel {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -79,7 +79,7 @@ Décrit comment afficher et interpréter les rapports en temps réel.
 
 La création de rapports en temps réel offre deux rapports principaux : un rapport d’aperçu et un rapport détaillé. Ils sont chacun composés de plusieurs mini-rapports.
 
-Voir [Présentation des rapports en temps réel](/help/components/c-real-time-reporting/realtime.md) pour plus d’informations.
+Voir [Rapports en temps réel - Aperçu](/help/components/c-real-time-reporting/realtime.md) pour plus d’informations.
 
 1. Étudiez le rapport **[!UICONTROL Aperçu]** et ses composants :  ![](assets/rtr_overview_report.png)
 

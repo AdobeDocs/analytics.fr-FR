@@ -1,12 +1,12 @@
 ---
 description: Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 title: Journaux
-feature: Outils d’administration
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 71%
+source-wordcount: '599'
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 
-**[!UICONTROL Analytics]** >  **[!UICONTROL Admin]** >  **[!UICONTROL Tous les administrateurs]** >  **[!UICONTROL Journaux]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Journaux]**
 
 ## Journal d’administration {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -30,27 +30,27 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Connexion | Vous pouvez filtrer le journal par nom d’utilisateur. |
 | IP | Vous pouvez filtrer le journal par adresse IP. |
 | Suite de rapports | Vous pouvez filtrer le journal selon un identifiant de suite de rapports spécifique. |
-| Type d’événement | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. Voir la liste complète des types d&#39;événement ci-dessous. |
+| Type d’événement | Vous pouvez filtrer le journal selon un type d’événement. Sélectionnez un type d’événement dans la liste déroulante. Consultez la liste complète des types d’événements ci-dessous. |
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
 
-### Types d’événements
+### Types d’événements 
 
-| Type d&#39;événement | Description |
+| Type d’événement | Description |
 | --- | --- |
-| Aucune catégorie | Ça pourrait être n&#39;importe quel type d&#39;événement. |
-| Échec de l&#39;identification | Échec du processus de connexion de l&#39;utilisateur. |
-| Identification réussie | L&#39;utilisateur s&#39;est connecté correctement. |
-| Action administrateur | Une action d&#39;administration s&#39;est produite, telle que la modification d&#39;une suite de rapports, la modification des paramètres de société, la création d&#39;un utilisateur, etc. |
-| Changement des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
-| Rapport affiché | Un rapport Rapports et analyses a été affiché. |
-| Rapport téléchargé | Un rapport Rapports et analyses a été téléchargé. |
+| Aucune catégorie | Peut être n’importe quel type d’événement. |
+| Échec de la connexion | Échec du processus de connexion de l’utilisateur. |
+| Connexion réussie | L’utilisateur s’est connecté correctement. |
+| Action d’administration | Une action d’administrateur s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de la société, la création d’un utilisateur, etc. |
+| Modification des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
+| Rapport consulté | Un rapport Reports &amp; Analytics a été affiché. |
+| Rapport téléchargé | Un rapport Reports &amp; Analytics a été téléchargé. |
 | Alerte envoyée | Une alerte a été envoyée. |
-| Action utilisateur | Les informations sur l’utilisateur ont été modifiées. |
+| Action de l’utilisateur | Les informations sur les utilisateurs ont été modifiées. |
 | Outil affiché | Un outil a été vu. |
-| Action Omniture | Une action a été exécutée par l&#39;Adobe. |
-| Récupération du mot de passe | Un mot de passe a été récupéré. |
-| Signets | Un signet a été géré. |
+| Action Omniture | Une action a été effectuée par Adobe. |
+| Récupération des mots de passe | Un mot de passe a été récupéré. |
+| BookMarks | Un signet a été géré. |
 | Tableaux de bord | Un tableau de bord a été géré. |
 | Alertes | Une alerte a été gérée. |
 | Événements du calendrier | Un événement de calendrier a été géré. |
@@ -61,13 +61,13 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
-| Projet espace de travail | Un projet Workspace a été affiché ou modifié. |
+| Projet Workspace | Un projet Workspace a été affiché ou modifié. |
 | Segment | Un segment a été créé/modifié. |
 | Mesure calculée | Une mesure calculée a été créée/modifiée. |
-| Période | Une plage de dates a été créée/modifiée. |
+| Période | Une période a été créée/modifiée. |
 | Suite de rapports virtuelle | Une suite de rapports virtuelle a été créée/modifiée. |
-| Analyse des contributions | Une tâche d&#39;analyse de contribution a été exécutée. |
-| Méthode API | Un appel d&#39;API a été effectué. |
+| Analyse des contributions | Une tâche d’analyse des contributions a été exécutée. |
+| Méthode Api | Un appel API a été effectué. |
 
 
 ## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}

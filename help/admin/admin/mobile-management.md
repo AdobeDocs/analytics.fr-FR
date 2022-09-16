@@ -3,10 +3,9 @@ description: Activer la gestion des applications permet d’activer les variable
 title: Gestion des applications
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '623'
 ht-degree: 100%
 
 ---
@@ -34,7 +33,7 @@ Activez App Reports v3.0 pour évaluer les mesures suivantes :
 * **Acquisition** : suivi des URL de référence pour les campagnes de téléchargement d’applications.
 * **Cycle de vie** : niveau de base des rapports fourni par la mesure envoyée à chaque lancement de l’application.
 * **Actions de l’application** : rapports et cheminement basés sur les actions in-app.
-* **Valeur de durée de vie** : comprenez la manière dont les utilisateurs exploitent la valeur au fil du temps en utilisant des indicateurs de performance clés des applications tels que les achats, vues de publicités, vidéos terminées, partages sur les réseaux sociaux, chargements de photos.
+* **Valeur de durée de vie** : comprenez la manière dont les utilisateurs exploitent la valeur au fil du temps en utilisant des indicateurs clés de performance des applications tels que les achats, vues de publicités, vidéos terminées, partages sur les réseaux sociaux, chargements de photos.
 * **Événements minutés** : mesurez la durée qui s’écoule (dans l’application et durée totale) entre les actions clés de l’application, telles que le temps avant le premier achat.
 
 ## Étape 2. Activation du suivi de l’emplacement {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}

@@ -1,12 +1,12 @@
 ---
 description: Fonctionnalités de prise en charge de l’accessibilité dans Analysis Workspace
 title: Accessibilité dans Analysis Workspace
-feature: Concepts de base de Workspace
+feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '657'
+workflow-type: tm+mt
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -55,10 +55,10 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 
 | Raccourci | Action |
 |---|---|
-| Alt+Maj+1/2/3 | Accéder à différents rails : [!UICONTROL Panneaux], [!UICONTROL Visualisations] ou [!UICONTROL Composants] |
-| Alt+flèche gauche/droite | Navigation entre les panneaux |
+| Alt + Maj + 1/2/3 | Accéder à différents rails : [!UICONTROL Panneaux], [!UICONTROL Visualisations] ou [!UICONTROL Composants] |
+| Alt + flèche gauche/droite | Navigation entre les panneaux |
 | Alt + M | Réduire/Développer tous les panneaux |
-| Alt+Ctrl+M | Réduire/Développer le panneau actif |
+| Alt + Ctrl + M | Réduire/Développer le panneau actif |
 | Ctrl + / | Rechercher dans le rail de gauche |
 
 #### Création d’analyses
@@ -66,8 +66,8 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 | Raccourci | Action |
 |---|---|
 | Alt + 1 | Nouveau tableau à structure libre |
-| Ctrl+Maj+C | Nouvelle mesure calculée |
-| Ctrl+Maj+D | Nouvelle période |
+| Ctrl + Maj + C | Nouvelle mesure calculée |
+| Ctrl + Maj + D | Nouvelle période |
 | Ctrl+Maj+E | Nouveau segment |
 | Ctrl+Z | Annuler |
 | Maintenir la touche Maj enfoncée (dans la zone de dépôt des segments du panneau) | Créer un [filtre déroulant](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) |
@@ -76,12 +76,12 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 
 | Raccourci | Action |
 |---|---|
-| Ctrl+S | Enregistrer |
-| Ctrl+Maj+G | Traiter |
-| Ctrl+G | Partager |
-| Alt+Maj+S | Planifier |
+| Ctrl + S | Enregistrer |
+| Ctrl + Maj + G | Traiter |
+| Ctrl + G | Partager |
+| Alt + Maj + S | Planifier |
 | Alt + L | Obtenir le lien vers le projet |
-| Ctrl+Maj+B | Télécharger un PDF |
+| Ctrl + Maj + B | Télécharger un PDF |
 
 ## Prise en charge des lecteurs d’écran et des loupes
 

@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Guide dʼimportation d’Analytics
 breadcrumb-title: Guide d’importation
-user-guide-description: 'Insérez des données dans Adobe Analytics à partir des sources externes, en bloc ou en temps réel. '
+user-guide-description: Insérez des données dans Adobe Analytics à partir des sources externes, en bloc ou en temps réel.
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '141'

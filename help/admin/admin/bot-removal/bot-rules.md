@@ -6,7 +6,7 @@ exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ Le champ **[!UICONTROL contient]** est limité à 100 caractères. La liste «�
 
 ### Adresse IP (avec correspondances de caractères génériques)
 
-Établit une correspondance avec une ou plusieurs adresses IP dans le même bloc à l’aide de caractères génériques (*). Indiquez les valeurs numériques de l’adresse IP avec laquelle vous souhaitez établir une correspondance. Remplacez par * toute valeur que vous souhaitez faire correspondre à l’aide d’un caractère générique. La liste suivante contient des exemples de chaînes de correspondance d’adresses IP :
+Établit une correspondance avec une ou plusieurs adresses IP dans le même bloc à l’aide de caractères génériques (&#42;). Indiquez les valeurs numériques de l’adresse IP avec laquelle vous souhaitez établir une correspondance. Substituer &#42; pour toutes les valeurs que vous souhaitez faire correspondre à l’aide d’un caractère générique. La liste suivante contient des exemples de chaînes de correspondance d’adresses IP :
 
 ```
 10.10.10.1
@@ -74,7 +74,7 @@ Le champ **[!UICONTROL contient]** est limité à 100 caractères. La liste «�
 
 ### Plage d’adresses IP
 
-Indiquez les plages de début et de fin des adresses IP avec lesquelles vous souhaitez établir une correspondance. Remplacez par * toute valeur que vous souhaitez faire correspondre à l’aide d’un caractère générique.
+Indiquez les plages de début et de fin des adresses IP avec lesquelles vous souhaitez établir une correspondance. Substituer &#42; pour toutes les valeurs que vous souhaitez faire correspondre à l’aide d’un caractère générique.
 
 ### Définir une règle de robot personnalisée
 
@@ -137,4 +137,4 @@ La liste des robots IAB est basée uniquement sur l’agent-utilisateur. De ce f
 
 Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option.
 
-Si le dernier octet est supprimé, ceci a lieu avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Le * correspondant doit correspondre à 0.
+Si le dernier octet est supprimé, ceci a lieu avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Correspondance &#42; doit correspondre à 0.

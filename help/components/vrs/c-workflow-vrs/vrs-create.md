@@ -5,7 +5,7 @@ title: Création des suites de rapports virtuelles
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Voici une vidéo sur la façon d’ajuster une définition de visite dans une su
 1. Dans l’onglet [!UICONTROL Composants], cochez la case pour appliquer le traitement afin d’inclure, d’exclure et de renommer les composants de cette suite de rapports virtuelle dans Analysis Workspace.
 Pour plus d’informations sur le traitement des suites de rapports virtuelles, voir [Traitement des composants des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=fr#virtual-report-suites).
 
-1. Faites glisser les composants (dimensions, mesures, segments ou plages de dates) que vous souhaitez inclure dans la suite de rapports virtuelle dans la section [!UICONTROL Composants inclus].
+1. Faites glisser les composants (dimensions, mesures, segments ou périodes) que vous souhaitez inclure dans la suite de rapports virtuelle dans la section [!UICONTROL Composants inclus].
 
 1. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 

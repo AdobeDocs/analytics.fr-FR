@@ -67,8 +67,8 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | Marque | Suzanne |  |
-   | * |  | 222 | Marque | Frank |  |
+   | &#42; |  | 111 | Marque | Suzanne |  |
+   | &#42; |  | 222 | Marque | Frank |  |
 
 1. Pour gérer les tables de recherche, téléchargez un petit fichier (comme illustré ci-dessus).
 

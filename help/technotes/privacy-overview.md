@@ -5,7 +5,7 @@ title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Adobe Analytics collecte les données suivantes :
 | Système d’exploitation | Oui |
 | Débit FAI/connexion | Oui |
 | Paramètres d’affichage (taille et résolution de l’écran) | Oui |
-| Adresse IP (utilisée pour l’emplacement approximatif) | Oui* |
+| Adresse IP (utilisée pour l’emplacement approximatif) | Oui&#42; |
 | Informations fournies par les visiteurs sur les formulaires sur le site du client | Oui |
 | Informations fournies par les visiteurs sur les formulaires sur les réseaux sociaux | **Non** |
 | Si le visiteur a cliqué sur la publicité ou non | Oui |
@@ -49,7 +49,7 @@ Adobe Analytics collecte les données suivantes :
 | Taux de succès des campagnes publicitaires | Oui |
 | Informations sur les produits (couleurs, prix, styles, photos, etc.) | Oui |
 
-*Sauf si le client Adobe choisit de supprimer l’adresse IP.
+&#42;Sauf si le client Adobe choisit de supprimer l’adresse IP.
 
 ## Autres considérations de confidentialité  {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 

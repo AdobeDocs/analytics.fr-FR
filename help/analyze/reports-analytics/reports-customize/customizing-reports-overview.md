@@ -2,13 +2,13 @@
 description: Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 title: Personnalisation des rapports - Aperçu
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Concepts de base de Reports & Analytics
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 
 >[!MORELIKETHIS]
 >
->* [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=fr)
 
 
 ## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -53,7 +53,7 @@ t_reports_select_date.xml
 
 Vous pouvez sélectionner des jours, semaines, mois ou années spécifiques. Vous pouvez également exécuter des rapports de comparaison.
 
-Lorsque vous ouvrez un tableau de bord contenant des mini-rapports avec différentes plages de dates, vous pouvez en définir une nouvelle dans le calendrier. Les modifications s’appliquent à tous les mini-rapports du tableau de bord.
+Lorsque vous ouvrez un tableau de bord contenant des mini-rapports avec différentes périodes, vous pouvez en définir une nouvelle dans le calendrier. Les modifications s’appliquent à tous les mini-rapports du tableau de bord.
 
 **Pour sélectionner une plage de dates**
 

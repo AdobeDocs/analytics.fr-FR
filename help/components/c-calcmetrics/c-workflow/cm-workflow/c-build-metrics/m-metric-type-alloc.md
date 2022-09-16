@@ -1,12 +1,12 @@
 ---
-description: 'En savoir plus sur les '
+description: En savoir plus sur les
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -58,9 +58,9 @@ Ces deux outils présentent des différences de fonctionnement de l’attributio
 
 ## Fonctionnement de l’affectation linéaire avant le mois de juillet 2018
 
-Avant le 19 juillet 2018, l’attribution linéaire était calculée après que la persistance de première touche ou de dernière touche ait eu lieu. Cela signifiait que pour l’eVar de dernière touche ci-dessus, les 10 $ auraient été distribués comme suit : A = 10 * (3/6) = 5 $, B = 10 * (2/6) = 3,33 $, C = 10 * (1/6) = 1,67 $.
+Avant le 19 juillet 2018, l’attribution linéaire était calculée après que la persistance de première touche ou de dernière touche ait eu lieu. Cela signifie que pour l&#39;eVar Dernière touche ci-dessus, les 10 $ seraient répartis comme suit : A = 10 &#42; (3/6) = 5 $, B = 10 &#42; (2/6) = 3,33 $, C = 10 &#42; (1/6) = 1,67 $.
 
-Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièrement attribués à A. Pour la Prop : A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $, et C = 10 * (1/4) = 2,50 $. Pour résumer l’affectation linéaire telle qu’elle fonctionnait auparavant :
+Pour l’eVar Première touche ci-dessus, tous les 10 $ seraient attribués à A. Pour la prop : A = 10 &#42; (2/4) = 5 $, B = 10 &#42; (1/4) = 2,50 $ et C = 10 &#42; (1/4) = 2,50 $. Pour résumer l’affectation linéaire telle qu’elle fonctionnait précédemment :
 
 | Valeurs | eVar de dernière touche actuelle | eVar de première touche actuelle | Prop actuelle |
 |---|---|---|---|
@@ -71,7 +71,7 @@ Pour l’eVar de première touche ci-dessus, les 10 $ auraient été entièreme
 
 **Résumé du fonctionnement actuel de lʼaffectation linéaire**
 
-Au lieu d’utiliser les valeurs qui ont persisté sur la base de la dernière ou de la première touche, [!DNL Analytics] utilise maintenant uniquement les valeurs qui ont été passées (première ligne en haut du tableau). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ et C = 10 * (1/4) = 2,50 $.
+Au lieu d’utiliser les valeurs qui ont persisté sur la base de la dernière ou de la première touche, [!DNL Analytics] utilise maintenant uniquement les valeurs qui ont été passées (première ligne en haut du tableau). En tant que tels, les paramètres d’affectation de dimension n’ont plus d’impact sur la manière dont l’affectation linéaire est calculée (autrement dit, les Props et les eVars sont traitées de la même manière), et les résultats reflètent ce qui a été passé à l’origine plutôt que les valeurs de première touche et de dernière touche qui peuvent avoir persisté. Ainsi, dans les trois cas, A = 10 &#42; (2/4) = 5 $, B = 10 &#42; (1/4) = 2,50 $ et C = 10 &#42; (1/4) = 2,50 $.
 
 | Valeurs | Nouvelle eVar de dernière touche | Nouvelle eVar de première touche | Nouvelle Prop |
 |---|---|---|---|

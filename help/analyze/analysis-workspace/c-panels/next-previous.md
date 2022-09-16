@@ -1,17 +1,17 @@
 ---
 description: Panneau qui affiche les éléments de dimension précédents ou suivants pour une dimension spécifique.
-title: Panneau d’élément suivant ou précédent
+title: Panneau d’éléments suivant ou précédent
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
+source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-
-# Panneau d’élément suivant ou précédent
+# Panneau d’éléments suivant ou précédent
 
 Le [!UICONTROL Élément suivant ou précédent] a commencé en tant que rapport dans Reports &amp; Analytics, sous [!UICONTROL Rapports] > [!UICONTROL Le plus populaire] > [!UICONTROL Page suivante/page précédente]. Il s’agit désormais également d’un panneau Workspace. Ce panneau contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple, vous souhaitez peut-être explorer les pages les plus consultées par les clients après avoir visité la page d’accueil.
 
@@ -34,7 +34,7 @@ Vous pouvez configurer la variable [!UICONTROL Élément suivant ou précédent]
 | --- | --- |
 | Zone de dépôt de segment (ou autre composant) | Vous pouvez faire glisser et déposer des segments ou d’autres composants pour filtrer davantage les résultats du panneau. |
 | Dimension | Dimension pour laquelle vous souhaitez explorer les éléments suivants ou précédents. |
-| Élément Dimension | L’élément spécifique au centre de votre requête suivante/précédente. |
+| Élément de Dimension | L’élément spécifique au centre de votre requête suivante/précédente. |
 | Direction | Indiquez si vous recherchez le [!UICONTROL Suivant] ou le [!UICONTROL Précédent] élément de dimension. |
 | Conteneur | [!UICONTROL Visite] ou [!UICONTROL Visiteur] (par défaut) déterminez la portée de votre requête. |
 

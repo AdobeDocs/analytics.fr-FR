@@ -6,7 +6,7 @@ exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '312'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 
 ## URL de la page à l’aide du SDK Web
 
-L’URL de page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webPageDetails.URL`.
+L’URL de page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.URL`.
 
 ## URL de page à l’aide de l’extension Adobe Analytics
 

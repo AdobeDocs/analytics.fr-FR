@@ -22,7 +22,7 @@ Dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-co
 
 ## WSDL : téléchargez le fichier WSDL de l’API des services web pour les développeurs de services
 
-Visite [Développeur d’Adobes](https://developer.adobe.com/analytics-apis/docs/2.0/), qui fournit de la documentation, des exemples de code et des forums liés aux API de services Web. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
+Visite [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), qui fournit de la documentation, des exemples de code et des forums liés aux API de services Web. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
 
 ## Options de filtrage
 

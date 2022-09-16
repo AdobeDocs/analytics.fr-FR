@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -30,11 +30,11 @@ Cette option permet de sélectionner des dates courantes ou des dates que vous a
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modèles de dates enregistrées </p> </td> 
-   <td colname="col2"> <p>Affiche les modèles de plage de dates créés par l’utilisateur actuel. Vous pouvez enregistrer des dates dans le formulaire <span class="wintitle">Dates fixes</span>. Si vous avez enregistré un modèle de date utilisable avec toutes les suites de rapports, vous devez activer l’option <span class="wintitle">Afficher les modèles de dates enregistrées pour toutes les suites de rapports</span> pour le sélectionner. </p> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   >Dates fixes et plages de dates enregistrées</a>. </p> </td> 
+   <td colname="col2"> <p>Affiche les modèles de plage de dates créés par l’utilisateur actuel. Vous pouvez enregistrer des dates dans le formulaire <span class="wintitle">Dates fixes</span>. Si vous avez enregistré un modèle de date utilisable avec toutes les suites de rapports, vous devez activer l’option <span class="wintitle">Afficher les modèles de dates enregistrées pour toutes les suites de rapports</span> pour le sélectionner. </p> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   >Dates fixes et périodes enregistrées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Afficher la plage de dates enregistrées pour toutes les suites de rapports </p> </td> 
-   <td colname="col2"> <p> Affiche les modèles qui ont été mis à la disposition de toutes les suites de rapports. Cliquez sur <span class="wintitle">Modifier</span> pour gérer les plages de dates enregistrées ou renommer la plage sélectionnée. </p> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   >Dates fixes et plages de dates enregistrées</a> pour plus d’informations. </p> </td> 
+   <td colname="col2"> <p> Affiche les modèles qui ont été mis à la disposition de toutes les suites de rapports. Cliquez sur <span class="wintitle">Modifier</span> pour gérer les périodes enregistrées ou renommer la période sélectionnée. </p> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md"   >Dates fixes et périodes enregistrées</a> pour plus d’informations. </p> </td> 
   </tr> 
  </tbody> 
 </table>

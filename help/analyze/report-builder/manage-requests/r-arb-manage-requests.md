@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Description des champs de gestion des requêtes dans le Report Builder.
 
-## Aperçu {#section_75C288C945FA4781A4EDF806711A5660}
+## Présentation {#section_75C288C945FA4781A4EDF806711A5660}
 
 Le [!UICONTROL Gestionnaire de requêtes] présente une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Il permet également d’ajouter, de modifier, d’actualiser et de supprimer une requête (fonctions généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes]) en cliquant avec le bouton droit sur l’une des cellules disponibles de la feuille de calcul Excel qui contient les requêtes précédentes.
 

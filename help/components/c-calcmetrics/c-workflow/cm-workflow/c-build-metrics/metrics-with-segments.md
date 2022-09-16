@@ -1,5 +1,5 @@
 ---
-description: 'La segmentation de mesures individuelles permet d’effectuer des comparaisons de mesures dans le même rapport. '
+description: La segmentation de mesures individuelles permet d’effectuer des comparaisons de mesures dans le même rapport.
 title: Mesures segmentées
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04

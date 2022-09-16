@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 30%
+source-wordcount: '238'
+ht-degree: 29%
 
 ---
 
@@ -20,14 +20,14 @@ Nous vous recommandons de vous référer à un calendrier lors de la création d
 
 **Pour activer des expressions personnalisées**
 
-Il s’agit d’un exemple utilisant **[!UICONTROL Dates roulantes]**.
+Voici un exemple utilisant **[!UICONTROL Dates roulantes]**.
 
-1. Dans l’ [!UICONTROL Assistant Requête : Étape 1], au lieu d’utiliser **[!UICONTROL Préconfigurer les dates]**, sélectionnez **[!UICONTROL Dates roulantes]**.
+1. Sur le [!UICONTROL Assistant Requête : Étape 1], au lieu d’utiliser **[!UICONTROL Préconfigurer les dates]**, sélectionnez **[!UICONTROL Dates roulantes]**.
 
    ![](assets/rolldates1.png)
 
 1. Passez à une version variable hebdomadaire, mensuelle, trimestrielle ou annuelle. Notez comment les options ci-dessous changent.
-1. Pour plus d’options de personnalisation, cliquez sur **[!UICONTROL Afficher les options avancées]**.
+1. Pour accéder à d’autres options de personnalisation, cliquez sur **[!UICONTROL Afficher les options avancées]**.
 
    ![](assets/rolldates2.png)
 
@@ -35,7 +35,7 @@ Il s’agit d’un exemple utilisant **[!UICONTROL Dates roulantes]**.
 
    ![](assets/rolldatesfor3.png)
 
-1. Activez **[!UICONTROL Personnaliser l’expression]**. En sélectionnant des options sous **[!UICONTROL Dates roulantes]**, vous pouvez facilement voir la syntaxe des expressions de date personnalisées.
+1. Activer **[!UICONTROL Expression personnalisée]**. En sélectionnant les options sous **[!UICONTROL Dates roulantes]**, vous pouvez facilement voir la syntaxe des expressions de date personnalisées.
 
    ![](assets/rolldatesfor5.png)
 

@@ -2,9 +2,8 @@
 title: Limitation d’une suite de rapports virtuelle à certaines dates
 description: Apprenez comment limiter la période dʼune suite de rapports virtuelle pour vous concentrer uniquement sur les données assemblées.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

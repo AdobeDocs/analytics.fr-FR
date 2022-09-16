@@ -69,7 +69,7 @@ Les paramètres incluent :
 
 | Paramètre | Description |
 |---|---|
-| Projet   Nom | Nom donné au projet. Double-cliquez dessus pour le modifier. |
+| Nom du projet | Nom donné au projet. Double-cliquez dessus pour le modifier. |
 | Créée par | Nom du titulaire du projet. |
 | Dernière modification | Date de la dernière modification du projet. |
 | Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. |

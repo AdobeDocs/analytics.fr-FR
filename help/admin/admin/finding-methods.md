@@ -4,10 +4,9 @@ title: Méthodes de recherche
 feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '317'
 ht-degree: 100%
 
 ---
@@ -33,7 +32,7 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
    <td colname="col2"> Méthode de recherche que vous souhaitez modifier. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Attribution </td> 
+   <td colname="col1"> Affectation </td> 
    <td colname="col2"> Indique comment appliquer du crédit pour un renvoi. Les options d’affectation prises en charge sont les suivantes : <p> <span class="uicontrol"> Le plus récent (Dernier) :</span> accorde tout le crédit au dernier référent (par défaut). </p> <p> <span class="uicontrol"> Valeur d’origine :</span> attribue tout le crédit au premier référent. </p> <p> <span class="uicontrol"> Linéaire :</span> répartit le crédit uniformément entre tous les référents. </p> </td> 
   </tr> 
   <tr> 

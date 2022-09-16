@@ -2,9 +2,8 @@
 title: Ressources de sécurité d’Adobe Analytics
 description: Liens vers des ressources Adobe autour de ses pratiques de sécurité et de ses plans de récupération.
 exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 100%
 

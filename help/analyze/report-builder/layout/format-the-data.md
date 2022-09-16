@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Dans le menu **[!UICONTROL Format]**, cliquez sur **[!UICONTROL Format personnal
 
 Le tableau suivant décrit l’utilisation des abréviations de date dans le champ [!UICONTROL Format personnalisé] :
 
-| Abréviation | Signification | Exemple   utilisant le mercredi 14 mars 2012 |
+| Abréviation | Signification | Exemple utilisant mercredi 14 mars 2012 |
 |--- |--- |--- |
 | jj/MM/aaa | Date numérique complète | 03/14/2012 |
 | M | Numéro du mois | 3 |

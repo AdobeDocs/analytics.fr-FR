@@ -2,12 +2,12 @@
 description: Permet d’ajouter du texte défini par l’utilisateur dans l’Workspace.
 title: Texte
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualisations
+feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '169'
+workflow-type: tm+mt
+source-wordcount: '168'
 ht-degree: 100%
 
 ---

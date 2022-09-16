@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 405403523e7b862005839cb4eb07adf804c6bc9c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -21,13 +21,13 @@ Si vous ne disposez que de quelques minutes, regardez ce bref aperçu pour déco
 
 ## Connexion à Adobe Analytics {#login}
 
-Pour commencer à utiliser Analysis Workspace, connectez-vous à Adobe Analytics en accédant à [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Si vous n’avez pas encore sélectionné de projet spécifique, vous accédez à la page d’accueil de la liste de projets Workspace.
+Pour commencer à utiliser Analysis Workspace, connectez-vous à Adobe Analytics en accédant à [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Si vous n’avez pas encore sélectionné de projet spécifique, vous accédez à la page d’accueil de la liste de projets Espace de travail.
 
 ![](assets/login-analytics.png)
 
 ## Utilisation du tutoriel de formation {#training-tutorial}
 
-Une fois votre connexion effectuée, votre première étape doit être le tutoriel de formation Analysis Workspace, qui vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Pour commencer le tutoriel, cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez **Tutoriel de formation** dans la fenêtre modale du nouveau projet.
+Une fois votre connexion effectuée, votre première étape doit être le tutoriel de formation Analysis Workspace, qui vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Espace de travail. Pour commencer le tutoriel, cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez **Tutoriel de formation** dans la fenêtre modale du nouveau projet.
 
 ![](assets/training-tutorial.png)
 
@@ -41,7 +41,7 @@ Vous pouvez également commencer votre analyse à partir de **modèles** prédé
 
 ## Créer votre analyse {#analysis}
 
-Dans votre projet Workspace, **les panneaux, les tableaux, les visualisations et les composants** sont accessibles à partir du rail de gauche. Ce sont les blocs de construction de votre projet.
+Dans votre projet Espace de travail, **les panneaux, les tableaux, les visualisations et les composants** sont accessibles à partir du rail de gauche. Ce sont les blocs de construction de votre projet.
 
 ### Composants
 

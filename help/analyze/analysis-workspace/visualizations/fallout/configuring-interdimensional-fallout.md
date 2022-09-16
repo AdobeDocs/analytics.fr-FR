@@ -29,6 +29,6 @@ Vous pouvez également ajouter des mesures à cette combinaison. Dans cet exempl
 
 ![](assets/interdimensional-fallout2.png)
 
-Par ailleurs, vous pouvez combiner différentes dimensions et mesures dans des points de contrôle ET. Faites simplement glisser une dimension ou une mesure sur une autre :
+Par ailleurs, vous pouvez combiner différentes dimensions et mesures dans des points de contrôle AND. Faites simplement glisser une dimension ou une mesure sur une autre :
 
 ![](assets/interdimensional-fallout3.png)

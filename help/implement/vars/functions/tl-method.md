@@ -6,7 +6,7 @@ exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -22,7 +22,7 @@ Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appe
 
 * Le nom du lien est mappé à `web.webInteraction.name`.
 * L’URL de lien est mappée à `web.webInteraction.URL`.
-* Le type de lien est mappé à `web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
+* Le type de lien est mappé à `web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
 
 ```js
 alloy("sendEvent", {

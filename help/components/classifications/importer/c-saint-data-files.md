@@ -4,9 +4,9 @@ title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ Ces caractères ont une signification spéciale dans un fichier de données. Lor
 
 **Exemple** : si Campagne A a un coût de 10 000 euros, la colonne [!UICONTROL Campaigns^~Cost] contient une valeur de 10 000 et la colonne [!UICONTROL Campaigns^~Cost~per] comporte le mot-clé [!UICONTROL FIXED]. Lors de l’affichage du coût de la Campagne A dans les rapports, la somme de 10 000 euros est indiquée comme coût fixe de la Campagne A pour la période.
 
-**Exemple** : si Campagne B a un coût d’environ 2 euros par clic, la colonne [!UICONTROL Campaigns^~Cost] contient 2 et la colonne **[!UICONTROL Campaigns^~Cost~per]** comporte le mot-clé [!UICONTROL CLICK]. Lors de l’affichage du coût de la Campagne B dans les rapports, Adobe calcule (2 * [nombre de clics]) à la volée pour la période du rapport. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
+**Exemple** : si Campagne B a un coût d’environ 2 euros par clic, la colonne [!UICONTROL Campaigns^~Cost] contient 2 et la colonne **[!UICONTROL Campaigns^~Cost~per]** comporte le mot-clé [!UICONTROL CLICK]. Lors de l’affichage du coût de la Campagne B dans les rapports, Adobe calcule (2 &#42; [nombre de clics]) à la volée pour la période du rapport. Vous obtenez alors le coût total en fonction du nombre de clics enregistrés pendant la Campagne B.
 
 ### Date
 
@@ -203,4 +203,4 @@ Pour classer les campagnes selon une période :
 
 ## Résolution des problèmes affectant les classifications
 
-* [Problèmes de chargement des courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.
+* [Problèmes de chargement des courants](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html) : article de la base de connaissance décrivant les problèmes provenant de formats de fichiers et de contenus de fichiers incorrects.

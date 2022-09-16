@@ -2,9 +2,8 @@
 title: Exclusion de données dans Adobe Analytics
 description: Découvrez différentes méthodes permettant d’exclure des données avant et après la collecte de données.
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
-translation-type: ht
 source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 

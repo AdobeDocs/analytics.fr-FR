@@ -14,7 +14,7 @@ ht-degree: 92%
 
 # API de création de rapports dans Analytics
 
-La documentation des API Adobe Analytics est activée. [Développeur d’Adobes](https://developer.adobe.com/analytics-apis/docs/2.0/).
+La documentation des API Adobe Analytics est activée. [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/).
 
 ## Comparaison des API Analytics
 

@@ -2,12 +2,12 @@
 description: L’onglet Détails de la page affiche le rapport Page en tant que tableau et le rapport Flux de page en tant que rapport « papillon ».
 title: Détails de la page
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-feature: 'Activity Map  '
+feature: Activity Map
 role: User, Admin
 exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 100%
 
 ---

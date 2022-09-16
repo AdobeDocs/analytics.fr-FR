@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 49%
+source-wordcount: '209'
+ht-degree: 48%
 
 ---
 
@@ -22,7 +22,7 @@ Pour vous connecter à Report Builder, utilisez votre compte de connexion Experi
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse électronique et mot de passe) pour vous connecter à Adobe Experience Cloud. Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour en savoir plus sur l’Enterprise ID, cliquez [ici](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
+La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse e-mail et mot de passe) pour vous connecter à Adobe Experience Cloud. Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour en savoir plus sur l’Enterprise ID, cliquez [ici](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![](assets/adobe_id_login.png)
 
@@ -38,7 +38,7 @@ Pour vous connecter au Report Builder
 1. Cliquez sur **[!UICONTROL Se connecter]**. Autres opérations de connexion :
 
    * Cliquez sur **[!UICONTROL Créer]**.
-   * [Sélectionnez une requête dans le Gestionnaire de requêtes](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md), puis cliquez sur  **** Ajouter  **[!UICONTROL Gérer]**.
+   * [Sélectionnez une requête dans le Gestionnaire de requêtes.](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md), puis cliquez sur **[!UICONTROL Ajouter]** ou **[!UICONTROL Gérer]**.
    * Double-cliquez sur une requête dans Excel.
 
 1. Renseignez les champs de la page [!UICONTROL Connexion], puis cliquez sur **[!UICONTROL OK]**.

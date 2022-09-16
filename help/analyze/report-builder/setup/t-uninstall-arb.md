@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 91%
+source-wordcount: '125'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +24,5 @@ Procédure à suivre pour la désinstallation du Report Builder d’Adobe.
 
    Pour supprimer complètement tous les fichiers et dossiers du répertoire Program Files, procédez comme suit après avoir désinstallé le Report Builder :
 1. Cliquez sur **[!UICONTROL Démarrer]** > **[!UICONTROL Ordinateur]**.
-1. Accédez à [!DNL C:\Program Files\Adobe\]ou, si vous utilisez une version 64 bits de Windows, [!DNL C:\Program Files (x86)\Adobe.]
+1. Accédez à [!DNL C:\Program Files\Adobe\] ou, sous Windows 64 bits, [!DNL C:\Program Files (x86)\Adobe.]
 1. Supprimez le dossier Report Builder dans ce répertoire, s’il y figure toujours.

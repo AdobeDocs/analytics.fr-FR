@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -88,7 +88,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Se termine par </p> </td> 
    <td colname="col02"> <p>Renvoie des résultats qui se terminent par une valeur spécifique. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas à <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> wxyz</span> mais pas <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avancé (caractères spéciaux) </p> </td> 

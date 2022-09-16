@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Définit des paramètres courants pour un site web qui fournit des vidéos et articles d’assistance sur un produit.
 
-| Variables de conversion | Type | Sous-relations | Attribution | Expiration | Variable `s_code` |
+| Variables de conversion | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
 | Promotion interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
 | Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |

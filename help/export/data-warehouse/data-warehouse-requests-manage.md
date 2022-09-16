@@ -4,10 +4,9 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ L’utilisation de cet onglet permet :
 * De reclasser les rapports par priorité en les faisant glisser et en les déposant à un nouvel emplacement dans la file d’attente.
 * Pour savoir à quel moment a commencé le traitement d’une demande, cliquez sur un ID de demande planifiée et observez la fenêtre contextuelle qui s’ouvre.
 
-Cliquez sur une tâche pour afficher les demandes individuelles de cette tâche.
+Cliquez sur une tâche pour afficher les requêtes individuelles de cette tâche.
 
-* Rate Limited : Trop de demandes de Data Warehouse sont en cours d’exécution dans votre entreprise. La demande est suspendue jusqu’à ce que d’autres requêtes de données soient terminées.
+* Rate Limited : Trop de demandes de Data Warehouse sont en cours d’exécution pour votre entreprise. La requête est suspendue jusqu’à ce que d’autres requêtes de données soient terminées.

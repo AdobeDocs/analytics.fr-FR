@@ -5,7 +5,7 @@ keywords: page d’accès, section d’entrée sur le site, serveur d’entrée,
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 

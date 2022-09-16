@@ -6,7 +6,7 @@ exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Les variables de données contextuelles permettent aux équipes de développemen
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
+Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
 
 Bien qu’il soit recommandé de mapper les données aux champs XDM corrects dans le flux de données, cette méthode obtient des résultats similaires.
 

@@ -44,7 +44,7 @@ Le rapport [!UICONTROL Facture mensuelle] obtenu comprend les informations suiva
 
 >[!NOTE]
 >
->Pour obtenir une copie de travail du rapport [!UICONTROL Facture mensuelle], copiez ce dernier dans le presse-papiers, puis collez-le dans un tableur tel que Microsoft Excel*.
+>Pour obtenir une copie de travail du rapport [!UICONTROL Facture mensuelle], copiez ce dernier dans le presse-papiers, puis collez-le dans un tableur tel que Microsoft Excel&#42;.
 
 ## Comparaison de la date de création du rapport et de la date de traitement {#section_51A48C2F223F4904BE1407C13333C457}
 

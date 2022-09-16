@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Configure plusieurs variables et événements de succès courants pour un site web type.
 
-| Variables de conversion | Type | Sous-relations | Attribution | Expiration | Variable `s_code` |
+| Variables de conversion | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
 | Campagne interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
 | Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |

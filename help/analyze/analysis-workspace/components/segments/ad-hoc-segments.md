@@ -7,7 +7,7 @@ exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
 source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 47%
+ht-degree: 52%
 
 ---
 
@@ -43,7 +43,7 @@ Les segments ad hoc peuvent être mis à la disposition d’autres projets en le
 
 1. Pointez sur le segment de la zone de dépôt, puis cliquez sur l’icône « i ».
 1. Cliquez sur le crayon de modification pour accéder au créateur de segments.
-1. Vérifier **[!UICONTROL Mettre tous les projets à disposition et ajouter à votre liste de composants]**.
+1. Cochez **[!UICONTROL Rendre disponible pour tous vos projets et ajouter l’élément à votre liste de composants]**.
 1. Cliquez sur **[!UICONTROL ENREGISTRER]**.
 
 Une fois enregistré, le segment est disponible dans votre liste de composants du rail de gauche et peut être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.

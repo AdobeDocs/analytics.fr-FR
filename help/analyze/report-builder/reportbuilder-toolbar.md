@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ Après avoir installé le Report Builder et démarré Excel, cliquez sur **[!UIC
 
 ![](assets/report_builder_toolbar.png)
 
-**Se connecter :** affiche le   journal afin que vous puissiez vous connecter à l’aide de vos informations d’identification ou en tant qu’autre utilisateur. Affiche également le nom de votre société après la connexion. Reportez-vous à la section [Ouverture de session dans Report Builder](/help/analyze/report-builder/setup/login.md).
+**Connexion :** Affiche la variable [!UICONTROL Connexion] formulaire afin que vous puissiez vous connecter à l’aide de vos informations d’identification ou en tant qu’utilisateur différent. Affiche également le nom de votre société après la connexion. Reportez-vous à la section [Ouverture de session dans Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **Créer** : lance l’[!UICONTROL Assistant Requête]. Si vous n’êtes pas encore connecté, le système vous y invite. Reportez-vous à la section [Requêtes de données](/help/analyze/report-builder/data-requests/data-requests.md).
 
@@ -36,6 +36,6 @@ Après avoir installé le Report Builder et démarré Excel, cliquez sur **[!UIC
 
 **Options** : vous permet d’indiquer si vous souhaitez être invité à saisir la date **[!UICONTROL À partir de]** (Maintenant) lors de l’actualisation de requêtes. Ce paramètre vous permet également d’activer la journalisation dans le cadre de la résolution des problèmes. Voir [Options](/help/analyze/report-builder/options.md).
 
-**Verrouillé/Déverrouillé :** verrouillez le classeur pour empêcher tout ajout ou modification des requêtes qu’il contient. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace. Voir [Verrouillage/déverrouillage des classeurs](/help/analyze/report-builder/workbook-library/protect-wb.md).
+**Verrouillé/Déverrouillé :** verrouillez le classeur pour empêcher tout ajout ou modification des requêtes qu’il contient. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace. Voir [Verrouillage/déverrouillage de classeurs](/help/analyze/report-builder/workbook-library/protect-wb.md).
 
 **Aide :** Lance la documentation d’aide du Report Builder que vous êtes en train de consulter.

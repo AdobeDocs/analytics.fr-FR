@@ -1,23 +1,23 @@
 ---
 title: Utilisation de la méthode tl() avec Activity Map
 description: Vous pouvez utiliser la méthode tl() pour effectuer le suivi des éléments personnalisés et configurer le rendu des superpositions pour le contenu dynamique.
-feature: 'Activity Map  '
+feature: Activity Map
 role: User, Admin
 exl-id: e4e32de7-0e46-413a-abc9-9707e273903d
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '481'
 ht-degree: 43%
 
 ---
 
-# Utilisation de la méthode `tl()` avec Activity Map
+# Utilisez la variable `tl()` méthode avec Activity Map
 
 Vous pouvez utiliser la méthode `tl()` pour suivre des éléments personnalisés et configurer le rendu des superpositions pour le contenu dynamique.
 
 ## Suivi d’éléments personnalisés
 
-L’utilisation de la [`tl()` méthode](/help/implement/vars/functions/tl-method.md) au sein du module Activity Map d’AppMeasurement vous permet de suivre les objets sur lesquels l’utilisateur clique, notamment ceux qui ne sont pas des balises d’ancrage ou des éléments d’image. `tl()` vous permet de suivre les éléments personnalisés qui ne génèrent pas de chargement de page.
+L’utilisation de la [`tl()` méthode](/help/implement/vars/functions/tl-method.md) au sein du module Activity Map d’AppMeasurement vous permet de suivre les objets sur lesquels l’utilisateur clique, notamment ceux qui ne sont pas des balises d’ancrage ou des éléments d’image. Utilisation `tl()`, vous pouvez effectuer le suivi des éléments personnalisés qui ne génèrent pas de chargement de page.
 
 Dans la méthode `tl()`, le paramètre `linkName` actuellement utilisé pour identifier les liens de sortie, les liens personnalisés, etc. est désormais utilisé pour identifier l’ID de lien pour la variable d’Activity Map.
 
@@ -25,11 +25,11 @@ Dans la méthode `tl()`, le paramètre `linkName` actuellement utilisé pour ide
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-En d’autres termes, si vous utilisez `tl()` pour suivre vos éléments personnalisés, l’ID de lien est extrait de la valeur transmise comme troisième paramètre (Nom du lien) dans la méthode `tl()`. Il n’est pas extrait de l’algorithme de suivi des liens standard utilisé pour le [suivi par défaut](activitymap-link-tracking-methodology.md) dans Activity Map.
+En d’autres termes, si vous utilisez `tl()` pour effectuer le suivi de vos éléments personnalisés, l’ID de lien est extrait de la valeur transmise comme troisième paramètre (nom du lien) dans la variable `tl()` . Il n’est pas extrait de l’algorithme de suivi des liens standard utilisé pour le [suivi par défaut](activitymap-link-tracking-methodology.md) dans Activity Map.
 
 ## Rendu des superpositions pour le contenu dynamique
 
-Lorsque la méthode `tl()` est appelée directement à partir de l’événement &quot;onclick&quot; de l’élément HTML, le Activity Map peut afficher une superposition pour cet élément lorsque la page web est chargée. Exemple :
+Lorsque la variable `tl()` est appelée directement à partir de l’événement &quot;onclick&quot; de l’élément de HTML, Activity Map peut afficher une superposition pour cet élément lorsque la page web est chargée. Exemple :
 
 ```html
 <a href="javascript:" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
@@ -48,7 +48,7 @@ Lorsque la méthode `tl()` n’est pas appelée directement à partir de l’év
 </script>
 ```
 
-Le meilleur moyen pour un Activity Map de superposer des liens de contenu dynamique consiste à configurer une fonction `ActivityMap.link` personnalisée afin d’appeler la même fonction que celle dont la valeur renvoyée est transmise à `tl()`. Par exemple :
+Le meilleur moyen pour un Activity Map de superposer des liens de contenu dynamique consiste à définir une `ActivityMap.link` configurée pour appeler la même fonction que celle dont la valeur renvoyée est transmise à `tl()`. Par exemple :
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
@@ -67,8 +67,8 @@ s.ActivityMap.link = function(element,linkName)
 <button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
-Ici, nous avons remplacé la fonction `ActivityMap.link` pour effectuer l’une des trois opérations lorsqu’elle est appelée :
+Ici, nous avons remplacé le `ActivityMap.link` pour effectuer l’une des trois opérations suivantes lorsqu’elle est appelée :
 
-1. Si `linkName` est transmis, il a été appelé par `tl()`, il suffit donc de renvoyer ce que `tl()` a transmis en tant que `linkName`.
-2. Lorsqu’il est appelé par le Activity Map au moment de la création de rapports, un `linkName` n’est jamais transmis. Par conséquent, appelez `makeLinkName()` avec l’élément de lien . Il s’agit de l’étape cruciale ici. L’appel `makeLinkName(element)` doit être identique au 3e argument de l’appel `tl()` dans la balise `<button>`. Cela signifie que lorsque `tl()` est appelé, nous suivons la chaîne renvoyée par `makeLinkName()`. Lorsque Activity Map crée des rapports sur les liens de la page, il utilise le même appel pour créer un lien.
-3. La dernière solution consiste simplement à renvoyer la valeur originale renvoyée par la fonction de lien Activity Map par défaut. Le fait de conserver cette référence pour appeler dans le cas par défaut vous permet de ne remplacer ou écrire du code personnalisé que pour `makeLinkName()` et de ne pas avoir à fournir une valeur de retour de lien pour tous les liens de la page.
+1. If `linkName` est transmis, puis il a été appelé par `tl()`, alors renvoyez simplement ce qui suit : `tl()` transmis en tant que `linkName`.
+2. Lorsqu’elle est appelée par le Activity Map au moment de la création de rapports, une `linkName` n’est jamais transmis, et l’appel `makeLinkName()` avec l’élément link . C&#39;est là une étape cruciale : `makeLinkName(element)` doit être identique à l’appel `tl()` 3e argument de l’appel dans la variable `<button>` balise . Cela signifie que lorsque `tl()` est appelée, nous suivons la chaîne renvoyée par `makeLinkName()`. Lorsque Activity Map crée des rapports sur les liens de la page, il utilise le même appel pour créer un lien.
+3. La dernière solution consiste simplement à renvoyer la valeur originale renvoyée par la fonction de lien Activity Map par défaut. Si vous conservez cette référence pour appeler dans le cas par défaut, vous n’avez plus qu’à remplacer ou à écrire du code personnalisé pour `makeLinkName()` et ne pas avoir à fournir une valeur de retour de lien pour tous les liens de la page.

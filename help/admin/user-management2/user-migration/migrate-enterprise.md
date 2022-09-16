@@ -4,7 +4,7 @@ title: Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID 
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
  </tbody> 
 </table>
 
-Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
+Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/enterprise/using/users.html)
 
 >[!NOTE]
 >

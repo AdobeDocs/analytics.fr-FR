@@ -6,7 +6,7 @@ exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 74%
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `channel` stocke généralement la section du site sur laquelle se t
 
 ## Canal utilisant le SDK Web
 
-Le canal est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webPageDetails.siteSection`.
+Le canal est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.siteSection`.
 
 ## Canal utilisant l’extension Adobe Analytics
 

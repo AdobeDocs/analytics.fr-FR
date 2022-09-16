@@ -1,6 +1,6 @@
 ---
 description: Étapes permettant d’ajouter des événements de calendrier et de gérer des événements partagés.
-title: Événements du calendrier de la validation
+title: Événements du calendrier présentation
 feature: Reports & Analytics Basics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd

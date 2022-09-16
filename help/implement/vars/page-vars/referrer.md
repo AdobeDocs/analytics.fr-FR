@@ -6,7 +6,7 @@ exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `referrer` remplace le référent collecté automatiquement dans les
 
 ## Référent utilisant le SDK Web
 
-Le référent est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) sous le champ XDM `web.webReferrer.URL`.
+Le référent est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webReferrer.URL`.
 
 ## Référent utilisant l’extension Adobe Analytics
 

@@ -3,7 +3,7 @@ title: Fonctionnement des relectures
 description: Comprendre le concept de « relecture » dans les analyses entre appareils
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 

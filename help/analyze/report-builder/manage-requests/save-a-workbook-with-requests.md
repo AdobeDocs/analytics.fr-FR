@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Le formulaire [!UICONTROL Enregistrement du modèle] présente des fonctions ide
 
 Un nom de fichier peut contenir, au maximum, 255 caractères. Les caractères suivants ne sont pas autorisés :
 
-\ ? | > &lt; : / * ’ &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 Ajoutons encore que vous ne pouvez pas utiliser de caractères Unicode en dehors du jeu des caractères ASCII étendus.
 

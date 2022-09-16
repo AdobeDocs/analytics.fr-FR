@@ -2,12 +2,12 @@
 description: Le rapport Liens tient compte des liens trouvés sur la page actuelle. Il ne tient pas compte de tous les liens collectés pour cette page.
 title: Rapport sur les liens
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-feature: 'Activity Map  '
+feature: Activity Map
 role: User, Admin
 exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '755'
 ht-degree: 100%
 
 ---
