@@ -3,10 +3,10 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 6788b904295fd92642d27ade65a31d61897069a3
+source-git-commit: be8e4c3a25dccaf7bd591f487e1131288ba26f2a
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 85%
+source-wordcount: '400'
+ht-degree: 79%
 
 ---
 
@@ -43,12 +43,6 @@ Le tableau suivant couvre tous les serveurs de collecte de données standard et 
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
-| `172.82.192.0/18` |
-| `185.34.188.0/22` |
-| `192.243.224.0/19` |
-| `205.219.231.0/24` |
-| `208.67.40.0/22` |
-| `208.77.136.0/22` |
 
 ## Collecte de données et blocs d’adresses IP FTP
 
@@ -56,68 +50,34 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 
 | Emplacement | Plage IP (notation CIDR) |
 | --- | --- |
-| Amsterdam | `66.117.28.0/23` |
-| Dallas | `205.219.231.0/24` |
-| Dallas | `66.235.152.0/22` |
-| Dallas | `66.235.140.0/22` |
-| Dallas | `63.140.32.0/21` |
-| Dallas | `172.82.208.0/22` |
-| Hong Kong (RAS de la Chine) | `66.117.24.0/22` |
+| Australie | `63.140.55.0/24` |
+| Australie | `63.140.56.0/23` |
+| Californie | `63.140.32.0/23` |
+| Californie | `63.140.34.0/24` |
+| Inde | `66.117.20.0/24` |
+| Inde | `66.117.22.0/23` |
+| Japon | `130.248.130.0/23` |
+| Japon | `130.248.169.0/23` |
+| Japon | `63.140.50.0/23` |
+| Japon | `66.117.31.0/24` |
 | Londres | `66.235.156.0/24` |
-| Londres | `66.235.148.0/23` |
-| Londres | `63.140.40.0/22` |
-| Londres | `208.67.41.0/24` |
-| Londres | `192.243.254.0/23` |
-| Londres | `192.243.244.0/22` |
-| Londres | `185.34.188.0/23` |
-| Londres | `130.248.152.0/21` |
-| Londres | `172.82.224.0/21` |
-| Londres | `172.82.232.0/21` |
-| Oregon | `192.243.240.0/22` |
-| Oregon | `192.243.232.0/21` |
-| Oregon | `192.243.224.0/21` |
-| Oregon | `130.248.160.0/21` |
-| Oregon | `130.248.148.0/22` |
-| Oregon | `172.82.192.0/21` |
-| Oregon | `172.82.216.0/21` |
-| Paris | `208.67.40.0/24` |
-| Singapour | `66.235.150.0/24` |
-| Singapour | `66.235.130.0/23` |
+| Oregon | `66.235.132.0/22` |
+| Singapour | `130.248.170.0/23` |
+| Singapour | `130.248.240.0/24` |
 | Singapour | `63.140.44.0/22` |
-| Singapour | `208.67.43.0/24` |
-| Singapour | `172.82.240.0/22` |
-| Singapour | `172.82.246.0/23` |
-| Singapour | `172.82.248.0/21` |
-| San José | `66.117.20.0/24` |
-| San José | `66.235.132.0/22` |
-| San José | `130.248.128.0/22` |
-| San José | `192.243.248.0/23` |
-| San José | `172.82.200.0/22` |
-| San José | `66.235.136.0/22` |
-| San José | `208.91.175.0/24` |
-| San José | `208.91.174.0/24` |
-| San José | `208.91.169.0/24` |
-| Sydney | `216.104.216.0/23` |
-| Tokyo | `66.235.159.0/24` |
-| Tokyo | `66.117.21.0/24` |
-| Tokyo | `63.140.52.0/24` |
-| Tokyo | `63.140.50.0/23` |
-| Virginie | `66.235.144.0/22` |
-| Virginie | `208.77.138.0/23` |
-| Virginie | `208.77.136.0/23` |
-| Virginie | `192.243.250.0/23` |
-| Virginie | `130.248.144.0/22` |
-| Virginie | `172.82.204.0/22` |
-| Virginie | `172.82.212.0/22` |
+| Singapour | `63.140.48.0/23` |
+| Singapour | `66.117.30.0/24` |
+| Virginie | `63.140.38.0/23` |
+| Virginie | `63.140.54.0/24` |
 
 ## Hôtes AWS
 
-Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de collecte de données. Le tableau suivant comprend les hôtes AWS réservés pour Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
+Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de collecte de données. Le tableau suivant comprend les adresses d’hôte AWS IPv4 réservées à l’Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
 
 | Emplacement | Hôte |
 | --- | --- |
-| Chine | `140.179.89.228` |
-| Chine | `140.179.125.98` |
+| Chine | `52.80.83.220` |
+| Chine | `71.132.16.253` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
@@ -130,3 +90,21 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | Virginie | `3.216.131.23` |
 | Virginie | `34.204.237.47` |
 | Virginie | `54.163.234.74` |
+
+Le tableau suivant comprend les blocs d’adresses IPv6 d’AWS utilisés par Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
+
+| Emplacement | Hôte |
+| --- | --- |
+| Australie | `2406:da1c:406:1a00::/56` |
+| Australie | `2406:da1c:ce5:b400::/56` |
+| Californie | `2600:1f1c:366:d900::/56` |
+| Inde | `2406:da1a:f34:6a00::/56` |
+| Irlande | `2a05:d018:309:600::/56` |
+| Japon | `2406:da14:b07:ab00::/56` |
+| Oregon | `2600:1f14:1eb:7d00::/56` |
+| Oregon | `2600:1f14:9d3:2b00::/56` |
+| Singapour | `2406:da18:6e8:1e00::/56` |
+| Virginie | `2600:1f18:1a20:e800::/56` |
+| Virginie | `2600:1f18:4fd:6000::/56` |
+| Virginie | `2600:1f18:b00:e100::/56` |
+| Virginie | `2600:1f18:d1f:bd00::/56` |
