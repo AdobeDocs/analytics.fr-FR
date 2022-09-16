@@ -4,10 +4,10 @@ description: Mises à jour notables de l’ensemble de documentation Adobe Analy
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '3448'
-ht-degree: 100%
+source-wordcount: '3331'
+ht-degree: 98%
 
 ---
 
@@ -23,14 +23,15 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Date | Description |
 | --- | --- |
+| **Septembre 2022** |  |
+| Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur [Ordre de traitement](/help/technotes/processing-order.md). |
 | **Juin 2022** |  |
-| Variables de marchandisage dans XDM pour Edge Collection | Documentation sur la [prise en charge des variables de marchandisage dans XDM pour Edge Collection](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=fr) |
-| Documentation sur Experience Platform Edge | Nouveaux articles sur l’implémentation d’Adobe Analytics via le [SDK Web](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=fr), le [SDK Mobile](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=fr) et l’[API Edge](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=fr). |
-| Mise à jour de la documentation sur la visualisation de flux | En fonction de la [nouvelle interface utilisateur](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=fr) |
-| Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Analysis Workspace dans les cartes de performance mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=fr). |
-| Documentation sur la version de syntaxe de produit des variables de marchandisage avec Edge Collection | Vous pouvez désormais définir des variables de marchandisage à l’aide de l’équivalent de la syntaxe de produit en définissant les champs XDM correspondants. Vous trouverez plus de détails sur la syntaxe de produit pour les variables de marchandisage [ici](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). Consultez les mappages pour la syntaxe de produit [ici](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr#aep-edge). |
+| Variables de marchandisage dans XDM pour Edge Collection | Documentation sur la [prise en charge des variables de marchandisage dans XDM pour Edge Collection](/help/components/dimensions/evar-merchandising.md) |
+| Documentation sur Experience Platform Edge | Nouveaux articles sur l’implémentation d’Adobe Analytics via le [SDK Web](/help/implement/aep-edge/web-sdk/overview.md), le [SDK Mobile](/help/implement/aep-edge/mobile-sdk/overview.md) et l’[API Edge](/help/implement/aep-edge/edge-api/overview.md). |
+| Mise à jour de la documentation sur la visualisation de flux | En fonction de la [nouvelle interface utilisateur](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Analysis Workspace dans les cartes de performance mobiles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mai 2022** |  |
-| Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Consultez la documentation pour savoir quels champs XDM correspondent aux rapports de cycle de vie mobile existants. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) |
+| Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Voir [Mappage des variables Analytics](/help/implement/aep-edge/variable-mapping.md) pour plus d’informations sur les champs XDM mappés aux rapports de cycle de vie mobile existants. |
 | **Avril 2022** |  |
 | Mises à jour de la page de destination dʼAdobe Analytics | Mises à jour de la [page de destination conjointe Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
 | Nouvelle rubrique sur le panneau [!UICONTROL Résumé de la page] | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
@@ -58,7 +59,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 5 août 2021 | Mise à jour de la documentation sur les classifications au sujet des [modèles](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=fr), de l’[importation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=fr) et de l’[exportation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=fr) afin d’indiquer les options non disponibles pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de nom d’[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=fr). |
 | **Juillet 2021** |  |
-| 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en). |
+| 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). |
 | 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page de destination d’Adobe Analytics](/help/analyze/landing.md). |
 | **Juin 2021** |  |
 | 15 juin 2021 | Mise à jour des [Bonnes pratiques relatives aux canaux marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=fr). |
