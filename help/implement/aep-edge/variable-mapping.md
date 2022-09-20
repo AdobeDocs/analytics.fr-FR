@@ -29,7 +29,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | `commerce.checkouts.value` | Incrémente la mesure [Passages en caisse](../../components/metrics/checkouts.md) de la quantité souhaitée. |
 | `commerce.order.currencyCode` | Définit la variable de configuration [currencyCode](../vars/config-vars/currencycode.md). |
 | `commerce.order.purchaseID` | Définit la variable de page [purchaseID](../vars/page-vars/purchaseid.md). |
-| `commerce.order.transactionID` | Définit la variable [transactionID](../vars/page-vars/transactionid.md) Variable de page. |
+| `commerce.order.transactionID` | Définit la variable de page [transactionID](../vars/page-vars/transactionid.md). |
 | `commerce.productListAdds.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure [Ajouts au panier](../../components/metrics/cart-additions.md). |
 | `commerce.productListAdds.value` | Incrémente la mesure [Ajouts au panier](../../components/metrics/cart-additions.md). |
 | `commerce.productListOpens.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure [Paniers](../../components/metrics/carts.md). |
@@ -118,7 +118,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 | `web.webInteraction.name` | La dimension [Lien personnalisé](../../components/dimensions/custom-link.md), [Lien de téléchargement](../../components/dimensions/download-link.md) ou [Lien de sortie](../../components/dimensions/exit-link.md) selon la valeur dans `web.webInteraction.type` |
 | `web.webInteraction.type` | Détermine le type de lien sur lequel l’utilisateur a cliqué. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie). |
 | `web.webPageDetails.URL` | La dimension [URL de la page](../../components/dimensions/page-url.md). |
-| `web.webPageDetails.errorPage` | Indicateur qui permet de déterminer la [dimension](../../components/dimensions/pages-not-found.md) et la [mesure](../../components/metrics/pages-not-found.md) ‘Pages introuvables’. |
+| `web.webPageDetails.errorPage` | Indicateur qui permet de déterminer la [dimension](../../components/dimensions/pages-not-found.md) et la [mesure](../../components/metrics/pages-not-found.md) « Pages introuvables ». |
 | `web.webPageDetails.name` | La dimension [Page](../../components/dimensions/page.md). |
 | `web.webPageDetails.server` | La dimension [Serveur](../../components/dimensions/server.md). |
 | `web.webPageDetails.siteSection` | La dimension [Section du site](../../components/dimensions/site-section.md). |

@@ -5,7 +5,7 @@ exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
 source-wordcount: '1927'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Lʼassemblage entre appareils des analyses entre appareils (CDA) se produit dans
 
 * Le second processus est nommé « relecture ». Au cours de la relecture, les CDA remontent dans le temps et retraitent les données historiques, si possible, au cours dʼun intervalle de recherche en amont spécifié. Cet intervalle de recherche en amont est soit de 1 jour, soit de 7 jours, selon la configuration choisie pour les CDA. Au cours de la relecture, les CDA tentent de retraiter les accès où la personne était précédemment inconnue.
 
-* **Si vous utilisez une représentation graphique des appareils**, Adobe conserve les mappages Device Graph pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans les analyses entre appareils ne sont pas affectées. les accès suivants pour cet ECID sont traités comme une nouvelle personne.
+* **Si vous utilisez un graphique de l’appareil**, Adobe conserve les mappages du graphique de l’appareil pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans CDA ne sont pas affectées, mais les accès ultérieurs pour cet ECID sont considérés comme une nouvelle personne.
 
 ## De quelle manière les analyses entre appareils gèrent-elles les accès horodatés ?
 
