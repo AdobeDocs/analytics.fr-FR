@@ -4,18 +4,14 @@ title: Visualisation des diagrammes en courbes
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 34%
+source-wordcount: '756'
+ht-degree: 33%
 
 ---
 
 # Graphique combo
-
->[!NOTE]
->
->Cette fonctionnalité fait actuellement l’objet de [tests limités](/help/release-notes/releases.md).
 
 Le [!UICONTROL Graphique en courbes] la visualisation facilite la création rapide d’une visualisation de comparaison sans avoir à créer d’abord un tableau. Vous pouvez facilement afficher les tendances de vos données dans une combinaison ligne/barre.
 

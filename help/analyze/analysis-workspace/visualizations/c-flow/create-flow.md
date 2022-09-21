@@ -4,18 +4,14 @@ title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: c0e590dab9e45768cf8f8bd20f17d7f5306f41bd
+source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 96%
+source-wordcount: '1376'
+ht-degree: 89%
 
 ---
 
 # Configuration d’une visualisation de flux
-
->[!NOTE]
->
->Cette nouvelle version de la visualisation [!UICONTROL Flux] fait actuellement l’objet de tests limités.
 
 La visualisation Flux mise à jour vous permet de comprendre le parcours qui résulte ou qui mène à un événement de conversion spécifique sur votre site web ou votre application. Elle trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Le flux vous permet de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
 
@@ -23,7 +19,7 @@ La nouvelle expérience [!UICONTROL flux] améliore votre workflow de plusieurs 
 
 * Vous pouvez désormais choisir de commencer ou de terminer votre chemin par la combinaison d’une mesure et d’une dimension de cheminement.
 * Cette expérience contient des [!UICONTROL Paramètres avancés] pour vous permettre de personnaliser davantage le [!UICONTROL flux].
-* Le nouveau bouton « Créer » permet de gagner du temps dans l’analyse en vous permettant de configurer le parcours en une seule fois, puis d’effectuer des requêtes, et de créer automatiquement plusieurs colonnes et nœuds à la fois.
+* Le nouveau bouton &quot;Créer&quot; permet de gagner du temps dans l’analyse en vous permettant de configurer le parcours en une seule fois, puis d’effectuer des requêtes, puis de créer automatiquement plusieurs colonnes et noeuds à la fois &#x200B;.
 
 ![nouvelle interface utilisateur de flux](assets/new-flow.png)
 
@@ -123,7 +119,7 @@ Lorsque vous utilisez cette option, gardez à l’esprit que :
 * Si vous utilisez cette option avec un flux **[!UICONTROL Commence par]**, seule la première occurrence correspondant au critère de début est incluse.
 * Si vous utilisez cette option avec un flux **[!UICONTROL Se termine par]**, seule la dernière occurrence correspondant au critère de fin est incluse.
 * La série utilisée diffère en fonction du conteneur. Si vous utilisez le conteneur de **[!UICONTROL visites]**, la série d’accès correspond à la session. Si vous utilisez le conteneur de **[!UICONTROL visiteurs]**, la série d’accès correspond à tous les accès d’un utilisateur donné dans la période fournie.
-* L’option **[!UICONTROL Limiter à la première/dernière occurrence]** peut être configurée dans les paramètres avancés lors de l’utilisation d’un élément de mesure ou de dimension dans les champs « Commence par » ou « Se termine par ».
+* Le **[!UICONTROL Limiter à la première/dernière occurrence]** peut être configurée dans les paramètres avancés lors de l’utilisation d’une mesure ou d’un élément de Dimension dans les champs &quot;Commence par&quot; ou &quot;Se termine par&quot;.
 
 Exemple de série d’accès :
 
@@ -136,13 +132,10 @@ Accueil > Produits > Ajouter au panier > Produits > Ajouter au panier > Facturat
 * Conteneur de [!UICONTROL visites]
 
 If **[!UICONTROL Limiter à la première/dernière occurrence]** is *disabled*, cette série unique d’accès comptabilise 2 occurrences de &quot;Ajouter au panier&quot;.
-Sortie de flux attendue :
-« Ajouter au panier » (2) —> « Produits » (1)
--> « Facturation » (1)
+Sortie de flux attendue : &quot;Ajouter au panier&quot; (2) —> &quot;Produits&quot; (1) -> &quot;Facturation&quot; (1)
 
 Cependant, si **[!UICONTROL Limiter à la première/dernière occurrence]** is *enabled*, seule la première occurrence de &quot;Ajouter au panier&quot; est incluse dans l’analyse.
-Sortie de flux attendue :
-« Ajouter au panier » (1) —> « Produits » (1)
+Sortie de flux attendue : &quot;Ajouter au panier&quot; (1) —> &quot;Produits&quot; (1)
 
 ### Prenons la même série d’accès, mais avec les paramètres suivants :
 
@@ -150,10 +143,8 @@ Sortie de flux attendue :
 * Dimension du cheminement [!UICONTROL Page]
 * Conteneur de [!UICONTROL visites]
 
-Si l’option **[!UICONTROL Limiter à la première/dernière occurrence]** est *désactivée*, cette seule série d’accès comptabilise alors 2 occurrences d’« Ajouter au panier ».
-Sortie de flux attendue :
-« Produits » (2) &lt;— « Ajouter au panier » (2)
+If **[!UICONTROL Limiter à la première/dernière occurrence]** is *disabled*, cette série unique d’accès comptabilise 2 occurrences de &quot;Ajouter au panier&quot;.
+Sortie de flux attendue : &quot;Produits&quot; (2) &lt;— &quot;Ajouter au panier&quot; (2)
 
 Cependant, si l’option **[!UICONTROL Limiter à la première/dernière occurrence]** est *activée*, seule la dernière occurrence d’[!UICONTROL Ajouter au panier] est incluse dans l’analyse.
-Sortie de flux attendue :
-« Produits » (1) &lt;— « Ajouter au panier » (1)
+Sortie de flux attendue : &quot;Produits&quot; (1) &lt;— &quot;Ajouter au panier&quot; (1)
