@@ -3,10 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
 workflow-type: tm+mt
-source-wordcount: '2267'
-ht-degree: 100%
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gestionnaire de code](/help/admin/admin/code-manager-admin.md).
+
+## Version 2.23.0
+
+Date de publication : **À déterminer**
+
+* AppMeasurement prend désormais en charge la collecte d’indices client agent-utilisateur à forte entropie que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur l’appareil. Vous pouvez configurer des conseils client via Balises ou utiliser l’indicateur &quot;collectHighEntropyUserAgentHints&quot;. La collecte des indices à forte entropie est désactivée par défaut. En savoir plus sur les conseils client de l’agent-utilisateur ici [lien à suivre].
+
 
 ## Version 2.22.4
 

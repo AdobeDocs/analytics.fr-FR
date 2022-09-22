@@ -3,7 +3,7 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835898b2a4c060f2e0202d79c58c73d4928c330d
+source-git-commit: 37ccee95461d732777ba1608dafe678fa896546c
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 68%
@@ -56,4 +56,4 @@ AN-288519 ; AN-289300 ; AN-297387 ; AN-297465 ; AN-297520 ; AN-297641 ; AN
 
 ## AppMeasurement
 
-Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.22.4), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
+Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.23.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
