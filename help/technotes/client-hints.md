@@ -1,7 +1,7 @@
 ---
 title: Conseils client
 description: Découvrez comment les conseils du client remplaceront progressivement l’agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
+source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 5%
@@ -17,7 +17,7 @@ Google divise les conseils du client User-Agent en deux catégories : indices à
 
 * **Conseils à faible entropie** contiennent des informations plus génériques sur les périphériques. Ces astuces sont automatiquement fournies par les navigateurs Chromium.
 
-* **Haute entropie** Les conseils contiennent des informations plus détaillées. Ces astuces ne sont disponibles que sur demande. AppMeasurement et le SDK Web peuvent être configurés pour demander des indices à forte entropie. Par défaut, les deux bibliothèques le font **not** demander des indices à forte entropie.
+* **Haute entropie** Les conseils contiennent des informations plus détaillées. Ces astuces ne sont disponibles que sur demande. AppMeasurement et SDK Web [peut être configuré](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) pour demander des indices à forte entropie. Par défaut, les deux bibliothèques le font **not** demander des indices à forte entropie.
 
 >[!NOTE]
 >
