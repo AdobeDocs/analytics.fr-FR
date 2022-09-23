@@ -1,9 +1,9 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: Utilisez la variable collectHighEntropyUserAgentHints pour déterminer si Adobe va demander des indicateurs d’entropie élevée aux navigateurs Chrome et Microsoft Edge (par exemple, Google Chrome et Edge).
-source-git-commit: 03d12625a0089672fa0a27f8f720065c5ca16a62
+source-git-commit: 9c386dd26e31b8b2dc2b4a52ae502f9505ec467d
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
@@ -15,11 +15,11 @@ Adobe Analytics utilise des indices client à forte entropie pour améliorer l�
 
 ## Collecte d’indices à forte entropie à l’aide du SDK Web
 
-Les indicateurs client à forte entropie font partie des catégories de contexte dans le SDK Web. Voir [Configuration du SDK Web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) pour plus d’informations.
+Les conseils client à forte entropie font partie des catégories de contexte dans le SDK Web. Voir [Configuration du SDK Web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) pour plus d’informations.
 
 ## Collecte d’indices à forte entropie à l’aide de l’extension Adobe Analytics
 
-&quot;Collecter les indices agent-utilisateur à forte entropie&quot; est une case à cocher située sous l’accordéon Général lors de la configuration de l’extension Adobe Analytics.
+**[!UICONTROL Collecte de conseils d’agent-utilisateur à forte entropie]** est une case à cocher située sous l’accordéon Général lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/#/@adobepm/data-collection) à l’aide de vos identifiants Adobe ID.
 
