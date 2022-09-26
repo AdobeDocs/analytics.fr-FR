@@ -2,10 +2,10 @@
 title: Gestionnaire des ensembles de classifications
 description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
+source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ Le Gestionnaire des ensembles de classifications vous permet de créer, de modif
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement limitée. Si vous souhaitez y avoir accès, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte, qui pourra transmettre votre demande à l’équipe Classifications pour la mise en service.
+>Cette fonctionnalité sera disponible pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]**
 
