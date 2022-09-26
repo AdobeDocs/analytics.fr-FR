@@ -1,9 +1,9 @@
 ---
 title: Conseils client
 description: Découvrez comment les conseils du client remplaceront progressivement l’agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '855'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,15 @@ Les conseils client s’appliquent uniquement aux navigateurs Chromium tels que 
 
 +++
 
++++**Les conseils client sont-ils pris en charge pour les connexions non sécurisées ?
+
+Non. Les indices client ne peuvent être collectés que par le biais d’une connexion HTTP sécurisée, telle que HTTPS.
+
++++
+
 +++**Des conseils client seront-ils disponibles dans les données envoyées à AEP et CJA via Adobe Source Connector ?**
 
-Nous prévoyons d’inclure des conseils aux clients dans les données via Adobe Source Connector au cours du premier semestre 2023.
+Adobe prévoit d&#39;inclure des conseils aux clients dans les données par l&#39;intermédiaire de Adobe Source Connector au cours du premier semestre 2023.
 
 +++
 
