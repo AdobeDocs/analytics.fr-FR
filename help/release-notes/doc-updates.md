@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
 workflow-type: tm+mt
 source-wordcount: '3467'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Module externe mis à jour | Mise à jour de la version de [getvalonce](/help/implement/vars/plugins/getvalonce.md) module d’implémentation. |
 | Nouvelle variable de configuration | Documentation sur [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Conseils sur les clients à forte entropie | Nouvelle rubrique sur l’utilisation de l’Adobe [conseils client](/help/technotes/client-hints.md) en plus de User-Agent pour déterminer les informations sur le périphérique. |
-| Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur [Ordre de traitement](/help/technotes/processing-order.md). |
+| Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur l’[ordre de traitement](/help/technotes/processing-order.md). |
 | **Août 2022** |  |
 | Prise en charge des variables de listes dans XDM pour Edge Collection | Permet aux clients qui collectent des données à travers Experience Edge/le SDK web d’utiliser XDM pour spécifier le contenu de la variable de liste. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=fr#list-variables-using-the-web-sdk) | 18 août 2022 |
 | Utilisation du champ SKU dans XDM pour Edge Collection lors de la définition des variables de chaîne de produit | Permet aux clients qui collectent des données à travers Experience Edge/le SDK web d’utiliser la valeur de SKU pour définir le champ de produit dans la variable de produits. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=fr#produits-utilisant-le-sdk-web) |
@@ -38,7 +38,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour de la documentation sur la visualisation de flux | En fonction de la [nouvelle interface utilisateur](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Analysis Workspace dans les cartes de performance mobiles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **Mai 2022** |  |
-| Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Voir [Mappage des variables Analytics](/help/implement/aep-edge/variable-mapping.md) pour plus d’informations sur les champs XDM mappés aux rapports de cycle de vie mobile existants. |
+| Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Reportez-vous au [mappage des variables Analytics](/help/implement/aep-edge/variable-mapping.md) pour savoir quels champs XDM correspondent aux rapports existants relatifs au cycle de vie mobile. |
 | **Avril 2022** |  |
 | Mises à jour de la page de destination dʼAdobe Analytics | Mises à jour de la [page de destination conjointe Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
 | Nouvelle rubrique sur le panneau [!UICONTROL Résumé de la page] | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
