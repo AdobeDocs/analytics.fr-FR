@@ -5,9 +5,9 @@ title: Astuces et conseils concernant les règles de traitement
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,4 +65,4 @@ Sélectionnez la condition de correspondance correcte afin de trouver la conditi
 
 Si une règle VISTA est configurée pour copier des accès vers une autre suite de rapports, les accès sont envoyés via toute règle de traitement définie sur l’autre suite de rapports.
 
-Si des règles de traitement sont définies sur la suite de rapports d’origine, elles peuvent être ou non appliquées en fonction de la configuration de la règle VISTA par les services d’ingénierie. Pour le savoir, vous pouvez demander à votre spécialiste de la mise en œuvre si la règle VISTA copie les valeurs « pré » ou « post » dans la suite de rapports supplémentaire. Si la valeur « pré » est copiée, les règles de traitement définies sur la suite de rapport d’origine ne sont pas appliquées. Si la valeur « post » est copiée, les règles de traitement sont appliquées avant la copie de l’accès.
+Si des règles de traitement sont définies sur la suite de rapports d’origine, leur application dépend de la manière dont la règle VISTA a été configurée par les services d’ingénierie. Pour le savoir, vous pouvez demander à votre spécialiste de la mise en œuvre si la règle VISTA copie les valeurs « pré » ou « post » dans la suite de rapports supplémentaire. Si la valeur « pré » est copiée, les règles de traitement définies sur la suite de rapport d’origine ne sont pas appliquées. Si la valeur « post » est copiée, les règles de traitement sont appliquées avant la copie de l’accès.
