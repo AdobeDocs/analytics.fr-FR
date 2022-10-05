@@ -4,10 +4,10 @@ description: Mises à jour notables de l’ensemble de documentation Adobe Analy
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 97%
+source-wordcount: '3545'
+ht-degree: 95%
 
 ---
 
@@ -21,8 +21,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 ## Détails sur les mises à jour majeures de la documentation
 
-| Date | Description |
+| Fonctionnalité | Description |
 | --- | --- |
+| **Octobre 2022** |  |
+| Résumé des mesures clés | Nouvelle rubrique sur [Résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md) visualisation. |
+| Jeux de classifications | Le nouvel utilisateur [Jeux de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) experience fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
+| Application mobile : Affichages détaillés personnalisés | Nouvelle rubrique sur [vues détaillées personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr). |
+| Data Workbench | Data Workbench [FAQ sur la fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **Septembre 2022** |  |
 | Graphiques combinés | Nouvelle rubrique sur [graphiques combinés](/help/analyze/analysis-workspace/visualizations/combo-charts.md) visualisation. |
 | Module externe mis à jour | Mise à jour de la version de [getvalonce](/help/implement/vars/plugins/getvalonce.md) module d’implémentation. |
@@ -63,7 +68,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 18 août 2021 | Nouvelle section sur [A4T et les suites de rapports virtuelles](/help/components/vrs/vrs-a4t.md) |
 | 18 août 2021 | Nouvelle section sur les [Bonnes pratiques en matière dʼattribution](/help/analyze/analysis-workspace/attribution/best-practices.md) |
 | 5 août 2021 | Nouvelle rubrique sur [Compter les instances répétées](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html?lang=fr). |
-| 5 août 2021 | Mise à jour de la documentation sur les classifications au sujet des [modèles](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=fr), de l’[importation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=fr) et de l’[exportation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=fr) afin d’indiquer les options non disponibles pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| 5 août 2021 | Mise à jour de la documentation sur les classifications au sujet des [modèles](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en), de l’[importation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) et de l’[exportation du navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en) afin d’indiquer les options non disponibles pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de nom d’[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=fr). |
 | **Juillet 2021** |  |
 | 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr). |
