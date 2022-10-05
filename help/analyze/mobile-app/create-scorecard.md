@@ -4,10 +4,10 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
+source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 100%
+source-wordcount: '1747'
+ht-degree: 74%
 
 ---
 
@@ -66,7 +66,7 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque.
 
-Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Marketing Channel]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en effectuant une opération de glisser-déposer sur la mosaïque. Les ventilations de dimensions sʼaffichent sous la section [!UICONTROL Ventilation] des **[!UICONTROL Propriétés]** propres à la mosaïque. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Marketing Channel]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en effectuant une opération de glisser-déposer sur la mosaïque. Les ventilations de Dimensions s’affichent sous [!UICONTROL Ins de zoom] section de la diapositive spécifique aux détails **[!UICONTROL Propriétés]**. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
 
 ![Ajouter des dimensions](assets/layer_dimensions.png)
 
@@ -154,13 +154,15 @@ Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos
 
 ## Affichage et configuration des propriétés dʼune mosaïque {#tiles}
 
-Lorsque vous cliquez sur une mosaïque du Créateur de cartes de performance, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque. Depuis ce rail, vous pouvez renseigner un nouveau **[!UICONTROL Titre]** pour la mosaïque ou configurer la mosaïque en précisant des composants au lieu de les faire glisser et de les déposer depuis le rail de gauche.
+Lorsque vous cliquez sur une mosaïque du Créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque et à sa diapositive de détail. Dans ce rail, vous pouvez fournir une nouvelle **Titre** pour la mosaïque et configurez la mosaïque en appliquant des segments.
 
 ![Volet Propriétés](assets/properties_tile.png)
 
-Si vous cliquez sur les mosaïques, une fenêtre contextuelle dynamique affiche comment lʼutilisateur en charge de lʼexécution voit la Ventilation dans lʼapplication. Si aucune dimension n’a été appliquée à la mosaïque, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
+## Afficher les diapositives détaillées {#view-detail-slides}
 
-Les ventilations affinent votre analyse en décomposant littéralement les mesures et les dimensions par dʼautres mesures et dimensions, comme dans cet exemple de vente au détail :
+Lorsque vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique affiche la diapositive de détail à l’intention de l’utilisateur en charge de l’exécution dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de ventilation sera **hour** ou **days**, selon la période par défaut.
+
+Les ventilations affinent votre analyse en ventilant littéralement les mesures par éléments de dimension.
 
 * Mesure Visiteurs uniques ventilée par Plateforme publicitaire (AMO ID)
 * Mesure Visites ventilée par Catégorie de produit (vente au détail)
@@ -168,7 +170,31 @@ Les ventilations affinent votre analyse en décomposant littéralement les mesur
 
 ![Breakdown_view](assets/break_view.png)
 
-Chaque dimension ajoutée à la mosaïque apparaît dans une liste déroulante dans la vue détaillée de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
+Chaque dimension ajoutée à la diapositive de détail s’affiche dans une liste déroulante dans la vue de la diapositive de détail de l’application. L’utilisateur en charge de l’exécution peut alors choisir parmi les options répertoriées dans la liste déroulante.
+
+## Personnalisation des diapositives détaillées {#customize-detail-slide}
+
+Les diapositives détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience. Vous pouvez modifier la mise en page de chaque diapositive de détail et ajouter du texte afin de mieux expliquer ce que l’utilisateur peut voir dans les données. Vous pouvez également modifier le type de graphique à l’aide du menu déroulant.
+
+![Diapositive de détails personnalisée](assets/custom-detail-slide.png)
+
+### Modifier la disposition de la diapositive
+
+Modifiez la disposition de la diapositive pour vous concentrer sur les informations les plus importantes. Par exemple, vous pouvez modifier la mise en page pour n’afficher qu’un graphique ou un tableau. Pour modifier la disposition de la diapositive, sélectionnez l’un des formats prédéfinis.
+
+![Disposition des diapositives](assets/layout.png)
+
+Vous pouvez également modifier la disposition des diapositives en faisant glisser et en déposant les composants de visualisation du rail de gauche sur la zone de travail. Chaque diapositive de détail ne peut contenir que deux visualisations à la fois.
+
+![Modification de la mise en page des diapositives](assets/slide-layout-change.png)
+
+### Ajout d’un texte descriptif à une diapositive
+
+Vous pouvez ajouter du texte pour fournir des informations significatives sur ce qui est contenu dans les graphiques ou des nuances sur les données.
+
+Pour ajouter du texte à une diapositive de détail, sélectionnez une mise en page qui affiche le `T` ou faites glisser et déposez le composant Visualisation de texte depuis le rail de gauche. L’éditeur de texte s’ouvre automatiquement lors de l’ajout d’une nouvelle visualisation de texte ou du choix d’une mise en page avec diapositives. L’éditeur de texte fournit toutes les options standard pour le formatage de votre texte. Vous pouvez appliquer des styles de texte tels que des paragraphes, des en-têtes et des sous-titres, et appliquer une police en gras et en italique. Vous pouvez justifier du texte, ajouter des listes à puces et numérotées et ajouter des liens. Une fois la modification terminée, cliquez sur le bouton Réduire dans le coin supérieur droit de l’éditeur de texte pour le fermer. Pour modifier le texte que vous avez déjà ajouté, cliquez sur l’icône représentant un crayon pour ouvrir à nouveau l’éditeur de texte.
+
+![Modification de la mise en page des diapositives](assets/add-descriptive-text.png)
 
 ## Suppression de composants {#remove}
 
