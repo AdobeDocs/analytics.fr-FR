@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indices client agent-utilisateur à forte entropie que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur l’appareil. Vous pouvez configurer des conseils client via Balises ou utiliser l’indicateur &quot;collectHighEntropyUserAgentHints&quot;. La collecte des indices à forte entropie est désactivée par défaut. En savoir plus sur User-Agent [conseils client](/help/technotes/client-hints.md).
+* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les périphériques. Vous pouvez configurer des indications du client au moyen des les balises ou utiliser l’indicateur « collectHighEntropyUserAgentHints ». La collecte des indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 
 ## Version 2.22.4
@@ -456,7 +456,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## Version 1.1.1
 
