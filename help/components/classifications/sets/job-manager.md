@@ -3,9 +3,9 @@ title: Gestionnaire des tâches des ensembles de classifications
 description: Affichez les tâches de classification en cours et terminées, générées par des ensembles de classifications.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 source-git-commit: cc01d492dbbf99fc6a2736c4c50d889933d6f4ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
