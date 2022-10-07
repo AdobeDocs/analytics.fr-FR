@@ -3,9 +3,9 @@ title: Création d’un ensemble de classifications
 description: Champs et descriptions disponibles lors de la création d’un ensemble de classifications
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
