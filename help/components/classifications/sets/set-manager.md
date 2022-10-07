@@ -3,9 +3,9 @@ title: Gestionnaire des ensembles de classifications
 description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
