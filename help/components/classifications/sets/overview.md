@@ -3,9 +3,9 @@ title: Présentation des ensembles de classifications
 description: Utilisez les ensembles de classifications pour gérer les données de classification.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: faa1c730e051000032b4c442b43f17bd9c4d76d1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ Les ensembles de classifications fournissent une interface unique pour gérer le
 
 >[!NOTE]
 >
->Les jeux de classifications seront disponibles pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
+>Les ensembles de classifications seront disponibles pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]**
 
