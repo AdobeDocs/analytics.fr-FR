@@ -4,13 +4,13 @@ description: Découvrez l’ordre des composants et services qui traitent les do
 source-git-commit: 0881efeb2ce4f7af96f42bc925e43ce5ba1f64a2
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Ordre de traitement des données dans Adobe Analytics
 
-Adobe offre de nombreuses façons de modifier ou de manipuler les données avant qu’elles n’apparaissent dans les rapports. Cette page affiche l’ordre dans lequel les différentes fonctionnalités d’Adobe Analytics traitent les données. Vous pouvez utiliser cette liste pour résoudre les incohérences entre les données ou déterminer la meilleure fonctionnalité à utiliser lorsque des ajustements des données sont nécessaires.
+Adobe offre de nombreuses façons de modifier ou de manipuler les données avant qu’elles n’apparaissent dans les rapports. Cette page indique l’ordre dans lequel différentes fonctionnalités d’Adobe Analytics traitent les données. Vous pouvez utiliser cette liste pour résoudre les incohérences entre les données ou déterminer la meilleure fonctionnalité à utiliser lorsque des ajustements des données sont nécessaires.
 
 ![Ordre de traitement](assets/processing-order.png)
 
@@ -20,7 +20,7 @@ Avant d’envoyer les données à Adobe, elles sont généralement compilées c�
 
 * **AppMeasurement** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées directement à Adobe Analytics.
 * **SDK Web Adobe Experience Platform** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées à Adobe Experience Edge.
-* **Balises dans la collecte de données Adobe Experience Cloud** : fichier JavaScript référencé sur chaque page, contenant les règles créées dans l’interface utilisateur de collecte de données. L’extension Adobe Analytics offre un moyen plus facile de mettre en oeuvre AppMeasurement. L’extension SDK Web offre un moyen plus facile de mettre en œuvre le SDK Web.
+* **Balises dans la collecte de données Adobe Experience Cloud** : fichier JavaScript référencé sur chaque page, contenant les règles créées dans l’interface utilisateur de collecte de données. L’extension Adobe Analytics offre un moyen plus simple de mettre en œuvre AppMeasurement. L’extension SDK Web offre un moyen plus facile de mettre en œuvre le SDK Web.
 
 Si vous envoyez des données à Adobe Experience Edge, vous pouvez le configurer pour transférer des données à Adobe Analytics (ainsi qu’à de nombreuses autres solutions Adobe Experience Cloud). Quelle que soit la méthode de mise en œuvre, une demande d’image contenant les variables souhaitées est envoyée aux serveurs de collecte de données d’Adobe.
 
