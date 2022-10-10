@@ -4,9 +4,9 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1750'
 ht-degree: 74%
 
 ---
@@ -156,13 +156,13 @@ Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos
 
 Lorsque vous cliquez sur une mosaïque du Créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque et à sa diapositive de détail. Dans ce rail, vous pouvez fournir une nouvelle **Titre** pour la mosaïque et configurez la mosaïque en appliquant des segments.
 
-![Volet Propriétés](assets/properties_tile.png)
+![Volet Propriétés](assets/properties-tile-new.png)
 
 ## Afficher les diapositives détaillées {#view-detail-slides}
 
 Lorsque vous cliquez sur des mosaïques, une fenêtre contextuelle dynamique affiche la diapositive de détail à l’intention de l’utilisateur en charge de l’exécution dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de ventilation sera **hour** ou **days**, selon la période par défaut.
 
-Les ventilations affinent votre analyse en ventilant littéralement les mesures par éléments de dimension.
+Les ventilations affinent votre analyse en ventilant les mesures par éléments de dimension, tels que :
 
 * Mesure Visiteurs uniques ventilée par Plateforme publicitaire (AMO ID)
 * Mesure Visites ventilée par Catégorie de produit (vente au détail)
