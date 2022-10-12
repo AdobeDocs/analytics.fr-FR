@@ -1,10 +1,10 @@
 ---
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,11 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 >[!NOTE]
 >
->À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium commenceront à « figer »la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. Lorsque les utilisateurs mettent à niveau leurs périphériques, le système d’exploitation dans la chaîne Agent-utilisateur ne change pas. Ainsi, au fil du temps, les informations relatives à la version d’exploitation telles qu’elles sont représentées dans la chaîne Agent-utilisateur deviendront moins précises. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
+>À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium commenceront à « figer »la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
+
+>[!NOTE]
+>
+>AAM nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte de conseils à forte entropie.
 
 ## Questions fréquentes
 
@@ -49,6 +53,24 @@ Pas pour le moment. Vous pouvez choisir de collecter toutes les indications à e
 
 +++
 
++++**Quelles sont les différentes valeurs d’indice client ?**
+
+Le tableau ci-dessous décrit les conseils aux clients en date d’octobre 2022.
+
+| Indication | Description | Entropie élevée ou faible | Exemple |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | Navigateur et version significative | Faible | &quot;Google Chrome 84&quot; |
+| Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | TRUE |
+| Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | &quot;Android&quot; |
+| Sec-CH-UA-Arch | Architecture du site | Élevé | &quot;arm&quot; |
+| Sec-CH-UA-Bitness | Architecture Bitness | Élevé | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | Version complète du navigateur | Élevé | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | Modèle de périphérique | Élevé | &quot;Pixel 3&quot; |
+| Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | &quot;10&quot; |
+
++++
+
 +++**Les rapports sur les périphériques seront-ils modifiés dans Analytics ?**
 
 Les champs de périphérique disponibles pour la création de rapports ne changeront pas. Les données capturées pour ces champs peuvent changer en fonction du champ et de la manière dont vous avez configuré la collecte des indications du clients.
@@ -57,18 +79,19 @@ Les champs de périphérique disponibles pour la création de rapports ne change
 
 +++**Quels champs de rapport Analytics sont dérivés de la chaîne Agent-utilisateur ?**
 
+Ces champs sont directement dérivés de User-Agent, mais User-Agent peut être utilisé pour dériver des valeurs pour d’autres champs liés à l’appareil, en fonction des détails de l’appareil.
+
 * [Navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=fr)
 * [Type de navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=fr)
 * [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)
 * [Types de systèmes d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=fr)
 * [Appareils mobiles et type d’appareils mobiles](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=fr)
-* [Flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=fr)
 
 +++
 
 +++**Quels champs de création de rapports Analytics sont dérivés de valeurs stockées dans des indications à entropie élevée ?**
 
-À compter de septembre 2022, la chronologie publiée par Google pour les indications Agent-utilisateur « figées » indique que la version du système d’exploitation ne sera plus mise à jour à compter d’octobre 2022. Lorsque les utilisateurs effectuent la mise à niveau de leur système d’exploitation, la version du système d’exploitation dans Agent-utilisateur n’est pas mise à jour. Sans une entropie élevée, la précision de la version du système d’exploitation, incluse dans la dimension « Système d’exploitation » d’Analytics, va progressivement se dégrader.
+Cela changera au fil du temps, car Google &quot;gèle&quot; d’autres parties de l’agent utilisateur. Le premier champ à être directement impacté est &quot;Système d’exploitation&quot; qui inclut la version du système d’exploitation Selon le calendrier publié par Google pour le &quot;blocage&quot; des indices User-Agent, la version du système d’exploitation sera gelée à compter de la fin octobre 2022 avec la version 107 de Chromium. À ce stade, la version du système d’exploitation dans l’agent utilisateur sera inexacte dans certains cas.
 
 Reportez-vous à la section [chronologie publiée par Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html) pour voir le délai de figement d’autres parties d’Agent-utilisateur.
 
@@ -82,11 +105,11 @@ Adobe utilise un tiers, Device Atlas, qui utilisera les indications du client e
 
 +++**Quels navigateurs sont affectés par les indications du client ?**
 
-Les indications du client s’appliquent uniquement aux navigateurs Chromium tels que Google Chrome et Microsoft Edge. Les données d’autres navigateurs ou applications mobiles ne sont pas modifiées.
+Les conseils client s’appliquent uniquement aux navigateurs Chromium tels que Google Chrome et Microsoft Edge. Les données d’autres navigateurs ou applications mobiles ne sont pas modifiées.
 
 +++
 
-+++**Les indications du client sont-elles prises en charge pour les connexions non sécurisées ?
++++**Les conseils client sont-ils pris en charge sur les connexions non sécurisées ?**
 
 Non. Les indications du client ne peuvent être collectées que par le biais d’une connexion HTTP sécurisée, telle que HTTPS.
 
@@ -104,28 +127,15 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++
 
-+++**Quels sont les différents champs d’indications ? Quels sont ceux qui affectent les rapports sur les périphériques ?**
-
-Le tableau ci-dessous décrit les indications du client depuis septembre 2022.
-
-| Indication | Description | Entropie élevée ou faible | Exemple |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | Navigateur et version significative | Faible | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | TRUE |
-| Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architecture du site | Élevé | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Architecture Bitness | Élevé | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Version complète du navigateur | Élevé | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modèle de périphérique | Élevé | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | &quot;10&quot; |
-
-+++
-
-
-
 +++**Quelles parties de la chaîne Agent-utilisateur sont « figées » et quand ?**
 
 Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Elle peut être sujette à des modifications.
 
 +++
+
++++**AAM transfert côté serveur prend-il en charge les conseils du client ?**
+
+Oui. Les indices client seront inclus dans les données transférées à AAM. Notez que AAM nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) vous pouvez ensuite activer la collecte d’indices à forte entropie.
+
++++
+
