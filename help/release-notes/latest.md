@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 78%
+source-wordcount: '1569'
+ht-degree: 75%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre 2022)
 
-**Dernière mise à jour**: 5 octobre 2022
+**Dernière mise à jour**: 13 octobre 2022
 
 Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -30,6 +30,7 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 | **[!UICONTROL Résumé des mesures clés]** visualisation | Le [!UICONTROL Résumé des mesures clés] la visualisation vous permet de visualiser les tendances d’une mesure importante au cours d’une seule période. Il vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | Déploiement par phases commençant le 5 octobre 2022 |
 | Nouveau **[!UICONTROL Jeux de classifications]** expérience utilisateur | La nouvelle expérience utilisateur fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 5 octobre 2022 |
 | Application mobile : **Affichages détaillés personnalisés** | Les vues détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience, en leur permettant de vous concentrer sur les informations les plus importantes. Vous pouvez modifier la mise en page de la vue détaillée associée à chaque mosaïque de Fiche d’évaluation et vous pouvez ajouter du texte pour mieux expliquer ce que l’utilisateur peut voir dans les données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr) | 5 octobre 2022 |
+| **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1` - `mvvar3` dans les flux de données ne seront plus automatiquement mis en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | 24 octobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
