@@ -1,10 +1,10 @@
 ---
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '948'
+ht-degree: 75%
 
 ---
 
@@ -99,7 +99,7 @@ Reportez-vous à la section [chronologie publiée par Google](https://blog.chrom
 
 +++**Comment Adobe utilisera-t-il les indications du client pour obtenir des informations sur le périphérique ?**
 
-Adobe utilise un tiers, Device Atlas, qui utilisera les indications du client et la chaîne Agent-utilisateur pour obtenir des informations sur le périphérique.
+Adobe utilise un tiers, Device Atlas, qui utilisera les astuces du client et User-Agent pour obtenir des informations sur l’appareil.
 
 +++
 
