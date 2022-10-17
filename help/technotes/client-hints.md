@@ -1,10 +1,10 @@
 ---
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 75%
+source-wordcount: '1073'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,11 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 * Les **indications à faible entropie** contiennent des informations plus génériques sur les périphériques. Ces indications sont automatiquement fournies par les navigateurs Chromium.
 
-* Les **indications à entropie élevée** contiennent des informations plus détaillées. Ces indications ne sont disponibles que sur demande. AppMeasurement et SDK Web [peuvent être configurés](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) pour demander des indications à entropie élevée. Par défaut, les deux bibliothèques ne demandent **pas** d’indications à entropie élevée.
+* Les **indications à entropie élevée** contiennent des informations plus détaillées. Ces indications ne sont disponibles que sur demande. AppMeasurement et SDK Web peuvent être configurés pour demander des indications à entropie élevée. Par défaut, les deux bibliothèques ne demandent **pas** d’indications à entropie élevée.
+
+>[!NOTE]
+>
+>À compter de la mi-janvier 2023, les conseils aux clients seront intégrés au processus de recherche d’appareils Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données d’indices, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-janvier. Cela permet d’éviter toute interruption potentielle des rapports pendant la période critique de la fin de l’année. Comme indiqué ci-dessous, la version du système d’exploitation sera bloquée à compter d’octobre, mais en raison d’un déploiement progressif et du fait que la plupart des agents utilisateur seront gelés jusqu’à la version correcte du système d’exploitation, nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
@@ -37,13 +41,9 @@ Cet [article de blog Google](https://web.dev/user-agent-client-hints/) est une b
 
 +++**Comment activer la collecte des indications du client ?**
 
-Les indications à entropie élevée sont automatiquement fournies par le navigateur et incluses dans le processus d’Adobe pour la dérivation des informations sur le périphérique et le navigateur. Les nouvelles versions d’AppMeasurement (commençant par 2.23.0) et du SDK Web (commençant par 2.12.0) peuvent être configurées pour collecter des indications à entropie élevée. Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
+Les indices à faible entropie sont automatiquement fournis par le navigateur et ingérés pour la dérivation des informations sur le périphérique et le navigateur. Les nouvelles versions du SDK Web (commençant par 2.12.0) et AppMeasurement (commençant par 2.23.0) peuvent être configurées pour collecter des indices à forte entropie via leurs extensions Balises respectives ou directement via une option de configuration. Voir les instructions pour [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) et [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**Comment capturer des indications à entropie élevée ?**
-
-Les indications à entropie élevée peuvent être configurées avec le SDK Web et les bibliothèques AppMeasurement via leurs extensions de balises respectives ou directement avec l’indicateur collectHighEntropyUserAgentHints.
+Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
 
 +++
 
@@ -89,6 +89,12 @@ Ces champs sont directement dérivés de User-Agent, mais User-Agent peut être 
 
 +++
 
++++**Quelles parties de la chaîne Agent-utilisateur sont « figées » et quand ?**
+
+Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Elle peut être sujette à des modifications.
+
++++
+
 +++**Quels champs de création de rapports Analytics sont dérivés de valeurs stockées dans des indications à entropie élevée ?**
 
 Cela changera au fil du temps, car Google &quot;gèle&quot; d’autres parties de l’agent utilisateur. Le premier champ à être directement impacté est &quot;Système d’exploitation&quot; qui inclut la version du système d’exploitation Selon le calendrier publié par Google pour le &quot;blocage&quot; des indices User-Agent, la version du système d’exploitation sera gelée à compter de la fin octobre 2022 avec la version 107 de Chromium. À ce stade, la version du système d’exploitation dans l’agent utilisateur sera inexacte dans certains cas.
@@ -115,6 +121,12 @@ Non. Les indications du client ne peuvent être collectées que par le biais d�
 
 +++
 
++++**Comment inclure des données d’indice client lors de l’utilisation de l’envoi d’API ?**
+
+Consultez la documentation pour inclure ces via [API Bulk Data Insertion](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**Des indications du client seront-elles disponibles dans les données envoyées à AEP et CJA via le connecteur source d’Adobe ?**
 
 Adobe prévoit d’inclure des indications du client dans les données par l’intermédiaire du connecteur source d’Adobe au cours du premier semestre 2023.
@@ -124,12 +136,6 @@ Adobe prévoit d’inclure des indications du client dans les données par l’i
 +++**Comment les indications du client sont-elles représentées dans XDM ?**
 
 Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121) dans Adobe Experience Platform.
-
-+++
-
-+++**Quelles parties de la chaîne Agent-utilisateur sont « figées » et quand ?**
-
-Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Elle peut être sujette à des modifications.
 
 +++
 
