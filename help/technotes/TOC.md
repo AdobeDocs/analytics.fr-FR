@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
-user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui n’appartiennent pas à un outil ou composant Analytics spécifique.
+user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant Analytics spécifique.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
    + [Comparaison de dates aux plages précédentes](event/compare-dates.md)
    + [Dérivation de données affectées par les événements](event/calcmetrics.md)
    + [Communication d’événements aux utilisateurs](event/communicate.md)
-+ [Conseils client](client-hints.md)
++ [Indications du client](client-hints.md)
 + Cookies {#cookies}
    + [Cookies de navigateur](cookies/cookies.md)
    + [Options pour atténuer l’effet des restrictions des cookies de navigateur](cookies/cookieless.md)

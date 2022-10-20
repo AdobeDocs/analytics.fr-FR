@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
-user-guide-description: Gérez les données à l’aide de composants tels que Segments, Mesures calculées, Suites de rapports virtuelles, Canaux marketing et Classifications. En savoir plus sur les analyses entre appareils.
+user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '689'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
