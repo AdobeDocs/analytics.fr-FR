@@ -4,10 +4,10 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -160,9 +160,9 @@ Lorsque vous cliquez sur une vignette dans le créateur de cartes de performance
 
 ## Afficher les diapositives détaillées {#view-detail-slides}
 
-Si vous cliquez sur les vignettes, une fenêtre contextuelle dynamique monte comment l’utilisateur en charge de l’exécution voit la diapositive détaillée dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de ventilation sera **hour** ou **days**, selon la période par défaut.
+Si vous cliquez sur les vignettes, une fenêtre contextuelle dynamique monte comment l’utilisateur en charge de l’exécution voit la diapositive détaillée dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
 
-Les ventilations affinent votre analyse en ventilant les mesures par éléments de dimension, tels que :
+Les ventilations affinent votre analyse en ventilant les mesures par éléments de dimension, tels que :
 
 * Mesure Visiteurs uniques ventilée par Plateforme publicitaire (AMO ID)
 * Mesure Visites ventilée par Catégorie de produit (vente au détail)
@@ -174,7 +174,11 @@ Chaque dimension ajoutée à la diapositive détaillée s’affichera dans une l
 
 ## Personnaliser des diapositives détaillées {#customize-detail-slide}
 
-Les diapositives détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience. Vous pouvez modifier la disposition de chaque diapositive détaillée et ajouter du texte afin de mieux expliquer ce que l’utilisateur final peut voir dans les données. Vous pouvez également modifier le type de graphique à l’aide du menu déroulant.
+Les diapositives détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+Vous pouvez modifier la disposition de chaque diapositive détaillée et ajouter du texte afin de mieux expliquer ce que l’utilisateur final peut voir dans les données. Vous pouvez également modifier le type de graphique à l’aide du menu déroulant.
 
 ![Diapositive détaillée personnalisée](assets/custom-detail-slide.png)
 
@@ -186,7 +190,7 @@ Modifiez la disposition de la diapositive pour vous concentrer sur les informati
 
 Vous pouvez également modifier la disposition des diapositives en glissant-déposant les composants de visualisation du rail de gauche sur la zone de travail. Chaque diapositive détaillée ne peut contenir que deux visualisations à la fois.
 
-![Modifier la disposition des diapositives](assets/slide-layout-change.png)
+![Modification la disposition des diapositives](assets/slide-layout-change.png)
 
 ### Ajouter un texte descriptif à une diapositive
 
@@ -196,7 +200,7 @@ Pour ajouter du texte à une diapositive détaillée, sélectionnez une disposit
 
 ![Modifier la disposition des diapositives](assets/add-descriptive-text.png)
 
-## Suppression de composants {#remove}
+## Supprimer des composants {#remove}
 
 De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
 

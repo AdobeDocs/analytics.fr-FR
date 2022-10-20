@@ -3,10 +3,10 @@ description: En savoir plus sur l’enregistrement de projets dans des dossiers 
 keywords: Analysis Workspace
 title: Enregistrement de projets dans des dossiers
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +17,7 @@ Pour enregistrer un nouveau projet dans un dossier spécifique, sélectionnez le
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement limitée. Certains écrans peuvent changer.
+>Cette fonctionnalité est actuellement en version bêta. Certains écrans peuvent changer.
 
 1. Dans Workspace, créez un projet.
 

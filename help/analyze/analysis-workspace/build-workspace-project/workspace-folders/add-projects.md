@@ -3,10 +3,10 @@ description: Découvrez comment ajouter des dossiers dans Workspace
 keywords: Analysis Workspace
 title: Ajout de dossiers dans Workspace
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 4%
+source-wordcount: '224'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez ajouter des projets à un dossier en mode Tableau ou dans un dossier
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement limitée. Certains écrans peuvent changer.
+>Cette fonctionnalité est actuellement en version bêta. Certains écrans peuvent changer.
 
 ## En mode Tableau
 

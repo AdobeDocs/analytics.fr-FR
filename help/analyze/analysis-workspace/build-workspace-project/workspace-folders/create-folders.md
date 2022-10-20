@@ -3,10 +3,10 @@ description: Découvrez comment créer des dossiers et des sous-dossiers dans Wo
 keywords: Analysis Workspace
 title: Création de dossiers
 feature: Workspace Basics
-source-git-commit: 81158bb8893e0826c5bcabac2bed6eac735164d8
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 11%
+source-wordcount: '152'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez ajouter un nouveau dossier ou un nouveau sous-dossier à la liste de
 
 >[!NOTE]
 >
->Cette fonctionnalité est actuellement limitée. Certains écrans peuvent changer.
+>Cette fonctionnalité est actuellement en version bêta. Certains écrans peuvent changer.
 
 ## Créer un dossier
 
