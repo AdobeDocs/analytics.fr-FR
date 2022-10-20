@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
+source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 87%
+source-wordcount: '1562'
+ht-degree: 89%
 
 ---
 
@@ -27,7 +27,7 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 
 | Fonctionnalité | Description | [Date ciblée](releases.md) |
 | ----------- | ---------- | ------- |
-| **Dossiers dans les projets Workspace** | Les dossiers dans les projets Workspace aident les utilisateurs à organiser et catégoriser leurs projets à l’aide de dossiers pour une meilleure récupération et un meilleur accès. Un dossier d’entreprise partagé permet aux administrateurs de créer et de partager facilement du contenu avec tous les utilisateurs de Workspace. [En savoir plus](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 19 octobre 2022 |  | Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=fr) | Le déploiement par phases commence le 5 octobre 2022. |
+| Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=fr) | Le déploiement par phases commence le 5 octobre 2022. |
 | Nouvelle expérience client avec **[!UICONTROL jeux de classifications]** | La nouvelle expérience client fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) | 5 octobre 2022 |
 | Application mobile : **Vues détaillées personnalisées** | Les vues détaillées personnalisées vous permettent de cibler encore mieux les informations que vous partagez avec votre audience, en lui permettant de se concentrer sur ce qui est le plus important. Vous pouvez modifier la mise en page de la vue détaillée associée à chaque vignette de carte de performance et vous pouvez ajouter du texte pour mieux expliquer ce que l’utilisateur peut voir dans les données. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr) | 5 octobre 2022 |
 | **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1` - `mvvar3` dans les flux de données ne seront plus automatiquement mis en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | 24 octobre 2022 |
