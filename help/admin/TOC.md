@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 10a325b5479b6852fc98ed780f59ee525ec6f51b
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -84,6 +84,7 @@ ht-degree: 100%
       + [Rapports en temps réel - Présentation](admin/realtime/realtime.md)
       + [Configuration des rapports en temps réel](admin/realtime/t-realtime-admin.md)
       + [Mesures et dimensions en temps réel prises en charge](admin/realtime/realtime-metrics.md)
+   + [Responsable des activités de rapport](admin/reporting-activity.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
       + [Transfert côté serveur - Présentation](admin/c-server-side-forwarding/ssf.md)
