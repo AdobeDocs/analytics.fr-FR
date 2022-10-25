@@ -4,10 +4,10 @@ title: Responsable des activités de rapport
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 70cfad1a04d17e1007178f32af73988be503fe90
+source-git-commit: 6ab2f39bdfc3a50c2b91f020c98b0e81da8b2b8e
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 1%
+source-wordcount: '406'
+ht-degree: 3%
 
 ---
 
@@ -28,23 +28,21 @@ Le Gestionnaire d’activités de création de rapports vous permet d’afficher
 
 Dans Adobe Analytics, les administrateurs accèdent à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
 
-## Gestion de la file d’attente des rapports
+## Affichage de la file d’attente des rapports
 
-Lors de l’ouverture du Gestionnaire d’activités de création de rapports, une liste des suites de rapports de base s’affiche. Les suites de rapports virtuelles ne sont pas incluses dans cette vue.
+Lors de l’ouverture de la page d’aperçu du Gestionnaire des activités de création de rapports , la liste de vos suites de rapports de base activées s’affiche.
 
 ![file d&#39;attente des rapports](assets/reporting-activity1.png)
 
-Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées et descendent dans la suite de rapports de base. Ainsi, si vous avez 10 requêtes provenant de 5 suites de rapports virtuelles, il s’agit de 50 requêtes au niveau de la suite de rapports de base. De cette façon, vous pouvez atteindre la capacité très rapidement.
-
-Voici une vue d’une suite de rapports virtuelle dont la capacité de création de rapports s’affiche en temps réel :
-
-![suites de rapports virtuelles](assets/reporting-activity-vrs.png)
+| Élément de lʼinterface utilisateur | Description |
+| --- | --- |
+| **[!UICONTROL Suite de rapports]** | La suite de rapports de base |
+| **[!UICONTROL Suite de rapports virtuelle]** | Toutes les suites de rapports virtuelles qui s’insèrent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées et descendent dans la suite de rapports de base.<p>Si vous avez 10 requêtes provenant de 5 suites de rapports virtuelles, il s’agit de 50 requêtes dans la suite de rapports de niveau de base. De cette façon, vous pouvez atteindre la capacité très rapidement. |
+| **[!UICONTROL Capacité d’utilisation]** | En pourcentage, la capacité de création de rapports de la suite de rapports est utilisée, en temps réel. |
+| **[!UICONTROL État]** | Quatre indicateurs de statut possibles : <ul><li>**Rouge - À capacité**: La suite de rapports est limitée en termes de capacité de création de rapports.</li><li>**Jaune - Nourrir la capacité**: Cette suite de rapports risque d’atteindre sa capacité maximale.</li><li>**Vert - Disponible**: Il existe de nombreuses capacités de reporting.</li><li>**Gris - Non disponible**: La suite de rapports n’est pas configurée pour la capacité de création de rapports.</li></ul> |
 
 Actualisez la page pour modifier les résultats.
 
-## Incidences sur les rapports Workspace
+## Filtrage des suites de rapports
 
-
-
-
-
+Vous pouvez filtrer les suites de rapports selon les
