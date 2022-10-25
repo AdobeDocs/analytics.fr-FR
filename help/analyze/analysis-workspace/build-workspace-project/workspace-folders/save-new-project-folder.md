@@ -3,7 +3,9 @@ description: En savoir plus sur l’enregistrement de projets dans des dossiers 
 keywords: Analysis Workspace
 title: Enregistrement de projets dans des dossiers
 feature: Workspace Basics
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+hide: true
+hidefromtoc: true
+source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 5%
