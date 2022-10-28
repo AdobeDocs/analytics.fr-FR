@@ -3,10 +3,10 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
 workflow-type: tm+mt
-source-wordcount: '3864'
-ht-degree: 100%
+source-wordcount: '3827'
+ht-degree: 97%
 
 ---
 
@@ -210,14 +210,7 @@ Créez un segment comme vous le feriez pour un segment   segment séquentiel sim
 
 Si le point de contrôle d’exclusion se situe au début d’un segment séquentiel, cette option s’assure qu’une page exclue n’a pas été vue avant le premier accès non exclu.
 
-**Exemple** : le visiteur a visité la page A et non la page B.
-
-**Cas d’utilisation**
-
-Vous trouverez ci-dessous des exemples de cas d’utilisation de ce type de segment :
-
-* Les visiteurs qui ont visité la page A et n’ont pas visité la page B.
-* Un restaurant veut voir les utilisateurs incurables qui évitent la page d’entrée principale et vont directement à la page Commande à emporter.
+Par exemple, un restaurant souhaite voir les utilisateurs incurables qui évitent la page d’entrée principale et accèdent directement à la page Commande à emporter. Cet exemple peut être simplifié pour un visiteur qui évite de visiter la page A et d’accéder directement à la page B.
 
 **Créer ce segment**
 
@@ -229,14 +222,7 @@ Créez deux conteneurs d’accès distincts au sein d’un conteneur de visiteur
 
 Si le point de contrôle d’exclusion se situe à la fin d’une séquence, cette option s’assure que le point de contrôle ne s’est pas produit entre le dernier point non exclu et la fin de la séquence du visiteur.
 
-**Exemple** : les visiteurs ont consulté la page A, mais n’ont pas, par la suite, consulté la page B, que ce soit lors de la visite en cours ou de visites ultérieures.
-
-**Cas d’utilisation**
-
-Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
-
-* Les visiteurs qui ont visité la page A et n’ont pas visité la page B.
-* Un restaurant veut voir les utilisateurs incurables qui évitent la page d’entrée principale et vont directement à la page Commande à emporter.
+Par exemple, une boutique de vêtements souhaite afficher tous les visiteurs qui ont consulté une page de produits, mais qui n’ont jamais consulté leur panier par la suite. Cet exemple peut être simplifié pour un visiteur qui accède à la page A sans jamais accéder à la page B au cours de ses visites actuelles ou ultérieures.
 
 **Créer ce segment**
 
