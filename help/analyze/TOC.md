@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 98%
+source-wordcount: '1059'
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 98%
       + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + Dossiers dans Workspace {#workspace-folders}
          + [À propos des dossiers dans Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [Création de dossiers et de sous-dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [Créer des dossiers et des sous-dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Ajouter des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [Suppression d’un projet](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [Enregistrement d’un nouveau projet](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [Supprimer un projet](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [Enregistrer un nouveau projet](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [Modèles](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Suites de rapports multiples](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Raccourcis clavier](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -305,7 +305,6 @@ ht-degree: 98%
       + [Menu Rapports](reports-analytics/overview/reports-menu.md)
       + [Fonctionnalités d’un rapport](reports-analytics/overview/report-overview.md)
       + [Termes courants](reports-analytics/overview/overview-common-terms.md)
-      + [Adobe Analytics pour iOS](reports-analytics/overview/app-ios.md)
    + [Paramètres d’affichage des rapports et navigation](reports-analytics/report-settings.md)
    + [Planification et distribution des rapports](reports-analytics/scheduling.md)
    + [Avis de fin de vie pour les rapports planifiés](reports-analytics/scheduled-reports-eol.md)
