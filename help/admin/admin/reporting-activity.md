@@ -3,9 +3,9 @@ description: Découvrez comment utiliser le Gestionnaire des activités de créa
 title: Responsable des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 7%
 
 ---
@@ -45,6 +45,8 @@ Lors de l’ouverture de la page d’aperçu du Gestionnaire des activités de c
 | **[!UICONTROL Suite de rapports virtuelle]** | Affiche toutes les suites de rapports virtuelles qui se trouvent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées et descendent dans la suite de rapports de base.<p>Par exemple, si vous avez 10 requêtes provenant de 5 suites de rapports virtuelles, il s’agit de 50 requêtes au niveau de la suite de rapports de base. De cette façon, vous pouvez atteindre la capacité très rapidement. |
 | **[!UICONTROL Capacité d’utilisation]** | En pourcentage, la capacité de création de rapports de la suite de rapports est utilisée, en temps réel. |
 | **[!UICONTROL État]** | Quatre indicateurs de statut possibles : <ul><li>**Rouge - [!UICONTROL À la capacité]**: La suite de rapports est limitée en termes de capacité de création de rapports. (95 à 100 %) </li><li>**Jaune - [!UICONTROL Capacité locale]**: Cette suite de rapports risque d’atteindre sa capacité maximale. (90 à 94 %)</li><li>**Vert - [!UICONTROL Très bien]**: Il existe de nombreuses capacités de reporting. (0 à 90 %)</li><li>**Gris - [!UICONTROL Statut en attente]**: ?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Autres actions relatives aux activités de création de rapports
 
