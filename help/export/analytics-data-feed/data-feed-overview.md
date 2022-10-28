@@ -4,10 +4,10 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 100%
+source-wordcount: '575'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ Les flux de données sont un moyen puissant d’extraire des données brutes d�
 
 ## Conditions préalables
 
-Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utiliser les flux de données.
+Assurez-vous de respecter toutes les exigences suivantes avant d’utiliser des flux de données.
 
 * Ayez un site FTP et des identifiants à portée de main. Les flux de données peuvent être envoyés uniquement vers une destination de serveur. Votre entreprise fournit généralement les identifiants au FTP. Adobe peut fournir un emplacement FTP avec une quantité modeste de stockage à votre demande. Contactez l’assistance clientèle pour demander une destination FTP pour les flux de données.
 * Une implémentation opérationnelle qui envoie des données vers les serveurs de collecte de données Adobe. Consultez la section [Validation et publication d’une implémentation](/help/implement/launch/validate-publish-prod.md) dans le guide de l’utilisateur de l’implémentation.

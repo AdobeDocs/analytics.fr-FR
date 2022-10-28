@@ -1,18 +1,18 @@
 ---
-title: eVar (marchandisage) pour les Dimensions
+title: eVar (dimension de marchandisage)
 description: Variables personnalisées liées à la dimension des produits.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. Pour plus d’informations sur l’implémentation des eVars de marchandisage, consultez la section [eVars](/help/implement/vars/page-vars/evar.md) dans le guide de l’utilisateur de l’implémentation.*
+*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
 
 Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
 

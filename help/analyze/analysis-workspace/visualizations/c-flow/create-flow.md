@@ -4,10 +4,10 @@ title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ La nouvelle expérience [!UICONTROL flux] améliore votre workflow de plusieurs 
 
    * Utiliser le menu déroulant pour sélectionner des mesures ou des dimensions.
    * Faire glisser des éléments depuis la liste de dimensions ou de mesures.
-   * Effectuer une recherche pour trouver les mesures ou la dimension souhaitée(s).
+   * Utilisez la recherche pour trouver la dimension ou la mesure que vous recherchez.
 
    Supposons, par exemple, que vous souhaitiez suivre tout ce qui mène à un événement de passage en caisse. Faites glisser une dimension ou une mesure liée au passage en caisse (telle que [!UICONTROL La commande existe]) dans la zone de dépôt **[!UICONTROL Se termine par]**.
 

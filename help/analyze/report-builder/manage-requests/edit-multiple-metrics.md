@@ -4,10 +4,10 @@ title: Modification des mesures de plusieurs demandes
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Gardez à l’esprit que :
 
 * Les mesures peuvent uniquement être ajoutées à des demandes de type Disposition croisée dynamique. Si certaines des demandes sélectionnées sont de type Disposition personnalisée, les mesures ne peuvent pas être ajoutées. En effet, la disposition étant personnalisée, le Report Builder ne sait pas où placer la nouvelle mesure dans la feuille de calcul.
 * Par conséquent, si vous avez uniquement sélectionné demandes de type Disposition personnalisée, l’option **[!UICONTROL Ajouter des mesures]** n’est pas disponible.
-* L’ajout de mesures augmente la taille de la demande, si bien qu’elle risque d’en chevaucher une autre. Assurez-vous que la demande dispose de suffisamment d’espace pour permettre l’ajout de mesures.
+* L’ajout de mesures augmente la taille de la demande, si bien qu’elle risque d’en chevaucher une autre. Assurez-vous que votre requête dispose de suffisamment d’espace autour pour permettre l’ajout de mesures.
 * Si la mesure ajoutée est déjà présente dans l’une des demandes sélectionnées, elle n’est pas ajoutée à celle-ci.
 
 Pour ajouter une ou plusieurs mesures :
@@ -29,7 +29,7 @@ Pour ajouter une ou plusieurs mesures :
 1. Sélectionnez une ou plusieurs demandes dans Excel et cliquez avec le bouton droit pour sélectionner **[!UICONTROL Modifier les mesures]**. (Ou cliquez sur **[!UICONTROL Gérer]** > **[!UICONTROL Modifier plusieurs]** > `<choose metric>` > **[!UICONTROL Modifier le groupe]** pour sélectionner le groupe de demandes à modifier.)
 1. Sélectionnez **[!UICONTROL Ajouter des mesures]** et sélectionnez les mesures à ajouter.
 
-   ![](assets/add_metric.png)
+   ![Ajouter une mesure](assets/add_metric.png)
 
 1. Actualisez la demande pour afficher les données réelles. Tant que vous n’avez pas actualisé, les données hors connexion s’affichent.
 
@@ -52,7 +52,7 @@ Pour remplacer une mesure
 
 1. Sélectionnez **[!UICONTROL Remplacer la mesure]**.
 
-   ![](assets/replace_metric.png)
+   ![Remplacer une mesure](assets/replace_metric.png)
 
 1. Sélectionnez la mesure à remplacer et la mesure de remplacement.
 1. Actualisez la demande. Tant que vous n’avez pas actualisé, les données hors connexion s’affichent.
@@ -72,7 +72,7 @@ Pour supprimer des mesures :
 
 1. Sélectionnez **[!UICONTROL Supprimer des mesures]**.
 
-   ![](assets/remove_metric.png)
+   ![Supprimer une mesure](assets/remove_metric.png)
 
 1. Sélectionnez une ou plusieurs mesures à supprimer de la demande.
 1. Actualisez la demande. Tant que vous n’avez pas actualisé, les données hors connexion s’affichent.

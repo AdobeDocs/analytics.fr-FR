@@ -3,10 +3,10 @@ description: Découvrez comment effectuer la migration des règles de traitement
 title: Migration des règles de traitement Mobile Services vers Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 100%
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Cependant, si vous configurez des règles de traitement supplémentaires dans l�
 
    ![Variable contextuelle](assets/context-var.png)
 
-1. Dans Experience Cloud, passez à Adobe Analytics et vérifiez que vous êtes dans la même suite de rapports mobile que celle que vous recherchiez dans Mobile Services.
+1. Dans Experience Cloud, passez à Adobe Analytics et vérifiez que vous vous trouvez dans la même suite de rapports mobile que celle que vous avez consultée dans Mobile Services.
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]**.
 1. Ignorez les conditions et continuez à ajouter la ou les même(s) variable(s) contextuelle(s) existant dans Mobile Services.
@@ -59,7 +59,7 @@ Voici un extrait du modèle d’utilisation des applications mobiles :
 Pour accéder aux modèles :
 
 1. Connectez-vous à `experience.adobe.com` et sélectionnez Analytics.
-1. Assurez-vous d’être dans une suite de rapports activée pour Mobile Services.
+1. Assurez-vous que vous êtes dans une suite de rapports activée pour Mobile Services.
 1. Cliquez sur l’onglet **[!UICONTROL Workspace]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]**.
 1. Sélectionnez l’un des modèles mobiles et cliquez sur **[!UICONTROL Créer]**.

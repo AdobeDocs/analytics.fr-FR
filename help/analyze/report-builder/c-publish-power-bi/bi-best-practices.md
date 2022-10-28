@@ -4,10 +4,10 @@ title: Bonnes pratiques
 feature: Report Builder
 role: User, Admin
 exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 97%
+source-wordcount: '139'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 Une fois que vous créez une requête, celle-ci aura toujours la même référence dans Power BI. Mais si vous la supprimez, la référence sera utilisée par une nouvelle requête que vous créez pour la même dimension.
 
-Si vous supprimez une requête dans votre classeur, assurez-vous qu’aucune visualisation ne pointe vers cette requête dans Power BI, sinon la visualisation sera corrompue.
+Si vous supprimez une requête dans votre classeur, assurez-vous qu’aucune visualisation pointant vers cette requête n’est disponible dans Power BI, car dans le cas contraire, la visualisation sera interrompue.
 
 * Dans la mesure du possible, ne supprimez pas les requêtes que vous avez créées dans le Report Builder
 * Si vous supprimez des requêtes dans le Report Builder, veillez à supprimer également la visualisation correspondante dans Power BI.

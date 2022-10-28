@@ -3,16 +3,16 @@ title: Pays
 description: Le pays d’où provient l’accès.
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '269'
+ht-degree: 89%
 
 ---
 
 # Pays
 
-La dimension « Pays » indique le pays d’où provient l’accès. Cette dimension est utile pour déterminer les pays les plus fréquents depuis lesquels les visiteurs accèdent à votre site. Vous pouvez utiliser ces données dans le cadre de vos efforts marketing ou pour vous assurer que l’expérience offerte par votre site est optimale dans les pays où la langue principale est différente.
+La dimension « Pays » indique le pays d’où provient l’accès. Cette dimension est utile pour déterminer les pays les plus fréquents depuis lesquels les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour vous concentrer sur les efforts marketing dans ces pays ou vous assurer que l’expérience de votre site est optimale dans les pays qui ont des langues Principales différentes.
 
 ## Renseignement de cette dimension avec des données
 

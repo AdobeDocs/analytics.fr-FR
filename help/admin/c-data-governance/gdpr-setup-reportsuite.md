@@ -1,12 +1,12 @@
 ---
-description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les étiquettes et leurs définitions.
+description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée.
 title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 **Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer une étiquette pour les adresses électroniques et les ID de cookie, vous devez utiliser le cadre DULE (Data Usage Labeling &amp; Enforcement) d’Adobe Cloud Platform dans Analytics.
 
-1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Gouvernance des données]** > **[!UICONTROL (sélectionnez la suite de rapports)]** ![](assets/privacy_rs_settings.png)
+1. Dans Analytics, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Gouvernance des données]** > **[!UICONTROL (sélectionnez la suite de rapports)]** ![Paramètres de confidentialité](assets/privacy_rs_settings.png)
 
 1. Sélectionnez le groupe de variables que vous voulez étiqueter.
 
-   ![](assets/variables.png)
+   ![Variables](assets/variables.png)
 
    * **Dimensions standard** (dimensions Adobe Analytics prêtes à l’emploi)
    * **Mesures standard** (mesures Adobe Analytics prêtes à l’emploi)
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 1. (Facultatif) Cliquez sur l’icône d’information (i) en regard de chaque variable pour mieux comprendre ses valeurs les plus courantes au cours des 90 derniers jours. (Cette fonctionnalité n’est pas disponible pour les dimensions de traitement des données, car elles ne sont pas disponibles dans l’interface utilisateur Analytics.)
 
-   ![](assets/info.png)
+   ![Infos](assets/info.png)
 
 1. Sélectionnez une ou plusieurs variables en cochant leurs cases, puis sélectionnez l’icône **[!UICONTROL Modifier]** (à droite) pour modifier une ou plusieurs variables.
 
-   ![](assets/edit.png)
+   ![Modifier](assets/edit.png)
 
 1. La boîte de dialogue des étiquettes de **données d’identification** s’ouvre automatiquement. Ces étiquettes classent les données pouvant être utilisées seules ou en combinaison avec d’autres données afin d’identifier ou de permettre un contact direct avec un individu. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de données d’identification (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
@@ -51,15 +51,15 @@ ht-degree: 100%
    >
    >Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein des Solutions/Services/Plateformes pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données.
 
-   ![](assets/identity_labels.png)
+   ![Étiquettes Identité](assets/identity_labels.png)
 
 1. Ouvrez la section **Données sensibles** pour définir les étiquettes des données sensibles qui catégorisent les données de géolocalisation. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de données sensibles (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![](assets/sensitive_data.png)
+   ![SEnsitive data](assets/sensitive_data.png)
 
 1. Ouvrez la section Confidentialité des données pour définir les étiquettes de **gouvernance des données**. Utilisez cette section pour enseigner à Adobe comment traiter chaque variable pour les demandes d’accès et de suppression relatives à la Confidentialité des données, et pour définir les variables à analyser pour trouver les ID des sujets de données pour ces demandes. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de gouvernance des données (Confidentialité des données).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
-   ![](assets/privacy_labels.png)
+   ![Étiquettes de confidentialité](assets/privacy_labels.png)
 
 1. Cliquez sur **[!UICONTROL Appliquer]** lorsque vous avez entièrement terminé l’étiquetage.
 
@@ -71,7 +71,7 @@ Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des don
 1. Sélectionnez certaines ou toutes les variables de ce groupe.
 1. Cliquez sur **[!UICONTROL Copier des étiquettes dans une ou plusieurs suites de rapports]** en haut à droite de la boîte de dialogue Gouvernance des données.
 
-   ![](assets/apply_as_template.png)
+   ![Appliquer en tant que modèle](assets/apply_as_template.png)
 
 1. Cochez **[!UICONTROL Sélectionner tout]** pour copier les étiquettes pour les variables sélectionnées dans toutes les suites de rapports ou sélectionnez les suites de rapports dans lesquelles vous voulez copier les étiquettes.
 

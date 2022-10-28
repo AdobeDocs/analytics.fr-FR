@@ -5,10 +5,10 @@ uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 61%
+source-wordcount: '363'
+ht-degree: 57%
 
 ---
 
@@ -80,6 +80,7 @@ En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emp
 >[!IMPORTANT]
 >
 >Notez qu’un point-virgule de fin (`;`) est requis lors de l’utilisation de `s_objectID` en Activity Map.
+
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -138,10 +139,10 @@ En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emp
 Vous pouvez personnaliser la région en vous assurant que la région de chaque lien &quot;Buy&quot; est définie. Pour ce faire, ajoutez une `"id"` à l’un des parents de chaque balise d’ancrage &quot;Buy&quot;.
 
 >[!NOTE]
+>
 >Vous n’êtes pas strictement limité à la variable `"id"` comme identifiant de région. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript. `"s.ActivityMap.regionIDAttribute"`.
->
->
-><table id="table_250DB52A869C466B942517BABA1C287B">
+
+<table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
   <tr>
    <th colname="col02" class="entry"> Exemple de code </th>
@@ -197,11 +198,12 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
 ## Personnalisation du fichier du module Activity Map d’AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
-Testez le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
+>
+>Assurez-vous de tester le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
 
 Voici quelques exemples de fonctions de lien/région **génériques** que vous pouvez inclure (sous une forme modifiée) dans votre fichier AppMeasurement.js
 
-```
+```js
 s.ActivityMap.link = function(ele, linkName) {
   if (linkName) {
     return linkName;
@@ -216,7 +218,7 @@ s.ActivityMap.link = function(ele, linkName) {
 
 Le `linkName` est transmis pendant les appels à `s.tl()`.
 
-```
+```js
 s.ActivityMap.region = function(ele) {
   var className,
   classNames = {

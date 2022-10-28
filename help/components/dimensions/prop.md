@@ -3,10 +3,10 @@ title: Prop
 description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ AppMeasurement, qui compile les variables JavaScript en une demande d’image po
 
 ## Éléments de dimension
 
-Étant donné que les props contiennent des chaînes personnalisées dans votre mise en œuvre, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque prop et les éléments de dimension standards dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
+Étant donné que les props contiennent des chaînes personnalisées dans votre mise en œuvre, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque prop et les éléments de dimension standard dans une [document de conception de solution](/help/implement/prepare/solution-design.md).
 
 ## Respect de la casse
 

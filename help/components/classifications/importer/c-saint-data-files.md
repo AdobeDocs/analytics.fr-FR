@@ -3,10 +3,10 @@ description: L’importateur vous permet de télécharger en vrac des données d
 title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 98%
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
 * Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement   [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
    * Le format v2.0 ignore les guillemets et présume qu’ils font tous partie des clés et valeurs indiquées. Étudions par exemple cette valeur : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;. Le format v2.0 interprète cette valeur littéralement : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;.
    * Le format v2.1 indique aux classifications de présumer que les guillemets font partie du formatage des fichiers utilisé dans les fichiers Excel. De ce fait, le format v2.1 formate l’exemple ci-dessus ainsi : C’est &quot;une valeur&quot;.
    * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : &quot;VP NO REPS&quot; S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
-   * Assurez-vous de procéder à l’une des opérations suivantes : modifiez le format du fichier sur v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous téléchargez OU implémentez correctement les guillemets Excel dans l’ensemble des fichiers.
+   * Veillez à effectuer l’une des opérations suivantes : remplacez le format de votre fichier par v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous chargez OU en implémentant correctement des guillemets Excel dans l’ensemble des fichiers.
 
 * La première ligne (qui ne soit pas un commentaire) du fichier de données contient les en-têtes de colonne utilisés pour identifier les données de classification contenues dans cette colonne. L’importateur nécessite un format spécifique pour les en-têtes de colonne. Pour en savoir plus, reportez-vous à la section [Format d’en-tête de colonne](/help/components/classifications/importer/c-saint-data-files.md).
 * Immédiatement sous la ligne d’en-tête d’un fichier de données se trouvent les lignes de données. Chacune d’elles doit contenir un champ de données pour chaque en-tête de colonne.

@@ -5,10 +5,10 @@ title: Préparation à l’utilisation des sources de données
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez définir plusieurs portées de données pour une mesure ; toutefois
 
 Après avoir défini les portées de données à utiliser avec une source de données, intégrez les données des portées aux rapports marketing en les faisant correspondre à une variable. Utilisez les rapports standard (par exemple, Produit, Code de suivi, Mot-clé de recherche) ou les variables de conversion Trafic (eVars).
 
-Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné une eVar pour recevoir une portée de données à partir des sources de données, veillez à la nommer de façon appropriée.
+Lors de l’utilisation d’eVar, vous pouvez utiliser comme portées de données des eVar existantes ou nouvelles. Après avoir sélectionné un eVar pour recevoir une dimension de données à partir de la fonctionnalité Sources de données, veillez à lui attribuer un nom approprié.
 
 Voir [Événements de succès](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) dans l’aide d’Analytics.
 

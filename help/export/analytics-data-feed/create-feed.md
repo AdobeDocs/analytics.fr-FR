@@ -3,10 +3,10 @@ title: Création ou modification d’un flux de données
 description: Découvrez comment créer ou modifier un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La création d’un flux de données permet à Adobe de savoir où envoyer les fichiers de données brutes et les éléments que vous souhaitez inclure dans chaque fichier. Cette page répertorie les paramètres individuels que vous pouvez personnaliser lorsque vous créez un flux de données.
 
-Il est recommandé de posséder des connaissances élémentaires des flux de données avant de lire cette page. Consultez l’[aperçu des flux de données](data-feed-overview.md) pour vous assurer de répondre aux exigences en matière de création des flux de données.
+Il est recommandé de posséder des connaissances élémentaires des flux de données avant de lire cette page. Voir [Flux de données - Aperçu](data-feed-overview.md) pour vous assurer que vous remplissez les conditions requises pour créer un flux de données.
 
 ## Champs d’informations sur les flux
 

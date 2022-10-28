@@ -3,10 +3,10 @@ description: Permet d’utiliser le segment pour une activité marketing dans la
 title: Publication de segments dans Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 100%
+source-wordcount: '1324'
+ht-degree: 96%
 
 ---
 
@@ -55,12 +55,12 @@ Pour plus dʼinformations, regardez cette vidéo :
 1. Fournissez un titre et une description pour le segment. Sinon, vous ne pourrez pas l’enregistrer.
 1. Cochez la case **[!UICONTROL Publier ce segment sur Experience Cloud (pour *suite de rapports*)]**.
 
-![](assets/publish-ec.png)
+![Publier l’Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Veillez à utiliser « Visiteurs avec un Experience Cloud ID » lors de l’affichage des aperçus de segments dans Analytics au lieu de l’aperçu du segment total de « visiteurs uniques » lorsque vous comparez des chiffres d’Adobe Analytics aux chiffres d’Audience Manager :
+>Veillez à utiliser &quot;Visiteurs avec un ID d’Experience Cloud&quot; lors de l’affichage des aperçus de segment dans Analytics au lieu de l’aperçu du segment &quot;visiteurs uniques&quot; total lors de la comparaison des numéros Adobe Analytics aux numéros d’Audience Manager :
 >
->![](assets/seg-vis-ecid.png)
+>![Segmenter les visiteurs avec ECID](assets/seg-vis-ecid.png)
 
 | Élément | Description |
 |---|---|
@@ -83,7 +83,7 @@ Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez
 1. Accédez à [!UICONTROL Analytics > Composants > Segments].
 1. Notez la nouvelle colonne [!UICONTROL Publié]. Oui/Non indique si le segment a été publié ou non dans Experience Cloud.
 
-![](assets/publish-status.png)
+![État de publication](assets/publish-status.png)
 
 ## Récupérer l’[!DNL Audience Manager]UUID
 
@@ -94,16 +94,16 @@ Il existe deux manières de capturer l’UUID AAM actuellement associé au navig
 
 Les captures d’écran suivantes montrent comment récupérer l’UUID AAM sur votre navigateur et l’utiliser dans la visionneuse du profil du visiteur d’Audience Manager pour valider la caractéristique et l’adhésion à un segment.
 
-**Méthode 1 : utiliser Adobe Experience Cloud Debugger**
+### Méthode 1 : utiliser Adobe Experience Cloud Debugger
 
 1. Téléchargez et installez [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md) dans Chrome Web Store.
 1. Lancez le débogueur lors du chargement d’une page.
 1. Accédez à la section Audience Manager et recherchez l’UUID AAM défini sur la page du navigateur actuelle
 (`50814298273775797762943354787774730612` dans l’exemple ci-dessous).
 
-![](assets/debugger.jpg)
+![Débogueur](assets/debugger.jpg)
 
-**Méthode 2 : utiliser Chrome Developer Tools (ou les outils de développement d’un autre navigateur)**
+### Méthode 2 : utiliser Chrome Developer Tools (ou les outils de développement d’un autre navigateur)
 
 1. Lancer Chrome Developer Tools avant le chargement d’une page
 1. Chargez la page et cochez Applications > Cookies. L’UUID AAM doit être défini dans le cookie tiers
@@ -116,7 +116,7 @@ navigateur (`50814298273775797762943354787774730612` dans l’exemple ci-dessous
 
 L’UUID AAM sur le navigateur sera utilisé par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez des réalisations de caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID, puis cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=fr) pour plus d’informations.
 
-![](assets/aam-vpv.png)
+![Visionneuse de profils d’Audience Manager](assets/aam-vpv.png)
 
 ## Afficher les caractéristiques du segment dans [!DNL Audience Manager]
 
@@ -124,12 +124,12 @@ Dans AAM, la liste des visiteurs avec des ECID pour un segment donné est évalu
 
 1. Dans [!DNL Audience Manager], sélectionnez [!UICONTROL Données d’audience > Caractéristiques > Caractéristiques d’Analytics]. Un dossier s’affiche pour chaque suite de rapports Analytics associée à votre organisation Experience Cloud. Ces dossiers (pour Caractéristiques, Segments et Sources de données) sont créés lorsque le service principal Profils et audiences / Personnes est lancé ou mis en service.
 1. Sélectionnez le dossier de la suite de rapports dans laquelle vous avez créé le segment que vous souhaitez partager avec [!DNL Audience Manager]. Vous verrez le segment/l’audience que vous avez créé. Lorsque vous partagez un segment, deux choses se produisent dans [!DNL Audience Manager] :
-* Une caractéristique est créée, tout d’abord sans contenir de données. Environ Huit heures après la publication du segment dans [!DNL Analytics], la liste des ECID est intégrée et partagée avec [!DNL Audience Manager] et d’autres solutions Experience Cloud.
+   * Une caractéristique est créée, tout d’abord sans contenir de données. Environ Huit heures après la publication du segment dans [!DNL Analytics], la liste des ECID est intégrée et partagée avec [!DNL Audience Manager] et d’autres solutions Experience Cloud.
 
-![](assets/aam-traits.png)
+      ![Caractéristiques d’Audience Manager](assets/aam-traits.png)
 
-* Un segment à caractère unique est créé. Il utilise la source de données associée à la suite de rapports dans laquelle vous avez publié le segment.
-* L’expiration des caractéristiques est désormais définie sur 16 jours (au lieu de 2 jours auparavant).
+   * Un segment à caractère unique est créé. Il utilise la source de données associée à la suite de rapports dans laquelle vous avez publié le segment.
+   * L’expiration des caractéristiques est désormais définie sur 16 jours (au lieu de 2 jours auparavant).
 
 ## Afficher le segment dans [!DNL Adobe Target]
 
