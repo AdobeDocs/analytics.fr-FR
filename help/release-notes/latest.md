@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 96488440c73acfdc015560012de5481368baed8a
+source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 94%
+source-wordcount: '1426'
+ht-degree: 93%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2022)
 
-**Dernière mise à jour** : 25 octobre 2022
+**Dernière mise à jour** : 28 octobre 2022
 
 Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -21,7 +21,7 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 | Fonctionnalité | Description | [Déploiement démarrés](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=fr) | 5 octobre 2022 | 19 octobre 2023 |
-| **Variables à plusieurs valeurs qui ne respectent pas la casse** | Pour les variables à plusieurs valeurs qui ne respectent pas la casse, les valeurs stockées dans `mvvar1` - `mvvar3` dans les flux de données ne seront plus automatiquement mises en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | S.O. | 24 octobre 2022 |
+| **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1 - mvvar3` et `post_mvvar1 - post_mvvar3` dans les flux de données ne seront plus automatiquement mis en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | S.O. | 24 octobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
