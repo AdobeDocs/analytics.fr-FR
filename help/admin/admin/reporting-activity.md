@@ -3,9 +3,9 @@ description: Découvrez comment utiliser le Gestionnaire des activités de créa
 title: Responsable des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '919'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Lors de l’ouverture de la page d’aperçu du Gestionnaire des activités de c
 | **[!UICONTROL Suite de rapports]** | Suite de rapports de base dont vous surveillez l’activité de création de rapports. |
 | **[!UICONTROL Suite de rapports virtuelle]** | Affiche toutes les suites de rapports virtuelles qui se trouvent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées et descendent dans la suite de rapports de base.<p>Par exemple, si vous avez 10 requêtes provenant de 5 suites de rapports virtuelles, il s’agit de 50 requêtes au niveau de la suite de rapports de base. De cette façon, vous pouvez atteindre la capacité très rapidement. |
 | **[!UICONTROL Capacité d’utilisation]** | En pourcentage, la capacité de création de rapports de la suite de rapports est utilisée, en temps réel. |
-| **[!UICONTROL État]** | Quatre indicateurs de statut possibles : <ul><li>**Rouge - [!UICONTROL À la capacité]**: La suite de rapports est limitée en termes de capacité de création de rapports. (95 à 100 %) </li><li>**Jaune - [!UICONTROL Capacité locale]**: Cette suite de rapports risque d’atteindre sa capacité maximale. (90 à 94 %)</li><li>**Vert - [!UICONTROL Très bien]**: Il existe de nombreuses capacités de reporting. (0 à 90 %)</li><li>**Gris - [!UICONTROL Statut en attente]**: ?</li></ul> |
+| **[!UICONTROL État]** | Quatre indicateurs de statut possibles : <ul><li>**Rouge - [!UICONTROL À la capacité]**: La suite de rapports est limitée en termes de capacité de création de rapports. (100%) </li><li>**Jaune - [!UICONTROL Capacité locale]**: Cette suite de rapports risque d’atteindre sa capacité maximale. (90 à 99 %)</li><li>**Vert - [!UICONTROL Très bien]**: Il existe de nombreuses capacités de reporting. (0 % - 89 %)</li><li>**Gris - [!UICONTROL Statut en attente/Non activé]**: Capacité des rapports non disponible.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ Les numéros de résumé affichent les informations suivantes :
 
 | Numéro du résumé | Description |
 | --- | --- |
-| Utilisateurs | Nombre d’utilisateurs qui envoient actuellement des demandes de création de rapports à cette suite de rapports. |
-| Projets | Projets Workspace, classeurs de Report Builder, etc. |
-| Requêtes | Nombre de requêtes en cours d’exécution. |
-| Temps d’attente moyen | Temps d’attente moyen pour toutes les requêtes en cours d’exécution. |
-| Capacité d’utilisation | Capacité d’utilisation actuelle de cette suite de rapports. |
+| [!UICONTROL Utilisateurs] | Nombre d’utilisateurs qui envoient actuellement des demandes de création de rapports à cette suite de rapports. |
+| [!UICONTROL Projets] | Projets Workspace, classeurs de Report Builder, etc. |
+| [!UICONTROL Requêtes] | Nombre de requêtes en cours d’exécution. |
+| [!UICONTROL Temps d’attente moyen] | Temps d’attente moyen pour toutes les requêtes en cours d’exécution. |
+| [!UICONTROL Capacité d’utilisation] | Capacité d’utilisation actuelle de cette suite de rapports. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ Le tableau détaillé ci-dessous présente des détails sur la suite de rapports
 
 | Colonne | Description |
 | --- | --- |
-| ID de requête | Peut être utilisé à des fins de dépannage. |
-| Heure d’exécution | Durée d’exécution de la requête. |
-| Temps d’attente | Durée pendant laquelle la requête a été en attente avant d’être traitée. Généralement à &quot;0&quot; lorsque la capacité est suffisante. |
-| Heure de début | Lorsque le traitement de la requête a commencé (heure locale de l’administrateur). |
-| Application | Les applications prises en charge par le Gestionnaire d’activités de création de rapports sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés Workspace</li><li>Report Builder</li><li>Interface utilisateur du créateur : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels API depuis l’API 1.4 ou 2.0 (5 demandes simultanées)</li><li>Alertes intelligentes</li></ul> |
-| Utilisateur | L’utilisateur qui a lancé la requête. |
-| Projet | Projets Workspace, classeurs de Report Builder, etc. |
-| Limites mensuelles | Nombre de limites mensuelles qu’une requête traverse. Cela ajoute à la complexité de la requête. |
-| Colonnes | Nombre de mesures et de ventilations dans Workspace pour évaluer la complexité de la requête. |
-| Segments | Nombre de segments appliqués à cette requête. Cela ajoute à la complexité de la requête. |
-| État | Quatre indicateurs de statut possibles : <ul><li>**Rouge - [!UICONTROL À la capacité]**: La suite de rapports est limitée en termes de capacité de création de rapports. (95 % et plus)</li><li>**Jaune - [!UICONTROL Capacité locale]**: Cette suite de rapports risque d’atteindre sa capacité maximale (90 à 95 %).</li><li>**Vert - [!UICONTROL Très bien]**: Il existe de nombreuses capacités de reporting.</li><li>**[!UICONTROL Statut en attente]**: État non disponible.</li></ul> |
+| [!UICONTROL ID de requête] | Peut être utilisé à des fins de dépannage. |
+| [!UICONTROL Heure d’exécution] | Durée d’exécution de la requête. |
+| [!UICONTROL Temps d’attente] | Durée pendant laquelle la requête a été en attente avant d’être traitée. Généralement à &quot;0&quot; lorsque la capacité est suffisante. |
+| [!UICONTROL Heure de début] | Lorsque le traitement de la requête a commencé (heure locale de l’administrateur). |
+| [!UICONTROL Application] | Les applications prises en charge par le Gestionnaire d’activités de création de rapports sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés Workspace</li><li>Report Builder</li><li>Interface utilisateur du créateur : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels API de la version 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
+| [!UICONTROL Utilisateur] | L’utilisateur qui a lancé la requête. |
+| [!UICONTROL Projet] | Noms de projet Workspace enregistrés, ID de rapport API, etc. (Les métadonnées peuvent varier d’une application à l’autre.) |
+| [!UICONTROL Limites mensuelles] | Nombre de limites mensuelles qu’une requête traverse. Cela ajoute à la complexité de la requête. |
+| [!UICONTROL Colonnes] | Nombre de mesures et de ventilations dans Workspace pour évaluer la complexité de la requête. |
+| [!UICONTROL Segments] | Nombre de segments appliqués à cette requête. Cela ajoute à la complexité de la requête. |
+| [!UICONTROL État] | Indicateurs de statut : <ul><li>**En cours**: La demande est en cours de traitement.</li><li>**En attente**: La demande attend d’être traitée.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ Par exemple, les utilisateurs de l’application dans Workspace verront apparaî
 | Question | Réponse |
 | --- | --- |
 | Puis-je acheter une capacité de reporting supplémentaire ? | Cette fonctionnalité sera disponible dans un avenir proche. |
-| D&#39;autres questions ? |  |
 
 {style=&quot;table-layout:auto&quot;}
