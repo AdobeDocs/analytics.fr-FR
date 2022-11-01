@@ -3,7 +3,7 @@ title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 60%
@@ -27,6 +27,7 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
    >[!NOTE]
    >
    >Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
+
 1. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `adobeDataLayer.page.title`.
 1. **Utilisation de la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données**: Cette étape varie en fonction de la méthode de mise en oeuvre de votre entreprise :
    * **Si vous utilisez le SDK Web**: Faites correspondre les objets de couche de données de votre choix aux champs XDM de votre choix dans Adobe Experience Platform Edge. Voir [Mappage des variables Analytics](../aep-edge/variable-mapping.md) pour déterminer le mappage de couche de données souhaité.

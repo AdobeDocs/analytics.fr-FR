@@ -3,10 +3,10 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 88%
 
 ---
 
@@ -33,9 +33,10 @@ Le code JavaScript envoie une demande d’image aux serveurs de collecte de donn
 
 Adobe Analytics exige du code sur votre site web, votre application mobile ou toute autre application pour envoyer des données aux serveurs de collecte de données. Il existe plusieurs méthodes de mise en œuvre de ce code, selon la plateforme et les besoins de votre entreprise.
 
-* **SDK Web** : la méthode normalisée et recommandée pour implémenter Adobe Analytics. Installez l’extension SDK Web dans la collecte de données Adobe Experience Platform, utilisez une balise de chargement sur chaque page et envoyez les données à Adobe Experience Platform Edge dans un format adapté à votre organisation. Experience Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **Extension SDK Web**: Méthode normalisée et recommandée pour implémenter Adobe Analytics. Installez l’extension SDK Web dans la collecte de données Adobe Experience Platform, utilisez une balise de chargement sur chaque page et envoyez les données à Adobe Experience Platform Edge dans un format adapté à votre organisation. Experience Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **SDK Web**: Si vous ne souhaitez pas utiliser la collecte de données Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque SDK Web sur chaque page et envoyez les appels de suivi de votre choix à Adobe Experience Edge.
 * **Extension Adobe Analytics** : installez l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform. Placez une balise de chargement sur chaque page et utilisez l’extension Analytics pour déterminer comment chaque variable est définie.
-* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une implémentation, ce qui peut s’avérer utile pour les implémentations de balises à l’aide de règles avec du code personnalisé.
+* **Code JavaScript hérité :** méthode manuelle historique pour mettre en œuvre Adobe Analytics. Décrit les variables et les paramètres utilisés dans une mise en œuvre, ce qui peut s’avérer utile pour les mises en œuvre de utilisant des règles avec du code personnalisé.
 * **SDK mobile :** bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile.
 
 ## Principaux articles sur l’importation Analytics
