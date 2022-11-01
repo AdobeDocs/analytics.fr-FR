@@ -3,7 +3,7 @@ description: Découvrez comment utiliser le Gestionnaire des activités de créa
 title: Responsable des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
+source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 7%
@@ -17,7 +17,7 @@ ht-degree: 7%
 >
 >Cette fonctionnalité est actuellement en test bêta.
 
-Le Gestionnaire d’activités de création de rapports vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre entreprise. En tant qu’administrateur, il vous offre une visibilité détaillée sur la création de rapports de la consommation et vous permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports.
+Le [!UICONTROL Gestionnaire des activités de création de rapports] vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre entreprise. En tant qu’administrateur, il vous offre une visibilité détaillée sur la création de rapports de la consommation et vous permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports.
 
 Lorsque votre entreprise atteint la capacité de demande de création de rapports et que ses performances en matière de création de rapports se dégradent, vous pouvez désormais diagnostiquer automatiquement les problèmes de création de rapports sans intervention de l’assistance clientèle ou de l’ingénierie d’Adobe. Vous pouvez facilement gérer les files d’attente de rapports dans une seule interface et agir immédiatement &#x200B; &#x200B; pour améliorer l’expérience de vos utilisateurs. Cet outil :
 
@@ -35,7 +35,7 @@ Vous avez besoin des autorisations d’administrateur système Analytics pour g�
 
 ## Affichage de la file d’attente des rapports
 
-Lors de l’ouverture de la page d’aperçu du Gestionnaire des activités de création de rapports , une liste de vos suites de rapports de base activées s’affiche.
+Lors de l’ouverture de la variable [!UICONTROL Activité de création de rapports] La page d’aperçu de Manager répertorie vos suites de rapports de base activées.
 
 ![file d&#39;attente des rapports](assets/reporting-activity1.png)
 
@@ -104,7 +104,7 @@ Le tableau détaillé ci-dessous présente des détails sur la suite de rapports
 | [!UICONTROL Heure d’exécution] | Durée d’exécution de la requête. |
 | [!UICONTROL Temps d’attente] | Durée pendant laquelle la requête a été en attente avant d’être traitée. Généralement à &quot;0&quot; lorsque la capacité est suffisante. |
 | [!UICONTROL Heure de début] | Lorsque le traitement de la requête a commencé (heure locale de l’administrateur). |
-| [!UICONTROL Application] | Les applications prises en charge par le Gestionnaire d’activités de création de rapports sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés Workspace</li><li>Report Builder</li><li>Interface utilisateur du créateur : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels API de la version 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
+| [!UICONTROL Application] | Les applications prises en charge par la variable [!UICONTROL Gestionnaire des activités de création de rapports] sont : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés Workspace</li><li>Report Builder</li><li>Interface utilisateur du créateur : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels API de la version 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
 | [!UICONTROL Utilisateur] | L’utilisateur qui a lancé la requête. |
 | [!UICONTROL Projet] | Noms de projet Workspace enregistrés, ID de rapport API, etc. (Les métadonnées peuvent varier d’une application à l’autre.) |
 | [!UICONTROL Limites mensuelles] | Nombre de limites mensuelles qu’une requête traverse. Cela ajoute à la complexité de la requête. |
