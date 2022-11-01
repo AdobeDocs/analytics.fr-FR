@@ -4,10 +4,10 @@ keywords: confidentialité
 title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Analytics collecte les données suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Allemagne </td> 
-   <td colname="col2"> <p>Si aucune entente de traitement des données au sujet d’Adobe Analytics n’est en place entre un client et Adobe, le client doit contacter son gestionnaire de compte Adobe ou le responsable du succès client, qui collaboreront avec le service juridique d’Adobe pour établir cette entente. </p> <p>Adobe a préparé une entente de traitement des données (Vertrag fuer Auftragsdatenverarbeitung – ADV) pour Analytics, qui a été révisée et approuvée par l’autorité de protection des données de Bavière (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA). L’ADV est disponible en allemand et en anglais. </p> </td> 
+   <td colname="col2"> <p>Si vous n’avez pas encore mis en place de contrat de traitement des données pour Adobe Analytics avec Adobe, contactez votre gestionnaire de compte d’Adobe ou votre gestionnaire de succès client, qui collaboreront avec le service juridique de l’Adobe pour mettre en place la loi sur les données. </p> </td> 
   </tr> 
  </tbody> 
 </table>

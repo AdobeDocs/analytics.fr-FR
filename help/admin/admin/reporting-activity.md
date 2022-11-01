@@ -3,9 +3,9 @@ description: Découvrez comment utiliser le Gestionnaire des activités de créa
 title: Responsable des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '928'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ Dans Adobe Analytics, les administrateurs accèdent à **[!UICONTROL Administrat
 
 ## Autorisations
 
-Vous avez besoin des autorisations d’administrateur système Analytics pour gérer l’activité de création de rapports. L’accès administrateur de produit n’est pas suffisant.
+Vous avez besoin des autorisations d’administrateur de produit Analytics pour gérer l’activité de création de rapports.
 
 ## Affichage de la file d’attente des rapports
 
@@ -118,7 +118,7 @@ Le tableau détaillé ci-dessous présente des détails sur la suite de rapports
 
 Pour annuler une requête
 
-1. Cochez la case à gauche d’une ou de plusieurs **[!UICONTROL ID de requête]** dans le tableau, puis cliquez sur **[!UICONTROL Annulation des requêtes]** en bas.
+1. Cochez la case à gauche d’une ou de plusieurs **[!UICONTROL ID de requête]** dans le tableau, puis cliquez sur **[!UICONTROL Annulation des requêtes]** en bas. (Vous pouvez également annuler des requêtes en bloc en affichant les détails en [!UICONTROL Utilisateur], [!UICONTROL Projet]ou [!UICONTROL Application].)
 1. Dans le **[!UICONTROL Annuler la requête x]** qui s’affiche, vous pouvez modifier le message d’annulation, si nécessaire.
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -127,7 +127,6 @@ Pour annuler une requête
 Par exemple, les utilisateurs de l’application dans Workspace verront apparaître l’avis suivant dans leurs projets :
 
 ![cancel-user-notice](assets/cancel-user-facing.png)
-
 
 ## Questions fréquentes
 
