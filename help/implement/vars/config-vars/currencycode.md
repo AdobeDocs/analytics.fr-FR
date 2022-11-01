@@ -3,28 +3,31 @@ title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 94%
+source-wordcount: '955'
+ht-degree: 72%
 
 ---
 
 # currencyCode
 
-Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de recettes correspondent à la devise appropriée.
+Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les recettes attribuent la devise appropriée.
 
-Si `currencyCode` n’est pas défini, les valeurs monétaires définies pour la variable [`products`](../page-vars/products.md) et les événements de devise sont traitées comme si elles étaient identiques à la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans le guide d’utilisation destiné à l’administrateur pour consulter la devise de la suite de rapports.
+La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de recettes définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme &quot;Devise&quot; dans [Événements de succès](/help/admin/admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
 
-Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
+* If `currencyCode` n’est pas définie, Adobe suppose que toutes les valeurs de devise sont la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans les paramètres de la suite de rapports pour afficher la devise de la suite de rapports.
+* Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
+* Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans la suite de rapports se trouvent dans la devise de la suite de rapports.
+* If `currencyCode` est définie sur une valeur non valide, **l’accès complet est ignoré, ce qui entraîne une perte de données.** Assurez-vous que cette variable est correctement définie lorsqu’elle est utilisée.
 
-Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans les serveurs de collecte de données sont finalement conservées dans la devise de la suite de rapports.
+Cette variable ne persiste pas dans les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise qui ne correspondent pas à la devise par défaut de la suite de rapports.
 
->[!WARNING]
+>[!NOTE]
 >
->Si `currencyCode` contient une valeur non valide, l’accès complet est ignoré, ce qui entraîne une perte de données. Assurez-vous que cette variable est correctement définie si vous l’utilisez dans votre mise en œuvre.
+>Bien que les codes de devise puissent changer d’une page à l’autre, toutes les mesures de devise d’un seul accès doivent utiliser la même devise.
 
-Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise.
+Une période **must** doit être utilisé comme séparateur de devise pour toutes les devises lors de l’implémentation de cette variable. Par exemple, la couronne suédoise, qui affiche généralement un séparateur de virgules, doit être modifiée pour utiliser un point dans la variable `products` et tous les événements de devise. Adobe affiche le séparateur de devise correct dans les rapports.
 
 ## Code de devise à l’aide du SDK Web
 
@@ -53,7 +56,7 @@ Vous pouvez utiliser un code de devise prédéfini ou un code de devise personna
 
 ## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page.
+La variable `s.currencyCode` est une chaîne contenant un code en majuscules de 3 lettres représentant la devise sur la page. Les valeurs sont sensibles à la casse.
 
 ```js
 s.currencyCode = "USD";
@@ -61,7 +64,7 @@ s.currencyCode = "USD";
 
 Les codes de devise suivants sont valides :
 
-| Code de devise | Description de devise |
+| Code de devise | Étiquette |
 | --- | --- |
 | `AED` | Émirats arabes unis, dirams |
 | `AFA` | Afghanistan, afghanis |
