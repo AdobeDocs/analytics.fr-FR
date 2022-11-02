@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '407'
 ht-degree: 100%
 
 ---
@@ -27,13 +27,13 @@ Cet exemple présente un [!UICONTROL rapport Pages]. Les options de configuratio
 
 Exemple d’un rapport Pages (**[!UICONTROL Rapports]** > **[!UICONTROL Contenu du site]** > **[!UICONTROL Rapports Pages]** > **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width=&quot;672px&quot;}
+![](assets/pages_report.png){width="672px"}
 
 ## Barre d’outils du rapport {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Partagez les données du rapport avec les décisionnaires qui peuvent apporter des modifications au site ou aux stratégies marketing en fonction des données.
 
-![](assets/toolbar.png){width=&quot;672px&quot;}
+![](assets/toolbar.png){width="672px"}
 
 Reportez-vous également à la section [Personnalisation d’un rapport](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -41,7 +41,7 @@ Reportez-vous également à la section [Personnalisation d’un rapport](/help/a
 
 Affiche les paramètres du rapport et vous permet de configurer le rapport en spécifiant son type, en sélectionnant des mesures, etc. Les options de ce groupe varient selon le rapport exécuté.
 
-![](assets/settings_header.png){width=&quot;672px&quot;}
+![](assets/settings_header.png){width="672px"}
 
 Pour plus d’informations, consultez la section [Personnalisation d’un rapport](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -49,7 +49,7 @@ Pour plus d’informations, consultez la section [Personnalisation d’un rappor
 
 Précisez la date en cliquant sur le bouton du calendrier et en sélectionnant une plage de dates. Vous pouvez aussi sélectionner deux plages d’heures pour comparer leurs performances.
 
-![](assets/calendar_large.png){width=&quot;672px&quot;}
+![](assets/calendar_large.png){width="672px"}
 
 Consultez les sections [Sélection d’une date ou d’une période](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) et [Comparaison de dates](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 

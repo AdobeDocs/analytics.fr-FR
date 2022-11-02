@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Les options Mes favoris, Fréquemment affichés et Historique des rapports sont 
 
 Vous pouvez naviguer dans les rapports en utilisant une colonne hiérarchique. Cliquez sur **[!UICONTROL Afficher tous les rapports]** ou appuyez sur la touche Barre oblique (/), puis sur la touche Flèche vers le bas (↓) pour afficher et parcourir rapidement le menu à l’aide des touches fléchées. Appuyez sur la touche Échap pour fermer le menu sans changer le rapport actif ou appuyez sur Entrée pour charger le rapport sélectionné.
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 Pour plus de détails sur les rapports individuels, consultez la section [Dimensions](/help/components/dimensions/overview.md).
 
