@@ -174,7 +174,7 @@ Chaque dimension ajoutée à la diapositive détaillée s’affichera dans une l
 
 ## Personnaliser des diapositives détaillées {#customize-detail-slide}
 
-Les diapositives détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience.
+Les diapositives détaillées personnalisées vous permettent de cibler encore mieux les informations que vous partagez avec votre audience.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 

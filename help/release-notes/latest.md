@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2022)
 
-**Dernière mise à jour** : 28 octobre 2022
+**Dernière mise à jour** : 28 octobre 2022
 
 Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
