@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles segmentent les données Adobe An
 title: Suites de rapports virtuelles - Aperçu
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 | Fonctionnalité | Suite de rapports virtuelle | Balisage multisuite |
 |--- |--- |--- |
 | Offre des rapports en temps réel ou de données actives | Non | Oui |
-| Fonctionne dans tous les outils dʼAnalytics (Analysis Workspace, Report Builder, etc.) | Oui. **Remarque :** Vous pouvez modifier et identifier une suite de rapports virtuelle en tant que telle dans les Reports &amp; Analytics uniquement. Vous pouvez toutefois sélectionner des suites de rapports virtuelles dans les menus déroulants des suites de rapports dans d’autres outils. | Oui |
+| Fonctionne dans tous les outils dʼAnalytics (Analysis Workspace, Report Builder, etc.) | Oui. **Remarque :** Vous pouvez les modifier et les identifier comme des suites de rapports virtuelles uniquement dans [!UICONTROL Analytics] > [!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]. Vous pouvez toutefois sélectionner des suites de rapports virtuelles dans les menus déroulants des suites de rapports dans d’autres outils.<p>**Important**: Les suites de rapports virtuelles avec traitement de la période de rapport et personnalisation des variables ne sont actuellement pas prises en charge dans Adobe Report Builder. | Oui |
 | Peut télécharger des données vers celle-ci (par le biais des classifications, des flux de données, etc.) | Non | Oui |
 | Prend en charge la création de rapports, de signets, de tableaux de bord, de cibles, d’alertes, de segments, de mesures calculées, etc. | Oui | Oui |
 | Peut être séparément ajoutée à des groupes d’autorisations | Oui | Oui |
