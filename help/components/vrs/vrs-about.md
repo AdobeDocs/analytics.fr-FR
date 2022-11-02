@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles segmentent les données Adobe An
 title: Suites de rapports virtuelles - Aperçu
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
+source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,6 +59,8 @@ Les suites de rapports virtuelles comportent les limites suivantes :
 | Prend en charge la création de rapports, de signets, de tableaux de bord, de cibles, d’alertes, de segments, de mesures calculées, etc. | Oui | Oui |
 | Peut être séparément ajoutée à des groupes d’autorisations | Oui | Oui |
 | Peut utiliser les fonctions d’administration pour modifier des paramètres spécifiques de cette suite de rapports (Admin > Suites de rapports) | Non (les paramètres sont hérités du parent) | Oui |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Combiner les suites de rapports virtuelles et le balisage multisuite {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
