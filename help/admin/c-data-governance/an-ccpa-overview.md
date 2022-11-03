@@ -3,7 +3,7 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour p
 title: Adobe Analytics et le CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
@@ -48,4 +48,4 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/c-data-gov
    Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative aux Services de confidentialité, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données.
 
 * Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur d’Adobe Analytics.
-* Envisagez de mettre en œuvre les [Variables de gestion du consentement](/help/admin/c-data-governance/consent-variables.md) pour effectuer le suivi de l’état du consentement au niveau de l’accès.
+* Envisagez de mettre en œuvre les [Variables de gestion du consentement](/help/admin/admin/privacy-reporting.md) pour effectuer le suivi de l’état du consentement au niveau de l’accès.
