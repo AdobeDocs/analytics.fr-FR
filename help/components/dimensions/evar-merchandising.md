@@ -3,10 +3,10 @@ title: eVar (dimension de marchandisage)
 description: Variables personnalisées liées à la dimension des produits.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '445'
+ht-degree: 93%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 *Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
 
-Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
+Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par courriel pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
 

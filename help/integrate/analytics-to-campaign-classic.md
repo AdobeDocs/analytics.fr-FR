@@ -3,13 +3,13 @@ description: Informations sur l’architecture de référence, les directives, l
 title: Comment intégrer Analytics à Adobe Campaign
 feature: Campaign Integration
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 100%
+source-wordcount: '61'
+ht-degree: 85%
 
 ---
 
 # Intégration d’Adobe Analytics à Campaign Classic
 
-Pour plus d’informations sur l’intégration des données Adobe Analytics dans Campaign Classic, consultez la section [Approvisionnement du connecteur Adobe Analytics](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html?lang=fr) :
+Pour plus d’informations sur l’intégration des données Adobe Analytics dans Campaign Classic, consultez la section [Approvisionnement du connecteur Adobe Analytics](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html) :

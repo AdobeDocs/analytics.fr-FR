@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 93%
+source-wordcount: '1422'
+ht-degree: 94%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2022)
 
-**Dernière mise à jour** : 28 octobre 2022
+**Dernière mise à jour** : 28 octobre 2022
 
 Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,14 +20,14 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 
 | Fonctionnalité | Description | [Déploiement démarrés](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=fr) | 5 octobre 2022 | 19 octobre 2023 |
+| Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5 octobre 2022 | 19 octobre 2023 |
 | **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1 - mvvar3` et `post_mvvar1 - post_mvvar3` dans les flux de données ne seront plus automatiquement mis en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | S.O. | 24 octobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Correctifs dans Adobe Analytics
 
-* Correction d’un problème en raison duquel les versions récentes de MacOS étaient incorrectement nommées &quot;Macintosh&quot;. Avec ce correctif, la dimension du système d’exploitation commencera à utiliser la numérotation de version &quot;MacOS&quot;, à partir de MacOS 11. (AN-301834)
+* Correction d’un problème en raison duquel les versions récentes de MacOS étaient incorrectement nommées &quot;Macintosh&quot;. Avec ce correctif, la dimension du système d’exploitation commencera à utiliser la numérotation de version de « MacOS » à partir de MacOS 11. (AN-301834)
 * Correction d’un problème lié à la période &quot;dates fixes&quot; dans le Report Builder. (AN-303684)
 * Correction de problèmes en raison desquels l’interface utilisateur des flux de données ne se chargeait pas. (AN-303803, AN-303784)
 
@@ -55,7 +55,7 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 | --- | --- | --- |
 | **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les listes de publication sont programmées pour atteindre la fin de vie en **décembre 2023**. Vous ne pourrez pas créer de listes de publication ou y accéder pour envoyer ou planifier des projets Analysis Workspace. [En savoir plus](/help/admin/admin/publishing-list.md) |
 | **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Voir [Annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte d’Adobe de votre entreprise pour toute question. |
-| **Fin de vie de [!DNL Reports & Analytics]** | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
+| **Fin de vie de [!DNL Reports & Analytics]** | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
 
 {style=&quot;table-layout:auto&quot;}
 

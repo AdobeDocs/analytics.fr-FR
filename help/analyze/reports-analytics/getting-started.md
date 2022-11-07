@@ -4,10 +4,10 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 | Type d’informations | Définition |
 | --- | --- |
 | Contact | Précisez les informations personnelles suivantes pour votre compte :<ul><li>Prénom (requis)</li><li>Nom (requis)</li><li>Titre</li><li>Adresse de courriel (requis)</li><li>Numéro de téléphone</li></ul> |
-| Connexion | Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. Voir également : [Comment réinitialiser le mot de passe du compte Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=fr). |
+| Connexion | Affiche le nom d’utilisateur du compte et vous permet de modifier le mot de passe du compte. Voir également : [Comment réinitialiser le mot de passe du compte Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html). |
 | Service web | Affiche le nom d’utilisateur des services web et le secret partagé associé à ce compte. Utilisez ces informations d’identification lorsque vous accédez à Experience Cloud par l’intermédiaire des API de services web. Pour plus d’informations, consultez le site Developer Connection. **Remarque :** Ces informations s’affichent uniquement si le compte est autorisé en tant qu’utilisateur de services web. |
 | Exclure cet ordinateur | Applique un cookie sur l’ordinateur actuel afin de l’exclure de la collecte de données. Ceci s’avère utile si vous ne souhaitez pas que vos activités en ligne affectent les décomptes de pages vues et de visiteurs dans votre domaine. **Remarque :** Pour utiliser cette fonctionnalité, les cookies doivent être activés dans votre navigateur. Si vous supprimez les cookies sur votre ordinateur, vous devez réinitialiser à nouveau le cookie d’exclusion. |
 

@@ -3,9 +3,9 @@ title: Mise en oeuvre d’Adobe Analytics avec des balises dans Adobe Experience
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 94%
 
 ---
@@ -33,6 +33,6 @@ Pour commencer, consultez la section [Création d’une propriété de balise An
 
 Les balises peuvent être hautement personnalisées. Découvrez comment tirer le meilleur parti d’Adobe Analytics en incluant les données appropriées dans votre mise en œuvre.
 
-* [Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) : découvrez le fonctionnement de l’interface et les extensions disponibles.
+* [Documentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr#) : découvrez le fonctionnement de l’interface et les extensions disponibles.
 * [Extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) : utilisez l’extension Analytics pour envoyer des données à Adobe Analytics.
 * [Variables de mise en œuvre](../vars/overview.md) : déterminez les variables que vous souhaitez envoyer aux serveurs de collecte de données.

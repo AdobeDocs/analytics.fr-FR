@@ -2,9 +2,9 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1444'
 ht-degree: 99%
 
 ---
@@ -131,7 +131,7 @@ Le tableau suivant répertorie les variables que le réseau Adobe Experience P
 
 ## Mappage d’autres champs XDM aux variables Analytics
 
-Si vous souhaitez ajouter des dimensions ou des mesures à Adobe Analytics, vous pouvez le faire via [Variables de données contextuelles](../vars/page-vars/contextdata.md). Tous les éléments de champ XDM qui ne sont pas automatiquement mappés sont envoyés à Adobe Analytics en tant que données contextuelles avec le préfixe a.x. Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics de votre choix à l’aide des [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=fr). Par exemple, si vous définissez l’évènement suivant :
+Si vous souhaitez ajouter des dimensions ou des mesures à Adobe Analytics, vous pouvez le faire via [Variables de données contextuelles](../vars/page-vars/contextdata.md). Tous les éléments de champ XDM qui ne sont pas automatiquement mappés sont envoyés à Adobe Analytics en tant que données contextuelles avec le préfixe a.x. Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics de votre choix à l’aide des [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). Par exemple, si vous définissez l’évènement suivant :
 
 ```js
 alloy("event",{

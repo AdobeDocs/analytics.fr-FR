@@ -3,10 +3,10 @@ title: Fin de vie des sources de données à traitement complet
 description: Raisons de la fin de vie et comparaisons entre l’API Bulk Data Insertion et les sources de données à traitement complet.
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ Pour plus d’informations, reportez-vous à la comparaison suivante des valeurs
 | customerID.[customerIDType].id | Non pris en charge | ID de client à utiliser. customerIDType peut être n’importe quelle chaîne alphanumérique, mais doit être considéré comme sensible à la casse. |
 | customerID.[customerIDType].isMCSeed | Non pris en charge | Indique s’il s’agit de l’adresse de contrôle de l’identifiant visiteur Experience Cloud. Les valeurs prises en charge sont les suivantes : 0, 1, TRUE, FALSE, &#39;&#39; (non-respect de la casse). Si vous utilisez 0, FALSE ou deux guillemets simples consécutifs (&#39;&#39;), la valeur est omise dans la chaîne de requête. customerIDType peut être n’importe quelle chaîne alphanumérique, mais doit être considéré comme sensible à la casse. |
 | eVarN | eVarN, c’est-à-dire `<eVar2>`…`<eVar>` | Nom de la variable eVar de conversion. Vous pouvez avoir jusqu’à 75 eVars ( eVar1 - eVar75 ) Vous pouvez définir le nom de l’eVar (eVar12) ou un nom convivial (Campagne publicitaire 3). |
-| events | events | [Chaîne d’événements](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=fr#vars), formatée selon la même syntaxe que la variable s.events. Par exemple : scAdd,event1,event7 |
+| events | events | [Chaîne d’événements](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars), formatée selon la même syntaxe que la variable s.events. Par exemple : scAdd,event1,event7 |
 | hierN | hierN, c’est-à-dire `<hier2>`…`</hier2>` | Nom de la hiérarchie. Vous pouvez avoir jusqu’à 5 hiérarchies (hier1 - hier5). Vous pouvez définir le nom de hiérarchie par défaut (`hier2`) ou un nom convivial (Yankees). |
 | homePage | homePage | Y ou N – Page active de la page d’accueil du visiteur. |
 | ipaddress | Non pris en charge | Adresse IP du visiteur. |
@@ -66,7 +66,7 @@ Pour plus d’informations, reportez-vous à la comparaison suivante des valeurs
 | linkType | linkType | Type de lien. Les valeurs acceptables sont : `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF du lien. |
 | listn Par exemple, list2. | Non pris en charge | Liste délimitée de valeurs transmises à une variable, puis signalées comme éléments de ligne individuels pour la création de rapports. |
-| marketingCloudVisitorID | Non pris en charge | Experience Cloud ID. Voir [Identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr#id-service-api) et le service d’identification des visiteurs par Experience Cloud |
+| marketingCloudVisitorID | Non pris en charge | Experience Cloud ID. Voir [Identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api) et le service d’identification des visiteurs par Experience Cloud |
 | Non pris en charge | charSet | Jeu de caractères pris en charge pour votre site Web. Par exemple, UTF-8, ISO-8859-1, etc. |
 | Non pris en charge | clickAction | Identificateur d’objet pour la carte des clics des visiteurs (oid). |
 | Non pris en charge | clickActionType | Type d’identificateur d’objet pour la carte des clics des visiteurs (oidt). |
@@ -91,7 +91,7 @@ Pour plus d’informations, reportez-vous à la comparaison suivante des valeurs
 | state | state | Chaîne d’état de conversion. |
 | timestamp | date | Utilisez le format de date ISO 8601 AAAA-MM-JJThh:mm:ss±décalage_UTC (par exemple, 2021-09-01T12:00:00-07:00) ou le format d’heure Unix (nombre de secondes écoulées depuis le 1er janvier 1970). |
 | trackingServer | Non pris en charge | Ne peut être fourni que par le biais de l’en-tête de colonne. |
-| transactionID | Non pris en charge | Valeur couramment utilisée pour associer des activités d’utilisateur multicanaux en vue de la génération de rapports. Pour plus d’informations, consultez le [Guide de l’utilisateur des sources de données](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=fr#data-sources). |
+| transactionID | Non pris en charge | Valeur couramment utilisée pour associer des activités d’utilisateur multicanaux en vue de la génération de rapports. Pour plus d’informations, consultez le [Guide de l’utilisateur des sources de données](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources). |
 | userAgent | Non pris en charge | Chaîne de l’agent utilisateur |
-| visitorID | visitorID | ID Analytics du visiteur. Voir [Identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). |
+| visitorID | visitorID | ID Analytics du visiteur. Voir [Identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | zip | zip | Code postal de conversion. |

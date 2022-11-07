@@ -3,9 +3,9 @@ title: eVars de marchandisage et méthodes de recherche de produit
 description: Analyse approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et affectent les données.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '5291'
+source-wordcount: '5289'
 ht-degree: 99%
 
 ---

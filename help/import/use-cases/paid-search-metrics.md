@@ -2,10 +2,10 @@
 title: Importer des mesures de référencement payant
 description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google AdWords, MSN, Yahoo, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1210'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +117,7 @@ Revenez à l’assistant de source de données pour obtenir des instructions et 
 
 Lʼajout de mesures calculées sʼavèrera précieux lors de la prise de décisions concernant le paiement par clic.
 
-Vous pouvez, par exemple, ajouter ces [mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr#calculated-metrics) :
+Vous pouvez, par exemple, ajouter ces [mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics) :
 
 | Nom | Formule | Type de mesure | Description |
 | --- | --- | --- | --- |

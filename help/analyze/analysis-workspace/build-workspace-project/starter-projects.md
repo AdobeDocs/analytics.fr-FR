@@ -4,9 +4,9 @@ title: Modèles
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1311'
 ht-degree: 100%
 
 ---
@@ -123,7 +123,7 @@ Regardez cette vidéo sur le modèle [!UICONTROL Tutoriel de formation] :
 
 ### Personnes
 
-Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit ::
+Ce modèle repose sur la mesure Personnes, qui est une version dédupliquée de la mesure Visiteurs uniques. La mesure Personnes permet d’évaluer à quelle fréquence les internautes utilisent différents appareils pour interagir avec votre marque. Le modèle permet d’accomplir ce qui suit : 
 
 * Segmenter vos données pour les États-Unis/le Canada et le reste du monde
 * Comparer côte à côte les mesures Personnes et Visiteurs uniques

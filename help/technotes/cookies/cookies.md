@@ -3,10 +3,10 @@ title: Adobe Analytics et les cookies de navigateur
 description: Découvrez comment les mesures de prévention du suivi affectent les cookies tiers et propriétaires définis par Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '1985'
-ht-degree: 100%
+source-wordcount: '1981'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Ce document explique comment les mesures de prévention du suivi des principaux 
 ## Comment les navigateurs ont-ils limité l’utilisation des cookies ?
 
 >[!NOTE]
->[Les analyses entre appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=fr#cda) et [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr#comparing-cja-to-traditional-adobe-analytics) peuvent regrouper les cookies à l’aide d’un identifiant personnel, tel qu’un identifiant de connexion haché, si disponible.
+>[Les analyses entre appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) et [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) peuvent regrouper les cookies à l’aide d’un identifiant personnel, tel qu’un identifiant de connexion haché, si disponible.
 
 ### Limitations des cookies tiers
 

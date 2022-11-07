@@ -4,10 +4,10 @@ title: Paramètres du compte général
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 81%
+source-wordcount: '809'
+ht-degree: 83%
 
 ---
 
@@ -36,5 +36,5 @@ Voici une vidéo sur la configuration des paramètres du compte général :
 | Option Zip | Vous permet de spécifier le code postal au lieu d’utiliser ce que notre recherche d’adresses IP géographiques produit. |
 | Prise en charge de caractères complexes | La prise en charge des caractères complexes stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. Contactez votre gestionnaire de compte ou le service d’assistance clientèle pour modifier la prise en charge de caractères complexes (multi-octets) d’une suite de rapports existante. |
 | Activé | Indique si cette suite de rapports est activée ou non. |
-| Devise de base | Permet de définir la base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=en) pour cette suite de rapports. |
+| Devise de base | Permet de définir la base [currency](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=fr) pour cette suite de rapports. |
 | ID d’organisation | Identifiant associé à votre société d’Experience Cloud configurée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |

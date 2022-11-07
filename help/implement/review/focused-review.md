@@ -3,10 +3,10 @@ title: Révision ciblée (après chaque mise à jour de site web)
 description: Suivez ces étapes pour vous assurer que votre implémentation reste dénuée d’erreurs et conforme à vos indicateurs clés de performance.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 84%
+source-wordcount: '511'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Assurez-vous que la dernière mise à jour du site n’a pas eu d’incidence n�
 
 Si vous avez récemment ajouté ou modifié des mesures ou des variables, vous devez mettre à jour votre document d’exigences de l’entreprise (BRD) et votre document de référence pour la conception de solution (SDR).
 
-Si la documentation relative à votre implémentation est indisponible, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
+Si la documentation relative à votre implémentation est indisponible, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
 
 ## 5. Résolvez immédiatement les problèmes liés à la qualité des données
 

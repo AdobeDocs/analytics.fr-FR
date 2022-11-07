@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 73%
+source-wordcount: '899'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 73%
 
 Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Segments rapides
 
-* Appliquer comme [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F).
+* Appliquer comme [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
 * Autorisent jusquʼà 3 règles.
 * Ne prennent pas en compte les conteneurs imbriqués ni les règles séquentielles.
 
@@ -43,7 +43,7 @@ Configurez le segment rapide vierge :
 | --- | --- |
 | Nom | Le nom par défaut dʼun segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment. |
 | Inclure/exclure | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
-| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=fr#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
+| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
 | Composants (Dimension/mesure/période) | Définissez jusquʼà 3 règles maximum en ajoutant des composants (dimensions et/ou mesures et/ou périodes) et leurs valeurs. Il existe trois manières différentes de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segments rapides] trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
 | Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
 | Signe plus (+) | Ajouter une autre règle |
@@ -85,7 +85,7 @@ La barre latérale du segment passe du bleu réparti par bandes au bleu plus cla
 
 ## Que sont les segments réservés à un projet unique ?
 
-Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Elles sont destinées à une exploration rapide de vos données sans avoir à créer et enregistrer un segment dans le rail de gauche. Les segments de projet uniquement peuvent être créés dans la zone de dépôt du panneau avec les segments rapides ou [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en).
+Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Elles sont destinées à une exploration rapide de vos données sans avoir à créer et enregistrer un segment dans le rail de gauche. Les segments de projet uniquement peuvent être créés dans la zone de dépôt du panneau avec les segments rapides ou [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 Si un segment de projet uniquement est ouvert dans la variable [!UICONTROL Créateur de segments], une notification de projet uniquement s’affiche. Si vous ne cochez pas la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL APPLIQUER]**, le segment reste un segment réservé au projet. Remarque : Si vous appliquez un segment rapide à partir du créateur de segments, il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapide].
 

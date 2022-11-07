@@ -3,9 +3,9 @@ title: Mise en correspondance des objets de couche de données avec les élémen
 description: Configurez les balises pour la lecture à partir de votre couche de données.
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 90%
 
 ---

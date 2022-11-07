@@ -3,10 +3,10 @@ title: Mise à niveau des services SFTP - FAQ
 description: Questions fréquentes sur la mise à niveau prévue des services SFTP.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 70ede981a0f6f7aebbbdf4dbcbf9e5187a3df495
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '447'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Les fonctionnalités suivantes offrent une option pour télécharger des donnée
 
 * [Classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=fr)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
+* [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [Flux de données](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=fr)
 

@@ -3,10 +3,10 @@ title: Totaux des mesures calculées
 description: Découvrez comment les totaux des mesures calculées diffèrent dans les outils Analytics.
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -41,4 +41,4 @@ Lorsque des totaux sont affichés, ils sont souvent calculés côté serveur, ce
 * Lorsque des [lignes statiques](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) sont utilisées dans des tableaux à structure libre, l’option **[!UICONTROL Afficher comme somme des lignes actuelles]** (par défaut) est sélectionnée.
 * Dans la [visualisation Anneau](/help/analyze/analysis-workspace/visualizations/donut.md), afin que la somme des nombres s’élève à 100 %.
 
-Pour plus dʼinformations sur les totaux dans Analysis Workspace, consultez la section [Totaux dans Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr#static-row-total).
+Pour plus dʼinformations sur les totaux dans Analysis Workspace, consultez la section [Totaux dans Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total).

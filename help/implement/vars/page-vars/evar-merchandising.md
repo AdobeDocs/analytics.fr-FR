@@ -4,10 +4,10 @@ description: Variables personnalisées liées à des produits individuels.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 64%
+source-wordcount: '541'
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 *Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, voir [eVars (dimension de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation des composants.*
 
-Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
+Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 

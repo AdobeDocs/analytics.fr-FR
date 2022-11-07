@@ -3,16 +3,16 @@ description: Créez un conteneur de base pour la collecte de données dans Adobe
 title: Créer une suite de rapports
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 90%
+source-wordcount: '316'
+ht-degree: 88%
 
 ---
 
 # Créer une suite de rapports
 
-Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. Lʼintroduction des [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr#virtual-report-suites) et du traitement de la période de rapport permet aux administrateurs de créer leurs propres sous-ensembles de données, offrant ainsi la flexibilité dʼobtenir des données globales et spécifiques au site.
+Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour extraire des rapports. Une entreprise peut avoir plusieurs suites de rapports, contenant chacune différents jeux de données. Bien que des suites de rapports distinctes aient été importantes par le passé, le fait d’avoir une seule suite de rapports est devenu plus avantageux. Lʼintroduction des [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites) et du traitement de la période de rapport permet aux administrateurs de créer leurs propres sous-ensembles de données, offrant ainsi la flexibilité dʼobtenir des données globales et spécifiques au site.
 
 Cet article est destiné aux administrateurs au niveau du système ou aux administrateurs Adobe Analytics afin de les préparer à la collecte de données.
 
