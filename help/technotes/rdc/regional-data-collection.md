@@ -3,7 +3,7 @@ title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1016e802f80855aebe0046f48556733652379d33
+source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 90%
@@ -54,7 +54,7 @@ La collecte de données régionale inclut actuellement les emplacements suivants
 | Avantage | Description |
 | --- | --- |
 | Performances | Avec la collecte de données régionale, vos visiteurs se connectent au centre de collecte de données le plus proche. Cela permet de disposer du temps de réponse le plus rapide, ce qui autorise un suivi plus précis et des temps de chargement plus rapides. |
-| Redondance | Dans le cas dʼune interruption de communication entre le centre de collecte de données et votre centre de traitement de données, lʼinfrastructure de collecte de données régionale dʼAdobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
+| Redondance | Dans le cas d’une interruption de communication entre le centre de collecte de données et votre centre de traitement de données, l’infrastructure de collecte de données régionale d’Adobe enregistre les données localement, puis les transmet au centre de traitement de données lorsque les communications sont restaurées. |
 
 ## Fonctionnement de la collecte de données régionale
 
