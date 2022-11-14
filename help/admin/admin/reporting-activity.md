@@ -4,9 +4,9 @@ title: Responsable des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '962'
 ht-degree: 7%
 
 ---
@@ -120,7 +120,10 @@ Le tableau détaillé ci-dessous présente des détails sur la suite de rapports
 
 Pour annuler une requête
 
-1. Cochez la case à gauche d’une ou de plusieurs **[!UICONTROL ID de requête]** dans le tableau, puis cliquez sur **[!UICONTROL Annulation des requêtes]** en bas. (Vous pouvez également annuler des requêtes en bloc en affichant les détails en [!UICONTROL Utilisateur], [!UICONTROL Projet]ou [!UICONTROL Application].)
+1. Cochez la case à gauche d’une ou de plusieurs **[!UICONTROL ID de requête]** dans le tableau, puis cliquez sur **[!UICONTROL Annulation des requêtes]** en bas.
+
+   Vous pouvez également annuler des requêtes en bloc en affichant les détails en [!UICONTROL Utilisateur], [!UICONTROL Projet]ou [!UICONTROL Application]. Les demandes suivantes pour un projet, un utilisateur ou une application qui n’étaient pas dans la file d’attente ou qui ne s’exécutaient pas au moment de l’annulation peuvent toujours apparaître lorsque l’activité est actualisée.
+
 1. Dans le **[!UICONTROL Annuler la requête x]** qui s’affiche, vous pouvez modifier le message d’annulation, si nécessaire.
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
