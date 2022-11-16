@@ -4,9 +4,9 @@ title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3827'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -210,7 +210,7 @@ Créez un segment comme vous le feriez pour un segment   segment séquentiel sim
 
 Si le point de contrôle d’exclusion se situe au début d’un segment séquentiel, cette option s’assure qu’une page exclue n’a pas été vue avant le premier accès non exclu.
 
-Par exemple, un restaurant souhaite voir les utilisateurs incurables qui évitent la page d’entrée principale et accèdent directement à la page Commande à emporter. Cet exemple peut être simplifié pour un visiteur qui évite de visiter la page A et d’accéder directement à la page B.
+Par exemple, un restaurant veut voir les utilisateurs réguliers qui évitent la page de destination principale et vont directement à la page Commander à emporter. Cet exemple peut être simplifié à un visiteur qui évite de visiter la page A et accède directement à la page B.
 
 **Créer ce segment**
 
@@ -222,7 +222,7 @@ Créez deux conteneurs d’accès distincts au sein d’un conteneur de visiteur
 
 Si le point de contrôle d’exclusion se situe à la fin d’une séquence, cette option s’assure que le point de contrôle ne s’est pas produit entre le dernier point non exclu et la fin de la séquence du visiteur.
 
-Par exemple, une boutique de vêtements souhaite afficher tous les visiteurs qui ont consulté une page de produits, mais qui n’ont jamais consulté leur panier par la suite. Cet exemple peut être simplifié pour un visiteur qui accède à la page A sans jamais accéder à la page B au cours de ses visites actuelles ou ultérieures.
+Par exemple, une boutique de vêtements souhaite afficher tous les visiteurs qui ont consulté une page produit, mais qui n’ont jamais consulté leur panier par la suite. Cet exemple peut être simplifié à un visiteur qui accède à la page A sans jamais accéder à la page B au cours de la visite actuelle ou des visites ultérieures.
 
 **Créer ce segment**
 
