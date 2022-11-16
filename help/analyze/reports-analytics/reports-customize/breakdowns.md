@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Si vous ventilez un rapport par  *`Referrer Type`*, un point de données peut s�
 
 Vous pouvez ventiler toute variable Analytics (eVar ou prop) en fonction de toute autre variable. Le menu **[!UICONTROL Ventiler en fonction de]** dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
 
-## Exécution d’un rapport de ventilation {#task_F685624830E64C829C8BE6435A107F69}
+## Exécuter un rapport de ventilation {#task_F685624830E64C829C8BE6435A107F69}
 
 Cette procédure décrit l’exécution d’un rapport de ventilation.
 
