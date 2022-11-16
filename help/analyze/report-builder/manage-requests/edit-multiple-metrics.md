@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Gardez à l’esprit que :
 
 * Les mesures peuvent uniquement être ajoutées à des demandes de type Disposition croisée dynamique. Si certaines des demandes sélectionnées sont de type Disposition personnalisée, les mesures ne peuvent pas être ajoutées. En effet, la disposition étant personnalisée, le Report Builder ne sait pas où placer la nouvelle mesure dans la feuille de calcul.
 * Par conséquent, si vous avez uniquement sélectionné demandes de type Disposition personnalisée, l’option **[!UICONTROL Ajouter des mesures]** n’est pas disponible.
-* L’ajout de mesures augmente la taille de la demande, si bien qu’elle risque d’en chevaucher une autre. Assurez-vous que votre requête dispose de suffisamment d’espace autour pour permettre l’ajout de mesures.
+* L’ajout de mesures augmente la taille de la demande, si bien qu’elle risque d’en chevaucher une autre. Assurez-vous que la demande dispose de suffisamment d’espace pour permettre l’ajout de mesures.
 * Si la mesure ajoutée est déjà présente dans l’une des demandes sélectionnées, elle n’est pas ajoutée à celle-ci.
 
 Pour ajouter une ou plusieurs mesures :
