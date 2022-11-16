@@ -1,12 +1,12 @@
 ---
 title: Définir les 5 principaux indicateurs clés de performance
-description: Assurez-vous que vos indicateurs de performances clés et les mesures et dimensions associées correspondent étroitement aux besoins de votre entreprise.
+description: Assurez-vous que vos indicateurs clés de performance, ainsi que les mesures et dimensions associées, correspondent étroitement aux besoins de votre entreprise.
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
