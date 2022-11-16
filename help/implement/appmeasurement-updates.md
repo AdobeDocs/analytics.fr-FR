@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Date de publication : **15 août 2019**
 
 Date de publication : **15 juillet 2019**
 
-* Ajout du suivi de la portée de défilement Activity Map à l’extension Activity Map (AN-172949)
+* Ajout du suivi de la portée de défilement ActivityMap à l’extension ActivityMap (AN-172949)
 * Ajout de DIL 9.2 à AppMeasurement (AN-182472)
 
 ## Version 2.14.0
@@ -275,7 +275,7 @@ Mise à jour : **4 août 2016**
 
 >[!IMPORTANT]
 >
->La version 1.6.0 du service [!DNL Experience Cloud] ID *exige* [!DNL AppMeasurement] pour [!DNL JavaScript] version 1.6.3 ou supérieure. Si vous souhaitez effectuer la mise à niveau vers la version 1.6.0 du service d’ID Experience Cloud, veillez à utiliser AppMeasurement 1.6.3 ou version ultérieure.
+>La version 1.6.0 du service [!DNL Experience Cloud] ID *exige* [!DNL AppMeasurement] pour [!DNL JavaScript] version 1.6.3 ou supérieure. Pour effectuer une mise à niveau vers la version 1.6.0 du service Experience Cloud ID, veillez à utiliser la version 1.6.3 ou une version supérieure d’AppMeasurement.
 
 ## Version 1.6.2
 
@@ -456,7 +456,7 @@ Date de publication : **15 novembre 2013**
 Date de publication : **14 novembre 2013**
 
 * Ajout de la prise en charge de la [mesure vidéo Pulsation](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
-* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* `VisitorAPI.js` a été ajouté à la prise en charge du [service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
 ## Version 1.1.1
 
