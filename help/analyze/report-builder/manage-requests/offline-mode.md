@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,4 +34,4 @@ Pour activer le mode hors ligne :
 
    >[!IMPORTANT]
    >
-   >Veillez à désactiver le mode hors ligne avant d’exécuter vos requêtes avec des données réelles. Pour ce faire, retournez à **[!UICONTROL Options]** et décochez la case.
+   >Assurez-vous d’avoir désactivé le mode hors ligne avant d’exécuter les requêtes avec des données réelles. Pour ce faire, retournez à **[!UICONTROL Options]** et décochez la case.
