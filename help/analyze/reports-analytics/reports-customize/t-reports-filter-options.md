@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ Correspond si le terme se trouve dans l’élément de ligne. Opère de la même
 
 >[!NOTE]
 >
-> Les espaces ne peuvent pas être utilisés dans les filtres, car ils jouent le rôle de délimiteurs dans les recherches.
+>Les espaces ne peuvent pas être utilisés dans les filtres, car ils jouent le rôle de délimiteurs dans les recherches.
 
 **Ne contient pas**
 
-Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html) depuis les rapports utilisant « Ne contient pas ».
+Correspond si le terme ne se trouve pas dans l’élément de ligne. Vous pouvez utiliser les filtres « non spécifié », « aucun », « mot-clé indisponible » ainsi que d’autres [valeurs spéciales](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=fr) depuis les rapports utilisant « Ne contient pas ».
 
 Ne contient pas : `none`
 
@@ -90,7 +90,7 @@ Sale & Values
 
 Correspond si l’ensemble de l’élément de ligne, y compris les espaces et autres caractères, correspondent à la phrase indiquée.
 
-Est égal à: `mens:desk & travel`
+Est égal à : `mens:desk & travel`
 
 `Mens:Desk & Travel`
 
@@ -139,7 +139,7 @@ Le filtre Avancé permet de réaliser des recherches avec des caractères géné
 | `-` | Pas. <br>N’incluez pas d’espace entre le caractère spécial et l’expression à rechercher. |
 | `|` | Ou <br>Remarque : vous devez inclure un espace de chaque côté de la barre verticale, `" | "` |
 
-## Création de filtres spécifiques aux rapports {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
+## Créer des filtres spécifiques aux rapports {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
 Cette section décrit la procédure à suivre pour créer des filtres pour les rapports.
 
@@ -161,7 +161,7 @@ Lorsque vous accédez à ces filtres, vous pouvez afficher les mesures des élé
 1. Pour rechercher un élément, saisissez une chaîne de caractères dans le champ **[!UICONTROL Rechercher]**.
 1. Cliquez sur **[!UICONTROL OK]**.
 
-## Ajout d’un filtre de corrélation {#task_065042E384DA4BF3864C58AF2B88D6E2}
+## Ajouter un filtre de corrélation {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
 Cette section décrit la procédure à suivre pour ajouter un filtre de corrélation.
 
