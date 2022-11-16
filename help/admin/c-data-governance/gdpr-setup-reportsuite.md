@@ -4,9 +4,9 @@ title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '967'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,17 +51,17 @@ ht-degree: 97%
    >
    >Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein des Solutions/Services/Plateformes pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données.
 
-   ![Étiquettes Identité](assets/identity_labels.png)
+   ![Étiquettes d’identité](assets/identity_labels.png)
 
 1. Ouvrez la section **Données sensibles** pour définir les étiquettes des données sensibles qui catégorisent les données de géolocalisation. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de données sensibles (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
-   ![SEnsitive data](assets/sensitive_data.png)
+   ![Données sensibles](assets/sensitive_data.png)
 
 1. Ouvrez la section Confidentialité des données pour définir les étiquettes de **gouvernance des données**. Utilisez cette section pour enseigner à Adobe comment traiter chaque variable pour les demandes d’accès et de suppression relatives à la Confidentialité des données, et pour définir les variables à analyser pour trouver les ID des sujets de données pour ces demandes. Pour plus d’informations sur ces options, reportez-vous à [Étiquettes de gouvernance des données (Confidentialité des données).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![Étiquettes de confidentialité](assets/privacy_labels.png)
 
-1. Cliquez sur **[!UICONTROL Appliquer]** lorsque vous avez entièrement terminé l’étiquetage.
+1. Cliquez sur **[!UICONTROL Appliquer]** une fois l’étiquetage terminé.
 
 ## Copier des libellés dans une ou plusieurs suites de rapports {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
