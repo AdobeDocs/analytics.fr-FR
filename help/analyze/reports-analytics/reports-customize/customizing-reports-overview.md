@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
 
-## Création d’un rapport personnalisé {#task_BA6EACA3039C40AEA5605E1D8C76E646}
+## Créer un rapport personnalisé {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
 Cette section décrit la procédure à suivre pour enregistrer la configuration actuelle d’un rapport en tant que nouveau rapport personnalisé que tous les utilisateurs peuvent afficher.
 
@@ -43,7 +43,7 @@ Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous 
 >* [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=fr)
 
 
-## Sélection d’une date ou d’une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
+## Sélectionner une date ou une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
 Cette section décrit la procédure à suivre pour choisir les périodes des données de rapport.
 
@@ -74,7 +74,7 @@ Lorsque vous ouvrez un tableau de bord contenant des mini-rapports avec différe
 
 1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
-## Comparaison de dates {#task_95155C3700774B709F5FB81AE96B0824}
+## Comparer des dates {#task_95155C3700774B709F5FB81AE96B0824}
 
 Cette section décrit la procédure à suivre pour utiliser le calendrier afin de lancer une comparaison de dates entre des rapports de classement.
 
@@ -98,7 +98,7 @@ Pour comparer les dates entre des rapports de classement dans Reports &amp; An
 1. Sélectionnez les dates à utiliser.
 1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 
-## Affichage d’un pourcentage sous forme de graphique {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
+## Afficher des pourcentages sous forme de graphique {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
 Cette section décrit la procédure à suivre pour spécifier d’afficher les pourcentages d’un tableau de rapport sous forme de graphique.
 
@@ -113,7 +113,7 @@ Cette visualisation est également disponible dans les mini-rapports du tableau 
 1. Exécutez un rapport qui prend les pourcentages en charge, tel qu’un [!UICONTROL rapport Pages].
 1. Cliquez sur **[!UICONTROL Pourcentage affiché comme : graphique]**.
 
-## Normalisation des données de rapport {#task_8005B55E59BD479DA67BC618FF8BC94A}
+## Normaliser des données de rapport {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
 Cette section décrit la procédure à suivre pour normaliser les données de rapport.
 
@@ -132,7 +132,7 @@ Après exécution d’un rapport de comparaison de dates, ou pour les comparaiso
 1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
 1. Cliquez sur **[!UICONTROL Normaliser les données : oui]**.
 
-## Sélection d’une page pour un rapport {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
+## Sélectionner une page pour un rapport {#task_5CAC3B76BD4C4208B8D53DD972D4771F}
 
 Cette section décrit la procédure à suivre pour sélectionner une page spécifique de votre site web pour un rapport.
 
@@ -148,7 +148,7 @@ t_reports_select_page.xml
 1. Localisez la page.
 1. Cliquez sur **[!UICONTROL OK]**.
 
-## Comparaison de suites de rapports {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
+## Comparer des suites de rapports {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
 Cette section décrit la procédure à suivre pour afficher en un seul et même rapport les rapports de deux suites.
 
@@ -167,7 +167,7 @@ Outre l’affichage graphique, le tableau du rapport donne une comparaison en po
 * Produits
 * Rétention des visiteurs
 * Profil du visiteur
-* Conversion personnalisée 
+* Conversion personnalisée
 * Trafic personnalisé
 * Target
 * Enquête
@@ -179,7 +179,7 @@ Outre l’affichage graphique, le tableau du rapport donne une comparaison en po
 1. Localisez la suite de rapports.
 1. Cliquez sur **[!UICONTROL OK]**.
 
-## Spécification de la granularité d’un rapport {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
+## Spécifier la granularité d’un rapport {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
 Cette section décrit la procédure à suivre pour afficher les totaux des rapports par heure, jour, semaine, mois, trimestre ou année.
 
@@ -196,7 +196,7 @@ La période du rapport détermine quelles sont les options de granularité dispo
 1. Générez un rapport de tendances, tel que **[!UICONTROL Contenu du site]** > **[!UICONTROL Pages]**.
 1. Cliquez sur le lien **[!UICONTROL Vue par]**, puis sur une granularité.
 
-## Exécution d’un rapport Jour de la semaine {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
+## Exécuter un rapport Jour de la semaine {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
 Cette section décrit la procédure à suivre pour exécuter des rapports un jour précis de la semaine, par exemple chaque lundi d’une période donnée.
 
@@ -211,7 +211,7 @@ Cette fonctionnalité s’applique uniquement aux rapports de tendances filtrés
 1. Exécutez un rapport de tendances pour une période spécifiée.
 1. Cliquez sur le lien **[!UICONTROL Jour de la semaine]**, puis cliquez sur un jour.
 
-## Bouton Essayer dans l’espace de travail  {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## Bouton Essayer dans l’espace de travail {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 Un clic sur le bouton **[!UICONTROL Essayer dans l’espace de travail]** situé en haut d’un rapport entraîne le chargement de ce rapport dans Analysis Workspace.
 
