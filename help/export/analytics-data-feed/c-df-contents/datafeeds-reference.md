@@ -8,7 +8,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
 source-wordcount: '3638'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -39,14 +39,14 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable utilisée dans la dimension [Code de suivi](/help/components/dimensions/tracking-code.md). | varchar(255) |
 | **`carrier`** | Variable d’intégration Adobe Advertising Cloud. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
-| **`ch_hdr`** | Conseils client collectés via l’en-tête de requête HTTP. | text |
-| **`ch_js`** | Conseils client collectés via l’API JavaScript User-Agent Client Hints. | text |
+| **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
+| **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
 | **`channel`** | Variable utilisée dans la dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
-| **`click_action`** | N’est plus utilisé. Adresse du lien cliqué dans l’outil hérité Clickmap. | varchar(100) |
-| **`click_action_type`** | N’est plus utilisé. Type de lien de l’outil hérité Clickmap.<br>0 : URL HREF<br>1 : identifiant personnalisé<br>2 : événement JavaScript onClick<br>3 : élément de formulaire | tinyint sans signe |
-| **`click_context`** | N’est plus utilisé. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité Clickmap. | varchar(255) |
+| **`click_action`** | N’est plus utilisé. Adresse du lien cliqué dans l’outil hérité ClickMap. | varchar(100) |
+| **`click_action_type`** | N’est plus utilisé. Type de lien de l’outil hérité ClickMap.<br>0 : URL HREF<br>1 : identifiant personnalisé<br>2 : événement JavaScript onClick<br>3 : élément de formulaire | tinyint sans signe |
+| **`click_context`** | N’est plus utilisé. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité ClickMap. | varchar(255) |
 | **`click_context_type`** | N’est plus utilisé. Indique si `click_context` avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
-| **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité Clickmap. | int sans signe |
+| **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité ClickMap. | int sans signe |
 | **`click_tag`** | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
 | **`clickmaplink`** | Activity Map    lien | varchar(255) |
 | **`clickmaplinkbyregion`** | Lien d’Activity Map par région | varchar(255) |
@@ -69,7 +69,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | **`domain`** | Variable utilisée dans la dimension [Domaine](/help/components/dimensions/domain.md). Basée sur le point dʼaccès Internet du visiteur. | varchar(100) |
 | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |
-| **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour cet accès est ignoré, car il s’agit d’un doublon. | tinyint sans signe |
+| **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour cet accès doit être ignoré, car il s’agit d’un double. | tinyint sans signe |
 | **`duplicated_from`** | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie de l’accès. Indique la suite de rapports à partir de laquelle l’accès a été copié. | varchar(40) |
 | **`ef_id`** | Le `ef_id` utilisé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
 | **`evar1 - evar250`** | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
@@ -93,9 +93,9 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`hitid_low`** | Utilisée en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
 | **`homepage`** | N’est plus utilisé. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
 | **`hourly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur horaire. | tinyint sans signe |
-| **`ip`** | Adresse IPv4, basée sur l’en-tête HTTP de la demande d’image. Mutuellement exclusif à `ipv6`; si cette colonne contient une adresse IP non obscurcie, `ipv6` est vide. | char(20) |
+| **`ip`** | L’adresse IPv4, basée sur l’en-tête HTTP de la demande d’image. Mutuellement exclusif à `ipv6`. Si cette colonne contient une adresse IP non masquée, `ipv6` est vide. | char(20) |
 | **`ip2`** | Inutilisé. Variable de référence du serveur principal pour les suites de rapports contenant des règles VISTA basées sur l’adresse IP. | char(20) |
-| **`ipv6`** | Adresse IPv6 compressée, le cas échéant. Mutuellement exclusif à `ip`; si cette colonne contient une adresse IP non obscurcie, `ip` est vide. | varchar(40) |
+| **`ipv6`** | L’adresse IPv6 compressée, si disponible. Mutuellement exclusif à `ip`. Si cette colonne contient une adresse IP non masquée, `ip` est vide. | varchar(40) |
 | **`j_jscript`** | Version de JavaScript prise en charge par le navigateur. | char(5) |
 | **`java_enabled`** | Indicateur précisant si Java est activé. <br>Y : activé <br>N : désactivé <br>U : inconnu | char(1) |
 | **`javascript`** | Identifiant de recherche de la version JavaScript, basé sur `j_jscript`. Utilise une table de recherche. | tinyint sans signe |
@@ -153,8 +153,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mobilerelaunchcampaigntrackingcode`** | Collecté à partir de la variable des données de contexte `a.launch.campaign.trackingcode`. Utilisé au moment de l’acquisition comme code de suivi de la campagne de lancement. | varchar(255) |
 | **`mobileresolution`** | Résolution de l’appareil mobile. `[Width] x [Height]` en pixels. | varchar(255) |
 | **`monthly_visitor`** | Indicateur signifiant que le visiteur est unique pour le mois en cours. | tinyint sans signe |
-| **`mvvar1`** - `mvvar3` | Liste des valeurs de variable définies sur l’accès actif ou conservées à partir des accès précédents. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. Les colonnes `post_mvvar1` - `post_mvvar3` remplacent le délimiteur dʼorigine par `--**--`. | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | Valeurs de la variable list qui ont été définies sur l’accès actif. Les colonnes `post_mvvar1_instances` - `post_mvvar3_instances` remplacent le délimiteur dʼorigine par `--**--`. | text |
+| **`mvvar1`** - `mvvar3` | Les valeurs de la liste de variable définies sur l’accès actuel ou conservées à partir des accès précédents. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. Les colonnes `post_mvvar1` - `post_mvvar3` remplacent le délimiteur dʼorigine par `--**--`. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | Les valeurs de la variable de liste qui ont été définies sur l’accès actuel. Les colonnes `post_mvvar1_instances` - `post_mvvar3_instances` remplacent le délimiteur dʼorigine par `--**--`. | text |
 | **`namespace`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(50) |
 | **`new_visit`** | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. Utilise la recherche de `os`. | int sans signe |

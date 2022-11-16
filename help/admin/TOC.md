@@ -84,7 +84,7 @@ ht-degree: 100%
       + [Rapports en temps réel - Présentation](admin/realtime/realtime.md)
       + [Configuration des rapports en temps réel](admin/realtime/t-realtime-admin.md)
       + [Mesures et dimensions en temps réel prises en charge](admin/realtime/realtime-metrics.md)
-   + [Responsable des activités de rapport](admin/reporting-activity.md)
+   + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
       + [Transfert côté serveur - Présentation](admin/c-server-side-forwarding/ssf.md)

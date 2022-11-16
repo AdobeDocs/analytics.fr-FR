@@ -1,39 +1,39 @@
 ---
 title: collectHighEntropyUserAgentHints
-description: Utilisez la variable collectHighEntropyUserAgentHints pour déterminer si Adobe va demander des indicateurs d’entropie élevée aux navigateurs Chrome et Microsoft Edge (par exemple, Google Chrome et Edge).
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+description: Utilisez la variable collectHighEntropyUserAgentHints pour déterminer si Adobe va demander des indications à entropie élevée aux navigateurs Chromium (par exemple, Google Chrome et Microsoft Edge).
+exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics utilise des indices client à forte entropie pour améliorer l’identification des appareils et des navigateurs. Cette option est disponible à partir de la version 2.23.0 du fichier AppMeasurement.js. En savoir plus sur les conseils aux clients dans [cette présentation et FAQ](/help/technotes/client-hints.md) ainsi que [blog Google](https://web.dev/user-agent-client-hints/).
+Adobe Analytics utilise des indications du client à entropie élevée pour améliorer l’identification des appareils et des navigateurs. Cette option est disponible à partir de la version 2.23.0 d’AppMeasurement.js. Consultez [cette présentation et cette FAQ](/help/technotes/client-hints.md) ainsi que le [blog Google](https://web.dev/user-agent-client-hints/) pour en savoir plus sur les indications du client.
 
-## Collecte d’indices à forte entropie à l’aide du SDK Web
+## Collecter des indications à entropie élevée en utilisant le SDK Web
 
-Les conseils client à forte entropie font partie des catégories de contexte dans le SDK Web. Voir [Configuration du SDK Web de Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) pour plus d’informations.
+Les indications du client à entropie élevée font partie des catégories de contexte dans le SDK Web. Consultez la section [Configurer le SDK Web Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) pour plus d’informations.
 
-## Collecte d’indices à forte entropie à l’aide de l’extension Adobe Analytics
+## Collecter des indications à entropie élevée en utilisant l’extension Adobe Analytics
 
-**[!UICONTROL Collecte de conseils d’agent-utilisateur à forte entropie]** est une case à cocher située sous l’accordéon Général lors de la configuration de l’extension Adobe Analytics.
+**[!UICONTROL Collecter des indications agent-utilisateur à entropie élevée]** est une case à cocher située sous l’accordéon Général lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/#/@adobepm/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/#/@adobepm/data-collection) à l’aide de vos identifiants Adobe ID.
 
-1. Cliquez sur la [!UICONTROL propriété tag].
+1. Cliquez sur la [!UICONTROL propriété de balise] de votre choix.
 
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur [!UICONTROL Configurer] sous Adobe Analytics.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur [!UICONTROL Configurer] sous Adobe Analytics.
 
-1. Développez l’objet [!UICONTROL Général] en accordéon, qui affiche la variable [!UICONTROL Collecte de conseils d’agent-utilisateur à forte entropie] . Ce paramètre est désélectionné par défaut.
+1. Développez l’accordéon [!UICONTROL Général], qui affiche la case à cocher [!UICONTROL Collecter des indications agent-utilisateur à entropie élevée]. Cette case est désactivée par défaut.
 
 ## collectHighEntropyUserAgentHints dans AppMeasurement
 
-Le `s.collectHighEntropyUserAgentHints` détermine si AppMeasurement demande des indices à forte entropie aux navigateurs Chromium (par exemple, Google Chrome et Microsoft Edge). Ces astuces sont utilisées par Adobe Analytics pour améliorer l’identification des appareils et des navigateurs.
+La variable `s.collectHighEntropyUserAgentHints` détermine si AppMeasurement demande des indications à entropie élevée aux navigateurs Chromium (par exemple, Google Chrome et Microsoft Edge). Adobe Analytics utilise ces indications pour améliorer l’identification des appareils et des navigateurs.
 
-Si cette valeur est définie sur TRUE, tous les indicateurs à forte entropie sont demandés par le navigateur.
+Si cette valeur est définie sur TRUE, toutes les indications à entropie élevée sont demandées au navigateur.
 
 `s.collectHighEntropyUserAgentHints = TRUE`
 

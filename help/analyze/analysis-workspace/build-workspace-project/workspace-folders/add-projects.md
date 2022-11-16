@@ -5,13 +5,13 @@ title: Ajouter des dossiers dans Workspace
 feature: Workspace Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # Ajouter des projets à des dossiers
 
@@ -29,7 +29,7 @@ Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’ac
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Sélectionnez **Déplacer vers**. La boîte de dialogue Sélectionner un dossier s’affiche.
+1. Sélectionner **Déplacer vers**. La boîte de dialogue Sélectionner un dossier s’affiche.
 
 1. Sélectionnez un nom de dossier dans le menu déroulant.
 
