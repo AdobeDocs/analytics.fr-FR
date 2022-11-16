@@ -4,15 +4,15 @@ description: Découvrez quelle couche de données se trouve dans votre mise en �
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
 # Création d’une couche de données
 
-Une couche de données est une structure d’objets JavaScript sur votre site qui contient les valeurs de variable utilisées dans votre mise en oeuvre Analytics. Cela permet un meilleur contrôle et une maintenance plus facile lors de l’attribution de valeurs aux variables Analytics.
+Une couche de données est une structure d’objets JavaScript sur votre site qui contient les valeurs de variable utilisées dans votre mise en œuvre Analytics. Elle permet un meilleur contrôle et une maintenance plus facile lors de l’attribution de valeurs aux variables Analytics.
 
 ## Conditions préalables
 
@@ -29,15 +29,15 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
    >Le respect des spécifications de couche de données recommandées par Adobe est facultatif. Si vous disposez déjà d’une couche de données ou si vous choisissez de ne pas respecter les spécifications d’Adobe, assurez-vous que votre entreprise s’aligne sur les spécifications à suivre.
 
 1. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `adobeDataLayer.page.title`.
-1. **Utilisation de la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données**: Cette étape varie en fonction de la méthode de mise en oeuvre de votre entreprise :
-   * **Si vous utilisez le SDK Web**: Faites correspondre les objets de couche de données de votre choix aux champs XDM de votre choix dans Adobe Experience Platform Edge. Voir [Mappage des variables Analytics](../aep-edge/variable-mapping.md) pour déterminer le mappage de couche de données souhaité.
-   * **Si vous utilisez l’extension Analytics**: Créez des éléments de données sous Balises dans la collecte de données Adobe Experience Platform et affectez-les aux objets de couche de données de votre choix. Ensuite, dans l’extension Analytics, affectez chaque élément de données à la variable Analytics appropriée.
+1. **Utilisez la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données** : Cette étape varie en fonction de la méthode de mise en œuvre de votre entreprise :
+   * **Si vous utilisez le SDK Web** : mappez les objets de couche de données de votre choix aux champs XDM désirés dans Adobe Experience Platform Edge. Consultez la section [Mappage des variables Analytics](../aep-edge/variable-mapping.md) pour déterminer le mappage de couche de données souhaité.
+   * **Si vous utilisez l’extension Analytics** : créez des éléments de données sous l’onglet Balises dans la collecte de données Adobe Experience Platform et affectez-les aux objets de couche de données de votre choix. Ensuite, dans l’extension Analytics, affectez chaque élément de données à la variable Analytics appropriée.
 
 ## Spécifications
 
-Adobe recommande d’utiliser la variable [Adobe de la couche de données client](https://github.com/adobe/adobe-client-data-layer/wiki) pour les mises en oeuvre nouvelles ou restructurées.
+Adobe recommande d’utiliser la [couche de données du client Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) pour les nouvelles implémentations ou les implémentations restructurées.
 
-Votre entreprise peut utiliser librement d’autres spécifications de couche de données, telles que la variable [Couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf), ou une autre spécification personnalisée entièrement. L’alignement sur une couche de données cohérente répondant aux besoins de votre entreprise est le plus important.
+Votre entreprise peut utiliser d’autres spécifications de couche de données, comme la [couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf), ou une autre spécification personnalisée. L’alignement sur une couche de données cohérente répondant aux besoins de votre entreprise est le plus important.
 
 Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
 
