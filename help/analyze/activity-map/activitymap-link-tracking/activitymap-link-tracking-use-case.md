@@ -1,20 +1,20 @@
 ---
-description: Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
+description: Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module ActivityMap d’AppMeasurement.
 title: Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Différenciation de plusieurs liens se rapportant au même ID de lien et à la même région
 
-Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module Activity Map d’AppMeasurement.
+Vous pouvez différencier des liens en personnalisant l’ID de lien à l’aide de la variable s_objectID, en personnalisant la région et le fichier du module ActivityMap d’AppMeasurement.
 
 Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifiés par Activity Map sous le même ID de lien et la même région :
 
@@ -44,13 +44,13 @@ Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifi�
    <td colname="col2">
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -71,15 +71,15 @@ Par exemple, admettons que vous possédiez plusieurs liens « Buy » identifi�
  </tbody>
 </table>
 
-Comment pouvez-vous personnaliser votre page web et le balisage pour différencier les valeurs de ces liens ? Trois options s’offrent à vous : vous pouvez personnaliser l’ID de lien, la région ou le fichier du module Activity Map d’AppMeasurement.
+Comment pouvez-vous personnaliser votre page web et le balisage pour différencier les valeurs de ces liens ? Trois options s’offrent à vous : vous pouvez personnaliser l’ID de lien, la région ou le fichier du module ActivityMap d’AppMeasurement.
 
 ## Personnalisation de l’ID de lien à l’aide de s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emplacement de lien sur une page, vous pouvez améliorer le suivi du Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable , rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=fr).`s_objectID`
+En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou emplacement de lien sur une page, vous pouvez améliorer le suivi d’Activity Map ou utiliser Activity Map pour créer des rapports sur un emplacement ou un type de lien plutôt que sur l’URL du lien. Pour plus d’informations sur la variable `s_objectID`, cliquez [ici](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=fr).
 
 >[!IMPORTANT]
 >
->Notez qu’un point-virgule de fin (`;`) est requis lors de l’utilisation de `s_objectID` en Activity Map.
+>Notez qu’un point-virgule de fin (`;`) est requis lorsque la variable `s_objectID` est utilisée dans Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
@@ -134,13 +134,13 @@ En créant un identifiant d’objet unique, `s_objectID`, pour un lien ou un emp
  </tbody>
 </table>
 
-## Personnalisation de la région {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personnaliser la région {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Vous pouvez personnaliser la région en vous assurant que la région de chaque lien &quot;Buy&quot; est définie. Pour ce faire, ajoutez une `"id"` à l’un des parents de chaque balise d’ancrage &quot;Buy&quot;.
+Vous pouvez personnaliser la région en vous assurant que la région de chaque lien « Buy » est définie. Pour ce faire, ajoutez un paramètre `"id"` à l’un des parents de chaque balise d’ancrage « Buy ».
 
 >[!NOTE]
 >
->Vous n’êtes pas strictement limité à la variable `"id"` comme identifiant de région. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript. `"s.ActivityMap.regionIDAttribute"`.
+>L’identifiant de région n’est pas strictement limité au paramètre `"id"`. Vous pouvez également définir votre propre identifiant à l’aide de la variable JavaScript `"s.ActivityMap.regionIDAttribute"`.
 
 <table id="table_250DB52A869C466B942517BABA1C287B">
  <thead>
@@ -168,13 +168,13 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
    <td colname="col2">
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
-    Acheter<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -195,13 +195,13 @@ Vous pouvez personnaliser la région en vous assurant que la région de chaque l
  </tbody>
 </table>
 
-## Personnalisation du fichier du module Activity Map d’AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personnaliser le fichier du module ActivityMap d’AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->Assurez-vous de tester le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
+>Testez le code modifié pour vous assurer qu’il fonctionne correctement. Adobe n’est pas responsable du comportement du code modifié.
 
-Voici quelques exemples de fonctions de lien/région **génériques** que vous pouvez inclure (sous une forme modifiée) dans votre fichier AppMeasurement.js
+Voici quelques exemples de fonctions de lien/région **génériques** que vous pouvez inclure (sous une forme modifiée) dans votre fichier AppMeasurement.js.
 
 ```js
 s.ActivityMap.link = function(ele, linkName) {
@@ -216,7 +216,7 @@ s.ActivityMap.link = function(ele, linkName) {
 }
 ```
 
-Le `linkName` est transmis pendant les appels à `s.tl()`.
+La variable `linkName` est transmise à lors des appels à `s.tl()`.
 
 ```js
 s.ActivityMap.region = function(ele) {
