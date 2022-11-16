@@ -4,36 +4,36 @@ description: Pour les sites d’e-commerce, définit la devise utilisée par la 
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les recettes attribuent la devise appropriée.
+Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de chiffre d’affaires correspondent à la devise appropriée.
 
-La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de recettes définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme &quot;Devise&quot; dans [Événements de succès](/help/admin/admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
+La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de chiffre d’affaires définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme « Devise » dans [Événements de succès](/help/admin/admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
 
-* If `currencyCode` n’est pas définie, Adobe suppose que toutes les valeurs de devise sont la devise de la suite de rapports. Voir [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md) dans les paramètres de la suite de rapports pour afficher la devise de la suite de rapports.
+* Si `currencyCode` n’est pas défini, Adobe suppose que toutes les valeurs de devise sont la devise de la suite de rapports. Consultez [Paramètres généraux du compte](/help/admin/admin/general-acct-settings-admin.md) dans les paramètres de la suite de rapports pour afficher la devise de la suite de rapports.
 * Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
-* Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans la suite de rapports se trouvent dans la devise de la suite de rapports.
-* If `currencyCode` est définie sur une valeur non valide, **l’accès complet est ignoré, ce qui entraîne une perte de données.** Assurez-vous que cette variable est correctement définie lorsqu’elle est utilisée.
+* Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans la suite de rapports ont la devise de la suite de rapports.
+* Si `currencyCode` est défini sur une valeur non valide, **l’accès complet est ignoré, ce qui entraîne une perte de données.** Assurez-vous que cette variable est correctement définie lorsqu’elle est utilisée.
 
-Cette variable ne persiste pas dans les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des recettes ou des événements de devise qui ne correspondent pas à la devise par défaut de la suite de rapports.
+Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des chiffres d&#39;affaires ou des événements de devise qui ne correspondent pas à la devise par défaut de la suite de rapports.
 
 >[!NOTE]
 >
 >Bien que les codes de devise puissent changer d’une page à l’autre, toutes les mesures de devise d’un seul accès doivent utiliser la même devise.
 
-Une période **must** doit être utilisé comme séparateur de devise pour toutes les devises lors de l’implémentation de cette variable. Par exemple, la couronne suédoise, qui affiche généralement un séparateur de virgules, doit être modifiée pour utiliser un point dans la variable `products` et tous les événements de devise. Adobe affiche le séparateur de devise correct dans les rapports.
+Un point **doit** doit être utilisé comme séparateur de devise pour toutes les devises lors de la mise en place de cette variable. Par exemple, la couronne suédoise, qui utilise généralement un séparateur à virgules, doit être modifiée pour utiliser un point dans la variable `products` et dans tous les événements de devise. Adobe affiche le bon séparateur de devise dans les rapports.
 
-## Code de devise à l’aide du SDK Web
+## Code de devise utilisant le SDK Web
 
 Le code de devise est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.currencyCode`.
 
-## Code de devise à l’aide de l’extension Adobe Analytics
+## Code de devise utilisant l’extension Adobe Analytics
 
 Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
