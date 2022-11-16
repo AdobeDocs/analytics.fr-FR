@@ -4,9 +4,9 @@ title: Publication de segments dans Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,10 +55,10 @@ Pour plus dʼinformations, regardez cette vidéo :
 1. Fournissez un titre et une description pour le segment. Sinon, vous ne pourrez pas l’enregistrer.
 1. Cochez la case **[!UICONTROL Publier ce segment sur Experience Cloud (pour *suite de rapports*)]**.
 
-![Publier l’Experience Cloud](assets/publish-ec.png)
+![Publier Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->Veillez à utiliser &quot;Visiteurs avec un ID d’Experience Cloud&quot; lors de l’affichage des aperçus de segment dans Analytics au lieu de l’aperçu du segment &quot;visiteurs uniques&quot; total lors de la comparaison des numéros Adobe Analytics aux numéros d’Audience Manager :
+>Veillez à utiliser « Visiteurs avec un ID Experience Cloud » lors de l’affichage des aperçus de segments dans Analytics au lieu de l’aperçu du segment total de « visiteurs uniques » lorsque vous comparez des chiffres d’Adobe Analytics aux chiffres d’Audience Manager :
 >
 >![Segmenter les visiteurs avec ECID](assets/seg-vis-ecid.png)
 
@@ -83,7 +83,7 @@ Pour supprimer un segment qui a été publié dans Experience Cloud, vous devez
 1. Accédez à [!UICONTROL Analytics > Composants > Segments].
 1. Notez la nouvelle colonne [!UICONTROL Publié]. Oui/Non indique si le segment a été publié ou non dans Experience Cloud.
 
-![État de publication](assets/publish-status.png)
+![Statut de publication](assets/publish-status.png)
 
 ## Récupérer l’[!DNL Audience Manager]UUID
 
@@ -126,7 +126,7 @@ Dans AAM, la liste des visiteurs avec des ECID pour un segment donné est évalu
 1. Sélectionnez le dossier de la suite de rapports dans laquelle vous avez créé le segment que vous souhaitez partager avec [!DNL Audience Manager]. Vous verrez le segment/l’audience que vous avez créé. Lorsque vous partagez un segment, deux choses se produisent dans [!DNL Audience Manager] :
    * Une caractéristique est créée, tout d’abord sans contenir de données. Environ Huit heures après la publication du segment dans [!DNL Analytics], la liste des ECID est intégrée et partagée avec [!DNL Audience Manager] et d’autres solutions Experience Cloud.
 
-      ![Caractéristiques d’Audience Manager](assets/aam-traits.png)
+      ![Caractéristiques d’Audience Manager](assets/aam-traits.png)
 
    * Un segment à caractère unique est créé. Il utilise la source de données associée à la suite de rapports dans laquelle vous avez publié le segment.
    * L’expiration des caractéristiques est désormais définie sur 16 jours (au lieu de 2 jours auparavant).
