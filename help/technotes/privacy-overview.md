@@ -5,9 +5,9 @@ title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics collecte les données suivantes :
 
 &#42;Sauf si le client Adobe choisit de supprimer l’adresse IP.
 
-## Autres considérations de confidentialité  {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## Autres considérations de confidentialité {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -103,12 +103,12 @@ Adobe Analytics collecte les données suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Allemagne </td> 
-   <td colname="col2"> <p>Si vous n’avez pas encore mis en place de contrat de traitement des données pour Adobe Analytics avec Adobe, contactez votre gestionnaire de compte d’Adobe ou votre gestionnaire de succès client, qui collaboreront avec le service juridique de l’Adobe pour mettre en place la loi sur les données. </p> </td> 
+   <td colname="col2"> <p>Si aucun accord de traitement des données pour Adobe Analytics n’est en place entre vous et Adobe, vous devez contacter votre gestionnaire de compte Adobe ou le responsable du succès client, qui collaboreront avec le service juridique d’Adobe pour établir cet accord. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Emplacement des centres de données de la région EMEA  {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## Emplacement des centres de données de la région EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 Les centres de données de la région EMEA suivants hébergent actuellement des données Adobe Analytics :
 
