@@ -3,10 +3,10 @@ description: Adobe requiert d’être informée à l’avance de la configuratio
 title: Délai d’avance requis pour les augmentations de trafic
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Suivez les directives suivantes pour déterminer à quel moment envoyer une aler
 
 ## Délais d’avance de l’allocation matériel
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Estimations (accès) du trafic QUOTIDIEN </th>
-   <th colname="col2" class="entry"> <p>Délai d’avance requis (janvier à octobre) </p> </th>
-   <th colname="col3" class="entry"> <p>Délai d’avance requis (novembre à décembre) </p> </th>
+   <th colname="col1" class="entry"> Type de changement de trafic </th>
+   <th colname="col2" class="entry"> Délai d’avance requis </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Jusqu’à 1 000 000 </td>
-   <td colname="col2"> Pas de délai d’avance requis </td>
-   <td colname="col3"> Pas de délai d’avance requis </td>
+   <td colname="col1"> Nouvelle configuration du compte </td>
+   <td colname="col2"> <ul><li>3 jours ouvrés</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1 000 000 - 5 000 000 </td>
-   <td colname="col2"> Deux jours OUVRABLES </td>
-   <td colname="col3" morerows="3"> Toute augmentation de trafic prévue pour novembre-décembre doit être soumise au plus tard le 1er septembre. Cela permet de conserver un délai pour acheter de la capacité, le cas échéant, pour s’adapter au trafic de la période des fêtes. </td>
+   <td colname="col1"> Pic de trafic ou augmentation soudaine du trafic permanent jusqu’à 25 % en volume quotidien moyen par rapport aux 30 derniers jours</td>
+   <td colname="col2"> <ul><li>Suites de rapports avec &lt; 100 millions d’accès par jour : Aucune notification requise</li><li>Suites de rapports avec plus de 100 millions d’accès par jour : 5 jours ouvrés</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5 000 000 - 10 000 000 </td>
-   <td colname="col2"> Une semaine calendaire </td>
+   <td colname="col1"> Pic de trafic ou augmentation soudaine du trafic permanent de plus de 25 % en volume quotidien moyen par rapport aux 30 derniers jours</td>
+   <td colname="col2"> <ul><li>5 jours ouvrés</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10 000 000 - 25 000 000 </td>
-   <td colname="col2"> Deux semaines calendaires </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>Au-dessus de 25 000 000 </p> </td>
-   <td colname="col2"> Un ou plusieurs mois </td>
+   <td colname="col1"> Événements de vacances Octobre à décembre </td>
+   <td colname="col2"> <ul><li>Un mois calendaire</li></ul> </td>
   </tr>
  </tbody>
 </table>
