@@ -3,42 +3,43 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 94%
+source-wordcount: '1461'
+ht-degree: 96%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2022)
+# Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2022)
 
-**Dernière mise à jour** : 28 octobre 2022
+**Dernière mise à jour**: 18 novembre 2022
 
 Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Fonctionnalités nouvelles ou mises à jour dans Adobe Analytics
 
-| Fonctionnalité | Description | [Déploiement démarrés](releases.md) | [Disponibilité générale](releases.md) |
+| Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5 octobre 2022 | 19 octobre 2023 |
-| **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1 - mvvar3` et `post_mvvar1 - post_mvvar3` dans les flux de données ne seront plus automatiquement mis en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | S.O. | 24 octobre 2022 |
+| Visualisation du **[!UICONTROL résumé des mesures clés]** | La visualisation du [!UICONTROL résumé des mesures clés] vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une période unique. Elle vous permet également de comparer les performances des mesures sur deux périodes. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 5 octobre 2022 | 19 octobre 2023 |
+| **Variables à plusieurs valeurs non sensibles à la casse** | Pour les variables à plusieurs valeurs non sensibles à la casse, les valeurs stockées dans `mvvar1 - mvvar3` et `post_mvvar1 - post_mvvar3` dans les flux de données ne seront plus automatiquement mises en minuscules. Au lieu de cela, les flux de données (et les données transmises par le biais du connecteur source Analytics à Adobe Experience Platform et CJA) refléteront le cas d’origine qui a été transmis à partir de la page. | S.O. | 24 octobre 2022 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Correctifs dans Adobe Analytics
 
-* Correction d’un problème en raison duquel les versions récentes de MacOS étaient incorrectement nommées &quot;Macintosh&quot;. Avec ce correctif, la dimension du système d’exploitation commencera à utiliser la numérotation de version de « MacOS » à partir de MacOS 11. (AN-301834)
-* Correction d’un problème lié à la période &quot;dates fixes&quot; dans le Report Builder. (AN-303684)
+* Correction d’un problème en raison duquel les versions récentes de macOS étaient incorrectement nommées « Macintosh ». Avec ce correctif, la dimension du système d’exploitation commencera à utiliser la numérotation de version de « macOS » à partir de macOS 11. (AN-301834)
+* Correction d’un problème lié à la période des « dates fixes » dans Report Builder. (AN-303684)
 * Correction de problèmes en raison desquels l’interface utilisateur des flux de données ne se chargeait pas. (AN-303803, AN-303784)
 
 ### Autres correctifs
 
--295574 ; AN-296354 ; AN-297143 ; AN-299501 ; AN-301755 ; AN-302054 ; AN-302304 ; AN-302631 ; AN-302811 ; AN-303090 ; AN-303372 ; AN- ; AN-303428 ; AN-303429 ; AN-303432 ; AN-303434 ; AN-303437 ; AN-303438 ; AN-303519 ; AN-303610 ; AN-303656 ; AN-303659 ; AN-303663 ; AN-303664 ; AN-303818 ; AN-303823 ; AN-303837 ; AN-304036 ; AN-304195 ; AN-304321 ; AN-304325 ; AN-304339 ; AN-304356 ; AN-304435 ; AN-304457 ; AN-304509 ; AN-304519 ; AN-304534
+AN-295574 ; AN-296354 ; AN-297143 ; AN-299501 ; AN-301755 ; AN-302054 ; AN-302304 ; AN-302631 ; AN-302811 ; AN-303090 ; AN-303372 ; AN- ; AN-303428 ; AN-303429 ; AN-303432 ; AN-303434 ; AN-303437 ; AN-303438 ; AN-303519 ; AN-303610 ; AN-303656 ; AN-303659 ; AN-303663 ; AN-303664 ; AN-303818 ; AN-303823 ; AN-303837 ; AN-304036 ; AN-304195 ; AN-304321 ; AN-304325 ; AN-304339 ; AN-304356 ; AN-304435 ; AN-304457 ; AN-304509 ; AN-304519 ; AN-304534
 
 ## Avis importants pour les administrateurs d’Adobe Analytics
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Mise à jour des directives pour les notifications de pic de trafic** | 18 novembre 2022 | Les anciennes instructions étaient strictement basées sur les volumes d’accès. Le [nouvelles directives](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=en) sont basées sur une combinaison de la taille de la suite de rapports et de l’augmentation du pourcentage. |
 | **Mise à jour des recherches d’appareils en raison des indications du client Google** | 14 octobre 2022 | L’utilisation d’indications du client dans la recherche du périphérique, initialement prévue pour le 26 octobre 2022, a été reportée à **janvier 2023**. <p> <p>Depuis octobre 2022, il est possible de collecter les indications du client avec le SDK Web ou les bibliothèques AppMeasurement pour JavaScript. Mais les indications du client ne seront pas intégrées à la recherche du périphérique avant janvier 2023. À partir de cette date, Adobe commencera à utiliser les indications du client en plus de la chaîne Agent-utilisateur lors de la dérivation de certaines informations sur les périphériques pour les accès provenant des navigateurs Chromium, tels que Google Chrome et Microsoft Edge. Cette mesure fait suite au projet de Google qui consiste à réduire progressivement les informations présentées à partir de la chaîne Agent-utilisateur à la place des données transmises par les indications du client. <p> <p>Dans le cadre de cette modification, Adobe utilisera Device Atlas pour toutes les recherches de périphériques liées à la chaîne Agent-utilisateur. [En savoir plus](/help/technotes/client-hints.md) |
 | **Page de destination par défaut** | 29 septembre 2022 | La [nouvelle page de destination](/help/analyze/landing.md) qui a été introduite en début d’année deviendra l’expérience par défaut pour tous les utilisateurs en **janvier 2023**. La page actuelle deviendra obsolète et tout le monde devra utiliser la nouvelle expérience. |
 | Conditions d’exécution automatique de la **[!UICONTROL détection des anomalies]** | 29 septembre 2022 | Aujourd’hui, la [!UICONTROL détection des anomalies] s’exécute automatiquement sur toutes les colonnes des tableaux à structure libre de série temporelle. Afin de garantir que les données sont disponibles pour l’analyse et que les projets se chargent plus rapidement, Adobe modifie la manière dont la détection des anomalies s’exécute automatiquement. À compter du **26 octobre 2022**, la [!UICONTROL détection des anomalies] s’exécutera automatiquement uniquement sur la première colonne de mesures d’un tableau. Si nécessaire, vous pouvez configurer les paramètres des colonnes pour exécuter la détection des anomalies sur d’autres colonnes. |
@@ -54,7 +55,7 @@ Les mises à jour dʼAdobe Analytics suivent un [modèle de diffusion continue](
 | Produit ou fonctionnalité en fin de vie | Date d’ajout ou de mise à jour | Description |
 | --- | --- | --- |
 | **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les listes de publication sont programmées pour atteindre la fin de vie en **décembre 2023**. Vous ne pourrez pas créer de listes de publication ou y accéder pour envoyer ou planifier des projets Analysis Workspace. [En savoir plus](/help/admin/admin/publishing-list.md) |
-| **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Voir [Annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte d’Adobe de votre entreprise pour toute question. |
+| **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Consultez l’[annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte Adobe de votre entreprise pour toute question. |
 | **Fin de vie de [!DNL Reports & Analytics]** | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
 
 {style=&quot;table-layout:auto&quot;}
