@@ -1,13 +1,13 @@
 ---
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 96%
+source-wordcount: '1134'
+ht-degree: 88%
 
 ---
-
 
 # Présentation et FAQ des indications du client
 
@@ -95,6 +95,14 @@ Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user
 
 +++
 
++++**De quelle manière Analytics dépend-il de l’agent utilisateur ?**
+
+Les informations sur le périphérique dans les rapports proviennent de l’agent utilisateur. Nous avons mis à jour nos processus afin d’utiliser à la fois l’agent utilisateur et les conseils client, le cas échéant.
+
+Identifiant de secours ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) provient de l’agent utilisateur et de l’adresse IP. Cet identifiant n’est utilisé que si un cookie ne peut pas être défini et n’est donc pas largement utilisé.
+
++++
+
 +++**Quels champs de création de rapports Analytics sont dérivés de valeurs stockées dans des indications à entropie élevée ?**
 
 Cette situation évoluera au fur et à mesure que Google « figera » d’autres parties de l’agent utilisateur. Le premier champ à être directement impacté est le « Système d’exploitation », qui inclut la version du système d’exploitation selon la chronologie publiée par Google pour les indications Agent-utilisateur « figées ». La version du système d’exploitation sera figée à compter de fin octobre 2022 avec la version 107 de Chromium. À ce stade, la version du système d’exploitation dans l’agent utilisateur sera inexacte dans certains cas.
@@ -105,7 +113,7 @@ Reportez-vous à la section [chronologie publiée par Google](https://blog.chrom
 
 +++**Comment Adobe utilisera-t-il les indications du client pour obtenir des informations sur le périphérique ?**
 
-Adobe fait appel à un tiers, Device Atlas, qui utilisera à la fois les indications du client et la chaîne Agent-utilisateur pour obtenir des informations sur le périphérique.
+Adobe utilise un tiers, Device Atlas, qui utilisera à la fois des conseils client et l’agent utilisateur pour dériver des informations sur l’appareil.
 
 +++
 
@@ -144,4 +152,3 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 Oui. Les indications du client seront incluses dans les données transférées à AAM. Notez qu’AAM nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++
-
