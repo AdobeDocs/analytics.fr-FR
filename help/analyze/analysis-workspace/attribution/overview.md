@@ -4,10 +4,10 @@ description: Le concept d’attribution du crédit d’un événement de succès
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
+source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,3 +64,6 @@ Ajout de comparaisons côte à côte de modèles Attribution IQ :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
+## Outils Adobe Analytics qui ne prennent pas en charge Attribution IQ
+
+Les outils qui ne prennent pas en charge l’API Analytics 2.0, tels que Report Builder, ne prennent pas en charge Attribution IQ.
