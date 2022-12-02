@@ -3,10 +3,10 @@ title: Profils de produit pour Adobe Analytics
 description: Découvrez comment les profils de produit peuvent être utilisés comme paramètres d’autorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs d’une organisation.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 95%
+source-wordcount: '672'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 Les profils de produit sont des paramètres dʼautorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs dʼune organisation. Si vous créez un profil de produit et que vous lui affectez un utilisateur Experience Cloud, il hérite des éléments d’autorisation contenus dans le profil de produit.
 
-Voir [Gestion des produits et des profils](https://helpx.adobe.com/fr/enterprise/using/manage-products-and-profiles.html) dans le guide de l’utilisateur Enterprise pour obtenir des informations générales sur les profils de produit.
+Voir [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise pour obtenir des informations générales sur les profils de produit.
 
 ## Administrateurs de profil de produit
 
