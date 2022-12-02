@@ -3,10 +3,10 @@ title: Algorithmes de chiffrement HTTPS pris en charge
 description: Le 23 juin 2022, nous supprimerons la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est défini sur "Élevé".
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: a1ae98d6907960135c1dfa03ed10738eac8bec0d
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 6%
+source-wordcount: '285'
+ht-degree: 5%
 
 ---
 
@@ -24,6 +24,8 @@ Les chiffrements TLS 1.2 suivants ne seront plus pris en charge :
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 Les clients suivants sont connus pour être affectés par cette modification car ils ne prennent pas en charge les normes de chiffrement actuelles :
 
