@@ -3,9 +3,9 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
+source-git-commit: 222ce14fd60ce5dae39a72c1a2bec4315a68b4e4
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 73%
 
 ---
@@ -64,6 +64,7 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 | Londres | `66.235.156.0/24` |
 | Londres | `185.34.188.0/22` |
 | Oregon | `66.235.132.0/22` |
+| Oregon | `130.248.160.0/21` |
 | Singapour | `130.248.170.0/23` |
 | Singapour | `130.248.240.0/24` |
 | Singapour | `63.140.44.0/22` |
