@@ -3,10 +3,10 @@ title: Dimensions mobiles
 description: Dimensions basées sur lʼadresse IP de lʼappareil.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 100%
+source-wordcount: '903'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans
 * **Opérateur de téléphonie mobile** : les valeurs de cette dimension sont renseignées en recherchant des données tierces (Digital Elements) sur la base des adresses IP capturées par Analytics. Les exemples de valeurs comprennent `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` et `"Verizon"`.
 * **Profondeur de couleur mobile** : profondeur de couleur de l’appareil mobile, en bits.
 * **Prise en charge des cookies sur l’appareil mobile** : détermine si l’appareil mobile prend en charge les cookies. Ce rapport n’indique pas si le navigateur accepte les cookies. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
-* **Appareil mobile** : l’appareil mobile utilisé par le visiteur.
+* **Appareil mobile** : l’appareil mobile utilisé par le visiteur. **Remarque**: Digital Elements publie régulièrement des mises à jour pour reconnaître les appareils nouveaux ou mis à jour.
 * **Numéro de l’appareil mobile** : détermine si l’appareil mobile transmet son numéro. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
 * **Type d’appareil mobile** : le type d’appareil mobile. Les exemples de valeurs comprennent `"Mobile phone"`, `"Tablet"`, `"Media player"` et `"Gaming console"`.
 * **DRM mobile** : le type de DRM pris en charge par l’appareil mobile. Les exemples de valeurs comprennent `"DRM OMA forward"`, `"DRM OMA combined delivery"` et `"DRM OMA separate delivery"`.
