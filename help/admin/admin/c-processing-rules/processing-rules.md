@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: Règles de traitement - Présentation
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ Les règles de traitement peuvent contrôler les valeurs entrantes afin de trans
 Lorsque les variables de données contextuelles ont été définies dans votre implémentation, elles doivent être copiées dans des variables telles que des eVar pour être utilisées dans les rapports.
 
 Voir [Copier une variable de données contextuelles dans une eVar](processing-rules-examples/processing-rules-copy-context-data.md) et [Définir un événement à l’aide d’une variable de données contextuelles](processing-rules-examples/processing-rules-copy-context-data-event.md) pour plus d’informations.
+
+## Limites connues
+
+**Utilisation de carats (^) dans les règles de traitement.** Si vous souhaitez utiliser des carats dans les règles de traitement comme délimiteurs ou à d’autres fins, chaque carat doit être représenté par deux carats. Par exemple, représenter un seul panier comme ^^, un double panier comme ^^^^, etc.
