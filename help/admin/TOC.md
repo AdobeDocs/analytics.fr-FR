@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 927e7e374919d89798c69c1959c54426b4e51a3e
+source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 98%
+source-wordcount: '678'
+ht-degree: 97%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 98%
 
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ Administration d’Analytics - Aperçu {#admin-overview}
-   + [Quel outil Adobe Analytics dois-je utiliser ?](c-analytics-product-comparison/which-analytics-tool.md)
-   + [Configuration requise et comparaison des produits Analytics](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [Configuration requise](sys-reqs.md)
++ Prise en main de l’administration d’Analytics {#admin-overview}
+   + [Quel outil Adobe Analytics dois-je utiliser ?](admin/get-started/which-analytics-tool.md)
+   + [Configuration requise et comparaison des produits Analytics](admin/get-started/analytics-product-comparison.md)
+   + [Configuration requise](admin/get-started/sys-reqs.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
