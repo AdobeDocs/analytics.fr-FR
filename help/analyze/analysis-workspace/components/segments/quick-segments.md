@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 71%
+source-wordcount: '943'
+ht-degree: 65%
 
 ---
 
@@ -43,7 +43,7 @@ Configurez le segment rapide vierge :
 | --- | --- |
 | Nom | Le nom par défaut dʼun segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment. |
 | Inclure/exclure | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
-| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites, et un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
+| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. A [!UICONTROL Visite] conteneur vous permet de définir des règles pour ventiler les données du visiteur en fonction des visites, et une [!UICONTROL Accès] conteneur vous permet de ventiler les informations sur les visiteurs en fonction de pages vues individuelles. Le conteneur par défaut est [!UICONTROL Accès]. |
 | Composants (Dimension/mesure/période) | Définissez jusquʼà 3 règles maximum en ajoutant des composants (dimensions et/ou mesures et/ou périodes) et leurs valeurs. Il existe trois manières différentes de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segments rapides] trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
 | Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
 | Signe plus (+) | Ajouter une autre règle |
@@ -94,3 +94,10 @@ Si un segment de projet uniquement est ouvert dans la variable [!UICONTROL Créa
 Si vous cochez la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL ENREGISTRER]**, le segment devient disponible dans la liste des composants du rail de gauche pour être utilisé dans d’autres projets. Il peut également être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.
 
 ![Case à cocher « Sʼapplique au projet uniquement » cochée](assets/project-only-checked.png)
+
+## Problème connu
+
+1. Créez un segment rapide avec 2 entrées et **[!UICONTROL Enregistrer]** en tant que Test1.
+1. Cliquez sur **[!UICONTROL Enregistrer sous]** et enregistrez ce segment rapide en tant que Test2.
+1. Modifiez le segment rapide Test2 et enregistrez-le à nouveau en tant que Test2.
+Notez que le segment rapide Test1 est modifié par Test2.
