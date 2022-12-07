@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 6aa05344c5573721f4807a21e30f6393c8976116
+source-git-commit: 927e7e374919d89798c69c1959c54426b4e51a3e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 99%
+source-wordcount: '676'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,8 @@ ht-degree: 99%
       + [Profils de produit pour Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
       + [Autorisations du profil de produit pour les outils Analytics](admin-console/permissions/analytics-tools.md)
-   + [Rôles d’administrateur dans Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Guide du premier administrateur d’Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
 + Paramètres de l’entreprise {#company-settings}
    + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
    + [Niveaux d’accès aux fonctions](company/feature-access-levels.md)
