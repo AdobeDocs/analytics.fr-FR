@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 97%
@@ -20,6 +20,16 @@ ht-degree: 97%
    + [Quel outil Adobe Analytics dois-je utiliser ?](admin/get-started/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](admin/get-started/analytics-product-comparison.md)
    + [Configuration requise](admin/get-started/sys-reqs.md)
+   + Paramètres de l’entreprise {#company-settings}
+      + [Paramètres d’entreprise - Aperçu](admin/get-started/company/c-company-settings.md)
+      + [Niveaux d’accès aux fonctions](admin/get-started/company/feature-access-levels.md)
+      + [Services web](admin/get-started/company/web-services-admin.md)
+      + [Rapports du Report Builder](admin/get-started/company/report-builder-reports-admin.md)
+      + [Authentification unique](admin/get-started/company/single-signon-admin.md)
+      + [Actions en attente](admin/get-started/company/pending-actions-admin.md)
+      + [Alliance de marques](admin/get-started/company/co-branding-admin.md)
+      + [Masquage des suites de rapports](admin/get-started/company/c-hide-report-suites.md)
+      + [Gestionnaire de sécurité](admin/get-started/company/security-manager.md)
 + Outils d’administration {#admin-tools}
    + [Outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 97%
       + [Autorisations du profil de produit pour les outils Analytics](admin-console/permissions/analytics-tools.md)
    + [Guide du premier administrateur d’Adobe Analytics](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-+ Paramètres de l’entreprise {#company-settings}
-   + [Paramètres d’entreprise - Aperçu](company/c-company-settings.md)
-   + [Niveaux d’accès aux fonctions](company/feature-access-levels.md)
-   + [Services web](company/web-services-admin.md)
-   + [Rapports du Report Builder](company/report-builder-reports-admin.md)
-   + [Authentification unique](company/single-signon-admin.md)
-   + [Actions en attente](company/pending-actions-admin.md)
-   + [Alliance de marques](company/co-branding-admin.md)
-   + [Masquage des suites de rapports](company/c-hide-report-suites.md)
-   + [Gestionnaire de sécurité](company/security-manager.md)
 + Gestion des suites de rapports {#manage-report-suites}
    + [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md)
    + [Suites de rapports globales et de cumul](c-manage-report-suites/rollup-report-suite.md)

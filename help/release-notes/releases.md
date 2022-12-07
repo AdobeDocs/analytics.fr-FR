@@ -3,7 +3,7 @@ description: Explique la stratégie de mise à jour continue des fonctionnalité
 title: Mises à jour des fonctionnalités Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 517c12482ea87a8b600f1d8eab3143ff90ff0524
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
@@ -41,4 +41,4 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 | Question | Réponse |
 | --- | --- |
 | Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](/help/analyze/labs.md) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [Niveaux dʼaccès aux fonctionnalités](/help/admin/company/feature-access-levels.md). |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [Niveaux dʼaccès aux fonctionnalités](/help/admin/admin/get-started/company/feature-access-levels.md). |
