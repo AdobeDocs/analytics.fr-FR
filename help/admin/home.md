@@ -3,7 +3,7 @@ title: Guide d’administration Analytics
 description: Aide pour les administrateurs d’Adobe Analytics, notamment pour la gestion des utilisateurs et des produits dans Admin Console, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Ce guide ne couvre pas de nombreuses fonctionnalités génériques offertes par 
 ## Articles clés
 
 * [Guide de démarrage d’un nouvel administrateur d’Analytics](admin-console/first-admin-guide.md): Si votre organisation démarre avec Adobe Analytics, suivez ce guide pour commencer à exploiter tout le potentiel offert par Adobe Analytics.
-* [Gestionnaire de suites de rapports](c-manage-report-suites/report-suites-admin.md) : L’outil d’administration le plus utilisé dans Analytics. Le Gestionnaire de suites de rapports contient des paramètres facilitant la gestion des variables, des classifications, des fuseaux horaires, etc.
+* [Gestionnaire de suites de rapports](admin/c-manage-report-suites/report-suites-admin.md) : L’outil d’administration le plus utilisé dans Analytics. Le Gestionnaire de suites de rapports contient des paramètres facilitant la gestion des variables, des classifications, des fuseaux horaires, etc.
 
 ## Plus de guides d’utilisation d’Analytics
 
@@ -46,4 +46,4 @@ Ce guide ne couvre pas de nombreuses fonctionnalités génériques offertes par 
 * [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=fr#support)
 * [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
-* [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
+* [Experience League](https://experienceleague.adobe.com/?lang=fr#dashboard/learning)

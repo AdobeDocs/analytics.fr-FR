@@ -2,7 +2,8 @@
 title: Rôles d’administrateur dans Adobe Analytics
 description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les types de rôles généraux et la connexion à l’interface utilisateur.
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 58%
@@ -69,7 +70,7 @@ Pour plus d’informations sur l’affectation d’utilisateurs en tant qu’adm
 
 ## Étapes suivantes
 
-[Création d’une suite de rapports](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
+[Création d’une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
 
 [Créer une propriété de balise Analytics](/help/implement/launch/create-analytics-property.md) : demandez à l’administrateur de la collecte de données de se connecter à l’outil et de créer une propriété à implémenter sur votre site.
 

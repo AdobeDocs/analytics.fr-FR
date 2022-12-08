@@ -3,7 +3,7 @@ description: Découvrez comment mettre en œuvre le balisage multisuite afin dʼ
 title: Implémentation du balisage multisuite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Implémentation du balisage multisuite
 
-[Le balisage multisuite](/help/admin/c-manage-report-suites/rollup-report-suite.md) permet dʼenvoyer des demandes dʼimage non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin de pouvoir fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux.
+[Le balisage multisuite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) permet dʼenvoyer des demandes dʼimage non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin de pouvoir fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux.
 
 Pour implémenter le balisage multisuite, vous devez inclure lʼidentifiant de suite de rapports (RSID) pour la suite de rapports globale, ainsi que les RSID pour les suites de rapports enfants applicables dans le code de suivi de vos pages web et applications.
 
