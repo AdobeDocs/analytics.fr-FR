@@ -5,7 +5,7 @@ title: Foire aux questions sur Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 88df864b58cecef71aadc0314d1d2d81c5b9b72f
+source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Vous pouvez éliminer les données provenant des activités de site web internes
 +++
 
 +++Puis-je supprimer une suite de rapports ?
-Il n’est pas possible de supprimer une suite de rapports. Néanmoins, il est possible de masquer une suite de rapports de tous les affichages dans Adobe Analytics. Notez que les appels au serveur envoyés vers une suite de rapports masquée comptent toujours dans votre limite de contrat mensuelle. Pour en savoir plus, consultez la section [Masquer les suites de rapports](/help/admin/admin/get-started/company/c-hide-report-suites.md) dans le guide d’utilisation destiné à l’administrateur.
+Il n’est pas possible de supprimer une suite de rapports. Néanmoins, il est possible de masquer une suite de rapports de tous les affichages dans Adobe Analytics. Notez que les appels au serveur envoyés vers une suite de rapports masquée comptent toujours dans votre limite de contrat mensuelle. Pour en savoir plus, consultez la section [Masquer les suites de rapports](/help/admin/get-started/company/c-hide-report-suites.md) dans le guide d’utilisation destiné à l’administrateur.
 +++
 
 +++Quel conteneur dois-je utiliser lorsque j’utilise la segmentation ? Page vue, visite ou visiteur ?

@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
+source-git-commit: cd680e8e2e8a30e100a713e0943978f8d798143a
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 96%
@@ -17,19 +17,19 @@ ht-degree: 96%
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Prise en main de l’administration d’Analytics {#admin-overview}
-   + [Quel outil Adobe Analytics dois-je utiliser ?](admin/get-started/which-analytics-tool.md)
-   + [Configuration requise et comparaison des produits Analytics](admin/get-started/analytics-product-comparison.md)
-   + [Configuration requise](admin/get-started/sys-reqs.md)
+   + [Quel outil Adobe Analytics dois-je utiliser ?](get-started/which-analytics-tool.md)
+   + [Configuration requise et comparaison des produits Analytics](get-started/analytics-product-comparison.md)
+   + [Configuration requise](get-started/sys-reqs.md)
    + Paramètres de l’entreprise {#company-settings}
-      + [Paramètres d’entreprise - Aperçu](admin/get-started/company/c-company-settings.md)
-      + [Niveaux d’accès aux fonctions](admin/get-started/company/feature-access-levels.md)
-      + [Services web](admin/get-started/company/web-services-admin.md)
-      + [Rapports du Report Builder](admin/get-started/company/report-builder-reports-admin.md)
-      + [Authentification unique](admin/get-started/company/single-signon-admin.md)
-      + [Actions en attente](admin/get-started/company/pending-actions-admin.md)
-      + [Alliance de marques](admin/get-started/company/co-branding-admin.md)
-      + [Masquage des suites de rapports](admin/get-started/company/c-hide-report-suites.md)
-      + [Gestionnaire de sécurité](admin/get-started/company/security-manager.md)
+      + [Paramètres d’entreprise - Aperçu](get-started/company/c-company-settings.md)
+      + [Niveaux d’accès aux fonctions](get-started/company/feature-access-levels.md)
+      + [Services web](get-started/company/web-services-admin.md)
+      + [Rapports du Report Builder](get-started/company/report-builder-reports-admin.md)
+      + [Authentification unique](get-started/company/single-signon-admin.md)
+      + [Actions en attente](get-started/company/pending-actions-admin.md)
+      + [Alliance de marques](get-started/company/co-branding-admin.md)
+      + [Masquage des suites de rapports](get-started/company/c-hide-report-suites.md)
+      + [Gestionnaire de sécurité](get-started/company/security-manager.md)
 + Autorisations utilisateur dans la console d’administration des Adobes {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
    + Autorisations {#permissions}
