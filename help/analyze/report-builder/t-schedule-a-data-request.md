@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '994'
 ht-degree: 98%
 
 ---
@@ -73,7 +73,6 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 | Onglet **Options de fichier** |  |
 | Format du fichier | Permet de sélectionner le format de remise : Excel 2007 (.xlsx) ou 2003 (.xls), .pdf, .csv, .mht, .txt et .xml. |
 | Description du fichier | Précise E-mail ou FTP. Les options disponibles sur cette page varient en fonction de la sélection. Dans le cas de FTP, vous devez vous assurer que l’hôte est disponible en externe. |
-| Liste de publication | Si vous envoyez le classeur planifié à plusieurs listes de publication, il s’exécute une fois pour chaque liste. Les suites de rapports variables sont remplacées par celle qui est affectée à la liste de publication. |
 | Langue du contenu du fichier | Indique la langue que vous souhaitez utiliser pour la lettre d’envoi. Vous avez le choix entre l’allemand, le portugais (du Brésil), le chinois (simplifié ou traditionnel), le coréen, l’espagnol, le français ou le japonais. |
 | Onglet **Options de publication** |  |
 | Publication sur Power BI | <ul><li>Publier le classeur sur Power BI</li><li>Publier toutes les requêtes du Report Builder sous forme de jeux de données Power BI</li><li>Publier tous les tableaux formatés sous forme de jeux de données Power BI</li></ul> |

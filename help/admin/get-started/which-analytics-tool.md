@@ -3,9 +3,9 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
 * Pour configurer les cibles.
 * Pour afficher les rapports des robots.
 * Pour accéder à des visualisations vidéo uniques relatives à la Tranche horaire de la vidéo et à l’Abandon du visionnage.
-* Pour tirer parti des Listes de publication dans les rapports programmés.
 
 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=fr)** doit être utilisé :
 

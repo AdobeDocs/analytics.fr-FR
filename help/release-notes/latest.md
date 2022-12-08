@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3c010207764de51ed053b7bf9ee777e68097e411
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: '1459'
 ht-degree: 96%
 
 ---
@@ -54,7 +54,7 @@ AN-295574 ; AN-296354 ; AN-297143 ; AN-299501 ; AN-301755 ; AN-302054 ; AN
 
 | Produit ou fonctionnalité en fin de vie | Date d’ajout ou de mise à jour | Description |
 | --- | --- | --- |
-| **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les listes de publication sont programmées pour atteindre la fin de vie en **décembre 2023**. Vous ne pourrez pas créer de listes de publication ou y accéder pour envoyer ou planifier des projets Analysis Workspace. [En savoir plus](/help/admin/admin/publishing-list.md) |
+| **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les listes de publication sont programmées pour atteindre la fin de vie en **décembre 2023**. Vous ne pourrez pas créer de listes de publication ou y accéder pour envoyer ou planifier des projets Analysis Workspace. |
 | **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Consultez l’[annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte Adobe de votre entreprise pour toute question. |
 | **Fin de vie de [!DNL Reports & Analytics]** | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
 

@@ -4,9 +4,9 @@ title: 'Requêtes de données - Assistant Requête : Étape 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
 
    Vous pouvez, par exemple, exécuter un [!UICONTROL rapport Pages], puis appliquer un segment Premières visites.
-
-1. **Autoriser le remplacement de la liste de publication** : lorsque vous planifiez un rapport, vous pouvez choisir une liste de publication à utiliser dans le cadre de la distribution. Les listes de publication sont configurées dans **[!UICONTROL Analytics]** > **[!UICONTROL Outils d’administration]**. La suite de rapports affectée à cette requête est remplacée par l’identifiant de suite de rapports attribué à chaque destinataire de la liste de publication. Reportez-vous à la section [Autorisation des remplacements de la liste de publication](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md).
 
 1. **Type de rapport** : indique le rapport de base à exécuter dans votre requête de données. Un seul rapport est exécuté par requête. Ce rapport peut contenir des dimensions et des mesures de type « un à plusieurs ». Les mesures et dimensions affectées à un type de rapport sont affichées dans l’interface [!UICONTROL Assistant Requête : Étape 2]. Voir [Sélection des types de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
