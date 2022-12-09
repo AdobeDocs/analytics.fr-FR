@@ -3,7 +3,7 @@ title: websiteBot
 description: Identifiez dynamiquement les robots à l’aide des mouvements de souris.
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 96%
@@ -32,7 +32,7 @@ Si l’agent utilisateur se trouve sur un bureau et qu’aucun mouvement de sour
 
 Adobe recommande d’effectuer les actions suivantes avant d’utiliser ce module :
 
-* **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définir l’expiration sur **Jamais** ou **Visite** et l’affectation sur **« Valeur originale (Première) »**. Cette eVar doit être définie dans les deux cas suivants : lorsque la règle [!UICONTROL Direct Call] ou l’appel `s.tl` est déclenché.
+* **Configurez les paramètres d’eVar** : définissez une eVar sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports. Définir l’expiration sur **Jamais** ou **Visite** et l’affectation sur **« Valeur originale (Première) »**. Cette eVar doit être définie dans les deux cas suivants : lorsque la règle [!UICONTROL Direct Call] ou l’appel `s.tl` est déclenché.
 * **Collectez l’agent utilisateur dans une variable distincte** : collectez la chaîne de l’agent utilisateur dans une variable distincte pour contrôler l’efficacité de ce module. Définissez une eVar sur `navigator.UserAgent` pour chaque accès afin de collecter ces données.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé

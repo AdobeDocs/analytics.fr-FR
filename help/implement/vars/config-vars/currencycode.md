@@ -3,7 +3,7 @@ title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de chiffre d’affaires correspondent à la devise appropriée.
 
-La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de chiffre d’affaires définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme « Devise » dans [Événements de succès](/help/admin/admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
+La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de chiffre d’affaires définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme « Devise » dans [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
 
 * Si `currencyCode` n’est pas défini, Adobe suppose que toutes les valeurs de devise sont la devise de la suite de rapports. Consultez [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) dans les paramètres de la suite de rapports pour afficher la devise de la suite de rapports.
 * Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.

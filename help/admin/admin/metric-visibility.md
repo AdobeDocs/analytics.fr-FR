@@ -3,7 +3,7 @@ description: Vous pouvez masquer les mesures (intégrées) standard, les événe
 title: Visibilité des mesures
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Événements de succès]**. [Plus...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Événements de succès]**. [Plus...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. Définissez la colonne Visibilité sur **[!UICONTROL Visible partout]**, **[!UICONTROL Créateurs]** ou **[!UICONTROL Masqué partout]**.
 
 Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ; il affecte uniquement sa visibilité dans l’interface utilisateur. Voici l’impact des paramètres sur la visibilité des mesures dans l’interface utilisateur :

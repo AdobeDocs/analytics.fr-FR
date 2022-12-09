@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Admin Console :** peut faire référence :
    * Aux outils d’administration hérités dans lesquels les paramètres des suites de rapports sont gérés dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient aussi gérées ici. Voir [Outils d’administration](/help/admin/admin/c-admin-tools.md) dans le guide d’utilisation destiné à l’administrateur.
    * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
-* **Affectation :** si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. Voir [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
+* **Affectation :** si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. Voir [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Analysis Workspace :** solution de navigateur pour créer des projets dʼanalyse personnalisés et fiables et démocratiser les informations. Offre une meilleure flexibilité au niveau des rapports que Reports and Analytics.
 * **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) dans le guide d’utilisation Analyser.
 * **AppMeasurement :** la bibliothèque de code utilisée pour collecter des données et les envoyer à Adobe. Voir la [Page d’accueil](/help/implement/home.md) du guide d’utilisation de la mise en œuvre.
@@ -55,7 +55,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **eVar :** voir Variable de conversion.
 * **Événement :** voir Événement de succès.
 * **ExcelClient :** ce terme n’est plus utilisé. Nom du prédécesseur du Report Builder.
-* **Expiration :** dans le contexte d’une variable de conversion, durée pendant laquelle la valeur persiste sur le serveur principal. Cette persistance permet aux événements d’être associés à des valeurs de variable avant l’accès de l’événement. Voir [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
+* **Expiration :** dans le contexte d’une variable de conversion, durée pendant laquelle la valeur persiste sur le serveur principal. Cette persistance permet aux événements d’être associés à des valeurs de variable avant l’accès de l’événement. Voir [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Flux :** type de visualisation dans Analysis Workspace montrant les chemins empruntés par les utilisateurs sur votre site. Voir [Visualisation des flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) dans le guide d’utilisation Analyser.
 * **Genesis :** ce terme n’est plus utilisé. Ancien nom des Data Connectors.
 * **Suite de rapports globale :** terme informel désigné dans une suite de rapports qui collecte les accès de plusieurs sites.

@@ -3,7 +3,7 @@ title: Événements personnalisés
 description: Le nombre d’accès comprenant un événement personnalisé.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
@@ -18,7 +18,7 @@ Les mesures d’événements personnalisés indiquent le nombre d’accès pour 
 
 ## Méthode de calcul de cette mesure
 
-Les événements personnalisés sont calculés différemment selon leur type. Vous pouvez vérifier le type d’un événement sous [Événements de succès](../../admin/admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports.
+Les événements personnalisés sont calculés différemment selon leur type. Vous pouvez vérifier le type d’un événement sous [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports.
 
 * **Événements de compteur** : le paramètre d’événement par défaut. La plupart des événements sont des événements de compteur. Tient compte du nombre d’accès pour lesquels l’événement personnalisé correspondant `event1` - `event1000` existe dans la variable [`events`](/help/implement/vars/page-vars/events/events-overview.md).
 * **Événements numériques** : additionne la valeur numérique attribuée à l’événement dans la variable `events`.

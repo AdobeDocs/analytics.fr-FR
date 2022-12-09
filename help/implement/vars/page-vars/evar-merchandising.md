@@ -1,25 +1,25 @@
 ---
-title: eVar (variable de marchandisage)
+title: eVar (variables de marchandisage)
 description: Variables personnalisées liées à des produits individuels.
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 62%
+ht-degree: 98%
 
 ---
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, voir [eVars (dimension de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation des composants.*
+*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVars (dimensions de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants.*
 
 Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 
-Avant d’utiliser des eVars dans votre implémentation, veillez à configurer l’eVar selon la syntaxe souhaitée dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
+Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer l’eVar selon la syntaxe souhaitée dans les paramètres de la suite de rapports. Reportez-vous à la section [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur.
 
 >[!WARNING]
 >
@@ -42,18 +42,18 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 La valeur pour `eVar1` est affectée au produit. Tous les événements de succès suivants qui impliquent ce produit sont crédités à la valeur eVar.
 
-### Syntaxe du produit à l’aide du SDK Web
+### Syntaxe de produit utilisant le SDK Web
 
-Les variables de marchandisage de syntaxe de produit sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM différents.
+Les variables de marchandisage de syntaxe de produit sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM différents.
 
-* Les eVars de marchandisage de syntaxe de produit sont mappées sous `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Les événements de marchandisage de syntaxe de produit sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [Sérialisation d’événements](events/event-serialization.md) Les champs XDM sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Les eVars de marchandisage de syntaxe de produit sont mappées sous `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` à `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Les événements de marchandisage de syntaxe de produit sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.value` à `productListItems[]._experience.analytics.event901to1000.event1000.value`. Les champs XDM de [sérialisation d’événements](events/event-serialization.md) sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.id` à `productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
->Lorsque vous définissez des événements sous `productListItems`, vous n’avez pas besoin de les définir dans la chaîne d’événement. Si elles sont définies aux deux endroits, la valeur de la chaîne d’événement est prioritaire.
+>Lorsque vous définissez des événements sous `productListItems`, vous n’avez pas besoin de les définir dans la chaîne d’événement. S’ils sont définis aux deux endroits, la valeur de la chaîne d’événement est prioritaire.
 
-L’exemple suivant illustre une seule [product](products.md) utilisation de plusieurs eVars et événements de marchandisage :
+L’exemple suivant illustre un seul [produit](products.md) utilisant plusieurs eVars et événements de marchandisage :
 
 ```js
 "productListItems": [
@@ -106,11 +106,11 @@ La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les 
 * L’expiration de l’eVar (sur la base du paramètre « Expire After »)
 * L’eVar de marchandisage est remplacée par une nouvelle valeur.
 
-### Syntaxe des variables de conversion à l’aide du SDK Web
+### Syntaxe des variables de conversion utilisant le SDK Web
 
-La syntaxe des variables de conversion utilisant le SDK Web fonctionne de la même manière que la mise en oeuvre d’autres [eVars](evar.md) et [events](events/events-overview.md). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
+La syntaxe des variables de conversion utilisant le SDK Web fonctionne de la même manière que la mise en œuvre d’autres [eVars](evar.md) et [évènements](events/events-overview.md). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
 
-Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
+Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ Définissez l’eVar sur le même appel d’événement ou l’appel d’événe
 }
 ```
 
-Définissez l’événement de liaison et les valeurs de la chaîne products :
+Définissez l’événement de liaison et les valeurs de la chaîne des produits :
 
 ```js
 "commerce": {
