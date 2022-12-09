@@ -4,7 +4,7 @@ keywords: Suite de rapports virtuelle
 title: Workflow des suites de rapports virtuelles
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
@@ -15,11 +15,11 @@ ht-degree: 100%
 
 Présentation des étapes requises pour planifier la mise en œuvre des suites de rapports virtuelles.
 
-![](assets/step1_icon.png) Planifier votre stratégie en matière de suite de rapports virtuelle.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Planifier votre stratégie en matière de suite de rapports virtuelle.
 
 Familiarisez-vous avec les [points à prendre en compte concernant le balisage global/multisite](/help/components/vrs/vrs-considerations.md) et les FAQ lors du choix de votre stratégie.
 
-![](assets/step2_icon.png) [Créer une suite de rapports virtuelle](/help/components/vrs/c-workflow-vrs/vrs-create.md) en appliquant un ou plusieurs segments à une suite de rapports parente.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) [Créer une suite de rapports virtuelle](/help/components/vrs/c-workflow-vrs/vrs-create.md) en appliquant un ou plusieurs segments à une suite de rapports parente.
 
 Les suites de rapports virtuelles sont créées dans le Gestionnaire de suites de rapports virtuelles (Composants > Suites de rapports virtuelles).
 
@@ -27,7 +27,7 @@ Une fois créée, une suite de rapports virtuelle est considérée comme une sui
 
 Cliquez sur l’icône Informations située en regard du nom de la suite de rapports pour   [afficher des informations sur celle-ci](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
-![](assets/step3_icon.png) Ouvrez un projet ou un rapport et sélectionnez une suite de rapports virtuelle pour obtenir une vue segmentée des données.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Ouvrez un projet ou un rapport et sélectionnez une suite de rapports virtuelle pour obtenir une vue segmentée des données.
 
 ![](assets/step4_icon.png) [Gérer](/help/components/vrs/c-workflow-vrs/vrs-manage.md) la suite de rapports virtuelle.
 

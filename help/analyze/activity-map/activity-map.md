@@ -4,7 +4,7 @@ title: Description dʼActivity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Activity Map vous permet de configurer différents affichages afin d’identifi
 * [Rapport sur les liens](activitymap-links-report.md)
 * [Détails de la page](activitymap-page-flow.md)
 * [Jeu complet de mesures](activitymap-complete-metrics.md)
-* [Analyse des pages en temps réel (mode réel)](activitymap-realtime.md)
+* [Analyse des pages en temps réel (mode réel)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [Segmentation des clients](activitymap-multiple-segments.md)
 * [Superpositions personnalisables](activitymap-gainerslosers.md)
 * [Détails de la superposition](activitymap-overlay-details.md)

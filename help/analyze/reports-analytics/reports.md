@@ -4,7 +4,7 @@ description: Les dimensions et mesures utilisées par Reports & Analytics pour c
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Contient des rapports qui sont généralement affichés à l’aide de périodes
    * Passages en caisse : permet d’afficher la mesure [Passages en caisse](/help/components/metrics/checkouts.md) au fil du temps.
 * Événements personnalisés : contient tous les rapports sur les [Événements](/help/components/metrics/custom-events.md) personnalisés spécifiques à votre implémentation.
 * Robots : permet d’afficher les rapports liés aux robots.
-   * Robots : permet d’afficher les robots qui consultent votre site le plus souvent. Voir [Règles de robots](../../admin/admin/bot-removal/bot-rules.md) dans le guide d’utilisation Administrateur.
+   * Robots : permet d’afficher les robots qui consultent votre site le plus souvent. Voir [Règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) dans le guide d’utilisation Administrateur.
    * Pages de robots : permet d’afficher les pages les plus consultées par les robots.
-* Temps réel : permet d’afficher certaines dimensions et mesures quelques secondes après la collecte de données. Pour plus d’informations, reportez-vous à la section [Rapports en temps réel](/help/components/c-real-time-reporting/realtime.md).
+* Temps réel : permet d’afficher certaines dimensions et mesures quelques secondes après la collecte de données. Pour plus d’informations, reportez-vous à la section [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md).
 
 ## Contenu du site
 

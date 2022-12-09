@@ -3,7 +3,7 @@ description: Questions fréquentes sur la segmentation.
 title: Questions fréquentes sur la segmentation
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 99%
@@ -66,7 +66,7 @@ dans le volet de navigation de gauche pour ainsi afficher le rail de segments.
 
 Le menu déroulant des suites de rapports a été déplacé en regard du sélecteur de dates dans le coin supérieur droit de chaque rapport ou tableau de bord.
 
-![Sélecteur de suite de rapports](assets/report_suite_selector.png)
+![Sélecteur de suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## Autorisations {#section_648DFA3A882146C485A84ED014EEC707}
 

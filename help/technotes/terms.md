@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Prop :** voir Variable de trafic.
 * **Rapport de classement :** format de rapport dans lequel une dimension est généralement suivie d’une mesure. Ce type de rapport permet de voir les éléments principaux, tels que les pages les plus consultées sur votre site. Voir aussi Rapport de tendances.
-* **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
+* **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Report Builder :** macro complémentaire Microsoft Excel qui permet de créer des requêtes personnalisées à partir de données Adobe Analytics.
 * **Suite de rapports :** conteneur global vers lequel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
 * **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage de la solution Analytics.

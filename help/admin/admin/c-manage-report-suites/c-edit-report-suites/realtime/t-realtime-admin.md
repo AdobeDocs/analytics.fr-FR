@@ -1,8 +1,8 @@
 ---
 description: Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
-title: Configuration de rapports en temps réel
+title: Configuration des rapports en temps réel
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# Configuration de rapports en temps réel
+# Configuration des rapports en temps réel
 
 Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 
-La configuration des rapports en temps réel dans les [!UICONTROL Reports &amp; Analytics] consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite.
+La configuration des rapports en temps réel dans les Reports &amp; Analytics consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite.
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
@@ -33,13 +33,13 @@ La configuration des rapports en temps réel dans les [!UICONTROL Reports &amp; 
 1. Activez le paramètre **[!UICONTROL Activer le temps réel]**.
 1. Configurez la collecte de données en temps réel pour trois rapports au maximum, avec une mesure et trois dimensions ou classifications par rapport.
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    Pour plus d’informations sur les mesures et dimensions en temps réel prises en charge, voir [Mesures et dimensions prises en charge](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md).
 
    Si vous avez créé des classifications, elles apparaissent en retrait sous la dimension pour laquelle elles ont été définies :
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >

@@ -3,7 +3,7 @@ description: Cette rubrique présente la configuration système requise et compa
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Que
 | **Granularité des données** | Agrégé | Agrégé | Agrégé | Agrégé | Accès | Accès | Agrégé |
 | **Experience Cloud ID (ECID) disponible** | Non | Non | Non | Oui | Oui | Oui | Non |
 | **Horodatage disponible** | Non | Non | Non | Non | Oui | Oui | Non |
-| **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/components/c-real-time-reporting/realtime.md) distinct | Traitement complet avec [rapport en temps réel](/help/components/c-real-time-reporting/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet | Traitement complet |
-| **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/admin/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Oui - Rapport de robot distinct | Non | Non | Non | Non |
+| **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinct | Traitement complet avec [rapport en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet | Traitement complet |
+| **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Oui - Rapport de robot distinct | Non | Non | Non | Non |
 | **Le faible trafic (valeurs uniques dépassées) apparaît** <br> [En savoir plus](/help/technotes/low-traffic.md) | Oui | Oui | Oui | Non | Non | Non | Oui |
 | **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50 000 |
 | **Suites de rapports multiples** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |

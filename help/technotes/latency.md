@@ -4,7 +4,7 @@ keywords: données manquantes;lent
 title: Disponibilité des données et latence
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Il existe plusieurs stratégies visant à prévenir la latence ou à réduire le
    * Plus de 20 valeurs dans la variable « products »
    * Sérialisation d’événements
 
-* Activer les règles de filtrage des robots IAB : le [filtrage des robots](/help/admin/admin/bot-removal/bot-removal.md) peut réduire sensiblement la latence si votre suite de rapports est fréquentée par des robots ou des robots d’indexation. Il est conseillé d’utiliser la liste de robots IAB, dans la mesure où elle est mise à jour et gérée par l’[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) (IAB). Un utilisateur peut personnaliser ses propres règles de filtrage des robots pour compléter celles émises par l’IAB.
+* Activer les règles de filtrage des robots IAB : le [filtrage des robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) peut réduire sensiblement la latence si votre suite de rapports est fréquentée par des robots ou des robots d’indexation. Il est conseillé d’utiliser la liste de robots IAB, dans la mesure où elle est mise à jour et gérée par l’[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) (IAB). Un utilisateur peut personnaliser ses propres règles de filtrage des robots pour compléter celles émises par l’IAB.
 
 ## Que faire en cas de latence ?
 

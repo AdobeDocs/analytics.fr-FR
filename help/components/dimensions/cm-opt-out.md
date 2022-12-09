@@ -1,7 +1,8 @@
 ---
 title: Droit d’opposition de gestion du consentement
 description: Déterminer les paramètres de confidentialité auxquels un visiteur a exercé son droit d’opposition.
-source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
+exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 5%
@@ -26,6 +27,6 @@ Votre entreprise détermine la logique de mise en oeuvre de ces variables de don
 
 Les éléments de Dimension comprennent les trois valeurs suivantes :
 
-* **`SSF`**: Le visiteur a exercé son droit d’opposition. [Transfert côté serveur](/help/admin/admin/c-server-side-forwarding/ssf.md). Cet élément de dimension est présent lorsque la variable de données contextuelles `cm.ssf` est égal à `1`. Voir [Présentation de la confidentialité des données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) pour plus d’informations, voir le guide d’utilisation d’Audience Manager . L’accès n’est pas transféré vers Adobe Audience Manager.
+* **`SSF`**: Le visiteur a exercé son droit d’opposition. [Transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md). Cet élément de dimension est présent lorsque la variable de données contextuelles `cm.ssf` est égal à `1`. Voir [Présentation de la confidentialité des données](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) pour plus d’informations, voir le guide d’utilisation d’Audience Manager . L’accès n’est pas transféré vers Adobe Audience Manager.
 * **`DMP`**: Le visiteur s’est désabonné du partage sur les plateformes de gestion des données. Cet élément de dimension est présent lorsque la variable de données contextuelles `opt.dmp` est égal à `N`. Similaire à `SSF`, l’accès n’est pas transféré vers Adobe Audience Manager.
 * **`SELL`**: Le visiteur s’est désabonné du partage ou de la vente des données à des tiers. Cette dimension est présente lorsque la variable de données contextuelles `opt.sell` est égal à `N`.

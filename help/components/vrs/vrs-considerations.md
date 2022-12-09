@@ -4,7 +4,7 @@ keywords: Suite de rapports virtuelle,VRS
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Les suites de rapports virtuelles vous permettent d’afficher les données d’une suite de rapports qui collecte les données de vos propriétés numériques, mais avec un segment appliqué de façon permanente.
 
-Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/c-server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
+Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/admin/c-server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
 
 Le remplacement d’un balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation Adobe Analytics et de réduire la consommation d’appel au serveur. Cette opération est recommandée comme une bonne pratique. Toutefois, il y a d’importantes limites à prendre en considération pour les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
 
@@ -35,7 +35,7 @@ Les segments ne peuvent pas encore être publiés dans Adobe Experience Cloud de
 
 Les rapports en temps réel ne sont pas pris en charge dans les suites de rapports virtuelles, car les données sont segmentées. Les données actives ne sont pas prises en charge dans les suites de rapports virtuelles, car elles ne prennent pas en charge la segmentation. Ces deux fonctionnalités sont spécifiques à Reports &amp; Analytics.
 
-[Les rapports en temps réel](/help/admin/admin/realtime/t-realtime-admin.md) et les [données actives](/help/technotes/latency.md) ne sont pas disponibles dans les suites de rapports virtuelles. Cela affecte les utilisateurs qui répondent aux tendances affichées dans Reports &amp; Analytics en quelques secondes ou quelques minutes après la collecte des données. Par exemple, il peut s’agir de rédacteurs dans une salle de rédaction qui ajustent les actualités en fonction de la consommation de contenu en temps réel. Pensez à utiliser le balisage multisuite si vous avez des besoins importants en données en temps réel spécifiques à des suites de rapports individuelles. Les données en temps réel et actuelles peuvent toujours être utilisées dans la suite de rapports globale.
+[Les rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) et les [données actives](/help/technotes/latency.md) ne sont pas disponibles dans les suites de rapports virtuelles. Cela affecte les utilisateurs qui répondent aux tendances affichées dans Reports &amp; Analytics en quelques secondes ou quelques minutes après la collecte des données. Par exemple, il peut s’agir de rédacteurs dans une salle de rédaction qui ajustent les actualités en fonction de la consommation de contenu en temps réel. Pensez à utiliser le balisage multisuite si vous avez des besoins importants en données en temps réel spécifiques à des suites de rapports individuelles. Les données en temps réel et actuelles peuvent toujours être utilisées dans la suite de rapports globale.
 
 ### Limites uniques
 

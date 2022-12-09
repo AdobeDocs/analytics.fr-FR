@@ -3,7 +3,7 @@ description: Index des outils d’administration dans Adobe Analytics.
 title: Outils d’administration
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 >N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Si vous devez, par exemple, comparer des jeux de règles et les copier vers une nouvelle suite de rapports, nous suggérons que vous ouvriez un nouveau navigateur ou réalisiez une capture d’écran pour effectuer cette comparaison.
 
 + [Facturation](billing-admin.md)
-+ [Règles de robots - Présentation](bot-removal/bot-rules.md)
++ [Règles de robots - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
 + [Gestionnaire de code](code-manager-admin.md)
 + [Variables de conversion (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
 + [Codes de devise](currency.md)
@@ -35,17 +35,17 @@ ht-degree: 100%
 + [Canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
 + [Personnalisation des menus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [Visibilité des mesures](metric-visibility.md)
-+ [Gestion mobile](mobile-management.md)
++ [Gestion mobile](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
 + [Détection de référencement payant - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [Gestionnaire de préférences](preferences-manager.md)
-+ [Paramètres de confidentialité](privacy-settings.md)
++ [Paramètres de confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
 + [Règles de traitement - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-+ [Rapports en temps réel - Présentation](realtime/realtime.md)
++ [Rapports en temps réel - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 + [File d’attente des rapports planifiés](scheduled-reports-admin.md)
-+ [Transfert côté serveur - Présentation](c-server-side-forwarding/ssf.md)
++ [Transfert côté serveur - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
 + [Menu des rapports simplifié](t-simplified-menu.md)
 + [Événements de succès - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-+ [Horodatages facultatifs](timestamp-optional.md)
++ [Horodatages facultatifs](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
 + [Variable de trafic (prop) - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 + [Définir la variable de visiteur unique](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [Gestion des vidéos](video-management.md)
