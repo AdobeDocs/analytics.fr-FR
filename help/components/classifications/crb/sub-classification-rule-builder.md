@@ -3,7 +3,7 @@ description: Vous ne pouvez pas combiner le Créateur de règles de classificati
 title: Sous-classifications et le Créateur de règles
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
@@ -44,7 +44,7 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
    Exemple :
 
-   ![Infos sur l’étape](assets/sub_class_create.png)
+   ![Infos sur l’étape](/help/admin/admin/assets/sub_class_create.png)
 
 1. Dans [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-builder.md), classez la clé de sous-classification à partir du code de suivi d’origine.
 

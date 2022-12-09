@@ -3,7 +3,7 @@ description: Les classifications permettent de catégoriser des valeurs dans des
 title: Classifications des conversions
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Description de la procédure d’ajout de classifications de conversion dans Adm
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Classifications des conversions]**.
 1. Dans la liste déroulante **[!UICONTROL Choisir le type de classification]**, sélectionnez la variable qui doit contenir une classification.
 
-   ![Infos sur l’étape](../assets/sub_class_create.png)
+   ![Infos sur l’étape](/help/admin/admin/assets/sub_class_create.png)
 
 1. Placez le pointeur de la souris sur l’icône **[!UICONTROL Modifier la classification]**, puis sélectionnez **[!UICONTROL Ajouter une classification]**.
 1. Dans le champ **[!UICONTROL Sélectionner un type]**, choisissez le type de classification à ajouter à la variable.

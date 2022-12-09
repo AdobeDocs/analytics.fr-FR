@@ -4,7 +4,7 @@ title: File d’attente des rapports planifiés
 feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 98%
@@ -32,19 +32,19 @@ Dans l’onglet **[!UICONTROL Liste des rapports]**, vous pouvez **[!UICONTROL A
 >
 >La colonne **[!UICONTROL Nom de rapport]** affiche le nom du rapport planifié et la colonne **[!UICONTROL Nom de fichier]** affiche tout nom de fichier personnalisé défini par vous dans les Options de remise avancées. En conséquence, si vous planifiez plusieurs rapports du même type et que vous indiquez des noms personnalisés pour chacun, le gestionnaire de rapports programmés affiche plusieurs entrées avec le même nom de rapport mais avec des noms de fichiers différents. En effet, le rapport de fin en cours de planification étant le même, la colonne Nom de rapport comporte les mêmes noms de rapports pour tous les rapports sauf les noms des fichiers personnalisés (tels que définis).
 
-![](assets/show_all_scheduled_reports.png)
+![](/help/admin/admin/assets/show_all_scheduled_reports.png)
 
 ## Fonctionnalités de filtrage avancées {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Par exemple, si vous souhaitez filtrer selon tous les rapports planifiés par heure, indiquez **[!UICONTROL Fréquence égale par heure]** dans le filtre **[!UICONTROL Avancé]** et cliquez sur **[!UICONTROL Appliquer]** :
 
-![](assets/advanced_filtering_schedl_reports.png)
+![](/help/admin/admin/assets/advanced_filtering_schedl_reports.png)
 
 ## File d’attente des rapports {#section_03C866115D354BB182E90BF4D52F1E0B}
 
 Cette file d’attente permet de gérer et potentiellement supprimer tous les rapports planifiés qui « bouchent » la file d’attente. (Généralement, le délai d’expiration des rapports est de 4 heures.)
 
-![](assets/scheduled_reports_2.png)
+![](/help/admin/admin/assets/scheduled_reports_2.png)
 
 La file d’attente des rapports vous permet également d’« Ignorer le rapport planifié une fois ». Cliquez simplement sur l’icône bleue dans la colonne **[!UICONTROL Gérer]**.
 
@@ -52,4 +52,4 @@ La file d’attente des rapports vous permet également d’« Ignorer le rappo
 
 La fourniture de l’**[!UICONTROL ID de planification]** dans l’interface de file d’attente des rapports est utile lorsque vous devez contacter le service à la clientèle Adobe pour la résolution d’un problème de rapports planifiés.
 
-![](assets/schedule_id.png)
+![](/help/admin/admin/assets/schedule_id.png)

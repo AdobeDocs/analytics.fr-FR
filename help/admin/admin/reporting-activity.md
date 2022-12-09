@@ -4,7 +4,7 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 94%
@@ -33,13 +33,13 @@ Dans Adobe Analytics, les administrateurs accèdent à **[!UICONTROL Administrat
 
 Vous avez besoin de l’autorisation Administrateur de produit Analytics (dans Adobe Admin Console) pour gérer l’activité de création de rapports.
 
-Autorisation ![](assets/rep-mgr-permission.png)
+Autorisation ![](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## Afficher la file d’attente des rapports
 
 Lors de l’ouverture de la page d’aperçu du gestionnaire des [!UICONTROL activités de rapports], une liste de vos suites de rapports de base activées s’affiche.
 
-![file d’attente des rapports](assets/reporting-activity1.png)
+![file d’attente des rapports](/help/admin/admin/assets/reporting-activity1.png)
 
 | Élément de lʼinterface utilisateur | Description |
 | --- | --- |
@@ -62,7 +62,7 @@ Lors de l’ouverture de la page d’aperçu du gestionnaire des [!UICONTROL act
 
 Cliquez sur le lien de titre d’une suite de rapports pour laquelle vous souhaitez afficher les détails.
 
-![suite de rapports](assets/indiv-report-ste.png)
+![suite de rapports](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### Graphique linéaire
 
@@ -72,17 +72,17 @@ Le graphique linéaire montre l’activité de création de rapports pour la sui
 * L’axe des ordonnées affiche le temps d’attente moyen d’une requête, en secondes.
 * Vous pouvez pointer sur le graphique linéaire pour afficher les points dans le temps et le temps d’attente moyen de cet instant.
 
-   ![détail](assets/detail.png)
+   ![détail](/help/admin/admin/assets/detail.png)
 
 ### Filtre
 
 Vous pouvez filtrer le tableau par application (voir la liste dans le tableau ci-dessous), par utilisateur et par projet.
 
-![filtre](assets/filter.png)
+![filtre](/help/admin/admin/assets/filter.png)
 
 ### Synthèse des chiffres
 
-![filtre](assets/summary_numbers.png)
+![filtre](/help/admin/admin/assets/summary_numbers.png)
 
 La synthèse des chiffres affiche les informations suivantes :
 
@@ -127,11 +127,11 @@ Pour annuler une requête
 1. Dans la fenêtre **[!UICONTROL Annuler x requête]** qui s’affiche, vous pouvez modifier le message d’annulation, si nécessaire.
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
-   ![annuler-requête](assets/cancel-query.png)
+   ![annuler-requête](/help/admin/admin/assets/cancel-query.png)
 
 Par exemple, les utilisateurs de l’application dans l’espace de travail verront apparaître l’avertissement suivant dans leurs projets :
 
-![avertissement-utilisateur-annulation](assets/cancel-user-facing.png)
+![avertissement-utilisateur-annulation](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## Questions fréquentes
 

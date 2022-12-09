@@ -4,7 +4,7 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,7 +64,7 @@ La zone de dépôt des panneaux vous permet d’appliquer des filtres de segment
 
 Faites glisser et déposez un segment du rail de gauche dans la zone de dépôt du panneau pour commencer à filtrer le panneau.
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtres de segments ad hoc
 
@@ -72,7 +72,7 @@ Vous pouvez également faire glisser des composants qui ne sont pas des segments
 
 Les segments ad hoc sont locaux au projet et ne s’affichent pas dans le rail de gauche, sauf si vous les rendez publics.
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### Filtres de menu déroulant {#dropdown-filter}
 

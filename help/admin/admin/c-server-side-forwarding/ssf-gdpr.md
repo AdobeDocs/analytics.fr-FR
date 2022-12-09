@@ -3,7 +3,7 @@ description: Explique les améliorations apportées au transfert côté serveur,
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -38,7 +38,7 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 Pour configurer ce type de reporting, mappez la nouvelle variable contextuelle à une variable de trafic personnalisé (prop) par l’intermédiaire de règles de traitement. Procédure à suivre :
 
 1. Mettez en œuvre la variable « cm.ssf » (comme indiqué ci-dessus).
-1. [Activez la prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [Activez la prop.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. Utilisez les règles de traitement pour mapper la variable contextuelle à la prop.
 
    1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.

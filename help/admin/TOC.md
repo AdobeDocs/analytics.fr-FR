@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -56,7 +56,6 @@ ht-degree: 95%
       + [Variables de liste](admin/conversion-var-admin/list-var-admin.md)
       + [eVars de marchandisage](admin/conversion-var-admin/merchandising-evars.md)
    + [Codes de devise](admin/currency.md)
-   + [Descriptions des rapports personnalisés](admin/custom-desc-admin.md)
    + [Sources de données](admin/data-sources.md)
    + [Mesures par défaut](admin/default-metrics.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
@@ -127,6 +126,11 @@ ht-degree: 95%
                   + [Définir un événement à l’aide d’une variable de données contextuelles](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [Supprimer un événement d’un accès](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [Astuces et conseils concernant les règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+         + Variables de trafic {#traffic-variables}
+            + [Variable de trafic (prop) - Présentation](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [Activer les rapports de variables de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [Classifications de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [Descriptions des rapports personnalisés](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
    + Transfert côté serveur {#server-side-forwarding}
       + [Transfert côté serveur - Présentation](admin/c-server-side-forwarding/ssf.md)
       + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -140,10 +144,6 @@ ht-degree: 95%
       + [Configurer des événements de succès](admin/c-success-events/t-success-events.md)
       + [À propos du changement de type d’événement](admin/c-success-events/event-type.md)
    + [Horodatages facultatifs](admin/timestamp-optional.md)
-   + Variables de trafic {#traffic-variables}
-      + [Variable de trafic (prop) - Présentation](admin/c-traffic-variables/traffic-var.md)
-      + [Activer les rapports de variables de trafic](admin/c-traffic-variables/t-traffic-variable.md)
-      + [Classifications de trafic](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visiteur unique {#unique-visitor-variable}
       + [Définir la variable de visiteur unique](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [Scénario d’utilisation - Extraction d’ID de visiteur](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)

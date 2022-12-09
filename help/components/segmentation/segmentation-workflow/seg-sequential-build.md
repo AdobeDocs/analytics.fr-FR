@@ -3,8 +3,8 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Regardez cet aperçu vidéo sur la segmentation séquentielle :
 
 Lors de la création d’un segment pour lequel « Inclure tout le monde » est sélectionné, le segment identifie les chemins correspondant au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | Si le résultat… | Séquence |
 |--- |--- |
