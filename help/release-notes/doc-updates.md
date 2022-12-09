@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 94%
@@ -203,7 +203,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 11 avril 2019 | Améliorations des bonnes pratiques relatives à l’optimisation d’Espace de travail : [Optimisation des performances](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md). |
 | 11 avril 2019 | Mises à jour pour [optimiser les performances d’Espace de travail](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
 | 14 mars 2019 | Mise à jour majeure de la [collecte de données régionale](/help/technotes/rdc/regional-data-collection.md). |
-| 7 février 2019 | Mise à jour mineure des paramètres « Remplacer le dernier octet de l’adresse IP par 0 » et « Obscurcissement d’IP » dans les [Paramètres du compte général](/help/admin/admin/general-acct-settings-admin.md). |
+| 7 février 2019 | Mise à jour mineure des paramètres « Remplacer le dernier octet de l’adresse IP par 0 » et « Obscurcissement d’IP » dans les [Paramètres du compte général](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1 février 2019 | Mise à jour majeure du module externe de mise en œuvre [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 janvier 2019 | [Analyse de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) : les améliorations majeures apportées à l’analyse de cohortes vous permettent :<ul><li>d’appliquer à un segment des mesures d’inclusion et de retour de manière séparée ; </li><li>d’afficher l’attrition au lieu de la fidélisation ;</li><li>d’afficher les tables de latence (temps écoulé avant et après un évènement d’inclusion) ;</li><li>de personnaliser les dimensions des cohortes (vers des groupes de visiteurs basés sur une eVar et pas seulement sur une heure) ;</li><li>de calculer la rétention/la perte de clientèle sur la base de la période précédente et non de la cohorte d’origine ; </li><li>d’ajouter plusieurs mesures dans les champs d’inclusion et de retour, ainsi que d’appliquer des segments ; (Les mesures calculées ne sont pas prises en charge)</li></ul> |
 | 17 janvier 2019 | [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Le nouveau paramètre vous permet de voir plus de données sur un seul écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. Accessible via Projet > Informations et paramètres du projet. |

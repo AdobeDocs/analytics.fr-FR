@@ -3,7 +3,7 @@ title: Matin/après-midi
 description: Détermine si l’accès s’est produit le matin ou l’après-midi.
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Matin/après-midi
 
-La dimension « Matin/Après-midi » permet de savoir si l’accès s’est produit le matin ou l’après-midi. L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/general-acct-settings-admin.md).
+La dimension « Matin/Après-midi » permet de savoir si l’accès s’est produit le matin ou l’après-midi. L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Renseignement de cette dimension avec des données
 

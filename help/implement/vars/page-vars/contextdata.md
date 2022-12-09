@@ -3,7 +3,7 @@ title: contextData
 description: Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire.
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 80%
@@ -12,13 +12,13 @@ ht-degree: 80%
 
 # contextData
 
-Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire. Au lieu d’affecter explicitement des valeurs aux variables Analytics dans votre code, vous pouvez envoyer des données dans des variables de données contextuelles. Les règles de traitement prennent ensuite les valeurs des variables de données contextuelles et les transfèrent dans les variables Analytics respectives. Voir [Règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) dans le guide d’utilisation destiné à l’administrateur.
+Les variables de données contextuelles vous permettent de définir des variables personnalisées sur chaque page que les règles de traitement peuvent lire. Au lieu d’affecter explicitement des valeurs aux variables Analytics dans votre code, vous pouvez envoyer des données dans des variables de données contextuelles. Les règles de traitement prennent ensuite les valeurs des variables de données contextuelles et les transfèrent dans les variables Analytics respectives. Voir [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) dans le guide d’utilisation destiné à l’administrateur.
 
 Les variables de données contextuelles permettent aux équipes de développement de collecter des données dans des éléments nommés plutôt que dans des variables numérotées. Par exemple, au lieu de demander aux équipes de développement d’affecter l’auteur de la page à `eVar10`, vous pouvez demander à ce qu’elles l’affectent à `s.contextData["author"]` à la place. Un administrateur Analytics de votre entreprise peut alors créer des règles de traitement pour mapper des variables de données contextuelles dans des variables d’analyse pour la création de rapports. En fin de compte, les équipes de développement se soucient uniquement des variables de données contextuelles au lieu des nombreuses variables de page proposées par Adobe.
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
+Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
 
 Bien qu’il soit recommandé de mapper les données aux champs XDM corrects dans le flux de données, cette méthode obtient des résultats similaires.
 

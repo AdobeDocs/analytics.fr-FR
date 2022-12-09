@@ -5,8 +5,8 @@ uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Utilisez des ventilations lorsque vous souhaitez obtenir des informations sur la
 
 Prenons l’exemple de la ventilation d’un rapport de trafic personnalisé nommé Groupe d’âge, dans lequel vous avez rassemblé les âges des visiteurs du site suite à un sondage. Ce rapport vous permet de voir quelle tranche d’âge est responsable de la majorité du trafic sur votre site. Cependant, si vous avez pris la peine de capturer une information telle que l’âge d’un visiteur, vous voudrez peut-être en savoir plus que les simples pages vues. Vous pouvez donc générer un rapport avec ventilation sur le moteur de recherche utilisé, les mots-clés utilisés ou leur situation géographique. Vous mettez en corrélation le groupe d’âge et le moteur de recherche.
 
-Si vous ventilez un rapport par  *`Referrer Type`*, un point de données peut s’afficher pour *`Inside Your Site`*. Cette valeur indique une page de référence qui figure sur la liste des filtres d’URL internes. Reportez-vous à la section [Filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) dans la Référence d’administration.
+Si vous ventilez un rapport par  *`Referrer Type`*, un point de données peut s’afficher pour *`Inside Your Site`*. Cette valeur indique une page de référence qui figure sur la liste des filtres d’URL internes. Reportez-vous à la section [Filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) dans la Référence d’administration.
 
 Vous pouvez ventiler toute variable Analytics (eVar ou prop) en fonction de toute autre variable. Le menu **[!UICONTROL Ventiler en fonction de]** dans le tableau des rapports correspond au menu de création de rapports Analytics standard, ce qui permet de préserver la cohérence.
 

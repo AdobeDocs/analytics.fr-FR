@@ -3,7 +3,7 @@ title: Jour de la semaine
 description: Jour de la semaine, indépendamment de la période.
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
@@ -20,4 +20,4 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 ## Éléments de dimension
 
-Les éléments de dimension vont de `Sunday` à `Saturday`, représentant le jour de la semaine où l’accès a eu lieu. Par défaut, l’ordre des éléments de dimension respecte le premier jour de la semaine défini dans [Personnaliser le calendrier](/help/admin/admin/custom-calendar.md).
+Les éléments de dimension vont de `Sunday` à `Saturday`, représentant le jour de la semaine où l’accès a eu lieu. Par défaut, l’ordre des éléments de dimension respecte le premier jour de la semaine défini dans [Personnaliser le calendrier](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md).

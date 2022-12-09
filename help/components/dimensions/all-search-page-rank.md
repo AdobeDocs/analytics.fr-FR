@@ -3,7 +3,7 @@ title: Classement de toutes les pages de recherche
 description: Déterminez la page de moteur de recherche sur laquelle un visiteur a cliqué pour accéder à votre site.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
@@ -16,7 +16,7 @@ La dimension « Classement de toutes les pages de recherche » fournit des inf
 
 ## Renseignement de cette dimension avec des données
 
-Pour que cette dimension fonctionne, vous devez simplement configurer correctement les [filtres URL internes](/help/admin/admin/internal-url-filter-admin.md) de votre suite de rapports. AppMeasurement renseigne automatiquement cette dimension sans modification du code d’implémentation.
+Pour que cette dimension fonctionne, vous devez simplement configurer correctement les [filtres URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports. AppMeasurement renseigne automatiquement cette dimension sans modification du code d’implémentation.
 
 ## Éléments de dimension
 

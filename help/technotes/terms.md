@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -83,7 +83,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Persistance :** concept abstrait pour les variables de conversion permettant de lier une valeur de variable à un événement survenant au cours d’accès distincts. Voir aussi Expiration.
 * **Premier appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, la première suite de rapports est un premier appel au serveur, tandis que les autres sont des deuxièmes appels au serveur. Cette règle s’applique à tous les types d’accès, y compris au suivi des pages vues et des liens. Voir aussi Deuxièmes appels au serveur.
 * **Règles de traitement :** peut faire référence :
-   * Aux règles de traitement, une manière de modifier la collecte de données à l’aide de certaines règles dans l’Admin Console. Voir [Règles de traitement](/help/admin/admin/c-processing-rules/processing-rules.md) dans le guide d’utilisation destiné à l’administrateur.
+   * Aux règles de traitement, une manière de modifier la collecte de données à l’aide de certaines règles dans l’Admin Console. Voir [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) dans le guide d’utilisation destiné à l’administrateur.
    * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/admin/marketing-channels-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Prop :** voir Variable de trafic.
 * **Rapport de classement :** format de rapport dans lequel une dimension est généralement suivie d’une mesure. Ce type de rapport permet de voir les éléments principaux, tels que les pages les plus consultées sur votre site. Voir aussi Rapport de tendances.

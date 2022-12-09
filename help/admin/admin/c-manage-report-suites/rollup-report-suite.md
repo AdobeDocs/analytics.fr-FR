@@ -3,7 +3,7 @@ description: Description des types de suites de rapports et comparaison des suit
 title: Approches des suites de rapports
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
@@ -44,7 +44,7 @@ L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite
 >
 >[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul. Adobe ne recommande plus leur utilisation. Envisagez plutôt lʼutilisation dʼune suite de rapports globale avec un balisage multisuite ou des suites de rapports virtuelles.
 
-Un rapport de cumul est une simple agrégation de données provenant de plusieurs suites de rapports, sans déduplication ni répartition des segments ou des données. Aucune implémentation de code nʼest nécessaire pour les cumuls. Pour utiliser les rapports de cumul, procédez comme suit : [implémentez les suites de rapports enfants](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md), puis [combinez-les dans un rapport de cumul](/help/admin/admin/c-manage-report-suites/t-rollups.md) à lʼaide des [!UICONTROL Outils d’administration].
+Un rapport de cumul est une simple agrégation de données provenant de plusieurs suites de rapports, sans déduplication ni répartition des segments ou des données. Aucune implémentation de code nʼest nécessaire pour les cumuls. Pour utiliser les rapports de cumul, procédez comme suit : [implémentez les suites de rapports enfants](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md), puis [combinez-les dans un rapport de cumul](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) à lʼaide des [!UICONTROL Outils d’administration].
 
 Les rapports de cumul sont gratuits : les suites de rapports enfants lancent leurs propres appels au serveur, mais le cumul n’entraîne pas d’appels supplémentaires. Les cumuls sont une fonctionnalité héritée et présentent de nombreuses limites.
 

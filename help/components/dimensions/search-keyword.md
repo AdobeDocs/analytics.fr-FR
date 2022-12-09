@@ -3,7 +3,7 @@ title: Mot-clé de recherche
 description: Le mot-clé de recherche utilisé par le visiteur pour accéder à votre site.
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Un référent doit répondre aux deux critères suivants pour être qualifié de
 * Le domaine référent est reconnu par Adobe comme un [moteur de recherche](search-engine.md) valide.
 * Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Si la chaîne de requête de mot-clé existe, mais ne contient pas de valeur, elle est classée sous l’élément de dimension `"Keyword unavailable"`.
 
-Si vous souhaitez distinguer le référencement payant du référencement naturel, la [détection de référencement payant](/help/admin/admin/paid-search-detection/paid-search-detection.md) est requise. Plusieurs dimensions sont disponibles pour les mots-clés de recherche :
+Si vous souhaitez distinguer le référencement payant du référencement naturel, la [détection de référencement payant](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) est requise. Plusieurs dimensions sont disponibles pour les mots-clés de recherche :
 
 * **Mot-clé de recherche** : le mot-clé de recherche utilisé pour accéder à votre site, qu’il soit payant ou naturel.
 * **Mot-clé de recherche - payant** : le mot-clé de recherche utilisé pour accéder à votre site, qui correspond à la détection de référencement payant.
@@ -31,7 +31,7 @@ Si vous souhaitez distinguer le référencement payant du référencement nature
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
+Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
 ## Éléments de dimension
 

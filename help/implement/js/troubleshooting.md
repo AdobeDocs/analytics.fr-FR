@@ -3,7 +3,7 @@ title: Résolution des problèmes de mise en œuvre de JavaScript
 description: Découvrez les problèmes courants et les bonnes pratiques pour résoudre les problèmes de votre mise en œuvre JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 97%
@@ -33,7 +33,7 @@ Il est parfois souhaitable d’inclure un guillemet simple ou double dans une ch
 
 ### Évitez d’utiliser des guillemets courbes.
 
-Certains programmes convertissent automatiquement les guillemets neutres (`"..."` et `'...'`) en guillemets courbes (`“...”` et `‘...’`). Évitez d’utiliser des éditeurs de documents (tels que Microsoft Word) ou de transmettre des fragments de code par courrier électronique. Les guillemets courbes ne peuvent pas être utilisés dans JavaScript.
+Certains programmes convertissent automatiquement les guillemets neutres (`"..."` et `'...'`) en guillemets courbes (`"..."` et `'...'`). Évitez d’utiliser des éditeurs de documents (tels que Microsoft Word) ou de transmettre des fragments de code par courrier électronique. Les guillemets courbes ne peuvent pas être utilisés dans JavaScript.
 
 ## Référence à l’objet Analytics
 
@@ -87,7 +87,7 @@ Ces deux valeurs de variable sont considérées comme distinctes dans Adobe Anal
 Les implémentations qui renseignent de nombreuses variables avec des valeurs longues rencontrent parfois des demandes d’image tronquées. Certains navigateurs plus anciens, comme Internet Explorer, imposent une limite de 2 083 caractères aux URL de demande d’image. Si votre entreprise fait face à de très longues demandes d’image, essayez les méthodes suivantes :
 
 * **Utilisez le service Experience Cloud ID** : les bibliothèques AppMeasurement 1.4.1 et ultérieures envoient automatiquement des demandes d’image POST HTTP lorsqu’elles sont trop longues. Les données envoyées à l’aide de cette méthode ne sont pas tronquées, quelle que soit leur longueur. Pour plus d’informations, consultez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
-* **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/admin/c-processing-rules/processing-rules.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
+* **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
 
    Exécutez :<br>
 Remplacer la valeur de prop1 par eVar1<br>

@@ -3,7 +3,7 @@ title: Domaine référent
 description: Le domaine global sur lequel se trouvait un visiteur avant d’effectuer un clic pour accéder à votre site.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 100%
@@ -16,7 +16,7 @@ La dimension « Domaine référent » indique les domaines sur lesquels les vi
 
 >[!IMPORTANT]
 >
->Vous devez configurer les [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) de votre suite de rapports pour utiliser cette dimension. Si vous ne configurez pas les filtres d’URL internes, il est possible que des domaines internes soient inclus ou que des domaines externes ne s’affichent pas.
+>Vous devez configurer les [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports pour utiliser cette dimension. Si vous ne configurez pas les filtres d’URL internes, il est possible que des domaines internes soient inclus ou que des domaines externes ne s’affichent pas.
 
 Le même rapport peut montrer des résultats différents entre Analysis Workspace et Data Warehouse. Analysis Workspace indique le domaine référent de chaque page, à l’exception des valeurs qui correspondent aux filtres d’URL internes. Data Warehouse indique uniquement le premier domaine référent de la visite et ignore les filtres d’URL internes.
 
@@ -25,7 +25,7 @@ Le même rapport peut montrer des résultats différents entre Analysis Workspac
 Cette dimension nécessite une configuration dans l’interface d’Analytics et la présence de données dans les demandes d’image.
 
 * Dans votre implémentation, cette dimension récupère les données de la [`r`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `document.referrer` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `r` dans les demandes d’image.
-* Dans l’interface d’Analytics, vous devez configurer les [filtres d’URL internes](/help/admin/admin/internal-url-filter-admin.md) de votre suite de rapports. Si vous ne configurez pas les filtres d’URL internes, il est possible que des domaines internes soient inclus ou que des domaines externes ne s’affichent pas.
+* Dans l’interface d’Analytics, vous devez configurer les [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports. Si vous ne configurez pas les filtres d’URL internes, il est possible que des domaines internes soient inclus ou que des domaines externes ne s’affichent pas.
 
 Adobe conserve le domaine référent pour une visite. Si un visiteur quitte le site et clique sur le lien d’un autre domaine au cours d’une même visite, la nouvelle valeur est mise à jour et persiste pour le reste de la visite. Si vous souhaitez uniquement afficher la valeur d’origine, consultez [Domaine référent initial](original-referring-domain.md).
 
