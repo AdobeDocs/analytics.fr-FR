@@ -4,7 +4,7 @@ keywords: données manquantes;lent
 title: Disponibilité des données et latence
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Certaines fonctionnalités d’Adobe Experience Cloud s’accompagnent d’une l
 
 Il existe plusieurs stratégies visant à prévenir la latence ou à réduire le temps de récupération à la suite d’une latence :
 
-* **Informer Adobe des pics de trafic prévus :** bien qu’il soit impossible d’anticiper tous les pics de trafic sur votre site, vous pouvez, dans certains cas, prévoir une hausse sensible du trafic. Cela peut survenir, par exemple, en cas de période de vacances particulièrement prospère ou juste après la diffusion d’une vaste campagne. Dans de tels cas, Adobe fournit à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic afin que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic de trafic](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) dans le guide d’utilisation destiné à l’administrateur pour savoir comment avertir Adobe d’une hausse du trafic.
+* **Informer Adobe des pics de trafic prévus :** bien qu’il soit impossible d’anticiper tous les pics de trafic sur votre site, vous pouvez, dans certains cas, prévoir une hausse sensible du trafic. Cela peut survenir, par exemple, en cas de période de vacances particulièrement prospère ou juste après la diffusion d’une vaste campagne. Dans de tels cas, Adobe fournit à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic afin que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) dans le guide d’utilisation destiné à l’administrateur pour savoir comment avertir Adobe d’une hausse du trafic.
 * **Tenir compte de la charge de traitement lors de l’activation de nouvelles fonctionnalités :** certaines fonctionnalités consomment plus de ressources de traitement que d’autres. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
 
    * Mise en œuvre de plus de 20 événements sur la même page

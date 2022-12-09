@@ -3,7 +3,7 @@ title: Détails du canal Dernière touche
 description: Détails du dernier canal marketing dans l’expiration de l’engagement du visiteur.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ab0f0c80c13b9064b40511b59d03d9d899d20df1
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
@@ -16,7 +16,7 @@ La dimension « Détails du canal Dernière touche » fournit des détails rel
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension copie les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/admin/marketing-channels-admin.md). Lorsqu’un accès correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle.
+Cette dimension copie les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md). Lorsqu’un accès correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle.
 
 Pour définir une valeur spécifique sur cette dimension, procédez comme suit :
 
