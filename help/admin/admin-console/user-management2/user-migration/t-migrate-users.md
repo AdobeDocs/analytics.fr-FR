@@ -3,10 +3,10 @@ description: Migration des utilisateurs du système de gestion des utilisateurs 
 title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 93%
 
 ---
 
@@ -69,7 +69,7 @@ Migration des utilisateurs du système de gestion des utilisateurs Analytics hé
    </tr> 
    <tr> 
       <td colname="col1"> <p>Domaine déposé </p> </td> 
-      <td colname="col2"> <p>Vous devez être administrateur système pour migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, et déposer un domaine disponible par le biais de l’Admin Console avant d’effectuer la migration. En savoir plus <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/enterprise/help/identity.html"> ici</a>. </p> </td> 
+      <td colname="col2"> <p>Si vous souhaitez migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, vous devez être administrateur système et déposer un domaine disponible via Adobe Admin Console avant de migrer des utilisateurs. En savoir plus <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/enterprise/help/identity.html"> ici</a>. </p> </td> 
    </tr> 
    </tbody> 
    </table>

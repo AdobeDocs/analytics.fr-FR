@@ -3,10 +3,10 @@ description: Les sessions contextuelles dans les suites de rapports virtuelles m
 title: Sessions contextuelles
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 100%
+source-wordcount: '1562'
+ht-degree: 97%
 
 ---
 
@@ -131,7 +131,7 @@ Le temps passé est toujours calculé d’une manière analogue à la façon don
 
 ## Paramètres du traitement des accès en arrière-plan
 
-Comme le traitement des accès en arrière-plan est uniquement disponible pour les suites de rapports virtuelles utilisant le paramètre Reporter le traitement du temps, Adobe Analytics prend en charge deux méthodes de traitement des accès en arrière-plan afin de conserver les nombres de visites dans la suite de rapports de base (parente) qui n’utilise pas le paramètre Reporter le traitement du temps. Pour accéder à ce paramètre, accédez à l’Admin Console d’Adobe Analytics, puis aux paramètres de la suite de rapports de base applicable, puis au menu « Gestion mobile », et enfin au sous-menu « Rapports d’applications mobiles ».
+Comme le traitement des accès en arrière-plan est uniquement disponible pour les suites de rapports virtuelles utilisant le paramètre Reporter le traitement du temps, Adobe Analytics prend en charge deux méthodes de traitement des accès en arrière-plan afin de conserver les nombres de visites dans la suite de rapports de base (parente) qui n’utilise pas le paramètre Reporter le traitement du temps. Pour accéder à ce paramètre, accédez aux Outils d’administration Adobe Analytics, aux paramètres de la suite de rapports de base applicable, puis au menu &quot;Gestion mobile&quot;, puis au sous-menu &quot;Rapports d’applications mobiles&quot;.
 
 1. « Traitement hérité activé » : il s’agit du paramètre par défaut pour toutes les suites de rapports. Le fait de laisser le traitement hérité activé traite les accès en arrière-plan comme des accès normaux dans notre pipeline de traitement en ce qui concerne la suite de rapports de base (parente) sans attribution de la période du rapport. Cela signifie que les accès en arrière-plan qui apparaissent dans la suite de rapports de base (parente) incrémentent les visites comme un accès normal. Si vous ne souhaitez pas que les accès en arrière-plan apparaissent dans la suite de rapports de base (parente), définissez ce paramètre sur « Désactivé ».
 1. « Traitement hérité désactivé » : avec le traitement hérité désactivé pour les accès en arrière-plan, tous les accès en arrière-plan envoyés à la suite de rapports de base (parente) sont ignorés par cette dernière et accessibles uniquement lorsqu’une suite de rapports virtuelle créée à partir de cette suite de rapports de base est configurée pour utiliser le paramètre Reporter le traitement du temps. Cela signifie que toutes les données capturées par les accès en arrière-plan envoyées à cette suite de rapports de base (parente) n’apparaissent que dans une suite de rapports virtuelle incluant le paramètre Reporter le traitement du temps.

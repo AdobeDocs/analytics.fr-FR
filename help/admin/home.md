@@ -3,10 +3,10 @@ title: Guide d’administration Analytics
 description: Aide pour les administrateurs d’Adobe Analytics, notamment pour la gestion des utilisateurs et des produits dans Admin Console, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 100%
+source-wordcount: '328'
+ht-degree: 93%
 
 ---
 
@@ -23,11 +23,11 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 Adobe Analytics a actuellement deux zones pour les administrateurs :
 
 * Adobe Admin Console : Utilisez cette zone pour configurer les outils d’Experience Cloud et gérer les permissions des utilisateurs. Elle se trouve sur [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Analytics Admin Console : utilisez cette zone pour la gestion des variables et des suites de rapports. Pour ce faire, cliquez sur [!UICONTROL Admin] dans l’en-tête supérieur d’Adobe Analytics.
+* Outils d’administration Analytics : Utilisez cette zone pour la gestion des suites de rapports et des variables. Pour ce faire, cliquez sur [!UICONTROL Admin] dans l’en-tête supérieur d’Adobe Analytics.
 
 Ce guide couvre les sujets suivants :
 
-* Toutes les tâches effectuées dans l’Analytics Admin Console. Cette zone permet la configuration des suites de rapports, variables, classifications et la gouvernance des données. Voir [Outils d’administration](admin/c-admin-tools.md) pour connaître la liste des paramètres de suite de rapports et de société disponibles.
+* Toutes les tâches effectuées dans les outils d’administration Analytics. Cette zone permet la configuration des suites de rapports, variables, classifications et la gouvernance des données. Voir [Outils d’administration](admin/c-admin-tools.md) pour connaître la liste des paramètres de suite de rapports et de société disponibles.
 * Toutes les tâches spécifiques à Analytics effectuées dans Adobe Admin Console. Cette zone inclut la mise en service des produits et la gestion des autorisations utilisateur. Voir [Adobe Analytics dans Adobe Admin Console](admin-console/home.md) pour obtenir la liste des actions qui peuvent être exécutées dans Adobe Admin Console.
 
 Ce guide ne couvre pas de nombreuses fonctionnalités génériques offertes par Adobe Admin Console. Voir [Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html) dans le guide de l’utilisateur Enterprise.
