@@ -3,10 +3,10 @@ description: Exemples de libellés relatifs à la confidentialité des données 
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 98%
+source-wordcount: '3685'
+ht-degree: 96%
 
 ---
 
@@ -144,7 +144,9 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
 | <ul><li>Variables de trafic (props)</li><li>Variables de commerce (eVars de non-marchandisage)</li></ul> | Toutes les étiquettes | - |
 | La plupart des autres variables  (*Voir le tableau ci-dessous pour les exceptions*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
-## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style=&quot;table-layout:auto&quot;}
+
+## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,122 +215,47 @@ La prise en charge par Adobe Analytics des demandes de suppression relatives à
 
 Le tableau suivant décrit comment différentes variables sont « supprimées ». Il ne s’agit pas d’une liste exhaustive.
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variables </th> 
-   <th colname="col2" class="entry"> Méthode de suppression </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* Variables de trafic (props) </p> <p>* Variables de commerce (eVars) </p> </td> 
-   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482 », dans laquelle la valeur hexadécimale de 32 chiffres suivant le préfixe « Data Privacy » est un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Puisqu’elle est remplacée par une chaîne aléatoire, la valeur d’origine ne peut pas être retrouvée à partir de cette nouvelle valeur, tout comme il n’est pas possible d’obtenir la nouvelle valeur en connaissant la valeur d’origine. </p> <p>Pour une variable donnée, si la valeur identique à la valeur remplacée apparaît dans d’autres accès qui sont également supprimés dans le cadre de la même demande relative à la Confidentialité des données, toutes les instances de cette valeur sont remplacées par la même nouvelle valeur. </p> <p>Si certaines instances d’une valeur sont remplacées par une demande de suppression et qu’une demande ultérieure supprime d’autres (nouvelles) instances de la valeur d’origine, la nouvelle valeur de remplacement sera différente de la valeur de remplacement d’origine. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identifiant d’achat </p> </td> 
-   <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « G-7588FCD8642718EC50 », dans laquelle les 18 caractères hexadécimaux suivant le préfixe « G- » sont les 18 caractères qui composent un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Tous les commentaires qui s’appliquent à la suppression de variables de trafic et de commerce s’appliquent également ici. </p> <p>L’identifiant d’achat est un identifiant de transaction dont le principal objectif est de s’assurer qu’un achat n’est pas crédité deux fois, par exemple quand quelqu’un rafraîchit la page de confirmation d’achat. L’identifiant en lui-même peut associer l’achat à une ligne de votre propre base de données, où l’achat est enregistré. Dans la plupart des cas, il n’est pas nécessaire de supprimer cet identifiant, il n’est donc pas supprimé par défaut. Si vous êtes toujours en mesure de lier un achat à un utilisateur après la demande de suppression relative à la Confidentialité des données de vos propres données, vous pourriez avoir à supprimer ce champ pour que les données Analytics concernant ce visiteur ne puissent pas être reliées à l’acheteur. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
-   <td colname="col2"> <p>La valeur est un entier relatif de 128 octets et est remplacée par une valeur pseudo-aléatoire de 128 octets au chiffrement fort. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* Identifiant visiteur personnalisé </p> <p>* Adresse IP </p> <p>* Adresse IP 2 </p> </td> 
-   <td colname="col2"> <p>La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Action ClickMap (héritée) </p> <p>* Contexte ClickMap (hérité) </p> <p>* Page </p> <p>* URL de la page </p> <p>* URL de la page d’accès originale </p> <p>* Référent </p> <p>* URL de la page de début de la visite </p> </td> 
-   <td colname="col2"> <p>Les paramètres d’URL sont effacés/supprimés. Si la valeur ne ressemble pas à une URL, elle est effacée (définie sur une chaîne vide). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* Latitude </p> <p>* Longitude </p> </td> 
-   <td colname="col2"> <p>La précision est réduite au mieux à 1 km. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variables | Méthode de suppression |
+| --- | --- |
+| <ul><li>Variables de trafic (props)</li><li>Variables de commerce (eVars)</li></ul> | La valeur existante est remplacée par une nouvelle valeur du formulaire « Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482 », dans laquelle la valeur hexadécimale de 32 chiffres suivant le préfixe « Data Privacy » est un nombre pseudo-aléatoire de 128 octets au chiffrement fort.<p>Puisqu’elle est remplacée par une chaîne aléatoire, la valeur d’origine ne peut pas être retrouvée à partir de cette nouvelle valeur, tout comme il n’est pas possible d’obtenir la nouvelle valeur en connaissant la valeur d’origine.  Pour une variable donnée, si la valeur identique à la valeur remplacée apparaît dans d’autres accès qui sont également supprimés dans le cadre de la même demande relative à la Confidentialité des données, toutes les instances de cette valeur sont remplacées par la même nouvelle valeur.<p>Si certaines instances d’une valeur sont remplacées par une demande de suppression et qu’une demande ultérieure supprime d’autres (nouvelles) instances de la valeur d’origine, la nouvelle valeur de remplacement sera différente de la valeur de remplacement d’origine. |
+| Identifiant d’achat | La valeur existante est remplacée par une nouvelle valeur du formulaire « G-7588FCD8642718EC50 », dans laquelle les 18 caractères hexadécimaux suivant le préfixe « G- » sont les 18 caractères qui composent un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Tous les commentaires qui s’appliquent à la suppression de variables de trafic et de commerce s’appliquent également ici.<p>L’identifiant d’achat est un identifiant de transaction dont le principal objectif est de s’assurer qu’un achat n’est pas crédité deux fois, par exemple quand quelqu’un rafraîchit la page de confirmation d’achat. L’identifiant en lui-même peut associer l’achat à une ligne de votre propre base de données, où l’achat est enregistré. Dans la plupart des cas, il n’est pas nécessaire de supprimer cet identifiant, il n’est donc pas supprimé par défaut.<p>Si vous êtes toujours en mesure de lier un achat à un utilisateur après la demande de suppression relative à la Confidentialité des données de vos propres données, vous pourriez avoir à supprimer ce champ pour que les données Analytics concernant ce visiteur ne puissent pas être reliées à l’acheteur. |
+| Visitor ID | La valeur est un entier relatif de 128 octets et est remplacée par une valeur pseudo-aléatoire de 128 octets au chiffrement fort. |
+| <ul><li>MCID</li><li>Identifiant visiteur personnalisé</li><li>Adresse IP</li><li>Adresse IP 2 | La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). |
+| <ul><li>Action ClickMap (héritée)</li><li>Contexte ClickMap (hérité)</li><li>Page</li><li>URL de la page</li><li>URL de la page d’accès originale</li><li>Référent</li><li>URL de la page de début de la visite</li></ul> | Les paramètres d’URL sont effacés/supprimés. Si la valeur ne ressemble pas à une URL, elle est effacée (définie sur une chaîne vide). |
+| <ul><li>Latitude</li><li>Longitude</li></ul> | La précision est réduite au mieux à 1 km. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Variables qui ne prennent pas en charge les étiquettes de suppression prévues {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 Cette section vise à clarifier les informations concernant les variables Analytics ne prenant pas en charge la suppression. Parfois, ces variables sont supprimées par des utilisateurs externes à Analytics (par exemple par l’équipe juridique) qui ne connaissent pas le type de données contenu dans la variable et font des hypothèses incorrectes à partir du nom de la variable. Voici une liste de certaines de ces variables, et des raisons pour lesquelles elles ne demandent pas de suppression ou ne nécessitent pas d’étiquette spécifique de suppression.
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Commentaires </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Nouvel identifiant visiteur </p> </td> 
-   <td colname="col2"> <p>Le nouvel identifiant visiteur est un booléen qui est vrai la première fois qu’un identifiant visiteur donné est détecté. Il n’est pas nécessaire de le supprimer une fois que l’identifiant visiteur est rendu anonyme. Après l’anonymisation, il correspond à la première fois que l’ID anonyme est détecté. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Code postal </p> <p>Code postal géo </p> </td> 
-   <td colname="col2"> <p>Les codes postaux ne sont définis que pour les accès provenant des États-Unis. Ils ne sont pas définis pour les accès provenant de l’UE. Même lorsqu’ils sont définis, ils ne fournissent qu’une large zone géographique qui rend difficile la ré-identification du sujet des données. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Latitude géo </p> <p>Longitude géo </p> </td> 
-   <td colname="col2"> <p>Elles fournissent une localisation approximative dérivée de l’adresse IP. La précision est généralement similaire à celle du code postal, à une douzaine de kilomètres près de la localisation réelle. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Agent utilisateur </p> </td> 
-   <td colname="col2"> <p>L’agent utilisateur identifie la version du navigateur utilisé. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identifiant utilisateur </p> </td> 
-   <td colname="col2"> <p> Spécifie la suite de rapports Analytics (sous forme de nombre) contenant les données. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identifiant de suite de rapports </p> </td> 
-   <td colname="col2"> <p> Spécifie le nom de la suite de rapports Analytics contenant les données. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Identifiant visiteur </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> Ils possèdent une étiquette DEL-DEVICE mais l’ajout de l’étiquette DEL-PERSON est impossible. Si vous spécifiez  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> l’extension d’ID</a> pour chaque demande, ces ID sont automatiquement supprimés pour toutes les demandes de suppression, y compris ceux qui utilisent une étiquette ID-PERSON. </p> <p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID AMO </p> </td> 
-   <td colname="col2"> <p> L’identifiant Adobe Advertising Cloud est une variable de solution qui possède une étiquette DEL-DEVICE non modifiable. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Variable | Commentaires |
+| --- | --- |
+| Nouvel identifiant visiteur | Le nouvel identifiant visiteur est un booléen qui est vrai la première fois qu’un identifiant visiteur donné est détecté. Il n’est pas nécessaire de le supprimer une fois que l’identifiant visiteur est rendu anonyme. Après l’anonymisation, il correspond à la première fois que l’ID anonyme est détecté. |
+| Code postal<p>Code postal géo | Les codes postaux ne sont définis que pour les accès provenant des États-Unis. Ils ne sont pas définis pour les accès provenant de l’UE. Même lorsqu’ils sont définis, ils ne fournissent qu’une large zone géographique qui rend difficile la ré-identification du sujet des données. |
+| Latitude géo<p>Longitude géo | Elles fournissent une localisation approximative dérivée de l’adresse IP. La précision est généralement similaire à celle du code postal, à une douzaine de kilomètres près de la localisation réelle. |
+| Agent utilisateur | L’agent utilisateur identifie la version du navigateur utilisé. |
+| Identifiant utilisateur | Spécifie la suite de rapports Analytics (sous forme de nombre) contenant les données. |
+| Identifiant de suite de rapports | Spécifie le nom de la suite de rapports Analytics contenant les données. |
+| Identifiant visiteur<p>MCID / ECID | Ces identifiants possèdent une étiquette DEL-DEVICE, mais l’étiquette DEL-PERSON ne peut pas être ajoutée. Si vous spécifiez [!UICONTROL Extension d’ID] pour chaque demande, ces ID seront automatiquement supprimés pour toutes les demandes de suppression, même ceux qui utilisent un ID-PERSON.<p>Si vous n’utilisez pas l’extension d’ID, mais souhaitez que ces ID de cookies soient rendus anonymes sur les accès contenant un ID correspondant dans une prop ou une eVar, vous pouvez contourner cette limite d’étiquetage en étiquetant la prop ou l’eVar avec une étiquette ID-DEVICE, même si elle identifie en réalité une personne (toutes les étiquettes DEL-PERSON doivent également être changées en étiquettes DEL-DEVICE). Dans ce cas, comme seulement quelques instances de l’identifiant visiteur ou de l’ECID sont rendues anonymes, les chiffres du visiteur unique changent dans les rapports antérieurs. |
+| ID AMO | Adobe Advertising Cloud ID est une variable de solution qui ne peut pas être modifiée. [!UICONTROL DEL-DEVICE] libellé. Il est renseigné à partir d’un cookie, comme le sont l’identifiant visiteur et le MCID. Il doit être supprimé des accès dès que ces autres identifiants sont supprimés. Consultez la description de ces variables pour de plus amples détails. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Champs de date pour les demandes d’accès {#access-requests}
 
 Il existe cinq variables standard qui contiennent des horodatages :
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Horodatage </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Heure d’accès UTC </p> </td> 
-   <td colname="col2"> <p>Heure à laquelle Adobe Analytics a reçu l’accès. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Heure d’accès personnalisée UTC </p> </td> 
-   <td colname="col2"> <p>Heure à laquelle l’accès s’est produit, qui peut être antérieure à celle à laquelle l’accès a été reçu pour certaines applications mobiles et autres implémentations. Par exemple, si aucune connexion réseau n’était disponible au moment où elle s’est produite, l’application peut retenir l’accès et l’envoyer dès qu’une connexion est disponible. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Heure </p> </td> 
-   <td colname="col2"> <p>Même valeur que l’heure d’accès personnalisée UTC, mais dans le fuseau horaire de la suite de rapports, non GMT.</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Heure du premier accès GMT </p> </td> 
-   <td colname="col2"> <p>Heure d’accès personnalisée UTC du premier accès reçu pour la valeur identifiant visiteur de cet accès. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Heure de début de visite UTC </p> </td> 
-   <td colname="col2"> <p>Heure d’accès personnalisée UTC du premier accès reçu pour la visite actuelle de cet identifiant visiteur.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Horodatage | Définition |
+| --- | --- |
+| Heure d’accès UTC | Heure à laquelle Adobe Analytics a reçu l’accès. |
+| Heure d’accès personnalisée UTC | Heure à laquelle l’accès s’est produit, qui peut être antérieure à celle à laquelle l’accès a été reçu pour certaines applications mobiles et autres implémentations. Par exemple, si aucune connexion réseau n’était disponible au moment où elle s’est produite, l’application peut retenir l’accès et l’envoyer dès qu’une connexion est disponible. |
+| Date Heure | Même valeur que l’heure d’accès personnalisée UTC, mais dans le fuseau horaire de la suite de rapports, non GMT. |
+| Heure du premier accès GMT | Heure d’accès personnalisée UTC du premier accès reçu pour la valeur identifiant visiteur de cet accès. |
+| Heure de début de visite UTC | Heure d’accès personnalisée UTC du premier accès reçu pour la visite actuelle de cet identifiant visiteur. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Le code permettant de générer les fichiers renvoyés lors des demandes d’accès relatives à la Confidentialité des données nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
