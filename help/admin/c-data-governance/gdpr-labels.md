@@ -3,9 +3,9 @@ description: Exemples de libellés relatifs à la confidentialité des données 
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
 workflow-type: tm+mt
-source-wordcount: '3909'
+source-wordcount: '3672'
 ht-degree: 98%
 
 ---
@@ -32,58 +32,23 @@ La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend
 
 Les étiquettes « I » pour les données d’identification sont utilisées pour catégoriser les données qui peuvent identifier ou servir à contacter une personne spécifique.
 
-<table id="table_6B5368D714424E52835D5DFE189BD080"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Étiquette </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-   <th colname="col3" class="entry"> Autres exigences </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>I1 </p> </td> 
-   <td colname="col2"> <p><b>Directement identifiables</b> : données qui peuvent spécifiquement identifier ou permettre un contact direct avec un individu, comme un nom ou une adresse e-mail. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_4E2AD59D119E40D28B869D0BB63B9FD9"> 
-     <li id="li_AC3E99B57E3A4AE2A12BE219680AFC58">Ne peut pas être défini sur des événements </li> 
-     <li id="li_BB66992863C8402F8D58656293F31E71">Ne peut pas être défini sur des eVars de marchandisage </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>I2 </p> </td> 
-   <td colname="col2"> <p><b>Indirectement identifiables</b> : données qui peuvent être utilisées en combinaison avec d’autres données pour identifier ou permettre un contact direct avec un individu ou un appareil. </p> <p>Ne permettent pas l’identification d’un individu en soi, mais peuvent être combinées avec d’autres informations (qui peuvent être ou non en votre possession), pour identifier une personne. Parmi les exemples on retrouve les numéros de fidélité des clients, ou les ID uniques à chaque client utilisés par le système de gestion de la relation client d’une entreprise. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_A0EF0F3DC5804D4FBE228946D697ABEB"> 
-     <li id="li_A592EA6DA82C4D8C80E03F02ADF4E20E">Ne peut pas être défini sur des événements </li> 
-     <li id="li_46CE7B1E84884CDAB356A6DF89397849">Ne peut pas être défini sur des eVars de marchandisage </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Étiquette | Définition | Autres exigences |
+| --- | --- | --- |
+| I1 | Directement identifiables : données qui peuvent spécifiquement identifier ou permettre un contact direct avec un individu, comme un nom ou une adresse e-mail. | <ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li></ul> |
+| I2 | Indirectement identifiables : données qui peuvent être utilisées en combinaison avec d’autres données pour identifier ou permettre un contact direct avec un individu ou un appareil.  Ne permettent pas l’identification d’un individu en soi, mais peuvent être combinées avec d’autres informations (qui peuvent être ou non en votre possession), pour identifier une personne. Parmi les exemples on retrouve les numéros de fidélité des clients, ou les ID uniques à chaque client utilisés par le système de gestion de la relation client d’une entreprise. | <ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Étiquettes de données sensibles (DULE)  {#sensitive-data-labels}
 
 Les étiquettes « S » pour les données sensibles sont utilisées pour catégoriser les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles.
 
-<table id="table_A778A508620545CCB37830E5CF1C75B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Étiquette </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>S1 </p> </td> 
-   <td colname="col2"> <p> Données de géolocalisation précises liées à la latitude et à la longitude pouvant être utilisées pour déterminer la position exacte d’un appareil (à moins de 100 m). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>S2 </p> </td> 
-   <td colname="col2"> <p> Données de géolocalisation pouvant être utilisées pour déterminer une zone géographie délimitée définie plus largement. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Étiquette | Définition |
+| --- | --- |
+| S1 | Données de géolocalisation précises liées à la latitude et à la longitude pouvant être utilisées pour déterminer la position exacte d’un appareil (à moins de 100 m). |
+| S2 | Données de géolocalisation pouvant être utilisées pour déterminer une zone géographie délimitée définie plus largement. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Étiquettes de gouvernance des données (Confidentialité des données) {#data-governance-labels}
 
@@ -91,124 +56,38 @@ Les étiquettes de gouvernance des données permettent aux utilisateurs de class
 
 ### Étiquettes d’accès relatives à la confidentialité des données
 
-<table id="table_663EFF43A454498386F7F3E60875E0F8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Étiquette </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-   <th colname="col3" class="entry"> Autres exigences </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Aucun </p> </td> 
-   <td colname="col2"> <p>Sélectionnez cette option si cette variable ne contient aucune donnée qui doit être incluse dans les données renvoyées au sujet de données dans le cadre d’une demande d’accès relative à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-ALL </p> </td> 
-   <td colname="col2"> <p>Les valeurs dans ce champ doivent être incluses dans <u>toutes</u> les demandes d’accès relatives à la Confidentialité des données. </p> <p>Si cet accès provient d’un appareil partagé par plusieurs individus, en appliquant cette étiquette, vous indiquez, en tant que contrôleur de données, qu’il est acceptable de partager les données dans ce champ avec tout individu ayant accès à l’appareil partagé. </p> </td> 
-   <td colname="col3"> <p>Les champs ayant cette étiquette seront renvoyés pour toutes les demandes relatives à la Confidentialité des données. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ACC-PERSON </p> </td> 
-   <td colname="col2"> <p> Les valeurs dans ce champ doivent être incluses uniquement pour les demandes d’accès relatives à la Confidentialité des données lorsque nous sommes pratiquement certains que l’accès provient du sujet des données, tel que déterminé par un ID de demande relative à la Confidentialité des données correspondant à la valeur d’un champ ID-PERSON. </p> </td> 
-   <td colname="col3"> <p>Vous devez également définir une étiquette ID-PERSON sur certaines variables de cette suite de rapports et soumettre les demandes utilisant cet ID, ou cette étiquette ne sera jamais appliquée. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Étiquette | Définition | Autres exigences |
+| --- | --- | --- |
+| Aucun | Sélectionnez cette option si cette variable ne contient aucune donnée qui doit être incluse dans les données renvoyées au sujet de données dans le cadre d’une demande d’accès relative à la Confidentialité des données. |  |
+| ACC-ALL | Les valeurs dans ce champ doivent être incluses dans toutes les demandes d’accès relatives à la Confidentialité des données. Si cet accès provient d’un appareil partagé par plusieurs individus, en appliquant cette étiquette, vous indiquez, en tant que contrôleur de données, qu’il est acceptable de partager les données dans ce champ avec tout individu ayant accès à l’appareil partagé. | Les champs ayant cette étiquette seront renvoyés pour toutes les demandes relatives à la Confidentialité des données. |
+| ACC-PERSON | Les valeurs dans ce champ doivent être incluses uniquement pour les demandes d’accès relatives à la Confidentialité des données lorsque nous sommes pratiquement certains que l’accès provient du sujet des données, tel que déterminé par un ID de demande relative à la Confidentialité des données correspondant à la valeur d’un champ ID-PERSON. | Vous devez également définir une étiquette ID-PERSON sur certaines variables de cette suite de rapports et soumettre les demandes utilisant cet ID, ou cette étiquette ne sera jamais appliquée. |
+
+{style=&quot;table-layout:auto&quot;}
 
 Peu de variables recevront d’autres étiquettes, vous devez donc vous attendre à ce que les étiquettes d’accès soient appliquées à la plupart de vos variables. Vous pouvez, cependant, en consultation avec votre équipe juridique, décider quelles données collectées doivent être partagées avec les sujets de données.
 
 ### Étiquettes de suppression de la confidentialité des données
 
-<table id="table_59DFCE4D90214CB5972BDDE5B7391B4D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Étiquette </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-   <th colname="col3" class="entry"> Autres exigences </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> </td> 
-   <td colname="col2"> <p>Contrairement aux autres étiquettes, les étiquettes de suppression ne sont pas mutuellement exclusives. Vous pouvez sélectionner l’une ou l’autre, les deux ou aucune. L’étiquette Aucune n’est pas nécessaire, car le simple fait de ne pas cocher d’option de suppression indique qu’il n’y en a aucune. </p> </td> 
-   <td colname="col3"> <p>Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le sujet de données (autrement dit qui permettrait d’identifier le sujet de données). </p> <p> Les autres informations personnelles (favoris, historique de navigation/d’achat, conditions de santé, etc.) ne doivent pas être supprimées, car l’association avec le sujet de données sera rompue. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-DEVICE </p> </td> 
-   <td colname="col2"> <p>Pour les demandes de suppression relatives à la Confidentialité des données, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où l’accès présente un ID-DEVICE spécifié. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres instances ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Sur les appareils partagés, cela peut supprimer les identifiants d’autres personnes, au-delà du sujet des données. </p> <p>Les chiffres ne changent pas si ce champ détient également une étiquette ID-DEVICE et si la valeur de ce champ a été utilisée comme ID pour la demande relative à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_45C3A09E1F05492B97C3F3DEA7C78FBC"> 
-     <li id="li_BAB277F92F284ADE9D7B6839BDD716E2">Nécessite également une étiquette I1, I2 ou S1 </li> 
-     <li id="li_6DDFC0571457489CBA9D76F547247F20">Ne peut pas être défini sur des événements </li> 
-     <li id="li_E79C6DFC6C58478EAA1504E3820D512C">Ne peut pas être défini sur des eVars de marchandisage </li> 
-     <li id="li_B78E273212E447D49D0707E174B66DEC">Ne peut pas être défini sur des classifications </li> 
-     <li id="li_F0F52D0DE7454557A6A97063C1FBC372">Vous devez soumettre les demandes utilisant une étiquette ID-DEVICE ou dont la valeur expandIDs est définie sur « true », ou cette étiquette ne sera jamais appliquée. </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DEL-PERSON </p> </td> 
-   <td colname="col2"> <p>Pour les demandes de suppression relatives à la Confidentialité des données, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où l’accès présente un ID-PERSON spécifié. </p> <p>Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres valeurs ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Les chiffres ne changeront pas si ce champ détient également une étiquette ID-PERSON et si la valeur de ce champ a été utilisée comme ID pour la demande relative à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_6722E42E036E47B4B5E17DC213636D51"> 
-     <li id="li_6C1A64FF68AF428A827D8C6C33E22970">Nécessite également une étiquette I1, I2 ou S1 </li> 
-     <li id="li_8053533FFE874EE795C8B6043A4F73B3">Ne peut pas être défini sur des événements </li> 
-     <li id="li_D6700CF4D03E44DDA83C4DDBB5B70CC3">Ne peut pas être défini sur des eVars de marchandisage </li> 
-     <li id="li_B6C2B15484B344889DBF29B62E2EA8FD">Ne peut pas être défini sur des classifications </li> 
-     <li id="li_3BBD0C27D9644C2B9618457A0BFC15EF">Vous devez également définir une étiquette ID-PERSON sur certaines variables de cette suite de rapports et soumettre les demandes utilisant cet ID, ou cette étiquette ne sera jamais appliquée. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+Contrairement aux autres étiquettes, les étiquettes de suppression ne sont pas mutuellement exclusives. Vous pouvez sélectionner l’une ou l’autre, les deux ou aucune. Une [!UICONTROL Aucun] n’est pas nécessaire, car [!UICONTROL Aucun] est indiqué simplement en ne cochant aucune des options de suppression.
+
+Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le sujet de données (autrement dit qui permettrait d’identifier le sujet de données). Les autres informations personnelles (favoris, historique de navigation/d’achat, conditions de santé, etc.) ne doivent pas être supprimées, car l’association avec le sujet de données sera rompue.
+
+| Étiquette | Définition | Autres exigences |
+| --- | --- | --- |
+| DEL-DEVICE | Pour les demandes de suppression relatives à la Confidentialité des données, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où l’accès présente un ID-DEVICE spécifié.  Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres instances ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Sur les appareils partagés, cela peut supprimer les identifiants d’autres personnes, au-delà du sujet des données.  Les chiffres ne changent pas si ce champ détient également une étiquette ID-DEVICE et si la valeur de ce champ a été utilisée comme ID pour la demande relative à la Confidentialité des données. | <ul><li>Nécessite également une étiquette I1, I2 ou S1</li><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li></li><li>Ne peut pas être défini sur des classifications</li><li>Vous devez soumettre les demandes utilisant une étiquette ID-DEVICE ou dont la valeur expandIDs est définie sur « true », ou cette étiquette ne sera jamais appliquée.</li></ul> |
+| DEL-PERSON | Pour les demandes de suppression relatives à la Confidentialité des données, les valeurs de ce champ ne doivent être rendues anonymes que pour les demandes où l’accès présente un ID-PERSON spécifié.  Si la même valeur apparaît dans d’autres accès qui ne sont pas supprimés, alors ces autres valeurs ne seront pas modifiées. Cela aura pour effet de modifier les chiffres pour les rapports qui calculent des chiffres uniques dans ce champ. Les chiffres ne changeront pas si ce champ détient également une étiquette ID-PERSON et si la valeur de ce champ a été utilisée comme ID pour la demande relative à la Confidentialité des données. | <ul><li>Nécessite également une étiquette I1, I2 ou S1</li><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li></li><li>Ne peut pas être défini sur des classifications</li><li>Vous devez envoyer des requêtes à l’aide d’une étiquette ID-PERSON définie sur une variable de cette suite de rapports et envoyer des requêtes à l’aide de cet ID, sans quoi cette étiquette ne s’appliquera jamais.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Étiquettes d’identité relative à la confidentialité des données
-
-<table id="table_F6BBC868457443A19A7B693BD6C55B4B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Étiquette </th> 
-   <th colname="col2" class="entry"> Définition </th> 
-   <th colname="col3" class="entry"> Autres exigences </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Aucun </p> </td> 
-   <td colname="col2"> <p>Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. </p> </td> 
-   <td colname="col3"> <p>Vous ne devez définir l’une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez lors de l’envoi de demandes d’accès ou de suppression via l’[API du Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) ou l’interface utilisateur. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-DEVICE </p> </td> 
-   <td colname="col2"> <p>Ce champ contient un ID qui peut être utilisé afin d’identifier un appareil pour une demande relative à la Confidentialité des données, mais ne peut pas distinguer les différents utilisateurs d’un appareil partagé. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_618019CB8FCA4A5C94C47636240197B2"> 
-     <li id="li_0E5ADED36FF24A348FDD434E2CC8C8EE">Nécessite également une étiquette I1 ou I2 </li> 
-     <li id="li_20BCFF07B2BF468C8E0D477C10B2EF9F">Ne peut pas être défini sur des événements </li> 
-     <li id="li_0BD73EEF4184475D8E97878CF8DBEB90">Ne peut pas être défini sur des eVars de marchandisage </li> 
-     <li id="li_129851035C4A4BF0922296B4C3BEE39B">Ne peut pas être défini sur des classifications </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>ID-PERSON </p> </td> 
-   <td colname="col2"> <p>Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande relative à la Confidentialité des données. </p> <p>Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. </p> </td> 
-   <td colname="col3"> 
-    <ul id="ul_0C7EEC8FCB5C4BCDA5D48F3C98770A67"> 
-     <li id="li_2E781AE8D7A046A7996C7300CA854B86">Nécessite également une étiquette I1 ou I2 </li> 
-     <li id="li_EB4C6430C218405DAAE81DEE010DCAA2">Ne peut pas être défini sur des événements </li> 
-     <li id="li_05AA67B45974474F9DA520E8B877BA11">Ne peut pas être défini sur des eVars de marchandisage </li> 
-     <li id="li_8A6BF4B40ED249289EAD46FE1C755FB0">Ne peut pas être défini sur des classifications </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
 | Aucun | Cette variable ne contient pas d’identifiant pouvant servir dans le cadre des demandes d’accès relatives à la Confidentialité des données. | Vous ne devez définir une de ces autres étiquettes que si ce champ contient un ID que vous utiliserez pour soumettre des demandes d’accès ou de suppression via l’[API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) ou l’interface utilisateur. |
 | ID-DEVICE | Ce champ contient un ID qui peut être utilisé afin d’identifier un appareil pour une demande relative à la Confidentialité des données, mais ne peut pas distinguer les différents utilisateurs d’un appareil partagé.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
-| ID-PERSON | Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande relative à la Confidentialité des données.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | Nécessite également une étiquette I1 ou I2.<ul><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
+| ID-PERSON | Ce champ contient un ID qui peut être utilisé pour identifier un utilisateur authentifié (une personne spécifique) pour une demande relative à la Confidentialité des données.  Vous ne devez pas spécifier cette étiquette pour toutes les variables contenant des identifiants (les étiquettes I1/I2 servent à cela). Utilisez cette étiquette si vous soumettez des demandes relatives à la Confidentialité des données qui utilisent des identifiants stockés dans cette variable et que vous voulez rechercher cette variable pour l’identifiant spécifié. | <ul><li>Nécessite également une étiquette I1 ou I2.</li><li>Ne peut pas être défini sur des événements</li><li>Ne peut pas être défini sur des eVars de marchandisage</li><li>Ne peut pas être défini sur des classifications</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
@@ -254,51 +133,16 @@ Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est 
 >
 >Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
-## Types de variables et étiquettes Confidentialité des données/DULE pris en charge {#section_CE7C3EDE1344466A98BC45E394B40762}
+## Types de variables et étiquettes Confidentialité des données/DULE pris en charge {#variable-types}
 
 L’étiquetage Confidentialité des données/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
 
-<table id="table_95D4416B3A8A40C28B2610D0003456E6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type de variable </th> 
-   <th colname="col2" class="entry"> Étiquettes prises en charge </th> 
-   <th colname="col3" class="entry"> Étiquettes non prises en charge </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_0615B545A5AD43F2A6F25698A47AAD3E"> 
-     <li id="li_A4B3E8E241B149C99F2A71B21227AD72">Succès personnalisées </li> 
-     <li id="li_8AEF688AE9B8426C82D199E4B195330D">eVars de marchandisage </li> 
-     <li id="li_DFFCA65DCC6146AEB6D47476B4D4CC3B">Variables à plusieurs valeurs (mvVars) </li> 
-     <li id="li_3192D08B12C249D1AAA8AAEEDE2FD7D7">Variables de hiérarchie </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>S1/S2 </p> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Classifications </p> </td> 
-   <td colname="col2"> <p>I1/I2, S1/S2 </p> <p>ACC-ALL, ACC-PERSON, </p> </td> 
-   <td colname="col3"> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 
-    <ul id="ul_1C2FD4D606664965A88F10818E1C11A9"> 
-     <li id="li_590975F5C7304317B22C80B20718E914">Variables de trafic (props) </li> 
-     <li id="li_6E614B7036994434BFDA71A4424529A0">Variables de commerce (eVars de non-marchandisage) </li> 
-    </ul> </td> 
-   <td colname="col2"> <p>Toutes les étiquettes </p> </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>La plupart des autres variables </p> <p><i>(Voir le tableau ci-dessous pour les exceptions)</i> </p> </td> 
-   <td colname="col2"> <p>ACC-ALL, ACC-PERSON </p> </td> 
-   <td colname="col3"> <p>I1/I2, S1/S2 </p> <p>ID-DEVICE, ID-PERSON </p> <p>DEL-DEVICE, DEL-PERSON </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Type de variable | Étiquettes prises en charge | Étiquettes non prises en charge |
+|--- |--- |--- |
+| <ul><li>Succès personnalisées</li><li>eVars de marchandisage</li><li>Variables à plusieurs valeurs (mvVars)</li><li>Variables de hiérarchie</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
+| <ul><li>Variables de trafic (props)</li><li>Variables de commerce (eVars de non-marchandisage)</li></ul> | Toutes les étiquettes | - |
+| La plupart des autres variables  (*Voir le tableau ci-dessous pour les exceptions*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 ## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
@@ -378,7 +222,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>• Variables de trafic (props) </p> <p>• Variables de commerce (eVars) </p> </td> 
+   <td colname="col1"> <p>* Variables de trafic (props) </p> <p>* Variables de commerce (eVars) </p> </td> 
    <td colname="col2"> <p>La valeur existante est remplacée par une nouvelle valeur du formulaire « Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482 », dans laquelle la valeur hexadécimale de 32 chiffres suivant le préfixe « Data Privacy » est un nombre pseudo-aléatoire de 128 octets au chiffrement fort. Puisqu’elle est remplacée par une chaîne aléatoire, la valeur d’origine ne peut pas être retrouvée à partir de cette nouvelle valeur, tout comme il n’est pas possible d’obtenir la nouvelle valeur en connaissant la valeur d’origine. </p> <p>Pour une variable donnée, si la valeur identique à la valeur remplacée apparaît dans d’autres accès qui sont également supprimés dans le cadre de la même demande relative à la Confidentialité des données, toutes les instances de cette valeur sont remplacées par la même nouvelle valeur. </p> <p>Si certaines instances d’une valeur sont remplacées par une demande de suppression et qu’une demande ultérieure supprime d’autres (nouvelles) instances de la valeur d’origine, la nouvelle valeur de remplacement sera différente de la valeur de remplacement d’origine. </p> </td> 
   </tr> 
   <tr> 
@@ -390,15 +234,15 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
    <td colname="col2"> <p>La valeur est un entier relatif de 128 octets et est remplacée par une valeur pseudo-aléatoire de 128 octets au chiffrement fort. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• MCID </p> <p>• Identifiant visiteur personnalisé </p> <p>• Adresse IP </p> <p>• Adresse IP 2 </p> </td> 
+   <td colname="col1"> <p>* MCID </p> <p>* Identifiant visiteur personnalisé </p> <p>* Adresse IP </p> <p>* Adresse IP 2 </p> </td> 
    <td colname="col2"> <p>La valeur est effacée (définie sur une chaîne vide ou 0 selon le type de variable). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Action ClickMap (héritée) </p> <p>• Contexte ClickMap (hérité) </p> <p>• Page </p> <p>• URL de la page </p> <p>• URL de la page d’accès originale </p> <p>• Référent </p> <p>• URL de la page de début de la visite </p> </td> 
+   <td colname="col1"> <p>* Action ClickMap (héritée) </p> <p>* Contexte ClickMap (hérité) </p> <p>* Page </p> <p>* URL de la page </p> <p>* URL de la page d’accès originale </p> <p>* Référent </p> <p>* URL de la page de début de la visite </p> </td> 
    <td colname="col2"> <p>Les paramètres d’URL sont effacés/supprimés. Si la valeur ne ressemble pas à une URL, elle est effacée (définie sur une chaîne vide). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Latitude </p> <p>• Longitude </p> </td> 
+   <td colname="col1"> <p>* Latitude </p> <p>* Longitude </p> </td> 
    <td colname="col2"> <p>La précision est réduite au mieux à 1 km. </p> </td> 
   </tr> 
  </tbody> 
@@ -451,7 +295,7 @@ Cette section vise à clarifier les informations concernant les variables Analyt
  </tbody> 
 </table>
 
-## Champs de date pour les demandes d’accès  {#section_6678FB4FF42B481C9B78E64F61782397}
+## Champs de date pour les demandes d’accès {#access-requests}
 
 Il existe cinq variables standard qui contiennent des horodatages :
 
