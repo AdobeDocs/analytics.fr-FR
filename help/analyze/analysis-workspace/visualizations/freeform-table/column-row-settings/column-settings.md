@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ Grâce aux [!UICONTROL paramètres de colonne], vous pouvez configurer la mise e
 
 ## Modifier les [!UICONTROL paramètres de colonne] {#edit-column-settings}
 
-Pour accéder aux [!UICONTROL Paramètres de colonne], faites glisser un tableau à structure libre vers le projet, puis cliquez sur l’icône en forme d’engrenage dans l’en-tête de la colonne.
+Vous pouvez modifier les paramètres de colonne d’une colonne spécifique ou de plusieurs colonnes simultanément.
 
-![](assets/column_settings.png)
+1. Dans Analysis Workspace, faites glisser un tableau à structure libre vers votre projet.
 
-Vous pouvez modifier les paramètres **pour plusieurs colonnes à la fois**. Sélectionnez plusieurs colonnes et cliquez sur l’icône des paramètres de n’importe laquelle de ces colonnes. Toute modification que vous apportez s’applique à toutes les colonnes comportant des cellules sélectionnées.
+1. (Conditionnel) Pour modifier plusieurs colonnes simultanément, sélectionnez chaque colonne à modifier en maintenant la touche Maj enfoncée.
+
+1. Pointez sur la colonne à modifier, puis sélectionnez l’icône d’engrenage.
+
+   Si vous avez sélectionné plusieurs colonnes, cliquez sur l’icône représentant un engrenage pour l’une des colonnes sélectionnées. Toutes les modifications que vous apportez s’appliquent à toutes les colonnes sélectionnées.
+
+   ![](assets/column_settings.png)
+
+1. Passez à la [Paramètres des colonnes](#column-settings).
+
+## Paramètres des colonnes
+
+Les paramètres de colonne suivants sont disponibles lors de la modification de colonnes dans Analysis Workspace :
 
 | Élément | Description |
 | --- | --- |
