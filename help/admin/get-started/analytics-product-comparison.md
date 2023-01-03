@@ -4,28 +4,28 @@ title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Configuration requise et comparaison des produits Analytics
 
-Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds et API Analytics 2.0.
+Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds et l’API Analytics 2.0.
 
-Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/get-started/which-analytics-tool.md).
+Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/get-started/which-analytics-tool.md).
 
 | Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=fr) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **Méthode d’accès** | [Navigateur](/help/admin/get-started/sys-reqs.md) | [Navigateur](/help/admin/get-started/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/admin/get-started/sys-reqs.md) | [Windows 64 bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=fr) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils de l’API RESTful. Connectez-vous à l’aide des informations d’identification Adobe Developer. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **Méthode d’accès** | [Navigateur](/help/admin/get-started/sys-reqs.md) | [Navigateur](/help/admin/get-started/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/admin/get-started/sys-reqs.md) | [Windows 64 bits](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=fr) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils de l’API RESTful. Connectez-vous à l’aide des informations d’identification Adobe Developer. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularité des données** | Agrégé | Agrégé | Agrégé | Agrégé | Accès | Accès | Agrégé |
 | **Experience Cloud ID (ECID) disponible** | Non | Non | Non | Oui | Oui | Oui | Non |
 | **Horodatage disponible** | Non | Non | Non | Non | Oui | Oui | Non |
 | **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinct | Traitement complet avec [rapport en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet | Traitement complet |
 | **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Oui - Rapport de robot distinct | Non | Non | Non | Non |
 | **Le faible trafic (valeurs uniques dépassées) apparaît** <br> [En savoir plus](/help/technotes/low-traffic.md) | Oui | Oui | Oui | Non | Non | Non | Oui |
-| **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50 000 |
+| **Limite des lignes visibles (avant pagination)** | 400 | 200 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
 | **Suites de rapports multiples** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui, avec des limites | Oui | Non | Oui | Non | Oui |
 | **Nombre de ventilations** | Illimitées | Jusqu’à 2 | Jusqu’à 2 | Illimitées | Illimitées | Illimitées | Illimitées, appliquées à plusieurs requêtes |
 | **Segmentation** <br> [En savoir plus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui | Oui, avec des [limites](/help/components/segmentation/seg-reference/seg-compatibility.md) | Oui | Non | Oui |
