@@ -1,10 +1,10 @@
 ---
-description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
+description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du Règlement général sur la protection des données (RGPD) pour vos titulaires de données.
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
 ht-degree: 100%
 
@@ -12,19 +12,19 @@ ht-degree: 100%
 
 # Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 
-Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du règlement général sur la protection des données (RGPD) pour vos sujets des données.
+Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du Règlement général sur la protection des données (RGPD) pour vos titulaires de données.
 
 ## Présentation d’Adobe  {#section_E582A1D77583410EBB790BB646854A2C}
 
 >[!IMPORTANT]
 >
->Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à en remplacer un. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le règlement général sur la protection des données (RGPD).
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à en remplacer un. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le Règlement général sur la protection des données (RGPD).
 
 Le 25 mai 2018, le Règlement général sur la protection des données (RGPD) de l’Union européenne est entré en vigueur. Pour plus d’informations sur la réponse d’Adobe et sur ce que cela signifie pour vous en tant que client Adobe, voir [Le RGPD et votre entreprise.](https://www.adobe.com/fr/privacy/general-data-protection-regulation.html)
 
-Lorsqu’Adobe fournit des logiciels et des services à une entreprise, elle agit en tant qu’entité de traitement des données pour toutes les données personnelles qu’elle reçoit et stocke pour le compte de nos clients, dans le cadre de la prestation de ces services. En tant qu’entité de traitement des données, Adobe traite les données personnelles conformément aux autorisations et aux instructions de votre société (par exemple, tel qu’énoncé dans votre accord avec Adobe).
+Lorsqu’Adobe fournit des logiciels et des services à une entreprise, elle agit en tant que responsable du traitement des données pour toutes les données personnelles qu’elle reçoit et stocke pour le compte de ses clients, dans le cadre de la prestation de ces services. En tant qu’entité de traitement des données, Adobe traite les données personnelles conformément aux autorisations et aux instructions de votre société (par exemple, tel qu’énoncé dans votre accord avec Adobe).
 
-En tant que contrôleur des données, vous déterminez les données personnelles qu’Adobe traite et stocke pour vous. Si vous utilisez les solutions Adobe Experience Cloud, Adobe peut héberger des données personnelles pour vous en fonction des solutions que vous utilisez et des informations que vous choisissez d’envoyer sur votre compte Adobe Experience Cloud. Pour obtenir une liste d’exemples, voir [Confidentialité Adobe Experience Cloud.](https://www.adobe.com/fr/privacy/experience-cloud.html#collect)
+En tant que contrôleuse ou contrôleur de données, vous déterminez les données personnelles qu’Adobe traite et stocke pour vous. Si vous utilisez les solutions Adobe Experience Cloud, Adobe peut héberger des données personnelles pour vous en fonction des solutions que vous utilisez et des informations que vous choisissez d’envoyer sur votre compte Adobe Experience Cloud. Pour obtenir une liste d’exemples, voir [Confidentialité Adobe Experience Cloud.](https://www.adobe.com/fr/privacy/experience-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
