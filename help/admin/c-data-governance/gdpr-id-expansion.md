@@ -4,9 +4,9 @@ title: Extension d’ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accè
 "expandIds": true
 ```
 
-Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) pour savoir comment inclure cette option à la demande. Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).
+Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) pour savoir comment inclure cette option à la demande. Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -30,7 +30,7 @@ Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Extension de l’ID de cookie </p> </td> 
-   <td colname="col2"> <p>De nombreux clients Analytics utilisaient auparavant le <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=fr">cookie Analytics</a> hérité, mais utilisent désormais le <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr">service Identity (ECID)</a>, précédemment connu sous le nom de service Marketing Cloud ID (MCID). Pour les visiteurs qui ont consulté leur site web pour la première fois après la transition, seul l’ECID existe. Cependant, pour ceux qui ont consulté le site pour la première fois alors que seul le cookie hérité était disponible, mais qui l’ont reconsulté depuis : certaines de leurs données contiennent les deux cookies, bien que les anciennes ne disposent que du cookie Analytics et que, dans de rares cas, les données récentes ne peuvent avoir qu’un ECID. </p> <p>Vous souhaitez vous assurer de trouver toutes les données d’un visiteur identifié par un cookie ou un ECID Analytics (identifiant visiteur). Par conséquent, si vous utilisez l’ECID et avez utilisé le cookie Analytics par le passé, vous devez inclure les deux ID dans chaque requête que vous soumettez à l’aide de l’un des deux ID, ou spécifier les options expandIDs. Lorsque vous spécifiez expandIDs, Adobe vérifie les autres cookies ECID ou Analytics correspondant à l’un des ID de cookies que vous fournissez. La demande est automatiquement étendue pour inclure ces ID de cookies nouvellement identifiés. </p> </td> 
+   <td colname="col2"> <p>De nombreux clients Analytics utilisaient auparavant le <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=fr">cookie Analytics</a> hérité, mais utilisent désormais le <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr">service Identity (ECID)</a>, précédemment connu sous le nom de service Marketing Cloud ID (MCID). Pour les visiteurs qui ont consulté leur site web pour la première fois après la transition, seul l’ECID existe. Cependant, pour ceux qui ont consulté le site pour la première fois alors que seul le cookie hérité était disponible, mais qui l’ont reconsulté depuis : certaines de leurs données contiennent les deux cookies, bien que les anciennes ne disposent que du cookie Analytics et que, dans de rares cas, les données récentes ne peuvent avoir qu’un ECID. </p> <p>Vous devez vous assurer de trouver toutes les données pour un visiteur identifié via un cookie ou un ECID Analytics (ID visiteur). Par conséquent, si vous utilisez l’ECID et avez utilisé le cookie Analytics par le passé, vous devez inclure les deux ID dans chaque requête que vous soumettez à l’aide de l’un des deux ID, ou spécifier les options expandIDs. Lorsque vous spécifiez expandIDs, Adobe vérifie les autres cookies ECID ou Analytics correspondant à l’un des ID de cookies que vous fournissez. La demande est automatiquement étendue pour inclure ces ID de cookies nouvellement identifiés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID personnalisé pour l’extension de l’ID de cookie </p> </td> 
@@ -60,7 +60,7 @@ En plus de sa valeur par défaut, le champ Priorité prend également en charge 
 
 >[!NOTE]
 >
->L’[API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
+>L’[API Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des demandes relatives à la Confidentialité des données pour d’autres clients Adobe. Nous vous demandons de ne pas utiliser l’API aux Services de confidentialité à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs.
 
 Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative aux Services de confidentialité ne convient pas à cet usage.
 
