@@ -4,9 +4,9 @@ title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 99%
 
 Cette page d’aide comporte des cas d’utilisation recommandés pour chaque outil Adobe Analytics. Les outils doivent être pris en considération dans l’ordre dans lequel ils sont répertoriés. Si un outil n’est pas adapté, passez au suivant qui doit être pris en compte.
 
-Pour plus d’informations sur les comparaisons de produits Adobe Analytics, voir [Comparaison des produits Analytics](/help/admin/get-started/analytics-product-comparison.md).
+Pour plus de comparaisons de produits Adobe Analytics, voir [Comparaison des produits Analytics](/help/admin/get-started/analytics-product-comparison.md).
 
 Voici une vidéo qui compare divers outils Adobe Analytics :
 
