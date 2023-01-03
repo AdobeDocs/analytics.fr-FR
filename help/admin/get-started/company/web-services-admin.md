@@ -4,9 +4,9 @@ title: Services web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Les API de services Web offrent un accès par programmation à des rapports mark
 
 Dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), vous pouvez mettre à jour les autorisations afin d’inclure les utilisateurs qui doivent accéder aux API des services web.
 
-## WSDL : téléchargez le fichier WSDL de l’API des services web pour les développeurs de services
+## WSDL : téléchargez le fichier WSDL de l’API des services web pour les développeurs de services.
 
-Visite [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), qui fournit de la documentation, des exemples de code et des forums liés aux API de services Web. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
+Reportez-vous à [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/), qui fournit de la documentation, des exemples de code et des forums relatifs aux API de services web. Pour plus d’informations, cliquez sur Aperçu des API de services Web.
 
 ## Options de filtrage
 
