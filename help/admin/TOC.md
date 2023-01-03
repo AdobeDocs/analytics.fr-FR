@@ -5,9 +5,9 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ Prise en main de l’administration d’Analytics {#admin-overview}
++ Commencer avec l’administration d’Analytics {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](get-started/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](get-started/analytics-product-comparison.md)
    + [Configuration requise](get-started/sys-reqs.md)
@@ -30,9 +30,9 @@ ht-degree: 95%
       + [Alliance de marques](get-started/company/co-branding-admin.md)
       + [Masquage des suites de rapports](get-started/company/c-hide-report-suites.md)
       + [Gestionnaire de sécurité](get-started/company/security-manager.md)
-+ Autorisations utilisateur dans la console d’administration des Adobes {#admin-console}
++ Autorisations utilisateur dans Adobe Admin Console {#admin-console}
    + [Analytics dans Adobe Admin Console](admin-console/home.md)
-   + [Guide du premier administrateur d’Adobe Analytics](admin-console/first-admin-guide.md)
+   + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Autorisations {#permissions}
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
@@ -62,14 +62,14 @@ ht-degree: 95%
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
    + Gestionnaire de suites de rapports {#manage-report-suites}
-      + [Gestion des suites de rapports](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Gérer les suites de rapports](admin/c-manage-report-suites/report-suites-admin.md)
       + [Suites de rapports globales et de cumul](admin/c-manage-report-suites/rollup-report-suite.md)
       + [Enregistrer une recherche de suite de rapports](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [Télécharger les paramètres d’une suite de rapports](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nouvelle suite de rapports {#c-new-report-suite}
          + [Créer une suite de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Création d’une suite de rapports de cumul](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [Création d’un groupe de suites de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [Créer une suite de rapports de cumul](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [Créer un groupe de suites de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Paramètres d’une nouvelle suite de rapports](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Paramètres non copiés depuis une suite de rapports source](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
       + Modèles de suite de rapports {#report-suite-templates}
@@ -82,7 +82,7 @@ ht-degree: 95%
          + [Portail d’emploi](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
          + [Génération de prospect](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Média d’assistance](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
-      + Modification des paramètres d’une suite de rapports {#edit-report-suite}
+      + Modifier les paramètres d’une suite de rapports {#edit-report-suite}
          + Général {#report-suite-general}
             + [Paramètres du compte général](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Filtres URL internes](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
@@ -119,7 +119,7 @@ ht-degree: 95%
                + [Signatures de robots courantes](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Méthodes d’exclusion de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Paramètres de confidentialité](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [Horodatages facultatifs](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [Dates et heures facultatives](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Transfert côté serveur {#server-side-forwarding}
                + [Transfert côté serveur - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
