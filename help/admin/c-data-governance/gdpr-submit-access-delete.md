@@ -4,9 +4,9 @@ title: Soumettre des demandes d’accès et de suppression
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Chaque fichier combine les données de toutes vos suites de rapports, supprimant
 
 ## Soumettre des demandes   {#submit-requests}
 
-Vous pouvez soumettre des demandes d’accès et de suppression relatives à la confidentialité des données par l’intermédiaire de notre [interface utilisateur de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html) ou de notre [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)
+Vous pouvez soumettre des demandes d’accès et de suppression relatives à la confidentialité des données par l’intermédiaire de notre [interface utilisateur de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html?lang=fr) ou de notre [API Privacy Service.](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr)
 
 >[!NOTE]
 >
