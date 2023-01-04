@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 88%
+source-wordcount: '1133'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 >[!NOTE]
 >
->À compter de la mi-janvier 2023, les indications du client seront intégrées au processus de recherche de périphériques Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-janvier. Cela permet d’éviter toute interruption potentielle des rapports pendant la période critique de la fin de l’année. Comme indiqué ci-dessous, la version du système d’exploitation sera bloquée à compter d’octobre, mais en raison d’un déploiement progressif et du fait que la plupart des agents utilisateur seront bloqués jusqu’à la version correcte du système d’exploitation, nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
+>À compter du 25 janvier 2023, les conseils aux clients seront intégrés au processus de recherche des appareils Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-janvier. Cela permet d’éviter toute interruption potentielle des rapports pendant la période critique de la fin de l’année. Comme indiqué ci-dessous, la version du système d’exploitation sera bloquée à compter d’octobre, mais en raison d’un déploiement progressif et du fait que la plupart des agents utilisateur seront bloqués jusqu’à la version correcte du système d’exploitation, nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
@@ -82,9 +82,9 @@ Les champs de périphérique disponibles pour la création de rapports ne change
 Ces champs sont directement dérivés de la chaîne Agent-utilisateur, mais celle-ci peut être utilisée pour dériver des valeurs pour d’autres champs liés au périphérique, en fonction de ses informations.
 
 * [Navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [Type de navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [Type de navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=fr)
 * [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [Types de systèmes d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [Types de systèmes d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=fr)
 * [Appareils mobiles et type d’appareils mobiles](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
@@ -149,6 +149,6 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++**Le transfert côté serveur vers AAM prendra-t-il en charge les indications du client ?**
 
-Oui. Les indications du client seront incluses dans les données transférées à AAM. Notez qu’AAM nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à AAM. Notez qu’AAM nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++
