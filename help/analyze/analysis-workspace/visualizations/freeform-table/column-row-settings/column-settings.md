@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ Vous pouvez modifier les paramètres de colonne d’une colonne spécifique ou d
 
 ## Paramètres des colonnes
 
-Les paramètres de colonne suivants sont disponibles lors de la modification de colonnes dans Analysis Workspace :
+Vous pouvez mettre à jour les paramètres de colonne suivants pour des tableaux individuels dans Analysis Workspace, comme décrit dans la section [Modifier les paramètres de colonne](#edit-uicontrol-column-settings).
+
+Certains de ces paramètres peuvent également être gérés pour tous les nouveaux projets que vous créez dans Analysis Workspace, comme décrit dans la section [Préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md)
 
 | Élément | Description |
 | --- | --- |
