@@ -3,13 +3,11 @@ description: Découvrez comment créer des dossiers et des sous-dossiers dans Wo
 keywords: Analysis Workspace
 title: Créer des dossiers
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 93%
 
 ---
 
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 Vous pouvez ajouter un nouveau dossier ou un nouveau sous-dossier à la liste des projets et dossiers de votre page de destination Workspace.
 
->[!NOTE]
->
->Cette fonctionnalité est actuellement en version Beta. Certains écrans peuvent changer.
-
-## Créer un dossier
+## Créer un dossier {#create-new-folder}
 
 Pour créer un projet :
 
@@ -29,7 +23,7 @@ Pour créer un projet :
 
 1. Saisissez un nom pour le nouveau dossier.
 
-1. Sélectionnez des balises dans le menu déroulant.
+1. Sélectionnez des balises dans le menu déroulant ou ajoutez de nouvelles balises.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
@@ -41,7 +35,7 @@ Pour créer un projet :
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-## Créer un sous-dossier
+## Créer un sous-dossier {#create-subfolder}
 
 Les sous-dossiers vous permettent de fournir des niveaux supplémentaires de gestion de projets et d’organisation.
 

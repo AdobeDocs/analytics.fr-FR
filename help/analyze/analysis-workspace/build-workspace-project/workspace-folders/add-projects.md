@@ -3,12 +3,10 @@ description: Découvrez comment ajouter des dossiers dans Workspace.
 keywords: Analysis Workspace
 title: Ajouter des dossiers dans Workspace
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -17,11 +15,7 @@ ht-degree: 100%
 
 Vous pouvez ajouter des projets à un dossier dans la vue Tableau ou depuis un dossier.
 
->[!NOTE]
->
->Cette fonctionnalité est actuellement en version Beta. Certains écrans peuvent changer.
-
-## De la vue Tableau
+## De la vue Tableau {#table-view}
 
 Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’accueil.
 
@@ -47,7 +41,7 @@ Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’ac
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## À l’intérieur d’un dossier
+## À l’intérieur d’un dossier {#inside-folder}
 
 Vous pouvez également ajouter des projets depuis un dossier à l’aide du lien qui représente des points de suspension.
 
