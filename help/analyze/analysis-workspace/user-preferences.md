@@ -4,7 +4,7 @@ description: Vous pouvez définir des préférences générales et de projet pou
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 49%
@@ -43,7 +43,7 @@ Vous pouvez personnaliser les préférences générales de tous les nouveaux pro
 | --- | --- |
 | Page de destination | Choisissez la page qui s’affiche par défaut lorsque vous accédez à Adobe Analytics : <ul><li>Liste des projets (par défaut)</li><li>Projet vierge</li><li>Projet spécifique    sélectionné dans une liste</li></ul> |
 | Afficher les conseils | Affiche les conseils dans une zone bleue dans la zone inférieure droite d’Analysis Workspace. <p>Cette option est affichée par défaut.</p> |
-| <span class="preview">Composants affichés dans les groupes du rail de gauche</span> | Sélectionnez le nombre de composants à afficher dans le menu Composants du rail de gauche. <p>Si vous choisissez 0, le composant n’est plus accessible à partir du rail gauche de vos espaces de travail.</p><p>Par défaut, 5 composants s’affichent pour chacun des éléments suivants :</p> <ul><li>Dimensions</li><li>Mesures</li><li>Filtres</li><li>Périodes</li></ul> <p>Pour plus d’informations sur les composants dans Analysis Workspace, voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| Composants affichés dans les groupes du rail de gauche | Sélectionnez le nombre de composants à afficher dans le menu Composants du rail de gauche. <p>Si vous choisissez 0, le composant n’est plus accessible à partir du rail gauche de vos espaces de travail.</p><p>Par défaut, 5 composants s’affichent pour chacun des éléments suivants :</p> <ul><li>Dimensions</li><li>Mesures</li><li>Filtres</li><li>Périodes</li></ul> <p>Pour plus d’informations sur les composants dans Analysis Workspace, voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## Préférences du projet
 
@@ -57,7 +57,7 @@ Cliquez sur les titres des préférences liées pour plus d’informations et de
 | --- | --- | --- |
 | **Afficher** |  |  |
 |  | [Afficher la densité](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) | Sélectionnez le contenu à afficher à l’écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
-|  | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | Sélectionnez la palette de couleurs de visualisation utilisée dans Analysis Workspace. <ul><li>Palettes fournies par Adobe (par défaut)</li><li><span class="preview">Palette de mise en forme conditionnelle </span></li><li><span class="preview">Palette Haut/Bas (diverge)</span><li>Palettes personnalisées</li></ul> |
+|  | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | Sélectionnez la palette de couleurs de visualisation utilisée dans Analysis Workspace. <ul><li>Palettes fournies par Adobe (par défaut)</li><li>Palette de mise en forme conditionnelle </li><li>Palette Haut/Bas (diverge)<li>Palettes personnalisées</li></ul> |
 | **Data** (Données) |  |  |
 |  | [Suite de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr#report-suite) | Choisissez l’emplacement où les tableaux et les visualisations obtiennent leurs données. <ul><li>La plus récente (par défaut)</li><li>Suite de rapports spécifique sélectionnée dans une liste</li></ul> |
 |  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr#calendar) | Effectuez une sélection dans une liste de : <ul><li>Plages fournies par Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
