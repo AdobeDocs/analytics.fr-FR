@@ -4,10 +4,10 @@ title: Affichage des anomalies dans Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 16%
+source-wordcount: '469'
+ht-degree: 15%
 
 ---
 
@@ -21,9 +21,11 @@ Vous pouvez afficher les anomalies dans un tableau à structure libre à série 
 
 1. Sélectionnez l’icône des paramètres de colonne dans l’en-tête de colonne, puis assurez-vous que la variable [!UICONTROL **Anomalies**] est sélectionnée dans la liste des options. Pour plus d’informations, voir [Paramètres des colonnes](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
 
-1. Le tableau présente les anomalies comme suit :
+1. Cliquez en dehors du menu des paramètres pour afficher le tableau mis à jour.
 
    ![](assets/anomaly_detected.png)
+
+1. Le tableau présente les anomalies comme suit :
 
    A **triangle gris foncé** s’affiche dans le coin supérieur droit de chaque ligne où une anomalie des données est détectée.
 
