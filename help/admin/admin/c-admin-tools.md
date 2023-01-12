@@ -3,49 +3,39 @@ description: Index des outils d’administration dans Adobe Analytics.
 title: Outils d’administration
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 6eadb0b23628b0db59d9cbc6f632bf9cfb3f388c
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 14%
 
 ---
 
 # Outils d’administration
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
+## Présentation des outils d’administration
+
+La zone des outils d’administration Analytics est la principale zone de gestion de votre instance Adobe Analytics. c’est là que la plupart des tâches administratives peuvent être effectuées. L’autre domaine d’administration d’Analytics, la console d’administration d’Adobe, est destiné à la configuration des utilisateurs et à la définition des autorisations.
+
+Vous trouverez ci-dessous une répartition de ces deux domaines :
+
+* **Outils d’administration Analytics**
+
+   Utilisez la zone des outils d’administration Analytics pour toutes les tâches d’administration d’Adobe Analytics (outre la configuration des utilisateurs et la gestion des autorisations). Voici quelques exemples de tâches administratives courantes : la création et la gestion des suites de rapports ; l’importation de sources de données externes ; exclure les données d’adresses IP spécifiques ; etc.
+
+   Consultez la hiérarchie du contenu sur le côté gauche de la page pour accéder à toutes les tâches administratives disponibles dans Adobe Analytics.
+
+* **Adobe Admin Console**
+
+   Utilisez cet outil pour configurer les utilisateurs et modifier les autorisations d’accès.
+
+   Pour toutes les organisations migrées vers Adobe IMS, ces tâches sont effectuées dans la console d’administration Adobe. Pour plus d’informations, voir [Guide du premier administrateur d’Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Si votre entreprise n’est pas encore migrée vers Adobe IMS, reportez-vous à la section [Migration des utilisateurs d’Analytics vers Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+
+## Accès aux outils d’administration
 
 >[!WARNING]
 >
->N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Si vous devez, par exemple, comparer des jeux de règles et les copier vers une nouvelle suite de rapports, nous suggérons que vous ouvriez un nouveau navigateur ou réalisiez une capture d’écran pour effectuer cette comparaison.
+>N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Par exemple, si vous devez comparer des ensembles de règles et les copier dans une nouvelle suite de rapports, nous vous suggérons d’ouvrir un nouveau navigateur ou de réaliser une capture d’écran pour comparer des ensembles de règles.
 
-+ [Facturation](billing-admin.md)
-+ [Règles de robots - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
-+ [Gestionnaire de code](code-manager-admin.md)
-+ [Variables de conversion (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-+ [Codes de devise](currency.md)
-+ [Descriptions des rapports personnalisés](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-+ [Personnaliser le calendrier](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-+ [Sources de données](data-sources.md)
-+ [Mesures par défaut](default-metrics.md)
-+ [Exclure par adresse IP](exclude-ip.md)
-+ [Méthodes de recherche](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
-+ [Paramètres du compte général](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-+ [Filtres URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-+ [Journaux](logs.md)
-+ [Canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
-+ [Personnalisation des menus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-+ [Visibilité des mesures](metric-visibility.md)
-+ [Gestion mobile](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-+ [Détection de référencement payant - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
-+ [Gestionnaire de préférences](preferences-manager.md)
-+ [Paramètres de confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-+ [Règles de traitement - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-+ [Rapports en temps réel - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
-+ [File d’attente des rapports planifiés](scheduled-reports-admin.md)
-+ [Transfert côté serveur - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-+ [Menu des rapports simplifié](t-simplified-menu.md)
-+ [Événements de succès - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-+ [Horodatages facultatifs](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-+ [Variable de trafic (prop) - Présentation](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-+ [Définir la variable de visiteur unique](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [Gestion des vidéos](video-management.md)
+Pour accéder aux outils d’administration :
+
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**
