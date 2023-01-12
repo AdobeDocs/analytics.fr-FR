@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8be2b622250b1da3ec765592253df2607de67a96
+source-git-commit: 2525180898d8f4cf29df891a5f228cfd82e6ffc2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 83%
+source-wordcount: '844'
+ht-degree: 76%
 
 ---
 
@@ -56,16 +56,17 @@ Certains de ces paramètres peuvent également être gérés pour tous les nouve
 
 ## Mise en forme conditionnelle {#conditional-formatting}
 
-La mise en forme conditionnelle applique la mise en forme aux limites supérieure, moyenne et inférieure que vous pouvez définir. L’application d’une mise en forme conditionnelle (couleurs, etc.) dans les tableaux à structure libre est également activée automatiquement sur les ventilations, sauf si des limites « personnalisées » sont sélectionnées.
+La mise en forme conditionnelle applique la mise en forme aux limites supérieure, moyenne et inférieure que vous pouvez définir. L’application d’une mise en forme conditionnelle (couleurs, par exemple) dans les tableaux à structure libre est également activée automatiquement sur les ventilations, sauf si des limites &quot;personnalisées&quot; sont sélectionnées.
 
 ![](assets/conditional-formatting.png)
 
 | Élément | Description |
 | --- | --- |
-| Mise en forme conditionnelle | Applique les couleurs suivantes aux cellules, selon la valeur des données : <ul><li>Vert : valeurs élevées</li><li>Jaune : valeurs moyennes</li><li>Rouge : faibles valeurs</li></ul> <br> Le remplacement d’une dimension du tableau réinitialise les limites de la mise en forme conditionnelle. Le remplacement d’une mesure recalcule les limites de cette colonne (lorsqu’une mesure se trouve sur l’axe des abscisses et une dimension sur l’axe des ordonnées). |
+| Mise en forme conditionnelle | Applique aux cellules un jeu de couleurs préconfiguré de votre choix. Selon les 4 modèles de couleurs disponibles que vous sélectionnez, différentes couleurs sont attribuées à des valeurs élevées, des valeurs moyennes et des valeurs faibles. <br> Le remplacement d’une dimension du tableau réinitialise les limites de la mise en forme conditionnelle. Le remplacement d’une mesure recalcule les limites de cette colonne (lorsqu’une mesure se trouve sur l’axe des abscisses et une dimension sur l’axe des ordonnées). |
 | Utiliser des limites en pourcentage | Modifier la plage de limites pour qu’elle soit basée sur des pourcentages plutôt que sur des valeurs absolues. Cette option fonctionne avec les mesures qui reposent uniquement sur des pourcentages (comme Taux de rebond) et celles qui reposent sur un nombre et un pourcentage (comme Pages vues). |
 | Génération automatique | Calculer automatiquement les limites hautes/moyennes/basses en fonction des données. La limite supérieure est la valeur la plus élevée de cette colonne. La limite inférieure est la valeur la plus faible et la valeur moyenne est la moyenne entre les limites supérieure et inférieure. |
 | Personnalisé | Attribuer manuellement les limites hautes/inférieures/basses. Vous disposez ainsi de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
+| Palette de mise en forme conditionnelle | Sélectionnez l’un des 4 modèles de couleurs disponibles à utiliser pour votre mise en forme conditionnelle. |
 
 ## Utilisation d’un modèle d’attribution différent du modèle par défaut {#attribution}
 
