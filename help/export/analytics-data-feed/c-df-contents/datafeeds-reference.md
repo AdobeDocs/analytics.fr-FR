@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 96%
 
 ---
@@ -234,7 +234,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`video`** | Contenu vidéo | varchar(255) |
 | **`videoad`** | Nom de la publicité vidéo | varchar(255) |
 | **`videoadinpod`** | Position de la publicité vidéo dans la capsule | varchar(255) |
-| **`videoadlength`** | Durée de la publicité vidéo | varchar(255) |
+| **`videoadlength`** | Durée de la publicité vidéo | entier |
 | **`videoadload`** | Chargements des publicités vidéo | varchar(255) |
 | **`videoadname`** | Nom de la publicité vidéo | varchar(255) |
 | **`videoadplayername`** | Nom du lecteur de publicités vidéo | varchar(255) |
@@ -254,12 +254,13 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`videoepisode`** | Épisode de la vidéo | varchar(255) |
 | **`videofeedtype`** | Type de flux vidéo | varchar(255) |
 | **`videogenre`** | Genre de la vidéo | text |
-| **`videolength`** | Durée de la vidéo | varchar(255) |
+| **`videolength`** | Durée de la vidéo | entier |
 | **`videomvpd`** | Vidéo MVPD | varchar(255) |
 | **`videoname`** | Nom de la vidéo | varchar(255) |
 | **`videonetwork`** | Réseau de la vidéo | varchar(255) |
 | **`videopath`** | Chemin de la vidéo | varchar(100) |
 | **`videoplayername`** | Nom du lecteur vidéo | varchar(255) |
+| **`videotime`** | Temps de la vidéo | entier |
 | **`videoqoebitrateaverageevar`** | Débit en bits moyen de la qualité vidéo | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Nombre de changements au niveau de la qualité vidéo | varchar(255) |
 | **`videoqoebuffercountevar`** | Nombre de tampons pour la qualité vidéo | varchar(255) |
