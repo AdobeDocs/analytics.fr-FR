@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f13e282c83b76c28cd75dfd4964fa1a51cc60229
+source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 82%
+source-wordcount: '3727'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,18 @@ Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espac
 | Icône Personnaliser le tableau | Sélectionne les colonnes à afficher dans le tableau. Pour ajouter ou supprimer des colonnes de la liste des projets, cliquez sur l’icône de colonne (![Toutes les entrées](/help/analyze/assets/select-column.png) ) en haut à droite, puis sélectionnez ou désélectionnez les titres des colonnes. |
 | AFFICHER : Dossiers et projets ou tous les projets | Modifie le paramètre d’affichage du tableau pour afficher les dossiers et les projets en fonction de l’organisation de vos dossiers. **ou** afficher tous vos projets dans une liste non organisée ; |
 | &lt; (bouton Précédent) | Vous renvoie à la configuration de page d’entrée la plus récente dans un projet Workspace ou un rapport. La configuration de page que vous aviez lorsque vous quittiez la landing page persiste à votre retour. |
+
+### Abandon de la page Gestionnaire de projets {#deprecate-pm-page}
+
+Avec la mise à jour de la nouvelle page d’entrée, nous avons abandonné le Gestionnaire de projets comme indiqué sous le Gestionnaire de composants. La nouvelle page d’entrée gère toutes les fonctionnalités de l’ancienne page Gestionnaire de projets, etc.
+
+Un cas d’utilisation courant de la page Gestionnaire de projets consiste à afficher tous vos projets. Pour afficher tous vos projets sur la nouvelle landing page à l’aide du rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Tout afficher**.
+
+![Autres filtres](assets/other-filters.png)
+
+Si vous êtes dans la vue &quot;Dossiers et projets&quot;, un modal s’affiche et vous demande si vous souhaitez passer à la vue &quot;Tous les projets&quot;, ce qui facilite l’affichage de tous vos projets en dehors des dossiers dans lesquels ils peuvent être organisés.   Sélectionner **Basculer vers la vue &quot;Tous les projets&quot;** pour mieux visualiser tous les projets auxquels vous avez accès.
+
+![Passer à tous les projets](assets/switch-all-projects-view.png)
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
