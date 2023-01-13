@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
    + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Afficher/Gérer les paramètres de gouvernance des données de la suite de rapports](c-data-governance/gdpr-view-settings.md)
+   + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](c-data-governance/gdpr-labels.md)
    + [Étiqueter les données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Envoyer des demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
-   + [Étiquettes relatives à la confidentialité des données pour les variables Analytics](c-data-governance/gdpr-labels.md)
-   + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
-   + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
+   + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](c-data-governance/gdpr-view-settings.md)
    + [Bonnes pratiques en matière d’étiquetage](c-data-governance/gdpr-analytics-ids.md)
    + [Exemple d’étiquetage](c-data-governance/gdpr-labeling-example.md)
+   + [Envoyer des demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
+   + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
+   + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
    + [Confidentialité des données et Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminologie de la confidentialité des données](c-data-governance/gdpr-terminology.md)
 + [API d’administration](c-admin-api/c-admin-api.md)

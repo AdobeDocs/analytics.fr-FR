@@ -3,16 +3,16 @@ description: Exemples de libellés relatifs à la confidentialité des données 
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
-workflow-type: ht
+source-git-commit: 4f7282f22cba344a86efca992ea273af0707cdcf
+workflow-type: tm+mt
 source-wordcount: '3685'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Étiquettes relatives à la confidentialité des données pour les variables Analytics
 
-## Pourquoi étiqueter vos données ? {#why-label}
+## Pourquoi étiqueter vos données ? {#why-label}
 
 De nombreux clients Adobe ont fait examiner les lois sur la confidentialité des données (RGPD, CCPA, etc.) par des équipes juridiques. Elles ont tiré leurs propres conclusions sur la façon dont les données doivent être traitées afin de se conformer aux lois sur la confidentialité des données. Les interprétations juridiques peuvent différer d’une entreprise à l’autre et les paramètres de traitement des données souhaités peuvent également varier selon les clients. Les clients ayant des préférences pour le traitement des données en vertu de la Confidentialité des données et des ensembles de données différents, Adobe permet à ses clients, en tant que contrôleur des données, de personnaliser les paramètres pour le traitement des données en vertu de la Confidentialité des données de leurs données uniques. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
 
@@ -22,13 +22,13 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
 
-## Étiquettes DULE  {#dule-labels}
+## Libellés DULE {#dule-labels}
 
 >[!NOTE]
 >
 >Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein de l’ensemble des Solutions/Services/Plateformes Adobe pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette version initiale, Analytics révèle uniquement les étiquettes DULE pertinentes pour la Confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
 
-## Étiquettes de données d’identification (DULE)  {#identity-data-labels}
+## Étiquettes de données d’identification (DULE) {#identity-data-labels}
 
 Les étiquettes « I » pour les données d’identification sont utilisées pour catégoriser les données qui peuvent identifier ou servir à contacter une personne spécifique.
 
@@ -89,11 +89,11 @@ Une étiquette de suppression n’est nécessaire que pour les champs contenant 
 
 {style=&quot;table-layout:auto&quot;}
 
-## Fournir un espace de noms lors de l’étiquetage d’une variable en tant qu’ID-DEVICE ou ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON {#provide-namespace}
 
 Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau.
 
-### Utiliser un espace de noms défini précédemment
+### Utilisation d’un espace de noms défini précédemment
 
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
@@ -102,7 +102,7 @@ Si vous aviez précédemment défini une étiquette d’identification pour d’
 
 ![](assets/namespace.png)
 
-### Définir un nouvel espace de noms
+### Définition d’un nouvel espace de noms
 
 Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons de limiter les chaînes d’espace de noms à des caractères alphanumériques, plus le trait de soulignement, la barre oblique et l’espace. Ceux-ci seront tous convertis en minuscules.
 
@@ -146,7 +146,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variables auxquelles des étiquettes autres que ACC-ALL/ACC-PERSON peuvent être attribuées/modifiées {#variables}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -209,7 +209,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
  </tbody> 
 </table>
 
-## Gestion des suppressions  {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestion des suppressions  {#deletion}
 
 La prise en charge par Adobe Analytics des demandes de suppression relatives à la Confidentialité des données est conçue pour minimiser l’impact sur la génération de rapports. Dans la plupart des cas, les mesures qui apparaissent dans les rapports ne devraient pas changer. Ainsi, un rapport antérieur exécuté avant la suppression relative à la Confidentialité des données restera le même une fois la suppression effectuée. En effet, les données supprimées sont complètement dissociées du sujet des données et les données non identifiables restent en place pour que les valeurs rapportées soient toujours cohérentes.
 
@@ -226,7 +226,7 @@ Le tableau suivant décrit comment différentes variables sont « supprimées 
 
 {style=&quot;table-layout:auto&quot;}
 
-## Variables qui ne prennent pas en charge les étiquettes de suppression prévues {#section_956B766EFFEC427E87E6CFF3A4217E86}
+## Variables qui ne prennent pas en charge les étiquettes de suppression prévues {#no-delete-support}
 
 Cette section vise à clarifier les informations concernant les variables Analytics ne prenant pas en charge la suppression. Parfois, ces variables sont supprimées par des utilisateurs externes à Analytics (par exemple par l’équipe juridique) qui ne connaissent pas le type de données contenu dans la variable et font des hypothèses incorrectes à partir du nom de la variable. Voici une liste de certaines de ces variables, et des raisons pour lesquelles elles ne demandent pas de suppression ou ne nécessitent pas d’étiquette spécifique de suppression.
 
