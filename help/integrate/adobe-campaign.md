@@ -3,9 +3,9 @@ description: Découvrez comment activer le compte rendu des performances Adobe C
 title: Comment intégrer le compte rendu des performances Adobe Campaign dans Adobe Analytics ?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Cette intégration entre Adobe Analytics et Adobe Campaign
 * enrichit les formules de suivi avec les paramètres d’Adobe Analytics ;
 * ajoute un nouveau rapport sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]** > **[!UICONTROL Adobe Campaign.]**
 * ajoute 5 nouvelles classifications Adobe Campaign ;
-* ajoute 10 nouvelles mesures Adobe Campaign ;
+* ajoute 9 nouvelles mesures Adobe Campaign ;
 * ajoute 6 nouvelles dimensions Adobe Campaign ;
 * synchronise les données avec Analytics toutes les 15 minutes.
 
@@ -60,7 +60,6 @@ Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de ra
 * Adobe Campaign Envoyés
 * Adobe Campaign Ouverts
 * Adobe Campaign Cliqués
-* Adobe Campaign Traités
 * Adobe Campaign Délivrés
 * Adobe Campaign Ouvertures uniques
 * Clics uniques Adobe Campaign
