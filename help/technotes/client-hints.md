@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
+source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 87%
+source-wordcount: '1174'
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,10 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 >[!NOTE]
 >
 >À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium commenceront à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
+
+>[!NOTE]
+>
+> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indices client à forte entropie. Voir [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
