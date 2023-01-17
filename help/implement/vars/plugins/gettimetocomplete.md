@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: Permet de mesurer le temps nécessaire à l’accomplissement d’une tâche.
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].
@@ -62,7 +62,8 @@ La fonction `getTimeToComplete` utilise les arguments suivants :
 
 * **`sos`** (facultatif, chaîne) : définissez sur `"start"` le moment où vous souhaitez démarrer le minuteur. Définissez sur `"stop"` le moment où vous souhaitez arrêter le minuteur. La valeur par défaut est `"start"`.
 * **`cn`** (facultatif, chaîne) : nom du cookie permettant de mémoriser l’heure de début. La valeur par défaut est `"s_gttc"`.
-* **`exp`** (facultatif, entier) : nombre de jours d’expiration du cookie (et du minuteur). La valeur par défaut est `0`, ce qui représente la fin de la session de navigateur.
+* **`exp`** (facultatif, entier) : Nombre de secondes, heures ou jours (selon le `tp` argument de répartition du temps) à l’expiration du cookie (et du minuteur). La valeur par défaut est de 30 minutes.
+* **`tp`** (facultatif, chaîne) : Chaîne de répartition du temps à laquelle arrive à expiration le cookie (et le minuteur), utilisée avec la variable `exp` argument . Définissez cette variable sur &quot;d&quot; pour les jours, &quot;h&quot; pour les heures ou &quot;s&quot; pour les secondes. Si cette valeur n’est pas définie, l’expiration du cookie (et du minuteur) est définie par défaut sur 30 minutes, quelle que soit la valeur `exp` a été défini sur .
 
 Lʼappel de cette fonction renvoie une chaîne qui contient le nombre de jours, dʼheures, de minutes et/ou de secondes écoulés entre les actions `"start"` et `"stop"`.
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## Historique des versions
