@@ -1,20 +1,23 @@
 ---
-description: Découvrez comment activer le compte rendu des performances Adobe Campaign dans Adobe Analytics
-title: Comment intégrer le compte rendu des performances Adobe Campaign dans Adobe Analytics ?
+description: Découvrez comment activer la création de rapports Adobe Campaign Standard dans Adobe Analytics
+title: Comment intégrer la création de rapports Adobe Campaign Standard dans Adobe Analytics ?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 68%
 
 ---
 
-# Rapports Adobe Campaign
+# Rapports Adobe Campaign Standard
 
 Pour plus d’informations sur la configuration de cette intégration, aller à la [documentation d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
-Cette intégration entre Adobe Analytics et Adobe Campaign
+>[!IMPORTANT]
+>Cet article s’applique à Adobe Campaign **Standard** création de rapports uniquement. Voir [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) pour ajouter Adobe Campaign **Classic** création de rapports.
+
+Cette intégration entre Adobe Analytics et Adobe Campaign Standard :
 
 * permet de partager vos données IPC (Indicateur de performance clé) provenant d’Adobe Campaign Standard avec Adobe Analytics ;
 * enrichit les formules de suivi avec les paramètres d’Adobe Analytics ;
@@ -22,11 +25,11 @@ Cette intégration entre Adobe Analytics et Adobe Campaign
 * ajoute 5 nouvelles classifications Adobe Campaign ;
 * ajoute 9 nouvelles mesures Adobe Campaign ;
 * ajoute 6 nouvelles dimensions Adobe Campaign ;
-* synchronise les données avec Analytics toutes les 15 minutes.
+* Synchronise les données avec Analytics toutes les 15 minutes par le biais d’une source de données automatiquement configurée.
 
-## Étape 1. Activer les rapports Adobe Campaign {#section_C685EF10505045708A6536BB13F6CD58}
+## Étape 1. Activation de la création de rapports Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
 
-Pour afficher les données de Campaign dans Analytics, vous devez d’abord activer les rapports Campaign.
+Pour afficher les données du Campaign Standard dans Analytics, vous devez d’abord activer la création de rapports Campaign dans le Gestionnaire de suites de rapports.
 
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Rapports Adobe Campaign]** .
 1. Cliquez sur **[!UICONTROL Activer les rapports Adobe Campaign]**.
@@ -37,9 +40,7 @@ Pour afficher les données de Campaign dans Analytics, vous devez d’abord acti
 
 L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**
 
-| Rapport | Définition |
-|--- |--- |
-| Adobe Campaign Identifiant Diffusion exécutée | Affiche les données importées depuis Adobe Campaign relatives à des e-mails envoyés depuis Adobe Campaign. |
+* **[!UICONTROL Adobe Campaign Identifiant Diffusion exécutée]**: Affiche les données importées d’Adobe Campaign relatives aux e-mails envoyés depuis Adobe Campaign. |
 
 ## Étape 3. Utiliser les classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -47,13 +48,15 @@ L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le r
 
 Une fois votre suite de rapports activée pour Adobe Campaign, les classifications suivantes sont disponibles :
 
-* Identifiant de la diffusion (nom de la diffusion interne que vous voyez dans Campaign)
-* Libellé de la diffusion (diffusion dans Campaign : diffusion individuelle/diffusion récurrente/diffusion de transactions)
-* ID de campagne (nom de la campagne interne que vous voyez dans Campaign)
-* Libellé de la campagne (campagne dans Adobe Campaign)
-* Libellé de la diffusion exécutée (liste des diffusions individuelles exécutées)
+| En-tête | Description |
+| --- | --- |
+| [!UICONTROL Identifiant de la diffusion] | Nom de la diffusion interne affiché dans Campaign |
+| [!UICONTROL Libellé de diffusion] | Diffusion dans Campaign - Diffusion individuelle/diffusion récurrente/diffusion de transactions |
+| [!UICONTROL ID de campagne] | Nom de campagne interne que vous voyez dans Campaign |
+| [!UICONTROL Libellé de la campagne] | Campaign dans Adobe Campaign |
+| [!UICONTROL Libellé de la diffusion exécutée] | Liste des diffusions individuelles exécutées |
 
-## Dimensions et mesures Adobe Campaign disponibles dans Adobe Analytics  {#section_F33385C9660644AF84172EC39601469B}
+## Dimensions et mesures Adobe Campaign Standard disponibles dans Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
 
 Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de rapports d’Adobe Analytics :
 
@@ -70,7 +73,7 @@ Les **mesures** suivantes sont disponibles depuis Campaign dans les suites de ra
 Les **dimensions** suivantes sont disponibles depuis Campaign dans les suites de rapports d’Adobe Analytics :
 
 | Nom de la dimension | Définition |
-|--- |--- |
+| --- | --- |
 | ID de campagne | ID de toutes les campagnes pour lesquelles des IPC ont été envoyés pendant la durée. |
 | Libellé de la campagne | Libellés des ID de campagne |
 | Identifiant de la diffusion | Identifiant de toutes les diffusions pour lesquelles des IPC ont été envoyés pendant la durée. Inclut également les identifiants des diffusions maîtres de la diffusion récurrente et de la diffusion des transactions. Exemple : une diffusion récurrente DM1 était planifiée et DM2, DM3, DM4 et DM5 étaient des diffusions enfants de la diffusion récurrente.  L’identifiant de la diffusion affiche les résultats pour toutes les diffusions, de DM1 à DM5. |
