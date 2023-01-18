@@ -3,8 +3,8 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -22,8 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gesti
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les périphériques. Vous pouvez configurer des indications du client au moyen des les balises ou utiliser l’indicateur « collectHighEntropyUserAgentHints ». La collecte des indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
-
+* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les périphériques. Vous pouvez configurer des indications du client via des balises ou utiliser l’indicateur « collectHighEntropyUserAgentHints ». La collecte des indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
