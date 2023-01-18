@@ -4,8 +4,8 @@ description: Utilisez la variable collectHighEntropyUserAgentHints pour détermi
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 61d5006a20f13ab5aec9e1b63f4197e9a9c98429
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 95%
 
 ---
 
