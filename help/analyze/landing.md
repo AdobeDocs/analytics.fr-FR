@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espac
 
 Avec la mise à jour de la nouvelle page d’entrée, nous avons abandonné le Gestionnaire de projets comme indiqué sous le Gestionnaire de composants. La nouvelle page d’entrée gère toutes les fonctionnalités de l’ancienne page Gestionnaire de projets, etc.
 
-Un cas d’utilisation courant de la page Gestionnaire de projets consiste à afficher tous vos projets. Pour afficher tous vos projets sur la nouvelle landing page à l’aide du rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Tout afficher**.
+Un cas d’utilisation courant de la page Gestionnaire de projets consiste à afficher tous vos projets.
 
-![Autres filtres](assets/other-filters.png)
+Pour afficher tous vos projets sur la nouvelle landing page à l’aide du rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Tout afficher**.
+
+![Afficher tous les projets](assets/show-all-fIlter.png)
 
 Si vous êtes dans la vue &quot;Dossiers et projets&quot;, un modal s’affiche et vous demande si vous souhaitez passer à la vue &quot;Tous les projets&quot;, ce qui facilite l’affichage de tous vos projets en dehors des dossiers dans lesquels ils peuvent être organisés.   Sélectionner **Basculer vers la vue &quot;Tous les projets&quot;** pour mieux visualiser tous les projets auxquels vous avez accès.
 
 ![Passer à tous les projets](assets/switch-all-projects-view.png)
+
+Un autre cas d’utilisation pour les administrateurs consiste à gérer les rapports d’entreprise afin de supprimer, renommer, baliser ou approuver les rapports. Pour plus d’informations sur la gestion des rapports, voir [Gestion des rapports de l’entreprise](#manage-company-reports).
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
@@ -188,6 +192,36 @@ Autres options de formation :
 * Nous recommandons aux nouveaux utilisateurs de regarder la vidéo [Tutoriel de formation](https://www.youtube.com/watch?v=lCH1Kl1q9Wk), qui vous guide tout au long de la création d’un projet.
 * Voici un lien vers la [documentation complète d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Voici l’intégralité de la [liste de lecture YouTube pour Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
+
+### Gestion des rapports de l’entreprise {#manage-company-reports}
+
+Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports de l’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par la variable ![icône de rapport](assets/report-icon.png) icône de rapport. Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+
+Affichage et gestion des rapports d’entreprise
+
+1. Dans le rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Rapports sur les entreprises**.
+Une liste des rapports de l&#39;entreprise s&#39;affiche. Tous les projets standard, sauf s’ils sont épinglés, ne s’affichent pas.
+
+   ![Affichage des filtres des rapports de société](assets/company-reports-filter.png)
+
+   Les rapports de l’entreprise étant affichés, les administrateurs peuvent supprimer, renommer, ajouter une balise ou approuver le rapport.
+
+1. Dans la liste des rapports, sélectionnez un seul rapport ou plusieurs rapports.
+
+1. Cliquez sur le bouton **...** Icône d’ellipse en regard d’un rapport pour afficher les options disponibles (Supprimer, Renommer, Baliser et Approuver).
+
+   ![Actions de rapport d’entreprise](assets/company-reports-actions.png)
+
+1. Sélectionnez une option (Supprimer, Renommer, Baliser et Approuver).
+
+1. Pour revenir à la vue normale une fois que vous avez terminé, désélectionnez à nouveau l’option Rapports d’entreprise dans le rail de filtrage.
+
+### Suppression d’un rapport d’entreprise
+
+Les administrateurs peuvent supprimer un rapport à l’aide de l’option Liste de rapports d’entreprise (décrite ci-dessus) ou supprimer un rapport du modal Créer un projet .
+
+![Autres filtres](assets/delete-fr-create-project-modal.png)
+
 
 ## Navigation dans l’onglet Formation {#navigate-learning}
 
