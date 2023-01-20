@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 96%
 
 ---
@@ -38,7 +38,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`browser_width`** | Largeur en pixels de la fenêtre du navigateur. | smallint sans signe |
 | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable utilisée dans la dimension [Code de suivi](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variable d’intégration Adobe Advertising Cloud. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
+| **`carrier`** | Variable d’intégration Adobe Advertising Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
 | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
 | **`channel`** | Variable utilisée dans la dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -71,7 +71,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |
 | **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour cet accès doit être ignoré, car il s’agit d’un double. | tinyint sans signe |
 | **`duplicated_from`** | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie de l’accès. Indique la suite de rapports à partir de laquelle l’accès a été copié. | varchar(40) |
-| **`ef_id`** | Le `ef_id` utilisé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
+| **`ef_id`** | Le `ef_id` utilisé dans les intégrations Adobe Advertising  | varchar(255) |
 | **`evar1 - evar250`** | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
 | **`event_list`** | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche de `event.tsv`. | text |
 | **`exclude_hit`** | Indicateur signifiant que lʼaccès est exclu de la création de rapports. La colonne `visit_num` nʼest pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
@@ -184,7 +184,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`ref_type`** | Identifiant numérique représentant le type de référence pour l’accès. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). <br>1 : à l’intérieur de votre site<br>2 : autres sites Web <br>3 : moteurs de recherche <br>4 : disque dur <br>5 : USENET <br>6 : saisi/marqué d’un signet (sans référent) <br>7 : courrier électronique <br>8 : sans JavaScript <br>9 : réseaux sociaux | tinyint sans signe |
 | **`referrer`** | URL de la page précédente. Utilisé dans la dimension [Référent](/help/components/dimensions/referrer.md). Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255) |
 | **`resolution`** | Identifiant numérique représentant la résolution du moniteur. Utilisé dans la dimension [Résolution d’écran](/help/components/dimensions/monitor-resolution.md). Utilise la table de recherche `resolution.tsv`. | smallint sans signe |
-| **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising Cloud. | varchar(255) |
+| **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising  | varchar(255) |
 | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Identifiant numérique représentant le moteur de recherche qui a référé le visiteur à votre site. Utilise la recherche de `search_engines.tsv`. | smallint sans signe |
 | **`search_page_num`** | Utilisé par la dimension [Tout le classement des pages de recherche](/help/components/dimensions/all-search-page-rank.md). Indique la page des résultats de recherche sur laquelle votre site est apparu avant que l’utilisateur n’ait cliqué sur votre site. | smallint sans signe |
