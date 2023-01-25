@@ -3,7 +3,7 @@ title: Ordre de traitement des données dans Adobe Analytics
 description: Découvrez l’ordre des composants et services qui traitent les données dans Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
