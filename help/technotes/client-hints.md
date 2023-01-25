@@ -2,7 +2,7 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
+source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 74%
@@ -21,7 +21,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 >[!NOTE]
 >
->À compter du 15 février 2023, les conseils client seront intégrés au processus de recherche de périphériques Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données d’indices, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été bloquée à partir du mois d’octobre, mais en raison d’un déploiement progressif et du fait que de nombreux agents utilisateur fournissent déjà une version figée du système d’exploitation (voir plus [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
+>À compter du 16 février 2023, les conseils client seront intégrés au processus de recherche de périphériques Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données d’indices, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été bloquée à partir du mois d’octobre, mais en raison d’un déploiement progressif et du fait que de nombreux agents utilisateur fournissent déjà une version figée du système d’exploitation (voir plus [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
