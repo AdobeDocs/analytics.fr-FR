@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: e7260f745f40dd89bd0aeb476b70b2d77813af96
+source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 85%
+source-wordcount: '1230'
+ht-degree: 74%
 
 ---
 
@@ -21,11 +21,11 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 >[!NOTE]
 >
->À compter du 25 janvier 2023, les conseils aux clients seront intégrés au processus de recherche des appareils Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-janvier. Cela permet d’éviter toute interruption potentielle des rapports pendant la période critique de la fin de l’année. Comme indiqué ci-dessous, la version du système d’exploitation sera bloquée à compter d’octobre, mais en raison d’un déploiement progressif et du fait que la plupart des agents utilisateur seront bloqués jusqu’à la version correcte du système d’exploitation, nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
+>À compter du 15 février 2023, les conseils client seront intégrés au processus de recherche de périphériques Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données d’indices, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été bloquée à partir du mois d’octobre, mais en raison d’un déploiement progressif et du fait que de nombreux agents utilisateur fournissent déjà une version figée du système d’exploitation (voir plus [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
->À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium commenceront à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
+>Depuis octobre 2022, de nouvelles versions des navigateurs Chromium ont commencé à &quot;figer&quot; la version du système d’exploitation représentée dans la chaîne User-Agent. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
 
 >[!NOTE]
 >
@@ -48,6 +48,8 @@ Cet [article de blog Google](https://web.dev/user-agent-client-hints/) est une b
 Les indications à faible entropie sont automatiquement fournies par le navigateur et ingérées pour la dérivation des informations sur le périphérique et le navigateur. Les nouvelles versions du SDK Web (à partir de 2.12.0) et de AppMeasurement (à partir de 2.23.0) peuvent être configurées pour collecter des indications à entropie élevée via leurs extensions Balises respectives ou directement via une option de configuration. Voir les instructions pour le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) et [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
+
+Pour les données envoyées via l’API, par exemple via [API d’insertion de données](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou [API Bulk Data Insertion](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), les conseils doivent être explicitement inclus dans la payload. Pour plus d’informations, consultez la documentation correspondante.
 
 +++
 
@@ -72,6 +74,8 @@ Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 | Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
 | Sec-CH-UA-Model | Modèle de périphérique | Élevé | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | &quot;10&quot; |
+
+Les indices à forte entropie sont collectés via un appel JavaScript et transmis via le paramètre de requête
 
 +++
 
