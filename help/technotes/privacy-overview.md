@@ -5,7 +5,7 @@ title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Adobe Analytics collecte les données suivantes :
 | URL de la page sur laquelle était le visiteur avant de consulter la page du client | Oui |
 | Requête de recherche lorsque le visiteur clique sur un lien sur la page du client | Oui |
 | Type de navigateur | Oui |
-| Type de périphérique | Oui |
+| Type d&#39;appareil | Oui |
 | Système d’exploitation | Oui |
 | Débit FAI/connexion | Oui |
 | Paramètres d’affichage (taille et résolution de l’écran) | Oui |
