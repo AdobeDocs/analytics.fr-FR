@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '3556'
+source-wordcount: '3549'
 ht-degree: 99%
 
 ---
@@ -178,7 +178,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 24 janvier 2020 | Mises à jour de la page [Paramètres des lignes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=fr#cja-workspace) dans Espace de travail. |
 | 16 janvier 2020 | Nouvelle documentation sur le [Créateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr). Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Espace de travail imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 | 13 janvier 2020 | Ajout de [Adobe Analytics et les cookies de navigateur](/help/technotes/cookies/cookies.md). |
-| 13 janvier 2020 | Modification de la page [Quel outil Adobe Analytics dois-je utiliser](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=fr). |
+| 13 janvier 2020 | Modification de la page [Quel outil Adobe Analytics dois-je utiliser](/help/analyze/get-started/which-analytics-tool.md). |
 
 ### 2019 {#19}
 

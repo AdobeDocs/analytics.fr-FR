@@ -4,8 +4,8 @@ description: Documentation sur les produits et aide autonome pour Analysis Works
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: ht
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 
 * [Tableaux de bord Adobe Analytics - Aperçu](/help/analyze/mobile-app/home.md)
 * [Prise en main d’Analysis Workspace](analysis-workspace/home.md)
-* [Quel outil Adobe Analytics dois-je utiliser ?](/help/admin/get-started/which-analytics-tool.md)
+* [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md)
 * [Prise en main de Report Builder](report-builder/home.md)
 * [Prise en main d’Activity Map](activity-map/activity-map.md)
 

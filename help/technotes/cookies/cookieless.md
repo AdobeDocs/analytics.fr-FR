@@ -3,10 +3,10 @@ title: Options pour atténuer l’effet des restrictions des cookies de navigate
 description: Découvrez comment atténuer l’effet des restrictions des cookies de navigateur afin d’améliorer la collecte de données pour Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Ces restrictions de navigateur reflètent une évolution plus large du suivi tie
 
 La collecte de données côté serveur offre la possibilité de fournir votre propre identifiant plutôt que de compter sur les mécanismes du navigateur pour définir les cookies.
 
-Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou de l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir « [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=fr) ».
+Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou de l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir &quot;[Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## Identifiant de périphérique propriétaire (FPID) avec SDK Web
 
