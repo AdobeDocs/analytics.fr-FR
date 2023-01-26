@@ -4,10 +4,10 @@ title: Enregistrement des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Sélectionner **Non** pour supprimer la copie enregistrée automatiquement et ou
 Pour les **nouveaux** projets qui n’ont jamais été enregistrés, les modifications non enregistrées ne sont pas récupérables.
 
 ## Ouvrir une version précédente {#previous-version}
-
->[!NOTE]
->
->Les versions précédentes du projet sont actuellement en version limitée.
 
 Pour ouvrir une version précédente d’un projet :
 
