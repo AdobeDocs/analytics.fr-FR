@@ -3,8 +3,8 @@ description: Comment envoyer des demandes d’accès et de suppression des donn�
 title: Soumettre des demandes d’accès et de suppression
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Remarquez que la section relative à l’utilisateur comporte trois blocs, repr�
 Gardez à l’esprit que :
 
 * La valeur « 5D7236525AA6D9580A495C6C@AdobeOrg » de la section « companyContexts » doit être mise à jour avec la valeur de votre organisation Experience Cloud.
-* Les champs « Type » et « Espace de noms » sont décrits plus en détail à la section [Espaces de noms](/help/admin/c-data-governance/gdpr-namespaces.md).
+* Les champs « Type » et « Espace de noms » sont décrits plus en détail à la section [Espaces de noms](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md).
 * Les champs « Description » sont ignorés.
 * Les champs « Clé » peuvent contenir la valeur de votre choix. Si vous utilisez un ID interne pour suivre les demandes relatives à la Confidentialité des données, vous pouvez saisir cette valeur ici pour faciliter la mise en correspondance des demandes du système Adobe et celles de vos propres systèmes.
 

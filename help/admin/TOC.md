@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [Alertes d’utilisation des appels au serveur](admin/c-server-call-usage/scu-alerts.md)
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
 + Gouvernance des données {#data-governance}
-   + [Adobe Analytics et le Règlement général sur la protection des données (RGPD)](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics et le CCPA](c-data-governance/an-ccpa-overview.md)
-   + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
-   + [Questions fréquentes](c-data-governance/gdpr-faq.md)
    + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](c-data-governance/gdpr-labels.md)
-   + [Étiqueter les données d’une suite de rapports](c-data-governance/gdpr-setup-reportsuite.md)
-   + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](c-data-governance/gdpr-view-settings.md)
-   + [Bonnes pratiques en matière d’étiquetage](c-data-governance/gdpr-analytics-ids.md)
-   + [Exemple d’étiquetage](c-data-governance/gdpr-labeling-example.md)
+   + [Questions fréquentes](c-data-governance/gdpr-faq.md)
+   + Étiquetage des données {#data-labels}
+      + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Étiqueter les données d’une suite de rapports](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Bonnes pratiques en matière d’étiquetage](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Exemple d’étiquetage](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Espaces de noms](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [Envoyer des demandes d’accès et de suppression](c-data-governance/gdpr-submit-access-delete.md)
-   + [Espaces de noms](c-data-governance/gdpr-namespaces.md)
    + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
-   + [Confidentialité des données et Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminologie de la confidentialité des données](c-data-governance/gdpr-terminology.md)
+   + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
