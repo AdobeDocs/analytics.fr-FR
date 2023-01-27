@@ -1,8 +1,8 @@
 ---
-source-git-commit: d42b7ef770a51f0379e358367a5b64202970fd60
+source-git-commit: 9d8471189788dbf7b86374ea3976e0e8b4b0d00b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '120'
+ht-degree: 15%
 
 ---
 # Extraits
@@ -17,10 +17,10 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cet article sont dans la phase Tests limités de la version. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
+>Les fonctionnalités décrites dans cet article se trouvent dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
 
 ## Section Tests limités de la phase de publication {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cette section sont disponibles dans la phase Tests limités de la version. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
+>Les fonctionnalités décrites dans cette section se trouvent dans la phase Tests limités de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
