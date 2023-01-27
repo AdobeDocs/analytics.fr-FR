@@ -3,10 +3,10 @@ description: Chaque ID que vous voulez pouvoir rechercher se voit attribuer un e
 title: Espaces de noms
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux s�
 
 Vous pouvez également utiliser `"namespaceId": 10` à la place ou en plus de `"namespace": "AAID"` et il est possible que d’autres produits Adobe utilisent ce formulaire.
 
-## Cookie de suivi Analytics hérité : formulaire obsolète
+## Cookie de suivi Analytics hérité : Formulaire obsolète
 
 ```
 {
@@ -52,7 +52,7 @@ Formulaire obsolète :
 
 La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux à 16 chiffres ou de deux nombres décimaux à 19 chiffres. Les nombres doivent être séparés par un tiret, un tiret bas ou un deux-points. Les zéros en début de chaîne doivent être ajoutés si l’un des nombres de contient pas assez de chiffres.
 
-## Cookie du service Identity
+## Cookie Identity Service
 
 ```
 {

@@ -3,16 +3,16 @@ description: Présente des exemples sur la manière d’étiqueter les données 
 title: Exemples dʼétiquetage
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Exemples dʼétiquetage
 
-## Exemple de données d’accès
+## Exemple de données d’accès {#hit}
 
 Supposons que vous avez les données d’accès suivantes :
 
@@ -32,7 +32,7 @@ Supposons que vous avez les données d’accès suivantes :
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## Exemple de demande d’accès
+## Exemple de demande d’accès {#access}
 
 Si je soumets une demande dʼaccès, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
 
@@ -141,7 +141,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
 
 Notez que le paramètre des expandIDs n’influence pas le résultat lorsqu’un ID de cookie est utilisé.
 
-## Exemples de demandes de suppression
+## Exemples de requêtes de suppression {#delete}
 
 Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau d’accès sera mis à jour comme suit :
 

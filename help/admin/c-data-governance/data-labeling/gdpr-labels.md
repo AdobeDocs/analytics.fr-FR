@@ -3,7 +3,7 @@ description: Exemples de libellés relatifs à la confidentialité des données 
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -54,7 +54,7 @@ Les étiquettes « S » pour les données sensibles sont utilisées pour caté
 
 Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise.
 
-### Étiquettes d’accès relatives à la confidentialité des données
+### Libellés d’accès à la confidentialité des données
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
@@ -79,7 +79,7 @@ Une étiquette de suppression n’est nécessaire que pour les champs contenant 
 
 {style=&quot;table-layout:auto&quot;}
 
-### Étiquettes d’identité relative à la confidentialité des données
+### Étiquettes Identité relative à la confidentialité des données
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est 
 >
 >Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
-## Types de variables et étiquettes Confidentialité des données/DULE pris en charge {#variable-types}
+## Les types de variables et les étiquettes Confidentialité des données/DULE pris en charge {#variable-types}
 
 L’étiquetage Confidentialité des données/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
 
@@ -209,7 +209,7 @@ L’étiquetage Confidentialité des données/DULE affecte quatre grandes caté
  </tbody> 
 </table>
 
-## Gestion des suppressions  {#deletion}
+## Gestion des suppressions {#deletion}
 
 La prise en charge par Adobe Analytics des demandes de suppression relatives à la Confidentialité des données est conçue pour minimiser l’impact sur la génération de rapports. Dans la plupart des cas, les mesures qui apparaissent dans les rapports ne devraient pas changer. Ainsi, un rapport antérieur exécuté avant la suppression relative à la Confidentialité des données restera le même une fois la suppression effectuée. En effet, les données supprimées sont complètement dissociées du sujet des données et les données non identifiables restent en place pour que les valeurs rapportées soient toujours cohérentes.
 

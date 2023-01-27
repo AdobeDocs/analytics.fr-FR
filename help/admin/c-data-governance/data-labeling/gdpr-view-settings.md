@@ -3,7 +3,7 @@ description: La boîte de dialogue Étiquette de confidentialité pour la gouver
 title: Affichage/gestion de l’étiquetage des données personnelles pour la gouvernance des données
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des don
    >
    >Vous devez toujours vérifier les suites de rapports de destination pour vous assurer que les étiquettes sont copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
 
-## Exportation dans un fichier .csv
+## Exportation dans un fichier .csv {#export-csv}
 
 Vous pouvez télécharger un fichier CSV contenant toutes les définitions d’étiquettes actuelles pour toutes les variables des suites de rapports sélectionnées. Nous recommandons à votre équipe juridique de passer en revue vos choix d’étiquetage. Cette option facilite la vérification. En effet, au lieu d’effectuer la vérification lorsque vous êtes connecté à l’interface utilisateur Gouvernance des données, vous pouvez partager le fichier .CSV avec celle-ci.
 
@@ -85,6 +85,6 @@ Vous pouvez télécharger un fichier CSV contenant toutes les définitions d’�
 
 1. Sélectionnez une ou plusieurs suites de rapports pour lesquelles vous souhaitez exporter tous les paramètres de gouvernance des données.
 
-## Modification des étiquettes de confidentialité
+## Modification des étiquettes de confidentialité {#edit}
 
 Voir [Attribuer ou modifier des étiquettes de confidentialité de suite de rapports](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

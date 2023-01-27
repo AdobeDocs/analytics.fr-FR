@@ -3,10 +3,10 @@ description: Interprétez les identifiants capturés dans vos données Analytics
 title: Bonnes pratiques en matière d’étiquetage
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '2698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
 
-## ID directement ou indirectement identifiables {#section_030799AA1397433FBA61A2BC60A7A750}
+## ID directement ou indirectement identifiables {#direct-vs-indirect}
 
 Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à tel ou tel champ/variable, vous devez d’abord comprendre les ID que vous capturez dans vos données Analytics et définir ceux qui seront utilisés pour les demandes relatives à la Confidentialité des données. La Confidentialité des données donne une dimension plus large de ce qui peut être considéré comme un ID. Les ID se divisent en deux grandes catégories : directement identifiables (étiquette d’identité : I1) et indirectement identifiables (étiquette d’identité : I2).
 
@@ -32,7 +32,7 @@ Même si votre entreprise collecte de nombreux ID différents dans vos données 
 * Certains ID peuvent correspondre à plusieurs personnes et vous ne voulez pas risquer de renvoyer des informations relatives à une personne à quelqu’un d’autre possédant le même ID. Par exemple, même si vous pouvez vérifier que le nom de la personne est John Smith, vous ne voulez peut-être pas renvoyer l’intégralité des données relatives à tous les John Smith de votre système.
 * Un autre exemple concerne un ID d’appareil, tel que l’ID de cookie Analytics. Si l’ID apparaît sur une application de téléphone portable, vous pouvez décider que toutes les interactions utilisant cet ID doivent être disponibles pour le propriétaire du téléphone portable en question. Toutefois, s’il apparaît sur un appareil partagé, tel qu’un ordinateur domestique ou un ordinateur dans une bibliothèque ou un cybercafé, vous pouvez estimer que la distinction entre les différents utilisateurs de cet appareil n’est pas possible et que le risque de renvoyer des données relatives à un autre utilisateur est trop important pour permettre l’utilisation de ce type d’ID.
 
-## Bonnes pratiques pour les ID pris en charge par Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
+## Bonnes pratiques pour les ID pris en charge par Analytics {#best-practices-an}
 
 Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors de la soumission de demandes relatives à la Confidentialité des données à Analytics. Lorsque vous connaîtrez ces informations, vous pourrez déterminer plus facilement les autres étiquettes à utiliser pour vos variables.
 
@@ -68,7 +68,7 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
  </tbody> 
 </table>
 
-## Bonnes pratiques pour définir les étiquettes de suppression {#section_08166C99B48E49218392FAC18922C10E}
+## Bonnes pratiques pour définir les étiquettes de suppression {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -88,7 +88,7 @@ Les étiquettes de suppression DEL-DEVICE et DEL-PERSON doivent être utilisées
 
    Ainsi, si vous avez trois accès contenant la valeur « foo » dans eVar7, mais que l’un d’entre eux contient également un identifiant dans une autre variable visée par une suppression, la valeur « foo » de cet accès sera alors modifiée en une valeur de type « Data Privacy-123456789 », tandis qu’il restera inchangé dans les deux autres accès. Un rapport mentionnant le nombre de valeurs uniques pour eVar7 indiquera désormais une valeur unique de plus que précédemment. Un rapport mentionnant les valeurs principales des eVars peut inclure « foo » avec seulement deux instances (au lieu de 3 précédemment) ; la nouvelle valeur apparaîtra également sous la forme d’une instance distincte.
 
-## Bonnes pratiques pour définir les étiquettes d’accès  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Bonnes pratiques relatives à la définition des étiquettes d’accès {#best-practices-access}
 
 Bien que très peu de champs comportent une des autres étiquettes, il arrive souvent que de nombreux champs disposent d’étiquettes ACC. Les étiquettes d’accès appropriées dépendront des ID que vous utilisez pour les demandes relatives à la Confidentialité des données.
 
