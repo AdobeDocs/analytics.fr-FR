@@ -3,16 +3,16 @@ description: Avec cette fonction, vous pouvez personnaliser les menus des rappor
 title: Personnalisation des menus
 feature: Admin Tools
 exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: b4b38980715021d7f785fcaeceb8ff5a87c76661
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 92%
+source-wordcount: '257'
+ht-degree: 77%
 
 ---
 
-# Personnalisation des menus
+# Personnaliser les menus
 
-Avec cette fonction, vous pouvez personnaliser les menus des rapports auxquels les utilisateurs auront accès dans les Reports &amp; Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cette fonctionnalité se révèle particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer le menu de gauche avec des données inusitées ou superflues.
+Vous pouvez personnaliser les menus de rapports visibles par l’utilisateur dans Reports &amp; Analytics. Vous pouvez afficher ou masquer des rapports, ainsi que les déplacer dans différents dossiers parmi tous les utilisateurs. Cela s’avère particulièrement utile si votre entreprise utilise uniquement certains rapports et ne souhaite pas encombrer votre menu de gauche avec des données inutilisées ou non pertinentes.
 
 Les modifications apportées au menu s’appliquent à tous les utilisateurs qui accèdent à la suite de rapports. Les utilisateurs peuvent toutefois restaurer la configuration par défaut d’un menu lors de l’utilisation de la suite de rapports.
 
