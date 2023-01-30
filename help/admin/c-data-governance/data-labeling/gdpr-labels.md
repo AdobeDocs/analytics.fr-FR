@@ -3,9 +3,9 @@ description: Exemples de libellés relatifs à la confidentialité des données 
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
 
-## Libellés DULE {#dule-labels}
-
->[!NOTE]
->
->Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein de l’ensemble des Solutions/Services/Plateformes Adobe pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données. Dans cette version initiale, Analytics révèle uniquement les étiquettes DULE pertinentes pour la Confidentialité des données. Les étiquettes DULE étant prises en charge par d’autres produits Adobe, les versions futures introduiront des étiquettes de données sensibles supplémentaires, ainsi que des étiquettes contractuelles, qui aideront à garantir que les données partagées entre les produits sont exclusivement utilisées de manière légalement admissible.
-
-## Étiquettes de données d’identification (DULE) {#identity-data-labels}
+## Étiquettes de données d’identification {#identity-data-labels}
 
 Les étiquettes « I » pour les données d’identification sont utilisées pour catégoriser les données qui peuvent identifier ou servir à contacter une personne spécifique.
 
@@ -39,7 +33,7 @@ Les étiquettes « I » pour les données d’identification sont utilisées p
 
 {style=&quot;table-layout:auto&quot;}
 
-## Étiquettes de données sensibles (DULE) {#sensitive-data-labels}
+## Étiquettes de données sensibles {#sensitive-data-labels}
 
 Les étiquettes « S » pour les données sensibles sont utilisées pour catégoriser les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles.
 
@@ -133,9 +127,9 @@ Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est 
 >
 >Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
-## Les types de variables et les étiquettes Confidentialité des données/DULE pris en charge {#variable-types}
+## Les types de variables et les étiquettes de Confidentialité des données pris en charge {#variable-types}
 
-L’étiquetage Confidentialité des données/DULE affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
+L’étiquetage relatif à la confidentialité des données affecte quatre grandes catégories de variables Analytics. Toutes les variables ne prennent pas en charge toutes les étiquettes. Ce tableau montre quelles variables prennent en charge ou non telles ou telles étiquettes.
 
 | Type de variable | Étiquettes prises en charge | Étiquettes non prises en charge |
 |--- |--- |--- |
