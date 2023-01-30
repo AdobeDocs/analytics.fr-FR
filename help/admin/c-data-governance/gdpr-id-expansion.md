@@ -3,9 +3,9 @@ description: Les ID que vous soumettez ne couvrent pas toujours toutes les donn�
 title: Extension d’ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1355'
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+workflow-type: tm+mt
+source-wordcount: '1338'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accè
 "expandIds": true
 ```
 
-Voir [Exemple de demande JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) pour savoir comment inclure cette option à la demande. Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr).
+Pour plus de détails, consultez la [documentation de l’API relative aux Services de confidentialité](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
