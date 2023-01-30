@@ -3,9 +3,9 @@ description: La boîte de dialogue Étiquette de confidentialité pour la gouver
 title: Affichage/gestion de l’étiquetage des données personnelles pour la gouvernance des données
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ Le **[!UICONTROL Étiquetage de la confidentialité pour la gouvernance des donn
 
 ## Copier des étiquettes de confidentialité dans une suite de rapports  {#copy-to-rs}
 
-Si vous souhaitez appliquer les mêmes paramètres DULE/Confidentialité des données à plusieurs suites de rapports, procédez comme suit :
+Si vous souhaitez appliquer les mêmes paramètres de Confidentialité des données à plusieurs suites de rapports, procédez comme suit :
 
 1. Sélectionnez la variable que vous souhaitez copier. Notez que vous ne pouvez copier les étiquettes que pour une variable à la fois.
 1. Cliquez sur **[!UICONTROL Copier dans une ou plusieurs suites de rapports]** au bas de la boîte de dialogue Gouvernance des données.
