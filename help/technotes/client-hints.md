@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 74%
+source-wordcount: '1248'
+ht-degree: 73%
 
 ---
 
@@ -63,7 +63,7 @@ Pas pour le moment. Vous pouvez choisir de collecter toutes les indications à e
 
 Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 
-| Indication | Description | Entropie élevée ou faible | Exemple |
+| Indication* | Description | Entropie élevée ou faible | Exemple |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | Navigateur et version significative | Faible | &quot;Google Chrome 84&quot; |
 | Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | TRUE |
@@ -75,7 +75,11 @@ Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 | Sec-CH-UA-Model | Modèle de périphérique | Élevé | &quot;Pixel 3&quot; |
 | Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | &quot;10&quot; |
 
-Les indices à forte entropie sont collectés via un appel JavaScript et transmis via un paramètre de requête
+
+* Les indices à faible entropie sont collectés via l’en-tête . Les indices à forte entropie sont collectés via JavaScript et transmis dans les paramètres de chaîne de requête.
+
+* Les indices à forte entropie sont collectés via un appel JavaScript et transmis via un paramètre de requête
+
 
 +++
 
