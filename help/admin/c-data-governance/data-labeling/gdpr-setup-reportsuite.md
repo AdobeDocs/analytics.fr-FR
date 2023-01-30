@@ -3,10 +3,10 @@ description: Étiqueter les données de la suite de rapports signifie que vous a
 title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 ## Attribuer ou modifier des étiquettes de confidentialité de suite de rapports {#assign-edit}
 
-**Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics. Pour créer un libellé pour les adresses électroniques et les ID de cookie, vous devez utiliser la structure DULE (Data Usage Labeling &amp; Enforcement) de la plateforme Adobe Experience Cloud dans Analytics.
+**Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics.
 
 1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 
@@ -48,10 +48,6 @@ ht-degree: 50%
    Cet écran affiche les libellés actuellement appliqués et vous permet d’appliquer des libellés supplémentaires. Il se peut que vous ne puissiez pas appliquer ni modifier toutes les étiquettes, selon le composant.
 
    ![Libellés appliqués](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >Le cadre DULE (Data Usage Labeling &amp; Enforcement) est conçu pour fournir un moyen uniforme au sein des Solutions/Services/Plateformes pour capturer, communiquer et utiliser les métadonnées relatives aux données dans Adobe Experience Cloud. Les métadonnées aident les contrôleurs des données à indiquer quelles données sont des informations personnelles, des données sensibles et à définir les restrictions contractuelles associées aux données.
 
 1. Cliquez sur **[!UICONTROL Appliquer]** une fois l’étiquetage terminé.
 
