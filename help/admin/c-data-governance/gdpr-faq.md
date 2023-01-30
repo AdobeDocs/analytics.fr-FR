@@ -3,10 +3,10 @@ description: FAQ sur la gouvernance des données Adobe Analytics
 title: Questions fréquentes sur la gouvernance des données
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ L’outil Gouvernance des données contient les étiquettes de données suivante
 * Étiquettes de données relatives à la Confidentialité des données : utilisées pour définir les champs pouvant contenir des identifiants personnels à utiliser dans des demandes relatives à la Confidentialité des données ou qui doivent être supprimés dans le cadre d’une demande de suppression relative de la Confidentialité des données. Dans certains cas, ces étiquettes peuvent se superposer aux étiquettes de données d’identification et de données sensibles.
 
 Pour plus d’informations sur les étiquettes de gouvernance des données, voir [Étiquettes de Confidentialité des données pour les variables Analytics](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
+
++++
+
++++ **Comment puis-je vérifier que les demandes du service de confidentialité fonctionnent correctement pour supprimer des données d’Adobe Analytics ?**
+
+En règle générale, les clients Analytics configurent certaines suites de rapports de test pour vérifier les fonctionnalités avant qu’elles ne soient publiées pour le grand public. Les sites web ou applications de pré-production enverront des données à ces suites de rapports de test/dev/QA afin d’évaluer la façon dont les choses fonctionnent quand le code est communiqué avant que le trafic réel ne soit envoyé aux suites de rapport de production.
+
+Toutefois, avec une configuration normale, le traitement des demandes en vertu du RGPD ne peut pas être testé sur ces suites de rapports de test avant d’appliquer les demandes aux suites de rapports de production. Cela s’explique par le fait qu’une demande relative à la Confidentialité des données est automatiquement appliquée à toutes les suites de rapports dans l’organisation Experience Cloud, qui correspond souvent à toutes les suites de rapports pour votre entreprise.
+
+Il existe certaines façons de tester quand même votre traitement en vertu de la Confidentialité avant de l’appliquer à toutes vos suites de rapports.
+
+* Vous pouvez par exemple configurer une organisation Experience Cloud séparée contenant uniquement les suites de rapports de test. Ensuite, utilisez cette organisation Experience Cloud pour votre test relatif à la Confidentialité des données et votre organisation Experience Cloud classique pour effectuer le véritable traitement.
+
+* Une autre option consiste à attribuer des espaces de noms différents aux ID dans vos suites de rapports de test par rapport à ceux qui figurent dans vos suites de rapports de production. Par exemple, vous pouvez ajouter le préfixe « qa- » à chaque espace de noms dans vos suites de rapports de test. Lorsque vous soumettez vos demandes relatives à la Confidentialité des données avec uniquement des espaces de noms comportant le préfixe qa, ces demandes ne sont exécutées que par rapport à vos suites de rapports de test. Ensuite, lorsque vous soumettez vos demandes sans le préfixe qa, elles seront appliquées à vos suites de rapports de production. **Il s’agit de l’approche recommandée, sauf si vous utilisez les espaces de noms visitorId, AAID, ECID ou customVisitorId. Ces espaces de noms sont codés en dur et vous ne pouvez pas spécifier d’autres noms dans vos suites de rapports de test.**
 
 +++
 
