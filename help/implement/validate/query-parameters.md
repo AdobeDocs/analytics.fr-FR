@@ -3,10 +3,10 @@ title: Paramètres de requête de la collecte de données
 description: Répertorie tous les paramètres de chaîne de requête utilisés dans les demandes d’image.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Les URL de plus de 255 octets sont fractionnées. Les 255 premiers octets apparaissent dans le paramètre `g` et tous les autres dans le paramètre `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Raccourci pour la chaîne de requête `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Raccourci pour la chaîne de requête `pageType`. |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Préfixe pour plusieurs variables qui représentent [Conseils client](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensions hiérarchiques. |
 | `hp` | Aucun | N’est plus utilisé. Dans les versions précédentes d’Adobe Analytics, déterminez si l’URL active était la page d’accueil du navigateur. |
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |

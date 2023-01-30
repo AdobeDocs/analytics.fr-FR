@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 73%
+source-wordcount: '1232'
+ht-degree: 72%
 
 ---
 
@@ -63,23 +63,20 @@ Pas pour le moment. Vous pouvez choisir de collecter toutes les indications à e
 
 Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 
-| Indication* | Description | Entropie élevée ou faible | Exemple |
+| Indication | Description | Entropie élevée ou faible | Exemple |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | Navigateur et version significative | Faible | &quot;Google Chrome 84&quot; |
-| Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | TRUE |
-| Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | &quot;Android&quot; |
-| Sec-CH-UA-Arch | Architecture du site | Élevé | &quot;arm&quot; |
-| Sec-CH-UA-Bitness | Architecture Bitness | Élevé | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | Version complète du navigateur | Élevé | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | Modèle de périphérique | Élevé | &quot;Pixel 3&quot; |
-| Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | &quot;10&quot; |
+| Sec-CH-UA | Navigateur et version significative | Faible | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | `true` |
+| Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | `"Android"` |
+| Sec-CH-UA-Arch | Architecture du site | Élevé | `"arm"` |
+| Sec-CH-UA-Bitness | Architecture Bitness | Élevé | `"64"` |
+| Sec-CH-UA-Full-Version | Version complète du navigateur | Élevé | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | Modèle de périphérique | Élevé | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | `"10"` |
 
-
-* Les indices à faible entropie sont collectés via l’en-tête . Les indices à forte entropie sont collectés via JavaScript et transmis dans les paramètres de chaîne de requête.
-
-* Les indices à forte entropie sont collectés via un appel JavaScript et transmis via un paramètre de requête
-
+* Les indices à faible entropie sont collectés via l’en-tête de la requête.
+* Les indices à forte entropie sont collectés via JavaScript et transmis par le biais de valeurs de paramètre de chaîne de requête. Les paramètres de chaîne de requête utilisent `h.` comme préfixe dans la demande d’image.
 
 +++
 
