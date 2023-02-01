@@ -3,8 +3,8 @@ title: Mettre en œuvre Adobe Analytics à l’aide d’Adobe Experience Platfor
 description: Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics
 source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 

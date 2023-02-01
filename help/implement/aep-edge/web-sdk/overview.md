@@ -3,8 +3,8 @@ title: Mettre en œuvre Adobe Analytics à l’aide du SDK Web d’Adobe Experie
 description: Utilisez l’extension SDK Web dans la collecte de données Adobe Experience Platform pour envoyer des données à Adobe Analytics.
 source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '782'
+ht-degree: 24%
 
 ---
 

@@ -4,8 +4,8 @@ description: Découvrez comment mettre en oeuvre Adobe Analytics à l’aide de 
 feature: Launch Implementation
 source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 48%
 
 ---
 
