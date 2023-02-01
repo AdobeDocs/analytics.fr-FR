@@ -3,10 +3,10 @@ description: Cette procédure décrit la configuration d’événements de succ�
 title: Configurer des événements de succès
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ Cette procédure décrit la configuration d’événements de succès.
 1. Dans la colonne **[!UICONTROL Polarité]**, indiquez si une tendance à la hausse pour cette mesure est bénéfique ou mauvais signe.
 1. Dans la colonne **[!UICONTROL Visibilité]**, vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
 
-   Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ou cet événement ; il affecte uniquement sa visibilité dans l’interface utilisateur. [Plus...](/help/admin/admin/metric-visibility.md)
+   Ce paramètre n’a aucune incidence sur la collecte de données pour cette mesure ou cet événement ; elle affecte uniquement sa visibilité dans l’interface utilisateur, comme suit :
+
+
+   | Paramètre | Visible dans | Masqué dans |
+   |---------|----------|---------|
+   | [!UICONTROL **Visible partout**] | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
+   | [!UICONTROL **Créateurs**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
+
 1. Fournissez une description.
 1. Vérifiez si l’événement doit être toujours enregistré.
 1. Activez ou désactivez les mesures de participation.
