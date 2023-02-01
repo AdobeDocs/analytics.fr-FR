@@ -3,14 +3,14 @@ title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux présentant les autorisations Adobe Analytics disponibles dans Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 96%
+source-wordcount: '1280'
+ht-degree: 95%
 
 ---
 
-# Autorisations dʼAdobe Analytics - tableaux récapitulatifs
+# Autorisations Analytics dans le Admin Console
 
 Utilisez les tableaux de synthèse suivants pour identifier les autorisations Adobe Analytics dans Adobe Admin Console, par groupes logiques.
 
@@ -32,7 +32,7 @@ Utilisez les tableaux de synthèse suivants pour identifier les autorisations Ad
 | Méthodes de recherche | x |  |  |  | Accorde l’accès à Conversion > Méthodes de recherche dans le Gestionnaire de suites de rapports. |
 | Variables de liste | x |  |  |  | Accorde l’accès à Conversion > Variables de liste dans le Gestionnaire de suites de rapports. |
 | Personnalisation des menus | x |  |  |  | Accorde l’accès à Général > Personnaliser les menus dans le Gestionnaire de suites de rapports. |
-| Recherche payante | x |  |  |  | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
+| Référencement payant | x |  |  |  | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | Règles de traitement | x |  |  |  | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
 | Configuration des rapports en temps réel | x |  |  |  | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
 | Gestion des suites de rapports | x |  |  |  | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
@@ -49,7 +49,7 @@ Utilisez les tableaux de synthèse suivants pour identifier les autorisations Ad
 | Visites retours quotidiennes |  |  | x |  | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
 | Mes rapports recommandés |  |  | x |  | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
 | Rapport en temps réel |  |  | x |  | Accorde l’accès à Mesures du site > Temps réel dans les Reports &amp; Analytics. Utilisez l’élément d’autorisation « Configuration des rapports en temps réel » pour accorder l’accès à la configuration de ce rapport. |
-| Visites retours |  |  | x |  | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
+| Visites renouvelées |  |  | x |  | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | Configuration Advertising Analytics |  |  |  | x | Inutilisé. |
 | Petit rapport récapitulatif pour la société |  |  |  | x | Inutilisé. |
 | Data Warehouse |  |  |  | x | Inutilisé. Utilisez plutôt « Rapport personnalisé de Data Warehouse ». |

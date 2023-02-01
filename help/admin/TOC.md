@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Adobe Admin Console {#admin-console}
-   + [Analytics dans Adobe Admin Console](admin-console/home.md)
+   + [Aperçu](admin-console/home.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
-   + Autorisations {#permissions}
+   + Résumé des autorisations pour les outils Analytics {#permissions}
       + [Autorisations Analytics dans Admin Console](admin-console/permissions/summary-tables.md)
       + [Profils de produit pour Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [Alliance de marques](admin/company/co-branding-admin.md)
       + [Masquage des suites de rapports](admin/company/c-hide-report-suites.md)
       + [Gestionnaire de sécurité](admin/company/security-manager.md)
-   + [Menu des rapports simplifié](admin/t-simplified-menu.md)
    + [Gestion des vidéos](admin/video-management.md)
    + Utilisation des appels au serveur {#server-call-usage}
       + [Utilisation des appels au serveur - Aperçu](admin/c-server-call-usage/overage-overview.md)
