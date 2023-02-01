@@ -2,7 +2,7 @@
 title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 40%
@@ -65,7 +65,7 @@ Le flux de décision suivant peut vous aider à sélectionner une méthode de mi
 
 >[!TIP]
 >
->Veuillez contacter Adobe pour obtenir des conseils et connaître les bonnes pratiques sur la mise en oeuvre à choisir en fonction de votre situation actuelle. >
+>Veuillez contacter Adobe pour obtenir des conseils et connaître les bonnes pratiques sur la mise en oeuvre à choisir en fonction de votre situation actuelle.
 
 ## Méthodes de mise en oeuvre des applications mobiles
 
