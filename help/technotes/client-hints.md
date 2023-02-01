@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 72%
+source-wordcount: '1245'
+ht-degree: 71%
 
 ---
 
@@ -77,6 +77,8 @@ Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 
 * Les indices à faible entropie sont collectés via l’en-tête de la requête.
 * Les indices à forte entropie sont collectés via JavaScript et transmis par le biais de valeurs de paramètre de chaîne de requête. Les paramètres de chaîne de requête utilisent `h.` comme préfixe dans la demande d’image.
+
+Les indices à forte entropie sont collectés via un appel JavaScript et transmis via un paramètre de requête
 
 +++
 

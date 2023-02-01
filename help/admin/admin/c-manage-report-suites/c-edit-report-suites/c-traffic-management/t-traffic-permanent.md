@@ -3,18 +3,20 @@ description: Les sections Trafic permanent vous permettent de modifier vos prév
 title: Indication d’une augmentation permanente du trafic
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 
 # Indication d’une augmentation permanente du trafic
 
-Les sections Trafic permanent vous permettent de modifier vos prévisions en termes de volume de trafic, de telle sorte qu’Adobe puisse réaffecter des ressources en conséquence.
+Vous pouvez modifier les niveaux de trafic prévus afin que l’Adobe puisse réaffecter des ressources afin de gérer le nouveau niveau de trafic. (Vous pouvez également [planification d’un pic de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) si vous souhaitez réaffecter temporairement des ressources.)
 
-Lisez les informations relatives à l’ [Délai d’avance requis pour les augmentations de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md) avant de spécifier une hausse permanente importante du trafic.
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## Indication d’une augmentation permanente du trafic
 
 1. Ouvrez le Gestionnaire de suite de rapports en cliquant sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.

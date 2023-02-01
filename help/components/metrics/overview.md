@@ -3,10 +3,10 @@ title: Mesures - Aperçu
 description: Consultez le nombre de données ou d’éléments de dimension au fil du temps.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit prob
 
 ## Ajout de descriptions pour les mesures
 
-Regardez cette vidéo sur la manière dʼajouter des descriptions pour les mesures (et les dimensions) dans Adobe Analytics :
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Les administrateurs d’Analytics peuvent ajouter des descriptions pour les mesures et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux mesures, voir [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

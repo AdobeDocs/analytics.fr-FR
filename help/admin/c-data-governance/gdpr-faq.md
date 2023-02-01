@@ -3,7 +3,7 @@ description: FAQ sur la gouvernance des données Adobe Analytics
 title: Questions fréquentes sur la gouvernance des données
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à
 Veuillez contacter votre gestionnaire de compte (CSM) afin qu’il vous mette en relation avec notre équipe de conseillers en architecture et ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
 
 +++
-
 
 Autres ressources relatives à la confidentialité des données :
 

@@ -4,7 +4,7 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
 ht-degree: 74%
@@ -195,7 +195,7 @@ Autres options de formation :
 
 ### Gestion des rapports de l’entreprise {#manage-company-reports}
 
-Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports de l’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par la variable ![icône de rapport](assets/report-icon.png) icône de rapport. Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports de l’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par la variable ![icône de rapport](assets/report-icon.png) icône de rapport . Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
 
 Affichage et gestion des rapports d’entreprise
 

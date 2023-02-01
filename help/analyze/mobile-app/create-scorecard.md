@@ -4,10 +4,10 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
+source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 100%
+source-wordcount: '1789'
+ht-degree: 98%
 
 ---
 
@@ -102,6 +102,16 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
+### Afficher les périodes de comparaison {#showo-comparison-dates}
+
+Pour inclure des plages de dates de comparaison, activez la fonction **Inclure des dates de comparaison** .
+
+![Ajouter la comparaison de dates](assets/include-comparison-dates.png)
+
+Le paramètre est *on* par défaut. Désélectionnez l’option si vous ne souhaitez pas afficher les dates de comparaison.
+
+![Désélectionner le paramètre de date de comparaison](assets/no-comparison-dates.png)
+
 ## Application de visualisations {#viz}
 
 Regardez cette vidéo sur les visualisations pour les cartes de performance mobiles :
@@ -174,7 +184,7 @@ Chaque dimension ajoutée à la diapositive détaillée s’affichera dans une l
 
 ## Personnaliser des diapositives détaillées {#customize-detail-slide}
 
-Les diapositives détaillées personnalisées vous permettent de cibler encore mieux les informations que vous partagez avec votre audience.
+Les diapositives détaillées personnalisées vous permettent d’être encore plus ciblé sur les informations que vous partagez avec votre audience.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 

@@ -3,10 +3,10 @@ title: Présentation des dimensions
 description: Variables contenant des valeurs de chaîne.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 63%
 
 ---
 
@@ -26,6 +26,4 @@ Chaque dimension représente une partie ou une facette différente de votre site
 
 ## Ajout de descriptions pour les dimensions
 
-Regardez cette vidéo pour découvrir comment ajouter des descriptions pour les dimensions (et les mesures) dans Adobe Analytics :
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Les administrateurs d’Analytics peuvent ajouter des descriptions pour les dimensions et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux dimensions, voir [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

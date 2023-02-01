@@ -5,16 +5,16 @@ title: Création de liens partageables
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 68%
 
 ---
 
 # Création de liens partageables
 
-Analysis Workspace offre de nombreuses méthodes pour partager un projet avec les utilisateurs, notamment la possibilité d’obtenir un lien vers un projet ou une partie spécifique d’un projet. Les utilisateurs qui reçoivent un lien doivent se connecter à Adobe Analytics avant d’accéder au projet.
+Analysis Workspace offre de nombreuses méthodes pour partager un projet avec les utilisateurs, notamment la possibilité d’obtenir un lien vers un projet ou une partie spécifique d’un projet. Pour la plupart des types de liens, les utilisateurs qui reçoivent un lien doivent se connecter à Adobe Analytics avant d’accéder au projet.
 
 ## Obtention du lien du projet {#project-link}
 
@@ -24,7 +24,7 @@ Pour partager un lien vers le projet complet, accédez à **[!UICONTROL Partager
 
 ## Obtention du lien vers le panneau ou la visualisation {#panel-link}
 
-Vous pouvez également partager un lien vers une partie spécifique d’un projet, telle qu’un panneau ou une visualisation individuelle. On parle parfois d’intra-liens. Cela peut s’avérer utile pour attirer l’attention de vos utilisateurs sur les points clés du projet.
+Vous pouvez également partager un lien vers une partie spécifique d’un projet, telle qu’un panneau ou une visualisation individuelle. On parle parfois d’intra-liens. Cela peut s’avérer utile pour attirer l’attention de vos utilisateurs sur les informations clés du projet.
 
 * Dans n’importe quel en-tête de panneau, cliquez avec le bouton droit sur **[!UICONTROL Obtenir un lien vers le panneau]**
 * Dans n’importe quel tableau ou en-tête de visualisation, cliquez avec le bouton droit sur **[!UICONTROL Obtenir un lien vers la visualisation]**
@@ -33,10 +33,18 @@ Vous pouvez également partager un lien vers une partie spécifique d’un proje
 
 ![](assets/get-viz-link.png)
 
+## Obtenir le lien public
+
+{{release-limited-testing-section}}
+
+Vous pouvez partager des projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela peut inclure des personnes en dehors de votre organisation ou de votre organisation qui ne sont pas configurées avec Adobe Analytics.
+
+Pour plus d’informations, voir [Partager un lien public avec quiconque (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
+
 ## Utilisation de liens dans une table des matières {#TOC}
 
 Pour tirer parti des différentes options de lien, il est conseillé de toujours inclure une table des matières dans la partie supérieure de votre projet Workspace. Dans la table des matières, vous pouvez créer des liens vers d’autres projets pertinents, des panneaux et des visualisations spécifiques. Cela facilite la navigation pour le destinataire du projet.
 
-[Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=fr) sur les méthodes de création d’une table des matières à l’aide de liens et de l’éditeur de texte enrichi de Workspace.
+[Regarder la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=fr) sur la création d’une table des matières à l’aide de liens et de l’éditeur de texte enrichi de Workspace.
 
 ![](assets/toc.png)
