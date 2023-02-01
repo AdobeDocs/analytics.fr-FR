@@ -2,10 +2,10 @@
 title: Mise en oeuvre d’Adobe Analytics à l’aide de l’extension Analytics
 description: Découvrez comment mettre en oeuvre Adobe Analytics à l’aide de balises et de l’extension Analytics
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 48%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -19,9 +19,54 @@ Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent u
 
 Présentation générale des tâches de mise en oeuvre :
 
+
+
 ![Adobe Analytics à l’aide du workflow d’extension Analytics](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>| Tâche | Plus d’informations | |-| —|—| | 1 | Vérifiez que vous avez **définition d’une suite de rapports**. | [Gestionnaire de suites de rapports](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **Création d’une couche de données** pour gérer le suivi des données sur votre site web. | [Création d’une couche de données](../prepare/data-layer.md) | | 3 | **Création d’une propriété de balise**. Les propriétés sont des conteneurs globaux utilisés pour référencer les données de la gestion des balises.| [Création d’une propriété de balise Adobe Analytics](../launch/create-analytics-property.md) | | 4 | **Installation de l’extension Analytics** dans la propriété tag . Configurez l’extension Analytics pour envoyer des données à Adobe Analytics. | [Présentation de l’extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **Déploiement dans un environnement de développement**. disposer d’un environnement dans lequel vous pouvez effectuer une itération sur le développement des balises ; | [Déploiement d’une mise en oeuvre Analytics dans un environnement de développement](./deploy-dev.md) | | 6 | **Validation et publication en production**. Ajoutez la propriété de balise à votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre mise en oeuvre.| [Validation de l’implémentation d’un développement et publication en production](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>Tâche</b></th><th style="width:35%"><b>Plus d’informations</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>Vérifiez que vous avez <b>définition d’une suite de rapports</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>Création d’une couche de données</b>pour gérer le suivi des données sur votre site web.</td>
+<td>
+<a href="../prepare/data-layer.md">Création d’une couche de données</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>Création d’une propriété de balise</b>. Les propriétés sont des conteneurs globaux utilisés pour référencer les données de la gestion des balises.</td>
+<td><a ref="../launch/create-analytics-property.md">Création d’une propriété de balise Adobe Analytics</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>Installation de l’extension Analytics</b> dans la propriété tag . Configurez l’extension Analytics pour envoyer des données à Adobe Analytics.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Présentation de lʼextension Adobe Analytics</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>Déploiement dans un environnement de développement</b>. disposer d’un environnement dans lequel vous pouvez effectuer une itération sur le développement des balises ;</td>
+<td><a href="./deploy-dev.md">Déploiement d’une mise en œuvre d’Analytics dans un environnement de développement</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>Validation et publication en production</b>. Ajoutez la propriété de balise à votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre mise en oeuvre.</td>
+<td><a href="./validate-publish-prod.md">Validation de la mise en œuvre d’un développement et publication en production</a></td>
+</tr>
+
+</table>
 
 ## Ressources supplémentaires
 

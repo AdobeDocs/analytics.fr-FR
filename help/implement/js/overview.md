@@ -2,7 +2,7 @@
 title: Mise en oeuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 feature: Implementation Basics
-source-git-commit: 93e16a538d6dc05c9cbf0703664aa5320f45b731
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 45%
@@ -20,7 +20,7 @@ Présentation générale des tâches de mise en oeuvre :
 <table>
 
 <tr>
-<th style="width:5%"></th><th><b>Tâche</b></th><th><b>Plus d’informations</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>Tâche</b></th><th style="width:20%"><b>Plus d’informations</b></th>
 </tr>
 
 <tr>
