@@ -5,10 +5,10 @@ title: Création de liens partageables
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Vous pouvez également partager un lien vers une partie spécifique d’un proje
 [Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=fr) sur les méthodes de création de liens et utilisez-les pour diriger les destinataires vers des parties spécifiques de votre projet.
 
 ![](assets/get-viz-link.png)
-
-## Obtenir le lien public
-
-{{release-limited-testing-section}}
-
-Vous pouvez partager des projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela peut inclure des personnes en dehors de votre organisation ou de votre organisation qui ne sont pas configurées avec Adobe Analytics.
-
-Pour plus d’informations, voir [Partager un lien public avec quiconque (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## Utilisation de liens dans une table des matières {#TOC}
 

@@ -5,31 +5,14 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 34%
+source-wordcount: '1132'
+ht-degree: 49%
 
 ---
 
 # Partage de projets
-
-Vous pouvez partager un projet Analysis Workspace avec les types de personnes suivants :
-
-* Utilisateurs et groupes de votre entreprise ayant accès à Adobe Analytics
-
-* Utilisateurs et groupes de votre entreprise qui n’ont pas accès à Adobe Analytics
-
-* Personnes en dehors de votre organisation
-
-Quelconque [traitement](curate.md) votre demande avant le partage est prise en compte lorsque les destinataires ouvrent le projet.
-
-Regardez cet aperçu vidéo sur le partage de projet :
-
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
-
-
-## Partager avec les utilisateurs et les groupes Adobe Analytics de votre entreprise {#Add}
 
 Vous pouvez partager un projet avec des utilisateurs ou des groupes Adobe Analytics existants de votre entreprise. Lorsque vous partagez un projet comme décrit dans cette section, les utilisateurs avec lesquels vous partagez un projet doivent déjà disposer d’un compte Adobe Analytics.
 
@@ -39,7 +22,7 @@ Vous pouvez partager un rôle spécifique avec des utilisateurs ou des groupes, 
 
 * [Partage d’un lien vers un projet](#share-a-link-to-a-project)
 
-### Partage d’un rôle de projet spécifique
+## Partage d’un rôle de projet spécifique
 
 Lorsque vous partagez un rôle de projet spécifique avec des utilisateurs et des groupes de votre entreprise, tenez compte des points suivants :
 
@@ -77,7 +60,7 @@ En cas de modifications non enregistrées, vous êtes d’abord invité à enreg
 1. Cliquez sur **[!UICONTROL Partager]**.
 Vous pouvez également cliquer sur **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. Si un projet a déjà été partagé, ces boutons indiqueront **[!UICONTROL Mettre à jour]** et **[!UICONTROL Traiter et mettre à jour]**. En savoir plus sur le [traitement des projets](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
 
-### Partage d’un lien vers un projet
+## Partage d’un lien vers un projet
 
 Lorsque vous partagez un lien comme décrit dans cette section, tenez compte des points suivants :
 
@@ -95,59 +78,6 @@ En cas de modifications non enregistrées, vous êtes d’abord invité à enreg
 1. Cliquez sur **[!UICONTROL Copier le lien]** en regard de **[!UICONTROL Champ de partage d’URL]**.
 
 1. Partagez le lien avec les utilisateurs de votre entreprise. Vous pouvez par exemple le coller dans un email, sur un site web interne, etc.
-
-## Partager un lien public avec quiconque (aucune connexion requise) {#share-public-link}
-
-{{release-limited-testing-section}}
-
-Vous pouvez partager des projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela peut inclure :
-
-* Personnes en dehors de votre organisation
-
-* Personnes de votre entreprise qui ne sont pas configurées avec Adobe Analytics
-
->[!NOTE]
->
->Cette option peut être désactivée par l’administrateur Analytics, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Si vous ne pouvez pas partager un lien public comme décrit dans cette section, votre administrateur Analytics a désactivé cette fonctionnalité.
-
-Pour partager un lien public vers un projet Analysis Workspace :
-
-1. Ouvrez le projet Analysis Workspace que vous souhaitez partager.
-
-1. Cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Partager le lien public]**.
-
-   En cas de modifications non enregistrées, vous êtes invité à enregistrer votre projet.
-
-   <!-- Add screen shot of new modal -->
-
-1. Activez la variable **[!UICONTROL Principal du lien]** s’il n’est pas déjà activé.
-
-1. Choisissez d’activer ou non les options de sécurité suivantes (ces options peuvent être contrôlées par votre administrateur Analytics) :
-
-   * **[!UICONTROL Authentification SSO requise pour l’authentification unique]:**
-
-      Exiger que les personnes disposant du lien s’authentifient via SSO avant d’accéder au projet partagé. Sélectionnez cette option si vous souhaitez que le projet soit accessible uniquement aux utilisateurs de votre entreprise.
-
-      Les administrateurs d’Analytics peuvent définir cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la configuration de cette option par l’administrateur, vous pouvez rencontrer les scénarios suivants :
-
-      * Si cette option n’est pas visible, l’authentification unique n’est pas activée pour votre organisation ou votre administrateur Analytics n’a pas activé cette fonctionnalité.
-
-      * Si cette option est activée et grisée, votre administrateur Analytics nécessite une authentification SSO pour accéder à tous les liens publics.
-   * **[!UICONTROL Mot de passe requis]:** Exiger que les personnes disposant du lien spécifient un mot de passe avant d’accéder au projet Analysis Workspace. Vous bénéficiez ainsi d’un niveau de sécurité supplémentaire pour votre projet.
-
-      Si vous sélectionnez cette option, indiquez un mot de passe. N’oubliez pas de partager ce mot de passe avec le lien du projet lorsque vous le partagez avec d’autres personnes. <!--go through this workflow and see how it works.-->
-
-      Si cette option est activée et grisée, votre administrateur Analytics nécessite que tous les liens publics soient protégés par mot de passe. Les administrateurs d’Analytics peuvent définir cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md).
-
-
-1. En regard de **[!UICONTROL Partager avec quiconque (aucune connexion requise)]** , cliquez sur le champ **Copier le lien** pour copier le lien dans le Presse-papiers du système.
-
-1. Partagez le lien avec les personnes qui doivent avoir accès au projet. Vous pouvez par exemple coller le lien dans un email.
-
-   Toute personne avec laquelle vous partagez le lien peut afficher le projet Analysis Workspace. Si vous choisissez d’exiger un mot de passe, vous devez également le partager avec toute personne souhaitant accéder au lien.
-
-1. Sélectionner **[!UICONTROL Fermer]** pour fermer la boîte de dialogue de partage. Vos modifications sont automatiquement enregistrées. <!-- True? -->
-
 
 ## Partage de projets dans le gestionnaire de projets {#Manager}
 
