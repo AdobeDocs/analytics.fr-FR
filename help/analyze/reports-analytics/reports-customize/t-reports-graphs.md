@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Cette section décrit la procédure à suivre pour personnaliser un graphique afin qu’il convienne mieux à l’audience visée.
+Vous pouvez personnaliser le graphique afin qu’il soit le plus utile pour l’audience prévue.
 
 Le type de graphiques disponible dépend du type de rapport exécuté. Par exemple, les graphiques linéaires de tendances sont utiles aux rapports de tendances, mais vous pouvez également utiliser un graphique en barres verticales avec lignes de tendances pour illustrer clairement les tendances au fil des jours, semaines, mois et ainsi de suite. Vous pouvez également choisir un graphique circulaire pour illustrer les pourcentages des pages consultées.
 
-**Pour modifier un graphique de rapport**
+Pour modifier un graphique de rapport:
 
 1. Exécutez un rapport.
 1. Cliquez sur **[!UICONTROL Configuration d’un graphique]**.

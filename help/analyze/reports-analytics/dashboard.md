@@ -5,10 +5,10 @@ title: Tableaux de bord et petits rapports
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ Voir [Gestion des tableaux de bord](/help/analyze/reports-analytics/dashboard-ma
 
 ## Créer un tableau de bord {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-Cette section décrit la procédure à suivre pour créer un tableau de bord.
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous devez définir la mise en page de ce dernier.
+
+Pour créer un tableau de bord:
 
 1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Gérer les tableaux de bord]**.
 1. Cliquez sur **[!UICONTROL Ajouter tableau de bord]**.
@@ -96,13 +97,15 @@ Avant d’ajouter un rapport (comme mini-rapport) à un tableau de bord, vous de
 
 ## Créer un petit rapport {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-Cette section décrit la procédure à suivre pour créer un mini-rapport. Une fois que vous avez créé un mini-rapport, vous pouvez l’afficher dans un tableau de bord.
+Une fois que vous avez créé un petit rapport, il peut être affiché dans un tableau de bord.
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+Pour créer un petit rapport:
 
 1. Exécutez un rapport.
 1. Cliquez sur **[!UICONTROL Tableau de bord]**.
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## Ajouter du contenu à un tableau de bord {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-Étapes décrivant comment ajouter du contenu depuis d’autres tableaux de bord et des tableaux de bord partagés. Vous pouvez également ajouter le contenu de sources personnalisées et externes (texte et images, par exemple).
+Vous pouvez ajouter du contenu à partir d’autres tableaux de bord et de tableaux de bord partagés. Vous pouvez également ajouter le contenu de sources personnalisées et externes (texte et images, par exemple).
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+Pour ajouter du contenu à un tableau de bord:
 
 1. Ouvrez un tableau de bord, puis cliquez sur **[!UICONTROL Mise en page]**.
 1. Cliquez sur **[!UICONTROL Ajouter du contenu]**, puis faites glisser les éléments sur le tableau de bord.
@@ -209,7 +214,7 @@ t_dashboard_edit.xml
 
 ## Associer des marques sur un tableau de bord {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-Cette section décrit la procédure à suivre pour télécharger une image afin de l’afficher dans un tableau de bord.
+Pour charger une image à afficher dans un tableau de bord :
 
 <!-- 
 

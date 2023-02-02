@@ -4,10 +4,10 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 99%
+source-wordcount: '782'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou
 
 ## Connexion avec Experience Cloud
 
-Procédure décrivant comment se connecter avec Adobe Experience Cloud.
+Pour vous connecter via Adobe Experience Cloud :
 
 1. Ouvrez un navigateur sur un ordinateur connecté à Internet.
 1. Accédez à [!DNL https://login.experiencecloud.adobe.com/].
@@ -62,7 +62,7 @@ Procédure décrivant comment se connecter avec Adobe Experience Cloud.
 
 ## Exécution d’un rapport
 
-Cette section décrit la procédure à suivre pour générer un rapport.
+Pour générer un rapport , procédez comme suit :
 
 1. Ouvrez une session dans [!UICONTROL Reports &amp; Analytics].
 
@@ -93,7 +93,9 @@ Tous les utilisateurs ont accès à la page [!UICONTROL Informations du compte].
 
 ## Modification de la langue de l’interface
 
-Cette section décrit la procédure à suivre pour modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
+Vous pouvez modifier la langue de l’interface. Vous pouvez afficher l’interface de Reports &amp; Analytics dans la langue de votre choix.
+
+Pour modifier la langue d’interface, procédez comme suit :
 
 1. Connectez-vous à Analytics, puis sélectionnez l’onglet **[!UICONTROL Rapports]**.
 1. Dans le pied de page, cliquez sur la langue active dans le menu **[!UICONTROL Langue]**, puis sélectionnez votre langue préférée.

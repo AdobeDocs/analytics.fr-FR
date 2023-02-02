@@ -5,9 +5,9 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 86%
 
 ---
@@ -39,7 +39,7 @@ Vous trouverez ci-dessous une description des champs et des options de la page [
 
 ## Ajouter un [!UICONTROL Cible] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-Cette section décrit la procédure à suivre pour ajouter une cible.
+Pour ajouter une cible:
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Cibles]**.
 1. Sur le [!UICONTROL Gestion des cibles] page, cliquez sur **[!UICONTROL Ajouter nouveau...]**.

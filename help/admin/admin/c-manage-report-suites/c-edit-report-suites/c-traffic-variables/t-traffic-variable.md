@@ -3,16 +3,16 @@ description: Description de la procédure d’ajout et d’activation de rapport
 title: Activer les rapports de variables de trafic
 feature: Admin Tools
 exl-id: 6c28c1ed-76ec-4df8-a583-3b7ac923569a
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: ht
-source-wordcount: '58'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 87%
 
 ---
 
 # Activer les rapports de variables de trafic
 
-Description de la procédure d’ajout et d’activation de rapports de variables de trafic.
+Pour ajouter et activer des rapports de variables de trafic :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.

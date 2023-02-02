@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Le filtre Avancé permet de réaliser des recherches avec des caractères géné
 
 ## Créer des filtres spécifiques aux rapports {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-Cette section décrit la procédure à suivre pour créer des filtres pour les rapports.
+Vous pouvez créer des filtres pour les rapports.
 
 <!-- 
 
@@ -153,7 +153,7 @@ Certains rapports contiennent un filtre qui leur est spécifique. Le rapport [!U
 
 Lorsque vous accédez à ces filtres, vous pouvez afficher les mesures des éléments spécifiés dans la liste.
 
-**Pour créer des filtres spécifiques aux rapports**
+Pour créer des filtres spécifiques aux rapports:
 
 1. Générez un rapport, tel un [!UICONTROL rapport d’achats] (**[!UICONTROL Mesures du site]** > **[!UICONTROL Achats]** > **[!UICONTROL Entonnoir de conversion d’achat]**).
 1. Dans l’en-tête du rapport, cliquez sur le lien **[!UICONTROL Filtre]**.
@@ -162,8 +162,6 @@ Lorsque vous accédez à ces filtres, vous pouvez afficher les mesures des élé
 1. Cliquez sur **[!UICONTROL OK]**.
 
 ## Ajouter un filtre de corrélation {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-Cette section décrit la procédure à suivre pour ajouter un filtre de corrélation.
 
 <!-- 
 
@@ -175,7 +173,7 @@ Certains rapports vous permettent de leur ajouter des filtres de corrélation pe
 
 Vous pouvez filtrer les données illustrées dans le rapport de corrélation avec toutes les corrélations disponibles. L’exemple ici illustre l’ajout d’un filtre de corrélation pour moteur de recherche.
 
-**Pour ajouter un filtre de corrélation**
+Pour ajouter un filtre de corrélation:
 
 1. Exécutez un rapport qui prend en charge les corrélations. (Voir [Exécution d’un rapport de ventilation](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. Dans l’en-tête du rapport, cliquez sur le lien **[!UICONTROL Filtre de corrélation]**.

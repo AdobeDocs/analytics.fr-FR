@@ -3,18 +3,20 @@ description: Cette procédure explique comment désigner l’eVar qui contient v
 title: Définir la variable de visiteur unique
 feature: Admin Tools
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 82%
 
 ---
 
 # Définir la variable de visiteur unique
 
-Cette procédure explique comment désigner l’eVar qui contient votre identifiant de visiteur.
+Vous pouvez désigner l’eVar qui contient votre identifiant visiteur.
 
 Cette variable désigne une eVar qui contiendra votre identifiant de visiteur unique. Cette variable vous permet de générer un rapport sur l’activité d’un client à l’aide de votre propre identifiant unique.
+
+Pour désigner l’eVar qui contient votre identifiant visiteur :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.

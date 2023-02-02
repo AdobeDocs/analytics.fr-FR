@@ -4,10 +4,10 @@ description: Le concept d’attribution du crédit d’un événement de succès
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 87%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 Attribution permet aux analystes de personnaliser la manière dont les éléments de dimension obtiennent du crédit pour les événements de succès. Par exemple :
 
-1. Un visiteur sur votre site clique sur un lien de référencement payant vers l’une de vos pages de produits. Il ajoute le produit au panier, mais ne l’achète pas.
-2. Le lendemain, il voit une publication d’un ami sur les médias sociaux, il clique sur le lien, puis effectue l’achat.
+1. Un visiteur sur votre site clique sur un lien de référencement payant vers l’une de vos pages de produits. Ils ajoutent le produit au panier, mais ne l’achètent pas.
+2. Le lendemain, ils voient une publication de l’un de leurs amis sur les réseaux sociaux, cliquent sur le lien, puis effectuent l’achat.
 
 Dans certains rapports, vous voudrez peut-être attribuer la commande au référencement payant. Dans d’autres rapports, vous voudrez peut-être attribuer la commande à Social. Attribution vous permet de contrôler cet aspect des rapports. Toutes les entreprises disposant d’Adobe Analytics Ultimate, Prime, Select ou Foundation peuvent en bénéficier. Si vous vous demandez quel type de contrat vous avez conclu avec Adobe, contactez le gestionnaire de compte de votre entreprise.
 

@@ -5,16 +5,16 @@ uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 92%
+source-wordcount: '110'
+ht-degree: 88%
 
 ---
 
 # Configuration d’une requête en temps réel
 
-Étapes qui décrivent comment configurer les dates de requête en temps réel.
+Pour configurer les dates de requête en temps réel :
 
 1. Assurez-vous que la création de rapports en temps réel est activée dans les [outils d’administration](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html) dans les rapports et analyses marketing.
 1. Dans l’[!UICONTROL Assistant Requête : Étape 1], cliquez sur **[!UICONTROL Rapport en temps réel]** > **[!UICONTROL `<report type>`]**

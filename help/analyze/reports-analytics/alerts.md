@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 96%
+source-wordcount: '841'
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Pour en savoir plus, consultez la documentation d’Analysis Workspace à propo
 
 ## Ajout d’une alerte {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-Cette procédure décrit comment ajouter une alerte dans Adobe Analytics.
+Vous pouvez ajouter une alerte dans Adobe Analytics à partir du Générateur d’alertes ou d’un rapport spécifique.
 
 <!-- 
 
@@ -40,7 +40,11 @@ t_add_an_alert.xml
 
  -->
 
-Accédez au nouveau Générateur d’alertes dans le menu **[!UICONTROL Analytics]** > **[!UICONTROL Composants]**. Vous pouvez aussi y accéder depuis des rapports dans Reports &amp; Analytics :
+### Ajout d’une alerte à partir du Générateur d’alertes
+
+1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** pour ouvrir le Générateur d’alertes.
+
+### Ajout d’une alerte à partir d’un rapport spécifique
 
 1. Dans Reports &amp; Analytics, ouvrez le rapport dans lequel définir une alerte.
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
@@ -48,7 +52,7 @@ Accédez au nouveau Générateur d’alertes dans le menu **[!UICONTROL Analytic
 
 ## Affichage ou modification des alertes existantes {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-Contexte de la tâche
+<!-- add Task Context-->
 
 1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**. Le nouveau [Gestionnaire d’alertes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html) s’ouvre.
 

@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 92%
+source-wordcount: '1761'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ En outre, un certain nombre de facteurs peut contribuer à augmenter le retard a
 
 ## Envoi d’un rapport {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-Cette section décrit la procédure à suivre pour télécharger des rapports et les envoyer par courrier électronique dans divers formats et pour planifier la remise d’un rapport.
+Pour télécharger et envoyer par e-mail des rapports dans divers formats et planifier la remise d’un rapport :
 
 1. Exécutez un rapport, puis cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
 1. Définissez les options de remise :
@@ -78,7 +78,7 @@ Cette section décrit la procédure à suivre pour télécharger des rapports et
 
 ## Impression d’un rapport {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
-Cette section décrit la procédure à suivre pour imprimer un rapport.
+Pour imprimer un rapport:
 
 1. Exécutez un rapport.
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Imprimer]**.  ![](assets/print.png)
@@ -115,11 +115,11 @@ Le [!UICONTROL Gestionnaire de planification des rapports] affiche les élément
 
 ## Partage d’un lien vers un rapport {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Cette section décrit la procédure à suivre pour partager un rapport en générant un lien (URL) vers ce rapport en vue de l’envoyer à un autre utilisateur.
+Vous pouvez partager un rapport en générant un lien vers ce rapport (URL) à envoyer à un autre utilisateur.
 
 Lorsque le destinataire clique sur le lien, le système demande les informations de connexion (nom de l’entreprise, nom d’utilisateur et mot de passe). Après identification, le destinataire voit s’afficher le rapport généré par l’utilisateur initial. Des restrictions d’autorisation standard s’appliquent.
 
-Pour partager un lien vers un rapport,
+Pour partager un lien vers un rapport:
 
 1. Exécutez un rapport.
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Lien vers ce rapport]**.

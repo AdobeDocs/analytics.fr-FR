@@ -4,16 +4,16 @@ subtopic: Processing rules
 title: Copier des règles de traitement dans une autre suite de rapports
 feature: Processing Rules
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 83%
 
 ---
 
 # Copier des règles de traitement dans une autre suite de rapports
 
-Étapes décrivant comment copier des règles de traitement depuis une suite de rapports et remplacer ou ajouter ces règles à une autre suite de rapports.
+Pour copier des règles de traitement d’une suite de rapports et remplacer ou ajouter ces règles à une autre suite de rapports :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.

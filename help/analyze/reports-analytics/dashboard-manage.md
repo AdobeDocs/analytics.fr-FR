@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICON
 
 ## Gestion des tableaux de bord partagés
 
-Étapes décrivant comment utiliser les options de gestion du tableau de bord partagé.
+Pour gérer les tableaux de bord partagés :
 
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Tableaux de bord]**.
 1. Sous [!UICONTROL Tableaux de bord partagés], localisez le tableau de bord partagé (ou le tableau de bord hérité) que vous souhaitez gérer et sélectionnez une ou plusieurs des options suivantes :
@@ -92,7 +92,9 @@ Lorsque vous copiez le tableau de bord hérité, le système l’ouvre pour modi
 
 ## Partage d’un tableau de bord
 
-Cette section explique comment un administrateur peut partager (ou pousser) un tableau de bord vers plusieurs utilisateurs. Dans ce cas, les tableaux de bord deviennent disponibles dans le menu [!UICONTROL Tableaux de bord partagés] des utilisateurs concernés.
+Les administrateurs d’Analytics peuvent partager (ou envoyer) un tableau de bord à plusieurs utilisateurs. Dans ce cas, les tableaux de bord deviennent disponibles dans le menu [!UICONTROL Tableaux de bord partagés] des utilisateurs concernés.
+
+Pour partager un tableau de bord avec plusieurs utilisateurs :
 
 1. Dans le [!UICONTROL Gestionnaire de tableaux de bord], recherchez le tableau de bord et activez l’option **[!UICONTROL Partagé]**.
 1. Cliquez sur **[!UICONTROL Envoyer aux utilisateurs]**.  ![](assets/push.png)
@@ -110,18 +112,3 @@ Le [!UICONTROL Gestionnaire de tableaux de bord] permet de vérifier si la remis
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
 
    Pour en savoir plus, reportez-vous à la section [Planification et distribution](/help/analyze/reports-analytics/scheduling.md)
-
-## Archivage d’un tableau de bord
-
->[!NOTE]
->
->Cette fonctionnalité ne sera plus disponible en janvier 2020.
-
-Cette section décrit comment archiver n’importe quel tableau de bord envoyé en tant que fichier PDF. Le système conserve le fichier archivé pendant deux ans ou jusqu’à ce que vous ayez atteint la limite maximum de 4 Go de rapports archivés, le premier événement à survenir prévalant.
-
-1. Ouvrez un tableau de bord.
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Envoyer]**.
-1. Dans le groupe [!UICONTROL Envoyer le rapport par courriel], activez **[!UICONTROL Archivage]**.
-1. Définissez les options de remise, puis cliquez sur **[!UICONTROL Envoyer]**.
-
-   Vous pouvez afficher les tableaux de bord archivés dans le Gestionnaire de tableaux de bord. Vous pouvez également ouvrir un tableau de bord, puis cliquer sur **[!UICONTROL Plus]** > **[!UICONTROL Afficher l’archive]**.

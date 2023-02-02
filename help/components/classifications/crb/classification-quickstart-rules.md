@@ -3,10 +3,10 @@ description: Les règles de classification recherchent régulièrement des terme
 title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-Description de la procédure d’ajout ou de modification d’une règle de classification.
-
 Pour ajouter des règles, faites correspondre une condition à une classification et indiquez l’action.
 
 >[!NOTE]
 >
 >Au cours de cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des  [sous-classifications](/help/components/classifications/c-sub-classifications.md).
+
+Pour ajouter ou modifier une règle de classification :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md).
 1. Sur la page du jeu de règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
@@ -326,8 +326,8 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
    >Les suites de rapports s’affichent sur cette page *seulement* lorsque les conditions suivantes sont satisfaites :
    >
    >* Les suites de rapports comportent au moins une classification définie pour la variable dans [!UICONTROL Outils d’administration].
-   >
-   >   (Voir *Variable* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
+      >
+      >   (Voir *Variable* dans [Jeux de règles de classification](/help/components/classifications/crb/classification-rule-set.md) pour obtenir une explication sur cette condition préalable.)
    >
    >* Vous avez sélectionné la suite de rapports sur la page **[!UICONTROL Suites de rapports disponibles]**, qui s’affiche après avoir cliqué sur [Ajouter un jeu de règles](/help/components/classifications/crb/classification-rule-set.md) pour créer le jeu de règles.
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Description de la procédure de test d’une règle ou d’un jeu de règles de classification. Lors de l’exécution d’un test, toutes les règles d’un jeu sont vérifiées.
+Vous pouvez tester une règle ou un jeu de règles de classification. Lors de l’exécution d’un test, toutes les règles d’un jeu sont vérifiées.
+
+Pour tester un jeu de règles de classification :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md).
 1. Sur la page [!UICONTROL Créateur de règles de classifications], cliquez sur le nom du jeu de règles.
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Ces étapes décrivent la validation et l’activation de règles de classification.
+Pour valider et activer des règles de classification :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md), puis [ajoutez des règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md) au jeu.
 1. Cliquez sur **[!UICONTROL Activer]** dans l’éditeur de règles.

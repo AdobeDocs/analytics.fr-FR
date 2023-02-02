@@ -3,16 +3,16 @@ description: Description de la procédure de configuration de la détection de r
 title: Configuration de la détection de recherche payante
 feature: Admin Tools
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '78'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 93%
 
 ---
 
 # Configuration de la détection de recherche payante
 
-Description de la procédure de configuration de la détection de recherche payante.
+Pour configurer la détection de recherche payante :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** pour ouvrir le [!UICONTROL Gestionnaire de suite de rapports].
 1. Sélectionnez une suite de rapports.

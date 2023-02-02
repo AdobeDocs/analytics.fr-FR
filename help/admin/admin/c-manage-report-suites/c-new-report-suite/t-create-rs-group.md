@@ -3,18 +3,18 @@ description: Description de la procédure de création d’un groupe de suites d
 title: Création d’un groupe de suites de rapports
 feature: Report Suite Settings
 exl-id: ad4c3f06-72ef-4ffd-86c4-0d2a4c7a4e9d
-source-git-commit: c941370efee866e01c4cd039409f38c76a21cf3b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 94%
 
 ---
 
-# Création d’un groupe de suites de rapports
-
-Description de la procédure de création d’un groupe de suites de rapports.
+# Créer un groupe de suites de rapports
 
 Dans le [!UICONTROL Gestionnaire de Report Suites], vous pouvez organiser vos suites de rapports en groupes personnalisés. Les groupes vous permettent d’accéder rapidement à plusieurs suites de rapports partageant des paramètres similaires ou que vous modifiez habituellement ensemble.
+
+Pour créer un groupe de suites de rapports :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Dans la section [!UICONTROL Gestionnaire de suites de rapports], sélectionnez une suite de rapports.
