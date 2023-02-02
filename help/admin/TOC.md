@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 95%
@@ -134,6 +134,7 @@ ht-degree: 95%
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Compte rendu des performances sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Rapports en temps réel {#real-time-reports}
             + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -150,7 +151,6 @@ ht-degree: 95%
       + [Gestionnaire de préférences](admin/company/preferences-manager.md)
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
-   + [Gestion des vidéos](admin/video-management.md)
    + Utilisation des appels au serveur {#server-call-usage}
       + [Utilisation des appels au serveur - Aperçu](admin/c-server-call-usage/overage-overview.md)
       + [Affichage de l’utilisation actuelle des appels au serveur](admin/c-server-call-usage/server-call-usage-dashboard.md)
