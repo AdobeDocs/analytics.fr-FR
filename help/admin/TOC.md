@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 95%
    + [Mesures par défaut](admin/default-metrics.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
-   + [Gestionnaire de préférences](admin/preferences-manager.md)
    + [Compte rendu des performances sur la confidentialité](admin/privacy-reporting.md)
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
    + [File d’attente des rapports planifiés](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 95%
             + [Aperçu](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [Paramètres d’une suite de rapports spécifique](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + Rapports en temps réel {#real-time-reports}
             + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 95%
             + [Mesures et dimensions en temps réel prises en charge](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + Paramètres de l’entreprise {#company-settings}
       + [Paramètres d’entreprise - Aperçu](admin/company/c-company-settings.md)
-      + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
+      + [Gestionnaire de sécurité](admin/company/security-manager.md)
       + [Services web](admin/company/web-services-admin.md)
       + [Rapports du Report Builder](admin/company/report-builder-reports-admin.md)
       + [Authentification unique](admin/company/single-signon-admin.md)
-      + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Alliance de marques](admin/company/co-branding-admin.md)
       + [Masquage des suites de rapports](admin/company/c-hide-report-suites.md)
-      + [Gestionnaire de sécurité](admin/company/security-manager.md)
+      + [Gestionnaire de préférences](admin/company/preferences-manager.md)
+      + [Actions en attente](admin/company/pending-actions-admin.md)
+      + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
    + [Gestion des vidéos](admin/video-management.md)
    + Utilisation des appels au serveur {#server-call-usage}
       + [Utilisation des appels au serveur - Aperçu](admin/c-server-call-usage/overage-overview.md)
