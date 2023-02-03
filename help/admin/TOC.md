@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: e6cef6e77f5418b026830848b6c0fc3347aa6033
+source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 95%
 
 ---
@@ -39,7 +39,6 @@ ht-degree: 95%
    + [Gestionnaire de code](admin/code-manager-admin.md)
    + [Codes de devise](admin/currency.md)
    + [Sources de données](admin/data-sources.md)
-   + [Mesures par défaut](admin/default-metrics.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
@@ -109,12 +108,12 @@ ht-degree: 95%
                + [Données et référence de code du transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
                + [Comment vérifier l’implémentation du transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Questions fréquentes relatives au transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
-         + Variables de trafic {#traffic-variables}
+         + Trafic {#traffic-variables}
             + [Variable de trafic (prop) - Présentation](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Activer les rapports de variables de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classifications de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descriptions des rapports personnalisés](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-         + Variables de conversion {#conversion-variables}
+         + Conversion {#conversion-variables}
             + [Variables de conversion (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Méthodes de recherche](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Classifications des conversions](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
@@ -133,10 +132,11 @@ ht-degree: 95%
             + [Aperçu](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+         + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Compte rendu des performances sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Rapports en temps réel {#real-time-reports}
+         + [Reporting sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Temps réel {#real-time-reports}
             + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuration des rapports en temps réel](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Mesures et dimensions en temps réel prises en charge](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
