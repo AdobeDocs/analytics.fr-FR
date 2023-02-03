@@ -3,20 +3,24 @@ title: pageType
 description: Permet de déterminer si la page active est une erreur 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 77%
+source-wordcount: '208'
+ht-degree: 56%
 
 ---
 
 # pageType
 
-La variable `pageType` est un indicateur utilisé pour désigner les pages d’erreur de votre site, telles que les erreurs 404. Si cette variable contient la chaîne `errorPage`, elle renseigne la dimension Pages introuvables.
+La variable `pageType` est un indicateur utilisé pour désigner les pages d’erreur de votre site, telles que les erreurs 404. Si cette variable contient la chaîne `errorPage`, il renseigne &quot;Pages introuvables&quot;. [dimension](/help/components/dimensions/pages-not-found.md) et [metric](/help/components/metrics/pages-not-found.md).
 
 >[!IMPORTANT]
 >
 >Ne définissez pas cette variable sur les pages sans erreur.
+
+## Type de page à l’aide du SDK Web
+
+Type de page : [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.isErrorPage`. Ce champ XDM est une valeur booléenne ; Définissez-le sur `true` pour le signaler comme une page d’erreur, ou `false` s’il ne s’agit pas d’une page d’erreur. Adobe convertit automatiquement la valeur booléenne en valeur de chaîne `errorPage` lorsqu’elle est envoyée à une suite de rapports Analytics.
 
 ## Type de page à l’aide de l’extension Adobe Analytics
 
