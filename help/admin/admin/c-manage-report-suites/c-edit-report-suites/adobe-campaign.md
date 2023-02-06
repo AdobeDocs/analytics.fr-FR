@@ -4,7 +4,7 @@ title: Affichage des données Adobe Campaign dans Adobe Analytics
 feature: Admin Tools
 source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
