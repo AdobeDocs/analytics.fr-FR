@@ -1,16 +1,16 @@
 ---
-description: Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
-title: Compte rendu des performances d’Activity Map
-feature: Activity Map
-exl-id: e1d3f894-b769-4294-b550-f46869b812be
+description: Vous pouvez afficher les données d’Activity Map dans Adobe Analytics.
+title: Affichage des données du Activity Map dans Adobe Analytics
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 86%
 
 ---
 
-# Compte rendu des performances d’Activity Map
+
+# Affichage des données du Activity Map dans Adobe Analytics
 
 Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
 
@@ -30,4 +30,4 @@ Permet à Analytics de collecter l’activité de l’utilisateur fournie par Ac
 
 Pour que les données soient renseignées, reportez-vous à la [documentation d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) afin d’obtenir des instructions d’implémentation complètes.
 
-<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->

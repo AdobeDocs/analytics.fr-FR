@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 95%
+source-wordcount: '620'
+ht-degree: 94%
 
 ---
 
@@ -67,14 +67,14 @@ ht-degree: 95%
          + Général {#report-suite-general}
             + [Paramètres du compte général](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Filtres URL internes](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + [Personnaliser le calendrier](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Détection de référencement payant {#paid-search-detection}
                + [Détection de référencement payant - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [Personnaliser les menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-            + [Personnaliser le calendrier](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Règles de traitement {#c-processing-rules}
                + [Règles de traitement - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + Configuration des règles de traitement {#c-processing-rules-configuration}
+               + Règles de traitement {#c-processing-rules-configuration}
                   + [Fonctionnement des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [Créer des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
                   + [Afficher les règles de traitement actives](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
@@ -109,12 +109,12 @@ ht-degree: 95%
                + [Comment vérifier l’implémentation du transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
                + [Questions fréquentes relatives au transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + Trafic {#traffic-variables}
-            + [Variable de trafic (prop) - Présentation](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [Variables de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [Activer les rapports de variables de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [Classifications de trafic](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [Descriptions des rapports personnalisés](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + Conversion {#conversion-variables}
-            + [Variables de conversion (eVars)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [Variables de conversion](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [Méthodes de recherche](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [Classifications des conversions](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
             + Variable de visiteur unique {#unique-visitor-variable}
@@ -131,7 +131,7 @@ ht-degree: 95%
             + [Gestion des canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Règles de traitement des canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [Classifications des canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [Expiration de l’engagement des visiteurs](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [Expiration du canal marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestion du trafic {#traffic-management}
             + [Aperçu](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
@@ -139,6 +139,9 @@ ht-degree: 95%
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
+         + [Activity Map   ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Reporting sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Temps réel {#real-time-reports}
             + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
