@@ -3,7 +3,7 @@ title: getPercentPageViewed
 description: Permet de connaître le pourcentage de la page consultée par le visiteur.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
+source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 87%
@@ -69,8 +69,7 @@ Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les vari
 * `window._ppvFinalPercentViewed`: Pourcentage de la page précédente qui était visible au moment où le visiteur a accédé à la page active. Cette valeur sera égale ou supérieure au pourcentage initial affiché et sera également égale ou inférieure au pourcentage le plus élevé affiché.
 * `window._ppvHighestPixelsSeen` : nombre total de pixels le plus élevé affiché (en termes de hauteur) pendant que le visiteur faisait défiler la page précédente.
 * `window._ppvFoldsAvailable` : nombre total de « plis de page » disponibles pour faire défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `1`.
-* 
-   * `window._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible lors du premier chargement, cette valeur est `1`.
+* `window._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible lors du premier chargement, cette valeur est `1`.
 
 Affectez une ou plusieurs de ces variables à des eVars pour afficher les données sur les dimensions dans les rapports.
 
