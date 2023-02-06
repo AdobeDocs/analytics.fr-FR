@@ -3,10 +3,10 @@ title: Les bonnes pratiques pour la mise en œuvre des canaux marketing Adobe An
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution IQ et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ Nous vous recommandons d’utiliser [Attribution IQ](https://experienceleague.ad
 
 Les canaux Direct et Interne/Actualisation de session ne sont pas recommandés pour une utilisation avec des modèles d’attribution personnalisés (Attribution IQ).
 
-Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution IQ que si ces canaux n’avaient jamais été configurés.
+Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution IQ que si ces canaux n’avaient jamais été configurés.
 
 ![](assets/direct-session-refresh.png)
 
@@ -46,7 +46,7 @@ Les modèles d’attribution personnalisés utilisés avec la dimension Canal ma
 
 ## Bonne pratique n° 4 : réduire la période d’engagement des visiteurs
 
-Définir la période d’engagement des visiteurs sur un minimum de « 1 jour » réduit la probabilité de valeurs persistantes. Puisque les modèles d’attribution personnalisés (AIQ) permettent des intervalles de recherche en amont flexibles, nous vous recommandons de définir ce paramètre sur la valeur minimale afin d’en minimiser l’impact.
+La définition de la période d’engagement des visiteurs sur &quot;1 jour&quot; au minimum réduit la probabilité de persistance des valeurs. Puisque les modèles d’attribution personnalisés (AIQ) permettent des intervalles de recherche en amont flexibles, nous vous recommandons de définir ce paramètre sur la valeur minimale afin d’en minimiser l’impact.
 
 ![](assets/expiration.png)
 

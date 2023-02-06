@@ -3,7 +3,7 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -35,7 +35,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 
 >[!NOTE]
 >
->Cette liste est différente de la liste par défaut des réseaux sociaux des [règles de traitement des canaux marketing](../c-marketing-channels/c-rules.md).
+>Cette liste est différente de la liste par défaut des réseaux sociaux des [règles de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

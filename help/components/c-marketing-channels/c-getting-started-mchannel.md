@@ -3,10 +3,10 @@ title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 100%
+source-wordcount: '829'
+ht-degree: 97%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Les administrateurs d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
@@ -39,9 +41,9 @@ Vous trouverez une liste des canaux recommandés dans la section  [Questions fr�
 
 Après avoir défini les canaux à suivre, vous devez les activer dans **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
-Voir [Canaux et règles](/help/components/c-marketing-channels/c-channels.md) pour consulter des informations importantes sur les concepts et les conditions préalables requises.
+Voir [Canaux et règles](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) pour consulter des informations importantes sur les concepts et les conditions préalables requises.
 
-Voir [Ajout de canaux marketing](/help/components/c-marketing-channels/c-channels.md) pour la procédure.
+Voir [Ajout de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md) pour la procédure.
 
 >[!NOTE]
 >
@@ -51,7 +53,7 @@ Voir [Ajout de canaux marketing](/help/components/c-marketing-channels/c-channel
 
 Une fois les canaux créés sur la page [!UICONTROL Gestionnaire de canaux marketing], vous pouvez configurer les règles pour qu’ils puissent extraire les données en vue de créer des rapports.
 
-Voir [Règles de traitement des canaux marketing](/help/components/c-marketing-channels/c-rules.md).
+Voir [Règles de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 
 Si les canaux ont été créés lors de la configuration automatique, les règles de ceux-ci sont définies. Vous pouvez les modifier afin qu’elles répondent à vos besoins.
 
@@ -69,7 +71,7 @@ Comment exécuter la configuration automatique des canaux marketing.
 
    >[!NOTE]
    >
-   >La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche automatiquement lorsque vous accédez aux applications de configuration des canaux dans les outils d’administration. (Voir [Gestionnaire de canaux marketing](/help/components/c-marketing-channels/c-channels.md).) Cette page ne s’affiche pas si la suite de rapports contient un ou plusieurs canaux marketing. Elle ne s’affichera plus, sauf si vous sélectionnez une autre suite de rapports ne contenant aucun canal marketing.
+   >La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche automatiquement lorsque vous accédez aux applications de configuration des canaux dans les outils d’administration. (Voir [Gestionnaire de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).) Cette page ne s’affiche pas si la suite de rapports contient un ou plusieurs canaux marketing. Elle ne s’affichera plus, sauf si vous sélectionnez une autre suite de rapports ne contenant aucun canal marketing.
 
 1. Vérifiez que les canaux à créer sont sélectionnés.
 

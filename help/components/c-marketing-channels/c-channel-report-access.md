@@ -3,14 +3,20 @@ description: Cette procédure décrit l’exécution du rapport Canal marketing,
 title: Autorisations des Canaux marketing
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 
 # Autorisations des Canaux marketing
+
+>[!NOTE]
+>
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>
+>Les administrateurs d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Voici les autorisations des outils de la suite de rapports nécessaires dans l’[Admin Console](https://adminconsole.adobe.com/) pour pouvoir travailler sur divers aspects des Canaux marketing.
 

@@ -2,8 +2,8 @@
 title: Ordre de traitement des données dans Adobe Analytics
 description: Découvrez l’ordre des composants et services qui traitent les données dans Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Une fois les données envoyées à Adobe Analytics, les fonctionnalités suivant
 3. [**Règles de robots**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) : appliquez un filtrage de robots standard ou personnalisé pour exclure ces données des rapports.
 4. [**Règles de traitement**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) : règles personnalisées appliquées à vos données par votre organisation. Inclut le mappage de [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) à leur variable respective.
 5. **Règles VISTA** : règles flexibles personnalisées appliquées à vos données par un consultant Adobe. Les règles VISTA peuvent éventuellement s’exécuter avant ou après les règles de traitement, selon les besoins de votre entreprise. La plupart des règles VISTA s’exécutent généralement après les règles de traitement, mais chaque organisation est configurée différemment. Pour plus d’informations sur les règles VISTA existantes, contactez votre gestionnaire de compte Adobe.
-6. [**Règles de traitement des canaux marketing**](/help/components/c-marketing-channels/c-rules.md) : vous pouvez utiliser les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour préparer les données à utiliser dans les règles de traitement des canaux marketing.
+6. [**Règles de traitement des canaux marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) : vous pouvez utiliser les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour préparer les données à utiliser dans les règles de traitement des canaux marketing.
 7. **Données de géolocalisation** : les dimensions reposant sur la recherche d’adresses IP (par exemple, la dimension [Pays](/help/components/dimensions/countries.md)) sont renseignées.
 8. [**Dissimulation d’adresses IP**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) : si votre entreprise a choisi de dissimuler les adresses IP dans les données brutes, cela s’effectue une fois toutes les autres fonctions de traitement terminées.
 

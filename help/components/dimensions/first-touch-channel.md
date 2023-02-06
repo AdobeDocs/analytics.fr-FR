@@ -3,7 +3,7 @@ title: Canal Première touche
 description: Premier canal marketing dans l’expiration de l’engagement du visiteur.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: ee27311cac5b61dea4d8e850e67126e5fe1d649d
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
@@ -16,7 +16,7 @@ La dimension « Canal Première touche » indique le premier canal marketing a
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait directement référence aux noms de canal que vous avez définis dans le [gestionnaire de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md).
+Cette dimension fait directement référence aux noms de canal que vous avez définis dans le [gestionnaire de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Chaque accès envoyé aux serveurs de collecte de données d’Adobe est traité par le biais des règles de traitement de canal marketing de votre suite de rapports. Il effectue une itération sur chaque règle dans l’ordre numérique jusqu’à ce qu’il trouve une correspondance, où le canal marketing est lié à l’accès. Le canal Première touche persiste pour le visiteur jusqu’à ce que le délai avant la prochaine visite du visiteur dépasse la période d’engagement du visiteur (30 jours par défaut).
 
