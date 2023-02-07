@@ -3,30 +3,30 @@ description: Comment envoyer des demandes d’accès et de suppression des donn�
 title: Soumettre des demandes d’accès et de suppression
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # Soumettre des demandes d’accès et de suppression
 
-Si vos clients (consommateurs/sujets des données) veulent savoir quelles données vous détenez les concernant ou décident qu’ils veulent être supprimés de vos propriétés Analytics, vous êtes, en tant que contrôleur des données, responsable de la réponse à ces demandes. Le contrôleur des données détermine la manière dont votre organisation va interagir avec les sujets des données (par exemple, par le biais d’un portail utilisateur pour les sujets des données) et gère les interactions avec le sujet des données. Il incombe également au contrôleur de mettre fin à la collaboration avec le sujet des données lorsque la demande est satisfaite. En d’autres termes, Adobe Experience Cloud, en tant qu’entité de traitement des données, n’acceptera pas les demandes directement des sujets des données et ne leur renverra pas directement les données. Par contre, en votre qualité de contrôleur des données, Adobe recevra uniquement des demandes de votre part et ne renverra des données qu’à vous.
+Si vos clients (consommateurs/sujets des données) veulent savoir quelles données vous conservez à leur sujet ou décident qu’ils souhaitent être supprimés de vos propriétés Analytics, vous, en tant que contrôleur de données, êtes responsable de la réponse à ces demandes. Le contrôleur de données détermine la manière dont votre organisation va interagir avec les titulaires de données (par exemple, par le biais d’un portail utilisateur dédié aux données) et gère les interactions avec le titulaire de données. Il incombe également au contrôleur de fermer la boucle avec le titulaire de données lorsque la demande est satisfaite. En d’autres termes, Adobe Experience Cloud, en tant qu’entité de traitement des données, n’acceptera pas les demandes directement des sujets des données ni ne leur renverra directement des données. Adobe recevra plutôt des demandes de votre part et ne renverra des données qu’à vous en tant que contrôleur de données.
 
-Vous pouvez également vous assurer que vos applications mobiles et vos sites web contiendront des messages d’avertissement pertinents et des documents à l’appui sur les droits des sujets des données en ce qui concerne leurs données directement ou indirectement identifiables et les autres données que vous collectez.
+Vous pouvez également vous assurer que vos applications mobiles et vos sites web contiendront des messages d’avertissement pertinents et des documents à l’appui sur les droits des titulaires de données concernant leurs données directement ou indirectement identifiables, ainsi que d’autres données que vous collectez.
 
 ## Gérer le consentement des consommateurs  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos sujets de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter un [mécanisme de désinscription](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site Web. Cela permet à vos sujets des données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
+En tant que contrôleur de données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos titulaires de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter une [mécanisme d&#39;exclusion](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site web. Cela permet aux sujets des données de se désabonner de la future collecte de données Adobe Experience Cloud.
 
 ## Valider les utilisateurs et leurs données  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-En tant que contrôleur des données, vous êtes chargé de vérifier que le sujet des données est bien qui il prétend être et qu’il a le droit d’accéder aux données demandées. En outre, il vous incombe de veiller à ce que les données correctes soient renvoyées au sujet des données et à ce qu’il ne reçoive pas par inadvertance des données concernant d’autres sujets des données.
+En tant que contrôleur de données, vous êtes chargé de vérifier que le titulaire de données est celui qu’il dit être et qu’il a le droit d’accéder aux données qu’il demande. En outre, il vous incombe de vous assurer que les données correctes sont renvoyées au titulaire de données et qu’il ne reçoit pas par inadvertance des données sur d’autres titulaires de données.
 
-Cela inclut la vérification des données renvoyées par Adobe Analytics dans le cadre d’une demande d’accès relative à la Confidentialité des données avant de les envoyer au sujet des données. Une attention particulière doit être accordée si vous utilisez des ID de personne et si vous renvoyez non seulement des données là où cet identifiant est présent, mais également des données pour d’autres accès sur un appareil partagé où cet ID était parfois présent. Voir [Extension d’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
+Cela inclut la révision des données renvoyées par Adobe Analytics dans le cadre d’une demande d’accès relative à la Confidentialité des données avant de les envoyer au titulaire de données. Une attention particulière doit être accordée si vous utilisez des ID de personne et si vous renvoyez non seulement des données là où cet identifiant est présent, mais également des données pour d’autres accès sur un appareil partagé où cet ID était parfois présent. Voir [Extension d’ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
-Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués. Vous pouvez décider parmi ces fichiers lequel renvoyer au sujet des données. Ou vous pouvez extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au sujet des données.
+Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués. Vous pouvez choisir parmi ces fichiers lequel renvoyer au titulaire de données. Vous pouvez également extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au titulaire de données.
 
 ## Soumettre des demandes   {#submit-requests}
 
@@ -98,7 +98,7 @@ Voici une configuration JSON qui pourrait être soumise via l’interface utili
 } 
 ```
 
-Remarquez que la section relative à l’utilisateur comporte trois blocs, représentant trois demandes distinctes, probablement pour trois sujets de données différents.
+Notez qu’il existe trois blocs dans la section de l’utilisateur, représentant trois requêtes distinctes, probablement pour trois sujets des données distincts.
 
 * La première demande est une demande d’accès qui utilise un ID de cookie Adobe Analytics classique (AAID).
 * La deuxième demande est également une demande d’accès, mais qui utilise un cookie MCID/ECID.
@@ -117,7 +117,7 @@ Cette section contient des détails relatifs aux réponses d’accès et de supp
 
 **Détails sur la réponse d’accès**
 
-En tant que contrôleur des données, les données renvoyées pour une demande d’accès vous fournissent une URL que vous pouvez utiliser pour télécharger un fichier ZIP contenant un répertoire pour chaque produit Adobe que vous possédez. Dans le dossier Analytics, il peut y avoir :
+Les données renvoyées pour une demande d’accès vous fournissent, en tant que contrôleur de données, une URL que vous pouvez utiliser pour télécharger un fichier ZIP contenant un répertoire pour chaque produit Adobe que vous possédez. Dans le dossier Analytics, il peut y avoir :
 
 * Fichiers de personne : dérivés des accès contenant une étiquette ID-PERSON correspondante
 
@@ -131,7 +131,7 @@ En tant que contrôleur des données, les données renvoyées pour une demande d
 
 Chaque fichier combine les données de toutes vos suites de rapports, supprimant automatiquement les copies supplémentaires des accès répliqués.
 
-Vous pouvez décider parmi celles-ci laquelle renvoyer au sujet des données. Ou vous pouvez extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au sujet des données.
+Vous pouvez décider lequel d&#39;entre eux retournera au titulaire de données. Vous pouvez également extraire certaines de ces données et les combiner à des données provenant d’autres systèmes avant de les renvoyer au titulaire de données.
 
 **Détails sur la réponse de suppression**
 

@@ -3,18 +3,14 @@ description: Étiqueter les données de la suite de rapports signifie que vous a
 title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 48%
+source-wordcount: '531'
+ht-degree: 44%
 
 ---
 
 # Étiqueter les données d’une suite de rapports
-
->[!NOTE]
->
->Cette interface utilisateur mise à jour est actuellement en test limité.
 
 Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec le [libellés et leurs définitions](/help/admin/c-data-governance/data-labeling/gdpr-labels.md).
 
@@ -24,7 +20,7 @@ ht-degree: 48%
 
 ## Attribuer ou modifier des étiquettes de confidentialité de suite de rapports {#assign-edit}
 
-**Exemple** : en tant que contrôleur des données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des sujets des données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics.
+**Exemple**: En tant que contrôleur de données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des titulaires de données afin de traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics.
 
 1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 

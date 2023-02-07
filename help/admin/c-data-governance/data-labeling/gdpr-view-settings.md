@@ -3,25 +3,21 @@ description: La boîte de dialogue Étiquette de confidentialité pour la gouver
 title: Affichage/gestion de l’étiquetage des données personnelles pour la gouvernance des données
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 44%
+source-wordcount: '871'
+ht-degree: 41%
 
 ---
 
 # Affichage/gestion de l’étiquetage des données personnelles pour la gouvernance des données
-
->[!NOTE]
->
->Cette interface utilisateur mise à jour est actuellement en test limité.
 
 Le **[!UICONTROL Étiquetage de la confidentialité pour la gouvernance des données]** La boîte de dialogue offre un aperçu des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier .csv à partir de cet emplacement.
 
 ## Affichage des étiquettes de confidentialité {#view-privacy}
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Accédez à  **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 
    >[!NOTE]
    >
@@ -37,7 +33,7 @@ Le **[!UICONTROL Étiquetage de la confidentialité pour la gouvernance des donn
 | **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identification sont utilisées pour catégoriser les données qui peuvent identifier ou servir à contacter une personne spécifique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#identity-data-labels) |
 | **[!UICONTROL Sensibilité]** | Les étiquettes « S » pour les données sensibles sont utilisées pour catégoriser les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#sensitive-data-labels) |
 | **[!UICONTROL Accès RGPD]** | Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL Suppression RGPD]** | Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le titulaire de données (autrement dit, qui permettrait d’identifier le titulaire de données). Les autres informations personnelles (favoris, historique de navigation/d’achat, conditions de santé, etc.) ne doivent pas être supprimées, car l’association avec le sujet de données sera rompue. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
+| **[!UICONTROL Suppression RGPD]** | Une étiquette de suppression n’est requise que pour les champs qui contiennent une valeur permettant d’associer un accès au titulaire de données (c.-à-d. qui permettrait d’identifier le titulaire de données). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
 | **[!UICONTROL Espace de noms]** | Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-labels.html?lang=en#section_F0A47AF8DA384A26BD56032D0ABFD2D7) |
 | **[!UICONTROL Catégorie]** | Fait référence au type de composant, tel que le composant standard, la variable de conversion, etc. |
 
@@ -62,9 +58,9 @@ Si vous souhaitez appliquer les mêmes paramètres de Confidentialité des donn�
 
    Lorsque vous copiez les étiquettes pour une variable ou un groupe de variables dans une autre suite de rapports, la copie a lieu sur la variable se trouvant à la même position dans la suite de rapports de destination. Pour les composants standard, les variables de liste et les événements de succès, les étiquettes seront copiées dans la variable avec la variable **même nom** dans la suite de rapports de destination.
 
-   Toutefois, pour les variables de conversion (eVars) et les Dimensions de trafic (props), la copie sera envoyée à la variable avec la variable **même nombre** dans la suite de rapports de destination. Par exemple, eVar12 sera copiée dans eVar12 dans toutes les suites de rapports de destination. Les noms de ces variables seront ignorés lors de la détermination de la cible de la copie. Si la variable correspondante n’est pas activée dans la suite de rapports de destination, la copie échoue pour cette variable.
+   Toutefois, pour les variables de conversion (eVars) et les Dimensions de trafic (props), la copie est envoyée à la variable avec la variable **même nombre** dans la suite de rapports de destination. Par exemple, eVar12 sera copiée dans eVar12 dans toutes les suites de rapports de destination. Les noms de ces variables seront ignorés lors de la détermination de la cible de la copie. Si la variable correspondante n’est pas activée dans la suite de rapports de destination, la copie échoue pour cette variable.
 
-   Lors de la copie des étiquettes pour les classifications définies pour une variable, les étiquettes sont copiées dans une classification de la variable correspondante dans la suite de rapports de destination (par exemple, eVar7 vers eVar7) qui porte le même nom que la classification en cours de copie. Sinon, la copie pour les étiquettes de cette classification échoue.
+   Lors de la copie des étiquettes pour des classifications définies pour une variable, les étiquettes sont copiées dans une classification de la variable correspondante dans la suite de rapports de destination (par exemple, eVar7 dans eVar7) qui porte le même nom que la classification définie pour la copie. Sinon, la copie pour les étiquettes de cette classification échoue.
 
 1. Cochez la case en regard d’une ou de plusieurs suites de rapports pour lesquelles les paramètres correspondent.
 1. Cliquez sur **[!UICONTROL Appliquer]**.
@@ -73,7 +69,7 @@ Si vous souhaitez appliquer les mêmes paramètres de Confidentialité des donn�
 
    >[!IMPORTANT]
    >
-   >Vous devez toujours vérifier les suites de rapports de destination pour vous assurer que les étiquettes sont copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
+   >Vérifiez toujours les suites de rapports de destination pour vous assurer que les étiquettes ont été copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
 
 ## Exportation dans un fichier .csv {#export-csv}
 
