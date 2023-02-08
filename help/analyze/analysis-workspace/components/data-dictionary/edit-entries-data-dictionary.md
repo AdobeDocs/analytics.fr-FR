@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Pour modifier un composant dans le dictionnaire de données :
 
    ![Vue d’administration du dictionnaire de données](assets/data-dictionary-admin.png)
 
-1. Assurez-vous que la bonne suite de rapports est sélectionnée dans le menu déroulant.
+1. Assurez-vous que la bonne suite de rapports est sélectionnée dans le menu déroulant. Par défaut, la suite de rapports dans laquelle vous vous trouvez déjà s’affiche.
 
 1. (Facultatif) Dans le champ de recherche, commencez à saisir le nom du composant à modifier.
 

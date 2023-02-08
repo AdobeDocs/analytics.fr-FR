@@ -1,7 +1,7 @@
 ---
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '604'
 ht-degree: 7%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 7%
 |---------|----------|
 | [!UICONTROL **Approuvés**] | Indique que le composant a été révisé et approuvé par l’administrateur. Les administrateurs voient une [!UICONTROL **Validation requise**] pour les composants non approuvés. La sélection de cette option la marque comme approuvée. |
 | [!UICONTROL **Description**] | Décrit la fonction prévue du composant. (Ces informations sont ajoutées par l’administrateur Analytics, comme décrit dans la section [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
-| [!UICONTROL **Fréquemment utilisée avec**] | Affiche les 5 composants les plus couramment utilisés avec le composant que vous affichez dans les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période. Cette liste est basée sur les données des 90 derniers jours. Seuls les composants que vous avez accès à la vue s’affichent. |
-| [!UICONTROL **Similaire à**] | Affiche jusqu’à 5 composants avec des libellés similaires au composant que vous affichez sur les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période. Seuls les composants que vous avez accès à la vue s’affichent. |
-| [!UICONTROL **Balises**] | Affiche toutes les balises appliquées au composant. |
+| [!UICONTROL **Fréquemment utilisée avec**] | Affiche les 5 composants les plus couramment utilisés avec le composant que vous affichez dans les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période. Cette liste est basée sur les données des 90 derniers jours. Seuls les composants que vous avez accès à la vue s’affichent. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Similaire à**] | Affiche jusqu’à 5 composants avec des libellés similaires au composant que vous affichez sur les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période. Seuls les composants que vous avez accès à la vue s’affichent. <!--Add info about how users with administrator access can control these after the feature is available. How?--> |
+| [!UICONTROL **Balises**] | Affiche toutes les balises appliquées au composant. Les utilisateurs disposant d’un accès administrateur peuvent ajouter des balises lors de la modification du composant. |
 | [!UICONTROL **Type de composant**] | Répertorie le type de composant qu’il est, qu’il s’agisse d’une Dimension, d’une mesure, d’un segment ou d’une période. |
 | [!UICONTROL **Créé par**] | Affiche le nom de l’utilisateur qui a créé le composant. |
 | [!UICONTROL **Aperçu**] | Affiche un aperçu de l’apparence du composant dans Analysis Workspace. |
