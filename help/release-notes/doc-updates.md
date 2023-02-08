@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
 source-wordcount: '3592'
 ht-degree: 98%
@@ -40,7 +40,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Novembre 2022** |  |
 | Variables de gestion du consentement | Pages dédiées à l’[accord préalable à la gestion du consentement](/help/components/dimensions/cm-opt-in.md) et à la [désinscription de la gestion du consentement](/help/components/dimensions/cm-opt-out.md). |
-| Actualisation multidevise | Les pages autour de la [prise en charge multidevise](/help/technotes/multicurrency.md) ont été mises à jour. |
+| Actualisation multidevise | Les pages autour de la [prise en charge multidevise](/help/implement/vars/config-vars/currencycode.md) ont été mises à jour. |
 | **Octobre 2022** |  |
 | Data Workbench | [Annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) |
 | Indications du client | Nouvelles [vue d’ensemble et FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=fr). |

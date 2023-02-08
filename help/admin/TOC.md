@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 6049266511851decfb2d652001e6f11373a91a1d
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 94%
 
 ---
@@ -37,7 +37,6 @@ ht-degree: 94%
    + [Présentation des outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
-   + [Codes de devise](admin/currency.md)
    + [Sources de données](admin/data-sources.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
