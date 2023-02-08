@@ -6,8 +6,8 @@ breadcrumb-title: Notes de mise à jour
 user-guide-description: Découvrez les nouvelles fonctionnalités et correctifs d’Adobe Analytics.
 source-git-commit: af1574a72c652a75a851499416cf78703a1be178
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
