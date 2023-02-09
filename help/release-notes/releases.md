@@ -3,10 +3,10 @@ description: Explique la stratégie de mise à jour continue des fonctionnalité
 title: Mises à jour des fonctionnalités Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 90%
+source-wordcount: '390'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Les versions dʼAdobe Analytics suivent un modèle de livraison continue, ce qu
 
 * **Disponibilité générale** : la fonctionnalité est disponible pour 100 % des organisations Experience Cloud autorisées et la mise à jour est terminée.
 
-Selon les mises à jour de fonctionnalité, la chronologie peut varier entre la mise en production et la disponibilité générale. L’objectif est que la mise à jour soit courte, afin qu’elle atteigne la disponibilité générale dans un délai de 2 mois à compter de la mise en production.
+Pour chaque version de fonctionnalité, la chronologie du début du déploiement à la disponibilité générale peut varier. L’objectif est de conserver les versions courtes, de sorte que dans les 2 mois suivant le début du déploiement, une fonctionnalité soit GA.
 
 ## Indicateurs de fonctionnalités
 
