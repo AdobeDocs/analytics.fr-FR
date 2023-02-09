@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: 64a0bb6e04f4b56cd40676ea1c239f1beef8c41a
 workflow-type: tm+mt
-source-wordcount: '3592'
-ht-degree: 98%
+source-wordcount: '3639'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +27,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Février 2023** |  |
 | Implémentation | Mise à jour du contenu sur la procédure [mise en oeuvre d’Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
+| Calendriers et plages de dates Workspace | Mise à jour du contenu pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’interface utilisateur du calendrier. Voir [À propos des plages de dates relatives au panneau](/help/components/date-ranges/calendar.md). |
+| Fiches d’évaluation mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/mobile-app/create-scorecard.md) dans CJA. |
 | **Janvier 2023** |  |
 | Filtrage et tri des tableaux | Mise à jour du contenu (y compris l’ajout de procédures et l’explication des options disponibles) dans [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Cet article a été renommé &quot;Pagination, filtrage et tri des tables&quot;. |
 | Dossiers | Pages dédiées pour [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
