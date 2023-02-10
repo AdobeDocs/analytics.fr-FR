@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 94%
@@ -25,14 +25,6 @@ ht-degree: 94%
       + [Profils de produit pour Adobe Analytics](admin-console/permissions/product-profile.md)
       + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
       + [Autorisations du profil de produit pour les outils Analytics](admin-console/permissions/analytics-tools.md)
-   + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
-      + [Gestion des utilisateurs et des produits (Hérité)](admin-console/user-management2/user-management.md)
-      + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
-         + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [Désactiver les comptes hérités](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [API affectées par la migration](admin-console/user-management2/user-migration/developer.md)
 + Outils d’administration Analytics {#admin-tools}
    + [Présentation des outils d’administration](admin/c-admin-tools.md)
    + [Facturation](admin/billing-admin.md)
@@ -42,26 +34,6 @@ ht-degree: 94%
    + [Journaux](admin/logs.md)
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
    + Gestionnaire de suites de rapports {#manage-report-suites}
-      + [Gérer les suites de rapports](admin/c-manage-report-suites/report-suites-admin.md)
-      + [Suites de rapports globales et de cumul](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [Enregistrer une recherche de suite de rapports](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [Télécharger les paramètres d’une suite de rapports](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + Nouvelle suite de rapports {#c-new-report-suite}
-         + [Créer une suite de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Créer une suite de rapports de cumul](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [Créer un groupe de suites de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [Paramètres d’une nouvelle suite de rapports](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [Paramètres non copiés depuis une suite de rapports source](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + Modèles de suite de rapports {#report-suite-templates}
-         + [Modèles de suite de rapports - Aperçu](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [Portail d’agrégation](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [Contenu et média](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [Modèle par défaut](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [Services financiers](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [Portail d’emploi](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [Génération de prospect](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [Média d’assistance](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + Modifier les paramètres d’une suite de rapports {#edit-report-suite}
          + Général {#report-suite-general}
             + [Paramètres du compte général](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -146,6 +118,26 @@ ht-degree: 94%
             + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuration des rapports en temps réel](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Mesures et dimensions en temps réel prises en charge](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [Gérer les suites de rapports](admin/c-manage-report-suites/report-suites-admin.md)
+      + [Suites de rapports globales et de cumul](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [Enregistrer une recherche de suite de rapports](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [Télécharger les paramètres d’une suite de rapports](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + Nouvelle suite de rapports {#c-new-report-suite}
+         + [Créer une suite de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [Créer une suite de rapports de cumul](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [Créer un groupe de suites de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [Paramètres d’une nouvelle suite de rapports](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [Paramètres non copiés depuis une suite de rapports source](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + Modèles de suite de rapports {#report-suite-templates}
+         + [Modèles de suite de rapports - Aperçu](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [Portail d’agrégation](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [Commerce](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [Contenu et média](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [Modèle par défaut](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [Services financiers](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [Portail d’emploi](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [Génération de prospect](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Média d’assistance](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Paramètres de l’entreprise {#company-settings}
       + [Paramètres d’entreprise - Aperçu](admin/company/c-company-settings.md)
       + [Gestionnaire de sécurité](admin/company/security-manager.md)
@@ -163,6 +155,14 @@ ht-degree: 94%
       + [Affichage de l’utilisation des suites de rapports](admin/c-server-call-usage/report-suite-usage.md)
       + [Alertes d’utilisation des appels au serveur](admin/c-server-call-usage/scu-alerts.md)
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
+   + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
+      + [Gestion des utilisateurs et des produits (Hérité)](admin/user-management2/user-management.md)
+      + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
+         + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+         + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
+         + [Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [Désactiver les comptes hérités](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [API affectées par la migration](admin/user-management2/user-migration/developer.md)
 + Gouvernance des données {#data-governance}
    + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Questions fréquentes](c-data-governance/gdpr-faq.md)
@@ -176,3 +176,4 @@ ht-degree: 94%
    + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
    + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
+
