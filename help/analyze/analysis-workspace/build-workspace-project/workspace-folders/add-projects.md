@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Ajouter des dossiers dans Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # Ajouter des projets à des dossiers
 
 Vous pouvez ajouter des projets à un dossier dans la vue Tableau ou depuis un dossier.
+
+>[!NOTE]
+>
+>Seuls les administrateurs d’Analytics peuvent ajouter des projets au dossier de l’entreprise ou créer un projet et l’enregistrer dans le dossier de l’entreprise.
 
 ## De la vue Tableau {#table-view}
 
@@ -23,13 +27,15 @@ Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’ac
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Sélectionner **Déplacer vers**. La boîte de dialogue Sélectionner un dossier s’affiche.
+1. Sélectionner **Déplacer vers**.
 
-1. Sélectionnez un nom de dossier dans le menu déroulant.
+   La boîte de dialogue Sélectionner un dossier s’affiche.
+
+1. Dans le menu déroulant, sélectionnez le dossier dans lequel vous souhaitez déplacer les projets sélectionnés.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Cliquez sur **Ajouter**.
+1. Sélectionner **Déplacer**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ Vous pouvez également ajouter des projets depuis un dossier à l’aide du lien
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Cliquez sur l’icône qui représente des points de suspension **...** en haut à droite.
+1. Sélectionnez la **...** Icône représentant des points de suspension en haut à droite.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   Un menu déroulant affiche l’option permettant d’ajouter des projets au dossier. D’autres options vous permettent de renommer, déplacer ou supprimer le dossier et de gérer les autorisations de dossier.
 
 1. Sélectionnez **Ajouter des projets** et choisissez le projet à ajouter dans la liste déroulante.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   Vous pouvez ajouter plusieurs projets au dossier.
+
+1. (Facultatif) Sélectionnez des projets supplémentaires dans la liste déroulante pour ajouter plusieurs projets.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Cliquez sur **Ajouter** pour ajouter les projets au dossier.
+1. Sélectionner **Ajouter** pour ajouter les projets au dossier.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->Seuls les administrateurs peuvent ajouter des projets au dossier d’entreprise ou créer un projet et l’enregistrer dans le dossier d’entreprise.
