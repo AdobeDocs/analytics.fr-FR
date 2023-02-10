@@ -4,10 +4,10 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: a50451010a4c972d4acdc11a5229406f47bdf292
+source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
-source-wordcount: '1789'
-ht-degree: 98%
+source-wordcount: '1792'
+ht-degree: 97%
 
 ---
 
@@ -102,9 +102,9 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
-### Afficher les périodes de comparaison {#showo-comparison-dates}
+### Afficher/masquer les plages de dates de comparaison {#show-comparison-dates}
 
-Pour inclure des plages de dates de comparaison, activez la fonction **Inclure des dates de comparaison** .
+Pour afficher ou masquer les plages de dates de comparaison, activez la fonction **Inclure des dates de comparaison** .
 
 ![Ajouter la comparaison de dates](assets/include-comparison-dates.png)
 
