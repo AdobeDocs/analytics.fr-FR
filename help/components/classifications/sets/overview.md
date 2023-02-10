@@ -2,10 +2,10 @@
 title: Présentation des ensembles de classifications
 description: Utilisez les ensembles de classifications pour gérer les données de classification.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '264'
+ht-degree: 45%
 
 ---
 
@@ -27,8 +27,8 @@ L’architecture du serveur principal publiée avec les jeux de classifications 
 
 L’architecture du serveur principal publiée avec les jeux de classifications contient également plusieurs modifications notables :
 
-* Lors de l’utilisation de l’importation du navigateur, &quot;[!UICONTROL Remplacer en cas de conflit]&quot; est toujours activé.
-* Lors de l’utilisation de l’importation dans le navigateur, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge. Les exportations doivent être lancées séparément.
+* Lors de l’utilisation du navigateur ou de l’importation FTP,[!UICONTROL Remplacer en cas de conflit]&quot; est toujours activé.
+* Lorsque vous utilisez le navigateur ou l’importation FTP, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge. Les exportations doivent être lancées séparément.
 * API Analytics 2.0 `GetDimensions` Le point de terminaison renvoie désormais des identifiants de chaîne pour les classifications au lieu des identifiants numériques. Les identifiants numériques peuvent toujours être utilisés, mais Adobe recommande d’utiliser les nouveaux identifiants de chaîne si possible. Les identifiants numériques peuvent être récupérés à l’aide de la variable `?expansion=hidden` paramètre de chaîne de requête.
 
 
