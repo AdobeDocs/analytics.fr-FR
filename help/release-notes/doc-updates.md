@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3639'
-ht-degree: 96%
+source-wordcount: '3679'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Implémentation | Mise à jour du contenu sur la procédure [mise en oeuvre d’Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
 | Calendriers et plages de dates Workspace | Mise à jour du contenu pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’interface utilisateur du calendrier. Voir [À propos des plages de dates relatives au panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Fiches d’évaluation mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans CJA. |
+| API 1.4 | Le [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a reçu une réécriture complète et est maintenant publié sur Adobe Developer. |
+| Suivi entre les types de mise en oeuvre | Mise à jour du cas pratique [Suivi sur différents types de mise en oeuvre](../implement/use-cases/cross-type-implementation.md) pour s’adapter au service d’ID d’Experience Cloud. |
 | **Janvier 2023** |  |
 | Filtrage et tri des tableaux | Mise à jour du contenu (y compris l’ajout de procédures et l’explication des options disponibles) dans [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Cet article a été renommé &quot;Pagination, filtrage et tri des tables&quot;. |
 | Dossiers | Pages dédiées pour [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
