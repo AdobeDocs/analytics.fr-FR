@@ -4,15 +4,15 @@ description: Utilisez la variable linkInternalFilters pour faciliter le suivi au
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # linkInternalFilters
 
-AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. If [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK Web) est activé, une demande d’image est envoyée à l’Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables [`linkExternalFilters`](linkexternalfilters.md) et `linkInternalFilters` déterminent quels liens sont considérés comme internes/externes.
+AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. Si [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackdownloadlinks.md) (SDK Web) est activé, une demande d’image est envoyée à Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables [`linkExternalFilters`](linkexternalfilters.md) et `linkInternalFilters` déterminent quels liens sont considérés comme internes/externes.
 
 Si cette variable contient une valeur, le suivi automatique des liens de sortie se comporte comme une liste bloquée. Si un clic sur un lien ne correspond à aucune valeur `linkInternalFilters`, ce lien est considéré comme un lien de sortie. L’URL entière est examinée par rapport à cette variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) est activé, la chaîne de requête est également examinée.
 
@@ -26,9 +26,9 @@ Activity Map utilise cette variable pour aider à déterminer quels liens sont i
 
 ## Liens de sortie dans le SDK Web
 
-Les liens sont automatiquement considérés comme des liens de sortie si le domaine cible du lien diffère de celui en cours. `window.location.hostname`. Le SDK Web ne propose aucune variable de configuration permettant de modifier la détection automatique des liens de sortie. Si vous devez personnaliser les domaines considérés comme un lien de sortie, vous pouvez utiliser une logique personnalisée dans la variable `onBeforeEventSend` rappel.
+Les liens sont automatiquement considérés comme des liens de sortie si le domaine cible du lien diffère du `window.location.hostname` actuel. Le SDK Web ne propose aucune variable de configuration permettant de modifier la détection automatique des liens de sortie. Si vous devez personnaliser les domaines considérés comme un lien de sortie, vous pouvez utiliser une logique personnalisée dans le rappel `onBeforeEventSend`.
 
-Voir [Suivi automatique des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) pour plus d’informations, voir la documentation du SDK Web .
+Consultez [Suivi automatique des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr#automaticLinkTracking) dans la documentation du SDK Web pour plus d’informations.
 
 ## Liens sortants - Ne jamais effectuer le suivi à l’aide de l’extension Adobe Analytics
 
