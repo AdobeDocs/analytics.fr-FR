@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 
 >[!NOTE]
 >
->Pour qu’il soit possible de planifier un classeur, Excel 2007 ou le module de compatibilité doit être installé. Le nombre maximal de classeurs planifiés par licence de Report Builder est de 10. Néanmoins, vous pouvez augmenter ce nombre en utilisant des classeurs d’autres licences. Pour ce faire, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]** > **[!UICONTROL Rapports sur les Reports Builder]**. Un classeur qui a été planifié (ou transféré dans la bibliothèque de classeurs) mais qui n’a pas été modifié (mis à jour ou remplacé) depuis plus de 28 mois sera supprimé.
+>Pour qu’il soit possible de planifier un classeur, Excel 2007 ou le module de compatibilité doit être installé. Le nombre maximal de classeurs planifiés par licence de Report Builder est de 10. Néanmoins, vous pouvez augmenter ce nombre en utilisant des classeurs d’autres licences. Pour ce faire, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de la société]** > **[!UICONTROL Rapports du Report Builder]**. Un classeur qui a été planifié (ou transféré dans la bibliothèque de classeurs) mais qui n’a pas été modifié (mis à jour ou remplacé) depuis plus de 28 mois sera supprimé.
 
 >[!NOTE]
 >
