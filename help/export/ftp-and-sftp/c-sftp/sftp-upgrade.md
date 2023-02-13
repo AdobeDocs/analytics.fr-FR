@@ -1,18 +1,18 @@
 ---
 title: Mise à niveau des services SFTP - FAQ
-description: Questions fréquentes sur la mise à niveau prévue des services SFTP.
+description: Questions fréquentes sur la mise à niveau des services SFTP prévue.
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Mise à niveau des services SFTP - FAQ
 
-À compter du 20 septembre 2022, Adobe Analytics mettra à niveau son protocole de transfert de fichiers sécurisé. [SFTP] afin de fournir une sécurité améliorée pour les transferts de fichiers. Suite à la mise à niveau, certaines configurations de clients SFTP ne seront plus prises en charge. Cela n’a un impact que sur les données envoyées à ou récupérées à partir d’Adobe Analytics par SFTP. Le protocole FTP ne sera pas affecté. Pour éviter toute interruption de service, assurez-vous que vos clients SFTP (code, outils, services) sont compatibles avec les modifications détaillées ci-dessous.
+Le 20 septembre 2022, Adobe Analytics procédera à la mise à niveau de ses services [SFTP] (Secure File Transfer Protocol) afin de fournir une sécurité accrue lors des transferts de fichiers. Suite à la mise à niveau, certaines configurations de clients SFTP ne seront plus prises en charge. Cela n’affecte que les données envoyées ou récupérées depuis Adobe Analytics au moyen du protocole SFTP. Le protocole FTP ne sera pas affecté. Pour éviter toute interruption de service, assurez-vous que vos clients SFTP (code, outils, services) sont compatibles avec les modifications détaillées ci-dessous.
 
 ## Comment puis-je connaître les algorithmes, les types de connexion et les protocoles actuellement utilisés par mon organisation ?
 
@@ -26,7 +26,7 @@ Les fonctionnalités suivantes offrent une option pour télécharger des donnée
 
 * [Classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=fr)
 
-* [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
+* [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=fr)
 
 * [Flux de données](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=fr)
 
