@@ -4,9 +4,9 @@ description: Créez un espace pour personnaliser la manière dont les données s
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 1. Tous les paramètres, y compris l’identifiant d’organisation Experience Cloud, doivent être déjà renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans le catalogue des extensions, recherchez Adobe Analytics et cliquez sur **[!UICONTROL Installer]**.
 
-Consultez la documentation complète pour [Extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) pour plus d’informations.
+Consultez la documentation complète sur l’[extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) pour plus d’informations.
 
 ## Création d’éléments de données pour Adobe Analytics
 
@@ -45,13 +45,13 @@ Les éléments de données sont des références à des composants spécifiques 
    * Nom : nom de la page
    * Extension : Core
    * Type d’élément de données : variable JavaScript
-   * Nom de variable JavaScript : `window.document.title`
+   * Nom de variable JavaScript : `window.document.title`
 
       >[!NOTE]
       >
       >Cette valeur sert d’exemple pour faciliter le démarrage. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
    * Texte clair coché
-   * Durée de stockage : Aucun
+   * Durée de stockage : aucune
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Création de règles pour Adobe Analytics
@@ -60,7 +60,7 @@ Les règles mettent en correspondance les éléments de données avec des valeur
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
-1. Cliquez sur le bouton **[!UICONTROL Règles]** , puis cliquez sur **[!UICONTROL Ajouter une règle]**. Nommez-le `Global Rule`.
+1. Cliquez sur l’onglet **[!UICONTROL Règles]**, puis sur **[!UICONTROL Ajouter une règle]**. Nommez-la `Global Rule`.
 1. Cliquez sur **[!UICONTROL Ajouter]** en regard des événements, puis saisissez les paramètres suivants :
    * Extension : Core
    * Type d’événement : bibliothèque chargée (Haut de la page)
