@@ -1,32 +1,32 @@
 ---
-description: Une suite de rapports définit les rapports indépendants et complets d’un site web choisi, d’un ensemble de sites web ou d’un sous-ensemble de pages Web.
+description: Une suite de rapports définit les rapports indépendants et complets d’un site Web choisi, d’un ensemble de sites Web ou d’un sous-ensemble de pages Web.
 title: Gestionnaire de suites de rapports
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Gestionnaire de suites de rapports
 
-Une suite de rapports définit les rapports indépendants et complets de l’un des entrepôts de données suivants :
+Une suite de rapports définit les rapports indépendants et complets de l’un des entrepôts de données suivants :
 
-* Un seul site web (le plus courant)
+* Un seul site Web (le plus courant)
 
-* Une partie ou un sous-ensemble d’un seul site web
+* Une partie ou un sous-ensemble d’un seul site Web
 
-* Un segment global composé des nombres de plusieurs sites pour obtenir des totaux.
+* Un segment global composé des valeurs de plusieurs sites pour obtenir des totaux
 
 Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 
-Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
+Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
 
-Pour accéder à une suite de rapports :
+Accéder à une suite de rapports :
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cumuls</span> </td> 
-   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Suites de rapports de cumul</a>. </p> </td> 
+   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Reportez-vous à la section  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Suites de rapports de cumul</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 
