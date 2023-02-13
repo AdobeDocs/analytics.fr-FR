@@ -1,22 +1,22 @@
 ---
 title: Algorithmes de chiffrement HTTPS pris en charge
-description: Le 23 juin 2022, nous supprimerons la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est défini sur "Élevé".
+description: Le 23 juin 2022, nous mettrons fin à la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est « Élevé ».
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
 source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # Algorithmes de chiffrement HTTPS pris en charge
 
-Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité de la collecte de données de première main. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec nos serveurs. Les clients prennent par défaut la valeur &quot;Standard&quot;, qui ne prend en charge que les algorithmes de chiffrement modernes. &quot;Élevé&quot; prend en charge une liste plus réduite d’algorithmes de chiffrement pour les clients qui sont plus préoccupés par ces connexions. Pour les deux niveaux de sécurité, Adobe met régulièrement à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
+Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec nos serveurs. Le niveau de sécurité par défaut des clients est « Standard ». Il ne prend en charge que les algorithmes de chiffrement modernes. Le niveau de sécurité « Élevé » prend en charge une liste plus réduite d’algorithmes de chiffrement pour les clients qui sont plus préoccupés par ces connexions. Pour les deux niveaux de sécurité, Adobe met régulièrement à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
-Le 23 juin 2022, nous supprimerons la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;.  Cette modification aura un impact sur la collecte sécurisée des données pour les utilisateurs finaux sur les systèmes d’exploitation plus anciens.
+Le 23 juin 2022, nous mettrons fin à la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est « Élevé ». Cette modification aura un impact sur la collecte sécurisée des données pour les utilisateurs finaux sur les systèmes d’exploitation plus anciens.
 
-Les chiffrements TLS 1.2 suivants ne seront plus pris en charge :
+Les chiffrements TLS 1.2 suivants ne seront plus pris en charge :
 
 * TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
 * TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
@@ -27,13 +27,13 @@ Les chiffrements TLS 1.2 suivants ne seront plus pris en charge :
 * TLS_RSA_WITH_AES_128_GCM_SHA256
 * TLS_RSA_WITH_AES_256_GCM_SHA384
 
-Les clients suivants sont connus pour être affectés par cette modification car ils ne prennent pas en charge les normes de chiffrement actuelles :
+Les clients suivants sont concernés par cette modification, car ils ne prennent pas en charge les normes de chiffrement actuelles :
 
-* Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
-* Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
-* OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
-* iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
+* Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
+* Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
+* OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
+* iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
 
 Les appareils Android ne sont pas affectés par cette modification.
 
-Les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Standard&quot; ne sont pas affectés par cette modification.
+Les clients avec le niveau de sécurité du chiffrement « Standard » ne sont pas affectés par cette modification.
