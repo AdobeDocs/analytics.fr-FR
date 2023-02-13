@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -43,23 +43,23 @@ Voici les types de visualisation disponibles dans Analysis Workspace :
 | [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Utilise des cercles pour représenter le chevauchement des mesures dʼun maximum de 3 segments. |
 
-## Personnalisation des paramètres de visualisation
+## Personnaliser les paramètres de visualisation
 
-Vous pouvez personnaliser les paramètres de visualisation d’une visualisation spécifique ou de toutes les visualisations que vous créez.
+Vous pouvez personnaliser les paramètres de visualisation pour une visualisation individuelle ou pour toutes les visualisations que vous créez.
 
-### Personnalisation des paramètres de visualisation pour une seule visualisation
+### Personnaliser les paramètres de visualisation pour une seule visualisation
 
-Pour accéder à [!UICONTROL Paramètres de visualisation] pour une visualisation individuelle :
+Accéder aux [!UICONTROL Paramètres de visualisation] pour une visualisation individuelle :
 
 1. Dans Analysis Workspace, passez la souris sur la visualisation dont vous souhaitez personnaliser les paramètres.
 
-1. Cliquez sur l’icône d’engrenage.
+1. Cliquez sur l’icône en forme d’engrenage.
 
-   Chaque type de visualisation comporte des paramètres uniques que vous pouvez personnaliser. Pour plus d’informations sur les paramètres disponibles, voir [Paramètres](#settings).
+   Chaque type de visualisation comporte des paramètres uniques que vous pouvez personnaliser. Pour plus d’informations sur les paramètres disponibles, consultez [Paramètres](#settings).
 
-### Personnalisation des paramètres de visualisation pour toutes les visualisations que vous créez
+### Personnaliser les paramètres de visualisation pour toutes les visualisations que vous créez
 
-Vous pouvez personnaliser les paramètres de toutes les visualisations que vous créez. Pour plus d’informations, voir [Préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md).
+Vous pouvez personnaliser les paramètres de toutes les visualisations que vous créez. Pour plus d’informations, consultez [Préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md).
 
 ## Paramètres {#settings}
 
