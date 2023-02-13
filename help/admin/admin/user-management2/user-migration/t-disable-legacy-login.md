@@ -4,8 +4,8 @@ title: Désactiver les comptes hérités
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: tm+mt
-source-wordcount: '185'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
