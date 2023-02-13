@@ -1,29 +1,30 @@
 ---
 title: Accord préalable de gestion du consentement
-description: déterminer les paramètres de confidentialité auxquels un visiteur a donné son accord.
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
-workflow-type: tm+mt
+description: Identifiez les paramètres de confidentialité qu’un visiteur a acceptés.
+exl-id: b2768180-b763-41fb-8cba-665fac047e29
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Accord préalable de gestion du consentement
 
-La dimension &quot;Accord préalable de gestion du consentement&quot; affiche les paramètres de confidentialité auxquels un visiteur a donné son accord. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou consulter les raisons d’inclusion les plus courantes.
+La dimension « Accord préalable de gestion du consentement » affiche les paramètres de confidentialité qu’un visiteur a acceptés. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’accord préalable les plus courantes.
 
-## Renseignement de cette dimension avec des données
+## Renseigner cette dimension avec des données
 
-Cette dimension collecte les données des éléments suivants : [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md):
+Cette dimension collecte les données des [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) suivantes :
 
-* `contextData.['opt.dmp']` lorsque est défini sur `Y`. If `opt.dmp` est égal à `N`, la variable [Exclusion de la gestion du consentement](cm-opt-out.md) est renseignée à la place.
-* `contextData.['opt.sell']` lorsque est défini sur `Y`. If `opt.sell` est égal à `N`, la variable [Exclusion de la gestion du consentement](cm-opt-out.md) est renseignée à la place.
+* `contextData.['opt.dmp']` lorsqu’elle est définie sur `Y`. Si `opt.dmp` est égal à `N`, la dimension [Droit d’opposition de gestion du consentement](cm-opt-out.md) est renseignée à la place.
+* `contextData.['opt.sell']` lorsqu’elle est définie sur `Y`. Si `opt.sell` est égal à `N`, la dimension [Droit d’opposition de gestion du consentement](cm-opt-out.md) est renseignée à la place.
 
-Votre entreprise détermine la logique de mise en oeuvre de ces variables de données contextuelles. Elles ne persistent pas au-delà de l’accès sur lequel elles sont définies. Vous devez donc définir chaque variable de données contextuelles sur chaque page.
+Votre entreprise détermine la logique d’implémentation de ces variables de données contextuelles. Elles ne persistent pas au-delà de l’accès défini. Vous devez donc définir chaque variable de données contextuelles sur chaque page.
 
 ## Éléments de dimension
 
-Les éléments de Dimension comprennent les deux valeurs suivantes :
+Les éléments de dimension comprennent les deux valeurs suivantes :
 
-* **`DMP`**: Le visiteur a choisi de partager des données sur les plateformes de gestion des données. Cet élément de dimension est présent lorsque la variable de données contextuelles `opt.dmp` est égal à `Y`.
-* **`SELL`**: Le visiteur a choisi de partager ou de vendre les données à des tiers. Cette dimension est présente lorsque la variable de données contextuelles `opt.sell` est égal à `Y`.
+* **`DMP`** : le visiteur a accepté le partage sur les plateformes de gestion des données. Cet élément de dimension est présent lorsque la variable de données contextuelles `opt.dmp` est égale à `Y`.
+* **`SELL`** : le visiteur a accepté de partager ou de vendre des données à des tiers. Cette dimension est présente lorsque la variable de données contextuelles `opt.sell` est égale à `Y`.
