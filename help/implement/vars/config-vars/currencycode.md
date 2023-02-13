@@ -4,9 +4,9 @@ description: Pour les sites d’e-commerce, définit la devise utilisée par la 
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Vous pouvez utiliser un code de devise prédéfini ou un code de devise personna
 Le code de devise est transmis aux SDK Adobe Experience Platform Mobile par le biais de variables de données contextuelles dans l’extension Adobe Analytics.
 
 1. Définissez le code de devise dans une variable de données contextuelles pendant `trackState` ou `trackAction`.
-1. Créez une règle de traitement dans les outils d’administration Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable du code de devise.
+1. Créez une règle de traitement dans les outils d’administration d’Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable du code de devise.
 1. Transmettez le code de devise à la variable `products` dans votre appel à `trackState` ou `trackAction`.
 
 Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
