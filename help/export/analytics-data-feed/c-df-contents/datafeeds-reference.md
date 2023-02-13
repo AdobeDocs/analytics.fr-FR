@@ -6,9 +6,9 @@ title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`browser_width`** | Largeur en pixels de la fenêtre du navigateur. | smallint sans signe |
 | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable utilisée dans la dimension [Code de suivi](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variable d’intégration Adobe Advertising Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
+| **`carrier`** | Variable d’intégration Adobe Advertising. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
 | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
 | **`channel`** | Variable utilisée dans la dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -48,7 +48,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`click_context_type`** | N’est plus utilisé. Indique si `click_context` avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
 | **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité ClickMap. | int sans signe |
 | **`click_tag`** | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
-| **`clickmaplink`** | Activity Map    lien | varchar(255) |
+| **`clickmaplink`** | Activity Map     lien | varchar(255) |
 | **`clickmaplinkbyregion`** | Lien d’Activity Map par région | varchar(255) |
 | **`clickmappage`** | Page d’Activity Map | varchar(255) |
 | **`clickmapregion`** | Région d’Activity Map | varchar(255) |
@@ -64,14 +64,14 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`cust_hit_time_gmt`** | Suites de rapports avec horodatage uniquement. Horodatage envoyé avec l’accès, basé sur l’heure Unix. | int |
 | **`cust_visid`** | Si un identifiant visiteur personnalisé est défini, il est indiqué dans cette colonne. | varchar(255) |
 | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien. | tinyint sans signe |
-| **`dataprivacyconsentoptin`** | Variable utilisée dans la variable [Accord préalable de la gestion du consentement](/help/components/dimensions/cm-opt-in.md) dimension. Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides sont les suivantes : `DMP` et `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | Variable utilisée dans la variable [Désinscription de la gestion du consentement](/help/components/dimensions/cm-opt-out.md) dimension. Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides sont les suivantes : `SSF`, `DMP`, et `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | Variable utilisée dans la dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | Variable utilisée dans la dimension [Droit d’opposition de gestion du consentement](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
 | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | **`domain`** | Variable utilisée dans la dimension [Domaine](/help/components/dimensions/domain.md). Basée sur le point dʼaccès Internet du visiteur. | varchar(100) |
 | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |
 | **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour cet accès doit être ignoré, car il s’agit d’un double. | tinyint sans signe |
 | **`duplicated_from`** | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie de l’accès. Indique la suite de rapports à partir de laquelle l’accès a été copié. | varchar(40) |
-| **`ef_id`** | Le `ef_id` utilisé dans les intégrations Adobe Advertising  | varchar(255) |
+| **`ef_id`** | Le `ef_id` utilisé dans les intégrations Adobe Advertising. | varchar(255) |
 | **`evar1 - evar250`** | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un document de conception de solution spécifique à votre organisation. | varchar(255) |
 | **`event_list`** | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Comprend à la fois les événements par défaut et les événements personnalisés 1-1000. Utilise la recherche de `event.tsv`. | text |
 | **`exclude_hit`** | Indicateur signifiant que lʼaccès est exclu de la création de rapports. La colonne `visit_num` nʼest pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
@@ -110,7 +110,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mcvisid`** | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | **`mobile_id`** | Si l’utilisateur utilise un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. | int |
 | **`mobileaction`** | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
-| **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :    `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :     `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Utilisé dans le connecteur de données Aptelignent. L’identifiant d’application utilisé dans Apteligent. | varchar(255) |
 | **`mobileappperformancecrashid`** | Utilisé dans le connecteur de données Aptelignent. L’identifiant de plantage utilisé dans Apteligent. | varchar(255) |
 | **`mobileappstoreobjectid`** | Utilisé dans le connecteur de données AppFigures. Identifiant de l’objet de la boutique d’applications. | varchar(255) |
@@ -125,13 +125,13 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mobilecampaignterm`** | Mots-clés ou autres termes payés dont vous souhaitez effectuer le suivi avec cette acquisition. Renseigné par l’acquisition des applications mobiles. | varchar(255) |
 | **`mobiledayofweek`** | Numéro du jour de la semaine où l’application a été lancée. | varchar(255) |
 | **`mobiledayssincefirstuse`** | Nombre de jours depuis que l’application a été lancée pour la première fois. | varchar(255) |
-| **`mobiledayssincelastupgrade`** | RETIRED : collecté à partir de la variable a.DaysSinceLastUpgrade des données de contexte. Nombre de jours écoulés depuis la session précédente. | varchar(255) |
+| **`mobiledayssincelastupgrade`** | MIS HORS SERVICE - Collecté à partir de la variable a.DaysSinceLastUpgrade des données de contexte. Nombre de jours écoulés depuis la session précédente. | varchar(255) |
 | **`mobiledayssincelastuse`** | Nombre de jours depuis la dernière exécution de l’application. | varchar(255) |
 | **`mobiledeeplinkid`** | Collecté à partir de la variable des données de contexte `a.deeplink.id`. Utilisé dans les rapports d’acquisition comme identifiant du lien d’acquisition mobile. | varchar(255) |
 | **`mobiledevice`** | Nom du périphérique mobile. Sous iOS, il est stocké sous la forme d’une chaîne de 2 chiffres séparés par des virgules. Le premier chiffre représente la génération de l’appareil, le second la famille d’appareils. | varchar(255) |
 | **`mobilehourofday`** | Définit l’heure du jour où l’application a été lancée. Suit un format numérique de 24 heures. | varchar(255) |
 | **`mobileinstalldate`** | Date de l’installation mobile. Indique la date de la première ouverture d’une application mobile par un utilisateur. | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | RETIRED : collecté à partir de la variable a.LaunchesSinceUpgrade des données de contexte. Signale le nombre de lancements depuis la dernière mise à niveau. | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | MIS HORS SERVICE - Collecté à partir de la variable a.LaunchesSinceUpgrade des données de contexte. Signale le nombre de lancements depuis la dernière mise à niveau. | varchar(255) |
 | **`mobilelaunchnumber`** | Est incrémentée d’une unité chaque fois que l’application mobile est lancée. | varchar(255) |
 | **`mobileltv`** | N’est plus utilisé. Renseignée par les méthodes trackLifetimeValue. | varchar(255) |
 | **`mobilemessagebuttonname`** | Collecté à partir de la variable des données de contexte `a.message.button.id`. Utilisé pour la messagerie au sein de l’application afin d’identifier le bouton qui a fermé le message. | varchar(100) |
@@ -139,12 +139,12 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mobilemessageonline`** | Message en ligne dans l’application | varchar(255) |
 | **`mobilemessagepushoptin`** | Collecté à partir de la variable des données de contexte `a.push.optin`. Définissez cette valeur sur « true » lorsque l’utilisateur s’inscrit à la messagerie push ; dans le cas contraire, la valeur qui apparaît est « false ». | varchar(255) |
 | **`mobilemessagepushpayloadid`** | Collecté à partir de la variable des données de contexte `a.push.payloadid`. Utilisé comme identifiant de paiement dans la messagerie push. | varchar(255) |
-| **`mobileosenvironment`** | RETIRED - Collecté à partir de la variable de données contextuelles `a.OSEnvironment`. Indique l’environnement du système d’exploitation, par exemple Andoid ou iOS. | varchar(255) |
+| **`mobileosenvironment`** | MIS HORS SERVICE - Collecté à partir de la variable des données de contexte `a.OSEnvironment`. Indique l’environnement du système d’exploitation, par exemple Andoid ou iOS. | varchar(255) |
 | **`mobileosversion`** | Version du système d’exploitation Mobile Services | varchar(255) |
 | **`mobileplaceaccuracy`** | Collecté à partir de la variable des données de contexte `a.loc.acc`. Indique la précision du GPS en mètres au moment de la collecte des données. | varchar(255) |
 | **`mobileplacecategory`** | Collecté à partir de la variable des données de contexte `a.loc.category`. Décrit la catégorie d’un lieu en particulier. | varchar(255) |
 | **`mobileplaceid`** | Collecté à partir de la variable des données de contexte `a.loc.id`. Identifiant d’un point ciblé donné. | varchar(255) |
-| **`mobilepushoptin`** | Inclusion push dans Mobile Services | varchar(255) |
+| **`mobilepushoptin`** | Abonnement push de Mobile Services | varchar(255) |
 | **`mobilepushpayloadid`** | ID de payload push Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | Contenu du lancement Mobile Services | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | Moyen de lancement de Mobile Services | varchar(255) |
@@ -166,7 +166,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`page_type`** | Utilisé pour renseigner la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). Utilisé exclusivement pour les pages 404. Cette variable doit être vide ou contenir la valeur `ErrorPage`. | char(20) |
 | **`page_url`** | URL de l’accès à la Notez que `post_page_url` est supprimé pour les demandes d’image de suivi de liens et utilise un type de données varchar(255). | text |
 | **`pagename`** | Utilisé pour renseigner la dimension [Page](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
-| **`pagename_no_url`** | Similaire à `pagename`, sauf qu’il ne retourne pas à `page_url`. Seule la variable `post` est disponible. | varchar(100) |
+| **`pagename_no_url`** | Similaire à `pagename`, sauf qu’il ne retourne pas à `page_url`. Seule la colonne `post` est disponible. | varchar(100) |
 | **`paid_search`** | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
 | **`partner_plugins`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(255) |
 | **`persistent_cookie`** | Utilisé dans la dimension [Prise en charge des cookies persistants](/help/components/dimensions/persistent-cookie-support.md). Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque accès. | char(1) |
@@ -184,7 +184,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`ref_type`** | Identifiant numérique représentant le type de référence pour l’accès. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). <br>1 : à l’intérieur de votre site<br>2 : autres sites Web <br>3 : moteurs de recherche <br>4 : disque dur <br>5 : USENET <br>6 : saisi/marqué d’un signet (sans référent) <br>7 : courrier électronique <br>8 : sans JavaScript <br>9 : réseaux sociaux | tinyint sans signe |
 | **`referrer`** | URL de la page précédente. Utilisé dans la dimension [Référent](/help/components/dimensions/referrer.md). Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255) |
 | **`resolution`** | Identifiant numérique représentant la résolution du moniteur. Utilisé dans la dimension [Résolution d’écran](/help/components/dimensions/monitor-resolution.md). Utilise la table de recherche `resolution.tsv`. | smallint sans signe |
-| **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising  | varchar(255) |
+| **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising. | varchar(255) |
 | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
 | **`search_engine`** | Identifiant numérique représentant le moteur de recherche qui a référé le visiteur à votre site. Utilise la recherche de `search_engines.tsv`. | smallint sans signe |
 | **`search_page_num`** | Utilisé par la dimension [Tout le classement des pages de recherche](/help/components/dimensions/all-search-page-rank.md). Indique la page des résultats de recherche sur laquelle votre site est apparu avant que l’utilisateur n’ait cliqué sur votre site. | smallint sans signe |
@@ -208,7 +208,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`sourceid`** | ID Source | int sans signe |
 | **`state`** | Variable d’état. | varchar(50) |
 | **`stats_server`** | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
-| **`survey`** | N’est plus utilisé. Variable Adobe Survey. Seule la variable `post` est disponible. | text |
+| **`survey`** | N’est plus utilisé. Variable Adobe Survey. Seule la colonne `post` est disponible. | text |
 | **`survey_instances`** | N’est plus utilisé. Variable d’instances Adobe Survey. | text |
 | **`t_time_info`** | Heure locale pour le visiteur. Le format est : `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests actuellement autorisés. Le format est : `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
@@ -260,7 +260,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`videonetwork`** | Réseau de la vidéo | varchar(255) |
 | **`videopath`** | Chemin de la vidéo | varchar(100) |
 | **`videoplayername`** | Nom du lecteur vidéo | varchar(255) |
-| **`videotime`** | Temps de la vidéo | entier |
+| **`videotime`** | Durée de la vidéo | entier |
 | **`videoqoebitrateaverageevar`** | Débit en bits moyen de la qualité vidéo | varchar(255) |
 | **`videoqoebitratechangecountevar`** | Nombre de changements au niveau de la qualité vidéo | varchar(255) |
 | **`videoqoebuffercountevar`** | Nombre de tampons pour la qualité vidéo | varchar(255) |
@@ -279,7 +279,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`visid_low`** | Utilisé en combinaison avec `visid_high` pour identifier un visiteur de manière unique. | bigint sans signe |
 | **`visid_new`** | Indicateur pour identifier si l’accès contient un identifiant visiteur nouvellement généré. | char(1) |
 | **`visid_timestamp`** | Si l’identifiant visiteur a été récemment généré, cette variable fournit l’horodatage (en heure Unix) du moment où l’identifiant visiteur a été généré. | int |
-| **`visid_type`** | Uniquement destinée à un usage interne. Utilisée en interne par Adobe pour les optimisations de traitement. Identifiant numérique représentant la méthode utilisée pour identifier le visiteur.<br>`0`: Identifiant visiteur personnalisé ou Inconnu/non applicable<br>`1`: Abandon IP et agent utilisateur <br>`2`: En-tête d’abonné mobile HTTP <br>`3`: Valeur de cookie héritée (`s_vi`) <br>`4`: Valeur du cookie de secours (`s_fid`) <br>`5`: Identity Service | tinyint sans signe |
+| **`visid_type`** | Uniquement destinée à un usage interne. Utilisée en interne par Adobe pour les optimisations de traitement. Identifiant numérique représentant la méthode utilisée pour identifier le visiteur.<br>`0` : identifiant visiteur personnalisé ou inconnu/non applicable <br>`1` : solution de secours de l’IP et de l’agent utilisateur <br>`2` : en-tête de l’abonné mobile HTTP <br>`3` : valeur du cookie hérité (`s_vi`) <br>`4` : valeur du cookie de secours (`s_fid`) <br>`5` : Service d’identités | tinyint sans signe |
 | **`visit_keywords`** | Variable utilisée dans la dimension [Mot-clé de recherche](/help/components/dimensions/search-keyword.md). Cette colonne utilise une limite de caractères non standard pour varchar(244) pour s’adapter à la logique de back-end utilisée par Adobe. | varchar(244) |
 | **`visit_num`** | Variable utilisée dans la dimension [Nombre de visites](/help/components/dimensions/visit-number.md). Commence à 1, et est incrémentée chaque fois qu’une nouvelle visite commence par visiteur. | int sans signe |
 | **`visit_page_num`** | Variable utilisée dans la dimension [Détail des accès](/help/components/dimensions/hit-depth.md). Augmente de 1 pour chaque accès que l’utilisateur génère. Réinitialise chaque visite. | int sans signe |
