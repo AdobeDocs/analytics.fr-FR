@@ -4,9 +4,9 @@ description: Permet la déduplication des mesures sur votre site.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 >
 >Si vous souhaitez dédupliquer l’événement [`purchase`](event-purchase.md), utilisez plutôt la variable [`purchaseID`](../purchaseid.md).
 
-## Utilisation des ID d’événement à l’aide du SDK Web
+## Utiliser des identifiants d’événement à l’aide du SDK Web
 
-La sérialisation des événements est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM d’événement souhaité `id`. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
+La sérialisation des événements est [mappée pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous l’`id` du champ XDM souhaité. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
 
-Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez la variable `commerce.productListAdds.id` Champ XDM vers la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez la variable `_experience.analytics.event1to100.event20` Champ XDM vers la valeur de sérialisation souhaitée.
+Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez le champ XDM `commerce.productListAdds.id` sur la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez le champ XDM `_experience.analytics.event1to100.event20` sur la valeur de sérialisation souhaitée.
 
-## Utilisation des ID d’événement à l’aide de l’extension Adobe Analytics
+## Utiliser les identifiants d’événement à l’aide de l’extension Adobe Analytics
 
 Vous pouvez définir le champ Identifiant d’événement lors de la configuration de l’extension Analytics (variables globales) ou en tant qu’action dans une règle.
 
@@ -51,7 +51,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 
 Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous saisissez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.
 
-## Utilisation des ID d’événement dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
+## Utiliser les identifiants d’événement dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
 La sérialisation des événements fait partie de la variable `s.events`. Attribuez un identifiant à chaque événement à l’aide d’un deux-points dans la chaîne.
 
