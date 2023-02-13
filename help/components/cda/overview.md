@@ -3,9 +3,9 @@ title: Analyses entre appareils
 description: Modifiez vos données pour passer des données axées sur les appareils aux données axées sur les personnes en regroupant les données des appareils.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,8 +47,8 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Les suites de rapports d’Adobe Analytics ne peuvent pas mapper plus d’une ID d’organisation. Étant donné que CDA regroupe des appareils dans une suite de rapports donnée, vous ne pouvez pas l’utiliser pour regrouper des données entre plusieurs ID d’organisation.
 * L’analyse entre appareils utilise un pipeline de traitement complexe, incorporant plusieurs composants dépendants. Cette opération s’exécute en parallèle du workflow de rapports Analytics de base. Il faut donc s’attendre à une discordance de données d’environ 1 % pour le nombre total d’accès entre la suite de rapports d’origine et la suite de rapports virtuelle des analyses entre appareils.
-* Les analyses entre appareils utilisent une suite de rapport virtuelle et untraitement du temps de la période de rapport, qui ont leurs propres limites. Par exemple, ils ne prennent actuellement pas en charge les variables de canaux marketing. Voir [Suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) et [Traitement de la période de rapport](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations) pour en savoir plus sur ces limitations.
-* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=fr) dans Experience Cloud et Adobe Analytics. Cependant, les suites de rapports virtuelles des analyses entre appareils (qu’elles soient basées sur Private Graph ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles des analyses entre appareils.
+* Les analyses entre appareils utilisent une suite de rapport virtuelle et untraitement du temps de la période de rapport, qui ont leurs propres limites. Par exemple, ils ne prennent actuellement pas en charge les variables de canaux marketing. Voir [Suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) et [Traitement de la période de rapport](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=fr#report-time-processing-limitations) pour en savoir plus sur ces limitations.
+* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr#customer-attributes) dans Experience Cloud et Adobe Analytics. Cependant, les suites de rapports virtuelles des analyses entre appareils (qu’elles soient basées sur Private Graph ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles des analyses entre appareils.
 * Pour le moment, les analyses entre appareils ne sont pas compatibles avec A4T.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * La surveillance active par Adobe du processus d’assemblage des analyses entre appareils se limite uniquement aux suites de rapports de production.
