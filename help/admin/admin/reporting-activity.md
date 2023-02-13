@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Dans Adobe Analytics, les administrateurs accèdent à **[!UICONTROL Administrat
 
 ## Autorisations
 
-Vous avez besoin de l’autorisation Administrateur de produit Analytics (dans Adobe Admin Console) pour gérer l’activité de création de rapports.
+Vous avez besoin de l’autorisation d’administrateur produit Analytics (dans Adobe Admin Console) pour gérer les activités de rapports.
 
-Autorisation ![](/help/admin/admin/assets/rep-mgr-permission.png)
+![autorisation](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## Afficher la file d’attente des rapports
 
@@ -122,7 +122,7 @@ Pour annuler une requête
 
 1. Cochez la case à gauche d’un ou de plusieurs **[!UICONTROL ID de requête]** dans le tableau, puis cliquez sur **[!UICONTROL Annuler les requêtes]** en bas.
 
-   Vous pouvez également annuler des requêtes en bloc en affichant les détails par [!UICONTROL Utilisateur], [!UICONTROL Projet] ou [!UICONTROL Application]. Les demandes suivantes pour un projet, un utilisateur ou une application qui n’étaient pas dans la file d’attente ou qui ne s’exécutaient pas au moment de l’annulation peuvent toujours apparaître lorsque l’activité est actualisée.
+   Vous pouvez également annuler des requêtes en bloc en affichant les détails par [!UICONTROL Utilisateur], [!UICONTROL Projet] ou [!UICONTROL Application]. Les demandes ultérieures pour un projet, un utilisateur ou une application qui n’étaient pas dans la file d’attente ou en cours d’exécution au moment de l’annulation peuvent encore apparaître lorsque l’activité est actualisée.
 
 1. Dans la fenêtre **[!UICONTROL Annuler x requête]** qui s’affiche, vous pouvez modifier le message d’annulation, si nécessaire.
 1. Cliquez sur **[!UICONTROL Continuer]**.
