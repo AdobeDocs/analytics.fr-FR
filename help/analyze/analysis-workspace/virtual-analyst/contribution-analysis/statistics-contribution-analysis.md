@@ -4,9 +4,9 @@ title: Techniques statistiques de l’analyse des contributions
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour y parvenir, l’analyse des contributions exécute un algorithme en deux é
 
    ![](assets/cramers-v.png)
 
-1. Pour chaque élément de dimension, le résiduel de Pearson sert à mesurer l’association entre la mesure anormale et chaque élément de dimension. Le résiduel par personne applique une distribution normale standard, ce qui permet à l’algorithme de comparer cette valeur pour deux variables aléatoires même si l’écart n’est pas comparable. En pratique, l’erreur est indéterminée et est estimée en appliquant une correction d’échantillonnage finie.
+1. Pour chaque élément de dimension, le résidu de Pearson sert à mesurer l’association entre la mesure anormale et chaque élément de dimension. Le résiduel par personne applique une distribution normale standard, ce qui permet à l’algorithme de comparer cette valeur pour deux variables aléatoires même si l’écart n’est pas comparable. En pratique, l’erreur est indéterminée et est estimée en appliquant une correction d’échantillonnage finie.
 
    Dans le tableau 1 du précédent exemple, le résiduel par personne, avec la correction d’échantillonnage finie pour le pays i et la période 2 est calculé comme suit :
 
