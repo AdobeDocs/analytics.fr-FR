@@ -4,9 +4,9 @@ description: Définissez la variable events, qui gouverne la plupart des mesures
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 source-git-commit: 62f793491d2f95266a71bc217260353f8c040525
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,20 +18,20 @@ Avant d’implémenter des événements, veillez à les créer et à les configu
 
 ## Événements utilisant le SDK Web
 
-Les événements personnalisés sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM suivants :
+Les événements personnalisés sont [mappés pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM suivants :
 
-* Les événements personnalisés 1 à 100 sont mappés sur `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
-* Les événements personnalisés 101 à 200 sont mappés sur `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
-* Ce modèle répète tous les 100 événements sur `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` est utilisé pour spécifier le montant à incrémenter. `eventx.id` est utilisé pour [sérialisation](event-serialization.md).
-* Les commandes sont associées à `commerce.purchases.value`.
-* Les unités sont mappées à la somme de tous les `productListItems[].quantity` champs.
-* Les recettes sont mises en correspondance avec la somme de toutes les `productListItems[].priceTotal` champs.
-* Les vues de produits sont mappées sur `commerce.productListViews.value`.
-* Les paniers sont associés à `commerce.productListOpens.value`.
-* Les ajouts au panier sont mappés sur `commerce.productListAdds.value`.
-* Les retraits du panier sont associés à `commerce.productListRemovals.value`.
-* Les vues du panier sont mappées sur `commerce.productListViews.value`.
-* Les passages en caisse sont mappés sur `commerce.checkouts.value`.
+* Les événements personnalisés 1 à 100 sont mappés à `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* Les événements personnalisés 101 à 200 sont mappés à `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* Ce modèle se répète tous les 100 événements sur `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` est utilisé pour spécifier le montant à incrémenter. `eventx.id` est utilisé pour la [sérialisation](event-serialization.md).
+* Les commandes sont mappées à `commerce.purchases.value`.
+* Les unités sont mappées à la somme de tous les champs `productListItems[].quantity`.
+* Le chiffre d’affaires est mappé à la somme de tous les champs `productListItems[].priceTotal`.
+* Les consultations de produits sont mappées à `commerce.productListViews.value`.
+* Les paniers sont mappés à `commerce.productListOpens.value`.
+* Les ajouts au panier sont mappés à `commerce.productListAdds.value`.
+* Les retraits du panier sont mappés à `commerce.productListRemovals.value`.
+* Les consultations du panier sont mappées à `commerce.productListViews.value`.
+* Les passages en caisse sont mappés à `commerce.checkouts.value`.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Plusieurs fonctionnalités sont disponibles :
 * Une liste déroulante vous permet de sélectionner l’événement à inclure.
 * Champ de texte facultatif pour la sérialisation. Voir [Sérialisation des événements](event-serialization.md) pour plus d’informations.
 * Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` sous la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 pour les rapports.
-* Bouton permettant d’ajouter un autre événement. Vous pouvez ajouter autant d’événements que vous le souhaitez à une seule règle dans la raison.
+* Bouton permettant d’ajouter un autre événement. Vous pouvez ajouter autant d’événements que vous le souhaitez à une seule règle, dans la limite du raisonnable.
 
 ## s.events dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
