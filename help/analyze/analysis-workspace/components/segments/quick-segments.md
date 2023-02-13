@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 65%
 
 Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Segments rapides
 
-* Appliquer comme [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F).
+* Appliquez-les en tant que [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr#what-are-project-only-segments).
 * Autorisent jusquʼà 3 règles.
 * Ne prennent pas en compte les conteneurs imbriqués ni les règles séquentielles.
 
-Pour une comparaison des effets des segments rapides par rapport aux segments complets de la liste des composants, rendez-vous [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md).
+Accédez [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) à une comparaison des effets des segments rapides par rapport aux segments complets de la liste des composants.
 
-Voici un aperçu vidéo des segments rapides :
+Regardez cet vidéo de présentation des segments rapides :
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
@@ -43,7 +43,7 @@ Configurez le segment rapide vierge :
 | --- | --- |
 | Nom | Le nom par défaut dʼun segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment. |
 | Inclure/exclure | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
-| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. A [!UICONTROL Visite] conteneur vous permet de définir des règles pour ventiler les données du visiteur en fonction des visites, et une [!UICONTROL Accès] conteneur vous permet de ventiler les informations sur les visiteurs en fonction de pages vues individuelles. Le conteneur par défaut est [!UICONTROL Accès]. |
+| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=fr#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites. Un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
 | Composants (Dimension/mesure/période) | Définissez jusquʼà 3 règles maximum en ajoutant des composants (dimensions et/ou mesures et/ou périodes) et leurs valeurs. Il existe trois manières différentes de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segments rapides] trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
 | Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
 | Signe plus (+) | Ajouter une autre règle |
@@ -81,23 +81,23 @@ Le segment sʼaffiche en haut. Remarquez sa barre latérale rayée bleue, par op
 1. (Facultatif) Renommez le segment.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-La barre latérale du segment passe du bleu réparti par bandes au bleu plus clair. Il apparaît également dans la liste des composants du rail de gauche.
+Vous remarquerez que la barre latérale du segment passe de bleu rayé à bleu clair. Elle apparaît également dans la liste des composants du rail de gauche.
 
-## Que sont les segments réservés à un projet unique ?
+## Que sont les segments de projet uniquement ?
 
-Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Elles sont destinées à une exploration rapide de vos données sans avoir à créer et enregistrer un segment dans le rail de gauche. Les segments de projet uniquement peuvent être créés dans la zone de dépôt du panneau avec les segments rapides ou [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
+Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Ils vous servent à explorer rapidement de vos données sans avoir à créer ni à enregistrer un segment dans le rail de gauche. Il est possible de créer des segments de projet uniquement dans la zone de dépôt du panneau à l’aide de segments rapides ou de [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=fr).
 
-Si un segment de projet uniquement est ouvert dans la variable [!UICONTROL Créateur de segments], une notification de projet uniquement s’affiche. Si vous ne cochez pas la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL APPLIQUER]**, le segment reste un segment réservé au projet. Remarque : Si vous appliquez un segment rapide à partir du créateur de segments, il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapide].
+Si un segment de projet uniquement est ouvert dans le [!UICONTROL Créateur de segments], une notification de projet uniquement s’affiche. Si vous ne cochez pas la case « Rendre ce segment disponible » et que vous cliquez sur **[!UICONTROL APPLIQUER]**, le segment reste un segment de projet uniquement. Remarque : si vous appliquez un segment rapide à partir du Créateur de segments, il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapides].
 
 ![Case à cocher « Sʼapplique au projet uniquement » décochée](assets/project-only-unchecked.png)
 
-Si vous cochez la case &quot;Rendre ce segment disponible&quot;. et cliquez sur **[!UICONTROL ENREGISTRER]**, le segment devient disponible dans la liste des composants du rail de gauche pour être utilisé dans d’autres projets. Il peut également être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.
+Si vous cochez la case « Rendre ce segment disponible » et que vous cliquez sur **[!UICONTROL ENREGISTRER]**, le segment devient disponible dans la liste des composants du rail de gauche pour être utilisé dans d’autres projets. Il peut également être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.
 
 ![Case à cocher « Sʼapplique au projet uniquement » cochée](assets/project-only-checked.png)
 
 ## Problème connu
 
-1. Créez un segment rapide avec 2 entrées et **[!UICONTROL Enregistrer]** en tant que Test1.
+1. Créez un segment rapide avec 2 entrées et **[!UICONTROL Enregistrez]**-le en tant que Test1.
 1. Cliquez sur **[!UICONTROL Enregistrer sous]** et enregistrez ce segment rapide en tant que Test2.
 1. Modifiez le segment rapide Test2 et enregistrez-le à nouveau en tant que Test2.
 Notez que le segment rapide Test1 est modifié par Test2.
