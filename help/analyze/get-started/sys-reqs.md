@@ -4,8 +4,8 @@ description: Configuration requise pour l’utilisation d’Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: tm+mt
-source-wordcount: '125'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
