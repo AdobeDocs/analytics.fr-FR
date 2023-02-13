@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '718'
 ht-degree: 16%
 
 ---
@@ -19,16 +19,18 @@ ht-degree: 16%
 
    | Option | Fonction |
    |---------|----------|
+   | [!UICONTROL **Approuvés**] | Afficher uniquement les composants marqués comme Approuvés par un administrateur. |
+   | [!UICONTROL **Favoris**] | Afficher uniquement les composants qui se trouvent dans votre liste de Favoris. Pour plus d’informations sur l’ajout de composants à votre liste de favoris, voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensions**] | Afficher uniquement les composants qui sont des Dimensions. (Cette option est également disponible dans la variable [!UICONTROL **Filtres rapides**] lorsque vous accédez au dictionnaire de données pour la première fois.) |
    | [!UICONTROL **Mesures**] | Afficher uniquement les composants qui sont des mesures. (Cette option est également disponible dans la variable [!UICONTROL **Filtres rapides**] lorsque vous accédez au dictionnaire de données pour la première fois.) |
    | [!UICONTROL **Segments**] | Afficher uniquement les composants qui sont des segments. (Cette option est également disponible dans la variable [!UICONTROL **Filtres rapides**] lorsque vous accédez au dictionnaire de données pour la première fois.) <!--this is Filters in CJA--> |
    | [!UICONTROL **Périodes**] | Afficher uniquement les composants qui sont des périodes. (Cette option est également disponible dans la variable [!UICONTROL **Filtres rapides**] lorsque vous accédez au dictionnaire de données pour la première fois.) |
+   | [!UICONTROL **Tout afficher**] | Afficher tous les composants. Cette option est disponible uniquement pour les administrateurs. |
+   | [!UICONTROL **Non approuvé**] | Afficher uniquement les composants qui ne sont pas encore marqués comme Approuvés par un administrateur. En tant qu’administrateur, cela s’avère utile pour identifier les composants qui nécessitent votre révision et votre approbation. Cette option est disponible uniquement pour les administrateurs. |
    | [!UICONTROL **Description manquante**] | Afficher uniquement les composants qui n’ont pas encore de description dans le champ Description . Cette option est disponible uniquement pour les administrateurs. |
-   | [!UICONTROL **Doublons**] | Afficher uniquement les composants qui ont le même libellé ou la même description qu’un autre composant de la suite de rapports sélectionnée. Cette option est disponible uniquement pour les administrateurs. Les libellés ou descriptions doivent correspondre exactement pour s’afficher en tant que doublons. |
-   | [!UICONTROL **Aucune donnée récemment**] | Afficher uniquement les composants qui n’ont collecté aucune donnée au cours des 90 derniers jours. Cette option est disponible uniquement pour les administrateurs. |
-   | [!UICONTROL **Créé par Adobe**] | Afficher uniquement les composants qui ont été créés par Adobe. Les composants créés par un administrateur ou un autre utilisateur de votre entreprise ne s’affichent pas. |
-   | [!UICONTROL **Approuvés**] | Afficher uniquement les composants marqués comme Approuvés par un administrateur. |
-   | Non approuvé (disponible uniquement pour les administrateurs) | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **Afficher les doublons**] | Afficher uniquement les composants qui ont le même libellé ou la même description qu’un autre composant de la suite de rapports sélectionnée. Les libellés ou descriptions doivent correspondre exactement pour s’afficher en tant que doublons. Cette option est disponible uniquement pour les administrateurs. |
+   | [!UICONTROL **Aucune donnée récente**] | Afficher uniquement les composants qui n’ont collecté aucune donnée au cours des 90 derniers jours. Cette option est disponible uniquement pour les administrateurs. |
+   | [!UICONTROL **Créé par Adobe**] <!-- I don't see this option--> | Afficher uniquement les composants qui ont été créés par Adobe. Les composants créés par un administrateur ou un autre utilisateur de votre entreprise ne s’affichent pas. |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -44,7 +46,7 @@ ht-degree: 16%
 | [!UICONTROL **Type de composant**] | Répertorie le type de composant qu’il est, qu’il s’agisse d’une Dimension, d’une mesure, d’un segment ou d’une période. |
 | [!UICONTROL **Créé par**] | Affiche le nom de l’utilisateur qui a créé le composant. |
 | [!UICONTROL **Aperçu**] | Affiche un aperçu de l’apparence du composant dans Analysis Workspace. |
-| [!UICONTROL **Date de dernière modification**] | Affiche le jour de la dernière modification du composant. Cette section s’affiche lorsque vous affichez des segments, des mesures calculées et des plages de dates. <!--for CJA, it is displayed for all components--> |
+| [!UICONTROL **Date de la dernière modification**] | Affiche le jour de la dernière modification du composant. Cette section s’affiche lorsque vous affichez des segments, des mesures calculées et des plages de dates. <!--for CJA, it is displayed for all components--> |
 
 {style=&quot;table-layout:auto&quot;}
 
