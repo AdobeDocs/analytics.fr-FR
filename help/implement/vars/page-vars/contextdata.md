@@ -4,9 +4,9 @@ description: Les variables de données contextuelles vous permettent de définir
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Les variables de données contextuelles permettent aux équipes de développemen
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
+Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
 
 Bien qu’il soit recommandé de mapper les données aux champs XDM corrects dans le flux de données, cette méthode obtient des résultats similaires.
 
 ## Variables de données contextuelles utilisant l’extension Adobe Analytics
 
-La collecte de données Adobe Experience Platform ne dispose pas d’un emplacement dédié pour définir des variables de données contextuelles. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+La collecte de données Adobe Experience Platform ne dispose pas d’un emplacement dédié pour la définition des variables de données contextuelles. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
 ## s.contextData dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
