@@ -1,22 +1,22 @@
 ---
-description: Explique les améliorations apportées au transfert côté serveur, rendues essentielles par la réglementation européenne sur les cookies.
+description: Explique les améliorations apportées au transfert côté serveur, rendues essentielles par le règlement de l’UE sur les cookies.
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 
-Cette section explique les améliorations apportées au transfert côté serveur, rendues possibles par le [Règlement européen sur la conformité aux cookies](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+et+technologies+similaires), qui est entré en vigueur le 30 septembre 2017.
+Cette section décrit les améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+et+technologies+similaires).
 
 Le transfert côté serveur permet de partager en temps réel des données d’Adobe Analytics vers d’autres [!DNL Experience Cloud Solutions], telles qu’Audience Manager. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
 
-Auparavant, le transfert côté serveur ne pouvait pas distinguer les événements/accès de consentement préalable et de consentement. Depuis le 1er novembre 2018, en tant que responsable du traitement des données (client Adobe Analytics), vous avez la possibilité de restreindre les données préconsentement à Adobe Analytics et d’empêcher qu’elles ne soient transférées à AAM. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Une fois définie, la variable empêche l’envoi de ces accès vers AAM jusqu’à réception du consentement.
+Auparavant, le transfert côté serveur ne pouvait pas faire la distinction entre les événements/accès postconsentement et préconsentement. Depuis le 1er novembre 2018, en tant que responsable du traitement des données (client Adobe Analytics), vous avez la possibilité de restreindre les données préconsentement à Adobe Analytics et d’empêcher qu’elles ne soient transférées à AAM. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Une fois définie, la variable empêche l’envoi de ces accès vers AAM jusqu’à réception du consentement.
 
 Quand cette nouvelle variable contextuelle `cm.ssf=1` existe sur un accès, cet accès est identifié et n’est pas transféré côté serveur vers AAM. Inversement, si cette chaîne n’apparaît pas sur un accès, celui-ci est transféré à AAM.
 
@@ -28,8 +28,8 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 
 | Méthode de mise en œuvre | Étapes |
 |--- |--- |
-| Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : Définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
-| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
+| Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
+| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 
 ## Reporting (facultatif) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
