@@ -4,9 +4,9 @@ description: Informations sur la collecte de données régionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 60c2422ef32a4fadbb975006c111d12878a98f53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud utilise la collecte de données régionales (RDC) afin qu
 
 >[!IMPORTANT]
 >
->Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. L’optimisation des performances d’Adobe en Chine continentale permet aux clients ayant des utilisateurs en Chine d’envoyer ces données directement vers les serveurs de collecte de périphérie d’Adobe en Chine, plutôt qu’ailleurs dans le monde. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Notez que les données sont finalement transférées vers l’un des centres de traitement de données (DPC) d’Adobe en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
+>Le package de composants additionnels de collecte de données régionales pour la Chine (RDC Chine, optimisation des performances en Chine) est un module complémentaire payant pour Adobe Analytics. Lʼoptimisation des performances dʼAdobe en Chine continentale permet aux clients ayant des utilisateurs à lʼintérieur de la Chine dʼenvoyer directement ces données aux serveurs de collecte de périphérie Adobe en Chine, plutôt quʼà dʼautres emplacements à lʼéchelle mondiale. Cela améliore le temps de chargement des pages et la précision des données par rapport à lʼenvoi de données à des nœuds situés en dehors de la Chine. Notez que les données sont finalement transférées vers l’un des centres de traitement de données d’Adobe en dehors de la Chine. Pour plus dʼinformations, contactez votre représentant commercial Adobe.
 
 La collecte de données régionale inclut actuellement les emplacements suivants (sujets à modification) :
 
@@ -47,7 +47,7 @@ La collecte de données régionale inclut actuellement les emplacements suivants
 
 >[!NOTE]
 >
->Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux.  Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez lʼassistance clientèle dʼAdobe pour obtenir de lʼaide.
+>Experience Edge Global offre les meilleures performances pour vos utilisateurs finaux. Si vous souhaitez utiliser un autre type de collecte de données régionale, contactez lʼassistance clientèle dʼAdobe pour obtenir de lʼaide.
 
 ## Avantages de la collecte de données régionale
 
