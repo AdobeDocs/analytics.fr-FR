@@ -4,9 +4,9 @@ description: Identifiez dynamiquement les robots à l’aide des mouvements de s
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Ce module effectue deux vérifications :
 
 Si l’agent utilisateur se trouve sur un bureau et qu’aucun mouvement de souris n’est détecté, le plug-in peut
 
-* effectuer un appel de règle d’appel direct à l’aide du SDK Web ou de l’extension Adobe Analytics ; ou
+* Effectuer un appel de règle d’appel direct à l’aide du SDK Web ou de l’extension Adobe Analytics ; ou
 * Effectuer un appel de suivi des liens pour indiquer que le visiteur n’est pas un robot.
 
 ## Conditions préalables
