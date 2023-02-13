@@ -1,17 +1,17 @@
 ---
 description: Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports.
 subtopic: Processing rules
-title: Règles de traitement - Présentation
+title: Règles de traitement - Aperçu
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# Règles de traitement - Présentation
+# Règles de traitement - Aperçu
 
 Les règles de traitement simplifient la collecte de données et gèrent le contenu lorsqu’il est envoyé pour la création de rapports. Ces règles fournissent une interface pour effectuer les opérations suivantes, ce qui se traduit par une interaction plus aisée avec les groupes informatiques et les développeurs Web :
 
@@ -60,4 +60,4 @@ Voir [Copier une variable de données contextuelles dans une eVar](/help/admin/a
 
 ## Limites connues
 
-**Utilisation de carats (^) dans les règles de traitement.** Si vous souhaitez utiliser des carats dans les règles de traitement comme délimiteurs ou à d’autres fins, chaque carat doit être représenté par deux carats. Par exemple, représenter un seul panier comme ^^, un double panier comme ^^^^, etc.
+**Utilisation de carats (^) dans les règles de traitement.** Si vous souhaitez utiliser des carats dans les règles de traitement comme délimiteurs ou à d’autres fins, chaque carat doit être représenté par deux carats. Par exemple, représentez un carat simple par ^^, un carat double par ^^^^, etc.
