@@ -5,13 +5,13 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics utilise des indications du client à entropie élevée pour améliorer l’identification des appareils et des navigateurs. Cette option est disponible à partir de la version 2.23.0 du fichier AppMeasurement.js. Consultez [cette présentation et cette FAQ](/help/technotes/client-hints.md) ainsi que le [blog Google](https://web.dev/user-agent-client-hints/) pour en savoir plus sur les indications du client.
+Adobe Analytics utilise des indications du client à entropie élevée pour améliorer l’identification des appareils et des navigateurs. Cette option est disponible à partir de la version 2.23.0 d’AppMeasurement.js. Consultez [cette présentation et cette FAQ](/help/technotes/client-hints.md) ainsi que le [blog Google](https://web.dev/user-agent-client-hints/) pour en savoir plus sur les indications du client.
 
 ## Collecter des indications à entropie élevée en utilisant le SDK Web
 

@@ -6,7 +6,7 @@ exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ Les modifications apportées au menu s’appliquent à tous les utilisateurs qui
 
 >[!NOTE]
 >
->Les changements apportés à la structure de menus n’ont aucune incidence sur le Report Builder. Le changement du nom d’un rapport est toutefois pris en compte dans cet outil.
+>Les changements apportés à la structure de menu n’ont aucune incidence sur Report Builder. En revanche, le changement du nom d’un rapport se répercute dans cet outil.
 
 Pour personnaliser les menus que les utilisateurs voient dans Reports &amp; Analytics :
 

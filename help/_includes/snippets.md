@@ -2,7 +2,7 @@
 source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 7%
+ht-degree: 16%
 
 ---
 # Extraits
@@ -48,15 +48,15 @@ ht-degree: 7%
 
 {style=&quot;table-layout:auto&quot;}
 
-## Test limité de la phase de publication {#release-limited-testing}
+## Tests limités de la phase de publication {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cet article se trouvent dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
+>Les fonctionnalités décrites dans cet article se trouvent dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 ## Section Tests limités de la phase de publication {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cette section se trouvent dans la phase Tests limités de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, voir [Versions des fonctionnalités d’Adobe Analytics](/help/release-notes/releases.md).
+>Les fonctionnalités décrites dans cette section se trouvent dans la phase Tests limités de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 

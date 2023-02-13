@@ -6,7 +6,7 @@ exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 La fonction `getPercentPageViewed` utilise les arguments suivants :
 
-* **`pid`** (facultatif, chaîne) : Variable ou valeur égale à la page active. Par défaut : Analytics AppMeasurement `pageName` OU l’URL active si la variable pageName AppMeasurement n’est pas définie.
+* **`pid`** (facultatif, chaîne) : une variable ou une valeur égale à la page active. Sa valeur par défaut est la variable Analytics AppMeasurement `pageName` OU l’URL actuelle si cette variable AppMeasurement pageName n’est pas définie.
 * **`ch`** (facultatif, booléen) : définissez cet argument sur `false` (ou `0`) si vous ne souhaitez pas que le plug-in prenne en compte les modifications apportées à la taille d’une page après son chargement initial. S’il est ignoré, cet argument prend par défaut la valeur `true`. Dans la plupart des cas, Adobe recommande d’ignorer cet argument.
 
 Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les variables suivantes :
@@ -66,7 +66,7 @@ Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les vari
 * `window._ppvPreviousPage` : nom de la page précédente consultée. Les mesures finales de défilement de la page active ne sont disponibles qu’après le chargement d’une nouvelle page.
 * `window._ppvInitialPercentViewed` : pourcentage de la page précédente qui était visible lors du premier chargement de la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
 * `window._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Point le plus éloigné vers lequel le visiteur a fait défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
-* `window._ppvFinalPercentViewed`: Pourcentage de la page précédente qui était visible au moment où le visiteur a accédé à la page active. Cette valeur sera égale ou supérieure au pourcentage initial affiché et sera également égale ou inférieure au pourcentage le plus élevé affiché.
+* `window._ppvFinalPercentViewed` : pourcentage de la page précédente qui était visible au moment où le visiteur a accédé à la page active. Cette valeur est égale ou supérieure au pourcentage initial affiché et également égale ou inférieure au pourcentage le plus élevé affiché.
 * `window._ppvHighestPixelsSeen` : nombre total de pixels le plus élevé affiché (en termes de hauteur) pendant que le visiteur faisait défiler la page précédente.
 * `window._ppvFoldsAvailable` : nombre total de « plis de page » disponibles pour faire défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `1`.
 * `window._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible lors du premier chargement, cette valeur est `1`.
@@ -102,15 +102,15 @@ if(_ppvPreviousPage)
 
 ## Historique des versions
 
-### 5.1 (8 décembre 2022)
+### 5.1 (8 décembre 2022)
 
-* Ajout de la fonction `_finalPercentViewed` solution
+* Ajout de la solution `_finalPercentViewed`
 
 ### 5.0.1 (22 juin 2021)
 
 * Correction dʼun problème en raison duquel certains caractères spéciaux entraînaient le dysfonctionnement du plug-in.
 
-### 5.0 (19 mars 2021)
+### 5.0 (19 mars 2021)
 
 * Ajout du numéro de version comme donnée contextuelle.
 

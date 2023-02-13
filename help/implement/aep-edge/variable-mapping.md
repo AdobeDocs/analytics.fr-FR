@@ -3,7 +3,7 @@ title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 

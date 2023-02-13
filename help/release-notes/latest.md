@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 43%
+ht-degree: 51%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (février 2023)
+# Notes de mise à jour actuelles d’Adobe Analytics (Février 2023)
 
 **Dernière mise à jour** : le 9 février 2023
 
@@ -27,16 +27,16 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 
 {style=&quot;table-layout:auto&quot;}
 
-## Correctifs dans Adobe Analytics
+## Correctifs dans Adobe Analytics  
 
 -302282 ; AN-303127 ; AN-303541 ; AN-303550 ; AN-305282 ; AN-306504 ; AN-307351 ; AN-307496 ; AN-307530 ; AN-307947 ; AN-308497 ; AN- ; AN-308610 ; AN-308777 ; AN-308994 ; AN-309143 ; AN-309404 ; AN-309414 ; AN-309445 ; AN-309575 ; AN-309630 ; AN-309658 ; AN-309690 ; AN-309742 ; AN-309861 ; AN-309967 ; AN-309973 ; AN-310059 ; AN-310132 ; AN-310168 ; AN-310238 ; AN-310241 ; AN-310301 ; AN-310318 ; AN-310324 ; AN-310335 ; AN-310338 ; AN-310460 ; AN-310500 ; AN-310684 ; AN-310690 ; AN-311010 ; AN-311022 ; AN-311043 ; AN-311125 ; AN-311250 ; AN-311370 ; AN-311458
 
 ## Avis importants pour les administrateurs d’Adobe Analytics
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Avis | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | **Migration automatique vers l’architecture du jeu de classifications** | 8 février 2023 | Au cours des prochains mois, Adobe prévoit de migrer toutes les classifications de toutes les organisations vers la dernière architecture de classification. La migration des derniers clients est estimée pour mai 2023. Aucune action de la part du client n’est requise et aucun temps d’arrêt n’est attendu. Cette nouvelle architecture présente de nombreux avantages, notamment :<ul><li>Réduction significative du temps de traitement (72 heures → 24 heures)</li><li>La possibilité d’utiliser la variable [Jeux de classifications](/help/components/classifications/sets/overview.md) Interface utilisateur</li><li>L’option permettant d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [Connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Notez les modifications suivantes qui peuvent avoir un impact potentiel sur le workflow de votre entreprise :<ul><li>Lors de l’utilisation du navigateur ou de l’importation FTP,[!UICONTROL Remplacer en cas de conflit]&quot; est toujours activé.</li><li>Lorsque vous utilisez le navigateur ou l’importation FTP, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge.</li><li>API Analytics 2.0 `GetDimensions` Le point de terminaison renvoie désormais des identifiants de chaîne pour les classifications au lieu des identifiants numériques. Les identifiants numériques peuvent toujours être utilisés, mais Adobe recommande d’utiliser les nouveaux identifiants de chaîne si possible. Les identifiants numériques peuvent être récupérés à l’aide de la variable `?expansion=hidden` paramètre de chaîne de requête.</li></ul>Contactez l’assistance clientèle d’Adobe si vous souhaitez un planning de migration plus spécifique pour votre entreprise ou si vous avez des questions/préoccupations concernant cette migration. [En savoir plus](/help/components/classifications/sets/overview.md) |
-| **Mise à jour des recherches d’appareils en raison des indications du client Google** | 25 janvier 2023 | L’utilisation des conseils du client dans la recherche de périphérique démarrera le **16 février 2023**. <p> <p>Depuis octobre 2022, il est possible de collecter les conseils du client avec le SDK Web ou les bibliothèques JavaScript AppMeasurement. Mais les indices client ne seront pas intégrés à la recherche d’appareils avant février 2023. À ce moment-là, Adobe commencera à utiliser des conseils client en plus de l’agent utilisateur lors de la génération de certaines informations sur les appareils pour les accès provenant de navigateurs Chrome et Microsoft Edge, par exemple. Cette mesure fait suite au projet de Google qui consiste à réduire progressivement les informations présentées à partir de la chaîne Agent-utilisateur à la place des données transmises par les indications du client. <p> <p>Dans le cadre de cette modification, Adobe utilisera Device Atlas pour toutes les recherches de périphériques liées à la chaîne Agent-utilisateur. [En savoir plus](/help/technotes/client-hints.md) |
+| **Mise à jour des recherches d’appareils en raison des indications du client Google** | 25 janvier 2023 | L’utilisation des indications du client dans la recherche de périphérique démarrera le **16 février 2023**. <p> <p>Depuis octobre 2022, il est possible de collecter les indications du client avec le SDK Web ou les bibliothèques AppMeasurement pour JavaScript. Les indications du client ne seront toutefois pas intégrées à la recherche de périphérique avant février 2023. À ce stade, Adobe commencera à utiliser les indications du client en plus de la chaîne Agent-Utilisateur lors de la dérivation de certaines informations sur les périphériques pour les accès provenant des navigateurs Chromium, tels que Google Chrome et Microsoft Edge. Cette mesure fait suite au projet de Google qui consiste à réduire progressivement les informations présentées à partir de la chaîne Agent-utilisateur à la place des données transmises par les indications du client. <p> <p>Dans le cadre de cette modification, Adobe utilisera Device Atlas pour toutes les recherches de périphériques liées à la chaîne Agent-utilisateur. [En savoir plus](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 

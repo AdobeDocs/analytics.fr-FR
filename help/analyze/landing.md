@@ -7,7 +7,7 @@ exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,8 +28,8 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 | Un seul clic pour ouvrir un rapport | Dans les versions précédentes, un double-clic était nécessaire. |  |
 | Nouveaux liens vers les rapports **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages Robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
 | Nouveaux rapports prêts à l’emploi | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de la page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports sont au format [!UICONTROL Espace de travail] et doivent être configurés et générés. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, d’une visualisation des [!UICONTROL Flux] et bien plus encore. Vous pouvez modifier ces rapports et changer de dimension, d’élément de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux dans les panneaux de l’espace de travail. | ![Page suivante](assets/next-page.png) |
-| **[!UICONTROL Créer un projet]** modal est de retour | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre une [!UICONTROL Projet vierge] et un [!UICONTROL Fiche d’évaluation mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
-| Également disponible en Customer Journey Analytics | Cette landing page, sous une forme modifiée, est également disponible dans CJA. |  |
+| Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
+| Également disponible dans Customer Journey Analytics | Cette page de destination est également disponible dans CJA, mais dans un autre format. |  |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -42,62 +42,62 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 
 ### Terminologie
 
-* **[!UICONTROL Projets]** sont des conceptions personnalisées qui combinent des composants de données, des tableaux et des visualisations que vous avez créés ou que quelqu’un d’autre a créés et partagés avec vous. Les [!UICONTROL projets] font également référence aux projets vierges et aux fiches dʼévaluation mobiles vierges.
+* Les **[!UICONTROL projets]** sont des conceptions personnalisées qui combinent les composants de données, les tableaux et les visualisations que vous avez créés ou que quelqu’un d’autre a créés et partagés avec vous. Les [!UICONTROL projets] font également référence aux projets vierges et aux fiches dʼévaluation mobiles vierges.
 * Les **[!UICONTROL rapports]** font référence à tout élément préconfiguré par Adobe, tel que les rapports dans Reports &amp; Analytics et les modèles dans Espace de travail.
 * Le terme **[!UICONTROL Modèles]** nʼest plus employé pour les projets d’espace de travail préconfigurés dʼAdobe. Les modèles se trouvent désormais sous [!UICONTROL Rapports]. Le terme [!UICONTROL Modèles] désigne toujours les modèles créés par votre entreprise.
 
 ## Accédez à lʼonglet [!UICONTROL Projets] {#navigate-projects}
 
-Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espace de travail]. L’onglet Projets affiche le dossier Société, les dossiers personnels que vous avez créés, vos projets et vos fiches d’évaluation mobiles. Utilisez cette page pour afficher, créer et modifier des dossiers, des projets et des fiches d’évaluation mobiles. Pour plus d’informations, voir [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espace de travail]. L’onglet Projets affiche le dossier Société, les dossiers personnels que vous avez créés, vos projets et vos cartes de performance mobiles. Utilisez cette page pour afficher, créer et modifier des dossiers, des projets et des cartes de performance mobiles. Pour plus d’informations, consultez [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Landing all](assets/landing-all2.png)
 
 >[!NOTE]
 >
->Plusieurs des paramètres suivants persistent pendant la session et entre les sessions. Par exemple, l’onglet que vous avez sélectionné, les filtres sélectionnés, les colonnes sélectionnées et le sens du tri des colonnes. Les résultats de la recherche ne sont pas persistants.
+>Plusieurs des paramètres suivants sont conservés pendant la session et entre les sessions. Par exemple, l’onglet que vous avez sélectionné, les filtres sélectionnés, les colonnes sélectionnées et l’ordre de tri des colonnes. Les résultats de recherche ne sont pas persistants.
 
 | Élément de lʼinterface utilisateur | Définition |
 | --- | --- |
 | Modifier les préférences | Permet dʼ[!UICONTROL afficher les tutoriels] et de [Modifier les préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md). |
-| [!UICONTROL Créer] | Ouvre le modal de projet dans lequel vous pouvez créer un projet Workspace ou une fiche d’évaluation mobile ou ouvrir un modèle d’entreprise. |
+| [!UICONTROL Créer] | Ouvre la fenêtre modale du projet dans laquelle vous pouvez créer un projet Workspace ou une carte de performance mobile ou ouvrir un modèle d’entreprise. |
 | [!UICONTROL Afficher moins<br> Afficher plus] | Active/désactive lʼaffichage de la bannière : ![Bannière supérieure](assets/top-banner.png) |
-| [!UICONTROL Projet Espace de travail] | Crée un champ vierge [Projet Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) pour que vous conceviez et construisiez. |
-| [!UICONTROL Fiche d’évaluation mobile] | Crée un champ vierge [fiche d’évaluation mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) pour que vous conceviez et construisiez. |
-| [!UICONTROL Ouvrir le tutoriel de formation] | Ouvre le tutoriel de formation à Workspace qui vous guide tout au long du processus de création d’un nouveau projet de démarrage dans un tutoriel détaillé. |
+| [!UICONTROL Projet Espace de travail] | Crée un [projet Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) vierge que vous pouvez concevoir et développer. |
+| [!UICONTROL Carte de performance mobile] | Crée une [carte de performance mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) vierge que vous pouvez concevoir et développer. |
+| [!UICONTROL Ouvrir le tutoriel de formation] | Ouvre le tutoriel de formation Workspace qui vous guide tout au long du processus de création d’un projet de démarrage dans un tutoriel détaillé. |
 | [!UICONTROL Ouvrir les notes de mise à jour] | Affiche la section Adobe Analytics des dernières notes de mise à jour dʼAdobe Experience Cloud. |
-| Icône Filtrer | Filtres par balises, suites de rapports, propriétaires, types et autres filtres (À moi, Partagés avec moi, Favoris et Approuvés) |
+| Icône Filtrer | Filtre par balises, suites de rapports, propriétaires, types et autres filtres (À moi, Partagés avec moi, Favoris et Approuvés). |
 | Barre de recherche | Recherche toutes les colonnes du tableau. |
-| Zone de sélection | Sélectionnez un ou plusieurs projets pour afficher les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Déplacer**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exportation CSV**, et **Déplacer vers**. Vous ne pouvez pas être autorisé à effectuer toutes les actions répertoriées. |
+| Zone de sélection | Sélectionne un ou plusieurs projets pour afficher les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Désépingler**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exporter au format CSV** et **Déplacer vers**. Vous ne disposez peut-être pas des autorisations nécessaires pour effectuer toutes les actions répertoriées. |
 | [!UICONTROL Favoris] | Ajoute une étoile en regard d’un projet ou d’un dossier favori pouvant être utilisé comme filtre. |
-| [!UICONTROL Nom] | Identifie le nom du projet. |
-| Icône Épingler | Epingle les éléments afin qu’ils apparaissent toujours en haut de votre liste, mais vous pouvez réajuster l’ordre en les faisant monter ou descendre dans l’ordre. Utilisez le menu d’option représentant des points de suspension et sélectionnez **Déplacer vers le haut** ou **Déplacer vers le bas** dans la liste. |
-| Icône Infos (i) | Affiche les informations suivantes sur un projet : Type, rôle du projet, propriétaire, description et avec qui il est partagé. Cette icône indique également qui peut [modifier ou dupliquer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) ce projet. |
-| Points de suspension (…) | Affiche les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Déplacer**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exportation CSV**, et **Déplacer vers**. Vous ne pouvez pas être autorisé à effectuer toutes les actions répertoriées. |
-| [!UICONTROL Type] | Indique si ce type est un projet Workspace, une fiche d’évaluation mobile ou un dossier. |
-| [!UICONTROL Balises] | Balisez les projets pour les organiser en groupes. |
-| [!UICONTROL Rôle de projet] | Identifie les rôles du projet : si vous êtes le propriétaire du projet et si vous êtes autorisé à modifier ou dupliquer le projet. |
-| [!UICONTROL Suite de rapports] | Identifie les suites de rapports associées au projet.<br>Les tableaux et les visualisations au sein d’un panneau obtiennent des données de la suite de rapports sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou plusieurs suites de rapports selon les cas pratiques de votre analyse. La liste des suites de rapports est triée selon la pertinence. Adobe définit la pertinence en fonction de la fréquence dʼutilisation récente de la suite par lʼutilisateur actuel et de la fréquence dʼutilisation de la suite au sein de lʼentreprise. |
-| [!UICONTROL Propriétaire] | Identifie la personne qui a créé le projet. |
-| [!UICONTROL Dernière ouverture] | Identifie la date à laquelle vous avez ouvert le projet pour la dernière fois. |
-| Icône Personnaliser le tableau | Sélectionne les colonnes à afficher dans le tableau. Pour ajouter ou supprimer des colonnes de la liste des projets, cliquez sur l’icône de colonne (![Toutes les entrées](/help/analyze/assets/select-column.png) ) en haut à droite, puis sélectionnez ou désélectionnez les titres des colonnes. |
-| AFFICHER : Dossiers et projets ou tous les projets | Modifie le paramètre d’affichage du tableau pour afficher les dossiers et les projets en fonction de l’organisation de vos dossiers. **ou** afficher tous vos projets dans une liste non organisée ; |
-| &lt; (bouton Précédent) | Vous renvoie à la configuration de page d’entrée la plus récente dans un projet Workspace ou un rapport. La configuration de page que vous aviez lorsque vous quittiez la landing page persiste à votre retour. |
+| [!UICONTROL Nom] | Indique le nom du projet. |
+| Icône Épingler | Épingle les éléments afin qu’ils apparaissent toujours en haut de la liste. Vous pouvez toutefois modifier l’ordre en les déplaçant vers le haut ou le bas de la liste. Utilisez le menu d’option représenté par des points de suspension et sélectionnez **Déplacer vers le haut** ou **Déplacer vers le bas** dans la liste. |
+| Icône Infos (i) | Affiche les informations suivantes sur un projet : Type, Rôle de projet, Propriétaire, Description et avec qui il est partagé. Cette icône indique également qui peut [modifier ou dupliquer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) ce projet. |
+| Points de suspension (…) | Affiche les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Désépingler**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exporter au format CSV** et **Déplacer vers**. Vous ne disposez peut-être pas des autorisations nécessaires pour effectuer toutes les actions répertoriées. |
+| [!UICONTROL Type] | Indique le type : un projet Workspace, une carte de performance mobile ou un dossier. |
+| [!UICONTROL Balises] | Ajoute des balises aux projets pour les organiser en groupes. |
+| [!UICONTROL Rôle de projet] | Indique les rôles de projet : si vous êtes le propriétaire du projet et si vous disposez des autorisations pour modifier ou dupliquer le projet. |
+| [!UICONTROL Suite de rapports] | Indique les suites de rapports associées au projet.<br>Les tableaux et les visualisations au sein d’un panneau obtiennent des données de la suite de rapports sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou plusieurs suites de rapports selon les cas pratiques de votre analyse. La liste des suites de rapports est triée selon la pertinence. Adobe définit la pertinence en fonction de la fréquence dʼutilisation récente de la suite par lʼutilisateur actuel et de la fréquence dʼutilisation de la suite au sein de lʼentreprise. |
+| [!UICONTROL Propriétaire] | Indique la personne qui a créé le projet. |
+| [!UICONTROL Dernière ouverture] | Indique la date de la dernière ouverture du projet. |
+| Icône Personnaliser le tableau | Sélectionne les colonnes à afficher dans le tableau. Pour ajouter ou supprimer des colonnes de la liste des projets, cliquez sur l’icône de colonne (![Landing all](/help/analyze/assets/select-column.png)) dans le coin supérieur droit, puis sélectionnez ou désélectionnez les titres des colonnes. |
+| AFFICHER : Dossiers et projets ou Tous les projets | Modifie le paramètre d’affichage du tableau pour afficher les dossiers et les projets en fonction de l’organisation des dossiers **ou** affiche tous les projets dans une liste non organisée. |
+| &lt; (bouton Précédent) | Vous renvoie à la configuration de page de destination la plus récente dans un projet Workspace ou un rapport. La configuration de page que vous aviez lorsque vous avez quitté la page de destination persiste à votre retour. |
 
 ### Abandon de la page Gestionnaire de projets {#deprecate-pm-page}
 
-Avec la mise à jour de la nouvelle page d’entrée, nous avons abandonné le Gestionnaire de projets comme indiqué sous le Gestionnaire de composants. La nouvelle page d’entrée gère toutes les fonctionnalités de l’ancienne page Gestionnaire de projets, etc.
+En raison de la publication de la nouvelle page de destination, nous avons abandonné la page Gestionnaire de projets répertoriée sous le Gestionnaire de composants. La nouvelle page de destination gère toutes les fonctionnalités de l’ancienne page Gestionnaire de projets et plus encore.
 
-Un cas d’utilisation courant de la page Gestionnaire de projets consiste à afficher tous vos projets.
+La page Gestionnaire de projets était souvent utilisée pour afficher tous vos projets.
 
-Pour afficher tous vos projets sur la nouvelle landing page à l’aide du rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Tout afficher**.
+Pour afficher tous les projets sur la nouvelle page de destination à l’aide du rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Tout afficher**.
 
 ![Afficher tous les projets](assets/show-all-fIlter.png)
 
-Si vous êtes dans la vue &quot;Dossiers et projets&quot;, un modal s’affiche et vous demande si vous souhaitez passer à la vue &quot;Tous les projets&quot;, ce qui facilite l’affichage de tous vos projets en dehors des dossiers dans lesquels ils peuvent être organisés.   Sélectionner **Basculer vers la vue &quot;Tous les projets&quot;** pour mieux visualiser tous les projets auxquels vous avez accès.
+Si vous vous trouvez dans la vue « Dossiers et projets », une fenêtre modale s’ouvre pour vous demander si vous souhaitez passer à la vue « Tous les projets », qui facilite la consultation de tous les projets en dehors des dossiers dans lesquels ils sont organisés.   Sélectionnez **Passer à la vue « Tous les projets »** pour mieux visualiser tous les projets auxquels vous avez accès.
 
-![Passer à tous les projets](assets/switch-all-projects-view.png)
+![Passer à Tous les projets](assets/switch-all-projects-view.png)
 
-Un autre cas d’utilisation pour les administrateurs consiste à gérer les rapports d’entreprise afin de supprimer, renommer, baliser ou approuver les rapports. Pour plus d’informations sur la gestion des rapports, voir [Gestion des rapports de l’entreprise](#manage-company-reports).
+Un autre cas d’utilisation pour les administrateurs consiste à gérer les rapports d’entreprise afin de supprimer, renommer, baliser ou approuver les rapports. Pour plus d’informations sur la gestion des rapports, consultez [Gestion des rapports d’entreprise](#manage-company-reports).
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
@@ -171,9 +171,9 @@ Pour les utilisateurs actuels de Reports &amp; Analytics, voici une brève intro
    * Vous pouvez modifier la période en accédant au calendrier en haut à droite.
    * Vous pouvez ajouter des ventilations de dimension, faire glisser d’autres mesures et, de manière générale, personnaliser le rapport comme vous le souhaitez.
 
-### Création d’un rapport d’entreprise personnalisé {#company-report}
+### Créer un rapport d’entreprise personnalisé {#company-report}
 
-Les rapports personnalisés créés et enregistrés pour d’autres utilisateurs dans votre société de connexion sont appelés rapports d’entreprise. Les rapports d’entreprise précédemment créés et les rapports d’entreprise nouvellement créés sont répertoriés dans le modal Créer un projet , comme illustré ci-dessous.
+Les rapports personnalisés créés et enregistrés pour être utilisés par d’autres membres de votre société de connexion sont appelés des rapports d’entreprise. Les rapports d’entreprise précédemment créés et les rapports d’entreprise nouvellement créés sont répertoriés dans la fenêtre modale Créer un projet, comme illustré ci-dessous.
 
 Pour créer un rapport d’entreprise, procédez comme suit :
 
@@ -184,7 +184,7 @@ Pour créer un rapport d’entreprise, procédez comme suit :
 
 1. Ajoutez tous les champs souhaités à la fenêtre modale et enregistrez-les.
 
-   Le rapport est ajouté à la liste Rapports d’entreprise dans le modal Créer un projet et est disponible pour les utilisateurs de votre société de connexion.
+   Le rapport est ajouté à la liste Rapports d’entreprise dans la fenêtre modale Créer un projet. Il est alors disponible auprès des utilisateurs de votre société de connexion.
 
 Autres options de formation :
 
@@ -193,32 +193,32 @@ Autres options de formation :
 * Voici un lien vers la [documentation complète d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Voici l’intégralité de la [liste de lecture YouTube pour Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-### Gestion des rapports de l’entreprise {#manage-company-reports}
+### Gestion des rapports d’entreprise {#manage-company-reports}
 
-Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports de l’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par la variable ![icône de rapport](assets/report-icon.png) icône de rapport . Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport . ](assets/report-icon.png) Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
 
-Affichage et gestion des rapports d’entreprise
+Afficher et gérer les rapports d’entreprise
 
-1. Dans le rail de filtrage, sélectionnez **AUTRES FILTRES** puis sélectionnez **Rapports sur les entreprises**.
-Une liste des rapports de l&#39;entreprise s&#39;affiche. Tous les projets standard, sauf s’ils sont épinglés, ne s’affichent pas.
+1. Dans le rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Rapports d’entreprise**.
+Une liste des rapports d’entreprise s’affiche. Aucun projet standard ne s’affiche sauf ceux épinglés.
 
-   ![Affichage des filtres des rapports de société](assets/company-reports-filter.png)
+   ![Affichage des filtres des rapports d’entreprise](assets/company-reports-filter.png)
 
-   Les rapports de l’entreprise étant affichés, les administrateurs peuvent supprimer, renommer, ajouter une balise ou approuver le rapport.
+   Lorsque les rapports d’entreprise sont affichés, les administrateurs peuvent supprimer, renommer, ajouter une balise ou approuver le rapport.
 
-1. Dans la liste des rapports, sélectionnez un seul rapport ou plusieurs rapports.
+1. Dans la liste des rapports, sélectionnez un ou plusieurs rapports.
 
-1. Cliquez sur le bouton **...** Icône d’ellipse en regard d’un rapport pour afficher les options disponibles (Supprimer, Renommer, Baliser et Approuver).
+1. Cliquez sur l’icône des points de suspension **…** en regard d’un rapport pour afficher les options disponibles (Supprimer, Renommer, Baliser et Approuver).
 
    ![Actions de rapport d’entreprise](assets/company-reports-actions.png)
 
 1. Sélectionnez une option (Supprimer, Renommer, Baliser et Approuver).
 
-1. Pour revenir à la vue normale une fois que vous avez terminé, désélectionnez à nouveau l’option Rapports d’entreprise dans le rail de filtrage.
+1. Pour revenir à la vue normale une fois que vous avez terminé, désélectionnez à nouveau l’option Rapports d’entreprise dans le rail de filtre.
 
-### Suppression d’un rapport d’entreprise
+### Supprimer un rapport d’entreprise
 
-Les administrateurs peuvent supprimer un rapport à l’aide de l’option Liste de rapports d’entreprise (décrite ci-dessus) ou supprimer un rapport du modal Créer un projet .
+Les administrateurs peuvent supprimer un rapport à l’aide de l’option de la liste Rapports d’entreprise (décrite ci-dessus) ou supprimer un rapport de la fenêtre modale Créer un projet.
 
 ![Autres filtres](assets/delete-fr-create-project-modal.png)
 
@@ -231,7 +231,7 @@ La page Formation contient des visites guidées vidéo et des tutoriels pratique
 * Cliquer sur une vidéo/visite ajoute une balise **[!UICONTROL Consulté]**. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez cliquer sur la balise pour la faire disparaître si vous n’avez pas encore terminé le contenu.
 * Le bouton **[!UICONTROL En savoir plus]** de la fenêtre modale de la vidéo permet dʼaccéder à une page de documentation Adobe Experience League présentant du contenu dʼaide supplémentaire en rapport avec la vidéo que vous venez de regarder.  **[!UICONTROL Voir plus de vidéos]** permet dʼaccéder à la liste de lecture complète dʼAnalysis Workspace sur YouTube.
 
-## Définir votre landing page {#set-landing}
+## Définir la page de destination {#set-landing}
 
 Les utilisateurs peuvent définir la page de destination de leur choix.
 

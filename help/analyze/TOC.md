@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment utiliser les outils Analytics, notamm
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -27,10 +27,10 @@ ht-degree: 96%
    + Projets {#build-workspace-project}
       + [Présentation des projets](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
-      + Dossiers dans Workspace {#workspace-folders}
+      + Dossiers dans Espace de travail {#workspace-folders}
          + [À propos des dossiers dans Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers et sous-dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Suppression de dossiers](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
+         + [Supprimer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
          + [Ajouter des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [Supprimer un projet](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [Enregistrer un nouveau projet](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -156,7 +156,7 @@ ht-degree: 96%
          + [Générateur d’alertes](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Gestionnaire d’alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertes intelligentes - Exemples d’utilisation](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [Préférences de l’utilisateur](analysis-workspace/user-preferences.md)
+   + [Préférences utilisateur](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)

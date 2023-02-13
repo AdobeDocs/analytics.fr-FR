@@ -1,18 +1,18 @@
 ---
 title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
-description: Tableaux présentant les autorisations Adobe Analytics disponibles dans Adobe Admin Console.
+description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 # Autorisations Analytics dans le Admin Console
 
-Utilisez les tableaux de synthèse suivants pour identifier les autorisations Adobe Analytics dans Adobe Admin Console, par groupes logiques.
+Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations dʼAdobe Analytics dans Adobe Admin Console par groupes logiques.
 
 ## Outils de suites de rapports
 

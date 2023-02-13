@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -24,6 +24,6 @@ Ce chapitre explique les concepts que vous devez comprendre sur les profils de p
 
 ## Ajout dʼun administrateur dans Adobe Analytics
 
-Regardez la vidéo de démonstration suivante pour savoir comment ajouter un administrateur dans Adobe Analytics :
+Regardez la vidéo de démonstration suivante pour découvrir comment ajouter un administrateur dans Adobe Analytics :
 
 [Ajout dʼun administrateur dans Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}
