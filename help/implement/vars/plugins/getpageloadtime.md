@@ -4,9 +4,9 @@ description: Permet d’assurer le suivi du temps nécessaire au chargement d’
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 Le plug-in `getPageLoadTime` utilise l’objet de performance JavaScript pour vous permettre de mesurer le temps nécessaire au chargement complet d’une page. Adobe recommande d’utiliser ce plug-in si vous souhaitez mesurer le temps de chargement des pages.
 
->REMARQUE/AVERTISSEMENT : Si vous mettez à niveau ce module externe à partir d’une version précédente, vous devrez probablement modifier le code qui appelle cette fonction également.  Vérifiez minutieusement votre mise en oeuvre et testez-la avant de procéder au déploiement en production.
+>REMARQUE/AVERTISSEMENT : si vous effectuez une mise à jour depuis une ancienne version de ce plug-in, vous devrez probablement aussi modifier le code qui appelle cette fonction.  Veuillez vérifier votre mise en œuvre et testez-la minutieusement avant de procéder au déploiement dans un environnement de production.
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -62,16 +62,16 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 La fonction `getPercentPageViewed` utilise les arguments suivants :
 
-* **`pv`** (facultatif, chaîne) : Dimension avec laquelle corréler le temps de chargement de la page.  Cette valeur doit être égale à une valeur qui identifie la page elle-même. Lorsqu’il n’est pas défini, cet argument prend par défaut la variable pageName d’Adobe AppMeasurement (c.-à-d. s.pageName) ou l’URL lorsque s.pageName n’est pas défini.
+* **`pv`** (facultatif, chaîne) : dimension avec laquelle corréler le temps de chargement de la page.  Cette valeur doit être égale à une valeur qui identifie la page elle-même. Lorsqu’il n’est pas défini, cet argument correspond par défaut à la variable Adobe AppMeasurement pageName (c.-à-d. s.pageName) ou l’URL lorsque s.pageName n’est pas défini.
 
 Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les variables suivantes :
 
-* `window._pltPreviousPage`: La valeur de la page précédente (c’est-à-dire ce qui a été transmis dans l’argument pv)
+* `window._pltPreviousPage` : valeur de la page précédente (c’est-à-dire ce qui a été transmis dans l’argument pv).
 * `window._pltLoadTime` : temps (en secondes) nécessaire au chargement de la page précédente.
 
-Le plug-in getPageLoadTime crée un cookie propriétaire :
+Le plug-in getPageLoadTime crée un cookie propriétaire :
 
-* `s_plt` : temps (en secondes) nécessaire au chargement de la page précédente. Contient également la valeur de ce qui a été transmis à l’argument pv.  Expire à la fin de la session du navigateur.
+* `s_plt` : temps (en secondes) nécessaire au chargement de la page précédente.  Contient également la valeur de ce qui a été transmis à l’argument pv.  Expire à la fin de la session du navigateur.
 
 ## Exemple
 
@@ -92,21 +92,21 @@ if(window._pltPreviousPage)
 
 ## Historique des versions
 
-### 3.0 (6 décembre 2022)
+### 3.0 (6 décembre 2022)
 
-* Réécriture complète du module externe pour le rendre indépendant de toute solution.  Par exemple, ceci est désormais compatible avec le SDK Web AEP.
-* Crée la variable `_pltPreviousPage` et `_pltLoadTime` dans l’objet window (plutôt que dans l’objet s AppMeasurement) ;
-* Supprime la nécessité du cookie s_pltp ; tout est désormais stocké uniquement dans le cookie s_plt.
-* Inclut la fonction getVersion pour faciliter le dépannage
+* Réécriture complète du plug-in pour le rendre indépendant de toute solution.  Par exemple, ceci est désormais compatible avec le SDK Web AEP.
+* Crée les variables `_pltPreviousPage` et `_pltLoadTime` dans l’objet window (plutôt que dans l’objet AppMeasurement s).
+* Supprime la nécessité du cookie s_pltp. Tout est désormais uniquement stocké dans le cookie s_plt.
+* Inclut la fonction getVersion pour faciliter le dépannage.
 
 ### 2.0.1 (26 mars 2021)
 
 * Correction d’un problème en raison duquel le plug-in ne définissait pas correctement les valeurs sur l’objet s.
 
-### 2.0 (19 mars 2021)
+### 2.0 (19 mars 2021)
 
 * Ajout du numéro de version comme donnée contextuelle.
 
-### 1.0 (22 mai 2018)
+### 1.0 (22 mai 2018)
 
 * Version initiale.
