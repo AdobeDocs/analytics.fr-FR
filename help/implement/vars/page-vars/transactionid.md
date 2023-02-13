@@ -4,9 +4,9 @@ description: Utilisez cette variable pour lier des données en ligne et hors lig
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Lorsque vous définissez `transactionID` sur un accès, Adobe prend un « insta
 
 Par défaut, Adobe mémorise toutes les valeurs d’identifiant de transaction (liées et non liées) pendant 90 jours au maximum. Si votre processus d’interaction hors ligne dépasse 90 jours, demandez à un agent du service clientèle d’étendre cette limite.
 
-## ID de transaction à l’aide du SDK Web
+## Identifiant de transaction utilisant le SDK Web
 
-L’ID de transaction [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.transactionID`.
+L’identifiant de transaction est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.transactionID`.
 
-## ID de transaction à l’aide de l’extension Adobe Analytics
+## Identifiant de transaction utilisant l’extension Adobe Analytics
 
 Vous pouvez définir l’identifiant de transaction lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
