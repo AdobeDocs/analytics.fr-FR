@@ -4,9 +4,9 @@ description: Découvrez comment les profils de produit peuvent être utilisés c
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 Les profils de produit sont des paramètres dʼautorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs dʼune organisation. Si vous créez un profil de produit et que vous lui affectez un utilisateur Experience Cloud, il hérite des éléments d’autorisation contenus dans le profil de produit.
 
-Pour obtenir des informations générales sur les profils de produit, notamment la création de profils de produit et l’affectation d’utilisateurs, voir [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
+Pour obtenir des informations générales sur les profils de produit, notamment la création de profils de produit et l’affectation d’utilisateurs, consultez [Gérer les profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
 
 ## Administrateurs de profil de produit
 
@@ -23,9 +23,9 @@ Les administrateurs de profil de produit sont un groupe facultatif qui peut ajou
 * Les administrateurs de profil de produit ne disposent pas d’un accès complet à Adobe Analytics. L’accès complet à Adobe Analytics est réservé aux administrateurs de produit.
 * Les administrateurs des profils de produit peuvent ajuster les éléments dʼautorisation dans leur profil de produit.
 * Les administrateurs des profils de produit peuvent affecter des profils de produit à des groupes d’utilisateurs ou en supprimer.
-* Les administrateurs des profils de produit sont parfaits pour les chefs dʼéquipe ou les managers qui doivent octroyer et gérer lʼaccès à Adobe Analytics pour leur équipe. Les utilisateurs n’ont pas besoin d’intervenir auprès des administrateurs système ou des administrateurs de produit pour octroyer l’accès à Adobe Analytics.
+* Les administrateurs des profils de produit sont parfaits pour les chefs dʼéquipe ou les managers qui doivent octroyer et gérer lʼaccès à Adobe Analytics pour leur équipe. Les utilisateurs n’ont pas besoin de demander aux administrateurs système ou aux administrateurs de produit de leur octroyer l’accès à Adobe Analytics.
 
-Pour plus d’informations sur l’affectation des administrateurs de profil de produit, voir la section &quot;Gestion des administrateurs de profil de produit&quot; de l’article, [Gestion des profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
+Pour plus d’informations sur l’affectation des administrateurs de profil de produit, consultez la section « Gérer les administrateurs de profil de produit » de l’article [Gérer les profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
 
 ## Éléments d’autorisation Adobe Analytics
 
@@ -60,6 +60,6 @@ Les éléments d’autorisation liés aux outils Analytics octroient l’accès 
 
 ## Développeurs de profil de produit
 
-Les développeurs sont similaires aux utilisateurs, sauf qu’ils peuvent utiliser l’API Experience Cloud sur les développeurs Adobe. Voir [Gestion des développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour plus d’informations. Si un utilisateur bénéficie dʼun accès Développeur pour nʼimporte quel profil, il peut accéder à la console Développeur (console.adobe.io) et modifier les intégrations dʼAdobe Analytics. Les appels et les réponses de lʼAPI Analytics autorisés pour lʼutilisateur dépendront des autorisations de tous les profils dans lesquels cet utilisateur a un accès Développeur.
+Les développeurs sont semblables aux utilisateurs, à la différence qu’ils peuvent utiliser l’API Experience Cloud dans Adobe Developers. Consultez [Gérer les développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide d’utilisation Enterprise pour plus d’informations. Si un utilisateur bénéficie dʼun accès Développeur pour nʼimporte quel profil, il peut accéder à la console Développeur (console.adobe.io) et modifier les intégrations dʼAdobe Analytics. Les appels et les réponses de lʼAPI Analytics autorisés pour lʼutilisateur dépendront des autorisations de tous les profils dans lesquels cet utilisateur a un accès Développeur.
 
 Par exemple, avec les autorisations du profil comprenant toutes les mesures, toutes les dimensions et une suite de rapports, un membre du profil avec un accès Développeur pourrait effectuer des appels API pertinents à tout composant de la suite concernée. Avec lʼajout de la détection des anomalies, les rapports pourraient inclure des réponses plus complètes, comprenant les données sur les anomalies. En règle générale, si un profil accorde lʼaccès à un scénario dans lʼinterface Adobe Analytics, lʼaccès Développeur à un autre profil défini de manière similaire active les appels et réponses de lʼAPI correspondante.
