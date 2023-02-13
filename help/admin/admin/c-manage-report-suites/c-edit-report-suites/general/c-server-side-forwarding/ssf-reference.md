@@ -4,7 +4,7 @@ title: Données et référence de code du transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ En outre, un signal `h_ip` est généré à partir de l’adresse IP de l’hô
 
 ## Signaux définis par le client {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
+Les paramètres dotés du préfixe `c_` identifient les variables définies par le client. Voir aussi [Attributs pris en charge pour les appels de l’API DCS](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=fr).
 
 | Signal | Description |
 | --- |--- |
@@ -52,7 +52,7 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | `c_clientDateTime` | Horodatage au format `dd/mm/yyy hh:mm:ss  W TZ`. `TZ` est exprimé en minutes et correspond au retour de la méthode `Date.getTimezoneOffset`. |
 | `c_colorDepth` | Spécifié en tant que couleur 16 ou 32 bits. |
 | `c_connectionType` | Indique le type de connexion. Les options incluent :<ul><li>modem</li><li>lan</li></ul> |
-| `c_contextData.*` | Exemples :<ul><li>AppMeasurement: `s.contextData`</li><li>[category] = « news » ;</li><li>Signal : `c_contextData.category=news`</li></ul> |
+| `c_contextData.*` | Exemples :<ul><li>AppMeasurement : `s.contextData`</li><li>[category] = « news » ;</li><li>Signal : `c_contextData.category=news`</li></ul> |
 | `c_cookiesEnabled` | Indique si les cookies peuvent être activés. Les options incluent : oui, non, inconnu |
 | `c_currencyCode` | Type de devise utilisé pour la transaction. |
 | `c_evar#` | eVars personnalisées |
@@ -67,7 +67,7 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | `c_linkExitURL` | URL du lien de sortie. |
 | `c_list#` | Variables de liste personnalisées. |
 | `c_longitude` | Longitude numérique. |
-| `c_mediaPlayerType` | Pour les demandes de suivi du flux multimédia. Les options incluent : autre, primetime |
+| `c_mediaPlayerType` | Pour les demandes de suivi du flux multimédia. Les options incluent :   autre, primetime |
 | `c_pageName` | Nom de la page (si défini). |
 | `c_pageURL` | Adresse de la page dans la barre d’adresse du navigateur. |
 | `c_products` | Chaîne de produit (définie par `s.products`). |
