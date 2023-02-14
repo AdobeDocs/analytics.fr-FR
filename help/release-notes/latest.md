@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 48%
+source-wordcount: '1053'
+ht-degree: 51%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Février 2023)
 
-**Dernière mise à jour** : le 13 février 2023
+**Dernière mise à jour** : le 9 février 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -44,7 +44,6 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 
 | Produit ou fonctionnalité en fin de vie | Date d’ajout ou de mise à jour | Description |
 | --- | --- | --- |
-| **Abandon du service de suivi téléphonique des fonctionnalités japonaises** | 13 février 2023 | Pour nos clients japonais uniquement : Fin mai 2023, le service japonais de suivi téléphonique des fonctionnalités (mod_ktrack) sera interrompu. Nous vous prions de nous excuser pour le dérangement, mais nous vous demandons de désinstaller ou de désactiver les modules installés sur votre serveur Apache. Voir les pages 27 et 28 de la section [ce document](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) à titre de référence. |
 | **Abandon de certaines fonctionnalités de planification de Reports &amp; Analytics et de Report Builder** | 9 février 2023 | Les fonctionnalités de planification suivantes ont été abandonnées le 31 janvier 2023 :<ul><li>Option &quot;fin après x occurrences&quot; pour les tâches horaires en Report Builder</li><li>Possibilité de planifier de nouveaux rapports et de télécharger des extractions de données dans Reports and Analytics</li></ul><p>**Remarque**: Nous avons initialement mis fin à ces fonctionnalités en avril 2022, mais avons annulé la modification. Nous avons également envoyé une notification indiquant que ces fonctionnalités étaient temporairement restaurées et qu’elles seraient arrêtées le 31 janvier 2023. |
 | **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les listes de publication sont programmées pour atteindre la fin de vie en **décembre 2023**. Vous ne pourrez pas créer de listes de publication ou y accéder pour envoyer ou planifier des projets Analysis Workspace. |
 | **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Consultez l’[annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte Adobe de votre entreprise pour toute question. |
