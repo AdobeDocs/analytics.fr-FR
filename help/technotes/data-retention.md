@@ -3,7 +3,7 @@ title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 100%
@@ -54,3 +54,4 @@ Oui. Adobe peut fournir un vidage des données historiques pour les données bru
 **Quand Adobe supprime-t-il les données ?**
 
 Contactez le gestionnaire de compte de votre entreprise pour connaître le moment précis auquel est programmée la suppression de vos données. En règle générale, les données sont supprimées sur une base mensuelle glissante.
+

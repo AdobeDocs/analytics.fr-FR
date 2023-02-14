@@ -3,7 +3,7 @@ description: La boîte de dialogue Étiquetage de confidentialité pour la gouve
 title: Afficher/gérer l’étiquetage de confidentialité pour la gouvernance des données
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 75%
@@ -17,15 +17,15 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 ## Afficher les étiquettes de confidentialité {#view-privacy}
 
 1. Connectez-vous à Adobe Experience Cloud.
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
+2. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 
    >[!NOTE]
    >
    >Si cet élément de menu ne s’affiche pas, vous devez être ajouté à un [profil de produit dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) avec les autorisations requises pour cette fonctionnalité.
 
-1. Dans la partie supérieure droite, sélectionnez les suites de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
+3. Dans la partie supérieure droite, sélectionnez les suites de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | Paramètre | Description |
 | --- | --- |
