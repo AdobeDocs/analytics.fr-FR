@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant Analytics spécifique.
-source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 98%
+source-wordcount: '243'
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,18 @@ ht-degree: 98%
    + [Options pour atténuer l’effet des restrictions des cookies de navigateur](cookies/cookieless.md)
 + [Rétention des données](data-retention.md)
 + [Exclure des données](exclude-data.md)
++ Gouvernance des données {#data-governance}
+   + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Questions fréquentes](c-data-governance/gdpr-faq.md)
+   + Étiquetage des données {#data-labels}
+      + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](c-data-governance/data-labeling/gdpr-labels.md)
+      + [Étiqueter les données d’une suite de rapports](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [Bonnes pratiques en matière d’étiquetage](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [Exemple d’étiquetage](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [Espaces de noms](c-data-governance/data-labeling/gdpr-namespaces.md)
+   + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
+   + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
 + [Adresses IP et domaines utilisés par Adobe Analytics](ip-addresses.md)
 + [Latence](latency.md)
 + [Valeur de faible trafic](low-traffic.md)

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 94%
             + [Filtres URL internes](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Personnaliser le calendrier](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + Détection de référencement payant {#paid-search-detection}
-               + [Détection de référencement payant - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [Détection de référencement payant - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + [Personnaliser les menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Règles de traitement {#c-processing-rules}
-               + [Règles de traitement - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + [Règles de traitement - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Règles de traitement {#c-processing-rules-configuration}
                   + [Fonctionnement des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [Créer des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
@@ -67,13 +67,13 @@ ht-degree: 94%
                + [Astuces et conseils concernant les règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Règles de robots {#bot-removal}
                + [Suppression de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Règles de robots - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Règles de robots - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Signatures de robots courantes](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Méthodes d’exclusion de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Paramètres de confidentialité](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [Dates et heures facultatives](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + Transfert côté serveur {#server-side-forwarding}
-               + [Transfert côté serveur - Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [Transfert côté serveur - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [Conditions requises pour le transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
                + [Données et référence de code du transfert côté serveur](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
@@ -110,12 +110,12 @@ ht-degree: 94%
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Activity Map   ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [Activity Map  ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Reporting sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Temps réel {#real-time-reports}
-            + [Rapports en temps réel - Présentation](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [Rapports en temps réel - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuration des rapports en temps réel](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [Mesures et dimensions en temps réel prises en charge](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [Gérer les suites de rapports](admin/c-manage-report-suites/report-suites-admin.md)
@@ -156,24 +156,12 @@ ht-degree: 94%
       + [Alertes d’utilisation des appels au serveur](admin/c-server-call-usage/scu-alerts.md)
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
    + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
-      + [Gestion des utilisateurs et des produits (Hérité)](admin/user-management2/user-management.md)
+      + [Gestion des utilisateurs et des produits  (Hérité)](admin/user-management2/user-management.md)
       + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
          + [Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Désactiver les comptes hérités](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API affectées par la migration](admin/user-management2/user-migration/developer.md)
-+ Gouvernance des données {#data-governance}
-   + [Processus relatif à la confidentialité des données Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
-   + [Questions fréquentes](c-data-governance/gdpr-faq.md)
-   + Étiquetage des données {#data-labels}
-      + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](c-data-governance/data-labeling/gdpr-labels.md)
-      + [Étiqueter les données d’une suite de rapports](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [Bonnes pratiques en matière d’étiquetage](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [Exemple d’étiquetage](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [Espaces de noms](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [Extension d’ID](c-data-governance/gdpr-id-expansion.md)
-   + [Exemption de consentement de la CNIL](c-data-governance/cnil-consent-exemption.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
 
