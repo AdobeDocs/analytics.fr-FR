@@ -1,8 +1,8 @@
 ---
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 16%
+source-wordcount: '751'
+ht-degree: 15%
 
 ---
 # Extraits
@@ -38,7 +38,8 @@ ht-degree: 16%
 
 | Option | Fonction |
 |---------|----------|
-| [!UICONTROL **Approuvés**] | Indique que le composant a été révisé et approuvé par l’administrateur. Les administrateurs voient une [!UICONTROL **Validation requise**] pour les composants non approuvés. La sélection de cette option la marque comme approuvée. |
+| [!UICONTROL **Approuvés**] | <p>Indique que le composant a été révisé et approuvé par l’administrateur.</p><p>Les administrateurs voient une option pour [!UICONTROL **Ne pas approuver**]. La sélection de cette option marque le composant comme &quot;Non approuvé&quot; pour les utilisateurs.</p> |
+| [!UICONTROL **Non approuvé**] | <p>Indique que le composant n’a pas encore été révisé et approuvé par l’administrateur.</p><p>Les administrateurs voient une option pour [!UICONTROL **Approuver**]. La sélection de cette option marque le composant comme &quot;Approuvé&quot; pour les utilisateurs.</p> |
 | [!UICONTROL **Description**] | Décrit la fonction prévue du composant. (Ces informations sont ajoutées par l’administrateur Analytics, comme décrit dans la section [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).) |
 | [!UICONTROL **Fréquemment utilisé avec**] | <p>Affiche les composants les plus couramment utilisés avec le composant que vous affichez.</p><p>Jusqu’à 5 composants sont affichés sur les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période.</p><p>Cette liste est basée sur les données des 90 derniers jours. Seuls les composants que vous avez accès à la vue s’affichent. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **Similaire à**] | <p>Affiche les composants avec des libellés similaires au composant que vous affichez.</p><p>Jusqu’à 5 composants sont affichés sur les 5 types de composants Principaux : Mesure, mesure calculée, Dimension, segment et période.</p><p>Seuls les composants que vous avez accès à la vue s’affichent.</p><p>Tous les composants en double de votre suite de rapports s’affichent ici. Les administrateurs d’Analytics doivent identifier et supprimer tous les composants en double, comme décrit dans la section [Surveillance de l’intégrité du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
