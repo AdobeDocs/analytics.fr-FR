@@ -3,10 +3,10 @@ title: Visites
 description: Séquence de pages vues lors d’une session unique.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: ceee6f27581abc288ff08134218ae7f6b93e9201
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Une visite est toujours associée à une période afin que vous sachiez si vous 
 * **30 minutes d’inactivité** : pratiquement toutes les sessions se terminent de cette manière. Si plus de 30 minutes s’écoulent entre les accès, une nouvelle session commence.
 * **12 heures d’activité** : si un utilisateur déclenche des demandes d’image en continu sans intervalle de 30 minutes sur une période de plus de 12 heures, une nouvelle visite commence automatiquement.
 * **2 500 accès** : si un utilisateur génère un grand nombre d’accès sans nouvelle session, une nouvelle visite est comptabilisée après 2 500 demandes d’image.
-* **100 accès en 100 secondes** : si une visite consiste de plus de 100 accès se produisant en moins de 100 secondes, la visite se termine automatiquement. Ce comportement indique généralement des robots et cette restriction s’applique afin d’augmenter les performances des rapports.
+* **100 accès en 100 secondes**: Si une visite comporte plus de 100 accès qui se produisent au cours des 100 premières secondes de la visite, la visite se termine automatiquement. Ce comportement indique généralement des robots et cette restriction s’applique afin d’augmenter les performances des rapports.
 
 Une visite ne coïncide pas nécessairement avec une session de navigateur en raison des critères ci-dessus. L’une des différences les plus courantes concerne le cas où un visiteur accède à votre site, laisse l’onglet ouvert pendant plus de 30 minutes, puis reprend la navigation. Bien que cette action fasse techniquement partie d’une même session de navigation, Adobe considère cette action comme deux visites distinctes.
 
