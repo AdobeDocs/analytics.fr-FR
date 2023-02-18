@@ -3,10 +3,10 @@ title: campaign
 description: Permet de renseigner la dimension « Code de suivi ».
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 80%
+source-wordcount: '244'
+ht-degree: 75%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 La variable `campaign` est dédiée à la collecte des codes de suivi sur votre site. Dans les versions précédentes d’Adobe Analytics, celle-ci bénéficiait d’un traitement spécial où elle pouvait être utilisée comme ventilation pour la plupart des dimensions. Dans la version actuelle d’Adobe Analytics, elle agit de la même manière qu’une eVar.
 
-Cette variable renseigne la dimension « Code de suivi ».
+Cette variable renseigne la variable [Code de suivi](/help/components/dimensions/tracking-code.md) dimension. Elle obtient généralement sa valeur à partir d’une chaîne de requête à l’aide de la variable [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) Utilitaire . Cependant, votre entreprise détermine exactement comment définir cette variable.
 
 ## Campaign à l&#39;aide du SDK Web
 
@@ -24,7 +24,7 @@ Campaign est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/do
 
 Vous pouvez définir la campagne soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».

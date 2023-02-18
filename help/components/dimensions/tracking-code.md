@@ -3,24 +3,26 @@ title: Code de suivi
 description: Nom du code de suivi ou de la campagne.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 91%
 
 ---
 
 # Code de suivi
 
-La dimension « Code de suivi » liste les noms des codes de suivi sur votre site. Cette dimension est généralement collectée à l’aide de paramètres de chaîne de requête. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension indique les liens qui ont généré le plus de trafic vers votre site.
+La dimension « Code de suivi » liste les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à identifier les liens qui ont généré le plus de trafic vers votre site.
+
+L’ajout de chaînes de requête de code de suivi est courant dans les emails, les publicités, les publications de médias sociaux et d’autres efforts marketing que votre entreprise utilise.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`v0`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
+Cette dimension récupère les données de la chaîne de requête [`v0`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
 
 ## Éléments de dimension
 
-Les éléments de dimension incluent les noms des codes de suivi sur votre site. Votre entreprise détermine les éléments de dimension spécifiques à utiliser.
+Les éléments de dimension incluent les noms des codes de suivi sur votre site. Votre entreprise détermine les éléments de dimension spécifiques à utiliser. Voir [Suivi des campagnes](/help/implement/use-cases/campaign-tracking.md) pour plus d’informations.
 
 ## Comparaison de la dimension Code de suivi avec les canaux marketing qui collectent les codes de suivi
 
@@ -29,7 +31,7 @@ Certains utilisateurs qui configurent des règles de traitement des canaux marke
 * **Canaux antérieurs aux règles de traitement** : les règles de traitement des canaux marketing situées plus haut dans la liste peuvent empêcher l’attribution des accès à votre canal marketing Codes de suivi. Par exemple :
 
    1. Vous avez configuré les « Réseaux sociaux » comme première règle et les « Codes de suivi » comme seconde règle.
-   2. Un utilisateur publie un lien vers votre site contenant un code de suivi sur un site de réseaux sociaux, et plusieurs de ses amis cliquent sur ce lien pour accéder à votre site.
+   2. Un utilisateur publie un lien vers votre site contenant un code de suivi sur un site de réseau social, et plusieurs de ses amis cliquent sur ce lien pour accéder à votre site.
 
    Comme les « Réseaux sociaux » sont la première règle de traitement des canaux marketing, ces utilisateurs sont attribués au canal marketing « Réseaux sociaux », et non à votre canal marketing Codes de suivi.
 * **D’autres canaux marketing peuvent voler l’attribution** : lors de l’utilisation d’une dimension Codes de suivi standard, il est inutile de se soucier de la possibilité que d’autres parties de votre site puissent voler l’attribution. Toutefois, avec les canaux marketing, un utilisateur peut correspondre à une règle différente, ce qui donne une attribution différente. Par exemple :
