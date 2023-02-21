@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
+source-git-commit: 66c314d45c4ee4f15cc2e7d05ea248b95ff3c717
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 70%
+ht-degree: 93%
 
 ---
 
@@ -21,13 +21,13 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 * Les **indications à entropie élevée** contiennent des informations plus détaillées. Ces indications ne sont disponibles que sur demande. AppMeasurement et SDK Web peuvent être configurés pour demander des indications à entropie élevée. Par défaut, les deux bibliothèques ne demandent **pas** d’indications à entropie élevée.
 
-Depuis octobre 2022, de nouvelles versions des navigateurs Chromium ont commencé à &quot;figer&quot; la version du système d’exploitation représentée dans la chaîne User-Agent. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
+À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium ont commencé à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
 
-À compter du 16 février 2023, les conseils client seront intégrés au processus de recherche de périphériques Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données d’indices, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été bloquée à partir du mois d’octobre, mais en raison d’un déploiement progressif et du fait que de nombreux agents utilisateur fournissent déjà une version figée du système d’exploitation (voir plus [here](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera &lt;3 % des visiteurs Chrome.
+À compter de mars 2023, les conseils aux clients seront intégrés au processus de recherche des appareils Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
-> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indices client à forte entropie. Voir [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
+> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indices client à forte entropie. Consultez [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
 
 AAM nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
@@ -41,11 +41,11 @@ Cet [article de blog Google](https://web.dev/user-agent-client-hints/) est une b
 
 +++**Comment activer la collecte des indications du client ?**
 
-Les indications à faible entropie sont automatiquement fournies par le navigateur et ingérées pour la dérivation des informations sur le périphérique et le navigateur. Les nouvelles versions du SDK Web (à partir de 2.12.0) et de AppMeasurement (à partir de 2.23.0) peuvent être configurées pour collecter des indications à entropie élevée via leurs extensions Balises respectives ou directement via une option de configuration. Voir les instructions pour [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) et [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
+Les indications à faible entropie sont automatiquement fournies par le navigateur et ingérées pour la dérivation des informations sur le périphérique et le navigateur. Les nouvelles versions du SDK Web (à partir de 2.12.0) et de AppMeasurement (à partir de 2.23.0) peuvent être configurées pour collecter des indications à entropie élevée via leurs extensions Balises respectives ou directement via une option de configuration. Consultez les instructions pour le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr#enabling-high-entropy-client-hints) et [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=fr).
 
 Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
 
-Pour les données envoyées via l’API, par exemple via [API d’insertion de données](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou [API Bulk Data Insertion](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=en), les conseils doivent être explicitement inclus dans la payload. Pour plus d’informations, consultez la documentation correspondante.
+Pour les données envoyées via l’API, par exemple via l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou l’[API Bulk Data Insertion](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=fr), les indications doivent être explicitement incluses dans le payload. Consultez la documentation correspondante pour plus de détails.
 
 +++
 
@@ -74,7 +74,7 @@ Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 * Les indices à faible entropie sont collectés via l’en-tête de la requête.
 * Les indices à forte entropie sont collectés via JavaScript et transmis par le biais de valeurs de paramètre de chaîne de requête. Les paramètres de chaîne de requête utilisent `h.` comme préfixe dans la demande d’image.
 
-Les indices à forte entropie sont collectés via un appel JavaScript et transmis via un paramètre de requête
+Les indications à entropie élevée sont collectées via un appel JavaScript et transmises via un paramètre de requête.
 
 +++
 
@@ -88,11 +88,11 @@ Les champs de périphérique disponibles pour la création de rapports ne change
 
 Ces champs sont directement dérivés de la chaîne Agent-utilisateur, mais celle-ci peut être utilisée pour dériver des valeurs pour d’autres champs liés au périphérique, en fonction de ses informations.
 
-* [Navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [Navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=fr)
 * [Type de navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=fr)
-* [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)
 * [Types de systèmes d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=fr)
-* [Appareils mobiles et type d’appareils mobiles](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [Appareils mobiles et type d’appareils mobiles](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=fr)
 
 +++
 
@@ -102,11 +102,11 @@ Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user
 
 +++
 
-+++**De quelle manière Analytics dépend-il de l’agent utilisateur ?**
++++**De quelle manière l’application Analytics dépend-elle de l’agent utilisateur ?**
 
-Les informations sur le périphérique dans les rapports proviennent de l’agent utilisateur. Nous avons mis à jour nos processus afin d’utiliser à la fois l’agent utilisateur et les conseils client, le cas échéant.
+Les informations sur le périphérique dans les rapports proviennent de l’agent utilisateur. Nous avons mis à jour nos processus afin d’utiliser à la fois l’agent utilisateur et les indications du client, le cas échéant.
 
-Identifiant de secours ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en)) provient de l’agent utilisateur et de l’adresse IP. Cet identifiant n’est utilisé que si un cookie ne peut pas être défini et n’est donc pas largement utilisé.
+L’identifiant de secours ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=fr)) provient de l’agent utilisateur et de l’adresse IP. Cet identifiant n’est utilisé que si un cookie ne peut pas être défini et n’est donc pas largement utilisé.
 
 +++
 
@@ -120,7 +120,7 @@ Reportez-vous à la section [chronologie publiée par Google](https://blog.chrom
 
 +++**Comment Adobe utilisera-t-il les indications du client pour obtenir des informations sur le périphérique ?**
 
-Adobe utilise un tiers, Device Atlas, qui utilisera à la fois des conseils client et l’agent utilisateur pour dériver des informations sur l’appareil.
+Adobe fait appel à un tiers, Device Atlas, qui utilise à la fois les indications du client et la chaîne Agent-Utilisateur pour obtenir des informations sur le périphérique.
 
 +++
 
