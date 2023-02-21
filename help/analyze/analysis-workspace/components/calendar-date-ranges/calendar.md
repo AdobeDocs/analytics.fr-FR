@@ -4,10 +4,10 @@ title: Calendrier et périodes - Aperçu
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: bec3ddc1f5ccf7b4baddabb0a376ed5775318df7
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '863'
+ht-degree: 45%
 
 ---
 
@@ -48,7 +48,7 @@ Trois cas d’utilisation courants où les dates de panneau relatives prennent e
 Pour utiliser des plages de dates de panneau relatives
 
 1. Sélectionnez la **Workspace** .
-1. Sélectionner **Projet vierge**.
+1. Sélectionnez **Projet vierge**.
 1. Ajoutez des dimensions, des mesures et des segments à partir du rail de gauche.
 1. Cliquez sur le champ de plage de dates du panneau pour activer/désactiver le paramètre de plage de dates relatif du panneau.
 1. Sélectionner **Définition des composants de période relatifs au calendrier du panneau**.
@@ -78,3 +78,10 @@ Lorsque vous utilisez un calendrier personnalisé basé sur une semaine et que v
 ### À propos des segments qui utilisent des dates roulantes et des plages de dates de panneaux relatifs {#segments-relative-dates}
 
 Si vous créez un segment ou utilisez un segment avec une date variable, par exemple les 7 derniers jours ou les 2 dernières semaines, et que vous cliquez sur l’aperçu du segment, la date variable commence à partir de *Aujourd&#39;hui* au lieu de la date de début du panneau. Par conséquent, l’aperçu du segment ne correspond pas lorsque vous utilisez réellement le segment dans le tableau. L’aperçu est affecté, et non le segment lui-même.
+
+## Instructions relatives aux plages de dates et aux aperçus de panneau {#guidelines-panel-dates}
+
+* À compter de la version de février, les aperçus de composants et de données seront basés sur la période du panneau et non sur les 90 derniers jours.
+* Tous les composants répertoriés dans le rail de gauche seront disponibles en fonction de la période du panneau.
+* Tous les aperçus de date dans les créateurs de segments et de mesures calculées sont basés sur la période du panneau (sauf si vous y accédez à partir des gestionnaires de composants, qui n’ont pas de panneau associé, ils seront toujours basés sur les 90 derniers jours).
+* Tous les aperçus de données affichent des données ou des composants en fonction de la période du panneau.

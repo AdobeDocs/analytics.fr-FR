@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9c716438e4802d7dcdeab3302295e651cb5df30e
+source-git-commit: feb6942a54f61850ce11e08008b5694c53436e6d
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 42%
+source-wordcount: '1098'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | **Mise à jour de l’interface utilisateur pour les étiquettes relatives à la Confidentialité des données** | L’interface mise à jour simplifie le processus de création, de gestion et de modification des étiquettes de confidentialité des données pour les composants de la suite de rapports. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | S.O. | 8 février 2023 |
 | **Masquage des plages de dates de comparaison dans les Fiches d’évaluation mobiles** | Avec les Fiches d’évaluation mobiles, vous pouvez activer/désactiver la variable **[!UICONTROL Inclure des dates de comparaison]** pour afficher ou masquer les dates de comparaison. | S.O. | 8 février 2023 |
 | **Mises à jour du calendrier dans Workspace** | <ul><li>Dates du panneau d’ancrage : Vous pouvez définir les composants de période par rapport au calendrier du panneau. [En savoir plus](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>Mises à jour de style du calendrier : Les styles de calendrier de l’ensemble de l’interface utilisateur ont été mis à niveau afin de présenter un workflow plus cohérent et plus facile à utiliser.</li><li>Mises à jour de la formule du calendrier : Si vous utilisez des dates relatives, toutes les formules de calendrier refléteront le début de la période du panneau. [En savoir plus](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | S.O. | 8 février 2023 |
+| **Mises à jour des plages de dates des panneaux** | Dans Workspace, nous avons ajouté les améliorations suivantes :<ul><li>À compter de la version de février, les aperçus de composants et de données seront basés sur la période du panneau et non sur les 90 derniers jours. </li><li>Tous les composants répertoriés dans le rail de gauche seront disponibles en fonction de la période du panneau.</li><li>Tous les aperçus de date dans les créateurs de segments et de mesures calculées sont basés sur la période du panneau (sauf si vous y accédez à partir des gestionnaires de composants, qui n’ont pas de panneau associé, ils seront toujours basés sur les 90 derniers jours).</li><li>Tous les aperçus de données affichent des données ou des composants en fonction de la période du panneau.</li></ul> | S.O. | 8 février 2023 |
 | **Filtrage des lignes/colonnes pour la diffusion en continu du connecteur source Adobe Analytics** | Le connecteur source Analytics dans Adobe Experience Platform permet désormais de filtrer les données Analytics utilisées pour renseigner les profils dans [Profil client en temps réel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr). Le filtrage au niveau des lignes permet de réduire le nombre d’événements associés aux profils. Le filtrage au niveau des colonnes contribue à réduire la richesse des événements eux-mêmes, ce qui vous permet d’optimiser l’utilisation des droits sur les profils. Ce filtrage s’applique uniquement aux données envoyées à Real-time Customer Profile et [Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr). **Le filtrage n’a aucune incidence sur les données envoyées au lac de données en vue de leur utilisation dans des applications telles que Customer Journey Analytics.**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | S.O. | 22 février 2023 |
 
 {style=&quot;table-layout:auto&quot;}
