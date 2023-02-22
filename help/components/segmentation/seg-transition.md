@@ -3,35 +3,16 @@ description: Questions fréquentes sur la gestion des segments hérités.
 title: Questions fréquentes sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # Questions fréquentes sur les segments hérités
 
 Répond aux questions fréquentes sur les bonnes pratiques de gestion des segments hérités - segments créés avant 2014.
-
-## Bonnes pratiques {#best-practices}
-
-+++ **Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ?** Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. Il est conseillé d’effectuer les opérations suivantes :
-
-* renommer les segments portant le même nom mais ayant des définitions différentes, ou
-* supprimer les segments qui ne sont plus utiles.
-
-+++
-
-+++ **Quelles sont les recommandations d’Adobe au sujet du nettoyage des segments ?**
-
-* Marquez tous les segments avec une balise héritée.
-* Examinez les segments à votre disposition.
-* Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
-* Approuvez les segments canoniques.
-* Marquez les segments en fonction des   [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-
-+++
 
 ## Gestion des segments existants {#legacy}
 
@@ -69,7 +50,7 @@ Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Cr�
 
 +++
 
-**Qu’est-il advenu des segments préconfigurés ?**
++++ **Qu’est-il advenu des segments préconfigurés ?**
 
 * **Visites de page unique**
 * **Visites depuis des périphériques mobiles**
@@ -97,7 +78,7 @@ Les rapports existants auxquels ces segments sont appliqués continuent de fonct
 
 +++
 
-+++ **Qu’advient-il des segments administrateur (également appelés « segments globaux ») ?**
++++ **Qu’est-il advenu des segments administrateur (également appelés &quot;segments globaux&quot;) ?**
 
 Les segments d’**administrateur** seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde.
 
@@ -109,6 +90,23 @@ Les segments existants qui utilisent une logique qui a été modifiée comme ind
 
 +++
 
++++ **Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ?** Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. Il est conseillé d’effectuer les opérations suivantes :
+
+* renommer les segments portant le même nom mais ayant des définitions différentes, ou
+* supprimer les segments qui ne sont plus utiles.
+
++++
+
++++ **Quelles sont les recommandations d’Adobe au sujet du nettoyage des segments ?**
+
+* Marquez tous les segments avec une balise héritée.
+* Examinez les segments à votre disposition.
+* Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
+* Approuvez les segments canoniques.
+* Marquez les segments en fonction des   [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+
++++
+
 ### Conseils de migration
 
 Les conseils suivants vous aideront à migrer les dimensions courantes :
@@ -116,10 +114,7 @@ Les conseils suivants vous aideront à migrer les dimensions courantes :
 * Ville/région/pays géo : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
 * Navigateurs : utilisez la dimension Types de navigateur afin de regrouper tous les navigateurs dans un type, par exemple Google Chrome.
 * Systèmes d’exploitation : utilisez les dimensions des types de système d’exploitation pour regrouper tous les systèmes d’exploitation dans un type, par exemple Microsoft Windows.
-
-* [Dimensions nouvelles et renommées](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Modifications apportées aux conteneurs](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Modifications apportées à Inférieur à et à Supérieur à](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* Voir la section &quot;Dimensions nouvelles et renommées&quot; (voir ci-dessous).
 
 ## Dimensions nouvelles et renommées {#renamed}
 

@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 87%
+source-wordcount: '1173'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace contient les fonctionnalités supplémentaires suivantes :
 
 ## Segments fournis par l’Adobe
 
-Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés, ainsi que les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite :
+Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés, ainsi que les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite. Il s’agit d’une liste partielle de segments fournis par l’Adobe :
 
 ![Adobe de segments](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 
 Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL THEN].
 
-## Vidéo pratique {#segment-video}
+## Vidéo Comment segmenter {#segment-video}
 
 Cette vidéo présente rapidement les conteneurs de segments et leurs modes d’utilisation : [Conteneurs de segments dans Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=fr)
 
