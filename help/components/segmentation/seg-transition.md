@@ -3,10 +3,10 @@ description: Questions fréquentes sur la gestion des segments hérités.
 title: Questions fréquentes sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -152,8 +152,9 @@ Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont 
 
 Les dimensions suivantes ont été modifiées en listes énumérées :
 
+| Nom de la Dimension | Nom de la Dimension | Nom de la Dimension |
+| --- | --- | --- |
 | fabricant du périphérique mobile | longueur d’adresse e-mail du périphérique mobile | profondeur de couleur |
-|---|---|---|
 | taille de l’écran du périphérique mobile | numéro du périphérique mobile | résolution de l’écran |
 | hauteur d’écran du périphérique mobile | mobile - presser pour parler | module externe |
 | prise en charge des cookies sur le périphérique mobile | mobile - décoration de courrier | système d’exploitation |
@@ -170,7 +171,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 
 ## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#integer-based-dims}
 
-Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du Créateur de segments antérieure et nouvelle :
+Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées à l’aide des interfaces précédente et nouvelle du créateur de segments :
 
 ![](assets/seg_browser_dimension.png)
 
