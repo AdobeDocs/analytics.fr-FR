@@ -3,7 +3,7 @@ title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
+source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 38%
@@ -60,6 +60,7 @@ La collecte de données régionale inclut actuellement les emplacements suivants
 
 Le module complémentaire RDC Chine (China Performance Optimization) est un module complémentaire payant d’Adobe Analytics. L’optimisation des performances d’Adobe en Chine continentale permet aux clients ayant des utilisateurs en Chine d’envoyer ces données directement vers les serveurs de collecte de données d’Adobe en Chine plutôt qu’ailleurs dans le monde. Cette optimisation améliore les temps de chargement des pages et la précision des données par rapport à l’envoi de données à des emplacements en dehors de la Chine. Les données sont finalement transférées vers l’un des centres de traitement de données (DPC) d’Adobe en dehors de la Chine. Pour plus d’informations, contactez votre représentant commercial d’Adobe.
 
->!![NOTE]
-Le module complémentaire RDC pour la Chine n’est pas pris en charge pour la variable [SDK Web](/help/implement/aep-edge/overview.md).
+>[!NOTE]
+>
+>Le module complémentaire RDC pour la Chine n’est pas pris en charge pour la variable [SDK Web](/help/implement/aep-edge/overview.md).
 
