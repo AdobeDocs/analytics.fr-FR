@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
+source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 97%
+source-wordcount: '687'
+ht-degree: 96%
 
 ---
 
@@ -152,7 +152,8 @@ ht-degree: 97%
    + [Visites](metrics/visits.md)
 + Segmentation {#segmentation}
    + [Segmentation Analytics](segmentation/seg-home.md)
-   + [À propos des segments et des conteneurs](segmentation/seg-overview.md)
+   + [À propos des segments](segmentation/seg-overview.md)
+   + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Workflow de segmentation {#segmentation-workflow}
       + [Workflow de segmentation - Aperçu](segmentation/segmentation-workflow/seg-workflow.md)
@@ -173,7 +174,7 @@ ht-degree: 97%
       + [Compatibilité des segments avec Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
-   + [Questions fréquentes](segmentation/seg-transition.md)
+   + [Questions fréquentes sur la gestion des segments hérités ](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
 + Mesures calculées {#calculated-metrics}
    + [Mesures calculées ou calculées avancées (dérivées)](c-calcmetrics/cm-overview.md)
