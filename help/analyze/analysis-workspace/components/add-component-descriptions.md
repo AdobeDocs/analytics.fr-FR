@@ -3,18 +3,18 @@ description: Les administrateurs peuvent ajouter des descriptions pour les compo
 title: Ajout de descriptions de composant
 feature: Components
 role: Admin
-source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Ajout de descriptions de composant
 
-Les administrateurs d’Analytics peuvent ajouter des descriptions pour les composants (Dimensions, mesures, segments et périodes).<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Les descriptions aident les utilisateurs à savoir comment utiliser au mieux les différents composants lors de la création de projets dans Analysis Workspace ou lors de l’affichage de rapports.
 
-Les utilisateurs de votre entreprise peuvent afficher les descriptions lors de la création de projets dans Analysis Workspace ou lors de l’affichage de rapports. Les descriptions aident les utilisateurs à savoir comment utiliser au mieux les différents composants.
+Les administrateurs d’Analytics peuvent ajouter des descriptions pour les composants (Dimensions, mesures, segments et périodes).<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
 ## Ajout de descriptions aux composants d’une suite de rapports
 

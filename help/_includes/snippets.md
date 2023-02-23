@@ -1,8 +1,8 @@
 ---
-source-git-commit: df0d2c4687117fd00714ced56db6259e44698a20
+source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 15%
+source-wordcount: '763'
+ht-degree: 21%
 
 ---
 # Extraits
@@ -28,7 +28,7 @@ ht-degree: 15%
    | [!UICONTROL **Tout afficher**] | Afficher tous les composants. Cette option est disponible uniquement pour les administrateurs. |
    | [!UICONTROL **Non approuvé**] | Afficher uniquement les composants qui ne sont pas encore marqués comme Approuvés par un administrateur. En tant qu’administrateur, cela s’avère utile pour identifier les composants qui nécessitent votre révision et votre approbation. Cette option est disponible uniquement pour les administrateurs. |
    | [!UICONTROL **Description manquante**] | Afficher uniquement les composants qui n’ont pas encore de description dans le champ Description . Cette option est disponible uniquement pour les administrateurs. |
-   | [!UICONTROL **Afficher les doublons**] | Afficher uniquement les composants qui ont le même libellé ou la même description qu’un autre composant de la suite de rapports sélectionnée. Les libellés ou descriptions doivent correspondre exactement pour s’afficher en tant que doublons. Cette option est disponible uniquement pour les administrateurs. |
+   | [!UICONTROL **Afficher les doublons**] | Afficher uniquement les composants qui ont le même libellé ou la même description qu’un autre composant de la suite de rapports sélectionnée. Cela inclut les composants que vous créez ainsi que ceux fournis par Adobe. Les libellés ou descriptions doivent correspondre exactement pour s’afficher en tant que doublons. Cette option est disponible uniquement pour les administrateurs. |
    | [!UICONTROL **Aucune donnée récente**] | Afficher uniquement les composants qui n’ont collecté aucune donnée au cours des 90 derniers jours. Cette option est disponible uniquement pour les administrateurs. |
    | [!UICONTROL **Créé par Adobe**] <!-- I don't see this option--> | Afficher uniquement les composants qui ont été créés par Adobe. Les composants créés par un administrateur ou un autre utilisateur de votre entreprise ne s’affichent pas. |
 
@@ -51,15 +51,15 @@ ht-degree: 15%
 
 {style=&quot;table-layout:auto&quot;}
 
-## Tests limités de la phase de publication {#release-limited-testing}
+## Phase de tests limités de publication {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cet article se trouvent dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
+>La fonctionnalité décrite dans cet article se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
-## Section Tests limités de la phase de publication {#release-limited-testing-section}
+## Section Phase de tests limités de publication {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->Les fonctionnalités décrites dans cette section se trouvent dans la phase Tests limités de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
+>La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
