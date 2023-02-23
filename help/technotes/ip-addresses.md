@@ -3,9 +3,9 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 222ce14fd60ce5dae39a72c1a2bec4315a68b4e4
+source-git-commit: efe78fb17d9a7ea7dde27075d9d890a33138a0d6
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '393'
 ht-degree: 73%
 
 ---
@@ -55,6 +55,7 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 | Australie | `63.140.56.0/23` |
 | Californie | `63.140.32.0/23` |
 | Californie | `63.140.34.0/24` |
+| France | `63.140.62.0/23` |
 | Inde | `66.117.20.0/24` |
 | Inde | `66.117.22.0/23` |
 | Japon | `130.248.130.0/23` |
@@ -81,21 +82,12 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | --- | --- |
 | Chine | `52.80.83.220` |
 | Chine | `71.132.16.253` |
-| France | `13.36.218.177` |
-| France | `15.188.95.229` |
-| France | `15.236.176.210` |
+| Chine | `52.80.7.181` |
+| Chine | `71.131.244.185` |
+| Chine | `140.179.152.255` |
 | France | `13.37.25.97` |
 | France | `15.236.117.205` |
 | France | `15.236.125.10` |
-| Irlande | `54.74.170.177` |
-| Irlande | `54.195.254.128` |
-| Irlande | `54.220.133.225` |
-| Oregon | `52.10.149.115` |
-| Oregon | `52.40.172.46` |
-| Oregon | `54.212.155.93` |
-| Virginie | `3.216.131.23` |
-| Virginie | `34.204.237.47` |
-| Virginie | `54.163.234.74` |
 
 Le tableau suivant comprend les blocs d’adresses IPv6 d’AWS utilisés par Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
 
