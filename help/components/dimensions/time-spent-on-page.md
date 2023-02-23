@@ -3,10 +3,10 @@ title: Durée de consultation de la page
 description: Le temps passé par un visiteur sur la page.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 Il existe plusieurs dimensions pour la durée de consultation de la page :
 
-* **Durée de consultation de la page - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 15 seconds"` et `"More than 30 minutes"`. La durée entre les pages vues ne dépasse généralement pas 30 minutes. Toutefois, la durée entre les pages vues peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
+* **Durée de consultation de la page - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 15 seconds"` et `"More than 30 minutes"`. La durée entre les accès ne dure généralement pas plus de 30 minutes ; cependant, le temps entre les accès peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
 * **Durée de consultation de la page - granulaire** : chaque nombre de secondes est un élément de dimension unique.
 
 Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.
