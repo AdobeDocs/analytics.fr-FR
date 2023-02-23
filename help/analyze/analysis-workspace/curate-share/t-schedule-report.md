@@ -5,10 +5,10 @@ title: Planification de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+source-git-commit: bf9f04ce6ff057ca66bcf0d9cf66540cea160444
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 88%
 
 ---
 
@@ -20,12 +20,12 @@ Dans le **menu Partager** de Workspace, vous pouvez envoyer des projets Analysis
 
 Pour envoyer un fichier immédiatement aux destinataires par courrier électronique :
 
-1. Cliquez sur **Partager > Envoyer le fichier maintenant**.
+1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Envoyer le fichier maintenant]**.
 1. Spécifiez le type de fichier (CSV ou PDF).
 1. (Facultatif) Ajoutez une description qui sera incluse dans le courrier électronique pour décrire le fichier reçu.
 1. Ajoutez des destinataires ou des groupes. Vous pouvez également saisir les adresses électroniques.
-1. Cliquez sur **Envoyer maintenant**.
-1. (Facultatif) Cliquez sur **Afficher les options de planification** pour planifier une livraison.
+1. Cliquez sur **[!UICONTROL Envoyer maintenant]**.
+1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les options de planification]** pour planifier une livraison.
 
 ![Envoyer le fichier maintenant](assets/send-file-now.png)
 
@@ -33,13 +33,13 @@ Pour envoyer un fichier immédiatement aux destinataires par courrier électroni
 
 Pour envoyer un fichier selon un calendrier récurrent aux destinataires par courrier électronique :
 
-1. Cliquez sur **Partager > Envoyer le fichier selon le calendrier**.
+1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Envoyer le fichier selon le calendrier]**.
 1. Spécifiez le type de fichier (CSV ou PDF).
 1. (Facultatif) Ajoutez une description qui sera incluse dans le courrier électronique pour décrire le fichier reçu.
 1. Ajoutez des destinataires ou des groupes. Vous pouvez également saisir les adresses électroniques.
 1. Précisez la période pendant laquelle la livraison doit être effectuée en modifiant les entrées Début le et Fin le. La date de fin doit se situer dans un délai d’un an à compter du jour de la création ou de la modification de la planification.
 1. Spécifiez la fréquence de livraison. Chaque fréquence offre différentes personnalisations.
-1. Cliquez sur **Envoyer selon le calendrier**.
+1. Cliquez sur **[!UICONTROL Envoyer selon le calendrier]**.
 
 ![](assets/send-on-schedule.png)
 
@@ -53,16 +53,16 @@ Dans le Gestionnaire de projets planifiés, vous pouvez modifier et supprimer le
 
 | Champ | Description |
 | --- | --- |
-| Favoris | Sélectionnez l’icône en forme d’étoile pour marquer ce planning comme favori. |
-| Identifiant de planification | Cet identifiant est principalement utilisé à des fins de débogage. |
-| Titre et description | Titre et description de ce projet. |
-| Propriétaire | Personne qui a créé le projet et qui en est le propriétaire. |
-| Balises | (facultatif) Le balisage est un moyen efficace d’organiser les projets. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un projet. Néanmoins, vous ne pouvez afficher les balises que pour les projets que vous possédez ou qui ont été partagés avec vous. |
-| Distribué à | Le ou les destinataires de ce projet planifié. |
-| Date d’expiration | La date d’expiration par défaut est fixée à un an à compter de la date de création. |
-| Fréquence | Fréquence à laquelle vous souhaitez envoyer ce projet planifié au(x) destinataire(s). |
-| Heure d’exécution | Heure à laquelle ce projet planifié est envoyé. |
-| Nombre de requêtes | Nombre de requêtes concernant ce projet. |
+| [!UICONTROL Favoris] | Sélectionnez l’icône en forme d’étoile pour marquer ce planning comme favori. |
+| [!UICONTROL Identifiant de planification] | Cet identifiant est principalement utilisé à des fins de débogage. |
+| [!UICONTROL Titre et description] | Titre et description de ce projet. |
+| [!UICONTROL Propriétaire] | Personne qui a créé le projet et qui en est le propriétaire. |
+| [!UICONTROL Balises] | (facultatif) Le balisage est un moyen efficace d’organiser les projets. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un projet. Néanmoins, vous ne pouvez afficher les balises que pour les projets que vous possédez ou qui ont été partagés avec vous. |
+| [!UICONTROL Distribué à] | Le ou les destinataires de ce projet planifié. |
+| [!UICONTROL Date d’expiration] | La date d’expiration par défaut dépend de la fréquence du planning. Voir &quot;Dates d’expiration de projet planifiées&quot; ci-dessous. |
+| [!UICONTROL Fréquence] | Fréquence à laquelle vous souhaitez envoyer ce projet planifié au(x) destinataire(s). |
+| [!UICONTROL Heure d’exécution] | Heure à laquelle ce projet planifié est envoyé. |
+| [!UICONTROL Nombre de requêtes] | Nombre de requêtes concernant ce projet. |
 
 ## Actions courantes
 
@@ -70,11 +70,20 @@ Actions courantes du Gestionnaire de projets planifiés :
 
 | Action | Description |
 |---|---|
-| **Modifier le planning** | Cliquez sur le titre du planning pour mettre à jour les paramètres de livraison. |
-| **Supprimer le planning** | Sélectionnez le projet planifié dans la liste, puis cliquez sur Supprimer dans le menu. Cela supprime le planning sélectionné pour le projet ; le projet lui-même n’est pas supprimé. |
-| **Ajout de balises** | Sélectionnez le projet planifié dans la liste, puis « Balise » ou « Approuver » pour organiser vos plannings et faciliter les recherches. |
-| **Afficher les plannings échoués** | Accédez au rail de gauche > Autres filtres > Échec pour afficher les plannings qui ont échoué. |
-| **Afficher les plannings expirés** | Accédez au rail de gauche > Autres filtres > Expiré pour afficher les plannings qui ont expiré. Cliquez sur le titre du planning pour planifier une nouvelle livraison. |
-| **Afficher l’ID de planning** | Accédez aux options relatives aux colonnes dans le coin supérieur droit et ajoutez la colonne ID de planning dans le tableau. L’ID planifié est souvent utile pour le débogage. |
+| **[!UICONTROL Modifier le planning]** | Cliquez sur le titre du planning pour mettre à jour les paramètres de livraison. |
+| **[!UICONTROL Supprimer le planning]** | Sélectionnez le projet planifié dans la liste, puis cliquez sur Supprimer dans le menu. Cela supprime le planning sélectionné pour le projet ; le projet lui-même n’est pas supprimé. |
+| **[!UICONTROL Ajout de balises]** | Sélectionnez le projet planifié dans la liste, puis « Balise » ou « Approuver » pour organiser vos plannings et faciliter les recherches. |
+| **[!UICONTROL Afficher les plannings échoués]** | Accédez au rail de gauche > Autres filtres > Échec pour afficher les plannings qui ont échoué. |
+| **[!UICONTROL Afficher les plannings expirés]** | Accédez au rail de gauche > Autres filtres > Expiré pour afficher les plannings qui ont expiré. Cliquez sur le titre du planning pour configurer un nouveau planning de diffusion. |
+| **[!UICONTROL Afficher l’ID de planning]** | Accédez aux options relatives aux colonnes dans le coin supérieur droit et ajoutez la colonne ID de planning dans le tableau. L’ID planifié est souvent utile pour le débogage. |
 
 Le Gestionnaire de planification des projets affiche les éléments créés par un utilisateur spécifique. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues. La propriété du projet planifié peut être **transférée** à un nouvel utilisateur sous **Admin > Utilisateurs et ressources Analytics > Transférer les ressources**.
+
+## Dates d’expiration de projet planifiées
+
+Les dates d’expiration des projets planifiés dépendent de la fréquence de remise planifiée :
+
+* Les diffusions horaires expirent en une semaine.
+* Les diffusions quotidiennes expirent en un mois.
+* Les diffusions hebdomadaires expirent dans 6 mois.
+* Les diffusions mensuelles/annuelles expirent en un an.
