@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: ht
-source-wordcount: '3641'
-ht-degree: 100%
+source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+workflow-type: tm+mt
+source-wordcount: '3629'
+ht-degree: 94%
 
 ---
 
@@ -42,11 +42,11 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
 | **`channel`** | Variable utilisée dans la dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
-| **`click_action`** | N’est plus utilisé. Adresse du lien cliqué dans l’outil hérité ClickMap. | varchar(100) |
-| **`click_action_type`** | N’est plus utilisé. Type de lien de l’outil hérité ClickMap.<br>0 : URL HREF<br>1 : identifiant personnalisé<br>2 : événement JavaScript onClick<br>3 : élément de formulaire | tinyint sans signe |
-| **`click_context`** | N’est plus utilisé. Nom de la page où un clic a été fait sur les liens. Partie de l’outil hérité ClickMap. | varchar(255) |
+| **`click_action`** | N’est plus utilisé. Adresse du lien cliqué dans l’outil de ClickMap hérité. | varchar(100) |
+| **`click_action_type`** | N’est plus utilisé. Type de lien de l’outil de ClickMap hérité.<br>0 : URL HREF<br>1 : identifiant personnalisé<br>2 : événement JavaScript onClick<br>3 : élément de formulaire | tinyint sans signe |
+| **`click_context`** | N’est plus utilisé. Nom de la page où un clic a été fait sur les liens. Partie de l’outil de ClickMap hérité. | varchar(255) |
 | **`click_context_type`** | N’est plus utilisé. Indique si `click_context` avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
-| **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité ClickMap. | int sans signe |
+| **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil de ClickMap hérité. | int sans signe |
 | **`click_tag`** | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
 | **`clickmaplink`** | Activity Map     lien | varchar(255) |
 | **`clickmaplinkbyregion`** | Lien d’Activity Map par région | varchar(255) |
@@ -61,7 +61,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`curr_factor`** | Détermine la décimale de la devise et est utilisée pour la conversion de devise. Par exemple, le dollar américain (USD) utilise deux décimales, donc cette valeur de colonne serait de 2. | tinyint |
 | **`curr_rate`** | Taux de change au moment de la transaction. Adobe travaille en partenariat avec XE pour déterminer le taux de change du jour. | decimal(24,12) |
 | **`currency`** | Le code de devise qui a été utilisé pendant la transaction. | char(8) |
-| **`cust_hit_time_gmt`** | Suites de rapports avec horodatage uniquement. Horodatage envoyé avec l’accès, basé sur l’heure Unix. | int |
+| **`cust_hit_time_gmt`** | Suites de rapports avec horodatage uniquement. Horodatage envoyé avec l’accès, selon l’heure UNIX®. | int |
 | **`cust_visid`** | Si un identifiant visiteur personnalisé est défini, il est indiqué dans cette colonne. | varchar(255) |
 | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien. | tinyint sans signe |
 | **`dataprivacyconsentoptin`** | Variable utilisée dans la dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
@@ -80,17 +80,17 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`first_hit_ref_domain`** | Variable utilisée dans la dimension [Domaine référent initial](/help/components/dimensions/original-referring-domain.md). Basée sur `first_hit_referrer`. Le tout premier domaine référent du visiteur. | varchar(100) |
 | **`first_hit_ref_type`** | Identifiant numérique représentant le type de référent du tout premier référent du visiteur. Utilise la recherche de `referrer_type.tsv`. | tinyint sans signe |
 | **`first_hit_referrer`** | La toute première URL de référence du visiteur. | varchar(255) |
-| **`first_hit_time_gmt`** | Horodatage du tout premier accès du visiteur en heure Unix. | int |
+| **`first_hit_time_gmt`** | Horodatage du tout premier accès du visiteur à l’heure UNIX®. | int |
 | **`geo_city`** | Nom de la ville d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Villes](/help/components/dimensions/cities.md). | char(32) |
 | **`geo_country`** | Abréviation du pays d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Pays](/help/components/dimensions/countries.md). | char(4) |
 | **`geo_dma`** | Identifiant numérique de la zone démographique d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [DMA États-Unis](/help/components/dimensions/us-dma.md). | int sans signe |
 | **`geo_region`** | Nom de l’État ou de la région d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Régions](/help/components/dimensions/regions.md). | char(32) |
-| **`geo_zip`** | Code postal d’où provient l’accès, basé sur l’adresse IP. Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `zip`. | varchar(16) |
+| **`geo_zip`** | Code postal d’où provient l’accès, en fonction de l’adresse IP. Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `zip`. | varchar(16) |
 | **`hier1 - hier5`** | Utilisé par les variables de hiérarchie. Contient une liste délimitée de valeurs. Le délimiteur est sélectionné dans les paramètres de la suite de rapports. | varchar(255) |
-| **`hit_source`** | Indique la source de l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de source de données actif avec horodatage <br>4 : inutilisée <br>5 : chargement de source de données générique <br>6 : chargement de source de données de traitement complet <br>7 : chargement de source de données TransactionID <br>8 : n’est plus utilisée ; versions précédentes des sources de données Adobe Advertising Cloud <br>9 : n’est plus utilisée ; mesures de résumé Adobe Social <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
-| **`hit_time_gmt`** | L’horodatage des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure Unix. | int |
-| **`hitid_high`** | Utilisée en combinaison avec `hitid_low` pour identifier un accès. | bigint sans signe |
-| **`hitid_low`** | Utilisée en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
+| **`hit_source`** | Indique la source d’où provient l’accès. Les sources d’accès 1, 2 et 6 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de source de données actif avec horodatage <br>4 : inutilisée <br>5 : chargement de source de données générique <br>6 : chargement de source de données de traitement complet <br>7 : chargement de source de données TransactionID <br>8 : n’est plus utilisée ; versions précédentes des sources de données Adobe Advertising Cloud <br>9 : n’est plus utilisée ; mesures de résumé Adobe Social <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
+| **`hit_time_gmt`** | L’horodatage des serveurs de collecte de données d’Adobe des accès a reçu l’accès, selon l’heure UNIX®. | int |
+| **`hitid_high`** | Utilisé avec `hitid_low` pour identifier un accès. | bigint sans signe |
+| **`hitid_low`** | Utilisé avec `hitid_high` pour identifier un accès. | bigint sans signe |
 | **`homepage`** | N’est plus utilisé. Indique si l’URL active est la page d’accueil du navigateur. | char(1) |
 | **`hourly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur horaire. | tinyint sans signe |
 | **`ip`** | L’adresse IPv4, basée sur l’en-tête HTTP de la demande d’image. Mutuellement exclusif à `ipv6`. Si cette colonne contient une adresse IP non masquée, `ipv6` est vide. | char(20) |
@@ -100,9 +100,9 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`java_enabled`** | Indicateur précisant si Java est activé. <br>Y : activé <br>N : désactivé <br>U : inconnu | char(1) |
 | **`javascript`** | Identifiant de recherche de la version JavaScript, basé sur `j_jscript`. Utilise une table de recherche. | tinyint sans signe |
 | **`language`** | Identifiant numérique de la langue. Utilise la table de recherche `languages.tsv`. | smallint sans signe |
-| **`last_hit_time_gmt`** | Horodatage (en heure Unix) de l’accès précédent. Utilisée pour calculer la dimension [Jours depuis la dernière visite](/help/components/dimensions/days-since-last-visit.md). | int |
+| **`last_hit_time_gmt`** | Horodatage (heure UNIX®) de l’accès précédent. Utilisée pour calculer la dimension [Jours depuis la dernière visite](/help/components/dimensions/days-since-last-visit.md). | int |
 | **`last_purchase_num`** | Variable utilisée dans la dimension [Fidélisation des clients](/help/components/dimensions/customer-loyalty.md). Indique le nombre dʼachats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3 : 3 achats précédents ou plus (client fidèle) | int sans signe |
-| **`last_purchase_time_gmt`** | Utilisée dans la dimension [Jours depuis le dernier achat](/help/components/dimensions/days-since-last-purchase.md). Horodatage (en heure Unix) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de `0`. | int |
+| **`last_purchase_time_gmt`** | Utilisée dans la dimension [Jours depuis le dernier achat](/help/components/dimensions/days-since-last-purchase.md). Horodatage (heure UNIX®) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de `0`. | int |
 | **`latlon1`** | Lieu (jusqu’à 10 km) | varchar(255) |
 | **`latlon23`** | Lieu (jusqu’à 100 m) | varchar(255) |
 | **`latlon45`** | Lieu (jusqu’à 1 m) | varchar(255) |
@@ -130,7 +130,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mobiledeeplinkid`** | Collecté à partir de la variable des données de contexte `a.deeplink.id`. Utilisé dans les rapports d’acquisition comme identifiant du lien d’acquisition mobile. | varchar(255) |
 | **`mobiledevice`** | Nom du périphérique mobile. Sous iOS, il est stocké sous la forme d’une chaîne de 2 chiffres séparés par des virgules. Le premier chiffre représente la génération de l’appareil, le second la famille d’appareils. | varchar(255) |
 | **`mobilehourofday`** | Définit l’heure du jour où l’application a été lancée. Suit un format numérique de 24 heures. | varchar(255) |
-| **`mobileinstalldate`** | Date de l’installation mobile. Indique la date de la première ouverture d’une application mobile par un utilisateur. | varchar(255) |
+| **`mobileinstalldate`** | Date de l’installation mobile. Indique la date de la première ouverture de l’application mobile par un utilisateur. | varchar(255) |
 | **`mobilelaunchessincelastupgrade`** | MIS HORS SERVICE - Collecté à partir de la variable a.LaunchesSinceUpgrade des données de contexte. Signale le nombre de lancements depuis la dernière mise à niveau. | varchar(255) |
 | **`mobilelaunchnumber`** | Est incrémentée d’une unité chaque fois que l’application mobile est lancée. | varchar(255) |
 | **`mobileltv`** | N’est plus utilisé. Renseignée par les méthodes trackLifetimeValue. | varchar(255) |
@@ -153,8 +153,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`mobilerelaunchcampaigntrackingcode`** | Collecté à partir de la variable des données de contexte `a.launch.campaign.trackingcode`. Utilisé au moment de l’acquisition comme code de suivi de la campagne de lancement. | varchar(255) |
 | **`mobileresolution`** | Résolution de l’appareil mobile. `[Width] x [Height]` en pixels. | varchar(255) |
 | **`monthly_visitor`** | Indicateur signifiant que le visiteur est unique pour le mois en cours. | tinyint sans signe |
-| **`mvvar1`** - `mvvar3` | Les valeurs de la liste de variable définies sur l’accès actuel ou conservées à partir des accès précédents. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. Les colonnes `post_mvvar1` - `post_mvvar3` remplacent le délimiteur dʼorigine par `--**--`. | text |
-| **`mvvar1_instances`** - `mvvar3_instances` | Les valeurs de la variable de liste qui ont été définies sur l’accès actuel. Les colonnes `post_mvvar1_instances` - `post_mvvar3_instances` remplacent le délimiteur dʼorigine par `--**--`. | text |
+| **`mvvar1`** - `mvvar3` | Valeurs des variables de liste. Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. Les colonnes `post_mvvar1` - `post_mvvar3` remplacent le délimiteur dʼorigine par `--**--`. | text |
+| **`mvvar1_instances`** - `mvvar3_instances` | Les valeurs de la variable de liste qui ont été définies sur l’accès actuel. Remplace le délimiteur d’origine par `--**--`. N’a pas de `post` colonne . | text |
 | **`namespace`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(50) |
 | **`new_visit`** | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. Utilise la recherche de `os`. | int sans signe |
@@ -275,10 +275,10 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`videoshow`** | Affichage de la vidéo | varchar(255) |
 | **`videoshowtype`** | Type d’affichage de la vidéo | varchar(255) |
 | **`videostreamtype`** | Type de flux vidéo | varchar(255) |
-| **`visid_high`** | Utilisé en combinaison avec `visid_low` pour identifier un visiteur de manière unique. | bigint sans signe |
-| **`visid_low`** | Utilisé en combinaison avec `visid_high` pour identifier un visiteur de manière unique. | bigint sans signe |
+| **`visid_high`** | Utilisé avec `visid_low` pour identifier de manière unique un visiteur. | bigint sans signe |
+| **`visid_low`** | Utilisé avec `visid_high` pour identifier de manière unique un visiteur. | bigint sans signe |
 | **`visid_new`** | Indicateur pour identifier si l’accès contient un identifiant visiteur nouvellement généré. | char(1) |
-| **`visid_timestamp`** | Si l’identifiant visiteur a été récemment généré, cette variable fournit l’horodatage (en heure Unix) du moment où l’identifiant visiteur a été généré. | int |
+| **`visid_timestamp`** | Si l’identifiant visiteur a été récemment généré, fournit l’horodatage (en heure UNIX®) du moment où l’identifiant visiteur a été généré. | int |
 | **`visid_type`** | Uniquement destinée à un usage interne. Utilisée en interne par Adobe pour les optimisations de traitement. Identifiant numérique représentant la méthode utilisée pour identifier le visiteur.<br>`0` : identifiant visiteur personnalisé ou inconnu/non applicable <br>`1` : solution de secours de l’IP et de l’agent utilisateur <br>`2` : en-tête de l’abonné mobile HTTP <br>`3` : valeur du cookie hérité (`s_vi`) <br>`4` : valeur du cookie de secours (`s_fid`) <br>`5` : Service d’identités | tinyint sans signe |
 | **`visit_keywords`** | Variable utilisée dans la dimension [Mot-clé de recherche](/help/components/dimensions/search-keyword.md). Cette colonne utilise une limite de caractères non standard pour varchar(244) pour s’adapter à la logique de back-end utilisée par Adobe. | varchar(244) |
 | **`visit_num`** | Variable utilisée dans la dimension [Nombre de visites](/help/components/dimensions/visit-number.md). Commence à 1, et est incrémentée chaque fois qu’une nouvelle visite commence par visiteur. | int sans signe |
@@ -289,7 +289,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Utilise la recherche de `search_engines.tsv`. | smallint sans signe |
 | **`visit_start_page_url`** | La première URL de la visite. | varchar(255) |
 | **`visit_start_pagename`** | Valeur Nom de page du premier accès de la visite. | varchar(100) |
-| **`visit_start_time_gmt`** | Horodatage (en heure Unix) du premier accès de la visite. | int |
+| **`visit_start_time_gmt`** | Horodatage (en heure UNIX®) du premier accès de la visite. | int |
 | **`weekly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur hebdomadaire. | tinyint sans signe |
 | **`yearly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur annuel. | tinyint sans signe |
 | **`zip`** | Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `geo_zip`. | varchar(50) |
