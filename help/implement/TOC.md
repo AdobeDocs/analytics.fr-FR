@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+source-git-commit: 9a16cd89b2d650098495902cca5c5229df48b475
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '410'
 ht-degree: 99%
 
 ---
@@ -127,6 +127,7 @@ ht-degree: 99%
    + [Module Integrate](vars/integrate.md)
 + Préparation à la mise en œuvre d’Adobe Analytics {#prepare}
    + [Création d’une couche de données](prepare/data-layer.md)
+   + [Comparer les méthodes d’implémentation](prepare/comparison.md)
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
    + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
