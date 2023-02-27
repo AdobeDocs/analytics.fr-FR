@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
+source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 53%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Février 2023)
 
-**Dernière mise à jour** : le 23 février 2023
+**Dernière mise à jour** : le 27 février 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -36,7 +36,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 
 | Avis | Date d’ajout  ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Mise à jour des recherches d’appareils en raison des indications du client Google** | 17 février 2023 | **L’utilisation des conseils aux clients, prévue pour le 16 février 2023, a été reportée afin de mieux garantir la qualité des recherches d’appareils à l’aide de conseils. Nous communiquerons sous peu une nouvelle date de déploiement.** [En savoir plus](/help/technotes/client-hints.md) |
+| **Mise à jour des recherches d’appareils en raison des indications du client Google** | 27 février 2023 | L’utilisation des conseils aux clients, prévue pour le 16 février 2023, a été reportée afin de mieux garantir la qualité des recherches d’appareils à l’aide de conseils. Nous passerons à la première phase de la version pour la prise en charge des conseils aux clients le 27 février 2023. Si tout se passe bien, nous passerons à la deuxième et dernière phase de la version le jeudi 2 mars 2023. [En savoir plus](/help/technotes/client-hints.md) |
 | **Disponibilité du connecteur source Analytics** | 15 février 2023 | Le 28 février 2023, le connecteur source Analytics sera disponible dans le nouveau centre de données Adobe Experience Platform situé au Canada. |
 | **Migration automatique vers l’architecture du jeu de classifications** | 8 février 2023 | Au cours des prochains mois, Adobe prévoit de migrer toutes les classifications de toutes les organisations vers la dernière architecture de classification. La migration des derniers clients est estimée pour mai 2023. Aucune action de la part du client n’est requise et aucun temps d’arrêt n’est attendu. Cette nouvelle architecture présente de nombreux avantages, notamment :<ul><li>Réduction significative du temps de traitement (72 heures → 24 heures)</li><li>La possibilité d’utiliser la variable [Jeux de classifications](/help/components/classifications/sets/overview.md) Interface utilisateur</li><li>L’option permettant d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [Connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>Notez les modifications suivantes qui peuvent avoir un impact potentiel sur le workflow de votre entreprise :<ul><li>Lors de l’utilisation du navigateur ou de l’importation FTP,[!UICONTROL Remplacer en cas de conflit]&quot; est toujours activé.</li><li>Lorsque vous utilisez le navigateur ou l’importation FTP, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge.</li><li>API Analytics 2.0 `GetDimensions` Le point de terminaison renvoie désormais des identifiants de chaîne pour les classifications au lieu des identifiants numériques. Les identifiants numériques peuvent toujours être utilisés, mais Adobe recommande d’utiliser les nouveaux identifiants de chaîne si possible. Les identifiants numériques peuvent être récupérés à l’aide de la variable `?expansion=hidden` paramètre de chaîne de requête.</li></ul>Contactez l’assistance clientèle d’Adobe si vous souhaitez un planning de migration plus spécifique pour votre entreprise ou si vous avez des questions/préoccupations concernant cette migration. [En savoir plus](/help/components/classifications/sets/overview.md) |
 

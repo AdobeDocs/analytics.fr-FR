@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 66c314d45c4ee4f15cc2e7d05ea248b95ff3c717
+source-git-commit: 58937630e6173013b622deec0433ef67b483c483
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 93%
+source-wordcount: '1251'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium ont commencé à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les périphériques de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les périphériques.
 
-À compter de mars 2023, les conseils aux clients seront intégrés au processus de recherche des appareils Analytics. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
+À compter du 27 février 2023, les conseils aux clients seront intégrés au processus de recherche d’appareils Analytics et se termineront le 2 mars 2023. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche de périphériques avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
