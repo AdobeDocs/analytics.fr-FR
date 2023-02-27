@@ -2,7 +2,7 @@
 title: Ordre de traitement des données dans Adobe Analytics
 description: Découvrez l’ordre des composants et services qui traitent les données dans Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
@@ -45,6 +45,6 @@ Une fois les données envoyées à Adobe Analytics, les fonctionnalités suivant
 Les données dans Adobe Analytics sont pour la plupart permanentes. Cependant, certaines fonctionnalités permettent d’ajuster ou de supprimer des données sélectives 
 
 * [**API de réparation des données**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) : modifiez certaines colonnes ou supprimez les lignes de données de votre choix.
-* [**Gouvernance des données**](/help/technotes/c-data-governance/an-gdpr-workflow.md) : accédez aux demandes de confidentialité pour supprimer définitivement des données.
+* [**Gouvernance des données**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md) : accédez aux demandes de confidentialité pour supprimer définitivement des données.
 * [**Classifications**](/help/components/classifications/c-classifications.md) : créez des dimensions d’après des règles ou des données téléchargées qui vous permettent d’organiser les données différemment. Les données sous-jacentes de la suite de rapports ne sont pas modifiées. Vous pouvez donc modifier ou remplacer librement les données de classification.
 * [**Suites de rapports virtuelles**](/help/components/vrs/vrs-about.md) : créez une autre vue de suite de rapports qui peut modifier le délai d’expiration de la visite ou autoriser [Analytics sur l’ensemble des appareils](/help/components/cda/overview.md).

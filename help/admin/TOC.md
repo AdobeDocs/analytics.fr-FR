@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '629'
 ht-degree: 94%
 
 ---
@@ -153,6 +153,18 @@ ht-degree: 94%
       + [Gestionnaire de préférences](admin/company/preferences-manager.md)
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
+   + Étiquetage de la confidentialité de la gouvernance des données {#data-governance}
+      + [Processus relatif à la confidentialité des données Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
+      + [Questions fréquentes](admin/c-data-governance/gdpr-faq.md)
+      + Étiquetage des données {#data-labels}
+         + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)
+         + [Étiqueter les données d’une suite de rapports](admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+         + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](admin/c-data-governance/data-labeling/gdpr-view-settings.md)
+         + [Bonnes pratiques en matière d’étiquetage](admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)
+         + [Exemple d’étiquetage](admin/c-data-governance/data-labeling/gdpr-labeling-example.md)
+         + [Espaces de noms](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
+      + [Extension d’ID](admin/c-data-governance/gdpr-id-expansion.md)
+      + [Exemption de consentement de la CNIL](admin/c-data-governance/cnil-consent-exemption.md)
    + Utilisation des appels au serveur {#server-call-usage}
       + [Utilisation des appels au serveur - Aperçu](admin/c-server-call-usage/overage-overview.md)
       + [Affichage de l’utilisation actuelle des appels au serveur](admin/c-server-call-usage/server-call-usage-dashboard.md)
