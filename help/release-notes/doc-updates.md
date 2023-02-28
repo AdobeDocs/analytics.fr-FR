@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,12 +27,12 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Février 2023** |  |
 | Implémentation | Mise à jour du contenu sur la procédure [mise en oeuvre d’Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
-| Calendriers et plages de dates Workspace | Mise à jour du contenu pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’interface utilisateur du calendrier. Voir [À propos des plages de dates relatives au panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Fiches d’évaluation mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans CJA. |
+| Calendriers et périodes Workspace | Mise à jour du contenu pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’interface utilisateur du calendrier. Voir [À propos des périodes du panneau relatif](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les périodes de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans CJA. |
 | API 1.4 | Le [API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a reçu une réécriture complète et est maintenant publié sur Adobe Developer. |
 | Suivi entre les types de mise en oeuvre | Mise à jour du cas pratique [Suivi sur différents types de mise en oeuvre](../implement/use-cases/cross-type-implementation.md) pour s’adapter au service d’ID d’Experience Cloud. |
 | **Janvier 2023** |  |
-| Filtrage et tri des tableaux | Mise à jour du contenu (y compris l’ajout de procédures et l’explication des options disponibles) dans [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) article. Cet article a été renommé &quot;Pagination, filtrage et tri des tables&quot;. |
+| Filtrer et trier des tableaux | Mise à jour du contenu (y compris l’ajout de procédures et l’explication des options disponibles) dans l’article [Filtrer et trier des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Cet article a été renommé « Pagination, filtrer et trier des tableaux ». |
 | Dossiers | Pages dédiées à la [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Préférences utilisateur | De nombreuses préférences utilisateur supplémentaires sont désormais disponibles dans [Préférences](/help/analyze/analysis-workspace/user-preferences.md). |
 | Enregistrement automatique des projets | Contenu mis à jour afin d’inclure la fonctionnalité d’enregistrement automatique dans [Enregistrement des projets](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
