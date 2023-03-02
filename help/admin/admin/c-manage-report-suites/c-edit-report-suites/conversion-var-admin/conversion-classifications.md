@@ -6,7 +6,7 @@ exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Après avoir activé les classifications, utilisez   [l’importateur de classif
 
 ## Ajout de classifications de conversion
 
-Pour ajouter des classifications de conversion dans Admin :
+Pour ajouter des classifications de conversion dans Admin :
 
 1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 1. Sélectionnez une suite de rapports.

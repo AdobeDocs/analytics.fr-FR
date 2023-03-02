@@ -1,24 +1,24 @@
 ---
-description: Les administrateurs peuvent ajouter des descriptions pour les composants à l’aide de la suite de rapports ou du dictionnaire de données.
-title: Ajout de descriptions de composant
+description: Les personnes en charge de l’administration peuvent ajouter des descriptions pour les composants à l’aide de la suite de rapports ou du dictionnaire de données.
+title: Ajouter des descriptions des composants
 feature: Components
 role: Admin
 source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
-# Ajout de descriptions de composant
+# Ajouter des descriptions des composants
 
 Les descriptions aident les utilisateurs à savoir comment utiliser au mieux les différents composants lors de la création de projets dans Analysis Workspace ou lors de l’affichage de rapports.
 
-Les administrateurs d’Analytics peuvent ajouter des descriptions pour les composants (Dimensions, mesures, segments et périodes).<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Les personnes en charge de l’administration d’Analytics peuvent ajouter des descriptions des composants (dimensions, mesures, segments et périodes) <!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
-## Ajout de descriptions aux composants d’une suite de rapports
+## Ajouter des descriptions aux composants dans une suite de rapports
 
-La vidéo suivante explique comment ajouter des descriptions de dimension et de mesure dans une suite de rapports :
+La vidéo suivante explique comment ajouter des descriptions de dimension et de mesure dans une suite de rapports :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 

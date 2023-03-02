@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment utiliser les outils Analytics, notamm
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Guide sur les outils Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ Prise en main d’Adobe Analytics {#admin-overview}
++ Commencer avec Adobe Analytics {#admin-overview}
    + [Quel outil Adobe Analytics dois-je utiliser ?](get-started/which-analytics-tool.md)
    + [Configuration requise et comparaison des produits Analytics](get-started/analytics-product-comparison.md)
    + [Configuration requise](get-started/sys-reqs.md)
@@ -41,7 +41,7 @@ ht-degree: 97%
       + [Densité d’affichage](analysis-workspace/build-workspace-project/view-density.md)
    + Composants {#components}
       + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
-      + [Ajout de descriptions de composant](analysis-workspace/components/add-component-descriptions.md)
+      + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
          + [Aperçu des annotations](analysis-workspace/components/annotations/overview.md)
          + [Création d’annotations](analysis-workspace/components/annotations/create-annotations.md)
@@ -61,11 +61,11 @@ ht-degree: 97%
          + [Calendrier et périodes - Aperçu](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Création de périodes personnalisées](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + Élément de données {#data-dictionary}
+      + Dictionnaire de données {#data-dictionary}
          + [Présentation du dictionnaire de données](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [Affichage des informations sur les composants dans le dictionnaire de données](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [Afficher des informations sur les composants dans le dictionnaire de données](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
          + [Modifier les entrées de composant dans le dictionnaire de données](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [Surveillance de l’intégrité du dictionnaire de données](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [Surveiller l’intégrité du dictionnaire de données](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisations {#visualizations}
       + [Visualisations - Aperçu](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gestion des sources de données](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -114,7 +114,7 @@ ht-degree: 97%
       + [Panneau Audience moyenne par minute de média](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Panneau Observateurs simultanés de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + Durée de lecture des médias {#media-playback-timespent}
-         + [Présentation](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [Aperçu](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [Paramètres d’entrée et de sortie](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [Questions fréquentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [Panneau d’éléments suivant ou précédent](analysis-workspace/c-panels/next-previous.md)

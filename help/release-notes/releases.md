@@ -6,7 +6,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
 source-wordcount: '390'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Les versions dʼAdobe Analytics suivent un modèle de livraison continue, ce qu
 
 [!UICONTROL Analysis Workspace] utilise des indicateurs de fonctionnalité (également appelés « bascules ») pour contrôler la visibilité des nouvelles fonctionnalités, ce qui permet de les tester à échelle contrôlée avant la mise à jour complète. Cette stratégie de mise à jour comprend les phases suivantes :
 
-* **Tests limités** : la mise à jour par étapes commence par un test réalisé par les utilisateurs Adobe internes. Elle est ensuite mise à la disposition d’un petit groupe de comptes clients afin de s’assurer que la fonctionnalité répond aux besoins et aux attentes des clients.
+* **Tests limités** : la mise à jour par étapes commence par un test réalisé par les utilisateurs et utilisatrices internes d’Adobe. Elle est ensuite mise à la disposition d’un petit groupe de comptes clients afin de s’assurer que la fonctionnalité répond aux besoins et aux attentes des clientes et clients.
 
-* **Début du déploiement**: Le déploiement d’une version par phases commence par la phase Tests limités. La mise à jour passe à une disponibilité de 0 % à 100 % pour les clients en quelques mois. Le déploiement par phases se produit au niveau de l’organisation Experience Cloud, de sorte que tous les utilisateurs autorisés d’une même organisation bénéficient de la même expérience.
+* **Début du déploiement** : le déploiement d’une mise à jour par phases commence par la phase Tests limités. La mise à jour passe à une disponibilité de 0 % à 100 % pour les clients en quelques mois. Le déploiement par phases se produit au niveau de l’organisation Experience Cloud, de sorte que tous les utilisateurs autorisés d’une même organisation bénéficient de la même expérience.
 
 * **Disponibilité générale** : la fonctionnalité est disponible pour 100 % des organisations Experience Cloud autorisées et la mise à jour est terminée.
 
-Pour chaque version de fonctionnalité, la chronologie du début du déploiement à la disponibilité générale peut varier. L’objectif est de conserver les versions courtes, de sorte que dans les 2 mois suivant le début du déploiement, une fonctionnalité soit GA.
+Selon les mises à jour de fonctionnalité, la chronologie peut varier entre le début du déploiement et la disponibilité générale. L’objectif est que les mises à jour soient courtes, afin qu’une fonctionnalité atteigne la disponibilité générale dans un délai de 2 mois à compter du début du déploiement.
 
 ## Indicateurs de fonctionnalités
 
@@ -41,4 +41,4 @@ Les mises à jour par phases permettent à Adobe de mieux adapter le processus d
 | Question | Réponse |
 | --- | --- |
 | Puis-je demander un accès anticipé à une fonctionnalité ? | Non. Aucun accès anticipé ne sera accordé.<br>Si vous voulez tester les concepts Analytics en avant-première, nous vous encourageons à essayer [Adobe Analytics Labs](/help/analyze/labs.md) pour faire part de vos commentaires sur nos innovations de pointe. |
-| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre pack Analytics.<br>Vous pouvez vérifier les détails de votre pack Analytics sous [Niveaux dʼaccès aux fonctionnalités](/help/admin/admin/company/feature-access-levels.md). |
+| Cette stratégie de mise à jour affecte-t-elle mon accès aux fonctionnalités ? | Non. Quand une fonctionnalité atteint la disponibilité générale, vous avez accès à la fonctionnalité à condition qu’elle soit incluse dans votre package Analytics.<br>Vous pouvez vérifier les détails de votre package Analytics sous [Niveaux dʼaccès aux fonctionnalités](/help/admin/admin/company/feature-access-levels.md). |

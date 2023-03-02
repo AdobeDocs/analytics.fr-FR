@@ -1,5 +1,5 @@
 ---
-description: Le dictionnaire de données d’Analysis Workspace permet aux utilisateurs de cataloguer et de suivre les différents composants d’Analysis Workspace, y compris leur utilisation prévue, qui sont approuvés, qui sont des doublons, etc.
+description: Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices de cataloguer et de suivre les différents composants dans Analysis Workspace, y compris leur utilisation prévue, ceux qui sont approuvés, ceux qui sont des doublons, etc.
 title: Afficher le dictionnaire de données
 feature: Components
 role: User, Admin
@@ -8,25 +8,25 @@ hidefromtoc: true
 source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
-# Affichage des informations sur les composants dans le dictionnaire de données
+# Afficher des informations sur les composants dans le dictionnaire de données
 
 {{release-limited-testing}}
 
-Le dictionnaire de données vous permet d’afficher des informations sur un composant, notamment sa description, ses composants similaires, les autres composants fréquemment utilisés avec un composant, etc.
+Le dictionnaire de données vous permet d’afficher des informations sur un composant, notamment sa description, des composants similaires, les autres composants fréquemment utilisés avec lui, etc.
 
-Pour afficher des informations sur un composant dans le dictionnaire de données :
+Pour afficher des informations sur un composant dans le dictionnaire de données :
 
-1. Accédez au projet Analysis Workspace qui contient le composant que vous souhaitez afficher.
+1. Accédez au projet Analysis Workspace qui contient le composant que vous souhaitez afficher.
 
-1. Sélectionnez la [!UICONTROL **Dictionnaire de données**] dans le rail gauche d’Analysis Workspace. (Les autres méthodes d’accès au dictionnaire de données sont décrites dans &quot;Accès au dictionnaire de données&quot; dans [Présentation du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Sélectionnez l’icône [!UICONTROL **Dictionnaire de données**] dans le rail gauche d’Analysis Workspace. (Les autres méthodes d’accès au dictionnaire de données sont décrites dans « Accéder au dictionnaire de données » dans la [présentation du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
    La fenêtre Dictionnaire de données s’affiche.
 
-   ![data-dictionary.png](assets/data-dictionary.png)
+   ![data-dictionary.png.](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
@@ -38,7 +38,7 @@ Pour afficher des informations sur un composant dans le dictionnaire de données
 
 1. Dans la liste des composants, sélectionnez le composant à afficher.
 
-   Les informations suivantes sur le composant s’affichent :
+   Les informations suivantes sur le composant s’affichent :
 
    {{dd-component-information}}
 

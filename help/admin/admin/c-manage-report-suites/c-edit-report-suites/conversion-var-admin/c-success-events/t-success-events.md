@@ -6,13 +6,13 @@ exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Configurer des événements de succès
 
-Pour configurer des événements de succès :
+Pour configurer des événements de succès :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
@@ -32,7 +32,7 @@ Pour configurer des événements de succès :
 1. Dans la colonne **[!UICONTROL Polarité]**, indiquez si une tendance à la hausse pour cette mesure est bénéfique ou mauvais signe.
 1. Dans la colonne **[!UICONTROL Visibilité]**, vous pouvez masquer les mesures (intégrées) standard, les événements personnalisés et les événements intégrés dans le menu, les sélecteurs de mesure, le créateur de mesures calculées et le créateur de segments.
 
-   Ce paramètre n’a aucune incidence sur la collecte de données pour cette mesure ou cet événement ; elle affecte uniquement sa visibilité dans l’interface utilisateur, comme suit :
+   Ce paramètre n’a aucun impact sur la collecte des données pour cette mesure ou cet événement ; il affecte uniquement sa visibilité dans l’interface utilisateur, comme suit :
 
 
    | Paramètre | Visible dans | Masqué dans |

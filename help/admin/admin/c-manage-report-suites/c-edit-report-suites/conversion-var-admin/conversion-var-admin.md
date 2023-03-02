@@ -7,7 +7,7 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 99%
 La variable de conversion Custom Insight (ou eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
 
 
-## Variables de conversion (eVars) - Aperçu
+## Présentation des variables de conversion (eVars)
 
-Voici une présentation vidéo :
+Voici une présentation vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -72,7 +72,7 @@ Les eVars ne sont pas sensibles à la casse. La majuscule ou la minuscule utilis
 
 Bien que les eVars soient généralement utilisées pour contenir des valeurs de chaîne, elles peuvent également être configurées pour faire office de compteurs. Elles s’avèrent particulièrement utiles sous cette forme lorsque vous essayez de comptabiliser le nombre d’actions qu’un utilisateur effectue avant un événement. Vous pouvez, par exemple, utiliser une eVar pour capturer le nombre de recherches internes avant un achat. Chaque fois qu’un visiteur effectue une recherche, l’eVar doit contenir une valeur « +1 ». Si un utilisateur effectue quatre recherches avant un achat, une instance est affichée pour chaque compte total : 1.00, 2.00, 3.00 et 4.00. Cependant, seule la valeur 4.00 reçoit du crédit pour l’événement d’achat (mesures Commandes et Recettes). Seuls les nombres positifs sont autorisés comme valeurs d’un compteur eVar.
 
-## Ajout ou modification de variables de conversion
+## Ajouter ou modifier des variables de conversion
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.

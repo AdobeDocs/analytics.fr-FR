@@ -6,7 +6,7 @@ exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
 workflow-type: tm+mt
 source-wordcount: '665'
-ht-degree: 83%
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ Description de la procédure de téléchargement de fichiers de données via FTP
 
 ## Importation FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
-Pour charger des fichiers de données par FTP :
+Pour télécharger des fichiers de données via FTP :
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 
@@ -69,9 +69,9 @@ Une fois les comptes FTP créés, vous pouvez les modifier ou les supprimer en c
 
 ## Importer des classifications via FTP
 
-Vous pouvez utiliser un compte FTP pour importer des classifications dans Adobe Analytics.
+Vous pouvez utiliser un compte FTP pour importer des classifications dans Adobe Analytics.
 
-Pour importer des classifications par FTP :
+Pour importer des classifications via FTP :
 
 1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis sur **[!UICONTROL Importation FTP]**.

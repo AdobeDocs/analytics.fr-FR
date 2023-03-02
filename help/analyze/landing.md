@@ -195,7 +195,7 @@ Autres options de formation :
 
 ### Gestion des rapports d’entreprise {#manage-company-reports}
 
-Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport . ](assets/report-icon.png) Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport](assets/report-icon.png). Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
 
 Afficher et gérer les rapports d’entreprise
 

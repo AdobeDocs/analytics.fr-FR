@@ -5,7 +5,7 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Les indications du client à entropie élevée font partie des catégories de co
 
 ## collectHighEntropyUserAgentHints dans AppMeasurement
 
-Le `s.collectHighEntropyUserAgentHints` détermine si AppMeasurement demande des conseils à forte entropie aux navigateurs Chromium (par exemple, Google Chrome ou Microsoft Edge). Adobe Analytics utilise ces indications pour améliorer l’identification des appareils et des navigateurs.
+La variable `s.collectHighEntropyUserAgentHints` détermine si AppMeasurement demande des indications à entropie élevée aux navigateurs Chromium (Google Chrome ou Microsoft Edge, par exemple). Adobe Analytics utilise ces indications pour améliorer l’identification des appareils et des navigateurs.
 
-Si la variable est définie sur `true`, tous les indices à forte entropie seront demandés au navigateur.
+Si cette valeur est définie sur `true`, toutes les indications à entropie élevée sont demandées au navigateur.
 
 ```js
 s.collectHighEntropyUserAgentHints = true;

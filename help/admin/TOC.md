@@ -7,7 +7,7 @@ user-guide-description: Découvrez les tâches dʼadministration dans Analytics,
 source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ Adobe Admin Console {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [Aperçu](admin-console/home.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
@@ -110,10 +110,10 @@ ht-degree: 94%
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Activity Map  ](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
-         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
-         + [Reporting sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
+         + [Compte rendu des performances sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + Gestion des Documents Cloud {#doc-cloud-mgt}
             + [Configuration du Document Cloud avec Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
             + [Configuration des rapports de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
@@ -154,7 +154,7 @@ ht-degree: 94%
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
    + Étiquetage de la confidentialité de la gouvernance des données {#data-governance}
-      + [Processus relatif à la confidentialité des données Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
+      + [Workflow relatif à la confidentialité des données d’Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Questions fréquentes](admin/c-data-governance/gdpr-faq.md)
       + Étiquetage des données {#data-labels}
          + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](admin/c-data-governance/data-labeling/gdpr-labels.md)

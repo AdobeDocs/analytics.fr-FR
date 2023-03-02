@@ -6,7 +6,7 @@ exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Vous pouvez désigner l’eVar qui contient votre identifiant visiteur.
 
 Cette variable désigne une eVar qui contiendra votre identifiant de visiteur unique. Cette variable vous permet de générer un rapport sur l’activité d’un client à l’aide de votre propre identifiant unique.
 
-Pour désigner l’eVar qui contient votre identifiant visiteur :
+Pour désigner l’eVar qui contient votre identifiant visiteur :
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez une suite de rapports.
