@@ -5,9 +5,9 @@ title: Ajouter des dossiers dans Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
 source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez ajouter des projets à un dossier dans la vue Tableau ou depuis un d
 
 >[!NOTE]
 >
->Seuls les administrateurs d’Analytics peuvent ajouter des projets au dossier de l’entreprise ou créer un projet et l’enregistrer dans le dossier de l’entreprise.
+>Seuls les administrateurs et administratrices d’Analytics peuvent ajouter des projets au dossier d’entreprise ou créer un projet et l’enregistrer dans le dossier d’entreprise.
 
 ## De la vue Tableau {#table-view}
 
@@ -27,7 +27,7 @@ Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’ac
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. Sélectionner **Déplacer vers**.
+1. Sélectionnez **Déplacer vers**.
 
    La boîte de dialogue Sélectionner un dossier s’affiche.
 
@@ -35,7 +35,7 @@ Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’ac
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. Sélectionner **Déplacer**.
+1. Sélectionnez **Déplacer**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -55,7 +55,7 @@ Vous pouvez également ajouter des projets depuis un dossier à l’aide du lien
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. Sélectionnez la **...** Icône représentant des points de suspension en haut à droite.
+1. Sélectionnez l’icône qui représente des points de suspension **…** en haut à droite.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
 
@@ -68,6 +68,6 @@ Vous pouvez également ajouter des projets depuis un dossier à l’aide du lien
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. Sélectionner **Ajouter** pour ajouter les projets au dossier.
+1. Sélectionnez **Ajouter** pour ajouter les projets au dossier.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
