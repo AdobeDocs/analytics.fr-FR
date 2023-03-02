@@ -4,9 +4,9 @@ description: Variables contenant des valeurs de chaîne.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ Par exemple, si vous combinez la dimension « Page » à la mesure « Visites
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-Chaque dimension représente une partie ou une facette différente de votre site. Vous pouvez combiner l’une de ces dimensions avec une ou plusieurs mesures pour créer un rapport.
+Chaque dimension représente une partie ou une facette différente de votre site. Vous pouvez combiner l’une de ces dimensions avec une ou plusieurs mesures pour créer un rapport qui cous correspond.
 
-## Ajout de descriptions pour les dimensions
+## Ajouter des descriptions pour les dimensions
 
-Les administrateurs d’Analytics peuvent ajouter des descriptions pour les dimensions et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux dimensions, voir [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Les administrateurs et administratrices d’Analytics peuvent ajouter des descriptions pour les dimensions et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux dimensions, voir [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
