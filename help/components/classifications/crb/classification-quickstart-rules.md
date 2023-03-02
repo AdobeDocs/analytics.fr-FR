@@ -4,9 +4,9 @@ title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -310,7 +310,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 >
 >Au cours de cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si le nombre de règles est supérieur à 100, pensez à simplifier votre jeu de règles en utilisant des  [sous-classifications](/help/components/classifications/c-sub-classifications.md).
 
-Pour ajouter ou modifier une règle de classification :
+Pour ajouter ou modifier une règle de classification, procédez comme suit :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md).
 1. Sur la page du jeu de règles, cliquez sur **[!UICONTROL Ajouter une règle]**.
@@ -363,9 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-Vous pouvez tester une règle ou un jeu de règles de classification. Lors de l’exécution d’un test, toutes les règles d’un jeu sont vérifiées.
+Vous pouvez tester une règle de classification ou un jeu de règles. Lors de l’exécution d’un test, toutes les règles d’un ensemble sont vérifiées.
 
-Pour tester un jeu de règles de classification :
+Pour tester un jeu de règles de classification, procédez comme suit :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md).
 1. Sur la page [!UICONTROL Créateur de règles de classifications], cliquez sur le nom du jeu de règles.
@@ -397,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-Pour valider et activer des règles de classification :
+Pour valider et activer des règles de classification, procédez comme suit :
 
 1. [Créez un jeu de règles de classification](/help/components/classifications/crb/classification-rule-set.md), puis [ajoutez des règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md) au jeu.
 1. Cliquez sur **[!UICONTROL Activer]** dans l’éditeur de règles.
