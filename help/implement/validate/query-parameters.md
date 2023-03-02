@@ -4,9 +4,9 @@ description: Répertorie tous les paramètres de chaîne de requête utilisés d
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Les URL de plus de 255 octets sont fractionnées. Les 255 premiers octets apparaissent dans le paramètre `g` et tous les autres dans le paramètre `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Raccourci pour la chaîne de requête `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Raccourci pour la chaîne de requête `pageType`. |
-| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Préfixe pour plusieurs variables qui représentent [Conseils client](/help/technotes/client-hints.md). |
+| `h.` | [`collectHighEntropyUserAgentHints`](../vars/config-vars/collecthighentropyuseragenthints.md) | Préfixe pour plusieurs variables qui représentent les [Indications du client](/help/technotes/client-hints.md). |
 | `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensions hiérarchiques. |
 | `hp` | Aucun | N’est plus utilisé. Dans les versions précédentes d’Adobe Analytics, déterminez si l’URL active était la page d’accueil du navigateur. |
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |
@@ -56,7 +56,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `p` | Aucun | N’est plus utilisé. Liste des plug-ins utilisés dans le navigateur. |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | Utilisé dans la dimension [Page](/help/components/dimensions/page.md). |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Utilisé dans la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). |
-| `pccr` | Aucun | Défini uniquement pour les nouveaux visiteurs et toujours sur `true`. Permet d’empêcher les redirections infinies si un visiteur rejette les cookies. |
+| `pccr` | Aucun | Défini uniquement pour les nouveaux visiteurs et toujours sur `true`. Permet d’empêcher les redirections infinies si un visiteur ou une visiteuse rejette les cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Détermine le type de lien personnalisé. Requis pour les [liens personnalisés](/help/components/dimensions/custom-link.md), les [liens de téléchargement](/help/components/dimensions/download-link.md) et les [liens de sortie](/help/components/dimensions/exit-link.md). |
 | `pev1` | Aucun | URL sur laquelle le lien personnalisé s’est produit. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nom convivial du lien personnalisé. |
@@ -78,8 +78,8 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) ou dimensions de conversion personnalisées. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variable d’identifiant visiteur. |
-| `vidn` | Aucun | Défini par AppMeasurement pour les nouveaux visiteurs. Contient la valeur d’identifiant stockée dans le cookie du visiteur. |
-| `vmk` | `vmk` | N’est plus utilisé. Clé de migration des visiteurs qui a permis de migrer les implémentations de cookies tiers vers des cookies propriétaires. |
+| `vidn` | Aucun | Défini par AppMeasurement pour les nouveaux visiteurs et visiteuses. Contient la valeur de l’identifiant stockée dans le cookie du visiteur. |
+| `vmk` | `vmk` | N’est plus utilisé. Clé de migration de visite, qui a permis de faire migrer des implémentations de cookies tiers vers des cookies internes. |
 | `vvp` | `variableProvider` | Utilisé dans Data Connectors. |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | Utilisé avec les sources de données pour associer les données en ligne et hors ligne. |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | Utilisé dans la dimension [Code postal](/help/components/dimensions/zip-code.md). |
