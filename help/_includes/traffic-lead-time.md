@@ -4,13 +4,13 @@ title: Délai d’avance requis pour les augmentations de trafic
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
-# Délai requis pour les augmentations de trafic
+# Délai d’avance requis pour les augmentations de trafic
 
 ## Délai d’avance requis pour les augmentations de trafic
 
@@ -24,31 +24,31 @@ L’allocation du matériel dépend des alertes envoyées au moyen de l’interf
 
 Suivez les directives suivantes pour déterminer à quel moment envoyer une alerte de trafic :
 
-### Délais d’avance de l’allocation matériel
+### Délais de l’allocation matériel
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> Type de changement de trafic </th>
-   <th colname="col2" class="entry"> Délai d’avance requis </th>
+   <th colname="col1" class="entry"> Type de modification du trafic </th>
+   <th colname="col2" class="entry"> Délai requis </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Nouvelle configuration du compte </td>
-   <td colname="col2"> <ul><li>3 jours ouvrés</li></ul></td>
+   <td colname="col1"> Configuration de nouveau compte </td>
+   <td colname="col2"> <ul><li>3 jours ouvrables</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Pic de trafic ou augmentation soudaine du trafic permanent jusqu’à 25 % en volume quotidien moyen par rapport aux 30 derniers jours</td>
-   <td colname="col2"> <ul><li>Suites de rapports avec &lt; 100 millions d’accès par jour : Aucune notification requise</li><li>Suites de rapports avec plus de 100 millions d’accès par jour : 5 jours ouvrés</li></ul></td>
+   <td colname="col1"> Pic de trafic ou augmentation soudaine et permanente du trafic allant jusqu’à 25 % du volume quotidien moyen par rapport aux 30 derniers jours</td>
+   <td colname="col2"> <ul><li>Suites de rapports avec moins de 100 millions d’accès par jour : aucune notification requise</li><li>Suites de rapports avec plus de 100 millions d’accès par jour : 5 jours ouvrables</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Pic de trafic ou augmentation soudaine du trafic permanent de plus de 25 % en volume quotidien moyen par rapport aux 30 derniers jours</td>
-   <td colname="col2"> <ul><li>5 jours ouvrés</li></ul></td>
+   <td colname="col1"> Pic de trafic ou augmentation soudaine et permanente du trafic de plus de 25 % du volume quotidien moyen par rapport aux 30 derniers jours</td>
+   <td colname="col2"> <ul><li>5 jours ouvrables</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> Événements de vacances Octobre à décembre </td>
+   <td colname="col1"> Événements de vacances d’octobre à décembre </td>
    <td colname="col2"> <ul><li>Un mois calendaire</li></ul> </td>
   </tr>
  </tbody>
