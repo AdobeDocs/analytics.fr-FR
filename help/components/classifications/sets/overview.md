@@ -3,9 +3,9 @@ title: Présentation des ensembles de classifications
 description: Utilisez les ensembles de classifications pour gérer les données de classification.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -13,23 +13,23 @@ ht-degree: 45%
 
 Les ensembles de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow associe le concept de création de classifications dans les paramètres de la suite de rapports au concept de l’importateur de classifications afin de fournir une interface plus intuitive pour créer et gérer les données de classification.
 
-**[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]**
+**[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]**
 
 >[!NOTE]
 >
 >Les ensembles de classifications seront disponibles pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
-L’architecture du serveur principal publiée avec les jeux de classifications contient plusieurs améliorations notables :
+L’architecture backend publiée avec les jeux de classifications contient plusieurs améliorations notables :
 
-* Réduction significative du temps de traitement (72 heures → 24 heures)
+* Réduction significative du temps de traitement (72 heures → 24 heures)
 * Possibilité d’utiliser l’interface utilisateur des jeux de classifications
-* L’option permettant d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [Connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* L’option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
 
-L’architecture du serveur principal publiée avec les jeux de classifications contient également plusieurs modifications notables :
+L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications notables :
 
-* Lors de l’utilisation du navigateur ou de l’importation FTP,[!UICONTROL Remplacer en cas de conflit]&quot; est toujours activé.
-* Lorsque vous utilisez le navigateur ou l’importation FTP, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge. Les exportations doivent être lancées séparément.
-* API Analytics 2.0 `GetDimensions` Le point de terminaison renvoie désormais des identifiants de chaîne pour les classifications au lieu des identifiants numériques. Les identifiants numériques peuvent toujours être utilisés, mais Adobe recommande d’utiliser les nouveaux identifiants de chaîne si possible. Les identifiants numériques peuvent être récupérés à l’aide de la variable `?expansion=hidden` paramètre de chaîne de requête.
+* Lors de l’utilisation du navigateur ou de l’importation FTP, « [!UICONTROL Remplacer en cas de conflit] » est toujours activé.
+* Lors de l’utilisation du navigateur ou de l’importation FTP, l’option permettant d’exporter immédiatement après l’importation n’est plus prise en charge. Les exportations doivent être lancées séparément.
+* Le point d’entrée API Analytics 2.0 `GetDimensions` renvoie désormais des identifiants de chaîne pour les classifications au lieu des identifiants numériques. Les identifiants numériques peuvent toujours être utilisés, mais Adobe recommande d’utiliser les nouveaux identifiants de chaîne si possible. Les identifiants numériques peuvent être récupérés à l’aide du paramètre de chaîne de requête `?expansion=hidden`.
 
 
 Les ensembles de classifications se composent de deux zones principales :
