@@ -4,9 +4,9 @@ description: Consultez le nombre de données ou d’éléments de dimension au f
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit prob
 
 ## Ajout de descriptions pour les mesures
 
-Les administrateurs d’Analytics peuvent ajouter des descriptions pour les mesures et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux mesures, voir [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Les administrateurs et administratrices d’Analytics peuvent ajouter des descriptions pour les mesures et d’autres composants dans la suite de rapports ou directement dans Analysis Workspace. Pour plus d’informations sur l’ajout de descriptions aux mesures, voir [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
