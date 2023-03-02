@@ -4,13 +4,13 @@ description: Tableaux qui résument les autorisations disponibles pour Adobe Ana
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Autorisations Analytics dans le Admin Console
+# Autorisations Analytics dans l’Admin Console
 
 Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations dʼAdobe Analytics dans Adobe Admin Console par groupes logiques.
 
