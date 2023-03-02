@@ -4,9 +4,9 @@ description: Découvrez comment atténuer l’effet des restrictions des cookies
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Ce document présente les options permettant de préserver l’identification persistante des visiteurs dans les propriétés et les solutions alors que les principaux navigateurs implémentent des mesures de prévention du suivi des cookies.
 
-Adobe Analytics s’appuie sur des cookies propriétaires pour enregistrer l’activité sur site d’un visiteur. Analytics s’appuie également sur des cookies tiers pour comprendre l’activité hors site d’un visiteur, telle que l’activité sur d’autres domaines que vous détenez. Les cookies tiers sont bloqués sur de nombreux navigateurs et seront largement indisponibles avec la suppression prochaine de la prise en charge de Chrome (prévue pour la fin 2024). Les cookies propriétaires sont autorisés sur tous les navigateurs, mais leur expiration est limitée dans Safari et les autres navigateurs sous les [mesures de prévention du suivi ITP](https://webkit.org/tracking-prevention) d’Apple. Pour plus d’informations sur les restrictions actuelles des cookies de navigateur, consultez [Adobe Analytics et les cookies de navigateur](cookies.md).
+Adobe Analytics s’appuie sur des cookies propriétaires pour enregistrer l’activité sur site d’un visiteur. Analytics s’appuie également sur des cookies tiers pour comprendre l’activité hors site d’un visiteur, telle que l’activité sur d’autres domaines que vous détenez. Les cookies tiers sont bloqués sur de nombreux navigateurs et seront pour la plupart indisponibles en raison de la fin prochaine de leur prise en charge par Chrome (actuellement prévue pour fin 2024). Les cookies propriétaires sont autorisés sur tous les navigateurs, mais leur expiration est limitée dans Safari et les autres navigateurs sous les [mesures de prévention du suivi ITP](https://webkit.org/tracking-prevention) d’Apple. Pour plus d’informations sur les restrictions actuelles des cookies de navigateur, consultez [Adobe Analytics et les cookies de navigateur](cookies.md).
 
 Ces restrictions de navigateur reflètent une évolution plus large du suivi tiers anonyme vers le partage explicite d’informations entre les utilisateurs et les marques en qui ils ont confiance. Pour prendre en charge cette évolution, Adobe permet aux clients de compléter les cookies traditionnels en incluant des identifiants durables collectés via leurs relations propriétaires.
 
@@ -30,11 +30,11 @@ Ces restrictions de navigateur reflètent une évolution plus large du suivi tie
 
 La collecte de données côté serveur offre la possibilité de fournir votre propre identifiant plutôt que de compter sur les mécanismes du navigateur pour définir les cookies.
 
-Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou de l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir &quot;[Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).&quot;
+Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou de l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir « [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md) ».
 
-## Identifiant de périphérique propriétaire (FPID) avec SDK Web
+## Identifiant d’appareil interne (FPID) avec SDK Web
 
-Avec le SDK Web de Adobe Experience Platform, vous pouvez choisir de définir et de gérer vos propres identifiants d’appareil au lieu des identifiants d’Experience Cloud générés par l’Adobe (ECID). On parle alors d’identifiants d’appareil propriétaires (FPID). En savoir plus [ ici](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=fr).
+Le SDK Web Adobe Experience Platform vous permet de définir et de gérer vos propres identifiants d’appareil au lieu des Experience Cloud ID générés par Adobe (ECID). Il s’agit d’identifiants d’appareil interne (FPID). En savoir plus [ici](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=fr).
 
 ## Informations supplémentaires
 
