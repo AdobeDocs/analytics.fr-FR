@@ -5,9 +5,9 @@ title: Gestion des canaux marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 >
 > Pour obtenir des informations générales sur les canaux marketing, voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 
 Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
 
@@ -28,7 +28,7 @@ L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de
 Voici quelques consignes concernant la création de canaux :
 
 * Planifiez en dressant la liste de tous vos canaux afin que tous les accès des visiteurs soient classés dans le canal approprié.
-* Inclure les canaux pour les catégories de [Interne](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) accès.
+* Incluez les canaux dans les catégories d’accès [internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
 * Incluez un canal fourre-tout « Autres campagnes », à placer après les canaux payants et avant les canaux organiques.
 
 
@@ -81,7 +81,7 @@ Plusieurs paramètres peuvent être appliqués à chaque canal sur la page [!UIC
 
 ### Bonnes pratiques : le remplacement
 
-Il est recommandé de décocher l’option de remplacement Dernière touche pour les canaux Direct et Interne afin qu’ils ne puissent pas s’attribuer le crédit d’autres canaux Dernière touche persistants (ou les uns des autres).
+Il est recommandé de désélectionner l’option de remplacement de Dernière touche pour les canaux Directs et Internes, afin qu’ils ne puissent pas s’attribuer le crédit d’autres canaux de Dernière touche persistants (ou entre eux-mêmes).
 
 ![](assets/int-channel2.png)
 
