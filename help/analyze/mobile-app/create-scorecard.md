@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -102,17 +102,17 @@ Si la période souhaitée n’a pas encore été créée, vous pouvez en créer 
 
 Vous accédez ainsi au créateur de périodes, où vous pouvez créer un composant de période avant de l’enregistrer.
 
-### Afficher/masquer les plages de dates de comparaison {#show-comparison-dates}
+### Afficher/Masquer les périodes de comparaison {#show-comparison-dates}
 
-Pour afficher ou masquer les plages de dates de comparaison, activez la fonction **Inclure des dates de comparaison** .
+Pour afficher ou masquer des périodes de comparaison, utilisez le bouton (bascule) du paramètre **Inclure des dates de comparaison**.
 
-![Ajouter la comparaison de dates](assets/include-comparison-dates.png)
+![Ajout de la comparaison de dates.](assets/include-comparison-dates.png)
 
-Le paramètre est *on* par défaut. Désélectionnez l’option si vous ne souhaitez pas afficher les dates de comparaison.
+Le paramètre est *activé* par défaut. Désélectionnez l’option si vous ne souhaitez pas afficher les dates de comparaison.
 
-![Désélectionner le paramètre de date de comparaison](assets/no-comparison-dates.png)
+![Paramétre de date de comparaison désélectionné.](assets/no-comparison-dates.png)
 
-## Application de visualisations {#viz}
+## Appliquer les visualisations {#viz}
 
 Regardez cette vidéo sur les visualisations pour les cartes de performance mobiles :
 
