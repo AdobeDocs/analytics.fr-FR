@@ -4,10 +4,10 @@ keywords: confidentialité
 title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics collecte les données suivantes :
 | Europe | Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les autres paramètres d’obscurcissement de l’adresse IP, voir [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) dans le guide d’utilisation Administrateur. |
 | Mondial | Un client peut définir la variable de durée de vie des cookies dans le code de mesure JavaScript sur Aucune, Session ou sur une autre valeur spécifique mesurée en secondes. |
 | Europe | Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Analytics (anciennement SiteCatalyst) versions 14.9 et 15.4. Si ce nouveau paramètre est activé, le dernier octet (la dernière portion) de l’adresse IP est immédiatement remplacé par la valeur 0 une fois que l’adresse IP est collectée par Adobe. Cette anonymisation a lieu avant le traitement des adresses IP et avant la recherche géographique et la recherche de FAI facultatives de l’adresse IP. |
-| Allemagne | Si aucun accord de traitement des données pour Adobe Analytics n’est en place entre vous et Adobe, vous devez contacter votre gestionnaire de compte Adobe ou le responsable du succès client, qui collaboreront avec le service juridique d’Adobe pour établir cet accord. |
+| Allemagne | Si vous n’avez pas encore mis en place de contrat de traitement des données pour Adobe Analytics avec Adobe, contactez votre équipe de compte d’Adobe, qui collaborera avec le service juridique de l’Adobe pour mettre en place la loi sur la protection des données. |
 
 ## Emplacement du centre de données EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
