@@ -3,10 +3,10 @@ title: Personnes
 description: Nombre de personnes uniques, généralement avec plusieurs appareils.
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
+source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 46%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->La mesure Personnes sera abandonnée en 2023. Des informations supplémentaires sur la date exacte seront communiquées via les notes de mise à jour.
+>La mesure Personnes qui se rapporte à Device Co-op sera abandonnée en 2023. La mesure Personnes liées aux analyses entre appareils décrite ci-dessous n’est pas affectée par cette obsolescence.
 
 La mesure &quot;Personnes&quot; est spécifique à la variable [Analyses entre appareils](../cda/overview.md) suites de rapports virtuelles. Il représente la somme des individus identifiés dans le rapport, ainsi que le nombre d’appareils qui ne sont pas identifiés comme appartenant à une personne.
 
