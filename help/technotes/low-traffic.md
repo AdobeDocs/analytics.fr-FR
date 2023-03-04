@@ -3,7 +3,7 @@ description: Lorsqu’un rapport contient de nombreuses valeurs uniques, Adobe u
 title: Valeur de faible trafic dans Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 46%
@@ -30,7 +30,7 @@ Cette logique permet à l’Adobe d’optimiser les fonctionnalités de créatio
 
 ## Modification des seuils de limite uniques
 
-Par défaut, les limites correspondent à 500 000 et à 1 million de valeurs uniques. Ces limites peuvent être modifiées selon chaque variable. Contactez le service à la clientèle d’Adobe ou le gestionnaire de compte de votre entreprise pour demander cette modification. Lorsque vous demandez une modification, incluez :
+Par défaut, les limites correspondent à 500 000 et à 1 million de valeurs uniques. Ces limites peuvent être modifiées selon chaque variable. Contactez l’Assistance clientèle d’Adobe ou votre équipe de compte d’Adobe pour demander cette modification. Lorsque vous demandez une modification, incluez :
 
 * l’identifiant de la suite de rapports ;
 * la variable pour laquelle vous souhaitez augmenter le seuil ;

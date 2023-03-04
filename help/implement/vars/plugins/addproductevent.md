@@ -3,18 +3,16 @@ title: addProductEvent
 description: Permet d’ajouter des événements personnalisés aux variables products et events.
 feature: Variables
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 97%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : addProductEvent
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `addProductEvent` ajoute un événement numérique ou monétaire à la variable [`products`](../page-vars/products.md). Adobe recommande d’utiliser ce plug-in si vous souhaitez ajouter un événement numérique ou monétaire à la variable `products` sans vous soucier du format de la chaîne de produit. Ce plug-in n’est pas nécessaire si vous n’utilisez pas d’événements numériques ou monétaires dans la variable `products`.
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

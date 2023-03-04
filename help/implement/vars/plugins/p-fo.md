@@ -3,18 +3,16 @@ title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 97%
+source-wordcount: '472'
+ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : p_fo (Page First Only)
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `p_fo` est un utilitaire qui vérifie l’existence d’un objet JavaScript spécifique. Si l’objet n’existe pas, alors le plug-in le crée et renvoie la valeur `true`. Si l’objet JavaScript existe déjà sur la page, alors il renvoie la valeur `false`. Ce plug-in est utile pour exécuter le code une seule fois sur une page. Plusieurs autres plug-ins dépendent de ce code pour fonctionner. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin de connaître le nombre de fois que le code s’exécute sur une page ou si vous n’utilisez aucun plug-in dépendant.
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

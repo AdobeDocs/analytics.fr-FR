@@ -3,18 +3,16 @@ title: getValOnce
 description: Permet d’empêcher la définition d’une variable Analytics sur la même valeur deux fois de suite.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 02b7e45bb4141d92cd37ef7ccbbbb9bdbc70bc2a
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 96%
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
 # Plug-in Adobe : getValOnce
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getValOnce` empêche qu’une variable soit définie plusieurs fois sur la même valeur. Adobe recommande d’utiliser ce plug-in lorsque vous souhaitez dédupliquer les occurrences dans lesquelles un visiteur actualise une page ou consulte une page donnée à plusieurs reprises. Ce plug-in n’est pas nécessaire si la mesure « Occurrences » dans Analysis Workspace ne vous intéresse pas.
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

@@ -3,18 +3,16 @@ title: getPreviousValue
 description: Permet de récupérer la dernière valeur transmise dans une variable.
 feature: Variables
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 97%
+source-wordcount: '502'
+ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : getPreviousValue
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getPreviousValue` vous permet de définir une variable sur une valeur déterminée lors d’un précédent accès. Ce plug-in n’est pas nécessaire si votre mise en œuvre contient toutes les valeurs souhaitées dans l’accès actif.
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

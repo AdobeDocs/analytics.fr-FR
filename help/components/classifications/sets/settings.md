@@ -2,10 +2,10 @@
 title: Paramètres des ensembles de classifications
 description: Créez ou modifiez un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: fa0de6241d56e10144b7eefeb72e9d6ed25a9773
-workflow-type: ht
-source-wordcount: '591'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '585'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ Configurez un ensemble de classifications, chargez des données ou téléchargez
 
 >[!NOTE]
 >
->Cette fonctionnalité sera disponible pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
+>Cette fonctionnalité est disponible pour tous les clients de l’architecture du jeu de classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre équipe de compte d’Adobe.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]** > Cliquez sur le nom de l’ensemble de classifications de votre choix.
 

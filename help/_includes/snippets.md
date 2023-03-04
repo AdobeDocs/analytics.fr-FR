@@ -1,7 +1,7 @@
 ---
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '822'
 ht-degree: 84%
 
 ---
@@ -63,3 +63,8 @@ ht-degree: 84%
 >
 >La fonctionnalité décrite dans cette section se trouve dans la phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
+## Clause de non-responsabilité du module externe {#plug-in}
+
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez l’équipe du compte d’Adobe de votre entreprise. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.

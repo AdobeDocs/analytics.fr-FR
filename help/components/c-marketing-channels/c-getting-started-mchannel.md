@@ -3,10 +3,10 @@ title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Les administrateurs d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, tel que décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
@@ -87,7 +87,6 @@ Comment utiliser une suite de rapports principale (maître) comme modèle pour t
 >
 >Appliquez les canaux à partir d’un modèle avant d’appliquer des ensembles de règles. Les canaux doivent être identiques pour toutes les suites de rapports lors de cette procédure.
 
-1. Assurez-vous que l’option Rapport Canal marketing est activée pour les suites de rapports sélectionnées. Cette étape est effectuée par votre gestionnaire de compte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sur la page **[!UICONTROL Gestionnaire de Report Suites]**, sélectionnez la suite de rapports modèle, ainsi qu’une ou plusieurs suites de rapports cibles.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.

@@ -2,10 +2,10 @@
 title: Graphique d’appareil
 description: Découvrez les conditions préalables et les limites du regroupement de données à l’aide du graphique d’appareil.
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 68%
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper
 
 ## Conditions préalables spécifiques au graphique d’appareil
 
-Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l’aide de la méthode de graphique d’appareil, les conditions suivantes doivent être remplies. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l’aide de la méthode de graphique d’appareil, les conditions suivantes doivent être remplies. Collaborez avec les équipes de votre entreprise et votre équipe de compte d’Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
 >[!WARNING]
 >

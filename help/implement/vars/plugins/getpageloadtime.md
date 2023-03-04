@@ -3,18 +3,16 @@ title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: ht
-source-wordcount: '503'
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : getPageLoadTime
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getPageLoadTime` utilise l’objet de performance JavaScript pour vous permettre de mesurer le temps nécessaire au chargement complet d’une page. Adobe recommande d’utiliser ce plug-in si vous souhaitez mesurer le temps de chargement des pages.
 
@@ -40,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

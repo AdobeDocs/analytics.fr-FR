@@ -4,10 +4,10 @@ title: Paramètres d’affichage des rapports et navigation
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 100%
+source-wordcount: '1558'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ Paramètres qui définissent la manière dont tous les rapports apparaissent et 
 | **Langue/Devise/Encodage** |  |
 | Séparateur de milliers | Permet de sélectionner un séparateur pour chaque millier (point ou espace). De nombreux pays utilisent un point pour séparer les milliers. (ce séparateur s’applique à tous les nombres du système et pas seulement aux devises). |
 | Utiliser la devise par défaut de la suite de rapports | Indique s’il convient d’utiliser la devise par défaut de la suite de rapports. |
-| Devise | Devise dans laquelle vous souhaitez convertir vos données. Lorsqu’une valeur est sélectionnée dans ce paramètre, les données stockées dans la base de données ne sont pas affectées, mais la valeur est présentée comme une valeur convertie selon le taux de change du jour de la devise. Si aucune option de devise n’est configurée (valeurs par défaut utilisées), aucune conversion de devise n’a lieu et toutes les valeurs sont stockées et affichées en dollars américains (USD). Pour convertir la devise lorsque les données sont traitées (avant qu’elles ne s’affichent), contactez votre gestionnaire de compte. |
+| Devise | Devise dans laquelle vous souhaitez convertir vos données. Lorsqu’une valeur est sélectionnée dans ce paramètre, les données stockées dans la base de données ne sont pas affectées, mais la valeur est présentée comme une valeur convertie selon le taux de change du jour de la devise. Si aucune option de devise n’est configurée (valeurs par défaut utilisées), aucune conversion de devise n’a lieu et toutes les valeurs sont stockées et affichées en dollars américains (USD). Pour convertir la devise lorsque les données sont traitées (avant qu’elles ne s’affichent), contactez votre équipe de compte d’Adobe. |
 | Encodage d’un rapport planifié | Maj-JIS pour le codage des caractères japonais. EUC-JP pour le code Unix étendu, principalement pour le japonais, le coréen et le chinois simplifié. |
 | Caractère de séparation CSV | Caractère à utiliser pour séparer les valeurs CSV. |
 
@@ -83,7 +83,7 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 |  | Pages introuvables | Navigation > Pages introuvables |
 | **Mobile** |  |  |
 |  | Périphériques | Audience > Mobile > Périphériques |
-|  | Type de périphérique | Audience > Mobile > Type de périphérique |
+|  | Type d&#39;appareil | Audience > Mobile > Type de périphérique |
 |  | Fabricant | Audience > Mobile > Fabricant |
 |  | Taille d’écran | Audience > Mobile > Taille d’écran |
 |  | Hauteur d’écran | Audience > Mobile > Hauteur d’écran |
@@ -119,7 +119,7 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 |  | Catégories | Conversion > Produits > Catégories |
 | **Rétention des visiteurs** |  |  |
 |  | Fréquence des retours | Audience > Rétention des visiteurs > Fréquence des retours |
-|  | Visites retours | Audience > Rétention des visiteurs > Visites retours |
+|  | Visites renouvelées | Audience > Rétention des visiteurs > Visites retours |
 |  | Visites retours quotidiennes | Audience > Rétention des visiteurs > Visites retours quotidiennes |
 |  | Nombre de visites | Audience > Rétention des visiteurs > Nombre de visites |
 |  | Cycle de ventes | Audience > Rétention des visiteurs > Cycle de vente |

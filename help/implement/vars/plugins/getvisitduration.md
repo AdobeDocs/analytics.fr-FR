@@ -3,18 +3,16 @@ title: getVisitDuration
 description: Permet d’effectuer le suivi du temps passé par un visiteur sur le site jusqu’à présent.
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 96%
+source-wordcount: '304'
+ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : getVisitDuration
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getVisitDuration` effectue le suivi en minutes du temps de consultation du site par le visiteur jusqu’à ce moment-là. Adobe recommande d’utiliser ce plug-in si vous souhaitez effectuer le suivi du temps cumulé sur le site jusqu’à ce moment-là ou pour suivre le temps nécessaire à la réalisation d’une activité. Ce plug-in ne permet pas de suivre le temps écoulé entre deux événements. Si vous recherchez cette fonctionnalité, utilisez le plug-in [`getTimeBetweenEvents`](gettimebetweenevents.md).
 
@@ -38,7 +36,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

@@ -2,10 +2,10 @@
 title: Règles VISTA dans Adobe Analytics
 description: En savoir plus sur les règles VISTA et leurs fonctionnalités.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 81%
 
 ---
 
@@ -25,12 +25,12 @@ De nombreux cas d’utilisation des règles VISTA sont déjà proposés par [Rè
 
 >[!IMPORTANT]
 >
->Les règles VISTA nécessitent un accord payant entre votre entreprise et Adobe Professional Services. Contactez le gestionnaire de compte Adobe de votre entreprise si vous souhaitez créer ou mettre à jour une règle VISTA.
+>Les règles VISTA nécessitent un accord payant entre votre entreprise et Adobe Professional Services. Contactez votre équipe de compte d’Adobe si vous souhaitez créer ou mettre à jour une règle VISTA.
 
 ## Créer une règle VISTA
 
-Vous devez travailler avec Adobe Professional Services pour créer une règle VISTA. Contactez le gestionnaire de compte Adobe de votre entreprise si vous souhaitez créer une règle VISTA.
+Vous devez travailler avec Adobe Professional Services pour créer une règle VISTA. Contactez votre équipe de compte d’Adobe si vous souhaitez créer une règle VISTA.
 
 ## Afficher les règles VISTA existantes
 
-Adobe ne propose pas d’interface utilisateur pour afficher les règles VISTA existantes. Contactez le gestionnaire de compte Adobe de votre entreprise ou l’assistance clientèle avec la suite de rapports souhaitée pour obtenir une liste des règles VISTA existantes.
+Adobe ne propose pas d’interface utilisateur pour afficher les règles VISTA existantes. Contactez votre équipe de compte d’Adobe ou l’assistance clientèle avec la suite de rapports souhaitée pour obtenir une liste des règles VISTA existantes.

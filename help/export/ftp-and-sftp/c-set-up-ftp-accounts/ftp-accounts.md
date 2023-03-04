@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Configuration de comptes FTP - Aperçu
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Les clients d’Adobe reçoivent des notifications de maintenance par le biais d
 * Une fois les données transférées sur leurs systèmes par l’intermédiaire du compte FTP Adobe, il est recommandé aux utilisateurs de les supprimer du FTP.
 * Quand les comptes FTP ne sont plus nécessaires, avertissez Adobe afin qu’il les désactive.
 
-L’hôte FTP Adobe se nomme [!DNL ftp.omniture.com] ou [!DNL ftp2.omniture.com].
+L’hôte FTP Adobe se nomme `ftp.omniture.com` ou `ftp2.omniture.com`.
 
-Cette information, ainsi que le nom d’utilisateur et le mot de passe, doit être fournie dans [!UICONTROL Experience Cloud] (pour les classifications et les sources de données) ou par le représentant Adobe responsable de la configuration du compte à votre demande. Si vous ne savez pas quelle adresse FTP utiliser, contactez votre gestionnaire de compte Adobe pour qu’il vous la fournisse. Par ailleurs, en ce qui concerne les comptes de classifications et de sources de données, Adobe n’a pas défini de créneau horaire spécifique pour le traitement des fichiers FTP. Adobe utilise plutôt un script qui sonde constamment les comptes FTP pour y rechercher les nouveaux fichiers à traiter. Les fichiers chargés dans ces comptes sont traités aussi rapidement que possible.
+Cette information, ainsi que le nom d’utilisateur et le mot de passe, doit être fournie dans [!UICONTROL Experience Cloud] (pour les classifications et les sources de données) ou par le représentant Adobe responsable de la configuration du compte à votre demande. Si vous ne savez pas quelle adresse FTP utiliser, contactez votre équipe de compte d’Adobe, qui peut fournir l’adresse correcte. Par ailleurs, en ce qui concerne les comptes de classifications et de sources de données, Adobe n’a pas défini de créneau horaire spécifique pour le traitement des fichiers FTP. Adobe utilise plutôt un script qui sonde constamment les comptes FTP pour y rechercher les nouveaux fichiers à traiter. Les fichiers chargés dans ces comptes sont traités aussi rapidement que possible.
