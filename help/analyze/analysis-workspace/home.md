@@ -4,10 +4,10 @@ description: Analysis Workspace est l’outil d’analyse principal d’Adobe An
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 70%
 
 ---
 
@@ -21,23 +21,27 @@ Si vous ne disposez que de quelques minutes, regardez ce bref aperçu pour déco
 
 ## Connexion à Adobe Analytics {#login}
 
-Pour commencer à utiliser Analysis Workspace, connectez-vous à Adobe Analytics en accédant à [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Si vous n’avez pas encore sélectionné de projet spécifique, vous accédez à la page d’accueil de la liste de projets Espace de travail.
+Pour commencer à utiliser Analysis Workspace, connectez-vous à Adobe Analytics en accédant à [experience.adobe.com/analytics](https://experience.adobe.com/analytics). Si vous n’avez pas encore sélectionné de projet spécifique, vous accédez à la page Projets .
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## Utilisation du tutoriel de formation {#training-tutorial}
 
-Une fois votre connexion effectuée, votre première étape doit être le tutoriel de formation Analysis Workspace, qui vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Espace de travail. Pour commencer le tutoriel, cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez **Tutoriel de formation** dans la fenêtre modale du nouveau projet.
+Une fois connecté, votre première étape peut être le modèle de tutoriel de formation Analysis Workspace. Il vous guide tout au long de la terminologie et des étapes courantes pour créer votre première analyse dans Workspace. Pour commencer le tutoriel,
+
+1. Cliquez sur le bouton **[!UICONTROL Formation]** de gauche.
+1. Cliquez sur **[!UICONTROL Ouvrir le tutoriel]**.
 
 ![](assets/training-tutorial.png)
 
 ## Créer un nouveau projet {#new-project}
 
-Une fois le tutoriel terminé, vous êtes prêt à commencer à créer votre premier projet. La **fenêtre modale du nouveau projet** vous offre différentes options pour démarrer votre analyse. Vous pouvez choisir de commencer à partir d’un projet vide ou à partir d’une [fiche d’évaluation mobile vide](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr), selon que vous prévoyez de partager votre analyse à partir du navigateur ou de l’application mobile des tableaux de bord Adobe Analytics.
+Après avoir terminé le tutoriel, vous êtes prêt à commencer à créer votre premier projet. Sur le [!UICONTROL Projets] , vous pouvez choisir de commencer à partir de
 
-![](assets/create-new-project.png)
+* [!UICONTROL Projet vierge] si vous prévoyez de partager votre analyse à partir du navigateur, ou
+* [[!UICONTROL Fiche d’évaluation mobile vierge]](/help/analyze/mobile-app/curator.md), si vous prévoyez de partager votre analyse à partir de l’application mobile des tableaux de bord du Customer Journey Analytics.
 
-Vous pouvez également commencer votre analyse à partir de **modèles** prédéfinis, soit des modèles standard fournis par Adobe, soit des modèles personnalisés créés par votre organisation. Plusieurs modèles différents sont disponibles, selon l’analyse ou le cas pratique que vous avez en tête. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr) sur les différentes options de modèle disponibles.
+Vous pouvez également commencer votre analyse à partir de **modèles** prédéfinis, soit des modèles standard fournis par Adobe, soit des modèles personnalisés créés par votre organisation. Plusieurs modèles différents sont disponibles, selon l’analyse ou le cas pratique que vous avez en tête. Vous pouvez maintenant les trouver sous le [!UICONTROL Rapports] dans le rail de gauche.
 
 ## Créer votre analyse {#analysis}
 

@@ -4,10 +4,10 @@ description: Documentation sur les produits et aide autonome pour Analysis Works
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 Ce guide fournit de la documentation sur les produits et de l’aide autonome pour les outils d’analyse et de rapports Adobe Analytics suivants :
 
 * **[!UICONTROL Analysis Workspace] :** principale fonctionnalité d’Adobe Analytics. Workspace fournit un canevas sur lequel vous pouvez faire glisser des composants pour répondre à vos besoins en termes de rapports.
-* **[!UICONTROL Tableaux de bord Adobe Analytics] :** cette application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives avec des mesures clés et leur permet d’effectuer des ventilations et des rapports de tendances plus détaillés.
+* **[!UICONTROL Tableaux de bord Adobe Analytics]:** Cette application mobile permet aux utilisateurs de se connecter sur leur appareil mobile pour créer des fiches d’évaluation intuitives avec des mesures clés, des ventilations plus détaillées et des rapports de tendances.
 * **[!UICONTROL Activity Map] :** module de navigateur qui affiche une superposition sur votre site montrant les éléments qui ont reçu le plus grand nombre de clics.
 * **[!UICONTROL Report Builder] :** module Excel complémentaire permettant de récupérer les données Analytics et de les placer directement dans un classeur.
 * **[!UICONTROL API de création de rapports] :** créez des requêtes de rapport directement sur les serveurs d’Adobe et obtenez des réponses à utiliser dans vos outils de création de rapports client.
-* **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports.
+* **[!UICONTROL Reports &amp; Analytics] :** outil avec des dizaines de rapports prédéfinis. Adobe recommande d’utiliser Analysis Workspace pour la plupart des rapports. **Remarque :** Reports &amp; Analytics sera [fin de vie](https://express.adobe.com/page/6WnF8JK6IRDhf/) le 31 décembre 2023.
 
 Voici un aperçu vidéo dʼAdobe Analytics :
 
