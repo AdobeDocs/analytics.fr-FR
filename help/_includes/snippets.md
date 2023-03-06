@@ -1,8 +1,8 @@
 ---
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 84%
+source-wordcount: '862'
+ht-degree: 79%
 
 ---
 # Extraits
@@ -32,7 +32,7 @@ ht-degree: 84%
    | [!UICONTROL **Aucune donnée récente**] | Afficher uniquement les composants qui n’ont collecté aucune donnée au cours des 90 derniers jours. Cette option est réservée à l’administration. |
    | [!UICONTROL **Créé par Adobe**] <!-- I don't see this option--> | Afficher uniquement les composants créés par Adobe. Les composants créés par l’administration ou une autre personne de votre organisation ne s’affichent pas. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Informations sur le composant Dictionnaire de données {#dd-component-information}
 
@@ -41,15 +41,15 @@ ht-degree: 84%
 | [!UICONTROL **Approuvés**] | <p>Indique que le composant a été révisé et approuvé par l’administration.</p><p>Les administrateurs voient une option pour [!UICONTROL **Ne pas approuver**]. La sélection de cette option marque le composant comme &quot;Non approuvé&quot; pour les utilisateurs.</p> |
 | [!UICONTROL **Non approuvé**] | <p>Indique que le composant n’a pas encore été révisé et approuvé par l’administrateur.</p><p>Les administrateurs voient une option pour [!UICONTROL **Approuver**]. La sélection de cette option marque le composant comme &quot;Approuvé&quot; pour les utilisateurs.</p> |
 | [!UICONTROL **Description**] | Décrit la fonction prévue du composant. (Ces informations sont ajoutées par l’administration Analytics, comme décrit dans la section [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md)). |
-| [!UICONTROL **Fréquemment utilisé avec**] | <p>Affiche les composants les plus couramment utilisés avec le composant que vous visualisez actuellement.</p><p>Jusqu’à 5 composants peuvent s’afficher parmi les 5 types de composants principaux : mesure, mesure calculée, Dimension, segment et période.</p><p>Cette liste est basée sur les données des 90 derniers jours. Seuls les composants que vous êtes autorisé à consulter s’affichent. <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
-| [!UICONTROL **Similaire à**] | <p>Affiche les composants dotés de libellés similaires au composant que vous visualisez actuellement.</p><p>Jusqu’à 5 composants peuvent s’afficher parmi les 5 types de composants principaux : mesure, mesure calculée, Dimension, segment et période.</p><p>Seuls les composants que vous êtes autorisé à consulter s’affichent.</p><p>Tous les composants en double de votre suite de rapports s’affichent à l’écran. L’administration Analytics doit identifier et supprimer tous les composants en double, comme décrit dans la section [Surveiller l’intégrité du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
+| [!UICONTROL **Fréquemment utilisé avec**] | <p>Affiche les composants les plus couramment utilisés avec le composant que vous visualisez actuellement.</p><p>Jusqu’à 5 composants peuvent s’afficher parmi les 5 types de composants principaux : mesure, mesure calculée, Dimension, segment et période.</p><p>Cette liste est basée sur les données des 90 derniers jours. Seuls les composants que vous êtes autorisé à consulter s’affichent.</p><p>Les administrateurs voient les options pour [!UICONTROL **Toujours inclure**] et [!UICONTROL **Toujours exclure**]. Ces options permettent aux administrateurs de traiter les composants visibles par les utilisateurs dans cette section.</p> |
+| [!UICONTROL **Similaire à**] | <p>Affiche les composants dotés de libellés similaires au composant que vous visualisez actuellement.</p><p>Jusqu’à 5 composants peuvent s’afficher parmi les 5 types de composants principaux : mesure, mesure calculée, Dimension, segment et période.</p><p>Seuls les composants que vous êtes autorisé à consulter s’affichent.</p><p>Tous les composants en double de votre suite de rapports s’affichent à l’écran. L’administration Analytics doit identifier et supprimer tous les composants en double, comme décrit dans la section [Surveiller l’intégrité du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).</p><p>Les administrateurs voient les options pour [!UICONTROL **Toujours inclure**] et [!UICONTROL **Toujours exclure**]. Ces options permettent aux administrateurs de traiter les composants visibles par les utilisateurs dans cette section.</p> |
 | [!UICONTROL **Balises**] | Affiche toutes les balises associées au composant. L’administration peut ajouter des balises lors de la modification du composant. |
 | [!UICONTROL **Type de composant**] | Indique le type du composant : dimension, mesure, segment ou période. |
 | [!UICONTROL **Créé par**] | Affiche le nom de l’utilisateur ou de l’utilisatrice ayant créé le composant. |
 | [!UICONTROL **Aperçu**] | Affiche un aperçu de l’apparence du composant dans Analysis Workspace. |
 | [!UICONTROL **Date de la dernière modification**] | Affiche le jour de la dernière modification du composant. Cette section s’affiche lorsque vous affichez des segments, des mesures calculées et des périodes. <!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Tests limités de la phase de publication {#release-limited-testing}
 
