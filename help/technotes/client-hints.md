@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ Pour les données envoyées via l’API, par exemple via l’[API Data Insertion
 
 Pas pour le moment. Vous pouvez choisir de collecter toutes les indications à entropie élevée ou aucune.
 
+Notez que fullVersionList n’est actuellement pas collecté, car la version majeure du navigateur est capturée en tant qu’indice de faible entropie.
+
 +++
 
 +++**Quelles sont les différentes valeurs des indications du client ?**
@@ -64,15 +66,14 @@ Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 | Sec-CH-UA | Navigateur et version significative | Faible | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Équipement mobile (true ou false) | Faible | `true` |
 | Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | `"Android"` |
-| Sec-CH-UA-Arch | Architecture du site | Élevé | `"arm"` |
-| Sec-CH-UA-Bitness | Architecture Bitness | Élevé | `"64"` |
-| Sec-CH-UA-Full-Version | Version complète du navigateur | Élevé | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | Liste des marques avec leur version | Élevé | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | Modèle de périphérique | Élevé | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | Version du système d’exploitation/de la plateforme | Élevé | `"10"` |
+| architecture | Architecture du site | Élevé | `"arm"` |
+| amertume | Adeur de l&#39;architecture | Élevé | `"64"` |
+| fullVersionList | Liste des marques avec leur version | Élevé | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | Modèle de périphérique | Élevé | `"Pixel 3"` |
+| platformVersion | Version du système d’exploitation/de la plateforme | Élevé | `"10"` |
 
 * Les indications à faible entropie sont collectées via l’en-tête de la requête.
-* Les indications à entropie élevée sont collectées via JavaScript et transmises par le biais de valeurs de paramètre de chaîne de requête. Les paramètres de chaîne de requête utilisent `h.` comme préfixe dans la demande d’image.
+* Les indications à entropie élevée sont collectées via JavaScript et transmises par le biais de valeurs de paramètre de chaîne de requête. Les paramètres de chaîne de requête utilisent `h.` comme préfixe dans la demande d’image. Notez que fullVersionList n’est actuellement pas collecté, car la version majeure du navigateur est capturée comme indice de faible entropie.
 
 Les indications à entropie élevée sont collectées via un appel JavaScript et transmises via un paramètre de requête.
 
