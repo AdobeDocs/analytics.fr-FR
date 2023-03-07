@@ -5,10 +5,10 @@ title: FAQ sur les sources de données
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 100%
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -146,3 +146,9 @@ Si des événements numériques, monétaires ou compteurs (plus de 1) sont requi
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## Pourquoi mon téléchargement ftp n’est-il pas récupéré ?
+
+Une fois le fichier .fin transféré, il est important que vous vous déconnectiez du site FTP de la fonctionnalité Sources de données. Vous créerez ainsi un événement de déconnexion, qui sert de déclencheur pour indiquer à Analytics que les fichiers sont prêts à être traités. Si vous téléchargez les fichiers par programmation, il est important que votre processus automatisé se déconnecte également du site FTP une fois les fichiers transférés.
+
+Vérifiez que vos noms de fichier suivent le format correct. Un espace de début ou de fin dans le nom du fichier fait que le fichier n’est pas reconnu et n’est pas récupéré par le processus d’ingestion par Adobe.
