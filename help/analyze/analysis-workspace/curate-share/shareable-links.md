@@ -5,22 +5,30 @@ title: Création de liens partageables
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '298'
-ht-degree: 100%
+source-git-commit: 8935f71e52e2486fc1fd8562a31dbd18d69fd18d
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 81%
 
 ---
 
 # Création de liens partageables
 
-Analysis Workspace offre de nombreuses méthodes pour partager un projet avec les utilisateurs, notamment la possibilité d’obtenir un lien vers un projet ou une partie spécifique d’un projet. Pour la plupart des types de liens, les utilisateurs et les utilisatrices qui reçoivent un lien doivent se connecter à Adobe Analytics avant d’accéder au projet.
+Analysis Workspace offre de nombreuses méthodes pour partager un projet avec les utilisateurs, notamment la possibilité d’obtenir un lien vers un projet ou une partie spécifique d’un projet. Certains types de liens requièrent que le destinataire se connecte à Adobe Analytics avant d’accéder au projet, contrairement à d’autres.
 
 ## Obtention du lien du projet {#project-link}
 
 Pour partager un lien vers le projet complet, accédez à **[!UICONTROL Partager > Obtenir le lien du projet]**. Si le destinataire du lien ne s’est pas vu attribuer un [rôle de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr), les administrateurs reçoivent les expériences **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent les expériences **[!UICONTROL Peut dupliquer]**.
 
 ![](assets/get-project-link.png)
+
+## Obtenir le lien public
+
+{{release-limited-testing-section}}
+
+Vous pouvez partager un lien en lecture seule avec des personnes qui n’ont pas accès à Adobe Analytics.
+
+Pour plus d’informations, voir &quot;Partage d’un lien public avec quiconque (aucune connexion requise)&quot; dans l’article. [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ## Obtention du lien vers le panneau ou la visualisation {#panel-link}
 
