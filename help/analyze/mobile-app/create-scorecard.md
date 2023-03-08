@@ -4,7 +4,7 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 67f74d852f1650f729ce9b5ad725134d9fc9cd60
+source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -233,7 +233,7 @@ Créez votre article de données en ajoutant plusieurs diapositives détaillées
 1. Commencez par un projet de Fiche d’évaluation mobile.
 1. Sélectionnez une mosaïque à partir de laquelle vous souhaitez créer un article.
    ![Création d’un article de données](assets/data-story1.png)
-   ![Créer des icônes d’article de données](assets/create-data-story.png){width="25%"}
+   ![Créer des icônes d’article de données](assets/create-data-story.png){width=".50%"}
 1. Ajoutez des diapositives pour créer votre article de données. Votre première diapositive est générée par défaut.
 Pour ajouter de nouvelles diapositives, survolez ou cliquez sur une diapositive, puis sélectionnez l’une des options disponibles :
    * Appuyez sur le signe + pour créer une nouvelle diapositive.

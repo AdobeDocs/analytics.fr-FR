@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
+source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1062'
 ht-degree: 55%
 
 ---
@@ -21,7 +21,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Dictionnaire de données dans Analysis Workspace** | Le dictionnaire de données permet aux utilisateurs et aux administrateurs de suivre, gérer et mieux comprendre les composants (dimensions, mesures) de leur environnement Analytics. [En savoir plus](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 15 mars 2023 | 22 mars 2023 |
-| **Articles de données dans les tableaux de bord mobiles** | Les articles de données vous permettent d’ajouter plusieurs vues détaillées personnalisables aux mosaïques dans les projets de Fiche d’évaluation mobile. Utilisez les témoignages de données pour mieux comprendre les principaux moteurs de recherche, les mesures connexes et les différentes étapes du parcours client. Vous pouvez facilement parcourir ces vues pour comprendre l’ensemble de l’historique de vos mesures clés. En savoir plus (à suivre) | S.O. | 8 mars 2023 |
+| **Articles de données dans les tableaux de bord mobiles** | Les articles de données vous permettent d’ajouter plusieurs vues détaillées personnalisables aux mosaïques dans les projets de Fiche d’évaluation mobile. Utilisez les témoignages de données pour mieux comprendre les principaux moteurs de recherche, les mesures connexes et les différentes étapes du parcours client. Vous pouvez facilement parcourir ces vues pour comprendre l’ensemble de l’historique de vos mesures clés. [En savoir plus](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | S.O. | 8 mars 2023 |
 | **Dates d’expiration du projet planifié** | Vous pouvez définir des dates d’expiration maximales d’un an pour les projets planifiés, quelle que soit la fréquence de planification. | S.O. | 8 mars 2023 |
 | **Partage de liens pour les projets (aucune connexion requise)** - Accès bêta privé uniquement | <p>Vous pouvez désormais partager des liens en lecture seule avec des personnes qui n’ont pas accès à Adobe Analytics dans des projets Analysis Workspace. Vous pouvez partager des liens de projet avec des personnes hors de votre entreprise ou au sein de votre entreprise qui ne sont pas configurées pour Adobe Analytics. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Pour rejoindre la version bêta privée, contactez votre équipe de compte d’Adobe.</p> | 15 mars 2023 (version bêta privée) | Avril 2023 |
 
