@@ -2,10 +2,10 @@
 title: Présentation des ensembles de classifications
 description: Utilisez les ensembles de classifications pour gérer les données de classification.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 90%
+source-wordcount: '264'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les ensembles de classifications fournissent une interface unique pour gérer le
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible pour tous les clients de l’architecture du jeu de classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre équipe de compte d’Adobe.
+>Les ensembles de classifications seront disponibles pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
 L’architecture backend publiée avec les jeux de classifications contient plusieurs améliorations notables :
 

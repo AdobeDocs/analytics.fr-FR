@@ -3,16 +3,18 @@ title: rfl
 description: Permet de supprimer une valeur spécifique d’une chaîne délimitée par des caractères.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '934'
 ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : rfl (Remove From List)
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `rfl` vous permet de supprimer « en toute sécurité » des valeurs de chaînes délimitées, comme [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) et d’autres. Ce plug-in est utile si vous souhaitez supprimer des valeurs spécifiques d’une chaîne délimitée sans vous soucier des délimiteurs. Plusieurs autres plug-ins dépendent de ce code pour s’exécuter correctement. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin d’exécuter une fonction spécifique sur plusieurs variables Analytics à la fois, ou si vous n’utilisez aucun plug-in dépendant.
 

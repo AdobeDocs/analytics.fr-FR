@@ -3,16 +3,18 @@ title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '503'
 ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `getPageLoadTime` utilise l’objet de performance JavaScript pour vous permettre de mesurer le temps nécessaire au chargement complet d’une page. Adobe recommande d’utiliser ce plug-in si vous souhaitez mesurer le temps de chargement des pages.
 

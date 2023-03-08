@@ -4,10 +4,10 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 94%
+source-wordcount: '782'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Configuration requise du navigateur et du système pour se connecter à l’inte
 
 ## Connexion à Reports &amp; Analytics
 
-Avant d’accéder à l’interface, demandez à votre équipe de compte d’Adobe ou à l’assistance clientèle d’Adobe de configurer le compte de votre société.
+Avant d’accéder à l’interface, demandez à votre gestionnaire de compte ou à l’assistance clientèle d’Adobe de configurer le compte de votre société.
 
 ## Connexion avec Experience Cloud
 

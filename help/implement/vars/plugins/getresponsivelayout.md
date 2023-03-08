@@ -3,16 +3,18 @@ title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : getResponsiveLayout
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `getResponsiveLayout` vous permet de savoir quelle version de votre site web basé sur une conception adaptée est actuellement consultée par un visiteur. Adobe recommande d’utiliser ce plug-in si votre site utilise une conception adaptée et que vous souhaitez effectuer le suivi de la version du site consultée par un visiteur. Ce plug-in n’est pas nécessaire si votre site n’utilise pas de conception adaptée.
 

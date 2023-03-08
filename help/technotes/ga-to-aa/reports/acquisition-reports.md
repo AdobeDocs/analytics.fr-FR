@@ -3,10 +3,10 @@ title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,4 +141,4 @@ Le rapport Mots-clés organiques montre la façon dont chaque mot-clé se compor
 
 ## Analyse des coûts
 
-Ce rapport présente les données sur les visites, les coûts et les recettes pour vos canaux marketing payants. Adobe fournit un produit dédié appelé Adobe Advertising Cloud. Si votre entreprise souhaite utiliser ce produit, contactez votre équipe de compte d’Adobe.
+Ce rapport présente les données sur les visites, les coûts et les recettes pour vos canaux marketing payants. Adobe fournit un produit dédié appelé Adobe Advertising Cloud. Si votre organisation souhaite utiliser ce produit, contactez votre gestionnaire de compte.

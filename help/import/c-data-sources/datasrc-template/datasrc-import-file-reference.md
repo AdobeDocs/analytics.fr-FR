@@ -5,10 +5,10 @@ title: Référence du fichier d’importation
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 93%
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Utilisez le modèle de source de données pour créer un fichier qui contient le
 * Pour accélérer le traitement de votre fichier de source de données, Adobe recommande l’agrégation des données d’événement (mesures) sur une seule ligne par date.
 
    Si, par exemple, votre fichier associe les données d’impression de publicité à l’événement 6, créez une seule ligne de données qui comprend le nombre total d’impressions de publicité pour chaque jour, plutôt que de créer une entrée de ligne distincte pour chaque impression de publicité survenue ce jour donné.
-* Si vous devez transférer des données issues de dates antérieures à la date de création de votre suite de rapports, contactez votre équipe de compte d’Adobe pour modifier la date la plus ancienne à laquelle vous pouvez exécuter des rapports.
+* Si vous devez transférer des données issues de dates antérieures à la date de création de votre suite de rapports, contactez le gestionnaire de votre compte afin de modifier la date la plus ancienne à laquelle vous pouvez exécuter des rapports.
 
 **Fichier .FIN**
 

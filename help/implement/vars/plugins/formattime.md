@@ -3,16 +3,18 @@ title: formatTime
 description: Permet de convertir un nombre de secondes en son équivalent en minutes, heures, etc.
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
 
 # Plug-in Adobe : formatTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
 
 Le plug-in `formatTime` vous permet de prendre un nombre quelconque de secondes et de les restituer dans un format condensé, en les arrondissant à une valeur de référence souhaitée. Adobe recommande d’utiliser ce plug-in si vous souhaitez saisir une valeur de temps en secondes et la convertir dans un format condensé (minutes, jours ou semaines, par exemple). Ce plug-in n’est pas nécessaire si vous ne souhaitez pas condenser les valeurs exprimées en secondes dans un format temporel arrondi.
 
