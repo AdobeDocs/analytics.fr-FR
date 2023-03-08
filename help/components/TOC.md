@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -201,6 +201,7 @@ ht-degree: 96%
       + [Compatibilité des mesures](c-calcmetrics/cm-compatibility.md)
       + [Mesures calculées : droits en fonction du rôle](c-calcmetrics/cm-role-based-rights.md)
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
+      + [Mesures calculées par défaut](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
    + [Suite de rapports virtuelles - Traitement des composants](vrs/vrs-components.md)
