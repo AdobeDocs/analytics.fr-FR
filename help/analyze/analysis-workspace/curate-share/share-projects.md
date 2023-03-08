@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -136,23 +136,17 @@ Pour partager un lien public vers un projet Analysis Workspace :
 
 1. Activez la variable **[!UICONTROL Principal du lien]** s’il n’est pas déjà activé.
 
-1. Choisissez d’activer ou non les options de sécurité suivantes (ces options peuvent être contrôlées par votre administrateur Analytics) :
+1. Indiquez si l’option de sécurité suivante doit être activée (cette option peut être contrôlée par votre administrateur Analytics) :
 
-   * **[!UICONTROL Authentification SSO requise pour l’authentification unique]:**
+   * **[!UICONTROL Identification de l’Experience Cloud requise]:**
 
-      Exiger que les personnes disposant du lien s’authentifient via SSO avant d’accéder au projet partagé. Sélectionnez cette option si vous souhaitez que le projet soit accessible uniquement aux utilisateurs de votre entreprise.
+      Lorsque cette option est activée, seuls les destinataires disposant d’un identifiant fédéré et pouvant se connecter à Adobe Experience Cloud peuvent accéder aux liens publics partagés. Les personnes disposant du lien doivent s’authentifier avec leur connexion Adobe Experience Cloud pour accéder au projet partagé.
 
       Les administrateurs d’Analytics peuvent définir cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la configuration de cette option par l’administrateur, vous pouvez rencontrer les scénarios suivants :
 
-      * Si cette option n’est pas visible, l’authentification unique n’est pas activée pour votre organisation ou votre administrateur Analytics n’a pas activé cette fonctionnalité.
+      * Si cette option n’est pas visible, votre administrateur Analytics n’a pas activé cette fonctionnalité.
 
-      * Si cette option est activée et grisée, votre administrateur Analytics nécessite une authentification SSO pour accéder à tous les liens publics.
-   * **[!UICONTROL Mot de passe requis]:** Exiger que les personnes disposant du lien spécifient un mot de passe avant d’accéder au projet Analysis Workspace. Vous bénéficiez ainsi d’un niveau de sécurité supplémentaire pour votre projet.
-
-      Si vous sélectionnez cette option, indiquez un mot de passe. N’oubliez pas de partager ce mot de passe avec le lien du projet lorsque vous le partagez avec d’autres personnes. <!--go through this workflow and see how it works.-->
-
-      Si cette option est activée et grisée, votre administrateur Analytics nécessite que tous les liens publics soient protégés par mot de passe. Les administrateurs d’Analytics peuvent définir cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * Si cette option est activée et grisée, votre administrateur Analytics nécessite une authentification Experience Cloud pour pouvoir accéder à tous les liens publics.
 
 1. En regard de **[!UICONTROL Partager avec quiconque (aucune connexion requise)]** , cliquez sur le champ **Copier le lien** pour copier le lien dans le Presse-papiers du système.
 
