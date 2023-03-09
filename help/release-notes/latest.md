@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
+source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 55%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Mars 2023)
 
-**Dernière mise à jour** : le 7 mars 2023
+**Dernière mise à jour** : le 9 mars 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -44,7 +44,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 | Produit ou fonctionnalité en fin de vie | Date d’ajout ou de mise à jour | Description |
 | --- | --- | --- |
 | **Fin de vie de [!DNL Reports & Analytics]** | 7 mars 2023 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie.<p>Le 31 décembre 2023, nous allons mettre fin à de nombreuses fonctionnalités Reports &amp; Analytics associées, notamment : Rapports planifiés, Extraction de données et Rapports à distance. Après le 31 décembre 2023, les rapports planifiés ne seront plus envoyés. Dans **Avril 2023**, tous les rapports dont l’expiration était planifiée au-delà du 31 décembre 2023 seront automatiquement mis à jour et expireront le 31 décembre 2023. En outre, vous ne pouvez plus planifier les rapports ultérieurs au-delà du 31 décembre 2023. |
-| **Abandon de [!UICONTROL Personnes] metric** | 28 février 2023 | Avec l’abandon de la fonction [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html), la mesure Personnes liées à Device Co-op n’est plus pertinente. Dans un avenir proche (date à déterminer), nous supprimerons cette option [!UICONTROL Personnes] mesure. À ce stade, nous redirigerons ses données vers la variable [!UICONTROL Visiteur unique] afin d’empêcher la ventilation des projets, des segments et des mesures calculées.<p>**Remarque**: Le [[!UICONTROL Personnes] mesure liée aux analyses entre appareils](/help/components/metrics/people.md) n’est pas affecté par cette annonce. |
+| **Abandon de [!UICONTROL Personnes] metric** | 9 mars 2023 | Avec l’abandon de la fonction [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html), la mesure Personnes liées à Device Co-op n’est plus pertinente. Le 8 mai 2023, nous supprimerons la variable [!UICONTROL Personnes] mesure. À ce stade, nous redirigerons ses données vers la variable [!UICONTROL Visiteur unique] afin d’empêcher la ventilation des projets, des segments et des mesures calculées.<p>**Remarque**: Le [[!UICONTROL Personnes] mesure liée aux analyses entre appareils](/help/components/metrics/people.md) n’est pas affecté par cette annonce. |
 | **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 29 septembre 2022 | Dans le cadre de la fin de vie de Reports &amp; Analytics, [!UICONTROL Listes de publication] sont censés atteindre la fin de vie dans **Décembre 2023**. Vous ne pourrez pas créer de nouvelles ressources ou accéder à des ressources existantes [!UICONTROL Listes de publication] envoyer ou planifier [!UICONTROL Analysis Workspace] projets. |
 | **Fin de vie de Data Workbench** | 14 septembre 2022 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Consultez l’[annonce de fin de vie du Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) pour plus d’informations. Contactez le gestionnaire de compte Adobe de votre entreprise pour toute question. |
 | **Fin de vie de [!DNL Reports & Analytics]** | 4 janvier 2022 | À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie. |
