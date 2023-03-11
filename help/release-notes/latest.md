@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
+source-git-commit: 3d2e6966fbc765cd19f7a258457d89af3097083f
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 55%
+source-wordcount: '1208'
+ht-degree: 50%
 
 ---
 
@@ -24,6 +24,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | **Articles de données dans les tableaux de bord mobiles** | Les articles de données vous permettent d’ajouter plusieurs vues détaillées personnalisables aux mosaïques dans les projets de Fiche d’évaluation mobile. Utilisez les témoignages de données pour mieux comprendre les principaux moteurs de recherche, les mesures connexes et les différentes étapes du parcours client. Vous pouvez facilement parcourir ces vues pour comprendre l’ensemble de l’historique de vos mesures clés. [En savoir plus](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | S.O. | 8 mars 2023 |
 | **Dates d’expiration du projet planifié** | Vous pouvez définir des dates d’expiration maximales d’un an pour les projets planifiés, quelle que soit la fréquence de planification. | S.O. | 8 mars 2023 |
 | **Partage de liens pour les projets (aucune connexion requise)** - Accès bêta privé uniquement | <p>Vous pouvez désormais partager des liens en lecture seule avec des personnes qui n’ont pas accès à Adobe Analytics dans des projets Analysis Workspace. Vous pouvez partager des liens de projet avec des personnes hors de votre entreprise ou au sein de votre entreprise qui ne sont pas configurées pour Adobe Analytics. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>Pour rejoindre la version bêta privée, contactez votre équipe de compte d’Adobe.</p> | 15 mars 2023 (version bêta privée) | Avril 2023 |
+| **Mises à jour des périodes des panneaux** | Dans Workspace, nous avons ajouté les améliorations suivantes :<ul><li>À compter de la version de février, les éléments de dimension et les aperçus de données sont basés sur la période du panneau et non sur les 90 derniers jours. </li><li>Tous les éléments de dimension répertoriés reposent sur les données de la période du panneau. Si un élément de dimension contient des données en dehors de la période, vous pouvez afficher des données supplémentaires au-delà de la période au bas de la liste.</li><li>Les Dimensions qui ne comportent pas de données peuvent être affichées dans le rail de gauche. Cliquez sur Afficher d’autres options pour afficher les éléments de dimension avec les données en dehors de la période du panneau.</li><li>Les aperçus de données dans les créateurs de segments et de mesures calculées sont basés sur la période du panneau, sauf si vous y accédez à partir des gestionnaires de composants, qui n’ont pas de panneau associé et sont toujours basés sur les 90 derniers jours.</li><li>Les aperçus de données affichent des données ou des composants en fonction de la période du panneau.</li></ul> | S.O. | 8 février 2023 |
 
 ## Correctifs dans Adobe Analytics  
 
