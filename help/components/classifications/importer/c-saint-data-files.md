@@ -3,10 +3,10 @@ description: L’importateur vous permet de télécharger en vrac des données d
 title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ Chaque valeur doit être unique dans l’ensemble du système. La valeur de ce c
 
 ### En-tête de colonne de classification
 
-Par exemple, les Reports and Analytics incluent automatiquement deux classifications pour les variables [!UICONTROL Campagne], à savoir : [!UICONTROL Campagnes] et [!UICONTROL Éléments créatifs]. Pour ajouter des données à la classification [!UICONTROL Campagnes], l’en-tête de colonne dans le fichier de données doit être [!UICONTROL Campagnes].
+Exemple : Votre mise en oeuvre de Reports &amp; Analytics inclut automatiquement deux classifications pour [!UICONTROL Campagne] variables : [!UICONTROL Campagnes] et [!UICONTROL Éléments créatifs]. Pour ajouter des données à la classification [!UICONTROL Campagnes], l’en-tête de colonne dans le fichier de données doit être [!UICONTROL Campagnes].
 
 >[!NOTE]
 >
->Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé.
+>Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé. &quot;Clé&quot; est une valeur de classification réservée (en-tête). Les nouvelles classifications nommées &quot;Clé&quot; ne sont pas prises en charge.
 
 De plus, le fichier de données prend en charge des conventions d’en-tête supplémentaires pour identifier les sous-classifications et d’autres colonnes de données spécialisées :
 
