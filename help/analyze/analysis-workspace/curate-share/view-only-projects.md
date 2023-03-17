@@ -5,16 +5,16 @@ title: Projets en lecture seule
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Projets en lecture seule
 
-Vous pouvez partager des projets « en lecture seule » avec des destinataires via le [processus de partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md). Les destinataires placés dans le rôle Peut afficher profiteront d’une expérience de projet plus limitée. Cela peut être utile si vous partagez un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général, tout en souhaitant qu’ils consomment des données et des informations dans un environnement sûr.
+Vous pouvez partager des projets « en lecture seule » avec des destinataires via le [processus de partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md). Les destinataires placés dans le rôle Peut afficher profiteront d’une expérience de projet plus limitée. Cela peut être souhaitable si vous partagez un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général, mais que vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.
 
 ![](assets/view-only-project.png)
 
