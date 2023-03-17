@@ -5,7 +5,7 @@ user-guide-title: Notes de mise à jour d’Analytics
 breadcrumb-title: Notes de mise à jour
 user-guide-description: Découvrez les nouvelles fonctionnalités et correctifs d’Adobe Analytics.
 source-git-commit: af1574a72c652a75a851499416cf78703a1be178
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '41'
 ht-degree: 100%
 
