@@ -3,16 +3,14 @@ description: Le dictionnaire de données dans Analysis Workspace permet aux uti
 title: Afficher le dictionnaire de données
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 58%
+source-wordcount: '280'
+ht-degree: 71%
 
 ---
 
 # Afficher des informations sur les composants dans le dictionnaire de données
-
-{{release-limited-testing}}
 
 Le dictionnaire de données vous permet d’afficher des informations sur un composant, notamment sa description, des composants similaires, les autres composants fréquemment utilisés avec lui, etc.
 
@@ -32,16 +30,7 @@ Pour afficher des informations sur un composant dans le dictionnaire de données
 
 1. (Facultatif) Dans le champ de recherche, commencez à saisir le nom du composant à afficher.
 
-   Les icônes s’affichent en regard des noms de composant pour indiquer le type de composant :
-
-   | Icône | Signification |
-   |---------|----------|
-   | ![Icône Dimension](assets/dimension-icon.png) | Indique un **dimension**. Les Dimensions sont fournies par Adobe. Les dimensions existantes ne peuvent pas être modifiées et les nouvelles dimensions ne peuvent pas être créées. |
-   | ![Icône Mesure](assets/default-metric-icon.png) | Indique un **mesure standard** (non calculé). Les mesures standard sont fournies par Adobe et ne peuvent pas être modifiées. |
-   | ![Icône Adobe](assets/default-calc-metric-icon.png) | Indique un **modèle de mesure calculée** ou **modèle de segment**. Ces composants sont fournis par Adobe et ne peuvent pas être modifiés. |
-   | ![Icône Calcul](assets/calculated-metric-icon-created.png) | Indique un **mesure calculée** qui a été créé par un administrateur Analytics de votre entreprise. |
-   | ![Icône Segment](assets/segment-icon.png) | Indique un **segment**. Il peut s’agir de segments fournis par Adobe ou créés par un administrateur Analytics de votre entreprise. |
-   | ![Icône Période](assets/date-range-icon.png) | Indique un **période**. Il peut s’agir de périodes fournies par Adobe ou créées par un administrateur Analytics de votre entreprise. |
+   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](assets/dimension-icon.png) sont orange, **Segments** ![Icône Segment](assets/segment-icon.png) sont bleues, **Périodes** ![Icône Période](assets/date-range-icon.png) sont violets et **Mesures** ![Icône Mesure](assets/default-metric-icon.png) sont vertes. Icône Adobe ![Icône Adobe](assets/default-calc-metric-icon.png) indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
 
 {{dd-filter-criteria}}
 
