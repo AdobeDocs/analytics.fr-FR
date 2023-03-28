@@ -2,7 +2,7 @@
 title: Implémenter Adobe Analytics à l’aide de l’extension Analytics
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises et de l’extension Analytics.
 feature: Launch Implementation
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>2</td>
-<td><b>Créer une couche de données</b> pour gérer le suivi des données sur votre site web.</td>
+<td><b>Créez une couche de données</b> pour gérer le suivi des données sur votre site web.</td>
 <td>
 <a href="../prepare/data-layer.md">Créer une couche de données</a>
 </td>
