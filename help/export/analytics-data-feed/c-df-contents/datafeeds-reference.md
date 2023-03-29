@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 2af8c2ee2ad8f445390a0b732630af1e1304d9a5
+source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
 workflow-type: tm+mt
-source-wordcount: '3629'
-ht-degree: 94%
+source-wordcount: '3655'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,8 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 >[!NOTE]
 >
 >La plupart des colonnes contiennent une colonne similaire avec un préfixe `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. Pour plus d’informations, consultez la [FAQ sur les flux de données](../df-faq.md).
+
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 
 | Nom de la colonne | Description de la colonne | Type de données |
 | --- | --- | --- |
