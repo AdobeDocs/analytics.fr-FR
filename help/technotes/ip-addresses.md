@@ -3,10 +3,10 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 5268016c1055e9387a3394ee6bdfdb2dc508e7d0
+source-git-commit: 07606370e0198901d409ae054f8c8ca6c793bbeb
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,9 +81,9 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 
 | Emplacement | Hôte |
 | --- | --- |
-| Chine | `52.80.169.108` |
-| Chine | `54.223.47.95` |
-| Chine | `140.179.13.49` |
+| Chine | `52.80.44.16` |
+| Chine | `52.80.161.58` |
+| Chine | `140.179.173.142` |
 | France | `13.36.218.177` |
 | France | `15.188.95.229` |
 | France | `15.236.176.210` |
