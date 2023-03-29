@@ -4,10 +4,10 @@ description: Obtenez des réponses aux questions les plus fréquentes au sujet d
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
 workflow-type: tm+mt
 source-wordcount: '1026'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -70,7 +70,7 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 * Sorties
 * Pages introuvables
 * Recherches
-* Visites sur une seule page
+* Visites de page unique
 * Accès unique
 
 ## L’attribution fonctionne-t-elle avec des classifications ?
@@ -79,7 +79,9 @@ Oui, les classifications sont entièrement prises en charge.
 
 ## L’attribution fonctionne-t-elle avec des sources de données ?
 
-Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur Analytics. Les sources de données ID de transaction sont également prises en charge, sauf si elles sont utilisées dans une suite de rapports virtuelle où le traitement du temps est activé.
+Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur Analytics.
+
+Les sources de données des ID de transaction sont traitées comme tout autre accès ; ils n’utilisent pas le traitement spécial qu’ils utilisent normalement dans les rapports traditionnels.
 
 ## L’attribution fonctionne-t-elle avec l’intégration d’Advertising Analytics ?
 
@@ -87,7 +89,7 @@ Les dimensions des métadonnées, telles que le type de correspondance et le mot
 
 ## Comment l’attribution fonctionne-t-elle avec les canaux marketing ?
 
-Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions « Canal marketing » et « Détails sur les canaux marketing » génériques afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions Canal Dernière touche, mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
+Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des [!UICONTROL Canal marketing] et [!UICONTROL Détails du canal marketing] dimensions afin que vous puissiez les utiliser avec le modèle d’attribution souhaité. Ces dimensions génériques se comportent de la même manière que [!UICONTROL Canal Dernière touche] mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
 
 Étant donné que les dimensions Canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles.
 
@@ -107,4 +109,4 @@ Par exemple, si vous créez une suite de rapports virtuelle avec un segment « 
 
 >[!NOTE]
 >
->Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masquera simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à celles d’un filtre avec une définition comparable.
+>Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masque simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à celles d’un filtre avec une définition comparable.
