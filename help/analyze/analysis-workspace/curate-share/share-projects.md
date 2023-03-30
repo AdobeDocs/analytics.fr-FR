@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ Vous pouvez accorder [accès en lecture seule](/help/analyze/analysis-workspace/
 >* La possibilité de partager un projet de cette manière peut être désactivée par l’administrateur Analytics, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Si vous ne pouvez pas partager un projet comme décrit dans cette section, votre administrateur Analytics a désactivé cette fonctionnalité.
 >
 >* Les projets comportant plus de 14 visualisations étendues ne peuvent pas être partagés avec des personnes n’ayant pas accès à Adobe Analytics.
+>
+>* Les utilisateurs avec lesquels vous partagez peuvent afficher les filtres qui ont été appliqués au projet pendant la [traitement](curate.md).
+> 
+>* Les utilisateurs avec lesquels vous partagez peuvent modifier la période du projet. La période que vous définissez pour le projet s’affiche par défaut.
 
 
 Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics :
@@ -153,6 +157,8 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas ac
 1. Partagez le lien avec les personnes qui doivent avoir accès au projet. Vous pouvez par exemple coller le lien dans un email.
 
    Toute personne avec laquelle vous partagez le lien peut afficher le projet Analysis Workspace.
+
+1. (Facultatif) Vous pouvez cliquer sur le bouton **Générer un nouveau lien** icon ![Icône Générer un lien](assets/regenerate-link.png) pour supprimer l’accès des utilisateurs qui ont reçu un lien vers le projet. Un nouveau lien est généré, que vous pouvez partager avec les utilisateurs auxquels vous souhaitez accéder.
 
 1. Sélectionner **[!UICONTROL Fermer]** pour fermer la boîte de dialogue de partage. Vos modifications sont automatiquement enregistrées.
 
