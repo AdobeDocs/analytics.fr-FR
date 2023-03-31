@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
+source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
 workflow-type: tm+mt
-source-wordcount: '3801'
-ht-degree: 97%
+source-wordcount: '3853'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mars 2023** |  |
+| Variables de trafic (props) - Aperçu | Ajout de sections et de procédures détaillées pour clarifier et améliorer le contenu des articles. Contenu fusionné d’un article intitulé &quot;Activer les rapports de variables de trafic&quot; et supprimé cet article. Voir [Variables de trafic (props) - Aperçu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
+| Filtres URL internes | Ajout de sections et de procédures détaillées pour clarifier et améliorer le contenu des articles. Voir [Filtres URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Création d’articles de données dans des fiches d’évaluation mobiles | A [article de données](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) est un ensemble de points de données pris en charge, de contexte d’entreprise et de mesures connexes reposant sur un thème ou une mesure central. |
 | Mesures calculées par défaut | Ajout de contenu expliquant les [mesures calculées par défaut fournies par Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Dictionnaire de données | <p>Ajout d’une nouvelle documentation pour le dictionnaire de données, comprenant une [Présentation](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [Affichage](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [Edition](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md), et [Surveillance](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) le dictionnaire de données.</p><p>Informations dans [Ajout de descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md) a été mis à jour afin de prendre en compte la fonctionnalité du dictionnaire de données.</p> |
