@@ -4,10 +4,10 @@ description: Obtenez des réponses aux questions les plus fréquentes au sujet d
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Oui, les classifications sont entièrement prises en charge.
 
 Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur Analytics.
 
-Les sources de données des ID de transaction sont traitées comme tout autre accès ; ils n’utilisent pas le traitement spécial qu’ils utilisent normalement dans les rapports traditionnels.
+Les sources de données des ID de transaction sont traitées comme tout autre accès ; ils n’utilisent pas le traitement spécial qu’ils utilisent normalement dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de l’heure des rapports, les accès à l’ID de transaction comportent des valeurs d’eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès à l’ID de transaction. Les valeurs ne seront pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
 
 ## L’attribution fonctionne-t-elle avec l’intégration d’Advertising Analytics ?
 
