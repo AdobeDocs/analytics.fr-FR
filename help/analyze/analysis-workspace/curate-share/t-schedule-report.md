@@ -5,9 +5,9 @@ title: Planification de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 74d4127ccb9ff2837ab5b17c8237aa4604378485
+source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '620'
 ht-degree: 93%
 
 ---
@@ -20,7 +20,7 @@ Dans le **menu Partager** de Workspace, vous pouvez envoyer des projets Analysis
 
 Pour envoyer un fichier immédiatement aux destinataires par courrier électronique :
 
-1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Envoyer le fichier maintenant]**.
+1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Exporter le fichier]**.
 1. Spécifiez le type de fichier (CSV ou PDF).
 1. (Facultatif) Ajoutez une description qui sera incluse dans le courrier électronique pour décrire le fichier reçu.
 1. Ajoutez des destinataires ou des groupes. Vous pouvez également saisir les adresses électroniques.
@@ -33,7 +33,7 @@ Pour envoyer un fichier immédiatement aux destinataires par courrier électroni
 
 Pour envoyer un fichier selon un calendrier récurrent aux destinataires par courrier électronique :
 
-1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Envoyer le fichier selon le calendrier]**.
+1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Planification de l’exportation du fichier]**.
 1. Spécifiez le type de fichier (CSV ou PDF).
 1. (Facultatif) Ajoutez une description qui sera incluse dans le courrier électronique pour décrire le fichier reçu.
 1. Ajoutez des destinataires ou des groupes. Vous pouvez également saisir les adresses électroniques.
