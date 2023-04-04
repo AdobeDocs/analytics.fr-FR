@@ -2,7 +2,7 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -47,7 +47,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
 * **Connecteurs de données :** solution de développement complète qui permet à un tiers d’automatiser le téléchargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. La plupart des connecteurs de données utilisent un processus similaire mis en œuvre dans les sources de données. Voir [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) dans le guide dʼutilisation de lʼimportation.
 * **Flux de données :** exportation de données brutes qui répertorie chaque accès et variable sous forme de lignes et de colonnes distinctes. Elle est le plus souvent utilisée pour exporter des données Adobe Analytics vers une base de données tierce. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation.
-* **Sources de données :** permet à un utilisateur de télécharger les données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir [Data Connectors](/help/import/c-data-sources/datasrc-home.md) dans le guide d’utilisation de l’importation.
+* **Sources de données :** permet à un utilisateur de télécharger les données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir [Data Connectors](/help/import/data-sources/overview.md) dans le guide d’utilisation de l’importation.
 * **Data Warehouse :** fonction d’Adobe Analytics permettant de demander des rapports plus volumineux. Voir [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) dans le guide d’utilisation de l’exportation.
 * **Data Workbench :** anciennement appelé Insight. Permet de collecter, de traiter, d’analyser et de visualiser des données issues d’interactions d’utilisateurs en ligne et hors ligne sur plusieurs canaux.
 * **Dimension :** type de composant contenant des valeurs de variable, telles que du texte. Il peut s’agir d’un nom de page, d’un code de suivi ou d’un domaine référent. Sa contrepartie est généralement une mesure.
@@ -90,7 +90,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Report Builder :** macro complémentaire Microsoft Excel qui permet de créer des requêtes personnalisées à partir de données Adobe Analytics.
 * **Suite de rapports :** conteneur global vers lequel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
-* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage de la solution Analytics.
+* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage du package Analytics.
 * **Période flottante :** type de période relative qui change au fil du temps. Par exemple, un rapport montrant les 7 derniers jours peut être considéré comme une période variable. Voir aussi Période statique.
 * **RSID :** abréviation d’identifiant de suite de rapports. Une suite de rapports a un nom convivial et un identifiant.
 * **s.t() :** nom de la fonction d’une bibliothèque AppMeasurement envoyant une demande d’image de pages vues. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Voir [t](../implement/vars/functions/t-method.md) dans le guide d’utilisation de la mise en œuvre.

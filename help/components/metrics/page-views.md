@@ -3,10 +3,10 @@ title: Pages vues
 description: Nombre de fois où un élément de dimension a été défini ou conservé dans Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 39%
+source-wordcount: '168'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ La mesure « Pages vues » indique le nombre de fois où un élément de dimen
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise tous les appels de suivi de page vue ([`t()`](/help/implement/vars/functions/t-method.md)) d’une suite de rapports. Pour les dimensions, elle inclut les accès pour lesquels un élément de dimension est défini ou conservé. Elle n’inclut pas les appels de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+Cette mesure comptabilise tous les appels de suivi de page vue ([`t()`](/help/implement/vars/functions/t-method.md)) d’une suite de rapports. Pour les dimensions, elle inclut les accès pour lesquels un élément de dimension est défini ou conservé. Elle n’inclut pas les appels de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)) ou des données du résumé [Sources de données](/help/import/data-sources/overview.md).
 
 ## Comparaison avec des mesures similaires
 

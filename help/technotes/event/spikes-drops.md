@@ -2,7 +2,7 @@
 title: Résolution des problèmes liés aux pics et aux baisses de données
 description: Découvrez les raisons expliquant les hausses ou les baisses spectaculaires des rapports de tendance.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Les pics de trafic sont classés dans deux sections : pratiquement deux fois pl
 ### Causes possibles du doublement exact ou approximatif des données attendues
 
 * **Plusieurs demandes d’image au sein d’une implémentation** : si l’implémentation contient plus d’un appel de méthode [`t()`](/help/implement/vars/functions/t-method.md) par page, elle double efficacement toutes les données collectées. Utilisez le débogueur sur le site et recherchez plusieurs demandes d’image pour repérer les doublons.
-* **Fichiers de source de données en double transférés** : si l’entreprise utilise des [sources de données](/help/import/c-data-sources/datasrc-home.md), un utilisateur de l’entreprise peut transférer le même fichier deux fois vers Adobe Analytics. Le transfert de ce doublon permet de doubler efficacement les données dans les rapports, provoquant ainsi un pic de trafic.
+* **Fichiers de source de données en double transférés** : si l’entreprise utilise des [sources de données](/help/import/data-sources/overview.md), un utilisateur de l’entreprise peut transférer le même fichier deux fois vers Adobe Analytics. Le transfert de ce doublon permet de doubler efficacement les données dans les rapports, provoquant ainsi un pic de trafic.
 
 ### Autres causes possibles de l’augmentation du trafic
 

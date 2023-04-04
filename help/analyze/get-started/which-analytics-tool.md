@@ -3,8 +3,8 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: ht
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
    * Créateur de règles : à utiliser en cas de valeurs formatées prévisibles collectées pour une variable ; des valeurs délimitées, par exemple. Cette approche permet de définir les règles une fois pour toutes et de ne plus y penser.
    * Importateur de navigateur : à utiliser en cas d’absence de valeurs prévisibles ou dans le cas d’une liste de valeurs finie qui requiert une mise à jour unique. Cette approche nécessite une surveillance constante des classifications des nouvelles valeurs.
 
-Les **[sources de données](/help/import/c-data-sources/datasrc-home.md)** doivent être utilisées :
+Les **[sources de données](/help/import/data-sources/overview.md)** doivent être utilisées :
 
 * En présence de données hors ligne que vous souhaitez écrire de manière permanente dans Adobe Analytics.
 * Options :
