@@ -4,10 +4,10 @@ title: Menu Partager
 feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: cc774376b2f98506eb9c1a737e2e6fba3ea73a45
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '243'
+ht-degree: 59%
 
 ---
 
@@ -21,8 +21,9 @@ Vous pouvez traiter, partager et planifier des projets PDF/CSV avec les destinat
 
 | Option de menu | Description |
 |---|---|
-| Partager avec les utilisateurs et utilisatrices de l’espace de travail | Rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Partagez avec des utilisateurs spécifiques ou créez un lien partageable pour accéder rapidement à un projet. Les utilisateurs doivent se connecter. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
-| Partager avec tout le monde | Accordez un accès en lecture seule aux projets Analysis Workspace aux personnes qui n’ont pas accès à Adobe Analytics. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Partager le projet<!--remove this when Share with anyone goes to GA--> | Rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Partagez avec des utilisateurs spécifiques ou créez un lien partageable pour accéder rapidement à un projet. Les utilisateurs doivent se connecter. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Partager avec les utilisateurs de Workspace (disponible dans les tests limités) | Rend un projet disponible pour d’autres utilisateurs d’Analysis Workspace de votre entreprise. Partagez avec des utilisateurs spécifiques ou créez un lien partageable pour accéder rapidement à un projet. Les utilisateurs doivent se connecter. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
+| Partager avec n’importe qui (disponible dans les tests limités) | Accordez un accès en lecture seule aux projets Analysis Workspace aux personnes qui n’ont pas accès à Adobe Analytics. [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) |
 | Exporter un fichier | Envoie immédiatement un projet au format CSV ou PDF à des destinataires spécifiés. [En savoir plus](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | Planifier l’exportation de fichier | Envoie un projet au format CSV ou PDF selon un calendrier à des destinataires spécifiés. [En savoir plus](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) |
 | Traiter les données du projet | Limite les composants (dimensions, mesures, segments, périodes) disponibles dans un projet. [En savoir plus](/help/analyze/analysis-workspace/curate-share/curate.md) |
