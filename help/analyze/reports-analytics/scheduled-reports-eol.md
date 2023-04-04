@@ -4,16 +4,16 @@ description: Adobe a l’intention de suspendre tous les rapports planifiés don
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Avis de fin de vie pour les rapports planifiés
 
-Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en prévision de la [fin de vie de Reports &amp; Analytics](https://express.adobe.com/page/6WnF8JK6IRDhf/) annoncée précédemment. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouvelles extractions de données. En réponse aux demandes des clients qui souhaitaient une prolongation et pour faciliter la transition depuis Reports &amp; Analytics, nous avons décidé de prolonger l’accès à ces fonctionnalités jusqu’au **31 janvier 2023**. Veuillez noter que les fenêtres d’expiration pour les rapports et les extractions de données continueront d’être limitées à neuf mois ; la diffusion des rapports et des extractions de données s’interrompra à la fin de cette période, sauf si le planning est réactivé.
+Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en prévision de la [fin de vie de Reports &amp; Analytics](https://www.adobe.com/go/analytics_rnaeol_en) annoncée précédemment. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouvelles extractions de données. En réponse aux demandes des clients qui souhaitaient une prolongation et pour faciliter la transition depuis Reports &amp; Analytics, nous avons décidé de prolonger l’accès à ces fonctionnalités jusqu’au **31 janvier 2023**. Veuillez noter que les fenêtres d’expiration pour les rapports et les extractions de données continueront d’être limitées à neuf mois ; la diffusion des rapports et des extractions de données s’interrompra à la fin de cette période, sauf si le planning est réactivé.
 
 En résumé, ces fonctionnalités seront abandonnées le 31 janvier 2023, date avant laquelle vous devrez migrer vos rapports planifiés vers l’un des autres mécanismes disponibles dans Adobe Analytics.
 
