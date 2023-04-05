@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3867'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mars 2023** |  |
+| Prise en charge du SDK Web pour Activity Map | Mise à jour [Mise en oeuvre d’Adobe Analytics](/help/implement/home.md) et [Activer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Variables de trafic (props) - Aperçu | Ajout de sections et de procédures détaillées pour clarifier et améliorer le contenu des articles. Contenu fusionné d’un article intitulé &quot;Activer les rapports de variables de trafic&quot; et supprimé cet article. Voir [Variables de trafic (props) - Aperçu](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtres URL internes | Ajout de sections et de procédures détaillées pour clarifier et améliorer le contenu des articles. Voir [Filtres URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Création d’articles de données dans des fiches d’évaluation mobiles | A [article de données](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) est un ensemble de points de données pris en charge, de contexte d’entreprise et de mesures connexes reposant sur un thème ou une mesure central. |
