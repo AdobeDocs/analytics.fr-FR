@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,10 @@ Voici un tutoriel vidéo sur la visualisation de flux :
 Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Vous pouvez, par exemple, combiner dans un seul diagramme des pages et des services ou rayons. Dans ce cas, votre flux peut aller de la page d’accueil à la page Mens, puis au rayon Chaussures.
 
 Chaque colonne peut présenter une dimension distincte. Faites glisser une dimension et ajoutez-la au diagramme en la déposant dans une zone de dépôt.
+
+## Configuration d’une visualisation de flux
+
+Pour plus d’informations sur la configuration d’une visualisation de flux, voir [Configuration d’une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## Exportation de diagrammes de flux dans des fichiers .CSV de projet  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
