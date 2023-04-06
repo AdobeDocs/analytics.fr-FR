@@ -3,10 +3,10 @@ description: Description de la méthode de génération d’une feuille de calcu
 title: Télécharger les paramètres d’une suite de rapports
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '123'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ Pour générer un fichier délimité par des tabulations contenant tous les para
 
 3. Cliquez sur **[!UICONTROL Télécharger]**.
 
-   Un fichier nommé Report Suite Data.tab est téléchargé sur votre ordinateur local.
+   Un fichier nommé `Report Suite Data.tab` est téléchargé sur votre ordinateur local.
 
 Vous pouvez ouvrir le fichier dans n’importe quel éditeur de texte capable de gérer les fichiers délimités par des tabulations.
 
