@@ -4,7 +4,7 @@ title: Création dʼune carte de performance mobile
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 06fc208465e8eb5be1f1fd766d40dadee84e4f9c
+source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 76%
@@ -28,7 +28,7 @@ En tant que curateur de cette carte de performance, vous pouvez utiliser le Cré
 Pour créer la Carte de performance, procédez comme suit :
 
 1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
-2. Configurer la carte de performance avec des données, puis enregistrez-la.
+1. Configurer la carte de performance avec des données, puis enregistrez-la.
 
 ## Accéder au modèle de [!UICONTROL Fiche d’évaluation mobile vierge] {#template}
 
@@ -232,14 +232,23 @@ Créez votre article de données en ajoutant plusieurs diapositives détaillées
 
 1. Commencez par un projet de Fiche d’évaluation mobile.
 1. Sélectionnez une mosaïque à partir de laquelle vous souhaitez créer un article.
+
    ![Création d’un article de données](assets/data-story1.png)
+
    ![Créer des icônes d’article de données](assets/create-data-story.png){width=".50%"}
+
 1. Ajoutez des diapositives pour créer votre article de données. Votre première diapositive est générée par défaut.
-Pour ajouter de nouvelles diapositives, survolez ou cliquez sur une diapositive, puis sélectionnez l’une des options disponibles :
-   * Appuyez sur le signe + pour créer une nouvelle diapositive.
+
+   Pour ajouter de nouvelles diapositives, survolez ou cliquez sur une diapositive, puis sélectionnez l’une des options disponibles :
+
+   * Appuyez sur le bouton [!UICONTROL +] signe pour créer une nouvelle diapositive.
+
    * Appuyez sur l’icône de duplication pour dupliquer la diapositive existante.
+
 1. Si vous créez une diapositive vierge, faites glisser et déposez des composants depuis le rail de gauche, ou choisissez une mise en page pour remplir automatiquement la diapositive avec les données de la mosaïque.
+
    ![Création d’un article de données](assets/data-story2.png)
+
 Pour supprimer une diapositive, appuyez sur l’icône de corbeille.
 
 ### Personnalisation d’un article de données {#customize-data-story}
@@ -251,9 +260,13 @@ Les articles de données vous permettent de personnaliser tout ce dont vous avez
 1. Appuyez sur une mosaïque. La mosaïque sélectionnée est entourée en bleu et le panneau de droite affiche les propriétés de la mosaïque.
 1. Modifiez le titre, le type de graphique et d’autres options de mosaïque.
 1. Faites glisser un composant sur la mosaïque.
+
    ![Création d’un article de données](assets/data-story3.png)
-Lorsque vous faites glisser et déposez un composant, tel qu’une visualisation, sur une mosaïque, le composant est appliqué à toutes les diapositives de l’article de données.
+
+   Lorsque vous faites glisser et déposez un composant, tel qu’une visualisation, sur une mosaïque, le composant est appliqué à toutes les diapositives de l’article de données.
+
 1. Pour appliquer une modification uniquement au titre, maintenez la touche Maj enfoncée pour appliquer la modification.
+
    ![Création d’un article de données](assets/data-story4.png)
 
 >[!NOTE]
@@ -272,7 +285,9 @@ Après avoir créé un article de données, utilisez la variable **Aperçu** pou
 La barre de navigation affiche des icônes représentant ce qui se trouve sur chaque diapositive. La barre de navigation permet d’accéder facilement à une diapositive spécifique si vous disposez de nombreuses diapositives.
 
 Pour vous déplacer entre la mosaïque et les diapositives, appuyez sur la barre de navigation.
+
 ![Création d’un article de données](assets/data-story5.png)
+
 ![Création d’un article de données](assets/data-story-nav.png){width="25%"}
 
 Vous pouvez également naviguer entre les deux en utilisant les flèches de votre clavier ou en sélectionnant un composant et en le maintenant à gauche ou à droite de votre écran pour le faire défiler.
