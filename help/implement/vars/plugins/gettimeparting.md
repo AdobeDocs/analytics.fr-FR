@@ -3,18 +3,16 @@ title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 78%
 
 ---
 
 # Plug-in Adobe : getTimeParting
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getTimeParting` vous permet de saisir les détails du moment où une activité mesurable a lieu sur votre site. Ce plug-in est utile lorsque vous souhaitez ventiler des mesures en fonction d’une division répétable du temps sur une période donnée. Ainsi, vous pouvez comparer les taux de conversion entre deux jours différents de la semaine, par exemple tous les dimanches contre tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins contre tous les soirs.
 
@@ -24,25 +22,44 @@ Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, don
 >
 >La version 4.0+ de ce plug-in est sensiblement différente par rapport aux versions précédentes. Adobe recommande vivement de mettre en œuvre ce plug-in de A à Z. Le code référençant le plug-in avant la version 4.0 n’est pas compatible avec la version actuelle de ce plug-in.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installation du module externe à l’aide de l’extension SDK Web
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getTimeParting
-1. Save and publish the changes to the rule.-->
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur **[!UICONTROL Balises]** sur la gauche, puis cliquez sur la propriété de balise de votre choix.
+1. Cliquez sur **[!UICONTROL Extensions]** sur la gauche, puis cliquez sur le bouton **[!UICONTROL Catalogue]** tab
+1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
+1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
+1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
+   * Extension : Plug-ins SDK Web courants
+   * Élément de données: `getTimeParting`
+1. Définissez la variable `Time Zone` sur la droite.
+1. Enregistrez et publiez les modifications sur l’élément de données.
+
+## Installation manuelle du plug-in implémentant le SDK Web
+
+Ce module externe n’est pas encore pris en charge pour une utilisation dans une mise en oeuvre manuelle du SDK Web.
+
+## Installation du module externe à l’aide de l’extension Adobe Analytics
+
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
+
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
+1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation de getTimeParting
+1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
@@ -127,7 +144,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1 (26 novembre 2018)
 
-* Correctif pour les navigateurs Internet Explorer. Ils peuvent indiquer l’heure, mais uniquement en fonction de l’heure locale du visiteur.
+* Correctif pour les navigateurs Internet Explorer. Ils peuvent renvoyer l’heure, mais uniquement à l’heure locale du visiteur.
 
 ### 6.0 (14 août 2018)
 

@@ -3,40 +3,44 @@ title: getPercentPageViewed
 description: Permet de connaître le pourcentage de la page consultée par le visiteur.
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: dc60b9e6d298aa20b5f6ac7fc776b56118b764f0
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 91%
 
 ---
 
 # Plug-in Adobe : getPercentPageViewed
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `getPercentPageViewed` mesure l’activité de défilement d’un visiteur pour savoir quelle partie d’une page il a vue avant de passer à une autre page. Ce plug-in n’est pas nécessaire si vos pages sont de petite taille ou si vous ne souhaitez pas mesurer l’activité de défilement.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getPercentPageViewed
-1. Save and publish the changes to the rule.-->
+## Installation du module externe à l’aide de l’extension Adobe Analytics
+
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
+
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
+1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type dʼaction : initialisation de getPercentPageViewed
+1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+
+1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous l’extension Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Configurer le suivi à l’aide d’un code personnalisé], qui affiche le bouton [!UICONTROL Ouvrir l’éditeur].

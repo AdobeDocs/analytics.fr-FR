@@ -3,10 +3,10 @@ description: Les ID que vous soumettez ne couvrent pas toujours toutes les donn�
 title: Extension d’ID
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,4 +59,4 @@ En plus de sa valeur par défaut, le champ `priority` prend également en charge
 
 Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Le résultat n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API Privacy Service ne convient pas à cet usage.
 
-Contactez votre gestionnaire de compte (CSM) pour être mis en relation avec notre équipe de conseillers en architecture et ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
+Veuillez contacter votre équipe de compte d’Adobe pour la coordination avec notre équipe de conseillers en architecture d’ingénierie afin d’effectuer une révision plus approfondie et de fournir le niveau d’effort nécessaire pour supprimer les informations d’identification personnelles ou résoudre les problèmes de données.

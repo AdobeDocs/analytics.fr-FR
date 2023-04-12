@@ -4,10 +4,10 @@ keywords: Suite de rapports virtuelle,VRS
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Le remplacement d’un balisage multisuite par une suite de rapports globale et 
 
 ## Instructions
 
-Si vous ne savez pas si les cas d’utilisation décrits s’appliquent à vous et à votre organisation, consultez vos autres administrateurs Adobe Analytics ou votre gestionnaire de compte Adobe. Ils peuvent évaluer vos besoins commerciaux et faire une recommandation.
+Si vous ne savez pas si les cas d’utilisation décrits s’appliquent à vous et à votre organisation, consultez vos autres administrateurs Adobe Analytics ou votre équipe de compte d’Adobe. Ils peuvent évaluer vos besoins commerciaux et faire une recommandation.
 
 Tenez compte des points suivants lorsque vous déterminez si vous devez utiliser le balisage multisuite ou des suites de rapports virtuelles :
 

@@ -4,10 +4,10 @@ keywords: confidentialité
 title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 96%
 
 ---
 
@@ -53,89 +53,24 @@ Adobe Analytics collecte les données suivantes :
 
 ## Autres considérations de confidentialité {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
-<table id="table_247B425E774F403288233824870D070E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Région/pays </th> 
-   <th colname="col2" class="entry"> Considération </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Adobe recommande vivement à ses clients de ne pas lui communiquer leurs informations d’identification personnelle, en particulier dans les cas où ces informations ne sont pas requises par Analytics. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Les utilisateurs doivent être avertis en cas de profilage ; ils doivent aussi pouvoir le décliner. Ceci est requis par la législation du Canada, de l’Australie, de l’Union européenne (inscription dans certains pays) et dans de nombreux pays d’Amérique latine et de l’Asie-Pacifique. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Si vous utilisez des cookies propriétaires, la désinscription d’Analytics est unique pour chaque client ; vous ne pouvez pas compter sur l’annulation d’abonnement sur Adobe.com. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Les analyses propriétaires ne sont pas incluses dans le programme d’autorégulation pour la publicité comportementale en ligne (« AdChoices »). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Les données inter-appareils ne doivent pas être fusionnées, sauf si elles sont liées à un identifiant fourni par le client (nom d’utilisateur haché, par exemple). </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Il est probable que les clients ne puissent pas combiner les informations d’impression de publicités avec les informations d’identification personnelle. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europe </td> 
-   <td colname="col2"> La plupart des pays de l’Union européenne ne considèrent pas les cookies d’analyse comme strictement nécessaires. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europe </td> 
-   <td colname="col2"> Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. <p>Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les autres paramètres d’obscurcissement de l’adresse IP, voir </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">Paramètres généraux du compte</a> dans le guide d’utilisation Administrateur.</p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mondial </td> 
-   <td colname="col2"> Un client peut définir la variable de durée de vie des cookies dans le code de mesure JavaScript sur Aucune, Session ou sur une autre valeur spécifique mesurée en secondes. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Europe </td> 
-   <td colname="col2"> Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Analytics (anciennement SiteCatalyst) versions 14.9 et 15.4. Si ce nouveau paramètre est activé, le dernier octet (la dernière portion) de l’adresse IP est immédiatement remplacé par la valeur 0 une fois que l’adresse IP est collectée par Adobe. Cette anonymisation a lieu avant le traitement des adresses IP et avant la recherche géographique et la recherche de FAI facultatives de l’adresse IP. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Allemagne </td> 
-   <td colname="col2"> <p>Si aucun accord de traitement des données pour Adobe Analytics n’est en place entre vous et Adobe, vous devez contacter votre gestionnaire de compte Adobe ou le responsable du succès client, qui collaboreront avec le service juridique d’Adobe pour établir cet accord. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Région/pays | Considération |
+|--- |--- |
+| Mondial | Adobe recommande vivement à ses clients de ne pas lui communiquer leurs informations d’identification personnelle, en particulier dans les cas où ces informations ne sont pas requises par Analytics. |
+| Mondial | Les utilisateurs doivent être avertis en cas de profilage ; ils doivent aussi pouvoir le décliner. Ceci est requis par la législation du Canada, de l’Australie, de l’Union européenne (inscription dans certains pays) et dans de nombreux pays d’Amérique latine et de l’Asie-Pacifique. |
+| Mondial | Si vous utilisez des cookies propriétaires, la désinscription d’Analytics est unique pour chaque client ; vous ne pouvez pas compter sur l’annulation d’abonnement sur Adobe.com. |
+| Mondial | Les analyses propriétaires ne sont pas incluses dans le programme d’autorégulation pour la publicité comportementale en ligne (« AdChoices »). |
+| Mondial | Les données inter-appareils ne doivent pas être fusionnées, sauf si elles sont liées à un identifiant fourni par le client (nom d’utilisateur haché, par exemple). |
+| Mondial | Il est probable que les clients ne puissent pas combiner les informations d’impression de publicités avec les informations d’identification personnelle. |
+| Europe | La plupart des pays de l’Union européenne ne considèrent pas les cookies d’analyse comme strictement nécessaires. |
+| Europe | Pour tous les clients ayant une suite de rapports configurée dans la région EMEA, Adobe a activé par défaut le paramètre Obscurcissement d’IP sur Activé - suppression d’IP (x.x.x.x). Avec ce paramètre, l’adresse IP sera complètement remplacée par la valeur (x.x.x.x) après recherche géographique et ne sera plus disponible comme point de données. Avec cette méthode de remplacement de base, l’adresse IP spécifique unique ne peut pas être rétablie par rétroconception. Ni le client ni Adobe ne peuvent accéder à l’adresse IP ; elle est irrémédiablement rendue anonyme. Pour en savoir plus sur les autres paramètres d’obscurcissement de l’adresse IP, voir [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) dans le guide d’utilisation Administrateur. |
+| Mondial | Un client peut définir la variable de durée de vie des cookies dans le code de mesure JavaScript sur Aucune, Session ou sur une autre valeur spécifique mesurée en secondes. |
+| Europe | Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Analytics (anciennement SiteCatalyst) versions 14.9 et 15.4. Si ce nouveau paramètre est activé, le dernier octet (la dernière portion) de l’adresse IP est immédiatement remplacé par la valeur 0 une fois que l’adresse IP est collectée par Adobe. Cette anonymisation a lieu avant le traitement des adresses IP et avant la recherche géographique et la recherche de FAI facultatives de l’adresse IP. |
+| Allemagne | Si aucun accord de traitement des données pour Adobe Analytics n’est en place entre vous et Adobe, vous devez contacter votre gestionnaire de compte Adobe ou le responsable du succès client, qui collaboreront avec le service juridique d’Adobe pour établir cet accord. |
 
-## Emplacement des centres de données de la région EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## Emplacement du centre de données EMEA {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-Les centres de données de la région EMEA suivants hébergent actuellement des données Adobe Analytics :
+Le centre de données EMEA suivant héberge actuellement des données Adobe Analytics :
 
-<table id="table_65794B3790FD4B519EE89CF4F4B88314"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nom Adobe </th> 
-   <th colname="col2" class="entry"> Adresse </th> 
-   <th colname="col3" class="entry"> Type d’installation (opérateur) </th> 
-   <th colname="col4" class="entry"> Composants de solution pris en charge </th> 
-   <th colname="col5" class="entry"> Certifications </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> AMS1 </td> 
-   <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>Pays-Bas </p> </td> 
-   <td colname="col3"> <p>Établissement en colocation </p> <p>(Equinix) </p> </td> 
-   <td colname="col4"> <p>Analyses multicanaux, </p> <p>analyses numériques </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.fr/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> LON5 </td> 
-   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>Royaume-Uni </p> </td> 
-   <td colname="col3"> <p>Établissement en colocation </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Analyses multicanaux, </p> <p>analyses numériques </p> </td> 
-   <td colname="col5"> SSAE 16 </td> 
-  </tr> 
- </tbody> 
-</table>
+| Nom Adobe | Adresse | Type d’installation (opérateur) | Composants de solution pris en charge | Certifications |
+|--- |--- |--- |--- |--- |
+| LON5 | 3 Centro  Boundway Hemel Hempstead HP2 7SU UK | Établissement en colocation (Gyron) | Analyses multicanaux, analyses numériques | SSAE 16 |

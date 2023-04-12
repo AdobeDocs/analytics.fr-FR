@@ -3,10 +3,10 @@ title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ Les données conservées sont basées sur la date actuelle et la date et l’heu
 
 ## Ajustement de la période de conservation des données par défaut
 
-Si vous souhaitez réduire ou prolonger la période de conservation des données par défaut, contactez le gestionnaire de compte de votre entreprise.
+Si vous souhaitez réduire ou prolonger la période de conservation des données par défaut, contactez votre équipe Compte d’Adobe.
 
 * La réduction de la période de conservation des données par défaut est gratuite.
 * L’extension de la conservation des données au-delà de la période par défaut de 25 mois nécessite l’achat d’extensions disponibles par incréments d’un an chacune. Vous pouvez acheter jusqu’à huit extensions, pour une durée de conservation totale de 10 ans et un mois (soit les 2 ans et un mois de conservation par défaut, plus les huit ans achetés).
@@ -49,9 +49,9 @@ La politique de rétention des données définit une période de rétention glis
 
 **Puis-je demander une copie de mes données avant qu’elles ne soient supprimées ?**
 
-Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des accès. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vous avez des besoins en matière d’exportation de données en dehors du cadre de l’interface utilisateur, contactez le gestionnaire de compte de votre entreprise. Des arrangements sont possibles ; les coûts peuvent varier.
+Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des accès. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vous avez des exigences d’exportation des données en dehors du cadre de l’interface utilisateur, contactez votre équipe de compte d’Adobe. Des arrangements sont possibles ; les coûts peuvent varier.
 
 **Quand Adobe supprime-t-il les données ?**
 
-Contactez le gestionnaire de compte de votre entreprise pour connaître le moment précis auquel est programmée la suppression de vos données. En règle générale, les données sont supprimées sur une base mensuelle glissante.
+Contactez votre équipe de compte d’Adobe pour connaître le moment précis auquel vos données doivent être supprimées. En règle générale, les données sont supprimées sur une base mensuelle glissante.
 

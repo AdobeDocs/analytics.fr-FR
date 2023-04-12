@@ -2,9 +2,9 @@
 title: Création d’un ensemble de classifications
 description: Champs et descriptions disponibles lors de la création d’un ensemble de classifications
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # Création d’un ensemble de classifications
 
 Vous pouvez utiliser le Gestionnaire d’ensembles de classifications pour créer un ensemble de classifications.
-
->[!NOTE]
->
->Cette fonctionnalité sera disponible pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]** > **[!UICONTROL Ajouter]**
 

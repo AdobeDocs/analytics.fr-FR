@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Connexion à Adobe via SFTP sans mot de passe
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Lors de l’utilisation du protocole SFTP, il est possible, dans certains cas, d
 
 1. Compte FTP créé (Adobe).
 
-   Un représentant Adobe peut créer un compte FTP si vous n’en avez pas déjà un. Contactez votre gestionnaire de compte Adobe ou l’assistance clientèle Adobe pour qu’un compte soit créé.
+   Un représentant Adobe peut créer un compte FTP si vous n’en avez pas déjà un. Contactez votre équipe de compte d’Adobe ou l’assistance clientèle d’Adobe pour qu’un compte soit créé.
 1. Création de clés publique/privée (client).
 
    Créez une combinaison de clés publique/privée. La clé privée est un fichier privé qui réside sur votre ordinateur ou serveur et qui y est propre. Le fichier de clé publique doit être transféré sur le compte Adobe. Avec cette méthode, vous pouvez vous connecter sans authentification par mot de passe. Le fichier de clé publique côté Adobe correspond au fichier de clé privée sur votre ordinateur/serveur et s’authentifie de cette façon.

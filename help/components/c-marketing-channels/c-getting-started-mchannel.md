@@ -3,9 +3,9 @@ title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '811'
 ht-degree: 99%
 
 ---
@@ -87,7 +87,6 @@ Comment utiliser une suite de rapports principale (maître) comme modèle pour t
 >
 >Appliquez les canaux à partir d’un modèle avant d’appliquer des ensembles de règles. Les canaux doivent être identiques pour toutes les suites de rapports lors de cette procédure.
 
-1. Assurez-vous que l’option Rapport Canal marketing est activée pour les suites de rapports sélectionnées. Cette étape est effectuée par votre gestionnaire de compte.
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sur la page **[!UICONTROL Gestionnaire de Report Suites]**, sélectionnez la suite de rapports modèle, ainsi qu’une ou plusieurs suites de rapports cibles.
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.

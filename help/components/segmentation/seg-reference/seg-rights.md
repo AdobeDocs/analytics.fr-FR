@@ -1,43 +1,24 @@
 ---
-description: La fonctionnalité de segment diffère désormais beaucoup entre les administrateurs et les utilisateurs non administrateur.
+description: Graphique de comparaison utilisant des segments entre administrateurs et non-administrateurs.
 title: Droits des segments par rôle
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 100%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
 # Droits des segments par rôle
 
-La fonctionnalité de segment diffère désormais beaucoup entre les administrateurs et les utilisateurs non administrateur.
+La fonctionnalité de segment diffère principalement entre les utilisateurs de niveau administrateur et les non-administrateurs.
 
-<table id="table_13F72FD90C964B86BD4B51E6F51ED292"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"></th> 
-   <th colname="col2" class="entry"> Partage de segments </th> 
-   <th colname="col3" class="entry"> Consultation/gestion de segments </th> 
-   <th colname="col4" class="entry"> Approbation de segments </th> 
-   <th colname="col5" class="entry"> Application de segments </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Administrateurs</b> </td> 
-   <td colname="col2"> Peuvent effectuer un partage avec l’ensemble de l’entreprise, avec des groupes d’utilisateurs et avec des utilisateurs individuels. </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span> : peuvent afficher/modifier/supprimer, etc. leurs propres segments et ceux des autres. <p> <span class="keyword"> Report Builder </span> : peut, entre autres, consulter, modifier ou supprimer ses propres segments et ceux partagés avec lui. </p> </td> 
-   <td colname="col4"> Peuvent approuver les segments sous la forme canonique. </td> 
-   <td colname="col5"> Peuvent appliquer tout segment à l’échelle de l’entreprise. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Utilisateurs non administrateur</b> </td> 
-   <td colname="col2"> Peuvent effectuer un partage avec des utilisateurs individuels uniquement. </td> 
-   <td colname="col3"> Peuvent afficher/modifier/supprimer, etc. uniquement leurs propres segments. </td> 
-   <td colname="col4"> Ne peuvent utiliser que les segments approuvés ; ne peuvent pas les marquer comme approuvé. </td> 
-   <td colname="col5"> Peuvent appliquer leurs propres segments et les segments qui ont été partagés avec eux. </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Utilisateurs administrateurs | Non-administrateurs |
+| --- | --- | --- |
+| Application de segments | Segments détenus ou segments partagés. Cependant, peut partager n’importe quel segment d’un utilisateur avec lui-même afin d’utiliser | Segments détenus uniquement ou segments partagés |
+| Affichage de segments dans le Gestionnaire de segments | Tous les segments de l’entreprise | Segments détenus uniquement ou segments partagés |
+| Gestion des segments | Peuvent afficher, modifier, supprimer ou approuver n’importe quel segment d’un utilisateur | Peuvent uniquement modifier ou supprimer leurs propres segments. Impossible d’approuver les segments. |
+| Partage de segments | Peuvent effectuer un partage avec l’ensemble de l’entreprise, des groupes d’utilisateurs ou des individus. | Peut uniquement partager avec des individus |
+
+{style="table-layout:auto"}

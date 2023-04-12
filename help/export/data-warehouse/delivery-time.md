@@ -3,10 +3,10 @@ title: Résolution des problèmes liés aux heures de remise des demandes de Dat
 description: Identifiez les problèmes potentiels liés à une demande de Data Warehouse qui peuvent prolonger les délais de remise.
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ Si vous devez obtenir ces types de rapports plus rapidement, envisagez les alter
 
 * **Analysis Workspace** : bien qu’un nombre illimité d’éléments de dimension ne soit pas disponible, presque tous les autres cas d’utilisation fournis par Data Warehouse sont inclus.
 * **Flux de données** : récupère quotidiennement toutes les données brutes d’une suite de rapports et les envoie à un site FTP. Vous pouvez ensuite importer ces données dans votre propre base de données et exécuter des requêtes pour obtenir les données que vous recherchez.
-* **Solution de services d’ingénierie personnalisée** : les services d’ingénierie d’Adobe peuvent fournir une solution personnalisée à votre entreprise moyennant des frais supplémentaires. Pour plus d’informations à ce sujet, contactez le gestionnaire de compte de votre entreprise.
+* **Solution de services d’ingénierie personnalisée** : les services d’ingénierie d’Adobe peuvent fournir une solution personnalisée à votre entreprise moyennant des frais supplémentaires. Pour plus d’informations, contactez votre équipe de compte d’Adobe.

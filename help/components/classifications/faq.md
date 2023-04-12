@@ -3,10 +3,10 @@ title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Les fichiers de classification transférés avec une valeur de clé ou une valeu
 
    *Si la [dimension] est égale à `0`, remplacez la valeur de la [dimension] par la valeur personnalisée `Zero`.*
 
-* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez le gestionnaire de compte de votre entreprise pour demander une règle VISTA.
+* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez votre équipe de compte d’Adobe pour demander une règle VISTA.
 
 ## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
 

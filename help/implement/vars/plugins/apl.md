@@ -3,18 +3,16 @@ title: apl (appendToList)
 description: Permet d’ajouter des valeurs aux variables qui prennent en charge plusieurs valeurs.
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 90%
 
 ---
 
 # Plug-in Adobe : apl (appendToList)
 
->[!IMPORTANT]
->
->Ce plug-in est fourni par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ce plug-in, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur ce plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Le plug-in `apl` vous permet d’ajouter en toute sécurité de nouvelles valeurs à des variables délimitées par, comme [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) et d’autres.
 
@@ -24,25 +22,29 @@ Le plug-in `apl` vous permet d’ajouter en toute sécurité de nouvelles valeur
 
 Adobe recommande d’utiliser ce plug-in si vous souhaitez ajouter de nouvelles valeurs aux variables existantes qui contiennent une chaîne de valeurs délimitées. Ce plug-in n’est pas nécessaire si vous préférez concaténer des chaînes pour des variables contenant des valeurs délimitées.
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize APL (Append To List)
-1. Save and publish the changes to the rule.-->
+## Installation du module externe à l’aide de l’extension Adobe Analytics
+
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
+
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Cliquez sur la propriété de balise de votre choix.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton [!UICONTROL Catalogue].
+1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
+1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
+   * Condition : aucune
+   * Événement : Core - Bibliothèque chargée (Haut de la page)
+1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
+   * Extension : plug-ins Analytics communs
+   * Type d’action : initialisation d’APL (Append To List)
+1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension du plug-in, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

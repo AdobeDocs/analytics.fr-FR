@@ -3,10 +3,10 @@ description: Ce document décrit la marche à suivre dans Adobe Analytics pour 
 title: Adobe Analytics et le Règlement général sur la protection des données (RGPD)
 feature: Data Governance
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -50,7 +50,7 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-da
 
    >[!NOTE]
    >
-   >Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Veuillez contacter votre gestionnaire du succès client pour définir votre période de conservation des données.
+   >Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Contactez votre équipe de compte d’Adobe pour définir votre période de conservation des données.
 
 * Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur d’Adobe Analytics.
 

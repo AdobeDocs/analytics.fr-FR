@@ -3,10 +3,10 @@ title: Présentation des plug-ins
 description: Vous permet d’ajouter de nouvelles fonctionnalités en collant le code sur votre site.
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 96%
 
 ---
 
@@ -14,15 +14,13 @@ ht-degree: 100%
 
 Les plug-ins sont des fragments de code qui exécutent plusieurs fonctions avancées pour faciliter la mise en œuvre d’Analytics. Ces plug-ins étendent les capacités de votre fichier JavaScript en apportant des fonctionnalités qui ne sont pas disponibles avec la mise en œuvre de base. Adobe propose de nombreux autres plug-ins dans le cadre de solutions avancées.
 
->[!IMPORTANT]
->
->Les plug-ins sont fournis par le service Adobe Consulting afin de vous aider à tirer le meilleur parti d’Adobe Analytics. Le service à la clientèle d’Adobe ne fournit pas d’assistance pour ces plug-ins, pas même pour l’installation ou le dépannage. Si vous avez besoin d’aide sur un plug-in, contactez le gestionnaire de compte de votre organisation. Il peut organiser une réunion avec un consultant pour obtenir de l’aide.
+{{plug-in}}
 
 Adobe propose plusieurs méthodes pour installer un plug-in donné :
 
-<!--1. Use the 'Common Analytics Plugins' extension using the Web SDK or the Adobe Analytics extension-->
-1. Coller le code du plug-in à l’aide de l’éditeur de code personnalisé
-1. Coller le code du plug-in dans le fichier `AppMeasurement.js`.
+* Utilisation de l’extension &quot;Plug-ins Analytics communs&quot; à l’aide de l’extension Adobe Analytics
+* Coller le code du plug-in à l’aide de l’éditeur de code personnalisé
+* Coller le code du plug-in dans le fichier `AppMeasurement.js`.
 
 Chaque organisation a des besoins différents en matière de mise en œuvre. Vous pouvez donc décider de la manière dont vous souhaitez les prendre en compte dans votre mise en œuvre. Veillez à respecter les critères suivants lorsque vous intégrez le code dans votre site :
 

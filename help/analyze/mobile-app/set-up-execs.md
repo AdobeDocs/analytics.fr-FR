@@ -4,10 +4,10 @@ title: Configurer les utilisateurs en charge de l’exécution avec l’applicat
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 100%
+source-wordcount: '751'
+ht-degree: 97%
 
 ---
 
@@ -114,4 +114,4 @@ Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à l
 
 >[!IMPORTANT]
 >
->Depuis octobre 2020, Adobe déploie progressivement une série d’améliorations destinées à optimiser les performances de l’application « Tableaux de bord Adobe Analytics ». Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les fiches d’évaluation avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures maximum dans un compte de stockage cloud public Microsoft Azure sécurisé. Veuillez contacter votre CSM si vous souhaitez vous désabonner de ces fonctionnalités d’amélioration des performances.
+>Depuis octobre 2020, Adobe déploie progressivement une série d’améliorations destinées à optimiser les performances de l’application « Tableaux de bord Adobe Analytics ». Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les fiches d’évaluation avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures maximum dans un compte de stockage cloud public Microsoft Azure sécurisé. Contactez votre équipe de compte d’Adobe si vous souhaitez vous désinscrire de ces fonctionnalités d’amélioration des performances.

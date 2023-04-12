@@ -2,9 +2,9 @@
 title: Gestionnaire des tâches des ensembles de classifications
 description: Affichez les tâches de classification en cours et terminées, générées par des ensembles de classifications.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # Gestionnaire des tâches des ensembles de classifications
 
 Le Gestionnaire des tâches des ensembles de classifications vous permet d’afficher les tâches de classification en cours et terminées, qui ont été générées à partir d’ensembles de classifications. Vous pouvez également utiliser cette interface pour télécharger des données ou des modèles de classification pour une tâche spécifique, ou pour charger des données supplémentaires dans une tâche.
-
->[!NOTE]
->
->Cette fonctionnalité sera disponible pour tous les clients dont les suites de rapports ont été migrées vers la nouvelle architecture des classifications. Pour plus d’informations, contactez l’Assistance clientèle d’Adobe ou votre gestionnaire de compte.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Tâches]**
 

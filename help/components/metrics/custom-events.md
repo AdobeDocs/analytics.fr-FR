@@ -3,10 +3,10 @@ title: Événements personnalisés
 description: Le nombre d’accès comprenant un événement personnalisé.
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,6 @@ Les événements personnalisés sont calculés différemment selon leur type. Vo
 * **Événements numériques** : additionne la valeur numérique attribuée à l’événement dans la variable `events`.
 * **Événements de devise** : applique une conversion de devise basée sur le taux de change du jour, puis additionne la valeur numérique attribuée à chaque accès dans la variable `events`.
 
-Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez le gestionnaire de compte de votre organisation si vous ne savez pas combien d’événements personnalisés vous sont accessibles.
+Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez votre équipe de compte d’Adobe si vous ne savez pas combien d’événements personnalisés vous sont disponibles.
 
 Adobe recommande vivement d’enregistrer la manière dont vous utilisez chaque événement dans le [document de conception de solution](/help/implement/prepare/solution-design.md) de votre entreprise.

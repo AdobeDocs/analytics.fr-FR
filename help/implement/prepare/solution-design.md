@@ -3,10 +3,10 @@ title: Création d’un document de conception de solution
 description: Découvrez ce qu’est un document de conception de solution et comment l’utiliser dans votre entreprise.
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 100%
+source-wordcount: '697'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Lors de la détermination des données à collecter, il est facile de dire « t
 
 ## Ressources supplémentaires
 
-La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre gestionnaire de compte si vous souhaitez bénéficier des services professionnels d’Adobe. Vous pouvez remplir un [questionnaire technique préalable à la mise en œuvre](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
+La définition d’un document de conception de solution est un projet assez complexe, surtout pour les organisations qui n’en avaient pas encore créé. Si vous avez besoin d’une assistance supplémentaire, Adobe fournit des services de conseil spécialisés pour aider votre organisation à exécuter Adobe Analytics. Contactez votre équipe de compte d’Adobe si vous souhaitez bénéficier des services professionnels de l’Adobe. Vous pouvez remplir un [questionnaire technique préalable à la mise en œuvre](assets/technical-pre-implementation-questionnaire.pdf) afin qu’Adobe sache exactement comment vous aider en fonction des besoins de votre organisation.
 
 Plusieurs partenaires Adobe se spécialisent également dans la création d’un document de conception de solution, ainsi que dans la mise en œuvre d’Adobe Analytics sur votre site.
 

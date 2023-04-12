@@ -2,20 +2,20 @@
 title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 98%
+source-wordcount: '1478'
+ht-degree: 97%
 
 ---
 
 # Mappage des variables Analytics dans Adobe Experience Edge
 
-Le tableau suivant répertorie les variables que le réseau Adobe Experience Platform Edge mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics.
+Le tableau suivant répertorie les variables que le réseau Adobe Experience Platform Edge mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans la variable **[!UICONTROL Modèle ExperienceEvent Adobe Analytics]** groupe de champs.
 
 Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
 
-| Chemin d’accès au champ XDM | Dimension et description d’Analytics |
+| Chemin du champ XDM | Dimension et description d’Analytics |
 | --- | --- |
 | `application.isClose` | Permet de définir la mesure mobile [Blocages](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |
 | `application.isInstall` | Permet de déterminer quand augmenter la mesure mobile [Premiers lancements](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=fr#metrics). |

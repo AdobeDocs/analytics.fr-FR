@@ -4,10 +4,10 @@ title: Paramètres du compte général
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Voici une vidéo sur la configuration des Paramètres généraux du compte :
 | Stockage de l’ID de transaction | Permet d’utiliser des sources de données [ID de transaction](/help/import/data-sources/transactionid.md). |
 | Activer Data Warehouse | Active l’interface utilisateur de Data Warehouse dans Analytics > Outils > Data Warehouse. |
 | Option de code postal | Vous permet de spécifier le code postal au lieu d’utiliser les résultats de la recherche géographique d’adresses IP. |
-| Prise en charge des caractères à plusieurs octets | La prise en charge des caractères à plusieurs octets stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page Web au format UTF-8, afin que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. Contactez votre gestionnaire de compte ou le service d’assistance clientèle pour modifier la prise en charge des caractères à plusieurs octets d’une suite de rapports existante. |
+| Prise en charge des caractères à plusieurs octets | La prise en charge des caractères à plusieurs octets stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page Web au format UTF-8, afin que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing. Contactez votre équipe de compte d’Adobe ou l’assistance clientèle pour modifier la prise en charge de caractères complexes pour une suite de rapports existante. |
 | Activation | Indique si cette suite de rapports est activée ou non. |
 | Devise de base | Permet de définir la [devise](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=fr) de base pour cette suite de rapports. |
 | ID d’organisation | ID dʼorganisation associé à la société Experience Cloud activée. Cet identifiant correspond à une chaîne de 24 caractères alphanumériques, suivie de @AdobeOrg (obligatoire). |

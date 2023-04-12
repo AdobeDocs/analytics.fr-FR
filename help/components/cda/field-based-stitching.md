@@ -2,10 +2,10 @@
 title: Groupement basé sur les champs
 description: Comprenez les conditions préalables et les limites du groupement de données à l’aide du groupement basé sur les champs.
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour re
 
 ## Conditions préalables spécifiques au groupement basé sur les champs
 
-Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre gestionnaire de compte Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre équipe de compte d’Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
 
 >[!WARNING]
 >
@@ -23,7 +23,7 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
 * Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez dʼattribuer une valeur par défaut à la prop ou à lʼeVar.
-* Communiquez la variable d’identification de votre choix à votre gestionnaire de compte lors de l’attribution du groupement basé sur les champs.
+* Communiquez la variable d’identification de votre choix à votre équipe de compte d’Adobe lorsqu’elle est configurée pour le groupement basé sur les champs.
 
 ## Limites spécifiques au groupement basé sur les champs
 
