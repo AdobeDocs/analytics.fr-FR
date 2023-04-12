@@ -5,16 +5,20 @@ title: Migration des visiteurs
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # Migration des visiteurs
 
-La migration des visiteurs est une procédure par laquelle le cookie d’identifiant visiteur passe d’un domaine à un autre.
+>[!NOTE]
+>
+>Si vous avez déjà mis en oeuvre le service d’identification des visiteurs Experience Cloud, la période de grâce ne s’applique pas à vous et ne doit pas être activée.
+
+La migration des visiteurs est un processus par lequel le cookie (s_vi) de l’identifiant visiteur est migré d’un domaine à un autre.
 
 La migration des visiteurs vous permet de conserver les cookies d’identification des visiteurs lors du changement des domaines de collecte de données, ce qui peut se produire pour les raisons suivantes :
 
