@@ -4,96 +4,138 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+workflow-type: tm+mt
+source-wordcount: '1197'
+ht-degree: 40%
 
 ---
 
 # Segments rapides
 
-Vous pouvez créer des segments rapides dans un projet afin de contourner la complexité du [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) complet. Segments rapides
+Les segments rapides vous permettent d’explorer facilement les données au sein d’un projet donné, sans avoir à créer un segment de liste de composants plus complexe dans le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md).
 
-* Appliquez-les en tant que [segments de projet uniquement](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=fr#what-are-project-only-segments).
-* Autorisent jusquʼà 3 règles.
-* Ne prennent pas en compte les conteneurs imbriqués ni les règles séquentielles.
+Tenez compte des points suivants lors de la création de segments rapides :
 
-Accédez [ici](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) à une comparaison des effets des segments rapides par rapport aux segments complets de la liste des composants.
+* Les segments rapides s’appliquent uniquement au projet dans lequel ils ont été créés. Ils ne sont pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs.
+* 3 règles au maximum sont autorisées.
+* Les conteneurs imbriqués ou les règles séquentielles ne sont pas pris en charge.
 
-Regardez cet vidéo de présentation des segments rapides :
+La vidéo suivante explique comment utiliser les segments rapides :
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
-## Conditions préalables
+## Création d’un segment rapide
 
-Tout le monde peut créer un [!UICONTROL Segment rapide]. Cependant, il est nécessaire dʼaccorder lʼautorisation [!UICONTROL Création de segments] dans [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=fr#analytics-tools) afin de pouvoir enregistrer un segment rapide ou lʼouvrir dans le [!UICONTROL Créateur de segments].
+Tout utilisateur d’Analysis Workspace peut créer un segment rapide.
 
-## Création de segments rapides
+Pour créer un segment rapide :
 
-Dans un tableau à structure libre, cliquez sur l’icône filter+ dans l’en-tête du panneau :
+1. Choisissez l’une des méthodes suivantes pour commencer à créer le segment rapide :
 
-![](assets/quick-seg1.png)
+   * **Ad hoc (glisser-déposer) :** Dans le rail de gauche, faites glisser un composant vers la zone de dépôt en regard de l’option **Segment** dans l’en-tête du panneau, puis sélectionnez l’option **Modifier** pour ajuster le segment.
 
-Configurez le segment rapide vierge :
+      ![Modification d’un segment ad hoc](assets/filter-adhoc-edit.png)
 
-![segment rapide vierge](assets/qs-blank-slate.png)
+      >[!NOTE]
+      >
+      > Tenez compte des points suivants lors de la création d’un segment rapide ad hoc (glisser-déposer) :
+      > * Les types de composants suivants ne sont pas pris en charge : mesures calculées et dimensions, ainsi que des mesures à partir desquelles vous ne pouvez pas créer de segments.
+      > * Pour l’intégralité des dimensions et événements, Analysis Workspace crée des segments de chute « existe ». Exemples : `Hit where eVar1 exists` ou `Hit where event1 exists`.
+      > * Si &quot;non spécifié&quot; ou &quot;aucun&quot; est déposé dans la zone de dépôt des segments, il est automatiquement converti en segment &quot;n’existe pas&quot; afin d’être traité correctement dans les segments.
 
-| Paramètre | Description |
-| --- | --- |
-| Nom | Le nom par défaut dʼun segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment. |
-| Inclure/exclure | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
-| Conteneur Accès/Visite/Visiteur | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=fr#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites. Un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
-| Composants (Dimension/mesure/période) | Définissez jusquʼà 3 règles maximum en ajoutant des composants (dimensions et/ou mesures et/ou périodes) et leurs valeurs. Il existe trois manières différentes de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de [!UICONTROL segments rapides] trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
-| Opérateur | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=fr) |
-| Signe plus (+) | Ajouter une autre règle |
-| Qualificateurs AND/OR | Vous pouvez ajouter des qualificateurs « AND » ou « OR » aux règles, mais vous ne pouvez pas les mélanger dans une définition de segment unique. |
-| Appliquer | Permet dʼappliquer ce segment au panneau. Si le segment ne contient aucune donnée, vous serez invité à continuer. |
-| Ouvrir le Builder | Ouvre le créateur de segments. Une fois le segment enregistré ou appliqué dans le Créateur de segments, il nʼest plus considéré comme un « Segment rapide ». Il rejoint ensuite la bibliothèque de segments de la liste des composants. |
-| Annuler | Permet dʼannuler ce segment rapide : nʼappliquez pas ce paramètre. |
-| Période | Le programme de validation utilise la période du panneau lors de sa recherche de données. Cependant, toute période appliquée dans un segment rapide remplace celle du panneau, située en haut de celui-ci. |
-| Prévisualiser (en haut à droite) | Permet de vérifier que votre segment est valide et de consulter sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Il est possible que vous receviez un avertissement indiquant que ce segment ne contient aucune donnée. Si tel est le cas, vous pouvez décider de poursuivre ou de modifier la définition du segment. |
 
-Voici un exemple de segment qui combine des dimensions et des mesures :
 
-![](assets/quick-seg2.png)
+   * **À l’aide de l’icône de segment :** Dans un tableau à structure libre, sélectionnez la variable **Segment** dans l’en-tête du panneau.
 
-Le segment sʼaffiche en haut. Remarquez sa barre latérale rayée bleue, par opposition à la barre latérale bleue des segments au niveau des composants dans la bibliothèque de segments sur la gauche.
+      ![Filtre de segments](assets/quick-seg1.png)
 
-![](assets/quick-seg5.png)
+1. Ajustez l’un des paramètres suivants :
+
+   | Paramètre | Description |
+   | --- | --- |
+   | [!UICONTROL Nom] | Le nom par défaut dʼun segment est une combinaison des noms des règles dans le segment. Vous pouvez renommer le segment en un nom plus convivial. |
+   | [!UICONTROL Inclure/exclure] | Vous pouvez soit inclure soit exclure des composants dans votre définition de segment, mais pas les deux. |
+   | [!UICONTROL Conteneur d’accès/de visites/de visiteurs] | Les segments rapides comprennent un [conteneur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=fr#section_AF2A28BE92474DB386AE85743C71B2D6) unique qui vous permet dʼinclure une dimension/mesure/période dans le segment (ou de lʼexclure). Un conteneur [!UICONTROL Visiteur] contient les données principales spécifiques au visiteur sur lʼensemble de ses visites et de ses pages vues. Un conteneur [!UICONTROL Visite] permet de définir des règles pour ventiler les données du visiteur selon les visites. Un conteneur [!UICONTROL Accès] permet de ventiler les informations du visiteur selon des pages vues spécifiques. Le conteneur par défaut est [!UICONTROL Accès]. |
+   | [!UICONTROL Composants] (Dimension/mesure/période) | Définissez jusqu’à 3 règles en ajoutant des composants (dimensions, mesures, périodes ou valeurs de dimension). Il existe trois façons de trouver le composant approprié :<ul><li>Commencez la saisie et le créateur de segments rapide trouve automatiquement le composant approprié.</li><li>Utilisez la liste déroulante pour trouver le composant.</li><li>Glissez et déposez les composants à partir du rail de gauche.</li></ul> |
+   | [!UICONTROL Opérateur] | Utilisez le menu déroulant pour trouver les opérateurs standards et les opérateurs [!UICONTROL Comptage distinct]. Voir [Opérateurs de segment](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Signe plus (+) | Ajouter une autre règle |
+   | Qualificateurs AND/OR | Vous pouvez ajouter des qualificateurs « AND » ou « OR » aux règles, mais vous ne pouvez pas les mélanger dans une définition de segment unique. |
+   | [!UICONTROL Appliquer] | Permet dʼappliquer ce segment au panneau. Si le segment ne contient aucune donnée, vous êtes invité à continuer. |
+   | [!UICONTROL Ouvrir le Builder] | Ouvre le créateur de segments. Une fois que vous avez enregistré ou appliqué le segment dans le créateur de segments, il n’est plus considéré comme un &quot;segment rapide&quot;. Il rejoint ensuite la bibliothèque de segments de la liste des composants. <p>Pour rendre le composant disponible dans tous vos projets et dans le rail de gauche, sélectionnez l’option . [!UICONTROL **Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants**].</p><p>Pour plus d’informations, voir la section [Enregistrement d’un segment rapide en tant que segment de liste de composants](#save-a-quick-segment-as-a-component-list-segment) dans cet article.</p><p>**Remarque :** Seuls les utilisateurs disposant de l’autorisation Création de segment dans la variable [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=fr#analytics-tools) Vous pouvez ouvrir le créateur de segments.</p> |
+   | [!UICONTROL Annuler] | Annulez ce segment rapide (ne l’appliquez pas). |
+   | [!UICONTROL Période] | Le programme de validation utilise la période du panneau lors de sa recherche de données. Cependant, toute période appliquée dans un segment rapide remplace celle du panneau, située en haut de celui-ci. |
+   | Prévisualiser (en haut à droite) | Permet de vérifier que votre segment est valide et de consulter sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Il est possible que vous receviez un avertissement indiquant que ce segment ne contient aucune donnée. Dans ce cas, vous pouvez poursuivre ou modifier la définition de segment. |
+
+1. Sélectionner [!UICONTROL **Appliquer**] pour enregistrer vos modifications.
 
 ## Modification des segments rapides
 
-1. Placez le pointeur de la souris sur le segment rapide et sélectionnez lʼicône en forme de crayon.
-1. Modifiez la définition de segment et/ou le nom du segment.
-1. Cliquez sur [!UICONTROL Appliquer].
+1. Pointez sur le segment rapide et sélectionnez l’événement **Modifier** icône .
 
-## Enregistrement des segments rapides
+   ![Modifier le filtre ad hoc](assets/filter-adhoc-edit.png)
+
+1. Modifiez la définition de segment et/ou le nom du segment.
+
+1. Sélectionnez [!UICONTROL **Appliquer**].
+
+## Enregistrement d’un segment rapide en tant que segment de liste de composants
 
 >[!IMPORTANT]
->Une fois que vous avez enregistré ou appliqué le segment, vous ne pouvez plus le modifier dans le Créateur de segments rapides, vous devez pour cela utiliser le Créateur de segments classique. Seuls les administrateurs de produit Adobe Analytics et le créateur du segment rapide peuvent enregistrer les modifications apportées à un segment rapide existant.
+>
+> Tenez compte des points suivants lors de l’enregistrement d’un segment rapide :
+> 
+> * Pour enregistrer un segment rapide, vous devez disposer de l’autorisation Création de segment dans la [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=fr#analytics-tools).
+> 
+> * Une fois le segment enregistré ou appliqué, il ne peut plus être modifié dans le créateur de segments rapide. Utilisez plutôt le créateur de segments standard.
 
-1. Une fois que vous avez appliqué le segment rapide, passez la souris dessus et sélectionnez lʼicône dʼinformations (« i »).
 
-   ![](assets/quick-seg6.png)
+Vous pouvez choisir d’enregistrer les segments rapides en tant que segments de liste de composants. Les avantages des segments de liste de composants incluent :
 
-1. Cliquez sur **[!UICONTROL Rendre cet élément disponible pour tous vos projets et l’ajouter à votre liste de composants.]**.
+* Disponibilité sur tous vos projets Workspace
+* Prise en charge de segments plus complexes ainsi que de segments séquentiels
+
+Vous pouvez enregistrer des segments à partir du Créateur de segments rapide ou du [!UICONTROL Créateur de filtres].
+
+### Enregistrez dans le créateur de segments rapide. {#save2}
+
+1. Après avoir appliqué le segment rapide, survolez-le avec la souris et sélectionnez l’icône d’information (&quot;i&quot;).
+1. Sélectionner **[!UICONTROL Mettre tous les projets à disposition et ajouter à votre liste de composants]**.
 1. (Facultatif) Renommez le segment.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-Vous remarquerez que la barre latérale du segment passe de bleu rayé à bleu clair. Elle apparaît également dans la liste des composants du rail de gauche.
+   Le segment apparaît désormais dans la liste des composants du rail de gauche. Notez également que la barre latérale du segment passe du bleu clair au bleu foncé, ce qui indique qu’il ne peut plus être modifié ni ouvert dans le créateur de segments rapide.
 
-## Que sont les segments de projet uniquement ?
+### Enregistrer dans le créateur de segments {#save3}
 
-Les segments de projet uniquement sont des segments qui s’appliquent uniquement au projet actuel dans lequel ils ont été créés. Ils ne seront pas disponibles dans d’autres projets et ne peuvent pas être partagés avec d’autres utilisateurs. Ils vous servent à explorer rapidement de vos données sans avoir à créer ni à enregistrer un segment dans le rail de gauche. Il est possible de créer des segments de projet uniquement dans la zone de dépôt du panneau à l’aide de segments rapides ou de [segments ad hoc](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=fr).
+1. Après avoir appliqué le segment rapide, survolez-le avec la souris et sélectionnez l’icône d’information (&quot;i&quot;).
+1. Sélectionner **[!UICONTROL Enregistrer le segment]**
+1. (Facultatif) Renommez le segment, puis sélectionnez [!UICONTROL **Appliquer**].
 
-Si un segment de projet uniquement est ouvert dans le [!UICONTROL Créateur de segments], une notification de projet uniquement s’affiche. Si vous ne cochez pas la case « Rendre ce segment disponible » et que vous cliquez sur **[!UICONTROL APPLIQUER]**, le segment reste un segment de projet uniquement. Remarque : si vous appliquez un segment rapide à partir du Créateur de segments, il ne peut plus être ouvert dans le [!UICONTROL Créateur de segments rapides].
+   Revenez à Workspace et notez que la barre latérale du segment passe du bleu clair au bleu plus foncé, ce qui indique qu’il ne peut plus être modifié ni ouvert dans le créateur de segments rapide. Et en l’enregistrant, il devient une partie de la liste des composants.
 
-![Case à cocher « Sʼapplique au projet uniquement » décochée](assets/project-only-unchecked.png)
+Après avoir appliqué le segment, vous pouvez choisir de l’ajouter à votre liste de composants de segment et de le rendre disponible pour tous vos projets.
 
-Si vous cochez la case « Rendre ce segment disponible » et que vous cliquez sur **[!UICONTROL ENREGISTRER]**, le segment devient disponible dans la liste des composants du rail de gauche pour être utilisé dans d’autres projets. Il peut également être partagé avec d’autres utilisateurs à partir du Gestionnaire de segments.
+1. Pointez sur le segment enregistré et sélectionnez l’icône représentant un crayon.
 
-![Case à cocher « Sʼapplique au projet uniquement » cochée](assets/project-only-checked.png)
+1. Sélectionner [!UICONTROL **Ouvrir le créateur**].
+
+1. Dans la partie supérieure du créateur de segments, notez que la variable [!UICONTROL **Segment de projet uniquement**] dialog :
+
+   ![boîte de dialogue de segment projet uniquement](assets/project-only-segment-dialog.png)
+
+1. Cochez la case en regard de **[!UICONTROL Rendre disponible pour tous les projets à disposition et ajouter l’élément à votre liste de composants.]**
+
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
+
+   Le segment apparaît désormais dans la liste des composants de segment pour tous vos projets.
+Vous pouvez également [partager le segment ;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr#concept_4A9726927E7C44AFA260E2BB2721AFC6) avec d’autres personnes de votre entreprise.
+
+## Exemple de segment rapide
+
+L’exemple suivant d’un segment combine des dimensions et des mesures :
+
+![](assets/quick-seg2.png)
 
 ## Problème connu
 

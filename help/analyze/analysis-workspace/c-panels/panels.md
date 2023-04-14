@@ -4,10 +4,10 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -70,9 +70,9 @@ Faites glisser et déposez un segment du rail de gauche dans la zone de dépôt 
 
 Vous pouvez également faire glisser des composants qui ne sont pas des segments directement dans la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et vous évite de passer par le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
 
-Les segments ad hoc sont locaux au projet et ne s’affichent pas dans le rail de gauche, sauf si vous les rendez publics.
+Les segments ad hoc sont un type de segment rapide et sont locaux au projet. Elles ne s’affichent pas dans le rail de gauche à moins que vous ne les rendiez publiques.
 
-![](/help/admin/admin/assets/filter.png)
+Pour plus d’informations, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### Filtres de menu déroulant {#dropdown-filter}
 
