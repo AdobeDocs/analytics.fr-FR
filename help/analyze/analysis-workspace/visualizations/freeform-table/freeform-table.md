@@ -4,10 +4,10 @@ description: Les tableaux à structure libre constituent la base de l’analyse 
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 Dans Analysis Workspace, un tableau à structure libre est la base de l’analyse de données interactive. Vous pouvez faire glisser et déposer un ensemble de [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=fr) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Lorsque chaque composant est déposé, le tableau est mis à jour immédiatement afin que vous puissiez rapidement analyser et creuser plus en détail.
 
-Pour illustrer cela, vous commencez par un tableau à structure libre vide.
+## Création d’un tableau à structure libre simple
+
+Commencez par un tableau à structure libre vide.
 
 ![Tableau à structure libre vide](assets/freeform-table-1.png)
 
-Si vous déposez la variable **[!UICONTROL ** Visites **]** sur la **[!UICONTROL ** Déposer une mesure ici (ou tout autre composant)**]**, le tableau à structure libre est automatiquement renseigné avec les visites par jour pour la période que vous avez sélectionnée.
+Si vous déposez la variable **[!UICONTROL ** Visites **]** sur la **[!UICONTROL ** Déposer une mesure ici (ou tout autre composant)**]**, le tableau à structure libre est automatiquement renseigné avec les visites par jour pour la période calendaire que vous avez sélectionnée.
 
 ![Visites dans le tableau à structure libre](assets/freeform-table-2.png)
 
@@ -27,7 +29,7 @@ Si vous déposez ensuite la variable **[!UICONTROL ** Page **]** pour remplacer 
 
 ![Visites par tableau à structure libre de page](assets/freeform-table-3.png)
 
-Et vous pouvez ensuite ventiler, par exemple, le **[!UICONTROL ** catégorie : 5 **]** en déposant la variable **[!UICONTROL ** Canal marketing **]** sur la **[!UICONTROL ** catégorie : 5 **]** ligne.
+Vous pouvez ensuite ventiler, par exemple, la variable **[!UICONTROL ** catégorie : 5 **]** en déposant la variable **[!UICONTROL ** Canal marketing **]** sur la **[!UICONTROL ** catégorie : 5 **]** ligne.
 
 ![Ventilation des visites par tableau à structure libre de page](assets/freeform-table-4.png)
 

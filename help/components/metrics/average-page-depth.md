@@ -3,24 +3,24 @@ title: Profondeur moyenne de page
 description: Le nombre moyen de pages dans lesquelles se trouve la dimension.
 feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: 732c9971f3c68cb8819ff5524b601790fda9fef5
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Profondeur moyenne de page
 
-La mesure « Profondeur moyenne de page » indique le niveau auquel l’élément de dimension se trouve au cours d’une visite donnée. Par exemple, votre page d’accueil affiche généralement une profondeur moyenne de page inférieure à celle de votre page de confirmation d’achat, qui se trouve généralement à un stade plus avancé de la visite. Cette mesure s’avère utile lorsque vous souhaitez connaître le nombre moyen de pages d’un élément de dimension donné. Vous pouvez utiliser ces informations afin d’optimiser certaines pages pour les nouveaux visiteurs si la profondeur moyenne de la page est faible.
+La mesure &quot;Profondeur moyenne de page&quot; indique la profondeur moyenne d’un élément de dimension sur une visite donnée, en moyenne. Par exemple, votre page d’accueil (qui est un élément de dimension pour la dimension Page) affiche généralement une profondeur moyenne de page inférieure à celle de votre page de confirmation d’achat, ce qui s’étend probablement plus loin dans une visite. Vous pouvez utiliser ces informations pour optimiser certaines pages pour les nouveaux visiteurs si la profondeur moyenne de la page est faible.
 
 >[!TIP]
 >
->Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleurs insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des profondeurs de page d’anomalie, qui sont généralement inutiles.
+>Utilisez cette mesure avec une autre mesure, telle que [Visites](visits.md), afin d’obtenir de meilleures informations. Si vous utilisez cette mesure seule, vous pouvez obtenir des éléments de dimension contenant des profondeurs de page anormales, ce qui n’est généralement pas une information utile.
 
 ## Méthode de calcul de cette mesure
 
-La profondeur de page de la première page d’une visite correspond à `0`. La profondeur de page de la page suivante correspond à 1 et augmente chaque page vue jusqu’à la fin de la visite. Cette mesure augmente uniquement avec les appels ([`t()`](/help/implement/vars/functions/t-method.md)) de pages vues et non avec les appels ([`tl()`](/help/implement/vars/functions/tl-method.md)) de suivi de liens.
+La profondeur de page de la première page d’une visite correspond à `0`. La profondeur de page de la page suivante correspond à 1 et augmente chaque page vue jusqu’à la fin de la visite. Cette mesure augmente uniquement avec la page vue ([`t()`](/help/implement/vars/functions/t-method.md)) et non avec le suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 Pour un élément de dimension donné, ajoutez toutes les profondeurs de page de celui-ci et divisez-les par le nombre de visites. Le nombre obtenu correspond à la profondeur moyenne de page, arrondie au nombre entier le plus proche. Les éléments de dimension dotés d’une profondeur moyenne de page de `0` indiquent une présence fréquente sur la première page de la visite.
 
@@ -46,4 +46,6 @@ If 'Count repeat instances' is disabled:
 
 ## Pourcentages supérieurs à 100 %
 
-Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond à la profondeur moyenne de page de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension. Si la profondeur moyenne de page de l’ensemble de la dimension est inférieure à celle de l’élément de dimension donné, vous verrez des pourcentages supérieurs à 100 %. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie de profondeur moyenne de page, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
+Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond à la profondeur moyenne de page de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension.
+
+Si la profondeur moyenne de page de l’ensemble de la dimension est inférieure à celle d’un élément de dimension donné, les pourcentages sont supérieurs à 100 %. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie de profondeur moyenne de page, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
