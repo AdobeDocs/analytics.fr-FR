@@ -4,9 +4,9 @@ description: Analysez plus précisément les données sur votre audience et trie
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '490'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ Exemples d’utilisation de l’[!UICONTROL analyse des cohortes] :
 * Ajustez le budget marketing exactement au bon moment au cours du cycle de vie des clients.
 * Reconnaissez quand terminer un essai ou une offre pour en optimiser la valeur.
 * Trouvez des idées de test A/B dans des domaines tels que le prix, le cheminement de mise à niveau, etc.
-* Affichez un rapport d’[!UICONTROL analyse des cohortes] au sein d’un rapport d’analyse guidée.
 
 L’[!UICONTROL analyse des cohortes] est disponible pour tous les clients Adobe Analytics avec des droits d’accès à [!UICONTROL Analysis Workspace].
 
