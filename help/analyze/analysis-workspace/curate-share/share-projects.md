@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -138,6 +138,10 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas ac
    <!-- Add screen shot of new modal -->
 
 1. Activez la variable **[!UICONTROL Le lien est principal]** s’il n’est pas déjà activé.
+
+   Cette option crée un lien vers le projet qui peut être partagé avec n’importe qui. Vous pouvez désactiver l’accès au projet à tout moment en désactivant cette option.
+
+   Le propriétaire du projet est également propriétaire de ce lien. La propriété du lien ne peut être transférée à un autre utilisateur que lorsque la propriété du projet est transférée, comme décrit dans la section [Transfert de ressources utilisateur ou définition de l’expiration du compte](/help/admin/admin/user-management2/users-assets.md) dans le guide d’administration d’Analytics.
 
 1. Indiquez si l’option de sécurité suivante doit être activée (cette option peut être contrôlée par votre administrateur Analytics) :
 
