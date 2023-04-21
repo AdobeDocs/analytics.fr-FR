@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -216,81 +216,81 @@ De même, si vous souhaitez supprimer un composant appliqué à la totalité de 
 
 ![Remove_components](assets/new_remove.png)
 
-## Création d’articles de données {#create-data-story}
+## Créer des histoires de données {#create-data-story}
 
-Un article de données est un ensemble de points de données pris en charge, de contexte d’entreprise et de mesures connexes reposant sur un thème ou une mesure central.
+Une histoire de données consiste en un ensemble de points de données complémentaires, de contexte commercial et de mesures associées construit autour d’un thème central ou d’une mesure commune.
 
-Si, par exemple, vous vous concentrez sur le trafic web, la mesure la plus importante peut être les visites, mais vous pouvez également vous intéresser aux nouveaux visiteurs, aux visiteurs uniques. Vous pouvez également consulter les données ventilées par page web ou par type de périphérique d’où provient le trafic. Les articles de données dans les projets de Fiche d’évaluation mobile vous permettent de mettre vos mesures les plus importantes au premier plan et au centre tout en racontant l’histoire derrière les mesures avec plusieurs diapositives détaillées.
+Si, par exemple, vous cherchez à augmenter votre trafic web, la mesure la plus importante peut être le nombre de visites, suivie par le nombre de nouveaux visiteurs et visiteuses ou de visiteurs et visiteuses uniques. Pour une analyse plus poussée, vous souhaitez certainement consulter ces données réparties par page web ou par type d’appareil d’où le trafic provient. Les histoires de données contées dans les projets des cartes de performance mobiles vous permettent de faire ressortir vos mesures les plus importantes, tout en racontant la logique derrière les mesures grâce à plusieurs diapositives détaillées.
 
-Regardez la vidéo pour en savoir plus sur la création d’articles de données dans des projets de Fiche d’évaluation mobile dans Analysis Workspace.
+Regardez la vidéo pour en savoir plus sur la création d’histoires de données dans les projets des cartes de performance mobiles d’Analysis Workspace.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
 
-**Pour créer un article de données**
+**Pour créer une histoire de données**
 
-Créez votre article de données en ajoutant plusieurs diapositives détaillées à une mosaïque.
+Créez votre histoire de données en ajoutant plusieurs diapositives détaillées à une mosaïque.
 
-1. Commencez par un projet de Fiche d’évaluation mobile.
-1. Sélectionnez une mosaïque à partir de laquelle vous souhaitez créer un article.
+1. Commencez par un projet de carte de performance mobile.
+1. Sélectionnez une mosaïque à partir de laquelle vous souhaitez créer une histoire.
 
-   ![Création d’un article de données](assets/data-story1.png)
+   ![Création d’une histoire de données](assets/data-story1.png)
 
-   ![Créer des icônes d’article de données](assets/create-data-story.png){width=".50%"}
+   ![Création d’icônes d’histoire de données](assets/create-data-story.png){width=".50%"}
 
-1. Ajoutez des diapositives pour créer votre article de données. Votre première diapositive est générée par défaut.
+1. Ajoutez des diapositives pour élaborer votre histoire de données. Votre première diapositive est générée par défaut.
 
-   Pour ajouter de nouvelles diapositives, survolez ou cliquez sur une diapositive, puis sélectionnez l’une des options disponibles :
+   Pour ajouter de nouvelles diapositives, pointez ou cliquez sur une diapositive, puis sélectionnez l’une des options disponibles :
 
-   * Appuyez sur le bouton [!UICONTROL +] signe pour créer une nouvelle diapositive.
+   * Appuyez sur le signe [!UICONTROL +] pour créer une diapositive.
 
    * Appuyez sur l’icône de duplication pour dupliquer la diapositive existante.
 
-1. Si vous créez une diapositive vierge, faites glisser et déposez des composants depuis le rail de gauche, ou choisissez une mise en page pour remplir automatiquement la diapositive avec les données de la mosaïque.
+1. Si vous créez une diapositive vierge, faites glisser et déposez des composants depuis le rail de gauche ou choisissez une disposition pour remplir automatiquement la diapositive avec les données de la mosaïque.
 
-   ![Création d’un article de données](assets/data-story2.png)
+   ![Créer un récit des données](assets/data-story2.png)
 
 Pour supprimer une diapositive, appuyez sur l’icône de corbeille.
 
-### Personnalisation d’un article de données {#customize-data-story}
+### Personnaliser une histoire de données {#customize-data-story}
 
-Les articles de données vous permettent de personnaliser tout ce dont vous avez besoin afin de partager des informations que vous souhaitez partager et d’exclure tout ce dont vous n’avez pas besoin. Vous pouvez personnaliser les mosaïques et les diapositives individuelles pour ajouter des filtres, afficher des ventilations, modifier la mise en page et modifier les visualisations.
+Les histoires de données vous permettent de personnaliser chaque élément, afin de partager uniquement les informations que vous souhaitez partager, et d’exclure tout ce dont vous n’avez pas besoin. Personnalisez les mosaïques et les diapositives : ajoutez des filtres, affichez des répartitions et modifiez la disposition ainsi que les visualisations.
 
-**Personnalisation des mosaïques**
+**Pour personnaliser les mosaïques**
 
-1. Appuyez sur une mosaïque. La mosaïque sélectionnée est entourée en bleu et le panneau de droite affiche les propriétés de la mosaïque.
+1. Appuyez sur une mosaïque. La mosaïque sélectionnée est entourée en bleu et le panneau de droite affiche ses propriétés.
 1. Modifiez le titre, le type de graphique et d’autres options de mosaïque.
 1. Faites glisser un composant sur la mosaïque.
 
-   ![Création d’un article de données](assets/data-story3.png)
+   ![Créer un récit des données](assets/data-story3.png)
 
-   Lorsque vous faites glisser et déposez un composant, tel qu’une visualisation, sur une mosaïque, le composant est appliqué à toutes les diapositives de l’article de données.
+   Lorsque vous faites glisser et déposez un composant, tel qu’une visualisation sur une mosaïque, le composant est appliqué à toutes les diapositives du récit des données.
 
 1. Pour appliquer une modification uniquement au titre, maintenez la touche Maj enfoncée pour appliquer la modification.
 
-   ![Création d’un article de données](assets/data-story4.png)
+   ![Création d’une histoire de données](assets/data-story4.png)
 
 >[!NOTE]
->Les diapositives héritent des composants de la mosaïque, mais les mosaïques n’héritent pas des composants des diapositives.
+>Les diapositives héritent des composants de la mosaïque, mais l’inverse n’est pas vrai.
 
-**Personnalisation de diapositives individuelles**
+**Pour personnaliser des diapositives individuelles**
 
-Vous pouvez modifier la visualisation de diapositives individuelles dans un article de données. Vous pouvez, par exemple, changer une barre horizontale en graphique en anneau pour une diapositive spécifique. Vous pouvez également modifier la mise en page. Voir [Personnalisation des diapositives détaillées](#customize-detail-slide).
+Vous pouvez modifier la visualisation de diapositives individuelles d’une histoire de données. Vous pouvez, par exemple, remplacer une barre horizontale par un graphique en anneau dans une diapositive. Vous pouvez également modifier la disposition. Consultez la section [Personnaliser les diapositives détaillées](#customize-detail-slide).
 
-### Aperçu d’un article de données {#preview-data-story}
+### Prévisualiser une histoire de données {#preview-data-story}
 
-Après avoir créé un article de données, utilisez la variable **Aperçu** pour afficher et interagir avec un article de données comme si vous étiez un utilisateur de l’application. Pour plus d’informations sur la prévisualisation de votre article de données, voir [Aperçu d’une fiche d’évaluation](#preview)
+Une fois votre histoire de données créée, appuyez sur le bouton **Prévisualiser** pour afficher votre histoire de données et interagir avec elle comme si vous étiez un utilisateur ou une utilisatrice de l’application. Pour plus d’informations sur la prévisualisation des histoires de données, consultez la section [Prévisualiser une carte de performance](#preview)
 
-### Navigation entre les mosaïques et les diapositives {#navigate-tiles-slides}
+### Naviguer entre les mosaïques et les diapositives {#navigate-tiles-slides}
 
-La barre de navigation affiche des icônes représentant ce qui se trouve sur chaque diapositive. La barre de navigation permet d’accéder facilement à une diapositive spécifique si vous disposez de nombreuses diapositives.
+La barre de navigation affiche des icônes reflétant le contenu de chaque diapositive. La barre de navigation permet d’accéder facilement à une diapositive spécifique si vous disposez de nombreuses diapositives.
 
-Pour vous déplacer entre la mosaïque et les diapositives, appuyez sur la barre de navigation.
+Pour accéder à une autre mosaïque ou à des diapositives, appuyez sur la barre de navigation.
 
-![Création d’un article de données](assets/data-story5.png)
+![Créer un récit des données](assets/data-story5.png)
 
-![Création d’un article de données](assets/data-story-nav.png){width="25%"}
+![Créer un récit des données](assets/data-story-nav.png){width="25%"}
 
-Vous pouvez également naviguer entre les deux en utilisant les flèches de votre clavier ou en sélectionnant un composant et en le maintenant à gauche ou à droite de votre écran pour le faire défiler.
+Pour naviguer d’avant en arrière, utilisez les flèches de votre clavier ou sélectionnez un composant et maintenez-le à gauche ou à droite de l’écran pour le faire défiler.
 
 
 ## Prévisualiser la carte de performance {#preview}
