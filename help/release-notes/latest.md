@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Avril 2023)
 
-**Dernière mise à jour** : 12 avril 2023
+**Dernière mise à jour** : 21 avril 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,6 +20,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Renvoi pour les environnements de test hors production** | Lors de la création d’un flux de données Analytics Source Connector dans un environnement de test hors production, le renvoi dans les environnements de test hors production sera limité à 3 mois. Il restera à 13 mois pour les environnements de test de production. | S.O. | 26 avril 2023 |
 | **Filtrage des lignes/colonnes pour la diffusion en continu du connecteur source Analytics** | Le connecteur source Analytics dans Adobe Experience Platform permet désormais de filtrer les données Analytics utilisées pour renseigner les profils dans [Real-Time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=fr). Le filtrage au niveau des lignes permet de réduire le nombre d’événements associés aux profils. Le filtrage au niveau des colonnes contribue à réduire la richesse des événements eux-mêmes, ce qui vous permet d’optimiser l’utilisation des droits sur les profils. Ce filtrage s’applique uniquement aux données envoyées à Real-Time Customer Profile et au [Service d’identités](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr). **Le filtrage n’a aucune incidence sur les données envoyées au lac de données en vue de leur utilisation dans des applications telles que Customer Journey Analytics**. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=fr#filtering-for-profile) | S.O. | 29 mars 2023 |
 | **Prise en charge partielle d’Activity Map avec le SDK Web** | Depuis la version 2.15.0 du SDK Web, nous renseignons les données d’Activity Map lorsque le suivi des liens est activé. Cela permet aux utilisateurs et utilisatrices du SDK Web d’obtenir des rapports Activity Map si le suivi des liens est activé avec le SDK Web et qu’Activity Map est configuré dans Analytics.<p>L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client ou une cliente passe d’une page à l’autre. Cela diffère du fonctionnement d’AppMeasurement et peut potentiellement générer des accès facturables supplémentaires envoyés à Adobe. Pour en savoir plus, cliquez [ici](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr) et [ici](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). | S.O. | 31 mars 2023 |
 | **Obfuscation d’adresses IP pour Experience Edge** | Experience Edge prend en charge l’obfuscation des adresses IP pour les données envoyées directement à Adobe Experience Platform. Cet avantage bénéficie aux clients et clientes qui envoient des données directement à Platform pour une utilisation dans CJA ou d’autres solutions Platform. L’obfuscation des adresses IP est configurée au niveau de la diffusion des données. Elle prend en charge la suppression du dernier octet ou de l’adresse IP complète.<p>**Remarque** : l’obfuscation NE s’applique PAS aux données envoyées à Adobe Analytics. Analytics continue d’obtenir l’adresse IP complète. Le traitement des adresses IP continue à être effectué séparément dans Analytics. À l’avenir, nous prévoyons de permettre l’obfuscation des données Analytics sur Edge. | S.O. | Version d’AEP publiée le 26 avril 2023 |
