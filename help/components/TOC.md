@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '697'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 95%
    + [Compatibilité des dimensions](dimensions/compatibility.md)
    + [Classement de toutes les pages de recherche](dimensions/all-search-page-rank.md)
    + [Matin/après-midi](dimensions/am-pm.md)
+   + [Nom du robot](dimensions/bot-name.md)
    + [Hauteur du navigateur](dimensions/browser-height.md)
    + [Type de navigateur](dimensions/browser-type.md)
    + [Largeur du navigateur](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 95%
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
    + [Durée de session moyenne](metrics/average-session-length.md)
    + [Temps moyen passé sur le site](metrics/average-time-on-site.md)
+   + [Occurrences du robot](metrics/bot-occurrences.md)
+   + [Pages vues de robots](metrics/bot-page-views.md)
    + [Taux de rebond](metrics/bounce-rate.md)
    + [Rebonds](metrics/bounces.md)
    + [Ajouts au panier](metrics/cart-additions.md)
