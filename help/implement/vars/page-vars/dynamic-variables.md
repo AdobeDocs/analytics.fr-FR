@@ -3,10 +3,10 @@ title: Variables dynamiques
 description: Copiez des variables sans augmenter la longueur de la demande d’image.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 77%
+source-wordcount: '442'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Lorsqu’Adobe reconnaît un préfixe de variable dynamique, il copie automatiqu
 
 Utilisez le mappage de flux de données pour envoyer des données à plusieurs variables Analytics à partir d’un seul champ XDM.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Datastreams]** dans le rail de gauche.
 1. Cliquez sur le flux de données de votre choix.
 1. Cliquez sur **[!UICONTROL Modifier le mappage]** à droite.
@@ -38,11 +38,11 @@ Utilisez le mappage de flux de données pour envoyer des données à plusieurs v
 
 Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dimension qui accepte une chaîne. Les éléments de dimension sont généralement définis lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez l’élément de dimension souhaité.
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.

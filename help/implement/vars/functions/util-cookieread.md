@@ -3,10 +3,10 @@ title: Util.cookieRead
 description: Obtient la valeur d’un cookie.
 feature: Variables
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 73%
+source-wordcount: '182'
+ht-degree: 72%
 
 ---
 
@@ -18,10 +18,10 @@ Les cookies peuvent stocker et récupérer des informations sur plusieurs pages 
 
 Vous pouvez lire les cookies en définissant des valeurs dans les éléments de données.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Éléments de données], puis cliquez sur l’élément de données souhaité (ou créez un élément de données).
-4. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Core]** et le [!UICONTROL Type d’élément de données] sur **[!UICONTROL Cookie]**.
+4. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL Core]**, et la variable [!UICONTROL Type d’élément de données] to **[!UICONTROL Cookie]**.
 5. Entrez le nom du cookie dans le champ de texte.
 
 La valeur du cookie est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter les variables souhaitées.

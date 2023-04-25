@@ -3,10 +3,10 @@ title: useBeacon
 description: useBeacon vous permet de forcer AppMeasurement à utiliser l’API sendBeacon des navigateurs
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 54%
+source-wordcount: '396'
+ht-degree: 61%
 
 ---
 
@@ -26,14 +26,14 @@ La variable `useBeacon` est ignorée lorsque le visiteur utilise un navigateur q
 
 Le **[!UICONTROL Le document sera déchargé.]** dans une configuration d’action détermine si les données envoyées à Adobe utilisent l’API sendBeacon.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez au [!UICONTROL Règles] , puis cliquez sur la règle de votre choix.
 1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une nouvelle action.
-1. Définissez la liste déroulante Extension sur **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**
+1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**
 1. Cochez la case . **[!UICONTROL Le document sera déchargé.]** à droite.
 
-Si cette case est cochée, les données sont envoyées à l’Adobe à l’aide de l’API sendBeacon. Ce paramètre est désélectionné par défaut.
+Si cette case est cochée, les données sont envoyées à l’Adobe à l’aide de l’API sendBeacon. Cette case est désactivée par défaut.
 
 ## Utilisation de l’API sendBeacon pour implémenter manuellement le SDK Web
 

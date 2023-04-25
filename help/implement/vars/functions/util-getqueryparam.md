@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 81%
+source-wordcount: '270'
+ht-degree: 80%
 
 ---
 
@@ -18,10 +18,10 @@ Les paramètres de chaîne de requête dans une URL de navigateur contiennent fr
 
 Vous pouvez obtenir des données de paramètre de chaîne de requête en définissant des valeurs dans les éléments de données.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Éléments de données], puis cliquez sur l’élément de données souhaité (ou créez un élément de données).
-4. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Core]** et le [!UICONTROL Type d’élément de données] sur **[!UICONTROL Paramètre de chaîne de requête]**.
+4. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL Core]**, et la variable [!UICONTROL Type d’élément de données] to **[!UICONTROL Paramètre de chaîne de requête]**.
 5. Entrez le paramètre de chaîne de requête dans le champ de texte.
 
 La valeur du paramètre de chaîne de requête est stockée dans l’élément de données. Vous pouvez ensuite référencer l’élément de données dans les règles pour affecter les variables souhaitées.

@@ -3,10 +3,10 @@ description: Les classifications permettent de catégoriser des valeurs dans des
 title: Classifications des conversions
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Pour ajouter des classifications de conversion dans Admin :
    Les options comprennent **[!UICONTROL Texte]** et **[!UICONTROL Numérique]**. Pour plus d’informations sur les types de classification, voir [À propos des classifications](/help/components/classifications/c-classifications.md).
 1. Dans la boîte de dialogue **[!UICONTROL Classifications de texte]**, configurez la classification selon vos besoins.
 
-1. Dans la boîte de dialogue **[!UICONTROL Liste déroulante]**, ajoutez ou supprimez des options.
+1. Ajoutez ou supprimez des options dans la boîte de dialogue de liste déroulante.
 
    L’ajout d’options crée une liste de valeurs de classification disponibles pour cette classification. Vous pouvez utiliser cette option avec des variables de campagne afin de fournir aux utilisateurs la liste des valeurs prises en charge pour leur classification dans le gestionnaire de campagnes. Utilisez cette option pour les dimensions des classifications pour lesquelles vous avez un faible nombre de valeurs autorisées qui ne changent jamais ou rarement. Par exemple, vous pouvez exécuter différentes campagnes visant différents niveaux de fidélité des clients : Argent, Or et Platine. Vous pouvez alors utiliser la liste déroulante pour garantir que les seules valeurs qui sont acceptées sont celles qui correspondent aux trois niveaux. Si un utilisateur tente d’utiliser une valeur différente, elle est ignorée.
 

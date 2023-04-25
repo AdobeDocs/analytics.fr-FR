@@ -3,10 +3,10 @@ title: Événement d’achat
 description: Utilisez l’événement d’achat pour collecter des données pour les mesures Commandes, Unités et Recettes.
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 73%
+source-wordcount: '455'
+ht-degree: 75%
 
 ---
 
@@ -28,18 +28,18 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 
 L’événement d’achat est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
 
-* Les commandes sont associées à `commerce.purchases.value`.
-* Les unités sont mappées à la somme de tous les `productListItems[].quantity` champs.
-* Les recettes sont mises en correspondance avec la somme de toutes les `productListItems[].priceTotal` champs.
+* Les commandes sont mappées à `commerce.purchases.value`.
+* Les unités sont mappées à la somme de tous les champs `productListItems[].quantity`.
+* Le chiffre d’affaires est mappé à la somme de tous les champs `productListItems[].priceTotal`.
 
 ## Définir l’événement d’achat à l’aide de l’extension Adobe Analytics
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
-6. Recherchez la section [!UICONTROL Événements] et définissez la liste déroulante des événements sur [!UICONTROL achat].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+6. Recherchez la variable [!UICONTROL Événements] et définissez la variable [!UICONTROL Événements] Liste déroulante à [!UICONTROL purchase].
 
 Autres variables dépendantes, telles que `products` et `purchaseID` ne comportent pas de champs dédiés dans l’extension Analytics au sein de la collecte de données Adobe Experience Platform. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
 

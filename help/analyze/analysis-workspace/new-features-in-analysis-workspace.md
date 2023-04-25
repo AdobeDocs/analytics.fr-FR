@@ -5,10 +5,10 @@ title: Nouveautés d’Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8277'
-ht-degree: 99%
+source-wordcount: '8267'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Amélioration publiée le 8 août 2019.
 
 | Amélioration | Description |
 |--- |--- |
-| Limite des éléments pour le filtre déroulant augmentée de 50 à 200 | La limite des éléments pouvant être placés dans un filtre déroulant a été augmentée de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
+| Augmentation de la limite d’éléments pour les filtres déroulants statiques de 50 à 200 | La limite des éléments pouvant être placés dans un filtre de menu déroulant statique est augmentée de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
 
 ## Juillet 2019
 
@@ -202,29 +202,10 @@ Nouvelles fonctionnalités et améliorations au 1er novembre 2018.
 
 Nouvelles fonctionnalités et améliorations au 11 octobre 2018.
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> Fonctionnalité </th>
-   <th colname="col2" class="entry"> Description </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>Gestion des listes déroulantes des panneaux</b> </p> </td>
-   <td colname="col2"> <p>Nous avons apporté quelques modifications aux listes déroulantes des panneaux, qui ont été introduites dans la version principale de septembre. Lorsque vous cliquez avec le bouton droit sur une liste déroulante, vous pouvez maintenant : </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">supprimer une liste déroulante (cette option est toujours présente) ; </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">supprimer une étiquette (si une étiquette est affichée) ; </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">ajouter une étiquette (si aucune étiquette n’est affichée). </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>Liens dans les info-bulles des panneaux et des visualisations</b> </p> </td>
-   <td colname="col2"> <p>Nous avons ajouté des liens vers les vidéos et la documentation pertinentes aux info-bulles des panneaux et des visualisations. </p> </td>
-  </tr>
- </tbody>
-</table>
+| Fonctionnalité | Description |
+| --- | --- |
+| Gestion des listes déroulantes des panneaux | Quelques modifications ont été apportées à la gestion des listes déroulantes des panneaux. Lorsque vous cliquez avec le bouton droit de la souris sur une liste déroulante, vous pouvez désormais supprimer la liste déroulante, supprimer une étiquette (si une étiquette est affichée) ou ajouter une étiquette (si aucune étiquette n’est affichée). |
+| Liens dans les info-bulles des panneaux et des visualisations | Des liens vers des vidéos et de la documentation pertinentes vers des info-bulles de panneau et de visualisation sont ajoutés. |
 
 ## Septembre 2018
 

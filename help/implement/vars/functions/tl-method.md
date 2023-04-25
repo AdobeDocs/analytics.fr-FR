@@ -3,10 +3,10 @@ title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 79%
+source-wordcount: '703'
+ht-degree: 80%
 
 ---
 
@@ -42,11 +42,11 @@ alloy("sendEvent", {
 
 L’extension Adobe Analytics dispose d’un emplacement dédié pour définir un appel de suivi des liens.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une action.
-1. Définissez la variable [!UICONTROL Extension] déroulant à **[!UICONTROL Adobe Analytics]**, et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer la balise]**.
+1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL Adobe Analytics]**, et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer la balise]**.
 1. Cochez la case `s.tl()`.
 
 Vous ne pouvez pas définir d’arguments facultatifs dans l’extension Analytics.

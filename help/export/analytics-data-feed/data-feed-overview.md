@@ -4,10 +4,10 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utilise
    * Nom d’utilisateur : saisissez le nom d’utilisateur pour vous connecter au site FTP.
    * Mot de passe et mot de passe de confirmation : saisissez le mot de passe de connexion au site FTP.
 7. Remplissez les [!UICONTROL définitions des colonnes de données].
-   * Sélectionnez le dernier modèle « Toutes les Adobe columns » dans le menu déroulant.
+   * Sélectionnez le dernier modèle &quot;Toutes les Adobe Columns&quot; dans la liste déroulante.
    * Format de compression : Gzip
    * Type de groupement : plusieurs fichiers
    * Manifeste : aucun fichier

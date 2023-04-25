@@ -3,10 +3,10 @@ title: Mappage des éléments de données de balises aux variables Analytics
 description: Attribuez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 94%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ La publication d’une bibliothèque de balises après le suivi de ces étapes v
 
 Les variables globales sont idéales lorsque vous souhaitez définir des valeurs de variable sur toutes les pages où se trouve votre élément de données.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’[!UICONTROL onglet Extensions], puis sur [!UICONTROL Configurer] sous l’extension Adobe Analytics.
 1. Cliquez sur l’accordéon [!UICONTROL Variables globales], qui révèle l’interface permettant d’affecter des variables globales.
@@ -38,11 +38,11 @@ Les variables globales sont idéales lorsque vous souhaitez définir des valeurs
 
 Les variables définies dans les règles sont idéales lorsque vous ne souhaitez pas que les variables soient définies sur chaque page. Vous définissez les critères dans la règle. Consultez la section [Règles](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=fr) de la documentation sur les balises Adobe Experience Platform.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet [!UICONTROL Règles], puis sur la règle de votre choix (ou créez-en une).
 1. Cliquez sur le bouton [!UICONTROL Ajouter] sous [!UICONTROL Actions].
-1. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur Définir des variables.
+1. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] pour définir des variables.
 1. Cliquez sur l’icône ![Élément de données](assets/data-element.png) à droite de la variable Analytics souhaitée. Le [document de conception de solution](../prepare/solution-design.md) de votre entreprise détermine la variable Analytics à utiliser.
 1. Sélectionnez l’élément de données de votre choix dans la fenêtre modale. Cliquez sur [!UICONTROL Sélectionner].
 1. Le nom de l’élément de données est ajouté au champ de texte entouré de signes `%`. Par exemple, si vous avez nommé votre élément de données « Nom de page », la chaîne `%Page name%` apparaît lors de l’affectation d’un élément de données à une variable.

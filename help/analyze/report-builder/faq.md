@@ -4,10 +4,10 @@ description: Questions fréquentes sur Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Les rapports planifiés sont traités sur des serveurs peu susceptibles de parta
 
 Les rapports planifiés sont également traités sur des serveurs peu susceptibles de partager la même syntaxe de date. Par exemple, `7/1/YYYY` peut faire référence au 1er juillet ou au 7 janvier, selon votre pays ou votre région. L’utilisation de la fonction `DATEVALUE()` à cette date entraînerait des valeurs de série différentes en fonction de l’ordinateur sur lequel elle est exécutée.
 
-Plutôt que d’utiliser ces fonctions Excel, Adobe vous recommande vivement d’utiliser des périodes dans vos requêtes Report Builder. Sur la première page de l’Assistant Requête, sélectionnez **[!UICONTROL Préconfigurer les dates]** dans le menu déroulant, puis sous Dates courantes, cliquez sur **[!UICONTROL Aujourd’hui]** ou sur une autre période souhaitée. Ce paramètre intègre l’heure de la suite de rapports au moment de son exécution et non pas l’heure du serveur qui traite la requête.
+Plutôt que d’utiliser ces fonctions Excel, Adobe vous recommande vivement d’utiliser des périodes dans vos requêtes Report Builder. Sur la première page de l’assistant de requête, sélectionnez **[!UICONTROL Préconfigurer les dates]** dans la liste déroulante, puis sous Dates courantes, sélectionnez **[!UICONTROL Aujourd&#39;hui]** ou une autre période. Ce paramètre intègre l’heure de la suite de rapports au moment de son exécution et non pas l’heure du serveur qui traite la requête.
 
 ## Quelle taille et quelle complexité puis-je donner à mes classeurs ?
 

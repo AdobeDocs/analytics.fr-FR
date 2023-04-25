@@ -4,10 +4,10 @@ title: Visualisation des graphiques combinés
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ Utilisez un [!UICONTROL Graphique combiné] pour
 
 Gardez ceci à l’esprit :
 
-* Vous pouvez ajouter plusieurs comparaisons en une seule [!UICONTROL Graphique en courbes].
+* Vous pouvez ajouter plusieurs comparaisons dans un seul [!UICONTROL graphique combiné].
 * Si vous ajoutez une ou plusieurs comparaisons, celles-ci doivent être du même type, par exemple : [!UICONTROL Comparaison de temps].
 * Vous pouvez ajouter jusqu’à 5 comparaisons.
 * Vous pouvez appliquer jusqu’à 3 filtres (segments) à une mesure.
-* Les mesures calculées ne sont pas prises en charge dans les graphiques à virgule.
+* Les mesures calculées ne sont pas prises en charge dans les graphiques combinés.
 
 ## Créer un graphique combiné
 
@@ -47,7 +47,7 @@ Gardez ceci à l’esprit :
    | **[!UICONTROL Fonction]** | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des fonctions prises en charge ci-dessous.<p>![](assets/combo-functions.png) |
    | **[!UICONTROL Deuxième mesure]** | Vous pouvez, par exemple, comparer des [!UICONTROL revenus] à une autre mesure.<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -71,7 +71,7 @@ Si vous choisissez la **[!UICONTROL Fonction]** comme [!UICONTROL type de compar
 | **[!UICONTROL Moyenne]** | Renvoie la moyenne arithmétique, ou moyenne, pour une mesure. |
 | **[!UICONTROL Min. colonne]** | Renvoie la valeur la plus petite d’un ensemble d’éléments de dimension pour une colonne de mesures. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Voici un exemple de la moyenne cumulée de la mesure Revenus :
 
@@ -90,7 +90,7 @@ Cliquez sur l’icône d’engrenage qui se trouve en haut à droite d’un grap
 | Paramètre | Définition |
 | --- | --- |
 | **[!UICONTROL Type de visualisation]** | Permet de passer à un autre type de visualisation. |
-| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. |
+| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) dans cette liste déroulante. |
 | **[!UICONTROL Général]** |  |
 | **[!UICONTROL Pourcentages]** | Affiche les valeurs en pourcentages. |
 | **[!UICONTROL Légende visible]** | Permet de masquer le texte de légende détaillé pour la visualisation des graphiques combinés. |
@@ -103,4 +103,4 @@ Cliquez sur l’icône d’engrenage qui se trouve en haut à droite d’un grap
 | **[!UICONTROL Afficher l’axe Y]** | Affichez l’axe Y ou masquez-le. |
 | **[!UICONTROL Faire commencer l’axe Y sur zéro]** | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

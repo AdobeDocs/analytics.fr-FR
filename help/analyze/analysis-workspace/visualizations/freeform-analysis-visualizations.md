@@ -5,10 +5,10 @@ title: Visualisations - Aperçu
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
@@ -68,11 +68,11 @@ Vous pouvez personnaliser les paramètres de toutes les visualisations que vous 
 | Paramètre | Description |
 | --- | --- |
 | Type de visualisation | Modifiez le type de visuel utilisé pour représenter les données. |
-| Granularité | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. Cette modification sʼapplique également au tableau de source de données. |
+| Granularité | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) dans cette liste déroulante. Cette modification sʼapplique également au tableau de source de données. |
 | Pourcentages | Affiche les valeurs en pourcentages. |
 | 100 % empilé | Ce paramètre appliqué aux graphiques à zones empilées, à barres empilées ou à barres horizontales empilées offre un aperçu « 100 % empilé » du diagramme. Exemple : ![Empilé à 100 %](assets/stacked_100_percent.png) |
 | Légende visible | Vous permet de masquer le texte de légende détaillé pour la visualisation Synthèse des chiffres/Résumé des changements. |
-| Nb max. d’éléments | Permet de limiter le nombre d’éléments affichés dans une visualisation. |
+| Nombre max d’éléments | Permet de limiter le nombre d’éléments affichés dans une visualisation. |
 | Axe Y de l’ancre à zéro | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
 | Normalisation | Force les mesures en proportions égales. Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | Afficher l’axe double | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |

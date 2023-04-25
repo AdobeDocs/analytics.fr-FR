@@ -3,10 +3,10 @@ title: transactionID
 description: Utilisez cette variable pour lier des données en ligne et hors ligne.
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez définir l’identifiant de transaction lors de la configuration de 
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL identifiant de transaction].
 
 Vous pouvez définir l’identifiant de transaction sur n’importe quelle valeur de chaîne, y compris les éléments de données.

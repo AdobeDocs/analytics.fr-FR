@@ -3,10 +3,10 @@ title: referrer
 description: Permet de remplacer le référent collecté automatiquement pour un accès.
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 85%
+source-wordcount: '289'
+ht-degree: 84%
 
 ---
 
@@ -22,11 +22,11 @@ Le référent est [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 
 Vous pouvez définir le référent soit lors de la configuration de l’extension Analytics (variables globales), soit sous des règles.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL Référent].
 
 Vous pouvez définir le référent sur n’importe quelle valeur de chaîne, y compris les éléments de données.

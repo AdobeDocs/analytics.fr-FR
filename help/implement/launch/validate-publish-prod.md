@@ -3,10 +3,10 @@ title: Validation de la mise en œuvre d’un développement et publication en p
 description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 79%
+source-wordcount: '635'
+ht-degree: 72%
 
 ---
 
@@ -31,14 +31,14 @@ Le débogueur Experience Cloud est une extension qui affiche toutes les balises 
 
 Une fois que vous avez validé l’affichage des données, vous pouvez transmettre votre mise en oeuvre à la version en ligne de votre site.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Publication]** et recherchez votre bibliothèque dans la colonne de développement.
 1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Envoyer pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
 1. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
 1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et publier en production]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la [!UICONTROL Approuvé] ), puis sélectionnez **[!UICONTROL Création et publication en production]**.
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
 1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 

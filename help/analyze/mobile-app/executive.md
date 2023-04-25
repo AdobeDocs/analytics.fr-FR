@@ -4,10 +4,10 @@ title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '1230'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Pour utiliser les tableaux de bord :
 
    * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **[!UICONTROL COMPARER À]**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **[!UICONTROL Terminé]** en haut à droite de l’écran. Le champ **[!UICONTROL Périodes]** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-1. Pour appliquer un filtre de segment à votre Fiche d’évaluation, appuyez sur le filtre déroulant et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de l’application fonctionnent de la même manière que dans Analytics Workspace.
+1. Pour appliquer un filtre de segment à votre Fiche d’évaluation, appuyez sur la liste déroulante de filtrage et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de l’application fonctionnent de la même manière que dans Analytics Workspace.
 
    ![Filtre de segments](/help/admin/admin/assets/filter.png)
 

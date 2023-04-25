@@ -3,10 +3,10 @@ title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ Vous pouvez définir des événements lors de la configuration de l’extension 
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL Événements].
 
 Plusieurs fonctionnalités sont disponibles :
 
-* Une liste déroulante vous permet de sélectionner l’événement à inclure.
+* Liste déroulante qui vous permet de sélectionner l’événement à inclure.
 * Champ de texte facultatif pour la sérialisation. Voir [Sérialisation des événements](event-serialization.md) pour plus d’informations.
-* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` sous la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 pour les rapports.
+* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, en sélectionnant `event1` sous la liste déroulante et comprenant `10` dans ce champ incrémente `event1` par 10 dans les rapports.
 * Bouton permettant d’ajouter un autre événement. Vous pouvez ajouter autant d’événements que vous le souhaitez à une seule règle, dans la limite du raisonnable.
 
 ## s.events dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics

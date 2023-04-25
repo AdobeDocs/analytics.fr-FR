@@ -3,10 +3,10 @@ title: pageURL
 description: Permet de remplacer l’URL de page collectée automatiquement sur votre site.
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 81%
+source-wordcount: '313'
+ht-degree: 80%
 
 ---
 
@@ -26,11 +26,11 @@ L’URL de page est [mappé pour Adobe Analytics](https://experienceleague.adobe
 
 L’extension Analytics de la collecte de données Adobe Experience Platform renseigne automatiquement l’URL de la page. Vous pouvez toutefois définir le remplacement de l’URL de la page lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet **[!UICONTROL Règles]**, puis cliquez sur une règle (ou créez une règle).
 4. Sous **[!UICONTROL Actions]**, cliquez sur une action existante **[!UICONTROL Adobe Analytics - Définir des variables]** ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante **[!UICONTROL Extension]** sur Adobe Analytics et le **[!UICONTROL type d’action]** sur **[!UICONTROL Définir des variables]**.
+5. Définissez la variable **[!UICONTROL Extension]** de la liste déroulante vers Adobe Analytics, et la variable **[!UICONTROL Type d’action]** to **[!UICONTROL Définition de variables]**.
 6. Recherchez la section **[!UICONTROL URL de la page]**.
 
 Vous pouvez définir l’URL de la page sur n’importe quelle valeur de chaîne.

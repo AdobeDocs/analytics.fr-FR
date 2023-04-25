@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '3929'
-ht-degree: 98%
+source-wordcount: '3930'
+ht-degree: 97%
 
 ---
 
@@ -218,7 +218,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 12 septembre 2019 | Mise à jour du document sur les [Totaux des mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=fr). |
 | 28 août 2019 | Nouvel article sur [les applications web progressives (PWA) pour Analytics](/help/technotes/pwa.md). |
 | 8 août 2019 | Nouvel article sur les [totaux des mesures calculées](/help/components/c-calcmetrics/cm-totals.md). |
-| 8 août 2019 | Clarification des [données de session horodatées](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 août 2019 | Dans Espace de travail, Adobe a augmenté la limite des éléments pouvant être placés dans un filtre déroulant de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
+| 8 août 2019 | Clarification des [données de session horodatées](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md). | 8 août 2019 | Dans Workspace, Adobe a augmenté la limite des éléments pouvant être placés dans un filtre de menu déroulant statique de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
 | 2 août 2019 | Mise à jour majeure du [glossaire Analytics](/help/technotes/terms.md). |
 | 22 juillet 2019 | Ajout du modèle Magento : Marketing et Commerce à la documentation sur les [modèles Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
 | 18 juillet 2019 | [Paramètres de tableau de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md) mis à jour. |

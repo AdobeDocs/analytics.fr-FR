@@ -4,10 +4,10 @@ title: Panneau Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 100%
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez configurer le panneau A4T à l’aide des paramètres d’entrée su
 | Paramètre | Description |
 |---|---|
 | Activité Target | Effectuez une sélection à partir d’une liste d’activités Target ou faites glisser et déposez une activité à partir du rail de gauche. Remarque : la liste est remplie avec les 6 derniers mois d’activités qui comptent au moins 1 accès. Si vous ne voyez pas d’activité dans la liste, il se peut qu’elle remonte à plus de 6 mois. Elle peut encore être ajoutée à partir du rail gauche doté d’une période de retour en arrière de 18 mois. |
-| Expérience de contrôle | Sélectionnez votre expérience de contrôle. Vous pouvez la modifier si nécessaire dans la liste déroulante. |
+| Expérience de contrôle | Sélectionnez votre expérience de contrôle. Vous pouvez le modifier si nécessaire dans la liste déroulante. |
 | Mesure de normalisation | Choisissez Visiteurs uniques, Visites ou Impressions d’activité. Visiteurs uniques est l’option recommandée pour la plupart des cas d’utilisation d’analyses. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance. |
 | Mesures de succès | Sélectionnez jusqu’à 3 événements de succès standard (non calculés) dans les listes déroulantes ou faites glisser les mesures depuis le rail de gauche. Chaque mesure comporte une visualisation et un tableau dédiés dans le panneau généré. |
 | Période du calendrier | Cette variable est automatiquement renseignée à partir d’Adobe Target en fonction de la période d’activité. Vous pouvez la modifier, si nécessaire. |
@@ -63,8 +63,8 @@ Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continue
 | Quels types d’activité sont pris en charge dans A4T ? | [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html?lang=fr) sur les types d’activité pris en charge. |
 | Les mesures calculées sont-elles prises en charge dans les calculs d’effet élévateur et de degré de confiance ? | Non. [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=fr) sur les raisons pour lesquelles les mesures calculées ne sont pas prises en charge dans les calculs d’effet élévateur et de degré de confiance. Les mesures calculées peuvent toutefois être utilisées dans les rapports A4T, mais en dehors de ces mesures. |
 | Pourquoi les visiteurs uniques varient-ils entre Target et Analytics ? | [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=fr) sur les variations de visiteurs uniques entre les produits. |
-| Pourquoi des expériences sans rapport sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sur la façon dont Analytics calcule le degré de confiance. |
+| Pourquoi des expériences sans rapport sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension A4T est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=fr) |
+| La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html?lang=fr) sur la façon dont Analytics calcule le degré de confiance. |
 | Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou ventilations ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » des expériences Target, car ils nécessitent un contrôle et une variante pour effectuer les calculs. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
 | Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré confiance sont recalculés chaque fois que le panneau est exécuté (ou exécuté à nouveau), que la période du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. L’application d’un filtre de segments au tableau à structure libre doit être effectuée au niveau de toutes les colonnes. Dans le cas contraire, l’effet élévateur et le degré de confiance ne seront pas mis à jour correctement. Les segments au niveau des colonnes ne sont pour le moment pas pris en charge. |
 

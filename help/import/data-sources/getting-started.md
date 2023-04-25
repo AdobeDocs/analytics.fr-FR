@@ -1,9 +1,10 @@
 ---
 title: Prise en main des sources de données
 description: Chargez des exemples de données dans une suite de rapports de développement.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -34,8 +35,8 @@ Vous pouvez suivre ces étapes pour télécharger facilement des exemples de don
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. Saisissez plusieurs lignes de données, en séparant chaque entrée par un onglet. N’utilisez pas d’espaces ni de virgules pour séparer les valeurs.
@@ -45,10 +46,10 @@ Vous pouvez suivre ces étapes pour télécharger facilement des exemples de don
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. Enregistrez le fichier. Si vous le souhaitez, vous pouvez lui attribuer un nom de fichier différent. Une fois le fichier enregistré, vous pouvez fermer l’éditeur de texte.

@@ -3,10 +3,10 @@ title: state
 description: Permet de renseigner le « rapport État du visiteur » dans Reports and Analytics.
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez définir l’état lors de la configuration de l’extension Analyti
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL État].
 
 Vous pouvez définir l’état sur n’importe quelle valeur de chaîne ou élément de données.

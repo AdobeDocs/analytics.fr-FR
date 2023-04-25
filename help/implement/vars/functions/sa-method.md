@@ -3,10 +3,10 @@ title: sa
 description: Permet de modifier la suite de rapports à tout moment de votre mise en œuvre.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 38%
+source-wordcount: '440'
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ La méthode `sa()` vous permet de modifier dynamiquement une suite de rapports �
 
 Le SDK Web fonctionne en envoyant des données à un flux de données spécifique, qui transfère des données vers les suites de rapports Analytics souhaitées. Un seul flux de données peut transférer des données vers plusieurs suites de rapports. Cette section s’applique à la fois à l’extension SDK Web et à la mise en oeuvre manuelle du SDK Web.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Datastreams]** sur la gauche.
 1. Cliquez sur le flux de données de votre choix ou cliquez sur **[!UICONTROL Nouvelle structure de données]**.
 1. Cliquez sur **[!UICONTROL Ajouter un service]**, puis sélectionnez **[!UICONTROL Adobe Analytics]**.
@@ -29,10 +29,10 @@ Le SDK Web fonctionne en envoyant des données à un flux de données spécifiqu
 
 L’extension SDK Web fournit une liste déroulante de flux de données pour chaque environnement. Vous pouvez également saisir manuellement l’identifiant de la banque de données.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Datastreams], sélectionnez la matrice de données de votre choix dans la liste déroulante pour chaque environnement.
+1. Sous [!UICONTROL Datastreams], sélectionnez la Datastream de votre choix dans la liste déroulante pour chaque environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Définissez la flux de données souhaitée en implémentant manuellement le SDK Web.

@@ -3,10 +3,10 @@ title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser les balises pour déployer Adobe Analytics dans votre environnement de développement.
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 43%
+source-wordcount: '597'
+ht-degree: 48%
 
 ---
 
@@ -22,10 +22,10 @@ Une fois que vous avez créé et configuré une propriété de balise, les bibli
 
 Les balises prennent en charge de nombreux workflows organisationnels pour le déploiement de code. Pour créer le minimum de composants nécessaires à une mise en œuvre Analytics, procédez comme suit. En tant qu’administrateur de balises, vous pouvez travailler au sein de votre organisation pour établir le workflow approprié au déploiement de solutions Adobe.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 3. Cliquez sur **[!UICONTROL Hôtes]**, puis cliquez sur **[!UICONTROL Ajouter un hôte]**.
-4. Nommez-le `"Adobe managed"`, puis sélectionnez **[!UICONTROL Géré par Adobe]** dans la liste déroulante de type . Cliquez sur Enregistrer.
+4. Nommez-le `"Adobe managed"`, puis sélectionnez **[!UICONTROL Géré par Adobe]** dans la liste déroulante type . Cliquez sur Enregistrer.
 5. Accédez à **[!UICONTROL Environnements]**, puis cliquez sur **[!UICONTROL Ajouter un environnement]**.
 6. Sélectionner **[!UICONTROL Développement]**, nommez-le `"Dev Environment"`, puis sélectionnez l’hôte géré par l’Adobe dans la liste déroulante. Cliquez sur **[!UICONTROL Enregistrer]**.
 7. Une fenêtre modale s’affiche, affichant les instructions d’installation Web. Nous retournerons à cette fenêtre ultérieurement ; click **[!UICONTROL Fermer]** pour le moment.
@@ -36,13 +36,13 @@ Les balises prennent en charge de nombreux workflows organisationnels pour le d�
 
 Malgré toutes les modifications et configurations apportées jusqu’à présent, aucun code n’a été publié. La création d’une bibliothèque, grossièrement traduite en un ensemble de modifications, permet la publication de code à utiliser sur votre site.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
-3. Cliquez sur le bouton **[!UICONTROL Flux de publication]** , puis cliquez sur **[!UICONTROL Ajouter une bibliothèque]**. Voir [Présentation de la publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) dans la documentation Balises pour plus d’informations sur cette page.
+3. Cliquez sur le bouton **[!UICONTROL Flux de publication]** , puis cliquez sur **[!UICONTROL Ajouter une bibliothèque]**. Voir [Présentation de la publication](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr) dans la documentation Balises pour plus d’informations sur cette page.
 4. Nommer la bibliothèque `'Initial changes'`, puis sélectionnez votre environnement de développement.
 5. Cliquez sur **[!UICONTROL Ajouter toutes les ressources modifiées]**, qui répertorie automatiquement Adobe Analytics, Identity Service et Core.
 6. Cliquez sur **[!UICONTROL Enregistrer]**.
-7. De retour dans l’écran du processus de publication, cliquez sur la liste déroulante en regard de votre nouvelle bibliothèque, puis cliquez sur **[!UICONTROL Créer pour le développement]**. Au bout de quelques secondes, le point jaune de la bibliothèque devient vert, ce qui indique que la version a réussi.
+7. Dans l’écran du processus de publication, cliquez dans la liste déroulante en regard de votre nouvelle bibliothèque, puis cliquez sur **[!UICONTROL Créer pour le développement]**. Au bout de quelques secondes, le point jaune de la bibliothèque devient vert, ce qui indique que la version a réussi.
 8. Accédez à **[!UICONTROL Environnements]**, puis cliquez sur l’icône d’installation à droite de votre environnement de développement. Cette action affiche à nouveau la fenêtre modale Instructions d’installation web .
 9. Copiez le ou les blocs de code et fournissez-les aux propriétaires du site web de votre entreprise.
 

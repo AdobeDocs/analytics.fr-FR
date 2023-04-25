@@ -3,10 +3,10 @@ title: Sérialisation d’événements
 description: Permet la déduplication des mesures sur votre site.
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL Événements], où chaque événement contient un champ [!UICONTROL Identifiant d’événement].
 
 Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous saisissez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.

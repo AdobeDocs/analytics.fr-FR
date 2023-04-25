@@ -3,10 +3,10 @@ title: campaign
 description: Permet de renseigner la dimension « Code de suivi ».
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
-source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 75%
+source-wordcount: '245'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez définir la campagne soit lors de la configuration de l’extension 
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL Campagne].
 
 Vous pouvez définir la campagne sur une valeur ou un paramètre de chaîne de requête.

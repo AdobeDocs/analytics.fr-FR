@@ -4,9 +4,9 @@ keywords: événement
 title: Événements de succès - Aperçu
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ Accédez à la page Événements de succès dans les paramètres de la suite de 
 2. Cliquez sur l’icône à neuf carrés en haut de l’écran, puis sur [!UICONTROL Analytics].
 3. Accédez à [!UICONTROL Admin] > [!UICONTROL Suites de rapports]
 4. Sélectionnez la suite de rapports de votre choix, puis accédez à [!UICONTROL Modifier les paramètres] > [!UICONTROL Conversion] > [!UICONTROL Événements de succès].
-5. Recherchez l’événement de votre choix, puis modifiez la liste déroulante [!UICONTROL Enregistrement d’événement unique] en sélectionnant [!UICONTROL Enregistrer une fois par visite] ou [!UICONTROL Utiliser l’ID de l’événement].
 
 Il existe de nombreux types d’événements de succès en fonction du type de votre site web. En voici quelques exemples :
 
