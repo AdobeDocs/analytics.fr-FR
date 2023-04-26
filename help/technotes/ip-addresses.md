@@ -3,10 +3,10 @@ title: Adresses IP et domaines utilisés par Adobe Analytics
 description: Si le pare-feu de votre entreprise bloque les adresses IP qui proviennent d’Adobe, utilisez cette liste pour mettre à jour les paramètres du pare-feu.
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 07606370e0198901d409ae054f8c8ca6c793bbeb
+source-git-commit: b68d961ae68e5a803c46cee350724cfd5e20fc1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '392'
+ht-degree: 73%
 
 ---
 
@@ -64,6 +64,8 @@ Si votre entreprise préfère autoriser des plages d’adresses IP spécifiques
 | Japon | `66.117.31.0/24` |
 | Londres | `66.235.156.0/24` |
 | Londres | `185.34.188.0/22` |
+| Londres | `130.248.244.32/29` |
+| Londres | `130.248.244.40/29` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.150.0/24` |
 | Oregon | `130.248.160.0/21` |
@@ -84,9 +86,6 @@ Adobe Analytics utilise Amazon Web Services dans le cadre de son processus de co
 | Chine | `52.80.44.16` |
 | Chine | `52.80.161.58` |
 | Chine | `140.179.173.142` |
-| France | `13.36.218.177` |
-| France | `15.188.95.229` |
-| France | `15.236.176.210` |
 
 Le tableau suivant comprend les blocs d’adresses IPv6 d’AWS utilisés par Adobe. Ces hôtes ne sont **pas** inclus dans la plage de blocs agrégés ci-dessus.
 
@@ -95,6 +94,7 @@ Le tableau suivant comprend les blocs d’adresses IPv6 d’AWS utilisés par Ad
 | Australie | `2406:da1c:406:1a00::/56` |
 | Australie | `2406:da1c:ce5:b400::/56` |
 | Californie | `2600:1f1c:366:d900::/56` |
+| France | `2a05:d012:706:d000::/56` |
 | Inde | `2406:da1a:f34:6a00::/56` |
 | Irlande | `2a05:d018:309:600::/56` |
 | Japon | `2406:da14:b07:ab00::/56` |
