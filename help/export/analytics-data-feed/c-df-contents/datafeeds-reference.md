@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 93%
+source-wordcount: '3670'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`browser_width`** | Largeur en pixels de la fenêtre du navigateur. | smallint sans signe |
 | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | Variable utilisée dans la dimension [Code de suivi](/help/components/dimensions/tracking-code.md). | varchar(255) |
-| **`carrier`** | Variable d’intégration Adobe Advertising. Définit l’opérateur de téléphonie mobile. Fait référence à la table de recherche `carrier`. | varchar(100) |
+| **`carrier`** | Variable d’intégration Adobe Advertising. Définit l’opérateur de téléphonie mobile. La valeur clé pour `carrier.tsv` [Recherche dynamique](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
 | **`channel`** | Variable utilisée dans la dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
@@ -110,7 +110,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`latlon45`** | Lieu (jusqu’à 1 m) | varchar(255) |
 | **`mc_audiences`** | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. La colonne `post_mc_audiences` change le délimiteur en `--**--`. | text |
 | **`mcvisid`** | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
-| **`mobile_id`** | Si l’utilisateur utilise un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. | int |
+| **`mobile_id`** | Si l’utilisateur utilise un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. La valeur clé pour `mobile_attributes.tsv` [Recherche dynamique](dynamic-lookups.md). | int |
 | **`mobileaction`** | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
 | **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant :     `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Utilisé dans le connecteur de données Aptelignent. L’identifiant d’application utilisé dans Apteligent. | varchar(255) |
@@ -159,7 +159,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`mvvar1_instances`** - `mvvar3_instances` | Les valeurs de la variable de liste qui ont été définies sur l’accès actuel. Remplace le délimiteur d’origine par `--**--`. N’a pas de `post` colonne . | text |
 | **`namespace`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(50) |
 | **`new_visit`** | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
-| **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. Utilise la recherche de `os`. | int sans signe |
+| **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. La valeur clé pour `operating_system.tsv` recherche standard et `operating_system_type.tsv` [Recherche dynamique](dynamic-lookups.md). | int sans signe |
 | **`p_plugins`** | N’est plus utilisé. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript `navigator.plugins()`. | text |
 | **`page_event`** | Le type d’accès qui est envoyé dans la demande d’image (accès standard, lien de téléchargement, lien personnalisé, lien de sortie). Voir [Recherche d’événement de page](datafeeds-page-event.md). | tinyint sans signe |
 | **`page_event_var1`** | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | text |
