@@ -4,10 +4,10 @@ title: Filtrer et trier des tableaux
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
-workflow-type: ht
-source-wordcount: '653'
-ht-degree: 100%
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ Les tableaux à structure libre dans Analysis Workspace sont la base de l’ana
 ## Filtrer des tableaux
 
 Les filtres dans Analysis Workspace vous aident à afficher les informations les plus importantes.
+
+>[!NOTE]
+>
+> Seuls les éléments de dimension dynamiques peuvent être filtrés comme décrit dans cette section. Les éléments de dimension statiques ne peuvent pas être filtrés. Pour plus d’informations, voir [Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 Pour filtrer les données dans les tableaux à structure libre :
 
