@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + Suites de rapports virtuelles {#virtual-report-suites}
    + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
    + [Suite de rapports virtuelles - Traitement des composants](vrs/vrs-components.md)
-   + [Prise en charge des suites de rapports virtuelles dans Mobile Services](vrs/vrs-mobile-services.md)
    + [Sessions contextuelles](vrs/vrs-mobile-visit-processing.md)
    + [Traitement de la période de rapport](vrs/vrs-report-time-processing.md)
    + [Remarques concernant A4T](vrs/vrs-a4t.md)

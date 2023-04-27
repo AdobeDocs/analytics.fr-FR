@@ -3,16 +3,16 @@ title: doPlugins
 description: Permet de configurer la logique juste avant qu’un accès ne soit compilé et envoyé à Adobe.
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 57%
+source-wordcount: '318'
+ht-degree: 62%
 
 ---
 
 # doPlugins
 
-La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
+La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. C&#39;est l&#39;endroit idéal pour passer des appels à [Méthodes de module externe](../plugins/impl-plugins.md) et définissez les variables souhaitées avant l’envoi d’une demande d’image. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
 
 * Tous les appels de page vue ([`t()`](t-method.md))
 * Tous les appels de suivi de liens ([`tl()`](tl-method.md)), y compris les liens de téléchargement et de sortie automatiques
@@ -23,7 +23,7 @@ Utilisez la variable `doPlugins` pour appeler le code du plug-in et définir les
 
 Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonctionnalités similaires.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
 1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier avant le code de rappel d’envoi d’événement]** bouton .
