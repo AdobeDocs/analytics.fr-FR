@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
 workflow-type: tm+mt
 source-wordcount: '3972'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Avril 2023** |  |
 | Transfert des ressources des utilisateurs et définition de l’expiration du compte | Ajout d’informations sur la procédure à suivre [transférer des ressources utilisateur et définir l’expiration du compte ;](/help/admin/admin/user-management2/users-assets.md). |
-| 2 nouveaux guides de point de terminaison pour l’API Adobe Analytics 2.0 | <ul><li>[API de Dimensions Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API des mesures Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
+| 2 nouveaux guides des points d’entrée pour l’API 2.0 d’Adobe Analytics | <ul><li>[API des dimensions Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API des mesures Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Segments de projet (segments ad hoc et rapides) | Documentation rationalisée sur les segments de projet et suppression des informations dupliquées. Les étapes de création de segments ad hoc sont désormais combinées avec les étapes pour [création de segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Recherches dynamiques | Informations supplémentaires autour de [Recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) est ajouté. Auparavant, les informations n’existaient que pour les attributs mobiles, qui font partie de plusieurs recherches dynamiques. |
 | **Mars 2023** |  |
