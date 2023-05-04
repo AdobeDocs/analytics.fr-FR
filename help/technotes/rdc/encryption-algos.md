@@ -1,39 +1,38 @@
 ---
 title: Algorithmes de chiffrement HTTPS pris en charge
-description: Le 23 juin 2022, nous mettrons fin à la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est « Élevé ».
+description: Paramètres de sécurité du chiffrement TLS et types de certificat.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 30%
 
 ---
 
 # Algorithmes de chiffrement HTTPS pris en charge
 
-Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec nos serveurs. Le niveau de sécurité par défaut des clients est « Standard ». Il ne prend en charge que les algorithmes de chiffrement modernes. Le niveau de sécurité « Élevé » prend en charge une liste plus réduite d’algorithmes de chiffrement pour les clients qui sont plus préoccupés par ces connexions. Pour les deux niveaux de sécurité, Adobe met régulièrement à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
+## Niveaux de sécurité des filtres
 
-Le 23 juin 2022, nous mettrons fin à la prise en charge des chiffrements TLS 1.2 qui utilisent SHA1 ou CBC pour les clients dont le niveau de sécurité du chiffrement est « Élevé ». Cette modification aura un impact sur la collecte sécurisée des données pour les utilisateurs finaux sur les systèmes d’exploitation plus anciens.
+Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec nos serveurs. Adobe passe régulièrement en revue et met à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
-Les chiffrements TLS 1.2 suivants ne seront plus pris en charge :
+&quot;Standard&quot; nécessite TLS 1.2 ou une version plus récente et un chiffrement au moins 128 bits. Il est conçu pour offrir la compatibilité d’appareil la plus large tout en conservant un chiffrement sécurisé.
 
-* TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
-* TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_CBC_SHA
-* TLS_RSA_WITH_AES_256_CBC_SHA
-* TLS_RSA_WITH_AES_128_GCM_SHA256
-* TLS_RSA_WITH_AES_256_GCM_SHA384
+Le niveau de sécurité de chiffrement &quot;élevé&quot; nécessite TLS 1.2 ou une version ultérieure et supprime la prise en charge des chiffrements plus faibles. Il est conçu pour les clients qui souhaitent un chiffrement le plus fort et ne se soucient pas de la prise en charge des appareils plus anciens.
 
-Les clients suivants sont concernés par cette modification, car ils ne prennent pas en charge les normes de chiffrement actuelles :
+Les clients suivants sont connus pour ne pas pouvoir se connecter avec le paramètre de sécurité de chiffrement défini sur &quot;Élevé&quot;.
 
 * Windows 8.1 et versions antérieures (dernière mise à jour en 2018)
 * Windows Phone 8.1 et versions antérieures (dernière mise à jour en 2016)
 * OS X 10.10 et versions antérieures (dernière mise à jour en 2017)
 * iOS 8.4 et versions antérieures (dernière mise à jour en 2015)
 
-Les appareils Android ne sont pas affectés par cette modification.
+## Types de certificat HTTPS pris en charge
 
-Les clients avec le niveau de sécurité du chiffrement « Standard » ne sont pas affectés par cette modification.
+Adobe prend en charge les types de certificats RSA et ECC pour répondre à différents besoins des clients. Les certificats RSA sont plus largement pris en charge pour les clients, mais les certificats ECC utilisent moins de traitement côté serveur et côté client. Pour les certificats gérés par Adobe, RSA et ECC sont fournis. Pour les certificats gérés par le client, RSA et ECC sont recommandés. Les clients modernes prennent en charge RSA et ECC. Les clients suivants ne prennent en charge que les certificats RSA :
+
+* Windows Vista et versions antérieures (dernière mise à jour en 2012)
+* Windows Phone 8.0 et versions antérieures (dernière mise à jour en 2014)
+* OS X 10.8 et versions antérieures (dernière mise à jour en 2013)
+* iOS 5.1 et versions antérieures (dernière mise à jour en 2012)
+* Android 4.3 et versions antérieures (dernière mise à jour en 2013)
