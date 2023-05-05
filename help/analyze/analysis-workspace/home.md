@@ -4,9 +4,9 @@ description: Analysis Workspace est l’outil d’analyse principal d’Adobe An
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f3ba2c1b63b9b7fa0da4c0d3b784036abdd9df1b
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '749'
 ht-degree: 35%
 
 ---
@@ -90,11 +90,11 @@ Une analyse dans Analysis Workspace est appelée [project](/help/analyze/analysi
 
 Vous pouvez créer un projet dans Analysis Workspace comme décrit dans la section [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
-### Enregistrement et partage de projets
+### Enregistrement et partage d’un projet
 
 Lorsque vous créez une analyse dans Analysis Workspace, votre travail est le suivant : [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-Une fois que vous avez terminé de construire le projet et que vous avez recueilli des informations exploitables, il est prêt à être consommé par d&#39;autres. Vous pouvez partager le projet avec des utilisateurs et des groupes de votre entreprise, ou même avec des personnes en dehors de votre entreprise. Pour plus d’informations sur le partage d’un projet, voir [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+Une fois que vous avez terminé de créer le projet et que celui-ci collecte des informations exploitables, le projet est prêt à être consommé par d’autres personnes. Vous pouvez partager le projet avec des utilisateurs et des groupes de votre entreprise, ou même avec des personnes en dehors de votre entreprise. Pour plus d’informations sur le partage d’un projet, voir [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
 ### Gestion de projets dans Analysis Workspace
 
