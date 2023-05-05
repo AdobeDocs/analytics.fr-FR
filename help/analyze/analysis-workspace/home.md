@@ -1,13 +1,13 @@
 ---
-title: Qu’est-ce qu’Analysis Workspace et comment l’utiliser ?
+title: Aperçu d’Analysis Workspace
 description: Analysis Workspace est l’outil d’analyse principal d’Adobe Analytics. Il vous permet d’utiliser des panneaux, des tableaux, des visualisations ainsi que d’autres composants pour donner vie aux données, traiter un jeu de données, partager et planifier des projets, entre autres fonctionnalités.
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 35%
+source-wordcount: '839'
+ht-degree: 38%
 
 ---
 
@@ -64,11 +64,11 @@ Les composants d’Analysis Workspace se composent des éléments suivants :
 
 * Périodes
 
-Voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) pour en savoir plus sur chacun de ces types de composants.
+Pour en savoir plus sur chacun de ces types de composants, voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
 
 Chacun de ces types de composants peut être ajouté à une visualisation (un tableau à structure libre, par exemple) pour commencer à répondre aux questions de votre entreprise.
 
-Après avoir compris la terminologie des composants, vous pouvez faire glisser des composants dans les visualisations (y compris les tableaux à structure libre) vers [créer votre analyse ;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=fr).
+Après avoir compris la terminologie des composants, vous pouvez faire glisser des composants dans les visualisations (y compris les tableaux à structure libre) vers [créer votre analyse ;](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 
 ![](assets/build-components.png)
 
@@ -90,17 +90,35 @@ Une analyse dans Analysis Workspace est appelée [project](/help/analyze/analysi
 
 Vous pouvez créer un projet dans Analysis Workspace comme décrit dans la section [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
+Les projets peuvent être organisés en dossiers et sous-dossiers, comme décrit dans la section [Dossiers dans Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+
 ### Enregistrement et partage d’un projet
 
 Lorsque vous créez une analyse dans Analysis Workspace, votre travail est le suivant : [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Une fois que vous avez terminé de créer le projet et que celui-ci collecte des informations exploitables, le projet est prêt à être consommé par d’autres personnes. Vous pouvez partager le projet avec des utilisateurs et des groupes de votre entreprise, ou même avec des personnes en dehors de votre entreprise. Pour plus d’informations sur le partage d’un projet, voir [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
-### Gestion de projets dans Analysis Workspace
+<!--
 
-La vidéo suivante présente la gestion de projet dans Analysis Workspace :
+Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
+
+### Project management in Analysis Workspace
+
+The following video provides an overview of project management in Analysis Workspace:
 
 >[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
+
+-->
+
+## Utilisation de Virtual Analytics pour mieux comprendre les anomalies
+
+L’analyste virtuel est un ensemble de fonctionnalités d’Adobe Analytics qui utilise des algorithmes prédictifs et l’apprentissage automatique pour fournir des informations sur les anomalies qui affectent votre entreprise. Il vous permet d’automatiser les processus de science de données les plus courants et les plus coûteux afin d’identifier les comportements inhabituels au niveau de vos données.
+
+L’analyste virtuel comprend les fonctionnalités suivantes :
+
+* [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) : met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
+* [ Analyse des contributions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) : détermine les facteurs qui contribuent le plus aux anomalies au niveau de vos données.
+* [ Alertes intelligentes](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) : identifie et vous avertit de manière proactive des anomalies au niveau de vos données, pour ainsi obtenir des informations plus rapidement.
 
 ## Ressources supplémentaires {#resources}
 

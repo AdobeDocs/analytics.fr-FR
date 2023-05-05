@@ -3,7 +3,7 @@ description: Découvrez les principes de base de la création d’un projet dans
 title: Création de projets
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # Création de projets
 
-[Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) dans Analysis Workspace, vous pouvez afficher des données métier essentielles qui peuvent être partagées avec des parties prenantes à l’intérieur ou à l’extérieur de votre entreprise.
+[Projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) dans Analysis Workspace, vous pouvez afficher des analyses critiques qui peuvent être partagées avec des parties prenantes au sein ou en dehors de votre entreprise.
 
 Pour obtenir des informations générales sur la prise en main d’Analysis Workspace, voir [Présentation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 
@@ -73,7 +73,7 @@ Pour ajouter un panneau :
 
 >[!TIP]
 >
->Les tableaux à structure libre sont le type de visualisation le plus courant et sont le vidage de l’analyse de données interactive. Pour plus d’informations sur l’utilisation des tables à structure libre dans Analysis Workspace, voir [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Les tableaux à structure libre sont le type de visualisation le plus courant et constituent la base de l’analyse de données interactive. Pour plus d’informations sur l’utilisation des tables à structure libre dans Analysis Workspace, voir [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 Pour ajouter une visualisation :
 

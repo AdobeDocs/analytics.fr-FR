@@ -1,17 +1,17 @@
 ---
 description: En savoir plus sur les dossiers dans Workspace
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 title: Présentation des dossiers
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
-workflow-type: ht
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# À propos des dossiers dans Analytics
+# Dossiers dans Analysis Workspace
 
 Les dossiers dans Analytics constituent un système de gestion des dossiers qui s’affiche sur la page de destination d’Adobe Analytics et lorsque vous sélectionnez **Workspace** > **Projets**.
 
