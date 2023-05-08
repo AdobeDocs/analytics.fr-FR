@@ -3,9 +3,9 @@ description: Découvrez les principes de base de la création d’un projet dans
 title: Création de projets
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Pour ajouter un composant :
 
 1. Recherchez le composant à ajouter. Lorsqu’il apparaît dans le rail de gauche, faites-le glisser vers un panneau ou une visualisation dans votre projet.
 
-### Enregistrer et partager le projet
+1. (Facultatif) Partagez le projet, comme décrit dans la section [Enregistrer et partager le projet](#save-and-share-the-project).
+
+## Enregistrer et partager le projet
 
 Lorsque vous créez une analyse dans Analysis Workspace, votre travail est le suivant : [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 

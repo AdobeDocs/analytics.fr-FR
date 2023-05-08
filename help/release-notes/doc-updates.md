@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4008'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Mai 2023** |  |
+| Aperçu d’Analysis Workspace | Mise à jour [Présentation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
+| Création de projets | Création d’un article qui explique en détail comment [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |
 | **Avril 2023** |  |
 | Transfert des ressources des utilisateurs et définition de l’expiration du compte | Ajout d’informations sur la procédure à suivre [transférer des ressources utilisateur et définir l’expiration du compte ;](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nouveaux guides des points d’entrée pour l’API 2.0 d’Adobe Analytics | <ul><li>[API des dimensions Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API des mesures Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |

@@ -4,10 +4,10 @@ description: Analysis Workspace est l’outil d’analyse principal d’Adobe An
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 38%
+source-wordcount: '732'
+ht-degree: 33%
 
 ---
 
@@ -97,28 +97,6 @@ Les projets peuvent être organisés en dossiers et sous-dossiers, comme décrit
 Lorsque vous créez une analyse dans Analysis Workspace, votre travail est le suivant : [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Une fois que vous avez terminé de créer le projet et que celui-ci collecte des informations exploitables, le projet est prêt à être consommé par d’autres personnes. Vous pouvez partager le projet avec des utilisateurs et des groupes de votre entreprise, ou même avec des personnes en dehors de votre entreprise. Pour plus d’informations sur le partage d’un projet, voir [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
-<!--
-
-Maybe add this back in if the video isn't too outdated. Otherwise, delete this section.
-
-### Project management in Analysis Workspace
-
-The following video provides an overview of project management in Analysis Workspace:
-
->[!VIDEO](https://video.tv.adobe.com/v/24035/?quality=12)
-
--->
-
-## Utilisation de Virtual Analytics pour mieux comprendre les anomalies
-
-L’analyste virtuel est un ensemble de fonctionnalités d’Adobe Analytics qui utilise des algorithmes prédictifs et l’apprentissage automatique pour fournir des informations sur les anomalies qui affectent votre entreprise. Il vous permet d’automatiser les processus de science de données les plus courants et les plus coûteux afin d’identifier les comportements inhabituels au niveau de vos données.
-
-L’analyste virtuel comprend les fonctionnalités suivantes :
-
-* [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) : met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
-* [ Analyse des contributions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md) : détermine les facteurs qui contribuent le plus aux anomalies au niveau de vos données.
-* [ Alertes intelligentes](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) : identifie et vous avertit de manière proactive des anomalies au niveau de vos données, pour ainsi obtenir des informations plus rapidement.
 
 ## Ressources supplémentaires {#resources}
 
