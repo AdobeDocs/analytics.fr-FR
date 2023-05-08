@@ -3,9 +3,9 @@ description: Découvrez les principes de base de la création d’un projet dans
 title: Création de projets
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ Les sections suivantes décrivent comment créer un projet et commencer à ajout
 
    +++Création d’un projet vierge
 
-   1. Sélectionnez la [!UICONTROL **Projets**] , puis sélectionnez [!UICONTROL **Créer un projet**].
+   1. Sur le [!UICONTROL **Workspace**] , sélectionnez la variable [!UICONTROL **Projets**] sur le côté gauche de la page, puis sélectionnez [!UICONTROL **Créer un projet**].
 
    1. Choisissez si vous souhaitez créer un projet vierge ou une fiche d’évaluation mobile vierge.
 
@@ -38,7 +38,7 @@ Les sections suivantes décrivent comment créer un projet et commencer à ajout
 
    +++Création d’un projet à partir d’un modèle
 
-   1. Sélectionnez la [!UICONTROL **Rapports**] .
+   1. Sur le [!UICONTROL **Workspace**] , sélectionnez la variable [!UICONTROL **Rapports**] sur le côté gauche de la page.
 
    1. Recherchez ou accédez au modèle à utiliser, puis sélectionnez-le lorsqu’il apparaît.
 
