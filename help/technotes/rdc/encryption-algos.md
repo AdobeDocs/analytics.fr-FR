@@ -3,10 +3,10 @@ title: Algorithmes de chiffrement HTTPS pris en charge
 description: Paramètres de sécurité du chiffrement TLS et types de certificat.
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: 299de03c05f6a8af4f6c5d98c76bae54eec4c088
+source-git-commit: 1ca7f750387fd9ae034d10ebf3e47190cf33d4b7
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 30%
+source-wordcount: '282'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 ## Niveaux de sécurité des filtres
 
-Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent quels algorithmes de chiffrement sont pris en charge pour les connexions HTTPS avec nos serveurs. Adobe passe régulièrement en revue et met à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
+Adobe propose deux niveaux de sécurité de chiffrement pour répondre aux différents besoins des clients en matière de sécurité lors de la collecte de données propriétaires. Ces niveaux déterminent les algorithmes de chiffrement pris en charge pour les connexions HTTPS aux serveurs Adobe. Adobe passe régulièrement en revue et met à jour l’ensemble des algorithmes pris en charge en fonction des pratiques de sécurité actuelles. Si vous souhaitez modifier les paramètres de sécurité du chiffrement, contactez l’assistance clientèle.
 
 &quot;Standard&quot; nécessite TLS 1.2 ou une version plus récente et un chiffrement au moins 128 bits. Il est conçu pour offrir la compatibilité d’appareil la plus large tout en conservant un chiffrement sécurisé.
 
