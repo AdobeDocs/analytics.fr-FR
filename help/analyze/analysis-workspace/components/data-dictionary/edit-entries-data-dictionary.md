@@ -3,10 +3,11 @@ description: Le dictionnaire de données dans Analysis Workspace permet aux uti
 title: Modifier des entrées dans le dictionnaire de données
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 75%
+source-wordcount: '313'
+ht-degree: 70%
 
 ---
 
@@ -31,6 +32,10 @@ Pour modifier un composant dans le dictionnaire de données :
    Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](assets/dimension-icon.png) sont orange, **Segments** ![Icône Segment](assets/segment-icon.png) sont bleues, **Périodes** ![Icône Période](assets/date-range-icon.png) sont violets et **Mesures** ![Icône Mesure](assets/default-metric-icon.png) sont vertes. Icône Adobe ![Icône Adobe](assets/default-calc-metric-icon.png) indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
 
 {{dd-filter-criteria}}
+
+1. (Facultatif) Sélectionnez le **Tri** icon ![Icône Tri des composants](assets/component-sort-icon.png), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+
+   {{components-sort-options}}
 
 1. Dans la liste des composants, sélectionnez le composant à modifier.
 

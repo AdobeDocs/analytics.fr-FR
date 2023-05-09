@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # Extraits
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **Créé par**] | Affiche le nom de l’utilisateur ou de l’utilisatrice ayant créé le composant. |
 | [!UICONTROL **Aperçu**] | Affiche un aperçu de l’apparence du composant dans Analysis Workspace. |
 | [!UICONTROL **Date de la dernière modification**] | Affiche le jour de la dernière modification du composant. Cette section s’affiche lorsque vous affichez des segments, des mesures calculées et des périodes. |
+
+{style="table-layout:auto"}
+
+## Options de tri des composants {#components-sort-options}
+
+| Option | Fonction |
+|---------|----------|
+| [!UICONTROL **Recommandé**] | Trie les composants avec ceux recommandés en haut de la liste. Les composants utilisés le plus souvent et le plus récemment par vous ou par d’autres membres de votre organisation sont répertoriés plus haut dans la liste. |
+| [!UICONTROL **Alphabétique**] | Trie les composants par ordre alphabétique. |
+| [!UICONTROL **Catégorique**] | Trie les composants en fonction du type de composant (dimension, mesure, segment, période). |
 
 {style="table-layout:auto"}
 

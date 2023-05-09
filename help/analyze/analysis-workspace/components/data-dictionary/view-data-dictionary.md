@@ -3,10 +3,11 @@ description: Le dictionnaire de données dans Analysis Workspace permet aux uti
 title: Afficher le dictionnaire de données
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
+source-git-commit: 02b3dca057731dc56f3ee72e3ce33e30b2cb2a28
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 71%
+source-wordcount: '302'
+ht-degree: 65%
 
 ---
 
@@ -33,6 +34,10 @@ Pour afficher des informations sur un composant dans le dictionnaire de données
    Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](assets/dimension-icon.png) sont orange, **Segments** ![Icône Segment](assets/segment-icon.png) sont bleues, **Périodes** ![Icône Période](assets/date-range-icon.png) sont violets et **Mesures** ![Icône Mesure](assets/default-metric-icon.png) sont vertes. Icône Adobe ![Icône Adobe](assets/default-calc-metric-icon.png) indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
 
 {{dd-filter-criteria}}
+
+1. (Facultatif) Sélectionnez le **Tri** icon ![Icône Tri des composants](assets/component-sort-icon.png), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+
+   {{components-sort-options}}
 
 1. Dans la liste des composants, sélectionnez le composant à afficher.
 
