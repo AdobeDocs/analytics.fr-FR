@@ -4,10 +4,10 @@ description: Interaction avec des éléments de dimension dynamiques et statique
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ Lorsque vous déposez une dimension dans un tableau à structure libre, des lign
 
 Par exemple, lorsque vous faites glisser la dimension Type de navigateur dans le tableau, les premiers éléments de dimension Type de navigateur (par exemple, Microsoft, Apple, Google, etc.) sont dynamiquement renvoyés aux lignes du tableau. Si vous les déposez dans une colonne, les 5 premiers éléments de dimension Type de navigateur sont dynamiquement renvoyés.
 
-Les éléments de dimension dynamiques disposent de l’option de filtre de ligne, mais ne disposent **pas** de l’icône en forme de verrou et de l’icône X. Pour plus d’informations sur l’application de filtres aux tableaux, voir [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
+Les éléments de dimension dynamiques disposent de l’option de filtre de ligne et des icônes X, et le font **not** disposer d’une icône de verrouillage. <!--do they have the lock icon? --> Lorsque vous cliquez sur le x en regard d’un élément de dimension dynamique, un filtre est automatiquement appliqué. Pour plus d’informations sur l’application de filtres aux tableaux, voir [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 
