@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 94%
 
 ---
 
@@ -28,6 +28,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Mai 2023** |  |
 | Aperçu d’Analysis Workspace | Mise à jour [Présentation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
 | Création de projets | Création d’un article qui explique en détail comment [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |
+| Tri des composants dans le rail de gauche | Ajout d’informations sur le tri de la liste des composants dans le rail de gauche. Voir la section &quot;Recherche, filtrage et tri de la liste des composants&quot; dans la section [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Suppression de lignes contenant des dimensions dynamiques d’un tableau à structure libre | Ajout d’informations sur la suppression rapide de lignes spécifiques contenant des dimensions dynamiques à l’aide de l’icône x. Voir la section &quot;Exclusion rapide de lignes spécifiques d’un tableau&quot; dans [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| Bouton permettant d’ajouter une visualisation dans un panneau | Ajout d’informations sur un nouveau bouton au bas de chaque panneau dans Analysis Workspace qui vous permet d’ajouter rapidement une visualisation. Voir la section &quot;Ajouter des visualisations à un panneau&quot; dans [Visualisations - Aperçu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **Avril 2023** |  |
 | Transfert des ressources des utilisateurs et définition de l’expiration du compte | Ajout d’informations sur la procédure à suivre [transférer des ressources utilisateur et définir l’expiration du compte ;](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nouveaux guides des points d’entrée pour l’API 2.0 d’Adobe Analytics | <ul><li>[API des dimensions Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API des mesures Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
