@@ -4,10 +4,10 @@ title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ Pour utiliser les tableaux de bord :
 
 1. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, lʼécran **[!UICONTROL Choisir une entreprise]** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
-1. La liste de Fiches d’évaluation affiche ensuite toutes les Fiches d’évaluation partagées avec vous. Appuyez sur la Fiche d’évaluation que vous souhaitez afficher.
+   La liste de Fiche d’évaluation affiche toutes les Fiches d’évaluation qui sont partagées avec vous.
 
-   ![Choisissez une entreprise](assets/nextseq.png)
+1. Appuyez sur la fiche d’évaluation que vous souhaitez afficher.
+
+   Si vous avez accès à plusieurs organisations sous une seule connexion, toutes les Fiches d’évaluation de vos organisations sont disponibles dans la liste de Fiches d’évaluation.
+
+   Vous pouvez trier la liste de la Fiche d’évaluation en fonction du titre de la Fiche d’évaluation, du nom de l’organisation ou du dernier affichage. Vous pouvez même rechercher une fiche d’évaluation spécifique.
+
+   ![Choisissez une entreprise](assets/mobile-home-screen.png)
 
    Si vous vous connectez et que vous voyez un message indiquant que rien n’a été partagé, vérifiez les éléments suivants avec votre curateur :
 
