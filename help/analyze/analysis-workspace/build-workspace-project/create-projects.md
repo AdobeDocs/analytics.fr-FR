@@ -3,9 +3,9 @@ description: Découvrez les principes de base de la création d’un projet dans
 title: Création de projets
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ Pour obtenir des informations générales sur la prise en main d’Analysis Work
 
 Les sections suivantes décrivent comment créer un projet et commencer à ajouter les blocs de création clés d’un projet Analysis Workspace : panneaux, visualisations et composants.
 
-## Création d’un projet à partir d’un projet vierge ou d’un modèle
+## Création d’un projet à partir d’un projet vierge ou d’un rapport
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Workspace**].
 
-1. Choisissez de créer un projet vierge ou de créer un projet à partir d’un modèle :
+1. Choisissez de créer un projet vierge ou de créer un projet à partir d’un rapport :
 
    +++Création d’un projet vierge
 
@@ -36,15 +36,15 @@ Les sections suivantes décrivent comment créer un projet et commencer à ajout
 
 +++
 
-   +++Création d’un projet à partir d’un modèle
+   +++Création d’un projet à partir d’un rapport
 
    1. Sur le [!UICONTROL **Workspace**] , sélectionnez la variable [!UICONTROL **Rapports**] sur le côté gauche de la page.
 
-   1. Recherchez ou accédez au modèle à utiliser, puis sélectionnez-le lorsqu’il apparaît.
+   1. Recherchez ou accédez au rapport à utiliser, puis sélectionnez-le lorsqu’il apparaît.
 
-      Un ensemble de modèles standard est disponible par défaut. En outre, votre entreprise peut avoir créé des modèles personnalisés à partir desquels vous pouvez effectuer un choix.
+      Un ensemble de rapports standard est disponible par défaut. En outre, votre entreprise peut avoir créé des rapports personnalisés à partir desquels vous pouvez effectuer un choix.
 
-      Pour plus d’informations, voir [Prise en main de Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md).
+      Pour plus d’informations, voir &quot;Navigation dans l’onglet Rapports&quot; dans [Page d’entrée Adobe Analytics](/help/analyze/landing.md).
 +++
 
 1. Vous devez ensuite ajouter des panneaux, des visualisations et des composants à votre projet. Tout d’abord, ajoutez des panneaux à votre projet dans Analysis Workspace, comme décrit dans la section [Ajout de panneaux au projet](#add-panels-to-the-project). Vous pouvez ensuite ajouter des visualisations à n’importe quel panneau. Enfin, vous pouvez ajouter des composants à n’importe quel panneau ou visualisation.
