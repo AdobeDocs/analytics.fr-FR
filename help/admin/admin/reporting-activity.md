@@ -4,18 +4,16 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
-ht-degree: 100%
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
+workflow-type: tm+mt
+source-wordcount: '954'
+ht-degree: 95%
 
 ---
 
 # Gestionnaire des activités de rapport
 
->[!NOTE]
->
->Cette fonctionnalité est actuellement en phase de test bêta.
+{{release-limited-testing}}
 
 Le [!UICONTROL gestionnaire des activités de rapport] vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre entreprise. En tant qu’administrateur, il vous offre une visibilité détaillée sur la consommation de rapports et vous permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports.
 
@@ -48,7 +46,7 @@ Lors de l’ouverture de la page d’aperçu du gestionnaire des [!UICONTROL act
 | **[!UICONTROL Capacité d’utilisation]** | Quel pourcentage de la capacité de création de rapports de la suite de rapports est utilisé en temps réel. |
 | **[!UICONTROL Statut]** | Quatre indicateurs de statut possibles : <ul><li>**Rouge - [!UICONTROL À capacité maximale]** : La suite de rapports est à son maximum en termes de capacité de création de rapports. (100 %) </li><li>**Jaune - [!UICONTROL Proche de la capacité maximale]** : Cette suite de rapports risque d’atteindre sa capacité maximale. (90 % - 99 %)</li><li>**Vert - [!UICONTROL Très bien]** : Il y a encore beaucoup de capacité de création de rapports. (0 % - 89 %)</li><li>**Gris - [!UICONTROL Statut en attente/Non activé]** : Capacité de rapports non disponible.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Autres actions relatives aux activités de rapports
 
@@ -64,13 +62,13 @@ Cliquez sur le lien de titre d’une suite de rapports pour laquelle vous souhai
 
 ![suite de rapports](/help/admin/admin/assets/indiv-report-ste.png)
 
-### Graphique linéaire
+### Graphique linéaire {#line}
 
 Le graphique linéaire montre l’activité de création de rapports pour la suite de rapports sélectionnée au cours des deux dernières heures.
 
 * L’axe des abscisses affiche les données de capacité de création de rapports sur les deux dernières heures.
-* L’axe des ordonnées affiche le temps d’attente moyen d’une requête, en secondes.
-* Vous pouvez pointer sur le graphique linéaire pour afficher les points dans le temps et le temps d’attente moyen de cet instant.
+* L’axe Y affiche par minute la capacité d’utilisation des rapports en % pour la suite de rapports sélectionnée.
+* Vous pouvez pointer sur le graphique en courbes pour afficher les points dans le temps où le pourcentage de capacité d’utilisation représenté sera le % le plus élevé pour cette minute.
 
    ![détail](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ Vous pouvez filtrer le tableau par application (voir la liste dans le tableau ci
 
 ![filtre](/help/admin/admin/assets/filter.png)
 
-### Synthèse des chiffres
+### Synthèse des chiffres {#summary}
 
 ![filtre](/help/admin/admin/assets/summary_numbers.png)
 
@@ -94,9 +92,9 @@ La synthèse des chiffres affiche les informations suivantes :
 | [!UICONTROL Temps d’attente moyen] | Temps d’attente moyen pour toutes les requêtes en cours d’exécution. |
 | [!UICONTROL Capacité d’utilisation] | Capacité d’utilisation actuelle de cette suite de rapports. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Tableau
+### Tableau sur les détails des suites de rapports {#details}
 
 Le tableau détaillé ci-dessous présente des détails sur la suite de rapports.
 
@@ -110,13 +108,13 @@ Le tableau détaillé ci-dessous présente des détails sur la suite de rapports
 | [!UICONTROL Utilisateur] | L’utilisateur qui a lancé la requête. |
 | [!UICONTROL Projet] | Noms de projets d’espace de travail enregistrés, ID de rapport API, etc. (Les métadonnées peuvent varier d’une application à l’autre.) |
 | [!UICONTROL Limites mensuelles] | Nombre de limites mensuelles qu’une requête traverse. Cela ajoute à la complexité de la requête. |
-| [!UICONTROL Colonnes] | Le nombre de mesures et de ventilations dans l’espace de travail pour évaluer la complexité de la requête. |
+| [!UICONTROL Colonnes] | Le nombre de mesures et de répartitions dans l’espace de travail pour évaluer la complexité de la requête. |
 | [!UICONTROL Segments] | Nombre de segments appliqués à cette requête. Cela ajoute à la complexité de la requête. |
 | [!UICONTROL Statut] | Indicateurs de statut : <ul><li>**En cours d’exécution** : la demande est en cours de traitement.</li><li>**En attente** : la demande est en attente de traitement.</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Annuler des demandes de création de rapports
+## Annuler des demandes de création de rapports {#cancel}
 
 Pour annuler une requête
 
@@ -133,10 +131,10 @@ Par exemple, les utilisateurs de l’application dans l’espace de travail verr
 
 ![avertissement-utilisateur-annulation](/help/admin/admin/assets/cancel-user-facing.png)
 
-## Questions fréquentes
+## Questions fréquentes {#faq}
 
 | Question | Réponse |
 | --- | --- |
 | Puis-je acheter de la capacité de création de rapports supplémentaire ? | Cette fonctionnalité sera disponible dans un avenir proche. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
