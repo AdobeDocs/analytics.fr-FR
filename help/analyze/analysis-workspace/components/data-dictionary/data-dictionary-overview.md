@@ -4,9 +4,9 @@ title: Présentation du dictionnaire de données
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: daa5a5ccfb6642c97e0f391eba6226d365caa06c
+source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '532'
 ht-degree: 77%
 
 ---
@@ -17,7 +17,7 @@ Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et 
 
 Les administrateurs d’Analytics sont chargés de traiter les informations sur chaque composant du dictionnaire de données afin de les mettre à la disposition des utilisateurs.
 
-![VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## Avantages pour les utilisateurs et utilisatrices
 
