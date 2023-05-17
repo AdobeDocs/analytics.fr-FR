@@ -1,19 +1,19 @@
 ---
-description: Méthode de création dʼune carte de performance pour les tableaux de bord Adobe Analytics
-title: Création dʼune carte de performance mobile
+description: Comment créer et partager des fiches d’évaluation des tableaux de bord Adobe Analytics
+title: Créer et partager des fiches d’évaluation mobiles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: ht
-source-wordcount: '2353'
-ht-degree: 100%
+source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 82%
 
 ---
 
 # Création dʼune carte de performance mobile
 
-Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des cartes de performance mobiles pour les utilisateurs en charge de lʼexécution. Regardez dʼabord la vidéo sur le Créateur de cartes de performance pour les tableaux de bord Adobe Analytics :
+Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des cartes de performance mobiles pour les utilisateurs en charge de lʼexécution. Pour commencer, vous pouvez afficher la vidéo du créateur de Fiche d’évaluation des tableaux de bord Adobe Analytics :
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -21,11 +21,11 @@ Une carte de performance Adobe Analytics affiche les visualisations de données 
 
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
-En tant que curateur de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les mosaïques qui apparaissent sur la carte de performance de votre consommateur en charge de lʼexécution. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les ventilations sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du Créateur de Fiche d’évaluation est illustrée ci-dessous :
+En tant que curateur de cette Fiche d’évaluation, vous pouvez utiliser le créateur de Fiche d’évaluation pour configurer les mosaïques qui apparaissent sur la Fiche d’évaluation de votre consommateur en charge de l’exécution. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du créateur de Fiche d’évaluation est illustrée ci-dessous :
 
 ![Créateur de Fiche d’évaluation](assets/scorecard_builder.png)
 
-Pour créer la Carte de performance, procédez comme suit :
+Pour créer la fiche d’évaluation, vous devez effectuer les opérations suivantes :
 
 1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
 1. Configurer la carte de performance avec des données, puis enregistrez-la.
@@ -37,7 +37,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 ### Créer un nouveau projet {#create}
 
 1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
-1. Cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Carte de performance mobile vierge]**.
+1. Cliquez sur **[!UICONTROL Créer un projet]** et sélectionnez la variable **[!UICONTROL Fiche d’évaluation mobile vierge]** modèle de projet.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 ![Modèle de Fiche d’évaluation](assets/new_template.png)
@@ -49,13 +49,13 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 
 ## Configurez la carte de performance avec des données, puis enregistrez-la. {#configure}
 
-Pour implémenter le modèle de Fiche d’évaluation :
+Pour mettre en oeuvre le modèle de Fiche d’évaluation :
 
 1. Dans **[!UICONTROL Propriétés]** (dans le rail droit), précisez la **[!UICONTROL suite de rapports du projet]** depuis laquelle vous souhaitez utiliser les données.
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-1. Pour ajouter une nouvelle mosaïque à votre fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Glisser-déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+1. Pour ajouter une nouvelle mosaïque à votre fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la **[!UICONTROL Faire glisser et déposer des mesures ici]** zone. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -66,7 +66,7 @@ Pour implémenter le modèle de Fiche d’évaluation :
 
 Pour ajouter une dimension associée à une mesure, faites glisser une dimension depuis le panneau de gauche, puis déposez-la dans une mosaïque.
 
-Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Marketing Channel]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en effectuant une opération de glisser-déposer sur la mosaïque. Les ventilations de dimensions sʼaffichent sous la section [!UICONTROL Analyses détaillées] des **[!UICONTROL propriétés]** propres à la diapositive détaillée. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
+Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Marketing Channel]** dans cet exemple) à la mesure **[!UICONTROL Visiteurs uniques]** en effectuant une opération de glisser-déposer sur la mosaïque. Les répartitions de dimensions sʼaffichent sous la section [!UICONTROL Analyses détaillées] des **[!UICONTROL propriétés]** propres à la diapositive détaillée. Plusieurs dimensions peuvent être ajoutées à chaque mosaïque.
 
 ![Ajouter des dimensions](assets/layer_dimensions.png)
 
@@ -74,7 +74,7 @@ Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Mark
 
 Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque.
 
-Si vous souhaitez appliquer le segment à toutes les mosaïques de la Fiche d’évaluation, déposez la mosaïque en haut de la Fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos Fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que dans Adobe Analytics Workspace.
+Si vous souhaitez appliquer le segment à toutes les mosaïques de la fiche d’évaluation, déposez la mosaïque en haut de la fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. You [configuration et application de filtres pour vos fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que dans Adobe Analytics Workspace.
 
 ![Création de segments pour le filtre](assets/segment_ui.png)
 
@@ -164,15 +164,15 @@ Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos
 
 ## Afficher et configurer des propriétés dʼune vignette {#tiles}
 
-Lorsque vous cliquez sur une vignette dans le créateur de cartes de performance, le rail de droite affiche les propriétés et les caractéristiques associées à cette vignette et à sa diapositive détaillée. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la vignette ainsi que la configurer en appliquant des segments.
+Lorsque vous cliquez sur une mosaïque du créateur de Fiche d’évaluation, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque et à sa diapositive de détail. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la vignette ainsi que la configurer en appliquant des segments.
 
 ![Vignette Propriétés](assets/properties-tile-new.png)
 
 ## Afficher les diapositives détaillées {#view-detail-slides}
 
-Si vous cliquez sur les vignettes, une fenêtre contextuelle dynamique monte comment l’utilisateur en charge de l’exécution voit la diapositive détaillée dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de ventilation sera **heure** ou **jours**, en fonction de la période par défaut.
+Si vous cliquez sur les vignettes, une fenêtre pop-up dynamique monte comment l’utilisateur en charge de l’exécution voit la diapositive détaillée dans l’application. Vous pouvez ajouter des dimensions pour ventiler vos données selon vos besoins. Si aucune dimension n’a été appliquée, la dimension de répartition sera **heure** ou **jours**, en fonction de la période par défaut.
 
-Les ventilations affinent votre analyse en ventilant les mesures par éléments de dimension, tels que :
+Les répartitions affinent votre analyse en répartissant les mesures par éléments de dimension, tels que :
 
 * Mesure Visiteurs uniques ventilée par Plateforme publicitaire (AMO ID)
 * Mesure Visites ventilée par Catégorie de produit (vente au détail)
@@ -212,7 +212,7 @@ Pour ajouter du texte à une diapositive détaillée, sélectionnez une disposit
 
 ## Supprimer des composants {#remove}
 
-De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui apparaît lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
+De même, pour supprimer un composant appliqué à la totalité de la fiche d’évaluation, cliquez n’importe où sur la fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur l’icône **x** qui s’affiche lorsque vous placez le pointeur de la souris sur le composant, comme illustré ci-dessous pour la fonction **Premières visites** segment :
 
 ![Remove_components](assets/new_remove.png)
 
@@ -315,13 +315,13 @@ Vous pouvez prévisualiser l’aspect et le fonctionnement de la carte de perfor
 
 ## Nommer une carte de performance {#name}
 
-Pour nommer la Fiche d’évaluation, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
+Pour nommer la fiche d’évaluation, cliquez sur l’espace de noms dans le coin supérieur gauche de l’écran, puis saisissez le nouveau nom.
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## Partage dʼune carte de performance {#share}
 
-Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exécution :
+Pour partager la fiche d’évaluation avec un utilisateur en charge de l’exécution :
 
 1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
 
@@ -336,6 +336,25 @@ Pour partager la Fiche d’évaluation avec un utilisateur en charge de l’exé
 
 ![Share_Scorecards](assets/new_share.png)
 
-Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la carte de performance dans le Créateur de cartes de performance, celles-ci seront mises à jour automatiquement dans la carte de performance que vous avez partagée. Les utilisateurs en charge de l’exécution pourront accéder aux changements en actualisant la Fiche d’évaluation sur leur application.
+Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si vous apportez des modifications ultérieures à la Fiche d’évaluation dans le créateur de Fiche d’évaluation, elles seront automatiquement mises à jour dans la Fiche d’évaluation partagée. Les utilisateurs en charge de l’exécution verront alors les modifications après avoir actualisé la fiche d’évaluation sur leur application.
 
 Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous voudrez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de lʼexécution ont accès à ces modifications.
+
+### Partage de fiches d’évaluation à l’aide d’un lien partageable
+
+L’utilisation d’un lien partageable facilite le partage d’une fiche d’évaluation dans une application de messagerie électronique, de document ou de message texte. Le lien partageable permet aux destinataires d’ouvrir la fiche d’évaluation sur leur bureau ou dans l’application mobile des tableaux de bord. La possibilité de partager des liens profonds facilite encore le partage de projets et améliore l’engagement avec vos parties prenantes.
+
+Pour partager une fiche d’évaluation à l’aide d’un lien partageable
+
+1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. Copiez le lien et collez-le dans un email, un document ou une application de messagerie instantanée.
+
+   Lorsqu’un destinataire ouvre le lien à l’aide d’une appli de bureau ou d’un navigateur, le projet de Fiche d’évaluation mobile s’ouvre dans Workspace.
+
+   Lorsqu’un destinataire ouvre le lien sur un appareil mobile, la fiche d’évaluation s’ouvre directement dans l’application des tableaux de bord Analytics.
+
+   Si un destinataire n’a pas téléchargé l’application mobile, il est redirigé vers la liste des applications dans App Store ou Google Play Store où il peut la télécharger.
+
