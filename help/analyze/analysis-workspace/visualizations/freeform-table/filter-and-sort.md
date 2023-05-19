@@ -4,10 +4,10 @@ title: Filtrer et trier des tableaux
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez exclure rapidement des lignes spécifiques du tableau sans avoir à 
 
 >[!NOTE]
 >
->Lorsque vous excluez des lignes comme décrit dans cette section, une [!UICONTROL **N’est pas égal à**] s’applique automatiquement dans la variable [**[!UICONTROL Filtrage avancé]**](#apply-a-simple-or-advanced-filter) boîte de dialogue.
+>Lorsque vous excluez des lignes comme décrit dans cette section, une [!UICONTROL **Toujours exclure les éléments**] est automatiquement appliquée dans la boîte de dialogue de filtrage avancé. (Vous pouvez afficher la règle appliquée en cliquant sur l’icône Filtrer , puis [**[!UICONTROL Afficher les paramètres avancés]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Pour exclure rapidement des lignes spécifiques d’un tableau à structure libre :
 
@@ -54,7 +54,7 @@ Pour filtrer les données dans les tableaux à structure libre :
    | [!UICONTROL **Mot ou expression de recherche**] | Indiquez un mot ou une expression à filtrer. Seules les lignes contenant le mot ou l’expression exacte spécifié(e) sont affichées. |
    | [!UICONTROL **Inclure non spécifié (aucun)**] | Sélectionnez cette option pour afficher dans le tableau les données qui n’appartiennent à aucune des dimensions du tableau. <!--what is this?--> |
 
-1. (Facultatif) Pour filtrer selon différents critères ou selon plusieurs critères, sélectionnez [!UICONTROL **Filtrage avancé**].
+1. (Facultatif) Pour filtrer selon différents ou plusieurs critères, sélectionnez [!UICONTROL **Afficher les paramètres avancés**].
 
    Les options de filtrage avancées suivantes sont disponibles :
 
