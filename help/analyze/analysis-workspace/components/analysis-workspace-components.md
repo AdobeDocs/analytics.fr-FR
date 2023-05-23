@@ -4,7 +4,7 @@ title: Aperçu des composants
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 71%
@@ -102,6 +102,8 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
 1. Sélectionnez le composant lorsqu’il apparaît dans la liste déroulante.
 
 ### Filtrage de la liste des composants
+
+{{release-limited-testing-section}}
 
 1. Sélectionnez la **Composants** icon ![Icône Composants](assets/components-icon.png) dans le rail de gauche.
 
