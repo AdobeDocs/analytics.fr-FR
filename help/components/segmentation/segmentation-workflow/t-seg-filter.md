@@ -3,10 +3,10 @@ description: Filtrez par balises, propriétaires et autres filtres (Tout affiche
 title: Filtrer des segments
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, P
 
 Le filtrage facilite la recherche de segments dans le rail de segments.
 
-1. Dans le Gestionnaire de segments, cliquez sur l’icône **[!UICONTROL Filtres]** : ![](assets/filter_icon.png)
+1. Dans le Gestionnaire de segments, cliquez sur l’icône **[!UICONTROL Filtres]** : ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. Les filtres suivants sont disponibles :
+2. Les filtres suivants sont disponibles :
 
    | Nom du filtre | Description |
    |---|---|

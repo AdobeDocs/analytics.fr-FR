@@ -4,10 +4,10 @@ title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
    ![](assets/seg_in_context.png)
 
-   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html).
+   Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
 
 1. L’interface utilisateur du Créateur de segments est à présent lancée dans Internet Explorer. Elle est initialisée avec le conteneur et le filtre que vous avez indiqués.
 1. Une fois que vous avez ajouté un nom et une description au segment, enregistrez-le.
@@ -86,18 +86,18 @@ Les filtres disponibles incluent :
 
 L’ajout d’un contrôle de segments vous permet de basculer entre les segments dans un classeur au lieu d’avoir à accéder à l’Assistant Requête.
 
-1. Cliquez sur l’icône de contrôle ![](assets/control_icon.png) en regard de la liste déroulante de segments.
+1. Cliquez sur l’icône de contrôle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) en regard de la liste déroulante de segments.
 
    ![](assets/seg_control.png)
 
-1. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
-1. Notez l’option permettant d’**[!UICONTROL Actualiser automatiquement les requêtes liées lors de la sélection]**.
+2. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
+3. Notez l’option permettant d’**[!UICONTROL Actualiser automatiquement les requêtes liées lors de la sélection]**.
 
    * Si cette case est cochée, toutes les requêtes qui utilisent ce contrôle sont actualisées.
    * Si elle n’est pas cochée, les paramètres de requête associés sont mis à jour mais les requêtes ne sont pas actualisées.
 
-1. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segments.
-1. Cliquez sur **[!UICONTROL OK]** et le contrôle de segments apparaît à l’emplacement indiqué.
+4. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segments.
+5. Cliquez sur **[!UICONTROL OK]** et le contrôle de segments apparaît à l’emplacement indiqué.
 
    ![](assets/seg_control2.png)
 

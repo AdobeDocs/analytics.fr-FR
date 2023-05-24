@@ -3,10 +3,10 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 100%
+source-wordcount: '2054'
+ht-degree: 99%
 
 ---
 
@@ -18,8 +18,8 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 
 * **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
-* **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
-* **[!UICONTROL Report Builder]** : [ajouter ou modifier des segments dans le créateur de segments](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=fr).
+* **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
+* **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=fr).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -54,7 +54,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
    |---|---|---|---|---|---|---|
    | Répétitif | X | X | X | - | X | - |
    | Instance | X | X | - | - | X | - |
-   | Instance non répétée | X | - | - | - | X | - |
+   | Instance non répétitive | X | - | - | - | X | - |
 1. **[!UICONTROL And/Or/Then]** : affecte les opérateurs [!UICONTROL AND/OR/THEN] entre des conteneurs ou règles. L’opérateur THEN permet de [définir des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Mesure]** : (barre latérale verte) qui a été glissée-déposée depuis la liste Mesures.
 1. **[!UICONTROL Opérateur de comparaison]** : vous pouvez comparer et contraindre des valeurs en utilisant certains opérateurs.
@@ -67,11 +67,11 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Mesures]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Segments]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Sélecteur de suite de rapports]** : permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
-1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la ventilation du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
+1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la répartition du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
 1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment   [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 1. **[!UICONTROL Enregistrer]** ou **[!UICONTROL Annuler]** : permet d’enregistrer ou d’annuler le segment. Après avoir cliqué sur **[!UICONTROL Enregistrer]** vous accédez au Gestionnaire de segments qui vous permet de gérer le segment.
 
-Les segments avec des périodes incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une période incorporée remplace la période du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la plage de dates du rapport avec la plage de dates incorporée du segment.
+Les segments avec des périodes incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une période incorporée remplace la période du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la période du rapport avec la période incorporée du segment.
 
 ## Création de segments {#build-segments}
 
@@ -106,7 +106,7 @@ Vous pouvez [créer une structure de conteneurs](/help/components/segmentation/s
 1. Faites glisser une dimension, un segment ou un événement depuis le panneau de gauche vers le conteneur.
 1. Continuez à ajouter des conteneurs à partir du bouton de niveau supérieur **[!UICONTROL Options]** > **[!UICONTROL Ajouter un conteneur]** situé en haut de la définition ou ajoutez des conteneurs depuis un conteneur pour imbriquer la logique.
 
-   **OR**
+   **OU**
 
    Sélectionnez une ou plusieurs règles, puis cliquez sur **[!UICONTROL Options]** > **[!UICONTROL Ajouter un conteneur d’après la sélection]**. Votre sélection devient ainsi un conteneur distinct.
 
@@ -124,7 +124,7 @@ Regardez cette vidéo sur l’utilisation de périodes flottantes dans les segme
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
-## Empiler des segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
+## Empilement de segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
 L’empilement de segments fonctionne en associant les critères de chaque segment en utilisant un opérateur « and », puis en appliquant les critères associés. Vous pouvez effectuer cette opération directement dans un projet Workspace ou dans le Créateur de segments.
 
@@ -189,7 +189,7 @@ Les modèles sont identifiés par le logo « A » d’Adobe. Vous trouverez ci
    <td colname="col2">Affiche les données concernant les visiteurs qui ont effectué plus d’une visite. Dans la définition de segment, le conteneur est Visiteur. Ce segment utilise la logique Exclure. La règle est la suivante : <p>L’accès unique n’a pas la valeur nulle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Recherche payante </td> 
+   <td colname="col1"> Référencement payant </td> 
    <td colname="col2">Affiche les données concernant les visiteurs provenant d’une recherche payante. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Recherche payée = 1. </p> </td> 
   </tr> 
   <tr> 
@@ -197,12 +197,12 @@ Les modèles sont identifiés par le logo « A » d’Adobe. Vous trouverez ci
    <td colname="col2">Affiche les données concernant les visiteurs qui ont participé à un événement de commande. Dans la définition de segment, le conteneur est Visiteur. La règle est la suivante : <p>Les commandes n’ont pas la valeur nulle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites retours </td> 
+   <td colname="col1"> Visites renouvelées </td> 
    <td colname="col2">Affiche les données concernant les visiteurs qui ont effectué au moins une visite. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Nombre de visites supérieur à 1. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites sur une seule page </td> 
-   <td colname="col2"> Affiche les données provenant de visites dans lesquelles vous consultez une seule valeur de page, même si vous pouvez soumettre plusieurs pages vues au cours de cette visite. Les visites de page unique avec des événements de lien de sortie sont incluses dans le segment. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Visites sur une seule page = 1. </p> </td> 
+   <td colname="col1"> Visites de page unique </td> 
+   <td colname="col2"> Affiche les données provenant de visites dans lesquelles vous consultez une seule valeur de page, même si vous pouvez soumettre plusieurs pages vues au cours de cette visite. Les visites de page unique avec des événements de lien de sortie sont incluses dans le segment. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Visites de page unique = 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produit affiché non ajouté au panier </td> 

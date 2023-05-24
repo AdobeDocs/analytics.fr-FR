@@ -3,10 +3,10 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Création de mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
 
 * Cliquez sur **[!UICONTROL + Ajouter]** dans la partie supérieure du [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) ou
 
-* Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport, cliquez sur l’icône Mesures ![](assets/metrics_icon.png) pour afficher le rail Mesures, puis cliquez sur **[!UICONTROL Ajouter]**.
+* Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport, cliquez sur l’icône Mesures ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) pour afficher le rail Mesures, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Résumé </span> </td> 
-   <td colname="col3"> <p>La formule <span class="uicontrol">Résumé</span> se met à jour chaque fois que vous apportez une modification à une définition de mesure. Cette formule s’affiche également dans le rail des mesures à gauche lorsque vous passez la souris sur une mesure et cliquez sur l’icône <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> </td> 
+   <td colname="col3"> <p>La formule <span class="uicontrol">Résumé</span> se met à jour chaque fois que vous apportez une modification à une définition de mesure. Cette formule s’affiche également dans le rail des mesures à gauche lorsque vous passez la souris sur une mesure et cliquez sur l’icône <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Définition </span> </td> 
@@ -79,7 +79,7 @@ Il existe plusieurs manières d’afficher le créateur de mesures calculées :
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Opérateur </span> </td> 
-   <td colname="col3"> <p>L’opérateur de division ( <img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) est l’opérateur par défaut. Il existe également les opérateurs +, - et x. </p> </td> 
+   <td colname="col3"> <p>L’opérateur de division ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) est l’opérateur par défaut. Il existe également les opérateurs +, - et x. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Aperçu </span> </td> 

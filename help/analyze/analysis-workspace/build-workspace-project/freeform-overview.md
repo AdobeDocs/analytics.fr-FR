@@ -5,10 +5,10 @@ title: Présentation des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7b3acbab3f65b02ceaaea154fb6152cfb0bf07f0
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 81%
+source-wordcount: '1539'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ La page Projets contient les informations suivantes :
 
 >[!NOTE]
 >
->Certaines colonnes ne sont pas affichées par défaut. Pour personnaliser les colonnes affichées, cliquez sur le bouton **Personnalisation du tableau** icon ![Personnalisation du tableau](assets/projects-page-customize-columns-icon.png).
+>Certaines colonnes ne sont pas affichées par défaut. Pour personnaliser les colonnes affichées, cliquez sur le bouton **Personnalisation du tableau** icon ![Personnalisation du tableau](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg).
 
 
 | Élément | Description |

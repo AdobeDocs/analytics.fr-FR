@@ -3,10 +3,10 @@ description: 'Décrit les deux moyens principaux de recherche de mesures : le t
 title: Recherche de mesures
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ Décrit les deux moyens principaux de recherche de mesures : le tri et le filtr
 
 ## Tri  {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures ![](assets/metrics_icon.png) située à gauche d’un rapport pour afficher le rail Mesures, la liste déroulante **[!UICONTROL Trier par]** du sélecteur de mesures propose quatre options de tri :
+Lorsque vous ouvrez un rapport et cliquez sur l’icône Mesures  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)) à gauche d’un rapport pour afficher le rail Mesures, la variable **[!UICONTROL Trier par]** La liste déroulante du sélecteur de mesures propose quatre options de tri :
 
 ![](assets/cm_sort.png)
 

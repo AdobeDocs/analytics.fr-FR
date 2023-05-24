@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ Lorsque les annotations sont activées, les icônes d’annotation apparaissent 
 
 ![](assets/view-annotations.png)
 
-Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas visualiser ni interagir avec l’intégralité des annotations dans le canevas du créateur. Utilisez le mode de prévisualisation pour visualiser et interagir avec les annotations telles qu’elles apparaissent dans l’application. ![](assets/preview-icon.png)
+Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas visualiser ni interagir avec l’intégralité des annotations dans le canevas du créateur. Utilisez le mode Aperçu pour afficher et interagir avec les annotations telles qu’elles apparaissent dans l’application. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Aperçu**.
 
-Les couleurs d’annotation sont sélectionnées lors de la création de l’annotation dans l’espace de travail. Les annotations grises indiquent la présence de plusieurs annotations. ![](assets/gray-annotations1.png) ![](assets/gray-annotations2.png)
+Les couleurs d’annotation sont sélectionnées lors de la création de l’annotation dans l’espace de travail. Les annotations grises indiquent la présence de plusieurs annotations.
 
 ## Visualisation des annotations d’un graphique
 

@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -18,13 +18,9 @@ Vous pouvez protéger toutes les requêtes d’un classeur contre l’ajout et l
 
 En tant qu’analyste, le verrouillage d’un classeur permet de protéger vos requêtes contre les modifications apportées par d’autres utilisateurs de votre entreprise. En même temps, les autres utilisateurs peuvent tout de même actualiser les requêtes du classeur.
 
-Pour protéger un classeur contre la modification, cliquez sur **[!UICONTROL Verrouillé]** dans la barre d’outils du Report Builder ( ![](assets/locked_icon.png)
+Pour protéger un classeur contre la modification, cliquez sur **[!UICONTROL Verrouillé]** dans la barre d’outils du Report Builder ( ![](assets/locked_icon.png)).
 
-).
-
-Pour annuler la protection d’un classeur, cliquez sur **[!UICONTROL Déverrouillé]** ( ![](assets/unlocked_icon.png)
-
-).
+Pour annuler la protection d’un classeur, cliquez sur **[!UICONTROL Déverrouillé]** ( ![](assets/unlocked_icon.png)).
 
 Vous pouvez déverrouiller un classeur verrouillé si vous êtes doté de l’une des autorisations suivantes :
 

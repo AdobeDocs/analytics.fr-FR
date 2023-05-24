@@ -5,7 +5,7 @@ uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
@@ -35,7 +35,7 @@ Les modules de navigateur d’Activity Map :
 1. Revenez à la barre d’adresse de Chrome et entrez `chrome://extensions`.
 1. Cochez la case Mode développeur.
 1. Cliquez sur Charger l’extension non empaquetée... et sélectionnez le dossier compressé dans la fenêtre contextuelle.
-1. Si une icône Adobe Analytics ![](assets/an_icon.png){width="70px"} a été ajoutée à votre barre d’outils, votre téléchargement s’est déroulé avec succès. Vous pouvez désormais [lancer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) à partir de votre page.
+1. Si une icône Adobe Analytics  a été ajoutée à votre barre d’outils, votre téléchargement s’est déroulé avec succès. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Vous pouvez désormais [lancer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) à partir de votre page.
 
 ## Installation du module Activity Map sur Firefox {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -47,7 +47,7 @@ Les modules de navigateur d’Activity Map :
 1. Cliquez sur **[!UICONTROL Installer maintenant]**.
 1. Cliquez sur l’icône du **[!UICONTROL menu Ouvrir]** en haut à droite de l’écran et sélectionnez **[!UICONTROL Modules complémentaires]**. ![](assets/firefox_install3.png){width="250px"}
 1. Activity Map devrait apparaître parmi les modules complémentaires Firefox.
-1. Si une icône Adobe Analytics ![](assets/an_icon.png) a été ajoutée à votre barre d’outils, votre téléchargement s’est déroulé avec succès. Vous pouvez désormais [lancer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) à partir de votre page.
+1. Si une icône Adobe Analytics  a été ajoutée à votre barre d’outils, votre téléchargement s’est déroulé avec succès. <br/><img src="./assets/an_icon.png" width="150px"/><br/>Vous pouvez désormais [lancer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) à partir de votre page.
 
 ## Installation du module Activity Map sur Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 

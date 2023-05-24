@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -11,11 +11,11 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->En savoir plus sur l’[annonce de fin de vie](https://www.adobe.com/go/analytics_rnaeol_fr) de Reports &amp; Analytics.
+>En savoir plus sur l’[annonce de fin de vie](https://www.adobe.com/go/analytics_rnaeol_en) de Reports &amp; Analytics.
 
 ## Critères de filtre du dictionnaire de données {#dd-filter-criteria}
 
-1. (Facultatif) Sélectionnez l’icône **Filtrer** ![icône du filtre du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png), puis sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
+1. (Facultatif) Sélectionnez l’icône **Filtrer** ![icône du filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
 
    | Option | Fonction |
    |---------|----------|

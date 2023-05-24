@@ -4,10 +4,10 @@ title: Modifier des entrées dans le dictionnaire de données
 feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
-source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
+source-git-commit: a6805f0944570bee265d5db9a159ae24e0694837
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 70%
+source-wordcount: '375'
+ht-degree: 58%
 
 ---
 
@@ -29,20 +29,20 @@ Pour modifier un composant dans le dictionnaire de données :
 
 1. (Facultatif) Dans le champ de recherche, commencez à saisir le nom du composant à modifier.
 
-   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](assets/dimension-icon.png) sont orange, **Segments** ![Icône Segment](assets/segment-icon.png) sont bleues, **Périodes** ![Icône Période](assets/date-range-icon.png) sont violets et **Mesures** ![Icône Mesure](assets/default-metric-icon.png) sont vertes. Icône Adobe ![Icône Adobe](assets/default-calc-metric-icon.png) indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
+   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **Segments** ![Icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleues, **Périodes** ![Icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violets et **Mesures** ![Icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes. L’icône Adobe indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
 
 {{dd-filter-criteria}}
 
-1. (Facultatif) Sélectionnez le **Tri** icon ![Icône Tri des composants](assets/component-sort-icon.png), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+1. (Facultatif) Sélectionnez le **Tri** icon ![Icône Tri des composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
 
    {{components-sort-options}}
 
 1. Dans la liste des composants, sélectionnez le composant à modifier.
 
-1. Sélectionnez l’icône **Modifier** ![icône Modifier le dictionnaire de données](assets/data-dictionary-edit-icon.png) en regard du nom du composant.
+1. Sélectionnez l’icône **Modifier** ![icône Modifier le dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) en regard du nom du composant.
 
 1. Modifiez l’une des informations suivantes sur le composant :
 
    {{dd-component-information}}
 
-1. Cliquez sur l’icône **Enregistrer** ![icône Enregistrer le dictionnaire de données](assets/data-dictionary-save-icon.png) pour enregistrer vos modifications.
+1. Cliquez sur l’icône **Enregistrer** ![icône Enregistrer le dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SaveFloppy_18_N.svg) pour enregistrer vos modifications.

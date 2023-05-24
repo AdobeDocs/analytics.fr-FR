@@ -4,10 +4,10 @@ title: Aperçu des composants
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 71%
+source-wordcount: '1190'
+ht-degree: 66%
 
 ---
 
@@ -93,27 +93,27 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
 
 ### Recherche dans la liste des composants
 
-1. Sélectionnez la **Composants** icon ![Icône Composants](assets/components-icon.png) dans le rail de gauche.
+1. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
-1. Dans le champ de recherche, commencez à saisir le nom du composant que vous souhaitez utiliser dans votre projet.
+2. Dans le champ de recherche, commencez à saisir le nom du composant que vous souhaitez utiliser dans votre projet.
 
-   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](assets/dimension-icon.png) sont orange, **Segments** ![Icône Segment](assets/segment-icon.png) sont bleues, **Périodes** ![Icône Période](assets/date-range-icon.png) sont violets et **Mesures** ![Icône Mesure](assets/default-metric-icon.png) sont vertes. Icône Adobe ![Icône Adobe](assets/default-calc-metric-icon.png) indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
+   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **Segments** ![Icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleues, **Périodes** ![Icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violets et **Mesures** ![Icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes. L’icône Adobe indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
 
-1. Sélectionnez le composant lorsqu’il apparaît dans la liste déroulante.
+3. Sélectionnez le composant lorsqu’il apparaît dans la liste déroulante.
 
 ### Filtrage de la liste des composants
 
 {{release-limited-testing-section}}
 
-1. Sélectionnez la **Composants** icon ![Icône Composants](assets/components-icon.png) dans le rail de gauche.
+1. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
-1. Sélectionnez la **Filtrer** icon ![Icône Filtre du dictionnaire de données](assets/components-filter-icon.png).
+2. Sélectionnez la **Filtrer** icon ![Icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
    OU
 
    Saisissez le signe dièse (#) dans le champ de recherche.
 
-1. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
+3. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
 
    | Option | Fonction |
    |---------|----------|
@@ -126,14 +126,14 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
    | [!UICONTROL **Tout afficher**] | Permet d’afficher tous les composants. Cette option est réservée à l’administration. |
    | [!UICONTROL **Non approuvé**] | Permet de n’afficher que les composants qui n’ont pas encore été marqués comme approuvés par l’administration. Cette option est utile pour l’administration pour identifier les composants qui doivent être examinés et approuvés. Cette option est réservée à l’administration. |
 
-1. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Tri de la liste des composants](#sort-the-component-list).
+4. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Tri de la liste des composants](#sort-the-component-list).
 
 ### Tri de la liste des composants
 
 1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrage de la liste des composants](#filter-the-component-list).
 
-1. Sélectionnez la **Composants** icon ![Icône Composants](assets/components-icon.png) dans le rail de gauche.
+2. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
-1. Sélectionnez la **Tri** icon ![Icône Tri des composants](assets/component-sort-icon.png), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+3. Sélectionnez la **Tri** icon ![Icône Tri des composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
 
    {{components-sort-options}}

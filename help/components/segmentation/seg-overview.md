@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 86%
+source-wordcount: '1189'
+ht-degree: 85%
 
 ---
 
@@ -86,9 +86,9 @@ Cette vidéo présente rapidement les conteneurs de segments et leurs modes d’
 
 Accédez au Créateur de segments en procédant comme suit :
 
-* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](assets/segment_icon.png) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
+* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
 
-* Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](assets/add_button.png)
+* Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    ou
 

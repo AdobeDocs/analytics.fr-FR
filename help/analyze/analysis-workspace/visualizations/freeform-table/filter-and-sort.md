@@ -4,10 +4,10 @@ title: Filtrer et trier des tableaux
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 78%
+source-wordcount: '841'
+ht-degree: 76%
 
 ---
 
@@ -67,19 +67,19 @@ Pour filtrer les données dans les tableaux à structure libre :
 
 1. Sélectionnez [!UICONTROL **Appliquer**] pour filtrer les données.
 
-   L’icône **Filtre** ![Icône de filtre bleue du tableau filtré](assets/table-filter-blue-icon.png) devient bleue lorsqu’un filtre est appliqué au tableau.
+   L’icône **Filtre** ![Icône de filtre bleue du tableau filtré](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) devient bleue lorsqu’un filtre est appliqué au tableau.
 
 ## Trier des tableaux
 
 Vous pouvez trier les données d’un tableau à structure libre selon n’importe quelle colonne d’Analysis Workspace qui est une mesure.
 
-Une icône de flèche vers le bas ![Icône de flèche vers le bas dans la colonne du tableau trié](assets/table-sort-arrow-icon.png) est visible dans l’en-tête de la colonne par laquelle les données sont actuellement triées.
+Une icône de flèche vers le bas ![Icône de flèche vers le bas dans la colonne du tableau trié](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) est visible dans l’en-tête de la colonne par laquelle les données sont actuellement triées.
 
 Pour trier les données d’un tableau à structure libre selon une colonne particulière :
 
 1. Pointez sur le titre de la colonne selon laquelle vous souhaitez trier les données.
 
-1. Sélectionnez l’icône de flèche vers le bas lorsqu’elle s’affiche.
+2. Sélectionnez l’icône de flèche vers le bas lorsqu’elle s’affiche.
 
    ![Icône de flèche vers le bas dans la colonne du tableau trié.](assets/table-sort.png)
 

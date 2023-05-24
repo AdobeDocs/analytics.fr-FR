@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3947'
-ht-degree: 100%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 | Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
 | Également disponible dans Customer Journey Analytics | Cette page de destination est également disponible dans CJA, mais dans un autre format. |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Structure du menu supérieur {#top-menu}
 
@@ -169,7 +169,7 @@ Pour les utilisateurs actuels de Reports &amp; Analytics, voici une brève intro
    * Vous pouvez utiliser le rapport tel quel.
    * Vous pouvez faire glisser un ou plusieurs segments dans la zone de dépôt de segments située en haut. Par exemple, faites glisser le segment [!UICONTROL Clients mobiles] et observez les modifications au niveau des résultats.
    * Vous pouvez modifier la période en accédant au calendrier en haut à droite.
-   * Vous pouvez ajouter des ventilations de dimension, faire glisser d’autres mesures et, de manière générale, personnaliser le rapport comme vous le souhaitez.
+   * Vous pouvez ajouter des répartitions de dimension, faire glisser d’autres mesures et, de manière générale, personnaliser le rapport comme vous le souhaitez.
 
 ### Créer un rapport d’entreprise personnalisé {#company-report}
 
@@ -195,12 +195,12 @@ Autres options de formation :
 
 ### Gestion des rapports d’entreprise {#manage-company-reports}
 
-Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport](assets/report-icon.png). Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
 
 Afficher et gérer les rapports d’entreprise
 
 1. Dans le rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Rapports d’entreprise**.
-Une liste des rapports d’entreprise s’affiche. Aucun projet standard ne s’affiche sauf ceux épinglés.
+Une liste des rapports d’entreprise s’affiche. Tous les projets standard, à moins qu’ils ne soient épinglés, ne s’affichent pas.
 
    ![Affichage des filtres des rapports d’entreprise](assets/company-reports-filter.png)
 
