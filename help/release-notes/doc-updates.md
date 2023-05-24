@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
+source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4191'
 ht-degree: 96%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mai 2023** |  |
+| Icônes de spectre | Remplacement, le cas échéant, des captures d’écran des icônes de l’interface utilisateur dans la documentation par des références aux icônes équivalentes dans [Système de conception du spectre de l&#39;Adobe](https://spectrum.adobe.com/page/icons/). |
 | Amélioration du mappage IP/géolocalisation | Création d’une rubrique sur [Questions fréquentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Gestionnaire des activités de rapport | Mise à jour de cette documentation bêta, en particulier de la section sur [Affichage de l’activité de création de rapports pour des suites de rapports individuelles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Aperçu d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
