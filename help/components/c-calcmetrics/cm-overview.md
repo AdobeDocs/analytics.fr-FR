@@ -4,10 +4,10 @@ keywords: Mesures calculées;mesures dérivées;mesures calculées avancées
 title: Mesures calculées ou calculées avancées (dérivées)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,9 @@ Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, 
 * [Adobe Analytics Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) : calculées + calculées avancées
 * [Adobe Analytics Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html) : calculées + calculées avancées
 
-Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités des mesures calculées et des mesures calculées avancées :
+Voici une comparaison des fonctionnalités des mesures calculées et des mesures calculées avancées :
 
-| Options du créateur | Mesures calculées | Mesures calculées avancées (dérivées) |
+| Options du créateur | Mesures calculées  | Mesures calculées avancées (dérivées) |
 |---|---|---|
 | [Types de format (décimal, heure, pourcentage, devise)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Oui | Oui |
 | [Modifications d’attribution (par défaut, linéaire, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Oui | Oui |
@@ -48,7 +48,7 @@ Vous pouvez
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (Mesures calculées avancées uniquement) Incorporer les fonctions statistiques afin de vous aider à mieux décrire les données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
+* (Mesures calculées avancées uniquement) Incorporez des fonctions statistiques pour vous aider à mieux décrire vos données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
 
 ## Limites {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ Certaines fonctions d’[!DNL Analytics] permettent d’utiliser des événement
 
 ## Outils {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-Vous trouverez un bref aperçu des outils de [!UICONTROL mesures calculées] :
+Voici un bref aperçu de la [!UICONTROL Mesures calculées] outils :
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

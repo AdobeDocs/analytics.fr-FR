@@ -3,7 +3,7 @@ description: La page Mesures calculées offre plusieurs manières d’organiser 
 title: Gestionnaire de mesures calculées
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 La page Mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 
 La page Mesures calculées vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter toutes les mesures personnalisées de l’entreprise.
+
+## Accès au gestionnaire des mesures calculées
+
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**].
 
 ## Zones du gestionnaire des mesures calculées
 
@@ -37,7 +41,3 @@ L’image suivante et le tableau qui l’accompagne décrivent certains des prin
 | Non affiché dans l’image | **Date de modification :** Indique la date de la dernière modification de la mesure personnalisée. |
 
 {style="table-layout:auto"}
-
-## Accès au gestionnaire des mesures calculées
-
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**].

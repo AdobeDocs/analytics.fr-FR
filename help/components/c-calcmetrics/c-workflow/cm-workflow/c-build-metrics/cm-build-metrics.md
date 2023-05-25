@@ -3,10 +3,10 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Créer des mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 991b2a8597ca59aab9869437d7f4097a8f638b90
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 87%
+source-wordcount: '1010'
+ht-degree: 47%
 
 ---
 
@@ -14,128 +14,41 @@ ht-degree: 87%
 
 Adobe Analytics fournit un canevas permettant de faire glisser et de déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou complexes.
 
+## Commencer à créer une mesure calculée
+
 Vous pouvez commencer à créer une mesure calculée de l’une des façons suivantes :
 
 * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Créer une mesure]**.
 * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez l’option **Plus** en regard de l’icône [!UICONTROL **Mesures**] dans le rail de gauche.
 * Dans [!DNL Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**, puis sélectionnez **[!UICONTROL + Ajouter]** en haut de la page Mesures calculées .
 
+## Zones du créateur de mesures calculées
+
+L’image suivante et le tableau qui l’accompagne décrivent certains des principaux domaines et fonctionnalités du Gestionnaire de mesures calculées.
+
 ![](assets/cm_builder_ui.png)
 
-## Champs et zones disponibles {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+| Emplacement dans l’image | Nom et fonction |
+|---|---|
+| 1 | **Titre :** Il est obligatoire d’attribuer un nom à la mesure. Vous ne pouvez pas enregistrer la mesure tant qu’elle ne porte pas de nom. |
+| 2 | **Description :** Donnez-lui une description conviviale pour expliquer son utilisation et pour la distinguer des éléments similaires. <p>La description apparaît également dans le rapport. Il est préférable de NE PAS mettre la formule dans la description. A la place, décrivez ce pour quoi cette mesure doit être utilisée ou ne doit pas être utilisée. (La formule est générée lorsque vous créez la mesure, sous l’en-tête Résumé. Il n’est donc pas nécessaire d’ajouter la formule à la description.) </p> |
+| 3 | **Format :** Décimale, Heure, Pourcentage et Devise font partie des choix possibles. |
+| 4 | **Nombre de décimales :** Indique le nombre de décimales qui s’afficheront dans le rapport. Le nombre maximal de décimales que vous pouvez spécifier est 10. |
+| 5 | **Afficher La Tendance À La Hausse Sous :** Ce paramètre de polarité des mesures indique si Analytics doit considérer une tendance à la hausse dans la mesure comme une bonne (verte) ou une mauvaise (rouge). En conséquence, le graphique du rapport s’affiche en vert ou rouge lorsque la tendance est à la hausse. |
+| 6 | **Balises :** Le balisage est un bon moyen d’organiser les mesures. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un segment. Néanmoins, vous ne pouvez afficher les balises que pour les segments que vous possédez ou qui ont été partagés avec vous. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles :<ul><li>**Noms d’équipes**, par exemple Marketing des réseaux sociaux, Marketing mobile.</li><li>**Projets** (balises d’analyse), telles que l’analyse de la page d’accès.</li><li>**Catégories**, comme la condition féminine ; Géographie.</li><li>**Workflows**, par exemple A valider ; Traités pour (une unité opérationnelle spécifique)</li></ul> |
+| 7 | **Résumé:** <p>La formule Résumé se met à jour chaque fois que vous apportez une modification à une définition de mesure. Cette formule s’affiche également dans le rail des mesures à gauche lorsque vous passez la souris sur une mesure et cliquez sur le <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> icône . </p> |
+| 8 | **Définition :** C’est là que vous faites glisser des mesures/mesures calculées, des segments et/ou des fonctions pour créer la mesure calculée. <ul><li>Si vous faites glisser une mesure calculée, elle développe automatiquement sa définition de mesure. </li> <li>Vous pouvez imbriquer des définitions dans des conteneurs. Néanmoins, à la différence des conteneurs de segments, ces conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. </li> </ul> |
+| 9 | **Opérateur :** Divisé par ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) est l’opérateur par défaut, plus les opérateurs +, - et x. |
+| 10 | **Aperçu :** Fournit une lecture rapide des erreurs possibles. L’aperçu couvre les 90 derniers jours. C’est une manière d’évaluer initialement si vous avez sélectionné les composants appropriés à votre mesure. Un résultat inattendu signifie que vous devez vérifier à nouveau la définition de mesure. |
+| 11 | **Compatibilité des produits:** <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=fr"  >données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> |
+| 12 | **Ajouter :** Pour tous les types de mesures calculées, vous pouvez ajouter des conteneurs et des nombres statiques à la définition. Pour les mesures calculées avancées, vous pouvez également ajouter des segments et des fonctions. <ul><li>Les conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. De ce fait, tout ce que contient un conteneur sera traité avant l’opération suivante.</li><li>Le glissement d’un segment vers un conteneur segmente tout ce que contient ce conteneur. (Mesures calculées avancées uniquement)</li><li>Vous pouvez empiler plusieurs segments dans un conteneur.</li></ul> |
+| 13 | **Icône d’engrenage (type de mesure, attribution) :** La sélection de l’icône d’engrenage en regard d’une mesure vous permet de spécifier la variable <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > type de mesure et modèles d’attribution </a>. |
+| 14 | **Nouveau :** Vous permet de créer un composant, tel qu’un nouveau segment (qui vous permet d’accéder à la fonction <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Créateur de segments </a>.) |
+| 15 | **Recherche de composants :** Cette barre de recherche permet de rechercher des dimensions, des mesures, des segments (mesures calculées avancées uniquement) et des fonctions (mesures calculées avancées uniquement). |
+| 16 | **Liste des Dimensions :** Plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple &quot;Page = Page d’accueil&quot;, vous pouvez faire glisser Page et sélectionner Page d’accueil directement dans le créateur de mesures calculées.<p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel.</p> |
+| 17 | **Liste des mesures :** Les mesures se divisent en 3 catégories : <ul> <li>Mesures standard (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Mesures calculées ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modèles de mesures ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - en bas de la liste. </li> </ul> <p>Lorsque vous passez la souris sur une mesure, vous pouvez voir l’icône Infos à droite de celle-ci : <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Le fait de cliquer sur cette icône vous donne les informations suivantes : </p><ul> <li>La formule de calcul. </li><li>Une tendance d’aperçu de la mesure. </li><li>Icône de modification (crayon) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en haut à droite, vous accédez au créateur de mesures calculées où vous pouvez modifier cette mesure calculée. </li></ul> |
+| 18 | **Liste de segments :** (Mesures calculées avancées uniquement) En tant qu’administrateur, cette liste répertorie tous les segments créés dans votre société de connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=fr"  > Plus... </a> |
+| 19 | **Liste des fonctions :** (Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > De base </a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avancé </a>. |
+| 20 | **Sélecteur de suite de rapports :** Permet de basculer vers une autre suite de rapports. |
 
-<table id="table_60A82936321047D1A335331BF83B0972"> 
- <thead> 
-  <tr> 
-   <th colname="col2" class="entry"> Champ </th> 
-   <th colname="col3" class="entry"> Description </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Titre </span> </td> 
-   <td colname="col3"> <p>La dénomination de la mesure est obligatoire. Vous ne pouvez pas enregistrer la mesure tant qu’elle ne porte pas de nom. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Description </span> </td> 
-   <td colname="col3"> <p>Donnez-lui une description conviviale afin d’expliquer son utilisation et pour la distinguer de mesures similaires. </p> <p>La description apparaît également dans le rapport. Il est préférable de NE PAS mettre la formule dans la description. A la place, décrivez ce pour quoi cette mesure doit être utilisée ou ne doit pas être utilisée. (La formule est générée lorsque vous créez la mesure, sous l’en-tête Résumé. Il n’est donc pas nécessaire d’ajouter la formule à la description.) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Format </span> </td> 
-   <td colname="col3"> <p>Décimale, Heure, Pourcentage et Devise font partie des choix possibles. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Nombre de décimales </span> </td> 
-   <td colname="col3"> <p>Affiche le nombre de décimales qui apparaîtra dans le rapport. Le nombre maximal de décimales que vous pouvez spécifier est 10. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Tendance à la hausse affichée... </span> </td> 
-   <td colname="col3"> <p>Ce paramètre de polarité des mesures indique si Analytics doit considérer une tendance à la hausse dans la mesure comme un événement positif (vert) ou négatif (rouge). En conséquence, le graphique du rapport s’affiche en vert ou rouge lorsque la tendance est à la hausse. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Balises </span> </td> 
-   <td colname="col3"> <p>Le balisage est un moyen efficace d’organiser les mesures. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un segment. Néanmoins, vous ne pouvez afficher les balises que pour les segments que vous possédez ou qui ont été partagés avec vous. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles : 
-     <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
-      <li id="li_A8815F2D8D284874AD701A7B103D82A3">Des balises basées sur des <b>noms d’équipe</b>, par exemple Marketing des réseaux sociaux, Marketing des périphériques mobiles. </li> 
-      <li id="li_A51A4515A541488E9D90296A955E9F4F">Les balises <b>Projet</b> (balises d’analyse), telle que l’analyse de la page d’accès. </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3">Les balises <b>Catégorie</b> : Hommes ; géographie. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B">Les balises <b>Processus</b> : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique). </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Résumé </span> </td> 
-   <td colname="col3"> <p>La formule <span class="uicontrol">Résumé</span> se met à jour chaque fois que vous apportez une modification à une définition de mesure. Cette formule s’affiche également dans le rail des mesures à gauche lorsque vous passez la souris sur une mesure et cliquez sur l’icône <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" />. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Définition </span> </td> 
-   <td colname="col3"> <p>Il s’agit de l’emplacement où vous faites glisser les mesures/mesures calculées, les segments, et/ou les fonctions permettant de créer la mesure calculée. </p> <p> 
-     <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
-      <li id="li_01776C32C7C5440AA1F847096CBED92B">Si vous faites glisser une mesure calculée, elle développe automatiquement sa définition de mesure. </li> 
-      <li id="li_A483D352522E4572AB43042473053359">Vous pouvez imbriquer des définitions dans des conteneurs. Néanmoins, à la différence des conteneurs de segments, ces conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Opérateur </span> </td> 
-   <td colname="col3"> <p>L’opérateur de division ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) est l’opérateur par défaut. Il existe également les opérateurs +, - et x. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Aperçu </span> </td> 
-   <td colname="col3"> <p>Fournit une lecture rapide des erreurs possibles. L’aperçu couvre les 90 derniers jours. C’est une manière d’évaluer initialement si vous avez sélectionné les composants appropriés à votre mesure. Un résultat inattendu signifie que vous devez vérifier à nouveau la définition de mesure. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Compatibilité des produits </span> </td> 
-   <td colname="col3"> <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=fr"  >données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> Ajouter </span> </td> 
-   <td colname="col3"> <p>Pour tous les types de mesures calculées, vous pouvez ajouter des conteneurs et des nombres statiques à la définition. Pour les mesures calculées avancées, vous pouvez également ajouter des segments et des fonctions. </p> <p> 
-     <ul id="ul_607C1B303F334062BC620317667DE490"> 
-      <li id="li_53462789B8AF4F1AA9B45565D37CF22B">Les conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. De ce fait, tout ce que contient un conteneur sera traité avant l’opération suivante. </li> 
-      <li id="li_401A9E0D8B3B468990289DBF66A06F63">Le glissement d’un segment vers un conteneur segmente tout ce que contient ce conteneur. (Mesures calculées avancées uniquement) </li> 
-      <li id="li_F191B200D7A944F9ADC0573A9A82A6DA">Vous pouvez empiler plusieurs segments dans un conteneur. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Icône représentant un engrenage (<span class="uicontrol">Type de mesure</span>, <span class="uicontrol"> Attribution </span>) </td> 
-   <td colname="col3"> <p>Lorsque vous sélectionnez l’icône représentant un engrenage en regard d’une mesure, vous pouvez spécifier <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >le type de mesure et les modèles d’attribution </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <span class="uicontrol"> + Nouveau </span> </td> 
-   <td colname="col3"> <p>Permet de créer un composant tel qu’un nouveau segment (grâce auquel vous accédez au <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >créateur de segments</a>). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Recherche de composants </p> </td> 
-   <td colname="col3"> <p>Cette barre de recherche permet de rechercher des dimensions, des mesures, des segments (mesures calculées avancées uniquement) et des fonctions (mesures calculées avancées uniquement). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Liste des dimensions </p> </td> 
-   <td colname="col3"> <p>Plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple « Page = Page d’accueil », vous pouvez faire glisser Page et sélectionner Page d’accueil directement dans le créateur de mesures calculées. </p> <p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Liste des mesures </p> </td> 
-   <td colname="col3"> <p>Les mesures sont réparties en 3 catégories : </p> 
-    <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
-     <li id="li_90F2312927A6499CA1CE04F8FFC912CF">Mesures standard ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
-     <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">Mesures calculées ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
-     <li id="li_8735E76637ED4C3F983731A66E04C93E">Modèles de mesures (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - à la fin de la liste. </li> 
-    </ul> <p>Lorsque vous passez le curseur sur une mesure, vous pouvez voir l’icône Infos à droite de celle-ci : <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Le fait de cliquer sur cette icône vous donne les informations suivantes : </p> 
-    <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
-     <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">La formule de calcul. </li> 
-     <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">Une tendance d’aperçu de la mesure. </li> 
-     <li id="li_44C1595E4BE64ED69D1DB3BB6655ED55">Icône de modification (crayon) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en haut à droite, vous accédez au créateur de mesures calculées où vous pouvez modifier cette mesure calculée. </li> 
-    </ul> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Liste des segments </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Si vous êtes l’administrateur, cette liste affiche tous les segments créés dans votre société utilisée pour la connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=fr"  > Plus... </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Liste des fonctions </p> </td> 
-   <td colname="col3"> <p>(Mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes :  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >De base</a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avancée</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Sélecteur de suite de rapports </p> </td> 
-   <td colname="col3"> <p>Permet de basculer vers une suite de rapports différente. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}

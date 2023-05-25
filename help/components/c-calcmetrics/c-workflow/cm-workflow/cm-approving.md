@@ -3,16 +3,22 @@ description: Dans le Gestionnaire de mesures calculées, vous pouvez définir un
 title: Approbation des mesures calculées
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # Approbation des mesures calculées
 
-Dans le gestionnaire des mesures calculées, vous pouvez configurer un processus qui inclut des mesures d’approbation pour différents niveaux d’application et pour des services ou des groupes spécifiques.
+Dans le gestionnaire des mesures calculées, les administrateurs peuvent configurer un processus qui inclut des mesures d’approbation pour différents niveaux d’application et pour des services ou des groupes spécifiques.
+
+>[!NOTE]
+>
+>Les administrateurs peuvent également approuver les mesures calculées (et d’autres composants) à partir du dictionnaire de données, comme décrit dans la section [Modifier les entrées de composant dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>Toutes les mesures calculées qui sont approuvées dans le dictionnaire de données sont répercutées dans le gestionnaire des mesures calculées. De même, les mesures approuvées dans le gestionnaire de mesures calculées sont répercutées dans le dictionnaire de données.
 
 Pour marquer les mesures calculées comme approuvées :
 
