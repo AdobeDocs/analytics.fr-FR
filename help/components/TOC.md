@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -185,15 +185,15 @@ ht-degree: 95%
    + Workflow des mesures calculées {#calcmetric-workflow}
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Création de mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Créer des mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Création d’une mesure &quot;Pages vues par visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Création d’une mesure &quot;Aide à la commande&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Création d’une mesure &quot;Participation&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [Création d’une mesure simple « Pages vues par visite »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Mesures filtrées et pondérées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [Mesure d’aide à la commande](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Utilisation des fonctions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Mesure de participation](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Balisage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Approbation des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)

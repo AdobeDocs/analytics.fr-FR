@@ -4,7 +4,7 @@ title: Aperçu des composants
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 66%
@@ -103,8 +103,6 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
 
 ### Filtrage de la liste des composants
 
-{{release-limited-testing-section}}
-
 1. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
 2. Sélectionnez la **Filtrer** icon ![Icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
@@ -129,6 +127,8 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
 4. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Tri de la liste des composants](#sort-the-component-list).
 
 ### Tri de la liste des composants
+
+{{release-limited-testing-section}}
 
 1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrage de la liste des composants](#filter-the-component-list).
 

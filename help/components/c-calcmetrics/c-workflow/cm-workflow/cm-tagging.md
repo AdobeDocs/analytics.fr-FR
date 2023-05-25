@@ -3,34 +3,53 @@ description: Dans le Gestionnaire de mesures calculées, le balisage des segment
 title: Balisage des mesures calculées
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '278'
+ht-degree: 19%
 
 ---
 
 # Balisage des mesures calculées
 
-Dans le Gestionnaire de mesures calculées, le balisage des segments permet de les organiser.
+Dans le Gestionnaire de mesures calculées, vous pouvez organiser les segments en les balisant.
 
-Tous les utilisateurs peuvent créer des balises pour les mesures calculées et en appliquer une ou plusieurs à une mesure. Néanmoins, vous ne pouvez afficher les balises que pour les mesures calculées que vous possédez ou qui ont été partagées avec vous. Quels types de balises devriez-vous créer ? Vous trouverez ci-dessous quelques suggestions de balises utiles :
+Tous les utilisateurs peuvent créer des balises pour les mesures calculées et en appliquer une ou plusieurs à une mesure. Néanmoins, vous ne pouvez afficher les balises que pour les mesures calculées que vous possédez ou qui ont été partagées avec vous.
 
-* Des balises basées sur des **noms d’équipe**, par exemple Marketing des réseaux sociaux, Marketing des périphériques mobiles.
-* Les balises **Projet** (balises d’analyse), telle que l’analyse de la page d’accès.
-* Les balises **Catégorie** : Hommes ; géographie.
-* Les balises **Processus** : Sous réserve d’approbation ; Organisé pour (une unité opérationnelle spécifique).
+>[!TIP]
+>
+>Les types de balises les plus utiles sont généralement les balises basées sur les critères suivants :
 
-1. Dans le Gestionnaire de mesures calculées, cochez la case en regard de la mesure que vous souhaitez baliser. La barre d’outils de gestion apparaît :
-1. Cliquez sur **[!UICONTROL Balise]** et
+* **Noms d’équipes**, par exemple Marketing des réseaux sociaux, Marketing mobile.
+* **Projets** (balises d’analyse), telles que l’analyse de la page d’accès.
+* **Catégories**, comme la condition féminine ; Géographie.
+* **Workflows**, par exemple A valider ; Traités pour (une unité opérationnelle spécifique)
 
-   * effectuez une sélection dans les balises existantes, ou
-   * ajoutez un nouveau nom de balise dans la boîte de dialogue Ajouter des balises/Rechercher et appuyez sur **[!UICONTROL Entrée]**.
+## Application de balises à une mesure calculée
 
-      ![](assets/cm_add_tags.png)
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire des mesures calculées.
 
-1. Cliquez à nouveau sur **[!UICONTROL Balise]** pour marquer la mesure.
+1. Dans le gestionnaire des mesures calculées, cochez la case en regard des mesures que vous souhaitez baliser.
 
-La balise doit à présent apparaître dans la colonne Balises. (Cliquez sur l’icône en forme d’engrenage dans la partie supérieure droite pour gérer vos colonnes.)
+   ![](assets/cm_add_tags.png)
 
-Vous pouvez également filtrer par balises en accédant à **[!UICONTROL Afficher les filtres]** > **[!UICONTROL Balises]**.
+1. Dans le **[!UICONTROL Baliser la mesure calculée]** boîte de dialogue :
+
+   * Ajoutez une nouvelle balise. Saisissez le nom dans le champ [!UICONTROL **Ajout de balises**] puis appuyez sur Entrée.
+   * Sélectionnez une ou plusieurs balises existantes à appliquer aux mesures sélectionnées.
+
+1. Sélectionner [!UICONTROL **Enregistrer**] pour appliquer les balises.
+
+## Affichage des balises appliquées
+
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire des mesures calculées.
+
+1. Dans le gestionnaire des mesures calculées, les balises apparaissent dans la variable [!UICONTROL **Balises**] colonne . (Cliquez sur l’icône d’engrenage en haut à droite pour gérer vos colonnes.)
+
+## Filtrage des mesures par balises
+
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire des mesures calculées.
+
+1. Dans le gestionnaire des mesures calculées, sélectionnez la variable **Filtrer** , puis sélectionnez les balises par lesquelles vous souhaitez filtrer.
+
+   Seules les mesures qui comportent le filtre sélectionné s’affichent.
