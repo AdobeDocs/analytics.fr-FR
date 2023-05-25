@@ -3,7 +3,7 @@ title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 99%
@@ -18,18 +18,18 @@ ht-degree: 99%
 >
 >Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, tel que décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
-Les canaux marketing sont généralement utilisés pour savoir comment les visiteurs sont parvenus sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
+Les canaux marketing sont généralement utilisés pour fournir des informations sur la façon dont les visiteurs arrivent sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
 Les canaux marketing sont axés sur les mesures Première touche et Dernière touche qui sont des composants des mesures de conversion standard.
 
 ## Processus des canaux marketing
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) Définir chaque canal en fonction de vos besoins.
+![](assets/step1_icon.png) Définir chaque canal en fonction de vos besoins.
 
 La définition des canaux que vous utilisez constitue l’une des tâches les plus importantes. Elle peut demander un travail de collaboration avec plusieurs personnes de votre entreprise. Voici quelques questions que vous devez vous poser :
 
 * Utilisez-vous une recherche payante ?
-* Utilisez-vous des campagnes par courrier électronique ? Utilisez-vous plusieurs campagnes par courrier électronique dont vous souhaitez effectuer le suivi séparément ?
+* Utilisez-vous des campagnes par e-mail ? Utilisez-vous plusieurs campagnes par e-mail dont vous souhaitez effectuer le suivi séparément ?
 * Des affiliés redirigent-ils le trafic vers votre site ? Souhaitez-vous effectuer le suivi de certains affiliés séparément ?
 * Tireriez-vous avantage de suivre certaines campagnes externes de manière séparée ?
 * Voulez-vous regrouper tous les sites de réseau social ou souhaitez-vous en suivre certains séparément ?
@@ -37,7 +37,7 @@ La définition des canaux que vous utilisez constitue l’une des tâches les pl
 
 Vous trouverez une liste des canaux recommandés dans la section  [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png) Ajoutez des canaux marketing dans la page [!UICONTROL Gestionnaire de canaux marketing].
+![](assets/step2_icon.png) Ajoutez des canaux marketing dans la page [!UICONTROL Gestionnaire de canaux marketing].
 
 Après avoir défini les canaux à suivre, vous devez les activer dans **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
@@ -49,7 +49,7 @@ Voir [Ajout de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit
 >
 >Si les canaux marketing n’ont pas été configurés précédemment, la [configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md) s’affiche. Elle propose plusieurs canaux préconfigurés que vous pouvez personnaliser. Adobe recommande d’utiliser ces règles en tant que modèle. Si vous disposez toutefois de définitions de canaux fiables, vous pouvez ignorer la configuration automatique.
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Configurer ou affiner les règles de chaque canal sur la page [!UICONTROL Règles de traitement des canaux marketing].
+![](assets/step3_icon.png) Configurer ou affiner les règles de chaque canal sur la page [!UICONTROL Règles de traitement des canaux marketing].
 
 Une fois les canaux créés sur la page [!UICONTROL Gestionnaire de canaux marketing], vous pouvez configurer les règles pour qu’ils puissent extraire les données en vue de créer des rapports.
 

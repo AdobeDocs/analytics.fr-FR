@@ -3,10 +3,10 @@ description: Le Gestionnaire de segments offre plusieurs manières d’organiser
 title: Gestion des segments (Gestionnaire de segments)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ Le Gestionnaire de segments offre plusieurs manières d’organiser les segments
 Le Gestionnaire de segments Analytics vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter tous les segments de l’entreprise. Cet aperçu présente l’interface utilisateur et les fonctionnalités du Gestionnaire de segments. Accédez au Gestionnaire de segments en procédant comme suit :
 
 * Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]** dans le volet de navigation supérieur.
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](assets/segment_icon.png) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**.
+* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**.
 
 ## Vidéo pratique {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

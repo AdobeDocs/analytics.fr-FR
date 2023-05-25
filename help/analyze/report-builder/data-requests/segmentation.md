@@ -4,10 +4,10 @@ title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 ## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Chaque segment créé dans Reports &amp; Analytics, Report Builder ou Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser (![](assets/refresh_icon.png)).
+Chaque segment créé dans Reports &amp; Analytics, Report Builder ou Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
@@ -60,7 +60,7 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
    ![](assets/seg_list.png)
 
-1. Cochez le ou les segments que vous souhaitez appliquer.
+2. Cochez le ou les segments que vous souhaitez appliquer.
 
 >[!NOTE]
 >
@@ -103,7 +103,7 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
 ## Actualisation de la liste de segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser (![](assets/refresh_icon.png) afin d’actualiser la liste mise en cache de segments.
+Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour actualiser la liste mise en cache de segments.
 
 ## Gérer les segments à travers les requêtes {#section_C3D63FCBE1A94369A319243313B03C93}
 

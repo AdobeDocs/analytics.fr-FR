@@ -3,10 +3,10 @@ description: Selon vos autorisations, vous pouvez partager des mesures calculée
 title: Partage des mesures calculées
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 24%
+source-wordcount: '324'
+ht-degree: 25%
 
 ---
 
@@ -23,11 +23,13 @@ Pour partager une mesure calculée :
 
 1. Dans le Gestionnaire de mesures calculées, cochez la case à gauche des mesures que vous souhaitez partager.
 
-1. Sélectionnez **[!UICONTROL Partager]**.
+1. Cliquez sur l’icône **[!UICONTROL Partager.]**![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    La boîte de dialogue Partager la mesure calculée s’affiche.
 
    ![](assets/cm_share.png)
+
+1. Cliquez sur **[!UICONTROL Partager]**.
 
 1. Choisissez avec qui vous souhaitez partager :
 
@@ -45,6 +47,9 @@ Pour partager une mesure calculée :
 
 1. Sélectionnez **[!UICONTROL Partager]**.
 
-   L’icône Partagé s’affiche en regard de la mesure : ![](assets/share_icon.png)
+   L’icône Partagé s’affiche en regard de la mesure :  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+
+1. Vous pouvez filtrer par mesures partagées avec vous en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Partagé avec moi]**.
 
 1. (Facultatif) Pour filtrer la liste des mesures calculées dans le gestionnaire des mesures calculées afin de n’afficher que celles qui sont partagées avec vous, sélectionnez l’option **Filtrer** icône, développer **[!UICONTROL Autres filtres]**, puis sélectionnez **[!UICONTROL Partagé avec moi]**.
+

@@ -3,10 +3,10 @@ description: Selon vos autorisations, vous pouvez partager des segments avec l�
 title: Partage des segments
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -25,16 +25,12 @@ Selon vos autorisations, vous pouvez partager des segments avec l’ensemble de 
 * En tant qu’administrateur, partagez un segment avec un **[!UICONTROL Groupe]** spécifique si le segment offre une valeur ajoutée intéressante à l’équipe en question. N’approuvez pas officiellement ce type de segment.
 * En tant qu’administrateur ou utilisateur individuel, le partage d’un segment avec d’autres individus approuve et valide le segment en question. S’il ne s’avère pas utile, il peut être ignoré. N’approuvez pas officiellement ce type de segment.
 
-1. Dans le Gestionnaire de segments, cochez la case en regard du segment que vous souhaitez partager. La barre d’outils de gestion des segments apparaît :
+1. Dans le Gestionnaire de segments, cochez la case en regard du segment que vous souhaitez partager. La barre d’outils de gestion des segments s’affiche.
 
-   ![](assets/segment_mgmt_toolbar.png)
-
-1. Cliquez sur **[!UICONTROL Partager]**.
-
-   ![](assets/sharing_segments.png)
+2. Cliquez sur **[!UICONTROL Partager]** ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
    Si vous êtes administrateur, vous pouvez sélectionner **[!UICONTROL Tous]** ou effectuer une sélection dans les **[!UICONTROL Groupes]** et **[!UICONTROL Utilisateurs]** de votre entreprise. En tant que non administrateur, vous ne pouvez consulter que les utilisateurs individuels. Utilisez le champ **[!UICONTROL Rechercher]** pour rechercher des groupes ou des utilisateurs. 1. Cliquez sur **[!UICONTROL Partager]**.
 
-   L’icône Partagé s’affiche en regard du segment : ![](assets/share_icon.png)
+   L’icône Partagé s’affiche en regard du segment : ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
-1. Vous pouvez filtrer par segments partagés avec vous en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Partagés avec moi]**.
+3. Vous pouvez filtrer par segments partagés avec vous en accédant à **[!UICONTROL Filtres]** > **[!UICONTROL Autres filtres]** > **[!UICONTROL Partagés avec moi]**.
