@@ -3,16 +3,16 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: d6c42d359699a574411f461485f6c8818c095b62
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 86%
+source-wordcount: '1499'
+ht-degree: 78%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Mai 2023)
 
-**Dernière mise à jour** : 17 mai 2023
+**Dernière mise à jour** : 25 mai 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -38,6 +38,7 @@ AN-312098 ; AN-318309 ; AN-316675 ; AN-318173 ; AN-310359 ; AN-317613 ; AN
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Expiration de 37 mois des identifiants d’achat et d’événement (sérialisation d’événements)** | Mai 25,2023 | Une prochaine version du moteur de traitement des accès Analytics, destinée à être publiée dans **fin juin 2023 ou début juillet 2023**, commence à appliquer une expiration de 37 mois pour les identifiants d’achat et les identifiants d’événement (sérialisation d’événements). Actuellement, les identifiants d’achat et d’événement n’expirent jamais dans Adobe Analytics. Une fois qu’un identifiant d’achat ou un identifiant d’événement est affiché/utilisé, tout accès futur, peu importe quand, verra cet achat ou cet événement marqué comme un doublon. Avec la nouvelle version du moteur de traitement,<ul><li>Les identifiants d’achat et d’événement expirent toujours après 37 mois.</li><li>Si 37 mois se sont écoulés depuis que l’ID d’achat ou l’ID d’événement a été affiché, il n’est plus considéré comme un achat ou un événement en double.</li><li> Si vous &quot;réutilisez&quot; les identifiants d’achat ou d’événement d’il y a plus de 37 mois, ils ne sont plus considérés comme des doublons.</li></ul> |
 | **Migration vers les informations d’identification Adobe IO OAuth serveur à serveur** | 11 mai 2023 | L’API Adobe Analytics et les clients Livestream qui utilisent les informations d’identification JWT d’Adobe IO doivent migrer vers les informations d’identification OAuth serveur à serveur d’Adobe IO par **1er janvier 2025**. Pour plus d’informations et de chronologies, reportez-vous à l’avis de fin de vie dans le tableau ci-dessous. |
 | **Remarque : nouvelles adresses IP utilisées par les flux de données Adobe Analytics et la sortie de Data Warehouse dans le centre de données de Londres.** | 27 avril 2023 | Pour les clients et clientes du centre de données de Londres qui ont des demandes de flux de données et/ou des rapports de Data Warehouse diffusés vers un service FTP/SFTP, les plages d’adresses IP suivantes doivent être ajoutées à la configuration de votre pare-feu afin d’autoriser l’accès : <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **Les processus de recherche d’appareils utilisent désormais un service tiers lors de la recherche** | 3 mars 2023 | Le 2 mars 2023, dans le cadre du déploiement du support pour les indications du client, nous avons mis à jour nos processus de recherche d’appareils, qui sont désormais confiés à un service tiers. Ce dernier était déjà utilisé lors de la recherche d’appareils mobiles uniquement. Dans le cadre de ce déploiement, certains systèmes d’exploitation de bureau ont été libellés de manière incorrecte avec le texte « mobile » (par exemple, « Mobile OS X 10.15.7 » au lieu de « OS X 10.15.7 »).<p>La version d’avril d’Adobe y apportera un correctif. Les rapports Analytics et CJA seront mis à jour rétroactivement, car leurs rapports recherchent le nom du système d’exploitation en fonction d’un identifiant enregistré dans les données d’événement. Une fois que la valeur de recherche correspondant à un identifiant est mise à jour, tous les rapports seront corrigés, y compris les données historiques. Pour [!UICONTROL Flux de données] clients, les modifications sont rétroactives si vous utilisez un processus de recherche similaire au moment de la création de rapports. Cependant, si vous stockez la valeur du système d’exploitation dans vos données d’événement, les rapports ne seront mis à jour qu’ultérieurement. Pour plus de détails, consultez la section [Système d’exploitation](/help/components/dimensions/operating-systems.md). |
