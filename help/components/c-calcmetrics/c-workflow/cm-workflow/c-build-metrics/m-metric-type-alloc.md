@@ -3,9 +3,9 @@ description: En savoir plus sur les
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 73%
 
 ---
@@ -29,9 +29,7 @@ Pour spécifier le type de mesure lors de la création d’une mesure calculée 
    | Standard | Ces mesures sont les mêmes mesures que celles utilisées dans la création de rapports standard [!DNL Analytics]. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque ligne. Par exemple, [Commandes] / [Visites] utilise des commandes pour cette ligne spécifique et la divise par le nombre de visites correspondant à cette ligne spécifique. |
    | Total général | Utilisez Total général pour la période de création de rapports dans chaque ligne. Si une formule est composée d’une seule mesure Total général, elle affiche le même nombre total sur chaque ligne. Les mesures totales globales sont utiles pour créer des mesures calculées qui se comparent au total des données du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur la ligne spécifique objet. |
 
-## Modèle d’attribution de colonnes
-
-## Fonctionnement de l’affectation linéaire (à partir du 19 juillet 2018)
+## Fonctionnement de l’affectation linéaire
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) est la manière dont les modèles d’attribution dans les mesures calculées sont évalués.
 

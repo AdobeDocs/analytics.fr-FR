@@ -3,10 +3,10 @@ description: Explique comment créer une mesure qui indique les canaux marketing
 title: Mesure Aide à la commande
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '199'
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ Les informations suivantes expliquent comment créer une mesure qui indique les 
 
 1. Commencez à créer une mesure calculée, comme décrit dans la section [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Dans le créateur de mesures calculées, nommez la mesure &quot;Commandes assistées&quot;.
+1. Dans le créateur de mesures calculées, nommez la mesure &quot;Commandes assistées&quot; ou quelque chose de similaire.
 
 1. Dans le canevas Définition, faites glisser une mesure Commandes. Ensuite, ajustez le modèle d’attribution par le biais de l’icône engrenage des paramètres en cochant la case **[!UICONTROL Utiliser des modèles d’attribution qui ne sont pas par défaut]**.
 

@@ -3,18 +3,16 @@ description: Indique comment créer une mesure simple « Pages vues par visite�
 title: Création d’une mesure simple « Pages vues par visite »
 feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '234'
 ht-degree: 54%
 
 ---
 
-# Création d’une mesure simple « Pages vues par visite »
+# Création d’une mesure &quot;Pages vues par visite&quot;
 
 Les informations suivantes expliquent comment créer une mesure simple &quot;Pages vues par visite&quot;.
-
-Pour obtenir une description détaillée des composants de l’interface utilisateur, voir [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Pour créer une mesure simple &quot;Pages vues par visite&quot; :
 

@@ -3,10 +3,10 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Créer des mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -24,7 +24,7 @@ Vous pouvez commencer à créer une mesure calculée de l’une des façons suiv
 
 ## Zones du créateur de mesures calculées
 
-L’image suivante et le tableau qui l’accompagne décrivent certains des principaux domaines et fonctionnalités du Gestionnaire de mesures calculées.
+L’image suivante et le tableau qui l’accompagne décrivent certains des principaux domaines et fonctionnalités du créateur de mesures calculées.
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ L’image suivante et le tableau qui l’accompagne décrivent certains des prin
 | 8 | **Définition :** C’est là que vous faites glisser des mesures/mesures calculées, des segments et/ou des fonctions pour créer la mesure calculée. <ul><li>Si vous faites glisser une mesure calculée, elle développe automatiquement sa définition de mesure. </li> <li>Vous pouvez imbriquer des définitions dans des conteneurs. Néanmoins, à la différence des conteneurs de segments, ces conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. </li> </ul> |
 | 9 | **Opérateur :** Divisé par ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) est l’opérateur par défaut, plus les opérateurs +, - et x. |
 | 10 | **Aperçu :** Fournit une lecture rapide des erreurs possibles. L’aperçu couvre les 90 derniers jours. C’est une manière d’évaluer initialement si vous avez sélectionné les composants appropriés à votre mesure. Un résultat inattendu signifie que vous devez vérifier à nouveau la définition de mesure. |
-| 11 | **Compatibilité des produits:** <p>La compatibilité des produits montre si la mesure est compatible avec les <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=fr"  >données actives</a>, avec les données entièrement traitées, ou uniquement avec les rapports Canaux marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> |
+| 11 | **Compatibilité des produits :** La compatibilité des produits indique si la mesure est compatible avec <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=fr"  > Données actives </a>, avec des données entièrement traitées ou uniquement avec des rapports Canal marketing (allocation de première touche). <p>Remarque : Les données actives ne prennent pas en charge toutes les mesures. Les mesures qui comportent des segments ou des fonctions ne sont pas compatibles avec les données actives. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Plus... </a> </p> </p> |
 | 12 | **Ajouter :** Pour tous les types de mesures calculées, vous pouvez ajouter des conteneurs et des nombres statiques à la définition. Pour les mesures calculées avancées, vous pouvez également ajouter des segments et des fonctions. <ul><li>Les conteneurs fonctionnent comme une expression mathématique et déterminent la séquence des opérations. De ce fait, tout ce que contient un conteneur sera traité avant l’opération suivante.</li><li>Le glissement d’un segment vers un conteneur segmente tout ce que contient ce conteneur. (Mesures calculées avancées uniquement)</li><li>Vous pouvez empiler plusieurs segments dans un conteneur.</li></ul> |
 | 13 | **Icône d’engrenage (type de mesure, attribution) :** La sélection de l’icône d’engrenage en regard d’une mesure vous permet de spécifier la variable <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > type de mesure et modèles d’attribution </a>. |
 | 14 | **Nouveau :** Vous permet de créer un composant, tel qu’un nouveau segment (qui vous permet d’accéder à la fonction <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Créateur de segments </a>.) |
