@@ -3,7 +3,7 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 55c7f9223328cc629a2155dfb472aeae50d6f448
+source-git-commit: 8f74d43dc5312763093a8a47e4c92b40a17d725c
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 77%
@@ -12,7 +12,7 @@ ht-degree: 77%
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Mai 2023)
 
-**Dernière mise à jour** : 26 mai 2023
+**Dernière mise à jour** : 30 mai 2023
 
 Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -21,7 +21,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Renvoi pour les sandbox hors production** | Lors de la création d’un flux de données du connecteur source Analytics dans un sandbox hors production, le renvoi dans les sandbox hors production sera limité à 3 mois. Il sera toujours de 13 mois pour les sandbox de production. | S.O. | 26 avril 2023 |
-| **Partage de liens pour les projets (aucune connexion requise)** | Vous pouvez désormais partager des liens en lecture seule vers les projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela inclut le partage avec des personnes hors de votre organisation, ou avec des personnes au sein de votre organisation qui ne sont pas configurées pour Adobe Analytics. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr#share-public-link)<p>Cette fonctionnalité est activée par défaut et peut être désactivée par l’administrateur ou administratrice système. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=fr)</p> | 3 mai 2023 | Juin 2023 |
+| **Partage de liens pour les projets (aucune connexion requise)** | Vous pouvez désormais partager des liens en lecture seule vers les projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela inclut le partage avec des personnes hors de votre organisation, ou avec des personnes au sein de votre organisation qui ne sont pas configurées pour Adobe Analytics. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr#share-public-link)<p>Cette fonctionnalité est activée par défaut et peut être désactivée par l’administrateur ou administratrice système. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=fr)</p> | 3 mai 2023 | 5 juin 2023 |
 | **Écran d’accueil mis à jour pour l’application de tableaux de bord Analytics (application mobile)** | Le nouvel écran d’accueil mis à jour vous permet d’afficher toutes vos cartes de performances dans une seule liste consolidée.  Si vous avez accès à plusieurs organisations sous une seule connexion, toutes les cartes de performances de vos organisations seront disponibles dans une seule liste. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html#use-dashboards) | S.O. | 10 mai 2023 |
 | **Tri des composants dans Analysis Workspace** | Une nouvelle option de tri est désormais disponible lorsque vous affichez des composants dans le rail de gauche ou dans le dictionnaire de données dans Analysis Workspace. Vous pouvez trier les composants par Recommandé (ceux qui sont les plus couramment utilisés), Ordre alphabétique ou par Catégorie (type).<p>Auparavant, vous pouviez uniquement rechercher ou filtrer des composants. [En savoir plus](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | S.O. | À confirmer |
 | **Suppression de lignes contenant des dimensions dynamiques d’un tableau à structure libre** | Dans un tableau à structure libre d’Analysis Workspace, vous pouvez désormais supprimer rapidement des lignes spécifiques contenant des dimensions dynamiques à l’aide de l’icône x. Dans ce cas, une règle de filtre &quot;Toujours exclure les éléments&quot; est automatiquement appliquée.<p>Auparavant, la seule manière de supprimer des lignes contenant des dimensions dynamiques consistait à créer manuellement une règle dans la boîte de dialogue Filtre. [En savoir plus](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | S.O. | 17 mai 2023 |
