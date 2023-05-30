@@ -4,10 +4,10 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 68%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
@@ -25,7 +25,7 @@ Voici les types de panneau disponibles dans Analysis Workspace :
 | [Panneau Quick Insights](quickinsight.md) | Construisez rapidement un tableau de forme libre et une visualisation d’accompagnement afin d’analyser et de découvrir des informations plus rapidement. |
 | [Panneau Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
 | [Panneau d’attribution](attribution.md) | Comparez et visualisez rapidement de nombreux modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion. |
-| [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des ventilations illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
+| [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des répartitions illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
 | [Panneau de lʼaudience moyenne par minute de média](average-minute-audience-panel.md) | Analysez lʼaudience moyenne par minute dans le temps, affichez des informations sur les pics dʼaudience, avec la possibilité de les ventiler et de les comparer. |
 | [Panneau Observateurs simultanés de médias](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Panneau Temps de lecture de média](media-playback-timespent/media-playback-time-spent.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
@@ -100,21 +100,21 @@ Le fait de cliquer avec le bouton droit de la souris sur un filtre déroulant pr
 
 [Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=fr) pour en savoir plus sur l’ajout de filtres de menu déroulant à votre projet.
 
-<!--### Dynamic drop-down filters
+### Filtres déroulants dynamiques
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+Les filtres déroulants dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres filtres déroulants. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la variable [Pays](/help/components/dimensions/countries.md) dimension et [Villes](/help/components/dimensions/cities.md) dimension. Lorsque vous sélectionnez un pays dans le [!UICONTROL Pays] liste déroulante, la variable [!UICONTROL Villes] La liste déroulante s’ajuste dynamiquement pour afficher uniquement les villes de ce pays.
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+Ce même concept s&#39;applique à toutes les dimensions; seuls les éléments de dimension qui apparaissent dans la période du panneau et les filtres sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les filtres déroulants statiques affectent les valeurs disponibles dans les filtres déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; Les éléments de Dimension sélectionnés dans les filtres déroulants dynamiques n’affectent pas les valeurs disponibles dans les filtres déroulants statiques.
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+La sélection manuelle d’éléments de dimension est disponible si vous prévoyez qu’un certain élément de dimension sera collecté ultérieurement. Vous pouvez également effacer un filtre de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres filtres de liste déroulante dynamiques de contenir plus de valeurs. Sélectionner **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les filtres déroulants de ce panneau.
 
-To create a dynamic drop-down filter:
+Pour créer un filtre de liste déroulante dynamique :
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* Faites glisser et déposez une seule dimension dans la zone de dépôt du panneau. **pendant la conservation`[Shift]`**.
+* Les filtres déroulants dynamiques ne sont pas disponibles pour les mesures, les segments ou les périodes.
+* Cliquez avec le bouton droit de la souris sur un filtre déroulant et sélectionnez **[!UICONTROL Supprimer le filtre]** pour le supprimer.
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+Un clic droit sur un filtre de liste déroulante dynamique fournit les mêmes options que les filtres de liste déroulante statiques.
 
 ## Menu contextuel {#right-click}
 

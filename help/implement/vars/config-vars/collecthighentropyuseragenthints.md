@@ -2,7 +2,7 @@
 title: collectHighEntropyUserAgentHints
 description: Utilisez la variable collectHighEntropyUserAgentHints pour déterminer si Adobe va demander des indications à entropie élevée aux navigateurs Chromium (par exemple, Google Chrome et Microsoft Edge).
 exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 100%
@@ -22,11 +22,8 @@ Les indications du client à entropie élevée font partie des catégories de co
 **[!UICONTROL Collecter des indications agent-utilisateur à entropie élevée]** est une case à cocher située sous l’accordéon Général lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/#/@adobepm/data-collection) à l’aide de vos identifiants Adobe ID.
-
 1. Cliquez sur la [!UICONTROL propriété de balise] de votre choix.
-
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur [!UICONTROL Configurer] sous Adobe Analytics.
-
 1. Développez l’accordéon [!UICONTROL Général], qui affiche la case à cocher [!UICONTROL Collecter des indications agent-utilisateur à entropie élevée]. Cette case est désactivée par défaut.
 
 ## collectHighEntropyUserAgentHints dans AppMeasurement
