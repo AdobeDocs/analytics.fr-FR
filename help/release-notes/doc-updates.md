@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5a555c1e2da1659086c0f244e41894192e592d19
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '4191'
-ht-degree: 96%
+source-wordcount: '4226'
+ht-degree: 95%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Juin 2023** |  |
+| Mises à jour des mesures calculées | Des mises à jour ont été apportées à divers articles relatifs aux mesures calculées, notamment des captures d’écran et des étapes des procédures. Ces modifications ont été apportées afin d’intégrer la documentation à la fonctionnalité actuelle d’Adobe Analytics. |
 | **Mai 2023** |  |
 | Icônes de spectre | Remplacement, le cas échéant, des captures d’écran des icônes de l’interface utilisateur dans la documentation par des références aux icônes équivalentes dans [Système de conception du spectre de l&#39;Adobe](https://spectrum.adobe.com/page/icons/). |
 | Amélioration du mappage IP/géolocalisation | Création d’une rubrique sur [Questions fréquentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
@@ -96,7 +98,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Nouvelle rubrique sur le panneau [!UICONTROL Élément suivant/précédent] | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Mars 2022** |  |
 | Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est réglé sur « Élevé ». |
-| Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et insights sur les données contextuelles à votre organisation. |
+| Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. |
 | Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
 | Panneau Espace de travail [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
 | Panneau de l’espace de travail [!UICONTROL Synthèse de la page] | Ce panneau fournit une analyse approfondie d’une page de votre choix. |

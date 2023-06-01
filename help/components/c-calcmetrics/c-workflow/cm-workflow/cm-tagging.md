@@ -3,9 +3,9 @@ description: Dans le Gestionnaire de mesures calculées, le balisage des segment
 title: Balisage des mesures calculées
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ Tous les utilisateurs peuvent créer des balises pour les mesures calculées et 
 >
 >Les types de balises les plus utiles sont généralement les balises basées sur les critères suivants :
 >
->* **Noms d’équipes**, par exemple Marketing des réseaux sociaux, Marketing mobile.
+>* **Noms d’équipes**, comme Social Marketing ou Mobile Marketing.
 >* **Projets** (balises d’analyse), telles que l’analyse de la page d’accès.
->* **Catégories**, comme la condition féminine ; Géographie.
->* **Workflows**, par exemple A valider ; Traités pour (une unité opérationnelle spécifique)
+>* **Catégories**, par exemple Femmes ou Géographie.
+>* **Workflows**, par exemple À approuver ou Traité pour (une unité opérationnelle spécifique)
 
 
 ## Application de balises à une mesure calculée
