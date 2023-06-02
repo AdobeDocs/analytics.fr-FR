@@ -4,10 +4,10 @@ keywords: segmentation;segments
 title: Conteneurs de segments
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
+source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
 workflow-type: tm+mt
-source-wordcount: '3488'
-ht-degree: 57%
+source-wordcount: '3469'
+ht-degree: 54%
 
 ---
 
@@ -370,7 +370,7 @@ En résumé, comprendre comment la segmentation fonctionne sur les différentes 
 
 Une portée est appliquée à chaque répartition de données de segment. La plupart des répartitions sont basées sur les *pages vues*. Néanmoins, de nombreux segments de valeur sont basés sur le conteneur de *visites* et, à un degré moindre, sur le conteneur de *visiteurs*. Il est important de comprendre que la création de rapports est basée sur la portée de votre conteneur.
 
-En utilisant la variable *Page = Manteaux d’hiver* exemple de segment, ci-dessous vous trouverez des exemples de résultats de ce segment basés sur la manière dont les données de conteneur sont appliquées et sur la manière dont la portée des données correspond au type de segment.
+En utilisant la variable `Page equals Winter Coats` exemple de segment, ci-dessous vous trouverez des exemples de résultats de ce segment basés sur la manière dont les données de conteneur sont appliquées et sur la manière dont la portée des données correspond au type de segment.
 
 ### Conteneur de segment basé sur une règle de segment correspondante
 
@@ -407,7 +407,7 @@ Les données de segment peuvent varier selon la persistance d’une dimension ou
 
 En contraste à la dimension Page, la valeur Domaine référent est associée à chaque page de cette visite. Par exemple, le visiteur ci-dessous arrive sur la page d’accueil en provenance d’un site référencé. Par conséquent, la même valeur de domaine référent est affectée à toutes les pages de cette visite.
 
-Le segment *Domaine référent est égal à aol.com* ci-dessus s’applique aux **Rapports sur les pages**.
+Le `Referring Domain equals aol.com` s’applique au segment ci-dessous **Rapport Pages**.
 
 <table style="table-layout:fixed; border: 0;">
 
@@ -451,7 +451,7 @@ Dans une nouvelle visite, le visiteur est référencé depuis un autre site. Par
 
 ### Création de rapports depuis le conteneur d’accès
 
-La même valeur de domaine référent étant affectée à toutes les pages vues d’une même visite, la création de rapports au niveau du conteneur d’accès, où la condition *Domaine référent = « aol.com »*, renvoie toutes les pages répertoriées dans le tableau ci-dessous.
+Étant donné que la même valeur de domaine référent est affectée à toutes les pages vues d’une même visite, la création de rapports au niveau du conteneur d’accès où `Referring Domain equsls 'aol.com'` renvoie toutes les pages répertoriées dans le tableau ci-dessous.
 
 | Domaine référent = &#39;aol.com&#39; | Pages vues |
 |----|---:|
@@ -472,7 +472,7 @@ L’affichage des données provenant du conteneur d’accès montre qu’un peu 
 
 ### Création de rapports depuis le conteneur de visites
 
-Si cette même condition est filtrée dans le conteneur de visites pour un rapport sur les pages, alors, pour toutes les pages de la visite, la condition *Domaine référent = « aol.com »* est vraie. Dans la mesure où la valeur du domaine référent est définie au niveau de la visite, les rapports au niveau de la page vue et de la visite sont les mêmes.
+Si cette même condition est filtrée dans le conteneur de visites pour un rapport Pages , toutes les pages de la visite où `Referring Domain equals 'aol.com'`est vrai. Dans la mesure où la valeur du domaine référent est définie au niveau de la visite, les rapports au niveau de la page vue et de la visite sont les mêmes.
 
 | Domaine référent = &#39;aol.com&#39; | Pages vues |
 |----|---:|
@@ -493,9 +493,9 @@ Comme toutes les pages ont la même valeur de domaine référent en fonction de 
 
 ### Création de rapports depuis le conteneur de visiteurs
 
-Depuis le conteneur de visiteurs, le rapport sur les pages répertorie toutes les pages consultées par des visiteurs pour lesquelles la condition *Domaine référent = « aol.com »* est vraie. Par conséquent, si un visiteur a *&quot;aol.com&quot;* comme domaine référent à tout moment de l’historique (au cours d’une période définie), alors toutes les pages du conteneur de visiteurs (y compris les pages vues lors d’autres visites) sont répertoriées. Même les pages qui ne correspondent pas à la condition Principale sont répertoriées dans le rapport, car elles sont incluses dans le conteneur de visiteurs. Toutes les pages du conteneur de visiteurs sont répertoriées dans le rapport, même si elles se sont produites antérieurement et ne respectent pas spécifiquement les conditions.
+Depuis le conteneur de visiteurs, le rapport sur les pages répertorie toutes les pages vues par n’importe quel visiteur où `Referring Domain equals 'aol.com'` est vrai. Par conséquent, si un visiteur a *&#39;aol.com&#39;* comme domaine référent à tout moment de l’historique (au cours d’une période définie), alors toutes les pages du conteneur de visiteurs (y compris les pages vues lors d’autres visites) sont répertoriées. Même les pages qui ne correspondent pas à la condition Principale sont répertoriées dans le rapport, car elles sont incluses dans le conteneur de visiteurs. Toutes les pages du conteneur de visiteurs sont répertoriées dans le rapport, même si elles se sont produites antérieurement et ne respectent pas spécifiquement les conditions.
 
-Dans un rapport Domaine référent, la condition *Domaine référent = « aol.com »* est vraie dans quatre pages vues mais la condition *Domaine référent = « weather.com »* est vraie dans les autres pages de l’accès visiteur. Depuis le conteneur de visiteurs, vous obtenez une liste de visiteurs pour lesquels &quot;aol.com&quot; est vrai. Mais il vous donne également des pages où le domaine référent est &quot;weather.com&quot;, et non la valeur qui correspondait à votre requête initiale dans le segment.
+Dans un rapport Domaine référent, `Referring Domain equals 'aol.com'` est vraie dans quatre pages vues, mais `Referring Domain equals "weather.com"` est vraie dans les autres pages de l’accès du visiteur. Depuis le conteneur de visiteurs, vous obtenez une liste de visiteurs pour lesquels &quot;aol.com&quot; est vrai. Mais il vous donne également des pages où le domaine référent est &quot;weather.com&quot;, et non la valeur qui correspondait à votre requête initiale dans le segment.
 
 | Visite 1<br/>Domaine référent = &#39;aol.com&#39; | <br/>Pages vues |
 |----|---:|
@@ -512,13 +512,13 @@ Dans un rapport Domaine référent, la condition *Domaine référent = « aol.
 
 | Conteneur de visiteurs<br/>Domaine référent = &#39;aol.com&#39; | Pages vues |
 |----|---:|
-| Vêtements d’hiver<br/>Domaine référent = &#39;aol.com&#39; | 1 |
-| Vêtements d’hiver<br/>Domaine référent = &#39;weather.com&#39; | 1 |
-| Accueil <br/>Domaine référent = &#39;aol.com&#39; | 1 |
-| Manteau d’hiver <br/>Domaine référent = &#39;aol.com&#39; | 1 |
-| Achat<br/>Domaine référent = &#39;aol.com&#39; | 1 |
-| Boots d’hiver<br/>Domaine référent = &#39;weather.com&#39; | 1 |
-| Chapeaux d’hiver<br/>Domaine référent = &#39;weather.com&#39; | 1 |
+| Vêtements d’hiver<br/>Domaine référent : &#39;aol.com&#39; | 1 |
+| Vêtements d’hiver<br/>Domaine référent : &#39;weather.com&#39; | 1 |
+| Accueil <br/>Domaine référent : &#39;aol.com&#39; | 1 |
+| Manteau d’hiver <br/>Domaine référent : &#39;aol.com&#39; | 1 |
+| Achat<br/>Domaine référent : &#39;aol.com&#39; | 1 |
+| Boots d’hiver<br/>Domaine référent : &#39;weather.com&#39; | 1 |
+| Chapeaux d’hiver<br/>Domaine référent : &#39;weather.com&#39; | 1 |
 
 
 <!--![](assets/container_overview_persist_Visitor.png)-->
