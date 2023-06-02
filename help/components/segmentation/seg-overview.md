@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 2b1b681039fded30578ea9f46477e68bdc5630ca
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 85%
+source-wordcount: '1196'
+ht-degree: 69%
 
 ---
 
@@ -14,71 +14,231 @@ ht-degree: 85%
 
 Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Les segments sont conçus comme des informations sur l’audience que vous pouvez créer en fonction de vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits Adobe et fonctionnalités d’Analytics.
 
-Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
+Les segments sont basés sur une [!UICONTROL Visiteur], [!UICONTROL Visite], et [!UICONTROL Accès] hiérarchie de niveau à l’aide d’un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
 Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que   [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Les segments identifient la nature de vos visiteurs (pays, sexe, café-restaurant), les périphériques et services qu’ils utilisent (navigateur, moteur de recherche, périphérique mobile), les pages qu’ils ont parcourues (moteur de recherche, page de sortie, recherche naturelle), et bien plus encore.
+Segments identifier
 
-![](assets/seg.png)
+- qui sont vos visiteurs (pays, genre, café-restaurant),
+- quels appareils et services ils utilisent (navigateur, moteur de recherche, appareil mobile),
+- où ils ont navigué (moteur de recherche, page de sortie précédente, recherche naturelle),
+- plus beaucoup plus.
+
+<!--![](assets/seg.png)-->
 
 Les segments peuvent être basés sur les valeurs suivantes :
 
-* Visiteurs sur la base d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe.
-* Visiteurs sur la base d’interactions : campagnes, recherche par mots-clés, moteur de recherche.
-* Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page d’entrée définie, d’un domaine référent.
-* Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
+- Visiteurs sur la base d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe.
+- Visiteurs sur la base d’interactions : campagnes, recherche par mots-clés, moteur de recherche.
+- Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page d’entrée définie, d’un domaine référent.
+- Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
 
 Lors de la création de segments d’audiences dans le Créateur de segments, vous définissez des conditions en utilisant les opérateurs [!UICONTROL AND] et [!UICONTROL OR] entre les conteneurs.
 
-![](assets/standard_segment_containers.png)
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visiteurs</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+</table>
+
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visiteurs</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">OU</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+</table>
+
+<!--![](assets/standard_segment_containers.png)-->
 
 Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL AND] et [!UICONTROL OR].
 
-* Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
-* Les segments fonctionnent dans toutes les suites de rapports.
-* Le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifie la création de segments.
-* Le [gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
-* Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.
-* Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-* Le [!UICONTROL Page vue] Le conteneur est désormais [!UICONTROL Accès] pour indiquer que ce conteneur segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
+- Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+- Les segments fonctionnent dans toutes les suites de rapports.
+- Le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifie la création de segments.
+- Le [gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
+- Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.
+- Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+- Le [!UICONTROL Page vue] Le conteneur est désormais [!UICONTROL Accès] pour indiquer que ce conteneur segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
 
 ## Segmentation dans Analysis Workspace
 
 Analysis Workspace contient les fonctionnalités supplémentaires suivantes :
 
-* Vous pouvez [comparer des segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=fr).
-* Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans une comparaison.
-* Utilisez des segments dans [l’analyse des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=fr).
+- Vous pouvez [comparer des segments](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
+- Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans une comparaison.
+- Utilisez des segments dans [l’analyse des abandons](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
 ## Segments fournis par l’Adobe
 
-Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés, ainsi que les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite. Il s’agit d’une liste partielle de segments fournis par l’Adobe :
-
-![Adobe de segments](assets/adobe-segs.png)
+Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés et les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite.
 
 ## Segments séquentiels  {#sequential}
 
 Les segments séquentiels permettent d’identifier les visiteurs selon la navigation et la page vue sur votre site, fournissant un segment d’actions et d’interactions définies. Les filtres séquentiels permettent d’identifier ce qu’aime un visiteur et ce qu’il évite. Lors de la création de segments séquentiels, l’opérateur [!UICONTROL THEN] est utilisé pour définir et classer la navigation du visiteur.
 
-![](assets/sequential_seg.png)
+<!--![](assets/sequential_seg.png)-->
 
 | Visite 1 | Visite 2 | Visite 3 |
 |---|---|---|
-| Lors de la première visite, le visiteur s’est rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), puis a consulté la page des produits (C). | Lors de la deuxième visite, le visiteur s’est à nouveau rendu sur la page d’entrée principale (A), a exclu la page de la campagne (B), est retourné sur la page des produits (C), puis a consulté une nouvelle page (D). | Lors de la troisième visite, le visiteur a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page (F) pour se rendre directement à la page des produits ciblés (G). |
+| Lors de la première visite, le visiteur s’est rendu sur la page d’entrée principale A, a exclu la page de la campagne B, puis a consulté la page des produits C. | Lors de la deuxième visite, le visiteur s’est à nouveau rendu sur la page d’entrée principale A, a exclu la page B de la campagne, est retourné sur la page des produits C, puis a consulté une nouvelle page D. | Lors de la troisième visite, le visiteur a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page F pour accéder directement à la page G du produit ciblé. |
 
 Les segments séquentiels peuvent être basés sur les valeurs d’accès suivantes :
 
-* Visiteurs sur la base d’une séquence d’accès aux pages : pages vues lors d’une visite unique, pages vues lors de visites distinctes, visites qui ont exclu les pages vues.
-* Visiteurs sur la base de la durée entre et après les pages vues : une fois une durée écoulée, entre des accès, après un événement.
+- Visiteurs sur la base d’une séquence d’accès aux pages : pages vues au cours d’une seule visite, pages vues lors de visites distinctes, visites qui ont exclu les pages vues.
+- Visiteurs sur la base de la durée entre et après les pages vues : après une limite de temps, entre les accès, après un événement.
 
-![](assets/sequential_segmentation_containers_view.png)
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visiteurs</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">ALORS</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+</table>
+
+<table style="table-layout:fixed; border: none;">
+
+<tr>
+
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visiteurs</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">ALORS</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200"></td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visites</td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+
+<tr>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OU</td></td>
+</tr>
+
+<tr>
+<td style="background-color: #E5E4E2;" width="200" height="100"></td>
+<td style="background-color: #D3D3D3;" width="200" height="100"></td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
+</tr>
+</tr>
+</table>
+
+<!--![](assets/sequential_segmentation_containers_view.png)-->
 
 Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL THEN].
 
 ## Vidéo Comment segmenter {#segment-video}
 
-Cette vidéo présente rapidement les conteneurs de segments et leurs modes d’utilisation : [Conteneurs de segments dans Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=fr)
+Cette vidéo donne un bref aperçu des conteneurs de segments et de leur utilisation : [Conteneurs de segments dans Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=fr)
+
 
 ## Accès aux outils de segmentation {#access}
 
@@ -86,13 +246,13 @@ Cette vidéo présente rapidement les conteneurs de segments et leurs modes d’
 
 Accédez au Créateur de segments en procédant comme suit :
 
-* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
+- Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Dans le rail du segment qui s’affiche, cliquez ensuite sur **[!UICONTROL Ajouter]**, ou
 
-* Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
+- Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    ou
 
-* cliquez sur le titre d’un segment existant dans le Gestionnaire de segments afin de le modifier dans le Créateur de segments.
+- cliquez sur le titre d’un segment existant dans le Gestionnaire de segments afin de le modifier dans le Créateur de segments.
 
 +++
 
@@ -100,11 +260,11 @@ Accédez au Créateur de segments en procédant comme suit :
 
 Accédez au Gestionnaire de segments en procédant comme suit :
 
-* sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
+- sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** dans le volet de navigation supérieur. Cliquez ensuite sur **[!UICONTROL Segments]**, ou
 
-* Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
+- Affichez un rapport existant, puis cliquez sur lʼ![icône Segments](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**, ou
 
-* appuyez sur la barre oblique « / » n’importe où dans l’interface et recherchez le Gestionnaire de segments.
+- appuyez sur la barre oblique « / » n’importe où dans l’interface et recherchez le Gestionnaire de segments.
 
 +++
 
@@ -112,7 +272,7 @@ Accédez au Gestionnaire de segments en procédant comme suit :
 
 +++ **Quels droits et privilèges dois-je posséder pour utiliser, créer et gérer des segments ?**
 
-Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=fr) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
+Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
 Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](/help/components/segmentation/seg-reference/seg-rights.md)
 
