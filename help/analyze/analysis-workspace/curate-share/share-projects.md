@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -129,6 +129,10 @@ Vous pouvez accorder [accès en lecture seule](/help/analyze/analysis-workspace/
 >* Un projet peut devenir inaccessible si de nombreux utilisateurs tentent d’accéder simultanément à un lien donné. Par défaut, plus de 190 personnes peuvent accéder à un seul lien toutes les 5 minutes. Si votre entreprise atteint cette limite, patientez 5 minutes, puis tentez à nouveau d’accéder au lien.
 
 
+La vidéo de démonstration suivante et la documentation qui l’accompagne décrivent les options associées au partage d’un lien avec n’importe qui :
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics :
 
 1. Ouvrez le projet Analysis Workspace que vous souhaitez partager.
@@ -149,7 +153,7 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas ac
 
    * **[!UICONTROL Exiger une authentification Experience Cloud]:**
 
-      Lorsque cette option est activée, seuls les utilisateurs qui peuvent se connecter à l’organisation Adobe Experience Cloud dans laquelle le projet que vous partagez a été créé peuvent accéder au projet.
+      Lorsque cette option est activée, les seuls utilisateurs qui peuvent accéder au projet sont ceux qui peuvent se connecter à l’organisation Adobe Experience Cloud dans laquelle le projet que vous partagez a été créé. Toutefois, les utilisateurs avec lesquels vous partagez n’ont pas besoin d’avoir accès à Adobe Analytics.
 
       Les administrateurs d’Analytics peuvent configurer cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la configuration de cette option par l’administrateur, vous pouvez rencontrer les scénarios suivants :
 
