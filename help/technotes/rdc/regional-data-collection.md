@@ -3,16 +3,16 @@ title: Collecte de données régionales
 description: Informations sur la collecte de données régionales
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 36%
+source-wordcount: '482'
+ht-degree: 35%
 
 ---
 
 # Collecte de données régionales
 
-Adobe Experience Cloud utilise la collecte de données régionale (RDC) afin que les interactions entre vos visiteurs et votre Adobe se produisent aussi près que possible de vos visiteurs. Une fois les données collectées à l’échelle régionale dans un centre de collecte de données, elles sont transférées au moyen d’une connexion sécurisée à un centre de traitement de données. Après le traitement, les données sont disponibles pour les produits dans Adobe Experience Cloud. Pour modifier votre type de collecte de données régionale, contactez l’assistance clientèle d’Adobe.
+Adobe Experience Cloud utilise la collecte de données régionale (RDC) afin que les interactions entre vos visiteurs et votre Adobe se produisent aussi près que possible de vos visiteurs. Une fois les données collectées à l’échelle régionale dans un centre de collecte de données (DCC, également appelé site Edge), elles sont transférées au moyen d’une connexion sécurisée à un centre de traitement de données (DPC, également appelé site principal). Après le traitement, les données sont disponibles pour les produits dans Adobe Experience Cloud. Pour modifier votre type de collecte de données régionale, contactez l’assistance clientèle d’Adobe.
 
 Le processus de collecte de données régionale suit les étapes suivantes :
 
