@@ -4,16 +4,18 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
+source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 23%
+source-wordcount: '416'
+ht-degree: 25%
 
 ---
 
 # Mesures
 
 Les mesures vous permettent de quantifier les points de données dans Analysis Workspace. Elles sont généralement utilisées comme colonnes dans une visualisation et liées aux dimensions.
+
+## Types de mesures
 
 Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
@@ -29,11 +31,21 @@ Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
    ![Modèle de mesure calculée](assets/calculated-metric-template.png)
 
-Leur utilisation dans Analysis Workspace est flexible. Faites glisser une mesure vers un tableau à structure libre vide pour afficher les tendances de cette mesure sur la période du projet. Vous pouvez également faire glisser une mesure lorsqu’une dimension est présente pour la comparer à chaque élément de dimension. Le fait de faire glisser une mesure au-dessus d’un en-tête de mesure existant la remplace, tandis que le fait de faire glisser une mesure en regard d’un en-tête vous permet d’afficher les deux mesures côte à côte.
+## Utilisation des mesures de dans Analysis Workspace
+
+Les mesures peuvent être utilisées de différentes manières dans Analysis Workspace. Vous pouvez :
+
+* Faites glisser une mesure vers un tableau à structure libre vide pour afficher les tendances de cette mesure sur la période du projet.
+
+* Faites glisser une mesure lorsqu’une dimension est présente pour la comparer à chaque élément de dimension.
+
+* Faites glisser une mesure au-dessus d’un en-tête de mesure existant pour la remplacer.
+
+* Faites glisser une mesure en regard d’un en-tête pour afficher les deux mesures côte à côte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Mesures calculées
+## Mesures calculées 
 
 Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques. Il existe plusieurs façons de créer des mesures calculées :
 
