@@ -5,7 +5,7 @@ title: Création de liens partageables
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -23,8 +23,6 @@ Pour partager un lien vers un projet, accédez au projet que vous souhaitez part
 Si le destinataire du lien n’a pas reçu de [rôle de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr), les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]** expériences.
 
 ## Obtenir un lien en lecture seule à partager avec n’importe qui
-
-{{release-limited-testing-section}}
 
 Vous pouvez partager un lien en lecture seule vers les projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Les utilisateurs avec lesquels vous partagez le lien ne sont pas tenus de se connecter.
 
