@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 441484c0547439de2ab1cdc2596fb681592df012
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 52%
+source-wordcount: '1817'
+ht-degree: 49%
 
 ---
 
@@ -18,15 +18,15 @@ Vous pouvez partager un projet Analysis Workspace avec les types de personnes su
 
 * Utilisateurs et groupes de votre entreprise ayant accès à Adobe Analytics
 
-   Vous pouvez partager l’accès Modifier, Dupliquer ou Afficher
+  Vous pouvez partager l’accès Modifier, Dupliquer ou Afficher
 
 * Utilisateurs et groupes de votre entreprise qui n’ont pas accès à Adobe Analytics
 
-   Les destinataires ont un accès en lecture seule
+  Les destinataires ont un accès en lecture seule
 
 * Personnes en dehors de votre organisation
 
-   Les destinataires ont un accès en lecture seule
+  Les destinataires ont un accès en lecture seule
 
 Quelconque [traitement](curate.md) votre demande avant le partage est prise en compte lorsque les destinataires ouvrent le projet.
 
@@ -55,7 +55,7 @@ Lorsque vous partagez un rôle de projet spécifique avec des utilisateurs et ut
 
 * Si un utilisateur ou une utilisatrice reçoit plusieurs rôles, le rôle le plus élevé s’applique. Cela peut se produire si la personne est ajouté à la fois en tant que personne individuelle et en tant que membre d’un groupe. Par exemple, si un utilisateur ou une utilisatrice reçoit le rôle **[!UICONTROL Peut modifier]** en tant que personne individuelle et le rôle **[!UICONTROL Peut afficher]** en tant que membre d’un groupe, le rôle **[!UICONTROL Peut modifier]** s’applique pour le projet.
 
-* Les administrateurs et administratrices se voyant attribuer un rôle **[!UICONTROL Peut dupliquer]** ou **[!UICONTROL Peut afficher]** bénéficient de ces rôles limités lorsqu’ils ouvrent un projet. En cas de besoin, une personne chargée de l’administration peut augmenter son rôle pour obtenir le rôle **[!UICONTROL Peut modifier]** à tout moment via **[!UICONTROL Composants] > [!UICONTROL Projets]**.
+* Les administrateurs et administratrices se voyant attribuer un rôle **[!UICONTROL Peut dupliquer]** ou **[!UICONTROL Peut afficher]** bénéficient de ces rôles limités lorsqu’ils ouvrent un projet. Un administrateur peut remplacer son rôle par **[!UICONTROL Peut modifier]** en partageant le projet avec eux-mêmes et en accordant le rôle Modifier, comme décrit dans la procédure suivante.
 
 Pour partager un rôle de projet spécifique avec des utilisateurs et utilisatrices ou des groupes de votre organisation, procédez comme suit :
 
@@ -126,7 +126,6 @@ Vous pouvez accorder [accès en lecture seule](/help/analyze/analysis-workspace/
 >
 >* Un projet peut devenir inaccessible si de nombreux utilisateurs tentent d’accéder simultanément à un lien donné. Par défaut, plus de 190 personnes peuvent accéder à un seul lien toutes les 5 minutes. Si votre entreprise atteint cette limite, patientez 5 minutes, puis tentez à nouveau d’accéder au lien.
 
-
 La vidéo de démonstration suivante et la documentation qui l’accompagne décrivent les options associées au partage d’un lien avec n’importe qui :
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -151,9 +150,9 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas ac
 
    * **[!UICONTROL Exiger une authentification Experience Cloud]:**
 
-      Lorsque cette option est activée, les seuls utilisateurs qui peuvent accéder au projet sont ceux qui peuvent se connecter à l’organisation Adobe Experience Cloud dans laquelle le projet que vous partagez a été créé. Toutefois, les utilisateurs avec lesquels vous partagez n’ont pas besoin d’avoir accès à Adobe Analytics.
+     Lorsque cette option est activée, les seuls utilisateurs qui peuvent accéder au projet sont ceux qui peuvent se connecter à l’organisation Adobe Experience Cloud dans laquelle le projet que vous partagez a été créé. Toutefois, les utilisateurs avec lesquels vous partagez n’ont pas besoin d’avoir accès à Adobe Analytics.
 
-      Les administrateurs d’Analytics peuvent configurer cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la configuration de cette option par l’administrateur, vous pouvez rencontrer les scénarios suivants :
+     Les administrateurs d’Analytics peuvent configurer cette préférence pour l’entreprise, comme décrit dans la section [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la configuration de cette option par l’administrateur, vous pouvez rencontrer les scénarios suivants :
 
       * Si cette option n’est pas visible, votre administrateur Analytics n’a pas activé cette fonctionnalité.
 
@@ -196,6 +195,5 @@ Regardez une vidéo sur ce sujet :
 | Question | Réponse |
 | --- | --- |
 | Que se passe-t-il si deux éditeurs enregistrent un projet en même temps ? | Les modifications ne sont pas fusionnées et la dernière version enregistrée du projet sera conservée. Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. |
-| En tant qu’administrateur, quelle expérience de projet vais-je voir ? | Les administrateurs se voyant attribuer un rôle **[!UICONTROL Peut dupliquer]** ou **[!UICONTROL Peur afficher]** reçoivent ces expériences limitées lorsqu’ils ouvrent un projet. Si vous le souhaitez, un administrateur peut augmenter son rôle pour obtenir le rôle **[!UICONTROL Peut modifier]** à tout moment via **[!UICONTROL Composants] > [!UICONTROL Projets]**. |
 | Que se passe-t-il si un destinataire reçoit un rôle en tant qu’individu et un autre rôle en tant que membre d’un groupe ? | Si un destinataire reçoit plusieurs rôles, il obtient toujours l’expérience la plus élevée. Par exemple, si un destinataire reçoit le rôle **[!UICONTROL Peut modifier]** en tant qu’individu et le rôle **[!UICONTROL Peut afficher]** en tant que membre d’un groupe, il reçoit une expérience de projet **[!UICONTROL Peut modifier]**. |
 | Quelle expérience obtient un destinataire s’il ouvre un lien de projet ? | Les destinataires reçoivent le rôle que vous leur avez attribué dans le modal de partage. Si un destinataire ne se voit pas attribuer un rôle et reçoit un lien vers le projet (**[!UICONTROL Partager]** > **[!UICONTROL Partage avec les utilisateurs de Workspace]**, puis sélectionnez **[!UICONTROL Copier]** en regard de **[!UICONTROL Partager par lien]** ), ils seront placés par défaut dans un rôle . Les personnes chargées de l’administration reçoivent **[!UICONTROL Peut modifier]** et les autres reçoivent **[!UICONTROL Peut dupliquer]**. |
