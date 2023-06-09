@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Compatibilité des segments avec Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
-   + [Questions fréquentes sur la gestion des segments hérités ](segmentation/seg-transition.md)
+   + [Questions fréquentes sur la gestion des segments hérités](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
 + Mesures calculées {#calculated-metrics}
    + [Mesures calculées ou calculées avancées (dérivées)](c-calcmetrics/cm-overview.md)
@@ -235,11 +235,17 @@ ht-degree: 90%
 + Classifications {#classifications}
    + [Présentation des classifications](classifications/c-classifications.md)
    + Jeux de classifications {#sets}
-      + [Présentation des ensembles de classifications](classifications/sets/overview.md)
-      + [Gestionnaire des jeux de classifications](classifications/sets/set-manager.md)
-      + [Gestionnaire des tâches des ensembles de classifications](classifications/sets/job-manager.md)
-      + [Création d’un ensemble de classifications](classifications/sets/create.md)
-      + [Paramètres du jeu de classifications](classifications/sets/settings.md)
+      + [Présentation des jeux de classifications](classifications/sets/overview.md)
+      + Gestion des jeux de classifications {#manage}
+         + [Gestionnaire de jeux de classifications](classifications/sets/manage/set-manager.md)
+         + [Création d’un jeu de classifications](classifications/sets/manage/create.md)
+         + [Paramètres du jeu de classifications](classifications/sets/manage/settings.md)
+         + [Schéma du jeu de classifications](classifications/sets/manage/schema.md)
+         + [Règles de jeu de classifications](classifications/sets/manage/rules.md)
+      + [Gestionnaire des tâches de jeux de classifications](classifications/sets/job-manager.md)
+      + Consolidation des ensembles de classifications {#consolidations}
+         + [Gestionnaire de consolidation des ensembles de classifications](classifications/sets/consolidations/manage.md)
+         + [Processus de consolidation des ensembles de classifications](classifications/sets/consolidations/process.md)
    + Créateur de règles de classification {#classifications-rulebuilder}
       + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [Exportation FTP](classifications/importer/ftp-export.md)
       + [Durée du traitement](classifications/importer/processing-time.md)
       + [Résolution des problèmes](classifications/importer/troubleshooting.md)
+
    + [Sous-classifications](classifications/c-sub-classifications.md)
    + [FAQ sur les classifications](classifications/faq.md)
 + [Événements du calendrier](t-calendar-event.md)
