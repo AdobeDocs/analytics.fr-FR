@@ -5,16 +5,30 @@ subtopic: data feeds
 title: Contenu du flux de données - Aperçu
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# Contenu du flux de données - Aperçu
+# Contenu du flux de données - Aperçu
 
-Cette section décrit les fichiers qui figurent dans une diffusion de flux de données.
+Les sections suivantes décrivent comment accéder aux fichiers trouvés dans une diffusion de flux de données et les comprendre.
+
+## Accès au contenu des flux de données
+
+Pour accéder au contenu d’un flux de données :
+
+1. Connectez-vous au site de destination des flux de données.
+
+   Il s’agit du site de destination que vous configurez lors de la création du flux de données, par exemple un compartiment Amazon S3 ou Google Cloud Platform.
+
+1. Téléchargez le fichier de flux de données compressé sur votre machine locale.
+
+1. Décompressez le fichier comprimé à l’aide d’un programme qui prend en charge les extensions de fichier `.tar.gz`.
+
+1. Ouvrez le fichier `hit_data.tsv` dans votre application de tableur ou de base de données de votre choix pour afficher les données brutes pour cette journée. —>
 
 ## Fichier de manifeste {#feed-manifest}
 

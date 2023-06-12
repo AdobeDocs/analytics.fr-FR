@@ -3,10 +3,10 @@ title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Cliquez sur l’onglet Tâche pour afficher les tâches individuelles créées p
 
 ### Ajouter
 
-Cliquez sur le bouton + [!UICONTROL Ajouter] à proximité des onglets des flux et des tâches pour créer un nouveau flux. Pour plus d’informations, reportez-vous à [Ajouter un flux](create-feed.md).
+Cliquez sur le bouton + [!UICONTROL Ajouter] à proximité des onglets des flux et des tâches pour créer un nouveau flux. Voir [Création d’un flux de données](create-feed.md) pour plus d’informations.
 
 ### Colonnes
 
@@ -66,8 +66,8 @@ Chaque flux créé affiche plusieurs colonnes fournissant des informations la co
 * **Identifiant de la suite de rapports** : l’identifiant unique de la suite de rapports.
 * **Colonnes de données** : les colonnes de données actives pour le flux. Dans la plupart des cas, il y a trop de colonnes à afficher dans ce format.
 * **Intervalle** : indique si le flux est horaire ou quotidien.
-* **Type de destination** : le type de destination du flux. Par exemple, FTP, Amazon S3 ou Azure.
-* **Hôte de destination** : l’emplacement sur lequel le fichier est placé. Par exemple : `ftp.example.com`.
+* **Type de destination** : le type de destination du flux. Par exemple, Amazon S3, GCP ou Azure.
+* **Hôte de destination** : l’emplacement sur lequel le fichier est placé.
 * **Propriétaire** : le compte utilisateur qui a créé le flux.
 * **Statut** : le statut du flux.
    * Actif : le flux est opérationnel.

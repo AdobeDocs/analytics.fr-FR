@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: Flux de données
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 89%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 Les flux de données constituent une exportation des données de parcours de navigation reçues par Adobe, pour des [flux de données](/help/export/analytics-data-feed/data-feed-overview.md) standard et personnalisés.
 
 Si vous avez acheté Adobe Data Warehouse ou les [!UICONTROL flux de données standard], vous pouvez configurer vos propres flux de données Analytics. Ils peuvent être envoyés vers un compte FTP (configuré par Adobe ou un FTP externe). Les services techniques Adobe Engineering Services proposent des [!UICONTROL flux de données] personnalisés qui peuvent être envoyés par n’importe quel moyen ou presque.
+
+>[!NOTE]
+>
+>Les informations suivantes concernent les types de destinations FTP et SFTP. FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination de cloud plus sécurisé.
+
 
 Les comptes FTP de [!UICONTROL flux de données] sont limités à 10 Go (par défaut). Tous les autres comptes FTP standard sont par défaut limités à 50 Mo. Lorsque le compte FTP est utilisé aux fins prévues, il arrive que certains utilisateurs avec un trafic de données volumineux atteignent rapidement cette limite. Aucun fichier supplémentaire ne peut être transféré sur un compte FTP saturé. Par conséquent, les fichiers transitant par ce compte FTP ([!UICONTROL flux de données], demandes de l’entrepôt de données, etc.) ne sont plus distribués. Aussi est-il important de gérer votre compte FTP Adobe en supprimant les fichiers qui ont déjà été reçus et téléchargés.
 
