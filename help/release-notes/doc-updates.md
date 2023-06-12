@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '4226'
-ht-degree: 95%
+source-wordcount: '4485'
+ht-degree: 91%
 
 ---
 
@@ -25,23 +25,29 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
-| **Juin 2023** |  |
+| **Juin 2023** | |
+| Nouvelle variable d’AppMeasurement | La variable `doubleEncodeLinkParameters` prend en charge les cas de périphérie où les implémentations codent des caractères à plusieurs octets dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/doubleencodelinkparameters.md) |
+| Nouvelles fonctionnalités pour les jeux de classifications | [Jeux de classifications](/help/components/classifications/sets/overview.md) ont été mises à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation**: Combinez des jeux de classifications dans un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans CJA. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles**: classifie automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Importation automatisée**: Importez automatiquement les données de classification à partir des destinations de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Mises à jour des mesures calculées | Des mises à jour ont été apportées à divers articles relatifs aux mesures calculées, notamment des captures d’écran et des étapes des procédures. Ces modifications ont été apportées afin d’intégrer la documentation à la fonctionnalité actuelle d’Adobe Analytics. |
-| **Mai 2023** |  |
+| Destinations sécurisées pour l’exportation des flux de données | Les flux de données peuvent désormais être envoyés vers les destinations de stockage dans le cloud suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations qui étaient auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) |
+| Création de rapports de robots dans Workspace | La création de rapports sur les robots est désormais disponible dans Analysis Workspace. Cette fonctionnalité comporte plusieurs ajouts :<ul><li>Nouvelle dimension : [Nom du robot](/help/components/dimensions/bot-name.md)</li><li>Deux nouvelles mesures : [Pages vues de robots](/help/components/metrics/bot-page-views.md) et [Occurrences du robot](/help/components/metrics/bot-occurrences.md).</li><li>Un nouveau modèle de mesure calculée : [Taux de pages vues des robots](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Un nouveau rapport Workspace : Rapports de robots</li></ul>La nouvelle dimension et les nouvelles mesures contiennent des données renvoyées depuis mars 2023. |
+| **Mai 2023** | |
+| Documentation sur les liens profonds (applications mobiles) | Permet aux utilisateurs et utilisatrices d’envoyer des liens vers des cartes de performance qui les dirigeront directement vers le projet de cartes de performance dans l’application. [En savoir plus](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
+| Documentation de l’écran d’accueil mis à jour de l’application de tableaux de bord Analytics (application mobile) | Le nouvel écran d’accueil mis à jour vous permet d’afficher toutes vos cartes de performances dans une seule liste consolidée. [En savoir plus](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Icônes de spectre | Remplacement, le cas échéant, des captures d’écran des icônes de l’interface utilisateur dans la documentation par des références aux icônes équivalentes dans [Système de conception du spectre de l&#39;Adobe](https://spectrum.adobe.com/page/icons/). |
 | Amélioration du mappage IP/géolocalisation | Création d’une rubrique sur [Questions fréquentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
 | Gestionnaire des activités de rapport | Mise à jour de cette documentation bêta, en particulier de la section sur [Affichage de l’activité de création de rapports pour des suites de rapports individuelles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
 | Aperçu d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
 | Création de projets | Création d’un article qui explique en détail comment [créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |
-| Tri des composants dans le rail de gauche | Ajout d’informations sur le tri de la liste des composants dans le rail de gauche. Voir la section &quot;Recherche, filtrage et tri de la liste des composants&quot; dans la section [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| Tri des composants dans le rail de gauche | Ajout d’informations sur le tri de la liste des composants dans le rail de gauche. Voir la section &quot;Recherche, filtrage et tri de la liste des composants&quot; dans [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Suppression de lignes contenant des dimensions dynamiques d’un tableau à structure libre | Ajout d’informations sur la suppression rapide de lignes spécifiques contenant des dimensions dynamiques à l’aide de l’icône x. Voir la section &quot;Exclusion rapide de lignes spécifiques d’un tableau&quot; dans [Filtrage et tri des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | Bouton permettant d’ajouter une visualisation dans un panneau | Ajout d’informations sur un nouveau bouton au bas de chaque panneau dans Analysis Workspace qui vous permet d’ajouter rapidement une visualisation. Voir la section &quot;Ajouter des visualisations à un panneau&quot; dans [Visualisations - Aperçu](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
-| **Avril 2023** |  |
+| **Avril 2023** | |
 | Transfert des ressources des utilisateurs/utilisatrices et définition de l’expiration du compte. | Ajout d’informations sur la procédure à suivre pour [transférer les ressources des utilisateurs/utilisatrices et définir l’expiration du compte](/help/admin/admin/user-management2/users-assets.md). |
 | 2 nouveaux guides des points d’entrée pour l’API 2.0 d’Adobe Analytics | <ul><li>[API des dimensions Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API des mesures Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | Segments de projet (segments ad hoc et rapides) | Documentation rationalisée sur les segments de projet et suppression des informations dupliquées. Les étapes de création de segments ad hoc sont désormais combinées avec les étapes pour [création de segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Recherches dynamiques | Ajout d’informations supplémentaires sur les [recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Auparavant, les informations n’existaient que pour les attributs mobiles, qui font partie de plusieurs recherches dynamiques. |
-| **Mars 2023** |  |
+| **Mars 2023** | |
 | Prise en charge du SDK Web pour Activity Map | Mise à jour de [Implémenter Adobe Analytics](/help/implement/home.md) et [Activer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | Présentation des variables de trafic (props) | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Suppression de l’article « Activer les rapports de variables de trafic » et transfert de son contenu dans une autre section. Consultez la [Présentation des variables de trafic (props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtres d’URL internes | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Consultez la section [Filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
@@ -49,13 +55,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mesures calculées par défaut | Ajout de contenu expliquant les [mesures calculées par défaut fournies par Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | Dictionnaire de données | <p>Ajout d’une nouvelle documentation consacrée au dictionnaire de données, qui comprend la [Présentation](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), l’[Affichage](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), la [Modification](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) et la [Surveillance](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) du dictionnaire de données.</p><p>Mise à jour des informations présentées dans la section [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md) afin d’inclure la fonctionnalité de dictionnaire de données.</p> |
 | Partage de liens pour les projets (aucune connexion requise) | <p>Mise à jour de la documentation existante pour expliquer comment partager un lien en lecture seule d’un projet avec des personnes qui n’ont pas accès à Analysis Workspace.</p> <p>Mise à jour de la documentation d’utilisation avec les sections [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md) et [Créer des liens partageables](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>Ajout d’options d’administration dans les [Préférences](/help/analyze/analysis-workspace/user-preferences.md).</p> |
-| **Février 2023** |  |
+| **Février 2023** | |
 | Implémentation | Contenu mis à jour sur la manière d’[implémenter Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
 | Calendriers et périodes de Workspace | Contenu mis à jour pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’IU du calendrier. Voir [À propos des périodes relatives du panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les périodes de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans CJA. |
 | API 1.4 | L’[API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a été complètement réécrite et est désormais publiée sur Adobe Developer. |
 | Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/use-cases/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
-| **Janvier 2023** |  |
+| **Janvier 2023** | |
 | Filtrer et trier des tableaux | Contenu mis à jour (y compris l’ajout de procédures et l’explication des options disponibles) dans l’article [Filtrer et trier des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Cet article a été renommé à partir de « Pagination, filtrer et trier des tableaux ». |
 | Dossiers | Pages dédiées à la [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Préférences utilisateur | De nombreuses préférences utilisateur supplémentaires sont désormais disponibles dans [Préférences](/help/analyze/analysis-workspace/user-preferences.md). |
@@ -66,7 +72,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
-| **Novembre 2022** |  |
+| **Novembre 2022** | |
 | Variables de gestion du consentement | Pages dédiées à l’[accord préalable à la gestion du consentement](/help/components/dimensions/cm-opt-in.md) et à la [désinscription de la gestion du consentement](/help/components/dimensions/cm-opt-out.md). |
 | Actualisation multidevise | Les pages autour de la [prise en charge multidevise](/help/implement/vars/config-vars/currencycode.md) ont été mises à jour. |
 | **Octobre 2022** |  |
@@ -76,13 +82,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Jeux de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
 | Application mobile : vues détaillées personnalisées | Nouvelle rubrique sur les [vues détaillées personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr). |
 | VISTA | Nouvelle page expliquant les principes de base des [règles VISTA](/help/technotes/vista.md). |
-| **Septembre 2022** |  |
+| **Septembre 2022** | |
 | Graphiques combinés | Nouvelle rubrique sur la visualisation de [Graphiques combinés](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | Plug-in mis à jour | Mise à jour de la version du plug-in d’implémentation [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
 | Nouvelle variable de configuration | Documentation sur [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Indications du client à entropie élevée | Nouvelle rubrique sur la façon dont Adobe utilise les [indications du client](/help/technotes/client-hints.md) en plus de la chaîne Agent-utilisateur pour déterminer les informations sur les périphériques. |
 | Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur l’[ordre de traitement](/help/technotes/processing-order.md). |
-| **Août 2022** |  |
+| **Août 2022** | |
 | Prise en charge des variables de listes dans XDM pour Edge Collection | Permet aux clients qui collectent des données à travers Experience Edge/le SDK web d’utiliser XDM pour spécifier le contenu de la variable de liste. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=fr#list-variables-using-the-web-sdk) | 18 août 2022 |
 | Utilisation du champ SKU dans XDM pour Edge Collection lors de la définition des variables de chaîne de produit | Permet aux clients qui collectent des données à travers Experience Edge/le SDK web d’utiliser la valeur de SKU pour définir le champ de produit dans la variable de produits. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=fr#products-using-the-web-sdk) |
 | **Juin 2022** |  |
@@ -90,13 +96,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Documentation sur Experience Platform Edge | Nouveaux articles sur l’implémentation d’Adobe Analytics via le [SDK Web](/help/implement/aep-edge/web-sdk/overview.md), le [SDK Mobile](/help/implement/aep-edge/mobile-sdk/overview.md) et l’[API Edge](/help/implement/aep-edge/edge-api/overview.md). |
 | Mise à jour de la documentation sur la visualisation de flux | En fonction de la [nouvelle interface utilisateur](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | Documentation sur le partage d’annotations dans les cartes de performance mobiles | Vous pouvez afficher les [annotations créées dans Analysis Workspace dans les cartes de performance mobiles](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
-| **Mai 2022** |  |
+| **Mai 2022** | |
 | Remplir les dimensions et les mesures de cycle de vie via Experience Edge | Les données de cycle de vie mobile envoyées via Experience Edge apparaissent désormais dans les rapports Analytics. Reportez-vous au [mappage des variables Analytics](/help/implement/aep-edge/variable-mapping.md) pour savoir quels champs XDM correspondent aux rapports existants relatifs au cycle de vie mobile. |
-| **Avril 2022** |  |
+| **Avril 2022** | |
 | Mises à jour de la page de destination dʼAdobe Analytics | Mises à jour de la [page de destination conjointe Analysis Workspace/Reports &amp; Analytics](/help/analyze/landing.md) qui améliore la convivialité et la facilité de navigation. |
 | Nouvelle rubrique sur le panneau [!UICONTROL Résumé de la page] | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nouvelle rubrique sur le panneau [!UICONTROL Élément suivant/précédent] | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
-| **Mars 2022** |  |
+| **Mars 2022** | |
 | Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est réglé sur « Élevé ». |
 | Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. |
 | Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
@@ -131,15 +137,15 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 3 juin 2021 | Mise à jour de la documentation destinée à mieux expliquer la [mise en œuvre des flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) et [ici](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=fr#BucketOwnerFullControl). |
 | 25 mai 2021 | Mise à jour de la documentation sur le [respect de la casse des eVar dans le compte rendu des performances](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr). |
 | 13 mai 2021 | Mises à jour des [requêtes API Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Elles prennent désormais en charge les « Heures ». |
-| **Mars 2021** |  |
+| **Mars 2021** | |
 | Mars, avril 2021 | Mises à jour du [Guide d’exécution](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=fr) et du [Guide du curateur](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) pour les Tableaux de bord Adobe Analytics. |
 | 25 mars 2021 | Nouvelle documentation sur la page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur]. Elle vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. Les [!UICONTROL préférences utilisateur] s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page des [!UICONTROL préférences utilisateur] :<ul><li>Paramètres des rapports : le séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres des rapports : séparateur CSV</li><li>Projets Espace de travail : Aide > Activer les conseils</li><li>Projets Espace de travail : Panneau vierge _Option Démarrer de nouveaux projets avec ce panneau_</li></ul> |
 | 25 mars 2021 | [!UICONTROL L’histogramme Prédiction de compartiments intelligents] aide à utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de compartiments appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
 | 25 mars 2021 | Mises à jour de l’[API de réparation des données](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) (filtrage des URL, des chaînes de requête, des signes arobase, etc.). |
 | 25 mars 2021 | Nouvelle documentation sur l’[API du journal d’utilisation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
-| **Février 2021** |  |
+| **Février 2021** | |
 | 4 février 2021 | Sélection de composant : le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Espace de travail]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
-| **Janvier 2021** |  |
+| **Janvier 2021** | |
 | 14 janvier 2021 | Ajout de l’option de sélection de langue à la documentation des Tableaux de bord Analytics. |
 | 14 janvier 2021 | Ajout de documentation sur la manière dont vous pouvez ajouter des images à des projets Espace de travail en référençant une URL d’image publique. |
 | 14 janvier 2021 | Gestionnaire de source et de paramètres combiné pour les visualisations Espace de travail : le gestionnaire de la [!UICONTROL Source de données] (point) et le gestionnaire de paramètres (engrenage) pour les visualisations ont été combinés en une seule fenêtre contextuelle. Vous pouvez ainsi facilement gérer votre source et vos paramètres à partir du même emplacement. |
@@ -148,30 +154,30 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
-| **Décembre 2020** |  |
+| **Décembre 2020** | |
 | 7 décembre 2020 | Modification de toutes les pages pertinentes afin d’inclure ou de substituer le point d’entrée « adobedc.net ». |
 | 8 décembre 2020 | Mises à jour de la page [Créer un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=fr) dans Espace de travail. |
-| **Novembre 2020** |  |
+| **Novembre 2020** | |
 | 24 novembre 2020 | Mises à jour de la page [Aperçu des panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) dans Espace de travail. |
 | 24 novembre 2020 | Nouveaux documents relatifs à la révision des implémentations : <ul><li>[Révision intégrale des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=fr)</li><li>[Révision ciblée des implémentations](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=fr)</li></ul> |
 | 24 novembre 2020 | Mise à jour de la page [Aperçu des visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) d’Analysis Workspace. |
 | 12 novembre 2020 | Nouvelle page sur l’[Implémentation héritée d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=fr). |
 | 2 novembre 2020 | Mise à jour du document sur [FTP pour les classifications](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=fr). |
-| **Octobre 2020** |  |
+| **Octobre 2020** | |
 | 23 octobre 2020 | Visualisation Ligne d’Espace de travail : [Option de tendance de moyenne glissante](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr) : ce paramètre a été ajouté aux paramètres de tendance de visualisation [!UICONTROL Ligne]. Connue également sous le nom de moyenne mobile, une moyenne glissante utilise un nombre spécifique de points de données (déterminé par une sélection de **[!UICONTROL périodes]**), calcule leur moyenne et utilise cette moyenne comme point dans la ligne. |
 | 23 octobre 2020 | La [page d’aide sur les performances](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=fr) d’Espace de travail présente les différents facteurs qui influent sur les performances du projet et fournit des liens vers des conseils relatifs à l’optimisation. |
 | 23 octobre 2020 | Ajout d’améliorations à la documentation sur les Tableaux de bord Adobe Analytics. Le style de la carte de performance mobile d’Espace de travail correspond désormais à l’application. |
-| **Septembre 2020** |  |
+| **Septembre 2020** | |
 | 17 septembre 2020 | [Télécharger 50 000 éléments pour une seule dimension](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr#download-items) : vous pouvez désormais télécharger 50 000 éléments pour une seule dimension dans un tableau à structure libre avec des segments et des filtres appliqués. Vous pouvez ainsi accéder à plus de 400 lignes de données en dehors d’Analysis Workspace. |
 | 17 septembre 2020 | [Améliorations de la visualisation Ligne](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=fr) : <ul><li>Vous pouvez afficher ou masquer l’axe des x et l’axe des y de n’importe quelle visualisation [!UICONTROL Ligne]. Cela peut s’avérer particulièrement utile lorsque les visualisations [!UICONTROL Ligne] sont plus compactes.</li><li>Vous pouvez superposer une étiquette de valeur minimale et maximale sur n’importe quelle visualisation Ligne pour mettre rapidement en évidence les hausses et les baisses d’une mesure.</li><li>Vous pouvez superposer différentes lignes de tendance de régression sur n’importe quelle visualisation Ligne afin de visualiser plus facilement la tendance dans les données. Les options disponibles sont [!UICONTROL Linéaire], [!UICONTROL Logarithmique], [!UICONTROL Exponentielle], [!UICONTROL Puissance] et [!UICONTROL Quadratique].</li></ul> |
 | 17 septembre 2020 | Nouvelles périodes dans Espace de travail : nous avons ajouté 5 nouvelles périodes afin que vous puissiez choisir parmi des périodes qui n’incluent pas de données de jour partielles à partir d’aujourd’hui. Ces périodes sont 7 derniers jours complets, 14 derniers jours complets, 30 derniers jours complets, 60 derniers jours complets et 90 derniers jours complets. |
 | 17 septembre 2020 | Nouvelle documentation sur le [Panneau d’observateurs simultanés de médias dans Espace de travail](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=fr). |
-| **Août 2020** |  |
+| **Août 2020** | |
 | 31 août 2020 | Ajout d’améliorations à la [documentation sur l’assemblage basé sur les champs](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=fr) dans Analytics sur l’ensemble des appareils. |
-| **Juillet 2020** |  |
+| **Juillet 2020** | |
 | 21 juillet 2020 | Mises à jour et révisions importantes des [analyses entre appareils](/help/components/cda/overview.md). Ajout du [groupement basé sur les champs](/help/components/cda/field-based-stitching.md). |
 | 16 juillet 2020 | Nouveaux paramètres prédéfinis de période dans Espace de travail. Ajout de 4 nouvelles périodes : ([!UICONTROL cette semaine/ce mois/ce trimestre/cette année (à l’exception d’aujourd’hui)]). Cela vous permet de choisir parmi des périodes ne comprenant pas de données de journée partielle pour la journée en cours. |
-| **Juin 2020** |  |
+| **Juin 2020** | |
 | 25 juin 2020 | Nouvelle documentation pour le [panneau Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) dans Espace de travail. Il fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. |
 | 25 juin 2020 | Nouvelle documentation pour le [panneau Analytics for Target](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) dans Espace de travail. Il vous permet d’analyser en toute confiance vos activités et expériences Adobe Target. |
 | 18 juin 2020 | Nouvelle documentation sur [Attribution IQ : attribution algorithmique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=fr). |
@@ -205,7 +211,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 7 février 2020 | Mises à jour de [Configuration des analyses entre appareils](/help/components/cda/setup.md) et [FAQ](/help/components/cda/faq.md). |
 | 4 février 2020 | Réécriture complète du [Guide de mise en œuvre](/help/implement/home.md). |
 | 22 janvier 2020 | Mise à jour de la page Tableau à structure libre pour inclure des informations sur le nouveau [Générateur de tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
-| **Janvier 2020** |  |
+| **Janvier 2020** | |
 | 24 janvier 2020 | Mises à jour de la page [Paramètres des lignes](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=fr#cja-workspace) dans Espace de travail. |
 | 16 janvier 2020 | Nouvelle documentation sur le [Créateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr). Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, répartitions, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la répartition** : vous pouvez définir les niveaux de rangée et de répartition pour chaque ligne de dimension. Auparavant, Espace de travail imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Répartition par position** : vous pouvez définir des rangées de dimension sur _répartition par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 | 13 janvier 2020 | Ajout de [Adobe Analytics et les cookies de navigateur](/help/technotes/cookies/cookies.md). |

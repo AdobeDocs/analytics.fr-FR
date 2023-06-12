@@ -4,10 +4,10 @@ title: Créer et partager des fiches d’évaluation mobiles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
 source-wordcount: '2513'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -96,7 +96,7 @@ Pour créer une date de comparaison, vous pouvez choisir parmi des paramètres p
 
 ![Nouvelle carte de performance 4](assets/new_score_card4.png)
 
-Si la période souhaitée n’a pas encore été créée, vous pouvez en créer une en cliquant sur l’icône de calendrier.
+Si la période souhaitée n’a pas encore été créée, vous pouvez en créer une nouvelle en cliquant sur l’icône Calendrier.
 
 ![Nouvelle carte de performance 5](assets/new_score_card5.png)
 
@@ -118,7 +118,7 @@ Regardez cette vidéo sur les visualisations pour les cartes de performance mobi
 
 >[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
-Les tableaux de bord Analytics offrent quatre visualisations qui vous permettent de mieux comprendre les éléments de dimension et les mesures. Appliquez une visualisation différente en modifiant le [!UICONTROL type de graphique] des [!UICONTROL propriétés] d’une mosaïque. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
+Les tableaux de bord Analytics offrent quatre visualisations qui vous donnent des informations détaillées sur les mesures et les éléments de dimension. Appliquez une visualisation différente en modifiant le [!UICONTROL type de graphique] des [!UICONTROL propriétés] d’une mosaïque. Sélectionnez simplement la mosaïque de droite, puis modifiez le type de graphique.
 
 ![Propriétés de la mosaïque](assets/properties.png)
 
@@ -270,7 +270,7 @@ Les histoires de données vous permettent de personnaliser chaque élément, afi
    ![Création d’une histoire de données](assets/data-story4.png)
 
 >[!NOTE]
->Les diapositives héritent des composants de la mosaïque, mais l’inverse n’est pas vrai.
+>Les diapositives héritent des composants de la mosaïque, mais les mosaïques n’héritent pas des composants des diapositives.
 
 **Pour personnaliser des diapositives individuelles**
 
@@ -340,7 +340,7 @@ Après avoir partagé une carte de performance, vos destinataires peuvent y acc�
 
 Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous voudrez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de lʼexécution ont accès à ces modifications.
 
-### Partage de fiches d’évaluation à l’aide d’un lien partageable
+### Partage de fiches d’évaluation à l’aide d’un lien partageable {#shareable-link}
 
 L’utilisation d’un lien partageable facilite le partage d’une fiche d’évaluation dans une application de messagerie électronique, de document ou de message texte. Le lien partageable permet aux destinataires d’ouvrir la fiche d’évaluation sur leur bureau ou dans l’application mobile des tableaux de bord. La possibilité de partager des liens profonds facilite encore le partage de projets et améliore l’engagement avec vos parties prenantes.
 
