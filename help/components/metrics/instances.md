@@ -3,10 +3,10 @@ title: Instances
 description: Nombre d’accès pour lesquels une variable (non persistante) a été définie.
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -17,3 +17,7 @@ La mesure « Instances » indique le nombre de fois où une dimension a été 
 ## Méthode de calcul de cette mesure
 
 Sur tous les accès d’une suite de rapports, incluez uniquement les accès qui définissent explicitement un élément de dimension dans la demande d’image. Certaines dimensions, telles que les [eVars](../dimensions/evar.md), persistent au-delà de l’accès pour lequel elles ont été définies. Les mesures telles que [Pages vues](page-views.md) et [Occurrences](occurrences.md) comptabilisent à la fois les valeurs initiales et les valeurs persistantes. Cette mesure ne comptabilise pas les valeurs persistantes.
+
+Par exemple, un visiteur arrive sur votre site et utilise la recherche interne. Vous effectuez le suivi de la recherche interne en eVar1. Après avoir utilisé la recherche interne une seule fois, ils consultent cinq autres pages avant de quitter le site.
+
+Si vous affichez un rapport dans Workspace, une instance eVar1 et six occurrences s’affichent. L’instance unique déclenchée sur la page des résultats de recherche, tandis que les occurrences comptabilisaient la valeur initiale ainsi que les valeurs persistantes.

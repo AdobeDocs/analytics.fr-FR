@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3671'
 ht-degree: 92%
 
 ---
@@ -100,7 +100,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`ipv6`** | L’adresse IPv6 compressée, si disponible. Mutuellement exclusif à `ip`. Si cette colonne contient une adresse IP non masquée, `ip` est vide. | varchar(40) |
 | **`j_jscript`** | Version de JavaScript prise en charge par le navigateur. | char(5) |
 | **`java_enabled`** | Indicateur précisant si Java est activé. <br>Y : activé <br>N : désactivé <br>U : inconnu | char(1) |
-| **`javascript`** | Identifiant de recherche de la version JavaScript, basé sur `j_jscript`. Utilise une table de recherche. | tinyint sans signe |
+| **`javascript`** | Identifiant de recherche de la version JavaScript, basé sur `j_jscript`. Fait référence à la table de recherche `javascript_version`. | tinyint sans signe |
 | **`language`** | Identifiant numérique de la langue. Utilise la table de recherche `languages.tsv`. | smallint sans signe |
 | **`last_hit_time_gmt`** | Horodatage (heure UNIX®) de l’accès précédent. Utilisée pour calculer la dimension [Jours depuis la dernière visite](/help/components/dimensions/days-since-last-visit.md). | int |
 | **`last_purchase_num`** | Variable utilisée dans la dimension [Fidélisation des clients](/help/components/dimensions/customer-loyalty.md). Indique le nombre dʼachats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3 : 3 achats précédents ou plus (client fidèle) | int sans signe |
@@ -217,7 +217,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels lʼaccès est qualifié. | text |
 | **`tnt_instances`** | Utilisée dans les intégrations Adobe Target. Variable d’instances Target. | text |
 | **`tnt_post_vista`** | N’est plus utilisé. Utilisez `post_tnt` à la place. | text |
-| **`transactionid`** | Identifiant unique vers lequel plusieurs points de données pourront être transférés plus tard au moyen de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
+| **`transactionid`** | Identifiant unique vers lequel plusieurs points de données pourront être chargés plus tard au moyen de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | **`truncated_hit`** | Indicateur signifiant que la demande d’image a été tronquée. Indique qu’un accès partiel a été reçu. <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |
 | **`ua_color`** | N’est plus utilisé. Anciennement utilisée comme solution de secours pour l’intensité de couleur. | char(20) |
 | **`ua_os`** | N’est plus utilisé. Anciennement utilisée comme solution de secours pour le système d’exploitation. | char(80) |

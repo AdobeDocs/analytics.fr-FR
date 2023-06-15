@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Contenu du flux de données - Aperçu
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ La remise des fichiers de recherche s’effectue dans une archive .zip compress�
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (personnalisé pour ce flux de données)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (personnalisé pour ce flux de données)
+* **`column_headers.tsv`**: Une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
+* **`browser.tsv`**: Met en correspondance l’ID du navigateur (le `browser` de flux) au nom convivial du navigateur.
+* **`browser_type.tsv`**: Met en correspondance l’ID du navigateur (le `browser` colonne flux) au type de navigateur.
+* **`color_depth.tsv`**: Mappe l’identifiant de profondeur de couleur (le paramètre `color` colonne flux) en profondeur de couleur.
+* **`connection_type.tsv`**: Mappe l’ID de type de connexion (le `connection_type` colonne flux) au type de connexion.
+* **`country.tsv`**: Met en correspondance l’ID de pays (le `country` colonne flux) au nom du pays.
+* **`javascript_version.tsv`**: Mappe l’ID de version JavaScript (le `javascript` la colonne flux) vers la version JavaScript.
+* **`languages.tsv`**: Met en correspondance l’ID de langue (le `language` colonne flux) vers la langue.
+* **`operating_systems.tsv`**: Met en correspondance l’identifiant du système d’exploitation (le `os` de flux) au nom du système d’exploitation.
+* **`plugins.tsv`**: Met en correspondance les identifiants du module externe (le `plugin` colonne flux) à chaque nom de module externe respectif.
+* **`resolution.tsv`**: Met en correspondance l’ID de résolution (le `resolution` colonne flux) à la résolution de l’écran.
+* **`referrer_type.tsv`**: Mappe l’ID du type de référent (le `ref_type` colonne flux) au type de référent.
+* **`search_engines.tsv`**: Met en correspondance l’identifiant du moteur de recherche (le `search_engine` colonne flux) au nom du moteur de recherche.
+* **`event.tsv`**: Met en correspondance chaque ID d’événement (le `event_list` de flux) à son nom d’événement respectif.
 
 ## Fichiers de données d’accès
 
-Les données d’accès sont fournies dans un fichier [!DNL hit_data.tsv]. La quantité de données qu’il contient est déterminée par le format de remise (horaire ou quotidien et un seul ou plusieurs fichiers). Ce fichier ne contient que des données d’accès. Les en-têtes de colonne sont remis séparément avec les fichiers de recherche. Chaque ligne de ce fichier contient un seul appel de serveur.
+Les données d’accès sont fournies dans un fichier `hit_data.tsv`. La quantité de données qu’il contient est déterminée par le format de remise (horaire ou quotidien et un seul ou plusieurs fichiers). Ce fichier ne contient que des données d’accès. Les en-têtes de colonne sont remis séparément avec les fichiers de recherche. Chaque ligne de ce fichier contient un seul appel de serveur.
 
 Les fichiers livrés par Adobe dépendent du type de flux de données que vous avez configuré. Tous les fichiers sont chiffrés selon la norme ISO-8859-1.
 

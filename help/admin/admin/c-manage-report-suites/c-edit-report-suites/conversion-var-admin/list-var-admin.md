@@ -3,31 +3,27 @@ title: Variables de liste
 description: Créez et configurez des variables de liste à utiliser dans les rapports.
 feature: Admin Tools
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '480'
+ht-degree: 92%
 
 ---
 
 # Variables de liste
 
-Créez et configurez des variables de liste à utiliser dans les rapports. Définissez ici les valeurs de délimiteur, d’expiration, d’attribution et max.
+Créez et configurez des variables de liste à utiliser dans les rapports. Définissez leurs valeurs de délimiteur, d’expiration, d’attribution et max.
 
-Vous pouvez accéder à la configuration dans Admin Console :
-
-1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suites]**.
-2. Sélectionnez la suite de rapports.
-3. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de liste]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Méthodes de recherche]**
 
 * **Nom** : chaque valeur délimitée peut contenir, au maximum, 255 caractères (ou moins en cas d’utilisation de caractères codés sur plusieurs octets). Il s’agit de la longueur maximale de chaque élément.
 * **Délimiteur de valeurs** : caractère utilisé pour séparer les valeurs dans la variable de liste. Il s’agit généralement de caractères tels que des virgules, deux-points, barres verticales, etc.
 
-   >[!NOTE]
-   >
-   >Les caractères à plusieurs octets ne peuvent pas servir de délimiteurs dans les variables de liste. Le délimiteur doit être un caractère à un seul octet.
+  >[!NOTE]
+  >
+  >Les caractères à plusieurs octets ne peuvent pas servir de délimiteurs dans les variables de liste. Le délimiteur doit être un caractère à un seul octet.
 
-* **Expiration** : à l’instar d’une expiration d’eVar, cette valeur détermine la période qui peut s’écouler entre la variable de liste et l’événement de conversion à relier.
+* **Expiration**: Tout comme pour l’expiration en eVar, ce champ détermine le temps qui peut s’écouler entre la variable de liste et l’événement de conversion à relier.
    * **Au niveau d’une page vue ou d’une visite** : les événements de succès au-delà de la page vue ou de la visite ne sont reliés à aucune des valeurs dans la variable de liste.
    * **Sur la base d’une période, telle qu’un jour, une semaine, un mois, etc.** : les événements de succès au-delà de la période spécifiée ne sont reliés à aucune des valeurs dans la variable de liste. Un nombre personnalisé de jours peut être également défini.
    * **Evénements de conversion spécifiques** : tout autre événement de succès qui se déclenche après l’événement désigné n’est relié à aucune des valeurs dans la variable de liste.

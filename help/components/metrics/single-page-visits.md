@@ -3,14 +3,14 @@ title: Visites sur une seule page (mesures)
 description: Le nombre de fois que l’élément de dimension « Page » n’a pas changé au cours d’une visite.
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 97%
 
 ---
 
-# Visites sur une seule page
+# Visites de page unique
 
 *Cette page d’aide décrit le fonctionnement de la mesure « Visites de page unique ». Pour plus d’informations, consultez la dimension [Visites de page unique](../dimensions/single-page-visits.md).*
 
