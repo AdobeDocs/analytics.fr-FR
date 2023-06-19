@@ -4,7 +4,7 @@ description: Questions fréquemment posées sur la mise en œuvre et liens vers 
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -48,7 +48,6 @@ var s = new Object();
 >* Remplacer la suite de rapports par une valeur non valide, car cela génère une charge inutile sur les serveurs d’Adobe.
 >* Supprimer complètement le fichier `s_code.js`, sauf si vous supprimez également toutes les références au fichier sur chaque page.
 >* Modifier la variable `trackingServer` afin qu’elle ne pointe plus vers Adobe. AppMeasurement continue à envoyer des demandes d’image, qui renvoient des erreurs 404.
-
 
 ## J’ai exécuté AppMeasurement par le biais d’un analyseur de code et il a signalé son utilisation de `Math.random()` comme risque potentiel de sécurité. `Math.random()` est-il utilisé avec des données sensibles ?
 
