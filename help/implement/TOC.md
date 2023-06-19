@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
 source-git-commit: fb739c9185cdc246540cfe9c78dc8660022512d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ ht-degree: 99%
 + Cas d’utilisation de mise en œuvre {#use-cases}
    + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
    + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
-   + [Workflow de suivi des campagnes](use-cases/campaign-tracking.md)
+   + [Workflow du suivi des campagnes](use-cases/campaign-tracking.md)
 + Validation de votre mise en œuvre {#validate}
    + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
