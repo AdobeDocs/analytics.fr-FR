@@ -4,9 +4,9 @@ description: Permet de créer des instances d’AppMeasurement et d’en effectu
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 68%
 
 La fonction `s_gi()` instancie ou trouve une instance d’AppMeasurement par identifiant de suite de rapports. AppMeasurement effectue le suivi de toutes les instances créées, tandis que la fonction `s_gi()` renvoie l’instance existante pour une suite de rapports, le cas échéant. S’il n’existe aucune instance, une nouvelle instance est créée.
 
-## Instanciation d’un objet de suivi à l’aide de l’extension SDK Web
+## Instanciez un objet de suivi à l’aide de l’extension SDK Web
 
-L’extension SDK Web instancie et gère l’objet de suivi pour vous. Cependant, vous pouvez personnaliser le nom de l’objet de suivi dans les paramètres d’extension :
+L’extension SDK Web instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez personnaliser le nom de l’objet de suivi dans les paramètres d’extension :
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous SDK Web Adobe Experience Platform.
-1. Modifiez la variable [!UICONTROL Nom] à la valeur souhaitée. Sa valeur par défaut est `alloy`.
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous le SDK Web d’Adobe Experience Platform.
+1. Modifiez le champ [!UICONTROL Nom] sur la valeur souhaitée. Sa valeur par défaut est `alloy`.
 
-## Instanciation d’un objet de suivi implémentant manuellement le SDK Web
+## Instanciez un objet de suivi implémentant manuellement le SDK Web
 
-Le code suivant charge le SDK Web et instancie un objet de suivi. Vous pouvez personnaliser le nom de l’objet de suivi en modifiant la chaîne `"alloy"` à la fin du script intégré à la valeur souhaitée.
+Le code suivant charge le SDK Web et instancie un objet de suivi. Vous pouvez personnaliser le nom de l’objet de suivi en modifiant la chaîne `"alloy"` à la fin du script intégré sur la valeur souhaitée.
 
 ```js
 <script>
@@ -37,13 +37,13 @@ Le code suivant charge le SDK Web et instancie un objet de suivi. Vous pouvez pe
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-Voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) pour plus d’informations, voir la documentation du SDK Web .
+Pour plus d’informations, voir la section [Installer le SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=fr) dans la documentation du SDK Web.
 
-## Instanciation d’un objet de suivi à l’aide de l’extension Adobe Analytics
+## Instanciez un objet de suivi à l’aide de l’extension Adobe Analytics
 
 L’extension Analytics instancie et gère l’objet de suivi à votre place. Cependant, vous pouvez également définir un objet de suivi global dans l’accordéon [!UICONTROL Gestion des bibliothèques] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Gestion des bibliothèques], puis cochez une case autre que [!UICONTROL Gérer la bibliothèque pour moi].
