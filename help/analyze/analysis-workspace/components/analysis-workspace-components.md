@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1190'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -53,22 +53,22 @@ Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appar
 
 Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=fr) sont les périodes dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
 
-Vous pouvez définir les composants de période par rapport au calendrier du panneau. Pour plus d’informations, voir [À propos des plages de dates relatives au panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+Vous pouvez créer des composants de la période par rapport au calendrier du panneau. Pour plus d’informations, voir [À propos des périodes relatives au panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
 Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr).
 
 ![](assets/date-ranges.png)
 
 
-## Gestion des composants {#actions}
+## Gérer les composants {#actions}
 
 Vous pouvez gérer les composants directement dans le rail de gauche.
 
-1. Cliquez avec le bouton droit de la souris sur un composant.
+1. Cliquez avec le bouton droit sur un composant.
 
    OU
 
-   Sélectionnez un composant, puis sélectionnez l’option **Action** Icône (3 points) en haut de la liste des composants.
+   Sélectionnez un composant, puis cliquez sur l’icône (de 3 points) **Action** en haut de la liste des composants.
 
    >[!TIP]
    >
@@ -87,31 +87,31 @@ Vous pouvez gérer les composants directement dans le rail de gauche.
 
 Les composants personnalisés peuvent également être gérés par l’intermédiaire de leurs gestionnaires de composants respectifs. Par exemple, le [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
-## Recherche, filtrage et tri de la liste des composants
+## Rechercher, filtrer et trier la liste des composants
 
 Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de gauche d’Analysis Workspace afin de localiser rapidement un composant particulier.
 
-### Recherche dans la liste des composants
+### Rechercher dans la liste des composants
 
-1. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+1. Sélectionnez l’icone **Composants** ![l’icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
 2. Dans le champ de recherche, commencez à saisir le nom du composant que vous souhaitez utiliser dans votre projet.
 
-   Le type de composant peut être identifié à la fois par couleur et par icône. **Dimensions** ![Icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **Segments** ![Icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleues, **Périodes** ![Icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violets et **Mesures** ![Icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes. L’icône Adobe indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![Icône Calcul](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur Analytics de votre entreprise.
+   Le type de composant peut être identifié à la fois par couleur et par icône. **Les dimensions** ![icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **les segments** ![icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleus, **les périodes** ![icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violettes et **les mesures** ![icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes. L’icône Adobe indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![icône Calculateur](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur ou une administratrice Analytics de votre entreprise.
 
 3. Sélectionnez le composant lorsqu’il apparaît dans la liste déroulante.
 
-### Filtrage de la liste des composants
+### Filtrer la liste des composants
 
-1. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+1. Sélectionnez l’icône **Composants** ![icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
-2. Sélectionnez la **Filtrer** icon ![Icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Sélectionnez l’icône **Filtre** ![icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
    OU
 
    Saisissez le signe dièse (#) dans le champ de recherche.
 
-3. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
+3. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
 
    | Option | Fonction |
    |---------|----------|
@@ -124,16 +124,16 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
    | [!UICONTROL **Tout afficher**] | Permet d’afficher tous les composants. Cette option est réservée à l’administration. |
    | [!UICONTROL **Non approuvé**] | Permet de n’afficher que les composants qui n’ont pas encore été marqués comme approuvés par l’administration. Cette option est utile pour l’administration pour identifier les composants qui doivent être examinés et approuvés. Cette option est réservée à l’administration. |
 
-4. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Tri de la liste des composants](#sort-the-component-list).
+4. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Trier la liste des composants](#sort-the-component-list).
 
-### Tri de la liste des composants
+### Trier la liste des composants
 
 {{release-limited-testing-section}}
 
-1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrage de la liste des composants](#filter-the-component-list).
+1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrer la liste des composants](#filter-the-component-list).
 
-2. Sélectionnez la **Composants** icon ![Icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+2. Sélectionnez l’icône **Composants** ![icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
 
-3. Sélectionnez la **Tri** icon ![Icône Tri des composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+3. Sélectionnez l’icône **Trier** ![icône Trier les composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
 
    {{components-sort-options}}
