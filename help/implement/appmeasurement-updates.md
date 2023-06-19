@@ -4,7 +4,7 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Date de publication : **10 avril 2019**
 Date de publication : **22 février 2019**
 
 * Mise à jour du module Gestion de l’audience vers DIL 9.1. (AN-175255)
-* La stratégie de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
+* La politique de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
 * Amélioration d’AppMeasurement afin d’honorer le droit d’opposition quand le service d’identité n’est pas approuvé dans l’accord préalable. (AN-175259)
 
 ## Version 2.11.0
@@ -376,24 +376,24 @@ Date de publication : **18 septembre 2014**
 
 * Ajout d’une variable `tagContainerMarker` qui permet à la mise en œuvre de spécifier jusqu’à 4 caractères annexés à la chaîne de version avec un délimiteur de caractère (tiret) supplémentaire. Ceci est utilisé par la gestion dynamique des balises.
 
-   ```js
-   // JavaScript
-   s.tagContainerMarker = "D1.0";
-   
-   // Data Collection request
-   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
-   ```
+  ```js
+  // JavaScript
+  s.tagContainerMarker = "D1.0";
+  
+  // Data Collection request
+  //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
+  ```
 
-   Les 4 caractères se limitent aux caractères autorisés dans les URL d’accès aux fichiers, tels les caractères alphanumériques et le point.
+  Les 4 caractères se limitent aux caractères autorisés dans les URL d’accès aux fichiers, tels les caractères alphanumériques et le point.
 
 * Sur les pages à balisage double avec du code H, correction d’une boucle pouvant survenir durant le suivi automatique des liens (téléchargement et sortie) alors que le suivi forcé des liens est activé (par défaut dans les navigateurs Webkit). En outre, ajout d’une protection générale autour du suivi automatique des liens afin d’empêcher la survenue de telles boucles. Cette protection limite à une fois toutes les 10 secondes le suivi automatique des liens pour les clics répétés vers le *même* objet. Cette protection s’applique uniquement au suivi automatique des liens, de sorte que les appels de suivi manuel des liens (s.tl) ne sont pas limités. Les clics vers d’autres objets ne sont pas non plus concernés par cette protection et feront l’objet d’un suivi.
 * Correction de la gestion des objets sur lesquels l’utilisateur a cliqué lorsqu’un délai est nécessaire.
 * Correction d’un problème en raison duquel le nombre de pages vues était double lorsque la variable s.t était invoquée à partir d’une fonction onclick, si l’API visiteur n’avait pas encore les valeurs requises.
 * Prise en charge de HTTP POST.
 
-   >[!IMPORTANT]
-   >
-   >Pour qu’un appel [!DNL Analytics] utilise la méthode POST plutôt que la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des [URL tronquées dans IE](https://helpx.adobe.com/fr/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la mise en œuvre la plus récente du service d’identification des visiteurs pour Experience Cloud.
+  >[!IMPORTANT]
+  >
+  >Pour qu’un appel [!DNL Analytics] utilise la méthode POST plutôt que la méthode GET dans [!DNL AppMeasurement] (une méthode de résolution des [URL tronquées dans IE](https://helpx.adobe.com/fr/analytics/kb/shortening-image-request-urls.html)), vous devez utiliser la mise en œuvre la plus récente du service d’identification des visiteurs pour Experience Cloud.
 
 ## Version 1.4
 
@@ -482,11 +482,11 @@ Date de publication : **18 juillet 2013**
 
 * Le hachage/fragment est désormais ignoré par le suivi automatique des liens. Auparavant, l’URL suivante était automatiquement suivie puisque l’intégralité du contenu entre les balises `href` se terminait par `.pdf` :
 
-   ```js
-   <a href="index.htm#anchor.pdf">Test Link</a>
-   ```
+  ```js
+  <a href="index.htm#anchor.pdf">Test Link</a>
+  ```
 
-   Désormais, le hachage/fragment est ignoré de sorte que le lien est suivi uniquement lorsque le nom de fichier se termine par une extension qui correspond.
+  Désormais, le hachage/fragment est ignoré de sorte que le lien est suivi uniquement lorsque le nom de fichier se termine par une extension qui correspond.
 
 ## Version 1.0.1
 
