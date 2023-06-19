@@ -4,9 +4,9 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '3954'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 | Nouveaux liens vers les rapports **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages Robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
 | Nouveaux rapports prêts à l’emploi | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de la page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports sont au format [!UICONTROL Espace de travail] et doivent être configurés et générés. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, d’une visualisation des [!UICONTROL Flux] et bien plus encore. Vous pouvez modifier ces rapports et changer de dimension, d’élément de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux dans les panneaux de l’espace de travail. | ![Page suivante](assets/next-page.png) |
 | Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
-| Également disponible dans Customer Journey Analytics | Cette page de destination est également disponible dans CJA, mais dans un autre format. |  |
+| Également disponible dans Customer Journey Analytics | Cette landing page, sous une forme modifiée, est également disponible dans Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 

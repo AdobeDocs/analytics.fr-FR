@@ -4,8 +4,8 @@ title: Aperçu des composants
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: ht
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
    | [!UICONTROL **Favoris**] | Affichez uniquement les composants figurant dans votre liste de favoris. Pour plus d’informations sur l’ajout de composants à votre liste de favoris, consultez la section [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **Dimensions**] | Afficher uniquement les composants qui sont des dimensions. |
    | [!UICONTROL **Mesures**] | Afficher uniquement les composants qui sont des mesures. |
-   | [!UICONTROL **Segments**] | Afficher uniquement les composants qui sont des segments. <!--this is Filters in CJA--> |
+   | [!UICONTROL **Segments**] | Afficher uniquement les composants qui sont des segments. <!--this is Filters in Customer Jourey Analytics--> |
    | [!UICONTROL **Périodes**] | Afficher uniquement les composants qui sont des périodes. |
    | [!UICONTROL **Tout afficher**] | Permet d’afficher tous les composants. Cette option est réservée à l’administration. |
    | [!UICONTROL **Non approuvé**] | Permet de n’afficher que les composants qui n’ont pas encore été marqués comme approuvés par l’administration. Cette option est utile pour l’administration pour identifier les composants qui doivent être examinés et approuvés. Cette option est réservée à l’administration. |

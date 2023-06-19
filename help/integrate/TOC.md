@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
 user-guide-description: Configurez les intégrations à d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager et Advertising Cloud.
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [Audience Analytics - Aperçu](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
       + [Workflow - Aperçu](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Guide AAM : Créer une destination Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
+      + [Guide de création d’une destination Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
       + [Utilisation des données d’audience dans Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Cas d’utilisation d’Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Questions fréquentes](c-audience-analytics/mc-audiences-faqs.md)

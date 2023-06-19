@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
-workflow-type: ht
-source-wordcount: '1164'
-ht-degree: 100%
+source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Les **[sources de données](/help/import/data-sources/overview.md)** doivent ê
 * Options :
 
    * Résumé : simples téléchargements des données, par jour ou dimensions limitées.
-   * ID de transaction : téléchargements de données qui connectent un point de terminaison en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
+   * ID de transaction : téléchargements de données qui connectent un point d’entrée en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
    * Traitement complet : sources de données horodatées traitées comme s’il s’agissait d’un accès collecté par les serveurs Adobe. En d’autres termes, les données sont insérées directement dans le parcours du visiteur.
 
 Les **[intégrations Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** doivent être utilisées :
@@ -67,7 +67,7 @@ Les **[intégrations Adobe Exchange](https://www.adobeexchange.com/experienceclo
 
 L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-insertion-api.md)** doit être utilisée :
 
-* Lorsque vous devez transférer des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile.
+* Lorsque vous devez charger des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile.
 
 API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
@@ -75,12 +75,12 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 
 **[Les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr)** doivent être utilisés :
 
-* Si vous capturez les données des clients d’une entreprise dans une base de données de gestion de la relation client et que vous souhaitez transférer ces informations dans Experience Cloud.
+* Si vous capturez les données des clients d’une entreprise dans une base de données de gestion de la relation client et que vous souhaitez charger ces informations dans Experience Cloud.
 * Si vous souhaitez utiliser les données de gestion de la relation client pour une analyse plus approfondie dans Analytics ou comme critère de ciblage dans Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** doit être utilisé :
 
-* Si vous souhaitez incorporer des données d’audience Adobe Audience Manager (AAM) telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des données psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel workflow d’Analytics.
+* Si vous souhaitez incorporer des données d’audience Adobe Audience Manager telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des informations psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel processus Analytics.
 * Si vous souhaitez que les données de gestion de la relation client téléchargées soient basées sur le temps, car cette intégration envoie de nouvelles informations à Analytics après chaque accès.
 
 ## Exportation de données depuis Adobe Analytics  {#export}

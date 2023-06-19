@@ -2,10 +2,10 @@
 title: Indications du client
 description: Découvrez comment les indications du client remplaceront progressivement la chaîne Agent-utilisateur en tant que source des informations sur le périphérique.
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '1295'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 >
 > Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
 
-AAM nécessite la collecte d’indications à entropie élevée pour préserver une fonctionnalité intégrale. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes ses fonctionnalités. Si vous utilisez [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indices à forte entropie.
 
 ## Questions fréquentes
 
@@ -143,7 +143,7 @@ Consultez la documentation pour les inclure via l’[API Bulk Data Insertion]
 
 +++
 
-+++**Des indications du client seront-elles disponibles dans les données envoyées à AEP et CJA via le connecteur source d’Adobe ?**
++++**Des conseils client seront-ils disponibles dans les données envoyées à Adobe Experience Platform et à Customer Journey Analytics via Adobe Source Connector ?**
 
 Adobe prévoit d’inclure des indications du client dans les données par l’intermédiaire du connecteur source d’Adobe au cours du premier semestre 2023.
 
@@ -155,8 +155,8 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++
 
-+++**Le transfert côté serveur vers AAM prendra-t-il en charge les indications du client ?**
++++**Le transfert côté serveur Adobe Audience Manager prend-il en charge les conseils des clients ?**
 
-Oui. Les indications du client seront incluses dans les données transférées à AAM. Notez qu’AAM nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indices client seront inclus dans les données transférées vers Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indices à forte entropie.
 
 +++

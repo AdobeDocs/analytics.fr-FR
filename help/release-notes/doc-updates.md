@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '4485'
-ht-degree: 98%
+source-wordcount: '4489'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Juin 2023** | |
 | Nouvelle variable AppMeasurement | La variable `doubleEncodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/doubleencodelinkparameters.md) |
-| Nouvelles fonctionnalités pour les jeux de classifications | [Jeux de classifications](/help/components/classifications/sets/overview.md) ont été mises à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation**: Combinez des jeux de classifications dans un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans CJA. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles**: classifie automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Importation automatisée**: Importez automatiquement les données de classification à partir des destinations de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
+| Nouvelles fonctionnalités pour les jeux de classifications | [Jeux de classifications](/help/components/classifications/sets/overview.md) ont été mises à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation**: Combinez des jeux de classifications dans un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans Customer Journey Analytics. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles**: classifie automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Importation automatisée**: Importez automatiquement les données de classification à partir des destinations de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Mises à jour des mesures calculées | Mise à jour des articles consacrés aux mesures calculées, avec de nouvelles captures d’écran et procédures. Ces modifications permettent de refléter toutes les nouvelles fonctionnalités d’Adobe Analytics dans la documentation. |
 | Destinations sécurisées pour l’export des flux de données | Les flux de données peuvent désormais être envoyés vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) |
 | Rapports sur les robots dans Workspace | La création de rapports sur les robots est maintenant disponible dans Analysis Workspace. Cette fonctionnalité introduit également les éléments suivants :<ul><li>une nouvelle dimension : [nom des robots](/help/components/dimensions/bot-name.md)</li><li>deux nouvelles mesures : [Pages vues par les robots](/help/components/metrics/bot-page-views.md) et [Occurrences de robots](/help/components/metrics/bot-occurrences.md).</li><li>Un nouveau modèle de mesure calculée : [Taux de pages vues par les robots](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>Un nouveau rapport Workspace : rapport sur les robots</li></ul>La nouvelle dimension et les nouvelles mesures contiennent des données renvoyées depuis mars 2023. |
@@ -58,7 +58,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Février 2023** | |
 | Implémentation | Contenu mis à jour sur la manière d’[implémenter Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
 | Calendriers et périodes de Workspace | Contenu mis à jour pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’IU du calendrier. Voir [À propos des périodes relatives du panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les périodes de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans CJA. |
+| Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans Customer Journey Analytics. |
 | API 1.4 | L’[API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a été complètement réécrite et est désormais publiée sur Adobe Developer. |
 | Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/use-cases/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
 | **Janvier 2023** | |

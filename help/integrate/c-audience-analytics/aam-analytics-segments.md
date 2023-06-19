@@ -3,10 +3,10 @@ description: Analytics et Audience Manager utilisent tous deux les segments. Ce
 title: Présentation des segments dans Analytics et Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 96%
 
 ---
 
@@ -35,13 +35,13 @@ Un segment Analytics est un mécanisme de filtrage des données dans vos rapport
 
 * Les segments Analytics reposent sur un jeu de données différent des segments Audience Manager. Lors de la collecte de données, Analytics applique aux données un grand nombre d’opérations de post-traitement auxquelles Audience Manager n’a pas accès. Les opérations de post-traitement possibles sont très variées : persistance des variables eVar, règles de traitement, recherches (géolocalisation, appareil mobile), règles VISTA, etc. Audience Manager reçoit les données prétraitées via la redirection côté serveur (ou le DIL).
 
-   Les incohérences entre les données les plus courantes surviennent lorsque l’utilisateur compare des segments sur la base de dimensions qui n’expirent jamais dans Analytics, par rapport aux mêmes dimensions dans Audience Manager. Par exemple, des listVars ou des eVars de marchandisage qui n’expirent jamais.
+  Les incohérences entre les données les plus courantes surviennent lorsque l’utilisateur compare des segments sur la base de dimensions qui n’expirent jamais dans Analytics, par rapport aux mêmes dimensions dans Audience Manager. Par exemple, des listVars ou des eVars de marchandisage qui n’expirent jamais.
 
-   Par exemple, si eVar = bleu et est défini pour ne jamais expirer dans Analytics, tous les segments assortis du critère « eVar = bleu » dans Analytics incluront toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
+  Par exemple, si eVar = bleu et est défini pour ne jamais expirer dans Analytics, tous les segments assortis du critère « eVar = bleu » dans Analytics incluront toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
 
-* Les segments Analytics ont plus de fonctionnalités que les segments AAM. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
+* Les segments Analytics ont plus de fonctionnalités que les segments Adobe Audience Manager. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
 * Comme mentionné précédemment, les visiteurs Audience Manager peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné.
 
-   À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans AAM, ce visiteur sera inclus dans un segment « acheteur », indépendamment de la plage de dates. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
+  À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans Adobe Audience Manager, ce visiteur sera inclus dans un segment &quot;acheteur&quot;, quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
 
 Pour plus d’informations, voir le [Guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).

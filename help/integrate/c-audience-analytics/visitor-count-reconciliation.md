@@ -3,10 +3,10 @@ description: Certaines mesures des visiteurs d’Adobe Analytics et d’Adobe Au
 title: Différences entre les nombres de visiteurs
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 86%
 
 ---
 
@@ -25,11 +25,11 @@ Les mesures des visiteurs sont :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > AAM : Population totale du segment</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population totale de segments</a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM : Population des segments en temps réel</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population des segments en temps réel</a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment et ont atteint vos propriétés pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ Les mesures des visiteurs sont :
  </tbody> 
 </table>
 
-Les mesures Population des segments en temps réel d’AAM et Visiteurs avec un Experience Cloud ID d’Analytics utilisées pour la création de rapports Audience Analytics seront les plus semblables. À court terme cependant, elles présenteront de légères différences en raison de plusieurs facteurs, à savoir :
+La population des segments en temps réel de Adobe Audience Manager et les visiteurs Analytics avec un ID d’Experience Cloud utilisé dans les rapports d’Audience Analytics seront les plus similaires. À court terme cependant, elles présenteront de légères différences en raison de plusieurs facteurs, à savoir :
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Facteur </th> 
-   <th colname="col2" class="entry"> AAM : Population des segments en temps réel </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager : Population des segments en temps réel </th> 
    <th colname="col3" class="entry"> Analytics : Visiteurs avec un Experience Cloud ID </th> 
   </tr>
  </thead>

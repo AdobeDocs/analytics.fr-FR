@@ -3,10 +3,10 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics exige du code sur votre site web, votre application mobile ou to
 
 Pour votre **site Web**, les méthodes de mise en œuvre suivantes sont disponibles :
 
-* **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Installez l’**extension SDK Web** dans les **balises** de la collecte de données Adobe Experience Platform, utilisez une balise de chargement sur chaque page et envoyez les données au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Installez le **Extension SDK Web Adobe Experience Platform** dans la collecte de données Adobe Experience Platform **Balises**, utilisez une balise de chargement sur chaque page et envoyez des données à Adobe Experience Platform. **Edge Network** dans un format adapté à votre entreprise. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
   ![Extension SDK Web](./assets/websdk-extension-implementation.png)
 Voir [Mise en œuvre d’Adobe Analytics à l’aide de l’extension du SDK Web d’Adobe Experience Platform](./aep-edge/overview.md) pour plus d’informations.
 

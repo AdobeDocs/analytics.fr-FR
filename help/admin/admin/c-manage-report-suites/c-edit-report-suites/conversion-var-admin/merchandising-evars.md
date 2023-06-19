@@ -3,10 +3,10 @@ title: eVars de marchandisage et méthodes de recherche de produit
 description: Analyse approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et affectent les données.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '5289'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '5297'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ Pour illustrer comment définir ces variables, voici un exemple dans lequel un v
 * `eVar2` correspond au mot-clé utilisé dans la recherche (« sandales »).
 * `eVar1` correspond à la méthode de recherche de produit utilisée (« recherche interne par mot-clé »).
 
-Lorsque vous définissez ces deux variables sur ces valeurs spécifiques, vous savez que le visiteur utilise le terme de recherche interne par mot-clé « sandales » pour trouver un produit. Dans le même temps, vous savez que le visiteur n’utilise pas d’autres méthodes de recherche de produit pour trouver des produits (par exemple, il ne parcourt pas les catégories de produits au moment précis où il effectue une recherche par mot-clé). Pour s’assurer qu’une affectation appropriée par produit a lieu, ces méthodes inutilisées ne doivent pas être créditées pour la recherche d’un produit trouvé par le biais d’une recherche interne par mot-clé. Par conséquent, vous devez insérer une logique dans le code (AppMeasurement, SDK Web AEP, etc.) qui définit automatiquement les eVars associées à ces autres méthodes de recherche sur une valeur « méthode de non-recherche ».
+Lorsque vous définissez ces deux variables sur ces valeurs spécifiques, vous savez que le visiteur utilise le terme de recherche interne par mot-clé « sandales » pour trouver un produit. Dans le même temps, vous savez que le visiteur n’utilise pas d’autres méthodes de recherche de produit pour trouver des produits (par exemple, il ne parcourt pas les catégories de produits au moment précis où il effectue une recherche par mot-clé). Pour s’assurer qu’une affectation appropriée par produit a lieu, ces méthodes inutilisées ne doivent pas être créditées pour la recherche d’un produit trouvé par le biais d’une recherche interne par mot-clé. Par conséquent, vous devez insérer une logique dans le code (tel que AppMeasurement, Adobe Experience Platform Web SDK, etc.) qui définit automatiquement les eVars associées à ces autres méthodes de recherche sur une valeur &quot;méthode de non-recherche&quot;.
 
 Par exemple, lorsqu’un utilisateur recherche des produits à l’aide du mot-clé « sandales », la logique du code Analytics doit définir les variables comme étant égales aux suivantes sur la page de résultats de recherche interne par mot-clé :
 
@@ -80,7 +80,7 @@ Lorsque le paramètre « Activer le marchandisage » est défini sur « Activ
 
 Cette option n’est pas disponible pour les eVars standard. Le paramètre [!UICONTROL Marchandisage] vous permet de choisir [!UICONTROL Syntaxe de la variable de conversion] ou [!UICONTROL Syntaxe du produit] comme méthode de capture de la valeur de l’eVar de marchandisage.
 
-La **[!UICONTROL Syntaxe de la variable de conversion]** signifie que vous définissez la valeur de l’eVar dans sa propre variable. Par exemple, avec la Syntaxe de la variable de conversion, la valeur `eVar1` de « recherche interne par mot-clé » est définie comme suit dans le code de page (ou le code AppMeasurement, le code du SDK Web AEP, etc.) :
+La **[!UICONTROL Syntaxe de la variable de conversion]** signifie que vous définissez la valeur de l’eVar dans sa propre variable. Par exemple, avec la syntaxe de la variable de conversion, la variable `eVar1` La valeur de &quot;recherche interne par mot-clé&quot; est définie comme suit dans le code de page (ou le code d’AppMeasurement, le code du SDK Web Adobe Experience Platform, etc.) :
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ Si le visiteur ajoute un produit au panier mais ne l’achète jamais, l’expir
 
 ### Utilisation de la syntaxe de la variable de conversion
 
-Revenons à la question de la « Syntaxe du produit » par rapport à la « Syntaxe de la variable de conversion ». Adobe a découvert une méthode plus simple permettant à la fois de collecter les eVars de marchandisage relatives à la méthode de recherche de produit et de lier leurs valeurs aux produits trouvés par les visiteurs. L’utilisation de la syntaxe de la variable de conversion réduit en effet le travail d’implémentation dont doivent se charger les développeurs du client. Cette méthode offre des informations identiques, voire plus intéressantes, que celle relative à la syntaxe du produit. Les développeurs doivent simplement suivre les instructions de déploiement qui leur ont été fournies. Le reste du code peut ensuite être placé dans le fichier SDK Web Adobe AppMeasurement/AEP.
+Revenons à la question de la « Syntaxe du produit » par rapport à la « Syntaxe de la variable de conversion ». Adobe a découvert une méthode plus simple permettant à la fois de collecter les eVars de marchandisage relatives à la méthode de recherche de produit et de lier leurs valeurs aux produits trouvés par les visiteurs. L’utilisation de la syntaxe de la variable de conversion réduit en effet le travail d’implémentation dont doivent se charger les développeurs du client. Cette méthode offre des informations identiques, voire plus intéressantes, que celle relative à la syntaxe du produit. Les développeurs doivent simplement suivre les instructions de déploiement qui leur ont été fournies, et le reste du code peut être placé dans le fichier SDK Web Adobe AppMeasurement/Adobe Experience Platform.
 
 Par exemple, examinons la solution recommandée pour le suivi des performances de la recherche interne par mot-clé. Il est indiqué que, sur la page des résultats de recherche par mot-clé, le code capture le mot-clé recherché par le biais d’une variable prop (par exemple, prop4) ainsi que d’une autre prop (par exemple, prop5). Ces props effectuent le suivi du nombre de résultats affichés à partir de la recherche. Chaque fois qu’une demande d’image Adobe Analytics est générée sur la page des résultats de recherche, les objets de couche de données (ou code de page) déployés par les développeurs sont utilisés pour renseigner les variables ci-dessus (les props).
 
-Une logique supplémentaire contenue dans le fichier SDK Web AppMeasurement/AEP peut renseigner le reste des variables (les dimensions/eVars de marchandisage) qui doivent être définies au même moment.\
+Une logique supplémentaire contenue dans le fichier SDK Web AppMeasurement/Adobe Experience Platform peut renseigner le reste des variables (les eVars/dimensions de marchandisage) qui doivent être définies en même temps.\
 Par exemple, si un nouveau visiteur recherche le mot-clé « sandales », et obtient 25 résultats sur la page de résultats de recherche, le code à déclencher (via le code de page OU la capture de la couche de données) se présente comme suit :
 
 ```js

@@ -3,10 +3,10 @@ title: Les bonnes pratiques pour la mise en œuvre des canaux marketing Adobe An
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution IQ et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 93%
+source-wordcount: '630'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ Afin de garantir une mise en œuvre durable de vos canaux marketing et une cohé
 
 Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions « Canal marketing » et « Détails sur les canaux marketing » génériques afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions Canal Dernière touche, mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
 
-Étant donné que les dimensions Canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles. Ces pratiques révisées permettent d’obtenir des intervalles de recherche en amont clairs et contrôlés avec Attribution IQ et CJA.
+Étant donné que les dimensions Canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles. Ces nouvelles pratiques permettent des intervalles de recherche en amont clairs et contrôlés avec Attribution IQ et avec Customer Journey Analytics.
 
 ## Bonne pratique n° 1 : utiliser Attribution IQ pour une analyse contrôlée
 

@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: Permet d’assurer le suivi du temps nécessaire au chargement d’une page.
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (6 décembre 2022)
 
-* Réécriture complète du plug-in pour le rendre indépendant de toute solution.  Par exemple, ceci est désormais compatible avec le SDK Web AEP.
+* Réécriture complète du plug-in pour le rendre indépendant de toute solution.  Par exemple, ceci est désormais compatible avec le SDK Web de Adobe Experience Platform.
 * Crée les variables `_pltPreviousPage` et `_pltLoadTime` dans l’objet window (plutôt que dans l’objet AppMeasurement s).
 * Supprime la nécessité du cookie s_pltp. Tout est désormais uniquement stocké dans le cookie s_plt.
 * Inclut la fonction getVersion pour faciliter le dépannage.
