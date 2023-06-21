@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 77%
 
 Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices, et aux administrateurs et administratrices, de suivre et de mieux comprendre les composants dans leur environnement Analytics.
 
-Les administrateurs d’Analytics sont chargés de traiter les informations sur chaque composant du dictionnaire de données afin de les mettre à la disposition des utilisateurs.
+Les administrateurs et administratrices d’Analytics sont responsables du traitement des informations de chaque composant dans le dictionnaire de données pour les mettre à la disposition des utilisateurs et utilisatrices.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
@@ -33,7 +33,7 @@ Les informations disponibles dans le dictionnaire de données incluent :
 
 * Si un composant est approuvé par l’administrateur ou l’administratrice système
 
-Pour plus d’informations sur l’accès au dictionnaire de données et pour plus d’informations sur les informations qu’il contient, voir [Affichage des informations sur les composants dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+Pour plus d’informations sur l’accès au dictionnaire de données et sur les informations qu’il contient, voir [Afficher des informations sur les composants dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## Avantages pour les administrateurs et administratrices
 
@@ -49,9 +49,9 @@ Voici quelques-unes des façons dont les administrateurs et administratrices d�
 
 * Mettre à jour les descriptions des composants directement dans Analysis Workspace. Toutes les mises à jour apportées aux descriptions des composants dans le dictionnaire de données sont répercutées dans la suite de rapports.
 
-   De même, toutes les mises à jour apportées aux descriptions des composants dans la suite de rapports sont répercutées dans Analysis Workspace.
+  De même, toutes les mises à jour apportées aux descriptions des composants dans la suite de rapports sont répercutées dans Analysis Workspace.
 
-   Pour plus d’informations sur l’ajout de descriptions de composant dans Analysis Workspace ou dans une suite de rapports, voir [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Pour plus d’informations sur l’ajout de descriptions de composant dans Analysis Workspace ou dans une suite de rapports, voir [Ajouter des descriptions de composant](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Accéder au dictionnaire de données
 
@@ -59,22 +59,22 @@ Vous pouvez accéder au dictionnaire de données de l’une des manières suivan
 
 * Depuis l’icône **Dictionnaire de données** dans le rail de gauche.
 
-   ![Icône du dictionnaire de données dans le rail de gauche.](assets/data-dictionary-access-icon.png)
+  ![Icône du dictionnaire de données dans le rail de gauche.](assets/data-dictionary-access-icon.png)
 
 * Depuis l’icône **Dictionnaire de données** dans la fenêtre contextuelle d’informations d’un composant.
 
-   ![Icône du dictionnaire de données dans la fenêtre contextuelle d’informations.](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![Icône du dictionnaire de données dans la fenêtre contextuelle d’informations.](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * Depuis le menu : [!UICONTROL **Aide**] > [!UICONTROL **Dictionnaire de données**].
 
-Pour plus d’informations sur les différentes options disponibles dans le dictionnaire de données, voir [Affichage des informations sur les composants dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+Pour des informations détaillées sur les différentes options disponibles dans le dictionnaire de données, voir [Afficher des informations sur les composants dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
-## Mise à jour et traitement du dictionnaire de données
+## Mettre à jour et traiter le dictionnaire de données
 
-Les administrateurs d’Analytics sont chargés de conserver un dictionnaire de données sain pour leur entreprise, comme décrit dans la section [Surveillance de l’intégrité du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+Les administrateurs et administratrices d’Analytics sont chargés de mettre à jour un dictionnaire de données intègre pour leur entreprise, comme décrit dans la section [Surveiller l’intégrité du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
 
-Dans le cadre de ce processus, les administrateurs d’Analytics peuvent modifier des informations sur chaque composant du dictionnaire de données, comme décrit dans la section [Modifier les entrées de composant dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+Dans le cadre de ce processus, les administrateurs et administratrices d’Analytics peuvent modifier des informations sur chaque composant du dictionnaire de données, comme décrit dans la section [Modifier les entrées de composant dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## Déplacer, réduire ou fermer le dictionnaire de données
 
@@ -84,12 +84,12 @@ Vous pouvez manipuler la fenêtre du dictionnaire de données de l’une des man
 
 * Faites-la glisser dans n’importe quelle zone d’Analysis Workspace.
 
-   Si vous fermez et rouvrez Analysis Workspace, la fenêtre du dictionnaire de données reste à l’emplacement où vous l’avez déplacée pour la dernière fois. <!--True?-->
+  Si vous fermez et rouvrez Analysis Workspace, la fenêtre du dictionnaire de données reste à l’emplacement où vous l’avez déplacée pour la dernière fois. <!--True?-->
 
 * Réduire le dictionnaire de données
 
-   Une fois réduit, le dictionnaire de données s’affiche sous la forme d’un onglet bleu dans le coin inférieur droit d’Analysis Workspace.
+  Une fois réduit, le dictionnaire de données s’affiche sous la forme d’un onglet bleu dans le coin inférieur droit d’Analysis Workspace.
 
-   Lorsque vous sélectionnez l’onglet bleu, le dictionnaire de données s’ouvre sur le composant que vous avez consulté le plus récemment.
+  Lorsque vous sélectionnez l’onglet bleu, le dictionnaire de données s’ouvre sur le composant que vous avez consulté le plus récemment.
 
 * Fermer le dictionnaire de données
