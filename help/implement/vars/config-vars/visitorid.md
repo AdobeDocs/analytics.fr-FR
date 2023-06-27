@@ -3,10 +3,10 @@ title: visitorID
 description: Permet d’utiliser un identifiant visiteur personnalisé.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 86%
+source-wordcount: '263'
+ht-degree: 93%
 
 ---
 
@@ -18,15 +18,11 @@ Adobe utilise plusieurs méthodes différentes pour identifier les visiteurs de 
 >
 >Adobe conseille d’utiliser cette variable. Utilisez plutôt [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
-## Remplacement de l’identifiant visiteur à l’aide du SDK Web
-
-Bientôt disponible!
-
 ## Identifiant visiteur à l’aide de l’extension Adobe Analytics
 
 L’[!UICONTROL identifiant visiteur] est un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Cookies], ce qui permet d’afficher le champ [!UICONTROL Identifiant visiteur].
