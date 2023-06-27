@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 09a4f0865c0297681a05da4eae98412632931626
+source-git-commit: 8e753a4ab2f86ff1b45d3116e51c5ce03f5b038b
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1515'
 ht-degree: 87%
 
 ---
@@ -37,7 +37,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | **Nouveau bouton pour ajouter une visualisation dans un panneau** | Un nouveau bouton est désormais disponible au bas de chaque panneau dans Analysis Workspace, ce qui vous permet d’ajouter rapidement une visualisation. <p>Auparavant, les seules méthodes permettant d’ajouter une visualisation à un panneau étaient de faire glisser une visualisation depuis le rail de gauche, de dupliquer ou de copier une visualisation existante ou de créer un panneau vierge. [En savoir plus](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | S.O. | 17 mai 2023 |
 | **Liens profonds (application mobile)** | Permet aux utilisateurs et utilisatrices d’envoyer des liens vers des cartes de performance qui les dirigeront directement vers le projet de cartes de performance dans l’application. Cela facilite encore plus le partage de projets et améliore l’engagement d’une audience moins technique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#share-scorecards-using-a-shareable-link) | S.O. | 17 mai 2023 |
 | **Filtres déroulants dynamiques** | Un nouveau type de filtre déroulant est disponible. Il permet de déterminer les valeurs disponibles en fonction des données dans la plage de rapports du panneau et des valeurs dans d’autres filtres déroulants. Pour utiliser les filtres déroulants dynamiques, faites glisser une dimension dans la zone de dépôt du panneau tout en maintenant la touche [!UICONTROL Maj] enfoncée. Les filtres déroulants statiques restent inchangés lorsque vous faites glisser un groupe d’éléments de dimension dans la zone de dépôt du panneau tout en maintenant la touche [!UICONTROL Maj] enfoncée. [En savoir plus](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 14 juin 2023 |
-| **Mise à jour de la page de formation d’Analytics** | L’onglet Formation de la page de destination d’Adobe Analytics comporte les améliorations suivantes :<ul><li>amélioration de la conception et de la navigation, avec plus de contenu de formation affiché sur une seule page</li><li>possibilité de personnaliser le contenu de la formation par niveau d’expérience (débutant, intermédiaire et avancé)</li></ul>[En savoir plus](/help/analyze/landing.md) |  | 30 juin 2023 |
+| **Mise à jour de la page de formation d’Analytics** | L’onglet Formation de la page de destination d’Adobe Analytics comporte les améliorations suivantes :<ul><li>amélioration de la conception et de la navigation, avec plus de contenu de formation affiché sur une seule page</li><li>possibilité de personnaliser le contenu de la formation par niveau d’expérience (débutant, intermédiaire et avancé)</li></ul>[En savoir plus](/help/analyze/landing.md) | 27 juin 2023 | 30 juin 2023 |
 | **Tri des composants dans Analysis Workspace** | Une nouvelle option de tri est désormais disponible lorsque vous affichez des composants dans le rail de gauche ou dans le dictionnaire de données dans Analysis Workspace. Vous pouvez trier les composants par Recommandé (ceux qui sont les plus couramment utilisés), Ordre alphabétique ou par Catégorie (type).<p>Auparavant, vous pouviez uniquement rechercher ou filtrer des composants. [En savoir plus](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | S.O. | À confirmer |
 
 {style="table-layout:auto"}

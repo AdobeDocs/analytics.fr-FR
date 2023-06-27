@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Les administrateurs peuvent supprimer un rapport à l’aide de l’option de la
 ![Autres filtres](assets/delete-fr-create-project-modal.png)
 
 
-## Navigation dans l’onglet Formation {#navigate-learning}
+## Utilisation de l’onglet Apprentissage {#navigate-learning}
 
-La page Formation contient des visites guidées vidéo et des tutoriels pratiques, ainsi que des liens vers la documentation.
+La page Apprentissage contient des vidéos, des tutoriels et des liens vers la documentation.
 
-* La visite guidée des [!UICONTROL Notions fondamentales de l’espace de travail] vous emmène directement dans l’espace de travail. Vous pouvez ainsi découvrir pas à pas la disposition de l’espace de travail et où trouver/exécuter les actions les plus courantes. Cette visite peut également être relancée à tout moment, et ce, directement dans l’espace de travail, via la fenêtre pop-over de l’infobulle qui se trouve dans l’en-tête du panneau.
-* Cliquer sur une vidéo/visite ajoute une balise **[!UICONTROL Consulté]**. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez cliquer sur la balise pour la faire disparaître si vous n’avez pas encore terminé le contenu.
-* Le bouton **[!UICONTROL En savoir plus]** de la fenêtre modale de la vidéo permet dʼaccéder à une page de documentation Adobe Experience League présentant du contenu dʼaide supplémentaire en rapport avec la vidéo que vous venez de regarder.  **[!UICONTROL Voir plus de vidéos]** permet dʼaccéder à la liste de lecture complète dʼAnalysis Workspace sur YouTube.
+Utilisez la page Formation d’Adobe Analytics pour découvrir des fonctionnalités et des cas pratiques pour débutants, intermédiaires ou avancés dans Adobe Analytics.
+
+### Accès à la page Formation
+
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Workspace**] > [!UICONTROL **Formation**].
+
+### Fonctionnalités de la page d’apprentissage
+
+* **Filtrer le contenu :** L’icône Filtrer dans le rail de gauche permet de filtrer le contenu d’apprentissage par niveau d’expérience (débutant, intermédiaire ou avancé) et par type de contenu (document, vidéo ou parcours et tutoriels).
+* **Suivi de la progression :** Après avoir sélectionné un élément de contenu, une **[!UICONTROL Consulté]** s’affiche. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez sélectionner la variable **[!UICONTROL Consulté]** pour la supprimer d’un élément de contenu.
+* **Afficher le contenu supplémentaire :** Lors de l’affichage d’une vidéo, sélectionnez l’option **[!UICONTROL En savoir plus]** pour afficher le contenu de la documentation associée sur Experience League. Ou, dans la page Apprentissage, sélectionnez l’une des options suivantes pour afficher du contenu supplémentaire :
+   * **[!UICONTROL Visite YouTube]:** Affichez la liste de lecture complète d’Analysis Workspace YouTube.
+   * [!UICONTROL **Visite d’Experience League**]: Consultez la suite complète de la documentation Adobe Analytics sur Experience League.
+* **Principes fondamentaux pour les nouveaux utilisateurs :** Le [!UICONTROL Principes de base de Workspace] est recommandé pour les nouveaux utilisateurs. Cette présentation vous emmène directement dans Workspace et vous guide tout au long des actions les plus courantes. Cette présentation peut également être relancée à tout moment dans Workspace via la fenêtre contextuelle d’info-bulle de l’en-tête du panneau.
 
 ## Définir la page de destination {#set-landing}
 
