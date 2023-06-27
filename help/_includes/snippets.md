@@ -1,8 +1,8 @@
 ---
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1040'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # Extraits
@@ -11,7 +11,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->En savoir plus sur l’[annonce de fin de vie](https://www.adobe.com/go/analytics_rnaeol_en) de Reports &amp; Analytics.
+>En savoir plus sur l’[annonce de fin de vie](https://www.adobe.com/go/analytics_rnaeol_fr) de Reports &amp; Analytics.
 
 ## Critères de filtre du dictionnaire de données {#dd-filter-criteria}
 
@@ -55,7 +55,7 @@ ht-degree: 94%
 
 | Option | Fonction |
 |---------|----------|
-| [!UICONTROL **Recommandé**] | Trie les composants avec ceux recommandés en haut de la liste. Les composants utilisés le plus souvent et le plus récemment par vous ou par d’autres membres de votre organisation sont répertoriés plus haut dans la liste. |
+| [!UICONTROL **Recommandé**] | Trie les composants avec ceux qui sont recommandés en haut de la liste. Les composants utilisés le plus souvent et le plus récemment par vous ou par d’autres membres de votre organisation sont répertoriés plus haut dans la liste. |
 | [!UICONTROL **Alphabétique**] | Trie les composants par ordre alphabétique. |
 | [!UICONTROL **Catégorique**] | Trie les composants en fonction du type de composant (dimension, mesure, segment, période). |
 
