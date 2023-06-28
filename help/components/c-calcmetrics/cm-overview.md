@@ -4,7 +4,7 @@ keywords: Mesures calculées;mesures dérivées;mesures calculées avancées
 title: Mesures calculées ou calculées avancées (dérivées)
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -24,7 +24,7 @@ Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, 
 
 Voici une comparaison des fonctionnalités des mesures calculées et des mesures calculées avancées :
 
-| Options du créateur | Mesures calculées  | Mesures calculées avancées (dérivées) |
+| Options du créateur | Mesures calculées | Mesures calculées avancées (dérivées) |
 |---|---|---|
 | [Types de format (décimal, heure, pourcentage, devise)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Oui | Oui |
 | [Modifications d’attribution (par défaut, linéaire, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Oui | Oui |
@@ -41,10 +41,14 @@ Vous pouvez
 * Créer des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
 * Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Elles peuvent être consultées de manière historique car elles sont basées sur des segments.
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * Partagez des mesures dans l’ensemble des suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
 * (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs », avec un décompte des personnes pour lesquelles il s’agit de la première session.
 
 * (Mesures calculées avancées uniquement) Incorporez des fonctions statistiques pour vous aider à mieux décrire vos données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## Limites {#section_CB878B02451541D68A68B508D4DBD19A}
 
