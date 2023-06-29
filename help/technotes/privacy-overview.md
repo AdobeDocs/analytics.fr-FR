@@ -4,9 +4,9 @@ keywords: confidentialité
 title: Confidentialité - Présentation
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -17,7 +17,7 @@ Adobe vous conseille de fournir aux visiteurs de votre site web des informations
 
 Les visiteurs peuvent en savoir plus sur la manière dont Adobe utilise généralement les informations collectées dans le [Centre de traitement des données personnelles d’Adobe](https://www.adobe.com/fr/privacy.html). Il appartient à votre entreprise de révéler comment vous utilisez les produits et services d’Adobe, car votre entreprise contrôle exclusivement la mise en œuvre des services d’Adobe. Vous êtes responsable de la création de votre propre politique de confidentialité, de son respect, du respect du contrat de service conclu avec Adobe, ainsi que du respect de toutes les lois en vigueur.
 
-## Ventilation de la collecte des données {#section_F59D958D7AE44747846993E643CD4BF2}
+## Répartition de la collecte des données {#section_F59D958D7AE44747846993E643CD4BF2}
 
 Adobe Analytics collecte les données suivantes :
 
@@ -45,7 +45,6 @@ Adobe Analytics collecte les données suivantes :
 | Articles achetés par le visiteur | Oui |
 | Articles laissés dans le panier | Oui |
 | Informations des réseaux sociaux (y compris photos, noms d’utilisateur, âge, genre, lieu) | **Non** |
-| Informations personnelles que l’utilisateur fournit en dehors de nos services | Oui |
 | Taux de succès des campagnes publicitaires | Oui |
 | Informations sur les produits (couleurs, prix, styles, photos, etc.) | Oui |
 
