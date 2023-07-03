@@ -1,7 +1,9 @@
 ---
 title: Fin de vie des sources de données à traitement complet
 description: En savoir plus sur l’annonce de fin de vie pour les sources de données à traitement complet.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 16%
@@ -10,7 +12,7 @@ ht-degree: 16%
 
 # Fin de vie des sources de données à traitement complet
 
-Les sources de données à traitement complet ont toujours permis aux entreprises d’envoyer des données au niveau de l’accès à Adobe Analytics. Ces données ont été traitées de la même manière que les données collectées au moyen de méthodes traditionnelles de collecte de données, telles qu’AppMeasurement. En 2020, Adobe a publié la [API d’insertion de données en bloc](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), qui exécute les mêmes fonctions que les sources de données à traitement complet, mais avec des fonctionnalités supplémentaires. Cette page fournit des détails sur les fonctionnalités supplémentaires fournies par l’API d’insertion de données en bloc et décrit les différences dans les formats de fichier.
+Les sources de données à traitement complet ont toujours permis aux entreprises d’envoyer des données au niveau de l’accès à Adobe Analytics. Ces données ont été traitées de la même manière que les données collectées par des moyens traditionnels de collecte de données, tels que l’AppMeasurement. En 2020, Adobe a publié la [API d’insertion de données en bloc](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/), qui exécute les mêmes fonctions que les sources de données à traitement complet, mais avec des fonctionnalités supplémentaires. Cette page fournit des détails sur les fonctionnalités supplémentaires fournies par l’API d’insertion de données en bloc et décrit les différences dans les formats de fichier.
 
 Le 25 mars 2021, Adobe a empêché la création de nouvelles connexions de sources de données à traitement complet. Le 31 janvier 2022, tous les services de données à traitement complet ont été désactivés.
 

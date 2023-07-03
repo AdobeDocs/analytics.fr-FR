@@ -1,9 +1,9 @@
 ---
 title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
-feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Governance, Privacy
+source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 91%

@@ -3,7 +3,8 @@ description: Exécution d’un rapport d’analyse des contributions dans un pro
 title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 # Exécution de l’analyse des contributions
 
-L’analyse des contributions est un processus intensif d’apprentissage automatique, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
+L’analyse des contributions est un processus intensif de machine learning, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
 
 ## Exécution de l’analyse des contributions {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -20,15 +21,15 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
 * Dans un tableau à structure libre avec une granularité quotidienne, cliquez avec le bouton droit de la souris sur une ligne, puis sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**. Vous pouvez également l’exécuter sur les lignes qui ne présentent aucune anomalie.
 
-   >[!NOTE]
-   >
-   >Actuellement, seule l’analyse des contributions avec une granularité quotidienne est prise en charge.
+  >[!NOTE]
+  >
+  >Actuellement, seule l’analyse des contributions avec une granularité quotidienne est prise en charge.
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * Dans un graphique en courbes, pointez avec la souris sur un point de données présentant une anomalie. Cliquez sur le lien **[!UICONTROL Analyser]** qui s’affiche.
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
@@ -41,7 +42,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
    * Le tableau [Segments générés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. Puisque l’analyse des contributions fait maintenant partie d’Analysis Workspace, vous pouvez mettre à profit plusieurs de ses fonctions depuis un menu contextuel afin de rendre votre analyse plus significative, par exemple :
 

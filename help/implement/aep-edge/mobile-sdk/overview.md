@@ -1,8 +1,10 @@
 ---
 title: Mettre en œuvre Adobe Analytics à l’aide du SDK Mobile d’Adobe Experience Platform
 description: Utilisez l’extension SDK Mobile dans la collecte de données Adobe Experience Platform pour envoyer des données à Adobe Analytics.
-source-git-commit: 97bff355a5d9bb737d510221b63ba1321aaf5812
-workflow-type: ht
+exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 100%
 
@@ -11,6 +13,7 @@ ht-degree: 100%
 # Mettre en œuvre Adobe Analytics à l’aide du SDK Mobile d’Adobe Experience Platform
 
 Le SDK Mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. Il est disponible pour Android, iOS et différents frameworks de développement sur plusieurs plateformes. La configuration est gérée via la collecte de données d’Adobe Experience Platform.
+
 >[!IMPORTANT]
 >
 >Une extension Adobe Analytics est également disponible dans la collecte de données Adobe Experience Platform. Si vous installez cette extension, vous ne profitez pas de XDM ou du réseau Edge.
@@ -137,6 +140,3 @@ Présentation générale des tâches d’implémentation :
 - [Documentation sur les balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr#)
 
 - [Documentation sur le SDK mobile](https://developer.adobe.com/client-sdks/documentation/)
-
-
-

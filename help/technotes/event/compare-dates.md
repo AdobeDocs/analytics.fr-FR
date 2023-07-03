@@ -2,10 +2,11 @@
 title: Comparaison des dates affectées par un événement avec les périodes précédentes
 description: Découvrez l’impact d’un événement, tel qu’un problème de mise en oeuvre ou une panne, en le comparant aux tendances précédentes.
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -64,7 +65,7 @@ Si vous souhaitez analyser plus en détail les changements de pourcentage ci-des
 1. Ajoutez une visualisation de tableau à structure libre et activez le créateur de tableau. Cette action vous permet de placer les mesures de changement de pourcentage dans l’ordre souhaité.
 2. Tiens `Ctrl` (Windows) ou `Cmd` (Mac) et faites glisser les mesures de modification de 3 % sur les lignes du tableau, une par une.
 
-   ![Générateur de tableau](assets/table_builder.png)
+   ![Créateur de tableaux](assets/table_builder.png)
 
 3. Ajoutez le segment &quot;Toutes les visites&quot; à la colonne du tableau, ainsi que tous les autres segments souhaités.
 

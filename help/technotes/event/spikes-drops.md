@@ -2,7 +2,8 @@
 title: Résolution des problèmes liés aux pics et aux baisses de données
 description: Découvrez les raisons expliquant les hausses ou les baisses spectaculaires des rapports de tendance.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Event, Data Configuration and Collection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,12 +42,12 @@ Les pics de trafic sont classés dans deux sections : pratiquement deux fois pl
 ### Causes possibles du doublement exact ou approximatif des données attendues
 
 * **Plusieurs demandes d’image au sein d’une implémentation** : si l’implémentation contient plus d’un appel de méthode [`t()`](/help/implement/vars/functions/t-method.md) par page, elle double efficacement toutes les données collectées. Utilisez le débogueur sur le site et recherchez plusieurs demandes d’image pour repérer les doublons.
-* **Fichiers de source de données en double transférés** : si l’entreprise utilise des [sources de données](/help/import/data-sources/overview.md), un utilisateur de l’entreprise peut transférer le même fichier deux fois vers Adobe Analytics. Le transfert de ce doublon permet de doubler efficacement les données dans les rapports, provoquant ainsi un pic de trafic.
+* **Fichiers de source de données en double chargés** : si l’entreprise utilise des [sources de données](/help/import/data-sources/overview.md), un utilisateur de l’entreprise peut charger le même fichier deux fois vers Adobe Analytics. Le chargement de ce doublon permet de doubler efficacement les données dans les rapports, provoquant ainsi un pic de trafic.
 
 ### Autres causes possibles de l’augmentation du trafic
 
 * **Robots ou robots d’indexation** : si vous constatez une augmentation importante et soudaine du trafic, commencez par vérifier la présence éventuelle d’un robot ou d’un robot d’indexation. Il est parfois difficile d’identifier les robots, car ils possèdent tous leur propre façon d’exécuter le code sur le site. Créez un rapport Data Warehouse à l’aide de l’adresse IP comme dimension pour identifier les adresses qui génèrent le plus de trafic. Vous pouvez ensuite utiliser des [règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) ou une règle VISTA pour éliminer le trafic de robots des futurs rapports.
-* **Campagnes lancées** : les actions marketing telles que les campagnes par courrier électronique ou l’optimisation du moteur de recherche peuvent potentiellement provoquer un pic de trafic sur le site. Déterminez la tendance de la dimension [Code de suivi](/help/components/dimensions/tracking-code.md) pour approfondir la recherche. Elle permet également de contacter l’équipe marketing pour s’assurer que le pic était intentionnel.
+* **Campagnes lancées** : les actions marketing telles que les campagnes par e-mail ou l’optimisation du moteur de recherche peuvent potentiellement provoquer un pic de trafic sur le site. Déterminez la tendance de la dimension [Code de suivi](/help/components/dimensions/tracking-code.md) pour approfondir la recherche. Elle permet également de contacter l’équipe marketing pour s’assurer que le pic était intentionnel.
 * **Causes environnementales ou circonstancielles** : le trafic sur le site est susceptible d’augmenter en cas de congé ou d’événement circonstanciel (un événement important dans lequel le site est une ressource connue ou des actions marketing résiduelles d’autres entreprises). Il est difficile de résoudre la cause exacte, car il existe un nombre quasi illimité de raisons circonstancielles expliquant l’augmentation du trafic. Ces causes comptent toutefois parmi les plus importantes à identifier pour que l’entreprise puisse en tirer parti et prendre des décisions professionnelles adaptées. Déterminer la tendance de la dimension [Page](/help/components/dimensions/page.md) ou [Référent](/help/components/dimensions/referrer.md) est probablement le meilleur point de départ pour identifier la source du trafic.
 
 Si aucune des raisons ci-dessus n’est une cause potentielle d’augmentation ou de diminution du trafic sur le site, contactez l’assistance clientèle d’Adobe. L’assistance peut vous aider à localiser la source du pic ou de la baisse de trafic. Lors de la création de l’incident, indiquez à l’agent comment recréer un rapport spécifique qui illustre clairement le pic ou la baisse.

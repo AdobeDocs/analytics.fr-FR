@@ -1,7 +1,9 @@
 ---
 title: Gestion des sources de données
 description: Accédez à l’interface de gestion des sources de données .
-source-git-commit: e32a7c85e2f0629c04bcd7ed0fa80ec1593bb6e8
+exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 2%
@@ -24,7 +26,7 @@ Le **[!UICONTROL Gérer]** Cet onglet gère toutes les sources de données que v
 
 ![Gérer](assets/manage.png)
 
-La source de données la plus élevée est toujours [!UICONTROL Balise Web]. Cette source de données est ce que vous utilisez pour la collecte de données standard via AppMeasurement. Il ne peut pas être modifié ni désactivé.
+La source de données la plus élevée est toujours [!UICONTROL Balise Web]. Cette source de données est ce que vous utilisez pour la collecte de données classique par AppMeasurement. Il ne peut pas être modifié ni désactivé.
 
 Chaque source de données dispose des options suivantes :
 

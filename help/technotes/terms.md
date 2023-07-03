@@ -2,7 +2,8 @@
 title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Implementation Basics
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -22,7 +23,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) dans le guide d’utilisation Analyser.
 * **AppMeasurement :** la bibliothèque de code utilisée pour collecter des données et les envoyer à Adobe. Voir la [Page d’accueil](/help/implement/home.md) du guide d’utilisation de la mise en œuvre.
 * **Emplacement ASI :** n’existe plus. Dans les versions précédentes d’Adobe Analytics, les emplacements ASI fournissaient un conteneur temporaire de suites de rapports pour afficher les données segmentées. Dans la version actuelle d’Adobe Analytics, les segments peuvent être appliqués instantanément à n’importe quel rapport.
-* **Ventilation :** permet d’afficher une dimension dans le contexte d’une autre dimension. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
+* **Répartition** : permet d’afficher une dimension dans le contexte d’une autre dimension. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Rebond :** visite consistant en un accès unique. Voir [Rebonds](/help/components/metrics/bounces.md) dans le guide d’utilisation des composants. Voir aussi Accès unique.
 * **Mesure calculée :** permet de combiner les mesures, fonctions statistiques et formules existantes pour les utiliser dans les rapports. Voir [Mesures calculées](/help/components/c-calcmetrics/cm-overview.md) dans le guide d’utilisation des composants.
 * **Campagne :** peut faire référence :
@@ -39,7 +40,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Serveur de collecte :** voir Serveur de collecte de données.
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
-* **Corrélation :** terme remplacé par ventilations de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
+* **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Données actives :** option de certains rapports permettant d’inclure des données récemment collectées qui n’ont pas encore été totalement traitées. Voir [Données actives](/help/analyze/reports-analytics/current-data.md) dans le guide d’utilisation Analyser.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
 * **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
@@ -105,7 +106,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Accès unique :** visite pour laquelle une dimension n’est associée qu’à une valeur unique. La visite peut avoir plusieurs accès, à condition qu’il n’y ait pas plusieurs valeurs uniques. Voir la mesure [Accès unique](/help/components/metrics/single-access.md) dans le guide d’utilisation des composants. Voir aussi Rebonds.
 * **SiteCatalyst :** ce terme n’est plus utilisé. Ancien nom de produit dʼAdobe Analytics.
 * **Document de conception de la solution :** également appelé référence de conception de la solution, ou SDR. Document interne géré par une organisation décrivant l’utilisation des variables personnalisées et la logique utilisée pour les renseigner. Voir [Création d’un document de conception de solution](/help/implement/prepare/solution-design.md) dans le guide d’utilisation de la mise en œuvre.
-* **Sous-relation :** terme remplacé par ventilations de dimensions. Dans les versions précédentes d’Adobe Analytics, les sous-relations permettaient de ventiler les variables de conversions. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
+* **Sous-relation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les sous-relations permettaient de ventiler les variables de conversions. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Événement de succès :** action suivie par un utilisateur. Votre organisation détermine les événements à suivre et les variables d’événement de succès que vous utilisez pour les suivre. Voir [Événements personnalisés](/help/components/metrics/custom-events.md) dans le guide d’utilisation des composants.
 * **Utilisateur pris en charge :** voir Délégué du service clientèle.
 * **Variable de trafic :** aussi connue sous le nom de props. Stocke une valeur personnalisée pour un accès unique. Les versions précédentes d’Adobe Analytics donnaient aux props une valeur unique, mais les améliorations apportées à la plateforme rendent les variables de trafic personnalisées globalement inutiles. Adobe conseille d’utiliser des variables de conversion personnalisées (eVars) dans la plupart des cas. Voir la dimension [Prop](/help/components/dimensions/prop.md) dans le guide d’utilisation des composants.

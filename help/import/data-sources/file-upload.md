@@ -1,7 +1,9 @@
 ---
 title: Transfert du fichier de sources de données vers Adobe
 description: Processus de téléchargement d’un fichier de sources de données vers Adobe Analytics en vue de l’ingestion.
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 1%
@@ -38,10 +40,10 @@ Pour assurer le traitement des fichiers le plus rapide, Adobe recommande d’agr
 
 | `date` | `eVar1` | `event1` | `event2` | `event3` |
 | --- | --- | --- | --- | --- |
-| `07/24/YYYY` | `red` | `1` |  |  |
-| `07/24/YYYY` | `red` | `1` |  |  |
-| `07/24/YYYY` | `red` |  | `1` |  |
-| `07/24/YYYY` | `red` |  |  | `1` |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | `1` | | |
+| `07/24/YYYY` | `red` | | `1` | |
+| `07/24/YYYY` | `red` | | | `1` |
 
 Ce fichier sera traité plus rapidement, qui contient les mêmes données :
 
