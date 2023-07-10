@@ -3,14 +3,22 @@ description: Comment télécharger des fichiers de données via FTP.
 title: Importation FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 87%
+source-wordcount: '721'
+ht-degree: 80%
 
 ---
 
 # Importation FTP
+
+>[!IMPORTANT]
+>
+>Il n’est plus recommandé d’utiliser le protocole FTP pour l’importation comme décrit sur cette page.
+>
+>Le protocole FTP n’est pas recommandé car il s’agit d’une méthode de partage de fichiers non chiffrée, ce qui signifie que tout le monde peut intercepter le contenu du fichier ainsi que le nom d’utilisateur et le mot de passe utilisés pour le compte.
+>
+>Configurez plutôt un compte cloud comme décrit à la section [Configuration des emplacements d’importation dans le cloud](/help/components/classifications/importer/configure-import-accounts.md).
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 
@@ -20,7 +28,7 @@ Pour télécharger des fichiers de données via FTP :
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 
-Les limites recommandées suivantes sont importantes. Trop de
+Les limites recommandées suivantes sont importantes.
 
 >[!IMPORTANT]
 >

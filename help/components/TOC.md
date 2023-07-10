@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
+source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 86%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -185,10 +185,10 @@ ht-degree: 86%
    + Workflow des mesures calculées {#calcmetric-workflow}
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [Créer des mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Création d’une mesure &quot;Pages vues par visite&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Création de mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [Création d’une mesure « Pages vues par visite »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [Création d’une mesure &quot;Aide à la commande&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Création d’une mesure &quot;Participation&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Création d’une mesure « Participation »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -262,6 +262,7 @@ ht-degree: 86%
       + [Importation navigateur et FTP](classifications/importer/import-file.md)
       + [Importation navigateur](classifications/importer/browser-import.md)
       + [Exportation navigateur](classifications/importer/browser-export.md)
+      + [Importation dans le cloud](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportation FTP](classifications/importer/ftp-export.md)
       + [Durée du traitement](classifications/importer/processing-time.md)

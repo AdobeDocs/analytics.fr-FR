@@ -3,10 +3,10 @@ title: Schéma du jeu de classifications
 description: Affichez et modifiez le schéma d’un jeu de classifications individuel.
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 46%
+source-wordcount: '525'
+ht-degree: 42%
 
 ---
 
@@ -46,7 +46,14 @@ Les boutons suivants sont disponibles :
 
 * **[!UICONTROL Historique des tâches]**: Un lien de raccourci permettant d’accéder à la variable [Job manager](../job-manager.md), affichant les tâches uniquement pour ce jeu de classifications.
 * **[!UICONTROL Automatiser]**: ingérer automatiquement des données à partir d’emplacements de stockage externes ;
-   * **[!UICONTROL Compte d’emplacement]**: Liste déroulante présentant les comptes d’emplacement que votre entreprise a configurés. Un bouton est disponible pour créer un compte d’emplacement.
-   * **[!UICONTROL Emplacement]**: Liste déroulante présentant les emplacements existants configurés par votre organisation. Un bouton est disponible pour créer un emplacement.
+   * **[!UICONTROL Compte d’emplacement]**: Liste déroulante présentant les comptes d’emplacement que votre entreprise a configurés. Si votre organisation n’a pas encore configuré de compte d’emplacement, vous pouvez en configurer un en sélectionnant [!UICONTROL **Création d’un compte**].
+
+     Pour plus d’informations sur la configuration du compte d’emplacement, voir [Configuration des emplacements d’importation dans le cloud](/help/components/classifications/importer/configure-import-accounts.md).
+
+   * **[!UICONTROL Emplacement]**: Liste déroulante présentant les emplacements existants configurés par votre organisation. Si votre organisation n’a pas encore configuré d’emplacement, vous pouvez en configurer un en sélectionnant [!UICONTROL **Création d’un emplacement**].
+
+     Pour plus d’informations sur la configuration d’un emplacement, voir [Configuration des emplacements d’importation dans le cloud](/help/components/classifications/importer/configure-import-accounts.md).
+
    * **[!UICONTROL Délimiteur]**: Délimiteur de colonne pour les fichiers chargés. Les options incluent [!UICONTROL Virgule], [!UICONTROL Point-virgule], [!UICONTROL deux points], [!UICONTROL Barre verticale], [!UICONTROL Espace], [!UICONTROL Barre oblique], [!UICONTROL Barre oblique inverse], [!UICONTROL Dash]ou [!UICONTROL Soulignement].
+
    * **[!UICONTROL Encodage]**: Liste déroulante qui détermine le codage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
