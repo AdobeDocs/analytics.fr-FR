@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [Importation navigateur et FTP](classifications/importer/import-file.md)
       + [Importation navigateur](classifications/importer/browser-import.md)
       + [Exportation navigateur](classifications/importer/browser-export.md)
-      + [Importation dans le cloud](/help/components/classifications/importer/configure-import-accounts.md)
       + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportation FTP](classifications/importer/ftp-export.md)
       + [Durée du traitement](classifications/importer/processing-time.md)
       + [Résolution des problèmes](classifications/importer/troubleshooting.md)
-
    + [Sous-classifications](classifications/c-sub-classifications.md)
    + [FAQ sur les classifications](classifications/faq.md)
++ Emplacements {#locations}
+   + [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md)
+   + [Comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md)
+   + [Emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md)
 + [Événements du calendrier](t-calendar-event.md)
 + [File d’attente des rapports planifiés](scheduled-reports-admin.md)
 + Création de rapports en temps réel {#real-time-reporting}
