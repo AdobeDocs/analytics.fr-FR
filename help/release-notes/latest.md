@@ -3,9 +3,9 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 38e1b8da66fbca36c5f22c6050dcba87e8967ecb
+source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '885'
 ht-degree: 76%
 
 ---
@@ -20,7 +20,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Configuration des emplacements de stockage du compte cloud pour l’ingestion de données de classification** | Vous pouvez désormais gérer les emplacements de stockage des comptes cloud utilisés pour l’automatisation des jeux de classifications.<p> | S.O. | 10 juillet 2023 |
+| **Configuration des emplacements de stockage du compte cloud pour l’ingestion de données de classification** | Vous pouvez désormais gérer les emplacements de stockage des comptes cloud utilisés pour l’automatisation des jeux de classifications.[En savoir plus](/help/components/locations/configure-import-accounts.md)<p> | S.O. | 10 juillet 2023 |
 | **Améliorations du filtre de réparation des données** | Trois améliorations du filtrage ont été ajoutées à la réparation des données :<ul><li>Filtrez selon une variable pour modifier une seconde variable. Par exemple, si `eVar2` contient &quot;@&quot;, puis supprimez `eVar3`.</li><li>Filtre de valeurs numériques ou non numériques</li><li>Appliquez plusieurs filtres avec un opérateur AND. Par exemple, où `eVar2="a"` ET `eVar3="b"`</li></ul>[En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juin 2023 | 12 juillet 2023 |
 | **Destinations sécurisées pour l’export des flux de données** | Les flux de données peuvent désormais être envoyés vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) | 12 juin 2023 | 15 juillet 2023 |
 
