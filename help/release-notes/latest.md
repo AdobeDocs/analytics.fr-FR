@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816; AN-318111; AN-318584; AN-318828; AN-320440; AN-320568; AN-320616; AN-
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | **Expiration après 37 mois des ID d’achat et d’événement (sérialisation des événements)** | Juillet 10,2023 | Une prochaine version du moteur de traitement des accès Analytics, destinée à être publiée le **13 juillet 2023**, commence à appliquer une expiration de 37 mois pour les identifiants d’achat et les identifiants d’événement (sérialisation d’événements). Actuellement, les ID d’achat et d’événement n’expirent jamais dans Adobe Analytics. Dès qu’un ID d’achat ou d’événement est affiché ou utilisé, il sera marqué comme un duplicata lors de tout accès ultérieur, peu importe la date. Avec la nouvelle version du moteur de traitement :<ul><li>Les ID d’achat et d’événement expirent toujours après 37 mois.</li><li>Si 37 mois se sont écoulés depuis que l’ID d’achat ou d’événement a été affiché, il n’est plus considéré comme un duplicata d’achat ou d’événement.</li><li> Si vous « réutilisez » les ID d’achat ou d’événement datant de plus de 37 mois, ils ne sont plus considérés comme des duplicatas.</li></ul> |
-| **Migration vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O** | 11 mai 2023 | Les clients et clientes de l’API Adobe Analytics et de Livestream qui utilisent les informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O avant le **1er janvier 2025**. Pour en savoir plus et connaître le calendrier, consultez l’avis de fin de vie dans le tableau ci-dessous. |
+| **Migration vers l’Adobe I/O des informations d’identification OAuth serveur à serveur** | 11 mai 2023 | Les clients Adobe Analytics API et Livestream qui utilisent des informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification OAuth serveur à serveur Adobe I/O par **1er janvier 2025**. Pour en savoir plus et connaître le calendrier, consultez l’avis de fin de vie dans le tableau ci-dessous. |
 
 {style="table-layout:auto"}
 
