@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
 workflow-type: tm+mt
-source-wordcount: '4489'
+source-wordcount: '4490'
 ht-degree: 97%
 
 ---
@@ -25,8 +25,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Juillet 2023** | |
+| Nouvelle variable AppMeasurement | La variable `decodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Juin 2023** | |
-| Nouvelle variable AppMeasurement | La variable `doubleEncodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/doubleencodelinkparameters.md) |
 | Nouvelles fonctionnalités pour les jeux de classifications | [Jeux de classifications](/help/components/classifications/sets/overview.md) ont été mises à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation**: Combinez des jeux de classifications dans un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans Customer Journey Analytics. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles**: classifie automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Importation automatisée**: Importez automatiquement les données de classification à partir des destinations de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Mises à jour des mesures calculées | Mise à jour des articles consacrés aux mesures calculées, avec de nouvelles captures d’écran et procédures. Ces modifications permettent de refléter toutes les nouvelles fonctionnalités d’Adobe Analytics dans la documentation. |
 | Destinations sécurisées pour l’export des flux de données | Les flux de données peuvent désormais être envoyés vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) |
@@ -86,7 +87,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Graphiques combinés | Nouvelle rubrique sur la visualisation de [Graphiques combinés](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
 | Plug-in mis à jour | Mise à jour de la version du plug-in d’implémentation [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
 | Nouvelle variable de configuration | Documentation sur [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
-| Indications du client à entropie élevée | Nouvelle rubrique sur la façon dont Adobe utilise les [indications du client](/help/technotes/client-hints.md) en plus de la chaîne Agent-utilisateur pour déterminer les informations sur les périphériques. |
+| Indications du client à entropie élevée | Nouvelle rubrique sur la façon dont Adobe utilise les [indications du client](/help/technotes/client-hints.md) en plus de la chaîne Agent-utilisateur pour déterminer les informations sur les appareils. |
 | Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur l’[ordre de traitement](/help/technotes/processing-order.md). |
 | **Août 2022** | |
 | Prise en charge des variables de listes dans XDM pour Edge Collection | Permet aux clients qui collectent des données à travers Experience Edge/le SDK web d’utiliser XDM pour spécifier le contenu de la variable de liste. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=fr#list-variables-using-the-web-sdk) | 18 août 2022 |
@@ -233,7 +234,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 1er octobre 2019 | Nouvel article sur les [Totaux Espace de travail](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr#cja-workspace). |
 | 28 septembre 2019 | Nouveaux articles sur [les variables de configuration pour l’implémentation JavaScript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 septembre 2019 | Révision de la documentation sur la segmentation afin d’expliquer les [conteneurs Groupe logique](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=fr#logic-group-containers). |
-| 12 septembre 2019 | Nouvelle documentation pour [l’IQ du parcours : analyses sur plusieurs périphériques](/help/components/cda/overview.md). |
+| 12 septembre 2019 | Nouvelle documentation pour [l’IQ du parcours : analyses sur plusieurs appareils](/help/components/cda/overview.md). |
 | 12 septembre 2019 | Mise à jour du document sur les [Totaux des mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=fr). |
 | 28 août 2019 | Nouvel article sur [les applications web progressives (PWA) pour Analytics](/help/technotes/pwa.md). |
 | 8 août 2019 | Nouvel article sur les [totaux des mesures calculées](/help/components/c-calcmetrics/cm-totals.md). |

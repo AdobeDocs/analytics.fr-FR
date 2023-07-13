@@ -3,10 +3,10 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
+source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 72%
+source-wordcount: '920'
+ht-degree: 73%
 
 ---
 
@@ -23,6 +23,7 @@ Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue]
 | **Configuration des emplacements de stockage du compte cloud pour l’ingestion de données de classification** | Vous pouvez désormais gérer les emplacements de stockage des comptes cloud utilisés pour l’automatisation des jeux de classifications. [En savoir plus](/help/components/locations/configure-import-accounts.md)<p> | S.O. | 10 juillet 2023 |
 | **Améliorations du filtre de réparation des données** | Trois améliorations du filtrage ont été ajoutées à la réparation des données :<ul><li>Filtrez selon une variable pour modifier une seconde variable. Par exemple, si `eVar2` contient &quot;@&quot;, puis supprimez `eVar3`.</li><li>Filtre de valeurs numériques ou non numériques</li><li>Appliquez plusieurs filtres avec un opérateur AND. Par exemple, où `eVar2="a"` ET `eVar3="b"`</li></ul>[En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juin 2023 | 12 juillet 2023 |
 | **Destinations sécurisées pour l’export des flux de données** | Les flux de données peuvent désormais être envoyés vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) | 12 juin 2023 | 15 juillet 2023 |
+| **Nouvelle variable AppMeasurement** | La variable `decodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. La plupart des implémentations nʼont pas besoin de définir cette variable. [En savoir plus](../implement/vars/config-vars/decodelinkparameters.md) |  | 17 juillet 2023 |
 
 {style="table-layout:auto"}
 
