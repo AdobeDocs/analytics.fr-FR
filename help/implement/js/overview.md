@@ -2,10 +2,11 @@
 title: Mise en oeuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 feature: Implementation Basics
-source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
+exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 45%
+source-wordcount: '206'
+ht-degree: 56%
 
 ---
 
@@ -13,22 +14,22 @@ ht-degree: 45%
 
 AppMeasurement pour JavaScript a toujours été une méthode courante de mise en œuvre d’Adobe Analytics. Toutefois, avec la popularité croissante des systèmes de Tag Management, il est recommandé d’utiliser les [balises dans Adobe Experience Platform](../launch/overview.md).
 
-Présentation générale des tâches de mise en oeuvre :
+Présentation générale des tâches d’implémentation :
 
-![Mise en oeuvre d’Adobe Analytics avec AppMeasurement - Aperçu](../assets/appmeasurement-annotated.png)
+![Comment mettre en oeuvre Adobe Analytics avec AppMeasurement pour JavaScript, comme décrit dans cette section.](../assets/appmeasurement-annotated.png)
 
 <table>
 
 <tr>
-<th style="width:5%"></th><th style="width:75%"><b>Tâche</b></th><th style="width:20%"><b>Plus d’informations</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>Tâche</b></th><th style="width:20%"><b>Informations supplémentaires</b></th>
 </tr>
 
 <tr>
-<td>1</td><td>Vérifiez que vous avez <b>définition d’une suite de rapports</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+<td>1</td><td>Vérifiez que vous avez <b>défini une suite de rapports</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Téléchargement du code JavaScript requis pour AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestionnaire de code</a></td>
+<td>2</td><td><b>Téléchargez le code JavaScript requis pour AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestionnaire de code</a></td>
 </tr>
 
 <tr>
@@ -82,7 +83,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>Étendez et validez votre implémentation</b> avant de le diffuser en production.</b></td><td></td>
+<td>7</td><td><b>Étendez et validez votre implémentation</b> avant de la diffuser en production.</b></td><td></td>
 </tr>
 
 </table>

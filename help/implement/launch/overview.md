@@ -2,10 +2,11 @@
 title: Implémenter Adobe Analytics à l’aide de l’extension Analytics
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises et de l’extension Analytics.
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ Présentation générale des tâches d’implémentation :
 
 
 
-![Adobe Analytics avec le workflow d’extension Analytics](../assets/analytics-extension-annotated.png)
+![Comment mettre en oeuvre Adobe Analytics à l’aide du workflow d’extension Analytics, comme décrit dans cette section.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

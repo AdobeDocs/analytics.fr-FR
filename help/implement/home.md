@@ -3,10 +3,10 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 95%
+source-wordcount: '925'
+ht-degree: 85%
 
 ---
 
@@ -35,20 +35,20 @@ Pour votre **site Web**, les méthodes de mise en œuvre suivantes sont disponib
 
 * **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Installez le **Extension SDK Web Adobe Experience Platform** dans la collecte de données Adobe Experience Platform **Balises**, utilisez une balise de chargement sur chaque page et envoyez des données à Adobe Experience Platform. **Edge Network** dans un format adapté à votre entreprise. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
   ![Extension SDK Web](./assets/websdk-extension-implementation.png)
-Voir [Mise en œuvre d’Adobe Analytics à l’aide de l’extension du SDK Web d’Adobe Experience Platform](./aep-edge/overview.md) pour plus d’informations.
+Voir [Comment mettre en oeuvre Adobe Analytics à l’aide de l’extension SDK Web Adobe Experience Platform.](./aep-edge/overview.md).
 
 * **SDK Web** : si vous ne souhaitez pas utiliser la collecte de données d’Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque du SDK Web (`alloy.js`) sur chaque page et envoyez les appels de suivi de votre choix au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
   ![SDK Web](./assets/websdk-implementation.png)
-Voir [Implémentation d’Adobe Analytics à l’aide du SDK Web d’Adobe Experience Platform](./aep-edge/overview.md) pour plus d’informations.
+Voir [Comment mettre en oeuvre Adobe Analytics à l’aide du SDK Web de Adobe Experience Platform](./aep-edge/overview.md) pour plus d’informations.
 
 
 * **Extension Analytics** : installez l’**extension Adobe Analytics** dans les **balises** de la collecte de données d’Adobe Experience Platform. Placez une balise de chargement sur chaque page et utilisez l’extension Adobe Analytics pour déterminer comment est définie chaque variable. Utilisez cette méthode d’implémentation si vous souhaitez profiter de la commodité des balises sans utiliser l’infrastructure du réseau Edge.
-  ![Extension Adobe Analytics](./assets/analytics-extension-implementation.png)
-Voir [Implémentation d’Adobe Analytics à l’aide de l’extension Analytics](launch/overview.md) pour plus d’informations.
+  ![Extension Adobe Analytics](./assets/analytics-extension-implementation.png)
+Voir [Comment mettre en oeuvre Adobe Analytics à l’aide de l’extension Analytics](launch/overview.md) pour plus d’informations.
 
 * **Code JavaScript hérité** : méthode manuelle historique pour implémenter Adobe Analytics. Référencez la bibliothèque AppMeasurement (`AppMeasurement.js`) sur chaque page, puis définissez les paramètres et variables de contour utilisés dans une implémentation.
-  ![Code JavaScript hérité](./assets/appmeasurement-implementation.png)
-Cette méthode d’implémentation peut s’avérer utile pour les implémentations utilisant du code personnalisé. Elle est toujours recommandée lorsque vous utilisez ou souhaitez utiliser :
+  ![Comment mettre en oeuvre Adobe Analytics à l’aide du code JavaScript hérité](./assets/appmeasurement-implementation.png)
+Cette méthode d’implémentation peut s’avérer utile pour les implémentations utilisant du code personnalisé. Elle est toujours recommandée lorsque vous (souhaitez) utiliser :
 
    * [données d’Activity Map](../analyze/activity-map/activity-map.md),
 
@@ -66,7 +66,7 @@ Cette méthode d’implémentation peut s’avérer utile pour les implémentati
 
 Le flux de décision suivant peut vous aider à sélectionner une méthode d’implémentation :
 
-![Arborescence de décision](./assets/decision-tree.png)
+![Arborescence de décision permettant de sélectionner une méthode de mise en oeuvre, comme décrit dans cette section.](./assets/decision-tree.png)
 
 
 >[!TIP]
