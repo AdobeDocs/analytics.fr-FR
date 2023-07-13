@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '4037'
-ht-degree: 94%
+source-wordcount: '4071'
+ht-degree: 85%
 
 ---
 
@@ -101,90 +101,76 @@ Un autre cas d’utilisation pour les administrateurs consiste à gérer les rap
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
-Lʼonglet [!UICONTROL Rapports] regroupe trois jeux de rapports :
+Le [!UICONTROL Rapports] regroupe les ensembles de rapports suivants :
 
 * Les modèles [!UICONTROL Espace de travail] préconfigurés qui se trouvaient auparavant sous [!UICONTROL Espace de travail] > [!UICONTROL Projet] > [!UICONTROL Nouveau]. Adobe nʼutilise plus le terme « modèle » dans ce contexte.
 * La plupart des rapports préconfigurés de lʼancien menu supérieur [!UICONTROL Rapports] Adobe Analytics. Ces rapports sʼaffichent désormais dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Sous Rapports, un dossier Favoris sʼaffiche uniquement si vous marquez un nouveau rapport comme favori. Aucun favori Reports &amp; Analytics préexistant nʼest conservé.
+>Tenez compte des points suivants lors de l’utilisation de rapports :
+>* Sous Rapports, un dossier Favoris sʼaffiche uniquement si vous marquez un nouveau rapport comme favori. Aucun favori Reports &amp; Analytics préexistant nʼest conservé.
+>* Seuls les rapports les plus couramment utilisés qui étaient auparavant regroupés dans Reports &amp; Analytics sont disponibles. Une poignée de rapports rarement utilisés ou plus pertinents ne sont plus disponibles. Voir [FAQ sur la landing page](#landing-page-faq) ci-dessous pour plus d’informations.
 
 ![Onglet Rapports](assets/reports-tab2.png)
 
-Comme indiqué précédemment, seuls les rapports les plus couramment utilisés, qui étaient auparavant regroupés dans Reports &amp; Analytics, sont disponibles ici. Une minorité de rapports rarement utilisés ou qui ne sont plus pertinents nʼont pas été migrés. Consultez la FAQ ci-dessous pour plus de détails.
 
-### Menus et sous-menus {#menus}
+### Affichage des rapports {#menus}
 
-Découvrez les menus et leurs sous-menus ci-après. Si vous ne trouvez pas un rapport spécifique, effectuez une « Recherche sur la page » pour le localiser.
+1. Accédez à l’onglet [!UICONTROL **Rapports**]
+1. Utilisez le champ de recherche pour rechercher un rapport spécifique.
 
-| Élément de menu | Rapports relevant de cet élément de menu |
-| --- | --- |
-| **[!UICONTROL Plus populaires]** | <ul><li>Tutoriel de formation (modèle d’espace de travail préexistant)</li><li>Pages (quelles sont mes pages les plus vues ?)</li><li>Vues de page (combien de vues de pages est-ce que je génère ?)</li><li>Visites (combien de visites est-ce que jʼobtiens ?)</li><li>Visiteurs (combien de visiteurs est-ce que jʼai ?)</li><li>Mesures clés (comment se portent mes mesures les plus importantes ?)</li><li>Sections du site (quelles sections de mon site ont généré le plus de vues de page ?)</li><li>Page suivante (quelles sont les pages suivantes consultées par mes visiteurs ?)</li><li>Page précédente (quelles sont les pages précédentes consultées par mes visiteurs ?)</li><li>Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Produits (quels produits génèrent mes mesures clés ?)</li><li>Canal Dernière touche (quel canal Dernière touche est le plus performant ?)</li><li>Détails du canal Dernière touche (quel canal Dernière touche spécifique est plus performant que les autres ?)</li><li>Chiffre dʼaffaires (comment se porte mon chiffre dʼaffaires ?)</li><li>Commandes (comment se portent mes commandes ?)</li><li>Unités (combien dʼunités est-ce que je vends ?)</li></ul> |
-| **[!UICONTROL Engagement]** | <ul><li>Mesures clés (comment se portent mes mesures les plus importantes ?)</li><li>Vues de page (combien de vues de pages est-ce que je génère ?)</li><li>Pages (quelles sont mes pages les plus vues ?)</li><li>Visites (combien de visites est-ce que jʼobtiens ?)</li><li>Visiteurs (combien de visiteurs est-ce que jʼai ?)</li><li>Durée de la visite (combien de temps mes utilisateurs passent-ils par visite ?)</li><li>Durée avant événement (combien de temps mes utilisateurs passent-ils avant un événement de succès ?)</li><li>Sections du site (quelles sections de mon site ont généré le plus de vues de page ?)</li><li>Consommation de contenu web (quel contenu est le plus consommé et attire le plus dʼutilisateurs ?)</li><li>Consommation de contenu multimédia (quel contenu est le plus consommé et attire le plus dʼutilisateurs ?)</li><li>Flux de pages suivantes et précédentes (quels sont/étaient les chemins suivants/précédents empruntés par mes visiteurs ?)</li><li>Abandon (où puis-je voir lʼabandon dans mes propriétés numériques ?)</li><li>Analyse entre appareils (utilisation de lʼanalyse entre appareils dans Analysis Workspace)</li><li>Rétention web (qui sont mes utilisateurs fidèles et que font-ils ?)</li><li>Consommation de médias audio (quelles sont les tendances et les principales mesures de la consommation audio ?)</li><li>Récence de médias, fréquence, fidélité (qui sont mes lecteurs fidèles ?)</li><li>Analyse de page > Actualisations (quelles sont les pages les plus actualisées ?)</li><li>Analyse de page > Durée de consultation de page (combien de temps les utilisateurs passent-ils sur mes pages ?)</li><li>Entrées et sorties > Pages dʼaccès (quelles sont mes principales pages dʼaccès ?)</li><li>Entrées et sorties > Pages dʼaccès dʼorigine (à partir de quelle page mon visiteur est-il entré ?)</li><li>Entrées et sorties > Visites sur une seule page (quelles pages ont généré le plus de visites sur une seule page ?)</li><li>Entrées et sorties > Pages de sortie (quelles sont mes principales pages de sortie ?)</li></ul> |
-| **[!UICONTROL Conversion]** | <ul><li>Produits > Produits (quels produits génèrent mes mesures clés ?)</li><li>Produits > Performances des produits (quels sont les produits qui ont les meilleures performances ?)</li><li>Produits > Catégories (quelles sont mes catégories de produits qui ont les meilleures performances ?)</li><li>Panier > Paniers (combien dʼutilisateurs ont ajouté un produit au panier ?)</li><li>Panier > Consultations du panier (combien de fois mes visiteurs ont-ils consulté leur panier ?)</li><li>Panier > Ajouts au panier (à quelle fréquence les utilisateurs ajoutent-ils un produit à leur panier ?)</li><li>Panier > Retraits du panier (à quelle fréquence les utilisateurs suppriment-ils un produit de leur panier ?)</li><li>Achats > Chiffre dʼaffaires (comment mon chiffre dʼaffaires se porte-t-il ?)</li><li>Achats > Commandes (comment mes commandes se portent-elles ?)</li><li>Achats > Unités (combien dʼunités est-ce que je vends ?)</li><li>[Magento : marketing et commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#commerce)</li></ul> |
-| **[!UICONTROL Audience]** | <ul><li>Mesure relative aux personnes (combien de personnes interagissent avec ma marque ?)</li><li>Profil du visiteur > Aperçu de lʼemplacement (quels sont les emplacements qui génèrent le plus dʼutilisation parmi les utilisateurs ?)</li><li>Profil du visiteur > Segmentation géographique > Départements, états américains, régions, villes, DMA États-Unis (dʼoù mes utilisateurs viennent-ils ?)</li><li>Profil du visiteur > Langues (quelle langue mes utilisateurs préfèrent-ils ?)</li><li>Profil du visiteur > Fuseaux horaires (quels sont les fuseaux horaires de mes visiteurs ?)</li><li>Profil du visiteur > Domaines (quels FAI mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Domaines de niveau supérieur (quels domaines génèrent du trafic sur mon site ?)</li><li>Profil du visiteur > Technologie > Aperçu des technologies (quelles technologies mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Technologie > Navigateurs, type de navigateur, largeur du navigateur, hauteur du navigateur (quelles sont lʼentreprise propriétaire, la version, la largeur et la hauteur du navigateur utilisé par les personnes qui accèdent à mon site ?)</li><li>Profil du visiteur > Technologie > Système dʼexploitation, types de systèmes dʼexploitation (quel système dʼexploitation et quelle version les visiteurs utilisent-ils ?)</li><li>Profil du visiteur > Technologie > Opérateur de téléphonie mobile (quels opérateurs de téléphonie mobile les visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Rétention des visiteurs > Fréquence des retours (combien de temps sʼécoule-t-il entre la visite actuelle de mon utilisateur et ses visites précédentes ?)</li><li>Rétention des visiteurs > Visites récurrentes (combien de mes visites concernent des utilisateurs ayant précédemment accédé à mon site ?)</li><li>Rétention des visiteurs > Nombre de visites (quel nombre de visites génère-t-il la plupart de mes mesures clés ?)</li><li>Rétention des visiteurs > Cycle de vente > Fidélisation des clients (à quel segment de fidélité appartiennent mes utilisateurs ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours avant le premier achat (combien de jours se sont écoulés entre la première visite de mes utilisateurs et leur premier achat ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours depuis le dernier achat (combien de jours se sont écoulés entre la visite actuelle de mes utilisateurs et leur dernier achat ?) )</li><li>Rétention des visiteurs > Mobile > Appareils et types dʼappareils (quels appareils et types dʼappareils mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Fabricant (quel fabricant dʼéquipement mobile mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Taille dʼécran, hauteur dʼécran, largeur dʼécran (quelle est la taille, la hauteur et la largeur de lʼécran mobile de mes visiteurs ?)</li><li>Rétention des visiteurs > Mobile > [Utilisation des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Parcours sur les application mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Mesures dʼapplications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Messages sur les applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Performances des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Rétention des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li></ul> |
-| **[!UICONTROL Acquisition]** | <ul><li>Canaux marketing > Canal Première touche, détails du canal Première touche (quel canal Première touche, et quel canal Première touche spécifique est le plus performant ?)</li><li>Canaux marketing > Canal Dernière touche, détails du canal Dernière touche (quel canal Dernière touche, et quel canal Dernière touche spécifique est le plus performant ?)</li><li>Campagnes > Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Campagnes > Performances de la campagne (quelles campagnes génèrent le plus de chiffre d’affaires ?)</li><li>Campagnes > Code de suivi (quels sont les codes de suivi de campagne les plus performants ?)</li><li>[Acquisition web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#web)</li><li>[Acquisition mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>[Advertising Analytics : référencement payant](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#advertising)</li><li>Mots-clés de recherche - tous, payants, naturels (quels mots-clés de recherche et mots-clés de référencement payant/naturel offrent les meilleures performances pour mes mesures clés ?)</li><li>Moteurs de recherche - tous, payants, naturels (quels sont les moteurs de recherche et les moteurs de référencement payant/naturel qui offrent les meilleures performances pour mes mesures clés ?)</li><li>Classement de toutes les pages de recherche (de quelle page de recherche mes utilisateurs proviennent-ils ?)</li><li>Domaines référents (quels domaines génèrent du trafic sur mon site ?)</li><li>Domaines référents d’origine (sur quel premier domaine les utilisateurs se trouvaient-ils avant de visiter mon site ?)</li><li>Référents (sur quelles URL mes visiteurs se trouvaient-ils avant de naviguer vers mon site ?)</li><li>Types de référents (à quelle catégorie mes URL de référence appartiennent-elles ?)</li></ul> |
+   OU
 
-### Emplacement des modèles (désormais appelés rapports) {#templates}
+   Accédez au rapport à afficher.
 
-| Nom du rapport (modèle) | Emplacement du rapport |
-| --- | --- |
-| Tutoriel de formation | Les plus populaires > Tutoriel de formation |
-| Consommation de contenu web | Engagement > Consommation de contenu web |
-| Consommation de contenu multimédia | Engagement > Consommation de contenu multimédia |
-| Analyse Cross-Device | Engagement > Analyse entre appareils |
-| Rétention web | Engagement > Rétention web |
-| Consommation audio multimédia | Engagement > Consommation audio multimédia |
-| Récence, fréquence et fidélité par média | Engagement > Récence, fréquence et fidélité par média |
-| Impact de l’ITP | Engagement > Impact de l’ITP |
-| Performances du produit | Conversion > Produits > Performances du produit |
-| Magento : marketing et commerce | Conversion > Magento : marketing et commerce |
-| Mesure Personnes | Audience > Mesure Personnes |
-| Présentation de l’emplacement | Audience > Profil du visiteur > Présentation de l’emplacement |
-| Présentation de la technologie | Audience > Profil du visiteur > Technologie > Présentation de la technologie |
-| Utilisation des applications mobiles | Audience > Mobile > Utilisation des applications mobiles |
-| Parcours sur application mobile | Audience > Mobile > Parcours sur application mobile |
-| Mesures sur application mobile | Audience > Mobile > Messages sur application mobile |
-| Performances d’application mobile | Audience > Mobile > Performances d’application mobile |
-| Rétention sur application mobile | Audience > Mobile > Rétention sur application mobile |
-| Performances de la campagne | Acquisition > Campagnes > Performances de la campagne |
-| Acquisition mobile | Acquisition > Acquisition mobile |
-| Acquisition web | Acquisition > Acquisition web |
-| Advertising Analytics : référencement payant | Acquisition > Advertising Analytics : référencement payant |
+   Les rapports suivants sont disponibles :
 
-### Utilisation de l’onglet Rapports {#use-reports}
+   | Élément de menu | Rapports relevant de cet élément de menu |
+   | --- | --- |
+   | **[!UICONTROL Plus populaires]** | <ul><li>Tutoriel de formation (modèle d’espace de travail préexistant)</li><li>Pages (quelles sont mes pages les plus vues ?)</li><li>Vues de page (combien de vues de pages est-ce que je génère ?)</li><li>Visites (combien de visites est-ce que jʼobtiens ?)</li><li>Visiteurs (combien de visiteurs est-ce que jʼai ?)</li><li>Mesures clés (comment se portent mes mesures les plus importantes ?)</li><li>Sections du site (quelles sections de mon site ont généré le plus de vues de page ?)</li><li>Page suivante (quelles sont les pages suivantes consultées par mes visiteurs ?)</li><li>Page précédente (quelles sont les pages précédentes consultées par mes visiteurs ?)</li><li>Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Produits (quels produits génèrent mes mesures clés ?)</li><li>Canal Dernière touche (quel canal Dernière touche est le plus performant ?)</li><li>Détails du canal Dernière touche (quel canal Dernière touche spécifique est plus performant que les autres ?)</li><li>Chiffre dʼaffaires (comment se porte mon chiffre dʼaffaires ?)</li><li>Commandes (comment se portent mes commandes ?)</li><li>Unités (combien dʼunités est-ce que je vends ?)</li></ul> |
+   | **[!UICONTROL Engagement]** | <ul><li>Mesures clés (comment se portent mes mesures les plus importantes ?)</li><li>Vues de page (combien de vues de pages est-ce que je génère ?)</li><li>Pages (quelles sont mes pages les plus vues ?)</li><li>Visites (combien de visites est-ce que jʼobtiens ?)</li><li>Visiteurs (combien de visiteurs est-ce que jʼai ?)</li><li>Durée de la visite (combien de temps mes utilisateurs passent-ils par visite ?)</li><li>Durée avant événement (combien de temps mes utilisateurs passent-ils avant un événement de succès ?)</li><li>Sections du site (quelles sections de mon site ont généré le plus de vues de page ?)</li><li>Consommation de contenu web (quel contenu est le plus consommé et attire le plus dʼutilisateurs ?)</li><li>Consommation de contenu multimédia (quel contenu est le plus consommé et attire le plus dʼutilisateurs ?)</li><li>Flux de pages suivantes et précédentes (quels sont/étaient les chemins suivants/précédents empruntés par mes visiteurs ?)</li><li>Abandon (où puis-je voir lʼabandon dans mes propriétés numériques ?)</li><li>Analyse entre appareils (utilisation de lʼanalyse entre appareils dans Analysis Workspace)</li><li>Rétention web (qui sont mes utilisateurs fidèles et que font-ils ?)</li><li>Consommation de médias audio (quelles sont les tendances et les principales mesures de la consommation audio ?)</li><li>Récence de médias, fréquence, fidélité (qui sont mes lecteurs fidèles ?)</li><li>Analyse de page > Actualisations (quelles sont les pages les plus actualisées ?)</li><li>Analyse de page > Durée de consultation de page (combien de temps les utilisateurs passent-ils sur mes pages ?)</li><li>Entrées et sorties > Pages dʼaccès (quelles sont mes principales pages dʼaccès ?)</li><li>Entrées et sorties > Pages dʼaccès dʼorigine (à partir de quelle page mon visiteur est-il entré ?)</li><li>Entrées et sorties > Visites sur une seule page (quelles pages ont généré le plus de visites sur une seule page ?)</li><li>Entrées et sorties > Pages de sortie (quelles sont mes principales pages de sortie ?)</li></ul> |
+   | **[!UICONTROL Conversion]** | <ul><li>Produits > Produits (quels produits génèrent mes mesures clés ?)</li><li>Produits > Performances des produits (quels sont les produits qui ont les meilleures performances ?)</li><li>Produits > Catégories (quelles sont mes catégories de produits qui ont les meilleures performances ?)</li><li>Panier > Paniers (combien dʼutilisateurs ont ajouté un produit au panier ?)</li><li>Panier > Consultations du panier (combien de fois mes visiteurs ont-ils consulté leur panier ?)</li><li>Panier > Ajouts au panier (à quelle fréquence les utilisateurs ajoutent-ils un produit à leur panier ?)</li><li>Panier > Retraits du panier (à quelle fréquence les utilisateurs suppriment-ils un produit de leur panier ?)</li><li>Achats > Chiffre dʼaffaires (comment mon chiffre dʼaffaires se porte-t-il ?)</li><li>Achats > Commandes (comment mes commandes se portent-elles ?)</li><li>Achats > Unités (combien dʼunités est-ce que je vends ?)</li><li>[Magento : marketing et commerce](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#commerce)</li></ul> |
+   | **[!UICONTROL Audience]** | <ul><li>Mesure relative aux personnes (combien de personnes interagissent avec ma marque ?)</li><li>Profil du visiteur > Aperçu de lʼemplacement (quels sont les emplacements qui génèrent le plus dʼutilisation parmi les utilisateurs ?)</li><li>Profil du visiteur > Segmentation géographique > Départements, états américains, régions, villes, DMA États-Unis (dʼoù mes utilisateurs viennent-ils ?)</li><li>Profil du visiteur > Langues (quelle langue mes utilisateurs préfèrent-ils ?)</li><li>Profil du visiteur > Fuseaux horaires (quels sont les fuseaux horaires de mes visiteurs ?)</li><li>Profil du visiteur > Domaines (quels FAI mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Domaines de niveau supérieur (quels domaines génèrent du trafic sur mon site ?)</li><li>Profil du visiteur > Technologie > Aperçu des technologies (quelles technologies mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Technologie > Navigateurs, type de navigateur, largeur du navigateur, hauteur du navigateur (quelles sont lʼentreprise propriétaire, la version, la largeur et la hauteur du navigateur utilisé par les personnes qui accèdent à mon site ?)</li><li>Profil du visiteur > Technologie > Système dʼexploitation, types de systèmes dʼexploitation (quel système dʼexploitation et quelle version les visiteurs utilisent-ils ?)</li><li>Profil du visiteur > Technologie > Opérateur de téléphonie mobile (quels opérateurs de téléphonie mobile les visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Rétention des visiteurs > Fréquence des retours (combien de temps sʼécoule-t-il entre la visite actuelle de mon utilisateur et ses visites précédentes ?)</li><li>Rétention des visiteurs > Visites récurrentes (combien de mes visites concernent des utilisateurs ayant précédemment accédé à mon site ?)</li><li>Rétention des visiteurs > Nombre de visites (quel nombre de visites génère-t-il la plupart de mes mesures clés ?)</li><li>Rétention des visiteurs > Cycle de vente > Fidélisation des clients (à quel segment de fidélité appartiennent mes utilisateurs ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours avant le premier achat (combien de jours se sont écoulés entre la première visite de mes utilisateurs et leur premier achat ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours depuis le dernier achat (combien de jours se sont écoulés entre la visite actuelle de mes utilisateurs et leur dernier achat ?) )</li><li>Rétention des visiteurs > Mobile > Appareils et types dʼappareils (quels appareils et types dʼappareils mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Fabricant (quel fabricant d’appareil mobile mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Taille dʼécran, hauteur dʼécran, largeur dʼécran (quelle est la taille, la hauteur et la largeur de lʼécran mobile de mes visiteurs ?)</li><li>Rétention des visiteurs > Mobile > [Utilisation des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Parcours sur les application mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Mesures dʼapplications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Messages sur les applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Performances des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Rétention des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li></ul> |
+   | **[!UICONTROL Acquisition]** | <ul><li>Canaux marketing > Canal Première touche, détails du canal Première touche (quel canal Première touche, et quel canal Première touche spécifique est le plus performant ?)</li><li>Canaux marketing > Canal Dernière touche, détails du canal Dernière touche (quel canal Dernière touche, et quel canal Dernière touche spécifique est le plus performant ?)</li><li>Campagnes > Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Campagnes > Performances de la campagne (quelles campagnes génèrent le plus de chiffre d’affaires ?)</li><li>Campagnes > Code de suivi (quels sont les codes de suivi de campagne les plus performants ?)</li><li>[Acquisition web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#web)</li><li>[Acquisition mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>[Advertising Analytics : référencement payant](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#advertising)</li><li>Mots-clés de recherche - tous, payants, naturels (quels mots-clés de recherche et mots-clés de référencement payant/naturel offrent les meilleures performances pour mes mesures clés ?)</li><li>Moteurs de recherche - tous, payants, naturels (quels sont les moteurs de recherche et les moteurs de référencement payant/naturel qui offrent les meilleures performances pour mes mesures clés ?)</li><li>Classement de toutes les pages de recherche (de quelle page de recherche mes utilisateurs proviennent-ils ?)</li><li>Domaines référents (quels domaines génèrent du trafic sur mon site ?)</li><li>Domaines référents d’origine (sur quel premier domaine les utilisateurs se trouvaient-ils avant de visiter mon site ?)</li><li>Référents (sur quelles URL mes visiteurs se trouvaient-ils avant de naviguer vers mon site ?)</li><li>Types de référents (à quelle catégorie mes URL de référence appartiennent-elles ?)</li></ul> |
 
-Pour les utilisateurs actuels de Reports &amp; Analytics, voici une brève introduction sur l’utilisation des rapports auxquels vous êtes habitué et qui s’affichent désormais dans Espace de travail. Les rapports se comportent comme des modèles existants. En ce sens, si vous y apportez des modifications, vous êtes invité à enregistrer/ignorer vos modifications lorsque vous quittez la page ou accédez à un autre rapport. Si vous souhaitez enregistrer les modifications, le rapport est enregistré en tant que nouveau projet.
+### Affichage et enregistrement d’un rapport {#use-reports}
 
-1. Accédez à l’onglet [!UICONTROL Rapports]
-1. Sélectionnez le rapport à afficher, par exemple sous [!UICONTROL Les plus populaires], puis sélectionnez le rapport [!UICONTROL Pages].
-1. À droite, cliquez sur **[!UICONTROL Ouvrir le rapport]**.
+Si vous quittez un rapport après avoir apporté des modifications, vous êtes invité à enregistrer ou ignorer vos modifications. L’enregistrement des modifications dans un rapport enregistre le rapport en tant que nouveau projet.
+
+1. Accédez à l’onglet [!UICONTROL **Rapports**]
+1. Sélectionnez le rapport à afficher. Par exemple, sous [!UICONTROL **Le plus populaire**], sélectionnez la variable [!UICONTROL **Pages**] rapport.
 
    ![Rapport Pages](assets/pages-report.png)
 
 1. Le rapport Pages, comme affiché dans Analysis Workspace, affiche deux [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Graphique à barres](/help/analyze/analysis-workspace/visualizations/bar.md) et [Numéro de la synthèse](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) ainsi qu’un [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La mesure utilisée est Occurrences.
-1. À partir de là, plusieurs options s’offrent à vous. Voici certaines de ces options :
+1. Effectuez l’une des opérations suivantes :
 
-   * Vous pouvez utiliser le rapport tel quel.
-   * Vous pouvez faire glisser un ou plusieurs segments dans la zone de dépôt de segments située en haut. Par exemple, faites glisser le segment [!UICONTROL Clients mobiles] et observez les modifications au niveau des résultats.
-   * Vous pouvez modifier la période en accédant au calendrier en haut à droite.
-   * Vous pouvez ajouter des répartitions de dimension, faire glisser d’autres mesures et, de manière générale, personnaliser le rapport comme vous le souhaitez.
+   * Affichez le rapport.
+   * Faites glisser un ou plusieurs segments dans la zone de dépôt Segment située en haut. Par exemple, faites glisser le segment. [!UICONTROL **Clients mobiles**] et afficher les résultats.
+   * Modifiez la période en accédant au calendrier en haut à droite.
+   * Ajoutez des ventilations de dimension, faites glisser d’autres mesures et personnalisez généralement le rapport selon vos besoins.
+
+1. (Facultatif) Enregistrez le rapport en tant que projet en sélectionnant [!UICONTROL **Projet**] > [!UICONTROL **Enregistrer**].
+
+   Le rapport est ainsi enregistré comme un nouveau projet ; il ne modifie pas le rapport existant. Pour plus d’informations sur l’enregistrement d’un rapport en tant que projet, voir &quot;Création d’un projet à partir d’un projet vierge ou d’un rapport&quot; dans [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Créer un rapport d’entreprise personnalisé {#company-report}
 
 Les rapports personnalisés créés et enregistrés pour être utilisés par d’autres membres de votre société de connexion sont appelés des rapports d’entreprise. Les rapports d’entreprise précédemment créés et les rapports d’entreprise nouvellement créés sont répertoriés dans la fenêtre modale Créer un projet, comme illustré ci-dessous.
 
-Pour créer un rapport d’entreprise, procédez comme suit :
+Pour créer un rapport Société :
 
-1. Générez l’espace de travail à l’état souhaité.
-1. Ouvrez le menu [!UICONTROL Projet] et cliquez sur **[!UICONTROL Enregistrer en tant que rapport d’entreprise...]**
+1. Créez un projet dans Analysis Workspace à l’état souhaité.
+1. Sélectionner [!UICONTROL **Projet**] > **[!UICONTROL Enregistrer comme rapport de société...]**.
 
    ![Rapport sur la société](assets/company-report.png)
 
-1. Ajoutez tous les champs souhaités à la fenêtre modale et enregistrez-les.
+1. Mettez à jour le nom du rapport, ajoutez une description, ajoutez des balises, puis sélectionnez [!UICONTROL **Enregistrer en tant que rapport d’entreprise**].
 
-   Le rapport est ajouté à la liste Rapports d’entreprise dans la fenêtre modale Créer un projet. Il est alors disponible auprès des utilisateurs de votre société de connexion.
+   Le rapport est ajouté à la liste Rapports d’entreprise dans le modal Créer un projet et est disponible pour les utilisateurs de votre société de connexion.
+
+   Pour plus d’informations sur la manière dont les utilisateurs peuvent créer un projet à partir d’un rapport d’entreprise, voir &quot;Création d’un projet à partir d’un projet vierge ou d’un rapport&quot; dans [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Autres options de formation :
 
@@ -221,6 +207,33 @@ Une liste des rapports d’entreprise s’affiche. Tous les projets standard, à
 Les administrateurs peuvent supprimer un rapport à l’aide de l’option de la liste Rapports d’entreprise (décrite ci-dessus) ou supprimer un rapport de la fenêtre modale Créer un projet.
 
 ![Autres filtres](assets/delete-fr-create-project-modal.png)
+
+### Emplacement des modèles (désormais appelés rapports) {#templates}
+
+| Nom du rapport (modèle) | Emplacement du rapport |
+| --- | --- |
+| Tutoriel de formation | Les plus populaires > Tutoriel de formation |
+| Consommation de contenu web | Engagement > Consommation de contenu web |
+| Consommation de contenu multimédia | Engagement > Consommation de contenu multimédia |
+| Analyse sur plusieurs appareils | Engagement > Analyse entre appareils |
+| Rétention web | Engagement > Rétention web |
+| Consommation audio multimédia | Engagement > Consommation audio multimédia |
+| Récence, fréquence et fidélité par média | Engagement > Récence, fréquence et fidélité par média |
+| Impact de l’ITP | Engagement > Impact de l’ITP |
+| Performances du produit | Conversion > Produits > Performances du produit |
+| Magento : marketing et commerce | Conversion > Magento : marketing et commerce |
+| Mesure Personnes | Audience > Mesure Personnes |
+| Présentation de l’emplacement | Audience > Profil du visiteur > Présentation de l’emplacement |
+| Présentation de la technologie | Audience > Profil du visiteur > Technologie > Présentation de la technologie |
+| Utilisation des applications mobiles | Audience > Mobile > Utilisation des applications mobiles |
+| Parcours sur application mobile | Audience > Mobile > Parcours sur application mobile |
+| Mesures sur application mobile | Audience > Mobile > Messages sur application mobile |
+| Performances d’application mobile | Audience > Mobile > Performances d’application mobile |
+| Rétention sur application mobile | Audience > Mobile > Rétention sur application mobile |
+| Performances de la campagne | Acquisition > Campagnes > Performances de la campagne |
+| Acquisition mobile | Acquisition > Acquisition mobile |
+| Acquisition web | Acquisition > Acquisition web |
+| Advertising Analytics : référencement payant | Acquisition > Advertising Analytics : référencement payant |
 
 
 ## Utilisation de l’onglet Apprentissage {#navigate-learning}

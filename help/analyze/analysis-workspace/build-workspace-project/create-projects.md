@@ -3,9 +3,10 @@ description: Découvrez les principes de base de la création d’un projet dans
 title: Création de projets
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
@@ -32,6 +33,7 @@ Les sections suivantes décrivent comment créer un projet et commencer à ajout
 
       * **Projet vierge** si vous prévoyez de partager votre analyse à partir du navigateur ;
       * [**Fiche d’évaluation mobile vierge**](/help/analyze/mobile-app/curator.md) si vous prévoyez de partager votre analyse à partir de l’application mobile des tableaux de bord Adobe Analytics.
+
    1. Sélectionnez [!UICONTROL **Créer**].
 
 +++
@@ -44,7 +46,10 @@ Les sections suivantes décrivent comment créer un projet et commencer à ajout
 
       Un ensemble de rapports standard est disponible par défaut. En outre, votre entreprise peut avoir créé des rapports personnalisés à partir desquels vous pouvez effectuer un choix.
 
-      Pour plus d’informations, voir &quot;Navigation dans l’onglet Rapports&quot; dans [Page d’entrée Adobe Analytics](/help/analyze/landing.md).
+   1. Sélectionner [!UICONTROL **Projet**] > [!UICONTROL **Enregistrer**] pour enregistrer le rapport en tant que nouveau projet.
+
+      Pour plus d’informations sur les rapports, voir &quot;Navigation dans l’onglet Rapports&quot; dans [Page d’entrée Adobe Analytics](/help/analyze/landing.md).
+
 +++
 
 1. Vous devez ensuite ajouter des panneaux, des visualisations et des composants à votre projet. Tout d’abord, ajoutez des panneaux à votre projet dans Analysis Workspace, comme décrit dans la section [Ajout de panneaux au projet](#add-panels-to-the-project). Vous pouvez ensuite ajouter des visualisations à n’importe quel panneau. Enfin, vous pouvez ajouter des composants à n’importe quel panneau ou visualisation.
@@ -108,4 +113,3 @@ Pour ajouter un composant :
 Lorsque vous créez une analyse dans Analysis Workspace, votre travail est le suivant : [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
 Une fois que vous avez terminé de créer le projet et que celui-ci collecte des informations exploitables, le projet est prêt à être consommé par d’autres personnes. Vous pouvez partager le projet avec des utilisateurs et des groupes de votre entreprise, ou même avec des personnes en dehors de votre entreprise. Pour plus d’informations sur le partage d’un projet, voir [Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
