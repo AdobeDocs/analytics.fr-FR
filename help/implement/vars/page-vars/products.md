@@ -3,9 +3,9 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
+source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 71%
 
 ---
@@ -37,7 +37,7 @@ Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 
 Il n’existe pas de champ dédié dans la collecte de données Adobe Experience Platform pour définir cette variable ; cependant, plusieurs extensions tierces existent pour vous aider.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur [!UICONTROL Catalogue] pour afficher toutes les extensions disponibles.
 4. Recherchez le terme « produit », qui révèle plusieurs extensions disponibles pour aider à définir cette variable.
@@ -60,7 +60,7 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` complète est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
+Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. Longueur maximale pour l’ensemble `products` string fait 64 000 octets. Séparez chaque produit par une virgule (`,`) dans la chaîne.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
