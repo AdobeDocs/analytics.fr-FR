@@ -4,10 +4,10 @@ description: Découvrez les variables que vous pouvez inclure dans les données 
 keywords: appmeasurement,variables,vars,configuration,page,mise en œuvre
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: ed018e9b9b220630193b0b39d40a1f34afeb3d35
+source-git-commit: 1516a1353c1b0a3b7365c3e3f10ce74ae1255696
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 73%
+source-wordcount: '398'
+ht-degree: 70%
 
 ---
 
@@ -32,7 +32,7 @@ Voici une vidéo sur la configuration des variables dans Adobe Analytics :
 Les bibliothèques AppMeasurement publiées par Adobe Analytics suivent un ordre spécifique lors de l’envoi de données à Adobe. Si vous exécutez ces tâches dans l’ordre, les données peuvent être incomplètes.
 
 1. Si votre site utilise une couche de données, assurez-vous que toutes les variables applicables sont renseignées en premier. Par exemple, vous renseignez `adobeDataLayer.page.title` avec le titre de la page. Pour plus d’informations, reportez-vous à la section [Couches de données](../prepare/data-layer.md).
-2. Utilisez la couche de données pour renseigner les variables Analytics. <br/>Si vous utilisez des balises dans Adobe Experience Platform, cette tâche est effectuée en utilisant des éléments de données intermédiaires. Les éléments de données sont renseignés avec des valeurs de la couche de données. Par exemple, élément de données `Page Title` obtient la valeur de la variable de couche de données `adobeDataLayer.page.title`. <br/>Vous pouvez ensuite utiliser l’élément de données pour renseigner les variables Analytics. Par exemple `eVar4` obtient la valeur de l’élément de données `Page Title`. <br/>Voir pour plus d’informations [Éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr).
+2. Utilisez la couche de données pour renseigner les variables Analytics. <br/>Si vous utilisez des balises dans Adobe Experience Platform, cette tâche est effectuée en utilisant des éléments de données intermédiaires. Les éléments de données sont renseignés avec des valeurs de la couche de données. Par exemple, élément de données `Page Title` obtient la valeur de la variable de couche de données `adobeDataLayer.page.title`. <br/>Vous pouvez ensuite utiliser l’élément de données pour renseigner les variables Analytics. Par exemple `eVar4` obtient la valeur de l’élément de données `Page Title`. <br/>Voir pour plus d’informations [Éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr), [Mise en correspondance des objets de couche de données avec les éléments de données](../launch/layer-to-elements.md), et [Mise en correspondance des éléments de données de balise avec les variables Analytics](../launch/elements-to-variable.md)
 3. Enfin, appelez la fonction de suivi . La plupart des bibliothèques AppMeasurement utilisent la méthode `t()`, mais certains kits SDK mobiles utilisent `track()`. Lorsque la fonction de suivi est appelée, toutes les variables prises en charge définies dans l’objet Analytics sont envoyées à Adobe sous la forme d’une demande d’image.
 
 ## Caractères interdits
