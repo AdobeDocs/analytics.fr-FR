@@ -3,7 +3,7 @@ title: FAQ sur le mappage IP/géolocalisation amélioré
 description: Réponses aux questions concernant le nouveau jeu de données amélioré (NetAsset Pulse) pour le mappage IP/géolocalisation.
 feature: Data Configuration and Collection
 exl-id: 9327c20c-1310-4451-a6e4-61dc0e46724d
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Notre fournisseur pour les recherches IP, Digital Element, a été mis à niveau vers un nouveau jeu de données amélioré (NetAsset Pulse) pour le mappage IP/géolocalisation. Prévu à l’origine pour octobre 2022, Adobe Analytics a adopté ce nouveau jeu de données le 11 janvier 2023. La nouvelle base de données est plus précise que les versions précédentes. Certains mappages IP/géo ont changé/amélioré lors de l’adoption de la nouvelle base de données.
 
-Tous les outils Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de création de rapports, Data Warehouse, LiveStream, Flux de données Analytics, etc.) tirent automatiquement parti des nouvelles mises en correspondance améliorées. Le format des données dans les flux de données n’a pas été modifié. Les données Customer Journey Analytics fournies par le biais du connecteur source Analytics tirent automatiquement parti des nouveaux mappages.
+Tous les outils Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, API de création de rapports, Data Warehouse, LiveStream, Flux de données Analytics, etc.) tirent automatiquement parti des nouvelles mises en correspondance améliorées. Le format des données dans les flux de données n’a pas été modifié. Les données de Customer Journey Analytics fournies par le biais du connecteur source Analytics tirent automatiquement parti des nouveaux mappages.
 
 +++**J&#39;ai remarqué que mes données géographiques ont changé en janvier.  Pourquoi ?**
 L’Adobe partenaire utilise pour le mappage IP/géolocalisation, Digital Element, pour introduire une nouvelle base de données de ciblage IP plus précise appelée NetAsset Pulse. L&#39;Adobe a reporté l&#39;adoption de cette nouvelle base de données à janvier 2023 afin d&#39;éviter toute modification pendant les vacances d&#39;hiver.

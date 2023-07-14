@@ -4,7 +4,7 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '4071'
 ht-degree: 85%
@@ -29,7 +29,7 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 | Nouveaux liens vers les rapports **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages Robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
 | Nouveaux rapports prêts à l’emploi | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de la page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports sont au format [!UICONTROL Espace de travail] et doivent être configurés et générés. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, d’une visualisation des [!UICONTROL Flux] et bien plus encore. Vous pouvez modifier ces rapports et changer de dimension, d’élément de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux dans les panneaux de l’espace de travail. | ![Page suivante](assets/next-page.png) |
 | Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
-| Également disponible dans Customer Journey Analytics | Cette landing page, sous une forme modifiée, est également disponible dans Customer Journey Analytics. |  |
+| Également disponible dans Customer Journey Analytics | Cette landing page, sous une forme modifiée, est également disponible en Customer Journey Analytics. |  |
 
 {style="table-layout:auto"}
 
