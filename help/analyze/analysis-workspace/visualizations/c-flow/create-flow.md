@@ -4,106 +4,122 @@ title: Configuration d’une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: 58f53da6076bf57d060303538814582cb5eb009c
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 96%
+source-wordcount: '1346'
+ht-degree: 62%
 
 ---
 
 # Configuration d’une visualisation de flux
 
-Les visualisations de flux vous aident à comprendre le parcours qui découle d’un événement de conversion spécifique sur votre site web ou votre application ou qui le conduit à un événement de conversion spécifique. Elle trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures. Les visualisations de flux vous permettent de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
+Les visualisations de flux vous aident à comprendre le parcours qui découle d’un événement de conversion spécifique sur votre site web ou votre application ou qui le conduit à un événement de conversion spécifique. Elle trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures.
+
+Les visualisations de flux vous permettent de configurer le début ou la fin du chemin qui vous intéresse, ou d’analyser tous les chemins qui traversent une dimension ou un élément de dimension.
 
 ![nouvelle interface utilisateur de flux](assets/new-flow.png)
 
-## Étapes de configuration {#configure}
+## Créer une visualisation de flux {#configure}
 
-1. Pour commencer à créer un diagramme de flux, ajoutez un panneau vierge à votre projet, puis cliquez sur l’icône Visualisations dans le rail de gauche. Faites ensuite glisser la visualisation Flux dans le panneau. Vous pouvez aussi faire glisser la visualisation [!UICONTROL Flux] dans un projet existant.
+1. Ajoutez un panneau vierge à votre projet, puis cliquez sur l’icône Visualisations dans le rail de gauche.
 
-1. Ancrez votre visualisation Flux à l’aide de l’une des trois options suivantes :
+1. Faites glisser le [!UICONTROL **Flux**] dans le panneau.
 
-   * [!UICONTROL Commence par] (mesures, dimensions ou éléments) ou
-   * [!UICONTROL Contient] (dimensions ou éléments) ou
-   * [!UICONTROL Se termine par] (mesures, dimensions ou éléments)
+   OU
+
+   Faites glisser le [!UICONTROL **Flux**] visualisation dans un projet existant.
+
+1. Ancrer votre visualisation Flux à l’aide de l’une des options suivantes :
+
+   * [!UICONTROL **Commence par**] (mesures, dimensions ou éléments) ou
+   * [!UICONTROL **Contient**] (dimensions ou éléments) ou
+   * [!UICONTROL **Se termine par**] (mesures, dimensions ou éléments)
 
    Chacune de ces catégories est présentée à l’écran comme une « zone de dépôt ». Il existe 3 manières de renseigner la zone de dépôt :
 
    * Utiliser le menu déroulant pour sélectionner des mesures ou des dimensions.
-   * Faire glisser des éléments depuis la liste de dimensions ou de mesures.
-   * Effectuez une recherche pour trouver la mesure ou la dimension souhaitée.
-
-   Supposons, par exemple, que vous souhaitiez suivre tout ce qui mène à un événement de passage en caisse. Faites glisser une dimension ou une mesure liée au passage en caisse (telle que [!UICONTROL La commande existe]) dans la zone de dépôt **[!UICONTROL Se termine par]**.
-
-1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL Dimension de cheminement], comme illustré ici, que vous utiliserez pour créer le chemin. La valeur par défaut est [!UICONTROL Page].
-
-   ![dimension du cheminement](assets/pathing-dim.png)
+   * Faites glisser des dimensions ou des mesures depuis le rail de gauche.
+   * Commencez à saisir le nom d’une dimension ou d’une mesure, puis sélectionnez-la lorsqu’elle apparaît dans la liste déroulante.
 
    >[!IMPORTANT]
    >
-   >Les mesures calculées ne peuvent pas être déposées dans les zones de dépôt **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]**.
+   >Les mesures calculées ne peuvent pas être utilisées dans la variable  **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]** champs.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Afficher les paramètres avancés]** pour configurer les paramètres avancés :
+1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL Dimension de cheminement] à utiliser comme chemin d’accès menant à ou à partir du composant sélectionné, comme illustré ici. La valeur par défaut est [!UICONTROL **Page**].
+
+   ![dimension du cheminement](assets/pathing-dim.png)
+
+1. (Facultatif) Sélectionnez **[!UICONTROL Afficher les paramètres avancés]** pour configurer l’une des options suivantes :
 
    ![paramètres avancés](assets/adv-settings.png)
 
    | Paramètre | Description |
    | --- | --- |
    | **[!UICONTROL Développer les étiquettes]** | Habituellement, les étiquettes sur les éléments de flux sont tronquées pour gagner de l’espace à l’écran, mais vous pouvez afficher l’étiquette complète en cochant cette case.  Valeur par défaut = non coché. |
-   | **[!UICONTROL Inclure des instances de répétition]** | Les visualisations de flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des rechargements de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. Valeur par défaut = non coché. |
-   | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent/se terminent par la première/dernière occurrence d’une dimension/élément/mesure. Consultez la section « Exemple de scénario de limitation à la première/dernière occurrence »ci-dessous pour en savoir plus. |
-   | **[!UICONTROL Nombre de colonnes]** | Détermine le nombre de colonnes souhaité dans le diagramme Flux. |
-   | **[!UICONTROL Éléments développés par colonne]** | Nombre d’éléments à inclure dans chaque colonne. |
+   | **[!UICONTROL Inclure des instances de répétition]** | Les visualisations de flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des rechargements de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. <p>Par défaut, cette option est désactivée.</p> |
+   | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent/se terminent par la première/dernière occurrence d’une dimension/élément/mesure. Voir la section ci-dessous, [Exemple de scénario pour &quot;limiter à la première/dernière occurrence&quot;](#example-scenario-for-limit-to-firstlast-occurrence), pour une explication plus détaillée. |
+   | **[!UICONTROL Nombre de colonnes]** | Nombre de colonnes souhaité dans le diagramme Flux. |
+   | **[!UICONTROL Éléments développés par colonne]** | Le nombre d’éléments que vous souhaitez dans chaque colonne. |
    | **[!UICONTROL Conteneur de flux]** | <ul><li>Visite</li><li>Visiteur</li></ul> Permet de basculer entre Visite et Visiteur afin d’analyser le cheminement du visiteur. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+1. Sélectionner **[!UICONTROL Build]**.
+
+>[!INFO]
+>
+>**Exemple :** Supposons que vous souhaitiez tracer le chemin suivi par les utilisateurs vers et depuis les pages les plus populaires de votre site.
+>
+>Pour ce faire, vous devez
+>1. Commencez à créer une visualisation de flux comme décrit ci-dessus.
+>1. Faites glisser le [!UICONTROL **Page**] dans la **[!UICONTROL Contient]** champ, puis sélectionnez [!UICONTROL **Build**].
+>1. La visualisation Flux s’appuie sur la page la plus visualisée, visible dans le noeud d’intérêt au centre de la visualisation. Vous pouvez également voir les pages principales qui mènent à cette page (à gauche du noeud de focus) ainsi que les pages principales qui mènent hors de cette page de focus (à droite du noeud de focus).
+>1. Analysez les données dans le flux, comme décrit dans la section [Affichage et modification de la sortie Flux](#view-and-change-the-flow-output).
+
 
 ## Afficher et modifier la sortie Flux {#output}
 
 ![sortie de flux](assets/flow-output.png)
 
-Un résumé de la configuration Flux s’affiche en haut du diagramme. Les tracés dans le diagramme sont proportionnels. Les tracés plus épais sont ceux pour lesquels l’activité est la plus intense.
+Un résumé de la configuration Flux s’affiche en haut du diagramme. L’épaisseur d’un chemin dans le diagramme est proportionnelle à son activité, les chemins ayant plus d’activité apparaissent plus épais que ceux ayant moins d’activité.
 
 Pour approfondir l’analyse des données, vous disposez de plusieurs options :
 
 * Le diagramme de flux est interactif. Pointez sur le diagramme pour modifier les détails présentés.
 
-* Si vous cliquez sur un nœud du diagramme, les détails correspondants s’affichent. Cliquez de nouveau sur le nœud pour le réduire.
+* Lorsque vous sélectionnez sur un noeud du diagramme, les détails de ce noeud s’affichent. Sélectionnez à nouveau sur le noeud pour le réduire.
 
-   ![node-details](assets/node-details.png)
+  ![node-details](assets/node-details.png)
 
 * Vous pouvez filtrer une colonne pour n’afficher que certains résultats, tels que l’inclusion et l’exclusion, la spécification de critères, etc.
 
-* Cliquez sur le signe plus (+) à gauche pour développer une colonne.
+* Sélectionnez le signe plus (+) à gauche pour développer une colonne.
 
 * Utilisez les options de clic droit décrites ci-dessous pour personnaliser davantage la sortie.
 
-* Cliquez sur l’icône en forme de crayon en regard du résumé de la configuration pour modifier davantage le flux ou le recréer avec différentes options.
+* Sélectionnez l’icône en forme de crayon en regard du résumé de la configuration pour modifier davantage le flux ou le recréer avec différentes options.
 
 * Vous pouvez également exporter le diagramme Flux pour procéder à une analyse approfondie dans un fichier CSV de projet en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**.
 
 ## Filtrage
 
-Un filtre apparaît au-dessus de chaque colonne lorsque vous le survolez avec votre curseur. En cliquant sur le filtre, vous verrez s’afficher une boîte de dialogue de filtre identique à celle qui se trouve actuellement dans le tableau à structure libre. Ce filtre fonctionne de la même manière que celui du tableau à structure libre.
+Un filtre apparaît au-dessus de chaque colonne lorsque vous le survolez avec votre curseur. En sélectionnant le filtre, vous obtenez la même boîte de dialogue de filtre qui existe actuellement dans le tableau à structure libre. Ce filtre fonctionne de la même manière que celui du tableau à structure libre.
 
 * Utilisez les paramètres avancés pour inclure ou exclure certains critères avec notre liste d’opérateurs.
 * Une fois que vous avez filtré un élément de la liste, la colonne en question reflète le filtrage. (Le filtre la réduit et affiche uniquement l’élément autorisé dans le filtre ou supprime tous les éléments à l’exception de celui que vous avez sélectionné dans le filtre.)
 * Toutes les colonnes en aval et en amont doivent être conservées tant que les données alimentent les nœuds restants.
 * Une fois appliquée, l’icône de filtre devient bleue au-dessus de la colonne filtrée.
-* Pour supprimer un filtre, cliquez sur l’icône de filtre pour en ouvrir le menu. Supprimez les filtres appliqués, puis cliquez sur **[!UICONTROL Enregistrer]**. Le flux doit revenir à son état précédent, c’est-à-dire non filtré.
+* Pour supprimer un filtre, sélectionnez l’icône de filtre pour ouvrir le menu de filtre. Supprimez les filtres appliqués, puis sélectionnez **[!UICONTROL Enregistrer]**. Le flux doit revenir à son état précédent, c’est-à-dire non filtré.
 
 ## Options du menu contextuel {#right-click}
 
 | Option | Description |
 |--- |--- |
-| [!UICONTROL Se concentrer sur ce nœud] | Fait la mise au point sur le nœud sélectionné. Le nœud d’intérêt s’affiche au centre du diagramme Flux. |
 | [!UICONTROL Recommencer] | Vous renvoie au générateur de diagrammes Structure libre, d’où vous pouvez créer un autre diagramme Flux. |
-| [!UICONTROL Créer un segment à partir de ce point du flux] | Création d’un segment. Ouvre le Créateur de segments, d’où vous pouvez configurer le nouveau segment. |
-| [!UICONTROL Ventilation] | Permet de ventiler le nœud d’après les dimensions, les mesures ou le temps disponibles. |
+| [!UICONTROL Créer un segment pour ce chemin d’accès] | Création d’un segment. Ouvre le Créateur de segments, d’où vous pouvez configurer le nouveau segment. |
+| [!UICONTROL Répartition] | Permet de ventiler le nœud d’après les dimensions, les mesures ou le temps disponibles. |
 | [!UICONTROL Tendance] | Permet de créer un diagramme de tendance pour le nœud. |
+| Afficher la colonne suivante / Afficher la colonne précédente | Affiche la colonne suivante (à droite) ou précédente (à gauche) de la visualisation. |
+| Masquer la colonne | Masque la colonne sélectionnée dans la visualisation. |
 | [!UICONTROL Développer toute la colonne] | Permet de développer une colonne pour afficher tous les nœuds. Par défaut, seuls les cinq premiers nœuds sont présentés. |
-| [!UICONTROL Réduire toute la colonne] | Permet de masquer tous les nœuds d’une colonne. |
-| [!UICONTROL Exclure un élément]/[!UICONTROL Restaurer les éléments exclus] | Supprime un nœud donné de la colonne et le transforme automatiquement en filtre en haut de la colonne. Pour restaurer l’élément exclu, cliquez de nouveau avec le bouton droit de la souris et sélectionnez **[!UICONTROL Restaurer un élément exclu]**. Vous pouvez également ouvrir le filtre en haut de la colonne et supprimer le rectangle contenant l’élément que vous venez d’exclure. |
 
 ## Exemple de scénario de limitation à la première/dernière occurrence
 
