@@ -4,18 +4,14 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 83%
+source-wordcount: '573'
+ht-degree: 87%
 
 ---
 
 # Flux de données Analytics - Aperçu
-
->[!AVAILABILITY]
->
->Certains des types de destinations décrits sur cette page sont dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 Les flux de données sont un moyen puissant d’extraire des données brutes d’Adobe Analytics. Il est possible d’utiliser ces données brutes sur d’autres plateformes en dehors d’Adobe à la discrétion de votre entreprise. Les données sont diffusées sous la forme de lots horaires à la fin de chaque heure ou sous la forme de lots quotidiens à la fin de chaque jour.
 
@@ -61,7 +57,7 @@ Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utilise
 
 ## Étapes suivantes
 
-Une fois que vous avez compris le flux de travail de base permettant d’obtenir des flux de données, vous pouvez travailler avec des équipes au sein de votre entreprise pour stocker ou ingérer les données de base dans une base de données.
+Une fois que vous avez compris le workflow de base permettant d’obtenir des flux de données, vous pouvez travailler avec des équipes au sein de votre entreprise pour stocker ou ingérer les données de base dans une base de données.
 
 * [Bonnes pratiques relatives aux flux de données](/help/export/analytics-data-feed/data-feeds-best-practices.md): Bonnes pratiques pour la création et la gestion des flux de données.
 * [Créer un flux de données](create-feed.md) : informations techniques relatives à la création d’un flux de données, expliquant les champs individuels de manière plus détaillée
