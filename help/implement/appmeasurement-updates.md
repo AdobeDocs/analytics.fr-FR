@@ -3,26 +3,34 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 99%
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
 # Notes de mise à jour d’AppMeasurement pour JavaScript
 
-Notes de mise à jour cumulées pour [!DNL AppMeasurement] pour JavaScript.
+Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Vous pouvez télécharger la dernière version d’AppMeasurement dans le [Gestionnaire de code](/help/admin/admin/code-manager-admin.md).
+Vous pouvez télécharger la dernière version d’AppMeasurement dans la [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.24.0
+
+Date de publication : **18 juillet 2023**
+
+* Ajout d’une configuration facultative (decodeLinkParameters, valeur par défaut false) qui décode les URL de lien qui incluent des caractères codés sur deux octets.
+* Ajout d’une gestion des erreurs supplémentaire pour les navigateurs avec des API User-Agent à forte entropie défectueuses.
+* En-tête Content-Type de POST modifié à utiliser `x-www-form-urlencoded` par défaut.
 
 ## Version 2.23.0
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les périphériques. Vous pouvez configurer des indications du client via des balises ou utiliser l’indicateur « collectHighEntropyUserAgentHints ». La collecte des indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
+* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des indications du client via des balises ou utiliser l’indicateur « collectHighEntropyUserAgentHints ». La collecte des indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
