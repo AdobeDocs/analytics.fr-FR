@@ -3,10 +3,10 @@ title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,11 @@ Regardez une vidéo sur l’interface utilisateur de la gestion des flux de donn
 
 Pour accéder à la gestion des flux de données, procédez comme suit :
 
-1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
-2. Cliquez sur le menu à 9 cases en haut à droite, puis sur [!UICONTROL Analytics].
-3. Dans le menu supérieur, cliquez sur [!UICONTROL Admin] > [!UICONTROL Flux de données].
+1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
+1. Sélectionnez l’icône de 9 carrés dans le coin supérieur droit, puis sélectionnez [!UICONTROL **Analytics**].
+1. Dans la barre de navigation supérieure, accédez à [!UICONTROL **Administration**] > [!UICONTROL **Flux de données**].
 
-![Menu du flux de données](assets/AdminMenu.png)
-
-## Naviguer dans l’interface
+## Navigation dans l’interface
 
 Lorsque vous atteignez la page du gestionnaire des flux de données, l’interface ressemble beaucoup à ce qui suit :
 
@@ -36,27 +34,25 @@ Si aucun flux n’a été défini, la page affiche un bouton [!UICONTROL Créer 
 
 ### Filtres et recherches
 
-Utilisez les filtres et les recherches pour localiser le flux exact que vous recherchez.
+Utilisez la recherche ou les filtres pour localiser un flux spécifique.
 
-Cliquez sur l’icône Filtrer située à l’extrême gauche pour afficher ou masquer les options de filtrage. Les filtres sont organisés par catégorie. Cliquez sur le chevron pour réduire ou développer les catégories de filtrage. Cochez la case pour appliquer ce filtre.
+* Dans le champ de recherche, commencez à saisir le nom d’un flux. Seuls les flux qui correspondent s’affichent dans la liste des flux disponibles.
 
-![Filtrer](assets/filters.jpg)
+* Cliquez sur l’icône Filtrer située à l’extrême gauche pour afficher ou masquer les options de filtrage. Les filtres sont organisés par catégorie. Vous pouvez réduire ou développer des catégories de filtrage. Cochez la case en regard d’un filtre que vous souhaitez appliquer.
 
-Utilisez la recherche pour localiser un flux en fonction de son nom.
-
-![Recherche](assets/search.jpg)
+  ![Filtrer](assets/filters.png)
 
 ### Flux et tâches
 
-Cliquez sur l’onglet Tâche pour afficher les tâches individuelles créées pour chacun de vos flux. Voir [Gestion des tâches relatives aux flux de données](df-manage-jobs.md).
+Sélectionnez la [!UICONTROL **Tâches**] pour afficher les tâches individuelles créées par chacun de vos flux. Voir [Gestion des tâches relatives aux flux de données](df-manage-jobs.md).
 
 ### Ajouter
 
-Cliquez sur le bouton + [!UICONTROL Ajouter] à proximité des onglets des flux et des tâches pour créer un nouveau flux. Voir [Création d’un flux de données](create-feed.md) pour plus d’informations.
+Le [!UICONTROL Ajouter] vous permet de créer un nouveau flux. Voir [Création d’un flux de données](create-feed.md) pour plus d’informations.
 
 ### Colonnes
 
-Chaque flux créé affiche plusieurs colonnes fournissant des informations la concernant. Cliquez sur un en-tête de colonne pour la trier dans l’ordre croissant. Cliquez à nouveau sur ce même en-tête pour trier la colonne dans l’ordre décroissant. Si vous ne parvenez pas à afficher une certaine colonne, cliquez sur l’icône colonne en haut à droite.
+Chaque flux créé affiche plusieurs colonnes fournissant des informations la concernant. Sélectionnez un en-tête de colonne pour le trier par ordre croissant. Sélectionnez à nouveau un en-tête de colonne pour le trier dans l’ordre décroissant. Si vous ne pouvez pas afficher une colonne spécifique, cliquez sur l’icône de colonne en haut à droite.
 
 ![Icône Colonne](assets/cols.jpg)
 

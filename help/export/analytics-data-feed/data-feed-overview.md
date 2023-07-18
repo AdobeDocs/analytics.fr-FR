@@ -4,10 +4,10 @@ keywords: parcours de navigation;flux de données;flux des données;Flux de donn
 title: Flux de données Analytics - Aperçu
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 87%
+source-wordcount: '314'
+ht-degree: 69%
 
 ---
 
@@ -24,40 +24,9 @@ Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utilise
 * Un compartiment configuré sur Amazon S3, Google Cloud Platform, Azure RBAC ou Azure SAS.
 * (Hérité : Requis uniquement pour les types de destination FTP et SFTP hérités) Disposez d’un site FTP et d’informations d’identification (informations d’identification FTP fournies par votre organisation).
 
-## Ressources de flux de données recommandées
-
-1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
-2. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
-3. Dans la barre de navigation en haut de l’écran, accédez à Admin > Flux de données.
-4. Cliquez sur [!UICONTROL Ajouter]. Une nouvelle page comportant les trois catégories principales apparaît : [!UICONTROL Informations sur le flux], [!UICONTROL Destination], et [!UICONTROL Définitions des colonnes de données].
-5. Remplissez les champs [!UICONTROL Informations sur le flux].
-   * Nom : le nom que vous souhaitez, par exemple « Flux de données de test ».
-   * Suite de rapports : sélectionnez la suite de rapports souhaitée.
-   * Envoyer par courrier électronique une fois terminé : saisissez votre adresse e-mail.
-   * Intervalle du flux : sélectionnez l’intervalle souhaité (horaire ou quotidien).
-   * Traitement du délai : peut être laissé sur [!UICONTROL pas de délai].
-   * Dates de début et de fin : sélectionnez une date de début quelques jours auparavant et aujourd’hui comme date de fin.
-6. Remplissez les champs [!UICONTROL Destination].
-   * Type : FTP
-   * Hôte : saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
-   * Chemin d’accès : peut être laissé vide
-   * Nom d’utilisateur : saisissez le nom d’utilisateur pour vous connecter au site FTP.
-   * Mot de passe et mot de passe de confirmation : saisissez le mot de passe de connexion au site FTP.
-7. Remplissez les [!UICONTROL définitions des colonnes de données].
-   * Sélectionnez le dernier modèle &quot;Toutes les Adobe Columns&quot; dans la liste déroulante.
-   * Format de compression : Gzip
-   * Type de groupement : plusieurs fichiers
-   * Manifeste : aucun fichier
-8. Cliquez sur [!UICONTROL Enregistrer] en haut à droite.
-9. Une fois enregistré, le traitement des données historiques commence. Une fois le traitement des données terminé pour une journée, le fichier est placé sur le site FTP.
-10. Connectez-vous au site FTP en utilisant Windows Explorer ou un client FTP dédié.
-11. Téléchargez le fichier de flux de données compressé sur votre machine locale.
-12. Décompressez le fichier comprimé à l’aide d’un programme qui prend en charge les extensions de fichier `.tar.gz`.
-13. Ouvrez le fichier `hit_data.tsv` dans votre application de tableur ou de base de données de votre choix pour afficher les données brutes pour cette journée.
-
 ## Étapes suivantes
 
-Une fois que vous avez compris le workflow de base permettant d’obtenir des flux de données, vous pouvez travailler avec des équipes au sein de votre entreprise pour stocker ou ingérer les données de base dans une base de données.
+Les ressources suivantes vous aident à comprendre le processus de base de l’obtention des flux de données. Une fois que vous avez compris le processus de base, vous pouvez travailler avec des équipes de votre entreprise pour stocker ou ingérer des données brutes dans une base de données.
 
 * [Bonnes pratiques relatives aux flux de données](/help/export/analytics-data-feed/data-feeds-best-practices.md): Bonnes pratiques pour la création et la gestion des flux de données.
 * [Créer un flux de données](create-feed.md) : informations techniques relatives à la création d’un flux de données, expliquant les champs individuels de manière plus détaillée
