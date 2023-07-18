@@ -3,7 +3,7 @@ title: Dernières notes de mise à jour dʼAnalytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
@@ -33,7 +33,7 @@ AN-307816 ; AN-318111 ; AN-318584 ; AN-318828 ; AN-320440 ; AN-320568 ; AN
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
-| Avis | Date d’ajout ou de mise à jour | Description |
+| Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | **Expiration après 37 mois des ID d’achat et d’événement (sérialisation des événements)** | 10 juillet 2023 | Une prochaine version du moteur de traitement des accès Analytics, prévue pour le **13 juillet 2023**, introduit l’expiration après 37 mois des identifiants d’achat et d’événement (sérialisation des événements). Actuellement, les ID d’achat et d’événement n’expirent jamais dans Adobe Analytics. Dès qu’un ID d’achat ou d’événement est affiché ou utilisé, il sera marqué comme un duplicata lors de tout accès ultérieur, peu importe la date. Avec la nouvelle version du moteur de traitement :<ul><li>Les ID d’achat et d’événement expirent toujours après 37 mois.</li><li>Si 37 mois se sont écoulés depuis que l’ID d’achat ou d’événement a été affiché, il n’est plus considéré comme un duplicata d’achat ou d’événement.</li><li> Si vous « réutilisez » les ID d’achat ou d’événement datant de plus de 37 mois, ils ne sont plus considérés comme des duplicatas.</li></ul> |
 | **Migration vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O** | 11 mai 2023 | Les clients et clientes de l’API Adobe Analytics et de Livestream qui utilisent les informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O avant le **1er janvier 2025**. Pour en savoir plus et connaître le calendrier, consultez l’avis de fin de vie dans le tableau ci-dessous. |
@@ -53,7 +53,7 @@ AN-307816 ; AN-318111 ; AN-318584 ; AN-318828 ; AN-320440 ; AN-320568 ; AN
 
 ## AppMeasurement
 
-Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.23.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
+Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.24.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
 
 
 ## Ressources connexes
