@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
 source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -261,7 +261,7 @@ ht-degree: 99%
    + [Planification d’un classeur](report-builder/t-schedule-a-data-request.md)
    + [Gestionnaires des tâches planifiées](report-builder/r-arb-scheduled-reports.md)
    + Bibliothèque des classeurs {#workbook-library}
-      + [Transfert d’un classeur](report-builder/workbook-library/t-upload-a-workbook.md)
+      + [Chargement d’un classeur](report-builder/workbook-library/t-upload-a-workbook.md)
       + [Téléchargement d’un classeur](report-builder/workbook-library/t-download-a-workbook.md)
       + [Verrouillez/déverrouillez des classeurs](report-builder/workbook-library/protect-wb.md)
       + [Planification de classeurs prenant en charge les macros](report-builder/workbook-library/schedule-macro-wb.md)
@@ -323,7 +323,7 @@ ht-degree: 99%
    + Personnalisation des rapports {#customize-reports}
       + [Personnalisation des rapports - Aperçu](reports-analytics/reports-customize/customizing-reports-overview.md)
       + [Modification des graphiques des rapports](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [Ventilations](reports-analytics/reports-customize/breakdowns.md)
+      + [Répartitions](reports-analytics/reports-customize/breakdowns.md)
       + [Sous-relations](reports-analytics/reports-customize/subrelations.md)
       + [Filtrage des données de rapport](reports-analytics/reports-customize/t-reports-filter-options.md)
    + [Segmentation Analytics](reports-analytics/segmentation.md)
