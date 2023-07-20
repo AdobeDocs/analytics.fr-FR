@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2023** | |
+| Limite de taille FTP mise à jour | Modification de la valeur par défaut de [Limite de stockage des données FTP](/help/export/ftp-and-sftp/ftp-limits.md), désormais définie sur 100 Go. |
 | Nouvelle variable AppMeasurement | La variable `decodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/decodelinkparameters.md) |
 | **Juin 2023** | |
 | Nouvelles fonctionnalités pour les jeux de classifications | Les [jeux de classifications](/help/components/classifications/sets/overview.md) ont été mis à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation** : combinez des jeux de classifications en un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans Customer Journey Analytics. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles** : classifiez automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Import automatisé** : importez automatiquement les données de classification à partir des destinations d’espace de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
@@ -59,7 +60,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Février 2023** | |
 | Implémentation | Contenu mis à jour sur la manière d’[implémenter Adobe Analytics pour le web et les appareils mobiles](../implement/home.md). |
 | Calendriers et périodes de Workspace | Contenu mis à jour pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’IU du calendrier. Voir [À propos des périodes relatives du panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) en Customer Journey Analytics. |
+| Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans Customer Journey Analytics. |
 | API 1.4 | L’[API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a été complètement réécrite et est désormais publiée sur Adobe Developer. |
 | Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/use-cases/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
 | **Janvier 2023** | |
