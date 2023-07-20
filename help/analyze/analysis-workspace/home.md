@@ -4,10 +4,10 @@ description: Analysis Workspace est l’outil d’analyse principal d’Adobe An
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 33%
+source-wordcount: '760'
+ht-degree: 34%
 
 ---
 
@@ -77,6 +77,10 @@ Après avoir compris la terminologie des composants, vous pouvez faire glisser d
 Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices, et aux administrateurs et administratrices, de suivre et de mieux comprendre les composants dans leur environnement Analytics.
 
 Pour en savoir plus sur le dictionnaire de données, voir [Présentation du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).
+
+### Sources de données
+
+Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation. Plus d’informations sur la manière dont vous pouvez [gestion des sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Commencer à utiliser Analysis Workspace
 

@@ -3,16 +3,18 @@ title: Pages vues
 description: Nombre de fois où un élément de dimension a été défini ou conservé dans Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 33%
+source-wordcount: '197'
+ht-degree: 18%
 
 ---
 
 # Pages vues
 
-La mesure « Pages vues » indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
+Le **[!UICONTROL Pages vues]** mesure indique le nombre de fois où un élément de dimension donné (valeur de dimension) a été défini ou conservé (c’est-à-dire lorsqu’il expire) sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
+
+Par exemple, la variable [!UICONTROL Jours de la semaine] est composée des éléments de dimension suivants : Dimanche, lundi, mardi, mercredi, jeudi, vendredi et samedi.
 
 ## Méthode de calcul de cette mesure
 
@@ -20,5 +22,5 @@ Cette mesure comptabilise tous les appels de suivi de page vue ([`t()`](/help/im
 
 ## Comparaison avec des mesures similaires
 
-* **Pages vues par rapport à [Visites](visits.md)**: Les pages vues comptabilisent le nombre de fois où une page est consultée. Les visites comptabilisent le nombre de sessions des visiteurs. Une visite consiste en une ou plusieurs pages vues.
+* **Pages vues par rapport à [Visites](visits.md)**: Les pages vues comptabilisent le nombre de fois où une page est consultée. Les visites comptabilisent le nombre de sessions des visiteurs. Une visite peut être composée d’une ou de plusieurs pages vues.
 * **Pages vues par rapport à [Événements de page](page-events.md)**: Les pages vues comptabilisent le nombre d’appels de suivi de pages vues (`t()`) et exclut les appels de suivi des liens (`tl()`). Les événements de page sont l’inverse. ils comptabilisent le nombre d’appels de suivi de liens et excluent les appels de suivi de pages vues.

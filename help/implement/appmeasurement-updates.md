@@ -3,7 +3,7 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [
 
 Date de publication : **18 juillet 2023**
 
-* Ajout d’une configuration facultative (`decodeLinkParameters` false par défaut) qui décode les URL de lien contenant des caractères codés sur deux octets.
+* Ajout d’une configuration facultative (`decodeLinkParameters` - default = false) qui décode les URL de lien contenant des caractères codés sur deux octets.
 * Ajout d’une gestion des erreurs supplémentaire pour les navigateurs avec des API User-Agent à forte entropie défectueuses.
 * En-tête Content-Type de POST modifié à utiliser `x-www-form-urlencoded` par défaut.
 
