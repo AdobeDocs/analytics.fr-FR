@@ -3,10 +3,10 @@ description: Les API de services Web offrent un accès par programmation à des 
 title: Services web
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 Les API de services Web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de la société]** > **[!UICONTROL Services web]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de la société]** > **[!UICONTROL Services web]** ou **Accès API**
 
-## Gestion des services web
+
+## API Analytics 2.0
+
+Pour accéder aux API Analytics 2.0, vous aurez besoin de l’ID de société globale de votre société Analytics. Vous pouvez trouver l’ID de société globale dans laquelle vous êtes actuellement connecté. **gras** dans cette section.
+
+## Gérer les services Web hérités (obsolète)
 
 Dans [Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), vous pouvez mettre à jour les autorisations afin d’inclure les utilisateurs qui doivent accéder aux API des services web.
 
