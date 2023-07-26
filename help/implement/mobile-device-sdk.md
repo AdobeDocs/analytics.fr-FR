@@ -3,16 +3,16 @@ title: Mise en œuvre d’Analytics pour les appareils mobiles
 description: Déterminez la bibliothèque AppMeasurement mobile à utiliser.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 86b6b5b8fc406bab0634997b0297d44c82c636fe
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 78%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
 # Mise en œuvre d’Analytics pour les appareils mobiles
 
-Pour mettre en œuvre Analytics pour les appareils mobiles, consultez les référentiels et à la documentation SDK suivants :
+Pour mettre en oeuvre Analytics pour les appareils mobiles, utilisez le SDK Adobe Experience Platform Mobile. Voir [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md) pour plus d’informations.
 
 ## SDK mobiles d’Adobe Experience Platform
 
