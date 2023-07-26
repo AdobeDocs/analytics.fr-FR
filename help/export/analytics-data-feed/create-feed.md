@@ -3,9 +3,9 @@ title: Création d’un flux de données
 description: Découvrez comment créer un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3122'
 ht-degree: 21%
 
 ---
@@ -16,7 +16,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
 * Informations sur la destination vers laquelle vous souhaitez envoyer les fichiers de données brutes.
 
-* Les données que vous souhaitez inclure dans chaque fichier
+* Les données à inclure dans chaque fichier
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
    | [!UICONTROL **Nom**] | Nom du flux de données. Doit être unique au sein de la suite de rapports sélectionnée et peut comporter jusqu’à 255 caractères. |
    | [!UICONTROL **Suite de rapports**] | Suite de rapports sur laquelle le flux de données est basé. Si plusieurs flux de données sont créés pour une même suite de rapports, ils doivent avoir des définitions de colonne différentes. Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge. |
    | [!UICONTROL **Envoyer un courrier électronique à la fin**] | L’adresse électronique à laquelle envoyer une notification lorsqu’un flux termine le traitement. L’adresse e-mail doit être correctement formatée. |
-   | [!UICONTROL **Intervalle du flux**] | Sélectionner **Quotidien** pour les données de renvoi ou historiques. Les flux quotidiens contiennent l’équivalent d’une journée complète de données, de minuit à minuit, dans le fuseau horaire de la suite de rapports.  Sélectionner **Horaire** pour les données continues (le quotidien est également disponible pour les flux continus si vous préférez). Les flux horaires contiennent l’équivalent d’une seule heure de données. |
+   | [!UICONTROL **Intervalle du flux**] | Sélectionner **Qualité** pour les données de renvoi ou historiques. Les flux quotidiens contiennent l’équivalent d’une journée complète de données, de minuit à minuit, dans le fuseau horaire de la suite de rapports.  Sélectionner **Horaire** pour les données continues (le quotidien est également disponible pour les flux continus si vous préférez). Les flux horaires contiennent l’équivalent d’une seule heure de données. |
    | [!UICONTROL **Traitement du délai**] | Patientez un certain temps avant de traiter un fichier de flux de données. Il peut être utile de mettre en place un délai pour donner aux appareils hors ligne la possibilité de se connecter et d’envoyer leurs données dans le cadre d’implémentations mobiles. Il est également possible d’utiliser un délai pour adapter les processus côté serveur de votre entreprise en ce qui concerne la gestion des fichiers traités précédemment. Dans la plupart des cas aucun délai n’est nécessaire. Un flux peut être se voir attribuer un délai pouvant aller jusqu’à 120 minutes. |
    | [!UICONTROL **Dates de début et de fin**] | La date de début indique la première date à laquelle vous souhaitez un flux de données. Définissez cette date dans le passé pour commencer immédiatement à traiter les flux de données des données historiques. Le traitement du flux se poursuit jusqu’à ce que la date de fin soit atteinte. Les dates de début et de fin sont définies en fonction du fuseau horaire de la suite de rapports. |
    | [!UICONTROL **Flux continu**] | Cette case à cocher supprime la date de fin, ce qui permet à un flux de s’exécuter indéfiniment. Lorsqu’un flux termine le traitement de données historiques, un flux attend la fin de la collecte des données pour une heure ou un jour donné. Une fois l’heure ou le jour en question terminé, le traitement commence après le délai indiqué. |
@@ -114,7 +114,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification, puis accordez des autorisations d’accès dans le contrôle d’accès (IAM).
 
-      Pour plus d’informations, reportez-vous à la section [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans la console d’administration d’Adobe Analytics, dans le [!UICONTROL **Destination**] , sélectionnez [!UICONTROL **Azure RBAC**].
 
@@ -174,7 +174,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification.
 
-      Pour plus d’informations, reportez-vous à la section [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans la console d’administration d’Adobe Analytics, dans le [!UICONTROL **Destination**] , sélectionnez [!UICONTROL **Azure SAS**].
 
@@ -237,7 +237,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    1. Dans la console d’administration d’Adobe Analytics, dans le [!UICONTROL **Destination**] , sélectionnez [!UICONTROL **Google Cloud Platform**].
 
-      ![Destination de la plateforme Google Cloud](assets/datafeed-destination-gcp.png)
+      ![Destination Google Cloud Platform](assets/datafeed-destination-gcp.png)
 
    1. Sélectionner [!UICONTROL **Sélectionner un emplacement**].
 
@@ -262,7 +262,6 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Nom du compte**] | Nom du compte. Il peut s’agir de n’importe quel nom de votre choix. |
          | [!UICONTROL **Description du compte**] | Description du compte. |
          | [!UICONTROL **Identifiant du projet**] | Identifiant de projet Google Cloud. Voir [Documentation de Google Cloud sur l’obtention d’un ID de projet](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
-         | [!UICONTROL **Principal**] | L’entité de sécurité est fournie par Adobe. Vous devez accorder l’autorisation à cette entité de sécurité pour recevoir des flux. Voir [Documentation de Google Cloud sur l’ajout d’une entité à une stratégie](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-iam). |
 
          {style="table-layout:auto"}
 
@@ -317,10 +316,11 @@ Les informations suivantes fournissent des informations de configuration pour ch
 Les données de flux de données peuvent être diffusées vers un emplacement FTP hébergé par un Adobe ou par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
 
 Renseignez les informations suivantes lorsque vous renseignez les champs disponibles :
-* [!UICONTROL **Hôte**]: Saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
-* [!UICONTROL **Chemin**]: Peut être laissé vide
-* [!UICONTROL **Nom d’utilisateur**]: Saisissez le nom d’utilisateur pour vous connecter au site FTP.
-* [!UICONTROL **Mot de passe et confirmation du mot de passe**]: Saisissez le mot de passe pour vous connecter au site FTP.
+
+* [!UICONTROL **Hôte**]: saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
+* [!UICONTROL **Chemin**]: peut rester vide.
+* [!UICONTROL **Nom d’utilisateur**]: saisissez le nom d’utilisateur pour vous connecter au site FTP.
+* [!UICONTROL **Mot de passe et confirmation du mot de passe**]: saisissez le mot de passe de connexion au site FTP.
 
 ### SFTP
 
@@ -338,7 +338,7 @@ L’utilisateur pour lequel vous chargez des flux de données doit disposer des 
 
   >[!NOTE]
   >
-  >Pour chaque chargement vers un compartiment Amazon S3, [!DNL Analytics] ajoute le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl, que le compartiment ait ou non une politique qui le requiert. Pour plus d’informations, voir[Qu’est-ce que le paramètre BucketOwnerFullControl pour les flux de données Amazon S3 ?](df-faq.md#BucketOwnerFullControl)&quot;
+  >Pour chaque chargement vers un compartiment Amazon S3, [!DNL Analytics] ajoute le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl, que le compartiment ait ou non une politique qui le requiert. Pour plus d’informations, voir &quot;[Qu’est-ce que le paramètre BucketOwnerFullControl pour les flux de données Amazon S3 ?](df-faq.md#BucketOwnerFullControl)&quot;
 
 Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’algorithme de signature approprié si nécessaire) :
 
