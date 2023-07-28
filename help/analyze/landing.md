@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 | Nouveaux liens vers les rapports **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages Robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
 | Nouveaux rapports prêts à l’emploi | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de la page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports sont au format [!UICONTROL Espace de travail] et doivent être configurés et générés. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, d’une visualisation des [!UICONTROL Flux] et bien plus encore. Vous pouvez modifier ces rapports et changer de dimension, d’élément de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux dans les panneaux de l’espace de travail. | ![Page suivante](assets/next-page.png) |
 | Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
-| Également disponible dans Customer Journey Analytics | Cette landing page, sous une forme modifiée, est également disponible en Customer Journey Analytics. |  |
+| Également disponible dans Customer Journey Analytics | Cette page de destination est également disponible dans Customer Journey Analytics, mais dans un autre format. |  |
 
 {style="table-layout:auto"}
 
@@ -101,28 +101,28 @@ Un autre cas d’utilisation pour les administrateurs consiste à gérer les rap
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
-Le [!UICONTROL Rapports] regroupe les ensembles de rapports suivants :
+Lʼonglet [!UICONTROL Rapports] regroupe trois jeux de rapports :
 
 * Les modèles [!UICONTROL Espace de travail] préconfigurés qui se trouvaient auparavant sous [!UICONTROL Espace de travail] > [!UICONTROL Projet] > [!UICONTROL Nouveau]. Adobe nʼutilise plus le terme « modèle » dans ce contexte.
 * La plupart des rapports préconfigurés de lʼancien menu supérieur [!UICONTROL Rapports] Adobe Analytics. Ces rapports sʼaffichent désormais dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr).
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de l’utilisation de rapports :
+>Tenez compte des points suivants lors de l’utilisation des rapports :
 >* Sous Rapports, un dossier Favoris sʼaffiche uniquement si vous marquez un nouveau rapport comme favori. Aucun favori Reports &amp; Analytics préexistant nʼest conservé.
->* Seuls les rapports les plus couramment utilisés qui étaient auparavant regroupés dans Reports &amp; Analytics sont disponibles. Une poignée de rapports rarement utilisés ou plus pertinents ne sont plus disponibles. Voir [FAQ sur la landing page](#landing-page-faq) ci-dessous pour plus d’informations.
+>* Seuls les rapports les plus couramment utilisés, qui étaient auparavant regroupés dans Reports &amp; Analytics, sont disponibles. Une poignée de rapports rarement utilisés ou qui ne sont plus pertinents ne sont plus disponibles. Voir [Questions fréquentres sur les pages de destination](#landing-page-faq) ci-dessous pour plus d’informations.
 
 ![Onglet Rapports](assets/reports-tab2.png)
 
 
-### Affichage des rapports {#menus}
+### Afficher les rapports {#menus}
 
-1. Accédez à l’onglet [!UICONTROL **Rapports**]
-1. Utilisez le champ de recherche pour rechercher un rapport spécifique.
+1. Accédez à l’onglet [!UICONTROL **Rapports**].
+1. Utilisez le champ de recherche pour rechercher un rapport particulier.
 
-   OU
+   Ou
 
-   Accédez au rapport à afficher.
+   Accédez au rapport que vous souhaitez afficher.
 
    Les rapports suivants sont disponibles :
 
@@ -134,43 +134,43 @@ Le [!UICONTROL Rapports] regroupe les ensembles de rapports suivants :
    | **[!UICONTROL Audience]** | <ul><li>Mesure relative aux personnes (combien de personnes interagissent avec ma marque ?)</li><li>Profil du visiteur > Aperçu de lʼemplacement (quels sont les emplacements qui génèrent le plus dʼutilisation parmi les utilisateurs ?)</li><li>Profil du visiteur > Segmentation géographique > Départements, états américains, régions, villes, DMA États-Unis (dʼoù mes utilisateurs viennent-ils ?)</li><li>Profil du visiteur > Langues (quelle langue mes utilisateurs préfèrent-ils ?)</li><li>Profil du visiteur > Fuseaux horaires (quels sont les fuseaux horaires de mes visiteurs ?)</li><li>Profil du visiteur > Domaines (quels FAI mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Domaines de niveau supérieur (quels domaines génèrent du trafic sur mon site ?)</li><li>Profil du visiteur > Technologie > Aperçu des technologies (quelles technologies mes visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Profil du visiteur > Technologie > Navigateurs, type de navigateur, largeur du navigateur, hauteur du navigateur (quelles sont lʼentreprise propriétaire, la version, la largeur et la hauteur du navigateur utilisé par les personnes qui accèdent à mon site ?)</li><li>Profil du visiteur > Technologie > Système dʼexploitation, types de systèmes dʼexploitation (quel système dʼexploitation et quelle version les visiteurs utilisent-ils ?)</li><li>Profil du visiteur > Technologie > Opérateur de téléphonie mobile (quels opérateurs de téléphonie mobile les visiteurs utilisent-ils pour accéder à mon site ?)</li><li>Rétention des visiteurs > Fréquence des retours (combien de temps sʼécoule-t-il entre la visite actuelle de mon utilisateur et ses visites précédentes ?)</li><li>Rétention des visiteurs > Visites récurrentes (combien de mes visites concernent des utilisateurs ayant précédemment accédé à mon site ?)</li><li>Rétention des visiteurs > Nombre de visites (quel nombre de visites génère-t-il la plupart de mes mesures clés ?)</li><li>Rétention des visiteurs > Cycle de vente > Fidélisation des clients (à quel segment de fidélité appartiennent mes utilisateurs ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours avant le premier achat (combien de jours se sont écoulés entre la première visite de mes utilisateurs et leur premier achat ?)</li><li>Rétention des visiteurs > Cycle de vente > Jours depuis le dernier achat (combien de jours se sont écoulés entre la visite actuelle de mes utilisateurs et leur dernier achat ?) )</li><li>Rétention des visiteurs > Mobile > Appareils et types dʼappareils (quels appareils et types dʼappareils mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Fabricant (quel fabricant d’appareil mobile mes visiteurs utilisent-ils ?)</li><li>Rétention des visiteurs > Mobile > Taille dʼécran, hauteur dʼécran, largeur dʼécran (quelle est la taille, la hauteur et la largeur de lʼécran mobile de mes visiteurs ?)</li><li>Rétention des visiteurs > Mobile > [Utilisation des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Parcours sur les application mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Mesures dʼapplications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Messages sur les applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Performances des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>Rétention des visiteurs > Mobile > [Rétention des applications mobiles](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li></ul> |
    | **[!UICONTROL Acquisition]** | <ul><li>Canaux marketing > Canal Première touche, détails du canal Première touche (quel canal Première touche, et quel canal Première touche spécifique est le plus performant ?)</li><li>Canaux marketing > Canal Dernière touche, détails du canal Dernière touche (quel canal Dernière touche, et quel canal Dernière touche spécifique est le plus performant ?)</li><li>Campagnes > Campagnes (quelles campagnes génèrent mes mesures clés ?)</li><li>Campagnes > Performances de la campagne (quelles campagnes génèrent le plus de chiffre d’affaires ?)</li><li>Campagnes > Code de suivi (quels sont les codes de suivi de campagne les plus performants ?)</li><li>[Acquisition web](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#web)</li><li>[Acquisition mobile](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#mobile)</li><li>[Advertising Analytics : référencement payant](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=fr#advertising)</li><li>Mots-clés de recherche - tous, payants, naturels (quels mots-clés de recherche et mots-clés de référencement payant/naturel offrent les meilleures performances pour mes mesures clés ?)</li><li>Moteurs de recherche - tous, payants, naturels (quels sont les moteurs de recherche et les moteurs de référencement payant/naturel qui offrent les meilleures performances pour mes mesures clés ?)</li><li>Classement de toutes les pages de recherche (de quelle page de recherche mes utilisateurs proviennent-ils ?)</li><li>Domaines référents (quels domaines génèrent du trafic sur mon site ?)</li><li>Domaines référents d’origine (sur quel premier domaine les utilisateurs se trouvaient-ils avant de visiter mon site ?)</li><li>Référents (sur quelles URL mes visiteurs se trouvaient-ils avant de naviguer vers mon site ?)</li><li>Types de référents (à quelle catégorie mes URL de référence appartiennent-elles ?)</li></ul> |
 
-### Affichage et enregistrement d’un rapport {#use-reports}
+### Afficher et enregistrer un rapport {#use-reports}
 
-Si vous quittez un rapport après avoir apporté des modifications, vous êtes invité à enregistrer ou ignorer vos modifications. L’enregistrement des modifications dans un rapport enregistre le rapport en tant que nouveau projet.
+Si vous quittez un rapport après avoir apporté des modifications, nous vous demandons d’enregistrer ou d’ignorer vos modifications. L’enregistrement des modifications dans un rapport enregistre le rapport en tant que nouveau projet.
 
-1. Accédez à l’onglet [!UICONTROL **Rapports**]
-1. Sélectionnez le rapport à afficher. Par exemple, sous [!UICONTROL **Le plus populaire**], sélectionnez la variable [!UICONTROL **Pages**] rapport.
+1. Accédez à l’onglet [!UICONTROL **Rapports**].
+1. Sélectionnez le rapport à afficher, par exemple sous [!UICONTROL **Les plus populaires**], sélectionnez le rapport [!UICONTROL **Pages**].
 
    ![Rapport Pages](assets/pages-report.png)
 
 1. Le rapport Pages, comme affiché dans Analysis Workspace, affiche deux [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([Graphique à barres](/help/analyze/analysis-workspace/visualizations/bar.md) et [Numéro de la synthèse](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) ainsi qu’un [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). La mesure utilisée est Occurrences.
-1. Effectuez l’une des opérations suivantes :
+1. Effectuez l’une des opérations suivantes :
 
    * Affichez le rapport.
-   * Faites glisser un ou plusieurs segments dans la zone de dépôt Segment située en haut. Par exemple, faites glisser le segment. [!UICONTROL **Clients mobiles**] et afficher les résultats.
+   * Faites glisser un ou plusieurs segments dans la zone de dépôt de segments située en haut. Par exemple, faites glisser le segment [!UICONTROL **Clients mobiles**] et observez les résultats.
    * Modifiez la période en accédant au calendrier en haut à droite.
-   * Ajoutez des ventilations de dimension, faites glisser d’autres mesures et personnalisez généralement le rapport selon vos besoins.
+   * Ajoutez des répartitions de dimension, faites glisser d’autres mesures et personnalisez généralement le rapport selon vos besoins.
 
-1. (Facultatif) Enregistrez le rapport en tant que projet en sélectionnant [!UICONTROL **Projet**] > [!UICONTROL **Enregistrer**].
+1. (Facultatif) Enregistrez le rapport en tant que projet en sélectionnant [!UICONTROL **Projet**] > [!UICONTROL **Enregistrer**].
 
-   Le rapport est ainsi enregistré comme un nouveau projet ; il ne modifie pas le rapport existant. Pour plus d’informations sur l’enregistrement d’un rapport en tant que projet, voir &quot;Création d’un projet à partir d’un projet vierge ou d’un rapport&quot; dans [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Le rapport est ainsi enregistré comme nouveau projet. Le rapport existant n’est pas modifié. Pour plus d’informations sur l’enregistrement d’un rapport en tant que projet, voir « Créer un projet à partir d’un projet vierge ou d’un rapport » dans [Créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 ### Créer un rapport d’entreprise personnalisé {#company-report}
 
 Les rapports personnalisés créés et enregistrés pour être utilisés par d’autres membres de votre société de connexion sont appelés des rapports d’entreprise. Les rapports d’entreprise précédemment créés et les rapports d’entreprise nouvellement créés sont répertoriés dans la fenêtre modale Créer un projet, comme illustré ci-dessous.
 
-Pour créer un rapport Société :
+Pour créer un rapport d’entreprise, procédez comme suit :
 
-1. Créez un projet dans Analysis Workspace à l’état souhaité.
-1. Sélectionner [!UICONTROL **Projet**] > **[!UICONTROL Enregistrer comme rapport de société...]**.
+1. Créez un projet dans Analysis Workspace à l’état souhaité.
+1. Sélectionnez [!UICONTROL **Projet**] > **[!UICONTROL Enregistrer comme rapport d’entreprise…]**.
 
-   ![Rapport sur la société](assets/company-report.png)
+   ![Rapport d’entreprise](assets/company-report.png)
 
-1. Mettez à jour le nom du rapport, ajoutez une description, ajoutez des balises, puis sélectionnez [!UICONTROL **Enregistrer en tant que rapport d’entreprise**].
+1. Mettez à jour le nom du rapport, ajoutez une description, ajoutez des balises, puis sélectionnez [!UICONTROL **Enregistrer comme rapport d’entreprise**].
 
-   Le rapport est ajouté à la liste Rapports d’entreprise dans le modal Créer un projet et est disponible pour les utilisateurs de votre société de connexion.
+   Le rapport est ajouté à la liste Rapports d’entreprise dans la fenêtre modale Créer un projet. Il est alors disponible auprès des utilisateurs et utilisatrices de votre société de connexion.
 
-   Pour plus d’informations sur la manière dont les utilisateurs peuvent créer un projet à partir d’un rapport d’entreprise, voir &quot;Création d’un projet à partir d’un projet vierge ou d’un rapport&quot; dans [Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent créer un projet à partir d’un rapport d’entreprise, voir « Créer un projet à partir d’un projet vierge ou d’un rapport » dans [Créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
 
 Autres options de formation :
 
@@ -179,14 +179,14 @@ Autres options de formation :
 * Voici un lien vers la [documentation complète d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).
 * Voici l’intégralité de la [liste de lecture YouTube pour Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
-### Gestion des rapports d’entreprise {#manage-company-reports}
+### Gérer des rapports d’entreprise {#manage-company-reports}
 
-Les administrateurs peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
+Les administrateurs et administratrices peuvent filtrer la liste des projets pour afficher et gérer les rapports d’entreprise. Les éléments épinglés restent épinglés, suivis de la liste des rapports d’entreprise identifiés par l’icône de rapport ![icône de rapport](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg). Dans cet affichage, vous pouvez supprimer, renommer, baliser ou approuver un ou plusieurs rapports.
 
 Afficher et gérer les rapports d’entreprise
 
 1. Dans le rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Rapports d’entreprise**.
-Une liste des rapports d’entreprise s’affiche. Tous les projets standard, à moins qu’ils ne soient épinglés, ne s’affichent pas.
+Une liste des rapports d’entreprise s’affiche. Aucun projet standard ne s’affiche sauf ceux épinglés.
 
    ![Affichage des filtres des rapports d’entreprise](assets/company-reports-filter.png)
 
@@ -236,24 +236,24 @@ Les administrateurs peuvent supprimer un rapport à l’aide de l’option de la
 | Advertising Analytics : référencement payant | Acquisition > Advertising Analytics : référencement payant |
 
 
-## Utilisation de l’onglet Apprentissage {#navigate-learning}
+## Utiliser l’onglet Formation {#navigate-learning}
 
-La page Apprentissage contient des vidéos, des tutoriels et des liens vers la documentation.
+La page Formation contient des visites guidées vidéo et des tutoriels pratiques, ainsi que des liens vers la documentation.
 
-Utilisez la page Formation d’Adobe Analytics pour découvrir des fonctionnalités et des cas pratiques pour débutants, intermédiaires ou avancés dans Adobe Analytics.
+Utilisez la page Formation d’Adobe Analytics pour découvrir des fonctionnalités et des cas pratiques pour les niveaux débutant, intermédiaire ou avancé dans Adobe Analytics.
 
-### Accès à la page Formation
+### Accéder à la page Formation
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Workspace**] > [!UICONTROL **Formation**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Workspace**] > [!UICONTROL **Formation**].
 
-### Fonctionnalités de la page d’apprentissage
+### Fonctionnalités de la page Formation
 
-* **Filtrer le contenu :** L’icône Filtrer dans le rail de gauche permet de filtrer le contenu d’apprentissage par niveau d’expérience (débutant, intermédiaire ou avancé) et par type de contenu (document, vidéo ou parcours et tutoriels).
-* **Suivi de la progression :** Après avoir sélectionné un élément de contenu, une **[!UICONTROL Consulté]** s’affiche. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez sélectionner la variable **[!UICONTROL Consulté]** pour la supprimer d’un élément de contenu.
-* **Afficher le contenu supplémentaire :** Lors de l’affichage d’une vidéo, sélectionnez l’option **[!UICONTROL En savoir plus]** pour afficher le contenu de la documentation associée sur Experience League. Ou, dans la page Apprentissage, sélectionnez l’une des options suivantes pour afficher du contenu supplémentaire :
-   * **[!UICONTROL Visite YouTube]:** Affichez la liste de lecture complète d’Analysis Workspace YouTube.
-   * [!UICONTROL **Visite d’Experience League**]: Consultez la suite complète de la documentation Adobe Analytics sur Experience League.
-* **Principes fondamentaux pour les nouveaux utilisateurs :** Le [!UICONTROL Principes de base de Workspace] est recommandé pour les nouveaux utilisateurs. Cette présentation vous emmène directement dans Workspace et vous guide tout au long des actions les plus courantes. Cette présentation peut également être relancée à tout moment dans Workspace via la fenêtre contextuelle d’info-bulle de l’en-tête du panneau.
+* **Filtrer le contenu :** l’icône Filtrer dans le rail de gauche permet de filtrer le contenu de formation par niveau d’expérience (débutant, intermédiaire ou avancé) et par type de contenu (document, vidéo, visites guidées et tutoriels).
+* **Suivre la progression :** après avoir sélectionné un élément de contenu, une étiquette **[!UICONTROL Consulté]** s’affiche. Cette étiquette vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez sélectionner l’étiquette **[!UICONTROL Consulté]** pour la supprimer d’un élément de contenu.
+* **Afficher du contenu supplémentaire :** lorsque vous regardez une vidéo, sélectionnez le bouton **[!UICONTROL En savoir plus]** pour afficher le contenu de la documentation associée sur Experience League. Ou, dans la page Formation, sélectionnez l’une des options suivantes pour afficher du contenu supplémentaire :
+   * **[!UICONTROL Visiter YouTube] :** affichez la playlist YouTube complète d’Analysis Workspace.
+   * [!UICONTROL **Visiter Experience League**] : consultez la suite complète de la documentation Adobe Analytics sur Experience League.
+* **Principes fondamentaux pour les nouveaux utilisateurs et les nouvelles utilisatrices :** la visite guidée sur les [!UICONTROL Principes fondamentaux de Workspace] est recommandée pour les nouveaux utilisateurs et les nouvelles utilisatrices. Cette visite guidée vous emmène directement dans Workspace et vous accompagne tout au long des actions les plus courantes. Cette visite peut également être relancée à tout moment dans Workspace, via la fenêtre pop-over de l’infobulle qui se trouve dans l’en-tête du panneau.
 
 ## Définir la page de destination {#set-landing}
 
