@@ -4,9 +4,9 @@ title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** doit être utilisé :
 
-* Si vous souhaitez incorporer des données d’audience Adobe Audience Manager telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des informations psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel processus Analytics.
+* Si vous souhaitez incorporer des données d’audience Adobe Audience Manager telles que des données démographiques (par exemple, le sexe ou le niveau de revenu), des données psychographiques (par exemple, les centres d’intérêt et les loisirs), des données de gestion de la relation client ou des données d’impression publicitaire dans n’importe quel workflow d’Analytics.
 * Si vous souhaitez que les données de gestion de la relation client téléchargées soient basées sur le temps, car cette intégration envoie de nouvelles informations à Analytics après chaque accès.
 
 ## Exportation de données depuis Adobe Analytics  {#export}
@@ -120,7 +120,7 @@ Les services d’ingénierie doivent être utilisés lorsque :
 * Les autres outils Adobe ne répondent pas à vos besoins.
 * Vous voulez une expérience personnalisée.
 * Vous voulez une solution entièrement automatisée.
-* Vous voulez atteindre plusieurs dispositifs.
+* Vous voulez atteindre plusieurs appareils.
 * Vous disposez de plusieurs sources de données.
 * Vous êtes contraint par des exigences ETL (Extract-Transform-Load) de données complexes.
 * Vous voulez une valorisation de marque personnalisée.
