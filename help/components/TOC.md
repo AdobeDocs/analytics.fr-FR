@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 88%
    + [Villes](dimensions/cities.md)
    + [Profondeur de couleur](dimensions/color-depth.md)
    + [Type de connexion](dimensions/connection-type.md)
-   + [Accord préalable de la gestion du consentement](dimensions/cm-opt-in.md)
-   + [Désinscription de la gestion du consentement](dimensions/cm-opt-out.md)
+   + [Gestion du consentement – Opt-in](dimensions/cm-opt-in.md)
+   + [Gestion du consentement – Opt-out](dimensions/cm-opt-out.md)
    + [Prise en charge des cookies](dimensions/cookie-support.md)
    + [Pays](dimensions/countries.md)
    + [Lien personnalisé](dimensions/custom-link.md)
@@ -113,7 +113,7 @@ ht-degree: 88%
    + [Durée de session moyenne](metrics/average-session-length.md)
    + [Temps moyen passé sur le site](metrics/average-time-on-site.md)
    + [Occurrences du robot](metrics/bot-occurrences.md)
-   + [Pages vues de robots](metrics/bot-page-views.md)
+   + [Vues de page robot](metrics/bot-page-views.md)
    + [Taux de rebond](metrics/bounce-rate.md)
    + [Rebonds](metrics/bounces.md)
    + [Ajouts au panier](metrics/cart-additions.md)
@@ -186,9 +186,9 @@ ht-degree: 88%
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Création de mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Création d’une mesure « Pages vues par visite »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Création d’une mesure &quot;Aide à la commande&quot;](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Création d’une mesure « Participation »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Créer une mesure « Pages vues par visite »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Créer une mesure « Aide à la commande »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Créer une mesure « Participation »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -235,23 +235,23 @@ ht-degree: 88%
 + Classifications {#classifications}
    + [Présentation des classifications](classifications/c-classifications.md)
    + Jeux de classifications {#sets}
-      + [Présentation des jeux de classifications](classifications/sets/overview.md)
+      + [Vue d’ensemble des jeux de classifications](classifications/sets/overview.md)
       + Gestion des jeux de classifications {#manage}
-         + [Gestionnaire de jeux de classifications](classifications/sets/manage/set-manager.md)
-         + [Création d’un jeu de classifications](classifications/sets/manage/create.md)
-         + [Paramètres du jeu de classifications](classifications/sets/manage/settings.md)
+         + [Gestionnaire des jeux de classificactions](classifications/sets/manage/set-manager.md)
+         + [Créer un jeu de classifications](classifications/sets/manage/create.md)
+         + [Paramètres des jeux de classifications](classifications/sets/manage/settings.md)
          + [Schéma du jeu de classifications](classifications/sets/manage/schema.md)
          + [Règles de jeu de classifications](classifications/sets/manage/rules.md)
       + [Gestionnaire des tâches de jeux de classifications](classifications/sets/job-manager.md)
-      + Consolidation des ensembles de classifications {#consolidations}
-         + [Gestionnaire de consolidation des ensembles de classifications](classifications/sets/consolidations/manage.md)
-         + [Processus de consolidation des ensembles de classifications](classifications/sets/consolidations/process.md)
+      + Consolidation des jeux de classifications {#consolidations}
+         + [Gestionnaire de consolidations de jeux de classifications](classifications/sets/consolidations/manage.md)
+         + [Processus de consolidations des jeux de classifications](classifications/sets/consolidations/process.md)
    + Créateur de règles de classification {#classifications-rulebuilder}
       + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
       + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
       + [Règles de classification – Définitions](classifications/crb/classification-rule-definitions.md)
-      + [Sous-classifications et le Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
+      + [Sous-classifications et Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
    + Importateur de classifications {#classifications-importer}
       + [Importateur de classifications - Aperçu](classifications/importer/c-working-with-saint.md)
       + [Fichiers de données de classification](classifications/importer/c-saint-data-files.md)
@@ -269,7 +269,7 @@ ht-degree: 88%
    + [Sous-classifications](classifications/c-sub-classifications.md)
    + [FAQ sur les classifications](classifications/faq.md)
 + Emplacements {#locations}
-   + [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md)
+   + [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md)
    + [Comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md)
    + [Emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md)
 + [Événements du calendrier](t-calendar-event.md)
