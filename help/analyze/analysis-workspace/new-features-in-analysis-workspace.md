@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ Nouvelles fonctionnalités au 18 juin 2020.
 | Attribution IQ : Attribution algorithmique | Le modèle d’attribution algorithmique d’Analysis Workspace utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit pour la mesure sélectionnée. Disponible pour les clients Adobe Analytics Ultimate. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=fr) |
 | Attribution IQ : intervalles de recherche en amont personnalisés | Vous pouvez désormais configurer n’importe quel modèle d’attribution dans Attribution IQ afin d’y inclure des points de contact jusqu’à 90 jours avant la période de création des rapports. Cela permet généralement d’accroître la précision de l’attribution pour les événements survenant au début de la période de création des rapports, en tenant compte des interactions qui se sont produites au cours du ou des mois précédents. Disponible pour les clients Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete et Ultimate. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=fr#lookback-windows) |
 | Rôles de projet pour les projets d’espaces de travail partagés | Lors du partage d’un projet Espace de travail, vous pouvez désormais placer des destinataires dans l’un des trois rôles de projet, en fonction de l’expérience du projet que vous souhaitez leur proposer : Modifier, Dupliquer et Afficher. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) |
-| Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs en autorisant uniquement l’affichage. Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=fr) |
+| Projets Workspace en lecture seule | Les projets Workspace peuvent être partagés avec les utilisateurs et utilisatrices en appliquant uniquement l’option « Peut afficher ». Lorsqu’un destinataire Afficher ouvre le projet partagé, il bénéficie d’une expérience de projet plus restreinte, sans rail gauche et avec des interactions limitées. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=fr) |
 | Possibilité de modifier des projets Workspace avec d’autres personnes | Les destinataires ajoutés au rôle « Peut modifier » peuvent enregistrer les modifications qu’ils apportent à un projet qui a été partagé avec eux. Cela s’applique aussi bien aux administrateurs qu’aux autres utilisateurs. [En savoir plus...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) |
 | Panneau vierge mis à jour | Le panneau vierge comprend désormais des panneaux et des visualisations, vous permettant ainsi de choisir avec plus de transparence le processus d’analyse qui vous convient le mieux. |
 | Panneau Quick Insights (25 juin 2020) | Quick Insights fournit des conseils aux non-analystes et aux nouveaux utilisateurs d’Analysis Workspace pour savoir comment répondre rapidement et facilement à des besoins professionnels. [En savoir plus...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
@@ -125,7 +125,7 @@ Nouvelles fonctionnalités au 16 janvier 2020.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [Créateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr) | Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, ventilations, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la ventilation** : vous pouvez définir les niveaux de rangée et de ventilation pour chaque ligne de dimension. Auparavant, Espace de travail imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Ventilation par position** : vous pouvez définir des rangées de dimension sur _ventilation par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
+| [Créateur de tableau à structure libre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=fr) | Une fois le générateur de tableau activé, vous pouvez faire glisser et déposer de nombreuses dimensions, répartitions, mesures et segments afin de créer des tableaux qui répondent à des problématiques professionnelles plus complexes. Les données ne seront pas mises à jour immédiatement, mais après avoir cliqué sur **[!UICONTROL Créer]**, ce qui vous permet de gagner du temps une fois que vous savez quel tableau vous souhaitez construire. En outre, cette fonctionnalité offre les options suivantes :<ul><li>**Aperçu** : vous pouvez prévisualiser le format d’un tableau avant de passer du temps à générer des données réelles.</li><li>**Paramètres flexibles pour les rangées et la répartition** : vous pouvez définir les niveaux de rangée et de répartition pour chaque ligne de dimension. Auparavant, Espace de travail imposait des valeurs par défaut qui ne pouvaient pas être modifiées après le renvoi des données.</li><li>**Répartition par position** : vous pouvez définir des rangées de dimension sur _répartition par position_ et non _par élément spécifique_ (valeur par défaut).</li><li>**Agencement manuel des rangées statiques** : vous pouvez agencer manuellement les rangées statiques afin que les rangées du tableau s’affichent exactement comme vous en avez besoin. Auparavant, les lignes statiques pouvaient être triées uniquement par colonne de mesure ou par ordre alphabétique.</li></ul> |
 
 ## Octobre 2019
 
@@ -134,7 +134,7 @@ Améliorations publiées le 10 octobre 2019.
 | Amélioration | Description |
 |--- |--- |
 | Mise à jour des totaux des tableaux à structure libre | Les tableaux à structure libre comprennent désormais deux totaux, un **[!UICONTROL Total du tableau]** et un **[!UICONTROL Total général]**. La ligne Total du tableau tient compte des [filtres de rapport](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) appliqués. Avant la mise à jour, seule la segmentation affectait les totaux. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr)<br/>De plus, les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]** ont été ajoutées aux **[!UICONTROL Paramètres des colonnes]**.<br/>Grâce à cette modification des totaux pour les tableaux à structure libre, les visualisations dépendantes sont mises à jour (par exemple, les visualisations **[!UICONTROL Nombre de résumés]**), ainsi que les données CSV et PDF exportées. |
-| Option de suppression pour Non spécifié/Aucun | La possibilité de supprimer facilement &quot;Non spécifié (Aucun)&quot; a été ajoutée en tant qu’option pour les filtres de rapport. |
+| Option de suppression pour Non spécifié/Aucun | La possibilité de supprimer facilement « Non spécifié (Aucun) » a été ajoutée en tant qu’option des filtres de rapport. |
 | Abandon des composants de granularité violets | Les composants temporels de granularité violets (minute, heure, jour, semaine, mois, trimestre, année) ont été abandonnés. Les composants temporels violets se sont toujours comportés exactement comme leurs homologues de dimension orange, ce changement simplifiera donc l’expérience. **Aucune action** n’est nécessaire si vous avez déjà utilisé l’un des composants temporels violets.<br/>Avec cette modification, la section **[!UICONTROL Heure]** violette a également été renommée en **[!UICONTROL Périodes]**. |
 
 ## Août 2019
@@ -143,7 +143,7 @@ Amélioration publiée le 8 août 2019.
 
 | Amélioration | Description |
 |--- |--- |
-| Augmentation de la limite d’éléments pour les filtres déroulants statiques de 50 à 200 | La limite des éléments pouvant être placés dans un filtre de menu déroulant statique est augmentée de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
+| Augmenter la limite d’éléments pour les filtres déroulants statiques de 50 à 200 | La limite des éléments pouvant être placés dans un filtre de menu déroulant statique a augmenté de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
 
 ## Juillet 2019
 
@@ -188,7 +188,7 @@ Nouvelles fonctionnalités et améliorations au 17 janvier 2019.
 | [Analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Les améliorations considérables apportées à l’analyse des cohortes vous permettent :<ul><li>d’appliquer à un segment des mesures d’inclusion et de retour de manière séparée ; </li><li>d’afficher l’attrition au lieu de la fidélisation ;</li><li>d’afficher les tables de latence (temps écoulé avant et après un évènement d’inclusion) ;</li><li>de personnaliser les dimensions des cohortes (vers des groupes de visiteurs basés sur une eVar et pas seulement sur une heure) ;</li><li>de calculer la rétention/la perte de clientèle sur la base de la période précédente et non de la cohorte d’origine ; </li><li>d’ajouter plusieurs mesures dans les champs d’inclusion et de retour, ainsi que d’appliquer des segments ; (Les mesures calculées ne sont pas prises en charge)</li></ul> |
 | [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Le nouveau paramètre vous permet de voir plus de données sur un seul écran en réduisant l’espacement vertical du rail gauche, dans les tableaux à structure libre et dans les tableaux de cohortes. Accessible via Projet > Informations et paramètres du projet. |
 | [Prise en charge de variables à valeurs multiples dans l’Attribution IQ](attribution/overview.md) | Certaines dimensions dans Analytics peuvent contenir plusieurs valeurs pour un seul accès, telles que les variables de liste (listVars), la variable product, les propriétés de liste (list props) ou l’eVar de marchandisage. Analysis Workspace vous permet d’appliquer l’Attribution IQ à n’importe quel type de ces variables au niveau de l’accès. |
-| Améliorations des performances | Amélioration de la vitesse de ventilation des visualisations : les projets comportant de nombreuses ventilations se chargeront plus rapidement. |
+| Améliorations des performances | Amélioration de la vitesse de répartition des visualisations : les projets comportant de nombreuses répartitions se chargeront plus rapidement. |
 
 ## Novembre 2018
 
@@ -204,8 +204,8 @@ Nouvelles fonctionnalités et améliorations au 11 octobre 2018.
 
 | Fonctionnalité | Description |
 | --- | --- |
-| Gestion des listes déroulantes des panneaux | Quelques modifications ont été apportées à la gestion des listes déroulantes des panneaux. Lorsque vous cliquez avec le bouton droit de la souris sur une liste déroulante, vous pouvez désormais supprimer la liste déroulante, supprimer une étiquette (si une étiquette est affichée) ou ajouter une étiquette (si aucune étiquette n’est affichée). |
-| Liens dans les info-bulles des panneaux et des visualisations | Des liens vers des vidéos et de la documentation pertinentes vers des info-bulles de panneau et de visualisation sont ajoutés. |
+| Gestion des listes déroulantes des panneaux | Quelques modifications ont été apportées à la gestion des listes déroulantes des panneaux. Lorsque vous cliquez avec le bouton droit sur une liste déroulante, vous pouvez désormais supprimer celle-ci, supprimer un libellé (si un libellé est affiché) ou ajouter un libellé (si aucun libellé n’est affiché). |
+| Liens dans les info-bulles des panneaux et des visualisations | Des liens vers des vidéos et de la documentation pertinentes ont été ajoutés aux info-bulles des panneaux et des visualisations. |
 
 ## Septembre 2018
 
@@ -220,7 +220,7 @@ Nouvelles fonctionnalités et améliorations au 13 septembre 2018.
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b>Listes déroulantes du panneau</b> </p> </td>
+   <td colname="col1"> <p><b>Listes déroulantes des panneaux</b> </p> </td>
    <td colname="col2"> <p>La zone de liste du panneau propose désormais une fonction déroulante. Les listes déroulantes permettent aux utilisateurs finaux d’interagir avec les données d’un projet de manière contrôlée. Exemple : supposons que vous disposiez de plusieurs versions d’un projet afin d’effectuer du reporting spécifique à chaque pays. Vous pouvez désormais réduire ces projets dans un projet unique et ajouter une liste déroulante contenant les pays. </p> </td>
   </tr>
   <tr>
@@ -248,7 +248,7 @@ Nouvelles fonctionnalités et améliorations au 9 août 2018.
  <tbody>
   <tr>
    <td colname="col1"> <p><b>Guides de zones de dépôt</b> </p> </td>
-   <td colname="col2"> <p>Ces guides vous aident à comprendre plus facilement le résultat de chaque action de glisser-déposer. Par exemple, quand vous passez votre curseur sur une colonne, nous affichons des options comme Ajouter, Remplacer, Filtrer par ou Ventilation. </p> <p>Des guides jaunes/rouges ont également été ajoutés afin de vous alerter quand vous exécutez une action non recommandée ou non autorisée, par exemple lorsque vous empilez deux mesures l’une au-dessus de l’autre (ce qui génère des données incorrectes). </p> </td>
+   <td colname="col2"> <p>Ces guides vous aident à comprendre plus facilement le résultat de chaque action de glisser-déposer. Par exemple, quand vous passez votre curseur sur une colonne, nous affichons des options comme Ajouter, Remplacer, Filtrer par ou Répartition. </p> <p>Des guides jaunes/rouges ont également été ajoutés afin de vous alerter quand vous exécutez une action non recommandée ou non autorisée, par exemple lorsque vous empilez deux mesures l’une au-dessus de l’autre (ce qui génère des données incorrectes). </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b>Option Ajouter un panneau vierge</b> </p> </td>
@@ -271,7 +271,7 @@ Nouvelles fonctionnalités et améliorations au 19 juillet 2018.
  <tbody>
   <tr>
    <td colname="col1"> <p><b> <a href="attribution/overview.md"  > Attribution IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>Attribution IQ vous permet de réaliser des analyses plus complexes et plus intelligentes de la performance marketing. De nouveaux modèles d’attribution peuvent être utilisés pour les mesures dans Analysis Workspace (dans n’importe quel tableau ou ventilation) et pour les mesures calculées. Un nouveau panneau Attribution permet une meilleure visualisation et comparaison. </p> </td>
+   <td colname="col2"> <p>Attribution IQ vous permet de réaliser des analyses plus complexes et plus intelligentes de la performance marketing. De nouveaux modèles d’attribution peuvent être utilisés pour les mesures dans Analysis Workspace (dans n’importe quel tableau ou répartition) et pour les mesures calculées. Un nouveau panneau Attribution permet une meilleure visualisation et comparaison. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> Améliorations du rail de gauche </b> </p> </td>
@@ -458,8 +458,8 @@ Nouvelles fonctionnalités et améliorations au 8 février 2018.
    <td colname="col2"> <p>Le « pourcentage du total » affiché dans les colonnes était plafonné à 100 %, même lorsque, dans certains scénarios, le total des lignes représentait plus de 100 % du total (avec les moyennes, par exemple). </p> <p>Nous affichons désormais les pourcentages supérieurs à 100 % pour plus de précision. Nous avons également rehaussé le plafond supérieur à 1 000 % afin de garantir que les colonnes puissent s’adapter à une largeur trop importante. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Activation de la mise en forme conditionnelle sur les ventilations </a> </p> </td>
-   <td colname="col2"> <p>L’application d’une mise en forme conditionnelle (couleurs, etc.) dans les tableaux à structure libre est désormais activée automatiquement sur les ventilations, sauf si des limites « personnalisées » sont sélectionnées. </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Activation de la mise en forme conditionnelle sur les répartitions </a> </p> </td>
+   <td colname="col2"> <p>L’application d’une mise en forme conditionnelle (couleurs, etc.) dans les tableaux à structure libre est désormais activée automatiquement sur les répartitions, sauf si des limites « personnalisées » sont sélectionnées. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>Modifications de la vue <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >Calendrier</a> par défaut </p> </td>
@@ -885,8 +885,8 @@ Nouvelles fonctionnalités au 16 février 2017 :
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Ventilation par position </a> </p> </td>
-   <td colname="col2"> <p>Cette option permet de ventiler les données selon la position dans le tableau. Exemple : « Je veux toujours ventiler les sept premières lignes d’un tableau à structure libre ». Désormais, lorsque vous créez un tableau à structure libre, une case à cocher permet d’activer la fonction Ventilation par position. Ce paramètre est désactivé par défaut. </p> <p>Auparavant, la liste des valeurs de la ventilation était « verrouillée ». Par conséquent, si par exemple vous aviez une ventilation de <span class="wintitle"> date </span> par <span class="wintitle">page</span>, vous obteniez une liste des 50 premières pages pour la période sélectionnée. </p> <p>Si vous enregistriez ce rapport puis l’exécutiez à nouveau un mois plus tard, il est probable que les 50 premières pages auraient changé. Toutefois, Analysis Workspace « faisait confiance » aux résultats de la ventilation d’origine et renvoyait les mêmes pages, avec pour période le mois en cours. </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Répartition par position </a> </p> </td>
+   <td colname="col2"> <p>Cette option permet de répartir les données selon la position dans le tableau. Exemple : « Je veux toujours ventiler les sept premières lignes d’un tableau à structure libre ». Désormais, lorsque vous créez un tableau à structure libre, une case à cocher permet d’activer la fonction Répartition par position. Ce paramètre est désactivé par défaut. </p> <p>Auparavant, la liste des valeurs de la répartition était « verrouillée ». Par conséquent, si par exemple vous aviez une répartition de <span class="wintitle"> date </span> par <span class="wintitle">page</span>, vous obteniez une liste des 50 premières pages pour la période sélectionnée. </p> <p>Si vous enregistriez ce rapport puis l’exécutiez à nouveau un mois plus tard, il est probable que les 50 premières pages auraient changé. Toutefois, Analysis Workspace « faisait confiance » aux résultats de la répartition d’origine et renvoyait les mêmes pages, avec pour période le mois en cours. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -1096,7 +1096,7 @@ Pour annuler, cliquez sur **[!UICONTROL Annuler]** dans le menu Action.
 
 Vous pouvez également utiliser les [raccourcis clavier](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) Windows et Mac standard (ctrl ou cmd + z) pour Annuler.
 
-*`Undo`* est particulièrement utile lors de l’annulation de ventilations dans le tableau.
+*`Undo`* est particulièrement utile lors de l’annulation de répartitions dans le tableau.
 
 Actions *`not`* inutilisables :
 
