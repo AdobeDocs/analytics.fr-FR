@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données, pour exporter des données brutes, ainsi que Data Warehouse, pour récupérer une sortie de données sous forme de feuille de calcul. Découvrez comment utiliser FTP et SFTP pour transférer des fichiers.
 source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
