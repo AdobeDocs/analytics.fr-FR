@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Pour en savoir plus sur le dictionnaire de données, voir [Vue d’ensemble du d
 
 ### Sources de données
 
-Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation. Plus d’informations sur la manière dont vous pouvez [gestion des sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation. Voici plus d’informations sur la manière dont vous pouvez [gérer des sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Commencer à utiliser Analysis Workspace
 

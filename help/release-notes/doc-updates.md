@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
 workflow-type: tm+mt
 source-wordcount: '4623'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,12 +26,12 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2023** | |
-| API Adobe Experience Platform Edge Network Server | Ajout d’une documentation plus complète sur quand et comment mettre en oeuvre la collecte de données avec Adobe Analytics à l’aide de la variable [API du serveur réseau Adobe Experience Platform Edge](../implement/aep-edge/server-api/overview.md). Par exemple, l’implémentation de la collecte de données avec Adobe Analytics dans les applications de bureau, les appareils IoT, définissez les cadres supérieurs. |
-| Identifiant de société global | Documenté [comment trouver l’ID de société globale](../admin/admin/company/web-services-admin.md) pour la société Analytics dans laquelle vous êtes connecté. Cet identifiant est requis pour les API Analytics 2.0. |
+| API Adobe Experience Platform Edge Network Server | Ajout d’une documentation plus complète sur quand et comment implémenter la collecte de données dans Adobe Analytics à l’aide de l’[API du serveur réseau EDGE d’Adobe Experience Platform](../implement/aep-edge/server-api/overview.md). Par exemple, l’implémentation de la collecte de données dans Adobe Analytics dans les applications de bureau, les appareils IoT, les décodeurs. |
+| Identifiant global d’entreprise | Ajout de la documentation sur [comment trouver l’ID global d’entreprise](../admin/admin/company/web-services-admin.md) pour l’entreprise Analytics à laquelle vous êtes connecté(e). Cet identifiant est requis pour les API Analytics 2.0. |
 | Limite de taille FTP mise à jour | Modification de la valeur par défaut de [Limite de stockage des données FTP](/help/export/ftp-and-sftp/ftp-limits.md), désormais définie sur 100 Go. |
 | Nouvelle variable AppMeasurement | La variable `decodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. [En savoir plus](../implement/vars/config-vars/decodelinkparameters.md) |
 | Configuration des emplacements de stockage du compte cloud pour l’ingestion de données de classification | Vous pouvez désormais gérer les emplacements de stockage des comptes Cloud utilisés pour l’automatisation des jeux de classifications. [En savoir plus](/help/components/locations/configure-import-accounts.md) |
-| Améliorations du filtre de réparation des données | Trois améliorations ont été apportées au filtrage de la réparation des données. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
+| Améliorations du filtre de réparation des données | Trois améliorations de filtrage ont été ajoutées à la réparation des données. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **Juin 2023** | |
 | Nouvelles fonctionnalités pour les jeux de classifications | Les [jeux de classifications](/help/components/classifications/sets/overview.md) ont été mis à jour avec plusieurs nouvelles fonctionnalités :<ul><li>**Consolidation** : combinez des jeux de classifications en un seul jeu de classifications consolidé. Le jeu de classifications consolidé peut être utilisé comme d’autres jeux de classifications ou comme jeu de données de recherche dans Customer Journey Analytics. [En savoir plus](../components/classifications/sets/consolidations/manage.md)</li><li>**Règles** : classifiez automatiquement les valeurs en fonction des règles du jeu de classifications. [En savoir plus](../components/classifications/sets/manage/rules.md)</li><li>**Import automatisé** : importez automatiquement les données de classification à partir des destinations d’espace de stockage dans le cloud. [En savoir plus](../components/classifications/sets/manage/schema.md)</li></ul> |
 | Mises à jour des mesures calculées | Mise à jour des articles consacrés aux mesures calculées, avec de nouvelles captures d’écran et procédures. Ces modifications permettent de refléter toutes les nouvelles fonctionnalités d’Adobe Analytics dans la documentation. |
