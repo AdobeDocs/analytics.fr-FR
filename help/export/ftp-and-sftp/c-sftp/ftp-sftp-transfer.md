@@ -4,15 +4,19 @@ keywords: ftp;sftp
 title: Envoi de données Adobe vers un compte FTP externe par SFTP
 feature: FTP Export
 exl-id: 2490c452-cd05-45ab-95c0-7be34b033415
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 88%
+source-wordcount: '118'
+ht-degree: 37%
 
 ---
 
 # Envoi de données Adobe vers un compte FTP externe par SFTP
 
-Le groupe Adobe Engineering Services peut configurer un projet personnalisé pour rediriger vos données vers un compte FTP externe SFTP.
+>[!NOTE]
+>
+>Les informations suivantes concernent les types de destinations FTP et SFTP. FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud plus sécurisé. Pour plus d’informations sur la configuration des types de destination cloud pour un flux de données, voir [Création d’un flux de données](/help/export/analytics-data-feed/create-feed.md).
 
-Vos données vous sont envoyées de manière sécurisée sans que vous ayez à récupérer les données d’un site FTP Adobe. Pour déterminer la portée du projet, contactez votre équipe de compte d’Adobe.
+Vous pouvez configurer les données d’Adobe à envoyer à un compte FTP externe à l’aide de SFTP.
+
+Pour plus d’informations, voir [Création d’un flux de données](/help/export/analytics-data-feed/create-feed.md).
