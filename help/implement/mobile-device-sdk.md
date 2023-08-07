@@ -3,10 +3,10 @@ title: Mise en œuvre d’Analytics pour les appareils mobiles
 description: Déterminez la bibliothèque AppMeasurement mobile à utiliser.
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ Pour mettre en oeuvre Analytics pour les appareils mobiles, utilisez le SDK Adob
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 30 septembre 2020.
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de prise en charge des SDK mobiles version 4](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/).
 
