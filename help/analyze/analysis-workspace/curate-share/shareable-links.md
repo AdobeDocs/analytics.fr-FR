@@ -5,7 +5,7 @@ title: Création de liens partageables
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 9349883dc827eb73ee59e852d054091ade70999c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 61%
@@ -16,11 +16,11 @@ ht-degree: 61%
 
 Analysis Workspace offre de nombreuses méthodes pour partager un projet avec les utilisateurs, notamment la possibilité d’obtenir un lien vers un projet ou une partie spécifique d’un projet. Certains types de liens requièrent que le destinataire se connecte à Adobe Analytics avant d’accéder au projet, contrairement à d’autres.
 
-## Obtention d’un lien de projet à partager avec d’autres utilisateurs de Workspace {#project-link}
+## Obtenir un lien de projet à partager avec d’autres utilisateurs de Workspace {#project-link}
 
 Pour partager un lien vers un projet, accédez au projet que vous souhaitez partager, puis sélectionnez Aller à [!UICONTROL **Partager**] > [!UICONTROL **Partage avec les utilisateurs de Workspace**] > [!UICONTROL **Partager par lien**]. Les utilisateurs avec lesquels vous partagez le lien doivent se connecter.
 
-Si le destinataire du lien n’a pas reçu de [rôle de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr), les administrateurs reçoivent **[!UICONTROL Peut modifier]** et les non-administrateurs reçoivent **[!UICONTROL Peut dupliquer]** expériences.
+Si le destinataire du lien n’a pas reçu de [rôle de projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr), les administrateurs reçoivent **[!UICONTROL Modifier l’original]** et les non-administrateurs reçoivent **[!UICONTROL Modifier la copie]** expériences.
 
 ## Obtenir un lien en lecture seule à partager avec n’importe qui
 
