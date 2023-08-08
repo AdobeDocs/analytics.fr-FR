@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Documentation des liens profonds (application mobile) | Permet aux utilisateurs et utilisatrices d’envoyer des liens vers des cartes de performance qui les dirigeront directement vers le projet de cartes de performance dans l’application. [En savoir plus](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentation concernant la mise à jour de l’écran d’accueil pour l’application de tableaux de bord Analytics (application mobile) | Le nouvel écran d’accueil mis à jour vous permet d’afficher toutes vos cartes de performances dans une seule liste consolidée. [En savoir plus](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Icônes de spectre | Remplacement des captures d’écran des icônes de l’interface utilisateur dans la documentation par leurs homologues du [Système de conception du spectre d’Adobe](https://spectrum.adobe.com/page/icons/). |
-| Amélioration du mappage IP/géolocalisation | Création d’une rubrique dans les [Questions fréquentes](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=fr). |
 | Gestionnaire des activités de rapport | Mise à jour de la documentation Beta, en particulier la section sur l’[Affichage de l’activité de création de rapports pour les suites de rapports individuelles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=fr#view-reporting-activity-for-individual-report-suites). |
 | Aperçu d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
 | Création de projets | Création d’un article qui explique en détail comment [créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |
