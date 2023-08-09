@@ -4,10 +4,10 @@ title: Importation manuelle de données dans Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,15 @@ Si vous souhaitez importer des données Analytics manuellement via Power BI, su
 1. Dans Power BI, cliquez sur **[!UICONTROL Obtenir des données]** dans l’écran inférieur gauche.
 1. En dessous de l’option **[!UICONTROL Importer ou connecter à des données]** > **[!UICONTROL Fichiers]**, cliquez sur **[!UICONTROL Obtenir]**.
 
-   ![](assets/get-data.png)
+   ![Cliquez sur l’icône Obtenir sous Importer ou Se connecter aux données.](assets/get-data.png)
 
 1. Cliquez sur Fichier local.
 
-   ![](assets/local-file.png)
+   ![Cliquez sur l’icône Fichier local .](assets/local-file.png)
 
-1. Sélectionnez le fichier à transférer et cliquez sur **[!UICONTROL Ouvrir]**.
+1. Sélectionnez le fichier à charger et cliquez sur **[!UICONTROL Ouvrir]**.
 1. Cliquez sur **[!UICONTROL Télécharger]** en dessous de l’option **[!UICONTROL Charger votre fichier Excel dans Power BI]**.
 
-   ![](assets/upload-excel-file.png)
+   ![Cliquez sur Télécharger pour télécharger votre fichier Excel.](assets/upload-excel-file.png)
 
 1. Le message « Votre fichier a été téléchargé » doit s’afficher.

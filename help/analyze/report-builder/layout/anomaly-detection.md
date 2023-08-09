@@ -1,14 +1,14 @@
 ---
-description: La détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans vos données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport.
-title: Détection des anomalies
+description: Découvrez la détection des anomalies et comment elle est calculée.
+title: Utilisation de la détection des anomalies pour rechercher automatiquement des tendances
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 * Forte chute de la valeur de commande moyenne
 * Pic des commandes avec recettes faibles
 * Pic ou diminution des inscriptions aux offres d’essai
-* Forte diminution des affichages de pages d’entrée
+* Forte diminution des affichages de pages de destination
 * Pic des événements de mémoire tampon pour la vidéo
 * Pic des faibles débits en bits pour la vidéo
 

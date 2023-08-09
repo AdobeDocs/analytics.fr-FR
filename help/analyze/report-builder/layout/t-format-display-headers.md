@@ -1,14 +1,14 @@
 ---
-description: Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichage des en-têtes de lignes et de colonnes. Le lien Options de format est disponible pour les types Disposition personnalisée et Disposition croisée dynamique.
-title: Mise en forme des en-têtes d’affichage
+description: Découvrez comment nommer votre rapport et comment afficher les en-têtes de lignes et de colonnes.
+title: Formatage des en-têtes d’affichage
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
 

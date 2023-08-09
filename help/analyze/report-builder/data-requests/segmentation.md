@@ -4,10 +4,10 @@ title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 91%
+source-wordcount: '1008'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics da
 
 Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assistant Requête qui permet de créer et gérer des segments.
 
-![](assets/seg_dialog.png)
+![Capture d’écran présentant les options Segment à ajouter, à modifier ou à effacer et mettant en surbrillance les icônes Contrôle, Filtrer et Actualiser.](assets/seg_dialog.png)
 
 ## Ajouter ou modifier des segments {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 1. Sélectionnez les éléments de sortie du rapport que vous souhaitez transformer en segment.
 1. Cliquez avec le bouton droit pour sélectionner **[!UICONTROL Créer un segment dans le contexte dans]** et indiquez le conteneur approprié (Conteneur d’accès, Conteneur de visites, Conteneur de visiteurs).
 
-   ![](assets/seg_in_context.png)
+   ![Capture d’écran montrant Créer un segment dans le contexte dans les options de conteneur sélectionnées et disponibles.](assets/seg_in_context.png)
 
    Pour plus d’informations sur les conteneurs, voir le [Guide de segmentation](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
 
@@ -58,9 +58,9 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
 1. Accédez à la liste déroulante **[!UICONTROL Segment]** et cliquez sur la petite flèche vers le bas dans la zone **[!UICONTROL Rechercher des segments]** afin d’afficher tous les segments.
 
-   ![](assets/seg_list.png)
+1. Cochez le ou les segments que vous souhaitez appliquer.
 
-2. Cochez le ou les segments que vous souhaitez appliquer.
+   ![Capture d’écran montrant les segments sélectionnés.](assets/seg_list.png)
 
 >[!NOTE]
 >
@@ -88,22 +88,24 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
 1. Cliquez sur l’icône de contrôle ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) en regard de la liste déroulante de segments.
 
-   ![](assets/seg_control.png)
+1. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
 
-2. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
-3. Notez l’option permettant d’**[!UICONTROL Actualiser automatiquement les requêtes liées lors de la sélection]**.
+   ![Capture d’écran de la boîte de dialogue Paramètres de contrôle avec tous les paramètres sélectionnés.](assets/seg_control.png)
+
+1. Notez l’option permettant d’**[!UICONTROL Actualiser automatiquement les requêtes liées lors de la sélection]**.
 
    * Si cette case est cochée, toutes les requêtes qui utilisent ce contrôle sont actualisées.
    * Si elle n’est pas cochée, les paramètres de requête associés sont mis à jour mais les requêtes ne sont pas actualisées.
 
-4. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segments.
-5. Cliquez sur **[!UICONTROL OK]** et le contrôle de segments apparaît à l’emplacement indiqué.
+1. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segments.
 
-   ![](assets/seg_control2.png)
+1. Cliquez sur **[!UICONTROL OK]** et le contrôle de segments apparaît à l’emplacement indiqué.
+
+   ![Capture d’écran du champ déroulant Choisir le segment .](assets/seg_control2.png)
 
 ## Actualisation de la liste de segments {#section_22E4A86789444B4A998532396B476EFB}
 
-Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour actualiser la liste mise en cache de segments.
+Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour actualiser la liste mise en cache de segments.
 
 ## Gérer les segments à travers les requêtes {#section_C3D63FCBE1A94369A319243313B03C93}
 
@@ -114,7 +116,7 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
 1. Sélectionnez plusieurs demandes dans un classeur.
 1. Cliquez avec le bouton droit de la souris, puis sélectionnez **[!UICONTROL Modifier les requêtes]** > **[!UICONTROL Par segment]**.
 
-   ![](assets/edit_by_segment.png)
+   ![Capture d’écran montrant les demandes de modification et par segment sélectionné.](assets/edit_by_segment.png)
 
 1. Dans la boîte de dialogue Modifier le groupe, sélectionnez l’une des quatre options suivantes :
 

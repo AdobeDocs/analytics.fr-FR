@@ -4,10 +4,10 @@ title: Filtrage des rapports Chemin en ajoutant des requêtes dépendantes
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 85%
 
 ---
 
@@ -29,12 +29,10 @@ Le Report Builder ne propose pas ces rapports de manière autonome, mais vous po
 * Chemin > Chemin d’accès > En tant que page d’entrée
 * Chemin > Chemin de sortie > En tant que page de sortie
 
-1. Sélectionnez plusieurs lignes à partir d’une requête existante, puis cliquez avec le bouton droit sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**.
+1. Sélectionnez plusieurs lignes à partir d’une requête existante, puis cliquez avec le bouton droit sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**. Vous devez sélectionner au moins trois lignes si vous souhaitez afficher le **[!UICONTROL Abandon de page]** de menu.
 
-   (Remarque : vous devez sélectionner au moins 3 lignes si vous souhaitez afficher l’option de menu **[!UICONTROL Page - Abandon]**.)
+   ![Capture d’écran montrant trois lignes sélectionnées avec l’option Ajouter une requête dépendante sélectionnée.](assets/dependen_request.png)
 
-   ![](assets/dependen_request.png)
-
-1. Sélectionnez le filtre prédéfini, par exemple **[!UICONTROL Page précédente]**.
+2. Sélectionnez le filtre prédéfini, par exemple **[!UICONTROL Page précédente]**.
 
    L’Assistant Requête s’affiche, avec la mesure Page précédente déjà sélectionnée. 1. Continuez à préciser votre requête dans l’Assistant Requête avant de la générer.

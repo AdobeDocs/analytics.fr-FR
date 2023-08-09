@@ -4,10 +4,10 @@ title: Mesures calculées
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,13 +25,13 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 ## Filtrage des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrez** les mesures calculées en cliquant sur l’icône Filtrer :  ![](/help/admin/admin/assets/filter.png)
+**Filtrer** mesures calculées en cliquant sur l’icône Filtrer :  ![Capture d’écran des options Filtre affichant les champs Application, Utilisateur, Projet .](/help/admin/admin/assets/filter.png)
 
-. La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
+La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
 Les filtres disponibles incluent :
 
-![](assets/advanced_filters.png)
+![Capture d’écran montrant les options de filtres avancés décrites dans le tableau suivant.](assets/advanced_filters.png)
 
 | Nom du filtre | Description |
 |---|---|
@@ -47,4 +47,4 @@ Les filtres disponibles incluent :
 
 Après avoir sélectionné les filtres, cliquez sur **[!UICONTROL Appliquer]** pour les appliquer à votre demande. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
 
-![](assets/filtering_for_metric.png)
+![Capture d’écran montrant l’Assistant Requête : Étape 2 - Totaux du site pointant vers la fenêtre Filtres avancés et mesures de rapport appliquées.](assets/filtering_for_metric.png)

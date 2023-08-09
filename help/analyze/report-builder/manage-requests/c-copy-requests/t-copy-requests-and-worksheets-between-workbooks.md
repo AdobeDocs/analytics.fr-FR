@@ -1,22 +1,27 @@
 ---
-description: Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles.
-title: Copie de requêtes et de feuilles de calcul entre des classeurs
+description: Découvrez comment copier une feuille de calcul d’un classeur source vers un ou plusieurs classeurs cibles.
+title: Comment copier des requêtes et des feuilles de calcul entre des classeurs
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 79%
 
 ---
 
 # Copie de requêtes et de feuilles de calcul entre des classeurs
 
-Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles.
+Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles. Pour ce faire, au moins deux classeurs doivent être ouverts dans la même instance d’Excel :
+* Le premier classeur source contient une feuille de calcul (feuille de calcul) avec des requêtes mises en correspondance avec des cellules.
+* Les classeurs cibles supplémentaires sont les destinations. Pour chaque nouveau classeur cible, vous devez vous connecter à la même suite de rapports que le classeur source avant de pouvoir coller les feuilles de calcul contenant les requêtes.
 
-Pour ce faire, au moins deux classeurs doivent être ouverts dans la même instance d’Excel : le premier classeur source contient une feuille de calcul avec les requêtes en correspondance avec les cellules, tandis que les classeurs cibles supplémentaires sont les destinations. Pour chaque nouveau classeur cible, vous devez vous connecter à la même suite de rapports que le classeur source avant de pouvoir coller les feuilles de calcul contenant les requêtes.
+>[!NOTE]
+>
+>Vous devez vous connecter au classeur cible à l’aide de la même suite de rapports que le classeur source. Les requêtes des deux classeurs doivent être créées à l’aide du même nom d’utilisateur de suite de rapports.
+
 1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur source, puis sélectionnez **[!UICONTROL Copier la feuille de calcul avec les requêtes]**.
 1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur de destination, puis sélectionnez **[!UICONTROL Coller la feuille de calcul avec les requêtes]**.
 

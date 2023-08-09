@@ -5,22 +5,22 @@ uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 feature: Report Builder
 role: User, Admin
 exl-id: 53cfdcf4-31c3-40ab-aca4-8f0f9be6fe13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 71%
 
 ---
 
 # Autorisations d’accès utilisateur pour les dimensions et les mesures
 
-Le Report Builder Adobe propose désormais des paramètres de gestion des autorisations analogues à ceux des Outils d’administration d’Analytics.
+Adobe Report Builder propose des paramètres d’autorisation similaires à ceux des outils d’administration Analytics.
 
 En tant qu’utilisateur non administrateur, vous avez peut-être créé antérieurement des classeurs avec des requêtes pointant vers des dimensions et des mesures auxquelles vous n’avez pas accès. Ces autorisations sont maintenant appliquées.
 
-Par exemple, si vous actualisez une requête qui inclut des dimensions ou des mesures auxquelles vous n’avez pas accès, vous obtenez une erreur d’autorisation limitée (Restricted Permission Error) :
+Par exemple, si vous actualisez une requête qui inclut des dimensions ou des mesures auxquelles vous n’avez pas accès, vous obtenez une erreur d’autorisation limitée (Restricted Permission Error). Le message d’erreur indique qu’une demande n’est pas disponible pour votre compte utilisateur en raison des autorisations d’administration.
 
-![](assets/arb_restrc_perm.png)
+![Capture d’écran montrant le message d’erreur d’autorisation limitée (Restricted Permission Error).](assets/arb_restrc_perm.png)
 
 Suivez ces instructions pour **chaque** classeur du Report Builder que vous conservez :
 

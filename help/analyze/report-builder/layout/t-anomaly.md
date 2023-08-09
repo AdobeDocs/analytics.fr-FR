@@ -1,20 +1,20 @@
 ---
-description: Étapes qui décrivent comment créer une requête de détection des anomalies dans le créateur de rapports.
+description: Découvrez comment créer une requête de détection des anomalies dans Report Builder.
 title: Configuration d’une requête de détection des anomalies
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 72%
 
 ---
 
 # Configuration d’une requête de détection des anomalies
 
-Pour créer une requête de détection des anomalies dans Report Builder, procédez comme suit :
+Pour créer une requête de détection des anomalies dans Report Builder :
 
 1. Sélectionnez un rapport de tendance, par exemple sur un rapport **[!UICONTROL Mesures du site]** > **[!UICONTROL Trafic]**.
 1. Dans le menu [!UICONTROL Appliquer la granularité], sélectionnez **[!UICONTROL Jour]**.
@@ -25,15 +25,15 @@ Pour créer une requête de détection des anomalies dans Report Builder, proc�
 
 1. Après avoir configuré les plages de données, cliquez sur **[!UICONTROL Suivant]**.
 
-   Résultat de l’étape 1. Dans l’Assistant Requête : Étape 2 sur 2, ajoutez une mesure, par exemple **[!UICONTROL Visites]**.
+   Dans l’Assistant Requête : Étape 2 sur 2, ajoutez une mesure, par exemple **[!UICONTROL Visites]**.
 
-   Résultat de l’étape 1. Pour la mesure ajoutée, cliquez sur le lien **[!UICONTROL Aucun]**.
+   Pour la mesure ajoutée, cliquez sur le lien **[!UICONTROL Aucun]**.
 
-   ![Résultat de l’étape](assets/anomaly_select.png)
+   ![Capture d’écran montrant la détection des anomalies, puis Insérer et insérer des options pour Limite inférieure et Limite supérieure et attendue.](assets/anomaly_select.png)
 
 1. Sélectionnez **[!UICONTROL Détection des anomalies]** > **[!UICONTROL `<selection>`]**.
 
-   ![Infos sur l’étape](assets/anomaly_visit.png)
+   ![Capture d’écran montrant l’Assistant Requête : Étape 2 - Rapport Trafic.](assets/anomaly_visit.png)
 
    Lorsque vous sélectionnez l’une de ces options, le système crée des copies Détection des anomalies de la mesure d’origine. Par exemple, pour la mesure Visite, une mesure Limite inférieure - Visite est ajoutée au groupe [!UICONTROL Mesure].
 1. Cliquez sur **[!UICONTROL Terminer]** et sélectionnez la cellule pour la sortie vers Excel.

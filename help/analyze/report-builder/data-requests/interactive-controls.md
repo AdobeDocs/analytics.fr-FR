@@ -4,10 +4,10 @@ title: Contrôles interactifs
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;. »
 >
 
-
 >[!WARNING]
 >
 >Ne modifiez pas le nom du contrôle. (Pour afficher le nom, définissez la mise au point sur le contrôle et le nom du contrôle s’affiche juste au-dessus de la grille Excel, dans le coin supérieur gauche.)
@@ -37,11 +36,11 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
 1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
 
-   ![](assets/date_range_control.png)
+   ![Capture d’écran de l’Assistant Requête : Étape 1 , en surbrillant l’icône Paramètres de contrôle . ](assets/date_range_control.png)
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez tous les éléments de la période que vous souhaitez afficher dans le contrôle interactif. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 
-   ![](assets/control_settings.png)
+   ![Capture d’écran montrant les éléments de période sélectionnés et l’emplacement de la cellule supérieure gauche.](assets/control_settings.png)
 
 1. Notez l’option permettant d’« Actualiser automatiquement les requêtes liées lors de la sélection ».
 
@@ -50,18 +49,19 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 
 1. Cliquez sur **[!UICONTROL OK]**. Le contrôle s’affiche dans l’emplacement de la cellule que vous avez indiqué :
 
-   ![](assets/date_range_control_interactive.png)
-
 1. Vous pouvez à présent modifier la période et la requête s’actualise avec cette période.
+
+   ![Capture d’écran montrant la période sélectionnée.](assets/date_range_control_interactive.png)
+
 1. Vous pouvez également copier la requête et cliquer avec le bouton droit afin d’utiliser une des deux options Coller la requête :
 
    * **[!UICONTROL Coller la requête]** > **[!UICONTROL Utiliser la cellule d’entrée absolue]**. Cela signifie que la requête copiée pointe vers le même contrôle interactif de périodes que la requête d’origine.
 
    * **[!UICONTROL Coller la requête]** > **[!UICONTROL Utiliser la cellule d’entrée relative]**. Cela signifie que la requête copiée pointe vers son propre contrôle.
 
-      >[!NOTE]
-      >
-      >Vous pouvez utiliser la fonctionnalité de contrôle Couper/Copier/Coller native de Microsoft Excel. Le Créateur de rapports reconnaît automatiquement les contrôles nouvellement ajoutés.
+     >[!NOTE]
+     >
+     >Vous pouvez utiliser la fonctionnalité de contrôle Couper/Copier/Coller native de Microsoft Excel. Le Créateur de rapports reconnaît automatiquement les contrôles nouvellement ajoutés.
 
 ## Implémenter le contrôle interactif des segments {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ L’implémentation du contrôle interactif de segments est similaire à l’imp
 
 1. À l’étape 1 de l’Assistant Requête, en regard de la liste déroulante **[!UICONTROL Segment]**, cliquez sur l’icône des paramètres de commande de segments :
 
-   ![](assets/segment_interactive_1.png)
+   ![Capture d’écran de l’icône Paramètres de contrôle des segments.](assets/segment_interactive_1.png)
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez les segments que vous souhaitez inclure dans la liste déroulante. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 
-   ![](assets/segment_drop_down_properties.png)
+   ![Capture d’écran montrant les paramètres de contrôle des segments avec les segments sélectionnés et l’emplacement de la cellule.](assets/segment_drop_down_properties.png)
 
 1. Le nouveau contrôle interactif s’affiche à présent dans le classeur :
 
-   ![](assets/segment_interactive_3.png)
+   ![Capture d’écran montrant le nouveau contrôle interactif sélectionné.](assets/segment_interactive_3.png)

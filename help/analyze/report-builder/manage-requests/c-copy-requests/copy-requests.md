@@ -1,14 +1,14 @@
 ---
-description: Vous avez la possibilité de copier les cellules mises en correspondance avec plusieurs requêtes et de coller le contenu dans une zone sélectionnée vide de la feuille de calcul.
-title: Copie des requêtes - Aperçu
+description: Découvrez comment copier et coller des cellules mappées à plusieurs requêtes.
+title: Présentation de la copie des requêtes
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin
 exl-id: 14578c79-a9e6-4587-b91b-f590453df347
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 87%
 
 ---
 

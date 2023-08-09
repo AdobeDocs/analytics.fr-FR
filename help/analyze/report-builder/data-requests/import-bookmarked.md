@@ -4,10 +4,10 @@ title: Importation de rapports marqués d’un signet et de mini-rapports de tab
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Lorsque vous sélectionnez un rapport mis en signet, l’Assistant Requête remp
 
 Voici la façon dont l’étape 1 de l’Assistant Requête présente un tableau de bord et ses mini-rapports :
 
-![](assets/import_dashboard_reportlet.png)
+![Capture d’écran montrant l’Assistant Requête : Étape 1 sur 2 : mise en surbrillance Récupérer vos tableaux de bord et Récupérer vos signets.](assets/import_dashboard_reportlet.png)
 
 Lorsque vous cliquez sur **[!UICONTROL Récupérer vos tableaux de bord]** ou **[!UICONTROL Récupérer vos signets]**, les données des tableaux de bord et signets existants sont récupérées et collées dans la feuille de calcul.
 

@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 
 1. Créez ou modifiez une requête, puis passez au formulaire [!UICONTROL Assistant Requête : Étape 2].
 
-   ![Infos sur l’étape](/help/admin/admin/assets/filter.png)
-
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2], cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez **[!UICONTROL Filtrer]**.
+
+   ![Capture d’écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
+
 1. Activez l’option [!UICONTROL Le plus populaire] dans le formulaire **[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
 
    **Ordre de classement** : il s’agit de l’ordre de classement d’une dimension. La valeur par défaut, à savoir 1, indique l’élément supérieur dans la liste des données faisant l’objet du rapport. Par exemple, dans le cas de la dimension [!UICONTROL Page], un ordre de classement de 1 indique la page la plus demandée de votre site. Vous pouvez spécifier 10 ou une autre valeur comme cellule d’ordre de classement, ce qui a pour effet de générer un rapport commençant par 10 comme valeur maximale. Les mesures sont classées par ordre décroissant, de telle sorte que les éléments les plus actifs apparaissent en premier dans la liste. Si une seule requête doit comporter plus de 50 000 noms de pages, mais que vous disposez de milliers de pages sur lesquelles générer un rapport, vous pouvez copier la requête et modifier l’ordre de classement afin de récupérer les données appropriées par blocs de 50 000.
@@ -39,17 +40,18 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 
 1. Pour créer une expression de recherche, cliquez sur **[!UICONTROL Ajouter]**.
 
-   ![Infos sur l’étape](assets/expressions_define_filter.png)
-
 1. Dans le formulaire [!UICONTROL Définir un filtre], configurez les conditions adaptées à vos besoins.
 
-   ![select_cell_icon.png](assets/select_cell_icon.png) : vous permet de localiser une condition définie dans la valeur d’une cellule.
 
-   **Ajouter une condition** : ajoute une condition à l’expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
+   ![Capture d’écran montrant la boîte de dialogue Définir un filtre .](assets/expressions_define_filter.png)
+
+   L’icône de cellule de sélection permet de localiser une condition définie dans la valeur d’une cellule. ![Icône de sélection de cellule.](assets/select_cell_icon.png)
+
+   La variable **Ajouter une condition** lien permet d&#39;ajouter une condition à l&#39;expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-   ![Infos sur l’étape](assets/choose_page_02.png)
+   ![Capture d’écran de la boîte de dialogue Définir un filtre avec le bouton OK en bas à droite.](assets/choose_page_02.png)
 
 1. Dans le formulaire [!UICONTROL Sélectionner les pages], cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.

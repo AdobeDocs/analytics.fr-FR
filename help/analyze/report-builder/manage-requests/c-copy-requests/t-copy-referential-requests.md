@@ -1,14 +1,14 @@
 ---
-description: Une requête référentielle utilise les valeurs des cellules comme entrée de paramètres, tel un filtre de données ou un filtre relationnel.
+description: Découvrez comment copier des requêtes référentielles.
 title: Copie de requêtes référentielles
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 feature: Report Builder
 role: User, Admin
 exl-id: 3cd77325-7461-4345-a672-64c03ea1ae5b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 79%
 
 ---
 
@@ -16,13 +16,15 @@ ht-degree: 100%
 
 Une requête référentielle utilise les valeurs des cellules comme entrée de paramètres, tel un filtre de données ou un filtre relationnel.
 
-Pour propager ou copier et coller les requêtes référentielles dans la feuille de calcul, vous devez avoir créé au moins une requête valide dans la feuille de calcul. En outre, les données générées par la requête doivent contenir une cellule dont la valeur dépend d’une requête dans une autre cellule (à l’aide d’une ventilation ou d’un filtre correspondant) ou d’un filtre qui accepte l’entrée de données saisies dans une cellule.
+Pour propager ou copier-coller des requêtes référentielles dans la feuille de calcul :
+* Vous devez créer au moins une requête valide dans la feuille de calcul.
+* Les données générées par la requête doivent contenir une cellule dont la valeur dépend d’une requête dans une autre cellule (à l’aide d’une ventilation ou d’un filtre correspondant) ou d’un filtre qui récupère la saisie des données entrées dans une cellule.
 
 Vous pouvez également créer des requêtes qui renvoient à des filtres d’entrée issus de requêtes de différentes feuilles de calcul, mais dans un seul classeur. Par exemple, une requête dans la Feuille 2 peut utiliser une suite de rapports d’une cellule particulière de la Feuille 1 et une plage de dates d’une cellule dans une requête de la Feuille 2. Le nouveau résultat peut être placé dans l’une des deux feuilles ou dans une nouvelle feuille du même classeur. Lorsque vous collez une requête relative, si un filtre d’entrée réside dans une feuille de calcul autre que celle sur laquelle est situé le résultat de la requête copiée, le filtre est collé en tant que filtre absolu.
 
 >[!NOTE]
 >
->Vous ne pouvez pas générer les résultats d’une requête dans plusieurs feuilles de calcul. Par ailleurs, le système ne peut pas coller certaines des requêtes copiées dans les nouveaux classeurs, car ces requêtes contiennent des filtres d’entrée issus d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
+>Vous ne pouvez pas générer une requête unique dans plusieurs feuilles de calcul. En outre, le système ne peut pas coller certaines des requêtes copiées dans de nouveaux classeurs, car les requêtes contiennent des filtres d’entrée provenant d’autres feuilles de calcul. Les filtres d’entrée incluent des suites de rapports issues des cellules, des plages de dates des cellules, des filtres des cellules et d’autres paramètres connexes.
 
 **Pour copier les requêtes référentielles**
 
