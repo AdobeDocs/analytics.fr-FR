@@ -1,35 +1,37 @@
 ---
-title: Dernières notes de mise à jour dʼAnalytics
+title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f996448224ffebd57023c8d8e4eeeccb4d6e2a47
-workflow-type: ht
-source-wordcount: '920'
-ht-degree: 100%
+source-git-commit: d1b9ef79a456fc52b7fa644d088f7089c9b654e4
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 78%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (Juillet 2023)
+# Notes de mise à jour actuelles d’Adobe Analytics (Août 2023)
 
-**Dernière mise à jour** : 10 juillet 2023
+**Dernière mise à jour** : 9 août 2023
 
-Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
-## Nouvelles fonctionnalités ou améliorations {#features}
+## Nouvelles fonctionnalités ou améliorations entre le 9 août et le 12 septembre 2023 {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Configuration des emplacements de stockage du compte cloud pour l’ingestion de données de classification** | Vous pouvez désormais gérer les emplacements de stockage des comptes Cloud utilisés pour l’automatisation des jeux de classifications. [En savoir plus](/help/components/locations/configure-import-accounts.md)<p> | S.O. | 10 juillet 2023 |
-| **Améliorations du filtre de réparation des données** | Trois améliorations de filtrage ont été ajoutées à la réparation des données :<ul><li>Filtrez selon une variable pour modifier une seconde variable. Par exemple, si `eVar2` contient « @ », supprimez `eVar3`.</li><li>Filtre de valeurs numériques ou non-numériques</li><li>Appliquez plusieurs filtres avec un ET. Par exemple, où `eVar2="a"` ET `eVar3="b"`</li></ul>[En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 21 juin 2023 | 12 juillet 2023 |
-| **Destinations sécurisées pour l’export des flux de données** | Les flux de données peuvent désormais être envoyés vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3</li><li>RBAC Azure</li><li>SAS Azure</li><li>Google Cloud Platform</li></ul>Les destinations auparavant disponibles (FTP, SFTP, S3 et Azure Blob) ne sont plus recommandées. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) | 12 juin 2023 | 13 juillet 2023 |
-| **Nouvelle variable AppMeasurement** | La variable `decodeLinkParameters` prend en charge les cas Edge où les implémentations codent des caractères multi-octet dans les variables de suivi des liens. La plupart des implémentations nʼont pas besoin de définir cette variable. [En savoir plus](../implement/vars/config-vars/decodelinkparameters.md) |  | 17 juillet 2023 |
+| **Jeux de classifications dans API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. | S.O. | 31 août 2023 |
+| **Gestionnaire des activités de rapport** | Le Gestionnaire des activités de création de rapports offre aux administrateurs une visibilité détaillée de la consommation de rapports pour chaque suite de rapports, ce qui permet aux administrateurs de diagnostiquer facilement les problèmes de capacité, puis de les résoudre pendant les heures de pointe de la création de rapports. [En savoir plus](/help/admin/admin/reporting-activity.md) | S.O. | 6 septembre 2023 |
 
 {style="table-layout:auto"}
 
 ## Correctifs dans Adobe Analytics
 
-AN-307816 ; AN-318111 ; AN-318584 ; AN-318828 ; AN-320440 ; AN-320568 ; AN-320616 ; AN-321013 ; AN-321513 ; AN-321520 ; AN-321757 ; AN-321820 ; AN-321917 ; AN-322034 ; AN-322135 ; AN-322140 ; AN-322142 ; AN-322251 ; AN-322353 ; AN-322378 ; AN-322383 ; AN-322427 ; AN-322458 ; AN-322543 ; AN-322630 ; AN-322637 ; AN-322638 ; AN-322647 ; AN-322728 ; AN-322732 ; AN-322777 ; AN-322817 ; AN-322957 ; AN-322958 ; AN-323035 ; AN-323074 ; AN-323150 ; AN-323196 ; AN-323197 ; AN-323205 ; AN-323206 ; AN-323217 ; AN-323224 ; AN-323225 ; AN-323244 ; AN-323257 ; AN-323277 ; AN-323280 ; AN-323293 ; AN-323309 ; AN-323318 ; AN-323468 ; AN-323476 ; AN-323514 ; AN-323572 ; AN-323592 ; AN-323782 ; AN-323835
+* Correction d’un problème en raison duquel les événements personnalisés n’étaient pas chargés. (AN-324163)
+* Correction d’un problème qui empêchait la modification des libellés des légendes dans une visualisation. (AN-323246)
+
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-; AN-320597; AN-320680; AN-320869; AN-321624; AN-; AN-321693; AN-322009; AN-322244; AN-; AN-; AN-; AN-; AN-; AN-; AN-AN; AN-; AN-; AN-; AN-; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN-AN- ; AN-AN-AN-AN-AN-AN-
+
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 

@@ -3,9 +3,9 @@ title: Création d’un flux de données
 description: Découvrez comment créer un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 21%
 
 ---
@@ -45,6 +45,15 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
    | [!UICONTROL **Flux continu**] | Cette case à cocher supprime la date de fin, ce qui permet à un flux de s’exécuter indéfiniment. Lorsqu’un flux termine le traitement de données historiques, un flux attend la fin de la collecte des données pour une heure ou un jour donné. Une fois l’heure ou le jour en question terminé, le traitement commence après le délai indiqué. |
 
 1. Dans le [!UICONTROL **Destination**] , dans la section [!UICONTROL **Type**] , sélectionnez la destination vers laquelle vous souhaitez envoyer les données.
+
+   >[!NOTE]
+   >
+   >Tenez compte des points suivants lors de la configuration d’une destination de rapport :
+   >
+   >* Nous vous recommandons d’utiliser un compte cloud pour votre destination de rapport. [Comptes FTP et SFTP hérités](#legacy-destinations) sont disponibles, mais ne sont pas recommandées.
+   >
+   >* Les comptes cloud sont associés à votre compte utilisateur Adobe Analytics. Les autres utilisateurs ne peuvent pas utiliser ni afficher les comptes cloud que vous configurez.
+   >
 
    ![Menu déroulant de destination des flux de données](assets/datafeed-destinations-dropdown.png)
 
