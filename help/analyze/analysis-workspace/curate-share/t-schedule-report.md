@@ -5,10 +5,10 @@ title: Planification de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 99f9a1d1fa6238918c1566f64df41418cd13fa0e
+source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 86%
+source-wordcount: '257'
+ht-degree: 75%
 
 ---
 
@@ -22,8 +22,8 @@ Pour envoyer un fichier immédiatement aux destinataires par courrier électroni
 
 1. Cliquez sur **[!UICONTROL Partager] > [!UICONTROL Exporter le fichier]**.
 1. Spécifiez le type de fichier :
-   * [!UICONTROL **CSV**]: Choisissez cette option si vous souhaitez des données en texte brut.
-   * [!UICONTROL **PDF**]: Choisissez cette option si vous souhaitez que le fichier téléchargé contienne tous les tableaux et visualisations affichés (visibles) dans le projet.
+   * [!UICONTROL **CSV**]: choisissez cette option si vous souhaitez des données en texte brut.
+   * [!UICONTROL **PDF**]: choisissez cette option si vous souhaitez que le fichier téléchargé contienne tous les tableaux et visualisations affichés (visibles) dans le projet.
 1. (Facultatif) Ajoutez une description à inclure dans le courrier électronique pour expliquer le fichier reçu.
 1. Ajoutez des destinataires ou des groupes. Vous pouvez également saisir les adresses électroniques.
 1. Cliquez sur **[!UICONTROL Envoyer maintenant]**.
@@ -45,38 +45,8 @@ Pour envoyer un fichier selon un calendrier récurrent aux destinataires par cou
 
 ![](assets/send-on-schedule.png)
 
-## Gestionnaire de projets planifiés
+## Gestion des projets planifiés
 
 Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics > Composants > Projets planifiés**.
 
-Dans le Gestionnaire de projets planifiés, vous pouvez modifier et supprimer les calendriers de projets récurrents. Utilisez la barre de recherche ou les options de filtre dans le rail de gauche pour rechercher un calendrier. Vous pouvez filtrer par balise, calendriers approuvés, propriétaires, etc.
-
-![](assets/scheduled-project-manager2.png)
-
-| Champ | Description |
-| --- | --- |
-| [!UICONTROL Favoris] | Sélectionnez l’icône en forme d’étoile pour marquer ce planning comme favori. |
-| [!UICONTROL Identifiant de planification] | Cet identifiant est principalement utilisé à des fins de débogage. |
-| [!UICONTROL Titre et description] | Titre et description de ce projet. |
-| [!UICONTROL Propriétaire] | Personne qui a créé le projet et qui en est le propriétaire. |
-| [!UICONTROL Balises] | (facultatif) Le balisage est un moyen efficace d’organiser les projets. Tous les utilisateurs peuvent créer des balises et en appliquer une ou plusieurs à un projet. Néanmoins, vous ne pouvez afficher les balises que pour les projets que vous possédez ou qui ont été partagés avec vous. |
-| [!UICONTROL Distribué à] | Le ou les destinataires de ce projet planifié. |
-| [!UICONTROL Date d’expiration] | Pour toute fréquence de projet planifiée, vous pouvez définir la date d’expiration jusqu’à un an à l’avenir. |
-| [!UICONTROL Fréquence] | Fréquence à laquelle vous souhaitez envoyer ce projet planifié au(x) destinataire(s). |
-| [!UICONTROL Heure d’exécution] | Heure à laquelle ce projet planifié est envoyé. |
-| [!UICONTROL Nombre de requêtes] | Nombre de requêtes concernant ce projet. |
-
-## Actions courantes
-
-Actions courantes du Gestionnaire de projets planifiés :
-
-| Action | Description |
-|---|---|
-| **[!UICONTROL Modifier le planning]** | Cliquez sur le titre du planning pour mettre à jour les paramètres de livraison. |
-| **[!UICONTROL Supprimer le planning]** | Sélectionnez le projet planifié dans la liste, puis cliquez sur Supprimer dans le menu. Cela supprime le planning sélectionné pour le projet ; le projet lui-même n’est pas supprimé. |
-| **[!UICONTROL Ajout de balises]** | Sélectionnez le projet planifié dans la liste, puis « Balise » ou « Approuver » pour organiser vos plannings et faciliter les recherches. |
-| **[!UICONTROL Afficher les plannings échoués]** | Accédez au rail de gauche > Autres filtres > Échec pour afficher les plannings qui ont échoué. |
-| **[!UICONTROL Afficher les plannings expirés]** | Accédez au rail de gauche > Autres filtres > Expiré pour afficher les plannings qui ont expiré. Cliquez sur le titre du planning pour configurer un nouveau planning de diffusion. |
-| **[!UICONTROL Afficher l’ID de planning]** | Accédez aux options relatives aux colonnes dans le coin supérieur droit et ajoutez la colonne ID de planning dans le tableau. L’ID planifié est souvent utile pour le débogage. |
-
-Le Gestionnaire de planification des projets affiche les éléments créés par un utilisateur spécifique. Si le compte d’utilisateur est désactivé dans l’application, toutes les livraisons planifiées sont interrompues. La propriété du projet planifié peut être **transférée** à un nouvel utilisateur sous **Admin > Utilisateurs et ressources Analytics > Transférer les ressources**.
+Pour plus d’informations, reportez-vous à la section
