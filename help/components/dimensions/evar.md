@@ -3,10 +3,10 @@ title: eVar (dimension)
 description: Une dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 97%
 
 *Cette page d’aide décrit le fonctionnement des eVars en tant que dimension. Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’[!UICONTROL eVars]. Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports].
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous avez une [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent comme [!UICONTROL eVars], en plus de la dimension par défaut disponible avec Adobe Analytics, comme &quot;Nom de page&quot;, &quot;Domaine référent&quot;, &quot;Canal&quot;. Voir [Présentation de la Dimension](overview.md) pour plus d’informations.
+
+Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports]. Voir ci-dessous un exemple de définitions d’eVar dans l’interface utilisateur des variables de conversion.
+
+![Exemples d’eVar](assets/evars-sample.png)
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
@@ -51,12 +55,12 @@ Une version simplifiée des données brutes se présenterait comme suit :
 
 | `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
 | --- | --- | --- | --- | --- |
-| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Home page` | | | |
 | `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
-| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
-| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
-| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
-| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
 * La colonne `visitor_id` lie les accès au même visiteur. Dans les données brutes réelles, les valeurs concaténées de `visid_high` et de `visid_low` déterminent l’ID de visiteur.
 * La colonne `pagename` renseigne la dimension Pages.
