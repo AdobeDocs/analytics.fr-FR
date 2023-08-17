@@ -4,9 +4,9 @@ title: Présentation d’Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ La variable [!UICONTROL Composants] comprend des fonctionnalités qui vous aiden
 
    ![Onglet Workspace](assets/components-tab.png)
 
-2. Sélectionnez l’une des fonctionnalités de produit suivantes pour la configurer (en fonction de vos autorisations, il se peut que toutes les fonctionnalités ne soient pas visibles).
+2. Sélectionnez l’une des fonctionnalités de produit suivantes pour la configurer :
 
 
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
