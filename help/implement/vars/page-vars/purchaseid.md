@@ -3,10 +3,10 @@ title: purchaseID
 description: Permet de dédupliquer les accès en fonction d’un identifiant d’achat unique.
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `purchaseID` permet d’empêcher les accès contenant le même acha
 
 Lorsqu’Adobe reconnaît un accès comme un achat en double, toutes les données de conversion (telles que les eVars et les événements) ne s’affichent pas dans les rapports. Dans les flux de données, la colonne `duplicate_purchase` est définie sur `1`.
 
-Les identifiants d’achat s’appliquent à tous les visiteurs et n’expirent pas. Si un visiteur définit un identifiant d’achat donné, puis un autre visiteur définit le même identifiant d’achat un an plus tard, le second achat est dédupliqué.
+Les identifiants d’achat s’appliquent à tous les visiteurs et expirent après 37 mois. Si un visiteur définit un identifiant d’achat donné, puis un autre visiteur définit le même identifiant d’achat un an plus tard, le second achat est dédupliqué.
 
 ## Identifiant d’achat à l’aide du SDK Web
 
