@@ -4,9 +4,9 @@ title: Présentation d’Adobe Analytics
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5077'
 ht-degree: 41%
 
 ---
@@ -21,7 +21,7 @@ Vous trouverez ci-dessous quelques-uns des moyens clés par lesquels Adobe Analy
 
 Pour plus d’informations sur les avantages d’Adobe Analytics, voir [Page produit Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### Web Analytics
++++Web Analytics
 
 Adobe Analytics fournit les outils de segmentation et de prédiction complexes suivants pour analyser le trafic du site web :
 
@@ -31,7 +31,9 @@ Adobe Analytics fournit les outils de segmentation et de prédiction complexes s
 
 * [Segmentation avancée](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr)
 
-### Analyses marketing
++++
+
++++Analyses marketing
 
 Adobe Analytics aide les entreprises à comprendre où les clients interagissent avec leurs marques, quels canaux les clients préfèrent et quelles expériences résonnent avec eux.
 
@@ -43,14 +45,18 @@ Les fonctionnalités clés suivantes d’Adobe Analytics fournissent ces fonctio
 
 * [Analyses ad hoc dans Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-### Attribution
++++
+
++++Attribution
 
 L’attribution permet aux entreprises de voir de quelle façon les différentes interactions sur l’ensemble du parcours client affectent la conversion. Outre les options d’attribution plus traditionnelles, telles que les modèles linéaire ou Première touche, l’attribution dans Adobe Analytics utilise également l’apprentissage automatique et les modèles statistiques avancés pour comprendre l’impact précis de chaque touche.
 
 Pour plus d’informations, voir [Modèles d’attribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### Analyses prédictives
+
++++Analyses prédictives
 
 L’analyse prédictive utilise l’apprentissage automatique et la modélisation statistique avancée pour analyser les données client, rechercher des modèles et prédire le comportement futur, comme l’attrition ou la probabilité de conversion. Cela permet aux analystes de données de tirer parti d’énormes jeux de données qui pourraient autrement être gaspillés.
 
@@ -61,6 +67,8 @@ Les fonctions clés suivantes d’Adobe Analytics fournissent ces fonctions pré
 * [Analyse des contributions](#contribution-analysis)
 
 * [Alertes intelligentes](#intelligent-alerts)
+
++++
 
 ## Conditions préalables requises pour l’utilisation d’Adobe Analytics
 
@@ -78,9 +86,13 @@ Pour pouvoir utiliser Adobe Analytics, vous devez disposer des éléments suivan
 
 ## Présentation de l’interface Analytics
 
-L’interface d’Adobe Analytics se compose des zones principales suivantes :
+L’interface d’Adobe Analytics se compose des principaux domaines suivants, notamment des onglets pour la gestion des projets dans Analysis Workspace, la gestion des composants, des outils et des fonctions d’administrateur.
 
-### Onglet Workspace
+![Onglet Workspace](assets/landing-all2.png)
+
+Développez les sections suivantes pour en savoir plus sur chaque zone d’Analysis Workspace :
+
+Onglet +++Espace de travail
 
 La variable [!UICONTROL Workspace] affiche la [!UICONTROL Projets] par défaut, qui affiche le dossier Société, les dossiers personnels que vous avez créés, vos projets et vos fiches d’évaluation mobiles.
 
@@ -90,13 +102,17 @@ La variable [!UICONTROL Workspace] affiche la [!UICONTROL Projets] par défaut, 
 
 Pour plus d’informations sur les fonctionnalités disponibles dans la section [!UICONTROL Workspace] , voir [Page d’entrée Adobe Analytics](/help/analyze/landing.md).
 
-### Onglet Rapports
++++
+
++++Onglet Rapports
 
 À compter du 31 décembre 2023, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés.
 
 Utilisez plutôt la variable [!UICONTROL **Rapports**] dans le rail de gauche sur la [!UICONTROL **Workspace**] . Pour plus d’informations, voir *Navigation dans l’onglet Rapports* in [Page d’entrée Adobe Analytics](/help/analyze/landing.md).
 
-### Onglet Composants
++++
+
++++Onglet Composants
 
 La variable [!UICONTROL Composants] comprend des fonctionnalités qui vous aident à affiner et à optimiser votre analyse des données.
 
@@ -128,7 +144,9 @@ La variable [!UICONTROL Composants] comprend des fonctionnalités qui vous aiden
 
    {style="table-layout:auto"}
 
-### Onglet Outils
++++
+
++++Onglet Outils
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ La variable [!UICONTROL Composants] comprend des fonctionnalités qui vous aiden
 
    {style="table-layout:auto"}
 
-### Onglet Admin
++++
+
+Onglet +++Admin
 
 L’onglet Admin comprend des fonctionnalités et des options de configuration pour administrer Adobe Analytics.
 
@@ -194,7 +214,9 @@ L’onglet Admin comprend des fonctionnalités et des options de configuration p
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace vous permet de créer rapidement des analyses pour recueillir des informations, puis de les partager avec d’autres personnes. L’interface de navigateur par glisser-déposer vous permet de concevoir votre analyse, d’ajouter des visualisations pour donner vie aux données, de traiter un jeu de données et de partager et de planifier des projets avec toute personne de votre choix.
 
@@ -210,6 +232,8 @@ Pour une présentation plus détaillée d’Analysis Workspace, voir [Présentat
 | B | **Rail de gauche :** selon l’onglet sélectionné dans le rail à l’extrême gauche, cette zone contient des panneaux, des visualisations ou des composants particuliers. |
 | C | **Zone de travail :** il s’agit de la zone principale dans laquelle vous faites glisser le contenu des rails de gauche pour créer votre projet. Le projet se met à jour dynamiquement lorsque vous ajoutez des panneaux, des visualisations et des composants à la zone de travail. |
 | D | **Menu déroulant Suite de rapports :** pour chaque panneau d’Analysis Workspace, le menu déroulant Suite de rapports vous permet de choisir la suite de rapports à utiliser comme source de données. |
+
++++
 
 ## Prise en main destinée aux administrateurs, analystes, utilisateurs finaux et développeurs
 
