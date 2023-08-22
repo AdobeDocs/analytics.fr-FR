@@ -4,9 +4,9 @@ description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 79%
 
 **Dernière mise à jour** : 9 août 2023
 
-Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Jeux de classifications dans API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. | S.O. | 31 août 2023 |
-| **Gestionnaire des activités de rapport** | Le Gestionnaire des activités de création de rapports offre aux administrateurs une visibilité détaillée de la consommation de rapports pour chaque suite de rapports, ce qui permet aux administrateurs de diagnostiquer facilement les problèmes de capacité, puis de les résoudre pendant les heures de pointe de la création de rapports. [En savoir plus](/help/admin/admin/reporting-activity.md) | S.O. | 6 septembre 2023 |
+| **Jeux de classifications dans l’API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. | S.O. | 31 août 2023 |
+| **Gestionnaire des activités de rapport** | Le Gestionnaire des activités de rapports offre aux administrateurs et aux administratrices une visibilité détaillée de la consommation de rapports pour chaque suite de rapports. Cela permet aux administrateurs et aux administratrices de diagnostiquer facilement les problèmes de capacité, puis de les résoudre pendant les heures de pointe de la création de rapports. [En savoir plus](/help/admin/admin/reporting-activity.md) | S.O. | 6 septembre 2023 |
 
 {style="table-layout:auto"}
 
@@ -30,7 +30,7 @@ Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 202
 * Correction d’un problème en raison duquel les événements personnalisés n’étaient pas chargés. (AN-324163)
 * Correction d’un problème qui empêchait la modification des libellés des légendes dans une visualisation. (AN-323246)
 
-AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-; AN-320597; AN-320680; AN-320869; AN-321624; AN-; AN-321693; AN-322009; AN-322244; AN-; AN-; AN-; AN-; AN-; AN-; AN-AN; AN-; AN-; AN-; AN-; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN-AN- ; AN-AN-AN-AN-AN-AN-
+AN-315605; AN-316306; AN-317494; AN-317844; AN-320424; AN-320597; AN-320680; AN-320869; AN-321624; AN-321693; AN-322009; AN-322244; AN-322380; AN-322432; AN-322466; AN-322556; AN-322669; AN-322735; AN-323151; AN-323220; AN-323380; AN-323492; AN-323595; AN-323755; AN-323854; AN-323916; AN-324044; AN-324200; AN-324213; AN-324238; AN-324347; AN-323598; AN-323625; AN-323631; AN-323638; AN-323641; AN-323755; AN-323767; AN-323777; AN-323825; AN-323846; AN-323972; AN-324113; AN-324170; AN-324197; AN-324273; AN-324275; AN-324345; AN-324384; AN-324433; AN-324511; AN-324513; AN-324521; AN-324524; AN-324531; AN-324532; AN-324534; AN-324537; AN-324569; AN-324618; AN-324635; AN-324688; AN-324704; AN-324712; AN-324721; AN-324745; AN-324792; AN-324793; AN-324794; AN-324795; AN-324824; AN-324905; AN-324918; AN-324932; AN-324934; AN-324947; AN-325003; AN-325073; AN-325143; AN-325148; AN-325153; AN-325177; AN-325187; AN-325252; AN-325305; AN-325363; AN-325401; AN-325439; AN-325431; AN-325491; AN-325495; AN-325508; AN-325594; AN-325601; AN-325660; AN-325779; AN-325857; AN-325883; AN-325885; AN-325886
 
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
