@@ -3,8 +3,8 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 00fd63b7486382da5506d16540bb949c52541c6d
-workflow-type: ht
+source-git-commit: 2232778be91502eca2ecdc2c9598b8a3375abb8b
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Notes de mise à jour actuelles d’Adobe Analytics (Août 2023)
 
-**Dernière mise à jour** : 9 août 2023
+**Dernière mise à jour** : 24 août 2023
 
 Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,8 +20,8 @@ Ces notes de mise à jour portent sur la période du 9 août au 13 septembre 
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Jeux de classifications dans l’API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. | S.O. | 31 août 2023 |
-| **Gestionnaire des activités de rapport** | Le Gestionnaire des activités de rapports offre aux administrateurs et aux administratrices une visibilité détaillée de la consommation de rapports pour chaque suite de rapports. Cela permet aux administrateurs et aux administratrices de diagnostiquer facilement les problèmes de capacité, puis de les résoudre pendant les heures de pointe de la création de rapports. [En savoir plus](/help/admin/admin/reporting-activity.md) | S.O. | 6 septembre 2023 |
+| **Jeux de classifications dans l’API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. | S.O. | 30 août 2023 |
+| **Gestionnaire des activités de rapport** | Le Gestionnaire des activités de rapports offre aux administrateurs et aux administratrices une visibilité détaillée de la consommation de rapports pour chaque suite de rapports. Cela permet aux administrateurs et aux administratrices de diagnostiquer facilement les problèmes de capacité, puis de les résoudre pendant les heures de pointe de la création de rapports. [En savoir plus](/help/admin/admin/reporting-activity.md) | S.O. | 12 septembre 2023 |
 
 {style="table-layout:auto"}
 
