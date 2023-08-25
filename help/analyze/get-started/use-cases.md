@@ -2,12 +2,10 @@
 description: Cette section contient des informations générales sur Adobe Analytics, notamment des informations sur l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, aux analystes, aux utilisateurs et aux développeurs.
 title: Cas d’utilisation Analytics
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 4%
+source-wordcount: '291'
+ht-degree: 7%
 
 ---
 
@@ -34,7 +32,7 @@ Adobe Analytics aide les entreprises à comprendre où les clients interagissent
 
 Les fonctionnalités clés suivantes d’Adobe Analytics fournissent ces fonctionnalités marketing :
 
-* Collecte de données multicanal
+* [Collecte de données multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=fr)
 
 * [Intégration des données hors ligne](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
 

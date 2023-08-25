@@ -2,20 +2,24 @@
 description: Cette section contient des informations générales sur Adobe Analytics, notamment des informations sur l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, aux analystes, aux utilisateurs et aux développeurs.
 title: Prise en main destinée aux administrateurs, analystes, utilisateurs finaux et développeurs
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1901'
 ht-degree: 34%
 
 ---
 
 # Prise en main destinée aux administrateurs, analystes, utilisateurs finaux et développeurs
 
-Il existe trois types d’utilisateurs Adobe Analytics dans une organisation type : administrateurs, analystes et utilisateurs finaux.
+Il existe quatre types d’utilisateurs Adobe Analytics dans une organisation type :
 
-Les administrateurs implémentent et configurent Adobe Analytics ; les analystes configurent des projets et créent des analyses à l’aide d’Analysis Workspace ; les utilisateurs finaux obtiennent des informations exploitables sur leurs clients, soit en créant leurs propres analyses, soit en travaillant avec des analystes pour les créer.
+* **Administrateurs :** Mettez en oeuvre et configurez Adobe Analytics.
+
+* **Analystes :** Configuration de projets et création d’analyses à l’aide d’Analysis Workspace
+
+* **Utilisateurs finaux :** Obtenir des informations exploitables sur leurs clients, soit en créant leurs propres analyses, soit en travaillant avec des analystes pour les créer
+
+* **Développeurs :** Utilisez les API Adobe Analytics 2.0 pour appeler directement les serveurs d’Adobe afin d’effectuer pratiquement toute action pouvant être effectuée dans l’interface utilisateur, comme créer des rapports à explorer, obtenir des informations ou répondre à des questions importantes sur les données.
 
 Les informations ci-dessous décrivent la prise en main d’Adobe Analytics pour chacun de ces utilisateurs.
 
@@ -68,13 +72,13 @@ Les administrateurs d’Analytics doivent effectuer les tâches suivantes avant 
 | Définition des autorisations | Les administrateurs d’Analytics doivent affecter des profils de produit dans le Admin Console pour Adobe Analytics, les outils de suites de rapports et les outils Analytics. | [Autorisations Analytics dans l’Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=fr) |
 | Configurer des suites de rapports et définir des paramètres pour votre entreprise | Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour générer des rapports.<p>Les administrateurs peuvent également configurer [suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) pour segmenter davantage les données.</p> | <ul><li>[Création d’une suite de rapports](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=en)</li><li>[Présentation des paramètres de l’entreprise](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en)</li></ul> |
 | Importer des données | Les sources de données Adobe Analytics vous permettent d’importer des données en ligne ou hors ligne supplémentaires pour la création de rapports. | [Présentation des sources de données](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
-| Classification des données avec des classifications | Les classifications vous permettent de classer les données afin de mieux utiliser les variables, ce qui vous permet d’inclure plus de contenu dans une seule variable. | |
+| Classification des données avec des classifications | Les classifications vous permettent de classer les données afin de mieux utiliser les variables, ce qui vous permet d’inclure plus de contenu dans une seule variable. | [Présentation des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) |
 | Gérer les composants | Utilisez le dictionnaire de données et les zones de gestion pour chaque type de composant pour définir les composants disponibles dans votre implémentation Analytics, ainsi que ceux qui sont approuvés pour votre organisation.<p>Il doit s’agir d’une activité continue visant à vous assurer que les composants sont utilisés efficacement dans votre entreprise. </p> | <ul><li>[Présentation du dictionnaire de données](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=fr)</li><li>[Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[Gestion des segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr)</li><li>[Création de périodes personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr)</li></ul> |
 | Détection des anomalies | La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures. | [Détection des anomalies - Aperçu](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr) |
 | Analyse des contributions | L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents. | [Analyse des contributions - Aperçu](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr) |
 | Segmentation Analytics | Vous permet de créer, gérer, partager et appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités d’Analytics, de Adobe Experience Cloud, d’Adobe Target et d’autres produits d’Adobe intégrés. | [Segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) |
-| Publication d’audiences sur Audience Manager | | |
-| Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr">Media Analytics</a></li> | |
+| Publication d’audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion de données qui vous permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de deuxième partie (partenaire) et de troisième partie. | [Audience Analytics - Aperçu](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr) |
+| Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr">Media Analytics</a></li> | [Intégration d’Analytics](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=fr) |
 
 {style="table-layout:auto"}
 

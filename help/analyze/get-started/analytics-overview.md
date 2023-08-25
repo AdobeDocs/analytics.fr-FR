@@ -2,11 +2,9 @@
 description: Cette section contient des informations générales sur Adobe Analytics, notamment des informations sur l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, aux analystes, aux utilisateurs et aux développeurs.
 title: Présentation d’Adobe Analytics
 feature: Analytics Basics
-hide: true
-hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '446'
 ht-degree: 47%
 
 ---
@@ -23,7 +21,7 @@ Utilisez les ressources suivantes pour découvrir les principes de base d’Adob
 | Ressource de documentation | Fonction |
 |---------|----------|
 | [Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md) | Fournit des informations détaillées expliquant les fonctions et tâches clés que vous devez connaître, que vous soyez administrateur, analyste, utilisateur final ou développeur. |
-| [Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md) | Ventile les zones clés de l’interface d’Analytics. |
+| [Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md) | Décrit les principaux domaines de l’interface d’Analytics. |
 | [Cas d’utilisation](/help/analyze/get-started/use-cases.md) | Explique quelques-unes des principales manières dont Adobe Analytics aide les entreprises à obtenir des informations essentielles pour mieux servir leurs clients. |
 | [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md) | Contient des cas d’utilisation recommandés pour chaque outil Adobe Analytics. |
 | [Configuration requise et comparaison des produits Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Compare les différents produits Adobe Analytics disponibles. |
