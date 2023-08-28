@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 9ae046e99b25cf8d648d80968124f9688fdd3cd5
+source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -29,9 +29,9 @@ Segments identifier
 
 Les segments peuvent être basés sur les valeurs suivantes :
 
-- Visiteurs sur la base d’attributs : type de navigateur, périphérique, nombre de visites, pays, sexe.
+- Visiteurs sur la base d’attributs : type de navigateur, appareil, nombre de visites, pays, sexe.
 - Visiteurs sur la base d’interactions : campagnes, recherche par mots-clés, moteur de recherche.
-- Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page d’entrée définie, d’un domaine référent.
+- Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page de destination définie, d’un domaine référent.
 - Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
 
 Lors de la création de segments d’audiences dans le Créateur de segments, vous définissez des conditions en utilisant les opérateurs [!UICONTROL AND] et [!UICONTROL OR] entre les conteneurs.
@@ -114,7 +114,7 @@ Ce type de segment filtre les jeux de données en fonction de caractéristiques 
 - Le [gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
 - Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.
 - Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-- Le [!UICONTROL Page vue] Le conteneur est désormais [!UICONTROL Accès] pour indiquer que ce conteneur segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
+- La variable [!UICONTROL Page vue] Le conteneur est désormais [!UICONTROL Accès] pour indiquer que ce conteneur segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
 
 ## Segmentation dans Analysis Workspace
 
@@ -124,9 +124,9 @@ Analysis Workspace contient les fonctionnalités supplémentaires suivantes :
 - Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans une comparaison.
 - Utilisez des segments dans [l’analyse des abandons](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md).
 
-## Segments fournis par l’Adobe
+## Segments fournis par Adobe
 
-Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés et les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite.
+Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés et les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite.
 
 ## Segments séquentiels  {#sequential}
 
@@ -141,7 +141,7 @@ Les segments séquentiels permettent d’identifier les visiteurs selon la navig
 Les segments séquentiels peuvent être basés sur les valeurs d’accès suivantes :
 
 - Visiteurs sur la base d’une séquence d’accès aux pages : pages vues au cours d’une seule visite, pages vues lors de visites distinctes, visites qui ont exclu les pages vues.
-- Visiteurs sur la base de la durée entre et après les pages vues : après une limite de temps, entre les accès, après un événement.
+- Visiteurs sur la base de la durée entre et après les pages vues : après une durée, entre les accès, après un événement.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -239,7 +239,7 @@ Un segment séquentiel filtre des jeux de données sur la base des actions de l�
 
 Cette vidéo donne un bref aperçu des conteneurs de segments et de leur utilisation :
 
-![](https://video.tv.adobe.com/v/25401)
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
 
 ## Accès aux outils de segmentation {#access}
@@ -252,7 +252,7 @@ Accédez au Créateur de segments en procédant comme suit :
 
 - Dans la partie supérieure du Gestionnaire de segments, cliquez sur **[!UICONTROL + Ajouter]**.  ![Bouton Ajouter](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
-   ou
+  ou
 
 - cliquez sur le titre d’un segment existant dans le Gestionnaire de segments afin de le modifier dans le Créateur de segments.
 
