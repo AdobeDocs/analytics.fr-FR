@@ -3,10 +3,10 @@ title: Création d’un flux de données
 description: Découvrez comment créer un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3174'
-ht-degree: 21%
+source-wordcount: '3175'
+ht-degree: 20%
 
 ---
 
@@ -41,7 +41,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
    | [!UICONTROL **Envoyer un courrier électronique à la fin**] | L’adresse électronique à laquelle envoyer une notification lorsqu’un flux termine le traitement. L’adresse e-mail doit être correctement formatée. |
    | [!UICONTROL **Intervalle du flux**] | Sélectionner **Qualité** pour les données de renvoi ou historiques. Les flux quotidiens contiennent l’équivalent d’une journée complète de données, de minuit à minuit, dans le fuseau horaire de la suite de rapports.  Sélectionner **Horaire** pour les données continues (le quotidien est également disponible pour les flux continus si vous préférez). Les flux horaires contiennent l’équivalent d’une seule heure de données. |
    | [!UICONTROL **Traitement du délai**] | Patientez un certain temps avant de traiter un fichier de flux de données. Il peut être utile de mettre en place un délai pour donner aux appareils hors ligne la possibilité de se connecter et d’envoyer leurs données dans le cadre d’implémentations mobiles. Il est également possible d’utiliser un délai pour adapter les processus côté serveur de votre entreprise en ce qui concerne la gestion des fichiers traités précédemment. Dans la plupart des cas aucun délai n’est nécessaire. Un flux peut être se voir attribuer un délai pouvant aller jusqu’à 120 minutes. |
-   | [!UICONTROL **Dates de début et de fin**] | La date de début indique la première date à laquelle vous souhaitez un flux de données. Définissez cette date dans le passé pour commencer immédiatement à traiter les flux de données des données historiques. Le traitement du flux se poursuit jusqu’à ce que la date de fin soit atteinte. Les dates de début et de fin sont définies en fonction du fuseau horaire de la suite de rapports. |
+   | [!UICONTROL **Dates de début et de fin**] | La date de début indique la date de début du flux de données. Pour commencer immédiatement à traiter les flux de données pour les données historiques, définissez cette date sur n’importe quelle date antérieure à laquelle les données sont collectées. Les dates de début et de fin sont définies en fonction du fuseau horaire de la suite de rapports. |
    | [!UICONTROL **Flux continu**] | Cette case à cocher supprime la date de fin, ce qui permet à un flux de s’exécuter indéfiniment. Lorsqu’un flux termine le traitement de données historiques, un flux attend la fin de la collecte des données pour une heure ou un jour donné. Une fois l’heure ou le jour en question terminé, le traitement commence après le délai indiqué. |
 
 1. Dans le [!UICONTROL **Destination**] , dans la section [!UICONTROL **Type**] , sélectionnez la destination vers laquelle vous souhaitez envoyer les données.
@@ -105,7 +105,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Nom**] | Nom du compte. |
          | [!UICONTROL **Description**] | Description du compte. |
          | [!UICONTROL **Compartiment**] | Le compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que le User ARN fourni par Adobe a accès aux fichiers de chargement vers ce compartiment. |
-         | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -123,7 +123,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification, puis accordez des autorisations d’accès dans le contrôle d’accès (IAM).
 
-      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans la console d’administration d’Adobe Analytics, dans le [!UICONTROL **Destination**] , sélectionnez [!UICONTROL **Azure RBAC**].
 
@@ -183,7 +183,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification.
 
-      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Principale Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d’informations, reportez-vous au [Documentation Microsoft Azure sur la création d’une application Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans la console d’administration d’Adobe Analytics, dans le [!UICONTROL **Destination**] , sélectionnez [!UICONTROL **Azure SAS**].
 
@@ -282,7 +282,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Nom**] | Nom du compte. |
          | [!UICONTROL **Description**] | Description du compte. |
          | [!UICONTROL **Compartiment**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que vous avez autorisé l’entité de sécurité fournie par Adobe pour charger des fichiers dans ce compartiment. |
-         | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
 
          {style="table-layout:auto"}
 
