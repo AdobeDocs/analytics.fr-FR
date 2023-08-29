@@ -4,9 +4,9 @@ title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
 * Pour accéder aux données en temps réel dans l’interface utilisateur.
 * Pour configurer les événements du calendrier.
 * Pour configurer les cibles.
-* Pour accéder à des visualisations vidéo uniques relatives à la Tranche horaire de la vidéo et à l’Abandon du visionnage.
+* Pour accéder à des visualisations vidéo uniques relatives à la tranche horaire de la vidéo et à l’abandon du visionnage.
 
 >[!IMPORTANT]
 >
 >À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=fr)** doit être utilisé :
+**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=fr)** doit être utilisé :
 
 * Pour la modélisation statistique de prédiction (score de propension, mise en cluster, corrélations, etc.).
 * Pour l’analyse de latence (durée avant/depuis un événement).
@@ -44,10 +44,10 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
 
 >[!IMPORTANT]
 >
->En savoir plus sur le Data Workbench [Annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+>En savoir plus sur l’[annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) de Data Workbench.
 
 
-## Importation de données dans Adobe Analytics  {#import}
+## Importer des données dans Adobe Analytics {#import}
 
 **[Les classifications](/help/components/classifications/c-classifications.md)** doivent être utilisées :
 
