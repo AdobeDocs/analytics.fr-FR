@@ -1,17 +1,18 @@
 ---
-description: Cette section contient des informations générales sur Adobe Analytics, notamment des informations sur l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, aux analystes, aux utilisateurs et aux développeurs.
-title: Présentation d’Adobe Analytics
+description: Vue d’ensemble des informations générales sur Adobe Analytics, notamment sur l’interface d’Analytics, ainsi que sur la prise en main destinées aux administrateurs et administratrices, aux analystes, aux utilisateurs et utilisatrices et aux développeurs et développeuses.
+short-description: Découvrez les fonctionnalités clés, les cas d’utilisation courants et les premières étapes pour les analystes, les utilisateurs finaux et les administrateurs.
+title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
+source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 47%
+source-wordcount: '461'
+ht-degree: 77%
 
 ---
 
-# Présentation d’Adobe Analytics
+# Vue d’ensemble d’Adobe Analytics
 
-Adobe Analytics permet aux entreprises de collecter des données et d’obtenir des informations exploitables à partir de n’importe quelle interaction client numérique. Grâce à une analyse approfondie, à des rapports polyvalents et à des renseignements prédictifs, les entreprises disposent des bases intelligentes dont elles ont besoin pour créer de meilleures expériences pour leurs clients.
+Adobe Analytics permet aux organisations de collecter des données et d’obtenir des informations exploitables à partir de n’importe quelle interaction numérique avec un client ou une cliente. Grâce à une analyse approfondie, à des rapports polyvalents et à des renseignements prédictifs, les organisations disposent des bases intelligentes dont elles ont besoin pour créer une meilleure expérience pour leur clientèle.
 
 ## Commencer avec Adobe Analytics
 
@@ -27,19 +28,19 @@ Utilisez les ressources suivantes pour découvrir les principes de base d’Adob
 | [Configuration requise et comparaison des produits Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Compare les différents produits Adobe Analytics disponibles. |
 | [Configuration système requise](/help/analyze/get-started/sys-reqs.md) | Explique les conditions préalables et la configuration système requise pour la mise en oeuvre et l’utilisation d’Adobe Analytics. |
 
-## Vue d’ensemble des vidéos
+## Vue d’ensemble en vidéo
 
-Pour en savoir plus sur les principes de base d’Adobe Analytics, consultez cette section *Présentation d’Adobe Analytics - Webinaire Skill Builder* vidéo. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base pour créer, déployer, collecter et interpréter les données, ce qui vous permet de fournir des informations pratiques et des recommandations basées sur les données collectées.
+Pour en savoir plus sur les principes de base d’Adobe Analytics, regardez la vidéo *Présentation d’Adobe Analytics - webinaire de développement des compétences*. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données et de fournir des informations exploitables et des recommandations en fonction des données collectées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
-Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=fr).
+Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=fr).
 
-## Aller plus loin avec le Customer Journey Analytics
+## Aller plus loin avec Customer Journey Analytics
 
-Customer Journey Analytics est une solution d’analyse Adobe qui vous permet d’utiliser toute la puissance d’Analysis Workspace avec les données d’Adobe Experience Platform. Elle permet de ventiler, filtrer, interroger et visualiser des données sur plusieurs années, en conjonction avec la capacité de Platform à contenir toutes sortes de schémas et types de données.
+Customer Journey Analytics est la solution d’analyse nouvelle génération d’Adobe qui vous permet d’utiliser toute la puissance d’Analysis Workspace avec les données d’Adobe Experience Platform. Elle permet de ventiler, filtrer, interroger et visualiser des données sur plusieurs années, en conjonction avec la capacité de Platform à contenir toutes sortes de schémas et types de données.
 
-Voici quelques avantages de Customer Journey Analytics par rapport à Adobe Analytics :
+Voici quelques avantages de Customer Journey Analytics par rapport à Adobe Analytics :
 
 * **Variables et événements illimités** : Les concepts d’eVars, de props et d’événements n’existent plus. Les données sont principalement axées sur les dimensions et les mesures. Les jeux de données peuvent comporter un nombre illimité de dimensions et de mesures uniques.
 
@@ -49,5 +50,5 @@ Voici quelques avantages de Customer Journey Analytics par rapport à Adobe Anal
 
 * **Données cross-suites de rapports** : les implémentations existantes de plusieurs jeux de données peuvent être combinées dans Platform.
 
-Pour plus d’informations, voir [Présentation du Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr).
+Pour plus d’informations, consultez la [vue d’ensemble de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr).
 
