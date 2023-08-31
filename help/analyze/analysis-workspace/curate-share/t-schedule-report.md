@@ -1,20 +1,20 @@
 ---
-description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez une livraison.
+description: Envoyez un projet Analysis Workspace par courrier électronique ou planifiez sa livraison.
 keywords: Analysis Workspace
 title: Planification de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # Planification de projets
 
-Dans le **menu Partager** de Workspace, vous pouvez envoyer des projets Analysis Workspace par courrier électronique aux destinataires sélectionnés. Les fichiers peuvent être envoyés au format CSV ou PDF.
+À partir de Workspace **Menu Partager**, vous pouvez envoyer des projets Analysis Workspace par courrier électronique aux destinataires sélectionnés. Les fichiers peuvent être envoyés au format CSV ou PDF. Une fois que vous avez partagé des projets planifiés, vous pouvez modifier les paramètres de planification afin de modifier la fréquence, la liste des destinataires ou le type de fichier à l’aide du gestionnaire de projets planifiés.
 
 ## Envoyer le fichier maintenant
 
@@ -47,6 +47,14 @@ Pour envoyer un fichier selon un calendrier récurrent aux destinataires par cou
 
 ## Gestion des projets planifiés
 
-Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics > Composants > Projets planifiés**.
+Lorsque vous gérez des projets planifiés, vous pouvez modifier et supprimer des plannings de projet récurrents :
+
+* Modification du type de fichier (.csv ou PDF)
+* Mise à jour de la description du projet
+* Ajouter ou supprimer des destinataires
+* Modification de la fréquence
+
+
+Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics > Composants > Projets planifiés**.
 
 Pour plus d’informations, voir [Projets planifiés](/help/components/scheduled-projects-manager.md)
