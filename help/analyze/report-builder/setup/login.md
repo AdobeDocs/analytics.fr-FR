@@ -5,10 +5,10 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 48%
+source-wordcount: '251'
+ht-degree: 36%
 
 ---
 
@@ -20,25 +20,27 @@ ht-degree: 48%
 
 Pour vous connecter à Report Builder, utilisez votre compte de connexion Experience Cloud.
 
-## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Connectez-vous à Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse e-mail et mot de passe) pour vous connecter à Adobe Experience Cloud. Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour en savoir plus sur l’Enterprise ID, cliquez [ici](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
+La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse e-mail et mot de passe) pour vous connecter à Adobe Experience Cloud.
 
-![](assets/adobe_id_login.png)
+Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour plus d’informations sur Enterprise ID, voir [Connectez-vous à votre compte d’entreprise ou d’école](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
+
+![Capture d’écran montrant la fenêtre de connexion Adobe Experience Cloud présentant les options de connexion avec ou sans Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
 >La connexion à Experience Cloud repose sur une session ; le jeton expire après 30 jours.
 
-## Connexion au Report Builder
+## Connexion à Report Builder
 
-Pour vous connecter au Report Builder
+Connexion au Report Builder
 
 1. Dans Excel, cliquez sur **[!UICONTROL Compléments]**.
-1. Cliquez sur **[!UICONTROL Se connecter]**. Autres opérations de connexion :
+1. Cliquez sur **[!UICONTROL Se connecter]**. Vous pouvez également signer à l’aide des méthodes suivantes :
 
    * Cliquez sur **[!UICONTROL Créer]**.
-   * [Sélectionnez une requête dans le Gestionnaire de requêtes.](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md), puis cliquez sur **[!UICONTROL Ajouter]** ou **[!UICONTROL Gérer]**.
+   * Sélectionnez une requête dans le Gestionnaire de requêtes, puis cliquez sur **[!UICONTROL Ajouter]** ou **[!UICONTROL Gérer]**. Pour plus d’informations, voir [Sélectionnez une requête dans le Gestionnaire de requêtes.](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
    * Double-cliquez sur une requête dans Excel.
 
 1. Renseignez les champs de la page [!UICONTROL Connexion], puis cliquez sur **[!UICONTROL OK]**.

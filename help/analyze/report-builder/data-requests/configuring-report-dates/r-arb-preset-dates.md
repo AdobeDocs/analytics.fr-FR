@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Cette option permet de sélectionner des dates courantes ou des dates que vous a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dates courantes </p> </td> 
-   <td colname="col2"> <p>Ce paramètre affiche les plages de dates (périodes) les plus utilisées. Il est activé par défaut lors de la création d’une requête. Si le classeur contient au moins une requête, le Créateur de rapports utilise la date de cette requête comme paramètre par défaut. </p> </td> 
+   <td colname="col2"> <p>Ce paramètre affiche les plages de dates (périodes) les plus utilisées. Il est activé par défaut lors de la création d’une requête. Si le classeur contient au moins une requête, Report Builder utilise la date de la requête existante comme paramètre par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modèles de dates enregistrées </p> </td> 

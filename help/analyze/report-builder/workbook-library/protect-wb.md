@@ -1,18 +1,18 @@
 ---
-description: Vous pouvez protéger toutes les requêtes d’un classeur contre l’ajout et la modification des demandes en verrouillant le classeur. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace.
-title: Verrouillez/déverrouillez des classeurs
+description: Découvrez comment protéger toutes les requêtes d’un classeur contre l’ajout et la modification de requêtes en verrouillant le classeur.
+title: Comment verrouiller et déverrouiller des classeurs
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 77%
 
 ---
 
-# Verrouillez/déverrouillez des classeurs
+# Verrouillage et déverrouillage de classeurs
 
 Vous pouvez protéger toutes les requêtes d’un classeur contre l’ajout et la modification des demandes en verrouillant le classeur. Cette option permet la modification hors ligne des classeurs en mettant en pause toutes les requêtes de rapport pour une modification plus efficace.
 
@@ -33,20 +33,18 @@ Vous pouvez déverrouiller un classeur verrouillé si vous êtes doté de l’un
 
 Lorsqu’un classeur est verrouillé pour empêcher la modification de requête :
 
-* Les utilisateurs ne peuvent pas créer/ajouter de requêtes.
+* Les utilisateurs ne peuvent pas créer ni ajouter de requêtes.
 * Les utilisateurs ne peuvent pas modifier de requêtes par l’intermédiaire de l’Assistant Requête.
 * Les utilisateurs ne peuvent pas modifier de requêtes par l’intermédiaire des fonctionnalités Modifier plusieurs requêtes.
 * Les utilisateurs ne peuvent pas couper, copier ou coller des requêtes. Néanmoins, les utilisateurs peuvent tout de même utiliser le menu contextuel natif d’Excel Couper/Copier/Coller afin de couper/copier/coller le contenu des requêtes.
 * Les utilisateurs peuvent actualiser les requêtes, soit individuellement, soit en tant que partie d’un groupe.
 * Si la requête utilise les valeurs d’entrée provenant des cellules (période, segment, filtres), les utilisateurs peuvent modifier ces valeurs dans les cellules et, ainsi, indirectement modifier les requêtes en les actualisant.
 
-Si vous tentez de modifier un classeur protégé (par l’intermédiaire du menu contextuel ou du **[!UICONTROL Gestionnaire de requêtes]** ou de l’option **[!UICONTROL Modifier plusieurs requêtes]**), vous pouvez être autorisé à le faire ou non :
+Si vous essayez de modifier un classeur protégé par le biais du menu contextuel, ou **[!UICONTROL Gestionnaire de requêtes]**, ou **[!UICONTROL Modification de plusieurs requêtes]**, vous pouvez ou non être autorisé à effectuer cette opération :
 
-* Si vous ne possédez pas les autorisations de déverrouiller la ou les requête(s), cette invite s’affiche :
+* Si vous ne disposez pas des autorisations nécessaires pour déverrouiller une requête, un message s’affiche indiquant que vous n’avez pas les droits de déverrouiller et de modifier le classeur.
 
-   ![](assets/locked_workbook_error.png)
-
-* Si vous possédez les autorisations requises, aucune invite ne s’affiche et vous pouvez modifier la requête.
+  ![Capture d’écran montrant le message d’erreur lorsque vous ne disposez pas des autorisations nécessaires pour déverrouiller une requête.](assets/locked_workbook_error.png)
 
 ## Processus {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

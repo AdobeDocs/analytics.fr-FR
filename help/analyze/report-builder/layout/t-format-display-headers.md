@@ -5,10 +5,10 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 94%
+ht-degree: 77%
 
 ---
 
@@ -33,15 +33,15 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
 
    **Afficher les en-têtes des lignes et des colonnes** : ajoute une ligne et une colonne pour afficher ces éléments.
 
-   Dans la version 3.11, vous pouviez afficher un en-tête pour chaque élément. La version 4, quant à elle, affiche soit l’ensemble des éléments, soit aucun. Si vous ouvrez, dans la version 4.x, une requête créée dans la version 3.11, le Créateur de rapports vous invite, au cours de l’étape 2 de l’Assistant, à mettre à jour la plage d’une cellule pour les éléments dépourvus d’un en-tête.
+   Dans la version 3.11, vous pouviez afficher un en-tête pour chaque élément. La version 4, quant à elle, affiche soit l’ensemble des éléments, soit aucun. Si vous avez créé une requête dans la version 3.11 et que vous l’ouvrez dans la version 4.x, Report Builder vous invite, à l’étape 2, à mettre à jour la plage d’une cellule pour les éléments qui ne comportent pas d’en-tête.
 
-   **Modifier les en-têtes en filtres automatiques Excel** : ce paramètre est disponible uniquement si des en-têtes de lignes et de colonnes sont affichés. Il crée un filtre automatique Excel et l’ajoute aux données que le Créateur de rapports renvoie pour cette requête.
+   **Modifier les en-têtes en filtres automatiques Excel** : ce paramètre est disponible uniquement si des en-têtes de lignes et de colonnes sont affichés. Ce paramètre crée un filtre automatique Excel et l’ajoute aux retours de Report Builder de données pour cette requête.
 
    >[!NOTE]
    >
    >Excel ne prend en charge qu’un seul filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
 
-   **Effectuer un synopsis automatique** : transforme la date renvoyée par le Créateur de rapports du mode Liste en mode Arborescence.
+   **Effectuez un synopsis automatique :** Transforme la date renvoyée par Report Builder du mode Liste en mode Arborescence.
 
    **Donnez un nom à cette requête** : permet de saisir un nom personnalisé pour la requête ou d’utiliser le nom par défaut sélectionné à l’étape 1 de l’Assistant. Ce nom s’affiche comme nom de [!UICONTROL rapport] dans le [!UICONTROL Gestionnaire de requêtes]. Reportez-vous à la section [Nommer une requête](/help/analyze/report-builder/layout/name-a-request.md).
 

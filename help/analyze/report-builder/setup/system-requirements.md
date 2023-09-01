@@ -1,14 +1,14 @@
 ---
-description: Recommandations système et configuration système requise.
-title: Configuration requise pour Report Builder
+description: Découvrez les recommandations et la configuration système requise pour le Report Builder.
+title: À propos de la configuration requise pour Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
 role: User, Admin
 exl-id: ef11dde4-084d-45b6-a6a3-ca7d3a1f0ff6
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 95%
+source-wordcount: '74'
+ht-degree: 79%
 
 ---
 

@@ -1,20 +1,20 @@
 ---
-description: Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
-title: Enregistrement d’un classeur avec requêtes
+description: Découvrez comment enregistrer des rapports avec des requêtes incorporées.
+title: À propos de l’enregistrement d’un classeur avec requêtes
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 80%
 
 ---
 
 # Enregistrement d’un classeur avec requêtes
 
-Après avoir créé des rapports en y incorporant des requêtes, vous pouvez les enregistrer en cliquant sur Fichier > Enregistrer ou Fichier > Enregistrer sous dans Excel. Le Créateur de rapports détecte si le rapport contient ou non des requêtes. Lorsque vous cliquez sur l’une de ces options d’enregistrement, le formulaire « Enregistrer le classeur sous » s’affiche.
+Lorsque vous créez des rapports avec des requêtes incorporées, vous pouvez les enregistrer à l’aide de **Fichier** > **Enregistrer** ou **Fichier** > **Enregistrer sous** dans Excel. Report Builder détecte si le rapport contient des requêtes. Lorsque vous sélectionnez l’une des options d’enregistrement, exécutez la **Enregistrer le classeur sous** formulaire.
 
 * Lorsque vous réalisez des travaux de grande envergure dans des applications Windows, Adobe conseille d’enregistrer fréquemment vos requêtes dans la feuille de calcul et ce, afin d’éviter toute perte de données.
 * Lorsque vous attribuez un nom à votre classeur, pensez à inclure le numéro de version dans le nom de fichier, de manière à conserver un historique des travaux. Par exemple, nommez votre premier classeur [!DNL web_forecast_01_01.xlsx].

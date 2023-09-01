@@ -1,21 +1,21 @@
 ---
-description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Ainsi, vous disposez d’une plus grande souplesse lors de la mise à jour des requêtes du Créateur de rapports.
+description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous disposez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes de Report Builder.
 title: Contrôles interactifs
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 90%
+ht-degree: 72%
 
 ---
 
 # Contrôles interactifs
 
-Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Ainsi, vous disposez d’une plus grande souplesse lors de la mise à jour des requêtes du Créateur de rapports.
+Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous disposez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes de Report Builder.
 
-Les contrôles interactifs ont été créés en réponse à un processus courant dans lequel les analystes créent des classeurs et partagent ces classeurs avec l’entité marketing. Les contrôles interactifs permettent aux responsables du marketing de modifier et d’actualiser les requêtes sans devoir posséder une connaissance approfondie du fonctionnement du Créateur de rapports. (Notez qu’afin d’actualiser une requête, le destinataire du classeur doit être un utilisateur du Créateur de rapports.) Ces contrôles fonctionnent dans des classeurs planifiés. Deux types de contrôles interactifs sont actuellement disponibles :
+Les contrôles interactifs ont été créés en réponse à un processus courant dans lequel les analystes créent des classeurs et partagent ces classeurs avec l’entité marketing. Les contrôles interactifs permettent aux marketeurs de modifier et d’actualiser des requêtes sans avoir à posséder une connaissance approfondie du fonctionnement du Report Builder. (Notez que pour actualiser une requête, le destinataire du classeur doit être un utilisateur Report Builder.) Ces contrôles fonctionnent dans des classeurs planifiés. Deux types de contrôles interactifs sont actuellement disponibles :
 
 * Période variable
 * Segments
@@ -23,7 +23,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >[!IMPORTANT]
 >
 >La version 5.0 du Report Builder doit être installée pour que les contrôles interactifs fonctionnent. >
->* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version antérieure du Créateur de rapports, ou si le Créateur de rapports n’est pas installé, vous pouvez modifier la valeur du contrôle interactif mais cela n’actualise pas la requête associée, ni ne met à jour les paramètres associés à la requête.
+>* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version inférieure de Report Builder, ou si vous n’avez pas installé Report Builder : vous pouvez modifier la valeur du contrôle interactif, mais cela n’actualisera pas la requête associée, ni ne mettra à jour les paramètres associés à la requête.
 >* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;. »
 >
 

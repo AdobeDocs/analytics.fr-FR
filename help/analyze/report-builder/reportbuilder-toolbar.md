@@ -1,14 +1,14 @@
 ---
-description: Informations sur la fonction des boutons de la barre d’outils du Report Builder.
-title: Barre d’outils du Report Builder
+description: Découvrez les fonctions des boutons de la barre d’outils de Report Builder.
+title: Utilisation de la barre d’outils de Report Builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 92%
+source-wordcount: '304'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ Informations sur la fonction des boutons de la barre d’outils du Report Builde
 
 Après avoir installé le Report Builder et démarré Excel, cliquez sur **[!UICONTROL Compléments]**.
 
-![](assets/report_builder_toolbar.png)
+![Icônes de la barre d’outils Report Builder](assets/report_builder_toolbar.png)
 
 **Connexion :** Affiche la variable [!UICONTROL Connexion] formulaire afin que vous puissiez vous connecter à l’aide de vos informations d’identification ou en tant qu’utilisateur différent. Affiche également le nom de votre société après la connexion. Reportez-vous à la section [Ouverture de session dans Report Builder](/help/analyze/report-builder/setup/login.md).
 
@@ -32,7 +32,7 @@ Après avoir installé le Report Builder et démarré Excel, cliquez sur **[!UIC
 
 **Planifier** : vous permet de planifier l’envoi de rapports en fonction de l’heure et du format de fichier définis. Reportez-vous à la section [Planification de requêtes de rapport](/help/analyze/report-builder/schedule-report-requests.md).
 
-**Partager** : lance la [!UICONTROL Bibliothèque des cahiers de travail] pour vous permettre de transférer un classeur Excel du Créateur de rapports que vous souhaitez partager. Vous pouvez également télécharger et modifier des classeurs partagés. Reportez-vous à la section [Utiliser la bibliothèque des classeurs](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
+**Bibliothèque :** Lance la variable [!UICONTROL Bibliothèque des classeurs] afin de pouvoir transférer un classeur Excel Report Builder que vous souhaitez partager. Vous pouvez également télécharger et modifier des classeurs partagés. Reportez-vous à la section [Utiliser la bibliothèque des classeurs](/help/analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
 **Options** : vous permet d’indiquer si vous souhaitez être invité à saisir la date **[!UICONTROL À partir de]** (Maintenant) lors de l’actualisation de requêtes. Ce paramètre vous permet également d’activer la journalisation dans le cadre de la résolution des problèmes. Voir [Options](/help/analyze/report-builder/options.md).
 

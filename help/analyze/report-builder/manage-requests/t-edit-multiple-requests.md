@@ -1,14 +1,14 @@
 ---
-description: Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite de rapports, de la granularité et de la plage de dates des requêtes.
-title: Modification de plusieurs requêtes
+description: Découvrez comment modifier plusieurs requêtes simultanément.
+title: Comment modifier plusieurs requêtes
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,15 +35,15 @@ Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite
    * **Par segment** : groupe les demandes en fonction du nom du segment.
 
       * **Choisir un segment** : s’affiche s’il n’existe aucun segment pour les requêtes. Pour ajouter des segments, cliquez sur **[!UICONTROL Modifier le groupe]**, puis sélectionnez un segment dans le panneau [!UICONTROL Modifier le groupe].
+
    * **Par mesure** : voir [Modifier les mesures de plusieurs demandes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Par période et granularité :** groupe les demandes par période et par granularité temporelle.
    * **Par groupe :** groupe les demandes par ensemble de demandes groupées.
 
-
 1. Sur le formulaire [!UICONTROL Modifier plusieurs requêtes], cliquez sur **[!UICONTROL OK]**.
 
-## Ajout simultané de segments à plusieurs requêtes
+## Ajout de segments à plusieurs requêtes à la fois
 
 Voici une vidéo montrant le processus :
 

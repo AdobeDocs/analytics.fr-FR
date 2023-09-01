@@ -5,10 +5,10 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 79%
+ht-degree: 65%
 
 ---
 
@@ -25,7 +25,7 @@ Vous pouvez copier une feuille de calcul entière d’un classeur source dans un
 1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur source, puis sélectionnez **[!UICONTROL Copier la feuille de calcul avec les requêtes]**.
 1. Cliquez avec le bouton droit sur la feuille de calcul dans le classeur de destination, puis sélectionnez **[!UICONTROL Coller la feuille de calcul avec les requêtes]**.
 
-   La même instance d’Excel signifie qu’un seul processus Excel ([!DNL excel.exe]) est en cours d’exécution sur l’ordinateur. Si deux instances d’Excel sont en cours d’exécution et que vous tentez de copier une feuille de calcul d’un classeur de la première instance dans un classeur de la deuxième instance, l’option de collage d’une feuille de calcul du Créateur de rapports n’apparaît pas dans le menu contextuel de la deuxième instance d’Excel.
+   La même instance d’Excel signifie qu’un seul processus Excel ([!DNL excel.exe]) est en cours d’exécution sur l’ordinateur. Si vous lancez deux instances d’Excel et tentez de copier une feuille de calcul d’un classeur de la première instance dans un classeur de la deuxième instance, l’option de collage d’une feuille de calcul du Report Builder n’est pas proposée dans le menu contextuel de la deuxième instance d’Excel.
 
    Si vous vous connectez aux classeurs source et cible avec des suites de rapports différentes, les seuls résultats de l’opération de collage sont ceux qui affectent la mise en forme du classeur cible. Le Report Builder affiche un message stipulant que les informations sur les requêtes dérivées d’une suite de rapports particulière (dans le classeur source) ne sont pas disponibles dans le classeur cible. Pour révéler les requêtes collées dans le classeur cible, vous devez vous connecter au classeur cible à l’aide de la même suite de rapports que dans le classeur source.
 

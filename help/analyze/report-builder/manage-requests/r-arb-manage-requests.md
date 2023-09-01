@@ -1,30 +1,30 @@
 ---
-description: Description des champs de gestion des requêtes dans le Report Builder.
-title: Gestion des requêtes - Définitions
+description: Découvrez les descriptions de champ de la fonction Gérer les requêtes dans Report Builder.
+title: Gestion des requêtes dans Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 78%
 
 ---
 
 # Gestion des requêtes - Définitions
 
-Description des champs de gestion des requêtes dans le Report Builder.
+Affichez les détails de l’état d’une requête et utilisez les descriptions de champ pour gérer les requêtes dans Report Builder.
 
-## Présentation {#section_75C288C945FA4781A4EDF806711A5660}
+## Vue d’ensemble {#section_75C288C945FA4781A4EDF806711A5660}
 
-Le [!UICONTROL Gestionnaire de requêtes] présente une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Il permet également d’ajouter, de modifier, d’actualiser et de supprimer une requête (fonctions généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes]) en cliquant avec le bouton droit sur l’une des cellules disponibles de la feuille de calcul Excel qui contient les requêtes précédentes.
+La variable [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à la fonction [!UICONTROL Assistant Requête] et [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit de la souris sur une cellule disponible dans la feuille de calcul Excel contenant les requêtes précédentes.
 
-Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]** ( ![](assets/edit_request.gif) dans la barre d’outils du Report Builder.
+La variable [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]**  ![](assets/edit_request.gif) dans la barre d’outils Report Builder.
 
 >[!NOTE]
 >
->Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
+>Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Restreindre aux dépendances dans une seule feuille de calcul garantit la rapidité d’exécution.
 
 ## Définitions {#section_FD29D8614DE74F32A0027FA130F40304}
 

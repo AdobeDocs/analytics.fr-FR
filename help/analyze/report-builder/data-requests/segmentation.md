@@ -4,10 +4,10 @@ title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assi
 
 >[!NOTE]
 >
->Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Créateur de rapports reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
+>Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session de Report Builder reste active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
 1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
@@ -47,7 +47,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 1. L’interface utilisateur du Créateur de segments est à présent lancée dans Internet Explorer. Elle est initialisée avec le conteneur et le filtre que vous avez indiqués.
 1. Une fois que vous avez ajouté un nom et une description au segment, enregistrez-le.
-1. Revenez au Créateur de rapports et cliquez sur l’icône Actualiser pour actualiser la liste de segments.
+1. Revenez au Report Builder et cliquez sur l’icône Actualiser pour actualiser la liste de segments.
 1. Vous êtes à présent prêt à appliquer ce segment.
 
 ## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Les filtres disponibles incluent :
 |---|---|
 | Balises | Permet de filtrer les segments selon des balises spécifiques balises. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
 | Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
-| Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « Uniquement *le nom de la suite de rapports* » dans le Créateur de segments dans [!DNL marketing reports & analytics], puis affichez le filtre avancé dans [!DNL report builder], le filtre avancé affiche uniquement le segment correspondant à la suite de rapports sélectionnée. |
+| Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « Uniquement *le nom de la suite de rapports* » dans le Créateur de segments dans [!DNL marketing reports & analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement le segment correspondant à la suite de rapports sélectionnée. |
 | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
 | Autres filtres > Partagés avec moi | Affiche tous les segments que d’autres ont partagé avec vous. |
 | Autres filtres > Favoris | Affiche tous les segments que vous avez marqués comme Favoris. |

@@ -4,10 +4,10 @@ title: Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requ�
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 68%
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Cet exemple utilise Chemins > Section Site.
 
    ![](assets/select_a_pattern.png)
 
-   Certains de ces motifs sont spécifiques au Créateur de rapports : Modèle Élément suivant du chemin d’entrée, Modèle Élément précédent du chemin de sortie, Modèle Élément suivant.
+   Certains de ces modèles sont spécifiques au Report Builder : Modèle Élément suivant du chemin d’accès, Modèle Élément précédent du chemin de sortie, Modèle Élément suivant.
 
 ## Pour modifier un modèle prédéfini
 

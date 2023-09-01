@@ -1,19 +1,19 @@
 ---
-description: Décrit la façon dont le Créateur de rapports prend en charge les rapports Chemin et Abandon et dont l’implémentation diffère de Reports & Analytics.
+description: Décrit la manière dont Report Builder prend en charge les rapports de cheminement et d’abandons et dont l’implémentation diffère de Reports & Analytics.
 title: Rapports Chemin et Abandon de chemin dans le Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 98%
+ht-degree: 86%
 
 ---
 
 # Rapports Chemin et Abandon de chemin dans le Report Builder
 
-Décrit la façon dont le Créateur de rapports prend en charge les rapports Chemin et Abandon et dont l’implémentation diffère de Reports &amp; Analytics.
+Décrit la manière dont Report Builder prend en charge les rapports de cheminement et d’abandons et dont l’implémentation diffère de Reports &amp; Analytics.
 
 | Nom du rapport Chemin dans Reports &amp; Analytics (Chemins > dimension >) | Pris en charge dans le Report Builder ? |
 |--- |--- |

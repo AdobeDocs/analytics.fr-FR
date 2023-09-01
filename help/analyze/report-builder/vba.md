@@ -1,25 +1,27 @@
 ---
-title: Macros Visual Basic dans le Report Builder
-description: Développez les fonctionnalités des classeurs Excel et du Report Builder à l’aide de VBA.
+title: Utilisation des macros Visual Basic en Report Builder
+description: Découvrez comment étendre les fonctionnalités des classeurs et des Reports Builder Excel à l’aide de macros VBA.
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 68%
 
 ---
 
 # Macros Visual Basic dans le Report Builder
 
-Les macros VBA, également appelées macros Visual Basic, vous permettent de manipuler des classeurs d’une façon impossible avec Microsoft Excel seul. Visual Basic a accès au classeur, à Excel et même à Windows.
+Les macros Visual Basic (VBA) contiennent des fonctionnalités qui vous permettent d’actualiser des classeurs Excel. Visual Basic a accès au classeur, Excel et Windows.
 
-Adobe est compatible avec trois méthodes de l’API Report Builder. Assurez-vous que la dernière version en date de Report Builder est installée et connectez-vous avant d’exécuter les macros.
+Vous devez exécuter la dernière version de Report Builder et vous connecter avant d’exécuter les macros VBA.
 
 >[!IMPORTANT]
 >
 >Pour des raisons de sécurité, vous ne pouvez pas planifier un classeur qui contient une macro.
+
+Adobe est compatible avec trois méthodes de l’API Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 
