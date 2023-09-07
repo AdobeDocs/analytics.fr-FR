@@ -1,12 +1,12 @@
 ---
 description: Vue d’ensemble des informations générales sur Adobe Analytics, notamment sur l’interface d’Analytics, ainsi que sur la prise en main destinées aux administrateurs et administratrices, aux analystes, aux utilisateurs et utilisatrices et aux développeurs et développeuses.
-short-description: Découvrez les fonctionnalités clés, les cas d’utilisation courants et les premières étapes pour les analystes, les utilisateurs finaux et les administrateurs.
+short-description: Découvrez les fonctionnalités clés, les cas d’utilisation courants et les premières étapes pour les analystes, les utilisateurs et utilisatrices et les administrateurs et administratrices.
 title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
 source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
