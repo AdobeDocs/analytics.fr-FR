@@ -3,16 +3,22 @@ description: Description de la procédure de création d’une demande Data Ware
 title: Créer une demande dans Data Warehouse
 feature: Data Warehouse
 exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 25%
+source-wordcount: '215'
+ht-degree: 26%
 
 ---
 
 # Créer une demande dans Data Warehouse
 
-{{release-limited-testing}}
+>[!AVAILABILITY]
+>
+>Certaines des fonctionnalités de Data Warehouse décrites dans cet article (ainsi que d’autres articles de Data Warehouse de cette section) sont disponibles uniquement dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement.
+>
+>Pour plus d’informations sur les fonctionnalités qui ne sont pas encore disponibles pour tous les clients, ainsi que pour plus d’informations sur le calendrier de publication de ces fonctionnalités, voir la section [notes de mise à jour](/help/release-notes/latest.md).
+>
+>Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes décrivent comment commencer à créer une requête, puis fournissent des liens vers des informations plus détaillées pour terminer la requête.
 
