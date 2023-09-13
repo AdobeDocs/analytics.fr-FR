@@ -1,16 +1,16 @@
 ---
 title: Notes de mise à jour actuelles d’Adobe Analytics
-description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics.
+description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
+source-git-commit: 1bd654eef37ac242cf4076e133e482f6a5990cc9
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 68%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (Septembre 2023)
+# Notes de mise à jour actuelles d’Adobe Analytics (septembre 2023)
 
 **Dernière mise à jour** : 13 septembre 2023
 
