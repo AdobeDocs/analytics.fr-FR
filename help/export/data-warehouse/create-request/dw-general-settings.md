@@ -2,10 +2,10 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Paramètres généraux de la demande de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 27%
+source-wordcount: '354'
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ Pour configurer les paramètres généraux d’une demande de Data Warehouse :
    | Option | Fonction |
    |---------|----------|
    | Nom de la demande | Ce nom apparaît sur la page du Data Warehouse principal lors de la gestion des requêtes. |
-   | Périodes | Sélectionnez la période à inclure dans le rapport. <p>Vous pouvez choisir des dates personnalisées ou une période prédéfinie. Les plages de paramètres prédéfinis dépendent de la date d’envoi du rapport.</p><p>Les options de paramètres prédéfinis suivantes sont disponibles :</p><ul><li>Today</li><li>Hier</li><li>7 derniers jours</li><li>30 derniers jours</li><li>Cette semaine</li><li>Semaine dernière</li><li>2 dernières semaines</li><li>3 dernières semaines</li><li>4 dernières semaines</li><li>Ce mois-ci</li><li>Mois dernier</li><li>Dernière heure</li><li>Today</li><li>Today</li></ul> |
+   | Périodes | Sélectionnez la période à inclure dans le rapport. <p>Vous pouvez choisir des dates personnalisées ou une période prédéfinie. Les plages de paramètres prédéfinis dépendent de la date d’envoi du rapport.</p><p>Les options de paramètres prédéfinis suivantes sont disponibles :</p><ul><li>Today</li><li>Hier</li><li>7 derniers jours</li><li>30 derniers jours</li><li>Cette semaine</li><li>Semaine dernière</li><li>2 dernières semaines</li><li>3 dernières semaines</li><li>4 dernières semaines</li><li>Ce mois-ci</li><li>Mois dernier</li><li>Dernière heure</li></ul> |
    | Granularité | <!--what does this setting do? It's not the schedule/frequency... --> Granularité temporelle. Les valeurs valides sont Aucune, Horaire, Journalière, Hebdomadaire, Mensuelle, Trimestrielle et Annuelle.<p>Les rapports de granularité nécessitent une durée de traitement plus longue. Dans le cas d’une granularité mensuelle pour une année complète, les rapports sont traités beaucoup plus rapidement si vous envoyez une demande de rapport pour chaque mois.</p> |
 
    {style="table-layout:auto"}
