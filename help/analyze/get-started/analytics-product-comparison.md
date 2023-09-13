@@ -3,10 +3,10 @@ description: Cette rubrique présente la configuration système requise et compa
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
+source-git-commit: 0579715d33db28f1741eed2b1aa1520d3beb757b
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 97%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -37,5 +37,5 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Qu
 | **Traitement** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/curate.md) | Oui - Projet et suite de rapports virtuelle | Non | Non | Non | Non | Non | Oui - Suite de rapports virtuelle uniquement |
 | **Partage des projets** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Oui, avec des rôles de projet | Oui | Oui | Non | Oui | Non | Non |
 | **Livraison planifiée** | Oui | Oui | Oui | Oui | Non | Oui | Non |
-| **Destinations des diffusions** | Courriel | Courriel | Courriel, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Courriel, FTP. Contactez l’assistance clientèle pour obtenir une prise en charge de destination supplémentaire, notamment SFTP, Azure Blob ou Amazon S3. | - | Amazon S3, Azure RBAC, Azure SAS et Google Cloud Platform | - |
+| **Destinations des diffusions** | Courriel | Courriel | Courriel, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC et Email | - | Amazon S3, Azure RBAC, Azure SAS et Google Cloud Platform | - |
 | **Traitement du temps de rapport des suites de rapports virtuelles** <br> [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) | Oui | Non | Non | Non | Non | Non | Oui |

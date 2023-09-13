@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données, pour exporter des données brutes, ainsi que Data Warehouse, pour récupérer une sortie de données sous forme de feuille de calcul. Découvrez comment utiliser FTP et SFTP pour transférer des fichiers.
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,17 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs dans Data Warehouse](data-warehouse/t-dw-group.md)
-   + [Créer une demande dans Data Warehouse](data-warehouse/t-dw-create-request.md)
+   + Créer une demande dans Data Warehouse {#dw-create-request}
+      + [Créer une demande dans Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [Paramètres généraux](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [Créer votre rapport](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [Destination du rapport](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [Options de rapport](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [Options de planification](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [E-mail de notification](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [Heure de remise de la demande](data-warehouse/delivery-time.md)
    + [Fichier de données Tableau](data-warehouse/t-tableau.md)
    + [Tri par mesure](data-warehouse/sorting-by-metric.md)
-   + [Planifier une requête récurrente](data-warehouse/dw-schedule-recurring.md)
    + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
    + [FAQ sur Data Warehouse](data-warehouse/faq.md)
