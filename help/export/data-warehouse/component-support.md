@@ -3,7 +3,7 @@ title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -78,3 +78,4 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Actualisations
    * Accès unique
    * Mesures de « durée de la visite »
+
