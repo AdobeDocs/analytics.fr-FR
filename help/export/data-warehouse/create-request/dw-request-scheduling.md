@@ -2,9 +2,9 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -37,16 +37,12 @@ Pour configurer les options de planification d’une requête de Data Warehouse 
 
    | Option | Fonction |
    |---------|----------|
-   | Envoyer le rapport maintenant | Envoie le rapport sous la forme d’un rapport unique. Lorsque cette option est sélectionnée, toutes les options de planification sont masquées. |
-   | Planifier pour plus tard | Fournit des options pour planifier la remise des rapports. Toutes les options sont décrites ci-dessous. |
-   | Fréquence du rapport | Fréquence de remise des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>[!UICONTROL **Horaire**] est disponible uniquement lorsque la variable [!UICONTROL **Plages de dates**] sur l’option [!UICONTROL **Paramètres généraux**] est défini sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | Périodicité mensuelle | Intervalle entre les mois d’envoi du rapport. |
-   | Jour du mois | Date d’envoi du rapport chaque mois.<p>Lorsque cette option est disponible, la variable [!UICONTROL **Semaine du mois**] et [!UICONTROL **Jour de la semaine**] ne le sont pas. Sélectionnez la variable [!UICONTROL **Format alternatif**] pour basculer entre les deux. </p> |
-   | Semaine du mois | La semaine de chaque mois où le rapport doit être envoyé. <p>Les options disponibles sont les suivantes :</p><ul><li>Premier</li><li>Seconde</li><li>Troisième</li><li>Quatrième</li><p>Envoyez le rapport la 4e semaine, même les mois de 5 semaines. Choisir [!UICONTROL **Dernière**] si vous souhaitez que le rapport soit envoyé la dernière semaine de chaque mois.</p><li>Dernière position</li></ul><p>Lorsque cette option est disponible, la variable [!UICONTROL **Jour du mois**] ne l’est pas. Sélectionnez la variable [!UICONTROL **Format alternatif**] pour basculer entre les deux. </p> |
-   | Jour de la semaine | Jour de la semaine où le rapport doit être envoyé. <p>Lorsque cette option est disponible, la variable [!UICONTROL **Jour du mois**] ne l’est pas. Sélectionnez la variable [!UICONTROL **Format alternatif**] pour basculer entre les deux. </p> |
-   | Début le | Date à laquelle le nouveau planning doit commencer. |
-   | Heure | Heure de la journée d’envoi du rapport. |
-   | Options de diffusion | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais se terminer, de ne pas terminer après un nombre spécifique d’occurrences ou de terminer à une date spécifique. |
+   | [!UICONTROL **Envoyer le rapport maintenant**] | Envoie le rapport sous la forme d’un rapport unique. Lorsque cette option est sélectionnée, toutes les options de planification sont masquées. |
+   | [!UICONTROL **Planifier pour plus tard**] | Fournit des options pour planifier la remise des rapports. Toutes les options sont décrites ci-dessous. |
+   | [!UICONTROL **Fréquence du rapport**] | Fréquence de remise des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>[!UICONTROL **Horaire**] est disponible uniquement lorsque la variable [!UICONTROL **Plages de dates**] sur l’option [!UICONTROL **Paramètres généraux**] est défini sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul><p>D&#39;autres options s&#39;affichent en fonction de la fréquence sélectionnée.</p> |
+   | [!UICONTROL **Début le**] | Date à laquelle le nouveau planning doit commencer. |
+   | [!UICONTROL **Heure**] | Heure de la journée d’envoi du rapport. |
+   | [!UICONTROL **Options de diffusion**] | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais se terminer, de ne pas terminer après un nombre spécifique d’occurrences ou de terminer à une date spécifique. |
 
    {style="table-layout:auto"}
 

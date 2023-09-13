@@ -2,10 +2,10 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       | Champ | Fonction |
       |---------|----------|
-      | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte. <p>Après avoir choisi un type de compte, des champs spécifiques à ce type de compte s’affichent. Pour obtenir des instructions de configuration pour chaque type de compte, développez la section ci-dessous correspondant au que vous avez sélectionné. </p> |
+      | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte. <p>Après avoir choisi un type de compte, des champs spécifiques à ce type de compte s’affichent. </p> |
       | [!UICONTROL **Nom du compte**] | Attribuez un nom au compte. Ce nom apparaît lors de la création d’un emplacement. <!-- true? --> |
       | [!UICONTROL **Description du compte**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
 
       Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné.
 
-      Utilisez l’un des types de compte suivants lors de la configuration d’une destination de rapport. Pour obtenir des instructions sur la configuration, développez le type de compte. (Autres destinations héritées) <!-- add link --> sont également disponibles, mais ne sont pas recommandées.)
+      Utilisez l’un des types de compte suivants lors de la configuration d’une destination de rapport. Pour obtenir des instructions sur la configuration, développez le type de compte. (Additional [destinations héritées](#legacy-destinations) sont également disponibles, mais ne sont pas recommandées.)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
    1. Dans le [!UICONTROL **Propriétés de l’emplacement**] , indiquez les informations spécifiques au type de compte de votre compte d’emplacement.
 
-      Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond au type de compte que vous avez sélectionné précédemment.
+      Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné précédemment.
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
       Vous pouvez désormais importer des données dans le compte et l’emplacement que vous avez configurés.
 
 1. Poursuivez la configuration de votre requête de Data Warehouse sur le [!UICONTROL **Options de rapport**] . Pour plus d’informations, voir [Configuration des options de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## Destinations héritées
+
+>[!IMPORTANT]
+>
+>Les destinations décrites dans cette section sont héritées et ne sont pas recommandées. Utilisez plutôt l’une des destinations suivantes lors de la création d’une destination d’entrepôt de données : Amazon S3, Google Cloud Platform, Azure RBAC, Azure SAS ou Email. Consultez les informations ci-dessus pour plus d’informations sur chacune de ces destinations recommandées.
+
+Les informations suivantes fournissent des informations de configuration pour chacune des destinations héritées :
+
+### FTP
+
+Les données de l’entrepôt de données peuvent être diffusées vers un emplacement FTP hébergé par un Adobe ou par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
+
+Renseignez les informations suivantes lorsque vous renseignez les champs disponibles :
+
+* [!UICONTROL **Hôte**]: saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
+* [!UICONTROL **Chemin**]: peut rester vide.
+* [!UICONTROL **Nom d’utilisateur**]: saisissez le nom d’utilisateur pour vous connecter au site FTP.
+* [!UICONTROL **Mot de passe et confirmation du mot de passe**]: saisissez le mot de passe de connexion au site FTP.
+
+### SFTP
+
+La prise en charge SFTP de l’entrepôt de données est disponible. Nécessite un hôte SFTP, un nom d’utilisateur et un site de destination contenant une clé publique RSA ou DSA. Vous pouvez télécharger la clé publique appropriée lors de la création de la destination de l’entrepôt de données.
+
+### S3
+
+Vous pouvez envoyer des données d’entrepôt directement aux compartiments Amazon S3. Ce type de destination requiert un nom de compartiment, un identifiant de clé d’accès et une clé secrète. Consultez les [conditions d’attribution de noms pour des compartiments Amazon S3](https://docs.aws.amazon.com/fr_fr/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) dans les documents Amazon S3 pour plus d’informations.
+
+L’utilisateur que vous fournissez pour charger des données de l’entrepôt de données doit disposer des éléments suivants : [permissions](https://docs.aws.amazon.com/fr_fr/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’algorithme de signature approprié si nécessaire) :
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>La région cn-north-1 n’est pas prise en charge.
+
+### Azure Blob
+
+L’entrepôt de données prend en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Amazon chiffre automatiquement les données au repos. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
+
+>[!NOTE]
+>
+>Vous devez mettre en oeuvre votre propre processus pour gérer l’espace disque sur la destination de l’entrepôt de données. Adobe ne supprime pas les données du serveur.
