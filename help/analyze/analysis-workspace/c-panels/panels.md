@@ -4,7 +4,7 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 57%
@@ -28,7 +28,7 @@ Voici les types de panneau disponibles dans Analysis Workspace :
 | [Panneau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des répartitions illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
 | [Panneau de lʼaudience moyenne par minute de média](average-minute-audience-panel.md) | Analysez lʼaudience moyenne par minute dans le temps, affichez des informations sur les pics dʼaudience, avec la possibilité de les ventiler et de les comparer. |
 | [Panneau Observateurs simultanés de médias](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
-| [Panneau Temps de lecture de média](media-playback-timespent/media-playback-time-spent.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
+| [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Panneau de comparaison des segments](c-segment-comparison/segment-comparison.md) | Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes. |
 
 ![](assets/panel-overview.png)
@@ -76,7 +76,7 @@ Pour plus d’informations, voir [Segments rapides](/help/analyze/analysis-works
 
 ### Filtres déroulants statiques
 
-Les filtres déroulants permettent d&#39;interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre de menu déroulant pour les types d’équipement mobile afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
+Les filtres déroulants permettent d&#39;interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre de menu déroulant pour les types d’appareil mobile afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
 
 Les filtres de menu déroulant peuvent également servir à fusionner plusieurs projets. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents, vous pouvez les fusionner en un seul projet et ajouter un filtre de menu déroulant Pays.
 
@@ -85,7 +85,7 @@ Les filtres de menu déroulant peuvent également servir à fusionner plusieurs 
 Pour créer un filtre de liste déroulante statique :
 
 * Pour les filtres déroulants utilisant des éléments de dimension, cliquez sur l’icône de flèche vers la droite située en regard de la dimension souhaitée dans le rail de gauche. Cette action expose tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension de cette liste à l’aide de la case `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**.
-* Pour les filtres déroulants utilisant d’autres composants tels que des mesures, des segments ou des périodes, sélectionnez plusieurs composants à l’aide de la fonction `[Shift + Click]` ou `[Ctrl + Click]`. Déposez la sélection dans la zone de dépôt du panneau. **pendant la conservation`[Shift]`**. Tous les types de composants sont traités comme des segments dans ce contexte.
+* Pour les filtres déroulants utilisant d’autres composants tels que des mesures, des segments ou des périodes, sélectionnez plusieurs composants à l’aide de la fonction `[Shift + Click]` ou `[Ctrl + Click]`. Déposez la sélection dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**. Tous les types de composants sont traités comme des segments dans ce contexte.
 * Un filtre déroulant unique ne peut contenir qu’un seul type de composant. Si vous incluez plusieurs types de composants dans votre sélection, un filtre déroulant distinct est créé par type de composant. Par exemple, si vous incluez des mesures et des éléments de dimension dans votre sélection, deux filtres déroulants distincts sont créés. Un filtre de menu déroulant comprend des éléments de dimension, tandis que l’autre inclut des mesures.
 
 Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Aucun filtre]**.
@@ -94,9 +94,9 @@ Sélectionnez l’une des options de la liste déroulante pour modifier les donn
 
 Le fait de cliquer avec le bouton droit de la souris sur un filtre déroulant propose les options suivantes :
 
-* **[!UICONTROL Ajouter une étiquette]**: Lorsque vous ajoutez un filtre déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
-* **[!UICONTROL Supprimer le libellé]**: Supprimez le texte au-dessus d’un filtre déroulant.
-* **[!UICONTROL Supprimer le filtre déroulant]**: Supprime le filtre de liste déroulante du panneau.
+* **[!UICONTROL Ajouter une étiquette]**: lorsque vous ajoutez un filtre déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
+* **[!UICONTROL Supprimer le libellé]**: supprimez le texte au-dessus d’un filtre de liste déroulante.
+* **[!UICONTROL Supprimer le filtre déroulant]**: supprime le filtre de liste déroulante du panneau.
 
 [Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=fr) pour en savoir plus sur l’ajout de filtres de menu déroulant à votre projet.
 
@@ -104,7 +104,7 @@ Le fait de cliquer avec le bouton droit de la souris sur un filtre déroulant pr
 
 Les filtres déroulants dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres filtres déroulants. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la variable [Pays](/help/components/dimensions/countries.md) dimension et [Villes](/help/components/dimensions/cities.md) dimension. Lorsque vous sélectionnez un pays dans le [!UICONTROL Pays] liste déroulante, la variable [!UICONTROL Villes] La liste déroulante s’ajuste dynamiquement pour afficher uniquement les villes de ce pays.
 
-Ce même concept s&#39;applique à toutes les dimensions; seuls les éléments de dimension qui apparaissent dans la période du panneau et les filtres sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les filtres déroulants statiques affectent les valeurs disponibles dans les filtres déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; Les éléments de Dimension sélectionnés dans les filtres déroulants dynamiques n’affectent pas les valeurs disponibles dans les filtres déroulants statiques.
+Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les filtres sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les filtres déroulants statiques affectent les valeurs disponibles dans les filtres déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; les éléments de Dimension sélectionnés dans les filtres de liste déroulante dynamiques n’affectent pas les valeurs disponibles dans les filtres de liste déroulante statiques.
 
 La sélection manuelle d’éléments de dimension est disponible si vous prévoyez qu’un certain élément de dimension sera collecté ultérieurement. Vous pouvez également effacer un filtre de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres filtres de liste déroulante dynamiques de contenir plus de valeurs. Sélectionner **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les filtres déroulants de ce panneau.
 

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 + [Guide sur les outils Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Commencer avec Adobe Analytics {#admin-overview}
-   + [Présentation d’Analytics](get-started/analytics-overview.md)
+   + [Vue d’ensemble d’Analytics](get-started/analytics-overview.md)
    + [Prise en main (par rôle)](get-started/get-started-by-role.md)
    + [Présentation de l’interface Analytics](get-started/analytics-interface.md)
    + [Cas d’utilisation](get-started/use-cases.md)
@@ -117,10 +117,7 @@ ht-degree: 99%
       + [Panneau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panneau Audience moyenne par minute de média](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [Panneau Observateurs simultanés de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + Durée de lecture des médias {#media-playback-timespent}
-         + [Aperçu](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [Paramètres d’entrée et de sortie](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [Questions fréquentes](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [Panneau Durée de lecture des médias](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Panneau d’éléments suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
       + [Panneau Résumé de la page](analysis-workspace/c-panels/page-summary.md)
       + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)

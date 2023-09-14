@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
+source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
-source-wordcount: '5089'
-ht-degree: 97%
+source-wordcount: '5136'
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Septembre 2023** | |
+| Mise à jour de la structure des articles pour le panneau Temps de lecture multimédia | Suppression du dossier appelé Temps de lecture multimédia et association du contenu du dossier en un seul article : [Panneau Durée de lecture du média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Cette modification est plus conforme à la documentation des autres panneaux.</p> |
 | Amélioration du contenu de la prise en main | Ajout d’informations décrivant les tâches et ressources de prise en main clés pour les administrateurs, les analystes, les utilisateurs finaux et les développeurs. Les nouveaux articles suivants sont désormais disponibles : <ul><li>[Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Cas d’utilisation](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Améliorations de la documentation sur les rapports Media Analytics | Réorganisation d’une partie du contenu dans la section Création de rapports du guide Média en flux continu, notamment la consolidation de la documentation de l’API dans sa propre section et l’ajustement de l’ordre de certains articles. <p>L’article Modèles Media Workspace a été renommé [Rapports multimédia dans Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=fr) pour mieux s’aligner sur le nommage interne au produit. </p> |
 | **Août 2023** | |
 | clarification des flux de données | Mis à jour [la définition des dates de début et de fin ;](/help/export/analytics-data-feed/create-feed.md) pour vous assurer que lors du traitement des flux de données pour les données historiques, vous pouvez définir la date de début sur n’importe quelle date antérieure à laquelle les données sont collectées. |
 | Gestion des données Experience Edge | Ajout du contenu à Adobe Analytics [gère les données d’Experience Edge.](../implement/aep-edge/overview.md). |
-| Panneau Temps de lecture de média | Mise à jour du contenu de la section [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) afin d’améliorer la lisibilité. |
+| Panneau Temps de lecture de média | Mise à jour du contenu de la section [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) afin d’améliorer la lisibilité. |
 | Déplacement du contenu sur la gestion des projets planifiés | Création de l’article [Projets planifiés](/help/components/scheduled-projects-manager.md) dans le guide des composants Analytics. Ce contenu se trouvait auparavant dans l’article [Planification de projets](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) du guide des outils Analytics. |
 | Comparer les méthodes d’implémentation | Mise à jour de la documentation qui compare différentes méthodes d’implémentation. [En savoir plus](../implement/prepare/comparison.md) |
 | Précision selon laquelle la configuration SFTP pour les flux de données ne nécessite pas l’assistance clientèle d’Adobe | Précision selon laquelle l’[envoi de données Adobe vers un compte FTP externe par SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) ne nécessite pas l’assistance clientèle d’Adobe pour configurer SFTP pour les flux de données. <p>Ajout d’une remarque indiquant que le protocole SFTP n’est plus recommandé et que les clients doivent utiliser une destination cloud lors de la configuration des flux de données.</p> |
