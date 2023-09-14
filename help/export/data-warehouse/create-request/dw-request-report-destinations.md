@@ -78,7 +78,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -90,7 +90,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++SAS Azure
 
@@ -106,7 +106,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++RBAC Azure
 
@@ -120,7 +120,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Adresse électronique
 
@@ -147,7 +147,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -160,7 +160,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++SAS Azure
 
@@ -173,7 +173,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++RBAC Azure
 
@@ -187,7 +187,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. Sélectionnez [!UICONTROL **Enregistrer**].
 
