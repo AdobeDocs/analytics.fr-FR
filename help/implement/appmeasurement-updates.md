@@ -3,10 +3,10 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 96%
+source-wordcount: '2414'
+ht-degree: 95%
 
 ---
 
@@ -17,6 +17,13 @@ Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.25.0
+
+Date de publication : **12 septembre 2023**
+
+* Ajout d’une configuration facultative (`bufferRequests`) pour améliorer la fiabilité de la capture des requêtes dans les cas où un navigateur ne prend pas correctement en charge l’API de balise ou peut annuler des requêtes lorsqu’une page est en cours de déchargement.
+* Ajout de protections pour empêcher plusieurs rappels après suivi pour une seule requête de suivi.
 
 ## Version 2.24.0
 
@@ -332,7 +339,7 @@ Date de publication : **5 novembre 2015**
 Date de publication : **17 septembre 2015**
 
 * Inclusion de l’API visiteur version 1.5.2
-* Mise à jour [!DNL Audience Manager] pour utiliser Adobe Audience Manager DIL 6.2 - getCustomer IDs de VisitorAPI.js et les transmettre dans l’appel d’événement à Adobe Audience Manager. (AN-104978)
+* Mis à jour [!DNL Audience Manager] pour utiliser Adobe Audience Manager DIL 6.2 - getCustomer IDs de VisitorAPI.js et les transmettre dans l’appel d’événement à Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 
