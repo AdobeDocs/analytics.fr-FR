@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: Permet de créer des fonctions de rappel après l’envoi d’un accès à Adobe.
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 75%
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ La variable `registerPostTrackCallback` permet à votre entreprise d’associer 
 
 >[!WARNING]
 >
-> N’appelez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable `registerPostTrackCallback`. Les fonctions de suivi de cette variable provoquent une boucle infinie de demandes d’image !
+>N’effectuez aucun appel de suivi comme [`t()`](t-method.md) ou [`tl()`](tl-method.md) dans la variable `registerPostTrackCallback` Variable . La définition des appels de suivi dans cette variable entraîne une boucle infinie de demandes d’image.
 
 Chaque fois que vous appelez la variable `registerPostTrackCallback`, vous pouvez associer cette fonction pour qu’elle s’exécute immédiatement après l’envoi réussi d’une demande d’image. Évitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
@@ -24,7 +24,7 @@ Chaque fois que vous appelez la variable `registerPostTrackCallback`, vous pouve
 >
 >Le timing et l’ordre des fonctions déclenchées entre [`registerPreTrackCallback`](registerpretrackcallback.md) et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
-## Rappel après suivi à l’aide de l’extension SDK web
+## Rappel post-suivi à l’aide de l’extension SDK web
 
 Bientôt disponible!
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## Exemple de cas d’utilisation
+## Cas d’utilisation
 
 L’enregistrement de la fonction [`clearVars()`](clearvars.md) dans le rappel de suivi de publication peut être bénéfique pour les applications d’une seule page. Chaque fois que vous envoyez un accès à Adobe, la fonction `clearVars()` s’exécute. Votre mise en œuvre peut ensuite définir à nouveau des variables sans se soucier de la persistance incorrecte des valeurs.
 

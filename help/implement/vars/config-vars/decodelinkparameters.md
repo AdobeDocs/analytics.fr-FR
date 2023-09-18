@@ -1,20 +1,20 @@
 ---
 title: decodeLinkParameters
-description: Activez ou désactivez les variables de suivi des liens de double codage d’AppMeasurement.
+description: Activez ou désactivez l’AppMeasurement des variables de suivi des liens à double codage.
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 7%
 
 ---
 
 # decodeLinkParameters
 
-Le `decodeLinkParameters` est une valeur booléenne qui détermine si les variables de suivi de liens sont codées une seule fois (si la variable est définie sur `true`) ou deux (si la variable est définie sur `false`). Cela n’a d’impact que `linkName` (partie de la variable [`tl()`](../functions/tl-method.md) ) et [`linkURL`](linkurl.md). Il nécessite l’AppMeasurement 2.24.0 ou supérieur à utiliser. La valeur par défaut de cette variable est `false`.
+La variable `decodeLinkParameters` est une valeur booléenne qui détermine si les variables de suivi des liens sont codées une seule fois (si la variable est définie sur `true`) ou deux (si la variable est définie sur `false`). Cela a un impact uniquement. `linkName` (partie de la variable [`tl()`](../functions/tl-method.md) ) et [`linkURL`](linkurl.md). Il nécessite l’utilisation de l’AppMeasurement v2.24.0 ou version ultérieure. La valeur par défaut de cette variable est `false`.
 
-Dans les versions précédentes d’AppMeasurement, les variables de suivi des liens étaient toujours codées deux fois dans l’URL. Bien qu’il ne s’agisse pas d’un problème pour les implémentations qui reposent généralement sur des caractères à un octet, le codage double a créé des valeurs incorrectement codées pour les caractères à plusieurs octets dans les rapports. Définir cette variable sur `true` code une seule fois les valeurs de suivi des liens, ce qui correspond généralement au comportement souhaité.
+Dans les versions d’AppMeasurement antérieures à la version 2.24.0, les variables de suivi des liens étaient toujours codées deux fois dans l’URL. Bien qu’il ne s’agisse pas d’un problème pour les implémentations qui reposent généralement sur des caractères à un octet, le codage double a créé des valeurs incorrectement codées pour les caractères à plusieurs octets dans les rapports. Définir cette variable sur `true` code une seule fois les valeurs de suivi des liens, ce qui correspond généralement au comportement souhaité.
 
 * Si votre mise en oeuvre utilise des caractères à plusieurs octets et que les variables de suivi des liens sont décodées au moyen d’une URL pour compenser le double codage de l’AppMeasurement, définissez cette variable sur `false`. Cette valeur conserve les fonctionnalités d’AppMeasurement existantes.
 * Si votre mise en oeuvre utilise des caractères à plusieurs octets et que vous ne décodez pas les valeurs de suivi des liens, Adobe recommande de définir cette variable sur `true`.
@@ -30,7 +30,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.decodeLinkParameters dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-Le `s.decodeLinkParameters` est une valeur booléenne qui détermine si les valeurs de suivi des liens sont codées deux fois. Si cette variable n’est pas définie, sa valeur par défaut est `false` pour préserver les fonctionnalités des implémentations existantes. Adobe recommande de définir cette valeur sur `true` pour toutes les nouvelles implémentations, en particulier si des valeurs codées URL s’affichent dans les rapports de suivi des liens.
+La variable `s.decodeLinkParameters` est une valeur booléenne qui détermine si les valeurs de suivi des liens sont codées deux fois. Si cette variable n’est pas définie, sa valeur par défaut est `false` pour préserver les fonctionnalités des implémentations existantes. Adobe recommande de définir cette valeur sur `true` pour toutes les nouvelles implémentations, en particulier si des valeurs codées URL s’affichent dans les rapports de suivi des liens.
 
 ```js
 s.decodeLinkParameters = true;
