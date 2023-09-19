@@ -2,10 +2,10 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration des options de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ Pour configurer les options de rapport pour une demande de Data Warehouse :
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. |
+   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. <p>Si le nom de fichier contient l’un des caractères spéciaux suivants, la requête ne peut pas être enregistrée : <code>! &quot; # $ &amp; ’ ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s’il est suivi de &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, comme suit : <code>%R</code>, <code>%rsid</code>, et <code>%id</code>.</p> |
    | [!UICONTROL **Ajout de la plage de dates du rapport au nom de fichier**] | Ajoute la plage de dates au nom du fichier de rapport. <p>Par exemple, si vous demandez des données du 1er mai 2024 au 7 mai 2024, le nom du fichier comprend la plage de dates 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Diffuse des rapports au format CSV pour l’affichage des données dans une feuille de calcul. |
    | [!UICONTROL **Tableau (TDE)**] | Fournit des rapports au format de fichier TDE (Tableau Data Extract), qui peut être utilisé pour visualiser les données et les couches dans les données additionnelles de Tableau. |
