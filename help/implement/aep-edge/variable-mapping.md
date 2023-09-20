@@ -3,7 +3,7 @@ title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `placeContext.localTime` | Permet de renseigner la variable [Fuseaux horaires](/help/analyze/reports-analytics/reports.md) dans Report &amp; Analytics. Apparaît comme `t_time_info` dans [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applique le marchandisage de la [syntaxe du produit](../vars/page-vars/products.md) aux eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applique le marchandisage de la [syntaxe de produit](../vars/page-vars/products.md) aux événements. |
-| `productListItems[].lineItemId` | La dimension [Catégorie](../../components/dimensions/category.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |
+| `productListItems[].productCategories[].categoryID` | La dimension [Catégorie](../../components/dimensions/category.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |
 | `productListItems[].name` | La dimension [Produit](../../components/dimensions/product.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). Si `productListItems[].SKU` et `productListItems[].name` contiennent tous deux des données, la valeur de `productListItems[].SKU` est utilisée. |
 | `productListItems[].priceTotal` | Permet de déterminer la mesure [Revenu](../../components/metrics/revenue.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |
 | `productListItems[].quantity` | Permet de déterminer la mesure [Unités](../../components/metrics/units.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |
