@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 98%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 100%
       + [Filtrer des segments](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marquage des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Suppression des segments](segmentation/segmentation-workflow/seg-delete.md)
+      + [Copie de segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gestion des segments](segmentation/segmentation-workflow/seg-manage.md)
    + Référence de segment {#segment-reference}
       + [Opérateurs de comparaison pour les segments](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 100%
       + [Mesures filtrées et pondérées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Utilisation des fonctions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Balisage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Filtrage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [Marquage des mesures calculées comme favoris](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Approbation des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [Copie de mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gestionnaire de mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Référence des mesures {#calcmetrics-reference}
       + [Référence : fonctions de base](c-calcmetrics/cm-reference/cm-functions.md)

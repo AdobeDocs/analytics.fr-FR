@@ -3,20 +3,26 @@ description: Gérer les alertes.
 title: Présentation d’Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 98%
+source-wordcount: '462'
+ht-degree: 33%
 
 ---
 
 # Gestionnaire d’alertes
 
+La structure du gestionnaire des alertes ressemble à celle de la fonction [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et la variable [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
+
 ![](assets/alert-manager.png)
 
-La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Alertes]**) ressemble à celle du [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr) et permet d’accomplir ce qui suit :
+## Accès au gestionnaire des alertes
 
-![](assets/alert-manager-tasks.png)
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Alertes**].
+
+## Actions disponibles dans le gestionnaire d’alertes
+
+Dans le gestionnaire d’alertes, vous pouvez :
 
 * Accéder au Générateur d’alertes en cliquant sur **[!UICONTROL + Ajouter]**
 * Marquer les alertes ; permet d’organiser les alertes pour plus de facilité
@@ -33,3 +39,28 @@ La structure du Gestionnaire d’alertes (**[!UICONTROL Analytics]** > **[!UICO
 * Spécifier/modifier le propriétaire d’une alerte
 * Ajouter d’autres filtres
 * Définir la **date d’expiration** d’une alerte
+
+## Configuration des colonnes
+
+Vous pouvez paramétrer les informations affichées pour chaque alerte dans le Gestionnaire d&#39;alertes en configurant les colonnes qui s&#39;affichent.
+
+Pour configurer les colonnes visibles dans le gestionnaire d’alertes :
+
+1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Alertes]**.
+
+1. Dans le gestionnaire d’alertes, sélectionnez la variable **Personnalisation des colonnes** icon ![Icône Personnaliser les colonnes](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le Gestionnaire d’alertes.
+
+   Les colonnes suivantes sont disponibles :
+
+   | Titre de la colonne | Description |
+   |---|---|
+   | Favoris | Affiche des icônes d’étoile en regard de chaque alerte, ce qui vous permet de marquer les alertes comme favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | Titre et description | Ces valeurs sont fournies dans le Générateur d’alertes. Pour modifier le titre et la description, sélectionnez le lien du titre pour ouvrir le Générateur d’alertes. |
+   | Suite de rapports | Indique dans quelle suite de rapports l’alerte a été enregistrée en dernier. |
+   | Propriétaire | Indique qui possède l’alerte. En tant que non administrateur, vous ne pouvez afficher que les alertes que vous possédez ou celles qui ont été partagées avec vous. |
+   | Balises | Affiche les balises qui ont été appliquées à l’alerte, soit par vous, soit par des personnes qui ont partagé l’alerte avec vous. |
+   | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé l’alerte. |
+   | Date de modification | Indique la date de la dernière modification de l’alerte. |
+   | Dernière utilisation | **Remarque :** Cette fonctionnalité est disponible dans la phase de tests limités de la version et peut ne pas être encore disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de mise à jour du Customer Journey Analytics, voir [Versions des fonctionnalités de Customer Journey Analytics](/help/release-notes/releases.md).<p>Affiche la date de la dernière utilisation de l’alerte.</p> <p>Ces informations peuvent vous aider à déterminer si une alerte est utile aux utilisateurs de votre entreprise ou si elle doit être supprimée.</p><p>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</p> |
+
+   {style="table-layout:auto"}

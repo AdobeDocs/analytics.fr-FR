@@ -3,10 +3,10 @@ description: Selon vos autorisations, vous pouvez partager des mesures calculée
 title: Partage des mesures calculées
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 24%
+source-wordcount: '335'
+ht-degree: 23%
 
 ---
 
@@ -21,9 +21,11 @@ Selon vos autorisations, vous pouvez partager des mesures calculées avec l’en
 
 Pour partager une mesure calculée :
 
+1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Mesures calculées]**.
+
 1. Dans le gestionnaire des mesures calculées, cochez la case à gauche des mesures que vous souhaitez partager.
 
-1. Sélectionnez la **[!UICONTROL Partager]** icône . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. Sélectionnez la variable **[!UICONTROL Partager]** Icône ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    La boîte de dialogue Partager la mesure calculée s’affiche.
 
@@ -33,17 +35,17 @@ Pour partager une mesure calculée :
 
 1. Choisissez avec qui vous souhaitez partager :
 
-   * **[!UICONTROL Tous]** (Administrateurs uniquement) : Partage avec tous les utilisateurs de l’entreprise.
+   * **[!UICONTROL Tous]** (Administrateurs uniquement) : partage avec tous les utilisateurs de l’entreprise.
 
-      N&#39;envisagez de partager avec tous que s&#39;il est utile à l&#39;ensemble de l&#39;entreprise et si tout le monde sait l&#39;utiliser correctement. Dans ce cas, vous devez également envisager d’en faire une [mesure approuvée](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
+     N&#39;envisagez de partager avec tous que s&#39;il est utile à l&#39;ensemble de l&#39;entreprise et si tout le monde sait l&#39;utiliser correctement. Dans ce cas, vous devez également envisager d’en faire une [mesure approuvée](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md).
 
-   * **[!UICONTROL Groupes]** (Administrateurs uniquement) : Sélectionnez les groupes avec lesquels vous souhaitez effectuer le partage.
+   * **[!UICONTROL Groupes]** (Administrateurs uniquement) : sélectionnez les groupes que vous souhaitez partager avec .
 
-      Envisagez de partager avec un groupe si la mesure offre une valeur ajoutée intéressante à l’équipe en question.
+     Envisagez de partager avec un groupe si la mesure offre une valeur ajoutée intéressante à l’équipe en question.
 
-   * **[!UICONTROL Utilisateurs individuels]**: Recherchez et sélectionnez les utilisateurs individuels que vous souhaitez partager avec .
+   * **[!UICONTROL Utilisateurs individuels]**: recherchez et sélectionnez les utilisateurs individuels que vous souhaitez partager avec .
 
-      Il s’agit de la seule option de partage disponible pour tous les utilisateurs. Les administrateurs peuvent utiliser cette option pour vérifier et valider une mesure avant de la rendre disponible pour un groupe ou pour tout le monde. Si la mesure n’est pas utile, elle peut être ignorée. Les administrateurs ne doivent pas approuver officiellement ce type de mesure.
+     Il s’agit de la seule option de partage disponible pour tous les utilisateurs. Les administrateurs peuvent utiliser cette option pour vérifier et valider une mesure avant de la rendre disponible pour un groupe ou pour tout le monde. Si la mesure n’est pas utile, elle peut être ignorée. Les administrateurs ne doivent pas approuver officiellement ce type de mesure.
 
 1. Sélectionnez **[!UICONTROL Partager]**.
 

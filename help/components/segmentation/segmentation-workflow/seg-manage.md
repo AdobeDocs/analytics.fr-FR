@@ -3,43 +3,77 @@ description: Le Gestionnaire de segments offre plusieurs manières d’organiser
 title: Gestion des segments (Gestionnaire de segments)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 98%
+source-wordcount: '710'
+ht-degree: 39%
 
 ---
 
-# Gestion des segments
+# Gestionnaire de segments
 
 Le Gestionnaire de segments offre plusieurs manières d’organiser les segments, par exemple le partage, le filtrage, le marquage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 
-Le Gestionnaire de segments Analytics vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter tous les segments de l’entreprise. Cet aperçu présente l’interface utilisateur et les fonctionnalités du Gestionnaire de segments. Accédez au Gestionnaire de segments en procédant comme suit :
+Le Gestionnaire de segments Analytics vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter tous les segments de l’entreprise. Cet aperçu présente l’interface utilisateur et les fonctionnalités du Gestionnaire de segments.
 
-* Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]** dans le volet de navigation supérieur.
-* Affichez un rapport existant, puis cliquez sur l’icône Segments ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche. Cliquez ensuite sur **[!UICONTROL Gérer]**.
+![Gestionnaire de segments](assets/segments-manager.png)
+
+## Accès au Gestionnaire de segments
+
+1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Segments]**.
+
+   Ou
+
+   Dans un rapport existant, sélectionnez l’icône Segments . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Gérer]**.
+
+## Actions disponibles dans le Gestionnaire de segments
+
+Dans le Gestionnaire de segments, vous pouvez :
+
+* [Filtrer des segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Marquage des segments comme favoris](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Approbation des segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Balisage des segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Partage des segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Exportez un segment dans un fichier CSV.
+
+* [Copie de segments](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Suppression des segments](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Configuration des colonnes
+
+Vous pouvez configurer les informations affichées pour chaque segment dans le Gestionnaire de segments en configurant les colonnes qui s’affichent.
+
+Pour configurer les colonnes visibles dans le Gestionnaire de segments :
+
+1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Segments]**.
+
+1. Dans le Gestionnaire de segments, sélectionnez la variable **Personnalisation des colonnes** icon ![Icône Personnaliser les colonnes](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le Gestionnaire de segments.
+
+   Les colonnes suivantes sont disponibles :
+
+   | Titre de la colonne | Description |
+   |---|---|
+   | Titre et description | Ces valeurs sont fournies dans le créateur de segments. Pour modifier le titre et la description, cliquez sur le lien du titre pour ouvrir le créateur de segments. |
+   | Favoris | Affiche des icônes d’étoile en regard de chaque segment, ce qui vous permet de marquer les segments comme favoris. Pour plus d’informations, voir [Marquage des segments comme favoris](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Suites de rapports | Cette colonne indique dans quelle suite de rapports le segment a été enregistré en dernier. |
+   | Propriétaire | Indique qui possède le segment. En tant que non administrateur, vous ne pouvez consulter que les segments que vous possédez ou ceux qui ont été partagés avec vous. |
+   | Balises (non cochées dans le sélecteur de colonnes, de ce fait, la colonne n’apparaît pas) | Les balises qui ont été appliquées au segment, soit par vous, soit par des personnes qui ont partagé le segment avec vous. |
+   | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé le segment. <p>Lorsqu’un segment est partagé par vous ou avec vous, une icône de partage s’affiche en regard du nom du segment.</p> |
+   | Date de modification | Affiche la date de la dernière modification du segment. |
+   | Utilisé dans | **Remarque :** Cette fonctionnalité est disponible dans la phase de tests limités de la version et peut ne pas être encore disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de mise à jour du Customer Journey Analytics, voir [Versions des fonctionnalités de Customer Journey Analytics](/help/release-notes/releases.md).<p>Indique dans quels types de composants le segment est actuellement utilisé :</p> <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li><li>Segments</li></ul> Si, par exemple, le segment est utilisé dans 40 projets et 2 alertes, cette colonne affiche [!UICONTROL **Alertes (2), Projets (40)**]. <p>Ces informations peuvent vous aider à déterminer si un segment est utile aux utilisateurs de votre entreprise ou s’il doit être supprimé.</p><p>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</p><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise. |
+   | Dernière utilisation | **Remarque :** Cette fonctionnalité est disponible dans la phase de tests limités de la version et peut ne pas être encore disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de mise à jour du Customer Journey Analytics, voir [Versions des fonctionnalités de Customer Journey Analytics](/help/release-notes/releases.md).<p>Affiche la date de la dernière utilisation du segment dans l’un des types de composants suivants :</p> <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li><li>Segments</li></ul> <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise ou s’il doit être supprimé.</p><p>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</p><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise. |
+
+   {style="table-layout:auto"}
 
 ## Vidéo pratique {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 Cette [vidéo d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=fr) explique brièvement comment utiliser le Gestionnaire de segments.
 
-## Interface utilisateur du Gestionnaire de segments  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](assets/segment_manager_ui.png)
-
-| # | Fonction de l’interface utilisateur | Description |
-|---|---|---|
-| 1 | Barre d’outils de la gestion des segments | Une fois que vous avez coché un segment, cette barre d’outils s’affiche. La plupart des tâches de gestion peuvent être réalisées depuis cette barre. |
-| 2 | Afficher les filtres | Le fait de cliquer sur l’icône Filtrer affiche le menu Filtrer. Vous pouvez filtrer selon les options Balises, Propriétaires, Tout afficher (administrateur uniquement), Le mien, Favoris, Approuvés et Partagés avec moi. |
-| 3 | Cases à cocher | Cochez un segment pour le gérer. |
-| 4 | Favoris | Le fait de cliquer sur l’étoile en regard d’un segment la rend jaune et marque le segment comme favori. |
-| 5 | Titre et description des segments | Fournis dans le Créateur de segments. Pour modifier le titre et la description, cliquez sur le lien du titre : il vous ramène au Créateur de segments. |
-| 6 | Suites de rapports | Cette colonne indique dans quelle suite de rapports le segment a été enregistré en dernier. |
-| 7 | Propriétaire | Indique qui possède le segment. En tant que non administrateur, vous ne pouvez consulter que les segments que vous possédez ou ceux qui ont été partagés avec vous. |
-| 8 | Balises (non cochées dans le sélecteur de colonnes, de ce fait, la colonne n’apparaît pas) | Les balises qui ont été appliquées au segment, soit par vous, soit par des personnes qui ont partagé le segment avec vous. |
-| 9 | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé le segment. |
-| 10 | Date de modification | Affiche la date de la dernière modification du segment. |
-| 11 | Sélecteur de colonnes | Permet de sélectionner ou désélectionner des colonnes dans le Gestionnaire de segments. |
-| 12 | Icône Partagé | Indique que ce segment est partagé par ou avec vous. |
-| 13 | Icône Approuvé | Indique que ce segment a été approuvé par un administrateur. |
-| 14 | Filtres | Permet d’afficher et de sélectionner les filtres sous Balises, Suites de rapports, Propriétaires et Autres (Afficher tout, À moi, Partager avec moi, Approuvés, Favoris). |

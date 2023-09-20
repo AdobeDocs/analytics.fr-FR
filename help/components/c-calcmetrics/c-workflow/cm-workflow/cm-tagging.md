@@ -3,10 +3,10 @@ description: Dans le Gestionnaire de mesures calculées, le balisage des segment
 title: Balisage des mesures calculées
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
+source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 19%
+source-wordcount: '274'
+ht-degree: 20%
 
 ---
 
@@ -25,10 +25,9 @@ Tous les utilisateurs peuvent créer des balises pour les mesures calculées et 
 >* **Catégories**, par exemple Femmes ou Géographie.
 >* **Workflows**, par exemple À approuver ou Traité pour (une unité opérationnelle spécifique)
 
-
 ## Application de balises à une mesure calculée
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire des mesures calculées.
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**].
 
 1. Dans le gestionnaire des mesures calculées, cochez la case en regard des mesures que vous souhaitez baliser.
 
