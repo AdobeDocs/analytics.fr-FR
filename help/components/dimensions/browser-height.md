@@ -3,16 +3,16 @@ title: Hauteur du navigateur - Regroupement
 description: Hauteur de la fenêtre du navigateur en pixels.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Hauteur du navigateur
 
-La dimension « Hauteur du navigateur - regroupée » affiche la hauteur de la fenêtre du navigateur, classée en groupes de 100 pixels. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
+&quot;Hauteur du navigateur - regroupée&quot; [dimension](overview.md) affiche la hauteur de la fenêtre du navigateur, classée en groupes de 100 pixels. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
 
 Cette dimension est différente de la hauteur d’écran. La hauteur du navigateur correspond au nombre de pixels dans l’espace consultable du navigateur, tandis que la hauteur d’écran correspond à la hauteur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 
@@ -24,7 +24,7 @@ La hauteur du navigateur est toujours inférieure ou égale à la hauteur d’é
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`bh`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bh` lors du premier accès de chaque visite.
+Cette dimension récupère les données de la chaîne de requête [`bh`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerHeight` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bh` lors du premier accès de chaque visite.
 
 Adobe conserve la hauteur du navigateur pour une visite. Si la hauteur du navigateur est ajustée en cours de visite, l’ajustement n’est pas enregistré.
 

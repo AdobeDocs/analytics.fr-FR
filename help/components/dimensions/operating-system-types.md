@@ -3,16 +3,16 @@ title: Types de systèmes d’exploitation
 description: Le système d’exploitation, quelle que soit la version.
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Types de systèmes d’exploitation
 
-La dimension « Types de systèmes d’exploitation » indique le système d’exploitation global utilisé par le visiteur, quelle que soit la version spécifique. Cette dimension est utile pour identifier le système d’exploitation et la version spécifique les plus courants, mais aussi la plateforme de système d’exploitation généralement utilisée par les visiteurs.
+Types de systèmes d’exploitation [dimension](overview.md) affiche le système d’exploitation global utilisé par le visiteur, quelles que soient les versions spécifiques. Cette dimension est utile pour identifier le système d’exploitation et la version spécifique les plus courants, mais aussi la plateforme de système d’exploitation généralement utilisée par les visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

@@ -3,16 +3,16 @@ title: Profondeur de couleur
 description: Profondeur de couleur de l’appareil.
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Profondeur de couleur
 
-La dimension « Profondeur de couleur » indique le nombre de couleurs prises en charge par l’appareil. Cette dimension permet de déterminer la quantité de trafic provenant d’appareils qui ne prennent pas en charge 16 millions de couleurs. Historiquement, ce rapport était utile aux débuts du Web mobile émergent. Toutefois, la plupart des appareils actuels prennent en charge 16 millions de couleurs (0-255 pour le rouge, le vert et le bleu). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+&#39;Profondeur de couleur&#39; [dimension](overview.md) indique le nombre de couleurs prises en charge par l’appareil. Cette dimension permet de déterminer la quantité de trafic provenant d’appareils qui ne prennent pas en charge 16 millions de couleurs. Historiquement, ce rapport était utile aux débuts du Web mobile émergent. Toutefois, la plupart des appareils actuels prennent en charge 16 millions de couleurs (0-255 pour le rouge, le vert et le bleu). <!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## Renseignement de cette dimension avec des données
 

@@ -3,16 +3,16 @@ title: Durée de la visite (dimensions)
 description: La durée totale de la visite.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # Durée de la visite
 
-*Cette page d’aide décrit le fonctionnement des dimensions respectives de la « Durée de la visite ». Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
+*Cette page d’aide décrit le fonctionnement de la &quot;Durée de la visite&quot; en tant que [dimensions](overview.md). Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
 
 Les dimensions « Durée de la visite » enregistrent le temps passé par un visiteur pendant l’intégralité de la visite. Elle utilise les étapes suivantes pour mesurer le calcul :
 

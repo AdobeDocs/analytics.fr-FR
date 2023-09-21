@@ -3,16 +3,16 @@ title: Appareils uniques
 description: Nombre dʼappareils uniques.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Appareils uniques
 
-La mesure « Appareils uniques » est une mesure d&#39;[analyse entre appareils](../cda/overview.md) qui comptabilise le nombre d’appareils non identifiés uniques et d’appareils virtuels uniques. Les appareils non identifiés sont des appareils qui ont généré des accès anonymes. Les appareils virtuels uniques sont des personnes distinctes identifiées par appareil.
+Les &quot;appareils uniques&quot; [metric](overview.md) est un [Analyses entre appareils](../cda/overview.md) mesure qui comptabilise le nombre de périphériques uniques non identifiés et d’appareils virtuels uniques. Les appareils non identifiés sont des appareils qui ont généré des accès anonymes. Les appareils virtuels uniques sont des personnes distinctes identifiées par appareil.
 
 ## Méthode de calcul de cette mesure
 

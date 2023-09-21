@@ -3,10 +3,10 @@ title: Dimensions mobiles
 description: Dimensions basées sur lʼadresse IP de lʼappareil.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Cette page fait référence aux propriétés des appareils mobiles qui accèdent à votre site Web. Si vous souhaitez effectuer le suivi des appareils sur une application mobile, consultez [Mise en œuvre d’Analytics pour les appareils mobiles](/help/implement/mobile-device-sdk.md) dans le guide d’utilisation de la mise en œuvre.*
 
-Les dimensions mobiles fournissent des informations sur les propriétés des appareils mobiles qui visitent votre site. Vous pouvez utiliser ces dimensions pour déterminer les fonctionnalités prises en charge par un appareil mobile.
+Mobile [dimensions](overview.md) fournir des informations sur les propriétés des appareils mobiles qui visitent votre site. Vous pouvez utiliser ces dimensions pour déterminer les fonctionnalités prises en charge par un appareil mobile.
 
 ## Renseignement des données dans ces dimensions
 
@@ -47,7 +47,7 @@ Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans
 * **Système d’exploitation mobile (obsolète)** : utilisez plutôt la dimension [Système d’exploitation](operating-systems.md).
 * **Fonction mobile de pression pour parler** : détermine si l’appareil prend en charge PTT (Push to talk), ce qui permet à l’appareil mobile de se comporter comme une radio bidirectionnelle. Les appareils récents ne signalent généralement pas cette fonctionnalité.
 * **Hauteur d’écran de l’appareil mobile** : la hauteur de l’écran, en pixels. Notez que les iPhone indiquent toujours `"480"`, car il est impossible de déterminer la version de l’appareil iPhone. Reportez-vous à la section ci-dessous pour déterminer la version d’un appareil iPhone.
-* **Taille de l’écran de l’appareil mobile** : les dimensions complètes de l’appareil mobile en pixels. La taille d’écran figurant dans le rapport n’indique pas l’orientation du dispositif. Quelle que soit l’orientation, chaque dispositif est associé à une résolution d’écran fixe dans le rapport. Cette taille est basée sur des recherches qui déterminent l’orientation la plus probable. Les tailles, notamment `"768x1024"` et `"1024x768"`, apparaissent dans le même rapport, chacune d’elles représentant un ou plusieurs appareils différents.
+* **Taille de l’écran de l’appareil mobile** : les dimensions complètes de l’appareil mobile en pixels. La taille d’écran figurant dans le rapport n’indique pas l’orientation de l’appareil. Quelle que soit l’orientation, chaque appareil est associé à une résolution d’écran fixe dans le rapport. Cette taille est basée sur des recherches qui déterminent l’orientation la plus probable. Les tailles, notamment `"768x1024"` et `"1024x768"`, apparaissent dans le même rapport, chacune d’elles représentant un ou plusieurs appareils différents.
 * **Largeur d’écran de l’appareil mobile** : la largeur de l’écran, en pixels.
 * **Prise en charge de la vidéo sur l’appareil mobile** : les formats de fichiers vidéo et codecs pris en charge par l’appareil mobile. Il existe plusieurs éléments de dimension pour les différents codecs de fichiers MP4 et 3GPP. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
 
@@ -60,10 +60,10 @@ Si vous souhaitez obtenir la version de l’appareil iPhone, il existe deux faç
 * **Utiliser le SDK iOS** : le SDK mobile contient des dimensions qui affichent la version de l’appareil en vue de son utilisation dans les rapports. Cette méthode est plus adaptée aux applications mobiles qu’aux sites Web.
 * **Utiliser d’autres variables disponibles via JavaScript** : certaines variables, comme `screen.height` et `screen.width`, peuvent être utilisées pour déduire la version de l’appareil. Par exemple, vous pouvez utiliser le fragment de code suivant sur votre site :
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   Ce bloc de code détecte tout d’abord si l’appareil est un iPhone. Si tel est le cas, le code utilise JavaScript pour extraire la résolution d’écran dans une eVar. Cette méthode permet de détecter la version de l’appareil de manière approximative si les résolutions d’écran sont uniques.
+  Ce bloc de code détecte tout d’abord si l’appareil est un iPhone. Si tel est le cas, le code utilise JavaScript pour extraire la résolution d’écran dans une eVar. Cette méthode permet de détecter la version de l’appareil de manière approximative si les résolutions d’écran sont uniques.

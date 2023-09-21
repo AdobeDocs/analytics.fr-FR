@@ -3,16 +3,16 @@ title: Paniers
 description: Le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit au panier.
 feature: Metrics
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
-source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 56%
+ht-degree: 45%
 
 ---
 
 # Paniers
 
-La mesure Paniers indique le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit au panier.
+Les &quot;Paniers&quot; [metric](overview.md) indique le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit à un panier.
 
 ## Méthode de calcul de cette mesure
 

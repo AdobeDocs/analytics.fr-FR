@@ -3,16 +3,16 @@ title: Visiteurs avec un Experience Cloud ID
 description: Le nombre de visiteurs uniques utilisant le service Adobe Experience Cloud ID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Visiteurs avec un Experience Cloud ID
 
-La mesure « Visiteurs avec un Experience Cloud ID » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
+&quot;Visiteurs avec un Experience Cloud ID&quot; [metric](overview.md) affiche le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide de la variable [Service d’ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >

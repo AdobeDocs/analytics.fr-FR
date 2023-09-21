@@ -3,16 +3,16 @@ title: Personnes non identifiées
 description: Nombre de visiteurs que les analyses entre appareils n’ont pas identifiés.
 feature: Metrics
 exl-id: 00df1a5a-1a99-4783-acf6-8d8ab0293e6f
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
 # Personnes non identifiées
 
-La mesure « Personnes non identifiées » est une mesure d’[analyse entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs que les analyses entre appareils n’ont pas pu identifier.
+Les &quot;gens non identifiés&quot; [metric](overview.md) est un [Analyses entre appareils](../cda/overview.md) mesure qui comptabilise le nombre de visiteurs que les Analyses entre appareils n’ont pas pu identifier.
 
 ## Méthode de calcul de cette mesure
 

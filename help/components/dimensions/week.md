@@ -3,16 +3,16 @@ title: Semaine
 description: La semaine au cours de laquelle la mesure a été effectuée.
 feature: Dimensions
 exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Semaine
 
-La dimension « Semaine » indique la semaine au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première semaine de la période et le dernier élément de dimension correspond à la dernière semaine de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
+La &quot;Semaine&quot; [dimension](overview.md) indique la semaine au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première semaine de la période et le dernier élément de dimension correspond à la dernière semaine de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
 
 ## Renseignement de cette dimension avec des données
 

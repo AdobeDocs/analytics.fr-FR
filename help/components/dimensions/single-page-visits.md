@@ -3,16 +3,16 @@ title: Visites sur une seule page (dimensions)
 description: Indicateur précisant que la visite ne comportait qu’une page.
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
-# Visites sur une seule page
+# Visites de page unique
 
-*Cette page d’aide décrit le fonctionnement de la dimension « Visites de page unique ». Pour plus d’informations, consultez la mesure [Visites de page unique](../metrics/single-page-visits.md).*
+*Cette page d’aide décrit le fonctionnement de la fonction &quot;Visites de page unique&quot; [dimension](overview.md). Pour plus d’informations, consultez la mesure [Visites de page unique](../metrics/single-page-visits.md).*
 
 La dimension « Visites de page unique » indique le nombre de visites qui ne comportaient qu’un élément de dimension [Page](page.md). Il s’agit de la forme de dimension correspondante à la mesure [Visites de page unique](../metrics/single-page-visits.md).
 

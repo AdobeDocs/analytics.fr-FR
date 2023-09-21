@@ -3,16 +3,16 @@ title: Prise en charge des cookies persistants
 description: Détermine si le visiteur peut prendre en charge les cookies persistants.
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Prise en charge des cookies persistants
 
-La dimension « Prise en charge des cookies persistants » indique si lʼaccès a utilisé un identifiant visiteur provenant dʼune source persistante. La source persistante la plus courante provient dʼun cookie, mais peut également utiliser des en-têtes mobiles et dʼautres sources.
+Prise en charge des cookies persistants [dimension](overview.md) indique si l’accès a utilisé un identifiant visiteur provenant d’une source persistante. La source persistante la plus courante provient dʼun cookie, mais peut également utiliser des en-têtes mobiles et dʼautres sources.
 
 ## Renseignement de cette dimension avec des données
 

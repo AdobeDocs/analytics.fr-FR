@@ -3,16 +3,16 @@ title: Domaine référent
 description: Le domaine global sur lequel se trouvait un visiteur avant d’effectuer un clic pour accéder à votre site.
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Domaine référent
 
-La dimension « Domaine référent » indique les domaines sur lesquels les visiteurs effectuent un clic pour accéder à votre site. Cette dimension est utile pour identifier les sites tiers qui génèrent le plus de trafic sur le vôtre. Un lien doit exister sur le site externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
+Le &quot;domaine référent&quot; [dimension](overview.md) indique les domaines sur lesquels les visiteurs cliquent pour accéder à votre site. Cette dimension est utile pour identifier les sites tiers qui génèrent le plus de trafic sur le vôtre. Un lien doit exister sur le site externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Le même rapport peut montrer des résultats différents entre Analysis Workspac
 
 Cette dimension nécessite une configuration dans l’interface d’Analytics et la présence de données dans les demandes d’image.
 
-* Dans votre implémentation, cette dimension récupère les données de la [`r`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `document.referrer` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `r` dans les demandes d’image.
+* Dans votre implémentation, cette dimension récupère les données de la chaîne de requête [`r`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `document.referrer` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `r` dans les demandes d’image.
 * Dans l’interface d’Analytics, vous devez configurer les [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports. Si vous ne configurez pas les filtres d’URL internes, il est possible que des domaines internes soient inclus ou que des domaines externes ne s’affichent pas.
 
 Adobe conserve le domaine référent pour une visite. Si un visiteur quitte le site et clique sur le lien d’un autre domaine au cours d’une même visite, la nouvelle valeur est mise à jour et persiste pour le reste de la visite. Si vous souhaitez uniquement afficher la valeur d’origine, consultez [Domaine référent initial](original-referring-domain.md).

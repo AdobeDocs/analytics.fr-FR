@@ -3,16 +3,16 @@ title: Classement de toutes les pages de recherche
 description: Déterminez la page de moteur de recherche sur laquelle un visiteur a cliqué pour accéder à votre site.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # Classement de toutes les pages de recherche
 
-La dimension « Classement de toutes les pages de recherche » fournit des informations sur la page de résultats de recherche sur laquelle un visiteur a cliqué pour accéder à votre site. Par exemple, si votre site apparaît sur la deuxième page de résultats d’un moteur de recherche, l’élément de dimension de cette variable est « Page de recherche 2 ».
+&quot;Classement de toutes les pages de recherche&quot; [dimension](overview.md) fournit des informations sur la page des résultats de recherche sur laquelle un visiteur a cliqué pour accéder à votre site. Par exemple, si votre site apparaît sur la deuxième page de résultats d’un moteur de recherche, l’élément de dimension de cette variable est « Page de recherche 2 ».
 
 ## Renseignement de cette dimension avec des données
 

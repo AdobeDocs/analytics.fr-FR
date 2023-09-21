@@ -3,7 +3,7 @@ title: Méthode de calcul de la durée de la visite dans Adobe Analytics
 description: Une page agrégée des dimensions et mesures de durée de la visite.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: e2128ef18a62832a9740a4cb610685f351c7db19
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 74%
@@ -12,16 +12,16 @@ ht-degree: 74%
 
 # Présentation de la durée de la visite
 
-Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont proposées dans les produits Adobe Analytics.
+Diverses mesures et dimensions de [!UICONTROL « durée de la visite »] sont proposées dans les produits Adobe Analytics.[](overview.md)
 
 ## Mesures de « durée de la visite »
 
 | Mesure | Définition | Disponible dans |
 |---|---|---|
-| [!UICONTROL Durée totale en secondes] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Analysis Workspace, Reports &amp; Analytics, Report Builder (appelé &quot;durée totale de la visite&quot;), Data Warehouse |
-| [!UICONTROL Durée de la visite] (en secondes) | Environ *Durée totale en secondes / (visite-rebonds)*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique au cours de chaque visite. **Remarque**: Cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Durée par visiteur] (en secondes) | Environ *Durée totale en secondes / visiteur unique*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: Cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace, Reports &amp; Analytics |
-| [!UICONTROL Durée de la visite/de l’utilisateur (état)] | Environ *Durée totale en secondes de l’application mobile / visiteurs de l’application mobile unique*<br> Représente la durée moyenne pendant laquelle les visiteurs d’applications mobiles interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: Cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
+| [!UICONTROL Durée totale en secondes] | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique. Inclut l’instance d’une valeur et la persistance sur tous les accès suivants. Dans le cas des props, la durée de la visite est également prise en compte dans les événements de lien ultérieurs. | Analysis Workspace, Reports &amp; Analytics, Report Builder (appelé &quot;temps total passé&quot;), Data Warehouse |
+| [!UICONTROL Durée de la visite] (en secondes) | Environ *Durée totale en secondes / (visite-rebonds)*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique au cours de chaque visite. **Remarque**: cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Durée par visiteur] (en secondes) | Environ *Durée totale en secondes / visiteur unique*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace, Reports &amp; Analytics |
+| [!UICONTROL Durée de la visite/de l’utilisateur (état)] | Environ *Durée totale en secondes de l’application mobile / visiteurs de l’application mobile unique*<br> Représente la durée moyenne pendant laquelle les visiteurs d’applications mobiles interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
 | [!UICONTROL Durée moyenne de la visite du site] (en secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas uniquement aux moyennes de &quot;site&quot; comme son nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Reports &amp; Analytics (en minutes), Report Builder (en minutes) |
 | [!UICONTROL Temps moyen passé sur le site] | Il s’agit de la même mesure que *Durée moyenne de la visite du site (en secondes)*, mais au format de la mesure Heure (hh:mm:ss). | Analysis Workspace |
 | [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la &quot;Durée moyenne de la visite du site&quot; si la durée moyenne d’un élément de dimension est nécessaire. | Report Builder (lorsqu’une dimension figure dans la demande) |
@@ -71,7 +71,7 @@ Les mesures de &quot;durée de la visite&quot; qui peuvent être appliquées à 
 
 +++Quelle dimension de durée de la visite est la mieux utilisée dans les ventilations avec d’autres dimensions ?
 
-Le [!UICONTROL Durée de consultation de la page - Granulaire] est une dimension du niveau de l’accès. La ventilation de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de ventilation était également présente.
+La variable [!UICONTROL Durée de consultation de la page - Granulaire] est une dimension du niveau de l’accès. La répartition de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de répartition était également présente.
 Dans l’exemple ci-dessous, le terme de recherche &quot;classifieds&quot; est associé à des temps d’accès de 54 secondes, 59 secondes, etc., indiquant peut-être que les visiteurs passent du temps à lire le contenu renvoyé pour ce terme.
 
 ![](assets/time-spent1.png)
@@ -125,7 +125,7 @@ Supposons que le jeu d’appels au serveur suivant concerne un seul visiteur au 
 | **Temps écoulé de la visite (en secondes)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Secondes écoulées** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Type d’accès** | Page | Lien | Page | Page | Page | Page | Page |
-| **Nom de la page** | Accueil | - | Produit | Accueil | Accueil   (recharge) | Panier | Confirmation de commande |
+| **Nom de la page** | Accueil | - | Product | Accueil | Accueil   (recharge) | Panier | Confirmation de commande |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A   (définie) | A (propagée) | non définie | B (définie) | B (définie) | A (définie) | C   (définie) |
 | **secondes écoulées prop1** | 30 | 50 | - | 10 | 40 | 60 | - |

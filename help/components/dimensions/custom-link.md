@@ -3,16 +3,16 @@ title: Lien personnalisé
 description: Le nom du lien personnalisé.
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Lien personnalisé
 
-La dimension « Lien personnalisé » indique le nom des liens personnalisés implémentés sur votre site. Cette dimension est utile pour déterminer les types de liens les plus utilisés par les visiteurs.
+&quot;Lien personnalisé&quot; [dimension](overview.md) indique le nom des liens personnalisés implémentés sur votre site. Cette dimension est utile pour déterminer les types de liens les plus utilisés par les visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

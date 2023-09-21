@@ -3,16 +3,16 @@ title: État identifié
 description: Indicateur déterminant la reconnaissance par le graphique d’appareil.
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '111'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # État identifié
 
-La dimension « État identifié » est spécifique aux suites de rapports virtuelles d’[Analytics sur l’ensemble des appareils](../cda/overview.md). Il indique si les accès sont identifiés (regroupés) ou non par le système au moment de l’exécution du rapport. Cette dimension permet de comprendre comment Analytics sur l’ensemble des appareils assemble ou « compresse » les données.
+&quot;État identifié&quot; [dimension](overview.md) est spécifique à [Analyses entre appareils](../cda/overview.md) suites de rapports virtuelles. Il indique si les accès sont identifiés (regroupés) ou non par le système au moment de l’exécution du rapport. Cette dimension permet de comprendre comment Analytics sur l’ensemble des appareils assemble ou « compresse » les données.
 
 ## Renseignement de cette dimension avec des données
 

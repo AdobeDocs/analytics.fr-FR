@@ -3,16 +3,16 @@ title: Référencement payant
 description: Permet de distinguer les mesures de référencement payant des mesures de référencement naturel.
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Référencement payant
 
-La dimension « Référencement payant » vous permet d’examiner n’importe quelle mesure et de la comparer avec le référencement payant et le référencement naturel. Tous les autres accès en dehors des moteurs de recherche sont omis. Cette dimension permet de comparer les tâches de référencement payant à celles du référencement organique.
+La &quot;recherche payante&quot; [dimension](overview.md) vous permet d’examiner n’importe quelle mesure et de la comparer entre le référencement payant et le référencement naturel. Tous les autres accès en dehors des moteurs de recherche sont omis. Cette dimension permet de comparer les tâches de référencement payant à celles du référencement organique.
 
 ## Renseignement de cette dimension avec des données
 

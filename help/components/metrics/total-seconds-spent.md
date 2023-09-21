@@ -3,16 +3,16 @@ title: Durée totale en secondes
 description: Le nombre total agrégé de secondes passées sur l’élément de dimension.
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Durée totale en secondes
 
-La mesure « Durée totale en secondes » indique le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez connaître le temps brut passé sur un élément de dimension donné, et non pas des moyennes comme le proposent d’autres mesures de durée.
+&quot;Durée totale en secondes&quot; [metric](overview.md) affiche le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez connaître le temps brut passé sur un élément de dimension donné, et non pas des moyennes comme le proposent d’autres mesures de durée.
 
 Dans Report Builder, cette mesure est intitulée « Durée totale de la visite ».
 

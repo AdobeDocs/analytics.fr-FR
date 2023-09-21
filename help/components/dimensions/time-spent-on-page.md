@@ -3,16 +3,16 @@ title: Durée de consultation de la page
 description: Le temps passé par un visiteur sur la page.
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 
 # Durée de consultation de la page
 
-La dimension « Durée de consultation de la page » enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
+&quot;Durée de consultation de la page&quot; [dimension](overview.md) enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
 
 1. Pour un accès donné, consultez la date et l’heure.
 2. Comparez cet accès à l’horodatage du prochain accès de la visite. L’accès de suivi des pages vues et des liens est important.
@@ -36,7 +36,7 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 Il existe plusieurs dimensions pour la durée de consultation de la page :
 
-* **Durée de consultation de la page - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 15 seconds"` et `"More than 30 minutes"`. La durée entre les accès ne dure généralement pas plus de 30 minutes ; cependant, le temps entre les accès peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
+* **Durée de consultation de la page - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 15 seconds"` et `"More than 30 minutes"`. Le temps entre les accès ne dure généralement pas plus de 30 minutes. Cependant, le temps entre les accès peut dépasser 30 minutes si vous utilisez des accès horodatés ou des sources de données.
 * **Durée de consultation de la page - granulaire** : chaque nombre de secondes est un élément de dimension unique.
 
 Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.

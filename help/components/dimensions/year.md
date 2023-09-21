@@ -3,16 +3,16 @@ title: Année
 description: L’année au cours de laquelle la mesure a été effectuée.
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # Année
 
-La dimension « Année » indique l’année au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première année de la période et le dernier élément de dimension correspond à la dernière année de la période.
+L&#39;&quot;année&quot; [dimension](overview.md) indique l’année au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première année de la période et le dernier élément de dimension correspond à la dernière année de la période.
 
 ## Renseignement de cette dimension avec des données
 

@@ -3,10 +3,10 @@ title: Durée de la visite (mesures)
 description: Durée de la visite pour l’élément de dimension.
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *Cette page d’aide décrit le fonctionnement de la mesure « Durée de la visite ». Pour plus d’informations, consultez la dimension [Durée de la visite](../dimensions/time-spent-per-visit.md).*
 
-La mesure « Durée de la visite (secondes) » indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné au cours de chaque visite.
+&quot;Durée de la visite (secondes)&quot; [metric](overview.md) indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné au cours de chaque visite.
 
 Cette mesure n’est pas disponible dans Data Warehouse en raison de sa différence d’architecture de traitement.
 

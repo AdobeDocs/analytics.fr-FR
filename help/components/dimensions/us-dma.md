@@ -3,16 +3,16 @@ title: DMA États-Unis
 description: Zone de marché désignée de l’accès.
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 85%
+ht-degree: 80%
 
 ---
 
 # DMA États-Unis
 
-La dimension « DMA États-Unis » indique la zone de marché désignée (ou DMA) du visiteur. Elle est basée sur les marchés des médias compilés par [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
+La &quot;DMA des États-Unis&quot; [dimension](overview.md) indique la zone de marché désignée (DMA) du visiteur. Elle est basée sur les marchés des médias compilés par [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/).
 
 ## Renseignement de cette dimension avec des données
 
@@ -30,4 +30,4 @@ Dans la mesure où cette dimension est basée sur l’adresse IP, certains scén
 * **Adresses IP de mobiles** : le ciblage des adresses IP de mobiles fonctionne à différents niveaux en fonction de l’emplacement et du réseau. Plusieurs opérateurs renvoient le trafic IP via des points de présence centralisés ou régionaux.
 * **Utilisateurs de FAI par satellite** : identifier l’emplacement spécifique de ces utilisateurs s’avère difficile, dans la mesure où ils semblent généralement provenir de l’emplacement de la liaison montante.
 * **Adresses IP militaires et gouvernementales** : cette catégorie englobe généralement les membres du personnel qui voyagent autour du globe et accèdent aux sites par le biais de leur point d’origine, plutôt qu’au départ de la base ou du bureau où ils se trouvent actuellement.
-* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité**: Des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.
+* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité**: des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.

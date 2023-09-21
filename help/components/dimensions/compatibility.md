@@ -3,16 +3,16 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Compatibilité des dimensions Analytics
 
-Cette page liste les dimensions prises en charge dans leurs fonctionnalités Analytics respectives.
+Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonctionnalités Analytics respectives.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Pays | `geocountry` |
 | Fidélité de la clientèle | `customerloyalty` |
 | Variables de conversion personnalisées | `evar1`, `evar2`, etc. |
-| Variables Aperçu personnalisé | `prop1`, `prop2`, etc. |
+| Variables Custom Insight | `prop1`, `prop2`, etc. |
 | Lien personnalisé | `customlink` |
 | Jours avant le premier achat | `daysbeforefirstpurchase` |
 | Jours depuis le dernier achat | `dayssincelastpurchase` |
@@ -60,7 +60,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Profondeur de couleur du dispositif portable | `mobilecolordepth` |
 | Prise en charge des cookies sur le dispositif portable | `mobilecookiesupport` |
 | Appareil mobile | `mobiledevicename` |
-| Type de périphérique mobile | `mobiledevicetype` |
+| Type d’appareil mobile | `mobiledevicetype` |
 | Mobile - Longueur max. d’adresse e-mail | `mobileemaillength` |
 | Prise en charge des images sur le dispositif portable | `mobileimagesupport` |
 | Fabricant du dispositif portable | `mobilemanufacturer` |
@@ -90,7 +90,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
 | Classement de toutes les pages de recherche | `searchenginepagerank` |
 | Serveur | `server` |
-| Visites sur une seule page | `singlepagevisits` |
+| Visites de page unique | `singlepagevisits` |
 | Section du site | `sitesections` |
 | Temps passé par visite - Valeur granulaire | `sitetime` |
 | Code de suivi | `campaign` |
@@ -115,11 +115,11 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Jour de la semaine | `timepartdayofweek` |
 | Jour de l’année | `timepartdayofyear` |
 | Jours depuis la dernière visite | `dayssincelastvisit` |
-| Accès Aperçu personnalisé | `entryprops` |
+| Accès Custom Insight | `entryprops` |
 | Accès aux variables de liste | `entrylistvariables` |
 | Serveur d’accès | `entryserver` |
 | Accès à la section de site | `entrysitesections` |
-| Quitter Aperçu personnalisé | `exitprops` |
+| Quitter Custom Insight | `exitprops` |
 | Quitter les variables de liste | `exitlistvariables` |
 | Quitter la page | `exitpage` |
 | Quitter le serveur | `exitserver` |
@@ -141,7 +141,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Mois | `daterangemonth` |
 | Mois de l’année | `timepartmonthofyear` |
 | Types de systèmes d’exploitation | `operatingsystemgroup` |
-| Recherche payante | `paidsearch` |
+| Référencement payant | `paidsearch` |
 | Prise en charge des cookies persistants | `persistentcookie` |
 | Trimestre | `daterangequarter` |
 | Trimestre de l’année | `timepartquarterofyear` |
@@ -269,7 +269,7 @@ Cette page liste les dimensions prises en charge dans leurs fonctionnalités Ana
 | Système d’exploitation (SDK) | `mobileosenvironment` |
 | Jours depuis la dernière mise à niveau | `mobiledayssincelastupgrade` |
 | Lancements depuis la dernière mise à niveau | `mobilelaunchessincelastupgrade` |
-| Nom du périphérique (SDK) | `mobiledevice` |
+| Nom de l’appareil (SDK) | `mobiledevice` |
 | Version du système d’exploitation (SDK) | `mobileosversion` |
 | Balise majeure | `mobilebeaconmajor` |
 | Balise mineure | `mobilebeaconminor` |

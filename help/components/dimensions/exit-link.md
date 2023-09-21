@@ -3,16 +3,16 @@ title: Lien de sortie
 description: Le nom du lien de sortie.
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Lien de sortie
 
-La dimension « Lien de sortie » indique le nom des liens de sortie implémentés sur votre site. Cette dimension est utile pour identifier les liens les plus populaires qui pointent vers des domaines en dehors de votre site.
+&quot;Lien de sortie&quot; [dimension](overview.md) indique le nom des liens de sortie implémentés sur votre site. Cette dimension est utile pour identifier les liens les plus populaires qui pointent vers des domaines en dehors de votre site.
 
 ## Renseignement de cette dimension avec des données
 

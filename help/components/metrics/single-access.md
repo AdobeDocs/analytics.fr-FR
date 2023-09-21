@@ -3,16 +3,16 @@ title: Accès unique
 description: Le nombre de fois qu’un élément de dimension n’a pas changé au cours d’une visite.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Accès unique
 
-La mesure « Accès unique » indique le nombre de visites pour lesquelles l’élément de dimension ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure s’avère utile pour les dimensions dans lesquelles vous souhaitez identifier les éléments de dimension stagnants au cours d’une visite.
+&quot;Accès unique&quot; [metric](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure s’avère utile pour les dimensions dans lesquelles vous souhaitez identifier les éléments de dimension stagnants au cours d’une visite.
 
 ## Méthode de calcul de cette mesure
 

@@ -3,20 +3,20 @@ title: eVar (dimension de marchandisage)
 description: Variables personnalisées liées à la dimension des produits.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension. Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
+*[Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que dimension](overview.md). Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
 
-Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html).
+Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
 
-Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par courriel pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
+Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par e-mail pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
 
 Qu’en est-il des événements consécutifs à une recherche interne ou une exploration de catégorie lorsqu’un client recherche plusieurs articles ? Supposons qu’un client recherche « `"goggles"` » (lunettes) sur votre site, puis en ajoute une paire dans le panier :
 

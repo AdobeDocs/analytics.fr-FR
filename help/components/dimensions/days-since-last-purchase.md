@@ -3,16 +3,16 @@ title: Jours depuis le dernier achat
 description: Le nombre de jours entre l’accès actif et le dernier achat.
 feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Jours depuis le dernier achat
 
-La dimension « Jours depuis le dernier achat » mesure le temps écoulé entre l’accès actif du visiteur et son dernier achat. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir effectué un achat sur votre site.
+&quot;Jours depuis le dernier achat&quot; [dimension](overview.md) mesure le temps écoulé entre l’accès actif du visiteur et son dernier achat à ce moment-là. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir effectué un achat sur votre site.
 
 Les visiteurs qui n’ont jamais effectué d’achat ne sont pas inclus dans cette dimension. De plus, les accès déclenchés avant le premier achat d’un visiteur ne sont pas inclus non plus. Seuls les accès après le premier achat d’un visiteur sont inclus.
 

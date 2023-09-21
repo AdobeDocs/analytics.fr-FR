@@ -3,16 +3,16 @@ title: Moteur de recherche
 description: Moteur de recherche utilisé par le visiteur pour accéder à votre site.
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Moteur de recherche
 
-La dimension « Moteur de recherche » indique les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un référent doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
+Le &quot;moteur de recherche&quot; [dimension](overview.md) indique les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un référent doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
 
 * Le domaine référent est reconnu par Adobe comme un moteur de recherche valide ;
 * Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Le paramètre de chaîne de requête peut être vide (c’est le cas de plusieurs moteurs de recherche en raison de leurs pratiques de confidentialité).

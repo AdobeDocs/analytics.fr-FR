@@ -4,7 +4,7 @@ description: Liste les dimensions de sortie et leur utilisation.
 keywords: page de sortie, section du site de sortie, serveur de sortie, Custom Insight de sortie
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Dimensions de sortie
 
-*Cette page d’aide décrit le fonctionnement des sorties en tant que dimension. Pour plus d’informations sur le fonctionnement des sorties en tant que mesure, consultez la mesure [Sorties](../metrics/exits.md).*
+*[Cette page d’aide décrit le fonctionnement des sorties en tant que dimension](overview.md). Pour plus d’informations sur le fonctionnement des sorties en tant que mesure, consultez la mesure [Sorties](../metrics/exits.md).*
 
 Les dimensions de sortie enregistrent le dernier élément de dimension et l’appliquent rétroactivement à tous les accès de la visite. Les dimensions de sortie sont disponibles pour toutes les variables dont le cheminement est activé sous [Variables de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) dans les paramètres de la suite de rapports.
 

@@ -3,16 +3,16 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # Type de référent
 
-La dimension « Type de référent » indique les canaux génériques sur lesquels les visiteurs ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
+&quot;Type de référent&quot; [dimension](overview.md) indique les canaux génériques sur lesquels les visiteurs ont cliqué pour accéder à votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
 
 ## Renseignement de cette dimension avec des données
 

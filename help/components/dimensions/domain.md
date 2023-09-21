@@ -3,16 +3,16 @@ title: Domaine
 description: L’organisation ou le FAI que le visiteur utilise pour accéder à Internet.
 feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Domaine
 
-La dimension « Domaine » signale les points d’accès utilisés par les visiteurs pour accéder à Internet.
+Le &quot;domaine&quot; [dimension](overview.md) indique les points d’accès que les visiteurs utilisent pour accéder à Internet.
 
 ## Renseignement de cette dimension avec des données
 

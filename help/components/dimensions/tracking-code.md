@@ -3,16 +3,16 @@ title: Code de suivi
 description: Nom du code de suivi ou de la campagne.
 feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
-source-git-commit: 6d0771f7b8779d7a9d3bcea73a430ba3a9093e3e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 68%
+ht-degree: 66%
 
 ---
 
 # Code de suivi
 
-La dimension « Code de suivi » liste les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à identifier les liens qui ont généré le plus de trafic vers votre site.
+Le &quot;code de suivi&quot; [dimension](overview.md) répertorie les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à identifier les liens qui ont généré le plus de trafic vers votre site.
 
 L’ajout de chaînes de requête de code de suivi est courant dans les emails, les publicités, les publications de médias sociaux et d’autres efforts marketing que votre entreprise utilise.
 
@@ -37,9 +37,10 @@ Les règles de traitement des canaux marketing situées plus haut dans la liste 
 
 Comme les « Réseaux sociaux » sont la première règle de traitement des canaux marketing, ces utilisateurs sont attribués au canal marketing « Réseaux sociaux », et non à votre canal marketing Codes de suivi.
 
-### D’autres canaux marketing peuvent effectuer l’attribution par le biais de la Dernière touche
+### D’autres canaux marketing peuvent effectuer l’attribution par le biais de la Dernière touche.
 
 Lorsque vous gérez une dimension Codes de suivi standard, vous n’avez pas à vous soucier de ce que d’autres parties de votre site puissent voler l’attribution. Toutefois, avec les canaux marketing, un utilisateur peut correspondre à une règle différente, ce qui donne une attribution différente. Par exemple :
+
 1. Votre premier canal est « Codes de suivi » et votre deuxième canal est « Direct ».
 2. Un utilisateur arrive d’abord sur votre site par le biais d’un code de suivi, puis le quitte.
 3. Le lendemain, il saisit votre URL dans la barre d’adresse, puis effectue un achat.
@@ -50,6 +51,7 @@ Dans cet exemple, le canal marketing Codes de suivi n’obtient pas de crédit D
 ### Différences d’expiration
 
 Les canaux marketing ont une expiration variable de l’engagement des visiteurs de 30 jours, qu’un canal ait été touché ou non. L’expiration des codes de suivi dépend du moment auquel la variable a été définie. Par exemple :
+
 1. Vous disposez d’un délai d’expiration de l’engagement des visiteurs de 30 jours et avez également configuré la dimension Code de suivi pour qu’elle expire après 30 jours.
 2. Un utilisateur arrive sur votre site par le biais d’un code de suivi. Il parcourt le site, puis le quitte.
 3. Trois semaines plus tard, il revient sans code de suivi ou canal marketing, puis quitte à nouveau le site.

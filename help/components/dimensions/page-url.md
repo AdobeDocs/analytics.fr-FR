@@ -3,16 +3,16 @@ title: URL de la page
 description: L’URL de la page.
 feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # URL de la page
 
-La dimension « URL de la page » répertorie les adresses URL de votre site.
+&quot;URL de la page&quot; [dimension](overview.md) répertorie les URL de votre site.
 
 >[!IMPORTANT]
 >

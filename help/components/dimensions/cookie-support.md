@@ -3,16 +3,16 @@ title: Prise en charge des cookies
 description: Détermine si le navigateur prend en charge les cookies.
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Prise en charge des cookies
 
-La dimension « Prise en charge des cookies » indique si le navigateur prend en charge les cookies pour un accès donné. Elle est utile pour déterminer le ratio de visiteurs qui utilisent des navigateurs prenant en charge les cookies et ceux qui les désactivent intentionnellement.
+Prise en charge des cookies [dimension](overview.md) indique si le navigateur prend en charge les cookies pour un accès donné. Elle est utile pour déterminer le ratio de visiteurs qui utilisent des navigateurs prenant en charge les cookies et ceux qui les désactivent intentionnellement.
 
 ## Renseignement de cette dimension avec des données
 

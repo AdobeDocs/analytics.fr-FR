@@ -3,16 +3,16 @@ title: Accord préalable de gestion du consentement
 description: Identifiez les paramètres de confidentialité qu’un visiteur a acceptés.
 exl-id: b2768180-b763-41fb-8cba-665fac047e29
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Accord préalable de gestion du consentement
 
-La dimension « Accord préalable de gestion du consentement » affiche les paramètres de confidentialité qu’un visiteur a acceptés. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’accord préalable les plus courantes.
+Accord préalable de gestion du consentement [dimension](overview.md) affiche les paramètres de confidentialité auxquels un visiteur a donné son accord. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’accord préalable les plus courantes.
 
 ## Renseigner cette dimension avec des données
 

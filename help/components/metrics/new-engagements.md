@@ -3,16 +3,16 @@ title: Nouveaux engagements
 description: Le nombre de fois qu’un canal Première touche est défini.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Nouveaux engagements
 
-La mesure « Nouveaux engagements » indique le nombre de fois qu’un visiteur correspond à un canal marketing pour la première fois au cours de la période d’engagement de ce visiteur. Cette mesure est utile lorsque vous souhaitez comparer une dimension avec un visiteur correspondant pour la première fois à une règle de traitement des canaux marketing.
+Les &quot;nouveaux engagements&quot; [metric](overview.md) indique le nombre de fois où un visiteur correspond à un canal marketing pour la première fois au cours de la période d’engagement de ce visiteur. Cette mesure est utile lorsque vous souhaitez comparer une dimension avec un visiteur correspondant pour la première fois à une règle de traitement des canaux marketing.
 
 ## Méthode de calcul de cette mesure
 

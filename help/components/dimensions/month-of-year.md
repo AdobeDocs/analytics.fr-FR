@@ -3,16 +3,16 @@ title: Mois de l’année
 description: Mois numérique de l’année, quelle que soit l’année.
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # Mois de l’année
 
-La dimension « Mois de l’année » indique le mois d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par mois de l’année, mais ne souhaitez pas une date statique comme élément de dimension. Vous pouvez consolider les rapports d’une année sur l’autre par mois, de sorte que les données du mois de janvier de cette année sont combinées avec les données du mois de janvier de l’année dernière dans le même élément de dimension.
+Le &quot;Mois de l&#39;année&quot; [dimension](overview.md) indique le mois d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par mois de l’année, mais ne souhaitez pas une date statique comme élément de dimension. Vous pouvez consolider les rapports d’une année sur l’autre par mois, de sorte que les données du mois de janvier de cette année sont combinées avec les données du mois de janvier de l’année dernière dans le même élément de dimension.
 
 ## Renseignement de cette dimension avec des données
 

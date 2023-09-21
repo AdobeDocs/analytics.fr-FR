@@ -3,16 +3,16 @@ title: Fidélité de la clientèle
 description: Catégories basées sur le nombre d’achats précédents effectués par un visiteur.
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # Fidélité de la clientèle
 
-La dimension « Fidélité de la clientèle » indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou 3 achats précédents ou plus. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
+&quot;Fidélité de la clientèle&quot; [dimension](overview.md) indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou 3 achats précédents ou plus. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

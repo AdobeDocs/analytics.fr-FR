@@ -3,16 +3,16 @@ title: Villes
 description: Ville d’où provient l’accès.
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
 # Villes
 
-La dimension « Villes » indique la ville d’où provient l’accès. Cette dimension est utile pour déterminer les villes les plus fréquentes depuis lesquelles les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour concentrer vos efforts publicitaires, comme des panneaux ou des spots publicitaires, sur ces villes.
+Les &quot;villes&quot; [dimension](overview.md) indique la ville d’où provient l’accès. Cette dimension est utile pour déterminer les villes les plus fréquentes depuis lesquelles les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour concentrer vos efforts publicitaires, comme des panneaux ou des spots publicitaires, sur ces villes.
 
 ## Renseignement de cette dimension avec des données
 
@@ -32,4 +32,4 @@ Dans la mesure où cette dimension est basée sur l’adresse IP, certains scén
 * **Adresses IP de mobiles** : le ciblage des adresses IP de mobiles fonctionne à différents niveaux en fonction de l’emplacement et du réseau. Plusieurs opérateurs renvoient le trafic IP via des points de présence centralisés ou régionaux.
 * **Utilisateurs de FAI par satellite** : identifier l’emplacement spécifique de ces utilisateurs s’avère difficile, dans la mesure où ils semblent généralement provenir de l’emplacement de la liaison montante.
 * **Adresses IP militaires et gouvernementales** : cette catégorie englobe généralement les membres du personnel qui voyagent autour du globe et accèdent aux sites par le biais de leur point d’origine, plutôt qu’au départ de la base ou du bureau où ils se trouvent actuellement.
-* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité**: Des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.
+* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité**: des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.

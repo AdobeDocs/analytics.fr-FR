@@ -3,20 +3,20 @@ title: Moyenne de pages vues par visite
 description: Nombre moyen de fois où un élément de dimension donné s’est affiché au cours d’une visite.
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # Moyenne de pages vues par visite
 
-La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Cette mesure s’avère utile lorsque vous souhaitez comprendre la fréquence d’affichage des éléments de dimension lors d’une visite.
+La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Ceci [metric](overview.md) s’avère utile lorsque vous souhaitez comprendre la fréquence d’affichage des éléments de dimension lors d’une visite.
 
 >[!TIP]
 >
->Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleurs insights. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des pages vues par visite anormales, qui sont généralement inutiles.
+>Utilisez cette mesure avec une autre mesure ([Visites](visits.md), par exemple) pour obtenir de meilleurs informations. Si vous utilisez cette mesure seule, vous obtenez des éléments de dimension contenant des pages vues par visite anormales, qui sont généralement inutiles.
 
 ## Méthode de calcul de cette mesure
 

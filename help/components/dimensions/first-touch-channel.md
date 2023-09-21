@@ -3,16 +3,16 @@ title: Canal Première touche
 description: Premier canal marketing dans l’expiration de l’engagement du visiteur.
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Canal Première touche
 
-La dimension « Canal Première touche » indique le premier canal marketing auquel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour identifier les canaux marketing qui génèrent le trafic initial sur votre site, ce qui vous permet de concentrer les efforts marketing dans les domaines les plus efficaces.
+Le &quot;canal Première touche&quot; [dimension](overview.md) indique le premier canal marketing auquel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour identifier les canaux marketing qui génèrent le trafic initial sur votre site, ce qui vous permet de concentrer les efforts marketing dans les domaines les plus efficaces.
 
 ## Renseignement de cette dimension avec des données
 

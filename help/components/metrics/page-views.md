@@ -3,8 +3,8 @@ title: Pages vues
 description: Nombre de fois où un élément de dimension a été défini ou conservé dans Adobe Analytics.
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Pages vues
 
-La mesure **[!UICONTROL Pages vues]** indique le nombre de fois où un élément de dimension donné (valeur de dimension) a été défini ou conservé (c’est-à-dire lorsqu’il expire) sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
+La mesure **[!UICONTROL Pages vues]** indique le nombre de fois où un élément de dimension donné (valeur de dimension) a été défini ou conservé (c’est-à-dire lorsqu’il expire) sur une page.[](overview.md) Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
 
 Par exemple, la dimension [!UICONTROL Jours de la semaine] est composée des éléments de dimension suivants : dimanche, lundi, mardi, mercredi, jeudi, vendredi et samedi.
 

@@ -3,16 +3,16 @@ title: Heure de la journée
 description: Heure numérique de la journée, indépendamment du jour.
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Heure de la journée
 
-La dimension « Heure de la journée » indique l’heure numérique d’un jour donné comme élément de dimension. Par exemple, si vous disposez d’un rapport qui s’étend du 1er au 7 janvier, la première heure de chaque jour est regroupée dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par heure de la journée, mais ne souhaitez pas d’heures statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
+&quot;Heure de la journée&quot; [dimension](overview.md) indique l’heure numérique d’un jour donné comme élément de dimension. Par exemple, si vous disposez d’un rapport qui s’étend du 1er au 7 janvier, la première heure de chaque jour est regroupée dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par heure de la journée, mais ne souhaitez pas d’heures statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
 
 Cette dimension est basée sur le fuseau horaire de la suite de rapports, et non sur celui du visiteur. Par exemple, si votre suite de rapports est à l’heure des Rocheuses et qu’un visiteur en Californie se rend sur votre site à 10 h (heure du Pacifique), les groupes d’accès se trouvent sous l’élément de dimension `11:00 AM`. Si vous souhaitez une dimension qui enregistre l’heure locale du visiteur, Adobe recommande d’utiliser le plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 

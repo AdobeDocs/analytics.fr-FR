@@ -1,18 +1,18 @@
 ---
 title: Prop
-description: Dimension personnalisée que vous pouvez utiliser dans les rapports.
+description: Une dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
 # Prop
 
-*Cette page d’aide décrit le fonctionnement des props en tant que dimension. Pour plus d’informations sur la mise en œuvre des props, voir [props](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre.*
+*[Cette page d’aide décrit le fonctionnement des props en tant que dimension](overview.md). Pour plus d’informations sur la mise en œuvre des props, voir [props](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre.*
 
 Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini.
 

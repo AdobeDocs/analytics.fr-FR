@@ -3,16 +3,16 @@ title: Largeur du navigateur - Regroupement
 description: La largeur de la fenêtre du navigateur en pixels.
 feature: Dimensions
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Largeur du navigateur
 
-La dimension « Largeur du navigateur - regroupée » affiche la largeur de la fenêtre du navigateur, classée en groupes de 100 pixels. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. Connaître la largeur d’affichage habituelle du contenu peut vous permettre d’optimiser le contenu pour l’affichage.
+&quot;Largeur du navigateur - regroupée&quot; [dimension](overview.md) affiche la largeur de la fenêtre du navigateur, classée en groupes de 100 pixels. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. Connaître la largeur d’affichage habituelle du contenu peut vous permettre d’optimiser le contenu pour l’affichage.
 
 Cette dimension est différente de la largeur d’écran. La largeur du navigateur correspond au nombre de pixels dans l’espace du navigateur consultable, tandis que la largeur d’écran correspond à la largeur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 
@@ -24,7 +24,7 @@ La largeur du navigateur est toujours inférieure ou égale à la largeur d’é
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la [`bw`chaîne de requête](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bw` lors du premier accès de chaque visite.
+Cette dimension récupère les données de la chaîne de requête [`bw`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `window.innerWidth` dans le navigateur. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `bw` lors du premier accès de chaque visite.
 
 Adobe conserve la largeur du navigateur pour une visite. Si la largeur du navigateur est ajustée en cours de visite, l’ajustement n’est pas enregistré.
 

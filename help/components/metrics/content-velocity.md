@@ -3,16 +3,16 @@ title: Vitesse du contenu
 description: La vitesse du contenu mesure l’impact du contenu sur le contenu en aval.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
 # Vitesse du contenu
 
-La « vitesse du contenu » est un modèle de mesure calculée qui permet de mesurer l’impact d’une dimension sur le contenu en aval. Elle utilise la formule `Page views (Visit participation) divided by Visits`.
+&quot;Vitesse du contenu&quot; est un calcul [metric](overview.md) modèle qui vous aide à mesurer l’impact d’une dimension sur le contenu en aval. Elle utilise la formule `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 

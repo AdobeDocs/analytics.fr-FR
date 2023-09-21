@@ -3,7 +3,7 @@ title: Navigateur
 description: Le nom et la version du navigateur utilisé.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 39f1ac66fb6374c62f790f9a38a52fba3bf9bda1
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 38%
@@ -12,7 +12,7 @@ ht-degree: 38%
 
 # Navigateur
 
-Le &quot;[!UICONTROL Navigateur]La dimension &quot; indique le nom et la version du navigateur qui envoie l’accès. Cette dimension est utile pour comprendre les navigateurs les plus utilisés par les visiteurs. Lors du test de nouvelles versions du site, vous pouvez exécuter ces tests sur les principaux navigateurs de cette dimension afin d’optimiser les tâches de contrôle de la qualité.
+Le &quot;[!UICONTROL Navigateur]&#39; [dimension](overview.md) indique le nom et la version du navigateur qui envoie l’accès. Cette dimension est utile pour comprendre les navigateurs les plus utilisés par les visiteurs. Lors du test de nouvelles versions du site, vous pouvez exécuter ces tests sur les principaux navigateurs de cette dimension afin d’optimiser les tâches de contrôle de la qualité.
 
 ## Renseignement de cette dimension avec des données
 
@@ -28,7 +28,7 @@ Certains éléments de dimension contiennent `"(unknown version)"` à la place d
 
 Vous trouverez ci-dessous une liste des modifications apportées à la représentation des navigateurs dans les rapports. Ces modifications peuvent avoir un impact sur vos rapports ou sur toute logique, telle que les segments, qui dépend de ces valeurs.
 
-### Suppression de la société du navigateur
+### Suppression d’une société du navigateur
 
 À compter de la version 100 pour les navigateurs Chrome, Edge et Firefox, le nom de l’entreprise n’apparaîtra plus avant le navigateur. Cela peut avoir un impact sur les utilisateurs s’ils disposent de définitions de segment basées sur le nom du navigateur. Par exemple, un segment comprenant une définition selon laquelle &quot;le navigateur contient &quot;Google&quot; n’identifie plus les navigateurs Chrome à partir de la version 110.
 

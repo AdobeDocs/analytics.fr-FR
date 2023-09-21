@@ -3,16 +3,16 @@ title: Type de connexion
 description: La méthode de connexion du visiteur à Internet.
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # Type de connexion
 
-La dimension « Type de connexion » indique comment le visiteur sʼest connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
+Le &#39;Type de connexion&#39; [dimension](overview.md) indique comment le visiteur s’est connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

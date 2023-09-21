@@ -4,22 +4,22 @@ description: Liste les dimensions d’entrée et leur utilisation.
 keywords: page d’accès, section d’entrée sur le site, serveur d’entrée, Custom Insight d’entrée
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
 # Dimensions d’entrée
 
-*Cette page d’aide décrit le fonctionnement des entrées en tant que dimension. Pour plus d’informations sur le fonctionnement des entrées en tant que mesure, consultez la mesure [Entrées](../metrics/entries.md).*
+*[Cette page d’aide décrit le fonctionnement des entrées en tant que dimension](overview.md). Pour plus d’informations sur le fonctionnement des entrées en tant que mesure, consultez la mesure [Entrées](../metrics/entries.md).*
 
 Les dimensions d’entrée sont [basée sur les visites](../metrics/visits.md). Elles enregistrent le premier élément de dimension et le conservent pendant toute la durée de cette visite. Les dimensions d’entrée sont disponibles pour toutes les variables dont le cheminement est activé sous [Variables de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) dans les paramètres de la suite de rapports.
 
 ## Renseignement des dimensions d’entrée avec des données
 
-Une dimension d’entrée donnée est basée sur la variable de trafic qui lui est associée. Si la variable de non-entrée comporte des données, la dimension d’entrée associée contient également des données. Aucune modification de mise en œuvre n’est requise pour les dimensions d’entrée si vos variables de trafic contiennent des données.
+Une entrée donnée [dimension](overview.md) est basé sur la variable de trafic qui lui est associée. Si la variable de non-entrée comporte des données, la dimension d’entrée associée contient également des données. Aucune modification de mise en œuvre n’est requise pour les dimensions d’entrée si vos variables de trafic contiennent des données.
 
 ## Éléments de dimension
 

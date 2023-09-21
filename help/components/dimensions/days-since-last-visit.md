@@ -3,16 +3,16 @@ title: Jours depuis la dernière visite
 description: Le nombre de jours entre l’accès actif et la dernière visite.
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Jours depuis la dernière visite
 
-La dimension « Jours depuis la dernière visite » mesure le temps écoulé entre l’accès actif du visiteur et sa visite précédente (le cas échéant). Cette dimension vous aide à comprendre le comportement des visiteurs après avoir visité votre site. Par exemple :
+&quot;Jours depuis la dernière visite&quot; [dimension](overview.md) mesure le temps écoulé entre l’accès actif du visiteur et sa visite précédente (le cas échéant). Cette dimension vous aide à comprendre le comportement des visiteurs après avoir visité votre site. Par exemple :
 
 * À quelle fréquence les utilisateurs reviennent-ils sur le site ?
 * Quelle relation existe-t-il entre la fréquence des retours et les conversions ? Les acheteurs réguliers effectuent-ils des visites fréquentes ou espacées ?

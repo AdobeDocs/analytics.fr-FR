@@ -3,16 +3,16 @@ title: Système d’exploitation
 description: Système d’exploitation du visiteur.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
 # Système d’exploitation
 
-La dimension « Système d’exploitation » indique le système d’exploitation et la version utilisés par le visiteur. Si votre propriété Web comporte des fonctionnalités spécifiques au système d’exploitation, cette dimension vous permet d’identifier les systèmes d’exploitation les plus courants.
+Le &quot;Système d&#39;exploitation&quot; [dimension](overview.md) affiche le système d’exploitation et la version utilisés par le visiteur. Si votre propriété Web comporte des fonctionnalités spécifiques au système d’exploitation, cette dimension vous permet d’identifier les systèmes d’exploitation les plus courants.
 
 ## Renseignement de cette dimension avec des données
 
@@ -36,10 +36,10 @@ Le 2 mars 2023, nous avons mis à jour nos rapports afin d’inclure plus de dé
 
 Exemples :
 
-* &quot;OS X 10.15&quot; (voir la note ci-dessous à propos de la version 10.15.7 sur la représentation dans les chaînes UA).
+* &quot;OS X 10.15&quot; (voir la note ci-dessous sur la version 10.15.7 sur la représentation dans les chaînes UA).
 * &quot;MacOS 11.0.0
 
-### La version du système d’exploitation Mac est incorrecte dans l’agent utilisateur après la version 10.15.7 
+### La version de Mac OS est incorrecte dans l’agent utilisateur après la version 10.15.7 
 
 L’agent utilisateur sur les ordinateurs Apple affiche la version du système d’exploitation comme 10.15.7, même pour les versions plus récentes. Cela a été fait parce que l&#39;inclusion de la version 11 dans l&#39;UA a apparemment causé des problèmes avec certains sites web. C’est vrai pour *tous les navigateurs* et n’est pas lié Google le &quot;blocage&quot; de l’agent utilisateur sur les navigateurs Chromium.
 

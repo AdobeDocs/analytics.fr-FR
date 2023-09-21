@@ -3,16 +3,16 @@ title: Lien de téléchargement
 description: Nom du lien de téléchargement.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Lien de téléchargement
 
-La dimension « Lien de téléchargement » indique le nom des liens de téléchargement implémentés sur votre site. Cette dimension est utile pour en savoir plus sur le comportement des visiteurs vis-à-vis des liens de téléchargement, par exemple :
+&quot;Lien de téléchargement&quot; [dimension](overview.md) indique le nom des liens de téléchargement implémentés sur votre site. Cette dimension est utile pour en savoir plus sur le comportement des visiteurs vis-à-vis des liens de téléchargement, par exemple :
 
 * Savoir quels fichiers sont téléchargés le plus souvent de votre site.
 * Déterminer si certains fichiers sont téléchargés plus souvent pendant des périodes spécifiques.

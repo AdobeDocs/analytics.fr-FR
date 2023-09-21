@@ -3,16 +3,16 @@ title: Jour
 description: Le jour au cours duquel la mesure a été effectuée.
 feature: Dimensions
 exl-id: 2f93ae8b-422c-4e1e-81d3-43cc0aa442c4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # Jour
 
-La dimension « Jour » indique le jour au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier jour de la période et le dernier élément de dimension correspond au dernier jour de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
+Le &quot;Jour&quot; [dimension](overview.md) indique le jour au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier jour de la période et le dernier élément de dimension correspond au dernier jour de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
 
 ## Renseignement de cette dimension avec des données
 

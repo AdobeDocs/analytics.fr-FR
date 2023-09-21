@@ -3,16 +3,16 @@ title: Type d’accès
 description: Détermine si l’accès est un accès de premier plan ou en arrière-plan.
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Type d’accès
 
-La dimension « Type d’accès » détermine si une application mobile se trouvait au premier plan ou en arrière-plan lorsque l’accès a été envoyé aux serveurs de collecte de données Adobe. Cette dimension s’applique uniquement aux suites de rapports qui contiennent des données pour les applications mobiles. Les données de navigateur collectées par AppMeasurement indiquent toujours l’accès comme « Premier plan ».
+&quot;Type d’accès&quot; [dimension](overview.md) détermine si une application mobile se trouvait au premier plan ou en arrière-plan lorsque l’accès a été envoyé aux serveurs de collecte de données d’Adobe. Cette dimension s’applique uniquement aux suites de rapports qui contiennent des données pour les applications mobiles. Les données de navigateur collectées par AppMeasurement indiquent toujours l’accès comme « Premier plan ».
 
 ## Renseignement de cette dimension avec des données
 

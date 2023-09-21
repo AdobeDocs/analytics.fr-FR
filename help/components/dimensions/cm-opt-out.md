@@ -3,16 +3,16 @@ title: Droit d’opposition de gestion du consentement
 description: Identifiez les paramètres de confidentialité auxquels un visiteur s’est opposé.
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Droit d’opposition de gestion du consentement
 
-La dimension « Droit d’opposition de gestion du consentement » affiche les paramètres de confidentialité auxquels un visiteur s’est explicitement opposé. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
+L’&quot;exclusion de la gestion du consentement&quot; [dimension](overview.md) affiche les paramètres de confidentialité qu’un visiteur a explicitement exclus. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
 
 ## Renseigner cette dimension avec des données
 

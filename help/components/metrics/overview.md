@@ -3,10 +3,10 @@ title: Mesures - Aperçu
 description: Consultez le nombre de données ou d’éléments de dimension au fil du temps.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Les administrateurs et administratrices d’Analytics peuvent ajouter des descri
 
 ## Utiliser des mesures dans Analysis Workspace
 
-Pour plus d’informations sur l’utilisation des mesures dans Analysis Workspace, voir « Utiliser des mesures dans Analysis Workspace » dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Pour plus d’informations sur l’utilisation des mesures dans Analysis Workspace, voir [Utilisation des mesures dans Analysis Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

@@ -3,16 +3,16 @@ title: Pages introuvables (dimensions)
 description: Adresses URL ayant renvoyé une erreur sur votre site.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 98%
+ht-degree: 92%
 
 ---
 
 # Pages introuvables
 
-*Cette page d’aide décrit le fonctionnement de la dimension « Pages introuvables ». Pour plus d’informations, consultez la mesure [Pages introuvables](../metrics/pages-not-found.md).*
+*Cette page d’aide décrit le fonctionnement de &quot;Pages introuvables&quot; en tant que [dimension](overview.md). Pour plus d’informations, consultez la mesure [Pages introuvables](../metrics/pages-not-found.md).*
 
 La dimension « Pages introuvables » indique les adresses URL qui contenaient une erreur. Cette dimension s’avère utile lorsque vous souhaitez réduire le nombre d’erreurs rencontrées par les visiteurs sur votre site.
 
