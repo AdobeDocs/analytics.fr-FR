@@ -3,10 +3,10 @@ title: produits
 description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -20,9 +20,9 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 
 ## Produits utilisant le SDK Web
 
-Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
+Les produits [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM :
 
-* La catégorie est mappée à `productListItems[].lineItemId`.
+* La catégorie est mappée à `productListItems[].productCategories[].categoryID`. Elle utilise le premier élément de la variable `productCategories[]` tableau. `lineItemId` mappe également correctement, mais nous vous recommandons `categoryID` puisqu’il s’agit d’un XDM standard. Si les deux champs XDM sont présents `lineItemId` a la priorité .
 * Le produit est mappé sur `productListItems[].SKU` ou `productListItems[].name`. Si les deux champs XDM sont présents, `productListItems[].SKU` est utilisée.
 * La quantité est mappée sur `productListItems[].quantity`.
 * Le prix est mappé sur `productListItems[].priceTotal`.
@@ -35,7 +35,7 @@ Les produits sont [mappé pour Adobe Analytics](https://experienceleague.adobe.c
 
 ## Produits utilisant l’extension Adobe Analytics
 
-Il n’existe pas de champ dédié dans la collecte de données Adobe Experience Platform pour définir cette variable ; cependant, plusieurs extensions tierces existent pour vous aider.
+Il n’existe pas de champ dédié dans la collecte de données Adobe Experience Platform pour définir cette variable. Toutefois, plusieurs extensions tierces existent pour vous aider.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
@@ -48,7 +48,7 @@ Vous pouvez utiliser l’une de ces extensions ou l’éditeur de code personnal
 
 La variable `s.products` est une chaîne qui contient plusieurs champs délimités par produit. Délimitez chaque champ par un point-virgule (`;`) dans la chaîne.
 
-* **Catégorie** (facultatif) : La catégorie de produits. La longueur maximale de ce champ est de 100 octets.
+* **Catégorie** (facultatif) : catégorie de produits. La longueur maximale de ce champ est de 100 octets.
 * **Nom du produit** (obligatoire) : nom du produit. La longueur maximale de ce champ est de 100 octets.
 * **Quantité** (facultatif) : quantité de ce produit dans le panier ? Ce champ s’applique uniquement aux accès avec l’événement d’achat.
 * **Prix** (facultatif) : prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Alignez la devise de cette valeur pour qu’elle corresponde à la variable [`currencyCode`](../config-vars/currencycode.md). N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec l’événement d’achat.
