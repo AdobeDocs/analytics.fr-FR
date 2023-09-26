@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (septembre 2023)
 
-**Dernière mise à jour** : 13 septembre 2023
+**Dernière mise à jour** : 20 septembre 2023
 
 Les notes de mise à jour de septembre couvrent la période du 13 septembre 2023 au 3 octobre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -21,9 +21,9 @@ Les notes de mise à jour de septembre couvrent la période du 13 septembre 20
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Classifications dans API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | S.O. | 13 septembre 2023 |
-| **Prise en charge du nouveau champ `correlationID` pour les classifications A4T** | Le champ `_experience.decisioning.propositions.scopeDetails.correlationID` est maintenant disponible dans le schéma du connecteur source Adobe Analytics. Nous ajoutons cet ID pour faciliter l’association des données de classification pour les activités Adobe Target et les événements d’expérience. | S.O. | 13 septembre 2023 |
+| **Prise en charge du nouveau champ `correlationID` pour les classifications A4T** | Le champ `_experience.decisioning.propositions.scopeDetails.correlationID` est désormais disponible dans le schéma du connecteur source Adobe Analytics. Nous ajoutons cet ID pour faciliter l’association des données de classification pour les activités Adobe Target et les événements d’expérience. | S.O. | 13 septembre 2023 |
 | **Améliorations de Data Warehouse** | Lors de la création d’une requête de Data Warehouse, vous pouvez désormais configurer un compte cloud à utiliser comme destination du rapport. Les types de compte cloud suivants sont disponibles pour l’envoi de données :<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li><li>E-mail (cette option était auparavant disponible)</li></ul>FTP, SFTP, Azure Blob et S3 sont toujours disponibles en tant que destinations de rapport, mais ne sont plus recommandés.<p>L’expérience client lors de la création et de la gestion de requêtes de Data Warehouse a également été améliorée. Pour plus d’informations, voir [Créer une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) et [Gérer des requêtes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=fr). | 13 septembre 2023 | 4 octobre 2023 |
-| **Nouvelles colonnes disponibles lors de la gestion des composants** | Les nouvelles colonnes suivantes sont désormais disponibles lors de la gestion des composants :<ul><li>Utilisé dans<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) et la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Dernière utilisation<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md), et la variable [Gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié. Vous pouvez utiliser le dictionnaire de données avec ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> | 20 septembre 2023 | 4 octobre 2023 |
+| **Nouvelles colonnes disponibles lors de la gestion des composants** | Les nouvelles colonnes suivantes sont désormais disponibles lors de la gestion des composants :<ul><li>Utilisation dans<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) et la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Dernière utilisation<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md), et la variable [Gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié. Vous pouvez utiliser le dictionnaire de données avec ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> | 20 septembre 2023 | 4 octobre 2023 |
 
 {style="table-layout:auto"}
 

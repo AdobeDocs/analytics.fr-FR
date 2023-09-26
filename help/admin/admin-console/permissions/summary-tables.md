@@ -3,7 +3,7 @@ title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Paramètres vidéo |  |  |  | x | Inutilisé. |
 | Ressources web |  |  |  | x | Inutilisé. |
 
+{style="table-layout:auto"}
+
 ## Outils Analytics
 
 | Outil Analytics | Administration | Contrôles dʼaccès | Fonctionnalités des rapports uniquement | Obsolète | Description |
@@ -110,3 +112,5 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Autorisations (écriture) - Services Web |  |  |  | x | N’est plus utilisé. Permet à l’utilisateur de modifier les autorisations Analytics héritées à l’aide de l’API d’administration. Utilisez plutôt Adobe Admin Console. |
 | Préférences |  |  |  | x | Inutilisé. |
 | Authentification unique |  |  |  | x | N’est plus utilisé. Accorde l’accès au service d’authentification unique obsolète. |
+
+{style="table-layout:auto"}

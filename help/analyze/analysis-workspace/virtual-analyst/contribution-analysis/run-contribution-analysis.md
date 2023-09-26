@@ -4,7 +4,7 @@ title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Exécution de l’analyse des contributions
 
-L’analyse des contributions est un processus intensif de machine learning, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
+[L’analyse des contributions est un processus intensif de machine learning, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. ](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) Elle permet à l’utilisateur de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
 
 ## Exécution de l’analyse des contributions {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
