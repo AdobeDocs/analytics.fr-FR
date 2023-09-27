@@ -3,10 +3,10 @@ title: Autorisations du profil de produit pour les outils de suites de rapports 
 description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 90%
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | Éléments d’autorisation liés aux outils de suites de rapports | Description |
 |------|------|
 | [!UICONTROL Résumé du compte] | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
-| [!UICONTROL Configuration Advertising Analytics] | Accorde l’accès à tous les aspects de la configuration d’Advertising Analytics. |
+| [!UICONTROL Configuration Advertising Analytics] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
 | [!UICONTROL Détection des anomalies] | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | [!UICONTROL Pages de robots] | Accorde l’accès au rapport Mesures du site > Robots > Pages de robots dans les Reports &amp; Analytics. |
 | [!UICONTROL Robots] | Accorde l’accès à Mesures du site > Robots > Rapport sur les robots dans les Reports &amp; Analytics. |
@@ -44,8 +44,8 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Rapport en temps réel] | Accorde l’accès à Mesures du site > Temps réel dans les Reports &amp; Analytics. Utilisez l’élément d’autorisation « Configuration des rapports en temps réel » pour accorder l’accès à la configuration de ce rapport. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
 | [!UICONTROL Visites renouvelées] | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
-| [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | Accorde l’accès à la page des détails et permet d’annuler les requêtes. |
-| [!UICONTROL Accès au gestionnaire des activités de rapport] |  |
+| [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | À confirmer |
+| [!UICONTROL Accès au gestionnaire des activités de rapport] | À confirmer |
 | [!UICONTROL Gestion des suites de rapports] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | [!UICONTROL Petit rapport Image de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport Évaluation des mesures du tableau de bord R&amp;A] | Inutilisé. |
