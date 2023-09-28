@@ -4,10 +4,12 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 96%
 
 ---
 
@@ -32,6 +34,7 @@ ht-degree: 0%
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
+   + [Migration des composants](admin/component-migration.md)
    + Gestionnaire de suites de rapports {#manage-report-suites}
       + Modifier les paramètres d’une suite de rapports {#edit-report-suite}
          + Général {#report-suite-general}
@@ -138,7 +141,7 @@ ht-degree: 0%
          + [Modèle par défaut](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
          + [Services financiers](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
          + [Portail d’emploi](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [Génération de prospect](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [Génération de piste](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Média d’assistance](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Paramètres de l’entreprise {#company-settings}
       + [Paramètres d’entreprise - Aperçu](admin/company/c-company-settings.md)
@@ -171,7 +174,7 @@ ht-degree: 0%
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
    + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
       + [Gestion des utilisateurs et des produits  (Hérité)](admin/user-management2/user-management.md)
-      + [Transfert de ressources utilisateur ou définition de l’expiration du compte](admin/user-management2/users-assets.md)
+      + [Transférer des ressources des utilisateurs et utilisatrices ou définir l’expiration du compte](admin/user-management2/users-assets.md)
       + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
