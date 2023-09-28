@@ -2,10 +2,10 @@
 description: Explique comment migrer des composants et des projets d’Adobe Analytics vers Customer Journey Analytics.
 title: Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 5%
+source-wordcount: '1133'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,9 @@ Le processus de migration comprend :
 
   Certaines dimensions et mesures correspondent automatiquement ; d’autres doivent correspondre manuellement dans le cadre du processus de migration.
 
-## Conditions préalables
+## Préparation d’une migration
+
+### Conditions préalables
 
 Avant que vos projets et les dimensions et mesures associées ne soient prêts à migrer, vous devez d’abord :
 
@@ -37,7 +39,36 @@ Avant que vos projets et les dimensions et mesures associées ne soient prêts �
 
   L’onglet Autorisations fait partie de chaque profil de produit dans Admin Console. Vous pouvez ajouter des utilisateurs à des profils de produit spécifiques. Ensuite, vous attribuez des droits à des vues de données spécifiques et spécifiez les autorisations dont disposent les utilisateurs dans un profil de produits.
 
-## Création d’un plan de migration en tant qu’organisation
+* Créez un plan de migration, comme décrit dans la section ci-dessous, [Création d’un plan de migration en tant qu’organisation](#create-a-migration-plan-as-an-organization).
+
+### Comprendre ce qui est inclus dans une migration
+
+Le tableau suivant décrit les éléments d’un projet et d’un composant qui sont inclus dans une migration :
+
+
+|  | Projets | Dimensions et mesures |
+|---------|----------|---------|
+| **Périodes** | Oui | S.O. |
+| **Segments** | Oui | S.O. |
+| **Segments rapides** | Oui | S.O. |
+| **Panneaux** | Oui | S.O. |
+| **Visualisations** | Oui | S.O. |
+| **Propriétaire** | (Défini par l’utilisateur effectuant la migration) | ? |
+| **Traitement** | Non | S.O. |
+| **Partage (rôles de projet)** | Non | Non |
+| **Annotations** | Non | S.O. |
+| **Structure du dossier** | Non | S.O. |
+| **Descriptions** | Oui | ? |
+| **Balises** | ? | ? |
+| **Plannings** | ? | S.O. |
+| **Attribution (sur les dimensions)** | S.O. | ? |
+| **Détection des anomalies** | ? | S.O. |
+| **Analyse des contributions** | ? | S.O. |
+| **Alertes** | ? | S.O. |
+
+{style="table-layout:auto"}
+
+### Création d’un plan de migration en tant qu’organisation
 
 Étant donné que tous les composants qui correspondent à une migration de projet donnée s’appliquent à toute migration de projet future pour l’ensemble de l’organisation, il est important que votre organisation planifie toutes les migrations de projet à l’avance.
 
@@ -49,7 +80,7 @@ En tant qu’organisation, vous devez décider quelles dimensions et mesures ser
 >
 >Avant de migrer des projets vers Customer Journey Analytics comme décrit dans cette section, découvrez-en plus sur la migration des projets dans la section [Planification de la migration](#plan-the-migration) ci-dessus.
 >
->Toutes les dimensions ou mesures que vous faites correspondre sont permanentes, à la fois pour ce projet et pour tous les futurs projets migrés dans l’ensemble de votre organisation. Si vous continuez, les correspondances que vous effectuez ne peuvent pas être modifiées.
+>Toutes les dimensions ou mesures que vous faites correspondre sont permanentes, à la fois pour ce projet et pour tous les futurs projets migrés dans l’ensemble de votre organisation. Les correspondances que vous effectuez ne peuvent pas être modifiées.
 
 
 
