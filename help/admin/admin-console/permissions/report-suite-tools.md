@@ -3,9 +3,9 @@ title: Autorisations du profil de produit pour les outils de suites de rapports 
 description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 94%
 
 ---
@@ -44,8 +44,8 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Rapport en temps réel] | Accorde l’accès à Mesures du site > Temps réel dans les Reports &amp; Analytics. Utilisez l’élément d’autorisation « Configuration des rapports en temps réel » pour accorder l’accès à la configuration de ce rapport. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
 | [!UICONTROL Visites renouvelées] | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
-| [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | À confirmer |
-| [!UICONTROL Accès au gestionnaire des activités de rapport] | À confirmer |
+| [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | Inutilisé. |
+| [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
 | [!UICONTROL Gestion des suites de rapports] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | [!UICONTROL Petit rapport Image de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport Évaluation des mesures du tableau de bord R&amp;A] | Inutilisé. |
