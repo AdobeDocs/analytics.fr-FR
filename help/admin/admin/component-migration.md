@@ -4,10 +4,10 @@ title: Migration des composants et des projets d’Adobe Analytics vers Customer
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
-ht-degree: 7%
+source-wordcount: '1974'
+ht-degree: 8%
 
 ---
 
@@ -116,11 +116,89 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 
 * [Alertes](/help/components/c-alerts/intellligent-alerts.md)
 
-### Création d’un plan de migration en tant qu’organisation
+### Déterminez en tant qu’organisation comment mapper des composants non pris en charge
 
-Puisque tous les composants mappés pour une migration de projet donnée s’appliquent à toute migration de projet future pour l’ensemble de l’organisation, il est important que votre organisation planifie toutes les migrations de projet à l’avance.
+>[!IMPORTANT]
+>
+>Le processus de migration identifie les composants de votre projet Adobe Analytics qui ne peuvent pas être automatiquement mappés à des composants dans Customer Journey Analytics et vous permet de les mapper manuellement.
+>
+>**Les mappages effectués sur un projet s’appliquent à tous les projets futurs de l’ensemble de votre organisation, quel que soit l’utilisateur qui effectue la migration. Ces mappages ne peuvent pas être modifiés ou annulés, sauf en contactant l’assistance clientèle.**
+>
+>C’est pourquoi il est important que votre entreprise décide de la manière dont les dimensions et les mesures seront mappées avant la migration de tous les projets. Cela évite aux administrateurs individuels de prendre des décisions dans un silo lorsqu’ils ne prennent en compte qu’un seul projet.
+>
+>Vous trouverez ci-dessous une liste de dimensions et de mesures que vous devez mapper manuellement si elles existent dans votre projet. Nous vous recommandons de consulter cette liste avant votre migration. Si l’un de ces composants existe dans votre projet, décidez maintenant à quels composants de Customer Journey Analytics vous allez les mapper.
 
-En tant qu’organisation, vous devez décider comment les dimensions et les mesures seront mappées. Cela évite aux administrateurs individuels de prendre des décisions dans un silo lorsqu’ils ne prennent en compte qu’un seul projet.
+
+#### Dimensions non prises en charge
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### Mesures non prises en charge
+
+* timespentvisit
+* timespentvisitor
+* rechargements
+* bounces
+* bouncerate
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinstances
+* customlinkinstances
+* downloadlinkinstances
+* darkvisiteurs
+* singlepagevisits
+* singlevaluevisit
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* nouvel engagement
+* time_granularity
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* périphériques
+* estimatedpeople
+* playback_time_dépenser_seconds
+* playback_time_used_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* targetconversion
+* targetimpression
+
 
 ## Migration de projets Adobe Analytics vers Customer Journey Analytics
 
@@ -214,11 +292,13 @@ En tant qu’organisation, vous devez décider comment les dimensions et les mes
 
 Si une migration échoue, vous pouvez effectuer une nouvelle tentative.
 
-Vous pouvez réessayer une migration ayant échoué de l’une des façons suivantes :
+Avant de retenter une migration ayant échoué, assurez-vous de supprimer les [éléments non pris en charge](#understand-unsupported-elements-that-cause-errors) du projet.
 
 >[!NOTE]
 >
 >Si la migration continue d’échouer après une nouvelle tentative, contactez l’assistance clientèle avec l’identifiant de projet. L’ID de projet est accessible sur la page État de la migration. <!-- when does this page display? How can they get there -->
+
+Pour réessayer une migration ayant échoué :
 
 1. Dans Adobe Analytics, sous l’onglet [!UICONTROL **Administration**] , sélectionnez [!UICONTROL **Tous les administrateurs**].
 
