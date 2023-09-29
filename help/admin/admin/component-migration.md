@@ -4,16 +4,16 @@ title: Migration des composants et des projets d’Adobe Analytics vers Customer
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 8%
+source-wordcount: '1784'
+ht-degree: 7%
 
 ---
 
 # Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 
-Les administrateurs Adobe Analytics peuvent migrer les composants et les projets Adobe Analytics vers Customer Journey Analytics.
+Les administrateurs Adobe Analytics peuvent migrer les projets Adobe Analytics et leurs composants associés vers Customer Journey Analytics.
 
 Le processus de migration comprend :
 
@@ -21,15 +21,17 @@ Le processus de migration comprend :
 
 * Mappage des dimensions et des mesures des suites de rapports Adobe Analytics aux dimensions et aux mesures dans les vues de données du Customer Journey Analytics.
 
-  Certaines dimensions et mesures sont automatiquement mappées ; d’autres doivent être mappées manuellement dans le cadre du processus de migration.
+  Certaines dimensions et mesures sont automatiquement mappées ; d’autres doivent être mappées manuellement dans le cadre du processus de migration. Les segments sont également migrés, mais il n’est pas nécessaire de les mapper dans le cadre du processus de migration.
+
+  Tous les composants migrés s’affichent dans le résumé de migration une fois la migration terminée.
 
 ## Préparation d’une migration
 
-Avant de commencer la migration des projets dans votre organisation, remplissez les conditions préalables, découvrez ce qui est migré ou ne l’est pas, puis créez un plan de migration pour votre organisation.
+Avant que toute personne de votre entreprise ne commence la migration de projets, suivez les sections suivantes.
 
 ### Conditions préalables
 
-Avant que vos projets et les dimensions et mesures associées ne soient prêts à migrer, vous devez d’abord :
+Avant que vos projets et les composants associés ne soient prêts à migrer, vous devez d’abord :
 
 * Utilisez le connecteur source Analytics pour afficher les données de la suite de rapports Adobe Analytics dans Customer Journey Analytics. Pour ce faire, vous devez :
 
@@ -47,30 +49,72 @@ Avant que vos projets et les dimensions et mesures associées ne soient prêts �
 
 ### Comprendre ce qui est inclus dans une migration
 
-Le tableau suivant décrit les éléments d’un projet et d’un composant qui sont inclus dans une migration :
+Les tableaux suivants décrivent les éléments d’un projet et d’un composant qui sont inclus dans une migration :
 
+#### Éléments de composant migrés
 
-|  | Projets | Dimensions et mesures |
-|---------|----------|---------|
-| **Périodes** | Oui | S.O. |
-| **Segments** | Oui | S.O. |
-| **Segments rapides** | Oui | S.O. |
-| **Panneaux** | Oui | S.O. |
-| **Visualisations** | Oui | S.O. |
-| **Propriétaire** | (Défini par l’utilisateur effectuant la migration) | ? |
-| **Traitement** | Non | S.O. |
-| **Partage (rôles de projet)** | Non | Non |
-| **Annotations** | Non | S.O. |
-| **Structure du dossier** | Non | S.O. |
-| **Descriptions** | Oui | ? |
-| **Balises** | ? | ? |
-| **Plannings** | ? | S.O. |
-| **Attribution (sur les dimensions)** | S.O. | ? |
-| **Détection des anomalies** | ? | S.O. |
-| **Analyse des contributions** | ? | S.O. |
-| **Alertes** | ? | S.O. |
+|  | Migré |
+|---------|---------|
+| **[Propriétaire](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Partage](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Non |
+| **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[Balises](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Non |
+| **[Attribution (sur les dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### Éléments de projet migrés
+
+|  | Migré |
+|---------|----------|
+| **[Périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Segments](/help/components/segmentation/seg-overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Dimensions](/help/components/dimensions/overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) Mappé automatiquement ou manuellement |
+| **[Mesures](/help/components/metrics/overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) Mappé automatiquement ou manuellement |
+| **[Panneaux](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Propriétaire](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) Défini par l’utilisateur effectuant la migration |
+| **[Traitement](/help/analyze/analysis-workspace/curate-share/curate.md)** | Non |
+| **[Partage (rôles de projet)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Non |
+| **[Partage (partager avec n’importe qui lien)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Non |
+| **[Structure du dossier](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Non |
+| **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
+| **[Balises](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Non |
+| **[Plannings](/help/components/scheduled-projects-manager.md)** | Non |
+| **[Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[Favoris](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### Comprendre les éléments non pris en charge qui provoquent des erreurs
+
+Les visualisations, panneaux et fonctionnalités suivants ne sont pas pris en charge dans Customer Journey Analytics. Lorsque ces éléments sont inclus dans un projet avant la migration, ils peuvent entraîner l’échec de la migration ou entraîner des erreurs une fois le projet migré.
+
+Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet vers Customer Journey Analytics. Si une migration échoue, supprimez ces éléments avant de retenter la migration.
+
+#### Visualisations non prises en charge
+
+* [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### Panneaux non pris en charge
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [Audience moyenne par minute de média](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [Élément suivant ou précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### Fonctionnalités non prises en charge
+
+* [Analyse des contributions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [Alertes](/help/components/c-alerts/intellligent-alerts.md)
 
 ### Création d’un plan de migration en tant qu’organisation
 
@@ -200,7 +244,7 @@ Vous pouvez filtrer selon les critères suivants :
 
 | Filtre | Description |
 |---------|----------|
-| [!UICONTROL **Statut**] | L’état de la migration : <ul><li>[!UICONTROL **Pas démarré**]</li><li>[!UICONTROL **Démarré**]</li><li>[!UICONTROL **Terminé**]</li><li>[!UICONTROL **Échec**]</li></ul>. |
+| [!UICONTROL **Statut**] | L’état de la migration : <ul><li>[!UICONTROL **Pas démarré**]</li><li>[!UICONTROL **Commencé**]</li><li>[!UICONTROL **Terminé**]</li><li>[!UICONTROL **Échec**]</li></ul>. |
 | [!UICONTROL **Balises**] | Sélectionnez une balise dans la liste des balises. Seuls les projets auxquels sont appliquées les balises sélectionnées sont affichés. |
 | [!UICONTROL **Suite de rapports**] | Sélectionnez une suite de rapports dans la liste des suites de rapports. Seuls les projets qui utilisent les suites de rapports sélectionnées s’affichent. |
 | [!UICONTROL **Propriétaires**] | Sélectionnez n’importe quel propriétaire dans la liste des propriétaires. Seuls les projets appartenant aux utilisateurs que vous sélectionnez s’affichent. |
