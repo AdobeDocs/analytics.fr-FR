@@ -3,10 +3,10 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Connexion de société :** collection de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation.
 * **Canal marketing :** fonctionnalité d’Adobe Analytics classant les accès en fonction de leur arrivée sur votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Mesure :** type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Chiffre d’affaires. Leur contrepartie est souvent une dimension.
-* **Mobile Services :** réunit lʼensemble des fonctionnalités de marketing mobile pour les applications mobiles dʼAdobe Experience Cloud, ce qui vous permet dʼanalyser et dʼaméliorer lʼengagement des utilisateurs de vos applications. Voir [Présentation de Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=fr).
+* **Mobile Services :** Produit Adobe retiré qui a rassemblé les fonctionnalités de marketing mobile pour les applications mobiles de Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications.
 * **Balisage multisuite :** pratique consistant à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction des suites de rapports virtuelles, cette pratique n’est globalement plus nécessaire. La plupart des efforts de balisage multisuite permettent d’adapter une suite de rapports globale.
 * **Normalisation :** méthode d’organisation de visualisation qui prend toutes les mesures et force des proportions égales, permettant ainsi une comparaison plus facile des tendances.
 * **Occurrences :** type de mesure montrant le nombre d’accès à un élément de dimension défini ou persistant. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide d’utilisation des composants.

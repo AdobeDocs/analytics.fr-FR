@@ -3,10 +3,10 @@ title: Système d’exploitation
 description: Système d’exploitation du visiteur.
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 22%
+source-wordcount: '433'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,10 @@ Le &quot;Système d&#39;exploitation&quot; [dimension](overview.md) affiche le s
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Adobe de partenaires avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et le système d’exploitation.
+
+* Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
+* Pour les implémentations du SDK Web, activez [!UICONTROL Recherche de périphérique] when [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 

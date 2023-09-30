@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '632'
 ht-degree: 96%
 
 ---
@@ -106,7 +106,9 @@ ht-degree: 96%
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
-         + [Gestion des applications](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + Gestion des applications {#app-management}
+            + [Rapports d’application](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
+            + [Classifications des applications](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)

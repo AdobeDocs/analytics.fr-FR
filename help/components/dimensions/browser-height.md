@@ -3,16 +3,16 @@ title: Hauteur du navigateur - Regroupement
 description: Hauteur de la fenêtre du navigateur en pixels.
 feature: Dimensions
 exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 93%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
 # Hauteur du navigateur
 
-&quot;Hauteur du navigateur - regroupée&quot; [dimension](overview.md) affiche la hauteur de la fenêtre du navigateur, classée en groupes de 100 pixels. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
+&quot;Hauteur du navigateur - regroupée&quot; [dimension](overview.md) affiche la hauteur de la fenêtre du navigateur, classée en groupes prédéfinis. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
 
 Cette dimension est différente de la hauteur d’écran. La hauteur du navigateur correspond au nombre de pixels dans l’espace consultable du navigateur, tandis que la hauteur d’écran correspond à la hauteur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 
@@ -30,4 +30,4 @@ Adobe conserve la hauteur du navigateur pour une visite. Si la hauteur du naviga
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent toutes les hauteurs de navigateur collectées, classées en groupes de 100 pixels. Par exemple, si la hauteur du navigateur d’un accès correspond à `720`, elle est classée dans l’élément de dimension `700 to 799`.
+Les éléments de Dimension incluent toutes les hauteurs de navigateur collectées, classées en groupes prédéfinis. Par exemple, si la hauteur du navigateur d’un accès correspond à `720`, elle est classée dans l’élément de dimension `700 to 799`.
