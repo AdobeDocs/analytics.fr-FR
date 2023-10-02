@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Les données actives sont activées par défaut sur tous les rapports qui les pr
 * Cliquez sur « Non » dans le paramètre du rapport des données actives pour n’utiliser que les données entièrement traitées.
 * Supprimez l’élément d’autorisation « Données actives » d’un profil produit dans la Admin Console pour empêcher les utilisateurs non administrateurs de voir cette option. Voir [Autorisations de profil de produit pour les outils Analytics](/help/admin/admin-console/permissions/analytics-tools.md) pour plus d’informations.
 
-En raison de la priorisation de la disponibilité des données, les données actives ne peuvent pas être utilisées pour le moment avec les segments, les classifications, les ventilations, les cheminements et certaines mesures. Si vous utilisez l’une de ces fonctionnalités, les données actives sont forcées sur « Non » dans le rapport et un avertissement en jaune s’affiche pour vous expliquer la raison pour laquelle les données actives ne sont pas disponibles.
+En raison de la priorisation de la disponibilité des données, les données actives ne peuvent pas être utilisées pour le moment avec les segments, les classifications, les répartitions, les cheminements et certaines mesures. Si vous utilisez l’une de ces fonctionnalités, les données actives sont forcées sur « Non » dans le rapport et un avertissement en jaune s’affiche pour vous expliquer la raison pour laquelle les données actives ne sont pas disponibles.
 
 ![Avertissement sur les données actives](assets/current_data_notice.png)
 

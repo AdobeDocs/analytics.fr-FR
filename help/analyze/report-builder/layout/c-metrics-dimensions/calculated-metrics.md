@@ -4,16 +4,16 @@ title: Mesures calculées
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
 # Mesures calculées
 
-La version 5.2 du Report Builder prend en charge les mesures calculées unifiées d’Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
+Le Report Builder 5.2 prend en charge les mesures calculées unifiées Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Les filtres disponibles incluent :
 | Autres filtres > À moi | Affiche toutes les mesures que vous possédez. |
 | Autres filtres > Partagés avec moi | Affiche toutes les mesures que d’autres ont partagées avec vous. |
 
-## Appliquer les mesures calculées {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## Application de mesures calculées {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 Après avoir sélectionné les filtres, cliquez sur **[!UICONTROL Appliquer]** pour les appliquer à votre demande. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
 
