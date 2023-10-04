@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: b8a71d9b351368721909d1580a690bf924eb39fb
+source-git-commit: 31487111111575e267306d5f68eede23276e79a8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 96%
+source-wordcount: '637'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,9 @@ ht-degree: 96%
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
    + [Gestionnaire des activités de rapport](admin/reporting-activity.md)
-   + [Migration des composants](admin/component-migration.md)
+   + Migration des composants {#component-migration}
+      + [Préparation à la migration](admin/component-migration/prepare-component-migration.md)
+      + [Workflow de migration](admin/component-migration/component-migration.md)
    + Gestionnaire de suites de rapports {#manage-report-suites}
       + Modifier les paramètres d’une suite de rapports {#edit-report-suite}
          + Général {#report-suite-general}
