@@ -2,12 +2,10 @@
 description: Explique comment migrer des composants et des projets d’Adobe Analytics vers Customer Journey Analytics.
 title: Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
-ht-degree: 8%
+source-wordcount: '2051'
+ht-degree: 7%
 
 ---
 
@@ -53,13 +51,15 @@ Les tableaux suivants décrivent les éléments d’un projet et d’un composan
 
 #### Éléments de composant migrés
 
+Les Dimensions et les mesures sont migrées dans le cadre du processus de mappage décrit dans la section [Migration de projets Adobe Analytics vers Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), tandis que les segments et les plages de dates sont recréés en Customer Journey Analytics en fonction de la variable
+
 |  | Migré |
 |---------|---------|
-| **[Propriétaire](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
-| **[Partage](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Non |
-| **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[Balises](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Non |
-| **[Attribution (sur les dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[Propriétaire](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimensions et mesures : Non<p>Segments et plages de dates : ![coche](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Partage](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions et mesures : Non<p>Segments et plages de dates : Non</p> |
+| **[Descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimensions et mesures : Non<p>Segments et plages de dates : ![coche](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[Balises](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimensions et mesures : Non<p>Segments et plages de dates : Non</p> |
+| **[Attribution (sur les dimensions)](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimensions et mesures : Non<p>Segments et plages de dates : Non</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ Les tableaux suivants décrivent les éléments d’un projet et d’un composan
 | **[Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
 | **[Propriétaire](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) Défini par l’utilisateur effectuant la migration |
 | **[Traitement](/help/analyze/analysis-workspace/curate-share/curate.md)** | Non |
-| **[Partage (rôles de projet)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Non |
-| **[Partage (partager avec n’importe qui lien)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[Partage (rôles de projet)](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | Non <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[Annotations](/help/analyze/analysis-workspace/components/annotations/overview.md)** | Non |
 | **[Structure du dossier](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | Non |
 | **[Descriptions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![coche](assets/Smock_Checkmark_18_N.svg) |
 | **[Balises](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | Non |
 | **[Plannings](/help/components/scheduled-projects-manager.md)** | Non |
-| **[Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[Favoris](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### Comprendre les éléments non pris en charge qui provoquent des erreurs
 
@@ -116,7 +115,7 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 
 * [Alertes](/help/components/c-alerts/intellligent-alerts.md)
 
-### Déterminez en tant qu’organisation comment mapper des composants non pris en charge
+### Déterminer en tant qu’organisation comment mapper des composants
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 >Vous trouverez ci-dessous une liste de dimensions et de mesures que vous devez mapper manuellement si elles existent dans votre projet. Nous vous recommandons de consulter cette liste avant votre migration. Si l’un de ces composants existe dans votre projet, décidez maintenant à quels composants de Customer Journey Analytics vous allez les mapper.
 
 
-#### Dimensions non prises en charge
+#### Dimensions qui doivent être mappées manuellement
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 * targetraw
 
 
-#### Mesures non prises en charge
+#### Mesures qui doivent être mappées manuellement
 
 * timespentvisit
 * timespentvisitor
