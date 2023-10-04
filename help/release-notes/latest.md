@@ -3,43 +3,42 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 95%
+source-wordcount: '1216'
+ht-degree: 58%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (septembre 2023)
+# Notes de mise à jour actuelles d’Adobe Analytics (octobre 2023)
 
-**Dernière mise à jour** : 20 septembre 2023
+**Dernière mise à jour** : 4 octobre 2023
 
-Les notes de mise à jour de septembre couvrent la période du 13 septembre 2023 au 3 octobre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Les notes de mise à jour d’octobre couvrent la période du 4 octobre 2023 au 24 octobre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Classifications dans API 2.0** | Fournit les méthodes de l’API Adobe Analytics 2.0 pour enregistrer, supprimer, récupérer, importer et exporter des données de jeu de classifications. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | S.O. | 13 septembre 2023 |
-| **Prise en charge du nouveau champ `correlationID` pour les classifications A4T** | Le champ `_experience.decisioning.propositions.scopeDetails.correlationID` est désormais disponible dans le schéma du connecteur source Adobe Analytics. Nous ajoutons cet ID pour faciliter l’association des données de classification pour les activités Adobe Target et les événements d’expérience. | S.O. | 13 septembre 2023 |
-| **Améliorations de Data Warehouse** | Lors de la création d’une requête de Data Warehouse, vous pouvez désormais configurer un compte cloud à utiliser comme destination du rapport. Les types de compte cloud suivants sont disponibles pour l’envoi de données :<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li><li>E-mail (cette option était auparavant disponible)</li></ul>FTP, SFTP, Azure Blob et S3 sont toujours disponibles en tant que destinations de rapport, mais ne sont plus recommandés.<p>L’expérience client lors de la création et de la gestion de requêtes de Data Warehouse a également été améliorée. Pour plus d’informations, voir [Créer une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) et [Gérer des requêtes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=fr). | 13 septembre 2023 | 4 octobre 2023 |
 | **Nouvelles colonnes disponibles lors de la gestion des composants** | Les nouvelles colonnes suivantes sont désormais disponibles lors de la gestion des composants :<ul><li>Utilisation dans<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) et la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>Dernière utilisation<p>Cette colonne est disponible dans la [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), la variable [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md), et la variable [Gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié. Vous pouvez utiliser le dictionnaire de données avec ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> | 20 septembre 2023 | 4 octobre 2023 |
+| **Améliorations apportées à Activity Manager pour la création de rapports** | Le gestionnaire des activités de rapport vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre organisation.  Il fournit aux administrateurs une visibilité détaillée sur la consommation des rapports afin de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports. Voici quelques-unes des améliorations désormais disponibles dans le Gestionnaire d’activités de création de rapports : <ul><li>Restreindre les requêtes suivantes : en plus d’annuler les requêtes en cours, les administrateurs peuvent désormais limiter les requêtes pour une période définie. Les administrateurs peuvent limiter les requêtes par requête, projet et utilisateur.</li><li>Outre les mesures Utilisation et Capacité, le Gestionnaire des activités de création de rapports inclut désormais plus de données sur l’activité de création de rapports : colonne Complexité, colonne Utilisateur et colonne Connexion.</li><li>Toutes les annulations et restrictions effectuées dans le Gestionnaire des activités de reporting sont désormais visibles dans le Journal d’audit. Les administrateurs peuvent utiliser le journal d’audit pour afficher ce qui est actuellement annulé. Les annulations ne peuvent pas être annulées dans le Gestionnaire des activités de création de rapports ou dans le Journal d’audit.</li></ul>En savoir plus (bientôt disponible) | 17 octobre 2023 | 23 octobre 2023 |
+| **Améliorations de Data Warehouse** | Lors de la création d’une requête de Data Warehouse, vous pouvez désormais configurer un compte cloud à utiliser comme destination du rapport. Les types de compte cloud suivants sont disponibles pour l’envoi de données :<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li><li>E-mail (cette option était auparavant disponible)</li></ul>FTP, SFTP, Azure Blob et S3 sont toujours disponibles en tant que destinations de rapport, mais ne sont plus recommandés.<p>L’expérience client lors de la création et de la gestion de requêtes de Data Warehouse a également été améliorée. Pour plus d’informations, voir [Créer une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) et [Gérer des requêtes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=fr). | 12 septembre 2023 | 25 octobre 2023 |
+| **Migration de projets Adobe Analytics et de tout composant inclus vers Customer Journey Analytics** | Vous pouvez désormais migrer vos projets Adobe Analytics vers Customer Journey Analytics. Ce processus simplifie la transition d’Adobe Analytics vers Customer Journey Analytics. Lorsque vous migrez des projets vers Customer Journey Analytics, les ressources sont mappées d’une suite de rapports Adobe Analytics à une vue de données de Customer Journey Analytics. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | S.O. | 4 octobre 2023 |
 
 {style="table-layout:auto"}
 
 ## Correctifs dans Adobe Analytics
 
-* Correction d’un problème qui empêchait l’affichage des données de classification dans Workspace. (AN-326827)
+* Correction de problèmes en raison desquels les rapports A4T n’apparaissaient pas dans l’interface utilisateur de Target/Analytics. (AN-329375, AN-329745, AN-330026)
 
-## Autres correctifs
-
-AN-314882 ; AN-315591 ; AN-318165 ; AN-318559 ; AN-319031 ; AN-319244 ; AN-321657 ; AN-321759 ; AN-323099 ; AN-323596 ; AN-323640 ; AN-324442 ; AN-324921 ; AN-324953 ; AN-324977 ; AN-324979 ; AN-325124 ; AN-325395 ; AN-325433 ; AN-325535 ; AN-325693 ; AN-325720 ; AN-325835 ; AN-325880 ; AN-325957 ; AN-325984 ; AN-326054 ; AN-326065 ; AN-326136 ; AN-326155 ; AN-326162 ; AN-326235 ; AN-326317 ; AN-326344 ; AN-326357 ; AN-326359 ; AN-326433 ; AN-326438 ; AN-326440 ; AN-326461 ; AN-326464 ; AN-326523 ; AN-326553 ; AN-326606 ; AN-326635 ; AN-326642 ; AN-326652 ; AN-326678 ; AN-326769 ; AN-326777 ; AN-326830 ; AN-326938 ; AN-326949 ; AN-327081 ; AN-327082 ; AN-327085 ; AN-327103 ; AN-327198 ; AN-327225 ; AN-327275 ; AN-327358 ; AN-327423 ; AN-327561 ; AN-327755 ; AN-327896 ; AN-327922 ; AN-328128 ; AN-328300 ; AN-328428 ; AN-328518 ; AN-328554
+AN-313983; AN-324189; AN-325095; AN-325677; AN-325886; AN-; AN-326068; AN-326360; AN-326458; AN-327290; AN-; AN-327315; AN-327353; AN-327505; AN-; AN-; AN-; AN-; AN-; AN-; AN-AN; AN-; AN-; AN-; AN-; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| S.O. | S.O. | S.O. |
+| **Obscurcissement complet des adresses IP pour les accès Adobe Experience Edge** | 27 septembre 2023 | L’obscurcissement des adresses IP pour les accès provenant d’Experience Edge sera mis à jour plus tard en octobre 2023. En avril, Experience Edge a ajouté la possibilité d’obscurcir les adresses IP. À l’époque, Adobe Analytics ne prenait en charge que l’obscurcissement partiel des adresses IP, en raison de la manière dont Analytics traitait les accès à partir d’Experience Edge. Lorsque les clients ont choisi l’obscurcissement complet pour Experience Edge, Analytics n’a reçu que des adresses IP partiellement obscurcies. Lorsque cette modification est mise en oeuvre, Analytics reçoit l’adresse IP entièrement obscurcie. |
+| **Adobe Analytics Livestream - API Analytics 2.0** | 27 septembre 2023 | Les clients peuvent désormais accéder au [Guide de point de terminaison pour Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) sous les API Adobe Analytics 2.0 à la place dans son emplacement précédent, avec les API 1.4. Notez que les clients qui utilisent des informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification Adobe I/O OAuth serveur à serveur d’ici le 1er janvier 2025. (Voir les détails sous les avis de fin de vie ci-dessous.) |
 
 {style="table-layout:auto"}
 
@@ -56,7 +55,7 @@ AN-314882 ; AN-315591 ; AN-318165 ; AN-318559 ; AN-319031 ; AN-319244 ; AN
 
 ## AppMeasurement
 
-Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.24.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
+Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.25.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
 
 
 ## Ressources connexes
