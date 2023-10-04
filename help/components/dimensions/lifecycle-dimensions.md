@@ -2,10 +2,11 @@
 title: Dimensions de cycle de vie mobile
 description: Dimensions basées sur les données collectées à l’aide du SDK Mobile.
 feature: Dimensions
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
+source-git-commit: d940428e1cbe1be6d8263e986e8b641ec18aace1
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 55%
+source-wordcount: '145'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 55%
 
 | Nom de la dimension du cycle de vie | Description | Variable de données contextuelles |
 | --- | --- | --- |
-| [!UICONTROL Date du premier lancement] | | À déterminer (cette date d’installation est-elle prévue ?) |
+| [!UICONTROL Date du premier lancement] | | À confirmer |
 | [!UICONTROL Nom de l’appareil (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Version du système d’exploitation (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Résolution (SDK)] | | `a.Resolution` |
