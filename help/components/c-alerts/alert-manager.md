@@ -3,10 +3,10 @@ description: Gérer les alertes.
 title: Présentation d’Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: cfae0661dfa9c61daea33c3a52204793ce3d35c1
+source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 41%
+source-wordcount: '448'
+ht-degree: 38%
 
 ---
 
@@ -61,6 +61,6 @@ Pour configurer les colonnes visibles dans le gestionnaire d’alertes :
    | Balises | Affiche les balises qui ont été appliquées à l’alerte, soit par vous, soit par des personnes qui ont partagé l’alerte avec vous. |
    | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé l’alerte. |
    | Date de modification | Indique la date de la dernière modification de l’alerte. |
-   | Dernière utilisation | Affiche la date de la dernière utilisation de l’alerte. <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</p> |
+   | Dernière utilisation | Affiche la date de la dernière utilisation de l’alerte. <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>Pour certains composants, cette colonne peut ne pas contenir de données si le composant a été utilisé pour la dernière fois avant septembre 2023.</li></ul> |
 
    {style="table-layout:auto"}
