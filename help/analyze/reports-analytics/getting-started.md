@@ -4,19 +4,18 @@ title: Prise en main de Reports & Analytics
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 94%
 
 ---
 
 # Prise en main de Reports &amp; Analytics
 
-Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
+{{ra-eol}}
 
->[!IMPORTANT]
->À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
+Avant d’utiliser Reports &amp; Analytics, vous devez en comprendre les tâches de connexion et de configuration de base, ainsi que la manière d’accéder aux informations du compte.
 
 Les rapports fournissent des informations sur vos canaux web classiques, ainsi que sur l’évolution des canaux tels que les réseaux mobiles, vidéo et sociaux. Voici quelques exemples de rapports
 
@@ -28,7 +27,7 @@ Les rapports fournissent des informations sur vos canaux web classiques, ainsi q
 * Liens sur lesquels les visiteurs ont cliqué et le moment où ils ont quitté le site
 * Les canaux marketing les plus efficaces pour générer des recettes ou des événements de conversion
 * Le temps passé à regarder une vidéo
-* Les navigateurs et périphériques utilisés pour consulter votre site
+* Les navigateurs et appareils utilisés pour consulter votre site
 
 ## Configuration requise du navigateur et du système
 

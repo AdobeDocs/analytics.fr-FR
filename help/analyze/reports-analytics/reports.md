@@ -4,9 +4,9 @@ description: Les dimensions et mesures utilisées par Reports & Analytics pour c
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1863'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-Chaque rapport dans Reports &amp; Analytics utilise une dimension dédiée et une mesure par défaut. Vous pouvez modifier la mesure dans chaque rapport et ajouter des ventilations si nécessaire. Les listes suivantes indiquent la dimension utilisée dans chaque rapport.
+Chaque rapport dans Reports &amp; Analytics utilise une dimension dédiée et une mesure par défaut. Vous pouvez modifier la mesure dans chaque rapport et ajouter des répartitions si nécessaire. Les listes suivantes indiquent la dimension utilisée dans chaque rapport.
 
 >[!NOTE]
 >
 >L’aspect du menu des rapports peut varier en fonction des personnalisations effectuées par un administrateur de votre entreprise. Voir [Personnalisation des menus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md) dans le guide d’utilisation Administrateur.
-
->[!IMPORTANT]
->À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
 ## Mesures du site
 

@@ -4,19 +4,18 @@ title: Paramètres d’affichage des rapports et navigation
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1471'
 ht-degree: 98%
 
 ---
 
 # Paramètres d’affichage des rapports et navigation
 
-Paramètres qui définissent la manière dont tous les rapports apparaissent et les informations qui mettent en correspondance les options de menu par défaut avec leur emplacement dans le menu simplifié.
+{{ra-eol}}
 
->[!IMPORTANT]
->À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
+Paramètres qui définissent la manière dont tous les rapports apparaissent et les informations qui mettent en correspondance les options de menu par défaut avec leur emplacement dans le menu simplifié.
 
 ## Paramètres d’affichage des rapports et navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
@@ -62,92 +61,92 @@ Si vous êtes habitué au menu par défaut, le tableau suivant facilite la reche
 | Emplacement dans le menu par défaut | Emplacement dans le menu simplifié |
 |---|---|
 | **Mesures du site** |  |  |
-|  | Aperçu du site | Mesures > Aperçu du site |
-|  | Mesures clés | Mesures > Mesures clés |
-|  | Pages vues | Mesures > Pages vues |
-|  | Visites | Mesures > Visites |
-|  | Visiteurs | Mesures > Visiteurs |
-|  | Durée de la visite | Mesures > Durée de la visite |
-|  | Durée avant événement | Conversion > Durée avant événement |
-|  | Achats | Mesures > Achats |
-|  | Panier | Mesures > Panier |
-|  | Événements personnalisés | Mesures > Événements personnalisés |
-|  | Robots | Audience > Robots |
-|  | Détection des anomalies | Mesures > Détection des anomalies |
-|  | Temps réel | Mesures > Temps réel |
+|   | Aperçu du site | Mesures > Aperçu du site |
+|   | Mesures clés | Mesures > Mesures clés |
+|   | Pages vues | Mesures > Pages vues |
+|   | Visites | Mesures > Visites |
+|   | Visiteurs | Mesures > Visiteurs |
+|   | Durée de la visite | Mesures > Durée de la visite |
+|   | Durée avant événement | Conversion > Durée avant événement |
+|   | Achats | Mesures > Achats |
+|   | Panier | Mesures > Panier |
+|   | Événements personnalisés | Mesures > Événements personnalisés |
+|   | Robots | Audience > Robots |
+|   | Détection des anomalies | Mesures > Détection des anomalies |
+|   | Temps réel | Mesures > Temps réel |
 | **Contenu du site** |  |  |
-|  | Pages | Contenu > Pages |
-|  | Sections du site | Contenu > Sections du site |
-|  | Serveurs | Contenu > Serveurs |
-|  | Liens | Navigation > Liens personnalisés ; Navigation > Liens de sortie ; Navigation > ClickMap ; Navigation > Téléchargements de fichiers |
-|  | Pages introuvables | Navigation > Pages introuvables |
+|   | Pages | Contenu > Pages |
+|   | Sections du site | Contenu > Sections du site |
+|   | Serveurs | Contenu > Serveurs |
+|   | Liens | Navigation > Liens personnalisés ; Navigation > Liens de sortie ; Navigation > ClickMap ; Navigation > Téléchargements de fichiers |
+|   | Pages introuvables | Navigation > Pages introuvables |
 | **Mobile** |  |  |
-|  | Périphériques | Audience > Mobile > Périphériques |
-|  | Type d&#39;appareil | Audience > Mobile > Type de périphérique |
-|  | Fabricant | Audience > Mobile > Fabricant |
-|  | Taille d’écran | Audience > Mobile > Taille d’écran |
-|  | Hauteur d’écran | Audience > Mobile > Hauteur d’écran |
-|  | Largeur d’écran | Audience > Mobile > Largeur d’écran |
-|  | Prise en charge des cookies | Audience > Mobile > Prise en charge des cookies |
-|  | Prise en charge des images | Audience > Mobile > Prise en charge des images |
-|  | Profondeur de couleur | Audience > Mobile > Codage des couleurs |
-|  | Prise en charge de l’audio | Audience > Mobile > Prise en charge de l’audio |
-|  | Prise en charge de la vidéo | Audience > Mobile > Prise en charge de la vidéo |
-|  | Système d’exploitation | Audience > Mobile > Système d’exploitation |
+|   | Appareils | Audience > Mobile > Appareils |
+|   | Type d&#39;appareil | Audience > Mobile > Type d’appareil |
+|   | Fabricant | Audience > Mobile > Fabricant |
+|   | Taille d’écran | Audience > Mobile > Taille d’écran |
+|   | Hauteur d’écran | Audience > Mobile > Hauteur d’écran |
+|   | Largeur d’écran | Audience > Mobile > Largeur d’écran |
+|   | Prise en charge des cookies | Audience > Mobile > Prise en charge des cookies |
+|   | Prise en charge des images | Audience > Mobile > Prise en charge des images |
+|   | Profondeur de couleur | Audience > Mobile > Codage des couleurs |
+|   | Prise en charge de l’audio | Audience > Mobile > Prise en charge de l’audio |
+|   | Prise en charge de la vidéo | Audience > Mobile > Prise en charge de la vidéo |
+|   | Système d’exploitation | Audience > Mobile > Système d’exploitation |
 | **Chemins** |  |  |
-|  | Pages | Navigation > Chemins > Pages |
-|  | Termes de recherche internes | Navigation > Chemins > Termes de recherche internes |
+|   | Pages | Navigation > Chemins > Pages |
+|   | Termes de recherche internes | Navigation > Chemins > Termes de recherche internes |
 | **Sources de trafic** |  |  |
-|  | Mots-clés de recherche - Toutes | Sources de trafic > Mots-clés de recherche - Toutes |
-|  | Mot-clé de recherche - Payant | Sources de trafic > Mots-clés de recherche - Payées |
-|  | Mot-clé de recherche - Naturel | Sources de trafic > Mots-clés de recherche - Naturelles |
-|  | Moteurs de recherche - Toutes | Sources de trafic > Moteurs de recherche - Toutes |
-|  | Moteurs de recherche - Payées | Sources de trafic > Moteurs de recherche - Payées |
-|  | Moteurs de recherche - Naturelles | Sources de trafic > Moteurs de recherche - Naturelles |
-|  | Classement de toutes les pages de recherche | Sources de trafic > Classement de toutes les pages de recherche |
-|  | Domaines référents | Sources de trafic > Domaines référents |
-|  | Domaines référents d’origine | Sources de trafic > Domaines référents d’origine |
-|  | Référents | Sources de trafic > Référents |
-|  | Types de référents | Sources de trafic > Types de référents |
+|   | Mots-clés de recherche - Toutes | Sources de trafic > Mots-clés de recherche - Toutes |
+|   | Mot-clé de recherche - Payant | Sources de trafic > Mots-clés de recherche - Payées |
+|   | Mot-clé de recherche - Naturel | Sources de trafic > Mots-clés de recherche - Naturelles |
+|   | Moteurs de recherche - Toutes | Sources de trafic > Moteurs de recherche - Toutes |
+|   | Moteurs de recherche - Payées | Sources de trafic > Moteurs de recherche - Payées |
+|   | Moteurs de recherche - Naturelles | Sources de trafic > Moteurs de recherche - Naturelles |
+|   | Classement de toutes les pages de recherche | Sources de trafic > Classement de toutes les pages de recherche |
+|   | Domaines référents | Sources de trafic > Domaines référents |
+|   | Domaines référents d’origine | Sources de trafic > Domaines référents d’origine |
+|   | Référents | Sources de trafic > Référents |
+|   | Types de référents | Sources de trafic > Types de référents |
 | **Campagnes** |  |  |
-|  | Entonnoir de conversion de campagne | Sources de trafic > Campagnes > Entonnoir de conversion de campagne |
-|  | Code de suivi | Sources de trafic > Campagnes > Code de suivi |
+|   | Entonnoir de conversion de campagne | Sources de trafic > Campagnes > Entonnoir de conversion de campagne |
+|   | Code de suivi | Sources de trafic > Campagnes > Code de suivi |
 | **Produits** |  |  |
-|  | Entonnoir de conversion de produits | Conversion > Produits > Entonnoir de conversion de produits |
-|  | Produits | Conversion > Produits > Produits |
-|  | Vente croisée | Conversion > Produits > Vente croisée |
-|  | Catégories | Conversion > Produits > Catégories |
+|   | Entonnoir de conversion de produits | Conversion > Produits > Entonnoir de conversion de produits |
+|   | Produits | Conversion > Produits > Produits |
+|   | Vente croisée | Conversion > Produits > Vente croisée |
+|   | Catégories | Conversion > Produits > Catégories |
 | **Rétention des visiteurs** |  |  |
-|  | Fréquence des retours | Audience > Rétention des visiteurs > Fréquence des retours |
-|  | Visites renouvelées | Audience > Rétention des visiteurs > Visites retours |
-|  | Visites retours quotidiennes | Audience > Rétention des visiteurs > Visites retours quotidiennes |
-|  | Nombre de visites | Audience > Rétention des visiteurs > Nombre de visites |
-|  | Cycle de ventes | Audience > Rétention des visiteurs > Cycle de vente |
+|   | Fréquence des retours | Audience > Rétention des visiteurs > Fréquence des retours |
+|   | Visites renouvelées | Audience > Rétention des visiteurs > Visites retours |
+|   | Visites retours quotidiennes | Audience > Rétention des visiteurs > Visites retours quotidiennes |
+|   | Nombre de visites | Audience > Rétention des visiteurs > Nombre de visites |
+|   | Cycle de ventes | Audience > Rétention des visiteurs > Cycle de vente |
 | **Profil du visiteur** |  |  |
-|  | Géosegmentation | Audience > Profil du visiteur > Géosegmentation |
-|  | Langues | Audience > Profil du visiteur > Langues |
-|  | Fuseaux horaires | Audience > Profil du visiteur > Fuseaux horaires |
-|  | Domaines | Audience > Profil du visiteur > Domaines |
-|  | Domaines de haut niveau | Audience > Profil du visiteur > Domaines de haut niveau |
-|  | Technologie | Audience > Profil du visiteur > Technologie |
-|  | État du visiteur | Audience > Profil du visiteur > État du visiteur |
-|  | Code postal du visiteur | Audience > Profil du visiteur > Code postal du visiteur |
+|   | Géosegmentation | Audience > Profil du visiteur > Géosegmentation |
+|   | Langues | Audience > Profil du visiteur > Langues |
+|   | Fuseaux horaires | Audience > Profil du visiteur > Fuseaux horaires |
+|   | Domaines | Audience > Profil du visiteur > Domaines |
+|   | Domaines de haut niveau | Audience > Profil du visiteur > Domaines de haut niveau |
+|   | Technologie | Audience > Profil du visiteur > Technologie |
+|   | État du visiteur | Audience > Profil du visiteur > État du visiteur |
+|   | Code postal du visiteur | Audience > Profil du visiteur > Code postal du visiteur |
 | **Conversion personnalisée** |  |  |
-|  | Conversion personnalisée 1-10 | Conversion > Conversion personnalisée > Conversion personnalisée 1-10 |
-|  | Conversion personnalisée 11-20 | Conversion > Conversion personnalisée > Conversion personnalisée 11-20 |
+|   | Conversion personnalisée 1-10 | Conversion > Conversion personnalisée > Conversion personnalisée 1-10 |
+|   | Conversion personnalisée 11-20 | Conversion > Conversion personnalisée > Conversion personnalisée 11-20 |
 | **Trafic personnalisé** |  |  |
-|  | Trafic personnalisé 1-10 | Contenu > Trafic personnalisé > Trafic personnalisé 1-10 |
+|   | Trafic personnalisé 1-10 | Contenu > Trafic personnalisé > Trafic personnalisé 1-10 |
 | **Test&amp;Target** |  | Conversion > Test&amp;Target |
 | **Enquête** |  | Audience > Survey |
 | **Canaux marketing** |  |  |
-|  | Rapport Aperçu d’un canal | Sources de trafic > Canaux marketing > Rapport Aperçu d’un canal |
-|  | Canal Première touche | Sources de trafic > Canaux marketing > Canal Première touche |
-|  | Détails du canal Première touche | Sources de trafic > Canaux marketing > Détails du canal Première touche |
-|  | Canal Dernière touche | Sources de trafic > Canaux marketing > Canal Dernière touche |
-|  | Détails du canal Dernière touche | Sources de trafic > Canaux marketing > Détails du canal Dernière touche |
+|   | Rapport Aperçu d’un canal | Sources de trafic > Canaux marketing > Rapport Aperçu d’un canal |
+|   | Canal Première touche | Sources de trafic > Canaux marketing > Canal Première touche |
+|   | Détails du canal Première touche | Sources de trafic > Canaux marketing > Détails du canal Première touche |
+|   | Canal Dernière touche | Sources de trafic > Canaux marketing > Canal Dernière touche |
+|   | Détails du canal Dernière touche | Sources de trafic > Canaux marketing > Détails du canal Dernière touche |
 | **Application mobile** |  |  |
-|  | Présentation de l’application mobile | Contenu > Application mobile > Présentation des applications mobiles |
-|  | Rapports du cycle de vie | Contenu > Application mobile > Rapports du cycle de vie |
+|   | Présentation de l’application mobile | Contenu > Application mobile > Présentation des applications mobiles |
+|   | Rapports du cycle de vie | Contenu > Application mobile > Rapports du cycle de vie |
 | **Rapports personnalisés** |  |  |
-|  | Les rapports personnalisés n’affichent que ce que vous avez configuré. | Rapports personnalisés |
-|  |  |  |
+|   | Les rapports personnalisés n’affichent que ce que vous avez configuré. | Rapports personnalisés |
+|   |  |  |

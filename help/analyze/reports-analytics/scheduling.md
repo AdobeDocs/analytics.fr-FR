@@ -6,25 +6,24 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1655'
 ht-degree: 90%
 
 ---
 
 # Planification et distribution des rapports
 
-Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
+{{ra-eol}}
 
->[!IMPORTANT]
->Le 21 avril 2022, nous avons annoncé l’abandon de plusieurs fonctionnalités spécifiques aux rapports planifiés en prévision de la fin de vie de Reports &amp; Analytics annoncée précédemment. Ces fonctionnalités comprenaient la possibilité de planifier de nouveaux rapports ainsi que de nouvelles extractions de données. En réponse aux demandes des clients qui souhaitaient une prolongation et pour faciliter la transition depuis Reports &amp; Analytics, nous avons décidé de prolonger l’accès à ces fonctionnalités jusqu’au 31 janvier 2023. Veuillez noter que les fenêtres d’expiration pour les rapports et les extractions de données continueront d’être limitées à neuf mois ; la diffusion des rapports et des extractions de données s’interrompra à la fin de cette période, sauf si le planning est réactivé. [En savoir plus](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+Cette section contient des informations sur la planification, le téléchargement et la distribution des rapports.
 
 Lorsque vous planifiez la remise d’un rapport dans une application d’Adobe Analytics, vous pouvez utiliser les outils Planification et Diffusion pour afficher les fichiers qui ont été envoyés automatiquement et modifier ou interrompre les livraisons.
 
 En raison des différences dans les mécanismes de traitement et les plateformes, les différents types de rapports planifiés et téléchargeables dans Adobe Analytics présentent différentes limites en ce qui concerne le nombre maximum de lignes qu’ils peuvent traiter dans une même requête. Voici les limites selon chaque type :
 
-* Word, CSV, Excel, HTML et PDF : le même nombre de lignes visibles dans le rapport. Par défaut, cette limite est de 50 lignes mais peut atteindre les 200. Les rapports de ventilation ont une limite stricte de 50 lignes.
+* Word, CSV, Excel, HTML et PDF : le même nombre de lignes visibles dans le rapport. Par défaut, cette limite est de 50 lignes mais peut atteindre les 200. Les rapports de répartition ont une limite stricte de 50 lignes.
 * Extractions des données : 50 000 lignes
 * Data Warehouse : illimité
 

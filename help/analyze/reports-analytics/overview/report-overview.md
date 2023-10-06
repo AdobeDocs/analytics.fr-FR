@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '407'
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 Cette section présente les fonctionnalités d’un rapport, notamment la barre d’outils, le calendrier et le tableau détaillé.
 
 Cet exemple présente un [!UICONTROL rapport Pages]. Les options de configuration peuvent varier, selon le rapport à exécuter. Par exemple, plutôt que de sélectionner Tendance ou Classement dans un rapport [!UICONTROL Contenu du site], vous pouvez préciser la granularité et le nom de la page pour un rapport [!UICONTROL Mesures du site].
-
->[!IMPORTANT]
->À compter du **31 décembre 2023**, Adobe prévoit dʼabandonner Reports &amp; Analytics et ses rapports et fonctionnalités associés. À compter de cette date, Reports &amp; Analytics et tous ses rapports et éléments planifiés cesseront de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 
 ## Exemple de rapport Pages {#section_288CC85536684C2DB184141358481EF0}
 
@@ -83,6 +80,6 @@ Les détails forment l’essentiel des données du rapport. Dans ce cas, les pag
 
 ![](assets/detail.png)
 
-Dans le tableau des détails, vous pouvez filtrer les données, créer des ventilations, ajouter des mesures, etc.
+Dans le tableau des détails, vous pouvez filtrer les données, créer des répartitions, ajouter des mesures, etc.
 
 Voir la section [Personnalisation des rapports](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
