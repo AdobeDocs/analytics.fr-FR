@@ -2,10 +2,11 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -78,7 +79,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -90,7 +91,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++SAS Azure
 
@@ -106,7 +107,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++RBAC Azure
 
@@ -120,7 +121,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Adresse électronique
 
@@ -147,7 +148,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -160,7 +161,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++SAS Azure
 
@@ -173,7 +174,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++RBAC Azure
 
@@ -187,7 +188,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -209,14 +210,59 @@ Les données de l’entrepôt de données peuvent être diffusées vers un empla
 
 Renseignez les informations suivantes lorsque vous renseignez les champs disponibles :
 
-* [!UICONTROL **Hôte**]: saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`.
-* [!UICONTROL **Chemin**]: peut rester vide.
+#### Champs du compte
+
+* [!UICONTROL **Nom du compte**]: nom du compte FTP.
+
+* [!UICONTROL **Description du compte**]: description du compte FTP.
+
+* [!UICONTROL **Hostname**]: saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Ne pas inclure `ftp://` au début de l’URL.
+
 * [!UICONTROL **Nom d’utilisateur**]: saisissez le nom d’utilisateur pour vous connecter au site FTP.
+
 * [!UICONTROL **Mot de passe et confirmation du mot de passe**]: saisissez le mot de passe de connexion au site FTP.
+
+#### Champs d’emplacement
+
+* [!UICONTROL **Nom de l’emplacement**]: nom de l’emplacement sur le compte FTP où vous souhaitez envoyer les fichiers.
+
+* [!UICONTROL **Description de l’emplacement**]: description de l’emplacement sur le compte FTP.
+
+* [!UICONTROL **Chemin du répertoire**]: chemin d’accès à l’emplacement sur le compte FTP.
 
 ### SFTP
 
 La prise en charge SFTP de l’entrepôt de données est disponible. Nécessite un hôte SFTP, un nom d’utilisateur et un site de destination contenant une clé publique RSA ou DSA. Vous pouvez télécharger la clé publique appropriée lors de la création de la destination de l’entrepôt de données.
+
+Renseignez les informations suivantes lorsque vous renseignez les champs disponibles :
+
+#### Champs du compte
+
+* [!UICONTROL **Nom du compte**]: nom du compte FTP.
+
+* [!UICONTROL **Description du compte**]: description du compte FTP.
+
+* [!UICONTROL **Hostname**]: saisissez l’URL de destination SFTP de votre choix. Par exemple : `sftp.company.com`.
+
+  >[!NOTE]
+  >
+  >  Ne pas inclure `sftp://` au début de l’URL.
+
+* [!UICONTROL **Nom d’utilisateur**]: saisissez le nom d’utilisateur pour vous connecter au site SFTP.
+
+* [!UICONTROL **Clés publiques**]: téléchargez la clé publique appropriée lors de la création de la destination de l’entrepôt de données.
+
+#### Champs d’emplacement
+
+* [!UICONTROL **Nom de l’emplacement**]: nom de l’emplacement sur le compte SFTP où vous souhaitez envoyer les fichiers.
+
+* [!UICONTROL **Description de l’emplacement**]: description de l’emplacement sur le compte SFTP.
+
+* [!UICONTROL **Chemin du répertoire**]: chemin d’accès à l’emplacement sur le compte SFTP.
 
 ### S3
 
