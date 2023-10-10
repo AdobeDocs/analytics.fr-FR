@@ -2,9 +2,9 @@
 description: Découvrez comment utiliser le gestionnaire des activités de rapport pour diagnostiquer et corriger les problèmes de capacité pendant les heures de pointe de la création de rapports.
 title: Annulation des demandes de création de rapports dans le Gestionnaire d’activités de création de rapports
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ Pour plus d’informations sur la gestion des activités de création de rapport
 
 ## Annulation de requêtes spécifiques
 
-Vous pouvez choisir des requêtes spécifiques que vous souhaitez annuler.
+Vous pouvez annuler des requêtes individuelles qui consomment une grande capacité de création de rapports.
 
 1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
 
@@ -41,7 +41,7 @@ Vous pouvez choisir des requêtes spécifiques que vous souhaitez annuler.
 
 1. Sélectionner [!UICONTROL **Annulation des requêtes**].
 
-   La variable [!UICONTROL **Annulation des requêtes de rapport x**] s’affiche.
+   La variable [!UICONTROL **Annuler _x_ requêtes de rapport**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
@@ -76,7 +76,7 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs utilisate
 
 1. Sélectionner [!UICONTROL **Annulation des requêtes**].
 
-   La variable [!UICONTROL **Annuler x demandes de rapport de x utilisateurs**] s’affiche.
+   La variable [!UICONTROL **Annuler _x_ requêtes de rapport de x utilisateurs**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
@@ -111,7 +111,7 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs projets.
 
 1. Sélectionner [!UICONTROL **Annulation des requêtes**].
 
-   La variable [!UICONTROL **Annulation x demandes de rapport depuis x projets**] s’affiche.
+   La variable [!UICONTROL **Annuler _x_ requêtes de rapport provenant de x projets**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
@@ -132,6 +132,6 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs projets.
 
 ## Expérience lorsque les utilisateurs accèdent à un rapport annulé
 
-Dans Analysis Workspace, les utilisateurs qui tentent d’accéder à un rapport qui a été annulé reçoivent le message suivant :
+Dans Analysis Workspace, les utilisateurs voient s’afficher le message suivant lorsqu’ils tentent d’accéder à un rapport qui a été annulé par un administrateur :
 
 ![avertissement-utilisateur-annulation](/help/admin/admin/assets/cancel-user-facing.png)
