@@ -3,14 +3,16 @@ title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # Mise en œuvre des liens d’exclusion
+
+*Cette page d’aide permet aux clients Adobe Analytics de fournir à leurs utilisateurs des liens d’exclusion. Si vous n’êtes pas client Adobe Analytics, reportez-vous à la section [Adobe des choix en matière de confidentialité](https://www.adobe.com/privacy/opt-out.html) pour contrôler la manière dont Adobe utilise vos informations.*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
    1. Notez la valeur de la variable `trackingServer`.
 
-* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) :
+* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
    1. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
    1. Notez la valeur [!UICONTROL Request URL - Hostname].

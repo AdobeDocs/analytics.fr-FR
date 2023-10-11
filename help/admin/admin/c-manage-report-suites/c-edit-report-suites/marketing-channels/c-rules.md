@@ -3,31 +3,25 @@ title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
-source-wordcount: '2187'
-ht-degree: 100%
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 77%
 
 ---
 
 # Règles de traitement des canaux marketing
 
->[!NOTE]
->
-> Pour obtenir des informations générales sur les canaux marketing, voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
->
-> Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+Les règles de traitement des canaux marketing déterminent si un accès visiteur satisfait les critères affectés à un canal en traitant chaque accès visiteur sur votre site. Les règles sont traitées dans l’ordre indiqué. Lorsqu’une règle est respectée, le système cesse de traiter les règles restantes.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
-
-Les règles de traitement des canaux marketing déterminent si un accès visiteur satisfait les critères affectés à un canal en traitant chaque accès visiteur sur votre site. Les règles sont traitées dans l’ordre spécifié et, lorsqu’une règle est vérifiée, le système cesse le traitement des règles restantes.
 
 ![](assets/buckets_2.png)
 
 Remarques supplémentaires sur le traitement :
 
-* Les données collectées à l’aide de ces règles sont permanentes. De plus, les règles modifiées après la collecte des données ne sont pas rétroactives. Nous vous conseillons vivement d’étudier tous les cas et de les prendre en compte avant d’enregistrer les [!UICONTROL règles de traitement des canaux marketing] afin de limiter la collecte de données dans des canaux incorrects.
-* Le rapport peut traiter jusqu’à 25 canaux simultanément.
+* Les données collectées avec ces règles sont permanentes. Les règles modifiées après la collecte des données ne sont pas rétroactives. Adobe recommande vivement de vérifier et de prendre en compte toutes les circonstances avant d’enregistrer [!UICONTROL Règles de traitement des canaux marketing] pour limiter la collecte des données dans des canaux incorrects.
+* Vous pouvez configurer jusqu’à 25 canaux marketing distincts.
 * Les règles peuvent accéder aux variables que VISTA a définies, mais pas aux données que VISTA a supprimées.
 * Un même événement (tel qu’un achat ou un clic) n’est jamais porté au crédit de deux canaux marketing. En cela, les canaux marketing diffèrent des eVars (car deux eVars peuvent recevoir le crédit d’un seul et même événement).
 * En cas de manque de couverture de vos règles, il est possible qu’[aucun canal ne soit identifié](/help/components/c-marketing-channels/c-faq.md).
@@ -35,7 +29,7 @@ Remarques supplémentaires sur le traitement :
 ## Conditions préalables
 
 * Consultez les informations conceptuelles dans la section [Prise en main des Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-* Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing.](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 * Examinez les bonnes pratiques relatives à l’utilisation des [!UICONTROL Canaux marketing] avec [!UICONTROL Attribution IQ].
 
 ## Création de règles de traitement des canaux marketing
@@ -53,7 +47,7 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 
    ![Résultat de l’étape](assets/marketing_channel_rules.png)
 
-4. Si vous souhaitez ajouter une nouvelle règle, allez dans le menu et sélectionnez **[!UICONTROL Ajouter un nouveau jeu de règles]**. Si vous sélectionnez un canal, un modèle de règle vous est attribué et si vous sélectionnez Personnalisé, vous démarrez à partir d’une ardoise vide. Les deux options vous permettent de modifier le jeu de règles selon vos besoins.
+4. Si vous souhaitez ajouter une règle, sélectionnez dans la **[!UICONTROL Ajouter un nouveau jeu de règles]** . Si vous sélectionnez un canal, un modèle de règle vous est attribué et si vous sélectionnez Personnalisé, vous démarrez à partir d’une ardoise vide. Les deux options vous permettent de modifier le jeu de règles selon vos besoins.
 
    ![Résultat de l’étape](assets/example_email.png)
 
@@ -61,13 +55,9 @@ Créez des règles de traitement des canaux marketing qui déterminent si l’ac
 6. Pour classer les règles par priorité, faites-les glisser à l’emplacement souhaité.
 7. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Continuez sur cette page pour afficher des recommandations concernant l’ordre des règles de canal, ainsi que d’autres exemples de définition.
-
 ### Définition de la valeur d’un canal marketing
 
-**[!UICONTROL Définir la valeur du canal]** définit la dimension détaillée du canal marketing disponible pour ce canal. Cela vous permet de ventiler les dimensions du canal marketing et d’afficher des informations détaillées sur le canal.
-
-Il est recommandé de définir la valeur du canal selon les mêmes critères que ceux utilisés pour définir le canal lui-même. Par exemple, si le paramètre de chaîne de requête est utilisé pour définir le canal, définissez également le paramètre de chaîne de requête comme valeur de canal.
+**[!UICONTROL Définir la valeur du canal]** définit la dimension détaillée du canal marketing disponible pour ce canal.
 
 ### Critères de règle
 
@@ -75,30 +65,30 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 
 >[!NOTE]
 >
->Tout champ de texte que vous définissez, tel que le paramètre de chaîne de requête ou les listes de valeurs à comparer, est évalué sous forme de valeurs **insensibles à la casse**. Par exemple, si vous disposez d’une règle dans laquelle le paramètre de chaîne de requête est cmp = abc123, toutes les versions de « cmp » et « abc123 » correspondent à la règle. Vous n’avez pas besoin de répertorier plusieurs versions de casse de ces valeurs.
+>Tout champ de texte que vous définissez, tel que le paramètre de chaîne de requête ou les listes de valeurs à rechercher, est évalué comme **non-respect de la casse** valeurs. Par exemple, si vous avez une règle où le paramètre de chaîne de requête `cmp = abc123`, toutes les variantes majuscules et minuscules des deux `cmp` et `abc123` correspond à .
 
 | Terme | Définition |
 |--- |--- |
-| Tous | N’active ce canal que lorsque toutes les règles de la règle numérotée sont vraies. |
-| Quelconque | Active ce canal lorsque l’une des règles de l’ensemble de règles est vraie. Cette option n’est disponible que s’il existe plusieurs règles dans la règle numérotée. |
+| Tous | N’active ce canal que lorsque tous les critères de la règle sont vrais. |
+| Tous | Active ce canal lorsque l’un des critères de la règle est vrai. Cette option n’est disponible que s’il existe plusieurs critères dans la règle. |
 | ID AMO | Code de suivi principal utilisé par les intégrations Advertising Cloud et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe du code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising Cloud. Utilisez « AMO ID » en commençant par « AL » pour Rechercher, « AC » pour Afficher ou « AO » pour Social. Lorsque l’AMO ID est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal approprié (lorsqu’elles ne sont pas configurées, elles sont alors associées à Direct ou Aucun). |
-| AMO ED ID | Code de suivi secondaire utilisé par Advertising Cloud. Le principal objectif de ce code de suivi est de servir de clé pour renvoyer les données vers Advertising Cloud. Il peut toutefois également être utilisé pour identifier les clics publicitaires par rapport aux affichages publicitaires si vous souhaitez les voir comme deux canaux marketing distincts. Pour ce faire, définissez la logique du canal marketing pour « AMO EF ID » se terminant par « :d » pour les clics publicitaires ou « AMO EF ID » se terminant par « :i » pour les affichages publicitaires. Si vous ne souhaitez pas diviser Affichage en deux canaux, utilisez plutôt la dimension AMO ID. |
-| Variables de conversion | Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page.  Consultez le Guide d’implémentation . |
+| AMO ED ID | Code de suivi secondaire utilisé par Advertising Cloud. Le principal objectif de ce code de suivi est de servir de clé pour renvoyer les données vers Advertising Cloud. Il peut toutefois également être utilisé pour identifier les clics publicitaires par rapport aux affichages publicitaires si vous souhaitez les voir comme deux canaux marketing distincts. Pour ce faire, définissez la logique du canal marketing pour la fin &quot;AMO EF ID&quot; avec `:d` pour les clics publicitaires ou &quot;AMO EF ID&quot; se terminent par `:i` pour les affichages publicitaires. Si vous ne souhaitez pas diviser Affichage en deux canaux, utilisez plutôt la dimension AMO ID. |
+| Variables de conversion | Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page. |
 | Existe | Plusieurs sélections sont disponibles, notamment :<ul><li>**N’existe pas** : indique que l’attribut de visite n’existe pas pour la demande. Dans un domaine référent par exemple, si l’utilisateur saisit une URL ou clique sur un signet, l’attribut de domaine référent n’existe pas.</li><li>**Est vide** : indique que l’attribut de visite existe, généralement sous la forme d’un paramètre de chaîne de requête ou eVar, mais qu’aucune valeur associée à l’attribut de visite n’est attribuée.</li><li>**Ne contient pas** : permet d’indiquer, par exemple, qu’un domaine référent ne contient pas de valeur spécifique (contrairement à l’utilisation de l’option   &quot;Contient&quot;.)</li></ul> |
-| Identifier le canal comme | Associe la règle à un canal marketing ajouté à la page Gestionnaire de canaux marketing.  Reportez-vous à la section Ajout de canaux marketing . |
+| Identifier le canal comme | Associe la règle à un canal marketing ajouté à la page Gestionnaire de canaux marketing. |
 | Fait correspondre les règles de détection des recherches payées | Une recherche payante détectée par Adobe. Lors des recherches payantes, les sociétés paient une somme au moteur de recherche pour répertorier leur site. Les recherches payantes figurent habituellement en haut ou à droite des résultats de la recherche. |
 | Fait correspondre les règles de détection des recherches naturelles | Une recherche non payante détectée par Adobe. |
 | Le référent correspond aux filtres d’URL internes | Une visite dont l’URL de page correspond à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. |
 | Le référent ne correspond pas aux filtres d’URL internes | L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec     URL de la page  et  Existe  afin de configurer une règle fourre-tout, de telle sorte qu’aucune visite ne figure dans la section  Aucun canal identifié  du rapport. |
 | Ignorer les visites correspondant aux filtres URL internes | (Pour les référents) Effectue uniquement le suivi des visites provenant de sites externes. En règle générale, ce paramètre doit rester activé, à moins que vous ne souhaitiez inclure le trafic interne. |
 | Est la première page de la visite | La première page d’une visite détectée par Adobe. |
-| Page | Le nom d’une page web du site qui contient une balise web d’Adobe. Cette valeur équivaut à  s.pageName . Par exemple `Home Page` et `About Us`. |
-| Domaine de page | Le domaine de la page à laquelle accède le visiteur, tel que `products.example.co.uk`. |
-| Domaine et chemin de page | Domaine et chemin d’accès, comme par exemple `products.example.co.uk/mens/pants/overview.html`. |
+| Page | La dimension [Page](/help/components/dimensions/page.md). |
+| Domaine de page | Le domaine de la page à laquelle accède le visiteur, tel que `products.example.com`. |
+| Domaine et chemin de page | Domaine et chemin d’accès, comme par exemple `products.example.com/mens/pants/overview.html`. |
 | Domaine racine de page (TLD+1) | Domaine racine de la page à laquelle accède le visiteur, tel que exemple.co.uk . |
 | URL de la page | L’URL d’une page Web de votre site. |
-| Domaine référent | Le domaine d’où proviennent les visiteurs avant de visiter votre site ; par exemple, les référents provenant de `abcsite.com` par rapport à `xyzsite.com`. |
-| Paramètre de chaîne de requête | Si l’URL d’une page de votre site ressemble à `https://example.com/?page=12345&cat=1`, alors « page » et « cat » sont des paramètres de chaîne de requête. (Reportez-vous à la section `https://en.wikipedia.org/wiki/Query_string`.)  Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par ensemble de règles. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez les nouveaux paramètres de chaîne de requête à la règle. Les paramètres de chaîne de requête sont évalués sous une forme insensible à la casse. Par exemple, « cat » et « CAT » sont évalués de la même manière. |
+| Domaine référent | La variable [Domaine référent](/help/components/dimensions/referring-domain.md) dimension |
+| Paramètre de chaîne de requête | Utilisez un paramètre de chaîne de requête individuel. Vous ne pouvez spécifier qu’un seul paramètre de chaîne de requête par critère. Pour ajouter des paramètres de chaîne de requête supplémentaires, utilisez `ANY` comme opérateur, puis ajoutez des paramètres de chaîne de requête à la règle. |
 | Référent | L’emplacement de la page Web (adresse URL complète) sur laquelle vos visiteurs se trouvaient avant de consulter votre site. Il existe un référent en dehors de votre domaine défini. |
 | Domaine et chemin référents | Une concaténation de « Domaine référent » et « Chemin d’accès à l’URL ». Voici quelques exemples :    `www.example.com/products/id/12345` ou `ad.example.com/foo` |
 | Paramètre de référent | Un paramètre de chaîne de requête sur l’URL de renvoi. Par exemple, si vos visiteurs proviennent de `example.com/?page=12345&cat=1`, alors « page » et « chat » sont les paramètres référents. |
@@ -106,17 +96,17 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 | Moteur de recherche | Moteur de recherche, tel que Google ou Yahoo!, qui a dirigé les visiteurs sur votre site. |
 | Mots-clés de recherche | Mot utilisé dans une recherche en utilisant un moteur de recherche. |
 | Moteur de recherche - Mots-clés | Une concaténation de « Mot-clé de recherche » et de « Moteur de recherche » pour identifier avec exactitude le moteur de recherche. Par exemple, si vous cherchez le mot « ordinateur », le moteur de recherche et le mot-clé sont identifiés comme suit :  `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Remarque :** n = naturelle ; p = payante |
-| Définir la valeur du canal comme | Outre le fait de savoir quel canal marketing dirige un visiteur sur le site, vous pouvez connaître la bannière publicitaire, le mot-clé ou la campagne par courrier électronique du canal qui reçoit le crédit de l’activité d’un visiteur sur le site. Cet identifiant est une valeur de canal enregistrée avec le canal. Cette valeur correspond le plus souvent à un identifiant de campagne intégré dans la page d’entrée ou dans l’URL de renvoi ; dans d’autres cas, c’est la combinaison du moteur de recherche et du mot-clé de recherche, ou encore l’URL de renvoi, qui identifient avec le plus de précision le visiteur en provenance d’un canal donné. |
+| Définir la valeur du canal comme | Définit la variable [Détails du canal marketing](/help/components/dimensions/marketing-detail.md) dimension. Vous déterminez la valeur la mieux adaptée au contexte de la règle. Par exemple, l’identifiant de bannière publicitaire, le mot-clé de recherche ou la campagne par courrier électronique. |
 
 ## Définitions et ordre des règles de canal marketing {#channel-rules}
 
-Les règles de canal sont traitées dans l’ordre indiqué. Il est recommandé de placer les canaux payants ou gérés en premier (référencement payant, référencement naturel, affichage, e-mail, etc.) afin qu’ils reçoivent du crédit, puis les canaux organiques (domaines directs, internes, référents, etc.).
+Les règles de canal sont traitées dans l’ordre indiqué. Adobe recommande de placer les canaux payants ou gérés en premier (tels que le référencement payant, la recherche naturelle, l’affichage ou le courrier électronique) afin qu’ils reçoivent du crédit sur des canaux organiques (tels que les domaines directs, internes, référents).
 
-Vous trouverez ci-dessous l’ordre recommandé pour les règles de canal, ainsi que des exemples de définitions :
+Vous trouverez ci-dessous l’ordre recommandé pour les règles de canal et les exemples de définitions :
 
 ### Référencement payant {#paid-search}
 
-Une recherche payante est un mot ou une expression pour lequel ou laquelle vous payez un moteur de recherche pour apparaître dans les résultats de la recherche. Ce canal est généralement défini en fonction du paramètre de chaîne de requête (voir l’exemple Affichage de canal) ou des règles de détection de référencement payant. La décision dépend des détails du canal marketing que vous souhaitez enregistrer.
+Une recherche payante est un mot ou une expression pour lequel ou laquelle vous payez un moteur de recherche pour apparaître dans les résultats de la recherche. Ce canal est généralement défini en fonction du paramètre de chaîne de requête (voir l’exemple Affichage de canal) ou des règles de détection de référencement payant.
 
 #### Détection de recherche payante
 
@@ -126,13 +116,13 @@ Pour la règle du canal marketing, les paramètres de la [!UICONTROL recherche p
 
 ![](assets/example_paid_search.png)
 
-Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=fr) dans l’aide destinée à l’administration.
+Voir [Détection de recherche payante](../general/paid-search-detection/paid-search-detection.md) pour plus d’informations.
 
 ### Recherche naturelle   {#natural-search}
 
-Une recherche naturelle est comptabilisée quand les visiteurs trouvent votre site Internet à la suite d’une recherche sur le Web, où le moteur de recherche a classé votre site sans que vous ayez eu à payer pour figurer dans la liste.
+La recherche naturelle est le moment où les visiteurs trouvent votre site web par l’intermédiaire d’un moteur de recherche et où le moteur de recherche classait votre site sans que vous ayez à payer pour figurer dans la liste.
 
-La détection de recherche naturelle n’existe pas dans Analytics. Lorsque vous avez configuré la détection de recherche payante, le système sait que si le référent de recherche n’était pas un référent de recherche payante, il doit s’agir d’un référent de recherche naturelle. Pour plus d’informations, reportez-vous à la section [Détection de recherche payante](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=fr) dans l’aide destinée à l’administration.
+L’Adobe détermine le trafic de recherche en fonction d’une recherche interne des moteurs de recherche. Si un référent correspond aux critères d’un moteur de recherche, il détermine s’il est payant ou naturel en utilisant [Détection de recherche payante](../general/paid-search-detection/paid-search-detection.md) règles que vous avez configurées. Un accès est considéré comme une recherche naturelle lorsqu’il ne correspond à aucune règle de détection de référencement payant.
 
 Pour la règle du canal marketing, les paramètres de la recherche naturelle sont les suivants :
 
@@ -164,7 +154,7 @@ Une bonne pratique consiste à inclure un canal « Autres campagnes » qui sui
 
 ### Réseaux sociaux   {#social-networks}
 
-Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook;. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
+Cette règle identifie les visiteurs provenant d’un réseau social, tel que Facebook. Le canal est souvent renommé Social organique. Les paramètres peuvent être les suivants :
 
 ![](assets/example_social.png)
 
