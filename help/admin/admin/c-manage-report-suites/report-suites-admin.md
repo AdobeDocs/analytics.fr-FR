@@ -3,10 +3,10 @@ description: Une suite de rapports définit les rapports indépendants et comple
 title: Gestionnaire de suites de rapports
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ Accéder à une suite de rapports :
 
 >[!NOTE]
 >
->Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
+>Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à [Documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
 
 ## Descriptions du Gestionnaire de suites de rapports {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

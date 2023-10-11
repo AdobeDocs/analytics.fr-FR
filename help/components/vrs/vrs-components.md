@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
@@ -24,10 +24,10 @@ Voici une vidéo sur le traitement des composants :
 
 Pour activer le traitement des composants,
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]** > **[!UICONTROL Créer une suite de rapport virtuelle]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]** > **[!UICONTROL Créer une suite de rapports virtuelle]**.
 1. Après avoir défini les **[!UICONTROL Paramètres]**, cliquez sur l’onglet **[!UICONTROL Composants]**.
 
-1. Cochez la case **[!UICONTROL Activer la personnalisation des composants de suites de rapports virtuelles]** :
+1. Cochez la case **[!UICONTROL Activation de la personnalisation des composants de suite de rapports virtuelle]**:
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ Pour activer le traitement des composants,
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* API de création de rapports dans Analytics
-
 
    Une fois la case activée, vous pouvez ajouter les composants que vous souhaitez inclure dans la suite de rapports virtuelle en les faisant glisser de la colonne « exclus » vers la colonne « inclus ». Les composants pouvant être inclus et exclus sont les suivants :
 

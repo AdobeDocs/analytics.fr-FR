@@ -1,23 +1,23 @@
 ---
 description: Les suites de rapports virtuelles et le balisage multisuite présentent des avantages différents. Découvrez ce qui est le mieux pour votre entreprise.
-keywords: Suite de rapports virtuelle,VRS
+keywords: Suite de rapports virtuelle
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1766'
+ht-degree: 86%
 
 ---
 
 # Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 
-Les suites de rapports virtuelles vous permettent d’afficher les données d’une suite de rapports qui collecte les données de vos propriétés numériques, mais avec un segment appliqué de façon permanente.
+Les suites de rapports virtuelles vous permettent d’afficher les données d’une suite de rapports qui collecte les données de vos propriétés numériques, mais avec un segment appliqué de manière permanente.
 
 Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/admin/c-server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
 
-Le remplacement d’un balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation Adobe Analytics et de réduire la consommation d’appel au serveur. Cette opération est recommandée comme une bonne pratique. Toutefois, il y a d’importantes limites à prendre en considération pour les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
+Le remplacement du balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre mise en oeuvre Adobe Analytics et de réduire la consommation d’appels au serveur. Cette méthode est recommandée comme une bonne pratique. Toutefois, il existe d’importantes limites à prendre en compte pour les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
 
 ## Instructions
 
@@ -55,13 +55,13 @@ Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans u
 
 >[!TIP]
 >
->Avec l’introduction de la [conservation](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure sur une base de suite de rapports virtuelle.
+>Avec l’introduction de [traitement](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure donnée par suite de rapports virtuelle.
 
 ### Nuances de segmentation
 
 Une suite de rapports virtuelle à un niveau fondamental est simplement un segment appliqué à une suite de rapports. Les dimensions basées sur les visites et les visiteurs peuvent fournir des résultats de rapport non intuitifs.
 
-Par exemple, vous avez deux sites Web, A et B, qui envoient tous deux des données dans une suite de rapports globale. Certains visiteurs passent inévitablement du site A au site B et ce mouvement de l’un à l’autre est visible dans le cheminement de la suite de rapports globale. Si vous créez des suites de rapports virtuelles pour les sites A et B, une visite qui a commencé sur le site A et s’est terminée sur le site B n’afficherait pas de page d’entrée dans la suite de rapports virtuelle B. La page d’entrée de cette visite a commencé sur le site A, qui est segmenté hors de la suite de rapports virtuelle.
+Par exemple, vous avez deux sites Web, A et B, qui envoient tous deux des données dans une suite de rapports globale. Certains visiteurs passent inévitablement du site A au site B et ce mouvement de l’un à l’autre est visible dans le cheminement de la suite de rapports globale. Si vous créez des suites de rapports virtuelles pour les sites A et B, une visite qui a commencé sur le site A et s’est terminée sur le site B n’afficherait pas de page d’entrée dans la suite de rapports virtuelle B. La page d’accès de cette visite a commencé sur le site A, qui est segmenté en dehors de la suite de rapports virtuelle.
 
 ### Conversion des devises
 
@@ -83,7 +83,7 @@ Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreus
 
 ### Sources de données récapitulatives
 
-Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les transferts de sources de données de résumé contiennent des mesures agrégées *sans identifiant visiteur*, ces sources ne peuvent pas être segmentées dans des conteneurs [!UICONTROL Visite] et [!UICONTROL Visiteur]. Étant donné que les suites de rapports virtuelles utilisent la segmentation, les données importées à l’aide de sources de données de résumé ne sont pas disponibles dans ces suites si le segment est créé à l’aide d’un conteneur Visite ou Visiteur.
+Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les chargements de sources de données de résumé contiennent des mesures agrégées *sans identifiant visiteur*, ces sources ne peuvent pas être segmentées dans des conteneurs [!UICONTROL Visite] et [!UICONTROL Visiteur]. La suite de rapports virtuelle utilisant la segmentation, les données importées à l’aide de sources de données récapitulatives ne seront pas disponibles dans les suites de rapports virtuelles si le segment est créé à l’aide d’un conteneur Visite ou Visiteur.
 
 Les sources de données de résumé s’affichent dans la suite de rapports virtuelle si un conteneur Accès est utilisé et si les règles de ce conteneur sont conditionnées pour inclure les informations de la source de données.
 
@@ -91,7 +91,7 @@ Les sources de données de résumé s’affichent dans la suite de rapports virt
 >
 >Les sources de données entièrement traitées prennent en charge la segmentation et peuvent être utilisées dans des suites de rapports virtuelles.
 
-## Étapes à suivre si vous avez choisi d’utiliser des suites de rapports virtuelles
+## Procédure à suivre si vous avez décidé d’utiliser la suite de rapports virtuelle
 
 Si vous optez pour la suppression des appels au serveur secondaire au profit des suites de rapports virtuelles :
 

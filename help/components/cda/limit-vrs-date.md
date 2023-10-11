@@ -1,24 +1,24 @@
 ---
 title: Limitation d’une suite de rapports virtuelle à certaines dates
-description: Apprenez comment limiter la période dʼune suite de rapports virtuelle pour vous concentrer uniquement sur les données assemblées.
+description: Découvrez comment limiter une période de suite de rapports virtuelle pour vous concentrer uniquement sur les données regroupées.
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 82%
+source-wordcount: '275'
+ht-degree: 35%
 
 ---
 
 # Limitation d’une suite de rapports virtuelle à certaines dates
 
-Une fois lʼassemblage activé, il débute à une date précise. Supposons que la date soit le 1er juin. La suite de rapports virtuelle des données dʼattribut du client contiendra des données non assemblées antérieures au 1er juin. Vous pouvez masquer les données de la suite de rapports virtuelle antérieures au 1er juin afin que votre analyse puisse se concentrer sur les périodes postérieures au début de lʼassemblage.
+Une fois lʼassemblage activé, il débute à une date précise. Supposons que la date soit le 1er juin. La suite de rapports virtuelle des analyses entre appareils contiendra des données désassemblées avant le 1er juin. Vous souhaiterez peut-être masquer les données de la suite de rapports virtuelle avant le 1er juin afin que votre analyse puisse se concentrer sur les périodes après le début du groupement.
 
-Vous pouvez limiter les données de la suite de rapports virtuelle à certaines dates en procédant comme suit :
+Vous pouvez limiter les données de la suite de rapports virtuelle à certaines dates en procédant comme suit :
 
-## Étape 1 : créer une suite de rapports virtuelle avec une période mobile quotidienne
+## Étape 1 : création d’une suite de rapports virtuelle avec une période variable quotidienne
 
-Lorsque vous configurez la suite de rapports virtuelle, sous Composants, ajoutez une période dont le début est fixe, avec une période mobile quotidienne. Le début fixe devrait être le jour de début de lʼassemblage.
+Lorsque vous configurez la suite de rapports virtuelle, sous Composants, ajoutez une plage de dates avec un début fixe, avec une plage de dates quotidienne variable. Le début fixe devrait être le jour de début de lʼassemblage.
 
 ![](assets/rolling-daily.png)
 
@@ -30,7 +30,7 @@ La raison de l’exclusion est que les plages de dates sont destinées à rempla
 
 ![](assets/exclude-exclude.png)
 
-## Étape 3 : appliquer ce segment à votre suite de rapports virtuelle des données dʼattribut du client
+## Étape 3 : appliquez ce segment à votre suite de rapports virtuelle Analytics sur l’ensemble des appareils
 
 ![](assets/apply-segment.png)
 

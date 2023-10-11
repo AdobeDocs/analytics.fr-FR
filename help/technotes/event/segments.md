@@ -3,9 +3,9 @@ title: Exclusion de dates spécifiques dans l’analyse
 description: Conseils pour exclure les dates ou plages de dates si vous ne souhaitez pas les inclure dans les rapports.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Event, Segmentation
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -73,12 +73,12 @@ Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un p
 
 ### Utilisation du segment d’exclusion dans une suite de rapports virtuelle {#use-vrs}
 
-Vous pouvez utiliser le segment dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) pour exclure plus facilement les données. Cette option est idéale dans la mesure où vous n’avez pas à vous rappeler d’appliquer le segment pour chaque rapport qui inclut la période affectée. Si vous utilisez déjà des suites de rapports virtuelles comme Principale source de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
+Vous pouvez utiliser le segment dans une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) pour exclure plus facilement les données. Cette option est idéale dans la mesure où vous n’avez pas à vous rappeler d’appliquer le segment pour chaque rapport qui inclut la période affectée. Si vous utilisez déjà des suites de rapports virtuelles comme source principale de données, vous pouvez ajouter le segment à une suite de rapports virtuelle existante.
 
 1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 2. Cliquez sur **[!UICONTROL Ajouter]**.
 3. Saisissez le nom et la description souhaités pour la suite de rapports virtuelle.
-4. Faites glisser le segment d’exclusion vers la zone étiquetée **[!UICONTROL Ajouter un segment]**.
+4. Faites glisser le segment exclu vers la zone étiquetée **[!UICONTROL Ajouter un segment]**.
 5. Cliquez sur **[!UICONTROL Continuer]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-![Segment appliqué à une suite de rapports virtuelle](assets/exclude_segment_vrs.png)
+![Segment appliqué à la suite de rapports virtuelle](assets/exclude_segment_vrs.png)

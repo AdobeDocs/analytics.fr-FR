@@ -3,10 +3,10 @@ description: Découvrez comment mettre en œuvre le balisage multisuite afin dʼ
 title: Implémentation du balisage multisuite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ Le balisage multisuite entraîne plusieurs appels au serveur pour chaque demande
 
 Il est recommandé dʼutiliser les suites de rapports virtuelles au lieu du balisage multisuite, mais ce sont les besoins de votre entreprise qui détermineront la suite de rapports à adopter.
 
-Pour savoir si les suites de rapports virtuelles constituent lʼoption la plus adaptée à vos besoins, consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) ». Consultez également la section « [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) » afin dʼafficher une comparaison des fonctionnalités du balisage multisuite et des suites de rapports virtuelles.
+Pour savoir si les suites de rapports virtuelles constituent lʼoption la plus adaptée à vos besoins, consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) ». Voir aussi &quot;[Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; pour une comparaison du balisage multisuite et de la fonctionnalité des suites de rapports virtuelles.

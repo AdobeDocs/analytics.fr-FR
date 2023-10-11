@@ -3,10 +3,10 @@ description: Description des types de suites de rapports et comparaison des suit
 title: Approches des suites de rapports
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: e8cbf24f6e0c829dadb2a6e7db502d0e8ba1f07f
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '973'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -26,17 +26,17 @@ Vous pouvez fournir des sous-ensembles de données de la suite de rapports globa
 
 * **Balisage multisuite** : le balisage multisuite vous permet d’envoyer des demandes d’image non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles. Les données du rapport global sont dédupliquées dans toutes les suites de rapports.
 
-   Par exemple, vous pouvez collecter toutes les données dans une suite de rapports globale et créer des suites de rapports secondaires en fonction de la marque, de la zone géographique ou d’un autre facteur de différenciation. Les différentes équipes au sein de votre entreprise peuvent alors agir sur les données des suites de rapports qui les intéressent.
+  Par exemple, vous pouvez collecter toutes les données dans une suite de rapports globale et créer des suites de rapports secondaires en fonction de la marque, de la zone géographique ou d’un autre facteur de différenciation. Les différentes équipes au sein de votre entreprise peuvent alors agir sur les données des suites de rapports qui les intéressent.
 
-   Pour utiliser le balisage multisuite, implémentez des suites de rapports enfants et une suite de rapports globale qui inclut toutes les données des enfants. Dans le code de suivi de vos pages web et de vos applications, vous trouverez l’identifiant de suite de rapports (RSID) pour la suite de rapports globale et les RSID pour les suites de rapports enfants applicables.<!-- Wording/be more specific? And include any links? -->
+  Pour utiliser le balisage multisuite, implémentez des suites de rapports enfants et une suite de rapports globale qui inclut toutes les données des enfants. Dans le code de suivi de vos pages web et de vos applications, vous trouverez l’identifiant de suite de rapports (RSID) pour la suite de rapports globale et les RSID pour les suites de rapports enfants applicables.<!-- Wording/be more specific? And include any links? -->
 
-   Un appel serveur distinct est effectué à chaque suite de rapports dans la demande d’image. Les appels aux suites de rapports enfants sont des deuxièmes appels.
+  Un appel serveur distinct est effectué à chaque suite de rapports dans la demande d’image. Les appels aux suites de rapports enfants sont des deuxièmes appels.
 
 * **Suite de rapports virtuelle** : une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) est une demande portant sur des segments spécifiques, collectés dans une suite de rapports globale, et disponible pour des groupes d’utilisateurs choisis. Les suites de rapports virtuelles vous permettent de traiter des éléments de rapport pour différents utilisateurs finaux, sans utiliser le balisage multisuite, ce qui permet d’éviter les deuxièmes appels serveurs.
 
-   Pour utiliser les suites de rapports virtuelles, commencez par implémenter une suite de rapports globale, puis analysez les données afin de créer des suites de rapports virtuelles, en appliquent des segments et des autorisations de groupe spécifiques. Vous pouvez créer des suites de rapports virtuelles dans le Gestionnaire de suites de rapports virtuelles ([!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]). Pour plus dʼinformations, consultez la section « [Worflow Suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) ».
+  Pour utiliser les suites de rapports virtuelles, commencez par implémenter une suite de rapports globale, puis analysez les données afin de créer des suites de rapports virtuelles, en appliquent des segments et des autorisations de groupe spécifiques. Vous pouvez créer des suites de rapports virtuelles dans le gestionnaire de suites de rapports virtuelles ([!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]). Pour plus dʼinformations, consultez la section « [Worflow Suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) ».
 
-L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour consulter en détail les différences entre les suites de rapports virtuelles et la fonctionnalité de balisage multisuite, reportez-vous à la section « [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) ».
+L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour une comparaison détaillée des suites de rapports virtuelles et de la fonctionnalité de balisage multi-suite, voir &quot;[Suites de rapports virtuelles par rapport au balisage multi-suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
 ## Rapports de cumul
 

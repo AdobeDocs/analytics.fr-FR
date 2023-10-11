@@ -4,10 +4,10 @@ description: Obtenez des réponses aux questions les plus fréquentes au sujet d
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: aeb5558c85286c069b49663919fdbb15853bf88e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 63%
+source-wordcount: '1222'
+ht-degree: 61%
 
 ---
 
@@ -146,7 +146,7 @@ Lorsque l’attribution est appliquée à des accès à plusieurs valeurs, toute
 
 L’attribution s’exécute toujours avant la segmentation et la segmentation s’exécute avant l’application des filtres de rapport. Ce concept s’applique également aux suites de rapports virtuelles utilisant des segments.
 
-Par exemple, si vous créez une suite de rapports virtuelle avec un segment « Accès à l’affichage » appliqué, vous pouvez voir d’autres canaux dans un tableau à l’aide de certains modèles d’attribution.
+Par exemple, si vous créez une suite de rapports virtuelle avec un segment &quot;Accès à l’affichage&quot; appliqué, vous pouvez voir d’autres canaux dans un tableau à l’aide de certains modèles d’attribution.
 
 ![Suite de rapports virtuelle, affichage uniquement](assets/vrs-aiq-example.png)
 

@@ -4,10 +4,10 @@ title: Paramètres d’une nouvelle suite de rapports
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -19,7 +19,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
 
 >[!NOTE]
 >
->La [documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) indique comment créer des suites de rapports virtuelles.
+>La variable [Documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) vous indique comment créer des suites de rapports virtuelles.
 
 | Élément | Description |
 | --- | --- |

@@ -3,10 +3,10 @@ title: Configuration des analyses entre appareils
 description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -37,10 +37,10 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 
 1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
-3. Passez la souris sur Composants en haut de l’écran, puis cliquez sur Suites de rapports virtuelles.
+3. Survol **[!UICONTROL Composants]** en haut, puis cliquez sur **[!UICONTROL Suites de rapports virtuelles]**.
 4. Cliquez sur Ajouter.
 5. Saisissez le nom de votre suite de rapports virtuelle et assurez-vous que la suite de rapports compatible avec les analyses entre appareils est sélectionnée.
-6. (Facultatif) Appliquez un segment à la suite de rapports virtuelle. Par exemple, vous pouvez appliquer un segment qui limite la suite de rapports virtuelle aux dates suivant l’activation des analyses entre appareils et le début du regroupement. Ce segment permet aux utilisateurs de voir uniquement les périodes regroupées dans la suite de rapports virtuelle.
+6. (Facultatif) Appliquez un segment à la suite de rapports virtuelle. Par exemple, vous pouvez appliquer un segment qui limite la suite de rapports virtuelle aux dates suivant l’activation des analyses entre appareils et le début du regroupement. Ce segment permet aux utilisateurs de n’afficher que les plages de dates regroupées dans la suite de rapports virtuelle.
 7. Cochez la case « Activer le report de traitement du temps », qui active plusieurs autres options, notamment Analyses entre appareils.
 8. Cochez la case « Visites des utilisateurs agrafés selon les appareils ».
 9. Cliquez sur Continuer, terminez la configuration de la suite de rapports virtuelle, puis cliquez sur Enregistrer.
@@ -51,7 +51,7 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 
 Lorsque les analyses entre appareils sont activées sur une suite de rapports virtuelle, notez les modifications suivantes :
 
-* Une nouvelle icône interpériphérique apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
+* Une nouvelle icône inter-appareil apparaît en regard du nom de la suite de rapports virtuelle. Cette icône est réservée aux suites de rapports virtuelles sur plusieurs appareils.
 * Une nouvelle dimension intitulée [État identifié](../dimensions/identified-state.md) est disponible.
 * De nouvelles mesures appelées [Personnes](../metrics/people.md), [Appareils uniques](../metrics/unique-devices.md), [Personnes identifiées](../metrics/identified-people.md), [Personnes non identifiées](../metrics/unidentified-people.md) et [Personnes disposant d’Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) sont disponibles.
 * La mesure [Visiteurs uniques](../metrics/unique-visitors.md) n’est pas disponible, car elle est remplacée par « Personnes » et « Appareils uniques ».

@@ -3,10 +3,10 @@ title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,9 +59,9 @@ Le rapport d’explorateur d’utilisateurs permet à un analyste d’afficher d
 
 Les données de démographie et d’intérêt fournissent des informations sur l’âge, le sexe et les intérêts des utilisateurs du site. Ces données sont collectées par Google via ses fonctionnalités de suivi inter-sites.
 
-Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Toutefois, si votre organisation obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité d’Adobe Experience Cloud Platform. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
+Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Cependant, si votre entreprise obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité de la plateforme Adobe Experience Cloud. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
 
-Pour plus d’informations, voir l’aide sur les attributs du client.
+Pour plus d’informations, voir l’aide Attributs du client .
 
 ## Géolinguistique
 
@@ -161,7 +161,7 @@ Le rapport Présentation mobile est à peu près équivalent à la dimension **T
 1. Dans le menu Composants, recherchez la dimension **Type d’appareil mobile** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-Pour plus dʼinformations, voir la dimension [Type de périphérique mobile](/help/components/dimensions/mobile-dimensions.md) dans le guide dʼutilisation des composants.
+Pour plus dʼinformations, voir la dimension [Type d’appareil mobile](/help/components/dimensions/mobile-dimensions.md) dans le guide dʼutilisation des composants.
 
 ## Mobile - Appareils
 

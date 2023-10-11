@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Questions fréquentes  pour Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -58,7 +58,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> <p>Une destination Analytics disparaît de la section Mises en correspondance de destinations d’un segment lorsque vous sélectionnez l’option <span class="uicontrol">Mapper automatiquement tous les segments actuels et futurs</span> dans <span class="uicontrol">Mappages des segments</span>. </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>Pour éviter ceci, sélectionnez <span class="uicontrol">Mapper les segments manuellement</span> au lieu de l’option de mappage automatique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Q : Toutes les informations de Adobe Audience Manager seront-elles alors disponibles dans Analytics ?</b> </p> </td> 
+   <td colname="col1"> <p> <b>Q : Toutes les informations de Adobe Audience Manager seront-elles disponibles dans Analytics ?</b> </p> </td> 
    <td colname="col2"> <p>Non, seules les données relatives aux personnes qui consultent votre site pendant ou après l’activation d’audiences Audience Manager et pendant/après la qualification des segments sont incluses. </p> </td> 
   </tr> 
   <tr> 
@@ -105,7 +105,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
    <td colname="col2"> <p>Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est admissible, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, la variable <b>150 segments les plus récemment qualifiés</b> sont envoyées à Analytics, tandis que la liste restante est tronquée. </p> <p>Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience. </p> <p>Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités : </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Option 1</b> : Continuez de laisser l’intégration fonctionner dans sa version prête à l’emploi, qui envoie les 150 segments les plus récemment qualifiés pour un visiteur particulier. </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: Dans Adobe Audience Manager, sélectionnez les 150 segments qui comptent le plus pour votre entreprise pour l’intégration. Adobe Audience Manager vérifie ensuite les visiteurs par rapport à ces 150 segments seulement. Cette approche présente l’inconvénient que vous recevez uniquement ces 150 segments pour tous les visiteurs. En revanche, l’approche de l’option 1 peut fournir un nombre illimité de segments du fait que l’intégration repose sur les accès. </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>Option 2</b>: dans Adobe Audience Manager, sélectionnez les 150 segments qui comptent le plus pour votre entreprise pour l’intégration. Adobe Audience Manager vérifie ensuite les visiteurs par rapport à ces 150 segments seulement. Cette approche présente l’inconvénient que vous recevez uniquement ces 150 segments pour tous les visiteurs. En revanche, l’approche de l’option 1 peut fournir un nombre illimité de segments du fait que l’intégration repose sur les accès. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,11 +142,11 @@ Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redire
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre "audiences" dans Adobe Audience Manager et "segments" dans Analytics ?</b> </p> </td> 
-   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Présentation des segments dans Analytics et Audience Manager </a>. </p> <p>Les audiences Adobe Audience Manager sont envoyées et partagées en tant que composants "dimension" à utiliser dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Présentation des segments dans Analytics et Audience Manager </a>. </p> <p>Les audiences Adobe Audience Manager sont envoyées et partagées en tant que composants de "dimension" à utiliser dans Analytics. Elles n’apparaîtront pas en tant que segments dans le Créateur de segments, mais en tant que dimensions que vous pouvez utiliser pour créer des segments. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Quelle est la différence entre les attributs du client et les données client intégrées à partir de Adobe Audience Manager ?</b> </p> </td> 
-   <td colname="col2"> <p>Les attributs du client ne dépendent pas du temps ; ils s’appliquent de façon rétroactive et par la suite. Les données intégrées à Adobe Audience Manager reposent uniquement sur le temps et ne sont disponibles qu’à l’avenir. En outre, les attributs du client sont un tableau de recherche pour les identifiants visiteur Experience Cloud, tandis que l’intégration de Adobe Audience Manager est un ensemble de données assemblées dans chaque accès pour un visiteur. </p> </td> 
+   <td colname="col2"> <p>Les attributs du client ne sont pas basés sur le temps ; ils s’appliquent rétroactivement et par la suite. Les données intégrées à Adobe Audience Manager reposent uniquement sur le temps et ne sont disponibles qu’à l’avenir. En outre, les attributs du client sont un tableau de recherche pour les identifiants visiteur Experience Cloud, tandis que l’intégration Adobe Audience Manager est une combinaison de données pour chaque accès pour un visiteur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Q : Qu’en est-il des approches héritées en la matière, par exemple, les anciennes destinations bêta ou la consultation des destinations dans les cookies de module externe ?</b> </p> </td> 

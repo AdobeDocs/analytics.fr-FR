@@ -1,16 +1,16 @@
 ---
 description: Questions fréquentes sur Advertising Analytics.
-title: Questions fréquentes sur Advertising Analytics
+title: Questions fréquentes sur les analyses publicitaires
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1419'
+ht-degree: 92%
 
 ---
 
-# Questions fréquentes
+# Questions fréquentes 
 
 ## Accès/Droits {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
@@ -94,8 +94,8 @@ ht-degree: 99%
    <td colname="col2"> <p>R. : Pour pouvoir assigner une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >configurée pour la création de rapports Advertising Analytics </a>. </p> <p>Cette action se fait par le biais d’une page d’administration séparée accessible à partir de : <span class="ignoretag"> <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol">Suites de rapports</span> &gt; <span class="uicontrol">[sélectionner la suite de rapports compatible avec Experience Cloud]</span> &gt; <span class="uicontrol">Modifier les paramètres</span> &gt; <span class="uicontrol">Configuration Advertising Analytics </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Q. : Est-il possible d’assigner une <b>suite de rapports virtuelle</b> (SRV) à un compte Advertising Analytics ? </p> </td> 
-   <td colname="col2"> <p>R. : Les suites de rapports virtuelles ne collectent pas de données, vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper un compte Advertising Analytics à une suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clics/coûts/impressions) peuvent ne pas s’afficher dans la SRV à moins d’inclure une condition « ou » dans la logique des segments basés sur l’AMO ID (ou sa classification). Exemple : ajouter « tous les accès dans lesquels l’AMO ID existe » permet d’inclure les mesures du moteur de recherche dans le segment. </p> </td> 
+   <td colname="col1"> <p>Q : Est-il possible d’affecter une <b>suite de rapports virtuelle</b> vers un compte Advertising Analytics ? </p> </td> 
+   <td colname="col2"> <p>R : Les suites de rapports virtuelles ne collectent pas de données. Vous ne pouvez donc pas mapper directement un compte Advertising Analytics à une suite de rapports virtuelle. </p> <p>Cependant, vous pouvez mapper le compte Advertising Analytics à la suite de rapports parente de la suite de rapports virtuelle dans laquelle vous souhaitez afficher les données. </p> <p>Les mesures du moteur de recherche (clic/coût/impressions) peuvent ne pas s’afficher dans la suite de rapports virtuelle, sauf si vous incluez une condition "ou" dans votre logique de segment en fonction de l’AMO ID (ou de sa classification). Exemple : ajouter « tous les accès dans lesquels l’AMO ID existe » permet d’inclure les mesures du moteur de recherche dans le segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Les mesures Advertising Analytics peuvent-elles être reportées dans un rapport de <b>canaux marketing</b> ? </p> </td> 
@@ -111,7 +111,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : À quel niveau ces données sont-elles capturées ? <b>Visiteur ? Accès ?</b> </p> </td> 
-   <td colname="col2"> <p>R. : Les mesures du moteur de recherche sont capturées au niveau de l’accès et liées à l’AMO ID (et à ses classifications). Ce sont des données de niveau résumé, non liées aux visites/visiteurs. En tant que telles, les mesures du moteur de recherche peuvent être utilisées uniquement dans des segments dont la portée est de niveau accès et qui sont basés sur l’AMO ID (ou ses classifications). </p> <p>L’AMO ID est également capturé sur la page d’entrée dans l’accès à cette page (qui le lie à la visite/au visiteur) et persistera en aval pour créditer d’autres mesures d’Analytics (jusqu’à expiration ou remplacement par un nouvel AMO ID). Il est entièrement intégré au jeu de données comme toute autre eVar. </p> </td> 
+   <td colname="col2"> <p>R. : Les mesures du moteur de recherche sont capturées au niveau de l’accès et liées à l’AMO ID (et à ses classifications). Ce sont des données de niveau résumé, non liées aux visites/visiteurs. En tant que telles, les mesures du moteur de recherche peuvent être utilisées uniquement dans des segments dont la portée est de niveau accès et qui sont basés sur l’AMO ID (ou ses classifications). </p> <p>L’AMO ID est également capturé sur la page de destination dans l’accès à cette page (qui le lie à la visite/au visiteur) et persistera en aval pour créditer d’autres mesures d’Analytics (jusqu’à expiration ou remplacement par un nouvel AMO ID). Il est entièrement intégré au jeu de données comme toute autre eVar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Q. : Est-ce que nous capturons uniquement google.com ou également les <b>versions par pays</b> (comme google.co.uk, google.it, google.fr ou google.de) ? </p> </td> 
@@ -142,7 +142,7 @@ ht-degree: 99%
    <td colname="col1"> <p>Q. : Lors du paramétrage de mon compte Advertising, il est stipulé que le <b>Suivi automatique</b> peut entraîner des conséquences imprévues. Quel genre de conséquences peuvent survenir ? </p> </td> 
    <td colname="col2"> <p>A : 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Le mode automatique tentera d’ajouter les paramètres d’URL à la fin du modèle de suivi ou de l’URL de destination dans un format correct. <b>Cependant, il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée. </b> </li> 
+      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Le mode automatique tentera d’ajouter les paramètres d’URL à la fin du modèle de suivi ou de l’URL de destination dans un format correct. <b>Cependant, il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page de destination. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux. </li> 
      </ul> </p> </td> 
   </tr> 
