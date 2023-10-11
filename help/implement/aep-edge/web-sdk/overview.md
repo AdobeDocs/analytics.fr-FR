@@ -3,10 +3,10 @@ title: Mettre en œuvre Adobe Analytics à l’aide du SDK Web d’Adobe Experie
 description: Utilisez l’extension SDK Web dans la collecte de données Adobe Experience Platform pour envoyer des données à Adobe Analytics.
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -138,8 +138,8 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>8</td>
-<td><b>Itérez, validez et publiez</b> en production. Ajoutez la propriété de balise à votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr">Présentation de la publication</a></td>
+<td><b>Itérez, validez et publiez</b> en production. Incorporez le code pour inclure votre propriété de balise aux pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Code incorporé</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=fr">Présentation de la publication</a></td>
 </tr>
 
 </table>

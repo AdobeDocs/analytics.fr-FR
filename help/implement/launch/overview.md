@@ -3,10 +3,10 @@ title: Implémenter Adobe Analytics à l’aide de l’extension Analytics
 description: Découvrez comment implémenter Adobe Analytics à l’aide de balises et de l’extension Analytics.
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -63,8 +63,8 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>6</td> 
-<td><b>Validez et publiez en production</b>. Ajoutez la propriété de balise à votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="./validate-publish-prod.md">Valider l’implémentation d’un développement et publier en production</a></td>
+<td><b>Validez et publiez en production</b>. Incorporez le code pour inclure votre propriété de balise aux pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validation d’une mise en oeuvre de développement et publication en production</a></td>
 </tr>
 
 </table>
