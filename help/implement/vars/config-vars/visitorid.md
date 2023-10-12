@@ -3,10 +3,10 @@ title: visitorID
 description: Permet d’utiliser un identifiant visiteur personnalisé.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
+source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe utilise plusieurs méthodes différentes pour identifier les visiteurs de 
 >
 >Adobe conseille d’utiliser cette variable. Utilisez plutôt [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 
-## Identifiant visiteur à l’aide de l’extension Adobe Analytics
+## Identifiant visiteur utilisant l’extension Adobe Analytics
 
 L’[!UICONTROL identifiant visiteur] est un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
@@ -44,3 +44,7 @@ s.visitorID = "abc123";
 >[!CAUTION]
 >
 >Une implémentation non valide des identifiants visiteur personnalisés peut se traduire par des données incorrectes et de mauvaises performances en matière de rapports. Si cette variable contient une valeur par défaut (telle que `"0"` ou `"NULL"`), Adobe traite ces accès comme s’il s’agissait du même visiteur. Cette situation génère des données incorrectes, avec un faible nombre de visiteurs et des segments au niveau des visiteurs qui ne fonctionnent pas comme prévu. L’implémentation incorrecte des identifiants visiteur personnalisés entraîne également une charge importante sur les serveurs de traitement, ce qui augmente la [latence](/help/technotes/latency.md) et réduit les performances en matière de rapports.
+
+## Identifiant visiteur utilisant le SDK Web et Experience Edge
+
+Experience Edge vous permet de fournir plusieurs identifiants à l’aide de XDM [Carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Chaque identité d’une carte des identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de [configuration des flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#analytics). Une fois configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.
