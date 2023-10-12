@@ -4,10 +4,10 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ Pour modifier une requête planifiée :
 
 ## Affichage de l’historique d’une requête
 
-Vous pouvez afficher l’historique de tous les rapports qui ont été exécutés.
+Vous pouvez afficher l’historique des demandes de Data Warehouse que vous avez effectuées.
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ Vous pouvez afficher l’historique de tous les rapports qui ont été exécuté
 
 1. Sélectionner [!UICONTROL **Afficher l’historique**].
 
-   La variable [!UICONTROL **Afficher la requête du Data Warehouse**] affiche une liste de diffusions de rapports individuelles.
+   La variable [!UICONTROL **Afficher la requête du Data Warehouse**] affiche la liste des diffusions de rapports individuelles associées à la requête.
+
+   Sélectionnez la variable **Configurer la colonne** icon ![Icône Configurer une colonne](assets/configure-column-icon.png) pour masquer ou afficher les colonnes qui ne sont pas affichées par défaut.
 
    ![Page Historique des requêtes](assets/dw-request-history.png)
+
+   Les colonnes suivantes sont disponibles :
+
+   | Colonne | Description |
+   |---------|----------|
+   | [!UICONTROL **Date de création**] | Date et heure de création du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
+   | [!UICONTROL **Date de début**] | Date et heure de début du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
+   | [!UICONTROL **Date d’achèvement**] | Date et heure auxquelles le rapport s’est terminé.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
+   | [!UICONTROL **Date de mise à jour**] | Date et heure de la dernière mise à jour du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
+   | [!UICONTROL **Statut**] | Statut de la diffusion du rapport. Les statuts possibles sont les suivants :<ul><li>[!UICONTROL **Créé**]: le rapport a été créé mais n’a pas encore été traité.</li><li>[!UICONTROL **En attente**]: le rapport est en attente de traitement.</li><li>[!UICONTROL **Traitement**]: le rapport est en cours de traitement.</li><li>[!UICONTROL **Terminé**]: le rapport est terminé et est désormais disponible.</li><li>[!UICONTROL **Planifié**]: le rapport est planifié mais n’a pas encore commencé.</li><li>[!UICONTROL **Annulé**]: le rapport a été annulé par l’utilisateur.</li><li>[!UICONTROL **Error - Processing**:] Le rapport a rencontré une erreur lors du traitement. Exécutez à nouveau le rapport pour réessayer.</li><li>[!UICONTROL **Erreur - Échec de l’envoi**]: le rapport a été généré avec succès mais n’a pas pu être remis. Vérifiez les [configuration de votre destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), puis renvoyez le rapport.</li></ul>. |
+   | [!UICONTROL **De**] | Date de début de la période globale incluse dans le rapport.<p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
+   | [!UICONTROL **À**] | Date de fin de la période globale incluse dans le rapport. <p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
+   | [!UICONTROL **Identifiant de requête hérité**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
+   | [!UICONTROL **Identifiant de rapport**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse actuelle. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
+
 
 1. Sélectionnez une diffusion de rapport, puis l&#39;une des options suivantes :
 
