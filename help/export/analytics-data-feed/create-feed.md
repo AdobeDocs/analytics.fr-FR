@@ -3,9 +3,9 @@ title: Création d’un flux de données
 description: Découvrez comment créer un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '3175'
+source-wordcount: '3163'
 ht-degree: 20%
 
 ---
@@ -117,9 +117,9 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    +++RBAC Azure
 
-   Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification RBAC. Ce type de destination nécessite un nom de compartiment, un identifiant d’application, un identifiant de tenant et une clé secrète.
+   Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification RBAC. Ce type de destination nécessite un ID d’application, un ID de tenant et un secret.
 
-   Pour configurer un compartiment Azure RBAC comme destination d’un flux de données :
+   Pour configurer un compte Azure RBAC comme destination d’un flux de données :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification, puis accordez des autorisations d’accès dans le contrôle d’accès (IAM).
 
@@ -177,9 +177,9 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    +++SAS Azure
 
-   Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification SAS. Ce type de destination nécessite un nom de compartiment, un ID d’application, un ID de tenant, un URI de coffre-fort, un nom de secret de clé et une clé secrète.
+   Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification SAS. Ce type de destination nécessite un ID d’application, un ID de tenant, un URI de coffre de clé, un nom de secret de coffre de clé et un secret.
 
-   Pour configurer un compartiment Azure SAS comme destination d’un flux de données :
+   Pour configurer Azure SAS comme destination d’un flux de données :
 
    1. Si ce n’est déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification.
 
@@ -210,7 +210,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | Champ | Fonction |
          |---------|----------|
          | [!UICONTROL **Nom du compte**] | Nom du compte Azure SAS. Ce nom s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
-         | [!UICONTROL **Destitution de compte**] | Description du compte Azure SAS. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
+         | [!UICONTROL **Description du compte**] | Description du compte Azure SAS. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **ID d’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **ID de cliente ou client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault afin d’accorder l’autorisation sur l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une stratégie d’accès Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |

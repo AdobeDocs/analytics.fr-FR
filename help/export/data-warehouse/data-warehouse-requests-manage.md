@@ -4,10 +4,10 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ Vous pouvez afficher l’historique de tous les rapports qui ont été exécuté
    ![Gestion d’une requête](assets/dw-manage-request.png)
 
 1. Sélectionner [!UICONTROL **Afficher l’historique**].
+
+   La variable [!UICONTROL **Afficher la requête du Data Warehouse**] affiche une liste de diffusions de rapports individuelles.
+
+   ![Page Historique des requêtes](assets/dw-request-history.png)
+
+1. Sélectionnez une diffusion de rapport, puis l&#39;une des options suivantes :
+
+   | Option | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Détails de la destination**] | Affiche les détails du compte et de l’emplacement associés à la requête. Il s’agit du compte et de l’emplacement qui ont été configurés précédemment, comme décrit à la section [Configuration d’une destination de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Annuler le rapport**] | Annule le rapport. Vous ne pouvez pas annuler les rapports dont l’état est [!UICONTROL **Terminé**] ou [!UICONTROL **Annulé**]. |
+   | [!UICONTROL **Réexécuter le rapport**] | Exécute à nouveau le rapport avec les données telles qu’elles étaient lors de son envoi initial. Vous pouvez réexécuter un rapport dont les états sont les suivants : [!UICONTROL **Annulé**], [!UICONTROL **Terminé**], [!UICONTROL **Error - Processing**], ou [!UICONTROL **Erreur - Échec de l’envoi**]. |
+   | [!UICONTROL **Renvoyer le rapport**] | Renvoie le fichier de rapport qui a été généré précédemment. Vous pouvez renvoyer un rapport dont les états sont les suivants : [!UICONTROL **Terminé**] ou [!UICONTROL **Erreur - Échec de l’envoi**]. |
 
 ## Copie de requêtes
 

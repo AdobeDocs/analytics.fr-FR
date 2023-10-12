@@ -2,9 +2,10 @@
 description: Explique les préparatifs nécessaires à la préparation de la migration des composants et projets d’Adobe Analytics vers Customer Journey Analytics.
 title: Préparation à la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '939'
 ht-degree: 15%
 
 ---
@@ -54,7 +55,9 @@ Les tableaux suivants décrivent les éléments d’un projet et d’un composan
 
 ### Éléments de composant migrés
 
-Les Dimensions et les mesures sont migrées dans le cadre du processus de mappage décrit dans la section [Migration de projets Adobe Analytics vers Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics), tandis que les segments et les plages de dates sont recréés en Customer Journey Analytics en fonction de la variable
+Les Dimensions et les mesures sont migrées dans le cadre du processus de mappage décrit dans la section [Migration de projets Adobe Analytics vers Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Les segments, les périodes et les mesures calculées qui n’existent pas encore dans Customer Journey Analytics y sont recréés en fonction des dimensions et des mesures mises en correspondance.
 
 |  | Migré |
 |---------|---------|
@@ -92,7 +95,7 @@ Les Dimensions et les mesures sont migrées dans le cadre du processus de mappag
 
 ## Comprendre les éléments non pris en charge qui provoquent des erreurs
 
-Les visualisations, panneaux et fonctionnalités suivants ne sont pas pris en charge dans Customer Journey Analytics. Lorsque ces éléments sont inclus dans un projet avant la migration, ils peuvent entraîner l’échec de la migration ou entraîner des erreurs une fois le projet migré.
+Les visualisations et panneaux suivants ne sont pas pris en charge dans Customer Journey Analytics. Lorsque ces éléments sont inclus dans un projet avant la migration, ils peuvent entraîner l’échec de la migration ou entraîner des erreurs une fois le projet migré.
 
 Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet vers Customer Journey Analytics. Si une migration échoue, supprimez ces éléments avant de retenter la migration.
 
@@ -112,11 +115,7 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 
 * [Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### Fonctionnalités non prises en charge
-
 * [Analyse des contributions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [Alertes](/help/components/c-alerts/intellligent-alerts.md)
 
 ## Déterminer en tant qu’organisation comment mapper des composants
 

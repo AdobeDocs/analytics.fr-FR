@@ -3,9 +3,9 @@ description: Description de la procédure de création d’une demande Data Ware
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2304'
 ht-degree: 15%
 
 ---
@@ -254,6 +254,8 @@ Renseignez les informations suivantes lorsque vous renseignez les champs disponi
 
 * [!UICONTROL **Nom d’utilisateur**]: saisissez le nom d’utilisateur pour vous connecter au site SFTP.
 
+* [!UICONTROL **Utilisation d’extensions de fichier temporaires lors du transfert**]: lorsqu’elle est activée, la variable `.part` L’extension de fichier est utilisée pendant le processus de chargement. Laissez cette option activée, sauf si votre serveur SFTP empêche la modification des noms de fichier une fois le transfert terminé.
+
 * [!UICONTROL **Clés publiques**]: téléchargez la clé publique appropriée lors de la création de la destination de l’entrepôt de données.
 
 #### Champs d’emplacement
@@ -263,6 +265,8 @@ Renseignez les informations suivantes lorsque vous renseignez les champs disponi
 * [!UICONTROL **Description de l’emplacement**]: description de l’emplacement sur le compte SFTP.
 
 * [!UICONTROL **Chemin du répertoire**]: chemin d’accès à l’emplacement sur le compte SFTP.
+
+Pour plus d’informations sur la configuration SFTP, voir [Envoi de requêtes de Data Warehouse aux serveurs SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 
