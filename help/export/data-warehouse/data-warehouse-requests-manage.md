@@ -4,9 +4,9 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
+source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1258'
 ht-degree: 13%
 
 ---
@@ -88,7 +88,7 @@ Vous pouvez afficher l’historique des demandes de Data Warehouse que vous avez
    | [!UICONTROL **Date de début**] | Date et heure de début du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
    | [!UICONTROL **Date d’achèvement**] | Date et heure auxquelles le rapport s’est terminé.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
    | [!UICONTROL **Date de mise à jour**] | Date et heure de la dernière mise à jour du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
-   | [!UICONTROL **Statut**] | Statut de la diffusion du rapport. Les statuts possibles sont les suivants :<ul><li>[!UICONTROL **Créé**]: le rapport a été créé mais n’a pas encore été traité.</li><li>[!UICONTROL **En attente**]: le rapport est en attente de traitement.</li><li>[!UICONTROL **Traitement**]: le rapport est en cours de traitement.</li><li>[!UICONTROL **Terminé**]: le rapport est terminé et est désormais disponible.</li><li>[!UICONTROL **Planifié**]: le rapport est planifié mais n’a pas encore commencé.</li><li>[!UICONTROL **Annulé**]: le rapport a été annulé par l’utilisateur.</li><li>[!UICONTROL **Error - Processing**:] Le rapport a rencontré une erreur lors du traitement. Exécutez à nouveau le rapport pour réessayer.</li><li>[!UICONTROL **Erreur - Échec de l’envoi**]: le rapport a été généré avec succès mais n’a pas pu être remis. Vérifiez les [configuration de votre destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), puis renvoyez le rapport.</li></ul>. |
+   | [!UICONTROL **Statut**] | Statut de la diffusion du rapport. Les statuts possibles sont les suivants :<ul><li>[!UICONTROL **Créé**]: le rapport a été créé mais n’a pas encore été traité.</li><li>[!UICONTROL **En attente**]: le rapport est en attente de traitement.</li><li>[!UICONTROL **Traitement**]: le rapport est en cours de traitement.</li><li>[!UICONTROL **Terminé**]: le rapport est terminé et est désormais disponible.</li><li>[!UICONTROL **Planifié**]: le rapport est planifié mais n’a pas encore commencé.</li><li>[!UICONTROL **Annulé**]: le rapport a été annulé par l’utilisateur.</li><li>[!UICONTROL **Error - Processing**:] Le rapport a rencontré une erreur et n’a pas pu être traité.</li><li>[!UICONTROL **Erreur - Échec de l’envoi**]: le rapport a été généré avec succès mais n’a pas pu être remis. Vérifiez les [configuration de votre destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), puis renvoyez le rapport.</li></ul>. |
    | [!UICONTROL **De**] | Date de début de la période globale incluse dans le rapport.<p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
    | [!UICONTROL **À**] | Date de fin de la période globale incluse dans le rapport. <p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
    | [!UICONTROL **Identifiant de requête hérité**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
