@@ -4,10 +4,10 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
+source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 19%
+source-wordcount: '1761'
+ht-degree: 18%
 
 ---
 
@@ -96,31 +96,27 @@ Passez la souris sur le graphique pour afficher les points dans le temps où le 
 
   ![Graphique Utilisateurs distincts](assets/distinct-users-graph.png)
 
-<!--
+#### Graphique des requêtes
 
-#### Requests graph
+Le graphique Demandes indique le nombre de demandes traitées et terminées pour la suite de rapports sélectionnée au cours des deux dernières heures.
 
-The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
+Passez la souris sur le graphique pour afficher les points dans le temps où le nombre maximal de requêtes était le plus élevé pour cette minute.
 
-Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+* **Axe X**: nombre de requêtes traitées et terminées sur la dernière période de 2 heures.
+* **Axe Y**: nombre de requêtes traitées (en violet) et terminées (en vert), par minute.
 
-* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
-* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
+  ![Graphique Utilisateurs distincts](assets/requests-graph.png)
 
-   ![Distinct Users graph](assets/requests-graph.png)
+#### Graphique en file d’attente
 
-#### Queueing graph
+Le graphique de mise en file d’attente affiche le temps d’attente moyen de la file d’attente (en secondes) pour les demandes de création de rapports pour la suite de rapports sélectionnée au cours des deux dernières heures.
 
-The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
+Passez la souris sur le graphique pour afficher les points dans lesquels le temps d’attente moyen maximal était le plus élevé pour cette minute.
 
-Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+* **Axe X**: temps d’attente moyen de la file d’attente pour les demandes de création de rapports sur la dernière période de 2 heures.
+* **Axe Y**: temps d’attente moyen (en secondes).
 
-* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
-* **Y-axis**: The average wait time (in seconds).
-
-   ![Distinct Users graph](assets/queueing-graph.png)
-
--->
+  ![Graphique Utilisateurs distincts](assets/queueing-graph.png)
 
 ### Afficher le tableau {#view-table}
 
