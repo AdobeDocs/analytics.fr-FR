@@ -2,10 +2,10 @@
 description: Découvrez comment utiliser le gestionnaire des activités de rapport pour diagnostiquer et corriger les problèmes de capacité pendant les heures de pointe de la création de rapports.
 title: Gestionnaire des activités de rapport présentation
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ Pour plus d’informations sur l’affichage de l’activité de création de ra
 
 Pour plus d’informations sur l’annulation des demandes de création de rapports dans le Gestionnaire d’activités de création de rapports, voir [Annulation des demandes de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## Questions fréquentes {#faq}
-
-| Question | Réponse |
-| --- | --- |
-| Puis-je acheter de la capacité de création de rapports supplémentaire ? | Cette fonctionnalité sera disponible dans un avenir proche. |
-
-{style="table-layout:auto"}

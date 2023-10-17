@@ -4,10 +4,10 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 18%
+source-wordcount: '1892'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ Pour plus d’informations sur la gestion des activités de création de rapport
 
    Une liste de vos suites de rapports de base activées s’affiche.
 
-   ![file d’attente des rapports](/help/admin/admin/assets/reporting-activity1.png)
+   ![file d’attente des rapports](assets/reporting-activity1.png)
 
 1. (Facultatif) Vous pouvez rechercher ou filtrer la liste des suites de rapports :
 
@@ -44,7 +44,7 @@ Pour plus d’informations sur la gestion des activités de création de rapport
    | Élément de lʼinterface utilisateur | Description |
    | --- | --- |
    | **[!UICONTROL Suite de rapports]** | La suite de rapports de base dont vous surveillez l’activité de création de rapports. |
-   | **[!UICONTROL Suites de rapports virtuelles]** | Affiche toutes les suites de rapports virtuelles qui se trouvent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées dans la suite de rapports de base.<p>Par exemple, si vous avez 10 requêtes provenant de 5 suites de rapports virtuelles, il s’agit de 50 requêtes au niveau de la suite de rapports de base. De cette façon, vous pouvez atteindre la capacité maximale très rapidement. |
+   | **[!UICONTROL Suites de rapports virtuelles]** | Affiche toutes les suites de rapports virtuelles qui se trouvent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées dans la suite de rapports de base. |
    | **[!UICONTROL Utilisation des capacités]** | Pourcentage de la capacité de rapport de la suite de rapports utilisée, en temps réel. <p>**Remarque** Une capacité d’utilisation de 100 % ne suggère pas nécessairement que vous devriez commencer immédiatement à annuler les demandes de création de rapports. La capacité d’utilisation de 100 % peut être saine si le temps d’attente moyen est raisonnable. D’un autre côté, une capacité d’utilisation de 100 % peut suggérer un problème si le nombre de requêtes en file d’attente augmente également.</p> |
    | **[!UICONTROL Requêtes en attente]** | Nombre de demandes en attente de traitement. <!-- ??? --> |
    | **[!UICONTROL Durée de la file d’attente]** | Temps d’attente moyen avant que les requêtes ne commencent à être traitées. <!-- ???? --> |
@@ -61,6 +61,8 @@ Pour plus d’informations sur la gestion des activités de création de rapport
    Les données d’activité de création de rapports s’affichent pour la suite de rapports que vous avez sélectionnée.
 
    <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
+
+1. (Facultatif) Lors du premier chargement d’une connexion dans le Gestionnaire des activités de création de rapports, les données affichées représentent les mesures d’utilisation actuelles. Pour afficher les mesures mises à jour après le chargement initial, sélectionnez la variable [!UICONTROL **Actualiser**] pour actualiser manuellement la page.
 
 1. Utilisez les graphiques et les tableaux disponibles pour comprendre l’activité de création de rapports dans la suite de rapports.
 
@@ -98,12 +100,12 @@ Passez la souris sur le graphique pour afficher les points dans le temps où le 
 
 #### Graphique des requêtes
 
-Le graphique Demandes indique le nombre de demandes traitées et terminées pour la suite de rapports sélectionnée au cours des deux dernières heures.
+Le graphique Demandes indique le nombre de demandes traitées et en file d’attente pour la suite de rapports sélectionnée au cours des deux dernières heures.
 
 Passez la souris sur le graphique pour afficher les points dans le temps où le nombre maximal de requêtes était le plus élevé pour cette minute.
 
 * **Axe X**: nombre de requêtes traitées et terminées sur la dernière période de 2 heures.
-* **Axe Y**: nombre de requêtes traitées (en violet) et terminées (en vert), par minute.
+* **Axe Y**: nombre de requêtes traitées (en vert) et de requêtes mises en file d’attente (en violet), par minute.
 
   ![Graphique Utilisateurs distincts](assets/requests-graph.png)
 
@@ -120,13 +122,19 @@ Passez la souris sur le graphique pour afficher les points dans lesquels le temp
 
 ### Afficher le tableau {#view-table}
 
-Vous pouvez choisir d’afficher les données en sélectionnant l’un des onglets suivants en haut du tableau de données : [!UICONTROL **Requête**], [!UICONTROL **Utilisateur**], [!UICONTROL **Projet**], ou [!UICONTROL **Application**].
+Lors de l’affichage du tableau, tenez compte des points suivants :
 
->[!TIP]
->
->Vous pouvez sélectionner [!UICONTROL **Masquage des graphiques**] pour afficher uniquement le tableau.
+* Vous pouvez choisir d’afficher les données en sélectionnant l’un des onglets suivants en haut du tableau de données : [!UICONTROL **Requête**], [!UICONTROL **Utilisateur**], [!UICONTROL **Projet**], ou [!UICONTROL **Application**].
 
-![onglets de tableau](assets/indiv-report-ste-table-tabs.png)
+* Vous pouvez rechercher ou filtrer la liste des connexions :
+
+   * Utilisez le champ de recherche pour rechercher une connexion spécifique. Commencez à saisir le nom ou l’identifiant de la connexion et la liste des mises à jour de connexion au fur et à mesure que vous tapez.
+
+   * Sélectionnez la variable [!UICONTROL **Filtrer**] icon ![Icône Filtrer](assets/filter-icon.png) pour développer la liste des options de filtrage. Vous pouvez filtrer par [!UICONTROL **État**], [!UICONTROL **Complexité**], [!UICONTROL **Application**], [!UICONTROL **Utilisateur**], ou [!UICONTROL **Projet**].
+
+   * Vous pouvez sélectionner [!UICONTROL **Masquage des graphiques**] pour afficher uniquement le tableau.
+
+![onglets de tableau](assets/report-activity-tabs.png)
 
 #### Afficher les données par requête
 
@@ -134,11 +142,11 @@ Lorsque vous sélectionnez la variable [!UICONTROL **Requête**] , les colonnes 
 
 | Colonne | Description |
 | --- | --- |
-| [!UICONTROL **ID de demande**] | Peut être utilisé à des fins de dépannage. |
+| [!UICONTROL **ID de demande**] | Identifiant unique pouvant être utilisé à des fins de dépannage. Pour copier l’identifiant, sélectionnez la requête, puis l’option , [!UICONTROL **Copier l’ID de requête**]. |
 | [!UICONTROL **Durée d’exécution**] | Durée d’exécution de la requête. |
 | [!UICONTROL **Heure de début**] | Lorsque le traitement de la demande a commencé (en fonction de l’heure locale de l’administrateur). |
 | [!UICONTROL **Temps d’attente**] | Durée pendant laquelle la requête a été en attente avant d’être traitée. Cette valeur est généralement égale à &quot;0&quot; lorsque la capacité est suffisante. |
-| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
+| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li><li>Partager avec n’importe qui lien</li><li>Toute autre application qui interroge le moteur de reporting Analytics</li></ul> |
 | [!UICONTROL **Utilisateur**] | L’utilisateur qui a initié la requête. <p>**Remarque :** Si la valeur de cette colonne est [!UICONTROL **Non reconnu**], cela signifie que l’utilisateur se trouve dans une société de connexion dans laquelle vous ne disposez pas d’autorisations d’administration.</p> |
 | [!UICONTROL **Projet**] | Noms de projets d’espace de travail enregistrés, ID de rapport API, etc. (Les métadonnées peuvent varier d’une application à l’autre.) |
 | [!UICONTROL **Statut**] | Indicateurs de statut : <ul><li>**En cours d’exécution** : la demande est en cours de traitement.</li><li>**En attente** : la demande est en attente de traitement.</li></ul> |
@@ -158,7 +166,7 @@ Lorsque vous sélectionnez la variable [!UICONTROL **Utilisateur**] , les colonn
 | [!UICONTROL **Utilisateur**] | L’utilisateur qui a initié la requête. Si la valeur de cette colonne est [!UICONTROL **Non reconnu**], cela signifie que l’utilisateur se trouve dans une société de connexion dans laquelle vous ne disposez pas d’autorisations d’administration. |
 | [!UICONTROL **Nombre de demandes**] | Nombre de requêtes initiées par l’utilisateur. |
 | [!UICONTROL **Nombre de projets**] | Nombre de projets associés à l’utilisateur. <!-- ??? --> |
-| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
+| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li><li>Partager avec n’importe qui lien</li><li>Toute autre application qui interroge le moteur de reporting Analytics</li></ul> |
 | [!UICONTROL **Complexité moyenne**] | La complexité moyenne des requêtes initiées par l’utilisateur. <p>Toutes les demandes ne nécessitent pas le même temps de traitement. La complexité de la requête peut vous aider à obtenir une idée générale du temps nécessaire au traitement de la requête.</p><p>La valeur de cette colonne est basée sur un score déterminé par les valeurs des colonnes suivantes :</p><ul><li>[!UICONTROL **Limites mensuelles Moy.**]</li><li>[!UICONTROL **Colonnes moy.**]</li><li>[!UICONTROL **Segments moy.**]</li></ul> |
 | [!UICONTROL **Limites mensuelles Moy.**] | Nombre moyen de mois inclus dans les requêtes. Plus de limites de mois ajoute à la complexité de la requête. |
 | [!UICONTROL **Colonnes moy.**] | Nombre moyen de mesures et de ventilations dans les requêtes incluses. Plus de colonnes ajoute à la complexité de la requête. |
@@ -175,7 +183,7 @@ Lorsque vous sélectionnez la variable [!UICONTROL **Projet**] , les colonnes su
 | [!UICONTROL **Projet**] | Projet sur lequel les demandes ont été initiées. |
 | [!UICONTROL **Nombre de demandes**] | Nombre de requêtes associées au projet. |
 | [!UICONTROL **Nombre d’utilisateurs**] | Nombre d’utilisateurs associés au projet. <!-- ??? --> |
-| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li></ul> |
+| [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes intelligentes</li><li>Partager avec n’importe qui lien</li><li>Toute autre application qui interroge le moteur de reporting Analytics</li></ul> |
 | [!UICONTROL **Complexité moyenne**] | La complexité moyenne des demandes incluses dans le projet. <p>Toutes les demandes ne nécessitent pas le même temps de traitement. La complexité de la requête peut vous aider à obtenir une idée générale du temps nécessaire au traitement de la requête.</p><p>La valeur de cette colonne est basée sur un score déterminé par les valeurs des colonnes suivantes :</p><ul><li>[!UICONTROL **Limites mensuelles Moy.**]</li><li>[!UICONTROL **Colonnes moy.**]</li><li>[!UICONTROL **Segments moy.**]</li></ul> |
 | [!UICONTROL **Limites mensuelles Moy.**] | Nombre moyen de mois inclus dans les requêtes. Plus de limites de mois ajoute à la complexité de la requête. |
 | [!UICONTROL **Colonnes moy.**] | Nombre moyen de mesures et de ventilations dans les requêtes incluses. Plus de colonnes ajoute à la complexité de la requête. |
@@ -200,4 +208,14 @@ Lorsque vous sélectionnez la variable [!UICONTROL **Application**] , les colonn
 
 {style="table-layout:auto"}
 
+<!--
 
+## Frequently asked questions {#faq}
+
+| Question | Answer |
+| --- | --- |
+|  |  |
+
+{style="table-layout:auto"}
+
+-->
