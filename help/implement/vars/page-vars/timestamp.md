@@ -3,10 +3,10 @@ title: timestamp
 description: Permet de définir manuellement l’horodatage de l’accès.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 81%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,13 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 
 Horodatage [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `xdm.timestamp`. Ce champ ne prend en charge que l’heure Unix.
 
-## Horodatage à l’aide de l’extension Adobe Analytics
+## Horodatage utilisant l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
 ## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides sont [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix).
+La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides incluent [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix) en secondes.
 
 ```js
 // Timestamp using ISO 8601
@@ -46,7 +46,7 @@ s.timestamp = new Date().toISOString();
 
 ## Valeurs ISO 8601
 
-Les dates et les heures exprimées dans la [norme ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
+Les dates et les heures exprimées dans la [norme ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
 
 * La date et l’heure doivent être précisées, séparées par `T`.
 * Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.
