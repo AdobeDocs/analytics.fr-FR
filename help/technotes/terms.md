@@ -3,10 +3,10 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
 * **Serveur de collecte :** voir Serveur de collecte de données.
+* **Composant :** Les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments et de plages de dates que vous pouvez faire glisser sur un projet. Voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans le guide d’utilisation Analyser.
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
 * **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
