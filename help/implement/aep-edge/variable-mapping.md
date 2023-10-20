@@ -3,7 +3,7 @@ title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `media.mediaTimed.thirdQuartiles.value` | La mesure Media Analytics [Marqueur de progression de 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#seventy-five-progress-marker). |
 | `media.mediaTimed.timePlayed.value` | La mesure Media Analytics [Durée de contenu utilisée](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-time-spent). |
 | `media.mediaTimed.totalTimePlayed.value` | La mesure Media Analytics [Durée des médias utilisée](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-time-spent). |
-| `placeContext.geo.latitude` | La latitude de la dimension mobile. |
-| `placeContext.geo.longitude` | La longitude de la dimension mobile. |
+| `placeContext.geo._schema.latitude` | La latitude de la dimension mobile. |
+| `placeContext.geo._schema.longitude` | La longitude de la dimension mobile. |
 | `placeContext.geo.postalCode` | La dimension [Code postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimension [États américains](../../components/dimensions/us-states.md). |
 | `placeContext.localTime` | Permet de renseigner la variable [Fuseaux horaires](/help/analyze/reports-analytics/reports.md) dans Report &amp; Analytics. Apparaît comme `t_time_info` dans [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
