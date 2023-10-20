@@ -3,10 +3,10 @@ title: Mise en œuvre d’Adobe Analytics
 description: Mettez en œuvre Adobe Analytics sur votre site, propriété ou application.
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
+source-git-commit: b157674adf67fa6ef0f2e75775d0ec888cff3cba
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 83%
+source-wordcount: '850'
+ht-degree: 55%
 
 ---
 
@@ -33,56 +33,41 @@ Adobe Analytics exige du code sur votre site web, votre application mobile ou to
 
 Pour votre **site Web**, les méthodes de mise en œuvre suivantes sont disponibles :
 
-* **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Installez le **Extension SDK Web Adobe Experience Platform** dans la collecte de données Adobe Experience Platform **Balises**, placez un code incorporé (une balise de chargeur JavaScript) sur chaque page, puis envoyez des données à Adobe Experience Platform. **Edge Network** dans un format adapté à votre entreprise. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Ajoutez la variable **Extension SDK Web Adobe Experience Platform** dans la collecte de données Adobe Experience Platform **Balises**, puis placez une balise de chargement sur chaque page. La balise envoie des données à Adobe Experience Platform. **Edge Network**, qui transfère ces données vers Adobe Analytics.
   ![Extension SDK Web](./assets/websdk-extension-implementation.png)
 Voir [Comment mettre en oeuvre Adobe Analytics à l’aide de l’extension SDK Web Adobe Experience Platform.](./aep-edge/overview.md).
 
-* **SDK Web** : si vous ne souhaitez pas utiliser la collecte de données d’Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque du SDK Web (`alloy.js`) sur chaque page et envoyez les appels de suivi de votre choix au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Le réseau Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **SDK Web** : si vous ne souhaitez pas utiliser la collecte de données d’Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque du SDK Web (`alloy.js`) sur chaque page et envoyez les appels de suivi de votre choix au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Le réseau Edge transfère ces données à Adobe Analytics.
   ![SDK Web](./assets/websdk-implementation.png)
 Voir [Comment mettre en oeuvre Adobe Analytics à l’aide du SDK Web de Adobe Experience Platform](./aep-edge/overview.md) pour plus d’informations.
 
-
-* **Extension Analytics** : installez l’**extension Adobe Analytics** dans les **balises** de la collecte de données d’Adobe Experience Platform. Insérez un code incorporé (une balise de chargeur JavaScript) sur chaque page et utilisez l’extension Adobe Analytics pour déterminer la manière dont chaque variable est définie. Utilisez cette méthode d’implémentation si vous souhaitez profiter de la commodité des balises sans utiliser l’infrastructure du réseau Edge.
+* **Extension Analytics**: ajoutez le **Extension Adobe Analytics** dans la collecte de données Adobe Experience Platform **Balises**, puis placez une balise de chargement sur chaque page. La balise envoie directement des données à Adobe Analytics. Utilisez cette méthode d’implémentation si vous souhaitez profiter de la commodité des balises, mais ne souhaitez pas utiliser l’infrastructure réseau Edge.
   ![Extension Adobe Analytics](./assets/analytics-extension-implementation.png)
 Voir [Comment mettre en oeuvre Adobe Analytics à l’aide de l’extension Analytics](launch/overview.md) pour plus d’informations.
 
-* **Code JavaScript hérité** : méthode manuelle historique pour implémenter Adobe Analytics. Référencez la bibliothèque AppMeasurement (`AppMeasurement.js`) sur chaque page, puis définissez les paramètres et variables de contour utilisés dans une implémentation.
+* **Code JavaScript hérité** : méthode manuelle historique pour implémenter Adobe Analytics. Référencez la bibliothèque AppMeasurement (`AppMeasurement.js`) sur chaque page, puis définissez des variables et des paramètres dans JavaScript.
   ![Comment mettre en oeuvre Adobe Analytics à l’aide du code JavaScript hérité](./assets/appmeasurement-implementation.png)
-Cette méthode d’implémentation peut s’avérer utile pour les implémentations utilisant du code personnalisé. Elle est toujours recommandée lorsque vous (souhaitez) utiliser :
+Cette méthode de mise en oeuvre peut s’avérer utile pour les mises en oeuvre qui utilisent du code personnalisé. Elle est idéale pour les types de mise en oeuvre qui ne sont pas proposés ailleurs, tels que pour [Pages AMP](other/amp.md).
 
-   * [données d’Activity Map](../analyze/activity-map/activity-map.md),
-
-     >[!INFO]
-     >
-     >Activity Map est pris en charge à l’aide du dernier SDK Web. Pour plus d’informations, voir la section [Activer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-
-   * [des mesures de médias en continu](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr),
-
-   * [une API LiveStream ou des déclencheurs LiveStream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md).
-
-   * [Suivi des pages AMP](./other/amp.md)
-
-  Voir [Implémentation d’Adobe Analytics avec AppMeasurement pour JavaScript](js/overview.md) pour plus d’informations.
-
-Le flux de décision suivant peut vous aider à sélectionner une méthode d’implémentation :
+Le flux de décision suivant peut vous aider à sélectionner une méthode de mise en oeuvre :
 
 ![Arborescence de décision permettant de sélectionner une méthode de mise en oeuvre, comme décrit dans cette section.](./assets/decision-tree.png)
 
 
 >[!TIP]
 >
->Veuillez contacter Adobe pour obtenir des conseils et connaître les bonnes pratiques sur l’mplémentation à choisir en fonction de votre situation actuelle.
+>Contactez votre équipe de compte d’Adobe pour obtenir des conseils et connaître les bonnes pratiques sur la mise en oeuvre à choisir en fonction de votre situation actuelle.
 
 ## Méthodes d’implémentation des applications mobiles
 
 Pour votre **application mobile**, les méthodes d’implémentation suivantes sont disponibles :
 
-* **Extension SDK mobile** : méthode normalisée et recommandée pour implémenter Adobe Analytics dans votre application mobile. Utilisez des bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile. Installez l’**Extension SDK mobile Adobe Experience Platform** dans les **balises** de la collecte de données d’Adobe Experience Platform et implémentez le code correct dans votre application pour importer des bibliothèques, enregistrer des extensions et charger la configuration de balise. Ceci envoie des données au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Experience Edge transfère les données entrantes vers Adobe Analytics dans le format approprié.
+* **Extension SDK mobile** : méthode normalisée et recommandée pour implémenter Adobe Analytics dans votre application mobile. Utilisez des bibliothèques dédiées pour envoyer facilement des données à Adobe depuis votre application mobile. Ajoutez la variable **Extension SDK Mobile Adobe Experience Platform** dans la collecte de données Adobe Experience Platform **Balises**, puis implémentez la bibliothèque SDK Mobile dans votre application. Vous pouvez utiliser le SDK pour importer des bibliothèques, enregistrer des extensions et charger la configuration des balises. Envoi de données à Adobe Experience Platform **Edge Network**; Edge transfère ensuite ces données à Adobe Analytics.
   ![Extension SDK mobile.](./assets/mobilesdk-extension.png)
 
   Voir [Implémenter Adobe Analytics à l’aide du SDK mobile Adobe Experience Platform](../implement/aep-edge/mobile-sdk/overview.md) pour plus d’informations.
 
-* **Extension Analytics** : installez l’**extension Adobe Analytics** dans les **balises** de la collecte de données d’Adobe Experience Platform, et implémentez le code correct dans votre application pour importer des bibliothèques, enregistrer des extensions et charger la configuration de balise. Utilisez l’extension Analytics pour déterminer comment chaque variable est définie. Utilisez cette méthode d’implémentation si vous souhaitez profiter de la collecte de données d’Adobe Experience Platform sans utiliser l’infrastructure de réseau Edge Experience Platform d’Adobe.
+* **Extension Analytics**: ajoutez le **Extension Adobe Analytics** dans la collecte de données Adobe Experience Platform **Balises**et implémentez la bibliothèque SDK Mobile dans votre application. Vous pouvez utiliser le SDK pour importer des bibliothèques, enregistrer des extensions et charger la configuration des balises. Cette méthode d’implémentation envoie directement des données à Adobe Analytics. Il est recommandé si vous souhaitez profiter de la fonctionnalité de collecte de données Adobe Experience Platform, mais ne souhaitez pas utiliser l’infrastructure réseau Edge Experience Platform d’Adobe.
   ![Extension Analytics](./assets/mobilesdk-analytics-extension.png)
 
   Voir [Implémenter Adobe Analytics à l’aide de l’extension Analytics](../implement/aep-edge/mobile-sdk/overview.md) pour plus d’informations.
@@ -90,7 +75,7 @@ Pour votre **application mobile**, les méthodes d’implémentation suivantes s
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de prise en charge des SDK mobiles version 4](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/).
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de prise en charge des SDK mobiles version 4](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/v4-faq/).
 
 ## Principaux articles sur l’implémentation d’Analytics
 
