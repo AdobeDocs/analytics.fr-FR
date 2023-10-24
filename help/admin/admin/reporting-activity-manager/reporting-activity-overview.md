@@ -2,7 +2,7 @@
 description: Découvrez comment utiliser le gestionnaire des activités de rapport pour diagnostiquer et corriger les problèmes de capacité pendant les heures de pointe de la création de rapports.
 title: Gestionnaire des activités de rapport présentation
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # Présentation d’Activity Manager dans les rapports
-
-{{release-limited-testing}}
 
 La variable [!UICONTROL Gestionnaire des activités de création de rapports] est disponible pour les administrateurs.
 
