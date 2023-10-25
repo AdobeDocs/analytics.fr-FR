@@ -2,9 +2,9 @@
 description: Découvrez comment utiliser le gestionnaire des activités de rapport pour diagnostiquer et corriger les problèmes de capacité pendant les heures de pointe de la création de rapports.
 title: Annulation des demandes de création de rapports dans le Gestionnaire d’activités de création de rapports
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ Tenez compte des points suivants lors de l’annulation de demandes de création
 
 * Vous pouvez annuler des requêtes spécifiques, annuler toutes les requêtes d’un utilisateur spécifique ou annuler toutes les requêtes liées à un projet spécifique.
 
+  Lorsque vous annulez une requête, l’action est enregistrée dans la variable [Journaux](/help/admin/admin/logs.md). La variable [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**] et une description de l’annulation est disponible dans la section [!UICONTROL **Événement**] colonne .
+
 * Lorsque vous annulez des requêtes, vous pouvez également choisir de limiter les requêtes suivantes pour une période donnée.
+
+  Lorsque vous limitez une requête suivante, l’action est enregistrée dans la variable [Journaux](/help/admin/admin/logs.md). La variable [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**] et une description de la restriction est disponible dans la section [!UICONTROL **Événement**] colonne .
 
 * Vous ne pouvez pas annuler une requête si la variable [!UICONTROL **Utilisateur**] la colonne d’une requête s’affiche comme [!UICONTROL **Non reconnu**]. Dans ce cas, cela signifie que l’utilisateur se trouve dans une société de connexion dans laquelle vous ne disposez pas des autorisations d’administration.
 

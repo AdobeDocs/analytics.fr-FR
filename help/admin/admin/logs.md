@@ -3,9 +3,9 @@ description: Fichiers journaux permettant de savoir quand se connectent les util
 title: Journaux
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '603'
 ht-degree: 67%
 
 ---
@@ -41,7 +41,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Aucune catégorie | Peut être n’importe quel type d’événement. |
 | Échec de la connexion | Échec du processus de connexion de l’utilisateur. |
 | Connexion réussie | L’utilisateur s’est connecté correctement. |
-| Action d’administration | Une action d’administrateur s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de la société, la création d’un utilisateur, etc. |
+| Action d’administration | Une action d’administrateur s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de la société, la création d’un utilisateur, l’annulation d’une demande de création de rapports, etc. |
 | Modification des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
 | Rapport consulté | Un rapport Reports &amp; Analytics a été affiché. |
 | Rapport téléchargé | Un rapport Reports &amp; Analytics a été téléchargé. |
@@ -61,7 +61,7 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
-| Projet Workspace | Un projet Workspace a été affiché ou modifié. |
+| Projet Espace de travail | Un projet Workspace a été affiché ou modifié. |
 | Segment | Un segment a été créé/modifié. |
 | Mesure calculée | Une mesure calculée a été créée/modifiée. |
 | Période | Une période a été créée/modifiée. |

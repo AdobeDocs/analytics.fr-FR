@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '5136'
-ht-degree: 97%
+source-wordcount: '5165'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Octobre 2023** | |
+| Ajout d’informations sur le journal au Gestionnaire d’activités de création de rapports | Ajout d’informations relatives à la variable [annulations et restrictions ultérieures de l’activité de reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) dans le Gestionnaire des activités de création de rapports sont capturés dans la variable [Journaux](/help/admin/admin/logs.md). |
 | **Septembre 2023** | |
 | Mise à jour de la structure des articles du panneau Temps de lecture de média | Suppression du dossier Temps de lecture de média et association du contenu du dossier en un seul article : [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Cette modification est davantage conforme à la documentation des autres panneaux.</p> |
 | Amélioration du contenu de la prise en main | Ajout d’informations décrivant les tâches et ressources de prise en main clés pour les administrateurs, les analystes, les utilisateurs finaux et les développeurs. Les nouveaux articles suivants sont désormais disponibles : <ul><li>[Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Cas d’utilisation](/help/analyze/get-started/use-cases.md)</li></ul> |
