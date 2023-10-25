@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
 workflow-type: tm+mt
 source-wordcount: '5136'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Septembre 2023** | |
-| Mise à jour de la structure des articles pour le panneau Temps de lecture multimédia | Suppression du dossier appelé Temps de lecture multimédia et association du contenu du dossier en un seul article : [Panneau Durée de lecture du média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Cette modification est plus conforme à la documentation des autres panneaux.</p> |
+| Mise à jour de la structure des articles du panneau Temps de lecture de média | Suppression du dossier Temps de lecture de média et association du contenu du dossier en un seul article : [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Cette modification est davantage conforme à la documentation des autres panneaux.</p> |
 | Amélioration du contenu de la prise en main | Ajout d’informations décrivant les tâches et ressources de prise en main clés pour les administrateurs, les analystes, les utilisateurs finaux et les développeurs. Les nouveaux articles suivants sont désormais disponibles : <ul><li>[Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Cas d’utilisation](/help/analyze/get-started/use-cases.md)</li></ul> |
 | Améliorations de la documentation sur les rapports Media Analytics | Réorganisation d’une partie du contenu dans la section Création de rapports du guide Média en flux continu, notamment la consolidation de la documentation de l’API dans sa propre section et l’ajustement de l’ordre de certains articles. <p>L’article Modèles Media Workspace a été renommé [Rapports multimédia dans Workspace](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=fr) pour mieux s’aligner sur le nommage interne au produit. </p> |
 | **Août 2023** | |
