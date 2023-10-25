@@ -4,9 +4,9 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >Si votre entreprise ne dispose pas encore de la nouvelle expérience de Data Warehouse, qui sera disponible prochainement pour tous les clients, utilisez les informations de la section [Gestion des requêtes de Data Warehouse (ancienne expérience)](#manage-data-warehouse-requests-old-experience) au bas de cette page.
 
 
-Vous pouvez afficher et gérer les demandes de Data Warehouse que vous avez effectuées. Seuls les administrateurs peuvent afficher et gérer les requêtes effectuées par d’autres utilisateurs de l’entreprise pour lesquels ils disposent de droits d’administration.
+Vous pouvez afficher et gérer les demandes de Data Warehouse que vous avez effectuées. Seuls les administrateurs peuvent afficher et gérer les requêtes effectuées par d’autres utilisateurs de leur entreprise.
 
 Les sections suivantes décrivent les activités que vous pouvez effectuer lors de la gestion des requêtes.
 
@@ -47,6 +47,8 @@ Tenez compte des points suivants lors de la modification de requêtes :
 * Seules les requêtes configurées pour s’exécuter selon un calendrier peuvent être modifiées.
 
 * Tous les champs associés à la requête ne peuvent pas être modifiés. Les champs qui ne peuvent pas être modifiés sont grisés.
+
+* Les administrateurs qui modifient la requête d’un autre utilisateur doivent choisir un nouveau compte et un nouvel emplacement auxquels ils peuvent accéder.
 
 Pour modifier une requête planifiée :
 
@@ -93,7 +95,7 @@ Vous pouvez afficher l’historique des demandes de Data Warehouse que vous avez
    | [!UICONTROL **Statut**] | Statut de la diffusion du rapport. Les statuts possibles sont les suivants :<ul><li>[!UICONTROL **Créé**]: le rapport a été créé mais n’a pas encore été traité.</li><li>[!UICONTROL **En attente**]: le rapport est en attente de traitement.</li><li>[!UICONTROL **Traitement**]: le rapport est en cours de traitement.</li><li>[!UICONTROL **Terminé**]: le rapport est terminé et est désormais disponible.</li><li>[!UICONTROL **Planifié**]: le rapport est planifié mais n’a pas encore commencé.</li><li>[!UICONTROL **Annulé**]: le rapport a été annulé par l’utilisateur.</li><li>[!UICONTROL **Error - Processing**:] Le rapport a rencontré une erreur et n’a pas pu être traité.</li><li>[!UICONTROL **Erreur - Échec de l’envoi**]: le rapport a été généré avec succès mais n’a pas pu être remis. Vérifiez les [configuration de votre destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), puis renvoyez le rapport.</li></ul>. |
    | [!UICONTROL **De**] | Date de début de la période globale incluse dans le rapport.<p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
    | [!UICONTROL **À**] | Date de fin de la période globale incluse dans le rapport. <p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
-   | [!UICONTROL **Identifiant de requête hérité**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
+   | [!UICONTROL **ID de la demande héritée**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
    | [!UICONTROL **Identifiant de rapport**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse actuelle. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
 
 
