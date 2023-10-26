@@ -3,9 +3,10 @@ description: Configuration du compte d’importation dans le cloud et de l’emp
 keywords: Analysis Workspace
 title: Configuration des comptes d’importation dans le cloud
 feature: Classifications
-source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
+exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
+source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '901'
 ht-degree: 5%
 
 ---
@@ -32,14 +33,13 @@ Pour configurer un compte d’importation dans le cloud :
 
    Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné.
 
-   +++Amazon S3 Role ARN
+   +++Amazon S3 Role ARN
 
    Indiquez les informations suivantes pour configurer un compte RGPD de rôle Amazon S3 :
 
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **ARN du rôle**] | Vous devez fournir un Rôle ARN (nom de ressource Amazon) que l’Adobe peut utiliser pour accéder au compte Amazon S3. Pour ce faire, vous créez une stratégie d’autorisation IAM pour le compte source, vous la joignez à un utilisateur, puis vous créez un rôle pour le compte de destination. Pour plus d’informations, voir [cette documentation AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-   | [!UICONTROL **ARN de l’utilisateur ou de l’utilisatrice**] | Le User ARN (nom de ressource Amazon) est fourni par Adobe. Vous devez associer cet utilisateur à la stratégie que vous avez créée. |
 
    {style="table-layout:auto"}
 
@@ -90,4 +90,3 @@ Pour configurer un compte d’importation dans le cloud :
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
 1. Passez à la [Configuration des emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md).
-
