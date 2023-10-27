@@ -3,10 +3,10 @@ title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -34,5 +34,5 @@ Pour résoudre ce problème, Adobe conseille de travailler avec l’équipe info
 
 Vous trouverez des informations sur les serveurs proxy et les en-têtes d’authentification à l’adresse suivante :
 
-* [Configurer l’authentification du proxy amont dans un déploiement de chaînes de proxy sur un appareil ProxySG ou ASG](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [Configurer l’authentification du proxy amont dans un déploiement de chaînes de proxy sur un appareil ProxySG ou ASG](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [Comment transférer les informations dʼidentification utilisateur à un serveur situé derrière lʼappliance ProxySG](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
