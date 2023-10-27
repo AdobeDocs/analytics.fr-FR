@@ -3,7 +3,7 @@ description: Comment télécharger des fichiers de données via FTP.
 title: Importation FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 80%
@@ -18,7 +18,7 @@ ht-degree: 80%
 >
 >Le protocole FTP n’est pas recommandé car il s’agit d’une méthode de partage de fichiers non chiffrée, ce qui signifie que tout le monde peut intercepter le contenu du fichier ainsi que le nom d’utilisateur et le mot de passe utilisés pour le compte.
 >
->Configurez plutôt un compte cloud comme décrit à la section [Configuration des emplacements d’importation dans le cloud](/help/components/locations/configure-import-accounts.md).
+>Configurez plutôt un compte cloud comme décrit à la section [Configuration des comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md).
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 

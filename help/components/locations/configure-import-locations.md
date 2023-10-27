@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuration des emplacements d’importation dans le cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ Pour configurer un emplacement d’importation dans le cloud :
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer des données dans le compte et l’emplacement que vous avez configurés.
+   Vous pouvez désormais importer les données du compte et de l’emplacement que vous avez configurés.
+
+   Les données ne sont pas supprimées de la destination cloud après leur importation.
+
+   >[!NOTE]
+   >
+   >   Si vous avez précédemment utilisé [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) dans Adobe Analytics, vous devez télécharger un fichier FIN. Ce fichier FIN n’est pas nécessaire lors de l’importation à partir de comptes cloud.
+
