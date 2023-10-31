@@ -4,9 +4,9 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ Pour plus d’informations sur la gestion des activités de création de rapport
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. Affichez les informations sur l’utilisation de chaque suite de rapports. Vous pouvez sélectionner un en-tête de colonne pour trier le tableau en fonction de cette colonne.
+1. Affichez les informations sur l’utilisation de chaque suite de rapports. Les données affichées dans le tableau représentent l’activité de création de rapports pour la suite de rapports au moment du dernier chargement de la page.
 
    Les colonnes suivantes sont disponibles :
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur la gestion des activités de création de rapport
    | **[!UICONTROL Utilisation des capacités]** | Pourcentage de la capacité de rapport de la suite de rapports utilisée, en temps réel. <p>**Remarque** Une capacité d’utilisation de 100 % ne suggère pas nécessairement que vous devriez commencer immédiatement à annuler les demandes de création de rapports. La capacité d’utilisation de 100 % peut être saine si le temps d’attente moyen est raisonnable. D’un autre côté, une capacité d’utilisation de 100 % peut suggérer un problème si le nombre de requêtes en file d’attente augmente également.</p> |
    | **[!UICONTROL Requêtes en attente]** | Nombre de demandes en attente de traitement. <!-- ??? --> |
    | **[!UICONTROL Durée de la file d’attente]** | Temps d’attente moyen avant que les requêtes ne commencent à être traitées. <!-- ???? --> |
-   | **[!UICONTROL Statut]** | Les états possibles sont les suivants : <ul><li>[!UICONTROL **Actif**] (bleu) : les rapports ont été exécutés sur la suite de rapports et leur activité est surveillée.</li><li>[!UICONTROL **Inactif**] (gris) : aucun rapport n’a jamais été exécuté sur la suite de rapports. Cet état s’affiche uniquement lors de la création des suites de rapports.</li></ul> |
+   | **[!UICONTROL Statut]** | Les états possibles sont les suivants : <ul><li>[!UICONTROL **Actif**] (bleu) : les rapports ont été exécutés sur la suite de rapports au cours des deux dernières heures. Les données affichées dans le tableau représentent la capacité de création de rapports de la suite de rapports au moment du dernier chargement de la page.</li><li>[!UICONTROL **Inactif**] (gris) : aucun rapport n’a été exécuté sur la suite de rapports au cours des deux dernières heures. Aucune donnée n’est donc affichée pour la suite de rapports.</li></ul> |
 
    {style="table-layout:auto"}
 
