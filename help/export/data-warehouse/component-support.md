@@ -3,10 +3,10 @@ title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
 
 ### Dimensions non prises en charge
 
-* Certaines dimensions temporelles, notamment :
-   * Matin/après-midi
-   * Jour du mois
-   * Jour de la semaine
-   * Jour de l’année
-   * Heure du jour
-   * Minute
-   * Mois de l’année
-   * Trimestre de l’année
-   * Jour ouvrable/week-end
-   * Année
+* Matin/après-midi
 * Certaines dimensions basées sur le cheminement, notamment :
    * Toutes les dimensions d’entrée, à l’exception de la page d’accès
    * Toutes les dimensions de sortie, à l’exception des pages de sortie et des liens de sortie
@@ -59,7 +49,6 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Durée avant événement
    * Durée de consultation de la page – Regroupement
    * Durée par visite – Regroupement
-   * Profondeur de visite
 * Classement de toutes les pages de recherche
 * Variables de hiérarchie
 * Type d’accès
@@ -78,4 +67,16 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Actualisations
    * Accès unique
    * Mesures de « durée de la visite »
+* Mesures de participation (comme décrit dans [Création d’une mesure &quot;Participation&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### Dimensions prises en charge différemment
+
+Les dimensions temporelles suivantes sont prises en charge. Toutefois, la sortie des dates n’est pas standard lors de l’utilisation de ces dimensions. Plus précisément, l&#39;année est compensée par 1900, et les mois sont de base zéro.
+
+* Année
+* Trimestre
+* Mois
+* Semaine
+* Jour
+* Heure 
+* Minute
