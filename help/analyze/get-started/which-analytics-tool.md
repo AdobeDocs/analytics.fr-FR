@@ -4,9 +4,9 @@ title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1227'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 
 * L’API d’insertion de données et l’API d’insertion de données en bloc sont deux méthodes d’envoi de données de collecte côté serveur à Adobe Analytics. Les appels de l’API d’insertion de données sont effectués un événement à la fois. L’API d’insertion de données en bloc accepte les fichiers au format CSV contenant des données d’événement, un événement par ligne. Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d’utiliser l’API d’insertion de données en bloc.
 
-**[Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr)** doit être utilisé :
+**[Les attributs client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr)** doivent être utilisés :
 
 * Si vous capturez les données des clients d’une entreprise dans une base de données de gestion de la relation client et que vous souhaitez charger ces informations dans Experience Cloud.
 * Si vous souhaitez utiliser les données de gestion de la relation client pour une analyse plus approfondie dans Analytics ou comme critère de ciblage dans Adobe Target.
