@@ -4,9 +4,9 @@ title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -37,5 +37,5 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Qu
 | **Traitement** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/curate.md) | Oui - Projet et suite de rapports virtuelle | Non | Non | Non | Non | Non | Oui - Suite de rapports virtuelle uniquement |
 | **Partage des projets** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Oui, avec des rôles de projet | Oui | Oui | Non | Oui | Non | Non |
 | **Livraison planifiée** | Oui | Oui | Oui | Oui | Non | Oui | Non |
-| **Destinations des diffusions** | Courriel | Courriel | Courriel, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC et Email | - | Amazon S3, Azure RBAC, Azure SAS et Google Cloud Platform | - |
-| **Traitement de la période de rapport des suites de rapports virtuelles** <br> [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) | Oui | Non | Non | Non | Non | Non | Oui |
+| **Destinations des diffusions** | Courriel | Courriel | Courriel, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC et E-mail | - | Amazon S3, Azure RBAC, Azure SAS et Google Cloud Platform | - |
+| **Traitement de la période de rapport de la suite de rapports virtuelle** <br> [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) | Oui | Non | Non | Non | Non | Non | Oui |
