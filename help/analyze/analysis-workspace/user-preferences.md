@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3156'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -73,8 +73,8 @@ Cliquez sur les titres des préférences liées pour plus d’informations et de
 | --- | --- | --- |
 | **Afficher** | | |
 |  | [Afficher la densité](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) | Sélectionnez le contenu à afficher à l’écran en réduisant l’espacement vertical du rail de gauche, des tableaux à structure libre et des tableaux de cohortes. <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
-| | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | Sélectionnez les palettes de couleurs de visualisation utilisées dans Analysis Workspace.<ul><li>**Palette Catégorie**: appliqué à de nombreuses visualisations dans Analysis Workspace. Chaque couleur représente une valeur catégorique distincte. Choisissez parmi les options fournies par l’Adobe ou saisissez une palette personnalisée définie par des valeurs hexadécimales délimitées par des virgules.</li><li>**Divergent, palette**: appliqué au tableau de cohortes dans Analysis Workspace. Cette palette a une signification numérique, avec deux extrêmes et une ligne de base au milieu.</li><li>**Palette séquentielle**: appliqué à l’analyse guidée Tendances de fréquence (barre empilée). Cette palette a une signification numérique allant de la lumière au foncé.</li></ul> |
-| **Data** (Données) | | |
+| | [Palette de couleurs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr) | Sélectionnez les palettes de couleurs de visualisation utilisées dans Analysis Workspace.<ul><li>**Palette catégorielle** : appliquée à de nombreuses visualisations dans Analysis Workspace. Chaque couleur représente une valeur catégorielle distincte. Choisissez parmi les options fournies par Adobe ou saisissez une palette personnalisée définie par des valeurs hexadécimales délimitées par des virgules.</li><li>**Palette divergente** : appliquée à la table de cohorte dans Analysis Workspace. Cette palette a une signification numérique, avec deux extrêmes et une ligne de base au milieu.</li><li>**Palette séquentielle** : appliquée à l’analyse guidée Tendances de fréquence (barre empilée). Cette palette a une signification numérique allant du clair au foncé.</li></ul> |
+| **Données** | | |
 |  | [Suite de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr#report-suite) | Choisissez l’emplacement où les tableaux et les visualisations obtiennent leurs données. <ul><li>La plus récente (par défaut)</li><li>Suite de rapports spécifique sélectionnée dans une liste</li></ul> |
 |  | [Calendrier](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr#calendar) | Effectuez une sélection dans une liste de : <ul><li>Plages fournies par Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
 |  | [Type de panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) | <ul><li>À structure libre (par défaut)</li><li>Vide</li><li>Quick Insights</li></ul> |
@@ -112,11 +112,11 @@ Cliquez sur les titres des sections liées pour plus d’informations et de cont
 | **[Ligne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | Répartition par position | Sélectionnez cette option si vous souhaitez que la répartition conserve la position de l’élément plutôt que l’élément lui-même. Pour plus d’informations sur les répartitions, consultez [Répartition des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Calcul du pourcentage | <ul><li>Colonne</li><li>Ligne</li></ul> |
-| | Totaux des colonnes (lignes statiques uniquement) | <ul><li>Afficher la somme des lignes : affiche la somme des éléments de ligne individuels. </li><li>Afficher le total général : affiche la somme dédupliquée des lignes.</li></ul> |
+| | Totaux des colonnes (lignes statiques uniquement) | <ul><li>Afficher la somme des lignes : affiche la somme des éléments de ligne individuels. </li><li>Afficher le total général : affiche la somme dédupliquée des lignes.</li></ul> |
 
 ## Préférences de visualisation
 
-Vous pouvez mettre à jour les préférences de visualisation pour tous les nouveaux projets que vous créez dans Analysis Workspace. Pour plus d’informations sur l’accès à ces préférences, consultez [Préférences de mise à jour](#update-preferences).
+Vous pouvez mettre à jour les préférences de visualisation pour tous les nouveaux projets que vous créez dans Analysis Workspace. Pour plus d’informations sur l’accès à ces préférences, consultez [Préférences de mise à jour](#update-preferences).
 
 Certaines de ces préférences peuvent également être personnalisées pour des visualisations individuelles.
 
