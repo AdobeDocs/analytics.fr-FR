@@ -5,9 +5,9 @@ title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 80%
 
 Adobe Analytics permet aux organisations de collecter des données et d’obtenir des informations exploitables à partir de n’importe quelle interaction numérique avec un client ou une cliente. Grâce à une analyse approfondie, à des rapports polyvalents et à des renseignements prédictifs, les organisations disposent des bases intelligentes dont elles ont besoin pour créer une meilleure expérience pour leur clientèle.
 
-## Commencer avec Adobe Analytics
+## Prise en main d’Adobe Analytics
 
-Utilisez les ressources suivantes pour découvrir les principes de base d’Adobe Analytics :
+Utilisez les ressources suivantes pour découvrir les principes de base d’Adobe Analytics :
 
 
-| Ressource de documentation | Fonction |
+| Ressource documentaire | Fonction |
 |---------|----------|
-| [Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md) | Fournit des informations détaillées expliquant les fonctions et tâches clés que vous devez connaître, que vous soyez administrateur, analyste, utilisateur final ou développeur. |
-| [Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md) | Décrit les principaux domaines de l’interface d’Analytics. |
-| [Cas d’utilisation](/help/analyze/get-started/use-cases.md) | Explique quelques-unes des principales manières dont Adobe Analytics aide les entreprises à obtenir des informations essentielles pour mieux servir leurs clients. |
+| [Prise en main (par rôle)](/help/analyze/get-started/get-started-by-role.md) | Fournit des informations détaillées expliquant les fonctions et tâches clés que vous devez connaître, que vous soyez administrateur ou administratrice, analyste, utilisateur final ou utilisatrice finale, ou encore développeur ou développeuse. |
+| [Présentation de l’interface Analytics](/help/analyze/get-started/analytics-interface.md) | Décrit les principales zones de l’interface d’Analytics. |
+| [Cas d’utilisation](/help/analyze/get-started/use-cases.md) | Explique quelques-uns des moyens clés par lesquels Adobe Analytics aide les organisations à obtenir des informations essentielles pour mieux servir leur clientèle. |
 | [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md) | Contient des cas d’utilisation recommandés pour chaque outil Adobe Analytics. |
-| [Configuration requise et comparaison des produits Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Compare les différents produits Adobe Analytics disponibles. |
-| [Configuration système requise](/help/analyze/get-started/sys-reqs.md) | Explique les conditions préalables et la configuration système requise pour la mise en oeuvre et l’utilisation d’Adobe Analytics. |
+| [Configuration requise et comparaison des produits Analytics](/help/analyze/get-started/analytics-product-comparison.md) | Compare les différents produits Adobe Analytics disponibles. |
+| [Configuration requise](/help/analyze/get-started/sys-reqs.md) | Explique les conditions préalables et la configuration requise pour la mise en œuvre et l’utilisation d’Adobe Analytics. |
 
 ## Vue d’ensemble en vidéo
 
