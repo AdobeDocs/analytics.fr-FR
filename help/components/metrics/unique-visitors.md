@@ -1,18 +1,18 @@
 ---
 title: Visiteurs uniques
-description: Nombre d’identifiants de visiteur uniques.
+description: Nombre d’ID de visiteur ou de visiteuse uniques.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '556'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Visiteurs uniques
+# Visiteurs ou visiteuses uniques
 
-&quot;Visiteurs uniques&quot; [metric](overview.md) indique le nombre d’identifiants visiteur pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car elle fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
+La [mesure](overview.md) « Visiteurs ou visiteuses uniques » indique le nombre d’identifiants de visiteurs et visiteuses pour l’élément de dimension. Il s’agit de l’une des mesures les plus courantes utilisées pour déterminer le trafic, car elle fournit un aperçu général de la popularité d’un élément de dimension. Par exemple, un visiteur peut venir sur votre site tous les jours pendant un mois et, néanmoins, ne représenter qu’un visiteur unique.
 
 Si vous utilisez l’[analyse entre appareils](../cda/overview.md), cette mesure est remplacée par la mesure [Appareils uniques](unique-devices.md).
 
