@@ -1,15 +1,16 @@
 ---
 name: Mobile lifecycle metrics
-description: Mesures basées sur les données collectées à l’aide du SDK Mobile.
+description: Mesures basées sur les données collectées à l’aide du SDK Mobile.
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
-# Mesures de cycle de vie mobile
+# Mesures du cycle de vie mobile
 
 | Nom de la mesure du cycle de vie | Description | Variable de données contextuelles |
 | --- | --- | --- |
