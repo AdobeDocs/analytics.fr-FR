@@ -2,10 +2,11 @@
 description: Consultez et gérez les rapports planifiés de l’ensemble de l’organisation.
 title: Gestionnaire de projets planifiés
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: tm+mt
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -13,19 +14,19 @@ ht-degree: 86%
 
 Les projets Analysis Workspace planifiés peuvent être gérés sous **Analytics > Composants > Projets planifiés**.
 
-Lorsque vous gérez des projets planifiés, vous pouvez modifier et supprimer des plannings de projet récurrents :
+Si vous gérez des projets planifiés, vous pouvez modifier et supprimer les plannings de projets récurrents.
 
-* Modification du type de fichier (.csv ou PDF)
-* Mise à jour de la description du projet
+* Modifier le type de fichier (CSV ou PDF)
+* Mettre à jour de la description du projet
 * Ajouter ou supprimer des destinataires
-* Modification de la fréquence
+* Modifier la fréquence
 
-Modification d’un projet planifié
+Pour modifier un projet planifié
 
-1. Sélectionner **Analytics > Composants > Projets planifiés**.
+1. Sélectionnez **Analytics > Composants > Projets planifiés**.
 1. Utilisez la barre de recherche ou les options de filtre dans le rail de gauche pour rechercher un planning. Vous pouvez filtrer par [!UICONTROL Balises], [!UICONTROL Propriétaires], [!UICONTROL Favoris], etc.
 
-![Capture d’écran montrant la liste des projets planifiés avec la colonne indiquant le titre, le propriétaire, les balises, remis à et d’autres colonnes décrites dans la section Colonnes disponibles .](assets/scheduled-project-manager2.png)
+![Capture d’écran montrant la liste des projets planifiés avec la colonne indiquant le titre, le ou la propriétaire, les balises, la remise et d’autres colonnes décrites dans la section Colonnes disponibles.](assets/scheduled-project-manager2.png)
 
 ## Colonnes disponibles
 
