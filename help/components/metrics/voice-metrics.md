@@ -1,20 +1,21 @@
 ---
-title: Mesures d’analyse de voix
-description: Mesures d’analyse de voix
+title: Mesures d’analyse vocale
+description: Mesures d’analyse vocale
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+exl-id: 3c1b4e4e-d8d2-446f-9582-a2ce5580a8d3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '25'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# Mesures d’analyse de voix
+# Mesures d’analyse vocale
 
 | Nom de la mesure | Description | Variable de données contextuelles |
 | --- | --- | --- |
-| Témoignages vocaux | | À confirmer |
-| Session de fin de voix | | À confirmer |
-| Erreur de voix | | À confirmer |
+| Énoncés vocaux | | À confirmer |
+| Fin de session vocale | | À confirmer |
+| Erreur vocale | | À confirmer |
 
 {style="table-layout:auto"}
