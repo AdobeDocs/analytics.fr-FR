@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -196,7 +196,7 @@ Nouvelles fonctionnalités et améliorations au 1er novembre 2018.
 
 | Fonctionnalité | Description |
 |--- |--- |
-| [Traitement des projets et des suites de rapports virtuelles - améliorations](/help/analyze/analysis-workspace/curate-share/curate.md) | Ces améliorations ont en fait été introduites en octobre 2018. Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. <br> Auparavant, les composants non traités étaient visibles par tous en cliquant sur Afficher tous les composants. La mise à jour de l’expérience de traitement permet de mieux contrôler les composants visibles.</br> |
+| [Traitement des projets et des suites de rapports virtuelles - améliorations](/help/analyze/analysis-workspace/curate-share/curate.md) | Ces améliorations ont en fait été apportées en octobre 2018. Des modifications ont été apportées quant aux composants visibles aux personnes administratrices et non administratrices dans les suites de rapports virtuelles et les projets Workspace traités. <br> Auparavant, les composants non traités étaient visibles par tous en cliquant sur Afficher tous les composants. La mise à jour de l’expérience de traitement permet de mieux contrôler les composants visibles.</br> |
 
 ## Octobre 2018
 
