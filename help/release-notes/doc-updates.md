@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
 source-wordcount: '5296'
 ht-degree: 96%
@@ -68,7 +68,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Segments de projet (segments ad hoc et rapides) | Documentation rationalisée sur les segments de projet et suppression des informations dupliquées. Les étapes de création de segments ad hoc sont désormais combinées avec les étapes pour [création de segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Recherches dynamiques | Ajout d’informations supplémentaires sur les [recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Auparavant, les informations n’existaient que pour les attributs mobiles, qui font partie de plusieurs recherches dynamiques. |
 | **Mars 2023** | |
-| Prise en charge du SDK Web pour Activity Map | Mise à jour de [Implémenter Adobe Analytics](/help/implement/home.md) et [Activer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
+| Prise en charge du SDK Web pour Activity Map | Mise à jour de [Implémenter Adobe Analytics](/help/implement/home.md) et [Activer Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md). |
 | Présentation des variables de trafic (props) | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Suppression de l’article « Activer les rapports de variables de trafic » et transfert de son contenu dans une autre section. Consultez la [Présentation des variables de trafic (props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtres d’URL internes | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Consultez la section [Filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Créer des histoires de données dans les cartes de performance mobiles | Une [histoire de données](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) consiste en un ensemble de points de données complémentaires, de contexte commercial et de mesures associées construit autour d’un thème centre ou d’une mesure commune. |
