@@ -4,25 +4,25 @@ title: Prise en main destinée aux administrateurs et administratrices, analyste
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1891'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Prise en main destinée aux administrateurs et administratrices, analystes, utilisateurs et utilisatrices finaux et développeurs et développeuses
 
-Il existe quatre types d’utilisateurs Adobe Analytics dans une organisation type :
+Toute organisation possède en général les quatre types d’utilisateurs et d’utilisatrices d’Adobe Analytics suivants :
 
-* **Administrateurs :** Mettez en oeuvre et configurez Adobe Analytics.
+* **Administrateurs et administratrices :** mettent en œuvre et configurent Adobe Analytics.
 
-* **Analystes :** Configuration de projets et création d’analyses à l’aide d’Analysis Workspace
+* **Analystes :** configurent des projets et créent des analyses à l’aide d’Analysis Workspace.
 
-* **Utilisateurs finaux :** Obtenir des informations exploitables sur leurs clients, soit en créant leurs propres analyses, soit en travaillant avec des analystes pour les créer
+* **Utilisateurs et utilisatrices finaux :** obtiennent des informations exploitables sur leurs clientes et clients, soit en créant leurs propres analyses, soit en travaillant avec des analystes qui les créent à leur place.
 
-* **Développeurs :** Utilisez les API Adobe Analytics 2.0 pour appeler directement les serveurs d’Adobe afin d’effectuer pratiquement toute action pouvant être effectuée dans l’interface utilisateur, comme créer des rapports à explorer, obtenir des informations ou répondre à des questions importantes sur les données.
+* **Développeurs et développeuses :** utilisent les API Adobe Analytics 2.0 pour appeler directement les serveurs d’Adobe et effectuer pratiquement toute action pouvant être réalisée dans l’interface utilisateur, comme créer des rapports à explorer, obtenir des informations ou répondre à des questions importantes sur les données.
 
-Les informations ci-dessous décrivent la prise en main d’Adobe Analytics pour chacun de ces utilisateurs.
+Les informations ci-dessous détaillent comment ces utilisateurs et utilisatrices peuvent commencer à tirer parti d’Adobe Analytics.
 
 ## Prise en main pour les administrateurs et les administratrices
 
@@ -78,7 +78,7 @@ Les administrateurs et administratrices d’Analytics doivent effectuer les tâc
 | Détection des anomalies | La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures. | [Vue d’ensemble de la détection des anomalies](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=fr) |
 | Analyse des contributions | L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents. | [Vue d’ensemble de l’analyse des contributions](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=fr) |
 | Segmentation Analytics | Permet de créer, gérer, partager et appliquer des segments d’audiences puissants et ciblés aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) |
-| Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion de données qui vous permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de deuxième partie (partenaire) et de troisième partie. | [Audience Analytics - Aperçu](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr) |
+| Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion des données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de seconde partie (partenaire) et de tierce partie. | [Présentation d’Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=fr) |
 | Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=fr">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr">Media Analytics</a></li> | [Intégration d’Analytics](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=fr) |
 
 {style="table-layout:auto"}
