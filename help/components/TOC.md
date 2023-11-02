@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 93%
    + [Canal marketing](dimensions/marketing-channel.md)
    + [Détail des canaux marketing](dimensions/marketing-detail.md)
    + [Minute](dimensions/minute.md)
-   + [Dimensions de cycle de vie mobile](dimensions/lifecycle-dimensions.md)
+   + [Dimensions du cycle de vie mobile](dimensions/lifecycle-dimensions.md)
    + [Dimensions de recherche mobile](dimensions/mobile-dimensions.md)
    + [Résolution de l’écran](dimensions/monitor-resolution.md)
    + [Mois de l’année](dimensions/month-of-year.md)
@@ -129,7 +129,7 @@ ht-degree: 93%
    + [Sorties](metrics/exits.md)
    + [Personnes identifiées](metrics/identified-people.md)
    + [Instances](metrics/instances.md)
-   + [Mesures de cycle de vie mobile](metrics/lifecycle-metrics.md)
+   + [Mesures du cycle de vie mobile](metrics/lifecycle-metrics.md)
    + [Affichages mobiles](metrics/mobile-views.md)
    + [Nouveaux engagements](metrics/new-engagements.md)
    + [Occurrences](metrics/occurrences.md)
@@ -175,7 +175,7 @@ ht-degree: 93%
       + [Filtrer des segments](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marquage des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Suppression des segments](segmentation/segmentation-workflow/seg-delete.md)
-      + [Copie de segments](segmentation/segmentation-workflow/seg-copy.md)
+      + [Copier des segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gestion des segments](segmentation/segmentation-workflow/seg-manage.md)
    + Référence de segment {#segment-reference}
       + [Opérateurs de comparaison pour les segments](segmentation/seg-reference/seg-operators.md)
@@ -199,12 +199,12 @@ ht-degree: 93%
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Mesures filtrées et pondérées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Utilisation des fonctions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [Balisage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
-      + [Filtrage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marquage des mesures calculées comme favoris](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Baliser des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [Filtrer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [Marquer des mesures calculées en tant que Favoris](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Approbation des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [Copie de mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+      + [Copier des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gestionnaire de mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Référence des mesures {#calcmetrics-reference}
       + [Référence : fonctions de base](c-calcmetrics/cm-reference/cm-functions.md)
@@ -214,13 +214,13 @@ ht-degree: 93%
       + [Totaux des mesures calculées](c-calcmetrics/cm-totals.md)
       + [Mesures calculées par défaut](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + Suites de rapports virtuelles {#virtual-report-suites}
-   + [Suites de rapports virtuelles - Aperçu](vrs/vrs-about.md)
+   + [Vue d’ensemble des suites de rapports virtuelles](vrs/vrs-about.md)
    + [Suite de rapports virtuelles - Traitement des composants](vrs/vrs-components.md)
    + [Sessions contextuelles](vrs/vrs-mobile-visit-processing.md)
    + [Traitement de la période de rapport](vrs/vrs-report-time-processing.md)
    + [Remarques concernant A4T](vrs/vrs-a4t.md)
-   + [FAQ sur les suites de rapports virtuelles](vrs/vrs-faq.md)
-   + [Considérations sur les suites de rapports virtuelles et le balisage global/multisuite](vrs/vrs-considerations.md)
+   + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
+   + [Suites de rapports virtuelles et balisage global/multisuite - Remarques](vrs/vrs-considerations.md)
    + Workflow des suites de rapports virtuelles {#vrs-workflow}
       + [Workflow des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Création des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
@@ -233,7 +233,7 @@ ht-degree: 93%
    + [Configuration des analyses entre appareils](cda/setup.md)
    + [Fonctionnement des relectures](cda/replay.md)
    + [Modèle CDA Workspace](cda/workspace-template.md)
-   + [Limitation d’une suite de rapports virtuelle à certaines dates](cda/limit-vrs-date.md)
+   + [Limiter une suite de rapports virtuelle à certaines dates](cda/limit-vrs-date.md)
    + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
    + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
