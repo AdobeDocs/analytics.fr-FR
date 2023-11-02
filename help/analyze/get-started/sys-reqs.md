@@ -4,33 +4,33 @@ description: Configuration requise pour l’utilisation d’Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Configuration requise pour Adobe Analytics et conditions préalables
 
-Avant de commencer à implémenter Adobe Analytics en tant qu’administrateur ou de l’utiliser comme analyste ou utilisateur final, vous devez d’abord vous familiariser avec les conditions préalables et la configuration système requise suivantes :
+Avant de commencer à mettre en œuvre Adobe Analytics en tant qu’administrateur ou administratrice, ou encore de l’utiliser comme analyste, utilisateur final ou utilisatrice finale, vous devez d’abord vous familiariser avec les conditions préalables et la configuration requise ci-après :
 
-## Conditions préalables requises pour l’utilisation d’Adobe Analytics
+## Conditions préalables à l’utilisation d’Adobe Analytics
 
-Pour pouvoir utiliser Adobe Analytics, vous devez disposer des éléments suivants :
+Pour utiliser Adobe Analytics, vous devez disposer des éléments suivants :
 
-* Une licence Adobe Analytics valide
+* Une licence Adobe Analytics valide
 
-  Adobe Analytics nécessite une licence de site. Pour plus d’informations, contactez votre représentant de compte d’Adobe. <!--is this phrased correctly? Is this important? -->
+  Adobe Analytics nécessite une licence de site. Contactez votre personne gestionnaire de compte Adobe pour plus d’informations à ce sujet. <!--is this phrased correctly? Is this important? -->
 
-* Navigateur pris en charge
+* Un navigateur pris en charge
 
-  Chaque utilisateur accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, voir [Configuration requise pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=en).
+  Chaque personne accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=fr).
 
 <!-- are there more? -->
 
 ## Configuration requise
 
-La plupart des solutions Adobe Analytics s’exécutent dans le navigateur. Les informations suivantes fournissent la configuration système requise pour les solutions de navigateur et client.
+La plupart des solutions Adobe Analytics s’exécutent dans le navigateur. Les informations suivantes fournissent la configuration requise pour les solutions de navigateur et de client.
 
 ### Configuration requise pour les solutions basées sur un navigateur
 
@@ -49,5 +49,5 @@ La plupart des solutions Adobe Analytics, y compris Analysis Workspace, sont bas
 
 Consultez la page de la solution liée pour connaître la configuration requise pour cette solution.
 
-* [Configuration requise pour Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
+* [Report Builder Configuration requise](/help/analyze/report-builder/setup/system-requirements.md)
 * [Configuration requise pour Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=fr)
