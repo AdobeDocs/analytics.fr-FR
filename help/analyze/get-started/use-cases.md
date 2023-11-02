@@ -1,54 +1,55 @@
 ---
-description: Cette section contient des informations générales sur Adobe Analytics, notamment des informations sur l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, aux analystes, aux utilisateurs et aux développeurs.
-title: Cas d’utilisation Analytics
+description: Vue d’ensemble des informations générales sur Adobe Analytics, notamment sur l’interface d’Analytics, ainsi que sur la prise en main destinées aux administrateurs et administratrices, aux analystes, aux utilisateurs et utilisatrices et aux développeurs et développeuses.
+title: Cas d’utilisation d’Analytics
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Cas d’utilisation Analytics
+# Cas d’utilisation d’Analytics
 
-Vous trouverez ci-dessous quelques-uns des moyens clés par lesquels Adobe Analytics aide les entreprises à obtenir des informations essentielles pour mieux servir leurs clients.
+Vous trouverez ci-dessous quelques-uns des moyens clés par lesquels Adobe Analytics aide les organisations à obtenir des informations essentielles pour mieux servir leur clientèle.
 
-Pour plus d’informations sur les avantages d’Adobe Analytics, voir [Page produit Adobe Analytics](https://business.adobe.com/products/analytics/adobe-analytics.html).
+Pour plus d’informations sur les avantages d’Adobe Analytics, consultez la [page produit d’Adobe Analytics](https://business.adobe.com/fr/products/analytics/web-analytics.html).
 
-## Web Analytics
+## Analyse web
 
-Adobe Analytics fournit les outils de segmentation et de prédiction complexes suivants pour analyser le trafic du site web :
+Adobe Analytics fournit les outils complexes de segmentation et de prédiction suivants dédiés à l’analyse du trafic de site web :
 
-* [Analyses ad hoc dans Analysis Workspace](/help/analyze/analysis-workspace/home.md)
+* [Analyse ad hoc dans Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
-* [Analyse des flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
+* [Analyse de flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
 * [Segmentation avancée](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr)
 
 
-## Analyses marketing
+## Analyse marketing
 
-Adobe Analytics aide les entreprises à comprendre où les clients interagissent avec leurs marques, quels canaux les clients préfèrent et quelles expériences résonnent avec eux.
+Adobe Analytics aide les organisations à comprendre les points d’interaction de la clientèle avec leurs marques, les canaux préférés des clientes et clients et les expériences fructueuses.
 
-Les fonctionnalités clés suivantes d’Adobe Analytics fournissent ces fonctionnalités marketing :
+Voici les fonctionnalités clés d’Adobe Analytics à des fins de marketing :
 
 * [Collecte de données multicanal](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=fr)
 
-* [Intégration des données hors ligne](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en)
+* [Intégration des données hors ligne](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=fr)
 
-* [Analyses ad hoc dans Analysis Workspace](/help/analyze/analysis-workspace/home.md)
+* [Analyse ad hoc dans Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 
 ## Attribution
 
-L’attribution permet aux entreprises de voir de quelle façon les différentes interactions sur l’ensemble du parcours client affectent la conversion. Outre les options d’attribution plus traditionnelles, telles que les modèles linéaire ou Première touche, l’attribution dans Adobe Analytics utilise également l’apprentissage automatique et les modèles statistiques avancés pour comprendre l’impact précis de chaque touche.
+L’attribution permet aux organisations de voir comment les différentes interactions tout au long du parcours client affectent la conversion. Outre les options d’attribution plus traditionnelles, telles que les modèles linéaire ou Première touche, l’attribution dans Adobe Analytics utilise également le machine learning et les modèles statistiques avancés pour comprendre l’impact précis de chaque touche.
 
-Pour plus d’informations, voir [Modèles d’attribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
+Pour plus d’informations, consultez la section [Modèles d’attribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
 
-## Analyses prédictives
+## Analyse prédictive
 
-L’analyse prédictive utilise l’apprentissage automatique et la modélisation statistique avancée pour analyser les données client, rechercher des modèles et prédire le comportement futur, comme l’attrition ou la probabilité de conversion. Cela permet aux analystes de données de tirer parti d’énormes jeux de données qui pourraient autrement être gaspillés.
+L’analyse prédictive utilise le machine learning et la modélisation statistique avancée pour analyser les données de la clientèle, rechercher des modèles et prédire le comportement futur, comme l’attrition ou la probabilité de conversion. Cela permet aux analystes de données de tirer parti d’énormes jeux de données qui pourraient autrement être ignorés.
 
-Les fonctions clés suivantes d’Adobe Analytics fournissent ces fonctions prédictives :
+Voici les fonctionnalités clés d’Adobe Analytics à des fins d’analyse prédictive :
 
 * [Détection des anomalies](#anomaly-detection)
 
