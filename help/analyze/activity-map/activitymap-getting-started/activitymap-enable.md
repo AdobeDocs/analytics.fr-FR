@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43371b5e7e7e251f0d7eeb41a7215b8c1aa1535f
+source-git-commit: bb9ba0400116aff3aea5307c48c6ac560603995e
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 40%
+source-wordcount: '469'
+ht-degree: 39%
 
 ---
 
@@ -19,19 +19,17 @@ Décrit la procédure à suivre par l’administrateur Analytics pour activer la
 
 ## Étape 1. Activer le Activity Map {#update_code}
 
-Le module Activity Map fait partie de AppMeasurement.js, des balises Adobe Experience Platform et du SDK Web (alloy.js). Les données du Activity Map ne peuvent pas être collectées si vous n’effectuez pas la mise à jour vers **Extension des balises Adobe Analytics v1.90** ou supérieur, **AppMeasurement version 1.6** ou supérieur ou **SDK Web version 2.15.0** ou supérieur.
+Le module Activity Map fait partie de AppMeasurement.js, des balises Adobe Experience Platform et du SDK Web (alloy.js). Les données du Activity Map ne peuvent pas être collectées si vous n’effectuez pas la mise à jour vers **SDK Web version 2.15.0** ou supérieur ou **Extension des balises Adobe Analytics v1.90** ou supérieur ou **AppMeasurement version 1.6** ou supérieur.
 
-### Balises Adobe Experience Platform {#tags}
-
-Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Dans le [!UICONTROL Installer l’extension] boîte de dialogue, sélectionnez **[!UICONTROL Utiliser le Activity Map]**.
-
-![](assets/aa_extension.png)
-
-### Code du SDK Web {#web_sdk}
++++SDK Web (extension Balises)
 
 Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Sous [!UICONTROL Extensions] -> [!UICONTROL SDK Web Adobe Experience Platform], sélectionnez **[!UICONTROL Activer la collecte de données de clic]** comme indiqué ci-dessous. Créez ensuite la bibliothèque avec les modifications, puis publiez la bibliothèque en production.
 
 ![](assets/web_sdk.png)
+
++++
+
++++Mise en oeuvre manuelle du SDK Web
 
 Voir [Suivi des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr) pour plus d’informations sur la mise en oeuvre du suivi des liens et sur l’activation du mappage des activités en capturant la variable `region` de l’élément de HTML sur lequel l’utilisateur a cliqué.
 
@@ -39,10 +37,22 @@ Voir [Suivi des liens](https://experienceleague.adobe.com/docs/experience-platfo
 >
 >L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client ou une cliente passe d’une page à l’autre. Cela diffère du fonctionnement d’AppMeasurement et peut potentiellement générer des accès facturables supplémentaires envoyés à Adobe.
 
-### AppMeasurement {#appmeasurement}
++++
+
+Extension +++Analytics (balises Adobe Experience Platform)
+
+Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Dans le [!UICONTROL Installer l’extension] boîte de dialogue, sélectionnez **[!UICONTROL Utiliser le Activity Map]**.
+
+![](assets/aa_extension.png)
+
++++
+
++++AppMeasurement
 
 Téléchargez la dernière bibliothèque JavaScript selon que vous utilisez AppMeasurement ou le SDK Web.
 Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]** et [implémenter](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=fr).
+
++++
 
 ## Étape 2. Activation des rapports d’Activity Map {#enable}
 
