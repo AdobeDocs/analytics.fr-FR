@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 99%
 
 ---
 
@@ -280,7 +280,7 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Activity Map - Aperçu](activity-map/activity-map.md)
    + Prise en main {#getting-started}
-      + [Activation d’Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [Activation et activation du Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
       + [Installation des modules de navigateur d’Activity Map ](activity-map/activitymap-getting-started/activitymap-install.md)
       + [Lancement d’Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [Suivi des liens robuste](activity-map/lnk-tracking-overview.md)
