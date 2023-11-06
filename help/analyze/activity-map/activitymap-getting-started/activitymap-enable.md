@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Décrit la procédure à suivre par l’administrateur Analytics pour activer la
 
 Le module Activity Map fait partie de AppMeasurement.js, des balises Adobe Experience Platform et du SDK Web (alloy.js). Les données du Activity Map ne peuvent pas être collectées si vous n’effectuez pas la mise à jour vers **SDK Web version 2.15.0** ou supérieur ou **Extension des balises Adobe Analytics v1.90** ou supérieur ou **AppMeasurement version 1.6** ou supérieur.
 
-+++SDK Web (extension Balises)
++++SDK Web (extension des balises Adobe Experience Platform)
 
 Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Sous [!UICONTROL Extensions] -> [!UICONTROL SDK Web Adobe Experience Platform], sélectionnez **[!UICONTROL Activer la collecte de données de clic]** comme indiqué ci-dessous. Créez ensuite la bibliothèque avec les modifications, puis publiez la bibliothèque en production.
 
@@ -57,7 +57,7 @@ Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!U
 
 ## Étape 2. Activation des rapports d’Activity Map {#enable}
 
-Tout d’abord, vous devez activer les rapports de Activity Map au niveau de la suite de rapports.
+Vous devez activer les rapports de Activity Map au niveau de la suite de rapports.
 
 1. Connectez-vous à Adobe Analytics et naviguez vers **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > Sélectionner la suite de rapports > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Création de rapports Activity Map]**.
 
