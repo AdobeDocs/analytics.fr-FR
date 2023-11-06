@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
+source-git-commit: ab1a7736d59d082c7fabc01ffed43215b0e11339
 workflow-type: tm+mt
-source-wordcount: '5296'
+source-wordcount: '5326'
 ht-degree: 96%
 
 ---
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Novembre 2023** | |
+| Mises à jour de la rubrique d’activation du Activity Map | Ajout [SDK Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (à la fois manuel et via l’extension de balises Adobe Experience Platform). |
 | **Octobre 2023** | |
 | Ajout d’informations sur le journal au Gestionnaire d’activités de création de rapports | Ajout d’informations relatives à la variable [annulations et restrictions ultérieures de l’activité de reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) dans le Gestionnaire des activités de création de rapports sont capturés dans la variable [Journaux](/help/admin/admin/logs.md). |
 | Mises à jour de la prise en charge des composants Data Warehouse | Ajout de la disponibilité de certains composants et suppression de la disponibilité d’autres composants pour Data Warehouse. Ces modifications sont répercutées dans [Prise en charge des composants dans Data Warehouse](/help/export/data-warehouse/component-support.md). <ul><li>Ajout de la prise en charge de la dimension Profondeur de visite (Profondeur de visite supprimée de la liste des dimensions non prises en charge)</li><li>Suppression de la prise en charge des mesures de participation (ajout de mesures de participation à la liste des mesures non prises en charge).</li><li>Ajout de la prise en charge des dimensions temporelles suivantes : Année, Trimestre, Mois, Semaine, Jour, Heure et Minute (suppression de ces dimensions de la liste des dimensions non prises en charge) <p>Auparavant, Data Warehouse ne prenait en charge ces dimensions que dans la première colonne d’un tableau à structure libre lorsque la granularité était sélectionnée. Ces dimensions sont désormais toujours prises en charge.</p><p>Toutefois, la sortie des dates n’est pas standard lors de l’utilisation de ces dimensions. L&#39;année est décalée de 1900, et les mois sont zéro.</li></ul> |
