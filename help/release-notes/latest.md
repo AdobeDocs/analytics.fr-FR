@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 **Dernière mise à jour** : 25 octobre 2023
 
-Ces notes de mise à jour portent sur la période du 23 octobre 2023 à la fin novembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 23 octobre 2023 à la fin novembre 2023. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
@@ -27,7 +27,7 @@ Ces notes de mise à jour portent sur la période du 23 octobre 2023 à la fin n
 
 ## Correctifs dans Adobe Analytics
 
-* Ces modifications du moteur de traitement et de création de rapports Analytics seront déployées au cours de la dernière semaine d’octobre : nous corrigerons un problème en raison duquel les étiquettes des dimensions Page ou Lien s’affichaient incorrectement comme `Unknown`. Avant le correctif, la variable `Unknown` les libellés peuvent s’être incorrectement affichés lorsqu’un nom de page ou un nom de lien n’a pas été transmis sur un accès, par défaut sur [!UICONTROL URL de la page] et [!UICONTROL URL du lien], respectivement. Ces dimensions ont été configurées pour ne pas respecter la casse. Grâce à ce correctif, les rapports qui s’affichent seront corrects. Mais pour les rapports sur les données historiques, certains résultats de rapports peuvent encore être incorrectement étiquetés comme `Unknown`. (AN-328030)
+* Ces modifications du moteur de traitement et de reporting Analytics seront déployées au cours de la dernière semaine d’octobre : nous corrigerons un problème où les libellés des dimensions Page ou Lien s’affichaient incorrectement comme `Unknown`. Avant le correctif, les libellés `Unknown` pouvaient s’afficher de manière incorrecte lorsqu’un nom de page ou un nom de lien n’était pas transmis lors d’un accès, affichant par défaut l’[!UICONTROL URL de la page] et l’[!UICONTROL URL du lien], respectivement. Ces dimensions ont été configurées pour ne pas respecter la casse. Grâce à ce correctif, les futurs rapports seront corrects. Mais pour les rapports sur les données historiques, certains résultats peuvent encore être incorrectement libellés comme `Unknown`. (AN-328030)
 
 ### Autres correctifs
 
@@ -37,7 +37,7 @@ Ces notes de mise à jour portent sur la période du 23 octobre 2023 à la fin n
 
 | Remarque | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Obscurcissement complet des adresses IP pour les accès Adobe Experience Edge** | 27 septembre 2023 | L’obscurcissement des adresses IP pour les accès provenant d’Experience Edge sera mis à jour plus tard en octobre 2023. En avril 2023, Experience Edge a ajouté la possibilité d’obscurcir les adresses IP. À ce moment-là, Adobe Analytics ne prenait en charge que l’obscurcissement partiel des adresses IP, en raison de la manière dont Analytics traitait les accès d’Experience Edge. Lorsque les clients et clientes choisissaient l’obscurcissement complet pour Experience Edge, Analytics ne recevait que des adresses IP partiellement obscurcies. Lorsque cette modification est mise en œuvre, Analytics reçoit l’adresse IP entièrement obscurcie. |
+| **Obscurcissement complet des adresses IP pour les accès Adobe Experience Edge** | 27 septembre 2023 | L’obscurcissement des adresses IP pour les accès provenant d’Experience Edge sera mis à jour ultérieurement en octobre 2023. En avril 2023, Experience Edge a ajouté la possibilité d’obscurcir les adresses IP. À ce moment-là, Adobe Analytics ne prenait en charge que l’obscurcissement partiel des adresses IP, en raison de la manière dont Analytics traitait les accès d’Experience Edge. Lorsque les clients et clientes choisissaient l’obscurcissement complet pour Experience Edge, Analytics ne recevait que des adresses IP partiellement obscurcies. Lorsque cette modification est mise en œuvre, Analytics reçoit l’adresse IP entièrement obscurcie. |
 | **Adobe Analytics Livestream - API Analytics 2.0** | 27 septembre 2023 | Les clientes et clients peuvent maintenant accéder au [Guide de point d’entrée pour Adobe Analytics Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) sous les API Adobe Analytics 2.0 à la place de son emplacement précédent (avec les API 1.4). Notez que les clientes et clients qui utilisent les informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O avant le 1er janvier 2025. (Voir les détails sous les avis de fin de vie ci-dessous.) |
 
 {style="table-layout:auto"}
