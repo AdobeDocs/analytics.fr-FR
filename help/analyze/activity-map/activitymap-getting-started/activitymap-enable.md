@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 28%
 
 ---
 
@@ -23,19 +23,52 @@ Le module Activity Map fait partie de AppMeasurement.js, des balises Adobe Exper
 
 +++SDK Web (extension des balises Adobe Experience Platform)
 
-Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Sous [!UICONTROL Extensions] -> [!UICONTROL SDK Web Adobe Experience Platform], sélectionnez **[!UICONTROL Activer la collecte de données de clic]** comme indiqué ci-dessous. Créez ensuite la bibliothèque avec les modifications, puis publiez la bibliothèque en production.
+1. Dans les balises Adobe Experience Platform, accédez à la propriété pour laquelle vous implémentez Analytics. Sous [!UICONTROL Extensions] -> [!UICONTROL SDK Web Adobe Experience Platform], sélectionnez **[!UICONTROL Activer la collecte de données de clic]** comme indiqué ci-dessous.
+1. Créez la bibliothèque avec les modifications.
+1. Publiez la bibliothèque en production.
 
 ![](assets/web_sdk.png)
+
+**Validation**
+
+Interagissez avec les appels à l’aide de l’onglet Réseau de Developer Console :
+
+1. Chargez le script de développement Launch sur le site.
+1. En cas de clic sur les éléments, recherchez &quot;/ee&quot; dans l’onglet Réseau.
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger:
+
+1. Téléchargez et installez le [Débogueur Adobe Experience Platform](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. Accédez à [!UICONTROL Journaux] > [!UICONTROL Edge] > [!UICONTROL Connexion à Edge].
+
+   ![](assets/validation2.jpg)
+
+**Questions fréquentes**
+
+* **L’appel d’interaction ne se déclenche pas dans l’onglet Réseau.**
+La collecte de données de clic dans un appel de collecte. Nous devons effectuer un filtrage par &quot;/ee&quot; ou &quot;collect&quot; (Collecter).
+
+* **Il n’existe pas d’affichage de charge utile pour l’appel de collecte.**
+L’appel de collecte est conçu de manière à ce que le suivi n’affecte pas la navigation vers d’autres sites. La fonction de déchargement de document s’applique donc aux appels de collecte. Cela n’aura aucun impact sur votre collecte de données, mais si vous devez valider sur la page, ajoutez target = &quot;_blank&quot; à l’élément correspondant. Le lien s’ouvre alors dans un nouvel onglet.
+
+* **Comment ignorer la collecte des PII ?**
+Ajoutez les conditions respectives dans&quot; avant le lien cliquez sur Send callback&quot; et renvoyez false pour ignorer ces valeurs. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr)
+
+  Exemple de code:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++Mise en oeuvre manuelle du SDK Web
 
-Voir [Suivi des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr) pour plus d’informations sur la mise en oeuvre du suivi des liens et sur l’activation du mappage des activités en capturant la variable `region` de l’élément de HTML sur lequel l’utilisateur a cliqué.
+Voir [Suivi des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr) pour plus d’informations sur la mise en oeuvre du suivi des liens et sur la manière d’activer Activity Map en capturant la variable `region` de l’élément de HTML sur lequel l’utilisateur a cliqué.
 
 >[!NOTE]
 >
->L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client ou une cliente passe d’une page à l’autre. Cela diffère du fonctionnement d’AppMeasurement et peut potentiellement générer des accès facturables supplémentaires envoyés à Adobe.
+>L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client passe d’une page à l’autre. Cela diffère du fonctionnement d’AppMeasurement et peut potentiellement générer des accès facturables supplémentaires envoyés à Adobe.
 
 +++
 
