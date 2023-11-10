@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Novembre 2023** | |
-| Mises à jour de la rubrique Activation/activation du Activity Map | Ajout [SDK Web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=en) (à la fois manuel et via l’extension de balises Adobe Experience Platform). |
+| Mises à jour de la rubrique Activation de l’Activity Map | Ajout du contenu [SDK web](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=fr) (à la fois manuellement et via l’extension de balises Adobe Experience Platform). |
 | **Octobre 2023** | |
 | Ajout d’informations de journal au Gestionnaire d’activités de reporting | Ajout d’informations selon lesquelles les [annulations et restrictions ultérieures de l’activité de reporting](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) dans le Gestionnaire des activités de reporting sont capturées dans les [journaux](/help/admin/admin/logs.md). |
 | Mises à jour de la prise en charge de composants d’entrepôt de données | Ajout de la disponibilité de certains composants et suppression de la disponibilité d’autres composants pour l’entrepôt de données. Ces modifications sont répercutées dans la [rise en charge des composants dans l’entrepôt de données](/help/export/data-warehouse/component-support.md). <ul><li>Ajout de la prise en charge de la dimension Profondeur de visite (suppression de la Profondeur de visite de la liste des dimensions non prises en charge)</li><li>Suppression de la prise en charge des mesures de participation (ajout des mesures de participation à la liste des mesures non prises en charge)</li><li>Ajout de la prise en charge des dimensions temporelles suivantes : année, trimestre, mois, semaine, jour, heure et minute (suppression de ces dimensions de la liste des dimensions non prises en charge) <p>Auparavant, l’entrepôt de données ne prenait en charge ces dimensions que dans la première colonne d’un tableau à structure libre lorsque la granularité était sélectionnée. Ces dimensions sont désormais toujours prises en charge.</p><p>Toutefois, la sortie des dates n’est pas standard lors de l’utilisation de ces dimensions. L&#39;année est décalée de 1900, et les mois sont basés sur zéro.</li></ul> |
