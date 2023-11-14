@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 | Personnaliser | Vous permet de personnaliser le format de date. |
 | À | Affiche le Carnet d’adresses Outlook, le cas échéant. |
 | Envoyer à : Courriel | Adresse e-mail du destinataire du classeur. |
-| Envoyer à : Liste de publication | Répertorie les listes de distribution disponibles pour cette société. |
 | Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) pour en savoir plus. |
 | Objet | Description définie par l’utilisateur. |
 | Planification | Vous permet d’indiquer le moment où le classeur doit être envoyé (Immédiatement, Horaire, Quotidiennement, Hebdomadairement, Mensuellement et Annuellement). |
