@@ -1,17 +1,17 @@
 ---
 description: Documentation décrivant comment filtrer et trier les tableaux dans Analysis Workspace.
-title: Filtrer et trier des tableaux
+title: Filtrage et tri des tableaux à structure libre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# Filtrer et trier des tableaux
+# Filtrage et tri des tableaux à structure libre
 
 Les tableaux à structure libre dans Analysis Workspace sont la base de l’analyse de données interactive. Ils peuvent donc contenir des milliers de lignes d’informations. Le filtrage et le tri des données peuvent constituer des éléments essentiels à l’amélioration de l’affichage des informations les plus importantes.
 
@@ -22,6 +22,17 @@ Les filtres dans Analysis Workspace vous aident à afficher les informations le
 >[!NOTE]
 >
 > Seuls les éléments de dimension dynamiques peuvent être filtrés comme décrit dans cette section. Les éléments de dimension statiques ne peuvent pas être filtrés. Pour plus d’informations, voir [Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+
+## Filtrage des lignes de tableau à structure libre
+
+Vous pouvez utiliser plusieurs méthodes pour filtrer les lignes d’un tableau à structure libre. 
+
+- Cliquez sur le X dans la ligne
+- Clic droit > Lignes sélectionnées supprimées
+- Filtres de tableau
+- Segmentation
+
+Veillez à lire l’impact de chaque méthode [Totaux des tableaux à structure libre](https://docs.adobe.com/content/help/fr-FR/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
 
 ### Exclusion rapide de lignes spécifiques d’un tableau
 
@@ -35,7 +46,14 @@ Pour exclure rapidement des lignes spécifiques d’un tableau à structure libr
 
 1. Pointez sur la ligne à exclure, puis sélectionnez l’icône x.
 
-   Maintenez la touche Maj enfoncée pour sélectionner une rangée ou maintenez la touche Commande (sur Mac) ou la touche Ctrl (sous Windows) enfoncée pour sélectionner plusieurs rangées.
+   Maintenez la touche Maj enfoncée pour sélectionner une plage de lignes ou maintenez la touche Commande (sur Mac) ou la touche Ctrl (sous Windows) enfoncée pour sélectionner plusieurs lignes.
+
+### Clic droit > Supprimer les lignes sélectionnées
+
+1. Sélectionnez une ou plusieurs lignes.
+1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Supprimer les lignes sélectionnées]**.
+
+   Cette action supprime les lignes du tableau et applique un filtre de tableau.
 
 ### Application d’un filtre simple ou avancé à un tableau
 
@@ -69,9 +87,13 @@ Pour filtrer les données dans les tableaux à structure libre :
 
    L’icône **Filtre** ![Icône de filtre bleue du tableau filtré](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) devient bleue lorsqu’un filtre est appliqué au tableau.
 
+### Segmentation
+
+Voir notre [Documentation sur la segmentation](https://docs.adobe.com/help/fr-FR/analytics/components/segmentation/seg-home.html) pour plus d’informations.
+
 ## Trier des tableaux
 
-Vous pouvez trier les données d’un tableau à structure libre selon n’importe quelle colonne d’Analysis Workspace qui est une mesure.
+Vous pouvez trier les données d’un tableau à structure libre selon n’importe quelle colonne d’Analysis Workspace qui est une mesure.
 
 Une icône de flèche vers le bas ![Icône de flèche vers le bas dans la colonne du tableau trié](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg) est visible dans l’en-tête de la colonne par laquelle les données sont actuellement triées.
 
