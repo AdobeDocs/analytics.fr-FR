@@ -4,9 +4,9 @@ description: Obtenez des réponses aux questions les plus fréquentes au sujet d
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1220'
 ht-degree: 61%
 
 ---
@@ -108,9 +108,9 @@ Oui, la plupart des sources de données sont prises en charge. L’attribution n
 
 Les sources de données des ID de transaction sont traitées comme tout autre accès. Les sources de données des ID de transaction n’utilisent pas le traitement spécial qui est normalement utilisé dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de l’heure des rapports, les accès à l’ID de transaction comportent des valeurs d’eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès à l’ID de transaction. Les valeurs ne seront pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
 
-Si possible, l’attribution IQ s’appuie sur la valeur de colonne MID envoyée dans un événement dans la source de données, plutôt que sur une valeur persistante. Le modèle d’attribution est appliqué à la volée aux valeurs des colonnes MID dans la source de données. Par exemple, lorsque vous utilisez l’attribution &quot;Dernière touche&quot;, le modèle commence à partir de chaque instance d’une mesure et remonte de manière séquentielle dans les accès jusqu’à ce que le modèle atteigne la dernière valeur observée dans la colonne MID.
+Lorsque cela est possible, l’attribution repose sur la valeur de colonne MID envoyée dans un événement dans la source de données, plutôt que sur une valeur persistante. Le modèle d’attribution est appliqué à la volée aux valeurs des colonnes MID dans la source de données. Par exemple, lorsque vous utilisez l’attribution &quot;Dernière touche&quot;, le modèle commence à partir de chaque instance d’une mesure et remonte de manière séquentielle dans les accès jusqu’à ce que le modèle atteigne la dernière valeur observée dans la colonne MID.
 
-Lorsque cela est impossible, l’attribution IQ utilise la valeur MID dans l’&quot;enregistrement précédent&quot; de la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par horodatage, étant donné que AA ne prend pas en charge les données en désordre.
+Dans la mesure du possible, l’attribution utilise la valeur MID dans l’&quot;enregistrement précédent&quot; de la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par horodatage, étant donné que AA ne prend pas en charge les données en désordre.
 
 Étant donné que les enregistrements ne sont pas classés de manière séquentielle, les valeurs attendues de l’application de la persistance peuvent avoir une incidence sur le temps qui existe entre l’horodatage de l’ID de transaction fourni et la transaction d’origine.
 

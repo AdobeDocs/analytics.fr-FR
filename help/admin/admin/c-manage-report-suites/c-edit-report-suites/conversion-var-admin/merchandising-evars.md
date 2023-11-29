@@ -3,9 +3,9 @@ title: eVars de marchandisage et méthodes de recherche de produit
 description: Analyse approfondie des concepts sous-jacents aux eVars de marchandisage et de la manière dont elles traitent et affectent les données.
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5297'
+source-wordcount: '5285'
 ht-degree: 97%
 
 ---
@@ -377,7 +377,7 @@ La valeur contenue dans la colonne post_products peut vous être familière. Fai
 
 Cela signifie que la liaison « copie » les valeurs de l’eVar avec syntaxe de la variable de conversion dans la variable products via la syntaxe du produit. Cette action de copie n’a lieu que lorsque la variable products et un événement de liaison (défini via la configuration de l’eVar) sont contenus dans la même requête. À ce stade, la ou les valeurs contenues dans la ou les colonnes post_eVar sont liées au produit. Cette liaison est représentée par l’intermédiaire de la syntaxe du produit, telle qu’elle est stockée dans la colonne post_products.
 
-## eVars de marchandisage, mesure Instances et Attribution IQ
+## eVars de marchandisage, mesure Instances et Attribution
 
 Lorsqu’une eVar standard est envoyée dans un appel au serveur Analytics, une instance est toujours attribuée à la valeur de sa colonne post_evar. Les instances représentent le nombre de fois où une eVar a été définie sur une valeur particulière dans une demande d’image.
 
@@ -387,8 +387,8 @@ Les instances d’une eVar de marchandisage attribuent les valeurs collectées p
 
 Par exemple, la définition de `s.eVar1="Internal Keyword Search"` en elle-même n’accorde aucun crédit de mesure d’instance à la valeur eVar1 de « Recherche interne par mot-clé ». Une instance est bien enregistrée à ce stade. Cependant, à moins qu’un produit ne soit lié à cette valeur « recherche interne par mot-clé » simultanément à la définition de la variable `eVar1`, l’instance est attribuée à l’intervalle Non spécifié. En d’autres termes, la valeur `eVar1` de « recherche interne par mot-clé » peut obtenir une instance. Mais cela se produit uniquement lorsqu’un produit lié à la valeur « recherche interne par mot-clé » apparaît dans la variable products de la même demande d’image.
 
-En résumé, sans configuration supplémentaire, la mesure Instances prête à l’emploi d’une eVar de marchandisage a peu d’utilité. Heureusement, Adobe a lancé [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=fr). Cet outil vous permet d’appliquer plusieurs modèles d’attribution à toute mesure personnalisée collectée par Adobe Analytics. Les mesures qui appliquent ces modèles d’attribution n’utilisent pas les valeurs contenues dans les colonnes post_evar ni les valeurs liées à un produit particulier. Au lieu de cela, ces mesures utilisent uniquement les valeurs transmises par le biais des demandes d’image (ou les valeurs capturées par le biais des règles de traitement Adobe Analytics). Vous pouvez utiliser les fonctionnalités d’Attribution IQ pour obtenir une mesure des instances correctement attribuées pour toutes les eVars de marchandisage qui utilisent la syntaxe de la variable de conversion.
+En résumé, sans configuration supplémentaire, la mesure Instances prête à l’emploi d’une eVar de marchandisage a peu d’utilité. Heureusement, Adobe a lancé [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Cet outil vous permet d’appliquer plusieurs modèles d’attribution à toute mesure personnalisée collectée par Adobe Analytics. Les mesures qui appliquent ces modèles d’attribution n’utilisent pas les valeurs contenues dans les colonnes post_evar ni les valeurs liées à un produit particulier. Au lieu de cela, ces mesures utilisent uniquement les valeurs transmises par le biais des demandes d’image (ou les valeurs capturées par le biais des règles de traitement Adobe Analytics). Vous pouvez utiliser les fonctionnalités d’Attribution pour obtenir une mesure des instances correctement attribuées pour toutes les eVars de marchandisage qui utilisent la syntaxe de la variable de conversion.
 
 ![Sélection de l’attribution](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-Lors de l’ajout d’une mesure d’instance d’eVar de marchandisage à un rapport, le modèle Attribution IQ approprié serait le modèle « Dernière touche ». Le paramètre Intervalle de recherche en amont du modèle n’a pas d’importance dans ce cas. La raison est qu’un modèle d’attribution Dernière touche « forcé » accorde toujours le crédit d’instance à chaque valeur individuelle transmise par le biais d’une requête. Et cela, qu’importe si les paramètres d’attribution/de liaison réels de l’eVar sont définis sur « Le dernier » et sur « Valeur d’origine (première) ».
+Lors de l’ajout d’une mesure d’instance d’eVar de marchandisage à un rapport, le modèle Attribution approprié serait le modèle « Dernière touche ». Le paramètre Intervalle de recherche en amont du modèle n’a pas d’importance dans ce cas. La raison est qu’un modèle d’attribution Dernière touche « forcé » accorde toujours le crédit d’instance à chaque valeur individuelle transmise par le biais d’une requête. Et cela, qu’importe si les paramètres d’attribution/de liaison réels de l’eVar sont définis sur « Le dernier » et sur « Valeur d’origine (première) ».

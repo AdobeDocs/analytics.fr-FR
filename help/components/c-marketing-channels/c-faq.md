@@ -3,9 +3,9 @@ title: FAQ sur les canaux marketing
 description: Forum aux questions sur les canaux marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
-source-wordcount: '1501'
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+workflow-type: tm+mt
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Afin d’optimiser l’efficacité des canaux marketing pour Attribution IQ et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution  et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, tel que décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -23,7 +23,7 @@ Forum aux questions sur les canaux marketing.
 ## Mes codes de suivi ne suivent pas de schéma et j’en ai des milliers à spécifier pour mon canal Affilié.
 
 * Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec   *`affiliates.`*
-* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page d’accueil, comme *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
+* Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page de destination, comme *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
 
 ## Les domaines référents contiennent plus de données que prévu.
 
@@ -87,7 +87,7 @@ La Dernière touche interne (actualisation de session) ne peut avoir lieu que si
 
 * **Toutes les pages du site ne sont pas balisées** : un visiteur arrive sur la page A qui n’est pas balisée, puis passe à la page B qui est balisée. La page A serait considérée comme le référent interne et la visite serait classée comme Actualisation de session.
 
-* **Redirections** : si une redirection n’est pas configurée pour transmettre les données du référent à la nouvelle page d’entrée, les données d’entrée réelle du référent sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de session.
+* **Redirections** : si une redirection n’est pas configurée pour transmettre les données du référent à la nouvelle page de destination, les données d’entrée réelle du référent sont perdues et la page de redirection (probablement une page interne) apparaît désormais comme domaine référent. La visite sera classée comme Actualisation de session.
 
 * **Trafic interdomaines** : un visiteur passe d’un domaine qui se déclenche vers la suite A à un autre domaine qui se déclenche vers la suite B. Si, dans la suite B, les filtres d’URL internes incluent le premier domaine, la visite dans la suite B est enregistrée comme interne, puisque les canaux marketing la considèrent comme une nouvelle visite dans la deuxième suite. La visite sera classée comme Actualisation de session.
 
@@ -112,7 +112,7 @@ Parfois, les règles de traitement des canaux marketing sont mal configurées. I
    3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
    4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
 
-   Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données Première touche sont continuellement collectées dans un canal incorrect jusqu’à l’expiration de l’engagement des visiteurs de tous les utilisateurs.
+  Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données Première touche sont continuellement collectées dans un canal incorrect jusqu’à l’expiration de l’engagement des visiteurs de tous les utilisateurs.
 
 La meilleure façon de remédier à ces divergences consiste à prendre l’une des mesures suivantes, ou les deux :
 
@@ -120,6 +120,6 @@ La meilleure façon de remédier à ces divergences consiste à prendre l’une 
    1. Accédez à Outils d’administration > Suites de rapports.
    2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
    3. Cliquez sur Tout faire expirer.
-   4. Dans la fenêtre contextuelle d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
+   4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
 
 * **Afficher uniquement les mesures Dernière touche à partir du moment où vous avez corrigé les règles** : les mesures Dernière touche suivent toujours l’ensemble de règles actuelles. L’affichage du moment à partir duquel vous avez modifié les règles de traitement reflète les règles de traitement les plus récentes.

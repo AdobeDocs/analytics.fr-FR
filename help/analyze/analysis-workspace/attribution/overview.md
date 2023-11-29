@@ -4,10 +4,10 @@ description: Le concept d’attribution du crédit d’un événement de succès
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 95%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -20,11 +20,11 @@ Attribution permet aux analystes de personnaliser la manière dont les élément
 
 Dans certains rapports, vous voudrez peut-être attribuer la commande au référencement payant. Dans d’autres rapports, vous voudrez peut-être attribuer la commande à Social. Attribution vous permet de contrôler cet aspect des rapports. Toutes les entreprises disposant d’Adobe Analytics Ultimate, Prime, Select ou Foundation peuvent en bénéficier. Si vous ne savez pas quel type de contrat vous avez avec l’Adobe, contactez l’équipe du compte d’Adobe de votre organisation.
 
-## Valeur d’Attribution IQ
+## Valeur de l’attribution
 
 Un parcours client donné n’est pas linéaire et est souvent imprévisible. Chaque client a son propre rythme. Il lui arrive souvent de revenir sur ses pas, de s’arrêter, de redémarrer ou d’adopter un autre comportement non linéaire. En raison de ces actions organiques, il est difficile de connaître l’impact des efforts marketing tout au long du parcours client. Cela complique également les efforts visant à relier plusieurs canaux de données.
 
-![Problème d’Attribution IQ](assets/attribution_iq_problem.png)
+![Problème d’attribution](assets/attribution_iq_problem.png)
 
 Adobe Analytics améliore l’attribution en vous permettant de :
 
@@ -39,31 +39,31 @@ Adobe Analytics améliore l’attribution en vous permettant de :
 
 ## Fonctionnalités
 
-Attribution IQ propose les fonctionnalités suivantes :
+Attribution  propose les fonctionnalités suivantes :
 
 * [Panneau Attribution](../c-panels/attribution.md) : comparez rapidement les dimensions et les mesures avec différents modèles d’attribution.
 * [Appliquer l’attribution à une mesure](../visualizations/freeform-table/column-row-settings/column-settings.md) : utilisez une attribution autre que celle par défaut sur une mesure d’un projet.
-* [Appliquer l’attribution à une ventilation](../components/dimensions/t-breakdown-fa.md) : utilisez une attribution autre que celle par défaut sur une ventilation.
+* [Appliquer l’attribution à une répartition](../components/dimensions/t-breakdown-fa.md) : utilisez une attribution autre que celle par défaut sur une répartition.
 * [Comparer des modèles d’attribution](../components/apply-create-metrics.md) : comparez rapidement les différents modèles d’attribution pour n’importe quelle mesure.
 
 ## Vidéos
 
-Attribution IQ dans les tableaux à structure libre :
+Attribution dans les tableaux à structure libre :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-Attribution IQ dans les mesures calculées
+Attribution dans les mesures calculées
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Utilisation du panneau Attribution IQ :
+Utilisation du panneau Attribution:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Ajout de comparaisons côte à côte de modèles Attribution IQ :
+Ajout de comparaisons côte à côte de modèles Attribution 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Outils Adobe Analytics qui ne prennent pas en charge Attribution IQ
+## Outils Adobe Analytics qui ne prennent pas en charge Attribution
 
-Les outils qui ne prennent pas en charge l’API Analytics 2.0, comme Report Builder, ne prennent pas en charge Attribution IQ.
+Les outils qui ne prennent pas en charge l’API Analytics 2.0, comme Report Builder, ne prennent pas en charge Attribution.

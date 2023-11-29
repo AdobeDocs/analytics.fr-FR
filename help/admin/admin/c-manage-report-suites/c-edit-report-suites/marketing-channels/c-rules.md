@@ -3,9 +3,9 @@ title: Règles de traitement des canaux marketing
 description: Les règles de traitement des canaux marketing déterminent si l’accès d’un visiteur satisfait aux critères affectés à un canal. Les règles traitent tous les accès qu’un visiteur effectue sur votre site. Si une règle ne satisfait pas les critères d’un canal, ou si les règles ne sont pas configurées correctement, le système affecte l’accès à « Aucun canal identifié ».
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 77%
 
 ---
@@ -30,7 +30,7 @@ Remarques supplémentaires sur le traitement :
 
 * Consultez les informations conceptuelles dans la section [Prise en main des Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Créez un ou plusieurs canaux auxquels attribuer des règles. Reportez-vous à la section [Ajout de canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* Examinez les bonnes pratiques relatives à l’utilisation des [!UICONTROL Canaux marketing] avec [!UICONTROL Attribution IQ].
+* Examinez les bonnes pratiques relatives à l’utilisation des [!UICONTROL Canaux marketing] avec [!UICONTROL Attribution].
 
 ## Création de règles de traitement des canaux marketing
 

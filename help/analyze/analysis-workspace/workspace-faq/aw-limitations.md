@@ -4,9 +4,9 @@ title: Limites connues dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 90%
 
 ---
@@ -19,7 +19,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 * Impossibilité d’ajouter des colonnes de comparaison de dates lorsque des périodes ou des mesures sont utilisées comme lignes d’un tableau.
 * L’option Créer une mesure d’après la sélection est désactivée lorsque des segments sont utilisés comme lignes d’un tableau. De plus, l’option Créer une mesure d’après la sélection ne doit pas être appliquée aux colonnes alignées sur la date.
-* La mise en forme conditionnelle des lignes de ventilation ne peut pas utiliser de plages personnalisées.
+* La mise en forme conditionnelle des lignes de répartition ne peut pas utiliser de plages personnalisées.
 * Les lignes totales du tableau ne peuvent pas être sous forme de tendances lorsque le paramètre Calculer les totaux en totalisant les valeurs est appliqué (généralement utilisé avec les éléments de ligne statique).
 * [!UICONTROL L’analyse des contributions] peut être exécutée avec la granularité [!UICONTROL quotidienne] _uniquement_. Elle ne peut pas être exécutée par rapport à des données [!UICONTROL horaires], [!UICONTROL hebdomadaires], etc.
 
@@ -56,6 +56,6 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 * Certains paramètres de la page [!UICONTROL Paramètres de rapport] ne s’appliquent pas. Analysis Workspace utilise uniquement les paramètres [!UICONTROL Langue/Devise/Encodage] situés en bas : [!UICONTROL Séparateur des milliers], [!UICONTROL Encodage d’un rapport planifié] et [!UICONTROL Caractère de séparation CSV].
 
-## Attribution IQ
+## Attribution
 
-* Un sous-ensemble de mesures n’est pas pris en charge dans [!UICONTROL Attribution IQ]. Pour obtenir la liste complète, consultez la section [FAQ sur l’Attribution IQ](../attribution/faq.md).
+* Un sous-ensemble de mesures n’est pas pris en charge dans [!UICONTROL Attribution]. Pour obtenir la liste complète, consultez la section [FAQ sur l’Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).

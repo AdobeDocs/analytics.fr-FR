@@ -3,10 +3,10 @@ description: En savoir plus sur les
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 73%
+source-wordcount: '464'
+ht-degree: 75%
 
 ---
 
@@ -31,13 +31,13 @@ Pour spécifier le type de mesure lors de la création d’une mesure calculée 
 
 ## Fonctionnement de l’affectation linéaire
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) est la manière dont les modèles d’attribution dans les mesures calculées sont évalués.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) est la manière dont les modèles d’attribution dans les mesures calculées sont évalués.
 
 Pour obtenir la liste complète des modèles dʼattribution et des intervalles de recherche en amont autres que par défaut pris en charge, voir [Modèles dʼattribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
 
 L’exemple suivant illustre le fonctionnement des mesures calculées avec des attributions linéaires dans les rapports :
 
-|  | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
+| | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | Données envoyées dans | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
 | eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
@@ -51,4 +51,4 @@ Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable au
 Ces deux outils présentent des différences de fonctionnement de l’attribution linéaire :
 
 * Dans Reports &amp; Analytics, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les visiteurs.
-* Dans Reports &amp; Analytics, si aucune valeur n’est transmise lors du premier accès d’une visite, la valeur (initiale) persiste à partir de la visite précédente. Ce n’est PAS le cas dans Workspace (Attribution IQ). Si aucune valeur n’est transmise lors du premier accès d’une visite, « Aucun » est la valeur initiale.
+* Dans Reports &amp; Analytics, si aucune valeur n’est transmise lors du premier accès d’une visite, la valeur (initiale) persiste à partir de la visite précédente. Ce n’est PAS le cas dans Workspace (Attribution). Si aucune valeur n’est transmise lors du premier accès d’une visite, « Aucun » est la valeur initiale.

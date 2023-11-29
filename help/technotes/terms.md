@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Affectation :** si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. Voir [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Analysis Workspace :** solution de navigateur pour créer des projets dʼanalyse personnalisés et fiables et démocratiser les informations. Offre une meilleure flexibilité au niveau des rapports que Reports and Analytics.
-* **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) dans le guide d’utilisation Analyser.
+* **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) dans le guide d’utilisation Analyser.
 * **AppMeasurement :** la bibliothèque de code utilisée pour collecter des données et les envoyer à Adobe. Voir la [Page d’accueil](/help/implement/home.md) du guide d’utilisation de la mise en œuvre.
 * **Emplacement ASI :** n’existe plus. Dans les versions précédentes d’Adobe Analytics, les emplacements ASI fournissaient un conteneur temporaire de suites de rapports pour afficher les données segmentées. Dans la version actuelle d’Adobe Analytics, les segments peuvent être appliqués instantanément à n’importe quel rapport.
 * **Répartition** : permet d’afficher une dimension dans le contexte d’une autre dimension. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
