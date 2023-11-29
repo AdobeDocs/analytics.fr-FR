@@ -4,7 +4,7 @@ description: Vous pouvez définir des préférences générales et de projet pou
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: ht
 source-wordcount: '3156'
 ht-degree: 100%
@@ -131,7 +131,7 @@ Cliquez sur les titres des sections liées pour plus d’informations et de cont
 | | Afficher l’axe double (le cas échéant) | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des ordonnées sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | | Normalisation (le cas échéant) | Force les mesures en proportions égales. Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | | Ancrer l’axe Y sur zéro | Si toutes les valeurs mappées dans le graphique sont considérablement supérieures à zéro, le seuil de l’axe des ordonnées est par défaut NON NUL. Si cette option est activée, l’axe des ordonnées est obligatoirement ancré à zéro (et le graphique est retracé). |
-| | Autoriser les anomalies à mettre à l’échelle l’axe Y | Si un graphique comporte plusieurs mesures, vous devez pointer sur chaque anomalie pour afficher la marge de confiance correspondante. Pour rendre la visualisation plus lisible, l’intervalle de confiance Détection des anomalies ne met pas automatiquement à l’échelle l’axe Y. Cette option permet à l’intervalle de confiance de mettre la visualisation à l’échelle. <p>Pour plus d’informations, consultez [Affichage des anomalies dans Analysis Workspace](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md).</p> |
+| | Autoriser les anomalies à mettre à l’échelle l’axe Y | Si un graphique comporte plusieurs mesures, vous devez pointer sur chaque anomalie pour afficher la marge de confiance correspondante. Pour rendre la visualisation plus lisible, l’intervalle de confiance Détection des anomalies ne met pas automatiquement à l’échelle l’axe Y. Cette option permet à l’intervalle de confiance de mettre la visualisation à l’échelle. <p>Pour plus d’informations, consultez [Affichage des anomalies dans Analysis Workspace](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md).</p> |
 | **[Ligne](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | Pourcentages | Affiche les valeurs en pourcentages pour les visualisations Ligne. |
 | | Légende visible | Permet de masquer le texte de légende détaillé pour la visualisation Ligne. |
