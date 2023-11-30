@@ -5,10 +5,10 @@ title: Application de segments dans l’analyse des abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Vous pouvez aussi créer un point de contact ET en faisant glisser le segment d
 
 ## Comparaison des segments dans la visualisation Abandons {#section_E0B761A69B1545908B52E05379277B56}
 
-Vous pouvez comparer un nombre illimité de segments dans la visualisation Abandons.
+Vous pouvez comparer un nombre illimité de segments dans la visualisation Abandons. (Notez que la vidéo ci-dessous indique que vous pouvez comparer jusqu’à 3 segments, ce qui est incorrect.)
 
 Voici une vidéo sur la comparaison des segments dans les abandons :
 
@@ -63,4 +63,4 @@ Voici une vidéo sur la comparaison des segments dans les abandons :
 
    ![](assets/seg-compare.png)
 
-1. Vous pouvez maintenant comparer les abandons des deux segments, par exemple pour savoir quand un segment est plus performant qu’un autre, entre autres.
+1. Vous pouvez maintenant comparer les abandons des deux segments, par exemple pour savoir quand un segment est plus performant qu’un autre, entre autres informations.

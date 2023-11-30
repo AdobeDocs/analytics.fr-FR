@@ -3,9 +3,9 @@ title: Suppression de robots dans Adobe Analytics
 description: Comment supprimer des robots dans Adobe Analytics ?
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '795'
 ht-degree: 84%
 
 ---
@@ -73,7 +73,7 @@ Une fois le rapport Data Warehouse généré, vous disposez d’une liste des EC
 * **ECID** : assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
 * **Indicateur de robot**: ajoutez &quot;Indicateur de robot&quot; en tant que dimension de schéma d’attribut du client.
 
-Utilisez ce fichier .CSV comme fichier d’importation d’attributs du client, puis abonnez vos suites de rapports à l’attribut du client comme décrit dans cette section. [article de blog](https://theblog.adobe.com/link-digital-behavior-customers).
+Utilisez ce fichier .CSV comme fichier d’importation d’attributs du client, puis abonnez vos suites de rapports à l’attribut du client comme décrit dans cette section. [article de blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
