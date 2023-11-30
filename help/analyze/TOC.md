@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 100%
       + [Raccourcis clavier](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palettes de couleurs](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densité d’affichage](analysis-workspace/build-workspace-project/view-density.md)
+   + Rapports {#reports}
+      + [Utilisation de rapports prédéfinis](analysis-workspace/reports/use-reports.md)
+      + [Création et gestion des rapports d’entreprise](analysis-workspace/reports/create-company-reports.md)
    + Composants {#components}
       + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
@@ -307,7 +310,6 @@ ht-degree: 100%
       + [Collecte de données](reports-analytics/overview/overview-data-collection.md)
       + [Menu Rapports](reports-analytics/overview/reports-menu.md)
       + [Fonctionnalités d’un rapport](reports-analytics/overview/report-overview.md)
-      + [Termes courants](reports-analytics/overview/overview-common-terms.md)
    + [Paramètres d’affichage des rapports et navigation](reports-analytics/report-settings.md)
    + [Planification et distribution des rapports](reports-analytics/scheduling.md)
    + [Avis de fin de vie pour les rapports planifiés](reports-analytics/scheduled-reports-eol.md)

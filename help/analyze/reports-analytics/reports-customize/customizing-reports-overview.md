@@ -5,43 +5,16 @@ uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: cf0c15c1b81a243e35fbdcf32b43a6ef4ada9649
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 91%
+source-wordcount: '686'
+ht-degree: 90%
 
 ---
 
-# Personnalisation des rapports - Aperçu
-
-{{ra-eol}}
+# Personnalisation des rapports
 
 Une fois un rapport exécuté, vous pouvez le personnaliser de manière à afficher et à analyser les données en fonction de vos besoins. Vous pouvez filtrer les données du rapport, modifier la manière dont elles sont présentées graphiquement, modifier leur granularité, etc.
-
-## Créer un rapport personnalisé {#task_BA6EACA3039C40AEA5605E1D8C76E646}
-
-Vous pouvez enregistrer la configuration actuelle d’un rapport en tant que nouveau rapport personnalisé que tous les utilisateurs pourront afficher.
-
-<!-- 
-
-t_reports_custom.xml
-
- -->
-
-Seuls les administrateurs peuvent créer un rapport personnalisé. Lorsque vous créez un rapport personnalisé, il est ajouté au menu de rapport principal à côté du rapport sur lequel il repose.
-
-Pour créer un rapport personnalisé:
-
-1. Exécutez un rapport et configurez-le selon vos besoins.
-1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Créer un rapport personnalisé]**.
-1. Nommez le rapport, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-   Vérifiez que ce nom n’existe pas déjà.
-
->[!MORELIKETHIS]
->
->* [Personnalisation des menus](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=fr)
-
 
 ## Sélectionner une date ou une période {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
@@ -90,13 +63,17 @@ Il est impossible de comparer les dates entre des rapports de tendances.
 >
 >Si vous souhaitez réaliser une comparaison de dates sur des mesures clés d’un tableau de bord, vous pouvez extraire les données dans [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=fr) à l’aide de deux requêtes distinctes. Vous utilisez ensuite des formules personnalisées dans Excel afin d’analyser la différence entre les deux.
 
-Pour comparer les dates entre des rapports de classement dans Reports &amp; Analytics :
+<!-- delete this procedure, but what about this entire "Compare dates" section?
 
-1. Exécutez un rapport.
-1. Cliquez sur le calendrier en haut à droite.
-1. Cliquez sur **[!UICONTROL Comparer les dates]**.
-1. Sélectionnez les dates à utiliser.
-1. Cliquez sur **[!UICONTROL Exécuter le rapport]**.
+To compare dates between ranked reports in Reports & analytics: 
+
+1. Run a report.
+1. Click the calendar at the top right.
+1. Click **[!UICONTROL Compare Dates]**.
+1. Select the dates you want to use.
+1. Click **[!UICONTROL Run Report]**.
+
+-->
 
 ## Afficher des pourcentages sous forme de graphique {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
@@ -181,7 +158,7 @@ Pour comparer des suites de rapports:
 
 ## Spécifier la granularité d’un rapport {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-Vous pouvez afficher les totaux des rapports sur une base horaire, quotidienne, hebdomadaire, mensuelle, trimestrielle ou annuelle.
+Vous pouvez afficher les totaux des rapports par heure, jour, semaine, mois, trimestre ou année.
 
 <!-- 
 
@@ -212,19 +189,3 @@ Pour exécuter un rapport Jour de la semaine:
 
 1. Exécutez un rapport de tendances pour une période spécifiée.
 1. Cliquez sur le lien **[!UICONTROL Jour de la semaine]**, puis cliquez sur un jour.
-
-## Bouton Essayer dans l’espace de travail {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
-
-Un clic sur le bouton **[!UICONTROL Essayer dans l’espace de travail]** situé en haut d’un rapport entraîne le chargement de ce rapport dans Analysis Workspace.
-
-<!-- 
-
-try_in_workspace.xml
-
- -->
-
-La plupart des rapports dans Reports &amp; Analytics contiennent désormais un bouton Essayer dans l’espace de travail qui vous permet de reproduire la vue actuelle dans Analysis Workspace à des fins de personnalisation.
-
-Actuellement, le bouton n’est disponible que si votre nom d’utilisateur dispose des droits complets dans Analysis Workspace.
-
-Pour plus d’informations sur tous les moyens de personnaliser votre rapport, reportez-vous au guide [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr).

@@ -6,20 +6,18 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 91%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
 # Alertes
 
-{{ra-eol}}
-
 ## Alertes {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Grâce aux alertes intelligentes du nouveau système d’alerte d’Adobe Analytics, vous pouvez créer et gérer des alertes, les prévisualiser et gérer les contributions. Vous pouvez
+Grâce aux alertes intelligentes du système d’alerte d’Adobe Analytics, vous pouvez créer et gérer des alertes, mais aussi en prévisualiser les alertes et gérer les contributions. Vous pouvez
 
 * Créer des alertes en fonction des anomalies (seuils de 90 %, 95 % ou 99 % ; % de changement ; au-dessus/au-dessous).
 * Prévisualiser le nombre de fois où une alerte sera déclenchée.
@@ -44,7 +42,7 @@ t_add_an_alert.xml
 
 1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** pour ouvrir le Générateur d’alertes.
 
-### Ajout d’une alerte à partir d’un rapport spécifique
+### Ajout d’une alerte à partir d’un rapport
 
 1. Dans Reports &amp; Analytics, ouvrez le rapport dans lequel définir une alerte.
 1. Cliquez sur **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
