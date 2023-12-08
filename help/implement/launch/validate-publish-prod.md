@@ -3,9 +3,9 @@ title: Validation de la mise en œuvre d’un développement et publication en p
 description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '622'
 ht-degree: 72%
 
 ---
@@ -22,7 +22,7 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 Le débogueur Experience Cloud est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
 
-1. Installez l’extension pour : [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou [Firefox](https://addons.mozilla.org/fr/firefox/addon/adobe-experience-platform-dbg/).
+1. Installez l’extension pour : [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
 3. Cliquez sur l’icône du débogueur Adobe Experience Cloud dans votre navigateur.
 4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
@@ -35,10 +35,10 @@ Une fois que vous avez validé l’affichage des données, vous pouvez transmett
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Publication]** et recherchez votre bibliothèque dans la colonne de développement.
 1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Envoyer pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer à des fins d’évaluation]**.
 1. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
 1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la [!UICONTROL Approuvé] ), puis sélectionnez **[!UICONTROL Création et publication en production]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la [!UICONTROL Approuvé] ), puis sélectionnez **[!UICONTROL Créer et publier dans l’environnement de production]**.
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
 1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 
@@ -58,7 +58,7 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 * Il n’y a aucune erreur JavaScript dans la console. Consultez les propriétaires du site web de votre organisation pour vous assurer que toutes les erreurs JS sont résolues.
 * Le code d’en-tête est correctement mis en œuvre : assurez-vous que le code d’en-tête se trouve à l’intérieur de la balise `<head>` et que le fichier existe.
 * La bibliothèque AppMeasurement existe : accédez directement à la source JS pour vous assurer que le fichier JS contient du code. Dans le cas contraire, assurez-vous que chaque environnement est créé et que la bibliothèque est publiée dans son environnement respectif.
-* Interfération d’extensions : Certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
+* Interfération d’extensions : certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
 
 ## Étapes suivantes
 
