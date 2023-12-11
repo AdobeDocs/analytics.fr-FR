@@ -3,10 +3,10 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3827'
-ht-degree: 100%
+source-wordcount: '3879'
+ht-degree: 97%
 
 ---
 
@@ -87,7 +87,7 @@ Identifiez les visiteurs qui ont consulté une page, puis consulté une autre pa
 
 Vous trouverez ci-dessous des exemples d’utilisation du segment :
 
-1. Les visiteurs d’un site dédié au sport consultent la page d’entrée « football », puis la page d’entrée « basketball » en ordre séquentiel mais pas nécessairement lors de la même visite. Cela invite à créer une campagne visant à « pousser » le contenu de la page « basketball » vers les visiteurs de la page « football » au cours de la saison de football.
+1. Les visiteurs d’un site dédié au sport consultent la page de destination « football », puis la page de destination « basketball » en ordre séquentiel mais pas nécessairement lors de la même visite. Cela invite à créer une campagne visant à « pousser » le contenu de la page « basketball » vers les visiteurs de la page « football » au cours de la saison de football.
 1. Un concessionnaire automobile identifie une relation entre ceux qui accèdent à la page de fidélité des clients, puis à la page vidéo à n’importe quel moment au cours de la visite ou d’une autre visite.
 
 **Créer ce segment**
@@ -107,7 +107,7 @@ Identifiez les visiteurs qui ont abandonné une campagne, mais sont revenus à l
 Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
 * Le visiteur d’un site de nouvelles consulte la page Sports, puis la consulte à nouveau lors d’une autre visite.
-* Un détaillant en vêtements constate une relation entre les visiteurs qui accèdent à une page d’entrée lors d’une visite et qui se rendent directement à la page de passage en caisse lors d’une autre visite.
+* Un détaillant en vêtements constate une relation entre les visiteurs qui accèdent à une page de destination lors d’une visite et qui se rendent directement à la page de passage en caisse lors d’une autre visite.
 
 **Créer ce segment**
 
@@ -146,7 +146,7 @@ L’ajout de plusieurs conteneurs [!UICONTROL Accès] à l’intérieur d’un c
 
 Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
-* Identifiez les visiteurs qui accèdent à la page d’entrée principale lors d’une visite, puis consultent la page des vêtements pour hommes lors d’une autre visite, puis la page d’entrée Femmes ou Enfants lors d’une autre visite.
+* Identifiez les visiteurs qui accèdent à la page de destination principale lors d’une visite, puis consultent la page des vêtements pour hommes lors d’une autre visite, puis la page de destination Femmes ou Enfants lors d’une autre visite.
 * Un magasin en ligne capture les visiteurs qui accèdent à la page d’accueil lors d’une visite, à la page Sports lors d’une autre visite et la page Opinion lors d’une autre visite.
 
 **Créer ce segment**
@@ -181,11 +181,11 @@ Les règles de segmentation incluent toutes les données, à moins que vous n’
 
 Par exemple :
 
-* **Exclure des pages**. Utilisez une règle de segmentation afin d’exclure une page spécifique   *`Home Page`*) d’un rapport. Créez une règle Accès dans laquelle la page est égale à « Page d’accueil », puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
+* **Exclure des pages**. Utilisez une règle de segmentation pour exclure une page spécifique (telle que *`Home Page`*) d’un rapport, créez une règle Accès dans laquelle la page est égale à &quot;Page d’accueil&quot;, puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
 * **Exclure des domaines référents**. Utilisez une règle qui inclut uniquement des domaines référents de Google.com et exclut tous les autres.
 * **Identifier les non-acheteurs**. Identifiez les commandes dont la valeur est supérieure à zéro et excluez ensuite le [!UICONTROL Visiteur].
 
-L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. Les [!UICONTROL points de contrôle d’exclusion] peuvent également être inclus dans un conteneur   [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. [!UICONTROL Exclure les points de contrôle] peut également être inclus dans une [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclure entre les points de contrôle
 
@@ -198,11 +198,11 @@ Impose la logique de segmentation des visiteurs lorsqu’un point de contrôle n
 Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
 * Visiteurs de la page Style de vie, puis de la section Théâtre sans passer par la page Arts.
-* Un concessionnaire automobile constate une relation entre ceux qui visitent la page d’entrée principale, puis passent directement à la campagne « Sans intérêt » sans accéder à la page « Véhicule ».
+* Un concessionnaire automobile constate une relation entre ceux qui visitent la page de destination principale, puis passent directement à la campagne « Sans intérêt » sans accéder à la page « Véhicule ».
 
 **Créer ce segment**
 
-Créez un segment comme vous le feriez pour un segment   segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLUDE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
+Créez un segment comme vous le feriez pour un segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez la variable [!UICONTROL EXCLURE] pour l’élément conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -210,7 +210,7 @@ Créez un segment comme vous le feriez pour un segment   segment séquentiel sim
 
 Si le point de contrôle d’exclusion se situe au début d’un segment séquentiel, cette option s’assure qu’une page exclue n’a pas été vue avant le premier accès non exclu.
 
-Par exemple, un restaurant veut voir les utilisateurs réguliers qui évitent la page de destination principale et vont directement à la page Commander à emporter. Cet exemple peut être simplifié à un visiteur qui évite de visiter la page A et accède directement à la page B.
+Par exemple, un restaurant souhaite afficher les utilisateurs qui ont tendance à éviter la page d’entrée principale et qui accèdent directement à la page Commande à emporter. Vous pouvez afficher ces données en excluant les accès à la page d’entrée et en incluant les accès à la page de commande dans un segment séquentiel.
 
 **Créer ce segment**
 
@@ -348,9 +348,9 @@ Vous pouvez limiter la correspondance à une durée spécifique en utilisant les
 
 La durée est spécifiée par une seule lettre majuscule représentant la granularité, suivie d’un nombre indiquant le nombre de répétitions de la granularité.
 
-**[!UICONTROL Within]** inclut le point de terminaison (inférieur à ou égal à).
+**[!UICONTROL Within]** inclut le point d’entrée (inférieur à ou égal à).
 
-**[!UICONTROL After]** n’inclut pas le point de terminaison (supérieur à).
+**[!UICONTROL After]** n’inclut pas le point d’entrée (supérieur à).
 
 | Opérateurs | Description |
 |--- |--- |
@@ -403,7 +403,7 @@ Les correspondances doivent se produire dans la limite temporelle définie. Dans
 
 ### Opérateurs Within et After
 
-Utilisez les opérateurs [!UICONTROL Within] et [!UICONTROL After] pour fournir un point de terminaison maximum et minimum aux deux extrémités d’un segment.
+Utilisez les opérateurs [!UICONTROL Within] et [!UICONTROL After] pour fournir un point d’entrée maximum et minimum aux deux extrémités d’un segment.
 
 **Exemple** : visiteurs qui ont consulté la page A, puis ont accédé à la page B dans un délai de deux semaines à un mois.
 
