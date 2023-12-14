@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 95%
    + [Sources de données](admin/data-sources.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
-   + Gestionnaire des activités de rapport {#reporting-activity-manager}
+   + Gestionnaire des activités de création de rapports {#reporting-activity-manager}
       + [Vue d’ensemble](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Afficher l’activité de rapport](admin//reporting-activity-manager/reporting-activity.md)
       + [Annuler des demandes de création de rapports](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -71,7 +71,7 @@ ht-degree: 95%
                + [Astuces et conseils concernant les règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Règles de robots {#bot-removal}
                + [Suppression de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Règles de robots - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Comprendre et configurer des règles de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Signatures de robots courantes](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Méthodes d’exclusion de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Paramètres de confidentialité](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -177,12 +177,12 @@ ht-degree: 95%
       + [Alertes d’utilisation des appels au serveur](admin/c-server-call-usage/scu-alerts.md)
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
    + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
-      + [Gestion des utilisateurs et des produits  (Hérité)](admin/user-management2/user-management.md)
-      + [Transférer des ressources des utilisateurs et utilisatrices ou définir l’expiration du compte](admin/user-management2/users-assets.md)
+      + [Gestion des utilisateurs et des produits (héritée)](admin/user-management2/user-management.md)
+      + [Transfert de ressources utilisateur ou définition de l’expiration du compte](admin/user-management2/users-assets.md)
       + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
-         + [Migration de comptes utilisateur Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
-         + [Migrer des comptes utilisateur Analytics sous la forme d’Enterprise ID et de Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
+         + [Migration de comptes d’utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)
          + [Désactiver les comptes hérités](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API affectées par la migration](admin/user-management2/user-migration/developer.md)
 + [API d’administration](c-admin-api/c-admin-api.md)

@@ -3,16 +3,16 @@ title: Suppression de robots dans Adobe Analytics
 description: Comment supprimer des robots dans Adobe Analytics ?
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 84%
+source-wordcount: '763'
+ht-degree: 81%
 
 ---
 
 # Suppression de robots dans Adobe Analytics
 
-Dans Adobe Analytics, vous disposez de plusieurs options pour supprimer le trafic des robots des rapports :
+Adobe Analytics propose plusieurs options pour supprimer le trafic de robots des rapports :
 
 ## Utiliser des règles de robots
 
@@ -23,7 +23,7 @@ Les méthodes de filtrage de robots standard et personnalisées sont prises en c
 | Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
 | Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
-Pour plus d’informations, voir [Présentation des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Pour plus d’informations, voir [Comprendre et configurer des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Utilisez le plug-in [!UICONTROL websiteBot] pour identifier les robots.
 
