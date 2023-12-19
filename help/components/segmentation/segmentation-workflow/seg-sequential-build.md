@@ -3,10 +3,10 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
+source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
 workflow-type: tm+mt
-source-wordcount: '3879'
-ht-degree: 97%
+source-wordcount: '3934'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,7 @@ Regardez cet aperçu vidéo sur la segmentation séquentielle :
 Lors de la création d’un segment pour lequel « Inclure tout le monde » est sélectionné, le segment identifie les chemins correspondant au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
 
 ![](/help/admin/admin/assets/filter.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
 
 | Si le résultat… | Séquence |
 |--- |--- |
@@ -343,6 +344,16 @@ Utilisez les opérateurs [!UICONTROL Within] et [!UICONTROL After] intégrés da
 ![](assets/then_within_operators.png)
 
 Vous pouvez limiter la correspondance à une durée spécifique en utilisant les conteneurs [!UICONTROL Within] et [!UICONTROL After], et en indiquant une granularité et un nombre. L’opérateur [!UICONTROL Within] est utilisé pour spécifier une limite de temps maximale entre deux points de contrôle. L’opérateur [!UICONTROL After] est, pour sa part, utilisé pour spécifier une limite de temps minimale entre deux points de contrôle.
+
+>[!NOTE]
+>
+>Il existe des différences d’évaluation entre des éléments portant le même nom, tels que **Jour(s)** ou **Jour**. Pour obtenir des définitions temporelles de Within et After, utilisez les options répertoriées en premier dans la fenêtre contextuelle :
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>
+>Pour les définitions basées sur les dimensions de Within et After, utilisez les options du sous-menu . *Autres Dimensions*:
+>
+>![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Opérateurs After et Within  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
