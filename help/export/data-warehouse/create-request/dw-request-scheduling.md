@@ -2,22 +2,15 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 15%
+source-wordcount: '287'
+ht-degree: 9%
 
 ---
 
 # Configuration des options de planification pour une requête de Data Warehouse
-
->[!AVAILABILITY]
->
->Certaines des fonctionnalités de Data Warehouse décrites dans cet article (ainsi que d’autres articles de Data Warehouse de cette section) sont disponibles uniquement dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement.
->
->Pour plus d’informations sur les fonctionnalités qui ne sont pas encore disponibles pour tous les clients, ainsi que pour plus d’informations sur le calendrier de publication de ces fonctionnalités, voir la section [notes de mise à jour](/help/release-notes/latest.md).
->
->Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes décrivent comment configurer les options de planification pour la requête.
 
@@ -39,12 +32,11 @@ Pour configurer les options de planification d’une requête de Data Warehouse 
    |---------|----------|
    | [!UICONTROL **Envoyer le rapport maintenant**] | Envoie le rapport sous la forme d’un rapport unique. Lorsque cette option est sélectionnée, toutes les options de planification sont masquées. |
    | [!UICONTROL **Planifier pour plus tard**] | Fournit des options pour planifier la remise des rapports. Toutes les options sont décrites ci-dessous. |
-   | [!UICONTROL **Fréquence du rapport**] | Fréquence de remise des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>[!UICONTROL **Horaire**] est disponible uniquement lorsque la variable [!UICONTROL **Plages de dates**] sur l’option [!UICONTROL **Paramètres généraux**] est défini sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul><p>D&#39;autres options s&#39;affichent en fonction de la fréquence sélectionnée.</p> |
-   | [!UICONTROL **Début le**] | Date à laquelle le nouveau planning doit commencer. |
-   | [!UICONTROL **Heure**] | Heure de la journée d’envoi du rapport. |
-   | [!UICONTROL **Options de diffusion**] | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais se terminer, de ne pas terminer après un nombre spécifique d’occurrences ou de terminer à une date spécifique. |
+   | [!UICONTROL **Fréquence des rapports**] | Fréquence de remise des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>[!UICONTROL **Horaire**] est disponible uniquement lorsque la variable [!UICONTROL **Plages de dates**] sur l’option [!UICONTROL **Paramètres généraux**] est défini sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul><p>D&#39;autres options s&#39;affichent en fonction de la fréquence sélectionnée.</p> |
+   | [!UICONTROL **Démarrage le**] | Date à laquelle le nouveau planning doit commencer. |
+   | [!UICONTROL **Heure de la journée**] | Heure de la journée d’envoi du rapport. |
+   | [!UICONTROL **Options de diffusion de fin**] | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais se terminer, de ne pas terminer après un nombre spécifique d’occurrences ou de terminer à une date spécifique. |
 
    {style="table-layout:auto"}
 
 1. Poursuivez la configuration de votre requête de Data Warehouse sur le [!UICONTROL **Email de notification**] . Pour plus d’informations, voir [Configuration d’un courrier électronique de notification pour une demande de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).
-

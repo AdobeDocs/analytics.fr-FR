@@ -2,22 +2,15 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration des options de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 16%
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 # Configuration d’un courrier électronique de notification pour une demande de Data Warehouse
-
->[!AVAILABILITY]
->
->Certaines des fonctionnalités de Data Warehouse décrites dans cet article (ainsi que d’autres articles de Data Warehouse de cette section) sont disponibles uniquement dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement.
->
->Pour plus d’informations sur les fonctionnalités qui ne sont pas encore disponibles pour tous les clients, ainsi que pour plus d’informations sur le calendrier de publication de ces fonctionnalités, voir la section [notes de mise à jour](/help/release-notes/latest.md).
->
->Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes décrivent comment configurer un email de notification pour la demande.
 
@@ -37,7 +30,7 @@ Pour configurer un email de notification pour une demande de Data Warehouse :
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Envoyer un e-mail de notification à**] | Indiquez les adresses électroniques des personnes qui doivent recevoir des notifications par courrier électronique lors de l’envoi du rapport. <p>Vous pouvez spécifier une seule adresse électronique ou une liste d’adresses électroniques séparées par des virgules.</p> |
+   | [!UICONTROL **Envoyer un courrier électronique de notification à**] | Indiquez les adresses électroniques des personnes qui doivent recevoir des notifications par courrier électronique lors de l’envoi du rapport. <p>Vous pouvez spécifier une seule adresse électronique ou une liste d’adresses électroniques séparées par des virgules.</p> |
    | [!UICONTROL **Options avancées**] | Sélectionnez cette option pour inclure un objet et des notes pour le courrier électronique lorsque la notification est envoyée. |
 
    {style="table-layout:auto"}

@@ -2,22 +2,15 @@
 description: Description de la procédure de création d’une demande Data Warehouse.
 title: Configuration des options de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
-source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
+exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 18%
+source-wordcount: '449'
+ht-degree: 9%
 
 ---
 
 # Configuration des options de rapport pour une requête de Data Warehouse
-
->[!AVAILABILITY]
->
->Certaines des fonctionnalités de Data Warehouse décrites dans cet article (ainsi que d’autres articles de Data Warehouse de cette section) sont disponibles uniquement dans la phase de test limité de la version et peuvent ne pas être encore disponibles dans votre environnement.
->
->Pour plus d’informations sur les fonctionnalités qui ne sont pas encore disponibles pour tous les clients, ainsi que pour plus d’informations sur le calendrier de publication de ces fonctionnalités, voir la section [notes de mise à jour](/help/release-notes/latest.md).
->
->Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes expliquent comment configurer les options de rapport pour la requête.
 
@@ -37,16 +30,16 @@ Pour configurer les options de rapport pour une demande de Data Warehouse :
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. <p>Si le nom de fichier contient l’un des caractères spéciaux suivants, la requête ne peut pas être enregistrée : <code>! &quot; # $ &amp; ’ ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s’il est suivi de &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, comme suit : <code>%R</code>, <code>%rsid</code>, et <code>%id</code>.</p> |
+   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. <p>Si le nom de fichier contient l’un des caractères spéciaux suivants, la requête ne peut pas être enregistrée : <code>! &quot; # $ &amp; ’ ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s’il est suivi de &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, comme suit : <code>%R</code>, <code>%rsid</code>, et <code>%id</code>.</p> |
    | [!UICONTROL **Ajout de la plage de dates du rapport au nom de fichier**] | Ajoute la plage de dates au nom du fichier de rapport. <p>Par exemple, si vous demandez des données du 1er mai 2024 au 7 mai 2024, le nom du fichier comprend la plage de dates 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Diffuse des rapports au format CSV pour l’affichage des données dans une feuille de calcul. |
    | [!UICONTROL **Tableau (TDE)**] | Fournit des rapports au format de fichier TDE (Tableau Data Extract), qui peut être utilisé pour visualiser les données et les couches dans les données additionnelles de Tableau. |
    | [!UICONTROL **Envoi du rapport sous forme de fichier compressé (ZIP)**] | Diffuse les rapports au format compressé (ZIP). Nous vous recommandons d’activer cette option lorsque vous utilisez l’e-mail comme [destination du rapport](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | [!UICONTROL **Renvoyer toutes les lignes**] | Lorsque cette option est activée, toutes les lignes sont incluses dans le rapport. Désactivez cette option pour spécifier le nombre de lignes à inclure. |
-   | [!UICONTROL **Début des commentaires sur le rapport**] | Ajoutez tous les commentaires que vous souhaitez inclure au rapport. Les commentaires apparaissent au début du rapport. |
-   | [!UICONTROL **Trier par mesures**] | Fournit des rapports de répartition avec classement dans Data Warehouse, triés par valeurs de mesure décroissantes. Le tri par mesure permet d’interpréter plus facilement les rapports de Data Warehouse. Il est aussi plus facile de comparer ces rapports à d’autres rapports de répartition des analyses.<p>Pour plus d’informations, voir [Tri par mesure](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | [!UICONTROL **Envoyer un fichier manifeste**] | Inclut des métadonnées sur les fichiers inclus dans le rapport.<!-- What kind of metadata is included in the manifest file? --> |
-   | [!UICONTROL **Envoyer un fichier de signature numérique**] | Permet aux destinataires du rapport de vérifier que le fichier provient bien d’un Adobe et qu’il n’a pas été modifié. |
+   | [!UICONTROL **Renvoie toutes les lignes**] | Lorsque cette option est activée, toutes les lignes sont incluses dans le rapport. Désactivez cette option pour spécifier le nombre de lignes à inclure. |
+   | [!UICONTROL **Début des commentaires de rapport**] | Ajoutez tous les commentaires que vous souhaitez inclure au rapport. Les commentaires apparaissent au début du rapport. |
+   | [!UICONTROL **Tri par mesures**] | Fournit des rapports de ventilation avec classement en Data Warehouse, triés par valeur de mesure décroissante. Le tri par mesure permet d’interpréter plus facilement les rapports de Data Warehouse. Il est aussi plus facile de comparer ces rapports à d’autres rapports de répartition des analyses.<p>Pour plus d’informations, voir [Tri par mesure](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Envoi d’un fichier manifeste**] | Inclut des métadonnées sur les fichiers inclus dans le rapport.<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **Envoi d’un fichier de signature numérique**] | Permet aux destinataires du rapport de vérifier que le fichier provient bien d’un Adobe et qu’il n’a pas été modifié. |
    | [!UICONTROL **Envoyer un fichier vide lorsqu’il n’y a pas de données dans le rapport**] | Envoie un rapport même si le rapport ne contient aucune donnée. |
 
    {style="table-layout:auto"}

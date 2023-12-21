@@ -4,21 +4,14 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 5%
 
 ---
 
 # Gérer les demandes de Data Warehouse
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->Si votre entreprise ne dispose pas encore de la nouvelle expérience de Data Warehouse, qui sera disponible prochainement pour tous les clients, utilisez les informations de la section [Gestion des requêtes de Data Warehouse (ancienne expérience)](#manage-data-warehouse-requests-old-experience) au bas de cette page.
-
 
 Vous pouvez afficher et gérer les demandes de Data Warehouse que vous avez effectuées. Seuls les administrateurs peuvent afficher et gérer les requêtes effectuées par d’autres utilisateurs de leur entreprise.
 
@@ -89,13 +82,13 @@ Vous pouvez afficher l’historique des demandes de Data Warehouse que vous avez
    | Colonne | Description |
    |---------|----------|
    | [!UICONTROL **Date de création**] | Date et heure de création du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
-   | [!UICONTROL **Date de début**] | Date et heure de début du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
+   | [!UICONTROL **Date de démarrage**] | Date et heure de début du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
    | [!UICONTROL **Date d’achèvement**] | Date et heure auxquelles le rapport s’est terminé.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
    | [!UICONTROL **Date de mise à jour**] | Date et heure de la dernière mise à jour du rapport.<p>Celui-ci s’affiche dans le fuseau horaire de l’utilisateur qui a initié la requête.</p> |
    | [!UICONTROL **Statut**] | Statut de la diffusion du rapport. Les statuts possibles sont les suivants :<ul><li>[!UICONTROL **Créé**]: le rapport a été créé mais n’a pas encore été traité.</li><li>[!UICONTROL **En attente**]: le rapport est en attente de traitement.</li><li>[!UICONTROL **Traitement**]: le rapport est en cours de traitement.</li><li>[!UICONTROL **Terminé**]: le rapport est terminé et est désormais disponible.</li><li>[!UICONTROL **Planifié**]: le rapport est planifié mais n’a pas encore commencé.</li><li>[!UICONTROL **Annulé**]: le rapport a été annulé par l’utilisateur.</li><li>[!UICONTROL **Error - Processing**:] Le rapport a rencontré une erreur et n’a pas pu être traité.</li><li>[!UICONTROL **Erreur - Échec de l’envoi**]: le rapport a été généré avec succès mais n’a pas pu être remis. Vérifiez les [configuration de votre destination](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), puis renvoyez le rapport.</li></ul>. |
    | [!UICONTROL **De**] | Date de début de la période globale incluse dans le rapport.<p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
    | [!UICONTROL **À**] | Date de fin de la période globale incluse dans le rapport. <p>Il s’affiche dans le fuseau horaire de la suite de rapports.</p> |
-   | [!UICONTROL **ID de la demande héritée**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
+   | [!UICONTROL **Identifiant de requête hérité**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse héritée. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
    | [!UICONTROL **Identifiant de rapport**] | Identifiant utilisé pour identifier un rapport dans l’interface de Data Warehouse actuelle. Cet identifiant peut être nécessaire lorsque vous contactez l’assistance clientèle d’Adobe. |
 
 
@@ -106,7 +99,7 @@ Vous pouvez afficher l’historique des demandes de Data Warehouse que vous avez
    | [!UICONTROL **Détails de la destination**] | Affiche les détails du compte et de l’emplacement associés à la requête. Il s’agit du compte et de l’emplacement qui ont été configurés précédemment, comme décrit à la section [Configuration d’une destination de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Annuler le rapport**] | Annule le rapport. Vous ne pouvez pas annuler les rapports dont l’état est [!UICONTROL **Terminé**] ou [!UICONTROL **Annulé**]. |
    | [!UICONTROL **Réexécuter le rapport**] | Exécute à nouveau le rapport avec les données telles qu’elles étaient lors de son envoi initial. Vous pouvez réexécuter un rapport dont les états sont les suivants : [!UICONTROL **Annulé**], [!UICONTROL **Terminé**], [!UICONTROL **Error - Processing**], ou [!UICONTROL **Erreur - Échec de l’envoi**]. |
-   | [!UICONTROL **Renvoyer le rapport**] | Renvoie le fichier de rapport qui a été généré précédemment. Vous pouvez renvoyer un rapport dont les états sont les suivants : [!UICONTROL **Terminé**] ou [!UICONTROL **Erreur - Échec de l’envoi**]. |
+   | [!UICONTROL **Rapport de renvoi**] | Renvoie le fichier de rapport qui a été généré précédemment. Vous pouvez renvoyer un rapport dont les états sont les suivants : [!UICONTROL **Terminé**] ou [!UICONTROL **Erreur - Échec de l’envoi**]. |
 
 ## Copie de requêtes
 
@@ -179,31 +172,3 @@ Vous pouvez configurer les informations affichées pour chaque requête en ajout
 1. Dans le champ de recherche situé en haut de la page du Data Warehouse, indiquez le nom de la requête à afficher.
 
    Les requêtes sont filtrées au fur et à mesure que vous tapez.
-
-## Gestion des requêtes de Data Warehouse (ancienne expérience)
-
->[!NOTE]
->
->Les informations suivantes s’appliquent uniquement si votre entreprise ne dispose pas encore de la nouvelle expérience de Data Warehouse, qui sera disponible prochainement pour tous les clients Analytics.
-
-
-Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.
-
-Dans Data Warehouse, sélectionnez l’onglet **[!UICONTROL Gestionnaire de requêtes]**.
-
-L’utilisation de cet onglet permet :
-
-* D’afficher les requêtes de rapports récentes par nom de rapport, segment appliqué, demandeur et date et statut de la demande.
-* De dupliquer les requêtes. Cliquez sur **[!UICONTROL Dupliquer]** en regard de la requête.
-
-  >[!NOTE]
-  >
-  >Cette action ne duplique que la requête, pas les détails de planification ou de diffusion.
-
-* De rechercher des rapports par nom de rapport ou par nom de connexion du demandeur.
-* De reclasser les rapports par priorité en les faisant glisser et en les déposant à un nouvel emplacement dans la file d’attente.
-* Pour savoir à quel moment a commencé le traitement d’une demande, cliquez sur un ID de demande planifiée et observez le pop-up qui s’ouvre.
-
-Cliquez sur une tâche pour afficher les requêtes individuelles de cette tâche.
-
-* Taux limité : votre entreprise comporte trop de demandes de Data Warehouse en cours d’exécution. La requête est suspendue jusqu’à ce que d’autres requêtes de données soient terminées.
