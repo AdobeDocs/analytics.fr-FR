@@ -3,10 +3,10 @@ title: Événements de page
 description: Nombre d’actions de suivi des liens déclenchées.
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ Les &quot;Événements de page&quot; [metric](overview.md) indique le nombre de 
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure comptabilise tous les [Appels de suivi de liens (`tl()`)](/help/implement/vars/functions/tl-method.md) dans une suite de rapports. Tous les types de liens sont inclus (liens personnalisés, liens de téléchargement et liens de sortie). Elle n’inclut pas [Appels de suivi des pages vues (`t()`)](/help/implement/vars/functions/t-method.md).
+Cette mesure comptabilise tous les [Appels de suivi de liens (`tl()`)](/help/implement/vars/functions/tl-method.md) dans une suite de rapports. Tous les types de lien sont inclus dans cette mesure, en particulier [Liens personnalisés](../dimensions/custom-link.md), [Liens de téléchargement](../dimensions/download-link.md), et [Liens de sortie](../dimensions/exit-link.md). Elle n’inclut pas [Appels de suivi des pages vues (`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## Comparaison avec des mesures similaires
 
