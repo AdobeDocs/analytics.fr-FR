@@ -3,25 +3,24 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 835b7b07e46de4aa5dc0ae27bc9dee9c083660ad
+source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 96%
+source-wordcount: '980'
+ht-degree: 87%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (octobre/novembre 2023)
+# Notes de mise à jour actuelles d’Adobe Analytics (janvier 2024)
 
 **Dernière mise à jour** : mardi 8 janvier 2024
 
-Ces notes de mise à jour portent sur la période du 23 octobre 2023 à la mi-janvier 2024. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période de janvier 2024. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Améliorations apportées au gestionnaire des activités de rapport** | Le gestionnaire des activités de rapport vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre organisation. Il offre aux administrateurs et administratrices une visibilité détaillée sur la consommation de rapports et permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports. Voici quelques-unes des améliorations désormais disponibles dans le gestionnaire des activités de rapport : <ul><li>Limiter les demandes ultérieures : en plus d’annuler des demandes en cours, les administrateurs et administratrices peuvent désormais limiter les demandes pour une période définie. Les administrateurs et administratrices peuvent limiter les demandes par demande, projet et utilisateur ou utilisatrice.</li><li>Outre les mesures Utilisation et Capacité, le gestionnaire des activités de rapport inclut désormais plus de données sur l’activité de création de rapports : colonne Complexité, colonne Utilisateur et colonne Connexion.</li><li>Toutes les annulations et restrictions effectuées dans le gestionnaire des activités de rapport sont désormais visibles dans le Journal d’audit. Les administrateurs et administratrices peuvent utiliser le journal d’audit pour afficher les annulations en cours. Le processus d’annulation ne peut pas être annulé dans le gestionnaire des activités de rapport ou dans le journal d’audit.</li></ul><p>Pour plus d’informations, voir [Présentation du gestionnaire des activités de rapport](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).</p> | 17 octobre 2023 | 24 octobre 2023 |
-| **Améliorations de Data Warehouse** | Lors de la création d’une requête de Data Warehouse, vous pouvez désormais configurer un compte cloud à utiliser comme destination du rapport. Les types de compte cloud suivants sont disponibles pour l’envoi de données :<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li><li>E-mail (cette option était auparavant disponible)</li></ul>FTP, SFTP, Azure Blob et S3 sont toujours disponibles en tant que destinations de rapport, mais ne sont plus recommandés.<p>L’expérience client lors de la création et de la gestion de requêtes de Data Warehouse a également été améliorée. Pour plus d’informations, voir [Créer une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md) et [Gérer des requêtes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=fr). | 12 septembre 2023 | samedi 15 décembre 2023 |
+| **Mises à jour du Data Warehouse** | Les améliorations de Data Warehouse suivantes sont désormais disponibles :<ul><li>Lors de la création d’une requête de Data Warehouse, les utilisateurs peuvent désormais mettre les requêtes à la disposition de tous les utilisateurs de l’organisation en activant le nouveau bouton nommé [!UICONTROL **Mise à disposition des utilisateurs de votre entreprise**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Lors de la création ou de la gestion de destinations de rapports de Data Warehouse, les administrateurs système peuvent désormais afficher les comptes et emplacements créés par les utilisateurs de l’entreprise en activant le bouton d’activation appelé [!UICONTROL **Afficher toutes les destinations**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | S.O. | jeudi 10 janvier 2024 |
 
 {style="table-layout:auto"}
 

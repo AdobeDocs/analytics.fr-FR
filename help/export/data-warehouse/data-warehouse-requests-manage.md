@@ -4,9 +4,9 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 5%
 
 ---
@@ -153,7 +153,7 @@ Vous pouvez configurer les informations affichées pour chaque requête en ajout
    | Suite de rapports | Suite de rapports associée à la requête. |
    | Demandé par | L’utilisateur qui a créé la requête. |
    | Date de la demande | Date à laquelle la demande a été faite. |
-   | État | Les statuts suivants sont disponibles :<ul><li><p>**Terminé**: l’exécution de la requête a réussi.</p></li><li><p>**Annulé**: la demande a été annulée par l’utilisateur.</p></li><li><p>**Planifié**: la requête est configurée pour s’exécuter selon un calendrier.</p></li><!-- Are there other statuses? Failed? --> |
+   | État | Les statuts suivants sont disponibles :<ul><li><p>**Terminé**: l’exécution de la requête a réussi.</p></li><li><p>**Annulé**: la demande a été annulée par l’utilisateur.</p></li><li><p>**Planifié**: la requête est configurée pour s’exécuter selon un calendrier.</p></li><li><p>**En échec**: la requête n’a pas abouti. Si la demande échoue toujours, contactez le service clientèle.</p></li></ul> |
 
    {style="table-layout:auto"}
 
