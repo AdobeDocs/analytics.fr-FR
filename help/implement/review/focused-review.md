@@ -3,7 +3,7 @@ title: Révision ciblée (après chaque mise à jour de site web)
 description: Suivez ces étapes pour vous assurer que votre implémentation reste dénuée d’erreurs et conforme à vos indicateurs clés de performance.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: fdb134bd75fce450ac891c2742be2045f7c5e4db
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 74%
@@ -23,7 +23,7 @@ Connaître vos 5 principaux indicateurs clés de performances (KPI) vous aidera 
 Rappelez-vous qu’au fil du temps, les mises à jour du code peuvent avoir des ramifications inattendues. Vérifiez que toutes les mesures et dimensions associées à vos [cinq principaux indicateurs clés de performance](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, ceci est fait juste après la publication d’un site web ; si vous ne l’avez pas fait au cours des derniers mois, faites-le. *now*. Pour ce faire :
 
 * Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables importantes (ou définissez des [alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) pour chaque mesure). Ensuite, surveillez-les pendant un ou deux jours pour vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
-* Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) pour surveiller les tendances générales des mesures et variables de vos indicateurs clés de performance.
+* Exécutez à nouveau [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) pour surveiller les tendances générales des mesures et variables de vos indicateurs clés de performance.
 
 *Pour plus d’informations concernant les manières de vous assurer que vos mesures et variables fonctionnent correctement, [consultez les conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, Adobe Analytics Champion.*
 
