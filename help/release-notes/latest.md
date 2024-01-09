@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 87%
+source-wordcount: '1002'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Ces notes de mise à jour portent sur la période de janvier 2024. Les mises à 
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Mises à jour du Data Warehouse** | Les améliorations de Data Warehouse suivantes sont désormais disponibles :<ul><li>Lors de la création d’une requête de Data Warehouse, les utilisateurs peuvent désormais mettre les requêtes à la disposition de tous les utilisateurs de l’organisation en activant le nouveau bouton nommé [!UICONTROL **Mise à disposition des utilisateurs de votre entreprise**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>Lors de la création ou de la gestion de destinations de rapports de Data Warehouse, les administrateurs système peuvent désormais afficher les comptes et emplacements créés par les utilisateurs de l’entreprise en activant le bouton d’activation appelé [!UICONTROL **Afficher toutes les destinations**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | S.O. | jeudi 10 janvier 2024 |
+| **Mises à jour du Data Warehouse** | Les améliorations de Data Warehouse suivantes sont désormais disponibles :<ul><li>Lors de la création d’une requête de Data Warehouse, les utilisateurs peuvent désormais mettre les requêtes à la disposition de tous les utilisateurs de l’organisation en activant le nouveau bouton nommé [!UICONTROL **Mise à disposition des utilisateurs de votre entreprise**].<p>Pour plus d’informations, voir [Paramètres généraux de la demande de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Lors de la création ou de la gestion de destinations de rapports de Data Warehouse, les administrateurs système peuvent désormais afficher les comptes et emplacements créés par les utilisateurs de l’entreprise en activant le bouton d’activation appelé [!UICONTROL **Afficher toutes les destinations**].<p>Pour plus d’informations, voir [Configuration d’une destination de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | S.O. | jeudi 10 janvier 2024 |
 
 {style="table-layout:auto"}
 

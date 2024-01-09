@@ -3,9 +3,9 @@ description: Description de la procédure de création d’une demande Data Ware
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2204'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
 1. (Conditionnel) Si un compte (et une destination sur ce compte) a déjà été configuré et que vous souhaitez utiliser comme destination de votre rapport :
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. (Facultatif) Si vous êtes administrateur système, la variable [!UICONTROL **Afficher toutes les destinations**] est disponible. Activez cette option si vous souhaitez avoir accès à tous les comptes et emplacements créés par un utilisateur de l’entreprise.
 
    1. Sélectionnez le compte dans la [!UICONTROL **Sélectionner un compte**] menu déroulant.
 
