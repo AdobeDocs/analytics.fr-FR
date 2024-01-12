@@ -3,10 +3,10 @@ title: Taux de rebond
 description: Le taux de visites avec exactement un accès par rapport aux entrées.
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: b9073cdb6e47358c4f60922dcbed798cd955c29e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 35%
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -18,4 +18,4 @@ Voici un exemple : supposons que la page d’accueil d’un site web reçoive 50
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est calculée à l’aide de la formule [`Bounces`](bounces.md) `divided by` [`Entries`](entries.md).
+Cette mesure est calculée en utilisant la formule [Rebonds](bounces.md) divisé par [Entrées](entries.md).
