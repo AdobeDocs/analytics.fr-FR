@@ -2,11 +2,12 @@
 description: Data Warehouse propose une fonctionnalité qui vous permet d’extraire une liste d’ID de visiteur. Il ne s’agit pas d’ID de cookie, mais des ID que vous capturez dans l’une de vos variables de conversion. Bien qu’il soit possible d’obtenir ces informations par d’autres moyens, l’exemple suivant permet de générer plus rapidement une demande Data Warehouse.
 title: Scénario d’utilisation - Extraction d’ID de visiteur
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Data Warehouse propose une fonctionnalité qui vous permet d’extraire une liste d’ID de visiteur. Il ne s’agit pas d’ID de cookie, mais des ID que vous capturez dans l’une de vos variables de conversion. Bien qu’il soit possible d’obtenir ces informations par d’autres moyens, l’exemple suivant permet de générer plus rapidement une demande Data Warehouse.
 
-Supposons, par exemple, que votre entreprise envoie des courriels marketing à des clients et des prospects. Un ID unique est affecté à chacun des destinataires dans votre système de messagerie (comme par exemple *`EMAIL Contact ID`*). Vous configurez vos courriels de telle sorte que lorsque des contacts les reçoivent et cliquent sur l’un des liens qu’ils contiennent, le visiteur arrive sur votre site web avec un ID de campagne et un ID Contact courriel unique. Votre lien de courriel peut, par exemple, pointer vers :
+Supposons, par exemple, que votre entreprise envoie des courriels marketing à des clients et des prospects. Un identifiant unique est affecté à chacun de ces destinataires dans votre système de messagerie (par exemple : *`EMAIL Contact ID`*). Vous configurez vos courriels de telle sorte que lorsque des contacts les reçoivent et cliquent sur l’un des liens qu’ils contiennent, le visiteur arrive sur votre site web avec un ID de campagne et un ID Contact courriel unique. Votre lien de courriel peut, par exemple, pointer vers :
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

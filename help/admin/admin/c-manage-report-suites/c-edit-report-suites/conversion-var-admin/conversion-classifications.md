@@ -2,11 +2,12 @@
 description: Les classifications permettent de catégoriser des valeurs dans des groupes et de générer des rapports au niveau d’un groupe. Vous pouvez, par exemple, classifier toutes les campagnes de référencement payant dans une catégorie comme termes de pop music et générer des rapports sur le succès de la catégorie par rapport à des mesures de type Instances (ou clics publicitaires), ainsi que la conversion en événements de succès.
 title: Classifications des conversions
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +19,7 @@ Les classifications permettent de catégoriser des valeurs dans des groupes et d
 
 Les classifications de conversion vous permettent de classer des variables de conversion. Une fois classé, tout rapport pouvant être généré en utilisant les données clés peut également l’être à l’aide des propriétés de données associées.
 
-Après avoir activé les classifications, utilisez   [l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
+Après avoir activé les classifications, utilisez la variable [Importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour affecter des valeurs spécifiques à la classification appropriée.
 
 >[!WARNING]
 >

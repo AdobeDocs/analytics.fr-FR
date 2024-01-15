@@ -2,11 +2,12 @@
 description: Chaque ID que vous voulez pouvoir rechercher se voit attribuer un espace de noms, qui est une chaîne personnalisée qui identifie cet ID dans n’importe quelle variable de l’ensemble de vos suites de rapports.
 title: Espaces de noms
 feature: Data Governance
+role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 94%
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 94%
 
 Chaque ID que vous voulez pouvoir rechercher se voit attribuer un espace de noms, qui est une chaîne personnalisée qui identifie cet ID dans n’importe quelle variable de l’ensemble de vos suites de rapports.
 
-La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que vous voulez rechercher lorsque vous fournissez un ID dans le cadre d’une demande relative à la Confidentialité des données. Lorsqu’une demande relative à la Confidentialité des données est soumise, celle-ci inclut une section JSON spécifiant les ID de sujet des données à utiliser pour la demande. Plusieurs ID peuvent être inclus dans le cadre d’une requête unique pour un titulaire de données. La configuration JSON comprend :
+La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que vous voulez rechercher lorsque vous fournissez un ID dans le cadre d’une demande relative à la Confidentialité des données. Lorsqu’une demande d’accès à des données personnelles est soumise, celle-ci inclut une section JSON spécifiant les ID du titulaire de données à utiliser pour la demande. Plusieurs ID peuvent être inclus dans le cadre d’une demande unique pour un ou une titulaire de données. La configuration JSON comprend :
 
 * Un champ « namespace » contenant la chaîne d’espace de noms.
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
@@ -38,7 +39,7 @@ La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux s�
 
 Vous pouvez également utiliser `"namespaceId": 10` à la place ou en plus de `"namespace": "AAID"` et il est possible que d’autres produits Adobe utilisent ce formulaire.
 
-## Cookie de suivi Analytics hérité : formulaire obsolète
+## Cookie de suivi Analytics hérité : formulaire obsolète
 
 ```
 {
@@ -52,7 +53,7 @@ Formulaire obsolète :
 
 La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux à 16 chiffres ou de deux nombres décimaux à 19 chiffres. Les nombres doivent être séparés par un tiret, un tiret bas ou un deux-points. Les zéros en début de chaîne doivent être ajoutés si l’un des nombres de contient pas assez de chiffres.
 
-## Cookie Identity Service
+## Cookie du service d’identités
 
 ```
 {

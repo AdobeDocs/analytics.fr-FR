@@ -2,10 +2,11 @@
 description: FAQ sur la gouvernance des données Adobe Analytics
 title: Questions fréquentes sur la gouvernance des données
 feature: Data Governance
+role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2042'
 ht-degree: 97%
 
 ---
@@ -42,11 +43,11 @@ Le nouvel outil Gouvernance des données d’Adobe Analytics permet aux contrô
 
 L’outil Gouvernance des données contient les étiquettes de données suivantes :
 
-* **Libellés de données d’identification** : utilisés pour classer les données qui peuvent être utilisées seules ou en combinaison avec d’autres données pour identifier un individu. (Aucune, I1, I2)
+* **Étiquettes de données d’identité** : utilisées pour classer les données qui peuvent être utilisées seules ou en combinaison avec d’autres données pour identifier un individu. (Aucune, I1, I2)
 
-* **Libellés de données sensibles** : utilisés pour classer les données en tant que données pouvant être définies comme sensibles en vertu de la loi en vigueur. (Aucune, S1, S2) Notez que, actuellement, l’utilisation des données sensibles dans Adobe Analytics est généralement interdite, excepté pour les données de géolocalisation précise obtenues légitimement en vertu de la loi applicable, qui peuvent être considérées comme des données sensibles dans certaines juridictions.
+* **Étiquettes de données sensibles** : utilisées pour classer les données en tant que données pouvant être définies comme sensibles en vertu de la loi en vigueur. (Aucune, S1, S2) Notez que, actuellement, l’utilisation des données sensibles dans Adobe Analytics est généralement interdite, excepté pour les données de géolocalisation précise obtenues légitimement en vertu de la loi applicable, qui peuvent être considérées comme des données sensibles dans certaines juridictions.
 
-* **Libellés de données relatifs aux informations personnelles** : utilisés pour définir les champs pouvant contenir des identifiants personnels à utiliser dans des demandes relatives aux informations personnelles ou qui doivent être supprimés dans le cadre d’une demande de suppression relative aux informations personnelles. Dans certains cas, ces étiquettes peuvent se superposer aux étiquettes de données d’identification et de données sensibles.
+* **Étiquettes de données relatives aux informations personnelles** : utilisées pour définir les champs pouvant contenir des identifiants personnels à utiliser dans des demandes relatives aux informations personnelles ou qui doivent être supprimés dans le cadre d’une demande de suppression relative aux informations personnelles. Dans certains cas, ces étiquettes peuvent se superposer aux étiquettes de données d’identification et de données sensibles.
 
 Pour plus d’informations sur les étiquettes de gouvernance des données, voir [Étiquettes de Confidentialité des données pour les variables Analytics](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md).
 

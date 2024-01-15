@@ -2,10 +2,11 @@
 title: Prévoir un pic de trafic
 description: Faites équipe avec Adobe pour vous assurer que les événements à trafic élevé ne subissent pas de latence.
 feature: Traffic Management
+role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 97%
 
 ---

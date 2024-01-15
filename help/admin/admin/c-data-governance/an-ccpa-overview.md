@@ -1,18 +1,19 @@
 ---
-description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos sujets des données.
+description: Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos titulaires de données.
 title: Adobe Analytics et le CCPA
 feature: Data Governance
+role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 97%
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
 # Adobe Analytics et le CCPA
 
-Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos sujets des données.
+Ce document décrit la marche à suivre dans Adobe Analytics pour prendre en charge les droits d’accès et de suppression en vertu du CCPA pour vos titulaires de données.
 
 ## Présentation d’Adobe
 
@@ -37,7 +38,7 @@ Familiarisez-vous avec la section [Comment Adobe Analytics gère les données re
 Adobe a conscience que vous connaissez mieux les données personnalisées de vos suites de rapports et nous vous donnons la possibilité de définir vos paramètres et préférences en matière de gouvernance des données.
 Pour ce faire, Adobe Analytics fournit une interface utilisateur de gouvernance des données qui vous permet, en tant que contrôleur des données, de définir des [étiquettes de confidentialité](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) sur vos suites de rapports Analytics et toutes les dimensions et mesures de ces suites de rapports. Vous pouvez identifier les colonnes de votre ensemble de données qui contiennent des données directement ou indirectement identifiables afin de pouvoir soumettre vos demandes d’accès et de suppression pour traiter ces données. Pour chaque demande, les étiquettes définies dans l’interface utilisateur de gouvernance des données d’Analytics seront attribuées à l’identifiant spécifique correspondant à cette requête.
 
-Voir  [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) pour plus d’informations sur la façon de définir les étiquettes.
+Voir [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) pour plus d’informations sur la définition des libellés.
 
 ## Conditions préalables
 
@@ -45,7 +46,7 @@ Voir  [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-da
 * Associez votre société de connexion à une organisation Experience Cloud, si ce n’est pas déjà fait. Contactez l’assistance clientèle d’Adobe et reportez-vous à la section [Organisations et liaison de comptes.](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=fr)
 * Définissez une politique de conservation des données pour chaque suite de rapports afin que les demandes d’accès et de suppression en vertu du CCPA puissent être honorées.
 
-   Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative aux Services de confidentialité, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Contactez votre équipe de compte d’Adobe pour définir votre période de conservation des données.
+  Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative aux Services de confidentialité, c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Contactez votre équipe de compte d’Adobe pour définir votre période de conservation des données.
 
 * Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur d’Adobe Analytics.
 * Envisagez de mettre en œuvre les [Variables de gestion du consentement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) pour effectuer le suivi de l’état du consentement au niveau de l’accès.

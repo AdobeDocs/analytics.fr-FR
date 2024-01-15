@@ -3,11 +3,12 @@ description: Les règles de traitement vous permettent de modifier des données 
 subtopic: Processing rules
 title: Fonctionnement des règles de traitement
 feature: Processing Rules
+role: Admin
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 100%
 
 Les règles de traitement vous permettent de modifier des données en fonction de conditions définies. Lorsque des attributs ou valeurs satisfont les conditions définies, les valeurs peuvent être définies et supprimées, et les événements peuvent être définis.
 
-Les règles de traitement sont appliquées aux données lors de leur collecte. Des règles sont également appliquées à toutes les données qui transitent par les bibliothèques AppMeasurement et par l’API d’insertion de données. Elles s’appliquent également aux sources de données complètes ou de journaux. Ces sources contiennent des données qui représentent un  *`hit`* ou une action effectuée par un utilisateur. Les règles de traitement ne s’appliquent pas à d’autres sources de données.
+Les règles de traitement sont appliquées aux données lors de leur collecte. Des règles sont également appliquées à toutes les données qui transitent par les bibliothèques AppMeasurement et par l’API d’insertion de données. Elles s’appliquent également aux sources de données complètes ou de journaux. Ces sources contiennent des données qui représentent une *`hit`* ou une action effectuée par un utilisateur. Les règles de traitement ne s’appliquent pas à d’autres sources de données.
 
 ## Concepts importants {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -39,7 +40,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées immédiatement à la suite de rapports dès qu’elles sont enregistrées. </p> </td> 
-   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous recommandons de configurer le  <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> rapports en temps réel</a> dans la suite de rapports de test afin que vous puissiez rapidement consulter les résultats d’une règle de traitement. </p> </td> 
+   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous vous recommandons de configurer <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> rapports en temps réel</a> dans votre suite de rapports de test afin que vous puissiez voir rapidement les résultats d’une règle de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement constituent la seule méthode d’accès aux variables de données contextuelles. </p> </td> 
@@ -58,8 +59,8 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
    <td colname="col2"> <p>Le référent et l’agent utilisateur sont en lecture seule. La chaîne de produit n’est pas disponible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Les classifications et attributs du dispositif portable ne sont pas disponibles. </p> </td> 
-   <td colname="col2"> <p>La recherche de dispositif portable s’effectue avant les règles de traitement, mais les attributs ne sont pas disponibles dans les règles de traitement. </p> </td> 
+   <td colname="col1"> <p>Les classifications et attributs de l’appareil portable ne sont pas disponibles. </p> </td> 
+   <td colname="col2"> <p>La recherche d’appareils portables s’effectue avant les règles de traitement, mais les attributs ne sont pas disponibles dans les règles de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si vous exécutez JavaScript AppMeasurement H.25.2 ou version antérieure, la lecture des paramètres de chaîne de requête s’avère impossible au-delà des 255 premiers caractères d’une URL. JavaScript AppMeasurement H.25.3 et versions ultérieures fournissent une URL complète comprenant tous les paramètres de chaîne de requête vers les règles de traitement. </p> </td> 
@@ -78,7 +79,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
    <td colname="col2"> <p>Les règles de traitement sont traitées à mesure que les appels serveur sont envoyés. Les valeurs stockées dans des variables de données contextuelles sont ignorées si elles ne sont pas copiées à l’aide de règles de traitement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Les comparaisons de valeurs dans l’interface utilisateur ne sont pas sensibles à la casse. </p> </td> 
+   <td colname="col1"> <p>Les comparaisons de valeurs dans l’interface utilisateur ne respectent pas la casse. </p> </td> 
    <td colname="col2"> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Nettoyer les valeurs d’un rapport </a>. </p> </td> 
   </tr> 
   <tr> 

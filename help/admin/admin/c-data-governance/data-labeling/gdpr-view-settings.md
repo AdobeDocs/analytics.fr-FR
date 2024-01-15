@@ -2,11 +2,12 @@
 description: La boîte de dialogue Étiquetage de confidentialité pour la gouvernance des données offre un aperçu des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier .csv à partir de cet emplacement.
 title: Afficher/gérer l’étiquetage de confidentialité pour la gouvernance des données
 feature: Data Governance
+role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 89%
+source-wordcount: '820'
+ht-degree: 94%
 
 ---
 

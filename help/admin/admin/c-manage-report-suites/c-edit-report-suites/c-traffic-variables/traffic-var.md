@@ -1,18 +1,19 @@
 ---
-description: Les variables de trafic Aperçu personnalisé (ou prop) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
+description: Les variables de trafic Custom Insight (ou props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
 title: Variable de trafic (prop) - Présentation
 feature: Admin Tools
+role: Admin
 exl-id: b05dbd33-b298-41a0-9474-e015ba5bc23c
-source-git-commit: 507e669f798cf8a451f0383eb8bcb18b1f793e35
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 32%
+ht-degree: 34%
 
 ---
 
-# Variables de trafic (props) - Aperçu
+# Présentation des variables de trafic (props)
 
-Les variables de trafic Aperçu personnalisé (ou prop) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
+Les variables de trafic Custom Insight (ou props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site web.
 
 >[!TIP]
 >
@@ -25,7 +26,7 @@ Vous pouvez ajouter et activer des rapports de variables de trafic. Vous pouvez 
 1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
 1. Sélectionner **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
 1. Sélectionner **[!UICONTROL Ajouter]**, puis nommez le rapport.
-1. Dans le [!UICONTROL **Activé**] colonne, sélectionnez [!UICONTROL **Activé**] dans le menu déroulant.1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Dans le [!UICONTROL **Activé**] colonne, sélectionnez [!UICONTROL **Activé**] dans le menu déroulant 1. Sélectionner **[!UICONTROL Enregistrer]**.
 
 ## Désactivation des rapports de variables de trafic
 
@@ -43,7 +44,7 @@ Pour désactiver un rapport de variable de trafic :
 
 1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
 1. Sélectionner **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
-1. Sélectionnez le rapport de variable de trafic à renommer.
+1. Sélectionnez le rapport de variable de trafic que vous souhaitez renommer.
 1. Dans le [!UICONTROL **Nom**] , indiquez un nouveau nom pour le rapport.
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 

@@ -1,12 +1,13 @@
 ---
-description: Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accès qu’Analytics peut associer au titulaire de données. Analytics peut créer un ensemble étendu d’ID pour inclure ces données associées aux demandes relatives à la Confidentialité des données. Vous pouvez utiliser cette option avec un paramètre facultatif pour chaque demande que vous soumettez en vertu de la Confidentialité des données, ajoutée à la demande JSON.
+description: Les ID que vous soumettez ne couvrent pas toujours toutes les données d’accès qu’Analytics peut associer au titulaire de données. Analytics peut créer un ensemble étendu d’identifiants afin d’inclure ces données associées aux demandes relatives à la Confidentialité des données.
 title: Extension d’ID
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 

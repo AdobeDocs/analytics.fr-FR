@@ -2,11 +2,12 @@
 description: Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée.
 title: Étiqueter les données d’une suite de rapports
 feature: Data Governance
+role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 95%
 
 ## Attribuer ou modifier des étiquettes de confidentialité de suites de rapports {#assign-edit}
 
-**Exemple**: En tant que contrôleur de données, vous prévoyez de collecter des adresses électroniques et des ID de cookie auprès des titulaires de données afin de traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics.
+**Exemple** : en tant que contrôleur de données, prévoyez de collecter des adresses e-mail et des ID de cookie auprès des titulaires de données pour traiter leurs demandes relatives à la Confidentialité des données. Ces ID de cookie sont stockés dans une suite de rapports dans Adobe Analytics.
 
 1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 
@@ -31,11 +32,11 @@ ht-degree: 95%
 1. Dans la section de filtrage de gauche, sélectionnez les groupes de variables à étiqueter. Vous ne pouvez étiqueter qu’un seul groupe de variables à la fois.
 
    * **Composants standard** : les composants standard sont des dimensions et des mesures Analytics prêtes à l’emploi qui sont collectées par défaut dans une implémentation Analytics.
-   * **Variables de conversion** : la variable d’aperçu de conversion personnalisée (eVar) est placée dans le code Adobe sur les pages Web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
+   * **Variables de conversion** : la variable de conversion Custom Insight (eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
    * **Variables de liste** : les variables de liste sont des variables personnalisées que vous pouvez utiliser à votre guise. Elles fonctionnent de la même manière que les eVars, sauf qu’elles peuvent contenir plusieurs valeurs dans le même accès. Les variables de liste n’ont pas de limite de caractères.
-   * **Variables de trafic** : les variables d’aperçu de trafic personnalisées (props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site Web.
-   * **Événements de succès** : les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si un visiteur achète un article, l’achat peut être considéré comme un événement de succès..
-   * **Classification** : les ventilations de classification permettent de mettre en correspondance les données des rapports Analytics et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins. Toutefois, elles servent principalement à classer les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits.
+   * **Variables de trafic** : les variables de trafic Custom Insight (props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site Web.
+   * **Événements de succès** : les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Si, par exemple, un visiteur achète un article, l’événement d’achat peut être considéré comme l’événement de succès.
+   * **Classification** : les répartitions de classification permettent de mettre en correspondance les données des rapports Analytics et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins. Toutefois, elles servent principalement à classer les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits.
 
 1. Sélectionnez une variable en cochant sa case, puis cliquez sur **[!UICONTROL Modifier les étiquettes de confidentialité]** dans la barre bleue qui s’affiche en bas de l’écran.
 

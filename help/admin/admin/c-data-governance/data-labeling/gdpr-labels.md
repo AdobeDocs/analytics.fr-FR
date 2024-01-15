@@ -2,11 +2,12 @@
 description: Exemples de libellés relatifs à la confidentialité des données pour les variables Adobe Analytics
 title: Étiquettes relatives à la confidentialité des données pour les variables Analytics
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 99%
+source-wordcount: '3576'
+ht-degree: 98%
 
 ---
 
@@ -52,7 +53,7 @@ Les étiquettes de gouvernance des données permettent aux personnes de classer 
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
-| Aucun | Sélectionnez cette option si cette variable ne contient aucune donnée qui doit être incluse dans les données renvoyées au titulaire de données dans le cadre d’une demande d’accès à des informations personnelles. |  |
+| Aucun | Sélectionnez cette option si cette variable ne contient aucune donnée qui doit être incluse dans les données renvoyées au titulaire de données dans le cadre d’une demande d’accès à des informations personnelles. | |
 | ACC-ALL | Les valeurs dans ce champ doivent être incluses dans toutes les demandes d’accès relatives à la Confidentialité des données. Si cet accès provient d’un appareil partagé par plusieurs individus, en appliquant cette étiquette, vous indiquez, en tant que contrôleur de données, qu’il est acceptable de partager les données dans ce champ avec tout individu ayant accès à l’appareil partagé. | Les champs ayant cette étiquette seront renvoyés pour toutes les demandes relatives à la Confidentialité des données. |
 | ACC-PERSON | Les valeurs dans ce champ doivent être incluses uniquement pour les demandes d’accès à des informations personnelles lorsque vous avez la quasi certitude que l’accès provient du titulaire de données, tel que déterminé par un ID de demande d’accès à des informations personnelles correspondant à la valeur d’un champ ID-PERSON. | Vous devez également définir un libellé ID-PERSON sur certaines variables de cette suite de rapports et soumettre les demandes utilisant cet ID, ou ce libellé ne sera jamais appliqué. |
 
@@ -136,7 +137,7 @@ Les étiquettes de confidentialité des données concernent quatre grandes caté
 | <ul><li>Succès personnalisées</li><li>eVars de marchandisage</li><li>Variables à plusieurs valeurs (mvVars)</li><li>Variables de hiérarchie</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | Classifications | <ul><li>I1/I2, S1/S2</li><li>ACC-ALL, ACC-PERSON</li></ul> | <ul><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON</li></ul> |
 | <ul><li>Variables de trafic (props)</li><li>Variables de commerce (eVars de non-marchandisage)</li></ul> | Toutes les étiquettes | - |
-| La plupart des autres variables    (*Voir le tableau ci-dessous pour les exceptions*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
+| La plupart des autres variables (*Voir le tableau ci-dessous pour les exceptions*) | ACC-ALL, ACC-PERSON | <ul><li>I1/I2, S1/S2</li><li>ID-DEVICE, ID-PERSON</li><li>DEL-DEVICE, DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -181,7 +182,7 @@ Les étiquettes de confidentialité des données concernent quatre grandes caté
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Activity Map   Page </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Page Activity Map </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre implémentation ne collecte pas directement ou indirectement de données identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identification ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 

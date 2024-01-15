@@ -2,11 +2,12 @@
 description: Présente des exemples sur la manière d’étiqueter les données relatives aux accès, aux demandes d’accès et aux demandes de suppression.
 title: Exemples dʼétiquetage
 feature: Data Governance
+role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 95%
+source-wordcount: '862'
+ht-degree: 99%
 
 ---
 
@@ -22,17 +23,17 @@ Supposons que vous avez les données d’accès suivantes :
 
 | Étiquettes | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
+| **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Données d’accès | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
-|  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
-|  | Alice | 66 | A | N | Z |
+| | Mary | 88 | B | N | Y |
+| | Mary | 99 | C | O | Z |
+| | John | 77 | D | P | W |
+| | John | 88 | E | N | U |
+| | John | 44 | F | Q | V |
+| | John | 55 | G | R | X |
+| | Alice | 66 | A | N | Z |
 
-## Exemple de demande d’accès {#access}
+## Exemple de requêtes d’accès {#access}
 
 Si je soumets une demande dʼaccès, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
 
@@ -54,7 +55,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
   <tr>
     <td>AAID=77</td>
     <td>false</td>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>77</td>
     <td>non présente</td>
@@ -64,7 +65,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
   <tr>
     <td>AAID=77</td>
     <td>true</td>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>77</td>
     <td>non présente</td>
@@ -92,7 +93,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
     <td>X, Y, Z</td>
   </tr>
   <tr>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>77, 88</td>
     <td>A, B, C</td>
@@ -100,7 +101,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
     <td>U, W</td>
   </tr>
   <tr>
-    <td rowspan="2">user=Mary <br>AAID=66</td>
+    <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>Personne</td>
     <td>Mary</td>
@@ -110,7 +111,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
     <td>X, Y, Z</td>
   </tr>
   <tr>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>66, 77, 88</td>
     <td>A, B, C</td>
@@ -120,7 +121,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
   <tr>
     <td>xyz=X</td>
     <td>false</td>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>55, 77</td>
     <td>non présente</td>
@@ -130,7 +131,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
   <tr>
     <td>xyz=X</td>
     <td>true</td>
-    <td>périphérique</td>
+    <td>appareil</td>
     <td>non présente</td>
     <td>55, 77</td>
     <td>non présente</td>
@@ -365,6 +366,6 @@ Prenez note des points suivants :
 * Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-PERSON` sont impactées.
 * En raison de l’extension d’ID, les cellules des lignes contenant `AAID=77`, `AAID=88` ou `AAID=99` (qui sont les valeurs AAID des lignes contenant `user=Mary`) et une étiquette `DEL-DEVICE` sont impactées. Cela inclut les cellules avec un libellé `DEL-DEVICE` sur les lignes contenant `user=Mary`. En conséquence, les cellules des lignes 4 et 5 (ainsi que des lignes 1 à 3) avec les libellés `DEL-DEVICE` (AAID, MyEvar2 et MyEvar3) sont obfusquées.
 * Le paramètre pour les expandID ne sʼétend pas à lʼappel pour inclure les valeurs présentes dans MyEvar3 (`X`, `Y` et `Z`), qui possède un libellé ID-DEVICE, en cas de `user=Mary`. Les expandID ne sʼétendent que pour inclure les identifiants visiteur (AAID dans cet exemple, mais également lʼECID) sur les lignes contenant `user=Mary`. Ainsi, les deux dernières lignes, dont les valeurs de MyEvar3 sont `X` et `Z`, ne sont pas impactées.
-* `MyEvar2` Les quatrième et cinquième lignes sont mises à jour, car elles contiennent les mêmes valeurs d’identifiant visiteur (`77` et `88`) comme celles des première et deuxième lignes. Par conséquent, lʼextension dʼID les inclut pour les suppressions de niveau appareil.
+* Les valeurs d’`MyEvar2` sont mises à jour dans les lignes 4 et 5, car elles contiennent les mêmes valeurs dʼidentifiant visiteur (`77` et `88`) que les lignes 1 et 2. Par conséquent, lʼextension dʼID les inclut pour les suppressions de niveau appareil.
 * Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. En revanche, après la suppression, elles ne correspondent plus à la valeur `N` présente dans la dernière ligne, car cette dernière nʼa pas été mise à jour suite à la demande de suppression.
 * `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond dans les cinq premières lignes.

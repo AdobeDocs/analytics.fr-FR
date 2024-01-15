@@ -3,9 +3,9 @@ description: Vous pouvez utiliser l’option de concaténation pour renseigner d
 subtopic: Processing rules
 title: Ajouter une sous-catégorie en concaténant le nom de page et de catégorie
 feature: Admin Tools
-uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
+role: Admin
 exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 100%

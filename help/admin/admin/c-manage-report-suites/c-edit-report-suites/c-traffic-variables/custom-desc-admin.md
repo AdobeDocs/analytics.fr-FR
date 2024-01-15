@@ -2,10 +2,11 @@
 description: Vous pouvez fournir des descriptions des rapports personnalisés pour les eVars, les props, les classifications et les événements. Les descriptions sont visibles pour tous les utilisateurs finaux.
 title: Descriptions des rapports personnalisés
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '113'
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -29,8 +30,8 @@ La description est visible à deux emplacements :
 
 * Dans la barre de titre du rapport :
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * Sous la forme d’une info-bulle lorsque vous survolez le rapport avec le curseur dans la navigation de gauche :
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

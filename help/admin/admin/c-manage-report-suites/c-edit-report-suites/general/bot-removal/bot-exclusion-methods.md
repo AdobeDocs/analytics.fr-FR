@@ -2,17 +2,18 @@
 title: Comparaison de différentes méthodes d’exclusion des robots
 description: Permet de comparer différentes méthodes d’exclusion des robots.
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # Comparaison de différentes méthodes d’exclusion des robots
 
-Le tableau suivant montre les différentes méthodes d’exclusion des robots et leur fonctionnement les unes par rapport aux autres.
+Le tableau suivant montre les différentes méthodes d’exclusion des robots et la manière dont ils se comparent les uns aux autres.
 
 | Méthode | Règles de robots | Exclure par adresse IP | Attributs du client | Segmentation | Notation tierce + segmentation | Suppression des appels au serveur pour les robots au moment de l’exécution | Règle DB VISTA personnalisée |
 | --- | --- | --- | --- | --- | --- | --- | --- |
