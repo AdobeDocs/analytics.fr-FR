@@ -3,7 +3,7 @@ description: Cette rubrique présente la configuration système requise et compa
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: a733d7296c61e7cb96c637bbd101268e492a1cd4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 99%
@@ -17,7 +17,7 @@ Cette page contient une comparaison de divers produits Adobe Analytics : Analys
 Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
 | Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | **Méthode d’accès** | [Navigateur](/help/analyze/get-started/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/analyze/get-started/sys-reqs.md) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils de l’API RESTful. Connectez-vous à l’aide des informations d’identification Adobe Developer. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularité des données** | Agrégé | Agrégé | Agrégé | Accès | Agrégé |
 | **Experience Cloud ID (ECID) disponible** | Non | Non | Oui | Oui | Non |
