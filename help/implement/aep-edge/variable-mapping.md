@@ -3,16 +3,16 @@ title: Mappage des variables Analytics dans Adobe Experience Edge
 description: Afficher les champs XDM que Edge mappe automatiquement aux variables Analytics.
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1145'
 ht-degree: 83%
 
 ---
 
 # Mappage des variables Analytics dans Adobe Experience Edge
 
-Le tableau suivant répertorie les variables que le réseau Adobe Experience Platform Edge mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans la variable **[!UICONTROL Modèle ExperienceEvent Adobe Analytics]** groupe de champs.
+Le tableau suivant répertorie les variables que le réseau Adobe Experience Platform Edge mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans la variable **[!UICONTROL Modèle ExperienceEvent Adobe Analytics]** groupe de champs.
 
 Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md) de cette page.
 
@@ -67,8 +67,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | Un tableau de chaînes contenant les valeurs correspondantes de [prop de liste](../vars/page-vars/prop.md#list-props). |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | Concatène toutes les chaînes `value` de chaque tableau `list[]` à sa [variable de liste](../vars/page-vars/list.md). Le délimiteur est automatiquement sélectionné en fonction de la valeur définie dans les [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | Définit la dimension [prop](../../components/dimensions/prop.md) correspondante. |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | Applique la [sérialisation des événements](../vars/page-vars/events/event-serialization.md) à la mesure correspondante des [événements personnalisés. ](../../components/metrics/custom-events.md) Chaque ID d’événement réside dans son parent de 100 groupes. Par exemple, pour appliquer la sérialisation à `event678`, utilisez `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrémente la mesure correspondante des [événements personnalisés](../../components/metrics/custom-events.md) par la quantité désirée. Chaque événement réside dans son parent de 100 groupes. Par exemple, le champ pour `event567` is `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | S’applique [sérialisation des événements](../vars/page-vars/events/event-serialization.md) aux [Événements personnalisés](../../components/metrics/custom-events.md) mesure. Chaque ID d’événement réside dans son parent de 100 groupes. Par exemple, pour appliquer la sérialisation à `event678`, utilisez `_experience.analytics.event601to700.event678.id`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | Incrémente les [Événements personnalisés](../../components/metrics/custom-events.md) par le montant souhaité. Chaque événement réside dans son parent de 100 groupes. Par exemple, le champ pour `event567` is `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | L’[identifiant du service d’identités Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). |
 | `marketing.trackingCode` | Définit la dimension [Code de suivi](../../components/dimensions/tracking-code.md). |
 | `media.mediaTimed.completes.value` | La mesure Media Analytics [Contenu terminé](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-complete). |
@@ -110,7 +110,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `placeContext.geo._schema.longitude` | La longitude de la dimension mobile. |
 | `placeContext.geo.postalCode` | La dimension [Code postal](../../components/dimensions/zip-code.md). |
 | `placeContext.geo.stateProvince` | La dimension [États américains](../../components/dimensions/us-states.md). |
-| `placeContext.localTime` | Permet de renseigner la variable [Fuseaux horaires](/help/analyze/reports-analytics/reports.md) dans Report &amp; Analytics. Apparaît comme `t_time_info` dans [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
+| `placeContext.localTime` | Apparaît comme `t_time_info` dans [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | Applique le marchandisage de la [syntaxe du produit](../vars/page-vars/products.md) aux eVars. |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | Applique le marchandisage de la [syntaxe de produit](../vars/page-vars/products.md) aux événements. |
 | `productListItems[].productCategories[].categoryID` | La dimension [Catégorie](../../components/dimensions/category.md). Voir aussi la variable de la page des [produits](../vars/page-vars/products.md). |

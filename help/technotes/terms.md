@@ -3,9 +3,9 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
 * **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
-* **Données actives :** option de certains rapports permettant d’inclure des données récemment collectées qui n’ont pas encore été totalement traitées. Voir [Données actives](/help/analyze/reports-analytics/current-data.md) dans le guide d’utilisation Analyser.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
 * **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
 * **Délégué du service clientèle :** utilisateur désigné autorisé à interagir directement avec le service clientèle d’Adobe. Voir [Délégués du service clientèle](https://helpx.adobe.com/fr/experience-cloud/supported-users.html) dans la base de connaissances d’Experience Cloud.

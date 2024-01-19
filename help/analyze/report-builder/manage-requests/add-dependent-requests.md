@@ -5,10 +5,10 @@ uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 48%
+source-wordcount: '98'
+ht-degree: 32%
 
 ---
 
@@ -24,6 +24,5 @@ Pour les rapports pour lesquels des ventilations à corrélations sont activées
 
 >[!NOTE]
 >
->Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
+>Adobe Report Builder applique les dépendances de requête uniquement dans la même feuille de calcul, et non entre plusieurs feuilles de calcul. Ceci garantit la rapidité de l’exécution.
 
-Voir [Rapports de répartition](/help/analyze/reports-analytics/reports-customize/breakdowns.md).

@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
+source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1008'
 ht-degree: 99%
 
 ---
@@ -304,35 +304,6 @@ ht-degree: 99%
    + [Création de rapports Activity Map dans Analytics](activity-map/activitymap-reporting-analytics.md)
    + [Résolution des problèmes d’extension du navigateur](activity-map/troubleshooting-browser-extensions.md)
    + [Résolution des problèmes de collecte de données](activity-map/troubleshoot-data-collection.md)
-+ Reports and Analytics {#reports-analytics}
-   + [Prise en main de Reports and Analytics](reports-analytics/getting-started.md)
-   + Interface des rapports - Aperçu {#reporting-interface}
-      + [Collecte de données](reports-analytics/overview/overview-data-collection.md)
-      + [Menu Rapports](reports-analytics/overview/reports-menu.md)
-      + [Fonctionnalités d’un rapport](reports-analytics/overview/report-overview.md)
-   + [Paramètres d’affichage des rapports et navigation](reports-analytics/report-settings.md)
-   + [Planification et distribution des rapports](reports-analytics/scheduling.md)
-   + [Avis de fin de vie pour les rapports planifiés](reports-analytics/scheduled-reports-eol.md)
-   + [Types de rapports](reports-analytics/reports.md)
-   + [Exécution de différents types de rapports](reports-analytics/t-running-report-types.md)
-   + Personnalisation des rapports {#customize-reports}
-      + [Personnalisation des rapports - Aperçu](reports-analytics/reports-customize/customizing-reports-overview.md)
-      + [Modification des graphiques des rapports](reports-analytics/reports-customize/t-reports-graphs.md)
-      + [Répartitions](reports-analytics/reports-customize/breakdowns.md)
-      + [Sous-relations](reports-analytics/reports-customize/subrelations.md)
-      + [Filtrage des données de rapport](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Segmentation Analytics](reports-analytics/segmentation.md)
-   + [Gestionnaire de signets](reports-analytics/bookmarks.md)
-   + [Données actives](reports-analytics/current-data.md)
-   + [Tableaux de bord et petits rapports](reports-analytics/dashboard.md)
-   + [Gestionnaire de tableaux de bord](reports-analytics/dashboard-manage.md)
-   + [Rapports entonnoir](reports-analytics/funnels.md)
-   + [Mesures](reports-analytics/metrics.md)
-   + [Cibles](reports-analytics/targets.md)
-   + [Alertes](reports-analytics/alerts.md)
-   + [Événements du calendrier](reports-analytics/t-calendar-event.md)
-   + [Questions fréquentes](reports-analytics/frequently-asked-questions.md)
-   + [Résolution des problèmes](reports-analytics/report-troubleshooting.md)
 + Tableaux de bord Adobe Analytics {#mobapp}
    + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
    + [Présentation du curateur](mobile-app/curator.md)

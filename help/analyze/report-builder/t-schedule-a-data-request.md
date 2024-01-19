@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 Vous pouvez planifier des classeurs, définir des options de remise avancées, indiquer des destinataires et afficher l’historique de planification. Les options de remise avancées vous permettent de configurer des classeurs à envoyer à une heure précise ou à des intervalles déterminés. Vous avez également la possibilité d’indiquer le format de fichier pour l’envoi du classeur.
 
 Ainsi, vous pouvez planifier la remise immédiate des classeurs ou leur diffusion selon un schéma récurrent et spécifier le format de fichier dans [!DNL Advanced Delivery Options]. La taille du fichier est limitée à 5 Mo pour le chargement d’un classeur.
-
-Après avoir créé un planning de classeurs dans le Report Builder, vous avez la possibilité de le consulter et de le modifier dans **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**. (Voir [Planification et distribution de rapports](/help/analyze/reports-analytics/scheduling.md) dans l’aide de Reports &amp; Analytics.)
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ Après avoir créé un planning de classeurs dans le Report Builder, vous avez l
 1. Dans la barre d’outils du Report Builder, cliquez sur **[!UICONTROL Planifier]**.
 
    L’onglet [!UICONTROL Rapports programmés] affiche un récapitulatif de toutes les tâches que vous avez créées, ainsi que le nombre de tâches restantes.
-1. Sur l’onglet **[!UICONTROL Rapports programmés]**, cliquez sur **[!UICONTROL Nouveau]**. L’ Assistant de planification - Options de base affiche les options utilisées pour définir le rapport planifié.
+1. Sur le **[!UICONTROL Rapports planifiés]** , cliquez sur **[!UICONTROL Nouveau]**. L’ Assistant de planification - Options de base affiche les options utilisées pour définir le rapport planifié.
 
    ![Capture d’écran montrant l’Assistant de planification - Options de base.](assets/simple-schedule-wizard.png)
 

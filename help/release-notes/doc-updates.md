@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
 source-wordcount: '4994'
 ht-degree: 96%
@@ -142,7 +142,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
 | Panneau Espace de travail [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
 | Panneau de l’espace de travail [!UICONTROL Synthèse de la page] | Ce panneau fournit une analyse approfondie d’une page de votre choix. |
-| Nouvelle rubrique sur la suspension des anciens rapports planifiés | À compter du **15 avril 2022**, Adobe a l’intention de [suspendre tous les rapports planifiés dont la date de création remonte à plus de deux ans](/help/analyze/reports-analytics/scheduled-reports-eol.md). |
+| Nouvelle rubrique sur la suspension des anciens rapports planifiés | Efficace **15 avril 2022**, Adobe a l’intention de suspendre tous les rapports planifiés dont la date de création est supérieure à deux ans. |
 | **Février 2022** |
 | Mode de prévisualisation du projet de cartes de performance mobile | Le [mode Prévisualisation](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une carte de performance. |
 | Point dʼentrée des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
