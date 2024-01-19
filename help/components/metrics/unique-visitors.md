@@ -3,9 +3,9 @@ title: Visiteurs uniques
 description: Nombre d’ID de visiteur ou de visiteuse uniques.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ La [mesure](overview.md) « Visiteurs ou visiteuses uniques » indique le nomb
 Si vous utilisez l’[analyse entre appareils](../cda/overview.md), cette mesure est remplacée par la mesure [Appareils uniques](unique-devices.md).
 
 ## Visiteurs uniques par jour, par semaine, par mois, par trimestre et par an
-
-Reports &amp; Analytics offre des options pour les visiteurs uniques par jour, par semaine, par mois, par trimestre et par an. Au lieu de comptabiliser un seul visiteur unique pour toute la période, les visiteurs uniques sont comptabilisés en fonction de la mesure sélectionnée. Par exemple, vous pouvez consulter les visiteurs uniques par jour sur votre site. Si un visiteur consulte votre site le matin et à nouveau le soir, il compte comme un seul visiteur unique par jour. Si un visiteur consulte votre site le lundi et à nouveau le mardi, il compte comme deux visiteurs uniques par jour.
 
 Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. Par exemple, si vous utilisez la dimension [Jour](../dimensions/day.md), vous verrez les visiteurs uniques par jour pour chaque élément de dimension. Toutefois, le total du rapport indique le nombre de visiteurs uniques dédupliqué pour la période du tableau à structure libre.
 

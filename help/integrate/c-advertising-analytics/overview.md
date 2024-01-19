@@ -3,10 +3,10 @@ description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics
 title: Guide d’Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,8 @@ En réunissant les données des moteurs de recherche dans Adobe Analytics, vous 
 
 Cette intégration est destinée aux audiences ci-dessous :
 
-* Les **analystes** qui doivent collecter des rapports de performance pour les spécialistes du référencement payant.
-* Les **spécialistes du référencement payant** qui souhaitent répondre à ces questions : quelle est la quantité de trafic que j’envoie vers notre site et que les clients convertissent ? Quelles sont mes campagnes publicitaires rentables ?
+* Les **analystes** qui doivent collecter des rapports de performance pour les spécialistes marketing du référencement payant.
+* Les **spécialistes marketing du référencement payant** qui souhaitent répondre à ces questions : quelle est la quantité de trafic que j’envoie vers notre site et que les clients convertissent ? Quelles sont mes campagnes publicitaires rentables ?
 
 ## Conditions préalables {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
@@ -70,7 +70,7 @@ Avec Analytics, deux autorisations sont automatiquement accordées aux administr
 
 ## Dimensions et mesures Advertising Analytics {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis Workspace, à Reports &amp; Analytics, au Report Builder et à l’API Reporting dans Analytics.
+Advertising Analytics ajoute les dimensions et mesures suivantes à Analysis Workspace, à Report Builder et à l’API de création de rapports d’Analytics.
 
 **Dimensions**
 
@@ -94,7 +94,7 @@ Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis
 | Titre de l’annonce (AMO ID) | L’objet Titre utilisé dans votre annonce. |
 | Description de l’annonce (AMO ID) | L’objet Description de l’annonce utilisé dans votre annonce. |
 | URL d’affichage de l’annonce (AMO ID) | L’objet URL d’affichage de l’annonce utilisé dans votre annonce. |
-| URL de destination de l’annonce (AMO ID) | L’URL de la page d’entrée ou l’URL finale de votre annonce. |
+| URL de destination de l’annonce (AMO ID) | L’URL de la page de destination ou l’URL finale de votre annonce. |
 | Réseau (AMO ID) | Le réseau sur lequel l’annonce est hébergée. Pour Advertising Analytics, cette valeur est toujours « Recherche ». |
 | Placement (AMO ID) | Le site Web du placement géré (pour les réseaux de contenu). Seuls les placements gérés utilisent cette dimension. |
 | Cible du produit (AMO ID) | Le nom de la cible du produit utilisé sur les annonces PLA (il ne s’agit pas du produit réellement acheté). |
@@ -109,7 +109,7 @@ Advertising Analytics ajoute les dimensions et les mesures suivantes à Analysis
 >
 >Ces mesures proviennent des données d’une base journalière. Aucune donnée ne sera donc disponible pour la journée en cours. Elles ne doivent pas non plus être reportées sur une granularité inférieure à la granularité journalière.
 >
->Il existe une mesure d’Instances AMO ID qui est configurée lorsqu’AMO ID est configurée sur la page d’entrée (c.-à-d. un clic publicitaire). Cette mesure est saisie en temps réel lors de l’accès à la page d’entrée et est disponible pour les ventilations avec d’autres dimensions également configurées sur la page d’entrée.
+>Il existe une mesure d’Instances AMO ID qui est configurée lorsqu’AMO ID est configurée sur la page de destination (c.-à-d. un clic publicitaire). Cette mesure est saisie en temps réel lors de l’accès à la page de destination et est disponible pour les ventilations avec d’autres dimensions également configurées sur la page de destination.
 
 | Nom de la mesure | Définition |
 |--- |--- |

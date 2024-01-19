@@ -4,18 +4,18 @@ solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
 # Utilisation des données d’audience dans Analytics
 
-Vous pouvez utiliser les dimensions d’audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience:
+Vous pouvez utiliser les dimensions d’audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
 Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous la forme de deux dimensions.
 
@@ -81,9 +81,3 @@ Vous pouvez importer les dimensions d’audience dans le [Créateur de segments]
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics et Report Builder  {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. Pour consulter le rapport Analytics, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL Profil du visiteur]** > **[!UICONTROL Rapports ID d’audience]**.
-1. Ce dossier permet d’accéder aux dimensions ID d’audience et Nom d’audience.
-
-   ![](assets/mc-audiences.png)

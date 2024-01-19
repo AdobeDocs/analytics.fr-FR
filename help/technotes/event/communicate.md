@@ -3,10 +3,10 @@ title: Communication de l’impact aux utilisateurs
 description: Découvrez des moyens efficaces de communiquer l’impact d’un événement dans votre entreprise.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 3%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Si vous disposez de données [impact d’un événement](overview.md), il est im
 * Fournir une communication permanente aux utilisateurs d’Analytics et aux principaux intervenants pendant et après l’événement
 * Placez un rappel de calendrier pour les jalons suivants, tels que le mois ou l’année suivant. Cette communication permet à l’avenir de rappeler aux utilisateurs qui visualisent des rapports l’impact dans les rapports d’un mois à l’autre ou d’une année à l’autre.
 
-Dans Adobe Analytics, les sections suivantes présentent différentes manières de communiquer avec les utilisateurs de votre entreprise. Vous pouvez également utiliser d’autres méthodes en dehors d’Adobe Analytics, telles que la messagerie électronique, pour communiquer avec les utilisateurs.
+Dans Adobe Analytics, les sections suivantes présentent différentes manières de communiquer avec les utilisateurs de votre entreprise. Vous pouvez également utiliser d’autres méthodes en dehors d’Adobe Analytics, telles que le courrier électronique, pour communiquer avec les utilisateurs.
 
 ## Communication par le biais des descriptions de panneau ou de visualisation
 
@@ -55,14 +55,5 @@ Pour toute visualisation avec tendance dans Workspace, vous pouvez ajouter une s
 
 1. Ajoutez une visualisation Ligne . Les jours concernés sont représentés avec une couleur différente. Pour plus d’informations, les utilisateurs peuvent également cliquer sur l’icône &quot;Infos&quot; dans la mesure calculée.
 
-   ![Icône Infos](assets/calcmetric_infoicon.png)
+   ![Icône Info](assets/calcmetric_infoicon.png)
 
-## Utilisation d’un événement de calendrier dans Reports &amp; Analytics
-
-Si vous utilisez Reports &amp; Analytics, vous pouvez utiliser une [événement de calendrier](/help/components/t-calendar-event.md) pour mettre en évidence les jours affectés dans un rapport de tendances. Cette méthode ne s’applique pas à Analysis Workspace.
-
-1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Tous les composants]** > **[!UICONTROL Événements du calendrier]**.
-2. Saisissez le titre, la période et le texte de la note de votre choix.
-3. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-![Événement de calendrier](assets/exclude_calendar_event.png)

@@ -3,10 +3,10 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 98%
+source-wordcount: '887'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,7 @@ Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonct
 >
 >Les attributs de visiteur, les classifications et les noms de variable personnalisée sont omis de cette liste. Ces éléments de dimension sont spécifiques à des suites de rapports individuelles.
 
->[!NOTE]
->
->Il existe des chevauchements où les outils Analytics utilisent des termes différents pour des dimensions similaires. Par exemple, Reports &amp; Analytics utilise `browserwidth` alors qu’Analysis Workspace utilise `browserwidthbucketed`.
-
-## Dimensions prises en charge à la fois dans Reports &amp; Analytics et Analysis Workspace
+## Dimensions prises en charge dans Analysis Workspace
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |---|---|
@@ -84,7 +80,7 @@ Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonct
 | SC-TnT | `tntbase` |
 | Moteur de recherche | `searchengine` |
 | Mot-clé de recherche | `searchenginekeyword` |
-| Moteur de recherche  - Naturel | `searchenginenatural` |
+| Moteur de recherche - Naturel | `searchenginenatural` |
 | Moteur de recherche - Payant | `searchenginepaid` |
 | Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
 | Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
@@ -101,11 +97,6 @@ Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonct
 | Profondeur de visite | `pathlength` |
 | Nombre de visites | `visitnumber` |
 | Code postal | `zip` |
-
-## Dimensions prises en charge uniquement dans Analysis Workspace
-
-| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
-|--- |--- |
 | Matin/après-midi | `timepartampm` |
 | Hauteur du navigateur - Regroupement | `browserheightbucketed` |
 | Largeur du navigateur - Regroupement | `browserwidthbucketed` |
@@ -164,24 +155,7 @@ Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonct
 | Ressource de canal Nielsen | `nielsenchannelasset` |
 | Type de contenu Nielsen | `nielsencontenttype` |
 
-## Dimensions prises en charge uniquement dans Reports &amp; Analytics
-
-| Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
-|--- |--- |
-| Hauteur du navigateur | `browserheight` |
-| Largeur du navigateur | `browserwidth` |
-| Clients uniques par jour | `dailyuniquecustomers` |
-| JavaScript | `javascriptsupport` |
-| Version JavaScript | `javascriptversion` |
-| Clients uniques par mois | `monthlyuniquecustomers` |
-| Clients uniques par trimestre | `quarterlyuniquecustomers` |
-| Fuseaux horaires | `timezone` |
-| Domaines de haut niveau | `topleveldomain` |
-| État du visiteur | `legacystate` |
-| Clients uniques par semaine | `weeklyuniquecustomers` |
-| Clients uniques par an | `yearlyuniquecustomers` |
-
-## Dimensions adaptées au contenu prises en charge à la fois par Reports &amp; Analytics et par Analysis Workspace
+## Dimensions adaptées au contenu prises en charge par Analysis Workspace
 
 ### Vidéo (Media Analytics)
 
@@ -306,7 +280,7 @@ Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonct
 | Lien d’Activity Map par région | `clickmaplinkbyregion` |
 | Région d’Activity Map | `clickmapregion` |
 | Lien d’Activity Map | `clickmaplink` |
-| Activity Map  Page | `clickmappage` |
+| Page Activity Map | `clickmappage` |
 
 ### Intégration Nielsen
 

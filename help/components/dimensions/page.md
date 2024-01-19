@@ -3,9 +3,9 @@ title: Page
 description: Nom de la page.
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ Les éléments de dimension comprennent les noms des pages de votre site. Votre 
 
 >[!NOTE]
 >
->Dans Reports &amp; Analytics, les mesures de conversion utilisent l’attribution linéaire pour cette dimension. Par exemple, les recettes sont fractionnées entre toutes les pages vues lors d’une visite avant un événement `purchase`. Analysis Workspace utilise la dernière attribution par défaut, avec la possibilité d’utiliser n’importe quel modèle d’attribution.
+>Analysis Workspace utilise la dernière attribution par défaut, avec la possibilité d’utiliser n’importe quel modèle d’attribution.

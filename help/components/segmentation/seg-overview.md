@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 70%
+source-wordcount: '1148'
+ht-degree: 67%
 
 ---
 
@@ -16,9 +16,9 @@ Les segments vous permettent d’identifier des sous-ensembles de visiteurs selo
 
 Les segments sont basés sur une [!UICONTROL Visiteur], [!UICONTROL Visite], et [!UICONTROL Accès] hiérarchie de niveau à l’aide d’un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble en tant que   [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés conjointement comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Segments identifier
+Les segments identifient
 
 - qui sont vos visiteurs (pays, genre, café-restaurant),
 - quels appareils et services ils utilisent (navigateur, moteur de recherche, appareil mobile),
@@ -89,7 +89,7 @@ Lors de la création de segments d’audiences dans le Créateur de segments, vo
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">OU</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">OR</td></td>
 </tr>
 
 <tr>
@@ -220,7 +220,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OU</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
 </tr>
 
 <tr>
@@ -282,7 +282,7 @@ Les administrateurs peuvent modifier n’importe quel segment et partager les se
 
 +++ **Puis-je consulter tous les segments de mon entreprise ?**
 
-Oui, les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’[!DNL Analysis Workspace] et d’[!DNL Reports & Analytics].
+Oui, les administrateurs peuvent voir tous les segments dans la variable [!DNL Analysis Workspace] de l’interface utilisateur.
 
 Report Builder affiche les segments que vous possédez et ceux qui sont partagés avec vous.
 
@@ -292,7 +292,7 @@ Report Builder affiche les segments que vous possédez et ceux qui sont partagé
 
 Oui, tous les segments peuvent être gérés dans le Gestionnaire de segments. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
 
-Les administrateurs peuvent voir tous les segments dans les interfaces utilisateur d’Analysis Workspace et d’[!DNL Reports & Analytics].
+Les administrateurs peuvent consulter tous les segments de l’interface utilisateur d’Analysis Workspace.
 
 Report Builder affiche uniquement les segments que vous avez conçus ou ceux qui ont été partagés avec vous.
 

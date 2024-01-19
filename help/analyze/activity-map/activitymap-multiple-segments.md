@@ -5,10 +5,10 @@ uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
 role: User, Admin
 exl-id: afe2326d-3ea9-4977-aa8f-2c5e1a79e4c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 83%
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -18,9 +18,9 @@ Vous permet d’appliquer un filtre de segments multiples dans Activity Map.
 
 >[!NOTE]
 >
->La commande Segment est uniquement disponible en mode standard, car la plateforme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
+>La commande Segment est disponible uniquement en mode standard, car la plateforme Adobe Analytics ne prend pas en charge la segmentation des données en temps réel.
 
-Vous pouvez sélectionner un ou plusieurs des segments dans le menu déroulant **[!UICONTROL Segments]** affiché ci-dessous. Les segments répertoriés correspondent à ceux que vous possédez ou qui ont été partagés avec vous par le biais de Reports &amp; Analytics pour la suite de rapports sélectionnée.
+Vous pouvez sélectionner un ou plusieurs des segments dans le menu déroulant **[!UICONTROL Segments]** affiché ci-dessous. Les segments répertoriés sont identiques à ceux que vous possédez ou qui ont été partagés avec vous, pour la suite de rapports sélectionnée.
 
 ![](assets/segments.png)
 

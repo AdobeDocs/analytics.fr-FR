@@ -4,10 +4,10 @@ keywords: Suite de rapports virtuelle
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ Tenez compte des points suivants lorsque vous déterminez si vous devez utiliser
 Le partage de segments dans Adobe Experience Cloud n’est pas pris en charge pour les suites de rapports virtuelles. Les utilisateurs qui souhaitent partager un segment dans Experience Cloud doivent avoir accès à la suite de rapports source.
 
 Les segments ne peuvent pas encore être publiés dans Adobe Experience Cloud depuis une suite de rapports virtuelle pour la personnalisation et le ciblage. Tous les utilisateurs qui publient des segments doivent accéder à une suite de rapports source dans ce but. Par exemple, vous souhaitez que les utilisateurs aient uniquement accès aux données de leur région géographique, mais vous souhaitez qu’ils puissent créer et partager des segments d’Adobe Analytics dans Adobe Experience Cloud à des fins de ciblage dans Adobe Target. Dans ce cas, Adobe recommande d’utiliser le balisage multisuite. Si vous n’avez pas peur que les utilisateurs aient accès à la suite de rapports globale ou que vous n’avez pas besoin de publier des segments pour les utiliser dans d’autres solutions, vous pouvez utiliser des suites de rapports virtuelles.
-
-### Données en temps réel et actuelles
-
-Les rapports en temps réel ne sont pas pris en charge dans les suites de rapports virtuelles, car les données sont segmentées. Les données actives ne sont pas prises en charge dans les suites de rapports virtuelles, car elles ne prennent pas en charge la segmentation. Ces deux fonctionnalités sont spécifiques à Reports &amp; Analytics.
-
-[Les rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md) et les [données actives](/help/technotes/latency.md) ne sont pas disponibles dans les suites de rapports virtuelles. Cela affecte les utilisateurs qui répondent aux tendances affichées dans Reports &amp; Analytics en quelques secondes ou quelques minutes après la collecte des données. Par exemple, il peut s’agir de rédacteurs dans une salle de rédaction qui ajustent les actualités en fonction de la consommation de contenu en temps réel. Pensez à utiliser le balisage multisuite si vous avez des besoins importants en données en temps réel spécifiques à des suites de rapports individuelles. Les données en temps réel et actuelles peuvent toujours être utilisées dans la suite de rapports globale.
 
 ### Limites uniques
 

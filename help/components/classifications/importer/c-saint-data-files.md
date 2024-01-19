@@ -3,10 +3,10 @@ description: L’importateur vous permet de télécharger en vrac des données d
 title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 96%
 
 ---
 
@@ -29,16 +29,16 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
-* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule soit correctement   [placée dans une séquence d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
+* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets, peuvent être incorporés dans une cellule à condition que le format de fichier v2.1 soit spécifié et que la cellule soit correctement [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   La virgule n’est pas un caractère spécial.
+  La virgule n’est pas un caractère spécial.
 
 * Les classifications ne peuvent pas contenir de caret (^) puisque ce caractère est utilisé pour indiquer une sous-classification.
 * Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de l’importation, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
@@ -94,7 +94,6 @@ Un fichier de données doit respecter les règles de structure suivantes :
 >
 >* [Problèmes de téléchargement de courants](https://helpx.adobe.com/fr/analytics/kb/common-saint-upload-issues.html)
 
-
 ## Format d’un en-tête de colonne
 
 >[!NOTE]
@@ -109,11 +108,9 @@ Chaque valeur doit être unique dans l’ensemble du système. La valeur de ce c
 
 ### En-tête de colonne de classification
 
-Exemple : Votre mise en oeuvre de Reports &amp; Analytics inclut automatiquement deux classifications pour [!UICONTROL Campagne] variables : [!UICONTROL Campagnes] et [!UICONTROL Éléments créatifs]. Pour ajouter des données à la classification [!UICONTROL Campagnes], l’en-tête de colonne dans le fichier de données doit être [!UICONTROL Campagnes].
-
 >[!NOTE]
 >
->Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé. &quot;Clé&quot; est une valeur de classification réservée (en-tête). Les nouvelles classifications nommées &quot;Clé&quot; ne sont pas prises en charge.
+>Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur change [!UICONTROL Campagnes] to [!UICONTROL Noms de campagne internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne du fichier doit être modifié pour correspondre. &quot;Clé&quot; est une valeur de classification réservée (en-tête). Les nouvelles classifications nommées &quot;Clé&quot; ne sont pas prises en charge.
 
 De plus, le fichier de données prend en charge des conventions d’en-tête supplémentaires pour identifier les sous-classifications et d’autres colonnes de données spécialisées :
 
@@ -165,7 +162,7 @@ Pour plus d’informations, reportez-vous à la section [Classifications des con
 
 >[!NOTE]
 >
->Dans la version de maintenance du 10 mai 2018 d’[!DNL Analytics], Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les transférer, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
+>Dans la version de maintenance du 10 mai 2018 d’[!DNL Analytics], Adobe a commencé à limiter les fonctionnalités des classifications activées par date et numériques. Ces types de classifications ont été supprimés des interfaces Administration et Importateur de classifications. Il n’est plus possible d’ajouter de nouvelles classifications numériques et activées par date. Il sera possible de continuer à gérer les classifications actuelles (les charger, les supprimer) par l’intermédiaire des processus de classification standard et elles resteront disponibles dans le reporting.
 
 ## Utilisation de dates en association avec des [!UICONTROL classifications ]  {#section_966A07B228CD4643B258E73FB8BA150A}
 

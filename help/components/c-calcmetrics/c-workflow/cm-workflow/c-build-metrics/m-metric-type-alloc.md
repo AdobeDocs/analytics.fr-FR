@@ -3,10 +3,10 @@ description: En savoir plus sur les
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 75%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ L’exemple suivant illustre le fonctionnement des mesures calculées avec des a
 
 Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable aux accès 1, 3, 4 et 6 avant la réalisation d’un achat de 10 $ à l’accès 7. Dans la deuxième ligne, ces valeurs persistent dans les accès sur une base de visite de dernière touche. La troisième ligne représente une persistance de visite de première touche. Enfin, la dernière ligne indique comment les données seraient enregistrées pour une Prop qui ne présente pas de persistance.
 
-## Différences de fonctionnement de l’affectation linéaire dans Reports &amp; Analytics par rapport à Workspace
-
-Ces deux outils présentent des différences de fonctionnement de l’attribution linéaire :
-
-* Dans Reports &amp; Analytics, l’attribution linéaire (traitée) est toujours basée sur les visites, tandis que dans Workspace, elle peut être basée sur les visites ou les visiteurs.
-* Dans Reports &amp; Analytics, si aucune valeur n’est transmise lors du premier accès d’une visite, la valeur (initiale) persiste à partir de la visite précédente. Ce n’est PAS le cas dans Workspace (Attribution). Si aucune valeur n’est transmise lors du premier accès d’une visite, « Aucun » est la valeur initiale.

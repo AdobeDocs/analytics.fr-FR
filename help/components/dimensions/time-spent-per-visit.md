@@ -3,10 +3,10 @@ title: Durée de la visite (dimensions)
 description: La durée totale de la visite.
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 93%
+source-wordcount: '302'
+ht-degree: 91%
 
 ---
 
@@ -39,6 +39,6 @@ Ces dimensions sont prêtes à l’emploi pour toutes les implémentations. Si u
 La durée de la visite comporte plusieurs dimensions :
 
 * **Durée de la visite - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 1 minute"` et `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
-* **Durée de la visite - granulaire** : chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible dans Reports &amp; Analytics ni dans Data Warehouse.
+* **Durée de la visite - granulaire** : chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible en Data Warehouse.
 
 Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.

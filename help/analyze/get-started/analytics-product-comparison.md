@@ -1,18 +1,18 @@
 ---
-description: Cette rubrique présente la configuration système requise et compare Analysis Workspace, les Reports & Analytics, les, le Report Builder, Data Warehouse et Data Workbench.
+description: Configuration requise et comparaison entre Analysis Workspace, Report Builder, Data Warehouse et Data Workbench
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: a733d7296c61e7cb96c637bbd101268e492a1cd4
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 99%
+source-wordcount: '340'
+ht-degree: 88%
 
 ---
 
 # Configuration requise et comparaison des produits Analytics
 
-Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Reports &amp; Analytics, Report Builder, Data Warehouse, Data Workbench, Data Feeds et l’API Analytics 2.0.
+Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Report Builder, Data Warehouse, flux de données et API Analytics 2.0.
 
 Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -25,14 +25,14 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Qu
 | **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet |
 | **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Non | Non | Non |
 | **Le faible trafic (valeurs uniques dépassées) apparaît** <br> [En savoir plus](/help/technotes/low-traffic.md) | Oui | Oui | Non | Non | Oui |
-| **Limite des lignes visibles (avant pagination)** | 400 | 50000 | Illimitées | Illimitées | Illimitées | 50000 |
+| **Limite des lignes visibles (avant pagination)** | 400 | 50000 | Illimitées | Illimitées | 50000 |
 | **Suites de rapports multiples** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui | Non | Oui | Non | Oui |
 | **Nombre de répartitions** | Illimitées | Jusqu’à 2 | Illimitées | Illimitées | Illimitées, appliquées à plusieurs requêtes |
 | **Segmentation** <br> [En savoir plus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui, avec des [limites](/help/components/segmentation/seg-reference/seg-compatibility.md) | Non | Oui |
-| **Mesures calculées** <br> [En savoir plus](/help/components/c-calcmetrics/cm-overview.md) | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Oui, avec attribution | Oui | Non | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Mesures calculées** <br> [En savoir plus](/help/components/c-calcmetrics/cm-overview.md) | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Oui, avec attribution | Oui | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canaux marketing** <br> [En savoir plus](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Oui | Oui | Oui | Oui - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Oui |
-| **Analyse des cohortes** | [Oui](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Oui | Non | Non | Non | Non |
-| **Attribution** | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitées | Non | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Analyse des cohortes** | [Oui](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Oui | Non | Non | Non |
+| **Attribution** | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitées | Non | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Non |
 | **Traitement** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/curate.md) | Oui - Projet et suite de rapports virtuelle | Non | Non | Non | Oui - Suite de rapports virtuelle uniquement |
 | **Partage des projets** <br> [En savoir plus](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Oui, avec des rôles de projet | Oui | Non | Non | Non |
 | **Livraison planifiée** | Oui | Oui | Oui | Oui | Non |

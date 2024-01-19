@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 3be3de8c24e48f5ecddd37ff6d3cbcf64bca3209
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 74%
+source-wordcount: '1318'
+ht-degree: 69%
 
 ---
 
@@ -46,26 +46,26 @@ Regardez une vidéo sur le démarrage dʼune nouvelle visite avec un événement
 
 ## Limites du traitement de la période de rapport
 
-Le traitement de la période de rapport ne prend pas en charge toutes les mesures et dimensions disponibles dans la création de rapports Analytics traditionnelle. Les suites de rapports virtuelles utilisant le report de traitement du temps sont accessibles uniquement dans Analysis Workspace. Elles ne sont pas accessibles dans [!UICONTROL Reports &amp; Analytics], Data Warehouse, Report Builder, les flux de données ou l’API de création de rapports.
+Le traitement de la période de rapport ne prend pas en charge toutes les mesures et dimensions disponibles dans la création de rapports Analytics traditionnelle. Les suites de rapports virtuelles utilisant le traitement de la période de rapport ne sont accessibles que dans Analysis Workspace et ne sont pas accessibles dans Data Warehouse, Report Builder, Flux de données ou l’API de création de rapports.
 
 En outre, le traitement de la période de rapport traite uniquement les données comprises dans la plage de dates de création de rapports (appelée « fenêtrage de dates » ci-dessous). Cela signifie que les valeurs eVar définies sur « ne jamais expirer » pour un visiteur antérieurement à la plage de dates de création de rapports ne sont pas conservées dans les fenêtres de création de rapports et n’apparaissent pas dans les rapports. Cela signifie également que les mesures de fidélisation des clients sont basées exclusivement sur les données présentes dans la plage de dates de création de rapports et non sur l’ensemble de l’historique antérieurement à la plage de dates de création de rapports.
 
 Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitement de la période de rapport :
 
-* **Analytics for Target**
+* **Analytics for Target**
 * **Dimensions/mesures Analytics pour Advertising Cloud**
 * **eVars de compteur**
 * [**Jours avant le premier achat**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Jours depuis le dernier achat**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Jours depuis la dernière visite**](/help/components/dimensions/days-since-last-visit.md)
-* **Page d’accès d’origine**
+* **Page d’accès originale**
 * **eVars d’attribution linéaire**
-* **eVars de liste**
+* **Variables de liste**
 * [**Dimensions Canaux marketing**](/help/components/dimensions/marketing-channel.md)
 * [**Domaine référent initial**](/help/components/dimensions/original-referring-domain.md)
 * [**Fréquence des retours**](/help/components/dimensions/return-frequency.md)
 * [**Accès unique**](/help/components/metrics/single-access.md)
-* **Sources de données des ID de transaction**
+* **Sources de données d’ID de transaction**
 * [**Nombre de visites**](/help/components/dimensions/visit-number.md)
 
 ## Dimensions et mesures affectées

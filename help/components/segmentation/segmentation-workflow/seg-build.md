@@ -3,10 +3,10 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2054'
-ht-degree: 99%
+source-wordcount: '1974'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,6 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 
 * **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
-* **[!UICONTROL Reports &amp; Analytics]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**, ouvrez un rapport existant et cliquez sur l’icône Segments ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche, puis sur **[!UICONTROL Ajouter]**.
 * **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=fr).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -68,10 +67,9 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Segments]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Sélecteur de suite de rapports]** : permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
 1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la répartition du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
-1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment   [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
+1. **[!UICONTROL Compatibilité des produits]**: fournit une liste des produits Adobe Analytics (Analysis Workspace, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Cependant, tous les opérateurs et dimensions ne sont pas compatibles avec tous les produits Analytics, en particulier [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 1. **[!UICONTROL Enregistrer]** ou **[!UICONTROL Annuler]** : permet d’enregistrer ou d’annuler le segment. Après avoir cliqué sur **[!UICONTROL Enregistrer]** vous accédez au Gestionnaire de segments qui vous permet de gérer le segment.
 
-Les segments avec des périodes incorporées fonctionnent toujours différemment dans Analysis Workspace par rapport au composant [!UICONTROL Reports &amp; Analytics] : dans Workspace, un segment avec une période incorporée remplace la période du panneau. En revanche, le composant [!UICONTROL Reports &amp; Analytics] indique l’intersection de la période du rapport avec la période incorporée du segment.
 
 ## Création de segments {#build-segments}
 
@@ -85,7 +83,7 @@ Les segments avec des périodes incorporées fonctionnent toujours différemment
 1. Saisissez ou sélectionnez une valeur pour l’élément sélectionné.
 1. Ajoutez des conteneurs supplémentaires, le cas échéant, en utilisant les règles **[!UICONTROL AND]**, **[!UICONTROL OR]** ou **[!UICONTROL THEN]**.
 1. Après avoir placé les conteneurs et défini les règles, consultez les résultats du segment dans le graphique de validation dans la partie supérieure droite. Le programme de validation indique le pourcentage et le nombre absolu de pages vues, de visites et de visiteurs uniques qui correspondent au segment que vous avez créé.
-1. Sous **[!UICONTROL Balises]**,   [marquez](/help/components/segmentation/segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une nouvelle.
+1. Sous **[!UICONTROL Balises]**, [tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le segment.
 
 Vous accédez maintenant au [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md), où vous pouvez marquer, partager et gérer votre segment de différentes manières.
@@ -213,20 +211,20 @@ Les modèles sont identifiés par le logo « A » d’Adobe. Vous trouverez ci
    <td colname="col2">Affiche les données concernant les visiteurs venus par l’entremise des campagnes. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Le code de suivi n’a pas la valeur nulle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites depuis des périphériques mobiles </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs utilisant des périphériques mobiles. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Périphérique mobile différent de zéro. </p> </td> 
+   <td colname="col1"> Visites depuis des appareils mobiles </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs utilisant des appareils mobiles. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Appareil mobile différent de zéro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites depuis la recherche naturelle </td> 
    <td colname="col2">Affiche les données concernant les visiteurs ne provenant pas d’une recherche payante. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Recherche payée = 0. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites à partir de périphériques non mobiles </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs n’utilisant pas de périphériques mobiles. Dans la définition de segment, le conteneur est Visite. Ce segment utilise la logique Exclure. La règle est la suivante : <p>Type de périphérique mobile = Téléphone mobile </p> <p>OU </p> <p>Type de périphérique mobile = Tablette. </p> </td> 
+   <td colname="col1"> Visites à partir d’appareils non mobiles </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs n’utilisant pas d’appareils mobiles. Dans la définition de segment, le conteneur est Visite. Ce segment utilise la logique Exclure. La règle est la suivante : <p>Type d’appareil mobile = Téléphone mobile </p> <p>OU </p> <p>Type d’appareil mobile = Tablette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de téléphones </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs utilisant des téléphones. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Type de périphérique = Téléphone mobile. </p> </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs utilisant des téléphones. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Type d’appareil = Téléphone mobile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de moteurs de recherche </td> 
@@ -238,7 +236,7 @@ Les modèles sont identifiés par le logo « A » d’Adobe. Vous trouverez ci
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de tablettes </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs utilisant des tablettes. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Type de périphérique = Tablette. </p> </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs utilisant des tablettes. Dans la définition de segment, le conteneur est Visite. La règle est la suivante : <p>Type d’appareil = Tablette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites avec cookie d’identifiant visiteur </td> 

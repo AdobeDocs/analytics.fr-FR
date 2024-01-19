@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Voici une vidéo sur le traitement des composants :
 
 >[!NOTE]
 >
->Des modifications ont été apportées quant aux composants visibles aux administrateurs et aux non-administrateurs dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](/help/analyze/analysis-workspace/curate-share/curate.md) permet de mieux contrôler quels composants sont visibles.
+>Des modifications ont été apportées quant aux composants visibles aux personnes administratrices et non administratrices dans les suites de rapports virtuelles et les projets Workspace traités. Auparavant, les composants non traités étaient visibles par tous en cliquant sur le bouton **[!UICONTROL Afficher tous les composants]**. La [mise à jour de l’expérience de traitement](/help/analyze/analysis-workspace/curate-share/curate.md) permet de mieux contrôler quels composants sont visibles.
 
 Pour activer le traitement des composants,
 
@@ -35,7 +35,6 @@ Pour activer le traitement des composants,
    >
    >Si la personnalisation des composants est activée, la suite de rapports virtuelle est **accessible uniquement dans Analysis Workspace** et ne l’est pas dans :
    >
-   >* [!UICONTROL Reports &amp; Analytics]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]

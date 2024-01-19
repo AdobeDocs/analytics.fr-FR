@@ -3,10 +3,10 @@ description: Questions fréquentes sur la gestion des segments hérités.
 title: Questions fréquentes sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Répond aux questions fréquentes sur les bonnes pratiques de gestion des segmen
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous la forme de   modèles de segments dans le Créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés sous forme de modèles de segments dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -44,7 +44,7 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 +++ **Qu’est-il advenu des segments de Data Warehouse ?**
 
-Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments de Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace et Reports &amp; Analytics.
+Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace.
 
 Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
@@ -53,7 +53,7 @@ Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Cr�
 +++ **Qu’est-il advenu des segments préconfigurés ?**
 
 * **Visites de page unique**
-* **Visites depuis des périphériques mobiles**
+* **Visites depuis des appareils mobiles**
 * **Visites depuis la recherche naturelle**
 * **Visites d’une recherche payante**
 * **Visites avec cookie d’identifiant visiteur**
@@ -103,7 +103,7 @@ Les segments existants qui utilisent une logique qui a été modifiée comme ind
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction des   [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Marquez les segments en fonction de [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -134,17 +134,17 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
 | Compatible Java | Java | - |
 | Mobile - Longueur max. d’URL de navigateur | Longueur d’URL de navigateur mobile | - |
 | Mobile - Décoration de courrier | Prise en charge de Decoration Mail mobile | - |
-| Appareil mobile | Nom du périphérique mobile | - |
+| Appareil mobile | Nom de l’appareil mobile | - |
 | Mobile - Longueur max. du signet | Longueur maxi d’URL en signet pour mobile | - |
 | Mobile - Longueur max. d’adresse e-mail | Longueur maxi d’URL de messagerie pour mobile | - |
-| Système d’exploitation mobile (obsolète) | SE Mobile | Utilisez la dimension du système d’exploitation et appliquez à la place une visite depuis les segments de périphériques mobiles. |
+| Système d’exploitation mobile (obsolète) | SE Mobile | Utilisez la dimension du système d’exploitation et appliquez à la place une visite depuis les segments d’appareils mobiles. |
 | Mobile - Presser pour parler | PTT mobile | - |
 | Vues d’une enquête | Total des vues d’une enquête | - |
 | Réponses de l’enquête | Total des réponses de l’enquête | - |
 | Profondeur de visite | Longueur de chemin | - |
 | Code postal | Code postal | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues  {#string-based-dims}
 
@@ -155,11 +155,11 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | Nom de la Dimension | Nom de la Dimension | Nom de la Dimension |
 | --- | --- | --- |
 | fabricant du périphérique mobile | longueur d’adresse e-mail du périphérique mobile | profondeur de couleur |
-| taille de l’écran du périphérique mobile | numéro du périphérique mobile | résolution de l’écran |
+| taille de l’écran du périphérique mobile | numéro de l’appareil mobile | résolution de l’écran |
 | hauteur d’écran du périphérique mobile | mobile - presser pour parler | module externe |
 | prise en charge des cookies sur le périphérique mobile | mobile - décoration de courrier | système d’exploitation |
 | prise en charge des images sur le périphérique mobile | services d’informations mobiles | type de référent |
-| intensité de couleur du périphérique mobile | type de périphérique mobile | moteur de recherche |
+| intensité de couleur du périphérique mobile | type d’appareil mobile | moteur de recherche |
 | prise en charge de l’audio sur le périphérique mobile | type de navigateur | state |
 | prise en charge de la vidéo sur le périphérique mobile | navigateur | pays géo |
 | DRM mobile | type de connexion | région géo |

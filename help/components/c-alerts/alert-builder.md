@@ -3,10 +3,10 @@ description: Utilisation des alertes dans Analysis Workspace.
 title: Présentation du Générateur d’alertes
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 99%
+source-wordcount: '463'
+ht-degree: 97%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 99%
 >
 >Les alertes intelligentes ne sont disponibles que pour les clients Adobe [!DNL Analytics] Prime et Adobe [!DNL Analytics] Ultimate.
 
-Le Générateur d’alertes peut être ouvert de l’une des quatre façons suivantes :
+Accédez au Générateur d’alertes de l’une des trois façons suivantes :
 
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-* Dans un rapport [!UICONTROL Reports &amp; Analytics], en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
 Les utilisateurs qui ont déjà créé des segments ou calculé des mesures dans [!DNL Analytics] ne seront pas dépaysés par l’interface du Générateur d’alertes :
 
@@ -59,7 +58,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
-   Notez qu’un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
+  Notez qu’un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
 
 * Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
 

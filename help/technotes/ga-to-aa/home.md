@@ -3,10 +3,10 @@ title: Transition d’une plateforme d’analyse tierce vers Adobe Analytics
 description: Découvrez les concepts clés pour obtenir des rapports destinés aux utilisateurs familiarisés avec d’autres plateformes, comme Google Analytics.
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 81%
 
 ---
 
@@ -16,12 +16,7 @@ Ce guide présente les types de rapports courants qui vous aident à découvrir 
 
 Google Analytics et Adobe Analytics sont de puissantes plateformes qui permettent d’obtenir des informations précieuses sur les performances de votre site web. Chacune possède sa propre architecture de traitement et sa propre interface utilisateur, ce qui lui confère des avantages uniques. Ce guide a pour but d’aider un utilisateur qui a de l’expérience avec Google Analytics à se familiariser avec Adobe Analytics.
 
-Dans Adobe Analytics, il existe deux méthodes principales pour extraire les rapports de base après connexion à Adobe Experience Cloud :
-
-* **Reports &amp; Analytics** est la méthode historique d’extraction des rapports de base. Le menu de gauche fournit une liste de rapports préfabriqués et permet à l’utilisateur d’accéder au rapport souhaité et d’obtenir des données. Les segments et les mesures peuvent fournir des personnalisations supplémentaires. Les utilisateurs qui ont l’habitude des rapports Google Analytics trouveront sûrement cette disposition familière.
-* **Analysis Workspace** est la méthode actuellement recommandée pour extraire la plupart des rapports. Le menu de gauche permet à l’utilisateur de glisser et déposer des composants pour créer son propre rapport. Il offre une plus grande liberté pour répondre à besoins précis en matière de rapports. Les utilisateurs qui ont l’habitude de créer des tableaux de bord et des rapports personnalisés Google Analytics trouveront sûrement cette disposition familière.
-
-La plupart des rapports peuvent être créés à la fois dans [!UICONTROL Reports &amp; Analytics] et dans [!UICONTROL Analysis Workspace]. Cependant, certains rapports peuvent être extraits uniquement à l’aide d’une des plateformes. Dans la plupart des cas, Adobe conseille d’utiliser [!UICONTROL Analysis Workspace], sauf si une fonction spécifique n’est disponible que dans [!UICONTROL Reports &amp; Analytics].
+Dans Adobe Analytics, la méthode principale pour extraire des rapports de base après connexion à Adobe Experience Cloud consiste à utiliser **Analysis Workspace**. Le menu de gauche permet à l’utilisateur de glisser et déposer des composants pour créer son propre rapport. Il offre davantage de liberté pour répondre aux besoins exacts en matière de rapports. Les utilisateurs qui ont l’habitude de créer des tableaux de bord et des rapports personnalisés Google Analytics trouveront sûrement cette disposition familière.
 
 ## Parcours d’apprentissage recommandé
 
