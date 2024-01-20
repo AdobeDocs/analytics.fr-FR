@@ -1,11 +1,11 @@
 ---
 title: Déploiement d’Adobe Analytics dans un environnement de développement
 description: Découvrez comment utiliser les balises pour déployer Adobe Analytics dans votre environnement de développement.
-feature: Launch Implementation
+feature: Tags
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '587'
 ht-degree: 48%
 
 ---
@@ -28,7 +28,7 @@ Les balises prennent en charge de nombreux workflows organisationnels pour le d�
 4. Nommez-le `"Adobe managed"`, puis sélectionnez **[!UICONTROL Géré par Adobe]** dans la liste déroulante type . Cliquez sur Enregistrer.
 5. Accédez à **[!UICONTROL Environnements]**, puis cliquez sur **[!UICONTROL Ajouter un environnement]**.
 6. Sélectionner **[!UICONTROL Développement]**, nommez-le `"Dev Environment"`, puis sélectionnez l’hôte géré par l’Adobe dans la liste déroulante. Cliquez sur **[!UICONTROL Enregistrer]**.
-7. Une fenêtre modale s’affiche, affichant les instructions d’installation Web. Nous retournerons à cette fenêtre ultérieurement ; click **[!UICONTROL Fermer]** pour le moment.
+7. Une fenêtre modale s’affiche, affichant les instructions d’installation Web. Nous retournerons dans cette fenêtre ultérieurement. Cliquez sur **[!UICONTROL Fermer]** pour le moment.
 8. Cliquez sur **[!UICONTROL Ajouter un environnement]**, sélectionnez **[!UICONTROL Évaluation]**, nommez-le `"Staging Environment"`, puis sélectionnez l’hôte géré par l’Adobe. Cliquez sur **[!UICONTROL Créer]**, puis fermez la fenêtre modale des instructions d’installation.
 9. Cliquez sur **[!UICONTROL Ajouter un environnement]** à nouveau, sélectionnez **[!UICONTROL Production]**, nommez-le `"Production Environment"`, puis sélectionnez l’hôte géré par l’Adobe. Cliquez sur **[!UICONTROL Créer]**, puis fermez la fenêtre modale des instructions d’installation.
 

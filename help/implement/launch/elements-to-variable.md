@@ -1,11 +1,11 @@
 ---
 title: Mappage des éléments de données de balises aux variables Analytics
 description: Attribuez des éléments de données à des variables Analytics afin de les utiliser comme dimensions dans Analysis Workspace.
-feature: Launch Implementation
+feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '433'
 ht-degree: 96%
 
 ---
@@ -42,7 +42,7 @@ Les variables définies dans les règles sont idéales lorsque vous ne souhaitez
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet [!UICONTROL Règles], puis sur la règle de votre choix (ou créez-en une).
 1. Cliquez sur le bouton [!UICONTROL Ajouter] sous [!UICONTROL Actions].
-1. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] pour définir des variables.
+1. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] pour définir des variables.
 1. Cliquez sur l’icône ![Élément de données](assets/data-element.png) à droite de la variable Analytics souhaitée. Le [document de conception de solution](../prepare/solution-design.md) de votre entreprise détermine la variable Analytics à utiliser.
 1. Sélectionnez l’élément de données de votre choix dans la fenêtre modale. Cliquez sur [!UICONTROL Sélectionner].
 1. Le nom de l’élément de données est ajouté au champ de texte entouré de signes `%`. Par exemple, si vous avez nommé votre élément de données « Nom de page », la chaîne `%Page name%` apparaît lors de l’affectation d’un élément de données à une variable.

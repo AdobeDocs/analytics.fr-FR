@@ -1,12 +1,12 @@
 ---
 title: Création d’une propriété Analytics dans les balises
 description: Créez un espace pour personnaliser la manière dont les données sont collectées à l’aide de balises.
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '514'
-ht-degree: 100%
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Les balises dans Adobe Experience Platform vous permettent d’intégrer des sol
 
 ## Conditions préalables
 
-[Création d’une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : création d’un silo pour la collecte des données Analytics..
+[Création d’une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): crée un silo pour la collecte des données Analytics.
 
 ## Création d’une propriété de balise et installation d’extensions vitales
 
@@ -47,9 +47,9 @@ Les éléments de données sont des références à des composants spécifiques 
    * Type d’élément de données : variable JavaScript
    * Nom de variable JavaScript : `window.document.title`
 
-      >[!NOTE]
-      >
-      >Cette valeur sert d’exemple pour faciliter le démarrage. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
+     >[!NOTE]
+     >
+     >Cette valeur sert d’exemple pour faciliter le démarrage. Si votre organisation définit une meilleure valeur pour le nom de la page, telle qu’une valeur de couche de données, vous pouvez la saisir ici.
    * Texte clair coché
    * Durée de stockage : aucune
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
