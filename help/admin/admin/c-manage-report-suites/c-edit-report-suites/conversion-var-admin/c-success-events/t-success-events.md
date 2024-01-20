@@ -4,9 +4,9 @@ title: Configurer des événements de succès
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ Pour configurer des événements de succès :
 
    | Paramètre | Visible dans | Masqué dans |
    |---------|----------|---------|
-   | [!UICONTROL **Visible partout**] | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
-   | [!UICONTROL **Créateurs**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Reports &amp; Analytics (menu et sélecteur de mesure)</li><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
+   | [!UICONTROL **Visible partout**] | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
+   | [!UICONTROL **Créateurs**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
 
 1. Fournissez une description.
 1. Vérifiez si l’événement doit être toujours enregistré.

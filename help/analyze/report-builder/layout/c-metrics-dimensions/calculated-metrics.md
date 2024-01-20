@@ -4,10 +4,10 @@ title: Mesures calculées
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 84%
+source-wordcount: '399'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 À la deuxième étape de l’Assistant Requête, vous pouvez filtrer et appliquer les mesures calculées.
 
-## Filtrage des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrer des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
 **Filtrer** mesures calculées en cliquant sur l’icône Filtrer :  ![Capture d’écran des options Filtre affichant les champs Application, Utilisateur, Projet .](/help/admin/admin/assets/filter.png)
 
@@ -36,9 +36,9 @@ Les filtres disponibles incluent :
 | Nom du filtre | Description |
 |---|---|
 | Balises | Permet de filtrer les mesures calculées selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite répertorie les mesures qui ont été marquées avec **les deux** balises. |
-| Suites de rapports | Si vous appliquez le filtre « Uniquement le *nom de la suite de rapports* » dans le Créateur de mesures calculées dans [!DNL Reports & Analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement les mesures calculées correspondant à la suite de rapports sélectionnée. |
+| Suites de rapports | Si vous appliquez le filtre « Uniquement le *nom de la suite de rapports* » dans le Créateur de mesures calculées dans [!DNL Adobe Analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement les mesures calculées correspondant à la suite de rapports sélectionnée. |
 | Propriétaires | Permet de filtrer les mesures par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite répertorie les mesures détenues par **n’importe quel** propriétaire. |
-| Autres filtres > Approuvés | Affiche toutes les mesures  officiellement approuvées. |
+| Autres filtres > Approuvés | Affiche toutes les mesures officiellement approuvées. |
 | Autres filtres > Favoris | Affiche toutes les mesures que vous avez marquées comme Favoris. |
 | Autres filtres > À moi | Affiche toutes les mesures que vous possédez. |
 | Autres filtres > Partagés avec moi | Affiche toutes les mesures que d’autres ont partagées avec vous. |

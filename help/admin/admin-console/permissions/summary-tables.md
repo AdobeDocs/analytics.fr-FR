@@ -3,9 +3,9 @@ title: Autorisations dʼAdobe Analytics - tableaux récapitulatifs
 description: Tableaux qui résument les autorisations disponibles pour Adobe Analytics dans Adobe Admin Console.
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Détection des anomalies |  | x |  |  | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | Analyse des contributions |  | x |  |  | Accorde l’accès au menu contextuel « Exécuter l’analyse des contributions » dans Analysis Workspace. |
 | Rapport personnalisé de Data Warehouse |  | x |  |  | Accorde l’accès à Outils > Data Warehouse dans la barre de navigation supérieure d’Analytics. |
-| Pages de robots |  |  | x |  | Accorde l’accès au rapport Mesures du site > Robots > Pages de robots dans les Reports &amp; Analytics. |
-| Robots |  |  | x |  | Accorde l’accès à Mesures du site > Robots > Rapport sur les robots dans les Reports &amp; Analytics. |
-| Rapport Canal |  |  | x |  | Accorde l’accès à Canaux marketing > Rapport Aperçu d’un canal dans Reports &amp; Analytics. |
-| Visites retours quotidiennes |  |  | x |  | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
-| Mes rapports recommandés |  |  | x |  | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
-| Rapport en temps réel |  |  | x |  | Accorde l’accès à Mesures du site > Temps réel dans les Reports &amp; Analytics. Utilisez l’élément d’autorisation « Configuration des rapports en temps réel » pour accorder l’accès à la configuration de ce rapport. |
-| Visites renouvelées |  |  | x |  | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | Configuration Advertising Analytics |  |  |  | x | Inutilisé. |
 | Petit rapport récapitulatif pour la société |  |  |  | x | Inutilisé. |
 | Data Warehouse |  |  |  | x | Inutilisé. Utilisez plutôt « Rapport personnalisé de Data Warehouse ». |
@@ -94,7 +87,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Partager les liens du projet avec tout le monde | x |  |  |  | Accorde l’accès aux utilisateurs pour qu’ils partagent avec n’importe qui dans un projet Workspace -> Partager -> Partager avec n’importe qui. |
 | Activity Map |  | x |  |  | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis tire sa révérence. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Accès à Analysis Workspace |  | x |  |  | Octroie l’accès à Analysis Workspace. Les utilisateurs doivent appartenir à ce groupe (préféré) ou disposer d’un accès aux Reports &amp; Analytics pour utiliser Adobe Analytics. |
+| Accès à Analysis Workspace |  | x |  |  | Accorde l’accès à Analysis Workspace. |
 | Analysis Workspace : enregistrer comme modèle |  | x |  |  | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
 | Création de mesure calculée |  | x |  |  | Permet de créer des mesures calculées pour toutes les fonctionnalités d’Analytics. |
 | Accès aux laboratoires |  | x |  |  | Octroie lʼaccès à Labs. |
@@ -102,8 +95,6 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Création de segment |  | x |  |  | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | Publication de segment |  | x |  |  | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
 | Accès aux services Web |  | x |  |  | Permet d’utiliser l’API, notamment l’authentification auprès de sites tiers et l’envoi d’appels d’API. |
-| Données actives |  |  | x |  | Permet d’afficher les données actives dans des rapports Reports &amp; Analytics. |
-| Accès aux Reports &amp; Analytics |  |  | x |  | Octroie l’accès aux Reports &amp; Analytics. Les utilisateurs doivent appartenir à ce groupe ou disposer d’un accès aux Analysis Workspace (recommandé) pour utiliser Adobe Analytics. |
 | Gestion Advertising Analytics |  |  |  | x | Inutilisé. |
 | Alliance de marques |  |  |  | x | N’est plus utilisé. Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Alliance de marques. |
 | Utilisateurs sous licence Excel |  |  |  | x | Inutilisé. |

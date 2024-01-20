@@ -4,16 +4,16 @@ title: Panneau d’éléments suivant ou précédent
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: c289f4aa1e49e428182fed9a871a1f90dd1f5c42
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 7%
+source-wordcount: '445'
+ht-degree: 5%
 
 ---
 
 # Panneau d’éléments suivant ou précédent
 
-Le [!UICONTROL Élément suivant ou précédent] a commencé en tant que rapport dans Reports &amp; Analytics, sous [!UICONTROL Rapports] > [!UICONTROL Le plus populaire] > [!UICONTROL Page suivante/page précédente]. Il s’agit désormais également d’un panneau Workspace. Ce panneau contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple, vous souhaitez peut-être explorer les pages les plus consultées par les clients après avoir visité la page d’accueil.
+Ce panneau contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple, vous souhaitez peut-être explorer les pages les plus consultées par les clients après avoir visité la page d’accueil.
 
 ## Accès au panneau
 
@@ -24,7 +24,7 @@ Vous pouvez accéder au panneau à partir de la fonction [!UICONTROL Rapports] o
 | [!UICONTROL Rapports] | <ul><li>Le panneau est déjà déposé dans un projet.</li><li>Le rail de gauche est réduit.</li><li>Si vous avez sélectionné [!UICONTROL Page suivante], les paramètres par défaut ont déjà été appliqués, comme [!UICONTROL Page] pour [!UICONTROL Dimension], et la page supérieure comme [!UICONTROL Élément de Dimension], [!UICONTROL Suivant] pour [!UICONTROL Direction] et [!UICONTROL Visite] pour [!UICONTROL Conteneur]. Vous pouvez modifier tous ces paramètres.</li></ul>![Panneau Suivant/Précédent](assets/next-previous.png) |
 | Workspace | Créez un projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites ensuite glisser le [!UICONTROL Élément suivant ou précédent] au-dessus du tableau à structure libre. Notez que la variable [!UICONTROL Dimension] et [!UICONTROL Élément de Dimension] Les champs ne sont pas renseignés. Sélectionnez une dimension dans la liste déroulante. [!UICONTROL Éléments de Dimension] sont renseignées en fonction de la variable [!UICONTROL dimension] vous avez choisi. L’élément de dimension supérieur est ajouté, mais vous pouvez sélectionner un autre élément. Les valeurs par défaut sont Suivant et Visiteur. Vous pouvez également les modifier.<p>![Panneau Suivant/Précédent](assets/next-previous2.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Entrées de panneau {#Input}
 
@@ -38,13 +38,13 @@ Vous pouvez configurer la variable [!UICONTROL Élément suivant ou précédent]
 | Direction | Indiquez si vous recherchez le [!UICONTROL Suivant] ou le [!UICONTROL Précédent] élément de dimension. |
 | Conteneur | [!UICONTROL Visite] ou [!UICONTROL Visiteur] (par défaut) déterminez la portée de votre requête. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Cliquez sur **[!UICONTROL Build]** pour créer le panneau.
 
 ## Sortie de panneau {#output}
 
-Le [!UICONTROL Élément suivant ou précédent] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
+La variable [!UICONTROL Élément suivant ou précédent] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
 
 ![Sortie de panneau suivante/précédente](assets/next-previous-output.png)
 
@@ -52,8 +52,8 @@ Le [!UICONTROL Élément suivant ou précédent] renvoie un riche ensemble de do
 
 | Visualisation | Description |
 | --- | --- |
-| Barre horizontale | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension choisi. Le survol d’une barre individuelle met en surbrillance l’élément correspondant dans le tableau à structure libre. |
+| Barre horizontale | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension que vous avez choisi. Le survol d’une barre individuelle met en surbrillance l’élément correspondant dans le tableau à structure libre. |
 | Numéro de résumé | Numéro de résumé de haut niveau de toutes les occurrences d’élément de dimension précédente ou suivante pour le mois en cours (à ce jour). |
 | Tableau à structure libre | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension choisi, dans un format de tableau. Par exemple, les pages les plus populaires (par occurrence) sur lesquelles les utilisateurs se sont rendus après (ou avant) la page d’accueil ou la page de l’espace de travail. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

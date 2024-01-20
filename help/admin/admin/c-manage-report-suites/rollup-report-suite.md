@@ -3,10 +3,10 @@ description: Description des types de suites de rapports et comparaison des suit
 title: Approches des suites de rapports
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul. Adobe ne recommande plus leur utilisation. Envisagez plutôt lʼutilisation dʼune suite de rapports globale avec un balisage multisuite ou des suites de rapports virtuelles.
-
-Un rapport de cumul est une simple agrégation de données provenant de plusieurs suites de rapports, sans déduplication ni répartition des segments ou des données. Aucune implémentation de code nʼest nécessaire pour les cumuls. Pour utiliser les rapports de cumul, procédez comme suit : [implémentez les suites de rapports enfants](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md), puis [combinez-les dans un rapport de cumul](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) à lʼaide des [!UICONTROL Outils d’administration].
-
-Les rapports de cumul sont gratuits : les suites de rapports enfants lancent leurs propres appels au serveur, mais le cumul n’entraîne pas d’appels supplémentaires. Les cumuls sont une fonctionnalité héritée et présentent de nombreuses limites.
+>[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul. Fin de vie de Reports &amp; Analytics le 17 janvier 2024.
 
 ### Limites des rapports de cumul {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Les rapports de cumul sont gratuits : les suites de rapports enfants lancent le
 
 **Rapports** : les suites de rapports globales fournissent des données sur l’ensemble des dimensions. Les cumuls ne fournissent des données agrégées que sur les rapports de haut niveau.
 
-**Produits pris en charge** : les cumuls ne peuvent être utilisés que dans Reports &amp; Analytics. Elles ne sont pas prises en charge dans Analysis Workspace ou Data Warehouse. Les suites de rapports globales peuvent être utilisées pour tous les produits.
+**Produits pris en charge**: les cumuls ne peuvent être utilisés que dans Reports &amp; Analytics. Elles ne sont pas prises en charge dans Analysis Workspace ou Data Warehouse. Les suites de rapports globales peuvent être utilisées pour tous les produits.
 
 **Nombre de suites de rapports agrégées** : les cumuls ne prennent en charge que 40 suites de rapports enfants au maximum. Les suites de rapports globales peuvent être implémentées sur n’importe quel nombre de domaines ou d’applications que vous détenez.

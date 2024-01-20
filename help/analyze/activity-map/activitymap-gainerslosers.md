@@ -4,10 +4,10 @@ title: Superpositions personnalisables
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Les superpositions proposent plusieurs manières de configurer la visualisation de données afin de consulter et de comprendre facilement la popularité des liens sur une page.
 
-Les superpositions vous permettent de visualiser les données de clic directement sur la page. C’est ce qui distingue un outil d’analyse visuelle tel qu’Activity Map d’outils principalement tabulaires et graphiques tels que Reports &amp; Analytics.
+Les superpositions vous permettent de visualiser les données de clic directement sur la page.
 
 Activity Map propose trois types de superpositions :
 
@@ -51,7 +51,7 @@ Les superpositions bulle s’affichent lorsque vous sélectionnez cette superpos
 
 >[!NOTE]
 >
-> Les superpositions bulle pour les sous-menus apparaissent uniquement lorsque vous affichez le sous-menu :
+>Les superpositions bulle pour les sous-menus s’affichent uniquement lorsque vous affichez le sous-menu :
 >
 >![](assets/bubbles_submenu.png)>
 

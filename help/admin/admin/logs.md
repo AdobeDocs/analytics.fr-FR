@@ -3,9 +3,9 @@ description: Fichiers journaux permettant de savoir quand se connectent les util
 title: Journaux
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '587'
 ht-degree: 67%
 
 ---
@@ -43,25 +43,23 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Connexion réussie | L’utilisateur s’est connecté correctement. |
 | Action d’administration | Une action d’administrateur s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de la société, la création d’un utilisateur, l’annulation d’une demande de création de rapports, etc. |
 | Modification des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
-| Rapport consulté | Un rapport Reports &amp; Analytics a été affiché. |
-| Rapport téléchargé | Un rapport Reports &amp; Analytics a été téléchargé. |
 | Alerte envoyée | Une alerte a été envoyée. |
 | Action de l’utilisateur | Les informations sur les utilisateurs ont été modifiées. |
 | Outil affiché | Un outil a été vu. |
 | Action Omniture | Une action a été effectuée par Adobe. |
 | Récupération des mots de passe | Un mot de passe a été récupéré. |
-| BookMarks | Un signet a été géré. |
+| Signets | Un signet a été géré. |
 | Tableaux de bord | Un tableau de bord a été géré. |
 | Alertes | Une alerte a été gérée. |
-| Événements du calendrier | Un événement de calendrier a été géré. |
+| Événements calendrier | Un événement de calendrier a été géré. |
 | Cibles | Une cible a été gérée. |
 | Paramètres des rapports | Un paramètre de rapport a été géré. |
-| Rapports planifiés | Un rapport planifié a été géré. |
+| Rapports programmés | Un rapport planifié a été géré. |
 | Exclure par adresse IP | Le paramètre IP a été modifié. |
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
-| Projet Espace de travail | Un projet Workspace a été affiché ou modifié. |
+| Projet Workspace | Un projet Workspace a été affiché ou modifié. |
 | Segment | Un segment a été créé/modifié. |
 | Mesure calculée | Une mesure calculée a été créée/modifiée. |
 | Période | Une période a été créée/modifiée. |

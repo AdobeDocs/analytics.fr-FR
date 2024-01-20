@@ -3,10 +3,10 @@ title: Autorisations du profil de produit pour les outils de suites de rapports 
 description: Comprenez chaque élément d’autorisation sous Outils de suites de rapports.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 94%
+source-wordcount: '540'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,6 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Résumé du compte] | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Configuration Advertising Analytics] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
 | [!UICONTROL Détection des anomalies] | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
-| [!UICONTROL Pages de robots] | Accorde l’accès au rapport Mesures du site > Robots > Pages de robots dans les Reports &amp; Analytics. |
-| [!UICONTROL Robots] | Accorde l’accès à Mesures du site > Robots > Rapport sur les robots dans les Reports &amp; Analytics. |
-| [!UICONTROL Rapport Canal] | Accorde l’accès à Canaux marketing > Rapport Aperçu d’un canal dans Reports &amp; Analytics. |
 | [!UICONTROL Canaux] | Accorde l’accès à Canaux marketing, y compris Gestionnaire de canaux marketing, Règles de traitement des canaux marketing et Expiration du canal marketing dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Classifications] | Accorde l’accès à tous les paramètres de classification dans le Gestionnaire de suites de rapports. Cet élément d’autorisation inclut : <br>Trafic > Classifications du trafic<br>Conversion > Classifications des conversions<br>Conversion > Hiérarchies des classifications<br>Canaux marketing > Classifications des canaux marketing<br>Gestion des applications > Classifications des applications<br>Gestion des médias > Classifications des médias<br>AEM > Classifications des AEM Assets<br>Adobe Campaign > Classifications Adobe |
 | [!UICONTROL Coûts] | Accorde l’accès à Canaux marketing > Coûts de canal marketing dans le Gestionnaire de suites de rapports. |
@@ -32,20 +29,17 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Visites retours quotidiennes] | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
 | [!UICONTROL Gestionnaire des flux de données] | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
 | [!UICONTROL Gestionnaire des sources de données] | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans la barre de navigation supérieure d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
-| API de [!UICONTROL réparation des données] | Accorde l’accès à l’API Data Repair |
+| [!UICONTROL API de réparation des données] | Accorde l’accès à l’API Data Repair |
 | [!UICONTROL Mesures par défaut] | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Exclure par adresse IP] | Accorde l’accès à Admin > Exclure par IP dans le volet de navigation supérieur d’Analytics. |
 | [!UICONTROL Méthodes de recherche] | Accorde l’accès à Conversion > Méthodes de recherche dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Variables de liste] | Accorde l’accès à Conversion > Variables de liste dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Personnalisation des menus] | Accorde l’accès à Général > Personnaliser les menus dans le Gestionnaire de suites de rapports. |
-| [!UICONTROL Mes rapports recommandés] | Accorde l’accès à Mesures du site > Mes rapports recommandés dans les Reports &amp; Analytics. |
 | [!UICONTROL Recherche payante] | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Règles de traitement] | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
-| [!UICONTROL Rapport en temps réel] | Accorde l’accès à Mesures du site > Temps réel dans les Reports &amp; Analytics. Utilisez l’élément d’autorisation « Configuration des rapports en temps réel » pour accorder l’accès à la configuration de ce rapport. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
-| [!UICONTROL Visites renouvelées] | Accorde l’accès à Rétention des visiteurs > Visites de retour dans Reports &amp; Analytics. |
 | [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | Inutilisé. |
-| [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
+| [!UICONTROL Accès à Activity Manager dans les rapports] | Inutilisé. |
 | [!UICONTROL Gestion des suites de rapports] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | [!UICONTROL Petit rapport Image de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport Évaluation des mesures du tableau de bord R&amp;A] | Inutilisé. |

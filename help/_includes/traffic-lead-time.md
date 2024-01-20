@@ -3,20 +3,16 @@ description: Adobe requiert d’être informée à l’avance de la configuratio
 title: Délai d’avance requis pour les augmentations de trafic
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # Délai d’avance requis pour les augmentations de trafic
 
-## Délai d’avance requis pour les augmentations de trafic
-
 Adobe requiert d’être informée à l’avance de la configuration de nouveaux comptes, ainsi que des pics et augmentations de trafic. Le matériel doit être alloué à l’avance afin de minimiser la latence et les impacts négatifs sur l’ensemble du système.
-
-L’allocation du matériel dépend des alertes envoyées au moyen de l’interface utilisateur des Reports &amp; Analytics.
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ L’allocation du matériel dépend des alertes envoyées au moyen de l’interf
 
 Suivez les directives suivantes pour déterminer à quel moment envoyer une alerte de trafic :
 
-### Délais de l’allocation matériel
+## Délais de l’allocation matériel
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Autres éléments à prendre en compte :
 
 * Les alertes client sont également requises lorsque le trafic augmente ou qu’une suite de rapports devient obsolète.
 
-### Réallocation de matériel en raison d’un trafic non réalisé
+## Réallocation de matériel en raison d’un trafic non réalisé
 
 Le matériel pour les nouveaux comptes, pics et augmentations de trafic sera réalloué si le trafic prévu dans l’alerte client ne se matérialise pas sous quatre semaines à partir de la « date d’activation ». Si le trafic est toujours attendu, une nouvelle alerte client doit être générée lorsque le trafic augmente.

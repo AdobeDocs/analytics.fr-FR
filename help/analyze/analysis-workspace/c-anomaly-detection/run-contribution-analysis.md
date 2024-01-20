@@ -4,10 +4,10 @@ title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Patientez pendant le chargement de l’analyse des contributions. Selon la taille de la suite de rapports et le nombre de dimensions, cette opération peut être longue. L’analyse des contributions traite les 50 000 premiers éléments par dimension.
-1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet. Si vous avez déjà utilisé l’analyse des contributions dans Reports &amp; Analytics, de nombreux panneaux vous seront familiers :
+1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet.
 
    * Visualisation qui présente le nombre de **Visites** ce jour-là.
    * **Ligne de tendance des visites** mensuelle en fonction du contexte.

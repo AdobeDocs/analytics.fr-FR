@@ -5,10 +5,10 @@ uuid: 68ec3490-6e47-4606-860d-dd5e89c574a1
 feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
-source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ La documentation des API Adobe Analytics se trouve sur [Adobe Developer](https:/
 | **Description** | Données finalisées intégralement traitées disponibles dans toutes les interfaces d’Analytics. | Mesures limitées partiellement traitées disponibles quelques secondes après la collecte. | Données d’accès partiellement traitées disponibles quelques secondes après la collecte. | Données finalisées entièrement traitées utilisées pour l’extraction d’exportations volumineuses de données. |
 | [**Latence**](/help/technotes/latency.md) | 30-90 minutes | Secondes -10 minutes | Secondes -10 minutes | + 90 minutes |
 | **Traitement** | Complet | Partiel | Partiel | Complet |
-| **Interfaces de création de rapports** | Analysis Workspace, Reports &amp; Analytics, Report Builder, API | Rapport en temps réel dans Reports &amp; Analytics, Report Builder et lʼAPI 1.4 | API seulement | Data Warehouse, API |
+| **Interfaces de création de rapports** | Analysis Workspace, Report Builder, API | Rapport en temps réel dans l’API Report Builder 1.4 | API seulement | Data Warehouse, API |
 | **Granularité des données** | Récapitulatif | Récapitulatif | Au niveau des accès | Récapitulatif |
 | **Traitement du profil du visiteur** | Oui | Non | Non | Oui |
 | **Prise en charge des segments** | Oui | Non | Non | Partiel |

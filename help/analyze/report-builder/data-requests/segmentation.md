@@ -1,13 +1,13 @@
 ---
 description: Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Report Builder.
-title: Gestion des segments (Report Builder)
+title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 Comment ajouter, modifier, appliquer et filtrer des segments Adobe Analytics dans le Report Builder.
 
-Le Report Builder inclut un panneau de segmentation à l’étape 1 de l’Assistant Requête qui permet de créer et gérer des segments.
+Report Builder comprend un panneau de segmentation à l’étape 1 de l’Assistant Requête qui vous permet de créer et de gérer des segments.
 
 ![Capture d’écran présentant les options Segment à ajouter, à modifier ou à effacer et mettant en surbrillance les icônes Contrôle, Filtrer et Actualiser.](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 1. Revenez au Report Builder et cliquez sur l’icône Actualiser pour actualiser la liste de segments.
 1. Vous êtes à présent prêt à appliquer ce segment.
 
-## Recherche et application de segments {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## Recherche et application de segments {#search}
 
-Chaque segment créé dans Reports &amp; Analytics, Report Builder ou Data Warehouse est répertorié dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Tous les segments créés dans Reports &amp; Analytics (désormais en fin de vie), Report Builder ou Data Warehouse apparaissent dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
@@ -64,9 +64,9 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
 >[!NOTE]
 >
->Dans le Report Builder, que vous soyez administrateur ou non, vous ne pouvez consulter que les segments que vous possédez et ceux qui ont été partagés avec vous. (Dans l’interface utilisateur de Reports &amp; Analytics marketing, l’administrateur peut consulter tous les segments de l’entreprise.)
+>En Report Builder, que vous soyez administrateur ou non, vous ne pouvez consulter que les segments que vous possédez et ceux qui ont été partagés avec vous.
 
-## Filtrer des segments {#section_376E986D3E684999A7CDB08E53854159}
+## Filtrer des segments {#filter}
 
 **Filtrer** segments en cliquant sur l’icône Filtrer :  ![Icône Filtrer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -74,15 +74,15 @@ Les filtres disponibles incluent :
 
 | Nom du filtre | Description |
 |---|---|
-| Balises | Permet de filtrer les segments selon des balises spécifiques balises. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
+| Balises | Permet de filtrer les segments selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
 | Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
-| Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « Uniquement *le nom de la suite de rapports* » dans le Créateur de segments dans [!DNL marketing reports & analytics], puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement le segment correspondant à la suite de rapports sélectionnée. |
+| Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez la variable &quot;Only&quot; *nom de la suite de rapports*&quot; dans le créateur de segments dans Adobe Analytics, puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affiche uniquement le segment correspondant à la suite de rapports sélectionnée. |
 | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
-| Autres filtres > Partagés avec moi | Affiche tous les segments que d’autres ont partagé avec vous. |
+| Autres filtres > Partagés avec moi | Affiche tous les segments que les autres ont partagés avec vous. |
 | Autres filtres > Favoris | Affiche tous les segments que vous avez marqués comme Favoris. |
-| Autres filtres > Approuvés | Affiche toutes les mesures approuvés. |
+| Autres filtres > Approuvés | Affiche tous les segments officiellement acceptés. |
 
-## Ajouter un contrôle de segments à un classeur {#section_E3E5149A8464441FA5445A98DBD520AC}
+## Ajouter un contrôle de segments à un classeur {#segment-control}
 
 L’ajout d’un contrôle de segments vous permet de basculer entre les segments dans un classeur au lieu d’avoir à accéder à l’Assistant Requête.
 
@@ -103,11 +103,11 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
    ![Capture d’écran du champ déroulant Choisir le segment .](assets/seg_control2.png)
 
-## Actualisation de la liste de segments {#section_22E4A86789444B4A998532396B476EFB}
+## Actualisation de la liste de segments {#refresh}
 
 Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour actualiser la liste mise en cache de segments.
 
-## Gérer les segments à travers les requêtes {#section_C3D63FCBE1A94369A319243313B03C93}
+## Gérer les segments à travers les requêtes {#manage}
 
 Avant la version 5.4, les utilisateurs pouvaient modifier les segments pour plusieurs demandes dans le Report Builder. Toutefois, ce processus remplaçait systématiquement les segments existants. Les utilisateurs qui souhaitaient ajouter un nouveau segment à chaque demande ne pouvaient pas le faire, puisque l’ajout du segment supprimait le jeu précédent de segments déjà affectés à chaque demande.
 
@@ -122,7 +122,7 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
 
    | Option | Description |
    |---|---|
-   | Ajouter Segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
+   | Ajouter un segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
    | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |

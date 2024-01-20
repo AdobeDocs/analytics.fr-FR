@@ -3,10 +3,10 @@ title: Profils de produit pour Adobe Analytics
 description: Découvrez comment les profils de produit peuvent être utilisés comme paramètres d’autorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs d’une organisation.
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur l’affectation des administrateurs de profil de 
 Les autorisations minimales requises dans un profil de produit pour accéder à Adobe Analytics sont les suivantes :
 
 * Le profil de produit doit avoir accès à au moins une suite de rapports.
-* Le profil de produit doit appartenir à l’élément d’autorisation lié aux outils Analytics **Accès à Analysis Workspace** (ou **Accès aux Reports &amp; Analytics**).
+* Le profil de produit doit appartenir à l’élément d’autorisation Outils Analytics . **Accès à Analysis Workspace**.
 
 ### Suites de rapports
 
@@ -40,13 +40,13 @@ Accorde l’accès aux suites de rapports qui appartiennent à votre organisatio
 
 ### Mesures
 
-Accorde l’accès aux mesures de votre suite de rapports. Les mesures sont répertoriées comme leur composant respectif dans Analysis Workspace ou, si la mesure est disponible dans Reports &amp; Analytics, sont disponibles en tant qu’élément de menu sous Mesures du site.
+Accorde l’accès aux mesures de votre suite de rapports. Les mesures sont répertoriées comme leur composant respectif dans Analysis Workspace.
 
 Les mesures personnalisées sont étiquetées « Événements personnalisés 1-1 000 » afin de rester indépendantes des suites de rapports. Si « Événement personnalisé 1 » est un élément d’autorisation activé, cet utilisateur a accès à événement1 dans toutes les suites de rapports du profil de produit.
 
 ### Dimensions
 
-Accorde l’accès aux dimensions de votre suite de rapports. Les dimensions sont répertoriées en tant que composant respectif dans Analysis Workspace, ou si la dimension est disponible dans Reports &amp; Analytics, sont disponibles en tant qu’élément de menu.
+Accorde l’accès aux dimensions de votre suite de rapports. Les Dimensions sont répertoriées comme leur composant respectif dans Analysis Workspace.
 
 Les variables personnalisées, telles que les eVars, sont étiquetées « Conversions personnalisées 1-250 » afin de rester indépendantes des suites de rapports. Si « Conversion personnalisée 1 » est un élément d’autorisation activé, cet utilisateur a accès à eVar1 dans toutes les suites de rapports du profil de produit.
 

@@ -4,10 +4,10 @@ title: Détection des anomalies - Aperçu
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '1402'
-ht-degree: 100%
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Quelque chose s’est produit. Pourquoi ? Votre rapport Détection des anomalie
 
 L’analyse des contributions permet d’évaluer immédiatement les données afin de déterminer la cause d’une anomalie. Elle ventile en quelques secondes les contributions à une anomalie, là où il fallait autrefois plusieurs semaines, isole des schémas pour les segments d’audience et aide à élaborer une narration relative aux interactions des clients. Appliquez l’analyse des contributions de manière stratégique afin de détecter et de capturer des associations significatives pour élaborer de nouveaux segments d’audience ou avec tact pour identifier les activités extraordinaires ou frauduleuses qui ont déclenché une alerte.
 
-La [détection des anomalies](#anomaly-detection) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces    calculs sont ensuite présentés dans des visualisations interactives qui illustrent différentes perspectives afin de vous aider à déterminer la raison d’un événement et ce que vous pouvez faire à ce sujet.
+La [détection des anomalies](#anomaly-detection) identifie les pics de données et les creux statistiques extrêmes d’après les mesures et les segments d’audience sélectionnés. Elle établit une norme historique d’après une période de formation, puis trace les décalages extrêmes en corrélation avec les événements spécifiques. Elle peut repérer une hausse soudaine d’une mesure positive de commandes ou d’une mesure négative de rebonds, ou les creux dans les deux cas, afin de capturer les points de données statistiquement pertinents qui seront évalués par l’analyse des contributions. Une fois une anomalie statistique identifiée, l’analyse des contributions permet d’analyser davantage et d’évaluer les variables de campagne et de marketing pertinentes à l’échelle de tous les points de données irréguliers. Elle exécute des algorithmes et des processus d’apprentissage automatiques élaborés afin d’évaluer les associations qui ont contribué à un pic ou à un creux significatif. Ces calculs sont ensuite affichés dans des visualisations interactives conçues pour vous donner des perspectives variées afin de vous aider à déterminer la raison d’un événement et ce que vous devez faire à ce sujet.
 
 L’analyse des contributions permet d’élaborer une narration afin de décrire la raison d’une anomalie et la manière d’y réagir, en capturant les mesures pertinentes et en repérant les points latents qui présentent une raison globale aux interactions des audiences et aux tendances des intérêts des clients. Il est parfois aisé de repérer et de corriger une anomalie, par exemple une commande ponctuelle de 2 000 kayaks. Cela peut aussi être complexe, par exemple en identifiant une tendance émergente sur une période donnée dans une région donnée, qui réagit uniquement à une campagne ciblée spécifique. L’assemblage d’éléments de contribution à l’échelle de mesures pour diverses dimensions et de leurs associations vous donne une idée générale des interactions de votre audience et vous aide à préciser un contexte pour les points de données irréguliers.
 
@@ -69,10 +69,6 @@ Après une analyse exhaustive d’une anomalie, un résumé des contributions es
 
 ## Jetons d’analyse des contributions - Aperçu {#section_3EF8D2BBCE6E4C309D753BCF04A453D0}
 
->[!IMPORTANT]
->
->L’analyse des contributions a été supprimée de l’ensemble de fonctionnalités Reports &amp; Analytics et est désormais disponible uniquement via Analysis Workspace.
-
 Tous les clients autorisés à utiliser l’analyse des contributions peuvent exécuter une analyse complète un nombre limité de fois par mois dans Analysis Workspace. Cela **exclut** les clients (SiteCatalyst 15) du produit, les clients d’Analytics Foundation et les clients d’Analytics Select, qui n’obtiennent aucune analyse de contributions.
 
 Le nombre d’exécutions par société est limité à un certain nombre de jetons mensuels attribués en fonction du produit Adobe Analytics acquis par la société. Cela inclut la possibilité de restreindre l’accès à l’analyse des contributions pour éviter l’usage impropre des jetons.
@@ -83,7 +79,6 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
 | --- | --- |
 | Pourquoi Adobe a-t-il introduit des jetons ?  | L’analyse des contributions a été l’une des capacités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions « complètes » par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez mieux voir ce que l’analyse des contributions complète illimitée peut vous apporter. |
 | Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ? | Chaque société de connexion (et non chaque utilisateur) obtient un certain nombre de jetons par mois, ce qui permet d’exécuter une analyse des contributions « complète » dans Analysis Workspace.  Chaque fois que vous générez une nouvelle analyse des contributions, vous payez un jeton. Le chargement de projets avec des analyses des contributions pré-exécutées ne coûte pas de jeton. |
-| Les jetons s’appliquent-ils à l’analyse des contributions dans les Reports &amp; Analytics ? | Non. L’analyse des contributions n’est plus disponible dans les Reports &amp; Analytics depuis avril 2018. |
 | Si ma société n’a plus de jetons et souhaite exécuter des analyses des contributions supplémentaires, que pouvons-nous faire ? | Vous pouvez passer à une autre version d’Adobe Analytics, par exemple de Standard (2 jetons/mois) à Ultimate (20 jetons/mois). Vous ne pouvez pas acheter plus de jetons : vous devez effectuer une mise à niveau dans le cadre de la structure de package existante. |
 | Comment puis-je restreindre l’accès à l’analyse des contributions ? | Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions. Cependant, les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la section [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr). Donnez l’autorisation d’utiliser l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et à qui vous accordez votre confiance pour ne pas en abuser. L’autorisation est appelée [!UICONTROL Analyse des contributions] sous [!UICONTROL Outils de suites de rapports]. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=fr) |
 | Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons avons-nous utilisés durant le mois en cours ? | Accédez à [!UICONTROL Admins] > [!UICONTROL Tous les administrateurs] > [!UICONTROL Accueil des paramètres d’entreprise] > [!UICONTROL Afficher les niveaux d’accès aux fonctions]. Recherchez sous<ul><li>Analyse des contributions : nombre de jetons d’utilisation par mois</li><li>Analyse des contributions : nombre de jetons d’utilisation utilisés ce mois-ci</li></ul> |
@@ -91,10 +86,6 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
 ## Autorisations pour la détection des anomalies et l’analyse des contributions {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
 Vous trouverez ci-dessous une liste des autorisations détaillées pour la détection des anomalies et l’analyse des contributions dans Analysis Workspace.
-
->[!IMPORTANT]
->
->La détection des anomalies et l’analyse des contributions ont été supprimées de l’ensemble des fonctionnalités Reports &amp; Analytics et sont désormais disponibles uniquement via Analysis Workspace. Remarque : les clients Adobe Analytics Select et Adobe Analytics Foundation ne profitent que d’une détection des anomalies « à granularité journalière » dans Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 

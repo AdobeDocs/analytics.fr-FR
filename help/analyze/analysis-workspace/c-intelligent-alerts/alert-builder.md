@@ -4,9 +4,9 @@ title: Générateur d’alertes (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 99%
 
 ---
@@ -23,10 +23,9 @@ Le Générateur d’alertes peut être ouvert de l’une des quatre façons suiv
 
 * En utilisant le raccourci clavier suivant dans Analysis Workspace :
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * En sélectionnant **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]**.
 * En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-* Dans un rapport Reports &amp; Analytics, en sélectionnant **[!UICONTROL Plus]** > **[!UICONTROL Ajouter une alerte]**.
 
 ## Générer des alertes
 
@@ -70,7 +69,7 @@ Spécifiez la date d’expiration de l’alerte.
 
 * Faites glisser et déplacez les mesures dans la zone de travail des déclencheurs.
 
-   Un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
+  Un message **« composants incompatibles »** s’affiche si certains composants (mesures/dimensions/segments) de l’alerte ne sont pas compatibles avec la suite de rapports actuellement sélectionnée.
 * Déterminez le seuil que la mesure doit dépasser avant l’envoi d’une alerte. Vous pouvez définir un seuil, puis l’une des conditions suivantes :
 
    * il existe une anomalie
@@ -81,7 +80,7 @@ Spécifiez la date d’expiration de l’alerte.
    * change de
    * Le seuil peut être défini à 90 %, 95 %, 99 %, 99,75 % ou 99,90 %.
 
-   Vous pouvez également utiliser les mesures calculées.
+  Vous pouvez également utiliser les mesures calculées.
 
 *Avec tous ces filtres*
 
