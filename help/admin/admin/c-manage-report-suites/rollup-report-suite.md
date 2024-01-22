@@ -3,10 +3,10 @@ description: Description des types de suites de rapports et comparaison des suit
 title: Approches des suites de rapports
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite
 >
 >[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul. Fin de vie de Reports &amp; Analytics le 17 janvier 2024.
 
-### Limites des rapports de cumul {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* Les cumuls fournissent des données totales, mais ne génèrent pas de valeurs individuelles dans les rapports. Ainsi, les valeurs eVar1 ne sont pas incluses, mais le total cumulé peut l’être.
-* Les données ne sont pas dédupliquées lorsque le cumul combine les données de plusieurs suites de rapports.
-* Les rollups sont exécutés chaque nuit à minuit.
-* Lors de l’ajout d’une suite de rapports à un cumul existant, les données historiques ne sont pas intégrées au cumul.
-* Toutes les suites de rapports enfants doivent comporter des données pour qu’un cumul fonctionne. Si vous intégrez de nouvelles suites de rapports dans un cumul, veillez à envoyer au moins une page vue à chacune de ces suites de rapports.
-* Les suites de rapports de cumul sont limitées à 40 suites de rapports enfants.
-* Les suites de rapports de cumul sont limitées à 100 événements.
-* Les données contenues dans les suites de rapports de cumul ne prennent pas en charge les répartitions ou les segments.
-* Le rapport Pages est remplacé par le rapport Sites les plus populaires, qui tient compte des mesures au niveau de la suite enfant.
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## Comparaison entre les fonctionnalités Suite de rapports globale et Rapport de cumul
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**Deuxième appel serveur** : les cumuls n’impliquent aucun appel au serveur supplémentaire au-delà de ce qu’une seule suite de rapports collecte. Si votre entreprise utilise le balisage multisuite, un deuxième appel serveur est effectué pour chaque suite de rapports supplémentaire incluse dans une demande d’image.
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->Si vous utilisez uniquement une suite de rapports globale avec des [suites de rapports virtuelles](/help/components/vrs/vrs-considerations.md), aucun deuxième appel serveur n’est nécessaire.
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**Modifications de l’implémentation** : les cumuls ne nécessitent aucune modification de l’implémentation, tandis que les suites de rapports globales nécessitent que vous incluiez l’identifiant de suite de rapports globale dans votre implémentation.
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**Duplication** : contrairement aux cumuls, les suites de rapports globales dédupliquent les visiteurs uniques. Ainsi, si un utilisateur visite trois ou quatre de vos domaines le même jour, les cumuls comptabilisent trois visiteurs uniques par jour. Quant aux suites de rapports globales, elles n’en comptabilisent qu’un seul.
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**Période** : les cumuls ne sont traités qu’à minuit, tous les jours, alors que les suites de rapports globales génèrent des rapports sur les données avec une latence standard.
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**Étendue** : les cumuls n’offrent aucun moyen de communiquer entre les suites de rapports. Les suites de rapports globales peuvent allouer du crédit à des variables de conversion entre des suites de rapports et fournir un cheminement entre les suites.
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**Données historiques** : les cumuls peuvent agréger des données historiques, alors que les suites de rapports globales ne génèrent des rapports qu’à partir du point où les données ont été implémentées.
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**Rapports** : les suites de rapports globales fournissent des données sur l’ensemble des dimensions. Les cumuls ne fournissent des données agrégées que sur les rapports de haut niveau.
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**Produits pris en charge**: les cumuls ne peuvent être utilisés que dans Reports &amp; Analytics. Elles ne sont pas prises en charge dans Analysis Workspace ou Data Warehouse. Les suites de rapports globales peuvent être utilisées pour tous les produits.
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Nombre de suites de rapports agrégées** : les cumuls ne prennent en charge que 40 suites de rapports enfants au maximum. Les suites de rapports globales peuvent être implémentées sur n’importe quel nombre de domaines ou d’applications que vous détenez.
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

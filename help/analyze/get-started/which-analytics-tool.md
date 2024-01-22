@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,11 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** devrait être l’interface utilisateur de référence pour tous vos besoins en matière de création de rapports et d’analyse. Adobe continue d’investir dans ce produit et publie des mises à jour mensuelles. S’il y a une tâche que vous ne pouvez pas faire dans Analysis Workspace, considérez les autres interfaces ci-dessous.**
 
+**[Tableaux de bord Adobe Analytics](/help/analyze/mobile-app/home.md)** permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
+
 **[Report Builder](/help/analyze/report-builder/home.md)** est un module complémentaire pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
 
-**[Tableaux de bord Adobe Analytics](/help/analyze/mobile-app/home.md)** permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** est une fonctionnalité d’Adobe Analytics qui fournit une représentation visuelle de l’engagement des utilisateurs sur les pages web et les applications mobiles. Il permet aux spécialistes du marketing et aux analystes de suivre et d’analyser les interactions utilisateur, telles que les clics, les survols et le comportement de défilement.
 
 ## Importer des données dans Adobe Analytics {#import}
 

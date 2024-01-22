@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
 
 ---
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md)
    + [Comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md)
    + [Emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md)
-+ [Événements du calendrier](t-calendar-event.md)
 + [Projets planifiés](scheduled-projects-manager.md)
 + [File d’attente des rapports planifiés](scheduled-reports-admin.md)
 + Création de rapports en temps réel {#real-time-reporting}

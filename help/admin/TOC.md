@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 90%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 90%
             + Détection de recherche payante {#paid-search-detection}
                + [Détection de référencement payant - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [Personnaliser les menus](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + Règles de traitement {#c-processing-rules}
                + [Règles de traitement - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Règles de traitement {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 90%
       + [Télécharger les paramètres d’une suite de rapports](admin/c-manage-report-suites/t-download-rs-settings.md)
       + Nouvelle suite de rapports {#c-new-report-suite}
          + [Créer une suite de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [Créer une suite de rapports de cumul](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [Créer un groupe de suites de rapports](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [Paramètres d’une nouvelle suite de rapports](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [Paramètres non copiés depuis une suite de rapports source](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,8 +151,7 @@ ht-degree: 90%
       + [Services web](admin/company/web-services-admin.md)
       + [Rapports du Report Builder](admin/company/report-builder-reports-admin.md)
       + [Authentification unique](admin/company/single-signon-admin.md)
-      + [Alliance de marques](admin/company/co-branding-admin.md)
-      + [Masquage des suites de rapports](admin/company/c-hide-report-suites.md)
+      + [Masquer des suites de rapports](admin/company/c-hide-report-suites.md)
       + [Gestionnaire de préférences](admin/company/preferences-manager.md)
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)

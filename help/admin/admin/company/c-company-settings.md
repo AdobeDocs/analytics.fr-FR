@@ -3,9 +3,9 @@ description: Page d’aperçu de la configuration des paramètres qui s’appliq
 title: Paramètres d’entreprise - Aperçu
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
+workflow-type: tm+mt
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ La page [!UICONTROL Paramètres d’entreprise] vous permet de configurer les pa
 + [Rapports du Report Builder](report-builder-reports-admin.md)
 + [Authentification unique](single-signon-admin.md)
 + [Actions en attente](pending-actions-admin.md)
-+ [Alliance de marques](co-branding-admin.md)
 + [Masquage des suites de rapports](c-hide-report-suites.md)
 + [Gestionnaire de sécurité](security-manager.md)
