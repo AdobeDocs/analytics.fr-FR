@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 67%
+ht-degree: 65%
 
 ---
 
@@ -16,7 +16,7 @@ Les segments vous permettent d’identifier des sous-ensembles de visiteurs selo
 
 Les segments sont basés sur une [!UICONTROL Visiteur], [!UICONTROL Visite], et [!UICONTROL Accès] hiérarchie de niveau à l’aide d’un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans  Analysis Workspace). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés conjointement comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le créateur de segments ou en générer à partir d’un rapport d’abandons (dans [!UICONTROL Analysis Workspace]). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés conjointement comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 Les segments identifient
 
