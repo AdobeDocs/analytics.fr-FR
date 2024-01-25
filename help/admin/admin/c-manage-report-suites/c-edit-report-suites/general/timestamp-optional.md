@@ -4,9 +4,10 @@ title: Horodatages facultatifs
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '319'
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ Avec les horodatages facultatifs, vous pouvez faire ce qui suit :
 
 * Si elles sont créées à partir d’un modèle, le paramètre Horodatages (facultatif) est activé par défaut pour les nouvelles suites de rapports.
 
-   (Pour créer une suite de rapports à partir d’un modèle, sélectionnez **Admin > Suites de rapports > Nouveau > Suite de rapports**.)
+  (Pour créer une suite de rapports à partir d’un modèle, sélectionnez **Admin > Suites de rapports > Nouveau > Suite de rapports**.)
 * Si elle est copiée à partir d’une suite de rapports existante, la nouvelle suite de rapports hérite des paramètres d’horodatage de l’original, y compris :
 
    * **Horodatages non autorisés** (paramètre s.visitorID pris en charge)

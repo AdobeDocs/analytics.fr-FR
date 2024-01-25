@@ -1,13 +1,14 @@
 ---
-description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
+description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Ces instructions illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
 solution: Analytics
 title: Comment vérifier l’implémentation du transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 86%
 
 ---
 
@@ -30,4 +31,3 @@ Pour vérifier l’état du transfert côté serveur :
 >[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
-

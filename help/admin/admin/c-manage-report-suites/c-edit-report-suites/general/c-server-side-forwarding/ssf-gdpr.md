@@ -3,10 +3,11 @@ description: Explique les améliorations apportées au transfert côté serveur,
 title: Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 60%
+source-wordcount: '564'
+ht-degree: 55%
 
 ---
 
@@ -29,11 +30,11 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 | Méthode de mise en œuvre | Étapes |
 |--- |--- |
 | Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
-| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
+| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : Définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 
 ## Reporting (facultatif) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Vous pouvez utiliser Adobe Analytics pour créer des rapports sur la quantité de votre trafic basée sur le consentement. Par conséquent, le trafic transféré côté serveur est plus important que celui qui n’est pas basé sur le consentement et n’a pas été transféré vers Adobe Audience Manager.
+Vous pouvez utiliser Adobe Analytics pour créer des rapports sur la quantité de votre trafic basée sur le consentement. Par conséquent, le trafic transféré côté serveur est plus important que celui qui n’est pas basé sur le consentement et qui n’a pas été transféré vers Adobe Audience Manager.
 
 Pour configurer ce type de reporting, mappez la nouvelle variable contextuelle à une variable de trafic personnalisé (prop) par l’intermédiaire de règles de traitement. Procédure à suivre :
 

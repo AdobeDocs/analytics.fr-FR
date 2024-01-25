@@ -3,7 +3,7 @@ description: La détection de référencement payant fait la distinction entre l
 title: Détection de recherche payante
 feature: Admin Tools
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 [!UICONTROL La détection de référencement payant] fait la distinction entre les recherches payantes et les recherches naturelles dans les rapports [!UICONTROL Moteurs de recherche] et [!UICONTROL Mots-clés de recherche]. Vous pouvez indiquer les moteurs de recherche dans lesquels vous utilisez des annonces publicitaires payantes et spécifier une chaîne de caractères située dans l’URL d’une visite effectuée à partir d’une annonce payante.
 
-## Options de configuration {#section_0C2CFA0AF77B47098BE37CB024665D0D}
+## Options de configuration {#configuration}
 
 Le tableau suivant décrit les champs et options utilisés pour [configurer la détection de référencement payant](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md).
 

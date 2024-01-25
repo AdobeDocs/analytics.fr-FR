@@ -3,10 +3,11 @@ description: Une liste complète et des descriptions des variables de configurat
 title: Données et référence de code du transfert côté serveur
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +68,7 @@ Les paramètres dotés du préfixe `c_` identifient les variables définies par 
 | `c_linkExitURL` | URL du lien de sortie. |
 | `c_list#` | Variables de liste personnalisées. |
 | `c_longitude` | Longitude numérique. |
-| `c_mediaPlayerType` | Pour les demandes de suivi du flux multimédia. Les options incluent :   autre, primetime |
+| `c_mediaPlayerType` | Pour les demandes de suivi du flux multimédia. Les options incluent : other, primetime |
 | `c_pageName` | Nom de la page (si défini). |
 | `c_pageURL` | Adresse de la page dans la barre d’adresse du navigateur. |
 | `c_products` | Chaîne de produit (définie par `s.products`). |

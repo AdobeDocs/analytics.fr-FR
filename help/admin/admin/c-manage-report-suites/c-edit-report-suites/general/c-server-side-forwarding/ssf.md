@@ -4,10 +4,11 @@ solution: Analytics
 title: Transfert côté serveur - Aperçu
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 94%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +27,7 @@ Le transfert côté serveur améliore la collecte de données car :
 >Les clients existants d’Audience Manager qui utilisent Analytics doivent migrer vers le transfert côté serveur. Les nouveaux clients d’Adobe Analytics et d’Audience Manager doivent implémenter le transfert côté serveur (au lieu de la collecte de données côté client (DIL)) comme méthode de collecte et de transfert de données par défaut.
 
 >[!IMPORTANT]
->Conformément à la réglementation européenne sur les cookies, les responsables du traitement (clients Analytics) ont maintenant la possibilité de restreindre les données de pré-consentement à Adobe Analytics et d’empêcher qu’elles ne soient transférées côté serveur à Adobe Audience Manager. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Lorsqu’elle est définie, la variable empêche l’envoi de ces accès à Adobe Audience Manager tant que le consentement n’a pas été reçu. Pour plus d’informations, voir [Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
+>Conformément à la réglementation européenne sur les cookies, les contrôleurs de données (clients Analytics) ont désormais la possibilité de restreindre les données de consentement préalable à Adobe Analytics et d’empêcher qu’elles ne soient transférées côté serveur à Adobe Audience Manager. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Lorsqu’elle est définie, la variable empêche l’envoi de ces accès à Adobe Audience Manager tant que le consentement n’a pas été reçu. Pour plus d’informations, voir [Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md).
 
 Pour comprendre où se situe votre organisation en termes d’implémentation du transfert côté serveur, suivez les étapes de validation suivantes :
 
