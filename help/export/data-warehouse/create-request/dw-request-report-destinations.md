@@ -3,9 +3,9 @@ description: Description de la procédure de création d’une demande Data Ware
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ Pour plus d’informations sur la façon de commencer à créer une requête, ai
 >
 >* Nous vous recommandons d’utiliser un compte cloud ou un e-mail pour votre destination de rapport. Les comptes FTP et SFTP hérités sont disponibles, mais ne sont pas recommandés.
 >
->* Les demandes de Data Warehouse sont associées à votre compte utilisateur Adobe Analytics. Par défaut, les autres utilisateurs ne peuvent pas utiliser ni afficher les requêtes que vous configurez. Vous pouvez rendre les requêtes de Data Warehouse disponibles pour d’autres utilisateurs de votre entreprise en activant la variable **Afficher toutes les destinations** bascule, comme décrit dans la section [Paramètres généraux de la demande de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* Tout compte cloud que vous avez précédemment configuré pour [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [importation de données de classification Adobe Analytics](/help/components/locations/locations-manager.md) sont disponibles pour Data Warehouse. Cependant, les emplacements configurés pour importer des données de classification ne peuvent pas être utilisés.
 >
->* Tout compte cloud que vous avez précédemment [configuré pour les flux de données](/help/export/analytics-data-feed/create-feed.md) sont disponibles pour Data Warehouse.
+>* Les comptes cloud sont associés à votre compte utilisateur Adobe Analytics. Les autres utilisateurs ne peuvent pas utiliser ni afficher les comptes cloud que vous configurez.
 >
->* Comptes cloud configurés pour [importation de données de classification Adobe Analytics](/help/components/locations/locations-manager.md) d’une destination cloud peut être utilisée lors de la configuration d’une destination de rapport. Cependant, les emplacements configurés pour importer des données de classification ne peuvent pas être utilisés.
 
 Pour configurer la destination vers laquelle les rapports de Data Warehouse sont envoyés :
 
