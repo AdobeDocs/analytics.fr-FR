@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '4994'
-ht-degree: 96%
+source-wordcount: '5047'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Janvier 2024** | |
+| La migration des composants s’applique aux organisations IMS individuelles. | Clarification de la variable [migration des composants](/help/admin/admin/component-migration/component-migration.md) ne prend pas en charge la migration inter-organisation IMS. |
+| Clarification de la disponibilité de certaines informations uniquement pour les administrateurs | Ajout d’informations indiquant que les colonnes &quot;Dernière utilisation&quot; et &quot;Utilisé(e) dans&quot; qui sont décrites dans la section [Gestionnaire de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) et [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md) sont disponibles uniquement pour les administrateurs système. |
 | Mises à jour de la documentation de l’audience de minute moyenne du média | Mise à jour des informations dans [Panneau d’audience moyenne par minute du média](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) afin d’améliorer la clarté.<p>Les améliorations incluent :</p> <ul><li>Amélioration de l’organisation des informations</li><li>Ajout d’étapes pour indiquer des informations basées sur des tâches</li></ul> |
 
 ### 2023 {#23}

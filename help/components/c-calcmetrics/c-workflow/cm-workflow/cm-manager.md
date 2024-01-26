@@ -3,10 +3,10 @@ description: La page Mesures calculées offre plusieurs manières d’organiser 
 title: Gestionnaire de mesures calculées
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 9a6c2e7c2f83882f6df630f975b0c44e75a2ed7a
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 17%
+source-wordcount: '714'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 La page Mesures calculées offre plusieurs manières d’organiser les mesures, par exemple le partage, le filtrage, le balisage, l’approbation, la copie, la suppression et le marquage en tant que favoris.
 
-La page Mesures calculées vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent consulter toutes les mesures personnalisées de l’entreprise.
+La page Mesures calculées vous présente tous les segments que vous possédez et qui ont été partagés avec vous. Les utilisateurs de niveau administrateur peuvent afficher toutes les mesures personnalisées de l’entreprise.
 
 <!-- add screenshot -->
 
@@ -26,19 +26,19 @@ La page Mesures calculées vous présente tous les segments que vous possédez e
 
 Dans le gestionnaire des mesures calculées, vous pouvez :
 
-* [Filtrage des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+* [Filtrer des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
 
-* [Marquage des mesures calculées comme favoris](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+* [Marquer des mesures calculées en tant que Favoris](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
 
 * [Approbation des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
 
-* [Balisage des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+* [Baliser des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
 
 * [Partage des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
 
 * Exportez une mesure calculée dans un fichier CSV.
 
-* [Copie de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
+* [Copier des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
 
 * Suppression des mesures calculées
 
@@ -63,7 +63,7 @@ Pour configurer les colonnes visibles dans le gestionnaire de mesures calculées
    | Balises | Affiche les balises qui ont été appliquées à la mesure, soit par vous, soit par des personnes qui ont partagé la mesure calculée avec vous. |
    | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé la mesure calculée. <p>Lorsqu’une mesure calculée est partagée, une icône de partage s’affiche en regard du nom de la mesure calculée.</p> |
    | Date de modification | Indique la date de la dernière modification de la mesure personnalisée. |
-   | Utilisation dans | Indique le nombre de composants dans lesquels la mesure calculée est actuellement utilisée. <p>Par exemple, si la mesure calculée est utilisée dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche comme [!UICONTROL **42 composants**]. <p>Sélectionnez la valeur de cette colonne pour voir la répartition de l’utilisation de la mesure calculée (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Alertes (2)**]).</p><p>Les mesures calculées peuvent être utilisées dans l’un des types de composants suivants :</p> <ul><li>Alertes</li><li>Projets</li><li>Projets planifiés</li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>La variable [!UICONTROL **Utilisé dans**] ne s’affiche pas par défaut. [Configuration des colonnes](#configure-columns) pour l’afficher.</li><li>Si cette colonne ne contient aucune donnée pour un composant donné, mais qu’elle comporte une [!UICONTROL **Dernière utilisation**] date, le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise.</p> |
-   | Dernière utilisation | Affiche la date de la dernière utilisation de la mesure calculée dans l’un des types de composants suivants : <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li></ul> <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>Pour certains composants, cette colonne peut ne pas contenir de données si le composant a été utilisé pour la dernière fois avant septembre 2023.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise. |
+   | Utilisation dans | Indique le nombre de composants dans lesquels la mesure calculée est actuellement utilisée. <p>Par exemple, si la mesure calculée est utilisée dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche comme [!UICONTROL **42 composants**]. <p>Sélectionnez la valeur de cette colonne pour voir la répartition de l’utilisation de la mesure calculée (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Alertes (2)**]).</p><p>Les mesures calculées peuvent être utilisées dans l’un des types de composants suivants :</p> <ul><li>Alertes</li><li>Projets</li><li>Projets planifiés</li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>La variable [!UICONTROL **Utilisé dans**] ne s’affiche pas par défaut. [Configuration des colonnes](#configure-columns) pour l’afficher.</li><li>Si cette colonne ne contient aucune donnée pour un composant donné, mais qu’elle comporte une [!UICONTROL **Dernière utilisation**] date, le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise.</p> |
+   | Dernière utilisation | Affiche la date de la dernière utilisation de la mesure calculée dans l’un des types de composants suivants : <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li></ul> <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>Pour certains composants, cette colonne peut ne pas contenir de données si le composant a été utilisé pour la dernière fois avant septembre 2023.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise. |
 
    {style="table-layout:auto"}
