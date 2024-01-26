@@ -3,10 +3,10 @@ description: Affiche le trafic des pages web et classe les pages vues en temps r
 title: Rapports en temps réel
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '582'
+ht-degree: 94%
 
 ---
 
@@ -14,17 +14,13 @@ ht-degree: 96%
 
 Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit des données pratiques pour vos prises de décision professionnelles.
 
-
-
 >[!NOTE]
 >
 >Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer des rapports en temps réel, voir [Configuration des rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-Voici une présentation vidéo :
+Pour afficher le rapport en temps réel, accédez à :
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL Mesures du site]** > **[!UICONTROL Temps réel]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
 
 Le rapport Temps réel répond aux questions suivantes : qu’est-ce qui est tendance sur mon site et pourquoi ? Il vous permet, en tant que spécialiste marketing, de réagir rapidement et de gérer de manière active les performances de vos contenus et campagnes marketing. Les données sont reportées en temps réel en moins de deux minutes et se mettent automatiquement à jour minute par minute.
 
@@ -52,7 +48,7 @@ N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en char
 
 Seuls les administrateurs ou les utilisateurs des groupes d’autorisations Accès à tous les rapports et Création de rapports avancés peuvent configurer et afficher les rapports Temps réel. Toutefois, cette fonction respecte les autorisations. Si, par exemple, vous n’avez pas les droits permettant de consulter le revenu, vous ne pourrez pas consulter un rapport en temps réel qui inclut les données de revenu.
 
-## Latence des données suite à la configuration d’A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latence des données suite à la configuration d’A4T  {#latency}
 
 Une fois l’intégration A4T activée dans Adobe Target, vous remarquerez une latence supplémentaire de 5 à 10 minutes dans Adobe Analytics. Cette augmentation de la latence permet aux données provenant d’Analytics et de Target d’être stockées sur le même accès, permettant de ventiler les tests par page et par section de site.
 

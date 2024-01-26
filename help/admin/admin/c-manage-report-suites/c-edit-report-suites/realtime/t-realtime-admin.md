@@ -3,10 +3,10 @@ description: Cette rubrique décrit les étapes d’administration pour configur
 title: Configuration des rapports en temps réel
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 90%
+source-wordcount: '288'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 
-La configuration des rapports en temps réel dans Adobe Analytics consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite.
+La configuration des rapports en temps réel dans Adobe Analytics consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour cette suite. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
@@ -53,8 +53,11 @@ La configuration des rapports en temps réel dans Adobe Analytics consiste à s�
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** ou sur **[!UICONTROL Enregistrer et afficher le rapport]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles.
 
-1. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
+1. Pour afficher le rapport en temps réel, accédez à :
+
+   **[!UICONTROL Workspace]** > **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
+
