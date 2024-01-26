@@ -3,10 +3,11 @@ title: linkTrackVars
 description: Permet de spécifier les variables à inclure dans les demandes d’image de suivi des liens.
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 61%
+source-wordcount: '331'
+ht-degree: 62%
 
 ---
 
@@ -26,7 +27,7 @@ Cette variable est automatiquement renseignée sur le serveur principal en fonct
 
 >[!IMPORTANT]
 >
->Si vous définissez des variables à l’aide de l’éditeur de code personnalisé, vous devez inclure la ou les variables dans la variable `linkTrackVars` en utilisant également du code personnalisé.
+>Si vous définissez des variables à l’aide de l’éditeur de code personnalisé, vous devez inclure la ou les variables dans `linkTrackVars` en utilisant également du code personnalisé.
 
 ## s.linkTrackVars dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

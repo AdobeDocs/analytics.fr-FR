@@ -3,9 +3,10 @@ title: getNewRepeat
 description: Permet de suivre l’activité des nouveaux visiteurs par rapport aux visiteurs réguliers.
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '640'
 ht-degree: 74%
 
 ---
@@ -26,8 +27,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getNewRepeat`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getNewRepeat`
 1. Définissez la variable `daysBeforeReset` sur la droite.
 1. Enregistrez et publiez les modifications sur l’élément de données.
 

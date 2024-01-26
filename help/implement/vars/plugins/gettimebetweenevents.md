@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: Permet de mesurer le temps qui s’écoule entre deux événements.
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -66,9 +67,9 @@ La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 * **`stp`** (obligatoire, chaîne) : événements d’arrêt du minuteur. Chaîne d’événements Analytics délimitée par des virgules permettant d’« arrêter le minuteur ».
 * **`res`** (obligatoire, booléen) : option de réinitialisation du minuteur. Définissez cet argument sur `true` si vous souhaitez enregistrer le temps depuis le démarrage du minuteur ET réinitialiser le minuteur après son arrêt. Définissez-le sur `false` si vous souhaitez enregistrer le temps sans arrêter le minuteur. S’il est défini sur `false`, le minuteur continue de fonctionner après que la variable events a enregistré un événement d’arrêt.
 
-   >[!TIP]
-   >
-   >Si vous définissez cet argument sur `false`, il est vivement recommandé de définir l’argument `rte` ci-dessous.
+  >[!TIP]
+  >
+  >Si vous définissez cet argument sur `false`, il est vivement recommandé de définir l’argument `rte` ci-dessous.
 * **`cn`** (facultatif, chaîne) : nom du cookie où l’heure du premier événement est enregistrée. La valeur par défaut est `"s_tbe"`.
 * **`etd`** (facultatif, entier) : délai d’expiration du cookie en jours. Définissez cet argument sur `0` pour qu’il expire à la fin de la session du navigateur. La valeur par défaut est 1 jour lorsqu’elle n’est pas définie.
 * **`fmt`** format du temps dans lequel le nombre de secondes est renvoyé (par défaut, aucun).

@@ -3,9 +3,10 @@ title: Paramètres de requête de la collecte de données
 description: Répertorie tous les paramètres de chaîne de requête utilisés dans les demandes d’image.
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 74920ff0e518d18697df9aaac8de92e831bb7c03
-workflow-type: ht
-source-wordcount: '718'
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -47,7 +48,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `j` | Aucun | Version JavaScript installée dans le navigateur. |
 | `k` | Aucun | Utilisé dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variables de liste. |
-| `lrt` | Aucun | Le « délai de la dernière requête », qui correspond au délai d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes proviennent d’une page ou lorsque la page est une application d’une seule page. |
+| `lrt` | Aucun | Le « délai de la dernière requête », qui correspond au délai d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes proviennent d’une page ou lorsque la page est une application monopage. |
 | `mid` | Aucun | Identifiant visiteur Experience Cloud. |
 | `ndh` | Aucun | Indicateur précisant si la demande d’image provient d’AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Permet de déterminer l’emplacement des cookies. |

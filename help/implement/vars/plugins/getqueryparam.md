@@ -3,9 +3,10 @@ title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 74%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 74%
 
 {{plug-in}}
 
-Le plug-in `getQueryParam` vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, provenant des URL de page d’entrée. Il convient également pour l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
+Le plug-in `getQueryParam` vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, provenant des URL de page de destination. Il convient également pour l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
 
 Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide du SDK Web ou de l’extension Adobe Analytics ou de la variable [`Util.getQueryParam()`](../functions/util-getqueryparam.md) inclus dans AppMeasurement.
 
@@ -28,8 +29,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getQueryParam`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getQueryParam`
 1. Définissez les paramètres de votre choix à droite.
 1. Enregistrez et publiez les modifications sur l’élément de données.
 

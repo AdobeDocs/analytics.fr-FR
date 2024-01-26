@@ -3,10 +3,11 @@ title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 78%
+source-wordcount: '708'
+ht-degree: 77%
 
 ---
 
@@ -26,8 +27,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `p_fo`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `p_fo`
 1. Enregistrez et publiez les modifications sur l’élément de données.
 
 ## Installation manuelle du plug-in implémentant le SDK Web

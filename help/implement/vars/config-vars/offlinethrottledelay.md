@@ -3,10 +3,11 @@ title: offlineThrottleDelay
 description: Permet de définir la fréquence des accès lorsqu’un appareil revient en ligne.
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 81%
+ht-degree: 90%
 
 ---
 

@@ -3,10 +3,11 @@ title: visitorID
 description: Permet d’utiliser un identifiant visiteur personnalisé.
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## Identifiant visiteur utilisant le SDK Web et Experience Edge
 
-Experience Edge vous permet de fournir plusieurs identifiants à l’aide de XDM [Carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Chaque identité d’une carte des identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de [configuration des flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#analytics). Une fois configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.
+Experience Edge vous permet de fournir plusieurs identifiants à l’aide de XDM [Carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). Chaque identité d’une carte des identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de [configuration des flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). Une fois configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.

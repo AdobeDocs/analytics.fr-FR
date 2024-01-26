@@ -3,9 +3,10 @@ title: getResponsiveLayout
 description: Permet de déterminer la mise en page d’un site web actuellement consulté.
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 86%
 
 ---
@@ -62,15 +63,15 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 La fonction `getResponsiveLayout` utilise les arguments suivants :
 
-* **`ppw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode portrait au mode paysage.
-* **`plw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe du mode paysage au mode tablette.
-* **`tw`** (obligatoire, entier) : largeur maximale possible en pixels dʼune fenêtre de navigateur avant que la page ne passe du mode tablette au mode bureau.
+* **`ppw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe de l’orientation portrait à l’orientation paysage.
+* **`plw`** (obligatoire, entier) : largeur maximale possible en pixels d’une fenêtre de navigateur avant que la page ne passe de l’orientation portrait à l’orientation paysage.
+* **`tw`** (obligatoire, entier) : largeur maximale possible en pixels dʼune fenêtre de navigateur avant que la page ne passe du format tablette au format bureau.
 
 Lʼappel de cette fonction renvoie une chaîne contenant deux parties délimitées par deux points (`:`). La première partie de la chaîne contient lʼune des valeurs suivantes, selon la largeur de la fenêtre du navigateur et les arguments ci-dessus :
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
-* `"phone layout"` (pour les sites qui n’ont pas de format portrait et paysage)
+* `"phone layout"` (pour les sites qui n’ont pas d’orientation portrait et paysage)
 * `"tablet layout"`
 * `"desktop layout"`
 

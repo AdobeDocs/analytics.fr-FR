@@ -3,7 +3,8 @@ title: Révision intégrale
 description: Passez votre implémentation en revue tous les 6 mois pour vous assurer qu’elle reste en phase avec les besoins de l’entreprise et les indicateurs clés de performance.
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+role: Admin, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 80%

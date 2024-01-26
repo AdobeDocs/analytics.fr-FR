@@ -3,10 +3,11 @@ title: getTimeParting
 description: Permet de mesurer le moment où une action spécifique a lieu.
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 78%
+source-wordcount: '801'
+ht-degree: 77%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 78%
 
 {{plug-in}}
 
-Le plug-in `getTimeParting` vous permet de saisir les détails du moment où une activité mesurable a lieu sur votre site. Ce plug-in est utile lorsque vous souhaitez ventiler des mesures en fonction d’une division répétable du temps sur une période donnée. Ainsi, vous pouvez comparer les taux de conversion entre deux jours différents de la semaine, par exemple tous les dimanches contre tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins contre tous les soirs.
+Le plug-in `getTimeParting` vous permet de saisir les détails du moment où une activité mesurable a lieu sur votre site. Ce plug-in est utile lorsque vous souhaitez répartir des mesures en fonction d’une division répétable du temps sur une période donnée. Ainsi, vous pouvez comparer les taux de conversion entre deux jours différents de la semaine, par exemple tous les dimanches contre tous les jeudis. Vous pouvez également comparer les périodes de la journée, par exemple tous les matins contre tous les soirs.
 
 Analysis Workspace fournit des dimensions similaires, prêtes à l’emploi, dont le format est légèrement différent de celui de ce plug-in. Pour plus d’informations, consultez la section [Dimensions de répartition du temps](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) dans le guide d’utilisation Analyser. Certaines organisations estiment que les dimensions prêtes à l’emploi d’Analysis Workspace sont suffisantes.
 
@@ -32,8 +33,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getTimeParting`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getTimeParting`
 1. Définissez la variable `Time Zone` sur la droite.
 1. Enregistrez et publiez les modifications sur l’élément de données.
 

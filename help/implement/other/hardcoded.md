@@ -3,9 +3,10 @@ title: Mise en œuvre avec des demandes d’image codées en dur
 description: Mise en œuvre d’Adobe Analytics à l’aide d’une balise d’image HTML (demande d’image codée en dur)
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -50,7 +51,7 @@ Pour rédiger un courrier électronique Outlook contenant une demande d’image�
 3. Enregistrez le fichier HTML.
 4. Ouvrez Microsoft Outlook et rédigez un courrier électronique.
 5. Accédez à l’onglet Insertion et cliquez sur **Joindre un fichier**. Sélectionnez votre fichier HTML de demande d’image.
-6. Cliquez sur le menu contextuel en regard de l’onglet Insertion, puis sélectionnez **Insérer comme texte**. Si vous cliquez sur le bouton Insérer sans le menu contextuel, le fichier HTML devient une pièce jointe et cela ne fonctionne pas.
+6. Cliquez sur le menu pop-up en regard de l’onglet Insertion, puis sélectionnez **Insérer comme texte**. Si vous cliquez sur le bouton Insérer sans le menu pop-up, le fichier HTML devient une pièce jointe et cela ne fonctionne pas.
 
 L’apparence du courrier électronique ne change pas, car la demande d’image est un pixel transparent de 1x1. Si vous souhaitez afficher la demande d’image à des fins de test, modifiez le fichier HTML pour y inclure une bordure, du texte supplémentaire ou tout autre contenu.
 

@@ -3,10 +3,11 @@ title: linkTrackEvents
 description: Permet de déterminer les événements à inclure dans les demandes d’image de suivi de liens.
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '313'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +27,7 @@ Adobe Experience Platform inclut automatiquement les événements définis dans 
 
 >[!IMPORTANT]
 >
->Si vous définissez des événements dans l’éditeur de code personnalisé de l’extension Analytics, vous devez inclure l’événement dans la variable `linkTrackEvents` en utilisant également du code personnalisé.
+>Si vous définissez des événements dans l’éditeur de code personnalisé de l’extension Analytics, vous devez inclure l’événement dans `linkTrackEvents` en utilisant également du code personnalisé.
 
 ## s.linkTrackEvents dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

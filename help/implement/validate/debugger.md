@@ -3,9 +3,10 @@ title: Débogueur Adobe Experience Cloud hérité
 description: Installez le débogueur hérité Adobe Experience Cloud. Ce débogueur examine les balises pour Analytics, Target, Advertising Cloud, Identity Service et la collecte de données.
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '678'
 ht-degree: 100%
 
 ---
@@ -36,7 +37,7 @@ Chaque navigateur gère les signets de différentes manières, mais le concept e
 
 #### Chrome
 
-Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html), le signet d’applet du débogueur hérité peut être utilisé à la place.
+Si vous êtes sûr de ne pas vouloir utiliser l’[extension Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr), le signet d’applet du débogueur hérité peut être utilisé à la place.
 
 1. Cliquez sur les trois points en haut à droite, puis sélectionnez Signets > Gestionnaire de signets. Vous pouvez également appuyer sur `Ctrl` + `Shift` + `O` (Windows) ou `Cmd` + `Shift` + `O` (Mac).
 2. Dans le coin supérieur droit du gestionnaire de signets, cliquez sur les trois points, puis cliquez sur Ajouter un nouveau signet.
@@ -71,17 +72,17 @@ Safari ne peut pas créer manuellement un signet d’applet, mais une URL de sig
 
 ## Utilisation du débogueur hérité
 
-Accédez à la page de votre site, puis cliquez sur le signet d’applet. Une fenêtre contextuelle s’affiche avec les données envoyées à Adobe.
+Accédez à la page de votre site, puis cliquez sur le signet d’applet. Une fenêtre pop-up s’affiche avec les données envoyées à Adobe.
 
 >[!NOTE]
 >
->Certains plug-ins de blocage des publicités et bloqueurs de fenêtres contextuelles peuvent interférer avec le chargement de la fenêtre du débogueur. Recherchez les fenêtres contextuelles bloquées dans votre navigateur et autorisez-les à fonctionner correctement pour le débogueur.
+>Certains plug-ins de blocage des publicités et bloqueurs de pop-ups peuvent interférer avec le chargement de la fenêtre du débogueur. Recherchez les pop-ups bloqués dans votre navigateur et autorisez-les à fonctionner correctement pour le débogueur.
 
 Le débogueur dispose de plusieurs options, qui personnalisent toutes le mode d’affichage des données. Aucune de ces options n’affecte la collecte de données.
 
 * **Produits Experience Cloud affichés :** affiche ou masque les demandes d’image pour chaque produit Experience Cloud correspondant.
 * **Décodage d’URL :** l’URL décode la demande d’image afin de correspondre à ce qui est affiché dans les rapports. Adobe recommande de laisser cette case cochée.
-* **Actualisation automatique :** actualise automatiquement la fenêtre contextuelle toutes les quelques secondes pour rechercher d’autres demandes d’image sur la page. Si vous devez copier/coller du contenu dans le débogueur, désactivez l’actualisation automatique afin que votre sélection se maintienne.
+* **Actualisation automatique** : actualise automatiquement le pop-up toutes les quelques secondes pour rechercher d’autres demandes d’image sur la page. Si vous devez copier/coller du contenu dans le débogueur, désactivez l’actualisation automatique afin que votre sélection se maintienne.
 * **Format convivial :** active/désactive le format d’affichage entre les libellés utiles et les chaînes de requête brutes dans une demande d’image. Voir [Paramètres de requête de la collecte de données](query-parameters.md) pour plus d’informations.
 
 Pour enregistrer les options d’affichage par défaut du débogueur, cliquez avec le bouton droit sur le lien « Adobe Debugger » dans le coin supérieur droit, puis copiez l’adresse du lien. Modifiez le signet d’applet du débogueur actuel et collez le fragment de code mis à jour dans le champ URL.

@@ -3,10 +3,11 @@ title: Prise en charge d’une implémentation Adobe Analytics existante
 description: Instructions destinées aux administrateurs qui découvrent une implémentation Adobe Analytics existante.
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +19,7 @@ Vous prenez la main sur une implémentation Adobe Analytics gérée par le préc
 
 ![Manuel](assets/inherited-impl-playbook.png)
 
-Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est une championne d’Adobe Analytics. Elle partage ici quelques idées sur la façon d’utiliser le manuel relatif à l’implémentation héritée dans le cadre de la prise en charge d’une implémentation existante :
+Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est une championne d’Adobe Analytics et partage ses idées sur l’utilisation du manuel relatif à l’implémentation héritée pour prendre en charge une implémentation existante :
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 

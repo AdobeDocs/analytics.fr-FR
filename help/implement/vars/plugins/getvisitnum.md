@@ -3,9 +3,10 @@ title: getVisitNum
 description: Permet d’assurer le suivi du nombre de visites actuelles d’un visiteur.
 feature: Variables
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '776'
 ht-degree: 78%
 
 ---
@@ -26,8 +27,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getVisitNum`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getVisitNum`
 1. Définissez les paramètres de votre choix à droite.
 1. Enregistrez et publiez les modifications sur l’élément de données.
 

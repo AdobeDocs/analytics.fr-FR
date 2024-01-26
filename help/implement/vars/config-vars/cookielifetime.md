@@ -3,9 +3,10 @@ title: cookieLifetime
 description: Permet de remplacer l’expiration des cookies créés par AppMeasurement.
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '264'
 ht-degree: 64%
 
 ---

@@ -3,10 +3,11 @@ title: pageName
 description: Nom de la page de votre site.
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 85%
+source-wordcount: '257'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +23,7 @@ Si cette variable n’est pas définie sur un appel de suivi de page donné, la 
 
 ## Nom de page à l’aide du SDK Web
 
-Le de page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.name`.
+La page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.name`.
 
 ## Nom de page à l’aide de l’extension Adobe Analytics
 
@@ -32,7 +33,7 @@ Vous pouvez définir le nom de la page lors de la configuration de l’extension
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez la section [!UICONTROL Nom de la page].
 
 Vous pouvez définir le nom de la page sur n’importe quelle valeur de chaîne, y compris les éléments de données.

@@ -3,9 +3,10 @@ title: tl
 description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,7 +19,7 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Suivi des liens à l’aide du SDK Web
 
-Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; toutes deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement XDM donné comme un appel de suivi des liens, assurez-vous que vos données XDM incluent ou sont mappées à `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
+Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; tous deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement XDM donné comme un appel de suivi des liens, assurez-vous que vos données XDM incluent ou sont mappées à `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
 
 * Le nom du lien est mappé à `web.webInteraction.name`.
 * L’URL de lien est mappée à `web.webInteraction.URL`.
@@ -78,7 +79,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### Type de lien   (obligatoire)
+### Type de lien (obligatoire)
 
 L’argument de type de lien est une chaîne d’un seul caractère qui détermine le type d’appel de suivi des liens. Il existe trois valeurs valides.
 

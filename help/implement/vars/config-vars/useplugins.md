@@ -3,10 +3,11 @@ title: usePlugins
 description: Permet d’activer ou de désactiver la fonction doPlugins().
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 33%
+source-wordcount: '172'
+ht-degree: 34%
 
 ---
 
@@ -22,7 +23,7 @@ Bien que le SDK Web ne dispose pas d’une valeur booléenne pour gérer l’ex�
 
 Adobe fournit une extension appelée &quot;Plug-ins Analytics communs&quot; qui vous permet d’appeler la plupart des [Modules externes](../plugins/impl-plugins.md). Installez l’extension et appelez le plug-in souhaité dans une règle.
 
-Si le module externe souhaité n’est pas inclus dans l’extension Adobe, utilisez l’éditeur de code personnalisé suivant la syntaxe AppMeasurement.
+Si le module externe souhaité n’est pas inclus dans l’extension Adobe, utilisez l’éditeur de code personnalisé suivant la syntaxe de l’AppMeasurement.
 
 ## s.usePlugins dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

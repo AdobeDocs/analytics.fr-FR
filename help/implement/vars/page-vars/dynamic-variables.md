@@ -3,10 +3,11 @@ title: Variables dynamiques
 description: Copiez des variables sans augmenter la longueur de la demande d’image.
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 79%
+source-wordcount: '429'
+ht-degree: 78%
 
 ---
 
@@ -30,7 +31,7 @@ Utilisez le mappage de flux de données pour envoyer des données à plusieurs v
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Datastreams]** dans le rail de gauche.
-1. Cliquez sur le flux de données de votre choix.
+1. Cliquez sur le flux de données souhaité.
 1. Cliquez sur **[!UICONTROL Modifier le mappage]** à droite.
 1. Faites correspondre les [!UICONTROL Champ source] à la [!UICONTROL Champ cible]. Un champ source unique peut correspondre à n’importe quel nombre de champs cibles.
 
@@ -42,12 +43,12 @@ Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dim
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
 6. Recherchez l’élément de dimension souhaité.
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.
 
-## Variables dynamiques dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
+## Variables dynamiques dans AppMeasurement et éditeur de code personnalisé de l’extension Analytics
 
 Les variables dynamiques sont des chaînes de texte affectées à d’autres variables. Le préfixe de variable dynamique par défaut est `D=`. Les variables dynamiques sont sensibles à la casse.
 

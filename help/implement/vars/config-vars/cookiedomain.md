@@ -3,10 +3,11 @@ title: cookieDomain
 description: La variable cookieDomain permet de déterminer le domaine sur lequel les cookies doivent être définis.
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 74%
+ht-degree: 81%
 
 ---
 

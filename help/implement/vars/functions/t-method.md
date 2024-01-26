@@ -3,10 +3,11 @@ title: t
 description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 57%
+source-wordcount: '453'
+ht-degree: 56%
 
 ---
 
@@ -44,7 +45,7 @@ Utilisez une action pour configurer l’envoi de données d’événement XDM à
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une action.
-1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**.
+1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**.
 
 ## Envoyer manuellement l’événement en implémentant le SDK Web
 

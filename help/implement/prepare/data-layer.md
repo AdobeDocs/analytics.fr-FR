@@ -3,9 +3,10 @@ title: Création d’une couche de données
 description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
-workflow-type: ht
-source-wordcount: '468'
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '460'
 ht-degree: 100%
 
 ---

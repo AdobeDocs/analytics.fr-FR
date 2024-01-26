@@ -3,10 +3,11 @@ title: Mise en oeuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 56%
+ht-degree: 42%
 
 ---
 
@@ -46,7 +47,7 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <tr>
-<td>4</td><td><b>Définissez des variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects.
+<td>4</td><td><b>Définition de variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Définissez des variables de niveau page dans le code de page de votre site</b>. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe.
+<td>5</td><td><b>Définition de variables de niveau page dans le code de page de votre site</b>. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe.
 
 ```js
 s.pageName = "Example page";

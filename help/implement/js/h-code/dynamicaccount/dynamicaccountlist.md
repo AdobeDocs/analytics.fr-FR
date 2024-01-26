@@ -3,7 +3,8 @@ title: dynamicAccountList
 description: Permet de définir une logique sur la manière dont votre mise en œuvre détermine sa suite de rapports.
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 94%
@@ -14,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Les comptes dynamiques sont uniquement pris en charge à l’aide des mises en œuvre JavaScript héritées (code H). Ces variables ne sont pas prises en charge dans les bibliothèques AppMeasurement ou la collecte de données Adobe Experience Platform actuelles.
+>Les comptes dynamiques sont uniquement pris en charge à l’aide des mises en œuvre JavaScript héritées (code H). Ces variables ne sont pas prises en charge dans les bibliothèques d’AppMeasurements actuelles ou dans la collecte de données Adobe Experience Platform.
 
 La variable `s.dynamicAccountList` détermine dynamiquement la valeur de `s_account`. Si `dynamicAccountSelection` est défini sur `true`, la variable `dynamicAccountMatch` est comparée à `dynamicAccountList`. Si une correspondance est trouvée, l’identifiant de suite de rapports correspondant est utilisé.
 

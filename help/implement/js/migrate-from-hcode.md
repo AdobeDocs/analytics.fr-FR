@@ -3,9 +3,10 @@ title: Migration vers AppMeasurement pour JavaScript
 description: Déterminez ce qui est nécessaire pour migrer votre mise en œuvre hors du code H.
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 91%
 
 ---
@@ -27,7 +28,7 @@ Les étapes suivantes décrivent un processus de migration type.
 
 1. **Téléchargez le nouveau fichier AppMeasurement** : accédez au nouveau fichier en vous connectant à Adobe Analytics, puis en accédant à Admin > Tous les administrateurs > Gestionnaire de code. Le fichier compressé téléchargé contient un fichier minifié `AppMeasurement.js`, ainsi que des modules Media et Integrate.
 1. **Copiez vos personnalisations `s_code.js` dans`AppMeasurement.js`** : déplacez tout le code situé avant la section `DO NOT ALTER ANYTHING BELOW THIS LINE` dans `s_code.js` au début de `AppMeasurement.js`.
-1. **Mettre à jour tous les modules externes**: Assurez-vous d’utiliser la dernière version de chaque plug-in répertorié dans votre `s_code.js` fichier . Cette étape comprend les modules Media et Integrate.
+1. **Mettre à jour tous les modules externes**: assurez-vous d’utiliser la dernière version de chaque plug-in répertorié dans votre `s_code.js` fichier . Cette étape comprend les modules Media et Integrate.
 1. **Déployez le fichier AppMeasurement.js** : téléchargez votre fichier `AppMeasurement.js` sur votre serveur web.
 1. **Mettez à jour les références de script pour renvoyer vers`AppMeasurement.js`** : assurez-vous que toutes les pages font référence à `AppMeasurement.js` au lieu de `s_code.js`.
 

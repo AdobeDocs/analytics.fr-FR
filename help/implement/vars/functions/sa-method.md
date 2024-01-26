@@ -3,10 +3,11 @@ title: sa
 description: Permet de modifier la suite de rapports à tout moment de votre mise en œuvre.
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 44%
+source-wordcount: '430'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +23,7 @@ Le SDK Web fonctionne en envoyant des données à un flux de données spécifiqu
 1. Cliquez sur **[!UICONTROL Datastreams]** sur la gauche.
 1. Cliquez sur le flux de données de votre choix ou cliquez sur **[!UICONTROL Nouvelle structure de données]**.
 1. Cliquez sur **[!UICONTROL Ajouter un service]**, puis sélectionnez **[!UICONTROL Adobe Analytics]**.
-1. Saisissez l’identifiant de suite de rapports souhaité. Si vous souhaitez envoyer les mêmes données à plusieurs suites de rapports, cliquez sur **[!UICONTROL Ajouter une suite de rapports]**.
+1. Saisissez l’identifiant de suite de rapports souhaité. Pour envoyer les mêmes données à plusieurs suites de rapports, cliquez sur **[!UICONTROL Ajouter une suite de rapports]**.
 1. Une fois toutes les suites de rapports souhaitées saisies, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Définissez la flux de données souhaitée à l’aide de l’extension SDK Web.
@@ -31,7 +32,7 @@ L’extension SDK Web fournit une liste déroulante de flux de données pour cha
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
 1. Sous [!UICONTROL Datastreams], sélectionnez la Datastream de votre choix dans la liste déroulante pour chaque environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

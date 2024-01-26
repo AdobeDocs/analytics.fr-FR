@@ -3,10 +3,11 @@ title: linkDownloadFileTypes
 description: Permet de déterminer les extensions de fichier qui sont automatiquement suivies comme liens de téléchargement.
 feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 49%
+source-wordcount: '392'
+ht-degree: 55%
 
 ---
 
@@ -31,16 +32,16 @@ Si un lien cliqué correspond à la fois aux critères de lien de sortie et de l
 
 ## Télécharger le qualificateur de lien à l’aide de l’extension SDK Web
 
-Le [!UICONTROL Qualificateur de lien de téléchargement] Le champ de texte utilise l’expression régulière pour déterminer si un lien sur lequel l’utilisateur a cliqué est considéré comme un lien de téléchargement.
+La variable [!UICONTROL Qualificateur de lien de téléchargement] Le champ de texte utilise l’expression régulière pour déterminer si un lien sur lequel l’utilisateur a cliqué est considéré comme un lien de téléchargement.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
 1. Sous [!UICONTROL Collecte de données], définissez la valeur souhaitée dans le **[!UICONTROL Qualificateur de lien de téléchargement]** Champ de texte.
 
 ## Télécharger le qualificateur de lien en implémentant manuellement le SDK Web
 
-[Configurer](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) le SDK à l’aide de [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking). Le champ utilise l’expression régulière sur l’URL sur laquelle l’utilisateur a cliqué pour déterminer s’il s’agit d’un lien de téléchargement valide. If `downloadLinkQualifier` n’est pas définie, la valeur par défaut est définie sur `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[Configurer](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) le SDK à l’aide de [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr#automaticLinkTracking). Le champ utilise l’expression régulière sur l’URL sur laquelle l’utilisateur a cliqué pour déterminer s’il s’agit d’un lien de téléchargement valide. If `downloadLinkQualifier` n’est pas définie, la valeur par défaut est définie sur `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {
@@ -52,12 +53,12 @@ alloy("configure", {
 
 Les extensions de téléchargement désignent une liste d’extensions de fichier avec un champ à ajouter sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche le champ **[!UICONTROL Télécharger les extensions]**.
 
-Ajoutez des extensions de fichier à la liste en saisissant du texte dans le champ et en cliquant sur **[!UICONTROL Ajouter]**. Supprimez les extensions de fichier de la liste en cliquant sur leurs **&#39;X&#39;** icône .
+Ajoutez des extensions de fichier à la liste en saisissant du texte dans le champ et en cliquant sur **[!UICONTROL Ajouter]**. Supprimez les extensions de fichier de la liste en cliquant sur leurs **&#39;X&#39;** Icône
 
 ## s.linkDownloadFileTypes dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

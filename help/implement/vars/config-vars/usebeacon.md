@@ -3,10 +3,11 @@ title: useBeacon
 description: useBeacon vous permet de forcer AppMeasurement à utiliser l’API sendBeacon des navigateurs
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
@@ -24,13 +25,13 @@ La variable `useBeacon` est ignorée lorsque le visiteur utilise un navigateur q
 
 ## Utilisation de l’API sendBeacon à l’aide de l’extension SDK Web
 
-Le **[!UICONTROL Le document sera déchargé.]** dans une configuration d’action détermine si les données envoyées à Adobe utilisent l’API sendBeacon.
+La variable **[!UICONTROL Le document sera déchargé.]** dans une configuration d’action détermine si les données envoyées à Adobe utilisent l’API sendBeacon.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez au [!UICONTROL Règles] , puis cliquez sur la règle de votre choix.
 1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une nouvelle action.
-1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**
+1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**
 1. Cochez la case . **[!UICONTROL Le document sera déchargé.]** à droite.
 
 Si cette case est cochée, les données sont envoyées à l’Adobe à l’aide de l’API sendBeacon. Cette case est désactivée par défaut.
@@ -46,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Voir [Utilisation de l’API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) pour plus d’informations, voir la documentation du SDK Web .
+Voir [Utilisation de l’API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#using-the-sendbeacon-api) pour plus d’informations, voir la documentation du SDK Web .
 
 ## Utilisation de la balise à l’aide de l’extension Adobe Analytics
 

@@ -3,16 +3,17 @@ title: Mise en œuvre d’Analytics pour les assistants numériques
 description: Mettez en œuvre Adobe Analytics sur des assistants numériques, tels qu’Amazon Alexa ou Google Home.
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1265'
-ht-degree: 100%
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+workflow-type: tm+mt
+source-wordcount: '1258'
+ht-degree: 98%
 
 ---
 
 # Mise en œuvre d’Analytics pour les assistants numériques
 
-Avec les récentes avancées dans le cloud computing, l’apprentissage automatique et le traitement du langage naturel, les assistants numériques font désormais partie de la vie quotidienne. Les consommateurs commencent à parler à leurs appareils et s’attendent à ce qu’ils comprennent et réagissent de manière humaine. À mesure que ces plates-formes s’ancrent dans le marché, les marques peuvent présenter leurs services aux consommateurs avec le même réalisme. Par exemple, les clients peuvent poser les questions suivantes :
+Avec les récentes avancées dans le cloud computing, le machine learning et le traitement du langage naturel, les assistants numériques font désormais partie de la vie quotidienne. Les consommateurs commencent à parler à leurs appareils et s’attendent à ce qu’ils comprennent et réagissent de manière humaine. À mesure que ces plates-formes s’ancrent dans le marché, les marques peuvent présenter leurs services aux consommateurs avec le même réalisme. Par exemple, les clients peuvent poser les questions suivantes :
 
 * « Alexa, demande à ma voiture quand il faut changer son huile. »
 * « Cortana, quel est le solde de mon compte courant ? »
@@ -20,7 +21,7 @@ Avec les récentes avancées dans le cloud computing, l’apprentissage automati
 
 Cette page fournit une vue d’ensemble des meilleures façons d’utiliser Adobe Analytics afin de mesurer et d’optimiser ces types d’expériences.
 
-## Vue d’ensemble de l’architecture de l’expérience numérique
+## Vue d’ensemble de l’architecture de l’expérience digitale
 
 ![Processus de lʼassistant numérique](assets/Digital-Assitants.png)
 
@@ -111,7 +112,7 @@ Cache-Control: no-cache
 
 Chacun des assistants numériques possède des algorithmes qui détectent les intentions et les transmettent ensuite à l’application afin qu’elle sache quoi faire. Ces intentions constituent une représentation succincte de la demande.
 
-Par exemple, si un utilisateur dit « Siri, envoie 20 $ à John pour le dîner d’hier soir avec mon application bancaire. », l’intention serait du type  *sendMoney*.
+Par exemple, si un utilisateur dit &quot;Siri, envoie 20 $ à John pour le dîner d’hier soir à partir de mon application bancaire&quot;, l’intention peut ressembler à *sendMoney*.
 
 En envoyant chacune de ces demandes sous la forme d’une eVar, vous pourrez exécuter des rapports de cheminement sur chaque intention pour les applications conversationnelles. Assurez-vous que votre application peut également traiter les requêtes sans intention. Adobe conseille de transmettre la variable « Aucun mode spécifié » à la variable de données contextuelles dʼintention, plutôt que de la supprimer.
 

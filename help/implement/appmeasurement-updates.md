@@ -3,10 +3,11 @@ title: Notes de mise à jour d’AppMeasurement pour JavaScript
 description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 90%
 
 ---
 
@@ -20,14 +21,14 @@ Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [
 
 ## Version 2.25.0
 
-Date de publication : **12 septembre 2023**
+Date de publication : **mercredi 12 septembre 2023**
 
 * Ajout de la méthode facultative [`bufferRequests()`](vars/functions/bufferrequests.md) afin d’améliorer la fiabilité de la capture des requêtes lorsqu’un navigateur ne prend pas en charge l’API de balise ou annule les requêtes lors du déchargement d’une page.
 * Ajout de protections pour empêcher plusieurs rappels après suivi pour une seule requête de suivi.
 
 ## Version 2.24.0
 
-Date de publication : **18 juillet 2023**
+Date de publication : **mercredi 18 juillet 2023**
 
 * Ajout de la variable de configuration facultative [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) pour décoder les URL de lien contenant des caractères codés sur deux octets.
 * Ajout d’une gestion des erreurs supplémentaire pour les navigateurs avec des API User-Agent à forte entropie défectueuses.
@@ -353,8 +354,8 @@ Date de publication : **18 juin 2015**
 
 Date de publication : **21 mai 2015**
 
-* Depuis le SDK iOS version 4.5, une nouvelle extension iOS permet de collecter les données d’utilisation des applications Apple Watch Apps, Today Widgets, des widgets de retouche photo et de toutes les autres applications d’extension iOS.
-* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable.
+* À compter de la version 4.5 du SDK iOS, une nouvelle extension iOS permet de collecter les données d’utilisation des applications de surveillance Apple, des widgets d’aujourd’hui, des widgets de retouche photo et de toutes les autres applications d’extension iOS.
+* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable.
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
@@ -375,7 +376,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en « ne pas procéder au suivi automatique des référents » après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand  *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Changement en &quot;ne pas procéder au suivi automatique des référents&quot; après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2

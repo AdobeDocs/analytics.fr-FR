@@ -3,9 +3,10 @@ title: pt
 description: Permet d’exécuter une fonction sur une liste de variables.
 feature: Variables
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '586'
 ht-degree: 88%
 
 ---

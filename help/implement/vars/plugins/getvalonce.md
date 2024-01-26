@@ -3,9 +3,10 @@ title: getValOnce
 description: Permet d’empêcher la définition d’une variable Analytics sur la même valeur deux fois de suite.
 feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '668'
 ht-degree: 74%
 
 ---
@@ -26,8 +27,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getValOnce`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getValOnce`
 1. Définissez les paramètres de votre choix à droite.
 1. Enregistrez et publiez les modifications sur l’élément de données.
 
@@ -101,7 +102,7 @@ s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 
 ### 3.1 (22 septembre 2022)
 
-* Correction d’un bogue relatif à l’expiration
+* Correction d’un bogue d’expiration
 
 ### 3.0 (19 mars 2021)
 

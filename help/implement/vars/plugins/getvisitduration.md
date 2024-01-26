@@ -3,10 +3,11 @@ title: getVisitDuration
 description: Permet d’effectuer le suivi du temps passé par un visiteur sur le site jusqu’à présent.
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 71%
+source-wordcount: '546'
+ht-degree: 70%
 
 ---
 
@@ -26,8 +27,8 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
 1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : Plug-ins SDK Web courants
-   * Élément de données: `getVisitDuration`
+   * Extension : modules externes SDK Web courants
+   * Élément de données : `getVisitDuration`
 1. Enregistrez et publiez les modifications sur l’élément de données.
 
 ## Installation manuelle du plug-in implémentant le SDK Web

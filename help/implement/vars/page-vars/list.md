@@ -3,9 +3,10 @@ title: list
 description: Variables personnalisées qui contiennent plusieurs valeurs dans le même accès.
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
@@ -24,33 +25,33 @@ Veillez à consigner dans votre [document de conception de solution](../../prepa
 
 Veillez à configurer chaque variable de liste dans les paramètres de la suite de rapports avant de l’utiliser dans votre mise en œuvre. Reportez-vous à la section [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md) dans le guide Administrateur. Cette étape s’applique à toutes les méthodes de mise en œuvre.
 
-## Liste des variables utilisant le SDK Web
+## Variables de liste utilisant le SDK Web
 
 Les variables de liste sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM `_experience.analytics.customDimensions.lists.list1.list[]` à `_experience.analytics.customDimensions.lists.list3.list[]`. Chaque élément de tableau contient un objet `"value"` contenant chaque chaîne. Il n’est pas nécessaire de fournir un délimiteur. Il est automatiquement inclus en utilisant la valeur spécifiée dans [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Par exemple, si une virgule (« `,` ») est configurée comme délimiteur pour la variable de liste 1, l’objet XDM suivant renseigne la variable `list1` avec `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
-    "_experience": {
-        "analytics": {
-            "customDimensions": {
-                "lists": {
-                    "list1": {
-                        "list": [
-                            {
-                                "value": "Example value 1"
-                            },
-                            {
-                                "value": "Example value 2"
-                            },
-                            {
-                                "value": "Example value 3"
-                            }
-                        ]
-                    }
-                }
-            }
+  "_experience": {
+    "analytics": {
+      "customDimensions": {
+        "lists": {
+          "list1": {
+            "list": [
+              {
+                "value": "Example value 1"
+              },
+              {
+                "value": "Example value 2"
+              },
+              {
+                "value": "Example value 3"
+              }
+            ]
+          }
         }
+      }
     }
+  }
 }
 ```
 

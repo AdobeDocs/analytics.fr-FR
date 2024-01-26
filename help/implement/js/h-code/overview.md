@@ -1,11 +1,12 @@
 ---
 title: Présentation de la mise en œuvre JavaScript du code H
-description: Découvrez le flux de travail pour mettre en œuvre le code H sur votre site.
+description: Découvrez le workflow pour mettre en œuvre le code H sur votre site.
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 100%
 
 ---

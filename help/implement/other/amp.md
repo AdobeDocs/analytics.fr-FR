@@ -3,10 +3,11 @@ title: Mise en œuvre avec AMP
 description: Mettez en œuvre Adobe Analytics sur les pages AMP.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
-source-git-commit: 4c75275f9abbff6b9a5a25be370eabc2801eb7fb
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +26,7 @@ Adobe a créé deux méthodes pour mettre en œuvre Adobe Analytics sur les page
 
 Le tableau suivant compare ces deux méthodes :
 
-|   | **`"adobeanalytics"`le modèle** | **`"adobeanalytics_nativeConfig"`le modèle** |
+|   | **`"adobeanalytics"`modèle** | **`"adobeanalytics_nativeConfig"`modèle** |
 |---|---|---|
 | Nombre de visiteurs/visites dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
 | Utilisation d’une suite de rapports distincte | Recommandé | Pas nécessaire |
@@ -78,7 +79,7 @@ Dans l’exemple de code suivant, deux déclencheurs sont définis : `pageLoad`
 </amp-analytics>
 ```
 
-La variable `<amp-analytics>` La balise prend en charge les substitutions de variables de sorte qu’AMP puisse fournir les valeurs de données qu’elle connaît. Pour plus d’informations, voir les [variables prises en charge dans `amp-analytics` sur GitHub.](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)
+La variable `<amp-analytics>` La balise prend en charge les substitutions de variables de sorte qu’AMP puisse fournir les valeurs de données qu’elle connaît. Voir [variables prises en charge dans `amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md) sur GitHub pour plus d’informations.
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ Une page HTML hébergée sur vos serveurs web est également requise :
 
 Cette méthode envoie des données à une page web utilitaire au moyen de paramètres de chaîne de requête ajoutés au paramètre de demande `iframeMessage`. Vous pouvez nommer comme bon vous semble ces paramètres de chaîne de requête, à condition que la page `stats.html` soit configurée pour collecter les données depuis ces paramètres.
 
-Le modèle `"adobeanalytics_nativeConfig"` ajoute également des paramètres de chaîne de requête en fonction des variables répertoriées dans la section `extraUrlParams` de la balise `<amp-analytics>` Dans l’exemple ci-dessus, les paramètres `pageName` et `v1` sont inclus.
+La variable `"adobeanalytics_nativeConfig"` ajoute également des paramètres de chaîne de requête en fonction des variables répertoriées dans la variable `extraUrlParams` de la `<amp-analytics>` balise . Dans l’exemple ci-dessus, les paramètres `pageName` et `v1` sont inclus.
 
 >[!IMPORTANT]
 >

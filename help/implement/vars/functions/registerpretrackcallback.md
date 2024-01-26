@@ -3,10 +3,11 @@ title: registerPreTrackCallback
 description: Permet de créer des fonctions de rappel avant d’envoyer un accès à Adobe.
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 58%
+source-wordcount: '417'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +31,7 @@ Le SDK Web ne peut pas associer une fonction une fois les données compilées, m
 
 1. Connectez-vous au [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) de l’interface utilisateur à l’aide de vos identifiants Adobe ID ;
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]**[!UICONTROL  sous le SDK Web d’Adobe Experience Platform].
+1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
 1. Sous [!UICONTROL Collecte de données], cliquez sur le **[!UICONTROL Modifier avant le code de rappel d’envoi d’événement]** bouton .
 1. Placez le code de votre choix dans l’éditeur.
 

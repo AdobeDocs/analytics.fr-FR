@@ -3,9 +3,10 @@ title: rfl
 description: Permet de supprimer une valeur spécifique d’une chaîne délimitée par des caractères.
 feature: Variables
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1033'
 ht-degree: 93%
 
 ---

@@ -3,16 +3,17 @@ title: linkExternalFilters
 description: Utilisez la variable linkExternalFilters pour faciliter le suivi automatique des liens de sortie.
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 62%
+source-wordcount: '388'
+ht-degree: 91%
 
 ---
 
 # linkExternalFilters
 
-AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. If [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackexternallinks.md) (SDK Web) est activé, une demande d’image est envoyée à l’Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
+AppMeasurement offre la possibilité de suivre automatiquement les liens qui renvoient en dehors de votre site. Si [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) ou [`clickCollectionEnabled`](trackexternallinks.md) (SDK Web) est activé, une demande d’image est envoyée à Adobe dès qu’un visiteur clique sur un lien pour quitter votre site. Les variables `linkExternalFilters` et [`linkInternalFilters`](linkinternalfilters.md) déterminent quels liens sont considérés comme internes/externes.
 
 Si cette variable contient une valeur, le suivi automatique des liens de sortie se comporte comme une liste autorisée. Si un clic sur un lien ne correspond à aucune valeur `linkExternalFilters`, ce lien n’est pas considéré comme un lien de sortie. L’URL entière est examinée par rapport à cette variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) est activé, la chaîne de requête est également examinée.
 
@@ -24,15 +25,15 @@ Si vous utilisez à la fois `linkInternalFilters` et `linkExternalFilters`, le l
 
 ## Liens de sortie dans le SDK Web
 
-Les liens sont automatiquement considérés comme des liens de sortie si le domaine cible du lien diffère de celui en cours. `window.location.hostname`. Le SDK Web ne propose aucune variable de configuration permettant de modifier la détection automatique des liens de sortie. Si vous devez personnaliser les domaines considérés comme un lien de sortie, vous pouvez utiliser une logique personnalisée dans la variable `onBeforeEventSend` rappel.
+Les liens sont automatiquement considérés comme des liens de sortie si le domaine cible du lien diffère du `window.location.hostname` actuel. Le SDK Web ne propose aucune variable de configuration permettant de modifier la détection automatique des liens de sortie. Si vous devez personnaliser les domaines considérés comme un lien de sortie, vous pouvez utiliser une logique personnalisée dans le rappel `onBeforeEventSend`.
 
-Voir [Suivi automatique des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) pour plus d’informations, voir la documentation du SDK Web .
+Consultez [Suivi automatique des liens](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr#automaticLinkTracking) dans la documentation du SDK Web pour plus d’informations.
 
 ## Liens sortants : suivi à l’aide de l’extension Adobe Analytics
 
 Le champ Suivi est une liste de filtres séparés par des virgules (généralement des domaines) sous l’accordéon [!UICONTROL Suivi des liens] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Suivi des liens], qui affiche le champ [!UICONTROL Liens sortants - Suivi].

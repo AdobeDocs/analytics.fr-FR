@@ -1,16 +1,17 @@
 ---
-title: Workflow de suivi des campagnes
+title: Workflow du suivi des campagnes
 description: Utilisez Adobe Analytics pour effectuer le suivi de vos efforts marketing.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-source-git-commit: c118d42667c4a1af55929834b87d148a5973bed9
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 1%
 
 ---
 
-# Workflow de suivi des campagnes
+# Workflow du suivi des campagnes
 
 Si votre entreprise souhaite effectuer le suivi des performances et du taux de clics publicitaires des efforts marketing, vous pouvez utiliser le processus suivant. Chacune de ces étapes comporte des sections dédiées ci-dessous qui contiennent plus de détails.
 
@@ -29,7 +30,7 @@ Quelle que soit la manière dont vous choisissez de créer ou de générer des c
 
 ## Ajoutez le code de suivi souhaité à une URL.
 
-Une fois que vous disposez de la valeur de code de suivi souhaitée, vous pouvez l’ajouter à tous les liens que vous publiez en ligne, tels que les publicités, les médias sociaux ou les e-mails. L’ajout de ces codes de suivi se fait généralement dans la chaîne de requête d’un lien. Le paramètre de chaîne de requête que vous utilisez dépend des exigences de suivi de votre entreprise. un paramètre de chaîne de requête courant est `cid` (abrégé pour l’identifiant de campagne). Certaines organisations qui utilisent également des Google Analytics peuvent déjà avoir plusieurs paramètres de chaîne de requête de campagne, tels que `utm_source`, `utm_medium`, etc.
+Une fois que vous disposez de la valeur de code de suivi souhaitée, vous pouvez l’ajouter à tous les liens que vous publiez en ligne, tels que les publicités, les médias sociaux ou les e-mails. L’ajout de ces codes de suivi se fait généralement dans la chaîne de requête d’un lien. Le paramètre de chaîne de requête que vous utilisez dépend des exigences de suivi de votre entreprise. Un paramètre de chaîne de requête commun est `cid` (abrégé pour l’identifiant de campagne). Certaines organisations qui utilisent également des Google Analytics peuvent déjà avoir plusieurs paramètres de chaîne de requête de campagne, tels que `utm_source`, `utm_medium`, etc.
 
 L’ajout de chaînes de requête à un lien dans un email ressemble à ce qui suit :
 
@@ -41,7 +42,7 @@ https://example.com?cid=EM989027
 
 Adobe Analytics dispose d’un [Code de suivi](/help/components/dimensions/tracking-code.md) dimension que vous pouvez utiliser pour mesurer divers efforts marketing dans l’ensemble de votre organisation. Toutefois, différentes organisations peuvent avoir des exigences de suivi différentes. Il est important de référencer la variable [Document de conception de solution](../prepare/solution-design.md) pour effectuer un suivi cohérent des valeurs appropriées dans les variables appropriées.
 
-Si votre organisation n’a pas encore configuré le suivi de campagne, vous pouvez ajuster votre mise en oeuvre pour définir la variable [`campaign`](/help/implement/vars/page-vars/campaign.md) . Voir [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) pour savoir comment collecter des valeurs de paramètre de chaîne de requête spécifiques à l’implémentation de votre entreprise.
+Si votre organisation n’a pas encore configuré le suivi de campagne, vous pouvez ajuster votre mise en oeuvre pour définir la variable [`campaign`](/help/implement/vars/page-vars/campaign.md) Variable . Voir [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) pour savoir comment collecter des valeurs de paramètre de chaîne de requête spécifiques à l’implémentation de votre entreprise.
 
 Si votre organisation collecte des données `utm` chaînes de requête, vous pouvez choisir :
 

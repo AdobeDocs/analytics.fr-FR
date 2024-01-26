@@ -3,10 +3,11 @@ title: Util.getQueryParam
 description: Renvoie la valeur d’un paramètre de chaîne de requête.
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 80%
+source-wordcount: '268'
+ht-degree: 79%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 80%
 
 Les paramètres de chaîne de requête dans une URL de navigateur contiennent fréquemment des données importantes pour Analytics. Utilisez la méthode `Util.getQueryParam()` pour récupérer les données de la chaîne de requête.
 
-## Obtention des données de paramètre de chaîne de requête à l’aide de l’extension Adobe Analytics et de l’extension SDK Web
+## Obtention des données de paramètre de chaîne de requête à l’aide de l’extension Adobe Analytics et de l’extension SDK web
 
 Vous pouvez obtenir des données de paramètre de chaîne de requête en définissant des valeurs dans les éléments de données.
 

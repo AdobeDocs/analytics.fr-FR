@@ -3,9 +3,10 @@ title: Résolution des problèmes de mise en œuvre de JavaScript
 description: Découvrez les problèmes courants et les bonnes pratiques pour résoudre les problèmes de votre mise en œuvre JavaScript.
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -89,24 +90,24 @@ Les implémentations qui renseignent de nombreuses variables avec des valeurs lo
 * **Utilisez le service Experience Cloud ID** : les bibliothèques AppMeasurement 1.4.1 et ultérieures envoient automatiquement des demandes d’image POST HTTP lorsqu’elles sont trop longues. Les données envoyées à l’aide de cette méthode ne sont pas tronquées, quelle que soit leur longueur. Pour plus d’informations, consultez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
 * **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
 
-   Exécutez :<br>
+  Exécutez :<br>
 Remplacer la valeur de prop1 par eVar1<br>
 Remplacer la valeur de l’eVar2 par eVar1<br>
 Remplacer la valeur de prop2 par eVar1<br>
 
-   Définissez ensuite eVar1 dans votre implémentation :
+  Définissez ensuite eVar1 dans votre implémentation :
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **Utilisez des variables dynamiques** : si votre implémentation renseigne de nombreuses variables avec la même valeur, vous pouvez utiliser des [variables dynamiques](/help/implement/vars/page-vars/dynamic-variables.md) pour raccourcir l’URL de la demande :
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **Utilisez des classifications** : si les noms de produit ou de page sont exceptionnellement longs, vous pouvez utiliser une valeur ou un code d’identification, puis utiliser les [classifications](/help/components/classifications/c-classifications.md) pour afficher un nom plus convivial.

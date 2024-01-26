@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 44830c4e68c4d6f9cace620e81d7adeda1de3563
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '402'
 ht-degree: 98%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 98%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins   {#plugins}
+   + Modules externes {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -171,7 +171,6 @@ ht-degree: 98%
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
 + Mise en œuvre d’Analytics sur d’autres plateformes {#other}
    + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
-   + [Mise en œuvre d’Analytics avec DTM](other/dtm-implementation-overview.md)
    + [Mise en œuvre d’Analytics sur Ajax](other/ajax.md)
    + [Mise en œuvre d’Analytics sur AMP](other/amp.md)
    + [Mise en œuvre d’Analytics pour les assistants numériques](other/digital-assistants.md)
