@@ -3,10 +3,11 @@ description: L’onglet Suite de rapports d’utilisation fournit des données d
 title: Affichage de l’utilisation des suites de rapports
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## Paramètres du tableau de bord {#settings}
+
 | Colonne | Définition |
 |--- |--- |
 | Nom de la suite de rapports | Le nom convivial de la suite de rapports |
@@ -39,8 +42,9 @@ Le tableau de bord de la suite de rapports d’utilisation :
 | Principal mobile (%) | Tous les appels au serveur principal mobile (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 | Secondaire mobile (%) | Tous les appels au serveur secondaire mobile (et leur pourcentage du total) effectués durant la période d’utilisation actuelle. |
 
+{style="table-layout:auto"}
 
-## Télécharger le rapport d’utilisation  {#section_D7345660B5E043CD8850954216509A3D}
+## Télécharger le rapport d’utilisation  {#download}
 
 Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
 
@@ -55,6 +59,8 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 | Suites de rapports incluses | Toutes les suites de rapports que vous avez sélectionnées sur la page du rapport d’utilisation du serveur sont incluses dans cette liste. |
 | Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Principal secondaire. |
 | Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :** vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015 </br>. |
+
+{style="table-layout:auto"}
 
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 

@@ -1,22 +1,17 @@
 ---
-description: Description des types de suites de rapports et comparaison des suites de rapports globales et des suites de rapports de cumul.
-title: Approches des suites de rapports
+description: Descriptions des suites de rapports globales
+title: Suites de rapports globales
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# Approches des suites de rapports
-
-<!-- change filename since page name changed? -->
-
-Vous pouvez configurer vos suites de rapports comme suit : *suites de rapports globales* ou *suites de rapports de cumul*.
-
-## Suites de rapports globales
+# Suites de rapports globales
 
 Une suite de rapports globale collecte des données de tous les domaines et applications dont votre organisation est propriétaire. Elle nécessite une implémentation pour envoyer toutes les demandes d’image à une seule suite de rapports.
 
@@ -38,13 +33,13 @@ Vous pouvez fournir des sous-ensembles de données de la suite de rapports globa
 
 L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour une comparaison détaillée des suites de rapports virtuelles et de la fonctionnalité de balisage multi-suite, voir &quot;[Suites de rapports virtuelles par rapport au balisage multi-suite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).&quot;
 
-## Rapports de cumul
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] est le seul outil qui prend en charge les rapports de cumul. Fin de vie de Reports &amp; Analytics le 17 janvier 2024.
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

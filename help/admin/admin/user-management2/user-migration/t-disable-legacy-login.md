@@ -3,14 +3,15 @@ description: Comment désactiver les comptes hérités pour les utilisateurs Ana
 title: Désactiver les comptes hérités
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
-source-wordcount: '0'
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# Désactiver les comptes hérités{#disable-legacy-logins}
+# Désactiver les comptes hérités
 
 Comment désactiver les comptes hérités pour les utilisateurs Analytics.
 

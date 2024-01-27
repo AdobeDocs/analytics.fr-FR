@@ -3,10 +3,11 @@ title: Guide d’administration Analytics
 description: Aide pour les administrateurs d’Adobe Analytics, notamment pour la gestion des utilisateurs et des produits dans Admin Console, la configuration des suites de rapports, des variables, des classifications et de la collecte de données.
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 91%
 
 ---
 
@@ -34,7 +35,7 @@ Ce guide ne couvre pas de nombreuses fonctionnalités génériques offertes par 
 
 ## Articles clés
 
-* [Guide de démarrage d’un nouvel administrateur d’Analytics](admin-console/first-admin-guide.md): Si votre organisation démarre avec Adobe Analytics, suivez ce guide pour commencer à exploiter tout le potentiel offert par Adobe Analytics.
+* [Guide de démarrage d’un nouvel administrateur d’Analytics](admin-console/first-admin-guide.md): si votre entreprise est toute nouvelle dans Adobe Analytics, suivez ce guide pour commencer à tirer parti d’Adobe Analytics.
 * [Gestionnaire de suites de rapports](admin/c-manage-report-suites/report-suites-admin.md) : L’outil d’administration le plus utilisé dans Analytics. Le Gestionnaire de suites de rapports contient des paramètres facilitant la gestion des variables, des classifications, des fuseaux horaires, etc.
 
 ## Plus de guides d’utilisation d’Analytics

@@ -1,20 +1,17 @@
 ---
 description: Migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
-title: Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID
+title: Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 99%
 
 ---
 
-# Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID{#migrate-analytics-user-accounts-for-adobe-ids}
-
-Effectuez la migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
-
-## Migration de comptes utilisateurs Analytics sous la forme d’Adobe ID {#task-f3355f3b14a340feae58cfa04c0ba1c9}
+# Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID
 
 Effectuez la migration des utilisateurs du système de gestion des utilisateurs Analytics hérité vers Adobe Admin Console.
 
@@ -22,17 +19,15 @@ Effectuez la migration des utilisateurs du système de gestion des utilisateurs 
 >
 >Si un administrateur qui n’est pas connecté via l’environnement Experience Cloud tente d’accéder à l’outil Migration de l’ID utilisateur, il est redirigé vers la page de connexion d’Experience Cloud.
 
-**Pour migrer des utilisateurs Analytics**
-
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 
    ![](/help/admin/admin/user-management2/user-migration/assets/migration-progress.png)
 
    Deux sections composent la page Migration de l’ID utilisateur : *Progression de la migration* et *Informations sur l’utilisateur*.
 
-   **Progression de la migration**
+## Progression de la migration
 
-   <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
+<table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
    <tr> 
       <th colname="col1" class="entry"> Phase </th> 
@@ -51,28 +46,28 @@ Effectuez la migration des utilisateurs du système de gestion des utilisateurs 
    </tbody> 
    </table>
 
-   **Informations sur l’utilisateur**
+## Informations utilisateur
 
-   Informations sur l’utilisateur est un condensé d’informations sur les utilisateurs dans votre organisation, séparées par nom de domaine.
+Informations sur l’utilisateur est un condensé d’informations sur les utilisateurs dans votre organisation, séparées par nom de domaine.
 
-   <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
-   <thead> 
-   <tr> 
-      <th colname="col1" class="entry"> Élément </th> 
-      <th colname="col2" class="entry"> Description </th> 
-   </tr>
-   </thead>
-   <tbody> 
-   <tr> 
-      <td colname="col1"> <p>Domaine </p> </td> 
-      <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
-   </tr> 
-   <tr> 
-      <td colname="col1"> <p>Domaine déposé </p> </td> 
-      <td colname="col2"> <p>Vous devez être administrateur système pour migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, et déposer un domaine disponible par le biais d’Adobe Admin Console avant d’effectuer la migration. En savoir plus <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> </td> 
-   </tr> 
-   </tbody> 
-   </table>
+<table id="table_3822E27AF81E4A188562FEB5131548A5"> 
+<thead> 
+<tr> 
+   <th colname="col1" class="entry"> Élément </th> 
+   <th colname="col2" class="entry"> Description </th> 
+</tr>
+</thead>
+<tbody> 
+<tr> 
+   <td colname="col1"> <p>Domaine </p> </td> 
+   <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
+</tr> 
+<tr> 
+   <td colname="col1"> <p>Domaine déposé </p> </td> 
+   <td colname="col2"> <p>Vous devez être administrateur système pour migrer des utilisateurs sous la forme d’Enterprise ID ou de Federated ID, et déposer un domaine disponible par le biais d’Adobe Admin Console avant d’effectuer la migration. En savoir plus <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> <p>Si vous ne souhaitez pas déposer de domaine en Enterprise ID ou Federated ID, passez cette étape et migrez les utilisateurs en Adobe ID. Pour en savoir plus sur les types d’ID, cliquez <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> ici</a>. </p> </td> 
+</tr> 
+</tbody> 
+</table>
 
 1. Localisez le domaine contenant les ID utilisateur que vous souhaitez migrer, puis sous **[!UICONTROL Migration requise]**, cliquez sur **[!UICONTROL Sélectionner les utilisateurs]**.
 1. Sur la page [!DNL Users], sélectionnez les utilisateurs que vous souhaitez migrer, puis cliquez sur **[!UICONTROL Migrer]**.

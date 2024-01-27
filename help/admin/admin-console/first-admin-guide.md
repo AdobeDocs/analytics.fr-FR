@@ -1,16 +1,17 @@
 ---
-title: Guide du premier administrateur d’Adobe Analytics
+title: Guide Adobe Analytics pour le premier administrateur
 description: Comprendre comment le premier processus d’approvisionnement de l’administrateur a lieu et les étapes suivantes
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 43%
 
 ---
 
-# Guide du premier administrateur d’Adobe Analytics
+# Guide Adobe Analytics pour le premier administrateur
 
 Pour qu’un utilisateur puisse se voir attribuer des rôles dans Adobe Analytics, il doit être désigné comme premier administrateur dans Experience Cloud. Le premier administrateur peut ensuite configurer les utilisateurs de l’organisation avec d’autres rôles clés.
 
@@ -20,7 +21,7 @@ Un premier administrateur est le point de départ pour permettre au reste de l�
 
 Une fois le contrat signé :
 
-1. L’équipe de mise en service d’Adobe se prépare à créer le compte.
+1. L’équipe d’attribution des privilèges d’accès d’Adobe se prépare à créer le compte.
 
 1. Le premier administrateur reçoit un courrier électronique contenant les informations de connexion avant la date d’entrée en vigueur du contrat.
 

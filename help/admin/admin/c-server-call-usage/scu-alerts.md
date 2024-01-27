@@ -3,9 +3,10 @@ description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lo
 title: Alerte d’utilisation des appels au serveur
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # Alerte d’utilisation des appels au serveur
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
-
-## Aperçu
 
 Une nouvelle catégorie d’alertes appelée **[!UICONTROL Alertes d’utilisation de l’appel au serveur]** fait partie de l’interface utilisateur existante [Gestion des alertes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=fr).
 
@@ -31,7 +30,7 @@ Vous pouvez accéder aux alertes d’utilisation des appels au serveur de deux f
 * cliquez sur **[!UICONTROL Gérer les alertes]** dans le coin supérieur droit de l’onglet Utilisation actuelle ou Suite de rapports d’utilisation ; ou
 * accédez à **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** dans Adobe Analytics.
 
-## Créer des alertes d’utilisation des appels au serveur {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## Créer des alertes d’utilisation des appels au serveur {#create}
 
 Pour créer des alertes supplémentaires :
 
@@ -58,7 +57,7 @@ Spécifie le seuil et la condition (est supérieur ou égal ou est inférieur ou
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Gérer des alertes d’utilisation de l’appel au serveur {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## Gérer des alertes d’utilisation de l’appel au serveur {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -77,3 +76,5 @@ Pour gérer des alertes :
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
    | Renouvellement | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/admin/c-server-call-usage/report-suite-usage.md). |
+
+   {style="table-layout:auto"}

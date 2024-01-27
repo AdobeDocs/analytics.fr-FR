@@ -3,10 +3,11 @@ title: Exclure par adresse IP
 description: Empêchez les données générées par certaines adresses IP dʼapparaître dans les rapports.
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 93%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
@@ -30,4 +31,4 @@ Vous pouvez utiliser des indicateurs de caractères génériques (&#42;) pour ex
 
 Si l’obscurcissement d’IP est activé, l’exclusion de l’adresse IP survient avant l’obscurcissement ; ainsi, les clients n’ont rien à changer lorsqu’ils activent cette option.
 
-Si le dernier octet est supprimé, ceci a lieu avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Correspondance &#42; doit correspondre à 0.
+Si le dernier octet est supprimé, ceci a lieu avant le filtrage IP. Par conséquent, le dernier octet est remplacé par un 0 et les règles d’exclusion IP doivent être mises à jour afin de correspondre aux adresses IP avec un zéro à la fin. Le &#42; correspondant doit correspondre à 0.

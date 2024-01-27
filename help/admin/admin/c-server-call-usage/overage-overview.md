@@ -3,16 +3,15 @@ description: Présentation de la fonctionnalité d’utilisation des appels au s
 title: Aperçu de l’utilisation de l’appel au serveur
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# Aperçu de l’utilisation de l’appel au serveur
-
-## Pourquoi surveiller et alerter sur l’utilisation de l’appel au serveur ?  {#section_060C29BF1D00444B85892AD1FCF55290}
+# Utilisation des appels au serveur
 
 L’utilisation de l’appel au serveur d’Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation d’appel du navigateur et du serveur mobile. Il vous permet d’accéder à :
 
@@ -31,7 +30,7 @@ Auparavant, vous pouviez accéder aux données mensuelles relatives à la consom
 * **Permissions :** pour accéder au tableau de bord de l’utilisation de l’appel au serveur et au générateur/créateur d’alertes, vous devez être un administrateur Adobe Analytics.
 * **Permissions :** les administrateurs peuvent également accorder l’accès à des non-administrateurs. La permission est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Reportez-vous à [Permission de l’utilisation de l’appel au serveur](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
-## Terminologie importante {#section_CBA348A039F34563B097CD8890AB358D}
+## Terminologie importante {#terminology}
 
 Voici une brève introduction à la terminologie essentielle à l’utilisation de l’appel au serveur :
 
@@ -80,7 +79,7 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
  </tbody> 
 </table>
 
-## Permission de l’utilisation de l’appel au serveur {#section_FCC58EB635954A32990D4E67B52B4369}
+## Permission de l’utilisation de l’appel au serveur {#permission}
 
 La permission de l’utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
 
