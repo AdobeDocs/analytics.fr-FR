@@ -4,10 +4,10 @@ keywords: Suite de rapports virtuelle
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 6e9ea48df286b2bde6a071ab3d0f29a764382c6d
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 85%
+source-wordcount: '1636'
+ht-degree: 79%
 
 ---
 
@@ -31,13 +31,13 @@ Le partage de segments dans Adobe Experience Cloud n’est pas pris en charge po
 
 Les segments ne peuvent pas encore être publiés dans Adobe Experience Cloud depuis une suite de rapports virtuelle pour la personnalisation et le ciblage. Tous les utilisateurs qui publient des segments doivent accéder à une suite de rapports source dans ce but. Par exemple, vous souhaitez que les utilisateurs aient uniquement accès aux données de leur région géographique, mais vous souhaitez qu’ils puissent créer et partager des segments d’Adobe Analytics dans Adobe Experience Cloud à des fins de ciblage dans Adobe Target. Dans ce cas, Adobe recommande d’utiliser le balisage multisuite. Si vous n’avez pas peur que les utilisateurs aient accès à la suite de rapports globale ou que vous n’avez pas besoin de publier des segments pour les utiliser dans d’autres solutions, vous pouvez utiliser des suites de rapports virtuelles.
 
-### Limites uniques
+### Limites uniques (faible trafic)
 
 Si vous disposez d’une suite de rapports globale qui regroupe un grand nombre de sites, il est possible que vous rencontriez fréquemment l’élément de ligne [faible trafic](/help/technotes/low-traffic.md). Si vous utilisez le balisage multisuite, le problème se pose uniquement pour la suite de rapports globale (les suites de rapports individuelles risquent moins de voir un faible trafic). Si vous utilisez des suites de rapports virtuelles, des limites uniques sont partagées, ce qui entraîne également un faible trafic pour les suites de rapports individuelles. Pensez à utiliser le balisage multisuite si vous souhaitez éviter de placer des données en faible trafic.
 
-Par exemple, une grande entreprise médiatique possède 100 propriétés web. Chaque propriété publie quelques milliers d’articles par mois, en plus d’héberger tous les articles des mois précédents. Cette organisation utilise une suite de rapports globale dans laquelle eVar1 est le « Nom de l’article ». Dans ce rapport, il existe environ 4 millions de noms d’article uniques par mois provenant des différentes propriétés combinées. Si vous utilisez une suite de rapports virtuelle, les 500 000 premières valeurs qui constituent la majeure partie du trafic sont incluses dans les suites de rapports virtuelles. Les 3,5 millions restants sont inclus en faible trafic. Si le balisage multisuite est utilisé, chaque suite de rapports individuelle peut voir ses 500 000 premières valeurs. Les limites uniques des suites de rapports globales sont les mêmes entre l’utilisation du balisage multisuite et les suites de rapports virtuelles.
+Par exemple, une grande entreprise médiatique possède 100 propriétés web. Chaque propriété publie quelques milliers d’articles par mois, en plus d’héberger tous les articles des mois précédents. Cette organisation utilise une suite de rapports globale dans laquelle eVar1 est le « Nom de l’article ». Supposons que ce rapport contienne environ 5 millions de noms d’article uniques par mois issus des différentes propriétés combinées. Si vous utilisez une suite de rapports virtuelle, seule une partie des 5 millions de valeurs sera incluse dans la suite de rapports virtuelle. Les autres sont inclus sous faible trafic. Si le balisage multisuite est utilisé, chaque suite de rapports individuelle peut voir son propre jeu de valeurs uniques.
 
-L’Assistance clientèle d’Adobe peut augmenter les limites de valeurs uniques pour un petit nombre de dimensions, ce qui peut éliminer complètement ce problème. Pour plus d’informations, consultez votre équipe de compte et l’assistance clientèle.
+L’assistance clientèle d’Adobe peut parfois augmenter les limites de valeur uniques pour un petit nombre de dimensions, ce qui peut éliminer entièrement ce problème. Pour plus d’informations, consultez votre équipe de compte et l’assistance clientèle.
 
 ### Variables partagées dans l’ensemble des suites de rapports.
 
