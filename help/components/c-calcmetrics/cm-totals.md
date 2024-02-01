@@ -3,14 +3,14 @@ title: Totaux des mesures calculées
 description: Découvrez les totaux des mesures calculées dans Analysis Workspace
 feature: Calculated Metrics
 exl-id: 3e4429de-3e0c-49a5-b32c-3a4d24a29816
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 91%
+source-wordcount: '149'
+ht-degree: 89%
 
 ---
 
-# Totaux des mesures calculées [!DNL Analysis Workspace]
+# Totaux des mesures calculées dans Analysis Workspace
 
 Lorsque vous affichez des données dans Analysis Workspace, les totaux des mesures calculées s’affichent dans la plupart des cas. Dans certains cas, il n’est pas possible de fournir un total, par exemple lorsque les lignes du rapport présentent un format mixte (décimal et devise, par exemple).
 

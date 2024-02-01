@@ -3,14 +3,14 @@ title: Configuration requise pour Adobe Analytics
 description: Configuration requise pour l’utilisation d’Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 90%
 
 ---
 
-# Configuration requise pour Adobe Analytics et conditions préalables
+# Configuration requise et conditions préalables pour Adobe Analytics
 
 Avant de commencer à mettre en œuvre Adobe Analytics en tant qu’administrateur ou administratrice, ou encore de l’utiliser comme analyste, utilisateur final ou utilisatrice finale, vous devez d’abord vous familiariser avec les conditions préalables et la configuration requise ci-après :
 
@@ -20,13 +20,11 @@ Pour utiliser Adobe Analytics, vous devez disposer des éléments suivants :
 
 * Une licence Adobe Analytics valide
 
-  Adobe Analytics nécessite une licence de site. Contactez votre personne gestionnaire de compte Adobe pour plus d’informations à ce sujet. <!--is this phrased correctly? Is this important? -->
+  Adobe Analytics nécessite une licence de site. Pour plus d’informations, contactez votre représentant de compte d’Adobe.
 
 * Un navigateur pris en charge
 
   Chaque personne accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=fr).
-
-<!-- are there more? -->
 
 ## Configuration requise
 
@@ -41,13 +39,9 @@ La plupart des solutions Adobe Analytics, y compris Analysis Workspace, sont bas
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE]
->
->Le 13 novembre 2018, Adobe a arrêté la prise en charge de Microsoft Internet Explorer 11 dans Adobe Analytics.
-
 ### Configuration requise pour les solutions hors navigateur
 
 Consultez la page de la solution liée pour connaître la configuration requise pour cette solution.
 
-* [Report Builder Configuration requise](/help/analyze/report-builder/setup/system-requirements.md)
-* [Configuration requise pour Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=fr)
+* [Configuration requise pour Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
+

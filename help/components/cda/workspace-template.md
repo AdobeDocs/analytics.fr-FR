@@ -3,10 +3,11 @@ title: Modèle CDA Workspace
 description: Décrit chaque champ du modèle CDA dans Analysis Workspace.
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -32,5 +33,5 @@ Un projet Analysis Workspace est créé et contient plusieurs panneaux. Dans la
    * Granularité des rapports : la compression par jour est généralement plus petite que la compression par mois ou par année. Les chances qu’une personne utilise plusieurs appareils sont moindres au cours d’un seul jour qu’au cours d’un mois entier. La segmentation, le filtrage ou l’utilisation de dimensions de répartition peuvent également indiquer un taux de compression plus faible.
 * **Segments basés sur les personnes**: contient une liste déroulante de segments qui vous permet d’afficher des données spécifiques à l’appareil. Ce panneau encourage l’expérimentation de segments afin de déterminer comment l’inclusion ou l’exclusion de types d’appareil affectent les rapports.
 * **Analyse du parcours entre appareils** : Fournit des rapports de flux et d’abandons en fonction du type d’appareil.
-* **Attribution entre appareils** : Combinez les fonctionnalités Journey  et Attribution IQ.
+* **Attribution entre appareils**: Combinez les fonctionnalités de Parcours IQ et d’Attribution.
 * **Autres conseils et astuces** : Rubriques utiles sur les Analyses entre appareils qui vous permettent de mieux l’utiliser.

@@ -4,7 +4,7 @@ title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 [L’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) est un processus intensif de machine learning, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur ou à l’utilisatrice de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
 
-## Exécution de l’analyse des contributions {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Exécution de l’analyse des contributions {#run}
 
 Dans un projet, vous pouvez invoquer l’analyse des contributions de deux façons :
 
@@ -31,7 +31,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 
   ![](assets/contribution-analysis.png)
 
-1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#exclude).
 
 1. Patientez pendant le chargement de l’analyse des contributions. Selon la taille de la suite de rapports et le nombre de dimensions, cette opération peut être longue. L’analyse des contributions traite les 50 000 premiers éléments par dimension.
 1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet.
@@ -56,7 +56,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 >
 >L’anomalie en cours d’analyse est mise en évidence au moyen d’un point bleu dans l’analyse des contributions et les projets avec alertes intelligentes qui y sont liés. Ceci permet d’indiquer plus clairement l’anomalie en cours d’analyse.
 
-## Exclusion de dimensions de l’analyse des contributions {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Exclusion de dimensions de l’analyse des contributions {#exclude}
 
 Parfois, vous souhaiterez exclure certaines dimensions de l’analyse des contributions. Par exemple, vous pouvez ne pas attacher d’importance à des dimensions liées au navigateur ou au matériel et vous souhaitez accélérer l’analyse en les supprimant.
 
