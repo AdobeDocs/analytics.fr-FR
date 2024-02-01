@@ -3,10 +3,11 @@ title: FAQ sur les sources de données
 description: Questions fréquentes sur les sources de données.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '409'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +26,7 @@ Toutes les autres données transférées par le biais de sources de données n�
 +++
 
 +++Comment les sources de données affectent-elles les mesures par défaut, telles que les pages vues, les visites ou les visiteurs uniques ?
-Les données transférées au moyen des sources de données n’ont aucune incidence [Pages vues](/help/components/metrics/page-views.md), [Visites](/help/components/metrics/visits.md)ou [Visiteurs uniques](/help/components/metrics/unique-visitors.md) de quelque manière que ce soit. La seule mesure par défaut qu’ils affectent inclut [Occurrences](/help/components/metrics/occurrences.md).
+Les données transférées au moyen des sources de données n’ont aucune incidence [Pages vues](/help/components/metrics/page-views.md), [Visites](/help/components/metrics/visits.md), ou [Visiteurs uniques](/help/components/metrics/unique-visitors.md) de quelque manière que ce soit. La seule mesure par défaut qu’ils affectent inclut [Occurrences](/help/components/metrics/occurrences.md).
 +++
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?

@@ -3,10 +3,11 @@ title: Sources de données des ID de transaction
 description: Découvrez le processus général d’utilisation des sources de données des ID de transaction.
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 54c88a275b48f2b401be450ce35767ab3ea9d40b
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 10%
+source-wordcount: '427'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +27,7 @@ Lorsque vous envoyez un accès en ligne contenant une [`transactionID`](/help/im
 Les sources de données des ID de transaction présentent les propriétés suivantes :
 
 * Les données en ligne doivent d&#39;abord être collectées et traitées. Si une source de données d’ID de transaction est chargée avant qu’une suite de rapports ne traite un accès correspondant à cet ID de transaction, les données ne sont pas liées.
-* Les identifiants de transaction collectés via AppMeasurement expirent après environ 90 jours. Si votre entreprise a besoin d’une fenêtre d’ID de transaction plus longue, contactez l’assistance clientèle d’Adobe.
+* Les identifiants de transaction collectés par AppMeasurement expirent après environ 90 jours. Si votre entreprise a besoin d’une fenêtre d’ID de transaction plus longue, contactez l’assistance clientèle d’Adobe.
 * Les sources de données chargées avec un ID de transaction expiré sont traitées de la même manière que les données transférées sans ID de transaction.
 * Si la même variable est incluse dans l’accès en ligne et la source de données de l’ID de transaction, la valeur de la source de données de l’ID de transaction est utilisée.
 * Si une variable est incluse dans un accès en ligne, mais pas dans un accès de source de données d’ID de transaction correspondant, la variable d’accès en ligne est conservée.
@@ -35,7 +36,7 @@ Les sources de données des ID de transaction présentent les propriétés suiva
 
 Par exemple :
 
-1. Vous envoyez une page vue depuis AppMeasurement où :
+1. Vous envoyez une page vue depuis un AppMeasurement où :
    * `eVar1` est égal à `blue`
    * `eVar2` est égal à `water`
    * `events` est égal à `event1`
@@ -51,4 +52,4 @@ Par exemple :
    * `eVar3` est égal à `bird`
    * `events` est égal à `event2`
 
-Valeur eVar1 `blue` et le `event1` ne sont pas présentes dans les rapports, car l’accès à l’ID de transaction remplace ces valeurs respectives.
+Valeur eVar1 `blue` et la variable `event1` ne sont pas présentes dans les rapports, car l’accès à l’ID de transaction remplace ces valeurs respectives.

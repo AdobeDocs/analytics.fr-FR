@@ -1,12 +1,12 @@
 ---
 title: Guide dʼimportation d’Analytics
-description: Ce guide explique comment importer des données dans Analytics par le biais de sources de données, de l’API d’insertion des données ou des Data Connectors.
+description: Ce guide explique comment intégrer des données dans Analytics à l’aide des sources de données et des API d’insertion de données.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '140'
+ht-degree: 88%
 
 ---
 

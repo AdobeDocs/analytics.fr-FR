@@ -3,26 +3,27 @@ title: Transfert du fichier de sources de données vers Adobe
 description: Processus de téléchargement d’un fichier de sources de données vers Adobe Analytics en vue de l’ingestion.
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
 # Transfert du fichier de sources de données vers Adobe
 
-L’envoi d’un fichier de sources de données à Adobe implique un processus FTP authentifié type. Vous pouvez utiliser l’Explorateur Windows, le Finder ou un client FTP dédié pour télécharger les fichiers de votre choix vers l’emplacement FTP de l’Adobe.
+L’envoi d’un fichier de sources de données à l’Adobe implique un processus FTP authentifié type. Vous pouvez utiliser l’Explorateur Windows, le Finder ou un client FTP dédié pour télécharger les fichiers de votre choix vers l’emplacement FTP de l’Adobe.
 
-Recherchez les informations d’identification FTP dans la variable [Gestionnaire des sources de données](manage.md). Chaque source de données comporte un lien vers son **[!UICONTROL Infos FTP]**. Chaque emplacement FTP est dédié à cette source de données spécifique. vous ne pouvez pas utiliser le même emplacement FTP pour plusieurs sources de données.
+Recherchez les informations d’identification FTP dans la variable [Gestionnaire des sources de données](manage.md). Chaque source de données comporte un lien vers son **[!UICONTROL Infos FTP]**. Chaque emplacement FTP est dédié à cette source de données spécifique ; vous ne pouvez pas utiliser le même emplacement FTP pour plusieurs sources de données.
 
 Pour des raisons de sécurité, les emplacements FTP sans activité pendant plus de 30 jours sont désactivés.
 
-## Le `.fin` fichier
+## La variable `.fin` fichier
 
-L’inclusion d’une `.fin` fichier . Ce fichier indique d’Adobe que le fichier de données est prêt pour le traitement. Si vous transférez un fichier de sources de données sans qu’un `.fin` , Adobe ne traite jamais ces données.
+L’inclusion d’une `.fin` fichier . Ce fichier indique que le fichier de données est prêt pour le traitement. Si vous transférez un fichier de sources de données sans qu’un `.fin` , Adobe ne traite jamais ces données.
 
-Le `.fin` possède les propriétés suivantes :
+La variable `.fin` possède les propriétés suivantes :
 
 * Le fichier comporte une `.fin` extension . Assurez-vous que votre système d’exploitation vous permet d’afficher et de modifier des types de fichiers.
 * Le fichier est vide. Ne pas stocker de données dans la variable `.fin` fichier .

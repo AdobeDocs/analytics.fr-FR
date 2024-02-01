@@ -3,10 +3,11 @@ title: Fin de vie des sources de données à traitement complet
 description: En savoir plus sur l’annonce de fin de vie pour les sources de données à traitement complet.
 exl-id: 7dd6d518-156f-4bf5-86cb-04d0acc8ff0c
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 16%
+source-wordcount: '369'
+ht-degree: 4%
 
 ---
 
@@ -30,21 +31,21 @@ Le 25 mars 2021, Adobe a empêché la création de nouvelles connexions de sourc
 
 Les variables suivantes ont été introduites dans l’insertion de données en bloc, auparavant indisponibles dans les sources de données à traitement complet :
 
-* **`aamlh`**: Indicateur d’emplacement d’Adobe Audience Manager.
+* **`aamlh`**: indicateur d’emplacement Adobe Audience Manager.
 * **`contextData.key`**: [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md).
-* **`customerID`**: Variables du service d’ID Experience Cloud. Inclut `id`, `authState` et `isMCSeed`.
-* **`hints`**: [Conseil client](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr) . Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, et `wow64`.
-* **`ipaddress`**: Adresse IP du visiteur.
-* **`language`**: Le [Langue](/help/components/dimensions/language.md) dimension.
+* **`customerID`**: variables du service d’ID Experience Cloud. Inclut `id`, `authState` et `isMCSeed`.
+* **`hints`**: [Conseil client](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) . Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion`, et `wow64`.
+* **`ipaddress`**: adresse IP du visiteur.
+* **`language`**: la variable [Langue](/help/components/dimensions/language.md) dimension.
 * **`list1`** - **`list3`**: [Variables de liste](/help/implement/vars/page-vars/list.md).
-* **`marketingCloudVisitorID`**: Experience Cloud ID du visiteur.
-* **`tnta`**: Charge utile des données Target utilisée dans [Analytics pour Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) intégrations.
-* **`trackingServer`**: Il est impossible de définir la variable.[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)
-* **`transactionID`**: Il est impossible de définir la variable.[`transactionID`](/help/implement/vars/page-vars/transactionid.md)
-* **`userAgent`**: Chaîne de l’agent utilisateur de l’appareil.
+* **`marketingCloudVisitorID`**: identifiant Experience Cloud du visiteur.
+* **`tnta`**: charge utile des données Target utilisée dans [Analytics pour Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr) intégrations.
+* **`trackingServer`**: la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) Variable .
+* **`transactionID`**: la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md) Variable .
+* **`userAgent`**: chaîne de l’agent utilisateur de l’appareil.
 
 Les variables suivantes ne sont pas prises en charge par l’insertion de données en bloc :
 
-* **`charSet`**: Il est impossible de définir la variable. [`charSet`](/help/implement/vars/config-vars/charset.md) L’insertion de données en bloc ne prend en charge que le codage UTF-8.
-* **`timezone`**: Décalage du fuseau horaire du visiteur par rapport à GMT en heures.
-* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: Variables utilisées dans la collecte de données de Activity Map.
+* **`charSet`**: la variable [`charSet`](/help/implement/vars/config-vars/charset.md) Variable . L’insertion de données en bloc ne prend en charge que le codage UTF-8.
+* **`timezone`**: décalage du fuseau horaire du visiteur par rapport à GMT, en heures.
+* **`clickAction`**, **`clickActionType`**, **`clickContext`**, **`clickContextType`**, **`clickSourceID`**, **`clickTag`**: variables utilisées dans la collecte de données de Activity Map.

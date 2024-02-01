@@ -3,10 +3,11 @@ title: Format du fichier source de données
 description: Générez correctement un fichier à utiliser dans les sources de données.
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 7%
+source-wordcount: '533'
+ht-degree: 5%
 
 ---
 
@@ -36,14 +37,14 @@ Lors du chargement de fichiers de source de données, des en-têtes de colonne s
 
 >[!TIP]
 >
->Vous pouvez créer entièrement un fichier de sources de données si vous incluez les en-têtes corrects dans votre fichier de source de données. Le nombre d’en-têtes que vous pouvez inclure dans un seul fichier n’est pas limité. cependant, chaque ligne ne peut contenir que 4 096 octets au maximum.
+>Vous pouvez créer entièrement un fichier de sources de données si vous incluez les en-têtes corrects dans votre fichier de source de données. Le nombre d’en-têtes que vous pouvez inclure dans un seul fichier n’est pas limité. Cependant, chaque ligne ne peut contenir que 4 096 octets au maximum.
 
 | Dimension | En-tête de source de données |
 | --- | --- |
 | [Catégorie](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
 | [Canal marketing](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
-| [Détail des canaux marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
+| [Détails du canal marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produit](/help/components/dimensions/product.md) | `Product` |
 | [Code de suivi](/help/components/dimensions/tracking-code.md) | `Tracking Code` |
 | [ID de transaction](/help/implement/vars/page-vars/transactionid.md) | `transactionID` |
@@ -82,10 +83,10 @@ Un seul fichier de source de données prend en charge jusqu’à 90 jours unique
 
 ## Données de Dimension et de mesure
 
-Les valeurs suivantes après la date de chaque ligne contiennent les données que vous souhaitez transférer. Chaque ligne correspond à cet horodatage respectif. Assurez-vous que chaque ligne contient le même nombre d’onglets. Les colonnes peuvent être dans n’importe quel ordre ; assurez-vous que les données de chaque ligne s’alignent sur les en-têtes situés en haut. La quantité maximale de données qu’une seule ligne peut contenir est de 4 096 octets.
+Les valeurs suivantes après la date de chaque ligne contiennent les données que vous souhaitez transférer. Chaque ligne correspond à cet horodatage respectif. Assurez-vous que chaque ligne contient le même nombre d’onglets. Les colonnes peuvent être dans n’importe quel ordre ; assurez-vous que les données de chaque ligne s’alignent avec les en-têtes situés en haut. La quantité maximale de données qu’une seule ligne peut contenir est de 4 096 octets.
 
 Les données de Dimension ne peuvent pas contenir de points-virgules (`;`). Les lignes contenant des points-virgules sont ignorées.
 
 ## Étapes suivantes
 
-[Chargement de fichier](file-upload.md): Découvrez le processus de téléchargement d’un fichier de sources de données pour ingestion par Adobe.
+[Chargement de fichier](file-upload.md): découvrez le processus de téléchargement d’un fichier de sources de données pour ingestion par Adobe.

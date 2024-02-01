@@ -3,9 +3,10 @@ title: Présentation des sources de données
 description: Importez des données dans Adobe Analytics à l’aide de fichiers externes.
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -19,10 +20,10 @@ Les sources de données Adobe Analytics vous permettent d’importer des donnée
 1. Vous pouvez transférer le fichier texte vers un Adobe de site FTP fourni avec un document d’accompagnement : `.fin` fichier .
 1. Adobe ingère le fichier texte et affiche ces données avec les dimensions et les mesures collectées sur votre site.
 
-Il existe deux types généraux de sources de données qui Adobes les offres. Tous les modèles de source de données sont basés sur l’un de ces deux types :
+Il existe deux types généraux de sources de données qui Adobe les offres. Tous les modèles de source de données sont basés sur l’un de ces deux types :
 
-* **Source de données récapitulatives**: Permet d’importer facilement des données de haut niveau dans Adobe Analytics. Vous spécifiez l’horodatage, la valeur de variable et les mesures associées. Ces mesures pour chaque élément de dimension sont alors augmentées en conséquence. Il est utile si vous souhaitez voir les données hors ligne et en ligne côte à côte. Cependant, il ne lie pas les données en ligne et hors ligne.
-* **Source de données ID de transaction**: Si un accès envoyé par AppMeasurement et une ligne de sources de données contiennent des identifiants de transaction correspondants, la dimension et les valeurs de mesure de la source de données y sont ajoutées.
+* **Source de données récapitulatives**: permet d’importer facilement des données de haut niveau dans Adobe Analytics. Vous spécifiez l’horodatage, la valeur de variable et les mesures associées. Ces mesures pour chaque élément de dimension sont alors augmentées en conséquence. Il est utile si vous souhaitez voir les données hors ligne et en ligne côte à côte. Cependant, il ne lie pas les données en ligne et hors ligne.
+* **Source de données ID de transaction**: si un accès envoyé par AppMeasurement et une ligne de sources de données contiennent des identifiants de transaction correspondants, la dimension et les valeurs de mesure de la source de données y sont ajoutées.
 
 **Sources de données à traitement complet** ne sont plus proposées en tant que type de source de données depuis le 25 mars 2021. Voir [Annonce de fin de vie](full-processing-eol.md) pour plus d’informations.
 
@@ -30,4 +31,4 @@ Adobe propose également la variable [API des sources de données](https://devel
 
 ## Étapes suivantes
 
-[Prise en main des sources de données](getting-started.md): Chargez une source de données simple dans une suite de rapports de développement.
+[Prise en main des sources de données](getting-started.md): téléchargez une source de données simple vers une suite de rapports de développement.
