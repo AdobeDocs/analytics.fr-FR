@@ -3,9 +3,9 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2066'
 ht-degree: 99%
 
 ---
@@ -50,7 +50,6 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Périodes | Analysis Workspace comprend une liste de périodes par défaut que vous pouvez utiliser lors de la création d’analyses. Vous pouvez également créer des périodes personnalisées à destination des utilisateurs et utilisatrices d’Analysis Workspace. | [Création de périodes personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suites de rapports virtuelles | Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment. | [Vue d’ensemble des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) |
    | Alertes | La fonction Alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte. | [Alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) |
-   | Événements du calendrier | Pour les rapports de tendances au fil du temps, les événements du calendrier vous permettent d’afficher les événements sous forme graphique afin de déterminer si des campagnes ou d’autres événements ont eu un impact sur le trafic, le revenu ou toute autre mesure de votre site. | [Événements du calendrier](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=fr) |
    | Annotations | Les annotations dans Workspace vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions et mesures spécifiques. | [Gestion des annotations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=fr) |
    | Ensembles de classifications | Les ensembles de classifications fournissent une interface unique pour gérer les classifications et les règles. <p>Une classification est une méthode permettant de catégoriser des données de variables Analytics, puis de les afficher de différentes manières lors de la création de rapports. Vous établissez une relation entre une valeur de variable et les métadonnées associées à cette valeur. Les classifications peuvent être utilisées sur la plupart des dimensions personnalisées, telles que le code de suivi, les props et les eVars.</p> | [Vue d’ensemble des ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) |
    | Emplacements | Pour importer des données de classification d’Adobe Analytics à partir d’une destination cloud, vous devez d’abord ajouter et configurer l’emplacement dans lequel vous souhaitez que les données de classification soient collectées. Vous pouvez créer, modifier ou supprimer les emplacements. | [Gestionnaire d’emplacements](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=fr) |
