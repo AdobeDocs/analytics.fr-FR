@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics - Aperçu
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 44%
+source-wordcount: '470'
+ht-degree: 42%
 
 ---
 
@@ -19,7 +19,7 @@ Une fois l’intégration de l’Audience Analytics en place, vous pouvez incorp
 
 >[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
-## Avantages clés  {#section_94816D17283349E0BA28521BE55BB868}
+## Avantages clés  {#benefits}
 
 L’intégration d’Audience Analytics offre les avantages clés suivants :
 
@@ -29,19 +29,19 @@ L’intégration d’Audience Analytics offre les avantages clés suivants :
 * Les administrateurs de solution peuvent activer l’intégration dans l’interface utilisateur en effectuant des modifications de code minimales.
 * Seuls les segments conformes aux contrôles des exportations de données d’Audience Manager sont partagés.
 
-## Fonctionnement {#section_CECDF5A0FEC64264B206EFEF54F19EF2}
+## Fonctionnement des Audiences Analytics {#works}
 
 ![](assets/mc-aud-dataflow.png)
 
 1. Chaque fois qu’un utilisateur se rend sur vos propriétés numériques, les accès sont collectés et envoyés à Analytics.
-1. Avec  [transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), chaque accès reçu par Analytics est automatiquement envoyé à Adobe Audience Manager en temps réel.
+1. Avec [transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), chaque accès reçu par Analytics est automatiquement envoyé à Adobe Audience Manager en temps réel.
 1. Grâce à l’intégration des Audiences Analytics, pour chaque accès, l’appartenance d’audience d’un visiteur est recherchée dans Adobe Audience Manager et une liste d’ID de segment est renvoyée à Analytics pour traitement en temps réel.
 
 Comme les segments Adobe Audience Manager sont insérés sur la base d’accès identiques, vous pouvez être certain que quelles que soient les données disponibles sur un visiteur dans Adobe Audience Manager, elles ne seront pas ignorées et seront à jour pour cet accès. Cette fonctionnalité est supérieure à un module d’extension AppMeasurement dans la mesure où un module externe rend ces segments disponibles uniquement lors de l’accès suivant (et non l’accès actuel).
 
 En outre, nous classifions automatiquement les identifiants de segment Adobe Audience Manager selon leurs noms conviviaux, de sorte que vous n’ayez pas à consulter les identifiants alphanumériques dans les rapports Analytics.
 
-## Conditions préalables {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
+## Conditions préalables {#prerequisites}
 
 Assurez-vous que les conditions préalables suivantes sont réunies :
 

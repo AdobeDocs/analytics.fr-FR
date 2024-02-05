@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 Vous pouvez utiliser les dimensions d’audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous la forme de deux dimensions.
 
@@ -24,7 +24,7 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
    ![](assets/aw-mcaudiences.png)
 
-## Comparaison des segments  {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## Comparaison des segments  {#compare}
 
 [Comparaison des segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=fr) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
 
@@ -41,7 +41,7 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
    ![](assets/aud-segcompare.png)
 
-## Parcours client (flux) dans Analysis Workspace {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Parcours client (flux) dans Analysis Workspace {#flow}
 
 Les données de segment Adobe Audience Manager sont transmises à Analytics accès par accès et représentent l’appartenance à l’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
 
@@ -55,7 +55,7 @@ Les données de segment Adobe Audience Manager sont transmises à Analytics acc�
 
 Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr).
 
-## Visualisation de Venn dans Analysis Workspace  {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Visualisation de Venn dans Analysis Workspace  {#venn}
 
 Les [visualisations de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=fr) affichent l’intersection entre 3 segments maximum.
 
@@ -69,7 +69,7 @@ Les [visualisations de Venn](https://experienceleague.adobe.com/docs/analytics/a
 
 ![](assets/venn-viz.png)
 
-## Créateur de segments {#section_2AA81852A1404AB894472CA8959461B6}
+## Créateur de segments {#builder}
 
 Vous pouvez importer les dimensions d’audience dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) Analytics, ainsi que les informations de comportement collectées par Analytics.
 

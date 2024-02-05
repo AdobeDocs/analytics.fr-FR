@@ -3,10 +3,10 @@ description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes sur les analyses publicitaires
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 50%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -161,29 +161,18 @@ Non, nous n&#39;avons actuellement pas de plans pour ces autres canaux sur la fe
 
 ## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Question </th> 
-   <th colname="col2" class="entry"> Réponse </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Q. : Lors du paramétrage de mon compte Advertising, il est stipulé que le <b>Suivi automatique</b> peut entraîner des conséquences imprévues. Quel genre de conséquences peuvent survenir ? </p> </td> 
-   <td colname="col2"> <p>A : 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">Le mode automatique tentera d’ajouter les paramètres d’URL à la fin du modèle de suivi ou de l’URL de destination dans un format correct. <b>Cependant, il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page de destination. </b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Q. : Si je configure d’abord un suivi manuel ou automatique, <b>puis-je changer</b> de mode de suivi plus tard ? Quelles sont les implications ? </p> </td> 
-   <td colname="col2"> <p>R. : Oui, vous pouvez changer, mais vous devrez supprimer l’ancienne logique de suivi avant de passer à l’autre mode. Cela peut entraîner une interruption du suivi le jour du changement (en particulier si vous passez du mode manuel au mode automatique). Il est donc recommandé de ne pas changer de mode à moins que cela ne soit absolument nécessaire. </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>Passer du mode manuel au mode automatique</b> : supprimez les ajouts manuels apportés aux modèles de suivi puis basculez le bouton de manuel à automatique dans l’interface utilisateur d’Advertising Analytics et enregistrez cette configuration. Notez que le système peut prendre x heures pour renseigner les codes de suivi automatique. </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>Passer du mode automatique au mode manuel</b> : basculez le bouton de manuel à automatique dans l’interface de configuration d’Advertising Analytics puis déployez les codes de suivi manuel aussi vite que possible. Lorsque vous déployez les codes de suivi manuel, si vous détectez des codes de suivi automatique dans les modèles de suivi du moteur de recherche, supprimez-les. </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ Lors de la configuration de mon compte Advertising, il indique que<b> Suivi automatique</b> peuvent avoir des conséquences imprévues. Quel genre de conséquences peuvent survenir ?
+
+Le mode automatique tente d’ajouter les paramètres d’URL à la fin des modèles de suivi/URL de destination dans le format correct. <b>Il vous incombe toutefois de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée. Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux.
+
++++
+
++++ Si je configure d’abord un suivi manuel ou automatique, puis-je passer à l’autre mode de suivi ultérieurement ? Quelles sont les implications ?
+
+Oui, vous pouvez changer de mode de suivi, mais vous devez supprimer l’ancienne logique de suivi avant de passer à l’autre mode. Cela peut entraîner une interruption du suivi le jour du changement (en particulier si vous passez du mode manuel au mode automatique). Par conséquent, nous vous recommandons de ne pas changer d’emplacement à moins que cela ne soit absolument nécessaire.
+
+* Passer du mode manuel au mode automatique : supprimez les ajouts manuels apportés aux modèles de suivi, puis basculez le bouton de manuel à automatique dans l’interface utilisateur d’Advertising Analytics et enregistrez le paramètre. Notez que le remplissage des codes de suivi automatique peut prendre plusieurs heures.
+
+* Passer du mode automatique au mode manuel : passez du mode manuel au mode automatique dans l’interface utilisateur de configuration d’Advertising Analytics, puis déployez les codes de suivi manuel aussi rapidement que possible. Lorsque vous déployez les codes de suivi manuel, si vous détectez des codes de suivi automatique dans les modèles de suivi du moteur de recherche, supprimez-les.
+
++++
