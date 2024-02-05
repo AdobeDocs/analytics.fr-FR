@@ -1,18 +1,18 @@
 ---
-description: Configuration requise et comparaison entre Analysis Workspace, Report Builder, Data Warehouse et Data Workbench
+description: Configuration requise et comparaison d’Analysis Workspace, Report Builder, Data Warehouse et Data Workbench
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Configuration requise et comparaison des produits Analytics
 
-Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Report Builder, Data Warehouse, flux de données et API Analytics 2.0.
+Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Report Builder, Data Warehouse, Data Feeds and Analytics API 2.0.
 
 Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
@@ -29,7 +29,7 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Qu
 | **Suites de rapports multiples** | [Oui](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Oui | Non | Oui | Non | Oui |
 | **Nombre de répartitions** | Illimitées | Jusqu’à 2 | Illimitées | Illimitées | Illimitées, appliquées à plusieurs requêtes |
 | **Segmentation** <br> [En savoir plus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Oui | Oui | Oui, avec des [limites](/help/components/segmentation/seg-reference/seg-compatibility.md) | Non | Oui |
-| **Mesures calculées** <br> [En savoir plus](/help/components/c-calcmetrics/cm-overview.md) | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Oui, avec attribution | Oui | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **Mesures calculées** <br> [En savoir plus](/help/components/c-calcmetrics/cm-overview.md) | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Oui, avec Attribution | Oui | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canaux marketing** <br> [En savoir plus](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Oui | Oui | Oui | Oui - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Oui |
 | **Analyse des cohortes** | [Oui](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Oui | Non | Non | Non |
 | **Attribution** | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitées | Non | Non | Oui, avec [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Non |
