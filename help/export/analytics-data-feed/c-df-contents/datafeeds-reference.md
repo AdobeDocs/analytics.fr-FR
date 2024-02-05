@@ -6,9 +6,9 @@ title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`click_context_type`** | N’est plus utilisé. Indique si `click_context` avait un nom de page ou une URL de page par défaut.<br>0 : URL de la page<br>1 : Nom de la page | tinyint sans signe |
 | **`click_sourceid`** | N’est plus utilisé. Identifiant numérique pour l’emplacement sur la page du lien cliqué. Partie de l’outil hérité ClickMap. | int sans signe |
 | **`click_tag`** | N’est plus utilisé. Type d’élément HTML sur lequel on a cliqué. | char(10) |
-| **`clickmaplink`** | Lien Activity Map | varchar(255) |
+| **`clickmaplink`** | Lien d’Activity Map | varchar(255) |
 | **`clickmaplinkbyregion`** | Lien d’Activity Map par région | varchar(255) |
 | **`clickmappage`** | Page d’Activity Map | varchar(255) |
 | **`clickmapregion`** | Région d’Activity Map | varchar(255) |
@@ -58,7 +58,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
 | **`connection_type`** | Identifiant numérique représentant le type de connexion. Variable utilisée dans la dimension [Type de connexion](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`cookies`** | Variable utilisée dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md).<br>Y : activé<br>N : désactivé<br>U : inconnu | char(1) |
-| **`country`** | Identifiant numérique représentant les valeurs trouvées dans la variable `country.tsv` recherche. | smallint sans signe |
+| **`country`** | Identifiant numérique représentant les valeurs trouvées lors de la recherche dans `country.tsv`. | smallint sans signe |
 | **`ct_connect_type`** | Liée à la colonne `connection_type`. Les valeurs les plus courantes sont LAN/Wi-Fi, Opérateur de téléphonie mobile et Modem. | char(20) |
 | **`curr_factor`** | Détermine la décimale de la devise et est utilisée pour la conversion de devise. Par exemple, le dollar américain (USD) utilise deux décimales, donc cette valeur de colonne serait de 2. | tinyint |
 | **`curr_rate`** | Taux de change au moment de la transaction. Adobe travaille en partenariat avec XE pour déterminer le taux de change du jour. | decimal(24,12) |
@@ -112,10 +112,10 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`mcvisid`** | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | **`mobile_id`** | Si l’utilisateur ou l’utilisatrice a recours à un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. Valeur de clé pour la [recherche dynamique](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
 | **`mobileaction`** | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans Mobile Services. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
-| **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant : `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant : `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | Utilisé dans le connecteur de données Aptelignent. L’identifiant d’application utilisé dans Apteligent. | varchar(255) |
 | **`mobileappperformancecrashid`** | Utilisé dans le connecteur de données Aptelignent. L’identifiant de plantage utilisé dans Apteligent. | varchar(255) |
-| **`mobileappstoreobjectid`** | Utilisé dans le connecteur de données AppFigures. ID d’objet de la boutique d’applications. | varchar(255) |
+| **`mobileappstoreobjectid`** | Utilisé dans le connecteur de données AppFigures. Identifiant de l’objet de la boutique d’applications. | varchar(255) |
 | **`mobilebeaconmajor`** | Relais Mobile Services majeur | varchar(100) |
 | **`mobilebeaconminor`** | Relais Mobile Services mineur | varchar(100) |
 | **`mobilebeaconproximity`** | Proximité du relais Mobile Services | varchar(255) |
