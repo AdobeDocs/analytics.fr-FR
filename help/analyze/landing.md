@@ -5,15 +5,15 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2168'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Page de destination dʼAdobe Analytics
 
-La page d’entrée d’Adobe Analytics rassemble les deux [!DNL Analysis Workspace] et [!DNL Reports & Analytics] (fin de vie) dans une seule interface et un point d’accès sous [!DNL Workspace] parapluie. Elle comprend une page dʼaccueil pour le gestionnaire de projet, un menu de rapports mis à jour, des rapports modernisés et une section dʼapprentissage pour faciliter votre prise en main. Voici une présentation vidéo :
+La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] et [!DNL Reports & Analytics] (devenus obsolètes) en une interface et un point dʼaccès uniques sous la bannière [!DNL Workspace]. Elle comprend une page dʼaccueil pour le gestionnaire de projet, un menu de rapports mis à jour, des rapports modernisés et une section dʼapprentissage pour faciliter votre prise en main. Voici une présentation vidéo :
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -43,7 +43,7 @@ La page d’entrée d’Adobe Analytics rassemble les deux [!DNL Analysis Worksp
 ### Terminologie
 
 * Les **[!UICONTROL projets]** sont des conceptions personnalisées qui combinent les composants de données, les tableaux et les visualisations que vous avez créés ou que quelqu’un d’autre a créés et partagés avec vous. Les [!UICONTROL projets] font également référence aux projets vierges et aux fiches dʼévaluation mobiles vierges.
-* **[!UICONTROL Rapports]** fait référence à tout élément précompilé par Adobe, tel que les modèles dans Workspace.
+* Les **[!UICONTROL rapports]** font référence à tout élément préconfiguré par Adobe, tel que les modèle dans Workspace.
 * Le terme **[!UICONTROL Modèles]** nʼest plus employé pour les projets d’espace de travail préconfigurés dʼAdobe. Les modèles se trouvent désormais sous [!UICONTROL Rapports]. Le terme [!UICONTROL Modèles] désigne toujours les modèles créés par votre entreprise.
 
 ## Accédez à lʼonglet [!UICONTROL Projets] {#navigate-projects}
@@ -60,7 +60,7 @@ Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espac
 | --- | --- |
 | Modifier les préférences | Permet dʼ[!UICONTROL afficher les tutoriels] et de [Modifier les préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Créer] | Ouvre la fenêtre modale du projet dans laquelle vous pouvez créer un projet Workspace ou une carte de performance mobile ou ouvrir un modèle d’entreprise. |
-| [!UICONTROL Afficher moins<br> Afficher plus] | Active/désactive l’affichage de la bannière entre : ![Bannière supérieure](assets/top-banner.png) |
+| [!UICONTROL Afficher moins<br> Afficher plus] | Active/désactive lʼaffichage de la ![bannière supérieure](assets/top-banner.png). |
 | [!UICONTROL Projet Espace de travail] | Crée un [projet Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) vierge que vous pouvez concevoir et développer. |
 | [!UICONTROL Carte de performance mobile] | Crée une [carte de performance mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) vierge que vous pouvez concevoir et développer. |
 | [!UICONTROL Ouvrir le tutoriel de formation] | Ouvre le tutoriel de formation Workspace qui vous guide tout au long du processus de création d’un projet de démarrage dans un tutoriel détaillé. |
@@ -114,9 +114,9 @@ Lʼonglet [!UICONTROL Rapports] regroupe trois jeux de rapports :
 
 ![Onglet Rapports](assets/reports-tab2.png)
 
-Pour plus d’informations sur l’onglet Rapports d’Analysis Workspace, notamment sur l’affichage et l’enregistrement des rapports, voir [Utilisation de rapports prédéfinis](/help/analyze/analysis-workspace/reports/use-reports.md).
+Pour plus d’informations sur l’onglet Rapports d’Analysis Workspace, notamment sur l’affichage et l’enregistrement des rapports, voir [Utiliser les rapports préconfigurés](/help/analyze/analysis-workspace/reports/use-reports.md).
 
-Pour plus d’informations sur la création et la gestion de rapports d’entreprise personnalisés, voir [Création et gestion des rapports d’entreprise](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+Pour plus d’informations sur la création et la gestion de rapports d’entreprise personnalisés, voir [Créer et gérer des rapports d’entreprise](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
 ## Utiliser l’onglet Formation {#navigate-learning}
 
@@ -159,7 +159,7 @@ Les administrateurs peuvent masquer l’onglet Rapports pour tous les utilisateu
 | --- | --- |
 | Où sont les modèles que je suis habitué à voir dans l’[!UICONTROL espace de travail] ? | Ces modèles sont regroupés sous lʼonglet [!UICONTROL Rapports]. |
 | Le travail effectué dans lʼinterface utilisateur du programme bêta est-il transposé dans lʼexpérience de production de l’[!UICONTROL espace de travail] ? | Oui, tout travail effectué dans le programme bêta est transposé dans lʼancienne/actuelle expérience de l’[!UICONTROL espace de travail]. |
-| Mes favoris Reports &amp; Analytics précédents sont-ils transférés ? | Non, ils ne sont PAS conservés. Toutefois, les favoris de projets de l’[!UICONTROL espace de travail] sont conservés. |
+| Mes favoris Reports &amp; Analytics précédents sont-ils conservés ? | Non, ils ne sont PAS conservés. Toutefois, les favoris de projets de l’[!UICONTROL espace de travail] sont conservés. |
 | Existe-t-il un nombre maximal de projets que je peux épingler ? | Non, il nʼy a pas de limite au nombre de projets que vous pouvez épingler. |
 | Les administrateurs peuvent-ils désigner cette page de destination pour leurs utilisateurs ? | Non, les administrateurs ne peuvent pas désigner la page de destination au nom des utilisateurs. Les utilisateurs individuels doivent activer eux-mêmes le bouton bascule. |
-| Sont tous des rapports qui existaient dans [!DNL Reports & Analytics] toujours disponible ? | Non, les rapports suivants ont été rendu obsolètes, en fonction des données dʼutilisation globales : <ul><li>Tous les eVars, props, événements ou classifications personnalisés<li>Mes rapports recommandés</li><li>Visiteurs uniques par heure, par jour, par semaine, par mois, par trimestre et par an</li><li>Clients uniques par jour, par semaine, par mois, par trimestre et par an</li><li>Profondeur du nom de lʼaction</li><li>Résumé du nom de lʼaction</li><li>Ajouter tableau de bord</li><li>Âge</li><li>Prise en charge de lʼaudio</li><li>Informations de facturation</li><li>Clics vers la page</li><li>Profondeur de couleur</li><li>Prise en charge des cookies</li><li>Cookies</li><li>Types de connexion</li><li>Éléments créatifs</li><li>Type de carte de crédit</li><li>Vente croisée</li><li>Entonnoirs dʼévénement personnalisés</li><li>Liens personnalisés</li><li>Identifiant client</li><li>Jour de la semaine</li><li>Nom de lʼaction dʼentrée</li><li>Nom de lʼaction de sortie</li><li>Liens de sortie</li><li>Abandon</li><li>Téléchargements de fichiers</li><li>Trouver en magasin</li><li>Chemins complets</li><li>Genre</li><li>Règle VISTA de type accès</li><li>Prise en charge des images</li><li>Java</li><li>JavaScript</li><li>Version JavaScript</li><li>Gestion des signets</li><li>Gérer les tableaux de bord</li><li>Profondeur de couleur de lʼécran</li><li>Résolutions dʼécran</li><li>Abonnements à la newsletter</li><li>Nom de lʼaction suivante</li><li>Flux du nom de lʼaction suivante</li><li>Recherches nulles</li><li>Système d’exploitation</li><li>Révision des commandes</li><li>Page de jour</li><li>Pages introuvables</li><li>PathFinder</li><li>Longueur de chemin</li><li>Nom de lʼaction précédente</li><li>Flux du nom de lʼaction précédente</li><li>Activités liées au produit</li><li>Coût du produit</li><li>Rayon du produit</li><li>Catégorie dʼinventaire du produit</li><li>Nom du produit</li><li>Évaluations du produit</li><li>Saison du produit</li><li>Partages du produit</li><li>Zooms sur le produit</li><li>Recharge</li><li>Recherches</li><li>Serveurs</li><li>Visites de page unique</li><li>Informations dʼexpédition</li><li>Hiérarchie du site</li><li>Mentions sur les réseaux sociaux</li><li>Heure</li><li>Temps passé sur le nom de lʼaction</li><li>Prise en charge de la vidéo</li><li>État des visiteurs</li></ul> |
+| Tous les rapports qui existent actuellement dans [!DNL Reports & Analytics] sont-ils toujours disponibles ? | Non, les rapports suivants ont été rendu obsolètes, en fonction des données dʼutilisation globales : <ul><li>Tous les eVars, props, événements ou classifications personnalisés<li>Mes rapports recommandés</li><li>Visiteurs uniques par heure, par jour, par semaine, par mois, par trimestre et par an</li><li>Clients uniques par jour, par semaine, par mois, par trimestre et par an</li><li>Profondeur du nom de lʼaction</li><li>Résumé du nom de lʼaction</li><li>Ajouter tableau de bord</li><li>Âge</li><li>Prise en charge de lʼaudio</li><li>Informations de facturation</li><li>Clics vers la page</li><li>Profondeur de couleur</li><li>Prise en charge des cookies</li><li>Cookies</li><li>Types de connexion</li><li>Éléments créatifs</li><li>Type de carte de crédit</li><li>Vente croisée</li><li>Entonnoirs dʼévénement personnalisés</li><li>Liens personnalisés</li><li>Identifiant client</li><li>Jour de la semaine</li><li>Nom de lʼaction dʼentrée</li><li>Nom de lʼaction de sortie</li><li>Liens de sortie</li><li>Abandon</li><li>Téléchargements de fichiers</li><li>Trouver en magasin</li><li>Chemins complets</li><li>Genre</li><li>Règle VISTA de type Accès</li><li>Prise en charge des images</li><li>Java</li><li>JavaScript</li><li>Version JavaScript</li><li>Gestion des signets</li><li>Gérer les tableaux de bord</li><li>Profondeur de couleur de lʼécran</li><li>Résolutions dʼécran</li><li>Abonnements à la newsletter</li><li>Nom de lʼaction suivante</li><li>Flux du nom de lʼaction suivante</li><li>Recherches nulles</li><li>Système d’exploitation</li><li>Révision des commandes</li><li>Page de jour</li><li>Pages introuvables</li><li>PathFinder</li><li>Longueur de chemin</li><li>Nom de lʼaction précédente</li><li>Flux du nom de lʼaction précédente</li><li>Activités liées au produit</li><li>Coût du produit</li><li>Rayon du produit</li><li>Catégorie dʼinventaire du produit</li><li>Nom du produit</li><li>Évaluations du produit</li><li>Saison du produit</li><li>Partages du produit</li><li>Zooms sur le produit</li><li>Recharge</li><li>Recherches</li><li>Serveurs</li><li>Visites de page unique</li><li>Informations dʼexpédition</li><li>Hiérarchie du site</li><li>Mentions sur les réseaux sociaux</li><li>Heure</li><li>Temps passé sur le nom de lʼaction</li><li>Prise en charge de la vidéo</li><li>État des visiteurs</li></ul> |
