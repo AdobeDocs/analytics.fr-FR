@@ -4,7 +4,7 @@ description: Générez correctement un fichier à utiliser dans les sources de d
 exl-id: 6632b970-e931-4272-a69b-c1130ad6475f
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cc25fe304d9cab3db3fa2ddd306338ff3bb88a55
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 5%
@@ -74,8 +74,8 @@ Adobe ne prend pas en charge les sources de données pour aucune autre dimension
 
 Première valeur de chaque ligne **must** soit la date. Le format de date doit être dans l’un des formats suivants :
 
-* **`MM/DD/YY/HH/mm/SS`**
-* **`MM/DD/YY`**
+* **`MM/DD/YYYY/HH/mm/SS`**
+* **`MM/DD/YYYY`**
 
 Si vous omettez les heures/minutes/secondes, l’horodatage est automatiquement défini sur 12 heures pour cette journée.
 
