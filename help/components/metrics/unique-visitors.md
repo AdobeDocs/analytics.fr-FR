@@ -4,7 +4,7 @@ description: Nombre d’ID de visiteur ou de visiteuse uniques.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ La [mesure](overview.md) « Visiteurs ou visiteuses uniques » indique le nomb
 
 Si vous utilisez l’[analyse entre appareils](../cda/overview.md), cette mesure est remplacée par la mesure [Appareils uniques](unique-devices.md).
 
-## Visiteurs uniques par jour, par semaine, par mois, par trimestre et par an
+## Visiteurs et visiteuses uniques par jour, par semaine, par mois, par trimestre et par an
 
 Analysis Workspace traite les visiteurs uniques en fonction de la granularité du rapport. Par exemple, si vous utilisez la dimension [Jour](../dimensions/day.md), vous verrez les visiteurs uniques par jour pour chaque élément de dimension. Toutefois, le total du rapport indique le nombre de visiteurs uniques dédupliqué pour la période du tableau à structure libre.
 
