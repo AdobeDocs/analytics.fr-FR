@@ -3,10 +3,11 @@ title: Adobe Analytics et les cookies de navigateur
 description: Découvrez comment les mesures de prévention du suivi affectent les cookies tiers et propriétaires définis par Adobe Analytics.
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '1981'
-ht-degree: 100%
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+workflow-type: tm+mt
+source-wordcount: '1914'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +18,7 @@ Ce document explique comment les mesures de prévention du suivi des principaux 
 ## Comment les navigateurs ont-ils limité l’utilisation des cookies ?
 
 >[!NOTE]
->[Les analyses entre appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=fr#cda) et [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr#comparing-cja-to-traditional-adobe-analytics) peuvent regrouper les cookies à l’aide d’un identifiant personnel, tel qu’un identifiant de connexion haché, si disponible.
+>[Analyses entre appareils](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=fr#cda) et [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr#comparing-cja-to-traditional-adobe-analytics) peut assembler les cookies à l’aide d’un ID de personne, tel qu’un ID de connexion haché, le cas échéant.
 
 ### Limitations des cookies tiers
 
@@ -37,19 +38,19 @@ Les cookies propriétaires sont autorisés sur tous les navigateurs principaux. 
 
 Les cookies propriétaires d’Adobe sont limités à un délai d’expiration de sept jours ou, pour les clics publicitaires qu’Apple détermine comme provenant de dispositifs de suivi, un délai d’expiration de 24 heures. Avec un délai d’expiration de sept jours, si un utilisateur visite votre site et revient dans les sept jours, alors la date d’expiration du cookie est prolongée de sept jours supplémentaires. Cependant, si un utilisateur visite votre site et revient huit jours plus tard, alors il est traité comme un nouvel utilisateur lors de la deuxième visite.
 
-Actuellement, les stratégies ITP s’appliquent à tous les cookies propriétaires définis par Adobe, que vous utilisiez le service d’identification des visiteurs ou l’identifiant Analytics hérité (cookie « s_vi »). À un moment donné, ces stratégies ne s’appliquaient qu’aux cookies définis côté client et non aux cookies définis côté serveur via une implémentation CNAME. Toutefois, en novembre 2020, ITP a été mis à jour pour s’appliquer également aux implémentations CNAME.
+Actuellement, les politiques ITP s’appliquent à tous les cookies propriétaires définis par Adobe, que vous utilisiez le service d’identification des visiteurs ou l’identifiant Analytics hérité (cookie « s_vi »). À un moment donné, ces politiques ne s’appliquaient qu’aux cookies définis côté client et non aux cookies définis côté serveur via une implémentation CNAME. Toutefois, en novembre 2020, ITP a été mis à jour pour s’appliquer également aux implémentations CNAME.
 
-#### Calendrier des modifications majeures apportées à la stratégie ITP {#ITP-timeline}
+#### Calendrier des modifications majeures apportées à la politique ITP {#ITP-timeline}
 
 * Février 2019 avec [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) : les cookies côté client étaient limités à un délai d’expiration de sept jours.
 * Avril 2019 avec [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) : les cookies côté client étaient limités à 24 heures pour les clics publicitaires lorsque le domaine référent était a) impliqué dans le suivi intersite et b) que l’URL finale contenait une chaîne de requête ou un identifiant de fragment.
 * Novembre 2020 avec [CNAME Cloaking and Bounce Tracking Defense](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/) (CNAME cloaking et défense du dispositif de suivi Bounce) : Les limitations d’ITP ont été étendues aux implémentations CNAME.
 
-Les stratégies d’ITP évoluent fréquemment. Pour connaître les dernières stratégies, voir [Prévention du suivi d’Apple dans Webkit](https://webkit.org/tracking-prevention).
+Les politiques d’ITP évoluent fréquemment. Pour connaître les dernières politiques, voir [Prévention du suivi d’Apple dans Webkit](https://webkit.org/tracking-prevention).
 
 #### Quels cookies propriétaires d’Adobe sont affectés ?
 
-Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les stratégies ITP :
+Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les politiques ITP :
 
 * [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
 * Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
@@ -74,7 +75,7 @@ Si ces restrictions affectent vos données, vous verrez :
 
 Les cookies tiers ne sont pas créés par les sites que visitent les utilisateurs.
 
-Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation des cookies tiers Analytics d’un client, les navigateurs stockent l’identifiant [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) d’Adobe en tant que cookie tiers, mais le client n’effectue des appels qu’à Adobe, et non à des domaines tiers inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
+Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation de cookies tiers Analytics d’un client, les navigateurs stockent l’Adobe. [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) ID comme cookie tiers, mais le client effectue des appels uniquement à l’Adobe, et non à des domaines tiers trop inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
 Dans les implémentations d’Analytics, les cookies tiers sont utilisés pour le suivi interdomaines et pour les cas d’utilisation publicitaire, y compris les annonces de reciblage. Les cookies tiers vous permettent d’identifier les visiteurs qui visitent différents domaines que vous possédez ou qui voient des annonces sur des sites que vous ne possédez pas.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -122,7 +123,7 @@ Le tableau suivant résume les attributs SameSite pour les cookies Analytics :
 
 Vérifiez que votre configuration JavaScript utilise HTTPS pour tous les appels aux services d’Adobe.
 
-Si votre site utilise le service d’identification des visiteurs Experience Cloud, le service redirige les appels HTTP tiers vers son point de terminaison HTTPS, ce qui peut augmenter la latence, mais signifie que vous n’êtes pas tenu de modifier votre configuration.
+Si votre site utilise le service d’identification des visiteurs Experience Cloud, le service redirige les appels HTTP tiers vers son point d’entrée HTTPS, ce qui peut augmenter la latence, mais signifie que vous n’êtes pas tenu de modifier votre configuration.
 
 #### Modifiez la valeur SameSite lorsque vous utilisez un CNAME pour plusieurs domaines {#samesite-one-cname}
 
@@ -144,7 +145,7 @@ Adobe recommande aux clients de mesurer l’impact au sein de leur propre entrep
 
       >[!NOTE]
       >
-      >Les navigateurs spécifiques affectés par ITP dépendent de si vous utilisiez une implémentation CNAME ou non. Pour plus d’informations, voir « [Calendrier des modifications majeures apportées à la stratégie ITP](#ITP-timeline) ».
+      >Les navigateurs spécifiques affectés par ITP dépendent de si vous utilisiez une implémentation CNAME ou non. Pour plus d’informations, voir « [Calendrier des modifications majeures apportées à la politique ITP](#ITP-timeline) ».
 
       ![Segment pour les visiteurs ITP](/help/technotes/assets/itp-visitor-segment.png)
 
@@ -168,11 +169,11 @@ Si votre entreprise est affectée par la prévention du suivi ITP, vous pouvez e
 
 * Créez un segment pour filtrer les utilisateurs ITP.
 
-   ![Segment pour les visiteurs non ITP](/help/technotes/assets/non-itp-visitor-segment.png)
+  ![Segment pour les visiteurs non ITP](/help/technotes/assets/non-itp-visitor-segment.png)
 
 * Créez une mesure calculée pour ajuster le gonflement connu des visiteurs.
 
-   ![Mesure calculée pour ajuster le gonflement des visiteurs](/help/technotes/assets/estimated-itp-visitors-metric.png)
+  ![Mesure calculée pour ajuster le gonflement des visiteurs](/help/technotes/assets/estimated-itp-visitors-metric.png)
 
 >[!MORELIKETHIS]
 >

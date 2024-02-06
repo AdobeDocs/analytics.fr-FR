@@ -5,10 +5,10 @@ title: Migration des visiteurs
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 62%
 
 ---
 
@@ -32,7 +32,7 @@ La migration des visiteurs vous permet de conserver les cookies d’identificati
 
 Une fois la migration des visiteurs configurée, si un utilisateur se rend sur le nouveau domaine sans cookie Identifiant visiteur, le serveur le redirige vers le nom d’hôte de collecte de données antérieur, récupère tout cookie Identifiant visiteur disponible, puis le redirige vers le nouveau domaine. Si aucun identifiant visiteur n’est trouvé sur le nom d’hôte précédent, un nouvel identifiant est généré. Cela ne se produit qu’une seule fois par visiteur.
 
-## Processus de migration des visiteurs  {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## Processus de migration des visiteurs  {#process}
 
 Les tâches nécessaires à la migration des visiteurs sont répertoriées dans le tableau suivant :
 
@@ -58,7 +58,7 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Immédiatement après avoir mis à jour le code Analytics</b> : testez votre site afin de vérifier que la redirection vers l’ancien domaine de collecte de données a bien lieu. </p> </td> 
-   <td colname="col3"> <p>Utilisez un <a href="../implement/validate/packet-monitor.md"> analyseur de paquets</a> afin de vérifier que, lorsque vous accédez à votre site pour la première fois, ou après avoir effacé les cookies, deux codes dʼétat HTTP 302 (redirection) sont placés avant le code dʼétat HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
+   <td colname="col3"> <p>Utilisez une <a href="../implement/validate/packet-monitor.md"> analyseur de paquets</a> pour vérifier que, lorsque vous accédez à votre site pour la première fois, ou après avoir nettoyé les cookies, deux codes d’état HTTP 302 (redirection) s’affichent avant le code d’état HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Pendant toute la durée de la migration</b> : faites en sorte que l’enregistrement DNS du nom d’hôte précédent reste actif. </p> </td> 
@@ -66,3 +66,10 @@ Les tâches nécessaires à la migration des visiteurs sont répertoriées dans 
   </tr> 
  </tbody> 
 </table>
+
+| Tâche | Description |
+|--- |--- |
+| Pour commencer : contactez l’assistance clientèle avec le ou les domaines que vous souhaitez migrer et la période de migration que vous souhaitez activer (30, 60 ou 90 jours). Veillez à inclure les domaines sécurisés et non sécurisés. | Créez une liste avec la syntaxe exacte des domaines à partir desquels vous souhaitez migrer.<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>Les noms d’hôte de migration sont configurés sur le serveur de collecte de données Adobe. Une fois le changement effectué, l’assistance clientèle vous en informera afin que vous puissiez planifier l’étape suivante. |
+| 6 heures ou plus après le changement de configuration : mettez à jour la variable `s.trackingServer` et `s.trackingServerSecure` dans votre code JavaScript Analytics pour utiliser les nouveaux serveurs de collecte de données. | Après avoir apporté cette modification, utilisez la variable [Débogueur Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) pour vérifier que la demande d’image Analytics est adressée au serveur de collecte de données mis à jour. |
+| Immédiatement après la mise à jour de votre code Analytics : testez votre site pour vérifier que la redirection vers le domaine de collecte de données précédent a bien lieu. | Utilisez une [analyseur de paquets](../implement/validate/packet-monitor.md) pour vérifier que, lorsque vous accédez à votre site pour la première fois, ou après avoir nettoyé les cookies, deux codes d’état HTTP 302 (redirection) s’affichent avant le code d’état HTTP 200 (OK). S’il manque l’une de ces redirections, contactez immédiatement l’assistance clientèle afin de vous assurer que la migration est correctement configurée. |
+| Pour toute la période de migration : laissez l’enregistrement DNS actif pour le nom d’hôte précédent. | Le nom d’hôte précédent doit être résolu par DNS, sans quoi la migration des cookies n’aura pas lieu. |

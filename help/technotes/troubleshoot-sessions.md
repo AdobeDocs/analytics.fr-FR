@@ -3,10 +3,10 @@ title: Sessions de dépannage dans Adobe Analytics
 description: Découvrez comment résoudre les problèmes liés à la déconnexion d’Adobe Analytics.
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 97%
+source-wordcount: '339'
+ht-degree: 99%
 
 ---
 
@@ -16,13 +16,13 @@ Cette page traite des sessions de dépannage dans le cas où vous parvenez à vo
 
 Presque tous les problèmes liés aux sessions sont liés à un réseau d’entreprise personnalisé. Si vous parvenez à vous connecter à Adobe Analytics mais pas à rester connecté, utilisez cet article pour déterminer la cause.
 
-## Problèmes liés au réseau de votre entreprise
+## Problèmes liés au réseau de votre entreprise {#network}
 
 De nombreuses entreprises déploient des fonctionnalités réseau supplémentaires pour améliorer la sécurité, telles que des serveurs proxy ou des pare-feu. Ces personnalisations peuvent parfois interférer avec la possibilité de conserver une session active dans Adobe Analytics.
 
 Pour déterminer si le réseau d’entreprise auquel vous êtes connecté engendre des problèmes lors de l’utilisation d’Adobe Analytics, utilisez vos informations de connexion Experience Cloud sur un appareil extérieur au réseau de votre entreprise. Vous pouvez par exemple utiliser votre réseau domestique ou le forfait de données d’un appareil mobile. Si vous parvenez à passer d’une page à l’autre sans être déconnecté, c’est probablement le réseau de votre entreprise qui vous déconnecte d’Adobe Analytics.
 
-## Problèmes liés au proxy
+## Problèmes liés au proxy {#proxy}
 
 Adobe utilise un en-tête d’autorisation lors de l’envoi de requêtes à Adobe. Certains proxys, tels que Edge Secure Web Gateway (anciennement Bluecoat), suppriment les informations dʼen-tête dʼautorisation importantes utilisées par Adobe Analytics. La session expire si Adobe ne voit pas l’en-tête d’autorisation.
 

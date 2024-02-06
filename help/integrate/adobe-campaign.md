@@ -1,21 +1,23 @@
 ---
-description: Découvrez comment activer la création de rapports Adobe Campaign Standard dans Adobe Analytics
-title: Comment intégrer la création de rapports Adobe Campaign Standard dans Adobe Analytics ?
+description: Découvrez comment activer le reporting Adobe Campaign Standard dans Adobe Analytics
+title: Comment intégrer des rapports Adobe Campaign Standard dans Adobe Analytics ?
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Rapports Adobe Campaign Standard
 
 Pour plus d’informations sur la configuration de cette intégration, aller à la [documentation d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Cet article s’applique à Adobe Campaign **Standard** création de rapports uniquement. Voir [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) pour ajouter Adobe Campaign **Classic** création de rapports.
+>Cet article s’applique à Adobe Campaign **Standard** rapports uniquement. Voir [here](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) pour ajouter Adobe Campaign **Classic** création de rapports.
 
 Cette intégration entre Adobe Analytics et Adobe Campaign Standard :
 
@@ -27,7 +29,7 @@ Cette intégration entre Adobe Analytics et Adobe Campaign Standard :
 * ajoute 6 nouvelles dimensions Adobe Campaign ;
 * Synchronise les données avec Analytics toutes les 15 minutes par le biais d’une source de données automatiquement configurée.
 
-## Étape 1. Activation de la création de rapports Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
+## Étape 1. Activation des rapports Adobe Campaign Standard {#section_C685EF10505045708A6536BB13F6CD58}
 
 Pour afficher les données du Campaign Standard dans Analytics, vous devez d’abord activer la création de rapports Campaign dans le Gestionnaire de suites de rapports.
 
@@ -40,7 +42,7 @@ Pour afficher les données du Campaign Standard dans Analytics, vous devez d’a
 
 L’intégration entre Adobe Campaign Standard et Adobe Analytics ajoute le rapport suivant sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**
 
-* **[!UICONTROL Adobe Campaign Identifiant Diffusion exécutée]**: Affiche les données importées d’Adobe Campaign relatives aux e-mails envoyés depuis Adobe Campaign. |
+* **[!UICONTROL Adobe Campaign Identifiant Diffusion exécutée]**: affiche les données importées d’Adobe Campaign au sujet des emails envoyés depuis Adobe Campaign. |
 
 ## Étape 3. Utiliser les classifications Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -51,9 +53,9 @@ Une fois votre suite de rapports activée pour Adobe Campaign, les classificati
 | En-tête | Description |
 | --- | --- |
 | [!UICONTROL Identifiant de la diffusion] | Nom de la diffusion interne affiché dans Campaign |
-| [!UICONTROL Libellé de diffusion] | Diffusion dans Campaign - Diffusion individuelle/diffusion récurrente/diffusion de transactions |
+| [!UICONTROL Libellé de la diffusion] | Diffusion dans Campaign - Diffusion individuelle/diffusion récurrente/diffusion de transactions |
 | [!UICONTROL ID de campagne] | Nom de campagne interne que vous voyez dans Campaign |
-| [!UICONTROL Libellé de la campagne] | Campaign dans Adobe Campaign |
+| [!UICONTROL Libellé de campagne] | Campaign dans Adobe Campaign |
 | [!UICONTROL Libellé de la diffusion exécutée] | Liste des diffusions individuelles exécutées |
 
 ## Dimensions et mesures Adobe Campaign Standard disponibles dans Adobe Analytics {#section_F33385C9660644AF84172EC39601469B}
