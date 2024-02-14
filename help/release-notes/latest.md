@@ -3,48 +3,48 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: 55c08fd64b2fbac0e21af10896773c2530fa64a8
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 42%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (janvier 2024)
+# Notes de mise à jour actuelles d’Adobe Analytics (février 2024)
 
-**Dernière mise à jour** : 10 janvier 2024
+**Dernière mise à jour** : le jeudi 14 février 2024
 
-Ces notes de mise à jour portent sur la période de janvier 2024 au 13 février 2024. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 14 février 2024 au 11 mars 2024. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Mises à jour de Data Warehouse** | Les améliorations suivantes de Data Warehouse sont maintenant disponibles :<ul><li>Lors de la création d’une requête Data Warehouse, les utilisateurs et utilisatrices peuvent désormais mettre les requêtes à la disposition de toutes les personnes de l’organisation en activant le nouveau bouton [!UICONTROL **Rendre disponibles aux personnes de votre organisation**].<p>Pour plus d’informations, voir [Paramètres généraux des requêtes Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>Lors de la création ou de la gestion des destinations des rapports Data Warehouse, les administrateurs et administratrices système peuvent désormais afficher les comptes et emplacements créés par les personnes de l’entreprise en activant le bouton (bascule) [!UICONTROL **Afficher toutes les destinations**].<p>Pour plus d’informations, voir [Configuration d’une destination de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | S.O. | 10 janvier 2024 |
-| **Mises à jour de la visualisation du résumé des mesures clés** | Avec la visualisation du résumé des mesures clés, la période de comparaison peut désormais se mettre à jour automatiquement, selon que l’option Période de comparaison que vous choisissez est relative à la période principale ou fixe. [En savoir plus](/help/analyze/analysis-workspace/visualizations/key-metric.md). | S.O. | 17 janvier 2024 |
+| **Activity Map pour SDK Web sans frais supplémentaires** | Actuellement, les événements de lien de Activity Map sont comptabilisés comme leurs propres événements et engendrent des coûts supplémentaires. Cette amélioration applique certains événements de lien et les regroupe dans l’accès suivant, comme la manière dont les événements sont gérés par AppMeasurement. |  | jeudi 14 février 2024 |
+| **Augmentation des seuils de faible trafic par défaut** | Dans **mi-avril 2024**, Adobe commencera à augmenter les seuils de faible trafic de la suite de rapports par défaut comme suit : ![seuils de faible trafic](assets/thresholds.png) Cela n&#39;aura d&#39;impact que sur les variables actuellement définies sous les nouveaux seuils. Ces modifications seront apportées de manière incrémentielle. Nous prévoyons que les travaux soient terminés par le **fin mai**. Au fur et à mesure que ces augmentations sont déployées, vous remarquerez peut-être des modifications pour les variables de cardinalité élevée :<ul><li>D’autres valeurs de dimension peuvent être disponibles pour la création de rapports.</li><li>Les segments et les mesures calculées peuvent inclure davantage de données.</li><li>Les suites de rapports virtuelles basées sur des segments peuvent inclure davantage de données.</li></ul> | Mid avril 2024 | Fin mai 2024 |
 
 {style="table-layout:auto"}
 
 ## Correctifs dans Adobe Analytics
 
-* Résolution des problèmes de classification suivants : AN-314821 ; AN-326839 ; AN-332079 ; AN-332704 ; AN-332812 ; AN-332902 ; AN-332975 ; AN-333300 ; AN-333023 ; AN-333033 ; AN-333174 ; AN-333910 ; AN-334097 ; AN-334208 ; AN-334373 ; AN-334439 ; AN-334698 ; AN-334838 ; AN-334848 ; AN-334987 ; AN-335046 ; AN-335082 ; AN-335202 ; AN-335203 ; AN-335254 ; AN-335322 ; AN-335552 ; AN-335591 ; AN-335603 ; AN-335610 ; AN-335617 ; AN-335699 ; AN-335891 ; AN-335901 ; AN-336063 ; AN-336072 ; AN-336193 ; AN-336479 ; AN-336684 ; AN-336801 ; AN-337370 ; AN-337398
-* Résolution des problèmes suivants du créateur de règles de classification : AN-332390 ; AN-332573 ; AN-332718 ; AN-332927 ; AN-333248 ; AN-333953 ; AN-334647 ; AN-334736 ; AN-334910 ; AN-335642 ; AN-335683 ; AN-335811 ; AN-336033 ; AN-336569 ; AN-336852 ; AN-336875 ; AN-336902 ; AN-337190
-* Résolution des problèmes A4T suivants : AN-334564 ; AN-336178
-* Résolution des problèmes suivants d’utilisation de l’appel au serveur : AN-332568 ; AN-333105 ; AN-333167 ; AN-333983 ; AN-334209 ; AN-334278
-* Résolution des problèmes Data Warehouse suivants : AN-333010 ; AN-333076 ; AN-330227 ; AN-331580 ; AN-333350 ; AN-334291 ; AN-334283 ; AN-334287 ; AN-334301 ; AN-334385 ; AN-334453 ; AN-334977 ; AN-335079 ; AN-335171 ; AN-335245 ; AN-335426 ; AN-335680 ; AN-335818 ; AN-336087 ; AN-337308
-* Résolution des problèmes de flux de données suivants : AN-332241 ; AN-332366 ; AN-332617 ; AN-332654 ; AN-332702 ; AN-332723 ; AN-333014 ; AN-333166 ; AN-334037 ; AN-334125 ; AN-334211 ; AN-334216 ; AN-334235 ; AN-334976 ; AN-335158 ; AN-335368 ; AN-335408 ; AN-335468 ; AN-335471 ; AN-335528 ; AN-335596 ; AN-335662 ; AN-335733 ; AN-335883 ; AN-335894 ; AN-335968 ; AN-336098 ; AN-336192 ; AN-336243 ; AN-336659 ; AN-336977 ; AN-337117 ; AN-337219 ; AN-337262 ; AN-337393 ; AN-337462 ; AN-337854
-* Résolution des problèmes de Report Builder suivants : AN-335246 ; AN-336311
-* Résolution des problèmes Analysis Workspace suivants : AN-323760 ; AN-324191 ; AN-324913 ; AN-330126 ; AN-332808 ; AN-333168 ; AN-333382 ; AN-334839 ; AN-336040 ; AN-337043
+* Correction des problèmes de classifications suivants : AN-319515 ; AN-337559 ; AN-338149 ; AN-338702 ; AN-338769 ; AN-338891 ; AN-339327 ; AN-339649 ; AN-339668 ; AN-339669 ; AN-; AN-339776 ; AN-339822 ; AN- ; AN-; AN- ; AN-;
+* Correction des problèmes suivants du Créateur de règles de classifications : AN-338385 ; AN-338399 ; AN-338592 ; AN-338810 ; AN-338893 ; AN-339431 ; AN-339894 ; AN-339933 ; AN-340201 ; AN-340309 ;
+* Correction des problèmes A4T suivants : AN-334830 ; AN-336194 ; AN-338309 ; AN-338650 ;
+* Correction du problème de collecte de données suivant : AN-339323
+* Correction des problèmes de Data Warehouse suivants : AN-335542 ; AN-331425 ; AN-337215 ; AN-338445 ; AN-338643 ; AN-338651 ; AN-339461 ; AN-340066 ; AN-340207 ; AN-340460
+* Correction des problèmes de flux de données suivants : AN-335952 ; AN-338653 ; AN-339508 ; AN-339681 ; AN-340418
+* Correction des problèmes de sources de données suivants : AN-338648
+* Correction des problèmes Analysis Workspace suivants : AN-326509 ; AN-336186 ; AN-336190 ; AN-336309 ; AN-337922 ; AN-338094 ; AN-338323 ; AN-338556 ; AN-339600 ; AN-340445
 
-### Autres correctifs
+### Autres correctifs d’Analytics
 
-AN-323975 ; AN-325383 ; AN-325809 ; AN-326787 ; AN-331611 ; AN-331818 ; AN-332124 ; AN-332272 ; AN-332911 ; AN-333070 ; AN-333302 ; AN-333377 ; AN-333904 ; AN-333928 ; AN-333968 ; AN-334056 ; AN-334099 ; AN-334191 ; AN-334207 ; AN-334776 ; AN-335206 ; AN-335294 ; AN-335320 ; AN-335394 ; AN-335443 ; AN-335967 ; AN-336099 ; AN-337452 ; AN-337463
+AN-328239; AN-332908; AN-335449; AN-335517; AN-336075; AN-336100; AN-336128; AN-338088; AN-338270; AN-; AN-338393; AN-338494; AN-339326; AN-; AN-; AN-; AN-; AN-; AN-2; AN-2;
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| Ajout de membres aux objets d’API Adobe | 17 janvier 2024 | Adobe peut ajouter des membres de requête et de réponse facultatifs (paires nom/valeur) aux objets d’API existants sans préavis ni modification du contrôle de version. Ces ajouts doivent constituer des modifications sans ruptures pour votre mise en œuvre. Adobe vous recommande de vous référer à la documentation de l’API de tout outil tiers que vous intégrez à nos API, afin que ces ajouts soient ignorés dans le traitement s’ils ne sont pas compris. Adobe ne supprimera pas de paramètres ni n’ajoutera de paramètres requis sans d’abord fournir une notification standard via les notes de mise à jour. |
+| Ajout de membres aux objets d’API Adobe | 17 janvier 2024 | Adobe peut ajouter des membres de requête et de réponse facultatifs (paires nom/valeur) aux objets API existants à tout moment et sans préavis ni modification du contrôle de version. Adobe vous recommande de vous référer à la documentation de l’API de tout outil tiers que vous intégrez à nos API afin que ces ajouts soient ignorés dans le traitement, s’ils ne sont pas compris. S’ils sont correctement implémentés, ces ajouts sont des modifications incessantes pour votre mise en oeuvre. Adobe ne supprimera pas de paramètres ni n’ajoutera de paramètres requis sans d’abord fournir une notification standard via les notes de mise à jour. |
 | Plug-in `getPageLoadTime` obsolète | 10 janvier 2024 | Ce plug-in n’est plus pris en charge. Son code utilise la méthode performance.timing, qui (selon MDN) est à présent [obsolète](https://developer.mozilla.org/fr-FR/docs/Web/API/PerformanceTiming). Le travail sur un plug-in mis à jour a commencé. |
 
 {style="table-layout:auto"}
@@ -53,9 +53,6 @@ AN-323975 ; AN-325383 ; AN-325809 ; AN-326787 ; AN-331611 ; AN-331818 ; AN
 
 | Produit ou fonctionnalité en fin de vie | Date d’ajout ou de mise à jour | Description |
 | --- | --- | --- |
-| **Fin de vie de [!DNL Reports & Analytics]** | 10 janvier 2024 | Depuis le **17 janvier 2024**, Adobe a abandonné [!DNL Reports & Analytics] et ses rapports et fonctionnalités associés. [!DNL Reports & Analytics] sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de [!DNL Reports & Analytics] sont disponibles dans [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr). Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de [!DNL Reports & Analytics] ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. [Cet avis](https://spark.adobe.com/page/6WnF8JK6IRDhf/) décrit le processus de fin de vie.<p>Le 17 janvier 2024, nous avons mis fin à de nombreuses fonctionnalités Reports &amp; Analytics associées, notamment : Rapports planifiés, Extractions de données et Rapports DL. Depuis le 17 janvier 2024, les rapports planifiés ne sont plus envoyés. En outre, vous ne pouvez plus planifier les rapports ultérieurs au-delà du 17 janvier 2024. |
-| **Abandon de la fonctionnalité [!UICONTROL Listes de publication]** | 10 janvier 2024 | Dans le cadre de la fin de vie de Reports &amp; Analytics, les [!UICONTROL listes de publication] ont atteint leur fin de vie le **17 janvier 2024**. Vous ne pouvez plus créer de [!UICONTROL listes de publication] ou y accéder pour envoyer ou planifier des projets [!UICONTROL Analysis Workspace]. |
-| **Fin de vie de Data Workbench** | 2 janvier 2024 | Adobe a l’intention d’abandonner Data Workbench à compter du **31 décembre 2023**. Consultez l’[annonce de fin de vie du Data Workbench](https://express.adobe.com/page/GSu6oKOD88GAj/) pour plus d’informations. Contactez le gestionnaire de compte Adobe de votre entreprise pour toute question. |
 | **Migration vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O** | 11 mai 2023 | Les clients et clientes de l’API Adobe Analytics et de Livestream qui utilisent les informations d’identification JWT d’Adobe I/O doivent migrer vers les informations d’identification de serveur à serveur OAuth d’Adobe I/O avant le **1er janvier 2025**. Adobe I/O n’autorisera pas la création d’informations d’identification JWT à compter du 1er mai 2024. Les clients et clientes utilisant JWT doivent créer des informations d’identification de serveur à serveur OAuth ou migrer leurs informations d’identification JWT existantes vers des informations d’identification de serveur à serveur OAuth. Ils ou elles doivent également mettre à jour leurs applications clientes afin d’utiliser les nouvelles informations d’identification de serveur à serveur OAuth. <ul><li>[Migration des informations d’identification du compte de service (JWT)](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[Guide de mise en œuvre pour les nouvelles et les anciennes applications avec OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[Utilisation des nouvelles informations d’identification de serveur à serveur OAuth](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[Questions fréquentes](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
