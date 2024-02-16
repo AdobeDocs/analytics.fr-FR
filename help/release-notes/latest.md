@@ -3,9 +3,9 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
+source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '722'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Ces notes de mise à jour portent sur la période du 14 février 2024 au 11 mars
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Activity Map pour SDK Web sans frais supplémentaires** | Actuellement, les événements de lien de Activity Map sont comptabilisés comme leurs propres événements et engendrent des coûts supplémentaires. Cette amélioration applique certains événements de lien et les regroupe dans l’accès suivant, comme la manière dont les événements sont gérés par AppMeasurement. |  | jeudi 6 mars 2024 |
-| **Augmentation des seuils de faible trafic par défaut** | Dans **mi-avril 2024**, Adobe commencera à augmenter les seuils de faible trafic de la suite de rapports par défaut comme suit : ![seuils de faible trafic](assets/thresholds.png) Cela n&#39;aura d&#39;impact que sur les variables actuellement définies sous les nouveaux seuils. Ces modifications seront apportées de manière incrémentielle. Nous prévoyons que les travaux soient terminés par le **fin mai**. Au fur et à mesure que ces augmentations sont déployées, vous remarquerez peut-être des modifications pour les variables de cardinalité élevée :<ul><li>D’autres valeurs de dimension peuvent être disponibles pour la création de rapports.</li><li>Les segments et les mesures calculées peuvent inclure davantage de données.</li><li>Les suites de rapports virtuelles basées sur des segments peuvent inclure davantage de données.</li></ul> | Mid avril 2024 | Fin mai 2024 |
+| **Augmentation des seuils de faible trafic par défaut** | Dans **mi-avril 2024**, Adobe commencera à augmenter les seuils de faible trafic de la suite de rapports par défaut comme suit : ![seuils de faible trafic](assets/thresholds.png) Cela n&#39;aura d&#39;impact que sur les variables actuellement définies sous les nouveaux seuils. Ces modifications seront apportées de manière incrémentielle. Nous prévoyons que les travaux soient terminés par le **fin mai**. Au fur et à mesure que ces augmentations sont déployées, vous remarquerez peut-être des modifications pour les variables de cardinalité élevée :<ul><li>D’autres valeurs de dimension peuvent être disponibles pour la création de rapports.</li><li>Les segments et les mesures calculées peuvent inclure davantage de données.</li><li>Les suites de rapports virtuelles basées sur des segments peuvent inclure davantage de données.</li><li>Les exportations de classifications peuvent inclure davantage de données.</li></ul> | Mid avril 2024 | Fin mai 2024 |
 
 {style="table-layout:auto"}
 
