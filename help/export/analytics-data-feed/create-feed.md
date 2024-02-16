@@ -3,10 +3,10 @@ title: Création d’un flux de données
 description: Découvrez comment créer un flux de données.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 20%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -59,7 +59,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
    Utilisez l’un des types de destination suivants lors de la création d’un flux de données. Pour obtenir des instructions sur la configuration, développez le type de destination. (Additional [destinations héritées](#legacy-destinations) sont également disponibles, mais ne sont pas recommandées.)
 
-   +++Amazon S3
+   +++Amazon S3
 
    Il est possible d’envoyer des flux directement vers des compartiments Amazon S3. Ce type de destination nécessite uniquement votre compte Amazon S3 et l’emplacement (compartiment).
 
@@ -94,18 +94,18 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Nom du compte**] | Nom du compte. Il peut s’agir de n’importe quel nom de votre choix. |
          | [!UICONTROL **Description du compte**] | Description du compte. |
          | [!UICONTROL **ARN du rôle**] | Vous devez fournir un Rôle ARN (nom de ressource Amazon) que l’Adobe peut utiliser pour accéder au compte Amazon S3. Pour ce faire, vous créez une stratégie d’autorisation IAM pour le compte source, vous la joignez à un utilisateur, puis vous créez un rôle pour le compte de destination. Pour plus d’informations, voir [cette documentation AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **ARN de l’utilisateur ou de l’utilisatrice**] | Le User ARN (nom de ressource Amazon) est fourni par Adobe. Vous devez associer cet utilisateur à la stratégie que vous avez créée. |
+         | [!UICONTROL **Informations sur l’utilisateur**] | Le User ARN (nom de ressource Amazon) est fourni par Adobe. Vous devez associer cet utilisateur à la stratégie que vous avez créée. |
 
          {style="table-layout:auto"}
 
-         1. Sélectionner [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
+      1. Sélectionner [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
          | [!UICONTROL **Nom**] | Nom du compte. |
          | [!UICONTROL **Description**] | Description du compte. |
-         | [!UICONTROL **Compartiment**] | Le compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que le User ARN fourni par Adobe a accès aux fichiers de chargement vers ce compartiment. |
-         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Intervalle**] | Le compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que le fichier de l’utilisateur fourni par Adobe comporte la variable `S3:PutObject` pour transférer des fichiers vers ce compartiment. Cette autorisation permet à User ARN de charger les fichiers initiaux et de remplacer les fichiers pour les chargements suivants.</p> |
+         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -115,7 +115,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
 +++
 
-   +++RBAC Azure
+   +++Azure RBAC
 
    Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification RBAC. Ce type de destination nécessite un ID d’application, un ID de tenant et un secret.
 
@@ -151,8 +151,8 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          |---------|----------|
          | [!UICONTROL **Nom du compte**] | Nom du compte Azure RBAC. Ce nom s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **Description du compte**] | Description du compte Azure RBAC. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
-         | [!UICONTROL **ID d’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **ID de cliente ou client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **ID de l’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Identifiant du client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **Secret**] | Copiez le secret de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -165,7 +165,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Description**] | Description de l’emplacement. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un emplacement**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **Compte**] | Compte de stockage Azure. |
          | [!UICONTROL **Conteneur**] | Conteneur dans le compte que vous avez spécifié à l’emplacement où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous d’accorder les autorisations de chargement de fichiers vers l’application Azure que vous avez créée précédemment. |
-         | [!UICONTROL **Préfixe**] | Le dossier du conteneur dans lequel vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Préfixe**] | Le dossier du conteneur dans lequel vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -175,7 +175,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
 +++
 
-   +++SAS Azure
+   +++Azure SAS
 
    Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification SAS. Ce type de destination nécessite un ID d’application, un ID de tenant, un URI de coffre de clé, un nom de secret de coffre de clé et un secret.
 
@@ -211,10 +211,10 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          |---------|----------|
          | [!UICONTROL **Nom du compte**] | Nom du compte Azure SAS. Ce nom s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **Description du compte**] | Description du compte Azure SAS. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un compte**] et peut être n’importe quel nom de votre choix. |
-         | [!UICONTROL **ID d’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **ID de cliente ou client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault afin d’accorder l’autorisation sur l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une stratégie d’accès Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **Nom secret du coffre de clés**] | Le nom du secret que vous avez créé lors de l’ajout du secret au Key Vault Azure. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page **Key Vault** des pages de paramètres. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **ID de l’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Identifiant du client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **URI du coffre-fort**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault afin d’accorder l’autorisation sur l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une stratégie d’accès Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **Nom du secret de sécurité**] | Le nom du secret que vous avez créé lors de l’ajout du secret au Key Vault Azure. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page **Key Vault** des pages de paramètres. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Secret**] | Copiez le secret de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
@@ -226,7 +226,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
          | [!UICONTROL **Nom**] | Nom de l’emplacement. Ce nom s’affiche dans la variable [!UICONTROL **Sélectionner un emplacement**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **Description**] | Description de l’emplacement. Cette description s’affiche dans la variable [!UICONTROL **Sélectionner un emplacement**] et peut être n’importe quel nom de votre choix. |
          | [!UICONTROL **Conteneur**] | Conteneur dans le compte que vous avez spécifié à l’emplacement où vous souhaitez que les données Adobe Analytics soient envoyées. |
-         | [!UICONTROL **Préfixe**] | Le dossier du conteneur dans lequel vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Préfixe**] | Le dossier du conteneur dans lequel vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
 +++
 
-   +++Google Cloud Platform
+   +++Google Cloud Platform
 
    Vous pouvez envoyer des flux directement aux compartiments Google Cloud Platform (GCP). Ce type de destination nécessite uniquement le nom de votre compte GCP et le nom de l’emplacement (compartiment).
 
@@ -274,15 +274,15 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
 
          {style="table-layout:auto"}
 
-         1. Sélectionner [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
+      1. Sélectionner [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
          | [!UICONTROL **Principal**] | L’entité de sécurité est fournie par Adobe. Vous devez accorder l’autorisation de recevoir des flux vers cette entité. |
          | [!UICONTROL **Nom**] | Nom du compte. |
          | [!UICONTROL **Description**] | Description du compte. |
-         | [!UICONTROL **Compartiment**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que vous avez autorisé l’entité de sécurité fournie par Adobe pour charger des fichiers dans ce compartiment. |
-         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier.   Par exemple : `folder_name/` |
+         | [!UICONTROL **Intervalle**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que vous avez accordé l’une des autorisations suivantes au Principal fourni par Adobe :<ul><li>`roles/storage.objectCreator`: utilisez cette autorisation si vous souhaitez limiter l’entité de sécurité à créer uniquement des fichiers dans votre compte GCP. </br>**Important :** Si vous utilisez cette autorisation avec les rapports planifiés, vous devez utiliser un nom de fichier unique pour chaque nouvelle exportation planifiée. Sinon, la génération du rapport échouera, car l’entité de sécurité n’a pas accès pour remplacer les fichiers existants.</li><li>(Recommandé) `roles/storage.objectUser`: utilisez cette autorisation si vous souhaitez que l’entité de sécurité ait accès à l’affichage, la liste, la mise à jour et la suppression des fichiers dans votre compte GCP.</br>Cette autorisation permet à l’entité de sécurité d’écraser les fichiers existants pour les chargements ultérieurs, sans avoir à générer automatiquement des noms de fichier uniques pour chaque nouvelle exportation planifiée.</li></ul><p>Pour plus d’informations sur l’octroi d’autorisations, voir [Ajout d’une entité à une stratégie de niveau compartiment](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) dans la documentation de Google Cloud.</p> |
+         | [!UICONTROL **Préfixe**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, `folder_name/` |
 
          {style="table-layout:auto"}
 
@@ -297,13 +297,13 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Suppression des caractères avec échappement**] | Lors de la collecte de données, certains caractères (comme les sauts de lignes) peuvent entraîner des problèmes. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux. |
-   | [!UICONTROL **Format de compression**] | Type de compression utilisé. **** Fichiers de sortie Gzip au format `.tar.gz`. **** Fichiers de sortie Zip au format `.zip`. |
-   | [!UICONTROL **Type de groupement**] | Sélectionner **Fichiers multiples** pour la plupart des flux de données. Cette option pagine vos données en blocs de 2 Go non compressés. (Si vous avez sélectionné plusieurs fichiers, mais que la taille des données non compressées pour la fenêtre de création de rapports est inférieure à 2 Go, un seul fichier est envoyé.) Sélection **Un seul fichier** génère la `hit_data.tsv` dans un seul fichier potentiellement massif. |
+   | [!UICONTROL **Format de compression**] | Type de compression utilisé. **Gzip** fichiers de sortie dans `.tar.gz` format. **Zip** fichiers de sortie dans `.zip` format. |
+   | [!UICONTROL **Type de groupement**] | Sélectionner **Fichiers multiples** pour la plupart des flux de données. Cette option pagine vos données en blocs de 2 Go non compressés. (Si plusieurs fichiers sont sélectionnés et que les données non compressées de la fenêtre de création de rapports sont inférieures à 2 Go, un seul fichier est envoyé.) Sélection **Un seul fichier** génère la `hit_data.tsv` dans un seul fichier potentiellement massif. |
    | [!UICONTROL **Manifeste**] | Si l’Adobe doit ou non diffuser une [fichier manifeste](c-df-contents/datafeeds-contents.md#feed-manifest) à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Modèles de colonne**] | Lors de la création de nombreux flux de données, Adobe recommande de créer un modèle de colonne. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut. |
    | [!UICONTROL **Colonnes disponibles**] | Toutes les colonnes de données disponibles dans Adobe Analytics. Cliquez sur [!UICONTROL Toujours ajouter] pour inclure toutes les colonnes d’un flux de données. |
    | [!UICONTROL **Colonnes incluses**] | Les colonnes à inclure dans un flux de données. Cliquez sur [!UICONTROL Tout supprimer] pour supprimer toutes les colonnes d’un flux de données. |
-   | [!UICONTROL **Télécharger CSV**] | Télécharge un fichier CSV contenant toutes les colonnes incluses. |
+   | [!UICONTROL **Téléchargement de fichier CSV**] | Télécharge un fichier CSV contenant toutes les colonnes incluses. |
 
 1. Sélectionner [!UICONTROL **Enregistrer**] en haut à droite.
 

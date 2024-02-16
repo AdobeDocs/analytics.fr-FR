@@ -3,9 +3,9 @@ description: Description de la procédure de création d’une demande Data Ware
 title: Configuration d’une destination de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       | Champ | Fonction |
       |---------|----------|
-      | [!UICONTROL **Nom du compartiment**] | Le compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que le User ARN fourni par Adobe a accès aux fichiers de chargement vers ce compartiment. |
+      | [!UICONTROL **Nom du compartiment**] | Le compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que le fichier de l’utilisateur fourni par Adobe comporte la variable `S3:PutObject` pour transférer des fichiers vers ce compartiment. Cette autorisation permet à User ARN de charger les fichiers initiaux et de remplacer les fichiers pour les chargements suivants.</p> |
       | [!UICONTROL **Préfixe de clé**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse sont
 
       | Champ | Fonction |
       |---------|----------|
-      | [!UICONTROL **Nom du compartiment**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que vous avez autorisé l’entité de sécurité fournie par Adobe pour charger des fichiers dans ce compartiment. Pour plus d’informations sur l’octroi d’autorisations, voir [Ajout d’une entité à une stratégie de niveau compartiment](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) dans la documentation de Google Cloud. |
+      | [!UICONTROL **Nom du compartiment**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que vous avez accordé l’une des autorisations suivantes au Principal fourni par Adobe :<ul><li>`roles/storage.objectCreator`: utilisez cette autorisation si vous souhaitez limiter l’entité de sécurité à créer uniquement des fichiers dans votre compte GCP. </br>**Important :** Si vous utilisez cette autorisation avec les rapports planifiés, vous devez utiliser un nom de fichier unique pour chaque nouvelle exportation planifiée. Sinon, la génération du rapport échouera, car l’entité de sécurité n’a pas accès pour remplacer les fichiers existants.</li><li>`roles/storage.objectUser`: utilisez cette autorisation si vous souhaitez que l’entité de sécurité ait accès à l’affichage, la liste, la mise à jour et la suppression des fichiers dans votre compte GCP.</br>Cette autorisation permet à l’entité de sécurité d’écraser les fichiers existants pour les chargements ultérieurs, sans avoir à générer automatiquement des noms de fichier uniques pour chaque nouvelle exportation planifiée.</li></ul><p>Pour plus d’informations sur l’octroi d’autorisations, voir [Ajout d’une entité à une stratégie de niveau compartiment](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) dans la documentation de Google Cloud.</p> |
       | [!UICONTROL **Préfixe de clé**] | Le dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
       {style="table-layout:auto"}
