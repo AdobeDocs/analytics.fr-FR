@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '5095'
-ht-degree: 99%
+source-wordcount: '5161'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Février 2024** | |
+| Mises à jour de la documentation sur le partage de projet | Ajout d’informations sur la procédure à suivre [Affichage des projets partagés](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>Informations également simplifiées sur [partage de projets individuels ou multiples](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
+| Ajout d’exigences d’autorisation pour le chargement de fichiers vers Azure SAS et Azure RBAC dans Data Warehouse et les flux de données. | Ajout d’exigences d’autorisation exactes pour le chargement de fichiers vers Azure SAS et Azure RBAC lors de l’ajout de [configuration des destinations pour Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) et [lors de la configuration de destinations pour les flux de données](/help/export/analytics-data-feed/create-feed.md). |
 | Ajout d’exigences d’autorisation pour le transfert de fichiers vers des compartiments Amazon S3 et GCP dans Data Warehouse et les flux de données | Ajout d’exigences d’autorisation exactes pour le transfert de fichiers vers les compartiments Amazon S3 et Google Cloud Platform lors de la [configuration des destinations pour Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) et [lors de la configuration de destinations pour les flux de données](/help/export/analytics-data-feed/create-feed.md). |
 | **Janvier 2024** | |
 | La migration des composants s’applique aux organisations IMS individuelles. | Clarification de la non prise en charge de la migration inter-organisation IMS par la [migration des composants](/help/admin/admin/component-migration/component-migration.md). |
