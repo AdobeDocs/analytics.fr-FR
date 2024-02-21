@@ -4,9 +4,9 @@ description: Découvrez comment créer et mettre en œuvre des liens d’exclusi
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 role: Developer
-source-git-commit: e196e94e891ca7a6b4b1f50482cb342f2339ea8f
+source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '589'
 ht-degree: 67%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Cet article fournit **Clients Adobe Analytics qui (prévoient) de mettre en oeuvre Adobe Analytics** sur leur site web avec des instructions sur la manière de fournir aux utilisateurs des liens d’exclusion. <p><p>
-> Si vous **visite d’un site web qui a mis en oeuvre Adobe Analytics**, et vous souhaitez vous exclure, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Veuillez consulter [Adobe des choix en matière de confidentialité](https://www.adobe.com/privacy/opt-out.html) pour contrôler la manière dont Adobe utilise vos informations.
+> Cet article fournit **Clients Adobe Analytics qui (prévoient) de mettre en oeuvre Adobe Analytics** sur leur site web avec des instructions sur la manière de fournir aux utilisateurs du site des liens d’exclusion. <p><p>
+> Si vous **visite d’un site web qui a mis en oeuvre Adobe Analytics**, et vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Veuillez consulter [Adobe des choix en matière de confidentialité](https://www.adobe.com/privacy/opt-out.html) pour contrôler la manière dont Adobe utilise vos informations.
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe offre la possibilité de fournir aux visiteurs de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
