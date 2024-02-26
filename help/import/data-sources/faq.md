@@ -4,10 +4,10 @@ description: Questions fréquentes sur les sources de données.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Les données transférées au moyen des sources de données n’ont aucune incid
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?
 
-**Non.** Les données transférées dans les rapports à l’aide de sources de données sont **permanent**. Il ne peut pas être supprimé, même par Adobe, une fois qu’il a été importé. Adobe recommande vivement de transférer les données de sources de données dans une suite de rapports de test avant de les transférer dans une suite de rapports de production.
+Oui. Vous pouvez supprimer ces données à l’aide de la variable [API de réparation des données](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). En outre, Adobe recommande vivement de transférer les données de sources de données dans une suite de rapports de test avant de les transférer dans une suite de rapports de production.
 +++
 
 +++Combien de données puis-je importer à la fois ?
