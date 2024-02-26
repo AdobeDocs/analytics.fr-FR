@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les balises Adobe Experience Platform p
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 72%
@@ -23,7 +23,7 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 Le débogueur Experience Cloud est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
 
-1. Installez l’extension pour : [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Installez l’extension pour : [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
 3. Cliquez sur l’icône du débogueur Adobe Experience Cloud dans votre navigateur.
 4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.

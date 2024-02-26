@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 29%
+source-wordcount: '622'
+ht-degree: 22%
 
 ---
 
@@ -38,9 +38,9 @@ Interagissez avec les appels à l’aide de l’onglet Réseau de Developer Cons
 
    ![](assets/validation1.png)
 
-Adobe Experience Platform Debugger:
+ADOBE EXPERIENCE PLATFORM DEBUGGER :
 
-1. Téléchargez et installez le [Débogueur Adobe Experience Platform](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Téléchargez et installez le [Débogueur Adobe Experience Platform](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Accédez à [!UICONTROL Journaux] > [!UICONTROL Edge] > [!UICONTROL Connexion à Edge].
 
    ![](assets/validation2.jpg)
@@ -56,7 +56,7 @@ L’appel de collecte est conçu de manière à ce que le suivi n’affecte pas 
 * **Comment ignorer la collecte des PII ?**
 Ajoutez les conditions respectives dans&quot; avant le lien cliquez sur Send callback&quot; et renvoyez false pour ignorer ces valeurs. [En savoir plus](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr)
 
-  Exemple de code:
+  Exemple de code :
 
   ![](assets/sample-code.png)
 
@@ -68,7 +68,7 @@ Voir [Suivi des liens](https://experienceleague.adobe.com/docs/experience-platfo
 
 >[!NOTE]
 >
->L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client passe d’une page à l’autre. Cela diffère du fonctionnement d’AppMeasurement et peut potentiellement générer des accès facturables supplémentaires envoyés à Adobe.
+>L’activation du suivi des liens avec le SDK Web envoie actuellement des événements de lien lorsqu’un client passe d’une page à l’autre. Cela diffère du fonctionnement de l’AppMeasurement et peut potentiellement entraîner l’envoi d’accès facturables supplémentaires à Adobe.
 
 +++
 
