@@ -3,22 +3,22 @@ description: Explique comment migrer des composants et des projets d’Adobe Ana
 title: Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 2%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
 # Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 
-Les administrateurs Adobe Analytics peuvent migrer les projets Adobe Analytics et leurs composants associés vers Customer Journey Analytics.
+Les administrateurs Adobe Analytics peuvent migrer les projets Adobe Analytics et leurs composants associés vers Customer Journey Analytics.
 
-Le processus de migration comprend :
+Le processus de migration comprend :
 
-* Recréation de projets Adobe Analytics dans Customer Journey Analytics.
+* La recréation de projets Adobe Analytics dans Customer Journey Analytics.
 
-* Mappage des dimensions et des mesures des suites de rapports Adobe Analytics aux dimensions et aux mesures dans les vues de données du Customer Journey Analytics.
+* Le mappage des dimensions et des mesures des suites de rapports Adobe Analytics à des dimensions et des mesures dans les vues de données de Customer Journey Analytics.
 
   Certaines dimensions et mesures sont automatiquement mappées ; d’autres doivent être mappées manuellement dans le cadre du processus de migration. Les segments sont également migrés, mais il n’est pas nécessaire de les mapper dans le cadre du processus de migration.
 
@@ -124,7 +124,7 @@ Avant de migrer des projets vers Customer Journey Analytics, découvrez-en plus 
 
 Si une migration échoue, vous pouvez effectuer une nouvelle tentative.
 
-Avant de retenter une migration ayant échoué, assurez-vous de supprimer les [éléments non pris en charge](#understand-unsupported-elements-that-cause-errors) du projet.
+Avant de retenter une migration ayant échoué, assurez-vous de supprimer les [éléments non pris en charge](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) du projet.
 
 >[!NOTE]
 >
