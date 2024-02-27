@@ -3,9 +3,9 @@ description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes sur les analyses publicitaires
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 36%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 36%
 
 +++ Dois-je être un client Adobe Advertising Cloud ou Adobe Advertising Cloud (AMO) pour accéder à cette fonctionnalité ?
 
-Non, cette fonctionnalité est disponible pour les clients non-Advertising Cloud et non-AMO. </p> <p>Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais ne seront pas en mesure d’utiliser Ad Analytics.
+Non, cette fonctionnalité est disponible pour les clients non-Advertising Cloud et non-AMO.
+
+Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais ne seront pas en mesure d’utiliser Ad Analytics.
 
 +++
 
@@ -104,7 +106,7 @@ Non, les données de recherche brutes entreront dans un jeu de données indépen
 +++ J’essaie de mapper mes comptes Advertising Analytics à une suite de rapports spécifique, mais elle n’est pas disponible dans le modal Suite de rapports. Pourquoi ?
 
 Avant d’affecter une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être [configuré pour les rapports Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-Pour ce faire, accédez à une page d’administration distincte accessible à partir de : Admin > Suites de rapports > [sélectionner une suite de rapports] > Modifier les paramètres > Configuration Advertising Analytics.
+Pour ce faire, accédez à une page d’administration distincte accessible à partir de : Admin > Suites de rapports > `[select report suite]` > Modifier les paramètres > Configuration Advertising Analytics.
 
 +++
 
@@ -114,7 +116,7 @@ Les suites de rapports virtuelles ne collectent pas de données. Vous ne pouvez 
 
 +++
 
-+++ Les mesures Advertising Analytics peuvent-elles être reportées dans la variable <b>Canaux marketing</b> rapport ?
++++ Les mesures Advertising Analytics peuvent-elles être reportées dans la variable *Canaux marketing* rapport ?
 
 Non, elles ne sont pas incluses dans le rapport Canaux marketing .
 
@@ -126,13 +128,13 @@ Les données de recherche sont extraites des moteurs de recherche vers 6 heures
 
 +++
 
-+++ Ce qui peut <b>capturé avant le clic</b>? Est-ce que nous fournissons le nombre d’impressions, le coût, la position moyenne, etc. même sans clic ? </p> </td>
++++ Ce qui peut *capturé avant le clic*? Est-ce que nous fournissons le nombre d’impressions, le coût, la position moyenne, etc. même sans clic ?
 
 L’AMO ID capture les mesures du moteur de recherche : Impressions, Coût, Clics, Position moyenne et Note de qualité moyenne. En l’absence de clics, mais s’il y a des impressions, les données de note d’impression/de position/de qualité continueront à être envoyées à Analytics. En règle générale, l’absence de clics ne génère également aucun coût.
 
 +++
 
-+++ À quel niveau ces données sont-elles capturées ? <b>Visiteur ? Accès ?</b>
++++ À quel niveau ces données sont-elles capturées ? *Visiteur ? Accès ?*
 
 Les mesures du moteur de recherche sont capturées au niveau de l’accès et connectées à l’AMO ID (et à ses classifications). Ce sont des données de niveau résumé, non liées aux visites/visiteurs. En tant que telles, les mesures du moteur de recherche peuvent être utilisées uniquement dans des segments dont la portée est de niveau accès et qui sont basés sur l’AMO ID (ou ses classifications).
 
@@ -140,7 +142,7 @@ L’AMO ID est également capturé sur la page de destination dans l’accès �
 
 +++
 
-+++ Ne capturons-nous que google.com ou <b>versions de pays</b> (comme google.co.uk, google.it, google.fr ou google.de) également ?
++++ Ne capturons-nous que google.com ou *versions de pays* (comme google.co.uk, google.it, google.fr ou google.de) également ?
 
 La classification de la plateforme d’annonces publicitaires capture les valeurs suivantes : &quot;Google AdWords&quot; et &quot;Bing Ads&quot;. Il est recommandé d’inclure le code de pays dans le nom des campagnes. Vous pouvez ensuite filtrer ou segmenter. Par exemple, si toutes les campagnes commencent par codepays_, la création d’un segment où Campagnes (AMO ID) commence par « FR_ » vous fournirait uniquement des données pour la France.
 
@@ -152,7 +154,7 @@ La classification de la plateforme d’annonces publicitaires capture les valeur
 
 +++
 
-+++ prévoit-il d’inclure d’autres canaux publicitaires tels que <b>Affichage</b> ou <b>Social</b>?
++++ prévoit-il d’inclure d’autres canaux publicitaires tels que *Affichage* ou *Social*?
 
 Non, nous n&#39;avons actuellement pas de plans pour ces autres canaux sur la feuille de route.
 
@@ -161,9 +163,9 @@ Non, nous n&#39;avons actuellement pas de plans pour ces autres canaux sur la fe
 
 ## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ Lors de la configuration de mon compte Advertising, il indique que<b> Suivi automatique</b> peuvent avoir des conséquences imprévues. Quel genre de conséquences peuvent survenir ?
++++ Lors de la configuration de mon compte Advertising, il indique que *Suivi automatique* peuvent avoir des conséquences imprévues. Quel genre de conséquences peuvent survenir ?
 
-Le mode automatique tente d’ajouter les paramètres d’URL à la fin des modèles de suivi/URL de destination dans le format correct. <b>Il vous incombe toutefois de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée. Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux.
+Le mode automatique tente d’ajouter les paramètres d’URL à la fin des modèles de suivi/URL de destination dans le format correct. Il vous incombe toutefois de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée. Le mode automatique peut insérer des mot-clés dans l’URL d’entrée et votre serveur web peut ne pas prendre en charge les mots-clés contenant des caractères spéciaux.
 
 +++
 
