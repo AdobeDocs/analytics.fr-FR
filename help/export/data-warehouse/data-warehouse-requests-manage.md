@@ -4,10 +4,10 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 5%
+source-wordcount: '1148'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,13 @@ Les sections suivantes décrivent les activités que vous pouvez effectuer lors 
 
 ## Affichage des requêtes
 
+Par défaut, vous ne pouvez afficher que les requêtes que vous créez, sauf si les utilisateurs ont choisi de rendre leurs requêtes visibles à d’autres personnes de l’organisation (comme décrit dans la section [Paramètres généraux de la demande de Data Warehouse](/help/export/data-warehouse/create-request/dw-general-settings.md)). Les administrateurs système peuvent afficher toutes les requêtes.
+
+Pour afficher les requêtes de Data Warehouse :
+
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
-   La page du Data Warehouse affiche toutes les requêtes que vous avez effectuées. <!-- just those you have made? -->Les données sont affichées dans chaque colonne. Vous pouvez [configuration des colonnes](#configure-columns) sont visibles.
+   La page du Data Warehouse affiche toutes les requêtes que vous avez effectuées. Les données sont affichées dans chaque colonne. Vous pouvez [configuration des colonnes](#configure-columns) sont visibles.
 
    <!-- add screenshot of main page -->
 
