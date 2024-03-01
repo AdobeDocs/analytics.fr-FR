@@ -4,22 +4,22 @@ description: Utilisez l’API Adobe Experience Platform Edge Network Server pour
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 35%
+source-wordcount: '268'
+ht-degree: 34%
 
 ---
 
 # Mise en oeuvre d’Adobe Analytics à l’aide de l’API Adobe Experience Platform Edge Network Server
 
-En règle générale, vous utilisez l’API Experience Platform Edge Network Server pour collecter des données à partir de périphériques tels que des appareils IoT, des décodeurs, des applications de bureau. Ensuite, envoyez ces données au réseau Edge, puis à des services comme Adobe Analytics.
+En règle générale, vous utilisez l’API Experience Platform Edge Network Server pour collecter des données côté serveur plutôt que côté client et lors de la collecte de données à partir d’appareils tels que des appareils IoT, des décodeurs et des applications de bureau. Ensuite, vous envoyez ces données au réseau Edge et à des services comme Adobe Analytics.
 
 Tenez également compte de l’API Edge Network Server lorsque vous avez besoin que des données sensibles soient collectées en toute sécurité et authentifiées sur l’ensemble du réseau. Voir [Authentification](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) pour plus d’informations.
 
 Présentation générale des tâches d’implémentation :
 
-![Adobe Analytics avec le workflow d’extension Analytics](../../assets/edge-network-server-api.png)
+![Adobe Analytics avec le workflow d’extension Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 

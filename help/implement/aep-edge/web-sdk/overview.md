@@ -4,10 +4,10 @@ description: Utilisez l’extension SDK Web dans la collecte de données Adobe E
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Vous pouvez utiliser le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=fr) pour envoyer des données à Adobe Analytics. Cette méthode de mise en œuvre fonctionne en traduisant le [modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr) dans un format utilisé par Analytics.
 
-Vous pouvez envoyer des données à Experience Edge directement à l’aide du SDK web ou par l’intermédiaire de l’extension SDK web dans les balises.
+Vous pouvez envoyer des données à Experience Edge directement à l’aide du [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)ou par l’intermédiaire de l’extension SDK Web dans Balises.
 
 ## SDK Web
 
@@ -60,14 +60,14 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <td>6</td>
-<td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
+<td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics et à quelle(s) suite(s) de rapports en particulier.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’ID de flux de données (anciennement appelé ID de configuration Edge(<code>edgeConfigId</code>)), l’ID d’organisation (<code>orgId</code>) et les autres options disponibles.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr">Configurer le SDK Web</a></td>
+<td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’identifiant de flux de données (anciennement appelé id de configuration Edge ).<code>edgeConfigId</code>), id de l’organisation (<code>orgId</code>) et d’autres options disponibles. Assurez-vous que la correspondance des variables est correcte. </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr">Configuration du SDK Web</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mappage des variables Analytics</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Mappage manuel des variables</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>5</td> 
-<td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
+<td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics et à quelle(s) suite(s) de rapports en particulier.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 

@@ -4,20 +4,20 @@ description: Découvrez comment implémenter Adobe Analytics à l’aide de bal
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # Implémenter Adobe Analytics à l’aide de l’extension Analytics
 
-Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour implémenter le code sur votre site à des fins de collecte de données. La méthode actuellement recommandée par Adobe est d’utiliser des balises dans Adobe Experience Platform.
+Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour implémenter le code sur votre site à des fins de collecte de données. La méthode actuellement recommandée par l’Adobe est [Balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
 
 Les balises dans Adobe Experience Platform représentent une solution de gestion des balises qui vous permet de déployer le code Analytics parallèlement à d’autres exigences de balisage. Adobe propose des intégrations à d’autres solutions et produits et vous permet de déployer du code personnalisé. Toutes ces tâches peuvent être effectuées sans faire appel aux équipes de développement de votre entreprise pour mettre à jour le code de votre site.
 
-Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent utiliser les balises. Si vous ne savez pas si vous y avez accès, contactez l’administration système Experience Cloud de votre organisation.
+Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent utiliser des balises. Si vous ne savez pas si vous y avez accès, contactez l’administration système Experience Cloud de votre organisation.
 
 Présentation générale des tâches d’implémentation :
 
@@ -48,7 +48,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>3</td>
 <td><b><b>Créez une propriété de balise</b>. Les propriétés sont des conteneurs globaux utilisés pour référencer les données de la gestion des balises.</td>
-<td><a ref="../launch/create-analytics-property.md">Créer une propriété de balise Adobe Analytics</a></td>
+<td><a href="../launch/create-analytics-property.md">Créer une propriété de balise Adobe Analytics</a></td>
 </tr>
 
 <tr>
