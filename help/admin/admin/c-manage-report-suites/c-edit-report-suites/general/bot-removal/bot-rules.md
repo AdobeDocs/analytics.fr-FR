@@ -1,17 +1,17 @@
 ---
 description: Les règles de robots vous permettent de supprimer de votre suite de rapports le trafic généré par des araignées et des robots (bots) connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
-title: Comprendre et configurer des règles de robots
+title: Comprendre et configurer des règles de robot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
-# Comprendre et configurer des règles de robots
+# Comprendre et configurer des règles de robot
 
 Les règles de robots vous permettent de supprimer du trafic de votre suite de rapports généré par des araignées et des robots connus. La suppression du trafic de robots permet d’obtenir une mesure plus précise de l’activité des utilisateurs sur votre site web.
 
@@ -20,6 +20,10 @@ Une fois les règles de robots définies, elles servent de critères de comparai
 En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. De nombreux clients estiment que la suppression du trafic de robots entraîne une augmentation des taux de conversion et d’autres mesures d’utilisation.
 
 Les données de trafic de robots sont stockées dans un référentiel distinct en vue d’être affichées dans les rapports Robots et Pages de robots .
+
+>[!NOTE]
+>
+>Adobe Experience Edge fournit un [service de détection des robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) les libellés des accès identifiés comme provenant de robots. Le processus de détection des robots d’Adobe Analytics est distinct de celui-ci et ne fait pas référence au score de robot inclus sur les données arrivant via Experience Edge. Les deux systèmes utilisent la même liste de robots IAB et doivent donc se comporter de la même manière à cet égard.
 
 ## Mise à jour ou chargement de règles de robots
 
