@@ -4,10 +4,10 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 90%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.26.0
+
+Date de publication : **mardi 4 mars 2024**
+
+* AppMeasurement reconnaît et utilise automatiquement le domaine racine pour les domaines de niveau supérieur du code de pays, qui nécessitaient auparavant des configurations de domaine de cookie spécifiques. La mise à jour peut avoir des implications en raison de cette reconnaissance automatique. Voir [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) pour plus d’informations.
+* La distribution comprend la bibliothèque Identity Service 5.5.0 et Data Integration Library 9.6.
 
 ## Version 2.25.0
 
