@@ -1,22 +1,24 @@
 ---
-description: Ces courtes vidéos (8 minutes ou moins) fournissent un aperçu des méthodes d’optimisation de l’utilisation des outils des mesures calculées.
+description: Ces courtes vidéos fournissent un aperçu de la manière d’optimiser l’utilisation des outils des mesures calculées.
 title: Vidéos pratiques
 feature: Calculated Metrics
+role: User
+level: Beginner
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 36d74c4cc579b8bacabb62288addd49fa1cde4a7
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 100%
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
 # Vidéos pratiques
 
-Ces courtes vidéos (8 minutes ou moins) fournissent un aperçu des méthodes d’optimisation de l’utilisation des outils des mesures calculées.
+Ces courtes vidéos fournissent un aperçu de la manière d’optimiser l’utilisation des outils des mesures calculées.
 
-* [Sélecteur de mesure](https://youtu.be/jCJ7XEJxcYo)
-* [Créateur de mesures](https://youtu.be/wpdWYWaf0uo)
-* [Mesures segmentées](https://youtu.be/YtikkXvOrS8)
-* [Mesures sans implémentation](https://youtu.be/CuQTm9RaUpY)
-* [Fonctions](https://youtu.be/SSyWvomnewI)
-* [Conseils spécifiques à l’administrateur](https://youtu.be/-wqHOvzz0P0)
+* [Mesures calculées rapides dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+* [Créateur de mesures](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+* [Mesures segmentées](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=fr){target="_blank"}
+* [Mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr){target="_blank"}
+* [Fonctions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+* [Gestion des mesures calculées](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
