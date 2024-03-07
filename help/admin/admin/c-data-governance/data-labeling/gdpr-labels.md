@@ -4,10 +4,10 @@ title: Étiquettes relatives à la confidentialité des données pour les variab
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 98%
+source-wordcount: '3569'
+ht-degree: 97%
 
 ---
 
@@ -182,7 +182,7 @@ Les étiquettes de confidentialité des données concernent quatre grandes caté
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dimensions et événements relatifs aux solutions </p> </td> 
-   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Page Activity Map </p> </td> 
+   <td colname="col2"> <p>Lien d’Activity Map, </p> <p>Page d’Activity Map </p> </td> 
    <td colname="col3"> <p>Aucune/I1/I2 </p> <p>Aucune/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Les variables peuvent contenir des paramètres d’URL, qui peuvent inclure des données directement ou indirectement identifiables. Si votre implémentation ne collecte pas directement ou indirectement de données identifiables dans ces variables, alors elles n’ont pas besoin d’étiquettes d’identification ou de suppression. </p> <p>Notez que la suppression efface les paramètres d’URL, mais conserve l’URL de base. </p> </td> 
   </tr> 
@@ -262,4 +262,4 @@ Il existe cinq variables standard qui contiennent des horodatages :
 
 Le code permettant de générer les fichiers renvoyés lors des demandes d’accès relatives à la Confidentialité des données nécessite qu’au moins l’une des trois premières variables d’horodatage soit incluse dans la demande d’accès (et dispose d’une étiquette ACC s’appliquant au type de demande). Si aucune d’elles n’est incluse, l’heure d’accès personnalisée UTC sera traitée comme si elle possédait une étiquette ACC-ALL.
 
-Le fichier CSV d’accès renvoyé lors des demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs pour passer d’horodatages au format Unix en champs date/heure au format AAAA-MM-JJ HH:MM:SS (par exemple, 2018-05-01 13:49:22). Dans le fichier de résumé HTML, ces valeurs d’horodatage seront tronquées pour n’inclure que la date (AAAA-MM-JJ), afin de réduire le nombre de valeurs uniques possibles pour ces champs.
+Le fichier CSV d’accès renvoyé pour les demandes d’accès relatives à la Confidentialité des données convertira les valeurs de ces champs d’horodatages unix en champs de date/heure au format `YYYY-MM-DD HH:MM:SS` (par exemple, `2018-05-01 13:49:22`). Dans le fichier de HTML récapitulatif, ces valeurs d’horodatage seront tronquées pour n’inclure que la date, `YYYY-MM-DD`, afin de réduire le nombre de valeurs uniques qui se produisent pour ces champs.

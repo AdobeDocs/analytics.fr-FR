@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Questions fréquentes à Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 30%
@@ -105,7 +105,7 @@ Il existe probablement un conflit entre les contrôles de confidentialité de Ad
 
 +++
 
-+++ Pourquoi la mention &quot;Limite d’audience atteinte&quot; s’affiche-t-elle dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et &quot;::max_audiences_exceeded::&quot; en Data Warehouse)
++++ Pourquoi la mention &quot;Limite d’audience atteinte&quot; s’affiche-t-elle dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et `::max_audiences_exceeded::` en Data Warehouse)
 
 Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est admissible, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, la variable **150 segments les plus récemment qualifiés** sont envoyées à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
 

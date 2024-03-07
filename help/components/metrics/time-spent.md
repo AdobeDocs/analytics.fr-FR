@@ -3,9 +3,9 @@ title: Méthode de calcul de la durée de la visite dans Adobe Analytics
 description: Une page agrégée des dimensions et mesures de durée de la visite.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1744'
 ht-degree: 72%
 
 ---
@@ -23,7 +23,7 @@ Divers [!UICONTROL &quot;temps passé&quot;] [mesures](overview.md) Les dimensio
 | [!UICONTROL Durée par visiteur] (en secondes) | Environ *Durée totale en secondes / visiteur unique*<br> Représente la durée moyenne pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
 | [!UICONTROL Durée de la visite/de l’utilisateur (état)] | Environ *Durée totale en secondes de l’application mobile / visiteurs de l’application mobile unique*<br> Représente la durée moyenne pendant laquelle les visiteurs d’applications mobiles interagissent avec un élément de dimension spécifique pendant la durée de vie du visiteur (durée de leur cookie). **Remarque**: cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
 | [!UICONTROL Durée moyenne de la visite du site] (en secondes) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas uniquement aux moyennes de &quot;site&quot; comme son nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Report Builder (en minutes) |
-| [!UICONTROL Temps moyen passé sur le site] | Il s’agit de la même mesure que *Durée moyenne de la visite du site (en secondes)*, mais au format de la mesure Heure (hh:mm:ss). | Analysis Workspace |
+| [!UICONTROL Temps moyen passé sur le site] | Cette mesure est identique à la mesure *Durée moyenne de la visite du site (en secondes)*, à l’exception du format Heure (`hh:mm:ss`) | Analysis Workspace |
 | [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Nous vous recommandons plutôt d’utiliser la &quot;Durée moyenne de la visite du site&quot; si la durée moyenne d’un élément de dimension est nécessaire. | Report Builder (lorsqu’une dimension figure dans la demande) |
 | [!UICONTROL Durée totale de la session], alias [!UICONTROL Durée de session précédente] | SDK d’applications mobiles uniquement. <br>Déterminée la prochaine fois que l’application est lancée, pour la session précédente. Calculée en secondes, cette mesure ne compte pas lorsque l’application est en arrière-plan, mais uniquement lorsqu’elle est en cours d’utilisation. Il s’agit d’une mesure au niveau de la session.<br>Par exemple : vous installez l’application ABC et la lancez. Vous l’utilisez pendant 2 minutes, puis vous la fermez. Aucune donnée n’est envoyée sur la durée de cette session. La prochaine fois que vous lancez l’application, la [!UICONTROL Durée de la session précédente] est envoyée avec une valeur de 120. | Analysis Workspace, Report Builder, interface utilisateur de Mobile Services |
 | [!UICONTROL Durée de session moyenne] (mobile) | *Durée de session totale / (Lancements - Premiers lancements)*<br> Kit SDK d’applications mobiles uniquement. Il s’agit d’une mesure au niveau de la session. | Report Builder, IU Mobile Services |
