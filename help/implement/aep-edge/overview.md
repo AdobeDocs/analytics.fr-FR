@@ -4,18 +4,18 @@ description: Présentation de l’utilisation des données XDM d’Experience P
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 35%
+source-wordcount: '315'
+ht-degree: 23%
 
 ---
 
-# Mettre en œuvre Adobe Analytics à l’aide d’Adobe Experience Platform Edge
+# Mise en oeuvre d’Adobe Analytics avec Adobe Experience Platform Edge Network
 
-Adobe Experience Platform Edge vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Experience Edge transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts de mise en œuvre, en particulier sur plusieurs solutions de données.
+Le réseau Adobe Experience Platform Edge vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Le réseau Edge transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts de mise en œuvre, en particulier sur plusieurs solutions de données.
 
-Adobe propose trois méthodes principales pour envoyer des données à Experience Edge :
+Adobe propose trois méthodes principales pour envoyer des données au réseau Edge :
 
 * **[SDK Web Adobe Experience Platform](web-sdk/overview.md)** : utilisez l’extension SDK Web dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
 * **[SDK Mobile Adobe Experience Platform](mobile-sdk/overview.md)** : utilisez l’extension SDK Mobile dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
@@ -23,13 +23,15 @@ Adobe propose trois méthodes principales pour envoyer des données à Experienc
 
 
 
-## Comment Adobe Analytics gère les données Experience Edge
+## Comment Adobe Analytics gère les données du réseau Edge
 
-Les données envoyées à Experience Edge doivent être conformes aux schémas basés sur [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Au moment où les événements atteignent Adobe Analytics, ces événements sont traduits en données plus structurées qu’Adobe Analytics peut gérer : pages vues ou événements de lien.
+Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre deux formats :
 
-XDM ne détermine pas lui-même comment définir les pages vues ou les événements de lien, et il n’indique pas non plus à Adobe Analytics comment traiter sa charge utile. Par exemple, certains champs XDM prêts à l’emploi qui semblent liés à des pages vues ou des événements de lien, comme `eventType`, `web.webPageDetails.pageViews`, ou `web.webInteraction.linkEvents` sont entièrement agnostiques en matière de mise en oeuvre et n’ont aucun intérêt pour Adobe Analytics.
+* Objet XDM : configuration des schémas en fonction de [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Au moment où les événements atteignent Adobe Analytics, ils sont traduits dans un format qu’Adobe Analytics peut traiter.
+* Objet de données : envoyez des données au réseau Edge à l’aide de champs spécifiques mappés à Adobe Analytics. Le réseau Edge détecte la présence de ces champs et les transfère vers Adobe Analytics sans avoir à se conformer à un schéma.
 
-Pour gérer correctement les pages vues et les événements de lien, la logique suivante est appliquée aux données envoyées au réseau Experience Edge Adobe et transférées vers Adobe Analytics.
+
+Le réseau Edge utilise la logique suivante pour déterminer les pages vues Adobe Analytics et les événements de lien.
 
 | La charge utile XDM contient... | Adobe Analytics... |
 |---|---|
@@ -40,4 +42,4 @@ Pour gérer correctement les pages vues et les événements de lien, la logique 
 
 {style="table-layout:auto"}
 
-Voir [Groupe de champs de l’extension complète Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=en) pour plus d’informations.
+Voir [Groupe de champs de l’extension complète Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) pour plus d’informations.

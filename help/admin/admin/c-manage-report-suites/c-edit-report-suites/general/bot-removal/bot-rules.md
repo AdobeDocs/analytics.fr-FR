@@ -4,9 +4,9 @@ title: Comprendre et configurer des règles de robot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 >[!NOTE]
 >
->Adobe Experience Edge fournit un [service de détection des robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) les libellés des accès identifiés comme provenant de robots. Le processus de détection des robots d’Adobe Analytics est distinct de celui-ci et ne fait pas référence au score de robot inclus sur les données arrivant via Experience Edge. Les deux systèmes utilisent la même liste de robots IAB et doivent donc se comporter de la même manière à cet égard.
+>Le réseau Adobe Experience Platform Edge fournit une [service de détection des robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) les libellés des accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robot inclus sur les données arrivant par le biais du réseau Edge. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
 
 ## Mise à jour ou chargement de règles de robots
 

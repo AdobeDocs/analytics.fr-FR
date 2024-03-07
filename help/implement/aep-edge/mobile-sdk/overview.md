@@ -4,10 +4,10 @@ description: Utilisez l’extension SDK Mobile dans la collecte de données Adob
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -51,7 +51,7 @@ Présentation générale des tâches d’implémentation :
 
 <td>4</td>
 <td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 
 <tr>

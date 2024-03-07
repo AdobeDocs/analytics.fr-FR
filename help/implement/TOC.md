@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + [Notes de mise à jour d’AppMeasurement](appmeasurement-updates.md)
 + Variables, fonctions et méthodes Analytics {#vars}
-   + [Aperçu](vars/overview.md)
+   + [Vue d’ensemble](vars/overview.md)
    + Variables de configuration {#config-vars}
       + [Présentation des variables de configuration](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
@@ -96,7 +96,7 @@ ht-degree: 98%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Modules externes {#plugins}
+   + Plug-ins {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -134,15 +134,15 @@ ht-degree: 98%
    + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
-+ Mise en œuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
-   + [Présentation d’Experience Edge](aep-edge/overview.md)
-   + [Mappage des variables](aep-edge/variable-mapping.md)
++ Mise en oeuvre d’Analytics à l’aide du réseau Adobe Experience Platform Edge {#aep-edge}
+   + [Présentation d’Edge Network](aep-edge/overview.md)
+   + [Mappage des variables d’objet XDM](aep-edge/variable-mapping.md)
    + SDK Web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
    + SDK Mobile {#mobile-sdk}
       + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
    + API du serveur {#server-api}
-      + [Présentation de l’API de serveur](aep-edge/server-api/overview.md)
+      + [Vue d’ensemble de l’API du serveur](aep-edge/server-api/overview.md)
 + Implémenter Analytics à l’aide de l’extension Adobe Analytics {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)

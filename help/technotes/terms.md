@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Report Builder :** macro complémentaire Microsoft Excel qui permet de créer des requêtes personnalisées à partir de données Adobe Analytics.
 * **Suite de rapports :** conteneur global vers lequel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
-* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage dans le package Analytics. Cet outil a été [fin de vie](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
+* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage dans le package Analytics. Cet outil a été [fin de vie](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Période flottante :** type de période relative qui change au fil du temps. Par exemple, un rapport montrant les 7 derniers jours peut être considéré comme une période variable. Voir aussi Période statique.
 * **RSID :** abréviation d’identifiant de suite de rapports. Une suite de rapports a un nom convivial et un identifiant.
 * **s.t() :** nom de la fonction d’une bibliothèque AppMeasurement envoyant une demande d’image de pages vues. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Voir [t](../implement/vars/functions/t-method.md) dans le guide d’utilisation de la mise en œuvre.

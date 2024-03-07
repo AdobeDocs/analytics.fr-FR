@@ -4,7 +4,7 @@ description: Découvrez comment les indications du client remplaceront progressi
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Les indications à faible entropie sont automatiquement fournies par le navigate
 
 Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
 
-Pour les données envoyées via l’API, par exemple via l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou l’[API Bulk Data Insertion](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=fr), les indications doivent être explicitement incluses dans le payload. Consultez la documentation correspondante pour plus de détails.
+Pour les données envoyées via l’API, par exemple via l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou l’[API Bulk Data Insertion](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html), les indications doivent être explicitement incluses dans le payload. Consultez la documentation correspondante pour plus de détails.
 
 +++
 

@@ -4,7 +4,7 @@ description: Découvrez comment implémenter Adobe Analytics à l’aide de bal
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 83%
@@ -65,7 +65,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>6</td> 
 <td><b>Validez et publiez en production</b>. Incorporez le code pour inclure votre propriété de balise aux pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validation d’une mise en oeuvre de développement et publication en production</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validation d’une mise en oeuvre de développement et publication en production</a></td>
 </tr>
 
 </table>

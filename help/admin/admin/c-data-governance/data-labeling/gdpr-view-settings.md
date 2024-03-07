@@ -4,7 +4,7 @@ title: Afficher/gérer l’étiquetage de confidentialité pour la gouvernance d
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 94%
@@ -31,11 +31,11 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 | Paramètre | Description |
 | --- | --- |
 | **[!UICONTROL Nom du composant]** | Cette colonne répertorie tous les composants (dimensions, mesures) qui font partie de cette suite de rapports. |
-| **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identification sont utilisées pour classer les données qui peuvent servir à identifier ou à contacter une personne spécifique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-identity-labels) |
-| **[!UICONTROL Sensibilité]** | Les étiquettes « S » pour les données sensibles sont utilisées pour classer les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#sensitive-data-labels) |
-| **[!UICONTROL Accès aux RGPD]** | Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-access-labels) |
-| **[!UICONTROL Suppression des RGPD]** | Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le titulaire de données (autrement dit, qui permettrait d’identifier le titulaire de données). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#data-privacy-delete-labels) |
-| **[!UICONTROL Espace de noms]** | Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=en#provide-namespace) |
+| **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identification sont utilisées pour classer les données qui peuvent servir à identifier ou à contacter une personne spécifique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL Sensibilité]** | Les étiquettes « S » pour les données sensibles sont utilisées pour classer les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL Accès aux RGPD]** | Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL Suppression des RGPD]** | Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le titulaire de données (autrement dit, qui permettrait d’identifier le titulaire de données). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL Espace de noms]** | Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL Catégorie]** | Fait référence au type de composant, tel que le composant standard, la variable de conversion, etc. |
 
 {style="table-layout:auto"}

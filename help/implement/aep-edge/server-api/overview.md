@@ -4,7 +4,7 @@ description: Utilisez l’API Adobe Experience Platform Edge Network Server pour
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 34%
@@ -15,7 +15,7 @@ ht-degree: 34%
 
 En règle générale, vous utilisez l’API Experience Platform Edge Network Server pour collecter des données côté serveur plutôt que côté client et lors de la collecte de données à partir d’appareils tels que des appareils IoT, des décodeurs et des applications de bureau. Ensuite, vous envoyez ces données au réseau Edge et à des services comme Adobe Analytics.
 
-Tenez également compte de l’API Edge Network Server lorsque vous avez besoin que des données sensibles soient collectées en toute sécurité et authentifiées sur l’ensemble du réseau. Voir [Authentification](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) pour plus d’informations.
+Tenez également compte de l’API Edge Network Server lorsque vous avez besoin que des données sensibles soient collectées en toute sécurité et authentifiées sur l’ensemble du réseau. Voir [Authentification](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) pour plus d’informations.
 
 Présentation générale des tâches d’implémentation :
 
@@ -48,12 +48,12 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>4</td>
 <td><b>Mise en oeuvre et test de la collecte de données</b> à l’aide des données d’événement unique et des API de collecte de données d’événement par lot.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">Collecte de données à événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">Collecte de données d’événement par lots</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr">Collecte de données à événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Collecte de données d’événement par lots</a>
 </tr>
 
 <td>5</td>
 <td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">Interagir avec Adobe Analytics</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">Interagir avec Adobe Analytics</a></td>
 </tr>
 
 
