@@ -4,10 +4,10 @@ description: Permet de connaître le pourcentage de la page consultée par le vi
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les vari
 
 Affectez une ou plusieurs de ces variables à des eVars pour afficher les données sur les dimensions dans les rapports.
 
-Ce plug-in crée un cookie propriétaire appelé `s_ppv` qui contient les valeurs ci-dessus. Il expire à la fin de la session du navigateur.
+Ce plug-in crée trois cookies propriétaires qui expirent à la fin d’une session de navigateur :
+
+* `s_ppv`: stocke chacune des valeurs exposées en appelant la fonction
+* `s_tp`: stocke la hauteur totale en pixels de la page précédente.
+* `s_ips`: stocke le pourcentage initial défilé de la page précédente.
 
 ## Exemples
 
