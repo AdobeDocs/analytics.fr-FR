@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
-source-wordcount: '3899'
-ht-degree: 99%
+source-wordcount: '3928'
+ht-degree: 98%
 
 ---
 
@@ -68,6 +68,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien. | tinyint sans signe |
 | **`dataprivacyconsentoptin`** | Variable utilisée dans la dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variable utilisée dans la dimension [Droit d’opposition de gestion du consentement](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
+| **`dataprivacydmaconsent`** | Valeur identifiant si le consentement est acquis pour envoyer des données d’Adobe Analytics par Adobe Advertising à des fournisseurs publicitaires tiers (tels que Google). Voir [Consentement de la publicité](/help/components/dimensions/ad-consent.md) pour plus d’informations. | varchar(100) |
 | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | **`domain`** | Variable utilisée dans la dimension [Domaine](/help/components/dimensions/domain.md). Basée sur le point dʼaccès Internet du visiteur. | varchar(100) |
 | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |
