@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '2168'
-ht-degree: 100%
+source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 90%
 
 ---
 
@@ -17,44 +17,51 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## Fonctionnalités de la nouvelle page de destination {#new-features}
+La page d’entrée Adobe Analytics se compose des sous-onglets suivants : Projets, Rapports et Formation.
 
-| Fonctionnalité | Description | Copie dʼécran |
-| --- | --- | --- |
-| Agrandir le tableau [!UICONTROL Projets] en plein écran | Pour agrandir le tableau, il vous suffit de cliquer sur l’icône de menu général. Cette action réduit les onglets situés sur le rail de gauche. | ![Agrandir le tableau](assets/landing-collapse2.png) |
-| Personnaliser la largeur des colonnes | Dans les versions précédentes, la largeur des colonnes était fixe. Vous pouvez désormais la personnaliser en faisant glisser le séparateur de colonnes. | ![Largeur de colonne](assets/column-width.png) |
-| Réorganiser les éléments épinglés | Pour déplacer les éléments épinglés vers le haut et vers le bas, cliquez sur les points de suspension en regard de l’élément épinglé et sélectionnez **[!UICONTROL Déplacer vers le haut]** ou **[!UICONTROL Déplacer vers le bas]**. | ![Déplacer les éléments épinglés](assets/move-up-down.png) |
-| Nouvelles colonnes de tableau | Cliquez sur l’icône [!UICONTROL Personnaliser le tableau] en haut à droite du tableau. Les nouvelles colonnes de tableau sont les suivantes : <ul><li>**[!UICONTROL Planifié]** : activez la case [!UICONTROL On] lorsqu’un projet est planifié ou [!UICONTROL Off] dans le cas contraire. Pour afficher des informations sur le projet planifié, cliquez sur le lien [!UICONTROL On]. Vous pouvez également [modifier le planning du projet](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) si vous êtes son propriétaire.</li><li>**[!UICONTROL ID de projet]** : utile à des fins de débogage.</li><li>**[!UICONTROL Période la plus longue]** : des périodes plus longues augmentent la complexité du projet ainsi que les temps de traitement et de chargement. </li><li>**[!UICONTROL Nombre de requêtes]** : nombre total de requêtes envoyées à Analytics lors du chargement du projet. Un nombre plus élevé de requêtes de projet augmente la complexité de celui-ci ainsi que ses temps de traitement et de chargement. Ces données ne sont disponibles qu’une fois qu’un projet a été chargé ou qu’un projet planifié a été envoyé. </li></ul> | ![Nouvelles colonnes](assets/new-columns.png) |
-| Un seul clic pour ouvrir un rapport | Dans les versions précédentes, un double-clic était nécessaire. |  |
-| Nouveaux liens vers les rapports **[!UICONTROL Reports &amp; Analytics]** | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Robots]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Audience]** > **[!UICONTROL Pages Robots]**<li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**</li></ul> | ![Nouveaux liens](assets/report-links.png) |
-| Nouveaux rapports prêts à l’emploi | <ul><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page suivante]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Les plus populaires]** > **[!UICONTROL Page précédente]**</li><li>**[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Analyse de la page]** > **[!UICONTROL Résumé de la page]**</li></ul>Notez que ces rapports sont au format [!UICONTROL Espace de travail] et doivent être configurés et générés. La sortie se compose d’un panneau de mesures de haut niveau, de données de tendances, d’une visualisation des [!UICONTROL Flux] et bien plus encore. Vous pouvez modifier ces rapports et changer de dimension, d’élément de dimension, etc. Ces rapports sont également disponibles sous forme de panneaux dans les panneaux de l’espace de travail. | ![Page suivante](assets/next-page.png) |
-| Retour de la fenêtre modale **[!UICONTROL Créer un projet]** | Lorsque vous cliquez sur **[!UICONTROL Créer un projet]** dans Workspace, vous avez à nouveau le choix entre créer un [!UICONTROL Projet vierge] ou une [!UICONTROL Carte de performance mobile vierge]. Vous pouvez également choisir un modèle créé par votre société. | ![Créer](assets/create-new.png) |
-| Également disponible dans Customer Journey Analytics | Cette page de destination est également disponible dans Customer Journey Analytics, mais dans un autre format. |  |
+Les **[!UICONTROL projets]** sont des conceptions personnalisées qui combinent les composants de données, les tableaux et les visualisations que vous avez créés ou que quelqu’un d’autre a créés et partagés avec vous. Les [!UICONTROL projets] font également référence aux projets vierges et aux fiches dʼévaluation mobiles vierges.
 
-{style="table-layout:auto"}
+Les **[!UICONTROL rapports]** font référence à tout élément préconfiguré par Adobe, tel que les modèle dans Workspace.
 
-## Structure du menu supérieur {#top-menu}
-
-![Menu supérieur](assets/top-menus.png)
-
-* Menu supérieur dʼAnalytics : la plupart des rapports se trouvent désormais dans le menu [!UICONTROL Rapports] du rail de gauche.
-* Le rail de gauche comporte trois onglets : [!UICONTROL Projets], [!UICONTROL Rapports] et [!UICONTROL Apprentissage].
-
-### Terminologie
-
-* Les **[!UICONTROL projets]** sont des conceptions personnalisées qui combinent les composants de données, les tableaux et les visualisations que vous avez créés ou que quelqu’un d’autre a créés et partagés avec vous. Les [!UICONTROL projets] font également référence aux projets vierges et aux fiches dʼévaluation mobiles vierges.
-* Les **[!UICONTROL rapports]** font référence à tout élément préconfiguré par Adobe, tel que les modèle dans Workspace.
-* Le terme **[!UICONTROL Modèles]** nʼest plus employé pour les projets d’espace de travail préconfigurés dʼAdobe. Les modèles se trouvent désormais sous [!UICONTROL Rapports]. Le terme [!UICONTROL Modèles] désigne toujours les modèles créés par votre entreprise.
+La variable **[!UICONTROL Formation]** contient des vidéos, des tutoriels et des liens vers la documentation.
 
 ## Accédez à lʼonglet [!UICONTROL Projets] {#navigate-projects}
 
-Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espace de travail]. L’onglet Projets affiche le dossier Société, les dossiers personnels que vous avez créés, vos projets et vos cartes de performance mobiles. Utilisez cette page pour afficher, créer et modifier des dossiers, des projets et des cartes de performance mobiles. Pour plus d’informations, consultez [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+La variable [!UICONTROL Projets] sert de [!UICONTROL Workspace] page d’accueil. Il affiche le dossier Société, les dossiers personnels que vous avez créés, vos projets et vos fiches d’évaluation mobiles. Utilisez cette page pour afficher, créer et modifier des dossiers, des projets et des cartes de performance mobiles. Pour plus d’informations, consultez [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
 
 ![Landing all](assets/landing-all2.png)
 
 >[!NOTE]
 >
 >Plusieurs des paramètres suivants sont conservés pendant la session et entre les sessions. Par exemple, l’onglet que vous avez sélectionné, les filtres sélectionnés, les colonnes sélectionnées et l’ordre de tri des colonnes. Les résultats de recherche ne sont pas persistants.
+
+### Personnalisation des colonnes du tableau
+
+Pour personnaliser les largeurs de colonne, faites glisser la barre verticale qui sépare chaque colonne.
+
+Pour ajouter ou supprimer des colonnes de la liste des projets, cliquez sur l’icône de colonne (![Landing all](/help/analyze/assets/select-column.png)) dans le coin supérieur droit, puis sélectionnez ou désélectionnez les titres des colonnes.
+
+Les colonnes disponibles sont les suivantes :
+
+| Nom de la colonne | Description |
+|---------|----------|
+| [!UICONTROL **Nom**] | Indique le nom du projet. |
+| [!UICONTROL **Type**] | Indique le type : un projet Workspace, une carte de performance mobile ou un dossier. |
+| [!UICONTROL **Balises**] | Ajoute des balises aux projets pour les organiser en groupes. |
+| [!UICONTROL **Planifié**] | Choisissez [!UICONTROL Activé] si un projet est planifié, ou [!UICONTROL Désactivé] dans le cas contraire. Le fait de cliquer sur le lien [!UICONTROL Activé] vous renvoie aux informations du projet planifié. Vous pouvez également [modifier le planning du projet](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) si vous êtes son propriétaire. |
+| [!UICONTROL **Rôle du projet**] | Indique les rôles de projet : si vous êtes le propriétaire du projet et si vous disposez des autorisations pour modifier ou dupliquer le projet. |
+| [!UICONTROL **Suite de rapports**] | Indique les suites de rapports associées au projet.<br>Les tableaux et les visualisations au sein d’un panneau obtiennent des données de la suite de rapports sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou plusieurs suites de rapports selon les cas pratiques de votre analyse. La liste des suites de rapports est triée selon la pertinence. Adobe définit la pertinence en fonction de la fréquence dʼutilisation récente de la suite par lʼutilisateur ou lʼutilisatrice actuel et de la fréquence dʼutilisation de la suite au sein de lʼentreprise. |
+| [!UICONTROL **Propriétaire**] | Indique la personne qui a créé le projet. |
+| [!UICONTROL **Partagé avec**] | Indique avec qui le projet est actuellement partagé. |
+| [!UICONTROL **Dernière modification**] | Date et heure de la dernière modification du projet. |
+| [!UICONTROL **Dernière ouverture**] | Identifie la date à laquelle un projet a été ouvert pour la dernière fois par l’utilisateur qui consulte la page Projets. |
+| [!UICONTROL **Dernière utilisation**] | Permet de déterminer si un projet est utile aux utilisateurs de votre entreprise en indiquant la date et l’heure de la dernière ouverture du projet par un utilisateur de l’entreprise.<p>Cette colonne est réservée aux administrateurs système.</p> |
+| [!UICONTROL **Identifiant du projet**] | Peut être utilisé pour le débogage des projets. |
+| [!UICONTROL **Période la plus longue**] | Des périodes plus longues peuvent compliquer le projet et augmenter le temps de traitement et de chargement. |
+| [!UICONTROL **Nombre de requêtes**] | Le nombre total de requêtes envoyées à Analytics lors du chargement du projet. Un nombre plus élevé de requêtes peut compliquer le projet et augmenter le temps de traitement et de chargement. Ces données ne sont disponibles qu’une fois qu’un projet a été chargé ou qu’un projet planifié a été envoyé. |
+| [!UICONTROL **Emplacement**] | Affiche le dossier dans lequel se trouve le projet. |
+
+### Autres éléments de l’interface utilisateur de la page Projets
 
 | Élément de lʼinterface utilisateur | Définition |
 | --- | --- |
@@ -73,31 +80,8 @@ Les [!UICONTROL projets] font office de page dʼaccueil de l’[!UICONTROL espac
 | Icône Épingler | Épingle les éléments afin qu’ils apparaissent toujours en haut de la liste. Vous pouvez toutefois modifier l’ordre en les déplaçant vers le haut ou le bas de la liste. Utilisez le menu d’option représenté par des points de suspension et sélectionnez **Déplacer vers le haut** ou **Déplacer vers le bas** dans la liste. |
 | Icône Infos (i) | Affiche les informations suivantes sur un projet : Type, Rôle de projet, Propriétaire, Description et avec qui il est partagé. Cette icône indique également qui peut [modifier ou dupliquer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) ce projet. |
 | Points de suspension (…) | Affiche les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Désépingler**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exporter au format CSV** et **Déplacer vers**. Vous ne disposez peut-être pas des autorisations nécessaires pour effectuer toutes les actions répertoriées. |
-| [!UICONTROL Type] | Indique le type : un projet Workspace, une carte de performance mobile ou un dossier. |
-| [!UICONTROL Balises] | Ajoute des balises aux projets pour les organiser en groupes. |
-| [!UICONTROL Rôle de projet] | Indique les rôles de projet : si vous êtes le propriétaire du projet et si vous disposez des autorisations pour modifier ou dupliquer le projet. |
-| [!UICONTROL Suite de rapports] | Indique les suites de rapports associées au projet.<br>Les tableaux et les visualisations au sein d’un panneau obtiennent des données de la suite de rapports sélectionnée en haut à droite du panneau. La suite de rapports détermine également les composants disponibles dans le rail de gauche. Dans un projet, vous pouvez utiliser une ou plusieurs suites de rapports selon les cas pratiques de votre analyse. La liste des suites de rapports est triée selon la pertinence. Adobe définit la pertinence en fonction de la fréquence dʼutilisation récente de la suite par lʼutilisateur ou lʼutilisatrice actuel et de la fréquence dʼutilisation de la suite au sein de lʼentreprise. |
-| [!UICONTROL Propriétaire] | Indique la personne qui a créé le projet. |
-| [!UICONTROL Dernière ouverture] | Indique la date de la dernière ouverture du projet. |
-| Icône Personnaliser le tableau | Sélectionne les colonnes à afficher dans le tableau. Pour ajouter ou supprimer des colonnes de la liste des projets, cliquez sur l’icône de colonne (![Landing all](/help/analyze/assets/select-column.png)) dans le coin supérieur droit, puis sélectionnez ou désélectionnez les titres des colonnes. |
 | AFFICHER : Dossiers et projets ou Tous les projets | Modifie le paramètre d’affichage du tableau pour afficher les dossiers et les projets en fonction de l’organisation des dossiers **ou** affiche tous les projets dans une liste non organisée. |
 | &lt; (bouton Précédent) | Vous renvoie à la configuration de page de destination la plus récente dans un projet Workspace ou un rapport. La configuration de page que vous aviez lorsque vous avez quitté la page de destination persiste à votre retour. |
-
-### Abandon de la page Gestionnaire de projets {#deprecate-pm-page}
-
-En raison de la publication de la nouvelle page de destination, nous avons abandonné la page Gestionnaire de projets répertoriée sous le Gestionnaire de composants. La nouvelle page de destination gère toutes les fonctionnalités de l’ancienne page Gestionnaire de projets et plus encore.
-
-La page Gestionnaire de projets était souvent utilisée pour afficher tous vos projets.
-
-Pour afficher tous les projets sur la nouvelle page de destination à l’aide du rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Tout afficher**.
-
-![Afficher tous les projets](assets/show-all-fIlter.png)
-
-Si vous vous trouvez dans la vue « Dossiers et projets », une fenêtre modale s’ouvre pour vous demander si vous souhaitez passer à la vue « Tous les projets », qui facilite la consultation de tous les projets en dehors des dossiers dans lesquels ils sont organisés.   Sélectionnez **Passer à la vue « Tous les projets »** pour mieux visualiser tous les projets auxquels vous avez accès.
-
-![Passer à Tous les projets](assets/switch-all-projects-view.png)
-
-Un autre cas d’utilisation pour les administrateurs consiste à gérer les rapports d’entreprise afin de supprimer, renommer, baliser ou approuver les rapports. Pour plus d’informations sur la gestion des rapports, consultez [Gestion des rapports d’entreprise](#manage-company-reports).
 
 ## Parcourir lʼonglet [!UICONTROL Rapports] {#navigate-reports}
 
