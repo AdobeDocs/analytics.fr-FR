@@ -3,16 +3,20 @@ description: Activez les dimensions Gestion du consentement.
 title: Compte rendu des performances sur la confidentialité
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
+source-git-commit: a102242b98967d578918f358166e13d90f06e070
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 71%
+source-wordcount: '112'
+ht-degree: 55%
 
 ---
 
 # Compte rendu des performances sur la confidentialité
 
 La création de rapports de confidentialité permet d’activer la fonction [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md), [Exclusion de la gestion du consentement](/help/components/dimensions/cm-opt-out.md) et [Consentement de la publicité](/help/components//dimensions/ad-consent.md) dimensions à utiliser dans les rapports.
+
+>[!NOTE]
+>
+>Nous avons récemment ajouté un nouvel indicateur Consentement de la plateforme publicitaire . Si vous souhaitez que cette nouvelle variable prenne effet, vous devez réactiver les rapports Confidentialité des données .
 
 Pour accéder à cette page :
 
