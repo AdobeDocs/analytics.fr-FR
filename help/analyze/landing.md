@@ -4,10 +4,10 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 90%
+source-wordcount: '1818'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ Les colonnes disponibles sont les suivantes :
 | [!UICONTROL **Partagé avec**] | Indique avec qui le projet est actuellement partagé. |
 | [!UICONTROL **Dernière modification**] | Date et heure de la dernière modification du projet. |
 | [!UICONTROL **Dernière ouverture**] | Identifie la date à laquelle un projet a été ouvert pour la dernière fois par l’utilisateur qui consulte la page Projets. |
-| [!UICONTROL **Dernière utilisation**] | Permet de déterminer si un projet est utile aux utilisateurs de votre entreprise en indiquant la date et l’heure de la dernière ouverture du projet par un utilisateur de l’entreprise.<p>Cette colonne est réservée aux administrateurs système.</p> |
+| [!UICONTROL **Dernière utilisation**] | Permet de déterminer si un projet est utile aux utilisateurs de votre entreprise en indiquant la date et l’heure de la dernière ouverture du projet par un utilisateur de l’entreprise.<p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Les informations d’utilisation sont disponibles à partir de septembre 2023.</li><li>Cette colonne est réservée aux administrateurs système.</li></ul> |
 | [!UICONTROL **Identifiant du projet**] | Peut être utilisé pour le débogage des projets. |
 | [!UICONTROL **Période la plus longue**] | Des périodes plus longues peuvent compliquer le projet et augmenter le temps de traitement et de chargement. |
 | [!UICONTROL **Nombre de requêtes**] | Le nombre total de requêtes envoyées à Analytics lors du chargement du projet. Un nombre plus élevé de requêtes peut compliquer le projet et augmenter le temps de traitement et de chargement. Ces données ne sont disponibles qu’une fois qu’un projet a été chargé ou qu’un projet planifié a été envoyé. |
