@@ -1,17 +1,17 @@
 ---
 description: Documentation décrivant comment filtrer et trier les tableaux dans Analysis Workspace.
-title: Filtrage et tri des tableaux à structure libre
+title: Filtrer et trier des tableaux à structure libre
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
-# Filtrage et tri des tableaux à structure libre
+# Filtrer et trier des tableaux à structure libre
 
 Les tableaux à structure libre dans Analysis Workspace sont la base de l’analyse de données interactive. Ils peuvent donc contenir des milliers de lignes d’informations. Le filtrage et le tri des données peuvent constituer des éléments essentiels à l’amélioration de l’affichage des informations les plus importantes.
 
@@ -48,12 +48,14 @@ Pour exclure rapidement des lignes spécifiques d’un tableau à structure libr
 
    Maintenez la touche Maj enfoncée pour sélectionner une plage de lignes ou maintenez la touche Commande (sur Mac) ou la touche Ctrl (sous Windows) enfoncée pour sélectionner plusieurs lignes.
 
-### Clic droit > Supprimer les lignes sélectionnées
+<!--### Right-click > Delete selected rows
 
-1. Sélectionnez une ou plusieurs lignes.
-1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Supprimer les lignes sélectionnées]**.
+Note: this option does not seem to work. AN-338422
 
-   Cette action supprime les lignes du tableau et applique un filtre de tableau.
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### Application d’un filtre simple ou avancé à un tableau
 
