@@ -4,10 +4,10 @@ description: Permet de déterminer le nombre maximal d’accès à mettre en fil
 feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 88%
+source-wordcount: '175'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,11 @@ Le suivi hors ligne est une méthode facultative de collecte de données dans Ad
 
 La variable `offlineHitLimit` plafonne le nombre d’accès que l’appareil stocke localement. Cette variable ne fonctionne que si [`trackOffline`](trackoffline.md) est activé.
 
-## Limite d’accès hors ligne à l’aide de l’extension Adobe Analytics
+## Limite des accès hors ligne à l’aide du SDK Web
+
+Le SDK Web ne prend pas en charge le suivi hors ligne.
+
+## Limite des accès hors ligne à l’aide de l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

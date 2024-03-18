@@ -4,7 +4,7 @@ description: Utilisez l’extension SDK Web dans la collecte de données Adobe E
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>7</td>
 <td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’identifiant de flux de données (anciennement appelé id de configuration Edge ).<code>edgeConfigId</code>), id de l’organisation (<code>orgId</code>) et d’autres options disponibles. Assurez-vous que la correspondance des variables est correcte. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuration du SDK Web</a><br/><a href="../variable-mapping.md">Mappage des variables d’objet XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuration du SDK Web</a><br/><a href="../xdm-var-mapping.md">Mappage des variables d’objet XDM</a></td>
 </tr>
 
 <tr>

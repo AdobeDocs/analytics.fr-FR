@@ -4,10 +4,10 @@ description: Permet de déterminer si la page active est une erreur 404.
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,10 @@ La variable `pageType` est un indicateur utilisé pour désigner les pages d’e
 
 ## Type de page utilisant le SDK Web
 
-Le type de page est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.isErrorPage`. Ce champ XDM est un booléen ; définissez-le sur `true` pour le signaler comme une page d’erreur, ou `false` s’il ne s’agit pas d’une page d’erreur. Adobe convertit automatiquement le booléen en valeur de chaîne `errorPage` lorsqu’il est envoyé à une suite de rapports Analytic.
+Le canal est mappé aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - ce champ XDM est une valeur booléenne ; définissez-le sur `true` pour le signaler comme une page d’erreur, ou `false` s’il ne s’agit pas d’une page d’erreur.
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - ce champ d’objet de données est une chaîne ; définissez-le sur `"errorPage"` pour le marquer comme tel.
 
 ## Type de page utilisant l’extension Adobe Analytics
 

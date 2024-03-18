@@ -4,10 +4,10 @@ description: Variables personnalisées que vous pouvez utiliser dans votre mise 
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 96%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,10 @@ Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer ch
 
 ## eVars utilisant le SDK Web
 
-Les eVars sont [mappés pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM `_experience.analytics.customDimensions.eVars.eVar1` à `_experience.analytics.customDimensions.eVars.eVar250`.
+Les eVars sont mappées aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.eVars.eVar1` to `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.eVar1` to `data.__adobe.analytics.eVar250`; ou `data.__adobe.analytics.v1` to `data.__adobe.analytics.v250`
 
 ## eVars utilisant l’extension Adobe Analytics
 

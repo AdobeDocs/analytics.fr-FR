@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -45,10 +45,10 @@ La valeur pour `eVar1` est affectée au produit. Tous les événements de succè
 
 ### Syntaxe de produit utilisant le SDK Web
 
-Les variables de marchandisage de syntaxe de produit sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous plusieurs champs XDM différents.
+Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les variables de marchandisage de syntaxe de produit utilisent les champs XDM suivants :
 
-* Les eVars de marchandisage de syntaxe de produit sont mappées sous `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` à `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* Les événements de marchandisage de syntaxe de produit sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.value` à `productListItems[]._experience.analytics.event901to1000.event1000.value`. Les champs XDM de [sérialisation d’événements](events/event-serialization.md) sont mappés sous `productListItems[]._experience.analytics.event1to100.event1.id` à `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* Les eVars de marchandisage de syntaxe de produit sont mappées sous `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` à `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
+* Les événements de marchandisage de syntaxe de produit sont mappés sous `xdm.productListItems[]._experience.analytics.event1to100.event1.value` à `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`. Les champs XDM de [sérialisation d’événements](events/event-serialization.md) sont mappés sous `xdm.productListItems[]._experience.analytics.event1to100.event1.id` à `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`.
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ Les variables de marchandisage de syntaxe de produit sont [mappées pour Adobe A
 
 L’exemple suivant illustre un seul [produit](products.md) utilisant plusieurs eVars et événements de marchandisage :
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 L’exemple d’objet ci-dessus serait envoyé à Adobe Analytics en tant que `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+
+Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), utilisation du marchandisage en eVar `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` selon la syntaxe de l’AppMeasurement.
 
 ## Implémentation à l’aide de la syntaxe de la variable de conversion
 
@@ -109,33 +111,60 @@ La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les 
 
 ### Syntaxe des variables de conversion utilisant le SDK Web
 
-La syntaxe des variables de conversion utilisant le SDK Web fonctionne de la même manière que la mise en œuvre d’autres [eVars](evar.md) et [évènements](events/events-overview.md). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
+Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la syntaxe fonctionne de la même manière que pour l’implémentation d’autres [eVars](evar.md) et [events](events/events-overview.md). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
 
 Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 Définissez l’événement de liaison et les valeurs de la chaîne des produits :
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les objets de données correspondant à l’exemple ci-dessus se présentent comme suit :
+
+Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+Définissez l’événement de liaison et les valeurs de la chaîne des produits :
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

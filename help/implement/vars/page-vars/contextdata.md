@@ -4,10 +4,10 @@ description: Les variables de données contextuelles vous permettent de définir
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ Les variables de données contextuelles permettent aux équipes de développemen
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si un champ XDM n’est pas [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr), il est automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
+Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne correspondent pas à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
 
-Bien qu’il soit recommandé de mapper les données aux champs XDM corrects dans le flux de données, cette méthode obtient des résultats similaires.
+Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), toutes les variables de données contextuelles résident dans `data.__adobe.analytics.contextData` en tant que paires clé-valeur :
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+La variable [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) l’interface affiche `c.example_variable` et `c.second_example` dans les menus déroulants applicables.
 
 ## Variables de données contextuelles utilisant l’extension Adobe Analytics
 

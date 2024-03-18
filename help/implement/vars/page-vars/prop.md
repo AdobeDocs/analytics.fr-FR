@@ -4,10 +4,10 @@ description: Variables personnalisées que vous pouvez utiliser dans votre mise 
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ Si vous disposez d’un [document de conception de solution](/help/implement/pre
 
 ## Props utilisant le SDK Web
 
-Les props sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous les champs XDM `_experience.analytics.customDimensions.props.prop1` à `_experience.analytics.customDimensions.props.prop75`. Les props de liste sont spécifiées dans un ensemble distinct de champs.
+Les props sont mappées aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - les propriétés de liste sont spécifiées dans un [ensemble distinct de champs](#list-props-web-sdk).
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; ou `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - les propriétés de liste sont incluses dans ces champs.
 
 ## Props utilisant l’extension Adobe Analytics
 
@@ -60,9 +63,11 @@ Activez les props de liste dans [Variables de trafic](/help/admin/admin/c-manage
 >
 >Les délimiteurs courants utilisés dans les mises en œuvre sont une virgule (`,`), deux-points (`:`), un point-virgule (`;`) ou une barre verticale (`|`). Vous pouvez utiliser n’importe quel délimiteur ASCII non étendu qui correspond le mieux à votre mise en œuvre.
 
-### Définir des props de liste à l’aide du SDK Web
+### Définir des props de liste à l’aide du SDK Web {#list-props-web-sdk}
 
-Une fois que vous avez configuré les props de liste dans les paramètres de la suite de rapports avec le délimiteur souhaité, les props de liste sont mappées pour Adobe Analytics sous `_experience.analytics.customDimensions.listProps.prop1.values[]` à `_experience.analytics.customDimensions.listProps.prop75.values[]`. Le SDK Web utilise automatiquement le délimiteur correct répertorié sous les paramètres de la suite de rapports. Si vous définissez le délimiteur dans le champ XDM (par exemple, `_experience.analytics.customDimensions.props.prop1.delimiter`), cela remplace le délimiteur automatiquement récupéré à partir des paramètres de la suite de rapports et peut entraîner une analyse incorrecte de la chaîne de props de liste.
+Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les props de liste sont mappées sur `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Le SDK Web utilise automatiquement le délimiteur correct répertorié sous les paramètres de la suite de rapports. Si vous définissez le délimiteur dans le champ XDM (par exemple, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), cela remplace le délimiteur automatiquement récupéré à partir des paramètres de la suite de rapports et peut entraîner une analyse incorrecte de la chaîne de props de liste.
+
+Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les props de liste utilisent les mêmes champs que les props standard et suivent la syntaxe de l’AppMeasurement.
 
 ### Définir des props de liste à l’aide de l’extension Adobe Analytics et d’AppMeasurement
 

@@ -4,10 +4,10 @@ description: Permet de renseigner la dimension « Code de suivi ».
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 68%
+source-wordcount: '240'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,10 @@ Cette variable renseigne la variable [Code de suivi](/help/components/dimensions
 
 ## Campaign à l&#39;aide du SDK Web
 
-La campagne est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `marketing.trackingCode`.
+Campaign est mappé aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `marketing.trackingCode`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.campaign` ou `data.__adobe.analytics.v0`
 
 ## Campaign à l’aide de l’extension Adobe Analytics
 

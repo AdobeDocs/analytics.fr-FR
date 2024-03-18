@@ -4,10 +4,10 @@ description: Pour les sites d’e-commerce, définit la devise utilisée par la 
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '946'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,10 @@ Un point **doit** doit être utilisé comme séparateur de devise pour toutes le
 
 ## Code de devise utilisant le SDK Web
 
-Le code de devise est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `commerce.order.currencyCode`.
+Le code de devise est mappé aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` ou `data.__adobe.analytics.cc`
 
 ## Code de devise utilisant l’extension Adobe Analytics
 

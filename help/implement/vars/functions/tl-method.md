@@ -4,10 +4,10 @@ description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Suivi des liens à l’aide du SDK Web
 
-Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; tous deux utilisent la variable `sendEvent` . Si vous souhaitez qu’Adobe Analytics comptabilise un événement XDM donné comme un appel de suivi des liens, assurez-vous que vos données XDM incluent ou sont mappées à `web.webInteraction.name`, `web.webInteraction.URL`, et `web.webInteraction.type`.
+Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; tous deux utilisent la variable `sendEvent` .
 
-* Le nom du lien est mappé à `web.webInteraction.name`.
-* L’URL de lien est mappée à `web.webInteraction.URL`.
-* Le type de lien est mappé à `web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
+Si vous utilisez un objet XDM et souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que vos données XDM comprennent :
+
+* Nom du lien : mappé sur `xdm.web.webInteraction.name`.
+* URL du lien : mappée sur `xdm.web.webInteraction.URL`.
+* Type de lien : mappé sur `xdm.web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+Si vous utilisez un objet de données et souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que votre objet de données comprend :
+
+* Nom du lien : mappé sur `data.__adobe.analytics.linkName`.
+* URL du lien : mappée sur `data.__adobe.analytics.linkURL`.
+* Type de lien : mappé sur `data.__adobe.analytics.linkType`. Les valeurs valides sont les suivantes : `o` (Liens personnalisés), `d` (Liens de téléchargement) et `e` (Liens de sortie).
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

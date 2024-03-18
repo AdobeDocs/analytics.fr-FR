@@ -4,10 +4,10 @@ description: Découvrez quelle couche de données se trouve dans votre mise en �
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
 
 1. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `adobeDataLayer.page.title`.
 1. **Utilisez la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données** : Cette étape varie en fonction de la méthode de mise en œuvre de votre entreprise :
-   * **Si vous utilisez le SDK Web** : mappez les objets de couche de données de votre choix aux champs XDM désirés dans Adobe Experience Platform Edge. Consultez la section [Mappage des variables Analytics](../aep-edge/variable-mapping.md) pour déterminer le mappage de couche de données souhaité.
+   * **Si vous utilisez le SDK Web** : mappez les objets de couche de données de votre choix aux champs XDM désirés dans Adobe Experience Platform Edge. Voir [Mappage des variables XDM Analytics](../aep-edge/xdm-var-mapping.md) pour déterminer le mappage de couche de données souhaité.
    * **Si vous utilisez l’extension Analytics** : créez des éléments de données sous l’onglet Balises dans la collecte de données Adobe Experience Platform et affectez-les aux objets de couche de données de votre choix. Ensuite, dans l’extension Analytics, affectez chaque élément de données à la variable Analytics appropriée.
 
 ## Spécifications

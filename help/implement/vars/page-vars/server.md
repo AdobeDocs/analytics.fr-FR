@@ -4,7 +4,7 @@ description: Permet de renseigner la dimension « Serveurs ».
 feature: Variables
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -17,7 +17,10 @@ La variable `server` stocke généralement le nom d’hôte de votre site. Elle 
 
 ## Serveur utilisant le SDK Web
 
-Le serveur est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `web.webPageDetails.server`.
+Le serveur est mappé aux variables suivantes :
+
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
 
 ## Serveur utilisant l’extension Adobe Analytics
 

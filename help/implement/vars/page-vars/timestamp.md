@@ -4,10 +4,10 @@ description: Permet de définir manuellement l’horodatage de l’accès.
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 
 ## Horodatage à l’aide du SDK Web
 
-Horodatage [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=fr) sous le champ XDM `xdm.timestamp`. Ce champ ne prend en charge que l’heure Unix.
+Horodatage [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) sous le champ XDM `xdm.timestamp`. Ce champ ne prend en charge que l’heure Unix.
 
 ## Horodatage utilisant l’extension Adobe Analytics
 
@@ -33,7 +33,7 @@ La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ Les dates et les heures exprimées dans la [norme ISO 8601](https://fr.wikipedia
 * La date et l’heure doivent être précisées, séparées par `T`.
 * Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.
 * Les dates de semaine et les dates ordinales ne sont pas prises en charge.
-* La date peut être au format standard ou étendu. Par exemple, `2020-01-01T00:00:00Z` et `20200101T000000Z` sont tous deux valides.
+* La date peut être au format standard ou étendu. Par exemple, `2024-01-01T00:00:00Z` et `20240101T000000Z` sont tous deux valides.
 * Les minutes et secondes fractionnaires sont techniquement valides, mais les fractions sont ignorées par Adobe.
 * Les fuseaux horaires sont pris en charge dans les formats standard et étendus.
 
 Voici des exemples de valeurs ISO 8601 valides dans la variable `timestamp` :
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```
