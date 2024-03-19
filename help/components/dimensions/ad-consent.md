@@ -2,9 +2,9 @@
 title: Consentement de la publicité
 description: Voir la configuration du consentement publicitaire pour les fournisseurs tiers.
 feature: Dimensions
-source-git-commit: 31f61c64fef707e2d2499b853a9b54caf847634b
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,6 @@ Le &quot;consentement publicitaire&quot; [dimension](overview.md) indique si le 
 Actuellement, cette dimension est utilisée uniquement pour Google. En vertu de la réglementation européenne sur la protection des données, la loi sur les marchés numériques (DMA), Google exige que les données envoyées à ses serveurs et collectées en Europe indiquent si le consentement est collecté. Certains clients Analytics envoient des données d’événement par Adobe Advertising en tant qu’événements de conversion vers Google.
 
 À l’avenir, cette dimension peut être utilisée pour prendre en charge le codage d’informations de consentement supplémentaires pour d’autres fournisseurs de publicité tiers.
-
 
 ## Renseigner cette dimension avec des données
 
@@ -52,9 +51,11 @@ Les caractères situés au-delà du premier et du deuxième caractère sont actu
 Vous pouvez utiliser les données de consentement de publicité collectées :
 
 * Flux de données : les données de consentement pour la publicité sont disponibles à l’aide de la variable `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Rapports de l’entrepôt de données : les données de consentement pour la publicité sont disponibles à l’aide de la variable **[!UICONTROL Consentement de la plateforme publicitaire]** dimension.
+* Rapports du Data Warehouse : les données de consentement pour la publicité sont disponibles à l’aide de la variable **[!UICONTROL Consentement de la plateforme publicitaire]** dimension.
 
 
 Votre entreprise détermine la logique de mise en oeuvre de cette variable de données contextuelles. La valeur ne persiste pas au-delà de l’accès sur lequel elle est définie. Vous devez donc définir la variable de données contextuelles sur chaque page.
 
 Lorsque vous envoyez des données publicitaires d’Adobe Analytics via Adobe Advertising en tant qu’événements de conversion vers Google, consultez l’équipe d’Adobe Advertising pour faciliter l’intégration.
+
+Pour plus d’informations, voir [Reporting sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

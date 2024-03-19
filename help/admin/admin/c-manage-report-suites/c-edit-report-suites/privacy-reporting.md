@@ -3,10 +3,10 @@ description: Activez les dimensions Gestion du consentement.
 title: Compte rendu des performances sur la confidentialité
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ Pour accéder à cette page :
 1. Une fois ces variables activées, un message de confirmation s’affiche. Les dimensions sont disponibles dans les rapports.
 
    ![Rapport](assets/consent-management.png)
+
+## Dimension Consentement de publicité
+
+La variable [Dimension Consentement de publicité](/help/components/dimensions/ad-consent.md) indique si le consentement est collecté pour envoyer des données à des fournisseurs de publicité tiers, tels que Google, Meta, etc.
