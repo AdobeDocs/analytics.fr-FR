@@ -6,7 +6,7 @@ feature: Implementation Basics
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
 * **Serveur de collecte :** voir Serveur de collecte de données.
-* **Composant :** Les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments et de plages de dates que vous pouvez faire glisser sur un projet. Voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans le guide d’utilisation Analyser.
+* **Composant :** les composants d’Analysis Workspace sont constitués de dimensions, mesures, segments et périodes que vous pouvez glisser-déposer dans un projet. Voir [Vue d’ensemble des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans le guide d’utilisation Analyze.
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
 * **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
@@ -74,7 +74,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Connexion de société :** collection de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation.
 * **Canal marketing :** fonctionnalité d’Adobe Analytics classant les accès en fonction de leur arrivée sur votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Mesure :** type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Chiffre d’affaires. Leur contrepartie est souvent une dimension.
-* **Mobile Services :** Produit Adobe retiré qui a rassemblé les fonctionnalités de marketing mobile pour les applications mobiles de Adobe Experience Cloud, ce qui vous permet d’analyser et d’améliorer l’engagement des utilisateurs de vos applications.
+* **Mobile Services :** produit Adobe obsolète qui réunissait lʼensemble des fonctionnalités de marketing mobile pour les applications mobiles dʼAdobe Experience Cloud, ce qui permettait dʼanalyser et dʼaméliorer lʼengagement des utilisateurs et des utilisatrices de vos applications.
 * **Balisage multisuite :** pratique consistant à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction des suites de rapports virtuelles, cette pratique n’est globalement plus nécessaire. La plupart des efforts de balisage multisuite permettent d’adapter une suite de rapports globale.
 * **Normalisation :** méthode d’organisation de visualisation qui prend toutes les mesures et force des proportions égales, permettant ainsi une comparaison plus facile des tendances.
 * **Occurrences :** type de mesure montrant le nombre d’accès à un élément de dimension défini ou persistant. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide d’utilisation des composants.
@@ -91,7 +91,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Report Builder :** macro complémentaire Microsoft Excel qui permet de créer des requêtes personnalisées à partir de données Adobe Analytics.
 * **Suite de rapports :** conteneur global vers lequel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
-* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage dans le package Analytics. Cet outil a été [fin de vie](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
+* **Reports &amp; Analytics :** anciennement appelé SiteCatalyst. Solution de navigateur pour la création de rapports et l’analyse. Outil de démarrage du package Analytics. Cet outil a été [mis hors service](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html).
 * **Période flottante :** type de période relative qui change au fil du temps. Par exemple, un rapport montrant les 7 derniers jours peut être considéré comme une période variable. Voir aussi Période statique.
 * **RSID :** abréviation d’identifiant de suite de rapports. Une suite de rapports a un nom convivial et un identifiant.
 * **s.t() :** nom de la fonction d’une bibliothèque AppMeasurement envoyant une demande d’image de pages vues. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Voir [t](../implement/vars/functions/t-method.md) dans le guide d’utilisation de la mise en œuvre.

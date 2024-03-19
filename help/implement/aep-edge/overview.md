@@ -7,7 +7,7 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 23%
+ht-degree: 46%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe propose trois méthodes principales pour envoyer des données au réseau E
 
 * **[SDK Web Adobe Experience Platform](web-sdk/overview.md)** : utilisez l’extension SDK Web dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
 * **[SDK Mobile Adobe Experience Platform](mobile-sdk/overview.md)** : utilisez l’extension SDK Mobile dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
-* **[API du serveur réseau Adobe Experience Platform Edge](server-api/overview.md)**: envoyez directement des données à Edge à l’aide d’une API.
+* **[API du serveur réseau Edge Adobe Experience Platform](server-api/overview.md)** : envoyez directement des données à Edge à l’aide d’une API.
 
 
 
@@ -33,12 +33,12 @@ Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre 
 
 Le réseau Edge utilise la logique suivante pour déterminer les pages vues Adobe Analytics et les événements de lien.
 
-| La charge utile XDM contient... | Adobe Analytics... |
+| La payload XDM contient... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` ou `web.webPageDetails.URL` et non `web.webInteraction.type` | considère la charge utile a **page vue** |
-| `web.webInteraction.type` et (`web.webInteraction.name` ou `web.webInteraction.url`) | considère la charge utile a **événement de lien** |
-| `web.webInteraction.type` et (`web.webPageDetails.name` ou `web.webPageDetails.url`) | considère la charge utile a **événement de lien** <br/>`web.webPageDetails.name` et `web.webPageDetails.URL` sont définis sur `null` |
-| non `web.webInteraction.type` et (non `webPageDetails.name` et non `web.webPageDetails.URL`) | supprime la charge utile et ignore les données |
+| `web.webPageDetails.name` ou `web.webPageDetails.URL` et pas `web.webInteraction.type` | considère que la payload est une **page vue** |
+| `web.webInteraction.type` et (`web.webInteraction.name` ou `web.webInteraction.url`) | considère que la payload est un **événement de lien** |
+| `web.webInteraction.type` et (`web.webPageDetails.name` ou `web.webPageDetails.url`) | considère que la payload est un **événement de lien** <br/>`web.webPageDetails.name` et `web.webPageDetails.URL` sont définis sur `null` |
+| pas `web.webInteraction.type` et (pas `webPageDetails.name` et pas `web.webPageDetails.URL`) | supprime la payload et ignore les données |
 
 {style="table-layout:auto"}
 
