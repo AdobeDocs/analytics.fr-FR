@@ -1,17 +1,17 @@
 ---
-title: Consentement de la publicité
+title: Consentement pour la plateforme publicitaire
 description: Voir la configuration du consentement publicitaire pour les fournisseurs tiers.
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 3%
 
 ---
 
-# Consentement de la publicité
+# Consentement pour la plateforme publicitaire
 
-Le &quot;consentement publicitaire&quot; [dimension](overview.md) indique si le consentement est collecté pour envoyer des données à des fournisseurs de publicité tiers, tels que Google, Meta, etc.
+Le &quot;consentement de la plateforme publicitaire&quot; [dimension](overview.md) indique si le consentement est collecté pour envoyer des données à des fournisseurs de publicité tiers, tels que Google, Meta, etc.
 
 Actuellement, cette dimension est utilisée uniquement pour Google. En vertu de la réglementation européenne sur la protection des données, la loi sur les marchés numériques (DMA), Google exige que les données envoyées à ses serveurs et collectées en Europe indiquent si le consentement est collecté. Certains clients Analytics envoient des données d’événement par Adobe Advertising en tant qu’événements de conversion vers Google.
 
@@ -52,7 +52,6 @@ Vous pouvez utiliser les données de consentement de publicité collectées :
 
 * Flux de données : les données de consentement pour la publicité sont disponibles à l’aide de la variable `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Rapports du Data Warehouse : les données de consentement pour la publicité sont disponibles à l’aide de la variable **[!UICONTROL Consentement de la plateforme publicitaire]** dimension.
-
 
 Votre entreprise détermine la logique de mise en oeuvre de cette variable de données contextuelles. La valeur ne persiste pas au-delà de l’accès sur lequel elle est définie. Vous devez donc définir la variable de données contextuelles sur chaque page.
 
