@@ -4,9 +4,9 @@ description: Forum aux questions sur l’utilisation des classifications.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '377'
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ Forum aux questions sur l’utilisation des classifications.
 
 ## Comment classer l’élément de dimension « 0 » ?
 
-Les fichiers de classification transférés avec une valeur de clé ou une valeur de classification de zéro (`0`) génèrent une erreur. Cela comprend toutes les valeurs qui ne contiennent que des zéros (`00`, `000`, etc.). Plusieurs méthodes permettent de résoudre ce problème :
+Les fichiers de classification chargés avec une valeur de clé ou une valeur de classification de zéro (`0`) génèrent une erreur. Cela comprend toutes les valeurs qui ne contiennent que des zéros (`00`, `000`, etc.). Plusieurs méthodes permettent de résoudre ce problème :
 
 * **Mise en œuvre de valeurs alternatives** : l’utilisation d’une valeur de texte autre que `"0"` constitue la méthode la plus simple et la plus efficace pour résoudre ce problème. Par exemple, remplacez `s.campaign = "0";` dans votre mise en œuvre par `s.campaign = "Zero";`.
 
 * **Utilisation des règles de traitement** : vous pouvez modifier des éléments de dimension entre la collecte de données et leur enregistrement dans une suite de rapports. Création de la règle de traitement suivante :
 
-   *Si la [dimension] est égale à `0`, remplacez la valeur de la [dimension] par la valeur personnalisée `Zero`.*
+  *Si la [dimension] est égale à `0`, remplacez la valeur de la [dimension] par la valeur personnalisée `Zero`.*
 
-* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez votre équipe de compte d’Adobe pour demander une règle VISTA.
+* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez votre équipe Adobe en charge des comptes pour demander une règle VISTA.
 
 ## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
 
@@ -44,7 +44,7 @@ Il n’est généralement pas recommandé d’utiliser des caractères spéciaux
 3. Configurez les paramètres d’exportation et assurez-vous que l’option « Sortie entre guillemets » n’est PAS sélectionnée.
 4. Cliquez sur **[!UICONTROL Exporter un fichier]**, puis ouvrez le fichier téléchargé dans un éditeur de feuille de calcul.
 5. Sur la ligne 1, localisez la cellule C1, qui contient la valeur `v:2.0`. Remplacez la valeur par `v:2.1` et appliquez les classifications de votre choix au classeur.
-6. Transférez le fichier comme vous le feriez pour toute autre classification.
+6. Chargez le fichier comme vous le feriez pour toute autre classification.
 
 ## Que sont les classifications numériques 2 ?
 

@@ -5,7 +5,7 @@ feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: ht
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 
    >[!NOTE]
    >
-   >Seuls les paramètres peuvent être copiés, pas les données. Si le service à la clientèle copie les paramètres, vous devez fournir une confirmation écrite de la clause de non-responsabilité fournie par le service à la clientèle concernant les risques encourus. Reportez-vous à la section  [Paramètres non copiés depuis une suite de rapports source](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md) pour plus d’informations.
+   >Seuls les paramètres peuvent être copiés, pas les données. Si le service à la clientèle copie les paramètres, vous devez fournir une confirmation écrite de la clause de non-responsabilité fournie par le service à la clientèle concernant les risques encourus. Pour plus d’informations, consultez [Paramètres non copiés depuis une suite de rapports source](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md).
 
 1. Renseignez les champs décrits à la section [Nouvelle suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
 1. Cliquez sur **[!UICONTROL Créer une suite de rapports]**.

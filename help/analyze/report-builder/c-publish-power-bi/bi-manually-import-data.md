@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ Si vous souhaitez importer des données Analytics manuellement via Power BI, su
 
 1. Cliquez sur Fichier local.
 
-   ![Cliquez sur l’icône Fichier local .](assets/local-file.png)
+   ![Cliquez sur l’icône Fichier local.](assets/local-file.png)
 
 1. Sélectionnez le fichier à charger et cliquez sur **[!UICONTROL Ouvrir]**.
 1. Cliquez sur **[!UICONTROL Télécharger]** en dessous de l’option **[!UICONTROL Charger votre fichier Excel dans Power BI]**.
 
-   ![Cliquez sur Télécharger pour télécharger votre fichier Excel.](assets/upload-excel-file.png)
+   ![Cliquez sur Charger pour charger votre fichier Excel.](assets/upload-excel-file.png)
 
-1. Le message « Votre fichier a été téléchargé » doit s’afficher.
+1. Le message « Votre fichier a été chargé » doit s’afficher.

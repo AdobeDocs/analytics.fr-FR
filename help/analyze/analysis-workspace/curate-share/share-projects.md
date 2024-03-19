@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1929'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,30 +55,30 @@ Lorsque vous partagez un rôle de projet spécifique avec des utilisateurs et ut
 
 * Si un utilisateur ou une utilisatrice reçoit plusieurs rôles, le rôle le plus élevé s’applique. Cela peut se produire si la personne est ajouté à la fois en tant que personne individuelle et en tant que membre d’un groupe. Par exemple, si une personne reçoit le rôle **[!UICONTROL Modifier l’original]** en tant que personne individuelle et le rôle **[!UICONTROL Lecture seule]** en tant que personne membre d’un groupe, elle recevra une expérience de projet **[!UICONTROL Modifier l’original]**.
 
-* Les administrateurs et administratrices se voyant attribuer un rôle **[!UICONTROL Modifier la copie]** ou **[!UICONTROL Lecture seule]** bénéficient de ces expériences limitées lorsqu’ils ouvrent un projet. Un administrateur peut remplacer son rôle par **[!UICONTROL Modifier l’original]** en partageant le projet avec eux-mêmes et en accordant la **Modifier** , comme décrit dans la procédure suivante.
+* Les administrateurs et administratrices se voyant attribuer un rôle **[!UICONTROL Modifier la copie]** ou **[!UICONTROL Lecture seule]** bénéficient de ces expériences limitées lorsqu’ils ouvrent un projet. Une personne chargée de l’administration peut remplacer son rôle pour **[!UICONTROL Modifier l’original]** en partageant le projet avec elle-même, puis en accordant le rôle **Modifier**, comme décrit dans la procédure suivante.
 
-* Si plusieurs projets sont sélectionnés pour le partage, des destinataires seront ajoutés à la liste existante de destinataires pour chaque projet.
+* Si plusieurs projets sont sélectionnés pour le partage, des personnes destinataires seront ajoutées à la liste existante de personnes destinataires pour chaque projet.
 
-  Par exemple, le projet A est déjà partagé avec les destinataires 1, 2 et 3, tandis que le projet B est déjà partagé avec les destinataires 4, 5 et 6.
+  Par exemple, le projet A est déjà partagé avec les personnes destinataires 1, 2 et 3, tandis que le projet B est déjà partagé avec les personnes destinataires 4, 5 et 6.
 
-  Les projets A et B sont ensuite partagés avec les destinataires 4 et 7. La nouvelle liste de partage pour le projet A est désormais 1, 2, 3, 4 et 7, tandis que la nouvelle liste de partage pour le projet B est 4, 5, 6 et 7.
+  Les projets A et B sont ensuite partagés avec les personnes destinataires 4 et 7. La nouvelle liste de partage pour le projet A est désormais 1, 2, 3, 4 et 7, tandis que la nouvelle liste de partage pour le projet B est 4, 5, 6 et 7.
 
 Pour partager un rôle de projet spécifique avec des utilisateurs et utilisatrices ou des groupes de votre organisation, procédez comme suit :
 
-1. Dans Adobe Analytics, sélectionnez la variable [!UICONTROL **Workspace**] , puis sélectionnez [!UICONTROL **Projets**] dans le rail de gauche.
+1. Dans Adobe Analytics, sélectionnez l’onglet [!UICONTROL **Workspace**], puis [!UICONTROL **Projets**] dans le rail de gauche.
 
 1. Cochez la case en regard d’un ou plusieurs projets que vous souhaitez partager, puis sélectionnez [!UICONTROL **Partager**].
 
    Ou
 
-   Pour partager un projet individuel uniquement, vous pouvez ouvrir le projet que vous souhaitez partager, puis sélectionner **[!UICONTROL Partager]** > **[!UICONTROL Partage avec les utilisateurs de Workspace]**.
+   Pour partager un projet individuel uniquement, vous pouvez ouvrir le projet que vous souhaitez partager, puis sélectionner **[!UICONTROL Partager]** > **[!UICONTROL Partager avec les utilisateurs et utilisatrices Workspace]**.
 Si des modifications ne sont pas enregistrées, on vous invitera d’abord à enregistrer votre projet.
 
-   La boîte de dialogue Partager le projet s’affiche. La variable [!UICONTROL **Partager par lien**] et [!UICONTROL **Paramètres**] les sections de la boîte de dialogue ne sont visibles que lors du partage d’un seul projet.
+   La boîte de dialogue Partage de projets s’affiche. Les sections [!UICONTROL **Partager par lien**] et [!UICONTROL **Paramètres**] de la boîte de dialogue ne sont visibles que lors du partage d’un seul projet.
 
    ![](assets/share-proj-modal.png)
 
-1. Ajoutez des destinataires ou des groupes de destinataires dans l’un des champs de rôle disponibles :
+1. Ajoutez des personnes destinataires ou des groupes de personnes destinataires dans l’un des champs de rôle disponibles :
 
    **Modifier l’original :** les personnes destinataires peuvent **[!UICONTROL enregistrer]** les modifications dans un projet et agir en tant que personnes copropriétaires. Ce rôle est utile si vous souhaitez cogérer un projet avec d’autres collègues. Cela comprend la modification, la suppression et la modification des listes de destinataires pour un projet partagé. <br>Remarque : Analysis Workspace ne prend actuellement pas en charge la collaboration en direct. Il est donc recommandé qu’un seul utilisateur modifie un projet à la fois. Si les projets sont enregistrés en même temps, la dernière version est conservée.
 
@@ -86,17 +86,17 @@ Si des modifications ne sont pas enregistrées, on vous invitera d’abord à en
 
    **Lecture seule :** les personnes destinataires ne peuvent pas **[!UICONTROL enregistrer]** ou **[!UICONTROL enregistrer sous]** et n’ont pas accès au rail de gauche. Les interactions avec le projet sont également limitées. Ce rôle est utile si vous souhaitez partager un projet avec des utilisateurs et utilisatrices qui connaissent moins bien la structure de données de votre organisation, Analysis Workspace ou Adobe Analytics en général. Cependant, vous souhaitez tout de même que les utilisateurs et utilisatrices consomment des données et des insights dans un environnement sûr. En savoir plus sur l’[expérience de projet Lecture seule](/help/analyze/analysis-workspace/curate-share/view-only-projects.md).
 
-1. (Conditionnel) Si vous partagez un seul projet, choisissez d’activer les options suivantes lors du partage du projet :
+1. (Conditionnel) Si vous partagez un seul projet, choisissez d’activer les options suivantes lors du partage du projet :
 
    * **Partager les composants intégrés au projet :** partagez avec l’ensemble des destinataires les segments, mesures calculées et périodes. Une fois partagés, ces composants apparaîtront dans le menu déroulant des composants de l’espace de travail de destination. Ce paramètre n’est pas persistant, il s’applique une seule fois, au moment du partage du projet.
 
    * **Définir comme page de destination pour les destinataires :** définit cette page comme page de destination pour les destinataires. Ce paramètre n’est pas persistant, il s’applique une seule fois, au moment du partage du projet.
 
-1. Sélectionner **[!UICONTROL Partager]**. (Si le projet a déjà été partagé, sélectionnez [!UICONTROL **Mettre à jour**].)
+1. Sélectionnez **[!UICONTROL Partager]**. (Si le projet a déjà été partagé, sélectionnez [!UICONTROL **Mettre à jour**].)
 
    Ou
 
-   Sélectionner **[!UICONTROL Traitement et partage]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traitement et mise à jour]**.) En savoir plus sur le [traitement des projets](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
+   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traiter et mettre à jour]**.) En savoir plus sur le [traitement des projets](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
 
 ## Partager un lien vers un projet
 
@@ -182,9 +182,9 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
 ## Afficher les projets partagés avec vous
 
-Lorsqu’une personne partage un projet avec vous par [partage d’un rôle de projet spécifique](#share-a-specific-project-role), vous pouvez accéder aux projets partagés à partir du [Onglet Projets de sur la page d’entrée Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
+Lorsqu’une personne partage un projet avec vous en [partageant un rôle de projet spécifique](#share-a-specific-project-role), vous pouvez accéder aux projets partagés à partir de l’[onglet Projets sur la page de destination d’Analytics](/help/analyze/landing.md#navigate-the-projects-tab).
 
-Lorsqu’une personne partage un projet avec vous en partageant un lien (à partir de la fonction [Onglet Partager le projet](#share-a-link-to-a-project) ou en utilisant un [partager avec n&#39;importe qui](#share-a-project-with-anyone-no-login-required) ), vous devez utiliser le lien qui a été partagé avec vous pour accéder au projet. Par exemple, le lien peut avoir été partagé dans un email, sur un site web interne, etc.
+Lorsqu’une personne partage un projet avec vous en partageant un lien (à partir de l’[onglet Partage de projets](#share-a-link-to-a-project) ou en utilisant un lien [partager avec tout le monde](#share-a-project-with-anyone-no-login-required)), vous devez utiliser le lien qui a été partagé avec vous pour accéder au projet. Par exemple, le lien peut avoir été partagé dans un e-mail, sur un site web interne, etc.
 
 ## Partage de composants intégrés
 

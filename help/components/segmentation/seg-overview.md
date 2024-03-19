@@ -1,29 +1,29 @@
 ---
-description: Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Les segments sont conçus en tant qu’informations d’audience codifiées que vous pouvez créer selon vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits d’Adobe et fonctionnalités d’Analytics.
+description: Les segments vous permettent d’identifier des sous-ensembles de visiteurs et visiteuses selon des caractéristiques ou des interactions web. Les segments sont conçus en tant qu’informations d’audience codifiées que vous pouvez créer selon vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits d’Adobe et fonctionnalités d’Analytics.
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # À propos des segments
 
-Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Les segments sont conçus comme des informations sur l’audience que vous pouvez créer en fonction de vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres membres de l’équipe ou utiliser dans d’autres produits Adobe et fonctionnalités d’Analytics.
+Les segments vous permettent d’identifier des sous-ensembles de visiteurs et visiteuses selon des caractéristiques ou des interactions web. Ils sont conçus comme des informations sur les audiences que vous pouvez créer en fonction de vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres personnes membres de l’équipe ou utiliser dans d’autres produits Adobe et fonctionnalités Analytics.
 
-Les segments sont basés sur une [!UICONTROL Visiteur], [!UICONTROL Visite], et [!UICONTROL Accès] hiérarchie de niveau à l’aide d’un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
+Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur ou visiteuse], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
-Vous pouvez créer et enregistrer des segments dans le créateur de segments ou en générer à partir d’un rapport d’abandons (dans [!UICONTROL Analysis Workspace]). Vous pouvez également utiliser et développer des segments pré-créés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés conjointement comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans [!UICONTROL Analysis Workspace]). Vous pouvez également utiliser et développer des segments préconfigurés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-Les segments identifient
+Les segments identifient :
 
-- qui sont vos visiteurs (pays, genre, café-restaurant),
-- quels appareils et services ils utilisent (navigateur, moteur de recherche, appareil mobile),
-- où ils ont navigué (moteur de recherche, page de sortie précédente, recherche naturelle),
-- plus beaucoup plus.
+- qui sont vos visiteurs et visiteuses (pays, genre, café-restaurant) ;
+- quels appareils et services ils utilisent (navigateur, moteur de recherche, appareil mobile) ;
+- où ils ont navigué (moteur de recherche, page de sortie précédente, recherche naturelle) ;
+- et bien plus encore.
 
 <!--![](assets/seg.png)-->
 
@@ -89,7 +89,7 @@ Lors de la création de segments d’audiences dans le Créateur de segments, vo
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">OR</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">OU</td></td>
 </tr>
 
 <tr>
@@ -106,7 +106,7 @@ Lors de la création de segments d’audiences dans le Créateur de segments, vo
 
 <!--![](assets/standard_segment_containers.png)-->
 
-Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL AND] et [!UICONTROL OR].
+Ce type de segment filtre les jeux de données en fonction de caractéristiques regroupées à l’aide des opérateurs [!UICONTROL AND] (et) et [!UICONTROL OR] (ou).
 
 - Vous pouvez [appliquer plusieurs segments à un rapport ou à un projet](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 - Les segments fonctionnent dans toutes les suites de rapports.
@@ -114,11 +114,11 @@ Ce type de segment filtre les jeux de données en fonction de caractéristiques 
 - Le [gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) permet de configurer des [processus](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour le partage, le marquage, la vérification et l’approbation des segments.
 - Vous pouvez [marquer les segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md) pour les organiser et les rechercher ultérieurement au lieu d’utiliser des dossiers.
 - Vous pouvez créer des [segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
-- La variable [!UICONTROL Page vue] Le conteneur est désormais [!UICONTROL Accès] pour indiquer que ce conteneur segmente tous les types de données et pas seulement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
+- Le conteneur de [!UICONTROL pages vues] est désormais le conteneur [!UICONTROL d’accès] afin d’indiquer que ce conteneur segmente tous les types de données et pas uniquement les pages vues. Par exemple, les appels de suivi des liens et les appels trackAction provenant des Kits de développement logiciel (SDK) mobiles sont tous inclus ou exclus par le conteneur d’accès.
 
-## Segmentation dans Analysis Workspace
+## Segmentation dans Analysis Workspace
 
-Analysis Workspace contient les fonctionnalités supplémentaires suivantes :
+Analysis Workspace comprend les fonctionnalités supplémentaires suivantes :
 
 - Vous pouvez [comparer des segments](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md).
 - Utilisez les [segments comme dimensions](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans une comparaison.
@@ -126,9 +126,9 @@ Analysis Workspace contient les fonctionnalités supplémentaires suivantes :
 
 ## Segments fournis par Adobe
 
-Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés et les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo de l’Adobe à droite.
+Le rail Composant sur le côté gauche de l’écran affiche les segments que vous et votre entreprise avez créés et les segments d’Adobe fournis prêts à l’emploi. Lorsque vous cliquez sur **[!UICONTROL Tout afficher]**, ces segments apparaissent généralement au bas de la liste et sont identifiés par le logo d’Adobe à droite.
 
-## Segments séquentiels  {#sequential}
+## Segments séquentiels {#sequential}
 
 Les segments séquentiels permettent d’identifier les visiteurs selon la navigation et la page vue sur votre site, fournissant un segment d’actions et d’interactions définies. Les filtres séquentiels permettent d’identifier ce qu’aime un visiteur et ce qu’il évite. Lors de la création de segments séquentiels, l’opérateur [!UICONTROL THEN] est utilisé pour définir et classer la navigation du visiteur.
 
@@ -136,12 +136,12 @@ Les segments séquentiels permettent d’identifier les visiteurs selon la navig
 
 | Visite 1 | Visite 2 | Visite 3 |
 |---|---|---|
-| Lors de la première visite, le visiteur s’est rendu sur la page d’entrée principale A, a exclu la page de la campagne B, puis a consulté la page des produits C. | Lors de la deuxième visite, le visiteur s’est à nouveau rendu sur la page d’entrée principale A, a exclu la page B de la campagne, est retourné sur la page des produits C, puis a consulté une nouvelle page D. | Lors de la troisième visite, le visiteur a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page F pour accéder directement à la page G du produit ciblé. |
+| Lors de la première visite, la personne s’est rendue sur la page de destination principale A, a exclu la page de la campagne B, puis a consulté la page produit C. | Lors de la deuxième visite, la personne s’est à nouveau rendue sur la page de destination principale A, a exclu la page de la campagne B, est retourné sur la page produit C, puis a consulté une nouvelle page D. | Lors de la troisième visite, la personne a suivi le même chemin que lors des première et deuxième visites, puis a exclu la page F pour se rendre directement à la page produit ciblée G. |
 
 Les segments séquentiels peuvent être basés sur les valeurs d’accès suivantes :
 
-- Visiteurs sur la base d’une séquence d’accès aux pages : pages vues au cours d’une seule visite, pages vues lors de visites distinctes, visites qui ont exclu les pages vues.
-- Visiteurs sur la base de la durée entre et après les pages vues : après une durée, entre les accès, après un événement.
+- Visiteurs et visiteuses sur la base d’une séquence d’accès aux pages : pages vues lors d’une visite unique, pages vues lors de visites distinctes, visites qui ont exclu les pages vues.
+- Visiteurs et visiteuses sur la base de la durée entre et après les pages vues : une fois une durée écoulée, entre des accès, après un événement.
 
 <table style="table-layout:fixed; border: none;">
 
@@ -162,7 +162,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">ALORS</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
 </tr>
 
 <tr>
@@ -206,7 +206,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">ALORS</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
 </tr>
 
 <tr>
@@ -220,7 +220,7 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> Accès</td>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OU</td></td>
 </tr>
 
 <tr>
@@ -233,11 +233,11 @@ Les segments séquentiels peuvent être basés sur les valeurs d’accès suivan
 
 <!--![](assets/sequential_segmentation_containers_view.png)-->
 
-Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL THEN].
+Un segment séquentiel filtre des jeux de données sur la base des actions de l’utilisateur à l’aide de l’opérateur [!UICONTROL THEN] (alors).
 
 ## Vidéo Comment segmenter {#segment-video}
 
-Cette vidéo donne un bref aperçu des conteneurs de segments et de leur utilisation :
+Cette vidéo illustre brièvement ce que sont les conteneurs de segments et comment les utiliser :
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
@@ -282,9 +282,9 @@ Les administrateurs peuvent modifier n’importe quel segment et partager les se
 
 +++ **Puis-je consulter tous les segments de mon entreprise ?**
 
-Oui, les administrateurs peuvent voir tous les segments dans la variable [!DNL Analysis Workspace] de l’interface utilisateur.
+Oui, les administrateurs et admnistratrices peuvent voir tous les segments dans l’interface utilisateur d’[!DNL Analysis Workspace].
 
-Report Builder affiche les segments que vous possédez et ceux qui sont partagés avec vous.
+Report Builder affiche les segments que vous possédez et les segments qui sont partagés avec vous.
 
 +++
 
@@ -292,7 +292,7 @@ Report Builder affiche les segments que vous possédez et ceux qui sont partagé
 
 Oui, tous les segments peuvent être gérés dans le Gestionnaire de segments. Le Gestionnaire de segments affiche des segments que le propriétaire (utilisateur qui a créé le segment), les utilisateurs partagés et les administrateurs peuvent consulter. Le sélecteur de segments affiche les segments possédés par l’utilisateur et partagés avec ce dernier.
 
-Les administrateurs peuvent consulter tous les segments de l’interface utilisateur d’Analysis Workspace.
+Les administrateurs et administratrices peuvent voir tous les segments dans l’interface utilisateur d’Analysis Workspace.
 
 Report Builder affiche uniquement les segments que vous avez conçus ou ceux qui ont été partagés avec vous.
 

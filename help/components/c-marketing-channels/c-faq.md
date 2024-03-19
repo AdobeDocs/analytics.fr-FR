@@ -4,8 +4,8 @@ description: Forum aux questions sur les canaux marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '1500'
+workflow-type: ht
+source-wordcount: '1506'
 ht-degree: 100%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Afin d’optimiser l’efficacité des canaux marketing pour Attribution  et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, tel que décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Forum aux questions sur les canaux marketing.
 
 ## Mes codes de suivi ne suivent pas de schéma et j’en ai des milliers à spécifier pour mon canal Affilié.
 
-* Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec   *`affiliates.`*
+* Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
 * Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page de destination, comme *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
 
 ## Les domaines référents contiennent plus de données que prévu.
@@ -37,7 +37,7 @@ Assurez-vous que le nom du paramètre est spécifié dans les champs de paramèt
 
 ## Pourquoi la totalité du trafic Dernière touche est-elle attribuée à un domaine interne ?
 
-Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Dans le cas d’une règle telle que   *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
+Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Si vous avez une règle telle que *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
 
 ## Comment déboguer le trafic qui s’affiche dans Aucun canal identifié sur le rapport ?
 

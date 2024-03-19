@@ -5,8 +5,8 @@ feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
-workflow-type: tm+mt
-source-wordcount: '1190'
+workflow-type: ht
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ Vous pouvez gérer les composants directement dans le rail de gauche.
 
 1. Cliquez avec le bouton droit sur un composant.
 
-   OU
+   Ou
 
    Sélectionnez un composant, puis cliquez sur l’icône (de 3 points) **Action** en haut de la liste des composants.
 
@@ -107,7 +107,7 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de
 
 2. Sélectionnez l’icône **Filtre** ![icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
-   OU
+   Ou
 
    Saisissez le signe dièse (#) dans le champ de recherche.
 

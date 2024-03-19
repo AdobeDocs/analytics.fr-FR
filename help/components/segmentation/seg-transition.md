@@ -4,9 +4,9 @@ title: Questions fréquentes sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Répond aux questions fréquentes sur les bonnes pratiques de gestion des segmen
 
 Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
 
-La plupart des anciens segments prédéfinis et de suite seront migrés sous forme de modèles de segments dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des segments prédéfinis et des segments de suite précédents seront migrés sous forme de modèles de segment dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
 Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
 
@@ -42,15 +42,15 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 +++
 
-+++ **Qu’est-il advenu des segments de Data Warehouse ?**
++++ **Qu’advient-il des segments Data Warehouse ?**
 
-Tous les segments Data Warehouse existants fonctionnent toujours dans l’entrepôt de données. La plupart des segments Data Warehouse fonctionneront également dans d’autres composants tels qu’Analysis Workspace.
+Tous les segments Data Warehouse existants fonctionnent toujours dans Data Warehouse. La plupart des segments Data Warehouse fonctionnent également dans d’autres composants, comme Analysis Workspace.
 
 Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
 +++
 
-+++ **Qu’est-il advenu des segments préconfigurés ?**
++++ **Qu’advient-il des segments préconfigurés ?**
 
 * **Visites de page unique**
 * **Visites depuis des appareils mobiles**
@@ -62,7 +62,7 @@ Ces segments seront migrés sous forme de modèles de segments dans le Créateur
 
 +++
 
-+++ **Qu’est-il advenu des segments Experience Cloud (Suite) ?**
++++ **Qu’advient-il des segments Experience Cloud (Suite) ?**
 
 * Non-acheteurs
 * Acheteurs
@@ -72,13 +72,13 @@ Ces segments seront migrés sous forme de modèles de segments dans le Créateur
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (à l’exception de ceux marqués d’un astérisque *) ont été migrés sous forme de modèles de segments dans le créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (à l’exception de ceux signalés par un astérisque) seront migrés sous forme de modèles de segment dans le créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
-Les rapports existants auxquels ces segments sont appliqués continuent de fonctionner correctement.
+Tout rapport auquel ces segments sont appliqués continue à fonctionner correctement.
 
 +++
 
-+++ **Qu’est-il advenu des segments administrateur (également appelés &quot;segments globaux&quot;) ?**
++++ **Qu’advient-il des segments d’administration (également appelés « segments globaux ») ?**
 
 Les segments d’**administrateur** seront migrés vers la nouvelle interface de segment et s’afficheront en tant que segments partagés avec tout le monde.
 
@@ -103,7 +103,7 @@ Les segments existants qui utilisent une logique qui a été modifiée comme ind
 * Examinez les segments à votre disposition.
 * Ajoutez les segments à la bibliothèque de segments lorsque cela est possible.
 * Approuvez les segments canoniques.
-* Marquez les segments en fonction de [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Balisez les segments conformément aux [bonnes pratiques](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -114,7 +114,7 @@ Les conseils suivants vous aideront à migrer les dimensions courantes :
 * Ville/région/pays géo : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
 * Navigateurs : utilisez la dimension Types de navigateur afin de regrouper tous les navigateurs dans un type, par exemple Google Chrome.
 * Systèmes d’exploitation : utilisez les dimensions des types de système d’exploitation pour regrouper tous les systèmes d’exploitation dans un type, par exemple Microsoft Windows.
-* Voir la section &quot;Dimensions nouvelles et renommées&quot; (voir ci-dessous).
+* Voir la section « Dimensions nouvelles et renommées » (ci-dessous).
 
 ## Dimensions nouvelles et renommées {#renamed}
 
@@ -152,7 +152,7 @@ Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont 
 
 Les dimensions suivantes ont été modifiées en listes énumérées :
 
-| Nom de la Dimension | Nom de la Dimension | Nom de la Dimension |
+| Nom de la dimension | Nom de la dimension | Nom de la dimension |
 | --- | --- | --- |
 | fabricant du périphérique mobile | longueur d’adresse e-mail du périphérique mobile | profondeur de couleur |
 | taille de l’écran du périphérique mobile | numéro de l’appareil mobile | résolution de l’écran |
@@ -171,7 +171,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 
 ## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#integer-based-dims}
 
-Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées à l’aide des interfaces précédente et nouvelle du créateur de segments :
+Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du créateur de segments antérieure et nouvelle :
 
 ![](assets/seg_browser_dimension.png)
 

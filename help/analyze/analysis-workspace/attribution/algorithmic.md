@@ -5,15 +5,15 @@ feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
 source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: tm+mt
-source-wordcount: '257'
+workflow-type: ht
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
 # Attribution algorithmique
 
-Le [modèle d’attribution](models.md) algorithmique dans Analysis Workspace diffère des autres modèles dans la mesure où il utilise des techniques statistiques pour répartir le crédit entre les éléments de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution dans Analysis Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les ventilations illimitées. Il distribue 100 % des conversions aux dimensions du tableau (cela est également appelé attribution « partielle »).
+Le [modèle d’attribution](models.md) algorithmique dans Analysis Workspace diffère des autres modèles dans la mesure où il utilise des techniques statistiques pour répartir le crédit entre les éléments de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution dans Analysis Workspace, il peut être utilisé sur n’importe quelle dimension ou mesure et prend en charge la segmentation et les répartitions illimitées. Il distribue 100 % des conversions aux dimensions du tableau (cela est également appelé attribution « partielle »).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36205/?quality=12)
 

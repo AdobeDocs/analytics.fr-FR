@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
-workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Les projets dans Analysis Workspace sont automatiquement enregistrés toutes les
 
 Vous pouvez également enregistrer des projets manuellement. D’autres options, telles que l’ajout de balises ou de notes, sont disponibles lorsque vous enregistrez un projet manuellement.
 
-## Enregistrement manuel de projets {#Save}
+## Enregistrer manuellement des projets {#Save}
 
 Plusieurs options sont disponibles lors de l’enregistrement manuel d’un projet dans Analysis Workspace.
 
@@ -30,7 +30,7 @@ Enregistrer un projet manuellement :
    | **[!UICONTROL Enregistrer]** | Enregistrez les modifications apportées au projet. Si le projet est partagé, les destinataires du projet verront également les modifications. Lorsque vous enregistrez le projet pour la première fois, vous êtes invité à lui attribuer un nom, une description (facultative) et à ajouter des balises (facultatives). |
    | **[!UICONTROL Enregistrer avec les notes]** | Avant l’enregistrement de votre projet, ajoutez des notes sur les modifications apportées au projet. Les notes sont stockées avec la version du projet et sont disponibles pour tous les éditeurs sous [!UICONTROL Projet] > [!UICONTROL Ouvrir la version précédente]. |
    | **[!UICONTROL Enregistrer sous]** | Créez un doublon du projet. Le projet d’origine ne sera pas affecté. |
-   | **[!UICONTROL Enregistrer en tant que rapport d’entreprise]** | Enregistrez votre projet en tant que [rapport d’entreprise](/help/analyze/analysis-workspace/reports/create-company-reports.md) qui devient disponible pour votre organisation sous **[!UICONTROL Projet > Nouveau]** |
+   | **[!UICONTROL Enregistrer en tant que rapport d’entreprise]** | Enregistrez votre projet en tant que [rapport d’entreprise](/help/analyze/analysis-workspace/reports/create-company-reports.md) disponible pour votre entreprise sous **[!UICONTROL Projet > Nouveau]**. |
 
 ## Enregistrement automatique {#Autosave}
 

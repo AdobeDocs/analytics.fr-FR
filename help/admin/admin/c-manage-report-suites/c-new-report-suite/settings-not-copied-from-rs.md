@@ -4,9 +4,9 @@ title: Paramètres non copiés depuis une suite de rapports source
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '188'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Les paramètres suivants ne sont pas copiés à partir de suites de rapports mod
   </tr> 
   <tr> 
    <td colname="col1"> <p>Règles VISTA </p> </td> 
-   <td colname="col2"> <p>Contactez votre équipe de compte d’Adobe pour contacter les services d’ingénierie. </p> </td> 
+   <td colname="col2"> <p>Contactez votre équipe Adobe en charge des comptes pour une mise en relation avec les services d’ingénierie. </p> </td> 
   </tr> 
  </tbody> 
 </table>

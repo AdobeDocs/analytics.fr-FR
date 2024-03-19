@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Voici un tutoriel vidéo sur la visualisation de flux :
 
 ## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Vous pouvez, par exemple, combiner dans un seul diagramme des pages et des services ou rayons. Dans ce cas, votre flux peut aller de la page d’accueil à la page Mens, puis au rayon Chaussures.
+Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Vous pouvez, par exemple, combiner dans un seul diagramme des pages et des services ou rayons. Dans ce cas, votre flux peut aller de la page d’accueil à la page Hommes, puis au rayon Chaussures.
 
 Chaque colonne peut présenter une dimension distincte. Faites glisser une dimension et ajoutez-la au diagramme en la déposant dans une zone de dépôt.
 
-## Configuration d’une visualisation de flux
+## Configurer une visualisation de flux
 
-Pour plus d’informations sur la configuration d’une visualisation de flux, voir [Configuration d’une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+Pour plus d’informations sur la configuration d’une visualisation de flux, consultez [Configurer une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
-## Exportation de diagrammes de flux dans des fichiers .CSV de projet  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exporter des diagrammes de flux dans des fichiers .CSV de projet {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
 

@@ -4,8 +4,8 @@ title: Sous-classifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '649'
+workflow-type: ht
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Pour plus d’informations sur le fichier de données, consultez   [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
+Pour plus d’informations sur le fichier de données, voir [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
 Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
 
@@ -52,7 +52,7 @@ Par exemple :
 | 123 | ABC | Vert | Petit | A12B |
 | 456 | DEF | Rouge | Grand | C3D4 |
 
-Bien que le modèle de fichier d’une classification à plusieurs niveaux soit plus complexe, l’avantage des classifications à plusieurs niveaux réside dans le fait que les différents niveaux peuvent être transférés sous forme de fichiers séparés. Il est possible d’utiliser cette approche pour réduire au minimum la quantité de données à charger périodiquement (chaque jour, chaque semaine, etc.) en regroupant les données par niveaux de classification qui changent au fil du temps et ceux qui ne changent pas.
+Bien que le modèle de fichier d’une classification à plusieurs niveaux soit plus complexe, l’avantage des classifications à plusieurs niveaux réside dans le fait que les différents niveaux peuvent être chargés sous forme de fichiers séparés. Il est possible d’utiliser cette approche pour réduire au minimum la quantité de données à charger périodiquement (chaque jour, chaque semaine, etc.) en regroupant les données par niveaux de classification qui changent au fil du temps et ceux qui ne changent pas.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Lors du téléchargement de fichiers de données pour cette classification de pr
 |---|---|---|---|---|---|
 | 410390013 | Polo-MC | Polo homme, manches courtes (M,01) | M | M | 01 |
 | 410390014 | Polo-MC | Polo homme, manches courtes (L,03) | M | L | 03 |
-| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | s | 23 |
+| 410390015 | Polo-ML | Polo femme, manches longues (S,23) | F | S | 23 |
 
 ### Classification de produit - plusieurs fichiers (fichier 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 

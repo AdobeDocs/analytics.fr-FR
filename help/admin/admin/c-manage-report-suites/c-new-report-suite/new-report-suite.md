@@ -5,9 +5,9 @@ feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
 
 >[!NOTE]
 >
->La variable [Documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) vous indique comment créer des suites de rapports virtuelles.
+>La [documentation sur les suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-create.md) indique comment créer de telles suites.
 
 | Élément | Description |
 | --- | --- |
@@ -31,6 +31,6 @@ Descriptions des éléments utilisés lors de la [création d’une suite de rap
 | Date d’activation | Informe Adobe de la date prévue pour l’activation de cette suite de rapports. Si votre calendrier de déploiement change, indiquez une estimation actualisée de votre trafic à l’aide de l’outil Trafic prévisionnel permanent sous Gestion du trafic. |
 | Estimation du nombre de pages vues par jour | Identifie le nombre de pages vues qu’il est prévu que cette suite de rapports prenne en charge quotidiennement. Les gros volumes de trafic exigent un processus d’approbation plus long. Pour éviter les retards de traitement, tâchez de faire une estimation aussi précise que possible. |
 | Devise de base | Indique la devise par défaut utilisée pour stocker toutes les données monétaires. La fonction de création de rapports d’Analytics convertit, dans la devise de base, les transactions effectuées dans d’autres devises en utilisant le taux de conversion en vigueur à la réception des données. La création de rapports Analytics utilise la variable JavaScript currencyCode pour identifier la devise d’une transaction donnée. |
-|  Désactiver la prise en charge de caractères multioctet | Désactive la prise en charge des caractères multioctet pour la suite de rapports. Si vous désactivez la prise en charge de caractères multioctet, le système suppose que ces données sont au format `ISO-8859-1`. Les pages web doivent spécifier leur jeu de caractères dans la variable JavaScript charSet. <p>La prise en charge des caractères multioctet stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing.  Contactez votre équipe de compte d’Adobe ou l’assistance clientèle pour modifier la prise en charge de caractères complexes pour une suite de rapports existante. |
+|  Désactiver la prise en charge de caractères multioctet | Désactive la prise en charge des caractères multioctet pour la suite de rapports. Si vous désactivez la prise en charge de caractères multioctet, le système suppose que ces données sont au format `ISO-8859-1`. Les pages web doivent spécifier leur jeu de caractères dans la variable JavaScript charSet. <p>La prise en charge des caractères multioctet stocke les caractères dans la suite de rapports à l’aide du codage UTF-8. À la réception des données, le système les convertit depuis le jeu de caractères de la page web au format UTF-8, de sorte que vous puissiez utiliser n’importe quelle langue dans vos rapports marketing.  Contactez votre équipe Adobe en charge des comptes ou le service d’assistance clientèle pour modifier la prise en charge des caractères à plusieurs octets d’une suite de rapports existante. |
 
 {style="table-layout:auto"}

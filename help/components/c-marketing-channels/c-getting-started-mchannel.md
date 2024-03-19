@@ -4,7 +4,7 @@ description: Découvrez le processus des canaux marketing, la configuration auto
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
 ht-degree: 100%
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Afin d’optimiser l’efficacité des canaux marketing pour Attribution  et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour Attribution et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
->Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, tel que décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 Les canaux marketing sont généralement utilisés pour fournir des informations sur la façon dont les visiteurs arrivent sur votre site. Vous pouvez personnaliser des règles de traitement de canaux marketing en fonction des canaux dont vous souhaitez effectuer le suivi et de la méthode de suivi à appliquer.
 
@@ -35,7 +35,7 @@ La définition des canaux que vous utilisez constitue l’une des tâches les pl
 * Voulez-vous regrouper tous les sites de réseau social ou souhaitez-vous en suivre certains séparément ?
 * Existe-t-il d’autres canaux pouvant avoir un impact sur les conversions dont vous souhaitez effectuer le suivi ?
 
-Vous trouverez une liste des canaux recommandés dans la section  [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
+Vous trouverez une liste des canaux recommandés dans la section [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
 
 ![](assets/step2_icon.png) Ajoutez des canaux marketing dans la page [!UICONTROL Gestionnaire de canaux marketing].
 

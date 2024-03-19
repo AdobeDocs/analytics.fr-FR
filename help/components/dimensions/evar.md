@@ -4,19 +4,19 @@ description: Une dimension personnalisée que vous pouvez utiliser dans les rapp
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
 # eVar
 
-*[Cette page d’aide décrit le fonctionnement des eVars en tant que dimension](overview.md). Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
+*Cette page d’aide décrit le fonctionnement des eVars en tant que [dimension](overview.md). Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Si vous avez une [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent comme [!UICONTROL eVars], en plus de la dimension par défaut disponible avec Adobe Analytics, comme &quot;Nom de page&quot;, &quot;Domaine référent&quot;, &quot;Canal&quot;. Voir [Présentation de la Dimension](overview.md) pour plus d’informations.
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous avez un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent comme des [!UICONTROL eVars], en plus de la dimension par défaut disponible avec Adobe Analytics, comme « Nom de page », « Domaine référent », « Canal ». Pour plus d’informations, reportez-vous à la section [Vue d’ensemble de la dimension](overview.md).
 
-Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports]. Voir ci-dessous un exemple de définitions d’eVar dans l’interface utilisateur des variables de conversion.
+Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les [!UICONTROL Paramètres de la suite de rapports]. Voir ci-dessous un exemple de définitions d’eVar dans l’interface utilisateur des variables de conversion.
 
 ![Exemples d’eVar](assets/evars-sample.png)
 
@@ -32,7 +32,7 @@ AppMeasurement, qui compile les variables JavaScript en une demande d’image po
 
 ## Éléments de dimension
 
-Étant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre entreprise détermine les éléments de dimension de chaque eVar. Veillez à enregistrer l’objectif de chaque eVar et les éléments de dimension standard dans une [document de conception de solution](/help/implement/prepare/solution-design.md).
+Étant donné que les eVars contiennent des chaînes personnalisées dans votre implémentation, votre entreprise détermine les éléments de dimension de chaque eVar. Veillez à enregistrer l’objectif de chaque eVar et les éléments de dimension standard dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
 
 ## Fonctionnement des eVars
 

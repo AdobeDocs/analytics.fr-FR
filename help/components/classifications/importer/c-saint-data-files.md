@@ -4,9 +4,9 @@ title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
 * Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
-* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets, peuvent être incorporés dans une cellule à condition que le format de fichier v2.1 soit spécifié et que la cellule soit correctement [escaped](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
+* Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule contienne bien un [caractère d’échappement](/help/components/classifications/importer/t-classifications-escape-data.md). Les caractères spéciaux incluent :
 
   ```text
   \t     tab character 
@@ -110,7 +110,7 @@ Chaque valeur doit être unique dans l’ensemble du système. La valeur de ce c
 
 >[!NOTE]
 >
->Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention d’affectation des noms de la classification, sinon l’importation échoue. Par exemple, si l’administrateur change [!UICONTROL Campagnes] to [!UICONTROL Noms de campagne internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne du fichier doit être modifié pour correspondre. &quot;Clé&quot; est une valeur de classification réservée (en-tête). Les nouvelles classifications nommées &quot;Clé&quot; ne sont pas prises en charge.
+>Les valeurs de l’en-tête de colonne de [!UICONTROL classification] doivent respecter la convention de nommage de la classification, sinon l’import échoue. Par exemple, si l’administrateur ou l’administratrice remplace [!UICONTROL Campagnes] par [!UICONTROL Noms de campagnes internes] dans le [!UICONTROL Gestionnaire de configuration de campagne], l’en-tête de colonne doit aussi être remplacé. « Clé » est une valeur de classification réservée (en-tête). Les nouvelles classifications nommées « Clé » ne sont pas prises en charge.
 
 De plus, le fichier de données prend en charge des conventions d’en-tête supplémentaires pour identifier les sous-classifications et d’autres colonnes de données spécialisées :
 

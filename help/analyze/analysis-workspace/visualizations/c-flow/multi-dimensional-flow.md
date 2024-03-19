@@ -6,15 +6,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
-source-wordcount: '317'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
 
 # Flux interdimensionnels
 
-Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisateurs dans plusieurs dimensions. Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
+Un flux interdimensionnel vous permet d’examiner les chemins d’accès pour les utilisateurs et utilisatrices sur plusieurs dimensions. Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -34,11 +34,11 @@ Afin d’explorer l’interaction entre les écrans et pages et les actions dans
 
 * Faites-la glisser à l’une des extrémités de la zone de dépôt (dans la zone rectangulaire bordée de noir qui apparaît) pour **remplacer** les principaux résultats correspondants :
 
-   ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
 
 * Faites-la glisser sur l’espace blanc à l’extrémité (remarquez la parenthèse noire) pour **l’ajouter** à la visualisation :
 
-   ![](assets/multi-dimensional-flow4.png)
+  ![](assets/multi-dimensional-flow4.png)
 
 Voici le résultat si vous décidez de remplacer l’élément ItemScaled dans la colonne de droite avec la dimension Page. Le premier résultat correspond maintenant au premier résultat de la dimension Page :
 
@@ -52,7 +52,7 @@ Voici ce qui se passe si vous faites glisser une autre dimension Nom de l’acti
 
 ![](assets/multi-dimensional-flow7.png)
 
-Vous avez ainsi accès à des statistiques plus détaillées et aux changements possibles à apporter à l’application que vous analysez.
+Vous avez ainsi accès à des informations plus détaillées et aux changements possibles à apporter à l’application que vous analysez.
 
 ## 2e exemple d’utilisation : Web {#web}
 

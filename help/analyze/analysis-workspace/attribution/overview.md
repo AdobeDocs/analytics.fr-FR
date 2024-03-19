@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ Attribution permet aux analystes de personnaliser la manière dont les élément
 1. Un visiteur sur votre site clique sur un lien de référencement payant vers l’une de vos pages de produits. La personne ajoute le produit au panier, mais ne l’achète pas.
 2. Le lendemain, elle voit une publication d’un ami ou d’une amie sur les médias sociaux, elle clique sur le lien, puis effectue l’achat.
 
-Dans certains rapports, vous voudrez peut-être attribuer la commande au référencement payant. Dans d’autres rapports, vous voudrez peut-être attribuer la commande à Social. Attribution vous permet de contrôler cet aspect des rapports. Toutes les entreprises disposant d’Adobe Analytics Ultimate, Prime, Select ou Foundation peuvent en bénéficier. Si vous ne savez pas quel type de contrat vous avez avec l’Adobe, contactez l’équipe du compte d’Adobe de votre organisation.
+Dans certains rapports, vous voudrez peut-être attribuer la commande au référencement payant. Dans d’autres rapports, vous voudrez peut-être attribuer la commande à Social. Attribution vous permet de contrôler cet aspect des rapports. Toutes les entreprises disposant d’Adobe Analytics Ultimate, Prime, Select ou Foundation peuvent en bénéficier. Si vous vous demandez quel type de contrat vous avez conclu avec Adobe, contactez l’équipe Adobe en charge des comptes de votre entreprise.
 
-## Valeur de l’attribution
+## Valeur d’Attribution
 
 Un parcours client donné n’est pas linéaire et est souvent imprévisible. Chaque client a son propre rythme. Il lui arrive souvent de revenir sur ses pas, de s’arrêter, de redémarrer ou d’adopter un autre comportement non linéaire. En raison de ces actions organiques, il est difficile de connaître l’impact des efforts marketing tout au long du parcours client. Cela complique également les efforts visant à relier plusieurs canaux de données.
 
-![Problème d’attribution](assets/attribution_iq_problem.png)
+![Problème avec Attribution](assets/attribution_iq_problem.png)
 
 Adobe Analytics améliore l’attribution en vous permettant de :
 
@@ -39,7 +39,7 @@ Adobe Analytics améliore l’attribution en vous permettant de :
 
 ## Fonctionnalités
 
-Attribution  propose les fonctionnalités suivantes :
+Attribution propose les fonctionnalités suivantes :
 
 * [Panneau Attribution](../c-panels/attribution.md) : comparez rapidement les dimensions et les mesures avec différents modèles d’attribution.
 * [Appliquer l’attribution à une mesure](../visualizations/freeform-table/column-row-settings/column-settings.md) : utilisez une attribution autre que celle par défaut sur une mesure d’un projet.
@@ -56,14 +56,14 @@ Attribution dans les mesures calculées
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-Utilisation du panneau Attribution:
+Utilisation du panneau Attribution :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-Ajout de comparaisons côte à côte de modèles Attribution 
+Ajout de comparaisons côte à côte de modèles Attribution :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## Outils Adobe Analytics qui ne prennent pas en charge Attribution
+## Outils Adobe Analytics ne prenant pas en charge Attribution
 
 Les outils qui ne prennent pas en charge l’API Analytics 2.0, comme Report Builder, ne prennent pas en charge Attribution.
