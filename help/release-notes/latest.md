@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 38%
+source-wordcount: '1303'
+ht-degree: 36%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198; AN-338009; AN-339549; AN-333970; AN-334790; AN-336461; AN-336572; AN-
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Expiration de 13 mois de l’enregistrement`cust_visids`** | jeudi 20 mars 2024 | Une prochaine version du moteur de traitement des accès Analytics, qui sera ciblée en avril ou en mai, commencera à appliquer une expiration de 13 mois de la variable enregistrée. `cust_visids`. Si l’option &quot;Activer l’assemblage de visiteurs&quot; est activée dans la suite de rapports, ce paramètre est utilisé pour rechercher la variable `cust_visid` pour un `visid_high/visid_low value` sans `cust_visid` sur l’accès. Actuellement, il n’existe aucune expiration du mappage d’un `cust_visid` pour un `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis `visid_high/visid_low` has a eu une `cust_visid` lors d’un accès, le mappage expire. |
 | **Ajout d’objets membres de l’API Adobe** | 17 janvier 2024 | Adobe peut ajouter des membres de requête et de réponse facultatifs (paires nom/valeur) aux objets d’API existants sans préavis ni modification du contrôle de version. Adobe vous recommande de vous référer à la documentation de l’API de tout outil tiers que vous intégrez à nos API, afin que ces ajouts soient ignorés dans le traitement s’ils ne sont pas compris. S’ils sont correctement implémentés, ces ajouts sont des modifications incessantes pour votre mise en œuvre. Adobe ne supprimera pas de paramètres ni n’ajoutera de paramètres requis sans d’abord fournir une notification standard via les notes de mise à jour. |
 | **`getPageLoadTime`plugin deprecated** | 10 janvier 2024 | Ce plug-in n’est plus pris en charge. Son code utilise la méthode performance.timing, qui (selon MDN) est à présent [obsolète](https://developer.mozilla.org/fr-FR/docs/Web/API/PerformanceTiming). Le travail sur un plug-in mis à jour a commencé. |
 
