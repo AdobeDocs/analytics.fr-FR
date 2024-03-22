@@ -1,26 +1,26 @@
 ---
-description: Description de la procédure de création d’une demande Data Warehouse.
+description: Description de la procédure de création d’une requête Data Warehouse.
 title: Configuration des options de rapport pour une requête de Data Warehouse
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
 # Configuration des options de rapport pour une requête de Data Warehouse
 
-Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes expliquent comment configurer les options de rapport pour la requête.
+Plusieurs options de configuration sont disponibles lors de la création d’une requête Data Warehouse. Les informations suivantes expliquent comment configurer les options de rapport pour la requête.
 
-Pour plus d’informations sur la façon de commencer à créer une requête, ainsi que des liens vers d’autres options de configuration importantes, voir [Création d’une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+Pour plus d’informations sur la façon de commencer à créer une requête, ainsi que des liens vers d’autres options de configuration importantes, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 Pour configurer les options de rapport pour une demande de Data Warehouse :
 
-1. Commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
+1. Si ce n’est déjà fait, commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
 
-   Pour plus d’informations, voir [Création d’une requête de Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sur la page Nouvelle requête de Data Warehouse , sélectionnez le [!UICONTROL **Options de rapport**] .
 
