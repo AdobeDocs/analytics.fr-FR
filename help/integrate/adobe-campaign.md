@@ -5,9 +5,9 @@ feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 Pour plus d’informations sur la configuration de cette intégration, aller à la [documentation d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Cet article s’applique au compte rendu des performances Adobe Campaign **Standard** uniquement. Voir [ici](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html) pour ajouter le compte rendu des performances Adobe Campaign **Classic**.
+>Cet article s’applique au compte rendu des performances Adobe Campaign **Standard** uniquement. Voir [ici](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=fr) pour ajouter le compte rendu des performances Adobe Campaign **Classic**.
 
 Cette intégration entre Adobe Analytics et Adobe Campaign Standard :
 

@@ -6,9 +6,9 @@ title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`clickmaplinkbyregion`** | Lien d’Activity Map par région | varchar(255) |
 | **`clickmappage`** | Page d’Activity Map | varchar(255) |
 | **`clickmapregion`** | Région d’Activity Map | varchar(255) |
-| **`code_ver`** | Version de l’API ou du SDK client utilisée pour compiler et envoyer la demande d’image. | char(16) |
+| **`code_ver`** | Version du SDK client ou de l’API utilisée pour compiler et envoyer la demande d’image. | char(16) |
 | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
 | **`connection_type`** | Identifiant numérique représentant le type de connexion. Variable utilisée dans la dimension [Type de connexion](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`cookies`** | Variable utilisée dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md).<br>Y : activé<br>N : désactivé<br>U : inconnu | char(1) |
@@ -68,7 +68,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien. | tinyint sans signe |
 | **`dataprivacyconsentoptin`** | Variable utilisée dans la dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
 | **`dataprivacyconsentoptout`** | Variable utilisée dans la dimension [Droit d’opposition de gestion du consentement](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
-| **`dataprivacydmaconsent`** | Valeur identifiant si le consentement est acquis pour envoyer des données d’Adobe Analytics par Adobe Advertising à des fournisseurs publicitaires tiers (tels que Google). Voir [Consentement de la publicité](/help/components/dimensions/ad-consent.md) pour plus d’informations. | varchar(100) |
+| **`dataprivacydmaconsent`** | Valeur identifiant si le consentement est acquis pour envoyer des données d’Adobe Analytics par Adobe Advertising à des fournisseurs publicitaires tiers (tels que Google). Pour plus d’informations, voir [Consentement pour la publicité](/help/components/dimensions/ad-consent.md). | varchar(100) |
 | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | **`domain`** | Variable utilisée dans la dimension [Domaine](/help/components/dimensions/domain.md). Basée sur le point dʼaccès Internet du visiteur. | varchar(100) |
 | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |

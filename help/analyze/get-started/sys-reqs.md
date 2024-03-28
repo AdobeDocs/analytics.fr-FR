@@ -4,9 +4,9 @@ description: Configuration requise pour l’utilisation d’Adobe Analytics.
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour utiliser Adobe Analytics, vous devez disposer des éléments suivants :
 
 * Un navigateur pris en charge
 
-  Chaque personne accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html).
+  Chaque personne accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=fr).
 
 ## Configuration requise
 

@@ -4,9 +4,9 @@ title: Valeur de faible trafic dans Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ Si un rapport inclut de nombreuses valeurs uniques, Adobe fournit des fonctionna
 * Adobe Analytics utilise deux seuils pour déterminer les valeurs uniques qui s’affichent dans les rapports chaque mois : un **[!UICONTROL seuil bas]** et un **[!UICONTROL seuil élevé]**. Ces seuils peuvent être ajustés par Adobe de temps à autre. Les limites de seuil actuelles sont les suivantes :
    * **[!UICONTROL Seuil bas]** : plus de 500 000 valeurs uniques par mois.
    * **[!UICONTROL Seuil élevé]** : plus de 1 000 000 valeurs uniques par mois.
-* Dans **mi-avril 2024**, Adobe commencera à augmenter les seuils de faible trafic de la suite de rapports par défaut comme suit : ![seuils de faible trafic](assets/thresholds.png)
-Cela n&#39;aura d&#39;impact que sur les variables actuellement définies sous les nouveaux seuils. Ces modifications seront apportées de manière incrémentielle. Nous prévoyons que les travaux soient terminés par le **fin mai**. Au fur et à mesure que ces augmentations sont déployées, vous remarquerez peut-être des modifications pour les variables de cardinalité élevée :<ul><li>D’autres valeurs de dimension peuvent être disponibles pour la création de rapports.</li><li>Les segments et les mesures calculées peuvent inclure davantage de données.</li><li>Les suites de rapports virtuelles basées sur des segments peuvent inclure davantage de données.</li><li>Les exportations de classifications peuvent inclure davantage de données.</li></ul>
+* À la **mi-avril 2024**, Adobe commencera à augmenter les seuils de faible trafic de la suite de rapports par défaut comme suit : ![seuils de faible trafic](assets/thresholds.png).
+Cela n’aura d’impact que sur les variables actuellement définies sous les nouveaux seuils. Ces modifications seront apportées de manière incrémentielle. Nous prévoyons que le travail sera terminé d’ici **fin mai**. Au fur et à mesure que ces augmentations sont déployées, vous remarquerez peut-être des modifications pour les variables de cardinalité élevée :<ul><li>D’autres valeurs de dimension peuvent être disponibles pour la création de rapports.</li><li>Les segments et les mesures calculées peuvent inclure davantage de données.</li><li>Les suites de rapports virtuelles basées sur des segments peuvent inclure davantage de données.</li><li>Les exports de classifications peuvent inclure davantage de données.</li></ul>
 * La création de rapports n’est pas affectée si la variable n’atteint pas le seuil bas au cours d’un mois donné.
 * Lorsqu’une variable atteint le seuil bas, les données commencent à être groupées dans un compartiment, sous [!UICONTROL Faible trafic]. Chaque valeur dépassant ce seuil suit la logique suivante :
    * Si une valeur figure déjà dans les rapports, ajoutez-la comme d’habitude.
@@ -37,7 +37,7 @@ Notez que la logique de faible trafic décrite ci-dessus est optimisée avec des
 
 ## Modification des seuils de limite uniques
 
-Ces limites de seuil peuvent parfois être modifiées pour chaque variable. Contactez l’assistance clientèle d’Adobe ou votre équipe Adobe en charge des comptes pour demander ce changement. La mesure dans laquelle les seuils peuvent être augmentés dépend de plusieurs facteurs et l’Adobe peut ne pas être en mesure de tenir compte des augmentations de seuils dans tous les cas. Lorsque vous demandez une modification, incluez :
+Ces limites de seuil peuvent parfois être modifiées pour chaque variable. Contactez l’assistance clientèle d’Adobe ou votre équipe Adobe en charge des comptes pour demander ce changement. L’augmentation pouvant être appliquée aux seuils dépend de plusieurs facteurs et Adobe peut ne pas être en mesure de réaliser ces augmentations de seuil dans tous les cas. Lorsque vous demandez une modification, incluez :
 
 * l’identifiant de la suite de rapports ;
 * la variable pour laquelle vous souhaitez augmenter le seuil ;

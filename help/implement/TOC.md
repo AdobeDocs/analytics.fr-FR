@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
 source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
