@@ -72,7 +72,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -84,7 +84,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -100,7 +100,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -114,7 +114,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++E-mail
 
@@ -146,7 +146,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -159,7 +159,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -172,7 +172,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -186,7 +186,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
 1. Poursuivez la configuration de votre requête Data Warehouse sur l’onglet [!UICONTROL **Options de rapport**]. Pour plus d’informations, voir [Configurer des options de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
