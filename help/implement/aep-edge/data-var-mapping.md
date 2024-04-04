@@ -1,11 +1,12 @@
 ---
 title: Mappage des variables d’objet de données vers Adobe Analytics
-description: Affichez les champs d’objet de données qu’Edge mappe automatiquement aux variables Analytics.
+description: Affichez les champs d’objet de données Experience Platform Edge automatiquement mis en correspondance avec les variables Analytics.
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
+source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '559'
 ht-degree: 5%
 
 ---
