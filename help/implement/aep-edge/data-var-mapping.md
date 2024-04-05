@@ -4,9 +4,9 @@ description: Affichez les champs d’objet de données Experience Platform Edge 
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 3a530e3e47ac9d6cf2b711cecd07f2c33765d63c
+source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '555'
 ht-degree: 5%
 
 ---
@@ -57,7 +57,6 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `data.__adobe.analytics.referrer` | La dimension [Référent](/help/components/dimensions/referrer.md). |
 | `data.__adobe.analytics.resolution` | La variable [Résolution de l’écran](../../components/dimensions/monitor-resolution.md) dimension. Champ abrégé `data.__adobe.analytics.s` est également prise en charge. |
 | `data.__adobe.analytics.server` | La dimension [Serveur](/help/components/dimensions/server.md). |
-| `data.__adobe.analytics.tnta` | Utilisé dans les intégrations A4T. |
 | `data.__adobe.analytics.transactionID` | La variable [`transactionID`](../vars/page-vars/transactionid.md) de mise en oeuvre. Champ abrégé `data.__adobe.analytics.xact` est également prise en charge. |
 | `data.__adobe.analytics.zip` | La variable [Code postal](../../components/dimensions/zip-code.md) dimension. |
 
