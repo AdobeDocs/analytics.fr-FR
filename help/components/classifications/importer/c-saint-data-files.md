@@ -3,10 +3,10 @@ description: L’importateur vous permet de télécharger en vrac des données d
 title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '1768'
-ht-degree: 100%
+source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 
 * Les classifications ne peuvent pas contenir de caret (^) puisque ce caractère est utilisé pour indiquer une sous-classification.
 * Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de l’importation, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
-* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversions (eVars) autorisent 255 octets.
+* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversion (eVars) autorisent 255 octets. Cette stratégie s’étend également aux valeurs des colonnes de classification et de sous-classification, qui sont soumises à la même limite de 255 octets.
 * Il doit s’agir d’un fichier délimité par des tabulations (créez le fichier de modèle dans tout tableur ou éditeur de texte).
 * Il doit être doté de l’extension de fichier [!DNL .tab] ou [!DNL .txt].
 * Le signe dièse (#) identifie la ligne comme commentaire utilisateur. Adobe ignore toutes les lignes commençant par #.
