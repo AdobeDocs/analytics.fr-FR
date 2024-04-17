@@ -3,10 +3,10 @@ description: Description de la procédure de création d’une requête Data War
 title: Configurer une destination de rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
-workflow-type: ht
-source-wordcount: '2430'
-ht-degree: 100%
+source-git-commit: b960aaa60569d65cb8501cf041341a3a132929b1
+workflow-type: tm+mt
+source-wordcount: '2584'
+ht-degree: 85%
 
 ---
 
@@ -20,12 +20,19 @@ Pour plus d’informations sur la façon de commencer à créer une requête, ai
 >
 >Tenez compte de ce qui suit lors de la configuration du rapport de destination :
 >
->* Nous vous recommandons d’utiliser un compte cloud ou un e-mail pour votre destination de rapport. Les comptes FTP et SFTP hérités sont disponibles, mais ne sont pas recommandés.
+>* Nous vous recommandons d’utiliser un compte cloud ou un e-mail pour votre destination de rapport. [Comptes FTP et SFTP hérités](#legacy-destinations) sont disponibles, mais ne sont pas recommandées.
 >
->* Tout compte cloud que vous avez précédemment configuré pour les [flux de données](/help/export/analytics-data-feed/create-feed.md) ou l’[import de données de classification Adobe Analytics](/help/components/locations/locations-manager.md) est disponible pour Data Warehouse. Cependant, les emplacements configurés pour importer des données de classification ne peuvent pas être utilisés.
+>* Tous les comptes cloud que vous avez configurés précédemment sont disponibles pour Data Warehouse. Vous pouvez configurer des comptes cloud de l’une des manières suivantes :
+>
+>   * Lors de la configuration [Flux de données](/help/export/analytics-data-feed/create-feed.md)
+>   
+>   * When [importation de données de classification Adobe Analytics](/help/components/locations/locations-manager.md) (Les comptes peuvent être utilisés, mais les emplacements configurés sur ces comptes ne le peuvent pas.)
+>   
+>   * Dans le gestionnaire des emplacements, dans [Composants > Emplacements](/help/components/locations/configure-import-accounts.md).
 >
 >* Les comptes cloud sont associés à votre compte d’utilisateur ou d’utilisatrice Adobe Analytics. Les autres utilisateurs et utilisatrices ne peuvent pas utiliser ni afficher les comptes cloud que vous configurez.
 >
+>* Vous pouvez modifier les emplacements que vous créez à partir du gestionnaire d’emplacements dans [Composants > Emplacements](/help/components/locations/configure-import-accounts.md)
 
 Pour configurer la destination vers laquelle les rapports de Data Warehouse sont envoyés :
 
@@ -37,17 +44,27 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
    ![Onglet de destination du rapport](assets/dw-report-destination.png)
 
-1. (Conditionnel) Si un compte (et une destination sur ce compte) a déjà été configuré et que vous souhaitez l’utiliser comme destination de votre rapport :
+1. (Conditionnel) Si un compte cloud (et une destination sur ce compte) a déjà été configuré dans Adobe Analytics, vous pouvez l’utiliser comme destination de votre rapport :
 
-   1. (Facultatif) Si vous êtes administrateur ou administratrice système, l’option [!UICONTROL **Afficher toutes les destinations**] est disponible. Activez cette option si vous souhaitez avoir accès à tous les comptes et emplacements créés par un utilisateur ou une utilisatrice de l’entreprise.
+   >[!NOTE]
+   >
+   >Vous ne pouvez accéder aux comptes que si vous les avez configurés ou s’ils ont été partagés avec une organisation dont vous faites partie.
+   >
+   >Si vous êtes administrateur système, la variable [!UICONTROL **Afficher toutes les destinations**] est disponible. Activez cette option si vous souhaitez avoir accès à tous les comptes et emplacements créés par un utilisateur ou une utilisatrice de l’entreprise.
 
    1. Sélectionnez le compte dans le menu déroulant [!UICONTROL **Sélectionner un compte**].
 
-      Tout compte cloud que vous avez configuré pour [importer des données de classification Adobe Analytics](/help/components/locations/locations-manager.md) depuis une destination cloud s’affiche ici et peut être utilisé. Cependant, les emplacements configurés pour importer des données de classification ne peuvent pas être utilisés. Ajoutez plutôt une nouvelle destination comme décrit ci-dessous.
+      Les comptes cloud que vous avez configurés dans l’une des zones suivantes d’Adobe Analytics sont disponibles :
+
+      * Lors de l’importation de données de classification Adobe Analytics, comme décrit dans [Schéma](/help/components/classifications/sets/manage/schema.md).
+
+        Cependant, les emplacements configurés pour importer des données de classification ne peuvent pas être utilisés. Ajoutez plutôt une nouvelle destination comme décrit ci-dessous.
+
+      * Lors de la configuration de comptes et d’emplacements dans la zone Emplacements, comme décrit à la section [Configuration de comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md) et [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
 
    1. Sélectionnez la destination associée au compte à partir du menu déroulant [!UICONTROL **Sélectionner la destination**]. <!-- Is this correct? -->
 
-1. (Conditionnel) Si vous n’avez pas configuré de compte auparavant :
+1. (Conditionnel) Si vous n’avez pas accès à un compte cloud déjà configuré dans Adobe Analytics, vous pouvez en configurer un :
 
    1. Sélectionnez [!UICONTROL **Ajouter un compte**], puis spécifiez les informations suivantes :
 
@@ -63,7 +80,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       +++Amazon S3
 
-      Indiquez les informations suivantes pour configurer un compte ARN de rôle Amazon S3 :
+      Pour configurer un compte RGPD de rôle Amazon S3, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -72,11 +89,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      Indiquez les informations suivantes pour configurer un compte Google Cloud Platform :
+      Pour configurer un compte Google Cloud Platform, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -84,11 +101,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Indiquez les informations suivantes pour configurer un compte Azure SAS :
+      Pour configurer un compte Azure SAS, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -100,11 +117,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Indiquez les informations suivantes pour configurer un compte Azure RBAC :
+      Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -114,11 +131,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
-      Indiquez les informations suivantes pour configurer un compte de messagerie :
+      Pour configurer un compte de messagerie, indiquez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -137,20 +154,20 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       +++Amazon S3
 
-      Indiquez les informations suivantes pour configurer un emplacement Amazon S3 :
+      Pour configurer un emplacement Amazon S3, indiquez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
-      | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que l’ARN d’utilisateur ou d’utilisatrice fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers vers ce compartiment. Cette autorisation permet à l’ARN d’utilisateur ou d’utilisatrice de charger les fichiers initiaux et de remplacer les fichiers pour les chargements suivants.</p> |
+      | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que l’ARN d’utilisateur ou d’utilisatrice fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers vers ce compartiment. Cette autorisation permet à l’ARN d’utilisateur ou d’utilisatrice de charger les fichiers initiaux et de remplacer les fichiers pour les chargements suivants.</p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, elles doivent comporter entre 3 et 63 caractères, peuvent être composées uniquement de lettres minuscules, de chiffres, de points (.) et de tirets (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles d’attribution de noms est disponible dans la documentation AWS.](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
       | [!UICONTROL **Préfixe clé**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
-      Indiquez les informations suivantes pour configurer un emplacement de la plateforme Google Cloud :
+      Pour configurer un emplacement Google Cloud Platform, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -159,11 +176,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
-      Spécifiez les informations suivantes pour configurer un emplacement Azure SAS :
+      Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -172,11 +189,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
-      Spécifiez les informations suivantes pour configurer un emplacement Azure RBAC :
+      Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
@@ -186,7 +203,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Poursuivez la configuration de votre requête Data Warehouse sur l’onglet [!UICONTROL **Options de rapport**]. Pour plus d’informations, voir [Configurer des options de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

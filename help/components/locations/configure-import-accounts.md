@@ -1,45 +1,58 @@
 ---
 description: Configuration du compte d’importation dans le cloud et de l’emplacement où les données de classification peuvent être chargées
 keywords: Analysis Workspace
-title: Configuration des comptes d’importation dans le cloud
+title: Configuration de comptes d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 5%
+source-wordcount: '1224'
+ht-degree: 56%
 
 ---
 
-# Configuration des comptes d’importation dans le cloud
+# Configuration de comptes d’importation et d’exportation dans le cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
-Avant de pouvoir importer des données de classification Adobe Analytics à partir d’une destination cloud, vous devez ajouter et configurer le compte et l’emplacement dans ce compte où vous souhaitez que les données de classification soient collectées.
+Vous pouvez configurer un compte cloud qui est utilisé à l’un des ou à tous les usages suivants :
 
-Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (un dossier dans le compte, par exemple) comme décrit dans la section [Configuration des emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md).
+* Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
+* Exporter des rapports à l’aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Import de schémas à l’aide de [Jeux de classifications](/help/components/classifications/sets/overview.md)
 
-Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte de destination cloud.
+Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (un dossier dans le compte, par exemple) comme décrit dans la section [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
 
-Pour configurer un compte d’importation dans le cloud :
+Pour configurer un compte d’importation ou d’exportation cloud :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
-1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Informations d’identification de l’emplacement**] .
-1. Sélectionner [!UICONTROL **Ajouter un compte**]. <!-- add screenshot? -->
+1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Comptes d’emplacement**] .
+1. Pour créer un compte, sélectionnez [!UICONTROL **Ajouter un compte**].
 
    La boîte de dialogue Ajouter un compte s’affiche.
+
+   Ou
+
+   Pour modifier un compte existant, sélectionnez [!UICONTROL **Afficher les détails**] sur la mosaïque qui répertorie le compte que vous souhaitez modifier.
+La boîte de dialogue Emplacement s’affiche.
+
+   La boîte de dialogue Détails du compte d’emplacement s’affiche.
+
+
 1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. | | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte. |
 1. Dans le [!UICONTROL **Propriétés du compte**] , indiquez les informations spécifiques au type de compte sélectionné.
 
-   Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné.
+   Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné. (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
 
-   +++Amazon S3 Role ARN
+   **Types de compte**
 
-   Indiquez les informations suivantes pour configurer un compte RGPD de rôle Amazon S3 :
+   +++APERÇU du rôle Amazon S3
+
+   Pour configurer un compte RGPD de rôle Amazon S3, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **ARN du rôle**] | Vous devez fournir un Rôle ARN (nom de ressource Amazon) que l’Adobe peut utiliser pour accéder au compte Amazon S3. Pour ce faire, vous créez une stratégie d’autorisation IAM pour le compte source, vous la joignez à un utilisateur, puis vous créez un rôle pour le compte de destination. Pour plus d’informations, voir [cette documentation AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+   | [!UICONTROL **ARN de rôle**] | Vous devez fournir un ARN de rôle (nom de ressource Amazon) qu’Adobe peut utiliser pour accéder au compte Amazon S3. Pour ce faire, vous créez une politique d’autorisation IAM pour le compte source, vous la joignez à un utilisateur ou à une utilisatrice, puis vous créez un rôle pour le compte de destination. Pour plus d’informations, consultez [cette documentation AWS](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
 
    {style="table-layout:auto"}
 
@@ -47,46 +60,116 @@ Pour configurer un compte d’importation dans le cloud :
 
    +++Google Cloud Platform
 
-   Indiquez les informations suivantes pour configurer un compte Google Cloud Platform :
+   Pour configurer un compte Google Cloud Platform, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Identifiant du projet**] | Identifiant de projet Google Cloud. Voir [Documentation de Google Cloud sur l’obtention d’un ID de projet](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
+   | [!UICONTROL **Identifiant du projet**] | ID de projet Google Cloud. Consultez la [documentation de Google Cloud sur l’obtention d’un ID de projet](https://cloud.google.com/resource-manager/docs/creating-managing-projects?hl=fr#identifying_projects). |
 
    {style="table-layout:auto"}
 
 +++
 
-   +++SAS Azure
+   +++Azure SAS
 
-   Indiquez les informations suivantes pour configurer un compte Azure SAS :
+   Pour configurer un compte Azure SAS, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **ID d’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **ID de cliente ou client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault afin d’accorder l’autorisation sur l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une stratégie d’accès Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nom secret du coffre de clés**] | Le nom du secret que vous avez créé lors de l’ajout du secret au Key Vault Azure. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page **Key Vault** des pages de paramètres. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-   | [!UICONTROL **Clé du compte d’emplacement**] | Copiez le secret de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
+   | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, consultez la [documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
+   | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Nom secret du coffre de clés**] | Nom secret que vous avez créé lors de l’ajout du secret à Azure Key Vault. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page **Key Vault** de la page paramètres. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **Secret du compte de localisation**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
 
    {style="table-layout:auto"}
 
 +++
 
-   +++RBAC Azure
+   +++Azure RBAC
 
-   Indiquez les informations suivantes pour configurer un compte Azure RBAC :
+   Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **ID d’application**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **ID de cliente ou client**] | Copiez cet identifiant de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Présentation** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-   | [!UICONTROL **Clé du compte d’emplacement**] | Copiez le secret de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+   | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
+   | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
+   | [!UICONTROL **Secret du compte de localisation**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
 
    {style="table-layout:auto"}
+
++++
+
+   **Types de compte hérités**
+
+   Ces types de compte hérités ne sont disponibles que lors de l’exportation de données avec [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Ces options ne sont pas disponibles lors de l’importation de données avec [Jeux de classifications](/help/components/classifications/sets/manage/schema.md).
+
+   +++FTP
+
+   Les données de flux de données peuvent être diffusées vers un emplacement FTP hébergé par un Adobe ou par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
+
+   | Champ | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Hôte**] | Saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`. |
+   | [!UICONTROL **Chemin d’accès**] | Peut être laissé vide. |
+   | [!UICONTROL **Nom d’utilisateur**] | Saisissez le nom d’utilisateur pour vous connecter au site FTP. |
+   | [!UICONTROL **Mot de passe et confirmation du mot de passe**] | Saisissez le mot de passe pour vous connecter au site FTP. |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++SFTP
+
+   La prise en charge SFTP des flux de données est disponible. Nécessite un hôte SFTP, un nom d’utilisateur et un site de destination contenant une clé publique RSA ou DSA. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+
++++
+
+   +++S3
+
+   Vous pouvez envoyer des données d’entrepôt de données directement vers des compartiments Amazon S3. Ce type de destination requiert un nom de compartiment, un identifiant de clé d’accès et une clé secrète. Consultez les [exigences de nommage pour des compartiments Amazon S3](https://docs.aws.amazon.com/fr_fr/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) dans les documents Amazon S3 pour plus d’informations.
+
+   L’utilisateur ou l’utilisatrice que vous désignez pour charger des données d’entrepôt de données doit disposer des [autorisations](https://docs.aws.amazon.com/fr_fr/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html) suivantes :
+
+   * s3:GetObject
+   * s3:PutObject
+   * s3:PutObjectAcl
+
+   Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’algorithme de signature approprié si nécessaire) :
+
+   * us-east-2
+   * us-east-1
+   * us-west-1
+   * us-west-2
+   * ap-south-1
+   * ap-northeast-2
+   * ap-southeast-1
+   * ap-southeast-2
+   * ap-northeast-1
+   * ca-central-1
+   * eu-central-1
+   * eu-west-1
+   * eu-west-2
+   * eu-west-3
+   * eu-north-1
+   * sa-east-1
+
+   >[!NOTE]
+   >
+   >La région cn-north-1 n’est pas prise en charge.
+
++++
+
+   +++Azure Blob
+
+   L’entrepôt de données prend en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Amazon chiffre automatiquement les données au repos. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
+
+   >[!NOTE]
+   >
+   >Vous devez mettre en œuvre votre propre processus pour gérer l’espace disque sur la destination d’entrepôt de données. Adobe ne supprime pas les données du serveur.
 
 +++
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-1. Passez à la [Configuration des emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md).
+1. Passez à la [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
