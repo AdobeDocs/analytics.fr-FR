@@ -1,9 +1,8 @@
 ---
 title: Envoi de données à Adobe Analytics à l’aide de la bibliothèque JavaScript du SDK Web
 description: Commencez par une mise en oeuvre propre du SDK Web pour envoyer des données à Adobe Analytics à l’aide de la bibliothèque JavaScript.
-hide: true
-hidefromtoc: true
-source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
+exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
+source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -26,7 +25,7 @@ L’utilisation de la bibliothèque JavaScript du SDK Web pour envoyer des donn�
 | --- | --- |
 | <ul><li>**Approche directe**: ce chemin d’implémentation est plus simple que les approches qui déplacent les implémentations Adobe Analytics existantes. Si vous ne souhaitez pas vous soucier d’une mise en oeuvre Adobe Analytics actuelle, renseignez les champs XDM du SDK Web applicables.</li><li>**Schéma prédéfini**: si votre entreprise n’a pas besoin de votre propre schéma, vous pouvez simplement utiliser le schéma orienté vers Adobe Analytics. Ce concept s’applique même lorsque vous passez au Customer Journey Analytics ; le concept de props et d’eVars ne s’applique pas à Customer Journey Analytics, mais vous pouvez continuer à utiliser les props et eVars comme dimensions personnalisées simples.</li></ul> | <ul><li>**Les modifications de mise en oeuvre nécessitent une intervention du développeur**: si vous souhaitez apporter des modifications à la mise en oeuvre de votre SDK Web, vous devez travailler avec votre équipe de développement pour modifier le code sur votre site. L’approche qui utilise la variable [Extension de balise SDK Web](web-sdk-tag-extension.md) évite ce désavantage.</li><li>**Connecté à l’aide d’un schéma spécifique**: lorsque votre organisation passe à Customer Journey Analytics, vous devez choisir de continuer à utiliser le schéma Adobe Analytics ou de migrer vers le schéma de votre propre organisation (qui serait un jeu de données distinct). Si votre entreprise souhaite éviter le schéma Adobe Analytics et la migration vers un jeu de données distinct lors du passage à Customer Journey Analytics, Adobe recommande l’une des deux méthodes suivantes :</li><ul><li>Utilisez la variable `data` Objet : `data` vous permet d’envoyer des données à Adobe Analytics sans respecter un schéma XDM. Une fois le schéma de votre organisation créé, vous pouvez utiliser le mappage de flux de données pour mapper. `data` des champs d’objet vers XDM. Les deux [Extension Analytics vers l’extension SDK Web](analytics-extension-to-web-sdk.md) et [AppMeasurement à la bibliothèque JavaScript du SDK Web](appmeasurement-to-web-sdk.md) utilisez ceci `data` .</li><li>Ignorer entièrement Adobe Analytics : si vous mettez en oeuvre le SDK Web, vous pouvez envoyer ces données à un jeu de données dans Adobe Experience Platform en vue de les utiliser dans Customer Journey Analytics. Vous pouvez utiliser n’importe quel schéma de votre choix ; Adobe Analytics n’est pas du tout impliqué dans ce workflow et ne nécessite donc pas le groupe de champs Adobe Analytics ExperienceEvent . Cette méthode engendre le moins de dettes techniques possible, mais elle ne tient pas compte d’Adobe Analytics.</li></ul></ul> |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Cette méthode de mise en oeuvre nécessite l’utilisation d’un schéma configuré pour Adobe Analytics. Si votre entreprise prévoit d’utiliser votre propre schéma avec Customer Journey Analytics à l’avenir, l’utilisation du schéma Adobe Analytics peut créer une confusion pour les administrateurs ou les architectes de données. Plusieurs options permettent d’atténuer cet obstacle :
 >
