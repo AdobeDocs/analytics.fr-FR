@@ -4,9 +4,9 @@ description: Répertorie tous les paramètres de chaîne de requête utilisés d
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
-workflow-type: ht
-source-wordcount: '722'
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | Utilisé dans la dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md). |
 | `pccr` | Aucun | Défini uniquement pour les nouveaux visiteurs et toujours sur `true`. Permet d’empêcher les redirections infinies si un visiteur ou une visiteuse rejette les cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Détermine le type de lien personnalisé. Requis pour les [liens personnalisés](/help/components/dimensions/custom-link.md), les [liens de téléchargement](/help/components/dimensions/download-link.md) et les [liens de sortie](/help/components/dimensions/exit-link.md). |
-| `pev1` | Aucun | URL sur laquelle le lien personnalisé s’est produit. |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | URL sur laquelle le lien personnalisé s’est produit. |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nom convivial du lien personnalisé. |
 | `pev3` | Aucun | N’est plus utilisé. Jalons suivis dans les versions précédentes des rapports vidéo. |
 | `pf` | Aucun | Indicateur de plateforme ; pour utilisation par Adobe uniquement. Ne pas modifier. |

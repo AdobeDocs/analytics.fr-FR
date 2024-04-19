@@ -1,7 +1,8 @@
 ---
 title: Migration d’AppMeasurement vers le SDK Web
 description: Mettez à jour votre mise en oeuvre Adobe Analytics de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript du SDK Web.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -46,7 +47,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Dans le menu déroulant du service, sélectionnez **[!UICONTROL Adobe Analytics]**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-![Ajout du service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Ajout du service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Votre flux de données est maintenant prêt à recevoir et à transmettre des données à Adobe Analytics. Notez l’identifiant de la banque de données, car cet identifiant est requis lors de la configuration du SDK Web dans le code.
 

@@ -1,9 +1,10 @@
 ---
 title: Migration de l’extension de balise Adobe Analytics vers l’extension de balise SDK Web
 description: Mettez à jour votre mise en oeuvre Analytics sur les balises de collecte de données Adobe Experience Platform pour utiliser l’extension SDK Web.
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 2%
 
 ---
@@ -46,7 +47,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Dans le menu déroulant du service, sélectionnez **[!UICONTROL Adobe Analytics]**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-![Ajout du service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![Ajout du service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 Votre flux de données est maintenant prêt à recevoir et à transmettre des données à Adobe Analytics.
 
@@ -62,11 +63,11 @@ Cette section prépare votre balise pour l’essentiel de l’effort de migratio
 1. Sélectionner **[!UICONTROL Catalogue]** près de la partie supérieure pour afficher une liste de toutes les extensions disponibles.
 1. Recherchez et sélectionnez le **[!UICONTROL SDK Web Adobe Experience Platform]** extension, puis cliquez sur **[!UICONTROL Installer]** à droite.
 
-   ![Catalogue](assets/catalog.png) {style="border:1px solid gray"}
+   ![Catalogue](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. Les paramètres de configuration de l’extension s’affichent. Recherchez la section Flux de données , puis sélectionnez le flux de données que vous avez créé à l’étape précédente.
 
-   ![Sélection des flux de données](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![Sélection des flux de données](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
@@ -83,14 +84,14 @@ L’élément de données d’objet de données fournit une structure intuitive 
 1. Définissez les paramètres suivants pour l’élément de données :
    * [!UICONTROL Nom]: tout ce que vous souhaitez, par exemple &quot;Couche de données&quot; ou &quot;Objet de données&quot;
    * [!UICONTROL Extension]: [!UICONTROL SDK Web Adobe Experience Platform]
-   * [!UICONTROL Variable]: [!UICONTROL Variable]
+   * [!UICONTROL Type d’élément de données]: [!UICONTROL Variable]
    * Les cases à cocher peuvent rester inchangées.
 1. Sur la droite, sélectionnez les paramètres suivants :
    * Bouton radio Propriété : [!UICONTROL Données]
    * Solution : [!UICONTROL Adobe Analytics]
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-![Création d’un élément de données](assets/create-data-element.png) {style="border:1px solid gray"}
+![Création d’un élément de données](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Votre propriété de balise dispose désormais de tous les éléments nécessaires pour mettre à jour chaque règle.
 
@@ -103,7 +104,7 @@ Cette étape représente l’essentiel des efforts nécessaires pour migrer vers
 1. Dans le volet de navigation de gauche de l’interface des balises, sélectionnez **[!UICONTROL Règles]**.
 1. Sélectionnez une règle à modifier.
 1. Sélectionner l’action **[!UICONTROL Adobe Analytics - Définition de variables]**
-1. Notez toutes les variables Analytics définies dans cette règle. Notez les variables définies dans les menus déroulants et les variables définies dans le code personnalisé.
+1. Notez toutes les variables Analytics définies dans cette règle. Incluez les deux variables définies dans les menus déroulants et les variables définies dans le code personnalisé.
 1. Modifiez la variable [!UICONTROL Configuration d’action] aux paramètres suivants :
    * [!UICONTROL Extension]: [!UICONTROL SDK Web Adobe Experience Platform]
    * [!UICONTROL Type d’action]: variable de mise à jour
@@ -146,7 +147,7 @@ La publication des règles mises à jour suit le même processus que toute autre
 1. Testez vos modifications dans votre environnement de développement pour vous assurer que toutes les règles se déclenchent correctement et que l’objet de données est rempli avec les valeurs attendues.
 1. Une fois prête, envoyez la bibliothèque pour approbation, créez-la pour l’évaluation, puis approuvez et publiez-la pour la production.
 
-![Flux de publication](assets/publishing-flow.png) {style="border:1px solid gray"}
+![Flux de publication](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
