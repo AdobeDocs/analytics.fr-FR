@@ -4,7 +4,7 @@ description: Définissez la variable events, qui gouverne la plupart des mesures
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-ma
 * Les commandes sont mappées à `xdm.commerce.purchases.value`.
 * Les unités sont mappées à la somme de tous les champs `productListItems[].quantity`.
 * Le chiffre d’affaires est mappé à la somme de tous les champs `productListItems[].priceTotal`.
-* Les consultations de produits sont mappées à `xdm.commerce.productListViews.value`.
+* Les consultations de produits sont mappées à `xdm.commerce.productViews.value`.
 * Les paniers sont mappés à `xdm.commerce.productListOpens.value`.
 * Les ajouts au panier sont mappés à `xdm.commerce.productListAdds.value`.
 * Les retraits du panier sont mappés à `xdm.commerce.productListRemovals.value`.
