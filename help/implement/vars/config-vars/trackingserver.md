@@ -4,10 +4,10 @@ description: Permet de déterminer l’emplacement où les demandes d’image so
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].data.
 
 La variable `s.trackingServer` est une chaîne qui contient l’emplacement d’envoi des données.
 
-## Déterminer la valeur de `trackingServer`
+## Observations relatives à la détermination de la valeur de `trackingServer`
 
-La valeur de cette variable dépend de l’utilisation de cookies propriétaires ou tiers. Adobe recommande vivement d’utiliser des cookies propriétaires dans votre mise en œuvre.
+Vous pouvez choisir d’utiliser les domaines de serveur de suivi d’Adobe (par exemple, `adobedc.net`) ou vous pouvez passer par un processus spécial pour configurer un serveur de suivi correspondant à votre domaine de sites (par exemple : `data.mydomain.com`), également appelé implémentation CNAME. Disposer d’un serveur de suivi correspondant à votre domaine de site peut présenter des avantages en fonction d’autres aspects de votre mise en oeuvre. Lorsque le serveur de suivi ne correspond pas au domaine de la page active, les cookies définis par AppMeasurement doivent être définis comme tiers. Si le navigateur ne prend pas en charge les cookies tiers, cette incohérence peut interférer avec certaines fonctionnalités d’Analytics :
+
+- Définition des identifiants : si vous utilisez Experience Cloud Identity Service, le serveur de suivi n’a aucun impact sur la définition des cookies. Cependant, si vous utilisez des identifiants Analytics hérités (c’est-à-dire la variable `s_vi` ) et que le serveur de collecte ne correspond pas au domaine actuel, les cookies doivent être définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués par le navigateur, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu de la norme `s_vi` du cookie.
+- Le suivi des liens ne fonctionnera pas pour les liens internes.
+- Activity Map ne fonctionnera pas pour les liens internes.
+- Vérification de cookie.
 
 ### Cookies propriétaires
 
@@ -73,7 +78,7 @@ La personne qui configure initialement la mise en œuvre des cookies propriétai
 s.trackingServer = "data.example.com";
 ```
 
-### Cookies tiers
+### Serveur de suivi tiers
 
 >[!TIP]
 >
