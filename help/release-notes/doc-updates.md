@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
 workflow-type: tm+mt
-source-wordcount: '5273'
-ht-degree: 99%
+source-wordcount: '5315'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Avril 2024** | |
+| Suppression de la documentation relative au &quot;propriétaire&quot; dans les jeux de classifications | Le filtre et la colonne &quot;Propriétaire&quot; ont été supprimés de la variable [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage/set-manager.md) et le champ &quot;Propriétaire&quot; a été supprimé de la variable [Paramètres du jeu de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
 | Suppression des sections réductibles dans la documentation sur la configuration des emplacements d’importation et d’exportation cloud | Suppression des sections réductibles dans [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md) pour plus d’informations sur les types de compte cloud. |
 | **Mars 2024** | |
 | Mise à jour d’AppMeasurements | [Notes de mise à jour](/help/implement/appmeasurement-updates.md) concernant la mise à jour d’AppMeasurement v2.26.0.<br/>Inclut la référence à et la mise à jour de la documentation sur les variables de configuration [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
