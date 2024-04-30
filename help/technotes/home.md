@@ -3,9 +3,9 @@ title: Notes techniques d’Analytics
 description: Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 ## Principaux articles sur les notes techniques
 
 * [Transition d’une plateforme d’analyse tierce vers Adobe Analytics](ga-to-aa/home.md)
-* [Collecte de données régionales](/help/technotes/rdc/regional-data-collection.md)
 
 ## Plus de guides d’utilisation d’Analytics
 

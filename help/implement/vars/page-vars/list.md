@@ -4,10 +4,10 @@ description: Variables personnalisées qui contiennent plusieurs valeurs dans le
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 87%
+source-wordcount: '500'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +19,7 @@ Veillez à consigner dans votre [document de conception de solution](../../prepa
 
 >[!NOTE]
 >
->Les variables de liste stockent les 250 valeurs les plus récentes par visiteur. S’il existe plus de 250 valeurs uniques pour un visiteur donné, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
+>Les variables de liste stockent les valeurs les plus récentes par visiteur en fonction de leur [!UICONTROL Valeurs max.] définition dans [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Jusqu’à 250 valeurs sont prises en charge. S’il existe plus de valeurs uniques que ce que la variable [!UICONTROL Valeurs max.] accepte, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
 
 ## Configuration de variables de liste dans les paramètres de la suite de rapports
 
@@ -77,7 +77,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.list1 - s.list3 dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-Chaque variable de liste est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Celles-ci n’ont pas de nombre maximal d’octets ; toutefois, chaque valeur individuelle ne peut pas dépasser 255 octets. Le délimiteur que vous utilisez est déterminé lors de la configuration de la variable dans les [paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). N’utilisez pas d’espaces lorsque vous délimitez plusieurs éléments.
+Chaque variable de liste est une chaîne qui contient des valeurs personnalisées propres à votre organisation. Cette variable ne dispose pas d’un nombre maximal d’octets ; toutefois, chaque valeur individuelle est limitée à 255 octets au maximum. Le délimiteur que vous utilisez est déterminé lors de la configuration de la variable dans les [paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). N’utilisez pas d’espaces lorsque vous délimitez plusieurs éléments.
 
 ```js
 // A list variable configured with a comma as a delimiter

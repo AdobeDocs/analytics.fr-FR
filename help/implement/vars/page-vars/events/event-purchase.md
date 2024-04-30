@@ -4,10 +4,10 @@ description: Utilisez l’événement d’achat pour collecter des données pour
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
+source-wordcount: '468'
+ht-degree: 70%
 
 ---
 
@@ -30,10 +30,34 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), l’événement d’achat utilise les champs XDM suivants :
 
 * Les commandes sont mappées à `xdm.commerce.purchases.value`.
-* Les unités sont mappées à la somme de tous les champs `xdm.productListItems[].quantity`.
+* Les unités sont mappées à la somme de tous les `xdm.productListItems[].quantity` des champs. Voir [`products`](../products.md) pour plus d’informations.
 * Le chiffre d’affaires est mappé à la somme de tous les champs `xdm.productListItems[].priceTotal`.
 
+```json
+{
+  "xdm": {
+    "commerce": {
+      "purchases": {
+        "value": 1
+      }
+    }
+  }
+}
+```
+
 Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), l’événement d’achat utilise `data.__adobe.analytics.events`, suivant la syntaxe de chaîne d’AppMeasurement.
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "events": "purchase"
+      }
+    }
+  }
+}
+```
 
 ## Définir l’événement d’achat à l’aide de l’extension Adobe Analytics
 

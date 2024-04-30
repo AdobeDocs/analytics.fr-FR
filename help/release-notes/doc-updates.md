@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
 source-wordcount: '5315'
 ht-degree: 98%
@@ -150,7 +150,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Nouvelle rubrique sur le panneau [!UICONTROL Résumé de la page] | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nouvelle rubrique sur le panneau [!UICONTROL Élément suivant/précédent] | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Mars 2022** | |
-| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | [Algorithmes de chiffrement HTTPS pris en charge](/help/technotes/rdc/encryption-algos.md) pour les clients dont le niveau de sécurité du chiffrement est réglé sur « Élevé ». |
+| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | Algorithmes de chiffrement HTTPS pris en charge pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;. |
 | Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. |
 | Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
 | Panneau Espace de travail [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
@@ -296,7 +296,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 9 mai 2019 | Un nouveau paramètre a été ajouté aux paramètres de visualisation de flux : Inclure les instances de répétition. Consultez la section [Paramètres de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | 11 avril 2019 | Améliorations des bonnes pratiques relatives à l’optimisation d’Espace de travail : [Optimisation des performances](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md). |
 | 11 avril 2019 | Mises à jour pour [optimiser les performances d’Espace de travail](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| 14 mars 2019 | Mise à jour majeure de la [collecte de données régionale](/help/technotes/rdc/regional-data-collection.md). |
+| 14 mars 2019 | Mise à jour majeure de la collecte de données régionale. |
 | 7 février 2019 | Mise à jour mineure des paramètres « Remplacer le dernier octet de l’adresse IP par 0 » et « Obscurcissement d’IP » dans les [Paramètres du compte général](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md). |
 | 1er février 2019 | Mise à jour majeure du module externe de mise en œuvre [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
 | 17 janvier 2019 | [Analyse de cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) : les améliorations majeures apportées à l’analyse de cohortes vous permettent :<ul><li>d’appliquer à un segment des mesures d’inclusion et de retour de manière séparée ; </li><li>d’afficher l’attrition au lieu de la fidélisation ;</li><li>d’afficher les tables de latence (temps écoulé avant et après un évènement d’inclusion) ;</li><li>de personnaliser les dimensions des cohortes (vers des groupes de visiteurs basés sur une eVar et pas seulement sur une heure) ;</li><li>de calculer la rétention/la perte de clientèle sur la base de la période précédente et non de la cohorte d’origine ; </li><li>d’ajouter plusieurs mesures dans les champs d’inclusion et de retour, ainsi que d’appliquer des segments ; (Les mesures calculées ne sont pas prises en charge)</li></ul> |
