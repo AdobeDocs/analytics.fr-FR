@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
 source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -140,10 +140,10 @@ ht-degree: 94%
    + [Mappage des variables d’objet XDM](aep-edge/xdm-var-mapping.md)
    + SDK Web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
-      + [Migration vers le SDK Web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
-      + [Migration vers le SDK Web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
-      + [Nouvelle mise en oeuvre à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
-      + [Nouvelle mise en oeuvre à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
+      + [Migrer vers le SDK web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [Migrer vers le SDK web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [Nouvelle implémentation à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [Nouvelle implémentation à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK Mobile {#mobile-sdk}
       + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
    + API du serveur {#server-api}
