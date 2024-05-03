@@ -25,9 +25,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
-| **Avril 2024** | |
+| **Avril 2024** | |
 | Suppression de la documentation relative au &quot;propriétaire&quot; dans les jeux de classifications | Le filtre et la colonne &quot;Propriétaire&quot; ont été supprimés de la variable [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage/set-manager.md) et le champ &quot;Propriétaire&quot; a été supprimé de la variable [Paramètres du jeu de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
-| Suppression des sections réductibles dans la documentation sur la configuration des emplacements d’importation et d’exportation cloud | Suppression des sections réductibles dans [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md) pour plus d’informations sur les types de compte cloud. |
+| Suppression des sections rabattables dans la documentation sur la configuration des emplacements d’import et d’export dans le cloud | Suppression des sections rabattables sur [Configurer les emplacements d’import et d’export dans le cloud](/help/components/locations/configure-import-locations.md) pour les informations expliquant les types de comptes cloud. |
 | **Mars 2024** | |
 | Mise à jour d’AppMeasurements | [Notes de mise à jour](/help/implement/appmeasurement-updates.md) concernant la mise à jour d’AppMeasurement v2.26.0.<br/>Inclut la référence à et la mise à jour de la documentation sur les variables de configuration [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
 | Les informations d’utilisation relatives à la colonne « Utilisation dans » ne sont disponibles qu’à partir de septembre 2023. | Clarification que ces informations d’utilisation relatives à la colonne **Utilisation dans** sur la [page de destinations des projets](/help/analyze/landing.md) remontent seulement à septembre 2023. |
