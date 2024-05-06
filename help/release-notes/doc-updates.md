@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Avril 2024** | |
-| Suppression de la documentation relative au &quot;propriétaire&quot; dans les jeux de classifications | Le filtre et la colonne &quot;Propriétaire&quot; ont été supprimés de la variable [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage/set-manager.md) et le champ &quot;Propriétaire&quot; a été supprimé de la variable [Paramètres du jeu de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
+| Suppression de la documentation relative à la « personne propriétaire » dans les jeux de classifications | Le filtre et la colonne « Personne propriétaire » ont été supprimés du [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage/set-manager.md) et le champ « Personne propriétaire » a été supprimé des [Paramètres des jeux de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
 | Suppression des sections rabattables dans la documentation sur la configuration des emplacements d’import et d’export dans le cloud | Suppression des sections rabattables sur [Configurer les emplacements d’import et d’export dans le cloud](/help/components/locations/configure-import-locations.md) pour les informations expliquant les types de comptes cloud. |
 | **Mars 2024** | |
 | Mise à jour d’AppMeasurements | [Notes de mise à jour](/help/implement/appmeasurement-updates.md) concernant la mise à jour d’AppMeasurement v2.26.0.<br/>Inclut la référence à et la mise à jour de la documentation sur les variables de configuration [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |
@@ -150,7 +150,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Nouvelle rubrique sur le panneau [!UICONTROL Résumé de la page] | [Panneau Résumé de la page](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | Nouvelle rubrique sur le panneau [!UICONTROL Élément suivant/précédent] | [Panneau d’élément de dimension suivant/précédent](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **Mars 2022** | |
-| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | Algorithmes de chiffrement HTTPS pris en charge pour les clients dont le niveau de sécurité du chiffrement est défini sur &quot;Élevé&quot;. |
+| Nouvelle rubrique sur les algorithmes de chiffrement HTTPS pris en charge | Algorithmes de chiffrement HTTPS pris en charge pour la clientèle dont le niveau de sécurité du chiffrement est réglé sur « Élevé ». |
 | Nouvelle documentation sur les annotations dans Analysis Workspace | Les [annotations dans Analysis Workspace](/help/analyze/analysis-workspace/components/annotations/overview.md) vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. |
 | Mises à jour de la page de destination dʼAdobe Analytics | Les [mises à jour](/help/analyze/landing.md) de la page de destination conjointe Analysis Workspace / Reports &amp; Analytics améliorent la convivialité et la facilité de navigation. |
 | Panneau Espace de travail [!UICONTROL Élément suivant] ou [!UICONTROL Élément précédent] | Ce panneau vous permet d’explorer les éléments qui suivent ou précèdent un élément de dimension de votre choix. |
