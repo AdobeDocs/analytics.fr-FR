@@ -1,11 +1,11 @@
 ---
 title: Recherches dynamiques
 description: Découvrez les recherches dynamiques et comment les activer. Inclut les opérateurs, les attributs mobiles et les types de système d’exploitation.
-exl-id: 644bf34b-312d-483a-a590-2dd8d6a773a5
+exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données, sinon ils ne sont pas disponibles. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
 
-* **Nom de l’opérateur**: Fournit un contexte supplémentaire pour la variable `carrier` colonne . Le nom de fichier inclus est `carrier.tsv`.
-* **Attributs mobiles**: Fournit un contexte supplémentaire pour la variable `mobile_id` , y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
-* **Type de système d’exploitation**: Fournit un autre contexte pour la variable `os` colonne . Les `operating_systems.tsv` et `operating_system_type.tsv` utilisez la méthode `os` comme clé, mais uniquement `operating_system_type.tsv` est une recherche dynamique.
+* **Nom de l’opérateur**: fournit un contexte supplémentaire pour la variable `carrier` colonne . Le nom de fichier inclus est `carrier.tsv`.
+* **Attributs mobiles**: fournit un contexte supplémentaire pour la variable `mobile_id` , y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
+* **Type de système d’exploitation**: fournit un autre contexte pour la variable `os` colonne . Les deux `operating_systems.tsv` et `operating_system_type.tsv` utilisez la méthode `os` comme clé, mais uniquement `operating_system_type.tsv` est une recherche dynamique.
 
 ## Activation des recherches dynamiques
 
@@ -26,7 +26,7 @@ Si vous souhaitez recevoir les fichiers de recherche mentionnés, vous devez res
    * Pour `carrier.tsv`, vous devez inclure `carrier`.
    * Pour `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
    * Pour `operating_system_type.tsv`, vous devez inclure `os`.
-* Les colonnes suivantes doivent être **excluded**. Si l’une de ces colonnes est incluse dans le flux de données, les tables de recherche supplémentaires ne le sont pas.
+* Les colonnes suivantes doivent être **excluded**. Si l’une de ces colonnes est incluse dans le flux de données, la variable `mobile_attributes.tsv` la recherche dynamique n’est pas incluse.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`

@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Contenu du flux de données - Aperçu
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
+source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 77%
+source-wordcount: '1002'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ Pour accéder au contenu d’un flux de données :
 
 1. Décompressez le fichier comprimé à l’aide d’un programme qui prend en charge les extensions de fichier `.tar.gz`.
 
-1. Ouvrez le fichier `hit_data.tsv` dans votre application de tableur ou de base de données de votre choix pour afficher les données brutes pour cette journée. —>
+1. Ouvrez le `hit_data.tsv` dans votre tableur ou application de base de données de votre choix pour afficher les données brutes pour cette journée. —>
 
 ## Fichier de manifeste {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Chaque fichier de manifeste contient un en-tête qui indique le nombre total de fichiers de recherche et de fichiers de données, ainsi que le total des enregistrements dans tous les fichiers de données. Cet en-tête est suivi de plusieurs sections qui contiennent des informations pour chaque fichier inclus dans la remise du flux de données.
 
-Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. Le fichier `.fin` indique que le chargement est terminé, mais qu’il ne contient aucune métadonnée sur le téléchargement.
+Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. La variable `.fin` indique que le chargement est terminé, mais que les métadonnées qu’il contient sont dans un format plus ancien.
 
 ## Fichiers de recherche
 
@@ -81,20 +81,20 @@ La remise des fichiers de recherche s’effectue dans une archive .zip compress�
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: Une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
-* **`browser.tsv`**: Met en correspondance l’ID du navigateur (le `browser` de flux) au nom convivial du navigateur.
-* **`browser_type.tsv`**: Met en correspondance l’ID du navigateur (le `browser` colonne flux) au type de navigateur.
-* **`color_depth.tsv`**: Mappe l’identifiant de profondeur de couleur (le paramètre `color` colonne flux) en profondeur de couleur.
-* **`connection_type.tsv`**: Mappe l’ID de type de connexion (le `connection_type` colonne flux) au type de connexion.
-* **`country.tsv`**: Met en correspondance l’ID de pays (le `country` colonne flux) au nom du pays.
-* **`javascript_version.tsv`**: Mappe l’ID de version JavaScript (le `javascript` la colonne flux) vers la version JavaScript.
-* **`languages.tsv`**: Met en correspondance l’ID de langue (le `language` colonne flux) vers la langue.
-* **`operating_systems.tsv`**: Met en correspondance l’identifiant du système d’exploitation (le `os` de flux) au nom du système d’exploitation.
-* **`plugins.tsv`**: Met en correspondance les identifiants du module externe (le `plugin` colonne flux) à chaque nom de module externe respectif.
-* **`resolution.tsv`**: Met en correspondance l’ID de résolution (le `resolution` colonne flux) à la résolution de l’écran.
-* **`referrer_type.tsv`**: Mappe l’ID du type de référent (le `ref_type` colonne flux) au type de référent.
-* **`search_engines.tsv`**: Met en correspondance l’identifiant du moteur de recherche (le `search_engine` colonne flux) au nom du moteur de recherche.
-* **`event.tsv`**: Met en correspondance chaque ID d’événement (le `event_list` de flux) à son nom d’événement respectif.
+* **`column_headers.tsv`**: une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
+* **`browser.tsv`**: mappe l’ID du navigateur (le paramètre `browser` de flux) au nom convivial du navigateur.
+* **`browser_type.tsv`**: mappe l’ID du navigateur (le paramètre `browser` colonne flux) au type de navigateur.
+* **`color_depth.tsv`**: mappe l’identifiant de profondeur de couleur (le paramètre `color` colonne flux) en profondeur de couleur.
+* **`connection_type.tsv`**: mappe l’ID de type de connexion (le `connection_type` colonne flux) au type de connexion.
+* **`country.tsv`**: mappe l’ID de pays (la variable `country` colonne flux) au nom du pays.
+* **`javascript_version.tsv`**: mappe l’ID de version JavaScript (le paramètre `javascript` la colonne flux) vers la version JavaScript.
+* **`languages.tsv`**: mappe l’ID de langue (le paramètre `language` colonne flux) vers la langue.
+* **`operating_systems.tsv`**: mappe l’identifiant du système d’exploitation (le `os` de flux) au nom du système d’exploitation.
+* **`plugins.tsv`**: mappe les identifiants du module externe (le `plugin` colonne flux) à chaque nom de module externe respectif.
+* **`resolution.tsv`**: mappe l’ID de résolution (le paramètre `resolution` colonne flux) à la résolution de l’écran.
+* **`referrer_type.tsv`**: mappe l’identifiant du type de référent (le paramètre `ref_type` colonne flux) au type de référent.
+* **`search_engines.tsv`**: mappe l’identifiant du moteur de recherche (le `search_engine` colonne flux) au nom du moteur de recherche.
+* **`event.tsv`**: mappe chaque ID d’événement (la variable `event_list` de flux) à son nom d’événement respectif.
 
 ## Fichiers de données d’accès
 
@@ -107,6 +107,7 @@ Les fichiers livrés par Adobe dépendent du type de flux de données que vous a
 * `[YYYY-mm-dd]` fait référence à la date de départ relative au flux de données.
 * `[HHMMSS]` n’est utilisé que dans les flux horaires et fait référence à l’heure de départ du flux de données.
 * `[compression_suffix]` fait référence au type de compression utilisé. En règle générale, les flux de données sont compressés en fichiers `tar.gz` ou `zip`.
+* `[format_suffix]` fait référence au type de format de fichier. En règle générale, le format de fichier de flux de données est `.tsv`.
 
 ### Quotidien, un seul fichier
 
@@ -122,7 +123,7 @@ Lorsque les données sont collectées pour une journée, vous recevez un ou plus
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Après extraction, chaque fichier de données contient un fichier `hit_data.tsv` unique qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
+Après extraction, chaque fichier de données contient un fichier `[index]-[rsid]_[YYYY-mm-dd].[format_suffix]` unique qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
 
 ### Horaire, un seul fichier
 
@@ -134,11 +135,11 @@ Après extraction, le fichier de données contient un fichier `hit_data.tsv` uni
 
 ### Horaire, plusieurs fichiers
 
-Lorsque les données sont collectées pour une heure, vous recevez un ou plusieurs fichiers de données compressés et un fichier de manifeste. Le fichier de données s’intitule :
+Lorsque les données sont collectées pour une heure, vous recevez un ou plusieurs fichiers de données compressés et un fichier de manifeste. Les fichiers de données sont nommés :
 
-`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Après extraction, chaque fichier de données contient un fichier unique `hit_data.tsv` qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
+Une fois extrait, chaque fichier de données contient une seule `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
 
 ## Taille du fichier de données
 
