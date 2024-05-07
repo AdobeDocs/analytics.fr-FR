@@ -1,13 +1,13 @@
 ---
-description: Découvrez les questions fréquentes sur les Reports Builder.
-title: FAQ sur les Reports Builder
+description: Découvrez les questions fréquentes relatives à Report Builder.
+title: FAQ sur Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 91%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Questions fréquentes relatives à Report Builder
 
-## Puis-je utiliser la fonction `TODAY()` ou `DATERANGE()` dans les classeurs ?
+## Puis-je utiliser la fonction `TODAY()` ou `DATERANGE()` dans les classeurs ? {#today}
 
 Dans Excel, la fonction [`TODAY()`](https://support.microsoft.com/fr-fr/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) renvoie la date du jour. La fonction [`DATEVALUE()`](https://support.microsoft.com/fr-fr/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) convertit une chaîne de date en valeur série. En dépit de leur caractère utile à de nombreuses fonctionnalités dans Excel, Adobe déconseille fortement d’utiliser ces fonctions dans le cadre des requêtes planifiées de Report Builder. L’Assistance clientèle d’Adobe ne prend pas en charge les demandes de dépannage utilisant l’une ou l’autre de ces fonctions.
 
@@ -23,12 +23,16 @@ Les rapports planifiés sont traités sur des serveurs peu susceptibles de parta
 
 Les rapports planifiés sont également traités sur des serveurs peu susceptibles de partager la même syntaxe de date. Par exemple, `7/1/YYYY` peut faire référence au 1er juillet ou au 7 janvier, selon votre pays ou votre région. L’utilisation de la fonction `DATEVALUE()` à cette date entraînerait des valeurs de série différentes en fonction de l’ordinateur sur lequel elle est exécutée.
 
-Plutôt que d’utiliser ces fonctions Excel, Adobe vous recommande vivement d’utiliser des périodes dans vos requêtes Report Builder. Sur la première page de l’assistant de requête, sélectionnez **[!UICONTROL Préconfigurer les dates]** dans la liste déroulante, puis sous Dates courantes, sélectionnez **[!UICONTROL Aujourd&#39;hui]** ou une autre période. Ce paramètre intègre l’heure de la suite de rapports au moment de son exécution et non pas l’heure du serveur qui traite la requête.
+Plutôt que d’utiliser ces fonctions Excel, Adobe vous recommande vivement d’utiliser des périodes dans vos requêtes Report Builder. Sur la première page de l’assistant Requête, sélectionnez **[!UICONTROL Dates prédéfinies]** dans le menu déroulant, puis, sous Dates utilisées, cliquez sur **[!UICONTROL Aujourd’hui]** ou sur une autre période souhaitée. Ce paramètre intègre l’heure de la suite de rapports au moment de son exécution et non pas l’heure du serveur qui traite la requête.
 
-## Quelle taille et quelle complexité puis-je donner à mes classeurs ?
+## Quelle taille et quelle complexité puis-je donner à mes classeurs ? {#complexity}
 
 Report Builder prend en charge les classeurs jusqu’aux limites suivantes :
 
 * **1 000 demandes** : un seul classeur peut contenir jusquʼà 1 000 demandes de données. Si vous disposez de rapports ou de projets nécessitant plus de 1 000 requêtes, Adobe vous recommande de les séparer pour les incorporer dans plusieurs classeurs.
 * **20 000 requêtes par heure pour chaque société** : Report Builder utilise l’API de création de rapports d’Analytics pour récupérer les données. Chaque requête utilise un appel d’API à chaque fois qu’elle est créée ou actualisée. Si votre organisation accumule plus de 20 000 appels d’API en une heure donnée, vous devez attendre l’heure suivante pour récupérer les données à nouveau.
 * **Temps de traitement de 4 heures** : les rapports planifiés expirent après plus de 4 heures de traitement. Si votre classeur contient de nombreuses requêtes complexes qui utilisent des jeux de données volumineux, le rapport planifié peut échouer.
+
+## Comment savoir si j’ai accès au Report Builder ? {#access}
+
+Votre administrateur Adobe Analytics doit vous accorder un accès par Report Builder. L’administrateur configure les profils de produit dans la variable [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Demandez à votre administrateur de vous accorder l’accès.
