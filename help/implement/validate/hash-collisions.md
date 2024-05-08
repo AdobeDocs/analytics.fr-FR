@@ -4,80 +4,44 @@ description: Décrit ce qu’est une collision de hachage et de quelle façon el
 feature: Validation
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 06f61fa7b39faacea89149650e378c8b8863ac4f
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
 # Collisions de hachage
 
-Adobe traite les valeurs prop et eVar comme des chaînes, même si la valeur est un nombre. Parfois, ces chaînes sont constituées de centaines de caractères ; d’autres fois elles sont très courtes. Pour économiser de l’espace, améliorer les performances et uniformiser leur taille, les chaînes ne sont pas utilisées directement dans le traitement. À la place, un hachage de 32 bits ou 64 bits est calculé pour chaque valeur. Tous les rapports s’exécutent sur ces valeurs de hachage, où chaque hachage est remplacé par le texte d’origine. Les hachages augmentent considérablement les performances des rapports Analytics.
+Les Dimensions dans Adobe Analytics collectent des valeurs de chaîne. Parfois, ces chaînes comportent des centaines de caractères, tandis que d’autres fois elles sont courtes. Pour améliorer les performances, ces valeurs de chaîne ne sont pas utilisées directement dans le traitement. À la place, un hachage est calculé pour chaque valeur afin de uniformiser la taille de toutes les valeurs. Tous les rapports s’exécutent sur ces valeurs hachées, ce qui augmente considérablement leurs performances.
 
-Pour la plupart des champs, la chaîne est convertie au préalable en minuscules (ce qui réduit le nombre de valeurs uniques). Les valeurs sont hachées chaque mois (la première fois qu’elles sont vues chaque mois). Au fil des mois, il peut arriver que deux valeurs de variable uniques soient hachées avec la même valeur de hachage. On parle alors de *collision de hachage*.
+Pour la plupart des champs, la chaîne est d’abord convertie en minuscules. La conversion en minuscules réduit le nombre de valeurs uniques. Les valeurs sont hachées sur une base mensuelle ; le cas d’une valeur donnée utilise la première valeur affichée chaque mois. D’un mois à l’autre, il est possible que deux valeurs de variable uniques soient hachées à la même valeur. On parle alors de *collision de hachage*.
 
-Les collisions de hachage peuvent se manifester dans les rapports comme suit :
+Les collisions de hachage peuvent se manifester dans les rapports comme suit :
 
-* Si vous exécutez un rapport de tendance d’une valeur et que vous constatez un pic pour un mois donné, il est probable que d’autres valeurs pour cette variable soient hachées à la même valeur que la valeur que vous observez.
-* Le même comportement se produit pour les segments pour une valeur spécifique.
+* Si vous affichez un rapport au fil du temps et constatez un pic inattendu, il est possible que plusieurs valeurs uniques de cette variable utilisent le même hachage.
+* Si vous utilisez un segment et que vous voyez une valeur inattendue, il est possible que l’élément de dimension inattendu utilise le même hachage qu’un autre élément de dimension correspondant à votre segment.
 
-## Exemple de collision de hachage
+## Impacts d’une collision de hachage
 
-La probabilité des collisions de hachage augmente avec le nombre de valeurs uniques dans une dimension. Par exemple, l’une des valeurs transmises en fin de mois pourrait avoir la même valeur de hachage qu’une valeur plus tôt dans le mois. L’exemple suivant peut aider à comprendre de quelle façon ce comportement peut provoquer le changement des résultats des segments. Supposons que l’eVar62 reçoive la « valeur 100 » le 18 février. Analytics tient à jour un tableau qui peut ressembler à ceci :
+Adobe Analytics utilise des hachages 32 bits pour la plupart des dimensions, ce qui signifie qu’il existe 2<sup>32</sup> les combinaisons de hachage possibles (environ 4,3 milliards). Un nouveau tableau de hachage est créé chaque mois pour chaque dimension. Les chances approximatives de rencontrer une collision de hachage en fonction du nombre de valeurs uniques sont les suivantes. Ces probabilités sont basées sur une seule dimension pour un seul mois.
 
-<table id="table_6A49D1D5932E485DB2083154897E5074"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Valeur de chaîne eVar62 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Valeur 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valeur 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Valeur 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Valeurs uniques | Odd |
+| --- | --- |
+| 1,000 | 0,01 % |
+| 10 000 | 1 % |
+| 50 000 | 26 % |
+| 100 000 | 71 % |
 
-Si vous créez un segment qui recherche les visites où eVar62=&quot;valeur 500&quot;, Analytics détermine si la « valeur 500 » contient un hachage. Puisque la « valeur 500 » n’existe pas, Analytics renvoie zéro visite. Puis, le 23 février, l’eVar62 reçoit la « valeur 500 », pour laquelle le hachage est également 123. Le tableau ressemblera à ce qui suit :
+{style="table-layout:auto"}
 
-<table id="table_5FCF0BCDA5E740CCA266A822D9084C49"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Valeur de chaîne eVar62 </th> 
-   <th colname="col2" class="entry"> Hash </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> Valeur 99 </p> </td> 
-   <td colname="col2"> <p> 111 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valeur 100</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Valeur 101 </p> </td> 
-   <td colname="col2"> <p> 222 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b> Valeur 500</b> </p> </td> 
-   <td colname="col2"> <p> <b> 123</b> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Semblable au [paradoxe de l&#39;anniversaire](https://en.wikipedia.org/wiki/Birthday_problem), la probabilité des collisions de hachage augmente de manière drastique à mesure que le nombre de valeurs uniques augmente. À 1 million de valeurs uniques, il est probable qu’il existe au moins 100 collisions de hachage pour cette dimension.
 
-Quand le même segment s’exécute à nouveau, il recherche le hachage de la « valeur 500 », trouve 123, et le rapport renvoie toutes les visites qui contiennent le hachage 123. Désormais, les visites survenues le 18 février seront incluses dans les résultats.
+## Atténuation des collisions de hachage
 
-Cette situation est susceptible d’engendrer des problèmes lors de l’utilisation d’Analytics. Adobe continue à chercher des façons de réduire la probabilité de ces collisions de hachage à l’avenir. Pour éviter cette situation, essayez d’étaler les valeurs uniques entre les variables, supprimez les valeurs superflues avec les règles de traitement ou encore réduisez le nombre de valeurs par variable.
+La plupart des collisions de hachage se produisent avec deux valeurs peu courantes, qui n’ont aucun impact significatif sur les rapports. Même si un hachage entre en conflit avec une valeur commune et rare, le résultat est négligeable. Cependant, dans de rares cas où deux valeurs populaires rencontrent une collision de hachage, il est possible de voir clairement son effet. Adobe recommande ce qui suit pour réduire son effet dans les rapports :
+
+* **Modification de la période**: les tableaux de hachage changent chaque mois. Le fait de modifier la période pour qu’elle s’étende sur un autre mois peut donner à chaque valeur différents hachages qui ne sont pas en conflit.
+* **Réduction du nombre de valeurs uniques**: vous pouvez ajuster votre mise en oeuvre ou utiliser des [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour réduire le nombre de valeurs uniques collectées par une dimension. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer des chaînes de requête ou du protocole.
+
+<!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
