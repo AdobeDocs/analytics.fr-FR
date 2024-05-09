@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '5315'
-ht-degree: 100%
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+workflow-type: tm+mt
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Mai 2024** | |
+| Nouvelle documentation pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics | Pour les entreprises qui effectuent une mise à niveau d’Adobe Analytics vers Customer Journey Analytics, il existe plusieurs options de mise à niveau et de nombreuses considérations à garder à l’esprit en fonction de la mise en oeuvre Adobe Analytics actuelle et des objectifs à long terme d’une entreprise.<p>De nouvelles ressources de documentation sont désormais disponibles pour vous aider à mieux comprendre :</p><ul><li>Les différents chemins de mise à niveau qui existent</li><li>Quels chemins de mise à niveau sont disponibles en fonction de la mise en oeuvre actuelle d’Adobe Analytics par une entreprise ?</li><li>Avantages et inconvénients de chaque chemin de mise à niveau</li><li>Conseils détaillés pour chaque chemin de mise à niveau</li><li>Considérations relatives à la gestion des données historiques</li><li>Et bien plus encore !</li></ul><p>[Prise en main de la mise à niveau vers Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| Mise à jour de la documentation sur les périodes personnalisées | Mise à jour des captures d’écran et des procédures relatives aux [création de plages de dates personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) afin de correspondre aux fonctionnalités et à la conception du produit actuel. |
 | **Avril 2024** | |
 | Suppression de la documentation relative à la « personne propriétaire » dans les jeux de classifications | Le filtre et la colonne « Personne propriétaire » ont été supprimés du [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage/set-manager.md) et le champ « Personne propriétaire » a été supprimé des [Paramètres des jeux de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
 | Suppression des sections rabattables dans la documentation sur la configuration des emplacements d’import et d’export dans le cloud | Suppression des sections rabattables sur [Configurer les emplacements d’import et d’export dans le cloud](/help/components/locations/configure-import-locations.md) pour les informations expliquant les types de comptes cloud. |
