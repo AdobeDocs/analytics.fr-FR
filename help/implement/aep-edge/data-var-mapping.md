@@ -4,28 +4,28 @@ description: Affichez les champs d’objet de données Experience Platform Edge 
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 97d830653bfb9ad68d1d885dd8dff0ecf49055d7
+source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 5%
+source-wordcount: '541'
+ht-degree: 2%
 
 ---
 
 # Mappage des variables d’objet de données vers Adobe Analytics
 
-Le tableau suivant présente les variables d’objet de données que Adobe Experience Platform Edge Network mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ d’objet de données, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics.
+Le tableau suivant présente les variables d’objet de données que l’Edge Network Adobe Experience Platform mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ d’objet de données, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics.
 
-L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Customer Journey Analytics à l’avenir. Cette méthode d’implémentation permet à votre entreprise d’envoyer des données à Adobe à l’aide du SDK Web sans se conformer à un schéma XDM. Lorsque votre entreprise est prête à envoyer des données à Adobe Experience Platform, vous pouvez utiliser [Mappage des flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/data-prep.html#mapping) pour pointer les champs d’objet de données vers leurs champs XDM respectifs.
+L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Customer Journey Analytics à l’avenir. Cette méthode d’implémentation permet à votre entreprise d’envoyer des données à Adobe à l’aide du SDK Web sans se conformer à un schéma XDM. Lorsque votre entreprise est prête à envoyer des données à Adobe Experience Platform, vous pouvez utiliser [Mappage des flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) pour pointer les champs d’objet de données vers leurs champs XDM respectifs.
 
 ## Priorités de valeur
 
-La plupart des champs d’objet de données de ce tableau correspondent à un [champ XDM mappé](xdm-var-mapping.md). Si vous définissez les deux `data` et son champ XDM respectif, le champ d’objet de données est prioritaire. Si vous utilisez à la fois le champ d’objet XDM et le champ d’objet de données, Adobe recommande de définir des événements personnalisés à l’aide du champ d’objet de données. Si le champ `data.__adobe.analytics.events` est présent, il remplace tous les champs d’objet XDM liés aux événements commerciaux et personnalisés.
+La plupart des champs d’objet de données de ce tableau correspondent à un [champ XDM mappé](xdm-var-mapping.md). Si vous définissez un champ d’objet de données donné et son champ XDM respectif, le champ d’objet de données est prioritaire. Par exemple, si le champ `data.__adobe.analytics.events` est présent, il remplace tous les champs d’objet XDM liés à un événement.
 
 Certains champs d’objet de données prennent également en charge leurs [Valeur du paramètre de requête](../validate/query-parameters.md) comme valeurs abrégées. Vous pouvez utiliser des champs d’objet de données standard et des champs d’objet de données abrégés de manière interchangeable, à condition qu’ils soient chacun pour des variables uniques. Évitez de définir simultanément un champ d’objet de données standard et son champ d’objet de données de courte longueur respectif. Adobe ne peut pas garantir quel champ a la priorité.
 
 ## Mappage des champs d’objet de données
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) de cette page.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). À l’instar des variables d’AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
 
 | Chemin du champ de l’objet de données | Variable et description Analytics |
 | --- | --- |
@@ -48,7 +48,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `data.__adobe.analytics.linkType` | Détermine le type de lien sur lequel l’utilisateur a cliqué. Les valeurs valides incluent : `o` (Liens personnalisés), `d` (Liens de téléchargement) et `e` (Liens de sortie). Champ abrégé `data.__adobe.analytics.pe` est également prise en charge. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | [`list`](/help/implement/vars/page-vars/list.md) variables d’implémentation. Champs abrégés `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` sont également prises en charge. |
 | `data.__adobe.analytics.longitude` | Permet de définir [Emplacement](../../components/dimensions/lifecycle-dimensions.md) dimensions de cycle de vie mobile. Champ abrégé `data.__adobe.analytics.lon` est également prise en charge. |
-| `data.__adobe.analytics.pageName` | La dimension [Page](/help/components/dimensions/page.md). |
+| `data.__adobe.analytics.pageName` | Dimension [Page](/help/components/dimensions/page.md). |
 | `data.__adobe.analytics.pageURL` | La variable [URL de la page](/help/components/dimensions/page-url.md) dimension. Champ abrégé `data.__adobe.analytics.g` est également prise en charge. |
 | `data.__adobe.analytics.pageType` | La variable [`pageType`](../vars/page-vars/pagetype.md) de mise en oeuvre. |
 | `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | [Prop](../../components/dimensions/prop.md) dimensions. Champs abrégés `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` sont également prises en charge. |
