@@ -1,43 +1,47 @@
 ---
-description: Le suivi détermine la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
-title: Suivi en mode manuel et mode automatique
+description: Le type de suivi détermine la manière dont l’implémentation d’Adobe Analytics suit les données de votre moteur de recherche. Ce type de suivi est une étape requise pour augmenter correctement les données Adobe Analytics avec les données du moteur de recherche.
+title: Type de suivi
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# Suivi : mode manuel et mode automatique
+# Type de suivi
 
-Le suivi détermine la façon dont les données du moteur de recherche sont suivies par votre implémentation Adobe Analytics. Cette étape est requise pour ajouter correctement les données du moteur de recherche aux données d’Adobe Analytics.
+Le type de suivi détermine la manière dont l’implémentation d’Adobe Analytics suit les données de votre moteur de recherche. Ce type de suivi est une étape requise pour augmenter correctement les données Adobe Analytics avec les données du moteur de recherche.
 
-Regardez cette présentation vidéo sur la mise en œuvre du modèle de suivi dʼAdvertising Analytics :
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-Deux modes de suivi sont pris en charge : le mode automatique et le mode manuel.
+-->
 
-## Suivi en mode automatique {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+Deux modes de suivi sont pris en charge : [!UICONTROL Auto] et [!UICONTROL Manuel].
 
-En mode automatique, vous laissez le moteur Advertising Cloud décider comment gérer les données du moteur de recherche. Il s’agit de l’approche la plus simple, même si elle ne produit pas toujours le meilleur jeu de données intégré.
+## [!UICONTROL Auto] Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-C’est pourquoi vous devez cocher une case de confirmation quand vous sélectionnez le mode automatique avant de pouvoir sauvegarder la configuration du compte.
+[!UICONTROL Auto] tracking permet au moteur Advertising Cloud de décider comment gérer les données du moteur de recherche. Le suivi automatique est l’approche la plus simple, mais il se peut qu’elle ne produise pas le meilleur jeu de données intégré.
 
-Notez que pour configurer un compte de moteur de recherche en « mode automatique », vous devez prendre les mesures suivantes :
+Par conséquent, vous devez cocher une case de confirmation lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre du compte.
 
-* Le paramètre `s_kwcid` et la valeur seront ajoutés aux modèles de suivi de compte ou aux URL de page d’entrée dans le compte ajouté. Ils seront alors insérés à la fin de l’URL. Vous devrez peut-être prendre une mesure supplémentaire si votre serveur web requiert une certaine paire clé=valeur à la fin de l’URL OU une mise à jour pour prendre en charge n’importe quelle nouvelle paire clé=valeur dans l’URL. **Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.**
-* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Exemple : le « + » est un caractère spécial courant utilisé dans les mots-clés en « requête large modifiée ».
+Pour configurer un compte de moteur de recherche avec **[!UICONTROL Auto]** , vous êtes responsable des actions suivantes :
+
+* La variable `s_kwcid` Les paramètres et valeurs sont ajoutés aux modèles de suivi de compte ou aux URL de page d’entrée dans le compte ajouté. Ce paramètre et cette valeur sont insérés à la fin de l’URL. Une action supplémentaire peut être requise de votre part si votre serveur web requiert une certaine `key=value` à la fin de l’URL. Ou une mise à jour pour prendre en charge toute nouvelle `key=value` dans l’URL. Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.
+* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Par exemple, un caractère spécial commun est `+`, qui est utilisé dans les mots-clés &quot;En correspondance large modifiée&quot;.
 
 >[!IMPORTANT]
 >
->Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=fr).
+>Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
-## Suivi en mode manuel  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Suivi manuel {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-En mode manuel, vous devez spécifier la façon dont les données du moteur de recherche doivent être traitées par le processus d’intégration des données Advertising Analytics.
+Le suivi manuel vous permet de spécifier comment le processus d’intégration des données Advertising Analytics doit traiter les données du moteur de recherche.
 
 ### Ajout d’un suivi manuel à un compte Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
@@ -45,7 +49,7 @@ La chaîne qui doit être ajoutée au compte Google est affichée ci-dessous. Vo
 
 >[!IMPORTANT]
 >
->La valeur `<Advertising Analytics ID>` (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez récupérer la chaîne spécifique à votre ID de compte à partir de l’écran de configuration de votre compte sous la section « Suivi ».
+>La valeur *`<Advertising Analytics ID>`* (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’ID de compte spécifique à partir de l’écran du compte sous la balise [!UICONTROL Tracking] .
 
 **Chaîne de suivi pour les campagnes :**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 Exemples de codes de suivi dans divers formats de modèles de suivi :
 
@@ -78,7 +82,11 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Tiers (DoubleClick)`{lpurl}`**
 
-Si l’URL passe par une redirection et n’utilise pas une valeur « unescapedlpurl », vous devez encoder la chaîne autant de fois que nécessaire pour qu’elle persiste via la redirection vers l’URL de la dernière page d’entrée.
+Pour vous assurer que la chaîne persiste par le biais de la redirection vers l’URL de la dernière page d’entrée, vous devez encoder suffisamment la chaîne :
+
+* si l’URL passe par une redirection, et
+* n’utilise pas de valeur &quot;unescapedlpurl&quot;.
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -90,7 +98,7 @@ La chaîne qui doit être ajoutée au compte Bing est affichée ci-dessous. Vous
 
 >[!IMPORTANT]
 >
->La valeur `<Advertising Analytics ID>` (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez récupérer la chaîne spécifique à votre ID de compte à partir de l’écran de configuration de votre compte sous la section « Suivi ».
+>La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir la chaîne d’ID de compte spécifique à partir de l’écran du compte sous la section &quot;Suivi&quot;.
 
 **Chaîne de suivi pour les campagnes :**
 
@@ -98,7 +106,7 @@ La chaîne qui doit être ajoutée au compte Bing est affichée ci-dessous. Vous
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 Exemples de codes de suivi dans divers formats de suffixes d’URL finaux :
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **Tiers (DoubleClick)`{lpurl}`**
 
-Si l’URL passe par une redirection et n’utilise pas une valeur « unescapedlpurl », vous devez encoder la chaîne autant de fois que nécessaire pour qu’elle persiste via la redirection vers l’URL de la dernière page d’entrée.
+Pour vous assurer que la chaîne persiste par le biais de la redirection vers l’URL de la dernière page d’entrée, vous devez encoder suffisamment la chaîne :
+
+* si l’URL passe par une redirection, et
+* n’utilise pas de valeur &quot;unescapedlpurl&quot;.
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

@@ -3,10 +3,10 @@ description: Gestion des comptes dans Advertising Analytics.
 title: Gestion des comptes Advertising
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Vous pouvez accéder à l’interface utilisateur de gestion en vous rendant dans **[!UICONTROL Admin]** > **[!UICONTROL Comptes Advertising]**.
 
-![](assets/manage_ad_accounts.png)
+![Comptes Advertising](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ Vous pouvez accéder à l’interface utilisateur de gestion en vous rendant dan
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Ajouter </p> </td> 
-   <td colname="col2"> <p>Vous dirige vers l’interface utilisateur <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurer un compte Advertising</a>. </p> </td> 
+   <td colname="col2"> <p>Vous dirige vers l’interface utilisateur <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >Configurer un compte Advertising</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Renommer </p> </td> 
@@ -42,7 +42,7 @@ Vous pouvez accéder à l’interface utilisateur de gestion en vous rendant dan
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pause </p> </td> 
-   <td colname="col2"> <p>Désactive le compte. Pour le réactiver, cliquez sur <span class="uicontrol">Activer</span>. </p> </td> 
+   <td colname="col2"> <p>Désactive le compte. Pour l’activer à nouveau, sélectionnez <span class="uicontrol">Activer</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>En-têtes des colonnes</b> </p> </td> 
@@ -54,11 +54,11 @@ Vous pouvez accéder à l’interface utilisateur de gestion en vous rendant dan
   </tr> 
   <tr> 
    <td colname="col1"> <p>Suites de rapports </p> </td> 
-   <td colname="col2"> <p>Les suites de rapports mappées à ce compte publicitaire. </p> </td> 
+   <td colname="col2"> <p>Suites de rapports mappées à ce compte publicitaire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>Nous ne prenons actuellement en charge qu’un seul type : Rechercher. </p> </td> 
+   <td colname="col2"> <p>Un seul type est pris en charge : Recherche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compte </p> </td> 

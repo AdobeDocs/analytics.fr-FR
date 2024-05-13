@@ -3,28 +3,28 @@ description: Détails sur le modèle Analysis Workspace et sur la création de r
 title: Rapport sur les données Advertising dans Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# Rapport sur les données Advertising dans Adobe Analytics
+# Rapport sur les données publicitaires
 
-Détails sur le modèle Analysis Workspace et sur la création de rapports dans Report Builder.
-
->[!NOTE]
->
->Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que le reporting Analytics ne renverra pas de données pour la granularité horaire, car les données AMO ne prennent pas en charge ce type de granularité.
-
-## Analysis Workspace : moteurs de recherche {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de recherche d’accéder à de nombreuses données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Modèles]** > **[!UICONTROL Advertising]** > **[!UICONTROL Moteurs de recherche.]**
+Cet article fournit des détails sur le rapport Analysis Workspace et le rapport en Report Builder.
 
 >[!NOTE]
 >
->La catégorie de modèle Advertising est visible par tous les clients, y compris ceux qui n’ont implémenté aucun compte Advertising. Cependant, si vous tentez d’ouvrir le modèle Moteurs de recherche pour une entreprise dont la configuration n’a pas été effectuée, un message d’erreur vous indiquera que vous n’avez encore configuré aucun compte de moteur de recherche. Dans ce cas, cliquez sur **[!UICONTROL Configurer maintenant]**, vous serez alors dirigé vers l’écran [Configuration d’un compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que la création de rapports Analytics ne renvoie pas de données pour la granularité horaire, car les données Advertising Cloud ne prennent pas en charge la granularité horaire.
+
+## Rapport de recherche payante {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+Ce rapport permet à toute personne qui met en oeuvre l’intégration de moteur de recherche d’accéder aux données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Rapports]** > **[!UICONTROL Acquisition]** > **[!UICONTROL Advertising Analytics : recherche payante]**
+
+>[!NOTE]
+>
+>Le rapport de recherche payante est visible par tous les clients, même si vous n’avez implémenté aucun compte Advertising. Si vous essayez d’ouvrir le rapport de recherche payante pour une société qui n’est pas configurée, un message d’erreur vous explique que vous n’avez configuré aucun compte de moteur de recherche. Sélectionner **[!UICONTROL Configurer maintenant]**, qui vous permet d’accéder au [Configuration du compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) écran.
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ Ce modèle permet à quiconque mettant en œuvre une intégration de moteur de r
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Dès que vous avez configuré un compte Advertising Analytics, un rapport Advertising Analytics sera disponible.
+Dès que vous avez configuré un compte Advertising Analytics, le rapport Advertising Analytics est rendu disponible.

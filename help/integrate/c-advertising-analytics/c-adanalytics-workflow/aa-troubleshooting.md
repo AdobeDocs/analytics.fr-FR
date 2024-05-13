@@ -3,10 +3,10 @@ description: Dépannage et correction des problèmes liés à Advertising Analyt
 title: Résolution des problèmes d’Advertising Analytics
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 50%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 ## Je ne vois pas ma suite de rapports dans la section Mappage {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Vous tentez de [configurer un nouveau compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) et votre suite de rapports ne figure pas dans la liste déroulante **[!UICONTROL Sélectionner une suite de rapports]**. Il y a deux raisons possibles :
+Vous essayez de [Configuration d’un nouveau compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) et votre suite de rapports ne figure pas dans la liste **[!UICONTROL Suites de rapports mappées]** liste déroulante. Il y a deux raisons possibles :
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -28,11 +28,11 @@ Vous tentez de [configurer un nouveau compte Advertising](/help/integrate/c-adve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. La suite de rapports n’est pas mappée à l’ID d’organisation Experience Cloud de l’identifiant de connexion. </p> </td> 
+   <td colname="col1"> <p>1. La suite de rapports n’est pas mappée à l’ID d’organisation Experience Cloud de l’utilisateur de connexion. </p> </td> 
    <td colname="col2"> <p>Contactez l’assistance clientèle pour mapper la suite de rapports à un ID d’organisation.</p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2. La suite de rapports n’est pas configurée pour la création des rapports Advertising Analytics. </p> </td> 
+   <td colname="col1"> <p>2. La suite de rapports n’est pas configurée pour la création de rapports Advertising Analytics. </p> </td> 
    <td colname="col2"> <p>Voir <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >Configuration de suites de rapports</a> pour obtenir des instructions. </p> </td> 
   </tr> 
  </tbody> 
