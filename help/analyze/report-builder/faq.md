@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder prend en charge les classeurs jusqu’aux limites suivantes :
 * **20 000 requêtes par heure pour chaque société** : Report Builder utilise l’API de création de rapports d’Analytics pour récupérer les données. Chaque requête utilise un appel d’API à chaque fois qu’elle est créée ou actualisée. Si votre organisation accumule plus de 20 000 appels d’API en une heure donnée, vous devez attendre l’heure suivante pour récupérer les données à nouveau.
 * **Temps de traitement de 4 heures** : les rapports planifiés expirent après plus de 4 heures de traitement. Si votre classeur contient de nombreuses requêtes complexes qui utilisent des jeux de données volumineux, le rapport planifié peut échouer.
 
-## Comment savoir si j’ai accès au Report Builder ? {#access}
+## Comment savoir si j’ai accès à Report Builder ? {#access}
 
-Votre administrateur Adobe Analytics doit vous accorder un accès par Report Builder. L’administrateur configure les profils de produit dans la variable [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). Demandez à votre administrateur de vous accorder l’accès.
+Votre équipe d’administration Adobe Analytics doit vous accorder un accès à Report Builder. L’équipe d’administration configure les profils de produit dans [Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home). Demandez à un administrateur ou une administratrice de vous accorder l’accès.
