@@ -4,10 +4,10 @@ description: Les variables de données contextuelles vous permettent de définir
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 831df50a9c73522493ed60ce5df51192b6933480
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 90%
+source-wordcount: '531'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Les variables de données contextuelles permettent aux équipes de développemen
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne correspondent pas à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez ensuite utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.
+Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne correspondent pas à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez également définir explicitement les données contextuelles à l’aide de l’objet XDM. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.  Voir [Mappage d’autres champs XDM aux variables Analytics](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) pour plus d’informations.
 
 Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), toutes les variables de données contextuelles résident dans `data.__adobe.analytics.contextData` en tant que paires clé-valeur :
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >Les variables de données contextuelles sont ignorées après l’exécution des règles de traitement. Si aucune règle de traitement n’est active, ce qui place les valeurs dans des variables, ces données sont définitivement perdues !
 
 1. Mettez à jour votre mise en œuvre pour définir les noms et valeurs des variables de données contextuelles.
-2. Connectez-vous à Adobe Analytics et accédez à Administrateur > Suites de rapports.
-3. Sélectionnez la suite de rapports souhaitée, puis sélectionnez Modifier les paramètres > Général > Règles de traitement.
+2. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Administration]** > **[!UICONTROL Rapport]** Suites.
+3. Sélectionnez une suite de rapports, puis accédez à **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
 4. Créez une règle de traitement qui définit une variable Analytics sur la valeur de la variable de données contextuelles.
 5. Enregistrez les modifications.
 
