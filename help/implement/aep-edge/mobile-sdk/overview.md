@@ -4,10 +4,10 @@ description: Utilisez l’extension SDK Mobile dans la collecte de données Adob
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
+source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 98%
+source-wordcount: '454'
+ht-degree: 99%
 
 ---
 
@@ -39,46 +39,40 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>2</td>
-<td><b>Configuration de schémas.</b>. Pour normaliser la collecte de données à utiliser dans les applications qui utilisent Adobe Experience Platform, Adobe a créé la norme ouverte et accessible au public, Modèle de données d’expérience (XDM).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=fr">Présentation de l’interface utilisateur des schémas</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td><b>Configurez un flux de données</b>. Un flux de données représente la configuration côté serveur lors de l’implémentation du SDK Web Adobe Experience Platform.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr">Configurer un flux de données<a></td> 
 </tr>
 
-<td>4</td>
+<td>3</td>
 <td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td><b>Créez une propriété mobile</b>. Une propriété est un conteneur que vous remplissez d’extensions, de règles, d’éléments de données et de bibliothèques.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/">Configurer une propriété mobile</a></tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>Installez l’extension du réseau Edge d’Adobe Experience Platform</b> dans la propriété de balise mobile et configurez le flux de données dans l’extension.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/edge-network/">Réseau EDGE d²Adobe Experience Platform</a>
 </tr>
 
 <tr>
-<td>7</td>
+<td>6</td>
 <td><b>Utilisez le code dans votre application</b> pour enregistrer les extensions nécessaires et charger votre configuration de balise.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">Définir la configuration</a></td>
 </tr>
 
 <tr>
-<td>8</td>
+<td>7</td>
 <td><b>Implémentez et testez la fonctionnalité</b> en combinant des éléments de données de la balise, des règles, des extensions supplémentaires et des appels API du SDK dans votre application. Inspectez, validez et déboguez la collecte de données et les expériences pour votre application mobile.</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">Utiliser l’exemple d’application</a>
 </tr>
 
 <tr>
-<td>9</td>
+<td>8</td>
 <td><b>Étendez et validez l’implémentation de votre application mobile</b> avant de la diffuser en production.</td>
 <td></td> 
 </tr>
