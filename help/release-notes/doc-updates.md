@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
+source-git-commit: 556f2131de980362094c691e8de61c6b077b5c15
 workflow-type: tm+mt
-source-wordcount: '5471'
+source-wordcount: '5488'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mai 2024** | |
+| Mise à jour de la documentation Advertising Analytics | Mise à jour de la documentation en fonction des mises à jour apportées à la fonction [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) de l’interface utilisateur. |
 | Mise en correspondance explicite des variables d’objet XDM avec les variables de données contextuelles | Documentation de la fonctionnalité sur [Définition explicite de variables de données contextuelles à l’aide du mappage de variables d’objet XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | Nouvelle documentation pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics | Pour les entreprises qui passent d’Adobe Analytics à Customer Journey Analytics, il existe plusieurs options de mise à niveau et de nombreux points à prendre en compte en fonction de la mise en œuvre actuelle d’Adobe Analytics et des objectifs à long terme de l’entreprise.<p>De nouvelles ressources documentaires sont désormais disponibles pour vous aider à mieux comprendre ce qui suit :</p><ul><li>Les différentes voies de mise à niveau existantes</li><li>Les voies de mise à niveau disponibles en fonction de l’implémentation actuelle d’Adobe Analytics par l’entreprise</li><li>Les avantages et les inconvénients de chaque voie de mise à niveau</li><li>Guide étape par étape pour chaque voie de mise à niveau</li><li>Considérations relatives au traitement des données historiques</li><li>Et bien plus encore.</li></ul><p>[Commencez avec la mise à niveau vers Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Mise à jour de la documentation sur les périodes personnalisées | Mise à jour des captures d’écran et des procédures relatives à [la création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md), afin de correspondre aux fonctionnalités et à la conception actuelles du produit. |
