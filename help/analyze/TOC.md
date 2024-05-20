@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: a2e69b5f39de3c964381bb5dd5ecd4d9714e9249
+source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1007'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,6 @@ ht-degree: 99%
 + [Page de destination](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
-   + [Nouveautés d’Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Projets {#build-workspace-project}
       + [Présentation des projets](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création de projets](analysis-workspace/build-workspace-project/create-projects.md)
@@ -45,10 +44,11 @@ ht-degree: 99%
       + [Palettes de couleurs](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densité d’affichage](analysis-workspace/build-workspace-project/view-density.md)
    + Rapports {#reports}
-      + [Utilisation de rapports prédéfinis](analysis-workspace/reports/use-reports.md)
-      + [Création et gestion des rapports d’entreprise](analysis-workspace/reports/create-company-reports.md)
+      + [Utiliser les rapports préconfigurés](analysis-workspace/reports/use-reports.md)
+      + [Créer et gérer des rapports d’entreprise](analysis-workspace/reports/create-company-reports.md)
    + Composants {#components}
       + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
+      + [Utilisation de composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
          + [Aperçu des annotations](analysis-workspace/components/annotations/overview.md)

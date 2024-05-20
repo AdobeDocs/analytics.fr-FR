@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestionnaire d’emplacements
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,15 @@ Pour plus d’informations sur la modification d’un emplacement, voir [Configu
 >
 >Si vous supprimez un emplacement, vous devez [modification des flux de données](/help/export/analytics-data-feed/create-feed.md), [Rapports de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), et [Schémas de jeux de classifications](/help/components/classifications/sets/manage/schema.md) pour utiliser un emplacement fonctionnel.
 
-Pour supprimer un emplacement :
+Pour supprimer un emplacement dans le gestionnaire d’emplacements d’Adobe Analytics :
+
+1. Sélectionner **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez la variable [!UICONTROL **Emplacements**] .
 
 1. Sélectionnez le menu à 3 points dans le [!UICONTROL **Nom de l’emplacement**] pour l’emplacement à supprimer.
 
 1. Sélectionnez [!UICONTROL **Supprimer**].
 
-## Modifier des comptes
+## Modification d’un compte
 
 1. Pour modifier des comptes dans le gestionnaire d’emplacements d’Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez la variable [!UICONTROL **Comptes d’emplacement**] .
 
@@ -100,7 +102,7 @@ Pour visualiser les clés associées à un compte d&#39;export :
 
 1. Sélectionnez l’icône à 3 points sur le compte que vous souhaitez modifier, puis sélectionnez [!UICONTROL **Clés de compte**].
 
-## Supprimer des comptes
+## Suppression d’un compte
 
 1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez la variable [!UICONTROL **Comptes d’emplacement**] .
 

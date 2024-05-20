@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
-workflow-type: ht
-source-wordcount: '1153'
-ht-degree: 100%
+source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 96%
 
 ---
 
@@ -33,9 +33,11 @@ Pour créer un segment rapide :
 
 1. Choisissez l’une des méthodes suivantes pour commencer à créer le segment rapide :
 
-   * **Ad hoc (glisser-déposer) :** depuis le rail de gauche, faites glisser un composant vers la zone de dépôt en regard de l’icône **Segment** dans l’en-tête du panneau, puis sélectionnez l’icône **Modifier** pour ajuster le segment.
+   * **Ad hoc (glisser-déposer) :** Dans le rail de gauche, faites glisser un composant vers la zone de dépôt des segments dans l’en-tête du panneau.
 
-     ![Modification d’un segment ad hoc](assets/filter-adhoc-edit.png)
+     ![déposer un segment dans la zone de dépôt ;](assets/segment-dropzone.png)
+
+     Vous pouvez modifier le segment comme décrit dans la section [Modification des segments rapides](#edit-quick-segments).
 
      >[!NOTE]
      >
