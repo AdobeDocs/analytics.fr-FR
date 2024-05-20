@@ -4,7 +4,7 @@ description: Créez et configurez des variables de liste à utiliser dans les ra
 feature: Admin Tools
 role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: cf924b337772764b33d750787a0d09b3f11203be
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 25%
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 Créez et configurez des variables de liste à utiliser dans les rapports. Définissez leur délimiteur, expiration, attribution et valeurs max. Collecte de données pour les variables de liste à l’aide de [`list1` - `list3`](/help/implement/vars/page-vars/list.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL variables de liste]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Variables de liste]**
 
 * **[!UICONTROL Nom]**: nom de la variable de liste. Ce nom est le libellé de la dimension dans Analysis Workspace.
 
