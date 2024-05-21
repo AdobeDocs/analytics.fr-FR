@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuration des emplacements d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ Vous pouvez configurer un compte cloud (et un emplacement sur ce compte). Un seu
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (comme l’APNS de rôle Amazon S3, Google Cloud Platform, etc.), comme décrit dans la section [Configuration de comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md), puis ajouter et configurer l’emplacement dans ce compte (comme décrit dans cet article).
 
-## Commencer à créer ou modifier un emplacement d’exportation dans le cloud
+Pour plus d’informations sur la gestion des emplacements existants, notamment l’affichage, la modification et la suppression d’emplacements, voir [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md).
+
+## Commencer à créer un emplacement d’exportation dans le cloud
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
 1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Emplacements**] .
-1. Pour créer un emplacement, sélectionnez [!UICONTROL **Ajouter un emplacement**]. (Si vous n’avez pas encore ajouté de compte, ajoutez-en un, comme décrit à la section [Configuration de comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md).)
+1. Sélectionner [!UICONTROL **Ajouter un emplacement**]. (Si vous n’avez pas encore ajouté de compte, ajoutez-en un, comme décrit à la section [Configuration de comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md).)
 
-   Ou
-
-   Pour modifier un emplacement existant, sélectionnez le menu à 3 points dans le [!UICONTROL **Nom de l’emplacement**] pour l’emplacement à modifier, puis sélectionnez [!UICONTROL **Modifier**].
-La boîte de dialogue Emplacement s’affiche.
+   La boîte de dialogue Emplacement s’affiche.
 
 1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom**] | Nom de l’emplacement.  |
 | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Utilisation avec**] | Indiquez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], ou [!UICONTROL **Jeux de classifications**]. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un seul emplacement ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour les jeux de Data Warehouse ou de classifications.</li><li>Pour éviter des conflits de fichiers dans un emplacement, ne modifiez pas la valeur de la variable [!UICONTROL **Utilisation avec**] une fois l’emplacement utilisé.</li></ul> | | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement dans lequel vous souhaitez créer cet emplacement. Pour plus d’informations sur la création d’un compte, voir [Ajout d’un compte](#add-an-account). |
@@ -51,7 +50,7 @@ Pour configurer un emplacement d’acquisition du rôle Amazon S3, spécifiez le
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que le fichier de l’utilisateur fourni par Adobe comporte la variable `S3:PutObject` pour transférer des fichiers vers ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, elles doivent comporter entre 3 et 63 caractères, peuvent être composées uniquement de lettres minuscules, de chiffres, de points (.) et de tirets (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles d’attribution de noms est disponible dans la documentation AWS.](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que le fichier de l’utilisateur fourni par Adobe comporte la variable `S3:PutObject` pour transférer des fichiers vers ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, ils doivent avoir une longueur comprise entre 3 et 63 caractères, ne peuvent être composés que de lettres minuscules, de chiffres, de points (.) et de traits d’union (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles de nommage est disponible dans la documentation AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Préfixe clé**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
    {style="table-layout:auto"}
@@ -69,7 +68,7 @@ Pour configurer un emplacement d’acquisition du rôle Amazon S3, spécifiez le
 
 ### Google Cloud Platform
 
-Pour configurer un emplacement Google Cloud Platform, spécifiez les informations suivantes :
+Pour configurer un emplacement Google Cloud Platform, spécifiez les informations suivantes :
 
 1. [Commencer à créer ou modifier un emplacement d’exportation dans le cloud](#begin-creating-or-editing-a-cloud-export-location), comme décrit ci-dessus.
 
@@ -93,7 +92,7 @@ Pour configurer un emplacement Google Cloud Platform, spécifiez les information
 
 ### SAS Azure
 
-Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes :
+Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes :
 
 1. [Commencer à créer ou modifier un emplacement d’exportation dans le cloud](#begin-creating-or-editing-a-cloud-export-location), comme décrit ci-dessus.
 
@@ -117,7 +116,7 @@ Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes 
 
 ### RBAC Azure
 
-Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes :
+Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes :
 
 1. [Commencer à créer ou modifier un emplacement d’exportation dans le cloud](#begin-creating-or-editing-a-cloud-export-location), comme décrit ci-dessus.
 

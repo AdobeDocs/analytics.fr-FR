@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuration de comptes d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ Vous pouvez configurer un compte cloud qui est utilisé à l’un des ou à tous
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (un dossier dans le compte, par exemple) comme décrit dans la section [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
 
+Pour plus d’informations sur la gestion des comptes existants, notamment l’affichage, la modification et la suppression de comptes, voir [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md).
+
 Pour configurer un compte d’importation ou d’exportation cloud :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
 1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Comptes d’emplacement**] .
-1. Pour créer un compte, sélectionnez [!UICONTROL **Ajouter un compte**].
+1. Sélectionner [!UICONTROL **Ajouter un compte**].
 
    La boîte de dialogue Ajouter un compte s’affiche.
-
-   Ou
-
-   Pour modifier un compte existant, sélectionnez [!UICONTROL **Afficher les détails**] sur la mosaïque qui répertorie le compte que vous souhaitez modifier.
-La boîte de dialogue Emplacement s’affiche.
-
-   La boîte de dialogue Détails du compte d’emplacement s’affiche.
-
 
 1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. | | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte. |
 1. Dans le [!UICONTROL **Propriétés du compte**] , indiquez les informations spécifiques au type de compte sélectionné.
@@ -48,7 +42,7 @@ La boîte de dialogue Emplacement s’affiche.
 
    +++APERÇU du rôle Amazon S3
 
-   Pour configurer un compte RGPD de rôle Amazon S3, spécifiez les informations suivantes :
+   Pour configurer un compte ARN de rôle Amazon S3, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
@@ -60,7 +54,7 @@ La boîte de dialogue Emplacement s’affiche.
 
    +++Google Cloud Platform
 
-   Pour configurer un compte Google Cloud Platform, spécifiez les informations suivantes :
+   Pour configurer un compte Google Cloud Platform, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
@@ -72,7 +66,7 @@ La boîte de dialogue Emplacement s’affiche.
 
    +++Azure SAS
 
-   Pour configurer un compte Azure SAS, spécifiez les informations suivantes :
+   Pour configurer un compte Azure SAS, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
@@ -88,7 +82,7 @@ La boîte de dialogue Emplacement s’affiche.
 
    +++Azure RBAC
 
-   Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
+   Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
