@@ -3,10 +3,10 @@ description: Description de la procédure de création d’une requête Data War
 title: Configurer une destination de rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2584'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2615'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -142,11 +142,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
       | [!UICONTROL **Personnes destinataires**] | Des notifications par e-mail peuvent être envoyées à des personnes spécifiques lorsque le rapport est envoyé. Spécifiez une seule adresse e-mail ou une liste d’adresses e-mail séparées par des virgules. <!-- How does this differ from the Notification email tab? --> |
 
    1. Sélectionnez [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
-      |Champ | Fonction |
-      |---------|----------|
-      | [!UICONTROL **Nom**] | Nom de l’emplacement.  |
-      | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-      | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement que vous avez créé dans [Ajouter un compte](#add-an-account). |
+|Champ | Fonction |
+|---------|----------|
+| [!UICONTROL **Nom**] | Nom de l’emplacement.  |
+| [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
+| [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement que vous avez créé dans [Ajouter un compte](#add-an-account). |
 
    1. Dans la section [!UICONTROL **Propriétés d’emplacement**], indiquez les informations spécifiques au type de votre compte d’emplacement.
 
@@ -163,7 +163,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       | Champ | Fonction |
       |---------|----------|
-      | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que vous avez accordé l’une des autorisations suivantes au principal fourni par Adobe :<ul><li>`roles/storage.objectCreator` : utilisez cette autorisation si vous souhaitez limiter le principal uniquement à la création de fichiers dans votre compte GCP. </br>**Important :** si vous utilisez cette autorisation avec les rapports planifiés, vous devez utiliser un nom de fichier unique pour chaque nouvel export planifié. Sinon, la génération du rapport échouera, car le principal n’a pas accès pour remplacer les fichiers existants.</li><li>`roles/storage.objectUser` : utilisez cette autorisation si vous souhaitez que le principal ait accès à l’affichage, à la liste, à la mise à jour et à la suppression des fichiers dans votre compte GCP.</br>Cette autorisation permet au principal d’écraser les fichiers existants pour les chargements ultérieurs, sans avoir à générer automatiquement des noms de fichier uniques pour chaque nouvel export planifié.</li></ul><p>Pour plus d’informations sur l’octroi d’autorisations, consultez [Ajouter un compte principal à une stratégie au niveau du compartiment](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=fr#bucket-add) dans la documentation de Google Cloud.</p> |
-      | [!UICONTROL **Préfixe de clé**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
+      | [!UICONTROL **Nom du compartiment**] | Compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que vous avez accordé l’une des autorisations suivantes à l’entité de sécurité fournie par Adobe : (Pour plus d’informations sur l’octroi des autorisations, voir [Ajout d’une entité à une stratégie de niveau compartiment](https://cloud.google.com/storage/docs/access-control/using-iam-permissions?hl=fr#bucket-add) dans la documentation de Google Cloud.)<ul><li>`roles/storage.objectCreator` : utilisez cette autorisation si vous souhaitez limiter le principal uniquement à la création de fichiers dans votre compte GCP. </br>**Important :** si vous utilisez cette autorisation avec les rapports planifiés, vous devez utiliser un nom de fichier unique pour chaque nouvel export planifié. Sinon, la génération du rapport échouera, car le principal n’a pas accès pour remplacer les fichiers existants.</li><li>`roles/storage.objectUser` : utilisez cette autorisation si vous souhaitez que le principal ait accès à l’affichage, à la liste, à la mise à jour et à la suppression des fichiers dans votre compte GCP.</br>Cette autorisation permet au principal d’écraser les fichiers existants pour les chargements ultérieurs, sans avoir à générer automatiquement des noms de fichier uniques pour chaque nouvel export planifié.</li></ul><p>Si votre entreprise utilise [Contraintes de stratégie d’organisation](https://cloud.google.com/storage/docs/org-policy-constraints) pour n’autoriser que le compte Google Cloud Platform dans votre liste autorisée, vous avez besoin de l’identifiant d’organisation Google Cloud Platform détenu par l’Adobe suivant : <ul><li>`DISPLAY_NAME` : `adobe.com`</li><li>`ID` : `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID` : `C02jo8puj`</li></ul> </p> |
+      | [!UICONTROL **Préfixe clé**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Poursuivez la configuration de votre requête Data Warehouse sur l’onglet [!UICONTROL **Options de rapport**]. Pour plus d’informations, voir [Configurer des options de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

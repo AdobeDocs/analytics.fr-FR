@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 98%
+source-wordcount: '5562'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mai 2024** | |
+| Informations requises lors de l’utilisation des contraintes de stratégie d’entreprise avec Google Cloud Platform dans les flux de données et le Data Warehouse | Ajout de l’ID d’organisation Google Cloud Platform détenu par l’Adobe au [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) la documentation. <p>Ces informations sont requises uniquement pour les organisations qui utilisent [Contraintes de stratégie d’organisation](https://cloud.google.com/storage/docs/org-policy-constraints) dans Google Cloud Platform.</p> |
 | Documentation sur l’ajout de composants aux projets | Ajout d’informations générales sur la procédure à suivre [ajouter les différents types de composants aux projets dans Analysis Workspace ;](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | Mise à jour de la documentation Advertising Analytics | Mise à jour de la documentation en fonction des mises à jour apportées à la fonction [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) de l’interface utilisateur. |
 | Mise en correspondance explicite des variables d’objet XDM avec les variables de données contextuelles | Documentation de la fonctionnalité sur [Définition explicite de variables de données contextuelles à l’aide du mappage de variables d’objet XDM](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
