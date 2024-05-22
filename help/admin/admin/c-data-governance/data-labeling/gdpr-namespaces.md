@@ -4,10 +4,10 @@ title: Espaces de noms
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
@@ -21,17 +21,17 @@ La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que v
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Pour plus de détails, voir la [documentation de l’API relative à la Confidentialité des données d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr).
+Voir [Documentation de l’API relative à la Confidentialité des données Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) pour plus d’informations et une [liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). Voir [Créer une tâche d’accès/de suppression](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour un exemple de requête.
 
 ## ID de cookie
 
 Cookie de suivi Analytics hérité, également connu sous le nom d’ID Adobe Analytics (AAID) :
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ Vous pouvez également utiliser `"namespaceId": 10` à la place ou en plus de `"
 
 ## Cookie de suivi Analytics hérité : formulaire obsolète
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-Formulaire obsolète :
 
 La valeur doit être spécifiée sous la forme de deux nombres hexadécimaux à 16 chiffres ou de deux nombres décimaux à 19 chiffres. Les nombres doivent être séparés par un tiret, un tiret bas ou un deux-points. Les zéros en début de chaîne doivent être ajoutés si l’un des nombres de contient pas assez de chiffres.
 
 ## Cookie du service d’identités
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ Ce code JavaScript renseigne la configuration JSON avec d’autres paires clé/v
 
 ## Identifiant visiteur personnalisé
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ L’espace de noms est également prédéfini pour l’identifiant visiteur pers
 
 ## ID dans les variables personnalisées
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ Vous pouvez également voir les espaces de noms que vous avez précédemment dé
 
 >[!CAUTION]
 >
->Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+>Espaces de noms `visitorId` et `customVisitorId` sont réservés à l’identification du cookie de suivi hérité Analytics et de l’identifiant visiteur client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 Pour plus d’informations, voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

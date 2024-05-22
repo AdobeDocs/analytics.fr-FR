@@ -4,7 +4,7 @@ title: Étiquettes relatives à la confidentialité des données pour les variab
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 97%
@@ -93,9 +93,9 @@ Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes in
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
 1. Cliquez sur **[!UICONTROL Sélectionner un espace de noms]**, puis sélectionnez un espace de noms existant.
+   ![](assets/namespace.png)
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
-![](assets/namespace.png)
 
 ### Définir un nouvel espace de noms
 

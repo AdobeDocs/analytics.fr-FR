@@ -3,8 +3,10 @@ title: Liens d’exclusion
 description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+hide: true
+hidefromtoc: true
 role: Developer
-source-git-commit: bb2b0f715941135d119d862b64c02f05800b3fdd
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%

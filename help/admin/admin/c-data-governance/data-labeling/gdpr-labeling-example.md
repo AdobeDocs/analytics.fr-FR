@@ -4,10 +4,10 @@ title: Exemples dʼétiquetage
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ Supposons que vous avez les données d’accès suivantes :
 
 ## Exemple de requêtes d’accès {#access}
 
-Si je soumets une demande dʼaccès, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que « expandIDs » a la valeur « true ».
+Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au sujet des données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le sujet de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier de HTML récapitulatif qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour le sujet de données et du nombre de fois où chaque valeur unique a été vue.
+
+Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs ne sont renvoyés que si un ID de personne est utilisé et `expandIds` est vrai.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valeurs de l’API</th>
-    <th rowspan="2"><br>Type de fichier renvoyé</th>
+    <th rowspan="2">Résumé<br/>type de fichier<br/>renvoyé</th>
     <th colspan="5" style="text-align:center">Données du fichier d’accès récapitulatif</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ Si je soumets une demande dʼaccès, le fichier récapitulatif contient les vale
   </tr>
 </table>
 
-Notez que le paramètre des expandIDs n’influence pas le résultat lorsqu’un ID de cookie est utilisé.
+Notez que le paramètre pour `expandIDs` n’a aucune incidence sur la sortie lorsqu’un ID de cookie est utilisé.
 
 ## Exemples de requêtes de suppression {#delete}
 
@@ -217,7 +219,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les cellules des lignes contenant AAID=77 et une étiquette DEL-DEVICE sont impactées.
+>Uniquement les colonnes des lignes contenant `AAID=77` et un `DEL-DEVICE` sont impactées.
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les cellules des lignes contenant user=Mary et une étiquette DEL-PERSON sont impactées. De plus, dans la pratique, la variable contenant A_ID serait probablement une prop ou une eVar. Sa valeur de remplacement serait une chaîne commençant par « Privacy- » suivi dʼun numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
+>Uniquement les colonnes des lignes contenant `user=Mary` et un `DEL-PERSON` sont impactées. En pratique, la variable contenant `A_ID` serait probablement une prop ou un eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivi d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
 
 <table>
   <tr>

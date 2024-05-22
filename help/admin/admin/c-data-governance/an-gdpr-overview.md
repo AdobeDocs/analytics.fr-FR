@@ -4,10 +4,10 @@ title: Adobe Analytics et le Règlement général sur la protection des données
 feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 95%
+source-wordcount: '580'
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ En tant que contrôleuse ou contrôleur de données, vous déterminez les donné
 
 ## Comment Adobe gère les données relatives au RGPD {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Cloud Platform (ACP) fournit une solution intégrée qui relie l’infrastructure de gouvernance des données de votre marque aux outils Adobe qu’elle utilise pour créer et gérer les expériences des consommateurs. Les fonctions de gouvernance des données d’Adobe Cloud Platform permettent d’établir un lien direct entre la politique de gouvernance des données et l’utilisation des données.
+Adobe Experience Cloud fournit une solution intégrée qui connecte l’infrastructure de gouvernance des données de votre marque aux outils d’Adobe qu’elle utilise pour créer et gérer les expériences client. Les fonctionnalités de gouvernance des données de Adobe Experience Cloud permettent de lier directement la politique de gouvernance des données à l’utilisation des données.
 
 Familiarisez-vous avec la section [Comment Adobe Analytics gère les données relatives au RGPD](https://www.adobe.com/fr/data-analytics-cloud/analytics/general-data-protection-regulation.html) qui explique les étapes nécessaires pour se préparer au RGPD et comment intégrer l’API relative au RGPD d’Adobe Experience Cloud.
 

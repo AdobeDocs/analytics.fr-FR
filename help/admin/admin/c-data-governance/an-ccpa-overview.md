@@ -4,10 +4,10 @@ title: Adobe Analytics et le CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ En tant que contrôleuse ou contrôleur de données, vous déterminez les donné
 
 ## Comment Adobe gère les données relatives au CCPA
 
-Adobe Cloud Platform (ACP) fournit une solution intégrée qui relie l’infrastructure de gouvernance des données de votre marque aux outils Adobe qu’elle utilise pour créer et gérer les expériences des consommateurs. Les fonctions de gouvernance des données d’Adobe Cloud Platform permettent d’établir un lien direct entre la politique de gouvernance des données et l’utilisation des données.
+Adobe Experience Cloud fournit une solution intégrée qui connecte l’infrastructure de gouvernance des données de votre marque aux outils d’Adobe qu’elle utilise pour créer et gérer les expériences client. Les fonctionnalités de gouvernance des données de Adobe Experience Cloud permettent de lier directement la politique de gouvernance des données à l’utilisation des données.
 
 Familiarisez-vous avec la section [Comment Adobe Analytics gère les données relatives au RGPD](https://www.adobe.com/fr/data-analytics-cloud/analytics/general-data-protection-regulation.html) qui explique les étapes nécessaires pour se préparer à la confidentialité et comment intégrer l’API relative aux services de confidentialité d’Adobe Experience Cloud.
 
