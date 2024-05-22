@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 45%
+source-wordcount: '1150'
+ht-degree: 43%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (mai 2024)
 
-**Dernière mise à jour** : mercredi 21 mai 2024
+**Dernière mise à jour** : jeudi 22 mai 2024
 
 Ces notes de mise à jour portent sur la période du 15 mai 2024 au mois de juin. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -48,8 +48,8 @@ AN-327749; AN-332949; AN-342881; AN-343171; AN-343708; AN-344034; AN-345559; AN-
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
+| **Expiration après 13 mois des`cust_visids`** enregistrés | jeudi 22 mai 2024 | Une prochaine version du moteur de traitement des accès Analytics, **prévue pour juillet 2024**, commence à appliquer une expiration de 13 mois de l’ enregistré. `cust_visids`. Si « Activer la connexité des visiteurs » est activé dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Actuellement, il n’existe aucune expiration du mappage d’un `cust_visid` pour `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis `visid_high/visid_low` has a eu une `cust_visid` lors d’un accès, le mappage expire. |
 | **Mises à jour de région ISO** | samedi 10 mai 2024 | Adobe a effectué des mises à jour des zones géographiques ISO 2024 le samedi 7 juin 2024. Vous pouvez vous attendre à voir les mises à jour mineures des informations géographiques (région) qui suivront cette version. |
-| **Expiration après 13 mois des`cust_visids`** enregistrés | 20 mars 2024 | Une prochaine version du moteur de traitement des accès Analytics, prévue pour avril ou mai, introduit l’expiration après 13 mois des `cust_visids` enregistrés. Si « Activer la connexité des visiteurs » est activé dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Actuellement, il n’existe aucune expiration du mappage d’un `cust_visid` pour `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis `visid_high/visid_low` has a eu une `cust_visid` lors d’un accès, le mappage expire. |
 
 {style="table-layout:auto"}
 
