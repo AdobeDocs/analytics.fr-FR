@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
 source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1007'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 99%
       + [Créer et gérer des rapports d’entreprise](analysis-workspace/reports/create-company-reports.md)
    + Composants {#components}
       + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
-      + [Utilisation de composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
+      + [Utiliser des composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
          + [Aperçu des annotations](analysis-workspace/components/annotations/overview.md)

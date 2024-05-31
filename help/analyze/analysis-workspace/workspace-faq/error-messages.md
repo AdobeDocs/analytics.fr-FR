@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez rencontrer des erreurs lors de l’interaction avec Analysis Worksp
 
 | Message d’erreur | Quelle en est la raison ? | Optimisation |
 | --- | --- | --- |
-| [!UICONTROL La suite de rapports dépasse actuellement sa capacité de création de rapports. Veuillez simplifier la requête ou réessayer ultérieurement.] | Votre demande de création de rapports est trop complexe et doit être simplifiée. | Limitez vos critères de rapport et réessayez. |
+| [!UICONTROL La suite de rapports dépasse actuellement sa capacité de création de rapports. Simplifiez la demande ou réessayez ultérieurement.] | Votre demande de création de rapports est trop complexe et doit être simplifiée. | Limitez vos critères de rapport et effectuez une nouvelle demande. |
 | [!UICONTROL Une erreur système s’est produite. Veuillez soumettre un ticket à l’Assistance clientèle sous Aide > Envoyer le ticket d’assistance en incluant votre code d’erreur.] | Adobe rencontre un problème qui doit être résolu. | Envoyez le code d’erreur à l’Assistance clientèle. |
 | [!UICONTROL Une erreur inattendue s’est produite ; essayez de réactualiser votre projet. Si le problème persiste, envoyez cet identifiant d’erreur à l’Assistance clientèle d’Adobe pour obtenir un diagnostic plus précis.] | Adobe rencontre un problème qui doit être résolu. | Essayez d’actualiser votre projet et si le problème persiste, envoyez le code d’erreur à l’Assistance clientèle. |
 | [!UICONTROL Erreur 500 : Échec du chargement de la page] | Les problèmes liés à votre réseau local, tels que les [paramètres du pare-feu](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=fr) de la société, sont un facteur contribuant à cette erreur. En outre, Adobe peut rencontrer un problème qui doit être résolu. | Essayez de vous reconnecter après quelques minutes. Si le problème persiste, envoyez le code d’ID d’instance EIM à l’assistance clientèle. |

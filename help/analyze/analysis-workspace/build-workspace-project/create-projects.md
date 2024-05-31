@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -98,9 +98,9 @@ Les [composants](/help/analyze/analysis-workspace/components/analysis-workspace-
 >
 >Pour plus d’informations sur chaque composant, sélectionnez l’icône Informations située en regard du nom d’un composant dans le rail de gauche ou reportez-vous au [Guide des composants Analytics](/help/components/home.md).
 
-Vous trouverez ci-dessous des informations de base sur l’ajout d’un composant à un projet dans Analysis Workspace. Pour plus d’informations sur l’ajout des différents types de composants (dimensions, mesures, segments et plages de dates), voir [Utilisation de composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Vous trouverez ci-dessous des informations de base sur l’ajout d’un composant à un projet dans Analysis Workspace. Pour plus d’informations sur l’ajout des différents types de composants (dimensions, mesures, segments et périodes), voir [Utiliser des composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
-Pour ajouter un composant à un projet dans Analysis Workspace :
+Pour ajouter un composant à un projet dans Analysis Workspace :
 
 1. Sélectionnez l’icône **[!UICONTROL Composants]** dans le rail de gauche.
 
@@ -110,9 +110,9 @@ Pour ajouter un composant à un projet dans Analysis Workspace :
 
    Par exemple, vous pouvez faire glisser un segment vers la zone de dépôt des segments dans un en-tête de panneau.
 
-   ![déposer un segment dans la zone de dépôt ;](assets/segment-dropzone.png)
+   ![déposer un segment dans la zone de dépôt](assets/segment-dropzone.png)
 
-   Pour plus d’informations sur l’ajout de composants aux projets, voir [Utilisation de composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   Pour plus d’informations sur l’ajout de composants aux projets, voir [Utiliser des composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 1. (Facultatif) Partagez le projet, comme décrit dans la section [Enregistrer et partager le projet](#save-and-share-the-project).
 
