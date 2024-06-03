@@ -3,10 +3,10 @@ title: Temps moyen passé sur le site
 description: La durée moyenne d’existence d’un élément de dimension donné entre les accès.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '558'
+ht-degree: 92%
 
 ---
 
@@ -74,13 +74,13 @@ Le calcul du temps moyen passé sur le site pour l’élément de dimension `Hom
 Si vous appliquez une répartition à l’aide de la dimension [Sections du site](../dimensions/site-section.md), le calcul suivant est utilisé :
 
 ```text
-(30 + 10) / 1 = 40 seconds average time on site
+(30 + 100 + 10) / 1 = 140 seconds (2 minutes 20 seconds) average time on site
 ```
 
 Comme la dimension de répartition ne comportait qu’une seule séquence, elle utilise un dénominateur différent de celui de sa dimension parent. Ces mesures donnent généralement des résultats similaires au niveau de la visite, mais elles peuvent être différentes au niveau de l’accès.
 
 ## Pourcentages supérieurs à 100 %
 
-Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond au temps moyen passé sur le site de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension. Si le temps moyen passé sur le site de la dimension est inférieur à celui de l’élément de dimension donné, vous verrez des pourcentages supérieurs à 100 %. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie du temps moyen passé sur le site, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
+Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond au temps moyen passé sur le site de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension. Si la durée moyenne de la visite du site de l’ensemble de la dimension est inférieure à celle de l’élément de dimension donné, les pourcentages sont supérieurs à 100 %. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie du temps moyen passé sur le site, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
 
 Consultez [Présentation de la durée de consultation](time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.
