@@ -4,10 +4,10 @@ description: Permet de dédupliquer les accès en fonction d’un identifiant d�
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,16 @@ L’ID d’achat est mappé aux variables suivantes :
 
 ## Identifiant d’achat à l’aide de l’extension Adobe Analytics
 
-Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Vous pouvez définir l’identifiant d’achat lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+2. Cliquez sur la propriété de balise de votre choix.
+3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
+4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
+5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+6. Recherchez la variable [!UICONTROL Identifiant d’achat] .
+
+Vous pouvez définir l’identifiant d’achat sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
 
 ## s.purchaseID dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

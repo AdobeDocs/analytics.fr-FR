@@ -4,10 +4,10 @@ keywords: Flux de données;traitement;mesures;colonne « pre »;colonne « po
 title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 1. Comptez le nombre de lignes où se trouve une valeur `post_pagename` ou `post_page_url`.
 
+## Occurrences
+
+1. Comptez le nombre total de lignes.
+
 ## Visites
 
 1. Concaténez `post_visid_high`, `post_visid_low`, `visit_num`et `visit_start_time_gmt`.
 1. Comptez le nombre unique de valeurs.
 
->[!NOTE]
+>[!TIP]
 >
->Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Lorsque du comptage des visites, utilisez `visit_start_time_gmt` pour vous assurer la comptabilisation de ces visites.
+>Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, utilisez `visit_start_time_gmt` lors du comptage des visites pour s’assurer que ces visites sont comptabilisées.
 
 ## Visiteurs
 
