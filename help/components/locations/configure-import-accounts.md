@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: Configuration de comptes d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # Configuration de comptes d’importation et d’exportation dans le cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>Tenez compte des points suivants lors de la création et de la modification de comptes : <ul><li>Les administrateurs système peuvent empêcher les utilisateurs de créer des comptes, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</li><li>Un compte ne peut être modifié que par l’utilisateur qui l’a créé ou par un administrateur système.</li></ul>
 
 Vous pouvez configurer un compte cloud qui est utilisé à l’un des ou à tous les usages suivants :
 
@@ -23,17 +27,25 @@ Vous pouvez configurer un compte cloud qui est utilisé à l’un des ou à tous
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (un dossier dans le compte, par exemple) comme décrit dans la section [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
 
-Pour plus d’informations sur la gestion des comptes existants, notamment l’affichage, la modification et la suppression de comptes, voir [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md).
+Pour plus d’informations sur l’affichage et la suppression de comptes existants, voir [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md).
 
 Pour configurer un compte d’importation ou d’exportation cloud :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
 1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Comptes d’emplacement**] .
-1. Sélectionner [!UICONTROL **Ajouter un compte**].
+1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer la variable [!UICONTROL **Affichage des comptes de tous les utilisateurs**] pour afficher les comptes créés par tous les utilisateurs de votre entreprise.
+   ![Affichage des comptes de tous les utilisateurs](assets/accounts-all-users.png)
+1. Pour créer un compte, sélectionnez [!UICONTROL **Ajouter un compte**].
 
-   La boîte de dialogue Ajouter un compte s’affiche.
+   La variable [!UICONTROL **Détails du compte d’emplacement**] s’affiche.
 
-1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. | | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte. |
+   Ou
+
+   Pour modifier un compte existant, recherchez le compte à modifier, puis sélectionnez le [!UICONTROL **Modifier les détails**] bouton .
+
+   La variable [!UICONTROL **Ajouter un compte**] s’affiche.
+
+1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. | | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Rendre le compte disponible pour tous les utilisateurs de votre entreprise**] | **Remarque :** Cette fonctionnalité est disponible dans la phase de tests limités de la version et peut ne pas être encore disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md). <p>Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser le compte.</p> <p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par le propriétaire du compte.</li><li>N’importe qui peut créer un emplacement pour le compte partagé.</li></ul> | | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs système peuvent limiter les types de compte que les utilisateurs peuvent créer, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</p> |
 1. Dans le [!UICONTROL **Propriétés du compte**] , indiquez les informations spécifiques au type de compte sélectionné.
 
    Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné. (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
@@ -89,6 +101,22 @@ Pour configurer un compte d’importation ou d’exportation cloud :
    | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **Secret du compte de localisation**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++E-mail
+
+   >[!NOTE]
+   >
+   >Les comptes de messagerie ne peuvent être utilisés qu’avec [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes de messagerie ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Jeux de classifications](/help/components/classifications/sets/overview.md)).
+
+   Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
+
+   | Champ | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Personnes destinataires**] | Des notifications par e-mail peuvent être envoyées à des personnes spécifiques lorsque le rapport est envoyé. Spécifiez une seule adresse e-mail ou une liste d’adresses e-mail séparées par des virgules. |
 
    {style="table-layout:auto"}
 
