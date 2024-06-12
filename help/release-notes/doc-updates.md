@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: ht
-source-wordcount: '5562'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '5586'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Juin 2024** | |
+| Documentation améliorée sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur [création d&#39;alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestion des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), et [informations sur la présentation](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mai 2024** | |
 | Informations requises lors de l’utilisation des contraintes applicables aux politiques des organisations avec Google Cloud Platform dans les flux de données et l’entrepôt de données | Ajout de l’ID d’organisation Google Cloud Platform détenu par Adobe à la documentation [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Entrepôt de données](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Ces informations sont requises uniquement pour les organisations qui utilisent les [Contraintes applicables aux politiques des organisations](https://cloud.google.com/storage/docs/org-policy-constraints?hl=fr) dans Google Cloud Platform.</p> |
 | Documentation sur l’ajout de composants aux projets | Ajout d’informations générales sur la manière d’[ajouter les différents types de composants aux projets dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |

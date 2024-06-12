@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '969'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ Ces notes de mise à jour portent sur la période du 12 juin 2024 au mois de jui
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Sélectionnez plusieurs filtres lorsqu’ils sont disponibles dans le menu déroulant d’un tableau à structure libre.** | Lorsque plusieurs filtres ont été ajoutés à un tableau à structure libre sous forme de menu déroulant, les utilisateurs du tableau à structure libre peuvent désormais sélectionner plusieurs filtres à la fois. Le tableau à structure libre est filtré pour inclure l’un des filtres sélectionnés. Auparavant, les utilisateurs ne pouvaient sélectionner qu’un seul filtre à la fois dans un menu déroulant de filtre.<p>(Lien vers la documentation à suivre.) |  | jeudi 19 juin 2024 |
+| **Sélection de plusieurs champs dans un filtre déroulant** | Lorsque plusieurs champs ont été ajoutés à un filtre déroulant, les utilisateurs peuvent désormais sélectionner plusieurs champs à la fois. Le panneau est filtré pour inclure l’un des champs sélectionnés. <p>Auparavant, les utilisateurs ne pouvaient sélectionner qu’un seul champ à la fois dans un filtre de menu déroulant.</p><p>(Lien vers la documentation à suivre.)</p> |  | jeudi 19 juin 2024 |
 | **Table des matières pour les projets Workspace** | Une nouvelle table des matières est désormais disponible pour les projets. La table des matières contient des liens qui permettent aux utilisateurs d’accéder rapidement aux panneaux et aux visualisations dans le projet. La table des matières peut être activée pour des projets individuels ou tous les projets pour un utilisateur donné.<p>(Lien vers la documentation à suivre.) |  | jeudi 19 juin 2024 |
 | **Création d’hyperliens pour les éléments de dimension dans un tableau à structure libre** | Vous pouvez créer des hyperliens pour un ou plusieurs éléments de dimension afin de les rendre cliquables dans un tableau à structure libre d’Analysis Workspace. <p>Vous pouvez créer des liens hypertexte pour les éléments de dimension qui comportent des valeurs d’URL ou créer des URL personnalisées pour les éléments de dimension qui n’ont pas de valeurs d’URL.</p><p>Vous pouvez créer des URL personnalisées dynamiques pour plusieurs éléments de dimension à l’aide de variables. Les variables peuvent référencer la valeur d’un élément de dimension ou la dimension de ventilation.</p><p>(Lien vers la documentation à suivre.)<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | jeudi 19 juin 2024 |
 | **Paramètres d’administration pour contrôler les comptes et les emplacements utilisés pour l’export et l’import** | Une nouvelle [Onglet Paramètres d’administration dans le gestionnaire d’emplacements](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) permet aux administrateurs de contrôler si les utilisateurs peuvent créer et modifier des comptes et des emplacements. Ces paramètres s’appliquent lorsque les utilisateurs [configuration des comptes d’importation et d’exportation cloud](/help/components/locations/configure-import-accounts.md) et [configuration des emplacements d’importation et d’exportation cloud](/help/components/locations/configure-import-locations.md). <p>L’équipe d’administration peut également limiter les types de comptes (Google Cloud Platform, Azure RBAC, Amazon S3, etc.) que les utilisateurs et utilisatrices peuvent créer et utiliser.</p><p>Auparavant, un utilisateur ou une utilisatrice pouvait créer, modifier et utiliser des comptes et des emplacements pour n’importe quel type de compte.</p> | 12 juin 2024 | 30 juin 2024 |

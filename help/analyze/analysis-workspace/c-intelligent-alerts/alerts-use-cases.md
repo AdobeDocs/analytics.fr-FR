@@ -4,14 +4,18 @@ title: Alertes intelligentes - Exemples d’utilisation
 feature: Alerts
 role: User, Admin
 exl-id: a03312ff-47df-451c-9dfa-0597b3a183cb
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 65%
 
 ---
 
 # Alertes intelligentes - Exemples d’utilisation
+
+Vous pouvez créer des alertes intelligentes, comme décrit dans la section [Créer des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+
+Les sections suivantes illustrent des exemples de cas d’utilisation à prendre en compte lors de la création d’alertes.
 
 ## Création d’une alerte simple filtrée par deux segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
@@ -23,15 +27,7 @@ Update screenshots for better readability.
 
 ![](assets/alerts_example1.png)
 
-## Création d’une alerte d’après une sélection d’un tableau {#section_AE6D42E1255D498D908A2FA60370A419}
 
-Dans les tableaux à structure libre, vous pouvez maintenant créer des alertes dans le contexte en cliquant avec le bouton droit de la souris sur une ligne d’un tableau, puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**.
-
-![](assets/alert_selection.png)
-
-Le Générateur d’alertes est ainsi automatiquement prérenseigné afin de créer une alerte avec les mesures et filtres corrects :
-
-![](assets/prepopulated_alert.png)
 
 ## Consolidation (empilement) des alertes plutôt que de créer plusieurs alertes {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
