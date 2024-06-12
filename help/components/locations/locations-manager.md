@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestionnaire d’emplacements
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,8 @@ Pour supprimer un compte :
 {{release-limited-testing-section}}
 
 Les administrateurs système peuvent empêcher les utilisateurs de créer des comptes et des emplacements ou limiter les types de comptes que les utilisateurs peuvent créer et utiliser.
+
+![Onglet Paramètres d’administration](assets/locations-admin-settings.png)
 
 ### Configuration de la création et de la modification de comptes par les utilisateurs
 
