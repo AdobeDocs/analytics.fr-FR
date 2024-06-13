@@ -3,7 +3,7 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
+source-git-commit: d28dee410fe5ea7fec65dfc9e86f9d8a3c242d13
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 56%
@@ -12,7 +12,7 @@ ht-degree: 56%
 
 # Notes de mise à jour actuelles d’Adobe Analytics (juin 2024)
 
-**Dernière mise à jour** : jeudi 12 juin 2024
+**Dernière mise à jour** : vendredi 13 juin 2024
 
 Ces notes de mise à jour portent sur la période du 12 juin 2024 au mois de juillet. Les mises à jour dʼAdobe Analytics suivent une [modèle de diffusion continue](releases.md), ce qui permet un déploiement plus flexible et progressif des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
