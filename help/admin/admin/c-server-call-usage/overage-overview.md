@@ -4,35 +4,33 @@ title: Aperçu de l’utilisation de l’appel au serveur
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 80%
 
 ---
 
-# Utilisation des appels au serveur
+# Utilisation de l’appel au serveur
 
-L’utilisation de l’appel au serveur d’Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation d’appel du navigateur et du serveur mobile. Il vous permet d’accéder à :
+L’utilisation des appels au serveur Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation des appels au navigateur et au serveur mobile. Il vous permet d’accéder à :
 
-* un tableau de bord de l’utilisation de l’appel au serveur qui suit les données relatives à votre consommation d’appels au serveur et les compare avec votre limite contractuelle. (**[!UICONTROL Analytics > Admin > Utilisation de l’appel au serveur]**)
-* Un type d’alerte d’utilisation des appels au serveur dans le Générateur d’alertes qui vous permet de configurer des alertes pour prévenir les dépassements (**[!UICONTROL Analytics > Composants > Alertes]**).
+* Tableau de bord de l’utilisation de l’appel au serveur qui suit les données de consommation de l’appel au serveur et les compare à votre limite contractuelle. (Dans Adobe Analytics, sélectionnez > [!UICONTROL **Administration**] > [!UICONTROL **Utilisation des appels au serveur**])
+* Type d’alerte d’utilisation des appels au serveur dans le générateur d’alertes qui permet de configurer des alertes pour éviter les dépassements (dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Alertes**])
 
-Les principaux avantages de l’utilisation de l’appel au serveur incluent :
+Les principaux avantages de l’utilisation de l’appel au serveur sont les suivants :
 
 * **Visibilité** de votre consommation d’appels au serveur et des données d’engagement, y compris votre consommation mobile, par rapport à votre limite contractuelle d’utilisation de l’appel au serveur.
 * **Alertes** afin d’être notifié en cas de risque ou de dépassement pour vous permettre de vous préparer/d’agir le cas échéant.
 
-Auparavant, vous pouviez accéder aux données mensuelles relatives à la consommation de l’appel au serveur sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturation]**. Ces données n’étaient mises à jour que six jours après la clôture de la facturation. De plus, les données n’incluaient pas la consommation mobile. Cette fonctionnalité remplacera également le rapport actuel **[!UICONTROL Informations de facturation]** sous **[!UICONTROL Analytics]** > **[!UICONTROL Rapports]**.
-
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permissions :** pour accéder au tableau de bord de l’utilisation de l’appel au serveur et au générateur/créateur d’alertes, vous devez être un administrateur Adobe Analytics.
-* **Permissions :** les administrateurs peuvent également accorder l’accès à des non-administrateurs. La permission est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Reportez-vous à [Permission de l’utilisation de l’appel au serveur](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **Autorisations :** Pour accéder au tableau de bord d’utilisation de l’appel au serveur et au générateur d’alertes ou au gestionnaire d’alertes, vous devez être un administrateur Adobe Analytics.
+* **Autorisations :** Les administrateurs peuvent accorder l’accès à des non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation des appels au serveur]**. Voir [Autorisation d’utilisation des appels au serveur](#server-call-usage-permission).
 
 ## Terminologie importante {#terminology}
 
-Voici une brève introduction à la terminologie essentielle à l’utilisation de l’appel au serveur :
+Les termes suivants sont importants pour comprendre l’utilisation des appels au serveur :
 
 <table id="table_4E97F85F13344A2C962FA4FA5A51642E"> 
  <thead> 
@@ -79,35 +77,35 @@ Voici une brève introduction à la terminologie essentielle à l’utilisation 
  </tbody> 
 </table>
 
-## Permission de l’utilisation de l’appel au serveur {#permission}
+## Autorisation d’utilisation des appels au serveur {#permission}
 
-La permission de l’utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
+L’autorisation d’utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
 
 >[!NOTE]
 >
->Votre société peut choisir quelles sociétés de connexion ont accès à l’utilisation de l’appel au serveur.
+>Votre entreprise peut choisir quelles sociétés de connexion ont accès à l’utilisation de l’appel au serveur.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nom de la permission </th> 
+   <th colname="col1" class="entry"> Nom de l’autorisation </th> 
    <th colname="col3" class="entry"> Accorder une autorisation si vous êtes connecté à Adobe Analytics (compte hérité) </th> 
    <th colname="col4" class="entry"> Accorder une autorisation si vous êtes connecté à Adobe Experience Cloud </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Utilisation des appels au serveur </p> </td> 
+   <td colname="col1"> <p>Utilisation de l’appel au serveur </p> </td> 
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"><span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Tous les administrateurs</span> &gt; <span class="uicontrol">Gestion des utilisateurs</span> &gt; <span class="uicontrol">Groupes</span> &gt; <span class="uicontrol">Modifier tous les accès aux rapports</span> &gt; <span class="uicontrol">Outils Analytics</span> &gt; <span class="uicontrol">Personnaliser</span> &gt; <span class="uicontrol">Utilisation de l’appel au serveur</span></span>. </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Administration </span>  &gt; <span class="uicontrol"> Tous les administrateurs </span>  &gt; <span class="uicontrol"> Gestion des utilisateurs </span>  &gt; <span class="uicontrol"> Groupes </span>  &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span>  &gt; <span class="uicontrol"> Outils Analytics </span>  &gt; <span class="uicontrol"> Personnaliser </span>  &gt; <span class="uicontrol"> utilisation des appels au serveur </span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"><span class="uicontrol">Produits</span> &gt; <span class="uicontrol"> Profil du produit </span> &gt; <span class="uicontrol"> Permissions </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur</span></span>. </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Produits </span>  &gt; <span class="uicontrol"> Profil de produits </span>  &gt; <span class="uicontrol"> Autorisations </span>  &gt; <span class="uicontrol"> Outils Analytics </span>  &gt; <span class="uicontrol"> utilisation des appels au serveur </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
