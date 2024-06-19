@@ -1,13 +1,13 @@
 ---
 title: account
-description: Utilisez la variable de compte pour déterminer la suite de rapports à laquelle les données sont envoyées.
+description: (Retiré) Déterminez la suite de rapports à laquelle les données sont envoyées.
 feature: Variables
 exl-id: 075d20be-6109-4024-84c4-1d048678d2bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 47%
+source-wordcount: '131'
+ht-degree: 38%
 
 ---
 

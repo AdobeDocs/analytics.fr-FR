@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -161,7 +161,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`namespace`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(50) |
 | **`new_visit`** | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par les serveurs d’Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur. Basé sur la colonne `user_agent`. Valeur de clé pour la recherche standard `operating_system.tsv` et la [recherche dynamique](dynamic-lookups.md) `operating_system_type.tsv`. | int sans signe |
-| **`p_plugins`** | N’est plus utilisé. Liste de plugins disponibles pour le navigateur. Utilisation de la fonction JavaScript `navigator.plugins()`. | text |
+| **`p_plugins`** | N’est plus utilisé. Liste des plug-ins disponibles pour le navigateur. Utilisation de la fonction JavaScript `navigator.plugins()`. | text |
 | **`page_event`** | Le type d’accès qui est envoyé dans la demande d’image (accès standard, lien de téléchargement, lien personnalisé, lien de sortie). Voir [Recherche d’événement de page](datafeeds-page-event.md). | tinyint sans signe |
 | **`page_event_var1`** | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | text |
 | **`page_event_var2`** | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. | varchar(100) |
@@ -173,7 +173,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`paid_search`** | Indicateur qui est défini si l’accès correspond à la détection de recherche payante. | tinyint sans signe |
 | **`partner_plugins`** | Inutilisé. Fait partie d’une fonctionnalité mise au rebut. | varchar(255) |
 | **`persistent_cookie`** | Utilisé dans la dimension [Prise en charge des cookies persistants](/help/components/dimensions/persistent-cookie-support.md). Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque accès. | char(1) |
-| **`plugins`** | N’est plus utilisé. Liste des identifiants numériques qui correspondent aux plugins disponibles dans le navigateur. Utilise la recherche de `plugins.tsv`. | varchar(180) |
+| **`plugins`** | N’est plus utilisé. Liste des identifiants numériques qui correspondent aux plug-ins disponibles dans le navigateur. Utilise la recherche de `plugins.tsv`. | varchar(180) |
 | **`pointofinterest`** | Nom du point ciblé Mobile Services | varchar(255) |
 | **`pointofinterestdistance`** | Distance du centre du point ciblé Mobile Services | varchar(255) |
 | Colonnes **`post_`** | Contient la valeur finalement utilisée dans les rapports. Chaque colonne « Post » est renseignée suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. | Voir la colonne « Non post » correspondante. |

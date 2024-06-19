@@ -1,13 +1,13 @@
 ---
 title: hier
-description: Mettez en œuvre des variables de hiérarchie dans Adobe Analytics.
+description: (Retiré) Mettez en oeuvre des variables de hiérarchie dans Adobe Analytics.
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 95%
+source-wordcount: '350'
+ht-degree: 93%
 
 ---
 

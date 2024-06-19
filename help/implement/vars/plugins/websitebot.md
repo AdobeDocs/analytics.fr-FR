@@ -4,10 +4,10 @@ description: Identifiez dynamiquement les robots à l’aide des mouvements de s
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ## Utilisation du plug-in
 
-Le plug-in `websiteBot` déclenche un appel `s.tl` si du trafic non bot est détecté.
+La variable `websiteBot` déclenche une `s.tl` appel si le trafic non-robotique est détecté.
 
 ## Exemples
 

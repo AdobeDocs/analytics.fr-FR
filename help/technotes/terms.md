@@ -3,10 +3,10 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+workflow-type: tm+mt
 source-wordcount: '2541'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
    * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Classification :** une fonctionnalité d’Adobe Analytics qui permet le regroupement d’éléments de dimension. Voir [Classifications](/help/components/classifications/c-classifications.md) dans le guide d’utilisation des composants.
-* **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur d’Activity Map.
+* **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur du Activity Map.
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
 * **Serveur de collecte :** voir Serveur de collecte de données.

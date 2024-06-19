@@ -4,9 +4,9 @@ title: Migration des utilisateurs d’Analytics vers l’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 97%
 
 ---
@@ -269,7 +269,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Connexion en tant que </p> </td> 
-   <td colname="col2"> <p> Les membres de l’administration migrant vers Adobe Admin Console ne pourront plus utiliser la fonction « Connexion en tant que » pour accéder aux comptes d’utilisateurs non admin qui ont été migrés vers Adobe Admin Console. Cette fonction devient obsolète dans Analytics. </p> </td> 
+   <td colname="col2"> <p> Les membres de l’administration migrant vers Adobe Admin Console ne pourront plus utiliser la fonction « Connexion en tant que » pour accéder aux comptes d’utilisateurs non admin qui ont été migrés vers Adobe Admin Console. Cette fonctionnalité a été abandonnée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Expiration des utilisateurs et transfert des ressources </p> </td> 
