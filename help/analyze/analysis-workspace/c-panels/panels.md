@@ -4,16 +4,16 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 57%
+source-wordcount: '1570'
+ht-degree: 51%
 
 ---
 
 # Panneaux - Aperçu
 
-Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône supérieure gauche dans Workspace ou d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation d’analyses.
+Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous pouvez accéder aux panneaux à partir de l’icône située en haut à gauche dans Workspace ou à partir d’un [panneau vierge](blank-panel.md). Les panneaux sont utiles pour organiser vos projets en fonction des périodes, des suites de rapports ou des cas d’utilisation d’analyses.
 
 ## Types de panneaux
 
@@ -33,7 +33,7 @@ Voici les types de panneau disponibles dans Analysis Workspace :
 
 ![](assets/panel-overview.png)
 
-Les panneaux [!UICONTROL Quick Insights], [!UICONTROL vierges] et [!UICONTROL à structure libre] sont idéaux pour commencer votre analyse, tandis que les panneaux [!UICONTROL Analytics for Target], [!UICONTROL Attribution ], celui des [!UICONTROL observateurs simultanés de médias] et celui de [!UICONTROL comparaison des segments] se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+[!UICONTROL Aperçu rapide], [!UICONTROL Vide] et [!UICONTROL Structure libre] Les panneaux constituent un excellent point de départ pour votre analyse. [!UICONTROL Analytics pour Target], [!UICONTROL Attribution], [!UICONTROL Visionneuses simultanées de médias] et [!UICONTROL Comparaison de segments] se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
 
 Le panneau de démarrage par défaut est le panneau [!UICONTROL à structure libre], mais vous pouvez également choisir d’utiliser le [panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
@@ -58,63 +58,78 @@ Vous pouvez appliquer une période au niveau de la minute dans les paramètres a
 
 ## Zone de dépôt {#dropzone}
 
-La zone de dépôt des panneaux vous permet d’appliquer des filtres de segments et de menus déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs filtres à un panneau. Le titre au-dessus de chaque filtre peut être modifié en cliquant sur le crayon de modification. Vous pouvez également faire un clic droit pour le supprimer complètement.
+La zone de dépôt des panneaux vous permet d’appliquer des filtres de segments et de menus déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs filtres à un panneau.
 
 ### Filtres de segments
 
-Faites glisser et déposez un segment du rail de gauche dans la zone de dépôt du panneau pour commencer à filtrer le panneau.
+Faites glisser les segments du rail de gauche vers la zone de dépôt du panneau pour commencer à filtrer le panneau. Répétez cette procédure pour ajouter des filtres supplémentaires au panneau. Les filtres s’affichent côte à côte en haut du panneau.
 
-![Filtrer](/help/admin/admin/assets/filter.png)
+![Filtrer](assets/segment-filter.png)
 
 ### Filtres de segments ad hoc
 
 Vous pouvez également faire glisser des composants qui ne sont pas des segments directement dans la zone de dépôt pour créer des segments ad hoc, ce qui vous permet de gagner du temps et vous évite de passer par le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
 
-Les segments ad hoc sont un type de segment rapide et sont locaux au projet. Elles ne s’affichent pas dans le rail de gauche à moins que vous ne les rendiez publiques.
+Les segments ad hoc sont un type de segment rapide et sont locaux au projet. Ils ne s’affichent pas dans le rail de gauche à moins que vous ne les rendiez publics.
 
-Pour plus d’informations, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+Pour en savoir plus, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
-### Filtres déroulants statiques
+### Segments de liste déroulante statiques
 
-Les filtres déroulants permettent d&#39;interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un filtre de menu déroulant pour les types d’appareil mobile afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
+Les segments déroulants statiques vous permettent d’interagir avec les données de manière contrôlée. Vous pouvez, par exemple, ajouter un segment déroulant pour les types d’appareils mobiles afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
 
-Les filtres de menu déroulant peuvent également servir à fusionner plusieurs projets. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents, vous pouvez les fusionner en un seul projet et ajouter un filtre de menu déroulant Pays.
+Les segments de liste déroulante statiques peuvent également être utilisés pour consolider de nombreux projets en un seul. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents appliqués, vous pouvez consolider toutes les versions en un seul projet et ajouter un segment déroulant Pays .
 
 ![](assets/dropdown-filter-intro.png)
 
-Pour créer un filtre de liste déroulante statique :
+#### Création de segments de liste déroulante statiques
 
-* Pour les filtres déroulants utilisant des éléments de dimension, cliquez sur l’icône de flèche vers la droite située en regard de la dimension souhaitée dans le rail de gauche. Cette action expose tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension de cette liste à l’aide de la case `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**.
-* Pour les filtres déroulants utilisant d’autres composants tels que des mesures, des segments ou des périodes, sélectionnez plusieurs composants à l’aide de la fonction `[Shift + Click]` ou `[Ctrl + Click]`. Déposez la sélection dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**. Tous les types de composants sont traités comme des segments dans ce contexte.
-* Un filtre déroulant unique ne peut contenir qu’un seul type de composant. Si vous incluez plusieurs types de composants dans votre sélection, un filtre déroulant distinct est créé par type de composant. Par exemple, si vous incluez des mesures et des éléments de dimension dans votre sélection, deux filtres déroulants distincts sont créés. Un filtre de menu déroulant comprend des éléments de dimension, tandis que l’autre inclut des mesures.
+* Pour les segments de liste déroulante utilisant des éléments de dimension, sélectionnez une seule dimension dans le rail de gauche et déposez-la dans la zone de dépôt du panneau. **pendant la conservation`[Shift]`**. Cela crée un segment déroulant avec tous les éléments de dimension associés à cette dimension.
 
-Sélectionnez l’une des options de la liste déroulante pour modifier les données du panneau. Vous pouvez également choisir de ne pas filtrer les données du panneau en sélectionnant **[!UICONTROL Aucun filtre]**.
+  Ou, si vous souhaitez que le segment déroulant n’inclut que des éléments de dimension spécifiques associés à une dimension, cliquez sur l’icône de flèche vers la droite en regard de la dimension souhaitée dans le rail de gauche. Cette action affiche tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension de cette liste à l’aide de la case `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation** `[Shift]`.
 
-![](assets/create-dropdown.png)
+* Pour les segments de liste déroulante utilisant un seul type de composant (par exemple, seules les dimensions, ou seuls les segments, ou uniquement les mesures), sélectionnez plusieurs éléments du même type dans le rail de gauche à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**.
 
-Le fait de cliquer avec le bouton droit de la souris sur un filtre déroulant propose les options suivantes :
+  Un segment déroulant unique est créé avec les composants que vous avez sélectionnés.
 
-* **[!UICONTROL Ajouter une étiquette]**: lorsque vous ajoutez un filtre déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
-* **[!UICONTROL Supprimer le libellé]**: supprimez le texte au-dessus d’un filtre de liste déroulante.
-* **[!UICONTROL Supprimer le filtre déroulant]**: supprime le filtre de liste déroulante du panneau.
+* Pour les segments de liste déroulante utilisant un mélange de types de composants (par exemple, 2 mesures et 3 filtres), sélectionnez plusieurs composants à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`. Déposez la sélection dans la zone de dépôt du panneau **tout en maintenant la touche`[Shift]`** enfoncée. Dans ce contexte, tous les types de composants sont traités comme des segments déroulants distincts. Par exemple, si vous incluez à la fois des mesures et des éléments de dimension dans votre sélection, deux segments de liste déroulante distincts sont créés : un segment de liste déroulante inclut des éléments de dimension et l’autre inclut des mesures.
+
+  ![Fenêtre Panneau avec le champ Segment de client mobile disponible pour déposer un segment déroulant statique. ](assets/create-dropdown.png)
+
+Le fait de cliquer avec le bouton droit de la souris sur un segment déroulant offre les options suivantes :
+
+* **[!UICONTROL Menu déroulant Supprimer]**: supprime le segment déroulant du panneau.
+* **[!UICONTROL Supprimer le libellé]**: supprimez le texte au-dessus d’un segment déroulant. Pour modifier le libellé, sélectionnez l&#39;icône représentant un crayon.
+* **[!UICONTROL Ajouter une étiquette]**: lorsque vous ajoutez un segment déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
+* **[!UICONTROL Sélection requise]**: nécessite qu’un segment soit défini sur le panneau.
 
 [Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=fr) pour en savoir plus sur l’ajout de filtres de menu déroulant à votre projet.
 
-### Filtres déroulants dynamiques
+#### Utilisation de segments de liste déroulante statiques
 
-Les filtres déroulants dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres filtres déroulants. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la variable [Pays](/help/components/dimensions/countries.md) dimension et [Villes](/help/components/dimensions/cities.md) dimension. Lorsque vous sélectionnez un pays dans le [!UICONTROL Pays] liste déroulante, la variable [!UICONTROL Villes] La liste déroulante s’ajuste dynamiquement pour afficher uniquement les villes de ce pays.
+Pour filtrer le panneau, les utilisateurs peuvent utiliser le menu des segments déroulants de l’une des façons suivantes :
 
-Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les filtres sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les filtres déroulants statiques affectent les valeurs disponibles dans les filtres déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; les éléments de Dimension sélectionnés dans les filtres de liste déroulante dynamiques n’affectent pas les valeurs disponibles dans les filtres de liste déroulante statiques.
+* Appliquez un seul segment au panneau en le sélectionnant dans le menu déroulant.
 
-La sélection manuelle d’éléments de dimension est disponible si vous prévoyez qu’un certain élément de dimension sera collecté ultérieurement. Vous pouvez également effacer un filtre de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres filtres de liste déroulante dynamiques de contenir plus de valeurs. Sélectionner **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les filtres déroulants de ce panneau.
+* Appliquez plusieurs segments au panneau en sélectionnant plusieurs segments dans le menu déroulant. Le panneau est filtré pour inclure l’un des segments sélectionnés.
 
-Pour créer un filtre de liste déroulante dynamique :
+  ![Sélection de plusieurs segments](assets/dropdown-filter-multiselect.png)
 
-* Faites glisser et déposez une seule dimension dans la zone de dépôt du panneau. **pendant la conservation`[Shift]`**.
-* Les filtres déroulants dynamiques ne sont pas disponibles pour les mesures, les segments ou les périodes.
-* Cliquez avec le bouton droit de la souris sur un filtre déroulant et sélectionnez **[!UICONTROL Supprimer le filtre]** pour le supprimer.
+### Segments de liste déroulante dynamiques
 
-Un clic droit sur un filtre de liste déroulante dynamique fournit les mêmes options que les filtres de liste déroulante statiques.
+Les segments de liste déroulante dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres segments de liste déroulante. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la variable [Pays](/help/components/dimensions/countries.md) dimension et [Villes](/help/components/dimensions/cities.md) dimension. Lorsque vous sélectionnez un pays dans le [!UICONTROL Pays] liste déroulante, la variable [!UICONTROL Villes] La liste déroulante s’ajuste dynamiquement pour afficher uniquement les villes de ce pays.
+
+Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les segments sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les segments déroulants statiques affectent les valeurs disponibles dans les segments déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; les éléments de Dimension sélectionnés dans les segments de liste déroulante dynamiques n’affectent pas les valeurs disponibles dans les segments de liste déroulante statiques.
+
+La sélection manuelle d’éléments de dimension est possible si vous prévoyez qu’un élément de dimension donné sera collecté ultérieurement. Vous pouvez également effacer un segment de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres segments de liste déroulante dynamique de contenir plus de valeurs. Sélectionner **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les segments déroulants de ce panneau.
+
+Pour créer un segment de liste déroulante dynamique :
+
+* Faites glisser et déposez une seule dimension dans la zone de dépôt du panneau **tout en maintenant la touche`[Shift]`** enfoncée.
+* Les segments de liste déroulante dynamiques ne sont pas disponibles pour les mesures, les segments ou les périodes.
+* Cliquez avec le bouton droit de la souris sur un segment déroulant et sélectionnez **[!UICONTROL Menu déroulant Supprimer]** pour le supprimer.
+
+Un clic droit sur un filtre déroulant dynamique permet d’obtenir les mêmes options que les filtres déroulants statiques.
 
 ## Menu contextuel {#right-click}
 
@@ -126,8 +141,8 @@ Les paramètres suivants sont disponibles :
 
 | Paramètre | Description |
 | --- | --- |
-| Insérer la copie du panneau/de la visualisation | Permet de coller (&quot;insérer&quot;) un panneau ou une visualisation copié à un autre emplacement du projet ou dans un autre projet. |
-| Copier le panneau | Permet de cliquer avec le bouton droit de la souris et de copier un panneau, de sorte que vous puissiez l’insérer à un autre emplacement du projet ou dans un autre projet. |
+| Insérer la copie du panneau/de la visualisation | Permet de coller (« insérer ») la copie d’un panneau ou d’une visualisation à un autre emplacement au sein du projet, ou dans un tout autre projet. |
+| Copier le panneau | Permet de faire un clic droit et de copier un panneau de sorte que vous puissiez l’insérer à un autre emplacement au sein du projet, ou dans un tout autre projet. |
 | Application de suites de rapports à tous les panneaux | Vous permet d’appliquer la suite de rapports active à tous les panneaux du projet. |
 | Dupliquer le panneau | Crée un double exact du panneau actuel, que vous pouvez ensuite modifier. |
 | Réduire/Développer tous les panneaux | Réduit et développe tous les panneaux du projet. |
