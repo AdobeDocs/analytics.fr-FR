@@ -5,10 +5,10 @@ title: Présentation des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 08f3926bfa621ce3678da6db0f0a30ac5302b757
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 80%
+source-wordcount: '1392'
+ht-degree: 72%
 
 ---
 
@@ -38,7 +38,7 @@ La page Projets contient les informations suivantes :
 | [Modifier les préférences](/help/analyze/analysis-workspace/user-preferences.md) | Gérez les paramètres d’Analysis Workspace et de ses composants associés pour tous les nouveaux projets ou panneaux que vous créez. |
 | [Créer un dossier](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | Ajoutez un nouveau dossier ou sous-dossier à la liste des projets et dossiers. |
 | [Créer un projet](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | Démarrez un nouveau projet à partir de zéro ou d’un rapport. |
-| Afficher plus | Affiche les options de création d’un projet vierge ou d’une fiche d’évaluation mobile, [affichage des tutoriels de formation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=fr)ou [affichage des notes de mise à jour](/help/release-notes/latest.md). |
+| Afficher plus | Affiche les options de création d’un projet vierge ou d’une fiche d’évaluation mobile, [affichage des tutoriels de formation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html?lang=fr), ou [affichage des notes de mise à jour](/help/release-notes/latest.md). |
 | Afficher les dossiers et les projets | Indiquez si la structure de dossiers des projets doit être affichée. Pour plus d’informations, consultez [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | Personnaliser le tableau (icône) | Permet de personnaliser les informations affichées pour chaque projet sur la page Projets . |
 | Nom | Nom du projet de Workspace. |
@@ -52,10 +52,10 @@ La page Projets contient les informations suivantes :
 | Partagé avec | Utilisateurs avec lesquels le projet a été partagé. |
 | Dernière modification | Date et heure de dernière modification du projet. |
 | Dernière ouverture | Date et heure de la dernière ouverture du projet. |
-| Identifiant du projet | ID du projet. |
+| Identifiant de projet | ID du projet. |
 | Période la plus longue | La période la plus longue du projet. |
 | Nombre de requêtes | Nombre total de requêtes contenues dans le projet. |
-| Emplacement | Dossier dans lequel réside le projet. |
+| Emplacement | Le dossier dans lequel réside le projet. |
 
 ## Barre de menus {#menu-bar}
 
@@ -75,7 +75,7 @@ Dans un projet, le menu fournit des options relatives à la gestion du projet, �
 
 ### Informations et paramètres du projet {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**    fournit des informations au niveau du projet sur le projet actuellement actif.
+**[!UICONTROL Workspace]** > **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]** fournit des informations au niveau du projet sur le projet actif.
 
 ![](assets/projectinfo.png)
 
@@ -83,7 +83,7 @@ Les paramètres incluent :
 
 | Paramètre | Description |
 |---|---|
-| Projet    Nom | Nom donné au projet. Double-cliquez dessus pour le modifier. |
+| Nom du projet | Nom donné au projet. Double-cliquez dessus pour le modifier. |
 | Créée par | Nom du titulaire du projet. |
 | Dernière modification | Date de la dernière modification du projet. |
 | Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. |
@@ -94,13 +94,23 @@ Les paramètres incluent :
 
 ## Rail de gauche {#left-rail}
 
-Dans un projet, les [panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr), les tableaux, les [visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) et les [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=fr) sont accessibles à partir du rail de gauche. Ce sont les blocs de construction de votre projet.
+Au sein d’un projet, différentes icônes sont disponibles dans le rail de gauche et chacune représente les parties importantes d’un projet :
 
-Vous pouvez également accéder aux visualisations et aux panneaux à partir du [panneau vierge](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=fr).
+* [Panneaux](/help/analyze/analysis-workspace/c-panels/panels.md) ![icône des panneaux](assets/panels-icon.png)
 
-Les composants (dimensions, mesures, segments, périodes) du rail de gauche se rapportent à la suite de rapports du panneau principal. Le panneau principal comporte une bordure bleue et la suite de rapports principale est répertoriée en haut du rail des composants.
+* [Visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)![icône de visualisations](assets/visualizations-icon.png)
 
-![](assets/left-rail.png)
+* [Composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)![icône des composants](assets/components-icon.png)
+
+* [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)![icône du dictionnaire de données](assets/data-dictionary-icon.png)
+
+* [Table des matières](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md) ![icône toc](assets/toc-icon.png)
+
+Les composants (dimensions, mesures, filtres, périodes) du rail de gauche se rapportent à la vue de données du panneau principal. Le panneau actif est identifié par la bordure bleue qui l’entoure et la vue de données active est répertoriée en haut du rail du composant.
+
+![Composants relatifs à la vue de données de panneau active pour la vue de données de démonstration intersecteur.](assets/left-rail.png)
+
+
 
 ## Menu contextuel
 

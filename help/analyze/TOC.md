@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 99%
       + [Présentation des projets](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création de projets](analysis-workspace/build-workspace-project/create-projects.md)
       + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Table des matières du projet](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Dossiers dans Espace de travail {#workspace-folders}
          + [À propos des dossiers dans Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers et sous-dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
@@ -78,6 +79,7 @@ ht-degree: 99%
       + [Gestion des sources de données](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tableau à structure libre {#freeform-table}
          + [Tableau à structure libre](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Création d’hyperliens pour les dimensions dans un tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Paramètres des colonnes et des lignes {#column-row-settings}
             + [Paramètres des colonnes](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Paramètres des lignes](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)

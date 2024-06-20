@@ -3,9 +3,10 @@ description: Découvrez comment ajouter des composants à un projet dans Analysi
 title: Utilisation de composants dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '873'
 ht-degree: 15%
 
 ---
@@ -34,9 +35,13 @@ Pour obtenir des informations d’aperçu sur les types de composants que vous p
 
 1. Faites défiler l’écran jusqu’au composant que vous souhaitez ajouter ou recherchez-le, puis faites-le glisser vers un panneau ou une visualisation dans votre projet.
 
-   Par exemple, vous pouvez faire glisser un segment vers la zone de dépôt des segments dans un en-tête de panneau.
+1. (Facultatif) Faites glisser un composant vers la zone de dépôt de segments dans un en-tête de panneau.
 
-   ![déposer un segment dans la zone de dépôt ;](assets/segment-dropzone.png)
+   Les segments s’appliquent à tout le contenu du panneau.
+
+   Pour plus d’informations sur l’utilisation de la zone de dépôt de segments dans un panneau pour filtrer le panneau, voir [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panneaux - Aperçu](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+   ![déposer un segment dans la zone de dépôt](assets/segment-dropzone.png)
 
 1. Pour plus d’informations, passez à l’une des sections suivantes, selon le type de composant que vous ajoutez :
 
@@ -62,7 +67,11 @@ Pour obtenir des informations d’aperçu sur les types de composants que vous p
 
    * Faites glisser une ou plusieurs dimensions du rail de gauche sur la zone de dépôt de segments pour créer un segment ad hoc, comme décrit dans la section [Ajout de segments à un projet](#add-segments-to-a-project).
 
-     ![déposer un segment dans la zone de dépôt ;](assets/segment-dropzone.png)
+     ![déposer un segment dans la zone de dépôt](assets/segment-dropzone.png)
+
+1. (Facultatif) Vous pouvez ventiler des dimensions et des éléments de dimension dans Analysis Workspace avec d’autres composants.
+
+   Pour plus d’informations, voir [Ventilation des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 Pour plus d’informations sur l’utilisation des dimensions dans Analysis Workspace, voir [Aperçu des dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Ventilation des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), et [Dimensions de répartition du temps](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
@@ -92,31 +101,23 @@ Pour plus d’informations sur l’utilisation des mesures dans Analysis Workspa
 
 [Segments](/help/components/segmentation/seg-overview.md) vous permettent d’identifier des sous-ensembles de visiteurs en fonction de caractéristiques ou d’interactions spécifiques.
 
-Pour ajouter un segment à un projet dans Analysis Workspace :
+Vous pouvez utiliser les segments dans Analysis Workspace de l’une des manières suivantes :
 
-1. Commencez à ajouter un segment à votre projet dans Analysis Workspace, comme décrit dans la section [Commencer à ajouter des composants à un projet](#begin-adding-components-to-a-project).
+### Ajout de segments à un panneau
 
-1. Choisissez l’une des méthodes suivantes pour commencer à filtrer votre panneau :
-
-   * Faites glisser un segment depuis le rail de gauche vers la zone de dépôt des segments.
-
-     ![déposer un segment dans la zone de dépôt ;](assets/segment-dropzone.png)
-
-   * Maintenez la touche Maj ou Ctrl enfoncée pour sélectionner plusieurs segments dans le rail de gauche, puis maintenez la touche Maj enfoncée lorsque vous les déposez sur la zone de dépôt des segments.
-
-     ![déposer plusieurs segments dans la zone de dépôt ;](assets/segment-dropzoone-multiple.png)
-
-     Cela crée un menu déroulant qui permet aux utilisateurs du panneau de choisir le filtre à appliquer. Le menu déroulant contient un [!UICONTROL **Aucun filtre**] que les utilisateurs peuvent sélectionner, ce qui permet de ne pas filtrer le panneau.
-
-     Vous pouvez sélectionner (x) pour supprimer n’importe quelle option du menu déroulant. Si vous supprimez la variable [!UICONTROL **Aucun filtre**] , un filtre est requis.
-
-   * Créez des segments ad hoc en faisant glisser des composants non liés aux segments sur la zone de dépôt. Cela peut vous faire gagner du temps et vous faire gagner du temps lorsque vous passez dans le créateur de segments. Les segments ainsi créés sont automatiquement définis comme des segments de niveau accès. Vous pouvez modifier cette définition en cliquant sur l’icône d’informations (i) à côté du segment, puis sur l’icône de modification en forme de crayon, et la modifier dans le créateur de segments.
-
-     Les segments ad hoc sont un type de segment rapide et sont locaux au projet. Ils ne s’affichent pas dans le rail de gauche à moins que vous ne les rendiez publics.
-
-     Pour en savoir plus, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+Lorsque vous ajoutez des segments à un panneau, ils s’appliquent à tout le contenu du panneau.
 
 Pour plus d’informations sur l’utilisation de la zone de dépôt de segments dans un panneau pour filtrer le panneau, voir [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panneaux - Aperçu](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+### Ajout de segments à une colonne d’un tableau à structure libre
+
+Lorsque vous ajoutez des segments à une colonne d’un tableau à structure libre, les segments s’appliquent à tout le contenu de la colonne du tableau.
+
+### Utilisation de segments lors de la création de mesures calculées
+
+Dans le créateur de mesures calculées, vous pouvez appliquer des segments dans votre définition de mesure.
+
+Pour plus d’informations, voir [Mesures segmentées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Ajout de périodes à un projet
 
