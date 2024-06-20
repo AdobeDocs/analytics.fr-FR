@@ -155,7 +155,7 @@ ht-degree: 98%
       + Alertes intelligentes {#intelligent-alerts}
          + [Alertes intelligentes - Aperçu](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Créer des alertes](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [Gestion des alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [Gérer les alertes](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Cas d’utilisation](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [Préférences utilisateur](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}

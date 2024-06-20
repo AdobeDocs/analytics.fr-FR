@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juin 2024** | |
-| Documentation améliorée sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur [création d&#39;alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), [gestion des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), et [informations sur la présentation](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Amélioration de la documentation sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), la [gestion des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
 | **Mai 2024** | |
 | Informations requises lors de l’utilisation des contraintes applicables aux politiques des organisations avec Google Cloud Platform dans les flux de données et l’entrepôt de données | Ajout de l’ID d’organisation Google Cloud Platform détenu par Adobe à la documentation [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Entrepôt de données](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Ces informations sont requises uniquement pour les organisations qui utilisent les [Contraintes applicables aux politiques des organisations](https://cloud.google.com/storage/docs/org-policy-constraints?hl=fr) dans Google Cloud Platform.</p> |
 | Documentation sur l’ajout de composants aux projets | Ajout d’informations générales sur la manière d’[ajouter les différents types de composants aux projets dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
@@ -133,7 +133,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Actualisation multidevise | Les pages autour de la [prise en charge multidevise](/help/implement/vars/config-vars/currencycode.md) ont été mises à jour. |
 | **Octobre 2022** |  |
 | Data Workbench | [Annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) |
-| Indications du client | Nouvelles [vue d’ensemble et FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=fr). |
+| Indications du client ou de la cliente | Nouvelles [vue d’ensemble et FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=fr). |
 | Résumé des mesures clés | Nouvelle rubrique sur la visualisation du [résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
 | Jeux de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
 | Application mobile : vues détaillées personnalisées | Nouvelle rubrique sur les [vues détaillées personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr). |
