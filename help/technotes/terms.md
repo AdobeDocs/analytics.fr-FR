@@ -3,10 +3,10 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
 workflow-type: tm+mt
-source-wordcount: '2541'
-ht-degree: 99%
+source-wordcount: '2528'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
 * **Délégué du service clientèle :** utilisateur désigné autorisé à interagir directement avec le service clientèle d’Adobe. Voir [Délégués du service clientèle](https://helpx.adobe.com/fr/experience-cloud/supported-users.html) dans la base de connaissances d’Experience Cloud.
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
-* **Connecteurs de données :** solution de développement complète qui permet à un tiers d’automatiser le téléchargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. La plupart des connecteurs de données utilisent un processus similaire mis en œuvre dans les sources de données. Voir [Data Connectors](/help/import/data-connectors/data-connectors-eol.md) dans le guide dʼutilisation de lʼimportation.
+* **Connecteurs de données :** Solution de développement abandonnée qui permet à un tiers d’automatiser le chargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. Remplacé par Adobe Exchange Marketplace.
 * **Flux de données :** exportation de données brutes qui répertorie chaque accès et variable sous forme de lignes et de colonnes distinctes. Elle est le plus souvent utilisée pour exporter des données Adobe Analytics vers une base de données tierce. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation.
 * **Sources de données :** permet à un utilisateur de télécharger les données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir [Data Connectors](/help/import/data-sources/overview.md) dans le guide d’utilisation de l’importation.
 * **Data Warehouse :** fonction d’Adobe Analytics permettant de demander des rapports plus volumineux. Voir [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) dans le guide d’utilisation de l’exportation.
