@@ -142,7 +142,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | VISTA | Nouvelle page expliquant les principes de base des [règles VISTA](/help/technotes/vista.md). |
 | **Septembre 2022** | |
 | Graphiques combinés | Nouvelle rubrique sur la visualisation de [Graphiques combinés](/help/analyze/analysis-workspace/visualizations/combo-charts.md). |
-| Module externe mis à jour | Mise à jour de la version de [getvalonce](/help/implement/vars/plugins/getvalonce.md) module d’implémentation. |
+| Plug-in mis à jour | Mise à jour de la version du plug-in d’implémentation [getvalonce](/help/implement/vars/plugins/getvalonce.md). |
 | Nouvelle variable de configuration | Documentation sur [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
 | Indications du client à entropie élevée | Nouvelle rubrique sur la façon dont Adobe utilise les [indications du client](/help/technotes/client-hints.md) en plus de la chaîne Agent-utilisateur pour déterminer les informations sur les appareils. |
 | Ordre de traitement | Diverses pages d’aide ont été agrégées afin de fournir une seule rubrique d’aide sur l’[ordre de traitement](/help/technotes/processing-order.md). |
