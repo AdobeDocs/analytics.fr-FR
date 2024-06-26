@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: fc5855991cc2294e9c797d9507cdcaca4f98a2d8
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 92%
+source-wordcount: '1077'
+ht-degree: 91%
 
 ---
 
@@ -71,5 +71,5 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement (v
 
 * [Notes de mise à jour précédentes pour 2024](/help/release-notes/2024.md)
 * [Notes de mise à jour de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr)
-* [Notes de mise à jour de Media Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=fr)
+* [Notes de mise à jour du module complémentaire Collection de médias en flux continu](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=fr)
 * Dernières mises à jour des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html)

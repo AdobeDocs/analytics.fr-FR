@@ -4,9 +4,9 @@ description: Comment utiliser et interpréter le panneau Durée de lecture des m
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ Dans Analysis Workspace, la durée de lecture correspond à la durée passée à
 
 Le panneau Durée de lecture multimédia permet d’analyser la lecture au fil du temps, avec des détails sur la simultanéité la plus élevée et la possibilité de ventiler et de comparer.
 
-Les clients Media Analytics peuvent analyser le temps de lecture pour obtenir des informations précieuses sur la qualité du contenu et l’engagement des observateurs, et pour aider à résoudre les problèmes ou à planifier le volume ou l’échelle.
+Les clients qui ont acheté le module complémentaire de collecte de médias en flux continu peuvent analyser le temps de lecture passé pour obtenir des informations précieuses sur la qualité du contenu et l’engagement des observateurs, et pour faciliter la résolution des problèmes ou la planification du volume ou de l’échelle.
 
 La durée de lecture de la visite peut vous aider à comprendre :
 
@@ -31,7 +31,7 @@ Voici un aperçu vidéo de ce panneau :
 
 ## Utilisation du panneau Durée de lecture du média
 
-1. Accédez à une suite de rapports avec les composants Media Analytics activés.
+1. Accédez à une suite de rapports avec les composants multimédia en continu activés.
 1. Sélectionnez l’icône de panneau à l’extrême gauche, puis faites glisser le panneau dans votre projet Analysis Workspace.
 1. Passez aux sections suivantes pour personnaliser le panneau Durée de lecture multimédia
 
