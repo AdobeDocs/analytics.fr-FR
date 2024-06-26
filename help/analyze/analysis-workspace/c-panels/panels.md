@@ -4,9 +4,9 @@ title: Panneaux - Aperçu
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1582'
 ht-degree: 51%
 
 ---
@@ -107,11 +107,13 @@ Le fait de cliquer avec le bouton droit de la souris sur un segment déroulant o
 
 #### Utilisation de segments de liste déroulante statiques
 
-Pour filtrer le panneau, les utilisateurs peuvent utiliser le menu des segments déroulants de l’une des façons suivantes :
+Pour filtrer le panneau, utilisez le menu de segments déroulants de l’une des façons suivantes :
 
 * Appliquez un seul segment au panneau en le sélectionnant dans le menu déroulant.
 
 * Appliquez plusieurs segments au panneau en sélectionnant plusieurs segments dans le menu déroulant. Le panneau est filtré pour inclure l’un des segments sélectionnés.
+
+  Pour supprimer un segment de la liste, sélectionnez-le à nouveau dans le menu déroulant.
 
   ![Sélection de plusieurs segments](assets/dropdown-filter-multiselect.png)
 
