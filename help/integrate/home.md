@@ -3,10 +3,10 @@ title: Intégration d’Analytics
 description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=fr#support)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/?lang=fr#home)

@@ -3,10 +3,10 @@ title: Guide des composants d’Analytics
 description: Découvrez les différents composants proposés par Adobe Analytics.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=fr#support)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/?lang=fr#home)

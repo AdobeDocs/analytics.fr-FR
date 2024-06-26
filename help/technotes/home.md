@@ -3,10 +3,10 @@ title: Notes techniques d’Analytics
 description: Ce guide fournit des informations utiles sur les rubriques qui n’appartiennent pas à un outil ou composant d’analyses spécifique.
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 
 ## Autres ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=fr#support)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/?lang=fr#home)

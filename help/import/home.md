@@ -1,16 +1,16 @@
 ---
-title: Guide dʼimportation d’Analytics
-description: Ce guide explique comment intégrer des données dans Analytics à l’aide des sources de données et des API d’insertion de données.
+title: Guide dʼimport d’Analytics
+description: Ce guide explique comment importer des données dans Analytics par le biais des API de sources de données et d’insertion de données.
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 88%
+source-wordcount: '144'
+ht-degree: 95%
 
 ---
 
-# Guide dʼimportation d’Analytics
+# Guide dʼimport d’Analytics
 
 ![Bannière](../../assets/doc_banner_import.png)
 
@@ -31,7 +31,7 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics&amp;lang=fr#support)
-* [Forum de la communauté Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
