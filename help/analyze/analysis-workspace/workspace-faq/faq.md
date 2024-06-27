@@ -4,10 +4,10 @@ title: Questions fréquentes et résolution des problèmes dans Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -31,10 +31,6 @@ Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de
 
 +++Comment mettre en œuvre Analysis Workspace ?
 Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à la disposition de toutes les entreprises possédant Analytics Standard ou Premium. Néanmoins, des autorisations standard d’accès au contenu (par exemple aux suites de rapports et aux composants des projets) s’appliquent ainsi qu’au traitement et au partage des projets. Voir [Administration et exigences d’accès](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
-+++
-
- +++Analysis Workspace change-t-il les rapports préconfigurés dans Adobe Analytics ?
-Non. Puisqu’il s’agit d’un environnement distinct, vos rapports existants ou préconfigurés dans Adobe Analytics ne seront pas modifiés. Vous pouvez toujours utiliser des rapports de Report Builder standard à l’aide d’Analysis Workspace.
 +++
 
 +++Puis-je utiliser Analysis Workspace pour Data Warehouse ?
@@ -71,4 +67,8 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
 * Accédez à votre site Web et utilisez [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) pour vérifier que la collecte des données s’effectue.
++++
+
++++En tant qu’utilisateur en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
+Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires ne peuvent modifier que la liste déroulante pour appliquer un filtre sur le panneau d’une manière prédéfinie.
 +++
