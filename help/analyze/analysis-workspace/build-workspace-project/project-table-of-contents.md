@@ -5,10 +5,10 @@ title: Table des matières du projet
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 6%
+source-wordcount: '142'
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 6%
 
 Vous pouvez afficher une table des matières dans chaque projet dans Analysis Workspace, ce qui vous permet de passer rapidement d’un panneau à l’autre et d’une visualisation existante dans le projet. Cela s’avère particulièrement utile lors de l’affichage de projets plus volumineux contenant de nombreux panneaux et visualisations.
 
-Voici une vidéo de démonstration de cette fonctionnalité :
++++Affichez une démonstration vidéo de cette fonctionnalité.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26990/?learn=on)
+
++++
 
 Pour afficher la table des matières d’un projet :
 

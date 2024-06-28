@@ -4,9 +4,9 @@ description: Découvrez comment créer des hyperliens pour les éléments de dim
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ Cette fonctionnalité est particulièrement utile lors de la création d’hyper
 
 * Éléments de Dimension ou ventilations dont les valeurs font partie d’une URL à laquelle vous souhaitez créer un lien (par exemple, une dimension Nom de page qui fait partie d’une URL)
 
-Voici une vidéo de démonstration de cette fonctionnalité :
++++ Affichez une démonstration vidéo de cette fonctionnalité.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## Création de liens hypertextes pour un ou plusieurs éléments de dimension
 
