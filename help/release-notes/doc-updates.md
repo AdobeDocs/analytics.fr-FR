@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
 workflow-type: tm+mt
 source-wordcount: '5695'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -28,8 +28,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Juin 2024** | |
 | Nom du produit mis à jour qui fait référence aux fonctionnalités de diffusion en continu | Remplacement des instances de &quot;Media Analytics&quot; et &quot;Streaming Media&quot; par le nom de &quot;Streaming Media Collection Add-on&quot; lorsqu’elles font référence à l’ensemble de fonctionnalités de diffusion en continu qui collectent les données de diffusion en continu et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans les [Documentation du module complémentaire Collection de médias en flux continu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
 | Amélioration de la documentation sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), la [gestion des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
-| Obsolète `cookieDomainPeriods` | Maintenant que l’AppMeasurement détecte automatiquement le domaine correct sur lequel les cookies doivent être définis, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) est obsolète. |
-| Documentation de Retire Data Connectors | Déplacement de la page de fin de vie de Data Connectors vers [Produits arrêtés](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
+| `cookieDomainPeriods` obsolète | Maintenant qu’AppMeasurement détecte automatiquement le domaine correct sur lequel les cookies doivent être définis, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) est obsolète. |
+| Retrait de la documentation de Data Connectors | Déplacement de la page de fin de vie de Data Connectors vers [Produits arrêtés](https://experienceleague.adobe.com/fr/docs/discontinued/using/data-connectors). |
 | **Mai 2024** | |
 | Informations requises lors de l’utilisation des contraintes applicables aux politiques des organisations avec Google Cloud Platform dans les flux de données et l’entrepôt de données | Ajout de l’ID d’organisation Google Cloud Platform détenu par Adobe à la documentation [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Entrepôt de données](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). <p>Ces informations sont requises uniquement pour les organisations qui utilisent les [Contraintes applicables aux politiques des organisations](https://cloud.google.com/storage/docs/org-policy-constraints?hl=fr) dans Google Cloud Platform.</p> |
 | Documentation sur l’ajout de composants aux projets | Ajout d’informations générales sur la manière d’[ajouter les différents types de composants aux projets dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
