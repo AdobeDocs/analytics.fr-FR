@@ -4,18 +4,21 @@ description: Liste les dimensions d’entrée et leur utilisation.
 keywords: page d’accès, section d’entrée sur le site, serveur d’entrée, Custom Insight d’entrée
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 93%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
 # Dimensions d’entrée
 
-*[Cette page d’aide décrit le fonctionnement des entrées en tant que dimension](overview.md). Pour plus d’informations sur le fonctionnement des entrées en tant que mesure, consultez la mesure [Entrées](../metrics/entries.md).*
+*Cette page d’aide décrit le fonctionnement des entrées en tant que [dimension](overview.md). Pour plus d’informations sur le fonctionnement des entrées en tant que mesure, consultez la mesure [Entrées](../metrics/entries.md).*
 
 Les dimensions d’entrée sont [basée sur les visites](../metrics/visits.md). Elles enregistrent le premier élément de dimension et le conservent pendant toute la durée de cette visite. Les dimensions d’entrée sont disponibles pour toutes les variables dont le cheminement est activé sous [Variables de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) dans les paramètres de la suite de rapports.
+
+>[!TIP]
+>Si vous souhaitez afficher des données en fonction du premier accès d’une visite plutôt que de la première valeur affichée dans une visite, vous pouvez utiliser une variable [segment](/help/components/segmentation/seg-overview.md). Utilisez un conteneur d’accès où [Profondeur d’accès](hit-depth.md) est égal à 1, puis utilisez ce segment avec la variable souhaitée.
 
 ## Renseignement des dimensions d’entrée avec des données
 

@@ -3,10 +3,10 @@ title: Vue d’ensemble des jeux de classifications
 description: Utilisez les jeux de classifications pour gérer les données de classification.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,15 @@ Les jeux de classifications fournissent une interface unique pour gérer les cla
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]**
 
+Vous devez être un administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation. [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] pour afficher cet élément de menu. Notez que si les interfaces précédentes de gestion des classifications se trouvent sous la variable [!UICONTROL Administration] , les jeux de classifications se trouvent sous [!UICONTROL Composants] .
+
+## Améliorations
+
 L’architecture backend publiée avec les jeux de classifications contient plusieurs améliorations notables :
 
 * Réduction du temps de traitement (72 heures → 24 heures)
-* Possibilité d’utiliser l’interface utilisateur des jeux de classifications
-* Option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=fr)
+* Interface utilisateur repensée pour la gestion des classifications
+* Option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications notables :
 
