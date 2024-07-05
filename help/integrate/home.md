@@ -4,9 +4,9 @@ description: Découvrez comment intégrer des données issues d’autres emplace
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,6 +41,6 @@ Voici un aperçu vidéo dʼAdobe Analytics :
 ## Principales ressources Analytics
 
 * [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
-* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
-* [Experience League](https://experienceleague.adobe.com/?lang=fr#home)
+* [Experience League](https://experienceleague.adobe.com/fr)
