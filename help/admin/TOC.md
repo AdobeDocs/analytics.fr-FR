@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Adobe Admin Console {#admin-console}
-   + [Aperçu](admin-console/home.md)
+   + [Vue d’ensemble](admin-console/home.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Résumé des autorisations pour les outils Analytics {#permissions}
@@ -30,12 +30,12 @@ ht-degree: 90%
    + [Sources de données](admin/data-sources.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
-   + Gestionnaire des activités de création de rapports {#reporting-activity-manager}
+   + Personne responsable des activités de rapport {#reporting-activity-manager}
       + [Vue d’ensemble](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Afficher l’activité de rapport](admin//reporting-activity-manager/reporting-activity.md)
-      + [Annuler des demandes de création de rapports](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
+      + [Annuler des requêtes de création de rapports](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migration des composants {#component-migration}
-      + [Préparation à la migration](admin/component-migration/prepare-component-migration.md)
+      + [Se préparer à la migration](admin/component-migration/prepare-component-migration.md)
       + [Workflow de migration](admin/component-migration/component-migration.md)
    + Gestionnaire de suites de rapports {#manage-report-suites}
       + Modifier les paramètres d’une suite de rapports {#edit-report-suite}
@@ -43,11 +43,11 @@ ht-degree: 90%
             + [Paramètres du compte général](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Filtres URL internes](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Personnaliser le calendrier](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Détection de recherche payante {#paid-search-detection}
+            + Détection de référencement payant {#paid-search-detection}
                + [Détection de référencement payant - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + Règles de traitement {#c-processing-rules}
-               + [Règles de traitement - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + [Vue d’ensemble des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + Règles de traitement {#c-processing-rules-configuration}
                   + [Fonctionnement des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
                   + [Créer des règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
@@ -70,7 +70,7 @@ ht-degree: 90%
                + [Astuces et conseils concernant les règles de traitement](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + Règles de robots {#bot-removal}
                + [Suppression de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [Comprendre et configurer des règles de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [Comprendre et configurer des règles de robot](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [Signatures de robots courantes](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [Méthodes d’exclusion de robots](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [Paramètres de confidentialité](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -103,25 +103,25 @@ ht-degree: 90%
          + Canaux marketing {#marketing-channels}
             + [Gestionnaire de canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [Règles de traitement des canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [Classifications de canal marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [Classifications de canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiration du canal marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestion du trafic {#traffic-management}
-            + [Aperçu](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Vue d’ensemble](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + Gestion des applications {#app-management}
             + [Rapports d’application](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
-            + [Classifications des applications](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
+            + [Classifications d’application](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
          + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Compte rendu des performances sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Gestion des Documents Cloud {#doc-cloud-mgt}
-            + [Configuration du Document Cloud avec Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [Configuration des rapports de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
-         + [Configuration Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
+         + Gestion de Document Cloud {#doc-cloud-mgt}
+            + [Configurer Document Cloud avec Adobe Analytics](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [Configurer les rapports de Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Configuration Advertising Analytics](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + Temps réel {#real-time-reports}
             + [Rapports en temps réel - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [Configuration des rapports en temps réel](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
@@ -155,7 +155,7 @@ ht-degree: 90%
       + [Gestionnaire de préférences](admin/company/preferences-manager.md)
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
-   + Étiquetage de la confidentialité de la gouvernance des données {#data-governance}
+   + Étiquetage de confidentialité de la gouvernance des données {#data-governance}
       + [Workflow relatif à la confidentialité des données d’Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Questions fréquentes](admin/c-data-governance/gdpr-faq.md)
       + Étiquetage des données {#data-labels}
@@ -173,9 +173,9 @@ ht-degree: 90%
       + [Affichage de l’utilisation des suites de rapports](admin/c-server-call-usage/report-suite-usage.md)
       + [Alertes d’utilisation des appels au serveur](admin/c-server-call-usage/scu-alerts.md)
       + [FAQ sur l’utilisation des appels au serveur](admin/c-server-call-usage/overage-faq.md)
-   + Gestion des utilisateurs et des produits (héritée) {#user-product-management}
-      + [Gestion des utilisateurs et des produits (héritée)](admin/user-management2/user-management.md)
-      + [Transfert de ressources utilisateur ou définition de l’expiration du compte](admin/user-management2/users-assets.md)
+   + Gestion des utilisateurs et utilisatrices et des produits (héritée) {#user-product-management}
+      + [Gestion des utilisateurs et utilisatrices et des produits (héritée)](admin/user-management2/user-management.md)
+      + [Gestion des comptes d’utilisateurs, des ressources et des expirations hérités](admin/user-management2/users-assets.md)
       + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
