@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
-workflow-type: ht
-source-wordcount: '5695'
-ht-degree: 100%
+source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+workflow-type: tm+mt
+source-wordcount: '5709'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Juillet 2024** | |
+| Messages d’erreur courants mis à jour | Mises à jour mineures apportées au [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
 | Mise à jour du nom du produit qui fait référence aux fonctionnalités de diffusion en continu (streaming) | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
 | Amélioration de la documentation sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), la [gestion des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
