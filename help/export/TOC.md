@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données, pour exporter des données brutes, ainsi que Data Warehouse, pour récupérer une sortie de données sous forme de feuille de calcul. Découvrez comment utiliser FTP et SFTP pour transférer des fichiers.
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Flux de données Analytics {#analytics-data-feed}
    + [Aperçu des flux de données](analytics-data-feed/data-feed-overview.md)
-   + [Création ou modification d’un flux de données](analytics-data-feed/create-feed.md)
+   + [Création d’un flux de données](analytics-data-feed/create-feed.md)
    + [Gestion des flux de données](analytics-data-feed/df-manage-feeds.md)
    + [Gestion des tâches relatives aux flux de données](analytics-data-feed/df-manage-jobs.md)
    + Contenu du flux de données {#data-feed-contents}
