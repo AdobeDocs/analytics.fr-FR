@@ -3,10 +3,10 @@ title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ Le bouton [!UICONTROL Ajouter] vous permet de créer un nouveau flux. Pour plus 
 
    Lors de la mise à jour de la section [!UICONTROL **Destination**] pour un flux de données que vous modifiez, vous pouvez choisir un autre compte et un autre emplacement à utiliser pour le nouveau flux de données dans les champs déroulants [!UICONTROL **Compte**] et [!UICONTROL **Emplacement**] .
 
-   Si vous souhaitez modifier le compte et l’emplacement de tous les flux de données dans lesquels ils sont utilisés, vous pouvez modifier directement les comptes et les emplacements, comme décrit dans les sections [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md) et [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md). Les comptes et emplacements non cloud ne peuvent pas être modifiés.
+   Les comptes et les emplacements peuvent être modifiés comme décrit dans les sections [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md) et [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md). La modification d’un compte ou d’un emplacement affecte tous les éléments associés à ce compte ou cet emplacement.
+
+   Les versions précédentes du gestionnaire de flux de données vous permettaient de créer des destinations FTP, SFTP, S3 et Azure Blob. Les destinations créées dans ces versions antérieures du gestionnaire des flux de données ne peuvent pas être modifiées ni copiées.
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -84,7 +86,9 @@ Le bouton [!UICONTROL Ajouter] vous permet de créer un nouveau flux. Pour plus 
 
    Lors de la mise à jour de la section [!UICONTROL **Destination**] pour un flux de données que vous copiez, vous pouvez choisir un autre compte et emplacement pour le nouveau flux de données dans les champs déroulants [!UICONTROL **Compte**] et [!UICONTROL **Emplacement**] .
 
-   Si vous souhaitez modifier le compte et l’emplacement de tous les flux de données dans lesquels ils sont utilisés, vous pouvez modifier directement les comptes et les emplacements, comme décrit dans les sections [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md) et [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md). Les comptes et emplacements non cloud ne peuvent pas être modifiés.
+   Les comptes et les emplacements peuvent être modifiés comme décrit dans les sections [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md) et [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md). La modification d’un compte ou d’un emplacement affecte tous les éléments associés à ce compte ou cet emplacement.
+
+   Les versions précédentes du gestionnaire de flux de données vous permettaient de créer des destinations FTP, SFTP, S3 et Azure Blob. Les destinations créées dans ces versions antérieures du gestionnaire des flux de données ne peuvent pas être modifiées ni copiées.
 
 ## Suspension d’un flux de données
 
