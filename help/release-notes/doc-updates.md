@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '5771'
+source-wordcount: '5788'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2024** | |
-| Mise à jour de la documentation pour la gestion des flux de données | Mise à jour des informations dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md) afin d’en améliorer la clarté. <p>Les mises à jour comprennent les éléments suivants :</p><ul><li>Création de sections distinctes pour différentes tâches afin de faciliter l’analyse et la consommation des informations.</li><li>Ajout d’informations sur les modifications du comportement des flux actifs qui sont réactivés. Ces modifications sont actuellement en disponibilité limitée et ne sont pas encore disponibles pour tous les clients.</li> |
+| Mise à jour de la documentation pour la gestion des flux de données | Mise à jour des informations dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md) afin d’en améliorer la clarté. <p>Les mises à jour comprennent les éléments suivants :</p><ul><li>Création de sections distinctes pour différentes tâches afin de faciliter l’analyse et la consommation des informations.</li><li>Ajout d’informations sur les modifications du comportement des flux actifs qui sont réactivés. Ces modifications sont actuellement en disponibilité limitée et ne sont pas encore disponibles pour tous les clients.</li><li>Ajout d’informations stipulant que les flux de données doivent avoir l’état Actif avant de pouvoir être supprimés.</li> |
 | Messages d’erreur courants mis à jour | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
 | Mise à jour du nom du produit qui fait référence aux fonctionnalités de diffusion en continu (streaming) | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |

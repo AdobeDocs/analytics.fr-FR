@@ -4,10 +4,10 @@ title: Messages d’erreur courants dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 6412fc0027c84df3b02ef2e7cbf35d24b4ee9319
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ Vous pouvez rencontrer des erreurs lors de l’interaction avec Analysis Worksp
 
 | Message d’erreur | Quelle en est la raison ? | Optimisation |
 | --- | --- | --- |
-| [!UICONTROL La suite de rapports fait l’objet de rapports exceptionnellement lourds. Veuillez réessayer ultérieurement.] | Votre entreprise essaie d’exécuter trop de requêtes simultanées sur une suite de rapports spécifique. Les facteurs à l’origine de cette erreur sont les demandes d’API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs qui effectuent simultanément des demandes de création de rapports. | Diffusez vos requêtes et plannings pour la suite de rapports de manière plus uniforme tout au long de la journée. |
+| [!UICONTROL La suite de rapports fait l’objet de rapports exceptionnellement lourds. Veuillez réessayer ultérieurement.] | Votre entreprise essaie d’exécuter trop de requêtes simultanées sur une suite de rapports spécifique. Les facteurs à l’origine de cette erreur sont les demandes d’API, les projets planifiés et les utilisateurs simultanés qui effectuent des demandes de création de rapports. | Diffusez vos requêtes et plannings pour la suite de rapports de manière plus uniforme tout au long de la journée. <p>Les administrateurs peuvent utiliser le [Gestionnaire d’activités de création de rapports pour identifier et annuler les requêtes](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) qui consomment la capacité de création de rapports. |
 | [!UICONTROL La suite de rapports dépasse actuellement sa capacité de création de rapports. Simplifiez la demande ou réessayez ultérieurement.] | Votre entreprise essaie d’exécuter trop de requêtes simultanées sur une suite de rapports spécifique. Les facteurs à l’origine de cette erreur sont les demandes d’API, les projets planifiés, les rapports planifiés, les alertes planifiées et les utilisateurs qui effectuent simultanément des demandes de création de rapports. | Diffusez vos requêtes et plannings pour la suite de rapports de manière plus uniforme tout au long de la journée. |
 | [!UICONTROL Une erreur système s’est produite. Veuillez soumettre un ticket à l’Assistance clientèle sous Aide > Envoyer le ticket d’assistance en incluant votre code d’erreur.] | Adobe rencontre un problème qui doit être résolu. | Envoyez le code d’erreur à l’Assistance clientèle. |
 | [!UICONTROL Une erreur inattendue s’est produite ; essayez de réactualiser votre projet. Si le problème persiste, envoyez cet identifiant d’erreur à l’Assistance clientèle d’Adobe pour obtenir un diagnostic plus précis.] | Adobe rencontre un problème qui doit être résolu. | Essayez d’actualiser votre projet et si le problème persiste, envoyez le code d’erreur à l’Assistance clientèle. |

@@ -3,10 +3,10 @@ title: Interface utilisateur du flux de données
 description: Découvrez comment naviguer dans l’interface de flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ Pour activer un flux de données :
 
 ## Suppression d’un flux de données
 
-Lorsque vous supprimez un flux de données, son état est défini sur [!UICONTROL Supprimé].
+Lorsque vous supprimez un flux de données, son état est défini sur [!UICONTROL Supprimé]. Les flux de données doivent avoir l’état Actif pour pouvoir être supprimés.
+
+Pour supprimer un flux de données :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Admin**] > [!UICONTROL **Flux de données**].
 
