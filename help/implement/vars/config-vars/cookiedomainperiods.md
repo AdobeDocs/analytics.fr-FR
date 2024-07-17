@@ -4,13 +4,12 @@ description: (Obsolète) Permet à l’AppMeasurement de déterminer où stocker
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
+source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
 
 ---
-
 
 # cookieDomainPeriods
 
@@ -33,7 +32,7 @@ La variable `cookieDomainPeriods` a aidé l’AppMeasurement à déterminer où 
 >
 >Ne prenez pas en compte les sous-domaines pour cette variable. Par exemple, ne définissez pas `cookieDomainPeriods` l’URL `store.toys.example.com`. AppMeasurement reconnaît que les cookies sont stockés sur `example.com`, même sur les URL comportant de nombreux sous-domaines.
 
-Pour les mises en oeuvre sur AppMeasurement v2.26.x ou version ultérieure, la variable [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) est utilisé pour aider à déterminer automatiquement le domaine de cookie correct. La bibliothèque tente d’écrire un cookie comprenant deux points de domaine. Si la définition de ce cookie échoue, il effectue une nouvelle tentative, y compris d’autres points de domaine jusqu’à ce qu’il réussisse. Une fois défini, ce cookie est immédiatement supprimé.
+Pour les mises en oeuvre sur AppMeasurement v2.26.x ou version ultérieure, le cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) est utilisé pour aider à déterminer automatiquement le domaine de cookie correct. La bibliothèque tente d’écrire un cookie comprenant deux points de domaine. Si la définition de ce cookie échoue, il effectue une nouvelle tentative, y compris d’autres points de domaine jusqu’à ce qu’il réussisse. Une fois défini, ce cookie est immédiatement supprimé.
 
 ## Cookie des périodes de domaine à l’aide du SDK Web
 
@@ -41,18 +40,18 @@ Le SDK Web détermine automatiquement le domaine correct pour définir les cooki
 
 ## Cookie des périodes de domaine à l’aide de l’extension Adobe Analytics
 
-**[!UICONTROL Nombre de points du domaine]** est un champ situé sous la propriété [!UICONTROL Cookies] en accordéon lors de la configuration de l’extension Adobe Analytics.
+**[!UICONTROL Points de domaine]** est un champ sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Cookies], qui affiche le champ [!UICONTROL Points de domaine].
 
-Définissez ce champ sur `3` uniquement sur les domaines de niveau supérieur contenant un point. Sinon, ce champ peut être laissé vide.
+Définissez ce champ sur `3` uniquement sur les domaines de niveau supérieur qui contiennent un point. Sinon, ce champ peut être laissé vide.
 
 ## Périodes de domaine de cookie dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `cookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement sur les domaines de niveau supérieur contenant un point. Sa valeur par défaut est `"2"`, qui prend en charge la plupart des domaines de niveau supérieur tels que `.com` et `.org`.
+La variable `cookieDomainPeriods` est une chaîne généralement définie sur `"3"`, uniquement sur les domaines de niveau supérieur qui contiennent un point. Sa valeur par défaut est `"2"`, ce qui prend en charge la plupart des domaines de niveau supérieur tels que `.com` et `.org`.
 
 ```js
 // Manually set cookieDomainPeriods for domains with a period in the top-level domain, such as www.example.co.uk

@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
 workflow-type: tm+mt
 source-wordcount: '2528'
 ht-degree: 98%
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés par Adobe Analytics.
 
-* **Activity Map :** module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Voir [Activity Map](/help/analyze/activity-map/activity-map.md) dans le guide d’utilisation Analyser.
+* **Activity Map :** module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Voir [Activity Map](/help/analyze/activity-map/overview.md) dans le guide d’utilisation Analyser.
 * **Admin Console :** peut faire référence :
    * Aux outils d’administration hérités dans lesquels les paramètres des suites de rapports sont gérés dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient aussi gérées ici. Voir [Outils d’administration](/help/admin/admin/c-admin-tools.md) dans le guide d’utilisation destiné à l’administrateur.
    * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
@@ -34,7 +34,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
    * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Classification :** une fonctionnalité d’Adobe Analytics qui permet le regroupement d’éléments de dimension. Voir [Classifications](/help/components/classifications/c-classifications.md) dans le guide d’utilisation des composants.
-* **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur du Activity Map.
+* **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré en faveur de l&#39;Activity Map.
 * **Flux de données de parcours de navigation :** voir flux de données.
 * **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide d’utilisation Analyser.
 * **Serveur de collecte :** voir Serveur de collecte de données.
@@ -46,7 +46,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
 * **Délégué du service clientèle :** utilisateur désigné autorisé à interagir directement avec le service clientèle d’Adobe. Voir [Délégués du service clientèle](https://helpx.adobe.com/fr/experience-cloud/supported-users.html) dans la base de connaissances d’Experience Cloud.
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
-* **Connecteurs de données :** Solution de développement abandonnée qui permet à un tiers d’automatiser le chargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. Remplacé par Adobe Exchange Marketplace.
+* **Connecteurs de données :** Une solution de développement abandonnée qui permet à un tiers d’automatiser le chargement de données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. Remplacé par Adobe Exchange Marketplace.
 * **Flux de données :** exportation de données brutes qui répertorie chaque accès et variable sous forme de lignes et de colonnes distinctes. Elle est le plus souvent utilisée pour exporter des données Adobe Analytics vers une base de données tierce. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation.
 * **Sources de données :** permet à un utilisateur de télécharger les données d’un fichier dans Adobe Analytics. Le fichier est généralement extrait d’un site FTP. Voir [Data Connectors](/help/import/data-sources/overview.md) dans le guide d’utilisation de l’importation.
 * **Data Warehouse :** fonction d’Adobe Analytics permettant de demander des rapports plus volumineux. Voir [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) dans le guide d’utilisation de l’exportation.

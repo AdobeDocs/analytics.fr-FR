@@ -3,10 +3,10 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Voici une vidéo qui compare divers outils Adobe Analytics :
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** devrait être l’interface utilisateur de référence pour tous vos besoins en matière de création de rapports et d’analyse. Adobe continue d’investir dans ce produit et publie des mises à jour mensuelles. S’il y a une tâche que vous ne pouvez pas faire dans Analysis Workspace, considérez les autres interfaces ci-dessous.**
 
-**[Tableaux de bord Adobe Analytics](/help/analyze/mobile-app/home.md)** permet aux utilisateurs mobiles d’accéder à des Fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
+Les **[tableaux de bord Adobe Analytics](/help/analyze/mobile-app/home.md)** permettent aux utilisateurs et utilisatrices mobiles d’accéder à des fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
 
-**[Report Builder](/help/analyze/report-builder/home.md)** est un module complémentaire pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
+**[Report Builder](/help/analyze/report-builder/home.md)** est un complément pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** est une fonctionnalité d’Adobe Analytics qui fournit une représentation visuelle de l’engagement des utilisateurs sur les pages web et les applications mobiles. Il permet aux spécialistes du marketing et aux analystes de suivre et d’analyser les interactions utilisateur, telles que les clics, les survols et le comportement de défilement.
+**[Activity Map](/help/analyze/activity-map/overview.md)** est une fonctionnalité d’Adobe Analytics qui fournit une représentation visuelle de l’engagement des utilisateurs et utilisatrices sur les pages web et les applications mobiles. Il permet aux personnes spécialisées dans le marketing et dans l’analyse de suivre et d’analyser les interactions utilisateur, telles que les clics, les survols et le comportement de défilement.
 
 ## Importer des données dans Adobe Analytics {#import}
 
@@ -55,7 +55,7 @@ Les **[intégrations Adobe Exchange](https://www.adobeexchange.com/experienceclo
 
 L’**[API d’insertion de données](/help/import/c-data-insertion-api/c-data-insertion-api.md)** doit être utilisée :
 
-* Lorsque vous devez charger des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile. Nous vous recommandons d’utiliser l’API Bulk Data Insertion (voir ci-dessous).
+* Lorsque vous devez charger des données dans Adobe Analytics et que vous ne pouvez pas utiliser le code Adobe AppMeasurement ou SDK mobile. Nous vous recommandons d’utiliser l’API Bulk Data Insertion (voir ci-dessous).
 
 API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
@@ -76,8 +76,8 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 **[Report Builder](/help/analyze/report-builder/home.md)** doit être utilisé :
 
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
-* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. La solution plus permanente pour lier des données est la fonctionnalité Sources de données (voir Importation de données dans Analytics).
-* Pour fusionner des données depuis différents rapports dimensionnels (par exemple un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
+* Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Import de données dans Analytics).
+* Pour fusionner des données depuis différents rapports dimensionnels (par exemple, un rapport d’impressions promo joint à un rapport clic jusqu’à la conversion promo).
 * Pour fusionner les données provenant de différentes suites de rapports, soit en les additionnant, soit en les affichant côte à côte dans le même tableau.
 * Si l’automatisation par l’intermédiaire de la planification est souhaitée (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 

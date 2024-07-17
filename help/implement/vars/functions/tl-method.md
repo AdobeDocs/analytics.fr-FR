@@ -4,10 +4,10 @@ description: Permet d’envoyer un appel de suivi de lien à Adobe.
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 76%
+source-wordcount: '865'
+ht-degree: 62%
 
 ---
 
@@ -19,12 +19,12 @@ Si [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) ou [`trackExtern
 
 ## Suivi des liens à l’aide du SDK Web
 
-Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; tous deux utilisent la variable `sendEvent` .
+Le SDK Web ne fait pas la distinction entre les appels de pages vues et les appels de suivi de liens ; tous deux utilisent la commande `sendEvent` .
 
 Si vous utilisez un objet XDM et souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que vos données XDM comprennent :
 
 * Nom du lien : mappé sur `xdm.web.webInteraction.name`.
-* URL du lien : mappée sur `xdm.web.webInteraction.URL`.
+* URL du lien : mappée à `xdm.web.webInteraction.URL`.
 * Type de lien : mappé sur `xdm.web.webInteraction.type`. Les valeurs valides sont les suivantes : `other` (Liens personnalisés), `download` (Liens de téléchargement) et `exit` (Liens de sortie).
 
 ```js
@@ -44,7 +44,7 @@ alloy("sendEvent", {
 Si vous utilisez un objet de données et souhaitez qu’Adobe Analytics comptabilise un événement donné comme un appel de suivi des liens, assurez-vous que votre objet de données comprend :
 
 * Nom du lien : mappé sur `data.__adobe.analytics.linkName`.
-* URL du lien : mappée sur `data.__adobe.analytics.linkURL`.
+* URL du lien : mappée à `data.__adobe.analytics.linkURL`.
 * Type de lien : mappé sur `data.__adobe.analytics.linkType`. Les valeurs valides sont les suivantes : `o` (Liens personnalisés), `d` (Liens de téléchargement) et `e` (Liens de sortie).
 
 ```js
@@ -68,8 +68,8 @@ L’extension Adobe Analytics dispose d’un emplacement dédié pour définir u
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une action.
-1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL Adobe Analytics]**, et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer la balise]**.
+1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **&#39;+&#39;** pour ajouter une action.
+1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Adobe Analytics]** et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer la balise]**.
 1. Cochez la case `s.tl()`.
 
 Vous ne pouvez pas définir d’arguments facultatifs dans l’extension Analytics.
@@ -156,7 +156,7 @@ s.tl(true,"o","Example link");
 
 ### Effectuez des appels de suivi de lien dans une fonction personnalisée
 
-Vous pouvez regrouper le code de suivi des liens dans une fonction JavaScript autonome définie sur la page ou dans un fichier JavaScript lié. Vous pouvez alors effectuer des appels dans la fonction onClick de chaque lien. Définissez les éléments suivants dans un fichier JavaScript :
+Vous pouvez consolider le code de suivi des liens dans une fonction JavaScript autonome. Des appels peuvent ensuite être effectués dans la fonction `onClick` de chaque lien. Définissez les éléments suivants dans un fichier JavaScript :
 
 ```JavaScript
 function trackClickInteraction(name){
@@ -173,6 +173,9 @@ Vous pouvez ensuite appeler la fonction lorsque vous souhaitez effectuer le suiv
 <!-- Use wherever you want to track links -->
 <a href="example.html" onClick="trackClickInteraction('Example link');">Click here</a>
 ```
+
+>[!NOTE]
+>L’appel indirect de la méthode `tl()` peut rendre la création de rapports de superposition Activity Map moins pratique. Vous devez cliquer sur chaque lien pour enregistrer la fonction avec l’élément de lien. Toutefois, les dimensions Activity Map dans Workspace sont suivies de la même manière.
 
 ### Éviter le suivi des liens en double
 
@@ -195,4 +198,25 @@ function linkCode(obj) {
     s.tl(obj,"d","Example PDF download");
   }
 }
+```
+
+### Utilisation de la méthode `tl()` avec Activity Map
+
+Vous pouvez utiliser la méthode `tl()` pour effectuer le suivi des éléments personnalisés et configurer le rendu des superpositions pour le contenu dynamique. Le paramètre `linkName` est également utilisé pour définir la dimension [Lien Activity Map](/help/components/dimensions/activity-map-link.md).
+
+Lorsque la méthode `tl()` est appelée directement à partir de l’événement &quot;onclick&quot; de l’élément HTML, l’Activity Map peut afficher une superposition pour cet élément lorsque la page web est chargée. Par exemple :
+
+```html
+<a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
+```
+
+Lorsque la méthode `tl()` n’est pas appelée directement à partir de l’événement &quot;onclick&quot; de l’élément HTML, l’Activity Map ne peut afficher qu’une superposition après avoir cliqué sur l’élément. Par exemple :
+
+```html
+<a href="index.html" onclick="someFn(event);">Example link text</a>
+<script>
+  function someFn (event) {
+    s.tl(event.srcElement,'o','Example custom link');
+  }
+</script>
 ```

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
 user-guide-description: Configurez les intégrations à d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager et Advertising Cloud.
-source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 96%
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Audience Analytics - Aperçu](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
       + [Workflow - Aperçu](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Guide de création d’une destination Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
+      + [Créer une destination Analytics - Guide de gestion d’une audience Adobe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
       + [Utilisation des données d’audience dans Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Cas d’utilisation d’Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Questions fréquentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -43,5 +43,4 @@ ht-degree: 96%
 + [Compte rendu des performances Adobe Campaign dans Adobe Analytics](adobe-campaign.md)
 + [Intégration des données Adobe Analytics à Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Compte rendu des performances d’AEM Assets](aem-assets-reporting.md)
-+ [Compte rendu des performances d’Activity Map](activitmap-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)
