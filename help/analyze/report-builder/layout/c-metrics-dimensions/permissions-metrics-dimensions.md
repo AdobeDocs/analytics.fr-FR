@@ -20,7 +20,7 @@ En tant qu’utilisateur non administrateur, vous avez peut-être créé antéri
 
 Par exemple, si vous actualisez une requête qui inclut des dimensions ou des mesures auxquelles vous n’avez pas accès, vous obtenez une erreur d’autorisation limitée (Restricted Permission Error). Le message d’erreur indique qu’une demande n’est pas disponible pour votre compte utilisateur en raison des autorisations d’administration.
 
-![Capture d’écran montrant le message d’erreur d’autorisation limitée (Restricted Permission Error).](assets/arb_restrc_perm.png)
+![Capture d&#39;écran montrant le message d&#39;erreur d&#39;autorisation limitée (Restricted Permission Error).](assets/arb_restrc_perm.png)
 
 Suivez ces instructions pour **chaque** classeur du Report Builder que vous conservez :
 

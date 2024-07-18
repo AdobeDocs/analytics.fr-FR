@@ -19,11 +19,11 @@ Vous pouvez préciser une période en sélectionnant, dans une feuille de calcul
 **Pour configurer les dates à partir d’une cellule**
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez **[!UICONTROL Dates à partir d’une cellule]**.
-1. Saisie des références de cellule dans **[!UICONTROL De]** et **[!UICONTROL À]** ou cliquez sur le sélecteur et sélectionnez les cellules contenant les requêtes avec les dates de début et de fin.
+1. Entrez les références de cellule dans les champs **[!UICONTROL De]** et **[!UICONTROL À]** ou cliquez sur le sélecteur et sélectionnez les cellules contenant les requêtes avec les dates de début et de fin.
 
    Par exemple, créez une demande du Report Builder en définissant la période sur « hier » et générez la date de la demande dans la même cellule que « aujourd’hui()-1 ».
 
 Voici une liste des formats de date pris en charge :
 
-![Capture d’écran montrant les formats de date pris en charge.](assets/date-formats.png)
+![Capture d&#39;écran montrant les formats de date pris en charge.](assets/date-formats.png)
 

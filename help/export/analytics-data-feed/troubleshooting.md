@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Si votre flux de données ne fonctionne plus correctement ces derniers temps, al
    2. Recherchez le ou les flux de données de votre choix, puis cochez la case en regard de chacun des flux que vous souhaitez réexécuter.
    3. Cliquez sur **[!UICONTROL Réexécuter]**.
 
-   ![Réexécution](assets/rerun.png)
+  ![Réexécution](assets/rerun.png)
 
 Si vous ne recevez toujours pas les fichiers de flux de données après les avoir réexécutés, contactez l’assistance clientèle.
 

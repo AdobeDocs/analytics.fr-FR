@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 77%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
    | Nom de rapport | Affiche soit le nom du type de rapport sélectionné dans l’arborescence du formulaire Assistant Requête : Étape 1 (par exemple, [!DNL Traffic Report]) ou le nom saisi dans le champ [!DNL Name this Request]. |
    | Paramètres des filtres | Affiche les filtres des dimensions (un filtre de recherche, par exemple). |
    | Segment | Affiche le paramètre de segment. |
-   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes)  Voir la section [Options](/help/analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
+   | récence des données | Affiche les paramètres de récence des données. Par exemple :    Récence des données : Pages vues (il y a 1,5 heure), Sorties (il y a 30 minutes) Voir [Options](/help/analyze/report-builder/options.md) pour plus d’informations sur le traitement des données actives. |
 
    En ce qui concerne l’ordre d’affichage, si la grille [!UICONTROL Libellé de ligne] (Étape 2) contient un élément, il s’affiche en premier dans la requête. Dans le cas contraire, le système utilise le premier élément présent dans la grille [!UICONTROL Libellé de colonne]. S’il n’existe aucun élément de ligne ou de colonne, le premier élément de la grille [!UICONTROL Valeurs de mesure] est affiché.
 
@@ -41,8 +41,8 @@ Vous pouvez attribuer un nom à votre rapport et configurer le mode d’affichag
    >
    >Excel ne prend en charge qu’un seul filtre automatique par feuille de calcul. Si vous créez un filtre automatique dans une feuille de calcul qui en comporte déjà un, Excel ne vous avertit pas que le filtre existant va être remplacé.
 
-   **Effectuez un synopsis automatique :** Transforme la date renvoyée par Report Builder du mode Liste en mode Arborescence.
+   **Effectuer un synopsis automatique :** Transforme la date renvoyée par Report Builder du mode Liste en mode Arborescence.
 
-   **Donnez un nom à cette requête** : permet de saisir un nom personnalisé pour la requête ou d’utiliser le nom par défaut sélectionné à l’étape 1 de l’Assistant. Ce nom s’affiche comme nom de [!UICONTROL rapport] dans le [!UICONTROL Gestionnaire de requêtes]. Reportez-vous à la section [Nommer une requête](/help/analyze/report-builder/layout/name-a-request.md).
+   **Donnez un nom à cette requête** : permet de saisir un nom personnalisé pour la requête ou d’utiliser le nom par défaut sélectionné à l’étape 1 de l’Assistant. Ce nom s’affiche comme nom de [!UICONTROL rapport] dans le [!UICONTROL Gestionnaire de requêtes]. Voir [Nommer une requête](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Cliquez sur **[!UICONTROL OK]**.

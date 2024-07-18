@@ -6,7 +6,7 @@ exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Accéder à une suite de rapports :
 
 >[!NOTE]
 >
->Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à [Documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
+>Les suites de rapports virtuelles sont gérées via **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**. Reportez-vous à la [documentation sur les suites de rapports virtuelles](/help/components/vrs/vrs-about.md).
 
 ## Descriptions du Gestionnaire de suites de rapports {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -66,7 +66,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cumuls</span> </td> 
-   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Reportez-vous à la section  <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md"> Suites de rapports de cumul</a>. </p> </td> 
+   <td colname="col2"> <p>Un cumul est une suite de rapports unique qui combine les données de suivi de plusieurs autres suites. </p> <p>Voir <a href="/help/admin/admin/c-manage-report-suites/rollup-report-suite.md">Suites de rapports de cumul</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 

@@ -13,8 +13,8 @@ ht-degree: 47%
 
 # API d’insertion de données
 
-[API d’insertion de données](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) et [API Bulk Data Insertion](../bulk-data-insertion-api/bulk-data-insert.md) sont deux méthodes permettant d’envoyer des données de collecte côté serveur à Adobe Analytics. Les appels de l’API d’insertion de données sont effectués un événement à la fois. L’API Bulk Data Insertion accepte des fichiers au format CSV contenant des données d’événement, un événement par ligne.
+[API d’insertion de données](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) et [API d’insertion de données en bloc](../bulk-data-insertion-api/bulk-data-insert.md) sont deux méthodes pour envoyer des données de collecte côté serveur à Adobe Analytics. Les appels de l’API d’insertion de données sont effectués un événement à la fois. L’API Bulk Data Insertion accepte des fichiers au format CSV contenant des données d’événement, un événement par ligne.
 
-Voir [Documentation destinée aux développeurs pour l’API Bulk Data Insert](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) pour plus d’informations.
+Pour plus d’informations, consultez la [documentation destinée aux développeurs sur l’API Bulk Data Insert](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) .
 
 Si vous travaillez sur une nouvelle implémentation de la collecte côté serveur, nous vous recommandons d’utiliser l’API d’insertion de données en bloc.

@@ -23,7 +23,7 @@ Voici des instructions pour vous aider à trouver les ID de votre compte Google 
 >- Compte MCC (My Client Center) et
 >- Compte standard.
 >
->Pour cette intégration avec Adobe Analytics, **vous devez utiliser une connexion à un compte standard.**, et non une connexion au compte MCC. Cela tient au fait que les comptes MCC fonctionnent comme un compte « parapluie » qui peut accéder à de nombreux comptes AdWords grâce à une seule connexion, alors qu’un compte standard ne peut accéder qu’à un seul compte AdWords par connexion. Google prend en charge la liaison d’une adresse e-mail pour la gestion de 5 comptes, mais Advertising Analytics ne prend pas encore en charge cette fonctionnalité. Une adresse e-mail ne peut être liée qu’à un seul compte Adwords.
+>Pour cette intégration avec Adobe Analytics, **vous devez utiliser une connexion au compte standard**, et non une connexion au compte MCC. Cela tient au fait que les comptes MCC fonctionnent comme un compte « parapluie » qui peut accéder à de nombreux comptes AdWords grâce à une seule connexion, alors qu’un compte standard ne peut accéder qu’à un seul compte AdWords par connexion. Google prend en charge la liaison d’une adresse e-mail pour la gestion de 5 comptes, mais Advertising Analytics ne prend pas encore en charge cette fonctionnalité. Une adresse e-mail ne peut être liée qu’à un seul compte Adwords.
 
 Cliquez sur l’icône Compte en haut à droite pour afficher le numéro de compte AdWords (ID de client).
 

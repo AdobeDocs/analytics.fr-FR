@@ -5,7 +5,7 @@ feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1105'
 ht-degree: 95%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 95%
 
 Le Créateur de segments vous permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
 
-L’astérisque est le seul caractère générique pris en charge : &#42;. Si vous devez rechercher &#42;, vous pouvez l’échapper par une barre oblique inverse.
+L’astérisque : &#42; est le seul caractère générique pris en charge. Si vous devez rechercher &#42;, vous pouvez l’échapper avec une barre oblique inverse.
 
-**Exemple** : supposons que vous ayez une page nommée « Mon super produit ». La règle de segment &quot;Le nom de page correspond à Mon&#42;product&quot; correspond au nom de page ci-dessus. Cependant, la règle &quot;Le nom de page correspond à Mon\&quot;&#42;product&quot; correspond uniquement au nom de la page &quot;Mon&#42;Produit&quot;.
+**Exemple** : supposons que vous ayez une page nommée « Mon super produit ». La règle de segment &quot;Le nom de page correspond à Mon&#42;produit&quot; correspondra au nom de page ci-dessus. Cependant, la règle &quot;Le nom de page correspond à Mon\\&#42;produit&quot; correspond uniquement au nom de page &quot;Mon&#42;produit&quot;.
 
 ## Opérateurs standard
 

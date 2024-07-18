@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '559'
 ht-degree: 66%
 
 ---
 
 # Code de suivi
 
-Le &quot;code de suivi&quot; [dimension](overview.md) répertorie les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à identifier les liens qui ont généré le plus de trafic vers votre site.
+La [dimension](overview.md) du &quot;code de suivi&quot; liste les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à identifier les liens qui ont généré le plus de trafic vers votre site.
 
 L’ajout de chaînes de requête de code de suivi est courant dans les emails, les publicités, les publications de médias sociaux et d’autres efforts marketing que votre entreprise utilise.
 
@@ -22,7 +22,7 @@ Cette dimension récupère les données de la chaîne de requête [`v0`](/help/i
 
 ## Éléments de dimension
 
-Les éléments de dimension incluent les noms des codes de suivi sur votre site. Votre entreprise détermine les éléments de dimension spécifiques à utiliser. Voir [Suivi des campagnes](/help/implement/use-cases/campaign-tracking.md) pour plus d’informations.
+Les éléments de dimension incluent les noms des codes de suivi sur votre site. Votre entreprise détermine les éléments de dimension spécifiques à utiliser. Voir [Suivi de campagne](/help/implement/use-cases/campaign-tracking.md) pour plus d’informations.
 
 ## Comparaison de la dimension Code de suivi avec les canaux marketing qui collectent les codes de suivi
 

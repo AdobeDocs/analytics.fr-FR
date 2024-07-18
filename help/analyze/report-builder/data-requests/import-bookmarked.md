@@ -19,7 +19,7 @@ Lorsque vous sélectionnez un rapport mis en signet, l’Assistant Requête remp
 
 Voici la façon dont l’étape 1 de l’Assistant Requête présente un tableau de bord et ses mini-rapports :
 
-![Capture d’écran montrant l’Assistant Requête : Étape 1 sur 2 : mise en surbrillance Récupérer vos tableaux de bord et Récupérer vos signets.](assets/import_dashboard_reportlet.png)
+![Capture d&#39;écran montrant l&#39;Assistant Requête : Étape 1 de 2 : récupération des tableaux de bord et récupération des signets.](assets/import_dashboard_reportlet.png)
 
 Lorsque vous cliquez sur **[!UICONTROL Récupérer vos tableaux de bord]** ou **[!UICONTROL Récupérer vos signets]**, les données des tableaux de bord et signets existants sont récupérées et collées dans la feuille de calcul.
 

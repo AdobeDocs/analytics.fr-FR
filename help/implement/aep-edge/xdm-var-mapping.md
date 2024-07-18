@@ -13,13 +13,13 @@ ht-degree: 56%
 
 # Mappage des variables d’objet XDM vers Adobe Analytics
 
-Le tableau suivant présente les variables XDM que l’Edge Network Adobe Experience Platform mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans la variable **[!UICONTROL Modèle ExperienceEvent Adobe Analytics]** groupe de champs. L’utilisation de ces champs est recommandée si vous envisagez d’envoyer des données à Adobe Analytics et à Adobe Experience Platform.
+Le tableau suivant présente les variables XDM que l’Edge Network Adobe Experience Platform mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans le groupe de champs **[!UICONTROL Modèle Adobe Analytics ExperienceEvent]**. L’utilisation de ces champs est recommandée si vous envisagez d’envoyer des données à Adobe Analytics et à Adobe Experience Platform.
 
-Si votre entreprise prévoit de passer à Customer Journey Analytics, Adobe recommande plutôt d’utiliser la variable `data` pour envoyer des données directement à Adobe Analytics sans se conformer à un schéma. Cette stratégie permet à votre entreprise d’utiliser votre propre schéma au lieu d’utiliser la variable [!UICONTROL Modèle ExperienceEvent Adobe Analytics] (qui est moins applicable au Customer Journey Analytics). Voir [Mappage des variables d’objet de données vers Adobe Analytics](data-var-mapping.md) pour un tableau de mappage similaire.
+Si votre entreprise prévoit de passer à Customer Journey Analytics, Adobe recommande d’utiliser l’objet `data` pour envoyer directement des données à Adobe Analytics sans se conformer à un schéma. Cette stratégie permet à votre entreprise d’utiliser votre propre schéma, au lieu d’utiliser le [!UICONTROL modèle Adobe Analytics ExperienceEvent] (qui est moins applicable à Customer Journey Analytics). Voir [Mappage des variables d’objet de données vers Adobe Analytics](data-var-mapping.md) pour une table de mappage similaire.
 
 ## Priorités de valeur
 
-La plupart des champs d’objet XDM de ce tableau correspondent à une [Champ d’objet de données](data-var-mapping.md). Si vous définissez un champ d’objet XDM donné et son champ d’objet de données respectif, le champ d’objet de données est prioritaire. Si vous utilisez à la fois le champ d’objet XDM et le champ d’objet de données, Adobe recommande de définir des événements personnalisés à l’aide du champ d’objet de données. Si le champ `data.__adobe.analytics.events` est présent, il remplace tous les champs d’objet XDM liés aux événements commerciaux et personnalisés.
+La plupart des champs d’objet XDM de cette table correspondent à un [champ d’objet de données](data-var-mapping.md). Si vous définissez un champ d’objet XDM donné et son champ d’objet de données respectif, le champ d’objet de données est prioritaire. Si vous utilisez à la fois le champ d’objet XDM et le champ d’objet de données, Adobe recommande de définir des événements personnalisés à l’aide du champ d’objet de données. Si le champ `data.__adobe.analytics.events` est présent, il remplace tous les champs d’objet XDM liés aux événements de commerce et personnalisés.
 
 ## Mappage des champs d’objet XDM
 
@@ -79,43 +79,43 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Incrémente la mesure correspondante des [événements personnalisés](../../components/metrics/custom-events.md) par la quantité désirée. Chaque événement réside dans son parent de groupe 100. Par exemple, le champ pour `event567` est `xdm._experience.analytics.event501to600.event567.value`. |
 | `xdm.identityMap.ECID[0].id` | L’[identifiant du service d’identités Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). |
 | `xdm.marketing.trackingCode` | Définit la dimension [Code de suivi](../../components/dimensions/tracking-code.md). |
-| `xdm.media.mediaTimed.completes.value` | Mesure de média en continu [Fin de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-complete). |
+| `xdm.media.mediaTimed.completes.value` | Mesure de média en continu [Contenu terminé](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-complete). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `c.a.media.view`, `c.a.media.timePlayed`, `c.a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | Mesure de média en continu [Données fédérées](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#federated-data). |
-| `xdm.media.mediaTimed.firstQuartiles.value` | Mesure de média en continu [Marqueur de progression de 25 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#twenty-five-progress-marker). |
+| `xdm.media.mediaTimed.federated.value` | Mesure de média en continu [données fédérées](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#federated-data). |
+| `xdm.media.mediaTimed.firstQuartiles.value` | La mesure de média en continu [Marqueur de progression de 25 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#twenty-five-progress-marker). |
 | `xdm.media.mediaTimed.mediaSegmentView.value` | Mesure de média en continu [Affichages de segments de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-segment-views). |
-| `xdm.media.mediaTimed.midpoints.value` | Mesure de média en continu [Marqueur de progression de 50 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#fifty-progress-marker). |
+| `xdm.media.mediaTimed.midpoints.value` | La mesure de média en continu [Marqueur de progression de 50 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#fifty-progress-marker). |
 | `xdm.media.mediaTimed.pauseTime.value` | Mesure de média en continu [Durée totale de pause](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#total-pause-duration). |
-| `xdm.media.mediaTimed.pauses.value` | Mesure de média en continu [Événements de mise en pause](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#pause-events). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | Dimension Média en continu [ID de ressource](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#asset-id). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | Dimension Média en continu [Nom de la vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#video-name). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | Dimension Média en continu [Émetteur](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#originator). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | Dimension Média en continu [Épisode](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#episode). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | Dimension Média en continu [Genre](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#genre). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Dimension Média en continu [Évaluation du contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-rating). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Dimension Média en continu [Saison](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#season). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | Dimension Média en continu [Identifiant de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-id). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | Dimension Média en continu [Afficher](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#show). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | Dimension Média en continu [Type de programme](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#show-type). |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | Dimension Média en continu [Durée de la vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#video-length). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Dimension Média en continu [ID de session multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-session-id). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | Dimension Média en continu [Canal de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-channel). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | Dimension Média en continu [Type de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-type). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | Dimension Média en continu [Réseau](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#network). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | Dimension Média en continu [Segment de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-segment). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | Dimension Média en continu [Nom du lecteur de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-player-name). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | Dimension Média en continu [Version du SDK](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#sdk-version). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | Dimension Média en continu [Type de flux multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-feed-type). |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | Dimension Média en continu [Format de diffusion](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#stream-format). |
-| `xdm.media.mediaTimed.progress10.value` | Mesure de média en continu [Marqueur de progression de 10 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#ten-progress-marker). |
-| `xdm.media.mediaTimed.progress95.value` | Mesure de média en continu [Marqueur de progression de 95 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#ninety-five-progress-marker). |
-| `xdm.media.mediaTimed.resumes.value` | Mesure de média en continu [Le contenu reprend](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-resumes). |
-| `xdm.media.mediaTimed.starts.value` | Mesure de média en continu [Démarrages de média](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-starts). |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | Mesure de média en continu [Marqueur de progression de 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#seventy-five-progress-marker). |
+| `xdm.media.mediaTimed.pauses.value` | La mesure de média en continu [Événements de mise en pause](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#pause-events). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | La dimension de média en continu [ID de ressource](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#asset-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | La dimension de média en continu [Nom de la vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#video-name). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | La dimension de média en continu [Émetteur](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#originator). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | La dimension de média en continu [Épisode](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#episode). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | La dimension de média en continu [Genre](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#genre). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | Dimension de média en continu [Évaluation du contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-rating). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | Dimension de média en continu [Saison](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#season). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | La dimension de média en continu [ID de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-id). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | La dimension de média en continu [Afficher](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#show). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | La dimension de média en continu [Type de programme](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#show-type). |
+| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | La dimension de média en continu [Durée de la vidéo](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#video-length). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | Dimension multimédia en flux continu [ID de session multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-session-id). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | La dimension de média en continu [Canal de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-channel). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | La dimension de média en continu [Type de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | La dimension de média en continu [Réseau](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#network). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | La dimension de média en continu [Segment de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-segment). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | La dimension de média en continu [Nom du lecteur de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-player-name). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | La dimension de média en continu [SDK Version](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#sdk-version). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | La dimension de média en continu [Type de flux multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-feed-type). |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | La dimension de média en continu [Format de diffusion](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#stream-format). |
+| `xdm.media.mediaTimed.progress10.value` | La mesure de média en continu [Marqueur de progression de 10 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#ten-progress-marker). |
+| `xdm.media.mediaTimed.progress95.value` | La mesure de média en continu [Marqueur de progression de 95 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#ninety-five-progress-marker). |
+| `xdm.media.mediaTimed.resumes.value` | La mesure de média en continu [Reprises de contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-resumes). |
+| `xdm.media.mediaTimed.starts.value` | La mesure de média en continu [Démarrages de média](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-starts). |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | La mesure de média en continu [Marqueur de progression de 75 %](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#seventy-five-progress-marker). |
 | `xdm.media.mediaTimed.timePlayed.value` | Mesure de média en continu [Temps passé sur le contenu](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#content-time-spent). |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | Mesure de média en continu [Temps passé sur le média](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-time-spent). |
-| `xdm.placeContext.geo._schema.latitude` | Emplacement de latitude du visiteur. Aide à la définition [Emplacement du cycle de vie mobile](/help/components/dimensions/lifecycle-dimensions.md) dimensions. |
-| `xdm.placeContext.geo._schema.longitude` | Emplacement de longitude du visiteur. Aide à la définition [Emplacement du cycle de vie mobile](/help/components/dimensions/lifecycle-dimensions.md) dimensions. |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | La mesure de média en continu [Temps passé sur le média](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=fr#media-time-spent). |
+| `xdm.placeContext.geo._schema.latitude` | Emplacement de latitude du visiteur. Permet de définir les dimensions [Emplacement du cycle de vie mobile](/help/components/dimensions/lifecycle-dimensions.md). |
+| `xdm.placeContext.geo._schema.longitude` | Emplacement de longitude du visiteur. Permet de définir les dimensions [Emplacement du cycle de vie mobile](/help/components/dimensions/lifecycle-dimensions.md). |
 | `xdm.placeContext.geo.postalCode` | La dimension [Code postal](../../components/dimensions/zip-code.md). |
 | `xdm.placeContext.geo.stateProvince` | La dimension [États américains](../../components/dimensions/us-states.md). |
 | `xdm.placeContext.localTime` | Apparaît comme `t_time_info` dans [Flux de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
@@ -142,11 +142,11 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 
 ## Mappage d’autres champs XDM aux variables Analytics
 
-Si vous souhaitez ajouter des dimensions ou des mesures à Adobe Analytics, vous pouvez le faire via [Variables de données contextuelles](../vars/page-vars/contextdata.md).
+Si vous souhaitez ajouter des dimensions ou des mesures à Adobe Analytics, vous pouvez le faire par le biais de [variables de données contextuelles](../vars/page-vars/contextdata.md).
 
 ### Mappage implicite
 
-Tous les éléments de champ XDM qui ne sont pas automatiquement mappés sont envoyés à Adobe Analytics en tant que données contextuelles avec le préfixe . `a.x.` Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics souhaitée à l’aide de [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=fr). Par exemple, si vous définissez l’évènement suivant :
+Tous les éléments de champ XDM qui ne sont pas automatiquement mappés sont envoyés à Adobe Analytics en tant que données contextuelles avec le préfixe `a.x.`. Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics souhaitée à l’aide des [règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=fr). Par exemple, si vous définissez l’évènement suivant :
 
 ```js
 alloy("event",{
@@ -160,13 +160,13 @@ alloy("event",{
 })
 ```
 
-Le SDK Web envoie ces données à Adobe Analytics en tant que variable de données contextuelles `a.x._atag.search.term`. Vous pouvez ensuite utiliser une règle de traitement pour affecter cette valeur de variable de données contextuelles à la variable Analytics souhaitée, telle qu’une `eVar`:
+Le SDK Web envoie ces données à Adobe Analytics en tant que variable de données contextuelles `a.x._atag.search.term`. Vous pouvez ensuite utiliser une règle de traitement pour affecter cette valeur de variable de données contextuelles à la variable Analytics souhaitée, par exemple `eVar` :
 
 ![Règle de traitement des termes de recherche](assets/examplerule.png)
 
 ## Mappage explicite
 
-Vous pouvez également mapper explicitement des éléments de champ XDM en tant que données contextuelles. Tout élément de champ XDM explicitement mappé à l’aide de la variable `contextData` est envoyé à Adobe Analytics en tant que données contextuelles sans préfixe. Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics souhaitée à l’aide des [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=fr). Par exemple, si vous définissez l’évènement suivant :
+Vous pouvez également mapper explicitement des éléments de champ XDM en tant que données contextuelles. Tout élément de champ XDM explicitement mappé à l’aide de l’élément `contextData` est envoyé à Adobe Analytics en tant que données contextuelles sans préfixe. Vous pouvez ensuite mapper cette variable de données contextuelles à la variable Analytics souhaitée à l’aide des [Règles de traitement](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=fr). Par exemple, si vous définissez l’évènement suivant :
 
 ```js
 alloy("event",{
@@ -182,6 +182,6 @@ alloy("event",{
 })
 ```
 
-Le SDK Web envoie ces données à Adobe Analytics en tant que variable de données contextuelles. `somevalue` avec valeur `1`.  Vous pouvez ensuite utiliser une règle de traitement pour affecter cette valeur de variable de données contextuelles à la variable Analytics souhaitée, telle qu’une `eVar`:
+Le SDK Web envoie ces données à Adobe Analytics en tant que variable de données contextuelles `somevalue` avec la valeur `1`.  Vous pouvez ensuite utiliser une règle de traitement pour affecter cette valeur de variable de données contextuelles à la variable Analytics souhaitée, par exemple `eVar` :
 
 ![Règle de traitement des termes de recherche](assets/examplerule-explicit.png)

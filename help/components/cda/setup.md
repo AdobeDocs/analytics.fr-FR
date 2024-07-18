@@ -38,7 +38,7 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 
 1. Accédez à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) et connectez-vous à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur l’icône à neuf grilles en haut de l’écran, puis sur Analytics.
-3. Survol **[!UICONTROL Composants]** en haut, puis cliquez sur **[!UICONTROL Suites de rapports virtuelles]**.
+3. Passez la souris sur **[!UICONTROL Composants]** en haut de l’écran, puis cliquez sur **[!UICONTROL Suites de rapports virtuelles]**.
 4. Cliquez sur Ajouter.
 5. Saisissez le nom de votre suite de rapports virtuelle et assurez-vous que la suite de rapports compatible avec les analyses entre appareils est sélectionnée.
 6. (Facultatif) Appliquez un segment à la suite de rapports virtuelle. Par exemple, vous pouvez appliquer un segment qui limite la suite de rapports virtuelle aux dates suivant l’activation des analyses entre appareils et le début du regroupement. Ce segment permet aux utilisateurs de n’afficher que les plages de dates regroupées dans la suite de rapports virtuelle.

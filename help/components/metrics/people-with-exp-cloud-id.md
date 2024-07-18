@@ -5,8 +5,8 @@ feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Méthode de calcul de cette mesure
 
-Compte tenu de chaque [personne](people.md)[](overview.md) (identifiée ou non), cette mesure augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr)).
+En prenant en compte chaque [personne](people.md) (identifié ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr)).
 
 Vous pouvez créer la mesure calculée `[People with ECID] ÷ [People]` pour obtenir le pourcentage de visiteurs sur votre site à l’aide du service d’identification.
 

@@ -71,13 +71,13 @@ Tous les segments créés dans le Créateur de segments ne sont pas compatibles 
      <li>Hiérarchie (toutes les dimensions commençant avec la hiérarchie) </li> 
      <li>Profondeur d’accès </li> 
      <li>Type d’accès </li> 
-     <li>Heure   Jour </li> 
+     <li>Heure de la journée </li> 
      <li>Mois de l’année </li> 
      <li>Pages introuvables </li> 
-     <li>Recherche payante </li> 
+     <li>Référencement payant </li> 
      <li>Trimestre de l’année </li> 
      <li>Fréquence des retours </li> 
-     <li>Visites sur une seule page </li> 
+     <li>Visites de page unique </li> 
      <li>Durée avant événement </li> 
      <li>Durée de consultation de la page – Regroupement </li> 
      <li>Durée par visite – Regroupement </li> 

@@ -19,11 +19,11 @@ Par défaut, les variables dynamiques utilisent le préfixe `D=`. La variable `d
 
 ## Préfixe de variable dynamique à l’aide du SDK Web
 
-Le SDK Web n’utilise pas de formatage de variable dynamique. Vous pouvez plutôt utiliser le mappage de flux de données pour remplir plusieurs champs cibles à l’aide d’un seul champ source. Voir [Variables dynamiques à l’aide du SDK Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) pour plus d’informations.
+Le SDK Web n’utilise pas de formatage de variable dynamique. Vous pouvez plutôt utiliser le mappage de flux de données pour remplir plusieurs champs cibles à l’aide d’un seul champ Source. Pour plus d’informations, voir [Variables dynamiques à l’aide du SDK Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) .
 
 Si vous envoyez des données directement à Adobe Analytics sans respecter un schéma, la variable suivante est utilisée :
 
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.dynamicVariablePrefix`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.dynamicVariablePrefix`
 
 ## Préfixe de variable dynamique à l’aide de l’extension Adobe Analytics
 

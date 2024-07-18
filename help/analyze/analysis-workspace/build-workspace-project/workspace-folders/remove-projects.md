@@ -7,7 +7,7 @@ exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Vous pouvez déplacer des projets d’un dossier vers un autre que vous avez cr�
 
 ## Supprimer un projet d’un dossier de projet {#delete-project-in-folder}
 
-Lorsque vous supprimez un projet d’un dossier, il est purgé du système au bout de 180 jours. Au cours des 180 jours suivant la suppression, les utilisateurs peuvent toujours accéder à un projet supprimé via l’interface Web s’ils disposent d’une URL vers le projet.
+Lorsque vous supprimez un projet d’un dossier, il est purgé du système au bout de 180 jours. Au cours des 180 jours suivant la suppression, les utilisateurs et utilisatrices peuvent toujours accéder à un projet supprimé via l’interface web s’ils disposent d’une URL vers le projet.
 
 1. Dans un dossier de projet, sélectionnez les points de suspension **...** en regard du nom du projet.
 

@@ -1,31 +1,31 @@
 ---
-description: L’option FTP (SAINT) des classifications offre davantage de flexibilité quant au transfert de jeux de données de classification volumineux, notamment la capacité de transférer des données dans plusieurs suites de rapports et de transférer des jeux de données de plus de 50 000 lignes.
+description: L’option FTP (SAINT) des classifications offre davantage de flexibilité quant au chargement de jeux de données de classification volumineux, notamment la capacité de charger des données dans plusieurs suites de rapports et de charger des jeux de données de plus de 50 000 lignes.
 keywords: ftp;sftp
 title: Classifications
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
 # Classifications
 
-L’option FTP des classifications offre davantage de flexibilité quant au transfert de jeux de données de classification volumineux, notamment la capacité de transférer des données dans plusieurs suites de rapports et de transférer des jeux de données de plus de 50 000 lignes.
+L’option FTP des classifications offre davantage de flexibilité quant au chargement de jeux de données de classification volumineux, notamment la capacité de charger des données dans plusieurs suites de rapports et de charger des jeux de données de plus de 50 000 lignes.
 
 Voir les [classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=fr) pour savoir comment télécharger des données de classification par FTP et comment transférer des fichiers de données par FTP (y compris la procédure à suivre pour créer un compte FTP).
 
-Le temps requis par le système pour importer ces fichiers varie, selon un certain nombre de facteurs. Si, après plus de trois jours, un fichier transféré est présent sur le serveur FTP, demandez aux personnes habilitées à le faire de contacter lʼassistance clientèle dʼAdobe.
+Le temps requis par le système pour importer ces fichiers varie, selon un certain nombre de facteurs. Si, après plus de trois jours, un fichier chargé est présent sur le serveur FTP, demandez aux personnes habilitées à le faire de contacter lʼassistance clientèle dʼAdobe.
 
 Si l’importation est réussie, les modifications appropriées sont immédiatement répercutées dans une exportation, tandis qu’avec une importation de navigateur, il peut s’écouler jusqu’à quatre heures avant que les modifications de données dans Analytics ne soient répercutées et jusqu’à 24 heures avec une importation FTP.
 
-Pour en savoir plus sur les limites FTP et la conservation des données, voir  [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
+Pour plus d’informations sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
 
-## À propos du fichier `.fin` pour les transferts de classifications et de sources de données {#section_1484719F8A134EAE91212DBD8F15174F}
+## À propos du fichier `.fin` pour les chargements de classifications et de sources de données {#section_1484719F8A134EAE91212DBD8F15174F}
 
-Lorsque vous chargez un fichier de classification ou de source de données (`.tab` ou `.txt`), vous devez également transférer un fichier vide portant le même nom que le fichier de données importé, mais avec une extension `.fin`. Ce fichier `.fin` est un fichier de finition. Il indique au système que le fichier de données a été entièrement transféré sur le compte FTP. Ce fichier `.fin` permet à Adobe de reconnaître quand l’importation est terminée.
+Lorsque vous chargez un fichier de classification ou de Source de données (`.tab` ou `.txt`), vous devez également transférer un fichier vide portant le même nom que le fichier de données importé, mais avec un .Extension `.fin`. Ce fichier `.fin` est un fichier de finition. Il indique au système que le fichier de données a été entièrement chargé sur le compte FTP. Ce fichier `.fin` permet à Adobe de reconnaître quand l’importation est terminée.
 
 Après avoir envoyé le fichier source et le fichier `.fin`, il est important de se déconnecter du site FTP. En effet Adobe Analytics utilise les événements de déconnexion comme déclencheur pour indiquer que les fichiers sont prêts à être traités. Une fois lʼimportation terminée, Adobe supprime les deux fichiers de lʼemplacement FTP.
 

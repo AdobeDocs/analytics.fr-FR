@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 83%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 *Cette page d’aide décrit le fonctionnement des événements personnalisés en tant que mesure. Pour plus d’informations sur le fonctionnement des événements personnalisés en tant que variable d’implémentation, consultez [Présentation des événements](/help/implement/vars/page-vars/events/events-overview.md) dans le guide d’utilisation de la mise en œuvre.*
 
-Événement personnalisé [mesures](overview.md) indiquent le nombre d’accès pour lesquels un événement personnalisé donné a été défini dans une demande d’image. Ces mesures sont essentielles pour de nombreuses implémentations, car elles fournissent des informations sur les événements spécifiques à chaque organisation.
+L’événement personnalisé [metrics](overview.md) indique le nombre d’accès pour lequel un événement personnalisé donné a été défini dans une demande d’image. Ces mesures sont essentielles pour de nombreuses implémentations, car elles fournissent des informations sur les événements spécifiques à chaque organisation.
 
 ## Méthode de calcul de cette mesure
 

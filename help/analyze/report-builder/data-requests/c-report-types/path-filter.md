@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 63%
+source-wordcount: '426'
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ Cet exemple utilise Chemins > Section Site.
 1. Sélectionnez la suite de rapports appropriée.
 1. Dans l’arborescence de gauche, sélectionnez **[!UICONTROL Chemins]** > **[!UICONTROL Section Site]** > **[!UICONTROL Section Site - Tracés]**.
 
-   ![Capture d’écran montrant les chemins de section du site sélectionnés.](assets/site_section_path_1.png)
+   ![Capture d&#39;écran montrant les chemins de section du site sélectionnés.](assets/site_section_path_1.png)
 
 1. Indiquez la ou les dates appropriée(s).
 
@@ -29,11 +29,11 @@ Cet exemple utilise Chemins > Section Site.
 
 1. À l’étape 2 de l’Assistant, sous **[!UICONTROL Libellés de lignes]**, cliquez sur le lien **[!UICONTROL Premiers 1-10 (modèle appliqué)]**. Dans un rapport de cheminement, un modèle est appliqué par défaut.
 
-   ![Capture d’écran montrant le modèle de chemin par défaut.](assets/site_section_path_2.png)
+   ![Capture d&#39;écran montrant le modèle de chemin par défaut.](assets/site_section_path_2.png)
 
 1. Sélectionnez l’option **[!UICONTROL Filtrer]**.
 
-   ![Capture d’écran mettant en surbrillance l’option Filtrer.](assets/filter_option.png)
+   ![Capture d&#39;écran mettant en surbrillance l&#39;option Filtrer.](assets/filter_option.png)
 
 1. Dans la boîte de dialogue **[!UICONTROL Définir le schéma de tracé de « Chemins > Section Site »]**, vous pouvez indiquer
    * Classement de départ du premier rapport.
@@ -54,15 +54,15 @@ Cet exemple utilise Chemins > Section Site.
 
 Vous pouvez modifier un modèle prédéfini après avoir sélectionné un modèle.
 
-1. Dans la suite des étapes ci-dessus, sélectionnez le modèle. Par exemple, sélectionnez le **[!UICONTROL Modèle de site de sortie]** : 
+1. Dans la suite des étapes ci-dessus, sélectionnez le modèle. Par exemple, sélectionnez le **[!UICONTROL Modèle de site de sortie]** :
 
-   ![Capture d’écran mettant en surbrillance le modèle sélectionné.](assets/exited_site_pattern.png)
+   ![Capture d&#39;écran mettant en surbrillance le modèle sélectionné.](assets/exited_site_pattern.png)
 
 1. Définissez le chemin de la section du site que l’utilisateur suit avant de quitter. Cliquez sur **[!UICONTROL Éléments(s) particulier(s) : 0 sélectionné(s)]**. Vous pouvez définir ce chemin en effectuant une sélection à partir d’une plage de cellules si vous modifiez une requête existante ou en effectuant une sélection à partir d’une liste de sections.
 
 1. Pour effectuer une sélection depuis une plage de cellules d’une requête précédente, sélectionnez **[!UICONTROL À partir de la plage de cellules]** et cliquez sur l’icône de sélecteur de cellules. Puis, sélectionnez les cellules depuis le rapport.
 
-   ![Capture d’écran montrant les options de sélection Depuis une plage de cellules ou depuis une liste.](assets/choose_site_section_paths.png)
+   ![Capture d&#39;écran montrant les options à sélectionner Dans une plage de cellules ou dans une liste.](assets/choose_site_section_paths.png)
 
 1. Pour effectuer la sélection depuis une liste de sections de site, sélectionnez **[!UICONTROL À partir de la liste]** et cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -72,4 +72,4 @@ Vous pouvez modifier un modèle prédéfini après avoir sélectionné un modèl
 
 1. Pour enregistrer le modèle que vous venez de définir, cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Cliquez sur **[!UICONTROL OK]** trois fois, puis cliquez sur **[!UICONTROL Terminer]** pour générer le chemin filtré.
+1. Cliquez trois fois sur **[!UICONTROL OK]** , puis sur **[!UICONTROL Terminer]** pour générer le chemin filtré.

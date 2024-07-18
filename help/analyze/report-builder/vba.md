@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Vous devez exécuter la dernière version de Report Builder et vous connecter av
 >
 >Pour des raisons de sécurité, vous ne pouvez pas planifier un classeur qui contient une macro.
 
-Adobe est compatible avec trois méthodes de l’API Report Builder.
+Adobe prend en charge trois méthodes d’API de Report Builder.
 
 ## `RefreshAllReportBuilderRequests()`
 

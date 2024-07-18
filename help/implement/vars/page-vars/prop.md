@@ -27,8 +27,8 @@ Si vous disposez d’un [document de conception de solution](/help/implement/pre
 
 Les props sont mappées aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - les propriétés de liste sont spécifiées dans un [ensemble distinct de champs](#list-props-web-sdk).
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`; ou `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - les propriétés de liste sont incluses dans ces champs.
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` - Les props de liste sont spécifiées dans un [ensemble distinct de champs](#list-props-web-sdk).
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` ; ou `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` - Les props de liste sont incluses dans ces champs.
 
 ## Props utilisant l’extension Adobe Analytics
 
@@ -38,7 +38,7 @@ Vous pouvez définir des props lors de la configuration de l’extension Analyti
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Props].
 
 Vous pouvez définir une prop sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.
@@ -65,9 +65,9 @@ Activez les props de liste dans [Variables de trafic](/help/admin/admin/c-manage
 
 ### Définir des props de liste à l’aide du SDK Web {#list-props-web-sdk}
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les props de liste sont mappées sur `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Le SDK Web utilise automatiquement le délimiteur correct répertorié sous les paramètres de la suite de rapports. Si vous définissez le délimiteur dans le champ XDM (par exemple, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), cela remplace le délimiteur automatiquement récupéré à partir des paramètres de la suite de rapports et peut entraîner une analyse incorrecte de la chaîne de props de liste.
+Si vous utilisez l’ [**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les props de liste sont mappées à `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Le SDK Web utilise automatiquement le délimiteur correct répertorié sous les paramètres de la suite de rapports. Si vous définissez le délimiteur dans le champ XDM (par exemple, `xdm._experience.analytics.customDimensions.props.prop1.delimiter`), cela remplace le délimiteur automatiquement récupéré à partir des paramètres de la suite de rapports et peut entraîner une analyse incorrecte de la chaîne de props de liste.
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les props de liste utilisent les mêmes champs que les props standard et suivent la syntaxe de l’AppMeasurement.
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les props de liste utilisent les mêmes champs que les props standard et suivent la syntaxe de l’AppMeasurement.
 
 ### Définir des props de liste à l’aide de l’extension Adobe Analytics et d’AppMeasurement
 

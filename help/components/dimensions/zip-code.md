@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # Code postal
 
-Le &quot;Code postal&quot; [dimension](overview.md) indique le code postal du visiteur. Vous pouvez utiliser cette dimension pour mieux comprendre les résultats positifs de la publicité locale ou déterminer les régions du monde dans lesquelles votre site est plus performant.
+L’ [dimension](overview.md) du &quot;code postal&quot; indique le code postal du visiteur. Vous pouvez utiliser cette dimension pour mieux comprendre les résultats positifs de la publicité locale ou déterminer les régions du monde dans lesquelles votre site est plus performant.
 
 ## Renseignement de cette dimension avec des données
 
@@ -26,7 +26,7 @@ L’[!UICONTROL option de code postal] sous [Paramètres généraux du compte](/
 Si vous choisissez d’utiliser une option impliquant un fichier zip géographique :
 
 * Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
-* Pour les implémentations du SDK Web, activez [!UICONTROL Recherche géographique] when [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
+* Pour les implémentations de SDK Web, activez [!UICONTROL Recherche géographique] lors de la [configuration d’une banque de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 

@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Mot-clé de recherche
 
-Le mot-clé de recherche [dimension](overview.md) indique les mots-clés de recherche que les visiteurs utilisent pour accéder à votre site.
+Le [mot-clé de recherche](overview.md) indique les mots-clés de recherche que les visiteurs utilisent pour accéder à votre site.
 
 >[!IMPORTANT]
 >

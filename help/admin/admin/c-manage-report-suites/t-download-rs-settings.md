@@ -6,13 +6,13 @@ exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 33%
+ht-degree: 100%
 
 ---
 
 # Télécharger les paramètres d’une suite de rapports
 
-Pour générer un fichier délimité par des tabulations contenant tous les paramètres de la suite de rapports sélectionnée :
+Pour générer un fichier délimité par des tabulations contenant tous les paramètres de la suite de rapports sélectionnée, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
@@ -22,8 +22,8 @@ Pour générer un fichier délimité par des tabulations contenant tous les para
 
    Un fichier nommé `Report Suite Data.tab` est téléchargé sur votre ordinateur local.
 
-Vous pouvez ouvrir le fichier dans n’importe quel éditeur de texte capable de gérer les fichiers délimités par des tabulations.
+Vous pouvez ouvrir le fichier dans n’importe quel éditeur de texte capable de traiter des fichiers délimités par des tabulations.
 
 >[!NOTE]
 >
->   Si vous souhaitez ouvrir correctement le fichier dans un tableur tel qu’Excel, vous devez modifier le fichier avant de le faire. La première ligne ne contient pas de valeur pour la première colonne, ce qui empêche l’importation correcte du fichier dans des programmes tels qu’Excel.
+>   Si vous souhaitez ouvrir correctement le fichier dans un tableur tel qu’Excel, vous devez modifier le fichier au préalable. La première ligne n’a pas de valeur pour la première colonne, ce qui empêche l’import correct du fichier dans des programmes tels qu’Excel.

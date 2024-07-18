@@ -16,7 +16,7 @@ ht-degree: 97%
 
 La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Hiérarchies de classification]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Hiérarchies de classification]**
 
 ## Hiérarchies de classification {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

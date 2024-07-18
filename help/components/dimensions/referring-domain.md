@@ -12,7 +12,7 @@ ht-degree: 97%
 
 # Domaine référent
 
-Le &quot;domaine référent&quot; [dimension](overview.md) indique les domaines sur lesquels les visiteurs cliquent pour accéder à votre site. Cette dimension est utile pour identifier les sites tiers qui génèrent le plus de trafic sur le vôtre. Un lien doit exister sur le site externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
+La [dimension](overview.md) du &quot;domaine référent&quot; indique les domaines sur lesquels les visiteurs cliquent pour accéder à votre site. Cette dimension est utile pour identifier les sites tiers qui génèrent le plus de trafic sur le vôtre. Un lien doit exister sur le site externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
 
 >[!IMPORTANT]
 >

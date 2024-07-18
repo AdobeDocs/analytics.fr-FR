@@ -21,7 +21,7 @@ Les filtres dans Analysis Workspace vous aident à afficher les informations le
 
 >[!NOTE]
 >
-> Seuls les éléments de dimension dynamiques peuvent être filtrés comme décrit dans cette section. Les éléments de dimension statiques ne peuvent pas être filtrés. Pour plus d’informations, voir [Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> Seuls les éléments de dimension dynamiques peuvent être filtrés comme décrit dans cette section. Les éléments de dimension statiques ne peuvent pas être filtrés. Pour plus d’informations, voir [Éléments de dimension dynamiques ou statiques dans les tables à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 ## Filtrage des lignes de tableau à structure libre
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser plusieurs méthodes pour filtrer les lignes d’un tableau 
 - Filtres de tableau
 - Segmentation
 
-Veillez à lire l’impact de chaque méthode [Totaux des tableaux à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+Veillez à lire comment chaque méthode affecte les [totaux de table à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### Exclusion rapide de lignes spécifiques d’un tableau
 
@@ -39,7 +39,7 @@ Vous pouvez exclure rapidement des lignes spécifiques du tableau sans avoir à 
 
 >[!NOTE]
 >
->Lorsque vous excluez des lignes comme décrit dans cette section, une [!UICONTROL **Toujours exclure les éléments**] est automatiquement appliquée dans la boîte de dialogue de filtrage avancé. (Vous pouvez afficher la règle appliquée en cliquant sur l’icône Filtrer , puis [**[!UICONTROL Afficher les paramètres avancés]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>Lorsque vous excluez des lignes comme décrit dans cette section, une règle [!UICONTROL **Toujours exclure les éléments**] est automatiquement appliquée dans la boîte de dialogue de filtrage avancé. (Vous pouvez afficher la règle appliquée en sélectionnant l’icône Filtrer, puis [**[!UICONTROL Afficher la règle avancée]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 Pour exclure rapidement des lignes spécifiques d’un tableau à structure libre :
 
@@ -90,7 +90,7 @@ Pour filtrer les données dans les tableaux à structure libre :
 
 ### Segmentation
 
-Voir notre [Documentation sur la segmentation](/help/components/segmentation/seg-home.md) pour plus d’informations.
+Pour plus d’informations, consultez notre [documentation sur la segmentation](/help/components/segmentation/seg-home.md) .
 
 ## Trier des tableaux
 

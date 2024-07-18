@@ -63,7 +63,7 @@ Pour plus d’informations sur leurs dimensions respectives, voir les pages suiv
 ## Tout le trafic - Références
 
 * La dimension principale **Source** est disponible dans Analysis Workspace en tant que dimension **Domaine référent**.
-* La dimension principale **Page d’entrée** est disponible dans Analysis Workspace en tant que dimension **Page d’accès**.
+* La dimension principale **Page de destination** est disponible dans Analysis Workspace en tant que dimension **Page d’accès**.
 
 1. Dans le menu Composants, recherchez la dimension **Domaine référent** ou **Page d’accès** et faites-la glisser sur la grande zone de tableau à structure libre intitulée « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
@@ -90,9 +90,9 @@ Le rapport Références réseau indique les domaines des réseaux sociaux qui on
 2. Dans le menu Composants, recherchez le segment **Visites issues des sites sociaux** et faites-le glisser sur la petite zone de tableau à structure libre intitulée « Déposer un segment ici ».
 3. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
 
-### Réseaux sociaux - Pages d’entrée
+### Réseaux sociaux - Pages de destination
 
-Le rapport Pages d’entrée indique les pages sur lesquelles les visiteurs sont arrivés après avoir cliqué sur un lien sur un réseau social. Ces données sont disponibles dans Analysis Workspace à l’aide de la dimension **Page d’accès** et du segment **Visites issues des sites sociaux**.
+Le rapport Pages de destination indique les pages sur lesquelles les visiteurs sont arrivés après avoir cliqué sur un lien sur un réseau social. Ces données sont disponibles dans Analysis Workspace à l’aide de la dimension **Page d’accès** et du segment **Visites issues des sites sociaux**.
 
 1. Dans le menu Composants, recherchez la dimension **Page d’accès** et faites-la glisser sur la grande zone de tableau à structure libre intitulée « Déposer une dimension ici ».
 2. Dans le menu Composants, recherchez le segment **Visites issues des sites sociaux** et faites-le glisser sur la petite zone de tableau à structure libre intitulée « Déposer un segment ici ».

@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Ajouts au panier
 
-&quot;Ajouts au panier&quot; [metric](overview.md) indique le nombre de fois où un visiteur a ajouté un article à son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients sont suffisamment intéressés par un produit pour l’ajouter au panier.
+La [mesure](overview.md) &quot;Ajouts au panier&quot; indique le nombre de fois qu’un visiteur a ajouté un article au panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients sont suffisamment intéressés par un produit pour l’ajouter au panier.
 
 ## Méthode de calcul de cette mesure
 

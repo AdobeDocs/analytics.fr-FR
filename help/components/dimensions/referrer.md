@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Référent
 
-&quot;Référent&quot; [dimension](overview.md) indique les URL sur lesquelles se trouvaient les visiteurs lorsqu’ils cliquaient pour atteindre votre site. Cette dimension est utile pour identifier les adresses URL spécifiques qui génèrent le plus de trafic sur votre site. Un lien doit exister sur l’URL externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
+La [dimension](overview.md) &quot;Référent&quot; indique les URL sur lesquelles se trouvaient les visiteurs lorsqu’ils cliquaient pour accéder à votre site. Cette dimension est utile pour identifier les adresses URL spécifiques qui génèrent le plus de trafic sur votre site. Un lien doit exister sur l’URL externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
 
 >[!IMPORTANT]
 >

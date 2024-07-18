@@ -12,7 +12,7 @@ ht-degree: 62%
 
 # Commandes par visite
 
-&quot;Commandes par visite&quot; [metric](overview.md) affiche le rapport entre les commandes passées par les visiteurs et le nombre total de visites sur votre site. Vous pouvez utiliser cette mesure pour comprendre le taux de conversion de votre site.
+La [mesure ](overview.md) &quot;Commandes par visite&quot; indique le rapport entre les commandes passées par les visiteurs et le nombre total de visites sur votre site. Vous pouvez utiliser cette mesure pour comprendre le taux de conversion de votre site.
 
 ## Méthode de calcul de cette mesure
 

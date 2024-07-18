@@ -8,13 +8,13 @@ exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 80%
+ht-degree: 78%
 
 ---
 
 # Enregistrement d’un classeur avec requêtes
 
-Lorsque vous créez des rapports avec des requêtes incorporées, vous pouvez les enregistrer à l’aide de **Fichier** > **Enregistrer** ou **Fichier** > **Enregistrer sous** dans Excel. Report Builder détecte si le rapport contient des requêtes. Lorsque vous sélectionnez l’une des options d’enregistrement, exécutez la **Enregistrer le classeur sous** formulaire.
+Lorsque vous créez des rapports avec des requêtes incorporées, vous pouvez les enregistrer à l’aide de **Fichier** > **Enregistrer** ou **Fichier** > **Enregistrer sous** dans Excel. Report Builder détecte si le rapport contient des requêtes. Lorsque vous sélectionnez l’une des options d’enregistrement, remplissez le formulaire **Enregistrer le classeur sous**.
 
 * Lorsque vous réalisez des travaux de grande envergure dans des applications Windows, Adobe conseille d’enregistrer fréquemment vos requêtes dans la feuille de calcul et ce, afin d’éviter toute perte de données.
 * Lorsque vous attribuez un nom à votre classeur, pensez à inclure le numéro de version dans le nom de fichier, de manière à conserver un historique des travaux. Par exemple, nommez votre premier classeur [!DNL web_forecast_01_01.xlsx].

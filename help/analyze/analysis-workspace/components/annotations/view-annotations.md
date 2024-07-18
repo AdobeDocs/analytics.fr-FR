@@ -6,7 +6,7 @@ feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Les annotations se présentent de manière légèrement différente, selon qu’
 | **Période** | L’icône change et lorsque vous pointez dessus, la période s’affiche.<p>![](assets/multi-day.png)<p>Lorsque vous la sélectionnez dans le graphique linéaire, les métadonnées de l’annotation apparaissent et vous pouvez les modifier ou les supprimer :![](assets/multi-hover.png)<p>Dans un tableau, une icône s’affiche pour chaque date de la période.<p>![](assets/multi-day-table.png) |
 | **Annotations qui se chevauchent** | Les jours auxquels plusieurs annotations sont liées comportent une icône de couleur grise.<p>![](assets/grey.png)<p>Lorsque vous pointez sur l’icône grise, toutes les annotations qui se chevauchent s’affichent :<p>![](assets/overlap.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Affichage des annotations dans un fichier .pdf
 

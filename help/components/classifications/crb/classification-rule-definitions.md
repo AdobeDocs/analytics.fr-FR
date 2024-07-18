@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles remplacent toutes les valeurs existantes. </p> </td> 
-   <td colname="col2"> <p> (Paramètre par défaut) Remplace toujours les clés de classification existantes, y compris les classifications transférées au moyen de l’importateur (SAINT). </p> </td> 
+   <td colname="col2"> <p> (Paramètre par défaut) Remplace toujours les clés de classification existantes, y compris les classifications chargées au moyen de l’importateur (SAINT). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles remplacent uniquement les valeurs non définies. </p> </td> 
@@ -84,7 +84,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numéro de rôle. </p> <p>Voir   <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a>. </p> </td> 
+   <td colname="col2"> <p>Numéro de rôle. </p> <p>Pour plus d’informations, voir <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 
@@ -129,7 +129,7 @@ Vous pouvez modifier des expressions régulières sur la page [!UICONTROL Expres
 | Groupes correspondants | Affiche la correspondance entre l’expression régulière et les caractères d’identification de la campagne, de sorte que vous puissiez classer une position dans l’identifiant de campagne. |
 | Résultat correspondant | Affiche les parties d’une chaîne qui correspondent à l’expression régulière. |
 
-Voir   [Expressions régulières dans les règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
+Voir [Expressions régulières dans les règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 ## Page Tests {#section_EC926F97901C4E65901413F9683AA70A}
 

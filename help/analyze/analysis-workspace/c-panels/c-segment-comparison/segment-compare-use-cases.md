@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ Un chef de produit responsable d’un site web mobile et d’un site web d’ord
 
 | Segment 1 | Segment 2 |
 |--- |--- |
-| Conteneur d’accès pour lequel Type de périphérique mobile est égal à Téléphone mobile ou Tablette | Tous les autres |
+| Conteneur d’accès pour lequel Type d’appareil mobile est égal à Téléphone mobile ou Tablette | Tous les autres |
 
 ## Cas d’utilisation 2 : comparaison des clients qui utilisent une certaine fonction par rapport à ceux qui ne l’utilisent pas
 

@@ -8,7 +8,7 @@ exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 36%
+ht-degree: 17%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion Experience Cloud et ne prennent pas en charge les connexions héritées telles que l’authentification unique à SiteCatalyst ou la connexion standard. **D’ici le 22 juillet 2021, tous les utilisateurs de Report Builder doivent mettre à jour le module complémentaire Report Builder vers la version 5.6.47 ou une version ultérieure, ce qui inclut une mise à jour critique du processus de connexion.**
+>Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion Experience Cloud et ne prennent pas en charge les connexions héritées telles que l’authentification unique à SiteCatalyst ou la connexion standard. **D’ici le 22 juillet 2021, tous les utilisateurs de Report Builder doivent mettre à jour le module complémentaire de Report Builder vers la version 5.6.47 ou une version ultérieure qui inclut une mise à jour critique du processus de connexion.**
 
 Pour vous connecter à Report Builder, utilisez votre compte de connexion Experience Cloud.
 
-## Connectez-vous à Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Connexion à Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-La connexion Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse e-mail et mot de passe) pour vous connecter à Adobe Experience Cloud.
+La connexion de l’Experience Cloud vous permet d’utiliser votre Enterprise ID (adresse électronique et mot de passe) pour vous connecter à Adobe Experience Cloud.
 
-Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour plus d’informations sur Enterprise ID, voir [Connectez-vous à votre compte d’entreprise ou d’école](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
+Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour plus d’informations sur Enterprise ID, voir [Connexion à votre compte d’entreprise ou d’école](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Capture d’écran montrant la fenêtre de connexion Adobe Experience Cloud présentant les options de connexion avec ou sans Adobe ID](assets/adobe_id_login.png)
+![Capture d’écran montrant la fenêtre de connexion à Adobe Experience Cloud présentant les options de connexion avec ou sans votre Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->La connexion à Experience Cloud repose sur une session ; le jeton expire après 30 jours.
+>La connexion de l’Experience Cloud est basée sur une session et le jeton expire au bout de 30 jours.
 
 ## Connexion à Report Builder
 
@@ -40,7 +40,7 @@ Connexion au Report Builder
 1. Cliquez sur **[!UICONTROL Se connecter]**. Vous pouvez également signer à l’aide des méthodes suivantes :
 
    * Cliquez sur **[!UICONTROL Créer]**.
-   * Sélectionnez une requête dans le Gestionnaire de requêtes, puis cliquez sur **[!UICONTROL Ajouter]** ou **[!UICONTROL Gérer]**. Pour plus d’informations, voir [Sélectionnez une requête dans le Gestionnaire de requêtes.](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
+   * Sélectionnez une requête dans le Gestionnaire de requêtes, puis cliquez sur **[!UICONTROL Ajouter]** ou **[!UICONTROL Gérer]**. Pour plus d’informations, voir [Sélectionner une requête dans le Gestionnaire de requêtes](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)
    * Double-cliquez sur une requête dans Excel.
 
 1. Renseignez les champs de la page [!UICONTROL Connexion], puis cliquez sur **[!UICONTROL OK]**.

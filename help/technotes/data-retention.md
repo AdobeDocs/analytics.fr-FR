@@ -6,7 +6,7 @@ feature: Data Governance, Privacy
 source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Les données collectées par Adobe Analytics sont conservées pendant une pério
 
 Les données conservées sont basées sur la date actuelle et la date et l’heure des données historiques. La date et l’heure enregistrées pour les accès peuvent être différentes de la date et de l’heure auxquelles les accès ont été reçus par Adobe.
 
-## Réglage de la période de conservation des données par défaut
+## Ajuster la période de conservation des données par défaut
 
-Si vous souhaitez réduire ou prolonger la période de conservation des données par défaut, contactez votre équipe Compte d’Adobe.
+Si vous souhaitez réduire ou prolonger la période de conservation des données par défaut, contactez l’équipe Adobe en charge des comptes.
 
 * La réduction de la période de conservation des données par défaut est gratuite.
 * L’extension de la conservation des données au-delà de la période par défaut de 25 mois nécessite l’achat d’extensions disponibles par incréments d’un an chacune. Vous pouvez acheter jusqu’à huit extensions, pour une durée de conservation totale de 10 ans et un mois (soit les 2 ans et un mois de conservation par défaut, plus les huit ans achetés).
@@ -39,27 +39,27 @@ La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL admin
 
 ## Questions fréquentes
 
-+++ Comment choisir la période de conservation des données pour mon entreprise ?
++++ Comment choisir la période de conservation des données pour mon entreprise ?
 
 En tant que responsable du traitement des données, votre entreprise peut identifier les parties prenantes (vos équipes marketing, analytique et confidentialité, par exemple) qui sont, au sein de votre organisation, responsables de prendre des décisions au sujet de la conservation des données. Votre entreprise est la mieux placée pour connaître la période appropriée pendant laquelle Adobe Analytics conserve les données.
 
 +++
 
-+++ Comment calculer la période de conservation des données ?
++++ Comment calculer la période de conservation des données ?
 
 La politique de rétention des données définit une période de rétention glissante au cours de laquelle il est possible de consulter l’ensemble des données et d’en générer des rapports. La date de début de la conservation des données est déterminée par la date actuelle, moins la période de conservation des données. La date de fin de conservation des données est déterminée par la date actuelle. Les données sont incluses dans le créneau de rétention des données si l’horodatage des données est compris entre la date de début et la date de fin.
 
 +++
 
-+++ Puis-je demander une copie de mes données avant qu’elles ne soient supprimées ?
++++ Puis-je demander une copie de mes données avant qu’elles ne soient supprimées ?
 
-Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des accès. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vous avez des exigences d’exportation des données en dehors du cadre de l’interface utilisateur, contactez votre équipe de compte d’Adobe. Des arrangements sont possibles ; les coûts peuvent varier.
+Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des accès. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vous avez des besoins en matière d’export de données en dehors du cadre de l’interface d’utilisation, contactez l’équipe Adobe en charge des comptes. Des arrangements sont possibles ; les coûts peuvent varier.
 
 +++
 
-+++ Quand l’Adobe supprime-t-il les données ?
++++ Quand les données seront-elles supprimées par Adobe ?
 
-Contactez votre équipe de compte d’Adobe pour connaître le moment précis auquel vos données doivent être supprimées. En règle générale, les données sont supprimées sur une base mensuelle glissante.
+Contactez l’équipe Adobe en charge des comptes pour connaître le moment précis auquel est programmée la suppression de vos données. En règle générale, les données sont supprimées sur une base mensuelle glissante.
 
 +++
 

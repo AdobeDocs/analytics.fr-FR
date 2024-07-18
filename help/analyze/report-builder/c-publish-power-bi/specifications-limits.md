@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ La modification d’une requête du Report Builder après sa publication sur Pow
 
 * **Cas 1** : Vous publiez un classeur sur Power BI et créez une visualisation à partir de ses données. Par la suite, vous apportez des modifications au classeur qui font disparaître l’une des colonnes du jeu de données à laquelle il fait référence. Puis vous republiez. Cela aura pour effet de corrompre la visualisation dans Power BI.
 
-   **Voici un exemple de la façon dont la visualisation SERA corrompue :**
+  **Voici un exemple de la façon dont la visualisation SERA corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
    2. Planifiez la publication de cette requête sur Power BI.
@@ -46,7 +46,7 @@ La modification d’une requête du Report Builder après sa publication sur Pow
       2. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page et Visites.
       3. Vérifiez que votre visualisation est corrompue, étant donné qu’elle fait référence à la colonne Pages vues qui n’existe plus dans le tableau page_1.
 
-   **Voici un exemple de la façon dont la visualisation NE sera PAS corrompue :**
+  **Voici un exemple de la façon dont la visualisation NE sera PAS corrompue :**
 
    1. Dans Report Builder, créez un classeur avec une requête, en utilisant la dimension Page et la mesure Pages vues.
    2. Planifiez la publication de cette requête sur Power BI.
@@ -58,7 +58,6 @@ La modification d’une requête du Report Builder après sa publication sur Pow
       1. Vérifiez qu’il a remplacé le jeu de données existant qui avait été créé lors de la première publication.
       2. Vérifiez que le tableau page_1 est correctement mis à jour avec les colonnes Page, Pages vues et Visites.
       3. Vérifiez que votre visualisation continue de fonctionner correctement, étant donné qu’elle fait référence à deux colonnes qui sont toujours présentes dans le tableau page_1.
-
 
 * **Cas 2** : Vous épinglez une section de votre classeur dans un tableau de bord de Power BI ; par la suite, vous supprimez cette section épinglée (par exemple, un graphique ou un tableau) du classeur. Cela entraîne la corruption de la visualisation.
 

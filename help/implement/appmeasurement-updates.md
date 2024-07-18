@@ -30,7 +30,7 @@ Date de publication : **mardi 4 mars 2024**
 
 Date de publication : **mercredi 12 septembre 2023**
 
-* Ajout de la méthode facultative [`bufferRequests()`](vars/functions/bufferrequests.md) afin d’améliorer la fiabilité de la capture des requêtes lorsqu’un navigateur ne prend pas en charge l’API de balise ou annule les requêtes lors du déchargement d’une page.
+* Ajout de la méthode facultative [`bufferRequests()`](vars/functions/bufferrequests.md) pour améliorer la fiabilité de la capture des requêtes lorsqu’un navigateur ne prend pas en charge l’API de balise ou annule les requêtes lors du déchargement d’une page.
 * Ajout de protections pour empêcher plusieurs rappels après suivi pour une seule requête de suivi.
 
 ## Version 2.24.0
@@ -39,19 +39,19 @@ Date de publication : **mercredi 18 juillet 2023**
 
 * Ajout de la variable de configuration facultative [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) pour décoder les URL de lien contenant des caractères codés sur deux octets.
 * Ajout d’une gestion des erreurs supplémentaire pour les navigateurs avec des API User-Agent à forte entropie défectueuses.
-* En-tête Content-Type de POST modifié à utiliser `x-www-form-urlencoded` par défaut.
+* Modification de l’en-tête Content-Type du POST pour utiliser `x-www-form-urlencoded` par défaut.
 
 ## Version 2.23.0
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des conseils client au moyen de balises ou utiliser la variable [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) de configuration. La collection d’indices à forte entropie est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
+* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des conseils client via des balises ou utiliser la variable de configuration [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La collection d’indices à forte entropie est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Date de publication : **18 janvier 2022**
 
-* L’appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient un attribut `href` de type `string`. Si ce n’est pas un `string`, puis ignore gracieusement la variable `href` plutôt que d’échouer. Ce scénario peut se produire lorsque vous transmettez `svg` aux objets de l’appel de suivi des liens.
+* L’appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient un attribut `href` de type `string`. S’il ne s’agit pas d’un `string`, il ignore normalement l’attribut `href` au lieu d’échouer. Ce scénario peut se produire lorsque vous transmettez `svg` objets à l’appel de suivi des liens.
 
 ## Version 2.22.3
 
@@ -63,7 +63,7 @@ Date de publication : **11 octobre 2021**
 
 Date de publication : **7 septembre 2021**
 
-* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Voir [Reporting sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) pour plus d’informations.
+* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Pour plus d’informations, consultez la section [Création de rapports sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) du guide d’utilisation destiné à l’administrateur.
 
 ## Version 2.22.1
 
@@ -347,7 +347,7 @@ Date de publication : **5 novembre 2015**
 Date de publication : **17 septembre 2015**
 
 * Inclusion de l’API visiteur version 1.5.2
-* Mis à jour [!DNL Audience Manager] pour utiliser Adobe Audience Manager DIL 6.2 - getCustomer IDs de VisitorAPI.js et les transmettre dans l’appel d’événement à Adobe Audience Manager. (AN-104978)
+* Mise à jour du module [!DNL Audience Manager] pour utiliser les identifiants Adobe Audience Manager DIL 6.2 - getCustomer de VisitorAPI.js et les transmettre dans l’appel d’événement à Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 
@@ -362,7 +362,7 @@ Date de publication : **18 juin 2015**
 Date de publication : **21 mai 2015**
 
 * À compter de la version 4.5 du SDK iOS, une nouvelle extension iOS permet de collecter les données d’utilisation des applications de surveillance Apple, des widgets d’aujourd’hui, des widgets de retouche photo et de toutes les autres applications d’extension iOS.
-* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de l’application Android Wearable.
+* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de votre application portable Android.
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
@@ -383,7 +383,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en &quot;ne pas procéder au suivi automatique des référents&quot; après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent quand *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Changement en &quot;ne pas procéder au suivi automatique des référents&quot; après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent lorsque *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2

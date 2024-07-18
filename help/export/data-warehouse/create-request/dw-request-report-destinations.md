@@ -4,7 +4,7 @@ title: Configurer une destination de rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++E-mail
 
@@ -163,7 +163,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +176,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. Poursuivez la configuration de votre requête Data Warehouse sur l’onglet [!UICONTROL **Options de rapport**]. Pour plus d’informations, voir [Configurer des options de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 

@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # Domaine référent initial
 
-&quot;Domaine référent initial&quot; [dimension](overview.md) indique le premier domaine référent sur lequel un visiteur a cliqué pour accéder à votre site. Une fois définie, elle contient la même valeur pour toute la durée de vie de cet identifiant visiteur. Cette dimension est utile pour identifier les sites tiers qui génèrent initialement du trafic sur votre site.
+Le [domaine référent initial&#39; ](overview.md) indique le premier domaine référent sur lequel un visiteur a cliqué pour accéder à votre site. Une fois définie, elle contient la même valeur pour toute la durée de vie de cet identifiant visiteur. Cette dimension est utile pour identifier les sites tiers qui génèrent initialement du trafic sur votre site.
 
 >[!IMPORTANT]
 >

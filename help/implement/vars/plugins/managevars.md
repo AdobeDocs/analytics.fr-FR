@@ -139,7 +139,7 @@ manageVars("cleanStr");
 
 * Supprime le codage HTML.
 * Supprime les espaces trouvés au début et à la fin de la valeur.
-* Remplace les guillemets simples gauche/droite par un guillemet simple droit (`'`)
+* Remplace les guillemets simples gauche/droite par un guillemet simple droit (`'`).
 * Remplace les caractères de tabulation, les renvois à la ligne et les retours chariot par des espaces.
 * Remplace tous les espaces doubles (ou triples, etc.) par des espaces simples.
 

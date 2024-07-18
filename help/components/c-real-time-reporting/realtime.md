@@ -7,7 +7,7 @@ exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '591'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -17,13 +17,13 @@ Les rapports en temps réel affichent le trafic des pages web et classe les page
 
 >[!NOTE]
 >
->Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer des rapports en temps réel, voir [Configuration des rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir la [configuration des rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 ## Accès aux rapports en temps réel
 
-1. Dans Analysis Workspace, sélectionnez la variable [!UICONTROL **Workspace**] .
+1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**].
 
-1. Sélectionner [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
+1. Sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
 
 ## Présentation des rapports en temps réel
 
@@ -49,7 +49,7 @@ En tant qu’administrateur, vous pouvez :
 
 * Comparer par exemple les valeurs de la semaine dernière à celles de l’année dernière (ainsi qu’au total d’aujourd’hui).
 
-N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour plus d’informations, voir le message d’avertissement capturé dans [Configuration de rapports en temps réel](/help/components/c-real-time-reporting/t-realtime-admin.md).
+N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour plus d’informations, voir le message d’avertissement capturé dans [Configuration des rapports en temps réel](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 Seuls les administrateurs ou les utilisateurs des groupes d’autorisations Accès à tous les rapports et Création de rapports avancés peuvent configurer et afficher les rapports Temps réel. Toutefois, cette fonction respecte les autorisations. Si, par exemple, vous n’avez pas les droits permettant de consulter le revenu, vous ne pourrez pas consulter un rapport en temps réel qui inclut les données de revenu.
 

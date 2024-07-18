@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Achats
 
-Les &#39;Passages en caisse&#39; [metric](overview.md) indique le nombre de fois où un visiteur a démarré le processus de passage en caisse. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients disposent d’un panier de produits et sont prêts à les acheter.
+La mesure [Passages en caisse](overview.md) indique le nombre de fois où un visiteur a démarré le processus de passage en caisse. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients disposent d’un panier de produits et sont prêts à les acheter.
 
 ## Méthode de calcul de cette mesure
 

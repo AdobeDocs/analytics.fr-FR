@@ -1,14 +1,14 @@
 ---
 description: Affiche le trafic sur des pages Web et classe les pages vues en temps réel afin que vous puissiez comprendre rapidement les tendances de votre site.
-title: Rapports en temps réel présentation
+title: Rapports en temps réel - Aperçu
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 94%
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
@@ -25,8 +25,8 @@ Vous pouvez :
 * Utiliser tout événement personnalisé, événement de panier ou instance.
 * Afficher jusqu’à 20 heures de données historiques, en temps réel.
 
-Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
+Le temps réel respecte les autorisations pour les utilisateurs et les groupes. Par exemple, si vous n’avez pas les droits permettant de consulter le revenu, vous ne pouvez pas consulter un rapport en temps réel qui inclut les données de revenu. Les eVars (mesures de conversion) ne sont pas prises en charge. Les autorisations en temps réel sont activées dans les [outils d’administration](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/real-time-reports/t-realtime-admin.html?lang=fr).
 
 >[!NOTE]
 >
->[!UICONTROL Les rapports en temps réel] ne sont pas identiques à la fonction [Inclure les données actives](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Récence des données) mise à jour précédemment, qui réduit la latence pour la création de rapports standard en affichant les données avant qu’elles soient finalisées.
+>Les [!UICONTROL rapports en temps réel] ne sont pas identiques à la fonction [ Inclure les données actives](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html) (Récence des données) publiée précédemment, qui a réduit la latence pour la création de rapports standard en affichant les données avant qu’elles ne soient finalisées.

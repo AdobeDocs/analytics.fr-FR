@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 >
 > Pour obtenir des informations générales sur les canaux marketing, voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Pour optimiser l’efficacité des canaux marketing pour l’attribution et le Customer Journey Analytics, nous avons publié quelques articles. [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Afin d’optimiser l’efficacité des canaux marketing pour Attribution et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Expiration des canaux marketing]**.
 

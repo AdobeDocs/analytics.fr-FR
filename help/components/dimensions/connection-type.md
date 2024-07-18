@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Type de connexion
 
-Le &#39;Type de connexion&#39; [dimension](overview.md) indique comment le visiteur s’est connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
+La [dimension](overview.md) &quot;Type de connexion&quot; indique comment le visiteur s’est connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

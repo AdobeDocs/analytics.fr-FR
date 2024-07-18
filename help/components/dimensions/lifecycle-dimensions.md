@@ -17,18 +17,18 @@ ht-degree: 26%
 | Nom de la dimension du cycle de vie | Description | Variable de données contextuelles |
 | --- | --- | --- |
 | [!UICONTROL Date du premier lancement] | | À confirmer |
-| [!UICONTROL Nom du périphérique (SDK)] | | `a.DeviceName` |
+| [!UICONTROL Nom de l’appareil (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Version du système d’exploitation (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Résolution (SDK)] | | `a.Resolution` |
-| [!UICONTROL Source de l’acquisition] | | `a.referrer.campaign.source` |
-| [!UICONTROL ID de l’application] | | `a.AppID` |
-| [!UICONTROL Support d’acquisition] | | `a.referrer.campaign.medium` |
-| [!UICONTROL Terme de l’acquisition] | | `a.referrer.campaign.term` |
+| [!UICONTROL Source d’acquisition] | | `a.referrer.campaign.source` |
+| [!UICONTROL ID D’Application] | | `a.AppID` |
+| [!UICONTROL Medium d’acquisition] | | `a.referrer.campaign.medium` |
+| [!UICONTROL Terme d’acquisition] | | `a.referrer.campaign.term` |
 | [!UICONTROL Contenu de l’acquisition] | | `a.refferer.campaign.content` |
 | [!UICONTROL Nom de l’acquisition] | | `a.referrer.campaign.name` |
-| [!UICONTROL Lieu (jusqu’à 10 km)] | Latitude et longitude du visiteur, précises à la première décimale. Par exemple : `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
-| [!UICONTROL Lieu (jusqu’à 100 m)] | Latitude et longitude du visiteur, précises à la troisième décimale. Par exemple : `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
-| [!UICONTROL Lieu (jusqu’à 1 m)] | Latitude et longitude du visiteur, précises à la cinquième décimale. Par exemple : `040.93231` `-111.93152`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
+| [!UICONTROL Lieu (jusqu’à 10 km)] | Latitude et longitude du visiteur, précises à la première décimale. Par exemple, `040.9` `-111.9`. | `a.loc.lat.a` + `a.loc.lon.a` |
+| [!UICONTROL Lieu (jusqu’à 100 m)] | Latitude et longitude du visiteur, précises à la troisième décimale. Par exemple, `040.932` `-111.931`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
+| [!UICONTROL Lieu (jusqu’à 1 m)] | Latitude et longitude du visiteur, précises à la cinquième décimale. Par exemple, `040.93231` `-111.93152`. | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lat.c` + `a.loc.lon.a` + `a.loc.lon.b` + `a.loc.lon.c` |
 | [!UICONTROL Nom du point ciblé] | | `a.loc.poi` |
 | [!UICONTROL Distance jusqu’au centre du point ciblé] | | `a.loc.dist` |
 | [!UICONTROL Numéro de lancement] | | `a.Launches` |
@@ -37,12 +37,12 @@ ht-degree: 26%
 | [!UICONTROL Valeur de durée de vie (evar)] | | `a.ltv.amount` |
 | [!UICONTROL Balise majeure] | | À confirmer |
 | [!UICONTROL Balise mineure] | | À confirmer |
-| [!UICONTROL UUID de balise] | | À confirmer |
+| [!UICONTROL UID de balise] | | À confirmer |
 | [!UICONTROL Proximité de la balise] | | À confirmer |
 | [!UICONTROL Jours depuis la dernière utilisation] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Heure de la journée (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Jour de la semaine (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL Identifiant du point ciblé] | | À confirmer |
+| [!UICONTROL ID de point ciblé] | | À confirmer |
 
 {style="table-layout:auto"}
 

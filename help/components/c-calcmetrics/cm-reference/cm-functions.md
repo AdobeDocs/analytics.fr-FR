@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1084'
 ht-degree: 99%
 
 ---
@@ -281,4 +281,4 @@ Prenons comme exemple une colonne de 3 éléments :
 
 3
 
-La moyenne de cette colonne est 2. La variance de la colonne est ((1 à 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.
+La moyenne de cette colonne est 2. L’écart de la colonne est ((1 - 2)<sup>2</sup> + (2 - 2)<sup>2</sup> + (3 - 2)<sup>2</sup>/3 = 2/3.

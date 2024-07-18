@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Lien de sortie
 
-&quot;Lien de sortie&quot; [dimension](overview.md) indique le nom des liens de sortie implémentés sur votre site. Cette dimension est utile pour identifier les liens les plus populaires qui pointent vers des domaines en dehors de votre site.
+Le [lien de sortie](overview.md) indique le nom des liens de sortie implémentés sur votre site. Cette dimension est utile pour identifier les liens les plus populaires qui pointent vers des domaines en dehors de votre site.
 
 ## Renseignement de cette dimension avec des données
 

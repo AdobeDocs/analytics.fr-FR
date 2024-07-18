@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 88%
+source-wordcount: '1424'
+ht-degree: 84%
 
 ---
 
@@ -34,20 +34,20 @@ L’effet secondaire suivant se produit lors de l’ouverture d’un classeur AR
 
 Le Report Builder requiert une authentification pour créer des requêtes de données à partir de vos suites de rapports. Il arrive que des problèmes de connexion à Report Builder se produisent selon vos paramètres dans [!DNL Analytics] ou votre réseau.
 
-* **Identifiant de société non valide**: cette erreur survient le plus souvent lorsque la connexion de la société n’est pas correctement renseignée ou en cas de problèmes d’activité réseau. Procédez comme suit :
+* **Invalid Login Company** : cette erreur survient le plus souvent lorsque la connexion de la société est incorrectement entrée ou en cas de problèmes d’activité réseau. Procédez comme suit :
    * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
    * Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
-* **Pare-feu**: Le Report Builder utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
+* **Firewall** : le Report Builder utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
 
 ## Recommandations pour optimiser les requêtes {#section_33EF919255BF46CD97105D8ACB43573F}
 
 Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut ralentir le processus de traitement.
 
 * **Facteurs pouvant ralentir les diffusions** : un trop grand nombre de signets, de tableaux de bord et de classeurs Report Builder planifiés en quelques heures. Prenez également en compte le fait que trop de classeurs Report Builder ont été planifiés à peu près à la même heure. Lorsque cela se produit, la file d’attente de l’API de rapports comporte des travaux en souffrance.
-* **Facteurs pouvant ralentir l’exécution des classeurs**: augmentation significative des classifications ou de la période de la requête au fil du temps.
+* **Facteurs pouvant ralentir l’exécution des classeurs** : augmentation significative des classifications ou augmentation de la période de demande au fil du temps.
 * **Causes des échecs de remise de classeurs** : des formules Excel complexes dans un classeur, en particulier celles qui impliquent la date et l’heure.
-* **Cellules renvoyant des zéros (aucune valeur)**: une apostrophe ou un guillemet simple dans le nom de la feuille Excel empêchera le Report Builder de renvoyer aucune valeur. (Il s’agit d’une limitation de Microsoft Excel.)
-* **Performances des requêtes**: les paramètres ci-dessous peuvent avoir un impact sur la vitesse de traitement.
+* **Cellules renvoyant des zéros (aucune valeur)** : une apostrophe ou un guillemet simple dans le nom de la feuille Excel ne renverra aucune valeur. (Il s’agit d’une limitation de Microsoft Excel.)
+* **Performances des requêtes individuelles** : la vitesse de traitement peut être affectée par les paramètres suivants :
 
   | Paramètre | Plus rapide | Plus lent |
   |--- |--- |--- |
@@ -58,13 +58,13 @@ Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut r
   | Granularité | Agrégé | Toutes les heures<ul><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Trimestriel</li><li>Annuel</li></ul> |
   | Nombre d’entrées | Petit jeu de données | Jeu de données volumineux |
 
-* **Heures de planification**: Échelonnez les planifications sur une période de 24 heures (voir le tableau ci-après). Les signets, les tableaux de bord et les classeurs du Report Builder planifiés de façon rapprochée peuvent entraîner des retards. Planifiez les requêtes volumineuses et plus complexes tôt le matin pour permettre les extractions et les actualisations manuelles pendant la journée de travail.
+* **Heure de planification** : planifiez une planification plus échelonnée sur une période de 24 heures (voir le tableau ci-dessous). Les signets, les tableaux de bord et les classeurs du Report Builder planifiés de façon rapprochée peuvent entraîner des retards. Planifiez les requêtes volumineuses et plus complexes tôt le matin pour permettre les extractions et les actualisations manuelles pendant la journée de travail.
 
   | Heures de planification | 01:00 - 02:00 | 02:00 - 07:00 | 07:00 - 18:00 | 18:00 - minuit |
   |--- |--- |--- |--- |--- |
   | Utilisation du Report Builder | Peu occupé | Très occupé | Utilisation du côté client<br>Nombre plus élevé d’utilisateurs effectuant une actualisation locale et demandant un envoi immédiat.<br>De plus, vérifiez si la file d’attente de l’API est effacée lorsque les classeurs planifiés expirent. | Pas occupé |
 
-* **Délais d’expiration**: Les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Report Builder :
+* **Délais d’expiration** : tout rapport planifié expire au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus l’exécution prend du temps.) Ces informations sont affichées dans les rapports [!DNL Analytics] et le Report Builder :
 
 ## Exemples de descriptions de message d’erreur {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -74,7 +74,7 @@ Cette section comprend un exemple de liste des messages d’erreur qui peuvent s
 >
 >Il s’agit d’un exemple de messages d’erreur, qui n’est pas exhaustif. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
 
-* **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.**: ce message s’affiche si aucun classeur (feuilles de calcul) n’est ouvert dans Excel et que vous cliquez sur l’une des icônes de la barre d’outils Report Builder. En outre, la barre d’outils devient inactive jusqu’à ce que vous ouvriez une feuille de calcul. Vous pouvez toutefois cliquer sur l’icône de l’aide en ligne lorsque la barre d’outils est encore active sans engendrer cette erreur.
+* **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.** : si aucun classeur (feuilles de calcul) n’est ouvert dans Excel et que vous cliquez sur l’une des icônes de la barre d’outils Report Builder, ce message s’affiche. En outre, la barre d’outils devient inactive jusqu’à ce que vous ouvriez une feuille de calcul. Vous pouvez toutefois cliquer sur l’icône de l’aide en ligne lorsque la barre d’outils est encore active sans engendrer cette erreur.
 * **Vous devez quitter l’[!UICONTROL Assistant Requête] avant d’activer le [!UICONTROL Gestionnaire de requêtes].**: Le [!UICONTROL Gestionnaire de requêtes] et l’[!UICONTROL Assistant Requête] constituent une fonctionnalité liée. Il n’est toutefois pas possible de commencer à utiliser le [!UICONTROL Gestionnaire de requêtes] avant d’avoir terminé ou annulé les tâches entreprises dans l’[!UICONTROL Assistant Requête].
 * **Aucune requête n’est associée à cette plage.**: Ce message d’erreur s’affiche si vous cliquez sur le bouton [!UICONTROL De la feuille] du [!UICONTROL Gestionnaire de requêtes] alors qu’une cellule de la feuille de calcul ne contient aucune requête. Afin d’identifier les cellules de la feuille de calcul qui contiennent des requêtes, cliquez sur les requêtes individuelles répertoriées dans le tableau du [!UICONTROL Gestionnaire de requêtes]. Si la requête sélectionnée dans le tableau est associée aux cellules, celles-ci sont surlignées.
 * **La plage sélectionnée n’est pas valide. Sélectionnez une autre plage.**: Cette erreur s’affiche si vous sélectionnez, dans une feuille de calcul, une cellule à laquelle est déjà associée une requête. Supprimez la requête associée aux cellules ou sélectionnez une autre plage de cellules à mettre en correspondance. Si vous souhaitez supprimer les cellules, il est important de localiser celles qui contiennent des requêtes et de supprimer les requêtes avant de supprimer les cellules (suppression des lignes ou colonnes).

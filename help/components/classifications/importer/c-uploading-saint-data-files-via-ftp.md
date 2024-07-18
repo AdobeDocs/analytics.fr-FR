@@ -18,7 +18,7 @@ ht-degree: 73%
 >
 >Le protocole FTP n’est pas recommandé car il s’agit d’une méthode de partage de fichiers non chiffrée, ce qui signifie que tout le monde peut intercepter le contenu du fichier ainsi que le nom d’utilisateur et le mot de passe utilisés pour le compte.
 >
->Configurez plutôt un compte cloud comme décrit à la section [Configuration de comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md).
+>Configurez plutôt un compte cloud comme décrit dans [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md).
 
 Description de la procédure de téléchargement de fichiers de données via FTP.
 
@@ -62,8 +62,8 @@ Voir [FTP et SFTP](/help/export/ftp-and-sftp/ftp-overview.md) pour en savoir plu
    | **Nom** | Nom du compte FTP. |
    | **Données à classer** | Dans la liste déroulante, sélectionnez le jeu de données (variable de rapport marketing) que vous souhaitez classer. |
    | **Sélectionner des suites de rapports** | Sélectionnez les suites de rapport dans lesquelles vous souhaitez classer le jeu de données sélectionné. Si vous voulez sélectionner plusieurs suites de rapports, les classifications de chaque suite sélectionnée doivent être identiques. |
-   | **Remplacer les données en cas de conflit** | Sélectionnez cette option pour écraser les données en double. Elle s’avère utile lorsque vous mettez à jour des classifications existantes. Si vous utilisez la variable [dernière architecture de classification](../sets/overview.md), ce paramètre est toujours activé. |
-   | **Une fois l’importation terminée** | Sélectionnez cette option pour exporter automatiquement le jeu de données mis à jour vers le même compte FTP. Indiquez l’adresse électronique à laquelle doivent être envoyées les notifications concernant ce compte FTP une fois l’importation terminée. Si vous utilisez la variable [dernière architecture de classification](../sets/overview.md), cette option n’est pas disponible. |
+   | **Remplacer les données en cas de conflit** | Sélectionnez cette option pour écraser les données en double. Elle s’avère utile lorsque vous mettez à jour des classifications existantes. Si vous utilisez la [dernière architecture de classification](../sets/overview.md), ce paramètre est toujours activé. |
+   | **Une fois l’importation terminée** | Sélectionnez cette option pour exporter automatiquement le jeu de données mis à jour vers le même compte FTP. Indiquez l’adresse électronique à laquelle doivent être envoyées les notifications concernant ce compte FTP une fois l’importation terminée. Si vous utilisez la [dernière architecture de classification](../sets/overview.md), cette option n’est pas disponible. |
    | **Destinataire de la notification** | Indiquez l’adresse de courriel à laquelle doivent être envoyées les notifications concernant ce compte FTP. |
    | **Autoriser** | (Obligatoire) Autorise Adobe à importer automatiquement tous les fichiers de données envoyés au nouveau compte FTP. |
 

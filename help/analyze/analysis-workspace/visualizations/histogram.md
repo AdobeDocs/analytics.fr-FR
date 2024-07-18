@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -66,4 +66,4 @@ Les segments prédéfinis du tableau sont des segments internes ; ils n’appar
 
 ![](assets/prebuilt_segments.png)
 
-Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (ventilations de données, par exemple), cliquez [ici](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr).
+Pour découvrir d’autres façons de générer des tableaux de données à structure libre et d’autres visualisations (répartitions de données, par exemple), cliquez [ici](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr).

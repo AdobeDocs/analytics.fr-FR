@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1450'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,7 @@ Une fois que vous avez vérifié ou corrigé le problème de diffusion, exécute
 
 Cas d’utilisation type d’Amazon S3 : le titulaire du compte AWS (Amazon Web Services) crée un compartiment, puis crée un utilisateur qui est autorisé à créer des objets dans ce compartiment, puis spécifie les informations d’identification pour cet utilisateur. Dans ce cas, les objets de l’utilisateur appartiennent au même compte et le titulaire du compte bénéficie implicitement du contrôle total de l’objet (lecture, suppression, etc). Ce processus fonctionne de la même manière que les remises par FTP.
 
-AWS permet aussi à un utilisateur de créer des objets dans un compartiment qui appartient à un autre compte utilisateur. Par exemple, deux utilisateurs AWS (utilisateurA et utilisateurB) n’appartiennent pas au même compte AWS, mais souhaitent créer des objets dans d’autres compartiments. Si l’utilisateurA crée un compartiment (le compartimentA), il peut créer une règle de compartiment qui autorise explicitement l’utilisateurB à créer des objets dans le compartimentA, même si l’utilisateur n’est pas propriétaire du compartiment. Cette règle peut s’avérer avantageuse, car l’utilisateurA et l’utilisateurB n’ont pas à échanger d’informations d’identification. Au lieu de cela, l’utilisateurB fournit à l’utilisateurA son numéro de compte, puis l’utilisateurA crée une règle de compartiment qui autorise l’utilisateurB à créer des objets dans le compartimentA.
+AWS permet aussi de créer des objets dans un compartiment appartenant à un autre compte d’utilisateur. Par exemple, deux utilisateurs AWS (utilisateurA et utilisateurB) n’appartiennent pas au même compte AWS, mais souhaitent créer des objets dans d’autres compartiments. Si l’utilisateurA crée un compartiment (le compartimentA), il peut créer une politique de compartiment qui autorise explicitement l’utilisateurB à créer des objets dans le compartimentA, même si l’utilisateur n’est pas propriétaire du compartiment. Cette politique peut s’avérer avantageuse, car l’utilisateurA et l’utilisateurB n’ont pas à échanger d’informations d’identification. Au lieu de cela, l’utilisateurB fournit à l’utilisateurA son numéro de compte, puis l’utilisateurA crée une politique de compartiment qui autorise l’utilisateurB à créer des objets dans le compartimentA.
 
 Cependant, les objets n’héritent pas des autorisations du compartiment parent. Si l’utilisateurB charge un objet dans le compartiment de l’utilisateurA, l’utilisateurB « détient » toujours cet objet et, par défaut, l’utilisateurA n’a aucune autorisation quant à cet objet, même si l’utilisateurA possède le compartiment. L’utilisateurB doit explicitement octroyer les droits à l’utilisateurA, car il reste le propriétaire de l’objet. Pour accorder cette autorisation, l’utilisateurB doit charger l’objet avec une liste de contrôle d’accès BucketOwnerFullControl, qui spécifie que le propriétaire du compartiment (utilisateurA) bénéficie de tous les droits sur l’objet (lecture, écriture, suppression, etc.), même si l’objet est « détenu » par l’utilisateurB.
 

@@ -6,14 +6,14 @@ feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
 source-git-commit: 0cbabeff05ea3ecc685160e3333c17aeff83dc4a
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 87%
 
 ---
 
 # Limitations du FTP et conservation des données
 
-Pour tous les comptes FTP Adobe, le stockage des données est limité à 100 Go. Les fichiers sont conservés sur ces comptes FTP pendant 90 jours.
+Pour tous les comptes FTP Adobe, le stockage des données est limité à 100 Go. Les fichiers sont conservés sur ces comptes FTP pendant 90 jours.
 
 ## Limites des connexions simultanées
 

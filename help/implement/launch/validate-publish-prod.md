@@ -23,7 +23,7 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 Le débogueur Experience Cloud est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
 
-1. Installez l’extension pour : [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Installez l’extension pour [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
 3. Cliquez sur l’icône du débogueur Adobe Experience Cloud dans votre navigateur.
 4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
@@ -35,11 +35,11 @@ Une fois que vous avez validé l’affichage des données, vous pouvez transmett
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Publication]** et recherchez votre bibliothèque dans la colonne de développement.
-1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Envoyer pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer à des fins d’évaluation]**.
+1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Submit for Approval]** (Envoyer pour approbation). Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
 1. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la [!UICONTROL Approuvé] ), puis sélectionnez **[!UICONTROL Créer et publier dans l’environnement de production]**.
+1. Cliquez à nouveau dans la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et Publish en production]**.
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
 1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 

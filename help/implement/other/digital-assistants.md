@@ -112,7 +112,7 @@ Cache-Control: no-cache
 
 Chacun des assistants numériques possède des algorithmes qui détectent les intentions et les transmettent ensuite à l’application afin qu’elle sache quoi faire. Ces intentions constituent une représentation succincte de la demande.
 
-Par exemple, si un utilisateur dit &quot;Siri, envoie 20 $ à John pour le dîner d’hier soir à partir de mon application bancaire&quot;, l’intention peut ressembler à *sendMoney*.
+Par exemple, si un utilisateur dit &quot;Siri, envoie 20 $ à John pour le dîner d’hier soir avec mon application bancaire&quot;, l’intention peut être du type *sendMoney*.
 
 En envoyant chacune de ces demandes sous la forme d’une eVar, vous pourrez exécuter des rapports de cheminement sur chaque intention pour les applications conversationnelles. Assurez-vous que votre application peut également traiter les requêtes sans intention. Adobe conseille de transmettre la variable « Aucun mode spécifié » à la variable de données contextuelles dʼintention, plutôt que de la supprimer.
 

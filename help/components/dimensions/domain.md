@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 292dc256-e9e7-47be-8586-774f1c047011
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 64%
+source-wordcount: '134'
+ht-degree: 52%
 
 ---
 
 # Domaine
 
-Le &quot;domaine&quot; [dimension](overview.md) indique les points d’accès que les visiteurs utilisent pour accéder à Internet.
+La [dimension](overview.md) de &quot;domaine&quot; indique les points d’accès que les visiteurs utilisent pour accéder à Internet.
 
 ## Renseignement de cette dimension avec des données
 
 Adobe s’associe à [Digital Element](https://www.digitalelement.com/) pour déterminer le domaine du point d’accès. Plusieurs méthodes sont utilisées pour déterminer le domaine du point d’accès, dont la recherche DNS inversée. Elle ne nécessite aucune configuration et ne comporte pas de variable à renseigner.
 
 * Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
-* Pour les implémentations du SDK Web, activez [!UICONTROL Recherche réseau] when [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
+* Pour les implémentations de SDK Web, activez [!UICONTROL Recherche réseau] lors de la [ configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 

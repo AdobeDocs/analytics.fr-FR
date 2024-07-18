@@ -23,8 +23,8 @@ La variable `pageType` est un indicateur utilisé pour désigner les pages d’e
 
 Le canal est mappé aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.isErrorPage` - ce champ XDM est une valeur booléenne ; définissez-le sur `true` pour le signaler comme une page d’erreur, ou `false` s’il ne s’agit pas d’une page d’erreur.
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageType` - ce champ d’objet de données est une chaîne ; définissez-le sur `"errorPage"` pour le marquer comme tel.
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.web.webPageDetails.isErrorPage` - ce champ XDM est une valeur booléenne ; définissez-le sur `true` pour le signaler comme une page d’erreur ou `false` s’il ne s’agit pas d’une page d’erreur.
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.pageType` - ce champ d’objet de données est une chaîne ; définissez-le sur `"errorPage"` pour le marquer comme tel.
 
 ## Type de page utilisant l’extension Adobe Analytics
 

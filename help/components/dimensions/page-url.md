@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 95%
 
 ---
 
 # URL de la page
 
-&quot;URL de la page&quot; [dimension](overview.md) répertorie les URL de votre site.
+L’&#39;URL de page&#39; [dimension](overview.md) répertorie les URL de votre site.
 
 >[!IMPORTANT]
 >

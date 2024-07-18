@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Les alertes intelligentes (ou simplement les &quot;alertes&quot;) dans Adobe Analytics vous permettent d’être averti immédiatement en cas d’événements anormaux dans vos données.
 
-Vous pouvez définir des alertes à déclencher en fonction de seuils d’anomalie, de pourcentages modifiés ou de points de données spécifiques. Les alertes fournissent des contrôles granulaires qui s’intègrent à [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), ce qui se déclenche lorsque vous en avez le plus besoin.
+Vous pouvez définir des alertes à déclencher en fonction de seuils d’anomalie, de pourcentages modifiés ou de points de données spécifiques. Les alertes fournissent des contrôles granulaires qui s’intègrent à la [détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), ce qui se déclenche lorsque vous en avez le plus besoin.
 
 Grâce aux alertes intelligentes, vous pouvez :
 
@@ -45,7 +45,7 @@ Pour plus d’informations sur la création d’alertes dans Adobe Analytics, vo
 >
 >L’utilisation de données horodatées pour créer des alertes peut entraîner un déclenchement incorrect des alertes. Adobe recommande d’utiliser des données non horodatées pour les alertes intelligentes.
 
-## Gestion des alertes
+## Gérer les alertes
 
 Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer diverses tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
 

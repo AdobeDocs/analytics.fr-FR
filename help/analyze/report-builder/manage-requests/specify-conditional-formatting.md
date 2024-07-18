@@ -8,7 +8,7 @@ exl-id: 5a5f2415-8269-4c8a-9193-784537b29edf
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 36%
+ht-degree: 32%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 36%
 
 Après avoir créé des rapports avec des requêtes incorporées, vous pouvez appliquer une mise en forme conditionnelle aux cellules de classeur.
 
-Dans la barre d’outils Report Builder, cliquez sur **[!UICONTROL Format]**.
+Dans la barre d’outils de Report Builder, cliquez sur **[!UICONTROL Format]**.
 
 La mise en forme conditionnelle vous permet d’identifier les cellules qui contiennent des résultats ou des valeurs à surveiller. Par exemple, vous pouvez appliquer un ombrage ou une mise en surbrillance rouge à une cellule spécifique si les recettes sont inférieures aux attentes et un ombrage bleu si les recettes dépassent les montants prévus. Si une modification des plages de dates des requêtes élimine les conditions à l’origine de la mise en forme conditionnelle à appliquer aux valeurs des cellules, les formats qui mettent en évidence cette condition sont temporairement désactivés. Lorsque les formats conditionnels que vous spécifiez ne changent pas car les conditions ne sont pas remplies, les formats conditionnels continuent de s’appliquer aux cellules jusqu’à ce que vous les supprimiez.
 

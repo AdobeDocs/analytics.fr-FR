@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Référencement payant
 
-La &quot;recherche payante&quot; [dimension](overview.md) vous permet d’examiner n’importe quelle mesure et de la comparer entre le référencement payant et le référencement naturel. Tous les autres accès en dehors des moteurs de recherche sont omis. Cette dimension permet de comparer les tâches de référencement payant à celles du référencement organique.
+La [dimension](overview.md) de &quot;recherche payante&quot; vous permet d’examiner n’importe quelle mesure et de la comparer entre recherche payante et recherche naturelle. Tous les autres accès en dehors des moteurs de recherche sont omis. Cette dimension permet de comparer les tâches de référencement payant à celles du référencement organique.
 
 ## Renseignement de cette dimension avec des données
 

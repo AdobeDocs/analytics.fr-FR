@@ -19,7 +19,7 @@ Veillez à consigner dans votre [document de conception de solution](../../prepa
 
 >[!NOTE]
 >
->Les variables de liste stockent les valeurs les plus récentes par visiteur en fonction de leur [!UICONTROL Valeurs max.] définition dans [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Jusqu’à 250 valeurs sont prises en charge. S’il existe plus de valeurs uniques que ce que la variable [!UICONTROL Valeurs max.] accepte, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
+>Les variables de liste stockent les valeurs les plus récentes par visiteur en fonction de son paramètre [!UICONTROL Valeurs max.] défini dans les [ paramètres de la suite de rapports ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). Jusqu’à 250 valeurs sont prises en charge. S’il existe plus de valeurs uniques que ce que le paramètre [!UICONTROL Max values] permet, les valeurs les plus anciennes ne sont pas attribuées aux mesures.
 
 ## Configuration de variables de liste dans les paramètres de la suite de rapports
 
@@ -27,7 +27,7 @@ Veillez à configurer chaque variable de liste dans les paramètres de la suite 
 
 ## Variables de liste utilisant le SDK Web
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les variables de liste utilisent les champs XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` to `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Chaque élément de tableau contient un objet `"value"` contenant chaque chaîne. Il n’est pas nécessaire de fournir un délimiteur ; les serveurs de collecte de données d’Adobe détectent et incluent automatiquement le délimiteur correct défini dans . [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Si vous utilisez l’ [**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les variables de liste utilisent les champs XDM `xdm._experience.analytics.customDimensions.lists.list1.list[]` à `xdm._experience.analytics.customDimensions.lists.list3.list[]`. Chaque élément de tableau contient un objet `"value"` contenant chaque chaîne. Il n’est pas nécessaire de fournir un délimiteur ; les serveurs de collecte de données d’Adobe détectent et incluent automatiquement le délimiteur correct défini dans [ Paramètres de la suite de rapports ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-ma
 >
 >Le schéma XDM Adobe contient des objets `key` en plus des objets `value` dans chaque tableau `list[]`. Adobe n’utilise pas ces objets `key` lors de l’envoi de données à Adobe Analytics.
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), utilisation des variables de liste `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` selon la syntaxe de l’AppMeasurement. Assurez-vous d’utiliser le délimiteur correct défini dans [Paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les variables de liste utilisent `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` selon la syntaxe de l’AppMeasurement. Assurez-vous d’utiliser le délimiteur correct défini dans les [paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "data": {

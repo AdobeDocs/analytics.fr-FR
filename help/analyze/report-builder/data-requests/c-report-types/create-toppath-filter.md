@@ -15,7 +15,7 @@ ht-degree: 62%
 
 Décrit comment créer des rapports Chemin avec des filtres prédéfinis.
 
-Report Builder ne propose pas de rapports de chemin comme des rapports autonomes, mais vous pouvez les créer par l’intermédiaire de la variable **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]** menus contextuels. Les rapports suivants sont disponibles :
+Report Builder ne propose pas de rapports Chemin en tant que rapports autonomes, mais vous pouvez les créer par le biais des menus contextuels **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]** . Les rapports suivants sont disponibles :
 
 * Chemin > Page - Abandon
 * Chemin > Chemin d’accès
@@ -27,9 +27,9 @@ Report Builder ne propose pas de rapports de chemin comme des rapports autonomes
 * Chemin > Chemin d’accès > En tant que page d’entrée
 * Chemin > Chemin de sortie > En tant que page de sortie
 
-1. Sélectionnez plusieurs lignes à partir d’une requête existante, puis cliquez avec le bouton droit de la souris **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**. Vous devez sélectionner au moins trois lignes si vous souhaitez afficher le **[!UICONTROL Abandon de page]** de menu.
+1. Sélectionnez plusieurs lignes à partir d’une requête existante, puis cliquez avec le bouton droit de la souris sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Chemin]**. Vous devez sélectionner au moins trois lignes si vous souhaitez afficher l’option de menu **[!UICONTROL Page Fallout]** .
 
-   ![Capture d’écran montrant trois lignes sélectionnées avec l’option Ajouter une requête dépendante sélectionnée.](assets/dependen_request.png)
+   ![Capture d&#39;écran montrant trois lignes sélectionnées avec l&#39;option Ajouter une requête dépendante sélectionnée.](assets/dependen_request.png)
 
 2. Sélectionnez le filtre prédéfini, par exemple **[!UICONTROL Page précédente]**.
 

@@ -12,7 +12,7 @@ ht-degree: 45%
 
 # Paniers
 
-Les &quot;Paniers&quot; [metric](overview.md) indique le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit à un panier.
+La [mesure](overview.md) &quot;Paniers&quot; indique le nombre d’accès pendant lesquels un visiteur a ajouté son premier produit à un panier.
 
 ## Méthode de calcul de cette mesure
 

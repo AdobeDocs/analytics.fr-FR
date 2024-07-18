@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Data Warehouse propose une fonctionnalité qui vous permet d’extraire une liste d’ID de visiteur. Il ne s’agit pas d’ID de cookie, mais des ID que vous capturez dans l’une de vos variables de conversion. Bien qu’il soit possible d’obtenir ces informations par d’autres moyens, l’exemple suivant permet de générer plus rapidement une demande Data Warehouse.
 
-Supposons, par exemple, que votre entreprise envoie des courriels marketing à des clients et des prospects. Un identifiant unique est affecté à chacun de ces destinataires dans votre système de messagerie (par exemple : *`EMAIL Contact ID`*). Vous configurez vos courriels de telle sorte que lorsque des contacts les reçoivent et cliquent sur l’un des liens qu’ils contiennent, le visiteur arrive sur votre site web avec un ID de campagne et un ID Contact courriel unique. Votre lien de courriel peut, par exemple, pointer vers :
+Supposons, par exemple, que votre entreprise envoie des courriels marketing à des clients et des prospects. Chacun de ces destinataires a un identifiant unique dans votre système de messagerie (tel que *`EMAIL Contact ID`*). Vous configurez vos courriels de telle sorte que lorsque des contacts les reçoivent et cliquent sur l’un des liens qu’ils contiennent, le visiteur arrive sur votre site web avec un ID de campagne et un ID Contact courriel unique. Votre lien de courriel peut, par exemple, pointer vers :
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

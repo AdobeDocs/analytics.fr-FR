@@ -38,9 +38,9 @@ Ainsi, vous pouvez planifier la remise immédiate des classeurs ou leur diffusio
 1. Dans la barre d’outils du Report Builder, cliquez sur **[!UICONTROL Planifier]**.
 
    L’onglet [!UICONTROL Rapports programmés] affiche un récapitulatif de toutes les tâches que vous avez créées, ainsi que le nombre de tâches restantes.
-1. Sur le **[!UICONTROL Rapports planifiés]** , cliquez sur **[!UICONTROL Nouveau]**. L’ Assistant de planification - Options de base affiche les options utilisées pour définir le rapport planifié.
+1. Dans l’onglet **[!UICONTROL Rapports planifiés]**, cliquez sur **[!UICONTROL Nouveau]**. L’ Assistant de planification - Options de base affiche les options utilisées pour définir le rapport planifié.
 
-   ![Capture d’écran montrant l’Assistant de planification - Options de base.](assets/simple-schedule-wizard.png)
+   ![Capture d’écran de l’assistant de planification de base.](assets/simple-schedule-wizard.png)
 
 1. Dans [!UICONTROL l’Assistant de planification - Options de base], configurez les options suivantes :
 

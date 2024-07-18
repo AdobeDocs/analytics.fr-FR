@@ -12,7 +12,7 @@ ht-degree: 78%
 
 # Retraits du panier
 
-Les &quot;Retraits du panier&quot; [metric](overview.md) indique le nombre de fois où un visiteur a supprimé un élément de son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients ne s’intéressent plus à un produit.
+La [mesure](overview.md) &quot;Retraits du panier&quot; indique le nombre de fois où un visiteur a supprimé un article de son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients ne s’intéressent plus à un produit.
 
 ## Méthode de calcul de cette mesure
 

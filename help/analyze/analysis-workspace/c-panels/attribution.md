@@ -7,13 +7,13 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
 # Panneau d’attribution
 
-Le panneau [!UICONTROL Attribution] vous permet de créer facilement une analyse comparant différents modèles d’attribution. Il s’agit d’une fonctionnalité d’[Attribution ](/help/analyze/analysis-workspace/attribution/overview.md) qui vous permet d’utiliser et de comparer des modèles d’attribution dans un espace de travail dédié.
+Le panneau [!UICONTROL Attribution] vous permet de créer facilement une analyse comparant différents modèles d’attribution. Il s’agit d’une fonctionnalité de [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) qui vous donne un espace de travail dédié à utiliser et comparer des modèles d’attribution.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

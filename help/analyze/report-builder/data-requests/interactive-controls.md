@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -36,11 +36,11 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
 1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
 
-   ![Capture d’écran de l’Assistant Requête : Étape 1 , en surbrillant l’icône Paramètres de contrôle . ](assets/date_range_control.png)
+   ![Capture d’écran de l’Assistant Requête : Étape 1 mettant en surbrillance l’icône Paramètres de contrôle. ](assets/date_range_control.png)
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez tous les éléments de la période que vous souhaitez afficher dans le contrôle interactif. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 
-   ![Capture d’écran montrant les éléments de période sélectionnés et l’emplacement de la cellule supérieure gauche.](assets/control_settings.png)
+   ![Capture d&#39;écran montrant les éléments de période sélectionnés et l&#39;emplacement de la cellule supérieure gauche.](assets/control_settings.png)
 
 1. Notez l’option permettant d’« Actualiser automatiquement les requêtes liées lors de la sélection ».
 
@@ -51,7 +51,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 
 1. Vous pouvez à présent modifier la période et la requête s’actualise avec cette période.
 
-   ![Capture d’écran montrant la période sélectionnée.](assets/date_range_control_interactive.png)
+   ![Capture d&#39;écran montrant la période sélectionnée.](assets/date_range_control_interactive.png)
 
 1. Vous pouvez également copier la requête et cliquer avec le bouton droit afin d’utiliser une des deux options Coller la requête :
 
@@ -77,4 +77,4 @@ L’implémentation du contrôle interactif de segments est similaire à l’imp
 
 1. Le nouveau contrôle interactif s’affiche à présent dans le classeur :
 
-   ![Capture d’écran montrant le nouveau contrôle interactif sélectionné.](assets/segment_interactive_3.png)
+   ![Capture d&#39;écran montrant le nouveau contrôle interactif sélectionné.](assets/segment_interactive_3.png)

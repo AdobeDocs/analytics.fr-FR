@@ -13,9 +13,9 @@ ht-degree: 100%
 
 # Création d’annotations
 
-Par défaut, seuls les administrateurs peuvent créer des annotations. Les utilisateurs ont le droit d’afficher les annotations comme ils le font avec d’autres composants d’Analytics (tels que les segments, les mesures calculées, etc.).
+Par défaut, seuls les administrateurs et administratrices peuvent créer des annotations. Les utilisateurs ont le droit d’afficher les annotations comme ils le font avec d’autres composants d’Analytics (tels que les segments, les mesures calculées, etc.).
 
-Toutefois, les administrateurs peuvent accorder aux utilisateurs l’autorisation de [!UICONTROL Créer des annotations] (outils Analytics) via l’[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr).
+Toutefois, les administrateurs et administratrices peuvent accorder aux utilisateurs et utilisatrices l’autorisation de [!UICONTROL Créer des annotations] (outils Analytics) via l’[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr).
 
 1. Pour créer des annotations, vous disposez de plusieurs moyens pour commencer :
 

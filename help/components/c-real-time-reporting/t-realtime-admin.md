@@ -5,7 +5,7 @@ feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '291'
 ht-degree: 78%
 
 ---
@@ -18,7 +18,7 @@ Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à 
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
-   1. Dans Analysis Workspace, sélectionnez la variable [!UICONTROL **Workspace**] , puis sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
+   1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
 
    1. Sélectionnez la suite de rapports dans la liste déroulante supérieure :
 
@@ -28,7 +28,7 @@ Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à 
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Sélectionner **[!UICONTROL Configurer]** pour exécuter la variable [!UICONTROL Gestionnaire de suites de rapports].
+1. Sélectionnez **[!UICONTROL Configurer]** pour exécuter le [!UICONTROL Gestionnaire de Report Suites].
 
    (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Temps réel]**.)
 
@@ -55,7 +55,7 @@ Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à 
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. Sélectionner **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et afficher le rapport]**.
+1. Sélectionnez **[!UICONTROL Enregistrer]** ou **[!UICONTROL Enregistrer et afficher le rapport]**.
 
    Après cette configuration initiale du rapport, comptez jusqu’à 20 minutes pour que les données commencent à se diffuser. À partir de ce moment, les données sont immédiatement disponibles. Pour en savoir plus sur l’affichage des rapports Temps réel, voir [Exécution d’un rapport Temps réel](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=fr).
 

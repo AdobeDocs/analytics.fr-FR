@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -34,21 +34,21 @@ Créez et enregistrez une mesure appelée &quot;Visiteurs allemands&quot; et une
 
    >[!NOTE]
    >
-   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. « Ad hoc » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
+   >Vous pouvez également effectuer cette opération dans le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. « Ad hoc » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
 
 1. Faites glisser le segment Allemagne dans le canevas Définition et faites glisser la mesure Visiteurs uniques à l’intérieur :
 
    ![](assets/german-visitors.png)
 
-1. Sélectionner [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
+1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
 
 1. Créez un segment ad hoc dans le créateur de mesures calculées appelé &quot;Visiteurs internationaux&quot;, où &quot;Pays&quot; n’est pas &quot;Allemagne&quot;.
 
-   Faites glisser la dimension Pays dans le canevas Définition, puis sélectionnez [!UICONTROL **Allemagne**] comme valeur, puis sélectionnez [!UICONTROL **n’est pas égal à**] comme opérateur.
+   Faites glisser la dimension Pays dans le canevas Définition, sélectionnez [!UICONTROL **Allemagne**] comme valeur, puis [!UICONTROL **n’est pas égal à**] comme opérateur.
 
 1. Faites glisser la mesure Visiteurs uniques dans celle-ci.
 
-1. Sélectionner [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
+1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
 
 1. Dans Analysis Workspace, faites glisser la dimension **[!UICONTROL Page]** dans un tableau à structure libre, puis faites glisser les 2 nouvelles mesures calculées l’une à côté de l’autre dans la partie supérieure :
 

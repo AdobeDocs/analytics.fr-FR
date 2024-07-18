@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -76,6 +76,6 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
    La liste des suites de rapports et des variables contient toutes les variables classées disponibles dans l’ensemble des suites de rapports de la société qui a établi la connexion. Une variable unique d’une suite de rapports ne peut appartenir qu’à un seul jeu de règles.
 
-   Voir  *`Variable`* dans les définitions de la page [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-definitions.md) pour plus d’informations.
+   Pour plus d’informations, voir *`Variable`* dans les définitions de la page [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-definitions.md) .
 1. Spécifiez les suites de rapports et variables à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
 1. Poursuivez en [ajoutant des règles de classification](/help/components/classifications/crb/classification-rule-set.md) au jeu de règles.

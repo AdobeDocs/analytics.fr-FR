@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données, sinon ils ne sont pas disponibles. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
 
-* **Nom de l’opérateur**: fournit un contexte supplémentaire pour la variable `carrier` colonne . Le nom de fichier inclus est `carrier.tsv`.
-* **Attributs mobiles**: fournit un contexte supplémentaire pour la variable `mobile_id` , y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
-* **Type de système d’exploitation**: fournit un autre contexte pour la variable `os` colonne . Les deux `operating_systems.tsv` et `operating_system_type.tsv` utilisez la méthode `os` comme clé, mais uniquement `operating_system_type.tsv` est une recherche dynamique.
+* **Nom de l’opérateur** : fournit un contexte supplémentaire pour la colonne `carrier`. Le nom de fichier inclus est `carrier.tsv`.
+* **Attributs mobiles** : fournit un contexte supplémentaire pour la colonne `mobile_id`, y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
+* **Type de système d’exploitation** : fournit un autre contexte pour la colonne `os`. `operating_systems.tsv` et `operating_system_type.tsv` utilisent tous les deux la colonne `os` comme clé, mais seul `operating_system_type.tsv` est une recherche dynamique.
 
 ## Activation des recherches dynamiques
 
@@ -26,7 +26,7 @@ Si vous souhaitez recevoir les fichiers de recherche mentionnés, vous devez res
    * Pour `carrier.tsv`, vous devez inclure `carrier`.
    * Pour `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
    * Pour `operating_system_type.tsv`, vous devez inclure `os`.
-* Les colonnes suivantes doivent être **excluded**. Si l’une de ces colonnes est incluse dans le flux de données, la variable `mobile_attributes.tsv` la recherche dynamique n’est pas incluse.
+* Les colonnes suivantes doivent être **excluded**. Si l’une de ces colonnes est incluse dans le flux de données, la recherche dynamique `mobile_attributes.tsv` n’est pas incluse.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +35,17 @@ Une fois que votre flux de données répond aux exigences d’inclusion et d’e
 
 ## Référence de l’en-tête de recherche
 
-Les en-têtes de colonne de ces fichiers de recherche ne changent pas au fil du temps. Par conséquent, les en-têtes ne sont pas inclus dans chaque fichier de flux de données. Utilisez ces en-têtes de colonne comme référence ou téléchargez leurs `.tsv` fichier .
+Les en-têtes de colonne de ces fichiers de recherche ne changent pas au fil du temps. Par conséquent, les en-têtes ne sont pas inclus dans chaque fichier de flux de données. Utilisez ces en-têtes de colonne comme référence ou téléchargez leur fichier `.tsv` respectif.
 
 +++**Nom de l’opérateur**
-Télécharger [carrier_headers.tsv](assets/carrier_headers.tsv) ou référencez les en-têtes ci-dessous.
+Téléchargez [carrier_headers.tsv](assets/carrier_headers.tsv) ou référencez les en-têtes ci-dessous.
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**Attributs mobiles**
-Télécharger [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou référencez les en-têtes ci-dessous.
+Téléchargez [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) ou référencez les en-têtes ci-dessous.
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ Télécharger [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.t
 +++
 
 +++**Type de système d’exploitation**
-Télécharger [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou référencez les en-têtes ci-dessous.
+Téléchargez [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou référencez les en-têtes ci-dessous.
 
 `os`
 `Operating System Type`

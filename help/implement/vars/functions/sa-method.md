@@ -20,10 +20,10 @@ La méthode `sa()` vous permet de modifier dynamiquement une suite de rapports �
 Le SDK Web fonctionne en envoyant des données à un flux de données spécifique, qui transfère des données vers les suites de rapports Analytics souhaitées. Un seul flux de données peut transférer des données vers plusieurs suites de rapports. Cette section s’applique à la fois à l’extension SDK Web et à la mise en oeuvre manuelle du SDK Web.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur **[!UICONTROL Datastreams]** sur la gauche.
-1. Cliquez sur le flux de données de votre choix ou cliquez sur **[!UICONTROL Nouvelle structure de données]**.
+1. Cliquez sur **[!UICONTROL Datastreams]** à gauche.
+1. Cliquez sur le flux de données de votre choix ou sur **[!UICONTROL Nouveau flux de données]**.
 1. Cliquez sur **[!UICONTROL Ajouter un service]**, puis sélectionnez **[!UICONTROL Adobe Analytics]**.
-1. Saisissez l’identifiant de suite de rapports souhaité. Pour envoyer les mêmes données à plusieurs suites de rapports, cliquez sur **[!UICONTROL Ajouter une suite de rapports]**.
+1. Saisissez l’identifiant de suite de rapports souhaité. Si vous souhaitez envoyer les mêmes données à plusieurs suites de rapports, cliquez sur **[!UICONTROL Ajouter une suite de rapports]**.
 1. Une fois toutes les suites de rapports souhaitées saisies, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Définissez la flux de données souhaitée à l’aide de l’extension SDK Web.
@@ -32,13 +32,13 @@ L’extension SDK Web fournit une liste déroulante de flux de données pour cha
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Datastreams], sélectionnez la Datastream de votre choix dans la liste déroulante pour chaque environnement.
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Sous [!UICONTROL Datastreams], sélectionnez la Datastream souhaitée dans la liste déroulante pour chaque environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Définissez la flux de données souhaitée en implémentant manuellement le SDK Web.
 
-Définissez la variable `edgeConfigId` à l’identifiant de la banque de données. L’identifiant de la banque de données se trouve à droite lors de l’affichage d’un flux de données dans la collecte de données Adobe Experience Platform.
+Définissez la variable de configuration `edgeConfigId` sur l’identifiant de la banque de données. L’identifiant de la banque de données se trouve à droite lors de l’affichage d’un flux de données dans la collecte de données Adobe Experience Platform.
 
 ```js
 alloy("configure", {
@@ -46,7 +46,7 @@ alloy("configure", {
 });
 ```
 
-Voir [Configuration du SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) pour plus d’informations, voir la documentation du SDK Web .
+Pour plus d’informations, voir [Configuration du SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) dans la documentation du SDK Web.
 
 ## Modification de la suite de rapports à l’aide de l’extension Adobe Analytics
 

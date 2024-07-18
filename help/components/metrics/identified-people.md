@@ -12,7 +12,7 @@ ht-degree: 68%
 
 # Personnes identifiées
 
-Les &quot;personnes identifiées&quot; [metric](overview.md) est un [Analyses entre appareils](../cda/overview.md) mesure qui comptabilise le nombre de visiteurs identifiés par les Analyses entre appareils.
+La [mesure ](overview.md) &quot;Personnes identifiées&quot; est une mesure [Analyse entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs identifiés par les analyses entre appareils.
 
 ## Méthode de calcul de cette mesure
 

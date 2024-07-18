@@ -5,14 +5,14 @@ exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 93%
 
 ---
 
 # Droit d’opposition de gestion du consentement
 
-L’&quot;exclusion de la gestion du consentement&quot; [dimension](overview.md) affiche les paramètres de confidentialité qu’un visiteur a explicitement exclus. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
+La [dimension](overview.md) d’exclusion de la gestion du consentement affiche les paramètres de confidentialité qu’un visiteur a explicitement exclus. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
 
 ## Renseigner cette dimension avec des données
 

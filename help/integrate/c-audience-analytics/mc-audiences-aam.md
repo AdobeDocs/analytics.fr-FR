@@ -34,7 +34,7 @@ L’intégration d’Audience Analytics offre les avantages clés suivants :
 ![](assets/mc-aud-dataflow.png)
 
 1. Chaque fois qu’un utilisateur se rend sur vos propriétés numériques, les accès sont collectés et envoyés à Analytics.
-1. Avec [transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), chaque accès reçu par Analytics est automatiquement envoyé à Adobe Audience Manager en temps réel.
+1. Avec le [transfert côté serveur](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md), chaque accès reçu par Analytics est automatiquement envoyé à Adobe Audience Manager en temps réel.
 1. Grâce à l’intégration des Audiences Analytics, pour chaque accès, l’appartenance d’audience d’un visiteur est recherchée dans Adobe Audience Manager et une liste d’ID de segment est renvoyée à Analytics pour traitement en temps réel.
 
 Comme les segments Adobe Audience Manager sont insérés sur la base d’accès identiques, vous pouvez être certain que quelles que soient les données disponibles sur un visiteur dans Adobe Audience Manager, elles ne seront pas ignorées et seront à jour pour cet accès. Cette fonctionnalité est supérieure à un module d’extension AppMeasurement dans la mesure où un module externe rend ces segments disponibles uniquement lors de l’accès suivant (et non l’accès actuel).

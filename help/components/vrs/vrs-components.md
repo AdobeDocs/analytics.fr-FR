@@ -27,7 +27,7 @@ Pour activer le traitement des composants,
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]** > **[!UICONTROL Créer une suite de rapports virtuelle]**.
 1. Après avoir défini les **[!UICONTROL Paramètres]**, cliquez sur l’onglet **[!UICONTROL Composants]**.
 
-1. Cochez la case **[!UICONTROL Activation de la personnalisation des composants de suite de rapports virtuelle]**:
+1. Cochez la case **[!UICONTROL Activer la personnalisation des composants de suite de rapports virtuelle]** :
 
    ![](assets/vrs-enable.png)
 

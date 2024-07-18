@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 92%
+source-wordcount: '451'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ Le formulaire de filtre sélectionné est renseigné en fonction de l’élémen
 
 Des informations sur les filtres dont accessibles dans le panneau **[!UICONTROL Filtre le plus populaire]** > **[!UICONTROL Définir un filtre]**.
 
-![Capture d’écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
+![Capture d&#39;écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
 
 Les tableaux suivants contiennent des exemples et des informations sur les filtres :
 
@@ -40,13 +40,13 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Contient tous les termes </p> </td> 
    <td colname="col02"> <p>Contient tous les valeurs délimitées par des espaces dans n’importe quel ordre. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> a b c</span> et <span class="term"> b a c</span>, etc. </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> a b c</span>et <span class="term"> b a c</span>, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contient n’importe quel terme </p> </td> 
    <td colname="col02"> <p>Contient au moins l’un des filtres (délimités par des espaces). </p> </td> 
    <td colname="col2"> <p>A B C </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mais pas <span class="term"> D4</span>. </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> A1</span>, <span class="term"> B2</span>, <span class="term"> C3</span>, mais pas à <span class="term"> D4</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contient l’expression </p> </td> 
@@ -58,13 +58,13 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Ne contient aucun terme </p> </td> 
    <td colname="col02"> <p>Renvoie n’importe quel résultat, à moins que vous ne saisissiez une valeur. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Correspond à <span class="term"> d e f</span> mais pas <span class="term"> c d e f</span>. </p> </td> 
+   <td colname="col3"> <p>Correspond à <span class="term"> d e f</span> mais pas à <span class="term"> c d e f</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ne contient pas l’expression </p> </td> 
    <td colname="col02"> <p>Renvoie toutes les valeurs qui ne contiennent pas votre expression. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Exclut <span class="term"> abc</span>, <span class="term"> abc def</span> et trouve <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Exclut <span class="term"> abc</span>, <span class="term"> abc def</span> et correspond à <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Est égal à </p> </td> 
@@ -76,7 +76,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>N’est pas égal à </p> </td> 
    <td colname="col02"> <p>Renvoie n’importe quel résultat qui ne correspond pas exactement à votre saisie. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>Ne correspond pas à  <span class="term"> a</span>. </p> <p>Correspond à <span class="term"> a b c</span>. </p> <p>Correspond à <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>Ne correspond pas à <span class="term"> a</span>. </p> <p>Correspond à <span class="term"> a b c</span>. </p> <p>Correspond à <span class="term"> abc</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Commence par </p> </td> 
@@ -94,7 +94,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
    <td colname="col1"> <p>Avancé (caractères spéciaux) </p> </td> 
    <td colname="col02"> <p>Vous permet d’utiliser les caractères suivants : </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Page*Accueil$" | sports </p> </td> 
-   <td colname="col3"> <p> Cet exemple définit un filtre qui commence par  <span class="term"> Accueil</span>, puis qui recherche zéro ou plus de caractères et qui se termine par <span class="term"> Page</span>. </p> <p>Aussi, n’importe quelle page contenant <span class="term"> sport</span>. </p> <p>Quelques exemples de correspondance : </p> 
+   <td colname="col3"> <p> Ceci définit un filtre qui commence par <span class="term"> Home</span>, qui recherche zéro ou plusieurs caractères, puis se termine par <span class="term"> Page</span>. </p> <p>Aussi, n’importe quelle page contenant <span class="term"> sport</span>. </p> <p>Quelques exemples de correspondance : </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">PageAccueil </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Page et (autres caractères) Accueil </li> 
@@ -119,7 +119,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
   <tr> 
    <td colname="col1"> " </td> 
    <td colname="col2"> Est égal à </td> 
-   <td colname="col3"> <p>N’est pas ignoré sauf s’il n’est pas accompagné d’un autre guillemet double. Par exemple :  <span class="term"> Affichage de 17 pouces</span> n’est pas une expression. </p> </td> 
+   <td colname="col3"> <p>N’est pas ignoré sauf s’il n’est pas accompagné d’un autre guillemet double. Par exemple, <span class="term"> 17" Display</span> n’est pas une expression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ Les tableaux suivants contiennent des exemples et des informations sur les filtr
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> OU </td> 
-   <td colname="col3"> <p>Pris en charge uniquement dans le filtre  <span class="term"> Avancé (caractères spéciaux)</span>. </p> </td> 
+   <td colname="col3"> <p>Pris en charge uniquement dans le filtre <span class="term"> avancé (caractères spéciaux)</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

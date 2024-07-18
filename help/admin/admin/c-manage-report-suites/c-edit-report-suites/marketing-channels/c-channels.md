@@ -8,7 +8,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 >
 > Pour obtenir des informations générales sur les canaux marketing, voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 >
-> Pour optimiser l’efficacité des canaux marketing pour l’attribution et le Customer Journey Analytics, nous avons publié quelques articles. [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+> Afin d’optimiser l’efficacité des canaux marketing pour Attribution et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 
@@ -52,7 +52,7 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 
    Si vous sélectionnez plusieurs suites de rapports, choisissez un modèle à partir duquel copier les paramètres vers les suites de rapports sélectionnées.
 
-   Voir [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Voir [Appliquer des paramètres d’un modèle de suite de rapports à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Gestionnaire de canaux marketing]**.
 
@@ -95,4 +95,4 @@ Lors d’une [configuration automatique](/help/components/c-marketing-channels/c
 >
 >Adobe conseille de définir le rapport dans une suite de rapports à utiliser comme modèle pour les tests. Le modèle sera ensuite utilisé pour appliquer les ensembles de canaux et de règles globalement à une ou plusieurs suites de rapports de production.
 >
->Voir [Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Voir [Appliquer des paramètres d’un modèle de suite de rapports à plusieurs suites de rapports](/help/components/c-marketing-channels/c-getting-started-mchannel.md).

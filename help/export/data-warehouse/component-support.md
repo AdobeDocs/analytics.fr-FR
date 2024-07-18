@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Certaines dimensions et mesures pouvant être utilisées dans Data Warehouse ne 
 
 ### Dimensions prises en charge exclusivement
 
-* **Identifiant Experience Cloud**: pour les implémentations qui utilisent le service d’ID Experience Cloud (ECID), un nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres.
-* **URL de la page**: URL de la page sur laquelle l’accès a eu lieu.
-* **Identifiants d’achat**: identifiant unique pour un achat, défini à l’aide de la variable purchaseID.
-* **Identifiant visiteur**: fournit l’identifiant unique du visiteur. Cette valeur est la même que la valeur concaténée des colonnes `visid_high` et `visid_low` dans les flux de données. Pour en savoir plus, consultez [Référence des colonnes de données](../analytics-data-feed/c-df-contents/datafeeds-reference.md) dans les flux de données.
+* **ID Experience Cloud** : pour les implémentations qui utilisent le service d’ID Experience Cloud (ECID), un nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres.
+* **URL de la page** : URL de la page sur laquelle l’accès a eu lieu.
+* **Identifiants d’achat** : identifiant unique pour un achat, défini à l’aide de la variable purchaseID.
+* **Identifiant visiteur** : fournit l’identifiant unique du visiteur. Cette valeur est la même que la valeur concaténée des colonnes `visid_high` et `visid_low` dans les flux de données. Pour en savoir plus, consultez [Référence des colonnes de données](../analytics-data-feed/c-df-contents/datafeeds-reference.md) dans les flux de données.
 
 ### Mesures prises en charge exclusivement
 
-* **Visites**: dans le contexte de Data Warehouse, cette mesure exclut les visites de cookies non persistants.
-* **Visites - Tous les visiteurs**: cette mesure dans le contexte de Data Warehouse est plus proche de la mesure des visites dans d’autres outils d’Adobe Analytics.
+* **Visites** : dans le contexte de Data Warehouse, cette mesure exclut les visites de cookies non persistants.
+* **Visites - Tous les visiteurs** : cette mesure dans le contexte de Data Warehouse est plus proche de la mesure Visites dans d’autres outils d’Adobe Analytics.
 
 ## Composants non pris en charge dans Data Warehouse
 
@@ -67,7 +67,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Actualisations
    * Accès unique
    * Mesures de « durée de la visite »
-* Mesures de participation (comme décrit dans [Création d’une mesure &quot;Participation&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Mesures de participation (comme décrit dans [Créer une mesure &quot;Participation&quot;](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensions prises en charge différemment
 

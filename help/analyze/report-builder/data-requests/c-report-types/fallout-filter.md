@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 91%
 
 ---
@@ -21,13 +21,13 @@ Cet exemple affiche le rapport Page - Abandon.
 1. Sélectionnez la suite de rapports appropriée.
 1. Dans l’arborescence de gauche, sélectionnez **[!UICONTROL Chemins]** > **[!UICONTROL Page]** > **[!UICONTROL Page - Abandon]**.
 
-   ![Capture d’écran présentant l’arborescence Windows du répertoire Report Builder. L’option Page - Abandon est sélectionnée.](assets/page_fallout.png)
+   ![Capture d’écran présentant l’arborescence Windows du répertoire de Report Builder. L’option Page Fallout est sélectionnée.](assets/page_fallout.png)
 
 1. Configurez les [périodes](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) appropriées.
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. À l’étape 2 de l’Assistant, sous **[!UICONTROL Libellés de lignes]**, cliquez sur le lien **[!UICONTROL Définir les points de contrôle]**. (Dans un rapport d’abandon, vous devez toujours définir des éléments de chemin, à la différence d’un rapport de cheminement où un modèle est pré-appliqué.)
 
-   ![Capture d’écran montrant le lien Définir les points de contrôle .](assets/define_checkpoints.png)
+   ![Capture d&#39;écran montrant le lien Définir les points de contrôle.](assets/define_checkpoints.png)
 
 1. Sélectionnez l’option **[!UICONTROL Filtrer]**.
 

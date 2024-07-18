@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Unités
 
-Les unités [metric](overview.md) indique le nombre total de produits achetés au cours de toutes les commandes. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour déterminer la contribution des éléments de dimension au nombre de produits achetés. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec une [eVar](../dimensions/evar.md)) ayant contribué aux produits achetés.
+La [mesure](overview.md) &quot;Unités&quot; indique le nombre total de produits achetés au cours de toutes les commandes. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour déterminer la contribution des éléments de dimension au nombre de produits achetés. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec une [eVar](../dimensions/evar.md)) ayant contribué aux produits achetés.
 
 ## Méthode de calcul de cette mesure
 

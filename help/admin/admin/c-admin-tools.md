@@ -27,13 +27,13 @@ Consultez la hiérarchie du contenu sur le côté gauche de la page pour accéde
 >
 >N’ouvrez pas plusieurs onglets Admin dans le même navigateur. Vous pourriez par inadvertance enregistrer les paramètres dans la mauvaise suite de rapports. Par exemple, si vous devez comparer des ensembles de règles et les copier dans une nouvelle suite de rapports, nous vous suggérons d’ouvrir un nouveau navigateur ou de réaliser une capture d’écran pour comparer des ensembles de règles.
 
-Pour accéder aux outils d’administration, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]**.
+Pour accéder aux outils d’administration, accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**.
 
 ## Adobe Admin Console
 
 Utilisez cet outil pour configurer les utilisateurs et modifier les autorisations d’accès.
 
-Pour toutes les organisations migrées vers Adobe IMS, ces tâches sont effectuées dans la console d’administration Adobe. Pour plus d’informations, voir [Guide du premier administrateur d’Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Si votre entreprise n’est pas encore migrée vers Adobe IMS, reportez-vous à la section [Migration des utilisateurs d’Analytics vers Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+Pour toutes les organisations migrées vers Adobe IMS, ces tâches sont effectuées dans la console d’administration Adobe. Pour plus d’informations, consultez le [guide de premier administrateur Adobe Analytics](/help/admin/admin-console/first-admin-guide.md). Si votre organisation n’est pas encore migrée vers Adobe IMS, reportez-vous à la section [Migration des utilisateurs Analytics vers Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
 
 
 

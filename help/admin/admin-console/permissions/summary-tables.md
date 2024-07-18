@@ -84,7 +84,7 @@ Utilisez les tableaux récapitulatifs suivants pour identifier les autorisations
 | Support technique | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Informations sur l’assistance. |
 | Gestion du trafic | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
 | Services web | x |  |  |  | Accorde l’accès à Admin > Tous les administrateurs >Paramètres de la société > Services web. |
-| Partager les liens du projet avec tout le monde | x |  |  |  | Accorde l’accès aux utilisateurs pour qu’ils partagent avec n’importe qui dans un projet Workspace -> Partager -> Partager avec n’importe qui. |
+| Partager les liens du projet avec tout le monde | x |  |  |  | Accorde l’accès aux utilisateurs pour qu’ils partagent avec n’importe qui sous un projet Workspace -> Partager -> Partager avec n’importe qui. |
 | Activity Map |  | x |  |  | Accorde l’accès à Outils > Activity Map. Permet à l’utilisateur d’utiliser l’extension Activity Map. |
 | Utilisateurs de la licence d’Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis tire sa révérence. [Plus d’informations](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Accès à Analysis Workspace |  | x |  |  | Accorde l’accès à Analysis Workspace. |

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez créer une [!UICONTROL analyse des cohortes] sur six mois :
 
 **Mesure de retour** : sessions ou lancements
 
-Les visiteurs ne sont pas considérés comme   *`engaged`* durant les mois suivants, à moins qu’ils n’ouvrent une session ou au moins démarrent l’application. [!UICONTROL L’analyse des cohortes] présenterait alors les différents schémas d’utilisation où *`App Install`* survient toujours durant le mois 0. Il se peut que l’utilisation chute au mois 2, peu importe quand les utilisateurs ont installé l’application. (Pour ceux qui ont installé l’application en janvier 2015, le mois 2 équivaut à mars 2015 ; pour ceux qui ont installé l’application en février 2015, le mois 2 équivaut à avril 2015 ; etc.) Cette analyse permet d’envoyer un message électronique ou un message Push à tous les utilisateurs durant le deuxième mois après l’installation de l’application, afin de leur rappeler d’utiliser l’application.
+Les visiteurs ne sont pas considérés comme *`engaged`* au cours des mois suivants, sauf s’ils ont une session ou ont au moins lancé l’application. [!UICONTROL L’analyse des cohortes] présenterait alors les différents schémas d’utilisation où *`App Install`* survient toujours durant le mois 0. Il se peut que l’utilisation chute au mois 2, peu importe quand les utilisateurs ont installé l’application. (Pour ceux qui ont installé l’application en janvier 2015, le mois 2 équivaut à mars 2015 ; pour ceux qui ont installé l’application en février 2015, le mois 2 équivaut à avril 2015 ; etc.) Cette analyse permet d’envoyer un message électronique ou un message Push à tous les utilisateurs durant le deuxième mois après l’installation de l’application, afin de leur rappeler d’utiliser l’application.
 
 ## Cas d’utilisation de l’abonnement {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
@@ -42,7 +42,7 @@ Vous travaillez chez Adobe.com et proposez un abonnement gratuit à Creative Cl
 
 À l’aide de cette [!UICONTROL analyse des cohortes], vous pouvez constater, par exemple, qu’entre 8 et 10 % des utilisateurs de la version gratuite de Creative Cloud effectuent la mise à niveau durant le premier mois suivant l’installation, peu importe la date d’installation. 12 à 15 % effectuent la mise à niveau durant le deuxième mois d’utilisation. Ensuite, les taux de mise à niveau chutent considérablement : entre 4 et 5 % au mois 3, entre 3 et 4 % au mois 4, et entre 1 et 2 % au mois 5.
 
-En considérant que vous ne devez pas perdre de clients potentiels durant le mois 3, vous configurez une campagne par messagerie électronique conçue pour être diffusée au milieu du mois 3 auprès d’un échantillon d’utilisateurs afin d’offrir un bon de 50 € à ceux qui n’ont pas encore effectué la mise à niveau.
+En considérant que vous ne devez pas perdre de clients potentiels durant le mois 3, vous configurez une campagne par e-mail conçue pour être diffusée au milieu du mois 3 auprès d’un échantillon d’utilisateurs afin d’offrir un bon de 50 € à ceux qui n’ont pas encore effectué la mise à niveau.
 
 Revérifiez votre rapport d’analyse des cohortes quelques mois plus tard. Pour les cohortes formées après le lancement de la campagne, la conversion en abonnements payants à Creative Cloud au cours du mois 3 est passée de 4-5 % à 13-14 %, générant des centaines de milliers d’euros par cohorte, pour chaque cohorte mensuelle parvenant au mois 3 à partir de cette date.
 
@@ -56,12 +56,12 @@ Une grande société d’assurance génère un engagement important de ses clien
 
 ## Cas d’utilisation d’attractivité de campagne
 
-Une multinationale du secteur des médias tire parti de campagnes ciblées pour attirer des utilisateurs vers ses diverses plates-formes et augmenter l’engagement. Les dépenses publicitaires par plate-forme reposent sur l’engagement et la rétention des clients. Par conséquent, les campagnes réussies sont essentielles au succès de son activité. Ils utilisent notre nouvelle fonctionnalité Cohorte de [!UICONTROL dimension personnalisée] dans les tableaux de [!UICONTROL cohortes] pour comparer diverses campagnes côte à côte afin d’identifier les campagnes qui parviennent le mieux à acquérir et retenir des utilisateurs pour accroître l’engagement. Ils peuvent ensuite identifier les aspects qui font la réussite d’une campagne et les appliquer à d’autres campagnes pour augmenter l’engagement sur leurs diverses plates-formes.
+Une multinationale du secteur des médias tire parti de campagnes ciblées pour attirer des utilisateurs vers ses diverses plates-formes et augmenter l’engagement. Les dépenses publicitaires par plateforme reposent sur l’engagement et la rétention des clients. Par conséquent, les campagnes réussies sont essentielles au succès de son activité. Ils utilisent notre nouvelle fonctionnalité Cohorte de [!UICONTROL dimension personnalisée] dans les tableaux de [!UICONTROL cohortes] pour comparer diverses campagnes côte à côte afin d’identifier les campagnes qui parviennent le mieux à acquérir et retenir des utilisateurs pour accroître l’engagement. Ils peuvent ensuite identifier les aspects qui font la réussite d’une campagne et les appliquer à d’autres campagnes pour augmenter l’engagement sur leurs diverses plates-formes.
 
 ## Cas d’utilisation du lancement de produit
 
 Un grand détaillant de vêtements dispose de nombreux segments spécifiques de clients qui génèrent de larges portions de recettes pour son activité. Chaque segment présente des produits spécifiques conçus et créés avec le segment à l’esprit. Avec chaque lancement de produit, ils veulent savoir comment le nouveau produit a dynamisé les ventes pour diverses cohortes au cours du temps. Au moyen du nouveau paramètre [!UICONTROL Tableau de latence] dans l’[!UICONTROL analyse des cohortes], ils peuvent analyser le comportement et les recettes d’un segment donné de clients, avant et après le lancement. À l’aide de ces informations, ils peuvent identifier les produits qui génèrent de nouvelles recettes et ceux qui ne plaisent pas aux clients.
 
-## Attractivité personnelle – Les utilisateurs les plus fidèles   cas d’utilisation
+## Attractivité individuelle : la plupart des utilisateurs fidèles utilisent le cas
 
 Une grande compagnie aérienne doit la majeure partie de son succès et de ses recettes à ses clients récurrents et fidèles. Dans nombre de cas, ses voyageurs fidèles représentent la majorité de ses recettes, et elle doit impérativement retenir ces clients pour assurer son succès à long terme. Il est souvent difficile d’identifier les clients les plus fidèles et constants. Néanmoins, le nouveau paramètre [!UICONTROL Calcul variable] dans l’[!UICONTROL analyse des cohortes] leur a permis d’analyser les segments de clients fidèles et de déterminer les voyageurs récurrents mois après mois. Ils ont ensuite pu cibler ces voyageurs avec des récompenses et des avantages pour les remercier de leur fidélité. De plus, en passant le type de cohorte de rétention à perte de clientèle, ils ont pu identifier les clients non récurrents mois après mois et cibler ces segments avec des promotions afin de les réengager et de s’assurer qu’ils restent des clients fidèles à l’avenir.

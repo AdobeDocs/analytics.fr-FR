@@ -15,7 +15,7 @@ ht-degree: 68%
 
 {{plug-in}}
 
-Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). Il remplace également les guillemets simples gauches/droits par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform ne répond pas à vos besoins de mise en oeuvre. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus, ou si la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform est suffisante.
+Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). Il remplace également les guillemets simples gauche/droite par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform ne répond pas à vos besoins de mise en oeuvre. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus, ou si la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform est suffisante.
 
 ## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
 

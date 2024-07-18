@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 74%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -22,13 +22,13 @@ Pour transférer les données historiques, il est recommandé d’utiliser [Cust
 
 **Je suis habitué à une liste déroulante de segmentation dans la plupart de mes rapports. Comment puis-je recréer cela dans [!UICONTROL Analysis Workspace] ?**
 
-Les filtres déroulants sont une fonctionnalité flexible et robuste de [!UICONTROL Analysis Workspace] qui permet une liste déroulante de segmentation. Dans un projet Workspace :
+Les filtres déroulants sont une fonctionnalité flexible et robuste d’ [!UICONTROL Analysis Workspace] qui permet une liste déroulante de segmentation. Dans un projet Workspace :
 
 1. Utilisez ctrl+clic (Windows) ou cmd+clic (Mac) sur les composants que vous souhaitez inclure dans le filtre déroulant. Vous n’êtes pas limité aux segments ; tout composant peut être inclus dans un filtre déroulant.
 2. Faites glisser le groupe de composants dans la zone de l’espace de travail intitulée « Déposer un segment ici ». Avant de relâcher, maintenez la touche Maj enfoncée.
 
-Utilisateurs accédant à [!UICONTROL Workspace] vous pouvez désormais utiliser ce filtre déroulant pour appliquer des segments ou d’autres composants au projet. Pour plus d’informations, consultez la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md) dans le guide sur les outils Analytics.
+Les utilisateurs accédant à ce projet [!UICONTROL Workspace] peuvent désormais utiliser ce filtre déroulant pour appliquer des segments ou d’autres composants au projet. Pour plus d’informations, consultez la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md) dans le guide sur les outils Analytics.
 
 **J’ai l’habitude de cliquer sur l’élément d’une dimension pour qu’une analyse en profondeur s’affiche. Comment puis-je recréer ce processus simple dans Analysis Workspace ?**
 
-Les éléments de dimension dans [!UICONTROL Analysis Workspace] offrent également un processus de ventilation facile. Accédez-y avec un clic droit au lieu d’un clic gauche. Faites un clic droit sur un élément de dimension, cliquez sur [!UICONTROL Ventilation], puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même ventilation à plusieurs éléments de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.
+Les éléments de dimension dans [!UICONTROL Analysis Workspace] offrent également un processus de répartition facile. Accédez-y avec un clic droit au lieu d’un clic gauche. Faites un clic droit sur un élément de dimension, cliquez sur **[!UICONTROL Répartition], puis sélectionnez le composant de votre choix. Vous pouvez appliquer la même répartition à plusieurs éléments de dimension en faisant ctrl+clic (Windows) ou cmd+clic (Mac) sur chaque valeur.

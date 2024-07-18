@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 77%
+source-wordcount: '367'
+ht-degree: 73%
 
 ---
 
 # Villes
 
-Les &quot;villes&quot; [dimension](overview.md) indique la ville d’où provient l’accès. Cette dimension est utile pour déterminer les villes les plus fréquentes depuis lesquelles les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour concentrer vos efforts publicitaires, comme des panneaux ou des spots publicitaires, sur ces villes.
+La [dimension](overview.md) des &quot;villes&quot; indique la ville d’où provient l’accès. Cette dimension est utile pour déterminer les villes les plus fréquentes depuis lesquelles les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour concentrer vos efforts publicitaires, comme des panneaux ou des spots publicitaires, sur ces villes.
 
 ## Renseignement de cette dimension avec des données
 
 Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://www.digitalelement.com/) pour gérer les recherches entre l’adresse IP et la ville.
 
 * Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
-* Pour les implémentations du SDK Web, activez [!UICONTROL Recherche géographique] when [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
+* Pour les implémentations de SDK Web, activez [!UICONTROL Recherche géographique] lors de la [configuration d’une banque de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 
@@ -35,4 +35,4 @@ Dans la mesure où cette dimension est basée sur l’adresse IP, certains scén
 * **Adresses IP de mobiles** : le ciblage des adresses IP de mobiles fonctionne à différents niveaux en fonction de l’emplacement et du réseau. Certains opérateurs renvoient le trafic IP par le biais de points de présence centralisés ou régionaux.
 * **Utilisateurs de FAI par satellite** : identifier l’emplacement spécifique de ces utilisateurs s’avère difficile, dans la mesure où ils semblent généralement provenir de l’emplacement de la liaison montante.
 * **Adresses IP militaires et gouvernementales** : cette catégorie englobe généralement les membres du personnel qui voyagent autour du globe et accèdent aux sites par le biais de leur point d’origine, plutôt qu’au départ de la base ou du bureau où ils se trouvent actuellement.
-* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité**: des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.
+* **Les proxies qui obscurcissent les adresses IP pour des raisons de confidentialité** : des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.

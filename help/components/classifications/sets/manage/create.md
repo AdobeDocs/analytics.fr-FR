@@ -1,16 +1,16 @@
 ---
-title: Création d’un jeu de classifications
+title: Créer un jeu de classifications
 description: Champs et descriptions disponibles lors de la création d’un jeu de classifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 28%
+ht-degree: 22%
 
 ---
 
-# Création d’un jeu de classifications
+# Créer un jeu de classifications
 
 Vous pouvez utiliser le gestionnaire de jeux de classifications pour créer un jeu de classifications.
 
@@ -18,8 +18,8 @@ Vous pouvez utiliser le gestionnaire de jeux de classifications pour créer un j
 
 Lors de la création d’un jeu de classifications, les champs suivants sont disponibles.
 
-* **[!UICONTROL Nom]**: Champ de texte utilisé pour identifier le jeu de classifications. Ce champ ne peut pas être modifié lors de la création, mais peut être renommé ultérieurement.
-* **[!UICONTROL Nom de la colonne]**: Nom de la première dimension de classification que vous souhaitez créer. Ce champ correspond au nom de la dimension utilisé dans Analysis Workspace et au nom de la colonne lors de l’exportation de données de classification. Vous pouvez ajouter d’autres noms de colonne une fois le jeu de classifications créé.
+* **[!UICONTROL Nom]** : champ de texte utilisé pour identifier le jeu de classifications. Ce champ ne peut pas être modifié lors de la création, mais peut être renommé ultérieurement.
+* **[!UICONTROL Nom de colonne]** : nom de la première dimension de classification que vous souhaitez créer. Ce champ correspond au nom de la dimension utilisé dans Analysis Workspace et au nom de la colonne lors de l’exportation de données de classification. Vous pouvez ajouter d’autres noms de colonne une fois le jeu de classifications créé.
 * **[!UICONTROL Type]** : cases d’option qui indiquent le type de classification. Les classifications principales sont généralement utilisées ; les classifications de recherche représentent des [sous-classifications](../../c-sub-classifications.md).
 * **[!UICONTROL Abonnements]** Suites de rapports et dimensions auxquelles ce jeu de classifications s’applique. Vous pouvez ajouter plusieurs combinaisons de suite de rapports et de dimension à un jeu de classifications.
 

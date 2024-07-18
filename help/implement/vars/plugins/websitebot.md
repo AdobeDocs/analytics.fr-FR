@@ -94,7 +94,7 @@ Copiez et collez le code suivant n’importe où dans le fichier AppMeasurement 
 
 ## Utilisation du plug-in
 
-La variable `websiteBot` déclenche une `s.tl` appel si le trafic non-robotique est détecté.
+Le plug-in `websiteBot` déclenche un appel `s.tl` si le trafic non bot est détecté.
 
 ## Exemples
 

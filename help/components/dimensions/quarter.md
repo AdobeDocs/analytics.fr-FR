@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Trimestre
 
-Le &quot;Trimestre&quot; [dimension](overview.md) indique le trimestre au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier trimestre de la période et le dernier élément de dimension correspond au dernier trimestre de la période. Cette dimension est idéale pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
+La [dimension](overview.md) &quot;Trimestre&quot; indique le trimestre au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier trimestre de la période et le dernier élément de dimension correspond au dernier trimestre de la période. Cette dimension est idéale pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
 
 ## Renseignement de cette dimension avec des données
 

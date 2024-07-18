@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Recherches
 
-Les &quot;recherches&quot; [metric](overview.md) indique le nombre d’accès qui correspondent à la détection de recherche externe d’Adobe. Cette mesure s’avère utile lorsque vous souhaitez consulter les éléments de dimension hors recherche et déterminer la manière dont ils ont contribué au trafic des moteurs de recherche.
+La [mesure](overview.md) &quot;Recherches&quot; indique le nombre d’accès qui correspondent à la détection de recherche externe d’Adobe. Cette mesure s’avère utile lorsque vous souhaitez consulter les éléments de dimension hors recherche et déterminer la manière dont ils ont contribué au trafic des moteurs de recherche.
 
 ## Méthode de calcul de cette mesure
 

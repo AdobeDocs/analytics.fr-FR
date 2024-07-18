@@ -5,7 +5,7 @@ feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Définit des paramètres courants pour un portail d’emploi ou un site Web de r
 
 Aucun événement de succès n’est configuré par ce modèle de suite de rapports.
 
-| Variables Aperçu personnalisé | Variable `s_code` |
+| Variables Custom Insight | Variable `s_code` |
 |---|---|
 | Sécurisé / Non sécurisé | `prop1` |
 | Propriété du trafic 2 à 5 | `prop2, prop3, prop4, prop5` |

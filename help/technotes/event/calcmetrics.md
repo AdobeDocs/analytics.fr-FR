@@ -5,16 +5,16 @@ exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
 feature: Event, Calculated Metrics
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 4%
+source-wordcount: '332'
+ht-degree: 3%
 
 ---
 
 # Dérivation de données affectées par les événements
 
-Si vous disposez de données [impact d’un événement](overview.md), vous pouvez utiliser des mesures calculées pour dériver des valeurs estimées pour la durée de l’événement. Si, par exemple, un événement a entraîné une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée.
+Si des données [affectées par un événement](overview.md) vous permettent d’utiliser des mesures calculées afin d’obtenir des valeurs estimées pour la durée de l’événement. Si, par exemple, un événement a entraîné une baisse de 25 % des données, vous pouvez l’utiliser comme multiplicateur dans une mesure calculée.
 
-Ces étapes fonctionnent mieux lorsque vous comprenez l’impact d’un événement, tant du point de vue de la segmentation que de la comparaison des dates. Veillez à suivre [Comparaison des dates affectées par un événement avec les périodes précédentes](compare-dates.md) et [Exclusion de dates spécifiques dans l’analyse](segments.md) avant de suivre cette page.
+Ces étapes fonctionnent mieux lorsque vous comprenez l’impact d’un événement, tant du point de vue de la segmentation que de la comparaison des dates. Veillez à suivre [Comparer les dates affectées par un événement aux plages précédentes](compare-dates.md) et [Exclure des dates spécifiques dans l’analyse](segments.md) avant de suivre cette page.
 
 >[!NOTE]
 >
@@ -22,15 +22,15 @@ Ces étapes fonctionnent mieux lorsque vous comprenez l’impact d’un événem
 
 Pour créer une mesure calculée estimée pour la période affectée :
 
-1. Créez deux segments pour &quot;Jours affectés&quot; et &quot;Exclure les jours affectés&quot;, comme indiqué dans la section [Exclusion de dates spécifiques dans l’analyse](segments.md).
+1. Créez deux segments pour &quot;Jours affectés&quot; et &quot;Exclure les jours affectés&quot;, comme indiqué sous [Exclure des dates spécifiques dans l’analyse](segments.md).
 2. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**.
 3. Cliquez sur **[!UICONTROL Ajouter]**.
-4. Faites glisser les deux segments ci-dessus vers le canevas de définition. Remplacez l’opérateur entre eux par un `+` pour les résumer.
+4. Faites glisser les deux segments ci-dessus vers le canevas de définition. Définissez l’opérateur entre eux sur `+` pour les additionner.
 5. Ajoutez la mesure souhaitée dans les deux segments. Par exemple, vous pouvez utiliser la mesure &quot;Visites&quot;.
 
    ![Créateur de segments](assets/event_segment_builder.png)
 
-6. Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit du conteneur &quot;jours concernés&quot;, puis cliquez sur **[!UICONTROL Nombre statique]**. Définissez le nombre statique sur le pourcentage que vous souhaitez décaler vos données, comme indiqué sous [Comparaison des dates affectées par un événement avec les périodes précédentes](compare-dates.md). Dans cet exemple, le décalage est de 25 %, soit 1,25.
+6. Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit du conteneur &quot;Jours affectés&quot;, puis cliquez sur **[!UICONTROL Nombre statique]**. Définissez le nombre statique sur le pourcentage de décalage de vos données, comme indiqué sous [Comparer les dates affectées par un événement aux plages précédentes](compare-dates.md). Dans cet exemple, le décalage est de 25 %, soit 1,25.
 
    ![Nombre statique](assets/event_static_number.png)
 

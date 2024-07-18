@@ -25,20 +25,20 @@ La variable `useBeacon` est ignorée lorsque le visiteur utilise un navigateur q
 
 ## Utilisation de l’API sendBeacon à l’aide de l’extension SDK Web
 
-La variable **[!UICONTROL Le document sera déchargé.]** dans une configuration d’action détermine si les données envoyées à Adobe utilisent l’API sendBeacon.
+La case à cocher **[!UICONTROL Le document se décharge]** dans une configuration d’action détermine si les données envoyées à Adobe utilisent l’API sendBeacon.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Règles] , puis cliquez sur la règle de votre choix.
-1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur le bouton **&#39;+&#39;** pour ajouter une nouvelle action.
-1. Définissez la variable [!UICONTROL Extension] Liste déroulante à **[!UICONTROL SDK Web Adobe Experience Platform]** et la variable [!UICONTROL Type d’action] to **[!UICONTROL Envoyer un événement]**
-1. Cochez la case . **[!UICONTROL Le document sera déchargé.]** à droite.
+1. Accédez à l’onglet [!UICONTROL Rules] , puis cliquez sur la règle de votre choix.
+1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **&#39;+&#39;** pour ajouter une nouvelle action.
+1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer l’événement]**
+1. Cochez la case **[!UICONTROL Le document se décharge]** à droite.
 
 Si cette case est cochée, les données sont envoyées à l’Adobe à l’aide de l’API sendBeacon. Cette case est désactivée par défaut.
 
 ## Utilisation de l’API sendBeacon pour implémenter manuellement le SDK Web
 
-Définir `documentUnloading` to `true` lors de l’envoi d’un événement. Si elle n’est pas définie, sa valeur par défaut est `false`.
+Définissez `documentUnloading` sur `true` lors de l’envoi d’un événement. Si elle n’est pas définie, sa valeur par défaut est `false`.
 
 ```json
 alloy("sendEvent", {
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-Voir [Utilisation de l’API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#using-the-sendbeacon-api) pour plus d’informations, voir la documentation du SDK Web .
+Pour plus d’informations, voir [Utilisation de l’API sendBeacon](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#using-the-sendbeacon-api) dans la documentation du SDK Web.
 
 ## Utilisation de la balise à l’aide de l’extension Adobe Analytics
 

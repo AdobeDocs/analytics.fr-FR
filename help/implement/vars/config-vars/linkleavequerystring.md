@@ -27,7 +27,7 @@ L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions d
 
 ## Gestion des chaînes de requête de lien à l’aide du SDK Web
 
-Les chaînes de requête ne sont pas retirées du champ XDM `web.webInteraction.URL`. Si vous souhaitez supprimer les chaînes de requête de ce champ XDM, vous pouvez le modifier à l’aide de la propriété `onBeforeEventSend`.
+Les chaînes de requête ne sont pas retirées du champ XDM `web.webInteraction.URL`. Si vous souhaitez supprimer les chaînes de requête de ce champ XDM, vous pouvez le modifier à l’aide de `onBeforeEventSend`.
 
 ## Conserver les paramètres d’URL à l’aide de l’extension Adobe Analytics
 

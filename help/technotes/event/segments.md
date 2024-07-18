@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Exclusion de dates spécifiques dans l’analyse
 
-Si vous disposez de données [impact d’un événement](overview.md), vous pouvez utiliser un segment pour exclure les plages de dates que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par les événements peut empêcher votre entreprise de prendre des décisions sur des données partielles.
+Si des données [ sont affectées par un événement](overview.md), vous pouvez utiliser un segment pour exclure les périodes que vous ne souhaitez pas inclure dans vos rapports. La segmentation des dates affectées par les événements peut empêcher votre entreprise de prendre des décisions sur des données partielles.
 
 ## Isoler les jours concernés {#isolate}
 
@@ -22,7 +22,7 @@ Créez un segment qui isole le jour ou la période affecté. Ce segment est util
 2. Faites glisser la dimension &quot;Jour&quot; sur le canevas de définition, puis définissez-la sur le jour que vous souhaitez isoler.
 3. Répétez l’étape ci-dessus pour chaque jour que vous souhaitez isoler dans votre rapport.
 
-![Segment Jours concernés](assets/affected_days.jpg)
+![Segment des jours concernés](assets/affected_days.jpg)
 
 >[!TIP]
 >
@@ -30,7 +30,7 @@ Créez un segment qui isole le jour ou la période affecté. Ce segment est util
 
 Adobe recommande d’utiliser les composants de dimension de dimension orange, et non les composants de période violets. Si vous utilisez des composants de période violets, ils remplacent la période calendaire du projet :
 
-![Exclure le type de jour du segment](assets/exclude_segment_day_type.jpg)
+![Exclure le type de jour de segment](assets/exclude_segment_day_type.jpg)
 
 ## Exclure les jours concernés {#exclude}
 
@@ -41,7 +41,7 @@ Créez un segment qui exclut le jour ou la période concerné. Ce segment est ut
 3. Faites glisser la dimension &quot;Jour&quot; sur le canevas de définition, puis définissez-la sur le jour à supprimer.
 4. Répétez l’étape ci-dessus pour chaque jour que vous souhaitez supprimer dans votre rapport.
 
-![Exclure les jours concernés](assets/exclude_affected_days.jpg)
+![Exclure les jours affectés](assets/exclude_affected_days.jpg)
 
 ## Utilisation de ces segments dans les rapports
 
@@ -51,19 +51,19 @@ Une fois le segment d’exclusion créé, vous pouvez l’utiliser exactement co
 
 Vous pouvez appliquer les segments &quot;Jours affectés&quot; et &quot;Exclure les jours affectés&quot; dans un rapport afin de les comparer côte à côte. Faites glisser les deux segments au-dessus ou au-dessous d’une mesure pour les comparer :
 
-![Les segments](assets/affected_and_exclude.png)
+![Les deux segments](assets/affected_and_exclude.png)
 
-Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (ce qui entraîne des creux), activez **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** sous les paramètres de colonne.
+Si vous ne souhaitez pas afficher de zéros dans votre tableau ou vos visualisations (provoquant des creux), activez l’option **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** dans les paramètres de colonne.
 
 ![Interpréter zéro](assets/interpret_zero.png)
 
-Si vous ne souhaitez pas afficher de zéros dans le tableau ou les visualisations (ce qui entraîne des creux), activez **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** sous les paramètres de colonne.
+Si vous ne souhaitez pas afficher de zéros dans votre tableau ou vos visualisations (provoquant des creux), activez l’option **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** dans les paramètres de colonne.
 
 ![Interpréter zéro](assets/interpret_zero.png)
 
 ### Application du segment d’exclusion à un projet {#apply}
 
-Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un projet Workspace. Faites glisser le segment d’exclusion vers la section de canevas de Workspace intitulée *Déposer un segment ici*.
+Vous pouvez appliquer le segment &quot;Exclure les jours affectés&quot; à un projet Workspace. Faites glisser le segment d’exclusion vers la section de canevas Workspace intitulée *Déposez un segment ici*.
 
 >[!TIP]
 >
@@ -78,7 +78,7 @@ Vous pouvez utiliser le segment dans une [suite de rapports virtuelle](/help/com
 1. Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]**.
 2. Cliquez sur **[!UICONTROL Ajouter]**.
 3. Saisissez le nom et la description souhaités pour la suite de rapports virtuelle.
-4. Faites glisser le segment exclu vers la zone étiquetée **[!UICONTROL Ajouter un segment]**.
-5. Cliquez sur **[!UICONTROL Continuer]** dans le coin supérieur droit, puis cliquez sur **[!UICONTROL Enregistrer]**.
+4. Faites glisser le segment d’exclusion vers la zone intitulée **[!UICONTROL Ajouter un segment]**.
+5. Cliquez sur **[!UICONTROL Continuer]** en haut à droite, puis sur **[!UICONTROL Enregistrer]**.
 
 ![Segment appliqué à la suite de rapports virtuelle](assets/exclude_segment_vrs.png)

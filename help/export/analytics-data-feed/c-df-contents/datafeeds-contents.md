@@ -28,7 +28,7 @@ Pour accéder au contenu d’un flux de données :
 
 1. Décompressez le fichier comprimé à l’aide d’un programme qui prend en charge les extensions de fichier `.tar.gz`.
 
-1. Ouvrez le `hit_data.tsv` dans votre tableur ou application de base de données de votre choix pour afficher les données brutes pour cette journée. —>
+1. Ouvrez le fichier `hit_data.tsv` dans votre application de tableur ou de base de données de votre choix pour afficher les données brutes pour cette journée. —>
 
 ## Fichier de manifeste {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Chaque fichier de manifeste contient un en-tête qui indique le nombre total de fichiers de recherche et de fichiers de données, ainsi que le total des enregistrements dans tous les fichiers de données. Cet en-tête est suivi de plusieurs sections qui contiennent des informations pour chaque fichier inclus dans la remise du flux de données.
 
-Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. La variable `.fin` indique que le chargement est terminé, mais que les métadonnées qu’il contient sont dans un format plus ancien.
+Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. `.fin` indique que le chargement est terminé, mais que les métadonnées qu’il contient sont dans un format plus ancien.
 
 ## Fichiers de recherche
 
@@ -81,20 +81,20 @@ La remise des fichiers de recherche s’effectue dans une archive .zip compress�
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**: une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
-* **`browser.tsv`**: mappe l’ID du navigateur (le paramètre `browser` de flux) au nom convivial du navigateur.
-* **`browser_type.tsv`**: mappe l’ID du navigateur (le paramètre `browser` colonne flux) au type de navigateur.
-* **`color_depth.tsv`**: mappe l’identifiant de profondeur de couleur (le paramètre `color` colonne flux) en profondeur de couleur.
-* **`connection_type.tsv`**: mappe l’ID de type de connexion (le `connection_type` colonne flux) au type de connexion.
-* **`country.tsv`**: mappe l’ID de pays (la variable `country` colonne flux) au nom du pays.
-* **`javascript_version.tsv`**: mappe l’ID de version JavaScript (le paramètre `javascript` la colonne flux) vers la version JavaScript.
-* **`languages.tsv`**: mappe l’ID de langue (le paramètre `language` colonne flux) vers la langue.
-* **`operating_systems.tsv`**: mappe l’identifiant du système d’exploitation (le `os` de flux) au nom du système d’exploitation.
-* **`plugins.tsv`**: mappe les identifiants du module externe (le `plugin` colonne flux) à chaque nom de module externe respectif.
-* **`resolution.tsv`**: mappe l’ID de résolution (le paramètre `resolution` colonne flux) à la résolution de l’écran.
-* **`referrer_type.tsv`**: mappe l’identifiant du type de référent (le paramètre `ref_type` colonne flux) au type de référent.
-* **`search_engines.tsv`**: mappe l’identifiant du moteur de recherche (le `search_engine` colonne flux) au nom du moteur de recherche.
-* **`event.tsv`**: mappe chaque ID d’événement (la variable `event_list` de flux) à son nom d’événement respectif.
+* **`column_headers.tsv`** : une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
+* **`browser.tsv`** : mappe l’identifiant du navigateur (la colonne de flux `browser`) au nom convivial du navigateur.
+* **`browser_type.tsv`** : mappe l’ID de navigateur (la colonne de flux `browser`) au type de navigateur.
+* **`color_depth.tsv`** : mappe l’identifiant de profondeur de couleur (colonne de flux `color`) à l’intensité de couleur.
+* **`connection_type.tsv`** : mappe l’ID de type de connexion (colonne de flux `connection_type`) au type de connexion.
+* **`country.tsv`** : mappe l’ID de pays (la colonne de flux `country`) au nom du pays.
+* **`javascript_version.tsv`** : mappe l’ID de version JavaScript (colonne de flux `javascript`) à la version JavaScript.
+* **`languages.tsv`** : mappe l’ID de langue (la colonne de flux `language`) à la langue.
+* **`operating_systems.tsv`** : mappe l’identifiant du système d’exploitation (la colonne de flux `os`) au nom du système d’exploitation.
+* **`plugins.tsv`** : mappe les identifiants du module externe (la colonne de flux `plugin`) à chaque nom de module externe respectif.
+* **`resolution.tsv`** : mappe l’ID de résolution (colonne de flux `resolution`) à la résolution de l’écran.
+* **`referrer_type.tsv`** : mappe l’ID de type de référent (colonne de flux `ref_type`) au type de référent.
+* **`search_engines.tsv`** : associe l’identifiant du moteur de recherche (la colonne de flux `search_engine`) au nom du moteur de recherche.
+* **`event.tsv`** : associe chaque ID d’événement (la colonne de flux `event_list`) à son nom d’événement respectif.
 
 ## Fichiers de données d’accès
 
@@ -139,7 +139,7 @@ Lorsque les données sont collectées pour une heure, vous recevez un ou plusieu
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Une fois extrait, chaque fichier de données contient une seule `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` qui contient environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
+Une fois extrait, chaque fichier de données contient un seul fichier `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` contenant environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
 
 ## Taille du fichier de données
 

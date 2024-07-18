@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '596'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Cette visualisation aborde divers cas d’utilisation courants, notamment :
    | **[!UICONTROL Période de comparaison]** | La période à laquelle vous souhaitez comparer la période principale. |
    | **[!UICONTROL Segment (facultatif)]** | Tout segment qui vous intéresse spécifiquement pour cette synthèse. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -81,7 +81,7 @@ La synthèse des mesures clés offre plusieurs paramètres flexibles pour une me
 | **[!UICONTROL Afficher la comparaison]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de modification de graphique en courbes de comparaison et de modification de synthèse sont hors de vue. |
 | **[!UICONTROL Afficher le nombre total]** | Afficher ou masquer la synthèse des chiffres |
 | **[!UICONTROL Afficher la différence brute]** | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
-| **[!UICONTROL Abréger la valeur]** | Abréger les valeurs numériques pour simplifier les insights communiqués (par exemple, 20 000 -> 20 000) |
+| **[!UICONTROL Abréger la valeur]** | Abréger les valeurs numériques pour simplifier les informations communiquées (par exemple, 20 000 -> 20K) |
 
 ## Modifier la visualisation
 

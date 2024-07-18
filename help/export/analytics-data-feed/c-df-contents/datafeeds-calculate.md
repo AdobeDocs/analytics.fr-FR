@@ -34,7 +34,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 >[!TIP]
 >
->Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, utilisez `visit_start_time_gmt` lors du comptage des visites pour s’assurer que ces visites sont comptabilisées.
+>Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, utilisez `visit_start_time_gmt` lors du comptage des visites pour vous assurer que ces visites sont comptabilisées.
 
 ## Visiteurs
 

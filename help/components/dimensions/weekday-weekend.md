@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Jour ouvrable/week-end
 
-&#39;Jour ouvrable/week-end&#39; [dimension](overview.md) fournit des informations sur les occurrences de l’accès pendant un jour de semaine (du lundi au vendredi) ou le week-end (du samedi au dimanche). L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La [dimension](overview.md) &quot;Jour ouvrable/week-end&quot; permet de savoir si l’accès s’est produit au cours d’un jour ouvrable (du lundi au vendredi) ou d’un week-end (du samedi au dimanche). L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Renseignement de cette dimension avec des données
 

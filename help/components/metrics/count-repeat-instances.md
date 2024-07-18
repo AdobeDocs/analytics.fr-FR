@@ -17,4 +17,4 @@ ht-degree: 91%
 Dans Workspace, vous pouvez choisir d’[inclure/exclure les instances répétées](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) sous **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**. Elles sont incluses par défaut.
 
 >[!NOTE]
->Ce paramètre ne s’applique pas aux visualisations de [!UICONTROL Flux] ou d’[!UICONTROL abandons]. Dans Workspace, [!UICONTROL Flux] possède son propre [paramètre](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) pour supprimer les répétitions.
+>Ce paramètre ne s’applique pas aux visualisations de [!UICONTROL Flux] ou d’[!UICONTROL abandons]. Dans Workspace, le [!UICONTROL flux] possède son propre [paramètre](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) pour supprimer les répétitions.

@@ -30,13 +30,13 @@ Si les demandes de Data Warehouse prennent constamment du temps, envisagez de mo
 Pour accélérer la diffusion d&#39;une demande de Data Warehouse, vous pouvez la modifier de l&#39;une des manières suivantes :
 
 * **Utilisation d’un segment contenant un plus petit échantillon de données** : moins une demande utilise de données, plus le renvoi du rapport est accéléré.
-* **Exécution de requêtes par incréments de 14 jours ou moins**: les demandes plus petites sont traitées plus rapidement que les demandes plus volumineuses.
-* **Utiliser moins de ventilations :** De nombreuses ventilations d’une requête augmentent de manière exponentielle le temps nécessaire au traitement.
+* **Exécuter les requêtes par incréments de 14 jours ou moins** : les requêtes plus petites sont traitées plus rapidement que les requêtes plus volumineuses.
+* **Utiliser moins de ventilations :** De nombreuses ventilations dans une requête augmentent de manière exponentielle le temps nécessaire au traitement.
 
 ## Utilisation d’une autre méthode
 
 Si vous devez obtenir ces types de rapports plus rapidement, envisagez les alternatives suivantes :
 
 * **Analysis Workspace** : bien qu’un nombre illimité d’éléments de dimension ne soit pas disponible, presque tous les autres cas d’utilisation fournis par Data Warehouse sont inclus.
-* **Flux de données**: récupère quotidiennement toutes les données brutes d’une suite de rapports et les envoie à une destination cloud. Vous pouvez ensuite importer les données dans votre propre base de données et exécuter des requêtes afin d&#39;obtenir les données dont vous avez besoin.
+* **Flux de données** : récupère quotidiennement toutes les données brutes d’une suite de rapports et les envoie vers une destination cloud. Vous pouvez ensuite importer les données dans votre propre base de données et exécuter des requêtes afin d&#39;obtenir les données dont vous avez besoin.
 * **Solution de services d’ingénierie personnalisée** : les services d’ingénierie d’Adobe peuvent fournir une solution personnalisée à votre entreprise moyennant des frais supplémentaires. Pour plus d’informations, contactez votre équipe de compte d’Adobe.

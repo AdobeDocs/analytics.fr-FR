@@ -5,9 +5,9 @@ title: Flux de données Analytics - Aperçu
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Les ressources suivantes vous aident à comprendre le workflow de base de l’ob
 * [Bonnes pratiques relatives aux flux de données](/help/export/analytics-data-feed/data-feeds-best-practices.md) : bonnes pratiques pour la création et la gestion des flux de données.
 * [Créer un flux de données](create-feed.md) : informations techniques relatives à la création d’un flux de données, expliquant les champs individuels de manière plus détaillée
 * [Gérer les flux de données](df-manage-feeds.md) : découvrez-en plus sur la navigation dans l’interface des flux de données
-* [Contenu du flux de données](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le fichier compressé <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Contenu du flux de données](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le fichier compressé <!-- Is this still the output users can download from the destination? I aske Jun. -->
 * [Définitions des colonnes de données](c-df-contents/datafeeds-reference.md) : une liste complète de l’ensemble des colonnes disponibles.
 * Vidéo relative à la navigation dans l’interface des flux de données :
 

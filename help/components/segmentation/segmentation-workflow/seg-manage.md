@@ -6,7 +6,7 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '749'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -20,11 +20,11 @@ Le Gestionnaire de segments Analytics vous présente tous les segments que vous 
 
 ## Accès au Gestionnaire de segments
 
-1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Segments]**.
+1. Dans Adobe Analytics, sélectionnez l’onglet **[!UICONTROL Composants]**, puis sélectionnez **[!UICONTROL Segments]**.
 
    Ou
 
-   Dans un rapport existant, sélectionnez l’icône Segments . ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Gérer]**.
+   Dans un rapport existant, sélectionnez l’icône Segments ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) dans le volet de navigation de gauche, puis sélectionnez **[!UICONTROL Gérer]**.
 
 ## Actions disponibles dans le Gestionnaire de segments
 
@@ -52,9 +52,9 @@ Vous pouvez configurer les informations affichées pour chaque segment dans le G
 
 Pour configurer les colonnes visibles dans le Gestionnaire de segments :
 
-1. Dans Adobe Analytics, sélectionnez la variable **[!UICONTROL Composants]** , puis sélectionnez **[!UICONTROL Segments]**.
+1. Dans Adobe Analytics, sélectionnez l’onglet **[!UICONTROL Composants]**, puis sélectionnez **[!UICONTROL Segments]**.
 
-1. Dans le Gestionnaire de segments, sélectionnez la variable **Personnalisation des colonnes** icon ![Icône Personnaliser les colonnes](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le Gestionnaire de segments.
+1. Dans le Gestionnaire de segments, sélectionnez l’icône **Personnaliser les colonnes** ![Icône Personnaliser les colonnes](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le Gestionnaire de segments.
 
    Les colonnes suivantes sont disponibles :
 
@@ -67,8 +67,8 @@ Pour configurer les colonnes visibles dans le Gestionnaire de segments :
    | Balises (non cochées dans le sélecteur de colonnes, de ce fait, la colonne n’apparaît pas) | Les balises qui ont été appliquées au segment, soit par vous, soit par des personnes qui ont partagé le segment avec vous. |
    | Partagé avec | Répertorie les individus ou les groupes (administrateur uniquement) ou toutes les personnes (administrateur uniquement) avec lesquelles vous avez partagé le segment. <p>Lorsqu’un segment est partagé par vous ou avec vous, une icône de partage s’affiche en regard du nom du segment.</p> |
    | Date de modification | Affiche la date de la dernière modification du segment. |
-   | Utilisation dans | Indique le nombre de composants dans lesquels le segment est actuellement utilisé. <p>Par exemple, si le segment est utilisé dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche comme [!UICONTROL **42 composants**].</p> <p>Sélectionnez la valeur de cette colonne pour voir la répartition de l’emplacement d’utilisation du segment (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Alertes (2)**]).</p><p>Les segments peuvent être utilisés dans l’un des types de composants suivants :</p> <ul><li>Alertes</li><li>Projets</li><li>Projets planifiés</li><li>Mesures calculées</li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>La variable [!UICONTROL **Utilisé dans**] ne s’affiche pas par défaut. [Configuration des colonnes](#configure-columns) pour l’afficher.</li><li>Si cette colonne ne contient aucune donnée pour un composant donné, mais qu’elle comporte une [!UICONTROL **Dernière utilisation**] date, le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise.</p> |
-   | Dernière utilisation | Affiche la date de la dernière utilisation du segment dans l’un des types de composants suivants : <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li><li>Segments</li></ul> <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>Pour certains composants, cette colonne peut ne pas contenir de données si le composant a été utilisé pour la dernière fois avant septembre 2023.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser la variable [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) ainsi que ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre entreprise. |
+   | Utilisation dans | Indique le nombre de composants dans lesquels le segment est actuellement utilisé. <p>Par exemple, si le segment est utilisé dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche sous la forme [!UICONTROL **42 composants**].</p> <p>Sélectionnez la valeur de cette colonne pour voir la répartition de l’emplacement d’utilisation du segment (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Alertes (2)**]).</p><p>Les segments peuvent être utilisés dans l’un des types de composants suivants :</p> <ul><li>Alertes</li><li>Projets</li><li>Projets planifiés</li><li>Mesures calculées</li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>La colonne [!UICONTROL **Utilisé dans**] ne s’affiche pas par défaut. [Configurez les colonnes](#configure-columns) pour les afficher.</li><li>Si cette colonne ne contient pas de données pour un composant donné mais qu’elle a une date [!UICONTROL **Dernière utilisation**], le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser le [dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) avec ces informations pour vous aider à suivre et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> |
+   | Dernière utilisation | Affiche la date de la dernière utilisation du segment dans l’un des types de composants suivants : <ul><li>Alertes</li><li>Mesures calculées</li><li>Projets</li><li>Projets planifiés</li><li>Segments</li></ul> <p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations n’incluent pas l’utilisation de l’API, du Report Builder ou du Data Warehouse.</li><li>Pour certains composants, cette colonne peut ne pas contenir de données si le composant a été utilisé pour la dernière fois avant septembre 2023.</li><li>Ces informations sont disponibles uniquement pour les administrateurs système.</li></ul><p>Vous pouvez utiliser le [dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) avec ces informations pour vous aider à suivre et à mieux comprendre comment les composants sont utilisés dans votre organisation. |
 
    {style="table-layout:auto"}
 

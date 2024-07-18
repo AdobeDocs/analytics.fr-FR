@@ -5,15 +5,15 @@ feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '434'
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
 
 # Guide d’utilisation de [!UICONTROL Labs]
 
-[!UICONTROL Labs] permet de concevoir plus rapidement des prototypes à partir d’idées au stade précoce. Il s’agit d’une combinaison d’outils et de processus qui accélèrent le développement de manière transparente en s’orientant sur le client. Il permet aux utilisateurs d’interagir avec des technologies émergentes, de découvrir des insights précieux et d’influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour obtenir un accès anticipé aux innovations Adobe Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation professionnels et de vos propres données.
+[!UICONTROL Labs] permet de concevoir plus rapidement des prototypes à partir d’idées au stade précoce. Il s’agit d’une combinaison d’outils et de processus qui accélèrent le développement de manière transparente en s’orientant sur le client. Il permet aux utilisateurs d’interagir avec des technologies émergentes, de découvrir de précieuses informations, et d’influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour obtenir un accès anticipé aux innovations Adobe Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation professionnels et de vos propres données.
 
 ## Configuration requise
 

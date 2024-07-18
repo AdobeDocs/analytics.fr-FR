@@ -33,4 +33,4 @@ Une fois le contrat signé :
 
 Une fois qu’un premier administrateur est configuré pour votre organisation, il peut ensuite attribuer aux utilisateurs de l’organisation d’autres rôles clés.
 
-Pour plus d’informations sur la configuration des rôles clés d’Adobe Analytics pour les utilisateurs de votre entreprise, voir [Rôles d’administrateur dans Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).
+Pour plus d’informations sur la configuration des utilisateurs de votre organisation avec des rôles clés pour Adobe Analytics, voir [Rôles d’administrateur dans Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md).

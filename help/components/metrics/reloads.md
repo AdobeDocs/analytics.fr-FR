@@ -12,7 +12,7 @@ ht-degree: 74%
 
 # Actualisations
 
-Les &quot;Actualisations&quot; [metric](overview.md) indique le nombre de fois où un élément de dimension a été présent lors d’un rechargement. Un visiteur actualisant son navigateur est la méthode la plus courante pour déclencher une actualisation.
+La [mesure](overview.md) &quot;Actualisations&quot; indique le nombre de fois où un élément de dimension a été présent au cours d’une actualisation. Un visiteur actualisant son navigateur est la méthode la plus courante pour déclencher une actualisation.
 
 ## Méthode de calcul de cette mesure
 

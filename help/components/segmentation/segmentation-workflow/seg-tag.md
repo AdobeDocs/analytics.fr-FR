@@ -30,7 +30,7 @@ Tous les utilisateurs peuvent créer des balises pour les segments et en appliqu
    * effectuez une sélection dans les balises existantes, ou
    * ajoutez une nouvelle balise et appuyez sur **[!UICONTROL Entrée]**.
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. Cliquez à nouveau sur **[!UICONTROL Balise]** pour marquer le segment.
 

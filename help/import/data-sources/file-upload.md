@@ -15,21 +15,21 @@ ht-degree: 1%
 
 L’envoi d’un fichier de sources de données à l’Adobe implique un processus FTP authentifié type. Vous pouvez utiliser l’Explorateur Windows, le Finder ou un client FTP dédié pour télécharger les fichiers de votre choix vers l’emplacement FTP de l’Adobe.
 
-Recherchez les informations d’identification FTP dans la variable [Gestionnaire des sources de données](manage.md). Chaque source de données comporte un lien vers son **[!UICONTROL Infos FTP]**. Chaque emplacement FTP est dédié à cette source de données spécifique ; vous ne pouvez pas utiliser le même emplacement FTP pour plusieurs sources de données.
+Recherchez les informations d’identification FTP dans le [gestionnaire de sources de données](manage.md). Chaque source de données comporte un lien vers son **[!UICONTROL FTP Info]**. Chaque emplacement FTP est dédié à cette source de données spécifique ; vous ne pouvez pas utiliser le même emplacement FTP pour plusieurs sources de données.
 
 Pour des raisons de sécurité, les emplacements FTP sans activité pendant plus de 30 jours sont désactivés.
 
-## La variable `.fin` fichier
+## Le fichier `.fin`
 
-L’inclusion d’une `.fin` fichier . Ce fichier indique que le fichier de données est prêt pour le traitement. Si vous transférez un fichier de sources de données sans qu’un `.fin` , Adobe ne traite jamais ces données.
+L’inclusion d’un fichier `.fin` est un élément essentiel de l’ingestion réussie d’un fichier de sources de données. Ce fichier indique que le fichier de données est prêt pour le traitement. Si vous chargez un fichier de sources de données sans fichier `.fin` correspondant, Adobe ne traite jamais ces données.
 
-La variable `.fin` possède les propriétés suivantes :
+Le fichier `.fin` possède les propriétés suivantes :
 
-* Le fichier comporte une `.fin` extension . Assurez-vous que votre système d’exploitation vous permet d’afficher et de modifier des types de fichiers.
-* Le fichier est vide. Ne pas stocker de données dans la variable `.fin` fichier .
-* Le fichier porte exactement le même nom que le fichier de sources de données. Par exemple, si vous transférez un fichier de sources de données nommé `example.txt`, la variable `.fin` fichier **must** être nommé `example.fin`. S’ils ne portent pas le même nom, Adobe ne traite jamais le fichier de sources de données.
+* Le fichier a une extension `.fin`. Assurez-vous que votre système d’exploitation vous permet d’afficher et de modifier des types de fichiers.
+* Le fichier est vide. Ne stockez pas de données dans le fichier `.fin`.
+* Le fichier porte exactement le même nom que le fichier de sources de données. Par exemple, si vous téléchargez un fichier de sources de données nommé `example.txt`, le fichier `.fin` **doit** être nommé `example.fin`. S’ils ne portent pas le même nom, Adobe ne traite jamais le fichier de sources de données.
 
-Une fois que le fichier de source de données et `.fin` sont téléchargés sur le site FTP, Adobe traite le fichier. Ne téléchargez pas le fichier `.fin` jusqu’à ce que le fichier de sources de données soit entièrement chargé. Si la variable `.fin` est chargé de manière prématurée, Adobe récupère et ingère le fichier partiellement chargé, ce qui peut entraîner des erreurs.
+Une fois que le fichier de source de données et le fichier `.fin` sont transférés sur le site FTP, Adobe traite le fichier. Ne téléchargez pas le fichier `.fin` tant que le fichier de sources de données n’a pas été entièrement transféré. Si le fichier `.fin` est téléchargé de manière prématurée, Adobe récupère et ingère le fichier partiellement téléchargé, ce qui peut entraîner des erreurs.
 
 ## Ordre de traitement
 

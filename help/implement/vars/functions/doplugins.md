@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # doPlugins
 
-La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. C&#39;est l&#39;endroit idéal pour passer des appels à [Méthodes de plug-in](../plugins/impl-plugins.md) et définissez les variables souhaitées avant l’envoi d’une demande d’image. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
+La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. C’est l’endroit idéal pour lancer des appels à [Méthodes de plug-in](../plugins/impl-plugins.md) et définir toutes les variables souhaitées avant l’envoi d’une demande d’image. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
 
 * Tous les appels de page vue ([`t()`](t-method.md))
 * Tous les appels de suivi de liens ([`tl()`](tl-method.md)), y compris les liens de téléchargement et de sortie automatiques
@@ -26,13 +26,13 @@ Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonction
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Collecte de données], cliquez sur le **[!UICONTROL Modifier avant le code de rappel d’envoi d’événement]** bouton .
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier avant l’envoi du code de rappel d’événement]** .
 1. Placez le code de votre choix dans l’éditeur.
 
-## Utilisation `onBeforeEventSend` implémentation manuelle du SDK Web
+## Utiliser `onBeforeEventSend` en implémentant manuellement le SDK Web
 
-Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonctionnalités similaires. Voir [Modification globale des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) pour plus d’informations, voir la documentation du SDK Web .
+Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonctionnalités similaires. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation du SDK Web.
 
 ```js
 // Set the trackingCode XDM field to "New value"

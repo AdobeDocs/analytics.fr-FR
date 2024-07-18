@@ -15,8 +15,8 @@ ht-degree: 80%
 
 L’utilisation des appels au serveur Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation des appels au navigateur et au serveur mobile. Il vous permet d’accéder à :
 
-* Tableau de bord de l’utilisation de l’appel au serveur qui suit les données de consommation de l’appel au serveur et les compare à votre limite contractuelle. (Dans Adobe Analytics, sélectionnez > [!UICONTROL **Administration**] > [!UICONTROL **Utilisation des appels au serveur**])
-* Type d’alerte d’utilisation des appels au serveur dans le générateur d’alertes qui permet de configurer des alertes pour éviter les dépassements (dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Alertes**])
+* Tableau de bord de l’utilisation de l’appel au serveur qui suit les données de consommation de l’appel au serveur et les compare à votre limite contractuelle. (Dans Adobe Analytics, sélectionnez > [!UICONTROL **Admin**] > [!UICONTROL **Utilisation de l’appel au serveur**])
+* Type d’alerte d’utilisation de l’appel au serveur dans le générateur d’alertes qui permet de configurer des alertes pour éviter des dépassements (dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Alertes**]).
 
 Les principaux avantages de l’utilisation de l’appel au serveur sont les suivants :
 
@@ -25,8 +25,8 @@ Les principaux avantages de l’utilisation de l’appel au serveur sont les sui
 
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Autorisations :** Pour accéder au tableau de bord d’utilisation de l’appel au serveur et au générateur d’alertes ou au gestionnaire d’alertes, vous devez être un administrateur Adobe Analytics.
-* **Autorisations :** Les administrateurs peuvent accorder l’accès à des non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation des appels au serveur]**. Voir [Autorisation d’utilisation des appels au serveur](#server-call-usage-permission).
+* **Autorisations :** Pour accéder au tableau de bord de l’utilisation de l’appel au serveur et au générateur d’alertes ou au gestionnaire d’alertes, vous devez être un administrateur Adobe Analytics.
+* **Autorisations :** Les administrateurs peuvent accorder l’accès à des non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [Autorisation d’utilisation des appels au serveur](#server-call-usage-permission).
 
 ## Terminologie importante {#terminology}
 
@@ -99,13 +99,13 @@ L’autorisation d’utilisation de l’appel au serveur est automatiquement acc
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Administration </span>  &gt; <span class="uicontrol"> Tous les administrateurs </span>  &gt; <span class="uicontrol"> Gestion des utilisateurs </span>  &gt; <span class="uicontrol"> Groupes </span>  &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span>  &gt; <span class="uicontrol"> Outils Analytics </span>  &gt; <span class="uicontrol"> Personnaliser </span>  &gt; <span class="uicontrol"> utilisation des appels au serveur </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> Gestion des utilisateurs </span> &gt; <span class="uicontrol"> Groupes </span> &gt; <span class="uicontrol"> Modifier l’accès à tous les rapports </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Personnaliser </span> &gt; <span class="uicontrol"> utilisation de l’appel au serveur </span> </span>  </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login.experiencecloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Produits </span>  &gt; <span class="uicontrol"> Profil de produits </span>  &gt; <span class="uicontrol"> Autorisations </span>  &gt; <span class="uicontrol"> Outils Analytics </span>  &gt; <span class="uicontrol"> utilisation des appels au serveur </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Produits </span> &gt; <span class="uicontrol"> Profil de produits </span> &gt; <span class="uicontrol"> Autorisations </span> &gt; <span class="uicontrol"> Outils Analytics </span> &gt; <span class="uicontrol"> Utilisation de l’appel au serveur </span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

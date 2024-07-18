@@ -21,34 +21,40 @@ ht-degree: 54%
 
 Vous pouvez configurer un compte cloud qui est utilisé à l’un des ou à tous les usages suivants :
 
-* Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exporter des rapports à l’aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Import de schémas à l’aide de [Jeux de classifications](/help/components/classifications/sets/overview.md)
+* Exportation de fichiers à l’aide de [ flux de données](/help/export/analytics-data-feed/create-feed.md)
+* Exportation de rapports à l’aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Importation de schémas à l’aide de [jeux de classifications](/help/components/classifications/sets/overview.md)
 
-Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (un dossier dans le compte, par exemple) comme décrit dans la section [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
+Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, le RGPD de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement dans ce compte (par exemple, un dossier dans le compte) comme décrit dans la section [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
 
-Pour plus d’informations sur l’affichage et la suppression de comptes existants, voir [Gestionnaire d&#39;emplacements](/help/components/locations/locations-manager.md).
+Pour plus d’informations sur la manière d’afficher et de supprimer des comptes existants, voir [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
 Pour configurer un compte d’importation ou d’exportation cloud :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
-1. Sur le [!UICONTROL Emplacements] , sélectionnez [!UICONTROL **Comptes d’emplacement**] .
-1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer la variable [!UICONTROL **Affichage des comptes de tous les utilisateurs**] pour afficher les comptes créés par tous les utilisateurs de votre entreprise.
-   ![Affichage des comptes de tous les utilisateurs](assets/accounts-all-users.png)
+1. Sur la page [!UICONTROL Emplacements], sélectionnez l’onglet [!UICONTROL **Comptes de localisation**] .
+1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer l’option [!UICONTROL **Afficher les comptes de tous les utilisateurs**] pour afficher les comptes créés par tous les utilisateurs de votre entreprise.
+   ![ Afficher les comptes de tous les utilisateurs](assets/accounts-all-users.png)
 1. Pour créer un compte, sélectionnez [!UICONTROL **Ajouter un compte**].
 
-   La variable [!UICONTROL **Détails du compte d’emplacement**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Détails du compte d’emplacement**] s’affiche.
 
    Ou
 
-   Pour modifier un compte existant, recherchez le compte à modifier, puis sélectionnez le [!UICONTROL **Modifier les détails**] bouton .
+   Pour modifier un compte existant, localisez le compte à modifier, puis cliquez sur le bouton [!UICONTROL **Modifier les détails**].
 
-   La variable [!UICONTROL **Ajouter un compte**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Ajouter un compte**] s’affiche.
 
-1. Indiquez les informations suivantes : |Field | Fonction | |—|—| | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. | | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. | | [!UICONTROL **Rendre le compte disponible pour tous les utilisateurs de votre entreprise**] | Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par le propriétaire du compte.</li><li>N’importe qui peut créer un emplacement pour le compte partagé.</li></ul> | | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs système peuvent limiter les types de compte que les utilisateurs peuvent créer, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</p> |
-1. Dans le [!UICONTROL **Propriétés du compte**] , indiquez les informations spécifiques au type de compte sélectionné.
+1. Indiquez les informations suivantes :
+|Field | Fonction |
+|—|—|
+| [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte de l’emplacement. Ce nom apparaît lors de la création d’un emplacement. |
+| [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
+| [!UICONTROL **Mettre le compte à la disposition de tous les utilisateurs de votre entreprise**] | Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par le propriétaire du compte.</li><li>N’importe qui peut créer un emplacement pour le compte partagé.</li></ul> |
+| [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs système peuvent limiter les types de compte que les utilisateurs peuvent créer, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</p> |
+1. Dans la section [!UICONTROL **Propriétés du compte**] , spécifiez des informations spécifiques au type de compte que vous avez sélectionné.
 
-   Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond à la variable [!UICONTROL **Type de compte**] que vous avez sélectionné. (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
+   Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond au [!UICONTROL **Type de compte**] que vous avez sélectionné. (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
 
    **Types de compte**
 
@@ -85,7 +91,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
    | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, consultez la [documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide du Key Vault Azure. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI de coffre-fort de clé créé, ajoutez une stratégie d’accès à Key Vault pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nom secret du coffre de clés**] | Nom secret que vous avez créé lors de l’ajout du secret à Azure Key Vault. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page **Key Vault** de la page paramètres. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **Nom secret du coffre de clés**] | Nom secret que vous avez créé lors de l’ajout du secret à Azure Key Vault. Dans Microsoft Azure, ces informations se trouvent dans le Key Vault que vous avez créé, sur la page des paramètres **Key Vault**. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Secret du compte de localisation**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
 
    {style="table-layout:auto"}
@@ -110,7 +116,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
 
    >[!NOTE]
    >
-   >Les comptes de messagerie ne peuvent être utilisés qu’avec [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes de messagerie ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Jeux de classifications](/help/components/classifications/sets/overview.md)).
+   >Les comptes de messagerie ne peuvent être utilisés qu’avec les [flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes de messagerie ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Jeux de classifications](/help/components/classifications/sets/overview.md)).
 
    Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
@@ -124,7 +130,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
 
    **Types de compte hérités**
 
-   Ces types de compte hérités ne sont disponibles que lors de l’exportation de données avec [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Ces options ne sont pas disponibles lors de l’importation de données avec [Jeux de classifications](/help/components/classifications/sets/manage/schema.md).
+   Ces types de compte hérités sont disponibles uniquement lors de l’exportation de données avec les [flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Ces options ne sont pas disponibles lors de l’importation de données avec des [ensembles de classifications](/help/components/classifications/sets/manage/schema.md).
 
    +++FTP
 
@@ -135,7 +141,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
    | [!UICONTROL **Hôte**] | Saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`. |
    | [!UICONTROL **Chemin d’accès**] | Peut être laissé vide. |
    | [!UICONTROL **Nom d’utilisateur**] | Saisissez le nom d’utilisateur pour vous connecter au site FTP. |
-   | [!UICONTROL **Mot de passe et confirmation du mot de passe**] | Saisissez le mot de passe pour vous connecter au site FTP. |
+   | [!UICONTROL **Mot de passe et confirmer le mot de passe**] | Saisissez le mot de passe pour vous connecter au site FTP. |
 
    {style="table-layout:auto"}
 
@@ -194,4 +200,4 @@ Pour configurer un compte d’importation ou d’exportation cloud :
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-1. Passez à la [Configuration des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
+1. Passez à la [configuration des emplacements d’importation et d’exportation cloud](/help/components/locations/configure-import-locations.md).

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ L’accessibilité consiste à rendre les produits utilisables pour les personne
 
 La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le bas et de gauche à droite. Les éléments de navigation suivants facilitent l’accessibilité :
 
-* La touche `Tab` active des raccourcis de repère.Cela s’effectue en passant d’une section à l’autre dans Workspace. Dans le rail de gauche, `Tab` vous permet également de passer d’une option déplaçable à la suivante.
+* La touche `Tab` active des raccourcis de repère, en passant d’une section plus grande à l’autre dans Workspace. Dans le rail de gauche, `Tab` vous permet également de passer d’une option déplaçable à la suivante.
 * Les `left/right arrows` vous permettent de vous déplacer entre des éléments individuels après la mise en évidence réalisée par `Tab`.
 * La touche `F6` permet d’accéder au premier panneau du projet et de se déplacer parmi les visualisations de ce panneau. Puis, il passe au panneau suivant du projet et répète la même opération.
 * Nous appliquons des indicateurs de ciblage afin que les utilisateurs de clavier à vue normale aient une indication claire de l’élément de l’interface utilisateur actuellement ciblé. L’indicateur correspond à une bordure bleue autour de l’élément sélectionné.
 
-   ![Indicateur de ciblage](assets/focus-indicator.png)
+  ![Indicateur de ciblage](assets/focus-indicator.png)
 
 ### Navigation au clavier pour la barre de menu
 
@@ -56,7 +56,7 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 | Raccourci | Action |
 | --- | --- |
 | `[Alt + Shift + 1 / 2 / 3]` | Accéder à différents rails : [!UICONTROL Panneaux], [!UICONTROL Visualisations] ou [!UICONTROL Composants] |
-| `[Alt + Left / Right]` | Navigation entre les panneaux |
+| `[Alt + Left / Right]` | Naviguer entre les panneaux |
 | `[Alt + M]` | Réduire/Développer tous les panneaux |
 | `[Alt + Ctrl + M]` | Réduire/Développer le panneau actif |
 | `[Ctrl + /]` | Rechercher dans le rail de gauche |
@@ -70,7 +70,7 @@ La navigation dans [!UICONTROL Analysis Workspace] fonctionne du haut vers le ba
 | `[Ctrl + Shift + D]` | Nouvelle période |
 | `[Ctrl + Shift + E]` | Nouveau segment |
 | `[Ctrl + Z]` | Annuler |
-| `[Component drag + Shift]` | Création d’un filtre de menu déroulant |
+| `[Component drag + Shift]` | Créer un filtre déroulant |
 
 #### Démocratisation
 

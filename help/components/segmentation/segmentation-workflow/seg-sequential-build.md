@@ -182,11 +182,11 @@ Les règles de segmentation incluent toutes les données, à moins que vous n’
 
 Par exemple :
 
-* **Exclure des pages**. Utilisez une règle de segmentation pour exclure une page spécifique (telle que *`Home Page`*) d’un rapport, créez une règle Accès dans laquelle la page est égale à &quot;Page d’accueil&quot;, puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
+* **Exclure des pages**. Utilisez une règle de segment pour exclure une page spécifique (telle que *`Home Page`*) d’un rapport, créez une règle Accès où la page est égale à &quot;Page d’accueil&quot;, puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
 * **Exclure des domaines référents**. Utilisez une règle qui inclut uniquement des domaines référents de Google.com et exclut tous les autres.
 * **Identifier les non-acheteurs**. Identifiez les commandes dont la valeur est supérieure à zéro et excluez ensuite le [!UICONTROL Visiteur].
 
-L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. [!UICONTROL Exclure les points de contrôle] peut également être inclus dans une [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+L’opérateur [!UICONTROL Exclude] peut être utilisé pour identifier une séquence dans laquelle des visites ou des accès spécifiques ne sont pas effectués par le visiteur. [!UICONTROL Exclure les points de contrôle] peut également être inclus dans un [Groupe logique](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclure entre les points de contrôle
 
@@ -203,7 +203,7 @@ Vous trouverez ci-dessous des exemples d’utilisation de ce type de segment :
 
 **Créer ce segment**
 
-Créez un segment comme vous le feriez pour un segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez la variable [!UICONTROL EXCLURE] pour l’élément conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
+Créez un segment comme vous le feriez pour un segment séquentiel simple, de niveau mixte ou imbriqué, puis définissez l’opérateur [!UICONTROL EXCLUDE] pour l’élément de conteneur. L’exemple ci-dessous illustre un segment agrégé dans lequel les trois conteneurs [!UICONTROL Accès] sont déplacés vers le canevas, l’opérateur [!UICONTROL THEN] est affecté pour joindre la logique du conteneur, puis le conteneur de pages vues intermédiaire est exclu afin de n’inclure que les visiteurs qui sont passés de la page A à la page C dans la séquence.
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -349,11 +349,11 @@ Vous pouvez limiter la correspondance à une durée spécifique en utilisant les
 >
 >Il existe des différences d’évaluation entre des éléments portant le même nom, tels que **Jour(s)** ou **Jour**. Pour obtenir des définitions temporelles de Within et After, utilisez les options répertoriées en premier dans la fenêtre contextuelle :
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![Image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->Pour les définitions basées sur les dimensions de Within et After, utilisez les options du sous-menu . *Autres Dimensions*:
+>Pour les définitions basées sur les dimensions de Within et After, utilisez les options du sous-menu *Autres Dimensions* :
 >
->![image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![Image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 
 ### Opérateurs After et Within  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 

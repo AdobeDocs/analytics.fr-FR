@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 40%
+source-wordcount: '200'
+ht-degree: 33%
 
 ---
 
@@ -22,15 +22,15 @@ Pour activer le mode hors ligne
 
 1. Cliquez sur **[!UICONTROL Options]** dans le menu du Report Builder.
 
-   ![Capture d’écran de l’écran Options avec codage hors ligne sélectionné.](assets/offline_mode.png)
+   ![Capture d&#39;écran de l&#39;écran Options avec codage hors ligne sélectionné.](assets/offline_mode.png)
 
 1. Cochez la case en regard de l’option **[!UICONTROL Passez hors ligne pour créer/modifier des demandes]**.
 1. Dans le champ **[!UICONTROL Afficher les données de mesure au format]**, saisissez les données d’espace réservé que vous voulez renvoyer dans votre requête. Par exemple, saisissez « 1 ».
 1. Cliquez sur **[!UICONTROL OK]**.
 1. Créez et exécutez votre requête en mode hors ligne à l’aide de l’Assistant Requête. La capture d’écran suivante illustre un exemple de requête avec &quot;1&quot; comme données d’espace réservé.
 
-   ![Capture d’écran montrant l’exemple de mode hors ligne utilisant 1 comme espace réservé.](assets/offline_mode_example.png)
+   ![Capture d&#39;écran montrant l&#39;exemple de mode hors ligne utilisant 1 comme espace réservé.](assets/offline_mode_example.png)
 
    >[!IMPORTANT]
    >
-   >Assurez-vous d’avoir désactivé le mode hors ligne avant d’exécuter les requêtes avec des données réelles.
+   >Veillez à désactiver le mode hors ligne avant d’exécuter vos requêtes avec des données réelles.

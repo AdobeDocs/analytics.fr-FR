@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Product
 
-Le &quot;produit&quot; [dimension](overview.md) indique le nom du produit dans l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures liées aux produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
+La [dimension](overview.md) du &quot;produit&quot; indique le nom du produit dans l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures liées aux produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
 
 ## Renseignement de cette dimension avec des données
 

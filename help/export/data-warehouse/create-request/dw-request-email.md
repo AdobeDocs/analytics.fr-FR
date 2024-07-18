@@ -6,7 +6,7 @@ exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -18,11 +18,11 @@ Pour plus d’informations sur la façon de commencer à créer une requête, ai
 
 Pour configurer un email de notification pour une demande de Data Warehouse :
 
-1. Si ce n’est déjà fait, commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
+1. Si vous ne l’avez pas déjà fait, commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
 
    Pour plus d’informations, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Sur la page Nouvelle requête de Data Warehouse , sélectionnez le [!UICONTROL **Email de notification**] .
+1. Sur la page Nouvelle demande de Data Warehouse, sélectionnez l’onglet [!UICONTROL **Notification par e-mail**] .
 
    ![Onglet de destination du rapport](assets/dw-notification-email.png)
 
@@ -35,6 +35,6 @@ Pour configurer un email de notification pour une demande de Data Warehouse :
 
    {style="table-layout:auto"}
 
-1. Sélectionner [!UICONTROL **Enregistrer la requête**] pour enregistrer la requête de rapport du Data Warehouse.
+1. Sélectionnez [!UICONTROL **Enregistrer la requête**] pour enregistrer la requête de rapport du Data Warehouse.
 
    Vous pouvez désormais exporter les données vers le compte et l’emplacement que vous avez configurés.

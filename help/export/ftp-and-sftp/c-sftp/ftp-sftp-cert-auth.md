@@ -6,7 +6,7 @@ feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 97%
 
 ---
@@ -28,7 +28,7 @@ Lors de l’utilisation du protocole SFTP, il est possible, dans certains cas, d
    Un représentant Adobe peut créer un compte FTP si vous n’en avez pas déjà un. Contactez votre équipe de compte d’Adobe ou l’assistance clientèle d’Adobe pour qu’un compte soit créé.
 1. Création de clés publique/privée (client).
 
-   Créez une combinaison de clés publique/privée. La clé privée est un fichier privé qui réside sur votre ordinateur ou serveur et qui y est propre. Le fichier de clé publique doit être transféré sur le compte Adobe. Avec cette méthode, vous pouvez vous connecter sans authentification par mot de passe. Le fichier de clé publique côté Adobe correspond au fichier de clé privée sur votre ordinateur/serveur et s’authentifie de cette façon.
+   Créez une combinaison de clés publique/privée. La clé privée est un fichier privé qui réside sur votre ordinateur ou serveur et qui y est propre. Le fichier de clé publique doit être chargé sur le compte Adobe. Avec cette méthode, vous pouvez vous connecter sans authentification par mot de passe. Le fichier de clé publique côté Adobe correspond au fichier de clé privée sur votre ordinateur/serveur et s’authentifie de cette façon.
 
    Pour créer ces fichiers, demandez à votre groupe d’assistance réseau interne de créer un jeu de clés adapté à votre environnement. De nombreux outils et applications peuvent servir à créer ces deux fichiers.
 
@@ -62,9 +62,9 @@ Lors de l’utilisation du protocole SFTP, il est possible, dans certains cas, d
    $ cp id_dsa.pub authorized_keys 
    ```
 
-1. Transfert de la clé publique sur le compte FTP (client).
+1. Chargement de la clé publique sur le compte FTP (client).
 
-   Transférez et testez la clé publique. Connectez-vous au compte FTP Adobe et créez un répertoire [!DNL .ssh], s’il n’existe pas déjà. Chargez le fichier [!DNL authorized_keys] dans le répertoire [!DNL .ssh]. Vous pouvez le faire de différentes façons (ligne de commande, client FTP graphique, etc.). Il suffit d’avoir la capacité de créer un répertoire et de transférer un fichier.
+   Chargez et testez la clé publique. Connectez-vous au compte FTP Adobe et créez un répertoire [!DNL .ssh], s’il n’existe pas déjà. Chargez le fichier [!DNL authorized_keys] dans le répertoire [!DNL .ssh]. Vous pouvez le faire de différentes façons (ligne de commande, client FTP graphique, etc.). Il suffit d’avoir la capacité de créer un répertoire et de charger un fichier.
 
    Voici un exemple en utilisant un Shell UNIX.
 

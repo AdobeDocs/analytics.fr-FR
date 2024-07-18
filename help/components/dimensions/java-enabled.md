@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Compatible Java
 
-Compatible Java [dimension](overview.md) détermine si Java est activé dans le navigateur. Elle s’avère utile lorsque vous souhaitez introduire des fonctionnalités Java sur votre site et savoir combien de visiteurs ont déjà activé Java. Pour ceux qui ont désactivé Java, vous pouvez fournir une alternative ou des instructions pour son activation.
+La [dimension](overview.md) &quot;Java activé&quot; détermine si Java est activé dans le navigateur. Elle s’avère utile lorsque vous souhaitez introduire des fonctionnalités Java sur votre site et savoir combien de visiteurs ont déjà activé Java. Pour ceux qui ont désactivé Java, vous pouvez fournir une alternative ou des instructions pour son activation.
 
 ## Renseignement de cette dimension avec des données
 

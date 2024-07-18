@@ -25,19 +25,19 @@ Le SDK Web n’offre pas encore de personnalisation de la durée de vie des cook
 
 ## Durée de vie des cookies à l’aide de l’extension Adobe Analytics
 
-La durée de vie du cookie est une liste déroulante sous la variable [!UICONTROL Cookies] en accordéon lors de la configuration de l’extension Adobe Analytics.
+La durée de vie des cookies est une liste déroulante sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
-1. Développez l’objet [!UICONTROL Cookies] en accordéon, qui affiche la variable [!UICONTROL Durée de vie du cookie] liste déroulante.
+1. Développez l’accordéon [!UICONTROL Cookies] , qui affiche la liste déroulante [!UICONTROL Durée de vie du cookie] .
 
 Cette liste déroulante contient les valeurs suivantes :
 
 * **Valeur par défaut** : le cookie expire au bout de 2 ans.
 * **Aucun** : AppMeasurement ne définit pas les cookies.
 * **Session** : le cookie expire à la fin de la session du visiteur.
-* **Secondes** : le cookie expire après l’expiration du nombre de secondes spécifié. Par exemple, définissez cette liste déroulante sur [!UICONTROL Secondes] et placement `86400` dans le champ personnalisé force les cookies à expirer exactement après 24 heures.
+* **Secondes** : le cookie expire après l’expiration du nombre de secondes spécifié. Par exemple, si vous définissez cette liste déroulante sur [!UICONTROL Secondes] et placez `86400` dans le champ personnalisé, les cookies expirent exactement après 24 heures.
 
 ## s.cookieLifetime dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

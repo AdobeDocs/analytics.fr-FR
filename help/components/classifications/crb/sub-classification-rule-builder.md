@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,7 @@ Une hiérarchie de classification vous permet d’appliquer une classification �
 
 ![](assets/sub_class_table.png)
 
-Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-builder.md) pour télécharger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
+Une fois cette structure en place, vous pouvez utiliser le [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-builder.md) pour charger des petits fichiers qui mettent uniquement à jour les tables de recherche (tables de couleurs verte et rouge dans l’image précédente). Vous pouvez ensuite utiliser le créateur de règles pour assurer la mise à jour du tableau de classification principal.
 
 La tâche ci-dessous décrit la marche à suivre.
 
@@ -48,12 +48,12 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Dans [Créateur de règles de classifications](/help/components/classifications/crb/classification-rule-builder.md), classez la clé de sous-classification à partir du code de suivi d’origine.
 
-   Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle servant à compléter *`Broad Campaign code`* utilisera cette expression régulière :
+   Pour ce faire, utilisez une expression régulière. Dans cet exemple, la règle pour renseigner *`Broad Campaign code`* utiliserait cette expression régulière :
 
    | `#` | Type de règle | Correspond à | Définir la classification | À |
    |---|---|---|---|---|
-   |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de campagne large | `$1` |
-   |  | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de création | `$2` |
+   |   | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de campagne large | `$1` |
+   |   | Expression régulière | `[^\:]:([^\:]):([^\:]`) | Code de création | `$2` |
 
    >[!NOTE]
    >
@@ -72,6 +72,6 @@ Cette procédure décrit le téléchargement de sous-classifications à l’aide
 
 1. Pour gérer les tables de recherche, téléchargez un petit fichier (comme illustré ci-dessus).
 
-   Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargerez que le fichier de sous-classification, au lieu de l’intégralité du fichier de classification.
+   Le téléchargement de ce fichier sera effectué, par exemple, lors de l’insertion d’un nouveau *`Broad Campaign code`*. Ce fichier s’appliquera aux valeurs classées précédemment. De même, si vous créez une sous-classification (telle que *`Creative Theme`* en tant que sous-classification de *`Creative code`*), vous ne téléchargez que le fichier de sous-classification, plutôt que l’intégralité du fichier de classification.
 
    Dans le cadre de la création de rapports, ces sous-classifications se comportent exactement comme des classifications de niveau supérieur. Cela a pour effet d’alléger la charge de gestion associée à leur utilisation.-->

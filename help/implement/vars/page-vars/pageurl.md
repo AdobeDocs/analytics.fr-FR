@@ -23,8 +23,8 @@ AppMeasurement collecte automatiquement l’URL de la page dans chaque accès. S
 
 L’URL de la page est mappée aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.URL`
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.pageURL` ou `data.__adobe.analytics.g`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.web.webPageDetails.URL`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.pageURL` ou `data.__adobe.analytics.g`
 
 ## URL de page à l’aide de l’extension Adobe Analytics
 
@@ -34,7 +34,7 @@ L’extension Analytics de la collecte de données Adobe Experience Platform ren
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet **[!UICONTROL Règles]**, puis cliquez sur une règle (ou créez une règle).
 4. Sous **[!UICONTROL Actions]**, cliquez sur une action existante **[!UICONTROL Adobe Analytics - Définir des variables]** ou cliquez sur l’icône « + ».
-5. Définissez la variable **[!UICONTROL Extension]** de la liste déroulante vers Adobe Analytics, et de la variable **[!UICONTROL Type d’action]** to **[!UICONTROL Définition de variables]**.
+5. Définissez la liste déroulante **[!UICONTROL Extension]** sur Adobe Analytics et le **[!UICONTROL Type d’action]** sur **[!UICONTROL Définir des variables]**.
 6. Recherchez la section **[!UICONTROL URL de la page]**.
 
 Vous pouvez définir l’URL de la page sur n’importe quelle valeur de chaîne.

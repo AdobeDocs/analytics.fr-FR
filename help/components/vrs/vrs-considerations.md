@@ -49,7 +49,7 @@ Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans u
 
 >[!TIP]
 >
->Avec l’introduction de [traitement](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure donnée par suite de rapports virtuelle.
+>Avec l’introduction de [curation](/help/analyze/analysis-workspace/curate-share/curate.md), vous pouvez modifier le nom d’une dimension ou d’une mesure donnée par suite de rapports virtuelle.
 
 ### Nuances de segmentation
 

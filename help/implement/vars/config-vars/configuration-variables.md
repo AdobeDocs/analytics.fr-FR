@@ -21,7 +21,7 @@ Dans les mises en oeuvre utilisant l’extension SDK Web ou Analytics, les varia
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Cliquez sur le bouton [!UICONTROL Extensions] , puis cliquez sur [!UICONTROL Configurer] sous l’extension .
+1. Cliquez sur l’onglet [!UICONTROL Extensions] , puis sur [!UICONTROL Configurer] sous l’extension.
 
 Dans les mises en œuvre JavaScript utilisant `AppMeasurement.js` ; les variables de configuration sont généralement définies en haut du fichier JS.
 

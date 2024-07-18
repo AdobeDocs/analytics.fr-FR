@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 100%
+source-wordcount: '679'
+ht-degree: 98%
 
 ---
 
 # Comparaison des dates
 
-Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une plage de dates, par exemple : année par année, trimestre par trimestre, mois par mois, etc.
+Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une période, par exemple : année par année, trimestre par trimestre, mois par mois, etc.
 
 Regardez une vidéo sur ce sujet :
 
@@ -22,7 +22,7 @@ Regardez une vidéo sur ce sujet :
 ## Comparaison de périodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL La comparaison de périodes] utilise les mesures calculées avancées. Par conséquent, elle est disponible uniquement pour les clients qui disposent des SKU Select, Prime et Ultimate d’Analytics.
+>[!UICONTROL Comparer des périodes] utilise des mesures calculées avancées. Par conséquent, elle est disponible uniquement pour les clients qui disposent des SKU Select, Prime et Ultimate d’Analytics.
 
 Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Où nous situons-nous par rapport à la même date l’an dernier ? Mieux ou pire ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
 
@@ -57,9 +57,9 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    ![](assets/compare-time-barchart.png)
 
-   Pour afficher le pourcentage de changement dans ce graphique à barres, le paramètre [!UICONTROL Pourcentages] doit être activé dans les [!UICONTROL Paramètres de visualisation].
+   Pour afficher le pourcentage de changement dans ce graphique en barres, le paramètre [!UICONTROL Pourcentages] doit être activé dans les [!UICONTROL Paramètres de visualisation].
 
-## Ajout d’une colonne de période à la comparaison {#section_93CC2B4F48504125BEC104046A32EB93}
+## Ajout d’une colonne de périodes à la comparaison {#section_93CC2B4F48504125BEC104046A32EB93}
 
 Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce qui permet d’ajouter une période différente de celle configurée pour votre calendrier. Cette fonctionnalité offre un autre moyen de comparer les dates.
 
@@ -89,7 +89,7 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
 
 ## Harmonisation des dates de colonnes pour qu’elles commencent sur la même ligne {#section_5085E200082048CB899C3F355062A733}
 
-Un nouveau paramètre disponible pour tous les tableaux permet d’**[!UICONTROL Aligner les dates de chaque colonne afin qu’elles commencent toutes sur la même ligne (s’applique à l’ensemble du tableau)]**. « S’applique à l’ensemble du tableau » signifie que si, par exemple, vous définissez ce paramètre pour la ventilation des données d’un tableau, il s’applique également au reste du tableau.
+Un nouveau paramètre disponible pour tous les tableaux permet d’**[!UICONTROL Aligner les dates de chaque colonne afin qu’elles commencent toutes sur la même ligne (s’applique à l’ensemble du tableau)]**. « S’applique à l’ensemble du tableau » signifie que si, par exemple, vous définissez ce paramètre pour la répartition des données d’un tableau, il s’applique également au reste du tableau.
 
 ![](assets/date-comparison-setting.png)
 

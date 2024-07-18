@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '558'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 Dans Analysis Workspace, un tableau à structure libre est la base de l’analyse de données interactive. Vous pouvez faire glisser et déposer un ensemble de [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=fr) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Lorsque chaque composant est déposé, le tableau est mis à jour immédiatement afin que vous puissiez rapidement analyser et creuser plus en détail.
 
-## Création d’un tableau à structure libre simple
+## Créer un tableau à structure libre simple
 
 Commencez par un tableau à structure libre vide.
 
 ![Tableau à structure libre vide](assets/freeform-table-1.png)
 
-Si vous déposez la variable **[!UICONTROL ** Visites **]** sur la **[!UICONTROL ** Déposer une mesure ici (ou tout autre composant)**]**, le tableau à structure libre est automatiquement renseigné avec les visites par jour pour la période calendaire que vous avez sélectionnée.
+Si vous déposez la mesure **[!UICONTROL ** Visites **]** sur **[!UICONTROL ** Déposez une mesure ici (ou tout autre composant)**]**, le tableau à structure libre est automatiquement renseigné avec les visites par jour pour la période calendaire que vous avez sélectionnée.
 
-![Visites dans le tableau à structure libre](assets/freeform-table-2.png)
+![Visites dans la table à structure libre](assets/freeform-table-2.png)
 
-Si vous déposez ensuite la variable **[!UICONTROL ** Page **]** pour remplacer la dimension **[!UICONTROL ** Jour **]** , le tableau à structure libre reflète automatiquement les visites pour chaque page.
+Si vous déposez ensuite la dimension **[!UICONTROL ** Page **]** pour remplacer la colonne de dimension **[!UICONTROL ** Jour **]** , la table à structure libre reflète automatiquement les visites pour chaque page.
 
-![Visites par tableau à structure libre de page](assets/freeform-table-3.png)
+![Visites par table à structure libre de page](assets/freeform-table-3.png)
 
-Vous pouvez ensuite ventiler, par exemple, la variable **[!UICONTROL ** catégorie : 5 **]** en déposant la variable **[!UICONTROL ** Canal marketing **]** sur la **[!UICONTROL ** catégorie : 5 **]** ligne.
+Vous pouvez ensuite ventiler, par exemple, la page **[!UICONTROL ** catégorie:5 **]** en déposant la dimension **[!UICONTROL ** Canal marketing **]** sur la ligne **[!UICONTROL ** catégorie:5 **]**.
 
 ![Ventilation des visites par tableau à structure libre de page](assets/freeform-table-4.png)
 
@@ -53,7 +53,7 @@ Vous pouvez interagir et personnaliser un tableau à structure libre de différe
 * **Lignes**
    * Vous pouvez afficher davantage de lignes sur un seul écran en réglant la [densité d’affichage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) du projet.
    * Chaque ligne de dimension peut afficher jusqu’à 400 lignes avant la pagination. Cliquez sur le numéro en regard de « Lignes » pour afficher d’autres lignes sur une page. Accédez à une autre page à l’aide de la flèche de page dans l’en-tête.
-   * Les lignes peuvent être ventilées par composants supplémentaires. Pour ventiler plusieurs lignes à la fois, sélectionnez simplement plusieurs lignes, puis faites glisser le composant suivant sur les lignes sélectionnées. En savoir plus sur la [ventilation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=fr).
+   * Les lignes peuvent être ventilées par composants supplémentaires. Pour répartir plusieurs lignes à la fois, sélectionnez simplement plusieurs lignes, puis faites glisser le composant suivant sur les lignes sélectionnées. En savoir plus sur la [répartition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=fr).
    * Les lignes peuvent être [filtrées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) pour n’afficher que certains éléments. D’autres paramètres sont disponibles dans les [Paramètres des lignes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=fr).
 
 * **Colonnes**
@@ -67,7 +67,7 @@ Découvrez-en plus sur toutes les [options dʼexportation](https://experiencelea
 
 * Cliquer avec le bouton droit de la souris sur > **[!UICONTROL Copier les données dans le presse-papiers]** exporte les données du tableau affiché. Si une sélection de tableau est effectuée, cette option indique **[!UICONTROL Copier la sélection dans le presse-papiers]**. La touche dʼaccès rapide **Ctrl + C** copie également les données sélectionnées.
 * Cliquer avec le bouton droit de la souris sur > **[!UICONTROL Télécharger les données au format CSV]** télécharge les données de tableau affichées au format CSV. Si une sélection de tableau est effectuée, cette option indique **[!UICONTROL Télécharger la sélection au format CSV]**.
-* Cliquez avec le bouton droit de la souris > **[!UICONTROL Projet > Télécharger des éléments au format CSV]** exporte jusqu’à 50 000 éléments de dimension pour la dimension sélectionnée.
+* Cliquez avec le bouton droit de la souris > **[!UICONTROL Projet > Télécharger des éléments au format CSV]** pour exporter jusqu’à 50 000 éléments de dimension pour la dimension sélectionnée.
 
 Découvrez-en plus sur toutes les [options dʼexportation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr) de données pour Analysis Workspace.
 

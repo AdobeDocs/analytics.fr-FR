@@ -8,7 +8,7 @@ exl-id: 09eccff0-64ab-432d-bbb1-6c9b83ecb170
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
@@ -18,4 +18,4 @@ Les messages de diagnostic fournissent des informations sur l’état de la requ
 
 ![Icône de coche verte indiquant que la requête a été actualisée avec succès.](assets/icon_notice_success.gif) Indique que la requête a été actualisée avec succès depuis l’ouverture de ce classeur. La colonne de diagnostic présente d’autres informations sur la requête, notamment le temps utilisé par la requête, le temps écoulé pour mettre la requête en correspondance et si la requête utilise des informations précédemment mises en cache.
 
-![Icône de triangle rouge avec point d’exclamation indiquant que l’actualisation de la requête a échoué.](assets/icon_notice_warn.gif) Cette alerte s’affiche lorsqu’une requête ne s’actualise pas correctement. L’erreur indiquée dans la colonne de diagnostic permet d’en identifier la cause probable. Consultez la [section de dépannage](/help/analyze/report-builder/troubleshoot.md) pour obtenir de l’aide à propos des messages d’échec sélectionnés.
+![Icône de triangle rouge avec point d’exclamation indiquant que l’actualisation de la requête a échoué.](assets/icon_notice_warn.gif) Cette alerte s’affiche lorsqu’une requête ne s’actualise pas correctement. L’erreur indiquée dans la colonne de diagnostic permet d’en identifier la cause probable. Consultez la [section de dépannage](/help/analyze/report-builder/troubleshoot.md) pour obtenir de l’aide sur les messages d’échec sélectionnés.

@@ -16,7 +16,7 @@ Les jeux de classifications fournissent une interface unique pour gérer les cla
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]**
 
-Vous devez être un administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation. [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] pour afficher cet élément de menu. Notez que si les interfaces précédentes de gestion des classifications se trouvent sous la variable [!UICONTROL Administration] , les jeux de classifications se trouvent sous [!UICONTROL Composants] .
+Vous devez être administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] pour afficher cet élément de menu. Notez que même si les interfaces précédentes de gestion des classifications se trouvent sous le menu [!UICONTROL Admin], les jeux de classifications se trouvent sous le menu [!UICONTROL Composants] .
 
 ## Améliorations
 

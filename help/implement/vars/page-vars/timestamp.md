@@ -21,7 +21,7 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 
 ## Horodatage à l’aide du SDK Web
 
-Horodatage [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) sous le champ XDM `xdm.timestamp`. Ce champ ne prend en charge que l’heure Unix.
+L’horodatage est [mappé pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) sous le champ XDM `xdm.timestamp`. Ce champ ne prend en charge que l’heure Unix.
 
 ## Horodatage utilisant l’extension Adobe Analytics
 
@@ -29,7 +29,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides incluent [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix) en secondes.
+La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides sont [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) et [Heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix) en secondes.
 
 ```js
 // Timestamp using ISO 8601

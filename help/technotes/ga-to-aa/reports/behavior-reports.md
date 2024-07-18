@@ -43,9 +43,9 @@ Adobe propose également plusieurs espaces de travail précréés appelés modè
 
 Le rapport Analyse en profondeur du contenu vous permet d’examiner le trafic d’une page en fonction de la structure de l’URL. Une mise en œuvre supplémentaire est requise pour une utilisation dans Analysis Workspace. Adobe conseille de travailler avec un consultant en mise en œuvre pour assurer la collecte précise de ces données.
 
-## Contenu du site - Pages d’entrée
+## Contenu du site - Pages de destination
 
-Le rapport Pages d’accueil montre les principales pages d’accueil sur votre site. Les pages d’accueil sont disponibles dans Analysis Workspace comme dimension de **Page d’accès**.
+Le rapport Pages de destination montre les principales pages de destination sur votre site. Les pages de destination sont disponibles dans Analysis Workspace comme dimension de **Page d’accès**.
 
 1. Dans le menu Composants, recherchez la dimension **Page d’accès** et faites-la glisser sur la grande zone de tableau à structure libre « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).

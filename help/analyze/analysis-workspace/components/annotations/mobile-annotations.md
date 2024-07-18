@@ -7,15 +7,15 @@ feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 93%
+source-wordcount: '368'
+ht-degree: 92%
 
 ---
 
 
 # Partage des annotations dans les cartes de performance mobiles
 
-Vous pouvez afficher les annotations créées dans l’espace de travail sur les cartes de performance mobiles. Cela vous permet de partager des nuances et insights de données contextuelles sur votre organisation et vos campagnes directement au sein des projets de cartes de performance mobiles, visibles dans l’application mobile des tableaux de bord Analytics.
+Vous pouvez afficher les annotations créées dans l’espace de travail sur les cartes de performance mobiles. Cela vous permet de partager des nuances et informations de données contextuelles sur votre organisation et vos campagnes directement au sein des projets de cartes de performance mobiles, visibles dans l’application mobile des tableaux de bord Analytics.
 
 ## Affichage des annotations dans les cartes de performance mobiles
 
@@ -41,7 +41,7 @@ Lorsque les annotations sont activées, les icônes d’annotation apparaissent 
 
 ![](assets/view-annotations.png)
 
-Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas visualiser ni interagir avec l’intégralité des annotations dans le canevas du créateur. Utilisez le mode Aperçu pour afficher et interagir avec les annotations telles qu’elles apparaissent dans l’application. ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Aperçu**.
+Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas visualiser ni interagir avec l’intégralité des annotations dans le canevas du créateur. Utilisez le mode Aperçu pour afficher et interagir avec les annotations telles qu’elles apparaissent dans l’application ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Aperçu**.
 
 Les couleurs d’annotation sont sélectionnées lors de la création de l’annotation dans l’espace de travail. Les annotations grises indiquent la présence de plusieurs annotations.
 

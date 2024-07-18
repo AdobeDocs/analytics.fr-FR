@@ -21,8 +21,8 @@ Les rapports en temps réel comptent parmi les rares fonctionnalités n’ayant 
 Pour accéder à la page de configuration des rapports en temps réel (droits d’administrateur requis) :
 
 1. Cliquez sur **[!UICONTROL Workspace]** dans la barre de navigation supérieure d’Adobe Analytics.
-1. Sélectionner **[!UICONTROL Rapports]** dans la barre de navigation de gauche.
-1. Sélectionner **[!UICONTROL Engagement]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Temps réel]**. Vous pouvez également ![Rechercher](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) recherchez temps réel.
+1. Sélectionnez **[!UICONTROL Rapports]** dans la barre de navigation de gauche.
+1. Sélectionnez **[!UICONTROL Engagement]** ![Chevron](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL Temps réel]**. Vous pouvez également ![Rechercher](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) pour rechercher en temps réel.
 1. Si la suite de rapports n’est pas encore activée en temps réel, un message s’affiche avec un lien pour configurer la suite de rapports.
 
 Adobe permet la collecte simultanée de données par trois rapports en temps réel. Chacun doit être configuré avant de commencer à collecter des données en temps réel.

@@ -16,7 +16,7 @@ Vous pouvez empiler et remplacer des segments dans le créateur de mesures calcu
 
 ## Empilement de segments {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. Commencez à créer une mesure, comme décrit dans la section [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Commencez à créer une mesure, comme décrit dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. Dans le canevas Définition, déposez le nouveau segment en regard de celui existant :
 
@@ -24,7 +24,7 @@ Vous pouvez empiler et remplacer des segments dans le créateur de mesures calcu
 
 ## Remplacer un segment par un autre {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. Commencez à créer une mesure, comme décrit dans la section [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Commencez à créer une mesure, comme décrit dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 1. Dans le canevas Définition, déposez le nouveau segment au-dessus de celui existant :
 

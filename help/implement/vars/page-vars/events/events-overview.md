@@ -19,7 +19,7 @@ Avant d’implémenter des événements, veillez à les créer et à les configu
 
 ## Événements utilisant le SDK Web
 
-Si vous utilisez la variable [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md), les événements personnalisés utilisent les champs XDM suivants :
+Si vous utilisez l’ [objet XDM](/help/implement/aep-edge/xdm-var-mapping.md), les événements personnalisés utilisent les champs XDM suivants :
 
 * Les événements personnalisés 1 à 100 sont mappés à `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
 * Les événements personnalisés 101 à 200 sont mappés à `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
@@ -38,7 +38,7 @@ Si vous utilisez la variable [Objet XDM](/help/implement/aep-edge/xdm-var-mappin
 >
 >Si un événement est défini sous `productListItems` (par exemple, `productListItems._experience.analytics.event1.value`) et que cet événement ne figure pas encore dans ce champ, il est automatiquement ajouté à ce champ.
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), tous les événements utilisent `data.__adobe.analytics.events`, suivant la syntaxe de chaîne d’AppMeasurement. Si vous définissez ce champ, tous les événements définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), tous les événements utilisent `data.__adobe.analytics.events`, selon la syntaxe de chaîne d’AppMeasurement. Si vous définissez ce champ, tous les événements définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
 
 ## Événements utilisant l’extension Adobe Analytics
 
@@ -48,14 +48,14 @@ Vous pouvez définir des événements lors de la configuration de l’extension 
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Événements].
 
 Plusieurs fonctionnalités sont disponibles :
 
 * Liste déroulante qui vous permet de sélectionner l’événement à inclure.
 * Champ de texte facultatif pour la sérialisation. Voir [Sérialisation des événements](event-serialization.md) pour plus d’informations.
-* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, en sélectionnant `event1` sous la liste déroulante et comprenant `10` dans ce champ incrémente `event1` par 10 dans les rapports.
+* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` dans la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 dans les rapports.
 * Bouton permettant d’ajouter un autre événement. Vous pouvez ajouter autant d’événements que vous le souhaitez à une seule règle, dans la limite du raisonnable.
 
 ## s.events dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics

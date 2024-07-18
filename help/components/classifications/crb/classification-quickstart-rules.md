@@ -23,7 +23,7 @@ Les règles de classification conviennent dans les cas suivants :
 * **E-mail** et **Afficher les publicités** : créez des règles de classification pour regrouper les campagnes d’affichage individuelles, de sorte que vous puissiez comparer les performances des campagnes d’affichage et des campagnes par e-mail.
 
 * **Codes de suivi** : créez des règles de classification pour catégoriser les valeurs de clé provenant de chaînes dans des codes de suivi et les faire correspondre à des critères spécifiques que vous avez définis.
-* **Termes de recherche**: utilisez [expressions régulières](/help/components/classifications/crb/classification-quickstart-rules.md) et des caractères génériques pour simplifier la classification des termes de recherche. Si, par exemple, un terme de recherche contient *`baseball`*, vous pouvez définir une classification *`Sports League`* sur *`MLB`*.
+* **Termes de recherche** : utilisez les [expressions régulières](/help/components/classifications/crb/classification-quickstart-rules.md) et les caractères génériques pour simplifier la classification des termes de recherche. Si, par exemple, un terme de recherche contient *`baseball`*, vous pouvez définir une classification *`Sports League`* sur *`MLB`*.
 
 Supposons, par exemple, que le code de suivi d’un identifiant de campagne par e-mail soit :
 
@@ -57,13 +57,13 @@ about_classification_rules.xml
 
 ## Informations importantes concernant les règles
 
-* Spécifier [autorisations de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=fr) pour les classifications dans [!UICONTROL Outils d’administration].
+* Spécifiez les [autorisations de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=fr) pour les classifications dans les [!UICONTROL outils d’administration].
 
 * **Expressions régulières** : une aide est disponible sous [Expressions régulières dans des règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
 
 * **Suites de rapports** : pour choisir une classification, il faut qu’au moins une suite de rapports soit sélectionnée. Vous ne pouvez pas appliquer la suite de rapports tant que vous n’avez pas créé le jeu de règles et affecté une variable.
 
-  Lorsque vous testez le jeu de règles, utilisez des clés (la variable étant classée) du rapport afin de déterminer l’impact sur celles-ci du jeu de règles. (La variable [key](/help/components/classifications/importer/c-saint-data-files.md) est la variable étant classée, ou la première colonne du tableau de chargement des classifications.)
+  Lorsque vous testez le jeu de règles, utilisez des clés (la variable étant classée) du rapport afin de déterminer l’impact sur celles-ci du jeu de règles. (La [clé](/help/components/classifications/importer/c-saint-data-files.md) est la variable en cours de classification ou la première colonne du tableau de chargement des classifications.)
 
 * **Priorité des règles** : si une clé correspond à plusieurs règles qui définissent la même classification (dans la colonne [!UICONTROL Définir la classification]), la dernière règle correspondant à la classification est utilisée. Voir [À propos de la priorité des règles](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -76,11 +76,11 @@ about_classification_rules.xml
 
 ## Dans quels cas les règles ne classent-elles pas les clés ?
 
-Lorsque vous activez des règles, vous pouvez écraser des classifications existantes. Dans les cas suivants, une règle de classification ne classe pas une [key](/help/components/classifications/importer/c-saint-data-files.md)(variable) si :
+Lorsque vous activez des règles, vous pouvez écraser des classifications existantes. Dans les situations suivantes, une règle de classification ne classe pas une [clé](/help/components/classifications/importer/c-saint-data-files.md)(variable) si :
 
 * La clé est déjà classée et vous ne sélectionnez pas l’option [Remplacer les classifications pour](/help/components/classifications/crb/classification-rule-definitions.md).
 
-  Vous pouvez remplacer des classifications lors de la [ajout et activation](/help/components/classifications/crb/classification-quickstart-rules.md) une règle et lors de l’activation d’une intégration de connecteurs de données. (Pour les Data Connectors, les règles sont créées par des partenaires dans le centre de développement, puis affichées dans le [!UICONTROL Créateur de règles de classification].)
+  Vous pouvez remplacer des classifications lors de l’ [ ajout et de l’activation d’une règle ](/help/components/classifications/crb/classification-quickstart-rules.md) et de l’activation d’une intégration de connecteurs de données. (Pour les Data Connectors, les règles sont créées par des partenaires dans le centre de développement, puis affichées dans le [!UICONTROL Créateur de règles de classification].)
 
 * Une clé classée n’est pas apparue dans les données après une période définie lors d’une opération de remplacement de clé, même après avoir activé l’option [Remplacer les classifications pour](/help/components/classifications/crb/classification-rule-definitions.md).
 * La clé n’est pas classée et elle n’est jamais transmise à [!DNL Adobe Analytics] après la période qui a débuté il y a environ un mois.
@@ -151,7 +151,7 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Expression régulière | Résultat de la chaîne ou de la correspondance | Groupes correspondants |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`: `em:JuneSale:20130601`  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0` : `em:JuneSale:20130601` `$1` : em `$2` : JuneSale `$3` : 20130601 |
 | Création de la syntaxe | `^` = début d’une ligne ()= regroupe les caractères et vous permet d’extraire les caractères correspondants entre parenthèses.  `(.+)` = Capture un caractère ( . ) caractère et ( + ) en plus \ = début d’une chaîne.  `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. |
 
 Pour en savoir plus sur la signification des caractères d’une expression régulière, reportez-vous à la section [Expressions régulières – Tableau de références](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716).

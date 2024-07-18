@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Heure
 
-&quot;Heure&quot; [dimension](overview.md) rapporte l’heure à laquelle une mesure donnée a été effectuée (arrondie à l’unité inférieure). Le premier élément de dimension correspond à la première heure de la période et le dernier élément de dimension correspond à la dernière heure de la période. Cette dimension est importante pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
+L’ [dimension](overview.md) &quot;Heure&quot; indique l’heure à laquelle une mesure donnée a été effectuée (arrondie). Le premier élément de dimension correspond à la première heure de la période et le dernier élément de dimension correspond à la dernière heure de la période. Cette dimension est importante pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
 
 ## Renseignement de cette dimension avec des données
 

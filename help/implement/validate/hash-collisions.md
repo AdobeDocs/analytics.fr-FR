@@ -24,7 +24,7 @@ Les collisions de hachage peuvent se manifester dans les rapports comme suit :
 
 ## Impacts d’une collision de hachage
 
-Adobe Analytics utilise des hachages 32 bits pour la plupart des dimensions, ce qui signifie qu’il existe 2<sup>32</sup> les combinaisons de hachage possibles (environ 4,3 milliards). Un nouveau tableau de hachage est créé chaque mois pour chaque dimension. Les chances approximatives de rencontrer une collision de hachage en fonction du nombre de valeurs uniques sont les suivantes. Ces probabilités sont basées sur une seule dimension pour un seul mois.
+Adobe Analytics utilise des hachages 32 bits pour la plupart des dimensions, ce qui signifie qu’il existe 2<sup>32</sup> combinaisons de hachage possibles (environ 4,3 milliards). Un nouveau tableau de hachage est créé chaque mois pour chaque dimension. Les chances approximatives de rencontrer une collision de hachage en fonction du nombre de valeurs uniques sont les suivantes. Ces probabilités sont basées sur une seule dimension pour un seul mois.
 
 | Valeurs uniques | Odd |
 | --- | --- |
@@ -35,13 +35,13 @@ Adobe Analytics utilise des hachages 32 bits pour la plupart des dimensions, ce 
 
 {style="table-layout:auto"}
 
-Semblable au [paradoxe de l&#39;anniversaire](https://en.wikipedia.org/wiki/Birthday_problem), la probabilité des collisions de hachage augmente de manière drastique à mesure que le nombre de valeurs uniques augmente. À 1 million de valeurs uniques, il est probable qu’il existe au moins 100 collisions de hachage pour cette dimension.
+Tout comme le [paradoxe d&#39;anniversaire](https://en.wikipedia.org/wiki/Birthday_problem), la probabilité de collisions de hachage augmente de manière drastique à mesure que le nombre de valeurs uniques augmente. À 1 million de valeurs uniques, il est probable qu’il existe au moins 100 collisions de hachage pour cette dimension.
 
 ## Atténuation des collisions de hachage
 
 La plupart des collisions de hachage se produisent avec deux valeurs peu courantes, qui n’ont aucun impact significatif sur les rapports. Même si un hachage entre en conflit avec une valeur commune et rare, le résultat est négligeable. Cependant, dans de rares cas où deux valeurs populaires rencontrent une collision de hachage, il est possible de voir clairement son effet. Adobe recommande ce qui suit pour réduire son effet dans les rapports :
 
-* **Modification de la période**: les tableaux de hachage changent chaque mois. Le fait de modifier la période pour qu’elle s’étende sur un autre mois peut donner à chaque valeur différents hachages qui ne sont pas en conflit.
-* **Réduction du nombre de valeurs uniques**: vous pouvez ajuster votre mise en oeuvre ou utiliser des [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour réduire le nombre de valeurs uniques collectées par une dimension. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer des chaînes de requête ou du protocole.
+* **Modifier la période** : les tables de hachage changent chaque mois. Le fait de modifier la période pour qu’elle s’étende sur un autre mois peut donner à chaque valeur différents hachages qui ne sont pas en conflit.
+* **Réduire le nombre de valeurs uniques** : vous pouvez ajuster votre mise en oeuvre ou utiliser les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour réduire le nombre de valeurs uniques collectées par une dimension. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer des chaînes de requête ou du protocole.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

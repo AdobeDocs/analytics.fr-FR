@@ -14,11 +14,11 @@ ht-degree: 5%
 
 Vous pouvez activer Document Cloud Analytics pour rendre disponibles dans votre suite de rapports les dimensions et mesures spécifiques à un PDF.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion des Documents Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion des Documents Cloud]**
 
 Les options de gestion de Document Cloud suivantes sont disponibles lors de la modification d’une suite de rapports :
 
-* [!UICONTROL **Rapports sur les Documents Cloud**]
+* [!UICONTROL **Création de rapports de Document Cloud**]
 
   Les rapports spécifiques au module complémentaire Collection de médias en flux continu sont disponibles sur la page Rapports multimédia. Pour plus d’informations sur les rapports multimédia, voir [Configuration des rapports de Document Cloud](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md).
 

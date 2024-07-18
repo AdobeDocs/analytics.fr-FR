@@ -23,14 +23,14 @@ Lorsque vous définissez un événement d’achat, celui-ci affecte les mesures 
 
 >[!NOTE]
 >
->Le chiffre d’affaires n’est pas multiplié par le champ de quantité. Par exemple : `s.products="Womens;Socks;5;4.50"` ne transmet pas 22,50 $ au chiffre d’affaires, mais 4,50 $. Assurez-vous que votre mise en oeuvre transmet le total des recettes pour la quantité répertoriée. Par exemple : `s.products="Womens;Socks;5;22.50"`.
+>Le chiffre d’affaires n’est pas multiplié par le champ de quantité. Par exemple, `s.products="Womens;Socks;5;4.50"` ne transmet pas 22,50 $ au chiffre d’affaires, mais 4,50 $. Assurez-vous que votre mise en oeuvre transmet le total des recettes pour la quantité répertoriée. Par exemple : `s.products="Womens;Socks;5;22.50"`.
 
 ## Définir l’événement d’achat à l’aide du SDK Web
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), l’événement d’achat utilise les champs XDM suivants :
+Si vous utilisez l’ [**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), l’événement d’achat utilise les champs XDM suivants :
 
 * Les commandes sont mappées à `xdm.commerce.purchases.value`.
-* Les unités sont mappées à la somme de tous les `xdm.productListItems[].quantity` des champs. Voir [`products`](../products.md) pour plus d’informations.
+* Les unités sont mappées à la somme de tous les champs `xdm.productListItems[].quantity`. Voir [`products`](../products.md) pour plus d’informations.
 * Le chiffre d’affaires est mappé à la somme de tous les champs `xdm.productListItems[].priceTotal`.
 
 ```json
@@ -45,7 +45,7 @@ Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-ma
 }
 ```
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), l’événement d’achat utilise `data.__adobe.analytics.events`, suivant la syntaxe de chaîne d’AppMeasurement.
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), l’événement d’achat utilise `data.__adobe.analytics.events`, selon la syntaxe de chaîne d’AppMeasurement.
 
 ```json
 {
@@ -65,10 +65,10 @@ Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/da
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
-6. Recherchez la variable [!UICONTROL Événements] et définissez la variable [!UICONTROL Événements] Liste déroulante à [!UICONTROL purchase].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+6. Recherchez la section [!UICONTROL Events] et définissez la liste déroulante [!UICONTROL Events] sur [!UICONTROL purchase].
 
-Autres variables dépendantes, telles que `products` et `purchaseID` ne comportent pas de champs dédiés dans l’extension Analytics au sein de la collecte de données Adobe Experience Platform. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
+D’autres variables dépendantes, telles que `products` et `purchaseID`, n’ont pas de champs dédiés dans l’extension Analytics au sein de la collecte de données Adobe Experience Platform. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.
 
 ## Définition de l’événement d’achat dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

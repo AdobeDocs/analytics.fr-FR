@@ -26,8 +26,8 @@ Tenez compte des points suivants lors du téléchargement de projets :
 * Lors du téléchargement de projets en tant que PDF :
    * L’exportation des téléchargements peut prendre plusieurs minutes, car le projet est de nouveau exécuté sur les serveurs Adobe avant d’être rendu au format PDF. Nous vous recommandons de ne pas quitter le projet tant que le fichier PDF n’a pas été téléchargé dans votre navigateur. Cependant, vous pouvez continuer à apporter des modifications au projet pendant que vous patientez. Si le rendu dʼun fichier PDF prend plus de 5 minutes, vous serez invité à l’envoyer par e-mail.
    * Les téléchargements sont affichés sous la forme d’une seule page sans pagination.
-   * Les rendus de PDF contiennent ce qui se trouve sur la page dans Workspace. Si un projet comprend des panneaux et des visualisations aux dimensions personnalisées, vous devez définir leurs dimensions automatiquement (à l’aide du bouton dans le coin supérieur droit) afin d’éviter toute troncation du contenu.
-   * Quelconque [hyperliens](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) Les tableaux à structure libre qui existent ne sont pas fonctionnels dans le PDF téléchargé.
+   * Les rendus PDF contiennent ce qui se trouve sur la page dans Workspace. Si un projet comprend des panneaux et des visualisations aux dimensions personnalisées, vous devez définir leurs dimensions automatiquement (à l’aide du bouton dans le coin supérieur droit) afin d’éviter toute troncation du contenu.
+   * Les [hyperliens](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) existant dans les tableaux à structure libre ne sont pas fonctionnels dans le PDF téléchargé.
 
 Pour télécharger un projet au format CSV ou PDF :
 

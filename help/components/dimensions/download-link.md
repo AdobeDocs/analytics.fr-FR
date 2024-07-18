@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Lien de téléchargement
 
-&quot;Lien de téléchargement&quot; [dimension](overview.md) indique le nom des liens de téléchargement implémentés sur votre site. Cette dimension est utile pour en savoir plus sur le comportement des visiteurs vis-à-vis des liens de téléchargement, par exemple :
+Le &quot;lien de téléchargement&quot; [dimension](overview.md) indique le nom des liens de téléchargement implémentés sur votre site. Cette dimension est utile pour en savoir plus sur le comportement des visiteurs vis-à-vis des liens de téléchargement, par exemple :
 
 * Savoir quels fichiers sont téléchargés le plus souvent de votre site.
 * Déterminer si certains fichiers sont téléchargés plus souvent pendant des périodes spécifiques.

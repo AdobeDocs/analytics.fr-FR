@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -27,4 +27,4 @@ Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et 
 
 * Si vous utilisez le protocole FTP (non recommandé), assurez-vous de disposer de suffisamment d’espace sur votre site FTP. Supprimez régulièrement les fichiers de la destination de manière à ne pas manque d’espace par inadvertance.
 
-* Si vous utilisez sFTP (non recommandé), ne lisez pas ou ne supprimez pas les fichiers comportant une variable `.part` suffixe. Le suffixe `.part` indique que le fichier a été transféré en partie. Une fois le fichier transféré, le suffixe `.part` disparaît.
+* Si vous utilisez sFTP (non recommandé), ne lisez pas ou ne supprimez pas les fichiers portant le suffixe `.part`. Le suffixe `.part` indique que le fichier a été transféré en partie. Une fois le fichier transféré, le suffixe `.part` disparaît.

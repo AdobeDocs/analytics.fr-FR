@@ -15,7 +15,7 @@ ht-degree: 97%
 
 La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Méthodes de recherche]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Méthodes de recherche]**
 
 ## Description des méthodes de recherche {#section_8B6278DB75224EAB9F49D89A86274E8A}
 

@@ -8,7 +8,7 @@ exl-id: 31caee9b-3488-4dc7-b5b1-361b153c8b68
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 78%
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ Définitions de champ pour les dates roulantes en Report Builder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expression personnalisée </p> </td> 
-   <td colname="col2"> <p>Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expressions de dates personnalisées</a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expressions de dates personnalisées </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> À partir de la date </p> </td> 

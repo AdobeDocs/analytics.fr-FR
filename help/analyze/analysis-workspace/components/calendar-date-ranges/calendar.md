@@ -7,7 +7,7 @@ exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez également faire glisser des dates (et des dimensions temporelles) d
 |--- |--- |
 | Jours sélectionnés | Jours/semaines/mois/années sélectionné(e)s. |
 | Créer des composants de période par rapport au calendrier du panneau | Conservez la cohérence des dates en fonction de la période du panneau. |
-| Utiliser des dates roulantes | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Si, par exemple, vous souhaitez générer en décembre un rapport sur toutes les commandes passées le mois dernier (d’après le champ Date de création), les commandes passées en novembre seront incluses dans le rapport. Si vous exécutez ce même rapport en janvier, vous verrez les commandes passées en décembre.<ul><li>**[!UICONTROL Aperçu de la date]** : indique la période englobée par le calendrier variable.</li><li>**[!UICONTROL Début]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li><li>**[!UICONTROL Fin]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li></ul>Pour obtenir un exemple, consultez la section [Périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Sélectionné par défaut. |
+| Utiliser les dates flottantes | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Si, par exemple, vous souhaitez générer en décembre un rapport sur toutes les commandes passées le mois dernier (d’après le champ Date de création), les commandes passées en novembre seront incluses dans le rapport. Si vous exécutez ce même rapport en janvier, vous verrez les commandes passées en décembre.<ul><li>**[!UICONTROL Aperçu de la date]** : indique la période englobée par le calendrier variable.</li><li>**[!UICONTROL Début]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li><li>**[!UICONTROL Fin]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li></ul>Pour obtenir un exemple, consultez la section [Périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Sélectionné par défaut. |
 | Période | Permet de sélectionner une période prédéfinie. Par défaut : 30 derniers jours. **[!UICONTROL Cette semaine, ce mois, ce trimestre ou cette année (aujourd’hui non inclus)]** vous permet de choisir parmi des périodes qui n’incluent pas de données de la journée partielle d’aujourd’hui. |
 | Appliquer à tous les panneaux | Permet de modifier la période sélectionnée pour le panneau en cours ainsi que pour tous les autres panneaux du projet. |
 | Appliquer | Applique la période à ce panneau seulement. |
@@ -69,7 +69,7 @@ Gardez à l’esprit les instructions suivantes lorsque vous utilisez des pério
 
 ### Formules et périodes relatives {#formula-relative-dates}
 
-Si des dates relatives sont sélectionnées, toutes les formules de date utilisent la date de début du panneau comme point de départ.
+Si des dates relatives sont sélectionnées, toutes les formules de date utiliseront la date de début du panneau comme point de départ.
 
 ### Calendriers personnalisés et périodes relatives {#custom-calendar-formulas}
 

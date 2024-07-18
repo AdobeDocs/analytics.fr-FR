@@ -19,16 +19,16 @@ Lorsqu’il est activé, AppMeasurement compare toute URL de lien sur lequel l�
 
 ## Activation ou désactivation de la collecte de clics à l’aide de l’extension SDK Web
 
-Utilisez la variable [!UICONTROL Activer la collecte de données de clic] lors de la configuration du SDK Web. Cette case à cocher gère les liens de sortie et de téléchargement.
+Cochez la case [!UICONTROL Activer la collecte de données de clic] lors de la configuration du SDK Web. Cette case à cocher gère les liens de sortie et de téléchargement.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Collecte de données], cliquez sur le **[!UICONTROL Activer la collecte de données de clic]** .
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Sous [!UICONTROL Collecte de données], cochez la case **[!UICONTROL Activer la collecte de données de clic]** .
 
 ## Activer ou désactiver la collecte des clics en implémentant manuellement le SDK Web
 
-Configuration du SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens pour les liens de téléchargement et de sortie.
+Configurez le SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens pour les liens de téléchargement et de sortie.
 
 ```json
 alloy("configure", {

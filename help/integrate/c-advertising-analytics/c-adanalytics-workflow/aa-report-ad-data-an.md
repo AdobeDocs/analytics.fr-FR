@@ -24,7 +24,7 @@ Ce rapport permet à toute personne qui met en oeuvre l’intégration de moteur
 
 >[!NOTE]
 >
->Le rapport de recherche payante est visible par tous les clients, même si vous n’avez implémenté aucun compte Advertising. Si vous essayez d’ouvrir le rapport de recherche payante pour une société qui n’est pas configurée, un message d’erreur vous explique que vous n’avez configuré aucun compte de moteur de recherche. Sélectionner **[!UICONTROL Configurer maintenant]**, qui vous permet d’accéder au [Configuration du compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) écran.
+>Le rapport de recherche payante est visible par tous les clients, même si vous n’avez implémenté aucun compte Advertising. Si vous essayez d’ouvrir le rapport de recherche payante pour une société qui n’est pas configurée, un message d’erreur vous explique que vous n’avez configuré aucun compte de moteur de recherche. Sélectionnez **[!UICONTROL Configurer maintenant]** pour accéder à l’écran [Configuration d’un compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

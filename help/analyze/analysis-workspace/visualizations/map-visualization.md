@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ Voici une présentation vidéo :
       * Afficher des nombres négatifs : par exemple, si vous tracez une mesure d’une année à l’autre, la carte peut afficher -33 % sur New York.
       * Avec les mesures de type « pourcentage », le regroupement effectue la moyenne des pourcentages.
       * Un jeu de couleurs vert/rouge : positif/négatif.
+
    * **Faire pivoter** la carte en 2D ou en 3D en maintenant la touche [!UICONTROL Ctrl] et en déplaçant la carte.
 
    * **Basculer** vers une autre vue, comme une carte thermique, en utilisant les [paramètres](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) décrits ci-dessous. La vue à bulles est la vue par défaut.
-
 
 1. **Enregistrer** le projet pour enregistrer tous les paramètres des cartes (coordonnées, zoom, rotation).
 1. Le tableau à structure libre, sous la visualisation, peut être rempli en faisant glisser en place des dimensions et des mesures depuis le rail de gauche :

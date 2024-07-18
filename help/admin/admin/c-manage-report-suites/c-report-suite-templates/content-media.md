@@ -4,8 +4,8 @@ title: Contenu et média
 feature: Report Suite Settings
 exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '212'
+workflow-type: tm+mt
+source-wordcount: '215'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Définit des paramètres courants pour un site web qui développe le contenu d�
 | Impressions publicitaires | Compteur (sans sous-relations) | `event5` |
 | Clics publicitaires | Compteur (sans sous-relations) | `event6` |
 
-| Variables Aperçu personnalisé | Variable `s_code` |
+| Variables Custom Insight | Variable `s_code` |
 |---|---|
 | Propriété du trafic 1 à 5 | `prop1, prop2, prop3, prop4, prop5` |
 

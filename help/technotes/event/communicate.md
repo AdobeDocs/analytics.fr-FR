@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Communication de l’impact d’un événement aux utilisateurs
 
-Si vous disposez de données [impact d’un événement](overview.md), il est important de communiquer cet événement aux utilisateurs de votre entreprise.
+Si des données [ sont affectées par un événement](overview.md), il est important de communiquer cet événement aux utilisateurs de votre entreprise.
 
 * Développer une clause de non-responsabilité courante que vous pouvez utiliser dans les communications pour assurer la cohérence
 * Fournir une communication permanente aux utilisateurs d’Analytics et aux principaux intervenants pendant et après l’événement
@@ -22,7 +22,7 @@ Dans Adobe Analytics, les sections suivantes présentent différentes manières 
 
 ## Communication par le biais des descriptions de panneau ou de visualisation
 
-Si un projet Workspace est partagé entre les utilisateurs de votre entreprise, vous pouvez communiquer l’impact d’un événement au moyen de descriptions de panneau ou de visualisation. Cliquez avec le bouton droit sur un panneau ou un en-tête de visualisation, puis sélectionnez **[!UICONTROL Modifier la description]**.
+Si un projet Workspace est partagé par les utilisateurs de votre entreprise, vous pouvez communiquer l’impact d’un événement au moyen de descriptions de panneau ou de visualisation. Cliquez avec le bouton droit sur un panneau ou un en-tête de visualisation, puis sélectionnez **[!UICONTROL Modifier la description]**.
 
 ![Description du panneau](assets/panel_description.png)
 
@@ -36,7 +36,7 @@ Vous pouvez également communiquer l’impact d’un événement au moyen de vis
 
 Pour toute visualisation avec tendance dans Workspace, vous pouvez ajouter une série qui représente la période affectée.
 
-1. Créez une mesure calculée avec le segment &quot;Jours affectés&quot; en procédant comme suit : [Exclusion de dates spécifiques dans l’analyse](segments.md).
+1. Créez une mesure calculée avec le segment &quot;Jours affectés&quot; en suivant [Exclure des dates spécifiques dans l’analyse](segments.md).
 1. Ajoutez la mesure souhaitée au canevas de mesure calculée.
 
    ![Mesure](assets/calcmetric_event.png)
@@ -49,11 +49,11 @@ Pour toute visualisation avec tendance dans Workspace, vous pouvez ajouter une s
 
    ![Tableau à structure libre](assets/calcmetric_freeform.png)
 
-1. Cliquez sur l’icône d’engrenage des paramètres de colonne pour votre mesure calculée, puis activez l’option **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]**.
+1. Cliquez sur l’icône d’engrenage des paramètres de colonne pour votre mesure calculée et activez l’option **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]**.
 
    ![Paramètres des mesures calculées](assets/calcmetric_zero_no_value.png)
 
 1. Ajoutez une visualisation Ligne . Les jours concernés sont représentés avec une couleur différente. Pour plus d’informations, les utilisateurs peuvent également cliquer sur l’icône &quot;Infos&quot; dans la mesure calculée.
 
-   ![Icône Info](assets/calcmetric_infoicon.png)
+   ![Icône Infos](assets/calcmetric_infoicon.png)
 

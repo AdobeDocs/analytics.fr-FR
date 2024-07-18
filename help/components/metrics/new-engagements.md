@@ -12,7 +12,7 @@ ht-degree: 83%
 
 # Nouveaux engagements
 
-Les &quot;nouveaux engagements&quot; [metric](overview.md) indique le nombre de fois où un visiteur correspond à un canal marketing pour la première fois au cours de la période d’engagement de ce visiteur. Cette mesure est utile lorsque vous souhaitez comparer une dimension avec un visiteur correspondant pour la première fois à une règle de traitement des canaux marketing.
+La [mesure](overview.md) &quot;Nouveaux engagements&quot; indique le nombre de fois où un visiteur correspond à un canal marketing pour la première fois au cours de la période d’engagement de ce visiteur. Cette mesure est utile lorsque vous souhaitez comparer une dimension avec un visiteur correspondant pour la première fois à une règle de traitement des canaux marketing.
 
 ## Méthode de calcul de cette mesure
 

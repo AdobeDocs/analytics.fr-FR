@@ -15,8 +15,8 @@ ht-degree: 5%
 
 Les fichiers de source de données possèdent les propriétés suivantes :
 
-* Le fichier se trouve dans `.txt` format.
-* Les lignes commentées commencent par &quot;`#`&#39; et sont facultatifs.
+* Le fichier est au format `.txt`.
+* Les lignes commentées commencent par &#39;`#`&#39; et sont facultatives.
 * La première ligne sans commentaire contient les en-têtes du fichier.
 * La première valeur de chaque ligne est la date, qui utilise le format `MM/DD/YYYY` ou `MM/DD/YYYY/HH/mm/SS`.
 * Les valeurs de chaque ligne, y compris les en-têtes, sont délimitées par des tabulations.
@@ -24,7 +24,7 @@ Les fichiers de source de données possèdent les propriétés suivantes :
 
 ## Commentaires
 
-Toute ligne commençant par &quot;`#`&quot; est un commentaire. Lors du téléchargement d’un fichier de modèle de source de données, les deux premières lignes sont des commentaires.
+Toute ligne commençant par &#39;`#`&#39; est un commentaire. Lors du téléchargement d’un fichier de modèle de source de données, les deux premières lignes sont des commentaires.
 
 * Le premier commentaire indique le type de modèle que vous avez configuré pour la source de données, l’identifiant utilisateur principal qui a créé la source de données et l’identifiant de la source de données.
 * Le deuxième commentaire fournit des noms conviviaux pour chacun des en-têtes inclus dans le fichier de modèle.
@@ -68,11 +68,11 @@ Les Dimensions et les mesures se trouvent dans la même ligne d’en-tête.
 
 {style="table-layout:auto"}
 
-Adobe ne prend pas en charge les sources de données pour aucune autre dimension ou mesure. Si des variables supérieures à celles répertoriées dans les tableaux ci-dessus sont requises, envisagez d’utiliser la variable [API d’insertion de données en bloc](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) au lieu de .
+Adobe ne prend pas en charge les sources de données pour aucune autre dimension ou mesure. Si des variables supérieures à celles répertoriées dans les tableaux ci-dessus sont requises, pensez à utiliser l’ [API d’insertion de données en bloc](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) à la place.
 
 ## Date
 
-Première valeur de chaque ligne **must** soit la date. Le format de date doit être dans l’un des formats suivants :
+La première valeur de chaque ligne **doit** être la date. Le format de date doit être dans l’un des formats suivants :
 
 * **`MM/DD/YYYY/HH/mm/SS`**
 * **`MM/DD/YYYY`**
@@ -89,4 +89,4 @@ Les données de Dimension ne peuvent pas contenir de points-virgules (`;`). Les 
 
 ## Étapes suivantes
 
-[Chargement de fichier](file-upload.md): découvrez le processus de téléchargement d’un fichier de sources de données pour ingestion par Adobe.
+[Envoi de fichier](file-upload.md) : découvrez le processus de téléchargement d’un fichier de sources de données pour ingestion par Adobe.

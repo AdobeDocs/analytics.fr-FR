@@ -30,11 +30,11 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <tr>
-<td>2</td><td><b>Téléchargez le code JavaScript requis pour AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestionnaire de code</a></td>
+<td>2</td><td><b>Téléchargez le code JavaScript requis pour l’AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestionnaire de code</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Ajouter <code>AppMeasurement.js</code> au fichier de modèle de votre site web.</b>. Le code contient les bibliothèques requises pour envoyer des données à Adobe.
+<td>3</td><td><b>Ajoutez <code>AppMeasurement.js</code> au fichier de modèle de votre site web</b>. Le code contient les bibliothèques requises pour envoyer des données à Adobe.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <tr>
-<td>4</td><td><b>Définition de variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects.
+<td>4</td><td><b>Définissez des variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Définition de variables de niveau page dans le code de page de votre site</b>. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe.
+<td>5</td><td><b>Définissez des variables de niveau page dans le code de page de votre site </b>. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe.
 
 ```js
 s.pageName = "Example page";
@@ -74,7 +74,7 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Envoyez les données à Adobe à l’aide du <code>t()</code> method</b>, lorsque toutes les variables de page sont définies.
+<td>6</td><td><b>Envoyez les données à Adobe à l’aide de la méthode <code>t()</code></b>, lorsque toutes les variables de page sont définies.
 
 ```js
 s.t();

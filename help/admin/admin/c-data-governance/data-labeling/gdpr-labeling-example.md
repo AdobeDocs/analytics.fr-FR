@@ -35,9 +35,9 @@ Supposons que vous avez les données d’accès suivantes :
 
 ## Exemple de requêtes d’accès {#access}
 
-Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au sujet des données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le sujet de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier de HTML récapitulatif qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour le sujet de données et du nombre de fois où chaque valeur unique a été vue.
+Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au sujet des données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le sujet de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier d’HTML récapitulatif qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour le sujet de données et du nombre de fois où chaque valeur unique a été vue.
 
-Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs ne sont renvoyés que si un ID de personne est utilisé et `expandIds` est vrai.
+Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et si `expandIds` est défini sur &quot;true&quot;.
 
 <table>
   <tr>
@@ -142,7 +142,7 @@ Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées da
   </tr>
 </table>
 
-Notez que le paramètre pour `expandIDs` n’a aucune incidence sur la sortie lorsqu’un ID de cookie est utilisé.
+Notez que le paramètre de `expandIDs` n’a aucune incidence sur la sortie lorsqu’un ID de cookie est utilisé.
 
 ## Exemples de requêtes de suppression {#delete}
 
@@ -219,7 +219,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Uniquement les colonnes des lignes contenant `AAID=77` et un `DEL-DEVICE` sont impactées.
+>Seules les colonnes des lignes contenant `AAID=77` et une étiquette `DEL-DEVICE` sont impactées.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Uniquement les colonnes des lignes contenant `user=Mary` et un `DEL-PERSON` sont impactées. En pratique, la variable contenant `A_ID` serait probablement une prop ou un eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivi d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
+>Seules les colonnes des lignes contenant `user=Mary` et une étiquette `DEL-PERSON` sont impactées. En outre, dans la pratique, la variable contenant `A_ID` serait probablement une prop ou un eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
 
 <table>
   <tr>

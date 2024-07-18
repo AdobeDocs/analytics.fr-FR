@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '127'
 ht-degree: 83%
 
 ---
@@ -19,7 +19,7 @@ Pour obtenir des informations plus détaillées sur le chargement des attributs 
 
 * S’il est configuré en tant que mesure, VisAttr est exposé en tant que mesure et &quot;dimension&quot;.
 
-  ![Capture d’écran montrant les attributs du client de mesure et de dimension.](assets/ca_metrics.png)  ![](assets/ca_dimension.png)
+  ![Capture d’écran montrant les attributs du client de mesure et de dimension.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Il prend en charge la même répartition qu’une eVar (tout peut être réparti par tout).
 * VisAttr prend en charge toutes les mesures d’eVar.

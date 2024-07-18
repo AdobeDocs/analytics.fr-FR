@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 80%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Les fonctions permettent de filtrer/trier vos données et effectuer des analyses statistiques.
 
-Pour une liste de toutes les fonctions, voir  [Fonctions de base](/help/components/c-calcmetrics/cm-reference/cm-functions.md) et [fonctions avancées](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Pour obtenir la liste de toutes les fonctions, reportez-vous aux sections [Fonctions de base](/help/components/c-calcmetrics/cm-reference/cm-functions.md) et [Fonctions avancées](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >

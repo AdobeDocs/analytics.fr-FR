@@ -7,7 +7,7 @@ role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Questions fréquentes relatives aux fonctionnalités et problèmes liés au tran
 | Q : Que se passe-t-il si je dispose d’un balisage multi-suite, que seule une de mes suites de rapports est mappée à mon organisation Experience Cloud et que l’autre ne l’est pas ? | Nous transférons l’accès au serveur de collecte de données correspondant à l’organisation Experience Cloud de la suite de rapports mappée. Toutefois, comme la suite de rapports non mappée ne comporte pas de source de données associée dans Audience Manager, aucune donnée n’est enregistrée pour la suite de rapports non mappée dans Audience Manager. |
 | Q : Que faire si je dispose d’une suite de rapports mappée à plusieurs organisations Experience Cloud ? | Analytics considère cette suite de rapports comme non mappée et n’autorise pas le transfert côté serveur à être activé pour cette suite de rapports. Contactez le service à la clientèle pour résoudre ce problème de mappage. |
 | Q : La méthode de transfert côté serveur basé sur une suite de rapports est-t-elle plus lente que le transfert côté serveur basé sur un serveur de suivi ? | Non, le temps de réponse est le même. |
-| Q : Que se passe-t-il si nous disposons de deux organisations Experience Cloud (ou instances Adobe Audience Manager) et que nous souhaitons partager des données entre les deux organisations Experience Cloud ? Puis-je effectuer un transfert côté serveur d’un seul accès Analytics vers plusieurs organisations Experience Cloud ? | Non. Si vous devez partager des données collectées dans une organisation Experience Cloud vers une autre organisation Experience Cloud, il est recommandé d’envoyer les audiences applicables d’une instance Audience Manager vers une autre par l’intermédiaire du marché des audiences. |
+| Q : que se passe-t-il si nous disposons de deux organisations Experience Cloud (ou instances Adobe Audience Manager) et que nous souhaitons partager des données entre les deux organisations Experience Cloud ? Puis-je effectuer un transfert côté serveur d’un seul accès Analytics vers plusieurs organisations Experience Cloud ? | Non. Si vous devez partager des données collectées dans une organisation Experience Cloud vers une autre organisation Experience Cloud, il est recommandé d’envoyer les audiences applicables d’une instance Audience Manager vers une autre par l’intermédiaire du marché des audiences. |
 | Q : Le transfert côté serveur entraîne-t-il une facturation supplémentaire dans Audience Manager ou Analytics ? | Dans Analytics, aucune facturation supplémentaire n’est appliquée. Dans Audience Manager, les accès transférés sont traités comme tous les autres accès et facturés.  C’est pourquoi il est important de ne pas activer la collecte de données côté client (DIL) et le transfert côté serveur en même temps, ce qui peut entraîner une double facturation ainsi qu’une duplication des données. |
 
 >[!MORELIKETHIS]

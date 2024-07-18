@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 80%
+source-wordcount: '261'
+ht-degree: 81%
 
 ---
 
@@ -22,14 +22,14 @@ Dans le menu **[!UICONTROL Format]**, cliquez sur **[!UICONTROL Format personnal
 
 Le tableau suivant décrit l’utilisation des abréviations de date dans le champ [!UICONTROL Format personnalisé] :
 
-| Abréviation | Signification | Exemple utilisant mercredi 14 mars 2012 |
+| Abréviation | Signification | Exemple   utilisant le mercredi 14 mars 2012 |
 |--- |--- |--- |
 | jj/MM/aaa | Date numérique complète | 03/14/2012 |
 | M | Numéro du mois | 3 |
 | MM | Numéro du mois avec un caractère 0 de remplissage pour les mois &lt; 10 | 03 |
 | MMM | Forme abrégée du nom du mois | Mar |
 | MMMM | Forme longue du nom du mois | Mars |
-| J | Nom de la date au format long | Mercredi, 14 mars 2012 |
+| J | Nom de la date au format long | jeudi 14 mars 2012 |
 | j | Numéro du jour | 14 |
 | jj | Numéro du jour avec un caractère 0 de remplissage pour les jours &lt; 10 | 01 - 09 |
 | jjj | Forme abrégée du nom du jour | Mer |

@@ -15,7 +15,7 @@ ht-degree: 95%
 
 Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes Web et mobiles.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]**.
 
 Après avoir téléchargé la bibliothèque, vous devez configurer le code pour envoyer des données vers le serveur de suivi de code et la suite de rapports. D’autres ressources d’implémentation sont disponibles dans le guide de l’utilisateur [Mise en œuvre](/help/implement/home.md).
 

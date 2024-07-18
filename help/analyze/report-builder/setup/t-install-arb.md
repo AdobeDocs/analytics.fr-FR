@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: 90441e102ddaf367555e278bda8ca51c7bfeae34
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 66%
+source-wordcount: '124'
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 66%
 
 Pour installer le Report Builder :
 
-1. Cliquez sur **[](https://experience.adobe.com/)Adobe Experience Cloud** > **[!UICONTROL Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Créateur de rapports]**.
+1. Cliquez sur **[Adobe Experience Cloud](https://experience.adobe.com/)** > **[!UICONTROL Analytics]** > **[!UICONTROL Outils]** > **[!UICONTROL Report Builder]**.
 1. Cliquez sur **[!UICONTROL Télécharger maintenant]** pour télécharger la version 32 bits ou 64 bits (en fonction de la version de Microsoft Excel installée).
 1. Ouvrez le package du programme d’installation téléchargé.
 1. Suivez l’Assistant d’installation.
@@ -27,4 +27,4 @@ Pour installer le Report Builder :
 
 ## Autorisations
 
-Si vous ne voyez pas **[!UICONTROL Report Builder]** comme élément de menu sous **[!UICONTROL Outils]**, demandez à votre administrateur Adobe Analytics de vous assurer que vous faites partie d’un profil de produit qui comprend les autorisations suivantes : *Report Builder*. Découvrez de plus amples informations sur les [Profils de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) et les [autorisations Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr).
+Si vous ne voyez pas **[!UICONTROL Report Builder]** comme élément de menu sous **[!UICONTROL Outils]**, demandez à votre administrateur Adobe Analytics de vous assurer que vous faites partie d’un profil de produit qui inclut l’autorisation suivante : *Report Builder*. Découvrez de plus amples informations sur les [Profils de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) et les [autorisations Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=fr).

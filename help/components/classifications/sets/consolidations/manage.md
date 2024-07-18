@@ -16,25 +16,25 @@ Si plusieurs jeux de classifications contiennent des données similaires, vous p
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]** > **[!UICONTROL Consolidation]**
 
-Une fois une consolidation exécutée, les jeux de classifications d’origine sont supprimés, le jeu de classifications consolidé prenant leur place. Cliquez sur **[!UICONTROL Ajouter]** to [Créer une consolidation](process.md).
+Une fois une consolidation exécutée, les jeux de classifications d’origine sont supprimés, le jeu de classifications consolidé prenant leur place. Cliquez sur **[!UICONTROL Ajouter]** à [Créer une consolidation](process.md).
 
 ## Filtrage des jeux de classifications
 
-Le côté gauche du gestionnaire de consolidation des jeux de classifications fournit des paramètres de filtre pour localiser la consolidation souhaitée. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les consolidations par **[!UICONTROL État]**, **[!UICONTROL Heure de fin]**, ou **[!UICONTROL Temps de création]**.
+Le côté gauche du gestionnaire de consolidation des jeux de classifications fournit des paramètres de filtre pour localiser la consolidation souhaitée. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les consolidations par **[!UICONTROL État]**, **** et **[!UICONTROL Heure de création]**.
 
-![Filtres de consolidation des jeux de classifications](../../assets/classification-set-consolidation-filters.png)
+![Filtres de consolidation de jeu de classifications](../../assets/classification-set-consolidation-filters.png)
 
 D’autres options de filtre sont disponibles au-dessus des colonnes du gestionnaire de consolidation du jeu de classifications :
 
-* **[!UICONTROL Recherche par titre]**: recherchez des consolidations par nom.
-* **Afficher/masquer les colonnes**: activation/désactivation de la visibilité pour n’importe quelle colonne en plus de [!UICONTROL Nom].
+* **[!UICONTROL Rechercher par titre]** : recherchez des consolidations par nom.
+* **Afficher/masquer les colonnes** : basculez la visibilité de n’importe quelle colonne en plus de [!UICONTROL Nom].
 
 ## Colonnes du gestionnaire de consolidation des jeux de classifications
 
 Les colonnes suivantes sont disponibles dans le gestionnaire de consolidation des jeux de classifications :
 
-* **[!UICONTROL Nom]**: nom de la consolidation.
-* **[!UICONTROL Tâche actuelle]**: tâche en cours. <!-- todo: better description -->
-* **[!UICONTROL État]**: état de la consolidation. <!-- todo: get list of possible statuses -->
-* **[!UICONTROL Date de création]**: date et heure de création de la consolidation.
-* **[!UICONTROL Date d’achèvement]**: date et heure auxquelles la consolidation s’est terminée (ou a échoué).
+* **[!UICONTROL Nom]** : nom de la consolidation.
+* **[!UICONTROL Tâche actuelle]** : la tâche actuelle. <!-- todo: better description -->
+* **[!UICONTROL Status]** : état de la consolidation. <!-- todo: get list of possible statuses -->
+* **[!UICONTROL Date de création]** : date et heure de création de la consolidation.
+* **[!UICONTROL Date d’achèvement]** : date et heure auxquelles la consolidation s’est terminée (ou a échoué).

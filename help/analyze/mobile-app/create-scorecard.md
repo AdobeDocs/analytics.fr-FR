@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: f2e040cfc6dcb67fbb1b995e38eede78943c66f7
 workflow-type: tm+mt
-source-wordcount: '2513'
+source-wordcount: '2500'
 ht-degree: 81%
 
 ---
@@ -37,7 +37,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 ### Créer un nouveau projet {#create}
 
 1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
-1. Cliquez sur **[!UICONTROL Créer un projet]** et sélectionnez la variable **[!UICONTROL Fiche d’évaluation mobile vierge]** modèle de projet.
+1. Cliquez sur **[!UICONTROL Créer un projet]** et sélectionnez le modèle de projet **[!UICONTROL Fiche d’évaluation mobile vierge]** .
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 ![Modèle de Fiche d’évaluation](assets/new_template.png)
@@ -55,7 +55,7 @@ Pour mettre en oeuvre le modèle de Fiche d’évaluation :
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-1. Pour ajouter une nouvelle mosaïque à votre fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la **[!UICONTROL Faire glisser et déposer des mesures ici]** zone. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+1. Pour ajouter une nouvelle mosaïque à votre fiche d’évaluation, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Faire glisser les mesures ici]** . Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Mark
 
 Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque.
 
-Si vous souhaitez appliquer le segment à toutes les mosaïques de la fiche d’évaluation, déposez la mosaïque en haut de la fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. You [configuration et application de filtres pour vos fiches d’évaluation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que dans Adobe Analytics Workspace.
+Si vous souhaitez appliquer le segment à toutes les mosaïques de la fiche d’évaluation, déposez la mosaïque en haut de la fiche d’évaluation. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [ configurez et appliquez des filtres pour vos fiches d’évaluation ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que vous le feriez dans Adobe Analytics Workspace.
 
 ![Création de segments pour le filtre](assets/segment_ui.png)
 
@@ -212,7 +212,7 @@ Pour ajouter du texte à une diapositive détaillée, sélectionnez une disposit
 
 ## Supprimer des composants {#remove}
 
-De même, pour supprimer un composant appliqué à la totalité de la fiche d’évaluation, cliquez n’importe où sur la fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur l’icône **x** qui s’affiche lorsque vous placez le pointeur de la souris sur le composant, comme illustré ci-dessous pour la fonction **Premières visites** segment :
+De même, pour supprimer un composant appliqué à la totalité de la fiche d’évaluation, cliquez n’importe où sur la fiche d’évaluation en dehors des mosaïques, puis supprimez-le en cliquant sur le **x** qui s’affiche lorsque vous passez la souris sur le composant, comme illustré ci-dessous pour le segment **Premières visites** :
 
 ![Remove_components](assets/new_remove.png)
 
@@ -352,7 +352,7 @@ Pour partager une fiche d’évaluation à l’aide d’un lien partageable
 
 1. Copiez le lien et collez-le dans un email, un document ou une application de messagerie instantanée.
 
-   Lorsqu’un destinataire ouvre le lien à l’aide d’une appli de bureau ou d’un navigateur, le projet de Fiche d’évaluation mobile s’ouvre dans Workspace.
+   Lorsqu’un destinataire utilise une appli de bureau ou un navigateur pour ouvrir le lien, le projet de Fiche d’évaluation mobile s’ouvre dans Workspace.
 
    Lorsqu’un destinataire ouvre le lien sur un appareil mobile, la fiche d’évaluation s’ouvre directement dans l’application des tableaux de bord Analytics.
 

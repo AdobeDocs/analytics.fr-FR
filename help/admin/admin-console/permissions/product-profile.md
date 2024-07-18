@@ -33,7 +33,7 @@ Pour plus d’informations sur l’affectation des administrateurs de profil de 
 Les autorisations minimales requises dans un profil de produit pour accéder à Adobe Analytics sont les suivantes :
 
 * Le profil de produit doit avoir accès à au moins une suite de rapports.
-* Le profil de produit doit appartenir à l’élément d’autorisation Outils Analytics . **Accès à Analysis Workspace**.
+* Le profil de produit doit appartenir à l’élément d’autorisation Outils Analytics **Accès Analysis Workspace**.
 
 ### Suites de rapports
 

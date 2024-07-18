@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Durée de la visite
 
-*Cette page d’aide décrit le fonctionnement de la &quot;Durée de la visite&quot; en tant que [dimensions](overview.md). Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
+*Cette page d’aide décrit le fonctionnement de la &quot;Durée de la visite&quot; en tant que [dimensions](overview.md) respectives. Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
 
 Les dimensions « Durée de la visite » enregistrent le temps passé par un visiteur pendant l’intégralité de la visite. Elle utilise les étapes suivantes pour mesurer le calcul :
 

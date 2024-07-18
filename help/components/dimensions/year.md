@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Année
 
-L&#39;&quot;année&quot; [dimension](overview.md) indique l’année au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première année de la période et le dernier élément de dimension correspond à la dernière année de la période.
+La [dimension](overview.md) de &quot;l’année&quot; indique l’année au cours de laquelle une mesure donnée a été effectuée. Le premier élément de dimension correspond à la première année de la période et le dernier élément de dimension correspond à la dernière année de la période.
 
 ## Renseignement de cette dimension avec des données
 

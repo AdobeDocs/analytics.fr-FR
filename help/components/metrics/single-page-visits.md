@@ -6,7 +6,7 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 97%
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 *Cette page d’aide décrit le fonctionnement de la mesure « Visites de page unique ». Pour plus d’informations, consultez la dimension [Visites de page unique](../dimensions/single-page-visits.md).*
 
-La mesure [!UICONTROL Visites sur une seule page][](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
+La [!UICONTROL  visite de page unique ] [mesure](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
 
 ## Méthode de calcul de cette mesure
 

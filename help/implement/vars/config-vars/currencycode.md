@@ -34,8 +34,8 @@ Un point **doit** doit être utilisé comme séparateur de devise pour toutes le
 
 Le code de devise est mappé aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.commerce.order.currencyCode`
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.currencyCode` ou `data.__adobe.analytics.cc`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.commerce.order.currencyCode`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.currencyCode` ou `data.__adobe.analytics.cc`
 
 ## Code de devise utilisant l’extension Adobe Analytics
 

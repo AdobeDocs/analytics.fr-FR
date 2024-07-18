@@ -21,14 +21,14 @@ La variable `products` effectue le suivi des produits et des propriétés qui le
 
 ## Produits utilisant le SDK Web
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les produits sont mappés aux variables suivantes :
+Si vous utilisez l’ [**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), les produits sont mappés aux variables suivantes :
 
-* La catégorie est mappée à `xdm.productListItems[].productCategories[].categoryID`. Elle utilise le premier élément de la variable `productCategories[]` tableau. `lineItemId` mappe également correctement, mais Adobe recommande `categoryID` puisqu’il s’agit d’un XDM standard. Si les deux champs XDM sont présents, `lineItemId` a la priorité .
-* Le produit est mappé sur `xdm.productListItems[].SKU` ou `xdm.productListItems[].name`. Si les deux champs XDM sont présents, `xdm.productListItems[].SKU` est utilisée.
-* La quantité est mappée sur `xdm.productListItems[].quantity`.
+* La catégorie est mappée à `xdm.productListItems[].productCategories[].categoryID`. Il utilise le premier élément du tableau `productCategories[]`. `lineItemId` mappe également correctement, mais Adobe recommande `categoryID`, car il s’agit d’un XDM standard. Si les deux champs XDM sont présents, `lineItemId` est prioritaire.
+* Le produit est mappé sur `xdm.productListItems[].SKU` ou `xdm.productListItems[].name`. Si les deux champs XDM sont présents, `xdm.productListItems[].SKU` est utilisé.
+* La quantité est mappée à `xdm.productListItems[].quantity`.
 * Le prix est mappé sur `xdm.productListItems[].priceTotal`.
-* Les eVars de marchandisage sont mappées à `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` to `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.
-* Les événements de marchandisage sont associés à `xdm.productListItems[]._experience.analytics.event1to100.event1.value` to `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit. Si vous définissez un événement dans l’un de ces champs, il est automatiquement inclus dans la variable [event](events/events-overview.md) chaîne envoyée à Adobe Analytics.
+* Les eVars de marchandisage sont mappées sur `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` à `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`, selon l’eVar que vous souhaitez lier à un produit.
+* Les événements de marchandisage sont mappés sur `xdm.productListItems[]._experience.analytics.event1to100.event1.value` à `xdm.productListItems._experience.analytics.event901to1000.event1000.value`, selon l’événement que vous souhaitez lier à un produit. Si vous définissez un événement dans l’un de ces champs, il est automatiquement inclus dans la chaîne [event](events/events-overview.md) envoyée à Adobe Analytics.
 
 ```json
 {
@@ -53,7 +53,7 @@ Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-ma
 }
 ```
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), la variable products utilise `data.__adobe.analytics.products` selon la syntaxe de l’AppMeasurement. Si vous définissez ce champ, tous les produits définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), la variable products utilise `data.__adobe.analytics.products` selon la syntaxe de l’AppMeasurement. Si vous définissez ce champ, tous les produits définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
 
 ```json
 {
@@ -94,7 +94,7 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. Longueur maximale pour l’ensemble `products` string fait 64 000 octets. Séparez chaque produit par une virgule (`,`) dans la chaîne.
+Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

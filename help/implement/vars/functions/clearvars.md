@@ -42,7 +42,7 @@ Définissez l’action Effacer les variables lors de la configuration d’une r�
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Effacement des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Effacer les variables].
 
 ## s.clearVars() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

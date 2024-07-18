@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Copiez une requête simple plutôt qu’une requête référentielle. Une requête simple ne contient aucune référence à une autre requête, ni au contenu d’une cellule.
 
-Une [requête référentielle](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) utilise les valeurs des cellules comme entrée de paramètres, tel un filtre de données ou un filtre relationnel. Ces filtres appliquent la mise en correspondance ou les tendances et se fondent sur les résultats d’une requête antérieure ou sur le contenu d’une cellule saisi par l’utilisateur, appelé cellule d’entrée.
+Une [requête référentielle](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) utilise les valeurs des cellules comme entrée de paramètres, tel un filtre de données ou un filtre relationnel. Ces filtres utilisent la mise en correspondance ou les tendances et sont basés sur les résultats d’une requête précédente ou sur le contenu d’une cellule saisi par l’utilisateur, appelé cellule d’entrée.
 
 Pour copier une requête simple
 

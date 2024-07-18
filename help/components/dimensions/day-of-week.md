@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Jour de la semaine
 
-Le &quot;Jour de la semaine&quot; [dimension](overview.md) indique le jour de la semaine où l’accès a eu lieu. Ce rapport est utile si vous souhaitez un rapport divisé par semaine, mais ne souhaitez pas de jours statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, car cette dimension est compatible avec toutes les périodes.
+La [dimension](overview.md) &quot;Jour de la semaine&quot; indique le jour de la semaine où l’accès a eu lieu. Ce rapport est utile si vous souhaitez un rapport divisé par semaine, mais ne souhaitez pas de jours statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, car cette dimension est compatible avec toutes les périodes.
 
 ## Renseignement de cette dimension avec des données
 

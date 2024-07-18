@@ -6,14 +6,14 @@ feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 61%
 
 ---
 
 # Gestion des annotations
 
-La variable [!UICONTROL Gestionnaire d’annotations] vous présente toutes les annotations que vous possédez ou qui ont été partagées avec vous. Les annotations spécifiques au projet n’apparaissent pas ici. Vous pouvez utiliser cette interface pour partager, filtrer, baliser, copier, supprimer et marquer vos annotations comme favorites. Les administrateurs peuvent gérer et approuver les annotations.
+Le [!UICONTROL gestionnaire d’annotations] vous présente toutes les annotations que vous possédez ou qui ont été partagées avec vous. Les annotations spécifiques au projet n’apparaissent pas ici. Vous pouvez utiliser cette interface pour partager, filtrer, baliser, copier, supprimer et marquer vos annotations comme favorites. Les administrateurs peuvent gérer et approuver les annotations.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Annotations]**
 

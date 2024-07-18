@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 83%
 
 ---
 
 # Détails du canal Première touche
 
-Détails du canal Première touche [dimension](overview.md) présente des détails sur le premier canal marketing auquel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour comprendre ce qui a contribué à la correspondance des accès avec un canal marketing. Par exemple, si un visiteur arrive sur votre site et correspond au canal marketing « Référencement payant », vous pouvez utiliser les détails du canal pour identifier le moteur de recherche utilisé ou le mot-clé recherché.
+La [dimension](overview.md) de &quot;Détails du canal Première touche&quot; indique les détails autour du premier canal marketing auquel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour comprendre ce qui a contribué à la correspondance des accès avec un canal marketing. Par exemple, si un visiteur arrive sur votre site et correspond au canal marketing « Référencement payant », vous pouvez utiliser les détails du canal pour identifier le moteur de recherche utilisé ou le mot-clé recherché.
 
 ## Renseignement de cette dimension avec des données
 
@@ -22,7 +22,7 @@ Pour définir une valeur spécifique sur cette dimension, procédez comme suit 
 
 * Assurez-vous que l’élément de dimension souhaité se trouve dans un attribut d’accès ou une variable personnalisée.
 * Définissez une règle de traitement des canaux marketing qui contient les critères de votre choix pour l’accès.
-* Sélectionnez la valeur déroulante souhaitée sous [!UICONTROL Définir la valeur du canal] dans la règle de traitement des canaux marketing.
+* Sélectionnez la valeur déroulante souhaitée sous [!UICONTROL Définir la valeur] du canal dans la règle de traitement des canaux marketing.
 * L’accès du visiteur à votre site doit correspondre aux critères décrits dans la règle de traitement des canaux marketing _et_ doit être la première valeur de canal marketing à le faire au cours de la période d’engagement du visiteur.
 
 Si un accès ultérieur correspond à des critères sous un autre canal marketing, cette dimension n’est pas remplacée par le nouveau canal marketing.

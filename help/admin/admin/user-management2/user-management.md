@@ -8,11 +8,11 @@ role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Gestion des utilisateurs et des produits (héritée)
+# Gestion des utilisateurs et utilisatrices et des produits (héritée)
 
 Gérez des utilisateurs, des groupes et des produits Analytics dans Adobe Admin Console.
 

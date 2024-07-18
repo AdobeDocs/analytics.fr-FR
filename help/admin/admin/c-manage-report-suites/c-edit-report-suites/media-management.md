@@ -19,12 +19,12 @@ Vous pouvez activer les médias dans Analytics pour réserver un ensemble spéci
 
 Les options de gestion des médias suivantes sont disponibles lors de la modification d’une suite de rapports :
 
-* [!UICONTROL **Rapports multimédia**]
+* [!UICONTROL **Création de rapports multimédia**]
 
   Les rapports spécifiques au module complémentaire Collection de médias en flux continu sont disponibles sur la page Rapports multimédia. Pour plus d’informations sur les rapports multimédia, voir [Activation des rapports multimédia](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html).
 
-* [!UICONTROL **Classifications des médias**]
+* [!UICONTROL **Classifications de médias**]
 
   Les classifications spécifiques au module complémentaire Collection de médias en flux continu sont disponibles sur la page Classifications des médias . Pour plus d’informations sur les classifications, voir [Classifications des conversions](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
 
-Pour obtenir des informations générales sur l’intégration de données de médias en flux continu dans Adobe Analytics, voir [Guide du module complémentaire Collection de médias en flux continu](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
+Pour obtenir des informations générales sur l’intégration de données de médias en flux continu dans Adobe Analytics, consultez le [ Guide du module complémentaire de collecte de médias en flux continu ](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).

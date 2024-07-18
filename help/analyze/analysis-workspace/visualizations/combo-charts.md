@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 99%
 
 ---
@@ -96,7 +96,7 @@ Cliquez sur l’icône d’engrenage qui se trouve en haut à droite d’un grap
 | **[!UICONTROL Légende visible]** | Permet de masquer le texte de légende détaillé pour la visualisation des graphiques combinés. |
 | **[!UICONTROL Nombre max d’éléments]** | Réduit le nombre d’éléments sur l’axe X. Si vous disposez d’un jeu de données volumineux, vous pouvez uniquement afficher les 10 premiers éléments (ou toute valeur que vous choisissez). |
 | **[!UICONTROL Superpositions]** | Afficher ou masquer les haltères sur les lignes. |
-| **[!UICONTROL Axe]** |  |
+| **[!UICONTROL Axe]** | |
 | **[!UICONTROL Afficher l’axe double]** | S’applique seulement s’il existe deux mesures : vous pouvez afficher un axe des y sur la gauche (pour une mesure) et un sur la droite (pour l’autre mesure). Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. La couleur de l’axe double correspond à celle du tableau, sauf s’il existe plusieurs comparaisons. Dans ce cas, toutes les comparaisons sont grises. |
 | **[!UICONTROL Normalisation]** | Force les mesures en proportions égales. Cela sʼavère utile lorsque les mesures tracées présentent des dimensions très différentes. |
 | **[!UICONTROL Afficher l’axe X]** | Affichez l’axe X ou masquez-le. |

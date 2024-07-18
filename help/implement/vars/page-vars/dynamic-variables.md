@@ -33,7 +33,7 @@ Utilisez le mappage de flux de données pour envoyer des données à plusieurs v
 1. Cliquez sur **[!UICONTROL Datastreams]** dans le rail de gauche.
 1. Cliquez sur le flux de données souhaité.
 1. Cliquez sur **[!UICONTROL Modifier le mappage]** à droite.
-1. Faites correspondre les [!UICONTROL Champ source] à la [!UICONTROL Champ cible]. Un champ source unique peut correspondre à n’importe quel nombre de champs cibles.
+1. Faites correspondre le [!UICONTROL champ Source] souhaité au [!UICONTROL champ cible] de votre choix. Un champ source unique peut correspondre à n’importe quel nombre de champs cibles.
 
 ## Variables dynamiques utilisant l’extension Adobe Analytics
 
@@ -43,7 +43,7 @@ Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dim
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez l’élément de dimension souhaité.
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.

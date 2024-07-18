@@ -13,47 +13,47 @@ ht-degree: 13%
 
 # Annulation des demandes de création de rapports dans le Gestionnaire d’activités de création de rapports
 
-La variable [!UICONTROL Gestionnaire des activités de création de rapports] permet aux administrateurs de diagnostiquer et d’annuler rapidement les demandes de création de rapports afin de corriger les problèmes de capacité de création de rapports pendant les heures de pointe de la création de rapports.
+Le [!UICONTROL Gestionnaire d’activités de création de rapports] permet aux administrateurs de diagnostiquer et d’annuler rapidement les demandes de création de rapports afin de corriger les problèmes de capacité de création de rapports pendant les heures de pointe de la création de rapports.
 
 Tenez compte des points suivants lors de l’annulation de demandes de création de rapports :
 
 * Vous pouvez annuler des requêtes spécifiques, annuler toutes les requêtes d’un utilisateur spécifique ou annuler toutes les requêtes liées à un projet spécifique.
 
-  Lorsque vous annulez une requête, l’action est enregistrée dans la variable [Journaux](/help/admin/admin/logs.md). La variable [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**] et une description de l’annulation est disponible dans la section [!UICONTROL **Événement**] colonne .
+  Lorsque vous annulez une requête, l’action est enregistrée dans les [journaux](/help/admin/admin/logs.md). La colonne [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**], et une description de l’annulation est disponible dans la colonne [!UICONTROL **Événement**].
 
 * Lorsque vous annulez des requêtes, vous pouvez également choisir de limiter les requêtes suivantes pour une période donnée.
 
-  Lorsque vous limitez une requête suivante, l’action est enregistrée dans la variable [Journaux](/help/admin/admin/logs.md). La variable [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**] et une description de la restriction est disponible dans la section [!UICONTROL **Événement**] colonne .
+  Lorsque vous restreignez une requête suivante, l’action est enregistrée dans les [journaux](/help/admin/admin/logs.md). La colonne [!UICONTROL **Type d’événement**] s’affiche sous la forme [!UICONTROL **Action d’administration**] et une description de la restriction est disponible dans la colonne [!UICONTROL **Événement**].
 
-* Vous ne pouvez pas annuler une requête si la variable [!UICONTROL **Utilisateur**] la colonne d’une requête s’affiche comme [!UICONTROL **Non reconnu**]. Dans ce cas, cela signifie que l’utilisateur se trouve dans une société de connexion dans laquelle vous ne disposez pas des autorisations d’administration.
+* Vous ne pouvez pas annuler une requête si la colonne [!UICONTROL **User**] d’une requête apparaît comme [!UICONTROL **Non reconnu**]. Dans ce cas, cela signifie que l’utilisateur se trouve dans une société de connexion dans laquelle vous ne disposez pas des autorisations d’administration.
 
-Pour plus d’informations sur la gestion des activités de création de rapports, y compris les principaux avantages et les exigences en matière d’autorisation, voir [Présentation d’Activity Manager dans les rapports](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
+Pour plus d’informations sur le gestionnaire d’activités de création de rapports, y compris les principaux avantages et les exigences en matière d’autorisation, consultez la [présentation du gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Annulation de requêtes spécifiques
 
 Vous pouvez annuler des requêtes individuelles qui consomment une grande capacité de création de rapports.
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire d’activités de création de rapports]**.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles sur cette page, voir [Afficher l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, voir [Affichage de l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Sélectionnez la variable [!UICONTROL **Demandes**] , puis sélectionnez une ou plusieurs requêtes.
+1. Sélectionnez l’onglet [!UICONTROL **Requêtes**] , puis sélectionnez une ou plusieurs requêtes.
 
    <!-- add screenshot -->
 
-1. Sélectionner [!UICONTROL **Annulation des requêtes**].
+1. Sélectionnez [!UICONTROL **Annuler les requêtes**].
 
-   La variable [!UICONTROL **Annuler _x_ requêtes de rapport**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Annuler les requêtes de rapport _x_**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
 1. (Facultatif) Pour limiter les demandes futures pour une période donnée :
 
-   1. Activez l’option pour [!UICONTROL **Limitation des requêtes suivantes**]
+   1. Activez l’option [!UICONTROL **Restreindre les requêtes suivantes**]
 
-      ![Limitation des requêtes suivantes](assets/restrict-subsequent-requests.png)
+      ![Limiter les requêtes suivantes](assets/restrict-subsequent-requests.png)
 
    1. Choisissez l’une des options suivantes :
 
@@ -66,7 +66,7 @@ Vous pouvez annuler des requêtes individuelles qui consomment une grande capaci
 
       {style="table-layout:auto"}
 
-1. Sélectionner [!UICONTROL **Continuer avec annulation**].
+1. Sélectionnez [!UICONTROL **Continuer avec annulation**].
 
    Une notification s’affiche dans Analysis Workspace pour informer les utilisateurs que la demande a été annulée. Pour plus d’informations sur la façon dont cela apparaît dans Analysis Workspace, voir [Expérience lorsque les utilisateurs accèdent à un rapport annulé](#experience-when-users-access-a-cancelled-report).
 
@@ -74,27 +74,27 @@ Vous pouvez annuler des requêtes individuelles qui consomment une grande capaci
 
 Vous pouvez annuler toutes les requêtes associées à un ou plusieurs utilisateurs.
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire d’activités de création de rapports]**.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles sur cette page, voir [Afficher l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, voir [Affichage de l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Sélectionnez la variable [!UICONTROL **Utilisateurs**] , puis sélectionnez un ou plusieurs utilisateurs.
+1. Sélectionnez l’onglet [!UICONTROL **Utilisateurs**] , puis un ou plusieurs utilisateurs.
 
    <!-- add screenshot -->
 
-1. Sélectionner [!UICONTROL **Annulation des requêtes**].
+1. Sélectionnez [!UICONTROL **Annuler les requêtes**].
 
-   La variable [!UICONTROL **Annuler _x_ requêtes de rapport de x utilisateurs**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Annuler _x_ les demandes de rapport de x utilisateurs**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
 1. (Facultatif) Pour limiter les demandes futures pour une période donnée :
 
-   1. Activez l’option pour [!UICONTROL **Limitation des requêtes suivantes**].
+   1. Activez l’option [!UICONTROL **Restreindre les requêtes suivantes**].
 
-      ![Limitation des requêtes suivantes par l’utilisateur](assets/restrict-subsequent-requests-user.png)
+      ![Limiter les requêtes suivantes par l’utilisateur](assets/restrict-subsequent-requests-user.png)
 
    1. Choisissez l’une des options suivantes :
 
@@ -107,7 +107,7 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs utilisate
 
       {style="table-layout:auto"}
 
-1. Sélectionner [!UICONTROL **Continuer avec annulation**].
+1. Sélectionnez [!UICONTROL **Continuer avec annulation**].
 
    Une notification s’affiche dans Analysis Workspace pour informer les utilisateurs que la demande a été annulée. Pour plus d’informations sur la façon dont cela apparaît dans Analysis Workspace, voir [Expérience lorsque les utilisateurs accèdent à un rapport annulé](#experience-when-users-access-a-cancelled-report).
 
@@ -115,27 +115,27 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs utilisate
 
 Vous pouvez annuler toutes les requêtes associées à un ou plusieurs projets.
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire d’activités de création de rapports]**.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles sur cette page, voir [Afficher l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, voir [Affichage de l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Sélectionnez la variable [!UICONTROL **Projets**] , puis sélectionnez un ou plusieurs projets.
+1. Sélectionnez l’onglet [!UICONTROL **Projets**] , puis un ou plusieurs projets.
 
    <!-- add screenshot -->
 
-1. Sélectionner [!UICONTROL **Annulation des requêtes**].
+1. Sélectionnez [!UICONTROL **Annuler les requêtes**].
 
-   La variable [!UICONTROL **Annuler _x_ requêtes de rapport provenant de x projets**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Annuler _x_ les demandes de rapport provenant de x projets**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
 1. (Facultatif) Pour limiter les demandes futures pour une période donnée :
 
-   1. Activez l’option pour [!UICONTROL **Limitation des requêtes suivantes**].
+   1. Activez l’option [!UICONTROL **Restreindre les requêtes suivantes**].
 
-      ![Limitation des requêtes suivantes par projet](assets/restrict-subsequent-requests-project.png)
+      ![Limiter les requêtes suivantes par projet](assets/restrict-subsequent-requests-project.png)
 
    1. Choisissez l’une des options suivantes :
 
@@ -148,7 +148,7 @@ Vous pouvez annuler toutes les requêtes associées à un ou plusieurs projets.
 
       {style="table-layout:auto"}
 
-1. Sélectionner [!UICONTROL **Continuer avec annulation**].
+1. Sélectionnez [!UICONTROL **Continuer avec annulation**].
 
    Une notification s’affiche dans Analysis Workspace pour informer les utilisateurs que la demande a été annulée. Pour plus d’informations sur la façon dont cela apparaît dans Analysis Workspace, voir [Expérience lorsque les utilisateurs accèdent à un rapport annulé](#experience-when-users-access-a-cancelled-report).
 
@@ -169,27 +169,27 @@ Les applications comprennent les éléments suivants :
 
 Pour annuler des demandes par application :
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de création de rapports]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Admin]** > **[!UICONTROL Gestionnaire d’activités de création de rapports]**.
 
 1. Sélectionnez la connexion pour laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles sur cette page, voir [Afficher l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, voir [Affichage de l’activité de création de rapports dans le Gestionnaire d’activités de création de rapports](/help/admin/admin/reporting-activity-manager/reporting-activity.md).
 
-1. Sélectionnez la variable [!UICONTROL **Applications**] , puis sélectionnez une ou plusieurs applications.
+1. Sélectionnez l’onglet [!UICONTROL **Applications**] , puis une ou plusieurs applications.
 
    <!-- add screenshot -->
 
-1. Sélectionner [!UICONTROL **Annulation des requêtes**].
+1. Sélectionnez [!UICONTROL **Annuler les requêtes**].
 
-   La variable [!UICONTROL **Annuler _x_ requêtes de rapport provenant de x projets**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Annuler _x_ les demandes de rapport provenant de x projets**] s’affiche.
 
 1. Le champ Message d’annulation affiche le message qui s’affiche aux utilisateurs lorsque leurs demandes sont annulées. Un message par défaut est fourni. Vous pouvez mettre à jour le message par défaut pour fournir des détails supplémentaires.
 
 1. (Facultatif) Pour limiter les demandes futures pour une période donnée :
 
-   1. Activez l’option pour [!UICONTROL **Limitation des requêtes suivantes**]
+   1. Activez l’option [!UICONTROL **Restreindre les requêtes suivantes**]
 
-      ![Limitation des requêtes suivantes par application](assets/restrict-subsequent-requests-application.png)
+      ![Limiter les requêtes suivantes par application](assets/restrict-subsequent-requests-application.png)
 
    1. Choisissez l’une des options suivantes :
 
@@ -202,7 +202,7 @@ Pour annuler des demandes par application :
 
       {style="table-layout:auto"}
 
-1. Sélectionner [!UICONTROL **Continuer avec annulation**].
+1. Sélectionnez [!UICONTROL **Continuer avec annulation**].
 
    Une notification s’affiche dans l’application (dans Analysis Workspace, par exemple) pour informer les utilisateurs que la demande a été annulée. Pour plus d’informations sur la façon dont cela apparaît dans Analysis Workspace, voir [Expérience lorsque les utilisateurs accèdent à un rapport annulé](#experience-when-users-access-a-cancelled-report).
 
@@ -214,10 +214,10 @@ Dans Analysis Workspace, les utilisateurs voient les messages suivants lorsqu’
 
 Lorsque les utilisateurs tentent d’accéder à un projet qui est affecté par une annulation, un message les informe que le rapport est temporairement limité :
 
-![Message d’annulation du projet](assets/workspace-canceled-report.png)
+![Message d’annulation de projet](assets/workspace-canceled-report.png)
 
 ### Message sur la visualisation
 
 Lorsque les utilisateurs tentent d’accéder à une visualisation affectée par une annulation, ils reçoivent un message les informant que le traitement des données pour le rapport est temporairement limité :
 
-![Message d&#39;annulation de la visualisation](assets/workspace-cancelled-visualization.png)
+![Message d’annulation de visualisation](assets/workspace-cancelled-visualization.png)

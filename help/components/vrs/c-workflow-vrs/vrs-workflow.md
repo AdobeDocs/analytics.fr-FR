@@ -7,7 +7,7 @@ exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 82%
+ht-degree: 74%
 
 ---
 
@@ -25,7 +25,7 @@ Les suites de rapports virtuelles sont créées dans le gestionnaire de suites d
 
 Une fois créée, une suite de rapports virtuelle est considérée comme une suite de rapports de base dans toute l’interface utilisateur. Elle est généralement prise en charge pour les fonctionnalités les plus étendues. Par exemple, les suites de rapports virtuelles s’affichent dans les sélecteurs de suite de rapports et peuvent être sélectionnées séparément comme toute autre suite de rapports.
 
-Cliquez sur l’icône Informations située en regard du nom de la suite de rapports pour   [afficher des informations sur celle-ci](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Cliquez sur l’icône Informations située en regard du nom de la suite de rapports pour [afficher les informations la concernant](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) Ouvrez un projet ou un rapport et sélectionnez une suite de rapports virtuelle pour obtenir une vue segmentée des données.
 

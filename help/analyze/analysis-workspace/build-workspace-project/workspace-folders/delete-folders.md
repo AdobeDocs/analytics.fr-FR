@@ -7,7 +7,7 @@ exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
 source-git-commit: fb8be11fabefc0206af7868228f85353f15eb20c
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez supprimer les dossiers que vous créez.
 **Instructions**
 
 * La suppression d’un dossier ne supprime pas son contenu. Le contenu d’un dossier supprimé (projets ou sous-dossiers) est déplacé vers le dossier directement situé au-dessus dans la hiérarchie des dossiers.
-* Les administrateurs peuvent supprimer un dossier dans le dossier Société créé par un autre administrateur. Les administrateurs peuvent être amenés à se coordonner avec d’autres administrateurs pour assurer la cohérence de l’accès aux dossiers et projets. Voir [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+* Les administrateurs et administratrices peuvent supprimer un dossier créé par une autre personne dans le dossier d’entreprise. Les administrateurs et administratrices peuvent devoir se coordonner avec d’autres personnes pour assurer la cohérence de l’accès aux dossiers et projets. Voir [À propos des dossiers dans Analytics](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
 
 Pour supprimer un dossier
 

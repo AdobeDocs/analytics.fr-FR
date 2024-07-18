@@ -23,7 +23,7 @@ Actuellement, le SDK Web ne prend en charge que le codage UTF-8 et ne fournit pa
 
 ## Jeu de caractères dans l’extension Adobe Analytics
 
-Un jeu de caractères est un champ situé sous le [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform.
+Le jeu de caractères est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.

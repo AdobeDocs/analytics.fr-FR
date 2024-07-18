@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 63%
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -51,24 +51,24 @@ Pour supprimer le traitement du projet et restaurer l’ensemble complet des com
 
 ## Traitement des suites de rapports virtuelles
 
-Pour appliquer le traitement au niveau d’une suite de rapports, afin qu’il s’applique simultanément à de nombreux projets, vous pouvez : [traitement des composants dans une suite de rapports virtuelle](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=fr).
+Pour appliquer un traitement au niveau d’une suite de rapports, de sorte qu’il s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=fr).
 
 >[!NOTE]
-> Le traitement des suites de rapports virtuelles est toujours appliqué avant le traitement du projet. Cela signifie que même si votre projet traité inclut certains composants, ils seront exclus si la suite de rapports virtuelle traitée ne les inclut pas.
+> Le traitement des suites de rapports virtuelles est toujours appliqué avant le traitement du projet. Cela signifie que, même si votre projet traité inclut certains composants, ils seront exclus si la suite de rapports virtuelle traitée ne les inclut pas.
 
 ## Option Afficher tous les composants
 
-Dans un projet traité ou une suite de rapports virtuelle, le destinataire aura la possibilité de **[!UICONTROL Tout afficher]** composants dans le rail de gauche. [!UICONTROL Tout afficher] révèle différents ensembles de composants, en fonction des éléments suivants :
+Dans un projet traité ou une suite de rapports virtuelle, la personne destinataire aura la possibilité d’**[!UICONTROL afficher tous]** les composants dans le rail de gauche. [!UICONTROL Tout afficher] révèle différents ensembles de composants, en fonction des éléments suivants :
 
-* Niveau d’autorisation de l’utilisateur (administrateur ou non)
-* Rôle du projet (propriétaire/éditeur ou non)
-* Type de traitement appliqué (suite de rapports virtuelle ou projet)
+* Niveau d’autorisation de l’utilisateur ou l’utilisatrice (faisant ou non partie de l’équipe d’administration)
+* Rôle du projet (personne propriétaire/éditrice ou non)
+* Type de traitement appliqué (suites de rapports virtuelles ou projet)
 * Composants détenus par l’utilisateur ou partagés avec lui. Les composants détenus/partagés incluent des segments, des mesures calculées et des périodes. Ils n’incluent pas de composants implémentés tels que les eVars, les props et les événements personnalisés.
 
 Remarque : les rôles de vue non administrateurs n’ont pas accès au rail de gauche dans un projet. Ils ont donc été omis du tableau ci-dessous.
 
 | Type de traitement | Administrateurs | Rôle de propriétaire ou d’éditeur de projet non-administrateur | Rôle duplicata non administrateur |
 |---|---|---|---|
-| Suite de rapports virtuelle traitée | Tous les composants de suites de rapports virtuelles non traités | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés | Composants de suites de rapports virtuelles non traités possédés par ce rôle ou avec lequel ils ont été partagés |
+| Suite de rapports virtuelle traitée | Tous les composants de la suite de rapports virtuelle non traités | Composants de la suite de rapports virtuelle non traités appartenant à ce rôle ou avec lequel ils ont été partagés | Composants de la suite de rapports virtuelle non traités appartenant à ce rôle ou avec lequel ils ont été partagés |
 | Projet traité | Tous les composants de projets non traités | Tous les composants de projets non traités | Composants de projets non traités possédés par ce rôle ou avec lequel ils ont été partagés |
-| Projet traité dans une suite de rapports virtuelle traitée | Tous les composants non traités, affichés sous **[!UICONTROL Composants de projet non traités]** et **[!UICONTROL Composants de suites de rapports virtuelles non traités]** | Tous les composants de projet non traités ET les composants de suite de rapports virtuelle non traités possédés par ce rôle ou avec lequel ils ont été partagés | Suites de rapports virtuelles et composants de projet non traités possédés par ce rôle ou avec lequel ils ont été partagés |
+| Projet traité dans une de suite de rapports virtuelle traitée | Tous les composants non traités, affichés sous **[!UICONTROL Composants de projet non traités]** et **[!UICONTROL Composants de suites de rapports virtuelles non traités]** | Tous les composants de projet non traités ET tous les composants de suites de rapports virtuelles non traités appartenant à ce rôle ou partagés avec lui | Composants de projet et de suites de rapports virtuelles non traités appartenant à ce rôle ou partagés avec lui |

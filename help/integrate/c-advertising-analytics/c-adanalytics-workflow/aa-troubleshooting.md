@@ -17,7 +17,7 @@ ht-degree: 50%
 
 ## Je ne vois pas ma suite de rapports dans la section Mappage {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Vous essayez de [Configuration d’un nouveau compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) et votre suite de rapports ne figure pas dans la liste **[!UICONTROL Suites de rapports mappées]** liste déroulante. Il y a deux raisons possibles :
+Vous essayez de [configurer un nouveau compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) et votre suite de rapports ne figure pas dans la liste déroulante **[!UICONTROL Suites de rapports mappées]** . Il y a deux raisons possibles :
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

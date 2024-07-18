@@ -21,10 +21,10 @@ Adobe offre de nombreuses façons de modifier ou de manipuler les données avant
 Avant d’envoyer les données à Adobe, elles sont généralement compilées côté client à l’aide de l’une des méthodes suivantes :
 
 * **AppMeasurement** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées directement à Adobe Analytics.
-* **SDK Web Adobe Experience Platform** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées au réseau Adobe Experience Platform Edge.
+* **SDK Web Adobe Experience Platform** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées à l’Edge Network Adobe Experience Platform.
 * **Balises dans la collecte de données Adobe Experience Cloud** : fichier JavaScript référencé sur chaque page, contenant les règles créées dans l’interface utilisateur de collecte de données. L’extension Adobe Analytics offre un moyen plus simple de mettre en œuvre AppMeasurement. L’extension SDK Web offre un moyen plus facile de mettre en œuvre le SDK Web.
 
-Si vous envoyez des données au réseau Edge, vous pouvez les configurer pour transférer des données à Adobe Analytics (ainsi que de nombreuses autres solutions Adobe Experience Cloud). Quelle que soit la méthode de mise en œuvre, une demande d’image contenant les variables souhaitées est envoyée aux serveurs de collecte de données d’Adobe.
+Si vous envoyez des données à l’Edge Network, vous pouvez les configurer pour transférer des données vers Adobe Analytics (ainsi que de nombreuses autres solutions Adobe Experience Cloud). Quelle que soit la méthode de mise en œuvre, une demande d’image contenant les variables souhaitées est envoyée aux serveurs de collecte de données d’Adobe.
 
 ## Données telles qu’elles arrivent aux serveurs de collecte de données Adobe Analytics
 

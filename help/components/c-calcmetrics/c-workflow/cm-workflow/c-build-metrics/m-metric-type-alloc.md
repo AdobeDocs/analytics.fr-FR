@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # Type de mesure et attribution
 
-When [création d’une mesure calculée](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), vous pouvez spécifier le type de mesure et le modèle d’attribution.
+Lors de la [création d’une mesure calculée](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), vous pouvez spécifier le type de mesure et le modèle d’attribution.
 
 ## Type de mesure
 

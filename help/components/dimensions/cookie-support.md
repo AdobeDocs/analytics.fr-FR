@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Prise en charge des cookies
 
-Prise en charge des cookies [dimension](overview.md) indique si le navigateur prend en charge les cookies pour un accès donné. Elle est utile pour déterminer le ratio de visiteurs qui utilisent des navigateurs prenant en charge les cookies et ceux qui les désactivent intentionnellement.
+La [dimension](overview.md) de &quot;prise en charge des cookies&quot; indique si le navigateur prend en charge les cookies pour un accès donné. Elle est utile pour déterminer le ratio de visiteurs qui utilisent des navigateurs prenant en charge les cookies et ceux qui les désactivent intentionnellement.
 
 ## Renseignement de cette dimension avec des données
 

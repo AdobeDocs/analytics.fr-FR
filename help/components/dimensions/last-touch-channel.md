@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 90%
 
 ---
 
 # Canal Dernière touche
 
-Canal &quot;Dernière touche&quot; [dimension](overview.md) indique le canal marketing le plus récent auquel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour identifier les canaux marketing qui génèrent du trafic et des conversions sur votre site, ce qui vous permet de concentrer les efforts marketing dans les domaines les plus efficaces.
+Le &quot;canal Dernière touche&quot; [dimension](overview.md) indique le canal marketing le plus récent avec lequel un visiteur correspond au cours de la période d’engagement de ce visiteur (30 jours par défaut). Cette dimension est utile pour identifier les canaux marketing qui génèrent du trafic et des conversions sur votre site, ce qui vous permet de concentrer les efforts marketing dans les domaines les plus efficaces.
 
 ## Renseignement de cette dimension avec des données
 

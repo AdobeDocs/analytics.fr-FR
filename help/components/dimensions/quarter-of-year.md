@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Trimestre de l’année
 
-Le &quot;Trimestre de l&#39;année&quot; [dimension](overview.md) indique le trimestre d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par trimestre de l’année, mais ne souhaitez pas une date statique comme élément de dimension. Vous pouvez consolider les rapports d’une année sur l’autre par trimestre, de sorte que les données du premier trimestre de cette année sont combinées avec les données du premier trimestre de l’année dernière dans le même élément de dimension.
+La [dimension](overview.md) &quot;Trimestre de l’année&quot; indique le trimestre d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par trimestre de l’année, mais ne souhaitez pas une date statique comme élément de dimension. Vous pouvez consolider les rapports d’une année sur l’autre par trimestre, de sorte que les données du premier trimestre de cette année sont combinées avec les données du premier trimestre de l’année dernière dans le même élément de dimension.
 
 ## Renseignement de cette dimension avec des données
 

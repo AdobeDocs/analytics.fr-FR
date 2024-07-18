@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 
-Les alertes d’utilisation de l’appel au serveur font partie des [Alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md) de l’interface utilisateur.
+Les alertes d’utilisation des appels au serveur font partie de l’interface utilisateur des [alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
 
 Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 

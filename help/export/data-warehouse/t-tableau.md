@@ -14,4 +14,4 @@ ht-degree: 42%
 
 Data Warehouse peut fournir des rapports au format de fichier TDE (Tableau Data Extract), qui peut être utilisé pour visualiser les données et les couches dans les données additionnelles de Tableau.
 
-Pour plus d’informations sur la configuration des rapports Data Warehouse à diffuser au format TDE, voir [Configuration des options de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+Pour plus d’informations sur la configuration des rapports de Data Warehouse à diffuser au format TDE, voir [Configuration des options de rapport pour une requête de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).

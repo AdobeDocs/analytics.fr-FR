@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Les fonctions Like Count(), RowCount() et Approximate Count Distinct() sont soum
 
 ### Comparaison des fonctions de comptage {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
-La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type de périphérique mobile.
+La fonction Approximate Count Distinct() est une amélioration des fonctions Count() et RowCount(), car vous pouvez utiliser la mesure créée dans un rapport de dimensions pour générer un nombre approximatif d’éléments pour une dimension distincte. Par exemple, un nombre d’ID de client utilisés dans un rapport Type d’appareil mobile.
 
 Cette fonction sera légèrement moins précise que Count() et RowCount(), car elle utilise la méthode HLL alors que Count() et RowCount() sont des nombres exacts.
 

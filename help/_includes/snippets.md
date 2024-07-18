@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Efficace **17 janvier 2024**, Adobe a interrompu Reports &amp; Analytics et les rapports et fonctionnalités qui l’accompagnent. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings ont cessé de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Pour plus d’informations sur l’utilisation des rapports dans Analysis Workspace, voir [Utilisation de rapports prédéfinis](/help/analyze/analysis-workspace/reports/use-reports.md).
+>À compter du **17 janvier 2024**, l’Adobe a interrompu Reports &amp; Analytics et ses rapports et fonctionnalités connexes. À ce moment-là, Reports &amp; Analytics et tous ses rapports et plannings ont cessé de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Pour plus d’informations sur l’utilisation des rapports dans Analysis Workspace, voir [Utilisation de rapports prédéfinis](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 >

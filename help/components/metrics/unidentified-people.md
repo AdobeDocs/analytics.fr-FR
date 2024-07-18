@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # Personnes non identifiées
 
-Les &quot;gens non identifiés&quot; [metric](overview.md) est un [Analyses entre appareils](../cda/overview.md) mesure qui comptabilise le nombre de visiteurs que les Analyses entre appareils n’ont pas pu identifier.
+La [mesure ](overview.md) &quot;Personnes non identifiées&quot; est une mesure [Analyse entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs que les Analyses entre appareils n’ont pas pu identifier.
 
 ## Méthode de calcul de cette mesure
 

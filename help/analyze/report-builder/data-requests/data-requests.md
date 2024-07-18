@@ -15,7 +15,7 @@ ht-degree: 91%
 
 Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la suite de rapports, le type de rapport, des segments, ainsi que de configurer des dates.
 
-![Capture d’écran du formulaire Assistant Requête : Étape 1 .](assets/rw1_overview.png)
+![Capture d’écran montrant le formulaire Assistant Requête : Étape 1.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Suite de rapports]** : liste des suites de rapports mises à votre disposition sur la base des vos identifiants de connexion. Voir [Sélectionner des suites de rapports](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
@@ -25,7 +25,7 @@ Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la su
 
    Vous pouvez, par exemple, exécuter un [!UICONTROL rapport Pages], puis appliquer un segment Premières visites.
 
-1. **Autorisation du remplacement de la liste de publication**: les listes de publication étaient une fonctionnalité de Reports &amp; Analytics, qui a été [fin de vie](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+1. **Autoriser le remplacement de la liste de publication** : les listes de publication étaient une fonctionnalité de Reports &amp; Analytics, qui était [en fin de vie](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Type de rapport** : indique le rapport de base à exécuter dans votre requête de données. Un seul rapport est exécuté par requête. Ce rapport peut contenir des dimensions et des mesures de type « un à plusieurs ». Les mesures et dimensions affectées à un type de rapport sont affichées dans l’interface [!UICONTROL Assistant Requête : Étape 2]. Voir [Sélection des types de rapports](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 

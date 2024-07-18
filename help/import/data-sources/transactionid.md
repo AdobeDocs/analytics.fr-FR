@@ -20,9 +20,9 @@ Les sources de données ID de transaction sont une variation des sources de donn
 
 >[!NOTE]
 >
->Avant d’utiliser des sources de données d’ID de transaction, vous devez d’abord les activer dans [Paramètres du compte général](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) pour la suite de rapports souhaitée.
+>Avant d’utiliser des sources de données d’ID de transaction, vous devez d’abord les activer dans les [Paramètres du compte général](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) pour la suite de rapports souhaitée.
 
-Lorsque vous envoyez un accès en ligne contenant une [`transactionID`](/help/implement/vars/page-vars/transactionid.md) , Adobe prend un &quot;instantané&quot; de toutes les variables définies ou conservées. Si un ID de transaction correspondant transféré via des sources de données est trouvé, les données hors ligne et en ligne sont liées.
+Lorsque vous envoyez un accès en ligne qui contient une valeur [`transactionID`](/help/implement/vars/page-vars/transactionid.md), Adobe prend un &quot;instantané&quot; de toutes les variables définies ou conservées alors. Si un ID de transaction correspondant transféré via des sources de données est trouvé, les données hors ligne et en ligne sont liées.
 
 Les sources de données des ID de transaction présentent les propriétés suivantes :
 
@@ -52,4 +52,4 @@ Par exemple :
    * `eVar3` est égal à `bird`
    * `events` est égal à `event2`
 
-Valeur eVar1 `blue` et la variable `event1` ne sont pas présentes dans les rapports, car l’accès à l’ID de transaction remplace ces valeurs respectives.
+La valeur `blue` de l’eVar1 et la mesure `event1` ne sont pas présentes dans les rapports, puisque l’accès à l’ID de transaction a remplacé ces valeurs respectives.

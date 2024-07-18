@@ -128,7 +128,7 @@ Si vous devez migrer des comptes utilisateurs Adobe ID déjà existants vers un
   </tr> 
   <tr> 
    <td colname="col1"> <p>Domaine </p> </td> 
-   <td colname="col2"> <p>Assurez-vous que les domaines dans <span class="term"> Domaine</span> et <span class="term"> Email</span> correspondent au(x) domaine(s) défini(s) dans les conditions préalables</a>. </p> </td> 
+   <td colname="col2"> <p>Assurez-vous que les domaines dans les colonnes <span class="term"> Domain</span> et <span class="term"> Email</span> correspondent au(x) domaine(s) défini(s) dans les conditions préalables</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code de pays </p> </td> 

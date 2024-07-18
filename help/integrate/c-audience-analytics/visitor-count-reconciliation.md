@@ -5,8 +5,8 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 86%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 
@@ -25,11 +25,11 @@ Les mesures des visiteurs sont :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population totale de segments</a> </p> </td> 
-   <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population totale du segment</a> </p> </td> 
+   <td colname="col3"> <p>Nombre d’appareils (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population des segments en temps réel</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population de segments en temps réel </a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment et ont atteint vos propriétés pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ La population des segments en temps réel de Adobe Audience Manager et les visit
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Facteur </th> 
-   <th colname="col2" class="entry"> Adobe Audience Manager : Population des segments en temps réel </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager : population de segments en temps réel </th> 
    <th colname="col3" class="entry"> Analytics : Visiteurs avec un Experience Cloud ID </th> 
   </tr>
  </thead>

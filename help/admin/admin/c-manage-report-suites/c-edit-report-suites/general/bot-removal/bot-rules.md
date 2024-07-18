@@ -23,7 +23,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 
 >[!NOTE]
 >
->Le réseau Adobe Experience Platform Edge fournit une [service de détection des robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) les libellés des accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robot inclus sur les données arrivant par le biais du réseau Edge. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
+>L’Edge Network Adobe Experience Platform fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) qui classe les accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robot inclus dans les données arrivant par l’intermédiaire de l’Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
 
 ## Mise à jour ou chargement de règles de robots
 
@@ -37,25 +37,25 @@ La vidéo suivante explique comment configurer des règles de robots :
 
 Pour mettre à jour ou charger des règles de robots :
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez mettre à jour les règles de robots, puis sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
 
 1. Utilisez l’une des options suivantes pour mettre à jour ou charger des règles de robots pour la suite de rapports :
 
-   * Sélectionner [!UICONTROL **Activation des règles de filtrage de robots IAB**] pour supprimer des robots dans la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international de la publicité) afin de supprimer le trafic de robots.
+   * Sélectionnez [!UICONTROL **Activer les règles de filtrage de robots IAB**] pour supprimer les robots dans la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international d’Advertising) afin de supprimer le trafic de robots.
 
      Il est recommandé de sélectionner au minimum cette option.
 
      Pour plus d’informations, voir la section ci-dessous, [Règles de robots IAB standard](#standard-iab-bot-rules).
 
-   * Sélectionner [!UICONTROL **Ajouter une règle**] pour définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages d’adresses IP.
+   * Sélectionnez [!UICONTROL **Ajouter une règle**] pour définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages IP.
 
      Pour plus d’informations, voir la section ci-dessous, [Règles de robots personnalisées](#custom-bot-rules).
 
-   * En regard de [!UICONTROL **Sélectionner le fichier de robot CSV à importer**] zone, sélectionnez [!UICONTROL **Choisir un fichier**], puis sélectionnez le fichier CSV qui définit les règles de robots.
+   * En regard de la zone [!UICONTROL **Select CSV Bot file to import**] , sélectionnez [!UICONTROL **Choose File**], puis sélectionnez le fichier CSV qui définit les règles de robots.
 
-     Pour plus d’informations, voir la section ci-dessous, [Téléchargement de règles de robots](#upload-bot-rules).
+     Pour plus d’informations, reportez-vous à la section ci-dessous, [Télécharger les règles de robots](#upload-bot-rules).
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -75,7 +75,7 @@ Pour plus d’informations sur l’activation des règles de robots IAB standard
 >
 >Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
 
-Les règles de robots personnalisées vous permettent de filtrer le trafic selon les conditions que vous avez définies. Pour lancer le processus d’activation de règles de robots personnalisées dans une suite de rapports, voir [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
+Les règles de robots personnalisées vous permettent de filtrer le trafic selon les conditions que vous avez définies. Pour lancer le processus d’activation des règles de robots personnalisées dans une suite de rapports, voir [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
 
 Les règles de robots personnalisées sont définies à l’aide des types de conditions suivants :
 
@@ -122,7 +122,7 @@ Pour importer des règles de robots en vrac, vous pouvez télécharger un fichie
 
    | Colonne 1, ligne 1 | Colonne 2, ligne 1 | Colonne 3, ligne 1 | Colonne 4, ligne 1 | Colonne 5, ligne 1 | Colonne 6, ligne 1 |
    |--- |--- |---|---|---|---|
-   | Nom du robot | Début IP | Fin IP | Règle<br>(contient ou commence par)</br> | Agent utilisateur - Inclure | Exclure de l’agent utilisateur<br>(255 caractères maximum)</br> |
+   | Nom du robot | Début IP | Fin IP | Règle<br>(contient ou commence par)</br> | Agent utilisateur - Inclure | Agent utilisateur Exclure<br>(255 caractères max.)</br> |
 
    Vous pouvez définir trois types de règles de robots :
 
@@ -143,13 +143,13 @@ Pour importer des règles de robots en vrac, vous pouvez télécharger un fichie
 
    * **Correspondance de plage IP** : définissez une plage d’adresses IP à l’aide des colonnes Début IP et Fin IP. Vous pouvez utiliser des caractères génériques pour faire correspondre des plages d’adresses IP ; par exemple `10.10.10.*` avec `10.10.20.*`. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
 
-1. Sur la page Règles de robots du Gestionnaire de suites de rapports, en regard de l’option [!UICONTROL **Sélectionner le fichier de robot CSV à importer**] zone, sélectionnez [!UICONTROL **Choisir un fichier**], puis sélectionnez le fichier CSV qui définit les règles de robots à importer.
+1. Sur la page Règles de robots du Gestionnaire de suites de rapports, en regard de la zone [!UICONTROL **Sélectionner le fichier de robot CSV à importer**], sélectionnez [!UICONTROL **Choisir le fichier**], puis sélectionnez le fichier CSV qui définit les règles de robots à importer.
 
-1. (Facultatif) Sélectionnez le **[!UICONTROL Remplacer les règles existantes]** pour supprimer toutes les règles existantes et les remplacer par les règles définies dans le fichier de téléchargement.
+1. (Facultatif) Cochez la case **[!UICONTROL Remplacer les règles existantes]** pour supprimer toutes les règles existantes et les remplacer par les règles définies dans le fichier de téléchargement.
 
-1. Sélectionner [!UICONTROL **Importer un fichier**].
+1. Sélectionnez [!UICONTROL **Importer un fichier**].
 
-1. Dans le [!UICONTROL **Jeux de règles**] , passez en revue les règles importées.
+1. Dans la zone [!UICONTROL **Jeux de règles**], passez en revue les règles qui ont été importées.
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -157,11 +157,11 @@ Pour importer des règles de robots en vrac, vous pouvez télécharger un fichie
 
 Pour exporter toutes les règles définies dans l’interface utilisateur au format CSV :
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**.
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 
 1. Sélectionnez la suite de rapports contenant les règles de robots à exporter, puis sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
 
-1. Sélectionner **[!UICONTROL Exporter des règles de robots]**, puis enregistrez le fichier CSV dans votre système de fichiers.
+1. Sélectionnez **[!UICONTROL Exporter les règles de robots]**, puis enregistrez le fichier CSV dans votre système de fichiers.
 
 ## Incidence des règles de robots sur la collecte de données {#section_F01A3130E7A04A9993371CF26F6586F2}
 

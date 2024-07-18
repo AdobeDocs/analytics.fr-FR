@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Visites de page unique
 
-*Cette page d’aide décrit le fonctionnement de la fonction &quot;Visites de page unique&quot; [dimension](overview.md). Pour plus d’informations, consultez la mesure [Visites de page unique](../metrics/single-page-visits.md).*
+*Cette page d’aide décrit le fonctionnement de la fonction &quot;Visites de page unique&quot; en tant que [dimension](overview.md). Pour plus d’informations, consultez la mesure [Visites de page unique](../metrics/single-page-visits.md).*
 
 La dimension « Visites de page unique » indique le nombre de visites qui ne comportaient qu’un élément de dimension [Page](page.md). Il s’agit de la forme de dimension correspondante à la mesure [Visites de page unique](../metrics/single-page-visits.md).
 

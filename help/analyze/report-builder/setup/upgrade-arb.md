@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 53%
+source-wordcount: '229'
+ht-degree: 51%
 
 ---
 
@@ -27,7 +27,7 @@ Pour mettre à niveau le Report Builder
 1. Connectez-vous à votre version existante du Report Builder.
 1. Accédez au menu **[!UICONTROL Options]** pour effectuer la mise à niveau vers la nouvelle version. Le numéro de la version actuelle s’affiche au bas de la boîte de dialogue Options.
 
-   ![Capture d’écran montrant la boîte de dialogue Options, la version actuelle et la nouvelle version.](assets/upgrade.png)
+   ![Capture d&#39;écran montrant la boîte de dialogue Options et la version actuelle et la nouvelle version.](assets/upgrade.png)
 
 1. Si une nouvelle version est disponible, cliquez sur **[!UICONTROL Mettre à jour]**. Le bouton affiche la version vers laquelle vous effectuez la mise à jour, par exemple : *Mise à jour vers la version 5.0.50*
 
@@ -35,10 +35,10 @@ Pour mettre à niveau le Report Builder
    >
    >Si ce bouton est grisé, aucune nouvelle version du Report Builder n’est disponible.
 
-1. (Facultatif) Sélectionnez le **[!UICONTROL Mettre à jour lorsqu’une nouvelle version est disponible]** . À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
+1. (Facultatif) Cochez la case **[!UICONTROL Mettre à jour lorsqu&#39;une nouvelle version est disponible]** . À l’avenir, le processus de mise à jour commencera automatiquement à chaque fois qu’une nouvelle version est disponible.
 1. Quand l’écran de configuration s’ouvre, cliquez sur **[!UICONTROL Suivant >]**.
 
-   ![Capture d’écran affichant l’écran Configuration du Report Builder.](assets/setup.png)
+   ![Capture d&#39;écran montrant l&#39;écran Configuration du Report Builder.](assets/setup.png)
 
 1. Une fois la mise à niveau terminée, reconnectez-vous au Report Builder.
 

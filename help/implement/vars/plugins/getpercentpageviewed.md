@@ -80,9 +80,9 @@ Affectez une ou plusieurs de ces variables à des eVars pour afficher les donné
 
 Ce plug-in crée trois cookies propriétaires qui expirent à la fin d’une session de navigateur :
 
-* `s_ppv`: stocke chacune des valeurs exposées en appelant la fonction
-* `s_tp`: stocke la hauteur totale en pixels de la page précédente.
-* `s_ips`: stocke le pourcentage initial défilé de la page précédente.
+* `s_ppv` : stocke chacune des valeurs exposées en appelant la fonction
+* `s_tp` : stocke la hauteur totale en pixels de la page précédente.
+* `s_ips` : stocke le pourcentage initial défilé de la page précédente.
 
 ## Exemples
 

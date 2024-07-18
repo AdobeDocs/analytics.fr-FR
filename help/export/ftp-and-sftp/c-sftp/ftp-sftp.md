@@ -21,7 +21,7 @@ Cela signifie que les serveurs d’Adobe « poussent » le fichier sur vos ser
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) et le [flux de données Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=fr) peuvent transmettre les données par SFTP.
 
-Report Builder **cannot** transmettre des données par SFTP ;
+Le Report Builder **ne peut pas** transmettre des données par SFTP.
 
 ## Livraison par extraction (pull)  {#section_FA29FAEF02FE40B8B32452146A036F48}
 

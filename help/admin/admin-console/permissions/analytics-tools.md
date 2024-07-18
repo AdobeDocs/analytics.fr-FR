@@ -42,7 +42,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Création de segment] | Permet de créer et de partager des segments dans toutes les fonctionnalités d’Analytics. |
 | [!UICONTROL Publication de segment] | Permet de faire d’un segment une audience Experience Cloud lors de la création ou de la modification d’un segment. |
 | [!UICONTROL Utilisation des appels au serveur] | Accorde l’accès à Admin > Utilisation des appels serveur. |
-| [!UICONTROL Partage de liens de projet avec n’importe qui] | Permet d’accorder un accès en lecture seule aux projets Analysis Workspace aux personnes qui n’ont pas accès à Adobe Analytics. |
+| [!UICONTROL Partager des liens de projet avec n’importe qui] | Permet d’accorder un accès en lecture seule aux projets Analysis Workspace aux personnes qui n’ont pas accès à Adobe Analytics. |
 | [!UICONTROL Assistance] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Informations sur l’assistance. |
 | [!UICONTROL Gestion du trafic] | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
 | [!UICONTROL Accès aux services Web] | Permet d’utiliser l’API, notamment l’authentification auprès de sites tiers et l’envoi d’appels d’API. |

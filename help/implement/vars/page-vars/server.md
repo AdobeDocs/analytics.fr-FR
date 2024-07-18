@@ -19,8 +19,8 @@ La variable `server` stocke généralement le nom d’hôte de votre site. Elle 
 
 Le serveur est mappé aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `xdm.web.webPageDetails.server`
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.server`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.web.webPageDetails.server`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.server`
 
 ## Serveur utilisant l’extension Adobe Analytics
 
@@ -30,7 +30,7 @@ Vous pouvez définir le serveur lors de la configuration de l’extension Analyt
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Serveur].
 
 Vous pouvez définir le serveur sur n’importe quelle valeur de chaîne ou élément de données.

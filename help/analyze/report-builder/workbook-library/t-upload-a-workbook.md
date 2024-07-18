@@ -8,7 +8,7 @@ exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ La [!UICONTROL Bibliothèque des classeurs] vous permet de charger un classeur E
 
 >[!NOTE]
 >
->Seuls les classeurs contenant des rapports du Report Builder peuvent être chargés. Vous pouvez également distribuer des rapports du Report Builder aux personnes qui n’utilisent pas ce complément. (Les utilisateurs ne sont pas obligés de se connecter pour consulter les données.)
+>Seuls les classeurs contenant des demandes de Report Builder peuvent être transférés. Vous pouvez également distribuer des rapports du Report Builder aux personnes qui n’utilisent pas ce complément. (Les utilisateurs ne sont pas obligés de se connecter pour consulter les données.)
 
 1. Créez et exécutez une requête.
 1. Après avoir enregistré le rapport, cliquez sur **[!UICONTROL Partager]**.

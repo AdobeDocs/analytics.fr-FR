@@ -5,7 +5,7 @@ feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Définit des paramètres courants pour un site Web qui regroupe du contenu, tel 
 | Vue de renvoi | Compteur (sans sous-relations) | `event2` |
 | Clics de renvoi | Compteur (sans sous-relations) | `event3` |
 
-| Variables Aperçu personnalisé | Variable `s_code` |
+| Variables Custom Insight | Variable `s_code` |
 |---|---|
 | Propriété du trafic 1 à 5 | `prop1, prop2, prop3, prop4, prop5` |
 

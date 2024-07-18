@@ -17,17 +17,17 @@ ht-degree: 73%
 
 Le plug-in `getQueryParam` vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, provenant des URL de page de destination. Il convient également pour l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
 
-Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide du SDK Web ou de l’extension Adobe Analytics ou de la variable [`Util.getQueryParam()`](../functions/util-getqueryparam.md) inclus dans AppMeasurement.
+Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide du SDK Web ou de l’extension Adobe Analytics ou de la méthode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluse dans AppMeasurement.
 
 ## Installation du module externe à l’aide de l’extension SDK Web
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur **[!UICONTROL Balises]** sur la gauche, puis cliquez sur la propriété de balise de votre choix.
-1. Cliquez sur **[!UICONTROL Extensions]** sur la gauche, puis cliquez sur le bouton **[!UICONTROL Catalogue]** tab
-1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
-1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
+1. Cliquez sur **[!UICONTROL Balises]** à gauche, puis sur la propriété de balise de votre choix.
+1. Cliquez sur **[!UICONTROL Extensions]** à gauche, puis sur l’onglet **[!UICONTROL Catalogue]**
+1. Recherchez et installez l’extension **[!UICONTROL Common Web SDK Plugins]** .
+1. Cliquez sur **[!UICONTROL Éléments de données]** à gauche, puis sur l’élément de données de votre choix.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
    * Extension : modules externes SDK Web courants
    * Élément de données : `getQueryParam`
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 mars 2021)
 
 * Ajout du numéro de version comme donnée contextuelle.
-* Suppression des dépendances sur `pt` plug-in .
+* Suppression des dépendances sur le module externe `pt`.
 
 ### 3.3 (24 septembre 2019)
 

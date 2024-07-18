@@ -2,7 +2,8 @@
 title: Consentement pour la plateforme publicitaire
 description: Voir la configuration du consentement publicitaire pour les fournisseurs tiers.
 feature: Dimensions
-source-git-commit: ba892374710bc24c379e0c53e5fd00ff4c39d906
+exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
+source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -11,7 +12,7 @@ ht-degree: 3%
 
 # Consentement pour la plateforme publicitaire
 
-Le &quot;consentement de la plateforme publicitaire&quot; [dimension](overview.md) indique si le consentement est collecté pour envoyer des données à des fournisseurs de publicité tiers, tels que Google, Meta, etc.
+Le [consentement de la plateforme publicitaire’ ](overview.md) indique si le consentement est collecté pour envoyer des données à des fournisseurs de publicité tiers, tels que Google, Meta, etc.
 
 Actuellement, cette dimension est utilisée uniquement pour Google. En vertu de la réglementation européenne sur la protection des données, la loi sur les marchés numériques (DMA), Google exige que les données envoyées à ses serveurs et collectées en Europe indiquent si le consentement est collecté. Certains clients Analytics envoient des données d’événement par Adobe Advertising en tant qu’événements de conversion vers Google.
 
@@ -19,7 +20,7 @@ Actuellement, cette dimension est utilisée uniquement pour Google. En vertu de 
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension collecte les données des éléments suivants [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md)
+Cette dimension collecte des données des [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) suivantes
 
 * `contextData.['adConsent']`
 
@@ -28,7 +29,7 @@ Vous renseignez la variable de données contextuelles avec les valeurs appropri�
 * `ad_user_data` (1er caractère) et
 * `ad_personalization` (2e caractère).
 
-Voir [Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) pour plus d’informations.
+Pour plus d’informations, voir [Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) .
 
 Les valeurs possibles pour chacun de ces champs peuvent être les suivantes :
 
@@ -50,11 +51,11 @@ Les caractères situés au-delà du premier et du deuxième caractère sont actu
 
 Vous pouvez utiliser les données de consentement de publicité collectées :
 
-* Flux de données : les données de consentement pour la publicité sont disponibles à l’aide de la variable `dataprivacydmaconsent` [column](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
-* Rapports du Data Warehouse : les données de consentement pour la publicité sont disponibles à l’aide de la variable **[!UICONTROL Consentement de la plateforme publicitaire]** dimension.
+* Flux de données : les données de consentement pour la publicité sont disponibles à l’aide de la `dataprivacydmaconsent` [colonne](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
+* Rapports du Data Warehouse : les données de consentement pour la publicité sont disponibles à l’aide de la dimension **[!UICONTROL Consentement de la plateforme d’annonces publicitaires]**.
 
 Votre entreprise détermine la logique de mise en oeuvre de cette variable de données contextuelles. La valeur ne persiste pas au-delà de l’accès sur lequel elle est définie. Vous devez donc définir la variable de données contextuelles sur chaque page.
 
 Lorsque vous envoyez des données publicitaires d’Adobe Analytics via Adobe Advertising en tant qu’événements de conversion vers Google, consultez l’équipe d’Adobe Advertising pour faciliter l’intégration.
 
-Pour plus d’informations, voir [Reporting sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).
+Pour plus d’informations, reportez-vous à la section [ Création de rapports de confidentialité ](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

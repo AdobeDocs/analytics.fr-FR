@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 84%
 
 ---
 
 # Durée avant événement
 
-&quot;Durée avant événement&quot; [dimension](overview.md) indique le temps écoulé entre le premier accès de la visite et la mesure souhaitée. Cette dimension permet de déterminer le temps nécessaire pour accéder à un événement de succès, tel qu’un envoi de formulaire ou un achat.
+La [dimension](overview.md) &quot;Durée avant événement&quot; indique le temps écoulé entre le premier accès de la visite et la mesure souhaitée. Cette dimension permet de déterminer le temps nécessaire pour accéder à un événement de succès, tel qu’un envoi de formulaire ou un achat.
 
 ## Renseignement de cette dimension avec des données
 

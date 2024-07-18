@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 6%
+ht-degree: 15%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Ce module externe n’est plus pris en charge. Son code utilise la variable [`PerformanceTiming`](https://developer.mozilla.org/fr-FR/docs/Web/API/PerformanceTiming) qui est obsolète dans la plupart des navigateurs modernes.
+>Ce plug-in n’est plus pris en charge. Son code utilise l’interface [`PerformanceTiming`](https://developer.mozilla.org/fr-FR/docs/Web/API/PerformanceTiming), qui est obsolète sur la plupart des navigateurs modernes.
 
-La variable `getPageLoadTime` plug-in utilisait l’objet de performances JavaScript pour vous permettre de mesurer le temps nécessaire au chargement complet d’une page. Ce plug-in n’étant plus pris en charge, les instructions d’installation et le code du plug-in ne sont plus disponibles.
+Le plug-in `getPageLoadTime` a utilisé l’objet de performances JavaScript pour vous permettre de mesurer le temps nécessaire au chargement complet d’une page. Ce plug-in n’étant plus pris en charge, les instructions d’installation et le code du plug-in ne sont plus disponibles.

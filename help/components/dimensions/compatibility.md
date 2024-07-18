@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Compatibilité des dimensions Analytics
 
-Cette page répertorie [dimensions](overview.md) pris en charge dans leurs fonctionnalités Analytics respectives.
+Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs fonctionnalités Analytics respectives.
 
 >[!NOTE]
 >

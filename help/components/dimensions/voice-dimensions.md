@@ -2,16 +2,17 @@
 title: Dimensions de l’analyse vocale
 description: Dimensions de l’analyse vocale
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 32%
 
 ---
 
 # Dimensions de l’analyse vocale
 
-| Nom de la Dimension | Description | Variable de données contextuelles |
+| Nom de la dimension | Description | Variable de données contextuelles |
 | --- | --- | --- |
 | Type d’erreur de voix | | À confirmer |
 | Langue de la voix | | À confirmer |

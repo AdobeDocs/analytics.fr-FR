@@ -17,12 +17,12 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Cet article fournit **Clients Adobe Analytics qui (prévoient) de mettre en oeuvre Adobe Analytics** sur leur site web avec des instructions sur la manière de fournir aux utilisateurs du site des liens d’exclusion. <p><p>
-> Si vous **visite d’un site web qui a mis en oeuvre Adobe Analytics**, et vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Veuillez consulter [Adobe des choix en matière de confidentialité](https://www.adobe.com/privacy/opt-out.html) pour contrôler la manière dont Adobe utilise vos informations.
+> Cet article fournit aux clients **Adobe Analytics qui (prévoient) de mettre en oeuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens d’exclusion. <p><p>
+> Si vous **consultez un site web qui a mis en oeuvre Adobe Analytics** et que vous souhaitez vous exclure, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Pour contrôler la manière dont Adobe utilise vos informations, reportez-vous à la section [Choix de confidentialité de l’Adobe](https://www.adobe.com/privacy/opt-out.html).
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe offre la possibilité de fournir aux visiteurs de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
-Les liens d’exclusion permettent aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens sont limités aux mises en oeuvre d’AppMeasurement. Adobe recommande d’utiliser la variable [Service Adobe Experience Cloud Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr) au lieu de . Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe Experience Cloud, y compris Adobe Analytics et AppMeasurement.
+Les liens d’exclusion permettent aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens sont limités aux mises en oeuvre d’AppMeasurement ; Adobe recommande d’utiliser le [service d’opt-in Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr) à la place. Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe Experience Cloud, y compris Adobe Analytics et AppMeasurement.
 
 Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un suivi et qu’un cookie d’exclusion est défini, AppMeasurement continue d’envoyer des données à Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
 
@@ -63,17 +63,17 @@ Il existe des paramètres que vous pouvez charger automatiquement sur cette page
 Changer automatiquement la langue de la page d’exclusion en incluant le paramètre de chaîne de requête `locale`. Attribuez ce paramètre de chaîne de requête à l’une des valeurs suivantes :
 
 * `en_US` (anglais, valeur par défaut)
-* `bg_BG` (Bulgare)
-* `zh_CN` (Chinois simplifié)
-* `zh_TW` (Chinois traditionnel)
+* `bg_BG` (bulgare)
+* `zh_CN` (chinois simplifié)
+* `zh_TW` (chinois traditionnel)
 * `cs_CZ` (tchèque)
 * `da_NK` (danois)
 * `nl_NL` (néerlandais)
-* `et_EE` (Estonien)
+* `et_EE` (estonien)
 * `fi_FI` (finnois)
-* `fr_FR` (Français)
-* `de_DE` (Allemand)
-* `el_GR` (Grec)
+* `fr_FR` (français)
+* `de_DE` (allemand)
+* `el_GR` (grec)
 * `it_IT` (italien)
 * `jp_JP` (japonais)
 * `ko_KR` (coréen)
@@ -83,7 +83,7 @@ Changer automatiquement la langue de la page d’exclusion en incluant le param�
 * `pl_PL` (polonais)
 * `pt_BR` (portugais)
 * `sk_SK` (slovaque)
-* `es_ES` (Espagnol)
+* `es_ES` (espagnol)
 
 Par exemple, `https://example.data.adobedc.net/optout.html?locale=ko_KR` charge la page d’exclusion en coréen.
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,11 +29,11 @@ Pour créer une requête de détection des anomalies dans Report Builder :
 
    Pour la mesure ajoutée, cliquez sur le lien **[!UICONTROL Aucun]**.
 
-   ![Capture d’écran montrant la détection des anomalies, puis Insérer et insérer des options pour Limite inférieure et Limite supérieure et attendue.](assets/anomaly_select.png)
+   ![Capture d&#39;écran montrant la détection des anomalies, puis Insérer et insérer des options pour la limite inférieure et supérieure et attendue.](assets/anomaly_select.png)
 
 1. Sélectionnez **[!UICONTROL Détection des anomalies]** > **[!UICONTROL `<selection>`]**.
 
-   ![Capture d’écran montrant l’Assistant Requête : Étape 2 - Rapport Trafic.](assets/anomaly_visit.png)
+   ![Capture d’écran montrant l’Assistant Requête : Étape 2 - Rapport de trafic.](assets/anomaly_visit.png)
 
    Lorsque vous sélectionnez l’une de ces options, le système crée des copies Détection des anomalies de la mesure d’origine. Par exemple, pour la mesure Visite, une mesure Limite inférieure - Visite est ajoutée au groupe [!UICONTROL Mesure].
 1. Cliquez sur **[!UICONTROL Terminer]** et sélectionnez la cellule pour la sortie vers Excel.

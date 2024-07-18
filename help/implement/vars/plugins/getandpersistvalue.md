@@ -15,17 +15,17 @@ ht-degree: 70%
 
 {{plug-in}}
 
-Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle semblable à celui de la fonction [!UICONTROL Durée de stockage] dans l’extension Adobe Analytics au sein de la collecte de données Adobe Experience Platform. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la variable [!UICONTROL Durée de stockage] est suffisante dans l’extension Analytics. Il n’est pas non plus nécessaire d’utiliser ce plug-in si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas lʼutilisation de ce plug-in, car les eVars sont conservées côté serveur par Adobe.
+Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à la fonction [!UICONTROL Durée du stockage] de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la fonction [!UICONTROL Durée de stockage] de l’extension Analytics est suffisante. Il n’est pas non plus nécessaire d’utiliser ce plug-in si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas lʼutilisation de ce plug-in, car les eVars sont conservées côté serveur par Adobe.
 
 ## Installation du module externe à l’aide de l’extension SDK Web
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur **[!UICONTROL Balises]** sur la gauche, puis cliquez sur la propriété de balise de votre choix.
-1. Cliquez sur **[!UICONTROL Extensions]** sur la gauche, puis cliquez sur le bouton **[!UICONTROL Catalogue]** tab
-1. Recherchez et installez le **[!UICONTROL Plug-ins SDK Web courants]** extension .
-1. Cliquez sur **[!UICONTROL Éléments de données]** sur la gauche, puis cliquez sur l’élément de données souhaité.
+1. Cliquez sur **[!UICONTROL Balises]** à gauche, puis sur la propriété de balise de votre choix.
+1. Cliquez sur **[!UICONTROL Extensions]** à gauche, puis sur l’onglet **[!UICONTROL Catalogue]**
+1. Recherchez et installez l’extension **[!UICONTROL Common Web SDK Plugins]** .
+1. Cliquez sur **[!UICONTROL Éléments de données]** à gauche, puis sur l’élément de données de votre choix.
 1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
    * Extension : modules externes SDK Web courants
    * Élément de données : `getAndPersistValue`

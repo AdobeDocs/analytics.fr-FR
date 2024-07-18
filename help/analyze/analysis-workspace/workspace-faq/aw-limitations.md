@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 ## Composants > Segments
 
 * Il n’est pas possible de segmenter certaines mesures et dimensions, comme [!UICONTROL Occurrences], [!UICONTROL Visiteurs uniques], etc.
-* Segments ad hoc créés dans le [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) sont un type de filtre rapide. Ils n’apparaissent pas dans le rail gauche de Workspace ou dans le gestionnaire de composants Segment, à moins qu’ils ne soient rendus publics. Pour plus d’informations, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* Les segments ad hoc créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) sont un type de filtre rapide. Ils n’apparaissent pas dans le rail de gauche de Workspace ni dans le gestionnaire de composants Segment, sauf s’ils sont rendus publics. Pour en savoir plus, voir [Segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## Composants > Mesures calculées
 
@@ -58,4 +58,4 @@ Voici une liste des limites connues dans Analysis Workspace et ses composants co
 
 ## Attribution
 
-* Un sous-ensemble de mesures n’est pas pris en charge dans [!UICONTROL Attribution]. Pour obtenir la liste complète, consultez la section [FAQ sur l’Attribution ](/help/analyze/analysis-workspace/attribution/faq.md).
+* Un sous-ensemble de mesures n’est pas pris en charge dans [!UICONTROL Attribution]. Pour obtenir la liste complète, consultez la [FAQ sur l’Attribution](/help/analyze/analysis-workspace/attribution/faq.md).

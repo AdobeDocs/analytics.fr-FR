@@ -16,7 +16,7 @@ ht-degree: 94%
 
 Les règles de traitement vous permettent de modifier des données en fonction de conditions définies. Lorsque des attributs ou valeurs satisfont les conditions définies, les valeurs peuvent être définies et supprimées, et les événements peuvent être définis.
 
-Les règles de traitement sont appliquées aux données lors de leur collecte. Des règles sont également appliquées à toutes les données qui transitent par les bibliothèques AppMeasurement et par l’API d’insertion de données. Elles s’appliquent également aux sources de données complètes ou de journaux. Ces sources contiennent des données qui représentent une *`hit`* ou une action effectuée par un utilisateur. Les règles de traitement ne s’appliquent pas à d’autres sources de données.
+Les règles de traitement sont appliquées aux données lors de leur collecte. Des règles sont également appliquées à toutes les données qui transitent par les bibliothèques AppMeasurement et par l’API d’insertion de données. Elles s’appliquent également aux sources de données complètes ou de journaux. Ces sources contiennent des données qui représentent un *`hit`* ou une action effectuée par un utilisateur. Les règles de traitement ne s’appliquent pas à d’autres sources de données.
 
 ## Concepts importants {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -40,7 +40,7 @@ Le tableau ci-dessous décrit les principaux concepts liés à l’utilisation d
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement sont appliquées immédiatement à la suite de rapports dès qu’elles sont enregistrées. </p> </td> 
-   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous vous recommandons de configurer <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> rapports en temps réel</a> dans votre suite de rapports de test afin que vous puissiez voir rapidement les résultats d’une règle de traitement. </p> </td> 
+   <td colname="col2"> <p>Les modifications provenant des règles de traitement devraient être visibles dans votre suite de rapports quelques minutes après leur enregistrement. Lors du test des règles de traitement, nous vous recommandons de configurer des <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> rapports en temps réel </a> dans votre suite de rapports de test afin que vous puissiez rapidement consulter les résultats d’une règle de traitement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Les règles de traitement constituent la seule méthode d’accès aux variables de données contextuelles. </p> </td> 

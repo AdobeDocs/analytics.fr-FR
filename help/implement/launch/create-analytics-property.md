@@ -17,7 +17,7 @@ Les balises dans Adobe Experience Platform vous permettent d’intégrer des sol
 
 ## Conditions préalables
 
-[Création d’une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): crée un silo pour la collecte des données Analytics.
+[Créer une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : créez un silo pour la collecte des données Analytics.
 
 ## Création d’une propriété de balise et installation d’extensions vitales
 

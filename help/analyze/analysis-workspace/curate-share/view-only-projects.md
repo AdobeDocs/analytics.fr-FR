@@ -8,15 +8,15 @@ exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # Projets en lecture seule
 
-Vous pouvez partager des projets « en lecture seule » avec des destinataires via le [processus de partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md). Les destinataires placés dans le rôle Peut afficher profiteront d’une expérience de projet plus limitée. Cela peut être souhaitable si vous partagez un projet avec des utilisateurs qui connaissent moins bien la structure de données de votre entreprise, Analysis Workspace ou Adobe Analytics en général, mais que vous souhaitez toujours qu’ils consomment des données et des informations dans un environnement sûr.
+Vous pouvez partager des projets « en lecture seule » avec des destinataires via le [processus de partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md). Les destinataires placés dans le rôle Peut afficher profiteront d’une expérience de projet plus limitée. Cela peut être utile si vous partagez un projet avec des utilisateurs et utilisatrices qui connaissent moins bien la structure de données de votre organisation, Analysis Workspace ou Adobe Analytics en général, tout en souhaitant qu’ils consomment des données et des informations dans un environnement sûr.
 
-Notez que vous pouvez modifier la période du calendrier du panneau même dans les projets en lecture seule.
+Notez que vous pouvez modifier la période du calendrier du panneau, même dans les projets en lecture seule.
 
 ![](assets/view-only-project.png)
 

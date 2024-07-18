@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Moteur de recherche
 
-Le &quot;moteur de recherche&quot; [dimension](overview.md) indique les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un référent doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
+La [dimension](overview.md) du &quot;moteur de recherche&quot; indique les moteurs de recherche que les visiteurs utilisent pour accéder à votre site. Un référent doit répondre aux deux critères suivants pour être classé comme moteur de recherche :
 
 * Le domaine référent est reconnu par Adobe comme un moteur de recherche valide ;
 * Il existe un paramètre de chaîne de requête de mot-clé dans l’URL de référence. Le paramètre de chaîne de requête peut être vide (c’est le cas de plusieurs moteurs de recherche en raison de leurs pratiques de confidentialité).

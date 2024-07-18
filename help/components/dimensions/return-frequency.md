@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '264'
 ht-degree: 93%
 
 ---
 
 # Fréquence des retours
 
-&quot;Fréquence des retours&quot; [dimension](overview.md) indique la durée qui s’écoule entre les visites des visiteurs récurrents. Lorsqu’un visiteur revient sur votre site, Adobe détermine la durée depuis la visite précédente et regroupe l’accès dans l’élément de dimension approprié. Cette dimension est utile pour jauger l’attrait de votre site et sa pertinence pour les visiteurs au fil du temps. Elle permet également d’identifier l’impact du contenu et des promotions de votre site sur vos visiteurs.
+La [dimension](overview.md) de &quot;Fréquence des retours&quot; indique la durée qui s’écoule entre les visites des visiteurs récurrents. Lorsqu’un visiteur revient sur votre site, Adobe détermine la durée depuis la visite précédente et regroupe l’accès dans l’élément de dimension approprié. Cette dimension est utile pour jauger l’attrait de votre site et sa pertinence pour les visiteurs au fil du temps. Elle permet également d’identifier l’impact du contenu et des promotions de votre site sur vos visiteurs.
 
 >[!TIP]
 >

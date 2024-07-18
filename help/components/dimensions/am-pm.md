@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Matin/après-midi
 
-&quot;Matin/après-midi&quot; [dimension](overview.md) fournit des informations sur le cas où l’accès s’est produit le matin ou l’après-midi. L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La [dimension](overview.md) du &quot;matin/après-midi&quot; indique si l’accès s’est produit le matin ou l’après-midi. L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
 
 ## Renseignement de cette dimension avec des données
 

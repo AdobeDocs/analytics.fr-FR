@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 79a90e33-00ef-435e-8304-be0cf59ced78
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 60%
+source-wordcount: '86'
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 60%
 
 Dans des requêtes de type Disposition croisée dynamique et Disposition personnalisée, vous pouvez, pour des valeurs de chaîne ou numériques, ajouter des chaînes ou des caractères en suffixe ou en préfixe dans des cellules.
 
-Cette option est disponible dans la variable [!UICONTROL Assistant Requête : Étape 2] fenêtre.
+Cette option est disponible dans la fenêtre [!UICONTROL Assistant Requête : Étape 2] .
 
 **Ajouter un texte en préfixe** : ajoute, à la cellule, un préfixe de valeurs numériques ou de chaîne.
 

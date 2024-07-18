@@ -7,36 +7,36 @@ exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
 source-wordcount: '327'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# Gestion des alertes
+# Gérer les alertes
 
 Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer diverses tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
 
-La structure du gestionnaire des alertes ressemble à celle de la fonction [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et la variable [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
+La structure du gestionnaire d’alertes ressemble à celle du [ gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [ gestionnaire de mesures calculées ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
 
 ## Créer des alertes
 
 Pour créer des alertes à partir du gestionnaire d’alertes :
 
-1. Sélectionner **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire des alertes dans Adobe Analytics.
+1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. Sélectionner [!UICONTROL **Ajouter**] (ou [!UICONTROL **Créer une alerte**] si vous n’avez aucune alerte existante).
+1. Sélectionnez [!UICONTROL **Ajouter**] (ou [!UICONTROL **Créer une alerte**] si vous n’avez aucune alerte existante).
 
 1. Sélectionnez le type d&#39;alerte correspondant à l&#39;alerte que vous souhaitez créer :
 
-   * [!UICONTROL **Alerte de données Analytics**]: alerte pour vous avertir lorsque des événements anormaux se produisent dans vos données.
+   * [!UICONTROL **Alerte de données Analytics**] : alerte pour vous avertir lorsque des événements anormaux se produisent dans vos données.
 
-     Si vous sélectionnez cette option, passez à la [Créer des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) pour plus d’informations sur la création d’alertes.
+     Si vous sélectionnez cette option, passez à la section [Créer des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) pour plus d’informations sur la création d’alertes.
 
-   * [!UICONTROL **Alerte d’utilisation des appels au serveur**]: alerte pour vous avertir du risque ou de l’apparition d’un dépassement dans vos données d’engagement et de consommation d’appels au serveur.
+   * [!UICONTROL **Alerte d’utilisation de l’appel au serveur**] : alerte pour vous avertir du risque ou de l’occurrence d’un dépassement de votre consommation d’appels au serveur et de vos données d’engagement.
 
-     Si vous sélectionnez cette option, passez à la [Alertes d’utilisation des appels au serveur](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     Si vous sélectionnez cette option, continuez avec les [alertes d&#39;utilisation des appels au serveur](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
@@ -49,7 +49,7 @@ Pour créer des alertes à partir du gestionnaire d’alertes :
 
 Pour gérer les alertes existantes dans le gestionnaire d’alertes :
 
-1. Sélectionner **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire des alertes dans Adobe Analytics.
+1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
 
    ![](assets/alert-manager.png)
 

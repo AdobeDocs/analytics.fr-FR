@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez protéger toutes les requêtes d’un classeur contre l’ajout et l
 
 En tant qu’analyste, le verrouillage d’un classeur permet de protéger vos requêtes contre les modifications apportées par d’autres utilisateurs de votre entreprise. En même temps, les autres utilisateurs peuvent tout de même actualiser les requêtes du classeur.
 
-Pour protéger un classeur contre la modification, cliquez sur **[!UICONTROL Verrouillé]** dans la barre d’outils du Report Builder ( ![](assets/locked_icon.png)).
+Pour protéger un classeur contre la modification, cliquez sur **[!UICONTROL Verrouillé]** dans la barre d’outils de Report Builder ( ![](assets/locked_icon.png)).
 
 Pour annuler la protection d’un classeur, cliquez sur **[!UICONTROL Déverrouillé]** ( ![](assets/unlocked_icon.png)).
 
@@ -29,7 +29,7 @@ Vous pouvez déverrouiller un classeur verrouillé si vous êtes doté de l’un
 
 >[!NOTE]
 >
->Vous ne pouvez pas ajouter de requête à un classeur protégé si vous ne possédez pas l’autorisation de déverrouiller le classeur.
+>Vous ne pouvez pas ajouter de requête à un classeur protégé si vous ne disposez pas des autorisations nécessaires pour le déverrouiller.
 
 Lorsqu’un classeur est verrouillé pour empêcher la modification de requête :
 
@@ -40,11 +40,11 @@ Lorsqu’un classeur est verrouillé pour empêcher la modification de requête�
 * Les utilisateurs peuvent actualiser les requêtes, soit individuellement, soit en tant que partie d’un groupe.
 * Si la requête utilise les valeurs d’entrée provenant des cellules (période, segment, filtres), les utilisateurs peuvent modifier ces valeurs dans les cellules et, ainsi, indirectement modifier les requêtes en les actualisant.
 
-Si vous essayez de modifier un classeur protégé par le biais du menu contextuel, ou **[!UICONTROL Gestionnaire de requêtes]**, ou **[!UICONTROL Modification de plusieurs requêtes]**, vous pouvez ou non être autorisé à effectuer cette opération :
+Si vous essayez de modifier un classeur protégé par le biais du menu contextuel, ou du **[!UICONTROL Gestionnaire de requêtes]**, ou de la fonction **[!UICONTROL Modifier plusieurs requêtes]**, vous pouvez le faire ou non :
 
 * Si vous ne disposez pas des autorisations nécessaires pour déverrouiller une requête, un message s’affiche indiquant que vous n’avez pas les droits de déverrouiller et de modifier le classeur.
 
-  ![Capture d’écran montrant le message d’erreur lorsque vous ne disposez pas des autorisations nécessaires pour déverrouiller une requête.](assets/locked_workbook_error.png)
+  ![Capture d&#39;écran montrant le message d&#39;erreur lorsque vous ne disposez pas des autorisations nécessaires pour déverrouiller une requête.](assets/locked_workbook_error.png)
 
 ## Processus {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

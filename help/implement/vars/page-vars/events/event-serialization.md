@@ -35,11 +35,11 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 
 ## Utiliser des identifiants d’événement à l’aide du SDK Web
 
-Si vous utilisez la variable [**Objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sérialisation d’événements utilise le champ XDM de l’événement souhaité. `id`. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
+Si vous utilisez l’ [**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sérialisation d’événements utilise le champ XDM de l’événement souhaité `id`. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
 
-Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez `xdm.commerce.productListAdds.id` à la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez `xdm._experience.analytics.event1to100.event20` à la valeur de sérialisation souhaitée.
+Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez `xdm.commerce.productListAdds.id` sur la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez `xdm._experience.analytics.event1to100.event20` sur la valeur de sérialisation souhaitée.
 
-Si vous utilisez la variable [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), la sérialisation d’événements utilise `data.__adobe.analytics.events`, suivant la syntaxe de chaîne d’AppMeasurement.
+Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), la sérialisation d’événements utilise `data.__adobe.analytics.events`, en respectant la syntaxe de chaîne d’AppMeasurement.
 
 ## Utiliser les identifiants d’événement à l’aide de l’extension Adobe Analytics
 
@@ -49,7 +49,7 @@ Vous pouvez définir le champ Identifiant d’événement lors de la configurati
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Événements], où chaque événement contient un champ [!UICONTROL Identifiant d’événement].
 
 Les valeurs valides sont des caractères alphanumériques d’une longueur maximale de 20 octets. Si vous saisissez une valeur de plus de 20 octets, le système la tronque sur les 20 premiers octets.

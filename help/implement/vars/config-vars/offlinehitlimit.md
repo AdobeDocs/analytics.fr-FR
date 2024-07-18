@@ -27,7 +27,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.offlineHitLimit dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.offlineHitLimit` est un entier représentant le nombre maximal d’accès qu’un appareil stocke lorsqu’il est hors ligne. Si cette variable n’est pas définie, le paramètre `10`. Vous pouvez la définir sur n’importe quelle valeur entière. Lorsque vous définissez des valeurs élevées, gardez à l’esprit les limites de stockage local dans le navigateur d’un visiteur. Cette limite est généralement comprise entre 5 et 10 Mo.
+La variable `s.offlineHitLimit` est un entier représentant le nombre maximal d’accès qu’un appareil stocke lorsqu’il est hors ligne. Si cette variable n’est pas définie, elle est définie par défaut sur `10`. Vous pouvez la définir sur n’importe quelle valeur entière. Lorsque vous définissez des valeurs élevées, gardez à l’esprit les limites de stockage local dans le navigateur d’un visiteur. Cette limite est généralement comprise entre 5 et 10 Mo.
 
 ```js
 s.offlineHitLimit = 100;

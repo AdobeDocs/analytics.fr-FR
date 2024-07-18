@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
 source-git-commit: d2e4a6eed54fa8b3e080b162a5e841fc2f5a0e59
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
@@ -35,4 +35,4 @@ Procédure de création d’une requête de données de base.
 
    Les [dimensions](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html?lang=fr) disponibles à l’étape 2 dépendent du rapport de base sélectionné à l’étape 1 et de la configuration de votre suite de rapports. Les dimensions sont des éléments qui instaurent une corrélation ou une sous-relation, ou qui sont une classification de la mesure du type de rapport d’origine que vous avez sélectionnée dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]. L’ajout de plusieurs dimensions à l’étape 2 permet de créer une ventilation dans votre requête de données.
 
-   Reportez-vous à la section  [Ajout de mesures et de dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) pour plus d’informations.
+   Pour plus d’informations, voir [Ajout de mesures et de Dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) .

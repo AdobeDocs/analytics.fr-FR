@@ -5,8 +5,8 @@ feature: Report Suite Settings
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
-source-wordcount: '202'
+workflow-type: tm+mt
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Configure plusieurs variables et événements de succès courants pour un site W
 | Impressions publicitaires | Compteur (sans sous-relations) | `event5` |
 | Clics publicitaires | Compteur (sans sous-relations) | `event6` |
 
-| Variables Aperçu personnalisé | Variable `s_code` |
+| Variables Custom Insight | Variable `s_code` |
 |---|---|
 | Propriété du trafic 1 à 5 | `prop1, prop2, prop3, prop4, prop5` |
 

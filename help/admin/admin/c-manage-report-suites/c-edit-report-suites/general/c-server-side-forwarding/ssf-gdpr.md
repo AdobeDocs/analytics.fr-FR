@@ -30,7 +30,7 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 | Méthode de mise en œuvre | Étapes |
 |--- |--- |
 | Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
-| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js :  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : Définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
+| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : Définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 
 ## Reporting (facultatif) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

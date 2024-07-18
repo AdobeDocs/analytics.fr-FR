@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 85%
 
 ---
 
 # Durée de consultation de la page
 
-&quot;Durée de consultation de la page&quot; [dimension](overview.md) enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
+La [dimension](overview.md) &quot;Durée de consultation de la page&quot; enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
 
 1. Pour un accès donné, consultez la date et l’heure.
 2. Comparez cet accès à l’horodatage du prochain accès de la visite. L’accès de suivi des pages vues et des liens est important.

@@ -13,7 +13,7 @@ ht-degree: 48%
 
 # Mise en œuvre d’Analytics pour les appareils mobiles
 
-Pour mettre en oeuvre Analytics pour les appareils mobiles, utilisez le SDK Adobe Experience Platform Mobile. Voir [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md) pour plus d’informations.
+Pour mettre en oeuvre Analytics pour les appareils mobiles, utilisez le SDK Adobe Experience Platform Mobile. Pour plus d’informations, voir [Présentation du SDK mobile](aep-edge/mobile-sdk/overview.md) .
 
 ## SDK mobiles d’Adobe Experience Platform
 
@@ -25,5 +25,5 @@ Pour mettre en oeuvre Analytics pour les appareils mobiles, utilisez le SDK Adob
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Voir [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) pour plus d’informations.
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) .
 

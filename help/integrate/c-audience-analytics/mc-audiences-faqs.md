@@ -19,7 +19,7 @@ Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience�
 
 +++ Comment savoir si des informations d’identification personnelle figurent dans mes données Analytics ? Et si oui, que dois-je faire à ce sujet ?
 
-Si vous avez des emails/adresses/etc dans une prop ou un eVar, envisagez de hacher les données lors de la collecte. Si votre pays considère que l’adresse IP est une donnée personnelle personnelle, [activation de l’obscurcissement des adresses IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=fr). Contactez votre administrateur Analytics pour voir ce que vous collectez. Contactez votre service juridique pour savoir ce qu’il considère comme des informations d’identification personnelles.
+Si vous avez des emails/adresses/etc dans une prop ou un eVar, envisagez de hacher les données lors de la collecte. Si votre pays considère que l’adresse IP est une information d’identification personnelle, [activez l’obscurcissement d’IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=fr). Contactez votre administrateur Analytics pour voir ce que vous collectez. Contactez votre service juridique pour savoir ce qu’il considère comme des informations d’identification personnelles.
 
 +++
 
@@ -49,7 +49,7 @@ Plusieurs heures peuvent s’écouler avant que les nouvelles données n’appar
 
 +++ J’ai créé une destination Analytics, mais je ne la vois pas dans la section Mappages des destinations de mes segments disponibles. Où cette destination est-elle allée ou comment la trouver ?
 
-Une destination Analytics disparaît de la section Mises en correspondance de destinations d’un segment lorsque vous sélectionnez la variable **[!UICONTROL Mappage automatique de tous les segments actuels et futurs]** dans **[!UICONTROL Mappages de segments]**. Pour éviter ceci, sélectionnez **[!UICONTROL Mapper les segments manuellement]** au lieu de l’option de mappage automatique.
+Une destination Analytics disparaît de la section Mappages des destinations d’un segment lorsque vous sélectionnez l’option **[!UICONTROL Mapper automatiquement tous les segments actuels et futurs]** dans **[!UICONTROL Mappages des segments]**. Pour éviter ceci, sélectionnez **[!UICONTROL Mapper les segments manuellement]** au lieu de l’option de mappage automatique.
 
 +++
 
@@ -107,7 +107,7 @@ Il existe probablement un conflit entre les contrôles de confidentialité de Ad
 
 +++ Pourquoi la mention &quot;Limite d’audience atteinte&quot; s’affiche-t-elle dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et `::max_audiences_exceeded::` en Data Warehouse)
 
-Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est admissible, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, la variable **150 segments les plus récemment qualifiés** sont envoyées à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
+Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est admissible, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les **150 segments les plus récemment qualifiés** sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
 
 Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités :
 
@@ -149,7 +149,7 @@ Voir [Différences entre les nombres de visiteurs](/help/integrate/c-audience-an
 
 +++ Quelle est la différence entre &quot;audiences&quot; dans Adobe Audience Manager et &quot;segments&quot; dans Analytics ?
 
-Voir [Présentation des segments dans Analytics et Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Les audiences Adobe Audience Manager sont envoyées et partagées en tant que composants de &quot;dimension&quot; à utiliser dans Analytics. Elles ne s’affichent pas en tant que segments dans le créateur de segments, mais en tant que dimensions avec lesquelles vous pouvez créer des segments.
+Voir [Présentation des segments dans Analytics et l’Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md). Les audiences Adobe Audience Manager sont envoyées et partagées en tant que composants de &quot;dimension&quot; à utiliser dans Analytics. Elles ne s’affichent pas en tant que segments dans le créateur de segments, mais en tant que dimensions avec lesquelles vous pouvez créer des segments.
 
 +++
 

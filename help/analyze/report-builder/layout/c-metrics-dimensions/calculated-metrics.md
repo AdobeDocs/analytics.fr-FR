@@ -25,13 +25,13 @@ Pour en savoir plus sur la manière de créer et de gérer des mesures calculée
 
 ## Filtrer des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrer** mesures calculées en cliquant sur l’icône Filtrer :  ![Capture d’écran des options Filtre affichant les champs Application, Utilisateur, Projet .](/help/admin/admin/assets/filter.png)
+**Filtrez** les mesures calculées en cliquant sur l’icône Filtrer : ![Capture d’écran des options de filtrage affichant les champs Application, Utilisateur, Projet.](/help/admin/admin/assets/filter.png)
 
 La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
 Les filtres disponibles incluent :
 
-![Capture d’écran montrant les options de filtres avancés décrites dans le tableau suivant.](assets/advanced_filters.png)
+![Capture d&#39;écran montrant les options des filtres avancés décrites dans le tableau suivant.](assets/advanced_filters.png)
 
 | Nom du filtre | Description |
 |---|---|

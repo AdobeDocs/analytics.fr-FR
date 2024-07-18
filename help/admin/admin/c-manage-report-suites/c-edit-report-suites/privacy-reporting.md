@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # Compte rendu des performances sur la confidentialité
 
-La création de rapports de confidentialité permet d’activer la fonction [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md), [Exclusion de la gestion du consentement](/help/components/dimensions/cm-opt-out.md) et [Consentement de la plateforme publicitaire](/help/components//dimensions/ad-consent.md) dimensions à utiliser dans les rapports.
+La création de rapports de confidentialité vous permet d’activer les dimensions [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md), [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-out.md) et [Consentement de la plateforme d’annonces publicitaires](/help/components//dimensions/ad-consent.md) à utiliser dans les rapports.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Pour accéder à cette page :
 
    ![Modifier les paramètres](assets/rsm-privacy-select.png)
 
-1. Cliquez sur **[!UICONTROL Activation des rapports de confidentialité des données]**.
+1. Cliquez sur **[!UICONTROL Activer les rapports Confidentialité des données]**.
 
    >[!NOTE]
    >

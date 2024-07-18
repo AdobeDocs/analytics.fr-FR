@@ -14,7 +14,7 @@ ht-degree: 69%
 
 # Traitement de la période de rapport
 
-[!UICONTROL Traitement de la période de rapport] est un paramètre de suite de rapports virtuelle qui permet aux données d’Analysis Workspace d’être traitées de manière rétroactive et non destructive.
+[!UICONTROL Le traitement de la période de rapport] est un paramètre de suite de rapports virtuelle qui permet aux données d’Analysis Workspace d’être traitées de manière rétroactive et non destructive.
 
 Le [!UICONTROL traitement de la période de rapport] affecte uniquement les données de la suite de rapports virtuelle et n’a aucune incidence sur les données ou la collecte de données dans la suite de rapports de base. La différence entre le [!UICONTROL traitement de la période de rapport] et le traitement Analytics classique est plus facile à comprendre à l’aide du diagramme suivant :
 
@@ -28,7 +28,7 @@ Le [!UICONTROL traitement de la période de rapport] est une manière fondamenta
 
 Cette architecture de traitement offre des options de création de rapports beaucoup plus flexibles. Par exemple, vous pouvez modifier le délai de visite de manière non destructive et ces modifications sont répercutées dans la persistance de votre eVar et dans les conteneurs de segments pendant toute la période de création de rapports. En outre, vous pouvez créer un nombre illimité de suites de rapports virtuelles, chacune avec des options de traitement de la période de rapport différentes, basées sur la même suite de rapports de base (parente), sans modifier les données de cette dernière.
 
-[!UICONTROL Traitement de la période de rapport] permet également à Analytics d’empêcher les accès en arrière-plan de commencer de nouvelles visites et permet à la variable [SDK Adobe Experience Platform Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=fr) pour démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
+L’option [!UICONTROL  Traitement de la période de rapport ] permet également à Analytics d’empêcher les accès en arrière-plan de démarrer de nouvelles visites et permet au [ SDK Mobile Adobe Experience Platform ](https://experienceleague.adobe.com/docs/mobile.html?lang=fr) de démarrer une nouvelle visite chaque fois qu’un événement de lancement d’application est déclenché.
 
 ## Options de configuration
 
@@ -53,13 +53,13 @@ En outre, le traitement de la période de rapport traite uniquement les données
 Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitement de la période de rapport :
 
 * **Analytics for Target**
-* **Dimensions/mesures Analytics pour Advertising Cloud**
+* **Analytics pour les dimensions/mesures Advertising Cloud**
 * **eVars de compteur**
 * [**Jours avant le premier achat**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Jours depuis le dernier achat**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Jours depuis la dernière visite**](/help/components/dimensions/days-since-last-visit.md)
-* **Page d’accès originale**
-* **eVars d’attribution linéaire**
+* **Page d’accès d’origine**
+* **eVars d’allocation linéaire**
 * **Variables de liste**
 * [**Dimensions Canaux marketing**](/help/components/dimensions/marketing-channel.md)
 * [**Domaine référent initial**](/help/components/dimensions/original-referring-domain.md)
@@ -81,8 +81,8 @@ Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en 
    * [**Mesure Visiteurs uniques**](/help/components/metrics/unique-visitors.md) : les visiteurs uniques n’incluent pas les visiteurs qui n’ont eu que des accès en arrière-plan dans la plage de dates de création de rapports.
 * [**Visites**](/help/components/metrics/visits.md) : les visites reflètent les paramètres configurés par la suite de rapports virtuelle, qui peuvent différer de ceux de la suite de rapports de base.
 * **Événements sérialisés avec identifiant d’événement** : les événements qui utilisent la sérialisation des événements avec un identifiant d’événement ne sont dédupliqués que pour les événements qui se produisent dans la plage de dates de création de rapports pour un visiteur. Ces événements ne sont pas dédupliqués de manière globale entre toutes les dates ou tous les visiteurs en raison du fenêtrage de dates de l’option Traitement de la période de rapport.
-* **Achats** / [**Recettes**](/help/components/metrics/revenue.md) / [**Commandes**](/help/components/metrics/orders.md) / [**Unités :**](/help/components/metrics/units.md) Lorsque l’identifiant d’achat est utilisé, ces mesures ne sont dédupliquées que pour les identifiants d’achat en double qui se produisent dans la plage de dates de création de rapports pour un visiteur plutôt que pour toutes les dates ou tous les visiteurs en raison du fenêtrage de dates de l’option Traitement de la période de rapport.
-* [**eVars de non-marchandisage**](/help/components/dimensions/evar.md) / **eVars réservées :** Les valeurs définies dans un eVar ne persistent que si elles ont été définies dans la plage de dates des rapports en raison du fenêtrage de dates de l’option Traitement de la période de rapport. En outre, les expirations basées sur le temps peuvent expirer une heure plus tôt ou une heure en retard si la persistance chevauche un passage à l’heure d’été/d’hiver.
+* **Achats** / [**Recettes**](/help/components/metrics/revenue.md) / [**Commandes**](/help/components/metrics/orders.md) / [**Unités :**](/help/components/metrics/units.md) Lorsque l’identifiant d’achat est utilisé, ces mesures sont uniquement dédupliquées pour les identifiants d’achat en double qui se produisent dans la période de création de rapports pour un visiteur plutôt que pour toutes les dates ou tous les visiteurs dans le monde en raison du fenêtrage de dates de l’option Traitement de la période de rapport.
+* [**eVars de non-marchandisage**](/help/components/dimensions/evar.md) / **eVars réservées :** Les valeurs définies dans un eVar ne persistent que si la valeur a été définie dans la plage de dates de création de rapports en raison du fenêtrage de dates de l’option Traitement de la période de rapport. En outre, les expirations basées sur le temps peuvent expirer une heure plus tôt ou une heure en retard si la persistance chevauche un passage à l’heure d’été/d’hiver.
 * [**eVars de marchandisage**](/help/components/dimensions/evar-merchandising.md) / **eVars réservées :** Voir ci-dessus. De plus, pour la syntaxe de la conversion pour laquelle la liaison est définie sur « any event », « any hit » est utilisé à la place.
 * [**Type d’accès**](/help/components/dimensions/hit-type.md) : cette dimension indique si un accès est de premier plan ou en arrière-plan.
-* **Dimensions avec (faible trafic) ou &quot;Valeurs uniques dépassées&quot; :** L’élément de ligne (Faible trafic) est déterminé légèrement différemment lors de l’utilisation du traitement de la période de rapport. Il n’est pas garanti qu’il corresponde à ce qui est observé lors de la création de rapports sur la suite de rapports de base. Les éléments de ligne de Dimension qui ne font pas partie du trafic faible ne représentent pas 100 % des données de cet élément de ligne. Ces différences peuvent devenir plus prononcées, plus le nombre de valeurs uniques existant dans une dimension est élevé.
+* **Dimensions avec (faible trafic) ou &quot;Valeurs uniques dépassées&quot; :** L’élément de ligne (faible trafic) est déterminé légèrement différemment lors de l’utilisation de l’option Traitement de la période de rapport. Il n’est pas garanti qu’il corresponde à ce qui est observé lors de la création de rapports sur la suite de rapports de base. Les éléments de ligne de Dimension qui ne font pas partie du trafic faible ne représentent pas 100 % des données de cet élément de ligne. Ces différences peuvent devenir plus prononcées, plus le nombre de valeurs uniques existant dans une dimension est élevé.

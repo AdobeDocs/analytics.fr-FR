@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 90%
+source-wordcount: '246'
+ht-degree: 88%
 
 ---
 
 # Fidélité de la clientèle
 
-&quot;Fidélité de la clientèle&quot; [dimension](overview.md) indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou 3 achats précédents ou plus. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
+La [dimension](overview.md) de &quot;fidélité de la clientèle&quot; indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou 3 achats précédents ou plus. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

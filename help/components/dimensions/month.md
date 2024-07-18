@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Mois
 
-Le &quot;Mois&quot; [dimension](overview.md) indique le mois au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier mois de la période, et le dernier élément de dimension correspond au dernier mois de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
+La dimension &quot;Mois&quot; [dimension](overview.md) indique le mois au cours duquel une mesure donnée a été effectuée. Le premier élément de dimension correspond au premier mois de la période, et le dernier élément de dimension correspond au dernier mois de la période. Cette dimension est essentielle pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps.
 
 ## Renseignement de cette dimension avec des données
 

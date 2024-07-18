@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 99%
 
 ---
 
@@ -51,4 +51,4 @@ jour de la semaine en cours commençant le dimanche 23 novembre moins sept jou
 
 jour de la semaine en cours commençant le dimanche 23 novembre moins un jour = samedi 22 novembre
 
-En Europe et dans d’autres pays du monde, la semaine commence le lundi et non le dimanche. Dans ce cas, vous pouvez personnaliser le calendrier afin de modifier la date de début. (Reportez-vous à la section [Calendrier personnalisé](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
+En Europe et dans d’autres pays du monde, la semaine commence le lundi et non le dimanche. Dans ce cas, vous pouvez personnaliser le calendrier afin de modifier la date de début. (Voir [Calendrier personnalisé](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)

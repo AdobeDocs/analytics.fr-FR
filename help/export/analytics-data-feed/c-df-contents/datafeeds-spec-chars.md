@@ -7,7 +7,7 @@ feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '330'
 ht-degree: 90%
 
 ---
@@ -32,7 +32,7 @@ Lorsque ces valeurs réservées sont précédées d’une barre oblique inverse,
 | `\\n` | La valeur « `\n` » a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
 | `\\` | La valeur « `\` » a été envoyée pendant la collecte des données, avec l’échappement d’Adobe. |
 
-Par exemple, un visiteur de votre site utilise la recherche interne et les recherches pour `"search\nstring"`. Vous renseignez l’eVar1 avec `"search\nstring"`et envoyez cette valeur à Adobe. Adobe reçoit cet accès et échappe la nouvelle ligne incluse dans la chaîne. La valeur réelle placée dans les données brutes est `"search\\nstring"`.
+Par exemple, un visiteur de votre site utilise la recherche interne et les recherches de `"search\nstring"`. Vous renseignez l’eVar1 avec `"search\nstring"` et envoyez cette valeur à l’Adobe. Adobe reçoit cet accès et échappe la nouvelle ligne incluse dans la chaîne. La valeur réelle placée dans les données brutes est `"search\\nstring"`.
 
 ## Caractères spéciaux dans des variables à plusieurs valeurs (events_list, products_list, mvvars)
 

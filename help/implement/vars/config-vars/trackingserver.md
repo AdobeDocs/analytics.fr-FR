@@ -19,24 +19,24 @@ Adobe collecte des données sur votre site en recevant une demande d’image gé
 >
 >Si vous modifiez cette valeur, AppMeasurement recherche les cookies à un autre emplacement. Le nombre de visiteurs uniques peut augmenter temporairement la création de rapports lorsque les cookies de visiteurs sont définis au nouvel emplacement.
 
-## Domaine Edge à l’aide de l’extension SDK Web
+## Domaine Edge utilisant l’extension SDK Web
 
-Le SDK Web utilise [!UICONTROL Domaine Edge] pour gérer à la fois le serveur de suivi et le serveur de suivi sécurisé. Vous pouvez définir les [!UICONTROL Domaine Edge] lors de la configuration de l’extension SDK Web.
+Le SDK Web utilise [!UICONTROL domaine Edge] pour gérer à la fois le serveur de suivi et le serveur de suivi sécurisé. Vous pouvez définir la valeur [!UICONTROL Domaine Edge] souhaitée lors de la configuration de l’extension SDK Web.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez au [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** bouton sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Définissez les **[!UICONTROL Domaine Edge]** Champ de texte.
+1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
+1. Définissez le champ de texte **[!UICONTROL Domaine Edge]** souhaité.
 
-Voir [Configuration de l’extension du SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=fr) pour plus d’informations, voir la documentation du SDK Web .
+Pour plus d’informations, voir [Configuration de l’extension du SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=fr) dans la documentation du SDK Web.
 
 >[!TIP]
 >
->Si votre entreprise passe du SDK Web à une mise en oeuvre d’extension AppMeasurement ou Analytics, ce champ peut utiliser la même valeur que celle contenue dans la variable `trackingServerSecure` (ou `trackingServer`).
+>Si votre organisation passe du SDK Web à une mise en oeuvre d’extension AppMeasurement ou Analytics, ce champ peut utiliser la même valeur que celle contenue dans `trackingServerSecure` (ou `trackingServer`).
 
 ## Domaine Edge implémentant manuellement le SDK Web
 
-Configuration du SDK à l’aide de [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr). Le champ est une chaîne qui détermine le domaine auquel envoyer les données.
+Configurez le SDK à l’aide de [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr). Le champ est une chaîne qui détermine le domaine auquel envoyer les données.
 
 ```json
 alloy("configure", {
@@ -59,13 +59,13 @@ Si ce champ n’est pas renseigné, il est défini par défaut sur `[rsid].data.
 
 La variable `s.trackingServer` est une chaîne qui contient l’emplacement d’envoi des données.
 
-## Observations relatives à la détermination de la valeur de `trackingServer`
+## Considérations pour déterminer la valeur de `trackingServer`
 
-Vous pouvez choisir d’utiliser les domaines de serveur de suivi d’Adobe (par exemple, `adobedc.net`) ou vous pouvez passer par un processus spécial pour configurer un serveur de suivi correspondant à votre domaine de sites (par exemple : `data.mydomain.com`), également appelé implémentation CNAME. Disposer d’un serveur de suivi correspondant à votre domaine de site peut présenter des avantages en fonction d’autres aspects de votre mise en oeuvre. Lorsque le serveur de suivi ne correspond pas au domaine de la page active, les cookies définis par AppMeasurement doivent être définis comme tiers. Si le navigateur ne prend pas en charge les cookies tiers, cette incohérence peut interférer avec certaines fonctionnalités d’Analytics :
+Vous pouvez choisir d’utiliser les domaines de serveur de suivi d’Adobe (par exemple `adobedc.net`) ou passer par un processus spécial pour configurer un serveur de suivi qui correspond à votre domaine de sites (par exemple `data.mydomain.com`), également appelé implémentation CNAME. Disposer d’un serveur de suivi correspondant à votre domaine de site peut présenter des avantages en fonction d’autres aspects de votre mise en oeuvre. Lorsque le serveur de suivi ne correspond pas au domaine de la page active, les cookies définis par AppMeasurement doivent être définis comme tiers. Si le navigateur ne prend pas en charge les cookies tiers, cette incohérence peut interférer avec certaines fonctionnalités d’Analytics :
 
-- Définition des identifiants : si vous utilisez Experience Cloud Identity Service, le serveur de suivi n’a aucun impact sur la définition des cookies. Cependant, si vous utilisez des identifiants Analytics hérités (c’est-à-dire la variable `s_vi` ) et que le serveur de collecte ne correspond pas au domaine actuel, les cookies doivent être définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués par le navigateur, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu de la norme `s_vi` du cookie.
+- Définition des identifiants : si vous utilisez Experience Cloud Identity Service, le serveur de suivi n’a aucun impact sur la définition des cookies. Cependant, si vous utilisez des identifiants hérités Analytics (ou le cookie `s_vi`) et que le serveur de collecte ne correspond pas au domaine actuel, les cookies doivent être définis comme tiers. Dans ce cas, si les cookies tiers sont bloqués par le navigateur, Analytics définit un identifiant de secours propriétaire (`s_fid`) au lieu du cookie `s_vi` standard.
 - Le suivi des liens ne fonctionnera pas pour les liens internes.
-- Activity Map ne fonctionnera pas pour les liens internes.
+- L’Activity Map ne fonctionnera pas pour les liens internes.
 - Vérification de cookie.
 
 ### Cookies propriétaires

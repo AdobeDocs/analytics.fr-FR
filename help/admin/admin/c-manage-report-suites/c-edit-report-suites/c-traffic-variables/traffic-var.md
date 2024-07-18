@@ -23,10 +23,10 @@ Vous pouvez ajouter et activer des rapports de variables de trafic. Vous pouvez 
 
 ## Ajout et activation de rapports de variables de trafic
 
-1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
-1. Sélectionner **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
-1. Sélectionner **[!UICONTROL Ajouter]**, puis nommez le rapport.
-1. Dans le [!UICONTROL **Activé**] colonne, sélectionnez [!UICONTROL **Activé**] dans le menu déroulant 1. Sélectionner **[!UICONTROL Enregistrer]**.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
+1. Sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
+1. Sélectionnez **[!UICONTROL Ajouter nouveau]**, puis nommez le rapport.
+1. Dans la colonne [!UICONTROL **Activé**], sélectionnez [!UICONTROL **Activé**] dans le menu déroulant.1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Désactivation des rapports de variables de trafic
 
@@ -34,18 +34,18 @@ Une fois qu’un rapport de variable de trafic est désactivé, il n’apparaît
 
 Pour désactiver un rapport de variable de trafic :
 
-1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
-1. Sélectionner **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
+1. Sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
 1. Sélectionnez le rapport de variable de trafic à désactiver.
-1. Dans le [!UICONTROL **Activé**] colonne, sélectionnez [!UICONTROL **Désactivé**] dans le menu déroulant.
+1. Dans la colonne [!UICONTROL **Activé**], sélectionnez [!UICONTROL **Désactivé**] dans le menu déroulant.
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
 ## Renommer les rapports de variables de trafic
 
-1. Sélectionner **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
-1. Sélectionner **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
+1. Sélectionnez **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
+1. Sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Trafic]** > **[!UICONTROL Variables de trafic]**.
 1. Sélectionnez le rapport de variable de trafic que vous souhaitez renommer.
-1. Dans le [!UICONTROL **Nom**] , indiquez un nouveau nom pour le rapport.
+1. Dans la colonne [!UICONTROL **Nom**] , indiquez un nouveau nom pour le rapport.
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
 Voir aussi [prop](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de la mise en oeuvre.

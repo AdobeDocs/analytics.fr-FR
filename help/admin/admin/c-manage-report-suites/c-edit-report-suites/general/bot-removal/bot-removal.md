@@ -24,7 +24,7 @@ Les méthodes de filtrage de robots standard et personnalisées sont prises en c
 | Règles de robots IAB standard | En sélectionnant l’option **[!UICONTROL Activer les règles de filtrage de robots IAB]**, vous utilisez la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’[IAB](https://www.iab.com/) (Bureau international de la publicité) pour supprimer le trafic de robots. La plupart des clients sélectionnent au moins cette option. |
 | Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
-Pour plus d’informations, voir [Comprendre et configurer des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+Pour plus d’informations, voir [Comprendre et configurer les règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## Utilisez le plug-in [!UICONTROL websiteBot] pour identifier les robots.
 
@@ -72,9 +72,9 @@ N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dim
 Une fois le rapport Data Warehouse généré, vous disposez d’une liste des ECID qui doivent être filtrés à partir des données historiques. Copiez et collez ces ECID dans un fichier .CSV vide avec seulement deux colonnes, ECID et Indicateur de robot.
 
 * **ECID** : assurez-vous que cet en-tête de colonne correspond au nom que vous avez donné au nouvel ID déclaré ci-dessus.
-* **Indicateur de robot**: ajoutez &quot;Indicateur de robot&quot; en tant que dimension de schéma d’attribut du client.
+* **Indicateur de robot** : ajoutez &quot;Indicateur de robot&quot; en tant que dimension de schéma d’attribut du client.
 
-Utilisez ce fichier .CSV comme fichier d’importation d’attributs du client, puis abonnez vos suites de rapports à l’attribut du client comme décrit dans cette section. [article de blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+Utilisez ce fichier .CSV comme fichier d’importation d’attributs du client, puis abonnez vos suites de rapports à l’attribut du client, comme décrit dans cet [article de blog](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Une fois votre jeu de données traité et intégré dans Analysis Workspace, cr�
 
 ### Étape 6 : utilisation de ce segment comme filtre de suite de rapports virtuelle
 
-Enfin, créez un [Suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui utilise ce segment pour filtrer les robots identifiés :
+Enfin, créez une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) qui utilise ce segment pour filtrer les robots identifiés :
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

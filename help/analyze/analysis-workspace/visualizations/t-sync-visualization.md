@@ -50,6 +50,6 @@ Cette nouvelle architecture diffère de la précédente du fait qu’Analysis Wo
 * Vous pouvez ajouter de nombreuses visualisations dont les données sont issues de différentes cellules du même tableau, comme illustré ici. Il s’agit du même tableau que dans l’exemple ci-dessus, mais la cellule source (et la mesure) est différente :
 
   ![](assets/data-source3.png)>
-* Vous pouvez voir si des visualisations sont connectées à un tableau à structure libre ou de cohortes en cliquant sur le point supérieur gauche (paramètres de source de données). Le passage du curseur met en surbrillance la visualisation associée à laquelle vous pourrez accéder d’un simple clic.
+* Vous pouvez voir si des visualisations sont connectées à un tableau à structure libre ou de cohortes en cliquant sur le point supérieur gauche (paramètres du Source de données). Le passage du curseur met en surbrillance la visualisation associée à laquelle vous pourrez accéder d’un simple clic.
 
   ![](assets/linked-visualizations.png)>

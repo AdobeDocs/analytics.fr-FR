@@ -17,34 +17,34 @@ Ce panneau contient plusieurs tableaux et visualisations pour identifier facilem
 
 ## Accès au panneau
 
-Vous pouvez accéder au panneau à partir de la fonction [!UICONTROL Rapports] ou dans [!UICONTROL Workspace].
+Vous pouvez accéder au panneau dans [!UICONTROL Reports] ou dans [!UICONTROL Workspace].
 
 | Point d’accès | Description |
 | --- | --- |
-| [!UICONTROL Rapports] | <ul><li>Le panneau est déjà déposé dans un projet.</li><li>Le rail de gauche est réduit.</li><li>Si vous avez sélectionné [!UICONTROL Page suivante], les paramètres par défaut ont déjà été appliqués, comme [!UICONTROL Page] pour [!UICONTROL Dimension], et la page supérieure comme [!UICONTROL Élément de Dimension], [!UICONTROL Suivant] pour [!UICONTROL Direction] et [!UICONTROL Visite] pour [!UICONTROL Conteneur]. Vous pouvez modifier tous ces paramètres.</li></ul>![Panneau Suivant/Précédent](assets/next-previous.png) |
-| Workspace | Créez un projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites ensuite glisser le [!UICONTROL Élément suivant ou précédent] au-dessus du tableau à structure libre. Notez que la variable [!UICONTROL Dimension] et [!UICONTROL Élément de Dimension] Les champs ne sont pas renseignés. Sélectionnez une dimension dans la liste déroulante. [!UICONTROL Éléments de Dimension] sont renseignées en fonction de la variable [!UICONTROL dimension] vous avez choisi. L’élément de dimension supérieur est ajouté, mais vous pouvez sélectionner un autre élément. Les valeurs par défaut sont Suivant et Visiteur. Vous pouvez également les modifier.<p>![Panneau Suivant/Précédent](assets/next-previous2.png) |
+| [!UICONTROL Rapports] | <ul><li>Le panneau est déjà déposé dans un projet.</li><li>Le rail de gauche est réduit.</li><li>Si vous avez sélectionné [!UICONTROL Page suivante], les paramètres par défaut ont déjà été appliqués, tels que [!UICONTROL Page] pour [!UICONTROL Dimension], et la première page comme [!UICONTROL élément de Dimension], [!UICONTROL Suivant] pour [!UICONTROL Direction] et [!UICONTROL Visite] pour [!UICONTROL Conteneur]}. Vous pouvez modifier tous ces paramètres.</li></ul>![Panneau Suivant/Précédent](assets/next-previous.png) |
+| Workspace | Créez un projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites ensuite glisser le panneau [!UICONTROL Élément suivant ou précédent] au-dessus du tableau à structure libre. Notez que les champs [!UICONTROL Dimension] et [!UICONTROL Dimension Item] sont laissés vides. Sélectionnez une dimension dans la liste déroulante. Les [!UICONTROL éléments de Dimension] sont renseignés en fonction de la [!UICONTROL dimension] que vous avez choisie. L’élément de dimension supérieur est ajouté, mais vous pouvez sélectionner un autre élément. Les valeurs par défaut sont Suivant et Visiteur. Vous pouvez également les modifier.<p>![Panneau Suivant/Précédent](assets/next-previous2.png) |
 
 {style="table-layout:auto"}
 
 ## Entrées de panneau {#Input}
 
-Vous pouvez configurer la variable [!UICONTROL Élément suivant ou précédent] panneau à l’aide des paramètres d’entrée suivants :
+Vous pouvez configurer le panneau [!UICONTROL Elément suivant ou précédent] à l’aide des paramètres d’entrée suivants :
 
 | Paramètre | Description |
 | --- | --- |
 | Zone de dépôt de segment (ou autre composant) | Vous pouvez faire glisser et déposer des segments ou d’autres composants pour filtrer davantage les résultats du panneau. |
 | Dimension | Dimension pour laquelle vous souhaitez explorer les éléments suivants ou précédents. |
-| Élément de Dimension | L’élément spécifique au centre de votre requête suivante/précédente. |
-| Direction | Indiquez si vous recherchez le [!UICONTROL Suivant] ou le [!UICONTROL Précédent] élément de dimension. |
-| Conteneur | [!UICONTROL Visite] ou [!UICONTROL Visiteur] (par défaut) déterminez la portée de votre requête. |
+| Élément de dimension | L’élément spécifique au centre de votre requête suivante/précédente. |
+| Direction | Indiquez si vous recherchez l’élément de dimension [!UICONTROL Suivant] ou [!UICONTROL Précédent] . |
+| Conteneur | [!UICONTROL Visite] ou [!UICONTROL Visiteur] (par défaut) déterminent la portée de votre enquête. |
 
 {style="table-layout:auto"}
 
-Cliquez sur **[!UICONTROL Build]** pour créer le panneau.
+Cliquez sur **[!UICONTROL Créer]** pour créer le panneau.
 
 ## Sortie de panneau {#output}
 
-La variable [!UICONTROL Élément suivant ou précédent] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
+Le panneau [!UICONTROL Elément suivant ou précédent] renvoie un vaste ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
 
 ![Sortie de panneau suivante/précédente](assets/next-previous-output.png)
 

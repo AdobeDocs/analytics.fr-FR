@@ -1,6 +1,6 @@
 ---
 description: En savoir plus sur les dossiers dans Workspace
-keywords: Analysis Workspace
+keywords: Analysis Workspace
 title: Présentation des dossiers
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
@@ -50,7 +50,7 @@ Les utilisateurs non administrateurs disposent d’options limitées.
 
 - Les administrateurs peuvent créer des sous-dossiers dans le dossier Société.
 
-- Les administrateurs peuvent supprimer un dossier dans le dossier Société créé par un autre administrateur. Les administrateurs peuvent être amenés à se coordonner avec d’autres administrateurs pour assurer la cohérence de l’accès aux dossiers et projets.
+- Les administrateurs et administratrices peuvent supprimer un dossier créé par une autre personne dans le dossier d’entreprise. Les administrateurs peuvent être amenés à se coordonner avec d’autres administrateurs pour assurer la cohérence de l’accès aux dossiers et projets.
 
 - Lorsqu’un administrateur déplace un projet vers le dossier Société, le projet est partagé avec tous les utilisateurs, même si les privilèges partagés d’origine étaient limités.
 

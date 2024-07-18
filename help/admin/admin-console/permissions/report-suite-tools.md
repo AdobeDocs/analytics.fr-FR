@@ -28,7 +28,7 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Calendrier personnalisé] | Accorde l’accès à Général > Personnaliser le calendrier dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Rapport personnalisé de Data Warehouse] | Accorde l’accès à Outils > Data Warehouse dans la barre de navigation supérieure d’Analytics. |
 | [!UICONTROL Visites retours quotidiennes] | Accorde l’accès à Rétention des visiteurs > Visites retours quotidiennes dans les Reports &amp; Analytics. |
-| [!UICONTROL Gestionnaire des flux de données] | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
+| [!UICONTROL Gestionnaire de flux de données] | Accorde l’accès à Admin > Flux de données dans la barre de navigation supérieure d’Analytics. |
 | [!UICONTROL Gestionnaire des sources de données] | Accorde l’accès à Admin > Tous les administrateurs > Sources de données dans la barre de navigation supérieure d’Analytics. Nécessite l’élément d’autorisation « Gestion des suites de rapports ». |
 | [!UICONTROL API de réparation des données] | Accorde l’accès à l’API Data Repair |
 | [!UICONTROL Mesures par défaut] | Accorde l’accès à Paramètres d’une suite de rapports spécifique > Mesures par défaut dans le Gestionnaire de suites de rapports. |
@@ -40,12 +40,12 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Règles de traitement] | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
 | [!UICONTROL Administrateurs d’Activity Manager pour la création de rapports] | Inutilisé. |
-| [!UICONTROL Accès à Activity Manager dans les rapports] | Inutilisé. |
+| [!UICONTROL  {Accès à Activity Manager dans les rapports] | Inutilisé. |
 | [!UICONTROL Gestion des suites de rapports] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
-| [!UICONTROL Petit rapport Image de tableau de bord R&amp;A] | Inutilisé. |
-| [!UICONTROL Petit rapport Évaluation des mesures du tableau de bord R&amp;A] | Inutilisé. |
+| [!UICONTROL Mini-rapport Image de tableau de bord R&amp;A] | Inutilisé. |
+| [!UICONTROL Petit rapport de jauge des mesures du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport récapitulatif de la suite de rapports de tableau de bord R&amp;A] | Inutilisé. |
-| [!UICONTROL Petit rapport Texte de tableau de bord R&amp;A] | Inutilisé. |
+| [!UICONTROL Petit rapport de texte de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport récapitulatif de la suite de rapports de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport externe de tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Événements de succès] | Accorde l’accès à Conversion > Événement de succès dans le Gestionnaire de suites de rapports. |

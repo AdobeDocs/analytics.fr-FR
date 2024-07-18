@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Lien personnalisé
 
-&quot;Lien personnalisé&quot; [dimension](overview.md) indique le nom des liens personnalisés implémentés sur votre site. Cette dimension est utile pour déterminer les types de liens les plus utilisés par les visiteurs.
+Le [lien personnalisé](overview.md) indique le nom des liens personnalisés implémentés sur votre site. Cette dimension est utile pour déterminer les types de liens les plus utilisés par les visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

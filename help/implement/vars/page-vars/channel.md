@@ -19,8 +19,8 @@ La variable `channel` stocke généralement la section du site sur laquelle se t
 
 Le canal est mappé aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md): `web.webPageDetails.siteSection`
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md): `data.__adobe.analytics.channel` ou `data.__adobe.analytics.ch`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `web.webPageDetails.siteSection`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.channel` ou `data.__adobe.analytics.ch`
 
 ## Canal utilisant l’extension Adobe Analytics
 
@@ -30,7 +30,7 @@ Vous pouvez définir le canal soit lors de la configuration de l’extension Ana
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la variable [!UICONTROL Extension] de la liste déroulante vers Adobe Analytics, et de la variable [!UICONTROL Type d’action] to [!UICONTROL Définition de variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Canal].
 
 Vous pouvez définir le canal sur n’importe quelle valeur de chaîne ou élément de données.

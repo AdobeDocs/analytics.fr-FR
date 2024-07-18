@@ -7,7 +7,7 @@ exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
 source-wordcount: '1582'
-ht-degree: 51%
+ht-degree: 54%
 
 ---
 
@@ -33,7 +33,7 @@ Voici les types de panneau disponibles dans Analysis Workspace :
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Aperçu rapide], [!UICONTROL Vide] et [!UICONTROL Structure libre] Les panneaux constituent un excellent point de départ pour votre analyse. [!UICONTROL Analytics pour Target], [!UICONTROL Attribution], [!UICONTROL Visionneuses simultanées de médias] et [!UICONTROL Comparaison de segments] se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
+Les panneaux [!UICONTROL Quick Insights], [!UICONTROL Blank] et [!UICONTROL Freeform] sont idéaux pour commencer votre analyse, tandis que les panneaux [!UICONTROL Analytics for Target], [!UICONTROL Attribution], [!UICONTROL Media Concurrent Viewers] et [!UICONTROL Comparaison de segments] se prêtent à des analyses plus avancées. Un bouton `"+"` est disponible dans les projets afin que vous puissiez ajouter des panneaux vierges à tout moment.
 
 Le panneau de démarrage par défaut est le panneau [!UICONTROL à structure libre], mais vous pouvez également choisir d’utiliser le [panneau vierge](/help/analyze/analysis-workspace/c-panels/blank-panel.md) par défaut.
 
@@ -84,24 +84,24 @@ Les segments de liste déroulante statiques peuvent également être utilisés p
 
 #### Création de segments de liste déroulante statiques
 
-* Pour les segments de liste déroulante utilisant des éléments de dimension, sélectionnez une seule dimension dans le rail de gauche et déposez-la dans la zone de dépôt du panneau. **pendant la conservation`[Shift]`**. Cela crée un segment déroulant avec tous les éléments de dimension associés à cette dimension.
+* Pour les segments de liste déroulante utilisant des éléments de dimension, sélectionnez une seule dimension dans le rail de gauche et déposez-la dans la zone de dépôt du panneau **tout en maintenant`[Shift]`**. Cela crée un segment déroulant avec tous les éléments de dimension associés à cette dimension.
 
-  Ou, si vous souhaitez que le segment déroulant n’inclut que des éléments de dimension spécifiques associés à une dimension, cliquez sur l’icône de flèche vers la droite en regard de la dimension souhaitée dans le rail de gauche. Cette action affiche tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension de cette liste à l’aide de la case `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation** `[Shift]`.
+  Ou, si vous souhaitez que le segment déroulant n’inclut que des éléments de dimension spécifiques associés à une dimension, cliquez sur l’icône de flèche vers la droite en regard de la dimension souhaitée dans le rail de gauche. Cette action affiche tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension de cette liste à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`, puis faites-les glisser dans la zone de dépôt du panneau **tout en maintenant la touche** `[Shift]` enfoncée.
 
-* Pour les segments de liste déroulante utilisant un seul type de composant (par exemple, seules les dimensions, ou seuls les segments, ou uniquement les mesures), sélectionnez plusieurs éléments du même type dans le rail de gauche à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **pendant la conservation`[Shift]`**.
+* Pour les segments de liste déroulante utilisant un seul type de composant (par exemple, seules les dimensions, ou uniquement les segments, ou uniquement les mesures), sélectionnez plusieurs éléments du même type dans le rail de gauche à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`, puis déposez-les dans la zone de dépôt du panneau **tout en maintenant`[Shift]`**.
 
   Un segment déroulant unique est créé avec les composants que vous avez sélectionnés.
 
 * Pour les segments de liste déroulante utilisant un mélange de types de composants (par exemple, 2 mesures et 3 filtres), sélectionnez plusieurs composants à l’aide de `[Shift + Click]` ou `[Ctrl + Click]`. Déposez la sélection dans la zone de dépôt du panneau **tout en maintenant la touche`[Shift]`** enfoncée. Dans ce contexte, tous les types de composants sont traités comme des segments déroulants distincts. Par exemple, si vous incluez à la fois des mesures et des éléments de dimension dans votre sélection, deux segments de liste déroulante distincts sont créés : un segment de liste déroulante inclut des éléments de dimension et l’autre inclut des mesures.
 
-  ![Fenêtre Panneau avec le champ Segment de client mobile disponible pour déposer un segment déroulant statique. ](assets/create-dropdown.png)
+  ![Fenêtre de panneau avec le champ Segment de client mobile disponible pour déposer un segment déroulant statique. ](assets/create-dropdown.png)
 
 Le fait de cliquer avec le bouton droit de la souris sur un segment déroulant offre les options suivantes :
 
-* **[!UICONTROL Menu déroulant Supprimer]**: supprime le segment déroulant du panneau.
-* **[!UICONTROL Supprimer le libellé]**: supprimez le texte au-dessus d’un segment déroulant. Pour modifier le libellé, sélectionnez l&#39;icône représentant un crayon.
-* **[!UICONTROL Ajouter une étiquette]**: lorsque vous ajoutez un segment déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
-* **[!UICONTROL Sélection requise]**: nécessite qu’un segment soit défini sur le panneau.
+* **[!UICONTROL Menu déroulant Supprimer]** : supprime le segment déroulant du panneau.
+* **[!UICONTROL Supprimer l’étiquette]** : supprimez le texte au-dessus d’un segment déroulant. Pour modifier le libellé, sélectionnez l’icône en forme de crayon.
+* **[!UICONTROL Ajouter une étiquette]** : lorsque vous ajoutez un segment déroulant à un projet, une étiquette est automatiquement définie sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
+* **[!UICONTROL Require selection]** : nécessite qu’un segment soit défini dans le panneau.
 
 [Regardez la vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=fr) pour en savoir plus sur l’ajout de filtres de menu déroulant à votre projet.
 
@@ -115,21 +115,21 @@ Pour filtrer le panneau, utilisez le menu de segments déroulants de l’une des
 
   Pour supprimer un segment de la liste, sélectionnez-le à nouveau dans le menu déroulant.
 
-  ![Sélection de plusieurs segments](assets/dropdown-filter-multiselect.png)
+  ![Sélectionner plusieurs segments](assets/dropdown-filter-multiselect.png)
 
 ### Segments de liste déroulante dynamiques
 
-Les segments de liste déroulante dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres segments de liste déroulante. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la variable [Pays](/help/components/dimensions/countries.md) dimension et [Villes](/help/components/dimensions/cities.md) dimension. Lorsque vous sélectionnez un pays dans le [!UICONTROL Pays] liste déroulante, la variable [!UICONTROL Villes] La liste déroulante s’ajuste dynamiquement pour afficher uniquement les villes de ce pays.
+Les segments de liste déroulante dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et les valeurs d’autres segments de liste déroulante. Par exemple, vous pouvez créer deux listes déroulantes dynamiques à l’aide de la dimension [Pays](/help/components/dimensions/countries.md) et de la dimension [Villes](/help/components/dimensions/cities.md). Lorsque vous sélectionnez un pays dans la liste déroulante [!UICONTROL Pays] , la liste déroulante [!UICONTROL Villes] s’adapte dynamiquement afin de n’afficher que les villes de ce pays.
 
 Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les segments sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les segments déroulants statiques affectent les valeurs disponibles dans les segments déroulants dynamiques. Cependant, l’inverse n’est pas vrai ; les éléments de Dimension sélectionnés dans les segments de liste déroulante dynamiques n’affectent pas les valeurs disponibles dans les segments de liste déroulante statiques.
 
-La sélection manuelle d’éléments de dimension est possible si vous prévoyez qu’un élément de dimension donné sera collecté ultérieurement. Vous pouvez également effacer un segment de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres segments de liste déroulante dynamique de contenir plus de valeurs. Sélectionner **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les segments déroulants de ce panneau.
+La sélection manuelle d’éléments de dimension est possible si vous prévoyez qu’un élément de dimension donné sera collecté ultérieurement. Vous pouvez également effacer un segment de liste déroulante dynamique afin qu’il ne contienne aucune valeur, ce qui permet à d’autres segments de liste déroulante dynamique de contenir plus de valeurs. Sélectionnez **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les segments de liste déroulante pour ce panneau.
 
 Pour créer un segment de liste déroulante dynamique :
 
 * Faites glisser et déposez une seule dimension dans la zone de dépôt du panneau **tout en maintenant la touche`[Shift]`** enfoncée.
 * Les segments de liste déroulante dynamiques ne sont pas disponibles pour les mesures, les segments ou les périodes.
-* Cliquez avec le bouton droit de la souris sur un segment déroulant et sélectionnez **[!UICONTROL Menu déroulant Supprimer]** pour le supprimer.
+* Cliquez avec le bouton droit de la souris sur un segment déroulant et sélectionnez **[!UICONTROL Supprimer la liste déroulante]** pour le supprimer.
 
 Un clic droit sur un filtre déroulant dynamique permet d’obtenir les mêmes options que les filtres déroulants statiques.
 

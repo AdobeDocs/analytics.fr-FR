@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Fichiers journaux permettant de savoir quand se connectent les utilisateurs, leur utilisation, l’accès, les suites de rapports et les changements administratifs.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Journaux]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Journaux]**
 
 ## Journal d’administration {#section_8ADE8A7204A8401C968ABC20AECA381D}
 

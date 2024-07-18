@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Langue
 
-La &quot;langue&quot; [dimension](overview.md) affiche les principales langues dans lesquelles les visiteurs préfèrent voir le contenu. Cette dimension est utile lorsque vous souhaitez comprendre les langues préférées les plus fréquentes chez les visiteurs dans le cadre de vos efforts de localisation.
+La [dimension](overview.md) &quot;Langue&quot; indique les principales langues dans lesquelles les visiteurs préfèrent voir le contenu. Cette dimension est utile lorsque vous souhaitez comprendre les langues préférées les plus fréquentes chez les visiteurs dans le cadre de vos efforts de localisation.
 
 >[!NOTE]
 >

@@ -65,7 +65,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>6</td> 
 <td><b>Validez et publiez en production</b>. Incorporez le code pour inclure votre propriété de balise aux pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validation d’une mise en oeuvre de développement et publication en production</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Valider une mise en oeuvre de développement et publier en production</a></td>
 </tr>
 
 </table>

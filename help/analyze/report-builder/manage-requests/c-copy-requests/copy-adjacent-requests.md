@@ -8,7 +8,7 @@ exl-id: 99476ec5-f1f0-49f5-a2d8-354cec63c6b1
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '269'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -20,8 +20,8 @@ Lorsque vous coupez une requête, elle est supprimée de son emplacement d’ori
 
 >[!NOTE]
 >
->Le Créateur de rapports ne prend pas en charge la fonction Annuler d’Excel lorsque vous coupez ou collez des requêtes.
+>Le Créateur de rapports ne prend pas en charge la commande Annuler d’Excel lorsque vous coupez ou collez des requêtes.
 
 Vous n’êtes pas limité à la copie et au collage dans la même feuille du classeur. Vous pouvez copier une requête dans une feuille et la coller dans une autre feuille du même classeur.
 
-Vous ne vous limitez pas à copier et coller une requête à la fois. Vous pouvez sélectionner plusieurs requêtes dans la feuille de calcul, puis les coller dans une région vide de la feuille de calcul. De même que lorsque vous copiez et collez une seule requête, veillez à ce que la région de collage ne contienne aucune cellule avec des requêtes, afin de ne pas remplacer ces dernières. Si le système détecte que la région de collage cible contient déjà une ou plusieurs requêtes, Report Builder n’affiche pas la variable [!UICONTROL Coller les requêtes] pour toutes les requêtes copiées ou coupées. Vous devez sélectionner une autre cellule comme destination de l’opération de collage, de sorte que les requêtes ne se chevauchent pas.
+Vous ne vous limitez pas à copier et coller une requête à la fois. Vous pouvez sélectionner plusieurs requêtes dans la feuille de calcul, puis les coller dans une région vide de la feuille de calcul. De même que lorsque vous copiez et collez une seule requête, veillez à ce que la région de collage ne contienne aucune cellule avec des requêtes, afin de ne pas remplacer ces dernières. Si le système détecte que la région de collage cible contient déjà une ou plusieurs requêtes, Report Builder n’affiche pas le menu [!UICONTROL Coller les requêtes] pour les requêtes copiées ou coupées. Vous devez sélectionner une autre cellule comme destination de l’opération de collage, de sorte que les requêtes ne se chevauchent pas.

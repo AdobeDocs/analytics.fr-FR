@@ -24,16 +24,16 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 Deux modes de suivi sont pris en charge : [!UICONTROL Auto] et [!UICONTROL Manuel].
 
-## [!UICONTROL Auto] Tracking {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL Suivi automatique] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL Auto] tracking permet au moteur Advertising Cloud de décider comment gérer les données du moteur de recherche. Le suivi automatique est l’approche la plus simple, mais il se peut qu’elle ne produise pas le meilleur jeu de données intégré.
+Le suivi [!UICONTROL automatique] permet au moteur Advertising Cloud de décider comment gérer les données du moteur de recherche. Le suivi automatique est l’approche la plus simple, mais il se peut qu’elle ne produise pas le meilleur jeu de données intégré.
 
-Par conséquent, vous devez cocher une case de confirmation lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre du compte.
+Par conséquent, vous devez cocher une case d’accusé de réception lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre de compte.
 
-Pour configurer un compte de moteur de recherche avec **[!UICONTROL Auto]** , vous êtes responsable des actions suivantes :
+Notez que pour configurer un compte de moteur de recherche de type **[!UICONTROL Auto]** , vous devez prendre les mesures suivantes :
 
-* La variable `s_kwcid` Les paramètres et valeurs sont ajoutés aux modèles de suivi de compte ou aux URL de page d’entrée dans le compte ajouté. Ce paramètre et cette valeur sont insérés à la fin de l’URL. Une action supplémentaire peut être requise de votre part si votre serveur web requiert une certaine `key=value` à la fin de l’URL. Ou une mise à jour pour prendre en charge toute nouvelle `key=value` dans l’URL. Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.
-* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Par exemple, un caractère spécial commun est `+`, qui est utilisé dans les mots-clés &quot;En correspondance large modifiée&quot;.
+* Le paramètre et la valeur `s_kwcid` sont ajoutés aux modèles de suivi de compte ou aux URL de page d’entrée dans le compte ajouté. Ce paramètre et cette valeur sont insérés à la fin de l’URL. Une action supplémentaire peut être requise de votre part si votre serveur web nécessite une certaine paire `key=value` à la fin de l’URL. Ou une mise à jour pour prendre en charge toute nouvelle paire `key=value` dans l’URL. Il vous appartient de vous assurer que les paramètres d’URL ajoutés demeurent correctement à la dernière page d’entrée.
+* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Par exemple, `+` est un caractère spécial courant utilisé dans les mots-clés &quot;En correspondance large modifiée&quot;.
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ La chaîne qui doit être ajoutée au compte Google est affichée ci-dessous. Vo
 
 >[!IMPORTANT]
 >
->La valeur *`<Advertising Analytics ID>`* (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’ID de compte spécifique à partir de l’écran du compte sous la balise [!UICONTROL Tracking] .
+>La valeur *`<Advertising Analytics ID>`* (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’ID de compte spécifique à partir de l’écran du compte sous la section [!UICONTROL Tracking] .
 
 **Chaîne de suivi pour les campagnes :**
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2], cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez **[!UICONTROL Filtrer]**.
 
-   ![Capture d’écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
+   ![Capture d&#39;écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
 
 1. Activez l’option [!UICONTROL Le plus populaire] dans le formulaire **[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
 
@@ -43,15 +43,15 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 1. Dans le formulaire [!UICONTROL Définir un filtre], configurez les conditions adaptées à vos besoins.
 
 
-   ![Capture d’écran montrant la boîte de dialogue Définir un filtre .](assets/expressions_define_filter.png)
+   ![Capture d&#39;écran montrant la boîte de dialogue Définir un filtre.](assets/expressions_define_filter.png)
 
-   L’icône de cellule de sélection permet de localiser une condition définie dans la valeur d’une cellule. ![Icône de sélection de cellule.](assets/select_cell_icon.png)
+   L’icône de cellule de sélection permet de localiser une condition définie dans la valeur d’une cellule. ![Icône de cellule de sélection.](assets/select_cell_icon.png)
 
-   La variable **Ajouter une condition** lien permet d&#39;ajouter une condition à l&#39;expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
+   Le lien **Ajouter une condition** permet d’ajouter une condition à l’expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-   ![Capture d’écran de la boîte de dialogue Définir un filtre avec le bouton OK en bas à droite.](assets/choose_page_02.png)
+   ![Capture d&#39;écran de la boîte de dialogue Définir un filtre avec le bouton OK en bas à droite.](assets/choose_page_02.png)
 
 1. Dans le formulaire [!UICONTROL Sélectionner les pages], cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.

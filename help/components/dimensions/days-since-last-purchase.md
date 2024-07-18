@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Jours depuis le dernier achat
 
-&quot;Jours depuis le dernier achat&quot; [dimension](overview.md) mesure le temps écoulé entre l’accès actif du visiteur et son dernier achat à ce moment-là. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir effectué un achat sur votre site.
+La [dimension](overview.md) &quot;Jours depuis le dernier achat&quot; mesure le temps écoulé entre l’accès actif du visiteur et son dernier achat à ce moment-là. Cette dimension vous aide à comprendre le comportement des visiteurs après avoir effectué un achat sur votre site.
 
 Les visiteurs qui n’ont jamais effectué d’achat ne sont pas inclus dans cette dimension. De plus, les accès déclenchés avant le premier achat d’un visiteur ne sont pas inclus non plus. Seuls les accès après le premier achat d’un visiteur sont inclus.
 

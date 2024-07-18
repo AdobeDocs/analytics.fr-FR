@@ -30,8 +30,8 @@ Les [éléments de données](https://experienceleague.adobe.com/docs/experience-
    ![Création d’un élément de données](assets/createelement.png)
 
 1. Entrez un nom pour votre élément de données. Il peut s’agir d’un libellé simple qui correspond à une variable JavaScript dans la couche de données dont vous souhaitez effectuer le suivi.
-1. Sous , **[!UICONTROL Extension]** liste déroulante, sélectionnez **[!UICONTROL Core]**.
-1. Sous , **[!UICONTROL Type d’élément de données]** liste déroulante, sélectionnez **[!UICONTROL Variable JavaScript]**. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à faire correspondre à cet élément de données.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Core]**.
+1. Dans la liste déroulante **[!UICONTROL Type d’élément de données]**, sélectionnez **[!UICONTROL Variable JavaScript]**. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à faire correspondre à cet élément de données.
 1. Entrez la variable JavaScript souhaitée, généralement dans la couche de données. Par exemple, si la couche de données de votre entreprise correspond étroitement à la pratique recommandée par Adobe, une valeur `digitalData.page.pageInfo.pageName` peut être indiquée. Vous pouvez utiliser la console de votre navigateur pour valider la syntaxe et les valeurs des variables JavaScript.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 59%
+source-wordcount: '195'
+ht-degree: 58%
 
 ---
 
 # Navigateur
 
-Le &quot;[!UICONTROL Navigateur]&#39; [dimension](overview.md) indique le nom et la version du navigateur qui envoie l’accès. Cette dimension est utile lorsque vous souhaitez mesurer les navigateurs les plus courants des visiteurs. Lors du test de nouvelles versions du site, vous pouvez exécuter ces tests sur les principaux navigateurs de cette dimension afin d’optimiser les tâches de contrôle de la qualité.
+L’[!UICONTROL Navigateur]’ [dimension](overview.md) indique le nom et la version du navigateur qui envoie l’accès. Cette dimension est utile lorsque vous souhaitez mesurer les navigateurs les plus courants des visiteurs. Lors du test de nouvelles versions du site, vous pouvez exécuter ces tests sur les principaux navigateurs de cette dimension afin d’optimiser les tâches de contrôle de la qualité.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Adobe de partenaires avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et le navigateur.
+Cette dimension fait référence à une table de recherche interne à Adobe. La valeur de recherche est basée sur l’en-tête HTTP `User-Agent` dans les demandes d’image. Adobe travaille en partenariat avec [DeviceAtlas](https://deviceatlas.com/) pour gérer les recherches entre l’agent utilisateur et le navigateur.
 
 * Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
-* Pour les implémentations du SDK Web, activez [!UICONTROL Recherche de périphérique] when [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
+* Pour les implémentations de SDK Web, activez [!UICONTROL Recherche de périphérique] lors de la [ configuration d’une chaîne de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 

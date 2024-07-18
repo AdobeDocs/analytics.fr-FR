@@ -22,7 +22,7 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 
    >[!NOTE]
    >
-   >Si cet élément de menu ne s’affiche pas, vous devez être ajouté à une [profil de produit dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) avec les autorisations d’accès à cette fonctionnalité ou l’accès à une suite de rapports dans le Admin Console.
+   >Si cet élément de menu ne s’affiche pas, vous devez être ajouté à un [profil de produit dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) avec des autorisations d’accès à cette fonctionnalité ou avoir accès à une suite de rapports dans l’Admin Console.
 
 3. Dans la partie supérieure droite, sélectionnez les suites de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
 

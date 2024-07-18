@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Catégorie
 
-La &quot;catégorie&quot; [dimension](overview.md) rapporte la catégorie de produits de l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures de catégorie de produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
+La &quot;catégorie&quot; [dimension](overview.md) indique la catégorie de produits de l’accès. Elle est utile pour les implémentations qui utilisent la variable `products` et cherchent à obtenir des mesures de catégorie de produits, comme les articles les plus vendus ou les plus consultés. Il est possible que cette dimension reste délibérément vide si votre site ne contient aucun produit.
 
 ## Renseignement de cette dimension avec des données
 

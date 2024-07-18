@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->Cette dimension a été abandonnée et n’est pas disponible [dimension](overview.md) dans Analysis Workspace. Adobe recommande d’utiliser plutôt des [eVars](evar.md) et des classifications.
+>Cette dimension a été abandonnée et n’est pas une [dimension](overview.md) disponible dans Analysis Workspace. Adobe recommande d’utiliser plutôt des [eVars](evar.md) et des classifications.
 
 Les hiérarchies sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à cinq hiérarchies.
 

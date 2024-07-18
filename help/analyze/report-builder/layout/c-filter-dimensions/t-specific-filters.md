@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,13 +22,13 @@ Vous pouvez effectuer une recherche sur des éléments de dimension spécifiques
 
 1. Créez ou modifiez une requête, puis passez au formulaire [!UICONTROL Assistant Requête : Étape 2].
 
-   ![Capture d’écran présentant le filtre par options : Application, Utilisateur et Projet.](/help/admin/admin/assets/filter.png)
+   ![Capture d&#39;écran montrant le filtre par options : Application, Utilisateur et projet.](/help/admin/admin/assets/filter.png)
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2], cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez **[!UICONTROL Filtrer]**.
 
-1. Activer **[!UICONTROL Spécifique]**.
+1. Activez **[!UICONTROL Specific]**.
 
-   ![Capture d’écran de la boîte de dialogue Choisir la page avec l’option Spécifique sélectionnée.](assets/choose_page_specific01.png)
+   ![Capture d&#39;écran de la boîte de dialogue Choisir la page avec l&#39;option Spécifique sélectionnée.](assets/choose_page_specific01.png)
 
 1. Activez l’une des options spécifiques suivantes :
 

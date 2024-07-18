@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Profondeur d’accès
 
-&quot;Détail des accès&quot; [dimension](overview.md) indique le niveau d’une visite pour un accès donné. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès compte tous les types d’accès, y compris les vues de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La [dimension](overview.md) &quot;Profondeur d’accès&quot; indique le niveau d’un accès donné lors d’une visite. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès compte tous les types d’accès, y compris les vues de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Renseignement de cette dimension avec des données
 

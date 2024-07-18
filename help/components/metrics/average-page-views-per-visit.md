@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 91%
+source-wordcount: '215'
+ht-degree: 92%
 
 ---
 
 # Moyenne de pages vues par visite
 
-La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Ceci [metric](overview.md) s’avère utile lorsque vous souhaitez comprendre la fréquence d’affichage des éléments de dimension lors d’une visite.
+La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Cette [mesure](overview.md) s’avère utile pour comprendre la fréquence d’affichage des éléments de dimension lors d’une visite.
 
 >[!TIP]
 >

@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: ht
-source-wordcount: '751'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '755'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir be
 Pour vous assurer que les utilisateurs en charge de lʼexécution ont accès à vos cartes de performance dans lʼapplication, vérifiez les éléments suivants :
 
 * Les spécifications minimales en matière de systèmes d’exploitation mobile sur leurs appareils sont la version 10 ou ultérieure d’iOS ou la version 4.4 (KitKat) ou ultérieure d’Android.
-* Ils possèdent des identifiants de connexion valides à Adobe Analytics.
+* Ils disposent d’une connexion valide à Adobe Analytics.
 * Vous avez créé et partagé correctement des cartes de performance mobiles avec eux.
 * Ils ont accès aux composants inclus dans la carte de performance. Notez que lorsque vous partagez vos cartes de performance, vous pouvez sélectionnez lʼoption **[!UICONTROL Partager les composants incorporés]**.
 
@@ -83,9 +83,9 @@ Informations supplémentaires sur les mosaïques :
    * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
 
 
-1. Appuyez sur une mosaïque pour afficher comment fonctionne une ventilation détaillée sur la mosaïque.
+1. Appuyez sur une mosaïque pour afficher comment fonctionne une répartition détaillée sur la mosaïque.
 
-   ![Vue Ventilation](assets/sparkline.png)
+   ![Vue Répartition](assets/sparkline.png)
 
    * Appuyez sur n’importe quel point d’un graphique sparkline pour afficher les données associées à ce point sur la ligne.
 

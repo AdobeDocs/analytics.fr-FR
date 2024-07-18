@@ -31,7 +31,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 >
 > Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
 
-Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes ses fonctionnalités. Si vous utilisez [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indices à forte entropie.
+Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes ses fonctionnalités. Si vous utilisez le [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez activer la collecte de conseils à forte entropie.
 
 ## Questions fréquentes
 
@@ -145,7 +145,7 @@ Consultez la documentation pour les inclure via l’[API Bulk Data Insertion]
 
 +++
 
-+++**Des conseils client seront-ils disponibles dans les données envoyées à Adobe Experience Platform et à Customer Journey Analytics via Adobe Source Connector ?**
++++**Des conseils sur les clients seront-ils disponibles dans les données envoyées à Adobe Experience Platform et à Customer Journey Analytics via le connecteur Source Adobe ?**
 
 Adobe prévoit d’inclure des indications du client dans les données par l’intermédiaire du connecteur source d’Adobe au cours du premier semestre 2023.
 
@@ -157,8 +157,8 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++
 
-+++**Le transfert côté serveur Adobe Audience Manager prend-il en charge les conseils des clients ?**
++++**Le transfert côté serveur Adobe Audience Manager va-t-il prendre en charge les conseils du client ?**
 
-Oui. Les indices client seront inclus dans les données transférées vers Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indices à forte entropie.
+Oui. Les indices client seront inclus dans les données transférées vers Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indices à forte entropie pour préserver toutes les fonctionnalités. Si vous utilisez le [transfert côté serveur vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr), vous pouvez activer la collecte de conseils à forte entropie.
 
 +++

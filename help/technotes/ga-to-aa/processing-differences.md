@@ -5,7 +5,7 @@ feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Bien qu’Adobe Analytics et Google Analytics soient deux outils d’analyse, la
 
 ## [!UICONTROL Taux de rebond]
 
-Le [!UICONTROL taux de rebond] est un IPC courant qui permet de mesurer l’efficacité et la pertinence des pages d’entrée dans la plupart des outils d’analyse. Il est généralement défini comme étant le nombre de visiteurs qui accèdent au site web et le quittent sans cliquer sur une autre page.
+Le [!UICONTROL taux de rebond] est un IPC courant qui permet de mesurer l’efficacité et la pertinence des pages de destination dans la plupart des outils d’analyse. Il est généralement défini comme étant le nombre de visiteurs qui accèdent au site web et le quittent sans cliquer sur une autre page.
 
 * Dans Adobe Analytics, le [!UICONTROL taux de rebond] est calculé à lʼaide de la formule : **rebonds divisés par les entrées**.
 * Dans Google Analytics, le [!UICONTROL taux de rebond] est calculé à lʼaide de la formule : **nombre de sessions avec consultation dʼune seule page divisé par lʼensemble des sessions**.

@@ -7,7 +7,7 @@ feature: Anomaly Detection
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Dans un projet, vous pouvez invoquer l’analyse des contributions de deux faço
 1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#exclude).
 
 1. Patientez pendant le chargement de l’analyse des contributions. Selon la taille de la suite de rapports et le nombre de dimensions, cette opération peut être longue. L’analyse des contributions traite les 50 000 premiers éléments par dimension.
-1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet.
+1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet.
 
    * Visualisation qui présente le nombre de **Visites** ce jour-là.
    * **Ligne de tendance des visites** mensuelle en fonction du contexte.

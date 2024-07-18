@@ -46,7 +46,7 @@ Le Générateur d’alertes peut être consulté de trois façons :
 
 ## FAQ : Calcul et déclenchement des alertes {#trigger}
 
-Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisées pour calculer à quel point chaque donnée s’éloigne de la norme (le nombre d’écarts types). Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
+Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer l’écart (le nombre d’écarts types) entre chaque point de données et la norme. Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
 
 +++ Jusqu’où remonte la détection des anomalies de l’alerte pour déterminer les anomalies de données ?
 
@@ -73,7 +73,7 @@ Actuellement, non.
 
 +++ Puis-je obtenir un tableau des &quot;valeurs attendues&quot; incluant la ligne pointillée, ou un résultat quelconque indiquant ce que sont ces valeurs ?
 
-Pas dans Workspace, mais vous pouvez en Report Builder. Voir [cette vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=fr) sur la détection des anomalies dans le Report Builder.
+Pas dans Workspace, mais vous pouvez en Report Builder. Voir [cette vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=fr) sur la détection des anomalies dans Report Builder.
 
 Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Le Report Builder utilise une période de formation fixe de 30 jours, avec un intervalle fixe de 95 %.
 

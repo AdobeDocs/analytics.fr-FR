@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Une requête dépendante est une requête qui dépend d’une requête existante.
 
-Pour les rapports pour lesquels des ventilations à corrélations sont activées dans le tableau de rapport, pour examiner de plus près un élément, cliquez avec le bouton droit dans la cellule, puis cliquez sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Ventilation]**.
+Pour les rapports pour lesquels des ventilations de corrélation sont activées dans le tableau de rapport, pour examiner de plus près un élément, cliquez avec le bouton droit dans la cellule, puis cliquez sur **[!UICONTROL Ajouter une requête dépendante]** > **[!UICONTROL Ventilation]**.
 
 >[!NOTE]
 >

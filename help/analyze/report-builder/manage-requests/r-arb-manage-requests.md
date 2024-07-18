@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ Affichez les détails de l’état d’une requête et utilisez les descriptions
 
 ## Vue d’ensemble {#section_75C288C945FA4781A4EDF806711A5660}
 
-La variable [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée de l’état de toutes les requêtes générées pour toutes les feuilles ou pour une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à la fonction [!UICONTROL Assistant Requête] et [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit de la souris sur une cellule disponible dans la feuille de calcul Excel contenant les requêtes précédentes.
+Le [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée de l’état de toutes les requêtes que vous avez créées pour toutes les feuilles ou une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit de la souris sur une cellule disponible dans la feuille de calcul Excel qui contient les requêtes précédentes.
 
-La variable [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]**  ![](assets/edit_request.gif) dans la barre d’outils Report Builder.
+Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]** ![](assets/edit_request.gif) dans la barre d’outils de Report Builder.
 
 >[!NOTE]
 >
->Le Report Builder d’Adobe applique les dépendances de requête uniquement au sein d’une même feuille de calcul, et non entre plusieurs feuilles de calcul. Restreindre aux dépendances dans une seule feuille de calcul garantit la rapidité d’exécution.
+>Adobe Report Builder applique les dépendances de requête uniquement dans la même feuille de calcul, et non entre plusieurs feuilles de calcul. Restreindre aux dépendances dans une seule feuille de calcul garantit la rapidité d’exécution.
 
 ## Définitions {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -62,7 +62,7 @@ La variable [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliq
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ajouter </p> </td> 
-   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Reportez-vous à la section <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >Création d’une requête de données</a>. </p> </td> 
+   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Voir <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Création d’une requête de données </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifier </p> </td> 
@@ -82,7 +82,7 @@ La variable [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliq
   </tr> 
   <tr> 
    <td colname="col1"> <p> Actualiser </p> </td> 
-   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Reportez-vous à la section <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Actualisation d’une requête</a>.) </p> </td> 
+   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Voir <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Actualisation d’une requête</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réactualiser la liste </p> </td> 

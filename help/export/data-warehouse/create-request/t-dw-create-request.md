@@ -6,21 +6,21 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 35%
 
 ---
 
 # Créer une demande dans Data Warehouse
 
-Plusieurs options de configuration sont disponibles lors de la création d’une requête de Data Warehouse. Les informations suivantes décrivent comment commencer à créer une requête, puis fournissent des liens vers des informations plus détaillées pour terminer la requête.
+Plusieurs options de configuration sont disponibles lors de la création d’une requête Data Warehouse. Les informations suivantes décrivent comment commencer à créer une requête, puis fournissent des liens vers des informations plus détaillées pour terminer la requête.
 
 ## Commencer à créer la requête
 
 1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]**.
 
-1. Sur le [!UICONTROL **Data Warehouse**] page, sélectionnez [!UICONTROL **Ajouter**].
+1. Sur la page [!UICONTROL **Data Warehouse**], sélectionnez [!UICONTROL **Ajouter**].
 
-   ![Bouton permettant d’ajouter une requête](assets/dw-add-request.png)
+   ![Bouton pour ajouter une requête](assets/dw-add-request.png)
 
    La page Nouvelle demande de Data Warehouse s’affiche.
 

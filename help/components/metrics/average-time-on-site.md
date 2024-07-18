@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Temps moyen passé sur le site
 
-&quot;Temps moyen passé sur le site&quot; [metric](overview.md) affiche la durée écoulée entre les accès d’un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez déterminer le temps moyen passé pour des éléments de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour observer l’évolution du temps passé global. Cette mesure s’affiche au format `HH:MM:SS`.
+La [mesure ](overview.md) &quot;Durée moyenne de la visite du site&quot; indique le temps écoulé entre les accès pour un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez déterminer le temps moyen passé pour des éléments de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour observer l’évolution du temps passé global. Cette mesure s’affiche au format `HH:MM:SS`.
 
 Cette mesure est liée à la dimension [Durée de la visite](../dimensions/time-spent-per-visit.md).
 

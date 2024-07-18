@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: '492'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Vidéo sur les tableaux de cohortes dans Analysis Workspace :
 
 >[!IMPORTANT]
 >
->[!UICONTROL Analyse des cohortes] ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que les recettes) ou les occurrences.
+>[!UICONTROL L’analyse des cohortes] ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que les recettes) ou les occurrences.
 >
 >Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans une [!UICONTROL Analyse des cohortes]. En outre, elles ne peuvent être incrémentées que de >1 à la fois.
 
@@ -78,4 +78,4 @@ Créez des cohortes sur la base d’une dimension sélectionnée, et non des coh
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Pour savoir comment configurer et exécuter un rapport de cohorte, accédez à   [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Pour obtenir des instructions sur la configuration et l’exécution d’un rapport de cohortes, accédez à [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

@@ -15,13 +15,13 @@ ht-degree: 34%
 
 Si `usePlugins` est activée, la fonction [`doPlugins()`](../functions/doplugins.md) s’exécute juste avant la compilation d’AppMeasurement et l’envoi d’un accès à Adobe. Activez cette variable si vous utilisez la fonction `doPlugins()`.
 
-## Utilisez la variable `onBeforeEventSend` rappel à l’aide du SDK Web
+## Utilisation du rappel `onBeforeEventSend` à l’aide du SDK Web
 
-Bien que le SDK Web ne dispose pas d’une valeur booléenne pour gérer l’exécution d’une logique supplémentaire avant que les données ne soient envoyées à Adobe, vous pouvez enregistrer la variable `onBeforeEventSend` rappel pour modifier des données. Voir [Modification globale des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) pour plus d’informations, voir la documentation du SDK Web .
+Bien que le SDK Web ne dispose pas d’une valeur booléenne pour gérer l’exécution d’une logique supplémentaire avant l’envoi des données à Adobe, vous pouvez enregistrer le rappel `onBeforeEventSend` pour modifier les données. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation du SDK Web.
 
 ## Utilisation de plug-ins à l’aide de l’extension Adobe Analytics
 
-Adobe fournit une extension appelée &quot;Plug-ins Analytics communs&quot; qui vous permet d’appeler la plupart des [Modules externes](../plugins/impl-plugins.md). Installez l’extension et appelez le plug-in souhaité dans une règle.
+Adobe fournit une extension appelée &quot;Plug-ins Analytics communs&quot; qui vous permet d’appeler la plupart des [plug-ins](../plugins/impl-plugins.md). Installez l’extension et appelez le plug-in souhaité dans une règle.
 
 Si le module externe souhaité n’est pas inclus dans l’extension Adobe, utilisez l’éditeur de code personnalisé suivant la syntaxe de l’AppMeasurement.
 

@@ -1,20 +1,20 @@
 ---
 description: Vous pouvez afficher les données de Document Cloud dans Adobe Analytics
-title: Configuration des rapports de Document Cloud
+title: Configurer les rapports de Document Cloud
 feature: Admin Tools
-source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
+exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
+source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 7%
 
 ---
 
-
-# Configuration des rapports de Document Cloud
+# Configurer les rapports de Document Cloud
 
 Vous pouvez configurer des dimensions et des mesures spécifiques au PDF pour qu’elles soient disponibles dans Adobe Analytics.
 
-## Composants ajoutés lors de l’activation de la création de rapports de PDF
+## Composants ajoutés lorsque vous activez la création de rapports de PDF
 
 Lorsque les rapports PDF sont correctement configurés, les dimensions et mesures suivantes sont disponibles dans Adobe Analytics :
 
@@ -48,10 +48,8 @@ Lorsque les rapports PDF sont correctement configurés, les dimensions et mesure
 
 ## Activation de la création de rapports de PDF dans Adobe Analytics
 
-1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Administration]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion des Documents Cloud]** > [!UICONTROL **Rapports sur les Documents Cloud**].
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion des Documents Cloud]** > [!UICONTROL **Création de rapports de Document Cloud**].
 
-1. Sur la page Gestion de Adobe Document Cloud , sélectionnez [!UICONTROL **Activation des rapports PDF**].
+1. Sur la page Gestion de Adobe Document Cloud, sélectionnez [!UICONTROL **Activer les rapports du PDF**].
 
-1. Pour configurer Adobe Document Cloud afin de transmettre des données à Adobe Analytics, utilisez la variable [SDK JavaScript Adobe Document Cloud](https://www.adobe.io/apis/documentcloud/dcsdk.html).
-
-
+1. Pour configurer Adobe Document Cloud afin de transmettre des données à Adobe Analytics, utilisez le [SDK JavaScript Adobe Document Cloud](https://www.adobe.io/apis/documentcloud/dcsdk.html).

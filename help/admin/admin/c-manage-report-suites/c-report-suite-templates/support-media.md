@@ -5,7 +5,7 @@ feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Définit des paramètres courants pour un site web qui fournit des vidéos et ar
 
 Aucun événement de succès n’est configuré par ce modèle de suite de rapports.
 
-| Variables Aperçu personnalisé | Variable `s_code` |
+| Variables Custom Insight | Variable `s_code` |
 |---|---|
 | Sécurisé / Non sécurisé | `prop1` |
 | Propriété du trafic 2 à 5 | `prop2, prop3, prop4, prop5` |

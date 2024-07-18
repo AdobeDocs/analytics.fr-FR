@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Minute
 
-La &quot;minute&quot; [dimension](overview.md) rapporte la minute à laquelle une mesure donnée a été effectuée (arrondie à l’unité inférieure). Le premier élément de dimension correspond à la première minute de la période, et le dernier élément de dimension correspond à la dernière minute de la période. Cette dimension est importante pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps. Compte tenu de la granularité de cette dimension, Adobe recommande de limiter la période du rapport à un ou deux jours.
+La &quot;minute&quot; [dimension](overview.md) indique la minute à laquelle une mesure donnée a été effectuée (arrondie). Le premier élément de dimension correspond à la première minute de la période, et le dernier élément de dimension correspond à la dernière minute de la période. Cette dimension est importante pour les rapports de tendance, car elle vous permet d’afficher les mesures au fil du temps. Compte tenu de la granularité de cette dimension, Adobe recommande de limiter la période du rapport à un ou deux jours.
 
 ## Renseignement de cette dimension avec des données
 
