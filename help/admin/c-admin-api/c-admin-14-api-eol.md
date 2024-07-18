@@ -3,9 +3,9 @@ description: Lien vers l’API d’administration Adobe Analytics sur github.
 title: FAQ sur la fin de vie des API Adobe Analytics 1.4
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ Le guide [Migration vers les API Adobe Analytics 2.0](https://developer.adobe.co
 
 Q : **Cela a-t-il un impact sur la collecte de données ?**
 
-R : La fin de vie d’Adobe Analytics 1.4 n’a aucune incidence sur vos solutions de balisage, telles que Balises (anciennement Adobe Launch), WebSDK ou AppMeasurement.js. Cependant, si vous utilisez les API Sources de données, Insertion de données ou Classifications 1.4 pour collecter ou améliorer vos données, vous devez migrer ces workflows vers les API Adobe Analytics 2.0. Pour plus d’informations, reportez-vous au [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) .
+R : La fin de vie d’Adobe Analytics 1.4 n’a aucune incidence sur vos solutions de balisage, telles que Balises (anciennement Adobe Launch), WebSDK ou AppMeasurement.js. Cependant, si vous utilisez les API Sources de données ou Classifications 1.4 pour collecter ou améliorer vos données, vous devez migrer ces workflows vers les API Adobe Analytics 2.0. Pour plus d’informations, reportez-vous au [2.0 API Endpoints guide](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/) .
+
+Q : **L’API d’insertion de données est-elle affectée ?**
+
+R : Non, l’API d’insertion de données n’est pas affectée par la fin de vie d’Adobe Analytics 1.4.
 
 Q : **Que faire si aucune réponse n’a été apportée à ma question dans cette FAQ ?**
 
