@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuration des emplacements d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ Pour plus d’informations sur la manière d’afficher et de supprimer des empl
    La boîte de dialogue [!UICONTROL **Détails de l’emplacement**] s’affiche.
 
 1. Indiquez les informations suivantes :
-|Field | Fonction |
-|—|—|
-| [!UICONTROL **Nom**] | Nom de l’emplacement.  |
-| [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-| [!UICONTROL **Utilisation avec**] | Indiquez si vous souhaitez utiliser cet emplacement avec les [!UICONTROL **flux de données**], [!UICONTROL **Data Warehouse**] ou les [!UICONTROL **jeux de classifications**]. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un seul emplacement ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour les jeux de Data Warehouse ou de classifications.</li><li>Pour éviter des conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **Data Warehouse**] dans ce champ. Les emplacements de courrier électronique ne sont pas pris en charge avec les flux de données et les jeux de classifications.</li></ul> |
-| [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre entreprise**] | Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements que vous partagez ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
-| [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement dans lequel vous souhaitez créer cet emplacement. Pour plus d&#39;informations sur la création d&#39;un compte, voir [Configuration de comptes d&#39;import et d&#39;export cloud](/help/components/locations/configure-import-accounts.md). |
+
+   | Champ | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Nom**] | Nom de l’emplacement. |
+   | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
+   | [!UICONTROL **Utilisation avec**] | Indiquez si vous souhaitez utiliser cet emplacement avec les [!UICONTROL **flux de données**], [!UICONTROL **Data Warehouse**] ou les [!UICONTROL **jeux de classifications**]. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un seul emplacement ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour les jeux de Data Warehouse ou de classifications.</li><li>Pour éviter des conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **Data Warehouse**] dans ce champ. Les emplacements de courrier électronique ne sont pas pris en charge avec les flux de données et les jeux de classifications.</li></ul> |
+   | [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre entreprise**] | Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements que vous partagez ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
+   | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement dans lequel vous souhaitez créer cet emplacement. Pour plus d&#39;informations sur la création d&#39;un compte, voir [Configuration de comptes d&#39;import et d&#39;export cloud](/help/components/locations/configure-import-accounts.md). |
 
 1. Pour remplir le formulaire de configuration de l’emplacement, reportez-vous à la section ci-dessous qui correspond au type de compte que vous avez sélectionné dans le champ [!UICONTROL **Comptes de localisation**] . (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
 
