@@ -4,7 +4,7 @@ description: Permet de modifier la suite de rapports à tout moment de votre mis
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ L’extension SDK Web fournit une liste déroulante de flux de données pour cha
 
 ## Définissez la flux de données souhaitée en implémentant manuellement le SDK Web.
 
-Définissez la variable de configuration `edgeConfigId` sur l’identifiant de la banque de données. L’identifiant de la banque de données se trouve à droite lors de l’affichage d’un flux de données dans la collecte de données Adobe Experience Platform.
+Définissez la variable de configuration `datastreamId` sur l’identifiant de la banque de données. L’identifiant de la banque de données se trouve à droite lors de l’affichage d’un flux de données dans la collecte de données Adobe Experience Platform.
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

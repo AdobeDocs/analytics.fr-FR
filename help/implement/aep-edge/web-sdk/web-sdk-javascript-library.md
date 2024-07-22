@@ -2,7 +2,7 @@
 title: Envoi de données à Adobe Analytics à l’aide de la bibliothèque JavaScript du SDK Web
 description: Commencez par une mise en oeuvre propre du SDK Web pour envoyer des données à Adobe Analytics à l’aide de la bibliothèque JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>7</td>
-<td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’identifiant de la banque de données (anciennement appelé id de configuration Edge (<code>edgeConfigId</code>), l’identifiant de l’organisation (<code>orgId</code>) et d’autres options disponibles. Assurez-vous que la correspondance des variables est correcte. </td>
+<td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’identifiant de la banque de données (anciennement appelé id de configuration Edge (<code>datastreamId</code>), l’identifiant de l’organisation (<code>orgId</code>) et d’autres options disponibles. Assurez-vous que la correspondance des variables est correcte. </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configuration du SDK Web</a><br/><a href="../xdm-var-mapping.md">Mappage de variable d’objet XDM</a></td>
 </tr>
 

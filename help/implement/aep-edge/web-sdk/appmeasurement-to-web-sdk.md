@@ -2,7 +2,7 @@
 title: Migration d’AppMeasurement vers le SDK Web
 description: Mettez à jour votre mise en oeuvre Adobe Analytics de la bibliothèque JavaScript AppMeasurement vers la bibliothèque JavaScript du SDK Web.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 7%
@@ -63,15 +63,15 @@ Référencez la dernière version de `alloy.js` afin que ses appels de méthode 
 
 Configurez votre mise en oeuvre pour qu’elle pointe vers le flux de données créé à l’étape précédente à l’aide de la commande SDK Web [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) . La commande `configure` doit être définie sur chaque page afin que vous puissiez l’inclure avec le code d’installation de la bibliothèque.
 
-Utilisez les propriétés [`edgeConfigId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgeconfigid) et [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande du SDK Web `configure` :
+Utilisez les propriétés [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId) et [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande du SDK Web `configure` :
 
-* Définissez le `edgeConfigId` sur l’identifiant de la banque de données récupéré à l’étape précédente.
+* Définissez le `datastreamId` sur l’identifiant de la banque de données récupéré à l’étape précédente.
 * Définissez le `orgId` sur l’organisation IMS de votre organisation.
 
 ```js
 alloy("configure", {
-    "edgeConfigId": "ebebf826-a01f-4458-8cec-ef61de241c93",
-    "orgId": "ADB3LETTERSANDNUMBERS@AdobeOrg"
+    datastreamId: "ebebf826-a01f-4458-8cec-ef61de241c93",
+    orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 
