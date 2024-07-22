@@ -4,10 +4,10 @@ title: Configurer une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ Les visualisations de flux vous permettent de configurer le début ou la fin du 
    >
    >Les mesures calculées ne peuvent pas être utilisées dans les champs **[!UICONTROL Commence par]** ou **[!UICONTROL Se termine par]**.
 
-1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL **Dimension de cheminement**] à utiliser comme chemin d’accès menant à ou à partir du composant sélectionné, comme illustré ici. La valeur par défaut est [!UICONTROL **Page**].
+1. Si vous choisissez une mesure, vous devez également fournir une [!UICONTROL **Dimension de cheminement**] à utiliser comme chemin d’accès menant à ou provenant de votre composant sélectionné, comme illustré ici. La valeur par défaut est [!UICONTROL **Page**].
 
    ![dimension du cheminement](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ Les visualisations de flux vous permettent de configurer le début ou la fin du 
 > 
 >1. Commencer à créer une visualisation de flux comme décrit ci-dessus.
 >1. Faire glisser la dimension [!UICONTROL **Page**] dans le champ **[!UICONTROL Contient]**, puis sélectionner la [!UICONTROL **Version**].
->1. La visualisation de flux s’appuie sur la page la plus visualisée, visible dans le nœud sur lequel est le focus, au centre de la visualisation. Vous pouvez également voir les pages principales qui mènent à cette page (à gauche du nœud sur lequel est le focus) ainsi que les pages principales qui mènent hors de cette page (à droite du nœud sur lequel est le focus).
+>1. La visualisation de flux s’appuie sur la page la plus visualisée, visible dans le nœud sur lequel est le focus, au centre de la visualisation. Vous voyez également les pages principales qui mènent à cette page (à gauche du noeud de focus) ainsi que les pages principales qui sortent de cette page (à droite du noeud de focus).
 >1. Analyser les données dans le flux, comme décrit dans la section [Afficher et modifier la sortie de flux](#view-and-change-the-flow-output).
 
 
