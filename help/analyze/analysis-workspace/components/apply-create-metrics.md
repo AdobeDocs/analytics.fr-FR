@@ -4,10 +4,10 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '505'
+ht-degree: 51%
 
 ---
 
@@ -37,13 +37,41 @@ Les mesures peuvent être utilisées de différentes manières dans Analysis Wor
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## Mesures calculées
+## Création de mesures calculées
 
-Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques. Il existe plusieurs façons de créer des mesures calculées.
+Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques.
 
-* Cliquez sur l’icône « + » près de l’en-tête des mesures sous la liste des composants à gauche.
-* Accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]** > **[!UICONTROL Ajouter]**.
-* Cliquez avec le bouton droit sur un en-tête de colonne > **[!UICONTROL Créer une mesure à partir d’une sélection]** lorsqu’une ou plusieurs cellules de colonne d’en-tête sont sélectionnées. Cette option crée automatiquement une mesure calculée pour vous sans avoir à utiliser le créateur de règles de mesures calculées.
+Il existe plusieurs façons de créer des mesures calculées. La méthode que vous choisissez détermine si la mesure calculée est disponible dans la liste des composants pour tous les projets ou uniquement dans le projet où elle a été créée.
+
+### Création de mesures calculées pour tous les projets
+
+Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans des projets à l’échelle de votre organisation.
+
+Pour plus d’informations sur l’accès au créateur de mesures calculées, voir [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+
+### Création de mesures calculées pour un seul projet
+
+Vous pouvez créer des mesures calculées rapides qui ne sont disponibles que pour le projet dans lequel elles ont été créées.
+
+Pour créer une mesure calculée pour un seul projet :
+
+1. Dans Analysis Workspace, ouvrez le projet dans lequel vous souhaitez créer la mesure calculée.
+
+1. Dans un tableau à structure libre, cliquez avec le bouton droit sur une ou plusieurs cellules de colonne d’en-tête, puis sélectionnez **[!UICONTROL Créer une mesure d’après la sélection]**
+
+   ![Panneau Workspace surlignant Créer d’après la sélection](assets/create-metric-from-selection.png)
+
+1. Pour créer une mesure calculée pour ce projet uniquement, choisissez l’une des options suivantes :
+
+   * [!UICONTROL **Diviser**]
+
+   * [!UICONTROL **Subtract**]
+
+   * [!UICONTROL **Ajouter**]
+
+   * [!UICONTROL **Multiplier**]
+
+   Ou, pour ouvrir le créateur de mesures calculées et créer la mesure calculée pour tous les projets, sélectionnez [!UICONTROL **Ouvrir dans le créateur de mesures calculées**], puis continuez avec [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 [Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr) (3:42)
 

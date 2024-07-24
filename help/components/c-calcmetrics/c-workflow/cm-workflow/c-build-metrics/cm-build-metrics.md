@@ -3,10 +3,10 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Création de mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 40%
 
 ---
 
@@ -16,11 +16,17 @@ Adobe Analytics fournit un canevas permettant de faire glisser et de déposer de
 
 ## Commencer à créer une mesure calculée
 
-Vous pouvez commencer à créer une mesure calculée de l’une des façons suivantes :
+Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans des projets à l’échelle de votre organisation. Vous pouvez également créer une mesure calculée rapide, comme décrit dans la section [Créer des mesures calculées pour un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
-* Dans Analysis Workspace, ouvrez un projet, puis sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Créer une mesure]**.
-* Dans Analysis Workspace, ouvrez un projet, puis sélectionnez l’icône **Plus** en regard de la section [!UICONTROL **Mesures**] dans le rail de gauche.
-* Dans [!DNL Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**, puis sélectionnez **[!UICONTROL + Ajouter]** dans la partie supérieure de la page Mesures calculées.
+Accédez au créateur de mesures calculées pour commencer à créer une mesure calculée disponible dans la liste des composants.
+
+1. Accédez au créateur de mesures calculées de l’une des manières suivantes :
+
+   * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Créer une mesure]**.
+   * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez l’icône **Plus** en regard de la section [!UICONTROL **Mesures**] dans le rail de gauche.
+   * Dans [!DNL Customer Journey Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**, puis sélectionnez **[!UICONTROL + Ajouter]** dans la partie supérieure de la page Mesures calculées.
+
+1. Passez à la section [Zones du créateur de mesures calculées](#areas-of-the-calculated-metrics-builder).
 
 ## Zones du créateur de mesures calculées
 
