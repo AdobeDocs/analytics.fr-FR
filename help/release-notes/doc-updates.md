@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
 source-wordcount: '5910'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Juillet 2024** | |
 | Ajout d’informations à propos des mesures calculées rapides. | Mise à jour des informations dans [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md) afin de clarifier la différence entre [mesures calculées créées dans le créateur de mesures calculées](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) et [celles créées sous forme de mesures calculées rapides dans un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Ajout également d’informations supplémentaires sur les mesures calculées rapides.<p>Les mesures calculées créées dans le créateur de mesures calculées sont disponibles dans la liste des composants et peuvent être appliquées aux projets dans l’ensemble de l’organisation, tandis que les mesures calculées qui sont créées sous forme de mesures calculées rapides ne sont disponibles que dans le projet dans lequel elles ont été créées.</p><p>Mise à jour des informations dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour effectuer des clarifications similaires.</p> |
-| Ajout de threads.net à la dimension &quot;Type de référent&quot; | Ajout de threads.net à la liste des réseaux sociaux utilisés dans la dimension [ &quot;Type de référent&quot;](/help/components/dimensions/referrer-type.md). |
+| Ajout de threads.net à la dimension Type de référent | Ajout de threads.net à la liste des réseaux sociaux utilisés dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). |
 | Mise à jour de la documentation pour la gestion des flux de données | Mise à jour des informations dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md) afin d’en améliorer la clarté. <p>Les mises à jour comprennent les éléments suivants :</p><ul><li>Création de sections distinctes pour différentes tâches afin de faciliter l’analyse et la consommation des informations.</li><li>Ajout d’informations sur les modifications du comportement des flux actifs qui sont réactivés. Ces modifications sont actuellement en disponibilité limitée et ne sont pas encore disponibles pour l’ensemble de la clientèle.</li><li>Ajout d’informations stipulant que les flux de données doivent avoir l’état Actif avant de pouvoir être supprimés.</li> |
 | Mise à jour des messages d’erreur courants | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
@@ -112,7 +112,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Segments de projet (segments ad hoc et rapides) | Documentation rationalisée sur les segments de projet et suppression des informations dupliquées. Les étapes de création de segments ad hoc sont désormais combinées avec les étapes pour [création de segments rapides](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Recherches dynamiques | Ajout d’informations supplémentaires sur les [recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md). Auparavant, les informations n’existaient que pour les attributs mobiles, qui font partie de plusieurs recherches dynamiques. |
 | **Mars 2023** | |
-| Prise en charge du SDK Web pour Activity Map | Mise à jour de [la mise en oeuvre d’Adobe Analytics](/help/implement/home.md). |
+| Prise en charge du SDK Web pour Activity Map | Mise à jour de la [mise en œuvre d’Adobe Analytics](/help/implement/home.md). |
 | Présentation des variables de trafic (props) | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Suppression de l’article « Activer les rapports de variables de trafic » et transfert de son contenu dans une autre section. Consultez la [Présentation des variables de trafic (props)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | Filtres d’URL internes | Ajout de sections et de procédures détaillées pour clarifier et enrichir le contenu des articles. Consultez la section [Filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | Créer des histoires de données dans les cartes de performance mobiles | Une [histoire de données](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) consiste en un ensemble de points de données complémentaires, de contexte commercial et de mesures associées construit autour d’un thème centre ou d’une mesure commune. |
