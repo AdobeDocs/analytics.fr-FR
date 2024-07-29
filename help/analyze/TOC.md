@@ -5,9 +5,9 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder et Activity Map.
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,8 +281,8 @@ ht-degree: 99%
    + [Vue d’ensemble](activity-map/overview.md)
    + [Commencer](activity-map/getting-started.md)
    + Recouvrement {#overlay}
-      + [Présentation des extensions](activity-map/overlay/overview.md)
-      + [Extension Launch](activity-map/overlay/launch.md)
+      + [Vue d’ensemble des extensions](activity-map/overlay/overview.md)
+      + [Extension de Launch](activity-map/overlay/launch.md)
       + [Paramètres d’extension](activity-map/overlay/settings.md)
    + [Résolution des problèmes](activity-map/troubleshooting.md)
    + [FAQ](activity-map/faq.md)

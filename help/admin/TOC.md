@@ -5,9 +5,9 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 8bb879b86126c59b7d22505657ecdb46106822e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -183,5 +183,5 @@ ht-degree: 99%
          + [Désactiver les comptes hérités](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [API affectées par la migration](admin/user-management2/user-migration/developer.md)
 + [API d’administration](c-admin-api/c-admin-api.md)
-+ [FAQ sur la fin de vie des API Adobe Analytics 1.4](c-admin-api/c-admin-14-api-eol.md)
++ [Questions fréquentes sur la fin de vie des API Adobe Analytics 1.4](c-admin-api/c-admin-14-api-eol.md)
 

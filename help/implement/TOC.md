@@ -5,9 +5,9 @@ user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
 source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +54,10 @@ ht-degree: 98%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variables de page {#page-vars}
-      + [Présentation des variables de page](vars/page-vars/page-variables.md)
+      + [Vue d’ensemble des variables de page](vars/page-vars/page-variables.md)
       + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
       + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
-      + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
+      + [ActivityMap.regionIDAtattribute](vars/config-vars/activitymap-regionidattribute.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
