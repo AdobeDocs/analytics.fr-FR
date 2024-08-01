@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5910'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2024** | |
-| Ajout d’informations à propos des mesures calculées rapides. | Mise à jour des informations dans [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md) afin de clarifier la différence entre [mesures calculées créées dans le créateur de mesures calculées](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) et [celles créées sous forme de mesures calculées rapides dans un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Ajout également d’informations supplémentaires sur les mesures calculées rapides.<p>Les mesures calculées créées dans le créateur de mesures calculées sont disponibles dans la liste des composants et peuvent être appliquées aux projets dans l’ensemble de l’organisation, tandis que les mesures calculées qui sont créées sous forme de mesures calculées rapides ne sont disponibles que dans le projet dans lequel elles ont été créées.</p><p>Mise à jour des informations dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour effectuer des clarifications similaires.</p> |
+| Ajout d’informations à propos des mesures calculées rapides | Mise à jour des informations dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md) afin de clarifier la différence entre les [mesures calculées créées dans le créateur de mesures calculées](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) et [celles créées sous forme de mesures calculées rapides dans un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Ajout également d’informations supplémentaires sur les mesures calculées rapides.<p>Les mesures calculées créées dans le créateur de mesures calculées sont disponibles dans la liste des composants et peuvent être appliquées aux projets dans l’ensemble de l’organisation, tandis que les mesures calculées qui sont créées sous forme de mesures calculées rapides ne sont disponibles que dans le projet dans lequel elles ont été créées.</p><p>Mise à jour des informations dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour effectuer des clarifications similaires.</p> |
 | Ajout de threads.net à la dimension Type de référent | Ajout de threads.net à la liste des réseaux sociaux utilisés dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). |
 | Mise à jour de la documentation pour la gestion des flux de données | Mise à jour des informations dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md) afin d’en améliorer la clarté. <p>Les mises à jour comprennent les éléments suivants :</p><ul><li>Création de sections distinctes pour différentes tâches afin de faciliter l’analyse et la consommation des informations.</li><li>Ajout d’informations sur les modifications du comportement des flux actifs qui sont réactivés. Ces modifications sont actuellement en disponibilité limitée et ne sont pas encore disponibles pour l’ensemble de la clientèle.</li><li>Ajout d’informations stipulant que les flux de données doivent avoir l’état Actif avant de pouvoir être supprimés.</li> |
 | Mise à jour des messages d’erreur courants | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |

@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -98,12 +98,12 @@ ht-degree: 94%
    + [Serveur](dimensions/server.md)
    + [Visites de page unique](dimensions/single-page-visits.md)
    + [Section du site](dimensions/site-section.md)
-   + [Dimensions de base des médias en flux continu](dimensions/sm-core.md)
-   + [Publicités multimédia en flux continu](dimensions/sm-ads.md)
-   + [Diffusion en continu de chapitres multimédias](dimensions/sm-chapters.md)
-   + [Qualité des médias en flux continu](dimensions/sm-quality.md)
-   + [Métadonnées audio du média en flux continu](dimensions/sm-audio-metadata.md)
-   + [Métadonnées vidéo des médias en flux continu](dimensions/sm-video-metadata.md)
+   + [Dimensions de base des médias en streaming](dimensions/sm-core.md)
+   + [Publicités des médias en streaming](dimensions/sm-ads.md)
+   + [Chapitres des médias en streaming](dimensions/sm-chapters.md)
+   + [Qualité des médias en streaming](dimensions/sm-quality.md)
+   + [Métadonnées audio des médias en streaming](dimensions/sm-audio-metadata.md)
+   + [Métadonnées vidéo des médias en streaming](dimensions/sm-video-metadata.md)
    + [Durée avant événement](dimensions/time-prior-to-event.md)
    + [Durée de consultation de la page](dimensions/time-spent-on-page.md)
    + [Durée de la visite](dimensions/time-spent-per-visit.md)
@@ -157,12 +157,12 @@ ht-degree: 94%
    + [Recherches](metrics/searches.md)
    + [Accès unique](metrics/single-access.md)
    + [Visites de page unique](metrics/single-page-visits.md)
-   + [Mesures de base des médias en flux continu](metrics/sm-core.md)
-   + [Publicités multimédia en flux continu](metrics/sm-ads.md)
-   + [Diffusion en continu de chapitres multimédias](metrics/sm-chapters.md)
-   + [Suivi de l’état du lecteur multimédia en continu](metrics/sm-player-state.md)
-   + [Qualité des médias en flux continu](metrics/sm-quality.md)
-   + [Métadonnées vidéo des médias en flux continu](metrics/sm-video-metadata.md)
+   + [Mesures de base des médias en streaming](metrics/sm-core.md)
+   + [Publicités des médias en streaming](metrics/sm-ads.md)
+   + [Chapitres des médias en streaming](metrics/sm-chapters.md)
+   + [Suivi de l’état du lecteur des médias en streaming](metrics/sm-player-state.md)
+   + [Qualité des médias en streaming](metrics/sm-quality.md)
+   + [Métadonnées vidéo des médias en streaming](metrics/sm-video-metadata.md)
    + [Durée de la visite](metrics/time-spent-per-visit.md)
    + [Durée par visiteur](metrics/time-spent-per-visitor.md)
    + [Présentation de la durée de la visite](metrics/time-spent.md)
