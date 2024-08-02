@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Gestionnaire d’emplacements
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ Pour limiter les types de compte disponibles pour les utilisateurs lors de la cr
 1. Recherchez la section [!UICONTROL **Types de compte autorisé**] .
 
    Par défaut, les types de compte suivants sont disponibles pour les utilisateurs. Désélectionnez l’un de ces types de compte que vous souhaitez empêcher l’utilisation des utilisateurs.
+
+   Vous devez sélectionner au moins un type de compte.
 
    * [!UICONTROL **{Amazon S3 Role ARN**]
 
