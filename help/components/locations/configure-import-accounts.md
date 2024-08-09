@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configuration de comptes d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Hôte**] | Saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp://ftp.omniture.com`. |
+   | [!UICONTROL **Hôte**] | Saisissez l’URL de destination FTP de votre choix. Par exemple : `ftp.adobe.com`. |
    | [!UICONTROL **Chemin d’accès**] | Peut être laissé vide. |
    | [!UICONTROL **Nom d’utilisateur**] | Saisissez le nom d’utilisateur pour vous connecter au site FTP. |
    | [!UICONTROL **Mot de passe et confirmer le mot de passe**] | Saisissez le mot de passe pour vous connecter au site FTP. |
