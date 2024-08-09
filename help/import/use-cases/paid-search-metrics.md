@@ -3,10 +3,10 @@ title: Importer des mesures de référencement payant
 description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google AdWords, MSN, Yahoo, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1205'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ L’[!UICONTROL Assistant d’activation des sources de données] affiche :
 1. Cliquez sur **[!UICONTROL Suivant]** et attribuez un nom à votre source de données. Ce nom figurera dans le Gestionnaire de sources de données.
 1. Acceptez le contrat de service et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez les trois mesures standard : [!UICONTROL Impressions], [!UICONTROL Clics] et [!UICONTROL Coût total] et cliquez sur **[!UICONTROL Suivant]**.
-1. À présent, « mappez » cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Configurer les événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
+1. Maintenant, &quot;mappez&quot; cette nouvelle source de données avec les événements personnalisés que nous avons créés dans [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mappage](assets/data-source-mapping.png)
 
