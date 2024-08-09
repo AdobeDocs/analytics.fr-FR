@@ -3,10 +3,10 @@ title: Guide d’exportation Analytics
 description: Ce guide décrit les méthodes d’extraction des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 62cb13c7eaa61153783ff4323180b549f727e68e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 69%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Ce guide décrit comment extraire des données d’Adobe Analytics. Il inclut :
 
-* **Flux de données :** Recevez une exportation horaire ou quotidienne des données brutes. Chaque ligne est un accès individuel et chaque colonne est une variable. Les flux de données sont généralement envoyés aux sites FTP.
-* **Data Warehouse :** Utilisez un Assistant Requête pour récupérer une sortie de données sous forme de feuille de calcul. Data Warehouse utilise une architecture de traitement différente pour permettre tout nombre de lignes et tout nombre de valeurs uniques.
-* **FTP et SFTP :** Bonnes pratiques relatives à l’utilisation des protocoles FTP et SFTP avec Adobe
+* **Flux de données :** Recevez une exportation horaire ou quotidienne des données brutes. Chaque ligne est un accès individuel et chaque colonne est une variable. Les flux de données sont généralement envoyés à [destinations cloud](/help/export/analytics-data-feed/create-feed.md).
+* **Data Warehouse :** Utilisez un Assistant Requête pour récupérer une sortie de données sous forme de feuille de calcul. Data Warehouse utilise une architecture de traitement différente pour autoriser n’importe quel nombre de lignes et n’importe quel nombre de valeurs uniques. Les demandes de l’entrepôt de données sont généralement envoyées à [destinations cloud](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* **FTP et SFTP :** Les protocoles FTP et SFTP sont pris en charge, mais ne sont plus recommandés. Exportez plutôt les données vers les destinations cloud.
 
 Voici un aperçu vidéo dʼAdobe Analytics :
 
