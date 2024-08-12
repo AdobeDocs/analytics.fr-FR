@@ -5,10 +5,10 @@ title: Événements de succès - Présentation
 feature: Event
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 66%
+source-wordcount: '938'
+ht-degree: 51%
 
 ---
 
@@ -16,11 +16,9 @@ ht-degree: 66%
 
 Les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Si, par exemple, un visiteur achète un article, l’événement d’achat peut être considéré comme l’événement de succès.
 
-Voici une présentation vidéo :
+Pour une présentation vidéo des événements de succès, voir [Présentation des événements de conversion](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) dans le guide des tutoriels Analytics.
 
->[!VIDEO](https://video.tv.adobe.com/v/28764/?quality=12)
-
-## Présentation des événements de succès
+## Exemples d’événements de succès
 
 Il existe de nombreux types d’événements de succès en fonction du type de votre site web. En voici quelques exemples :
 
@@ -54,9 +52,9 @@ Pour configurer des événements de succès :
 
 1. Dans la colonne **[!UICONTROL Type]** , cochez la case en regard de l’élément pour activer la liste déroulante, puis sélectionnez le type de votre choix.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Il est possible de définir un événement Compteur, Numérique ou Devise sur un autre type en conservant l’accès aux données capturées précédemment.
+   >Tenez compte des points suivants lors de la modification du type d’événement :<ul><li>Vous pouvez modifier le type d’événement entre compteur et numérique sans perdre l’accès aux données capturées précédemment.</li><li>Lors de la modification des types d’événement en ou à partir d’un événement de devise, un message s’affiche pour vous informer que les données historiques ne sont pas disponibles dans les rapports. Les différents types d’événement utilisent des tableaux de données distincts, et ne peuvent pas être utilisés simultanément. Certaines données historiques peuvent être restaurées si l’utilisateur rétablit le type d’événement. Toutefois, les données collectées après la modification initiale ne sont pas disponibles.</li></ul>
 
    Le type sélectionné détermine si l’événement est de type compteur (standard), numérique ou monétaire. <p>Les événements de compteur sont utilisés pour enregistrer un événement dans le temps.</p><p>Les événements numériques sont utilisés pour créer des rapports sur les valeurs non monétaires, telles que le nombre de bons d’achat utilisés dans une commande.</p> <p>Les événements de devise enregistrent un nombre décimal, comme les taxes ou les frais d’expédition. La valeur transmise aux événements de devise est convertie depuis la devise de la page vers la devise de base de la suite de rapports dès réception. Les événements monétaires sont utilisés pour le suivi des impôts et des frais d’expédition. Pour plus d’informations sur l’utilisation d’événements de devise, contactez un représentant Adobe.<p>Les événements numériques et monétaires vous permettent d’incrémenter les mesures de plus d’une unité.</p><p>Les événements utilisés dans le type standard de Sources de données doivent être numériques ou monétaires.</p>
 
@@ -81,11 +79,10 @@ Pour configurer des événements de succès :
 
    Les options disponibles sont les suivantes :
 
-
-| Option | Fonction |
-|---------|----------|
-| [!UICONTROL **Enregistrer une fois par visite**] | Relie l’événement donné à la session du visiteur. Les comptes suivants effectués sur un événement donné au cours d’une même visite sont ignorés. Ce type de sérialisation d’événement ne nécessite aucune modification de l’implémentation. |
-| [!UICONTROL **Utiliser l’ID d’événement**] | Relie l’événement donné à un ID personnalisé. Les comptes suivants effectués sur un événement donné avec le même ID d’événement sont ignorés. Ce type de sérialisation d’événement nécessite un identifiant personnalisé dans les accès pour dédupliquer les valeurs. Voir [Sérialisation des ID d’événements](/help/implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre. |
+   | Option | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Enregistrer une fois par visite**] | Relie l’événement donné à la session du visiteur. Les comptes suivants effectués sur un événement donné au cours d’une même visite sont ignorés. Ce type de sérialisation d’événement ne nécessite aucune modification de l’implémentation. |
+   | [!UICONTROL **Utiliser l’ID d’événement**] | Relie l’événement donné à un ID personnalisé. Les comptes suivants effectués sur un événement donné avec le même ID d’événement sont ignorés. Ce type de sérialisation d’événement nécessite un identifiant personnalisé dans les accès pour dédupliquer les valeurs. Voir [Sérialisation des ID d’événements](/help/implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre. |
 
 1. Dans la colonne [!UICONTROL **Participation**] , cochez la case, puis choisissez d’activer ou de désactiver la participation. Lorsqu’elle est activée, elle accorde un crédit d’attribution complet à tous les éléments de dimension de la visite.
 
@@ -94,20 +91,3 @@ Pour configurer des événements de succès :
    >Vous pouvez activer la participation pour 100 événements personnalisés au maximum. De plus, vous pouvez créer des mesures de participation dans le créateur de [mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
-
-## Page Événements de succès – Descriptions {#section_681ECEC981694CABBDBF00E18165B447}
-
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Événements de succès]**
-
-La page Événements de succès vous permet de configurer les variables Événements utilisées sur votre site. Vous pouvez ajouter jusqu’à 1 000 événements de succès. Les événements 81 à 1 000 fonctionnent uniquement avec le code H22 ou supérieur.
-
-| Élément | Description |
-|--- |--- |
-| Événement | Nom original de l’événement. |
-| Nom | Attribuez des noms explicites aux événements de succès utilisés sur votre site. Par exemple, si événement1 est utilisé pour effectuer le suivi des inscriptions, renommez-le pour qu’il apparaisse en tant que mesure « Inscriptions » dans tous les rapports de conversion. |
-| Type | Le type sélectionné détermine si l’événement est de type compteur (standard), numérique ou monétaire. <p>Les événements de compteur sont utilisés pour enregistrer un événement dans le temps.</p><p>Les événements numériques sont utilisés pour créer des rapports sur les valeurs non monétaires, telles que le nombre de bons d’achat utilisés dans une commande.</p> <p>Les événements de devise enregistrent un nombre décimal, comme les taxes ou les frais d’expédition. La valeur transmise aux événements de devise est convertie depuis la devise de la page vers la devise de base de la suite de rapports dès réception. Les événements monétaires sont utilisés pour le suivi des impôts et des frais d’expédition. Pour plus d’informations sur l’utilisation d’événements de devise, contactez un représentant Adobe.<p>Les événements numériques et monétaires vous permettent d’incrémenter les mesures de plus d’une unité.</p><p>Les événements utilisés dans le type standard de Sources de données doivent être numériques ou monétaires.</p> |
-| Polarité | La polarité permet d’indiquer si Adobe Analytics doit considérer comme un point positif ou négatif le fait qu’un événement personnalisé donné (mesure) augmente. Adobe Analytics pourra alors afficher des indicateurs de direction (flèches) pour diverses mesures afin d’ajouter du contexte (par exemple, comparaisons d’une semaine à l’autre).  Exemple : si l’événement « Bogues envoyés » augmente d’une semaine à l’autre, Adobe Analytics doit-il considérer cela comme un facteur positif ou négatif ? Une augmentation des inscriptions au publipostage est probablement bénéfique. En revanche, une augmentation des erreurs de soumission de formulaire est probablement mauvais signe.  Dans Analysis Workspace, la polarité est appliquée à : mise en forme conditionnelle de table de forme libre, visualisations de changement récapitulatives et modèle de couleur positif / négatif de la visualisation de mappage. |
-| Description | Brève description de l’objet et de l’usage d’un événement. |
-| Enregistrement d’événement unique | **Enregistrer une fois par visite** : Lie l’événement donné à la session du visiteur. Les comptes suivants effectués sur un événement donné au cours d’une même visite sont ignorés. Ce type de sérialisation d’événement ne nécessite aucune modification de l’implémentation.<br>**Utiliser l’ID d’événement :** Lie l’événement donné à un ID personnalisé. Les comptes suivants effectués sur un événement donné avec le même ID d’événement sont ignorés. Ce type de sérialisation d’événement nécessite un identifiant personnalisé dans les accès pour dédupliquer les valeurs. Voir [Sérialisation des ID d’événements](/help/implement/vars/page-vars/events/event-serialization.md) dans le guide d’utilisation de la mise en œuvre. |
-| Participation | Accorde un crédit d’attribution complet à tous les éléments de dimension de la visite. |
-| Avertissement (événement de devise) | Lorsque vous définissez un événement sur le type monétaire ou définissez ce type d’événement sur un autre, un message s’affiche pour vous informer que les données historiques ne sont pas disponibles dans les rapports.  Les différents types d’événement utilisent des tableaux de données distincts, et ne peuvent pas être utilisés simultanément. Certaines données historiques peuvent être restaurées si l’utilisateur rétablit le type d’événement. Cependant, les données collectées après la modification initiale ne sont pas disponibles. Soyez prudent lorsque vous changez un type d’événement. |

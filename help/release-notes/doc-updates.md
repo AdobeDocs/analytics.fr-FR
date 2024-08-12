@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
-workflow-type: ht
-source-wordcount: '5945'
-ht-degree: 100%
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
+workflow-type: tm+mt
+source-wordcount: '5957'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2024** | |
+| Événements de succès | Documentation simplifiée sur les [événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md). Mise à jour pour garantir clarté et précision. |
 | Au moins un type de compte doit être sélectionné lors de la gestion des emplacements. | Clarification sur le fait que lorsque les administrateurs et les administratrices [limitent les types de compte utilisés pour l’export et l’import](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users), au moins un type de compte doit être sélectionné. |
 | Ajout d’informations à propos des mesures calculées rapides | Mise à jour des informations dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md) afin de clarifier la différence entre les [mesures calculées créées dans le créateur de mesures calculées](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects) et [celles créées sous forme de mesures calculées rapides dans un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project). Ajout également d’informations supplémentaires sur les mesures calculées rapides.<p>Les mesures calculées créées dans le créateur de mesures calculées sont disponibles dans la liste des composants et peuvent être appliquées aux projets dans l’ensemble de l’organisation, tandis que les mesures calculées qui sont créées sous forme de mesures calculées rapides ne sont disponibles que dans le projet dans lequel elles ont été créées.</p><p>Mise à jour des informations dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour effectuer des clarifications similaires.</p> |
 | Ajout de threads.net à la dimension Type de référent | Ajout de threads.net à la liste des réseaux sociaux utilisés dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). |

@@ -3,10 +3,10 @@ title: Appareils uniques
 description: Nombre dʼappareils uniques.
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 92%
+source-wordcount: '263'
+ht-degree: 73%
 
 ---
 
@@ -18,13 +18,13 @@ La [mesure](overview.md) &quot;Appareils uniques&quot; est une mesure [Analyse e
 
 Pour chaque appareil, additionnez toutes les personnes distinctes qui lui sont liées (y compris les personnes anonymes si l’appareil contient des accès non groupés).
 
-Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors.md) dans les suites de rapports autres que les analyses entre appareils. Par exemple, un appareil est partagé par 3 comptes différents. Si les 3 comptes visitent votre site dans une fenêtre de création de compte-rendu des performances, le rapport qui en résulte affiche 3 appareils uniques dans les analyses entre appareils. Les mêmes données en dehors des analyses entre appareils afficheraient 1 visiteur unique.
+Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors.md) dans les suites de rapports autres que les analyses entre appareils. Par exemple, un appareil est partagé par 3 comptes différents. Si les 3 comptes visitent votre site dans une fenêtre de création de rapports, le rapport résultant affiche 3 périphériques uniques dans les analyses entre appareils. Les mêmes données en dehors des analyses entre appareils afficheraient 1 visiteur unique.
 
 ## Exemple
 
-1. Sally arrive sur votre site par le biais d’une publicité sur son téléphone, mais elle n’est pas connectée.
+1. Sally arrive sur votre site par téléphone via une publicité, mais n’est pas connecté.
 1. Sally veut faire un achat, mais elle préférerait le faire sur l’ordinateur familial parce quʼelle y est déjà connectée. Sur l’ordinateur familial, elle effectue un achat.
-1. Le lendemain, elle vérifie sa commande sur son téléphone et s’y authentifie.
+1. Le lendemain, elle vérifie sa commande sur son téléphone et s&#39;y authentifie.
 1. Alice, la femme de Bob, navigue sur votre site en se connectant à son compte sur l’ordinateur familial.
 1. Le frère de Bob, Charles, navigue également sur votre site en se connectant à son compte sur l’ordinateur familial.
 
