@@ -4,10 +4,10 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
+source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 88%
+source-wordcount: '2721'
+ht-degree: 87%
 
 ---
 
@@ -18,6 +18,15 @@ Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## Version 2.27.0
+
+Date de publication : **mardi 12 août 2024**
+
+* Le cookie `s_ac` est maintenant écrit avec l’indicateur `secure` si `writeSecureCookies` a été activé.
+* Correction d’une erreur d’initialisation lorsque la bibliothèque est incorporée.
+* Correction d&#39;une erreur si `localStorage` ou `sessionStorage` avait été désactivé.
+* Les indicateurs User-Agent à forte entrée sont désormais inclus avec les appels de suivi des liens (`tl`) si `collectHighEntropyUserAgentHints` a été activé.
 
 ## Version 2.26.0
 
