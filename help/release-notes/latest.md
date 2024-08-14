@@ -3,18 +3,18 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: cb0eab15dac6d679e9f912010045e6be2e47df4a
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 77%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (juillet 2024)
+# Notes de mise à jour actuelles d’Adobe Analytics (août 2024)
 
-**Dernière mise à jour** : 17 juillet 2024
+**Dernière mise à jour** : jeudi 14 août 2024
 
-Ces notes de mise à jour portent sur la période du 17 juillet 2024 à août 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période allant du 14 août 2024 à septembre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
@@ -26,14 +26,12 @@ Ces notes de mise à jour portent sur la période du 17 juillet 2024 à août�
 
 ## Correctifs dans Adobe Analytics
 
-* Correction d’un problème qui empêchait de se connecter à l’interface d’utilisation Analytics (AN-352953)
-* Correction d’un problème qui empêchait de se connecter à l’application mobile Analytics (AN-352463)
-* Correction d’un problème qui empêchait le téléchargement du projet en tant que PDF (AN-352680)
-* Correction d’un problème en raison duquel les classifications n’étaient pas importées (AN-352178)
+* Correction d’un problème en raison duquel plusieurs valeurs inconnues s’affichaient dans Workspace (AN-353632)
+* Correction d’un problème en raison duquel l’email de notification n’était pas envoyé après l’ajout de nouveaux clients ou de nouveaux profils de produit Analytics dans la console d’administration (AN-350930)
 
 ### Autres correctifs d’Analytics
 
-AN-352905; AN-352902; AN-352693; AN-352905, AN-352902, AN-352693, AN-352659, AN-352619, AN-352577, AN-352575, AN-352572, AN-352571, AN-352549, AN-352501, AN-352499, AN-352478, AN-352466, AN-352437, AN-352378, AN-352355, AN-352341, AN-352318, AN-352297, AN-352272, AN-352267, AN-352263, AN-352088, AN-352019, AN-352018, AN-351978, AN-351908, AN-351809, AN-351750, AN-351689, AN-351624, AN-351564, AN-351524, AN-351507, AN-351416, AN-351414, AN-351405, AN-351299, AN-351283, AN-351231, AN-350710, AN-349912, AN-349786, AN-348300, AN-348061, AN-347865, AN-347676, AN-347478, AN-343611, AN-343114, AN-334124
+AN-354361; AN-354248; AN-354211; AN-354324; AN-351532; AN-; AN-349808; AN-347831; AN-353777; AN-354092; AN-; AN-354064; AN-354202; AN-354006; AN-; AN-; AN-; AN-; AN-; AN-; AN-AN; AN-; AN-; AN-; AN-; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-AN ; AN- ; AN- ; AN-AN ; AN- ; AN-AN-AN-AN-AN-ET-AN-; AN ; AN-AN-AN-AN-AN-ET-AN-AN AN- ; AN- ; AN- ; AN- ; AN- ; AN- ; AN-
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
