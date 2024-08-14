@@ -3,7 +3,7 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff5067a1f7d500c11737ddae507b431b875a44d9
+source-git-commit: 88d60f38d5a87bacb755a49dc884700ac66039ce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 77%
@@ -20,7 +20,7 @@ Ces notes de mise à jour portent sur la période allant du 14 août 2024 à sep
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Améliorations du SDK Web pour le suivi des liens** | Plusieurs améliorations notables sont disponibles dans la dernière version du SDK web concernant le suivi des liens, ce qui bénéficie directement à l’Activity Map. Ces nouvelles fonctionnalités sont disponibles dans la bibliothèque JavaScript du SDK Web et dans l’extension de balise du SDK Web.<ul><li>Regroupement d’événements : lorsqu’une personne clique sur un lien interne, vous pouvez choisir de regrouper les données d’événement sur la page suivante au lieu de déclencher un appel d’événement distinct pour le suivi des liens. Cette amélioration réduit le nombre d’événements que le SDK Web utilise par rapport à votre limite contractuelle.</li><li>Filtrer les propriétés de clic : un nouveau rappel qui remplace `OnBeforeLinkClickSend`. Vous pouvez utiliser ce rappel pour filtrer ou obscurcir les données liées aux liens avant de les envoyer à Adobe.</li></ul><p>Voir [clickCollection](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollection) dans le guide d’utilisation du SDK Web pour plus d’informations.</p> | La version bêta ouverte a commencé le 10 juillet 2024. | À confirmer |
+| **Améliorations du SDK Web pour le suivi des liens** | Plusieurs améliorations notables sont disponibles dans la dernière version du SDK web concernant le suivi des liens, ce qui bénéficie directement à l’Activity Map. Ces nouvelles fonctionnalités sont disponibles dans la bibliothèque JavaScript du SDK Web et dans l’extension de balise du SDK Web.<ul><li>Regroupement d’événements : lorsqu’une personne clique sur un lien interne, vous pouvez choisir de regrouper les données d’événement sur la page suivante au lieu de déclencher un appel d’événement distinct pour le suivi des liens. Cette amélioration réduit le nombre d’événements que le SDK Web utilise par rapport à votre limite contractuelle.</li><li>Filtrer les propriétés de clic : un nouveau rappel qui remplace `OnBeforeLinkClickSend`. Vous pouvez utiliser ce rappel pour filtrer ou obscurcir les données liées aux liens avant de les envoyer à Adobe.</li></ul><p>Voir [clickCollection](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollection) dans le guide d’utilisation du SDK Web pour plus d’informations.</p> | La version bêta ouverte a commencé le 10 juillet 2024. | vendredi 18 juillet 2024 |
 
 {style="table-layout:auto"}
 
