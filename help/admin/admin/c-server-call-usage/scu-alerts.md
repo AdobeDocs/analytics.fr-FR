@@ -4,7 +4,7 @@ title: Alerte d’utilisation des appels au serveur
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
 
-Les alertes d’utilisation des appels au serveur font partie de l’interface utilisateur des [alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+Les alertes d’utilisation des appels au serveur font partie de l’interface utilisateur des [alertes](/help/components/c-alerts/alert-manager.md).
 
 Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 

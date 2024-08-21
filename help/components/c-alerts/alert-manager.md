@@ -3,42 +3,93 @@ description: Gérer les alertes.
 title: Présentation d’Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 49324ef7fd45adeef2c31167d0444a7e67041d6d
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 34%
+source-wordcount: '631'
+ht-degree: 5%
 
 ---
 
 # Gestionnaire d’alertes
 
+Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer diverses tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
+
 La structure du gestionnaire d’alertes ressemble à celle du [ gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [ gestionnaire de mesures calculées ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
 
 ![](assets/alert-manager.png)
 
-## Accès au gestionnaire des alertes
+## Créer des alertes
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Alertes**].
+Pour créer des alertes à partir du gestionnaire d’alertes :
 
-## Actions disponibles dans le gestionnaire d’alertes
+1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
 
-Dans le gestionnaire d’alertes, vous pouvez :
+   ![](assets/alert-manager.png)
 
-* Accéder au Générateur d’alertes en cliquant sur **[!UICONTROL + Ajouter]**
-* Marquer les alertes ; permet d’organiser les alertes pour plus de facilité
-* Supprimer des alertes
-* Renommer les alertes
-* Approuver les alertes
-* Copier des alertes
-* Activer/désactiver des alertes
-* **Renouveler** la date d’expiration d’une alerte. Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées en cliquant sur **[!UICONTROL Renouveler]**. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option **[!UICONTROL Renouveler]**, quelle que soit leur date d’expiration d’origine.
-* Exporter une alerte au format .CSV
-* Modifier des alertes en double-cliquant sur le titre de l’alerte
-* Rechercher des alertes
-* Ajouter des alertes à d’autres suites de rapports
-* Spécifier/modifier le propriétaire d’une alerte
-* Ajouter d’autres filtres
-* Définir la **date d’expiration** d’une alerte
+1. Sélectionnez [!UICONTROL **Ajouter**] (ou [!UICONTROL **Créer une alerte**] si vous n’avez aucune alerte existante).
+
+1. Sélectionnez le type d&#39;alerte correspondant à l&#39;alerte que vous souhaitez créer :
+
+   * [!UICONTROL **Alerte de données Analytics**] : alerte pour vous avertir lorsque des événements anormaux se produisent dans vos données.
+
+     Si vous sélectionnez cette option, passez à la section [Créer des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) pour plus d’informations sur la création d’alertes.
+
+   * [!UICONTROL **Alerte d’utilisation de l’appel au serveur**] : alerte pour vous avertir du risque ou de l’occurrence d’un dépassement de votre consommation d’appels au serveur et de vos données d’engagement.
+
+     Si vous sélectionnez cette option, continuez avec les [alertes d&#39;utilisation des appels au serveur](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >Pour pouvoir accéder à l’utilisation des appels au serveur, vous devez être un administrateur d’Analytics ou un utilisateur disposant de l’autorisation d’utilisation des appels au serveur.
+
+## Gérer les alertes existantes
+
+Vous pouvez effectuer diverses actions sur les alertes existantes, telles que le balisage, le changement de nom, la suppression, etc.
+
+Pour gérer les alertes existantes dans le gestionnaire d’alertes :
+
+1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Sélectionnez une ou plusieurs alertes à gérer.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. Dans la barre d’actions, sélectionnez l’une des options suivantes :
+
+   | Action | Fonction |
+   |---------|----------|
+   | [!UICONTROL **Balise**] | Appliquez une balise à une alerte. Vous pouvez ainsi organiser les alertes pour en faciliter l’utilisation. |
+   | [!UICONTROL **Supprimer**] | Supprime l’alerte. |
+   | [!UICONTROL **Renommer**] | Renomme l’alerte. |
+   | [!UICONTROL **Approuver**] | Marquez l’alerte comme Approuvé. |
+   | [!UICONTROL **Copier**] | Crée une copie (en double) de l’alerte. |
+   | [!UICONTROL **Désactiver**] | Désactive une alerte actuellement activée. |
+   | [!UICONTROL **Activer**] | Active une alerte actuellement désactivée. |
+   | [!UICONTROL **Renouveler**] | Renouvelle la date d’expiration de l’alerte. Cela prolonge la date d’expiration d’un an à partir du jour où vous avez sélectionné cette option, quelle que soit la date d’expiration d’origine. |
+   | [!UICONTROL **Exporter dans un fichier CSV**] | Exporte l’alerte dans un fichier .CSV. |
+
+## Modification d’une alerte
+
+Pour modifier une alerte existante :
+
+1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Sélectionnez le nom de l&#39;alerte dans la colonne [!UICONTROL **Titre et description**].
+
+1. Modifiez l’alerte selon vos besoins.
+
+   Voici quelques-unes des actions que vous pouvez effectuer lors de la modification d’une alerte :
+
+   * Ajouter des alertes à d’autres suites de rapports
+   * Modifier le propriétaire
+   * Mise à jour des filtres
+   * Mettre à jour la date d’expiration
+
+1. Modifiez l’alerte, puis sélectionnez [!UICONTROL **Enregistrer**].
 
 ## Configuration des colonnes
 
