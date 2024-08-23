@@ -4,15 +4,15 @@ description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (août 2024)
 
-**Dernière mise à jour** : mercredi 20 août 2024
+**Dernière mise à jour** : 20 août 2024
 
 Ces notes de mise à jour portent sur la période du 14 août 2024 à septembre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -37,7 +37,7 @@ AN-354361, AN-354248, AN-354211, AN-354324, AN-351532, AN-349808, AN-347831, AN-
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Expiration après 13 mois des`cust_visids`** enregistrés | 20 août 2024 | La version du moteur de traitement des accès Analytics du **20 août 2024** applique une expiration de 13 mois des `cust_visids` enregistrés. Si « Activer la connexité des visiteurs » est activé dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Auparavant, il n’y avait pas d’expiration du mappage d’un `cust_visid` pour un `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis que `visid_high/visid_low` a eu un `cust_visid` sur un accès, le mappage expire. |
+| **Expiration après 13 mois des`cust_visids`** enregistrés | 20 août 2024 | La version du moteur de traitement des accès Analytics du **20 août 2024** applique une expiration de 13 mois des `cust_visids` enregistrés. Si l’option « Activer la connexité des visiteurs » est activée dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Auparavant, il n’y avait aucune expiration du mappage d’un `cust_visid` pour une valeur `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis que `visid_high/visid_low` a eu un `cust_visid` sur un accès, le mappage expire. |
 
 {style="table-layout:auto"}
 
