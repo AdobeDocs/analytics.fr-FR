@@ -4,7 +4,7 @@ description: Découvrez comment limiter une période de suite de rapports virtue
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 41%
@@ -12,6 +12,8 @@ ht-degree: 41%
 ---
 
 # Limiter une suite de rapports virtuelle à certaines dates
+
+{{available-existing-customers}}
 
 Une fois lʼassemblage activé, il débute à une date précise. Supposons que la date soit le 1er juin. La suite de rapports virtuelle des analyses entre appareils contiendra des données désassemblées avant le 1er juin. Vous souhaiterez peut-être masquer les données de la suite de rapports virtuelle avant le 1er juin afin que votre analyse puisse se concentrer sur les périodes après le début du groupement.
 

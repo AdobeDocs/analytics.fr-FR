@@ -4,7 +4,7 @@ description: Comprendre le concept de « relecture » dans les analyses entre 
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Fonctionnement des relectures
+
+{{available-existing-customers}}
 
 Analytics sur l’ensemble des appareils effectue deux transitions de données dans une suite de rapports virtuelle :
 

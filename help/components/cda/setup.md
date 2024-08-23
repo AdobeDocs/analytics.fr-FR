@@ -4,7 +4,7 @@ description: Configurez une suite de rapports virtuelle pour activer les analyse
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 87%
@@ -12,6 +12,8 @@ ht-degree: 87%
 ---
 
 # Configuration des analyses entre appareils
+
+{{available-existing-customers}}
 
 Une fois toutes les conditions préalables remplies, procédez comme suit pour activer les analyses entre appareils. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre cette procédure.
 

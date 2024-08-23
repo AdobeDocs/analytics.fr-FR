@@ -4,14 +4,17 @@ description: Découvrez les conditions préalables et les limites du regroupemen
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # Graphique d’appareil
+
+{{available-existing-customers}}
 
 Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareils hachés propres à votre entreprise. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
 
@@ -22,6 +25,7 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 >[!WARNING]
 >
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
+>
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
 * Votre entreprise doit utiliser le [graphique privé du service Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Voir également la [page d’accueil](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr) dans le guide d’utilisation d’Identity Service.

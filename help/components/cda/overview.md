@@ -4,7 +4,7 @@ description: Modifiez vos données pour passer des données axées sur les appar
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # Analyses entre appareils
+
+{{available-existing-customers}}
 
 Analytics sur l’ensemble des appareils (CDA) est une fonctionnalité qui transforme Analytics, en passant d’une vue centrée sur l’appareil à une vue centrée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge deux workflows globaux pour lier les données des appareils :
 
