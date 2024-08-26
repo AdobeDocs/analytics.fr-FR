@@ -4,24 +4,26 @@ title: Étiquettes relatives à la confidentialité des données pour les variab
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 97%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Étiquettes relatives à la confidentialité des données pour les variables Analytics
 
-## Pourquoi étiqueter vos données ? {#why-label}
-
-Il est de la responsabilité de la clientèle d’Adobe, qui contrôle les données, de se conformer aux lois applicables sur la confidentialité des données, telles que le RGPD et le CCPA. Notre clientèle doit consulter ses propres équipes juridiques pour déterminer comment les données doivent être traitées conformément aux lois sur la confidentialité des données. Le niveau de confidentialité des données est propre à chaque organisation. Adobe permet donc de personnaliser les paramètres de traitement des données selon le niveau de confidentialité des données souhaité. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
+En tant que contrôleurs des données, les clients d’Adobe sont chargés de se conformer aux lois applicables sur la Confidentialité des données, telles que le Règlement général sur la protection des données (RGPD) et le California Consumer Privacy Act (CCPA). Notre clientèle doit consulter ses propres équipes juridiques pour déterminer comment les données doivent être traitées conformément aux lois sur la confidentialité des données. Le niveau de confidentialité des données est propre à chaque organisation. Adobe permet donc de personnaliser les paramètres de traitement des données selon le niveau de confidentialité des données souhaité. Cela permet à chaque client unique de traiter les demandes relatives à la Confidentialité des données de la façon qui convient le mieux à sa marque et à son ensemble de données unique.
 
 Adobe Analytics offre des outils d’étiquetage des données en fonction de leur confidentialité et des restrictions contractuelles. Les étiquettes sont essentielles et utiles pour aider : (1) à identifier les titulaires des données, (2) à déterminer les données à restituer dans le cadre d’une demande d’accès et (3) à identifier les champs de données qui doivent être supprimés dans le cadre d’une demande de suppression.
 
 Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à tel ou tel champ/variable, vous devez [comprendre les ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md) que vous capturez dans vos données Analytics et définir ceux qui seront utilisés pour les demandes relatives à la Confidentialité des données.
 
 La mise en œuvre de la Confidentialité des données pour Adobe Analytics prend en charge les étiquettes suivantes pour les données d’identification, les données sensibles et la gouvernance des données.
+
+>[!NOTE]
+>
+>Les étiquettes I1, I2, S1 et S2 ont les mêmes significations que les étiquettes DULE nommées en conséquence dans Adobe Experience Platform. Cependant, elles sont utilisées à des fins très différentes. Dans Adobe Analytics, ces libellés sont utilisés pour identifier les champs qui doivent être rendus anonymes suite à une demande de Privacy Service. Dans Adobe Experience Platform, elles sont utilisées pour le contrôle d’accès, la gestion des consentements et l’application de restrictions marketing sur les champs étiquetés. Adobe Experience Platform prend en charge de nombreux libellés supplémentaires qui ne sont pas utilisés par Adobe Analytics. En outre, les libellés dans Adobe Experience Platform sont appliqués aux schémas. Si vous utilisez Analytics Data Connector pour importer vos données Adobe Analytics dans Adobe Experience Platform, vous devrez vous assurer que les libellés DULE appropriés sont configurés dans Adobe Experience Platform pour les schémas utilisés par chacune de vos suites de rapports. Les libellés affectés dans Adobe Analytics ne sont pas automatiquement appliqués à ces schémas dans Adobe Experience Platform, car ils ne représentent qu’un sous-ensemble des libellés DULE que vous devrez peut-être appliquer. En outre, différentes suites de rapports peuvent partager un schéma, mais disposent de libellés différents attribués à des props et des evars ayant le même numéro et le schéma peut être partagé par des jeux de données provenant d’autres sources de données, ce qui peut prêter à confusion quant aux raisons pour lesquelles certains champs ont reçu ces libellés.
 
 ## Étiquettes de données d’identification {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Les étiquettes « S » pour les données sensibles sont utilisées pour class
 
 Les étiquettes de gouvernance des données permettent aux personnes de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin d’aider la clientèle d’Adobe à respecter les réglementations et stratégies d’entreprise.
 
-### Étiquettes d’accès aux informations personnelles
+### Étiquettes d’accès aux informations personnelles {#access}
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Les étiquettes de gouvernance des données permettent aux personnes de classer 
 
 Peu de variables recevront d’autres libellés, vous devez donc vous attendre à ce que les libellés d’accès soient appliqués à la plupart de vos variables. Vous pouvez, cependant, en consultation avec votre équipe juridique, décider quelles données collectées doivent être partagées avec les titulaires de données.
 
-### Étiquettes de suppression des informations personnelles
+### Étiquettes de suppression des informations personnelles {#delete}
 
 Contrairement aux autres étiquettes, les étiquettes de suppression ne sont pas mutuellement exclusives. Vous pouvez sélectionner l’une ou l’autre, les deux ou aucune. L’étiquette [!UICONTROL Aucune] n’est pas nécessaire, car le simple fait de ne pas cocher d’option de suppression indique qu’il n’y en a [!UICONTROL Aucune].
 
@@ -74,7 +76,7 @@ Une étiquette de suppression n’est nécessaire que pour les champs contenant 
 
 {style="table-layout:auto"}
 
-### Étiquettes d’identification des informations personnelles
+### Étiquettes d’identification des informations personnelles {#identity}
 
 | Étiquette | Définition | Autres exigences |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Une étiquette de suppression n’est nécessaire que pour les champs contenant 
 
 Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau.
 
-### Utiliser un espace de noms défini précédemment
+### Utiliser un espace de noms défini précédemment {#previously-defined}
 
 Si vous aviez précédemment défini une étiquette d’identification pour d’autres variables dans des suites de rapports de votre société de connexion, vous pouvez sélectionner un espace de noms existant. Vous devez réutiliser l’espace de noms si cette variable contient le même type d’ID que les autres variables déjà étiquetées avec cet espace de noms et que vous souhaitez toutes les rechercher lorsque vous soumettez une demande.
 
@@ -97,7 +99,7 @@ Si vous aviez précédemment défini une étiquette d’identification pour d’
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
 
-### Définir un nouvel espace de noms
+### Définir un nouvel espace de noms {#define}
 
 Vous pouvez également définir un nouvel espace de noms. Nous vous recommandons de limiter les chaînes d’espace de noms à des caractères alphanumériques, plus le trait de soulignement, la barre oblique et l’espace. Ceux-ci seront tous convertis en minuscules.
 

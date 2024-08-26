@@ -4,18 +4,18 @@ title: Bonnes pratiques en matière d’étiquetage
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: 0fd0fad17cf6dcaa042e53d86dfabc5792a065b6
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 92%
+source-wordcount: '2830'
+ht-degree: 88%
 
 ---
 
 # Bonnes pratiques en matière d’étiquetage
 
->[!NOTE]
->
->Souvenez-vous que l’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
+L’étiquetage doit être vérifié chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
+
+Les étiquettes I1, I2, S1 et S2 ont les mêmes significations que les étiquettes DULE nommées en conséquence dans Adobe Experience Platform. Cependant, elles sont utilisées à des fins très différentes. Dans Adobe Analytics, ces libellés sont utilisés pour identifier les champs qui doivent être rendus anonymes suite à une demande de Privacy Service. Dans Adobe Experience Platform, elles sont utilisées pour le contrôle d’accès, la gestion des consentements et l’application de restrictions marketing sur les champs étiquetés. Adobe Experience Platform prend en charge de nombreux libellés supplémentaires qui ne sont pas utilisés par Adobe Analytics. Si vous utilisez Analytics Data Connector pour importer vos données Adobe Analytics dans Adobe Experience Platform, assurez-vous que les libellés I1, I2, S1 et S2 que vous avez appliqués dans Adobe Analytics sont également appliqués aux schémas de Adobe Experience Platform utilisés par les suites de rapports importées.
 
 ## ID directement ou indirectement identifiables {#direct-vs-indirect}
 
@@ -24,7 +24,7 @@ Avant de pouvoir déterminer quelles étiquettes doivent être appliquées à te
 * **Un ID directement identifiable (I1)** : nomme la personne ou fournit une méthode directe pour la contacter. Parmi les exemples on retrouve les noms (même un nom commun comme John Smith qui peut être celui de centaines de personnes), les numéros de téléphone ou adresses électroniques, etc. des individus. Une adresse postale sans nom peut être considérée comme directement identifiable, même si elle ne peut identifier qu’un ménage ou une entreprise plutôt qu’une personne spécifique au sein de ce ménage ou de cette entreprise.
 * **Un ID indirectement identifiable (I2)** : ne permet pas l’identification d’un individu en soi, mais peut être combiné avec d’autres informations (qui peuvent être ou non en votre possession), pour identifier une personne. Les exemples d’ID indirectement indentifiables incluent un numéro de fidélisation des clients ou des clientes, ou des ID spécifiques à chaque client ou cliente utilisés par la gestion de la relation client (CRM) d’une entreprise. En vertu de la Confidentialité des données, les ID anonymes stockés dans les cookies de suivi utilisés par Analytics sont réputés pour être identifiables indirectement, même s’ils ne peuvent identifier qu’un appareil plutôt qu’un individu. Sur un appareil partagé, ces cookies ne peuvent pas distinguer les différents utilisateurs du système. Par exemple, bien que le cookie ne puisse pas être utilisé pour trouver un ordinateur contenant le cookie, si quelqu’un accède à l’ordinateur et localise le cookie, il peut alors ré-associer les données du cookie Analytics à l’ordinateur.
 
-  Une adresse IP est également considérée comme indirectement identifiable, car elle pourrait être uniquement attribuée à un seul appareil. Cependant, les FAI peuvent changer les adresses IP, ce qu’ils font d’ailleurs régulièrement pour la plupart de leurs abonnés, si bien que dans le temps, une même adresse IP peut avoir été utilisée par n’importe lequel de leurs utilisateurs. Il n’est pas rare non plus que de nombreux clients d’un FAI ou plusieurs employés d’une entreprise utilisant le même intranet partagent la même adresse IP externe. Pour cette raison, Adobe ne prend pas en charge l’utilisation d’une adresse IP en tant qu’ID pour une demande d’accès à des informations personnelles. Cependant, lorsqu’un ID que nous acceptons est utilisé dans le cadre d’une requête DELETE, les adresses IP y étant associées seront également supprimées. Vous devez décider s’il existe d’autres ID collectés qui peuvent appartenir à cette catégorie (I1 ou I2), mais qui ne peuvent pas être utilisés comme ID distinctif pour les demandes d’accès à des informations personnelles.
+Une adresse IP est également considérée comme indirectement identifiable, car elle pourrait être uniquement attribuée à un seul appareil. Cependant, les FAI peuvent changer les adresses IP, ce qu’ils font d’ailleurs régulièrement pour la plupart de leurs abonnés, si bien que dans le temps, une même adresse IP peut avoir été utilisée par n’importe lequel de leurs utilisateurs. Il n’est pas rare non plus que de nombreux clients d’un FAI ou plusieurs employés d’une entreprise utilisant le même intranet partagent la même adresse IP externe. Pour cette raison, Adobe ne prend pas en charge l’utilisation d’une adresse IP en tant qu’ID pour une demande d’accès à des informations personnelles. Cependant, lorsqu’un ID que nous acceptons est utilisé dans le cadre d’une requête DELETE, les adresses IP y étant associées seront également supprimées. Vous devez décider s’il existe d’autres ID collectés qui peuvent appartenir à cette catégorie (I1 ou I2), mais qui ne peuvent pas être utilisés comme ID distinctif pour les demandes d’accès à des informations personnelles.
 
 Même si votre entreprise collecte de nombreux ID différents dans vos données Analytics, vous pouvez choisir d’utiliser uniquement un sous-ensemble de ces ID pour les demandes relatives à la Confidentialité des données. Les raisons de ce choix pourraient être les suivantes :
 
