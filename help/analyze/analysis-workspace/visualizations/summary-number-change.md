@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérie
 
 ## Visualisation [!UICONTROL Synthèse des modifications] {#summary-change}
 
-Utilisez la visualisation [!UICONTROL Synthèse des modifications] pour afficher le delta (modification) entre deux chiffres. La couleur verte et la couleur rouge de la [!UICONTROL Synthèse des modifications] peuvent être contrôlées par [polarité d’événement personnalisé](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=fr) ou par l’option [Tendance à la hausse affichée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) dʼune mesure calculée.
+Utilisez la visualisation [!UICONTROL Synthèse des modifications] pour afficher le delta (modification) entre deux chiffres. La couleur verte et la couleur rouge de la [!UICONTROL Synthèse des modifications] peuvent être contrôlées par [polarité d’événement personnalisé](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) ou par l’option [Tendance à la hausse affichée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) dʼune mesure calculée.
 
 Cette visualisation fonctionne comme suit :
 
