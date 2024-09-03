@@ -3,9 +3,9 @@ description: Adobe fournit diverses mesures calculées que vous pouvez utiliser.
 title: Mesures calculées par défaut
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 40%
 
 ---
@@ -21,8 +21,9 @@ Vous trouverez ci-dessous une liste de chaque mesure calculée fournie par Adobe
 >Outre les mesures calculées par défaut décrites sur cette page, vous pouvez ajouter d’autres mesures calculées à une suite de rapports.
 >
 >Vous pouvez :
+>
 > * Ajoutez des mesures calculées par défaut pour le module complémentaire Collection de médias en flux continu, comme décrit dans la section [Mesures calculées](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * Créez des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans [Mesures calculées et calculées avancées (dérivées)](/help/components/c-calcmetrics/cm-overview.md).
+> * Créez des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans la section [Mesures calculées avancées](/help/components/c-calcmetrics/cm-overview.md).
 
 
 | Nom de la mesure calculée | Fonction | Formule |

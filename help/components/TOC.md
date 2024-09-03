@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 99%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 100%
    + [Questions fréquentes sur la gestion des segments hérités](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
 + Mesures calculées {#calculated-metrics}
-   + [Mesures calculées ou calculées avancées (dérivées)](c-calcmetrics/cm-overview.md)
+   + [Mesures calculées ou calculées avancées](c-calcmetrics/cm-overview.md)
    + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
    + Workflow des mesures calculées {#calcmetric-workflow}
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)

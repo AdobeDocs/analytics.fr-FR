@@ -3,10 +3,10 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
    |---------|----------|----------|
    | Segments | Adobe Analytics permet de créer, gérer, partager et appliquer des segments d’audience puissants et ciblés aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr) |
-   | Mesures calculées | Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.  Elles permettent aux personnes responsables du marketing, des produits et de l’analyse de poser des questions relatives aux données sans avoir à modifier votre mise en œuvre d’Adobe Analytics. | [Mesures calculées ou calculées avancées (dérivées)](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=fr) |
+   | Mesures calculées | Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.  Elles permettent aux personnes responsables du marketing, des produits et de l’analyse de poser des questions relatives aux données sans avoir à modifier votre mise en œuvre d’Adobe Analytics. | [Mesures calculées ou calculées avancées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=fr) |
    | Périodes | Analysis Workspace comprend une liste de périodes par défaut que vous pouvez utiliser lors de la création d’analyses. Vous pouvez également créer des périodes personnalisées à destination des utilisateurs et utilisatrices d’Analysis Workspace. | [Création de périodes personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suites de rapports virtuelles | Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment. | [Vue d’ensemble des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) |
    | Alertes | La fonction Alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte. | [Alertes intelligentes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) |
@@ -120,7 +120,7 @@ L’onglet Administration offre des fonctionnalités et des options de configura
    | Services web | Les API de services web offrent un accès par programmation à des rapports marketing et à d’autres services de la suite, qui permettent de dupliquer et d’améliorer les fonctionnalités disponibles dans l’interface d’Analytics. | [Services web](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=fr) |
    | Rapports du Report Builder | Gérez les licences attribuées aux utilisateurs du Report Builder. | [Rapports du Report Builder](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=fr) |
    | Service d’authentification unique | L’authentification unique dans Adobe Experience Cloud est mise en œuvre par l’intermédiaire de l’Admin Console. | [Analytics dans l’Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr) |
-   | Masquer des suites de rapports | Permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics si vous ne souhaitez plus qu’une suite de rapports soit disponible pour vous et vos utilisateurs et utilisatrices. | [Masquage des suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=fr) |  |
+   | Masquer des suites de rapports | Permet de masquer les suites de rapports dans l’interface utilisateur d’Adobe Analytics si vous ne souhaitez plus qu’une suite de rapports soit disponible pour vous et vos utilisateurs et utilisatrices. | [Masquage des suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=fr) |
 
    {style="table-layout:auto"}
 
