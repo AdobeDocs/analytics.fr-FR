@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 85%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (août 2024)
 
-**Dernière mise à jour** : 20 août 2024
+**Dernière mise à jour** : mardi 9 septembre 2024
 
 Ces notes de mise à jour portent sur la période du 14 août 2024 à septembre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,6 +20,7 @@ Ces notes de mise à jour portent sur la période du 14 août 2024 à septembr
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Informations supplémentaires dans la colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder :** affiche le nombre de mesures calculées ou de segments utilisés dans le Report Builder.</li><li>**Composants ad hoc :** indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures et segments calculées ad hoc (également appelés &quot;mesures calculées rapides&quot; et &quot;segments rapides&quot;) ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc signalés séparément de la zone de rapport &quot;Projet&quot; dans la colonne &quot;Utilisé(e) dans&quot;.</li></ul><p>(Mise à jour des liens vers la documentation à suivre.)</p> | S.O. | jeudi 11 septembre 2024 |
 | **Améliorations du SDK Web pour le suivi des liens** | Plusieurs améliorations notables sont disponibles dans la dernière version du SDK web concernant le suivi des liens, ce qui bénéficie directement à l’Activity Map. Ces nouvelles fonctionnalités sont disponibles dans la bibliothèque JavaScript du SDK Web et dans l’extension de balise du SDK Web.<ul><li>Regroupement d’événements : lorsqu’une personne clique sur un lien interne, vous pouvez choisir de regrouper les données d’événement sur la page suivante au lieu de déclencher un appel d’événement distinct pour le suivi des liens. Cette amélioration réduit le nombre d’événements que le SDK Web utilise par rapport à votre limite contractuelle.</li><li>Filtrer les propriétés de clic : un nouveau rappel qui remplace `OnBeforeLinkClickSend`. Vous pouvez utiliser ce rappel pour filtrer ou obscurcir les données liées aux liens avant de les envoyer à Adobe.</li></ul><p>Voir [clickCollection](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollection) dans le guide d’utilisation du SDK Web pour plus d’informations.</p> | La version bêta ouverte a commencé le 10 juillet 2024. | 18 juillet 2024 |
 
 {style="table-layout:auto"}
