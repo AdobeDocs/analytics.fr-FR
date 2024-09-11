@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 57%
+source-wordcount: '750'
+ht-degree: 56%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour portent sur la période du 11 septembre 2024 au début
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 |--- | --- | --- | --- |
-| **Informations supplémentaires dans la colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder** : indique le nombre de mesures calculées ou de segments utilisés dans le Report Builder.</li><li>**Composants ad hoc** : indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures et segments calculées ad hoc (également appelés &quot;mesures calculées rapides&quot; et &quot;segments rapides&quot;) ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc signalés séparément de la zone de rapport &quot;Projet&quot; dans la colonne &quot;Utilisé(e) dans&quot;.</li></ul> |  | 11 septembre 2024 |
+| **Informations supplémentaires dans la colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder** : indique le nombre de mesures calculées ou de segments utilisés dans le Report Builder.</li><li>**Composants ad hoc** : indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures et segments calculées ad hoc (également appelés &quot;mesures calculées rapides&quot; et &quot;segments rapides&quot;) ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc signalés séparément de la zone de rapport &quot;Projet&quot; dans la colonne &quot;Utilisé(e) dans&quot;.</li></ul>Pour plus d’informations, voir [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) et [Gestionnaire de segments](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 septembre 2024 |
 | **Extension v3 Activity Map** | L’extension Activity Map v3 est désormais disponible. Si l’extension v2 est installée, désinstallez-la avant d’installer l’extension v3. Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** pour obtenir la dernière version de l’extension. |  | 3 septembre 2024 |
 
 
