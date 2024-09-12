@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 56%
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour portent sur la période du 11 septembre 2024 au début
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 |--- | --- | --- | --- |
-| **Informations supplémentaires dans la colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne &quot;Utilisé(e) dans&quot; du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder** : indique le nombre de mesures calculées ou de segments utilisés dans le Report Builder.</li><li>**Composants ad hoc** : indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures et segments calculées ad hoc (également appelés &quot;mesures calculées rapides&quot; et &quot;segments rapides&quot;) ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc signalés séparément de la zone de rapport &quot;Projet&quot; dans la colonne &quot;Utilisé(e) dans&quot;.</li></ul>Pour plus d’informations, voir [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) et [Gestionnaire de segments](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 septembre 2024 |
+| **Informations supplémentaires dans la colonne « Utilisation dans » du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne « Utilisation dans » du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder** : indique le nombre de mesures calculées ou de segments utilisés dans le Report Builder.</li><li>**Composants ad hoc** : indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures calculées et segments ad hoc (également appelés « mesures calculées rapides » et « segments rapides ») ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc rapportés séparément de la zone de rapport « Projet » dans la colonne « Utilisation dans ».</li></ul>Pour plus d’informations, voir [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) et [Gestionnaire de segments](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 septembre 2024 |
 | **Extension v3 Activity Map** | L’extension Activity Map v3 est désormais disponible. Si l’extension v2 est installée, désinstallez-la avant d’installer l’extension v3. Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** pour obtenir la dernière version de l’extension. |  | 3 septembre 2024 |
 
 
@@ -49,7 +49,7 @@ Autres correctifs : AN-349698; AN-349880; AN-354860; AN-355355; AN-356289;
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
 | **Expiration après 13 mois des`cust_visids`** enregistrés | 20 août 2024 | La version du moteur de traitement des accès Analytics du **20 août 2024** applique une expiration de 13 mois des `cust_visids` enregistrés. Si l’option « Activer la connexité des visiteurs » est activée dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Auparavant, il n’y avait aucune expiration du mappage d’un `cust_visid` pour une valeur `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis que `visid_high/visid_low` a eu un `cust_visid` sur un accès, le mappage expire. |
-| **Champs XDM de détails de mise en oeuvre supplémentaires automatiquement mappés** | jeudi 11 septembre 2024 | Lors de l’utilisation de l’Edge Network Adobe Experience Platform pour envoyer des données à Adobe Analytics, les champs XDM `xdm.implementationdetails.name` et `xdm.implementationdetails.environment` sont désormais toujours associés aux variables de données contextuelles `c.a.x.implementationdetails.name` et `c.a.x.implementationdetails.environment`. Auparavant, certains scénarios empêchaient le renseignement de ces valeurs. Ajustez les règles de traitement appropriées en fonction de la disponibilité de ces valeurs. |
+| **Champs XDM de détails de mise en oeuvre supplémentaires automatiquement mappés** | 11 septembre 2024 | Lors de l’utilisation de l’Edge Network Adobe Experience Platform pour envoyer des données à Adobe Analytics, les champs XDM `xdm.implementationdetails.name` et `xdm.implementationdetails.environment` sont désormais toujours associés aux variables de données contextuelles `c.a.x.implementationdetails.name` et `c.a.x.implementationdetails.environment`. Auparavant, certains scénarios empêchaient le renseignement de ces valeurs. Ajustez les règles de traitement appropriées en fonction de la disponibilité de ces valeurs. |
 
 {style="table-layout:auto"}
 
