@@ -3,10 +3,10 @@ description: Description de la procédure de création d’une requête Data War
 title: Création d’un rapport pour une demande de Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ Pour créer un rapport pour une demande de Data Warehouse :
 1. Sur la page de demande Nouveau Data Warehouse, sélectionnez l’onglet [!UICONTROL **Créer votre rapport**] .
 
    ![Créer l’onglet de rapport](assets/build-report.png)
+
+1. Dans le coin supérieur gauche, sélectionnez la suite de rapports à utiliser lors de la création de votre rapport de Data Warehouse.
+
+   Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec Data Warehouse. Une erreur s’affiche si vous choisissez une suite de rapports virtuelle contenant des segments incompatibles.
+
+   Pour obtenir la liste des fonctions prises en charge dans un segment, reportez-vous à la section [Compatibilité des segments de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
 1. Faites glisser des segments, des mesures et des dimensions dans le créateur. Le rapport que vous créez détermine les données qui sont incluses dans la requête du Data Warehouse.
 
