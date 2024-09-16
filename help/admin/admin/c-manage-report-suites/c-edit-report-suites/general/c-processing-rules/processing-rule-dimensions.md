@@ -5,7 +5,7 @@ title: Dimensions disponibles pour les règles de traitement
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | --- | --- | --- |
 | Valeur personnalisée | Lecture seule | Valeurs ou texte personnalisés saisis directement dans l’action d’une règle de traitement. |
 | Valeur concaténée | Lecture seule | Valeurs créées en combinant deux valeurs. Par exemple, le canal et le nom de page peuvent être combinés pour créer une sous-catégorie. |
-
-{style="table-layout:auto"}
 
 ## Attributs d’accès
 
@@ -47,11 +45,9 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | Domaine racine de page | Lecture seule | Domaine de page de l’URL active, à l’exception des sous-domaines. |
 | Perspective client | Lecture + écriture | Indicateur qui détermine si l’accès est un accès mobile en arrière-plan. |
 
-{style="table-layout:auto"}
-
 ## Variables de conversion
 
-| Variable | Description de l’état de lecture/écriture |
+| Variable | État de lecture/écriture | Description |
 | --- | --- | --- |
 | eVar 1-250 | Lecture + écriture | Dimensions [eVar](/help/components/dimensions/evar.md). |
 | Campagne | Lecture + écriture | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
@@ -60,8 +56,6 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | Zip | Lecture + écriture | Dimension [Code postal](/help/components/dimensions/zip-code.md). |
 | Code de devise | Lecture + écriture | La variable de mise en oeuvre [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
 | ID de transaction | Lecture + écriture | La variable de mise en oeuvre [`transactionID`](/help/import/data-sources/transactionid.md). |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe ne prend pas en charge la définition de la variable d’implémentation [`products`](/help/implement/vars/page-vars/products.md) à l’aide de règles de traitement.
@@ -74,8 +68,6 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | Hiérarchie 1-5 | Lecture + écriture | Dimensions [Hiérarchie](/help/components/dimensions/hierarchy.md). |
 | Serveur | Lecture + écriture | La dimension [Serveur](/help/components/dimensions/server.md). |
 | Canal | Lecture + écriture | Dimension [Section du site](/help/components/dimensions/site-section.md). |
-
-{style="table-layout:auto"}
 
 ## Variables contextuelles
 
@@ -96,4 +88,3 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | Événement 1-1 000 | Ecrire uniquement | [Événements personnalisés](/help/components/metrics/custom-events.md). |
 | Consultations de produit | Ecrire uniquement | Mesure [Consultations de produit](/help/components/metrics/product-views.md). |
 
-{style="table-layout:auto"}
