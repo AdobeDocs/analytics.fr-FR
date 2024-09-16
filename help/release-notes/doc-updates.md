@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
-workflow-type: ht
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
 source-wordcount: '5972'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour des messages d’erreur courants | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
 | Mise à jour du nom du produit qui fait référence aux fonctionnalités de diffusion en continu (streaming) | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
-| Amélioration de la documentation sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md), la [gestion des alertes](/help/components/c-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| Amélioration de la documentation sur les alertes intelligentes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/components/c-alerts/alert-builder.md), la [gestion des alertes](/help/components/c-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` obsolète | Maintenant qu’AppMeasurement détecte automatiquement le domaine correct sur lequel les cookies doivent être définis, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) est obsolète. |
 | Retrait de la documentation de Data Connectors | Déplacement de la page de fin de vie de Data Connectors vers [Produits arrêtés](https://experienceleague.adobe.com/fr/docs/discontinued/using/data-connectors). |
 | **Mai 2024** | |

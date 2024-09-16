@@ -3,78 +3,49 @@ description: Le système d’alertes intelligentes permet de contrôler plus pr�
 title: Alertes intelligentes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 68%
+source-wordcount: '277'
+ht-degree: 59%
 
 ---
 
-# Alertes intelligentes
+# Alertes intelligentes - Aperçu
 
-Le système d’alertes intelligentes permet de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte.
+Les alertes intelligentes (ou simplement les &quot;alertes&quot;) dans Adobe Analytics vous permettent d’être averti immédiatement en cas d’événements anormaux dans vos données.
 
-Voici une présentation vidéo :
-
->[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
-
-## Présentation {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
-
->[!IMPORTANT]
->
->Les alertes intelligentes ne sont disponibles que pour les clients Adobe [!DNL Analytics] Prime et Adobe [!DNL Analytics] Ultimate.
+Vous pouvez définir le déclenchement d’alertes en fonction de seuils d’anomalie, de modification des pourcentages ou de points de données spécifiques. Les alertes fournissent des contrôles granulaires qui s’intègrent à la [détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md), ce qui se déclenche lorsque vous en avez le plus besoin.
 
 Grâce aux alertes intelligentes, vous pouvez :
 
-* Créer des alertes d’après les anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,90 % ; % de changement ; au-dessus/au-dessous).
-* Prévisualiser le nombre de fois où une alerte sera déclenchée.
-* Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
-* Créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte.
+* créer des alertes d’après les anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,90 % ; % de changement ; au-dessus/au-dessous) ;
+* prévisualiser le nombre de fois où une alerte sera déclenchée ;
+* envoyer des alertes par courrier électronique ou par SMS, avec des liens vers des projets Analysis Workspace générés automatiquement ;
+* créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte
 
-Le système d’alerte se compose des éléments suivants : Générateur d’alertes, Gestionnaire d’alertes, Aperçu des alertes, ainsi qu’un meilleur accès en contexte à la création des alertes. L’interface utilisateur de l’ancien système d’alerte ne sera plus accessible, mais les alertes seront migrées. Toutefois, certaines de leurs fonctions héritées [ne sont plus disponibles](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=fr).
+Le tutoriel vidéo suivant présente un aperçu de base des alertes : [Alertes intelligentes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=fr) (5:34)
 
-Le Générateur d’alertes peut être consulté de trois façons :
+## Recherche en amont des alertes par anomalies
 
-* En utilisant le raccourci clavier suivant dans Analysis Workspace :
+Si une alerte utilise la détection des anomalies, la période de formation varie en fonction de la granularité sélectionnée pour l’alerte.
 
-  `ctrl (or cmd) + shift + a`
-* En sélectionnant directement le Générateur d’alertes : **[!UICONTROL Workspace]** > **[!UICONTROL Composants]** > **[!UICONTROL Nouvelle alerte]** .
-* En sélectionnant une ou plusieurs lignes de tableau à structure libre, en cliquant avec le bouton droit de la souris puis en sélectionnant **[!UICONTROL Créer une alerte d’après la sélection]**. Le Générateur d’alertes s’ouvre. Les mesures et filtres appropriés sont préappliqués à partir du tableau. Vous pouvez ensuite modifier l’alerte, si nécessaire.
+* Granularité mensuelle : 15 mois + même période l’an dernier
+* Granularité hebdomadaire : 15 semaines + même période l’an dernier
+* Granularité quotidienne : 35 jours + même période l’an dernier
+* Granularité horaire : 336 heures
 
-  ![](assets/create-alert-from-selection.png)
+Pour plus d’informations, voir [Techniques statistiques de la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
+## Créer des alertes
 
-## FAQ : Calcul et déclenchement des alertes {#trigger}
+Pour plus d’informations sur la création d’alertes dans Adobe Analytics, voir [Créer des alertes](/help/components/c-alerts/alert-builder.md).
 
-Les seuils (en %) sont des écarts types. Par exemple, 95 % = 2 écarts types et 99 % = 3 écarts types. Selon la granularité temporelle choisie, [différents modèles](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) sont utilisés pour calculer l’écart (le nombre d’écarts types) entre chaque point de données et la norme. Si vous définissez un seuil inférieur (90 %, par exemple), vous obtiendrez davantage d’anomalies qu’avec un seuil plus élevé (99 %). Les seuils de 99,75 % et 99,99 % ont été introduits précisément pour la granularité horaire, afin de limiter le nombre d’anomalies déclenchées.
+>[!IMPORTANT]
+>
+>L’utilisation de données horodatées pour créer des alertes peut entraîner un déclenchement incorrect des alertes. Adobe recommande d’utiliser des données non horodatées pour les alertes intelligentes.
 
-+++ Jusqu’où remonte la détection des anomalies de l’alerte pour déterminer les anomalies de données ?
+## Gérer les alertes
 
-La période de formation varie selon la granularité sélectionnée. Pour en savoir plus, voir Techniques statistiques utilisées dans <a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">Détection des anomalies</a>. Résumé :
+Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer diverses tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
 
-* Mensuel = 15 mois + même période l’an dernier
-* Hebdomadaire = 15 semaines + même période l’an dernier
-* Quotidienne = 35 jours + même période l’an dernier
-* Horaire = 336 heures
-
-+++
-
-+++ Pour être alerté uniquement en cas de creux ou de pic du comportement, puis-je utiliser la fonction d’anomalie ou dois-je utiliser une valeur absolue ?
-
-L’utilisation de la valeur absolue déclenche toujours des alertes en cas de creux et de pics. Vous ne pouvez pas isoler les alertes pour les creux seulement ou les pics seulement.
-
-+++
-
-+++ Puis-je configurer les alertes pour qu’elles se déclenchent uniquement pendant certaines heures de la journée (heures ouvrables ou non ouvrables, par exemple) ?
-
-Actuellement, non.
-
-+++
-
-+++ Puis-je obtenir un tableau des &quot;valeurs attendues&quot; incluant la ligne pointillée, ou un résultat quelconque indiquant ce que sont ces valeurs ?
-
-Pas dans Workspace, mais vous pouvez en Report Builder. Voir [cette vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=fr) sur la détection des anomalies dans Report Builder.
-
-Gardez à l’esprit que le Report Builder applique des méthodes de détection des anomalies moins élaborées. Le Report Builder utilise une période de formation fixe de 30 jours, avec un intervalle fixe de 95 %.
-
-+++
+Pour plus d’informations sur la gestion des alertes existantes dans Adobe Analytics, voir [Gestion des alertes](/help/components/c-alerts/alert-manager.md).

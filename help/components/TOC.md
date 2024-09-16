@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [Limiter une suite de rapports virtuelle à certaines dates](cda/limit-vrs-date.md)
    + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
-   + [Alertes intelligentes](c-alerts/intellligent-alerts.md)
-   + [Générateur d’alertes](c-alerts/alert-builder.md)
-   + [Gestionnaire d’alertes](c-alerts/alert-manager.md)
-   + [Alertes intelligentes - Exemples d’utilisation](c-alerts/alerts-use-cases.md)
+   + [Vue d’ensemble](c-alerts/intellligent-alerts.md)
+   + [Créer](c-alerts/alert-builder.md)
+   + [Gérer](c-alerts/alert-manager.md)
+   + [Cas d’utilisation](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
    + [Présentation des classifications](classifications/c-classifications.md)
    + Jeux de classifications {#sets}
