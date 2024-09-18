@@ -3,9 +3,9 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Cas d’utilisation d’Analytics
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -51,8 +51,8 @@ L’analyse prédictive utilise le machine learning et la modélisation statisti
 
 Voici les fonctionnalités clés d’Adobe Analytics à des fins d’analyse prédictive :
 
-* [Détection des anomalies](#anomaly-detection)
+* [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [Analyse des contributions](#contribution-analysis)
+* [Analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [Alertes intelligentes](#intelligent-alerts)
+* [Alertes](/help/components/c-alerts/intellligent-alerts.md)

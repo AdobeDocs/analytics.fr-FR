@@ -4,9 +4,9 @@ description: Passez votre implémentation en revue tous les 6 mois pour vous ass
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 4cbc654b6a17a84b373c254a0dd0e44a1740872d
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '384'
 ht-degree: 80%
 
 ---
@@ -23,7 +23,7 @@ Rencontrez le propriétaire de l’entreprise et/ou les analystes pour passer en
 
 Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Démarrez par les mesures et variables les plus importantes : celles qui sont associées à vos [5 principaux indicateurs clés de performance](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=fr#review). Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des [ alertes intelligentes ](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) pour chacune) afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des [alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) pour chacune) afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) pour surveiller les tendances générales de vos mesures et variables.
 
 Ne laissez pas votre implémentation gonflée par les mesures et variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou qu’elle n’utilise plus. Vous voudrez peut-être les supprimer ou les réutiliser ultérieurement.

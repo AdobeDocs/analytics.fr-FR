@@ -4,9 +4,9 @@ title: Annulation des demandes de création de rapports dans le Gestionnaire d�
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ Les applications comprennent les éléments suivants :
 * Report Builder
 * Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.
 * Appels d’API à partir de la version d’API 1.4 ou 2.0
-* Alertes intelligentes
+* Alertes
 * Partager avec n’importe qui lien
 * Toute autre application qui interroge le moteur de reporting Analytics
 
