@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Configuration de comptes d’importation et d’exportation dans le cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -118,7 +118,7 @@ Pour configurer un compte d’importation ou d’exportation cloud :
 
    >[!NOTE]
    >
-   >Les comptes de messagerie ne peuvent être utilisés qu’avec les [flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes de messagerie ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Jeux de classifications](/help/components/classifications/sets/overview.md)).
+   >Les comptes de messagerie ne peuvent être utilisés qu&#39;avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Les comptes de messagerie ne sont pas pris en charge avec les [flux de données](/help/export/analytics-data-feed/create-feed.md) ou les [jeux de classifications](/help/components/classifications/sets/overview.md)).
 
    Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
