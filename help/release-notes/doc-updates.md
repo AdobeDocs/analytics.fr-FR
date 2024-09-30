@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5971'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour des messages d’erreur courants | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
 | Mise à jour du nom du produit qui fait référence aux fonctionnalités de diffusion en continu (streaming) | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
-| Documentation sur les alertes améliorée | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/components/c-alerts/alert-builder.md), la [gestion des alertes](/help/components/c-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/components/c-alerts/intellligent-alerts.md). |
+| Amélioration de la documentation sur les alertes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/components/c-alerts/alert-builder.md), la [gestion des alertes](/help/components/c-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` obsolète | Maintenant qu’AppMeasurement détecte automatiquement le domaine correct sur lequel les cookies doivent être définis, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) est obsolète. |
 | Retrait de la documentation de Data Connectors | Déplacement de la page de fin de vie de Data Connectors vers [Produits arrêtés](https://experienceleague.adobe.com/fr/docs/discontinued/using/data-connectors). |
 | **Mai 2024** | |
@@ -147,7 +147,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Data Workbench | [Annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) |
 | Indications du client ou de la cliente | Nouvelles [vue d’ensemble et FAQ](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=fr). |
 | Résumé des mesures clés | Nouvelle rubrique sur la visualisation du [résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
-| Jeux de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
+| Ensembles de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
 | Application mobile : vues détaillées personnalisées | Nouvelle rubrique sur les [vues détaillées personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr). |
 | VISTA | Nouvelle page expliquant les principes de base des [règles VISTA](/help/technotes/vista.md). |
 | **Septembre 2022** | |

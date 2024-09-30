@@ -4,9 +4,9 @@ title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Mesures calculées | Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.  Elles permettent aux personnes responsables du marketing, des produits et de l’analyse de poser des questions relatives aux données sans avoir à modifier votre mise en œuvre d’Adobe Analytics. | [Mesures calculées et mesures calculées avancées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=fr) |
    | Périodes | Analysis Workspace comprend une liste de périodes par défaut que vous pouvez utiliser lors de la création d’analyses. Vous pouvez également créer des périodes personnalisées à destination des utilisateurs et utilisatrices d’Analysis Workspace. | [Création de périodes personnalisées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suites de rapports virtuelles | Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment. | [Vue d’ensemble des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=fr) |
-   | Alertes | Les alertes permettent de contrôler plus précisément les alertes et d’intégrer la détection des anomalies au système d’alerte. | [Présentation des alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) |
+   | Alertes | Les alertes permettent de contrôler plus précisément les alertes et intègre la détection des anomalies au système d’alerte. | [Vue d’ensemble des alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) |
    | Annotations | Les annotations dans Workspace vous permettent de communiquer efficacement les nuances et informations sur les données contextuelles à votre organisation. Elles vous permettent de lier les événements du calendrier à des dimensions et mesures spécifiques. | [Gestion des annotations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=fr) |
    | Ensembles de classifications | Les ensembles de classifications fournissent une interface unique pour gérer les classifications et les règles. <p>Une classification est une méthode permettant de catégoriser des données de variables Analytics, puis de les afficher de différentes manières lors de la création de rapports. Vous établissez une relation entre une valeur de variable et les métadonnées associées à cette valeur. Les classifications peuvent être utilisées sur la plupart des dimensions personnalisées, telles que le code de suivi, les props et les eVars.</p> | [Vue d’ensemble des ensembles de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=fr) |
    | Emplacements | Pour importer des données de classification d’Adobe Analytics à partir d’une destination cloud, vous devez d’abord ajouter et configurer l’emplacement dans lequel vous souhaitez que les données de classification soient collectées. Vous pouvez créer, modifier ou supprimer les emplacements. | [Gestionnaire d’emplacements](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=fr) |
@@ -79,7 +79,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Search &amp; Promote | Cette fonctionnalité n’est plus prise en charge. |  |
    | Mobile Services | Cette fonctionnalité n’est plus prise en charge. |  |
    | Tableaux de bord Analytics (application mobile) | Grâce à l’application Tableaux de bords Adobe Analytics, obtenez des informations d’Adobe Analytics à tout moment, même en déplacement. L’application vous permet de consulter des cartes de performance intuitives, que vous créez dans l’interface utilisateur de bureau d’Adobe Analytics. | L’application Tableaux de bord Adobe Analytics dans l’App Store pour iOS ou Google Play |
-   | Report Builder | Le Report Builder Adobe est un complément externe pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=fr) |
+   | Report Builder | Le Report Builder Adobe est un complément externe pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=fr) |
 
    {style="table-layout:auto"}
 
