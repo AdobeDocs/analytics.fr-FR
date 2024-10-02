@@ -3,52 +3,40 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
-workflow-type: ht
-source-wordcount: '750'
-ht-degree: 100%
+source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 88%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (septembre 2024)
+# Notes de mise à jour actuelles d’Adobe Analytics (octobre 2024)
 
+**Dernière mise à jour** : jeudi 2 octobre 2024
 
-**Dernière mise à jour** : 11 septembre 2024
-
-Ces notes de mise à jour portent sur la période allant du 11 septembre 2024 jusqu’au début du mois d’octobre. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du jeudi 2 octobre 2024 au mercredi 22 octobre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
-|--- | --- | --- | --- |
-| **Informations supplémentaires dans la colonne « Utilisation dans » du gestionnaire de mesures calculées et du gestionnaire de segments** | La colonne « Utilisation dans » du gestionnaire de mesures calculées et du gestionnaire de segments contient les nouvelles zones de rapports suivantes :<ul><li>**Report Builder** : affiche le nombre de mesures calculées ou de segments utilisés dans Report Builder.</li><li>**Composants ad hoc** : indique le nombre de mesures calculées ad hoc ou de segments ad hoc utilisés dans les projets. Ces mesures calculées et segments ad hoc (également appelés « mesures calculées rapides » et « segments rapides ») ne peuvent être utilisés que dans le projet dans lequel ils ont été créés. Ils sont donc rapportés séparément de la zone de rapport « Projet » dans la colonne « Utilisation dans ».</li></ul>Pour plus d’informations, voir [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/fr/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager) et [Gestionnaire de segments](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-manage). |  | 11 septembre 2024 |
-| **Extension Activity Map v3** | L’extension Activity Map v3 est désormais disponible. Si l’extension v2 est installée, désinstallez-la avant d’installer l’extension v3. Accédez à **[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** pour obtenir la dernière version de l’extension. |  | 3 septembre 2024 |
+| ----------- | ---------- | ------- | ---- |
+| S.O. | S.O. | S.O. | S.O. |
+
 
 
 ## Correctifs dans Adobe Analytics
 
-A4T : AN-355736
-Activity Map : AN-353779
-Analysis Workspace : AN-348485 ; AN-349693 ; AN-357247
-Application mobile Analytics : AN-352645
-Classifications : AN-355636 ; AN-355651 ; AN-355753 ; AN-356005 ; AN-356439 ; AN-356540 ; AN-356577 ; AN-356622
-Analyses entre appareils : AN-355138
-Flux de données : AN-356258 ; AN-357133
-Data Warehouse : AN-339292 ; AN-353807
-Exporter les emplacements : AN-356912
-API de confidentialité : AN-352420
-Report Builder : AN-352555 ; AN-354316
-Projets planifiés : AN-355971
-Segmentation : AN-352095;
-Rapport Target : AN-355748
-
-Autres correctifs : AN-349698 ; AN-349880 ; AN-354860 ; AN-355355 ; AN-356289 ;
+Analysis Workspace : AN-343611 ; AN-355870 ; AN-357100 ; AN-358364 ; AN-358756 ; AN-359269
+Application mobile Analytics : AN-354085
+Classifications : AN-353074 ; AN-357533 ; AN-358308 ; AN-358350 ; AN-358732 ; AN-358925 ; AN-359249
+Analyses entre appareils : AN-357968
+Flux de données : AN-358489 ; AN-358542
+Data Warehouse : AN-352181 ; AN-356701 ; AN-356802 ; AN-356804 ; AN-359162
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Expiration après 13 mois des`cust_visids`** enregistrés | 20 août 2024 | La version du moteur de traitement des accès Analytics du **20 août 2024** applique une expiration de 13 mois des `cust_visids` enregistrés. Si l’option « Activer la connexité des visiteurs » est activée dans la suite de rapports, ce paramètre est utilisé pour rechercher le `cust_visid` pour une `visid_high/visid_low value` sans `cust_visid` sur l’accès. Auparavant, il n’y avait aucune expiration du mappage d’un `cust_visid` pour une valeur `visid_high/visid_low`. Avec cette version, si 13 mois ou plus se sont écoulés depuis que `visid_high/visid_low` a eu un `cust_visid` sur un accès, le mappage expire. |
 | **Champs XDM de détails d’implémentation supplémentaires automatiquement mappés** | 11 septembre 2024 | Lors de l’utilisation d’Edge Network Adobe Experience Platform pour envoyer des données à Adobe Analytics, les champs XDM `xdm.implementationdetails.name` et `xdm.implementationdetails.environment` sont désormais toujours mappés sur les variables de données contextuelles `c.a.x.implementationdetails.name` et `c.a.x.implementationdetails.environment`. Auparavant, certains scénarios empêchaient le renseignement de ces valeurs. Ajustez les règles de traitement appropriées en fonction de la disponibilité de ces valeurs. |
 
 {style="table-layout:auto"}
