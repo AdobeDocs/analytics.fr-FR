@@ -4,10 +4,10 @@ description: Présentation de l’utilisation des données XDM d’Experience P
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
+source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 85%
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
@@ -35,9 +35,17 @@ L’Edge Network utilise la logique suivante pour déterminer les pages vues Ado
 | La payload XDM contient... | Adobe Analytics... |
 |---|---|
 | `xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.URL` et pas `xdm.web.webInteraction.type` | considère que la payload est une **page vue** |
+| `xdm.eventType = web.webPageDetails.pageViews` | considère que la payload est une **page vue** |
 | `xdm.web.webInteraction.type` et (`xdm.web.webInteraction.name` ou `xdm.web.webInteraction.url`) | considère que la payload est un **événement de lien** |
-| `web.webInteraction.type` et (`web.webPageDetails.name` ou `web.webPageDetails.url`) | considère que la payload est un **événement de lien** <br/>`web.webPageDetails.name` et `web.webPageDetails.URL` sont définis sur `null` |
-| pas `web.webInteraction.type` et (pas `webPageDetails.name` et pas `web.webPageDetails.URL`) | supprime la payload et ignore les données |
+| `xdm.web.webInteraction.type` et (`xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.url`) | considère la payload comme un **événement de lien** <br/> `xdm.web.webPageDetails.name` et `xdm.web.webPageDetails.URL` sur `null` |
+| pas `xdm.web.webInteraction.type` et (pas `xdm.webPageDetails.name` et pas `xdm.web.webPageDetails.URL`) | supprime la payload et ignore les données |
+
+{style="table-layout:auto"}
+
+Outre la différenciation des pages vues et des clics sur les liens, la logique suivante détermine si certains événements sont classés comme A4T ou sont ignorés.
+
+| La payload XDM contient... | Adobe Analytics... |
+| --- | --- |
 | `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` et `xdm._experience.decisioning` | considère la charge utile comme un appel **A4T**. |
 | `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` et non `xdm._experience.decisioning` | supprime la payload et ignore les données |
 | `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` et `xdm._experience.decisioning` et non `web.webInteraction.type` | considère la charge utile comme un appel **A4T**. |
