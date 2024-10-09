@@ -3,10 +3,10 @@ title: Visites
 description: Séquence de pages vues lors d’une session unique.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Une visite ne coïncide pas nécessairement avec une session de navigateur en ra
 
 Une nouvelle visite commence si le visiteur :
 
-* Efface son cache en cours de session et continue à parcourir votre site.
+* Supprime leurs cookies en milieu de session et continue à parcourir votre site.
 * Laisse votre site ouvert dans un onglet pendant plus de 30 minutes, puis poursuit la navigation.
 * Ouvre un autre navigateur et accède à votre site depuis le même ordinateur.
 * Consulte votre site depuis un autre appareil
