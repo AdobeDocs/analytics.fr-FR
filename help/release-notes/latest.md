@@ -4,17 +4,17 @@ description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre 2024)
 
-**Dernière mise à jour** : jeudi 2 octobre 2024
+**Dernière mise à jour** : 2 octobre 2024
 
-Ces notes de mise à jour portent sur la période du jeudi 2 octobre 2024 au mercredi 22 octobre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 2 au 22 octobre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
@@ -26,12 +26,12 @@ Ces notes de mise à jour portent sur la période du jeudi 2 octobre 2024 au mer
 
 ## Correctifs dans Adobe Analytics
 
-Analysis Workspace : AN-343611 ; AN-355870 ; AN-357100 ; AN-358364 ; AN-358756 ; AN-359269
-Application mobile Analytics : AN-354085
-Classifications : AN-353074 ; AN-357533 ; AN-358308 ; AN-358350 ; AN-358732 ; AN-358925 ; AN-359249
-Analyses entre appareils : AN-357968
-Flux de données : AN-358489 ; AN-358542
-Data Warehouse : AN-352181 ; AN-356701 ; AN-356802 ; AN-356804 ; AN-359162
+Analysis Workspace : AN-343611 ; AN-355870 ; AN-357100 ; AN-358364 ; AN-358756 ; AN-359269
+Application mobile Analytics : AN-354085
+Classifications : AN-353074 ; AN-357533 ; AN-358308 ; AN-358350 ; AN-358732 ; AN-358925 ; AN-359249
+Analyses entre appareils : AN-357968
+Flux de données : AN-358489 ; AN-358542
+Data Warehouse : AN-352181 ; AN-356701 ; AN-356802 ; AN-356804 ; AN-359162
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
