@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+workflow-type: tm+mt
 source-wordcount: '5971'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Février 2022** | |
 | Mode de prévisualisation du projet de cartes de performance mobile | Le [mode Prévisualisation](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=fr#preview) vous permet de prévisualiser l’expérience avant d’enregistrer et de partager une carte de performance. |
 | Point dʼentrée des projets API | Ajoutez, modifiez ou supprimez des projets Analysis Workspace à l’aide de l’API. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| Mise à jour de la rubrique sur la suspension des anciennes tâches planifiées de Report Builder | **À compter du 15 avril 2022**, Adobe prévoit de [suspendre toutes les tâches planifiées de Report Builder qui ont été créées il y a plus de deux ans](/help/analyze/report-builder/r-arb-scheduled-reports.md). |
+| Mise à jour de la rubrique sur la suspension des anciennes tâches planifiées de Report Builder | **À compter du 15 avril 2022**, Adobe prévoit de [suspendre toutes les tâches planifiées de Report Builder qui ont été créées il y a plus de deux ans](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md). |
 
 ### 2021 {#year2021}
 

@@ -3,7 +3,7 @@ description: Explique comment migrer des composants et des projets d’Adobe Ana
 title: Migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Avant de migrer des projets vers Customer Journey Analytics, découvrez-en plus 
 
    Répétez cette procédure pour chaque dimension ou mesure contenant l’icône d’avertissement.
 
-   Une fois que toutes les dimensions et mesures de la suite de rapports Adobe Analytics sont mappées à une dimension ou à une mesure dans la vue de données du Customer Journey Analytics, une coche verte ![coche](assets/report-suite-check.png) s’affiche en regard du nom de la suite de rapports dans la section [!UICONTROL **Mapper le schéma des suites de rapports**] .
+   Une fois que toutes les dimensions et mesures de la suite de rapports Adobe Analytics sont mappées à une dimension ou à une mesure dans la suite de rapports du Customer Journey Analytics, une coche verte ![coche](assets/report-suite-check.png) s’affiche en regard du nom de la suite de rapports dans la section [!UICONTROL **Mapper le schéma des suites de rapports**] .
 
 1. (Conditionnel) Si le projet que vous migrez contient plusieurs suites de rapports, sélectionnez une autre suite de rapports dans la section [!UICONTROL **Mapper le schéma pour les suites de rapports**], puis répétez les étapes 6 à 10. <!-- double-check that the step numbers are still correct -->
 
