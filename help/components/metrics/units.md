@@ -3,16 +3,16 @@ title: Unités
 description: Nombre total de produits achetés au cours de toutes les commandes.
 feature: Metrics
 exl-id: c7293445-0760-4237-83ae-812224ca6f4b
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a1fbd3f483d3a236fe5dc3246f5e90c1b3f51ba9
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 92%
+source-wordcount: '173'
+ht-degree: 80%
 
 ---
 
 # Unités
 
-La [mesure](overview.md) &quot;Unités&quot; indique le nombre total de produits achetés au cours de toutes les commandes. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour déterminer la contribution des éléments de dimension au nombre de produits achetés. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec une [eVar](../dimensions/evar.md)) ayant contribué aux produits achetés.
+La [mesure](overview.md) &quot;Unités&quot; indique le nombre total de produits achetés au cours de toutes les commandes. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez associer cette mesure à n’importe quelle dimension pour déterminer les éléments de dimension ayant contribué au nombre de produits achetés. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec une [eVar](../dimensions/evar.md)) ayant contribué aux produits achetés.
 
 ## Méthode de calcul de cette mesure
 
