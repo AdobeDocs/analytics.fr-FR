@@ -4,7 +4,7 @@ title: Comment modifier les mesures de plusieurs demandes
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 28%
@@ -12,6 +12,8 @@ ht-degree: 28%
 ---
 
 # Modification des mesures de plusieurs demandes
+
+{{legacy-arb}}
 
 Ajouter, supprimer ou remplacer des mesures dans une requête préexistante ou dans un groupe de requêtes.
 

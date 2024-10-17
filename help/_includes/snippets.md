@@ -1,11 +1,18 @@
 ---
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 93%
+source-wordcount: '1214'
+ht-degree: 89%
 
 ---
 # Extraits
+
+## Report Builder hérité {#legacy-arb}
+
+>[!IMPORTANT]
+>
+>Un [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) nouveau et rationalisé a été publié le 16 octobre 2024. Elle est prise en charge sur Mac, Windows et les navigateurs Web.
+>Cette version complémentaire du Report Builder hérité fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) en nouveau Report Builder.
 
 ## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 

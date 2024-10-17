@@ -4,7 +4,7 @@ title: Rapports Chemin et Abandon de chemin dans le Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 83%
@@ -12,6 +12,8 @@ ht-degree: 83%
 ---
 
 # Rapports Chemin et Abandon de chemin dans le Report Builder
+
+{{legacy-arb}}
 
 Décrit la manière dont Report Builder prend en charge les rapports de cheminement et d’abandons et dont l’implémentation diffère de Reports &amp; Analytics (désormais en fin de vie).
 

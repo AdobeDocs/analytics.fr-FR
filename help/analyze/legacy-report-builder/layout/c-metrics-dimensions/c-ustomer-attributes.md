@@ -4,7 +4,7 @@ title: Attributs du client
 feature: Report Builder
 role: User, Admin
 exl-id: b5855ce0-6d17-4690-a2c2-366b66ab8e83
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 83%
@@ -12,6 +12,8 @@ ht-degree: 83%
 ---
 
 # Attributs du client
+
+{{legacy-arb}}
 
 Les attributs du client sont stockés dans un nouveau type d’élément appelé VisAttr, qui peut être configuré comme une dimension ou une mesure.
 

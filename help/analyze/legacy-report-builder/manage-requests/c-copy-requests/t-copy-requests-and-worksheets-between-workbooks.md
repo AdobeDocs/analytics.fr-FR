@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # Copie de requêtes et de feuilles de calcul entre des classeurs
 
+{{legacy-arb}}
+
 Vous pouvez copier une feuille de calcul entière d’un classeur source dans une feuille de calcul d’un ou de plusieurs classeurs cibles. Pour ce faire, au moins deux classeurs doivent être ouverts dans la même instance d’Excel :
+
 * Le premier classeur source contient une feuille de calcul (feuille de calcul) avec des requêtes mises en correspondance avec des cellules.
+
 * Les classeurs cibles supplémentaires sont les destinations. Pour chaque nouveau classeur cible, vous devez vous connecter à la même suite de rapports que le classeur source avant de pouvoir coller les feuilles de calcul contenant les requêtes.
 
 >[!NOTE]

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
 workflow-type: tm+mt
-source-wordcount: '5971'
-ht-degree: 100%
+source-wordcount: '5994'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Octobre 2024** |  |
+| Nouveau Report Builder | [Nouvelle documentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) pour le module complémentaire Report Builder simplifié pris en charge sur Mac, Windows et les navigateurs Web. |
 | **Août 2024** | |
 | Gestionnaire d’alertes | Documentation simplifiée sur le [gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md). Mise à jour pour plus de clarté et de précision. |
 | **Juillet 2024** | |

@@ -4,7 +4,7 @@ title: 'Requêtes de données - Assistant Requête : Étape 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 91%
@@ -12,6 +12,8 @@ ht-degree: 91%
 ---
 
 # Requêtes de données - Assistant Requête : Étape 1
+
+{{legacy-arb}}
 
 Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la suite de rapports, le type de rapport, des segments, ainsi que de configurer des dates.
 

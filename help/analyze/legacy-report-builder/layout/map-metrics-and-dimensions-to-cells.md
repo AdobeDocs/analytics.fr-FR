@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 68%
@@ -13,6 +13,8 @@ ht-degree: 68%
 ---
 
 # Mappage de mesures et de dimensions avec des cellules
+
+{{legacy-arb}}
 
 Avant de commencer le mappage des éléments sur la feuille de calcul, assurez-vous que cette dernière n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute opération de l’utilisateur, il vous sera impossible d’y sélectionner des cellules. Commencez par annuler la protection de la feuille, puis ajoutez des mappages de cellules.
 

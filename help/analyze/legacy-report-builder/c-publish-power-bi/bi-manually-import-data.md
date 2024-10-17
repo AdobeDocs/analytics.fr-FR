@@ -4,7 +4,7 @@ title: Importation manuelle de données dans Power BI
 feature: Report Builder
 role: User, Admin
 exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # Importation manuelle de données dans Power BI
+
+{{legacy-arb}}
 
 Si vous souhaitez importer des données Analytics manuellement via Power BI, suivez ces instructions.
 

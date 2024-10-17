@@ -4,7 +4,7 @@ title: À propos du Gestionnaire des tâches planifiées
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 42%
@@ -12,6 +12,8 @@ ht-degree: 42%
 ---
 
 # Gestionnaires des tâches planifiées
+
+{{legacy-arb}}
 
 Le [!UICONTROL Gestionnaire de tâches planifiées] vous permet d’afficher la liste des rapports planifiés existants, ainsi que leurs destinataires, les détails de planification et les formats de fichiers. Il vous permet également de réactiver les classeurs planifiés dont l’exécution a échoué.
 

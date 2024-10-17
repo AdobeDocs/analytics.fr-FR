@@ -4,16 +4,18 @@ title: Mesures calculées
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 83%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
 # Mesures calculées
 
-Le Report Builder 5.2 prend en charge les mesures calculées unifiées Adobe Analytics. Entre autres innovations, toutes les mesures calculées sont désormais dotées d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
+{{legacy-arb}}
+
+Report Builder 5.2 et versions ultérieures prend en charge les mesures calculées Adobe Analytics. Toutes les mesures calculées disposent désormais d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
 >[!NOTE]
 >
