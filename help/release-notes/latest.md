@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+source-git-commit: 21cf08af6922aaaed2f0b3e4c0fcd701b54473ee
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 91%
+source-wordcount: '509'
+ht-degree: 92%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre 2024)
 
-**Dernière mise à jour** : jeudi 16 octobre 2024
+**Dernière mise à jour** : vendredi 17 octobre 2024
 
 Ces notes de mise à jour portent sur la période du 2 au 22 octobre 2024. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,7 +20,7 @@ Ces notes de mise à jour portent sur la période du 2 au 22 octobre 2024. Les 
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Nouveau Report Builder pour Adobe Analytics | La nouvelle application de Report Builder apporte des fonctionnalités mises à jour à Adobe Analytics, telles que des performances améliorées, une interface utilisateur rationalisée, la prise en charge et la prise en charge des API 2.0 pour Microsoft Excel sous Mac, Windows et les navigateurs Web. [Lien vers la documentation à suivre] |  | jeudi 16 octobre 2024 |
+| Nouveau Report Builder pour Adobe Analytics | La nouvelle application de Report Builder apporte des fonctionnalités mises à jour à Adobe Analytics, telles que des performances améliorées, une interface utilisateur rationalisée, la prise en charge et la prise en charge des API 2.0 pour Microsoft Excel sous Mac, Windows et les navigateurs Web. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | jeudi 16 octobre 2024 |
 
 ## Correctifs dans Adobe Analytics
 
