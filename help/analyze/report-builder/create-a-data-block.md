@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,25 +20,25 @@ Un *bloc de données* est le tableau de données créé par une requête de donn
 
 Configurez les paramètres de bloc de données initiaux pour l’emplacement du bloc de données, les suites de rapports et une plage de dates.
 
-1. Cliquez sur **Créer un bloc de données**.
+1. Cliquez sur **[!UICONTROL Créer un bloc de données]**.
 
    ![Capture d&#39;écran montrant l&#39;option Créer un bloc de données.](./assets/create_db.png)
 
-1. Définissez lʼ&#x200B;**Emplacement du bloc de données**.
+1. Définissez lʼ&#x200B;**[!UICONTROL Emplacement du bloc de données]**.
 
    Lʼoption relative à lʼemplacement du bloc de données définit lʼemplacement de la feuille de calcul dans laquelle Report Builder ajoute les données.
 
    Pour spécifier lʼemplacement du bloc de données, sélectionnez une cellule unique dans la feuille de calcul ou saisissez une adresse de cellule telle que a3, \\\$a3, a\\$3 ou sheet1!a2. La cellule spécifiée sera le coin supérieur gauche du bloc de données lors de la récupération des données.
 
-1. Sélectionnez les **suites de rapports**.
+1. Choisissez une **suite de rapports**.
 
    L’option Suites de rapports vous permet de choisir une suite de rapports dans un menu déroulant ou de référencer une suite de rapports à partir d’un emplacement de cellule.
 
-1. Définissez la **Période**.
+1. Définissez la **[!UICONTROL Période]**.
 
    Lʼoption relative à la Période vous permet de choisir une période. Les périodes peuvent être fixes ou variables. Pour plus dʼinformations sur les options relatives aux périodes, consultez la section [Sélection dʼune période](select-date-range.md).
 
-1. Cliquez sur **Suivant**.
+1. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![Capture d&#39;écran montrant l&#39;option de période et le bouton Suivant actif.](./assets/choose_date_data_view3.png)
 
