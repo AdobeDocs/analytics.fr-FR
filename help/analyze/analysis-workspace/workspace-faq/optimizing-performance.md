@@ -4,10 +4,10 @@ title: Facteurs de performances et optimisation d’Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ab2eead2406a7bb06f76cab7a09333a5dc250359
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 100%
+source-wordcount: '2503'
+ht-degree: 77%
 
 ---
 
@@ -57,13 +57,42 @@ En outre, vous pouvez **Télécharger au format CSV** le contenu des performance
 
 | Facteur | Définition | Optimisation |
 | --- | --- | --- |
-| Nombre de requêtes | Nombre total de requêtes (demandes) effectuées à Adobe pour extraire les données affichées dans le projet. Les requêtes comprennent les demandes avec classement de tableaux, de détection des anomalies, de graphiques sparkline, de composants affichés dans le rail de gauche, etc. Exclut les panneaux et les visualisations réduits. La ligne directrice est de 100. | Simplifiez votre projet lorsque cela est possible en divisant les données en plusieurs projets qui répondent à un objectif spécifique ou à un groupe de parties prenantes. Utilisez les balises pour organiser les projets par thèmes et utilisez les [liens directs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=fr) pour créer une table des matières interne afin que les parties prenantes puissent trouver plus facilement ce dont elles ont besoin. |
+| Nombre de demandes | Nombre total de demandes effectuées à l’Adobe pour récupérer les données affichées dans le projet. Les requêtes comprennent les demandes avec classement de tableaux, de détection des anomalies, de graphiques sparkline, de composants affichés dans le rail de gauche, etc. Exclut les panneaux et les visualisations réduits. La ligne directrice est de 100. | Simplifiez votre projet lorsque cela est possible en divisant les données en plusieurs projets qui répondent à un objectif spécifique ou à un groupe de parties prenantes. Utilisez les balises pour organiser les projets par thèmes et utilisez les [liens directs](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=fr) pour créer une table des matières interne afin que les parties prenantes puissent trouver plus facilement ce dont elles ont besoin. |
 | Panneaux développés (sur le total des panneaux) | Nombre de panneaux développés sur le nombre total de panneaux du projet. La ligne directrice est de 5. | Après avoir pris des mesures pour simplifier votre projet, réduisez les panneaux de votre projet qui n’ont pas besoin d’être affichés au chargement. Lorsque le projet est ouvert, seuls les panneaux développés sont traités. Les panneaux réduits ne sont pas traités tant que l’utilisateur ne les développe pas. |
 | Visualisations développées (sur le total des visualisations) | Nombre de tableaux et de visualisations développés par rapport au total du projet, y compris les sources de données masquées. La ligne directrice est de 15. | Après avoir pris des mesures pour simplifier votre projet, réduisez les visualisations de votre projet qui n’ont pas besoin d’être affichées au chargement. Classez par ordre de priorité les éléments visuels qui sont les plus importants pour le consommateur du rapport et décomposez les éléments visuels associés dans un panneau ou projet distinct et plus détaillé, au besoin. |
 | Nombre de cellules à structure libre | Le nombre total de cellules de tableau à structure libre dans le projet, calculé par lignes * colonnes dans tous les tableaux. Exclut les sources de données masquées. La ligne directrice est de 4000. | Réduisez le nombre de colonnes dans votre tableau en conservant uniquement les points de données les plus pertinents. Réduisez le nombre de lignes du tableau en ajustant le nombre de lignes affichées, en appliquant un filtre de tableau ou en appliquant un segment. |
 | Composants disponibles | Le nombre total de composants récupérés dans le rail gauche du projet, dans toutes les suites de rapports du projet. Cela aura un impact sur la vitesse de chargement du rail gauche et sur la vitesse à laquelle les résultats de recherche y sont renvoyés. La ligne directrice est de 2000. | Contactez l’administrateur de votre produit au sujet de la création d’une suite de rapports virtuelle organisée dotée d’un ensemble de composants plus personnalisé. |
 | Composants utilisés | Le nombre total de composants utilisés dans le projet. La ligne directrice est de 100. | Le nombre de composants utilisés n’influe pas directement sur les performances. Toutefois, la complexité de ces composantes contribuera à la performance du projet. Voir les optimisations dans la section « Facteurs supplémentaires » ci-dessous. |
 | Période la plus longue | Ce facteur affiche la période la plus longue utilisée pour le projet. La ligne directrice est d’un an. | Si possible, n’extrayez que les données dont vous avez besoin. Limitez le calendrier du panneau aux dates appropriées à votre analyse ou utilisez des composants de période (composants violets) dans vos tableaux à structure libre. Les périodes utilisées dans un tableau remplacent les périodes du panneau. Par exemple, vous pouvez ajouter le mois dernier, la semaine dernière et hier aux colonnes du tableau pour demander ces périodes spécifiques. Pour en savoir plus sur l’utilisation des périodes dans Analysis Workspace, [regardez cette vidéo](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html?lang=fr). <br><br>En outre, réduisez le nombre de comparaisons d’une année à l’autre utilisées dans le projet. Lorsqu’une comparaison d’une année à l’autre est calculée, elle examine l’ensemble des données des 13 mois concernés. Cette action a le même impact que de définir la période du panneau sur les 13 derniers mois. |
+
+## Facteurs de requête
+
+[!UICONTROL Aide] > [!UICONTROL Performances] facteurs de requête
+
+Utilisez le diagramme et les termes suivants pour découvrir comment les demandes sont traitées et les différents facteurs qui influencent les temps de traitement :
+
+>[!NOTE]
+>
+>Les instructions recommandées pour ces facteurs sont basées sur un score de complexité de Medium pour les demandes de création de rapports.
+
+
+### Diagramme de traitement des requêtes
+
+![Traitement des requêtes](assets/request-processing.png)
+
+### Demander des termes de traitement
+
+| Facteur | Définition | Optimisation |
+| --- | --- | --- |
+| [!UICONTROL **Temps moyen de requête**] | Temps nécessaire entre le moment où la requête est initiée et le moment où elle est terminée. <p>Dans le diagramme [Traitement des requêtes](#request-processing-diagram) ci-dessus, le temps de requête représente le processus complet, de la **requête Analysis Workspace initiée** à la **requête Analysis Workspace terminée**.</p> |  |
+| [!UICONTROL **Temps de requête le plus long**] | Temps nécessaire entre le moment où la requête est initiée et le moment où elle est terminée. <p>Dans le diagramme [Traitement des requêtes](#request-processing-diagram) ci-dessus, le temps de requête représente le processus complet, de la **requête Analysis Workspace initiée** à la **requête Analysis Workspace terminée**.</p> |  |
+| [!UICONTROL **Durée moyenne de recherche**] | Comme Analysis Workspace stocke uniquement le hachage de toutes les chaînes utilisées dans n’importe quel segment, chaque fois que vous traitez un projet, les **recherches** sont effectuées pour faire correspondre les hachages aux valeurs appropriées. <p>Il peut s’agir d’un processus gourmand en ressources, en fonction du nombre de valeurs susceptibles de correspondre au hachage. </p><p>Dans le diagramme [Traitement des requêtes](#request-processing-diagram) ci-dessus, la durée de recherche est représentée dans la phase **Recherches** (au moment du **traitement du moteur de requête**).</p> | Si les requêtes ralentissent ici, c’est probablement dû à un trop grand nombre de segments de chaîne dans votre projet, ou à des chaînes avec des valeurs trop génériques qui ont trop de correspondances potentielles. |
+| [!UICONTROL **Durée moyenne de la file d’attente**] | Durée totale en attente dans la file d’attente avant le traitement des demandes.<p>Dans le diagramme [Traitement des requêtes](#request-processing-diagram) ci-dessus, l’heure de la file d’attente est représentée dans les phases **File d’attente du moteur de requêtes** et **File d’attente du serveur**.</p> | Si les requêtes ralentissent ici, cela peut être dû à un trop grand nombre de requêtes s’exécutant simultanément dans votre organisation. Essayez d’exécuter la requête à une heure creuse. |
+| [!UICONTROL **Temps moyen de traitement du serveur**] | Durée moyenne du traitement de la requête.<p>Dans le diagramme [Traitement des requêtes](#request-processing-diagram) ci-dessus, la durée moyenne de traitement du serveur est représentée dans les phases **File d’attente du serveur** et **Traitement du serveur**. | Si les requêtes ralentissent ici, il est probable que le projet comporte des périodes trop longues ou des visualisations complexes. Essayez de raccourcir la période de votre projet afin de réduire les temps de traitement. |
+| [!UICONTROL **Complexité**] | Toutes les demandes ne nécessitent pas le même temps de traitement. La complexité de la requête peut vous aider à obtenir une idée générale du temps nécessaire au traitement de la requête. <p>Valeurs possibles :</p> <ul><li>[!UICONTROL **Low**]</li><li>[!UICONTROL **Medium**]</li><li>[!UICONTROL **High**]</li></ul>Cette valeur est influencée par les valeurs des colonnes suivantes :<ul><li>[!UICONTROL **Limites mensuelles**]</li><li>[!UICONTROL **Colonnes**]</li><li>[!UICONTROL **Segments**]</li></ul> |  |
+| [!UICONTROL **Limites mensuelles**] | Nombre de mois inclus dans une requête. Plus de limites de mois ajoute à la complexité de la requête. | Si les requêtes ralentissent ici, c’est peut-être parce que les limites des mois dans votre projet sont trop importantes. Essayez de réduire le nombre de mois. |
+| [!UICONTROL **Colonnes**] | Nombre de mesures et de ventilations dans la requête. Plus de colonnes ajoute à la complexité de la requête. | Si les requêtes ralentissent ici, c’est peut-être parce qu’il y a trop de colonnes dans votre projet. Essayez de réduire le nombre de colonnes. |
+| [!UICONTROL **Segments**] | Le nombre de segments appliqués à la requête. Plus de segments ajoute à la complexité de la requête. | Si les requêtes ralentissent ici, c’est peut-être parce qu’il y a trop de segments dans votre projet. Essayez de réduire le nombre de segments. |
 
 ## Facteurs supplémentaires
 
