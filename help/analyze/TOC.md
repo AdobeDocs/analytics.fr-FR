@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils d’Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, les Reports Builder de Report Builder et hérités et les Activity Map.
-source-git-commit: 227a9d2b10db737ad255c2f9f65bab0ede691f20
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 96%
@@ -166,7 +166,7 @@ ht-degree: 96%
    + [Conversion de requêtes héritées](report-builder/convert-workbooks.md)
    + [Création dʼun bloc de données](report-builder/create-a-data-block.md)
    + [Centre Report Builder](report-builder/report-builder-hub.md)
-   + [Sélection d’une vue de données](report-builder/select-report-suite.md)
+   + [Sélection d’une suite de rapports](report-builder/select-report-suite.md)
    + [Sélection dʼune période](report-builder/select-date-range.md)
    + [Utilisation des segments](report-builder/work-with-segments.md)
    + [Filtrage des dimensions](report-builder/filter-dimensions.md)

@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -18,9 +18,9 @@ Un *bloc de données* est le tableau de données créé par une requête de donn
 
 ## Configuration du bloc de données
 
-Configurez les paramètres de bloc de données initiaux pour l’emplacement du bloc de données, les suites de rapports et une plage de dates.
+Configurez les paramètres de bloc de données initiaux pour l’emplacement du bloc de données, la suite de rapports et une période.
 
-1. Cliquez sur **[!UICONTROL Créer un bloc de données]**.
+1. Cliquez sur **[!UICONTROL Créer un bloc de données]**.
 
    ![Capture d&#39;écran montrant l&#39;option Créer un bloc de données.](./assets/create_db.png)
 
