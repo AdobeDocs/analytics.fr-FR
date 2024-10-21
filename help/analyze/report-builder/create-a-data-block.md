@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
+source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 59%
+source-wordcount: '642'
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Un *bloc de données* est le tableau de données créé par une requête de donn
 
 Configurez les paramètres de bloc de données initiaux pour l’emplacement du bloc de données, la suite de rapports et une période.
 
-1. Cliquez sur **[!UICONTROL Créer un bloc de données]**.
+1. Cliquez sur **[!UICONTROL Créer]**.
 
    ![Capture d&#39;écran montrant l&#39;option Créer un bloc de données.](./assets/create_db.png)
 
@@ -28,7 +28,7 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
    Lʼoption relative à lʼemplacement du bloc de données définit lʼemplacement de la feuille de calcul dans laquelle Report Builder ajoute les données.
 
-   Pour spécifier lʼemplacement du bloc de données, sélectionnez une cellule unique dans la feuille de calcul ou saisissez une adresse de cellule telle que a3, \\\$a3, a\\$3 ou sheet1!a2. La cellule spécifiée sera le coin supérieur gauche du bloc de données lors de la récupération des données.
+   Pour spécifier lʼemplacement du bloc de données, sélectionnez une cellule unique dans la feuille de calcul ou saisissez une adresse de cellule telle que a3, \\\$a3, a\\$3 ou sheet1!a2. La cellule spécifiée marque le coin supérieur gauche du bloc de données lors de la récupération des données.
 
 1. Choisissez une **suite de rapports**.
 
@@ -50,7 +50,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
 1. Ajoutez des dimensions, des mesures et des filtres.
 
-   Faites défiler les listes de composants ou utilisez le champ de **recherche** pour localiser les composants. Faites glisser et déposez les composants dans le volet Tableau ou double-cliquez sur le nom dʼun composant dans la liste pour lʼajouter automatiquement au volet Tableau.
+   Faites défiler la liste des composants ou utilisez le champ **[!UICONTROL Rechercher]** pour localiser les composants. Faites glisser et déposez les composants dans le volet Tableau ou double-cliquez sur le nom dʼun composant dans la liste pour lʼajouter automatiquement au volet Tableau.
 
    Double-cliquez sur un composant pour lʼajouter à une section par défaut du tableau.
 
@@ -60,7 +60,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
    **Date de début en tant que Dimension**
 
-   Définissez la Date de début comme dimension pour identifier clairement la date de début de votre bloc de données. Cela s’avère utile si vous disposez d’un rapport régulièrement planifié avec une plage de dates variable ou si vous disposez d’une plage de dates non conventionnelle et que vous devez être déconnecté de la date de début.
+   Définissez la **[!UICONTROL date de début]** comme dimension pour identifier clairement la date de début de votre bloc de données. Cela s’avère utile si vous disposez d’un rapport régulièrement planifié avec une plage de dates variable ou si vous disposez d’une plage de dates non conventionnelle et que vous devez être clair à la date de début.
 
    ![Capture d&#39;écran montrant la date de début dans la liste des dimensions.](./assets/start-date-dimension.png){width="30%"}
 
@@ -74,7 +74,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
    **Afficher ou masquer les en-têtes de lignes et de colonnes**
 
-1. Cliquez sur l&#39;icône des paramètres **Table** .
+1. Cliquez sur l&#39;icône **[!UICONTROL Paramètres de table]** .
 
    ![Capture d&#39;écran montrant l&#39;option Paramètres du tableau.](./assets/table-settings.png){width="35%"}
 
@@ -88,7 +88,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
 1. Cliquez sur Masquer ou Afficher pour activer/désactiver les libellés de dimension ou les en-têtes de colonne. Toutes les étiquettes sont affichées par défaut.
 
-1. Cliquez sur **Terminer**.
+1. Cliquez sur **[!UICONTROL Terminer]**.
 
    Un message de traitement sʼaffiche pendant la récupération des données Analytics.
 
