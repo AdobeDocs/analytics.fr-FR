@@ -3,15 +3,14 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (version du 23 octobre 2024)
-
 
 **Dernière mise à jour** : jeudi 23 octobre 2024
 
@@ -38,12 +37,11 @@ Sources de données : AN-359290
 Data Warehouse : AN-359820
 Alertes de dépassement : AN-358132
 
-
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Les clients non Campaign perdront l&#39;accès aux Triggers** | 16 octobre 2024 | Le 30 janvier 2025, les clients Adobe Analytics qui n’ont pas de licence Adobe Campaign perdront l’accès à la possibilité de configurer et d’utiliser [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers). Les clients doivent soit acheter Campaign, soit planifier l&#39;arrêt de l&#39;utilisation de Triggers, soit consulter d&#39;autres outils d&#39;Adobe offrant des fonctionnalités Triggers. |
+| **Les clients non Campaign perdront l&#39;accès aux Triggers** | 16 octobre 2023 | Le 30 janvier 2025, les clients Adobe Analytics qui ne disposent pas de licence Adobe Campaign perdront l’accès à la configuration et à l’utilisation des Triggers. Les clients doivent soit acheter Campaign, soit planifier l&#39;arrêt de l&#39;utilisation de Triggers, soit consulter d&#39;autres outils d&#39;Adobe offrant des fonctionnalités Triggers. |
 | **Champs XDM de détails d’implémentation supplémentaires automatiquement mappés** | 11 septembre 2024 | Lors de l’utilisation d’Edge Network Adobe Experience Platform pour envoyer des données à Adobe Analytics, les champs XDM `xdm.implementationdetails.name` et `xdm.implementationdetails.environment` sont désormais toujours mappés sur les variables de données contextuelles `c.a.x.implementationdetails.name` et `c.a.x.implementationdetails.environment`. Auparavant, certains scénarios empêchaient le renseignement de ces valeurs. Ajustez les règles de traitement appropriées en fonction de la disponibilité de ces valeurs. |
 
 ## Avis de fin de vie {#eol}
