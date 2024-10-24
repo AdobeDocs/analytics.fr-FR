@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
-user-guide-description: Découvrez comment utiliser les outils d’Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, les Reports Builder de Report Builder et hérités et les Activity Map.
+user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,20 +163,20 @@ ht-degree: 96%
 + Report Builder {#report-builder}
    + [Présentation de Report Builder](report-builder/report-buider-overview.md)
    + [Configuration de Report Builder](report-builder/report-builder-setup.md)
-   + [Conversion de requêtes héritées](report-builder/convert-workbooks.md)
+   + [Convertir des requêtes héritées](report-builder/convert-workbooks.md)
    + [Création dʼun bloc de données](report-builder/create-a-data-block.md)
    + [Centre Report Builder](report-builder/report-builder-hub.md)
    + [Sélection d’une suite de rapports](report-builder/select-report-suite.md)
-   + [Sélection dʼune période](report-builder/select-date-range.md)
-   + [Utilisation des segments](report-builder/work-with-segments.md)
-   + [Filtrage des dimensions](report-builder/filter-dimensions.md)
+   + [Sélectionner une période](report-builder/select-date-range.md)
+   + [Utiliser des segments](report-builder/work-with-segments.md)
+   + [Filtrer des dimensions](report-builder/filter-dimensions.md)
    + [Gestion des blocs de données](report-builder/manage-reportbuilder.md)
    + [Planification de classeurs](report-builder/schedule-reportbuilder.md)
    + [Étiquettes restreintes](report-builder/restricted-labels.md)
    + [Paramètres de Report Builder](report-builder/report-builder-settings.md)
-+ Report Builder hérité {#legacy-report-builder}
-   + [Aide Adobe Report Builder héritée](legacy-report-builder/home.md)
-   + Configuration de Report Builder héritée {#legacy-report-builder-setup}
++ Report Builder hérité {#legacy-report-builder}
+   + [Aide du Report Builder hérité d’Adobe](legacy-report-builder/home.md)
+   + Configuration du Report Builder hérité {#legacy-report-builder-setup}
       + [Configuration requise](legacy-report-builder/setup/system-requirements.md)
       + [Installation du Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [Mise à niveau du Report Builder](legacy-report-builder/setup/upgrade-arb.md)
