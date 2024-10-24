@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
+source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 55%
+source-wordcount: '767'
+ht-degree: 52%
 
 ---
 
@@ -22,6 +22,7 @@ Ces notes de mise à jour portent sur la période du 16 octobre 2024 à la fin d
 | ----------- | ---------- | ------- | ---- |
 | **Nouveau Report Builder pour Adobe Analytics** | La nouvelle application de Report Builder apporte une mise à jour majeure à Adobe Analytics, notamment de meilleures performances, une interface utilisateur rationalisée, une prise en charge et une prise en charge des API 2.0 pour Microsoft Excel sous Mac, Windows et les navigateurs Web. Cette application peut être utilisée avec l’application héritée, mais pas sur le même fichier. Une fonctionnalité de mise à niveau est fournie pour mettre à niveau les classeurs hérités vers la nouvelle application. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview) |  | 16 octobre 2024 |
 | **Exportation JSON pour la migration de l’implémentation des balises vers les balises SDK Web** | Cette mise à jour de l’extension des balises Analytics est liée à la migration vers le SDK Web. Vous pouvez utiliser cette mise à jour de l’extension Adobe Analytics dans le cadre de votre workflow pour recréer vos configurations d’extension avec l’extension SDK Web. Dans l’extension des balises Adobe Analytics, vous pouvez afficher les paramètres d’eVars, de props et d’événements au format JSON, qui peuvent être exportés pour modification et inclus dans l’extension du SDK Web. |  | 31 octobre 2024 |
+| **Nouvelles informations sur les facteurs de requête dans les performances Analysis Workspace** | Une nouvelle section &quot;Facteurs de requête&quot; est désormais disponible lors de l’analyse des performances dans Analysis Workspace. Pour en savoir plus sur le traitement des requêtes et les différents facteurs qui influencent les temps de traitement, voir &quot;Facteurs de requête&quot; dans [Optimisation des performances d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance). |  | mercredi 1 octobre 2024 |
 
 ## Correctifs dans Adobe Analytics
 
