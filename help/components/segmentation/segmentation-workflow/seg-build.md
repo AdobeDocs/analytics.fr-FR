@@ -3,10 +3,10 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1974'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 
 * **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
-* **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=fr).
+* **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -30,7 +30,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Description]** : fournissez une description du segment.
 1. **[!UICONTROL Balises]** : [marquez le segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) que vous créez en effectuant une sélection depuis une liste de balises existantes ou en créant une balise.
 1. **[!UICONTROL Définitions]** : il s’agit de l’espace de travail dans lequel vous [créez et configurez des segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md), ajoutez des règles, et imbriquez et séquencez des conteneurs.
-1. **[!UICONTROL Afficher]** : (Sélecteur Conteneur supérieur.) Permet de sélectionner le [conteneur de niveau supérieur](/help/components/segmentation/seg-overview.md) ([!UICONTROL Visiteur], [!UICONTROL Visite], [!UICONTROL Accès]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
+1. **[!UICONTROL Afficher]** : (Sélecteur Conteneur supérieur.) Permet de sélectionner le [conteneur](/help/components/segmentation/seg-overview.md) de niveau supérieur ( [!UICONTROL Visiteur], [!UICONTROL Visite], [!UICONTROL Accès]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
 1. **[!UICONTROL Options]** : icône (engrenage)
 
    * **[!UICONTROL + Ajouter un conteneur]** : permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
