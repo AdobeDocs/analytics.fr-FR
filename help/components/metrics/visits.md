@@ -3,10 +3,10 @@ title: Visites
 description: Séquence de pages vues lors d’une session unique.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ Tant qu’il s’écoule moins de 30 minutes entre les accès consécutifs, une
 
 Vous pouvez modifier le délai de 30 minutes dans la définition d’une visite.
 
-* Pour les [suites de rapports virtuelles](../vrs/vrs-about.md), vous pouvez modifier le délai d’expiration de la visite à l’aide de la liste déroulante [!UICONTROL Délai d’expiration de la visite]. Vous pouvez définir le délai d’expiration de la visite sur n’importe quelle valeur raisonnable.
-* Pour les suites de rapports standards, contactez l’assistance clientèle pour demander que la durée de la visite soit raccourcie pour une suite de rapports donnée. La durée de visite des suites de rapports standards ne peut pas dépasser 30 minutes. Par conséquent, vous pouvez seulement la raccourcir.
+* Pour les [suites de rapports virtuelles](../vrs/vrs-about.md), vous pouvez modifier le délai de visite (délai entre les accès qui entraîne le démarrage d’une nouvelle visite) à l’aide de la liste déroulante [!UICONTROL Délai de visite]. Vous pouvez définir le délai d’expiration de la visite sur n’importe quelle valeur raisonnable.
+* Pour les suites de rapports standard, contactez l’assistance clientèle pour demander que le délai de visite (délai entre les accès qui entraîne le démarrage d’une nouvelle visite) soit raccourci pour une suite de rapports donnée. Le délai d’expiration des visites pour les suites de rapports standard ne peut pas dépasser 30 minutes. Vous ne pouvez donc que le raccourcir.
 
 ## Visites s’étendant au-delà d’une limite de date
 
