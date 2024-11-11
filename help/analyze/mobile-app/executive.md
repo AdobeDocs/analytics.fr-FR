@@ -4,9 +4,9 @@ title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ Pour utiliser les tableaux de bord :
 
 1. Appuyez sur la fiche d’évaluation que vous souhaitez afficher.
 
-   Si vous avez accès à plusieurs organisations sous une seule connexion, toutes les Fiches d’évaluation de vos organisations sont disponibles dans la liste de Fiches d’évaluation.
+   Si vous avez accès à plusieurs organisations sous une seule connexion, l’écran d’accueil affiche toutes les fiches d’évaluation de toutes les entreprises disponibles au même endroit.
 
    Vous pouvez trier la liste de la Fiche d’évaluation en fonction du titre de la Fiche d’évaluation, du nom de l’organisation ou du dernier affichage. Vous pouvez même rechercher une fiche d’évaluation spécifique.
 
