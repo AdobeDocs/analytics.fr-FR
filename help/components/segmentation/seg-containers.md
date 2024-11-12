@@ -4,10 +4,10 @@ keywords: segmentation ; segments
 title: Conteneurs de segments
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 5a9ba3f9749338c181fbcdc311bd08a92144e698
+source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
 workflow-type: tm+mt
-source-wordcount: '3529'
-ht-degree: 100%
+source-wordcount: '3566'
+ht-degree: 98%
 
 ---
 
@@ -96,6 +96,10 @@ Lors de la création de conteneur de segments dans d’autres conteneurs, vous c
 1. Déterminez les données qui sont incluses à l’aide du conteneur le plus éloigné. Les données qui ne correspondent pas à cette règle d’éloignement sont ignorées dans le rapport segmenté.
 1. Appliquez la règle imbriquée aux données restantes. La règle imbriquée NE s’applique PAS aux accès que la première règle a rejetés.
 1. Répétez jusqu’à ce que toutes les règles de conteneur imbriquées aient été calculées. Les données restantes sont alors incluses dans le rapport résultant.
+
+>[!NOTE]
+>
+>Lorsque vous imbriquez un segment dans un segment (par exemple, vous faites glisser un segment du panneau Composants sur votre définition de segment), un conteneur est créé avec une copie (et non une référence) de la règle de segment glissée.
 
 Vous pouvez utiliser l’imbrication de conteneurs et de règles dans un conteneur. Vous pouvez imbriquer les éléments suivants dans chaque conteneur :
 
