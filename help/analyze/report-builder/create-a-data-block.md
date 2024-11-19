@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
    Lʼoption relative à lʼemplacement du bloc de données définit lʼemplacement de la feuille de calcul dans laquelle Report Builder ajoute les données.
 
-   Pour spécifier lʼemplacement du bloc de données, sélectionnez une cellule unique dans la feuille de calcul ou saisissez une adresse de cellule telle que a3, \\\$a3, a\\$3 ou sheet1!a2. La cellule spécifiée marque le coin supérieur gauche du bloc de données lors de la récupération des données.
+   Pour spécifier l’emplacement du bloc de données, sélectionnez une seule cellule dans la feuille de calcul et cliquez sur l’icône en regard de **[!UICONTROL Emplacement du bloc de données]** :
+
+   Vous pouvez également saisir une adresse de cellule telle que a3, \\\$a3, a\\\$3 ou sheet1!a2. La cellule spécifiée marque le coin supérieur gauche du bloc de données lors de la récupération des données.
 
 1. Choisissez une **suite de rapports**.
 
@@ -40,7 +43,7 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-   ![Capture d&#39;écran montrant l&#39;option de période et le bouton Suivant actif.](./assets/choose_date_data_view3.png)
+   ![Capture d&#39;écran montrant l&#39;option de période et le bouton Suivant actif.](./assets/choose_date_report_suite.png)
 
    Une fois le bloc de données configuré, vous pouvez sélectionner des dimensions, des mesures et des segments pour le créer. Les onglets Dimensions, Mesures et Filtres sʼaffichent au-dessus du volet Générateur de tableaux.
 
@@ -48,7 +51,7 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
 Pour créer le bloc de données, sélectionnez les composants du rapport et personnalisez leur disposition.
 
-1. Ajoutez des dimensions, des mesures et des filtres.
+1. Ajout de Dimensions, de mesures et de segments.
 
    Faites défiler la liste des composants ou utilisez le champ **[!UICONTROL Rechercher]** pour localiser les composants. Faites glisser et déposez les composants dans le volet Tableau ou double-cliquez sur le nom dʼun composant dans la liste pour lʼajouter automatiquement au volet Tableau.
 
@@ -56,7 +59,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
    - Les composants de dimension sont ajoutés à la section Ligne ou Colonne si une dimension figure déjà dans les colonnes.
    - Les composants de date sont ajoutés à la section Colonne.
-   - Les composants de filtre sont ajoutés à la section Filtres.
+   - Les composants de segment sont ajoutés à la section Segments .
 
    **Date de début en tant que Dimension**
 
@@ -91,8 +94,6 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 1. Cliquez sur **[!UICONTROL Terminer]**.
 
    Un message de traitement sʼaffiche pendant la récupération des données Analytics.
-
-   ![Message de traitement.](./assets/image11.png)
 
    Report Builder récupère les données et affiche le bloc de données renseigné dans la feuille de calcul.
 
