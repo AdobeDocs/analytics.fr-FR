@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
+source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 59%
@@ -22,7 +22,6 @@ Vous pouvez afficher et gérer tous les blocs de données d’un classeur à l�
 ## Afficher les blocs de données
 
 Cliquez sur **Gérer** pour afficher la liste de tous les blocs de données d’un classeur.
-
 
 ![ L&#39;option Gérer pour afficher une liste de tous les blocs de données.](./assets/image53.png)
 
