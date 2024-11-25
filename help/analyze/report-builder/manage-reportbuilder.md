@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
-source-git-commit: 3d1a26b960988020391e75b3d01af0f9b806d33b
+source-git-commit: 8c863329e385c7e3fe15d85c07e1a1d541296acb
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 59%
+source-wordcount: '636'
+ht-degree: 57%
 
 ---
 
@@ -76,7 +76,8 @@ Un bloc de données qui n’a pas été actualisé affiche une icône d’averti
 
 ## Supprimer un bloc de données
 
-Cliquez sur l’icône représentant une corbeille pour supprimer un bloc de données sélectionné.
+1. Sélectionnez un bloc de données dans le gestionnaire de blocs de données.
+1. Cliquez sur l&#39;icône représentant une corbeille pour supprimer le bloc de données sélectionné.
 
 ## Regrouper les blocs de données
 
