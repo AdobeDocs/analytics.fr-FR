@@ -5,7 +5,7 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
       + [Créer et gérer des rapports d’entreprise](analysis-workspace/reports/create-company-reports.md)
    + Modèles {#templates}
       + [Utiliser les modèles](analysis-workspace/templates/use-templates.md)
-      + [Création de modèles](analysis-workspace/templates/create-templates.md)
+      + [Créer des modèles](analysis-workspace/templates/create-templates.md)
    + Composants {#components}
       + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
       + [Utiliser des composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
@@ -169,7 +169,7 @@ ht-degree: 100%
    + [Convertir des requêtes héritées](report-builder/convert-workbooks.md)
    + [Création dʼun bloc de données](report-builder/create-a-data-block.md)
    + [Centre Report Builder](report-builder/report-builder-hub.md)
-   + [Sélection d’une suite de rapports](report-builder/select-report-suite.md)
+   + [Sélectionnez une suite de rapports](report-builder/select-report-suite.md)
    + [Sélectionner une période](report-builder/select-date-range.md)
    + [Utiliser des segments](report-builder/work-with-segments.md)
    + [Filtrer des dimensions](report-builder/filter-dimensions.md)
