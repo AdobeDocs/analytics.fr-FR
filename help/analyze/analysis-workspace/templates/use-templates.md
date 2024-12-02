@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Les informations suivantes décrivent comment accéder aux modèles et les utili
 
      Les modèles d’entreprise ne peuvent être créés que par un administrateur. Pour plus d’informations sur la création d’un modèle d’entreprise, voir [Création et gestion de modèles](/help/analyze/analysis-workspace/reports/create-company-reports.md).
 
-1. Choisissez d’afficher les modèles en mode Colonne ou Carte en sélectionnant soit l’icône ![ en mode Colonne ](assets/column-view-icon.png) ou l’icône ![ en mode Carte ](assets/card-view-icon.png).
+1. Utilisez l’une des options suivantes pour modifier l’affichage des modèles disponibles :
+
+   * Choisissez d’afficher les modèles en mode Colonne ou Carte en sélectionnant soit l’icône ![ en mode Colonne ](assets/column-view-icon.png) ou l’icône ![ en mode Carte ](assets/card-view-icon.png).
+
+   * Lors de l’utilisation de l’affichage Carte ![icône d’affichage Carte](assets/card-view-icon.png), choisissez l’un des ordres de tri suivants : **[!UICONTROL Le plus récemment utilisé]**, **[!UICONTROL Le plus populaire]**, **[!UICONTROL Alphabétique]**, **[!UICONTROL Catégoriel]**.
 
 1. Dans le champ de recherche, commencez à saisir le nom du modèle à rechercher, puis sélectionnez-le dans la liste des modèles. Vous pouvez également rechercher la liste de modèles par numéro de prop, d’eVar et d’événement. <!-- still true? -->
 
@@ -58,8 +62,6 @@ Les informations suivantes décrivent comment accéder aux modèles et les utili
    >Pour naviguer dans le menu à l’aide des touches fléchées, appuyez sur la touche Barre oblique (/), puis sur la touche Flèche vers le bas. Appuyez sur Entrée pour charger le modèle sélectionné.
 
    Pour obtenir la liste des modèles disponibles, reportez-vous à la section [Modèles disponibles](#available-reports) ci-dessous.
-
-1. (Facultatif) Affichez et utilisez des modèles qui contiennent des composants qui ne sont pas disponibles dans votre suite de rapports. (Par défaut, les seuls modèles affichés sont ceux qui utilisent des composants disponibles dans votre suite de rapports.) <!--does this apply to AA? -->
 
 ## Créer un projet à partir d’un modèle {#use-reports}
 

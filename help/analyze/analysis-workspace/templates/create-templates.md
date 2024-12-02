@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Pour créer un modèle qui peut être utilisé par des personnes de votre socié
    |---------|----------|
    | **[!UICONTROL Nom]** | Attribuez un nom explicite au modèle. |
    | **[!UICONTROL Description]** | Fournissez une brève description du modèle qui décrit ses utilisations prévues. |
-   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les membres de l’organisation de la manière dont ce modèle peut être utilisé. |
+   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les membres de l’organisation de la manière dont ce modèle peut être utilisé. Cette explication s’affiche sur la page Aperçu du modèle. |
    | **[!UICONTROL Canaux]** | Choisissez les canaux applicables à ce modèle. Vous pouvez sélectionner plusieurs canaux : **[!UICONTROL Web]**, **[!UICONTROL Mobile]**, **[!UICONTROL Cross-channel]**, **[!UICONTROL Call Center]** et **[!UICONTROL In-store]**.<p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux utilisateurs y accédant depuis la page Modèles d’organisation .</p> |
    | **[!UICONTROL Cas d’utilisation]** | Choisissez les cas pratiques qui s&#39;appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux utilisateurs y accédant depuis la page Modèles d’organisation .</p> |
    | **[!UICONTROL Étiquettes]** | Indiquez les balises que vous souhaitez appliquer au modèle. Les utilisateurs peuvent filtrer la liste des modèles selon les balises que vous ajoutez. |
