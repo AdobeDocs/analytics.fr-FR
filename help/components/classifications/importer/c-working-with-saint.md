@@ -3,7 +3,7 @@ description: Utilisez l’importateur pour télécharger vos classifications dan
 title: Importateur de classifications - Aperçu
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -15,6 +15,8 @@ ht-degree: 100%
 Utilisez l’importateur pour télécharger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation.
 
 **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 Les données importées à l’aide de l’outil d’importation doivent être dans un format spécifique. Adobe vous offre la possibilité de télécharger un modèle de données contenant tous les détails d’en-tête appropriés dans un fichier de données délimité par des tabulations. Vous pouvez ajouter vos nouvelles données à ce modèle, puis importer le fichier de données dans le navigateur via FTP.
 
