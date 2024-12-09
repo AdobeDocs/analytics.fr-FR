@@ -1,11 +1,11 @@
 ---
-title: Créer un flux de données
-description: Découvrez comment créer un flux de données.
+title: Création d’un flux de données
+description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4119'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -364,7 +364,7 @@ Lors de la création d’un flux de données, vous fournissez l’Adobe avec :
    |---------|----------|
    | [!UICONTROL **Supprimer les caractères avec échappement**] | Lors de la collecte de données, certains caractères (comme les sauts de lignes) peuvent entraîner des problèmes. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux. |
    | [!UICONTROL **Format de compression**] | Type de compression utilisé. **Gzip** génère des fichiers au format `.tar.gz`. **Zip** génère des fichiers au format `.zip`. |
-   | [!UICONTROL **Type de module**] | Sélectionnez [!UICONTROL **Plusieurs fichiers**] pour la plupart des flux de données. Cette option pagine vos données en blocs de 2 Go non compressés. (Si l’option [!UICONTROL **Plusieurs fichiers**] est sélectionnée et que les données non compressées de la fenêtre de création de rapports sont inférieures à 2 Go, un fichier est envoyé.) Si vous sélectionnez **Un seul fichier**, le fichier `hit_data.tsv` est généré dans un seul fichier potentiellement volumineux. |
+   | [!UICONTROL **Type de module**] | Sélectionnez [!UICONTROL **Plusieurs fichiers**] pour la plupart des flux de données. Cette option pagine vos données en blocs de 2 Go non compressés. (Si l’option [!UICONTROL **Plusieurs fichiers**] est sélectionnée et que les données non compressées de la fenêtre de création de rapports sont inférieures à 2 Go, un fichier est envoyé.) Si vous sélectionnez l’option **Fichier unique**, le fichier `hit_data.tsv` est généré dans un seul fichier potentiellement volumineux. |
    | [!UICONTROL **Manifest**] | Détermine si l’Adobe doit envoyer un [fichier manifeste](c-df-contents/datafeeds-contents.md#feed-manifest) vers la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste semblable à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Modèles de colonne**] | Lors de la création de nombreux flux de données, Adobe recommande de créer un modèle de colonne. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut. |
    | [!UICONTROL **Colonnes disponibles**] | Toutes les colonnes de données disponibles dans Adobe Analytics. Cliquez sur [!UICONTROL Toujours ajouter] pour inclure toutes les colonnes d’un flux de données. |

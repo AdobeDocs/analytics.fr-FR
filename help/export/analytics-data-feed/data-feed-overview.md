@@ -1,13 +1,13 @@
 ---
-description: Les données qui sont collectées sur des sites Web ou sur des applications mobiles, ou qui sont chargées à l’aide de sources de données ou d’API de services Web, sont traitées et stockées dans Data Warehouse d’Adobe. Ces parcours de navigation bruts constituent le jeu de données utilisé par Adobe Analytics.
+description: Découvrez comment utiliser les flux de données pour obtenir des données brutes à partir d’Adobe Analytics. Découvrez les conditions préalables à l’utilisation des flux de données.
 keywords: parcours de navigation;flux de données;flux des données;Flux de données
-title: Flux de données Analytics - Aperçu
+title: Présentation des flux de données Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 

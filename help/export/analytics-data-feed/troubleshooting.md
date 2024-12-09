@@ -1,13 +1,12 @@
 ---
 title: Résolution des problèmes liés aux flux de données
-description: Découvrez comment déterminer et résoudre les problèmes liés aux flux de données.
-keywords: tâche;résolution des problèmes;erreur;ftp;chdir;se connecter;connexion;put
+description: Découvrez les raisons pour lesquelles une tâche de flux de données peut échouer au traitement ou à la diffusion des données. Résolvez les problèmes potentiels liés aux flux de données.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 

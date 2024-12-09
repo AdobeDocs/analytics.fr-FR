@@ -1,13 +1,13 @@
 ---
-description: Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et la diffusion des flux de données.
+description: Découvrez les bonnes pratiques en matière de traitement et de diffusion des flux de données dans Analytics.
 keywords: Flux de données;bonnes pratiques;pic de trafic;horaire;ftp
 title: Bonnes pratiques et informations générales
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 88%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-description: Fournit des rapports de répartition avec classement dans Data Warehouse, triés par valeurs de mesure décroissantes.
+description: Découvrez comment le tri par mesure facilite l’interprétation et la comparaison des rapports de Data Warehouse avec d’autres rapports de ventilation Analytics.
 title: Tri par mesure
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 99%
+source-wordcount: '337'
+ht-degree: 92%
 
 ---
 

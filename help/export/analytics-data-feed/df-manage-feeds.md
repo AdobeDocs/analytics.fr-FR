@@ -1,12 +1,12 @@
 ---
-title: Interface utilisateur du flux de données
-description: Découvrez comment naviguer dans l’interface de flux de données.
+title: Gestion des flux de données
+description: Découvrez comment naviguer dans l’interface des flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 27%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -30,7 +30,7 @@ Le gestionnaire des flux de données vous permet de créer, de modifier et de su
 
    ![Flux de données](assets/feeds.png)
 
-## Création d’un flux de données
+## Créer un flux de données
 
 Le bouton [!UICONTROL Ajouter] vous permet de créer un nouveau flux. Pour plus d’informations, voir [Création d’un flux de données](create-feed.md) .
 
