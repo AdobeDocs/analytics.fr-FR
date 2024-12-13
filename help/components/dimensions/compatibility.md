@@ -3,10 +3,10 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 96%
+source-wordcount: '889'
+ht-degree: 97%
 
 ---
 
@@ -155,9 +155,9 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | Ressource de canal Nielsen | `nielsenchannelasset` |
 | Type de contenu Nielsen | `nielsencontenttype` |
 
-## Dimensions adaptées au contenu prises en charge par Analysis Workspace
+## Dimensions basées sur le contenu prises en charge par Analysis Workspace
 
-### Vidéo (le module complémentaire Collection de médias en flux continu)
+### Vidéo (la collection Streaming Media)
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
