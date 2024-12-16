@@ -3,18 +3,18 @@ description: Gérer les alertes.
 title: Présentation d’Alert Manager
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
 
 # Gestionnaire d’alertes
 
-Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer diverses tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
+Vous pouvez gérer les alertes existantes dans le gestionnaire d’alertes. Vous pouvez effectuer différentes tâches de gestion sur les alertes, telles que le balisage, le changement de nom, la suppression, etc.
 
-La structure du gestionnaire d’alertes ressemble à celle du [ gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [ gestionnaire de mesures calculées ](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
+La structure du gestionnaire d’alertes est très similaire à celle du [Gestionnaire de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=fr) et du [Gestionnaire de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=fr).
 
 ![](assets/alert-manager.png)
 
@@ -26,27 +26,27 @@ Pour créer des alertes à partir du gestionnaire d’alertes :
 
    ![](assets/alert-manager.png)
 
-1. Sélectionnez [!UICONTROL **Ajouter**] (ou [!UICONTROL **Créer une alerte**] si vous n’avez aucune alerte existante).
+1. Sélectionnez [!UICONTROL **Ajouter**] (ou [!UICONTROL **Créer une alerte**] si vous ne disposez d’aucune alerte existante).
 
-1. Sélectionnez le type d&#39;alerte correspondant à l&#39;alerte que vous souhaitez créer :
+1. Sélectionnez le type d’alerte correspondant à l’alerte que vous souhaitez créer :
 
-   * [!UICONTROL **Alerte de données Analytics**] : alerte pour vous avertir lorsque des événements anormaux se produisent dans vos données.
+   * [!UICONTROL **Alerte de données Analytics**] : alerte permettant de vous avertir lorsque des événements anormaux se produisent dans vos données.
 
-     Si vous sélectionnez cette option, passez à la section [Créer des alertes](/help/components/c-alerts/alert-builder.md) pour plus d’informations sur la création d’alertes.
+     Si vous sélectionnez cette option, continuez avec [Créer des alertes](/help/components/c-alerts/alert-builder.md) pour plus d’informations sur la création d’alertes.
 
-   * [!UICONTROL **Alerte d’utilisation de l’appel au serveur**] : alerte pour vous avertir du risque ou de l’occurrence d’un dépassement de votre consommation d’appels au serveur et de vos données d’engagement.
+   * [!UICONTROL **Alerte relative à l’utilisation de l’appel au serveur**] : alerte vous informant du risque ou de l’occurrence d’un dépassement dans les données de consommation et d’engagement de vos appels au serveur.
 
-     Si vous sélectionnez cette option, continuez avec les [alertes d&#39;utilisation des appels au serveur](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+     Si vous sélectionnez cette option, continuez avec les alertes d’utilisation des appels au serveur [Server](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
      >[!NOTE]
      >
-     >Pour pouvoir accéder à l’utilisation des appels au serveur, vous devez être un administrateur d’Analytics ou un utilisateur disposant de l’autorisation d’utilisation des appels au serveur.
+     >Vous devez être un administrateur Analytics ou un utilisateur disposant de l’autorisation Utilisation de l’appel au serveur pour pouvoir accéder à l’utilisation de l’appel au serveur.
 
 ## Gérer les alertes existantes
 
-Vous pouvez effectuer diverses actions sur les alertes existantes, telles que le balisage, le changement de nom, la suppression, etc.
+Vous pouvez effectuer différentes actions sur les alertes existantes, telles que le balisage, le changement de nom, la suppression, etc.
 
-Pour gérer les alertes existantes dans le gestionnaire d’alertes :
+Pour gérer les alertes existantes dans le Gestionnaire d’alertes :
 
 1. Sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Alertes]** pour accéder au gestionnaire d’alertes dans Adobe Analytics.
 
@@ -60,15 +60,15 @@ Pour gérer les alertes existantes dans le gestionnaire d’alertes :
 
    | Action | Fonction |
    |---------|----------|
-   | [!UICONTROL **Balise**] | Appliquez une balise à une alerte. Vous pouvez ainsi organiser les alertes pour en faciliter l’utilisation. |
+   | [!UICONTROL **Étiquette**] | Appliquez une balise à une alerte. Cela vous permet d’organiser les alertes pour une utilisation plus facile. |
    | [!UICONTROL **Supprimer**] | Supprime l’alerte. |
    | [!UICONTROL **Renommer**] | Renomme l’alerte. |
-   | [!UICONTROL **Approuver**] | Marquez l’alerte comme Approuvé. |
-   | [!UICONTROL **Copier**] | Crée une copie (en double) de l’alerte. |
+   | [!UICONTROL **Approuver**] | Marquez l’alerte comme approuvée. |
+   | [!UICONTROL **Copier**] | Crée une copie (doublon) de l’alerte. |
    | [!UICONTROL **Désactiver**] | Désactive une alerte actuellement activée. |
-   | [!UICONTROL **Activer**] | Active une alerte actuellement désactivée. |
-   | [!UICONTROL **Renouveler**] | Renouvelle la date d’expiration de l’alerte. Cela prolonge la date d’expiration d’un an à partir du jour où vous avez sélectionné cette option, quelle que soit la date d’expiration d’origine. |
-   | [!UICONTROL **Exporter dans un fichier CSV**] | Exporte l’alerte dans un fichier .CSV. |
+   | [!UICONTROL **Activer**] | Active une alerte qui est actuellement désactivée. |
+   | [!UICONTROL **Renouveler**] | Renouvelle la date d’expiration de l’alerte. Cette option étend la date d’expiration à 1 an à compter du jour où vous avez sélectionné cette option, quelle que soit la date d’expiration d’origine. |
+   | [!UICONTROL **Exporter dans un fichier CSV**] | Exporte l’alerte vers un fichier .CSV. |
 
 ## Modification d’une alerte
 
@@ -78,40 +78,42 @@ Pour modifier une alerte existante :
 
    ![](assets/alert-manager.png)
 
-1. Sélectionnez le nom de l&#39;alerte dans la colonne [!UICONTROL **Titre et description**].
+1. Sélectionnez le nom de l’alerte dans la colonne [!UICONTROL **Titre et description**].
 
 1. Modifiez l’alerte selon vos besoins.
 
    Voici quelques-unes des actions que vous pouvez effectuer lors de la modification d’une alerte :
 
-   * Ajouter des alertes à d’autres suites de rapports
-   * Modifier le propriétaire
-   * Mise à jour des filtres
-   * Mettre à jour la date d’expiration
+   * Ajout d’alertes à d’autres suites de rapports
+   * Ajouter ou modifier la description
+   * Modifier la granularité temporelle
+   * Modifier les destinataires
+   * Modifier la date d’expiration
+   * Modification des mesures et des filtres
 
-1. Modifiez l’alerte, puis sélectionnez [!UICONTROL **Enregistrer**].
+1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-## Configuration des colonnes
+## Configurer les colonnes
 
-Vous pouvez paramétrer les informations affichées pour chaque alerte dans le Gestionnaire d&#39;alertes en configurant les colonnes qui s&#39;affichent.
+Vous pouvez configurer les informations affichées pour chaque alerte dans le Gestionnaire d’alertes en configurant les colonnes affichées.
 
 Pour configurer les colonnes visibles dans le gestionnaire d’alertes :
 
-1. Dans Adobe Analytics, sélectionnez l’onglet **[!UICONTROL Composants]**, puis sélectionnez **[!UICONTROL Alertes]**.
+1. Dans Adobe Analytics, sélectionnez l’onglet **[!UICONTROL Composants]** puis sélectionnez **[!UICONTROL Alertes]**.
 
-1. Dans le gestionnaire d’alertes, sélectionnez l’icône **Personnaliser les colonnes** ![ icône ](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le gestionnaire d’alertes.
+1. Dans le gestionnaire d’alertes, sélectionnez l’icône **Personnaliser les colonnes** ![Icône Personnaliser les colonnes](assets/customize-columns-icon.png), puis sélectionnez les colonnes à afficher dans le gestionnaire d’alertes.
 
    Les colonnes suivantes sont disponibles :
 
-   | Titre de la colonne | Description |
+   | Titre de colonne | Description |
    |---|---|
-   | Titre et description | Ces valeurs sont fournies dans le Générateur d’alertes. Pour modifier le titre et la description, sélectionnez le lien du titre pour ouvrir le Générateur d’alertes. |
-   | Favoris | Affiche des icônes d’étoile en regard de chaque alerte, ce qui vous permet de marquer les alertes comme favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | Type | Indique si l’alerte est une alerte de données Analytics ou une alerte d’utilisation de l’appel au serveur. |
+   | Titre et description | Ces valeurs sont fournies dans le créateur d’alertes. Pour modifier le titre et la description, sélectionnez le lien du titre afin d’ouvrir le créateur d’alertes. |
+   | Favoris | Affiche des icônes en étoile en regard de chaque alerte, ce qui vous permet de marquer les alertes comme favorites. <!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
+   | Type | Indique s’il s’agit d’une alerte de données Analytics ou d’une alerte d’utilisation des appels au serveur. |
    | Activé | Indique si l’alerte est actuellement activée ou désactivée. |
    | Suite de rapports | Indique dans quelle suite de rapports l’alerte a été enregistrée en dernier. |
-   | Propriétaire | Indique qui possède l’alerte. En tant que non administrateur, vous ne pouvez afficher que les alertes que vous possédez ou celles qui ont été partagées avec vous. |
-   | Balises | Affiche les balises qui ont été appliquées à l’alerte, soit par vous, soit par des personnes qui ont partagé l’alerte avec vous. |
+   | Personne propriétaire | Indique qui est le propriétaire de l’alerte. En tant que non administrateur, vous ne pouvez afficher que les alertes que vous possédez ou celles qui ont été partagées avec vous. |
+   | Balises | Affiche les balises qui ont été appliquées à l’alerte, par vous ou par des personnes qui ont partagé l’alerte avec vous. |
    | Date d’expiration | Affiche la date et l’heure d’expiration de l’alerte. |
    | Date de modification | Indique la date de la dernière modification de l’alerte. |
 
