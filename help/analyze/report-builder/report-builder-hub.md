@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 50%
+source-wordcount: '523'
+ht-degree: 51%
 
 ---
 
@@ -66,8 +66,8 @@ Pour modifier la suite de rapports, sélectionnez une nouvelle suite de rapports
 
 ### Période
 
-**[!UICONTROL Période]** affiche la période des blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs périodes, le lien **[!UICONTROL Période]** s’affiche *Multiple*.
+**[!UICONTROL Période]** affiche la période des blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs périodes, le lien **[!UICONTROL Période]** s’affiche *Multiple*. [En savoir plus](/help/analyze/report-builder/select-date-range.md)
 
 ### Segments
 
-Le lien **Segments** affiche une liste récapitulative des segments utilisés par les blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs segments appliqués, le lien **Segments** s’affiche *Multiple*.
+Le lien **Segments** affiche une liste récapitulative des segments utilisés par les blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs segments appliqués, le lien **Segments** s’affiche *Multiple*. [En savoir plus](/help/analyze/report-builder/work-with-segments.md)

@@ -1,14 +1,15 @@
 ---
-title: Sélection d’une plage de données dans Report Builder dans Adobe Analytics
-description: Décrit comment utiliser le calendrier, les dates roulantes et les expressions personnalisées dans Report Builder pour Adobe Analytics
+title: Comment sélectionner une plage de données dans le Report Builder dans Adobe Analytics
+description: Décrit comment utiliser le calendrier, les dates flottantes et les expressions personnalisées en Report Builder pour Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,11 +32,11 @@ Le Calendrier vous permet de créer des dates fixes ou variables à lʼaide des 
 
 **À partir de la cellule**
 
-Lʼoption À partir de la cellule vous permet de référencer les dates saisies dans les cellules des feuilles de calcul.
+L’option **[!UICONTROL À partir de la cellule]** vous permet de référencer des dates saisies dans des cellules de feuille de calcul.
 
 Vous avez la possibilité dʼexclure la date dʼaujourdʼhui pour nʼimporte quelle période sélectionnée.
 
-![Report Builder Panneau d’édition rapide avec calendrier sélectionné et Exclure aujourd’hui sélectionné.](./assets/image17.png)
+![Volet de modification rapide de Report Builder avec calendrier sélectionné et Exclure aujourd’hui sélectionné.](./assets/image17.png)
 
 ## Utilisation du calendrier
 
@@ -61,7 +62,7 @@ Pour sélectionner des dates à lʼaide du calendrier, procédez comme suit :
 
 Pour définir une période en sens inverse, cliquez dʼabord sur la date de fin, puis sur la date de début.
 
-![Volet Période de Report Builder affichant le calendrier, la date de fin et la date de début sélectionnée.](./assets/image18.png)
+![Report Builder volet de périodes affichant le calendrier, la date de fin et la date de début sélectionnés.](./assets/image18.png)
 
 ### Menu déroulant Paramètre prédéfini
 
@@ -75,7 +76,7 @@ Lʼoption Dates roulantes vous permet de sélectionner une période à lʼaide d
 
 1. Sélectionnez une expression variable pour les dates de début et/ou de fin.
 
-   ![Volet Période Report Builder affichant Utiliser des dates roulantes sélectionnées et l’expression variable.](./assets/image19.png)
+   ![Report Builder volet de période affichant Utiliser les dates flottantes sélectionnées et l&#39;expression flottante.](./assets/image19.png)
 
    **Début du** - Permet de sélectionner le début dʼun jour, dʼune semaine, dʼun mois, dʼun trimestre ou dʼune année.
 
@@ -85,11 +86,11 @@ Lʼoption Dates roulantes vous permet de sélectionner une période à lʼaide d
 
 1. Sélectionnez la période roulante : jour, semaine, mois, trimestre ou année.
 
-   ![Report Builder du volet de plage de dates affichant le jour actuel sélectionné.](./assets/image20.png)
+   ![Report Builder volet de période affichant le jour sélectionné.](./assets/image20.png)
 
 1. Ajoutez ou enlevez des jours, semaines, mois, trimestres ou années à votre date roulante.
 
-   ![Volet Période Report Builder affichant le jour en cours plus 14 jours sélectionnés.](./assets/image21.png)
+   ![Report Builder volet de période affichant le jour en cours plus les 14 jours sélectionnés.](./assets/image21.png)
 
 1. Cliquez sur Suivant pour définir la période.
 
@@ -156,13 +157,13 @@ Le tableau suivant dresse une liste dʼexemples dʼexpressions de date.
 | tm-1d | Dernier jour du mois précédent |
 | td-52w | Même jour, 52 semaines auparavant |
 | tm-11m-1d | Dernier jour du même mois il y a un an |
-| &quot;2020-09-06&quot; | 9 septembre 2020 |
+| « 2020-09-06 » | 9 septembre 2020 |
 
 ## Période à partir dʼune cellule
 
 La période peut être spécifiée dans les cellules des feuilles de calcul. Utilisez lʼoption **Période à partir dʼune cellule** pour choisir la date de début et de fin du bloc de données à partir des cellules sélectionnées. Lorsque vous sélectionnez lʼoption **À partir de la cellule**, le panneau affiche les champs **De** et **À** dans lesquels vous pouvez saisir un emplacement de cellule.
 
-![Sélectionner à partir de la cellule Sheet1!H4 vers Sheet1!I4](./assets/image23.png)
+![Sélectionner de la cellule Sheet1!H4 à Sheet1!I4](./assets/image23.png)
 
 ## Exclure aujourdʼhui
 
