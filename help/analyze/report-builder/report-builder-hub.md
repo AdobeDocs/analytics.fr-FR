@@ -1,14 +1,15 @@
 ---
-title: Qu’est-ce que le Report Builder Hub dans Adobe Analytics ?
+title: Qu’est-ce que Report Builder Hub dans Adobe Analytics ?
 description: Décrit les composants du centre Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
+source-git-commit: c6b753b887b369fbbae2f9bb5d45cef92bffb3d0
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 61%
+source-wordcount: '519'
+ht-degree: 50%
 
 ---
 
@@ -16,14 +17,18 @@ ht-degree: 61%
 
 Utilisez le centre Report Builder pour créer, mettre à jour, supprimer et gérer des blocs de données.
 
-Le hub de Report Builder contient les boutons Créer et Gérer, la liste COMMANDES et les panneaux d’édition RAPIDE.
+Le hub de Report Builder contient les boutons Créer, Gérer et Planifier, le panneau COMMANDES et le panneau ÉDITION RAPIDE.
 
 <img src="./assets/hub51.png" alt="Centre Report Builder"/>
 
 
-## Boutons Créer, Gérer et Planifier
+## boutons Créer, Gérer et Planifier
 
-Utilisez les boutons Créer, Gérer et Planifier pour créer de nouveaux blocs de données, gérer des blocs de données existants ou planifier des blocs de données.
+Utilisez les boutons Créer, Gérer et Planifier pour créer des blocs de données, gérer des blocs de données existants ou planifier des blocs de données.
+
+>[!NOTE]
+>
+>La planification des classeurs pour cette version de Report Builder sur Adobe Analytics n’a pas encore été publiée, mais elle sera disponible début 2025. Vous pouvez commencer maintenant sur les classeurs qui ne nécessitent pas de planification.
 
 ## Panneau COMMANDES
 
@@ -33,27 +38,27 @@ Utilisez le panneau COMMANDES pour accéder aux commandes compatibles avec les c
 
 | Commandes affichées | Disponible lorsque… | Rôle |
 |------|------------------|--------|
-| Créer un bloc de données | Une ou plusieurs cellules sont sélectionnées dans le classeur. | Sert à créer un bloc de données |
 | Modifier le bloc de données | La ou les cellules sélectionnées font partie d’un seul bloc de données. | Sert à modifier un bloc de données |
 | Actualiser le bloc de données | La sélection contient au moins un bloc de données. La commande actualise uniquement les blocs de données de la sélection. | Sert à actualiser un ou plusieurs blocs de données |
 | Actualiser tous les blocs de données | Le classeur contient un ou plusieurs blocs de données. | Sert à actualiser TOUS les blocs de données dans le classeur |
-| Envoyer le classeur |   | Envoyez un classeur selon un calendrier. |
+| Envoyer le classeur |   | Envoyer un classeur selon un planning. |
 | Copier le bloc de données | La cellule ou la plage de cellules sélectionnée fait partie d’un ou de plusieurs blocs de données. | Sert à copier un bloc de données |
+| Couper le bloc de données |   | Utilisé pour couper un bloc de données |
 | Supprimer le bloc de données | La ou les cellules sélectionnées font partie d’un seul bloc de données. | Sert à supprimer un bloc de données |
 
 ## Panneau ÉDITION RAPIDE
 
 Lorsque vous sélectionnez un ou plusieurs blocs de données dans une feuille de calculs, Report Builder affiche le panneau ÉDITION RAPIDE. Vous pouvez utiliser le panneau ÉDITION RAPIDE pour modifier les paramètres d’un seul ou de plusieurs blocs de données en même temps.
 
-![Panneau Modification rapide en Report Builder](./assets/hub2.png)
+![Panneau Modification rapide dans le Report Builder ](./assets/hub2.png)
 
 Les modifications effectuées à l’aide des sections Édition rapide s’appliquent à tous les blocs de données sélectionnés.
 
 ### Suites de rapports
 
-Les blocs de données extraient des données d’une suite de rapports sélectionnée. Si plusieurs blocs de données sont sélectionnés dans une feuille de calcul et qu’ils n’extraient pas de données de la même suite de rapports, le lien **Suites de rapports** affiche *Multiple*.
+Les blocs de données extraient des données d’une suite de rapports sélectionnée. Si plusieurs blocs de données sont sélectionnés dans une feuille de calcul et qu’ils n’extraient pas les données de la même suite de rapports, le lien **Suites de rapports** affiche *Multiple*.
 
-Lorsque vous modifiez la suite de rapports, tous les blocs de données de la sélection adoptent la nouvelle suite de rapports. Les composants du bloc de données sont associés à la nouvelle suite de rapports en fonction de l’ID, par exemple, la correspondance avec ```evars```. Si un composant est introuvable dans un bloc de données, un message d’avertissement s’affiche et le composant est supprimé du bloc de données.
+Lorsque vous modifiez la suite de rapports, tous les blocs de données de la sélection adoptent la nouvelle suite de rapports. Les composants du bloc de données sont associés à la nouvelle suite de rapports en fonction de l’identifiant, par exemple la ```evars``` correspondante). Si un composant est introuvable dans un bloc de données, un message d’avertissement s’affiche et le composant est supprimé du bloc de données.
 
 Pour modifier la suite de rapports, sélectionnez une nouvelle suite de rapports dans le menu déroulant.
 
@@ -61,8 +66,8 @@ Pour modifier la suite de rapports, sélectionnez une nouvelle suite de rapports
 
 ### Période
 
-**[!UICONTROL Période]** affiche la période des blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs plages de dates, le lien **[!UICONTROL Plage de dates]** affiche *Multiple*.
+**[!UICONTROL Période]** affiche la période des blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs périodes, le lien **[!UICONTROL Période]** s’affiche *Multiple*.
 
-### Filtres
+### Segments
 
-Le lien **Filtres** affiche une liste récapitulative des filtres utilisés par les blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs filtres appliqués, le lien **Filtres** affiche *Multiple*.
+Le lien **Segments** affiche une liste récapitulative des segments utilisés par les blocs de données sélectionnés. Si plusieurs blocs de données sont sélectionnés avec plusieurs segments appliqués, le lien **Segments** s’affiche *Multiple*.
