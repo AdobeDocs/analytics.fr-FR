@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,8 +83,6 @@ Vous pouvez remplacer un segment existant par un autre segment pour modifier la 
 
    La sélection dʼun filtre lʼajoute à la liste **[!UICONTROL Remplacer par]**...
 
-   ![L’onglet Remplacer avec le bloc de données Personnes sur l’application sélectionné et la liste Remplacer par mise à jour affichant Personnes sur l’application révisée.](./assets/replace_screen_new.png)
-
 1. Cliquez sur **[!UICONTROL Appliquer]**.
 
    Le Report Builder met à jour la liste des segments pour refléter le remplacement.
@@ -103,7 +101,7 @@ Pour appliquer des segments depuis une cellule
 
 1. Sélectionnez la cellule à partir de laquelle vous souhaitez que les blocs de données référencent un segment.
 
-1. Ajoutez le choix de segment que vous souhaitez ajouter à la cellule en double-cliquant sur le segment ou en le faisant glisser et en le déposant dans la section Segments inclus .
+1. Ajoutez le choix de segment que vous souhaitez ajouter à la cellule en double-cliquant sur le segment ou en le faisant glisser et en le déposant dans la section **[!UICONTROL Segments inclus]**.
 
    Remarque : Un seul choix peut être sélectionné à la fois pour la cellule donnée.
 
