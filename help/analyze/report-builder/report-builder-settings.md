@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ Pour modifier les paramètres de Report Builder
 
 1. Cliquez sur **Appliquer**.
 
-   ![Report Builder de la période affichant le bouton Annuler et Appliquer.](./assets/image38.png)
+   ![Paramètres de Report Builder.](./assets/image38.png)
 
 ## Mode hors ligne
 
@@ -32,13 +33,13 @@ Lors de la création et de la modification d’un bloc de données en mode hors 
 
 Pour activer le mode hors ligne
 
-1. Cliquez sur l’icône **Paramètres**.
+1. Cliquez sur l’icône **[!UICONTROL Paramètres]**.
 
-1. Sélectionnez **Activation du mode hors ligne**.
+1. Sélectionnez **[!UICONTROL Activer le mode hors ligne]par**.
 
-1. Saisissez un nombre entier positif dans le champ **Afficher les données de mesure sous**.
+1. Saisissez un nombre entier positif dans le champ **[!UICONTROL Afficher les données de mesure sous]**.
 
-1. Cliquez sur **Appliquer**.
+1. Cliquez sur **[!UICONTROL Appliquer]**.
 
 ## Langue
 
@@ -48,14 +49,14 @@ Pour sélectionner la langue utilisée dans l’interface utilisateur de Report 
 
 1. Cliquez sur Paramètres.
 
-1. Sélectionnez une langue dans le menu déroulant **Langue**.
+1. Sélectionnez une langue dans le menu déroulant **[!UICONTROL Langue]**.
 
-   ![Panneau de plage de dates de Report Builder affichant la liste Langue avec l’anglais sélectionné.](./assets/image39.png)
+   ![Report Builder volet de périodes affichant la liste des langues avec l&#39;anglais sélectionné.](./assets/image39.png)
 
-1. Cliquez sur **Appliquer.**
+1. Cliquez sur **[!UICONTROL Appliquer].**
 
 ## Résolution des problèmes
 
 Utilisez le paramètre de dépannage pour consigner toutes les données client/serveur dans un fichier local. Utilisez cette option pour résoudre les tickets d’assistance.
 
-Pour activer l’option Dépannage, sélectionnez **Enregistrer la requête Report Builder dans le fichier local**.
+Pour activer l’option Dépannage, sélectionnez **[!UICONTROL Enregistrer le bloc de données du Report Builder dans la console web]**.

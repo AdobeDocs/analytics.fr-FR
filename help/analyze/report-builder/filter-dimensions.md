@@ -1,14 +1,15 @@
 ---
-title: Comment filtrer les dimensions dans Report Builder
-description: Décrit comment utiliser les dimensions de filtre dans Report Builder
+title: Filtrage des dimensions dans le Report Builder
+description: Décrit comment utiliser des dimensions de filtre dans le Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
 source-wordcount: '1012'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -20,17 +21,17 @@ Pour modifier les éléments de dimension renvoyés pour chaque dimension :
 
 1. Sélectionnez un bloc de données et cliquez sur **[!UICONTROL Modifier le bloc de données]** dans le panneau COMMANDES.
 
-1. Cliquez sur **[!UICONTROL Suivant]** pour afficher l’onglet Dimensions.
+1. Cliquez sur **[!UICONTROL Suivant]** pour afficher l’onglet Dimensions .
 
-1. Cliquez sur l’icône **...** en regard d’un nom de composant dans la table.
+1. Cliquez sur l’icône **...** en regard d’un nom de composant dans le tableau.
 
    ![Options de l’icône représentant des points de suspension.](./assets/image27.png)
 
-1. Sélectionnez **[!UICONTROL Filtrer la dimension]** dans le menu contextuel pour afficher le volet **[!UICONTROL Filtrer la dimension]**.
+1. Sélectionnez **[!UICONTROL Filtrer la dimension]** dans le menu pop-up pour afficher le volet **[!UICONTROL Filtrer la dimension]**.
 
-1. Sélectionnez **[!UICONTROL Le plus populaire]** ou **[!UICONTROL Spécifique]**.
+1. Sélectionnez **[!UICONTROL Les plus populaires]** ou **[!UICONTROL Spécifique]**.
 
-   ![Option spécifique sélectionnée dans le volet Dimension de filtre.](./assets/image28.png)
+   ![Option spécifique sélectionnée dans le volet Filtrer la dimension.](./assets/image28.png)
 
 1. Sélectionnez les options appropriées en fonction du type de filtre choisi.
 
@@ -46,9 +47,9 @@ Il existe deux manières de filtrer les éléments de dimension : Les plus popu
 
 ## Les plus populaires
 
-L’option [!UICONTROL La plus populaire] vous permet de filtrer dynamiquement les éléments de dimension en fonction des valeurs de mesure. Le filtrage [!UICONTROL Le plus populaire] renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
+L’option [!UICONTROL  Les plus populaires ] vous permet de filtrer les éléments de dimension de manière dynamique en fonction de valeurs de mesure. [!UICONTROL Les plus populaires] le filtrage renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
 
-![L’option la plus populaire.](./assets/image29.png)
+![L&#39;option la plus populaire.](./assets/image29.png)
 
 
 ### Options Page et Lignes
@@ -79,7 +80,7 @@ Le tableau ci-dessous répertorie des exemples de valeurs de page et de lignes, 
 
 ### Inclure « Aucune valeur »
 
-Dans Adobe Analytics, certaines dimensions collectent une entrée &quot;aucune valeur&quot;. Ce filtre permet d’exclure ces valeurs des rapports. Par exemple, vous pouvez créer une classification telle que la classification Nom du produit en fonction de la clé SKU du produit. Si un SKU de produit spécifique n’a pas été configuré avec sa classification de nom de produit spécifique, sa valeur de nom de produit est définie sur « aucune valeur ».
+Dans Adobe Analytics, certaines dimensions collectent une entrée « aucune valeur ». Ce filtre permet d’exclure ces valeurs des rapports. Par exemple, vous pouvez créer une classification telle que la classification Nom du produit en fonction de la clé SKU du produit. Si un SKU de produit spécifique n’a pas été configuré avec sa classification de nom de produit spécifique, sa valeur de nom de produit est définie sur « aucune valeur ».
 
 Inclure « **Aucune valeur** » est sélectionné par défaut. Désélectionnez cette option pour exclure les entrées sans valeur.
 
@@ -91,11 +92,11 @@ Pour définir des critères de filtrage
 
 1. Sélectionnez un opérateur dans la liste déroulante.
 
-   ![La liste des opérateurs.](./assets/image31.png)
+   ![Liste des opérateurs.](./assets/image31.png)
 
 1. Saisissez une valeur dans le champ de recherche.
 
-1. Cliquez sur Ajouter une ligne pour confirmer la sélection et ajouter un autre élément de critère.
+1. Cliquez sur **[!UICONTROL Ajouter une ligne]** pour confirmer la sélection et ajouter un autre élément de critère.
 
 1. Cliquez sur l’icône de suppression pour supprimer un élément de critère.
 
@@ -113,36 +114,36 @@ Pour modifier la mesure utilisée pour filtrer et trier le bloc de données :
 
 2. Cliquez sur la flèche de la mesure souhaitée.
 
-   ![Générateur de tableau et mesures.](./assets/image30.png)
+   ![Le créateur de tableaux et les mesures.](./assets/image30.png)
 
 
 ## Filtrage spécifique
 
-L’option Spécifique vous permet de créer une liste fixe d’éléments de dimension pour chaque dimension. Utilisez le type de filtrage **Spécifique** pour spécifier les éléments de dimension exacts à inclure dans votre filtre. Vous pouvez sélectionner des éléments dans une liste ou dans une plage de cellules.
+L’option Spécifique vous permet de créer une liste fixe d’éléments de dimension pour chaque dimension. Utilisez le type de filtrage **[!UICONTROL Spécifique]** pour spécifier les éléments de dimension exacts à inclure dans votre filtre. Vous pouvez sélectionner des éléments dans une liste ou dans une plage de cellules.
 
-![Les options spécifiques et les éléments sélectionnés.](./assets/image32.png)
+![Options spécifiques et éléments sélectionnés.](./assets/image32.png)
 
 ### À partir de la liste
 
-1. Sélectionnez l’option **À partir de la liste** pour rechercher et sélectionner des éléments de dimension.
+1. Sélectionnez l’option **[!UICONTROL À partir de la liste]** pour rechercher et sélectionner des éléments de dimension.
 
-   Lorsque vous sélectionnez l’option **À partir de la liste**, la liste est d’abord remplie avec les éléments de dimension comportant le plus d’événements.
+   Lorsque vous sélectionnez l’option **[!UICONTROL À partir de la liste]**, la liste est d’abord remplie avec les éléments de dimension comportant le plus d’événements.
 
-   ![L’option De liste et les éléments disponibles.](./assets/image33.png)
+   ![L’option À partir de la liste et les éléments disponibles.](./assets/image33.png)
 
    La liste **[!UICONTROL Éléments disponibles]** est triée dans l’ordre des éléments de dimension comportant le plus d’événements à ceux comportant le moins d’événements.
 
 1. Saisissez un terme de recherche dans le champ **[!UICONTROL Ajouter un élément]** pour effectuer une recherche dans la liste.
 
-1. Pour rechercher un élément non inclus dans les 90 derniers jours de données, cliquez sur **[!UICONTROL Afficher les éléments pour les 6 derniers mois]** pour étendre la recherche.
+1. Pour rechercher un élément non inclus dans les 90 derniers jours de données, cliquez sur **[!UICONTROL Afficher les éléments des 6 derniers mois]** afin d’étendre la recherche.
 
-   ![Afficher les éléments de la liste des 6 derniers mois.](./assets/image34.png)
+   ![La liste Afficher les éléments des 6 derniers mois.](./assets/image34.png)
 
-   Une fois les données des 6 derniers mois chargées, Report Builder met à jour le lien vers **[!UICONTROL Afficher les éléments pour les 18 derniers mois]**.
+   Une fois les données des 6 derniers mois chargées, Report Builder met à jour le lien vers **[!UICONTROL Afficher les éléments des 18 derniers mois]**.
 
 1. Sélectionnez un élément de dimension.
 
-   Les éléments de dimension sélectionnés sont automatiquement ajoutés à la liste **Éléments sélectionnés**.
+   Les éléments de dimension sélectionnés sont automatiquement ajoutés à la liste **[!UICONTROL Éléments sélectionnés]**.
 
    ![](./assets/image35.png)
 
@@ -160,7 +161,7 @@ L’option Spécifique vous permet de créer une liste fixe d’éléments de di
 
 Sélectionnez l’option **[!UICONTROL À partir de la plage de cellules]** pour choisir une plage de cellules contenant la liste des éléments de dimension à faire correspondre.
 
-![L’option De plage de cellules et le champ pour sélectionner une plage de cellules.](./assets/image37.png)
+![L’option À partir de la plage de cellules et le champ pour sélectionner une plage de cellules.](./assets/image37.png)
 
 Lorsque vous sélectionnez une plage de cellules, tenez compte des restrictions suivantes :
 
@@ -174,6 +175,6 @@ Votre sélection peut contenir des cellules vides ou des cellules avec des valeu
 
 Dans l’onglet **[!UICONTROL Dimensions]**, cliquez sur l’icône de chevron en regard d’un nom de dimension pour afficher la liste des éléments correspondants.
 
-![Onglet Dimensions et liste des dimensions.](./assets/dimensions_chevron.png)
+![L’onglet Dimensions et la liste des dimensions.](./assets/dimensions_chevron.png)
 
-Vous pouvez faire glisser et déposer des éléments sur le **Tableau** ou double-cliquer sur le nom d’un élément pour l’ajouter au générateur de **Tableau**.
+Vous pouvez faire glisser et déposer des éléments sur le **[!UICONTROL Tableau]** ou double-cliquer sur le nom d’un élément pour l’ajouter au générateur de **[!UICONTROL Tableau]**.
