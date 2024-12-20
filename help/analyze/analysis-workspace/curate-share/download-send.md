@@ -4,10 +4,10 @@ title: Téléchargement de fichiers PDF ou CSV
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -21,15 +21,15 @@ Les données exportées peuvent prendre la forme de données copiées, ou de fic
 
 Tenez compte des points suivants lors du téléchargement de projets :
 
-* Lorsque vous téléchargez des projets au format CSV ou PDF, vous pouvez enregistrer ou non le projet lorsque vous demandez son téléchargement. Cependant, seuls les projets enregistrés peuvent être [planifiés](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md).
+* Lors du téléchargement de projets au format CSV ou PDF, le projet peut être enregistré ou non lorsque vous demandez un téléchargement de projet. Cependant, seuls les projets enregistrés peuvent être [planifiés](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md).
 
 * Lors du téléchargement de projets en tant que PDF :
-   * L’exportation des téléchargements peut prendre plusieurs minutes, car le projet est de nouveau exécuté sur les serveurs Adobe avant d’être rendu au format PDF. Nous vous recommandons de ne pas quitter le projet tant que le fichier PDF n’a pas été téléchargé dans votre navigateur. Cependant, vous pouvez continuer à apporter des modifications au projet pendant que vous patientez. Si le rendu dʼun fichier PDF prend plus de 5 minutes, vous serez invité à l’envoyer par e-mail.
-   * Les téléchargements sont affichés sous la forme d’une seule page sans pagination.
-   * Les rendus PDF contiennent ce qui se trouve sur la page dans Workspace. Si un projet comprend des panneaux et des visualisations aux dimensions personnalisées, vous devez définir leurs dimensions automatiquement (à l’aide du bouton dans le coin supérieur droit) afin d’éviter toute troncation du contenu.
-   * Les [hyperliens](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) existant dans les tableaux à structure libre ne sont pas fonctionnels dans le PDF téléchargé.
+   * L’exportation des téléchargements peut prendre plusieurs minutes, car le projet est réexécuté sur les serveurs d’Adobe avant le rendu au format PDF. Nous vous recommandons de ne pas quitter le projet tant que le fichier PDF n’a pas été téléchargé dans votre navigateur. Cependant, vous pouvez continuer à apporter des modifications au projet pendant que vous patientez. Si le rendu dʼun fichier PDF prend plus de 5 minutes, vous serez invité à l’envoyer par e-mail.
+   * Les téléchargements sont générés en une seule page sans pagination.
+   * Les rendus de PDF contiennent ce qui se trouve sur la page dans Workspace. Si un projet comprend des panneaux et des visualisations aux dimensions personnalisées, vous devez définir leurs dimensions automatiquement (à l’aide du bouton dans le coin supérieur droit) afin d’éviter toute troncation du contenu.
+   * Les [hyperliens](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) qui existent dans les tableaux à structure libre ne sont pas fonctionnels dans le PDF téléchargé.
 
-Pour télécharger un projet au format CSV ou PDF :
+Pour télécharger un projet au format CSV ou PDF, procédez comme suit :
 
 1. Effectuez l’une des opérations suivantes, selon le format dans lequel vous souhaitez télécharger le projet :
 
@@ -44,6 +44,7 @@ Pour télécharger un projet au format CSV ou PDF :
    ![](assets/download-project.png)
 
 1. Le cas échéant, si vous choisissez de télécharger un PDF, un message s’affiche une fois que le projet est prêt à être téléchargé. Cliquez sur [!UICONTROL **Télécharger**].
+1. Cliquez sur l’icône **[!UICONTROL Télécharger ce fichier]** et enregistrez le fichier dans un dossier de votre choix.
 
 ## Copier les données dans le presse-papiers (raccourci clavier : Ctrl+C) {#copy-data}
 
