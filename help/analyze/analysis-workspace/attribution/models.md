@@ -4,10 +4,10 @@ description: La manière dont les différents types d’attributions répartisse
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 100%
+source-wordcount: '1602'
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Intervalles de recherche en amont des visiteurs :** recherchent toutes les visites en amont jusqu’au 1er du mois de la période en cours. Les intervalles de recherche en amont des visiteurs sont larges, car ils peuvent porter sur plusieurs visites. La recherche en amont des visiteurs prend en compte toutes les valeurs depuis le début du mois de la période du rapport. Par exemple, si la période du rapport s’étend du 15 au 30 septembre, la période de recherche en amont des visiteurs est du 1er au 30 septembre.
 
-* **Intervalle de recherche en amont personnalisé :** permet d’étendre l’intervalle d’attribution au-delà de la période des rapports (pendant un maximum de 90 jours). Les intervalles de recherche en amont personnalisés sont évalués pour chaque conversion pendant la période des rapports. Par exemple, pour une conversion survenant le 20 février, un intervalle de recherche en amont de 10 jours évalue tous les points de contact de dimension du 10 au 20 février dans le modèle d’attribution.
+* **Intervalle de recherche en amont personnalisé :** permet d’étendre l’intervalle d’attribution au-delà de la période des rapports (pendant un maximum de 90 jours). Les intervalles de recherche en amont personnalisés sont évalués pour chaque conversion pendant la période des rapports. Par exemple, pour une conversion ayant lieu le 20 février, un intervalle de recherche en amont de 10 jours évalue tous les points de contact de dimension entre le 10 et le 20 février dans le modèle d’attribution.
 
   Regardez une vidéo sur les intervalles de recherche en amont personnalisés :
 
@@ -76,6 +76,7 @@ Selon votre intervalle de recherche en amont et votre modèle d’attribution, l
       * Courrier électronique : 33,8 %, gain de 16,88 $
       * Réseaux sociaux : 18,6 %, gain de 9,32 $
       * Référencement payant : 13,8 %, gain de 6,92 $
+* En utilisant **Participation** et un **intervalle de recherche en amont des visiteurs**, la totalité des 50 $ est attribuée au référencement payant, aux réseaux sociaux, aux e-mails et à l’affichage. Si vous affichez le chiffre d’affaires sous la forme d’un rapport de tendances plutôt que d’un rapport avec classement, vous verrez les 50 $ chaque jour respectif où le visiteur a touché un canal marketing donné.
 
 >[!TIP]
 >

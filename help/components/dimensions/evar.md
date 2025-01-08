@@ -3,10 +3,10 @@ title: eVar (dimension)
 description: Une dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ec077b3404c6bff1198fae30a2d25321de8a58cd
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '854'
+ht-degree: 82%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 *Cette page d’aide décrit le fonctionnement des eVars en tant que [dimension](overview.md). Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous avez un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent comme des [!UICONTROL eVars], en plus de la dimension par défaut disponible avec Adobe Analytics, comme « Nom de page », « Domaine référent », « Canal ». Pour plus d’informations, reportez-vous à la section [Vue d’ensemble de la dimension](overview.md).
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’[!UICONTROL eVars]. Voir Présentation des Dimensions [](overview.md) pour plus d&#39;informations.
 
-Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les [!UICONTROL Paramètres de la suite de rapports]. Voir ci-dessous un exemple de définitions d’eVar dans l’interface utilisateur des variables de conversion.
+Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance d’eVar sur l’architecture d’Adobe. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions eVar dans l’interface des variables de conversion :
 
 ![Exemples d’eVar](assets/evars-sample.png)
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la première valeur enregistrée par le système principal. Cette valeur peut être la première instance jamais vue ou varier en fonction d’une période (par exemple, mensuelle), selon la variété et la quantité des données associées à la suite de rapports.
+La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la première valeur que vous envoyez au cours d’un mois calendaire donné. Le cas peut varier en fonction de la fenêtre de création de rapports et du cas d’une valeur d’eVar collectée en premier pendant cette période.
 
 ## Renseignement des eVars avec des données
 
@@ -45,7 +45,7 @@ Dans la plupart des cas, la colonne `post_evar` est utilisée dans les rapports.
 
 ### Liaison des eVars aux mesures
 
-Les événements de succès et les eVars sont fréquemment définis dans différentes demandes d’image. La colonne `post_evar` permet aux valeurs eVar de se lier aux événements, affichant les données dans les rapports. Prenez par exemple la visite suivante :
+Les événements de succès et les eVars sont fréquemment définis à différents moments. La colonne `post_evar` permet aux valeurs eVar de se lier aux événements, affichant les données dans les rapports. Prenez par exemple la visite suivante :
 
 1. Un visiteur arrive sur votre site sur votre page d’accueil.
 2. Il cherche le mot-clé « chats » en utilisant la recherche interne de votre site. Votre implémentation utilise eVar1 pour la recherche interne.
@@ -78,8 +78,10 @@ Les outils d’Adobe Analytics, tels que Analysis Workspace, exploitent ces do
 
 Analysis Workspace extrait ce rapport selon la logique suivante :
 
-* Examinez toutes les valeurs `event_list` et sélectionnez tous les accès qui contiennent `purchase`.
-* Sur ces accès, affichez la valeur `post_evar1`.
+* Parcourez toutes `event_list` valeurs et sélectionnez toutes les lignes contenant des `purchase`.
+* Sur ces lignes, affichez la valeur `post_evar1`.
+
+Le rapport qui en résulte affiche chaque valeur différente contenue dans `post_evar1` à gauche, ainsi que le nombre de commandes attribuées à cette valeur à droite.
 
 ### L’importance de l’attribution et de l’expiration
 

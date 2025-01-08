@@ -3,10 +3,10 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 97%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -24,125 +24,125 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 |---|---|
 | Analytics pour Target | `targetraw` |
 | ID Audiences | `mcaudiences` |
-| Navigateur | `browser` |
-| Type de navigateur | `browsertype` |
-| Catégorie | `category` |
-| Villes | `geocity` |
-| Profondeur de couleur | `colordepth` |
-| Type de connexion | `connectiontype` |
-| Prise en charge des cookies | `cookie` |
-| Pays | `geocountry` |
-| Fidélité de la clientèle | `customerloyalty` |
-| Variables de conversion personnalisées | `evar1`, `evar2`, etc. |
-| Variables Custom Insight | `prop1`, `prop2`, etc. |
-| Lien personnalisé | `customlink` |
-| Jours avant le premier achat | `daysbeforefirstpurchase` |
-| Jours depuis le dernier achat | `dayssincelastpurchase` |
-| Domaine | `filtereddomain` |
-| Lien de téléchargement | `downloadlink` |
-| Page d’accès | `entrypage` |
-| Page d’accès d’origine | `entrypageoriginal` |
-| Exit Link (Lien de sortie) | `exitlink` |
-| Canal Première touche | `firsttouchchannel` |
-| Détails du canal Première touche | `firsttouchchanneldetail` |
-| Compatible Java | `javaenabled` |
-| Langue | `language` |
-| Canal Dernière touche | `lasttouchchannel` |
-| Détails du canal Dernière touche | `lasttouchchanneldetail` |
+| [Navigateur](browser.md) | `browser` |
+| [Type de navigateur](browser-type.md) | `browsertype` |
+| [Catégorie](category.md) | `category` |
+| [Villes](cities.md) | `geocity` |
+| [Codage des couleurs](color-depth.md) | `colordepth` |
+| [Type de connexion](connection-type.md) | `connectiontype` |
+| [ Prise en charge des cookies ](cookie-support.md) | `cookie` |
+| [Pays](countries.md) | `geocountry` |
+| [Fidélité de la clientèle](customer-loyalty.md) | `customerloyalty` |
+| [Vars de conversion personnalisées](evar.md) | `evar1`, `evar2`, etc. |
+| [Custom Insight Vars](prop.md) | `prop1`, `prop2`, etc. |
+| [Lien personnalisé](custom-link.md) | `customlink` |
+| [Jours avant le premier achat](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
+| [Jours depuis le dernier achat](days-since-last-purchase.md) | `dayssincelastpurchase` |
+| [Domaine](domain.md) | `filtereddomain` |
+| [Lien de téléchargement](download-link.md) | `downloadlink` |
+| [Page d’entrée](entry-dimensions.md) | `entrypage` |
+| [Page d’entrée originale](entry-dimensions.md) | `entrypageoriginal` |
+| [Lien de sortie](exit-link.md) | `exitlink` |
+| [Canal Première touche](first-touch-channel.md) | `firsttouchchannel` |
+| [Détails du canal Première touche](first-touch-detail.md) | `firsttouchchanneldetail` |
+| [Compatible Java](java-enabled.md) | `javaenabled` |
+| [Langue](language.md) | `language` |
+| [ Canal Dernière touche ](last-touch-channel.md) | `lasttouchchannel` |
+| [ Détails du canal Dernière touche ](last-touch-detail.md) | `lasttouchchanneldetail` |
 | Variables de liste | `listvariables` |
-| Canal marketing | `marketingchannel` |
-| Prise en charge de l’audio sur le dispositif portable | `mobileaudiosupport` |
-| Opérateur de téléphonie mobile | `mobilecarrier` |
-| Profondeur de couleur du dispositif portable | `mobilecolordepth` |
-| Prise en charge des cookies sur le dispositif portable | `mobilecookiesupport` |
-| Appareil mobile | `mobiledevicename` |
-| Type d’appareil mobile | `mobiledevicetype` |
-| Mobile - Longueur max. d’adresse e-mail | `mobileemaillength` |
-| Prise en charge des images sur le dispositif portable | `mobileimagesupport` |
-| Fabricant du dispositif portable | `mobilemanufacturer` |
-| Système d’exploitation mobile (obsolète) | `mobileos` |
-| Hauteur d’écran du dispositif portable | `mobilescreenheight` |
-| Taille d’écran du dispositif portable | `mobilescreensize` |
-| Largeur d’écran du dispositif portable | `mobilescreenwidth` |
-| Mobile - Longueur max. d’URL de navigateur | `mobileurllength` |
-| Prise en charge de la vidéo sur le dispositif portable | `mobilevideosupport` |
-| Résolution de l’écran | `monitorresolution` |
-| Systèmes d’exploitation | `operatingsystem` |
-| Domaine référent initial | `referringdomainoriginal` |
-| Page | `page` |
-| Pages introuvables | `pagesnotfound` |
-| Product | `product` |
-| Référent | `referrer` |
-| Type de référent | `referrertype` |
-| Domaine référent | `referringdomain` |
-| Régions | `georegion` |
-| Fréquence des retours | `returnfrequency` |
+| [ Canal marketing ](marketing-channel.md) | `marketingchannel` |
+| [Prise en charge audio mobile](mobile-dimensions.md) | `mobileaudiosupport` |
+| [Opérateur de téléphonie mobile](mobile-dimensions.md) | `mobilecarrier` |
+| [Profondeur de couleur mobile](mobile-dimensions.md) | `mobilecolordepth` |
+| [Prise en charge des cookies mobiles](mobile-dimensions.md) | `mobilecookiesupport` |
+| [Appareil mobile](mobile-dimensions.md) | `mobiledevicename` |
+| [Type d’appareil mobile](mobile-dimensions.md) | `mobiledevicetype` |
+| [Mobile - Longueur max. d’e-mail](mobile-dimensions.md) | `mobileemaillength` |
+| [ Prise en charge des images mobiles ](mobile-dimensions.md) | `mobileimagesupport` |
+| [Fabricant du dispositif portable](mobile-dimensions.md) | `mobilemanufacturer` |
+| [Système d’exploitation mobile (obsolète)](mobile-dimensions.md) | `mobileos` |
+| [Hauteur d’écran du dispositif portable](mobile-dimensions.md) | `mobilescreenheight` |
+| [Taille d’écran du dispositif portable](mobile-dimensions.md) | `mobilescreensize` |
+| [Largeur d’écran du dispositif portable](mobile-dimensions.md) | `mobilescreenwidth` |
+| [Longueur d’URL maximale du navigateur mobile](mobile-dimensions.md) | `mobileurllength` |
+| [Prise en charge de la vidéo mobile](mobile-dimensions.md) | `mobilevideosupport` |
+| [Résolution de l’écran](monitor-resolution.md) | `monitorresolution` |
+| [Systèmes d’exploitation](operating-systems.md) | `operatingsystem` |
+| [Domaine référent d’origine](original-referring-domain.md) | `referringdomainoriginal` |
+| [Page](page.md) | `page` |
+| [Pages introuvables](pages-not-found.md) | `pagesnotfound` |
+| [Produit](product.md) | `product` |
+| [Référent](referrer.md) | `referrer` |
+| [Type de référent](referrer-type.md) | `referrertype` |
+| [Domaine référent](referring-domain.md) | `referringdomain` |
+| [Régions](regions.md) | `georegion` |
+| [Fréquence des retours](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
-| Moteur de recherche | `searchengine` |
-| Mot-clé de recherche | `searchenginekeyword` |
-| Moteur de recherche - Naturel | `searchenginenatural` |
-| Moteur de recherche - Payant | `searchenginepaid` |
-| Mot-clé de recherche - Naturel | `searchenginenaturalkeyword` |
-| Mot-clé de recherche - Payant | `searchenginepaidkeyword` |
-| Classement de toutes les pages de recherche | `searchenginepagerank` |
-| Serveur | `server` |
-| Visites de page unique | `singlepagevisits` |
-| Section du site | `sitesections` |
-| Temps passé par visite - Valeur granulaire | `sitetime` |
-| Code de suivi | `campaign` |
-| DMA États-Unis | `geodma` |
-| États américains | `state` |
-| Durée avant événement | `timeprior` |
-| Durée par visite – Regroupement | `timespent` |
-| Profondeur de visite | `pathlength` |
-| Nombre de visites | `visitnumber` |
-| Code postal | `zip` |
-| Matin/après-midi | `timepartampm` |
-| Hauteur du navigateur - Regroupement | `browserheightbucketed` |
-| Largeur du navigateur - Regroupement | `browserwidthbucketed` |
-| Jour | `daterangeday` |
-| Jour du mois | `timepartdayofmonth` |
-| Jour de la semaine | `dayofweek` |
-| Jour de la semaine | `timepartdayofweek` |
-| Jour de l’année | `timepartdayofyear` |
-| Jours depuis la dernière visite | `dayssincelastvisit` |
-| Accès Custom Insight | `entryprops` |
-| Accès aux variables de liste | `entrylistvariables` |
-| Serveur d’accès | `entryserver` |
-| Accès à la section de site | `entrysitesections` |
-| Quitter Custom Insight | `exitprops` |
-| Quitter les variables de liste | `exitlistvariables` |
-| Quitter la page | `exitpage` |
-| Quitter le serveur | `exitserver` |
-| Quitter la section de site | `exitsitesections` |
-| Profondeur d’accès | `hitdepth` |
-| Type d’accès | `hittype` |
-| Heure | `daterangehour` |
-| Heure du jour | `timeparthourofday` |
-| Détail des canaux marketing | `marketingchanneldetail` |
-| Minute | `daterangeminute` |
-| Mobile - Longueur max. du signet | `mobilebookmarklength` |
-| Numéro de l’appareil mobile | `mobiledevicenumber` |
-| DRM mobile | `mobiledrm` |
-| Services d’informations mobiles | `mobileinformationservices` |
-| Java VM de mobile | `mobilejavavm` |
-| Mobile - Décoration de courrier | `mobilemaildecoration` |
-| Protocoles Net mobile | `mobilenetprotocols` |
-| Mobile - Presser pour parler | `mobilepushtotalk` |
-| Mois | `daterangemonth` |
-| Mois de l’année | `timepartmonthofyear` |
-| Types de systèmes d’exploitation | `operatingsystemgroup` |
-| Référencement payant | `paidsearch` |
-| Prise en charge des cookies persistants | `persistentcookie` |
-| Trimestre | `daterangequarter` |
-| Trimestre de l’année | `timepartquarterofyear` |
+| [Moteur de recherche](search-engine.md) | `searchengine` |
+| [Mot-clé de recherche](search-keyword.md) | `searchenginekeyword` |
+| [ Moteur de recherche - Naturel ](search-engine.md) | `searchenginenatural` |
+| [Moteur de recherche - Payant](search-engine.md) | `searchenginepaid` |
+| [Mot-clé de recherche - Naturel](search-keyword.md) | `searchenginenaturalkeyword` |
+| [Mot-clé de recherche - Payant](search-keyword.md) | `searchenginepaidkeyword` |
+| [Classement de toutes les pages de recherche](all-search-page-rank.md) | `searchenginepagerank` |
+| [Serveur](server.md) | `server` |
+| [Visites de page unique](single-page-visits.md) | `singlepagevisits` |
+| [Section du site](site-section.md) | `sitesections` |
+| [Temps passé par visite - Granulaire](time-spent-per-visit.md) | `sitetime` |
+| [Code de suivi](tracking-code.md) | `campaign` |
+| [DMA États-Unis](us-dma.md) | `geodma` |
+| [ États américains ](us-states.md) | `state` |
+| [Durée avant événement](time-prior-to-event.md) | `timeprior` |
+| [Durée par visite - Regroupement](time-spent-per-visit.md) | `timespent` |
+| [Profondeur de visite](visit-depth.md) | `pathlength` |
+| [Nombre de visites](visit-number.md) | `visitnumber` |
+| [Code postal](zip-code.md) | `zip` |
+| [H/PM](am-pm.md) | `timepartampm` |
+| [Hauteur du navigateur - Compartimenté](browser-height.md) | `browserheightbucketed` |
+| [Largeur du navigateur - Compartimenté](browser-width.md) | `browserwidthbucketed` |
+| [Jour](day.md) | `daterangeday` |
+| [Jour du mois](day-of-month.md) | `timepartdayofmonth` |
+| [Jour de la semaine](day-of-week.md) | `dayofweek` |
+| [Jour de la semaine](day-of-week.md) | `timepartdayofweek` |
+| [Jour de l’année](day-of-year.md) | `timepartdayofyear` |
+| [Jours depuis la dernière visite](days-since-last-visit.md) | `dayssincelastvisit` |
+| [Informations personnalisées d’entrée](entry-dimensions.md) | `entryprops` |
+| [Variables de liste d’entrée](entry-dimensions.md) | `entrylistvariables` |
+| [Serveur d’entrée](entry-dimensions.md) | `entryserver` |
+| [Section Site d&#39;entrée](entry-dimensions.md) | `entrysitesections` |
+| [Quitter Custom Insights](exit-dimensions.md) | `exitprops` |
+| [Quitter les variables de liste](exit-dimensions.md) | `exitlistvariables` |
+| [Page de sortie](exit-dimensions.md) | `exitpage` |
+| [Quitter le serveur](exit-dimensions.md) | `exitserver` |
+| [Quitter la section du site](exit-dimensions.md) | `exitsitesections` |
+| [Profondeur d’accès](hit-depth.md) | `hitdepth` |
+| [Type d’accès](hit-type.md) | `hittype` |
+| [Heure](hour.md) | `daterangehour` |
+| [Heure de la journée](hour-of-day.md) | `timeparthourofday` |
+| [Détails du canal marketing](marketing-detail.md) | `marketingchanneldetail` |
+| [Minute](minute.md) | `daterangeminute` |
+| [Longueur maximale du signet mobile](mobile-dimensions.md) | `mobilebookmarklength` |
+| [Numéro d’appareil mobile](mobile-dimensions.md) | `mobiledevicenumber` |
+| [DRM mobile](mobile-dimensions.md) | `mobiledrm` |
+| [Mobile Information Services](mobile-dimensions.md) | `mobileinformationservices` |
+| [Machine virtuelle Java mobile](mobile-dimensions.md) | `mobilejavavm` |
+| [Décoration d’e-mail mobile](mobile-dimensions.md) | `mobilemaildecoration` |
+| [Protocoles de réseau mobile](mobile-dimensions.md) | `mobilenetprotocols` |
+| [Mobile Push To Talk](mobile-dimensions.md) | `mobilepushtotalk` |
+| [Mois](month.md) | `daterangemonth` |
+| [ Mois de l’année ](month-of-year.md) | `timepartmonthofyear` |
+| [Types de systèmes d’exploitation](operating-system-types.md) | `operatingsystemgroup` |
+| [Recherche payante](paid-search.md) | `paidsearch` |
+| [Prise en charge des cookies persistants](persistent-cookie-support.md) | `persistentcookie` |
+| [Trimestre](quarter.md) | `daterangequarter` |
+| [Trimestre de l’année](quarter-of-year.md) | `timepartquarterofyear` |
 | Enquête | `surveybase` |
-| Durée de consultation de la page – Regroupement | `averagepagetime` |
-| Durée de consultation de la page - Granulaire | `pagetimeseconds` |
-| Suivi du motif d’exclusion | `optoutreason` |
-| Jour ouvrable/week-end | `timepartweekdayweekend` |
-| Semaine | `daterangeweek` |
-| Année | `daterangeyear` |
+| [Durée de consultation de la page - Regroupement](time-spent-on-page.md) | `averagepagetime` |
+| [Temps passé sur la page - Granulaire](time-spent-on-page.md) | `pagetimeseconds` |
+| [Suivi du motif de désinscription](tracking-opt-out-reason.md) | `optoutreason` |
+| [Jour de la semaine / Week-end](weekday-weekend.md) | `timepartweekdayweekend` |
+| [Semaine](week.md) | `daterangeweek` |
+| [Année](year.md) | `daterangeyear` |
 
 ## Dimensions adaptées au contenu prises en charge uniquement dans Analysis Workspace
 
@@ -161,53 +161,55 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
-| Contenu | `video` |
-| Segment de contenu | `videosegment` |
-| Type de contenu | `videocontenttype` |
-| Nom du lecteur de publicités | `videoadplayername` |
-| Position de la publicité dans la capsule | `videoadinpod` |
-| Perte d’images | `videoqoedroppedframecountevar` |
-| Erreurs | `videoqoeerrorcountevar` |
-| Débit moyen | `videoqoebitrateaverageevar` |
-| Changements de débit | `videoqoebitratechangecountevar` |
-| Durée totale de la mémoire tampon | `videoqoebuffertimeevar` |
-| Événements de mémoire tampon | `videoqoebuffercountevar` |
-| Temps jusqu’au début | `videoqoetimetostartevar` |
-| Capsule publicitaire | `videoadpod` |
-| Chemin du média | `videopath` |
-| Publicité | `videoad` |
-| Nom du lecteur de contenu | `videoplayername` |
-| Canal de contenu | `videochannel` |
-| Chapitre | `videochapter` |
-| Nom du contenu (variable) | `videoname` |
-| Durée du contenu (variable) | `videolength` |
-| Nom de la publicité (variable) | `videoadname` |
-| Durée de la publicité (variable) | `videoadlength` |
-| Programme | `videoshow` |
-| Saison | `videoseason` |
-| Épisode | `videoepisode` |
-| Réseau | `videonetwork` |
-| Type de programme | `videoshowtype` |
-| Chargements de publicités | `videoadload` |
-| MVPD | `videomvpd` |
-| Partie de la journée | `videodaypart` |
-| Annonceur | `videoadadvertiser` |
-| ID de campagne | `videoadcampaign` |
-| Genre | `videogenre` |
-| Type de diffusion | `videostreamtype` |
-| ID d’erreur du SDK du lecteur | `videoqoeplayersdkerrors` |
-| ID d’erreur externes | `videoqoeextneralerrors` |
-| Type de flux multimédia | `videofeedtype` |
-| Accès au chemin du média | `entryvideopath` |
-| Quitter le chemin du média | `exitvideopath` |
-| Accès au genre | `entryvideogenre` |
-| Quitter le genre | `exitvideogenre` |
-| Accès à l’ID d’erreur du SDK du lecteur | `entryvideoqoeplayersdkerrors` |
-| Quitter l’ID d’erreur du SDK du lecteur | `exitvideoqoeplayersdkerrors` |
-| Accès aux ID d’erreur externes | `entryvideoqoeextneralerrors` |
-| Quitter les ID d’erreur externes | `exitvideoqoeextneralerrors` |
+| [Contenu](sm-core.md) | `video` |
+| [Segment de contenu](sm-core.md) | `videosegment` |
+| [Type de contenu](sm-core.md) | `videocontenttype` |
+| [Nom du lecteur de publicités](sm-ads.md) | `videoadplayername` |
+| [Position de la publicité dans la capsule](sm-ads.md) | `videoadinpod` |
+| [Perte d’images](sm-quality.md) | `videoqoedroppedframecountevar` |
+| [Erreurs](sm-quality.md) | `videoqoeerrorcountevar` |
+| [Débit moyen](sm-quality.md) | `videoqoebitrateaverageevar` |
+| [Changements de débit](sm-quality.md) | `videoqoebitratechangecountevar` |
+| [Durée totale de la mémoire tampon](sm-quality.md) | `videoqoebuffertimeevar` |
+| [Événements de mémoire tampon](sm-quality.md) | `videoqoebuffercountevar` |
+| [Temps jusqu’au début](sm-quality.md) | `videoqoetimetostartevar` |
+| [Capsule publicitaire](sm-ads.md) | `videoadpod` |
+| [Chemin d’accès au média](sm-core.md) | `videopath` |
+| [Publicité](sm-ads.md) | `videoad` |
+| [Nom du lecteur de contenu](sm-core.md) | `videoplayername` |
+| [Canal de contenu](sm-core.md) | `videochannel` |
+| [Chapitre](sm-chapters.md) | `videochapter` |
+| [Nom du contenu (variable)](sm-core.md) | `videoname` |
+| [Durée du contenu (variable)](sm-core.md) | `videolength` |
+| [Nom de l’annonce publicitaire (variable)](sm-ads.md) | `videoadname` |
+| [Longueur de l’annonce publicitaire (variable)](sm-ads.md) | `videoadlength` |
+| [Programme](sm-video-metadata.md) | `videoshow` |
+| [Saison](sm-video-metadata.md) | `videoseason` |
+| [Épisode](sm-video-metadata.md) | `videoepisode` |
+| [Réseau](sm-video-metadata.md) | `videonetwork` |
+| [Type de programme](sm-video-metadata.md) | `videoshowtype` |
+| [Chargements publicitaires](sm-ads.md) | `videoadload` |
+| [MVPD](sm-video-metadata.md) | `videomvpd` |
+| [Partie de la journée](sm-video-metadata.md) | `videodaypart` |
+| [Annonceur](sm-ads.md) | `videoadadvertiser` |
+| [ID de campagne](sm-ads.md) | `videoadcampaign` |
+| [Genre](sm-video-metadata.md) | `videogenre` |
+| [Type de diffusion](sm-core.md) | `videostreamtype` |
+| [ID d’erreur du SDK du lecteur](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [ID d’erreur externes](sm-quality.md) | `videoqoeextneralerrors` |
+| [Type de flux multimédia](sm-video-metadata.md) | `videofeedtype` |
+| [Chemin du média d’entrée](entry-dimensions.md) | `entryvideopath` |
+| [Quitter le chemin du média](exit-dimensions.md) | `exitvideopath` |
+| [Genre d’entrée](entry-dimensions.md) | `entryvideogenre` |
+| [Quitter le genre](exit-dimensions.md) | `exitvideogenre` |
+| [ID d’erreur SDK du lecteur d’entrée](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
+| [ID d’erreur du SDK du lecteur de sortie](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [ID d&#39;erreur externe d&#39;entrée](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [ID des erreurs externes de sortie](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
+
+Adobe Social a été retiré.
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
@@ -233,38 +235,38 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
-| Date du premier lancement | `mobileinstalldate` |
-| ID application | `mobileappid` |
-| Numéro de lancement | `mobilelaunchnumber` |
-| Jours depuis la première utilisation | `mobiledayssincefirstuse` |
-| Jours depuis la dernière utilisation | `mobiledayssincelastuse` |
-| Heure du jour (SDK) | `mobilehourofday` |
-| Jour de la semaine (SDK) | `mobiledayofweek` |
-| Système d’exploitation (SDK) | `mobileosenvironment` |
-| Jours depuis la dernière mise à niveau | `mobiledayssincelastupgrade` |
-| Lancements depuis la dernière mise à niveau | `mobilelaunchessincelastupgrade` |
-| Nom de l’appareil (SDK) | `mobiledevice` |
-| Version du système d’exploitation (SDK) | `mobileosversion` |
-| Balise majeure | `mobilebeaconmajor` |
-| Balise mineure | `mobilebeaconminor` |
-| UUID de la balise | `mobilebeaconuuid` |
-| Proximité de la balise | `mobilebeaconproximity` |
-| Lieu (jusqu’à 10 km) | `latlon1` |
-| Lieu (jusqu’à 100 m) | `latlon23` |
-| Lieu (jusqu’à 1 m) | `latlon45` |
-| Nom du point ciblé | `pointofinterest` |
-| Distance jusqu’au centre du point ciblé | `pointofinterestdistance` |
-| Précision de la localisation | `mobileplaceaccuracy` |
-| Catégorie d’emplacement | `mobileplacecategory` |
-| ID de l’emplacement | `mobileplaceid` |
-| Accès à la balise majeure | `entrymobilebeaconmajor` |
-| Quitter la balise majeure | `exitmobilebeaconmajor` |
-| Accès à la balise mineure | `entrymobilebeaconminor` |
-| Quitter la balise mineure | `exitmobilebeaconminor` |
-| Accès à la balise UUID | `entrymobilebeaconuuid` |
-| Quitter la balise UUID | `exitmobilebeaconuuid` |
-| Accès à la balise de proximité | `entrymobilebeaconproximity` |
-| Quitter la balise de proximité | `exitmobilebeaconproximity` |
+| [Première date de lancement](lifecycle-dimensions.md) | `mobileinstalldate` |
+| [ID de l’application](lifecycle-dimensions.md) | `mobileappid` |
+| [Numéro de lancement](lifecycle-dimensions.md) | `mobilelaunchnumber` |
+| [Jours depuis la première utilisation](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
+| [Jours depuis la dernière utilisation](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
+| [Heure de la journée (SDK)](lifecycle-dimensions.md) | `mobilehourofday` |
+| [Jour de la semaine (SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [Système d’exploitation (SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [Jours depuis la dernière mise à niveau](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
+| [Lancements depuis la dernière mise à niveau](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
+| [Nom de l’appareil (SDK)](lifecycle-dimensions.md) | `mobiledevice` |
+| [Version du système d’exploitation (SDK)](lifecycle-dimensions.md) | `mobileosversion` |
+| [Balise principale](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [Balise mineure](lifecycle-dimensions.md) | `mobilebeaconminor` |
+| [UUID de balise](lifecycle-dimensions.md) | `mobilebeaconuuid` |
+| [Proximité de la balise](lifecycle-dimensions.md) | `mobilebeaconproximity` |
+| [Lieu (jusqu’à 10 km)](lifecycle-dimensions.md) | `latlon1` |
+| [Lieu (jusqu’à 100 m)](lifecycle-dimensions.md) | `latlon23` |
+| [Lieu (jusqu’à 1 m)](lifecycle-dimensions.md) | `latlon45` |
+| [Nom du point ciblé](lifecycle-dimensions.md) | `pointofinterest` |
+| [Distance jusqu’au centre du point ciblé](lifecycle-dimensions.md) | `pointofinterestdistance` |
+| [Précision de l’emplacement](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
+| [Placer catégorie](lifecycle-dimensions.md) | `mobileplacecategory` |
+| [ID de la place](lifecycle-dimensions.md) | `mobileplaceid` |
+| [Balise d’entrée majeure](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
+| [Quitter la balise principale](lifecycle-dimensions.md) | `exitmobilebeaconmajor` |
+| [Balise d’entrée mineure](lifecycle-dimensions.md) | `entrymobilebeaconminor` |
+| [Quitter la balise mineure](lifecycle-dimensions.md) | `exitmobilebeaconminor` |
+| [UUID de balise d’entrée](lifecycle-dimensions.md) | `entrymobilebeaconuuid` |
+| [Quitter l’UUID de la balise](lifecycle-dimensions.md) | `exitmobilebeaconuuid` |
+| [Proximité de la balise d’entrée](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
+| [Quitter la proximité de la balise](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
 ### Adobe Advertising Cloud (AMO)
 
@@ -277,14 +279,14 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
-| Lien d’Activity Map par région | `clickmaplinkbyregion` |
-| Région d’Activity Map | `clickmapregion` |
-| Lien d’Activity Map | `clickmaplink` |
-| Page d’Activity Map | `clickmappage` |
+| [Lien Activity Map Par Région](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Région Activity Map ](activity-map-region.md) | `clickmapregion` |
+| [Lien Activity Map ](activity-map-link.md) | `clickmaplink` |
+| [Page Activity Map ](activity-map-page.md) | `clickmappage` |
 
 ### Intégration Nielsen
 
-Pour plus d’informations sur la manière d’implémenter cette intégration, consultez [Extension Nielsen](https://exchange.adobe.com/experiencecloud.details.101361.html).
+Pour plus d’informations sur la mise en œuvre de cette intégration, consultez l’extension [Nielsen](https://exchange.adobe.com/apps/ec/101361) à l’Adobe Exchange.
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
@@ -293,7 +295,7 @@ Pour plus d’informations sur la manière d’implémenter cette intégration, 
 | Segment B Nielsen | `nielsensegmentb` |
 | Segment A Nielsen | `nielsensegmenta` |
 | ID de contenu Nielsen | `nielsencontentid` |
-| Ressource/Programme Nielsen | `nielsenasset` |
+| Nielsen Asset / Programme | `nielsenasset` |
 | VCID Nielsen | `nielsenvcid` |
 | Désinscription Nielsen | `nielsenoptout` |
 | ID + VCID client Nielsen | `nielsenclientidvcid` |
