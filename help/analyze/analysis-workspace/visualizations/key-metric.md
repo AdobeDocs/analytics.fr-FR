@@ -4,10 +4,10 @@ title: Synthèse des mesures clés
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 0bf1b06af8a89c47e74807d14c31075f181cb946
+source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 98%
+source-wordcount: '780'
+ht-degree: 56%
 
 ---
 
@@ -23,7 +23,7 @@ La visualisation [!UICONTROL de synthèse des mesures clés] vous permet de visu
 
 ## Cas d’utilisation
 
-Cette visualisation aborde divers cas d’utilisation courants, notamment :
+Cette visualisation aborde divers cas d’utilisation courants, notamment :
 
 * Un analyste qui essaie de comprendre à quoi ressemblait la création d’opportunités ce mois-ci par rapport à la même période l’an dernier.
 
@@ -35,32 +35,39 @@ Cette visualisation aborde divers cas d’utilisation courants, notamment :
 
 1. Faites glisser la visualisation de la **[!UICONTROL synthèse des mesures clés]** du menu **[!UICONTROL Visualisations]** se trouvant dans le rail gauche d’un panneau.
 
-1. Configurez la visualisation en sélectionnant une mesure, une période Principale, et une période de comparaison et un segment (si vous le souhaitez) :
-
    ![](assets/key-metric-config.png)
+
+1. Configurez la visualisation avec les options suivantes :
 
    | Paramètre de configuration | Définition |
    | --- | --- |
    | **[!UICONTROL Mesure]** | Sélectionnez la mesure à analyser. Toutes les mesures sont prises en charge. |
-   | **[!UICONTROL Période principale]** | La période actuelle du tableau à structure libre. |
-   | **[!UICONTROL Période de comparaison]** | La période à laquelle vous souhaitez comparer la période principale. |
-   | **[!UICONTROL Segment (facultatif)]** | Tout segment qui vous intéresse spécifiquement pour cette synthèse. |
+   | **[!UICONTROL Période principale]** | La période actuelle du tableau à structure libre.<p>Effectuez un choix parmi toutes les périodes disponibles dans votre suite de rapports.</p> <p>Choisissez [!UICONTROL **Période du panneau**] si vous souhaitez utiliser la même période que celle utilisée sur le panneau où se trouve la visualisation.</p> |
+   | **[!UICONTROL Période de comparaison]** | La période que vous souhaitez comparer à la période principale. |
+   | **[!UICONTROL Segment (facultatif)]** | Tout segment qui vous intéresse pour ce résumé. |
 
    {style="table-layout:auto"}
 
-1. Cliquez sur **[!UICONTROL Créer]**.
+   >[!NOTE]
+   >
+   >Lorsque le champ [!UICONTROL **Période du Principal**] est défini sur [!UICONTROL **Période du panneau**], l’option **[!UICONTROL Période de comparaison]** peut être automatiquement mise à jour, selon que l’option **[!UICONTROL Période de comparaison]** que vous choisissez est relative à la période principale ou fixe.
+   >
+   >* **Relatif :** si le champ **[!UICONTROL Période de comparaison]** est défini sur une option relative à la période principale (par exemple [!UICONTROL **Jour précédent**], [!UICONTROL **Même jour de la semaine dernière**], [!UICONTROL **Même jour 4 semaines avant**], etc.), toutes les mises à jour du champ [!UICONTROL **Période de Principal**] **** entraînent la mise à jour automatique de la période qui suit immédiatement la période du panneau.
+   >* **Fixe :** si le champ [!UICONTROL **Période de comparaison**] est défini sur une période fixe (par exemple, le **3 février 2023**), les modifications apportées au champ [!UICONTROL **Période de Principal**] ou à la période du panneau n’ont aucun effet sur la [!UICONTROL **Période de comparaison**]. Toutefois, toute mise à jour de la période du panneau entraîne la mise à jour automatique de la période du Principal [!UICONTROL ****].
+
+1. Sélectionnez la **[!UICONTROL Version]**.
 
 ## Afficher la sortie
 
-La sortie doit ressembler à ceci :
+La sortie doit ressembler à ce qui suit :
 
 ![](assets/key-metric-output.png)
 
-Remarque :
+Tenez compte des points suivants lors de l’affichage de la sortie :
 
-* La **[!UICONTROL Période précédente]** du graphique linéaire (toujours affiché en gris) correspond à la **[!UICONTROL Période de comparaison]** de l’étape de configuration.
+* Le graphique linéaire **[!UICONTROL Période précédente]** (toujours affiché en gris) correspond à la **[!UICONTROL Période de comparaison]** de l’étape de configuration.
 
-* Si aucune période de comparaison n’est spécifiée lors de la configuration ou si elle est masquée dans les paramètres de visualisation, seul le graphique linéaire correspondant à la période principale s’affiche. La synthèse des modifications sera masquée.
+* Si aucune période de comparaison n’est spécifiée lors de la configuration ou si elle est masquée dans les paramètres de visualisation, seul le graphique linéaire correspondant à la période principale s’affiche. La synthèse des modifications est masquée.
 
 * À partir de là, vous pouvez placer le pointeur de la souris sur les graphiques linéaires pour afficher les statistiques pour chaque jour :
 
@@ -78,12 +85,12 @@ La synthèse des mesures clés offre plusieurs paramètres flexibles pour une me
 | **[!UICONTROL Mettre en gras la valeur numérique]** | Afficher le numéro de synthèse en caractères gras au centre de la visualisation |
 | **[!UICONTROL Légende visible]** | Afficher ou masquer la légende au bas de la visualisation |
 | **[!UICONTROL Afficher les annotations]** | Afficher ou masquer les annotations ajoutées par un administrateur |
-| **[!UICONTROL Afficher les graphiques sparkline]** | Afficher ou masquer les graphiques en courbes au bas du graphique. Lorsqu’elle est masquée, la légende ne fait plus référence visuellement aux lignes. |
+| **[!UICONTROL Afficher les graphiques sparkline]** | Afficher ou masquer les graphiques en courbes au bas du graphique. Lorsqu’elle est masquée, la légende ne référence plus visuellement les lignes |
 | **[!UICONTROL Afficher les min. et max. sur les graphiques sparkline]** | Afficher ou masquer les valeurs minimales et maximales sur les graphiques en courbes Principal et de comparaison |
-| **[!UICONTROL Afficher la comparaison]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de modification de graphique en courbes de comparaison et de modification de synthèse sont hors de vue. |
+| **[!UICONTROL Afficher la comparaison]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de modification de graphique en courbes de comparaison et de synthèse ne sont pas visibles. |
 | **[!UICONTROL Afficher le nombre total]** | Afficher ou masquer la synthèse des chiffres |
 | **[!UICONTROL Afficher la différence brute]** | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
-| **[!UICONTROL Abréger la valeur]** | Abréger les valeurs numériques pour simplifier les informations communiquées (par exemple, 20 000 -> 20K) |
+| **[!UICONTROL Abréger la valeur]** | Abréger les valeurs numériques pour simplifier les informations communiquées (par exemple, 20 000 -> 20K) |
 
 ## Modifier la visualisation
 
