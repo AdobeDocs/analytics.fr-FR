@@ -4,14 +4,32 @@ title: Graphique à puces
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 4e230320dbda7bc626a04a9f9ec9cac438c8dba7
+source-git-commit: 7f84679a0d1c9cf1609bf8e01e0209936215d7ff
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '159'
 ht-degree: 100%
 
 ---
 
-# Graphique à puces
+# Graphique à puces {#bullet-graph}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_goalvalue"
+>title="Valeur Objectif"
+>abstract="L’**[!UICONTROL objectif élevé]** est votre objectif principal. L’**[!UICONTROL objectif faible]** et l’**[!UICONTROL objectif moyen]** créent des plages sous l’[!UICONTROL objectif élevé]. Remarque : si vous cochez l’option **[!UICONTROL Pourcentages]**, saisissez les objectifs sous forme de nombres entiers. Par exemple `20` si votre objectif est de vingt pour cent."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bullet_button"
+>title="Puce"
+>abstract="Créez une visualisation de graphe à puces afin d’afficher la comparaison ou les mesures d’une mesure par rapport aux plages de performances (objectifs)."
+
+<!-- markdownlint-enable MD034 -->
 
 Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs).
 
