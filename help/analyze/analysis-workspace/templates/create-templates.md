@@ -3,13 +3,11 @@ description: Vue d’ensemble de l’utilisation des rapports par défaut dans A
 title: Utiliser les rapports
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ Les administrateurs peuvent renommer, baliser et approuver les modèles d’entr
 Comme pour les modèles fournis par Adobe, les utilisateurs de l’entreprise peuvent accéder aux modèles créés par les administrateurs.
 
 Pour plus d’informations sur l’accès à un modèle d’entreprise, voir [Accès et exécution d’un modèle](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) dans [Utilisation de modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
+
+## Masquer l’onglet Modèles {#hide-reports}
+
+Les administrateurs peuvent masquer l’onglet Modèles pour tous les utilisateurs de leur entreprise.
+
+1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Préférences]** > **[!UICONTROL Société]**.
+1. Sélectionnez l’option **[!UICONTROL Masquer l’onglet Modèles]**.
