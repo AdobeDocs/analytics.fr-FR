@@ -3,9 +3,9 @@ description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1177'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,11 @@ Cette intégration est destinée aux audiences ci-dessous :
 
 * Les **analystes** qui doivent collecter des rapports de performance pour les spécialistes marketing du référencement payant.
 * Les **spécialistes marketing du référencement payant** qui souhaitent répondre à ces questions : quelle est la quantité de trafic que j’envoie vers notre site et que les clients convertissent ? Quelles sont mes campagnes publicitaires rentables ?
+
+## Vidéo
+
+>[!VIDEO](https://video.tv.adobe.com/v/23119?quality=12&learn=on)
+
 
 ## Conditions préalables {#prerequisites}
 
@@ -67,7 +72,7 @@ Avec Analytics, deux autorisations sont automatiquement accordées aux administr
 
 ## Dimensions et mesures Advertising Analytics {#dimensions-metrics}
 
-Advertising Analytics ajoute les dimensions et mesures suivantes à Analysis Workspace, à Report Builder et à l’API de création de rapports d’Analytics.
+Advertising Analytics ajoute les dimensions et mesures suivantes à Analysis Workspace, Report Builder et à l’API de création de rapports d’Analytics.
 
 ### Dimensions
 
