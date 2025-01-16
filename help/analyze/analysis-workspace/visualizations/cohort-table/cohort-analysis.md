@@ -4,14 +4,40 @@ description: Analysez plus précisément les données sur votre audience et trie
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 92%
+source-wordcount: '576'
+ht-degree: 89%
 
 ---
 
-# Découverte de [!UICONTROL lʼanalyse des cohortes] dans Adobe Analytics
+# Vue d’ensemble de la table de cohorte {#cohort-table-overview}
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_button"
+>title="Table de cohorte"
+>abstract="Créez une visualisation de cohorte pour regrouper les utilisateurs et utilisatrices en fonction de la fin d’un événement et analyser l’évolution de l’engagement et de l’attrition client."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_cohorttable_panel"
+>title="Table de cohorte"
+>abstract="Regroupez les utilisateurs et utilisatrices en fonction de la fin d’un événement, puis analysez l’évolution de l’engagement et de l’attrition client.<br/><br/>**Paramètres **<br/>**Critères d’inclusion** : composants utilisés pour définir vos cohortes initiales de visiteurs et visiteuses.<br/>**Critères de retour** : composants utilisés pour savoir si un visiteur ou une visiteuse revient."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente le tableau de cohortes dans **Adobe Analytics**.<br/>Voir [Tableau de cohorte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
 
 Une *`cohort`* est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. L’[!UICONTROL analyse des cohortes] s’avère utile, par exemple, pour savoir de quelle façon une cohorte réagit par rapport à une marque. Vous pouvez facilement déceler des changements de tendances, pour y réagir en conséquence. (Vous trouverez des explications sur l’[!UICONTROL analyse des cohortes] sur le Web, tel le cours [Cohort Analysis 101](https://fr.wikipedia.org/wiki/Cohort_analysis) (en anglais).)
 
@@ -32,7 +58,7 @@ Vidéo sur les tableaux de cohortes dans Analysis Workspace :
 
 >[!IMPORTANT]
 >
->[!UICONTROL L’analyse des cohortes] ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que les recettes) ou les occurrences.
+>L’[!UICONTROL Analyse des cohortes] ne prend pas en charge les mesures non segmentables (y compris les mesures calculées), les mesures non entières (telles que le chiffre d’affaires) ou les occurrences.
 >
 >Seules les mesures pouvant être utilisées dans les segments peuvent être utilisées dans une [!UICONTROL Analyse des cohortes]. En outre, elles ne peuvent être incrémentées que de >1 à la fois.
 
@@ -78,4 +104,4 @@ Créez des cohortes sur la base d’une dimension sélectionnée, et non des coh
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Pour obtenir des instructions sur la configuration et l’exécution d’un rapport de cohortes, accédez à [Configuration d’un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Pour obtenir des instructions sur la configuration et l’exécution d’un rapport de cohorte, accédez à [ Configurer un rapport d’analyse des cohortes ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).

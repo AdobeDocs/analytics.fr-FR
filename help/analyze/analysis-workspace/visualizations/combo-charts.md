@@ -4,14 +4,30 @@ title: Visualisation des graphiques combinés
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# Graphique combo
+# Graphique combo {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="Combo"
+>abstract="Créez rapidement une visualisation de graphique combiné sans avoir à créer d’abord un tableau à structure libre."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente la visualisation combinée dans **Adobe Analytics**.<br/>Voir [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
 
 La visualisation sous forme de [!UICONTROL graphique combiné] facilite la création rapide d’une visualisation de comparaison sans qu’il soit nécessaire de créer un tableau au préalable. Vous pouvez facilement afficher les tendances de vos données dans une combinaison ligne/barre.
 
@@ -90,7 +106,7 @@ Cliquez sur l’icône d’engrenage qui se trouve en haut à droite d’un grap
 | Paramètre | Définition |
 | --- | --- |
 | **[!UICONTROL Type de visualisation]** | Permet de passer à un autre type de visualisation. |
-| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) dans cette liste déroulante. |
+| **[!UICONTROL Granularité]** | Pour les visualisations de tendances, vous pouvez modifier la granularité temporelle (jour, semaine, mois, etc.) à partir de cette liste déroulante. |
 | **[!UICONTROL Général]** |  |
 | **[!UICONTROL Pourcentages]** | Affiche les valeurs en pourcentages. |
 | **[!UICONTROL Légende visible]** | Permet de masquer le texte de légende détaillé pour la visualisation des graphiques combinés. |

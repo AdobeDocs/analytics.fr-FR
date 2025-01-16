@@ -1,59 +1,139 @@
 ---
-description: Panneau qui affiche les éléments de dimension précédents ou suivants pour une dimension spécifique.
+description: Panneau qui affiche les éléments de dimension suivants ou précédents pour une dimension spécifique.
 title: Panneau d’éléments suivant ou précédent
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 9a29057e71627d4c77a1d039d7fd5b0ec9c0f447
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 5%
+source-wordcount: '469'
+ht-degree: 36%
 
 ---
 
-# Panneau d’éléments suivant ou précédent
+# Panneau d’éléments suivant ou précédent {#next-or-previous-item-panel}
 
-Ce panneau contient plusieurs tableaux et visualisations pour identifier facilement l’élément de dimension précédent ou suivant pour une dimension spécifique. Par exemple, vous souhaitez peut-être explorer les pages les plus consultées par les clients après avoir visité la page d’accueil.
+<!-- markdownlint-disable MD034 -->
 
-## Accès au panneau
+>[!CONTEXTUALHELP]
+>id="workspace_nextorpreviousitem_button"
+>title="Élément suivant ou élément précédent"
+>abstract="Créez un panneau pour comprendre les dimensions précédentes des personnes ou la dimension suivante à laquelle ils accèdent."
 
-Vous pouvez accéder au panneau dans [!UICONTROL Reports] ou dans [!UICONTROL Workspace].
+<!-- markdownlint-disable MD034 -->
 
-| Point d’accès | Description |
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_nextorpreviousitem_panel"
+>title="Élément suivant ou précédent"
+>abstract="Analysez les endroits les plus courants d’où viennent les visiteurs et visiteuses et ceux où ils vont ensuite.<br/><br/>**Dimension** : sélectionnez une dimension. **Page**, par exemple.<br/>**Élément de dimension** : sélectionnez un élément de dimension. Par exemple **Page d’accueil**.<br/>**Direction** : sélectionnez **Suivant** pour afficher les éléments de dimension juste après l’élément de dimension sélectionné. Sélectionnez **Précédent** pour afficher les éléments de dimension qui mènent vers l’élément de dimension sélectionné.<br/>**Conteneur** : sélectionnez **Session** pour afficher les éléments de dimension suivants/précédents dans la même session, ou sélectionnez **Personne** pour afficher l’élément de dimension suivant/précédent pour la même personne."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Cet article documente le panneau Élément suivant ou précédent dans ![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**.<br/>Voir [Panneau d’élément suivant ou précédent](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/next-previous) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
+
+Le panneau **[!UICONTROL Élément suivant ou précédent]** contient un certain nombre de tableaux et de visualisations pour identifier l’élément de dimension suivant ou précédent pour une dimension spécifique. Par exemple, vous pouvez vouloir explorer les pages auxquelles les clients et clientes ont accédé le plus souvent après avoir consulté la page d’accueil.
+
+## Utilisation
+
+Pour utiliser un panneau **[!UICONTROL Élément suivant ou précédent]** :
+
+1. Créez un panneau **[!UICONTROL Élément suivant ou précédent]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](panels.md#create-a-panel).
+
+1. Spécifiez l’[entrée](#panel-input) du panneau.
+
+1. Observez la [sortie](#panel-output) du panneau.
+
+### Entrée du panneau
+
+Vous pouvez configurer le panneau [!UICONTROL Élément suivant ou précédent] à l’aide des paramètres de saisie suivants :
+
+![Panneau Élément suivant ou précédent](assets/next-or-previous-item.png)
+
+| Entrée | Description |
 | --- | --- |
-| [!UICONTROL Rapports] | <ul><li>Le panneau est déjà déposé dans un projet.</li><li>Le rail de gauche est réduit.</li><li>Si vous avez sélectionné [!UICONTROL Page suivante], les paramètres par défaut ont déjà été appliqués, tels que [!UICONTROL Page] pour [!UICONTROL Dimension], et la première page comme [!UICONTROL élément de Dimension], [!UICONTROL Suivant] pour [!UICONTROL Direction] et [!UICONTROL Visite] pour [!UICONTROL Conteneur]}. Vous pouvez modifier tous ces paramètres.</li></ul>![Panneau Suivant/Précédent](assets/next-previous.png) |
-| Workspace | Créez un projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites ensuite glisser le panneau [!UICONTROL Élément suivant ou précédent] au-dessus du tableau à structure libre. Notez que les champs [!UICONTROL Dimension] et [!UICONTROL Dimension Item] sont laissés vides. Sélectionnez une dimension dans la liste déroulante. Les [!UICONTROL éléments de Dimension] sont renseignés en fonction de la [!UICONTROL dimension] que vous avez choisie. L’élément de dimension supérieur est ajouté, mais vous pouvez sélectionner un autre élément. Les valeurs par défaut sont Suivant et Visiteur. Vous pouvez également les modifier.<p>![Panneau Suivant/Précédent](assets/next-previous2.png) |
+| **[!UICONTROL Dimension]** | Sélectionnez la dimension pour laquelle vous souhaitez explorer les éléments suivants ou précédents. |
+| **[!UICONTROL Élément de dimension]** | Sélectionnez l’élément de dimension spécifique au centre de votre requête suivante/précédente. |
+| **[!UICONTROL Direction]** | Indiquez si vous recherchez l’élément de dimension [!UICONTROL Suivant] ou [!UICONTROL Précédent]. |
+| **[!UICONTROL Conteneur]** | Sélectionnez le conteneur, [!UICONTROL Session] ou [!UICONTROL Personne] (par défaut), pour déterminer la portée de votre recherche. |
 
 {style="table-layout:auto"}
 
-## Entrées de panneau {#Input}
+Sélectionnez **[!UICONTROL Créer]** pour créer le panneau.
 
-Vous pouvez configurer le panneau [!UICONTROL Elément suivant ou précédent] à l’aide des paramètres d’entrée suivants :
+### Sortie du panneau
 
-| Paramètre | Description |
-| --- | --- |
-| Zone de dépôt de segment (ou autre composant) | Vous pouvez faire glisser et déposer des segments ou d’autres composants pour filtrer davantage les résultats du panneau. |
-| Dimension | Dimension pour laquelle vous souhaitez explorer les éléments suivants ou précédents. |
-| Élément de dimension | L’élément spécifique au centre de votre requête suivante/précédente. |
-| Direction | Indiquez si vous recherchez l’élément de dimension [!UICONTROL Suivant] ou [!UICONTROL Précédent] . |
-| Conteneur | [!UICONTROL Visite] ou [!UICONTROL Visiteur] (par défaut) déterminent la portée de votre enquête. |
+Le panneau [!UICONTROL Élément suivant ou précédent] renvoie un riche ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
 
-{style="table-layout:auto"}
 
-Cliquez sur **[!UICONTROL Créer]** pour créer le panneau.
+![Sortie du panneau Suivant/Précédent](assets/next-or-previous-item-output.png)
 
-## Sortie de panneau {#output}
-
-Le panneau [!UICONTROL Elément suivant ou précédent] renvoie un vaste ensemble de données et de visualisations pour vous aider à mieux comprendre les occurrences qui suivent ou précèdent des éléments de dimension spécifiques.
-
-![Sortie de panneau suivante/précédente](assets/next-previous-output.png)
-
-![Sortie de panneau suivante/précédente](assets/next-previous-output2.png)
 
 | Visualisation | Description |
 | --- | --- |
-| Barre horizontale | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension que vous avez choisi. Le survol d’une barre individuelle met en surbrillance l’élément correspondant dans le tableau à structure libre. |
-| Numéro de résumé | Numéro de résumé de haut niveau de toutes les occurrences d’élément de dimension précédente ou suivante pour le mois en cours (à ce jour). |
-| Tableau à structure libre | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension choisi, dans un format de tableau. Par exemple, les pages les plus populaires (par occurrence) sur lesquelles les utilisateurs se sont rendus après (ou avant) la page d’accueil ou la page de l’espace de travail. |
+| **[!UICONTROL Barre horizontale]** | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension que vous sélectionnez. Le survol d’une barre individuelle met en surbrillance l’élément correspondant dans le tableau à structure libre. |
+| **[!UICONTROL Numéro de résumé]** | Numéro de synthèse de haut niveau de toutes les occurrences d’éléments de dimension suivants ou précédents pour le mois en cours (jusqu’à présent). |
+| **[!UICONTROL Tableau à structure libre]** | Répertorie les éléments suivants (ou précédents) en fonction de l’élément de dimension que vous sélectionnez, sous forme de tableau. Par exemple, qui étaient les pages les plus populaires (par occurrences) auxquelles les personnes ont accédé après (ou avant) la page d’accueil ou la page de l’espace de travail. |
 
 {style="table-layout:auto"}
+
+
+>[!MORELIKETHIS]
+>
+>[Créer un panneau](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>
+
+<!--
+# Next or previous item panel
+
+This panel contains a number of tables and visualizations to easily identify the next or previous dimension item for a specific dimension. For example, you might want to explore which pages customers went to most often after they visited the Home page.
+
+## Access the panel
+
+You can access the panel from within [!UICONTROL Reports] or within [!UICONTROL Workspace].
+
+| Access point | Description |
+| --- | --- |
+| [!UICONTROL Reports] | <ul><li>The panel is already dropped into a project.</li><li>The left rail is collapsed.</li><li>If you selected [!UICONTROL Next page], default settings have already been applied, such as [!UICONTROL Page] for [!UICONTROL Dimension], and the top page as the [!UICONTROL Dimension Item], [!UICONTROL Next] for [!UICONTROL Direction] and [!UICONTROL Visit] for [!UICONTROL Container]. You can modify all these settings.</li></ul>![Next/Previous panel](assets/next-previous.png)|
+| Workspace | Create a new project and select the Panel icon in the left rail. Then drag the [!UICONTROL Next or previous item] panel above the Freeform table. Notice that the [!UICONTROL Dimension] and [!UICONTROL Dimension Item] fields are left blank. Select a dimension from the drop-down list. [!UICONTROL Dimension items] are populated based on the [!UICONTROL dimension] you chose. The top dimension item gets added, but you can select a different item. The defaults are Next and Visitor. Again, you can modify these as well.<p>![Next/Previous panel](assets/next-previous2.png) |
+
+{style="table-layout:auto"}
+
+## Panel Inputs {#Input}
+
+You can configure the [!UICONTROL Next or previous item] panel panel using these input settings:
+
+| Setting | Description |
+| --- | --- |
+| Segment (or other component) drop zone | You can drag and drop segments or other components to further filter your panel results. |
+| Dimension | The dimension for which you want to explore next or previous items. |
+| Dimension Item | The specific item at the center of your next/previous inquiry. |
+| Direction | Specify whether you are looking for the [!UICONTROL Next] or the [!UICONTROL Previous] dimension item. |
+| Container | [!UICONTROL Visit] or [!UICONTROL Visitor] (default) determine the scope of your inquiry. |
+
+{style="table-layout:auto"}
+
+Click **[!UICONTROL Build]** to build the panel.
+
+## Panel output {#output}
+
+The [!UICONTROL Next or previous item] panel returns a rich set of data and visualizations to help you better understand what occurrences follow or precede specific dimension items.
+
+![Next/Previous panel output](assets/next-previous-output.png)
+
+![Next/Previous panel output](assets/next-previous-output2.png)
+
+| Visualization | Description |
+| --- | --- |
+| Horizontal bar | Lists the next (or previous) items based on the dimension item you chose. Hovering over an individual bar highlights the corresponding item in the Freeform table. |
+| Summary number | High-level summary number of all next or previous dimension item occurrences for the current month (so far.) |
+| Freeform table | Lists the next (or previous) items based on the dimension item you chose, in a table format. For example, which were the most popular pages (by occurrences) that people went to after (or before) the home page or the workspace page. |
+
+{style="table-layout:auto"}
+
+-->

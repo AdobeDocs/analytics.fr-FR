@@ -5,14 +5,27 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 89%
 
 ---
 
-# Texte
+# Texte {#text-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_text_button"
+>title="Texte"
+>abstract="Ajoutez une visualisation de texte enrichi définie par l’utilisateur ou l’utilisatrice à votre projet."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente la visualisation Texte dans **Adobe Analytics**.<br/>Voir [Texte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
 
 Vous pouvez ajouter du texte défini par l’utilisateur à votre projet Workspace à l’aide de visualisations textuelles ou de descriptions de panneau/visualisation (clic droit sur l’en-tête > **[!UICONTROL Modifier la description]**). Vous pouvez également modifier la mise en forme de votre texte, ajouter des liens hypertexte et des images.
 

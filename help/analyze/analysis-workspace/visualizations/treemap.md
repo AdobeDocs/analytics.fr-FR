@@ -5,14 +5,29 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 100%
+source-wordcount: '136'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL Treemap]
+# [!UICONTROL Plan en arborescence] {#treemap}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_treemap_button"
+>title="Treemap"
+>abstract="Créez une visualisation de graphique de compartimentage pour afficher des données hiérarchiques (structurées en arborescence) avec des rectangles imbriqués."
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*Cet article documente la visualisation Treemap dans **Adobe Analytics**.<br/>Voir [Treemap](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
 
 Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués.
 

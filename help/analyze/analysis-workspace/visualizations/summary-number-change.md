@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL Synthèse des chiffres] et [!UICONTROL Synthèse des modifications]
+
+*Cet article présente la visualisation Synthèse des chiffres et Synthèse des modifications dans **Adobe Analytics**.<br/>Voir [Synthèse des chiffres et Synthèse des modifications](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) pour la version **Customer Journey Analytics**de cet article.*
 
 Regardez une vidéo sur ces deux visualisations :
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## Visualisation [!UICONTROL Synthèse des chiffres] {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="Nombre de résumés"
+>abstract="Créez une visualisation qui affiche les totaux et les sous-totaux."
+
+<!-- markdownlint-enable MD034 -->
 
 Utilisez la visualisation [!UICONTROL Synthèse des chiffres] pour mettre en évidence un grand nombre d’éléments importants dans un projet. Cette visualisation fonctionne comme suit :
 
@@ -37,6 +48,15 @@ Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérie
 | [!UICONTROL Résumer la valeur par] | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
 
 ## Visualisation [!UICONTROL Synthèse des modifications] {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="Changement de résumé"
+>abstract="Création d’une visualisation affichant le delta (changement) entre deux nombres"
+
+<!-- markdownlint-enable MD034 -->
 
 Utilisez la visualisation [!UICONTROL Synthèse des modifications] pour afficher le delta (modification) entre deux chiffres. La couleur verte et la couleur rouge de la [!UICONTROL Synthèse des modifications] peuvent être contrôlées par [polarité d’événement personnalisé](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) ou par l’option [Tendance à la hausse affichée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) dʼune mesure calculée.
 

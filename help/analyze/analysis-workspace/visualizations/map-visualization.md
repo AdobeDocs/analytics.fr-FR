@@ -5,14 +5,50 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 100%
+source-wordcount: '699'
+ht-degree: 92%
 
 ---
 
-# Carte
+# Carte {#map}
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_button"
+>title="Carte"
+>abstract="Cette visualisation représente les mesures en les superposant sur une carte. Cela s’avère utile pour identifier les données dans différentes régions géographiques."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_bubbles"
+>title="Bulles"
+>abstract="Tracer des événements à l’aide de bulles."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_map_heatmap"
+>title="Carte thermique"
+>abstract="Tracer des événements à l’aide d’une carte thermique."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Cet article présente la visualisation des cartes dans **Adobe Analytics**.<br/>Actuellement, aucune visualisation de carte n’est disponible dans **Customer Journey Analytics**.*
+
+>[!ENDSHADEBOX]
 
 ## Présentation {#section_19F740FAF08D47B1AF1EF239A74FC75C}
 

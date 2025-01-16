@@ -5,22 +5,48 @@ uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 71%
 
 ---
 
-# Barres horizontales et barres empilées horizontales
+# Barre horizontale et barres empilées horizontales
 
-## Barre horizontale {#section_73A4D6F6C8864045A97B0B32B5FFFEDB}
+>[!BEGINSHADEBOX]
+
+*Cet article présente les visualisations Barre horizontale et Barre horizontale empilée dans **Adobe Analytics**.<br/>Voir [Barre horizontale et barre horizontale empilée](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
+
+La visualisation à barres horizontales comporte une option standard et empilée.
+
+## Barre horizontale {#horizontal-bar}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbar_button"
+>title="Barre horizontale"
+>abstract="Créez une visualisation à barres horizontales pour représenter différentes valeurs pour une ou plusieurs mesures."
+
+<!-- markdownlint-enable MD034 -->
 
 Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures.
 
 ![](assets/horizontal_bar.png)
 
-## Barres empilées horizontales  {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barres empilées horizontales  {#horizontal-bar-stacked}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_horizontalbarstacked_button"
+>title="Barres empilées horizontales"
+>abstract="Créez une visualisation à barres horizontales pour représenter différentes valeurs pour une ou plusieurs mesures empilées."
+
+<!-- markdownlint-enable MD034 -->
 
 Cette visualisation ressemble au [!UICONTROL graphique à barres horizontales], mais les barres de chaque série semblent être empilées.
 

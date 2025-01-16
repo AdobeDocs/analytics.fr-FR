@@ -4,14 +4,24 @@ title: Calendrier et périodes - Aperçu
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 91%
 
 ---
 
-# Calendrier et périodes - Aperçu
+# Calendrier et périodes - Aperçu {#date-range}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_dateranges_endtime"
+>title="Heure de fin"
+>abstract="Les heures de fin comprennent toujours 59 secondes."
+
+<!-- markdownlint-enable MD034 -->
+
 
 Dans le calendrier, vous pouvez spécifier des dates et des périodes, ou sélectionner un paramètre prédéfini.
 
@@ -34,7 +44,7 @@ Vous pouvez également faire glisser des dates (et des dimensions temporelles) d
 | Paramètre | Description |
 |--- |--- |
 | Jours sélectionnés | Jours/semaines/mois/années sélectionné(e)s. |
-| Créer des composants de période par rapport au calendrier du panneau | Si cette option est désactivée, les composants de période utilisés dans un tableau, une visualisation ou une zone de dépôt de panneau remplacent le calendrier du panneau. <p>Si cette option est activée, les composants de période utilisés dans un tableau, une visualisation ou une zone de dépôt de panneau sont liés à la période du panneau. Si, par exemple, la période du panneau est définie du 1er au 30 novembre et qu’un composant de période Semaine dernière est utilisé dans un tableau à structure libre, les informations du tableau à structure libre se rapportent à la dernière semaine d’octobre. |
+| Créer des composants de période par rapport au calendrier du panneau | Si cette option est désactivée, tous les composants de période utilisés dans un tableau, une visualisation ou une zone de dépôt de panneau remplacent le calendrier du panneau. <p>Si cette option est activée, tous les composants de période utilisés dans un tableau, une visualisation ou une zone de dépôt de panneau le sont par rapport à la période du panneau. Par exemple, si la période du panneau est définie sur du 1er au 30 novembre et qu’un composant de période Semaine dernière est utilisé dans un tableau à structure libre, les informations du tableau à structure libre font référence à la dernière semaine d’octobre. |
 | Utiliser les dates flottantes | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Si, par exemple, vous souhaitez générer en décembre un rapport sur toutes les commandes passées le mois dernier (d’après le champ Date de création), les commandes passées en novembre seront incluses dans le rapport. Si vous exécutez ce même rapport en janvier, vous verrez les commandes passées en décembre.<ul><li>**[!UICONTROL Aperçu de la date]** : indique la période englobée par le calendrier variable.</li><li>**[!UICONTROL Début]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li><li>**[!UICONTROL Fin]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li></ul>Pour obtenir un exemple, consultez la section [Périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Sélectionné par défaut. |
 | Période | Permet de sélectionner une période prédéfinie. Par défaut : 30 derniers jours. **[!UICONTROL Cette semaine, ce mois, ce trimestre ou cette année (aujourd’hui non inclus)]** vous permet de choisir parmi des périodes qui n’incluent pas de données de la journée partielle d’aujourd’hui. |
 | Appliquer à tous les panneaux | Permet de modifier la période sélectionnée pour le panneau en cours ainsi que pour tous les autres panneaux du projet. |

@@ -4,14 +4,30 @@ description: Visualisation qui représente la relation entre trois mesures au ma
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# Graphique de dispersion
+# Graphique de dispersion {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="Nuage de points"
+>abstract="Créez une visualisation sous forme de graphique de dispersion qui illustre la relation entre des éléments de dimension et trois mesures au maximum."
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*Cet article documente la visualisation Dispersion dans **Adobe Analytics**.<br/>Voir [Dispersion](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) pour la version **Customer Journey Analytics**de cet article.*
+
+>[!ENDSHADEBOX]
 
 La visualisation en graphique à dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. Elle nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
 
