@@ -4,13 +4,12 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 100%
 
 ---
-
 
 # Guide sur les outils Adobe Analytics {#analyze}
 

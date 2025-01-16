@@ -4,9 +4,9 @@ description: Comment utiliser et interpréter le panneau Observateurs simultané
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 47%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 47%
 
 >[!BEGINSHADEBOX]
 
-*Cet article documente le panneau d’observateurs simultanés de médias dans ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics Analytics**.<br/>Voir [Panneau d’observateurs simultanés de médias](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**de cet article.*
+*Cet article documente le panneau Observateurs simultanés de médias dans **Adobe Analytics Analytics**.<br/>Voir [Panneau d’observateurs simultanés de médias](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la version **du Customer Journey Analytics**de cet article.*
 
 >[!ENDSHADEBOX]
 
