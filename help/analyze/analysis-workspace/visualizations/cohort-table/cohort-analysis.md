@@ -4,10 +4,10 @@ description: Analysez plus précisément les données sur votre audience et trie
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 89%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ Vidéo sur les tableaux de cohortes dans Analysis Workspace :
 
 ## Capacités de l’analyse des cohortes
 
-Les capacités suivantes vous permettent d’exercer un contrôle précis sur les cohortes que vous créez :
+Les sections suivantes décrivent les fonctionnalités d’analyse des cohortes qui permettent un contrôle précis des cohortes que vous créez.
+
+Pour plus d’informations sur la création d’une cohorte et l’exécution d’un rapport [!UICONTROL Analyse des cohortes], voir [Configurer un rapport d’analyse des cohortes](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
 ### Tableau de [!UICONTROL rétention]
 
@@ -103,5 +105,3 @@ Mesure le temps qui s’est écoulé avant et après l’événement d’inclusi
 Créez des cohortes sur la base d’une dimension sélectionnée, et non des cohortes en fonction du temps, qui sont les cohortes par défaut. Utilisez des dimensions telles que le [!UICONTROL canal marketing], la [!UICONTROL campagne], le [!UICONTROL produit], la [!UICONTROL page], la [!UICONTROL région] ou toute autre dimension dans Adobe Analytics de façon à afficher l’évolution de la rétention en fonction des différentes valeurs de ces dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-Pour obtenir des instructions sur la configuration et l’exécution d’un rapport de cohorte, accédez à [ Configurer un rapport d’analyse des cohortes ](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
