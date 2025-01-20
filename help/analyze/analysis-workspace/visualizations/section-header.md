@@ -3,9 +3,10 @@ title: En-tête de section
 description: Visualisation qui insère un en-tête de section dans votre projet Workspace.
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-*Cet article présente la visualisation d’en-tête de section dans **Adobe Analytics**.<br/>Voir [En-tête de section](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la version **Customer Journey Analytics**de cet article.*
+_Cet article présente la visualisation de l’en-tête de section dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [En-tête de section](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 

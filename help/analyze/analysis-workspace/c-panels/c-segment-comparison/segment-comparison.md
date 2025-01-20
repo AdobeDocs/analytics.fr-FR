@@ -5,9 +5,9 @@ keywords: Analysis Workspace ; Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 60836f5632cfd19d94f33441eaa9d949609d5712
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1225'
 ht-degree: 92%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-*Cet article présente le panneau Comparaison des segments dans **Adobe Analytics**.<br/>Il n’existe pas de panneau équivalent dans **Customer Journey Analytics**.*
+_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
