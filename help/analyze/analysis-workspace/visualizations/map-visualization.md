@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="Bulles"
->abstract="Tracer des événements à l’aide de bulles."
+>abstract="Représente les événements à l’aide de bulles."
 
 <!-- markdownlint-enable MD034 -->
 
