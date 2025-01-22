@@ -1,22 +1,19 @@
 ---
-title: Planification de classeurs à l’aide de Report Builder dans Adobe Analytics
+title: Planification de classeurs à l’aide du Report Builder dans Adobe Analytics
 description: Découvrez comment utiliser la fonction de planification dans Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
+exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 79%
+source-wordcount: '1168'
+ht-degree: 81%
 
 ---
 
-# Planifier les classeurs
-
->[!NOTE]
->
->La planification des classeurs pour cette version de Report Builder sur Adobe Analytics n’a pas encore été publiée, mais sera disponible début 2025. Vous pouvez commencer maintenant à utiliser des classeurs qui ne nécessitent pas de planification.
+# Planification de classeurs
 
 Une fois le classeur enregistré et l’analyse terminée, vous pouvez facilement le partager avec d’autres membres de l’équipe à l’aide de la fonction de planification. La fonction Planification vous permet de créer une planification qui actualise automatiquement les données du classeur et d’envoyer par e-mail le fichier .xlsx du classeur Excel en tant que pièce jointe à une audience spécifiée à une date et une heure spécifiques. La configuration d’une planification permet aux destinataires de recevoir automatiquement des mises à jour régulières. Vous pouvez également utiliser la fonction de planification pour envoyer le classeur une seule fois sans planifier de mises à jour automatiques.
 
@@ -28,7 +25,7 @@ La fonction Planification vous permet également de configurer la protection par
 
 ## Planifier un classeur
 
-Utilisez le bouton Planifier dans le centre de Reports Builder pour créer rapidement une planification afin de pouvoir distribuer automatiquement un fichier Excel de classeur (.xlsx) à un individu ou à un groupe.
+Utilisez le bouton Planification dans le centre de Reports Builder pour créer rapidement une planification afin de pouvoir distribuer automatiquement un fichier Excel de classeur (.xlsx) à une personne ou à un groupe.
 
 1. Cliquez sur le bouton Planifier dans le centre Report Builder.
 
@@ -36,11 +33,11 @@ Utilisez le bouton Planifier dans le centre de Reports Builder pour créer rapid
 
 1. Cliquez sur Planifier un classeur ou sur le bouton Plus dans le coin supérieur gauche pour créer un classeur planifié.
 
-   ![Fenêtre Planifier les classeurs.](./assets/schedule-workbook.png){width="55%"}
+   ![Fenêtre Planifier des classeurs.](./assets/schedule-workbook.png){width="55%"}
 
    Le volet de planification affiche des informations prédéfinies sur le classeur, telles que le nom du classeur et la date de la dernière modification.
 
-   ![Le volet de planification.](./assets/schedule-pane.png){width="55%"}
+   ![Volet de planification.](./assets/schedule-pane.png){width="55%"}
 
 1. (Facultatif) Saisissez un nom de fichier.
 
@@ -54,13 +51,13 @@ Utilisez le bouton Planifier dans le centre de Reports Builder pour créer rapid
 
    Lorsque vous effectuez cette sélection, vous êtes invité à saisir un mot de passe pour ouvrir le fichier. Ceci est utile si vous avez des inquiétudes concernant la sécurité des données et que vous souhaitez protéger le classeur par mot de passe. Pour protéger le fichier avec un mot de passe, vous devez sélectionner **compression .zip**. Le mot de passe doit contenir au moins 8 caractères, un chiffre et un caractère spécial.
 
-   ![Saisissez un mot de passe dans le champ Protection du classeur par mot de passe.](./assets/zip-compression.png){width="55%"}
+   ![Saisissez un mot de passe dans le champ Protéger le classeur par mot de passe](./assets/zip-compression.png){width="55%"}.
 
 1. Saisissez les **Destinataires**. Vous pouvez saisir le nom d’une personne reconnue dans votre organisation ou saisir l’adresse e-mail d’une personne interne ou externe à votre organisation.
 
 1. Saisissez l’**Objet** de l’e-mail et une description pour vos destinataires. Par défaut, l’objet correspond au nom de fichier du classeur, mais vous pouvez modifier l’objet si nécessaire. Vous pouvez ajouter des détails dans la section de description.
 
-   ![Entrez un objet dans le champ Objet.](./assets/recipients-subject.png){width="55%"}
+   ![Saisissez un objet dans le champ Objet.](./assets/recipients-subject.png){width="55%"}
 
 1. Configurez les options de planification pour définir la date et l’heure auxquelles le classeur doit être envoyé par e-mail aux destinataires.
 
@@ -68,7 +65,7 @@ Utilisez le bouton Planifier dans le centre de Reports Builder pour créer rapid
 
    Choisissez la **Fréquence** dans le menu déroulant. Vous pouvez choisir une fréquence horaire, quotidienne, hebdomadaire, mensuelle ou annuelle pour un jour spécifique. Par exemple, vous pouvez configurer une planification pour envoyer le classeur le premier dimanche soir du mois afin que vos destinataires voient l’e-mail dans leur boîte de réception à la première heure le lundi matin.
 
-   ![Sélectionnez la fréquence de planification de votre rapport.](./assets/frequency.png){width="55%"}
+   ![Sélectionnez la fréquence pour planifier votre rapport.](./assets/frequency.png){width="55%"}
 
 1. Une fois la planification définie, cliquez sur **Envoyer selon le calendrier**.
 
@@ -84,7 +81,7 @@ Vous pouvez également envoyer le classeur une seule fois.
 
 1. Désélectionnez **Afficher les options de planification**.
 
-   ![ Cliquez sur Désélectionner Afficher les options de planification pour envoyer un classeur une fois.](./assets/send-now.png){width="40%"}
+   ![Cliquez sur Décocher Afficher les options de planification pour envoyer un classeur une fois.](./assets/send-now.png){width="40%"}
 
 1. Cliquez sur **Envoyer maintenant**.
 
@@ -94,21 +91,21 @@ Vous pouvez afficher et gérer tous les classeurs planifiés au même endroit so
 
 1. Dans la section Planification du centre Report Builder, cliquez sur l’onglet Classeurs. Utilisez cette vue pour afficher la liste de tous les classeurs planifiés.
 
-1. Sélectionnez un classeur. Plusieurs outils s’affichent pour vous permettre de modifier le classeur, de modifier la tâche de planification, de suspendre et de redémarrer la tâche de planification, de télécharger un rapport de tâche planifiée ou de supprimer la tâche de planification.
+1. Sélectionnez un classeur. Plusieurs outils s’affichent pour vous permettre de modifier le classeur, de modifier la tâche planifiée, de suspendre et de redémarrer la tâche planifiée, de télécharger un rapport de tâche planifiée ou de supprimer la tâche planifiée.
 
-   ![Capture d&#39;écran montrant les icônes de planification du classeur.](./assets/schedule-icons.png){width="20%"}
+   ![Capture d’écran affichant les icônes de planning du classeur.](./assets/schedule-icons.png){width="20%"}
 
-* (Facultatif) Cliquez sur l’icône représentant un crayon pour modifier la tâche de planification du classeur.
+* (Facultatif) Cliquez sur l’icône en forme de crayon pour modifier la tâche de planification du classeur.
 
 * (Facultatif) Cliquez sur l’icône d’horloge pour afficher l’historique de chaque tâche planifiée.
 
-* (Facultatif) Cliquez sur l’icône de pause pour suspendre et redémarrer la tâche de planification de distribution. Cela s’avère utile si vous devez modifier le classeur avant son envoi. Cliquez de nouveau sur l’icône de pause lorsque vous souhaitez redémarrer la distribution.
+* (Facultatif) Cliquez sur l’icône de pause pour suspendre et redémarrer la tâche du planning de distribution. Cela s’avère utile si vous devez modifier le classeur avant son envoi. Cliquez de nouveau sur l’icône de pause lorsque vous souhaitez redémarrer la distribution.
 
 * (Facultatif) Cliquez sur l’icône de téléchargement pour télécharger une copie de la tâche de planification du classeur.
 
 * (Facultatif) Cliquez sur la corbeille pour supprimer la tâche de planification.
 
-  ![Capture d&#39;écran montrant la liste des tâches de planification.](./assets/selected-workbook.png){width="40%"}
+  ![Capture d’écran affichant la liste des tâches planifiées.](./assets/selected-workbook.png){width="40%"}
 
 ## Vérifier l’état des tâches planifiées
 
@@ -124,8 +121,8 @@ Vous pouvez filtrer l’historique pour n’afficher que celui d’un seul class
 
 Vous pouvez également afficher l’historique d’un classeur spécifique à partir de l’onglet Classeurs. Dans l’onglet Classeurs, sélectionnez le classeur, puis cliquez sur l’icône d’historique.
 
-![Icône Historique des classeurs](./assets/history2.png){width="55%"}
+![Icône d’historique des classeurs](./assets/history2.png){width="55%"}
 
 Le filtre du classeur s’affiche alors en haut de l’historique. Pour afficher à nouveau l’historique de toutes les tâches planifiées, cliquez sur le x en regard du filtre.
 
-![Filtre du classeur.](./assets/history3.png){width="55%"}
+![Le filtre du classeur.](./assets/history3.png){width="55%"}

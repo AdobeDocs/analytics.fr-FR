@@ -5,31 +5,28 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
 # À propos du nouveau Adobe Report Builder
 
-Le nouveau module complémentaire de Report Builder JavaScript, initialement disponible uniquement en Customer Journey Analytics, est désormais également introduit dans Adobe Analytics. Cette nouvelle version présente plusieurs avantages :
+Le nouveau complément de Report Builder JavaScript, initialement disponible uniquement dans Customer Journey Analytics, est désormais également introduit dans Adobe Analytics. Cette nouvelle version présente plusieurs avantages :
 
-- Obtenez plus rapidement et plus facilement des informations dans Excel grâce à des workflows améliorés pour la création et la gestion des blocs de données, notamment une plus grande flexibilité des blocs de données.
-- Plateforme : plus de connexion à votre machine virtuelle pour utiliser le Report Builder, car nous prenons désormais en charge PC, Mac et Excel Online.
-- Moins de temps d’attente pour le retour des blocs de données, grâce à la mise à niveau de l’API 2.0
+- Trouvez des informations dans Excel plus rapidement et plus facilement grâce à des workflows améliorés pour la création et la gestion des blocs de données, avec une plus grande flexibilité des blocs de données
+- Cross-plateforme : plus de connexion à votre machine virtuelle pour utiliser Report Builder, car nous prenons désormais en charge PC, Mac et Excel Online
+- Moins de temps à attendre le retour des blocs de données, grâce à la mise à niveau de l’API 2.0
 - Amélioration de la vitesse.
 
->[!NOTE]
->
->La planification des classeurs pour cette version de Report Builder sur Adobe Analytics n’a pas encore été publiée, mais sera disponible début 2025. Vous pouvez commencer maintenant à utiliser des classeurs qui ne nécessitent pas de planification.
+Les utilisateurs de l’outil Report Builder hérité peuvent [convertir des classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) en nouveau Report Builder.
 
-Les utilisateurs de l’outil de Report Builder hérité peuvent [ convertir des classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) en nouveau Report Builder.
+Report Builder vous permet de créer, modifier et actualiser facilement des rapports personnalisés à l’aide des données Adobe Analytics. Grâce à l’interface utilisateur simple et flexible de Report Builder par glisser-déposer, vous pouvez créer des requêtes de données complexes et des rapports personnalisés à partir de données Adobe Analytics, le tout dans Excel.
 
-Report Builder vous permet de créer, modifier et actualiser facilement des rapports personnalisés à l’aide de données Adobe Analytics. Grâce à l’interface utilisateur par glisser-déposer simple et flexible de Report Builder, vous pouvez créer des requêtes de données complexes et des rapports personnalisés à partir de données Adobe Analytics, le tout dans Excel.
-
-Avec Report Builder, vous pouvez :
+Avec le Report Builder, vous pouvez :
 
 - Référencement des cellules de feuille de calcul existantes pour obtenir lʼordre de lignes, la période ou le filtre parfait
 - Création de dates personnalisées à lʼaide du calendrier, des références de cellules ou des mathématiques de date
@@ -39,13 +36,13 @@ Avec Report Builder, vous pouvez :
 
 Vous pouvez toujours utiliser les deux versions de Report Builder, avec les avertissements suivants :
 
-- N’utilisez pas les deux versions de Report Builder sur le même fichier en même temps. Elles s&#39;excluent mutuellement.
+- N’utilisez pas les deux versions de Report Builder sur le même fichier en même temps. Ils s&#39;excluent mutuellement.
 - Vous pouvez toujours utiliser le Report Builder hérité sur les classeurs hérités et le nouveau Report Builder sur les nouveaux classeurs.
-- De plus, vous pouvez automatiquement [ convertir les classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) au nouveau format de Report Builder. Avant cela, dupliquez et renommez le fichier.
+- En outre, vous pouvez [convertir automatiquement les classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) au nouveau format de Report Builder. Avant cela, dupliquez et renommez le fichier .
 
 ## Fonctionnalités de Report Builder héritées non prises en charge dans le nouveau Report Builder
 
-Lors de la comparaison des fonctionnalités du Report Builder hérité au nouveau module complémentaire de Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
+Lorsque vous comparez la fonctionnalité du Report Builder hérité au nouveau complément de Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
 
 - Requêtes en temps réel
 
@@ -53,11 +50,11 @@ Lors de la comparaison des fonctionnalités du Report Builder hérité au nouvea
 
 - Option FTP pour les rapports planifiés
 
-- Mesures des visiteurs. Les mesures suivantes seront toutes converties en &quot;visiteurs uniques&quot;, même si le résultat du rapport peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s&#39;applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+- Mesures Visiteurs. Les mesures suivantes seront toutes converties en « visiteurs uniques », même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
 
 ## Cas d’utilisation courants
 
-- **Extraction de données** : Adobe Report Builder vous permet d’extraire des données d’Adobe Analytics dans Excel. Vous pouvez créer des rapports et des requêtes personnalisés pour récupérer des points de données spécifiques pertinents pour votre analyse.
+- **Extraction de données** : Adobe Report Builder vous permet d’extraire des données d’Adobe Analytics vers Excel. Vous pouvez créer des rapports et des requêtes personnalisés pour récupérer des points de données spécifiques pertinents pour votre analyse.
 
 - **Rapports personnalisés** : vous pouvez concevoir et formater des rapports personnalisés dans Excel en fonction de vos besoins spécifiques en matière de rapports. Cela s’avère particulièrement utile pour adapter les rapports aux différentes parties prenantes.
 
@@ -71,7 +68,7 @@ Lors de la comparaison des fonctionnalités du Report Builder hérité au nouvea
 
 >[!IMPORTANT]
 >
->Cette vidéo de présentation présente l’interface utilisateur du Report Builder en Customer Journey Analytics. La terminologie et l’interface utilisateur diffèrent. Sinon, l’expérience utilisateur est identique.
+>Cette vidéo de présentation présente l’interface utilisateur du Report Builder dans Customer Journey Analytics. Certaines différences d’interface utilisateur et de terminologie existent. Dans le cas contraire, l’expérience utilisateur est identique.
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
