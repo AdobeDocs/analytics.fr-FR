@@ -3,20 +3,16 @@ description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 76b665b8c4fe41d40b8c4fa0e2a3ac2d014d2b51
+source-git-commit: 2244dbb3376c78b9d4a8b476b667ccef59db84f4
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 94%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous pouvez désormais obtenir les données suivantes dans Adobe Analytics : des données sur les impressions, les clics et les coûts, directement à partir des moteurs de recherche ainsi que les instances AMO ID (instances de clics). La note de qualité et les positions moyennes ne seront plus collectées, car Google a déclaré ces mesures obsolètes en septembre 2019.
-
->[!NOTE]
->
->Yahoo Gemini a été absorbé par Microsoft Bing le 31 mars 2019. Par conséquent, l’option de compte publicitaire Yahoo Gemini n’est plus disponible.
+Advertising Analytics permet d’afficher toutes vos données de référencement payant Google et Bing côte à côte dans Adobe Analytics. Auparavant, toutes les données Google AdWords/DFA ou Microsoft Bing Ads devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans Google/Bing. Vous pouvez désormais obtenir les données suivantes dans Adobe Analytics : des données sur les impressions, les clics et les coûts, directement à partir des moteurs de recherche ainsi que les instances AMO ID (instances de clics).
 
 En réunissant les données des moteurs de recherche dans Adobe Analytics, vous pouvez analyser les mêmes données en utilisant la puissance d’Analysis Workspace. Le nouveau modèle [Performance de référencement payant](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) dans Workspace facilite cette analyse.
 
