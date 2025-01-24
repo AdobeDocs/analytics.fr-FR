@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 27%
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panneau de comparaison des segments"
->abstract="Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajouter un segment** : premier segment à analyser.<br/>**Comparer avec** : deuxième segment par rapport auquel vous souhaitez effectuer une comparaison. Ce champ est automatiquement renseigné avec *Tout le monde* qui est l’inverse de votre premier segment. Si vous le souhaitez, vous pouvez le remplacer par un autre segment.<br/>**Paramètres avancés** : possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
+>abstract="Comparez rapidement deux segments sur tous les points de données afin de rechercher automatiquement les différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajouter un segment** : le premier segment à analyser.<br/>**Objet de comparaison** : le second segment par rapport auquel vous souhaitez effectuer une comparaison. Ce champ est automatiquement renseigné avec *Toutes les autres personnes*, ce qui est l’inverse de votre premier segment. Si vous le souhaitez, vous pouvez le remplacer par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

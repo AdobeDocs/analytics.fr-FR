@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 12%
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panneau Résumé de la page"
->abstract="Passez rapidement en revue certaines des mesures de haut niveau ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail du composant, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait un glisser-déposer de l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
+>abstract="Passez rapidement en revue certaines des mesures de haut niveau ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail du composant, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 47%
 
 ---
 
-# Panneau Analytics for Target {#analyze-for-target-panel}
+# Panneau Analytics for Target {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Panneau Analytics for Target"
->abstract="Analysez les activités et les expériences Target dans Analysis Workspace.<br/><br>**Parameters **<br/>**Target activity** : activité Target analysée.<br/>**Expérience de contrôle** : expérience de contrôle de l’activité Target sélectionnée.<br/>**Mesure de normalisation** : visiteurs, visites ou impressions. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance.<br/>**Mesures de succès** : jusqu’à 3 mesures de succès standard (non calculées) par rapport auxquelles analyser l’activité Target."
+>title="Panneau Analytics for Target"
+>abstract="Analysez les activités et les expériences Target dans Analysis Workspace.<br/><br>**Paramètres **<br/>**Activité de Target** : l’activité Target analysée.<br/>**Expérience de contrôle** : l’expérience de contrôle de l’activité Target sélectionnée.<br/>**Mesure de normalisation** : visiteurs et visiteuses, visites ou impressions. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance.<br/>**Mesure de succès** : jusqu’à 3 mesures de succès standard (non calculées) par rapport auxquelles analyser l’expérience."
 
 <!-- markdownlint-enable MD034 -->
 

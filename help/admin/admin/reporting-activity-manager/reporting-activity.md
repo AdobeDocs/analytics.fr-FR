@@ -17,7 +17,7 @@ Le [!UICONTROL gestionnaire des activités de rapport] permet aux administrateur
 
 Pour plus d’informations sur le gestionnaire des activités de rapport, y compris les principaux avantages et les exigences d’autorisation, voir [Présentation du gestionnaire des activités de rapport](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md).
 
-## Afficher l’activité de rapport pour toutes les suites de rapports {#view-all-report-suites}
+## Afficher l’activité de rapports pour toutes les suites de rapports {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 
