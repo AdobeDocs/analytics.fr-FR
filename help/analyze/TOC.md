@@ -5,7 +5,7 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '973'
 ht-degree: 100%
 
@@ -191,7 +191,7 @@ ht-degree: 100%
       + [Requêtes de données - Assistant Requête : Étape 1](legacy-report-builder/data-requests/data-requests.md)
       + [Création d’une requête de données](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + Suites de rapports {#report-suites}
-         + [Sélectionnez une suite de rapports.](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [Sélectionnez une suite de rapports](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
          + [Sélectionnez une suite de rapports à partir d’une requête existante dans Excel.](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestion des segments](legacy-report-builder/data-requests/segmentation.md)
