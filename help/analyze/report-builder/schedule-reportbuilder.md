@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ Utilisez le bouton Planification dans le centre de Reports Builder pour créer r
 
    ![Toast de confirmation](./assets/confirmation-toast.png){width="55%"}
 
+## Planifier un classeur converti {#converted}
+
+1. Planifiez un classeur hérité [ converti ](/help/analyze/report-builder/convert-workbooks.md).
+
+   Une fenêtre contextuelle s’affiche, vous demandant si vous souhaitez utiliser les métadonnées de planification de l’ancien classeur pour créer une nouvelle tâche planifiée.
+
+1. Si vous sélectionnez **[!UICONTROL Utiliser]**, le Report Builder renseigne automatiquement les informations de planification héritées.
+
+1. Assurez-vous que ces informations sont correctes et programmez-les.
+
+1. Si vous souhaitez envoyer le classeur selon une planification différente, planifiez une tâche planifiée entièrement nouvelle.
+
+
 ## Envoyer le classeur une seule fois
 
 Vous pouvez également envoyer le classeur une seule fois.
@@ -85,7 +98,7 @@ Vous pouvez également envoyer le classeur une seule fois.
 
 1. Cliquez sur **Envoyer maintenant**.
 
-## Afficher et modifier les classeurs planifiés
+## Afficher et modifier les classeurs planifiés {#view-edit}
 
 Vous pouvez afficher et gérer tous les classeurs planifiés au même endroit sous l’onglet Classeurs.
 
@@ -107,7 +120,7 @@ Vous pouvez afficher et gérer tous les classeurs planifiés au même endroit so
 
   ![Capture d’écran affichant la liste des tâches planifiées.](./assets/selected-workbook.png){width="40%"}
 
-## Vérifier l’état des tâches planifiées
+## Vérifier l’état des tâches planifiées {#status}
 
 L’affichage de l’historique vous permet de consulter l’état de chaque tâche planifiée. Une ligne distincte documente le changement d’état pour chaque tâche planifiée. Dans l’exemple ci-dessous, la *Nouvelle planification horaire* a été lancée le 5 janvier à 15 h 04. À 15 h 05, elle a été actualisée et envoyée aux destinataires. Une erreur s’est produite lors de l’actualisation du classeur suivant : *Classeur incorrect*. En cas d’échec de l’envoi d’un classeur, l’onglet Historique vous aide à résoudre les problèmes en indiquant le stade du processus où l’erreur s’est produite. Dans ce cas, il s’agit probablement d’une erreur de bloc de données, par exemple un composant manquant, qui a empêché l’actualisation du classeur.
 

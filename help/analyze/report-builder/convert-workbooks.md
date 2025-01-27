@@ -1,25 +1,25 @@
 ---
-title: Comment convertir vos classeurs de Report Builder hérités en bases de données
-description: Décrit comment convertir vos requêtes héritées en bases de données.
+title: Comment convertir vos classeurs de Report Builder hérités en blocs de données
+description: Décrit comment convertir vos requêtes héritées en blocs de données
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-
-# Conversion de classeurs de Report Builder hérités en blocs de données
+# Conversion des classeurs de Report Builder hérités en blocs de données
 
 Dans le cadre de la transition vers une nouvelle technologie de Report Builder, vous pouvez rapidement convertir vos classeurs hérités actuels en classeurs basés sur JavaScript.
 
 >[!IMPORTANT]
 >
->Dupliquez chaque classeur et renommez une version avant de le convertir. Ainsi, vous disposez toujours d’une copie du classeur d’origine si vous en avez besoin.
+>Dupliquez chaque classeur et renommez une version avant de la convertir. De cette façon, vous disposez toujours d’une copie du classeur d’origine, si vous en avez besoin.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
 
@@ -27,9 +27,9 @@ Dans le cadre de la transition vers une nouvelle technologie de Report Builder, 
 
 1. Ouvrez Excel et cliquez sur l’icône Adobe Report Builder en haut à droite.
 
-1. Cliquez sur **[!UICONTROL Login]** et connectez-vous au Report Builder.
+1. Cliquez sur **[!UICONTROL Connexion]** et connectez-vous au Report Builder.
 
-1. Le module complémentaire Report Builder détecte si ce classeur contient des requêtes [Report Builder hérité](/help/analyze/legacy-report-builder/home.md).
+1. Le complément Report Builder détecte si ce classeur contient des demandes [Report Builder hérité](/help/analyze/legacy-report-builder/home.md).
 
    ![invite de mise à niveau du classeur](assets/upgrade_workbook.png)
 
@@ -37,27 +37,27 @@ Dans le cadre de la transition vers une nouvelle technologie de Report Builder, 
 
    >[!NOTE]
    >
-   >Vous devez mettre à niveau chaque requête individuellement. La mise à niveau en bloc n’est pas prise en charge.
+   >Vous devez mettre à niveau chaque demande individuellement. La mise à niveau en bloc n’est pas prise en charge.
 
 
-1. Si vous effectuez une mise à niveau, un avertissement s’affiche pour vous avertir des modifications apportées au classeur. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de poursuivre.
+1. Un avertissement s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
 
-   ![avertissement de mise à niveau](assets/upgrade_warning.png)
+   ![ avertissement de mise à niveau ](assets/upgrade_warning.png)
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour poursuivre la mise à niveau.
 
-   Si la mise à niveau est réussie, le message d’achèvement suivant s’affiche :
+   Si la mise à niveau est réussie, l’avis d’achèvement suivant s’affiche :
 
    ![mise à niveau terminée](assets/upgrade_complete.png)
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Télécharger le rapport de mise à niveau]**. Ce rapport contient l&#39;état de chaque bloc de données mis à niveau.
+1. (Facultatif) Cliquez sur **[!UICONTROL Télécharger le rapport de mise à niveau]**. Ce rapport contient le statut de chaque bloc de données mis à niveau.
 
 Vous pouvez désormais [gérer le bloc de données](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Fonctionnalités de Report Builder héritées non prises en charge dans le nouveau Report Builder
+## Fonctionnalités de Report Builder héritées non prises en charge dans le nouveau Report Builder {#unsupported}
 
-Lors de la comparaison des fonctionnalités du Report Builder hérité au nouveau module complémentaire de Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
+Lorsque vous comparez la fonctionnalité du Report Builder hérité au nouveau complément de Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
 
 - Requêtes en temps réel
 
@@ -65,4 +65,8 @@ Lors de la comparaison des fonctionnalités du Report Builder hérité au nouvea
 
 - Option FTP pour les rapports planifiés
 
-- Mesures des visiteurs. Les mesures suivantes seront toutes converties en &quot;visiteurs uniques&quot;, même si le résultat du rapport peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s&#39;applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+- Mesures Visiteurs. Les mesures suivantes seront toutes converties en « visiteurs uniques », même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+
+## Planifier un classeur converti {#schedule}
+
+Voir [Planification d’un classeur converti](/help/analyze/report-builder/schedule-reportbuilder.md) dans l’article de planification.
