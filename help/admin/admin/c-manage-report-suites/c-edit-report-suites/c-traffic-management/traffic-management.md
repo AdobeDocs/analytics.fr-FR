@@ -1,22 +1,27 @@
 ---
-description: La page Gestion du trafic vous permet de spécifier les changements prévus en termes de volume de trafic. Ces paramètres permettent à Adobe d’allouer les ressources appropriées afin de suivre et de traiter votre trafic en temps utile.
+description: La gestion du trafic vous permet de spécifier les modifications de volume de trafic attendues.
 title: Gestion du trafic
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
-# Présentation de la gestion du trafic
+# Gestion du trafic
 
-La page Gestion du trafic vous permet de spécifier les changements prévus en termes de volume de trafic. Ces paramètres permettent à Adobe d’allouer les ressources appropriées afin de suivre et de traiter votre trafic en temps utile.
+Le rapport de gestion du trafic par période a été abandonné avec l’obsolescence [!DNL Reports & Analytics].
 
-Pour accéder à [!UICONTROL Gestion du trafic] :
+Cependant, vous pouvez utiliser Analysis Workspace pour créer le rapport. Une fois votre rapport créé, enregistrez-le et modifiez simplement la période et/ou la suite de rapports selon vos besoins lorsque vous avez besoin d’un nouveau rapport.
 
-1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**, puis sélectionnez une suite de rapports.
+1. Lancez Workspace.
 
-1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Gestion du trafic]** > *`<selection>`*.
+1. Créez un projet et sélectionnez la suite de rapports appropriée.
+
+1. Faites glisser la dimension **[!UICONTROL Jour]** vers le tableau à structure libre et utilisez la mesure **[!UICONTROL Occurrences]**.
+
+1. Définissez la période sur la période souhaitée.
+
