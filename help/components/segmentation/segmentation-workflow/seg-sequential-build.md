@@ -3,7 +3,7 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
+source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
 workflow-type: tm+mt
 source-wordcount: '3931'
 ht-degree: 95%
@@ -27,7 +27,7 @@ Regardez cet aperçu vidéo sur la segmentation séquentielle :
 Lors de la création d’un segment pour lequel « Inclure tout le monde » est sélectionné, le segment identifie les chemins correspondant au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/copied-link-1.png)
 
 | Si le résultat… | Séquence |
 |--- |--- |
@@ -349,11 +349,11 @@ Vous pouvez limiter la correspondance à une durée spécifique en utilisant les
 >
 >Il existe des différences d’évaluation entre des éléments portant des noms similaires, tels que **Jour(s)** ou **Jour**. Pour les définitions temporelles de « Dans » et « Après », utilisez les options répertoriées en premier dans la fenêtre contextuelle :
 >
->![Image](assets/terrible-link-2.png)
+>![Image](assets/copied-link-2.png)
 >
 >Pour les définitions de dimensions Dans et Après, utilisez les options du sous-menu *Autres Dimensions* :
 >
->![Image](assets/terrible-link-3.png)
+>![Image](assets/copied-link-3.png)
 
 ### Opérateurs After et Within  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
