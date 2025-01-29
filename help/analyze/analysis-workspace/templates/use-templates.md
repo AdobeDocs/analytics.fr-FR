@@ -4,9 +4,9 @@ title: Utiliser les modèles
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18673'
+source-wordcount: '18672'
 ht-degree: 83%
 
 ---
@@ -1226,7 +1226,7 @@ Les modèles suivants sont disponibles :
 | **Référents** | Affichez les URL sur lesquelles se trouvaient les personnes lorsqu’elles ont effectué un clic pour accéder à votre site. (Un lien doit exister sur l’URL externe et une personne doit cliquer sur celui-ci pour afficher l’élément de dimension.)  <p>**Cela peut vous aider** à mieux comprendre quelles URL spécifiques génèrent le plus de trafic vers votre site.</p><p>**En fonction de ce que vous avez appris** vous pouvez effectuer un certain nombre de tâches, comme créer ou ajuster le contenu pour vous aligner plus étroitement sur les intérêts des visiteurs et visiteuses qui proviennent des principales URL. </p><p>Ce modèle utilise la dimension Domaine référent . </p><p>Ce modèle utilise la dimension Référent . </p> |
 | **Types de référents** | Affichez les canaux génériques sur lesquels les personnes ont cliqué pour arriver sur votre site. Adobe conserve les règles pour chaque canal. Les canaux possibles sont les moteurs de recherche, les réseaux sociaux, d’autres sites web, le disque dur ou les e-mails.<p>**Cela peut vous aider** à mieux comprendre quel type de référents génère le plus de trafic vers votre site.</p><p>**En fonction de ce que vous avez appris** vous pouvez effectuer un certain nombre de tâches, comme créer ou ajuster le contenu pour vous aligner plus étroitement sur les intérêts des visiteurs et visiteuses provenant d’un certain canal.</p><p>Ce modèle utilise la dimension Type de référent .</p> |
 
-## Modèles mobiles
+### Mobile {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
