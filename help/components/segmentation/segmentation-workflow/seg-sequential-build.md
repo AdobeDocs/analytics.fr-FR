@@ -3,9 +3,9 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '3931'
 ht-degree: 95%
 
 ---
@@ -27,7 +27,7 @@ Regardez cet aperçu vidéo sur la segmentation séquentielle :
 Lors de la création d’un segment pour lequel « Inclure tout le monde » est sélectionné, le segment identifie les chemins correspondant au modèle donné dans son ensemble. Voici un exemple de segment de séquence de base recherchant un accès (Page A) suivi d’un autre (Page B) lors d’une visite effectuée par le même visiteur. Le segment est défini sur Inclure tout le monde.
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | Si le résultat… | Séquence |
 |--- |--- |
@@ -182,7 +182,7 @@ Les règles de segmentation incluent toutes les données, à moins que vous n’
 
 Par exemple :
 
-* **Exclure des pages**. Utilisez une règle de segment pour exclure une page spécifique (telle que *`Home Page`*) d’un rapport, créez une règle Accès où la page est égale à &quot;Page d’accueil&quot;, puis excluez-la. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
+* **Exclure des pages**. Utilisez une règle de segmentation pour exclure une page spécifique (telle que *`Home Page`*) d’un rapport, créer une règle Accès dans laquelle la page est égale à « Page d’accueil », puis l’exclure. Cette règle inclut automatiquement toutes les valeurs, à l’exception de la page d’accueil.
 * **Exclure des domaines référents**. Utilisez une règle qui inclut uniquement des domaines référents de Google.com et exclut tous les autres.
 * **Identifier les non-acheteurs**. Identifiez les commandes dont la valeur est supérieure à zéro et excluez ensuite le [!UICONTROL Visiteur].
 
@@ -211,7 +211,7 @@ Créez un segment comme vous le feriez pour un segment séquentiel simple, de ni
 
 Si le point de contrôle d’exclusion se situe au début d’un segment séquentiel, cette option s’assure qu’une page exclue n’a pas été vue avant le premier accès non exclu.
 
-Par exemple, un restaurant souhaite afficher les utilisateurs qui ont tendance à éviter la page d’entrée principale et qui accèdent directement à la page Commande à emporter. Vous pouvez afficher ces données en excluant les accès à la page d’entrée et en incluant les accès à la page de commande dans un segment séquentiel.
+Par exemple, un restaurant souhaite voir les utilisateurs qui ont tendance à éviter la page de destination principale et à accéder directement à la page Commander à emporter. Vous pouvez afficher ces données en excluant les accès à la page de destination et en incluant les accès à la page Commander à emporter dans un segment séquentiel.
 
 **Créer ce segment**
 
@@ -347,13 +347,13 @@ Vous pouvez limiter la correspondance à une durée spécifique en utilisant les
 
 >[!NOTE]
 >
->Il existe des différences d’évaluation entre des éléments portant le même nom, tels que **Jour(s)** ou **Jour**. Pour obtenir des définitions temporelles de Within et After, utilisez les options répertoriées en premier dans la fenêtre contextuelle :
+>Il existe des différences d’évaluation entre des éléments portant des noms similaires, tels que **Jour(s)** ou **Jour**. Pour les définitions temporelles de « Dans » et « Après », utilisez les options répertoriées en premier dans la fenêtre contextuelle :
 >
->![Image](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![Image](assets/terrible-link-2.png)
 >
->Pour les définitions basées sur les dimensions de Within et After, utilisez les options du sous-menu *Autres Dimensions* :
+>Pour les définitions de dimensions Dans et Après, utilisez les options du sous-menu *Autres Dimensions* :
 >
->![Image](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![Image](assets/terrible-link-3.png)
 
 ### Opérateurs After et Within  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
