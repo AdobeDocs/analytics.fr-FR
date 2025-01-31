@@ -4,10 +4,10 @@ title: Migration des utilisateurs d’Analytics vers l’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 96%
+source-wordcount: '3083'
+ht-degree: 95%
 
 ---
 
@@ -281,7 +281,7 @@ Informations importantes sur le processus de migration et son impact sur la gest
   </tr> 
   <tr> 
    <td colname="col1"> <p>API de gestion des utilisateurs <a href="https://helpx.adobe.com/fr/enterprise/using/identity.html"> Types d’identité pris en charge par Adobe</a> </p> </td> 
-   <td colname="col2"> <p> Les membres de l’administration migrant vers Adobe Admin Console doivent configurer les interfaces<a href="https://developer.adobe.com/umapi"> API de gestion utilisateur</a> fournies dans Adobe Developer pour un accès programmatique aux comptes d’utilisateurs dans Adobe Admin Console. </p> <p>Les API d’autorisation d’Analytics sont désactivées lorsque vous êtes activé pour la migration. </p> </td> 
+   <td colname="col2"> <p> Les administrateurs migrant vers Adobe Admin Console doivent configurer les API de gestion des utilisateurs fournies dans Adobe Developer pour un accès programmatique aux comptes utilisateur dans Adobe Admin Console. </p> <p>Les API d’autorisation d’Analytics sont désactivées lorsque vous êtes activé pour la migration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informations de connexion aux services Web </p> </td> 

@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 98%
@@ -44,9 +44,6 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Ventilation de dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide d’utilisation Analyser.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
 * **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
-<!-- Cannot find a link to documentation on this role 
-* **Customer support delegate:** A designated user authorized to interact directly with Adobe Customer Care. See [Customer support delegates](https://helpx.adobe.com/experience-cloud/supported-users.html) in the Experience Cloud Knowledgebase.
--->
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
 * **Data connectors :** solution de développement retirée du service qui permet à un tiers d’automatiser le chargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. Remplacé par le marché d’Adobe Exchange.
 * **Flux de données :** exportation de données brutes qui répertorie chaque accès et variable sous forme de lignes et de colonnes distinctes. Elle est le plus souvent utilisée pour exporter des données Adobe Analytics vers une base de données tierce. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation.
