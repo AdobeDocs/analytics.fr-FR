@@ -3,10 +3,10 @@ description: Utilisez l’importateur pour télécharger vos classifications dan
 title: Importateur de classifications - Aperçu
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: 0f5890679ea73c1bbea9f5d2939e89c6775c85da
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,13 @@ Utilisez l’importateur pour télécharger vos classifications dans Adobe Analy
 
 **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**
 
->[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importateur de classifications](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Les données importées à l’aide de l’outil d’importation doivent être dans un format spécifique. Adobe vous offre la possibilité de télécharger un modèle de données contenant tous les détails d’en-tête appropriés dans un fichier de données délimité par des tabulations. Vous pouvez ajouter vos nouvelles données à ce modèle, puis importer le fichier de données dans le navigateur via FTP.
 

@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 50%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 93%
 
 _Cet article documente les visualisations Synthèse des chiffres et Synthèse des modifications dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Synthèse des chiffres et Synthèse des modifications](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
-Regardez une vidéo sur ces deux visualisations :
 
->[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+>[!BEGINSHADEBOX]
+
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Synthèse des chiffres et Synthèse de la visualisation des modifications](https://video.tv.adobe.com/v/335564/?quality=12){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Visualisation [!UICONTROL Synthèse des chiffres] {#summary-number}
 
@@ -31,34 +35,12 @@ Regardez une vidéo sur ces deux visualisations :
 
 <!-- markdownlint-enable MD034 -->
 
-Utilisez la visualisation [!UICONTROL Synthèse des chiffres] pour mettre en évidence un grand nombre d’éléments importants dans un projet. Cette visualisation fonctionne comme suit :
 
-* Sélectionne toutes les colonnes si aucune cellule n’est sélectionnée.
-* Si une seule cellule est sélectionnée, son résumé s’affiche.
-* Si plusieurs cellules sont sélectionnées, la première cellule sélectionnée s’affiche.
-* Si la colonne est sélectionnée, la valeur de la première cellule de la colonne est affichée.
+Utilisez la visualisation ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) **[!UICONTROL Synthèse des modifications]** pour afficher le delta (modification) entre deux nombres. <!-- This is applicable for AA, not CJA: The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.-->
 
-Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérieur droit pour configurer les paramètres de Synthèse des chiffres :
-
-| Paramètre | Définition |
-|--- |--- |
-| [!UICONTROL Pourcentages] | Affichent des pourcentages plutôt que des chiffres bruts. |
-| [!UICONTROL Légende visible] | Affiche des informations sur la mesure affichée. |
-| [!UICONTROL Abréger la valeur] | Abrège les valeurs et affiche jusqu’à 3 chiffres après la virgule. |
-| [!UICONTROL Résumer la valeur par] | Affiche le maximum, le minimum, la moyenne, la médiane ou la somme pour une sélection de données. |
-
-## Visualisation [!UICONTROL Synthèse des modifications] {#summary-change}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="workspace_summarychange_button"
->title="Changement de résumé"
->abstract="Création d’une visualisation affichant le delta (changement) entre deux nombres"
-
-<!-- markdownlint-enable MD034 -->
-
-Utilisez la visualisation [!UICONTROL Synthèse des modifications] pour afficher le delta (modification) entre deux chiffres. La couleur verte et la couleur rouge de la [!UICONTROL Synthèse des modifications] peuvent être contrôlées par [polarité d’événement personnalisé](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) ou par l’option [Tendance à la hausse affichée](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr) dʼune mesure calculée.
+<!--
+The green and red color of the Summary Change can be controlled through [custom event polarity](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) or a calculated metric's [Show Upward Trend As](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) option.
+-->
 
 Cette visualisation fonctionne comme suit :
 
@@ -70,14 +52,20 @@ Cette visualisation fonctionne comme suit :
 * Si la colonne est sélectionnée, la première valeur est comparée à elle-même ; 0 s’affiche.
 
 
-![](assets/summary-change.png)
+![Visualisation Synthèse des modifications montrant le delta entre deux nombres.s](assets/summary-change.png)
 
 
-Cliquez sur l’engrenage **Paramètres de visualisation** dans le coin supérieur droit pour configurer les paramètres de Synthèse des changements :
+Dans le cadre des paramètres de visualisation, des options spécifiques **[!UICONTROL Résumé des modifications]** sont disponibles.
 
-| Paramètre | Définition |
-| --- | --- |
-| [!UICONTROL Pourcentages] | Affichent des pourcentages plutôt que des chiffres bruts. |
-| [!UICONTROL Légende visible] | Affiche des informations sur la mesure affichée. |
-| [!UICONTROL Afficher le pourcentage de modification] | Affiche le pourcentage de modification entre les 2 chiffres. |
-| [!UICONTROL Afficher la différence brute] | Affiche la différence brute entre 2 nombres. Vous pouvez également abréger des valeurs et afficher jusqu’à 3 chiffres après la virgule avec cette option. |
+| Option | Définition |
+|--- |--- |
+| **[!UICONTROL Afficher le pourcentage de modification]** | Afficher le pourcentage de changement entre les 2 nombres. |
+| **[!UICONTROL Afficher la différence brute]** | Afficher la différence brute entre les 2 nombres. Vous pouvez également abréger des valeurs et afficher jusqu’à 3 chiffres après la virgule avec cette option. |
+| **[!UICONTROL Abréger la valeur]** | Sélectionnez **[!UICONTROL Abréger la valeur]** pour abréger intelligemment la valeur modifiée. Lorsque cette option est sélectionnée, saisissez un nombre pour définir le montant de l’abréviation. Par exemple :<br/><table><tr><td>**Valeur originale**</td><td>**Valeur de l’abréviation**</td><td>**Résultat**</td></tr><tr><td>12 011 141,25 $</td><td>Non sélectionné</td><td  align="right">12 011 141,25 $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur `0`</td><td align="right">12 M$</td></tr><tr><td>12 011 141,25 $</td><td> Sélectionné, défini sur `1`</td><td  align="right">12,0 M$</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur `2`</td><td align="right">12,01 M$</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur `3`</td><td align="right">12,011 M$</td></tr></table> |
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

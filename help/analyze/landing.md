@@ -4,18 +4,24 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '1653'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
 
 # Page de destination dʼAdobe Analytics
 
-La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] et [!DNL Reports & Analytics] (devenus obsolètes) en une interface et un point dʼaccès uniques sous la bannière [!DNL Workspace]. Elle comprend une page dʼaccueil pour la gestion de projet, une section de modèles et une section de formation pour vous faciliter la prise en main. Voici une vue d’ensemble vidéo :
+La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] et [!DNL Reports & Analytics] (devenus obsolètes) en une interface et un point dʼaccès uniques sous la bannière [!DNL Workspace]. Elle comprend une page d’accueil destinée aux chefs de projet, une section relative aux modèles et une section d’apprentissage pour vous aider à démarrer plus efficacement.
 
->[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination Adobe Analytics](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 La page de destination Adobe Analytics se compose des sous-onglets suivants : Projets, Modèles et Formation.
 

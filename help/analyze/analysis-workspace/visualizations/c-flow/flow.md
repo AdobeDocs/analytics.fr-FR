@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ Elle vous offre les possibilités suivantes :
 * Analyser où se rendent les clients avant et après les points de contrôle spécifiés, tels qu’une entrée, une dimension spécifique ou une sortie
 * Créer des segments en désignant un point spécifique dans un cheminement donné
 
-Voici un tutoriel vidéo sur la visualisation de flux :
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [visualisation de flux](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ Pour plus d’informations sur la configuration d’une visualisation de flux, c
 
 Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
 
-## Options supplémentaires dans la visualisation des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## Fonctionnalités supplémentaires
+
+>[!BEGINSHADEBOX]
+
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation des flux](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+

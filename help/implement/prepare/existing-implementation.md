@@ -4,10 +4,10 @@ description: Instructions destinées aux administrateurs qui découvrent une imp
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -19,12 +19,18 @@ Vous prenez la main sur une implémentation Adobe Analytics gérée par le préc
 
 ![Manuel](assets/inherited-impl-playbook.png)
 
-Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est une championne d’Adobe Analytics et partage ses idées sur l’utilisation du manuel relatif à l’implémentation héritée pour prendre en charge une implémentation existante :
+Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est championne d’Adobe Analytics et partage des idées sur l’utilisation du manuel Hérité de l’implémentation pour prendre en charge une implémentation existante :
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Voir également :
 
-* [Liste de contrôle &quot;Révision ciblée&quot; pour une révision de votre mise en oeuvre après chaque mise à jour de site web](/help/implement/review/focused-review.md)
-* [Liste de contrôle &quot;Révision intégrale&quot; pour une révision de votre mise en oeuvre tous les 6 mois](/help/implement/review/full-review.md)
+* [Liste de contrôle de la « Révision ciblée » pour une révision de votre implémentation après chaque publication de site web](/help/implement/review/focused-review.md)
+* [Liste de contrôle « Révision complète » pour une révision de votre implémentation tous les 6 mois](/help/implement/review/full-review.md)
 * [Définir les 5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md)

@@ -4,16 +4,16 @@ description: Découvrez comment et pourquoi créer des projets dans Workspace av
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
 # Suites de rapports multiples
 
-Vous pouvez créer des projets dans Analysis Workspace avec des données provenant de plusieurs suites de rapports. Les suites de rapports sont sélectionnées au niveau du panneau. Vous pouvez donc choisir une suite de rapports différente pour chaque panneau du même projet Workspace.
+Vous pouvez créer des projets dans Analysis Workspace avec des données provenant de plusieurs suites de rapports. Les suites de rapports sont sélectionnées au niveau du panneau. Vous pouvez donc choisir une suite de rapports différente pour chaque panneau au sein d’un même projet Workspace.
 
 Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
@@ -21,9 +21,13 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 * Créer un tableau de bord de mesures et de visualisations pour envoyer des rapports à d’autres organisations. Vous pouvez extraire des données de différentes suites de rapports dans dans le même projet.
 
-Regardez cette vidéo sur ce sujet :
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Application de suites de rapports à tous les panneaux
 

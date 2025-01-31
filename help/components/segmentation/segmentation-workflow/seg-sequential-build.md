@@ -3,9 +3,9 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: c1a72e57d4dfdaae1f90e69fd940137af9dab1a8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '3931'
+source-wordcount: '3932'
 ht-degree: 95%
 
 ---
@@ -18,9 +18,13 @@ Les segments séquentiels sont créés en utilisant l’opérateur THEN au lieu 
 
 De plus, vous pouvez contraindre des segments séquentiels à une durée spécifique, une granularité donnée et un nombre d’accès entre des points de contrôle en utilisant les [opérateurs After et Within](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Regardez cet aperçu vidéo sur la segmentation séquentielle :
 
->[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentation séquentielle](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Inclure tout le monde {#section_75ADDD5D41F04800A09E592BB2940B35}
 

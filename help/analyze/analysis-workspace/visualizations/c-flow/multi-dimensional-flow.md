@@ -5,10 +5,10 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,13 @@ ht-degree: 100%
 
 Un flux interdimensionnel vous permet d’examiner les chemins d’accès pour les utilisateurs et utilisatrices sur plusieurs dimensions. Regardez cette vidéo sur l’habillage du texte et le flux multidimensionnel dans Analysis Workspace :
 
->[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flux interdimensionnels](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Un libellé de dimension dans la partie supérieure de chaque colonne Flux rend l’utilisation de plusieurs dimensions dans une visualisation de flux plus intuitive :
 

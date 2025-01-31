@@ -3,10 +3,10 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 94%
+source-wordcount: '415'
+ht-degree: 92%
 
 ---
 
@@ -14,9 +14,13 @@ ht-degree: 94%
 
 Les suites de rapports virtuelles peuvent être traitées de manière à inclure et à exclure des composants d’Analysis Workspace.
 
-Voici une vidéo sur le traitement des composants :
 
->[!VIDEO](https://video.tv.adobe.com/v/23544/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des composants](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >
@@ -27,7 +31,7 @@ Pour activer le traitement des composants,
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Suites de rapports virtuelles]** > **[!UICONTROL Créer une suite de rapports virtuelle]**.
 1. Après avoir défini les **[!UICONTROL Paramètres]**, cliquez sur l’onglet **[!UICONTROL Composants]**.
 
-1. Cochez la case **[!UICONTROL Activer la personnalisation des composants de suite de rapports virtuelle]** :
+1. Cochez la case **[!UICONTROL Activer la personnalisation des composants de la suite de rapports virtuelle]** :
 
    ![](assets/vrs-enable.png)
 

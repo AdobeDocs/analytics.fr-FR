@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 97%
 
 ---
 
@@ -237,9 +237,14 @@ Un segment séquentiel filtre des jeux de données sur la base des actions de l�
 
 ## Vidéo Comment segmenter {#segment-video}
 
-Cette vidéo illustre brièvement ce que sont les conteneurs de segments et comment les utiliser :
+Cette vidéo donne un bref aperçu des conteneurs de segments et de leur utilisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/ident25401ifier?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
 
 
 ## Accès aux outils de segmentation {#access}

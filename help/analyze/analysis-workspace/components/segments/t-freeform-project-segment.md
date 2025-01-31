@@ -4,10 +4,10 @@ title: Segments
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -19,23 +19,32 @@ Vous pouvez créer différents types de segments dans Workspace, selon la comple
 | Type de segment | Emplacement de création | Applicable où ? | Conditions d’utilisation |
 | --- | --- | --- | --- |
 | Segment de la liste des composants | Cliquez sur « + » pour accéder au [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). | Tous vos projets Workspace | Pour les segments plus complexes et les segments séquentiels |
-| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Uniquement pour le projet, mais possibilité de lʼenregistrer et de lʼajouter à votre liste de segments. | Peut être utilisé pour les segments de règle unique ad hoc (avec glisser-déposer) ou pour ajouter/modifier plusieurs règles (en cliquant sur l’icône Segment ). |
+| Segment rapide | [Créateur de segments rapide](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | Uniquement pour le projet, mais possibilité de lʼenregistrer et de lʼajouter à votre liste de segments. | Peut être utilisé pour les segments ad hoc à règle unique (avec glisser-déposer) ou pour ajouter/modifier plusieurs règles (en cliquant sur l’icône Segment) |
 | Segment basé sur les mesures calculées | [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=fr) | À une mesure calculée individuelle | Application du ou des segments dans la définition de votre mesure |
-| Segment virtuel basé sur une suite de rapports | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) | À une suite de rapports virtuelle individuelle | Application de segments dans votre définition de suite de rapports virtuelle |
+| Segment basé sur une suite de rapports virtuelle | [Créateur de suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=fr) | À une suite de rapports virtuelle individuelle | Application du ou des segments dans votre définition de suite de rapports virtuelle |
 
 ## Vidéos
 
-Utilisation des segments dans Analysis Workspace :
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation de segments dans Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
-Recherche et création de segments :
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-Périodes flottantes dans les segments :
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recherche et création de segments](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans le segment](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Création de segments {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ Vous pouvez créer différents types de segments dans Analysis Workspace :
 ### Création de segments de la liste des composants {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 Le rail des segments sous le menu Composants sʼaffiche
-* Segments que vous ou votre société avez créés
-* Modèles de segment, comme indiqué par lʼicône Adobe :
 
-![](assets/segment_icons.png)
+* Segments que vous ou votre société avez créés
+* Modèles de segment, comme indiqué par l’Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) :
+
 
 Pour créer un segment de ce type, 2 choix sʼoffrent à vous. Vous devez invariablement passer par le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) dans Adobe Analytics, où dʼautres instructions sont disponibles.
 
@@ -65,7 +74,12 @@ ou
 
 ### Autres méthodes d’application de segments {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Autres méthodes d’application de segments](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
 
 Plusieurs autres méthodes permettent d’appliquer des segments à un projet d’analyse à structure libre.
 

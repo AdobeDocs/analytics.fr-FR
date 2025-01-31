@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,14 @@ Dans le cadre de la transition vers une nouvelle technologie de Report Builder, 
 >
 >Dupliquez chaque classeur et renommez une version avant de la convertir. De cette façon, vous disposez toujours d’une copie du classeur d’origine, si vous en avez besoin.
 
->[!VIDEO](https://video.tv.adobe.com/v/3434957/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 1. Configurez le nouveau Report Builder en [suivant ces instructions](/help/analyze/report-builder/report-builder-setup.md).
 

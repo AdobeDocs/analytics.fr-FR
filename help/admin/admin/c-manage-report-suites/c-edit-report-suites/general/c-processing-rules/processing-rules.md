@@ -5,10 +5,10 @@ title: Règles de traitement - Aperçu
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ Les règles de traitement simplifient la collecte de données et gèrent le cont
 * Corriger les sections de site mal orthographiées.
 * Extraire des termes de recherche internes ou un identifiant de campagne d’une requête de chaîne pour les placer dans une variable eVar.
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation des règles de traitement](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Autorisations des règles de traitement {#section_8A4846688050453784DAE4D89355169A}
 

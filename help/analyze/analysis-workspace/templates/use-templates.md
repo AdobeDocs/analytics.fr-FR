@@ -4,9 +4,9 @@ title: Utiliser les modèles
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Les informations suivantes décrivent comment accéder aux modèles et les utili
 
    <!--update screenshot -->
 
-   ![Onglet Rapports.](assets/view-prebuilt-templates.png)
+   ![Onglet Rapports.](assets/view-prebuilt-templates-full.png)
 
 1. Dans la section [!UICONTROL **Modèles**], sélectionnez l’un des onglets suivants :
 
@@ -45,9 +45,9 @@ Les informations suivantes décrivent comment accéder aux modèles et les utili
 
 1. Utilisez l’une des options suivantes pour modifier l’affichage des modèles disponibles :
 
-   * Choisissez d’afficher les modèles en mode Colonnes ou Carte en sélectionnant l’icône Mode Colonnes ![icône Mode Colonnes](assets/column-view-icon.png) ou Mode Carte ![icône Mode Carte](assets/card-view-icon.png).
+   * Choisissez d’afficher les modèles en mode Colonnes ou Carte en sélectionnant l’icône Mode Colonnes ![AfficherColonne](/help/assets/icons/ViewColumn.svg) ou Mode Carte ![Carte](/help/assets/icons/Card.svg).
 
-   * Lors de l’utilisation du mode Carte ![icône du mode Carte](assets/card-view-icon.png), choisissez l’un des ordres de tri suivants : **[!UICONTROL Le plus récemment utilisé]**, **[!UICONTROL Le plus populaire]**, **[!UICONTROL Alphabétique]**, **[!UICONTROL Catégoriel]**.
+   * Lors de l’utilisation du mode Carte ![Carte](/help/assets/icons/Card.svg), choisissez l’un des ordres de tri suivants : **[!UICONTROL Le plus récemment utilisé]**, **[!UICONTROL Le plus populaire]**, **[!UICONTROL Alphabétique]**, **[!UICONTROL Catégoriel]**.
 
 1. Dans le champ de recherche, commencez à saisir le nom du modèle à rechercher, puis sélectionnez-le dans la liste des modèles. Vous pouvez également rechercher la liste des modèles par prop, eVar et numéro d’événement. <!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Les modèles suivants sont disponibles :
 | **Appareils** | Affichez la marque et le modèle des appareils mobiles que les personnes utilisent pour accéder à votre site.<p>**Cela peut vous aider** à mieux comprendre les périphériques mobiles les plus populaires parmi votre base d’utilisateurs et d’utilisatrices.</p><p>**En fonction de ce que vous apprenez, vous pouvez** effectuer un certain nombre d’opérations, comme optimiser le rendu de votre site pour les appareils mobiles les plus courants.</p><p>Ce modèle utilise la dimension Nom de l’appareil mobile .</p> |
 | **Type d’appareil** | Affichez les types d’appareils mobiles que les personnes utilisent pour accéder à votre site, tels que les téléphones et tablettes.<p>**Cela peut vous aider** à mieux comprendre les différents types d’appareils mobiles utilisés pour accéder à votre site.</p><p>**En fonction de ce que vous apprenez, vous pouvez** effectuer un certain nombre d’opérations, comme optimiser votre site pour les types d’appareils mobiles les plus utilisés.</p><p>Ce modèle utilise la dimension Type d’appareil mobile .</p> |
 | **Fabricant** | Affichez les fabricants qui produisent les appareils mobiles que les personnes utilisent pour accéder à votre site, comme Apple et Samsung.<p>**Cela peut vous aider** à mieux comprendre les fabricants les plus populaires parmi votre base d’utilisateurs et d’utilisatrices.</p><p>**En fonction de ce que vous apprenez, vous pouvez** effectuer un certain nombre d’opérations, comme personnaliser la diffusion de contenu en fonction des capacités de différents fabricants afin d’assurer une expérience client fluide.</p><p>Ce modèle utilise la dimension Fabricant du dispositif mobile.</p> |
+
+

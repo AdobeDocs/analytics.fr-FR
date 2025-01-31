@@ -3,10 +3,10 @@ description: Le Créateur de segments permet de comparer et de contraindre les v
 title: Opérateurs de comparaison pour les segments
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 95%
 
 Le Créateur de segments vous permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
 
-L’astérisque : &#42; est le seul caractère générique pris en charge. Si vous devez rechercher &#42;, vous pouvez l’échapper avec une barre oblique inverse.
+Le seul caractère générique pris en charge est l’astérisque : &#42;. Si vous devez rechercher des &#42;, vous pouvez y échapper avec une barre oblique inverse.
 
-**Exemple** : supposons que vous ayez une page nommée « Mon super produit ». La règle de segment &quot;Le nom de page correspond à Mon&#42;produit&quot; correspondra au nom de page ci-dessus. Cependant, la règle &quot;Le nom de page correspond à Mon\\&#42;produit&quot; correspond uniquement au nom de page &quot;Mon&#42;produit&quot;.
+**Exemple** : supposons que vous ayez une page nommée « Mon super produit ». La règle de segment « Le nom de page correspond à Mon&#42;produit » correspond au nom de page ci-dessus. Cependant, la règle « Le nom de la page correspond à Mon\\&#42;produit » ne correspond qu’au nom de la page « Mon&#42;Produit ».
 
 ## Opérateurs standard
 
@@ -63,6 +63,9 @@ Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exem
 | est supérieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est supérieur ou égal à la valeur saisie. |
 | est inférieur ou égal à | Renvoie les éléments de dimension dont le nombre de valeurs uniques est inférieur ou égal à la valeur saisie. |
 
-Regardez cette vidéo concernant la segmentation sur des nombres de dimensions distincts :
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Nombre de dimensions distinct](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]

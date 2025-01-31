@@ -4,26 +4,26 @@ description: Suivez ces étapes pour vous assurer que votre implémentation rest
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
 # Révision ciblée (après chaque mise à jour de site web)
 
-Pourquoi devriez-vous passer en revue votre implémentation plusieurs fois par an ? Parce qu’ainsi, vous pouvez résoudre les problèmes liés à la qualité des données à un stade précoce. Si vous effectuez régulièrement cette révision ciblée après chaque mise à jour de site web, vous constaterez que vos [révisions intégrales](/help/implement/review/full-review.md) semestrielles sont beaucoup plus simples. Vous éviterez également que les petits problèmes ne se transforment en problèmes de données massives susceptibles d’éroder la confiance des parties prenantes.
+Pourquoi devriez-vous passer en revue votre implémentation plusieurs fois par an ? Parce qu’ainsi, vous pouvez résoudre les problèmes liés à la qualité des données à un stade précoce. Si vous effectuez régulièrement cette révision ciblée après chaque mise à jour de site web, vous constaterez que vos [révisions complètes](/help/implement/review/full-review.md) semestrielles sont beaucoup plus faciles. Vous empêcherez également les petits problèmes de se transformer en problèmes de mégadonnées qui pourraient éroder la confiance des parties prenantes.
 
 ## 1. Démarrez avec vos 5 principaux indicateurs clés de performance
 
-Connaître vos 5 principaux indicateurs clés de performances (KPI) vous aidera à déterminer les mesures et dimensions associées que vous devez examiner. Si vous n’avez pas actualisé vos indicateurs clés de performance au cours des 6 derniers mois ou si votre entreprise n’a pas encore créé ces indicateurs de performance clés, suivez [ces instructions](/help/implement/review/define-kpis.md).
+Connaître vos 5 principaux indicateurs clés de performances (KPI) vous aidera à déterminer les mesures et dimensions associées que vous devez examiner. Si vous n’avez pas actualisé vos KPI au cours des 6 derniers mois ou si votre entreprise n’a pas encore créé d’KPI, suivez [ces instructions](/help/implement/review/define-kpis.md).
 
 ## 2. Assurez-vous que vos mesures et variables d’indicateurs clés de performance fonctionnent toujours correctement
 
-Rappelez-vous qu’au fil du temps, les mises à jour du code peuvent avoir des ramifications inattendues. Vérifiez que toutes les mesures et dimensions associées à vos [cinq principaux indicateurs clés de performance](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, ceci est fait juste après la publication d’un site web ; si vous ne l’avez pas fait au cours des derniers mois, faites-le *maintenant*. Pour ce faire :
+Rappelez-vous qu’au fil du temps, les mises à jour du code peuvent avoir des ramifications inattendues. Vérifiez que toutes les mesures et dimensions associées à vos [cinq principaux indicateurs clés de performance](/help/implement/review/define-kpis.md) fonctionnent toujours correctement. Idéalement, faites cela juste après une mise à jour de site web. Si vous ne l’avez pas fait au cours des derniers mois, faites-le *maintenant*. Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables critiques (ou définissez des [alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) pour chaque mesure). Ensuite, surveillez-les pendant un ou deux jours pour vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables importantes (ou définissez des [alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) pour chaque mesure). Ensuite, surveillez-les pendant un jour ou deux pour vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) pour surveiller les tendances générales des mesures et variables de vos indicateurs clés de performance.
 
 *Pour plus d’informations concernant les manières de vous assurer que vos mesures et variables fonctionnent correctement, [consultez les conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, Adobe Analytics Champion.*
@@ -36,7 +36,7 @@ Assurez-vous que la dernière mise à jour du site n’a pas eu d’incidence n�
 
 Si vous avez récemment ajouté ou modifié des mesures ou des variables, vous devez mettre à jour votre document d’exigences de l’entreprise (BRD) et votre document de référence pour la conception de solution (SDR).
 
-Si vous ne disposez pas de la documentation de votre mise en oeuvre, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
+Si vous ne disposez pas de la documentation relative à votre implémentation, exportez une liste de variables et créez votre BRD ou votre SDR à l’aide de [ce modèle](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=fr#implementation).
 
 ## 5. Résolvez immédiatement les problèmes liés à la qualité des données
 
@@ -44,4 +44,11 @@ Si vous ne disposez pas de la documentation de votre mise en oeuvre, exportez un
 
 *Regardez cette vidéo de 2 minutes dans laquelle Sarah Owen, championne d’Adobe Analytics, indique quels sont les meilleurs moments pour intégrer les révisions d’implémentation à votre planning chargé :*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vérification de votre implémentation](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+

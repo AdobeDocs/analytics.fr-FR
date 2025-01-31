@@ -4,10 +4,10 @@ title: Ajouter des descriptions des composants
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Les administrateurs et administratrices d’Analytics peuvent ajouter des descri
 
 ## Ajouter des descriptions aux composants dans une suite de rapports
 
-La vidéo suivante explique comment ajouter des descriptions de dimension et de mesure dans une suite de rapports :
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Ajoutez les descriptions aux composants dans Analysis Workspace (à l’aide du dictionnaire de données) {#add-descriptions}
 

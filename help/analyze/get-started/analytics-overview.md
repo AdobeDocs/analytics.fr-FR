@@ -4,10 +4,10 @@ short-description: Découvrez les fonctionnalités clés, les cas d’utilisatio
 title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,13 @@ Utilisez les ressources suivantes pour découvrir les principes de base d’Adob
 
 Pour en savoir plus sur les principes de base d’Adobe Analytics, regardez la vidéo *Présentation d’Adobe Analytics - webinaire de développement des compétences*. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données et de fournir des informations exploitables et des recommandations en fonction des données collectées.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation d’Adobe Analytics - Développement des compétences](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} pour la vidéo du webinaire.
+
+>[!ENDSHADEBOX]
+
 
 Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=fr).
 

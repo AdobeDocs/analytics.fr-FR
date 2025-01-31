@@ -4,10 +4,10 @@ title: Comprendre et configurer des règles de robot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -17,13 +17,13 @@ Les règles de robots vous permettent de supprimer du trafic de votre suite de r
 
 Une fois les règles de robots définies, elles servent de critères de comparaison pour tout le trafic entrant. Le trafic qui correspond à l’une de ces règles n’est ni collecté dans la suite de rapports, ni inclus dans les mesures de trafic.
 
-En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. De nombreux clients estiment que la suppression du trafic de robots entraîne une augmentation des taux de conversion et d’autres mesures d’utilisation.
+En règle générale, la suppression du trafic de robots réduit le volume des mesures de trafic et de conversion. De nombreux clients et clientes constatent que la suppression du trafic de robots entraîne une augmentation des taux de conversion et d’autres mesures d’utilisation.
 
-Les données de trafic de robots sont stockées dans un référentiel distinct en vue d’être affichées dans les rapports Robots et Pages de robots .
+Les données de trafic de robots sont stockées dans un référentiel distinct pour être affichées dans les rapports Robots et Pages de robots .
 
 >[!NOTE]
 >
->L’Edge Network Adobe Experience Platform fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) qui classe les accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robot inclus dans les données arrivant par l’intermédiaire de l’Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
+>L’Edge Network Adobe Experience Platform fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) qui classe les accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robots inclus dans les données arrivant via l’Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
 
 ## Mise à jour ou chargement de règles de robots
 
@@ -31,9 +31,13 @@ Les données de trafic de robots sont stockées dans un référentiel distinct e
 >
 >Avant de supprimer le trafic de robots, contactez les parties intéressées afin de vous assurer qu’elles sont en mesure d’apporter les modifications nécessaires aux indicateurs clés de performance à la suite de ce changement. Si possible, nous vous conseillons d’abord de supprimer le trafic de robots d’une petite suite de rapports afin d’évaluer l’impact potentiel.
 
-La vidéo suivante explique comment configurer des règles de robots :
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurer des règles de robots](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Pour mettre à jour ou charger des règles de robots :
 
@@ -43,19 +47,19 @@ Pour mettre à jour ou charger des règles de robots :
 
 1. Utilisez l’une des options suivantes pour mettre à jour ou charger des règles de robots pour la suite de rapports :
 
-   * Sélectionnez [!UICONTROL **Activer les règles de filtrage de robots IAB**] pour supprimer les robots dans la liste internationale des robots (International Spiders &amp; Robots List) fournie par l’IAB (Bureau international d’Advertising) afin de supprimer le trafic de robots.
+   * Sélectionnez [!UICONTROL **Activer les règles de filtrage des robots IAB**] pour supprimer les robots dans la liste internationale d’araignées et de robots IAB (Bureau international Advertising) afin de supprimer le trafic de robots.
 
-     Il est recommandé de sélectionner au minimum cette option.
+     Nous vous recommandons de sélectionner cette option au minimum.
 
-     Pour plus d’informations, voir la section ci-dessous, [Règles de robots IAB standard](#standard-iab-bot-rules).
+     Pour plus d’informations, consultez la section ci-dessous, [Règles de robots IAB standard](#standard-iab-bot-rules).
 
-   * Sélectionnez [!UICONTROL **Ajouter une règle**] pour définir et ajouter des règles de robots personnalisées basées sur des agents utilisateur, des adresses IP ou des plages IP.
+   * Sélectionnez [!UICONTROL **Ajouter une règle**] pour définir et ajouter des règles de robots personnalisées en fonction des agents utilisateurs, des adresses IP ou des plages d’adresses IP.
 
-     Pour plus d’informations, voir la section ci-dessous, [Règles de robots personnalisées](#custom-bot-rules).
+     Pour plus d’informations, consultez la section ci-dessous, [Règles de robots personnalisées](#custom-bot-rules).
 
-   * En regard de la zone [!UICONTROL **Select CSV Bot file to import**] , sélectionnez [!UICONTROL **Choose File**], puis sélectionnez le fichier CSV qui définit les règles de robots.
+   * En regard de la zone [!UICONTROL **Sélectionner le fichier de robot CSV à importer**], sélectionnez [!UICONTROL **Choisir un fichier**], puis sélectionnez le fichier CSV qui définit les règles de robot.
 
-     Pour plus d’informations, reportez-vous à la section ci-dessous, [Télécharger les règles de robots](#upload-bot-rules).
+     Pour plus d’informations, consultez la section ci-dessous, [Chargement de règles de robots](#upload-bot-rules).
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -75,7 +79,7 @@ Pour plus d’informations sur l’activation des règles de robots IAB standard
 >
 >Il est possible de définir manuellement 500 règles dans l’interface utilisateur. Au-delà de cette limite, les règles doivent être gérées en bloc au moyen des options Importer un fichier et Exporter des règles de robots.
 
-Les règles de robots personnalisées vous permettent de filtrer le trafic selon les conditions que vous avez définies. Pour lancer le processus d’activation des règles de robots personnalisées dans une suite de rapports, voir [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
+Les règles de robots personnalisées vous permettent de filtrer les conditions basées sur le trafic que vous définissez. Pour lancer le processus d’activation des règles de robots personnalisées dans une suite de rapports, consultez [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
 
 Les règles de robots personnalisées sont définies à l’aide des types de conditions suivants :
 
@@ -91,7 +95,7 @@ Une condition Agent utilisateur vérifie la valeur correspondante afin de déter
 
 Des valeurs facultatives peuvent être incluses dans la liste **[!UICONTROL ne contient pas]** afin de définir les valeurs qui ne peuvent pas se trouver dans l’agent utilisateur pour qu’une correspondance soit établie. Vous pouvez inclure plusieurs valeurs, à raison d’une valeur par ligne. Si l’agent utilisateur répond aux critères spécifiés dans la chaîne de correspondance, mais contient également une chaîne reprise dans la liste « ne contient pas », il n’est pas considéré comme une correspondance.
 
-Le champ **[!UICONTROL contient]** est limité à 100 caractères. La liste « ne contient pas » est limitée à 255 caractères, moins un caractère de séparation pour chaque nouvelle ligne. (Cela équivaut au nombre de chaînes - 1. Si vous indiquez 4 chaînes *ne contient pas*, 3 caractères de séparation sont obligatoires.) Les correspondances de chaînes ne sont pas sensibles à la casse.
+Le champ **[!UICONTROL contient]** est limité à 100 caractères. La liste « ne contient pas » est limitée à 255 caractères, moins un caractère de séparation pour chaque nouvelle ligne. (Cela équivaut au nombre de chaînes - 1. Si vous spécifiez 4 *ne contient pas* chaînes, 3 caractères de séparation sont requis.) Toutes les correspondances de chaîne ne respectent pas la casse.
 
 ### Adresse IP (avec correspondances de caractères génériques)
 
@@ -116,13 +120,13 @@ Indiquez les plages de début et de fin des adresses IP avec lesquelles vous so
 
 Pour importer des règles de robots en vrac, vous pouvez télécharger un fichier CSV qui les définit.
 
-1. Pour commencer le processus de chargement de règles de robots vers une suite de rapports, voir [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
+1. Pour lancer le processus de chargement de règles de robots dans une suite de rapports, consultez [Mise à jour ou chargement de règles de robots](#update-or-upload-bot-rules).
 
-1. Créez un fichier CSV avec les colonnes suivantes, à la ligne 1 de la feuille de calcul, dans l’ordre indiqué :
+1. Créez un fichier CSV avec les colonnes suivantes, sur la ligne 1 de la feuille de calcul et dans l’ordre présenté :
 
    | Colonne 1, ligne 1 | Colonne 2, ligne 1 | Colonne 3, ligne 1 | Colonne 4, ligne 1 | Colonne 5, ligne 1 | Colonne 6, ligne 1 |
    |--- |--- |---|---|---|---|
-   | Nom du robot | Début IP | Fin IP | Règle<br>(contient ou commence par)</br> | Agent utilisateur - Inclure | Agent utilisateur Exclure<br>(255 caractères max.)</br> |
+   | Nom du robot | Début de l’adresse IP | Fin IP | Règle<br>(contient ou commence par)</br> | User Agent Include | Exclusion de l’agent utilisateur <br>(limite de 255 caractères)</br> |
 
    Vous pouvez définir trois types de règles de robots :
 
@@ -143,17 +147,17 @@ Pour importer des règles de robots en vrac, vous pouvez télécharger un fichie
 
    * **Correspondance de plage IP** : définissez une plage d’adresses IP à l’aide des colonnes Début IP et Fin IP. Vous pouvez utiliser des caractères génériques pour faire correspondre des plages d’adresses IP ; par exemple `10.10.10.*` avec `10.10.20.*`. Règle de correspondance de l’agent, Agent - Inclure et Agent - Exclure doivent être vides.
 
-1. Sur la page Règles de robots du Gestionnaire de suites de rapports, en regard de la zone [!UICONTROL **Sélectionner le fichier de robot CSV à importer**], sélectionnez [!UICONTROL **Choisir le fichier**], puis sélectionnez le fichier CSV qui définit les règles de robots à importer.
+1. Sur la page Règles de robots du Gestionnaire de suites de rapports, en regard de la zone [!UICONTROL **Sélectionner le fichier de robot CSV à importer**], sélectionnez [!UICONTROL **Choisir un fichier**], puis sélectionnez le fichier CSV qui définit les règles de robots à importer.
 
-1. (Facultatif) Cochez la case **[!UICONTROL Remplacer les règles existantes]** pour supprimer toutes les règles existantes et les remplacer par les règles définies dans le fichier de téléchargement.
+1. (Facultatif) Cochez la case **[!UICONTROL Remplacer les règles existantes]** pour supprimer toutes les règles existantes et les remplacer par les règles définies dans le fichier de chargement.
 
 1. Sélectionnez [!UICONTROL **Importer un fichier**].
 
-1. Dans la zone [!UICONTROL **Jeux de règles**], passez en revue les règles qui ont été importées.
+1. Dans la zone [!UICONTROL **Jeux de règles**] passez en revue les règles importées.
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-## Exporter des règles de robots
+## Exporter les règles de robots
 
 Pour exporter toutes les règles définies dans l’interface utilisateur au format CSV :
 
@@ -161,7 +165,7 @@ Pour exporter toutes les règles définies dans l’interface utilisateur au for
 
 1. Sélectionnez la suite de rapports contenant les règles de robots à exporter, puis sélectionnez **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de robots]**.
 
-1. Sélectionnez **[!UICONTROL Exporter les règles de robots]**, puis enregistrez le fichier CSV dans votre système de fichiers.
+1. Sélectionnez **[!UICONTROL Exporter des règles de robots]**, puis enregistrez le fichier CSV dans votre système de fichiers.
 
 ## Incidence des règles de robots sur la collecte de données {#section_F01A3130E7A04A9993371CF26F6586F2}
 

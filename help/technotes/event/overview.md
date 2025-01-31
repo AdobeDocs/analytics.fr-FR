@@ -3,10 +3,10 @@ title: Analyse des données affectées par les événements
 description: Comprendre comment les données affectées par un événement contribuent à la qualité générale des données.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,15 @@ Une fois que vous êtes prêt à gérer un événement, vous pouvez [communiquer
 
 ## Vidéo
 
-Cette vidéo présente chacune des étapes ci-dessus.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyser et communiquer les variations dans vos données](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 * **0:27** : exclusion des données par segmentation
 * **02:55** : comparaison d’un événement avec les périodes précédentes
 * **8:42** : dérivation de données à l’aide de mesures calculées
 * **11:46** : communication de l’impact aux utilisateurs
+
+>[!ENDSHADEBOX]
+
+

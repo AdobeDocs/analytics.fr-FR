@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ Vous pouvez partager un projet Analysis Workspace avec les types de personnes s
 
 Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsque les personnes destinataires ouvrent le projet.
 
-Regardez cette vue d’ensemble vidéo sur le partage de projet :
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
 
 
 ## Partager avec les utilisateurs, les utilisatrices et les groupes Analysis Workspace de votre organisation {#Add}
@@ -96,7 +100,7 @@ Si des modifications ne sont pas enregistrées, on vous invitera d’abord à en
 
    Ou
 
-   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traiter et mettre à jour]**.) En savoir plus sur le [traitement des projets](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
+   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traitement et mise à jour]**.) En savoir plus sur le [traitement du projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
 
 ## Partager un lien vers un projet
 
@@ -138,9 +142,13 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 >
 >* Un projet peut devenir inaccessible si de nombreuses personnes tentent d’accéder simultanément à un lien donné. Par défaut, plus de 190 personnes peuvent accéder à un seul lien toutes les 5 minutes. Si votre organisation atteint cette limite, patientez 5 minutes, puis tentez à nouveau d’accéder au lien.
 
-La vidéo de démonstration suivante et la documentation qui l’accompagne décrivent les options associées au partage d’un lien avec n’importe quelle personne :
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics :
 
@@ -186,11 +194,16 @@ Lorsqu’une personne partage un projet avec vous en [partageant un rôle de pro
 
 Lorsqu’une personne partage un projet avec vous en partageant un lien (à partir de l’[onglet Partage de projets](#share-a-link-to-a-project) ou en utilisant un lien [partager avec tout le monde](#share-a-project-with-anyone-no-login-required)), vous devez utiliser le lien qui a été partagé avec vous pour accéder au projet. Par exemple, le lien peut avoir été partagé dans un e-mail, sur un site web interne, etc.
 
-## Partage de composants intégrés
+## Partager des composants intégrés
 
-Regardez une vidéo sur ce sujet :
+Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Questions fréquentes {#FAQs}
 

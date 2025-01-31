@@ -4,10 +4,10 @@ description: La manière dont les différents types d’attributions répartisse
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 95%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -44,9 +44,12 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 * **Intervalle de recherche en amont personnalisé :** permet d’étendre l’intervalle d’attribution au-delà de la période des rapports (pendant un maximum de 90 jours). Les intervalles de recherche en amont personnalisés sont évalués pour chaque conversion pendant la période des rapports. Par exemple, pour une conversion ayant lieu le 20 février, un intervalle de recherche en amont de 10 jours évalue tous les points de contact de dimension entre le 10 et le 20 février dans le modèle d’attribution.
 
-  Regardez une vidéo sur les intervalles de recherche en amont personnalisés :
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalle de recherche en amont personnalisé](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Exemple
 

@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment utiliser les flux de données pour obtenir des données brutes à partir d’Adobe Analytics. Découvrez les conditions préalables à l’utilisation des flux de données.
+description: Découvrez comment utiliser les flux de données pour extraire des données brutes d’Adobe Analytics. Découvrez les conditions préalables requises pour utiliser les flux de données. Que faire ensuite ?
 keywords: parcours de navigation;flux de données;flux des données;Flux de données
-title: Présentation des flux de données Analytics
+title: Présentation Du Flux De Données Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -31,12 +31,19 @@ Les ressources suivantes vous aident à comprendre le workflow de base de l’ob
 * [Bonnes pratiques relatives aux flux de données](/help/export/analytics-data-feed/data-feeds-best-practices.md) : bonnes pratiques pour la création et la gestion des flux de données.
 * [Créer un flux de données](create-feed.md) : informations techniques relatives à la création d’un flux de données, expliquant les champs individuels de manière plus détaillée
 * [Gérer les flux de données](df-manage-feeds.md) : découvrez-en plus sur la navigation dans l’interface des flux de données
-* [Contenu du flux de données](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le fichier compressé <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [Contenu du flux de données ](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le <!-- Is this still the output users can download from the destination? I aske Jun. --> de fichiers compressés.
 * [Définitions des colonnes de données](c-df-contents/datafeeds-reference.md) : une liste complète de l’ensemble des colonnes disponibles.
-* Vidéo relative à la navigation dans l’interface des flux de données :
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* Regardez cette vidéo sur la manière de trouver lʼidentifiant de vos flux de données :
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigation dans l’interface du flux de données](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rechercher votre identifiant de flux de données](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]

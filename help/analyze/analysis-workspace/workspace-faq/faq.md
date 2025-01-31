@@ -4,10 +4,10 @@ title: Questions fréquentes et résolution des problèmes dans Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -37,38 +37,54 @@ Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à 
 Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord.
 +++
 
-+++Comment optimiser les performances d’Analysis Workspace ?
++++Comment optimiser les performances d’Analysis Workspace ?
+
 Consultez la page [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
-+++
-
-+++Comment les données sont-elles intégrées à un projet Analysis Workspace ?
-Regardez cette vidéo :
-
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
 +++
 
-+++ Comment puis-je effectuer le suivi de l’utilisation de Workspace ?
++++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Regardez cette vidéo sur le suivi des journaux d’utilisation pour Analysis Workspace :
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
++++
+
++++Comment puis-je suivre l’utilisation de Workspace ?
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Log tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
+
 Le message Données incorrectes signifie qu’Adobe ne peut pas renvoyer de données à l’aide de la combinaison de dimensions et de mesures utilisée dans le rapport. Par exemple, deux mesures empilées les unes sur les autres ne peuvent pas être renvoyées sous forme de données, car il n’est pas possible d’afficher deux mesures de cette manière. Placez plutôt les mesures côte à côte.
+
 +++
 
 +++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée à proprement dit, seulement des zéros. Comment résoudre ce problème ?
+
 Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant aucune donnée, vous pouvez effectuer quelques vérifications :
 
 * Vérifiez deux fois la suite de rapports et assurez-vous qu’elle contient des données.
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
 * Accédez à votre site Web et utilisez [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) pour vérifier que la collecte des données s’effectue.
+
+
 +++
 
-+++En tant qu’utilisateur en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
-Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires ne peuvent modifier que la liste déroulante pour appliquer un filtre sur le panneau d’une manière prédéfinie.
++++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
+Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires peuvent uniquement modifier la liste déroulante pour appliquer un filtre au panneau d’une manière prédéfinie.
 +++

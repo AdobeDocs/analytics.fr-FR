@@ -5,10 +5,10 @@ title: Horodatages facultatifs
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 96%
 
 Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation du paramètre Horodatages (facultatif).
 
-Regardez une vidéo sur ce sujet :
 
->[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les nouvelles suites de rapports.
 
@@ -32,7 +36,7 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 
 Voir [Horodatages (facultatif)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=fr) pour en savoir plus sur la configuration.
 
-## Horodatages (facultatif) : intégration de données horodatées et non horodatées {#integrate}
+## Horodatages (facultatif) : intégrez des données horodatées et non horodatées {#integrate}
 
 Avec l’option Horodatages (facultatif), vous pouvez combiner des données horodatées et non horodatées sans aucune perte de données. Les données hors ligne horodatées générées par un appareil mobile peuvent être combinées à des données en direct non horodatées d’une page web, ou intégrées aux données d’une plateforme quelconque à l’aide d’un appel d’horodatage côté client.
 
@@ -45,7 +49,7 @@ L’un des paramètres d’horodatage suivants peut être défini pour une suite
 * Horodatages requis (paramètre visitorID non pris en charge)
 * Horodatages facultatifs (paramètre visitorID pris en charge sauf sur les accès horodatés)
 
-## À propos des fonctionnalités facultatives Horodatages {#features}
+## À propos des fonctionnalités facultatives d&#39;horodatage {#features}
 
 Le paramètre Horodatages (facultatif) permet d’intégrer plusieurs suites de rapports et d’en produire des rapports, avec ou sans horodatage côté client. Avec ce paramètre, vous pouvez mettre à jour votre application afin d’utiliser les horodatages tout en continuant à utiliser les données non horodatées de l’application antérieure.
 
@@ -63,7 +67,7 @@ Vous pouvez combiner les données dans une suite de rapports globale de plusieur
 >
 >Concevez avec soin chaque jeu de données du composant de sorte que la combinaison soit logique dans une suite de rapports globale.
 
-## Bonnes pratiques relatives à l’utilisation des horodatages {#best-pratices}
+## Bonnes pratiques lors de l’utilisation d’horodatages {#best-pratices}
 
 Vous trouverez ci-dessous quelques bonnes pratiques et autres exigences et restrictions à prendre en compte lors de l’intégration de données horodatées à des données non horodatées.
 

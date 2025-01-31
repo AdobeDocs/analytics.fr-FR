@@ -3,10 +3,10 @@ description: La segmentation de mesures individuelles permet d’effectuer des c
 title: Mesures segmentées
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 69%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -24,9 +24,9 @@ Imaginons que vous souhaitez comparer différents aspects d’un segment « Vis
 * En termes de pourcentage du nombre de visiteurs total, combien de visiteurs allemands parcourent certaines pages par rapport aux visiteurs internationaux ?
 * Quelles sont les différences majeures en termes de contenu parcouru par ces différents segments ?
 
-Créez et enregistrez une mesure appelée &quot;Visiteurs allemands&quot; et une mesure appelée &quot;Visiteurs internationaux&quot; :
+Créez et enregistrez une mesure appelée « Visiteurs allemands » et une mesure appelée « Visiteurs internationaux » :
 
-1. Créez un segment ad hoc dans le créateur de mesures calculées appelé &quot;Visiteurs allemands&quot;, où &quot;Pays&quot; est &quot;Allemagne&quot;.
+1. Créez un segment ad hoc dans le créateur de mesures calculées appelé « Visiteurs allemands », où « Pays » est « Allemagne ».
 
    Faites glisser la dimension Pays dans le canevas Définition et sélectionnez [!UICONTROL **Allemagne**] comme valeur :
 
@@ -34,7 +34,7 @@ Créez et enregistrez une mesure appelée &quot;Visiteurs allemands&quot; et une
 
    >[!NOTE]
    >
-   >Vous pouvez également effectuer cette opération dans le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. « Ad hoc » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
+   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. « Ad hoc » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
 
 1. Faites glisser le segment Allemagne dans le canevas Définition et faites glisser la mesure Visiteurs uniques à l’intérieur :
 
@@ -42,11 +42,11 @@ Créez et enregistrez une mesure appelée &quot;Visiteurs allemands&quot; et une
 
 1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
 
-1. Créez un segment ad hoc dans le créateur de mesures calculées appelé &quot;Visiteurs internationaux&quot;, où &quot;Pays&quot; n’est pas &quot;Allemagne&quot;.
+1. Créez un segment ad hoc dans le créateur de mesures calculées appelé « Visiteurs internationaux », où « Pays » n’est pas égal à « Allemagne ».
 
-   Faites glisser la dimension Pays dans le canevas Définition, sélectionnez [!UICONTROL **Allemagne**] comme valeur, puis [!UICONTROL **n’est pas égal à**] comme opérateur.
+   Faites glisser la dimension Pays dans le canevas Définition, sélectionnez [!UICONTROL **Allemagne**] comme valeur, puis sélectionnez [!UICONTROL **n’est pas égal à**] comme opérateur.
 
-1. Faites glisser la mesure Visiteurs uniques dans celle-ci.
+1. Faites glisser la mesure Visiteurs uniques vers l’intérieur.
 
 1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
 
@@ -54,9 +54,13 @@ Créez et enregistrez une mesure appelée &quot;Visiteurs allemands&quot; et une
 
    ![](assets/workspace-pages.png)
 
-Voici une présentation vidéo :
 
->[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures segmentées](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Pourcentage de mesures totales {#percent-total}
 

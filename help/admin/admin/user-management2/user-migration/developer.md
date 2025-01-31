@@ -4,10 +4,10 @@ title: Interfaces API affectées par la migration des utilisateurs
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 4c4e68afcf9a7e2c5cd00ef109fbbf44578a3d1a
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,6 @@ Si votre entreprise n’utilise aucune de ces méthodes, veillez simplement à n
 Pour en savoir plus :
 
 * [Généralités sur la gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/help/users.html)
-* [API de gestion des utilisateurs via adobe.io](https://developer.adobe.com/UMAPI/)
+* [API de gestion des utilisateurs via adobe.io](https://developer.adobe.com/umapi)
 * [Forum à propos des API de gestion des utilisateurs](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [Migration de l’accès et de la gestion des utilisateurs d’Analytics vers Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=fr)

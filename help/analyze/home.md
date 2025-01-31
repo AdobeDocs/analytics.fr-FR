@@ -4,10 +4,10 @@ description: Documentation sur les produits et aide autonome pour Analysis Works
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ Le guide des outils Analytics contient des informations sur les fonctionnalités
 
 Pour en savoir plus sur les principes de base d’Adobe Analytics, consultez la vidéo *Présentation d’Adobe Analytics - webinaire de développement des compétences* ci-dessous. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données, etc. et de fournir des informations exploitables et des recommandations en fonction des données collectées.
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation d’Adobe Analytics - webinaire de développement des compétences](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"} pour le webinaire.
+
+>[!ENDSHADEBOX]
 
 Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=fr).
 

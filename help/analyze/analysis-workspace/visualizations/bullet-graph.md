@@ -4,10 +4,10 @@ title: Graphique à puces
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 87%
+source-wordcount: '266'
+ht-degree: 56%
 
 ---
 
@@ -37,12 +37,31 @@ _Cet article présente la visualisation par puces dans_ ![AdobeAnalytics](/help/
 
 >[!ENDSHADEBOX]
 
-Permet de comparer ou de mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs).
+La visualisation ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Bullet]** montre comment une mesure se compare à des plages de performances (objectifs) ou la mesure par rapport à celles-ci.
 
-![](assets/bullet-image.png)
+![Visualisation sous forme de graphique à puces](assets/bullet.png)
 
-Le graphique à puces présente une mesure principale unique (par exemple, le chiffre d’affaires de l’année en cours jusqu’à ce jour) et vous permet de saisir des plages de performances qualitatives (par exemple, par rapport au chiffre d’affaires cible). Vous pouvez spécifier des valeurs élevées, moyennes et faibles. Vous pouvez indiquer des plages d’objectifs dans les [!UICONTROL Paramètres de visualisation].
+Le graphique à puces présente une mesure principale unique (par exemple, le chiffre d’affaires de l’année en cours jusqu’à ce jour) et vous permet de saisir des plages de performances qualitatives (par exemple, par rapport au chiffre d’affaires cible). Vous pouvez définir des plages d’objectifs élevées, moyennes et basses. Vous pouvez spécifier des plages d’objectifs dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]**.
 
-Regardez une vidéo sur la visualisation Graphique à puces :
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23989/?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation graphique à puces](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+## Paramètres
+
+Vous pouvez définir des paramètres spécifiques pour une visualisation [!UICONTROL à puces].
+
+| Paramètre | Description |
+|---|---|
+| **[!UICONTROL Options de puces]** | Spécifiez des valeurs pour **[!UICONTROL Objectif élevé]**, **[!UICONTROL Objectif intermédiaire]** et **[!UICONTROL Objectif faible]** dans la visualisation [!UICONTROL Puce]. L’<br/>**[!UICONTROL objectif élevé&#x200B;]**est votre objectif principal.**[!UICONTROL  Objectif faible ]**et**[!UICONTROL  Objectif intermédiaire ]**créez des plages sous l’objectif élevé. Remarque : si vous cochez l’option**[!UICONTROL  Pourcentages ]**, saisissez les objectifs sous forme de nombres entiers. Par exemple `20` si votre objectif est de vingt pour cent. |
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

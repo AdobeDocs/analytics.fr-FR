@@ -4,10 +4,10 @@ description: Le concept d’attribution du crédit d’un événement de succès
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -48,21 +48,34 @@ Attribution propose les fonctionnalités suivantes :
 
 ## Vidéos
 
-Attribution dans les tableaux à structure libre :
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-Attribution dans les mesures calculées
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les tableaux à structure libre](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-Utilisation du panneau Attribution :
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-Ajout de comparaisons côte à côte de modèles Attribution :
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les mesures calculées](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du panneau Attribution](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de comparaisons côte à côte de modèles d’attribution](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Outils Adobe Analytics ne prenant pas en charge Attribution
 

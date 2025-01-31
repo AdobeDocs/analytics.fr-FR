@@ -5,14 +5,14 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 68%
+source-wordcount: '204'
+ht-degree: 18%
 
 ---
 
-# Surface et aires empilées
+# Aires (empilées)
 
 >[!BEGINSHADEBOX]
 
@@ -34,9 +34,9 @@ La visualisation de zone comporte une option standard et empilée.
 <!-- markdownlint-enable MD034 -->
 
 
-Cette visualisation est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures.
+La visualisation ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Area]** est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne. Ajoutez un graphique en aires lorsque vous disposez de plusieurs mesures et que vous souhaitez visualiser l’aire exprimée par l’intersection de deux mesures ou plus.
 
-![](assets/area.png)
+![Visualisation de zone présentant plusieurs mesures](assets/area.png)
 
 ## Aires empilées {#area-stacked}
 
@@ -50,14 +50,17 @@ Cette visualisation est semblable à un graphique linéaire, mais avec une zone 
 <!-- markdownlint-enable MD034 -->
 
 
-Cette visualisation est semblable à un diagramme de surface, mais chaque série commence en haut de la série précédente.
+La visualisation ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Area stacked]** est semblable à une aire, mais chaque série commence en haut de la série précédente.
 
-![](assets/area-stacked.png)
+![Aires empilées affichant chaque série en haut de la série précédente.](assets/area-stacked.png)
 
-Un nouveau paramètre d’affichage appliqué aux graphiques à zones empilées offre un aperçu « 100 % empilé » du diagramme.
+Utilisez l’option **[!UICONTROL 100 % empilé]** dans ![Paramétrage](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation 100 % empilée.
 
-![](assets/areastacked100.png)
+![Aires empilées avec une visualisation 100 % empilée.](assets/area-stacked100.png)
 
-Regardez cette vidéo sur les « Visualisations 100 % empilées » :
-
->[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

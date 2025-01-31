@@ -4,10 +4,10 @@ description: Analysez plus précisément les données sur votre audience et trie
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 86%
+source-wordcount: '590'
+ht-degree: 81%
 
 ---
 
@@ -52,9 +52,12 @@ Exemples d’utilisation de l’[!UICONTROL analyse des cohortes] :
 
 L’[!UICONTROL analyse des cohortes] est disponible pour tous les clients Adobe Analytics avec des droits d’accès à [!UICONTROL Analysis Workspace].
 
-Vidéo sur les tableaux de cohortes dans Analysis Workspace :
 
->[!VIDEO](https://video.tv.adobe.com/v/25965/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse des cohortes dans Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -74,9 +77,14 @@ Un rapport de cohorte de [!UICONTROL rétention] sur les visiteurs récurrents 
 
 ![](assets/retention-report.png)
 
-Voici une vidéo sur le calcul de la rétention glissante :
 
->[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculer la rétention glissante](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 ### Tableau de [!UICONTROL perte de clientèle]
 
@@ -84,9 +92,12 @@ Une cohorte de [!UICONTROL perte de clientèle] est l’inverse d’un tableau d
 
 ![](assets/churn-report.png)
 
-Voici une vidéo sur l’analyse de l’attrition :
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse de l’attrition](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ### [!UICONTROL Calcul variable]
 

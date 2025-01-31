@@ -4,10 +4,10 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 51%
+source-wordcount: '521'
+ht-degree: 50%
 
 ---
 
@@ -33,19 +33,26 @@ Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
 ## Utilisation des mesures de dans Analysis Workspace
 
-Les mesures peuvent être utilisées de différentes manières dans Analysis Workspace. Pour plus d’informations sur l’ajout de mesures et d’autres types de composants à Analysis Workspace, voir [Utilisation de composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Les mesures peuvent être utilisées de différentes manières dans Analysis Workspace. Pour plus d’informations sur l’ajout de mesures et d’autres types de composants à Analysis Workspace, voir [Utiliser des composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
->[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Création de mesures calculées
 
 Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques.
 
-Il existe plusieurs façons de créer des mesures calculées. La méthode que vous choisissez détermine si la mesure calculée est disponible dans la liste des composants pour tous les projets ou uniquement dans le projet où elle a été créée.
+Il existe plusieurs façons de créer des mesures calculées. La méthode que vous choisissez détermine si la mesure calculée est disponible dans la liste des composants de tous les projets ou uniquement dans le projet dans lequel elle a été créée.
 
 ### Création de mesures calculées pour tous les projets
 
-Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans des projets à l’échelle de votre organisation.
+Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation.
 
 Pour plus d’informations sur l’accès au créateur de mesures calculées, voir [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
@@ -57,15 +64,15 @@ Pour créer une mesure calculée pour un seul projet :
 
 1. Dans Analysis Workspace, ouvrez le projet dans lequel vous souhaitez créer la mesure calculée.
 
-1. Dans un tableau à structure libre, cliquez avec le bouton droit sur une ou plusieurs cellules de colonne d’en-tête, puis sélectionnez **[!UICONTROL Créer une mesure d’après la sélection]**
+1. Dans un tableau à structure libre, cliquez avec le bouton droit sur une ou plusieurs cellules de colonne d’en-tête, puis sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**
 
-   ![Panneau Workspace surlignant Créer d’après la sélection](assets/create-metric-from-selection.png)
+   Panneau ![Workspace mettant en surbrillance Créer à partir de la sélection](assets/create-metric-from-selection.png)
 
 1. Pour créer une mesure calculée pour ce projet uniquement, choisissez l’une des options suivantes :
 
    * [!UICONTROL **Diviser**]
 
-   * [!UICONTROL **Subtract**]
+   * [!UICONTROL **Soustraire**]
 
    * [!UICONTROL **Ajouter**]
 
@@ -87,4 +94,10 @@ Ce raccourci vous permet de comparer rapidement et facilement deux modèles d�
 
 Regardez une vidéo sur ce sujet :
 
->[!VIDEO](https://video.tv.adobe.com/v/27068/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Moyenne cumulée](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+

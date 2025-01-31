@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 88%
+source-wordcount: '269'
+ht-degree: 29%
 
 ---
 
@@ -27,22 +27,35 @@ _Cet article présente la visualisation Texte dans_ ![AdobeAnalytics](/help/asse
 
 >[!ENDSHADEBOX]
 
-Vous pouvez ajouter du texte défini par l’utilisateur à votre projet Workspace à l’aide de visualisations textuelles ou de descriptions de panneau/visualisation (clic droit sur l’en-tête > **[!UICONTROL Modifier la description]**). Vous pouvez également modifier la mise en forme de votre texte, ajouter des liens hypertexte et des images.
+Vous pouvez
+Pour ajouter du texte enrichi défini par l’utilisateur à votre projet Workspace, vous pouvez utiliser une visualisation ![Texte](/help/assets/icons/Text.svg) **[!UICONTROL Texte]** ou des descriptions pour une visualisation et un panneau.
+
+## Utilisation
+
+La visualisation Texte peut être utilisée des manières suivantes :
+
+1. Ajoutez une visualisation ![Texte](/help/assets/icons/Text.svg) **[!UICONTROL Texte]**. Voir [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+
+1. Dans un panneau ou une visualisation, dans le menu contextuel, sélectionnez **[!UICONTROL Modifier la description]**.
+
+   Sélectionnez ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) une fois la modification de la description terminée, sélectionnez ![CloseCircle](/help/assets/icons/CloseCircle.svg) pour annuler.
+
+Vous pouvez modifier la mise en forme de votre texte, ajouter des liens hypertexte et ajouter des images.
 
 ## Ajustement de la mise en forme {#format}
 
 Lors de la modification de la zone de texte ou de la description, vous pouvez ajuster la taille de la police (niveaux d’en-tête), la couleur, le style (gras, italique, souligné) ainsi que l’alignement du texte sélectionné. Vous pouvez également ajouter des listes numérotées et à puces.
 
-![](assets/format.png)
+![Options de texte d’un projet Workspace mettant en surbrillance la palette de couleurs du texte.](assets/format.png)
 
 ## Ajout de liens hypertextes {#hyperlinks}
 
-Pour ajouter un lien hypertexte, mettez le texte en surbrillance puis cliquez sur l’icône de lien hypertexte dans le menu. Les liens hypertextes peuvent renvoyer vers des sites web externes, des pages de documentation, des [projets/panneaux/visualisations de Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=fr) et davantage de contenu pour accompagner les destinataires de votre projet.
+Pour ajouter un lien hypertexte, mettez le texte en surbrillance et sélectionnez ![Lien](/help/assets/icons/Link.svg) dans le menu. Vous pouvez utiliser des liens hypertexte pour apporter une aide supplémentaire aux destinataires de vos projets. Des liens hypertexte peuvent renvoyer vers des sites web externes, des pages de documentation, des projets Workspace [](/help/analyze/analysis-workspace/curate-share/shareable-links.md) des panneaux ou des visualisations, etc.
 
-![](assets/hyperlink.png)
+![Options de texte avec l’icône de lien mise en surbrillance.](assets/hyperlink.png)
 
 ## Ajout d’images {#images}
 
-Pour ajouter une image à votre projet, cliquez sur l’icône représentant une image dans le menu et insérez une URL d’image publique. L’URL de l’image doit être accessible publiquement, commencer par `https` et être au format `.png`, `.jpeg`, `.jpg` ou `.gif`. Les images statiques et animées sont prises en charge.
+Pour ajouter une image à votre projet, sélectionnez ![Image](/help/assets/icons/Image.svg) dans le menu, puis insérez une URL d’image publique. L’URL de l’image doit être accessible publiquement, commencer par `https` et être au format `.png`, `.jpeg`, `.jpg` ou `.gif`. Les images statiques et animées sont prises en charge.
 
-![](assets/image.png)
+![Options de texte avec l’icône d’image sélectionnée.](assets/image.png)

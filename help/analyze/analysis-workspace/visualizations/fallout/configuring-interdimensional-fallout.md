@@ -4,10 +4,10 @@ title: Abandons multidimensionnels
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Dans Analysis Workspace, utilisez les abandons pour combiner et associer des dimensions et des mesures comme points de contact dans les entonnoirs et les processus. Vous disposez ainsi d’une plus grande flexibilité pour définir les étapes des utilisateurs sur lesquelles vous souhaitez en savoir plus.
 
-Regardez cette vidéo sur ce sujet :
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandon multidimensionnel](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 **Exemple** : Outre, supposons, une dimension Page, vous pouvez ajouter à une visualisation Abandons des éléments de dimension basés sur l’action. Vous pouvez ainsi visualiser le rôle des pages et de certaines actions dans le parcours de vos clients.
 

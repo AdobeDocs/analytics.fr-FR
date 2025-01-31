@@ -4,9 +4,9 @@ title: Panneau Analytics for Target (A4T)
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 47%
 
 ---
@@ -39,11 +39,12 @@ _Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/
 
 Le panneau Analytics for Target vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace. Le panneau vous permet également d’afficher l’effet élévateur et le degré de confiance pour jusqu’à 3 mesures de succès. Pour accéder au panneau Analytics for Target, naviguez vers une suite de rapports dont les composants Analytics for Target sont activés. Sélectionnez ensuite l’icône du panneau à l’extrémité gauche et faites glisser le panneau Analytics for Target dans votre projet Analysis Workspace.
 
-+++Regardez cet aperçu vidéo rapide sur le panneau Analytics for Target :
 
->[!VIDEO](https://video.tv.adobe.com/v/37247/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
 
 ## Utilisation
 

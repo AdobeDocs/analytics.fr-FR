@@ -4,10 +4,10 @@ description: Les tableaux à structure libre constituent la base de l’analyse 
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 64%
+source-wordcount: '637'
+ht-degree: 61%
 
 ---
 
@@ -93,13 +93,23 @@ Découvrez-en plus sur toutes les [options dʼexportation](https://experiencelea
 ## Vidéos
 
 Présentation du Créateur de tableaux à structure libre :
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation du générateur de tableaux à structure libre](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
-Filtres des tableaux à structure libre :
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
+>[!BEGINSHADEBOX]
 
-Totaux des tableaux à structure libre :
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtres de tableau à structure libre](https://video.tv.adobe.com/v/23232?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
->[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totaux des tableaux à structure libre](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+

@@ -1,18 +1,18 @@
 ---
-description: Utilisation de la visualisation à barres horizontales dans un projet Workspace.
+description: Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures.
 title: Barres horizontales et barres empilées horizontales
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 70%
+source-wordcount: '193'
+ht-degree: 31%
 
 ---
 
-# Barre horizontale et barres empilées horizontales
+# Barres horizontales (empilées)
 
 >[!BEGINSHADEBOX]
 
@@ -33,11 +33,12 @@ La visualisation à barres horizontales comporte une option standard et empilée
 
 <!-- markdownlint-enable MD034 -->
 
-Dans cette visualisation, des barres horizontales représentent plusieurs valeurs pour une ou plusieurs mesures.
+Cette visualisation ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Barre horizontale]** affiche des barres horizontales représentant diverses valeurs pour une ou plusieurs mesures.
 
-![](assets/horizontal_bar.png)
+![Barre horizontale présentant des mesures telles que les Pages vues, la Vitesse de la page, les Visites, les Entrées et les Sorties.](assets/horizontal-bar.png)
 
-## Barres empilées horizontales  {#horizontal-bar-stacked}
+
+## Barres empilées horizontales {#horizontal-bar-stacked}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -48,10 +49,20 @@ Dans cette visualisation, des barres horizontales représentent plusieurs valeur
 
 <!-- markdownlint-enable MD034 -->
 
-Cette visualisation ressemble au [!UICONTROL graphique à barres horizontales], mais les barres de chaque série semblent être empilées.
 
-![](assets/horizontal-bar-stacked.png)
+La visualisation ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) **[!UICONTROL Barres horizontales empilées]** est semblable à la visualisation [!UICONTROL Barre horizontale], mais les barres de la série apparaissent empilées.
 
-Un nouveau paramètre d’affichage [!UICONTROL Barres empilées horizontales] appliqué aux graphiques à barres empilées offre un aperçu « 100 % empilé » du diagramme :
+![Barre horizontale empilée affichant les pages vues, les visites, les entrées et les sorties.](assets/horizontal-bar-stacked.png)
 
-![](assets/horizstacked100.png)
+Utilisez l’option **[!UICONTROL 100 % empilé]** dans ![Paramétrage](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation 100 % empilée.
+
+![Barres horizontales empilées à 100 %](assets/horizontal-bar-stacked100.png)
+
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

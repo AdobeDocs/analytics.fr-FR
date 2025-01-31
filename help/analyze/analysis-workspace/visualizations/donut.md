@@ -4,10 +4,10 @@ title: Anneau
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _Cet article présente la visualisation en anneau dans_ ![AdobeAnalytics](/help/
 
 >[!ENDSHADEBOX]
 
-Semblable à un graphique en secteurs, cette visualisation présente les données comme des portions ou des segments d’un tout. Utilisez un graphique [!UICONTROL en anneau] pour comparer des pourcentages par rapport à un total comprenant peu d’éléments.
 
-![](assets/donut.png)
+Semblable à un graphique en secteurs, la visualisation ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anneau]** affiche les données sous la forme de parties ou de filtres d’un tout. Utilisez une visualisation en anneau pour comparer des pourcentages par rapport à un total comprenant peu d’éléments.
 
-Regardez cette vidéo sur lʼutilisation de la visualisation [!UICONTROL en anneau] :
+![Graphique en anneau présentant les données sous la forme de parties ou de filtres d’un tout.](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter une visualisation en anneau](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

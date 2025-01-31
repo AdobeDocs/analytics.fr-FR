@@ -4,10 +4,10 @@ title: Abandon - Aperçu
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -31,9 +31,13 @@ _Cet article présente la visualisation des abandons dans_ ![AdobeAnalytics](/he
 
 Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
 
-Regardez cet aperçu vidéo de la visualisation Abandons :
 
->[!VIDEO](https://video.tv.adobe.com/v/345883/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation des abandons](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 Grâce aux visualisations Abandons, vous pouvez :
 

@@ -5,10 +5,10 @@ keywords: appmeasurement,variables,vars,configuration,page,mise en œuvre
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -22,19 +22,23 @@ Adobe Analytics fournit plusieurs variables pour collecter des données d’anal
 
 ## Variables et méthodes de mise en œuvre
 
-Adobe propose plusieurs façons de mettre en œuvre Adobe Analytics. Chaque page comporte une section sur la mise en oeuvre de la variable à l’aide du SDK Web, à l’aide de l’extension Adobe Analytics et de l’utilisation d’AppMeasurement pour JavaScript.
+Adobe propose plusieurs façons de mettre en œuvre Adobe Analytics. Chaque page comporte une section sur la manière d’implémenter la variable à l’aide de Web SDK, de l’extension Adobe Analytics et d’AppMeasurement for JavaScript.
 
-Voici une vidéo sur la configuration des variables dans Adobe Analytics :
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuration des variables](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Ordre des opérations
 
 Les bibliothèques AppMeasurement publiées par Adobe Analytics suivent un ordre spécifique lors de l’envoi de données à Adobe. Si vous exécutez ces tâches dans l’ordre, les données peuvent être incomplètes.
 
 1. Si votre site utilise une couche de données, assurez-vous que toutes les variables applicables sont renseignées en premier. Par exemple, vous renseignez `adobeDataLayer.page.title` avec le titre de la page. Pour plus d’informations, reportez-vous à la section [Couches de données](../prepare/data-layer.md).
-2. Utilisez la couche de données pour renseigner les variables Analytics. <br/>Si vous utilisez des balises dans Adobe Experience Platform, cette tâche est effectuée en utilisant des éléments de données intermédiaires. Les éléments de données sont renseignés avec des valeurs de la couche de données. Par exemple, l’élément de données `Page Title` obtient la valeur de la variable de couche de données `adobeDataLayer.page.title`. <br/>Vous pouvez ensuite utiliser l’élément de données pour renseigner les variables Analytics. Par exemple, `eVar4` obtient la valeur de l’élément de données `Page Title`. <br/>Pour plus d’informations, reportez-vous aux sections [Éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr), [ Mappage d’objets de couche de données à des éléments de données ](../launch/layer-to-elements.md) et [Mappage des éléments de données de balise aux variables Analytics](../launch/elements-to-variable.md)
-3. Enfin, appelez la fonction de suivi . La plupart des bibliothèques AppMeasurement utilisent la méthode `t()`, mais certains kits SDK mobiles utilisent `track()`. Lorsque la fonction de suivi est appelée, toutes les variables prises en charge définies dans l’objet Analytics sont envoyées à Adobe sous la forme d’une demande d’image.
+2. Utilisez la couche de données pour renseigner les variables Analytics. <br/>Si vous utilisez les balises dans Adobe Experience Platform, cette tâche est accomplie en utilisant des éléments de données entre les deux. Les éléments de données sont renseignés avec des valeurs de la couche de données. Par exemple, élément de données `Page Title` obtient la valeur de la variable de couche de données `adobeDataLayer.page.title`. <br/>Vous pouvez ensuite utiliser l’élément de données pour renseigner les variables Analytics. Par exemple, `eVar4` obtient la valeur de l’élément de données `Page Title`. <br/>Voir pour plus d’informations [Éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr), [Mapper des objets de couche de données aux éléments de données](../launch/layer-to-elements.md) et [Mapper des éléments de données de balises aux variables Analytics](../launch/elements-to-variable.md)
+3. Enfin, appelez la fonction de tracking. La plupart des bibliothèques AppMeasurement utilisent la méthode `t()`, mais certains kits SDK mobiles utilisent `track()`. Lorsque la fonction de suivi est appelée, toutes les variables prises en charge définies dans l’objet Analytics sont envoyées à Adobe sous la forme d’une demande d’image.
 
 ## Caractères interdits
 

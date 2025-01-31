@@ -4,10 +4,10 @@ description: Visualisation qui représente la relation entre trois mesures au ma
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 85%
+source-wordcount: '177'
+ht-degree: 57%
 
 ---
 
@@ -29,7 +29,8 @@ _Cet article présente la visualisation Dispersion dans_ ![AdobeAnalytics](/help
 
 >[!ENDSHADEBOX]
 
-La visualisation en graphique à dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. Elle nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
+
+La visualisation ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** affiche la relation entre les éléments de dimension et jusqu’à trois mesures. La visualisation nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
 
 * Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes lignes s’affichent sous forme de points de différentes couleurs.
 * La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
@@ -37,8 +38,19 @@ La visualisation en graphique à dispersion illustre la relation entre des élé
 * La troisième colonne détermine le rayon du point.
 * Toutes les colonnes suivantes d’un tableau à structure libre sont ignorées par la visualisation en graphique de dispersion.
 
-![Graphique de dispersion](assets/scatter.png)
+![Exemple de graphique de dispersion montrant plusieurs éléments de dimension ](assets/scatter.png)
 
-Regardez cette vidéo sur les visualisations en graphique à dispersion :
 
->[!VIDEO](https://video.tv.adobe.com/v/334459/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation en graphique de dispersion](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>

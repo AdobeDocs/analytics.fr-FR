@@ -3,7 +3,7 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 96%
@@ -167,9 +167,13 @@ Vous pouvez créer un conteneur Visite et dans celui-ci ajouter la période [!UI
 
 ![](assets/date-ranges.png)
 
-Regardez cette vidéo sur l’utilisation de périodes flottantes dans les segments :
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans les segments](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Empilement de segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

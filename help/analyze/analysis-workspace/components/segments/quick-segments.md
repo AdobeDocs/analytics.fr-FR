@@ -4,10 +4,10 @@ title: Segments rapides
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1153'
+ht-degree: 99%
 
 ---
 
@@ -21,9 +21,13 @@ Tenez compte des points suivants lors de la création de segments rapides :
 * 3 règles au maximum sont autorisées.
 * Les conteneurs imbriqués ou les règles séquentielles ne sont pas pris en charge.
 
-La vidéo suivante explique comment utiliser les segments rapides :
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments rapides](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Créer un segment rapide
 

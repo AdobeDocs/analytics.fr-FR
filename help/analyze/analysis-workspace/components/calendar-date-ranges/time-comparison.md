@@ -4,10 +4,10 @@ title: Comparaison des dates
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 57%
+source-wordcount: '747'
+ht-degree: 56%
 
 ---
 
@@ -15,19 +15,24 @@ ht-degree: 57%
 
 Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une période, par exemple : année par année, trimestre par trimestre, mois par mois, etc.
 
-Regardez une vidéo sur ce sujet :
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison de dates](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
 
 ## Comparaison de périodes {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL Comparer des périodes] utilise des mesures calculées avancées. Par conséquent, elle est disponible uniquement pour les clients qui disposent des SKU Select, Prime et Ultimate d’Analytics.
+>[!UICONTROL Comparer des périodes] utilise les mesures calculées avancées. Par conséquent, elle est disponible uniquement pour les clients qui disposent des SKU Select, Prime et Ultimate d’Analytics.
 
-Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question &quot;Que faisons-nous de mieux ou de pire à cette époque l&#39;année dernière ?&quot; est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
+Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question « Que faisons-nous de mieux ou de pire que l&#39;an dernier à la même époque ? » est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne « différence », qui présente le pourcentage de changement par rapport à une période donnée.
 
 1. Créez un tableau à structure libre, avec les dimensions et mesures à comparer sur une certaine période.
-1. Cliquez avec le bouton droit sur une ligne de tableau et sélectionnez **[!UICONTROL Comparer des périodes]**.
+1. Cliquez avec le bouton droit de la souris sur une ligne du tableau et sélectionnez **[!UICONTROL Comparer les périodes]**.
 
    ![](assets/compare-time.png)
 
@@ -40,12 +45,12 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
    | Option | Description |
    |---|---|
    | **[!UICONTROL Semaine/Mois/Trimestre/Année précédent(e) à cette période]** | Compare les données à la semaine/au mois/etc. précédant immédiatement cette plage de dates. |
-   | **[!UICONTROL Cette semaine/ce mois/ce trimestre/cette année l’an dernier à cette période]** | Compare les données à la même période il y a un an. |
+   | **[!UICONTROL Cette semaine/mois/trimestre/année l’année dernière jusqu’à cette période]** | Compare les données à la même période il y a un an. |
    | **[!UICONTROL Période personnalisée à cette période]** | Permet de sélectionner une période personnalisée. |
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Période personnalisée jusqu’à cette période]**.
+   >Lorsque vous sélectionnez un nombre personnalisé de jours, par exemple du 7 au 20 octobre (période de 14 jours), vous n’obtenez que 2 options : **[!UICONTROL Au préalable 14 jours avant cette période]** et **[!UICONTROL Période personnalisée jusqu’à cette période]**.
 
 1. La comparaison qui en résulte ressemble à ceci :
 
@@ -63,7 +68,7 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
 Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce qui permet d’ajouter une période différente de celle configurée pour votre calendrier. Cette fonctionnalité offre un autre moyen de comparer les dates.
 
-1. Cliquez avec le bouton droit sur une colonne du tableau et sélectionnez **[!UICONTROL Ajouter une colonne de période]**.
+1. Cliquez avec le bouton droit de la souris dans le tableau, puis sélectionnez **[!UICONTROL Ajouter une colonne de périodes]**.
 
    ![](assets/add-time-period-column.png)
 
@@ -72,12 +77,12 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
    | Option | Description |
    |---|---|
    | **[!UICONTROL Semaine/Mois/Trimestre/Année précédent(e) à cette période]** | Ajoute une colonne avec la semaine/le mois/etc. précédant immédiatement cette plage de dates. |
-   | **[!UICONTROL Cette semaine/ce mois/ce trimestre/cette année l’an dernier à cette période]** | Ajoute la même période il y a un an. |
+   | **[!UICONTROL Cette semaine/mois/trimestre/année l’année dernière jusqu’à cette période]** | Ajoute la même période il y a un an. |
    | **[!UICONTROL Période personnalisée à cette période]** | Permet de sélectionner une période personnalisée. |
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Période personnalisée jusqu’à cette période]**.
+   >Lorsque vous sélectionnez un nombre personnalisé de jours, par exemple du 7 au 20 octobre (période de 14 jours), vous n’obtenez que 2 options : **[!UICONTROL Au préalable 14 jours avant cette période]** et **[!UICONTROL Période personnalisée jusqu’à cette période]**.
 
 1. La période sera insérée en haut de la colonne sélectionnée :
 
@@ -89,28 +94,28 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
 
 1. Vous pouvez également trier chaque colonne, ce qui change l’ordre des jours selon la colonne utilisée pour le tri.
 
-## Harmonisation des dates de colonnes pour qu’elles commencent sur la même ligne {#section_5085E200082048CB899C3F355062A733}
+## Aligner les dates des colonnes pour qu’elles commencent sur la même ligne {#section_5085E200082048CB899C3F355062A733}
 
-Vous pouvez aligner les dates de chaque colonne afin qu’elles commencent toutes sur la même ligne.
+Vous pouvez aligner les dates de chaque colonne pour qu’elles commencent toutes sur la même ligne.
 
-Par exemple, lorsque vous harmonisez les dates, si vous effectuez une comparaison d’un mois à l’autre entre octobre et septembre 2016, la colonne de gauche commence au 1er octobre et la colonne de droite au 1er septembre :
+Par exemple, lorsque vous choisissez d’aligner les dates, si vous effectuez une comparaison mois par mois entre octobre et septembre 2016, la colonne de gauche commence par le 1er octobre et la colonne de droite par le 1er septembre :
 
 ![](assets/add-time-period-column3.png)
 
 >[!NOTE]
 >
->Tenez compte des points suivants lorsque vous utilisez cette option :
+>Tenez compte des points suivants lors de l’utilisation de cette option :
 >
 >* Ce paramètre est activé par défaut pour tous les nouveaux projets.
 >
->* Ce paramètre s’applique à l’ensemble du tableau. Par exemple, si vous modifiez ce paramètre pour une ventilation dans le tableau, le paramètre sera modifié pour l’ensemble du tableau.
+>* Ce paramètre s’applique à l’ensemble du tableau. Par exemple, si vous modifiez ce paramètre pour une répartition au sein du tableau, il modifiera le paramètre pour l’ensemble du tableau.
 >
 
 Pour activer ce paramètre, s’il n’est pas déjà activé :
 
-1. Dans le tableau dans lequel vous souhaitez aligner les dates des colonnes, sélectionnez l’icône **Paramètres** dans l’en-tête du tableau.
+1. Dans le tableau où vous souhaitez aligner les dates des colonnes, sélectionnez l’icône **Paramètres** dans l’en-tête du tableau.
 
-1. Dans l’onglet [!UICONTROL **Paramètres**], sélectionnez **[!UICONTROL Aligner les dates de chaque colonne pour qu’elles commencent toutes sur la même ligne (s’applique à l’ensemble du tableau)]**.
+1. Dans l’onglet [!UICONTROL **Paramètres**], sélectionnez **[!UICONTROL Aligner les dates de chaque colonne pour que toutes commencent sur la même ligne (s’applique à l’ensemble du tableau)]**.
 
 ![](assets/date-comparison-setting.png)
 

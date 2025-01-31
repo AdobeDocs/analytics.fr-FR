@@ -4,7 +4,7 @@ keywords: segmentation ; segments
 title: Conteneurs de segments
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 6a36155dcd1fd06ea052783a8fd5714cd10e16ec
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '3566'
 ht-degree: 98%
@@ -44,9 +44,13 @@ Chaque conteneur permet de créer un rapport de l’historique du visiteur ou de
 
 <!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
-Regardez cette vue d’ensemble vidéo sur les conteneurs de segments :
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
+>[!BEGINSHADEBOX]
+
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
 
 ## Conteneur Visiteurs et visiteuses
 
@@ -99,7 +103,7 @@ Lors de la création de conteneur de segments dans d’autres conteneurs, vous c
 
 >[!NOTE]
 >
->Lorsque vous imbriquez un segment dans un segment (par exemple, vous faites glisser un segment du panneau Composants sur votre définition de segment), un conteneur est créé avec une copie (et non une référence) de la règle de segment glissée.
+>Lorsque vous imbriquez un segment dans un segment (par exemple, vous faites glisser un segment du panneau Composants sur votre définition de segment), un conteneur est créé avec une copie (et non une référence) de la règle de segment déplacé.
 
 Vous pouvez utiliser l’imbrication de conteneurs et de règles dans un conteneur. Vous pouvez imbriquer les éléments suivants dans chaque conteneur :
 

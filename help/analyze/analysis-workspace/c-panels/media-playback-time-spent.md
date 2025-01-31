@@ -4,9 +4,9 @@ description: Comment utiliser et interpréter le panneau Durée de lecture des m
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1160'
 ht-degree: 56%
 
 ---
@@ -57,11 +57,11 @@ Le temps de lecture peut vous aider à comprendre :
 
 * L’endroit où les abandons ont eu lieu.
 
-+++ Regardez une vidéo de démonstration de cette fonctionnalité.
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/338699)
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Temps de lecture de média](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
-+++
+>[!ENDSHADEBOX]
 
 ## Utilisation
 
