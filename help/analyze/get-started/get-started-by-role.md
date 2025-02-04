@@ -3,9 +3,9 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Prise en main destinée aux administrateurs et administratrices, analystes, utilisateurs et utilisatrices finaux et développeurs et développeuses
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Pour plus d’informations sur la création d’analyses dans Analysis Workspac
 [Les API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur.
 
 Vous pouvez créer des rapports pour explorer vos données, obtenir des informations ou répondre à des questions importantes à leur sujet. Vous pouvez également gérer les composants d’Adobe Analytics, tels que la création de segments ou de mesures calculées.
+
+>[!MORELIKETHIS]
+>
+>[Création d’un document de conception de solution](/help/implement/prepare/solution-design.md)
+>
