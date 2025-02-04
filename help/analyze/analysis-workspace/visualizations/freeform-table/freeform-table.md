@@ -4,10 +4,10 @@ description: Les tableaux à structure libre constituent la base de l’analyse 
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb3e8b030af78f0d7758b4cff41d66f20695e11e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 61%
+source-wordcount: '785'
+ht-degree: 25%
 
 ---
 
@@ -30,69 +30,89 @@ _Cet article présente la visualisation des tableaux à structure libre dans_ ![
 
 >[!ENDSHADEBOX]
 
-Dans Analysis Workspace, un tableau à structure libre est la base de l’analyse de données interactive. Vous pouvez faire glisser et déposer un ensemble de [composants](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=fr) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Chaque composant étant déposé, le tableau se met immédiatement à jour, ce qui vous permet d’effectuer rapidement une analyse et d’approfondir vos connaissances.
 
-## Créer un tableau à structure libre simple
+Dans Analysis Workspace, une visualisation ![Tableau](/help/assets/icons/Table.svg) **[!UICONTROL Tableau à structure libre]** est la base de l’analyse interactive des données. Vous pouvez faire glisser et déposer un ensemble de [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Lorsque chaque composant est déposé, le tableau se met immédiatement à jour afin que vous puissiez rapidement l’analyser et approfondir vos connaissances.
 
-Commencez avec un tableau à structure libre vide.
+![Tableau à structure libre présentant les composants dans les lignes et les colonnes, y compris les visites et les commandes en ligne pour plusieurs pages web.](assets/opening-section.png)
 
-![Tableau à structure libre vide](assets/freeform-table-1.png)
+Pour créer et configurer un [!UICONTROL tableau à structure libre] :
 
-Si vous déposez la mesure **[!UICONTROL ** Visites **]** sur l’**[!UICONTROL ** Déposez une mesure ici (ou tout autre composant)**]** le tableau à structure libre est automatiquement renseigné avec des visites par jour pour la période calendaire que vous avez sélectionnée.
-
-![Tableau à structure libre Visites](assets/freeform-table-2.png)
-
-Si vous déposez ensuite la dimension **[!UICONTROL ** Page **]** pour remplacer la colonne de dimension **[!UICONTROL ** Jour **]**, le tableau à structure libre reflète automatiquement les visites pour chaque page.
-
-![Visites par tableau à structure libre de page](assets/freeform-table-3.png)
-
-Vous pouvez ensuite répartir, par exemple, la page **[!UICONTROL ** catégorie:5 **]** en déposant la dimension **[!UICONTROL ** Canal marketing **]** sur la ligne **[!UICONTROL ** catégorie:5 **]**.
-
-![Répartition des visites par tableau à structure libre de page](assets/freeform-table-4.png)
-
+* Ajoutez une visualisation ![Tableau](/help/assets/icons/Table.svg) **[!UICONTROL Tableau à structure libre]**. Voir [Ajouter une visualisation à un panneau](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
 ## Tableaux automatisés
 
-Comme illustré ci-dessus, le moyen le plus rapide de créer un tableau consiste à déposer directement les composants dans un projet vierge, un panneau ou un tableau à structure libre. Un tableau à structure libre sera automatiquement créé pour vous dans un format recommandé. [Regarder le tutoriel](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html?lang=fr).
+Le moyen le plus rapide de créer un tableau consiste à déposer les composants directement dans un projet, un panneau ou un tableau à structure libre vierge. Un tableau à structure libre est créé pour vous dans un format recommandé. [Regarder le tutoriel](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace).
 
-![](assets/automated-table.png)
+![Un nouveau Panneau avec le composant Visites déposé sur l’espace de travail.](assets/automated-table.png)
 
 ## Créateur de tableau à structure libre
 
-Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez activer le Créateur de tableau à structure libre. Lorsque le créateur est activé, vous pouvez faire glisser et déposer de nombreuses dimensions, répartitions, mesures et segments afin de créer des tableaux qui répondent à des questions plus complexes. Les données ne sont pas mises à jour à la volée, elles le sont une fois que vous avez cliqué sur **[!UICONTROL Créer]**.
+Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez sélectionner **[!UICONTROL Activer le générateur de tableau]**. Lorsque le créateur est activé, vous pouvez faire glisser et déposer des dimensions, des répartitions, des mesures et des filtres afin de créer des tableaux qui répondent à des questions plus complexes. Les données sont mises à jour une fois que vous avez sélectionné **[!UICONTROL Créer]**.
 
-![](assets/table-builder.png)
+![Un Créateur de tableau à structure libre affichant ](assets/table-builder.png)
 
-## Interactions avec un tableau
+## Interactions
 
 Vous pouvez interagir et personnaliser un tableau à structure libre de différentes manières :
 
-* **Lignes**
-   * Vous pouvez afficher davantage de lignes sur un seul écran en réglant la [densité d’affichage](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) du projet.
-   * Chaque ligne de dimension peut afficher jusqu’à 400 lignes avant la pagination. Cliquez sur le numéro en regard de « Lignes » pour afficher d’autres lignes sur une page. Accédez à une autre page à l’aide de la flèche de page dans l’en-tête.
-   * Les lignes peuvent être ventilées par composants supplémentaires. Pour répartir plusieurs lignes à la fois, sélectionnez simplement plusieurs lignes, puis faites glisser le composant suivant sur les lignes sélectionnées. En savoir plus sur la [répartition](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html?lang=fr).
-   * Les lignes peuvent être [filtrées](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html) pour n’afficher que certains éléments. D’autres paramètres sont disponibles dans les [Paramètres des lignes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=fr).
+### Filtrer et trier
 
-* **Colonnes**
-   * Les composants peuvent être empilés dans des colonnes afin de créer des mesures segmentées, des analyses sur plusieurs onglets, etc.
-   * La vue de chaque colonne peut être ajustée dans les [Paramètres des colonnes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=fr).
-   * Plusieurs actions sont disponibles dans le [menu contextuel (clic droit)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html?lang=fr). Ce menu propose différentes actions selon que vous cliquez sur l’en-tête, les lignes ou les colonnes du tableau.
+* Vous pouvez [filtrer et trier](filter-and-sort.md) les données d’un tableau.
 
-## Exportation des données de tableau à structure libre
+### Lignes
 
-Découvrez-en plus sur toutes les [options dʼexportation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr) de données pour Analysis Workspace.
+* Vous pouvez rapidement [créer une visualisation](../freeform-analysis-visualizations.md#visualize) à partir d’une ou de plusieurs lignes à l’aide de ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg).
+* Vous pouvez afficher davantage de lignes sur un seul écran en réglant la [densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) du projet.
+* Chaque ligne de dimension peut afficher jusqu’à 400 lignes avant la pagination. Sélectionnez le nombre en regard de **[!UICONTROL Lignes]** dans le premier en-tête de colonne, pour afficher d’autres lignes sur une page. Accédez à une autre page à l’aide de ![ChevronRight](/help/assets/icons/ChevronRight.svg) dans le premier en-tête de colonne.
+* Vous pouvez répartir les lignes en fonction de composants supplémentaires. Pour répartir plusieurs lignes à la fois, sélectionnez plusieurs lignes, puis faites glisser le composant suivant au-dessus des lignes sélectionnées. En savoir plus sur la [répartition](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+* Les lignes peuvent être [filtrées](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) pour n’afficher que certains éléments. D’autres paramètres sont disponibles dans les [Paramètres des lignes](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md).
 
-* Cliquer avec le bouton droit de la souris sur > **[!UICONTROL Copier les données dans le presse-papiers]** exporte les données du tableau affiché. Si une sélection de tableau est effectuée, cette option indique **[!UICONTROL Copier la sélection dans le presse-papiers]**. La touche dʼaccès rapide **Ctrl + C** copie également les données sélectionnées.
-* Cliquer avec le bouton droit de la souris sur > **[!UICONTROL Télécharger les données au format CSV]** télécharge les données de tableau affichées au format CSV. Si une sélection de tableau est effectuée, cette option indique **[!UICONTROL Télécharger la sélection au format CSV]**.
-* Cliquez avec le bouton droit de la souris > **[!UICONTROL Projet > Télécharger les éléments au format CSV]** pour exporter jusqu’à 50 000 éléments de dimension pour la dimension sélectionnée.
+### Colonnes
 
-Découvrez-en plus sur toutes les [options dʼexportation](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr) de données pour Analysis Workspace.
+* Les composants peuvent être empilés dans des colonnes afin de créer des mesures filtrées, des analyses sur plusieurs onglets, etc.
+* La vue de chaque colonne peut être ajustée dans les [Paramètres des colonnes](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).
+* Plusieurs actions sont disponibles via le [menu contextuel](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu). Le menu propose différentes actions selon que vous sélectionnez l’en-tête, les lignes ou les colonnes du tableau.
 
-![](assets/export-options.png)
+
+## Paramètres
+
+Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) pour afficher **[!UICONTROL Paramètres du tableau]**. Les visualisations spécifiques [paramètres](../freeform-analysis-visualizations.md#settings) suivantes sont disponibles :
+
+### Source de données
+
+| Option | Description |
+|---|---|
+| **[!UICONTROL Visualisations liées]**. | Répertorie toutes les visualisations liées. |
+| **[!UICONTROL Afficher la source de données]** | Lorsque cette option n’est pas cochée, le tableau à structure libre qui fonctionne comme source de données pour la visualisation est masqué dans Workspace. |
+
+### Paramètres
+
+| Option | Description |
+|---|---|
+| **[!UICONTROL Aligner les dates de chaque colonne pour qu’elles commencent toutes sur la même ligne]** | Pour aligner ou non les dates de chaque colonne afin qu’elles commencent toutes sur la même ligne. |
+
+
+## Menu contextuel
+
+Les options [menu contextuel](../freeform-analysis-visualizations.md#context-menu) suivantes sont disponibles à partir de l’en-tête de la visualisation :
+
+| Option | Description |
+| --- | --- |
+| **[!UICONTROL Insérer la visualisation copiée]**n | Collez (insérez) une visualisation copiée à un autre emplacement du projet, ou dans un tout autre projet. |
+| **[!UICONTROL Copier les données dans le presse-papiers]** | Copiez les données de la visualisation dans le presse-papiers. |
+| **[!UICONTROL Copier la sélection dans le presse-papiers]** | Copiez la sélection de la visualisation dans le presse-papiers. |
+| **[!UICONTROL Télécharger les éléments au format CSV (*nom de dimension*)]** | Téléchargez immédiatement les éléments de dimension (jusqu’à 50 000 au maximum) de la visualisation sur votre appareil local. Un maximum de 50 000 éléments de dimension pour la dimension sélectionnée. |
+| **[!UICONTROL Copier la visualisation]** | Copiez la visualisation afin de pouvoir l’insérer à un autre emplacement du projet, ou dans un tout autre projet. |
+| **[!UICONTROL Télécharger les données CSV]** | Téléchargez immédiatement les données affichées de la visualisation sur votre appareil local. |
+| **[!UICONTROL Dupliquer la visualisation]** | Créez un doublon exact de la visualisation. |
+| **[!UICONTROL Modifier la description]** | Ajoutez (ou modifiez) une description textuelle de la visualisation. Voir [Texte](../text.md). |
+| **[!UICONTROL Obtenir le lien de la visualisation]** | Copiez et partagez un lien directement vers la visualisation. Une boîte de dialogue Partager le lien affiche le lien. Sélectionnez Copier pour copier le lien dans le presse-papiers. |
+| **[!UICONTROL Recommencer]** | Supprimez la configuration de la visualisation actuelle afin de pouvoir la reconfigurer de zéro. |
+
+
 
 ## Vidéos
 
-Présentation du Créateur de tableaux à structure libre :
 >[!BEGINSHADEBOX]
 
 Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation du générateur de tableaux à structure libre](https://video.tv.adobe.com/v/31318?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
@@ -110,6 +130,14 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtres de tabl
 Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totaux des tableaux à structure libre](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
 
 
 

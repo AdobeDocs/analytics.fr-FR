@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis
 
 Chaque colonne peut présenter une dimension distincte. Faites glisser une dimension et ajoutez-la au diagramme en la déposant dans une zone de dépôt.
 
-## Configurer une visualisation de flux
-
-Pour plus d’informations sur la configuration d’une visualisation de flux, consultez [Configurer une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
-
-## Exporter des diagrammes de flux dans des fichiers .CSV de projet {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-Les diagrammes de flux font partie d’un fichier CSV de projet, que vous créez en sélectionnant **[!UICONTROL Projet]** > **[!UICONTROL Télécharger CSV]**. Vous pouvez ainsi analyser les résultats des flux dans Microsoft Excel (dans un tableau) ou ailleurs.
+>[!MORELIKETHIS]
+>
+>[Configurer une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>
 
 
 ## Fonctionnalités supplémentaires
