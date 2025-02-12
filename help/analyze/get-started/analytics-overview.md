@@ -5,9 +5,9 @@ title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Pour en savoir plus sur les principes de base d’Adobe Analytics, regardez la 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation d’Adobe Analytics - Développement des compétences](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} pour la vidéo du webinaire.
+Voir la vidéo de webinaire ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation d’Adobe Analytics - Développement des compétences](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ description: Découvrez comment intégrer des données issues d’autres emplace
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ Ce guide porte sur l’intégration de plusieurs solutions Adobe Experience Clo
 
 * **Audience Analytics :** Intégrez Adobe Audience Manager à Adobe Analytics.
 * **Advertising Analytics :** Consultez les données de recherche payante juxtaposées aux données Adobe Analytics.
-* **Analytics for Advertising Cloud DSP :** intègre Adobe Analytics et Adobe Advertising Cloud pour étendre et améliorer les fonctionnalités de chaque produit.
+* **Analytics pour Advertising Cloud DSP :** intègre Adobe Analytics et Adobe Advertising Cloud afin dʼétendre et dʼaméliorer les fonctionnalités de chaque produit.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics pour Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for A
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Présentation d’Adobe Analytics](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble d’Adobe Analysis](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
