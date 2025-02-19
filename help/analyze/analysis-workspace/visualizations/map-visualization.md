@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="Carte"
->abstract="Cette visualisation représente les mesures en les superposant sur une carte. Cette visualisation est utile pour identifier les données dans différentes régions géographiques."
+>abstract="Cette visualisation représente les mesures en les superposant sur une carte. Cette visualisation s’avère utile pour identifier les données dans différentes zones géographiques."
 
 <!-- markdownlint-enable MD034 -->
 
