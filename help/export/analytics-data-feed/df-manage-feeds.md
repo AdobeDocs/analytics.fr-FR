@@ -3,10 +3,10 @@ title: Gestion des flux de données
 description: Découvrez comment naviguer dans l’interface du flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 26%
+source-wordcount: '1229'
+ht-degree: 21%
 
 ---
 
@@ -84,7 +84,7 @@ Le bouton [!UICONTROL Ajouter] permet de créer un flux. Voir [Créer un flux de
 
 1. Cochez la case en regard du flux de données à copier, puis sélectionnez [!UICONTROL **Copier**].
 
-   Permet de [créer un flux](create-feed.md) avec tous les paramètres du flux actuel. Cette option n’est pas visible si plusieurs flux de données sont sélectionnés.
+   Cela vous permet de [créer un flux](create-feed.md) avec tous les paramètres du flux actuel. Cette option n’est pas visible si plusieurs flux de données sont sélectionnés.
 
    Lors de la mise à jour de la section [!UICONTROL **Destination**] pour un flux de données que vous copiez, vous pouvez choisir un compte et un emplacement différents à utiliser pour le nouveau flux de données dans les champs déroulants [!UICONTROL **Compte**] et [!UICONTROL **Emplacement**].
 
@@ -94,7 +94,11 @@ Le bouton [!UICONTROL Ajouter] permet de créer un flux. Voir [Créer un flux de
 
 ## Mettre en pause un flux de données
 
-Vous pouvez arrêter le traitement du flux, en définissant son statut sur [!UICONTROL Inactif].
+Lorsque vous mettez en pause un flux de données, il arrête le traitement du flux et définit son statut sur [!UICONTROL Inactif].
+
+Lorsque vous réactivez le flux après l’avoir mis en pause, les données pendant la période de pause du flux sont traitées pour les flux de renvoi, mais pas pour les flux actifs. Pour plus d’informations, voir [Activer un flux de données](#activate-a-data-feed).
+
+Pour suspendre un flux de données :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Admin**] > [!UICONTROL **Flux de données**].
 
@@ -104,17 +108,11 @@ Vous pouvez arrêter le traitement du flux, en définissant son statut sur [!UIC
 
 Vous pouvez activer les flux inactifs.
 
-Les flux de renvoi (flux qui traitent uniquement des données historiques) reprennent le traitement des données à partir de l’endroit où ils se sont arrêtés, en renvoyant les dates si nécessaire. Les flux en direct reprennent également le traitement des données là où ils s’étaient arrêtés.
+Lorsqu’un flux est réactivé, les données peuvent ne pas être traitées automatiquement pendant la période d’inactivité du flux. Le traitement des données dépend s’il s’agit d’un flux de renvoi ou d’un flux dynamique :
 
->[!AVAILABILITY]
->
->La modification suivante apportée à la façon dont les flux actifs reprennent le traitement des données se trouve dans la phase Tests limités de la publication :
-> 
->**Les flux dynamiques reprennent le traitement des données à partir de l’heure actuelle.**
->
->Cette modification n’est peut-être pas encore disponible dans votre environnement.
->
->Cette note sera supprimée lorsque cette modification sera disponible. Pour plus d’informations sur le processus de publication d’Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
+* **Les flux de renvoi** (flux qui traitent uniquement des données historiques) reprennent le traitement des données à partir de l’endroit où ils se sont arrêtés, en renvoyant les dates si nécessaire.
+
+* **Flux en direct** reprenez le traitement des données à partir du moment où elles sont activées. Cela signifie que les données ne sont pas traitées pendant la durée de mise en pause du flux par rapport à sa date d’activation. Si vous avez besoin des données pendant cette période, vous devez configurer un renvoi.
 
 Pour activer un flux de données :
 
@@ -153,10 +151,10 @@ Les colonnes suivantes sont disponibles :
    * Actif : le flux est opérationnel.
    * En attente d’approbation : dans certaines circonstances, un flux nécessite l’approbation d’Adobe avant de pouvoir commencer à générer des tâches.
    * Supprimé : le flux est supprimé.
-   * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou supprimé.
+   * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
    * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
    * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
-* **Dernière modification** : la date à laquelle le flux a été modifié pour la dernière fois. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports en tenant compte du décalage par rapport à GMT.
-* **Date de début** : la date de la première tâche pour ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports en tenant compte du décalage par rapport à GMT.
+* **Dernière modification** : la date à laquelle le flux a été modifié pour la dernière fois. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
+* **Date de début** : la date de la première tâche pour ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
 * **Date de fin** : la date de la dernière tâche pour ce flux. Les flux de données continus ne possèdent pas de date de fin.
 

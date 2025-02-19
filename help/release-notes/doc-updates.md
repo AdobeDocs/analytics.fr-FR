@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 * Pour plus d’informations sur le module complémentaire Streaming Media Collection, voir [Mesurer le son et la vidéo dans Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Détails sur les mises à jour majeures de la documentation
+
+### 2025 {#year2025}
+
+| Fonctionnalité | Description |
+| --- | --- |
+| **Février 2025** |  |
+| Mise à jour des informations sur la suspension et la réactivation d’un flux de données | Lors de la [suspension et réactivation d’un flux de données](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), a clarifié le comportement des flux en direct. Le traitement des données ne se produit pas entre le moment où le flux est mis en pause et celui où il est réactivé. |
 
 ### 2024 {#year2024}
 
