@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
@@ -25,62 +25,62 @@ ht-degree: 48%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation combinée dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
+_Cet article présente la visualisation d’un graphique combo dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
-_Voir [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Voir la section [Graphique combo](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-La visualisation ![Graphique combiné](/help/assets/icons/ComboChart.svg) **[!UICONTROL Combiné]** facilite la création rapide d’une visualisation de comparaison sans qu’il soit nécessaire de créer un tableau au préalable. Vous pouvez facilement afficher les tendances de vos données dans une combinaison ligne/barre.
+La visualisation ![Graphique combo](/help/assets/icons/ComboChart.svg) **[!UICONTROL Graphique combo]** facilite la création rapide d’une visualisation de comparaison sans qu’il soit nécessaire de créer un tableau au préalable. Vous pouvez facilement afficher les tendances de vos données dans une combinaison ligne/barre.
 
-Utilisez un [!UICONTROL combo] pour :
+Utilisez un [!UICONTROL Graphique combo] pour les cas suivants :
 
-* Comparez les commandes de cette semaine à celles de la même période du mois dernier (et de l&#39;année dernière).
-* Analysez et comparez rapidement plusieurs mesures (comme [!UICONTROL Personnes] et [!UICONTROL Revenus]) les unes par rapport aux autres sur le même graphique.
-* Analysez une mesure par rapport à une fonction (telle que la [!UICONTROL Moyenne cumulée]) sur un horizon temporel.
+* Comparer les commandes de cette semaine à celles de la même période le mois dernier (et l’année dernière).
+* Analyser et comparer rapidement plusieurs mesures (comme [!UICONTROL Personnes] et [!UICONTROL Revenus]) les unes par rapport aux autres sur le même graphique.
+* Analyser une mesure par rapport à une fonction (telle que la [!UICONTROL Moyenne cumulée]) sur un horizon temporel.
 
 Gardez les éléments suivants à l’esprit :
 
 * Vous pouvez ajouter plusieurs comparaisons dans un seul [!UICONTROL graphique combiné].
 * Si vous ajoutez une ou plusieurs comparaisons, celles-ci doivent être du même type, par exemple : [!UICONTROL Comparaison de temps].
 * Vous pouvez ajouter jusqu’à 5 comparaisons.
-* Vous pouvez appliquer jusqu’à 3 filtres à une mesure.
-* Les mesures calculées ne sont pas prises en charge dans les graphiques combinés.
+* Vous pouvez appliquer jusqu’à 3 filtres à une mesure.
+* Les mesures calculées ne sont pas prises en charge dans les graphiques combo.
 
 ## Utilisation
 
-1. Ajoutez une visualisation ![Commentaire](/help/assets/icons/ComboChart.svg) [!UICONTROL Combiné]. Voir [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+1. Ajoutez une visualisation ![Commentaire](/help/assets/icons/ComboChart.svg) [!UICONTROL Graphique combo]. Voir la section [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 
-1. Dans les listes déroulantes, sélectionnez une dimension pour l’axe X et une mesure pour l’axe Y.
+1. Dans les listes déroulantes, sélectionnez une dimension pour l’axe X et une mesure pour l’axe Y.
 
-1. Sélectionnez le type de [!UICONTROL comparaison de lignes] que vous souhaitez utiliser.
+1. Sélectionnez le type de [!UICONTROL Comparaison de lignes] que vous voulez utiliser.
 
    | Type de comparaison de lignes | Définition |
    | --- | --- |
-   | **[!UICONTROL Comparaison de temps]** | Type de comparaison le plus courant : comparaison de cette période avec celle d’il y a 4 semaines, par exemple. Si vous avez sélectionné [!UICONTROL Comparaison des heures], effectuez une deuxième sélection pour indiquer la période à comparer.<p>![Comparaison de LIne avec la période sélectionnée et le champ de sélection secondaire pour la période.](assets/combo-time-period.png) |
-   | **[!UICONTROL Fonction]** | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Voir la liste des [fonctions prises en charge](#supported-functions).<p>![Menu déroulant de comparaison LIne affichant les fonctions sélectionnées et une liste des fonctions prises en charge disponibles.](assets/combo-functions.png) |
-   | **[!UICONTROL Deuxième mesure]** | Vous pouvez, par exemple, comparer des [!UICONTROL revenus] à une autre mesure.<p>![Graphique combiné comparant deux mesures.](assets/combo-2metrics-settings.png) |
+   | **[!UICONTROL Comparaison de temps]** | Type de comparaison le plus courant : comparaison de cette période avec celle d’il y a 4 semaines, par exemple. Si vous avez sélectionné [!UICONTROL Comparaison des heures], effectuez une deuxième sélection pour indiquer la période à comparer.<p>![Comparaison de lignes avec la période sélectionnée et le champ de sélection secondaire pour la période.](assets/combo-time-period.png) |
+   | **[!UICONTROL Fonction]** | Vous pouvez introduire une fonction telle que [!UICONTROL Moyenne] dans la comparaison. Consultez la liste des [fonctions prises en charge](#supported-functions).<p>![Menu déroulant de comparaison de lignes affichant les fonctions sélectionnées et une liste de fonctions prises en charge disponibles.](assets/combo-functions.png) |
+   | **[!UICONTROL Deuxième mesure]** | Vous pouvez, par exemple, comparer des [!UICONTROL revenus] à une autre mesure.<p>![Graphique combo comparant deux mesures.](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
 
 1. Sélectionnez la **[!UICONTROL Version]**.
 
-   La sortie ressemble à ce qui suit :
+   La sortie ressemble à ce qui suit :
 
-   ![Graphique combiné affichant la période en cours dans un graphique à barres et la période de comparaison dans le graphique en courbes ](assets/combo-output.png)
+   ![Graphique combo affichant la période en cours dans un graphique à barres et la période de comparaison dans le graphique en courbes ](assets/combo-output.png)
 
-   La période en cours s’affiche dans le graphique à barres. Le graphique en courbes représente la période de comparaison. Les points du graphique linéaire sont appelés *cloches à barres*.
+   La période en cours s’affiche dans le graphique à barres. Le graphique en courbes représente la période de comparaison. Les points sur le graphique en courbes sont appelés *haltères*.
 
 ## Fonctions prises en charge
 
-Si vous sélectionnez **[!UICONTROL Fonction]** comme type de comparaison [!UICONTROL Ligne], une fonction de la mesure choisie est renvoyée.
+Si vous choisissez la **[!UICONTROL Fonction]** comme [!UICONTROL type de comparaison de lignes], une fonction de la mesure que vous avez choisie est renvoyée.
 
 | Fonction | Définition |
 | --- | --- |
-| **[!UICONTROL Somme de la colonne]** | Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension) |
-| **[!UICONTROL Moyenne cumulée]** | Renvoie la moyenne des N dernières lignes. |
-| **[!UICONTROL Médiane]** | Renvoie la médiane pour une mesure dans une colonne. La médiane est le nombre qui se situe au milieu d’un ensemble de nombres. La moitié des nombres ont des valeurs supérieures ou égales à la médiane, et la moitié des nombres ont des valeurs inférieures ou égales à la médiane. |
+| **[!UICONTROL Somme de la colonne]** | Ajoute toutes les valeurs numériques pour une mesure dans une colonne (sur l’ensemble des éléments d’une dimension). |
+| **[!UICONTROL Moyenne cumulée]** | Renvoie la moyenne des N dernières lignes. |
+| **[!UICONTROL Médiane]** | Renvoie la médiane pour une mesure dans une colonne. La médiane est le nombre qui se situe au milieu d’un ensemble de nombres. En d’autres termes, la moitié des nombres ont des valeurs supérieures ou égales à la médiane, et l’autre moitié ont des valeurs inférieures ou égales à la médiane. |
 | **[!UICONTROL Cumulé]** | Somme cumulée de N lignes. |
 | **[!UICONTROL Max. colonne]** | Renvoie la valeur la plus grande d’un ensemble d’éléments de dimension pour une colonne de mesures. |
 | **[!UICONTROL Moyenne]** | Renvoie la moyenne arithmétique, ou moyenne, pour une mesure. |
@@ -90,15 +90,15 @@ Si vous sélectionnez **[!UICONTROL Fonction]** comme type de comparaison [!UICO
 
 Voici un exemple de la moyenne cumulée de la mesure Revenus :
 
-![Graphique combiné présentant la moyenne cumulée](assets/combo-cumul-avg.png)
+![Graphique combo présentant la moyenne cumulée](assets/combo-cumul-avg.png)
 
-Voici un exemple de graphique combiné avec les fonctions Moyenne cumulée et Moyenne :
+Voici un exemple de graphique combo avec les fonctions Moyenne cumulée et Moyenne :
 
-![Graphique combiné présentant les fonctions moyenne cumulée et moyenne.](assets/combo-three-functions.png)
+![Graphique combo présentant les fonctions Moyenne cumulée et Moyenne.](assets/combo-three-functions.png)
 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
