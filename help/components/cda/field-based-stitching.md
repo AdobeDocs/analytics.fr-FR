@@ -4,7 +4,7 @@ description: Comprenez les conditions préalables et les limites du groupement d
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
+source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 80%
@@ -43,3 +43,4 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 ## Étapes suivantes
 
 Une fois que toutes les conditions requises sont remplies et que vous avez compris les limites, vous pouvez commencer à [configurer les analyses entre appareils](setup.md).
+
