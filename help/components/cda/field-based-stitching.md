@@ -4,10 +4,10 @@ description: Comprenez les conditions préalables et les limites du groupement d
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 80%
 
 ---
 
@@ -19,15 +19,15 @@ Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour re
 
 ## Conditions préalables spécifiques au groupement basé sur les champs
 
-Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et votre équipe de compte d’Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et de votre compte Adobe pour vous assurer de respecter toutes les conditions suivantes.
 
 >[!WARNING]
 >
 >Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Évitez dʼattribuer une valeur par défaut à la prop ou à lʼeVar.
-* Communiquez la variable d’identification de votre choix à votre équipe de compte d’Adobe lorsqu’elle est configurée pour le groupement basé sur les champs.
+* Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plateformes, y compris les applications mobiles si elles sont utilisées.<br/>Évitez d’attribuer une valeur par défaut à cette prop ou eVar. Lorsque 2 000 appareils différents ou plus se voient attribuer la même valeur par défaut, la personne est ajoutée à une liste de « personnes malveillantes » et ces événements sont ignorés de la suite de rapports virtuelle activée pour Analytics sur l’ensemble des appareils, ce qui entraîne une analyse erronée.
+* Communiquez la variable d’identification souhaitée à l’équipe de votre compte Adobe lorsqu’elle est configurée pour le groupement basé sur les champs.
 
 ## Limites spécifiques au groupement basé sur les champs
 
