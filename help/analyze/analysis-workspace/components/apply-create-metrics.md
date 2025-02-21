@@ -4,10 +4,10 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
+source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 36%
+source-wordcount: '721'
+ht-degree: 30%
 
 ---
 
@@ -96,17 +96,17 @@ Pour créer une mesure calculée pour un seul projet :
 
    * [!UICONTROL **Multiplier**] : crée une colonne qui multiplie les valeurs des deux colonnes sélectionnées.
 
-   * [!UICONTROL **Changement en pourcentage**] : crée une colonne qui affiche le changement en pourcentage des deux colonnes sélectionnées.
+   * [!UICONTROL **Changement en pourcentage**] : crée une colonne qui affiche le changement en pourcentage entre les deux colonnes sélectionnées.
 
 [Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr) (3:42)
 
 ## Comparaison de mesures avec différents modèles d’attribution
 
-Si vous souhaitez comparer rapidement et facilement deux modèles d’attribution, faites un clic droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
+Pour comparer rapidement un modèle d’attribution à un autre, cliquez avec le bouton droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
 
 ![Comparer l’attribution](assets/compare-attribution.png)
 
-Ce raccourci vous permet de comparer rapidement et facilement deux modèles d’attribution sans faire glisser une mesure et la configurer deux fois.
+Ce raccourci vous permet de comparer un modèle d’attribution à un autre sans faire glisser une mesure et la configurer deux fois.
 
 ## Utilisation de la fonction [!UICONTROL moyenne cumulée] pour appliquer le lissage des mesures
 
