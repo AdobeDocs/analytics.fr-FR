@@ -4,10 +4,10 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,11 +42,9 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](ht
 
 >[!ENDSHADEBOX]
 
-
-
 ## Création de mesures calculées
 
-Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres à l’aide d’opérateurs simples ou de fonctions statistiques.
+Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres, à l’aide d’opérateurs simples ou de fonctions statistiques.
 
 Il existe plusieurs façons de créer des mesures calculées. La méthode que vous choisissez détermine si la mesure calculée est disponible dans la liste des composants de tous les projets ou uniquement dans le projet dans lequel elle a été créée.
 
@@ -64,21 +62,41 @@ Pour créer une mesure calculée pour un seul projet :
 
 1. Dans Analysis Workspace, ouvrez le projet dans lequel vous souhaitez créer la mesure calculée.
 
-1. Dans un tableau à structure libre, cliquez avec le bouton droit sur une ou plusieurs cellules de colonne d’en-tête, puis sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**
+1. Dans un tableau à structure libre, cliquez avec le bouton droit sur l’en-tête d’une colonne unique.
+
+   Ou
+
+   Sélectionnez deux colonnes tout en maintenant la touche Maj enfoncée, puis cliquez avec le bouton droit sur l’une des colonnes sélectionnées.
+
+1. Sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**
 
    Panneau ![Workspace mettant en surbrillance Créer à partir de la sélection](assets/create-metric-from-selection.png)
 
-1. Pour créer une mesure calculée pour ce projet uniquement, choisissez l’une des options suivantes :
+1. Pour créer une mesure calculée pour ce projet uniquement, choisissez l’une des options disponibles.
 
-   * [!UICONTROL **Diviser**]
+   Lorsqu’une seule colonne est sélectionnée, les options suivantes sont disponibles :
 
-   * [!UICONTROL **Soustraire**]
+   * [!UICONTROL **Moyenne**] : crée une colonne qui affiche la valeur moyenne dans l’ensemble des éléments de dimension de la colonne. Elle utilise la fonction [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Ajouter**]
+   * [!UICONTROL **Médiane**] : crée une colonne qui affiche la valeur médiane dans le jeu d’éléments de dimension de la colonne. Elle utilise la fonction [Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Multiplier**]
+   * [!UICONTROL **Colonne max**] : crée une colonne qui affiche la plus grande valeur de l’ensemble des éléments de dimension de la colonne. Cette méthode utilise la fonction [Nombre maximal de colonnes](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
 
-   Ou, pour ouvrir le créateur de mesures calculées et créer la mesure calculée pour tous les projets, sélectionnez [!UICONTROL **Ouvrir dans le créateur de mesures calculées**], puis continuez avec [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+   * [!UICONTROL **Colonne min**] : crée une colonne qui affiche la plus petite valeur du jeu d’éléments de dimension pour la colonne. Elle utilise la fonction [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+
+   * [!UICONTROL **Somme des colonnes**] : crée une colonne qui ajoute toutes les valeurs numériques d’une mesure dans une colonne (sur l’ensemble des éléments d’une dimension). Elle utilise la fonction [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+
+   Lorsque deux colonnes sont sélectionnées, les options suivantes sont disponibles :
+
+   * [!UICONTROL **Diviser**] : crée une colonne qui divise les valeurs des deux colonnes sélectionnées.
+
+   * [!UICONTROL **Soustraire**] : crée une colonne qui soustrait les valeurs des deux colonnes sélectionnées.
+
+   * [!UICONTROL **Ajouter**] : crée une colonne qui ajoute les valeurs des deux colonnes sélectionnées.
+
+   * [!UICONTROL **Multiplier**] : crée une colonne qui multiplie les valeurs des deux colonnes sélectionnées.
+
+   * [!UICONTROL **Changement en pourcentage**] : crée une colonne qui affiche le changement en pourcentage des deux colonnes sélectionnées.
 
 [Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr) (3:42)
 
