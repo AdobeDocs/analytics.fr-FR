@@ -3,9 +3,9 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 924f5f670d2f29269a5ba6623079e839f1fe8122
+source-git-commit: f738c0767a952d8c53f526056708dddf427e1880
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 57%
 
 ---
@@ -24,6 +24,7 @@ Ces notes de mise à jour couvrent la période du 11 février à la mi-mars 2025
 | **Référence de l’API des flux de données** | La [référence](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) pour l’API des flux de données est désormais disponible. |  | 30 janvier 2025 |
 | **API Livestream - Implémentation du client** | Utilisez l’implémentation du client Livestream pour utiliser les données Livestream. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | mercredi 18 février 2025 |
 | **Mettre à jour vers l’API Classifications** | Vous pouvez désormais supprimer du serveur des champs ou des clés de classification individuels. Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | mercredi 18 février 2025 |
+| **Mise à jour des`a.locale`** de champs de données contextuelles Analytics | Mise à jour de la façon dont le `a.locale` de champ de données contextuelles Analytics est défini lors de la collecte de données via Experience Edge. Lorsque des données sont envoyées à Adobe Analytics à l’aide d’Experience Edge, les champs Analytics sont renseignés en fonction d’un mappage de champs XDM. Le mappage de `c.a.locale` fait référence à un champ XDM non standard, `xdm.environment.language`. Ce champ sera mis à jour pour référencer le champ correct, `xdm.environment._dc.language`.  Le mappage continuera à référencer des `xdm.environment.language` à des fins de rétrocompatibilité. Pour la continuité, si les deux champs sont définis, `xdm.environment.language` est prioritaire. Vous pouvez consulter la liste complète des mappages de XDM vers les champs Analytics standard [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | jeudi 5 mars 2025 |
 
 
 ## Correctifs dans Adobe Analytics
@@ -43,7 +44,6 @@ Ces notes de mise à jour couvrent la période du 11 février à la mi-mars 2025
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Mise à jour à venir des`a.locale`** de champs de données contextuelles Analytics | samedi 21 février 2025 | Une mise à jour aura lieu le 5 mars 2025 sur la façon dont le `a.locale` de champ de données contextuelles Analytics est défini lors de la collecte de données via Experience Edge. Lorsque des données sont envoyées à Adobe Analytics à l’aide d’Experience Edge, les champs Analytics sont renseignés en fonction d’un mappage de champs XDM. Le mappage de `c.a.locale` fait référence à un champ XDM non standard, `xdm.environment.language`. Ce champ sera mis à jour pour référencer le champ correct, `xdm.environment._dc.language`.  Le mappage continuera à référencer des `xdm.environment.language` à des fins de rétrocompatibilité. Pour la continuité, si les deux champs sont définis, `xdm.environment.language` est prioritaire. Vous pouvez consulter la liste complète des mappages de XDM vers les champs Analytics standard [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). |
 | **La clientèle qui n’utilise pas Campaign n’aura plus accès à Triggers** | 16 octobre 2023 | Le 30 janvier 2025, les clients Adobe Analytics qui ne disposent pas d’une licence Adobe Campaign ont perdu l’accès à la possibilité de configurer et de consommer des [Triggers](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/triggers). Pour conserver cet accès, il est nécessaire d’acheter Campaign, d’envisager l’arrêt de l’utilisation de Triggers, ou de se tourner vers d’autres outils Adobe proposant des fonctionnalités similaires. |
 
 ## Avis de fin de vie {#eol}

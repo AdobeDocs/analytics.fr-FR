@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
+source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
 workflow-type: tm+mt
 source-wordcount: '6237'
 ht-degree: 96%
@@ -27,9 +27,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Février 2025** |  |
 | Mise à jour des informations sur la suspension et la réactivation d’un flux de données | Lors de la [suspension et réactivation d’un flux de données](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), a clarifié le comportement des flux en direct. Le traitement des données ne se produit pas entre le moment où le flux est mis en pause et celui où il est réactivé. |
-| Période de conservation des ID de transaction modifiés   La période de conservation des ID de transaction de 90 jours a été étendue à 25 mois. La variable transactionID identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via les sources de données. En savoir plus [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) et [ici](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
+| Période de conservation des ID de transaction modifiés | La période de conservation des ID de transaction de 90 jours a été étendue à 25 mois. La variable transactionID identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via les sources de données. En savoir plus [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en) et [ici](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en). |
 | API Livestream - Implémentation du client | Utilisez l’[implémentation du client Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) pour utiliser les données Livestream. |
-| Mise à jour de l’API Classifications \ Vous pouvez désormais [supprimer des champs ou clés de classification individuels du serveur](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. |
+| Mise à jour de l’API Classifications | Vous pouvez désormais [supprimer des champs ou des clés de classification individuels du serveur](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. |
 | **Janvier 2025** |  |
 | Référence de l’API des flux de données | La [ référence pour l’API des flux de données ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) est désormais disponible. |
 | Nouvelle documentation sur la planification dans le nouveau Report Builder | La [planification](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder) ne vous permet pas seulement de planifier vos nouveaux classeurs Report Builder. En outre, il vous permet de récupérer les métadonnées des anciennes tâches planifiées lors de la conversion de classeurs hérités. |
