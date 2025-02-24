@@ -3,9 +3,9 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Création de mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1150'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics fournit une zone de travail dans laquelle faire glisser et dépo
 
 ## Commencer à créer une mesure calculée
 
-Vous pouvez utiliser le créateur de mesures calculées pour créer ou modifier des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation. Vous pouvez également créer une mesure calculée rapide, comme décrit dans la section [Création de mesures calculées pour un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Vous pouvez utiliser le créateur de mesures calculées pour créer ou modifier des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation. Vous pouvez également créer rapidement une mesure calculée qui n’est disponible que pour le projet dans lequel elle a été créée, comme décrit dans la section [Création de mesures calculées pour un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Accédez au créateur de mesures calculées pour commencer à créer une mesure calculée disponible dans la liste des composants.
 
