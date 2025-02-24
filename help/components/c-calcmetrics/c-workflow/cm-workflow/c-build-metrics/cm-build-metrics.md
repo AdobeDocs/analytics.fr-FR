@@ -3,9 +3,9 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Création de mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics fournit une zone de travail dans laquelle faire glisser et dépo
 
 ## Commencer à créer une mesure calculée
 
-Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation. Vous pouvez également créer une mesure calculée rapide, comme décrit dans la section [Création de mesures calculées pour un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+Vous pouvez utiliser le créateur de mesures calculées pour créer ou modifier des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation. Vous pouvez également créer une mesure calculée rapide, comme décrit dans la section [Création de mesures calculées pour un seul projet](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) dans [Mesures](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
 Accédez au créateur de mesures calculées pour commencer à créer une mesure calculée disponible dans la liste des composants.
 
@@ -43,7 +43,7 @@ Accédez au créateur de mesures calculées pour commencer à créer une mesure 
 
    * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Créer une mesure]**.
    * Dans Analysis Workspace, ouvrez un projet, puis sélectionnez l’icône **Plus** en regard de la section [!UICONTROL **Mesures**] dans le rail de gauche.
-   * Dans [!DNL Customer Journey Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**, puis sélectionnez **[!UICONTROL + Ajouter]** en haut de la page Mesures calculées.
+   * Dans [!DNL Adobe Analytics], accédez à **[!UICONTROL Composants]** > **[!UICONTROL Mesures calculées]**, puis sélectionnez **[!UICONTROL + Ajouter]** en haut de la page Mesures calculées.
 
 1. Continuez avec [Zones du créateur de mesures calculées](#areas-of-the-calculated-metrics-builder).
 
@@ -70,7 +70,7 @@ L’image suivante et le tableau qui l’accompagne présentent certaines des pr
 | 13 | **Icône d’engrenage (Type de mesure, Attribution) :** en sélectionnant l’icône d’engrenage en regard d’une mesure, vous pouvez spécifier le type de mesure <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > et les modèles d’attribution </a>. |
 | 14 | **Nouveau :** permet de créer un nouveau composant, tel qu’un nouveau segment (qui vous mène au créateur de segments <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  ></a>). |
 | 15 | **Rechercher des composants :** cette barre de recherche vous permet de rechercher des dimensions, des mesures, des segments (mesures calculées avancées uniquement) et des fonctions (mesures calculées avancées uniquement). |
-| 16 | **Liste des Dimensions :** plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple « Page = Page d’accueil », vous pouvez faire glisser dans Page et sélectionner Page d’accueil directement à partir du créateur de mesures calculées.<p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel.</p> |
+| 16 | **Liste des dimensions :** plutôt que de quitter le créateur de mesures calculées pour créer un segment simple (dans le créateur de segments), par exemple « Page = Page d’accueil », vous pouvez faire glisser dans Page et sélectionner Page d’accueil directement à partir du créateur de mesures calculées.<p>Le processus de création de mesures calculées segmentées est ainsi beaucoup plus rationnel.</p> |
 | 17 | **Liste des mesures :** les mesures peuvent être classées en 3 catégories : <ul> <li>Mesures standard (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Mesures calculées ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Modèles de mesures ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - au bas de la liste. </li> </ul> <p>Lorsque vous pointez sur une mesure, vous pouvez voir l’icône Infos à droite : <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Le fait de cliquer sur cette icône vous donne les informations suivantes : </p><ul> <li>La formule de calcul. </li><li>Une tendance d’aperçu de la mesure. </li><li>Icône Modifier (crayon) <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> en haut à droite qui vous mènera au Créateur de mesures calculées où vous pouvez modifier cette mesure calculée. </li></ul> |
 | 18 | **Liste de segments :** (mesures calculées avancées uniquement) En tant qu’administrateur, cette liste affiche tous les segments créés dans votre société de connexion. Si vous êtes un utilisateur non administrateur, cette liste affiche les segments que vous possédez et ceux que vous partagez. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=fr"  > Plus... </a> |
 | 19 | **Liste des fonctions :** (mesures calculées avancées uniquement) Les fonctions sont divisées en deux listes : <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > de base </a> (utilisée le plus souvent) et <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avancé </a>. |

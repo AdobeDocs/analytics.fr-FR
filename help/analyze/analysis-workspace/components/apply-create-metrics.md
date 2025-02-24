@@ -4,9 +4,9 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 30%
 
 ---
@@ -56,7 +56,7 @@ Pour plus d’informations sur l’accès au créateur de mesures calculées, vo
 
 ### Création de mesures calculées pour un seul projet
 
-Vous pouvez créer des mesures calculées rapides qui ne sont disponibles que pour le projet dans lequel elles ont été créées.
+Vous pouvez rapidement créer une mesure calculée qui n’est disponible que pour le projet dans lequel elle a été créée.
 
 Pour créer une mesure calculée pour un seul projet :
 
