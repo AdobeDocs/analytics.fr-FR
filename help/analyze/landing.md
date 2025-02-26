@@ -4,9 +4,9 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1658'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '1463'
 ht-degree: 100%
 
 ---
@@ -134,4 +134,3 @@ Les utilisateurs peuvent définir la page de destination de leur choix.
 | Mes favoris Reports &amp; Analytics précédents sont-ils conservés ? | Non, ils ne sont PAS conservés. Toutefois, les favoris de projets de l’[!UICONTROL espace de travail] sont conservés. |
 | Existe-t-il un nombre maximal de projets que je peux épingler ? | Non, il nʼy a pas de limite au nombre de projets que vous pouvez épingler. |
 | Les administrateurs peuvent-ils désigner cette page de destination pour leurs utilisateurs ? | Non, les administrateurs ne peuvent pas désigner la page de destination au nom des utilisateurs. Les utilisateurs individuels doivent activer eux-mêmes le bouton bascule. |
-| Tous les rapports qui existent actuellement dans [!DNL Reports & Analytics] sont-ils toujours disponibles comme modèles ? | Non, les rapports suivants ont été rendu obsolètes, en fonction des données dʼutilisation globales : <ul><li>Tous les eVars, props, événements ou classifications personnalisés<li>Mes rapports recommandés</li><li>Visiteurs uniques par heure, par jour, par semaine, par mois, par trimestre et par an</li><li>Clients uniques par jour, par semaine, par mois, par trimestre et par an</li><li>Profondeur du nom de lʼaction</li><li>Résumé du nom de lʼaction</li><li>Ajouter tableau de bord</li><li>Âge</li><li>Prise en charge de lʼaudio</li><li>Informations de facturation</li><li>Clics vers la page</li><li>Profondeur de couleur</li><li>Prise en charge des cookies</li><li>Cookies</li><li>Types de connexion</li><li>Éléments créatifs</li><li>Type de carte de crédit</li><li>Vente croisée</li><li>Entonnoirs dʼévénement personnalisés</li><li>Liens personnalisés</li><li>Identifiant client</li><li>Jour de la semaine</li><li>Nom de lʼaction dʼentrée</li><li>Nom de lʼaction de sortie</li><li>Liens de sortie</li><li>Abandon</li><li>Téléchargements de fichiers</li><li>Trouver en magasin</li><li>Chemins complets</li><li>Genre</li><li>Règle VISTA de type Accès</li><li>Prise en charge des images</li><li>Java</li><li>JavaScript</li><li>Version JavaScript</li><li>Gestion des signets</li><li>Gérer les tableaux de bord</li><li>Profondeur de couleur de lʼécran</li><li>Résolutions dʼécran</li><li>Abonnements à la newsletter</li><li>Nom de lʼaction suivante</li><li>Flux du nom de lʼaction suivante</li><li>Recherches nulles</li><li>Système d’exploitation</li><li>Révision des commandes</li><li>Page de jour</li><li>Pages introuvables</li><li>PathFinder</li><li>Longueur de chemin</li><li>Nom de lʼaction précédente</li><li>Flux du nom de lʼaction précédente</li><li>Activités liées au produit</li><li>Coût du produit</li><li>Rayon du produit</li><li>Catégorie dʼinventaire du produit</li><li>Nom du produit</li><li>Évaluations du produit</li><li>Saison du produit</li><li>Partages du produit</li><li>Zooms sur le produit</li><li>Recharge</li><li>Recherches</li><li>Serveurs</li><li>Visites de page unique</li><li>Informations dʼexpédition</li><li>Hiérarchie du site</li><li>Mentions sur les réseaux sociaux</li><li>Heure</li><li>Temps passé sur le nom de lʼaction</li><li>Prise en charge de la vidéo</li><li>État des visiteurs</li></ul> |

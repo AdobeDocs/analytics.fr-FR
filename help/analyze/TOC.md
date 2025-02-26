@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: b1c16319c8ec7e84e4d9ff173a4919d18da5f010
-workflow-type: ht
-source-wordcount: '973'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '965'
 ht-degree: 100%
 
 ---
@@ -197,7 +197,6 @@ ht-degree: 100%
       + [Gestion des segments](legacy-report-builder/data-requests/segmentation.md)
       + Types de rapports {#report-types}
          + [Types de rapports - Aperçu](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-         + [Rapports Chemin et Abandon de chemin dans le Report Builder](legacy-report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrage des rapports Chemin en ajoutant des requêtes dépendantes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)

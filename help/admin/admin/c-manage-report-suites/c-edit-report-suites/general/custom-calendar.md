@@ -1,13 +1,13 @@
 ---
-description: Options de calendrier autres que le modèle grégorien. Les options incluent les modèles de calendrier 4-4-5, 4-5-4 et 5-4-4, qui sont tous des normes du secteur de la vente au détail. La création de rapports offre également un calendrier entièrement personnalisable que vous pouvez vous configurer vous-même.
+description: Options de calendrier autres que le modèle grégorien. Les options incluent les modèles de calendrier 4-4-5, 4-5-4 et 5-4-4, qui sont tous des normes du secteur de la vente au détail. Les rapports proposent également un calendrier entièrement personnalisable que vous pouvez configurer vous-même.
 title: Personnalisation du calendrier
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ Vous pouvez utiliser le calendrier pour définir le premier jour de la semaine e
 | Calendrier personnalisé | Offre trois formats selon le nombre de semaines de chaque mois. Le nombre de semaines dans le mois dépend du premier jour de l’année choisi.  Une année comporte 52 semaines. Divisez ce chiffre en 4 trimestres et vous obtenez 13 semaines par trimestre. Toutefois, un trimestre comprend 3 mois. 13 n’est pas divisible par trois. De ce fait, vous placez la semaine supplémentaire dans l’un des mois pour garantir la cohérence.<ul><li>5-4-4 signifie que la semaine supplémentaire a été ajoutée au premier mois. 4-5-4 signifie que la semaine supplémentaire a été ajoutée au deuxième mois, etc. Dans le calendrier 5-4-4, la 53e semaine est ajoutée au dernier trimestre de l’année.</li><li>4-5-4 : janvier comporte quatre semaines, février cinq, mars quatre, etc.</li><li>4-4-5 : janvier comporte quatre semaines, février quatre, mars cinq, etc.</li><li>5-4-4 : janvier comporte cinq semaines, février quatre, mars quatre, etc.</li></ul> |
 
 >[!NOTE]
->Ces options de calendrier sont prises en charge dans tous les outils Adobe Analytics (Analysis Workspace, Reports &amp; Analytics, Report Builder, Activity Map), à l’exception de Data Warehouse. Data Warehouse ne prend entièrement en charge que le calendrier grégorien. Lors du choix d’un calendrier non grégorien, Data Warehouse utilise la période prévue du calendrier non grégorien. Toutefois, les répartitions jour/semaine/mois dans les lignes du rapport peuvent ne pas correspondre aux attentes d’un calendrier non grégorien.
+>Ces options de calendrier sont prises en charge dans tous les outils Adobe Analytics (Analysis Workspace, Report Builder, Activity Map), à l’exception de Data Warehouse. Data Warehouse ne prend entièrement en charge que le calendrier grégorien. Lors du choix d’un calendrier non grégorien, Data Warehouse utilise la période prévue du calendrier non grégorien. Toutefois, les répartitions jour/semaine/mois dans les lignes du rapport peuvent ne pas correspondre aux attentes d’un calendrier non grégorien.

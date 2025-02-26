@@ -1,13 +1,13 @@
 ---
 title: Guide sur les outils Analytics
-description: Documentation sur les produits et aide autonome pour Analysis Workspace, Tableaux de bord Analytics (application mobile), Activity Map, Report Builder, API de création de rapports et Reports & Analytics.
+description: Documentation sur les produits et aide autonome pour Analysis Workspace, les tableaux de bord Analytics (application mobile), Activity Map et Report Builder.
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '531'
+ht-degree: 96%
 
 ---
 
