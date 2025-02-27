@@ -3,9 +3,9 @@ description: Les segments séquentiels sont créés en utilisant l’opérateur 
 title: Création des segments séquentiels
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ Identifier toutes les visites au cours desquelles un visiteur visite une page av
 
 ## [!UICONTROL Après] et [!UICONTROL Dans]
 
-Vous pouvez utiliser ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Après]** et ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Dans]** l’opérateur **[!UICONTROL Alors]** pour définir des [contraintes de temps](#time-constraints) ou [contraintes supplémentaires pour les Accès, Visites ou Dimensions ](#event-session-and-dimension-constraints).
+Vous pouvez utiliser ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Après]** et ![Horloge](/help/assets/icons/Clock.svg) **[!UICONTROL Dans]** l’opérateur **[!UICONTROL Alors]** pour définir des [contraintes de temps](#time-constraints) ou [contraintes supplémentaires pour les accès, les visites ou les dimensions](#event-session-and-dimension-constraints).
 
 ### Contraintes de temps
 
@@ -120,9 +120,9 @@ Identifiez les visiteurs qui ont visité une page, puis ont visité une autre pa
 Toutes les visiteuses qui accèdent à la page d’accueil le 1er juin 2024 et qui reviennent visiter les femmes | Page de chaussures après le 15 juin 2019 00:01, mais avant le 1er juillet 2019 pour le segment.
 
 
-### Contraintes [!UICONTROL Accès], [!UICONTROL Visite] et [!UICONTROL Dimension ]
+### Contraintes [!UICONTROL Accès], [!UICONTROL Visite] et [!UICONTROL Dimension]
 
-Les contraintes ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** et ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** vous permettent non seulement de spécifier une contrainte de temps, mais aussi une contrainte d’accès, de visite ou de dimension. Sélectionnez **[!UICONTROL Accès(s)]** **[!UICONTROL Visite(s)]** ou **[!UICONTROL Autres dimensions]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Nom de la Dimension *]**. Vous pouvez utiliser le champ [!UICONTROL *Rechercher*] pour rechercher une dimension.
+Les contraintes ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** et ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** vous permettent non seulement de spécifier une contrainte de temps, mais aussi une contrainte d’accès, de visite ou de dimension. Sélectionnez **[!UICONTROL Accès(s)]** **[!UICONTROL Visite(s)]** ou **[!UICONTROL Autres dimensions]** ![ChevronRight](/help/assets/icons/ChevronRight.svg) **[!UICONTROL *Nom du Dimension *]**. Vous pouvez utiliser le champ [!UICONTROL *Rechercher*] pour rechercher une dimension.
 
 #### Exemple
 
@@ -299,3 +299,7 @@ Dernier exemple : vous souhaitez identifier les visiteurs qui ont appris quelque
 
 
 ![ Exemple de segment séquentiel complexe ](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [Maîtriser la logique séquentielle dans AA et CJA : introduction à THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
