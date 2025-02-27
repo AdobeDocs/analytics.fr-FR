@@ -4,7 +4,7 @@ title: Questions fréquentes et résolution des problèmes dans Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 81%
@@ -45,25 +45,13 @@ Consultez la page [Optimisation des performances](/help/analyze/analysis-workspa
 
 +++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-
->[!BEGINSHADEBOX]
-
 Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
-
 
 +++
 
 +++Comment puis-je suivre l’utilisation de Workspace ?
 
-
->[!BEGINSHADEBOX]
-
 Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Log tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
-
 
 +++
 
