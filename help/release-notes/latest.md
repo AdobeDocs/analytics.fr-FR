@@ -4,47 +4,47 @@ description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (version de février 2025)
+# Notes de mise à jour actuelles d’Adobe Analytics (version de février 2025)
 
-**Dernière mise à jour** : samedi 21 février 2025
+**Dernière mise à jour** : 21 février 2025
 
-Ces notes de mise à jour couvrent la période du 11 février à la mi-mars 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du 15 février 2025 à mars 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Période de conservation de l’ID de transaction** | La période de conservation des ID de transaction de 90 jours a été étendue à 25 mois. La variable `transactionID` identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via la fonctionnalité Sources de données. En savoir plus [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid) et [ici](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid). |  | vendredi 20 février 2025 |
-| **Référence de l’API des flux de données** | La [référence](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) pour l’API des flux de données est désormais disponible. |  | 30 janvier 2025 |
-| **API Livestream - Implémentation du client** | Utilisez l’implémentation du client Livestream pour utiliser les données Livestream. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | mercredi 18 février 2025 |
-| **Mettre à jour vers l’API Classifications** | Vous pouvez désormais supprimer du serveur des champs ou des clés de classification individuels. Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | mercredi 18 février 2025 |
-| **Mise à jour des`a.locale`** de champs de données contextuelles Analytics | Une mise à jour planifiée modifie la manière dont le `a.locale` de champ de données contextuelles Analytics est défini lors de la collecte de données via Experience Edge. Lorsque des données sont envoyées à Adobe Analytics à l’aide d’Experience Edge, les champs Analytics sont renseignés en fonction d’un mappage de champs XDM. Le mappage de `c.a.locale` fait référence à un champ XDM non standard, `xdm.environment.language`. Ce champ sera mis à jour pour référencer le champ correct, `xdm.environment._dc.language`.<p>Le mappage continuera à référencer des `xdm.environment.language` à des fins de rétrocompatibilité. Pour la continuité, si les deux champs sont définis, `xdm.environment.language` est prioritaire. Vous pouvez consulter la liste complète des mappages de XDM vers les champs Analytics standard [ici](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | jeudi 5 mars 2025 |
+| **Période de conservation de l’ID de transaction** | La période de conservation de l’ID de transaction de 90 jours a été étendue à 25 mois. La variable `transactionID` identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via la fonctionnalité Sources de données. Pour en savoir plus, cliquez [ici](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/page-vars/transactionid) et [ici](https://experienceleague.adobe.com/fr/docs/analytics/import/data-sources/transactionid). |  | 20 février 2025 |
+| **Référence de l’API des flux de données** | La [référence pour l’API des flux de données](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs) est désormais disponible. |  | 30 janvier 2025 |
+| **API Livestream - Implémentation de la clientèle** | Utilisez l’implémentation de la clientèle Livestream pour utiliser les données Livestream. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 18 février 2025 |
+| **Mise à jour de l’API Classifications** | Vous pouvez désormais supprimer des champs ou des clés de classification individuels du serveur. Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 18 février 2025 |
+| **Mise à jour du champs de données contextuelles Analytics`a.locale`** | Une mise à jour planifiée modifie la manière dont le champ de données contextuelles Analytics `a.locale` est défini lors de la collecte de données via Experience Edge. Lorsque des données sont envoyées à Adobe Analytics à l’aide d’Experience Edge, les champs Analytics sont renseignés en fonction d’un mappage de champs XDM. Le mappage de `c.a.locale` fait référence à un champ XDM non standard, `xdm.environment.language`. Ce champ sera mis à jour pour référencer le champ correct, `xdm.environment._dc.language`.<p>Le mappage continuera à référencer des `xdm.environment.language` à des fins de rétrocompatibilité. Pour la continuité, si les deux champs sont définis, `xdm.environment.language` est prioritaire. Vous pouvez consulter la liste complète des mappages de XDM vers les champs Analytics standard [ici](https://experienceleague.adobe.com/fr/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 mars 2025 |
 
 
 ## Correctifs dans Adobe Analytics
 
-**Analysis Workspace**: AN-359974; AN-366212; AN-368460
-**Classifications** : AN-367186 ; AN-367328 ; AN-368548
-**Migration des composants** : AN-364529 ; AN-366398 ; AN-367509 ;
-**Flux de données** : AN-365685 ; AN-366745 ; AN-367256 ; AN-367349 ; AN-368363
-**Data Warehouse**: AN-368178; AN-368331;
-**Application mobile** : AN-367137
-**Platform** : AN-351924 ; AN-365540 ; AN-365866 ; AN-366898 ; AN-367856 ; AN-367933
-**Report Builder**: AN-366456; AN-366655;
-**Suites de rapports virtuelles** : AN-367411
-**Règles VISTA** : AN-365331
+**Analysis Workspace** : AN-359974 ; AN-366212 ; AN-368460
+**Classifications** : AN-367186 ; AN-367328 ; AN-368548
+**Migration des composants** : AN-364529 ; AN-366398 ; AN-367509 ;
+**Flux de données** : AN-365685 ; AN-366745 ; AN-367256 ; AN-367349 ; AN-368363
+**Data Warehouse** : AN-368178 ; AN-368331 ;
+**Application mobile** : AN-367137
+**Platform** : AN-351924 ; AN-365540 ; AN-365866 ; AN-366898 ; AN-367856 ; AN-367933
+**Report Builder** : AN-366456 ; AN-366655 ;
+**Suites de rapports virtuelles** : AN-367411
+**Règles VISTA** : AN-365331
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **La clientèle qui n’utilise pas Campaign n’aura plus accès à Triggers** | 16 octobre 2023 | Le 30 janvier 2025, les clients Adobe Analytics qui ne disposent pas d’une licence Adobe Campaign ont perdu l’accès à la possibilité de configurer et de consommer des [Triggers](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/triggers). Pour conserver cet accès, il est nécessaire d’acheter Campaign, d’envisager l’arrêt de l’utilisation de Triggers, ou de se tourner vers d’autres outils Adobe proposant des fonctionnalités similaires. |
+| **La clientèle qui n’utilise pas Campaign n’aura plus accès à Triggers** | 16 octobre 2023 | Le 30 janvier 2025, la clientèle Adobe Analytics qui ne dispose pas d’une licence Adobe Campaign perdra l’accès à la configuration et à l’utilisation de [Triggers](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/triggers). Pour conserver cet accès, il est nécessaire d’acheter Campaign, d’envisager l’arrêt de l’utilisation de Triggers, ou de se tourner vers d’autres outils Adobe proposant des fonctionnalités similaires. |
 
 ## Avis de fin de vie {#eol}
 
