@@ -4,16 +4,16 @@ description: Afficher les champs XDM que Edge mappe automatiquement aux variable
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
 
 # Mappage de la variable d’objet XDM à Adobe Analytics
 
-Le tableau ci-dessous présente les variables XDM que l’Edge Network Adobe Experience Platform mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans le groupe de champs **[!UICONTROL Modèle Adobe Analytics ExperienceEvent]**. L’utilisation de ces champs est recommandée si vous avez l’intention d’envoyer des données à Adobe Analytics et à Adobe Experience Platform.
+Le tableau suivant montre les variables XDM que Adobe Experience Platform Edge Network mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ XDM, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics. Ces champs sont inclus dans le groupe de champs **[!UICONTROL Modèle Adobe Analytics ExperienceEvent]**. L’utilisation de ces champs est recommandée si vous avez l’intention d’envoyer des données à Adobe Analytics et à Adobe Experience Platform.
 
 Si votre entreprise prévoit de passer à Customer Journey Analytics, Adobe recommande plutôt d’utiliser l’objet `data` pour envoyer directement des données à Adobe Analytics sans se conformer à un schéma. Cette stratégie permet à votre organisation d’utiliser votre propre schéma, au lieu d’utiliser le [!UICONTROL modèle Adobe Analytics ExperienceEvent] (qui s’applique moins à Customer Journey Analytics). Consultez [Mappage des variables d’objet de données à Adobe Analytics](data-var-mapping.md) pour obtenir un tableau de mappage similaire.
 
@@ -66,6 +66,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `xdm.environment.carrier` | Dimension du cycle de vie mobile [Nom de l’opérateur](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Permet de définir la dimension [Type de connexion](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Utilisé comme méthode d’identification [visiteur unique](../../components/metrics/unique-visitors.md) de secours. Généralement renseignée à l’aide de l’en-tête HTTP `X-Forwarded-For`. |
+| `xdm.environment._dc.language` | La dimension mobile Paramètres régionaux. |
 | `xdm.environment.language` | La dimension mobile Paramètres régionaux. |
 | `xdm.environment.operatingSystem` | Dimension du cycle de vie mobile [Système d’exploitation](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Permet de définir la dimension de cycle de vie mobile [Version du système d’exploitation](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
