@@ -4,10 +4,10 @@ description: Afficher les champs XDM que Edge mappe automatiquement aux variable
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `xdm.environment.carrier` | Dimension du cycle de vie mobile [Nom de l’opérateur](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.connectionType` | Permet de définir la dimension [Type de connexion](../../components/dimensions/connection-type.md). |
 | `xdm.environment.ipV4` | Utilisé comme méthode d’identification [visiteur unique](../../components/metrics/unique-visitors.md) de secours. Généralement renseignée à l’aide de l’en-tête HTTP `X-Forwarded-For`. |
-| `xdm.environment._dc.language` | La dimension mobile Paramètres régionaux. |
+| `xdm.environment._dc.language` | La dimension mobile Paramètres régionaux. Utilisé uniquement si xdm.environment.language n’est pas défini. |
 | `xdm.environment.language` | La dimension mobile Paramètres régionaux. |
 | `xdm.environment.operatingSystem` | Dimension du cycle de vie mobile [Système d’exploitation](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
 | `xdm.environment.operatingSystemVersion` | Permet de définir la dimension de cycle de vie mobile [Version du système d’exploitation](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
