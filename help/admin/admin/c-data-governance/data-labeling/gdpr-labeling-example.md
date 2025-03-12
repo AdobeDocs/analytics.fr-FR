@@ -4,10 +4,10 @@ title: Exemples dʼétiquetage
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -35,14 +35,14 @@ Supposons que vous avez les données d’accès suivantes :
 
 ## Exemple de requêtes d’accès {#access}
 
-Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au sujet des données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le sujet de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier d’HTML récapitulatif qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour le sujet de données et du nombre de fois où chaque valeur unique a été vue.
+Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au titulaire de données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le titulaire de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier HTML de résumé qui répertorie chaque variable, suivi de toutes les valeurs uniques affichées pour cette variable pour le titulaire de données et du nombre de fois où chaque valeur unique a été vue.
 
-Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et si `expandIds` est défini sur &quot;true&quot;.
+Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers de résumé ne sont renvoyés que si un ID de personne est utilisé et `expandIds` est vrai.
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valeurs de l’API</th>
-    <th rowspan="2">Résumé<br/>type de fichier<br/>renvoyé</th>
+    <th rowspan="2">Type <br/> fichier récapitulatif <br/> renvoyé</th>
     <th colspan="5" style="text-align:center">Données du fichier d’accès récapitulatif</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Dans notre exemple, le fichier récapitulatif contient les valeurs indiquées da
   </tr>
 </table>
 
-Notez que le paramètre de `expandIDs` n’a aucune incidence sur la sortie lorsqu’un ID de cookie est utilisé.
+Notez que le paramètre de `expandIDs` n’a aucune incidence sur la sortie lorsqu’un identifiant de cookie est utilisé.
 
 ## Exemples de requêtes de suppression {#delete}
 
@@ -219,7 +219,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les colonnes des lignes contenant `AAID=77` et une étiquette `DEL-DEVICE` sont impactées.
+>Seules les colonnes des lignes contenant des `AAID=77` et une étiquette de `DEL-DEVICE` sont affectées.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les colonnes des lignes contenant `user=Mary` et une étiquette `DEL-PERSON` sont impactées. En outre, dans la pratique, la variable contenant `A_ID` serait probablement une prop ou un eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
+>Seules les colonnes nls sur les lignes contenant des `user=Mary` et une étiquette de `DEL-PERSON` sont impactées. En outre, dans la pratique, la variable contenant `A_ID` serait probablement une prop ou une eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
 
 <table>
   <tr>
@@ -366,8 +366,4 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 Prenez note des points suivants :
 
 * Les cellules des lignes contenant `user=Mary` et une étiquette `DEL-PERSON` sont impactées.
-* En raison de l’extension d’ID, les cellules des lignes contenant `AAID=77`, `AAID=88` ou `AAID=99` (qui sont les valeurs AAID des lignes contenant `user=Mary`) et une étiquette `DEL-DEVICE` sont impactées. Cela inclut les cellules avec un libellé `DEL-DEVICE` sur les lignes contenant `user=Mary`. En conséquence, les cellules des lignes 4 et 5 (ainsi que des lignes 1 à 3) avec les libellés `DEL-DEVICE` (AAID, MyEvar2 et MyEvar3) sont obfusquées.
-* Le paramètre pour les expandID ne sʼétend pas à lʼappel pour inclure les valeurs présentes dans MyEvar3 (`X`, `Y` et `Z`), qui possède un libellé ID-DEVICE, en cas de `user=Mary`. Les expandID ne sʼétendent que pour inclure les identifiants visiteur (AAID dans cet exemple, mais également lʼECID) sur les lignes contenant `user=Mary`. Ainsi, les deux dernières lignes, dont les valeurs de MyEvar3 sont `X` et `Z`, ne sont pas impactées.
-* Les valeurs d’`MyEvar2` sont mises à jour dans les lignes 4 et 5, car elles contiennent les mêmes valeurs dʼidentifiant visiteur (`77` et `88`) que les lignes 1 et 2. Par conséquent, lʼextension dʼID les inclut pour les suppressions de niveau appareil.
-* Les valeurs de `MyEvar2` des deuxième et cinquième lignes correspondent avant et après la suppression. En revanche, après la suppression, elles ne correspondent plus à la valeur `N` présente dans la dernière ligne, car cette dernière nʼa pas été mise à jour suite à la demande de suppression.
-* `MyEvar3` se comporte très différemment avec l’extension d’ID, car sans extension d’ID, aucun `ID-DEVICES` ne correspondait. Désormais, `AAID` correspond dans les cinq premières lignes.
+
