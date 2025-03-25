@@ -4,10 +4,10 @@ title: Création de rapports en temps réel - Aperçu
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -17,13 +17,15 @@ Les rapports en temps réel affichent le trafic des pages web et classe les page
 
 >[!NOTE]
 >
->Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir la [configuration des rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>Les rapports en temps réel ne nécessitent aucune mise en œuvre ni aucun balisage supplémentaire. Elle repose sur le déploiement existant d’Adobe Analytics. Pour configurer les rapports en temps réel, voir [Configuration des rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 ## Accès aux rapports en temps réel
 
 1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**].
 
-1. Sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
+1. Sur le côté gauche de la page, sous **[!UICONTROL Modèles]**, sélectionnez [!UICONTROL **Modèles Adobe**].
+
+1. Sélectionnez [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
 
 ## Présentation des rapports en temps réel
 
@@ -49,7 +51,7 @@ En tant qu’administrateur, vous pouvez :
 
 * Comparer par exemple les valeurs de la semaine dernière à celles de l’année dernière (ainsi qu’au total d’aujourd’hui).
 
-N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour plus d’informations, voir le message d’avertissement capturé dans [Configuration des rapports en temps réel](/help/components/c-real-time-reporting/t-realtime-admin.md).
+N’oubliez pas que les eVars (mesures de conversion) ne sont pas prises en charge, puisqu’il n’y a aucun concept de permanence. Même si vous pouvez sélectionner des mesures de conversion, elles fonctionnent uniquement si elles sont définies sur la même page que la ou les dimensions. Pour plus d’informations, voir le message d’avertissement capturé dans [Configuration de rapports en temps réel](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 Seuls les administrateurs ou les utilisateurs des groupes d’autorisations Accès à tous les rapports et Création de rapports avancés peuvent configurer et afficher les rapports Temps réel. Toutefois, cette fonction respecte les autorisations. Si, par exemple, vous n’avez pas les droits permettant de consulter le revenu, vous ne pourrez pas consulter un rapport en temps réel qui inclut les données de revenu.
 
@@ -59,7 +61,7 @@ Une fois l’intégration A4T activée dans Adobe [!DNL Target], vous remarquere
 
 Cette augmentation se reflète dans tous les services et outils d’Adobe Analytics, notamment la diffusion en continu active et la création de rapports en temps réel, et s’applique dans les scénarios suivants :
 
-* Pour la diffusion en continu active, les rapports en temps réel, les demandes d’API et les données actives pour les variables de trafic, seuls les accès avec un ID de données supplémentaire sont retardés.
+* Pour la diffusion en direct, les rapports en temps réel et les requêtes d’API, ainsi que les données actives pour les variables de trafic, seuls les accès avec un ID de données supplémentaire sont retardés.
 * Pour les données actives sur les mesures de conversion, les données finalisées et les flux de données, tous les accès sont retardés de 5 à 7 minutes supplémentaires.
 
 Gardez à l’esprit que l’augmentation de latence débute une fois que vous avez implémenté le service d’identité, même si vous n’avez pas entièrement implémenté cette intégration.

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: ht
-source-wordcount: '6237'
-ht-degree: 100%
+source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+workflow-type: tm+mt
+source-wordcount: '6234'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Décembre 2023** | |
 | Amélioration de la documentation sur les règles de robots. | Mise à jour des informations dans [Comprendre et configurer des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) afin d’améliorer la clarté.<p>Les améliorations sont les suivantes :</p> <ul><li>Mise à jour du titre de l’article afin qu’il soit plus explicite.</li><li>Amélioration de l’organisation des informations</li><li>Ajout d’étapes indiquant des informations basées sur des tâches</li><li>Ajout d’informations supplémentaires sur les exigences de fichier CSV lors du téléchargement de règles de robots.</li></ul> |
-| Nouvelle section Rapports | Ajout d’une nouvelle section Rapports qui contient des informations sur l’[utilisation de rapports préconfigurés](/help/analyze/analysis-workspace/reports/use-reports.md) et la [création et gestion de rapports d’entreprise](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| Nouvelle section Rapports | Ajout d’une nouvelle section Rapports qui contient des informations sur [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md) et [la création de modèles d’entreprise](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Mises à jour de la documentation Détection des anomalies et Analyse des contributions | La documentation relative à la détection des anomalies et à l’analyse des contributions se trouvait auparavant dans une section sur Virtual Analyst. Les modifications suivantes ont été apportées : <ul><li>Le terme Virtual Analyst a été supprimé de la documentation.</li><li>La section sur la [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) a été déplacée directement sous la section Analysis Workspace.</li><li>La documentation sur l’analyse des contributions a été fusionnée dans la documentation sur la détection des anomalies.</li></ul> |
 | « Attribution IQ » a été remplacé par « Attribution ». | Changement de toutes les occurrences d’« Attribution IQ » en « [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) » dans la documentation. |
 | **Novembre 2023** | |

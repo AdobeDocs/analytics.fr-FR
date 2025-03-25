@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Un nouveau Report Builder simplifié de [](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview) a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->Cette version de complément de Report Builder héritée fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) en nouveau Report Builder.
+>Un nouveau [Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
+>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) dans le nouveau Report Builder.
 
 ## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->À compter du **17 janvier 2024**, l’Adobe a arrêté Reports &amp; Analytics et les rapports et fonctionnalités qui l’accompagnent. À ce moment-là, Reports &amp; Analytics et l’ensemble de ses rapports et plannings ont cessé de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Pour plus d’informations sur l’utilisation des rapports dans Analysis Workspace, voir [ Utilisation de rapports préconfigurés ](/help/analyze/analysis-workspace/reports/use-reports.md).
+>À compter du **17 janvier 2024** Adobe a arrêté Reports &amp; Analytics et les rapports et fonctionnalités qui l’accompagnent. À ce moment-là, Reports &amp; Analytics et l’ensemble de ses rapports et plannings ont cessé de fonctionner. Reports &amp; Analytics sʼappuie sur des rapports, des visualisations et des technologies sous-jacentes qui ne répondent plus aux normes technologiques dʼAdobe. La plupart des fonctionnalités de Reports &amp; Analytics sont disponibles dans Analysis Workspace. Pour plus d’informations, voir [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Depuis la publication d’Analysis Workspace en 2015, les fonctionnalités de Reports &amp; Analytics ont migré vers Analysis Workspace, de telle sorte quʼun seuil de parité en matière de workflow a été atteint. Cet avis décrit le processus de fin de vie.
 >
@@ -139,7 +139,7 @@ Diverses visualisations dans l’analyse des Parcours client sont conçues pour 
 
 Utilisez les informations suivantes pour choisir la visualisation qui répond le mieux à vos besoins.
 
-| Fonction | Zone de travail du parcours | Abandon | Flux |
+| Fonction | Zone de travail des parcours | Abandon | Flux |
 |---------|----------|---------|---------|
 | **Ordre prédéfini des pages** | Oui</br>Combine une analyse prédéfinie et exploratoire. Le chemin d’accès final est utilisé lors de l’utilisation de nœuds prédéfinis sur le chemin d’accès (les visiteurs sont comptabilisés tant qu’ils passent finalement d’un nœud prédéfini à l’autre). Les nœuds immédiats (et non éventuels) suivants peuvent également être affichés. | Oui</br>le chemin peut être un chemin éventuel ou peut être limité au point de contact suivant | Non |
 | **Séquence exploratoire des pages (analyse ad hoc)** | Oui</br>Combine une analyse prédéfinie et exploratoire. Le chemin d’accès final est utilisé lors de l’utilisation de nœuds prédéfinis sur le chemin d’accès (les visiteurs sont comptabilisés tant qu’ils passent finalement d’un nœud prédéfini à l’autre). Les nœuds immédiats (et non éventuels) suivants peuvent également être affichés. | Limité</br>Permet d’effectuer un clic droit et d’afficher les abandons immédiats dans un tableau à structure libre. | Oui</br>Analyse exploratoire uniquement. Toujours au sein d’une instance de dimension entre les nœuds. Cela signifie que chaque nœud affiche le point de contact suivant immédiat (et non éventuel) le long du chemin. |

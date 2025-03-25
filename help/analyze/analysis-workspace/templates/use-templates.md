@@ -4,7 +4,7 @@ title: Utiliser les modèles
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
 source-wordcount: '18666'
 ht-degree: 83%
@@ -41,7 +41,7 @@ Les informations suivantes décrivent comment accéder aux modèles et les utili
 
    * **[!UICONTROL _login_company_name _templates]**: affiche tous les modèles d’entreprise qui ont été créés pour votre organisation.
 
-     Seuls les administrateurs peuvent créer des modèles d’entreprise. Pour plus d’informations sur la création d’un modèle d’entreprise, voir [Création et gestion de modèles](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+     Seuls les administrateurs peuvent créer des modèles d’entreprise. Pour plus d’informations sur la création d’un modèle d’entreprise, voir [Création et gestion de modèles](/help/analyze/analysis-workspace/templates/create-templates.md).
 
 1. Utilisez l’une des options suivantes pour modifier l’affichage des modèles disponibles :
 
