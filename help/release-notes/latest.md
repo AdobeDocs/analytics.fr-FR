@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: ht
-source-wordcount: '730'
-ht-degree: 100%
+source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour portent sur la période du 5 mars à mai 2025. Les m
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Mise à jour du champs de données contextuelles Analytics`a.locale`** | Cette mise à jour modifie la manière dont le champ de données contextuelles `a.locale` est défini lors de la collecte de données via Experience Edge. Lorsque des données sont envoyées à Adobe Analytics à l’aide d’Experience Edge, les champs Analytics sont renseignés en fonction d’un mappage de champs XDM. Le mappage de `c.a.locale` fait référence à un champ XDM non standard, `xdm.environment.language`. Ce champ sera mis à jour pour référencer le champ correct, `xdm.environment._dc.language`.<p>Le mappage continuera à référencer des `xdm.environment.language` à des fins de rétrocompatibilité. Pour la continuité, si les deux champs sont définis, `xdm.environment.language` est prioritaire. Vous pouvez consulter la liste complète des mappages de XDM vers les champs Analytics standard [ici](https://experienceleague.adobe.com/fr/docs/analytics/implementation/aep-edge/xdm-var-mapping). | | 5 mars 2025 |
-| **Guide de mise à niveau de Customer Journey Analytics** | Permet de générer un guide détaillé pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. Ce guide est adapté à votre organisation et prend en compte votre environnement Adobe Analytics actuel, les utilisations prévues de Customer Journey Analytics et les compromis que votre entreprise souhaite réaliser pour gagner du temps.<p>Pour commencer à générer votre guide personnalisé, connectez-vous à [!DNL Customer Journey Analytics], puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans l’onglet **[!UICONTROL Workspace]**.<p>[En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11 mars 2025 |
+| **Guide de mise à niveau de Customer Journey Analytics** | Permet de générer un guide détaillé pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. Ce guide est adapté à votre organisation et prend en compte votre environnement Adobe Analytics actuel, les utilisations prévues de Customer Journey Analytics et les compromis que votre organisation souhaite réaliser pour gagner du temps.<p>Pour commencer à générer votre guide personnalisé, connectez-vous à [!DNL Customer Journey Analytics], puis sélectionnez **[!UICONTROL Mettre à niveau vers Customer Journey Analytics]** dans l’onglet **[!UICONTROL Espace de travail]**.<p>[En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 11 mars 2025 |
 | **Dimensions Data Warehouse uniquement** | À partir de mai 2025, Adobe commencera à définir des dimensions (variables personnalisées telles que des eVars et des props) qui présentent une cardinalité extrêmement élevée sur « Data Warehouse uniquement ». Les variables à cardinalité élevée ont de nombreuses valeurs distinctes, par exemple, la date et l’heure ou les UUID. Ces dimensions ne seront plus disponibles pour la création de rapports dans Analysis Workspace.<p>Les dimensions susceptibles d’être modifiées dépassent les limites de faible trafic très tôt dans le mois. Avec ces types de dimensions, les rapports dans Analysis Workspace qui sont basés sur cette dimension ne sont pas utiles, car les données à signaler ne représentent qu’une mince tranche des valeurs initiales qui ont été collectées.<p>Étant donné que Data Warehouse n’impose pas de limites de faible trafic, vous pouvez toujours créer des rapports ou des segments utiles basés sur ces types de dimensions. | | Mai 2025 |
 
 
@@ -54,7 +54,7 @@ Ces notes de mise à jour portent sur la période du 5 mars à mai 2025. Les m
 
 ## AppMeasurement
 
-Pour connaître les dernières mises à jour des versions d’AppMeasurement (version 2.27.0), reportez-vous aux [Notes de mise à jour d’AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=fr).
+Pour connaître les dernières mises à jour des versions d’AppMeasurement, reportez-vous aux [notes de mise à jour d’AppMeasurement pour JavaScript](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Ressources connexes
