@@ -4,63 +4,62 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 87%
+source-wordcount: '2730'
+ht-degree: 86%
 
 ---
 
 # Notes de mise à jour d’AppMeasurement pour JavaScript
 
-Notes de mise à jour cumulées pour AppMeasurement pour JavaScript.
+>[!IMPORTANT]
+>
+>À compter de mars 2025, cet article ne sera plus mis à jour. Vous pouvez afficher les notes de mise à jour d’et télécharger la dernière version d’AppMeasurement à partir de [GitHub](https://github.com/adobe/appmeasurement/releases).
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-Vous pouvez télécharger la dernière version d’AppMeasurement à partir de [GitHub](https://github.com/adobe/appmeasurement/releases).
 
 ## Version 2.27.0
 
 Date de publication : **mardi 12 août 2024**
 
-* Le cookie `s_ac` est maintenant écrit avec l’indicateur `secure` si `writeSecureCookies` a été activé.
-* Correction d’une erreur d’initialisation lorsque la bibliothèque est incorporée.
-* Correction d&#39;une erreur si `localStorage` ou `sessionStorage` avait été désactivé.
-* Les indicateurs User-Agent à forte entrée sont désormais inclus avec les appels de suivi des liens (`tl`) si `collectHighEntropyUserAgentHints` a été activé.
+* Le cookie `s_ac` est désormais écrit avec l’indicateur `secure` si `writeSecureCookies` a été activé.
+* Correction d’une erreur d’initialisation lorsque la bibliothèque était incorporée en ligne.
+* Correction d’une erreur en cas de désactivation de `localStorage` ou `sessionStorage`.
+* Les User-Agent Hints à entropie élevée sont désormais inclus dans les appels de suivi des liens (`tl`) si `collectHighEntropyUserAgentHints` a été activé.
 
 ## Version 2.26.0
 
 Date de publication : **mardi 4 mars 2024**
 
-* AppMeasurement reconnaît et utilise automatiquement le domaine racine pour les domaines de niveau supérieur du code de pays, qui nécessitaient auparavant des configurations de domaine de cookie spécifiques. La mise à jour peut avoir des implications en raison de cette reconnaissance automatique. Voir [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) pour plus d’informations.
-* La distribution comprend la bibliothèque Identity Service 5.5.0 et Data Integration Library 9.6.
+* AppMeasurement reconnaît et utilise automatiquement le domaine racine pour les domaines de niveau supérieur de code de pays, qui nécessitaient auparavant des configurations de domaine de cookie spécifiques. La mise à jour peut avoir des implications en raison de cette reconnaissance automatique. Voir [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) pour plus d’informations.
+* La distribution comprend Identity Service Library 5.5.0 et Data Integration Library 9.6.
 
 ## Version 2.25.0
 
 Date de publication : **mercredi 12 septembre 2023**
 
-* Ajout de la méthode facultative [`bufferRequests()`](vars/functions/bufferrequests.md) pour améliorer la fiabilité de la capture des requêtes lorsqu’un navigateur ne prend pas en charge l’API de balise ou annule les requêtes lors du déchargement d’une page.
-* Ajout de protections pour empêcher plusieurs rappels après suivi pour une seule requête de suivi.
+* Ajout de la méthode facultative [`bufferRequests()`](vars/functions/bufferrequests.md) d’améliorer la fiabilité de la capture de requêtes lorsqu’un navigateur ne prend pas en charge l’API de balise ou annule les requêtes lors du déchargement d’une page.
+* Ajout de mesures de sécurité pour empêcher plusieurs rappels de post-suivi pour une seule demande de suivi.
 
 ## Version 2.24.0
 
 Date de publication : **mercredi 18 juillet 2023**
 
-* Ajout de la variable de configuration facultative [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) pour décoder les URL de lien contenant des caractères codés sur deux octets.
-* Ajout d’une gestion des erreurs supplémentaire pour les navigateurs avec des API User-Agent à forte entropie défectueuses.
-* Modification de l’en-tête Content-Type du POST pour utiliser `x-www-form-urlencoded` par défaut.
+* Ajout de la variable de configuration facultative [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) pour décoder les URL de lien qui incluent des caractères codés sur deux octets.
+* Ajout de la gestion des erreurs supplémentaires pour les navigateurs dotés d’API d’indications du client de l’agent utilisateur à entropie élevée défectueuses.
+* Modification de l’en-tête Type de contenu POST pour utiliser `x-www-form-urlencoded` par défaut.
 
 ## Version 2.23.0
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des conseils client via des balises ou utiliser la variable de configuration [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La collection d’indices à forte entropie est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
+* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des indications du client via des balises ou utiliser la variable de configuration [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La collecte d’indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
 Date de publication : **18 janvier 2022**
 
-* L’appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient un attribut `href` de type `string`. S’il ne s’agit pas d’un `string`, il ignore normalement l’attribut `href` au lieu d’échouer. Ce scénario peut se produire lorsque vous transmettez `svg` objets à l’appel de suivi des liens.
+* L’appel de suivi des liens `s.tl()` vérifie désormais que l’objet qui lui est transmis contient un attribut `href` de type `string`. S’il ne s’agit pas d’un `string`, il ignore gracieusement l’attribut `href` au lieu d’échouer. Ce scénario peut se produire lorsque vous transmettez des objets `svg` à l’appel de suivi des liens.
 
 ## Version 2.22.3
 
@@ -72,7 +71,7 @@ Date de publication : **11 octobre 2021**
 
 Date de publication : **7 septembre 2021**
 
-* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Pour plus d’informations, consultez la section [Création de rapports sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) du guide d’utilisation destiné à l’administrateur.
+* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Pour plus d’informations, consultez la section [Compte rendu des performances sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) dans le guide d’utilisation destiné à l’administrateur.
 
 ## Version 2.22.1
 
@@ -356,7 +355,7 @@ Date de publication : **5 novembre 2015**
 Date de publication : **17 septembre 2015**
 
 * Inclusion de l’API visiteur version 1.5.2
-* Mise à jour du module [!DNL Audience Manager] pour utiliser les identifiants Adobe Audience Manager DIL 6.2 - getCustomer de VisitorAPI.js et les transmettre dans l’appel d’événement à Adobe Audience Manager. (AN-104978)
+* Mise à jour du module [!DNL Audience Manager] pour utiliser Adobe Audience Manager DIL 6.2 - obtenir les ID de client à partir de VisitorAPI.js et les transmettre dans l’appel /event à Adobe Audience Manager. (AN-104978)
 
 ## Version 1.5
 
@@ -370,8 +369,8 @@ Date de publication : **18 juin 2015**
 
 Date de publication : **21 mai 2015**
 
-* À compter de la version 4.5 du SDK iOS, une nouvelle extension iOS permet de collecter les données d’utilisation des applications de surveillance Apple, des widgets d’aujourd’hui, des widgets de retouche photo et de toutes les autres applications d’extension iOS.
-* À compter de la version 4.5 du SDK Android, une nouvelle extension Android permet de collecter des données à partir de votre application portable Android.
+* À partir de la version 4.5 d’iOS SDK, une nouvelle extension iOS vous permet de collecter des données d’utilisation à partir de vos applications Apple Watch, des widgets Today, des widgets de retouche photo et de toutes les autres applications d’extension iOS.
+* À partir de la version 4.5 d’Android SDK, une nouvelle extension Android vous permet de collecter des données à partir de votre application portable Android.
 * Inclusion de l’API visiteur version 1.4.
 * Mise à jour du module AudienceManagement afin de permettre l’utilisation de DIL version 6.0.
 
@@ -392,7 +391,7 @@ Date de publication : **16 avril 2015**
 Date de publication : **19 février 2015**
 
 * Homogénéisation de la gestion de tous les appels de suivi retardés, avec correction des problèmes liés aux variables sauvegardées durant le retard (par exemple l’objet sur lequel on a cliqué).
-* Changement en &quot;ne pas procéder au suivi automatique des référents&quot; après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent lorsque *`s.referrer`* a été manuellement défini avant le premier appel de suivi.
+* Modification de pour ne pas effectuer de suivi automatique des référents après le premier appel de suivi de sorte que le 2e, 3e, etc. appel de suivi (généralement le suivi des liens) ne comptabilise pas deux fois le référent lorsqu’*`s.referrer`* a été défini manuellement avant le premier appel de suivi.
 * Le fichier compressé de distribution a été mis à jour pour inclure l’API visiteur 1.3.5.
 
 ## Version 1.4.2
