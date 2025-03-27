@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Mars 2025** |  |
+| Formatage des dates clarifié dans les exportations Data Warehouse | Les valeurs de dimension basées sur l’heure dans les exportations Data Warehouse ont un formatage de date non standard. Ajout d’informations expliquant comment interpréter les valeurs de date à partir d’exportations Data Warehouse. <p>Voir [Dimensions prises en charge d’une autre manière (format de date non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) dans [Prise en charge des composants dans Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
+| Mise à jour des informations sur les exclusions d’adresses IP | Ajout d’informations expliquant que les [exclusions d’adresses IP](/help/admin/admin/exclude-ip.md) peuvent prendre jusqu’à 5 minutes avant d’être prises en compte et que les modifications ne s’appliquent qu’aux nouveaux accès (les données capturées avant que l’exclusion ne soit définie ne sont pas affectées). <p>Mise à jour de la disposition du contenu pour améliorer la lisibilité.</p> |
 | **Février 2025** |  |
 | Mise à jour des informations sur la suspension et la réactivation d’un flux de données | Lors de la [suspension et réactivation d’un flux de données](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), le comportement des flux actifs a été clarifié. Le traitement des données ne se produit pas entre le moment où le flux est mis en pause et celui où il est réactivé. |
 | Modification de la période de conservation de l’ID de transaction | La période de conservation de l’ID de transaction de 90 jours a été étendue à 25 mois. La variable transactionID identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via la fonctionnalité Sources de données. Pour en savoir plus, cliquez [ici](https://experienceleague.adobe.com/fr/docs/analytics/implementation/vars/page-vars/transactionid?lang=fr) et [ici](https://experienceleague.adobe.com/fr/docs/analytics/import/data-sources/transactionid?lang=fr). |
