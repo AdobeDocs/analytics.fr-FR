@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+source-git-commit: e0f6b7b5b2933add7f67873a945b78e4200116eb
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '725'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ Ces notes de mise à jour portent sur la période du 5 mars à mai 2025. Les m
 
 ## AppMeasurement
 
-Pour connaître les dernières mises à jour des versions d’AppMeasurement, reportez-vous aux [notes de mise à jour d’AppMeasurement pour JavaScript](https://github.com/adobe/appmeasurement/releases).
+Pour connaître les dernières mises à jour des versions d’AppMeasurement, consultez les [notes de mise à jour d’AppMeasurement](https://github.com/adobe/appmeasurement/releases).
 
 
 ## Ressources connexes
