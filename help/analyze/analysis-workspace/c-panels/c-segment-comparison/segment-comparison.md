@@ -1,18 +1,18 @@
 ---
-title: Panneau de comparaison des segments - Aperçu
+title: Vue d’ensemble du panneau de comparaison des segments
 description: Découvrez comment utiliser le panneau de comparaison des segments, un composant de Segment IQ dans Analysis Workspace.
 keywords: Analysis Workspace ; Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# Panneau de comparaison des segments - Aperçu {#segment-comparison-overview}
+# Vue d’ensemble du panneau de comparaison des segments {#segment-comparison-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 37%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Cet article présente le panneau de comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des
 
 ## Utilisation
 
-Pour utiliser un panneau **[!UICONTROL Attribution]** :
+Pour utiliser un panneau **[!UICONTROL Attribution]**, procédez comme suit :
 
 1. Créez un panneau **[!UICONTROL Attribution]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](../panels.md#create-a-panel).
 
@@ -62,36 +62,36 @@ Pour utiliser un panneau **[!UICONTROL Attribution]** :
 
 ### Entrée du panneau
 
-Vous pouvez configurer le panneau [!UICONTROL Comparaison des segments] à l’aide des paramètres d’entrée suivants :
+Vous pouvez configurer le panneau [!UICONTROL Comparaison des segments] à l’aide des paramètres d’entrée suivants :
 
-![Panneau de saisie de comparaison des segments](assets/segment-comparison-input.png)
+![Panneau d’entrée de comparaison des segments](assets/segment-comparison-input.png)
 
 | Entrée | Description |
 | --- | --- |
 | **[!UICONTROL Ajouter un segment]** | Sélectionnez la dimension par rapport à laquelle effectuer la comparaison. |
-| **[!UICONTROL Comparer]** | Sélectionnez la dimension à utiliser pour comparer le segment sélectionné initial. Si vous ne sélectionnez pas de segment spécifique, le segment par défaut **[!UICONTROL Tous les autres]** est utilisé. |
-| **[!UICONTROL Afficher/masquer les paramètres avancés]** | Sélectionnez **[!UICONTROL Afficher les paramètres avancés]** pour configurer **[!UICONTROL Composants exclus]**, sélectionnez **[!UICONTROL Masquer les paramètres avancés]** pour masquer **[!UICONTROL Composants exclus]**. |
-| **[!UICONTROL Composants exclus]** | Composants que vous pouvez spécifier, tels que **[!UICONTROL Dimensions]**, **[!UICONTROL Mesures]** ou **[!UICONTROL Segments]** pour l’exclusion.<br><ul><li>Faites glisser et déposez une ou plusieurs dimensions, mesures ou segments des conteneurs dans le conteneur **[!UICONTROL Composants exclus]**.</li><li>Pour supprimer un composant, sélectionnez le type (**[!UICONTROL Dimension]** **[!UICONTROL Mesures]** ou **[!UICONTROL Segments]**) et sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg). Pour supprimer tous les composants, sélectionnez **[!UICONTROL Effacer tout]**.</li><li>Pour définir la sélection actuelle de dimensions, mesures et segments comme valeur par défaut, sélectionnez **[!UICONTROL Définir comme valeur par défaut]**.</li></ul> |
+| **[!UICONTROL Comparer]** | Sélectionnez la dimension à utiliser pour comparer le segment sélectionné initial. Si vous ne sélectionnez pas de segment spécifique, le segment par défaut **[!UICONTROL Toutes les autres personnes]** est utilisé. |
+| **[!UICONTROL Afficher/masquer les paramètres avancés]** | Sélectionnez **[!UICONTROL Afficher les paramètres avancés]** pour configurer les **[!UICONTROL Composants exclus]**. Sélectionnez **[!UICONTROL Masquer les paramètres avancés]** pour masquer les **[!UICONTROL Composants exclus]**. |
+| **[!UICONTROL Composants exclus]** | Composants que vous pouvez spécifier, tels que **[!UICONTROL Dimensions]**, **[!UICONTROL Mesures]** ou **[!UICONTROL Segments]** pour l’exclusion.<br><ul><li>Faites glisser et déposez une ou plusieurs dimensions, mesures ou segments des conteneurs dans le conteneur **[!UICONTROL Composants exclus]**.</li><li>Pour supprimer un composant, sélectionnez le type (**[!UICONTROL Dimension]**, **[!UICONTROL Mesures]** ou **[!UICONTROL Segments]**) et ![CrossSize75](/help/assets/icons/CrossSize75.svg). Pour supprimer tous les composants, sélectionnez **[!UICONTROL Effacer tout]**.</li><li>Pour définir la sélection actuelle de dimensions, mesures et segments comme valeur par défaut, sélectionnez **[!UICONTROL Définir comme valeur par défaut]**.</li></ul> |
 
 Sélectionnez **[!UICONTROL Créer]** pour créer le panneau.
 
 ### Sortie du panneau
 
-Une fois qu’Adobe Analytics a terminé l’analyse des deux segments souhaités, le panneau de sortie affiche les résultats au moyen de plusieurs visualisations :
+Une fois qu’Adobe Analytics termine l’analyse des deux segments souhaités, le panneau de sortie affiche ses résultats au moyen de plusieurs visualisations :
 
 ![Comparaison des segments de sortie de panneau](assets/segment-comparison-output.png)
 
 | Visualisation | Description |
 |---|---|
-| **[!UICONTROL Taille et chevauchement]** | Illustre avec une visualisation [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) les tailles comparatives de chaque segment sélectionné et leur degré de chevauchement les unes avec les autres. |
-| **[!UICONTROL Visiteurs uniques pour le premier segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le premier segment (dans l’exemple Visites sur une seule page) |
-| **[!UICONTROL Visiteurs uniques pour le deuxième segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le deuxième segment (dans l’exemple Premières visites) |
-| **[!UICONTROL Principales mesures des segments]** | Un [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
-| **[!UICONTROL Mesure au fil du temps par segment]** | Une visualisation [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) présentant les mesures au fil du temps pour les segments sélectionnés. |
-| **[!UICONTROL Principaux éléments de dimension par rapport aux segments]** | Un [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) présentant les éléments de dimension mixtes pour les segments sélectionnés. |
-| **[!UICONTROL Éléments de Dimension par segments]** | Une visualisation [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) présentant les éléments de dimension par segment. |
-| **[!UICONTROL Segments principaux par rapport aux segments]** | Un [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) qui affiche les principaux segments par rapport aux segments. |
-| **[!UICONTROL Chevauchement des segments]** | Visualisation [de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) qui affiche le chevauchement des segments. |
+| **[!UICONTROL Taille et chevauchement]** | Illustre au moyen d’une visualisation [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) les tailles comparatives de chaque segment sélectionné et la façon dont les segments se chevauchent les uns les autres. |
+| **[!UICONTROL Visiteurs et visiteuses uniques pour le premier segment]** | Visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs et visiteuses uniques pour le premier segment (dans l’exemple Visites sur une seule page) |
+| **[!UICONTROL Visiteurs et visiteuses uniques pour le deuxième segment]** | Visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs et visiteuses uniques pour le deuxième segment (dans l’exemple Premières visites) |
+| **[!UICONTROL Principales mesures des segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
+| **[!UICONTROL Mesure dans le temps par segment]** | Visualisation [Graphique en courbes](/help/analyze/analysis-workspace/visualizations/line.md) présentant les mesures au fil du temps pour les segments sélectionnés. |
+| **[!UICONTROL Principaux éléments de dimension par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) présentant les éléments de dimension mixtes pour les segments sélectionnés. |
+| **[!UICONTROL Éléments de dimension par segment]** | Visualisation [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) présentant les éléments de dimension par segment. |
+| **[!UICONTROL Segments principaux par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principaux segments par rapport aux segments. |
+| **[!UICONTROL Chevauchement des segments]** | Visualisation [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) affichant le chevauchement des segments. |
 
 Utilisez ![Modifier](/help/assets/icons/Edit.svg) pour reconfigurer et recréer le panneau.
 

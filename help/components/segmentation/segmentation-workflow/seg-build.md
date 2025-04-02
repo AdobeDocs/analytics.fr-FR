@@ -4,9 +4,9 @@ title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
->title="Instance non répétitive"
+>title="Instance non répétée"
 >abstract="Inclut des instances uniques (non répétées) pour la dimension."
 
 <!-- markdownlint-enable MD034 -->
@@ -66,7 +66,7 @@ Il existe plusieurs façons d’accéder au Créateur de segments :
 
 * **Volet de navigation supérieur d’Analytics** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Composants]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]** : cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, ouvrez un projet et cliquez sur **[!UICONTROL + Nouveau]** > **[!UICONTROL Créer un segment]**.
-* **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]** : [ajoutez ou modifiez des segments dans le créateur de segments](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Critères du créateur {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,7 +78,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Description]** : fournissez une description du segment.
 1. **[!UICONTROL Balises]** : [marquez le segment](/help/components/segmentation/segmentation-workflow/seg-workflow.md) que vous créez en effectuant une sélection depuis une liste de balises existantes ou en créant une balise.
 1. **[!UICONTROL Définitions]** : il s’agit de l’espace de travail dans lequel vous [créez et configurez des segments](/help/components/segmentation/segmentation-workflow/seg-workflow.md), ajoutez des règles, et imbriquez et séquencez des conteneurs.
-1. **[!UICONTROL Afficher]** : (sélecteur de conteneur supérieur). Permet de sélectionner le [conteneur](/help/components/segmentation/seg-overview.md) de niveau supérieur ( [!UICONTROL Visiteur], [!UICONTROL Visite], [!UICONTROL Accès]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
+1. **[!UICONTROL Afficher]** : (sélecteur de conteneur supérieur). Permet de sélectionner le [conteneur](/help/components/segmentation/seg-overview.md) de niveau supérieur ([!UICONTROL Visiteur ou visiteuse], [!UICONTROL Visite], [!UICONTROL Accès]). Le conteneur de niveau supérieur par défaut est le conteneur Accès.
 1. **[!UICONTROL Options]** : icône (engrenage)
 
    * **[!UICONTROL + Ajouter un conteneur]** : permet d’ajouter un nouveau conteneur (sous le conteneur de niveau supérieur) à la définition de segment.
@@ -101,7 +101,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
    |---|---|---|---|---|---|---|
    | Répétitif | X | X | X | - | X | - |
    | Instance | X | X | - | - | X | - |
-   | Instance non répétitive | X | - | - | - | X | - |
+   | Instance non répétée | X | - | - | - | X | - |
 
 1. **[!UICONTROL And/Or/Then]** : affecte les opérateurs [!UICONTROL AND/OR/THEN] entre des conteneurs ou règles. L’opérateur THEN permet de [définir des segments séquentiels](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Mesure]** : (barre latérale verte) qui a été glissée-déposée depuis la liste Mesures.
@@ -116,7 +116,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. **[!UICONTROL Segments]** : cliquez sur l’en-tête pour développer la liste.
 1. **[!UICONTROL Sélecteur de suite de rapports]** : permet de sélectionner la suite de rapports sous laquelle ce segment sera enregistré. Vous pouvez tout de même utiliser le segment dans toutes les suites de rapport.
 1. **[!UICONTROL Aperçu de segments]** : permet de prévisualiser les mesures clés afin de vérifier que votre segment est valide et consulter sa largeur. Représente la répartition du jeu de données auquel vous pouvez vous attendre si vous appliquez ce segment. Affiche 3 cercles concentriques et une liste afin d’afficher le nombre et le pourcentage de correspondances pour [!UICONTROL Accès], [!UICONTROL Visites] et [!UICONTROL Visiteurs] pour une exécution de segment par rapport à un jeu de données. Ce graphique est mis à jour immédiatement une fois que vous avez créé ou apporté des modifications à votre définition de segment.
-1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Cependant, tous les opérateurs et dimensions ne sont pas compatibles avec tous les produits Analytics, en particulier [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
+1. **[!UICONTROL Compatibilité des produits]** : fournit une liste des produits Adobe Analytics (Analysis Workspace, Data Warehouse) avec lesquels le segment que vous avez créé est compatible. La plupart des segments sont compatibles avec tous les produits. Néanmoins, tous les opérateurs et dimensions ne sont pas compatibles avec l’ensemble des produits Analytics, notamment avec [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md). Ce graphique est mis à jour instantanément quand vous modifiez votre définition de segment.
 1. **[!UICONTROL Enregistrer]** ou **[!UICONTROL Annuler]** : permet d’enregistrer ou d’annuler le segment. Après avoir cliqué sur **[!UICONTROL Enregistrer]** vous accédez au Gestionnaire de segments qui vous permet de gérer le segment.
 
 
@@ -132,7 +132,7 @@ Vous pouvez ajouter des définitions de règles et des conteneurs pour définir 
 1. Saisissez ou sélectionnez une valeur pour l’élément sélectionné.
 1. Ajoutez des conteneurs supplémentaires, le cas échéant, en utilisant les règles **[!UICONTROL AND]**, **[!UICONTROL OR]** ou **[!UICONTROL THEN]**.
 1. Après avoir placé les conteneurs et défini les règles, consultez les résultats du segment dans le graphique de validation dans la partie supérieure droite. Le programme de validation indique le pourcentage et le nombre absolu de pages vues, de visites et de visiteurs uniques qui correspondent au segment que vous avez créé.
-1. Sous **[!UICONTROL Balises]**, [balise](/help/components/segmentation/segmentation-workflow/seg-tag.md) sélectionnez une balise existante ou créez-en une.
+1. Sous **[!UICONTROL Balises]**, [marquez](/help/components/segmentation/segmentation-workflow/seg-tag.md) le conteneur en sélectionnant une balise existante ou en en créant une.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer le segment.
 
 Vous accédez maintenant au [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md), où vous pouvez marquer, partager et gérer votre segment de différentes manières.
@@ -273,7 +273,7 @@ Les modèles sont identifiés par le logo « A » d’Adobe. Vous trouverez ci
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir d’appareils non mobiles </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs n’utilisant pas d’appareils mobiles. Dans la définition de segment, le conteneur est Visite. Ce segment utilise la logique Exclure. La règle est la suivante : <p>Type d’appareil mobile = Téléphone mobile </p> <p>OU </p> <p>Type d’appareil mobile = Tablette. </p> </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs n’utilisant pas d’appareils mobiles. Dans la définition de segment, le conteneur est Visite. Ce segment utilise la logique Exclure. La règle est la suivante : <p>Type d’appareil mobile = Téléphone mobile </p> <p>Ou </p> <p>Type d’appareil mobile = Tablette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de téléphones </td> 

@@ -1,12 +1,12 @@
 ---
-description: En savoir plus sur les
+description: En savoir plus sur
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Utilisation d’un modèle d’attribution différent du modèle par défaut"
+>title="Utiliser un modèle d’attribution différent du modèle par défaut"
 >abstract="Activez un modèle d’attribution autre que celui par défaut pour la mesure sélectionnée."
 
 <!-- markdownlint-enable MD034 -->
@@ -97,7 +97,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
->title="En forme de J inversé"
+>title="Inverse J"
 >abstract="60 % du crédit à la première valeur de dimension, 20 % à la dernière, 20 % partagés par le milieu."
 
 <!-- markdownlint-enable MD034 -->
@@ -142,7 +142,7 @@ Lors de la [création d’une mesure calculée](/help/components/c-calcmetrics/c
 
 ## Type de mesure
 
-Pour spécifier le type de mesure lors de la création d’une mesure calculée :
+Pour spécifier le type de mesure lors de la création d’une mesure calculée, procédez comme suit :
 
 1. Sélectionnez l’icône en forme d’engrenage en regard de la mesure dont vous souhaitez sélectionner le type.
 
@@ -153,15 +153,15 @@ Pour spécifier le type de mesure lors de la création d’une mesure calculée 
    | Type de mesure | Définition |
    |---|---|
    | Standard | Ces mesures sont les mêmes mesures que celles utilisées dans la création de rapports standard [!DNL Analytics]. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque ligne. Par exemple, [Commandes] / [Visites] utilise des commandes pour cette ligne spécifique et la divise par le nombre de visites correspondant à cette ligne spécifique. |
-   | Total général | Utilisez le total général pour la période de reporting dans chaque élément de ligne. Si une formule consiste en une seule mesure Total général , elle affiche le même nombre total sur chaque élément de ligne. Les mesures de total général sont utiles pour créer des mesures calculées qui effectuent une comparaison avec les données totales du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur la ligne spécifique objet. |
+   | Total général | Utilisez le total général correspondant à la période de création de rapports de chaque ligne. Si une formule est composée d’une seule mesure Total général, elle affiche le même nombre total sur chaque élément de ligne. Les mesures Total général s’avèrent utiles pour créer des mesures calculées qui sont comparées au nombre total de données du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur l’élément de ligne spécifique. |
 
-## Fonctionnement de l’allocation linéaire
+## Fonctionnement de l’affectation linéaire
 
-L’[attribution](/help/analyze/analysis-workspace/attribution/overview.md) est la manière dont les modèles d’attribution dans les mesures calculées sont évalués.
+L’[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) a revu la manière dont les modèles dʼaffectation dans les mesures calculées sont évalués.
 
 Pour obtenir la liste complète des modèles dʼattribution et des intervalles de recherche en amont autres que par défaut pris en charge, voir [Modèles dʼattribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
 
-L’exemple suivant illustre le fonctionnement des mesures calculées avec des allocations linéaires dans les rapports :
+L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire fonctionnent dans les rapports :
 
 | | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

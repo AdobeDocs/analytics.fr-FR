@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -23,24 +23,23 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Texte dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Texte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Texte dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Texte](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/text) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
-Vous pouvez
-Pour ajouter du texte enrichi défini par l’utilisateur à votre projet Workspace, vous pouvez utiliser une visualisation ![Texte](/help/assets/icons/Text.svg) **[!UICONTROL Texte]** ou des descriptions pour une visualisation et un panneau.
+Pour ajouter du texte enrichi défini par l’utilisateur ou l’utilisatrice à votre projet Workspace, vous pouvez utiliser une visualisation ![Texte](/help/assets/icons/Text.svg) **[!UICONTROL Texte]** ou des descriptions pour une visualisation et un panneau.
 
 ## Utilisation
 
-La visualisation Texte peut être utilisée des manières suivantes :
+La visualisation Texte peut être utilisée des manières suivantes :
 
 1. Ajoutez une visualisation ![Texte](/help/assets/icons/Text.svg) **[!UICONTROL Texte]**. Voir [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
-1. Dans un panneau ou une visualisation, dans le menu contextuel, sélectionnez **[!UICONTROL Modifier la description]**.
+1. Dans un panneau ou une visualisation, sélectionnez **[!UICONTROL Modifier la description]** dans le menu contextuel.
 
-   Sélectionnez ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) une fois la modification de la description terminée, sélectionnez ![CloseCircle](/help/assets/icons/CloseCircle.svg) pour annuler.
+   Sélectionnez ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) une fois la modification de la description terminée. Sélectionnez ![CloseCircle](/help/assets/icons/CloseCircle.svg) pour annuler.
 
-Vous pouvez modifier la mise en forme de votre texte, ajouter des liens hypertexte et ajouter des images.
+Vous pouvez également modifier la mise en forme de votre texte, ajouter des liens hypertexte et des images.
 
 ## Ajustement de la mise en forme {#format}
 
@@ -48,14 +47,14 @@ Lors de la modification de la zone de texte ou de la description, vous pouvez aj
 
 ![Options de texte d’un projet Workspace mettant en surbrillance la palette de couleurs du texte.](assets/format.png)
 
-## Ajout de liens hypertextes {#hyperlinks}
+## Ajouter des liens hypertexte {#hyperlinks}
 
-Pour ajouter un lien hypertexte, mettez le texte en surbrillance et sélectionnez ![Lien](/help/assets/icons/Link.svg) dans le menu. Vous pouvez utiliser des liens hypertexte pour apporter une aide supplémentaire aux destinataires de vos projets. Des liens hypertexte peuvent renvoyer vers des sites web externes, des pages de documentation, des projets Workspace [](/help/analyze/analysis-workspace/curate-share/shareable-links.md) des panneaux ou des visualisations, etc.
+Pour ajouter un lien hypertexte, mettez le texte en surbrillance puis cliquez sur ![Lien](/help/assets/icons/Link.svg) dans le menu. Vous pouvez utiliser des liens hypertexte pour apporter une aide supplémentaire aux destinataires de vos projets. Des liens hypertexte peuvent renvoyer vers des sites web externes, des pages de documentation, [des projets, des panneaux ou des visualisations Workspace](/help/analyze/analysis-workspace/curate-share/shareable-links.md), etc.
 
 ![Options de texte avec l’icône de lien mise en surbrillance.](assets/hyperlink.png)
 
-## Ajout d’images {#images}
+## Ajouter des images {#images}
 
-Pour ajouter une image à votre projet, sélectionnez ![Image](/help/assets/icons/Image.svg) dans le menu, puis insérez une URL d’image publique. L’URL de l’image doit être accessible publiquement, commencer par `https` et être au format `.png`, `.jpeg`, `.jpg` ou `.gif`. Les images statiques et animées sont prises en charge.
+Pour ajouter une image à votre projet, sélectionnez ![Image](/help/assets/icons/Image.svg) dans le menu et insérez une URL d’image publique. L’URL de l’image doit être accessible publiquement, commencer par `https` et être au format `.png`, `.jpeg`, `.jpg` ou `.gif`. Les images statiques et animées sont prises en charge.
 
 ![Options de texte avec l’icône d’image sélectionnée.](assets/image.png)

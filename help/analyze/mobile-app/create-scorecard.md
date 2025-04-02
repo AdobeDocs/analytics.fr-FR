@@ -1,13 +1,13 @@
 ---
-description: Création et partage de cartes de performance de tableaux de bord Adobe Analytics
+description: Créer et partager des cartes de performance de tableaux de bord Adobe Analytics
 title: Créer et partager des cartes de performance mobiles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ ht-degree: 80%
 
 <!-- markdownlint-enable MD034 -->
 
-Les informations suivantes indiquent aux curateurs des données Adobe Analytics comment configurer et présenter des cartes de performance mobiles pour les utilisateurs en charge de lʼexécution. Pour commencer, vous pouvez visionner la vidéo sur le créateur de cartes de performance des tableaux de bord Adobe Analytics :
+Les informations suivantes indiquent aux éditeurs et éditrices des données Adobe Analytics comment configurer et présenter des cartes de performance mobiles pour les cadres. Regardez dʼabord la vidéo sur le Créateur de cartes de performance pour les tableaux de bord Adobe Analytics :
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance mobiles](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -34,11 +34,11 @@ Une carte de performance Adobe Analytics affiche les visualisations de données 
 
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
-En tant que curateur de cette carte de performance, vous pouvez utiliser le créateur de cartes de performance pour configurer les vignettes qui s’affichent sur la carte de performance pour votre client en charge de l’exécution. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du créateur de cartes de performance est affichée ci-dessous :
+En tant qu’éditeur ou éditrice de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les vignettes qui apparaissent sur la carte de performance du cadre ou de la cadre. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les vignettes. L’interface du Créateur de cartes de performance est illustrée ci-dessous :
 
-![Créateur de Fiche d’évaluation](assets/scorecard_builder.png)
+![Créateur de cartes de performance](assets/scorecard_builder.png)
 
-Pour créer la carte de performance, procédez comme suit :
+Pour créer la carte de performance, procédez comme suit :
 
 1. Accédez au modèle de [!UICONTROL Fiche d’évaluation mobile vierge].
 1. Configurer la carte de performance avec des données, puis enregistrez-la.
@@ -50,7 +50,7 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 ### Créer un nouveau projet {#create}
 
 1. Ouvrez Adobe Analytics, puis cliquez sur l’onglet **[!UICONTROL Espace de travail]**.
-1. Cliquez sur **[!UICONTROL Créer un projet]** et sélectionnez le modèle de projet **[!UICONTROL Carte de performance mobile vierge]**.
+1. Cliquez sur **[!UICONTROL Créer un projet]**, puis sélectionnez le modèle de projet **[!UICONTROL Carte de performance mobile vierge]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 
 ![Modèle de Fiche d’évaluation](assets/new_template.png)
@@ -62,13 +62,13 @@ Vous pouvez accéder au modèle de [!UICONTROL Carte de performance mobile vierg
 
 ## Configurez la carte de performance avec des données, puis enregistrez-la. {#configure}
 
-Pour implémenter le modèle de carte de performance :
+Pour implémenter le modèle de carte de performance, procédez comme suit :
 
 1. Dans **[!UICONTROL Propriétés]** (dans le rail droit), précisez la **[!UICONTROL suite de rapports du projet]** depuis laquelle vous souhaitez utiliser les données.
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-1. Pour ajouter une nouvelle mosaïque à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Glisser-déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+1. Pour ajouter une nouvelle vignette à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Faire glisser et déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -87,9 +87,9 @@ Par exemple, vous pouvez ajouter des dimensions appropriées (comme **[!DNL Mark
 
 Pour appliquer des segments à des mosaïques individuelles, faites glisser un segment du panneau de gauche et déposez-le directement en haut de la mosaïque.
 
-Si vous souhaitez appliquer le segment à toutes les mosaïques de la carte de performance, déposez la mosaïque en haut de celle-ci. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos cartes de performance](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) comme vous le feriez dans Adobe Analytics Workspace.
+Si vous souhaitez appliquer le segment à toutes les vignettes de la carte de performance, déposez la vignette en haut de la carte de performance. Vous pouvez également appliquer des segments en les sélectionnant dans le menu de filtre situé sous les périodes. Vous [configurez et appliquez des filtres pour vos cartes de performance](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de la même manière que dans Adobe Analytics Workspace.
 
-![Création de segments pour le filtre](assets/segment_ui.png)
+![Créer des segments pour le filtre](assets/segment_ui.png)
 
 ## Ajout de périodes {#dates}
 
@@ -109,7 +109,7 @@ Pour créer une date de comparaison, vous pouvez choisir parmi des paramètres p
 
 ![Nouvelle carte de performance 4](assets/new_score_card4.png)
 
-Si la période souhaitée n’a pas encore été créée, vous pouvez en créer une en cliquant sur l’icône de calendrier.
+Si la période souhaitée n’a pas encore été créée, vous pouvez la créer en cliquant sur l’icône de calendrier.
 
 ![Nouvelle carte de performance 5](assets/new_score_card5.png)
 
@@ -181,7 +181,7 @@ Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos
 
 ## Afficher et configurer des propriétés dʼune vignette {#tiles}
 
-Lorsque vous cliquez sur une mosaïque du créateur de cartes de performance, le rail de droite affiche les propriétés et les caractéristiques associées à cette mosaïque et à sa diapositive détaillée. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la vignette ainsi que la configurer en appliquant des segments.
+Lorsque vous cliquez sur une vignette dans le créateur de cartes de performance, le rail de droite affiche les propriétés et les caractéristiques associées à cette vignette et à sa diapositive détaillée. Dans ce rail, vous pouvez fournir un nouveau **titre** pour la vignette ainsi que la configurer en appliquant des segments.
 
 ![Vignette Propriétés](assets/properties-tile-new.png)
 
@@ -235,7 +235,7 @@ Pour ajouter du texte à une diapositive détaillée, sélectionnez une disposit
 
 ## Supprimer des composants {#remove}
 
-De même, pour supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur celle-ci en dehors des mosaïques, puis supprimez le composant en cliquant sur le **x** qui s’affiche lorsque vous placez le pointeur de la souris au-dessus de lui, comme indiqué ci-dessous pour le segment **Premières visites** :
+De même, si vous souhaitez supprimer un composant appliqué à la totalité de la carte de performance, cliquez n’importe où sur la carte en dehors des vignettes, puis supprimez-le en cliquant sur le **x** qui apparaît lorsque vous pointez sur le composant, comme indiqué ci-dessous pour le segment **Premières visites** :
 
 ![Remove_components](assets/new_remove.png)
 
@@ -248,7 +248,7 @@ Si, par exemple, vous cherchez à augmenter votre trafic web, la mesure la plus 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Create data stories](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer des histoires de données](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -296,7 +296,7 @@ Les histoires de données vous permettent de personnaliser chaque élément, afi
    ![Création d’une histoire de données](assets/data-story4.png)
 
 >[!NOTE]
->Les diapositives héritent des composants de la mosaïque, mais les mosaïques n’héritent pas des composants des diapositives.
+>Les diapositives héritent des composants de la vignette, mais l’inverse n’est pas vrai.
 
 **Pour personnaliser des diapositives individuelles**
 
@@ -338,15 +338,15 @@ Vous pouvez prévisualiser l’aspect et le fonctionnement de la carte de perfor
 
    * Cliquer et maintenir la touche appuyée pour simuler la pression et le maintien de votre doigt sur l’écran du téléphone. Cela s’avère utile pour interagir avec les visualisations dans la vue détaillée.
 
-## Nommer une carte de performance {#name}
+## Attribuer un nom à une carte de performance {#name}
 
-Pour attribuer un nom à la carte de performance, cliquez sur l’espace de noms dans le coin supérieur gauche de l’écran, puis saisissez le nouveau nom.
+Pour attribuer un nom à la carte de performance, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## Partage dʼune carte de performance {#share}
 
-Pour partager la carte de performance avec un utilisateur en charge de l’exécution :
+Pour partager la carte de performance avec un cadre ou une cadre, procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
 
@@ -361,25 +361,25 @@ Pour partager la carte de performance avec un utilisateur en charge de l’exéc
 
 ![Share_Scorecards](assets/new_share.png)
 
-Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si vous apportez des modifications ultérieures à la carte de performance dans le créateur de cartes de performance, elles seront automatiquement mises à jour dans la carte de performance partagée. Les utilisateurs en charge de l’exécution pourront voir les modifications après l’actualisation de la carte de performance sur leur application.
+Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la carte de performance dans le Créateur de cartes de performance, celles-ci seront mises à jour automatiquement dans la carte de performance que vous avez partagée. Les cadres pourront accéder aux changements en actualisant la carte de performance sur leur application.
 
-Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous voudrez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de lʼexécution ont accès à ces modifications.
+Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous souhaiterez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que les cadres ont accès à ces modifications.
 
 ### Partager des cartes de performance à l’aide d’un lien partageable {#shareable-link}
 
-L’utilisation d’un lien partageable facilite le partage d’une carte de performance dans un e-mail, un document ou une application de messagerie texte. Le lien partageable permet aux destinataires d’ouvrir la carte de performance sur leur bureau ou dans l’application mobile des tableaux de bord. Les liens profonds partageables facilitent encore plus le partage de projets et stimulent l’engagement avec vos parties prenantes.
+L’utilisation d’un lien partageable facilite le partage d’une carte de performance dans un e-mail, un document ou une application de messagerie. Le lien partageable permet aux destinataires d’ouvrir la carte de performance sur leur bureau ou dans l’application mobile des tableaux de bord. Les liens profonds partageables facilitent encore plus le partage de projets et stimulent l’engagement avec vos parties prenantes.
 
-Pour partager une carte de performance à l’aide d’un lien partageable
+Partager une carte de performance à l’aide d’un lien partageable
 
-1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
+1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la carte de performance]**.
 
    ![Share_Scorecards](assets/share-scorecard.png)
 
 1. Copiez le lien et collez-le dans un e-mail, un document ou une application de messagerie instantanée.
 
-   Lorsqu’un destinataire utilise une application de bureau ou un navigateur pour ouvrir le lien, le projet de carte de performance mobile s’ouvre dans Workspace.
+   Lorsqu’une personne destinataire utilise une application de bureau ou un navigateur pour ouvrir le lien, le projet de carte de performance mobile s’ouvre dans Workspace.
 
-   Lorsqu’un destinataire ouvre le lien sur un appareil mobile, la carte de performance s’ouvre directement dans l’application des tableaux de bord Analytics.
+   Lorsqu’une personne destinataire ouvre le lien sur un appareil mobile, la carte de performance s’ouvre directement dans l’application des tableaux de bord Analytics.
 
-   Si un destinataire n&#39;a pas téléchargé l&#39;application mobile, il est redirigé vers la liste des applications dans l&#39;App Store Store ou Google Play Store, où il peut la télécharger.
+   Si une personne destinataire n’a pas téléchargé l’application mobile, elle est redirigée vers la liste des applications dans l’App Store ou le Google Play Store, où elle peut la télécharger.
 

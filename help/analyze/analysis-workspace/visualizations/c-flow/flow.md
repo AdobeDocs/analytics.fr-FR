@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ Elle vous offre les possibilités suivantes :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [visualisation de flux](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Flux](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!MORELIKETHIS]
 >
->[Configurer une visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configurer une visualisation Flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -67,7 +67,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!BEGINSHADEBOX]
 
-Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation des flux](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation Flux](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

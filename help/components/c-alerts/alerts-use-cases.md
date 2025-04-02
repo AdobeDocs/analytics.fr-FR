@@ -1,22 +1,22 @@
 ---
-description: Cas pratiques de création et de gestion des alertes
-title: Alertes - cas pratiques
+description: Cas d’utilisation relatifs à la création et à la gestion d’alertes.
+title: Alertes - Cas d’utilisation
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
-# Alertes - cas pratiques
+# Alertes - Cas d’utilisation
 
 Vous pouvez créer des alertes comme décrit dans la section [Créer des alertes](/help/components/c-alerts/alert-builder.md).
 
-Les sections suivantes illustrent des exemples de cas d’utilisation à prendre en compte lors de la création d’alertes.
+Les sections suivantes présentent des exemples de cas d’utilisation à prendre en compte lors de la création d’alertes.
 
-## Création d’une alerte simple filtrée par deux segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Créer une alerte simple filtrée par deux segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
 <!-- 
 

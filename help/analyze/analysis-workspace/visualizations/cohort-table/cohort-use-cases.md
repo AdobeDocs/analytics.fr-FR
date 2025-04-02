@@ -6,9 +6,9 @@ feature: Cohort Analysis
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Vous pouvez créer une [!UICONTROL analyse des cohortes] sur six mois :
 
 **Mesure de retour** : sessions ou lancements
 
-Les visiteurs ne sont pas considérés comme *`engaged`* au cours des mois suivants, sauf s’ils ont une session ou ont au moins lancé l’application. [!UICONTROL L’analyse des cohortes] présenterait alors les différents schémas d’utilisation où *`App Install`* survient toujours durant le mois 0. Il se peut que l’utilisation chute au mois 2, peu importe quand les utilisateurs ont installé l’application. (Pour ceux qui ont installé l’application en janvier 2015, le mois 2 équivaut à mars 2015 ; pour ceux qui ont installé l’application en février 2015, le mois 2 équivaut à avril 2015 ; etc.) Cette analyse permet d’envoyer un message électronique ou un message Push à tous les utilisateurs durant le deuxième mois après l’installation de l’application, afin de leur rappeler d’utiliser l’application.
+Les visiteurs et visiteuses ne sont pas considérés comme *`engaged`* durant les mois suivants, à moins qu’ils n’ouvrent une session ou au moins démarrent l’application. [!UICONTROL L’analyse des cohortes] présenterait alors les différents schémas d’utilisation où *`App Install`* survient toujours durant le mois 0. Il se peut que l’utilisation chute au mois 2, peu importe quand les utilisateurs ont installé l’application. (Pour ceux qui ont installé l’application en janvier 2015, le mois 2 équivaut à mars 2015 ; Pour ceux qui ont installé l’application en février 2015, le mois 2 est avril 2015, etc.) Cette analyse vous permet d’envoyer un e-mail ou un message push à tous les utilisateurs et utilisatrices au cours du deuxième mois suivant l’installation de l’application afin de leur rappeler de l’utiliser.
 
 ## Cas d’utilisation de l’abonnement {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
@@ -62,6 +62,6 @@ Une multinationale du secteur des médias tire parti de campagnes ciblées pour 
 
 Un grand détaillant de vêtements dispose de nombreux segments spécifiques de clients qui génèrent de larges portions de recettes pour son activité. Chaque segment présente des produits spécifiques conçus et créés avec le segment à l’esprit. Avec chaque lancement de produit, ils veulent savoir comment le nouveau produit a dynamisé les ventes pour diverses cohortes au cours du temps. Au moyen du nouveau paramètre [!UICONTROL Tableau de latence] dans l’[!UICONTROL analyse des cohortes], ils peuvent analyser le comportement et les recettes d’un segment donné de clients, avant et après le lancement. À l’aide de ces informations, ils peuvent identifier les produits qui génèrent de nouvelles recettes et ceux qui ne plaisent pas aux clients.
 
-## Attractivité individuelle : la plupart des utilisateurs fidèles utilisent le cas
+## Attractivité personnelle - Cas d’utilisation des utilisateurs et utilisatrices les plus fidèles
 
 Une grande compagnie aérienne doit la majeure partie de son succès et de ses recettes à ses clients récurrents et fidèles. Dans nombre de cas, ses voyageurs fidèles représentent la majorité de ses recettes, et elle doit impérativement retenir ces clients pour assurer son succès à long terme. Il est souvent difficile d’identifier les clients les plus fidèles et constants. Néanmoins, le nouveau paramètre [!UICONTROL Calcul variable] dans l’[!UICONTROL analyse des cohortes] leur a permis d’analyser les segments de clients fidèles et de déterminer les voyageurs récurrents mois après mois. Ils ont ensuite pu cibler ces voyageurs avec des récompenses et des avantages pour les remercier de leur fidélité. De plus, en passant le type de cohorte de rétention à perte de clientèle, ils ont pu identifier les clients non récurrents mois après mois et cibler ces segments avec des promotions afin de les réengager et de s’assurer qu’ils restent des clients fidèles à l’avenir.

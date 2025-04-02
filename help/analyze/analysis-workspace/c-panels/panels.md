@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Un [!UICONTROL panneau] est un ensemble de tableaux et de visualisations. Vous p
 
 ## Types de panneaux
 
-Les types de panneau suivants sont disponibles dans Analysis Workspace pour [!UICONTROL Adobe Analytics] :
+Les types de panneau suivants sont disponibles dans Analysis Workspace pour [!UICONTROL Adobe Analytics] :
 
 | Nom du panneau | Description |
 | --- | --- |
@@ -48,7 +48,7 @@ Pour créer un panneau :
 
   ![Créer un panneau](assets/create-panel.png)
 
-Vous pouvez :
+Vous pouvez effectuer les opérations suivantes :
 
 * Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **dans** n’importe quel panneau pour ajouter une autre visualisation. Une fenêtre contextuelle s’affiche, vous permettant de sélectionner une visualisation.
 
@@ -80,22 +80,22 @@ Vous pouvez :
 
 Chaque panneau est associé à une [suite de rapports](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**dans le menu déroulant en haut à droite du panneau.
 
-Lorsque vous créez un panneau, la suite de rapports par défaut est basée sur la suite de rapports du panneau sur lequel vous avez travaillé pour la dernière fois dans le projet Analysis Workspace.
+Lorsque vous créez un panneau, la suite de rapports par défaut est basée sur la suite de rapports du panneau sur lequel vous avez travaillé pour la dernière fois dans le projet Analysis Workspace.
 
-Dans un projet, vous pouvez utiliser une ou [ suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=fr) selon les cas pratiques de votre analyse.
+Dans un projet, vous pouvez utiliser une ou [plusieurs suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=fr) selon les cas d’utilisation de votre analyse.
 
-La liste des suites de rapports est triée en fonction de la pertinence. Adobe définit cette dernière selon le caractère récent et la fréquence d’utilisation de la suite par l’utilisateur, ainsi que selon sa fréquence d’utilisation au sein de l’organisation.
+La liste des suites de rapports est triée en fonction de la pertinence. Adobe définit la pertinence en fonction de la fréquence dʼutilisation récente de la suite par lʼutilisateur ou lʼutilisatrice actuels et de la fréquence dʼutilisation de la suite au sein de lʼentreprise.
 
 ![](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
->La suite de rapports sélectionnée détermine les dimensions, mesures et segments disponibles pour la création de visualisations dans un panneau.
+>La suite de rapports sélectionnée détermine les dimensions, les mesures et les segments disponibles pour la création des visualisations dans un panneau.
 >
 >
->Lorsque vous changez de suite de rapports pour un panneau, certains composants peuvent ne pas être disponibles dans cette nouvelle suite de rapports. Cette modification peut empêcher votre visualisation de s’afficher correctement. Des avertissements peuvent s’afficher, par exemple :
+>Lorsque vous changez la suite de rapports d’un panneau, certains composants peuvent ne pas être disponibles dans la nouvelle suite de rapports. Cette modification peut empêcher votre visualisation de s’afficher correctement. Des avertissements peuvent s’afficher, par exemple :
 >
->* Ce panneau contient des composants qui ne sont pas activés dans la suite de rapports sélectionnée. Modifiez la suite de rapports ou activez les composants requis dans la suite de rapports.
+>* Ce panneau contient des composants qui ne sont pas activés dans la suite de rapports sélectionnée. Changez de suite de rapports ou activez les composants requis dans la suite de rapports.
 >* Impossible d’afficher la visualisation : vérifiez vos colonnes et lignes pour vous assurer qu’elles contiennent des composants valides.
 >
 
@@ -105,7 +105,7 @@ Le calendrier de panneau contrôle la période des rapports des tableaux et des 
 
 >[!NOTE]
 >
->Si un composant ![Calendrier](/help/assets/icons/Calendar.svg) Période est utilisé dans une visualisation ou un panneau (par exemple, en tant que segment), il remplace le calendrier du panneau.
+>Si un composant de période ![Calendrier](/help/assets/icons/Calendar.svg) est utilisé dans une visualisation ou un panneau (par exemple, comme segment), le composant de période remplace le calendrier de panneau.
 >
 
 
@@ -139,17 +139,17 @@ Sélectionnez **[!UICONTROL Appliquer à tous les panneaux]** pour appliquer la 
 
 ## Zone de dépôt {#dropzone}
 
-La zone de dépôt du panneau vous permet d’appliquer des segments et des segments déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs segments à un panneau.
+La zone de dépôt des panneaux vous permet d’appliquer des segments et des segments déroulants à tous les tableaux et visualisations d’un panneau. Vous pouvez appliquer un ou plusieurs segments à un panneau.
 
 ### Segments
 
-Faites glisser et déposez des segments du panneau de gauche dans la zone de dépôt du panneau pour commencer à segmenter le panneau. Répétez ce processus pour ajouter des segments supplémentaires au panneau. Les segments apparaissent côte à côte en haut du panneau.
+Faites glisser un segment à partir du panneau de gauche vers la zone de dépôt du panneau pour commencer la segmentation de votre panneau. Répétez cette procédure pour ajouter des segments supplémentaires au panneau. Les segments s’affichent côte à côte en haut du panneau.
 
 ![Le panneau de gauche affiche les mesures disponibles et la mesure client ou cliente mobile déposée dans la zone de dépôt du panneau.](assets/segment-filter.png)
 
 #### Segments rapides
 
-Vous pouvez également faire glisser les composants qui ne sont pas des segments directement dans la zone de dépôt pour créer des segments rapides, ce qui vous permet de gagner du temps et vous évite de passer par le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). Les segments ainsi créés sont automatiquement définis comme des segments au niveau de l’événement. Cette définition peut être rapidement modifiée en sélectionnant ![Modifier](/help/assets/icons/Edit.svg) en regard du nom du segment.
+Vous pouvez également faire glisser les composants qui ne sont pas des segments directement vers la zone de dépôt pour créer des segments rapides, ce qui vous permet de gagner du temps et vous évite de passer par le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). Les segments ainsi créés sont automatiquement définis comme des segments de niveau événement. Cette définition peut être rapidement modifiée en sélectionnant l’option ![Modifier](/help/assets/icons/Edit.svg) à côté du nom du segment.
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
@@ -167,55 +167,55 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments dérou
 
 #### Segments déroulants statiques
 
-Les segments déroulants statiques vous permettent d’interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un segment de liste déroulante pour les types d’appareils mobiles afin de segmenter le panneau par tablette, téléphone mobile ou bureau.
+Les segments déroulants statiques vous permettent d’interagir avec les données de manière contrôlée. Par exemple, vous pouvez ajouter un segment de menu déroulant pour les types d’appareil mobile afin de segmenter le panneau par tablette, téléphone mobile ou poste de travail.
 
-Les segments déroulants statiques peuvent également être utilisés pour consolider de nombreux projets en un seul. Par exemple, si vous disposez de plusieurs versions du même projet avec différents segments de pays appliqués, vous pouvez consolider toutes les versions en un seul projet et ajouter un segment déroulant Pays .
+Les segments déroulants statiques peuvent également être utilisés pour consolider plusieurs projets en un seul. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents, vous pouvez les fusionner en un seul projet et ajouter un segment de menu déroulant Pays.
 
-![Segments déroulants statiques présentant le filtre Canal de marché « Direct » mis en surbrillance. ](assets/dropdown-filter-intro.png)
+![Segments déroulants statiques affichant le filtre Canal de marché « Direct » mis en surbrillance. ](assets/dropdown-filter-intro.png)
 
-##### Création de segments déroulants statiques
+##### Créer des segments déroulants statiques
 
-* Pour les segments déroulants utilisant des éléments de dimension, sélectionnez une seule dimension dans le panneau de gauche et déposez-la dans la zone de dépôt du panneau tout en maintenant la touche ⇧ (*Maj*) enfoncée. Cette action crée un segment de liste déroulante avec tous les éléments de dimension associés à cette dimension.
+* Pour les segments déroulants qui utilisent des éléments de dimension, sélectionnez une dimension dans le panneau de gauche et faites-la glisser vers la zone de dépôt du panneau en maintenant la touche ⇧ (*Maj*) enfoncée. Cette action crée un segment déroulant avec tous les éléments de dimension associés à cette dimension.
 
-  Ou, si vous souhaitez que le segment déroulant n’inclue que des éléments de dimension spécifiques associés à une dimension, sélectionnez l’icône de flèche vers la droite en regard de la dimension souhaitée dans le panneau de gauche. Cette action affiche tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension dans cette liste à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) (*Maj* + *Sélectionner*) ou ^+![Sélectionner](/help/assets/icons/Select.svg) (*Ctrl* + *Sélectionner*), puis déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée.
+  Ou, si vous souhaitez que le segment déroulant comprenne uniquement des éléments de dimension spécifiques associés à une dimension, cliquez sur l’icône de flèche vers la droite à côté de la dimension souhaitée dans le panneau de gauche. Cette action affiche tous les éléments de dimension disponibles. Sélectionnez plusieurs éléments de dimension dans cette liste à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) (*Maj* + *Sélectionner*) ou ^+![Sélectionner](/help/assets/icons/Select.svg) (*Ctrl* + *Sélectionner*), puis déposez-les dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée.
 
-* Pour les segments déroulants utilisant un seul type de composant (par exemple, uniquement des dimensions, ou uniquement des segments ou uniquement des mesures), sélectionnez plusieurs éléments du même type dans le panneau de gauche à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) ou ^+![Sélectionner](/help/assets/icons/Select.svg). Déposez ensuite les éléments dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée.
+* Pour les segments déroulants qui utilisent un seul type de composant (par exemple, uniquement des dimensions, des segments ou des mesures), sélectionnez plusieurs éléments du même type dans le panneau de gauche à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) ou ^+![Sélectionner](/help/assets/icons/Select.svg). Déposez ensuite les éléments dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée.
 
   Un seul segment déroulant est créé avec les composants que vous avez sélectionnés.
 
-* Pour les segments déroulants utilisant un mélange de types de composants (tels que 2 mesures et 3 segments), sélectionnez plusieurs composants à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) ou ^+![Sélectionner](/help/assets/icons/Select.svg). Déposez la sélection dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée. Dans ce contexte, tous les types de composants sont traités comme des segments déroulants distincts. Par exemple, si vous incluez à la fois des mesures et des éléments de dimension dans votre sélection, deux segments déroulants distincts sont créés : un segment déroulant inclut les éléments de dimension, et l’autre inclut les mesures.
+* Pour les segments déroulants utilisant un mélange de types de composants (par exemple, 2 mesures et 3 segments), sélectionnez plusieurs composants à l’aide de ⇧+![Sélectionner](/help/assets/icons/Select.svg) ou ^+![Sélectionner](/help/assets/icons/Select.svg). Déposez la sélection dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée. Dans ce contexte, tous les types de composants sont traités comme des segments déroulants distincts. Par exemple, si vous incluez à la fois des mesures et des éléments de dimension dans votre sélection, deux segments déroulants distincts sont créés : un segment déroulant incluant des éléments de dimension et un autre incluant des mesures.
 
-Un segment déroulant fournit les options de menu contextuel suivantes :
+Un segment déroulant fournit les options de menu contextuel suivantes :
 
-* **[!UICONTROL Supprimer la liste déroulante]** : supprime le segment de liste déroulante du panneau.
-* **[!UICONTROL Supprimer le libellé]** : supprimez le texte affiché au-dessus d’un segment déroulant. Pour modifier le libellé, pointez sur le libellé et sélectionnez ![Modifier le libellé du segment déroulant](/help/assets/icons/Edit.svg).
-* **[!UICONTROL Ajouter un libellé]** : lorsque vous ajoutez un segment de liste déroulante à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
-* **[!UICONTROL Exiger la sélection]** : nécessite qu’un segment soit défini sur le panneau.
+* **[!UICONTROL Supprimer le segment déroulant]** : supprime le segment déroulant du panneau.
+* **[!UICONTROL Supprimer le libellé]** : supprime le texte affiché au-dessus d’un segment déroulant. Pour modifier le libellé, pointez dessus et sélectionnez ![Modifier le libellé du segment déroulant](/help/assets/icons/Edit.svg).
+* **[!UICONTROL Ajouter un libellé]** : lorsque vous ajoutez un segment déroulant à un projet, un libellé est automatiquement défini sur le nom du composant. Si vous supprimez le libellé, vous pouvez l’ajouter à nouveau avec cette option.
+* **[!UICONTROL Exiger une sélection]** : nécessite qu’un segment soit défini sur le panneau.
 
-##### Utilisation de segments déroulants statiques
+##### Utiliser des segments déroulants statiques
 
-Les utilisateurs peuvent utiliser le menu déroulant de segment de l’une des manières suivantes pour segmenter le panneau :
+Pour segmenter le panneau, les utilisateurs et les utilisatrices peuvent utiliser le menu de segments déroulants de l’une des façons suivantes :
 
-* Appliquez un seul segment au panneau en le sélectionnant dans le segment déroulant.
+* Appliquez un seul segment au panneau en sélectionnant le segment dans le segment déroulant.
 
-* Appliquez plusieurs segments au panneau en sélectionnant plusieurs segments dans le segment déroulant. Le panneau est segmenté de manière à inclure l’un des segments sélectionnés.
+* Appliquez plusieurs segments au panneau en sélectionnant plusieurs segments dans le segment déroulant. Le panneau est segmenté pour inclure l’un des segments sélectionnés.
 
 
 #### Segments déroulants dynamiques
 
-Les segments déroulants dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données de la plage de rapports du panneau et des valeurs d’autres segments déroulants. Vous pouvez par exemple créer deux listes déroulantes dynamiques à l’aide d’une dimension Pays et d’une dimension Villes. Lorsque vous sélectionnez un pays dans la liste déroulante **[!UICONTROL Pays]**, la liste déroulante **[!UICONTROL Villes]** s’adapte de manière dynamique pour n’afficher que les villes de ce pays.
+Les segments déroulants dynamiques vous permettent de déterminer les valeurs disponibles en fonction des données dans la plage de rapports du panneau et des valeurs dans d’autres segments déroulants. Vous pouvez par exemple créer deux listes déroulantes dynamiques à l’aide d’une dimension Pays et d’une dimension Villes. Lorsque vous sélectionnez un pays dans la liste déroulante **[!UICONTROL Pays]**, la liste déroulante **[!UICONTROL Villes]** s’adapte de manière dynamique pour n’afficher que les villes de ce pays.
 
-Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les segments sélectionnés sont visibles. Les éléments de Dimension sélectionnés dans les segments déroulants statiques affectent les valeurs disponibles dans les segments déroulants dynamiques. Cependant, l’inverse n’est pas vrai : les éléments de Dimension sélectionnés dans les segments déroulants dynamiques n’affectent pas les valeurs disponibles dans les segments déroulants statiques.
+Ce même concept s’applique à toutes les dimensions. Seuls les éléments de dimension qui apparaissent dans la période du panneau et les segments sélectionnés sont visibles. Les éléments de dimension sélectionnés dans les segments déroulants statiques affectent les valeurs disponibles dans les segments déroulants dynamiques. Cependant, l’inverse n’est pas vrai : les éléments de dimension sélectionnés dans les segments déroulants dynamiques n’affectent pas les valeurs disponibles dans les segments déroulants statiques.
 
-La sélection manuelle d’éléments de dimension est possible si vous prévoyez qu’un élément de dimension donné sera collecté ultérieurement. Vous pouvez également effacer un segment de liste déroulante dynamique afin qu’il ne contienne pas de valeur, ce qui permet à d’autres segments de liste déroulante dynamique de contenir plus de valeurs. Sélectionnez **[!UICONTROL Réinitialiser tout]** pour effacer la sélection de tous les segments déroulants de ce panneau.
+La sélection manuelle d’éléments de dimension est possible si vous prévoyez qu’un élément de dimension donné sera collecté ultérieurement. Vous pouvez également effacer un segment déroulant dynamique afin qu’il ne contienne aucune valeur, permettant ainsi à d’autres segments déroulants dynamiques de contenir plus de valeurs. Sélectionnez **[!UICONTROL Réinitialiser tous]** pour effacer la sélection de tous les segments déroulants de ce panneau.
 
-Pour créer un segment déroulant dynamique, procédez comme suit :
+Pour créer un segment déroulant dynamique, procédez comme suit :
 
 * Glissez-déposez une seule dimension dans la zone de dépôt du panneau **tout en maintenant la touche** ⇧ enfoncée.
 
 Notez que les segments déroulants dynamiques ne sont pas disponibles pour les mesures, les segments ou les périodes.
 
-Un segment déroulant dynamique fournit les mêmes options de menu contextuel que les segments déroulants statiques.
+Un segment déroulant dynamique permet d’obtenir les mêmes options de menu contextuel que les segments déroulants statiques.
 
 
 ## Menu contextuel
@@ -230,7 +230,7 @@ Les options disponibles sont les suivantes :
 | --- | --- |
 | **[!UICONTROL Insérer le panneau copié]** | Vous permet de coller la copie d’un panneau ou d’une visualisation dans un autre emplacement au sein du projet, ou dans un autre projet. |
 | **[!UICONTROL Insérer une visualisation copiée]** | Permet de coller la copie d’une visualisation dans un autre emplacement au sein du panneau, du projet, ou dans un autre projet. |
-| **[!UICONTROL Appliquer la suite de rapports à tous les panneaux]** | Appliquez la suite de rapports de ce panneau à tous les autres panneaux du projet. |
+| **[!UICONTROL Appliquer une suite de rapports à tous les panneaux]** | Appliquez la suite de rapports de ce panneau à tous les autres panneaux du projet. |
 | **[!UICONTROL Copier le panneau]** | Copie un panneau pour vous permettre de l’insérer dans un autre emplacement au sein du projet, ou dans un autre projet. |
 | **[!UICONTROL Dupliquer le panneau]** | Crée un double exact du panneau actuel, que vous pouvez ensuite modifier. |
 | **[!UICONTROL Réduire tous les panneaux]** | Réduit tous les panneaux du projet. |

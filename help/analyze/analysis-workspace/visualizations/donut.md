@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
 source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 23%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 23%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation en anneau dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Anneau](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation en anneau dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Anneau](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/donut) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-Semblable à un graphique en secteurs, la visualisation ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anneau]** affiche les données sous la forme de parties ou de filtres d’un tout. Utilisez une visualisation en anneau pour comparer des pourcentages par rapport à un total comprenant peu d’éléments.
+Semblable à un graphique en secteurs, la visualisation ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anneau]** présente les données comme des portions ou des filtres d’un tout. Utilisez un graphique en anneau pour comparer des pourcentages par rapport à un total comprenant peu d’éléments.
 
-![Graphique en anneau présentant les données sous la forme de parties ou de filtres d’un tout.](assets/donut.png)
+![Visualisation en anneau présentant les données comme des portions ou des filtres dʼun tout.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
@@ -45,7 +45,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter une vis
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation ](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
