@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 36%
+source-wordcount: '736'
+ht-degree: 25%
 
 ---
 
@@ -54,9 +54,13 @@ Analytics Inventory est disponible pour les utilisateurs disposant de privilège
 
    ![Écran d’inventaire principal](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   Dans cette version initiale, vous pouvez voir des chiffres récapitulatifs pour les projets Workspace, les segments, les mesures calculées, les données avancées (Media Analytics) et les utilisateurs. Actuellement, les seuls éléments exploitables sont les suites de rapports.
+   Plus précisément, cet écran fait surface
+
+   * Nombre total de projets Analysis Workspace et Carte de performance mobile qui sont actifs sous cette organisation pour tous les utilisateurs.
+   * Nombre total de segments et de mesures calculées qui sont actifs sous cette organisation pour tous les utilisateurs.
+   * Nombre total de suites de rapports de base qui ont été définies (les suites de rapports virtuelles ne sont pas incluses).
+   * Si la fonctionnalité Media Analytics est active et, le cas échéant, dans quel mode.
+   * Nombre total d’utilisateurs définis sous cette organisation.
 
 
 ## Composants {#components}
@@ -83,9 +87,18 @@ Dans cette version initiale, vous pouvez voir des chiffres d’inventaire récap
 
 <!-- markdownlint-enable MD034 -->
 
-### Analyse des suites de rapports
+### Suites de rapports
 
-1. Pour analyser les suites de rapports et décider lesquelles migrer, accédez à **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Suites de rapports]** et cliquez sur **[!UICONTROL Analyser]**.
+La vue Suites de rapports affiche toutes les suites de rapports définies sous une organisation. Il permet de répondre aux questions suivantes :
+
+* Quelles suites de rapports ont reçu le plus d’accès au cours des 90 derniers jours ?
+* Quelles suites de rapports n’ont reçu aucun accès au cours des 90 derniers jours ?
+* Quelles suites de rapports ont le plus grand nombre de dimensions définies ?
+* Quelles suites de rapports ont le plus grand nombre de mesures définies ?
+
+Les réponses à ces questions vous donneront une idée précise des suites de rapports les mieux adaptées à la migration.
+
+1. Pour analyser les suites de rapports, accédez à **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Suites de rapports]** et cliquez sur **[!UICONTROL Analyser]**.
 
    ![Liste des suites de rapports](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ Dans cette version initiale, vous pouvez voir des chiffres d’inventaire récap
    | --- | --- |
    | Nom | Nom de la suite de rapports |
    | ID | Identifiant de suite de rapports (rsid). Indique un ID unique pouvant uniquement contenir des caractères alphanumériques. Une fois créé, il ne peut plus être modifié. Adobe définit le préfixe d’ID requis qui lui aussi ne peut pas être modifié. |
-   | Occurrences (90 derniers jours) |  |
-   | Mesures | How |
-   | Dimensions |  |
-   | Analytics for Target (A4T) activé |  |
-   | Canaux marketing activés |  |
-   | Connecteur Source activé | À suivre |
+   | Occurrences (90 derniers jours) | Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
+   | Mesures | Combien de mesures sont définies dans cette suite de rapports ? |
+   | Dimensions | Combien de dimensions sont définies dans cette suite de rapports ? |
+   | Analytics for Target (A4T) activé | Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
+   | Canaux marketing activés | Cette suite de rapports est-elle activée pour les [canaux marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ? |
+   | Connecteur Source activé | [En développement] Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
    | Type de calendrier | Pour plus d&#39;informations, voir [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. Remarquez que...
