@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
+source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '516'
+ht-degree: 36%
 
 ---
 
@@ -40,11 +40,23 @@ L’objectif de cette application est de vous aider à répondre aux questions s
 
    * Quel groupe de suites de rapports devez-vous mettre à niveau en premier ? dernier ?
 
+## Autorisations
+
+Analytics Inventory est disponible pour les utilisateurs disposant de privilèges d&#39;administrateur de produit Adobe Analytics dans [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+
 ## Accéder à l’inventaire Analytics
 
-[!UICONTROL Inventaire Analytics] est disponible à partir du menu **[!UICONTROL Admin]** ainsi que de l’élément de menu **[!UICONTROL Tous les administrateurs]**.
+1. Cliquez sur **[!UICONTROL Inventaire Analytics]** dans le menu **[!UICONTROL Admin]**. Ou accédez à **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Inventaire Analytics]**.
 
 ![Analytics-Inventory-menu](assets/an-inventory-menu.png)
+
+1. L’écran principal affiche un inventaire complet de votre environnement Adobe Analytics :
+
+   ![Écran d’inventaire principal](assets/an_inventory.png)
+
+>[!IMPORTANT]
+>
+>   Dans cette version initiale, vous pouvez voir des chiffres récapitulatifs pour les projets Workspace, les segments, les mesures calculées, les données avancées (Media Analytics) et les utilisateurs. Actuellement, les seuls éléments exploitables sont les suites de rapports.
 
 
 ## Composants {#components}
@@ -58,6 +70,7 @@ L’objectif de cette application est de vous aider à répondre aux questions s
 
 <!-- markdownlint-enable MD034 -->
 
+Dans cette version initiale, vous pouvez voir des chiffres d’inventaire récapitulatifs pour les projets, les segments et les mesures calculées Workspace. Les versions suivantes vous permettront d’analyser ces composants.
 
 ## Configuration et collecte de données {#data-config}
 
@@ -70,6 +83,34 @@ L’objectif de cette application est de vous aider à répondre aux questions s
 
 <!-- markdownlint-enable MD034 -->
 
+### Analyse des suites de rapports
+
+1. Pour analyser les suites de rapports et décider lesquelles migrer, accédez à **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Suites de rapports]** et cliquez sur **[!UICONTROL Analyser]**.
+
+   ![Liste des suites de rapports](assets/an_inv_rs.png)
+
+   | Élément | Description |
+   | --- | --- |
+   | Nom | Nom de la suite de rapports |
+   | ID | Identifiant de suite de rapports (rsid). Indique un ID unique pouvant uniquement contenir des caractères alphanumériques. Une fois créé, il ne peut plus être modifié. Adobe définit le préfixe d’ID requis qui lui aussi ne peut pas être modifié. |
+   | Occurrences (90 derniers jours) |  |
+   | Mesures | How |
+   | Dimensions |  |
+   | Analytics for Target (A4T) activé |  |
+   | Canaux marketing activés |  |
+   | Connecteur Source activé | À suivre |
+   | Type de calendrier | Pour plus d&#39;informations, voir [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+
+1. Remarquez que...
+
+### Exporter dans un fichier CSV
+
+1. Pour exporter la liste des suites de rapports vers un fichier .csv, cliquez sur **[!UICONTROL Exporter au format CSV]**.
+
+1. Le fichier .csv s’affiche dans votre dossier Téléchargements.
+
+1. Ouvrez-le et enregistrez-le avec une feuille de calcul sur votre appareil.
+
 
 ## Gestion des utilisateurs et utilisatrices {#user-management}
 
@@ -81,3 +122,5 @@ L’objectif de cette application est de vous aider à répondre aux questions s
 >abstract="Cette section indique le nombre d’utilisateurs et d’utilisatrices dans votre environnement Adobe Analytics."
 
 <!-- markdownlint-enable MD034 -->
+
+User Management sera disponible dans une version ultérieure de l’inventaire Analytics.
