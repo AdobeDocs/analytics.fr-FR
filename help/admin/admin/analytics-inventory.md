@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 25%
+source-wordcount: '846'
+ht-degree: 22%
 
 ---
 
@@ -98,6 +98,11 @@ La vue Suites de rapports affiche toutes les suites de rapports définies sous u
 
 Les réponses à ces questions vous donneront une idée précise des suites de rapports les mieux adaptées à la migration.
 
+>[!NOTE]
+>
+>Ce tableau se remplit lentement, une valeur de cellule à la fois.
+
+
 1. Pour analyser les suites de rapports, accédez à **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Suites de rapports]** et cliquez sur **[!UICONTROL Analyser]**.
 
    ![Liste des suites de rapports](assets/an_inv_rs.png)
@@ -114,9 +119,28 @@ Les réponses à ces questions vous donneront une idée précise des suites de r
    | Connecteur Source activé | [En développement] Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
    | Type de calendrier | Pour plus d&#39;informations, voir [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. Remarquez que...
+#### Analyse des dimensions
 
-### Exporter dans un fichier CSV
+Cet écran fournit une vue détaillée de toutes les dimensions définies pour une suite de rapports spécifique. Dans cette vue, vous pouvez répondre aux questions suivantes :
+
+* Quelles dimensions sont activées pour cette suite de rapports ?
+* Quels sont les dix principaux éléments de dimension pour les 90 derniers jours pour cette dimension ?
+
+1. Cliquez sur le lien de la dimension sur la page Suite de rapports .
+
+
+
+
+#### Analyse des mesures
+
+Cet écran fournit une vue détaillée de toutes les mesures définies pour une suite de rapports spécifique. Dans cette vue, vous pouvez répondre aux questions suivantes :
+
+* Quelles mesures sont activées pour cette suite de rapports ?
+* Quelles sont les dix principales mesures des 90 derniers jours ?
+
+
+
+#### Exporter dans un fichier CSV
 
 1. Pour exporter la liste des suites de rapports vers un fichier .csv, cliquez sur **[!UICONTROL Exporter au format CSV]**.
 
