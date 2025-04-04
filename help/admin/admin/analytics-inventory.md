@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fdbc4c0155936375be036bd92722240e27869b11
+source-git-commit: ba96acbae989b653e4e63f2266511abed6b25b62
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1132'
 ht-degree: 19%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 19%
 
 L’inventaire Analytics fournit une vue d’ensemble complète de votre environnement Adobe Analytics, y compris le nombre de projets et de composants, les suites de rapports, les utilisateurs, etc. Ces informations sont particulièrement utiles lorsque vous commencez à vous préparer à la mise à niveau vers Customer Journey Analytics.
 
-L’objectif de cette application est de vous aider à répondre aux questions suivantes :
+L’objectif de l’inventaire Analytics est de vous aider à répondre aux questions suivantes :
 
-* Pour votre organisation, quelles ressources (telles que les suites de rapports, les segments, les utilisateurs, les projets d’espace de travail, les flux de données, etc.) devez-vous mettre à niveau et quelles ressources pouvez-vous laisser ?
+* Pour votre organisation, de quelles ressources (telles que les suites de rapports, les segments, les utilisateurs, les projets d’espace de travail, etc.) avez-vous besoin pour migrer et quelles ressources pouvez-vous laisser ?
 
 * Une fois que vous avez déterminé la ressource à migrer :
 
@@ -38,7 +38,7 @@ L’objectif de cette application est de vous aider à répondre aux questions s
 
    * Quelle doit être la séquence de mise à niveau de vos ressources ?
 
-   * Quel groupe de suites de rapports devez-vous mettre à niveau en premier ? dernier ?
+   * Quelles suites de rapports devriez-vous mettre à niveau en premier ou en dernier ?
 
 ## Autorisations
 
@@ -54,13 +54,13 @@ Analytics Inventory est disponible pour les utilisateurs disposant de privilège
 
    ![Écran d’inventaire principal](assets/an_inventory.png)
 
-   Plus précisément, cet écran fait surface
+   Plus précisément, cet écran affiche :
 
-   * Nombre total de projets Analysis Workspace et Carte de performance mobile qui sont actifs sous cette organisation pour tous les utilisateurs.
-   * Nombre total de segments et de mesures calculées qui sont actifs sous cette organisation pour tous les utilisateurs.
-   * Nombre total de suites de rapports de base qui ont été définies (les suites de rapports virtuelles ne sont pas incluses).
+   * Nombre total de projets Analysis Workspace et Carte de performance mobile qui sont actifs sous cette organisation, pour tous les utilisateurs.
+   * Nombre total de segments et de mesures calculées actifs dans cette organisation, pour tous les utilisateurs et utilisatrices.
+   * Nombre total de suites de rapports de base qui ont été définies. Les suites de rapports virtuelles ne sont pas incluses.
    * Si la fonctionnalité Media Analytics est active et, le cas échéant, dans quel mode.
-   * Nombre total d’utilisateurs définis sous cette organisation.
+   * Nombre total d’utilisateurs définis dans cette organisation.
 
 
 ## Composants {#components}
@@ -111,13 +111,13 @@ Les réponses à ces questions vous donneront une idée précise des suites de r
    | --- | --- |
    | Nom | Nom de la suite de rapports |
    | ID | Identifiant de suite de rapports (rsid). Indique un ID unique pouvant uniquement contenir des caractères alphanumériques. Une fois créé, il ne peut plus être modifié. Adobe définit le préfixe d’ID requis qui lui aussi ne peut pas être modifié. |
-   | Occurrences (90 derniers jours) | Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
+   | Occurrences (90 derniers jours) | La mesure « Occurrences » indique le nombre d’accès pour lesquels une dimension donnée a été définie ou conservée. Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
    | Mesures | Combien de mesures sont définies dans cette suite de rapports ? |
    | Dimensions | Combien de dimensions sont définies dans cette suite de rapports ? |
-   | Analytics for Target (A4T) activé | Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
-   | Canaux marketing activés | Cette suite de rapports est-elle activée pour les [canaux marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ? |
-   | Connecteur Source activé | [En développement] Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
-   | Type de calendrier | Pour plus d&#39;informations, voir [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
+   | Canaux marketing activés | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Canaux marketing](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ? |
+   | Connecteur Source activé | Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
+   | Type de calendrier | [Masqué par défaut] Pour plus d&#39;informations, consultez la section [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analyse des dimensions
 
@@ -134,6 +134,7 @@ Cet écran fournit une vue détaillée de toutes les dimensions définies pour u
    | ID | Identifiant de la dimension. |
    | Type | Type de dimension. Les valeurs possibles sont les suivantes : Conversion, Trafic, Navigation, Sources de trafic, Clients, Date ou des dimensions spécifiques au produit Adobe telles qu’AEM, Audience, Adobe Campaign, Application mobile, etc. |
    | Description | Toutes les dimensions ne comportent pas de descriptions. |
+   | Connecteur Source activé | Cette dimension est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette dimension peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
 
 1. Déterminez les dimensions pertinentes pour la migration vers CJA.
 
@@ -154,6 +155,7 @@ Cet écran fournit une vue détaillée de toutes les mesures définies pour une 
    | ID | Identifiant de la mesure. |
    | Type | Type de mesure. Les valeurs possibles sont les suivantes : Conversion, Trafic, Navigation, Sources de trafic, Clients, Date ou des dimensions spécifiques au produit Adobe telles qu’AEM, Audience, Adobe Campaign, Application mobile, etc. |
    | Description | Toutes les dimensions ne comportent pas de descriptions. |
+   | Connecteur Source activé | Cette mesure est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette mesure peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
 
 1. Déterminez les mesures pertinentes pour la migration vers CJA.
 
@@ -165,10 +167,15 @@ Cet écran fournit une vue détaillée de toutes les mesures définies pour une 
 
 1. Ouvrez-le et enregistrez-le avec une feuille de calcul sur votre appareil.
 
+>[!NOTE]
+>
+>Les éléments et les colonnes filtrés ne sont pas exportés vers le fichier .csv.
+
+
 #### Filtrer, rechercher, classer et parcourir
 
 * Vous pouvez effectuer une recherche dans le tableau.
-* Dans le rail de gauche, cliquez sur l’icône Filtrer pour filtrer par « Type ». Or click **[!UICONTROL Hide Filter]**.
+* Dans le rail de gauche, cliquez sur l’icône Filtrer pour filtrer par « Type ». Ou cliquez sur **[!UICONTROL Masquer le filtre]**.
 * Vous pouvez classer toutes les colonnes par ordre croissant/décroissant (classement d’une seule colonne uniquement).
 * Vous pouvez cliquer sur des éléments dans le chemin de navigation pour accéder à un autre écran.
 

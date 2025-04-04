@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 80dc39ebf0a9b7122b346e2045498ad21eedc0fe
+source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
 workflow-type: tm+mt
-source-wordcount: '6352'
+source-wordcount: '6380'
 ht-degree: 97%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Mars 2025** |  |
+| | **Inventaire Analytics** | L’inventaire Analytics fournit une vue d’ensemble complète de votre environnement Adobe Analytics, y compris le nombre de projets et de composants, les suites de rapports, les utilisateurs, etc. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Guide de mise à niveau de Customer Journey Analytics | Permet de générer un [guide détaillé](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) pour effectuer la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. |
 | Formatage des dates clarifié dans les exportations Data Warehouse | Les valeurs de dimension basées sur l’heure dans les exportations Data Warehouse ont un formatage de date non standard. Ajout d’informations expliquant comment interpréter les valeurs de date à partir d’exportations Data Warehouse. <p>Voir [Dimensions prises en charge d’une autre manière (format de date non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) dans [Prise en charge des composants dans Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Mise à jour des informations sur les exclusions d’adresses IP | Ajout d’informations expliquant que les [exclusions d’adresses IP](/help/admin/admin/exclude-ip.md) peuvent prendre jusqu’à 5 minutes avant d’être prises en compte et que les modifications ne s’appliquent qu’aux nouveaux accès (les données capturées avant que l’exclusion ne soit définie ne sont pas affectées). <p>Mise à jour de la disposition du contenu pour améliorer la lisibilité.</p> |
