@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
+source-git-commit: fdbc4c0155936375be036bd92722240e27869b11
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 22%
+source-wordcount: '1020'
+ht-degree: 19%
 
 ---
 
@@ -126,9 +126,16 @@ Cet écran fournit une vue détaillée de toutes les dimensions définies pour u
 * Quelles dimensions sont activées pour cette suite de rapports ?
 * Quels sont les dix principaux éléments de dimension pour les 90 derniers jours pour cette dimension ?
 
-1. Cliquez sur le lien de la dimension sur la page Suite de rapports .
+1. Cliquez sur le lien **[!UICONTROL Dimensions]** sur la page Suite de rapports .
 
+   | Élément | Description |
+   | --- | --- |
+   | Nom | Nom de la dimension |
+   | ID | Identifiant de la dimension. |
+   | Type | Type de dimension. Les valeurs possibles sont les suivantes : Conversion, Trafic, Navigation, Sources de trafic, Clients, Date ou des dimensions spécifiques au produit Adobe telles qu’AEM, Audience, Adobe Campaign, Application mobile, etc. |
+   | Description | Toutes les dimensions ne comportent pas de descriptions. |
 
+1. Déterminez les dimensions pertinentes pour la migration vers CJA.
 
 
 #### Analyse des mesures
@@ -138,16 +145,32 @@ Cet écran fournit une vue détaillée de toutes les mesures définies pour une 
 * Quelles mesures sont activées pour cette suite de rapports ?
 * Quelles sont les dix principales mesures des 90 derniers jours ?
 
+1. Cliquez sur le lien **[!UICONTROL Mesures]** sur la page Suite de rapports .
 
+
+   | Élément | Description |
+   | --- | --- |
+   | Nom | Nom de la mesure |
+   | ID | Identifiant de la mesure. |
+   | Type | Type de mesure. Les valeurs possibles sont les suivantes : Conversion, Trafic, Navigation, Sources de trafic, Clients, Date ou des dimensions spécifiques au produit Adobe telles qu’AEM, Audience, Adobe Campaign, Application mobile, etc. |
+   | Description | Toutes les dimensions ne comportent pas de descriptions. |
+
+1. Déterminez les mesures pertinentes pour la migration vers CJA.
 
 #### Exporter dans un fichier CSV
 
-1. Pour exporter la liste des suites de rapports vers un fichier .csv, cliquez sur **[!UICONTROL Exporter au format CSV]**.
+1. Pour exporter la liste des suites de rapports, des dimensions ou des mesures vers un fichier .csv, cliquez sur **[!UICONTROL Exporter au format CSV]**.
 
 1. Le fichier .csv s’affiche dans votre dossier Téléchargements.
 
 1. Ouvrez-le et enregistrez-le avec une feuille de calcul sur votre appareil.
 
+#### Filtrer, rechercher, classer et parcourir
+
+* Vous pouvez effectuer une recherche dans le tableau.
+* Dans le rail de gauche, cliquez sur l’icône Filtrer pour filtrer par « Type ». Or click **[!UICONTROL Hide Filter]**.
+* Vous pouvez classer toutes les colonnes par ordre croissant/décroissant (classement d’une seule colonne uniquement).
+* Vous pouvez cliquer sur des éléments dans le chemin de navigation pour accéder à un autre écran.
 
 ## Gestion des utilisateurs et utilisatrices {#user-management}
 
