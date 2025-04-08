@@ -5,7 +5,7 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
