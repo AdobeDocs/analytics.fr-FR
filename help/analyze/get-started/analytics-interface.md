@@ -3,10 +3,10 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -79,7 +79,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Search &amp; Promote | Cette fonctionnalité n’est plus prise en charge. |  |
    | Mobile Services | Cette fonctionnalité n’est plus prise en charge. |  |
    | Tableaux de bord Analytics (application mobile) | Grâce à l’application Tableaux de bords Adobe Analytics, obtenez des informations d’Adobe Analytics à tout moment, même en déplacement. L’application vous permet de consulter des cartes de performance intuitives, que vous créez dans l’interface utilisateur de bureau d’Adobe Analytics. | L’application Tableaux de bord Adobe Analytics dans l’App Store pour iOS ou Google Play |
-   | Report Builder | Le Report Builder Adobe est un complément externe pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Le Report Builder Adobe est un complément externe pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 

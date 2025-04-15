@@ -3,10 +3,10 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Prise en main destinée aux administrateurs et administratrices, analystes, utilisateurs et utilisatrices finaux et développeurs et développeuses
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Vous trouverez ci-dessous les principales tâches et fonctionnalités conçues p
 | Alertes | Créez et gérez des alertes en fonction des anomalies de données et des alertes « empilées », qui regroupent plusieurs mesures dans une seule alerte. | [Vue d’ensemble des alertes](/help/components/c-alerts/intellligent-alerts.md) |
 | Exportation de données | Data Warehouse et les flux de données vous permettent d’exporter des données vers différents espaces de stockage, tels que Google Cloud Platform, Azure RBAC, Azure SAS et Amazon S3. | [Guide d’exportation Analytics](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=fr) |
 | Activity Map | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement de l’audience de vos pages web.<p>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) |
-| Report Builder | Le Report Builder est un complément pour Microsoft Excel. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview) |
+| Report Builder | Le Report Builder est un complément pour Microsoft Excel. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
 <!-- * Realtime reporting? -->
 

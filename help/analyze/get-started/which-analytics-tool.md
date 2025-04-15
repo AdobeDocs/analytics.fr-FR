@@ -3,8 +3,8 @@ description: Cette page d’aide comporte des cas d’utilisation recommandés p
 title: Quel outil Adobe Analytics dois-je utiliser ?
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison d�
 
 Les **[tableaux de bord Adobe Analytics](/help/analyze/mobile-app/home.md)** permettent aux utilisateurs et utilisatrices mobiles d’accéder à des fiches d’évaluation intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des ventilations plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** est un module complémentaire de Microsoft Excel qui s’exécute sur Mac, Windows et sur les navigateurs web. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** est un module complémentaire de Microsoft Excel qui s’exécute sur Mac, Windows et sur les navigateurs web. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
 
 Le **[Report Builder hérité](/help/analyze/legacy-report-builder/home.md)** est un module complémentaire de Microsoft Excel qui s’exécute uniquement sous Windows. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données.
 
@@ -79,7 +79,7 @@ API **[Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/
 
 ## Exportation de données depuis Adobe Analytics  {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** doit être utilisé :
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** doit être utilisé :
 
 * Si les options de disposition personnalisées de Workspace sont limitées (tout est possible dans le Report Builder, dans les limites d’Excel).
 * Pour lier vaguement des entrées utilisateur ou des sources de données hors ligne (impressions, coût) à des données Adobe. L’option Sources de données constitue une solution plus permanente pour lier les données (voir Import de données dans Analytics).

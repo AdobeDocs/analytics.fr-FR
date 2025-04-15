@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données, pour exporter des données brutes, ainsi que Data Warehouse, pour récupérer une sortie de données sous forme de feuille de calcul. Découvrez comment utiliser FTP et SFTP pour transférer des fichiers.
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,4 +75,4 @@ ht-degree: 100%
       + [Connexion à Adobe via SFTP sans mot de passe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Téléchargements Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=fr)
 + [ API Adobe Analytics ](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/report-buider-overview)
++ [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)

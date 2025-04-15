@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Prop :** voir Variable de trafic.
 * **Rapport de classement :** format de rapport dans lequel une dimension est généralement suivie d’une mesure. Ce type de rapport permet de voir les éléments principaux, tels que les pages les plus consultées sur votre site. Voir aussi Rapport de tendances.
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.
-* **Report Builder :** le complément JavaScript [Report Builder](/help/analyze/report-builder/report-buider-overview.md) permet de créer des requêtes personnalisées à partir des données Adobe Analytics.
+* **Report Builder :** le complément JavaScript [Report Builder](/help/analyze/report-builder/rb-overview.md) permet de créer des requêtes personnalisées à partir des données Adobe Analytics.
 * **Suite de rapports :** conteneur global vers lequel vous envoyez des données. Tous les rapports dans Adobe Analytics font référence à une suite de rapports.
 * **Reports &amp; Analytics :** cet outil a été [fin de vie](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=fr).
 * **Période flottante :** type de période relative qui change au fil du temps. Par exemple, un rapport montrant les 7 derniers jours peut être considéré comme une période variable. Voir aussi Période statique.
