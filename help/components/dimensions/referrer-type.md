@@ -3,7 +3,7 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: f95e436566766d525858df0e707cfc36fd4f5ac4
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # Type de référent
 
-Le [type de référent](overview.md) indique les canaux génériques sur lesquels les visiteurs ont cliqué pour accéder à votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
+La [dimension](overview.md) « Type de référent » indique les canaux génériques sur lesquels les visiteurs et visiteuses ont cliqué pour accéder à votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
 
 ## Renseignement de cette dimension avec des données
 
@@ -58,6 +58,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 * `blomotion.jp`
 * `bolt.com`
 * `brightkite.com`
+* `bsky.app`
 * `buzznet.com`
 * `cafemom.com`
 * `care2.com`
@@ -87,6 +88,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 * `fubar.com`
 * `gaiaonline.com`
 * `geni.com`
+* `go.bsky.app`
 * `goodreads.com`
 * `plus.google.com`
 * `plus.url.google.com`
@@ -183,6 +185,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 * `vimeo.com`
 * `vk.com`
 * `wayn.com`
+* `web-cdn.bsky.app`
 * `weibo.com`
 * `weourfamily.com`
 * `wer-kennt-wen.de`
