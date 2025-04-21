@@ -4,10 +4,10 @@ description: Découvrez comment atténuer l’effet des restrictions des cookies
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Ces restrictions de navigateur reflètent une évolution plus large du suivi tie
 
 La collecte de données côté serveur offre la possibilité de fournir votre propre identifiant plutôt que de compter sur les mécanismes du navigateur pour définir les cookies.
 
-Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) ou de l’[API Bulk Data Insertion](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir « [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md) ».
+Vous pouvez envoyer des données à Analytics côté serveur à l’aide de l’[API Data Insertion](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) ou de l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/). L’API Bulk Data Insertion est recommandée pour les nouvelles implémentations côté serveur. Pour une comparaison des deux API, voir « [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md) ».
 
 ## Identifiant d’appareil interne (FPID) avec SDK Web
 

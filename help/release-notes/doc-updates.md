@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -227,12 +227,12 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 15 juin 2021 | Mise à jour des [Bonnes pratiques relatives aux canaux marketing](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=fr). |
 | 3 juin 2021 | Mise à jour de la documentation destinée à mieux expliquer la [mise en œuvre des flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=fr) et [ici](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=fr#BucketOwnerFullControl). |
 | 25 mai 2021 | Mise à jour de la documentation sur le [respect de la casse des eVar dans le compte rendu des performances](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=fr). |
-| 13 mai 2021 | Mises à jour des [requêtes API Data Warehouse](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md). Elles prennent désormais en charge les « Heures ». |
+| 13 mai 2021 | Mises à jour des [requêtes API Data Warehouse](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Elles prennent désormais en charge les « Heures ». |
 | **Mars 2021** | |
 | Mars, avril 2021 | Mises à jour du [Guide d’exécution](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=fr) et du [Guide du curateur](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) pour les Tableaux de bord Adobe Analytics. |
 | 25 mars 2021 | Nouvelle documentation sur la page [!UICONTROL Composants] > [!UICONTROL Préférences utilisateur]. Elle vous permet de gérer les paramètres [!UICONTROL Analysis Workspace] et les composants associés pour votre utilisateur. Les [!UICONTROL préférences utilisateur] s’appliquent à tous les nouveaux projets et panneaux. <br>**Remarque :** les paramètres suivants ont été déplacés vers la page des [!UICONTROL préférences utilisateur] :<ul><li>Paramètres des rapports : le séparateur des milliers (désormais appelé _Format de nombre_)</li><li>Paramètres des rapports : séparateur CSV</li><li>Projets Espace de travail : Aide > Activer les conseils</li><li>Projets Espace de travail : Panneau vierge _Option Démarrer de nouveaux projets avec ce panneau_</li></ul> |
 | 25 mars 2021 | [!UICONTROL L’histogramme Prédiction de compartiments intelligents] aide à utiliser des histogrammes de mesures de cardinalité élevée en identifiant automatiquement la largeur et le nombre de compartiments appropriés pour la diffusion des données. Pour les mesures à faible cardinalité, la visualisation se comporte de la même manière qu’auparavant. |
-| 25 mars 2021 | Mises à jour de l’[API de réparation des données](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) (filtrage des URL, des chaînes de requête, des signes arobase, etc.). |
+| 25 mars 2021 | Mises à jour de l’[API de réparation des données](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) (filtrage des URL, des chaînes de requête, des signes arobase, etc.). |
 | 25 mars 2021 | Nouvelle documentation sur l’[API du journal d’utilisation](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md). |
 | **Février 2021** | |
 | 4 février 2021 | Sélection de composant : le composant de zone de dépôt/liste déroulante qui se trouve dans [!UICONTROL Quick Insights] a été ajouté à toutes les zones de dépôt dans [!UICONTROL Espace de travail]. Cette amélioration vous permet de choisir parmi des composants compatibles dans une liste déroulante ou de continuer à utiliser l’espace comme zone de dépôt. |
