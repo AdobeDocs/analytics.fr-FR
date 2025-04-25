@@ -3,10 +3,10 @@ title: Schéma du jeu de classifications
 description: Affichez et modifiez le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ Affichez les dimensions de classification actuellement configurées pour cet ens
 Les boutons suivants sont disponibles :
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Charger]** : chargez manuellement des données de classification pour une ou plusieurs dimensions de classification. `JSON` fichiers `CSV`, `TSV` et `TAB` sont pris en charge. Le chargement d’un fichier valide affiche un aperçu sous forme de tableau des données à classer.
+* **[!UICONTROL Charger]** : chargez manuellement des données de classification pour des dimensions de classification. `JSON` fichiers `CSV`, `TSV` et `TAB` sont pris en charge. Le chargement d’un fichier valide affiche un aperçu sous forme de tableau des données à classer.
    * **[!UICONTROL Encodage du fichier]** : sélectionnez l’encodage du fichier approprié à l’aide de cette liste déroulante. Les options valides comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1].
    * **[!UICONTROL Délimiteur de liste]** : sélectionnez le délimiteur de liste approprié. Si vous utilisez un fichier téléchargé ou un fichier modèle, assurez-vous que le [!UICONTROL Délimiteur de liste] correspond au [!UICONTROL Délimiteur de liste] utilisé lors du téléchargement du fichier.
    * **[!UICONTROL Appliquer]** : enregistrez les données de classification chargées dans l’ensemble de classifications.
@@ -59,3 +59,13 @@ Les boutons suivants sont disponibles :
    * **[!UICONTROL Délimiteur]** : délimiteur de colonne pour les fichiers chargés. Les options incluent [!UICONTROL virgule], [!UICONTROL point-virgule], [!UICONTROL deux-points], [!UICONTROL barre verticale], [!UICONTROL espace], [!UICONTROL Barre oblique], [!UICONTROL Barre oblique], [!UICONTROL Dash] ou [!UICONTROL Underscore].
 
    * **[!UICONTROL Encodage]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
+
+Les actions suivantes ne sont disponibles qu’après la sélection d’une classification.
+
+* **Ajouter une recherche** : une table de choix est une classification d’une classification. Il s’agit de métadonnées sur une valeur de classification, plutôt que sur la variable elle-même. Par exemple, la variable Product peut avoir une classification de « code couleur ». Une table de recherche de « nom de la couleur » peut être jointe au « code de couleur » pour expliquer les couleurs.
+
+  ![Joindre la table de choix](../../assets/lookup.png)
+
+* **Renommer** : permet de renommer la classification.
+
+* **Supprimer** : permet de supprimer la classification.

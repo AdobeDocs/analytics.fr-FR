@@ -1,51 +1,53 @@
 ---
 title: Gestionnaire des jeux de classificactions
-description: Gestion des jeux de classifications dans Adobe Analytics.
+description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
 
 # Gestionnaire des jeux de classificactions
 
-Le gestionnaire des jeux de classifications vous permet de créer, de modifier ou de supprimer des jeux de classifications.
+Le gestionnaire des ensembles de classifications vous permet de créer, modifier ou supprimer des ensembles de classifications.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]**
 
-Les jeux de classifications se composent de **Abonnements** (combinaisons de suite de rapports et de dimensions) et de **Noms de classification** (dimensions contenant des données de classification). Les abonnements sont configurés sous [Paramètres](settings.md), tandis que les noms de classification sont configurés sous [Schéma](schema.md).
+Les ensembles de classifications se composent d’**abonnements** (combinaisons de suites de rapports et de dimensions) et **Noms de classification** (dimensions contenant des données de classification). Les abonnements sont configurés sous [Paramètres](settings.md), tandis que les noms de classification sont configurés sous [Schéma](schema.md).
 
-## Filtrage des jeux de classifications
+## Filtrer des ensembles de classifications
 
-Le côté gauche du gestionnaire de jeux de classifications fournit des paramètres de filtre pour localiser le jeu de classifications souhaité. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les jeux de classifications par **[!UICONTROL Balises]** ou **[!UICONTROL Suite de rapports]**.
+Le côté gauche du gestionnaire des ensembles de classifications fournit des paramètres de filtre pour localiser l’ensemble de classifications souhaité. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les ensembles de classifications par **[!UICONTROL Balises]** ou **[!UICONTROL Suite de rapports]**.
 
 ![Filtres des ensembles de classifications](../../assets/classification-set-filters.png)
 
-## Colonnes du gestionnaire de jeux de classifications
+Notez que 1 000 ensembles de classifications sont préchargés à la fois. Les filtres affichés dans le rail de gauche reflètent les options des visionneuses préchargées.
 
-Les colonnes suivantes sont disponibles dans le gestionnaire de jeux de classifications :
+## Colonnes du gestionnaire des ensembles de classifications
 
-* **[!UICONTROL Jeu de classifications]** : nom du jeu de classifications. Cliquer sur le nom d&#39;un jeu de classifications [modifie ses paramètres](settings.md).
-* **[!UICONTROL Abonnements]** : nombre d’abonnements auxquels ce jeu de classifications s’applique.
-* **[!UICONTROL Classifications]** : nombre de dimensions de classification contenues par le jeu de classifications.
-* **[!UICONTROL Automatisé]** : détermine si le jeu de classifications est configuré pour importer automatiquement des données d’un emplacement cloud. L’automatisation peut être configurée dans le [schéma](schema.md) du jeu de classifications.
-* **[!UICONTROL Dernière modification]** : date et heure de la dernière modification du jeu de classifications.
+Les colonnes suivantes sont disponibles dans le gestionnaire des ensembles de classifications :
+
+* **[!UICONTROL Ensemble de classifications]** : le nom de l’ensemble de classifications. Cliquez sur le nom d’un ensemble de classifications [modifie ses paramètres](settings.md).
+* **[!UICONTROL Abonnements]** : le nombre d’abonnements auxquels cet ensemble de classifications s’applique.
+* **[!UICONTROL Classifications]** : le nombre de dimensions de classification que l’ensemble de classifications contient.
+* **[!UICONTROL Automatisé]** : détermine si l’ensemble de classifications est configuré pour importer automatiquement les données d’un emplacement cloud. L’automatisation peut être configurée dans le [ schéma ](schema.md) de l’ensemble de classifications.
+* **[!UICONTROL Dernière modification]** : date et heure de la dernière modification de l’ensemble de classifications.
 
 ## Créer ou modifier des options
 
-Les boutons suivants sont disponibles dans le Gestionnaire de jeux de classifications :
+Les boutons suivants sont disponibles dans le Gestionnaire des ensembles de classifications :
 
-* **[!UICONTROL Ajouter]** : [Créer](create.md) un jeu de classifications.
-* **[!UICONTROL Recherche par titre]** : recherchez des jeux de classifications par nom.
-* **[!UICONTROL Charger plus]** : le gestionnaire des jeux de classifications affiche initialement jusqu’à 1 000 jeux de classifications. Ce bouton charge 1 000 jeux de classifications supplémentaires.
-* **Afficher/masquer les colonnes** : basculez la visibilité de n’importe quelle colonne en plus du [!UICONTROL jeu de classifications].
+* **[!UICONTROL Ajouter]** : [Créer](create.md) un ensemble de classifications.
+* **[!UICONTROL Recherche par titre]** : recherchez des ensembles de classifications par nom.
+* **[!UICONTROL Charger plus]** : le gestionnaire des ensembles de classifications affiche initialement jusqu’à 1 000 ensembles de classifications. Ce bouton charge 1 000 ensembles de classifications supplémentaires.
+* **Afficher/masquer les colonnes** : activez la visibilité de n’importe quelle colonne à part [!UICONTROL Ensemble de classifications].
 
-Sélectionnez un ou plusieurs jeux de classifications en cochant la case en regard du jeu de classifications souhaité. La sélection d’un jeu de classifications fait apparaître les options suivantes :
+Sélectionnez un ou plusieurs ensembles de classifications en cliquant sur la case à cocher en regard de l’ensemble de classifications souhaité. La sélection d’un ensemble de classifications fait apparaître les options suivantes :
 
-* **[!UICONTROL Balise]** : ajoutez une ou plusieurs balises aux jeux de classifications sélectionnés, ce qui vous permet d’organiser ou de regrouper des jeux de classifications pour les rendre plus faciles à localiser à l’avenir.
-* **[!UICONTROL Supprimer]** : supprime le jeu de classifications. Les dimensions de classification basées sur ce jeu de classifications ne sont plus disponibles. Les projets planifiés qui utilisent le jeu de classifications supprimé continuent à utiliser des dimensions dépendantes jusqu’à ce que vous réenregistrez le projet planifié.
-* **[!UICONTROL Consolidation]** : commencez une nouvelle [consolidation](../consolidations/process.md).
-* **[!UICONTROL Renommer]** : renommez le jeu de classifications sélectionné.
+* **[!UICONTROL Balise]** : ajoutez une ou plusieurs balises aux ensembles de classifications sélectionnés, ce qui vous permet d’organiser ou de regrouper les ensembles de classifications afin de les retrouver plus facilement à l’avenir.
+* **[!UICONTROL Supprimer]** : supprime l’ensemble de classifications. Les dimensions de classification basées sur cet ensemble de classifications ne sont plus disponibles. Les projets planifiés utilisant l’ensemble de classifications supprimé continuent à utiliser des dimensions dépendantes jusqu’à ce que vous réenregistriez le projet planifié.
+* **[!UICONTROL Consolider]** : démarrez une nouvelle [consolidation](../consolidations/process.md).
+* **[!UICONTROL Renommer]** : renommez l’ensemble de classifications sélectionné.
