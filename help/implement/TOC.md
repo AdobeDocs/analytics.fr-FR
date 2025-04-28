@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 100%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variables de page {#page-vars}
-      + [Vue d’ensemble des variables de page](vars/page-vars/page-variables.md)
+      + [Présentation des variables de page](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins {#plugins}
+   + Plug-ins   {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -130,30 +130,29 @@ ht-degree: 100%
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-      + [websiteBot](vars/plugins/websitebot.md)
    + [Module Integrate](vars/integrate.md)
-+ Préparation à la mise en œuvre d’Adobe Analytics {#prepare}
-   + [Création d’une couche de données](prepare/data-layer.md)
++ Préparation à l’implémentation d’Adobe Analytics {#prepare}
+   + [Créer une couche de données](prepare/data-layer.md)
    + [Comparer les méthodes d’implémentation](prepare/comparison.md)
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
    + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
-+ Mise en œuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
++ Mise en œuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
    + [Présentation d’Experience Edge](aep-edge/overview.md)
    + [Mappage des variables d’objet de données](aep-edge/data-var-mapping.md)
    + [Mappage des variables d’objet XDM](aep-edge/xdm-var-mapping.md)
-   + SDK Web {#web-sdk}
+   + SDK web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
       + [Migrer vers le SDK web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrer vers le SDK web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Nouvelle implémentation à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [Nouvelle implémentation à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
-   + SDK Mobile {#mobile-sdk}
+   + SDK mobile {#mobile-sdk}
       + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
    + API du serveur {#server-api}
       + [Vue d’ensemble de l’API du serveur](aep-edge/server-api/overview.md)
-+ Implémenter Analytics à l’aide de l’extension Adobe Analytics {#launch}
++ Mise en œuvre d’Analytics à l’aide de l’extension Adobe Analytics {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
@@ -190,7 +189,7 @@ ht-degree: 100%
    + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
    + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
    + [Workflow du suivi des campagnes](use-cases/campaign-tracking.md)
-+ Validation de votre mise en œuvre {#validate}
++ Validation de la mise en œuvre {#validate}
    + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
    + [Moniteurs de paquets](validate/packet-monitor.md)

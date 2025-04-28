@@ -4,10 +4,10 @@ description: Comment supprimer des robots dans Adobe Analytics ?
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -25,17 +25,6 @@ Les méthodes de filtrage de robots standard et personnalisées sont prises en c
 | Règles de robots personnalisées | Vous pouvez définir et ajouter des règles de robots personnalisées basées sur des agents utilisateurs, des adresses IP ou des plages d’adresses IP. |
 
 Pour plus d’informations, voir [Comprendre et configurer les règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
-
-## Utilisez le plug-in [!UICONTROL websiteBot] pour identifier les robots.
-
-Le plug-in [!UICONTROL websiteBot] vous permet d’identifier de manière dynamique les visiteurs du bureau qui sont des robots. Vous pouvez utiliser ces données pour accroître la précision de tous les types de comptes rendus des performances, ce qui vous permet de mieux mesurer le trafic légitime sur le site.
-
-Ce module effectue deux vérifications :
-
-* Tout d’abord, il détermine si l’appareil est un ordinateur ou un appareil mobile à l’aide de la variable navigator.UserAgent. Les appareils mobiles sont ignorés.
-* S’il s’agit d’un ordinateur, il ajoute un écouteur d’événements pour les mouvements de souris.
-
-Pour plus d’informations, consultez le [Guide d’implémentation d’Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=fr).
 
 ## Utiliser une combinaison d’outils Adobe
 
