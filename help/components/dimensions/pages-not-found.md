@@ -3,18 +3,18 @@ title: Pages introuvables (dimensions)
 description: Adresses URL ayant renvoyé une erreur sur votre site.
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 92%
+source-wordcount: '222'
+ht-degree: 77%
 
 ---
 
 # Pages introuvables
 
-*Cette page d’aide décrit le fonctionnement de &quot;Pages introuvables&quot; en tant que [dimension](overview.md). Pour plus d’informations, consultez la mesure [Pages introuvables](../metrics/pages-not-found.md).*
+*Cette page d’aide décrit le fonctionnement de « Pages introuvables » en tant que [dimension](overview.md). Voir la page de mesure [Pages introuvables](../metrics/pages-not-found.md) pour plus d’informations sur son fonctionnement en tant que mesure.*
 
-La dimension « Pages introuvables » indique les adresses URL qui contenaient une erreur. Cette dimension s’avère utile lorsque vous souhaitez réduire le nombre d’erreurs rencontrées par les visiteurs sur votre site.
+La dimension « Pages introuvables » indique les adresses URL qui contenaient une erreur. Cette dimension est utile lorsque vous souhaitez réduire le nombre d’erreurs rencontrées par les visiteurs et visiteuses sur votre site.
 
 * Vous pouvez utiliser cette dimension dans une [visualisation de flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) pour identifier les pages sur lesquelles les visiteurs cliquent pour atteindre l’erreur. Vous pouvez ensuite travailler avec les équipes de développement de votre organisation pour corriger le lien sur chaque page.
 * Vous pouvez utiliser cette dimension avec la dimension [Référent](referrer.md) pour déterminer la page de votre site sur laquelle les visiteurs arrivent depuis les liens externes. Vous pouvez ensuite implémenter des redirections vers l’emplacement souhaité ou travailler avec un tiers pour corriger le lien.
