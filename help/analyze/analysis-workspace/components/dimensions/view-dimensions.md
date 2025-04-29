@@ -4,10 +4,10 @@ title: Aperçu des dimensions
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 90%
 
 ---
 
@@ -29,4 +29,4 @@ Désormais, par défaut, des valeurs dynamiques s’affichent plutôt que des va
 
 Lorsque vous placez le pointeur de la souris sur une dimension et cliquez sur la flèche droite grise située en regard, la liste de ses éléments de dimension apparaît. Les listes d’éléments de dimension affichent généralement les principaux éléments des 30 derniers jours.
 
-Si vous faites défiler jusqu’au bas de la liste, vous verrez l’option **[!UICONTROL Afficher les principaux éléments des 6 derniers mois]**. Cliquez sur cette option pour afficher les principaux éléments de dimension des 180 derniers jours.
+Si vous faites défiler la liste vers le bas, vous verrez **[!UICONTROL Afficher les principaux éléments des 18 derniers mois]**. Cliquez sur cette option pour afficher les principaux éléments de dimension des 547 derniers jours.
