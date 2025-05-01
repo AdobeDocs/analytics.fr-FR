@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -37,9 +37,9 @@ La visualisation ![Histogramme](/help/assets/icons/Histogram.svg) **[!UICONTROL 
 
 Pour créer un histogramme, procédez comme suit :
 
-1. Ajoutez une visualisation ![Histogramme](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogramme]**. Voir [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
+1. Ajoutez une visualisation ![Histogramme](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogramme]**. Consultez [Ajouter une visualisation à un panneau](freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 1. Faites glisser une mesure à partir de la liste des composants **[!UICONTROL Mesures]** ou sélectionnez une mesure dans le menu déroulant [!UICONTROL *Ajouter une mesure*].
-1. (Facultatif) Sélectionnez **[!UICONTROL Afficher les paramètres avancés]**. Voir [Paramètres avancés](#advanced-settings).
+1. (Facultatif) Sélectionnez **[!UICONTROL Afficher les paramètres avancés]**. Consultez [Paramètres avancés](#advanced-settings).
 1. Sélectionnez la **[!UICONTROL Version]**.
 
 >[!NOTE]
@@ -56,19 +56,19 @@ Dans le cadre de la visualisation, des paramètres d’histogramme spécifiques 
 
 | Paramètres de l’histogramme | Description |
 |---|---|
-| **[!UICONTROL Intervalle de début]** | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
-| **[!UICONTROL Intervalles de mesures]** | Permet d’augmenter ou de réduire le nombre de plages de données (intervalles). Le nombre maximal d’intervalles est de 50. |
-| **[!UICONTROL Taille de l’intervalle de mesures]** | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
+| **[!UICONTROL Compartiment de début]** | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
+| **[!UICONTROL Compartiments de mesure]** | Permet d’augmenter ou de réduire le nombre de plages de données (compartiments). Le nombre maximal de compartiments est de 50. |
+| **[!UICONTROL Taille du compartiment de mesure]** | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
 | **[!UICONTROL Méthode de comptage]** | Faites votre choix entre **[!UICONTROL Personne]**, **[!UICONTROL Session]** ou **[!UICONTROL Événement]**. Par exemple, pages vues par session ou pages vues par personne ou pages vues par événement. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **Exemples** :
 
-| Intervalle de début | Intervalles de mesures | Taille de l’intervalle de mesures | Résultats |
+| Compartiment de début | Compartiments de mesure | Taille du compartiment de mesure | Résultats |
 |:----:|:--:|:--:|:--|
-| 1 | 5 | 2 | ![Histogramme, intervalle de début 1, intervalle de mesures 5, intervalle de mesures 2](assets/histogram-1-5-2.png) |
-| 0 | 3 | 5 | ![Histogramme, intervalle de début 0, intervalles de mesures 3, taille de l’intervalle de mesures 5](assets/histogram-0-3-5.png) |
+| 1 | 5 | 2 | ![Histogramme, compartiment de début 1, compartiments de mesure 5, taille de compartiment de mesure 2](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![Histogramme, compartiment de début 0, compartiments de mesure 3, taille de compartiment de mesure 5](assets/histogram-0-3-5.png) |
 
 >[!MORELIKETHIS]
 >

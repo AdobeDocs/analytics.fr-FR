@@ -1,18 +1,18 @@
 ---
 title: Créer un flux de données
-description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à l’Adobe.
+description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
-ht-degree: 53%
+source-wordcount: '4129'
+ht-degree: 54%
 
 ---
 
 # Créer un flux de données
 
-Lors de la création d’un flux de données, vous fournissez à l’Adobe les éléments suivants :
+Lors de la création d’un flux de données, vous fournissez à Adobe les éléments suivants :
 
 * Informations sur la destination vers laquelle vous souhaitez envoyer les fichiers de données brutes
 * Données à inclure dans chaque fichier
@@ -117,7 +117,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
          {style="table-layout:auto"}
 
-      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**] puis spécifiez les informations suivantes :
+      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
@@ -190,7 +190,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
          {style="table-layout:auto"}
 
-      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**] puis spécifiez les informations suivantes :
+      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
@@ -266,7 +266,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
          {style="table-layout:auto"}
 
-      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**] puis spécifiez les informations suivantes :
+      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
@@ -335,7 +335,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
          {style="table-layout:auto"}
 
-      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**] puis spécifiez les informations suivantes :
+      1. Sélectionnez [!UICONTROL **Ajouter un emplacement**], puis spécifiez les informations suivantes :
 
          | Champ | Fonction |
          |---------|----------|
@@ -355,15 +355,15 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
 +++
 
-1. Dans la section [!UICONTROL **Définitions des colonnes de données**] , sélectionnez le dernier modèle [!UICONTROL **Tous les Adobe Columns**] dans la liste déroulante, puis renseignez les champs suivants :
+1. Dans la section [!UICONTROL **Définitions des colonnes de données**] , sélectionnez le dernier modèle [!UICONTROL **Toutes les colonnes Adobe**] dans le menu déroulant, puis renseignez les champs suivants :
 
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Supprimer les caractères d’échappement**] | Lors de la collecte de données, certains caractères (tels que les nouvelles lignes) peuvent entraîner des problèmes. Cochez cette case si vous souhaitez retirer ces caractères des fichiers de flux. |
    | [!UICONTROL **Format de compression**] | Type de compression utilisé. **Gzip** génère les fichiers au format `.tar.gz`. **Zip** génère les fichiers au format `.zip`. |
    | [!UICONTROL **Type d’emballage**] | Sélectionnez [!UICONTROL **Plusieurs fichiers**] pour la plupart des flux de données. Cette option pagine vos données en blocs de 2 Go non compressés. (Si l’option [!UICONTROL **Plusieurs fichiers**] est sélectionnée et que les données non compressées pour la fenêtre de création de rapports font moins de 2 Go, un fichier est envoyé.) Sélectionnez **Fichier unique** pour générer le fichier `hit_data.tsv` dans un seul fichier potentiellement volumineux. |
-   | [!UICONTROL **Manifeste**] | Détermine si l’Adobe doit livrer un [fichier manifeste](c-df-contents/datafeeds-contents.md#feed-manifest) à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **Modèles de colonne**] | Lors de la création de nombreux flux de données, Adobe recommande de créer un modèle de colonne. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut. |
+   | [!UICONTROL **Manifeste**] | Détermine si Adobe doit diffuser un [fichier de manifeste](c-df-contents/datafeeds-contents.md#feed-manifest) vers la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **Modèles de colonne**] | Lors de la création de plusieurs flux de données, Adobe recommande de créer un modèle de colonne. La sélection d’un modèle de colonnes inclut automatiquement les colonnes indiquées dans le modèle. Adobe fournit également plusieurs modèles par défaut. |
    | [!UICONTROL **Colonnes disponibles**] | Toutes les colonnes de données disponibles dans Adobe Analytics. Cliquez sur [!UICONTROL Toujours ajouter] pour inclure toutes les colonnes d’un flux de données. |
    | [!UICONTROL **Colonnes incluses**] | Colonnes à inclure dans un flux de données. Cliquez sur [!UICONTROL Tout supprimer] pour supprimer toutes les colonnes d’un flux de données. |
    | [!UICONTROL **Téléchargement de fichier CSV**] | Télécharge un fichier CSV contenant toutes les colonnes incluses. |
@@ -385,7 +385,7 @@ Les informations suivantes fournissent des informations de configuration pour ch
 
 ### FTP
 
-Les données des flux de données peuvent être diffusées vers un emplacement FTP Adobe ou hébergé par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
+Les données des flux de données peuvent être diffusées vers un emplacement Adobe ou FTP hébergé par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
 
 Renseignez les informations suivantes pour les champs disponibles :
 
