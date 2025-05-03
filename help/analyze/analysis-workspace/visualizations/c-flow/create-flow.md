@@ -4,14 +4,66 @@ title: Configurer une visualisation de flux
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
-# Configurer une visualisation de flux
+# Configurer une visualisation de flux {#configure-a-flow-visualization}
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_startswith"
+>title="Commence par"
+>abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_contains"
+>title="Contient"
+>abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_endswith"
+>title="Se termine par"
+>abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_pathingdimension"
+>title="Dimension du cheminement"
+>abstract="Sélectionnez une dimension qui servira de chemin d’accès ou de sortie du composant sélectionné."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_container"
+>title="Conteneur de flux"
+>abstract="Sélectionnez le conteneur à utiliser pour afficher (les nombres du) le cheminement."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_disabled"
+>title="Inclure les répétitions (désactivé)"
+>abstract="Les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_include_repeats_default"
+>title="Inclure les répétitions"
+>abstract="Les visualisations Flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances répétées. Par exemple : rechargements de page."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_limit_occurrence"
+>title="Limiter à la première/dernière occurrence"
+>abstract="Les résultats sont limités aux chemins d’accès lorsque le premier/dernier point de contact est une entrée/sortie."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_numberofcolumns"
+>title="Nombre de colonnes"
+>abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_itemsexpandedpercolumn"
+>title="Éléments développés par colonne"
+>abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+
+
 
 Les visualisations de flux vous permettent de comprendre le parcours qui résulte ou qui mène à un événement de conversion spécifique sur votre site web ou votre application. Elles tracent un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures.
 
