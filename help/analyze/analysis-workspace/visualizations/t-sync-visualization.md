@@ -5,14 +5,19 @@ title: Gérer des sources de données de visualisation
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# Gérer des sources de données de visualisation
+# Gérer des sources de données de visualisation {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="Verrouiller la sélection"
+>abstract="Activez ce paramètre pour verrouiller la visualisation aux positions du tableau ou aux éléments exacts sélectionnés dans la source de données."
 
 Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
 
@@ -29,6 +34,8 @@ La gestion d’une source de données permet d’afficher la source de données 
    Le fait de synchroniser une visualisation sur une cellule de tableau crée un tableau (masqué) et code par couleurs la visualisation synchronisée avec ce tableau.
 
 ## Paramètres de source de données
+
+
 
 
 >[!BEGINSHADEBOX]
