@@ -46,7 +46,7 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalle de recherche en amont personnalisé](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalle de recherche en amont personnalisé](https://video.tv.adobe.com/v/40038?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

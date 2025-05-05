@@ -53,7 +53,7 @@ Vous pouvez comparer un nombre illimité de segments dans la visualisation des a
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/328079?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

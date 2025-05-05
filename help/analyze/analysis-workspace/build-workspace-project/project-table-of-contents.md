@@ -18,7 +18,7 @@ Vous pouvez afficher une table des matières dans chaque projet dans Analysis Wo
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table des matières](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table des matières](https://video.tv.adobe.com/v/35025?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

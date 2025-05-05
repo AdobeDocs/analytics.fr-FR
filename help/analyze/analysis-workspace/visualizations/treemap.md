@@ -40,7 +40,7 @@ Avec une visualisation Plan en arborescence, vous pouvez voir des motifs qui ser
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Plan en arborescence](https://video.tv.adobe.com/v/334458/?quality=12){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Plan en arborescence](https://video.tv.adobe.com/v/3416854/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

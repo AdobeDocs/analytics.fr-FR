@@ -20,7 +20,7 @@ Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418613?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->

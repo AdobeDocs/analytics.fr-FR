@@ -47,7 +47,7 @@ Si vous ne disposez pas de la documentation relative à votre implémentation, e
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vérification de votre implémentation](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vérification de votre implémentation](https://video.tv.adobe.com/v/3440171?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

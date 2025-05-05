@@ -19,7 +19,7 @@ Utilisez l’importateur pour télécharger vos classifications dans Adobe Analy
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importateur de classifications](https://video.tv.adobe.com/v/16853?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Importateur de classifications](https://video.tv.adobe.com/v/40932?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

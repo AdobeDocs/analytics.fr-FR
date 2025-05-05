@@ -23,7 +23,7 @@ Notez que vous pouvez modifier la période du calendrier du panneau, même dans 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projets en lecture seule](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Projets en lecture seule](https://video.tv.adobe.com/v/40054?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

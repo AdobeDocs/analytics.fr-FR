@@ -46,7 +46,7 @@ Dans l’onglet [!UICONTROL Définition de visite], définissez les paramètres,
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une définition de visite](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une définition de visite](https://video.tv.adobe.com/v/3428473?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
