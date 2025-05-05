@@ -30,7 +30,7 @@ Pour configurer les options de rapport pour une demande de Data Warehouse :
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom de fichier**] | Identifie le rapport. <p>Si l’un des caractères spéciaux suivants est utilisé dans le nom de fichier, la requête ne peut pas être enregistrée : <code> ! &quot; # $ &amp; ’ ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s’il est suivi de &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, comme suit : <code>%R</code>, <code>%rsid</code>et <code>%id</code>.</p> |
+   | [!UICONTROL **Nom de fichier**] | Identifie le rapport. <p>Si l’un des caractères spéciaux suivants est utilisé dans le nom de fichier, la requête ne peut pas être enregistrée : <code> ! &quot; # $ &amp; ’ ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s’il est suivi de &quot;R&quot;, &quot;rsid&quot; ou &quot;id&quot;, comme suit : <code>%R</code>, <code>%rsid</code>et <code>%id</code>.</p> |
    | [!UICONTROL **Ajouter la période du rapport au nom de fichier**] | Ajoute la plage de dates au nom du fichier de rapport. <p>Par exemple, si vous demandez des données du 1er mai 2024 au 7 mai 2024, le nom du fichier comprend la plage de dates 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Diffuse des rapports au format CSV pour l’affichage des données dans une feuille de calcul. |
    | [!UICONTROL **Tableau (TDE)**] | Fournit des rapports au format de fichier TDE (Tableau Data Extract), qui peut être utilisé pour visualiser les données et les couches dans les données additionnelles de Tableau. |

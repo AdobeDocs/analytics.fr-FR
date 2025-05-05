@@ -12,7 +12,7 @@ ht-degree: 46%
 
 # Pages vues
 
-La **[!UICONTROL mesure Pages vues]** [ ](overview.md) indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
+La **[!UICONTROL mesure Pages vues]** [&#128279;](overview.md) indique le nombre de fois où un élément de dimension donné a été défini ou conservé sur une page. Il s’agit de l’une des mesures de base les plus courantes dans les rapports.
 
 ## Méthode de calcul de cette mesure
 

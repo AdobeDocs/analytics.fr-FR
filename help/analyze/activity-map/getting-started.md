@@ -32,7 +32,7 @@ L’activation des rapports Activity Map crée plusieurs variables réservées d
 
 Votre mise en oeuvre doit être correctement configurée pour envoyer des données Activity Map à Adobe.
 
-Extension de balise du SDK Web +++
++++Extension de balise du SDK Web 
 
 La collecte de données des Activity Map requiert l’extension **[!UICONTROL Adobe Experience Platform Web SDK]** v2.23 ou version ultérieure. Les versions d’extension jusqu’à la version 2.16 ont une prise en charge limitée. Ces versions d’extension précédentes envoient des données Activity Map dans un événement distinct du reste de vos données. Cet événement supplémentaire augmente le nombre d’accès que vous envoyez à Adobe Analytics ou Adobe Experience Platform.
 
@@ -52,7 +52,7 @@ Pour plus d’informations, voir [Configuration de l’extension de balise SDK W
 
 +++
 
-Bibliothèque JavaScript du SDK Web +++ (`alloy.js`)
++++Bibliothèque JavaScript du SDK Web  (`alloy.js`)
 
 La collecte de données des Activity Map requiert la bibliothèque JavaScript SDK Web version 2.20 ou ultérieure. La prise en charge des versions de bibliothèque jusqu’à la version 2.15 est limitée. Ces versions précédentes de la bibliothèque envoient des données Activity Map dans un événement distinct du reste de vos données. Cet événement supplémentaire augmente le nombre d’accès que vous envoyez à Adobe Analytics ou Adobe Experience Platform.
 
@@ -68,7 +68,7 @@ alloy("configure", {
 
 +++
 
-Extension de balise +++Adobe Analytics
++++Extension de balise Adobe Analytics
 
 Le paramètre de configuration **[!UICONTROL Utiliser l’Activity Map]** gère la collecte de données Activity Map et est généralement activé par défaut. Il est disponible pour toutes les extensions de balise v1.9.0 ou version ultérieure. Vous pouvez vérifier qu’elle est activée dans les paramètres de configuration de l’extension :
 

@@ -17,7 +17,7 @@ Décrit un processus suggéré pour les segments créés par le Créateur de seg
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png) [ ](/help/components/segmentation/segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [&#128279;](/help/components/segmentation/segmentation-workflow/seg-plan.md)
 
 Avez-vous posé toutes les questions appropriées avant de créer des segments et de configurer un environnement de gestion des segments ? Avez-vous conçu le segment en gardant à l’esprit son objectif prévu et son utilisation spécifique ?
 

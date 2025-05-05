@@ -74,7 +74,7 @@ Lorsque vous activez le [!UICONTROL suivi de l’emplacement], les dimensions su
 * [!UICONTROL Balise majeure] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Balise mineure] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Proximité de la balise] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
-* [!UICONTROL UID de balise ] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
+* [!UICONTROL UID de balise &#x200B;] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Lieu (jusqu’à 10 km)]
 * [!UICONTROL Lieu (jusqu’à 100 m)]
 * [!UICONTROL Lieu (jusqu’à 1 m)]
@@ -108,4 +108,4 @@ Les mesures suivantes sont disponibles :
 
 Les rapports hérités signifient que les accès générés lorsqu’une application est en arrière-plan sont traités comme des accès de premier plan standard. Elles apparaissent dans les rapports et affectent l’attribution. Cette configuration héritée est généralement souhaitable pour maintenir la cohérence avec les implémentations héritées.
 
-Adobe recommande de désactiver les rapports hérités afin que les accès en arrière-plan ne soient pas visibles. Si vous souhaitez inclure des accès en arrière-plan dans votre analyse, vous pouvez activer le paramètre [Suite de rapports virtuelle](/help/components/vrs/vrs-about.md) **** avec accès en arrière-plan.
+Adobe recommande de désactiver les rapports hérités afin que les accès en arrière-plan ne soient pas visibles. Si vous souhaitez inclure des accès en arrière-plan dans votre analyse, vous pouvez activer le paramètre [Suite de rapports virtuelle](/help/components/vrs/vrs-about.md) **&#x200B;**&#x200B;avec accès en arrière-plan.

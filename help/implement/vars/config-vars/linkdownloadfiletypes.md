@@ -41,7 +41,7 @@ Le champ de texte [!UICONTROL Télécharger le qualificateur de lien] utilise l�
 
 ## Télécharger le qualificateur de lien en implémentant manuellement le SDK Web
 
-[ Configurez le SDK à l’aide de [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr#automaticLinkTracking). ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) Le champ utilise l’expression régulière sur l’URL sur laquelle l’utilisateur a cliqué pour déterminer s’il s’agit d’un lien de téléchargement valide. Si `downloadLinkQualifier` n’est pas défini, la valeur par défaut est `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
+[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr) Configurez le SDK à l’aide de [`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=fr#automaticLinkTracking).  Le champ utilise l’expression régulière sur l’URL sur laquelle l’utilisateur a cliqué pour déterminer s’il s’agit d’un lien de téléchargement valide. Si `downloadLinkQualifier` n’est pas défini, la valeur par défaut est `\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`.
 
 ```json
 alloy("configure", {

@@ -105,7 +105,7 @@ Après avoir créé un compte, vous pouvez afficher toutes les clés de compte a
 
 Pour visualiser les clés associées à un compte d&#39;export :
 
-1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez l’onglet [!UICONTROL ****].
+1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez l’onglet [!UICONTROL **&#x200B;**].
 
 1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer l’option [!UICONTROL **Afficher les emplacements pour tous les utilisateurs**] pour afficher les emplacements créés par tous les utilisateurs de votre entreprise. <!-- Maybe add a screenshot? This is new functionality -->
 
@@ -121,7 +121,7 @@ Un compte ne peut être supprimé que par l’utilisateur qui l’a créé ou pa
 
 Pour supprimer un compte :
 
-1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez l’onglet [!UICONTROL ****].
+1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Emplacements]**, puis sélectionnez l’onglet [!UICONTROL **&#x200B;**].
 
 1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer l’option [!UICONTROL **Afficher les comptes de tous les utilisateurs**] pour afficher les emplacements créés par tous les utilisateurs de votre entreprise.
 
@@ -205,7 +205,7 @@ Pour limiter les types de compte disponibles pour les utilisateurs lors de la cr
 
    Vous devez sélectionner au moins un type de compte.
 
-   * [!UICONTROL **{Amazon S3 Role ARN**]
+   * [!UICONTROL **&lbrace;Amazon S3 Role ARN**]
 
    * [!UICONTROL **Plateforme cloud Google**]
 

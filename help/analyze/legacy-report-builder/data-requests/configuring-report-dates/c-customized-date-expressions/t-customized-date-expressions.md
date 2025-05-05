@@ -24,7 +24,7 @@ Lorsque vous créez des expressions, reportez-vous à un calendrier pour défini
 
 L’exemple suivant montre comment activer une expression personnalisée pour **[!UICONTROL Dates roulantes]**.
 
-1. Sur l’ [!UICONTROL  Assistant Requête : Étape 1], au lieu d’utiliser **[!UICONTROL Dates prédéfinies]**, sélectionnez **[!UICONTROL Dates roulantes]**.
+1. Sur l’ [!UICONTROL &#x200B; Assistant Requête : Étape 1], au lieu d’utiliser **[!UICONTROL Dates prédéfinies]**, sélectionnez **[!UICONTROL Dates roulantes]**.
 
    ![Capture d&#39;écran montrant les dates roulantes sélectionnées.](assets/rolldates1.png)
 

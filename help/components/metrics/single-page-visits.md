@@ -14,7 +14,7 @@ ht-degree: 84%
 
 *Cette page d’aide décrit le fonctionnement de la mesure « Visites de page unique ». Pour plus d’informations, consultez la dimension [Visites de page unique](../dimensions/single-page-visits.md).*
 
-La [!UICONTROL  visite de page unique ] [mesure](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
+La [!UICONTROL &#x200B; visite de page unique &#x200B;] [mesure](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
 
 ## Méthode de calcul de cette mesure
 

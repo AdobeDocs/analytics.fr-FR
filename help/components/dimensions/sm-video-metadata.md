@@ -1,6 +1,6 @@
 ---
 title: Dimensions des métadonnées vidéo du streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Métadonnées vidéo ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées vidéo &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 *Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Métadonnées vidéo] pour une suite de rapports. Voir [Mesures de métadonnées vidéo de streaming multimédia](../metrics/sm-video-metadata.md) pour connaître les mesures disponibles.*
 
-Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe ****. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Métadonnées vidéo]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 

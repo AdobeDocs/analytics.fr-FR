@@ -40,7 +40,7 @@ Cette page décrit tous les éléments dʼautorisation des outils de suites de r
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
 | [!UICONTROL Administrateurs du gestionnaire des activités de rapport] | Inutilisé. |
 | [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
-| [!UICONTROL  Gestion des suites de rapports ] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
+| [!UICONTROL &#x200B; Gestion des suites de rapports &#x200B;] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | [!UICONTROL Petit rapport d’image du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport de jauge des mesures du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport récapitulatif de la suite de rapports du tableau de bord R&amp;A] | Inutilisé. |

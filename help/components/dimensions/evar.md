@@ -14,7 +14,7 @@ ht-degree: 82%
 
 *Cette page d’aide décrit le fonctionnement des eVars en tant que [dimension](overview.md). Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des variables personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’[!UICONTROL eVars]. Voir Présentation des Dimensions [](overview.md) pour plus d&#39;informations.
+Les eVars sont des variables personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’[!UICONTROL eVars]. Voir Présentation des Dimensions [&#128279;](overview.md) pour plus d&#39;informations.
 
 Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance d’eVar sur l’architecture d’Adobe. Vous pouvez personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions eVar dans l’interface des variables de conversion :
 

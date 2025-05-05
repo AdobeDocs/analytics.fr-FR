@@ -200,7 +200,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`videoadname`** | La dimension [Nom de l’annonce publicitaire (variable)](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
 | **`videoadplayername`** | La dimension [Nom du lecteur publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu. | varchar(255) |
 | **`videoadpod`** | La dimension [capsule publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoadvertiser`** | Dimension Diffusion multimédia en continu de l’annonceur[](/help/components/dimensions/sm-ads.md). | varchar(255) |
+| **`videoadvertiser`** | Dimension Diffusion multimédia en continu de l’annonceur[&#128279;](/help/components/dimensions/sm-ads.md). | varchar(255) |
 | **`videoaudioalbum`** | Dimension [Album](/help/components/dimensions/sm-audio-metadata.md) en flux continu de médias. | varchar(255) |
 | **`videoaudioartist`** | La dimension [Artiste](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |
 | **`videoaudioauthor`** | La dimension [Auteur](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |

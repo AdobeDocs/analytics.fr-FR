@@ -20,7 +20,7 @@ Une fois une consolidation exécutée, les jeux de classifications d’origine s
 
 ## Filtrage des jeux de classifications
 
-Le côté gauche du gestionnaire de consolidation des jeux de classifications fournit des paramètres de filtre pour localiser la consolidation souhaitée. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les consolidations par **[!UICONTROL État]**, **** et **[!UICONTROL Heure de création]**.
+Le côté gauche du gestionnaire de consolidation des jeux de classifications fournit des paramètres de filtre pour localiser la consolidation souhaitée. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les consolidations par **[!UICONTROL État]**, **&#x200B;**&#x200B;et **[!UICONTROL Heure de création]**.
 
 ![Filtres de consolidation de jeu de classifications](../../assets/classification-set-consolidation-filters.png)
 

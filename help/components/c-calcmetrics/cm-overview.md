@@ -38,7 +38,7 @@ Voici une comparaison des mesures calculées et des fonctionnalités de mesures 
 
 Vous pouvez
 
-* Créez des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder ], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
+* Créez des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder &#x200B;], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
 * Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Elles peuvent être consultées de manière historique car elles sont basées sur des segments.
 
 

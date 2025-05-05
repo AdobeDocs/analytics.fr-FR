@@ -1,6 +1,6 @@
 ---
 title: Dimensions principales du streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Media Core ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
@@ -12,9 +12,9 @@ ht-degree: 10%
 
 # Dimensions principales du streaming multimédia
 
-*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL  Media Core] pour une suite de rapports. Voir [Mesures principales des médias en flux continu](../metrics/sm-core.md) pour connaître les mesures disponibles.*
+*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core] pour une suite de rapports. Voir [Mesures principales des médias en flux continu](../metrics/sm-core.md) pour connaître les mesures disponibles.*
 
-Les dimensions principales Streaming Media fournissent une fonctionnalité de création de rapports de base aux données collectées via les bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe ****. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions principales Streaming Media fournissent une fonctionnalité de création de rapports de base aux données collectées via les bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Media Core]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 

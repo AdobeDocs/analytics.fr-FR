@@ -98,7 +98,7 @@ La chaîne qui doit être ajoutée au compte Bing est affichée ci-dessous. Vous
 
 >[!IMPORTANT]
 >
->La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir la chaîne d’ID de compte spécifique à partir de l’écran du compte sous la section &quot;Suivi&quot;.
+>La valeur _`<Advertising Analytics ID>`_(en **gras**&#x200B;ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir la chaîne d’ID de compte spécifique à partir de l’écran du compte sous la section &quot;Suivi&quot;.
 
 **Chaîne de suivi pour les campagnes :**
 

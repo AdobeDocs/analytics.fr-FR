@@ -14,7 +14,7 @@ ht-degree: 15%
 
 *Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Publicités multimédia] pour une suite de rapports. Voir [Mesures publicitaires des médias en flux continu](../metrics/sm-ads.md) pour connaître les mesures disponibles.*
 
-Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe ****. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Publicités multimédia]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 

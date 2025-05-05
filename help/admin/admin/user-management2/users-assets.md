@@ -32,7 +32,7 @@ L’écran Utilisateurs affiche la liste des utilisateurs Adobe Analytics actuel
 
 - Pour rechercher un utilisateur spécifique, utilisez le champ ![Rechercher](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *Rechercher par titre* .
 - Pour filtrer la liste en fonction de l’état de migration, sélectionnez ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL État de migration]**.
-- Pour filtrer la liste en fonction de l’état de connexion hérité, sélectionnez ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) ****.
+- Pour filtrer la liste en fonction de l’état de connexion hérité, sélectionnez ![Chevron](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **&#x200B;**.
 - Pour modifier l&#39;affichage des colonnes, sélectionnez ![Paramètres de colonne](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) et sélectionnez les colonnes dans la fenêtre contextuelle.
 
 Vous pouvez appliquer différentes actions lorsque vous sélectionnez un ou plusieurs utilisateurs dans la liste :

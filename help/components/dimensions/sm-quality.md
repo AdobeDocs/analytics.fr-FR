@@ -1,6 +1,6 @@
 ---
 title: Dimensions de qualité du streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Qualité du média ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Qualité du média &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612

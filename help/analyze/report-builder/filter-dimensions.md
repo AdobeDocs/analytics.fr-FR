@@ -51,7 +51,7 @@ Il existe deux manières de filtrer les éléments de dimension : Les plus popu
 
 ## Les plus populaires
 
-L’option [!UICONTROL  Les plus populaires ] vous permet de filtrer les éléments de dimension de manière dynamique en fonction de valeurs de mesure. [!UICONTROL Les plus populaires] le filtrage renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
+L’option [!UICONTROL &#x200B; Les plus populaires &#x200B;] vous permet de filtrer les éléments de dimension de manière dynamique en fonction de valeurs de mesure. [!UICONTROL Les plus populaires] le filtrage renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
 
 ![L&#39;option la plus populaire.](./assets/image29.png)
 

@@ -14,7 +14,7 @@ ht-degree: 14%
 
 *Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Chapitres de média] pour une suite de rapports. Voir [Mesures du chapitre sur les médias en flux continu](../metrics/sm-chapters.md) pour connaître les mesures disponibles.*
 
-Les dimensions de chapitre Streaming Media fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe ****. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions de chapitre Streaming Media fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Chapitres multimédia]** sous [Compte rendu des performances multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), la dimension suivante est disponible :
 

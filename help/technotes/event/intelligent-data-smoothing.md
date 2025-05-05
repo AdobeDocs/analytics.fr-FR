@@ -22,7 +22,7 @@ Le lissage intelligent des données est un prototype d’ [Analytics Labs](/help
 1. Accédez à Adobe Analytics Labs :
    ![Labs](assets/labs.png)
 1. Lancez le prototype de lissage des données intelligent.
-   ![ {prototype de lancement](assets/intelligent-ds.png)
+   ![ &lbrace;prototype de lancement](assets/intelligent-ds.png)
 1. Ajoutez la mesure qui doit être analysée au tableau à structure libre. Le prototype ne fonctionne qu’avec une granularité quotidienne. Assurez-vous donc que la dimension du tableau est Jour.
    ![Ajouter une mesure](assets/add-metric.png)
 1. Choisissez une période plus large que la fenêtre de l’événement, mais assurez-vous qu’elle inclut l’événement.

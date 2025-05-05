@@ -134,7 +134,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
       1. (Conditionnel) Si vous devez gérer la destination (compte et emplacement) que vous venez de créer, elle est disponible dans le [gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -144,7 +144,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    1. Si ce n’est pas déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification, puis accordez des autorisations d’accès dans le contrôle d’accès (IAM).
 
-      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).[
+      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans l’Admin Console d’Adobe Analytics, dans la section [!UICONTROL **Destination**], dans le menu déroulant [!UICONTROL **Type**], sélectionnez [!UICONTROL **Azure RBAC**].
 
@@ -208,7 +208,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
       1. (Conditionnel) Si vous devez gérer la destination (compte et emplacement) que vous venez de créer, elle est disponible dans le [gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -218,7 +218,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    1. Si ce n’est pas déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification.
 
-      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).[
+      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
 
    1. Dans l’Admin Console d’Adobe Analytics, dans la section [!UICONTROL **Destination**], sélectionnez [!UICONTROL **Azure SAS**].
 
@@ -283,7 +283,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
       1. (Conditionnel) Si vous devez gérer la destination (compte et emplacement) que vous venez de créer, elle est disponible dans le [gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
       1. (Conditionnel) Si vous devez gérer la destination (compte et emplacement) que vous venez de créer, elle est disponible dans le [gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
-+++
+   +++
 
 1. Dans la section [!UICONTROL **Définitions des colonnes de données**] , sélectionnez le dernier modèle [!UICONTROL **Toutes les colonnes Adobe**] dans le menu déroulant, puis renseignez les champs suivants :
 
