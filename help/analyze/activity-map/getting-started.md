@@ -48,7 +48,7 @@ Le paramètre de configuration **[!UICONTROL Clic sur la collecte de données]**
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Si nécessaire, créez vos modifications dans une bibliothèque et publiez-les en production.
 
-Pour plus d’informations, voir [Configuration de l’extension de balise SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) .
+Pour plus d’informations, voir [Configuration de l’extension de balise SDK Web](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) .
 
 +++
 
@@ -56,7 +56,7 @@ Pour plus d’informations, voir [Configuration de l’extension de balise SDK W
 
 La collecte de données des Activity Map requiert la bibliothèque JavaScript SDK Web version 2.20 ou ultérieure. La prise en charge des versions de bibliothèque jusqu’à la version 2.15 est limitée. Ces versions précédentes de la bibliothèque envoient des données Activity Map dans un événement distinct du reste de vos données. Cet événement supplémentaire augmente le nombre d’accès que vous envoyez à Adobe Analytics ou Adobe Experience Platform.
 
-La variable de configuration du SDK Web [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gère la collecte automatique des données Activity Map. Elle est activée par défaut, sauf si elle est explicitement désactivée.
+La variable de configuration du SDK Web [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gère la collecte automatique des données Activity Map. Elle est activée par défaut, sauf si elle est explicitement désactivée.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Le paramètre de configuration **[!UICONTROL Utiliser l’Activity Map]** gère 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Si nécessaire, créez vos modifications dans une bibliothèque et publiez-les en production.
 
-Pour plus d’informations, consultez la [présentation de l’extension Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) .
+Pour plus d’informations, consultez la [présentation de l’extension Adobe Analytics](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) .
 
 +++
 

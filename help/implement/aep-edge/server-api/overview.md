@@ -15,7 +15,7 @@ ht-degree: 35%
 
 En règle générale, vous utilisez l’API serveur Edge Network Experience Platform pour collecter des données côté serveur plutôt que côté client et lors de la collecte de données à partir d’appareils tels que des appareils IoT, des décodeurs et des applications de bureau. Ensuite, vous envoyez ces données au réseau Edge et à des services comme Adobe Analytics.
 
-Tenez également compte de l’API serveur Edge Network lorsque vous avez besoin que des données sensibles soient collectées en toute sécurité et authentifiées sur l’ensemble du réseau. Voir [Authentification](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) pour plus d’informations.
+Tenez également compte de l’API serveur Edge Network lorsque vous avez besoin que des données sensibles soient collectées en toute sécurité et authentifiées sur l’ensemble du réseau. Voir [Authentification](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=fr) pour plus d’informations.
 
 Présentation générale des tâches d’implémentation :
 
@@ -48,7 +48,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>4</td>
 <td><b>Mettez en oeuvre et testez la collecte de données</b> à l’aide des données d’événement unique et des API de collecte de données d’événement par lot.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr">Collecte de données d’événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Collecte de données d’événement par lot</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr">Collecte de données d’événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=fr">Collecte de données d’événement par lot</a>
 </tr>
 
 <td>5</td>

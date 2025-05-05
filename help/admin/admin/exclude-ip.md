@@ -23,7 +23,7 @@ Pour exclure des données par adresse IP, vous pouvez configurer les exclusions 
 >
 >Lors de la configuration des exclusions par adresse IP, tenez compte des points suivants :
 >
->* Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html).
+>* Les accès exclus par adresse IP sont facturés en tant qu’[appels au serveur](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html?lang=fr).
 >* Les adresses IP privées ne doivent pas être exclues. Seules les adresses IP externes atteignent les serveurs de collecte de données dʼAdobe. Les adresses privées comprennent `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` et `169.254.*.*`.
 >* Vous pouvez utiliser des indicateurs génériques (&#42;) pour exclure une plage d’adresses. Par exemple, `[!DNL 0.0.*.0]` exclut toutes les adresses IP comprises entre `[!DNL 0.0.0.0]` et `[!DNL 0.0.255.0]`. Vous pouvez exclure jusqu’à 50 adresses IP différentes.
 >* Les données provenant d’une adresse IP exclue sont exclues pour tout nouvel accès entrant dans le système dans les 5 minutes suivant la définition de l’exclusion.

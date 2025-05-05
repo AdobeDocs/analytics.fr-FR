@@ -44,7 +44,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
    1. Notez la valeur de la variable `trackingServer`.
 
-* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
+* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
    1. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
    1. Notez la valeur [!UICONTROL Request URL - Hostname].

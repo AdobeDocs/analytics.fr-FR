@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # Mettre en œuvre Adobe Analytics à l’aide du SDK Web d’Adobe Experience Platform
 
-Vous pouvez utiliser le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) pour envoyer des données à Adobe Analytics. Il existe deux méthodes principales pour mettre en oeuvre le SDK Web. Chaque méthode possède deux types d’implémentation :
+Vous pouvez utiliser le [SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html?lang=fr) pour envoyer des données à Adobe Analytics. Il existe deux méthodes principales pour mettre en oeuvre le SDK Web. Chaque méthode possède deux types d’implémentation :
 
 | | **Migrer depuis l’AppMeasurement** | **Mise en oeuvre d’un SDK web propre** |
 | --- | --- | --- |

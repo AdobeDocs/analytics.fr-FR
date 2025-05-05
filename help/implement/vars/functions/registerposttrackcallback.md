@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-Pour plus d’informations, voir [Gestion des réponses des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) dans la documentation du SDK Web.
+Pour plus d’informations, voir [Gestion des réponses des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#handling-responses-from-events) dans la documentation du SDK Web.
 
 ## Enregistrement du rappel Post-track à l’aide de l’extension Adobe Analytics
 

@@ -34,7 +34,7 @@ Les variables suivantes ont été introduites dans l’insertion de données en 
 * **`aamlh`** : indice d’emplacement Adobe Audience Manager.
 * **`contextData.key`** : [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`** : variables du service d’ID Experience Cloud. Inclut `id`, `authState` et `isMCSeed`.
-* **`hints`** : [ variables de conseil client](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html). Comprend `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
+* **`hints`** : [ variables de conseil client](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr). Comprend `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
 * **`ipaddress`** : adresse IP du visiteur.
 * **`language`** : dimension [Langue](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`** : [Variables de liste](/help/implement/vars/page-vars/list.md).

@@ -23,7 +23,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct p
 
 >[!NOTE]
 >
->L’Edge Network Adobe Experience Platform fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) qui classe les accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robots inclus dans les données arrivant via l’Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
+>L’Edge Network Adobe Experience Platform fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) qui classe les accès identifiés comme provenant de robots. Le processus de détection des robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robots inclus dans les données arrivant via l’Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
 
 ## Mise à jour ou chargement de règles de robots
 

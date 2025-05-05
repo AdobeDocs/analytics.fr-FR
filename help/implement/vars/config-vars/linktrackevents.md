@@ -19,7 +19,7 @@ Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()
 
 ## Déterminer les événements Analytics à inclure dans un événement XDM à l’aide du SDK Web
 
-Le SDK Web n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant que les données ne soient envoyées à Adobe. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation du SDK Web.
+Le SDK Web n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant que les données ne soient envoyées à Adobe. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
 
 ## Événements dans les appels de suivi des liens à l’aide de l’extension Adobe Analytics
 

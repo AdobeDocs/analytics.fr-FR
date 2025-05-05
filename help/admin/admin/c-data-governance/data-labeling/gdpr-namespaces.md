@@ -21,7 +21,7 @@ La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que v
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Pour plus d’informations et obtenir la [ liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces), reportez-vous à la [documentation de l’API relative à la Confidentialité des données Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) . Voir [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour un exemple de requête.
+Pour plus d’informations et obtenir la [ liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix#standard-namespaces), reportez-vous à la [documentation de l’API relative à la Confidentialité des données Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) . Voir [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour un exemple de requête.
 
 ## ID de cookie
 

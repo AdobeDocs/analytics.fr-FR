@@ -11,8 +11,8 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->Un nouveau [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) dans le nouveau Report Builder.
+>Un nouveau [Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/rb-overview) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
+>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/convert-workbooks) dans le nouveau Report Builder.
 
 ## Annonce de fin de vie de Reports & Analytics {#ra-eol}
 

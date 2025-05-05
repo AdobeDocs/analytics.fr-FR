@@ -135,7 +135,7 @@ Effectuez également un [inventaire Adobe Analytics](/help/admin/admin/analytics
 
 Si une migration échoue, vous pouvez réessayer.
 
-Avant de retenter une migration ayant échoué, veillez à supprimer du projet tous les [éléments non pris en charge](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors).
+Avant de retenter une migration ayant échoué, veillez à supprimer du projet tous les [éléments non pris en charge](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=fr#understand-unsupported-elements-that-cause-errors).
 
 >[!NOTE]
 >

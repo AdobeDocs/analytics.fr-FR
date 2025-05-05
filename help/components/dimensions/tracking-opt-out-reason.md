@@ -14,13 +14,13 @@ ht-degree: 7%
 
 *Cette page fait référence à la [dimension](overview.md) qui vous permet de voir l’impact potentiel des données de l’activation de certains paramètres de suite de rapports. Il n’est pas lié au [service d’accord préalable de Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr).*
 
-La dimension &quot;Raison de l’exclusion du suivi&quot; agit comme un aperçu des données qui seraient exclues si vous avez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre mise en oeuvre aurait un impact négatif si vous avez activé les [paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) sous Paramètres de suite de rapports.
+La dimension &quot;Raison de l’exclusion du suivi&quot; agit comme un aperçu des données qui seraient exclues si vous avez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre mise en oeuvre aurait un impact négatif si vous avez activé les [paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr) sous Paramètres de suite de rapports.
 
 Les mises en oeuvre standard voient 1 % ou moins du trafic global de leur suite de rapports sous cette dimension si les paramètres de confidentialité n’ont pas encore été activés. Les pourcentages supérieurs à 1 % de tout le trafic suggèrent un problème de mise en oeuvre potentiel qui empêche l’AppMeasurement de définir des cookies propriétaires.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé les [paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Si votre entreprise a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
+Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé les [paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr). Si votre entreprise a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
 
 ## Éléments de dimension
 

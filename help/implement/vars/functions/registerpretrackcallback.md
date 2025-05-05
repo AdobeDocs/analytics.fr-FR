@@ -37,7 +37,7 @@ Le SDK Web ne peut pas associer une fonction une fois les données compilées, m
 
 ## Rappel de pré-suivi implémentant manuellement le SDK Web
 
-Le SDK Web ne peut pas associer une fonction une fois les données compilées, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation du SDK Web.
+Le SDK Web ne peut pas associer une fonction une fois les données compilées, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
 
 ```js
 // Set the trackingCode XDM field to "New value"

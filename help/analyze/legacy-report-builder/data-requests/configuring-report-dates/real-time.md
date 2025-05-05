@@ -31,4 +31,4 @@ Le temps réel respecte les autorisations pour les utilisateurs et les groupes. 
 
 >[!NOTE]
 >
->Les [!UICONTROL rapports en temps réel] ne sont pas identiques à la fonction [ Inclure les données actives](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html) (Récence des données) publiée précédemment, qui a réduit la latence pour la création de rapports standard en affichant les données avant qu’elles ne soient finalisées.
+>Les [!UICONTROL rapports en temps réel] ne sont pas identiques à la fonction [ Inclure les données actives](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=fr) (Récence des données) publiée précédemment, qui a réduit la latence pour la création de rapports standard en affichant les données avant qu’elles ne soient finalisées.

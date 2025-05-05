@@ -20,7 +20,7 @@ La variable de conversion Custom Insight (ou eVar) est placée dans le code Adob
 
 ## Présentation des variables de conversion (eVars)
 
-Pour une présentation vidéo des variables de conversion, reportez-vous à la section [Présentation des variables de conversion](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) du guide des tutoriels Analytics.
+Pour une présentation vidéo des variables de conversion, reportez-vous à la section [Présentation des variables de conversion](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars) du guide des tutoriels Analytics.
 
 Lorsqu’une eVar est définie sur une valeur pour un visiteur, Adobe la mémorise automatiquement jusqu’à ce qu’elle arrive à expiration. Tout événement de succès auquel est associé un visiteur alors que la valeur eVar est active est comptabilisé dans cette dernière.
 

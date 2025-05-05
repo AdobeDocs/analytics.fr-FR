@@ -32,7 +32,7 @@ La variable `cookieDomainPeriods` a aidé l’AppMeasurement à déterminer où 
 >
 >Ne prenez pas en compte les sous-domaines pour cette variable. Par exemple, ne définissez pas `cookieDomainPeriods` l’URL `store.toys.example.com`. AppMeasurement reconnaît que les cookies sont stockés sur `example.com`, même sur les URL comportant de nombreux sous-domaines.
 
-Pour les mises en oeuvre sur AppMeasurement v2.26.x ou version ultérieure, le cookie [`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) est utilisé pour aider à déterminer automatiquement le domaine de cookie correct. La bibliothèque tente d’écrire un cookie comprenant deux points de domaine. Si la définition de ce cookie échoue, il effectue une nouvelle tentative, y compris d’autres points de domaine jusqu’à ce qu’il réussisse. Une fois défini, ce cookie est immédiatement supprimé.
+Pour les mises en oeuvre sur AppMeasurement v2.26.x ou version ultérieure, le cookie [`s_ac`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) est utilisé pour aider à déterminer automatiquement le domaine de cookie correct. La bibliothèque tente d’écrire un cookie comprenant deux points de domaine. Si la définition de ce cookie échoue, il effectue une nouvelle tentative, y compris d’autres points de domaine jusqu’à ce qu’il réussisse. Une fois défini, ce cookie est immédiatement supprimé.
 
 ## Cookie des périodes de domaine à l’aide du SDK Web
 

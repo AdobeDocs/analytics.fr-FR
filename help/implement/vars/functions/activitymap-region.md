@@ -19,7 +19,7 @@ La variable `ActivityMap.region` vous permet de remplacer la logique utilisée p
 
 ## Remplacement des valeurs de région à l’aide du SDK Web
 
-Vous pouvez utiliser le rappel [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) pour modifier la charge utile du SDK Web ou interrompre l’envoi de données.
+Vous pouvez utiliser le rappel [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) pour modifier la charge utile du SDK Web ou interrompre l’envoi de données.
 
 ## Remplacement de région à l’aide de l’extension Adobe Analytics
 

@@ -31,7 +31,7 @@ Comparez chaque méthode d’implémentation d’Adobe Analytics. Vous pouvez ut
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) .
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Pour plus d’informations, voir la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=fr) .
 
 
 | | [SDK Mobile](/help/implement/aep-edge/mobile-sdk/overview.md) | [API serveur](/help/implement/aep-edge/server-api/overview.md) |
