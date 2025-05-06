@@ -47,7 +47,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Octobre 2024** |  |
 | Nouvelles informations sur les facteurs de requête dans les performances Analysis Workspace | Une nouvelle section [Facteurs de requête](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors) de l’article [Optimiser les performances d’Analysis Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) explique comment les requêtes sont traitées et les différents facteurs qui influencent les temps de traitement. |
-| Nouveau Report Builder | [Nouvelle documentation](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) pour le module complémentaire Report Builder simplifié, pris en charge sur Mac, Windows et les navigateurs web. |
+| Nouveau Report Builder | [Nouvelle documentation](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/rb-overview) pour le module complémentaire Report Builder simplifié, pris en charge sur Mac, Windows et les navigateurs web. |
 | **Août 2024** | |
 | Gestionnaire d’alertes | Documentation simplifiée sur le [gestionnaire d’alertes](/help/components/c-alerts/alert-manager.md). Mise à jour pour plus de clarté et de précision. |
 | **Juillet 2024** | |
