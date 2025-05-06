@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 90%
+source-wordcount: '436'
+ht-degree: 88%
 
 ---
 
@@ -150,8 +150,8 @@ ht-degree: 90%
       + [Nouvelle implémentation à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK mobile {#mobile-sdk}
       + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
-   + API du serveur {#server-api}
-      + [Vue d’ensemble de l’API du serveur](aep-edge/server-api/overview.md)
+   + API EDGE NETWORK {#api}
+      + [Présentation de l’API Edge Network](aep-edge/api/overview.md)
 + Mise en œuvre d’Analytics à l’aide de l’extension Adobe Analytics {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
