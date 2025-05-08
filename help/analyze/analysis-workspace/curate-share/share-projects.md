@@ -5,14 +5,21 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 98%
 
 ---
 
-# Partage de projets
+# Partage de projets {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="Partage de projets"
+>abstract="Vous pouvez partager l’un de ces rôles de projet avec d’autres utilisateurs et utilisatrices de votre entreprise."
+
+
 
 Vous pouvez partager un projet Analysis Workspace avec les types de personnes suivants :
 
@@ -34,7 +41,7 @@ Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsq
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/40030?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +152,7 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3452452?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -200,7 +207,7 @@ Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/327496?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

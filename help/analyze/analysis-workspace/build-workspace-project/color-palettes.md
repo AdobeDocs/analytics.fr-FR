@@ -4,14 +4,19 @@ title: En quoi consistent les palettes de couleurs de visualisations et comment 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# Palettes de couleurs de visualisations
+# Palettes de couleurs de visualisations {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="Palette de couleurs du projet"
+>abstract="Modifiez la palette de couleurs utilisée dans ce projet."
 
 Vous pouvez modifier la palette de couleurs de visualisation utilisée dans Workspace en choisissant une autre palette de couleurs ou en spécifiant votre propre palette susceptible de correspondre aux couleurs de la marque de votre entreprise. Cette fonctionnalité affecte la plupart des visualisations dans Workspace, mais n’a **aucune** incidence sur la visualisation de la [!UICONTROL Synthèse des modifications], le formatage conditionnel dans les tableaux [!UICONTROL à structure libre] et la visualisation des [!UICONTROL cartes].
 
@@ -32,7 +37,7 @@ Remarque :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation d’une palette de couleurs personnalisée](https://video.tv.adobe.com/v/328083?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation d’une palette de couleurs personnalisée](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

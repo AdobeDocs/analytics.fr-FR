@@ -4,14 +4,19 @@ title: Enregistrement des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# Enregistrement des projets
+# Enregistrement des projets {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="Ajout de remarques"
+>abstract="Ajoutez des notes sur la version du projet en cours d’enregistrement. Ces notes seront stockées avec la version et accessibles sous le menu **[!UICONTROL Projet]** > **[!UICONTROL Ouvrir la version précédente]**."
 
 Les projets dans Analysis Workspace sont automatiquement enregistrés toutes les 2 minutes.
 

@@ -5,19 +5,30 @@ title: Gérer des sources de données de visualisation
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
 # Gérer des sources de données de visualisation {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="Verrouiller la sélection"
->abstract="Activez ce paramètre pour verrouiller la visualisation aux positions du tableau ou aux éléments exacts sélectionnés dans la source de données."
+>abstract="Activez ce paramètre pour verrouiller la visualisation sur les positions ou les éléments sélectionnés dans la source de données."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="Afficher le tableau"
+>abstract="Sélectionnez **[!UICONTROL Afficher le tableau]** pour générer une nouvelle source de données pour votre visualisation actuelle, distincte de la source de données d’origine."
+
+<!-- markdownlint-enable MD034 -->
 
 Synchronisez les visualisations pour contrôler quel tableau de données ou source de données correspond à une visualisation.
 
@@ -40,7 +51,7 @@ La gestion d’une source de données permet d’afficher la source de données 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres de source de données](https://video.tv.adobe.com/v/328077?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres de source de données](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

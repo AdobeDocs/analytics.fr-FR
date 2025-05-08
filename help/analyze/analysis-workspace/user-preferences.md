@@ -4,10 +4,10 @@ description: Vous pouvez définir des préférences générales et de projet pou
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez gérer les paramètres d’Analysis Workspace et ses composants conn
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/3429992/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ Vous pouvez personnaliser les préférences générales de tous les nouveaux pro
 | Afficher les conseils | Affiche les conseils dans un cadre bleu de la zone inférieure droite d’Analysis Workspace. <p>Cette option est activée par défaut.</p> |
 | Composants affichés dans les groupes du rail de gauche | Choisissez le nombre de chaque composant à afficher dans le menu Composants du rail de gauche. <p>Si vous choisissez 0, le composant n’est plus accessible à partir du rail de gauche de vos espaces de travail.</p><p>Par défaut, 5 composants sont affichés pour chacun des éléments suivants :</p> <ul><li>Dimensions</li><li>Mesures</li><li>Filtres</li><li>Périodes</li></ul> <p>Pour plus d’informations sur les composants dans Analysis Workspace, consultez [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
-## Préférences de la société
+## Préférences de la société {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="Autorisation du partage uniquement avec les utilisateurs et utilisatrices de Workspace"
+>abstract="Lorsque cette option est activée, l’option **[!UICONTROL Partager avec tout le monde]** n’est plus disponible pour les utilisateurs et les utilisatrices lors du partage d’un projet Analysis Workspace. Les personnes qui avaient obtenu l’accès à un projet via cette option de partage ne peuvent plus accéder au projet."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="Exiger une authentification Experience Cloud"
+>abstract="Lorsque cette option est activée, les personnes qui ont accès à un projet par le biais de l’option **[!UICONTROL Partager avec tout le monde]** dans Analysis Workspace doivent s’authentifier à l’aide de leurs informations d’identification Experience Cloud."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="Autoriser les commentaires sur les projets"
+>abstract="Lorsqu’elle est activée, une zone de commentaires est disponible dans le rail de droite de chaque projet dans Analysis Workspace."
 
 Vous pouvez mettre à jour les préférences de la société qui s’appliquent aux utilisateurs et utilisatrices et aux projets de votre organisation. Pour plus d’informations sur l’accès à ces préférences, consultez [Mettre à jour les préférences](#update-preferences).
 
@@ -61,11 +76,26 @@ Vous pouvez mettre à jour les préférences de la société qui s’appliquent 
 |  | Masquer l’onglet Rapports | Masque l’onglet Rapports pour les utilisateurs et utilisatrices de votre organisation. |
 | **Partage des projets** | | |
 | | Autoriser le partage uniquement avec les utilisateurs et utilisatrices de Workspace | <p>Lorsque cette option est activée, les utilisateurs et utilisatrices de votre organisation ne peuvent pas voir l’option « Partager avec tout le monde » dans le menu Partager. Cela signifie que les utilisateurs et utilisatrices ne peuvent pas partager des projets avec des personnes qui n’ont pas de compte Analysis Workspace dans votre organisation, comme décrit dans [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>Tenez compte des points suivants lorsque vous activez ou désactivez cette option :</p> <ul><li><p>Lorsque vous activez cette option, les personnes qui avaient auparavant reçu l’accès à un projet via l’option de partage « Partager avec tout le monde » ne peuvent plus accéder au projet.</p></li><li><p>Si cette option est activée (pour permettre le partage uniquement avec les utilisateurs et utilisatrices de Workspace), puis désactivée ultérieurement (pour permettre le partage avec tout le monde), les personnes qui ont précédemment reçu l’accès à un projet via l’option de partage « Partager avec tout le monde » ne retrouvent pas automatiquement leur accès au projet. Dans ce cas, l’utilisateur ou l’utilisatrice qui a partagé le projet doit activer l’option [!UICONTROL **Le lien est actif**] disponible lors du partage d’un projet avec tout le monde ([!UICONTROL **Partager**] > [!UICONTROL **Partager avec tout le monde**]), comme décrit dans la section [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
-| | Exiger une authentification Experience Cloud | <p>Lorsque cette option est activée, les personnes qui ont accès à un projet à partir de l’option « Partager avec tout le monde » dans Analysis Workspace doivent s’authentifier à l’aide de leurs informations d’identification Experience Cloud.</p> <p>Une fois cette option activée, chaque fois qu’un utilisateur ou une utilisatrice partage un projet à l’aide de l’option de partage « Partager avec tout le monde », l’option « Exiger une authentification Experience Cloud » est activée dans la boîte de dialogue de partage et ne peut pas être désactivée par l’utilisateur ou l’utilisatrice qui partage le projet. (Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent partager des projets avec tout le monde, voir [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Tenez compte des points suivants lorsque vous activez cette option :</p><ul><li><p>Lorsque vous activez cette option, tous les projets qui étaient précédemment partagés avec l’option de partage « Partager avec tout le monde », et pour lesquels l’option « Exiger une authentification Experience Cloud » n’est pas activée, sont désactivés.</p></li> <li><p>Si cette option est activée (pour exiger une authentification Experience Cloud), puis désactivée ultérieurement (pour permettre à toute personne disposant du lien d’accéder au projet), les personnes qui ont auparavant reçu l’accès à un projet via l’option de partage « Partager avec tout le monde » ne retrouvent pas automatiquement leur accès au projet. Dans ce cas, l’utilisateur ou l&#39;utilisatrice qui a partagé le projet doit activer l’option « Le lien est actif » disponible lors du partage d’un projet avec tout le monde ([!UICONTROL **Partager**] > [!UICONTROL **Partager avec tout le monde**] > [!UICONTROL **Le lien est actif**]), comme décrit dans la section [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Cette option est disponible uniquement si l’authentification unique est implémentée dans votre organisation. Pour plus d’informations sur la manière dont les administrateurs et administratrices système peuvent activer l’authentification unique pour votre organisation, voir [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Si l’authentification unique est configurée pour votre organisation, vérifiez si un type de création de compte automatique est implémenté dans la console. En règle générale, un administrateur ou une administratrice système effectue cette configuration, comme décrit dans la section [Activer la création automatique de compte](https://helpx.adobe.com/fr/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Si votre organisation fait partie d’un secteur qui nécessite la conformité HIPAA, cette option est automatiquement activée et ne peut pas être désactivée.</p></li></ul> |
+| | Exiger une authentification Experience Cloud | <p>Lorsque cette option est activée, les personnes qui ont accès à un projet à partir de l’option « Partager avec tout le monde » dans Analysis Workspace doivent s’authentifier à l’aide de leurs informations d’identification Experience Cloud.</p> <p>Une fois cette option activée, chaque fois qu’un utilisateur ou une utilisatrice partage un projet à l’aide de l’option de partage « Partager avec tout le monde », l’option « Exiger une authentification Experience Cloud » est activée dans la boîte de dialogue de partage et ne peut pas être désactivée par l’utilisateur ou l’utilisatrice qui partage le projet. (Pour plus d’informations sur la manière dont les utilisateurs et utilisatrices peuvent partager des projets avec tout le monde, voir [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>Tenez compte des points suivants lorsque vous activez cette option :</p><ul><li><p>Lorsque vous activez cette option, tous les projets qui étaient précédemment partagés avec l’option de partage « Partager avec tout le monde », et pour lesquels l’option « Exiger une authentification Experience Cloud » n’est pas activée, sont désactivés.</p></li> <li><p>Si cette option est activée (pour exiger une authentification Experience Cloud), puis désactivée ultérieurement (pour permettre à toute personne disposant du lien d’accéder au projet), les personnes qui ont auparavant reçu l’accès à un projet via l’option de partage « Partager avec tout le monde » ne retrouvent pas automatiquement leur accès au projet. Dans ce cas, l’utilisateur ou l&#39;utilisatrice qui a partagé le projet doit activer l’option « Le lien est actif » disponible lors du partage d’un projet avec tout le monde ([!UICONTROL **Partager**] > [!UICONTROL **Partager avec tout le monde**] > [!UICONTROL **Le lien est actif**]), comme décrit dans la section [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>Cette option est disponible uniquement si l’authentification unique est implémentée dans votre organisation. Pour plus d’informations sur la manière dont les administrateurs et les administratrices système peuvent activer l’authentification unique pour votre organisation, consultez [Configurer l’identité et l’authentification unique](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html){target=_blank}.</p><p>Si l’authentification unique est configurée pour votre organisation, vérifiez si un type de création de compte automatique est implémenté dans la console. En règle générale, un administrateur ou une administratrice système effectue cette configuration, comme décrit dans la section [Activer la création automatique de compte](https://helpx.adobe.com/fr/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>Si votre organisation fait partie d’un secteur qui nécessite la conformité HIPAA, cette option est automatiquement activée et ne peut pas être désactivée.</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## Préférences des projets et analyses
+## Préférences des projets et analyses {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="Palette catégorielle"
+>abstract="Appliquée à de nombreuses visualisations dans Analysis Workspace et l’analyse guidée. Chaque couleur représente une valeur catégorielle distincte."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="Palette divergente"
+>abstract="Appliquée à la table de cohorte dans Analysis Workspace et l’analyse guidée par la croissance des utilisateurs et des utilisatrices. Cette palette a une signification numérique avec deux extrêmes et une ligne de base au milieu."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="Palette séquentielle"
+>abstract="Appliquée à l’analyse guidée des tendances de fréquence (barres empilées). Cette palette a une signification numérique allant du plus clair au plus foncé."
 
 Vous pouvez personnaliser les préférences du projet de tous les nouveaux projets que vous créez dans Analysis Workspace. Pour plus d’informations sur l’accès à ces préférences, consultez [Préférences de mise à jour](#update-preferences).
 
@@ -87,7 +117,24 @@ Cliquez sur les titres des préférences liées pour plus d’informations et de
 |  | Caractère de séparation CSV | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
 |  | Affichage des annotations | Indiquez si les annotations sont visibles dans les projets. Pour plus d’informations sur les annotations, consultez [Présentation des annotations](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
-## Préférences du tableau à structure libre
+## Préférences du tableau à structure libre {#freeform-table-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="Afficher les anomalies"
+>abstract="Sélectionner **[!UICONTROL Afficher les anomalies]** exécute automatiquement la détection des anomalies sur la première colonne de mesures ajoutée à une visualisation de tableau à structure libre de séries temporelles."
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="Afficher la prévision"
+>abstract="Sélectionner **[!UICONTROL Afficher la prévision]** effectue une prévision automatique de la première colonne de mesures ajoutée à une visualisation de tableau à structure libre de séries temporelles."
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="Mesure par défaut du tableau"
+>abstract="Sélectionnez la mesure par défaut à utiliser pour les tableaux à structure libre. Si la vue de données sélectionnée ne contient pas la mesure par défaut sélectionnée, le tableau bascule automatiquement vers une autre mesure principale."
+
 
 Vous pouvez personnaliser les préférences du tableau à structure libre pour tous les nouveaux projets que vous créez dans Analysis Workspace. Pour plus d’informations sur l’accès à ces préférences, consultez [Préférences de mise à jour](#update-preferences).
 
