@@ -4,9 +4,9 @@ title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. <p>Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.</p> | [Gérer les demandes de Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=fr) |
-   | Activity Map | Activity Map établit un classement de l’activité des liens à l’aide de recouvrements visuels et fournit un tableau de bord Real-Time Analytics visant à surveiller l’engagement du public sur vos pages web. Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clientes et des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience. | [Vue d’ensemble d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) |
+   | Activity Map | Activity Map établit un classement de l’activité des liens à l’aide de recouvrements visuels et fournit un tableau de bord Real-Time Analytics visant à surveiller l’engagement du public sur vos pages web. Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clientes et des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience. | [Vue d’ensemble d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) |
    | Recommendations Classic | Recommendations est une fonctionnalité Adobe Target qui permet d’afficher automatiquement les produits, services ou le contenu susceptibles d’intéresser votre public en fonction de ses activités antérieures, de ses préférences ou d’autres critères. | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr) |
    | Search &amp; Promote | Cette fonctionnalité n’est plus prise en charge. |  |
    | Mobile Services | Cette fonctionnalité n’est plus prise en charge. |  |

@@ -5,7 +5,7 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
 ht-degree: 100%
 
@@ -24,14 +24,14 @@ ht-degree: 100%
    + [Configuration requise et comparaison des produits Analytics](get-started/analytics-product-comparison.md)
    + [Configuration requise](get-started/sys-reqs.md)
 + [Page de destination](landing.md)
-+ Analysis Workspace {#analysis-workspace}
-   + [Aperçu d’Analysis Workspace](analysis-workspace/home.md)
++ Analysis Workspace {#analysis-workspace}
+   + [Vue d’ensemble d’Analysis Workspace](analysis-workspace/home.md)
    + Projets {#build-workspace-project}
-      + [Présentation des projets](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Vue d’ensemble des projets](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Création de projets](analysis-workspace/build-workspace-project/create-projects.md)
       + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Table des matières du projet](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
-      + Dossiers dans Espace de travail {#workspace-folders}
+      + Dossiers dans Workspace {#workspace-folders}
          + [À propos des dossiers dans Workspace](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers et sous-dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Supprimer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
@@ -47,11 +47,11 @@ ht-degree: 100%
       + [Utiliser les modèles](analysis-workspace/templates/use-templates.md)
       + [Créer des modèles](analysis-workspace/templates/create-templates.md)
    + Composants {#components}
-      + [Présentation des composants](analysis-workspace/components/analysis-workspace-components.md)
+      + [Vue d’ensemble des composants](analysis-workspace/components/analysis-workspace-components.md)
       + [Utiliser des composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
-         + [Aperçu des annotations](analysis-workspace/components/annotations/overview.md)
+         + [Vue d’ensemble des annotations](analysis-workspace/components/annotations/overview.md)
          + [Création d’annotations](analysis-workspace/components/annotations/create-annotations.md)
          + [Gestion des annotations](analysis-workspace/components/annotations/manage-annotations.md)
          + [Affichage des annotations](analysis-workspace/components/annotations/view-annotations.md)
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [Éléments dynamiques ou statiques](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [Filtrer et trier des tableaux à structure libre](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totaux de l’espace de travail](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
-      + Tableau de cohortes {#cohort-table}
+      + Table de cohortes {#cohort-table}
          + [Qu’est-ce que l’analyse des cohortes ?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configuration d’un rapport d’analyse des cohortes](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Cas d’utilisation de l’analyse des cohortes](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
@@ -125,12 +125,12 @@ ht-degree: 100%
       + [Panneau Durée de lecture des médias](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [Panneau d’éléments suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
       + [Panneau Résumé de la page](analysis-workspace/c-panels/page-summary.md)
-      + [Panneau Quick Insights](analysis-workspace/c-panels/quickinsight.md)
+      + [Panneau Aperçu rapide](analysis-workspace/c-panels/quickinsight.md)
       + Panneau de comparaison des segments {#segment-comparison}
          + [Comparaison des segments - Aperçu](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation de la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés dans la comparaison de segments](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Traitement, partage et planification de projets {#curate-share}
+   + Traiter, partager et planifier des projets {#curate-share}
       + [Menu Partager](analysis-workspace/curate-share/send-schedule-files.md)
       + [Traitement des projets](analysis-workspace/curate-share/curate.md)
       + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
@@ -152,14 +152,14 @@ ht-degree: 100%
       + [Désactivation de la détection des anomalies](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [Exécution de l’analyse des contributions](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Techniques statistiques de la détection des anomalies](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
-   + [Préférences utilisateur](analysis-workspace/user-preferences.md)
+   + [Préférences de l’utilisateur ou de l’utilisatrice](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Messages d’erreur](analysis-workspace/workspace-faq/error-messages.md)
       + [Limites d’Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Configuration requise pour l’administration](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Présentation de Report Builder](report-builder/rb-overview.md)
    + [Configuration de Report Builder](report-builder/report-builder-setup.md)
@@ -174,7 +174,7 @@ ht-degree: 100%
    + [Planification de classeurs](report-builder/schedule-reportbuilder.md)
    + [Étiquettes restreintes](report-builder/restricted-labels.md)
    + [Paramètres de Report Builder](report-builder/report-builder-settings.md)
-+ Report Builder hérité {#legacy-report-builder}
++ Report Builder hérité {#legacy-report-builder}
    + [Aide du Report Builder hérité d’Adobe](legacy-report-builder/home.md)
    + Configuration du Report Builder hérité {#legacy-report-builder-setup}
       + [Configuration requise](legacy-report-builder/setup/system-requirements.md)
@@ -193,7 +193,7 @@ ht-degree: 100%
          + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [Gestion des segments](legacy-report-builder/data-requests/segmentation.md)
       + Types de rapports {#report-types}
-         + [Types de rapports - Aperçu](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
+         + [Types de rapports - Vue d’ensemble](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
          + [Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [Filtrage des rapports Chemin en ajoutant des requêtes dépendantes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -217,8 +217,8 @@ ht-degree: 100%
          + [Granularité](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
          + [Calendrier personnalisé](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [Contrôles interactifs](legacy-report-builder/data-requests/interactive-controls.md)
-   + Disposition - Assistant Requête : Étape 2 {#layout}
-      + [Mise en page - Aperçu](legacy-report-builder/layout/layout.md)
+   + Mise en page - Assistant Requête : Étape 2 {#layout}
+      + [Vue d’ensemble de la mise en page](legacy-report-builder/layout/layout.md)
       + Mesures et dimensions {#metrics-dimension}
          + [Mesures et dimensions - Aperçu](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [Ajout de mesures et de dimensions](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
@@ -238,12 +238,12 @@ ht-degree: 100%
       + [Configuration de la disposition personnalisée](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [Mappage de mesures et de dimensions avec des cellules](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [Création d’un micrographique](legacy-report-builder/layout/t-create-a-microchart.md)
-      + Filtrage des dimensions {#filter-dimenson}
+      + Filtrer les dimensions {#filter-dimenson}
          + [Dimensions du filtre - Aperçu](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [Filtrage le plus apprécié](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [Filtres spécifiques](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [Filtres enregistrés](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
-   + Gestion des requêtes {#manage-requests}
+   + Gérer des requêtes {#manage-requests}
       + [Gestion des requêtes - Définitions](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
       + [Messages de diagnostic](legacy-report-builder/manage-requests/diagnostic-messages.md)
       + [Tri croissant ou décroissant](legacy-report-builder/manage-requests/sort-ascending-or-descending.md)
@@ -254,7 +254,7 @@ ht-degree: 100%
       + [Actualisation des requêtes de toutes les feuilles](legacy-report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [Ajout de requêtes dépendantes](legacy-report-builder/manage-requests/add-dependent-requests.md)
       + [En-tête](legacy-report-builder/manage-requests/classification.md)
-      + Copie de requêtes {#copy-requests}
+      + Copier des requêtes {#copy-requests}
          + [Copie de requêtes - Aperçu](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [Copie de requêtes simples](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [Copie de requêtes adjacentes](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -274,7 +274,7 @@ ht-degree: 100%
       + [Téléchargement d’un classeur](legacy-report-builder/workbook-library/t-download-a-workbook.md)
       + [Verrouillez/déverrouillez des classeurs](legacy-report-builder/workbook-library/protect-wb.md)
       + [Planification de classeurs prenant en charge les macros](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-   + Publication sur Power BI à l’aide de Report Builder 5.5 {#publish-powerbi}
+   + Publier sur Power BI à l’aide de Report Builder version 5.5 {#publish-powerbi}
       + [Publication sur Power BI - Aperçu](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [Limitations et spécifications](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importation manuelle de données dans Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
@@ -286,7 +286,7 @@ ht-degree: 100%
    + [Dépannage de Report Builder](legacy-report-builder/troubleshoot.md)
    + [FAQ sur Report Builder](legacy-report-builder/faq.md)
 
-+ Activity Map {#activity-map}
++ Activity Map {#activity-map}
    + [Vue d’ensemble](activity-map/overview.md)
    + [Commencer](activity-map/getting-started.md)
    + Recouvrement {#overlay}
@@ -296,7 +296,7 @@ ht-degree: 100%
    + [Résolution des problèmes](activity-map/troubleshooting.md)
    + [FAQ](activity-map/faq.md)
 + Tableaux de bord Adobe Analytics {#mobapp}
-   + [Tableaux de bord Adobe Analytics - Aperçu](mobile-app/home.md)
+   + [Tableaux de bord Adobe Analytics - Vue d’ensemble](mobile-app/home.md)
    + [Présentation du curateur](mobile-app/curator.md)
    + [Création dʼune carte de performance mobile](mobile-app/create-scorecard.md)
    + [Préparation des utilisateurs en charge de lʼexécution à lʼutilisation des tableaux de bord](mobile-app/set-up-execs.md)

@@ -5,7 +5,7 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
 ht-degree: 100%
 
@@ -25,13 +25,13 @@ ht-degree: 100%
       + [Autorisations du profil de produit pour les outils de suites de rapports](admin-console/permissions/report-suite-tools.md)
       + [Autorisations du profil de produit pour les outils Analytics](admin-console/permissions/analytics-tools.md)
 + Outils d’administration Analytics {#admin-tools}
-   + [Présentation des outils d’administration](admin/c-admin-tools.md)
+   + [Vue d’ensemble des outils d’administration](admin/c-admin-tools.md)
    + [Gestionnaire de code](admin/code-manager-admin.md)
    + [Inventaire Analytics](admin/analytics-inventory.md)
    + [Sources de données](admin/data-sources.md)
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
-   + Personne responsable des activités de rapport {#reporting-activity-manager}
+   + Gestionnaire des activités de rapport {#reporting-activity-manager}
       + [Vue d’ensemble](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Afficher l’activité de rapport](admin//reporting-activity-manager/reporting-activity.md)
       + [Annuler des requêtes de création de rapports](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -44,7 +44,7 @@ ht-degree: 100%
             + [Paramètres du compte général](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [Filtres URL internes](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [Personnaliser le calendrier](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-            + Détection de référencement payant {#paid-search-detection}
+            + Détection de recherche payante {#paid-search-detection}
                + [Détection de référencement payant - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + Règles de traitement {#c-processing-rules}
@@ -111,7 +111,7 @@ ht-degree: 100%
             + [Rapports d’application](admin/c-manage-report-suites/c-edit-report-suites/app-reporting.md)
             + [Classifications d’application](admin/c-manage-report-suites/c-edit-report-suites/app-classifications.md)
          + [Gestion des médias](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
-         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
+         + [Activity Map](admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [Compte rendu des performances sur la confidentialité](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
@@ -143,7 +143,7 @@ ht-degree: 100%
          + [Génération de piste](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [Média d’assistance](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + Paramètres de l’entreprise {#company-settings}
-      + [Paramètres d’entreprise - Aperçu](admin/company/c-company-settings.md)
+      + [Vue d’ensemble des paramètres d’entreprise](admin/company/c-company-settings.md)
       + [Gestionnaire de sécurité](admin/company/security-manager.md)
       + [Services web](admin/company/web-services-admin.md)
       + [Rapports du Report Builder](admin/company/report-builder-reports-admin.md)
@@ -152,7 +152,7 @@ ht-degree: 100%
       + [Gestionnaire de préférences](admin/company/preferences-manager.md)
       + [Actions en attente](admin/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](admin/company/feature-access-levels.md)
-   + Étiquetage de confidentialité de la gouvernance des données {#data-governance}
+   + Étiquetage de la confidentialité de la gouvernance des données {#data-governance}
       + [Workflow relatif à la confidentialité des données d’Adobe Analytics](admin/c-data-governance/an-gdpr-workflow.md)
       + [Questions fréquentes](admin/c-data-governance/gdpr-faq.md)
       + Étiquetage des données {#data-labels}
@@ -172,7 +172,7 @@ ht-degree: 100%
    + Gestion des utilisateurs et utilisatrices et des produits (héritée) {#user-product-management}
       + [Gestion des utilisateurs et utilisatrices et des produits (héritée)](admin/user-management2/user-management.md)
       + [Gestion des ressources, des expirations et des comptes d’utilisation hérités](admin/user-management2/users-assets.md)
-      + Migration des utilisateurs vers Adobe Admin Console {#migrate-users}
+      + Migrer des utilisateurs et utilisatrices vers Adobe Admin Console {#migrate-users}
          + [Migration des utilisateurs d’Analytics vers l’Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID](admin/user-management2/user-migration/t-migrate-users.md)
          + [Migration de comptes d’utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](admin/user-management2/user-migration/migrate-enterprise.md)

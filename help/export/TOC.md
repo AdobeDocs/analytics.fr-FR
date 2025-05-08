@@ -5,9 +5,9 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données, pour exporter des données brutes, ainsi que Data Warehouse, pour récupérer une sortie de données sous forme de feuille de calcul. Découvrez comment utiliser FTP et SFTP pour transférer des fichiers.
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '279'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 + [Guide d’exportation Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Flux de données Analytics {#analytics-data-feed}
-   + [Aperçu des flux de données](analytics-data-feed/data-feed-overview.md)
+   + [Vue d’ensemble des flux de données](analytics-data-feed/data-feed-overview.md)
    + [Créer un flux de données](analytics-data-feed/create-feed.md)
    + [Gestion des flux de données](analytics-data-feed/df-manage-feeds.md)
    + [Gestion des tâches relatives aux flux de données](analytics-data-feed/df-manage-jobs.md)
-   + Contenu du flux de données {#data-feed-contents}
+   + Contenu des flux de données {#data-feed-contents}
       + [Aperçu du contenu du flux de données](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Mesures calculées](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Référence des colonnes de données](analytics-data-feed/c-df-contents/datafeeds-reference.md)
@@ -36,7 +36,7 @@ ht-degree: 99%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs dans Data Warehouse](data-warehouse/t-dw-group.md)
-   + Créer une demande Data Warehouse {#dw-create-request}
+   + Créer une demande dans Data Warehouse {#dw-create-request}
       + [Créer une demande d’entrepôt de données](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [Paramètres généraux](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [Créer votre rapport](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -50,9 +50,9 @@ ht-degree: 99%
    + [Gérer les demandes de Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Composants pris en charge dans Data Warehouse](data-warehouse/component-support.md)
    + [Bonnes pratiques relatives à Data Warehouse](data-warehouse/data-warehouse-bp.md)
-+ FTP et SFTP {#ftp-and-sftp}
++ FTP et SFTP {#ftp-and-sftp}
    + [Utilisation de FTP et SFTP avec Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
-   + Configuration de comptes FTP hébergés par Adobe {#set-up-ftp-accounts}
+   + Configurer des comptes FTP hébergés par Adobe {#set-up-ftp-accounts}
       + [Configuration de comptes FTP - Aperçu](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classifications](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [Sources de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
@@ -66,7 +66,7 @@ ht-degree: 99%
    + [Mettre à niveau les serveurs FTP Adobe](ftp-and-sftp/ftp-upgrade.md)
    + [Utilisation du mode FTP passif](ftp-and-sftp/ftp-passive.md)
    + [Temps de traitement du FTP](ftp-and-sftp/ftp-processing.md)
-   + Protocole de transfert de fichiers sécurisé {#secure-file-transfer-protocol}
+   + Secure File Transfer Protocole {#secure-file-transfer-protocol}
       + [Mise à niveau des services SFTP - FAQ](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [Protocole de transfert de fichiers sécurisé - Aperçu](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [Connexion à un compte FTP Adobe par SFTP](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
