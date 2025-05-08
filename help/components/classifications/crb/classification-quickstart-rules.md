@@ -133,7 +133,7 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
-| Expression régulière | &amp;Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
+| Expression régulière | &Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
 
 **Syntaxe**
 
