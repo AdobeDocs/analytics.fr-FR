@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Per
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -131,28 +131,28 @@ ht-degree: 88%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module Integrate](vars/integrate.md)
-+ Préparation à l’implémentation d’Adobe Analytics {#prepare}
++ Préparer la mise en œuvre d’Adobe Analytics {#prepare}
    + [Créer une couche de données](prepare/data-layer.md)
    + [Comparer les méthodes d’implémentation](prepare/comparison.md)
    + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
    + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
    + [Création d’un document de conception de solution](prepare/solution-design.md)
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
-+ Mise en œuvre d’Analytics à l’aide d’Experience Platform Edge {#aep-edge}
++ Mettre en œuvre Analytics à l’aide d’Experience Platform Edge {#aep-edge}
    + [Présentation d’Experience Edge](aep-edge/overview.md)
    + [Mappage des variables d’objet de données](aep-edge/data-var-mapping.md)
    + [Mappage des variables d’objet XDM](aep-edge/xdm-var-mapping.md)
-   + SDK web {#web-sdk}
+   + SDK Web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
       + [Migrer vers le SDK web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [Migrer vers le SDK web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [Nouvelle implémentation à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [Nouvelle implémentation à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + SDK mobile {#mobile-sdk}
-      + [Présentation du SDK Mobile](aep-edge/mobile-sdk/overview.md)
+      + [Présentation du SDK mobile](aep-edge/mobile-sdk/overview.md)
    + API EDGE NETWORK {#api}
       + [Présentation de l’API Edge Network](aep-edge/api/overview.md)
-+ Mise en œuvre d’Analytics à l’aide de l’extension Adobe Analytics {#launch}
++ Implémenter Analytics à l’aide de l’extension Adobe Analytics {#launch}
    + [Présentation des balises](launch/overview.md)
    + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
    + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
@@ -172,14 +172,14 @@ ht-degree: 88%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Dépannage du code H](js/h-code/troubleshooting.md)
-   + Identification héritée de plusieurs appareils {#xdevice-visid}
+   + Identification héritée sur plusieurs appareils {#xdevice-visid}
       + [Présentation de la connexion des utilisateurs à l’ensemble des appareils](js/xdevice-visid/xdevice-connecting.md)
       + [Persistance des variables](js/xdevice-visid/variable-persistence.md)
       + [Exemple de visite](js/xdevice-visid/visit-example.md)
       + [FAQ sur l’identification héritée de plusieurs appareils](js/xdevice-visid/xdevice-faq.md)
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
-+ Mise en œuvre d’Analytics sur d’autres plateformes {#other}
-   + [Mise en œuvre d’Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
++ Mettre en œuvre Analytics sur d’autres plateformes {#other}
+   + [Mettre en œuvre Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
    + [Mise en œuvre d’Analytics sur Ajax](other/ajax.md)
    + [Mise en œuvre d’Analytics sur AMP](other/amp.md)
    + [Mise en œuvre d’Analytics pour les assistants numériques](other/digital-assistants.md)
@@ -189,13 +189,13 @@ ht-degree: 88%
    + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
    + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
    + [Workflow du suivi des campagnes](use-cases/campaign-tracking.md)
-+ Validation de la mise en œuvre {#validate}
++ Valider votre mise en œuvre {#validate}
    + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
-+ Révision de votre implémentation {#review}
++ Réviser votre mise en œuvre {#review}
    + [Révision ciblée (après chaque mise à jour de site web)](review/focused-review.md)
    + [Révision intégrale (tous les 6 mois)](review/full-review.md)
    + [Définition des 5 principaux indicateurs clés de performance](review/define-kpis.md)

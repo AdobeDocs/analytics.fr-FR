@@ -155,7 +155,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Janvier 2023** | |
 | Filtrer et trier des tableaux | Contenu mis à jour (y compris l’ajout de procédures et l’explication des options disponibles) dans l’article [Filtrer et trier des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Cet article a été renommé à partir de « Pagination, filtrer et trier des tableaux ». |
 | Dossiers | Pages dédiées à la [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| Préférences utilisateur | De nombreuses préférences utilisateur supplémentaires sont désormais disponibles dans [Préférences](/help/analyze/analysis-workspace/user-preferences.md). |
+| Préférences de l’utilisateur ou de l’utilisatrice | De nombreuses préférences utilisateur supplémentaires sont désormais disponibles dans [Préférences](/help/analyze/analysis-workspace/user-preferences.md). |
 | Enregistrement automatique des projets | Contenu mis à jour afin d’inclure la fonctionnalité d’enregistrement automatique dans [Enregistrement des projets](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
 | Page de destination | Mises à jour [de la nouvelle page de destination](/help/analyze/landing.md) |
 
