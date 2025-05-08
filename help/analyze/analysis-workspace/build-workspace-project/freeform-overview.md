@@ -21,7 +21,7 @@ Regardez cette vidéo sur la création d’un projet Workspace :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer un projet Workspace](https://video.tv.adobe.com/v/334076?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer un projet Workspace](https://video.tv.adobe.com/v/3415638?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -158,7 +158,7 @@ Regardez cette vidéo sur lʼutilisation du menu contextuel dans Analysis Worksp
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du menu contextuel](https://video.tv.adobe.com/v/23981?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du menu contextuel](https://video.tv.adobe.com/v/327453?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
