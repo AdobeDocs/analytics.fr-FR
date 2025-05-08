@@ -3,10 +3,10 @@ title: Résolution des problèmes de l’importateur de classifications
 description: Problèmes de chargement courants lors de l’utilisation de l’importateur de classifications.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 96%
 
 ---
 
@@ -31,8 +31,8 @@ Si le fichier téléchargé est correctement formaté, le chargeur tente d’imp
 
 * **Lignes déjà classées** : lors de la tentative de chargement de lignes déjà classées avec la même valeur, l’importateur renvoie des lignes sans effet. Ce résultat est attendu, car les classifications ne reclassent pas une valeur clé avec la même classification. Il s’agit d’une notification et non d’une erreur. Ne vous inquiétez pas si vous ne modifiez pas toutes les lignes d’un fichier d’exportation. Adobe recommande de charger uniquement les lignes modifiées.
 * **L’en-tête ne correspond pas à la variable en cours de transfert** : si vous téléchargez un modèle de classification pour la dimension Code de suivi et tentez de le transférer dans une classification eVar, il échoue. N’utilisez que des fichiers d’exportation pour les variables spécifiques à partir desquelles ils ont été exportés.
-* **Une valeur de clé ou de classification contient la valeur 0** : les classifications ne peuvent pas différencier la valeur 0 d’une cellule vide. Elles ne peuvent donc pas classer cette valeur. Consultez [FAQ sur les classifications](../faq.md).
-* **Le fichier de classification contient des virgules ou des caractères spéciaux** : consultez [FAQ sur les classifications](../faq.md).
+* **Une valeur de clé ou de classification contient la valeur 0** : les classifications ne peuvent pas différencier la valeur 0 d’une cellule vide. Elles ne peuvent donc pas classer cette valeur. Consultez la [FAQ sur l’importateur de classifications](importer-faq.md) pour plus d’informations.
+* **Le fichier de classification contient des virgules ou des caractères spéciaux** : consultez la [FAQ sur l’importateur de classifications](importer-faq.md) pour plus d’informations sur la manière d’échapper les valeurs.
 * **Des tabulations supplémentaires dans le fichier chargé** : parfois, lors de la modification de fichiers de classification, une tabulation supplémentaire peut être accidentellement insérée. Chaque ligne nécessite un nombre identique de tabulations pour un traitement correct. Pour rechercher des tabulations supplémentaires dans le fichier, mettez en surbrillance tout le texte d’un éditeur de texte brut et assurez-vous qu’aucune ligne ne contient d’espace supplémentaire à la fin.
 * **Des valeurs de clé en double existent dans le fichier** : chaque valeur de clé ne peut avoir qu’une seule classification par colonne. Si vous tentez de classer la même valeur plusieurs fois, l’importateur renvoie une erreur.
 * **Des sous-classifications existent et sont mal configurées** : si des sous-classifications existent, vérifiez les points suivants :

@@ -3,18 +3,18 @@ description: Définition des éléments d’interface sur les pages du créateur
 title: Règles de classification – Définitions
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# Règles de classification – Définitions
+# Définitions de règles de classification (héritées)
 
 Définition des éléments d’interface sur les pages du créateur de règles de classification.
 
-## Page Règles {#section_4A5BF384EEEE4994B6DC888339833529}
+## Page Règles
 
 Cette page affiche les règles d’un jeu.
 
@@ -56,7 +56,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervalle de recherche en amont </p> </td> 
-   <td colname="col2"> <p>Lorsque vous activez et validez des règles, vous pouvez indiquer si elles doivent remplacer des classifications existantes pour les clés affectées. (Seules les clés classées qui ont été transmises à <span class="keyword">Adobe Analytics</span> au cours de la période spécifiée sont affectées.) </p> <p>Si vous n’indiquez aucun <span class="term"> intervalle de recherche</span>, les règles s’exécutent en boucle pendant environ un mois (en fonction du jour du mois). Les classifications existantes ne sont jamais remplacées, sauf si vous activez cette option. </p> <p><b>Centre de développement</b> : les partenaires peuvent créer des règles de classification dans le <span class="wintitle">Centre de développement</span>. Ces règles sont déployées lorsque le client active une intégration. Dans le <span class="wintitle">Centre de développement</span>, l’option <span class="uicontrol">Remplacer depuis</span> permet au partenaire de spécifier si le client peut déterminer la valeur de remplacement lors de l’activation ou de la modification d’une intégration. </p> <p>Reportez-vous à la section <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Méthode de traitement des règles</a> pour en savoir plus sur le traitement des règles. </p> </td> 
+   <td colname="col2"> <p>Lorsque vous activez et validez des règles, vous pouvez indiquer si elles doivent remplacer des classifications existantes pour les clés affectées. (Seules les clés classées qui ont été transmises à <span class="keyword">Adobe Analytics</span> au cours de la période spécifiée sont affectées.) </p> <p>Si vous ne souhaitez pas spécifier d’intervalle de recherche en amont <span class="term"></span>, les règles recherchent environ un mois en amont (en fonction du jour en cours du mois). Les classifications existantes ne sont jamais remplacées, sauf si vous activez cette option. </p> <p><b>Centre de développement</b> : les partenaires peuvent créer des règles de classification dans le <span class="wintitle">Centre de développement</span>. Ces règles sont déployées lorsque le client active une intégration. Dans le <span class="wintitle">Centre de développement</span>, l’option <span class="uicontrol">Remplacer depuis</span> permet au partenaire de spécifier si le client peut déterminer la valeur de remplacement lors de l’activation ou de la modification d’une intégration. </p> <p>Reportez-vous à la section <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >Méthode de traitement des règles</a> pour en savoir plus sur le traitement des règles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Ajouter une règle </a> </td> 
@@ -84,7 +84,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numéro de rôle. </p> <p>Pour plus d’informations, voir <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Méthode de traitement des règles</a> . </p> </td> 
+   <td colname="col2"> <p>Numéro de rôle. </p> <p>Pour plus d’informations</a> consultez <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > de traitement des règles . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 

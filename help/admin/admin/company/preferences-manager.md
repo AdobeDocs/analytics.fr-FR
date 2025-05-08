@@ -4,10 +4,10 @@ title: Gestionnaire de préférences
 feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
 exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 70%
 
 ---
 
@@ -17,5 +17,5 @@ La page Gestionnaire de préférences permet de configurer le rendu des rapports
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Paramètres de l’entreprise]** > **[!UICONTROL Préférences]**.
 
-* Utiliser le format de date déconseillé pour le fichier CSV (30 août 2013)
-* Utiliser le format de date ISO 8601 pour le fichier CSV (2013-08-30)
+* Utiliser un format de date obsolète pour le fichier CSV (30 août 20XX)
+* Utiliser le format de date ISO 8601 pour CSV (20XX-08-30)

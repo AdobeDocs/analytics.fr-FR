@@ -4,7 +4,7 @@ description: Découvrez les problèmes courants et les bonnes pratiques pour ré
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -21,7 +21,7 @@ La plupart des variables envoyées à Adobe sont des chaînes. Dans JavaScript, 
 
 ### Mixage de guillemets pour définir une variable
 
-En règle générale, veillez à respecter les types de guillemets que vous utilisez. Si un guillemet simple désigne le début d’une chaîne, un guillemet simple doit être utilisé pour la fermer.
+Il est recommandé de s&#39;assurer que vous êtes cohérent avec les types de devis utilisés. Si un guillemet simple désigne le début d’une chaîne, un guillemet simple doit être utilisé pour la fermer.
 
 Par exemple, les deux `s.eVar1 = 'Value'` et `s.eVar1 = "Value"` sont valides. `s.eVar1 = 'Value"` n’est pas valide.
 
@@ -110,4 +110,4 @@ Remplacer la valeur de prop2 par eVar1<br>
   s.prop2 = "D=v1";
   ```
 
-* **Utilisez des classifications** : si les noms de produit ou de page sont exceptionnellement longs, vous pouvez utiliser une valeur ou un code d’identification, puis utiliser les [classifications](/help/components/classifications/c-classifications.md) pour afficher un nom plus convivial.
+* **Utilisez des classifications** : si les noms de produit ou de page sont exceptionnellement longs, vous pouvez utiliser une valeur ou un code d’identification, puis utiliser les [classifications](/help/components/classifications/classifications-overview.md) pour afficher un nom plus convivial.

@@ -3,24 +3,24 @@ description: Cette rubrique décrit les étapes d’administration pour configur
 title: Configuration de rapports en temps réel
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 78%
+source-wordcount: '283'
+ht-degree: 77%
 
 ---
 
 # Configuration de rapports en temps réel
 
-Les informations suivantes contiennent les étapes administratives permettant de configurer des rapports en temps réel.
+Les informations suivantes contiennent les étapes administratives pour configurer des rapports en temps réel.
 
-Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à trois rapports pour celle-ci.
+Elle consiste à sélectionner la suite de rapports et à configurer jusqu’à 3 rapports pour celle-ci.
 
 1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
 
-   1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
+   1. Dans Analysis Workspace, sélectionnez l&#39;onglet [!UICONTROL **Workspace**], puis sélectionnez [!UICONTROL **Rapports**] > [!UICONTROL **Engagement**] > **[!UICONTROL Temps réel]**.
 
-   1. Sélectionnez la suite de rapports dans la liste déroulante supérieure :
+   1. Sélectionnez la suite de rapports dans le menu déroulant du haut :
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
@@ -28,7 +28,7 @@ Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à 
 
       ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
 
-1. Sélectionnez **[!UICONTROL Configurer]** pour exécuter le [!UICONTROL Gestionnaire de Report Suites].
+1. Sélectionnez **[!UICONTROL Configurer]** pour exécuter le [!UICONTROL Gestionnaire de suites de rapports].
 
    (Également disponible sous **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Temps réel]**.)
 
@@ -46,8 +46,6 @@ Cela consiste à sélectionner la suite de rapports et à configurer jusqu’à 
    >[!NOTE]
    >
    >Pour un rapport Temps réel unique, les dimensions en double ne sont pour l’instant pas prises en charge, même si une autre classification est sélectionnée pour chaque dimension.
-
-   Pour plus d’informations sur les classifications, voir [À propos des classifications](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >

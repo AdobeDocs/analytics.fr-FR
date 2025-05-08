@@ -3,10 +3,10 @@ description: Description de la procédure de suppression des données de classif
 title: Suppression des données de classification
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ L’utilisation de `~deletekey~` sous la classification Catégorie de l’invent
 * Si vous utilisez `~deletekey~`, vous n’avez besoin de l’utiliser qu’une fois par ligne dans un fichier de classification.
 * `~empty~` et `~deletekey~` doivent être écrits *exactement* de la même façon. Les espaces et les majuscules ne sont pas autorisées.
 * Vous ne pouvez pas supprimer de valeurs dans la colonne de clé. Ces valeurs sont transmises directement à la variable et sont permanentes.
-* Si vous supprimez une valeur de classification qui comporte des sous-classifications, ces dernières sont également supprimées. Les classifications ne peuvent pas exister sans valeur de clé et le parent d’une sous-classification est sa propre valeur de clé.
+* Si vous supprimez une valeur de classification qui comporte des sous-classifications, ces sous-classifications sont également supprimées. Les classifications ne peuvent pas exister sans valeur de clé et le parent d’une sous-classification est sa propre valeur de clé.
 * Il est possible de supprimer des données de classification sans modifier sa classification parente.

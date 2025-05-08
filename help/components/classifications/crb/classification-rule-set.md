@@ -3,14 +3,16 @@ description: Un jeu de règles est un groupe de règles de classification relati
 title: Jeux de règles de classification
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 96%
+source-wordcount: '406'
+ht-degree: 89%
 
 ---
 
-# Jeux de règles de classification
+# Jeux de règles de classification (hérités)
+
+*Cette page explique les jeux de règles de classification dans le cadre du [Créateur de règles de classification](classification-rule-builder.md). Voir [Ensembles de classifications](../sets/overview.md) pour connaître la méthode actuelle de classification des données dans Adobe Analytics.*
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
@@ -57,8 +59,6 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
 1. (Condition préalable) Définissez la structure de classification sous **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-   (Voir [Classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=fr) dans l’aide des outils d’administration à propos de l’ajout de classifications.)
-
    Les variables s’affichent dans le panneau [!UICONTROL Nouveau jeu de règles] uniquement une fois qu’au moins une classification est définie pour la variable.
 
    Vous pouvez créer des classifications sur une variable dans **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Trafic]** > **[!UICONTROL Classifications de trafic]** (ou **[!UICONTROL Conversion]** > **[!UICONTROL Classifications des conversions]**). Sélectionnez ensuite la variable et cliquez sur **[!UICONTROL Ajouter une classification]**.
@@ -76,6 +76,6 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
 
    La liste des suites de rapports et des variables contient toutes les variables classées disponibles dans l’ensemble des suites de rapports de la société qui a établi la connexion. Une variable unique d’une suite de rapports ne peut appartenir qu’à un seul jeu de règles.
 
-   Pour plus d’informations, voir *`Variable`* dans les définitions de la page [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-definitions.md) .
+   Voir *`Variable`* dans les définitions de la page [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-definitions.md) pour plus d’informations.
 1. Spécifiez les suites de rapports et variables à utiliser, puis cliquez sur **[!UICONTROL Enregistrer]**.
 1. Poursuivez en [ajoutant des règles de classification](/help/components/classifications/crb/classification-rule-set.md) au jeu de règles.

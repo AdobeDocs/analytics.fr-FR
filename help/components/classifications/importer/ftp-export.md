@@ -3,14 +3,14 @@ title: Exportation des données de classification via FTP
 description: L’exportation FTP offre plus de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données à partir de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données comportant plus de 50 000 lignes de données.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 99%
 
 ---
 
-# Exportation des données de classification via FTP
+# Exportation FTP (héritée)
 
 L’option FTP offre davantage de souplesse lors du téléchargement des jeux de données. Elle permet notamment de télécharger des données provenant de plusieurs suites de rapports et des fichiers de jeu de données contenant plus de 50 000 lignes. Avant de télécharger des données de classification via FTP, vous devez créer un compte FTP.
 

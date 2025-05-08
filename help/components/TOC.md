@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -258,41 +258,38 @@ ht-degree: 100%
    + [Gérer](c-alerts/alert-manager.md)
    + [Cas d’utilisation](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
-   + [Présentation des classifications](classifications/c-classifications.md)
-   + Jeux de classifications {#sets}
-      + [Vue d’ensemble des jeux de classifications](classifications/sets/overview.md)
-      + Gestion des jeux de classifications {#manage}
+   + [Présentation des classifications](classifications/classifications-overview.md)
+   + Ensembles de classifications {#sets}
+      + [Vue d’ensemble](classifications/sets/overview.md)
+      + Gestion des ensembles de classifications {#manage}
          + [Gestionnaire des jeux de classificactions](classifications/sets/manage/set-manager.md)
          + [Créer un jeu de classifications](classifications/sets/manage/create.md)
          + [Paramètres des jeux de classifications](classifications/sets/manage/settings.md)
          + [Schéma du jeu de classifications](classifications/sets/manage/schema.md)
          + [Règles de jeu de classifications](classifications/sets/manage/rules.md)
       + [Gestionnaire des tâches de jeux de classifications](classifications/sets/job-manager.md)
-      + Consolidation des jeux de classifications {#consolidations}
-         + [Gestionnaire de consolidations de jeux de classifications](classifications/sets/consolidations/manage.md)
-         + [Processus de consolidations des jeux de classifications](classifications/sets/consolidations/process.md)
-   + Créateur de règles de classification {#classifications-rulebuilder}
-      + [Workflow du créateur de règles de classification](classifications/crb/classification-rule-builder.md)
+      + Consolidations d’ensembles de classifications {#consolidations}
+         + [Gestionnaire de consolidations](classifications/sets/consolidations/manage.md)
+         + [Processus de consolidation](classifications/sets/consolidations/process.md)
+   + Créateur de règles de classification (hérité){#classifications-rulebuilder}
+      + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
       + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
-      + [Règles de classification – Définitions](classifications/crb/classification-rule-definitions.md)
-      + [Sous-classifications et Créateur de règles](classifications/crb/sub-classification-rule-builder.md)
-   + Importateur de classifications {#classifications-importer}
-      + [Importateur de classifications - Aperçu](classifications/importer/c-working-with-saint.md)
+      + [Définitions des règles de classification](classifications/crb/classification-rule-definitions.md)
+      + [Sous-classifications et créateur de règles](classifications/crb/subclassification-rule-builder.md)
+   + Importateur de classifications (hérité){#classifications-importer}
+      + [Présentation de l’importateur de classifications](classifications/importer/c-working-with-saint.md)
       + [Fichiers de données de classification](classifications/importer/c-saint-data-files.md)
       + [Suppression des données de classification](classifications/importer/t-delete-classification-data.md)
-      + [Données de classification placées dans une séquence d’échappement](classifications/importer/t-classifications-escape-data.md)
-      + [Clés non classifiées](classifications/importer/nonclassified-keys.md)
       + [Modèle de classification](classifications/importer/c-download-saint-data.md)
-      + [Importation navigateur et FTP](classifications/importer/import-file.md)
       + [Importation navigateur](classifications/importer/browser-import.md)
       + [Exportation navigateur](classifications/importer/browser-export.md)
       + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportation FTP](classifications/importer/ftp-export.md)
       + [Durée du traitement](classifications/importer/processing-time.md)
+      + [Sous-classifications](classifications/importer/subclassifications.md)
       + [Résolution des problèmes](classifications/importer/troubleshooting.md)
-   + [Sous-classifications](classifications/c-sub-classifications.md)
-   + [FAQ sur les classifications](classifications/faq.md)
+      + [FAQ](classifications/importer/importer-faq.md)
 + Emplacements {#locations}
    + [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md)
    + [Comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md)

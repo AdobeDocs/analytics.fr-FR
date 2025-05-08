@@ -4,9 +4,9 @@ description: Utilisez des classifications pour classer les valeurs en groupes ap
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 Utilisez des classifications pour classer les valeurs en groupes apparentés et pour créer des rapports au niveau du groupe. Vous pouvez, par exemple, classer toutes les campagnes de recherche payante dans une catégorie telle que Cartes vidéo. Vous pouvez ensuite créer un rapport sur le succès de cette catégorie par rapport à des mesures du type Instances (ou Clics publicitaires).
 
 Les classifications ajoutées au cours de cette procédure s’affichent dans le rapport [!UICONTROL Présentation du canal marketing] sous la forme de [!UICONTROL valeurs de canal]. Les valeurs de canal sont des valeurs non classifiées dans le détail du canal.
-
->[!NOTE]
->
->Assurez-vous que vous connaissez bien la création de classifications dans [Classifications](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >

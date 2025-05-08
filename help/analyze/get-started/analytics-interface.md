@@ -3,9 +3,9 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '2064'
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '2063'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ L’onglet Administration offre des fonctionnalités et des options de configura
    | Page d’accueil des outils d’administration | La zone des outils d’administration d’Analytics est la principale zone de gestion de votre instance Adobe Analytics. C’est là que la plupart des tâches administratives peuvent être effectuées. | [Présentation des outils d’administration](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=fr) |
    | Suites de rapports | Elle vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports. | [Gestionnaire de suites de rapports](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=fr) |
    | Utilisateurs, utilisatrices et ressources Analytics | La gestion des utilisateurs et utilisatrices et des produits s’effectue désormais dans l’Adobe Admin Console. La gestion des autorisations d’utilisateur et d’utilisatrice pour Adobe Analytics s’effectue dans l’Adobe Admin Console. | [Analytics dans l’Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr) |
-   | Importateur de classifications | Utilisez l’importateur pour télécharger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation. | [Vue d’ensemble de l’importateur de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=fr) |
+   | Importateur de classifications | Utilisez l’importateur pour télécharger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation. | [Vue d’ensemble de l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) |
    | Créateur de règles de classification | Au lieu de gérer et de charger des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques en fonction des règles automatiques, puis les appliquer dans plusieurs suites de rapports. | [Workflow du créateur de règles de classification](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=fr) |
    | Sources de données | Utilisez le gestionnaire de sources de données pour créer, modifier ou désactiver des sources de données. Vous pouvez également effectuer le suivi des statuts des fichiers chargés vers les emplacements FTP des sources de données. | [Gestion des sources de données](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=fr) |
    | Gestionnaire de code | Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes web et mobiles | [Gestionnaire de code](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=fr) |

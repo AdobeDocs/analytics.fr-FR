@@ -3,7 +3,7 @@ title: Gestionnaire des jeux de classificactions
 description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Notez que 1 000 ensembles de classifications sont préchargés à la fois. Les f
 
 Les colonnes suivantes sont disponibles dans le gestionnaire des ensembles de classifications :
 
-* **[!UICONTROL Ensemble de classifications]** : le nom de l’ensemble de classifications. Cliquez sur le nom d’un ensemble de classifications [modifie ses paramètres](settings.md).
+* **[!UICONTROL Ensemble de classifications]** : le nom de l’ensemble de classifications. Cliquez sur le nom d’un ensemble de classifications pour modifier ses [paramètres](settings.md).
 * **[!UICONTROL Abonnements]** : le nombre d’abonnements auxquels cet ensemble de classifications s’applique.
 * **[!UICONTROL Classifications]** : le nombre de dimensions de classification que l’ensemble de classifications contient.
 * **[!UICONTROL Automatisé]** : détermine si l’ensemble de classifications est configuré pour importer automatiquement les données d’un emplacement cloud. L’automatisation peut être configurée dans le [ schéma ](schema.md) de l’ensemble de classifications.
