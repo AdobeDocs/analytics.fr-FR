@@ -110,7 +110,7 @@ Les facteurs supplémentaires qui ne sont pas inclus dans Aide > Performances so
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conseils pour augmenter la productivité](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conseils pour augmenter la productivité](https://video.tv.adobe.com/v/33609?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

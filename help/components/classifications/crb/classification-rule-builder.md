@@ -16,7 +16,7 @@ Au lieu de gérer et de charger des classifications à chaque changement des cod
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de règles de classification](https://video.tv.adobe.com/v/25884?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de règles de classification](https://video.tv.adobe.com/v/3434375?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
