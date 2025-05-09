@@ -4,9 +4,9 @@ description: Permet d’envoyer un appel de suivi des pages vues à Adobe.
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -37,19 +37,19 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 
 Adobe reçoit la demande d’image, puis analyse l’en-tête de la demande, l’URL et les paramètres de chaîne de requête. Les serveurs de collecte de données renvoient ensuite une image transparente de 1x1 pixel, affichée de manière invisible sur votre site.
 
-## Envoyer un événement à l’aide de l’extension SDK Web
+## Envoi d’un événement à l’aide de l’extension Web SDK
 
-Utilisez une action pour configurer l’envoi de données d’événement XDM à Adobe. Le flux de données reçoit ces données, applique les mappages configurés et transmet ces données à Adobe Analytics s’il s’agit d’un service ajouté à ce flux de données.
+Utilisez une action pour configurer l’envoi de données d’événement XDM à Adobe. Le flux de données reçoit ces données, applique les mappages configurés et transfère ces données à Adobe Analytics s’il s’agit d’un service ajouté à ce flux de données.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **&#39;+&#39;** pour ajouter une action.
-1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL SDK Web Adobe Experience Platform]** et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer l’événement]**.
+1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **’+’** pour ajouter une action.
+1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Adobe Experience Platform Web SDK]** et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer l’événement]**.
 
-## Envoyer manuellement l’événement en implémentant le SDK Web
+## Envoi d’un événement implémentant manuellement le SDK Web
 
-Utilisez la commande `sendEvent` pour envoyer des données à Adobe. Le flux de données reçoit ces données, applique les mappages configurés et transmet ces données à Adobe Analytics s’il s’agit d’un service ajouté à ce flux de données.
+Utilisez la commande `sendEvent` pour envoyer des données à Adobe. Le flux de données reçoit ces données, applique les mappages configurés et transfère ces données à Adobe Analytics s’il s’agit d’un service ajouté à ce flux de données.
 
 ```js
 alloy("sendEvent", {
@@ -57,17 +57,17 @@ alloy("sendEvent", {
 });
 ```
 
-Pour plus d’informations, voir [Suivi des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr) dans la documentation du SDK Web.
+Voir [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) dans la documentation de Web SDK pour plus d’informations.
 
 ## Appel de suivi des pages vues à l’aide de l’extension Adobe Analytics
 
-L’extension Adobe Analytics de la collecte de données Adobe Experience Platform dispose d’un emplacement dédié défini un appel de suivi des pages vues.
+L’extension Adobe Analytics dans la collecte de données Adobe Experience Platform dispose d’un emplacement dédié permettant de définir un appel de suivi des pages vues.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
-1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **&#39;+&#39;** pour ajouter une action.
-1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Adobe Analytics]** et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer la balise]**.
+1. Sous [!UICONTROL Actions], cliquez sur l’action souhaitée ou cliquez sur l’icône **’+’** pour ajouter une action.
+1. Définissez la liste déroulante [!UICONTROL Extension] sur **[!UICONTROL Adobe Analytics]**, et le [!UICONTROL Type d’action] sur **[!UICONTROL Envoyer la balise]**.
 1. Cochez la case `s.t()`.
 
 ## s.t() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics

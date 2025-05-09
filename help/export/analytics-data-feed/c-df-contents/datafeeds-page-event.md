@@ -1,25 +1,46 @@
 ---
-description: Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
-keywords: Flux de données;page;événement;page_event;post_page_event
+description: Table de recherche permettant de déterminer le type d’accès en fonction de l’événement de page.
+keywords: page;événement;page_event;post_page_event
 title: Recherche d’événement de page
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 
 # Recherche d’événement de page
 
-Table de recherche permettant de déterminer le type d’un accès d’après la valeur page_event.
+Table de recherche permettant de déterminer le type d’un accès en fonction de la valeur `page_event`. Comme indiqué dans la [Référence des colonnes de données](datafeeds-reference.md), les colonnes `page_event` et `post_page_event` ne comportent pas de signe.
 
-| Type d’accès | Valeur `page_event` | Valeur `post_page_event` |
+* Consultez [`t()`](/help/implement/vars/functions/t-method.md) pour comprendre l’implémentation des appels de pages vues pour AppMeasurement et le SDK Web.
+* Consultez [`tl()`](/help/implement/vars/functions/tl-method.md) pour comprendre l’implémentation des appels de suivi des liens pour AppMeasurement et le SDK Web.
+* Consultez [Implémentation d’Adobe Analytics avec Adobe Experience Platform Edge Network](/help/implement/aep-edge/overview.md) pour découvrir comment Adobe Analytics traduit les payloads XDM en types d’événements de page.
+
+| Valeur `page_event` | Valeur `post_page_event` | Description |
 | --- | --- | --- |
-| Pages vues | 0 : Tous les appels des pages vues et les appels `trackState` des kits de développement mobile | Même valeur que `page_event` |
-| Suivi des liens | 10 : Liens personnalisés et appels `trackAction` dans les kits de développement mobile<br>11 : Liens de téléchargement<br>12 : Liens de sortie | 100 : Liens personnalisés et appels `trackAction` dans les kits de développement mobile<br>101 : Liens de téléchargement<br>102 : Liens de sortie |
-| Vidéo jalon | 31 : Démarrage du média<br>32 : Mises à jour du média (aucun autre traitement de variable)<br>33 : Mises à jour des médias (avec d’autres variables) | 76 : Démarrage du média<br>77 : Mises à jour du média (aucun traitement de variable)<br>78 : Mises à jour du média (avec d’autres variables) |
-| Vidéo – Pulsation | 50 : Démarrage du flux média (hors Primetime)<br>51 : Fermeture du flux média (hors Primetime)<br>52 : Balayage du flux média (hors Primetime)<br>53 : Le flux média reste actif (hors Primetime)<br>54 : Démarrage d’une publicité dans le flux média (hors Primetime)<br>55 : Fermeture d’une publicité dans le flux média (hors Primetime)<br>56 : Balayage publicitaire dans le flux média (hors Primetime)<br>60 : Démarrage du flux média Primetime<br>61 : Fermeture du flux média Primetime<br>62 : Balayage du flux média Primetime<br>63 : Le flux média Primetime reste actif<br>64 : Démarrage d’une publicité dans le flux média Primetime<br>65 : Fermeture d’une publicité dans le flux média Primetime<br>66 : Balayage publicitaire dans le flux média Primetime | Même valeur que `page_event` |
-| Enquête | 40 : Tout appel généré par un questionnaire | 80 : Tout appel généré par un questionnaire |
-| Analytics for Target | 70 : Accès incluant les données sur l’accès Target | Même valeur que `page_event` |
+| `0` | `0` | Tous les appels de pages vues standard. Il s’agit de la valeur par défaut pour la plupart des accès. |
+| `10` | `100` | Liens personnalisés. Définissez le type de lien sur `o` (AppMeasurement) ou `xdm.web.webInteraction.type` sur `other` (Web SDK ou Mobile SDK). |
+| `11` | `101` | Liens de téléchargement. Définissez le type de lien sur `d` (AppMeasurement) ou `xdm.web.webInteraction.type` sur `download` (Web SDK ou Mobile SDK). |
+| `12` | `102` | Liens de sortie. Définissez le type de lien sur `e` (AppMeasurement) ou `xdm.web.webInteraction.type` sur `exit` (Web SDK ou Mobile SDK). |
+| `31` | `76` | Démarrage du média |
+| `32` | `77` | Mises à jour des médias (sans autre traitement des variables) |
+| `33` | `78` | Mises à jour des médias (avec autre traitement des variables) |
+| `40` | `80` | Enquête |
+| `50` | `50` | Début du streaming multimédia |
+| `51` | `51` | Fermeture du streaming multimédia |
+| `52` | `52` | Nettoyage des médias en flux continu |
+| `53` | `53` | Les médias en flux continu restent actifs |
+| `54` | `54` | Démarrage de la publicité pour les médias en flux continu |
+| `55` | `55` | Annonce publicitaire en flux continu |
+| `56` | `56` | Nettoyage et nettoyage des médias en flux continu |
+| `60` | `60` | Démarrage du média Primetime |
+| `61` | `61` | Fermeture du média Primetime |
+| `62` | `62` | Nettoyage des médias Primetime |
+| `63` | `63` | Les médias Primetime restent actifs |
+| `64` | `64` | Démarrage de l’annonce publicitaire sur les médias Primetime |
+| `65` | `65` | Annonce publicitaire sur le média Primetime |
+| `66` | `66` | Nettoyage et nettoyage des médias Primetime |
+| `70` | `70` | Inclut les données d’activité de Target |
