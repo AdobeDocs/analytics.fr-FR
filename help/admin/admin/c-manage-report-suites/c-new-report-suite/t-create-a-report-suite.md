@@ -3,10 +3,10 @@ description: Créez un conteneur de base pour la collecte de données dans Adobe
 title: Créer une suite de rapports
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 ## Créer une suite de rapports {#create-report-suite}
 
 1. Cliquez sur **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
-1. Cliquez sur **[!UICONTROL Nouveau]** > **[!UICONTROL Suite de rapports]**.
+1. Cliquez sur **[!UICONTROL Ajouter une suite de rapports]**.
 1. Sélectionnez un modèle prédéfini ou une suite de rapports existante à utiliser comme [modèle](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md).
 
    >[!NOTE]
