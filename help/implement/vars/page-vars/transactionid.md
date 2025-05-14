@@ -4,9 +4,9 @@ description: Utilisez cette variable pour lier des données en ligne et hors lig
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 89%
 
 ---
@@ -21,13 +21,13 @@ La variable `transactionID` identifie de manière unique une transaction afin qu
 
 Lorsque vous définissez `transactionID` sur un accès, Adobe prend un « instantané » de toutes les variables Analytics définies ou conservées à ce moment précis. Les données chargées via la fonctionnalité Sources de données avec un identifiant de transaction correspondant sont liées de manière permanente à ces valeurs de variable.
 
-L’Adobe mémorise toutes les valeurs d’ID de transaction (liées et non liées) pendant 25 mois au maximum.
+Adobe conserve en mémoire toutes les valeurs d’ID de transaction (liées et non liées) pendant 25 mois au maximum.
 
 ## Identifiant de transaction utilisant le SDK Web
 
 L’identifiant de transaction est mappé sur les variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.commerce.order.payments[0].transactionID`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.commerce.order.payments[3].transactionID` ou `xdm.commerce.order.payments.transactionID`
 * [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.transactionID` ou `data.__adobe.analytics.xact`
 
 ## Identifiant de transaction utilisant l’extension Adobe Analytics
