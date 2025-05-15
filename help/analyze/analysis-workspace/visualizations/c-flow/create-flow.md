@@ -7,7 +7,7 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Commence par"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Contient"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Se termine par"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
 >title="Dimension du cheminement"
->abstract="Sélectionnez une dimension qui servira de chemin d’accès ou de sortie du composant sélectionné."
+>abstract="Sélectionnez une dimension à utiliser comme chemin d’accès ou de sortie du composant sélectionné."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -41,12 +41,12 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
 >title="Inclure les répétitions (désactivé)"
->abstract="Les répétitions ne peuvent pas être supprimées des visualisations de flux qui incluent des dimensions à valeurs multiples."
+>abstract="Les répétitions ne peuvent pas être supprimées des visualisations Flux qui incluent des dimensions à valeurs multiples."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="Inclure les répétitions"
->abstract="Les visualisations Flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances répétées. Par exemple : rechargements de page."
+>abstract="Les visualisations Flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances répétées, des rechargements de page, par exemple."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
@@ -56,17 +56,17 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Nombre de colonnes"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Éléments développés par colonne"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="Réinitialiser pour mettre à jour"
->abstract="Ce champ ne peut être défini que sur la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation des flux."
+>abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 
 
@@ -175,7 +175,7 @@ Utilisez un menu contextuel sur n’importe quel nœud de la visualisation Flux 
 | **[!UICONTROL Exclure un élément]** ou **[!UICONTROL Restaurer les éléments exclus]** | Supprime un nœud donné de la colonne et le transforme automatiquement en filtre en haut de la colonne. Pour restaurer l’élément exclu, sélectionnez **[!UICONTROL Restaurer un élément exclu]** dans le menu contextuel. Vous pouvez également ouvrir le filtre en haut de la colonne et supprimer le rectangle contenant l’élément que vous venez d’exclure. |
 | **[!UICONTROL Tendance]** | Permet de créer un diagramme de tendance pour le nœud. |
 | **[!UICONTROL Afficher la colonne suivante]**/**[!UICONTROL Afficher la colonne précédente]** | Affiche la colonne suivante (à droite) ou précédente (à gauche) de la visualisation. |
-| **[!UICONTROL Masquer la colonne]**&#x200B;n | Masque la colonne sélectionnée dans la visualisation. |
+| **[!UICONTROL Masquer la colonne]**n | Masque la colonne sélectionnée dans la visualisation. |
 | **[!UICONTROL Développer toute la colonne]** | Permet de développer une colonne pour afficher tous les nœuds. Par défaut, seuls les cinq premiers nœuds sont présentés. |
 | **[!UICONTROL Créer une audience à partir de la sélection]** | Crée une audience en fonction de la colonne sélectionnée. |
 | **[!UICONTROL Réduire toute la colonne]** | Permet de masquer tous les nœuds d’une colonne. |

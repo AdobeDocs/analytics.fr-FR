@@ -6,7 +6,7 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
->title="Création d’une audience"
->abstract="Les audiences peuvent être créées à partir d’un segment et partagées avec le Adobe Experience Platform pour activation."
+>title="Créer une audience"
+>abstract="Les audiences peuvent être créées à partir d’un segment et partagées avec Adobe Experience Platform pour activation."
 
 <!-- markdownlint-enable MD034 -->
 
