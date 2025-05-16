@@ -5,10 +5,10 @@ title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
+source-git-commit: 440cc4c977aae97e3fc3c97f3998c5d542cd88c3
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1974'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsq
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/40030?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -129,6 +129,11 @@ Pour partager le lien du projet avec les utilisateurs et utilisatrices de votre 
 
 ## Partager un projet avec n’importe quelle personne (pas de connexion nécessaire) {#share-public-link}
 
+>[!CONTEXTUALHELP]
+>id="workspace_share_with_anyone_require_aec_authentication"
+>title="Exiger une authentification Experience Cloud"
+>abstract="Votre organisation exige que les utilisateurs se connectent à Experience Cloud pour utiliser ce lien."
+
 Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) vers les projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela peut inclure les personnes suivantes :
 
 * Personnes en dehors de votre organisation
@@ -152,7 +157,7 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3452452?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -207,7 +212,7 @@ Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/327496?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
