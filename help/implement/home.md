@@ -5,9 +5,9 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Le flux de décision suivant peut vous aider à sélectionner une méthode d’i
 
 Pour implémenter Adobe Analytics côté serveur, vous disposez des options suivantes :
 
-* **API Edge Network** : vous implémentez du code sur le serveur qui utilise l’API Adobe Experience Platform Edge Network pour communiquer avec Adobe Analytics par le biais d’un flux de données.
+* **API Edge Network** : vous implémentez du code sur le serveur qui utilise l’API Edge Network d’Adobe Experience Platform pour communiquer avec Adobe Analytics par le biais d’un train de données.
   ![Implémentation côté serveur](assets/edge-network-server-api.svg)
-Pour plus d’informations, voir [Implémentation d’Adobe Analytics à l’aide de l’API Adobe Experience Platform Edge Network](/help/implement/aep-edge/api/overview.md).
+Pour plus d’informations, consultez [Implémenter Adobe Analytics à l’aide de l’API Edge Network d’Adobe Experience Platform](/help/implement/aep-edge/api/overview.md).
 
 * **API d’insertion de données (en bloc)** : vous utilisez les API d’insertion de données (en bloc) Adobe Analytics pour collecter les données côté serveur directement dans Adobe Analytics.
   ![API d’insertion de données](assets/analytics-apis.png)
@@ -91,7 +91,7 @@ Pour votre **application mobile**, les méthodes d’implémentation suivantes s
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
 * [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Dernières notes de mise à jour](../release-notes/latest.md)

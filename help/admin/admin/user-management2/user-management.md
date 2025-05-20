@@ -1,12 +1,12 @@
 ---
 description: Gérez des utilisateurs, des groupes et des produits Analytics dans Adobe Admin Console.
 subtopic: Users and groups
-title: Gestion des utilisateurs et des produits
+title: 'Gestion des utilisateurs et utilisatrices et des produits '
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 

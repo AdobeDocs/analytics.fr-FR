@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En tant que contrôleuse ou contrôleur de données, vous déterminez les donné
 
 ## Comment Adobe gère les données relatives au RGPD {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Experience Cloud fournit une solution intégrée qui connecte l’infrastructure de gouvernance des données de votre marque aux outils d’Adobe qu’elle utilise pour créer et gérer les expériences client. Les fonctionnalités de gouvernance des données de Adobe Experience Cloud permettent de lier directement la politique de gouvernance des données à l’utilisation des données.
+Adobe Experience Cloud fournit une solution intégrée qui relie l’infrastructure de gouvernance des données de votre marque aux outils Adobe qu’elle utilise pour créer et gérer les expériences des consommateurs et consommatrices. Les fonctionnalités de gouvernance des données d’Adobe Experience Cloud permettent d’établir un lien direct entre la politique de gouvernance des données et l’utilisation des données.
 
 Familiarisez-vous avec la section [Comment Adobe Analytics gère les données relatives au RGPD](https://www.adobe.com/fr/data-analytics-cloud/analytics/general-data-protection-regulation.html) qui explique les étapes nécessaires pour se préparer au RGPD et comment intégrer l’API relative au RGPD d’Adobe Experience Cloud.
 
@@ -41,7 +41,7 @@ Adobe a conscience que vous connaissez mieux les données personnalisées de vos
 
 Pour ce faire, Adobe Analytics fournit une interface utilisateur de gouvernance des données qui vous permet, en tant que contrôleur des données, de définir des [étiquettes de confidentialité](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) sur vos suites de rapports Analytics et toutes les dimensions et mesures de ces suites de rapports. Vous pouvez identifier les colonnes de votre ensemble de données qui contiennent des données directement ou indirectement identifiables afin de pouvoir soumettre vos demandes d’accès et de suppression pour traiter ces données. Pour chaque demande, les étiquettes définies dans l’interface utilisateur de gouvernance des données d’Analytics seront attribuées à l’identifiant spécifique correspondant à cette requête.
 
-Voir [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) pour plus d’informations sur la définition des étiquettes.
+Consultez [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) pour plus d’informations sur la façon de définir les étiquettes.
 
 ## Conditions préalables {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -51,7 +51,7 @@ Voir [Étiqueter les données d’une suite de rapports](/help/admin/admin/c-dat
 
   >[!NOTE]
   >
-  >Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Contactez votre équipe de compte d’Adobe pour définir votre période de conservation des données.
+  >Adobe Analytics ne peut pas vous aider à traiter les demandes de l’API relative au règlement général sur la protection des données (RGPD), c’est-à-dire traiter les demandes d’accès ou de suppression que vous recevez de vos utilisateurs finaux, si la période de conservation des données n’a pas été définie dans Adobe Analytics. Veuillez contacter votre équipe Adobe en charge des comptes pour définir votre période de conservation des données.
 
-* Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur d’Adobe Analytics.
+* Vérifiez vos autorisations : pour utiliser l’interface de gestion de la gouvernance des données dans Adobe Analytics, vous devez être un administrateur ou une administratrice d’Adobe Analytics.
 

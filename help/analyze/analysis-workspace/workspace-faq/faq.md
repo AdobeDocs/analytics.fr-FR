@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,31 +37,31 @@ Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à 
 Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord.
 +++
 
-+++Comment optimiser les performances d’Analysis Workspace ?
++++Comment optimiser les performances d’Analysis Workspace ?
 
 Consultez la page [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
 
 +++
 
-+++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
++++Comment les données sont-elles intégrées à un projet Analysis Workspace ?
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data into Analysis Workspace](https://video.tv.adobe.com/v/33610?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
-
-+++
-
-+++Comment puis-je suivre l’utilisation de Workspace ?
-
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Log tracking](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
++++Comment puis-je effectuer le suivi de l’utilisation de Workspace ?
+
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des journaux](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
++++
+
++++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
 
 Le message Données incorrectes signifie qu’Adobe ne peut pas renvoyer de données à l’aide de la combinaison de dimensions et de mesures utilisée dans le rapport. Par exemple, deux mesures empilées les unes sur les autres ne peuvent pas être renvoyées sous forme de données, car il n’est pas possible d’afficher deux mesures de cette manière. Placez plutôt les mesures côte à côte.
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée à proprement dit, seulement des zéros. Comment résoudre ce problème ?
++++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée à proprement dit, seulement des zéros. Comment résoudre ce problème ?
 
 Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant aucune donnée, vous pouvez effectuer quelques vérifications :
 
@@ -73,6 +73,6 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 
 +++
 
-+++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
++++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
 Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires peuvent uniquement modifier le menu déroulant pour appliquer un filtre au panneau d’une manière prédéfinie.
 +++

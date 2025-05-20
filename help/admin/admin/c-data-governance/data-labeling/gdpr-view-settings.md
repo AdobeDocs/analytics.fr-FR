@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 
    >[!NOTE]
    >
-   >Si cet élément de menu ne s’affiche pas, vous devez être ajouté à un [profil de produit dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) avec des autorisations d’accès à cette fonctionnalité ou avoir accès à une suite de rapports dans l’Admin Console.
+   >Si cet élément de menu ne s’affiche pas, vous devez faire l’objet d’un ajout à un [profil de produit dans Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=fr) avec les autorisations sur cette fonctionnalité ou avoir obtenu l’accès à une suite de rapports dans Admin Console.
 
 3. Dans la partie supérieure droite, sélectionnez les suites de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
 
@@ -33,7 +33,7 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 | **[!UICONTROL Nom du composant]** | Cette colonne répertorie tous les composants (dimensions, mesures) qui font partie de cette suite de rapports. |
 | **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identification sont utilisées pour classer les données qui peuvent servir à identifier ou à contacter une personne spécifique. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#data-privacy-identity-labels) |
 | **[!UICONTROL Sensibilité]** | Les étiquettes « S » pour les données sensibles sont utilisées pour classer les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#sensitive-data-labels) |
-| **[!UICONTROL Accès aux RGPD]** | Les étiquettes de gouvernance des données permettent aux utilisateurs de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#data-privacy-access-labels) |
+| **[!UICONTROL Accès aux RGPD]** | Les étiquettes de gouvernance des données permettent de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#data-privacy-access-labels) |
 | **[!UICONTROL Suppression des RGPD]** | Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le titulaire de données (autrement dit, qui permettrait d’identifier le titulaire de données). [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#data-privacy-delete-labels) |
 | **[!UICONTROL Espace de noms]** | Lorsque vous étiquetez une variable comme ID-DEVICE ou ID-PERSON, vous êtes invité à fournir un espace de noms. Vous pouvez utiliser un espace de noms défini précédemment ou en définir un nouveau. [En savoir plus](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=fr#provide-namespace) |
 | **[!UICONTROL Catégorie]** | Fait référence au type de composant, tel que le composant standard, la variable de conversion, etc. |

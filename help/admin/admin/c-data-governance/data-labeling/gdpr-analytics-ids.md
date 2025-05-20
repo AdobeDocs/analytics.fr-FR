@@ -5,17 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Bonnes pratiques en matière d’étiquetage
 
-L’étiquetage doit être révisé chaque fois qu’une nouvelle suite de rapports est créée ou qu’une nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
+Lʼétiquetage doit être vérifié chaque fois quʼune nouvelle suite de rapports est créée ou quʼune nouvelle variable est activée dans une suite de rapports existante. Il peut également être nécessaire de vérifier l’étiquetage lors de l’activation de nouvelles intégrations à des solutions puisque celles-ci peuvent exposer de nouvelles variables nécessitant un étiquetage. Une nouvelle implémentation de vos applications mobiles ou sites web peut modifier la manière dont les variables existantes sont utilisées, rendant nécessaire la mise à jour des étiquettes.
 
-Les libellés I1, I2, S1 et S2 ont la même signification que les libellés DULE correspondants dans Adobe Experience Platform. Cependant, elles sont utilisées à des fins très différentes. Dans Adobe Analytics, ces libellés sont utilisés pour aider à identifier les champs qui doivent être rendus anonymes à la suite d’une requête Privacy Service. Dans Adobe Experience Platform, ils sont utilisés pour le contrôle d’accès, la gestion du consentement et l’application des restrictions marketing aux champs libellés. Adobe Experience Platform prend en charge de nombreux libellés supplémentaires qui ne sont pas utilisés par Adobe Analytics. Si vous utilisez Analytics Data Connector pour importer vos données Adobe Analytics dans Adobe Experience Platform, assurez-vous que les libellés I1, I2, S1 et S2 que vous avez appliqués dans Adobe Analytics sont également appliqués aux schémas de Adobe Experience Platform utilisés par les suites de rapports importées.
+Les étiquettes I1, I2, S1 et S2 ont la même signification que les étiquettes DULE correspondantes dans Adobe Experience Platform. Cependant, elles sont utilisées à des fins très différentes. Dans Adobe Analytics, ces étiquettes sont utilisées pour permettre d’identifier les champs qui doivent être rendus anonymes à la suite d’une requête Privacy Service. Dans Adobe Experience Platform, elles sont utilisées pour le contrôle d’accès, la gestion du consentement et l’application des restrictions marketing aux champs étiquetés. Adobe Experience Platform prend en charge de nombreuses étiquettes supplémentaires qui ne sont pas utilisées par Adobe Analytics. Si vous utilisez le connecteur de données Analytics pour importer vos données Adobe Analytics dans Adobe Experience Platform, assurez-vous que les étiquettes I1, I2, S1 et S2 que vous avez appliquées dans Adobe Analytics sont également appliquées aux schémas d’Adobe Experience Platform utilisées par les suites de rapports importées.
 
 ## ID directement ou indirectement identifiables {#direct-vs-indirect}
 
@@ -101,7 +101,7 @@ Bien que très peu de champs comportent une des autres étiquettes, il arrive so
  <tbody> 
   <tr> 
    <td colname="col1"> <p>ID d’appareil uniquement </p> </td> 
-   <td colname="col2"> <p>Si les seuls ID que vous utilisez sont des ID de cookie ou ceux avec une étiquette ID-DEVICE, alors vous devez utiliser uniquement l’étiquette ACC-ALL. </p> <p>Vous obtiendrez une paire de fichiers pour chaque demande d’accès : un fichier contenant une ligne pour chaque accès correspondant avec tous les champs ACC-ALL spécifiés et un fichier de résumé contenant un résumé de ces données. </p> </td> 
+   <td colname="col2"> <p>Si les seuls ID que vous utilisez sont des ID de cookie ou ceux avec une étiquette ID-DEVICE, alors vous devez utiliser uniquement l’étiquette ACC-ALL. </p> <p>Vous obtiendrez une paire de fichiers pour chaque demande d’accès, l’un contenant une ligne pour chaque accès correspondant avec tous les champs ACC-ALL spécifiés et un second fichier récapitulatif contenant un résumé de ces données. </p> </td> 
   </tr> 
  </tbody> 
 </table>

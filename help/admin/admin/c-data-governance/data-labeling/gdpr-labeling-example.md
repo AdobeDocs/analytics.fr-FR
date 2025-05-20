@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ Supposons que vous avez les données d’accès suivantes :
 
 ## Exemple de requêtes d’accès {#access}
 
-Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer au titulaire de données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour le titulaire de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier HTML de résumé qui répertorie chaque variable, suivi de toutes les valeurs uniques affichées pour cette variable pour le titulaire de données et du nombre de fois où chaque valeur unique a été vue.
+Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer à la personne titulaire de données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour la personne titulaire de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier HTML de résumé qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour la personne titulaire de données et du nombre de fois où chaque valeur unique a été vue.
 
-Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers de résumé ne sont renvoyés que si un ID de personne est utilisé et `expandIds` est vrai.
+Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que `expandIds` a la valeur « true ».
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valeurs de l’API</th>
-    <th rowspan="2">Type <br/> fichier récapitulatif <br/> renvoyé</th>
+    <th rowspan="2"><br/>Type de fichier<br/> récapitulatif renvoyé</th>
     <th colspan="5" style="text-align:center">Données du fichier d’accès récapitulatif</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans 
   </tr>
 </table>
 
-Notez que le paramètre de `expandIDs` n’a aucune incidence sur la sortie lorsqu’un identifiant de cookie est utilisé.
+Notez que le paramètre pour `expandIDs` n’influence pas le résultat lorsqu’un ID de cookie est utilisé.
 
 ## Exemples de requêtes de suppression {#delete}
 
@@ -219,7 +219,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les colonnes des lignes contenant des `AAID=77` et une étiquette de `DEL-DEVICE` sont affectées.
+>Seules les colonnes des lignes contenant `AAID=77` et un libellé `DEL-DEVICE` sont impactées.
 
 <table>
   <tr>
@@ -292,7 +292,7 @@ Avec une demande de suppression qui utilise les valeurs de l’API de la premiè
 
 >[!NOTE]
 >
->Seules les colonnes nls sur les lignes contenant des `user=Mary` et une étiquette de `DEL-PERSON` sont impactées. En outre, dans la pratique, la variable contenant `A_ID` serait probablement une prop ou une eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivie d’un nombre aléatoire (GUID), plutôt que de remplacer la valeur numérique par une autre valeur numérique aléatoire.
+>Seules les colonnes de lignes contenant `user=Mary` et un libellé `DEL-PERSON` sont impactées. De plus, dans la pratique, la variable contenant `A_ID` serait probablement une prop ou une eVar. Sa valeur de remplacement serait une chaîne commençant par `Privacy-`, suivie dʼun numéro aléatoire (GUID), plutôt que de remplacer la valeur numérique par une valeur numérique aléatoire différente.
 
 <table>
   <tr>

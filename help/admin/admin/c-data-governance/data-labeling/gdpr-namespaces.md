@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que v
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Pour plus d’informations et obtenir la [ liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix#standard-namespaces), reportez-vous à la [documentation de l’API relative à la Confidentialité des données Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) . Voir [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour un exemple de requête.
+Reportez-vous à la [documentation de l’API Data Privacy d’Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) pour plus d’informations et une [liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consultez [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour obtenir un exemple de requête.
 
 ## ID de cookie
 
@@ -114,6 +114,6 @@ Vous pouvez également voir les espaces de noms que vous avez précédemment dé
 
 >[!CAUTION]
 >
->Les espaces de noms `visitorId` et `customVisitorId` sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+>Les espaces de noms `visitorId` et `customVisitorId` sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant de visite du client ou de la cliente Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 Pour plus d’informations, voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON.](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)

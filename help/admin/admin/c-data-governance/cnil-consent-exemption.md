@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les Directives fournissent une exemption limitée à l’exigence de consentemen
 * Limite des cookies de 13 mois. Vous pouvez remplacer l’expiration de vos cookies d’analyse à l’aide de la variable `cookieLifetime`. Les cookies Experience Cloud, qui comprennent Analytics et ECID, étendent la date d’expiration du cookie à chaque visite. Pour définir une expiration de cookie statique et non variable, vous pouvez : (1) écrire du code personnalisé pour définir une date à laquelle supprimer le cookie, ou (2) utiliser votre CMP pour contrôler la date de réinitialisation du cookie. Cookies [Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=fr#ec-cookies) et [cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=fr)
 * Portée limitée. La portée du cookie doit être limitée à un seul site ou une seule application. [Cookies de navigateur](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=fr#third-party-cookie-limitations)
 * Anonymisation. Anonymisation du dernier octet de l’adresse IP. [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-* Masquez l’identifiant visiteur dans les rapports. Par défaut, les ID de visiteurs ne sont pas visibles dans Adobe Workspace ni dans Adobe Reports &amp; Analytics.  Les ID de visiteur sont disponibles dans les flux de données et dans Data Warehouse.  L’accès aux flux de données et aux Data Warehouse peut être limité par [autorisations d’accès en Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr) et [Référence des colonnes de flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=fr#columns%2C-descriptions%2C-and-data-types)
+* Masquez l’identifiant visiteur dans les rapports. Par défaut, les ID de visiteurs ne sont pas visibles dans Adobe Workspace ni dans Adobe Reports &amp; Analytics.  Les ID de visiteur sont disponibles dans les flux de données et dans Data Warehouse.  L’accès aux flux de données et à Data Warehouse peut être limité par les [autorisations d’accès dans Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr) et la [référence de colonne de flux de données](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=fr#columns%2C-descriptions%2C-and-data-types).
 * Paramètres de géolocalisation. La niveau de géolocalisation ne peut pas être plus précis que le code postal. [Option ZIP](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=fr) et [paramètres généraux du compte](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=fr)
 * Définissez les options Opt-in.  Le service opt-in vous permet de configurer des protocoles afin de déterminer si vous pouvez définir un cookie sur l’appareil ou le navigateur de l’utilisateur ou de l’utilisatrice lors de leur visite sur votre site. [Service Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr)
 * Empêchez le partage de données.  Pour empêcher le partage des données avec Adobe Audience Manager, utilisez la variable de contexte `opt.dmp` pour que les [Rapports de confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) bloquent le partage des accès.

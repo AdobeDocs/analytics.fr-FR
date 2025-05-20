@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
    * **Variables de conversion** : la variable de conversion Custom Insight (eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
    * **Variables de liste** : les variables de liste sont des variables personnalisées que vous pouvez utiliser à votre guise. Elles fonctionnent de la même manière que les eVars, sauf qu’elles peuvent contenir plusieurs valeurs dans le même accès. Les variables de liste n’ont pas de limite de caractères.
    * **Variables de trafic** : les variables de trafic Custom Insight (props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site Web.
-   * **Événements de succès** : les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Si, par exemple, un visiteur achète un article, l’événement d’achat peut être considéré comme l’événement de succès.
+   * **Événements de succès** : les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si une personne achète un article, l’achat peut être considéré comme un événement de succès.
    * **Classification** : les répartitions de classification permettent de mettre en correspondance les données des rapports Analytics et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins. Toutefois, elles servent principalement à classer les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits.
 
 1. Sélectionnez une variable en cochant sa case, puis cliquez sur **[!UICONTROL Modifier les étiquettes de confidentialité]** dans la barre bleue qui s’affiche en bas de l’écran.

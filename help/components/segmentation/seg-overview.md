@@ -4,9 +4,9 @@ title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -237,12 +237,12 @@ Un segment séquentiel filtre des jeux de données sur la base des actions de l�
 
 ## Vidéo Comment segmenter {#segment-video}
 
-Cette vidéo donne un bref aperçu des conteneurs de segments et de leur utilisation.
+Cette vidéo montre brièvement ce que sont les conteneurs de segments et comment les utiliser.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/3429099?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

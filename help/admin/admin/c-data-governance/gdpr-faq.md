@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2042'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ L’[API Data Privacy Service](https://developer.adobe.com/experience-platform-a
 
 Nous vous demandons de ne pas utiliser l’API relative à la Confidentialité des données à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs et visiteuses. Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cet usage.
 
-Veuillez contacter votre équipe de compte d’Adobe pour qu’elle se mette en relation avec notre équipe de conseillers en architecture et ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour supprimer les informations d’identification personnelles ou les problèmes de données.
+Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous mette en relation avec notre équipe de conseil en architecture et en ingénierie de données dans le but d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
 
 +++
 
@@ -119,7 +119,7 @@ L’[API Data Privacy Service](https://developer.adobe.com/experience-platform-a
 
 Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cet usage.
 
-Veuillez contacter votre équipe de compte d’Adobe pour qu’elle se mette en relation avec notre équipe de conseillers en architecture et ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour supprimer les informations d’identification personnelles ou les problèmes de données.
+Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous mette en relation avec notre équipe de conseil en architecture et en ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
 
 +++
 
