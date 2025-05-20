@@ -73,7 +73,7 @@ Lorsque vous comparez la fonctionnalité de la version héritée de Report Buil
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble de Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble de Report Builder](https://video.tv.adobe.com/v/3452582?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
