@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez gérer les paramètres d’Analysis Workspace et ses composants conn
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/3429992/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Vous pouvez personnaliser les préférences générales de tous les nouveaux pro
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="Exiger une authentification Experience Cloud"
->abstract="Lorsque cette option est activée, les personnes qui ont accès à un projet par le biais de l’option **[!UICONTROL Partager avec tout le monde]** dans Analysis Workspace doivent s’authentifier à l’aide de leurs informations d’identification Experience Cloud."
+>abstract="Si vous activez cette option, les personnes qui ont accès à un projet à partir de l’option **[!UICONTROL Partager avec tout le monde]** dans Analysis Workspace doivent s’authentifier à l’aide de leurs informations d’identification Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
