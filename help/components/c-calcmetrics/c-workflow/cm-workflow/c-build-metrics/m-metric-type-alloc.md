@@ -3,140 +3,106 @@ description: En savoir plus sur
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 98%
 
 ---
 
 # Type de mesure et attribution {#metric-type-attribution}
-
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_nondefaultattributionmodel"
->title="Utiliser un modèle d’attribution différent du modèle par défaut"
->abstract="Activez un modèle d’attribution autre que celui par défaut pour la mesure sélectionnée."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modèle"
 >abstract="Sélectionnez un modèle d’attribution pour la mesure."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
 >title="Dernière touche"
 >abstract="100 % du crédit est attribué à la dernière valeur de dimension vue par un visiteur ou une visiteuse."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_firsttouch"
 >title="Première touche"
 >abstract="100 % du crédit est attribué à la première valeur de dimension vue par un visiteur ou une visiteuse."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_linear"
 >title="Linéaire"
 >abstract="Le crédit est réparti uniformément sur toutes les valeurs de dimension."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_participation"
 >title="Participation"
 >abstract="Crédit 100 % à chaque valeur de dimension vue par un visiteur ou une visiteuse.<br/>Les totaux des colonnes sont surestimés."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_sametouch"
 >title="Même touche"
 >abstract="Le crédit est attribué uniquement aux valeurs de dimension survenant sur le même événement que la conversion."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_instance"
+>title="Même touche"
+>abstract="Le crédit est attribué uniquement aux valeurs de dimension survenant sur le même événement que la conversion."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_ushaped"
 >title="En forme de U"
 >abstract="40 % du crédit à la première valeur de dimension, 40 % à la dernière, 20 % partagés par le milieu."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
 >title="En forme de J"
 >abstract="60 % du crédit à la dernière valeur de dimension, 20 % à la première, 20 % partagés par le milieu."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_jshaped"
+>title="En forme de J"
+>abstract="60 % du crédit à la dernière valeur de dimension, 20 % à la première, 20 % partagés par le milieu."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_inversej"
->title="Inverse J"
+>title="En forme de J inversé"
 >abstract="60 % du crédit à la première valeur de dimension, 20 % à la dernière, 20 % partagés par le milieu."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_reversejshaped"
+>title="En forme de J inversé"
+>abstract="60 % du crédit à la première valeur de dimension, 20 % à la dernière, 20 % partagés par le milieu."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
 >title="Décroissance temporelle"
 >abstract="Les valeurs de dimension les plus proches dans le temps d’une conversion obtiennent le plus de crédit."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_custom"
 >title="Personnalisé"
 >abstract="Définissez votre propre pondération d’attribution basée sur la position."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_positionbased"
+>title="Personnalisé"
+>abstract="Définissez votre propre pondération d’attribution basée sur la position."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_algorithmic"
 >title="Algorithmique"
 >abstract="Le crédit est déterminé dynamiquement à l’aide d’un algorithme statistique."
 
-<!-- markdownlint-enable MD034 -->
 
-<!-- markdownlint-disable MD034 -->
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_attribution_container"
+>title="Conteneur"
+>abstract="Sélectionnez un conteneur pour définir la portée souhaitée pour l’attribution."
+
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervalle de recherche en amont"
 >abstract="Ce paramètre détermine la fenêtre d’attribution des données qui sera appliquée à chaque conversion."
-
-<!-- markdownlint-enable MD034 -->
 
 Lors de la [création d’une mesure calculée](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), vous pouvez spécifier le type de mesure et le modèle d’attribution.
 
