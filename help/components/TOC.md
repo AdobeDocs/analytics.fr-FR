@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 95%
    + [Année](dimensions/year.md)
    + [Code postal](dimensions/zip-code.md)
 + Mesures {#metrics}
-   + [Mesures - Aperçu](metrics/overview.md)
+   + [Vue d’ensemble des mesures](metrics/overview.md)
    + [Compter les instances répétées](metrics/count-repeat-instances.md)
    + [Profondeur moyenne de page](metrics/average-page-depth.md)
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
@@ -258,31 +258,31 @@ ht-degree: 95%
    + [Gérer](c-alerts/alert-manager.md)
    + [Cas d’utilisation](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
-   + [Présentation des classifications](classifications/classifications-overview.md)
-   + Ensembles de classifications {#sets}
+   + [Vue d’ensemble des classifications](classifications/classifications-overview.md)
+   + Jeux de classifications {#sets}
       + [Vue d’ensemble](classifications/sets/overview.md)
-      + Gestion des ensembles de classifications {#manage}
+      + Gérer des jeux de classifications {#manage}
          + [Gestionnaire des jeux de classificactions](classifications/sets/manage/set-manager.md)
          + [Créer un jeu de classifications](classifications/sets/manage/create.md)
          + [Paramètres des jeux de classifications](classifications/sets/manage/settings.md)
          + [Schéma du jeu de classifications](classifications/sets/manage/schema.md)
          + [Règles de jeu de classifications](classifications/sets/manage/rules.md)
       + [Gestionnaire des tâches de jeux de classifications](classifications/sets/job-manager.md)
-      + Consolidations d’ensembles de classifications {#consolidations}
+      + Consolidations des jeux de classifications {#consolidations}
          + [Gestionnaire de consolidations](classifications/sets/consolidations/manage.md)
-         + [Processus de consolidation](classifications/sets/consolidations/process.md)
+         + [Processus des consolidations](classifications/sets/consolidations/process.md)
    + Créateur de règles de classification (hérité){#classifications-rulebuilder}
       + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
       + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
       + [Définitions des règles de classification](classifications/crb/classification-rule-definitions.md)
-      + [Sous-classifications et créateur de règles](classifications/crb/subclassification-rule-builder.md)
+      + [Les sous-classifications et le créateur de règles](classifications/crb/subclassification-rule-builder.md)
    + Importateur de classifications (hérité){#classifications-importer}
-      + [Présentation de l’importateur de classifications](classifications/importer/c-working-with-saint.md)
+      + [Vue d’ensemble de l’importateur de classifications](classifications/importer/c-working-with-saint.md)
       + [Fichiers de données de classification](classifications/importer/c-saint-data-files.md)
       + [Suppression des données de classification](classifications/importer/t-delete-classification-data.md)
       + [Modèle de classification](classifications/importer/c-download-saint-data.md)
-      + [Importation navigateur](classifications/importer/browser-import.md)
+      + [Import du navigateur](classifications/importer/browser-import.md)
       + [Exportation navigateur](classifications/importer/browser-export.md)
       + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [Exportation FTP](classifications/importer/ftp-export.md)
@@ -301,7 +301,7 @@ ht-degree: 95%
    + [Configuration de rapports en temps réel](c-real-time-reporting/t-realtime-admin.md)
    + [Mesures et dimensions en temps réel prises en charge](c-real-time-reporting/realtime-metrics.md)
 + Canaux marketing {#marketing-channels}
-   + [Prise en main des canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Commencer avec les canaux marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Attribution avec les canaux marketing](c-marketing-channels/mchannel-best-practices.md)
    + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
    + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)

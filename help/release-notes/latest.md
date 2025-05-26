@@ -4,47 +4,47 @@ description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (version de mai 2025)
+# Notes de mise à jour actuelles d’Adobe Analytics (version de mai 2025)
 
-**Dernière mise à jour** : jeudi 14 mai 2025
+**Dernière mise à jour** : 14 mai 2025
 
-Ces notes de mise à jour couvrent la période allant du xx avril au 18 juin 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour portent sur la période du xx avril au 18 juin 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Le panneau de gauche d’Analysis Workspace ne s’ouvre plus et se ferme au survol** | Le panneau de gauche d’Analysis Workspace permet d’ajouter des éléments tels que des composants, des panneaux et des visualisations à votre projet. L’option permettant d’ouvrir temporairement le panneau de gauche en pointant sur l’une des icônes à l’extrême gauche n’est plus disponible. Il vous suffit de cliquer sur l’une de ces icônes pour garder le panneau ouvert, puis de cliquer sur la même icône pour le fermer. |  | vendredi 29 mai 2025 |
+| **Le panneau de gauche d’Analysis Workspace ne s’ouvre plus et se ferme lorsque la souris le survole.** | Le panneau de gauche d’Analysis Workspace permet d’ajouter des éléments tels que des composants, des panneaux et des visualisations à votre projet. L’option permettant d’ouvrir temporairement le panneau de gauche en pointant sur l’une des icônes à l’extrême gauche n’est plus disponible. Il vous suffit de cliquer sur l’une de ces icônes pour garder le panneau ouvert, puis de cliquer sur la même icône pour le fermer. |  | 29 mai 2025 |
 
 
 ## Correctifs dans Adobe Analytics
 
-**Alertes** : AN-378351
-**Analysis Workspace** : AN-363521 ; AN-367366 ; AN-373575 ; AN-374238 ; AN-374295 ; AN-374382 ; AN-376938 ; AN-377176 ; AN-377467 ; AN-377942
-**Transfert de ressources** : AN-373381
-**Classifications** : AN-373166 ; AN-373479 ; AN-376074 ; AN-377337 ; AN-377505
-**Composants** : AN-314468
-**Flux de données** : AN-370241 ; AN-375267 ; AN-376940
-**Sources de données** : AN-375259
-**Data Warehouse**: AN-370415; AN-372090;
-**Platform** : AN-365681 ; AN-372306 ; AN-372616 ;
-**Rapports en temps réel** : AN-365681
-**Report Builder**: AN-371395
-**Segmentation** : AN-373576 ; AN-375858
-**Suites de rapports virtuelles** : AN-377948 ; AN-377952
-**Règles Vista** : AN-373292
+**Alertes** : AN-378351
+**Analysis Workspace** : AN-363521 ; AN-367366 ; AN-373575 ; AN-374238 ; AN-374295 ; AN-374382 ; AN-376938 ; AN-377176 ; AN-377467 ; AN-377942
+**Transfert de ressources** : AN-373381
+**Classifications** : AN-373166 ; AN-373479 ; AN-376074 ; AN-377337 ; AN-377505
+**Composants** : AN-314468
+**Flux de données** : AN-370241 ; AN-375267 ; AN-376940
+**Sources de données** : AN-375259
+**Data Warehouse** : AN-370415 ; AN-372090
+**Platform** : AN-365681 ; AN-372306 ; AN-372616
+**Rapports en temps réel** : AN-365681
+**Report Builder** : AN-371395
+**Segmentation** : AN-373576 ; AN-375858
+**Suites de rapports virtuelles** : AN-377948 ; AN-377952
+**Règles Vista** : AN-373292
 
 ## Avis importants pour les administrateurs d’Adobe Analytics {#admin}
 
 | Avis | Date d’ajout ou de mise à jour | Description |
 | ----------- | ---------- | ---------- |
-| **Le panneau de gauche d’Analysis Workspace ne s’ouvre plus et se ferme au survol** | Le panneau de gauche d’Analysis Workspace permet d’ajouter des éléments tels que des composants, des panneaux et des visualisations à votre projet. L’option permettant d’ouvrir temporairement le panneau de gauche en pointant sur l’une des icônes à l’extrême gauche n’est plus disponible. Il vous suffit de cliquer sur l’une de ces icônes pour garder le panneau ouvert, puis de cliquer sur la même icône pour le fermer. |  | vendredi 29 mai 2025 |
+| **Le panneau de gauche d’Analysis Workspace ne s’ouvre plus et se ferme lorsque la souris le survole.** | Le panneau de gauche d’Analysis Workspace permet d’ajouter des éléments tels que des composants, des panneaux et des visualisations à votre projet. L’option permettant d’ouvrir temporairement le panneau de gauche en pointant sur l’une des icônes à l’extrême gauche n’est plus disponible. Il vous suffit de cliquer sur l’une de ces icônes pour garder le panneau ouvert, puis de cliquer sur la même icône pour le fermer. |  | 29 mai 2025 |
 
 
 ## Avis de fin de vie {#eol}
