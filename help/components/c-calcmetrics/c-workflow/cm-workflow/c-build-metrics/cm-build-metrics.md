@@ -3,33 +3,20 @@ description: Le créateur de mesures calculées fournit un canevas où faire gli
 title: Créer des mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a1567366c9fad42b3836f43c681d5380e97b09f3
-workflow-type: ht
-source-wordcount: '1150'
+source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
+workflow-type: tm+mt
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
 
 # Créer des mesures {#build-metrics}
 
-<!-- markdownlint-disable MD034 -->
-
->[!CONTEXTUALHELP]
->id="components_calculatedmetrics_productcompatibility"
->title="Compatibilité des produits"
->abstract="Indique l’endroit où cette mesure calculée peut être utilisée dans Customer Journey Analytics, par exemple dans Analysis Workspace, Report Builder, etc. Certaines mesures calculées ne peuvent pas être utilisées avec l’expérimentation."
->additional-url="https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="Utiliser les mesures calculées dans l’expérimentation"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_externalid"
 >title="ID externe"
 >abstract="La modification de l’ID externe peut avoir une incidence sur la manière dont la mesure calculée apparaît dans des sources externes, telles que les outils de Business Intelligence."
 
-<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics fournit une zone de travail où faire glisser et déposer des dimensions, des mesures, des segments et des fonctions permettant de créer des mesures personnalisées en fonction de la logique de hiérarchie des conteneurs, des règles et des opérateurs. Grâce à cet outil de développement intégré, vous pouvez créer et enregistrer des mesures calculées simples ou complexes.
 

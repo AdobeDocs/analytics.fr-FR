@@ -3,14 +3,19 @@ description: Le Créateur de segments propose un canevas permettant de faire gli
 title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # Créateur de segments {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="Compatibilité des produits"
+>abstract="Un petit nombre de critères de segment disponibles ne sont pas compatibles avec tous les outils Adobe Analytics. Les outils compatibles avec le segment sont indiqués dans cette liste. Pour rendre un segment compatible avec tous les outils Adobe Analytics, modifiez vos critères."
 
 <!-- markdownlint-disable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="Instance"
->abstract="Inclut des instances et des valeurs persistantes pour la dimension."
+>abstract="Inclut des instances pour la dimension."
 
 <!-- markdownlint-enable MD034 -->
 
