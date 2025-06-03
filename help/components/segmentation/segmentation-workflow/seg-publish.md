@@ -6,16 +6,16 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# Publication de segments dans Experience Cloud {#publish-segments}
+# Publier des segments dans Experience Cloud {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Publication dans Experience Cloud"
->abstract="Vous pouvez publier l’audience dérivée de ce segment dans la bibliothèque d’audiences, où elle peut être utilisée pour des activités marketing dans Target et d’autres solutions Experience Cloud."
+>title="Publication Experience Cloud"
+>abstract="Vous pouvez publier l’audience dérivée de ce segment dans la bibliothèque d’audiences, où elle peut être utilisée pour des activités marketing dans Target et d’autres solutions Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
@@ -30,7 +30,7 @@ Vous pouvez publier des segments Analytics sur Experience Cloud en moins de 8 he
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://video.tv.adobe.com/v/36929?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
