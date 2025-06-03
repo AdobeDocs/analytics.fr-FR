@@ -3,10 +3,10 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Présentation de l’interface Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -110,7 +110,7 @@ L’onglet Administration offre des fonctionnalités et des options de configura
    | Gestion du trafic | La page Gestion du trafic vous permet de spécifier les changements prévus en termes de volume de trafic. Ces paramètres permettent à Adobe d’allouer les ressources appropriées afin de suivre et de traiter votre trafic en temps utile. | [Vue d’ensemble de la gestion du trafic](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=fr) |
    | Utilisation de l’appel au serveur | Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. Le tableau de bord Utilisation de l’appel au serveur est disponible pour suivre les données relatives à votre consommation d’appels au serveur et les comparer avec votre limite contractuelle. Vous pouvez configurer des alertes pour éviter les dépassements. | [Vue d’ensemble de l’utilisation de l’appel au serveur](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=fr) |
    | Journaux | Fichiers journaux permettant de savoir quand se connectent les utilisateurs et les utilisatrices, leur utilisation, l’accès, les suites de rapports et les changements d’administration. | [Journaux](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=fr) |
-   | Advertising Analytics | Configurez Adobe Analytics pour afficher toutes vos données de référencement payant Google et Bing côte à côte. | [Configuration d’Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=fr) |
+   | Advertising Analytics | Configurez Adobe Analytics pour afficher côte à côte toutes vos données de référencement payant Google Ads et Microsoft Advertising. | [Configuration d’Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=fr) |
    | Flux de données | Les flux de données sont un moyen puissant d’extraire des données brutes d’Adobe Analytics. Il est possible d’utiliser ces données brutes sur d’autres plateformes en dehors d’Adobe à la discrétion de votre organisation. | [Vue d’ensemble des flux de données Analytics](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=fr) |
    | Exclure par adresse IP | Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports. Vous pouvez configurer l’exclusion en utilisant votre pare-feu. | [Exclure par adresse IP](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=fr) |
    | Gestionnaire des activités de rapport | Le gestionnaire des activités de rapport vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre organisation. Il vous offre une visibilité détaillée sur la consommation de rapports et vous permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports. | [Gestionnaire des activités de rapport](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=fr) |

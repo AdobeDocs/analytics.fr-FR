@@ -1,37 +1,37 @@
 ---
-description: Détails sur le modèle Analysis Workspace et sur la création de rapports dans Report Builder.
+description: Détails sur le modèle Analysis Workspace et le reporting dans Report Builder.
 title: Rapport sur les données Advertising dans Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
 # Rapport sur les données publicitaires
 
-Cet article fournit des détails sur le rapport Analysis Workspace et le rapport en Report Builder.
+Cet article fournit des détails sur le rapport Analysis Workspace et le reporting dans Report Builder.
 
 >[!NOTE]
 >
->Patientez 24 heures au moins avant que les données du moteur de recherche ne commencent à apparaître dans vos rapports Analytics. Notez également que la création de rapports Analytics ne renvoie pas de données pour la granularité horaire, car les données Advertising Cloud ne prennent pas en charge la granularité horaire.
+>Vous devez attendre au moins 24 heures avant que les données des moteurs de recherche ne commencent à être renseignées dans vos rapports Analytics. Notez également que la création de rapports Analytics ne renvoie pas de données avec une granularité horaire, car les données Advertising Cloud ne prennent pas en charge la granularité horaire.
 
-## Rapport de recherche payante {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+## Rapport de référencement payant {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Ce rapport permet à toute personne qui met en oeuvre l’intégration de moteur de recherche d’accéder aux données de moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Rapports]** > **[!UICONTROL Acquisition]** > **[!UICONTROL Advertising Analytics : recherche payante]**
+Ce rapport permet à toute personne implémentant l’intégration du moteur de recherche d’accéder aux données du moteur de recherche dans Analytics. Vous pouvez y accéder via **[!UICONTROL Workspace]** > **[!UICONTROL Reports]** > **[!UICONTROL Acquisition]** > **[!UICONTROL Advertising Analytics : référencement payant]**
 
 >[!NOTE]
 >
->Le rapport de recherche payante est visible par tous les clients, même si vous n’avez implémenté aucun compte Advertising. Si vous essayez d’ouvrir le rapport de recherche payante pour une société qui n’est pas configurée, un message d’erreur vous explique que vous n’avez configuré aucun compte de moteur de recherche. Sélectionnez **[!UICONTROL Configurer maintenant]** pour accéder à l’écran [Configuration d’un compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>Le rapport de référencement payant est visible par tous les clients, même si vous n’avez implémenté aucun compte Advertising. Si vous essayez d’ouvrir le rapport de référencement payant pour une société qui n’est pas configurée, un message d’erreur vous expliquera que vous n’avez configuré aucun compte de moteur de recherche. Sélectionnez **[!UICONTROL Configurer maintenant]** pour accéder à l’écran [Configuration du compte Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
 | Tableau/Visualisation | Description |
 |--- |--- |
 | Tendances publicitaires | Présentation des tendances quotidiennes pour les Impressions AMO, les Clics AMO et le Coût AMO. |
-| Plateformes d’annonces publicitaires | Graphique en anneau pour les coûts des deux plateformes principales (Google, Bing). |
+| Plateformes d’annonces publicitaires | Graphique en anneau pour le coût des 2 principales plateformes (Google Ads, Microsoft Advertising). |
 | Totaux des plateformes d’annonces publicitaires | Tableau à structure libre des plateformes principales ventilé selon les Impressions AMO, les Clics AMO, le Coût AMO, la position moyenne AMO et la note note de qualité moyenne. |
 | Comptes | Zone empilée de coûts. |
 | Totaux de comptes | Tableau à structure libre des comptes principaux ventilé selon des mesures associées. |
@@ -46,4 +46,4 @@ Ce rapport permet à toute personne qui met en oeuvre l’intégration de moteur
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-Dès que vous avez configuré un compte Advertising Analytics, le rapport Advertising Analytics est rendu disponible.
+Dès que vous avez configuré un compte Advertising Analytics, le rapport Advertising Analytics est disponible.

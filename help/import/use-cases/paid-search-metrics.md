@@ -1,22 +1,22 @@
 ---
 title: Importer des mesures de référencement payant
-description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google AdWords, MSN, Yahoo, etc.) à l’aide des sources de données.
+description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google Ads, Microsoft Advertising, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
 # Importer des mesures de [!UICONTROL référencement payant] à lʼaide des [!UICONTROL sources de données]
 
-Pour de nombreuses entreprises marketing, le référencement payant est l’un des moyens les plus précieux et les plus fiables pour atteindre de nouveaux clients et conserver les clients existants. La fonctionnalité [!UICONTROL Sources de données] d’Adobe Analytics facilite l’importation de données de référencement payant avancées à partir de plateformes publicitaires numériques telles que Google AdWords. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données comportementales et d’attributs du client sur site, afin de vous permettre d’obtenir de meilleures informations sur les efforts de référencement payant de votre entreprise.
+Pour de nombreuses entreprises marketing, le référencement payant est l’un des moyens les plus précieux et les plus fiables pour atteindre de nouveaux clients et conserver les clients existants. La fonctionnalité [!UICONTROL Sources de données] d’Adobe Analytics facilite l’importation de données de référencement payant avancées à partir de plateformes publicitaires numériques telles que Google Ads. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données comportementales et d’attributs du client sur site, afin de vous permettre d’obtenir de meilleures informations sur les efforts de référencement payant de votre entreprise.
 
-Ces étapes vous montrent comment configurer une intégration à AdWords pour importer des données de mots-clés, ainsi que des mesures telles que les impressions, les clics, le coût par clic et plus encore.
+Ces étapes vous montrent comment configurer une intégration aux publicités pour importer des données de mots-clés, ainsi que des mesures telles que les impressions, les clics, le coût par clic, etc.
 
-Les étapes expliquent comment configurer une importation unique des données de paiement par clic. Cependant, la fonctionnalité [!UICONTROL Sources de données] permet l’importation continue des données à l’aide du format de fichier décrit ici. Selon votre plateforme de référencement payant, vous pouvez planifier des exportations périodiques (quotidiennes, mensuelles, etc.), configurer des processus automatisés pour transformer ces exportations en format de fichier requis par Adobe Analytics et charger ces fichiers dans Adobe Analytics afin de générer des rapports d’intégration de référencement payant.
+Les étapes expliquent comment configurer une importation unique de données de paiement par clic. Cependant, la fonctionnalité [!UICONTROL Sources de données] permet l’importation continue des données à l’aide du format de fichier décrit ici. Selon votre plateforme de référencement payant, vous pouvez planifier des exportations périodiques (quotidiennes, mensuelles, etc.), configurer des processus automatisés pour transformer ces exportations en format de fichier requis par Adobe Analytics et charger ces fichiers dans Adobe Analytics afin de générer des rapports d’intégration de référencement payant.
 
 ## Conditions préalables
 
@@ -66,7 +66,7 @@ L’[!UICONTROL Assistant d’activation des sources de données] affiche :
 1. Cliquez sur **[!UICONTROL Suivant]** et attribuez un nom à votre source de données. Ce nom figurera dans le Gestionnaire de sources de données.
 1. Acceptez le contrat de service et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez les trois mesures standard : [!UICONTROL Impressions], [!UICONTROL Clics] et [!UICONTROL Coût total] et cliquez sur **[!UICONTROL Suivant]**.
-1. Maintenant, &quot;mappez&quot; cette nouvelle source de données avec les événements personnalisés que nous avons créés dans [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Maintenant, « mappez » cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mappage](assets/data-source-mapping.png)
 
@@ -85,7 +85,7 @@ Le fichier est déjà renseigné avec les mesures, les dimensions, ainsi que leu
 
 ## Exporter les données PPC et les télécharger sur Analytics
 
-Des étapes similaires à celles-ci fonctionnent pour Google Adwords, MSN, Yahoo et dʼautres comptes PPC.
+Des étapes similaires fonctionnent pour Google Ads, Microsoft Advertising et d’autres comptes PPC.
 
 ### Exporter les données
 
