@@ -4,9 +4,9 @@ title: Création de segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilité des produits"
->abstract="Un petit nombre de critères de segment disponibles ne sont pas compatibles avec tous les outils Adobe Analytics. Les outils compatibles avec le segment sont indiqués dans cette liste. Pour rendre un segment compatible avec tous les outils Adobe Analytics, modifiez vos critères."
+>abstract="Un petit nombre de critères de segment disponibles ne sont pas compatibles avec tous les outils Adobe Analytics. Les outils compatibles avec le segment sont indiqués dans cette liste. Pour rendre un segment compatible avec tous les outils Adobe Analytics, modifiez vos critères."
 
 <!-- markdownlint-disable MD034 -->
 
