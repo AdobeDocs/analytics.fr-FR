@@ -410,4 +410,4 @@ Les colonnes de la liste suivante sont inutilisées, supprimées ou ne contienne
 >[!MORELIKETHIS]
 >
 >[Mappage de variables d’objet XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->>[Mappage des variables d’objet de données](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[Mappage des variables d’objet de données](/help/implement/aep-edge/data-var-mapping.md)
