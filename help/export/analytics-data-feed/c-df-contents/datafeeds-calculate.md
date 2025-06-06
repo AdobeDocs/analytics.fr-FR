@@ -4,10 +4,10 @@ keywords: Flux de données;traitement;mesures;colonne « pre »;colonne « po
 title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 >[!NOTE]
 >
->Les accès qui sont exclus d’Adobe Analytics en temps normal sont inclus dans les flux de données. Utilisez `exclude_hit = 0` pour supprimer les accès exclus des requêtes sur les données brutes. Les données sourcées sont également incluses dans les flux de données. Si vous souhaitez exclure les sources de données, excluez toutes les lignes comportant `hit_source = 5,7,8,9`.
+>Les accès normalement exclus d’Analysis Workspace sont inclus dans les flux de données. Envisagez d’ajouter les conditions suivantes à vos requêtes si elles sont pertinentes :
+>
+>* **`exclude_hit`** : Analysis Workspace inclut uniquement les données où `exclude_hit = 0`.
+>* **`customer_perspective`** : Analysis Workspace inclut uniquement les données où `customer_perspective = 0`, sauf si vous utilisez une suite de rapports virtuelle qui inclut des accès en arrière-plan mobiles.
+>* **`hit_source`** : les données provenant de sources de données peuvent contenir des différences entre les données brutes et Analysis Workspace. Si vous souhaitez exclure les accès des sources de données, excluez toutes les lignes où `hit_source = 5,7,8,9`.
 
 ## Pages vues
 
@@ -25,7 +29,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 ## Occurrences
 
-1. Comptez le nombre total de lignes.
+1. Compter le nombre total de lignes.
 
 ## Visites
 
@@ -36,9 +40,9 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 >
 >Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, utilisez `visit_start_time_gmt` lors du comptage des visites pour vous assurer que ces visites sont comptabilisées.
 
-## Visiteurs
+## Visiteurs et visiteuses
 
-L’ensemble des méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, service Experience Cloud ID, etc.) sont finalement toutes calculées en tant que valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
+Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, service d’Experience Cloud ID, etc.) sont toutes calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
 
 1. Concaténez `post_visid_high` et `post_visid_low`.
 2. Comptez le nombre unique de valeurs.
