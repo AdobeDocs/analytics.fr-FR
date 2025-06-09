@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -29,7 +29,7 @@ Cliquez sur l’icône Compte en haut à droite pour afficher le numéro de comp
 
 ![Compte Google Ads Manager](assets/google-account.png)
 
-## Microsoft Advertising (Bing) {#microsoft}
+## Microsoft Advertising (Bing) {#microsoft}
 
 >[!NOTE]
 >
@@ -45,9 +45,9 @@ Les **[!UICONTROL ID de compte]** et **[!UICONTROL ID de compte Manager]** sont 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="ID de compte"
->abstract="L’« ID de compte » est une valeur numérique située dans l’interface Microsoft Advertising. Vous pouvez le localiser en accédant à Paramètres > Paramètres du compte > ID de compte."
+>abstract="L’« ID de compte » est une valeur numérique située dans l’interface de Microsoft Advertising. Vous pouvez le localiser en accédant à Paramètres > Paramètres du compte > ID de compte."
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="ID de compte Manager"
->abstract="L’« ID de compte du responsable » est une valeur numérique située dans l’interface Microsoft Advertising. Vous pouvez le localiser en accédant à Paramètres > Paramètres du compte Manager > ID du compte Manager."
+>title="ID de compte gestionnaire"
+>abstract="L’« ID de compte gestionnaire » est une valeur numérique située dans l’interface de Microsoft Advertising. Vous pouvez le localiser en accédant à Paramètres > Paramètres du compte gestionnaire > ID de compte gestionnaire."

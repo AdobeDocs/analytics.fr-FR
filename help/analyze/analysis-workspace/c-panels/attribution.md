@@ -5,7 +5,7 @@ feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
->title="Panneau Attribution"
+>title="Panneau d’attribution"
 >abstract="Comparez et visualisez rapidement de nombreux modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion.<br/><br/>**Paramètres **<br/>**Canal**<br/> Dimension à attribuer. Il peut s’agir de canaux marketing, de campagnes ou de toute autre dimension.<br/>**Modèles**<br/> Le modèle détermine la manière dont le crédit est attribué aux points de contact.<br/>**Période de recherche rétroactive**<br/> Ce paramètre détermine la fenêtre d’attribution des données qui sera appliquée à chaque conversion."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panneau Attribution IQ"
 
@@ -40,8 +40,8 @@ Le panneau **[!UICONTROL Attribution]** vous permet de créer facilement une ana
 Adobe Analytics améliore l’attribution en vous permettant d’effectuer les tâches suivantes :
 
 * Définir l’attribution à des médias autres que ceux achetés : tout élément (dimension, mesure, canal ou événement) peut être appliqué aux modèles (par exemple, recherche interne) et pas seulement aux campagnes marketing.
-* Utiliser la comparaison illimitée de modèles d’attribution : comparez dynamiquement autant de modèles que vous le souhaitez.
-* Éviter les changements de mise en œuvre : avec le traitement de la période de rapport et les sessions contextuelles, le contexte du parcours client peut être intégré et appliqué lors de l’exécution.
+* Utilisez la comparaison illimitée de modèles d’attribution : comparez dynamiquement autant de modèles que vous le souhaitez.
+* Évitez les changements d’implémentation : avec le traitement de la période de rapport et les sessions contextuelles, le contexte du parcours client peut être créé et appliqué lors de l’exécution.
 * Construire la session qui correspond le mieux à votre scénario d’attribution.
 * Ventiler l’attribution par segments : comparez facilement les performances de vos canaux marketing sur n’importe quel segment important (par exemple, la nouvelle clientèle par rapport à la clientèle régulière, le produit X par rapport au produit Y, le niveau de fidélité ou la valeur vie client (CLV)).
 * inspecter le croisement des canaux et l’analyse multi-touch : utilisation des histogrammes et diagrammes de Venn ainsi que des résultats de l’attribution des tendances ;
@@ -62,11 +62,11 @@ Pour utiliser un panneau **[!UICONTROL Attribution]**, procédez comme suit :
 
 Vous pouvez configurer le panneau Attribution à l’aide des paramètres d’entrée suivants :
 
-1. Ajoutez une **[!UICONTROL mesure de succès]** et une dimension du **[!UICONTROL canal]** à laquelle vous souhaitez affecter des attributs. Par exemple, les canaux marketing ou les dimensions personnalisées, telles que les promotions internes.
+1. Ajoutez une **[!UICONTROL mesure de succès]** et une dimension à partir du **[!UICONTROL canal]** auquel vous souhaitez affecter des attributs. Par exemple, les canaux marketing ou les dimensions personnalisées, telles que les promotions internes.
 
    ![Fenêtre du panneau Attribution présentant plusieurs dimensions et mesures sélectionnées.](assets/attribution-panel.png)
 
-1. Sélectionnez un ou plusieurs [modèles d’attribution](#attribution-models) parmi les **[!UICONTROL Modèles inclus]** et un [intervalle de recherche en amont](#lookback-window) parmi les **[!UICONTROL Intervalles de recherche en amont]** que vous souhaitez utiliser à des fins de comparaison.
+1. Sélectionnez un ou plusieurs [modèles d’attribution](#attribution-models) parmi **[!UICONTROL Modèles inclus]** et un [intervalle de recherche en amont](#lookback-window) parmi les **[!UICONTROL Intervalles de recherche en amont]** que vous souhaitez utiliser à des fins de comparaison.
 
 1. Sélectionnez **[!UICONTROL Créer]** pour créer les visualisations dans le panneau.
 
@@ -86,7 +86,7 @@ Les visualisations suivantes font partie de la sortie du panneau.
 * **Diagramme de chevauchement** : visualisation de Venn présentant les trois principaux éléments de dimension et la fréquence à laquelle ils participent conjointement à une conversion. Par exemple, la taille du chevauchement des bulles indique la fréquence des conversions lorsqu’une personne a été exposée aux deux éléments de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
 * **Détails sur les performances** : visualisation en nuage de points pour comparer visuellement jusqu’à trois modèles d’attribution.
 * **Performance de tendance** : affiche la tendance des conversions attribuées pour le principal élément de dimension. La sélection d’autres lignes dans le tableau à structure libre adjacent met à jour la visualisation pour refléter votre sélection.
-* **Flux** : vous permet de déterminer avec quels canaux les visiteurs et visiteuses interagissent le plus souvent lors de leur parcours, et dans quel ordre.
+* **Flux** : vous permet de voir avec quels canaux les personnes interagissent le plus souvent lors de leur parcours, et dans quel ordre.
 
 ## Modèles d’attribution
 
@@ -106,7 +106,7 @@ Les visualisations suivantes font partie de la sortie du panneau.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/39110/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## Create an attribution panel
 
