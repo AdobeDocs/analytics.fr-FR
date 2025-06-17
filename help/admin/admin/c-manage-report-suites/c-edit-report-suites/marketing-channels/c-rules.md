@@ -4,7 +4,7 @@ description: Les règles de traitement des canaux marketing déterminent si l’
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -72,8 +72,8 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 |--- |--- |
 | Tous | N’active ce canal que lorsque tous les critères de la règle sont vrais. |
 | Tous | Active ce canal lorsqu’au moins un des critères de la règle est vrai. Cette option n’est disponible que s’il existe plusieurs critères dans la règle. |
-| ID AMO | Code de suivi principal utilisé par les intégrations Adobe Advertising et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe de code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising. Utilisez un &quot;AMO ID&quot; commençant par &quot;AL&quot; pour Search and Social ou &quot;AC&quot; pour Display. Lorsque l’AMO ID est utilisé dans les canaux marketing, les mesures de clics/coûts/impressions peuvent être attribuées au canal approprié. Lorsque l’AMO ID n’est pas configuré, ces mesures sont définies sur Direct ou Aucun. |
-| AMO EF ID | Code de suivi secondaire utilisé par Adobe Advertising. Le principal objectif de ce code de suivi est de servir de clé pour renvoyer les données à Advertising. Il peut toutefois également être utilisé pour identifier les clics publicitaires et les affichages publicitaires comme deux canaux marketing distincts. Pour ce faire, définissez la logique du canal marketing pour &quot;AMO EF ID&quot; se termine par `:d` pour les clics publicitaires ou &quot;AMO EF ID&quot; se termine par `:i` pour les affichages publicitaires. Si vous ne souhaitez pas diviser Affichage en deux canaux, utilisez plutôt la dimension AMO ID. |
+| ID AMO | Code de suivi principal utilisé par les intégrations Adobe Advertising et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe du code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising. Utilisez un « AMO ID » commençant par « AL » pour Search and Social ou « AC » pour Display. Lorsque l’ID AMO est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal correct. Lorsque l’AMO ID n’est pas configuré, ces mesures sont définies sur Direct ou Aucun. |
+| AMO EF ID | Code de suivi secondaire utilisé par Adobe Advertising. L’objectif principal de ce code de suivi est de servir de clé pour renvoyer des données à Advertising. Toutefois, il peut également être utilisé pour identifier Display ClickThrough et Display ViewThrough comme deux canaux marketing distincts. Pour ce faire, définissez la logique de canal marketing pour que « AMO EF ID » se termine par `:d` pour les clics d’affichage ou « AMO EF ID » se termine par `:i` pour les clics d’affichage. Si vous ne souhaitez pas diviser Affichage en deux canaux, utilisez plutôt la dimension AMO ID. |
 | Variables de conversion | Comprend des variables eVar activées pour cette suite de rapports et ne s’applique que lorsque ces variables sont définies au moyen du code Adobe sur la page. |
 | Existe | Plusieurs sélections sont disponibles, notamment :<ul><li>**N’existe pas** : indique que l’attribut de visite n’existe pas pour la demande. Dans un domaine référent par exemple, si l’utilisateur saisit une URL ou clique sur un signet, l’attribut de domaine référent n’existe pas.</li><li>**Est vide** : indique que l’attribut de visite existe, généralement sous la forme d’un paramètre de chaîne de requête ou eVar, mais qu’aucune valeur associée à l’attribut de visite n’est attribuée.</li><li>**Ne contient pas** : permet d’indiquer, par exemple, qu’un domaine référent ne contient pas de valeur spécifique (contrairement à l’utilisation de l’option « Contient »).</li></ul> |
 | Identifier le canal comme | Associe la règle à un canal marketing ajouté à la page Gestionnaire de canaux marketing. |
@@ -82,7 +82,7 @@ Ce tableau de référence définit les champs, options et attributs d’accès q
 | Le référent correspond aux filtres d’URL internes | Une visite dont l’URL de page correspond à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. |
 | Le référent ne correspond pas aux filtres d’URL internes | L’URL référente ne correspond pas à un filtre d’URL interne, tel qu’il est défini pour la suite de rapports dans les Outils d’administration. Vous pouvez utiliser ce paramètre avec URL de la page et Existe afin de configurer une règle fourre-tout, de telle sorte qu’aucune visite ne figure dans la section Aucun canal identifié du rapport. |
 | Ignorer les visites correspondant aux filtres URL internes | (Pour les référents) Effectue uniquement le suivi des visites provenant de sites externes. En règle générale, ce paramètre doit rester activé, à moins que vous ne souhaitiez inclure le trafic interne. |
-| Est la première page de la visite | La première page d’une visite détectée par Adobe. |
+| Est le premier accès de la visite. | Premier accès d’une visite détecté par la création de rapports Adobe. |
 | Page | Dimension [Page](/help/components/dimensions/page.md). |
 | Domaine de page | Le domaine de la page à laquelle accède le visiteur, tel que `products.example.com`. |
 | Domaine et chemin de page | Domaine et chemin d’accès, comme par exemple `products.example.com/mens/pants/overview.html`. |
