@@ -3,14 +3,53 @@ description: En savoir plus sur
 title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 21c4d1b591daf7229bd36845e42e2dec473e792f
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 77%
 
 ---
 
 # Type de mesure et attribution {#metric-type-attribution}
+
+Vous pouvez configurer le type de mesure et le [modèle d’attribution](#attribution-models) pour une mesure dans une définition de mesure calculée.
+
+1. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de mesure.
+1. Dans la boîte de dialogue contextuelle, réalisez les actions suivantes :
+
+   ![Type de mesure et attribution](assets/cm-type-alloc.png)
+
+   * Spécifiez le **[!UICONTROL type de mesure]** :
+
+     | Type de mesure | Définition |
+     |---|---|
+     | **[!UICONTROL Standard]** | Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque élément de ligne. <p>Par exemple, la mention ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** divise les commandes de cet élément de ligne spécifique par le nombre de visites correspondantes. |
+     | **[!UICONTROL Total général]** | Utilisez le **[!UICONTROL Total général]** à la période de création de rapports de chaque élément de ligne. Si une formule est composée d’une mesure Total général, la mesure calculée affiche le même Total général sur chaque élément de ligne. Les mesures Total général sont utiles lorsque vous souhaitez créer des mesures calculées qui se comparent aux données totales. <p>Par exemple, la mention ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Nombre total de visites]** indique la proportion de commandes par rapport à toutes les visites, et pas seulement les visites sur l’élément de ligne spécifique. Dans cet exemple, vous spécifiez **[!UICONTROL Total général]** pour la mesure ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** dans votre mesure calculée, qui la transformera automatiquement en ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Total Visites]**. |
+
+   * Spécifiez **[!UICONTROL Attribution]**.
+
+      1. Vous pouvez effectuer l’une des actions suivantes :
+
+         * Désactivez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]** pour utiliser le modèle d’attribution de colonne par défaut, à savoir Dernière touche, avec un intervalle de recherche en amont de 30 jours.
+         * Activez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]**. Dans la boîte de dialogue **[!UICONTROL Modèle d’attribution de colonne]**,
+
+            * Sélectionnez un **[!UICONTROL Modèle]** dans les [modèles d’attribution](#attribution-models).
+            * Sélectionnez un **[!UICONTROL Conteneur]** parmi les options [conteneur](#container).
+            * Sélectionnez une option **[!UICONTROL Intervalle de recherche en amont]** dans l’[Intervalle de recherche en amont](#lookback-window). Si vous sélectionnez **[!UICONTROL Heure personnalisée]**, vous pouvez définir la période en **[!UICONTROL minute(s)]** jusqu’à **[!UICONTROL trimestre(s)]**.
+
+      1. Sélectionnez **[!UICONTROL Appliquer]** pour appliquer le modèle d’attribution différent du modèle par défaut. Sélectionnez Annuler pour annuler.
+
+     Si vous avez déjà défini un modèle d’attribution différent du modèle par défaut, sélectionnez **[!UICONTROL Modifier]** pour modifier la sélection.
+
+Voir [Exemple](#example) pour un exemple d’utilisation d’un modèle d’attribution, d’un conteneur et d’un intervalle de recherche en amont.
+
+
+## Modèles d’attribution {#attribution-models}
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_nondefaultattributionmodel"
+>title="Utilisation d’un modèle d’attribution différent du modèle par défaut"
+>abstract="Activez un modèle d’attribution autre que celui par défaut pour la mesure sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
@@ -92,49 +131,66 @@ ht-degree: 100%
 >title="Algorithmique"
 >abstract="Le crédit est déterminé dynamiquement à l’aide d’un algorithme statistique."
 
+{{attribution-models-details}}
+
+
+## Conteneur {#container}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Conteneur"
 >abstract="Sélectionnez un conteneur pour définir la portée souhaitée pour l’attribution."
 
+{{attribution-container}}
+
+
+## Intervalle de recherche en amont {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
 >title="Intervalle de recherche en amont"
 >abstract="Ce paramètre détermine la fenêtre d’attribution des données qui sera appliquée à chaque conversion."
 
-Lors de la [création d’une mesure calculée](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), vous pouvez spécifier le type de mesure et le modèle d’attribution.
+{{attribution-lookback-window}}
 
-## Type de mesure
+## Exemple
 
-Pour spécifier le type de mesure lors de la création d’une mesure calculée, procédez comme suit :
+{{attribution-example}}
 
-1. Sélectionnez l’icône en forme d’engrenage en regard de la mesure dont vous souhaitez sélectionner le type.
 
-   ![](assets/cm_type_alloc.png)
+<!--
+When [building a calculated metric](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), you can specify the metric type and the attribution model.
 
-1. Choisissez l’une des options suivantes :
+## Metric type
 
-   | Type de mesure | Définition |
+To specify the metric type when building a calculated metric:
+
+1. Select the gear icon next to the metric whose type you want to select.
+
+   ![](assets/cm-type-alloc.png) 
+
+1. Choose from the following options:
+
+   |  Metric Type  | Definition  |
    |---|---|
-   | Standard | Ces mesures sont les mêmes mesures que celles utilisées dans la création de rapports standard [!DNL Analytics]. Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque ligne. Par exemple, [Commandes] / [Visites] utilise des commandes pour cette ligne spécifique et la divise par le nombre de visites correspondant à cette ligne spécifique. |
-   | Total général | Utilisez le total général correspondant à la période de création de rapports de chaque ligne. Si une formule est composée d’une seule mesure Total général, elle affiche le même nombre total sur chaque élément de ligne. Les mesures Total général s’avèrent utiles pour créer des mesures calculées qui sont comparées au nombre total de données du site. Par exemple, [Commandes] / [Nombre total de visites] affiche la proportion des commandes par rapport à TOUTES les visites sur votre site, et non juste les visites sur l’élément de ligne spécifique. |
+   |  Standard  | These metrics are the same metrics used in standard [!DNL Analytics] reporting. If a formula consisted of a single standard metric, it displays identical data to its non-calculated-metric counterpart. Standard metrics are useful for creating calculated metrics specific to each individual line item. For example, [Orders] / [Visits] takes orders for that specific line item and divides it by the number of visits for that specific line item.  |
+   |  Grand total  | Use Grand total for the reporting period in every line item. If a formula consisted of a single Grand total metric, it displays the same total number on every line item. Grand total metrics are useful for creating calculated metrics that compare against site total data. For example, [Orders] / [Total Visits] shows the proportion of orders against ALL visits to your site, not just the visits to the specific line item.  |
 
-## Fonctionnement de l’affectation linéaire
+## How linear allocation works
 
-L’[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) a revu la manière dont les modèles dʼaffectation dans les mesures calculées sont évalués.
+[Attribution](/help/analyze/analysis-workspace/attribution/overview.md) is how allocation models in calculated metrics are evaluated.
 
-Pour obtenir la liste complète des modèles dʼattribution et des intervalles de recherche en amont autres que par défaut pris en charge, voir [Modèles dʼattribution et intervalles de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md).
+For a full list of non-default attribution models and lookback windows supported, see [Attribution models and lookback windows](/help/analyze/analysis-workspace/attribution/models.md).
 
-L’exemple suivant explique comment les mesures calculées avec l’affectation linéaire fonctionnent dans les rapports :
+The following example illustrates how calculated metrics with linear allocations work in reporting: 
 
-| | Accès 1 | Accès 2 | Accès 3 | Accès 4 | Accès 5 | Accès 6 | Accès 7 |
+| | Hit 1 | Hit 2 | Hit 3 | Hit 4 | Hit 5 | Hit 6 | Hit 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| Données envoyées dans | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
-| eVar de dernière touche | PROMO A | PROMO A | PROMO A | PROMO B | PROMO B | PROMO C | $10 |
-| eVar de première touche | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | PROMO A | $10 |
-| Exemple de Prop | PROMO A | - | PROMO A | PROMO B | - | PROMO C | $10 |
+|Data Sent In|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
+|Last Touch eVar|PROMO A|PROMO A|PROMO A|PROMO B|PROMO B|PROMO C|$10|
+|First Touch eVar|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|PROMO A|$10|
+|Example prop|PROMO A|-|PROMO A|PROMO B|-|PROMO C|$10|
 
-Dans cet exemple, les valeurs A, B et C ont été envoyées dans une variable aux accès 1, 3, 4 et 6 avant la réalisation d’un achat de 10 $ à l’accès 7. Dans la deuxième ligne, ces valeurs persistent dans les accès sur une base de visite de dernière touche. La troisième ligne représente une persistance de visite de première touche. Enfin, la dernière ligne indique comment les données seraient enregistrées pour une Prop qui ne présente pas de persistance.
+In this example, the values A, B, and C were sent into a variable on hits 1, 3, 4, and 6 before a $10 purchase was made on hit 7. In the second row, those values persist across hits on a last touch visit basis. The third row illustrates a first-touch visit persistence. Finally, the last row illustrates how data would be recorded for a prop which does not have persistence.
 
+-->
