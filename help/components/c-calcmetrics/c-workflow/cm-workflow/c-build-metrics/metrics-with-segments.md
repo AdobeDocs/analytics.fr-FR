@@ -3,74 +3,86 @@ description: La segmentation de mesures individuelles permet d’effectuer des c
 title: Mesures segmentées
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 68%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
 # Mesures segmentées
 
-Dans le créateur de mesures calculées, vous pouvez appliquer des segments dans votre définition de mesure. Cela s’avère utile si vous souhaitez extraire de nouvelles mesures afin de les utiliser dans votre analyse. N’oubliez pas que les définitions de segment peuvent être mises à jour par le biais du créateur de segments. Si des modifications sont apportées, le segment se met automatiquement à jour là où il est appliqué, y compris s’il fait partie d’une définition de mesure calculée.
+Dans le [créateur de mesures calculées](cm-build-metrics.md#definition-builder), vous pouvez appliquer des segments dans votre définition de mesure. L’application de segments s’avère utile si vous souhaitez utiliser des mesures pour un sous-ensemble de vos données dans votre analyse.
 
-![](assets/german-visitors.png)
+>[!NOTE]
+>
+>Les définitions de segment sont mises à jour via le [créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md). Si vous apportez une modification à un segment, le segment est automatiquement mis à jour partout où il est utilisé, y compris si le segment fait partie d’une définition de mesure calculée.
+>
 
-## Création d’une mesure segmentée {#create}
+Vous souhaitez comparer les mesures pour les Allemands qui interagissent avec votre marque par rapport aux personnes en dehors de l’Allemagne. Vous pouvez donc répondre à des questions telles que :
 
-Imaginons que vous souhaitez comparer différents aspects d’un segment « Visiteurs allemands » à ceux d’un segment « Visiteurs internationaux ». Vous pouvez créer des mesures qui vous donneront des informations telles que :
+1. Combien de visiteurs allemands et internationaux visitent vos pages les plus [populaires](#popular-pages).
+1. Combien de personnes allemandes par rapport aux personnes internationales au [total](#totals) ont interagi en ligne avec votre marque ce mois-ci ?
+1. Quels sont les [pourcentages](#percentages) d&#39;Allemands et d&#39;internationaux qui ont visité vos pages populaires ?
 
-* Qu’obtient-on en termes de comparaison du comportement de navigation du contenu entre ces deux groupes ? (Un autre exemple : qu’obtient-on en termes de comparaison du taux de conversion entre ces deux segments ?)
-* En termes de pourcentage du nombre de visiteurs total, combien de visiteurs allemands parcourent certaines pages par rapport aux visiteurs internationaux ?
-* Quelles sont les différences majeures en termes de contenu parcouru par ces différents segments ?
+Consultez les sections ci-dessous pour illustrer la manière dont les mesures segmentées peuvent vous aider à répondre à ces questions. Le cas échéant, il est fait référence à une documentation plus détaillée.
 
-Créez et enregistrez une mesure appelée « Visiteurs allemands » et une mesure appelée « Visiteurs internationaux » :
+## Pages populaires
 
-1. Créez un segment ad hoc dans le créateur de mesures calculées appelé « Visiteurs allemands », où « Pays » est « Allemagne ».
+1. [Création d’une mesure calculée](../cm-workflow.md) à partir d’un projet Workspace appelé `Germany`.
+1. Dans le [créateur de mesures calculées](cm-build-metrics.md), [créez un segment](/help/components/segmentation/segmentation-workflow/seg-build.md) intitulé `Germany`, qui utilise le champ Pays .
 
-   Faites glisser la dimension Pays dans le canevas Définition et sélectionnez [!UICONTROL **Allemagne**] comme valeur :
-
-   ![](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >Vous pouvez également effectuer cette opération dans le [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md), mais nous avons simplifié le processus en rendant les dimensions disponibles dans le créateur de mesures calculées. « Ad hoc » signifie que le segment n’est pas visible dans la liste **[!UICONTROL Segments]** du rail de gauche. Vous pouvez néanmoins le rendre public en pointant sur l’icône « i » en regard et en cliquant sur **[!UICONTROL Rendre public]**.
+   >Dans le créateur de mesures calculées, vous pouvez créer un segment directement à l’aide du panneau Composants .
+   >   
 
-1. Faites glisser le segment Allemagne dans le canevas Définition et faites glisser la mesure Visiteurs uniques à l’intérieur :
+   Votre segment pourrait ressembler à ceci :
 
-   ![](assets/german-visitors.png)
+   ![Segment Allemagne](assets/segment-germany.png)
 
-1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
+1. De retour dans le créateur de mesures calculées, utilisez le segment pour mettre à jour la mesure calculée.
 
-1. Créez un segment ad hoc dans le créateur de mesures calculées appelé « Visiteurs internationaux », où « Pays » n’est pas égal à « Allemagne ».
+   ![Mesure calculée Allemagne](assets/germany-visits.png)
 
-   Faites glisser la dimension Pays dans le canevas Définition, sélectionnez [!UICONTROL **Allemagne**] comme valeur, puis sélectionnez [!UICONTROL **n’est pas égal à**] comme opérateur.
+Répétez les étapes ci-dessus pour la version internationale de votre mesure calculée.
 
-1. Faites glisser la mesure Visiteurs uniques vers l’intérieur.
+1. Créez une mesure calculée à partir de votre projet Workspace, intitulée `Non Germany visits`.
+1. Dans le créateur de mesures calculées , créez un segment, appelé `Not Germany`, qui utilise le champ Pays CRM de vos données CRM pour déterminer la provenance d’une personne.
 
-1. Sélectionnez [!UICONTROL **Enregistrer**] pour enregistrer la mesure calculée.
+   Votre segment doit ressembler à ceci :
 
-1. Dans Analysis Workspace, faites glisser la dimension **[!UICONTROL Page]** dans un tableau à structure libre, puis faites glisser les 2 nouvelles mesures calculées l’une à côté de l’autre dans la partie supérieure :
+   ![Segment Allemagne](assets/segment-not-germany.png)
 
-   ![](assets/workspace-pages.png)
+1. De retour dans le créateur de mesures calculées, utilisez le segment pour mettre à jour la mesure calculée.
 
-
->[!BEGINSHADEBOX]
-
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures segmentées](https://video.tv.adobe.com/v/37940?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
+   ![Mesure calculée Allemagne](assets/non-germany-visits.png)
 
 
-## Pourcentage de mesures totales {#percent-total}
+1. Créez un projet dans Analysis Workspace, qui vous permet d’afficher les pages visitées par des visiteurs allemands et non allemands.
 
-Vous pouvez aller plus loin avec l’exemple ci-dessus en comparant votre segment à une population totale. Pour ce faire, créez deux mesures, « % du total des visiteurs allemands » et « % du total des visiteurs internationaux » :
+   ![Visualisation du tableau à structure libre de Workspace montrant les Allemands par rapport aux Internationaux](assets/workspace-german-vs-international.png)
 
-1. Déposez le segment Visiteurs allemands (ou internationaux) dans le canevas.
-1. Déposez un autre segment Visiteurs allemands (ou internationaux) dessous. Néanmoins, cette fois-ci, cliquez sur l’icône (engrenage) de configuration pour sélectionner le type de mesure « Total ». Le format doit être « Pourcentage ». L’opérateur doit être « divisé par ». Vous terminez avec cette définition de mesure :
 
-   ![](assets/cm_metric_total.png)
+## Totaux
 
-1. Appliquez cette mesure à votre projet :
+1. Créez deux nouvelles mesures calculées basées sur le total général. Ouvrez chacun des segments créés précédemment, renommez le segment, définissez le **[!UICONTROL Type de mesure]** pour **[!UICONTROL Personnes]** sur **[!UICONTROL Total général]** puis utilisez **[!UICONTROL Enregistrer sous]** pour enregistrer le segment en utilisant le nouveau nom. Par exemple :
 
-   ![](assets/cm_percent_total.png)
+   ![Mesure totale pour l’Allemagne](assets/calculated-metric-germany-total.png)
+
+1. Ajoutez une nouvelle visualisation de tableau à structure libre à votre projet Workspace, en affichant le nombre total de pages pour cette année.
+
+   Visualisation du tableau à structure libre de ![Workspace montrant le nombre total d’Allemands par rapport aux internationaux](assets/workspace-german-vs-international-totals.png)
+
+
+## Pourcentages
+
+1. Créez deux nouvelles mesures calculées qui calculent un pourcentage à partir des mesures calculées que vous avez créées précédemment.
+
+   Visualisation du tableau à structure libre de ![Workspace indiquant le pourcentage de personnes totales en Allemagne par rapport à l’international](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. Mettez à jour votre projet Workspace.
+
+   Visualisation du tableau à structure libre de ![Workspace montrant le nombre total d’Allemands par rapport aux internationaux](assets/workspace-german-vs-international-totals-percentage.png)
+

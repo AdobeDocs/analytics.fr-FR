@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '860'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Grâce aux [!UICONTROL paramètres des colonnes], vous pouvez configurer la mise
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres des lignes et des colonnes dans un tableau à structure libre](https://video.tv.adobe.com/v/328500/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres des lignes et des colonnes dans un tableau à structure libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -108,10 +108,20 @@ Pour utiliser un modèle d’attribution autre que celui par défaut pour une me
 
 {{attribution-models-details}}
 
+
+### Conteneur
+
+{{attribution-container}}
+
+
 ### Intervalle de recherche en amont
 
 {{attribution-lookback-window}}
 
+
+### Exemple
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >
@@ -120,7 +130,7 @@ Pour utiliser un modèle d’attribution autre que celui par défaut pour une me
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/39117?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

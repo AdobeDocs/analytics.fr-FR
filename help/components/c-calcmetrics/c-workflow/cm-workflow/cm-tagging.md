@@ -3,53 +3,77 @@ description: Dans le Gestionnaire de mesures calculées, le balisage des segment
 title: Balisage des mesures calculées
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: b61de8f7a6f1d2d875fa6268c53a3ad1b61f25dd
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '171'
 ht-degree: 12%
 
 ---
 
 # Balisage des mesures calculées
 
-Dans le Gestionnaire de mesures calculées, vous pouvez organiser les segments en les balisant.
 
-Tous les utilisateurs peuvent créer des balises pour les mesures calculées et en appliquer une ou plusieurs à une mesure. Cependant, vous ne pouvez afficher les balises que pour les mesures calculées que vous possédez ou qui ont été partagées avec vous.
+Dans le [gestionnaire de mesures calculées](cm-manager.md), vous pouvez utiliser des balises pour organiser les mesures calculées. Les administrateurs peuvent baliser toutes les mesures calculées. Les personnes qui ne sont pas administratrices peuvent uniquement baliser les mesures calculées qu’elles créent ou qui ont été partagées avec elles.
+
+Pour baliser une ou plusieurs mesures calculées :
+
+1. Dans le [Gestionnaire de mesures calculées](cm-manager.md), sélectionnez une ou plusieurs des mesures calculées que vous souhaitez baliser.
+1. Dans la barre d’actions, sélectionnez ![Libellés](/help/assets/icons/Labels.svg) **[!UICONTROL Balise]**.
+1. Dans la boîte de dialogue **[!UICONTROL Baliser les mesures calculées]**
+
+   ![Boîte de dialogue Baliser la mesure calculée](assets/tag-calculated-metric-dialog.png)
+
+   1. (Facultatif) utilisez ![Rechercher](/help/assets/icons/Search.svg) pour rechercher et limiter la liste des balises.
+
+   2. En fonction de la liste des balises :
+
+      * sélectionner une ou plusieurs balises existantes dans la liste, ou
+      * saisissez une nouvelle balise et appuyez sur **[!UICONTROL ENTRÉE]**. Répétez l’opération pour ajouter plusieurs nouvelles balises.
+
+1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les balises des mesures calculées. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
+
+Une fois enregistrées, les balises sont répertoriées dans le champ [!UICONTROL Balise] de la mesure calculée sélectionnée dans le [Créateur de mesures calculées](cm-tagging.md).
+
+<!--
+In the Calculated metric manager, you can organize segments by tagging them.
+
+All users can create tags for calculated metrics and apply one or more tags to a metric. However, you can see tags only for those calculated metrics that you own or that have been shared with you. 
 
 >[!TIP]
 >
->Les types de balises les plus utiles sont généralement les balises basées sur les critères suivants :
+>The most useful types of tags are usually tags that are based on the following criteria:
 >
->* **Noms d’équipes**, tels que Social Marketing ou Mobile Marketing.
->* **Projets** (balises d’analyse), comme l’analyse de page d’accès.
->* **Catégories**, telles que Femmes ou Géographie.
->* **Workflows**, tels que A approuver ou Traités pour (une unité opérationnelle spécifique)
+>* **Team names**, such as Social Marketing or Mobile Marketing.
+>* **Projects** (analysis tags), such as Entry-page analysis.
+>* **Categories**, such as Women's or Geography.
+>* **Workflows**, such as To be approved or Curated for (a specific business unit)
 
-## Application de balises à une mesure calculée
+## Apply tags to a calculated metric
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**].
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**].
 
-1. Dans le gestionnaire des mesures calculées, cochez la case en regard des mesures que vous souhaitez baliser.
+1. In the Calculated metrics manager, select the checkbox next to any metrics that you want to tag. 
 
    ![](assets/cm_add_tags.png)
+   
+1. In the **[!UICONTROL Tag Calculated metric]** dialog box:
 
-1. Dans la boîte de dialogue **[!UICONTROL Baliser la mesure calculée]** :
+    * Add a new tag. Type the name in the [!UICONTROL **Add tags**] field, then press Enter.
+    * Select one or more existing tags to apply to the selected metrics. 
 
-   * Ajoutez une nouvelle balise. Saisissez le nom dans le champ [!UICONTROL **Ajouter des balises**] , puis appuyez sur Entrée.
-   * Sélectionnez une ou plusieurs balises existantes à appliquer aux mesures sélectionnées.
+1. Select [!UICONTROL **Save**] to apply the tags.
 
-1. Sélectionnez [!UICONTROL **Enregistrer**] pour appliquer les balises.
+## View applied tags
 
-## Affichage des balises appliquées
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire de mesures calculées.
+1. In the Calculated metrics manager, tags appear in the [!UICONTROL **Tags**] column. (Click the gear icon on the top-right to manage your columns.)
 
-1. Dans le gestionnaire des mesures calculées, les balises apparaissent dans la colonne [!UICONTROL **Balises**] . (Cliquez sur l’icône d’engrenage en haut à droite pour gérer vos colonnes.)
+## Filter metrics by tags
 
-## Filtrage des mesures par balises
+1. In Adobe Analytics, select [!UICONTROL **Components**] > [!UICONTROL **Calculated metrics**] to go to the Calculated metrics manager.
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Mesures calculées**] pour accéder au gestionnaire de mesures calculées.
+1. In the Calculated metrics manager, select the **Filter** icon, then select the tags that you want to filter by. 
 
-1. Dans le gestionnaire des mesures calculées, sélectionnez l’icône **Filtre**, puis sélectionnez les balises par lesquelles vous souhaitez filtrer.
-
-   Seules les mesures qui comportent le filtre sélectionné s’affichent.
+   Only metrics that have the filter you select are shown.
+-->

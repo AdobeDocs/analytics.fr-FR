@@ -3,10 +3,10 @@ description: Les segments vous permettent d’identifier des sous-ensembles de v
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 99%
 
 ---
 
@@ -242,7 +242,7 @@ Cette vidéo montre brièvement ce que sont les conteneurs de segments et commen
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/3429099?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -281,7 +281,7 @@ Accédez au Gestionnaire de segments en procédant comme suit :
 
 Par défaut, tous les utilisateurs sont autorisés à créer et à modifier des segments personnels. Toutefois, les administrateurs peuvent distribuer des [autorisations de créer des segments](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=fr) aux utilisateurs et en affecter à des groupes spécifiques. Ces segments peuvent être partagés directement avec tout autre utilisateur d’Analytics.
 
-Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Plus...](/help/components/segmentation/seg-reference/seg-rights.md)
+Les administrateurs peuvent modifier n’importe quel segment et partager les segments avec des groupes et toute personne de l’entreprise. [Droits des segments par rôle](/help/components/segmentation/seg-reference/seg-rights.md)
 
 +++
 

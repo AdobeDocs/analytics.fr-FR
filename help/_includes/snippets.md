@@ -1,8 +1,8 @@
 ---
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '2353'
-ht-degree: 36%
+source-wordcount: '2910'
+ht-degree: 39%
 
 ---
 # Extraits
@@ -12,9 +12,9 @@ ht-degree: 36%
 >[!IMPORTANT]
 >
 >Un nouveau [Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/rb-overview) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/convert-workbooks) dans le nouveau Report Builder.
+>>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -83,6 +83,13 @@ Un modèle d’attribution détermine les éléments de dimension qui reçoivent
 
 {style="table-layout:auto"}
 
+## Conteneur d’attribution {#attribution-container}
+
+Un conteneur d’attribution définit la portée souhaitée pour l’attribution. Les options possibles sont les suivantes :
+
+* **Visite** : examine les conversions à partir de la portée du conteneur de visites.
+* **Visiteur** : examine les conversions à partir de la portée du conteneur de visiteurs.
+
 ## Intervalle de recherche en amont d’attribution {#attribution-lookback-window}
 
 Un intervalle de recherche en amont est la durée pendant laquelle une conversion doit faire une recherche en amont pour inclure des points de contact. Si un élément de dimension est défini en dehors de l’intervalle de recherche en amont, la valeur n’est incluse dans aucun calcul d’attribution.
@@ -91,47 +98,28 @@ Un intervalle de recherche en amont est la durée pendant laquelle une conversio
 * **30 jours** : vérifie les 30 jours précédents à partir du moment où la conversion a eu lieu.
 * **60 jours** : vérifie les 60 jours précédents à partir du moment où la conversion a eu lieu.
 * **90 jours** : vérifie les 90 jours précédant la date de la conversion.
-* **Visite** : remonte au début de la visite où une conversion s’est produite.
-* **Visiteur (intervalle du compte rendu des performances)** : examine toutes les visites jusqu’au premier du mois de la période actuelle. Par exemple, si la période du rapport s’étend du 15 au 30 septembre, la période de recherche en amont des visiteurs comprend le 1er au 30 septembre. Si vous utilisez cet intervalle de recherche en amont, vous pouvez parfois voir que les éléments de dimension sont attribués à des dates en dehors de votre intervalle de compte rendu des performances.
 * **Heure personnalisée :** vous permet de définir un intervalle de recherche en amont personnalisé à partir du moment où une conversion s’est produite. Vous pouvez spécifier le nombre de minutes, heures, jours, semaines, mois ou trimestres. Par exemple, si une conversion a eu lieu le 20 février, un intervalle de recherche en amont de cinq jours évalue tous les points de contact de dimension entre le 15 et le 20 février dans le modèle d’attribution.
 
 ## Exemple d’attribution {#attribution-example}
 
 Examinez l’exemple suivant :
 
-1. Le 15 septembre, une personne arrive sur votre site par le biais d’une publicité de référencement payant, puis quitte.
-1. Le 18 septembre, la personne revient sur votre site via un lien de réseau social qu’elle a reçu d’un ami. Ils ajoutent plusieurs articles à leur panier, mais n’achètent rien.
+1. Le 15 septembre, un visiteur arrive sur votre site par le biais d’une annonce de référencement payant, puis le quitte.
+1. Le 18 septembre, le visiteur arrive de nouveau sur votre site par le biais d’un lien sur les médias sociaux qu’un ami lui a envoyé. Ils ajoutent plusieurs articles à leur panier, mais n’achètent rien.
 1. Le 24 septembre, votre équipe marketing leur envoie un courrier électronique contenant un bon pour certains articles de leur panier. Ils appliquent le bon, mais se rendent sur plusieurs autres sites pour voir s’il existe d’autres bons. Ils en trouvent un autre par le biais d’une annonce d’affichage, puis effectuent un achat de 50 $.
 
-Selon votre intervalle de recherche en amont et votre modèle d’attribution, les canaux reçoivent un crédit différent. Voici quelques exemples :
+Selon votre modèle d’attribution, le conteneur et les canaux reçoivent un crédit différent. Consultez le tableau ci-dessous pour obtenir des exemples :
 
-* En utilisant **première touche** et un **intervalle de recherche en amont de session**, l’attribution ne s’intéresse qu’à la troisième visite. Entre le courrier électronique et l’affichage, le courrier électronique était le premier. Dès lors, il reçoit 100 % du crédit pour l’achat de 50 $.
+| Modèle | Conteneur | Intervalle de recherche en amont | Explication |
+|---|---|---|---|
+| Première touche | Visite | 30 jours | L’attribution ne s’intéresse qu’à la troisième visite. Entre l’e-mail et l’affichage, l’e-mail était le premier. Dès lors, il reçoit 100 % du crédit pour l’achat de 50 $. |
+| Première touche | Visiteur | 30 jours | Attribution examine les trois visites. Le référencement payant a été le premier. Il obtient donc un crédit de 100 % pour l’achat de 50 $. |
+| Linéaire | Visite | 30 jours | Le crédit est divisé entre l’e-mail et l’affichage. Ces deux canaux reçoivent chacun un crédit de 25 $. |
+| Linéaire | Visiteur | 30 jours | Le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage. Chaque canal reçoit un crédit pour 12,50 $ pour cet achat. |
+| en forme de J | Visiteur | 30 jours | Le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage.<ul><li>Un crédit de 60 % est accordé à l’affichage, pour un montant de 30 $.</li><li>Un crédit de 20 % est accordé au référencement payant, pour un montant de 10 $.</li><li>Les 20 % restants sont répartis entre les réseaux sociaux et le courrier électronique, soit 5 $ à chacun.</li></ul> |
+| Décroissance temporelle | Visiteur | 30 jours | <ul><li>Intervalle de zéro jour entre le point de contact de l’affichage et la conversion. `2^(-0/7) = 1`</li><li>Intervalle de zéro jour entre le point de contact de l’e-mail et la conversion. `2^(-0/7) = 1`</li><li>Intervalle de six jours entre le point de contact de réseaux sociaux et la conversion. `2^(-6/7) = 0.552`</li><li>Intervalle de neuf jours entre le point de contact du référencement payant et la conversion. `2^(-9/7) = 0.41`</li>La normalisation de ces valeurs entraîne les résultats suivants :<ul><li>Affichage : 33,8 %, gain de 16,88 $</li><li>Courrier électronique : 33,8 %, gain de 16,88 $</li><li>Réseaux sociaux : 18,6 %, gain de 9,32 $</li><li>Référencement payant : 13,8 %, gain de 6,92 $</li></ul></li></ul> |
 
-* À l’aide de **première touche** et d’un **intervalle de recherche en amont personne**, l’attribution examine les trois visites. Le référencement payant a été le premier. Il obtient donc un crédit de 100 % pour l’achat de 50 $.
-
-* En utilisant **linéaire** et un **intervalle de recherche en amont de session**, le crédit est divisé entre l’e-mail et l’affichage. Ces deux chaînes ont chacune un crédit de 25 $.
-En utilisant **linéaire** et un **intervalle de recherche en amont personne**, le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage. Chaque canal reçoit un crédit de 12,50 $ pour cet achat.
-
-* En utilisant la **en forme de J** et un **intervalle de recherche en amont personne**, le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage.
-
-   * Un crédit de 60 % est accordé à l’affichage, pour un montant de 30 $.
-   * Un crédit de 20 % est accordé au référencement payant, pour un montant de 10 $.
-   * Les 20 % restants sont répartis entre les réseaux sociaux et le courrier électronique, soit 5 $ à chacun.
-
-* À l’aide de **Dégradation dans le temps** et d’un **intervalle de recherche en amont**, le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage. Utilisation de la demi-vie de sept jours par défaut :
-
-   * Intervalle de zéro jour entre le point de contact de l’affichage et la conversion. `2^(-0/7) = 1`
-   * Intervalle de zéro jour entre le point de contact de l’e-mail et la conversion. `2^(-0/7) = 1`
-   * Intervalle de six jours entre le point de contact social et la conversion. `2^(-6/7) = 0.552`
-   * Intervalle de neuf jours entre le point de contact de référencement payant et la conversion. `2^(-9/7) = 0.41`
-   * La normalisation de ces valeurs entraîne les résultats suivants :
-
-      * Affichage : 33,8 %, gain de 16,88 $
-      * Courrier électronique : 33,8 %, gain de 16,88 $
-      * Réseaux sociaux : 18,6 %, gain de 9,32 $
-      * Référencement payant : 13,8 %, gain de 6,92 $
-
-Les événements de conversion qui comportent généralement des nombres entiers sont divisés si le crédit appartient à plusieurs canaux. Par exemple, si deux canaux contribuent à un ordre à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de cet ordre. Ces mesures partielles sont additionnées pour toutes les personnes, puis arrondies à l’entier le plus proche pour la création de rapports.
+Les événements de conversion qui comportent généralement des nombres entiers sont divisés si le crédit revient à plusieurs canaux. Par exemple, si deux canaux contribuent à un événement personnalisé à l’aide d’un modèle d’attribution linéaire, les deux canaux obtiennent 0,5 de cette commande. Ces mesures partielles sont additionnées pour toutes les personnes, puis arrondies à l’entier le plus proche à des fins de création de rapports.
 
 ## Comparaisons des visualisations de parcours {#journey-visualization-comparisons}
 
@@ -139,7 +127,7 @@ Diverses visualisations dans l’analyse des Parcours client sont conçues pour 
 
 Utilisez les informations suivantes pour choisir la visualisation qui répond le mieux à vos besoins.
 
-| Fonction | Zone de travail des parcours | Abandon | Flux |
+| Fonction | Zone de travail de parcours | Abandons | Flux |
 |---------|----------|---------|---------|
 | **Ordre prédéfini des pages** | Oui</br>Combine une analyse prédéfinie et exploratoire. Le chemin d’accès final est utilisé lors de l’utilisation de nœuds prédéfinis sur le chemin d’accès (les visiteurs sont comptabilisés tant qu’ils passent finalement d’un nœud prédéfini à l’autre). Les nœuds immédiats (et non éventuels) suivants peuvent également être affichés. | Oui</br>le chemin peut être un chemin éventuel ou peut être limité au point de contact suivant | Non |
 | **Séquence exploratoire des pages (analyse ad hoc)** | Oui</br>Combine une analyse prédéfinie et exploratoire. Le chemin d’accès final est utilisé lors de l’utilisation de nœuds prédéfinis sur le chemin d’accès (les visiteurs sont comptabilisés tant qu’ils passent finalement d’un nœud prédéfini à l’autre). Les nœuds immédiats (et non éventuels) suivants peuvent également être affichés. | Limité</br>Permet d’effectuer un clic droit et d’afficher les abandons immédiats dans un tableau à structure libre. | Oui</br>Analyse exploratoire uniquement. Toujours au sein d’une instance de dimension entre les nœuds. Cela signifie que chaque nœud affiche le point de contact suivant immédiat (et non éventuel) le long du chemin. |
@@ -154,3 +142,48 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 | **parcours Adobe Journey Optimizer** | Oui</br>Ouvrir les parcours de Journey Optimizer pour une analyse et une personnalisation plus approfondies | Non | Non |
 
 {style="table-layout:auto"}
+
+
+
+## Section de filtre de balise {#tagfiltersection}
+
+| Balises | Description |
+|---|---|
+| ![Étiquettes](/help/assets/filter-tag.png){width="300"} | La section **[!UICONTROL Balises]** permet de filtrer par balise. <ul><li>Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour rechercher des balises que vous pouvez utiliser pour filtrer.</li><li>Vous pouvez sélectionnez plusieurs balises. Les balises disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de balises sélectionnées (si une ou plusieurs balises sont sélectionnées).</li><li>**2︎⃣** : nombre de balises disponibles pour les éléments résultant du filtre actuel.</li><li>7︎⃣ : nombre d’éléments associés à la balise spécifique.</li></ul></li></ul> |
+
+
+## Section Filtre de suite de rapports {#reportsuitefiltersection}
+
+| Suite de rapports | Description |
+|---|---|
+| ![Suite de publications](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** vous permet de filtrer les suites de rapports. <ul><li>Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des suites de rapports* pour rechercher des suites de rapports que vous pouvez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau de filtrage.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de suites de rapports sélectionnées (si une ou plusieurs suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre de suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : nombre d’éléments associés à la suite de rapports spécifique.</li></ul></li></ul> |
+
+## Section Filtre de statut activé {#enabledstatusfiltersection}
+
+| Statut Activé | Description |
+|---|---|
+| ![Statut activé](/help/assets/filter-enabledstatus.png){width="300"} | La section **[!UICONTROL Statut activé]** vous permet de filtrer par statut activé. <ul><li>Vous pouvez sélectionner plusieurs statuts.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de statuts sélectionnés (si un ou plusieurs statuts sont sélectionnés).</li><li>**2︎⃣** : nombre de statuts disponibles pour les éléments résultant du filtre actuel.</li><li>1︎⃣ : nombre d’éléments associés au statut spécifique.</li></ul></li></ul> |
+
+## Section de filtre de type {#typefiltersection}
+
+| Type | Description |
+|---|---|
+| ![Type](/help/assets/filter-type.png){width="300"} | La section **[!UICONTROL Type]** permet de filtrer par type. <ul><li>Vous pouvez sélectionner plusieurs types.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de types sélectionnés (si un ou plusieurs types sont sélectionnés).</li><li>**1︎⃣** : nombre de types disponibles pour les éléments issus du filtre actuel.</li><li>3︎⃣ : nombre d’éléments associés au type spécifique.</li></ul></li></ul> |
+
+## Section de filtre du propriétaire {#ownerfiltersection}
+
+| Propriétaire | Description |
+|---|---|
+| ![Propriétaires](/help/assets/filter-owners.png){width="300"} | La section **[!UICONTROL Propriétaire]** vous permet de filtrer les propriétaires. <ul><li>Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des propriétaires* pour rechercher des propriétaires que vous pouvez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs propriétaires. Les propriétaires disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de propriétaires sélectionnés (si un ou plusieurs propriétaires sont sélectionnés).</li><li>**3︎⃣** : nombre de propriétaires disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : nombre d’éléments associés au propriétaire spécifique.</li></ul></li></ul> |
+
+## Section d’autres filtres {#otherfiltersfiltersection}
+
+| Autres filtres | Description |
+|---|---|
+| ![Autres filtres](/help/assets/filter-other.png){width="300"} | La section **[!UICONTROL Autres filtres]** vous permet de filtrer selon un autre filtre prédéfini.<ul><li>Vous pouvez sélectionner l’une ou plusieurs des options suivantes :<ul><li> **[!UICONTROL Tout afficher]**</li><li>**[!UICONTROL Partagé avec moi]**</li><li>**[!UICONTROL À moi]**</li><li>**[!UICONTROL Approuvés]**</li><li>**[!UICONTROL Favoris]**</li></ul> Ce que vous pouvez sélectionner dépend de votre rôle et de vos autorisations.</li><li>Vous pouvez sélectionner plusieurs filtres. Les autres filtres disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre d&#39;autres filtres sélectionnés (si un ou plusieurs autres filtres sont sélectionnés).</li><li>**5︎⃣** : nombre d’autres filtres disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : nombre d’éléments associés à l’autre filtre spécifique.</li></ul></li></ul> |
+
+## Section de filtrage des périodes  {#daterangefiltersection}
+
+| Période appliquée | Description |
+|---|---|
+| ![Période](/help/assets/filter-daterange.png){width="300"} | La section Période appliquée vous permet de filtrer par période applicable aux éléments.<ol><li>Sélectionnez une période.</li><li>Dans la fenêtre contextuelle du calendrier, définissez une période ou sélectionnez l’un des paramètres prédéfinis disponibles.<br>Vous pouvez également spécifier une période directement dans la section Période du panneau Filtre.</li></ol><ul><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de périodes modifiées à partir des paramètres prédéfinis par défaut.</li><li>**5︎⃣** : nombre de périodes disponibles pour les éléments résultant du filtre actuel.</li></ul> |

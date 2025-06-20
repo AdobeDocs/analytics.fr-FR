@@ -3,24 +3,41 @@ description: Découvrez les étapes à suivre pour créer des mesures calculées
 title: Workflow des mesures calculées
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 88%
+source-wordcount: '370'
+ht-degree: 31%
 
 ---
 
-# Workflow des mesures calculées
+# Création de mesures calculées
 
-Découvrez les étapes à suivre pour créer des mesures calculées.
+Par défaut, seuls les administrateurs peuvent créer des mesures calculées. Les utilisateurs et utilisatrices disposent de droits pour afficher les mesures calculées, de la même manière que les utilisateurs et utilisatrices affichent d’autres composants (tels que les segments, les annotations, etc.).
+
+Vous pouvez créer une mesure calculée des manières suivantes :
+
+![Comment créer une mesure ](assets/create-metric.png)
+
+* **A**. Dans l’interface principale, sélectionnez **[!UICONTROL Composants]** puis **[!UICONTROL Mesures calculées]**. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] dans le gestionnaire [[!UICONTROL Mesures calculées]](cm-manager.md).
+* **B**. Dans un projet Workspace, dans le panneau de gauche Composants , sélectionnez ![Ajouter](/help/assets/icons/Add.svg) à ![Événement](/help/assets/icons/Event.svg) **Mesures**.
+* **C**. Dans un projet Workspace, dans le menu contextuel de l’en-tête de colonne des mesures, sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**. Dans le sous-menu, vous pouvez sélectionner une fonction ou sélectionner **[!UICONTROL Ouvrir dans le créateur de mesures calculées]**. <br/>Si vous sélectionnez une fonction, la mesure calculée est définie comme mesure de projet uniquement. Lorsque vous modifiez cette mesure par la suite, dans la fenêtre contextuelle [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md), une notification s’affiche dans le [Créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
+* **D**. Dans un projet Workspace, sélectionnez **[!UICONTROL Composants]** dans le menu, puis sélectionnez **[!UICONTROL Créer une mesure]**.
+* ****. Dans un projet Workspace, utilisez le raccourci **[!UICONTROL maj+cmd+c]** (macOS) ou **[!UICONTROL maj+ctrl+c]** (Windows).
+
+Pour définir la nouvelle mesure calculée, utilisez le [créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
+
+
+## Processus
+
+Avant de créer des mesures calculées, prenez soigneusement en compte le workflow suivant :
 
 | Tâche du processus | Description |
 | --- | --- |
-| Planification des mesures calculées | Notamment pour les mesures qui vont être officiellement « approuvées », il est logique de souligner les mesures calculées qui seront beaucoup utilisées ainsi que leur mode de définition. |
-| Mesures calculées [Build](c-build-metrics/cm-build-metrics.md) | Créez et modifiez des mesures calculées et des mesures calculées avancées en vue de les utiliser dans les composants d’[!DNL Analytics].  Consultez les [exemples](c-build-metrics/cm-build-metrics.md) de création de mesures calculées. |
-| [Baliser](cm-tagging.md) mesures calculées | Balisez les mesures calculées pour faciliter l’organisation et le partage. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise. |
-| [Approuver](cm-approving.md) mesures calculées | Approuvez des mesures calculées pour les rendre canoniques. |
-| Application de mesures calculées | Vous pouvez appliquer les mesures directement depuis un rapport (pour y accéder, cliquez sur Afficher les mesures). |
-| [Partager](cm-sharing.md) calculé ,metrics | Partagez vos mesures avec l’audience prévue dans d’autres outils d’[!DNL Analytics] et avec Adobe Target et Adobe Experience Cloud. |
-| Filtrer des mesures calculées | Dans le sélecteur de mesure, cliquez sur Sélection avancée et filtrez par balises, propriétaires et autres (Tout afficher, À moi, Partagés avec moi, Favoris et Approuvés). |
-| Marquer les mesures calculées comme [Favoris](cm-finding.md) | Le marquage des mesures en tant que favoris est une autre manière de les organiser pour en faciliter l’utilisation. |
+| Planifier les mesures calculées | Notamment pour les mesures qui vont être officiellement « approuvées », il est logique de souligner les mesures calculées qui seront beaucoup utilisées ainsi que leur mode de définition. |
+| [Créer](c-build-metrics/cm-build-metrics.md) mesures calculées | Créez et modifiez des mesures calculées et des mesures calculées avancées en vue de les utiliser dans les composants d’[!DNL Analytics].  Consultez les [exemples](c-build-metrics/cm-build-metrics.md) de création de mesures calculées. |
+| [Balise](cm-tagging.md) mesures calculées | Balisez les mesures calculées pour faciliter l’organisation et le partage. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise. |
+| [Approuver](cm-approving.md) les mesures calculées | Approuvez des mesures calculées pour les rendre canoniques. |
+| Utilisation des mesures calculées | Utilisez les mesures calculées dans vos projets. |
+| [Partage](cm-sharing.md) mesures calculées | Partagez vos mesures calculées avec d’autres personnes, groupes ou organisations. |
+| [Filtrer](cm-filter.md) mesures calculées | Filtrez les mesures calculées par balises, propriétaires et autres filtres (Afficher tout, À moi, Partagé avec moi, Favoris et Approuvé). |
+| Marquer les mesures calculées comme [favoris](cm-finding.md) | Le marquage des mesures en tant que favoris est une autre manière de les organiser pour en faciliter l’utilisation. |

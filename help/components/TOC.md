@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Guide des composants d’Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Dimensions {#dimensions}
-   + [Présentation des dimensions](dimensions/overview.md)
+   + [Vue d’ensemble des dimensions](dimensions/overview.md)
    + [Compatibilité des dimensions](dimensions/compatibility.md)
    + [Lien d’Activity Map](dimensions/activity-map-link.md)
    + [Lien d’Activity Map par région](dimensions/activity-map-link-by-region.md)
@@ -180,23 +180,25 @@ ht-degree: 100%
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Workflow de segmentation {#segmentation-workflow}
-      + [Workflow de segmentation - Aperçu](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planification des segments](segmentation/segmentation-workflow/seg-plan.md)
+      + [Créer des segments](segmentation/segmentation-workflow/seg-create.md)
       + [Création de segments](segmentation/segmentation-workflow/seg-build.md)
-      + [Création des segments séquentiels](segmentation/segmentation-workflow/seg-sequential-build.md)
-      + [Balisage des segments](segmentation/segmentation-workflow/seg-tag.md)
-      + [Approbation des segments](segmentation/segmentation-workflow/seg-approve.md)
+      + [Segments rapides](segmentation/segmentation-workflow/seg-quick.md)
+      + [Segments séquentiels](segmentation/segmentation-workflow/seg-sequential-build.md)
       + [Partage des segments](segmentation/segmentation-workflow/t-seg-share.md)
-      + [Publication de segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [Sélection et application des segments](segmentation/segmentation-workflow/t-seg-apply.md)
-      + [Filtrer des segments](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Balisage des segments](segmentation/segmentation-workflow/seg-tag.md)
+      + [Filtrer la liste des segments](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marquage des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Approbation des segments](segmentation/segmentation-workflow/seg-approve.md)
       + [Suppression des segments](segmentation/segmentation-workflow/seg-delete.md)
       + [Copier des segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gestion des segments](segmentation/segmentation-workflow/seg-manage.md)
+      + [Publication de segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Sélection et application des segments](segmentation/segmentation-workflow/t-seg-apply.md)
    + Référence de segment {#segment-reference}
-      + [Opérateurs de comparaison pour les segments](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilité des segments avec Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Opérateurs](segmentation/seg-reference/seg-operators.md)
+      + [Compatibilité des segments Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
    + [Questions fréquentes sur la gestion des segments hérités](segmentation/seg-transition.md)
@@ -208,9 +210,9 @@ ht-degree: 100%
       + [Workflow des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Création de mesures](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Créer une mesure « Pages vues par visite »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Créer une mesure « Aide à la commande »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Créer une mesure « Participation »](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Créer une mesure simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Créer une mesure plus complexe](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Créer une mesure de participation](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

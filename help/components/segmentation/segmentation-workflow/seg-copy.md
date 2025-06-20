@@ -1,25 +1,20 @@
 ---
-description: Décrit comment copier un segment dans le Gestionnaire de segments.
+description: Décrit comment copier un segment dans le Gestionnaire de segments
 title: Copier des segments
 feature: Segmentation
 exl-id: a7e8fd95-bb22-4961-8aac-a898faca50cd
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
 
 # Copier des segments
 
-Lors de la création d’un segment, il est parfois plus facile de copier un segment existant proche du segment que vous souhaitez créer, puis de modifier la version que vous avez copiée.
+Dans le [Gestionnaire de segments](seg-manage.md), vous pouvez copier des segments. La copie d’un segment est pratique lorsque vous souhaitez créer une version légèrement modifiée d’un segment existant ou redéfinir un segment que vous ne possédez pas et que vous ne pouvez pas modifier.
 
-Pour copier un segment dans le Gestionnaire de segments :
+1. Dans le [Gestionnaire de segments](seg-manage.md), sélectionnez un ou plusieurs segments à copier.
+1. Dans la barre d’actions, sélectionnez ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier]**.
 
-1. Dans Adobe Analytics, sélectionnez l’onglet **[!UICONTROL Composants]**, puis sélectionnez **[!UICONTROL Segments]**.
-
-1. Dans le Gestionnaire de segments, sélectionnez le segment à copier.
-
-   La barre d’outils de gestion des segments s’affiche.
-
-1. Sélectionnez **[!UICONTROL Copier]**.
+Les segments sont copiés et apparaissent dans la liste de segments avec le même nom que leur original, mais avec le bouton (Copier) ajouté.

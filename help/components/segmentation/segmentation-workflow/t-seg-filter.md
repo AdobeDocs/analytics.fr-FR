@@ -3,33 +3,52 @@ description: Filtrez par balises, propriétaires et autres filtres (Tout affiche
 title: Filtrer des segments
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 74%
+source-wordcount: '173'
+ht-degree: 36%
 
 ---
 
-# Filtrer des segments
+# Filtrer la liste des segments
 
-Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, Partagés avec moi, Favoris et Approuvés.)
+Vous pouvez filtrer la liste des segments. L’utilisation d’un filtre sur les segments facilite la recherche des segments disponibles et la gestion des segments à partir du [Gestionnaire de segments](seg-manage.md).
 
-Le filtrage facilite la recherche de segments dans le rail de segments.
+>[!NOTE]
+>
+>La liste des segments fait référence à la [liste de segments](seg-manage.md#filters-list) dans le cadre du [Gestionnaire de segments](seg-manage.md). Vous pouvez filtrer cette liste à l’aide du ![filtre](/help/assets/icons/Filter.svg) [panneau de filtrage](seg-manage.md#filter-panel), qui fait partie du même [gestionnaire de segments](seg-manage.md).
+>
 
-1. Dans le Gestionnaire de segments, cliquez sur l’icône **[!UICONTROL Filtres]** : ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
-   ![](assets/filtering.png)
+Pour filtrer la liste des segments :
 
-2. Les filtres suivants sont disponibles :
+1. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour ouvrir le panneau Filtres. Si vous avez besoin d’espace supplémentaire pour la liste des filtres, vous pouvez sélectionner à nouveau ![Filtrer](/help/assets/icons/Filter.svg) pour fermer le panneau.
+1. Sélectionnez des filtres parmi les [sections de filtres](#filter-sections) disponibles.
 
-   | Nom du filtre | Description |
-   |---|---|
-   | Balises | Permet de filtrer les segments avec des [balises](/help/components/segmentation/segmentation-workflow/seg-tag.md) spécifiques. La colonne Balises s’affiche par défaut. |
-   | Propriétaires | Permet de filtrer les segments par propriétaire. |
-   | Suite de rapports | Permet de filtrer par suite de rapports. |
-   | Autres filtres > Tout afficher | **(Administrateur uniquement)** Affiche tous les segments, leur propriétaire et la date la plus récente à laquelle ils ont été modifiés. |
-   | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
-   | Autres filtres > Partagés avec moi | Affiche tous les segments que les autres [ont partagés](/help/components/segmentation/segmentation-workflow/t-seg-share.md) avec vous. |
-   | Autres filtres > Favoris | Affiche tous les segments que vous avez marqués comme [Favoris](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
-   | Autres filtres > Approuvés | Affiche tous les segments [approuvés](/help/components/segmentation/segmentation-workflow/seg-approve.md) officiellement. |
-   | Rechercher des segments | Permet de rechercher des segments par nom. |
+   >[!INFO]
+   >
+   >*Éléments* faites référence aux éléments de filtre affichés dans la [Liste de filtres](seg-manage.md#segment-list).
+   > 
+
+## Sections de filtrage
+
+Les sections de filtre suivantes sont disponibles :
+
+### Balises
+
+{{tagfiltersection}}
+
+### Suite de rapports
+
+{{reportsuitefiltersection}}
+
+### Propriétaire
+
+{{ownerfiltersection}}
+
+### Autres filtres
+
+{{otherfiltersfiltersection}}
+
+
+La [liste de filtres](seg-manage.md#segment-list) est automatiquement mise à jour en fonction de votre configuration de filtre. Vous pouvez voir les filtres configurés dans la [Barre des filtres actifs](seg-manage.md#active-filter-bar).

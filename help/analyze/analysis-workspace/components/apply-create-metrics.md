@@ -4,10 +4,10 @@ title: Mesures dans Analysis Workspace
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 25%
 
 ---
 
@@ -21,15 +21,12 @@ Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
 * **Mesures standard** : la plupart des mesures que vous utilisez dans les projets sont des mesures standard. Exemples : [Pages vues](/help/components/metrics/page-views.md), [Revenu](/help/components/metrics/revenue.md)ou [Événements personnalisés](/help/components/metrics/custom-events.md). Pour plus d’informations, consultez la section [Vue d’ensemble des mesures](/help/components/metrics/overview.md) du guide d’utilisation des composants.
 
-  ![Mesure standard](assets/standard-metric.png)
+* **Mesures calculées** ![Calculateur](/help/assets/icons/Calculator.svg) : mesures définies par l’utilisateur ou l’utilisatrice et basées sur des mesures standard, des nombres statiques ou des fonctions algorithmiques. Les mesures calculées définies par l’utilisateur ou l’utilisatrice affichent une icône de calculateur dans la liste des composants disponibles. Pour plus d’informations, consultez la section [Vue d’ensemble des mesures calculées](/help/components/c-calcmetrics/cm-overview.md) du guide d’utilisation des composants.
 
-* **Mesures calculées** : mesures définies par l’utilisateur ou l’utilisatrice et basées sur des mesures standard, des nombres statiques ou des fonctions algorithmiques. Les mesures calculées définies par l’utilisateur ou l’utilisatrice affichent une icône de calculateur dans la liste des composants disponibles. Pour plus d’informations, consultez la section [Vue d’ensemble des mesures calculées](/help/components/c-calcmetrics/cm-overview.md) du guide d’utilisation des composants.
+* **Modèles de mesures calculées** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : mesures définies par Adobe qui se comportent de la même manière que les mesures calculées. Vous pouvez les utiliser tels quels dans les projets Workspace ou enregistrer une copie pour personnaliser sa logique. Les modèles de mesures calculées affichent une icône Adobe dans la liste des composants disponibles.
 
-  ![Mesure calculée](assets/calculated-metric.png)
+Vous pouvez voir si une mesure est approuvée ![icône Approuvée](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg) ou non. Si vous souhaitez plus de détails sur une mesure, pointez sur la mesure, puis sélectionnez ![Icône Infos](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg). Voir [Informations sur les composants](use-components-in-workspace.md#component-info) pour plus d’informations.
 
-* **Modèles de mesures calculées** : mesures définies par Adobe qui se comportent de la même manière que les mesures calculées. Vous pouvez les utiliser tels quels dans les projets Workspace ou enregistrer une copie pour personnaliser sa logique. Les modèles de mesures calculées affichent une icône Adobe dans la liste des composants disponibles.
-
-  ![Modèle de mesure calculée](assets/calculated-metric-template.png)
 
 ## Utilisation des mesures de dans Analysis Workspace
 
@@ -38,7 +35,7 @@ Les mesures peuvent être utilisées de différentes manières dans Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328563?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +43,13 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](ht
 
 Les mesures calculées vous permettent de voir facilement comment les mesures sont liées les unes aux autres, à l’aide d’opérateurs simples ou de fonctions statistiques.
 
+
 Il existe plusieurs façons de créer des mesures calculées. La méthode que vous choisissez détermine si la mesure calculée est disponible dans la liste des composants de tous les projets ou uniquement dans le projet dans lequel elle a été créée.
 
 ### Création de mesures calculées pour tous les projets
 
-Vous pouvez utiliser le créateur de mesures calculées pour créer des mesures calculées. Une fois créées de cette manière, les mesures calculées sont disponibles dans la liste des composants et peuvent ensuite être utilisées dans les projets de l’ensemble de votre organisation.
+Vous pouvez utiliser le [créateur de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour [créer des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Ainsi créées, les mesures calculées sont disponibles dans la liste des composants et peuvent être utilisées dans les projets de l’ensemble de votre organisation.
 
-Pour plus d’informations sur l’accès au créateur de mesures calculées, voir [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 ### Création de mesures calculées pour un seul projet
 
@@ -100,6 +97,7 @@ Pour créer une mesure calculée pour un seul projet :
 
 [Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr) (3:42)
 
+
 ## Comparaison de mesures avec différents modèles d’attribution
 
 Pour comparer rapidement un modèle d’attribution à un autre, cliquez avec le bouton droit sur une mesure et sélectionnez **[!UICONTROL Comparer les modèles d’attribution]** :
@@ -115,7 +113,7 @@ Regardez une vidéo sur ce sujet :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Moyenne cumulée](https://video.tv.adobe.com/v/35044?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Moyenne cumulée](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

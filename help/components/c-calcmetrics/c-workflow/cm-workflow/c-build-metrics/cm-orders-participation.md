@@ -3,35 +3,42 @@ description: Explique comment créer une mesure qui indique les canaux marketing
 title: Mesure Aide à la commande
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 59%
+source-wordcount: '244'
+ht-degree: 25%
 
 ---
 
-# Créer une mesure « Aide à la commande »
+# Créer une mesure calculée plus complexe
 
-Les informations suivantes expliquent comment créer une mesure qui indique les canaux marketing qui aident à piloter les commandes. Cette procédure peut être adaptée à toute dimension ou tout événement de succès.
+Cet article explique un exemple plus complexe de mesure calculée. Ces mesures calculées indiquent les canaux marketing qui aident à générer des commandes. Ce type de mesure calculée peut être adapté à n’importe quelle dimension ou événement de succès.
 
-1. Commencez à créer une mesure calculée, comme décrit dans [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. Commencez à créer une mesure calculée, comme décrit dans la section [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Dans le créateur de mesures calculées, nommez la mesure &quot;Commandes assistées&quot; ou quelque chose de similaire.
+1. Dans le créateur de Mesures calculées, nommez la mesure `Assisted Orders` ou une autre mesure similaire.
 
-1. Dans le canevas Définition, faites glisser une mesure Commandes. Ensuite, ajustez le modèle d’attribution par le biais de l’icône engrenage des paramètres en cochant la case **[!UICONTROL Utiliser des modèles d’attribution qui ne sont pas par défaut]**.
+1. Sélectionnez la mesure **[!UICONTROL Commandes en ligne]** parmi les composants **[!UICONTROL Mesures]** et faites-la glisser dans la zone **[!UICONTROL Définition]**.
 
-   ![](assets/attr-model.png)
+   1. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) pour la mesure.
+   1. Sélectionnez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**.
+   1. Ajustez le modèle d’attribution dans le **[!UICONTROL Modèle d’attribution de colonne]**.
+      1. Sélectionnez **[!UICONTROL Personnalisé]** pour **[!UICONTROL Modèle]**. Définissez **[!UICONTROL Starter]** sur `0`, **[!UICONTROL Player]** sur `100` et **[!UICONTROL Closer]** sur `0`.
+      1. Sélectionnez **[!UICONTROL Visiteur]** pour **[!UICONTROL Conteneur]**.
+      1. Sélectionnez **[!UICONTROL 30 jours]** pour **[!UICONTROL Intervalle de recherche en amont]**.
 
-1. Sélectionnez **[!UICONTROL Personnalisé]** en tant que modèle d’attribution. Changez les poids en 0 (démarrage), 100 (joueur) et 0 (le plus proche).
+      1. Sélectionnez **[!UICONTROL Appliquer]**.
 
-   ![](assets/custom-attr-model.png)
+      ![ Modèle d’attribution de colonne ](assets/complex-calculated-metric.png)
 
-1. Sélectionnez [!UICONTROL **Apply**] > [!UICONTROL **Save**].
+1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la mesure calculée.
 
-1. Dans Analysis Workspace, créez un tableau à structure libre avec la dimension Canal marketing, Commandes et la nouvelle mesure Commandes assistées .
+Pour utiliser la mesure calculée :
 
-   ![](assets/mktg-channel-assists.png)
+1. Dans Analysis Workspace, créez un tableau à structure libre avec la dimension **[!UICONTROL Canal marketing]**, **[!UICONTROL Commandes en ligne]** et votre nouvelle mesure **[!UICONTROL Commandes en ligne assistées]**.
 
-   C’est un moyen facile d’indiquer les canaux marketing qui ont aidé au pilotage des commandes. Vous pouvez également, dans un tableau à structure libre, cliquer avec le bouton droit sur une mesure et ajuster directement le modèle d’attribution depuis le tableau.
+   ![Commandes en ligne assistées par canal marketing](assets/marketing-channel-assists.png)
 
-1. (Facultatif) Partagez la mesure avec d’autres utilisateurs de votre entreprise, comme décrit dans la section [Partager les mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+1. (Facultatif) Partagez la mesure avec d’autres utilisateurs de votre organisation, comme décrit dans la section [Partage de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
+
+C’est un moyen facile d’indiquer les canaux marketing qui ont aidé au pilotage des commandes. Vous pouvez également, dans un tableau à structure libre, cliquer avec le bouton droit sur une mesure et ajuster directement le modèle d’attribution depuis le tableau.
