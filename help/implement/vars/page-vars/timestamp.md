@@ -21,7 +21,7 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 
 ## Horodatage à l’aide de Web SDK
 
-La date et l’heure sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) sous le `xdm.timestamp` de champ XDM. Ce champ prend uniquement en charge l’heure Unix.
+La date et l’heure sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=fr) sous le `xdm.timestamp` de champ XDM. Ce champ prend uniquement en charge l’heure Unix.
 
 ## Horodatage à l’aide de l’extension Adobe Analytics
 

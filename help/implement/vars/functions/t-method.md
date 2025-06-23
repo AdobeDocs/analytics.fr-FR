@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-Voir [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview) dans la documentation de Web SDK pour plus d’informations.
+Voir [`sendEvent`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendevent/overview) dans la documentation de Web SDK pour plus d’informations.
 
 ## Appel de suivi des pages vues à l’aide de l’extension Adobe Analytics
 

@@ -21,7 +21,7 @@ Lorsque l’option **[!UICONTROL Activer la collecte de données de clic]** est 
 
 ## Exclusions de liens dans la bibliothèque JavaScript de Web SDK
 
-Lorsque [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activé, utilisez le rappel `filterClickDetails` dans l’objet `clickCollection`. Dans ce rappel, vous pouvez vérifier la valeur de `linkName` et modifier la valeur ou abandonner la collecte de données de suivi des liens.
+Lorsque [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activé, utilisez le rappel `filterClickDetails` dans l’objet `clickCollection`. Dans ce rappel, vous pouvez vérifier la valeur de `linkName` et modifier la valeur ou abandonner la collecte de données de suivi des liens.
 
 ```js
 alloy("configure", {

@@ -37,7 +37,7 @@ Le SDK Web ne peut pas accrocher une fonction après la compilation des données
 
 ## Rappel de pré-suivi implémentant manuellement le SDK Web
 
-Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
+Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ```js
 // Set the trackingCode XDM field to "New value"
