@@ -28,7 +28,7 @@ Dans le calendrier, vous pouvez spécifier des dates et des périodes, ou sélec
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble du calendrier et des périodes](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble du calendrier et des périodes](https://video.tv.adobe.com/v/328075?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
