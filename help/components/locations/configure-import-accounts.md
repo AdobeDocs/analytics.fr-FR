@@ -83,7 +83,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -99,7 +99,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -113,7 +113,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++E-mail
 
@@ -129,7 +129,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **Types de compte hérités**
 
@@ -148,13 +148,13 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    La prise en charge SFTP des flux de données est disponible. Nécessite un hôte SFTP, un nom d’utilisateur et un site de destination contenant une clé publique RSA ou DSA. Vous pouvez télécharger la clé publique appropriée à la création du flux.
 
-+++
+   +++
 
    +++S3
 
@@ -189,7 +189,7 @@ Pour configurer un compte d’import ou d’export cloud :
    >
    >La région cn-north-1 n’est pas prise en charge.
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -199,7 +199,7 @@ Pour configurer un compte d’import ou d’export cloud :
    >
    >Vous devez mettre en œuvre votre propre processus pour gérer l’espace disque sur la destination d’entrepôt de données. Adobe ne supprime pas les données du serveur.
 
-+++
+   +++
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
