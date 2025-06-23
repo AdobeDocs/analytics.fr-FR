@@ -1,10 +1,10 @@
 ---
 title: linkTrackEvents
 description: Permet de déterminer les événements à inclure dans les demandes d’image de suivi de liens.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 68%
@@ -17,9 +17,9 @@ Certaines mises en œuvre ne souhaitent pas inclure toutes les variables dans to
 
 Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()`](../functions/t-method.md)).
 
-## Déterminer les événements Analytics à inclure dans un événement XDM à l’aide du SDK Web
+## Déterminer les événements Analytics à inclure dans un événement XDM à l’aide de Web SDK
 
-Le SDK Web n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant que les données ne soient envoyées à Adobe. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
+Le Web SDK n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant l’envoi des données à Adobe. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ## Événements dans les appels de suivi des liens à l’aide de l’extension Adobe Analytics
 
@@ -27,7 +27,7 @@ Adobe Experience Platform inclut automatiquement les événements définis dans 
 
 >[!IMPORTANT]
 >
->Si vous définissez des événements dans l’éditeur de code personnalisé de l’extension Analytics, vous devez également inclure l’événement dans `linkTrackEvents` à l’aide du code personnalisé.
+>Si vous définissez des événements dans l’éditeur de code personnalisé de l’extension Analytics, vous devez inclure l’événement dans `linkTrackEvents` à l’aide du code personnalisé également.
 
 ## s.linkTrackEvents dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

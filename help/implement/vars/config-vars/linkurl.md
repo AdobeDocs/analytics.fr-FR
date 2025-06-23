@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: Permet de remplacer l’URL de lien générée automatiquement utilisée par AppMeasurement dans les appels de suivi des liens.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -15,7 +15,7 @@ ht-degree: 65%
 
 Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, les serveurs de collecte de données détectent automatiquement l’URL. Utilisez la variable `linkURL` pour remplacer l’URL détectée.
 
-Aucune dimension dans Analysis Workspace ne tient compte de cette variable. Elle remplit la colonne `page_event_var1` dans les [flux de données](/help/export/analytics-data-feed/data-feed-overview.md).
+Aucune dimension dans Analysis Workspace ne génère de rapport sur cette variable. Elle renseigne la colonne `page_event_var1` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## URL du lien à l’aide du SDK Web
 
@@ -24,7 +24,7 @@ L’URL du lien est mappée aux variables suivantes :
 * [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `web.webInteraction.URL`
 * [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.linkURL` ou `data.__adobe.analytics.pev1`
 
-## URL du lien à l’aide de l’extension Adobe Analytics
+## URL du lien utilisant l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

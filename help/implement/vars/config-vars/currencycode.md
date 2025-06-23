@@ -1,10 +1,10 @@
 ---
 title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 98%

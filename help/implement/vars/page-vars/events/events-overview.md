@@ -1,10 +1,10 @@
 ---
 title: events
 description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Avant d’implémenter des événements, veillez à les créer et à les configu
 
 ## Événements utilisant le SDK Web
 
-Si vous utilisez l’ [objet XDM](/help/implement/aep-edge/xdm-var-mapping.md), les événements personnalisés utilisent les champs XDM suivants :
+Si vous utilisez l’objet [XDM](/help/implement/aep-edge/xdm-var-mapping.md), les événements personnalisés utilisent les champs XDM suivants :
 
 * Les événements personnalisés 1 à 100 sont mappés à `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`.
 * Les événements personnalisés 101 à 200 sont mappés à `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`.
@@ -38,7 +38,7 @@ Si vous utilisez l’ [objet XDM](/help/implement/aep-edge/xdm-var-mapping.md), 
 >
 >Si un événement est défini sous `productListItems` (par exemple, `productListItems._experience.analytics.event1.value`) et que cet événement ne figure pas encore dans ce champ, il est automatiquement ajouté à ce champ.
 
-Si vous utilisez l’ [**objet de données**](/help/implement/aep-edge/data-var-mapping.md), tous les événements utilisent `data.__adobe.analytics.events`, selon la syntaxe de chaîne d’AppMeasurement. Si vous définissez ce champ, tous les événements définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
+Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), tous les événements utilisent `data.__adobe.analytics.events`, en suivant la syntaxe de chaîne AppMeasurement. Si vous définissez ce champ, tous les événements définis dans l’objet XDM sont remplacés et ne sont pas envoyés à Adobe Analytics.
 
 ## Événements utilisant l’extension Adobe Analytics
 
@@ -48,21 +48,21 @@ Vous pouvez définir des événements lors de la configuration de l’extension 
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL Événements].
 
 Plusieurs fonctionnalités sont disponibles :
 
-* Liste déroulante qui vous permet de sélectionner l’événement à inclure.
+* Liste déroulante qui permet de sélectionner l’événement à inclure
 * Champ de texte facultatif pour la sérialisation. Voir [Sérialisation des événements](event-serialization.md) pour plus d’informations.
-* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, sélectionner `event1` dans la liste déroulante et inclure `10` dans ce champ incrémente `event1` de 10 dans les rapports.
+* Champ de texte facultatif pour une valeur d’événement. Vous pouvez inclure une devise pour les événements de devise ou un entier pour les événements non monétaires afin de les incrémenter plusieurs fois. Par exemple, la sélection de `event1` dans la liste déroulante et l’inclusion de `10` dans ce champ incrémente le `event1` de 10 dans les rapports.
 * Bouton permettant d’ajouter un autre événement. Vous pouvez ajouter autant d’événements que vous le souhaitez à une seule règle, dans la limite du raisonnable.
 
 ## s.events dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. La variable autorise jusqu’à 64 000 octets, ce qui permet d’autoriser autant d’événements qu’un accès le requiert. Les valeurs valides sont les suivantes :
+La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. La variable autorise jusqu’à 64 000 octets, ce qui permet d’autoriser autant d’événements que nécessaire pour un accès. Les valeurs valides sont les suivantes :
 
-* `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez votre équipe de compte d’Adobe si vous ne savez pas combien d’événements personnalisés vous sont disponibles.
+* `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez l’équipe chargée de votre compte Adobe si vous n’êtes pas sûr du nombre d’événements personnalisés disponibles.
 * `purchase` : incrémente la mesure [« Commandes »](/help/components/metrics/orders.md) de 1 et prend les valeurs définies dans la variable `products` pour calculer les [« Unités »](/help/components/metrics/units.md) et les [« Recettes »](/help/components/metrics/revenue.md). Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
 * `prodView` : incrémente la mesure [« Consultations de produit »](/help/components/metrics/product-views.md).
 * `scOpen` : incrémente la mesure [« Paniers »](/help/components/metrics/carts.md).

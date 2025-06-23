@@ -1,10 +1,10 @@
 ---
 title: useLinkTrackSessionStorage
 description: Stockez les données de suivi des liens dans l’enregistrement de session plutôt que dans un cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 86%
@@ -26,11 +26,11 @@ L’utilisation de l’enregistrement de session d’un navigateur pour le suivi
 
 AppMeasurement supprime les données de suivi des liens d’enregistrement de session après l’envoi d’un accès à Adobe. Il expire également automatiquement lorsque l’onglet du navigateur est fermé.
 
-## Utiliser le suivi des liens pour le stockage des sessions à l’aide du SDK Web
+## Utiliser le stockage de session de suivi des liens à l’aide de Web SDK
 
-Le SDK Web ne prend pas en charge cette fonctionnalité.
+Web SDK ne prend pas en charge cette fonctionnalité.
 
-## Utilisation de l’enregistrement de session de suivi de lien à l’aide de l’extension Adobe Analytics
+## Utiliser le stockage de session de suivi des liens à l’aide de l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

@@ -1,10 +1,10 @@
 ---
 title: hier
-description: (Retiré) Mettez en oeuvre des variables de hiérarchie dans Adobe Analytics.
-feature: Variables
+description: (Retiré) Implémentez des variables de hiérarchie dans Adobe Analytics.
+feature: Appmeasurement Implementation
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 93%
@@ -35,7 +35,7 @@ Vous pouvez définir les hiérarchies soit lors de la configuration de l’exten
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL Hiérarchie].
 
 Vous pouvez définir une valeur de hiérarchie sur une chaîne statique ou référencer un élément de données. Vous pouvez également définir le délimiteur souhaité. Assurez-vous que le délimiteur que vous définissez ici correspond au délimiteur défini dans les paramètres de la suite de rapports.

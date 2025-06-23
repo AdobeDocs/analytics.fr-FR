@@ -1,10 +1,10 @@
 ---
 title: Prévoir un pic de trafic
 description: Faites équipe avec Adobe pour vous assurer que les événements à trafic élevé ne subissent pas de latence.
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 97%
@@ -63,4 +63,4 @@ Adobe veut sʼassurer que votre expérience en matière de création de rapports
 
 * Planifiez le délai d’avance de tous les pics de trafic. **Il est particulièrement important que les pics de trafic prévus pour les mois de novembre et décembre soient signalés avant le 15 septembre**. Au-delà de cette date, prévoyez votre pic dès que possible. Un délai réduit est préférable à un délai nul, et Adobe travaille avec les ressources actuelles pour répondre au mieux à vos suites de rapports.
 * Si Adobe vous contacte au sujet d’un pic de trafic prévu, veillez à indiquer le type de création de rapports qui vous importe le plus : en temps réel ou à traitement complet. Certaines organisations comptent plus que dʼautres sur les rapports en temps réel. Adobe peut établir des priorités si vous lui indiquez le type de création de rapports utilisé.
-* Communiquer avec votre équipe de compte d’Adobe les rapports les plus importants et, lorsque vous les extrayez, peut les aider à vous défendre.
+* Communiquez à l’équipe de votre compte Adobe les rapports les plus importants et le moment où vous les obtenez afin qu’elle puisse défendre vos intérêts.

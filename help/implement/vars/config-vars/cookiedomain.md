@@ -1,10 +1,10 @@
 ---
 title: cookieDomain
-description: (Retiré) Permet de déterminer le domaine sur lequel les cookies doivent être définis.
-feature: Variables
+description: (Retiré) Permet de déterminer le domaine sur lequel définir les cookies.
+feature: Appmeasurement Implementation
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 77%
@@ -25,11 +25,11 @@ Cette variable ne doit être utilisée que lorsque **les deux** conditions suiva
 
 Seul un petit nombre de mises en œuvre ont été utilisées pour la variable `cookieDomain`. D’autres variables, telles que [`cookieDomainPeriods`](cookiedomainperiods.md), peuvent être utilisées à la place.
 
-## Domaine du cookie à l’aide du SDK Web
+## Domaine de cookie utilisant le SDK Web
 
-Le SDK Web peut déterminer le domaine de stockage de cookies correct sans cette variable.
+Web SDK peut déterminer le domaine de stockage des cookies approprié sans cette variable.
 
-## Domaine du cookie à l’aide de l’extension Adobe Analytics
+## Domaine de cookie utilisant l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

@@ -1,10 +1,10 @@
 ---
 title: Util.cookieWrite
 description: Permet d’inscrire une valeur dans un cookie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 079dbe50-5568-467b-a67c-f44481a4a20b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 70%
@@ -15,7 +15,7 @@ ht-degree: 70%
 
 Les cookies peuvent stocker et récupérer des informations sur plusieurs pages du même domaine. Utilisez la méthode `Util.cookieWrite()` pour définir une valeur sur un cookie. Vous pouvez utiliser la méthode [`Util.cookieRead()`](util-cookieread.md) pour récupérer les valeurs définies à l’aide de `Util.cookieWrite()`.
 
-## Définir des cookies à l’aide de l’extension Adobe Analytics et de l’extension SDK Web
+## Définition de cookies à l’aide des extensions Adobe Analytics et Web SDK
 
 La collecte de données Adobe Experience Platform ne permet pas de définir des cookies dans l’interface.
 

@@ -1,13 +1,13 @@
 ---
 title: manageVars
 description: Permet de modifier les valeurs de plusieurs variables Analytics à la fois.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 88%
 
 Le plug-in `manageVars` vous permet de manipuler simultanément les valeurs de plusieurs variables Analytics. Vous pouvez également définir des valeurs en minuscules ou supprimer les caractères superflus de plusieurs valeurs de variables en même temps. Adobe recommande d’utiliser ce plug-in si vous souhaitez effacer la valeur de plusieurs variables à la fois.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -39,7 +39,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
@@ -95,7 +95,7 @@ Le code suivant…
 manageVars("lowerCaseVars");
 ```
 
-…modifie les valeurs de toutes les variables décrites ci-dessus en versions minuscules.  La seule exception à cette règle est la variable events, car certains événements (par exemple scAdd, scCheckout, etc.) sont sensibles à la casse et ne doivent pas être mis en minuscules.
+…modifie les valeurs de toutes les variables décrites ci-dessus en versions minuscules.  La seule exception à cette règle est la variable événements , car certains des événements (par exemple scAdd, scCheckout, etc.) sont sensibles à la casse et ne doivent pas être mis en minuscules
 
 ### Exemple 2
 
@@ -139,9 +139,9 @@ manageVars("cleanStr");
 
 * Supprime le codage HTML.
 * Supprime les espaces trouvés au début et à la fin de la valeur.
-* Remplace les guillemets simples gauche/droite par un guillemet simple droit (`'`).
+* Remplace les guillemets simples gauche/droite par un guillemet simple droit (`'`)
 * Remplace les caractères de tabulation, les renvois à la ligne et les retours chariot par des espaces.
-* Remplace tous les espaces doubles (ou triples, etc.) par des espaces simples.
+* Remplace tous les espaces doubles (ou triples) par des espaces simples
 
 ## Historique des versions
 

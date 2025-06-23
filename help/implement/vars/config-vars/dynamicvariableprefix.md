@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: Permet de personnaliser la chaîne qui identifie les variables dynamiques.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 70%
@@ -17,15 +17,15 @@ Les variables dynamiques sont un concept abrégé qui vous permet de copier des 
 
 Par défaut, les variables dynamiques utilisent le préfixe `D=`. La variable `dynamicVariablePrefix` vous permet de personnaliser la chaîne qui identifie les variables dynamiques. Elle est sensible à la casse.
 
-## Préfixe de variable dynamique à l’aide du SDK Web
+## Préfixe de variable dynamique utilisant le SDK Web
 
-Le SDK Web n’utilise pas de formatage de variable dynamique. Vous pouvez plutôt utiliser le mappage de flux de données pour remplir plusieurs champs cibles à l’aide d’un seul champ Source. Pour plus d’informations, voir [Variables dynamiques à l’aide du SDK Web](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) .
+Le SDK Web n’utilise pas le formatage dynamique des variables. Au lieu de cela, vous pouvez utiliser le mappage de flux de données pour renseigner plusieurs champs cibles à l’aide d’un seul champ Source. Voir [Variables dynamiques à l’aide de Web SDK](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) pour plus d’informations.
 
-Si vous envoyez des données directement à Adobe Analytics sans respecter un schéma, la variable suivante est utilisée :
+Si vous envoyez des données directement à Adobe Analytics sans vous conformer à un schéma, la variable suivante est utilisée :
 
 * [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.dynamicVariablePrefix`
 
-## Préfixe de variable dynamique à l’aide de l’extension Adobe Analytics
+## Préfixe de variable dynamique utilisant l’extension Adobe Analytics
 
 Le préfixe de variable dynamique est un champ situé sous l’accordéon [!UICONTROL Variables globales] lors de la configuration de l’extension Adobe Analytics.
 

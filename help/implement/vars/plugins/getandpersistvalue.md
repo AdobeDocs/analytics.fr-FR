@@ -1,10 +1,10 @@
 ---
 title: getAndPersistValue
 description: Permet de stocker une valeur qui peut être récupérée ultérieurement à tout moment.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 70%
@@ -15,28 +15,28 @@ ht-degree: 70%
 
 {{plug-in}}
 
-Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à la fonction [!UICONTROL Durée du stockage] de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la fonction [!UICONTROL Durée de stockage] de l’extension Analytics est suffisante. Il n’est pas non plus nécessaire d’utiliser ce plug-in si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas lʼutilisation de ce plug-in, car les eVars sont conservées côté serveur par Adobe.
+Le plug-in `getAndPersistValue` vous permet de stocker une valeur dans un cookie qui peut être récupérée ultérieurement au cours d’une visite. Il joue un rôle similaire à celui de la fonction [!UICONTROL Durée du stockage] dans l’extension Adobe Analytics au sein de la collecte de données Adobe Experience Platform. Adobe conseille d’utiliser ce plug-in si vous souhaitez conserver automatiquement une variable Analytics à la même valeur lors d’accès ultérieurs une fois la variable définie. Ce plug-in n’est pas nécessaire si la fonction [!UICONTROL  Durée du stockage ] de l’extension Analytics est suffisante. Il n’est pas non plus nécessaire d’utiliser ce plug-in si vous n’avez pas besoin de définir et de conserver des variables à la même valeur lors d’accès ultérieurs. La persistance intégrée des eVars ne nécessite pas lʼutilisation de ce plug-in, car les eVars sont conservées côté serveur par Adobe.
 
-## Installation du module externe à l’aide de l’extension SDK Web
+## Installation du plug-in à l’aide de l’extension Web SDK
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Web SDK.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Balises]** à gauche, puis sur la propriété de balise de votre choix.
 1. Cliquez sur **[!UICONTROL Extensions]** à gauche, puis sur l’onglet **[!UICONTROL Catalogue]**
-1. Recherchez et installez l’extension **[!UICONTROL Common Web SDK Plugins]** .
+1. Recherchez et installez l’extension **[!UICONTROL Plug-ins Web SDK courants]**.
 1. Cliquez sur **[!UICONTROL Éléments de données]** à gauche, puis sur l’élément de données de votre choix.
-1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : modules externes SDK Web courants
+1. Définissez le nom de l’élément de données de votre choix avec la configuration suivante :
+   * Extension : plug-ins Web SDK courants
    * Élément de données : `getAndPersistValue`
-1. Définissez les paramètres de votre choix à droite.
-1. Enregistrez et publiez les modifications sur l’élément de données.
+1. Définissez les paramètres souhaités sur la droite.
+1. Enregistrez et publiez les modifications apportées à l’élément de données.
 
-## Installation manuelle du plug-in implémentant le SDK Web
+## Installation du plug-in implémentant manuellement le SDK Web
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans une mise en oeuvre manuelle du SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le cadre d’une implémentation manuelle de Web SDK.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -54,7 +54,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

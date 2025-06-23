@@ -1,11 +1,11 @@
 ---
-description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Ces instructions illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
+description: Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Ces instructions indiquent les indicateurs qui doivent être présents pour s’assurer que le transfert côté serveur est correctement activé.
 solution: Analytics
 title: Comment vérifier l’implémentation du transfert côté serveur
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 86%
@@ -14,7 +14,7 @@ ht-degree: 86%
 
 # Comment vérifier l’implémentation du transfert côté serveur
 
-Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes illustrent les indicateurs qui doivent être présents pour garantir que le transfert côté serveur est correctement activé.
+Pour vérifier que le transfert côté serveur est correctement activé, vous devez examiner la réponse HTTP provenant de la demande de suivi Analytics. Pour ce faire, utilisez les outils de développement d’un navigateur ou un outil de proxy tel que Charles Web Debugger. Les instructions suivantes indiquent les indicateurs qui doivent être présents pour que le transfert côté serveur soit correctement activé.
 
 Pour vérifier l’état du transfert côté serveur :
 

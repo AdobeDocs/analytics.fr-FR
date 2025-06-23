@@ -1,10 +1,10 @@
 ---
 title: visitorID
 description: Permet d’utiliser un identifiant visiteur personnalisé.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 71%
@@ -46,6 +46,6 @@ s.visitorID = "abc123";
 >
 >Une implémentation non valide des identifiants visiteur personnalisés peut se traduire par des données incorrectes et de mauvaises performances en matière de rapports. Si cette variable contient une valeur par défaut (telle que `"0"` ou `"NULL"`), Adobe traite ces accès comme s’il s’agissait du même visiteur. Cette situation génère des données incorrectes, avec un faible nombre de visiteurs et des segments au niveau des visiteurs qui ne fonctionnent pas comme prévu. L’implémentation incorrecte des identifiants visiteur personnalisés entraîne également une charge importante sur les serveurs de traitement, ce qui augmente la [latence](/help/technotes/latency.md) et réduit les performances en matière de rapports.
 
-## Identifiant visiteur à l’aide du SDK Web
+## Identifiant visiteur à l’aide de Web SDK
 
-L’Edge Network Adobe Experience Platform vous permet de fournir plusieurs identifiants à l’aide de la [carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=fr#using-identitymap) de XDM. Chaque identité d’une carte des identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de la [configuration de la banque de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#analytics). Une fois configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.
+Adobe Experience Platform Edge Network vous permet de fournir plusieurs identifiants à l’aide de la [carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) de XDM. Chaque identité d’un mappage d’identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de la [configuration du train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Une fois cette configuration effectuée, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.

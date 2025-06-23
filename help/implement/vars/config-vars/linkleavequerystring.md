@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: Permet de conserver les chaînes de requête dans les dimensions de suivi des liens.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,9 +25,9 @@ L’activation de `linkLeaveQueryString` s’applique à toutes les dimensions d
 >
 >Cette variable n’affecte pas les dimensions en dehors du suivi des liens. Elle affecte uniquement les liens personnalisés, les liens de sortie et les liens de téléchargement.
 
-## Gestion des chaînes de requête de lien à l’aide du SDK Web
+## Gérer les chaînes de requête de lien à l’aide de Web SDK
 
-Les chaînes de requête ne sont pas retirées du champ XDM `web.webInteraction.URL`. Si vous souhaitez supprimer les chaînes de requête de ce champ XDM, vous pouvez le modifier à l’aide de `onBeforeEventSend`.
+Les chaînes de requête ne sont pas supprimées du `web.webInteraction.URL` de champ XDM. Si vous souhaitez supprimer les chaînes de requête de ce champ XDM, vous pouvez le modifier à l’aide de `onBeforeEventSend`.
 
 ## Conserver les paramètres d’URL à l’aide de l’extension Adobe Analytics
 
@@ -40,7 +40,7 @@ Les chaînes de requête ne sont pas retirées du champ XDM `web.webInteraction.
 
 Cochez cette case si vous souhaitez inclure des chaînes de requête dans les dimensions de suivi des liens.
 
-## s.linkLeaveQueryString dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
+## AppMeasurement s.linkLeaveQueryString dans l’éditeur de code personnalisé de l’extension Analytics
 
 La variable `s.linkLeaveQueryString` est une valeur booléenne. Sa valeur par défaut est `false`.
 

@@ -1,10 +1,10 @@
 ---
 title: p_fo (Page First Only)
 description: Permet de s’assurer que certaines routines ne se déclenchent qu’une seule fois par page.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 77%
@@ -17,25 +17,25 @@ ht-degree: 77%
 
 Le plug-in `p_fo` est un utilitaire qui vérifie l’existence d’un objet JavaScript spécifique. Si l’objet n’existe pas, alors le plug-in le crée et renvoie la valeur `true`. Si l’objet JavaScript existe déjà sur la page, alors il renvoie la valeur `false`. Ce plug-in est utile pour exécuter le code une seule fois sur une page. Plusieurs autres plug-ins dépendent de ce code pour fonctionner. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin de connaître le nombre de fois que le code s’exécute sur une page ou si vous n’utilisez aucun plug-in dépendant.
 
-## Installation du module externe à l’aide de l’extension SDK Web
+## Installation du plug-in à l’aide de l’extension Web SDK
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Web SDK.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Balises]** à gauche, puis sur la propriété de balise de votre choix.
 1. Cliquez sur **[!UICONTROL Extensions]** à gauche, puis sur l’onglet **[!UICONTROL Catalogue]**
-1. Recherchez et installez l’extension **[!UICONTROL Common Web SDK Plugins]** .
+1. Recherchez et installez l’extension **[!UICONTROL Plug-ins Web SDK courants]**.
 1. Cliquez sur **[!UICONTROL Éléments de données]** à gauche, puis sur l’élément de données de votre choix.
-1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : modules externes SDK Web courants
+1. Définissez le nom de l’élément de données de votre choix avec la configuration suivante :
+   * Extension : plug-ins Web SDK courants
    * Élément de données : `p_fo`
-1. Enregistrez et publiez les modifications sur l’élément de données.
+1. Enregistrez et publiez les modifications apportées à l’élément de données.
 
-## Installation manuelle du plug-in implémentant le SDK Web
+## Installation du plug-in implémentant manuellement le SDK Web
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans une mise en oeuvre manuelle du SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le cadre d’une implémentation manuelle de Web SDK.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -53,7 +53,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

@@ -1,10 +1,10 @@
 ---
 title: addProductEvar
 description: Permet d’ajouter des eVars de marchandisage à la variable products.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 87%
@@ -21,11 +21,11 @@ Le plug-in `addProductEvar` vous permet d’ajouter facilement une eVar de march
 >
 >Ce plug-in ne remplace pas les eVars qui existent déjà dans une entrée de produit. Il ajoute uniquement les valeurs que vous avez définies à l’aide de ce plug-in. Soyez prudent lorsque vous ajoutez des eVars qui existent déjà pour ce produit.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -43,7 +43,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

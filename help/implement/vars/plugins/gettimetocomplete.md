@@ -1,10 +1,10 @@
 ---
 title: getTimeToComplete
 description: Permet de mesurer le temps nécessaire à l’accomplissement d’une tâche.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 89%
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 Le plug-in `getTimeToComplete` permet d’effectuer le suivi du temps nécessaire à un utilisateur pour terminer un processus sur un site. Le « compte à rebours » commence au moment de l’appel de l’action `start` et se termine lorsque l’action `stop` est appelée. Adobe recommande d’utiliser ce plug-in s’il existe un workflow sur le site qui dure longtemps et que vous souhaitez connaître le temps nécessaire aux visiteurs pour le terminer. Il n’est pas nécessaire d’utiliser ce plug-in si le workflow sur le site ne dure pas longtemps (moins de 3 secondes), car la granularité est réduite à la seconde complète.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -39,7 +39,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

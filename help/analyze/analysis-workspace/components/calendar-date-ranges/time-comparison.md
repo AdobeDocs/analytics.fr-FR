@@ -1,11 +1,11 @@
 ---
 description: 'Dans Analysis Workspace, appliquez une comparaison des dates commune à partir de n’importe quelle colonne contenant une période, par exemple : année par année, trimestre par trimestre, mois par mois, etc.'
 title: Comparaison des dates
-feature: Calendar
+feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Dans Analysis Workspace, appliquez une comparaison des dates commune à partir d
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des dates](https://video.tv.adobe.com/v/33636?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des dates](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

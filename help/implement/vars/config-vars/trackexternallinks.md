@@ -1,10 +1,10 @@
 ---
 title: trackExternalLinks
 description: Permet d’activer ou de désactiver le suivi automatique des liens pour les liens de sortie.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 60%
@@ -17,18 +17,18 @@ Adobe permet de suivre les liens sortants sans définir manuellement la méthode
 
 Lorsqu’il est activé, AppMeasurement compare toute URL de lien sur lequel l’utilisateur a cliqué aux valeurs des sections [`linkInternalFilters`](linkinternalfilters.md) et [`linkExternalFilters`](linkexternalfilters.md). S’il existe une correspondance, un appel de suivi des liens de sortie se déclenche automatiquement.
 
-## Activation ou désactivation de la collecte de clics à l’aide de l’extension SDK Web
+## Activer ou désactiver la collecte de clics à l’aide de l’extension Web SDK
 
-Cochez la case [!UICONTROL Activer la collecte de données de clic] lors de la configuration du SDK Web. Cette case à cocher gère les liens de sortie et de téléchargement.
+Utilisez la case à cocher [!UICONTROL Activer la collecte de données de clics] lors de la configuration de Web SDK. Cette case à cocher gère les liens de sortie et de téléchargement.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Collecte de données], cochez la case **[!UICONTROL Activer la collecte de données de clic]** .
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL Adobe Experience Platform Web SDK].
+1. Sous [!UICONTROL Collecte de données], cochez la case **[!UICONTROL Activer la collecte de données]**.
 
-## Activer ou désactiver la collecte des clics en implémentant manuellement le SDK Web
+## Activer ou désactiver la collecte de clics implémentant manuellement le SDK Web
 
-Configurez le SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens pour les liens de téléchargement et de sortie.
+Configurez le SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens de téléchargement et de sortie.
 
 ```json
 alloy("configure", {

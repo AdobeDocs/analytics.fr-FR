@@ -1,10 +1,10 @@
 ---
 title: zip
 description: Permet de renseigner manuellement la dimension « Code postal » si les paramètres de la suite de rapports le permettent.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -19,7 +19,7 @@ La variable `zip` vous permet de renseigner manuellement la dimension « Code p
 >
 >Assurez-vous que l’[!UICONTROL option de code postal] des paramètres de la suite de rapports est définie sur la valeur souhaitée. Vous ne pouvez pas utiliser cette variable si [!UICONTROL Geo zip] est toujours utilisé. Pour plus d’informations, consultez la section [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) du guide d’utilisation destiné à l’administrateur.
 
-## Code postal à l’aide du SDK Web
+## Code postal utilisant le SDK Web
 
 Le code postal est mappé aux variables suivantes :
 
@@ -34,7 +34,7 @@ Vous pouvez définir le code postal lors de la configuration de l’extension An
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL Code postal].
 
 Vous pouvez définir le code postal sur n’importe quelle valeur de chaîne, y compris les éléments de données.

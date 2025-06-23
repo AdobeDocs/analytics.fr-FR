@@ -1,10 +1,10 @@
 ---
 title: inList
 description: Permet de vérifier si une valeur est contenue dans une autre valeur délimitée par des caractères.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%
@@ -17,11 +17,11 @@ ht-degree: 87%
 
 Le plug-in `inList` vous permet de vérifier si une valeur existe déjà dans une chaîne délimitée ou un objet Array de JavaScript. Plusieurs autres plug-ins dépendent du plug-in `inList` pour fonctionner. Ce plug-in offre un avantage certain par rapport à la méthode `indexOf()` de JavaScript où vous ne trouvez pas de chaînes partielles. Par exemple, si vous avez utilisé ce plug-in pour vérifier `"event2"`, il ne correspondra pas à une chaîne contenant `"event25"`. Ce plug-in n’est pas nécessaire si vous n’avez pas besoin de vérifier les valeurs dans des chaînes ou des tableaux délimités, ou si vous souhaitez utiliser votre propre logique `indexOf()`.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -39,7 +39,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

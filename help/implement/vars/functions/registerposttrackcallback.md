@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: Permet de créer des fonctions de rappel après l’envoi d’un accès à Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -17,7 +17,7 @@ La variable `registerPostTrackCallback` permet à votre entreprise d’associer 
 
 >[!WARNING]
 >
->N’effectuez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable `registerPostTrackCallback`. La définition des appels de suivi dans cette variable entraîne une boucle infinie de demandes d’image.
+>N’effectuez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) dans la variable `registerPostTrackCallback`. La définition des appels de suivi dans cette variable entraîne une boucle infinie de demandes d’image.
 
 Chaque fois que vous appelez la variable `registerPostTrackCallback`, vous pouvez associer cette fonction pour qu’elle s’exécute immédiatement après l’envoi réussi d’une demande d’image. Évitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
@@ -25,13 +25,13 @@ Chaque fois que vous appelez la variable `registerPostTrackCallback`, vous pouve
 >
 >Le timing et l’ordre des fonctions déclenchées entre [`registerPreTrackCallback`](registerpretrackcallback.md) et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
-## Rappel Post-track à l’aide de l’extension SDK Web
+## Rappel de post-suivi à l’aide de l’extension Web SDK
 
-Bientôt !
+Bientôt disponible !
 
-## Rappel Post-track mettant en oeuvre manuellement le SDK Web
+## Rappel de post-suivi implémentant manuellement le SDK Web
 
-Vous pouvez utiliser une promesse JavaScript lors de l’envoi d’un événement pour enregistrer une fonction une fois les données envoyées à Adobe avec succès.
+Vous pouvez utiliser une promesse JavaScript lors de l’envoi d’un événement pour enregistrer une fonction une fois les données envoyées avec succès à Adobe.
 
 ```js
 alloy("sendEvent",{
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-Pour plus d’informations, voir [Gestion des réponses des événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#handling-responses-from-events) dans la documentation du SDK Web.
+Pour plus d’informations](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) consultez la section [Gérer les réponses des événements dans la documentation de Web SDK.
 
-## Enregistrement du rappel Post-track à l’aide de l’extension Adobe Analytics
+## Enregistrement du rappel de post-suivi à l’aide de l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

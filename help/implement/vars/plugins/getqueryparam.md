@@ -1,10 +1,10 @@
 ---
 title: getQueryParam
 description: Permet d’extraire la valeur du paramètre de chaîne de requête d’une URL.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 73%
@@ -17,28 +17,28 @@ ht-degree: 73%
 
 Le plug-in `getQueryParam` vous permet d’extraire la valeur de tout paramètre de chaîne de requête contenu dans une URL. Il est utile pour extraire des codes de campagne, internes et externes, provenant des URL de page de destination. Il convient également pour l’extraction de termes de recherche ou d’autres paramètres de chaîne de requête.
 
-Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe recommande d’utiliser les fonctionnalités de paramètre d’URL à l’aide du SDK Web ou de l’extension Adobe Analytics ou de la méthode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluse dans AppMeasurement.
+Ce plug-in fournit des fonctionnalités puissantes pour analyser des URL complexes, notamment les hachages et les URL contenant plusieurs paramètres de chaîne de requête. Si vous avez uniquement besoin de paramètres de chaîne de requête simples, Adobe vous recommande d’utiliser les fonctions de paramètre d’URL à l’aide de Web SDK ou de l’extension Adobe Analytics, ou encore la méthode [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluse dans AppMeasurement.
 
-## Installation du module externe à l’aide de l’extension SDK Web
+## Installation du plug-in à l’aide de l’extension Web SDK
 
-Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec le SDK Web.
+Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Web SDK.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur **[!UICONTROL Balises]** à gauche, puis sur la propriété de balise de votre choix.
 1. Cliquez sur **[!UICONTROL Extensions]** à gauche, puis sur l’onglet **[!UICONTROL Catalogue]**
-1. Recherchez et installez l’extension **[!UICONTROL Common Web SDK Plugins]** .
+1. Recherchez et installez l’extension **[!UICONTROL Plug-ins Web SDK courants]**.
 1. Cliquez sur **[!UICONTROL Éléments de données]** à gauche, puis sur l’élément de données de votre choix.
-1. Définissez le nom de l’élément de données souhaité avec la configuration suivante :
-   * Extension : modules externes SDK Web courants
+1. Définissez le nom de l’élément de données de votre choix avec la configuration suivante :
+   * Extension : plug-ins Web SDK courants
    * Élément de données : `getQueryParam`
-1. Définissez les paramètres de votre choix à droite.
-1. Enregistrez et publiez les modifications sur l’élément de données.
+1. Définissez les paramètres souhaités sur la droite.
+1. Enregistrez et publiez les modifications apportées à l’élément de données.
 
-## Installation manuelle du plug-in implémentant le SDK Web
+## Installation du plug-in implémentant manuellement le SDK Web
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans une mise en oeuvre manuelle du SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le cadre d’une implémentation manuelle de Web SDK.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -56,7 +56,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (19 mars 2021)
 
 * Ajout du numéro de version comme donnée contextuelle.
-* Suppression des dépendances sur le module externe `pt`.
+* Suppression des dépendances sur le plug-in `pt`.
 
 ### 3.3 (24 septembre 2019)
 

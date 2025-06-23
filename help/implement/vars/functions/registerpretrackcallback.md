@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: Permet de créer des fonctions de rappel avant d’envoyer un accès à Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -17,7 +17,7 @@ La variable `registerPreTrackCallback` permet à votre entreprise d’associer u
 
 >[!WARNING]
 >
->N’effectuez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) à l’intérieur de la variable `registerPreTrackCallback`. La définition des appels de suivi dans cette variable entraîne une boucle infinie de demandes d’image.
+>N’effectuez aucun appel de suivi tel que [`t()`](t-method.md) ou [`tl()`](tl-method.md) dans la variable `registerPreTrackCallback`. La définition des appels de suivi dans cette variable entraîne une boucle infinie de demandes d’image.
 
 Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associez cette fonction pour qu’elle s’exécute chaque fois qu’une URL de demande d’image est compilée. Évitez d’enregistrer la même fonction plusieurs fois au même chargement de page.
 
@@ -25,19 +25,19 @@ Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associ
 >
 >Le timing et l’ordre des fonctions déclenchées entre `registerPreTrackCallback` et `registerPostTrackCallback` ne sont pas garantis. Évitez les dépendances entre ces deux fonctions.
 
-## Rappel de pré-suivi à l’aide de l’extension SDK Web
+## Rappel de pré-suivi à l’aide de l’extension Web SDK
 
-Le SDK Web ne peut pas associer une fonction une fois les données compilées, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données.
+Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données.
 
-1. Connectez-vous à l’interface utilisateur de [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’interface utilisateur de la collecte de données [Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier avant l’envoi du code de rappel d’événement]** .
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL Adobe Experience Platform Web SDK].
+1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier le avant le code de rappel d’envoi d’événement]**.
 1. Placez le code de votre choix dans l’éditeur.
 
 ## Rappel de pré-suivi implémentant manuellement le SDK Web
 
-Le SDK Web ne peut pas associer une fonction une fois les données compilées, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
+Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ```js
 // Set the trackingCode XDM field to "New value"

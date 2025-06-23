@@ -1,10 +1,10 @@
 ---
 title: charSet
 description: La variable charSet détermine le codage utilisé par Adobe pour analyser votre demande d’image.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 65%
@@ -13,17 +13,17 @@ ht-degree: 65%
 
 # charSet
 
-La variable `charSet` est utilisée par Adobe pour convertir les données entrantes au format UTF-8 pour le stockage et la création de rapports par Analytics. La plupart des sites nʼont pas besoin de définir cette variable.
+La variable `charSet` est utilisée par Adobe pour convertir les données entrantes en UTF-8 pour le stockage et les rapports par Analytics. La plupart des sites nʼont pas besoin de définir cette variable.
 
 Définissez cette variable uniquement si vous voyez des valeurs illisibles ([mojibake](https://fr.wikipedia.org/wiki/Mojibake)) dans les rapports. Vous pouvez définir cette variable page par page si votre site utilise différents codages sur différentes pages.
 
 ## Jeu de caractères dans le SDK Web
 
-Actuellement, le SDK Web ne prend en charge que le codage UTF-8 et ne fournit pas d’options pour modifier le codage.
+Actuellement, Web SDK ne prend en charge que le format UTF-8 et ne fournit pas d’options permettant de modifier le codage.
 
 ## Jeu de caractères dans l’extension Adobe Analytics
 
-Le jeu de caractères est un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform.
+Le jeu de caractères désigne un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics dans la collecte de données Adobe Experience Platform.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.

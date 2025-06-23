@@ -1,10 +1,10 @@
 ---
 title: eVar (variable)
 description: Variables personnalisées que vous pouvez utiliser dans votre mise en œuvre.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 92%
@@ -27,8 +27,8 @@ Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer ch
 
 Les eVars sont mappées aux variables suivantes :
 
-* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm._experience.analytics.customDimensions.eVars.eVar1` vers `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.eVar1` vers `data.__adobe.analytics.eVar250` ; ou `data.__adobe.analytics.v1` vers `data.__adobe.analytics.v250`
+* [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm._experience.analytics.customDimensions.eVars.eVar1` à `xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.eVar1` à `data.__adobe.analytics.eVar250` ; ou `data.__adobe.analytics.v1` à `data.__adobe.analytics.v250`
 
 ## eVars utilisant l’extension Adobe Analytics
 
@@ -38,7 +38,7 @@ Vous pouvez définir des eVars lors de la configuration de l’extension Analyti
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL eVars].
 
 Vous pouvez définir une eVar sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.

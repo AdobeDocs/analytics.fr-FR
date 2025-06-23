@@ -2,10 +2,10 @@
 title: Présentation des variables, fonctions, méthodes et plug-ins
 description: Découvrez les variables que vous pouvez inclure dans les données que vous envoyez à Adobe pour améliorer la création de rapports.
 keywords: appmeasurement,variables,vars,configuration,page,mise en œuvre
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 67%
@@ -27,7 +27,7 @@ Adobe propose plusieurs façons de mettre en œuvre Adobe Analytics. Chaque page
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuration des variables](https://video.tv.adobe.com/v/31116?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configuration des variables](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

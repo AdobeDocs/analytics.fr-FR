@@ -2,11 +2,11 @@
 description: Créez une cohorte et générez un rapport d’analyse des cohortes dans Analysis Workspace.
 keywords: Analysis Workspace
 title: Exécution d’un rapport d’analyse des cohortes
-feature: Cohort Analysis
+feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Vous pouvez définir des paramètres spécifiques pour une [!UICONTROL table de 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

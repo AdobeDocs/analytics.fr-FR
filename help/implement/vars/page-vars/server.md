@@ -1,10 +1,10 @@
 ---
 title: server
 description: Permet de renseigner la dimension « Serveurs ».
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -30,7 +30,7 @@ Vous pouvez définir le serveur lors de la configuration de l’extension Analyt
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL Serveur].
 
 Vous pouvez définir le serveur sur n’importe quelle valeur de chaîne ou élément de données.

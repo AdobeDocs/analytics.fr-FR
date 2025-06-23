@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: Permet de connaître le pourcentage de la page consultée par le visiteur.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 84%
@@ -17,11 +17,11 @@ ht-degree: 84%
 
 Le plug-in `getPercentPageViewed` mesure l’activité de défilement d’un visiteur pour savoir quelle partie d’une page il a vue avant de passer à une autre page. Ce plug-in n’est pas nécessaire si vos pages sont de petite taille ou si vous ne souhaitez pas mesurer l’activité de défilement.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -39,7 +39,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.
@@ -80,9 +80,9 @@ Affectez une ou plusieurs de ces variables à des eVars pour afficher les donné
 
 Ce plug-in crée trois cookies propriétaires qui expirent à la fin d’une session de navigateur :
 
-* `s_ppv` : stocke chacune des valeurs exposées en appelant la fonction
-* `s_tp` : stocke la hauteur totale en pixels de la page précédente.
-* `s_ips` : stocke le pourcentage initial défilé de la page précédente.
+* `s_ppv` : stocke chacune des valeurs exposées en appelant la fonction .
+* `s_tp` : stocke la hauteur totale en pixels de la page précédente
+* `s_ips` : stocke le pourcentage initial de défilement de la page précédente
 
 ## Exemples
 
@@ -117,7 +117,7 @@ if(_ppvPreviousPage)
 
 ### 5.0.1 (22 juin 2021)
 
-* Correction d’un problème en raison duquel certains caractères spéciaux provoquaient la panne du module externe.
+* Correction d’un problème en raison duquel certains caractères spéciaux entraînaient l’interruption du plug-in
 
 ### 5.0 (19 mars 2021)
 

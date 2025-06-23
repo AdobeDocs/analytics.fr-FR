@@ -1,10 +1,10 @@
 ---
 title: offlineThrottleDelay
 description: Permet de définir la fréquence des accès lorsqu’un appareil revient en ligne.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 83%
@@ -17,7 +17,7 @@ Le suivi hors ligne est une méthode facultative de collecte de données dans Ad
 
 Lorsqu’un appareil revient en ligne, tous les accès stockés sur l’appareil sont envoyés aux serveurs de collecte de données Adobe. Un grand nombre d’accès en file d’attente peut avoir un impact sur les performances des anciens appareils. Utilisez la variable `offlineThrottleDelay` pour déterminer la fréquence d’envoi des accès en file d’attente à Adobe.
 
-## Délai de ralentissement hors ligne à l’aide du SDK Web
+## Délai de ralentissement hors ligne à l’aide de Web SDK
 
 Le SDK Web ne prend pas en charge le suivi hors ligne.
 

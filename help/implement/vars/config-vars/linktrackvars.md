@@ -1,10 +1,10 @@
 ---
 title: linkTrackVars
 description: Permet de spécifier les variables à inclure dans les demandes d’image de suivi des liens.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 62%
@@ -17,13 +17,13 @@ Certaines mises en œuvre ne souhaitent pas inclure toutes les variables dans to
 
 Cette variable n’est pas utilisée pour les appels de page vue (méthode [`t()`](../functions/t-method.md)).
 
-## Déterminer les variables à inclure dans un événement XDM à l’aide du SDK Web
+## Déterminer les variables à inclure dans un événement XDM à l’aide de Web SDK
 
-Le SDK Web n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant que les données ne soient envoyées à Adobe. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
+Le Web SDK n’exclut pas certains champs pour les appels de suivi des liens. Cependant, vous pouvez utiliser le rappel `onBeforeEventSend` pour effacer ou définir les champs souhaités avant l’envoi des données à Adobe. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
-## Variables des appels de suivi des liens à l’aide de l’extension Adobe Analytics
+## Variables dans les appels de suivi des liens à l’aide de l’extension Adobe Analytics
 
-Cette variable est automatiquement renseignée sur le serveur principal en fonction des variables définies dans l’interface. Elle est donc toujours définie dans les mises en oeuvre à l’aide de l’extension Adobe Analytics.
+Cette variable est automatiquement renseignée sur le serveur principal en fonction des variables définies dans l’interface. Elle est donc toujours définie dans les implémentations à l’aide de l’extension Adobe Analytics.
 
 >[!IMPORTANT]
 >

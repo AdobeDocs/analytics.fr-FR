@@ -1,10 +1,10 @@
 ---
 title: apl (appendToList)
 description: Permet d’ajouter des valeurs aux variables qui prennent en charge plusieurs valeurs.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
@@ -23,11 +23,11 @@ Le plug-in `apl` vous permet d’ajouter en toute sécurité de nouvelles valeur
 
 Adobe recommande d’utiliser ce plug-in si vous souhaitez ajouter de nouvelles valeurs aux variables existantes qui contiennent une chaîne de valeurs délimitées. Ce plug-in n’est pas nécessaire si vous préférez concaténer des chaînes pour des variables contenant des valeurs délimitées.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -45,7 +45,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

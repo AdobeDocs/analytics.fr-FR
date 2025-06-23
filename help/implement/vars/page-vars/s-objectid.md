@@ -1,10 +1,10 @@
 ---
 title: s_objectID
 description: Permet d’aider Activity Map à identifier les liens uniques de votre site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 80%
@@ -15,9 +15,9 @@ ht-degree: 80%
 
 La variable `s_objectID` fournit un identifiant unique pour un lien. Elle permet de rendre les rapports d’[Activity Map](/help/analyze/activity-map/overview.md) plus précis. Si une page comporte des liens qui changent fréquemment, vous pouvez utiliser la variable `s_objectID` pour indiquer à Activity Map un emplacement de lien unique afin qu’il puisse regrouper correctement les données selon vos besoins.
 
-Si la précision de l’Activity Map est essentielle pour votre entreprise, Adobe recommande d’inclure la variable `s_objectID` dans l’événement `onClick` des liens de votre site.
+Si la précision d’Activity Map est essentielle pour votre organisation, Adobe recommande d’inclure la variable `s_objectID` dans le `onClick` cas de liens sur votre site.
 
-## ID d’objet à l’aide de l’extension Adobe Analytics
+## Identifiant d’objet utilisant l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 
@@ -60,4 +60,4 @@ Certains sites comportent des liens qui renvoient vers le même emplacement à d
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-Même si les liens pointent vers la même URL, l’Activity Map peut utiliser la variable `s_objectID` pour les distinguer correctement dans les rapports.
+Même si les liens pointent vers la même URL, Activity Map peut utiliser la variable `s_objectID` pour les distinguer correctement dans les rapports.

@@ -1,10 +1,10 @@
 ---
 title: Fonctions et méthodes
 description: Découvrez comment utiliser les fonctions et méthodes proposées par Adobe dans votre mise en œuvre.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%

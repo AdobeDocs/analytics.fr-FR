@@ -1,13 +1,13 @@
 ---
 description: Décrit les étapes à suivre pour permettre à votre implémentation Adobe Analytics de prendre en charge les droits d’accès et de suppression relatifs à la confidentialité des données de vos titulaires de données.
 title: Processus de confidentialité
-feature: Privacy
+feature: Data Governance
 role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
-source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: ht
-source-wordcount: '319'
-ht-degree: 100%
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

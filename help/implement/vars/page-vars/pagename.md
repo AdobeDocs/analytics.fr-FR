@@ -1,10 +1,10 @@
 ---
 title: pageName
 description: Nom de la page de votre site.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 80%
@@ -21,7 +21,7 @@ Si cette variable n’est pas définie sur un appel de suivi de page donné, la 
 >
 >Les serveurs de collecte de données Adobe éliminent cette dimension de toutes les demandes dʼimage de [suivi des liens](/help/implement/vars/functions/tl-method.md). Si vous souhaitez que cette dimension apparaisse dans les accès de suivi des liens, pensez à copier cette dimension dans une [eVar](evar.md).
 
-## Nom de page à l’aide du SDK Web
+## Nom de page utilisant le SDK Web
 
 Le nom de page est mappé aux variables suivantes :
 
@@ -36,7 +36,7 @@ Vous pouvez définir le nom de la page lors de la configuration de l’extension
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Définir des variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
 6. Recherchez la section [!UICONTROL Nom de la page].
 
 Vous pouvez définir le nom de la page sur n’importe quelle valeur de chaîne, y compris les éléments de données.

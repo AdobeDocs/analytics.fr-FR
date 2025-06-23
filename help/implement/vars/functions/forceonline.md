@@ -1,10 +1,10 @@
 ---
 title: forceOnline
 description: Permet de définir manuellement l’état en ligne d’AppMeasurement.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%
@@ -25,7 +25,7 @@ AppMeasurement détecte automatiquement l’état en ligne de l’appareil. Vous
 
 Le SDK Web ne prend pas en charge le suivi hors ligne.
 
-## Forcer l’utilisation de l’extension Adobe Analytics en ligne
+## Forcer la mise en ligne à l’aide de l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

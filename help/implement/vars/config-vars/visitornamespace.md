@@ -1,10 +1,10 @@
 ---
 title: visitorNameSpace
-description: (Retiré) Détermination du domaine de cookie tiers.
-feature: Variables
+description: (Supprimé) Aide à déterminer le domaine de cookies tiers.
+feature: Appmeasurement Implementation
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 89%
@@ -23,7 +23,7 @@ Dans les versions précédentes d’Adobe Analytics, AppMeasurement utilisait la
 >
 >Adobe recommande d’utiliser des cookies propriétaires sur votre site. Les cookies propriétaires n’utilisent pas cette variable.
 
-## Espace de noms du visiteur à l’aide de l’extension Adobe Analytics
+## Espace de noms du visiteur utilisant l’extension Adobe Analytics
 
 [!UICONTROL L’espace de nom du visiteur] est un champ situé sous l’accordéon [!UICONTROL Cookies] lors de la configuration de l’extension Adobe Analytics.
 

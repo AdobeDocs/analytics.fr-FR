@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: Permet de configurer la logique juste avant qu’un accès ne soit compilé et envoyé à Adobe.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -13,26 +13,26 @@ ht-degree: 63%
 
 # doPlugins
 
-La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. C’est l’endroit idéal pour lancer des appels à [Méthodes de plug-in](../plugins/impl-plugins.md) et définir toutes les variables souhaitées avant l’envoi d’une demande d’image. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
+La variable `doPlugins` agit comme un « dernier appel » pour définir des valeurs dans votre mise en œuvre. Il s’agit de l’endroit idéal pour effectuer des appels aux [méthodes de plug-in](../plugins/impl-plugins.md) et définir toutes les variables souhaitées avant l’envoi d’une demande d’image. Si l’option [`usePlugins`](../config-vars/useplugins.md) est activée, celle-ci s’exécute automatiquement juste avant que n’importe quel type de demande d’image ne soit compilé et envoyé à Adobe, notamment :
 
 * Tous les appels de page vue ([`t()`](t-method.md))
 * Tous les appels de suivi de liens ([`tl()`](tl-method.md)), y compris les liens de téléchargement et de sortie automatiques
 
 Utilisez la variable `doPlugins` pour appeler le code du plug-in et définir les valeurs des variables finales juste avant la compilation et l’envoi d’une demande d’image à Adobe.
 
-## Utiliser le code de rappel On Before Event Send à l’aide de l’extension SDK Web
+## Utiliser le code de rappel d’envoi d’événement On Before à l’aide de l’extension Web SDK
 
-Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonctionnalités similaires.
+Au lieu de `doPlugins`, le SDK Web utilise des `onBeforeEventSend` avec des fonctionnalités similaires.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL Extensions] , puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL SDK Web Adobe Experience Platform].
-1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier avant l’envoi du code de rappel d’événement]** .
+1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL Adobe Experience Platform Web SDK].
+1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier le avant le code de rappel d’envoi d’événement]**.
 1. Placez le code de votre choix dans l’éditeur.
 
-## Utiliser `onBeforeEventSend` en implémentant manuellement le SDK Web
+## Utilisation `onBeforeEventSend` mise en œuvre manuelle de Web SDK
 
-Au lieu de `doPlugins`, le SDK Web utilise `onBeforeEventSend` avec des fonctionnalités similaires. Pour plus d’informations, voir [Modification des événements globalement](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation du SDK Web.
+Au lieu de `doPlugins`, le SDK Web utilise des `onBeforeEventSend` avec des fonctionnalités similaires. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -43,7 +43,7 @@ alloy("configure", {
 })
 ```
 
-## Modules externes à l’aide de l’extension Adobe Analytics
+## Plug-ins utilisant l’extension Adobe Analytics
 
 Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
 

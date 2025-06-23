@@ -2,18 +2,18 @@
 description: Vue d’ensemble des données collectées par Adobe Analytics et autres considérations sur la confidentialité.
 keywords: confidentialité
 title: Confidentialité - Présentation
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Confidentialité - Présentation
 
-Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Pour plus d’informations, consultez [Confidentialité relative à Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank}. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données ». Votre organisation a le rôle de « sous-traitant des données » (ou équivalent, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
+Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Consultez [Confidentialité de Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank} pour plus d’informations. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données ». Votre organisation a le rôle de « sous-traitant des données » (ou équivalent, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
 
 Adobe recommande vivement de respecter les principes fondamentaux suivants :
 
@@ -53,4 +53,4 @@ Voir le menu de navigation sous [Vue d’ensemble des dimensions](../components/
 
 ## Emplacements de traitement des données
 
-Adobe dispose de trois emplacements de traitement des données pour Adobe Analytics. Ces sites reçoivent des données brutes et les traitent dans une suite de rapports, qui est optimisée pour le stockage des données et la récupération des rapports. Ces emplacements de traitement des données se trouvent actuellement aux États-Unis (Oregon), au Royaume-Uni (Londres) et à Singapour. Voir [Vue d’ensemble de la sécurité d’Adobe Analytics](https://www.adobe.com/content/dam/cc/fr/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} pour en savoir plus.
+Adobe dispose de trois emplacements de traitement des données pour Adobe Analytics. Ces sites reçoivent des données brutes et les traitent dans une suite de rapports, qui est optimisée pour le stockage des données et la récupération des rapports. Ces emplacements de traitement des données se trouvent actuellement aux États-Unis (Oregon), au Royaume-Uni (Londres) et à Singapour. Voir [Présentation de la sécurité d’Adobe Analytics](https://www.adobe.com/content/dam/cc/fr/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} pour plus d’informations.

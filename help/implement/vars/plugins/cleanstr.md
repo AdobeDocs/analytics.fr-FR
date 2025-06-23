@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: Permet de supprimer ou de remplacer tous les caractères superflus d’une chaîne.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,13 +15,13 @@ ht-degree: 68%
 
 {{plug-in}}
 
-Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). Il remplace également les guillemets simples gauche/droite par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et que la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform ne répond pas à vos besoins de mise en oeuvre. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus, ou si la fonction &quot;Texte clair&quot; de la collecte de données Adobe Experience Platform est suffisante.
+Le plug-in `cleanStr` supprime ou remplace tous les caractères superflus d’une chaîne, y compris les caractères de la balise HTML, les espaces supplémentaires, les tabulations et les retours (chariot/à la ligne). Il remplace également les guillemets simples gauche/droite par des guillemets simples droits (`'`). Adobe recommande d’utiliser ce plug-in si vous souhaitez supprimer les caractères superflus des valeurs de variable et si la fonction « Texte clair » de la collecte de données Adobe Experience Platform ne répond pas à vos besoins en matière d’implémentation. Ce plug-in n’est pas nécessaire si les données collectées ne contiennent pas de caractères superflus ou si la fonction « Texte clair » de la collecte de données Adobe Experience Platform est suffisante.
 
-## Installation du module externe à l’aide du SDK Web ou de l’extension SDK Web
+## Installez le plug-in à l’aide de l’extension Web SDK ou Web SDK
 
-Ce module externe n’est pas encore pris en charge pour une utilisation dans le SDK Web.
+Ce plug-in n’est pas encore pris en charge pour une utilisation dans le SDK Web.
 
-## Installation du module externe à l’aide de l’extension Adobe Analytics
+## Installation du plug-in à l’aide de l’extension Adobe Analytics
 
 Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus couramment utilisés avec Adobe Analytics.
 
@@ -39,7 +39,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
 
-Si vous ne souhaitez pas utiliser l’extension de plug-in Plugins Analytics communs, vous pouvez utiliser l’éditeur de code personnalisé.
+Si vous ne souhaitez pas utiliser l’extension du plug-in des modules externes courants Analytics, vous pouvez utiliser l’éditeur de code personnalisé.
 
 1. Connectez-vous à la [collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de votre choix.

@@ -1,10 +1,10 @@
 ---
 title: trackOffline
 description: Permet d’activer ou de désactiver le suivi hors ligne, qui modifie la manière dont AppMeasurement collecte les données.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%
@@ -29,7 +29,7 @@ Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoye
    * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
    * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
 
-## Suivi hors ligne à l’aide du SDK Web
+## Tracking hors ligne à l’aide de Web SDK
 
 Le SDK Web ne prend pas en charge le suivi hors ligne.
 

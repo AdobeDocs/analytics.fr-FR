@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: Effacez les valeurs de l’objet d’instance.
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,11 +30,11 @@ Cette méthode ne prend aucun argument et ne renvoie aucune valeur. Son seul obj
 * `zip`
 * `campaign`
 
-## Effacement des variables à l’aide du SDK Web
+## Effacer des variables à l’aide de Web SDK
 
-Lorsque vous envoyez des données à Adobe à l’aide du SDK Web, toutes les données XDM sont effacées automatiquement.
+Lorsque vous envoyez des données à Adobe à l’aide de Web SDK, toutes les données XDM sont automatiquement effacées.
 
-## Effacement des variables à l’aide de l’extension Adobe Analytics
+## Effacer des variables à l’aide de l’extension Adobe Analytics
 
 Définissez l’action Effacer les variables lors de la configuration d’une règle.
 
@@ -42,7 +42,7 @@ Définissez l’action Effacer les variables lors de la configuration d’une r�
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL Type d’action] sur [!UICONTROL Effacer les variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Effacer les variables].
 
 ## s.clearVars() dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
