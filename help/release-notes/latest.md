@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d2f87c771ec2d5ab671cd8f022a2bd2e23a51ccb
+source-git-commit: 3d3a91e806be36ff1f913bcc336bde7520fb84a2
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 99%
+source-wordcount: '1000'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 20
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Prise en charge des destinations sécurisées dans le nouveau Report Builder** | De nouvelles destinations d’export ont été ajoutées au module complémentaire Report Builder. Les destinations suivantes de stockage dans le cloud sont prises en charge : <ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li></ul> Le protocole FTP n’est plus pris en charge pour des raisons de sécurité. (Lien vers la documentation à venir) |  | 19 Juin 2025 (Initialement Le 18 Juin) |
+| **Prise en charge de destinations cloud sécurisées dans le nouveau Report Builder** | Le module complémentaire Report Builder Javascript prend désormais en charge l’exportation de rapports vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li></ul><p>Auparavant, seules les destinations FTP et d’e-mail étaient disponibles. FTP n’est plus pris en charge en raison de problèmes de sécurité.</p><p>Pour plus d’informations, voir [Planification de classeurs en exportant vers des destinations cloud](/help/analyze/report-builder/report-builder-export.md).</p><p>En plus de ces modifications, lors de la création d’un emplacement dans Adobe Analytics, le champ Utiliser avec fournit désormais la possibilité d’utiliser l’emplacement avec Report Builder, comme décrit dans la section [ Configurer les emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).</p> |  | 19 Juin 2025 (Initialement Le 18 Juin) |
 | **Nouvelle expérience de prévisualisation** | Le panneau de prévisualisation, utilisé pour prévisualiser les segments, les mesures calculées, etc., utilise désormais une visualisation par barres horizontales au lieu d’une visualisation en anneau. |  | 18 juin 2025 |
 | **Boîte de dialogue Modèle d’attribution modifié** | Vous pouvez désormais définir le conteneur et la période séparément dans la boîte de dialogue du modèle d’attribution. |  | 18 juin 2025 |
 | **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface d’utilisation des attributs du client ou de la cliente est désormais accessible directement depuis le sélecteur d’applications dans Adobe Experience Cloud. |  | À confirmer |

@@ -1,46 +1,47 @@
 ---
-description: Configuration du compte d’importation dans le cloud et de l’emplacement où les données de classification peuvent être chargées
+description: Configurez le compte d’importation cloud et l’emplacement où les données de classification peuvent être chargées
 keywords: Analysis Workspace
-title: Configuration des emplacements d’importation et d’exportation dans le cloud
+title: Configuration des emplacements d’import et d’export cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1697'
 ht-degree: 31%
 
 ---
 
-# Configuration des emplacements d’importation et d’exportation dans le cloud
+# Configuration des emplacements d’import et d’export cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de la création et de la modification d’emplacements :<ul><li>Les administrateurs système peuvent empêcher les utilisateurs de créer des emplacements, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des emplacements](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Si vous ne pouvez pas créer d’emplacements comme décrit dans cette section, contactez votre administrateur système.</li><li>Un emplacement ne peut être modifié que par l’utilisateur qui l’a créé ou par un administrateur système.</li></ul>
+>Tenez compte des points suivants lors de la création et de la modification des emplacements :<ul><li>Les administrateurs système peuvent empêcher les utilisateurs de créer des emplacements, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des emplacements](/help/components/locations/locations-manager.md#configure-whether-users-can-create-locations). Si vous ne pouvez pas créer d’emplacements comme décrit dans cette section, contactez votre administrateur système.</li><li>Un emplacement ne peut être modifié que par l’utilisateur qui l’a créé ou par un administrateur système.</li></ul>
 
-Après avoir [configuré un compte cloud](/help/components/locations/configure-import-accounts.md), vous pouvez configurer un emplacement sur ce compte. Un seul emplacement peut être utilisé à l’un des usages suivants (un seul emplacement ne peut pas être associé à plusieurs fins) :
+Après avoir [configuré un compte cloud](/help/components/locations/configure-import-accounts.md), vous pouvez configurer un emplacement sur ce compte. Un emplacement unique peut être utilisé à l’une des fins suivantes (un emplacement unique ne peut pas être associé à plusieurs fins) :
 
-* Exportation de fichiers à l’aide de [ flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l’aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Importation de schémas à l’aide de [jeux de classifications](/help/components/classifications/sets/overview.md)
+* Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
+* Exportation de rapports à l&#39;aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [Report Builder](/help/analyze/report-builder/report-builder-export.md)
+* Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
-Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (par exemple, APNS de rôle Amazon S3, Google Cloud Platform, etc.) comme décrit dans la section [Configuration des comptes d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-accounts.md), puis à ajouter et à configurer l’emplacement dans ce compte (comme décrit dans cet article).
+Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (tel que le rôle Amazon S3 ARN, Google Cloud Platform, etc.) comme décrit dans [Configurer des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md), puis à ajouter et à configurer l’emplacement au sein de ce compte (comme décrit dans cet article).
 
-Pour plus d’informations sur la manière d’afficher et de supprimer des emplacements existants, voir [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
+Pour plus d’informations sur l’affichage et la suppression des emplacements existants, voir [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
 ## Commencer à créer ou modifier un emplacement
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
 
-1. Sur la page [!UICONTROL Emplacements], sélectionnez l’onglet [!UICONTROL **Emplacements**] .
+1. Sur la page [!UICONTROL Emplacements], sélectionnez l’onglet [!UICONTROL **Emplacements**].
 
-1. (Conditionnel) Si vous êtes administrateur système, vous pouvez activer l’option [!UICONTROL **Afficher les emplacements pour tous les utilisateurs**] pour afficher les emplacements créés par tous les utilisateurs de votre entreprise.
+1. (Conditionnel) Si vous êtes un administrateur système, vous pouvez activer l’option [!UICONTROL **Afficher les emplacements pour tous les utilisateurs**] pour afficher les emplacements créés par tous les utilisateurs de votre organisation.
    ![afficher les emplacements pour tous les utilisateurs](assets/locations-all-users.png)
 
-1. Pour ajouter un nouvel emplacement, sélectionnez [!UICONTROL **Ajouter un emplacement**]. (Si vous n’avez pas encore ajouté de compte, ajoutez-en un comme décrit dans [Configuration des comptes d’importation et d’exportation cloud](/help/components/locations/configure-import-accounts.md).)
+1. Pour ajouter un nouvel emplacement, sélectionnez [!UICONTROL **Ajouter un emplacement**]. (Si vous n’avez pas encore ajouté de compte, ajoutez-en un, comme décrit dans la section [Configurer des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md).)
 
-   La boîte de dialogue [!UICONTROL **Ajouter un emplacement**] s’affiche.
+   La boîte de dialogue [!UICONTROL **Ajouter un emplacement**] s’affiche
 
    Ou
 
@@ -48,71 +49,71 @@ Pour plus d’informations sur la manière d’afficher et de supprimer des empl
 
    La boîte de dialogue [!UICONTROL **Détails de l’emplacement**] s’affiche.
 
-1. Indiquez les informations suivantes :
+1. Indiquez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Nom**] | Nom de l’emplacement. |
    | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-   | [!UICONTROL **Utilisation avec**] | Indiquez si vous souhaitez utiliser cet emplacement avec les [!UICONTROL **flux de données**], [!UICONTROL **Data Warehouse**] ou les [!UICONTROL **jeux de classifications**]. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un seul emplacement ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour les jeux de Data Warehouse ou de classifications.</li><li>Pour éviter des conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **Data Warehouse**] dans ce champ. Les emplacements de courrier électronique ne sont pas pris en charge avec les flux de données et les jeux de classifications.</li></ul> |
-   | [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre entreprise**] | Activez cette option pour permettre à d’autres utilisateurs de votre entreprise d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements que vous partagez ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
-   | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement dans lequel vous souhaitez créer cet emplacement. Pour plus d&#39;informations sur la création d&#39;un compte, voir [Configuration de comptes d&#39;import et d&#39;export cloud](/help/components/locations/configure-import-accounts.md). |
+   | [!UICONTROL **Utiliser avec**] | Choisissez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Ensembles de classifications**] ou **[!UICONTROL Report Builder]**. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un emplacement unique ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour Data Warehouse ou les ensembles de classifications.</li><li>Pour éviter les conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **Data Warehouse**] dans ce champ. Les emplacements des e-mails ne sont pas pris en charge avec les flux de données et les ensembles de classifications.</li></ul> |
+   | [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre organisation**] | Activez cette option pour permettre à d’autres utilisateurs de votre organisation d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements partagés ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
+   | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement où vous souhaitez créer cet emplacement. Pour plus d’informations sur la création d’un compte, voir [Configuration des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md). |
 
-1. Pour remplir le formulaire de configuration de l’emplacement, reportez-vous à la section ci-dessous qui correspond au type de compte que vous avez sélectionné dans le champ [!UICONTROL **Comptes de localisation**] . (D’autres types de compte hérités sont également disponibles, mais ne sont pas recommandés.)
+1. Pour remplir le formulaire de configuration de l’emplacement, complétez la section ci-dessous qui correspond au type de compte que vous avez sélectionné dans le champ [!UICONTROL **Comptes d’emplacement**]. (D’autres types de comptes hérités sont également disponibles, mais ne sont pas recommandés.)
 
 ### Amazon S3 Role ARN
 
-Pour configurer un emplacement d’acquisition du rôle Amazon S3, spécifiez les informations suivantes :
+Pour configurer un emplacement ARN de rôle Amazon S3, spécifiez les informations suivantes :
 
-1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location), comme décrit ci-dessus.
+1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location) comme décrit ci-dessus.
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que le User ARN fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers dans ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, ils doivent avoir une longueur comprise entre 3 et 63 caractères, ne peuvent être composés que de lettres minuscules, de chiffres, de points (.) et de traits d’union (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles de nommage est disponible dans la documentation AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que l’ARN utilisateur fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers dans ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, ils doivent avoir une longueur comprise entre 3 et 63 caractères, ne peuvent être composés que de lettres minuscules, de chiffres, de points (.) et de traits d’union (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles de nommage est disponible dans la documentation AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
    {style="table-layout:auto"}
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou depuis le compte et l’emplacement que vous avez configurés. Pour exporter des données, utilisez [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
    >[!NOTE]
    >
-   >   Si vous avez déjà utilisé [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez télécharger un fichier FIN. Ce fichier FIN n’est pas nécessaire lors de l’importation à partir de comptes cloud.
+   >   Si vous utilisiez auparavant [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez charger un fichier FIN. Ce fichier FIN n&#39;est pas nécessaire lors de l&#39;import depuis des comptes cloud.
 
 
 ### Google Cloud Platform
 
 Pour configurer un emplacement Google Cloud Platform, spécifiez les informations suivantes :
 
-1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location), comme décrit ci-dessus.
+1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location) comme décrit ci-dessus.
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Compartiment**] | Le compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous que vous avez autorisé l’entité de sécurité fournie par Adobe pour charger des fichiers dans ce compartiment. |
+   | [!UICONTROL **compartiment**] | Compartiment de votre compte GCP dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous d’avoir accordé l’autorisation au principal de sécurité fourni par Adobe pour charger des fichiers dans ce compartiment. |
    | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
    {style="table-layout:auto"}
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou depuis le compte et l’emplacement que vous avez configurés. Pour exporter des données, utilisez [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
    >[!NOTE]
    >
-   >   Si vous avez déjà utilisé [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez télécharger un fichier FIN. Ce fichier FIN n’est pas nécessaire lors de l’importation à partir de comptes cloud.
+   >   Si vous utilisiez auparavant [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez charger un fichier FIN. Ce fichier FIN n&#39;est pas nécessaire lors de l&#39;import depuis des comptes cloud.
 
 
 ### SAS Azure
 
 Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes :
 
-1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location), comme décrit ci-dessus.
+1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location) comme décrit ci-dessus.
 
    | Champ | Fonction |
    |---------|----------|
@@ -123,20 +124,20 @@ Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes�
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou depuis le compte et l’emplacement que vous avez configurés. Pour exporter des données, utilisez [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
    >[!NOTE]
    >
-   >   Si vous avez déjà utilisé [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez télécharger un fichier FIN. Ce fichier FIN n’est pas nécessaire lors de l’importation à partir de comptes cloud.
+   >   Si vous utilisiez auparavant [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez charger un fichier FIN. Ce fichier FIN n&#39;est pas nécessaire lors de l&#39;import depuis des comptes cloud.
 
 
 ### RBAC Azure
 
 Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes :
 
-1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location), comme décrit ci-dessus.
+1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location) comme décrit ci-dessus.
 
    | Champ | Fonction |
    |---------|----------|
@@ -148,42 +149,42 @@ Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou depuis le compte et l’emplacement que vous avez configurés. Pour exporter des données, utilisez [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
    >[!NOTE]
    >
-   >   Si vous avez déjà utilisé [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez télécharger un fichier FIN. Ce fichier FIN n’est pas nécessaire lors de l’importation à partir de comptes cloud.
+   >   Si vous utilisiez auparavant [FTP pour importer des classifications](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) vers Adobe Analytics, vous devez charger un fichier FIN. Ce fichier FIN n&#39;est pas nécessaire lors de l&#39;import depuis des comptes cloud.
 
 ### Adresse électronique
 
-Pour configurer un emplacement de courrier électronique, indiquez les informations suivantes :
+Pour configurer un emplacement d’e-mail, spécifiez les informations suivantes :
 
-1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location), comme décrit ci-dessus.
+1. [Commencez à créer ou modifier un emplacement](#begin-creating-or-editing-a-location) comme décrit ci-dessus.
 
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Objet**] | Objet du message électronique. |
-   | [!UICONTROL **Notes**] | Contenu de l’email. |
+   | [!UICONTROL **Notes**] | Contenu de l’e-mail. |
 
    {style="table-layout:auto"}
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’email ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [Jeux de classifications](/help/components/classifications/sets/overview.md)).
+   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’e-mail ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) ou [les ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
 ### Types de compte hérités
 
-Ces types de compte hérités sont disponibles uniquement lors de l’exportation de données avec les [flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Ces options ne sont pas disponibles lors de l’importation de données avec des [ensembles de classifications](/help/components/classifications/sets/manage/schema.md).
+Ces types de compte hérités ne sont disponibles que lors de l’exportation de données avec [Flux de données](/help/export/analytics-data-feed/create-feed.md) et [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). Ces options ne sont pas disponibles lors de l’importation de données avec des [ensembles de classifications](/help/components/classifications/sets/manage/schema.md).
 
 +++FTP
 
-Les données de flux de données peuvent être diffusées vers un emplacement FTP hébergé par un Adobe ou par le client. Spécifiez le répertoire Utilisez le champ de chemin pour placer les fichiers de flux dans un dossier.
+Les données des flux de données peuvent être diffusées vers un emplacement Adobe ou FTP hébergé par le client. Spécifiez le répertoire Utilisez le champ de chemin d’accès pour placer les fichiers de flux dans un dossier.
 
 | Champ | Fonction |
 |---------|----------|
-| [!UICONTROL **Chemin d’accès au répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
+| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin d’accès spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -191,11 +192,11 @@ Les données de flux de données peuvent être diffusées vers un emplacement FT
 
 +++SFTP
 
-Les données de flux de données peuvent être diffusées vers un emplacement SFTP hébergé par un Adobe ou par le client. Le site de destination doit contenir une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+Les données des flux de données peuvent être diffusées vers un emplacement Adobe ou SFTP hébergé par le client. Le site de destination doit contenir une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
 
 | Champ | Fonction |
 |---------|----------|
-| [!UICONTROL **Chemin d’accès au répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
+| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin d’accès spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

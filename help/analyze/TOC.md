@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [Utiliser des segments](report-builder/work-with-segments.md)
    + [Filtrer des dimensions](report-builder/filter-dimensions.md)
    + [Gestion des blocs de données](report-builder/manage-reportbuilder.md)
-   + [Planification de classeurs](report-builder/schedule-reportbuilder.md)
+   + [Planifier des classeurs pour l’e-mail](report-builder/schedule-reportbuilder.md)
+   + [Planification de classeurs pour les exportations cloud](/help/analyze/report-builder/report-builder-export.md)
+   + [Gestion des classeurs planifiés](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Étiquettes restreintes](report-builder/restricted-labels.md)
    + [Paramètres de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder hérité {#legacy-report-builder}

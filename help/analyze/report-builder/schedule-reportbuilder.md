@@ -1,19 +1,23 @@
 ---
-title: Planification de classeurs à l’aide du Report Builder dans Adobe Analytics
+title: Planification de classeurs à l’aide de Report Builder dans Adobe Analytics
 description: Découvrez comment utiliser la fonction de planification dans Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '858'
+ht-degree: 69%
 
 ---
 
-# Planification de classeurs
+# Planification de classeurs par partage via e-mail
+
+>[!NOTE]
+>
+>Outre la planification de classeurs pour le partage par e-mail, comme décrit dans cette section, vous pouvez planifier l’exportation de classeurs vers des destinations cloud, comme décrit dans la section [Planification de classeurs pour l’exportation vers des destinations cloud](/help/analyze/report-builder/report-builder-export.md).
 
 Une fois le classeur enregistré et l’analyse terminée, vous pouvez facilement le partager avec d’autres membres de l’équipe à l’aide de la fonction de planification. La fonction Planification vous permet de créer une planification qui actualise automatiquement les données du classeur et d’envoyer par e-mail le fichier .xlsx du classeur Excel en tant que pièce jointe à une audience spécifiée à une date et une heure spécifiques. La configuration d’une planification permet aux destinataires de recevoir automatiquement des mises à jour régulières. Vous pouvez également utiliser la fonction de planification pour envoyer le classeur une seule fois sans planifier de mises à jour automatiques.
 
@@ -24,14 +28,14 @@ La fonction Planification vous permet également de configurer la protection par
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Planning des classeurs](https://video.tv.adobe.com/v/3417504?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Planning des classeurs](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 ## Planifier un classeur
 
-Utilisez le bouton Planification dans le centre de Reports Builder pour créer rapidement une planification afin de pouvoir distribuer automatiquement un fichier Excel de classeur (.xlsx) à une personne ou à un groupe.
+Utilisez le bouton Planifier dans le hub Report Builder pour créer rapidement une planification afin de pouvoir distribuer automatiquement un fichier Excel de classeur (.xlsx) à un individu ou à un groupe.
 
 1. Cliquez sur le bouton Planifier dans le centre Report Builder.
 
@@ -77,7 +81,7 @@ Utilisez le bouton Planification dans le centre de Reports Builder pour créer r
 
    ![Cliquez sur Envoyer selon le calendrier.](./assets/send-on-schedule.png){width="55%"}
 
-   Un toast de confirmation s’affiche au bas du centre Report Builder et le classeur planifié est répertorié sous l’onglet Classeurs.
+   Un toast de confirmation s’affiche au bas du hub Report Builder et le classeur planifié est répertorié sous l’onglet Classeurs.
 
    ![Toast de confirmation](./assets/confirmation-toast.png){width="55%"}
 
@@ -87,7 +91,7 @@ Utilisez le bouton Planification dans le centre de Reports Builder pour créer r
 
    Une fenêtre contextuelle s’affiche, vous demandant si vous souhaitez utiliser les métadonnées de planification de l’ancien classeur pour créer une nouvelle tâche planifiée.
 
-1. Si vous sélectionnez **[!UICONTROL Utiliser]**, le Report Builder renseigne automatiquement les informations de planification héritées.
+1. Si vous sélectionnez **[!UICONTROL Utiliser]**, Report Builder renseigne automatiquement les informations de planification héritées.
 
 1. Assurez-vous que ces informations sont correctes et programmez-les.
 
@@ -104,44 +108,6 @@ Vous pouvez également envoyer le classeur une seule fois.
 
 1. Cliquez sur **Envoyer maintenant**.
 
-## Afficher et modifier les classeurs planifiés {#view-edit}
+## Gestion des classeurs planifiés
 
-Vous pouvez afficher et gérer tous les classeurs planifiés au même endroit sous l’onglet Classeurs.
-
-1. Dans la section Planification du centre Report Builder, cliquez sur l’onglet Classeurs. Utilisez cette vue pour afficher la liste de tous les classeurs planifiés.
-
-1. Sélectionnez un classeur. Plusieurs outils s’affichent pour vous permettre de modifier le classeur, de modifier la tâche planifiée, de suspendre et de redémarrer la tâche planifiée, de télécharger un rapport de tâche planifiée ou de supprimer la tâche planifiée.
-
-   ![Capture d’écran affichant les icônes de planning du classeur.](./assets/schedule-icons.png){width="20%"}
-
-* (Facultatif) Cliquez sur l’icône en forme de crayon pour modifier la tâche de planification du classeur.
-
-* (Facultatif) Cliquez sur l’icône d’horloge pour afficher l’historique de chaque tâche planifiée.
-
-* (Facultatif) Cliquez sur l’icône de pause pour suspendre et redémarrer la tâche du planning de distribution. Cela s’avère utile si vous devez modifier le classeur avant son envoi. Cliquez de nouveau sur l’icône de pause lorsque vous souhaitez redémarrer la distribution.
-
-* (Facultatif) Cliquez sur l’icône de téléchargement pour télécharger une copie de la tâche de planification du classeur.
-
-* (Facultatif) Cliquez sur la corbeille pour supprimer la tâche de planification.
-
-  ![Capture d’écran affichant la liste des tâches planifiées.](./assets/selected-workbook.png){width="40%"}
-
-## Vérifier l’état des tâches planifiées {#status}
-
-L’affichage de l’historique vous permet de consulter l’état de chaque tâche planifiée. Une ligne distincte documente le changement d’état pour chaque tâche planifiée. Dans l’exemple ci-dessous, la *Nouvelle planification horaire* a été lancée le 5 janvier à 15 h 04. À 15 h 05, elle a été actualisée et envoyée aux destinataires. Une erreur s’est produite lors de l’actualisation du classeur suivant : *Classeur incorrect*. En cas d’échec de l’envoi d’un classeur, l’onglet Historique vous aide à résoudre les problèmes en indiquant le stade du processus où l’erreur s’est produite. Dans ce cas, il s’agit probablement d’une erreur de bloc de données, par exemple un composant manquant, qui a empêché l’actualisation du classeur.
-
-Une coche verte indique que le classeur a bien été envoyé. Un point d’exclamation dans un triangle rouge indique qu’une erreur s’est produite.
-
-Vous pouvez choisir les colonnes à afficher dans l’onglet Historique en cliquant sur l’icône de paramétrage des colonnes située à droite de la barre de recherche.
-
-![Cliquez sur l’icône de colonne pour afficher ou masquer des colonnes spécifiques.](./assets/history.png){width="55%"}
-
-Vous pouvez filtrer l’historique pour n’afficher que celui d’un seul classeur planifié en vous rendant dans l’onglet des classeurs, en le sélectionnant et en cliquant sur l’icône d’historique.
-
-Vous pouvez également afficher l’historique d’un classeur spécifique à partir de l’onglet Classeurs. Dans l’onglet Classeurs, sélectionnez le classeur, puis cliquez sur l’icône d’historique.
-
-![Icône d’historique des classeurs](./assets/history2.png){width="55%"}
-
-Le filtre du classeur s’affiche alors en haut de l’historique. Pour afficher à nouveau l’historique de toutes les tâches planifiées, cliquez sur le x en regard du filtre.
-
-![Le filtre du classeur.](./assets/history3.png){width="55%"}
+Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [ Gérer les classeurs planifiés ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
