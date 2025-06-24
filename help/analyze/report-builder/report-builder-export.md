@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # Planifier des classeurs en exportant vers des destinations cloud
 
@@ -33,15 +33,7 @@ Procédez comme suit lors de l’exportation de classeurs de Report Builder vers
 
 1. [Exporter un rapport depuis Report Builder](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## Exporter un rapport depuis Report Builder {#export-from-report-builder}
+## Exporter un rapport depuis Report Builder
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ Pour exporter des rapports depuis Report Builder :
 
    Un toast de confirmation s’affiche au bas du hub Report Builder et le classeur planifié est répertorié sous l’onglet Classeurs.
 
-## Avantages de l’export vers le cloud {#advantages}
+## Avantages de l’export vers le cloud
 
 L’exportation de données Adobe Analytics vers le cloud vous permet d’effectuer les opérations suivantes :
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## Gestion des classeurs planifiés
 
 Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [ Gérer les classeurs planifiés ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
-
