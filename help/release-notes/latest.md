@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3d3a91e806be36ff1f913bcc336bde7520fb84a2
+source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 90%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (version de juin 2025)
 
-**Dernière mise à jour** : 18 juin 2025
+**Dernière mise à jour** : mercredi 24 juin 2025
 
 Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -24,7 +24,7 @@ Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 20
 | **Nouvelle expérience de prévisualisation** | Le panneau de prévisualisation, utilisé pour prévisualiser les segments, les mesures calculées, etc., utilise désormais une visualisation par barres horizontales au lieu d’une visualisation en anneau. |  | 18 juin 2025 |
 | **Boîte de dialogue Modèle d’attribution modifié** | Vous pouvez désormais définir le conteneur et la période séparément dans la boîte de dialogue du modèle d’attribution. |  | 18 juin 2025 |
 | **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface d’utilisation des attributs du client ou de la cliente est désormais accessible directement depuis le sélecteur d’applications dans Adobe Experience Cloud. |  | À confirmer |
-| **Médias en streaming : prise en charge des données de planning** | Vous pouvez désormais charger des données planifiées antérieures de contenu de médias en streaming et en direct afin de suivre l’audience plus facilement et avec plus de précision. Les éléments suivants sont des exemples de contenu en direct qui sont pris en charge avec le chargement de données de planning :<ul><li>Plateformes FAST (Free Ad Supported TV)</li><li>Flux locaux</li><li>Sports en direct</li></ul>Le chargement des données de planning vous permet de suivre les audiences des programmes individuels qui ont été diffusés pendant la période que vous avez indiquée dans le fichier de chargement. Vous pouvez même recueillir des données d’audience pour des sujets ou des segments de programme spécifiques. Ces fonctionnalités sont disponibles quelle que soit la manière dont vous avez mis en œuvre Streaming Media Collection.<p>Auparavant, il était difficile de relier avec précision une session donnée à des programmes spécifiques lors de l’analyse du contenu en direct, et il n’était pas possible de relier une session donnée à des sujets individuels ou à des segments de programmes. En savoir plus |  | 25 juin 2025 |
+| **Médias en streaming : prise en charge des données de planning** | Vous pouvez désormais charger des données planifiées antérieures de contenu de médias en streaming et en direct afin de suivre l’audience plus facilement et avec plus de précision. Les éléments suivants sont des exemples de contenu en direct qui sont pris en charge avec le chargement de données de planning :<ul><li>Plateformes FAST (Free Ad Supported TV)</li><li>Flux locaux</li><li>Sports en direct</li></ul>Le chargement des données de planning vous permet de suivre les audiences des programmes individuels qui ont été diffusés pendant la période que vous avez indiquée dans le fichier de chargement. Vous pouvez même recueillir des données d’audience pour des sujets ou des segments de programme spécifiques. Ces fonctionnalités sont disponibles quelle que soit la manière dont vous avez mis en œuvre Streaming Media Collection.<p>Auparavant, il était difficile de relier avec précision une session donnée à des programmes spécifiques lors de l’analyse du contenu en direct, et il n’était pas possible de relier une session donnée à des sujets individuels ou à des segments de programmes. En savoir plus |  | 15 Août 2025 (Initialement Le 25 Juin 2025) |
 
 ## Correctifs dans Adobe Analytics
 
