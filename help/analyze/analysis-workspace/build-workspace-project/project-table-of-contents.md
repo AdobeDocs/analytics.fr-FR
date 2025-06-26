@@ -5,33 +5,73 @@ title: Table des matières du projet
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: '202'
+ht-degree: 94%
 
 ---
 
-# Table des matières du projet
+# Table des matières
 
-Vous pouvez afficher une table des matières dans chaque projet dans Analysis Workspace, ce qui vous permet de passer rapidement d’un panneau à l’autre et de consulter les visualisations qui existent dans le projet. Cela s’avère particulièrement utile lors de l’affichage de projets plus volumineux contenant de nombreux panneaux et visualisations.
+Vous pouvez afficher la table des matières d’un projet dans Analysis Workspace, ce qui vous permet de vous déplacer rapidement entre les panneaux et les visualisations qui existent dans le projet. La table des matières est particulièrement utile pour afficher des projets plus volumineux contenant de nombreux panneaux et visualisations.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table des matières](https://video.tv.adobe.com/v/35025?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer une table des matières](https://video.tv.adobe.com/v/26990/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+
+>[!ENDSHADEBOX]
+
+
+>[!TIP]
+>
+>Vous pouvez utiliser la visualisation d’en-tête de section pour identifier et articuler une section dans un panneau qui contient de nombreuses visualisations. Ces en-têtes de section s’affichent également sous la forme d’entrées dans la table des matières.
+>
+
+
+Pour afficher la table des matières d’un projet, procédez comme suit :
+
+1. Dans Analysis Workspace, accédez au projet dans lequel vous souhaitez afficher la table des matières.
+
+1. Dans le panneau Bouton, sélectionnez ![ViewList](/help/assets/icons/ViewList.svg) **[!UICONTROL Table des matières]**. Pour plus d’informations, consultez [Vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).<br/>
+
+   La **[!UICONTROL table des matières]** du projet s’affiche et chaque panneau est développé par défaut.
+
+1. Dans la **[!UICONTROL Table des matières]**, sélectionnez une visualisation.<br/>
+
+   Le défilement se fait automatiquement vers la visualisation sélectionnée, qui est brièvement mise en surbrillance.
+
+   ![Table des matières mise en surbrillance](assets/toc-highlighted.png)
+
+
+>[!MORELIKETHIS]
+>
+>* [Simplifier la navigation dans les tableaux de bord avec la nouvelle fonctionnalité Table des matières d’Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/simplify-dashboard-navigation-with-the-new-table-of-contents/ba-p/731284)
+
+
+
+<!--
+# Project table of contents
+
+You can view a table of contents within each project in Analysis Workspace, allowing you to quickly move between any panels and visualizations that exist in the project. This is especially useful when viewing larger projects that contain many panels and visualizations.
+
+>[!BEGINSHADEBOX]
+
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Table of contents](https://video.tv.adobe.com/v/26990?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 
-Pour afficher la table des matières d’un projet :
+To view the table of contents on a project:
 
-1. Dans Analysis Workspace, accédez au projet dans lequel vous souhaitez afficher la table des matières.
+1. In Analysis Workspace, go to the project where you want to view the table of contents.
 
-1. Dans le volet de navigation de gauche, sélectionnez l’icône de la table des matières ![icône de table des matières](assets/toc-icon.png).
+1. In the left nav, select the table of contents icon ![toc icon](assets/toc-icon.png). 
 
-   La table des matières du projet s’affiche et chaque panneau est développé par défaut.
+   The table of contents for the project is displayed, and each panel is expanded by default.
 
-   ![La table des matières du projet a été développée](assets/project-toc-expanded.png)
+   ![Project TOC expanded](assets/project-toc-expanded.png)
 
-1. Dans la table des matières, sélectionnez une visualisation pour y accéder dans le projet.
+1. In the table of contents, select a visualization to go to it within the project.
+-->

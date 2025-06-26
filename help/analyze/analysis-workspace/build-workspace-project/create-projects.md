@@ -4,120 +4,195 @@ title: Créer des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
+source-git-commit: 2bfc9c1d38957c997e78ee7d6a9550d173063109
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 93%
 
 ---
 
-# Créer des projets dans Analysis Workspace
+# Créer des projets {#create-projects}
 
-Les [projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) dans Analysis Workspace vous permettent d’afficher des analyses commerciales essentielles qui peuvent être partagées avec des parties prenantes au sein de votre entreprise ou en dehors.
 
-Pour des informations générales sur la manière de commencer à utiliser Analysis Workspace, consultez la [Vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md).
+Les [projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) dans Analysis Workspace vous permettent de créer et de visualiser des analyses critiques.  Ces analyses peuvent être partagées avec des parties prenantes au sein de votre organisation ou en dehors.
 
-Les sections suivantes expliquent comment créer un projet et commencer à ajouter les blocs de création clés des projets Analysis Workspace : panneaux, visualisations et composants.
+1. Dans Adobe Analytics, sélectionnez **[!UICONTROL Workspace]**.
 
-## Créer un projet à partir d’un projet vierge ou d’un rapport
+1. Sélectionnez **[!UICONTROL Projets]** dans le panneau de gauche, puis **[!UICONTROL Créer un projet]**.
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Workspace**].
+1. Sélectionnez **Projet Workspace vierge** pour créer votre projet Workspace à l’aide d’un navigateur.
 
-1. Choisissez de créer un projet vierge ou de créer un projet à partir d’un rapport :
+   Consultez [Carte de performance mobile vierge](/help/analyze/mobile-app/curator.md) pour plus d’informations sur la création d’un projet de carte de performance mobile que vous pouvez partager avec d’autres parties prenantes à l’aide d’une application mobile.
 
-   +++Créer un projet vierge
+1. Sélectionnez [!UICONTROL **Créer**].
 
-   1. Dans l’onglet [!UICONTROL **Workspace**], sélectionnez l’onglet [!UICONTROL **Projets**] sur le côté gauche de la page, puis [!UICONTROL **Créer un projet**].
 
-   1. Choisissez de créer un projet vierge ou une carte de performance mobile vierge.
+Maintenant que vous avez créé un projet Workspace vierge, assurez-vous de connaître l’interface utilisateur d’[Analysis Workspace](/help/analyze/analysis-workspace/home.md). Une fois l’interface connue, vous pouvez créer votre projet. Pour ce faire, procédez comme suit :
 
-      * **Projet vierge** : si vous prévoyez de partager votre analyse à partir du navigateur.
-      * [**Carte de performance mobile vierge**](/help/analyze/mobile-app/curator.md) : si vous prévoyez de partager votre analyse à partir de l’application mobile des tableaux de bord Adobe Analytics.
+![Exemple de projet](assets/example-project.png)
 
-   1. Sélectionnez [!UICONTROL **Créer**].
+* Ajoutez des [panneaux](/help/analyze/analysis-workspace/c-panels/panels.md) à votre projet. Par exemple, **[!DNL Example Panel]** ➊.
 
-+++
+* Ajoutez des [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) à vos panneaux. Par exemple :
+   * **[!DNL Line]** [Visualisation](/help/analyze/analysis-workspace/visualizations/line.md) sous forme de lignes➋
+   * **[!DNL US States]** [Visualisation sous forme de ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)tableau à structure libre➌
+* Ajoutez des [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) à vos visualisations. Par exemple :
+   * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
+   * **[!DNL Unique Visitors]** [mesure](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+   * **[!DNL Average Revenue Per Order]** [mesure calculée](/help/components/c-calcmetrics/cm-overview.md) ➏
+   * **[!DNL Visits from Mobile Devices]** [segment](/help/components/segmentation/seg-overview.md) ➐
+   * **[!DNL Last Month]** [période](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+   * **[!DNL Example]** [annotation](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
-   +++Créer un projet à partir d’un rapport
 
-   1. Dans l’onglet [!UICONTROL **Workspace**], sélectionnez l’onglet [!UICONTROL **Rapports**] sur le côté gauche de la page.
+## Informations et paramètres du projet {#project-info-settings}
 
-   1. Recherchez ou accédez au rapport à utiliser, puis sélectionnez-le lorsqu’il apparaît.
+>[!CONTEXTUALHELP]
+>id="workspace_project_countrepeatinstances"
+>title="Comptage des instances répétées"
+>abstract="Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports.<br/><br/>Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons."
 
-      Un ensemble de rapports standard est disponible par défaut. En outre, votre entreprise peut avoir créé des rapports personnalisés parmi lesquels choisir.
+>[!CONTEXTUALHELP]
+>id="workspace_project_repeatinstances"
+>title="Comptage des instances répétées"
+>abstract="Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports.<br/>Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons."
 
-   1. Sélectionnez [!UICONTROL **Projet**] > [!UICONTROL **Enregistrer**] pour enregistrer le rapport en tant que nouveau projet.
 
-      Pour plus d’informations sur les rapports, consultez « l’onglet Naviguer dans les rapports » sur la [page de destination d’Adobe Analytics](/help/analyze/landing.md).
+>[!CONTEXTUALHELP]
+>id="workspace_project_commenting"
+>title="Autoriser les commentaires"
+>abstract="Lorsque cette option est activée, une zone de commentaires est disponible dans le rail de droite du projet dans Analysis Workspace."
 
-+++
 
-1. Vous devez ensuite ajouter des panneaux, des visualisations et des composants à votre projet. Tout d’abord, ajoutez des panneaux à votre projet dans Analysis Workspace, comme décrit dans la section [Ajouter des panneaux au projet](#add-panels-to-the-project). Vous pouvez ensuite ajouter des visualisations à n’importe quel panneau. Enfin, vous pouvez ajouter des composants à n’importe quel panneau ou visualisation.
+Les paramètres du projet fournissent des informations sur le projet actif au niveau du projet.
 
-## Ajouter des panneaux au projet {#panels}
+![Fenêtre Informations et paramètres du projet.](./assets/projectinfo.png)
 
-Les [panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) sont la base de tout projet dans Analysis Workspace. Les panneaux permettent d’organiser le contenu (visualisations et composants) d’un projet.
+Les paramètres incluent :
 
-De nombreux panneaux fournis dans Analysis Workspace génèrent un ensemble complet d’analyses sur la base de quelques entrées d’utilisateur ou d’utilisatrice.
+| Paramètre | Description |
+|---|---|
+| Nom du projet | Nom donné au projet. Double-cliquez dessus pour le modifier. |
+| Personne propriétaire | Nom de la personne propriétaire du projet. |
+| Dernière modification | Date de la dernière modification du projet. |
+| Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. |
+| Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. |
+| Comptage des instances répétées | Spécifie si les instances répétées sont comptabilisées dans les rapports. Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons. |
+| Affichage des annotations | Spécifie si les annotations s’affichent pour ce projet ou non. |
+| [Palette de couleurs du projet](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Vous pouvez modifier la palette de couleurs catégoriques utilisée dans Workspace en choisissant parmi les palettes prêtes à l’emploi qui ont été optimisées pour le daltonisme ou en spécifiant votre palette personnalisée. Cette fonction affecte de nombreux éléments dans Workspace, y compris la plupart des visualisations. |
+| [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Vous permet de voir plus de données sur l’écran en réduisant l’espacement vertical du panneau de gauche, des tableaux à structure libre et des tableaux de cohortes. |
 
-Pour ajouter un panneau :
 
-1. Sélectionnez l’icône [!UICONTROL **Panneaux**] dans le rail de gauche.
+
+<!--
+# Create projects in Analysis Workspace
+
+[Projects](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) in Analysis Workspace allow you to view business-critical analyses that can be shared with stakeholders inside or outside your organization. 
+
+For general information about how to get started using Analysis Workspace, see [Analysis Workspace overview](/help/analyze/analysis-workspace/home.md).
+
+The following sections describe how to create a project and start adding the key building blocks for any Analysis Workspace project: panels, visualizations, and components.
+
+## Create a project from a blank project or a report
+
+1. In Adobe Analytics, select [!UICONTROL **Workspace**].
+
+1. Choose whether to create a blank project or to create a project from a report:
+
+   +++Create a blank project
+
+   1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Projects**] tab on the left side of the page, then select [!UICONTROL **Create project**].
+
+   1. Choose whether to create a blank project or a blank mobile scorecard
+
+      * **Blank project** if you plan to share your analysis from the browser 
+      * [**Blank mobile scorecard**](/help/analyze/mobile-app/curator.md) if you plan to share your analysis from the Adobe Analytics dashboards mobile app.
+
+   1. Select [!UICONTROL **Create**].
+
+   +++
+
+   +++Create a project from a report
+   
+      1. On the [!UICONTROL **Workspace**] tab, select the [!UICONTROL **Reports**] tab on the left side of the page.
+
+      1. Search for or navigate to the report you want to use, then select it when it appears.
+
+          A set of standard reports is available by default. In addition, your organization might have created custom reports for you to choose from.
+          
+      1. Select [!UICONTROL **Project**] > [!UICONTROL **Save**] to save the report as a new project.
+
+          For more information about reports, see "Navigate the Reports tab" in [Adobe Analytics landing page](/help/analyze/landing.md).
+
+   +++
+
+1. Next, you need to add panels, visualizations, and components to your project. First, add panels to your project in Analysis Workspace, as described in [Add panels to the project](#add-panels-to-the-project). You can then add visualizations to any panels. Finally, you can add components to any panels or visualizations.
+
+## Add panels to the project {#panels}
+
+[Panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) are the foundation to any project in Analysis Workspace. Panels are used to organize the content (visualizations and components) of a project. 
+
+Many of the panels provided in Analysis Workspace generate a full set of analyses based on a few user inputs. 
+
+To add a panel:
+
+1. Select the [!UICONTROL **Panels**] icon in the left rail.
 
    ![](assets/build-panels.png)
 
-1. Recherchez le panneau à ajouter. Lorsqu’il apparaît dans le rail de gauche, faites-le glisser dans votre projet.
+1. Search for the panel you want to add. When it appears in the left rail, drag it into your project.
 
-1. Ajoutez des visualisations à votre panneau, comme décrit dans la section [Ajouter des visualisations au projet](#add-visualizations-to-the-project).
+1. Add visualizations to your panel, as described in [Add visualizations to the project](#add-visualizations-to-the-project). 
 
-   Vous pouvez également ajouter des composants directement à un panneau, comme décrit dans la section [Ajouter des composants au projet](#add-components-to-the-project).
+   Alternatively, you can add components directly to a panel, as described in [Add components to the project](#add-components-to-the-project).
 
-## Ajouter des visualisations au projet
+## Add visualizations to the project
 
-Des [visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) (telles qu’un tableau à structure libre, un graphique à barres ou linéaire) peuvent être utilisées pour donner vie aux données visuellement.
+[Visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (such as a freeform table, a bar chart, or a line chart) can be used to visually bring data to life. 
 
 >[!TIP]
 >
->Les tableaux à structure libre sont le type de visualisation le plus courant et constituent la base de l’analyse de données interactive. Pour en savoir plus sur l’utilisation des tableaux à structure libre dans Analysis Workspace, voir [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>Freeform tables are the most common type of visualization, and are the foundation for interactive data analysis. For more details about how to work with Freeform tables in Analysis Workspace, see [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
-Pour ajouter une visualisation :
+To add a visualization:
 
-1. Sélectionnez l’icône **[!UICONTROL Visualisations]** dans le rail de gauche.
+1. Select the **[!UICONTROL Visualizations]** icon in the left rail.
 
    ![](assets/build-visualizations.png)
 
-1. Recherchez la visualisation à ajouter. Lorsqu’elle apparaît dans le rail de gauche, faites-la glisser vers un panneau de votre projet.
+1. Search for the visualization you want to add. When it appears in the left rail, drag it to a panel within your project. 
 
-1. Ajoutez des composants à la visualisation, comme décrit dans la section [Ajouter des composants au projet](#add-components-to-the-project).
+1. Add components to the visualization, as described in [Add components to the project](#add-components-to-the-project).
 
-## Ajouter des composants au projet
+## Add components to the project
 
-Les [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) représentent les données réelles de n’importe quel projet. Vous pouvez ajouter des composants aux visualisations ou aux panneaux.
+[Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) make up the actual data of any project. You can add components to visualizations or to panels.
 
 >[!TIP]
 >
->Pour plus d’informations sur chaque composant, sélectionnez l’icône Informations située en regard du nom d’un composant dans le rail de gauche ou reportez-vous au [Guide des composants Analytics](/help/components/home.md).
+>For information about each component, select the Info icon next to a component's name in the left rail, or see the [Analytics Components Guide](/help/components/home.md).
 
-Vous trouverez ci-dessous des informations de base sur l’ajout d’un composant à un projet dans Analysis Workspace. Pour plus d’informations sur l’ajout des différents types de composants (dimensions, mesures, segments et périodes), voir [Utiliser des composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+Following is basic information about how to add a component to a project in Analysis Workspace. For more detailed information about adding the various types of components (dimensions, metrics, segments, and date ranges), see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
-Pour ajouter un composant à un projet dans Analysis Workspace :
+To add a component to a project in Analysis Workspace:
 
-1. Sélectionnez l’icône **[!UICONTROL Composants]** dans le rail de gauche.
+1. Select the **[!UICONTROL Components]** icon in the left rail.
 
    ![](assets/build-components.png)
 
-1. Faites défiler l’écran jusqu’au composant que vous souhaitez ajouter ou recherchez-le, puis faites-le glisser vers un panneau ou une visualisation dans votre projet.
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
 
-   Par exemple, vous pouvez faire glisser un segment vers la zone de dépôt des segments dans un en-tête de panneau.
+   For example, you can drag a segment to the segment drop zone in a panel header.
 
-   ![déposer un segment dans la zone de dépôt](assets/segment-dropzone.png)
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
-   Pour plus d’informations sur l’ajout de composants aux projets, voir [Utiliser des composants dans Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+   For more information about adding components to projects, see [Use components in Analysis Workspace](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
-1. (Facultatif) Partagez le projet, comme décrit dans la section [Enregistrer et partager le projet](#save-and-share-the-project).
+1. (Optional) Share the project as described in [Save and share the project](#save-and-share-the-project).
 
-## Enregistrer et partager le projet
+## Save and share the project
 
-Lorsque vous créez une analyse dans Analysis Workspace, votre travail est [enregistré automatiquement](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+As you create an analysis in Analysis Workspace, your work is [automatically saved](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). 
 
-Une fois que vous avez terminé de créer le projet et que celui-ci collecte des informations exploitables, il est prêt à être utilisé par d’autres personnes. Vous pouvez partager le projet avec des utilisateurs ou utilisatrices, et des groupes de votre organisation, ou même avec des personnes en dehors de votre organisation. Pour plus d’informations sur le partage d’un projet, voir [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+When you finish building out the project and it's gathering actionable insights, the project is ready to be consumed by others. You can share the project with users and groups in your organization, or even with people outside your organization. For information about sharing a project, see [Share projects](/help/analyze/analysis-workspace/curate-share/share-projects.md).
+-->

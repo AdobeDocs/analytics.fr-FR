@@ -1,28 +1,28 @@
 ---
 description: Questions fréquentes sur la gestion des segments hérités.
-title: Questions fréquentes sur les segments hérités
+title: FAQ sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 100%
+source-wordcount: '1441'
+ht-degree: 91%
 
 ---
 
-# Questions fréquentes sur les segments hérités
+# FAQ sur les segments hérités
 
-Répond aux questions fréquentes sur les bonnes pratiques de gestion des segments hérités - segments créés avant 2014.
+Cet article répond aux questions fréquentes sur les bonnes pratiques de gestion des segments hérités (segments créés avant 2014).
 
-## Gestion des segments existants {#legacy}
+## Gestion des segments hérités {#legacy}
 
 +++ **Qu’est-il advenu de mes segments existants ?**
 
-Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement. [Plus...](/help/components/segmentation/seg-transition.md)
+Vos segments existants continueront à fonctionner comme auparavant. Tout rapport auquel ces segments sont appliqués continuera à fonctionner correctement.
 
-La plupart des segments prédéfinis et des segments de suite précédents seront migrés sous forme de modèles de segment dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
+La plupart des anciens segments prédéfinis et de suite seront migrés en tant que modèles de segment dans le créateur de segments. Les modèles de segments sont utilisés pour créer rapidement des segments personnalisés avec des audiences courantes. Ils ne peuvent pas être directement appliqués à un rapport, mais peuvent être facilement enregistrés dans un segment personnalisé.
 
-Les modèles de segments sont marqués par une icône spéciale dans le Créateur de segments :
+Les modèles de segment sont signalés par une icône spéciale dans le créateur de segments :
 
 ![](assets/seg_templates.png)
 
@@ -46,7 +46,7 @@ Vous êtes doté d’un signet qui référence le segment pour la suite de rappo
 
 Tous les segments Data Warehouse existants fonctionnent toujours dans Data Warehouse. La plupart des segments Data Warehouse fonctionnent également dans d’autres composants, comme Analysis Workspace.
 
-Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du Créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
+Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
 +++
 
@@ -58,7 +58,7 @@ Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Cr�
 * **Visites d’une recherche payante**
 * **Visites avec cookie d’identifiant visiteur**
 
-Ces segments seront migrés sous forme de modèles de segments dans le Créateur de segments. Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
+Ces segments seront migrés en tant que modèles de segment dans le créateur de segments. Les rapports existants auxquels sont appliqués ces segments continueront de fonctionner correctement.
 
 +++
 
@@ -118,7 +118,7 @@ Les conseils suivants vous aideront à migrer les dimensions courantes :
 
 ## Dimensions nouvelles et renommées {#renamed}
 
-Le tableau suivant contient une liste de dimensions renommées dans le Créateur de segments.
+Le tableau suivant contient une liste des dimensions renommées dans le créateur de segments.
 
 | Nouveau nom de la dimension | Ancien nom | Remarques |
 |--- |--- |--- |
@@ -146,7 +146,7 @@ Le tableau suivant contient une liste de dimensions renommées dans le Créateur
 
 {style="table-layout:auto"}
 
-## Modifications apportées à des dimensions basées sur des chaînes possédant des valeurs connues  {#string-based-dims}
+## Modifications apportées aux dimensions basées sur des chaînes dont les valeurs sont connues {#string-based-dims}
 
 Les dimensions basées sur des chaînes dotées d’un jeu connu de valeurs ont été modifiées en types énumérés. Lors de la création d’un segment utilisant ces dimensions, la liste est pré-remplie avec toutes les valeurs connues et le seul opérateur pris en charge est « égal à ». Vous pouvez ainsi segmenter rapidement les valeurs exactes que vous recherchiez sans sélectionner des valeurs non voulues lors de l’utilisation d’une correspondance moins stricte.
 
@@ -169,7 +169,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | longueur du signet du périphérique mobile | compatible java | référencement payant |
 | longueur de l’URL du périphérique mobile | langue |  |
 
-## Modifications apportées à des dimensions basées sur des entiers possédant des valeurs connues  {#integer-based-dims}
+## Modifications apportées à des dimensions basées sur des entiers dont les valeurs sont connues {#integer-based-dims}
 
 Les dimensions basées sur des entiers (la largeur du navigateur par exemple) avec un jeu connu de valeurs ont été fractionnées en plages énumérées afin que vous puissiez définir rapidement les segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du créateur de segments antérieure et nouvelle :
 

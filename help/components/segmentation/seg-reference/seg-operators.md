@@ -1,18 +1,18 @@
 ---
-description: Le Créateur de segments permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés.
+description: Le créateur de segments vous permet de comparer et de contraindre des valeurs à l’aide d’opérateurs sélectionnés.
 title: Opérateurs de comparaison pour les segments
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
 # Opérateurs de comparaison pour les segments
 
-Le Créateur de segments vous permet de comparer et de contraindre les valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
+Le créateur de segments vous permet de comparer et de contraindre des valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
 
 Selon l’opérateur sélectionné :
 
@@ -67,7 +67,7 @@ Par exemple, vous avez un nom de page appelé *Mon produit cool*.
 
 ## Opérateurs Comptage distincts
 
-Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : « Visiteurs ayant consulté plus de 5 produits distincts » ou « Visites où plus de 5 pages distinctes ont été vues ».
+Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exemples : *visiteurs et visiteuses ayant consulté plus de 5 produits distincts* ou *visites et visiteuses ayant consulté plus de 5 pages distinctes*.
 
 | Opérateur | La dimension, le segment ou l’événement de mesure sélectionné... |
 | --- | --- |

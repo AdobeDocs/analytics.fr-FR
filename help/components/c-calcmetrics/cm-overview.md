@@ -4,58 +4,51 @@ keywords: Mesures calculées ; mesures calculées avancées
 title: Mesures calculées et mesures calculées avancées
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '288'
+ht-degree: 36%
 
 ---
 
-# Mesures calculées et mesures calculées avancées
+# Vue d’ensemble des mesures calculées
 
-Les mesures calculées et les mesures calculées avancées sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.
+Mesures calculées et personnalisées que vous pouvez créer à partir de mesures existantes.
 
-Nos outils de mesures calculées offrent un moyen bien plus souple pour créer, gérer et organiser les mesures. Ils vous permettent, en tant que spécialistes marketing, chefs de produits et analystes, de poser des questions relatives aux données sans avoir à modifier votre implémentation [!DNL Analytics]. Les mesures personnalisées disponibles dans chaque package [!DNL Analytics] sont les suivantes :
+Les mesures calculées offrent un moyen très flexible de créer, de gérer et d’organiser des mesures. Les mesures calculées vous permettent, en tant que responsables du marketing, chefs de produit et analystes, de poser des questions sur les données sans avoir à modifier votre implémentation [!DNL Analytics].
 
-* Adobe [!DNL Analytics] Foundation : calculées
-* [Adobe Analytics Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html) : calculées + calculées avancées
-* [Adobe Analytics Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) : calculées + calculées avancées
-* [Adobe Analytics Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html) : calculées + calculées avancées
+Les mesures calculées sont disponibles dans chaque package de [!DNL Analytics], mais le pack Adobe Analytics Foundation pour Experience Cloud se limite aux mesures calculées de base, y compris les types de format [ (décimal, temps, pourcentage, devise)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), [ les modifications d’affectation (par défaut, linéaire, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), [types de mesures (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) et [opérateurs de base](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (ajout, soustraction, multiplication et division).
 
-Dans le tableau ci-dessous, vous trouverez une comparaison des fonctionnalités des mesures calculées et des mesures calculées avancées :
 
-| Options du créateur | Mesures calculées | Mesures calculées avancées |
-|---|---|---|
-| [Types de format (décimal, heure, pourcentage, devise)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | Oui | Oui |
-| [Modifications d’attribution (par défaut, linéaire, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Oui | Oui |
-| [Types de mesure (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | Oui | Oui |
-| Opérateurs de base (ajouter, soustraire, multiplier, diviser) | Oui | Oui |
-| [Appliquer les segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | Non | Oui |
-| [Fonctions de base (décompte, valeur absolue, moyenne, etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | Non | Oui |
-| [Fonctions avancées (régression, si/alors, score normalisé, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | Non | Oui |
+Pour plus d’informations](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-analytics.html) voir la [Description du produit Adobe Analytics .
+
+<!--
+Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
+
+| [Format types (decimal, time, percent, currency)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Attribution changes (default, linear, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Metric types (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+|  Basic operators (add, subtract, multiply, divide)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)  |
+| [Apply segments](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)  | ![StopCircle](/help/assets/icons/StopCircle.svg)  | Yes  |
+| [Basic functions (count, abs value, mean, etc)](/help/components/c-calcmetrics/cm-reference/cm-functions.md)  | No  | Yes  |
+| [Advanced functions (regression, if/then, t-score, etc)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)  | No  | Yes  |
+
+-->
 
 ## Fonctionnalités  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 Vous pouvez
 
-* Créez des mesures dans [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
-* Créer des mesures segmentées qui sont dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Elles peuvent être consultées de manière historique car elles sont basées sur des segments.
+* [Création de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md) dans [!UICONTROL Analysis Workspace], [!UICONTROL Report Builder], [!UICONTROL Détection des anomalies] et [!UICONTROL Analyse des contributions].
+* [Créer des mesures segmentées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) dérivées au moment de l’exécution du rapport, sans avoir à modifier l’implémentation. Par exemple, vous pouvez créer une mesure pour *Nouveaux visiteurs*, avec un décompte des personnes pour lesquelles il s’agit de la première session.
 
->[!BEGINSHADEBOX]
+* [Partage de mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md) entre les suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/37941?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
-
-* Partagez des mesures dans l’ensemble des suites de rapports. Cela signifie que toutes les mesures nouvellement créées s’appliquent à toutes les suites de rapports de la même société de connexion.
-* (Mesures calculées avancées uniquement) Segmenter sur les mesures. Par exemple, vous pouvez créer une mesure « Nouveaux visiteurs ou nouvelles visiteuses », avec un décompte des personnes pour lesquelles il s’agit de la première session.
-
-* (Mesures calculées avancées uniquement) Incorporer les fonctions statistiques afin de vous aider à mieux décrire vos données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
-
+* [Incorporez des fonctions statistiques](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) pour vous aider à mieux décrire vos données. Par exemple, vous pouvez comptabiliser le nombre d’éléments d’un rapport ou ajouter le nombre d’écarts types pour chaque élément.
 
 ## Limites
 
-Certaines fonctions d’[!DNL Analytics] permettent d’utiliser des événements, mais pas des mesures calculées :
+Certaines fonctionnalités [!DNL Analytics] ne permettent pas d’utiliser des mesures calculées :
 
 * [!UICONTROL Abandons] dans [!UICONTROL Analysis Workspace]
 * [!UICONTROL Analyse de cohortes] dans Analysis Workspace
@@ -66,13 +59,13 @@ Certaines fonctions d’[!DNL Analytics] permettent d’utiliser des événement
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/37941?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://video.tv.adobe.com/v/37940?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -88,3 +81,10 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 |API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
 
 -->
+
+>[!MORELIKETHIS]
+>
+>[Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+>>[Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[Utilisez des fonctions ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>

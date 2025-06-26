@@ -4,10 +4,10 @@ title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 15%
 
 ---
 
@@ -15,60 +15,71 @@ ht-degree: 100%
 
 [L’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) est un processus intensif de machine learning, conçu pour déterminer quels facteurs sont à l’origine d’une anomalie observée dans Adobe Analytics. Elle permet à l’utilisateur ou à l’utilisatrice de repérer, bien plus rapidement qu’il ne serait normalement possible, les opportunités ou les centres d’intérêt justifiant une analyse supplémentaire.
 
-## Exécution de l’analyse des contributions {#run}
+>[!NOTE]
+>
+>L’analyse des contributions n’est prise en charge que pour les données avec une granularité quotidienne.
 
-Dans un projet, vous pouvez invoquer l’analyse des contributions de deux façons :
+Pour exécuter l’analyse des contributions, procédez comme suit :
 
-* Dans un tableau à structure libre avec une granularité quotidienne, cliquez avec le bouton droit de la souris sur une ligne, puis sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**. Vous pouvez également l’exécuter sur les lignes qui ne présentent aucune anomalie.
+1. Appelez l’analyse des contributions dans un projet.
 
-  >[!NOTE]
-  >
-  >Actuellement, seule l’analyse des contributions avec une granularité quotidienne est prise en charge.
+   ![Exécuter l’analyse des contributions](assets/run-contribution-analysis.png)
 
-  ![](assets/run_ca.png)
+   1. Dans une visualisation Ligne, basée sur un tableau à structure libre avec une granularité quotidienne, sélectionnez un point de données d’anomalie. Dans la fenêtre contextuelle, sélectionnez **[!UICONTROL Analyser]**.
+   1. Dans un tableau à structure libre avec une granularité quotidienne, dans le menu contextuel sur n’importe quelle ligne, sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**. Vous pouvez même exécuter l’analyse sur des lignes qui n’affichent aucune anomalie.
+   1. Dans un tableau à structure libre avec une granularité quotidienne, sur une ligne qui indique une anomalie :
+      1. Sélectionnez la ◥ de l’indicateur.
+      1. Dans la boîte de dialogue ![Alerte](/help/assets/icons/Alert.svg) **[!UICONTROL Anomalie détectée]**, sélectionnez **[!UICONTROL Ouvrir l’analyse des contributions]**.
 
-* Dans un graphique en courbes, pointez avec la souris sur un point de données présentant une anomalie. Cliquez sur le lien **[!UICONTROL Analyser]** qui s’affiche.
 
-  ![](assets/contribution-analysis.png)
 
-1. (Facultatif) Après avoir cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** dans un tableau ou un graphique en courbes, vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#exclude).
+1. (Facultatif) Vous pouvez réduire la portée de l’analyse (et donc l’accélérer) en [excluant des dimensions](#exclude-dimensions).
 
-1. Patientez pendant le chargement de l’analyse des contributions. Selon la taille de la suite de rapports et le nombre de dimensions, cette opération peut être longue. L’analyse des contributions traite les 50 000 premiers éléments par dimension.
-1. Analysis Workspace charge ensuite un nouveau panneau Analyse des contributions directement dans ce projet.
+   ![Exclusion de dimensions de l’analyse des contributions](assets/excluding-dimensions.png)
 
-   * Visualisation qui présente le nombre de **Visites** ce jour-là.
-   * **Ligne de tendance des visites** mensuelle en fonction du contexte.
-   * Les **principaux éléments** à l’origine de cette anomalie, triés par [note de contribution](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis), plus la mesure en question, ainsi qu’une mesure Visiteurs uniques qui replace la mesure dans son contexte du point de vue de la taille.
+1. Sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**.
 
-   * Le tableau [Segments générés](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr) (grappes des principaux éléments) identifie les associations des principaux éléments en fonction de la note de contribution, des occurrences de l’anomalie et du pourcentage global contribuant à la mesure anormale. Ces données sont ensuite regroupées dans un segment d’audience (Segment de contribution 1, Segment de contribution 2, etc.). Cliquez sur le bouton « i » (informations) pour afficher une définition de chaque segment automatique, y compris les principaux éléments qui le composent :
+1. Patientez pendant le traitement de l’analyse des contributions. Le traitement peut prendre un temps considérable, selon la taille de votre suite de rapports et le nombre de dimensions. L’analyse des contributions effectue une analyse sur les 50 000 premiers éléments par dimension. Vous êtes également averti du nombre de [ jetons d’analyse de contribution](anomaly-detection.md#contribution-analysis-tokens) restants.
 
-     ![](assets/auto_segment.png)
+   ![Analyse des contributions en cours d’exécution](assets/contribution-analysis-executing.png)
 
-1. Puisque l’analyse des contributions fait maintenant partie d’Analysis Workspace, vous pouvez mettre à profit plusieurs de ses fonctions depuis un menu contextuel afin de rendre votre analyse plus significative, par exemple :
+1. Analysis Workspace charge un nouveau panneau **[!UICONTROL Analyse des contributions]** directement dans ce projet.
 
-   * [Ventiler chaque élément de dimension par une autre dimension.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Déterminer la tendance d’une ou de plusieurs lignes.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [Ajouter de nouvelles visualisations.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [Créer des alertes.](/help/components/c-alerts/intellligent-alerts.md)
-   * [Créer ou comparer des segments.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+   ![Panneau Analyse des contributions ](assets/contribution-analysis.png)
+
+   * Une visualisation [synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
+   * Une visualisation [ligne](/help/analyze/analysis-workspace/visualizations/line.md) des tendances mensuelles.
+   * Un **[!UICONTROL Principaux éléments]** [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) qui affiche les principaux éléments contribuant à cette anomalie, triés par [Score de contribution](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis). Les colonnes supplémentaires affichent la mesure en question, ainsi qu’une mesure **[!UICONTROL Visiteurs uniques]** afin de fournir un contexte.
+
+   * Le **[!UICONTROL tableau Segments générés (clusters d’éléments principaux)]** [à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) identifie les associations d’éléments principaux en fonction du score de contribution, des occurrences d’anomalie et du pourcentage global contribuant à la mesure d’anomalie. Cette association est ensuite capturée en tant que segment d’audience (segment de contribution 1, segment de contribution 2, etc.). Sélectionnez ![Infos](/help/assets/icons/Info.svg) pour afficher la définition du segment, y compris les éléments principaux dont le segment est constitué :
+
+
+1. Comme l’analyse des contributions fait désormais partie d’Analysis Workspace, vous pouvez tirer parti de plusieurs de ses fonctionnalités à partir d’un menu contextuel de tableau à structure libre pour rendre votre analyse encore plus significative, par exemple :
+
+   * [Ventilez chaque élément de dimension par une autre dimension](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [Mise en tendance d’une ou plusieurs lignes](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Ajouter de nouvelles visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+   * [Créer des alertes](/help/components/c-alerts/intellligent-alerts.md)
+   * [Créer ou comparer des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
->L’anomalie en cours d’analyse est mise en évidence au moyen d’un point bleu dans l’analyse des contributions et les projets avec alertes intelligentes qui y sont liés. Ceci permet d’indiquer plus clairement l’anomalie en cours d’analyse.
+>L’anomalie analysée est mise en évidence par un point bleu dans l’analyse des contributions et les projets d’alerte intelligente qui lui sont associés. Cette mise en surbrillance fournit une indication plus claire de l’anomalie en cours d’analyse.
 
-## Exclusion de dimensions de l’analyse des contributions {#exclude}
 
-Parfois, vous souhaiterez exclure certaines dimensions de l’analyse des contributions. Par exemple, vous pouvez ne pas attacher d’importance à des dimensions liées au navigateur ou au matériel et vous souhaitez accélérer l’analyse en les supprimant.
+## Exclure les dimensions
 
-1. Une fois que vous avez cliqué sur **[!UICONTROL Exécuter l’analyse des contributions]** (ou **[!UICONTROL Analyser]** dans un graphique en courbes), le panneau **[!UICONTROL Dimensions exclues]** s’affiche.
+Vous pouvez exclure certaines dimensions de l’analyse des contributions. Par exemple, vous pouvez ne pas attacher d’importance à des dimensions liées au navigateur ou au matériel et vous souhaitez accélérer l’analyse en les supprimant.
 
-1. Faites tout simplement glisser les dimensions non voulues dans le panneau **[!UICONTROL Dimensions exclues]**, puis enregistrez la liste en cliquant sur **[!UICONTROL Définir comme valeur par défaut]**. Ou bien, cliquez sur **[!UICONTROL Effacer tout]** pour recommencer la sélection des dimensions à exclure.
+Pour gérer la dimension exclue :
 
-   ![](assets/exclude_dimensions.png)
+* Faites glisser les dimensions indésirables dans le panneau **[!UICONTROL Dimensions exclues]**, puis enregistrez la liste en cliquant sur **[!UICONTROL Définir par défaut]**.
 
-1. Après avoir ajouté des dimensions à exclure (ou choisi de ne pas exclure), cliquez de nouveau sur **[!UICONTROL Exécuter l’analyse des contributions]**.
-1. Si vous avez besoin de réviser la liste des dimensions exclues, double-cliquez simplement sur Dimensions, et la liste des dimensions exclues s’affiche :
+* Sélectionnez **[!UICONTROL Effacer tout]** pour recommencer.
 
-   ![](assets/excluded-dimensions.png)
+* Sélectionnez ![Dimensions](/help/assets/icons/Dimensions.svg) pour afficher un menu contextuel et utilisez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer de la liste toute dimension exclue sélectionnée.
 
-1. Supprimez simplement les dimensions non voulues en cliquant sur le x en regard, puis enregistrez la liste en cliquant sur **[!UICONTROL Définir comme valeur par défaut]**.
+  ![](assets/excluded-dimensions-list.png)
+
+Après avoir modifié les dimensions à exclure, sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]** à nouveau.
+

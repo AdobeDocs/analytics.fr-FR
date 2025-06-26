@@ -4,134 +4,254 @@ title: Aperçu des composants
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
 # Aperçu des composants
 
-Les composants d’Analysis Workspace sont constitués des dimensions, mesures, segments et périodes que vous pouvez glisser-déposer dans un projet.
+Les composants sont des fonctionnalités d’Adobe Analytics qui peuvent être utilisées dans les visualisations (comme le tableau à structure libre) ou pour compléter les fonctionnalités de création de rapports.
 
-Pour accéder au menu des composants, cliquez sur l’icône **[!UICONTROL Composants]** dans le rail de gauche. Vous pouvez basculer entre les [Panneaux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr), les [Visualisations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=fr) et les composants à partir des icônes du rail de gauche ou en utilisant les [touches de raccourcis](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Pour gérer les composants à partir de l’interface principale d’Adobe Analytics :
+
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre supérieure.
+1. Sélectionnez **[!UICONTROL Composants]** pour afficher une vue d’ensemble des composants que vous pouvez gérer ou sélectionnez directement dans le menu le composant que vous souhaitez gérer.
+
+Vous pouvez gérer les composants suivants :
+
+* [Segments](/help/components/segmentation/seg-home.md) : créez, gérez, partagez et appliquez des segments d’audience puissants à vos rapports. Les segments vous permettent d’identifier des sous-ensembles de personnes selon des caractéristiques ou des interactions.
+* [Mesures calculées :](/help/components/c-calcmetrics/cm-overview.md) utilisent les mesures et les formules comme nouveaux composants à utiliser dans les rapports.
+* [Périodes](calendar-date-ranges/custom-date-ranges.md) : permettent de personnaliser et d’affiner les offres Analysis Workspace.
+* [Projets planifiés](../curate-share/t-schedule-report.md) : gérez vos projets planifiés.
+* [Emplacements](../../../components/locations/locations-manager.md) : gérez les emplacements vers lesquels exporter vos projets.
+* [Alertes](/help/components/c-alerts/intellligent-alerts.md) : permet d’être averti en fonction des pourcentages de modification ou de points de données spécifiques.
+* [Annotations](annotations/overview.md) : communiquez les nuances et les informations concernant les données contextuelles à votre organisation.
+* [Préférences](/help/analyze/analysis-workspace/user-preferences.md) : gérez les préférences d’Analysis Workspace.
+
+
+
+## Composants d’Analysis Workspace
+
+Les composants d’Analysis Workspace sont constitués de mesures, dimensions, segments et périodes que vous pouvez glisser-déposer dans des panneaux et des visualisations de votre projet Workspace. Les composants personnalisés que vous créez sont ajoutés à ces panneaux, tels qu’une mesure calculée ou une période personnalisée.
+
+Pour accéder au panneau Composants, sélectionnez ![Traiter](/help/assets/icons/Curate.svg) **[!UICONTROL Composants]** dans le panneau des boutons.
+
+![Panneau Workspace surlignant l’icône Composants dans le rail de gauche](assets/components.png)
+
+Consultez [Créer un projet](/help/analyze/analysis-workspace/home.md) pour plus d’informations sur l’utilisation de composants dans un projet.
+
+
+## Gestion des composants {#actions}
+
+Vous pouvez rapidement créer un composant à l’aide du menu **[!UICONTROL Composants]** dans Analysis Workspace. Pour plus d’informations, consultez le [menu Analysis Workspace](/help/analyze/analysis-workspace/home.md#menu).
+
+Vous pouvez gérer les composants (individuellement ou en en sélectionnant plusieurs).
+
+1. Sélectionnez un ou plusieurs composants.
+
+1. Dans le menu contextuel ou à partir du bouton d’actions de composant ![MoreVertical](/help/assets/icons/MoreVertical.svg) (en haut des composants), sélectionnez l’une des actions suivantes.
+
+
+   >[!TIP]
+   >
+   >Vous pouvez sélectionner plusieurs composants en maintenant la touche **[!UICONTROL Maj]** enfoncée ou en maintenant enfoncée la touche **[!UICONTROL Commande]** (sur Mac) ou **[!UICONTROL Ctrl]** (sur Windows).
+
+
+   ![Liste des actions des composants affichant Balise, Favori, Approuver, Partager et Supprimer.](assets/component-menu.png)
+
+   | Action des composants | Description |
+   |--- |--- |
+   | ![Label](/help/assets/icons/Label.svg) [!UICONTROL **Étiquette**] | Organisez ou gérez les composants en leur appliquant des étiquettes. Vous pouvez ensuite effectuer une recherche par étiquette dans le panneau de gauche en sélectionnant le filtre ![Filtre](/help/assets/icons/Filter.svg) ou en saisissant `#`. Les étiquettes servent également de filtres dans les gestionnaires de composants. |
+   | ![Étoile](/help/assets/icons/Star.svg) [!UICONTROL **Ajouter aux favoris**] | Ajoutez le composant à votre liste de favoris. Comme avec les étiquettes, vous pouvez effectuer une recherche par Favoris dans le panneau de gauche et les utiliser comme filtre dans le gestionnaire de composants. |
+   | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) **[!UICONTROL Retirer des favoris]** | Retire le composant de votre liste de favoris. |
+   | ![Coche](/help/assets/icons/Checkmark.svg) [!UICONTROL **Approuver**] | Marquez les composants comme Approuvés pour signaler à vos utilisateurs et utilisatrices que le composant est approuvé par l’organisation. Comme les étiquettes, vous pouvez rechercher et filtrer par Approuvé dans le panneau de gauche. Une ![Coche](/help/assets/icons/Checkmark.svg) identifie les composants approuvés. |
+   | ![Partager](/help/assets/icons/ShareAlt.svg) [!UICONTROL **Partager**] | Partagez des composants avec des utilisateurs de votre organisation. Cette option est uniquement disponible pour les composants personnalisés, tels que les segments ou les mesures calculées. |
+   | ![Supprimer](/help/assets/icons/Delete.svg) [!UICONTROL **Supprimer**] | Supprimez les composants dont vous n’avez plus besoin. Cette option est uniquement disponible pour les composants personnalisés, tels que les segments ou les mesures calculées. |
+
+Les composants personnalisés peuvent également être gérés par l’intermédiaire de leurs gestionnaires de composants respectifs. Par exemple, consultez [Gérer les segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+
+## Gestion de la liste des composants
+
+Vous pouvez rechercher, filtrer et trier la liste des composants dans le panneau de gauche d’Analysis Workspace afin de localiser un composant particulier.
+
+### Recherche
+
+1. Sélectionnez l’icône **Composants** ![Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le panneau de gauche.
+
+2. Dans le champ de recherche, commencez à saisir le nom du composant que vous souhaitez utiliser dans votre projet.
+
+   Une couleur et une icône permettent d’identifier le type de composant. **Les dimensions** ![icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **les segments** ![icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleus, **les périodes** ![icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violettes et **les mesures** ![icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes.<br/>L’icône Adobe ![Logo Adobe](/help/assets/icons/AdobeLogoSmall.svg) indique soit un modèle de mesure calculée, soit un modèle de segment. L’icône de calculateur ![Icône de calculateur](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indique une mesure calculée créée par un administrateur ou une administratrice de votre organisation.
+
+3. Sélectionnez le composant dans le menu déroulant.
+
+### Filtre
+
+1. Sélectionnez l’icône **Composants** ![Icône des composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le panneau de gauche.
+
+2. Sélectionnez **Filtre** ![Icône de filtre de dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) ou saisissez `#` dans le champ de recherche.
+
+3. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
+
+   | Icône | Option de filtre | Description |
+   |---------|---|----------|
+   | ![Coche](/help/assets/icons/Checkmark.svg) | **[!UICONTROL Approuvés]** | Afficher uniquement les composants marqués comme approuvés par l’administration. |
+   | ![Étoile](/help/assets/icons/Star.svg) | **[!UICONTROL Favoris]** | Affichez uniquement les composants figurant dans votre liste de favoris. <br/>Pour plus d’informations sur l’ajout de composants à votre liste de favoris, consultez [Gérer les composants](#manage-components). |
+   | ![Dimensions](/help/assets/icons/Dimensions.svg) | **[!UICONTROL Dimensions]** | Afficher uniquement les composants qui sont des dimensions. |
+   | ![Événement](/help/assets/icons/Event.svg) | **[!UICONTROL Mesures]** | Afficher uniquement les composants qui sont des mesures. |
+   | ![Segmentation](/help/assets/icons/Segmentation.svg) | **[!UICONTROL Segments]** | Afficher uniquement les composants qui sont des segments. |
+   | ![Calendrier](/help/assets/icons/Calendar.svg) | **[!UICONTROL Périodes]** | Affiche uniquement les composants qui sont des périodes. |
+   | ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL *Nom d’étiquette *]** | Affiche uniquement les composants avec les étiquettes spécifiques sélectionnées. Une étiquette dédiée est disponible pour le modèle d’Adobe qui sont les [mesures calculées par défaut](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md) d’Adobe. |
+
+   Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) dans un filtre pour supprimer le filtre.
+
+4. Vous pouvez éventuellement trier la liste des composants, comme décrit dans [Trier la liste des composants](#sort-the-component-list).
+
+### Tri
+
+<!-- {{release-limited-testing-section}}-->
+
+1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrer la liste des composants](#filter-the-component-list).
+
+2. Sélectionnez **Composants** ![Icône des composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le panneau de gauche.
+
+3. Sélectionnez **Trier** ![Icône Trier les composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants.
+
+Les options de tri disponibles sont les suivantes :
+
+{{components-sort-options}}
+
+## Autorisations d’accès
+
+Dans Analysis Workspace, les administrateurs et les administratrices peuvent [choisir](/help/analyze/analysis-workspace/curate-share/curate.md) les composants à présenter aux utilisateurs et aux utilisatrices dans les rapports.
+
+
+<!--
+# Components overview
+
+Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
+
+To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-Vous pouvez également régler les [paramètres d’affichage de la densité](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=fr) du projet pour afficher plus de valeurs en même temps dans le rail de gauche en allant dans **[!UICONTROL Projet > Informations et paramètres du projet > Affichage de la densité]**.
+You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
 
 ## Dimensions {#dimensions}
 
-Les [**dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=fr) sont des attributs textuels qui décrivent le comportement du visiteur. Elles peuvent être affichées, divisées et comparées dans votre analyse. Elles se trouvent dans le rail des composants de gauche (section orange) et sont généralement appliquées sous forme de lignes d’un tableau.
+[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
 
-Parmi les exemples de dimensions, citons notamment [!UICONTROL Nom de page], [!UICONTROL Canaux marketing], [!UICONTROL Type d’appareil] et [!UICONTROL Produits]. Les dimensions sont fournies par Adobe et sont capturées par le biais de votre implémentation personnalisée (eVar, props, classifications et bien d’autres).
+Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Dimensions are provided by Adobe and are captured through your custom implementation (eVar, Props, classifications, etc).
 
-Chaque dimension contient également des **éléments de dimension**. Les éléments de dimension se trouvent dans le rail des composants de gauche. Vous pouvez y accéder en cliquant sur la flèche de droite en regard de n’importe quel nom de dimension (les éléments sont jaunes).
+Each dimension also contains **dimension items** within it. Dimension items can be found in the left Component rail by clicking the right-arrow next to any dimension name (items are yellow).
 
-Parmi les exemples d’éléments de dimension, citons notamment [!UICONTROL Page d’accueil] (dans la dimension [!UICONTROL Page]), [!UICONTROL Référencement payant] (dans la dimension [!UICONTROL Canal marketing]), [!UICONTROL Tablette] (dans la dimension [!UICONTROL Type d’appareil mobile]), etc.
+Examples of dimension items include [!UICONTROL Homepage] (within the [!UICONTROL Page] dimension), [!UICONTROL Paid Search] (within the [!UICONTROL Marketing Channel] dimension), [!UICONTROL Tablet] (within the [!UICONTROL Mobile Device Type] dimension), and so on.
 
 ![](assets/dimensions.png)
 
-## Mesures {#metrics}
+## Metrics {#metrics}
 
-Les [**mesures**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=fr) sont des mesures quantitatives relatives au comportement des visiteurs. Elles se trouvent dans le rail des composants de gauche (section verte) et sont généralement appliquées sous forme de colonnes d’un tableau.
+[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
 
-Parmi les exemples de mesures, citons notamment [!UICONTROL Pages vues], [!UICONTROL Visites], [!UICONTROL Commandes], [!UICONTROL Durée moyenne de la visite] et [!UICONTROL Recettes/Commande]. Les mesures sont fournies par Adobe ou capturées par le biais de votre implémentation personnalisée ([!UICONTROL Événements de succès]). Elles peuvent également être créées à l’aide du [créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
+Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segments {#segments}
 
-Les [**segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=fr) sont des filtres d’audience appliqués à votre analyse. Ils se trouvent dans le rail des composants de gauche (section bleue) et sont généralement appliqués en haut d’un panneau ou au-dessus des colonnes de mesures dans un tableau.
+[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
 
-Parmi les exemples de segments, citons notamment [!UICONTROL Visiteurs d’appareils mobiles], [!UICONTROL Visites à partir d’un e-mail] et [!UICONTROL Accès authentifiés]. Les segments sont fournis par Adobe ou créés dans la [zone de dépôt du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr). Ils peuvent également être créés à l’aide du [créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
+Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
-## Périodes {#date-ranges}
+## Date Ranges {#date-ranges}
 
-Les [**périodes**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=fr) sont les périodes dans lesquelles vous effectuez votre analyse. Elles se trouvent dans le rail des composants de gauche (section violette) et sont généralement appliquées dans le calendrier de chaque panneau.
+[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
 
-Vous pouvez créer des composants de la période par rapport au calendrier du panneau. Pour plus d’informations, voir [À propos des périodes relatives au panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+You can make the date range components relative to the panel calendar. For additional information, see [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
-Parmi les exemples de périodes, citons notamment juillet 2019, [!UICONTROL 4 dernières semaines] et [!UICONTROL Ce mois-ci]. Les périodes sont fournies par Adobe, appliquées dans le [calendrier du panneau](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=fr) ou créées à l’aide du [créateur de périodes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=fr).
+Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 
 
-## Gérer les composants {#actions}
+## Manage components {#actions}
 
-Vous pouvez gérer les composants directement dans le rail de gauche.
+You can manage components directly in the left rail. 
 
-1. Cliquez avec le bouton droit sur un composant.
+1. Right-click a component.
 
-   Ou
-
-   Sélectionnez un composant, puis cliquez sur l’icône (de 3 points) **Action** en haut de la liste des composants.
+   Or
+   
+   Select a component, then select the **Action** (3-dot) icon at the top of the component list.
 
    >[!TIP]
    >
-   >   Vous pouvez sélectionner plusieurs composants en maintenant la touche Maj enfoncée ou en maintenant la touche Commande (sur Mac) ou Ctrl (sur Windows) enfoncée.
+   >   You can select multiple components by holding Shift, or by holding Command (on Mac) or Ctrl (on Windows).
 
 
    ![](assets/component-actions.png)
 
-   | Action des composants | Description |
+   | Component action | Description |
    |--- |--- |
-   | [!UICONTROL **Balise**] | Organisez ou gérez les composants en leur appliquant des balises. Vous pouvez ensuite effectuer une recherche par balise dans le rail de gauche en cliquant sur le filtre ou en saisissant #. Les balises servent également de filtres dans les gestionnaires de composants. |
-   | [!UICONTROL **Favori**] | Ajoutez le composant à votre liste de favoris. Comme avec les balises, vous pouvez effectuer une recherche par Favoris dans le rail de gauche et les utiliser comme filtre dans les gestionnaires de composants. |
-   | [!UICONTROL **Approuver**] | Marquez les composants comme Approuvés pour signaler à vos utilisateurs que le composant est approuvé par l’organisation. Comme avec les balises, vous pouvez effectuer une recherche par composants Approuvés dans le rail de gauche et les utiliser comme filtre dans les gestionnaires de composants. |
-   | [!UICONTROL **Partager**] | Partagez des composants avec des utilisateurs et utilisatrices de votre organisation. Cette option est uniquement disponible pour les composants personnalisés, tels que les segments ou les mesures calculées. |
-   | [!UICONTROL **Supprimer**] | Supprimez les composants dont vous n’avez plus besoin. Cette option est uniquement disponible pour les composants personnalisés, tels que les segments ou les mesures calculées. |
+   | [!UICONTROL **Tag**] | Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers. |
+   | [!UICONTROL **Favorite**] | Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Approve**] | Mark components as Approved to signal to your users that the component is organization-approved. Like tags, you can search by Approved in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Share**] | Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics. |
+   | [!UICONTROL **Delete**] | Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics. |
 
-Les composants personnalisés peuvent également être gérés par l’intermédiaire de leurs gestionnaires de composants respectifs. Par exemple, le [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md).
+Custom components can also be managed through their respective Component managers. For example, the [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
-## Rechercher, filtrer et trier la liste des composants
+## Search, filter, and sort the component list
 
-Vous pouvez rechercher, filtrer et trier la liste des composants dans le rail de gauche d’Analysis Workspace afin de localiser rapidement un composant particulier.
+You can search, filter, and sort the component list in the left rail of Analysis Workspace to quickly locate a particular component. 
 
-### Rechercher dans la liste des composants
+### Search the component list
 
-1. Sélectionnez l’icone **Composants** ![l’icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. Dans le champ de recherche, commencez à saisir le nom du composant que vous souhaitez utiliser dans votre projet.
+2. In the search field, begin typing the name of the component you want to use in your project.
 
-   Le type de composant peut être identifié à la fois par couleur et par icône. **Les dimensions** ![icône Dimension](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sont orange, **les segments** ![icône Segment](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sont bleus, **les périodes** ![icône Période](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sont violettes et **les mesures** ![icône Mesure](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sont vertes. L’icône Adobe indique soit un modèle de mesure calculée, soit un modèle de segment, et l’icône du calculateur ![icône Calculateur](assets/calculated-metric-icon-created.png) indique une mesure calculée qui a été créée par un administrateur ou une administratrice Analytics de votre entreprise.
+   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
-3. Sélectionnez le composant lorsqu’il apparaît dans la liste déroulante.
+3. Select the component when it appears in the drop-down list.
 
-### Filtrer la liste des composants
+### Filter the component list
 
-1. Sélectionnez l’icône **Composants** ![icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. Sélectionnez l’icône **Filtre** ![icône Filtre du dictionnaire de données](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
-   Ou
+   Or
 
-   Saisissez le signe dièse (#) dans le champ de recherche.
+   Type the pound sign (#) in the search field.
 
-3. Sélectionnez l’une des options de filtre suivantes pour filtrer la liste des composants :
+3. Select any of the following filter options to filter the list of components:
 
-   | Option | Fonction |
+   |Option | Function |
    |---------|----------|
-   | [!UICONTROL **Approuvés**] | Afficher uniquement les composants marqués comme approuvés par l’administration. |
-   | [!UICONTROL **Favoris**] | Affichez uniquement les composants figurant dans votre liste de favoris. Pour plus d’informations sur l’ajout de composants à votre liste de favoris, consultez la section [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-   | [!UICONTROL **Dimensions**] | Afficher uniquement les composants qui sont des dimensions. |
-   | [!UICONTROL **Mesures**] | Afficher uniquement les composants qui sont des mesures. |
-   | [!UICONTROL **Segments**] | Afficher uniquement les composants qui sont des segments. <!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **Périodes**] | Afficher uniquement les composants qui sont des périodes. |
-   | [!UICONTROL **Tout afficher**] | Permet d’afficher tous les composants. Cette option est réservée à l’administration. |
-   | [!UICONTROL **Non approuvé**] | Permet de n’afficher que les composants qui n’ont pas encore été marqués comme approuvés par l’administration. Cette option est utile pour l’administration pour identifier les composants qui doivent être examinés et approuvés. Cette option est réservée à l’administration. |
+   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+   | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. |
+   | [!UICONTROL **Metrics**] | Show only components that are Metrics. |
+   | [!UICONTROL **Segments**] | Show only components that are Segments.  |
+   | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. |
+   | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
+   | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
 
-4. (Facultatif) Pour affiner davantage la liste, vous pouvez trier la liste de composants, comme décrit dans la section [Trier la liste des composants](#sort-the-component-list).
+4. (Optional) To further hone the list, you can sort the component list, as described in [Sort the component list](#sort-the-component-list).
 
-### Trier la liste des composants
+### Sort the component list
 
-1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrer la liste des composants](#filter-the-component-list).
+1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
-2. Sélectionnez l’icône **Composants** ![icône Composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) dans le rail de gauche.
+2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-3. Sélectionnez l’icône **Trier** ![icône Trier les composants](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), puis sélectionnez l’une des options de filtre suivantes pour trier la liste des composants :
+3. Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
+
+-->

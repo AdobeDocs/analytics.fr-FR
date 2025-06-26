@@ -1,12 +1,12 @@
 ---
-description: Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec Data Warehouse. Ce tableau répertorie les fonctions prises en charge.
+description: Tous les segments créés dans le créateur de segments ne sont pas compatibles avec Data Warehouse. Ce tableau répertorie les fonctions prises en charge.
 title: Compatibilité des segments avec Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -45,14 +45,14 @@ Tous les segments créés dans le créateur de segments ne sont pas compatibles 
   </tr> 
   <tr> 
    <td> <b>Dimensions</b> </td> 
-   <td>Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, ces dimensions ne sont prises en charge que dans Analysis Workspace, Reports &amp; Analytics : 
+   <td>Faites glisser et déposez une dimension dans le champ Définitions de <span class="uicontrol"> du créateur de segments </span> pour en savoir plus sur la compatibilité de ses produits. Par exemple, ces dimensions ne sont prises en charge que dans Analysis Workspace, Reports &amp; Analytics : 
     <ul> 
      <li>Serveur d’accès </li> 
      <li>Catégorie d’accès </li> 
      <li>Date d’accès </li> 
      <li>Classement de toutes les pages de recherche </li> 
     </ul> </td> 
-   <td> Faites glisser-déposer une dimension dans le champ <span class="uicontrol">Définitions</span> du Créateur de segments pour découvrir sa compatibilité avec les produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans Data Warehouse : 
+   <td> Faites glisser et déposez une dimension dans le champ Définitions de <span class="uicontrol"> du créateur de segments </span> pour en savoir plus sur la compatibilité de ses produits. Par exemple, les dimensions suivantes ne sont prises en charge que dans Data Warehouse : 
     <ul> 
      <li>Adresse IP </li> 
      <li>URL de la page </li> 

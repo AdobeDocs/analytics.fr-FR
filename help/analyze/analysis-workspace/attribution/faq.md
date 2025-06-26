@@ -1,13 +1,13 @@
 ---
 title: FAQ sur l’Attribution
-description: Obtenez des réponses aux questions les plus fréquentes au sujet de l’attribution.
+description: Obtenez des réponses aux questions fréquentes sur l’attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 100%
+source-wordcount: '1238'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 +++## Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?
 
-L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne « Aucun », essayez d’utiliser un intervalle de recherche en amont personnalisé avec une période de recherche en amont plus longue.
+L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne « Aucune », essayez d’utiliser un intervalle de recherche en amont personnalisé avec une période de recherche en amont plus longue.
 
 +++
 
@@ -106,11 +106,11 @@ Oui, les classifications sont entièrement prises en charge.
 
 Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur ou visiteuse Analytics.
 
-Les sources de données des ID de transaction sont traitées comme tout autre accès. Les sources de données des ID de transaction n’utilisent pas le traitement spécial qui est normalement utilisé dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de la période de rapport, les accès à l’ID de transaction comportent des valeurs d’eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès à l’ID de transaction. Les valeurs ne seront pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
+Les sources de données des ID de transaction sont traitées comme tout autre accès. Les sources de données des ID de transaction n’utilisent pas le traitement spécial qui est normalement utilisé dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de la période de rapport, les accès aux ID de transaction ont des valeurs eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès aux ID de transaction. Les valeurs ne sont pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
 
-Lorsque cela est possible, l’attribution repose sur la valeur de colonne MID envoyée dans un événement dans la source de données, plutôt que sur une valeur persistante. Le modèle d’attribution est appliqué à la volée aux valeurs des colonnes MID dans la source de données. Par exemple, lorsque vous utilisez l’attribution « Dernière touche », le modèle commence à partir de chaque instance d’une mesure et remonte de manière séquentielle dans les accès jusqu’à ce que le modèle atteigne la dernière valeur observée dans la colonne MID.
+Lorsque cela est possible, l’attribution repose sur la valeur de la colonne MID envoyée dans un événement de la source de données, plutôt que sur une valeur persistante. Le modèle d’attribution est appliqué à la volée aux valeurs des colonnes MID dans la source de données. Par exemple, lorsque vous utilisez l’attribution [Dernière touche](models.md) le modèle commence à partir de chaque instance d’une mesure. Et revient en arrière de manière séquentielle dans les accès jusqu’à ce que le modèle atteigne la dernière valeur observée dans la colonne MID.
 
-Lorsque cela n’est pas possible, l’attribution utilise la valeur MID dans l’« enregistrement précédent » de la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par horodatage, étant donné qu’AA ne prend pas en charge les données en désordre.
+Lorsque cela n’est pas possible, l’attribution utilise la valeur MID dans l’enregistrement *précédent* dans la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par horodatage, étant donné qu’AA ne prend pas en charge les données en désordre.
 
 Étant donné que les enregistrements ne sont pas classés de manière séquentielle, les valeurs attendues de l’application de la persistance peuvent avoir une incidence sur le temps qui s’écoule entre l’horodatage de l’ID de transaction fourni et la transaction d’origine.
 

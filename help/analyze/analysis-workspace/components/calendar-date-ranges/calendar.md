@@ -4,98 +4,169 @@ title: Calendrier et périodes - Aperçu
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# Calendrier et périodes - Aperçu {#date-range}
 
-<!-- markdownlint-disable MD034 -->
+# Présentation des périodes
+
+Dans un projet Workspace, vous utilisez généralement le [calendrier dans un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#calendar) pour spécifier la période des visualisations dans ce panneau.
+
+Les composants de période vous permettent de définir et de remplacer les paramètres de calendrier du panneau.
+
+
+## Utilisation de périodes
+
+Vous pouvez utiliser un composant de période pour redéfinir le calendrier du panneau.
+
+Vous pouvez également utiliser une période dans un tableau à structure libre en tant que mesure ou dimension.
+
+![Utilisation de période](assets/date-ranges-usage.png)
+
+- **Mesure**. Par exemple, pour comparer une dimension pour deux mois différents pour une mesure spécifique.
+- **Dimension**. Pour comparer une mesure sur différents éléments de dimension pour la dimension de période.
+
+>[!NOTE]
+>
+>Lorsque vous utilisez des périodes dans un tableau à structure libre, elles remplacent le calendrier spécifié pour le panneau auquel appartient le tableau à structure libre.
+>
+
+Vous utilisez une période comme vous [utiliseriez n’importe quel composant](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components). Vous faites glisser la période à partir du panneau du composant ![Calendrier](/help/assets/icons/Calendar.svg) **[!UICONTROL Périodes]** et déposez le composant sur :
+
+- **[!UICONTROL Calendrier]** : vous ![Basculer](/help/assets/icons/Switch.svg) **[!UICONTROL Remplacez]** la configuration actuelle du calendrier par la période.
+- **En-tête de colonne de mesure** : vous ![Basculer](/help/assets/icons/Switch.svg) **[!UICONTROL Remplacez]** la mesure, ![Ajouter](/help/assets/icons/Add.svg)**[!UICONTROL Ajoutez ]**la période en tant que mesure ou ![Filtrer](/help/assets/icons/Filter.svg)**[!UICONTROL  Filtrez ]**la mesure à l’aide du composant de période.
+- **En-tête de colonne Dimension** : vous ![Basculer](/help/assets/icons/Switch.svg) **[!UICONTROL Remplacez]** les dimensions actuelles. La nouvelle dimension s’intitule désormais **[!UICONTROL Périodes]**. Une fois que la dimension est Périodes, vous pouvez ![Ajouter](/help/assets/icons/Add.svg)**[!UICONTROL Ajouter ]**des périodes supplémentaires en tant qu’éléments de dimension.
+- **Élément de dimension** : vous effectuez une ![Répartition](/help/assets/icons/Breakdown.svg) **[!UICONTROL Répartition]** de l’élément de dimension spécifique par période.
+
+Vous pouvez également ajouter une colonne de période directement dans une visualisation de tableau à structure libre :
+
+1. Dans une colonne de mesure, sélectionnez dans le menu contextuel :
+
+   - **[!UICONTROL Ajoutez une colonne de période]**. Vous pouvez choisir entre les options suggérées basées sur le calendrier actuel ou créer une [période personnalisée](#custom-date-ranges).
+   - **[!UICONTROL Comparez des périodes]**. Vous pouvez choisir entre une option suggérée basée sur le calendrier actuel ou créer une [période personnalisée](#custom-date-ranges).
+
+1. Selon votre sélection, d’autres colonnes de périodes sont ajoutées au tableau à structure libre.
+
+## Périodes par défaut
+
+Analysis Workspace propose un certain nombre de périodes par défaut.
+
+
+| Jour | Semaine | Mois | Trimestre | Année |
+|---|---|---|---|---|
+| Today | Cette semaine | Ce mois-ci | Ce trimestre | Cette année |
+| Hier | Cette semaine (sauf aujourd’hui) | Ce mois (sauf aujourd’hui) | Ce trimestre (sauf aujourd’hui) | Cette année (sauf aujourd’hui) |
+| 2 jours auparavant | 2 semaines auparavant | 2 mois auparavant |   |  |
+| 3 jours auparavant | 3 semaines auparavant | 3 mois auparavant |  | |
+| 7 derniers jours | Semaine dernière | Mois dernier | Dernier trimestre | Année dernière |
+| 14 derniers jours | 2 dernières semaines complètes | 2 derniers mois complets | 4 derniers trimestres complets | |
+| 30 derniers jours | 3 dernières semaines complètes | 3 derniers mois complets | | |
+| 60 derniers jours | 4 dernières semaines complètes | 6 derniers mois complets | | |
+| 90 derniers jours | 12 dernières semaines complètes | 12 derniers mois complets | | |
+| 7 derniers jours complets | 52 dernières semaines complètes | 13 derniers mois complets | | |
+| 14 derniers jours complets | | | | |
+| 30 derniers jours complets | | | | |
+| 90 derniers jours complets | | | | |
+
+<table style="table-layout:fixed">
+
+## Périodes personnalisées
+
+Vous pouvez créer vos propres périodes personnalisées. Consultez [Créer une période](create.md) pour connaître les différentes options disponibles pour créer des périodes. Vous pouvez ensuite créer, modifier et enregistrer des périodes dans le [créateur de périodes](create.md#date-range-builder).
+
+Utilisez le [gestionnaire de périodes](manage.md) pour gérer les périodes.
+
+
+
+<!--
+# Calendar and date ranges overview {#date-range}
 
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
->title="Heure de fin"
->abstract="Les heures de fin comprennent toujours 59 secondes."
-
-<!-- markdownlint-enable MD034 -->
+>title="End time"
+>abstract="End times always include 59 seconds."
 
 
-Dans le calendrier, vous pouvez spécifier des dates et des périodes, ou sélectionner un paramètre prédéfini.
+
+In the calendar, you can specify dates and date ranges, or select a preset.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble du calendrier et des périodes](https://video.tv.adobe.com/v/328075?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-Les sélections du calendrier s’appliquent par défaut au panneau seulement, mais vous pouvez aussi les appliquer à l’ensemble des panneaux. Lorsque vous cliquez sur une période dans Workspace, l’interface affiche le mois civil en cours et le mois civil précédent. Vous pouvez ajuster ces deux calendriers en cliquant sur les flèches droite et gauche dans chaque coin supérieur respectif.
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![Calendrier](assets/aw_calendar2.png){width="60%"}
+![Calendar](assets/aw_calendar2.png){width="60%"} 
 
-## Sélectionner et appliquer des périodes {#select-apply}
+## Select and apply date ranges {#select-apply}
 
-Le premier clic sur un calendrier démarre une sélection de période. Le deuxième clic termine une sélection de période, qui devient surlignée. Si la touche `Shift` est enfoncée (ou si un clic droit est utilisé), elle est ajoutée à la période actuellement sélectionnée.
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
-Vous pouvez également faire glisser des dates (et des dimensions temporelles) dans un projet Workspace. Sélectionnez des jours, des semaines, des mois ou des années spécifiques ou encore une date variable.
+You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Utilisation des périodes et des calendriers dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=fr) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
-| Paramètre | Description |
+| Setting | Description |
 |--- |--- |
-| Jours sélectionnés | Jours/semaines/mois/années sélectionné(e)s. |
-| Créer des composants de période par rapport au calendrier du panneau | S’il est désactivé, tout composant de période utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau remplace le calendrier du panneau. <p>S’il est activé, tout composant de période utilisé dans un tableau, une visualisation ou une zone de dépôt de panneau est lié à la période du panneau. Par exemple, si la période du panneau est définie du 1er au 30 novembre et qu’un composant de période Semaine dernière est utilisé dans un tableau à structure libre, les informations du tableau à structure libre font référence à la dernière semaine d’octobre. |
-| Utiliser les dates flottantes | Grâce aux dates de déploiement, vous pouvez générer un rapport dynamique qui recherche une période donnée, en amont ou en aval, en fonction de la date d’exécution du rapport. Si, par exemple, vous souhaitez générer en décembre un rapport sur toutes les commandes passées le mois dernier (d’après le champ Date de création), les commandes passées en novembre seront incluses dans le rapport. Si vous exécutez ce même rapport en janvier, vous verrez les commandes passées en décembre.<ul><li>**[!UICONTROL Aperçu de la date]** : indique la période englobée par le calendrier variable.</li><li>**[!UICONTROL Début]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li><li>**[!UICONTROL Fin]** : choisissez parmi aujourd’hui, semaine en cours, mois en cours, trimestre en cours et année en cours.</li></ul>Pour obtenir un exemple, consultez la section [Périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Sélectionné par défaut. |
-| Période | Permet de sélectionner une période prédéfinie. Par défaut : 30 derniers jours. **[!UICONTROL Cette semaine, ce mois, ce trimestre ou cette année (aujourd’hui non inclus)]** vous permet de choisir parmi des périodes qui n’incluent pas de données de la journée partielle d’aujourd’hui. |
-| Appliquer à tous les panneaux | Permet de modifier la période sélectionnée pour le panneau en cours ainsi que pour tous les autres panneaux du projet. |
-| Appliquer | Applique la période à ce panneau seulement. |
+|Selected Days|Selected days/weeks/months/years.|
+|Make date range components relative to panel calendar| If disabled, any date range components used within a table, visualization, or panel drop zone override the panel calendar. <p>If enabled, any date range components used within a table, visualization, or panel drop zone are in relation to the panel date range. For example, if the panel date range is set to November 1 through November 30, and a Last Week date range component is used in a freeform table, the information in the freeform table refers to the last week in October. |
+|Use rolling dates| Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul>To view an example, see [Custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selected by default.|
+|Date Range|Lets you pick a preset date range. Last 30 days is the default. **[!UICONTROL This week/month/quarter/year (excluding today)]** lets you choose from date ranges that do not include partial-day data from today.|
+|Apply to All Panels|Lets you not only change the selected date range for the current panel, but also for all other panels within the project.|
+|Apply|Applies the date range to this panel only.|
 
-## Concernant les périodes relatives du panneau {#relative-panel-dates}
+## About relative panel date ranges {#relative-panel-dates}
 
-Si vous travaillez dans Workspace, vous pouvez définir les composants de période par rapport au calendrier du panneau.
-Les graphiques combinés, le résumé des mesures clés et les périodes du tableau à structure libre sont trois cas d’utilisation courants où les périodes relatives du panneau prennent effet.
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
-Pour utiliser des périodes relatives du panneau
+To use relative panel date ranges
 
-1. Sélectionnez l’onglet **Workspace**.
-1. Sélectionnez **Projet vierge**.
-1. Ajoutez des dimensions, des mesures et des segments sur le rail de gauche.
-1. Cliquez sur le champ Période du panneau pour activer/désactiver le paramètre de période relative du panneau.
-1. Sélectionnez **Créer des composants de période par rapport au calendrier du panneau**.
-   * Sélectionnez l’option pour créer des composants de période par rapport au calendrier du panneau.
-Si des dates relatives sont sélectionnées, les dates flottantes sont basées sur la date de début du calendrier du panneau au lieu de celle d’aujourd’hui.
-   * Si cette option n’est pas sélectionnée, les dates flottantes seront basées sur la date d’aujourd’hui.
+1. Select the **Workspace** tab.
+1. Select **Blank project**.
+1. Add dimensions, metrics, and segments from the left rail. 
+1. Click the panel date range field to toggle the relative panel date range setting.
+1. Select **Make date range components relative to panel calendar**.
+    * Select the option to make the date range components relative to the panel calendar.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    * If this option isn't selected, then rolling dates will be based on today's date.
 
-   ![dates relatives du panneau](assets/relative-date-selected.png){width="60%"}
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
-1. Cliquez sur **Appliquer**.
-Les dates relatives s’affichent dans le coin supérieur droit.
+1. Click **Apply**.
+    The relative dates are shown in the upper-right.
 
-   ![dates relatives dans formulaires à structure libre ](assets/relative-date-range1.png)
+    ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## Instructions relatives aux périodes relatives de panneau {#guidelines}
+## Guidelines for relative panel date ranges {#guidelines}
 
-Gardez à l’esprit les instructions suivantes lorsque vous utilisez des périodes relatives de panneau.
+Keep in mind the following guidelines when using relative panel date ranges.
 
-### Formules et périodes relatives {#formula-relative-dates}
+### Formulas and relative date ranges {#formula-relative-dates}
 
-Si des dates relatives sont sélectionnées, toutes les formules de date utiliseront la date de début du panneau comme point de départ.
+If you have relative dates selected, all date formulas will use the panel's start date as the starting point.
 
-### Calendriers personnalisés et périodes relatives {#custom-calendar-formulas}
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
 
-Lorsque vous utilisez un calendrier personnalisé basé sur une semaine et que vous ajoutez des mois ou des années, la formule calcule le décalage du jour au cours de la période donnée. La date réelle peut être différente en raison du décalage. La formule sélectionne un jour qui se trouve au même endroit que le calendrier personnalisé. Par exemple, le troisième vendredi de la troisième semaine dans un calendrier personnalisé.
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
 
-### À propos des segments utilisant des dates flottantes et des périodes relatives de panneau {#segments-relative-dates}
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
-Si vous créez un segment ou utilisez un segment avec une date flottante, par exemple les 7 derniers jours ou les 2 dernières semaines, et que vous cliquez sur l’aperçu du segment, la date flottante commence à partir d’*Aujourd&#39;hui* au lieu de la date de début du panneau. Par conséquent, l’aperçu du segment ne correspond pas lorsque vous utilisez le segment dans le tableau. L’aperçu est affecté, et non le segment lui-même.
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
 
-## Instructions relatives aux périodes et aux aperçus de panneau {#guidelines-panel-dates}
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
 
-* À compter de la version de février, les aperçus de composants et de données seront basés sur la période du panneau et non sur les 90 derniers jours.
-* Tous les composants répertoriés dans le rail de gauche seront disponibles en fonction de la période du panneau.
-* Tous les aperçus de date dans les créateurs de segments et de mesures calculées sont basés sur la période du panneau (ceux-ci seront toujours basés sur les 90 derniers jours, sauf si vous y accédez à partir des gestionnaires de composants qui n’ont pas de panneau associé).
-* Tous les aperçus de données affichent des données ou des composants en fonction de la période du panneau.
+* Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+* All components listed in the left rail will be available based on the panel date range. 
+* All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+* Any data previews will display data or components based on the panel date range.
+
+-->

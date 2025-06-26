@@ -4,10 +4,10 @@ title: Ajouter des descriptions des composants
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ Les administrateurs et administratrices d’Analytics peuvent ajouter des descri
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://video.tv.adobe.com/v/39718?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 
-## Ajoutez les descriptions aux composants dans Analysis Workspace (à l’aide du dictionnaire de données) {#add-descriptions}
+## Ajouter des descriptions aux composants dans le dictionnaire de données {#add-descriptions}
 
 Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices, et aux administrateurs et administratrices, de suivre et de mieux comprendre les composants dans leur environnement Analytics. Cela permet aux administrateurs et administratrices d’Analytics d’ajouter des descriptions des composants directement dans Analysis Workspace.
 

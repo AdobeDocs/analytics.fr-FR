@@ -4,100 +4,272 @@ title: Enregistrement des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '851'
 ht-degree: 97%
 
 ---
 
+
 # Enregistrement des projets {#save-projects}
+
+<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_addnotes"
 >title="Ajout de remarques"
 >abstract="Ajoutez des notes sur la version du projet en cours d’enregistrement. Ces notes seront stockées avec la version et accessibles sous le menu **[!UICONTROL Projet]** > **[!UICONTROL Ouvrir la version précédente]**."
 
-Les projets dans Analysis Workspace sont automatiquement enregistrés toutes les 2 minutes.
+<!-- markdownlint-enable MD034 -->
 
-Vous pouvez également enregistrer des projets manuellement. D’autres options, telles que l’ajout de balises ou de notes, sont disponibles lorsque vous enregistrez un projet manuellement.
 
-## Enregistrer manuellement des projets {#Save}
+Les projets dans Analysis Workspace sont automatiquement enregistrés toutes les 2 minutes. Vous pouvez également enregistrer des projets vous-même, enregistrer un projet en tant que doublon ou enregistrer un projet avec des notes de version.
 
-Plusieurs options sont disponibles lors de l’enregistrement manuel d’un projet dans Analysis Workspace.
+## Enregistrer
 
-Enregistrer un projet manuellement :
+Une fois votre projet ouvert dans Analysis Workspace, sélectionnez **[!UICONTROL Projet]**, puis choisissez l’une des options suivantes :
 
-1. Une fois votre projet ouvert dans Analysis Workspace, sélectionnez **[!UICONTROL Projet]**, puis choisissez l’une des options suivantes :
+* **[!UICONTROL Enregistrer]**
 
-   | Action | Description |
-   |---|---| 
-   | **[!UICONTROL Enregistrer]** | Enregistrez les modifications apportées au projet. Si le projet est partagé, les destinataires du projet verront également les modifications. Lorsque vous enregistrez le projet pour la première fois, vous êtes invité à lui attribuer un nom, une description (facultative) et à ajouter des balises (facultatives). |
-   | **[!UICONTROL Enregistrer avec les notes]** | Avant l’enregistrement de votre projet, ajoutez des notes sur les modifications apportées au projet. Les notes sont stockées avec la version du projet et sont disponibles pour tous les éditeurs sous [!UICONTROL Projet] > [!UICONTROL Ouvrir la version précédente]. |
-   | **[!UICONTROL Enregistrer sous]** | Créez un doublon du projet. Le projet d’origine ne sera pas affecté. |
-   | **[!UICONTROL Enregistrer en tant que modèle]** | Enregistrez votre projet en tant que [modèle](/help/analyze/analysis-workspace/templates/create-templates.md) qui sera disponible pour votre organisation sous **[!UICONTROL Projet > Nouveau]** |
+  Enregistrez les modifications apportées au projet. Si le projet est partagé, les destinataires du projet verront également les modifications.
 
-## Enregistrement automatique {#Autosave}
+  Lorsque vous enregistrez votre projet pour la première fois, une boîte de dialogue **[!UICONTROL Enregistrer]** s’affiche.
+
+  ![Enregistrer le projet](assets/save-project.png)
+
+   1. Indiquez ce qui suit :
+
+      * **[!UICONTROL Nom]** (obligatoire). Nom de votre projet.
+      * **[!UICONTROL Description]**. Description de votre projet.
+      * **[!UICONTROL Balises]**. Recherchez des balises dans le champ [!UICONTROL *Rechercher des balises*] ou ajoutez de nouvelles balises avec **[!UICONTROL ENTRÉE]**.
+      * **[!UICONTROL Dossier]**. Sélectionnez un dossier dans le menu déroulant [!UICONTROL *Sélectionner un dossier*]. Si vous ne spécifiez pas de dossier, le projet est enregistré dans le dossier actuel à partir duquel vous avez créé un projet.
+      * **[!UICONTROL Notes de version]**. Ajoutez des notes de version dans la zone de texte *Ajouter des notes*.
+
+   1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer votre projet.
+
+  L’enregistrement de votre projet enregistre en fait une version de votre projet qui est stockée pendant 90 jours.
+
+  Si vous enregistrez un projet que vous avez partagé, une boîte de dialogue d’avertissement **[!UICONTROL Enregistrer les modifications dans le projet partagé]** vous invite à confirmer l’opération.
+
+  ![Ernegistrer un projet partagé](assets/save-project-shared.png)
+
+   * Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer le projet.
+   * Sélectionnez **[!UICONTROL Enregistrer sous]** pour enregistrer le projet en tant que projet en double avec un nouveau nom.
+
+
+* **[!UICONTROL Enregistrer avec les notes]**
+
+  ![Enregistrer avec les notes](assets/save-version-notes.png)
+
+  Lorsque vous enregistrez votre projet, ajoutez des notes sur les modifications apportées au projet. Dans la boîte de dialogue Enregistrer les notes de version :
+
+   1. Saisissez vos **[!UICONTROL Notes de version]** dans la zone de texte **[!UICONTROL Ajouter des notes]**.
+   1. Sélectionnez **[!UICONTROL Enregistrer]**.
+
+  Les notes sont stockées avec la version du projet et sont disponibles lorsque vous [ouvrez une version précédente](open-projects.md#open-previous-version) du projet. Une version enregistrée avec des notes est automatiquement stockée pendant un an.
+
+* **[!UICONTROL Enregistrer sous]**
+
+  ![Enregistrer le projet sous](assets/save-project-as.png)
+
+  Créez un doublon de votre projet avec un nouveau nom. La boîte de dialogue Enregistrer sous s’affiche.
+
+   1. Indiquez ce qui suit :
+
+      * **[!UICONTROL Nom]** (obligatoire). Nom de votre projet.
+      * **[!UICONTROL Description]**. Description de votre projet.
+      * **[!UICONTROL Balises]**. Recherchez des balises dans le champ [!UICONTROL *Rechercher des balises*] ou ajoutez de nouvelles balises avec **[!UICONTROL ENTRÉE]**.
+      * **[!UICONTROL Dossier]**. Sélectionnez un dossier dans le menu déroulant [!UICONTROL *Sélectionner un dossier*]. Si vous ne spécifiez pas de dossier, le projet est enregistré dans le dossier actuel à partir duquel vous avez créé un projet.
+      * **[!UICONTROL Notes de version]**. Ajoutez des notes de version dans la zone de texte *Ajouter des notes*.
+
+   1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer votre projet.
+
+  Vous pouvez enregistrer le projet dans un autre dossier. Le projet d’origine ne sera pas affecté.
+
+
+<!-- Cannot find this option in CJA 
+| **[!UICONTROL Save as template]** | Save your project as a [custom template](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+-->
+
+## Enregistrement automatique
+
+
+>[!IMPORTANT]
+>
+>Même si les nouveaux projets sont enregistrés automatiquement, vous devez enregistrer chaque nouveau projet manuellement la **première** fois.
+>
 
 Tous les projets dans Analysis Workspace sont automatiquement enregistrés toutes les 2 minutes sur votre ordinateur local. Cela inclut les nouveaux projets qui ne sont pas encore enregistrés manuellement.
 
-* **Nouveaux projets :** même si les nouveaux projets sont enregistrés automatiquement, vous devez enregistrer chaque nouveau projet manuellement la première fois. Analysis Workspace vous invite à enregistrer les nouveaux projets manuellement lorsque vous passez à un autre projet, lorsque vous fermez l’onglet du navigateur, etc.
+### Nouveaux projets
 
-  Si, pour une raison quelconque, vous perdez inopinément l’accès à un nouveau projet avant de l’enregistrer manuellement, une version de récupération de votre projet est enregistrée sur la page de destination d’Analysis Workspace dans un dossier appelé `Recovered Projects (Last 7 Days)`. Vous devez restaurer le projet récupéré et l’enregistrer manuellement à l’emplacement souhaité.
+Analysis Workspace vous invite à enregistrer les nouveaux projets manuellement lorsque vous passez à un autre projet, lorsque vous fermez l’onglet du navigateur, etc.
 
-  Restaurer un projet récupéré :
+Si, pour une raison quelconque, vous perdez inopinément l’accès à un nouveau projet avant de l’enregistrer manuellement, une version de récupération de votre projet est enregistrée sur la page de destination d’Analysis Workspace dans un dossier appelé **[!UICONTROL Projets récupérés (7 derniers jours)]**. Vous devez restaurer le projet récupéré et l’enregistrer manuellement à l’emplacement souhaité.
 
-   1. Accédez au dossier [!UICONTROL **Projets récupérés**] sur la page de destination d’Analysis Workspace.
+Restaurer un projet récupéré :
 
-      ![](assets/recovered-folder.png)
+1. Accédez au dossier **[!UICONTROL Projets récupérés (7 derniers jours)]** sur la page de destination d’Analysis Workspace.
 
-   1. Ouvrez votre projet et enregistrez-le à l’emplacement souhaité.
+<!-- 
+     ![The list of folders highlighting the Recovered Project folder.](assets/recovered-folder.png)
+  -->
 
-* **Projets existants :** si, pour une raison quelconque, vous quittez un projet dont les modifications n’ont pas encore été enregistrées automatiquement, Analysis Workspace vous invite à enregistrer vos modifications ou affiche un message d’avertissement.
+1. Ouvrez votre projet et enregistrez-le à l’emplacement souhaité.
 
-  Voici quelques scénarios courants :
 
-### Ouvrir un autre projet
+### Projets existants
 
-Si vous ouvrez un projet supplémentaire alors que vous travaillez sur un projet qui contient des modifications qui n’ont pas encore été enregistrées automatiquement, Analysis Workspace vous invite à enregistrer le projet en cours avant de le quitter.
+Si, pour une raison quelconque, vous quittez un projet dont les modifications n’ont pas encore été enregistrées automatiquement, Analysis Workspace vous invite à enregistrer vos modifications ou affiche un message d’avertissement.
+
+
+Quelques scénarios courants :
+
+#### Ouvrir un autre projet
+
+Si vous ouvrez un projet supplémentaire alors que vous travaillez sur un projet qui contient des modifications qui n’ont pas encore été enregistrées automatiquement, Analysis Workspace vous invite à enregistrer le projet en cours.
 
 Les options disponibles sont les suivantes :
 
-* **Enregistrer :** remplace la copie locale la plus récente de votre projet enregistrée automatiquement par vos dernières modifications.
-* **Enregistrer sous :** enregistre vos dernières modifications en tant que nouveau projet. Le projet d’origine est enregistré uniquement avec les modifications les plus récentes enregistrées automatiquement.
-* **Ignorer les modifications :** ignore les dernières modifications. Le projet conserve les modifications les plus récentes enregistrées automatiquement.
+* **[!UICONTROL Enregistrer]** : remplace la copie locale la plus récente de votre projet enregistrée automatiquement par vos dernières modifications.
+* **[!UICONTROL Ignorer les modifications]** : ignore les dernières modifications. Le projet conserve les modifications les plus récentes enregistrées automatiquement.
+* **[!UICONTROL Annuler]** : annulez l’action pour ouvrir un autre projet et conserver le projet existant ouvert.
 
-![](assets/existing-save.png)
+<!-- ![Click Save to save changes to a project.](assets/existing-save.png) -->
 
-### Quitter ou fermer un onglet
+#### Quitter ou fermer un onglet
 
-Si vous quittez la page ou fermez l’onglet du navigateur lors de l’affichage d’un projet avec des modifications qui n’ont pas encore été enregistrées automatiquement, le navigateur vous avertit que les modifications non enregistrées seront perdues. Vous pouvez choisir de quitter ou d’annuler.
+Si vous quittez la page ou fermez l’onglet du navigateur lors de l’affichage d’un projet avec des modifications qui n’ont pas encore été enregistrées automatiquement, le navigateur vous avertit que les modifications non enregistrées seront perdues. Vous pouvez choisir de quitter ou d’annuler. Le mode d’avertissement du navigateur dépend du navigateur que vous utilisez.
 
-![](assets/browser-image.png)
 
 ### Blocage du navigateur ou expiration d’une session
 
-En cas de blocage du navigateur ou d’expiration de la session, vous êtes invité, lors de votre prochain accès à Analysis Workspace, à récupérer les modifications apportées à votre projet qui n’ont pas encore été enregistrées automatiquement.
+En cas de blocage du navigateur ou d’expiration de la session, vous recevez une invitation, lors de votre prochain accès à Analysis Workspace, à récupérer les modifications apportées à votre projet qui n’ont pas encore été enregistrées automatiquement.
 
-Vous trouverez ci-dessous la boîte de dialogue Récupération du projet qui s’affiche la première fois que vous accédez à Analysis Workspace après un blocage ou une expiration de session.
+* Sélectionnez **[!UICONTROL Oui]** pour restaurer le projet à partir de la copie la plus récente enregistrée automatiquement.
 
-Sélectionnez **Oui** pour restaurer le projet à partir de la copie la plus récente enregistrée automatiquement.
+* Sélectionnez **[!UICONTROL Non]** pour supprimer la copie enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
 
-Sélectionnez **Non** pour supprimer la copie enregistrée automatiquement et ouvrir la dernière version du projet enregistrée par l’utilisateur.
+<!--![The Project Recovery dialog box.](assets/project-recovery.png)-->
 
-![](assets/project-recovery.png)
+
 
 Pour les **nouveaux** projets qui n’ont jamais été enregistrés, les modifications non enregistrées ne sont pas récupérables.
 
-## Ouvrir une version précédente {#previous-version}
 
-Pour ouvrir une version précédente d’un projet :
+<!-- Shouldn't this belong to another page?  Moved it to a new open projects page
 
-1. Accédez à **[!UICONTROL Projet]** > **[!UICONTROL Ouvrir la version précédente]**
+
+## Open previously saved version
+
+To open a previously saved version of a project:
+
+1. Select **[!UICONTROL Open previous version]** from the **[!UICONTROL Project]** menu.
+
+   ![The Previously saved project versions list and options to show All versions or Only versions with notes.](assets/open-previously-saved.png)
+
+1. Review the list of previous versions available. You can switch between **[!UICONTROL All versions]** and **[!UICONTROL Only versions with notes]**.
+
+   For each version, the list shows a timestamp
+   [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
+1. Select a previous version and click **[!UICONTROL Load]**.
+   The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project.
+
+-->
+
+
+
+<!--
+# Save projects {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="Add notes"
+>abstract="Add notes about the project version being saved. These notes will be stored with the version and accessible under the **[!UICONTROL Project]** > **[!UICONTROL Open previous version]** menu."
+
+Projects in Analysis Workspace are automatically saved every 2 minutes. 
+
+You can also manually save projects. Additional options such as adding tags or notes are available when you manually save a project.
+
+## Save projects manually {#Save} 
+
+Various options are available when manually saving a project in Analysis Workspace.
+
+To manually save a project:
+
+1. With your project open in Analysis Workspace, select **[!UICONTROL Project]**, then choose from the following options: 
+
+   | Action | Description | 
+   |---|---| 
+   | **[!UICONTROL Save]** | Save changes to your project. If the project is shared, recipients of the project will also see the changes. When you first save your project, you are prompted to give the project a name, (optional) description and add (optional) tags. | 
+   | **[!UICONTROL Save with notes]** | Before your project saves, add notes about what changed in the project. Notes are stored with the project version and are available to all editors under [!UICONTROL Project] > [!UICONTROL Open previous version]. | 
+   | **[!UICONTROL Save as]** | Create a duplicate of your project. The original project will not be affected. | 
+   | **[!UICONTROL Save as template]** | Save your project as a [template](/help/analyze/analysis-workspace/templates/create-templates.md) that becomes available to your organization under **[!UICONTROL Project > New]** | 
+
+## Auto-save {#Autosave} 
+
+All projects in Analysis Workspace are automatically saved every 2 minutes to your local machine. This includes newly created projects that are not yet saved manually. 
+
+* **New projects:** Even though new projects are auto-saved, you must save each new project manually the first time. Analysis Workspace prompts you to save new projects manually when switching to another project, closing the browser tab, and so forth. 
+
+  If for any reason you unexpectedly lose access to a newly created project before manually saving it, a recovery version of your project is saved on the Analysis Workspace landing page in a folder called `Recovered Projects (Last 7 Days)`. You must restore the recovered project and manually save it to a desired location. 
+
+  To restore a recovered project:
+  
+  1. Go to the [!UICONTROL **Recovered Projects**] folder on the Analysis Workspace landing page.
+
+     ![](assets/recovered-folder.png)
+
+  1. Open your project and save it to a desired location. 
+
+* **Existing projects:** If for any reason you leave a project with changes that are not yet auto-saved, Analysis Workspace either prompts you to save your changes or provides a warning message. 
+
+  Following are some common scenarios:
+
+### Open another project 
+
+If you open an additional project while working on a project that contains changes that are not yet auto-saved, Analysis Workspace prompts you to save the current project before leaving.
+
+The following options are available:
+
+* **Save:** Replaces the most recent auto-saved local copy of your project with your latest changes.
+* **Save As:** Saves your latest changes as a new project. The original project is saved only with the most recent auto-saved changes.
+* **Discard Changes:** Discards your latest changes. The project retains the most recent auto-saved changes.
+
+![](assets/existing-save.png)
+
+### Navigate away or close a tab 
+
+If you navigate away from the page or close the browser tab while viewing a project with changes that are not yet auto-saved, the browser warns that your unsaved changes will be lost. You can choose to leave or cancel. 
+
+![](assets/browser-image.png)
+
+### Browser crashes or session times out 
+
+If your browser crashes or if your session times out, then the next time you access Analysis Workspace you're prompted to recover any changes to your project that are not yet auto-saved.
+
+Following is the Project Recovery dialog box that displays the first time you access Analysis Workspace after a crash or a timeout.
+
+Select **Yes** to restore the project from the most recent auto-saved copy.
+
+Select **No** to delete the auto-saved copy and open the last user-saved version of the project.
+
+![](assets/project-recovery.png)
+
+For **new** projects that have never been saved, unsaved changes are not recoverable.
+
+## Open a previous version {#previous-version}
+
+To open a previous version of a project:
+
+1. Go to **[!UICONTROL Project]** > **[!UICONTROL Open previous version]**
 
    ![](assets/previous-versions.png)
+   
+1. Review the list of prior versions available. 
+   [!UICONTROL Timestamp] and [!UICONTROL Editor] are shown, in addition to [!UICONTROL Notes] if they were added when the [!UICONTROL Editor] saved. Versions without notes are stored for 90 days; versions with notes are stored for 1 year.
+1. Select a previous version and click **[!UICONTROL Load]**.
+   The previous version then loads with a notification. The previous version does not become the current saved version of your project until you click **[!UICONTROL Save]**. If you navigate away from the loaded version, when you return, you will see the last saved version of the project. 
 
-1. Consultez la liste des versions antérieures disponibles.
-   [!UICONTROL Date et heure] et [!UICONTROL Éditeur] s’affichent, en plus des [!UICONTROL Notes] s’ils ont été ajoutés lorsque l’[!UICONTROL Éditeur] a été enregistré. Les versions sans notes sont stockées pendant 90 jours. Les versions avec notes sont stockées pendant 1 an.
-1. Sélectionnez une version précédente et cliquez sur **[!UICONTROL Charger]**.
-La version précédente se charge ensuite avec une notification. La version précédente ne devient pas la version enregistrée actuelle de votre projet tant que vous n’avez pas cliqué sur **[!UICONTROL Enregistrer]**. Si vous quittez la version chargée, lorsque vous revenez, la dernière version enregistrée du projet s’affiche.
+-->

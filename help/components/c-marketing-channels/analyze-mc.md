@@ -3,10 +3,10 @@ title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 95%
+source-wordcount: '405'
+ht-degree: 90%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Afin d’optimiser l’efficacité des canaux marketing pour Attribution et Customer Journey Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
+>Afin d’optimiser l’efficacité des canaux marketing pour l’attribution et Adobe Analytics, nous avons publié quelques [bonnes pratiques révisées](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
@@ -24,7 +24,7 @@ Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus ef
 
 | Dimension/Mesure | Définition |
 | --- | --- |
-| Canal marketing | Il s’agit de la dimension Canaux marketing recommandée. Les modèles d’attribution peuvent être appliqués à celui-ci au moment de l’exécution. Cette dimension se comporte de la même manière que la dimension Canal Dernière touche, mais elle est étiquetée différemment pour éviter toute confusion lors de son utilisation avec un modèle d’attribution différent. |
+| Canal marketing | Il s’agit de la dimension Canaux marketing recommandée. Les modèles d’attribution peuvent lui être appliqués au moment de l’exécution. Cette dimension se comporte de la même manière que la dimension Canal Dernière touche, mais elle est étiquetée différemment pour éviter toute confusion lors de son utilisation avec un modèle d’attribution différent. |
 | Canal Dernière touche | Dimension héritée, avec modèle d’attribution Dernière touche préappliqué et non modifiable. |
 | Canal Première touche | Dimension héritée, avec modèle d’attribution Première touche préappliqué et non modifiable. |
 | Instances de canaux marketing | Cette mesure calcule le nombre de fois où un canal marketing a été défini dans une demande d’image, y compris les pages vues standards et les appels de liens personnalisés. N’inclut pas les valeurs persistantes. |

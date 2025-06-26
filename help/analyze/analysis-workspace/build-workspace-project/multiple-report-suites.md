@@ -4,10 +4,10 @@ description: Découvrez comment et pourquoi créer des projets dans Workspace av
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 87%
+source-wordcount: '440'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 Vous pouvez créer des projets dans Analysis Workspace avec des données provenant de plusieurs suites de rapports. Les suites de rapports sont sélectionnées au niveau du panneau. Vous pouvez donc choisir une suite de rapports différente pour chaque panneau au sein d’un même projet Workspace.
 
-Cette fonctionnalité est utile si vous souhaitez, par exemple :
+Cette fonctionnalité est utile si vous souhaitez :
 
 * Comparer les données de deux régions différentes et que les données sont dans deux suites de rapports différentes. Vous pouvez créer des tableaux et des visualisations pour comparer les données côte à côte.
 
@@ -24,7 +24,7 @@ Cette fonctionnalité est utile si vous souhaitez, par exemple :
 
 >[!BEGINSHADEBOX]
 
-Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/36931?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -37,16 +37,12 @@ Vous pouvez appliquer une suite de rapports à tous les panneaux en même temps 
 
 ## Panneau actif
 
-Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et de « panneau inactif ». Le panneau actif est reconnaissable par la bordure bleue claire qui l’entoure. Il suffit de cliquer à l’intérieur d’un panneau pour l’activer.
+Le panneau actif est reconnaissable par la bordure bleue claire qui l’entoure. Il vous suffit de sélectionner à l’intérieur d’un panneau pour le transformer en panneau actif.
 
 >[!TIP]
+>
 >Vous pouvez faire glisser et déposer vers n’importe quel panneau situé dans la même suite de rapports que votre panneau actif. En faisant glisser le panneau vers un panneau inactif de la même suite de rapports, le panneau devient actif.
-
-| Tâche | Panneau actif | Panneau inactif |
-| --- | --- | --- |
-| Modifier la suite de rapports | Oui | Non |
-| Glisser-déposer des composants | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |
-| Glisser-déposer des visualisations | Oui | Oui, pour tout panneau situé dans la même suite de rapports que votre panneau actif. |
+>
 
 ## Utilisation de plusieurs suites de rapports
 
@@ -58,7 +54,9 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 
 
    >[!NOTE]
+   >
    >Parfois, une bannière s’affiche lors du chargement d’un projet (ou du changement de suite de rapports) pour lequel tous les composants ne sont pas inclus dans la suite de rapports. Les composants manquants sont répertoriés. Suivez [ces instructions](/help/admin/admin-console/permissions/product-profile.md) pour définir les autorisations requises sur les mesures et dimensions.
+   >
 
    ![](assets/incompat-rs.png)
 
@@ -73,6 +71,6 @@ Avec cette fonctionnalité, nous lançons le concept de « panneau actif » et
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais un libellé de suite de rapports indiquant :
 
-   * L’emplacement de création d’un segment : [Créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
-   * L’emplacement de création d’une mesure calculée : [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
-   * L’emplacement de création d’une alerte : [Générateur d’alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=fr).
+   * Où un segment sera créé : [Créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
+   * Où une mesure calculée sera créée : [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
+   * Où une alerte sera créée : [Générateur d’alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=fr).

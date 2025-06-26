@@ -4,70 +4,120 @@ keywords: Analysis Workspace
 title: Ajouter des dossiers dans Workspace
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
+source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 93%
 
 ---
 
-# Ajouter des projets à des dossiers
 
-Vous pouvez ajouter des projets à un dossier dans la vue Tableau ou depuis un dossier.
+# Ajout ou déplacement des projets dans des dossiers
+
+Vous pouvez ajouter ou déplacer des projets vers un dossier à partir de la [liste de projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
+
+## Déplacer des projets vers un dossier
 
 >[!NOTE]
 >
->Seuls les administrateurs et administratrices d’Analytics peuvent ajouter des projets au dossier d’entreprise ou créer un projet et l’enregistrer dans le dossier d’entreprise.
+>Lorsqu’un administrateur ou une administratrice déplace un projet vers le dossier de l’entreprise, le dossier est partagé avec tous les utilisateurs et les utilisatrices, même si les privilèges de partage existants sont limités. Lorsqu’un administrateur ou une administratrice déplace un projet en dehors du dossier de l’entreprise, les privilèges de partage d’origine sont de nouveau appliqués.
+>
 
-## De la vue Tableau {#table-view}
+Pour déplacer des projets vers un dossier à partir de la [liste de projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) :
 
-Ajoutez des projets à un dossier à partir de la vue Tableau sur la page d’accueil.
+1. Sélectionnez ![icône de sélection](/help/assets/icons/SelectBox.svg) un ou plusieurs projets que vous souhaitez déplacer vers un dossier.
 
-1. Sélectionnez un ou plusieurs projets à ajouter à un dossier.
+1. Sélectionnez ![icône ajouter dans un dossier](/help/assets/icons/FolderAddTo.svg) **Déplacer vers** dans la liste des [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possibles. La boîte de dialogue **[!UICONTROL Sélectionner un dossier]** s’affiche.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+1. Sélectionnez un nom de dossier dans le menu déroulant **[!UICONTROL Dossier]**. Le menu déroulant vous permet de parcourir la hiérarchie des dossiers pour sélectionner un sous-dossier à n’importe quel niveau.
 
-1. Sélectionnez **Déplacer vers**.
+   ![Vue Sélectionner un dossier affichant le menu déroulant et les sous-dossiers disponibles.](../assets/add-projects.png)
 
-   La boîte de dialogue Sélectionner un dossier s’affiche.
+1. Sélectionnez **[!UICONTROL Déplacer]**.
 
-1. Dans le menu déroulant, sélectionnez le dossier dans lequel vous souhaitez déplacer les projets sélectionnés.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
-
-1. Sélectionnez **Déplacer**.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
    Les projets sélectionnés sont ajoutés au dossier.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
 
-   La page de destination Workspace affiche désormais le dossier contenant (3) projets.
+## Ajouter des projets à un dossier
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+Pour ajouter des projets à un dossier à partir de la [liste de projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list) :
 
-## À l’intérieur d’un dossier {#inside-folder}
+1. Sélectionnez ![icône de sélection](/help/assets/icons/SelectBox.svg) le dossier dans lequel vous souhaitez ajouter des projets.
 
-Vous pouvez également ajouter des projets depuis un dossier à l’aide du lien qui représente des points de suspension.
+1. Sélectionnez ![Icône Ajouter des projets](/help/assets/icons/ProjectAdd.svg) **Ajouter des projets** dans la liste des [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) possibles. La boîte de dialogue **[!UICONTROL Sélectionner un dossier]** s’affiche.
 
-1. Sélectionnez et ouvrez un dossier depuis la vue Tableau.
+1. Sélectionnez un ou plusieurs projets via [!UICONTROL *Sélectionner les projets à ajouter au dossier*].
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+   ![Vue Sélectionner un dossier affichant le menu déroulant et les sous-dossiers disponibles.](../assets/add-projects-folder.png)
 
-1. Sélectionnez l’icône qui représente des points de suspension **…** en haut à droite.
+1. Sélectionnez **[!UICONTROL Ajouter]**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-1. Sélectionnez **Ajouter des projets** et choisissez le projet à ajouter dans la liste déroulante.
-
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+>[!NOTE]
+>
+>Seuls les administrateurs et administratrices peuvent ajouter des projets au dossier d’entreprise ou créer un projet et l’enregistrer dans le dossier d’entreprise.
 
 
-1. (Facultatif) Sélectionnez des projets supplémentaires dans la liste déroulante pour ajouter plusieurs projets.
+<!--
+# Add Projects to Folders
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+You can add projects to a folder in the table view or from within a folder.
 
-1. Sélectionnez **Ajouter** pour ajouter les projets au dossier.
+>[!NOTE]
+>
+>Only Analytics administrators can add projects to the Company Folder or create a new project and save it to the Company Folder
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+## From the table view {#table-view}
+
+Add projects to a folder from the table view on the home page.
+
+1.  Select one or more projects that you want to add to a folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
+
+1.  Select **Move to**. 
+
+    The Select Folder dialogue is displayed.
+
+1.  In the drop-down menu, select the folder where you want to move the selected projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
+
+1.  Select **Move**.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
+
+    The selected projects are added to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-projects-added.png)
+
+    The Workspace landing page now shows the folder contains (3) projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
+
+## From inside a folder {#inside-folder}
+
+You can also add projects from inside a folder using the ellipses link.
+
+1.  Select and open a folder from the table view.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
+
+1.  Select the **...** ellipsis icon in the upper-right.
+   
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
+
+1.  Select **Add projects** and select the project that you want to add from the drop-down list.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
+
+    
+1.  (Optional) Select additional projects from the drop-down list to add multiple projects.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
+
+1.  Select **Add** to add the projects to the folder.
+
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
+
+-->

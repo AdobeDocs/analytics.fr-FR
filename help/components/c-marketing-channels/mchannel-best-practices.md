@@ -3,10 +3,10 @@ title: Bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analy
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Afin de garantir une mise en œuvre durable de vos canaux marketing et une cohé
 
 Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions « Canal marketing » et « Détails sur les canaux marketing » génériques afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions de canal Dernière touche, mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
 
-Étant donné que les dimensions de canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles. Ces pratiques révisées permettent d’obtenir des intervalles de recherche en amont clairs et contrôlés avec Attribution et Customer Journey Analytics.
+Étant donné que les dimensions de canal marketing dépendent d’une définition de visite traditionnelle (définie par leurs règles de traitement), la définition de visite ne peut pas être modifiée à l’aide de suites de rapports virtuelles. Ces pratiques révisées permettent d’obtenir des intervalles de recherche en amont clairs et contrôlés avec Attribution et Adobe Analytics.
 
 ## Bonne pratique n° 1 : utiliser Attribution pour une analyse contrôlée
 
