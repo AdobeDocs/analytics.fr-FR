@@ -52,7 +52,7 @@ Pour supprimer le traitement du projet et restaurer l’ensemble complet des com
 
 ## Traitement des suites de rapports virtuelles
 
-Pour appliquer un traitement au niveau d’une suite de rapports, de sorte qu’il s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components).
+Pour appliquer un traitement au niveau d’une suite de rapports, de sorte qu’il s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](https://experienceleague.adobe.com/fr/docs/analytics/components/virtual-report-suites/vrs-components).
 
 >[!NOTE]
 >
