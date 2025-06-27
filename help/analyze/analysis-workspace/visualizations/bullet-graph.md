@@ -45,7 +45,7 @@ Le graphique à puces présente une mesure principale unique (par exemple, le ch
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation sous forme de graphiques à puces](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation sous forme de graphiques à puces](https://video.tv.adobe.com/v/41508/?quality=12/?quality=12&captions=fre_fr){target=&#34;_blank&#34;} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
