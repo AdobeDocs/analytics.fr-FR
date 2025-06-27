@@ -4,9 +4,9 @@ title: Type de mesure et attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ Vous pouvez configurer le type de mesure et le [modèle d’attribution](#attrib
 
      | Type de mesure | Définition |
      |---|---|
-     | **[!UICONTROL Standard]** | Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque élément de ligne. <p>Par exemple, la mention ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** divise les commandes de cet élément de ligne spécifique par le nombre de visites correspondantes. |
-     | **[!UICONTROL Total général]** | Utilisez le **[!UICONTROL Total général]** à la période de création de rapports de chaque élément de ligne. Si une formule est composée d’une mesure Total général, la mesure calculée affiche le même Total général sur chaque élément de ligne. Les mesures Total général sont utiles lorsque vous souhaitez créer des mesures calculées qui se comparent aux données totales. <p>Par exemple, la mention ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Nombre total de visites]** indique la proportion de commandes par rapport à toutes les visites, et pas seulement les visites sur l’élément de ligne spécifique. Dans cet exemple, vous spécifiez **[!UICONTROL Total général]** pour la mesure ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** dans votre mesure calculée, qui la transformera automatiquement en ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Total Visites]**. |
+     | **[!UICONTROL Standard]** | Si une formule est composée d’une seule mesure standard, elle affiche des données identiques à sa contrepartie de mesure non calculée. Les mesures standard sont utiles pour créer des mesures calculées spécifiques à chaque élément de ligne. <p>Par exemple, ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** divise les commandes de cet élément de ligne spécifique par le nombre de visites correspondantes. |
+     | **[!UICONTROL Total général]** | Utilisez le **[!UICONTROL Total général]** à la période de création de rapports de chaque élément de ligne. Si une formule est composée d’une mesure Total général, la mesure calculée affiche le même Total général sur chaque élément de ligne. Les mesures Total général sont utiles lorsque vous souhaitez créer des mesures calculées qui se comparent aux données totales. <p>Par exemple, ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Nombre total de visites]** indique la proportion de commandes par rapport à toutes les visites, et pas seulement par rapport à l’élément de ligne spécifique. Dans cet exemple, vous spécifiez **[!UICONTROL Total général]** pour la mesure ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Visites]** dans votre mesure calculée, qui la transformera automatiquement en ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Nombre total de visites]**. |
 
    * Spécifiez **[!UICONTROL Attribution]**.
 
@@ -33,15 +33,15 @@ Vous pouvez configurer le type de mesure et le [modèle d’attribution](#attrib
          * Désactivez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]** pour utiliser le modèle d’attribution de colonne par défaut, à savoir Dernière touche, avec un intervalle de recherche en amont de 30 jours.
          * Activez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]**. Dans la boîte de dialogue **[!UICONTROL Modèle d’attribution de colonne]**,
 
-            * Sélectionnez un **[!UICONTROL Modèle]** dans les [modèles d’attribution](#attribution-models).
-            * Sélectionnez un **[!UICONTROL Conteneur]** parmi les options [conteneur](#container).
-            * Sélectionnez une option **[!UICONTROL Intervalle de recherche en amont]** dans l’[Intervalle de recherche en amont](#lookback-window). Si vous sélectionnez **[!UICONTROL Heure personnalisée]**, vous pouvez définir la période en **[!UICONTROL minute(s)]** jusqu’à **[!UICONTROL trimestre(s)]**.
+            * sélectionnez un **[!UICONTROL Modèle]** parmi les [modèles d’attribution](#attribution-models).
+            * sélectionnez un **[!UICONTROL Conteneur]** parmi les options de [conteneur](#container).
+            * sélectionnez un **[!UICONTROL Intervalle de recherche en amont]** dans les options d’[intervalle de recherche en amont](#lookback-window). Si vous sélectionnez **[!UICONTROL Durée personnalisée]**, vous pouvez définir la période avec un granularité allant de **[!UICONTROL minute(s)]** à **[!UICONTROL trimestre(s)]**.
 
       1. Sélectionnez **[!UICONTROL Appliquer]** pour appliquer le modèle d’attribution différent du modèle par défaut. Sélectionnez Annuler pour annuler.
 
      Si vous avez déjà défini un modèle d’attribution différent du modèle par défaut, sélectionnez **[!UICONTROL Modifier]** pour modifier la sélection.
 
-Voir [Exemple](#example) pour un exemple d’utilisation d’un modèle d’attribution, d’un conteneur et d’un intervalle de recherche en amont.
+Consultez [Exemple](#example) pour un exemple d’utilisation d’un modèle d’attribution, d’un conteneur et d’un intervalle de recherche en amont.
 
 
 ## Modèles d’attribution {#attribution-models}
