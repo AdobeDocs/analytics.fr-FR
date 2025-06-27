@@ -7,7 +7,7 @@ user-guide-description: Gérez les données à l’aide de composants tels que l
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -181,7 +181,7 @@ ht-degree: 96%
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Workflow de segmentation {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
-      + [Préparer les segments](segmentation/segmentation-workflow/seg-plan.md)
+      + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
       + [Créer des segments](segmentation/segmentation-workflow/seg-create.md)
       + [Créer des segments](segmentation/segmentation-workflow/seg-build.md)
       + [Segments rapides](segmentation/segmentation-workflow/seg-quick.md)
@@ -191,14 +191,14 @@ ht-degree: 96%
       + [Filtrer la liste de segments](segmentation/segmentation-workflow/t-seg-filter.md)
       + [Marquer des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Approuver des segments](segmentation/segmentation-workflow/seg-approve.md)
-      + [Suppression des segments](segmentation/segmentation-workflow/seg-delete.md)
+      + [Supprimer des segments](segmentation/segmentation-workflow/seg-delete.md)
       + [Copier des segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gérer les segments](segmentation/segmentation-workflow/seg-manage.md)
       + [Publication de segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Utiliser les segments](segmentation/segmentation-workflow/t-seg-apply.md)
    + Référence de segment {#segment-reference}
       + [Opérateurs](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilité des segments Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Compatibilité des segments avec l’entrepôt de données](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
    + [FAQ sur les segments hérités](segmentation/seg-transition.md)
