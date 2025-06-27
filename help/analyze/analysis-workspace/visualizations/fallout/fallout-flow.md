@@ -1,13 +1,13 @@
 ---
-description: Utilisation de la visualisation des abandons dans un projet Workspace.
-title: Abandon - Aperçu
+description: Découvrez comment utiliser la visualisation des abandons dans Analysis Workspace.
+title: Présentation des abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
->title="Abandon"
+>title="Abandons"
 >abstract="Crééz une visualisation pour voir comment les personnes accèdent à certains points de contrôle."
 
 <!-- markdownlint-enable MD034 -->
@@ -29,7 +29,7 @@ _Cet article présente la visualisation Abandon dans_ ![AdobeAnalytics](/help/as
 
 >[!ENDSHADEBOX]
 
-Dans les visualisations Abandons, vous trouverez davantage d’options pour créer des rapports sur les abandons. Ceux-ci indiquent où les visiteurs ont quitté (abandonné) une suite prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
+Une visualisation ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandons]** indique où les personnes sont sorties (ont abandonné) une séquence prédéfinie de pages et où ils ont poursuivi leur visite à travers ces pages (diminution).
 
 
 >[!BEGINSHADEBOX]
@@ -37,6 +37,8 @@ Dans les visualisations Abandons, vous trouverez davantage d’options pour cré
 Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Abandon](https://video.tv.adobe.com/v/345883?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
+
+
 
 
 Grâce aux visualisations Abandons, vous pouvez :

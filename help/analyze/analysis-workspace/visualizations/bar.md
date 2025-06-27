@@ -1,14 +1,14 @@
 ---
-description: Utilisation de la visualisation à barres dans un projet Workspace.
-title: Barres et barres empilées
+description: Découvrez comment utiliser la visualisation à barres et barres empilées dans Analysis Workspace.
+title: Barres Et Barres Empilées
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 91%
 
 ---
 
@@ -22,23 +22,23 @@ _Cet article présente les visualisations Barres et Barres empilées dans_ ![Ado
 
 La visualisation Barres comporte une option standard et une option empilée.
 
-## Barres {#bar}
+## Barre {#bar}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_bar_button"
->title="Barres"
+>title="Barre"
 >abstract="Créez une visualisation à barres pour représenter différentes valeurs pour une ou plusieurs mesures."
 
 <!-- markdownlint-enable MD034 -->
 
 
-Dans la visualisation ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Barres]**, des barres verticales représentent plusieurs valeurs pour une ou plusieurs mesures.
+La visualisation ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL Barres]** affiche des barres verticales représentant plusieurs valeurs pour une ou plusieurs mesures.
 
-![Visualisation Barres verticales présentant plusieurs mesures, notamment Pages vues, Visites, Entrées et Sorties.](assets/bar.png)
+![Visualisation sous forme de barres verticales présentant plusieurs mesures, notamment Pages vues, Visites, Entrées et Sorties.](assets/bar.png)
 
-Une liste déroulante de granularité accessible dans les paramètres de visualisation permet de modifier une visualisation avec suivi des tendances (ex. ligne, barre) de chaque jour, chaque semaine, chaque mois, etc.
+Une liste déroulante de granularité accessible dans les paramètres de visualisation permet de modifier une visualisation avec suivi des tendances (par exemple sous forme de ligne ou de barres) de quotidienne, mensuelle, etc.
 
 ## Barres empilées {#bar-stacked}
 
@@ -52,17 +52,17 @@ Une liste déroulante de granularité accessible dans les paramètres de visuali
 <!-- markdownlint-enable MD034 -->
 
 
-Dans cette visualisation ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barres empilées]**, les barres des séries sont empilées les unes au-dessus des autres.
+La visualisation ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg) **[!UICONTROL Barres empilées]** est semblable à un graphique à barres, mais les barres des séries sont empilées les unes au-dessus des autres.
 
 ![Graphique à barres empilées présentant plusieurs mesures.](assets/bar-stacked.png)
 
-Utilisez l’option **[!UICONTROL Empilées à 100 %]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation empilée à 100 %.
+Utilisez l’option **[!UICONTROL Empilé à 100 %]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation empilée à 100 %.
 
-![Graphique à barres empilées à 100 %.](assets/bar-stacked100.png)
+![Graphique à barres empilées à 100 %.](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

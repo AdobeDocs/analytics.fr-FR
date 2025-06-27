@@ -1,13 +1,13 @@
 ---
-description: Utilisation de la visualisation en anneau dans un projet Workspace.
+description: Découvrez comment utiliser la visualisation en anneau pour afficher les données comme des parties ou des segments d’un tout.
 title: Anneau
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 86%
 
 ---
 
@@ -30,14 +30,14 @@ _Cet article présente la visualisation en anneau dans_ ![AdobeAnalytics](/help/
 >[!ENDSHADEBOX]
 
 
-Semblable à un graphique en secteurs, la visualisation ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anneau]** présente les données comme des portions ou des filtres d’un tout. Utilisez un graphique en anneau pour comparer des pourcentages par rapport à un total comprenant peu d’éléments.
+Semblable à un graphique en secteurs, la visualisation ![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Anneau]** présente les données comme des portions ou des filtres d’un tout. Utilisez une visualisation en anneau pour comparer des pourcentages par rapport à un total comprenant normalement peu d’éléments.
 
-![Visualisation en anneau présentant les données comme des portions ou des filtres dʼun tout.](assets/donut.png)
+![Visualisation Anneau présentant les données comme des portions ou des filtres dʼun tout.](assets/donut.png)
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter une visualisation en anneau](https://video.tv.adobe.com/v/3416624/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter une visualisation en anneau](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter une vis
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

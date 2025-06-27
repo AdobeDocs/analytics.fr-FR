@@ -1,13 +1,13 @@
 ---
-description: Le panneau Analytics for Target (A4T) vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace.
-title: Panneau Analytics for Target (A4T)
+description: Découvrez comment utiliser le panneau Analytics for Target pour analyser vos activités et expériences Adobe Target dans Analysis Workspace.
+title: Panneau Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 100%
+source-wordcount: '1132'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Le panneau Analytics for Target vous permet d’analyser vos activités et expé
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://video.tv.adobe.com/v/326705?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://video.tv.adobe.com/v/37247?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -85,10 +85,10 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 | **[!UICONTROL Mesure de succès]** | Mesure de succès sélectionnée dans le panneau d’entrée. |
 | **[!UICONTROL Taux de conversion]** | Mesure de succès/normalisation. |
 | **[!UICONTROL Effet élévateur]** | Compare le taux de conversion de chaque expérience à l’expérience de contrôle. Remarque : l’effet élévateur est une *mesure verrouillée* des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
-| **[!UICONTROL Effet élévateur (inférieur)]** | Cette valeur représente l’effet élévateur le plus défavorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Effet élévateur (médian)]** | Cette valeur représente l’effet élévateur moyen qu’une expérience de variante peut avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. <br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Effet élévateur (supérieur)]** | Cette valeur représente l’effet élévateur le plus favorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Confiance]** | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (inférieur)]** | Cette valeur représente l’effet élévateur le plus défavorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (médian)]** | Cette valeur représente l’effet élévateur moyen qu’une expérience de variante peut avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. <br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (supérieur)]** | Cette valeur représente l’effet élévateur le plus favorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Confiance]** | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
 
 Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations) supplémentaires qui vous aideront à analyser vos activités Adobe Target. Vous pouvez également appliquer un segment au niveau du panneau ou dans le tableau à structure libre. Veuillez noter que si vous l’ajoutez dans le tableau à structure libre, vous devez le superposer sur l’ensemble du tableau pour conserver les calculs relatifs à l’effet élévateur et au degré de confiance. Les segments au niveau des colonnes ne sont pour le moment pas pris en charge.
 
@@ -100,7 +100,7 @@ Utilisez ![Modifier](/help/assets/icons/Edit.svg) pour reconfigurer et recréer 
 |---|---|
 | Quels types d’activités sont pris en charge dans Analytics for Target ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) sur les types d’activité pris en charge. |
 | Les mesures calculées sont-elles prises en charge dans les calculs d’effet élévateur et de degré de confiance ? | Non. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sur les raisons pour lesquelles les mesures calculées ne sont pas prises en charge dans les calculs d’effet élévateur et de degré de confiance. Les mesures calculées peuvent toutefois être utilisées dans les rapports Analytics for Target, mais en dehors de ces mesures. |
-| Pourquoi les visiteurs et visiteuses uniques varient-ils entre Target et Analytics ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sur les écarts de visiteurs et visiteuses uniques entre les produits. |
+| Pourquoi le nombre de visiteurs et visiteuses uniques diffère-t-il entre Target et Analytics ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sur les écarts de visiteurs et visiteuses uniques entre les produits. |
 | Pourquoi des expériences non liées sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension Analytics for Target est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
 | La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sur la façon dont Analytics calcule le degré de confiance. |
 | Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou répartitions ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » des expériences Target, car ils nécessitent un contrôle et une variante pour effectuer les calculs. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |

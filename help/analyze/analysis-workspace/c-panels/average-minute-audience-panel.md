@@ -1,13 +1,13 @@
 ---
 title: Panneau Audience moyenne par minute de média
-description: Utiliser et interpréter le panneau d’audience moyenne par minute de média dans Analysis Workspace.
+description: Découvrez comment utiliser et interpréter le panneau d’audience moyenne par minute de média dans Analysis Workspace.
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 98%
 
 ---
 

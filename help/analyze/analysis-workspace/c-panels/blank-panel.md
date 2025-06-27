@@ -1,13 +1,13 @@
 ---
-description: Création d’un panneau vierge comme point de départ pour toute visualisation.
+description: Découvrez comment créer un panneau vierge comme point de départ pour n’importe quelle visualisation.
 title: Panneau vierge
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 94%
 
 ---
 

@@ -1,52 +1,64 @@
 ---
-description: Découvrez comment supprimer des projets des dossiers
+description: Découvrez comment supprimer des projets d’Analysis Workspace.
 keywords: Analysis Workspace
-title: Supprimer des projets des dossiers
+title: Supprimer projets
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-# Suppression de projets
+# Supprimer des projets
 
-Pour supprimer un projet d’un dossier, vous pouvez le déplacer vers un autre emplacement ou le supprimer.
+
+Voir [Actions dans Gérer les projets](../freeform-overview.md#actions) pour savoir comment supprimer des projets d’Analysis Workspace.
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
+
+To remove a project from a folder, you can move the project to another location or delete the project.
 
 >[!NOTE]
 >
->Lorsqu’un administrateur déplace un projet vers le dossier Société, le dossier est partagé avec tous les utilisateurs, même si les privilèges partagés d’origine étaient limités. Lorsqu’un administrateur sort un projet du dossier Société, les privilèges de partage d’origine ou précédents sont respectés.
+>When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## Déplacer un projet {#move-project-in-folder}
+## Move a project {#move-project-in-folder}
 
-Vous pouvez déplacer des projets d’un dossier vers un autre que vous avez créé.
+You can move projects from one folder to another folder that you created.
 
-1. Dans un dossier de projet, sélectionnez les points de suspension **...** en regard du nom du projet.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Sélectionnez **Déplacer vers** puis choisissez un dossier dans lequel déplacer le projet.
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. Cliquez sur **Déplacer**.
+1. Click **Move**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   Un toast vient confirmer que le projet a été déplacé.
+    A toast confirms that the project was moved.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## Supprimer un projet d’un dossier de projet {#delete-project-in-folder}
+## Delete a project from a project folder {#delete-project-in-folder}
 
-Lorsque vous supprimez un projet d’un dossier, il est purgé du système au bout de 180 jours. Au cours des 180 jours suivant la suppression, les utilisateurs et utilisatrices peuvent toujours accéder à un projet supprimé via l’interface web s’ils disposent d’une URL vers le projet.
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1. Dans un dossier de projet, sélectionnez les points de suspension **...** en regard du nom du projet.
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. Sélectionnez **Supprimer**.
+1. Select **Delete**.
 
-1. Une fenêtre de confirmation vous demande de confirmer la suppression.
+1. A confirmation window asks you to confirm the deletion.
+
+-->

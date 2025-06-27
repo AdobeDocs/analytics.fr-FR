@@ -1,14 +1,14 @@
 ---
-description: Utilisation de la visualisation de flux dans un projet Workspace.
-title: Flux - Aperçu
+description: Découvrez comment utiliser la visualisation de flux dans Analysis Workspace.
+title: Flux - Aperçu
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -35,23 +35,24 @@ _Cet article présente la visualisation Flux dans_ ![AdobeAnalytics](/help/asset
 
 >[!ENDSHADEBOX]
 
-La fonction de flux présente les parcours des clients sur vos sites web et dans vos applications.
+La visualisation ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flux]** présente les parcours des clientes et clients sur vos sites web et dans vos applications.
 
-Elle vous offre les possibilités suivantes :
+Avec cette visualisation, vous pouvez réaliser les actions suivantes :
 
-* Visualiser le parcours des clients dans votre site web ou votre application
-* Analyser où se rendent les clients avant et après les points de contrôle spécifiés, tels qu’une entrée, une dimension spécifique ou une sortie
-* Créer des segments en désignant un point spécifique dans un cheminement donné
+* Visualisez le parcours des clientes e t clients dans votre site web ou votre application.
+* Analysez où se rendent les clientes et clients avant et après les points de contrôle spécifiés, tels qu’une entrée, une dimension spécifique ou une sortie.
+* Créez des segments en désignant un point spécifique dans un chemin donné.
+
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Flux](https://video.tv.adobe.com/v/3410741?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Flux](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
-## Flux interdimensionnels {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## Flux interdimensionnels
 
 Vous pouvez afficher le [flux entre plusieurs dimensions](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Vous pouvez, par exemple, combiner dans un seul diagramme des pages et des services ou rayons. Dans ce cas, votre flux peut aller de la page d’accueil à la page Hommes, puis au rayon Chaussures.
 
@@ -67,7 +68,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation Flux](https://video.tv.adobe.com/v/328082?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation Flux](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

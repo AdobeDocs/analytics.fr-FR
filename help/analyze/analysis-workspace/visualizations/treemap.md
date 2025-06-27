@@ -1,14 +1,14 @@
 ---
-description: Présente les données hiérarchiques (structurées en arbre) sous la forme d’un ensemble de rectangles imbriqués.
+description: Découvrez comment afficher des données hiérarchiques (structurées en arborescence) sous la forme d’un ensemble de rectangles imbriqués.
 title: Plan en arborescence
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 92%
 
 ---
 
@@ -31,16 +31,16 @@ _Cet article présente la visualisation Plan en arborescence dans_ ![AdobeAnalyt
 
 Utilisez une visualisation ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Plan en arborescence]** pour afficher des données hiérarchiques (structurées en arborescence) sous la forme d’un ensemble de rectangles imbriqués.
 
-Chaque branche de l’arbre se voit affectée d’un rectangle qui est découpé en une vignette de plus petits rectangles représentant les sous-branches.
+Chaque branche de l’arbre se voit affectée d’un rectangle qui est découpé en une mosaïque de plus petits rectangles représentant les sous-branches.
 
-![Exemple de visualisation Plan en arborescence montrant des vignettes de petits rectangles représentant des sous-branches.](assets/treemap.png)
+![Exemple de Treemap montrant des tuiles de petits rectangles représentant des sous-branches.](assets/treemap.png)
 
-Avec une visualisation Plan en arborescence, vous pouvez voir des motifs qui seraient difficiles à repérer d’une autre manière. En utilisant la couleur et la taille des dimensions, vous pouvez découvrir comment les dimensions sont corrélées et si une certaine dimension est particulièrement pertinente. Un autre avantage des visualisations Plan en arborescence est qu’elles maximisent par essence l’utilisation de l’espace.
+Avec une visutlisation Treemap, vous pouvez voir des motifs qui seraient difficiles à repérer d’une autre manière. En utilisant la couleur et la taille des dimensions, vous pouvez découvrir comment les dimensions sont corrélées et si une certaine dimension est particulièrement pertinente. Un autre avantage des visualisations Treemap est qu’elles maximisent par essence l’utilisation de l’espace.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Plan en arborescence](https://video.tv.adobe.com/v/3416854/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Treemap](https://video.tv.adobe.com/v/334458/?quality=12){target=&#34;_blank&#34;} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -48,6 +48,6 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation P
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

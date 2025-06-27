@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment créer des dossiers et des sous-dossiers dans Workspace.
+description: Découvrez comment créer des dossiers et des sous-dossiers dans Analysis Workspace.
 keywords: Analysis Workspace
 title: Créer des dossiers
 feature: Workspace Basics
 exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ Pour créer un projet :
 
 1. Dans la boîte de dialogue **[!UICONTROL Créer un dossier]**, saisissez le nom du nouveau dossier. Par exemple : `Second Week Reports`.
 
-1. Sélectionnez des étiquettes ou saisissez de nouvelles étiquettes dans la liste déroulante **[!UICONTROL Étiquettes]**.
+1. Sélectionnez des balises ou saisissez de nouvelles balises dans le menu déroulant **[!UICONTROL Balises]**.
 
    ![Créer un dossier](../assets/create-new-folder.png)
 

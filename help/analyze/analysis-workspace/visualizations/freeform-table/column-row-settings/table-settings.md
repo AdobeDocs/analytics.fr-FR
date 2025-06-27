@@ -1,14 +1,14 @@
 ---
-description: Les configurations des lignes varient selon le composant déposé dans le tableau.
-title: Paramètres des lignes
+description: Découvrez comment utiliser les paramètres de ligne et comment ces paramètres varient en fonction du composant que vous avez fait glisser vers un tableau à structure libre dans Analysis Workspace.
+title: Configurations des lignes
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres de ligne et de colonne dans un tableau à structure libre](https://video.tv.adobe.com/v/328500/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres de ligne et de colonne dans un tableau à structure libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ Les options de menu contextuel suivantes sont disponibles lors de la sélection 
 | Option | Description |
 | --- | --- |
 | **[!UICONTROL Copier la sélection dans le presse-papiers]** | Copiez la sélection de la visualisation dans le presse-papiers. |
-| **[!UICONTROL Télécharger les éléments au format CSV (*nom de dimension*)]** | Téléchargez immédiatement les éléments de dimension (jusqu’à 50 000 au maximum) de la visualisation sur votre appareil local. Un maximum de 50 000 éléments de dimension pour la dimension sélectionnée. |
+| **[!UICONTROL Télécharger les éléments au format CSV (*nom de dimension*)]** | Téléchargez immédiatement les éléments de dimension (jusqu’à 50 000 au maximum) de la visualisation sur votre appareil local. Un maximum de 50 000 éléments de dimension pour la dimension sélectionnée. |
 | **[!UICONTROL Télécharger la sélection au format CSV]** | Téléchargez immédiatement les éléments de dimension de la visualisation sur votre appareil local. |
 | **[!UICONTROL Créer des liens hypertexte pour tous les éléments de dimension]** | Créez des liens hypertexte pour tous les éléments de dimension. Voir [Liens hypertexte pour les dimensions dans un tableau à structure libre](../freeform-table-hyperlinks.md) |
 | **[!UICONTROL Modifier le lien hypertexte pour tous les éléments de dimension]** | Modifiez les liens hypertexte pour tous les éléments de dimension. Voir [Créer des liens hypertexte pour les dimensions dans un tableau à structure libre](../freeform-table-hyperlinks.md) |
@@ -92,4 +92,4 @@ Les options de menu contextuel supplémentaires suivantes sont disponibles lors 
 
 ## Modifier la hauteur des lignes
 
-Vous pouvez définir la densité d’affichage d’un projet sur **[!UICONTROL Compact]**, **[!UICONTROL Confortable]** et **[!UICONTROL Développé]**. [En savoir plus](/help/analyze/analysis-workspace/build-workspace-project/view-density.md).
+Vous pouvez définir la [densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) d’un projet sur **[!UICONTROL Compact]**, **[!UICONTROL Confortable]** et **[!UICONTROL Développé]**.

@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment ajouter des dossiers dans Workspace.
+description: Découvrez comment ajouter ou déplacer des projets vers des dossiers dans Analysis Workspace.
 keywords: Analysis Workspace
-title: Ajouter des dossiers dans Workspace
+title: Ajouter Ou Déplacer Des Projets Vers Des Dossiers
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 93%
+source-wordcount: '263'
+ht-degree: 87%
 
 ---
 

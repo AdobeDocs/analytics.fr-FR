@@ -1,26 +1,28 @@
 ---
-description: Interactions du clavier, raccourcis clavier et comportements pointer-cliquer dans Analysis Workspace.
-keywords: Analysis Workspace
-title: Raccourcis clavier
+description: Découvrez comment utiliser les interactions clavier, les touches de raccourci et les comportements de point-et-clic disponibles dans Analysis Workspace.
+keywords: Analysis Workspace
+title: Touches de raccourci
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
-# Raccourcis clavier
+# Touches de raccourci
+
+Des touches de raccourci (raccourcis clavier) sont disponibles dans Analysis Workspace pour une navigation, une analyse et une démocratisation optimales.
 
 Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 
-- **⇧** pour **[!UICONTROL **&#x200B; Maj &#x200B;**]**.
-- **⌘** pour **[!UICONTROL **&#x200B; cmd &#x200B;**]** (commande).
-- **⌃** pour **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (contrôle).
-- **⌥** pour **[!UICONTROL **&#x200B; opt &#x200B;**]** (option).
-- **⎇** pour **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternative).
+- **⇧** pour **[!UICONTROL ** Maj **]**.
+- **⌘** pour **[!UICONTROL ** cmd **]** (commande).
+- **⌃** pour **[!UICONTROL ** ctrl **]** (contrôle).
+- **⌥** pour **[!UICONTROL ** opt **]** (option).
+- **⎇** pour **[!UICONTROL ** alt **]** (alternative).
 
 ## Actions de navigation
 

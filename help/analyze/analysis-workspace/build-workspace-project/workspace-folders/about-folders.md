@@ -1,21 +1,21 @@
 ---
-description: En savoir plus sur les dossiers dans Workspace
+description: Découvrez comment organiser vos projets dans des dossiers dans Analysis Workspace.
 keywords: Analysis Workspace
 title: Présentation des dossiers
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # Présentation des dossiers
 
-Les dossiers dans Adobe Analytics sont disponibles sur la page de destination de Workspace lorsque vous avez sélectionné [Afficher les dossiers et les projets](../freeform-overview.md#show-selector).
-
 Les dossiers dans Workspace vous aident à organiser et à classer vos projets. La fonctionnalité Dossiers vous permet de créer des dossiers et des sous-dossiers pour gérer vos projets.
+
+Les dossiers dans Adobe Analytics sont disponibles sur la page de destination de Workspace lorsque vous avez sélectionné [Afficher les dossiers et les projets](../freeform-overview.md#show-selector).
 
 Workspace comporte deux types de dossiers : le dossier Entreprise et les dossiers personnels. Un dossier d’entreprise partagé permet aux administrateurs et aux administratrices de créer et de partager facilement du contenu avec tous les utilisateurs et toutes les utilisatrices de Workspace.
 

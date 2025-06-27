@@ -1,26 +1,26 @@
 ---
-description: Exemples de cas d’utilisation d’analyse des cohortes.
-keywords: Analysis Workspace
-title: Cas d’utilisation de l’analyse des cohortes
+description: Découvrez quelques exemples de cas d’utilisation d’analyse des cohortes.
+keywords: Analysis Workspace
+title: Cas d’utilisation d’analyse des cohortes
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# Cas d’utilisation de l’[!UICONTROL analyse des cohortes]
+# Cas d’utilisation de l’analyse des cohortes
 
 Exemples de cas d’utilisation d’[!UICONTROL analyse des cohortes].
 
-## Cas d’utilisation d’interactions avec les applications {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## Cas d’utilisation d’interactions avec les applications
 
 Supposons que vous souhaitiez analyser la manière dont les utilisateurs qui installent votre application l’utilisent au fil du temps. Est-ce qu’ils l’installent mais ne l’utilisent jamais ? Est-ce qu’ils l’utilisent pendant quelque temps, puis arrêtent de le faire ? Ou est-ce qu’ils continuent à l’utiliser au fil du temps ?
 
-Vous pouvez créer une [!UICONTROL analyse des cohortes] sur six mois :
+Vous pouvez créer une analyse des cohortes sur six mois.
 
 **Granularité** : mensuelle, de janvier 2015 à juin 2015
 
@@ -30,7 +30,7 @@ Vous pouvez créer une [!UICONTROL analyse des cohortes] sur six mois :
 
 Les visiteurs et visiteuses ne sont pas considérés comme *`engaged`* durant les mois suivants, à moins qu’ils n’ouvrent une session ou au moins démarrent l’application. [!UICONTROL L’analyse des cohortes] présenterait alors les différents schémas d’utilisation où *`App Install`* survient toujours durant le mois 0. Il se peut que l’utilisation chute au mois 2, peu importe quand les utilisateurs ont installé l’application. (Pour ceux qui ont installé l’application en janvier 2015, le mois 2 équivaut à mars 2015 ; Pour ceux qui ont installé l’application en février 2015, le mois 2 est avril 2015, etc.) Cette analyse vous permet d’envoyer un e-mail ou un message push à tous les utilisateurs et utilisatrices au cours du deuxième mois suivant l’installation de l’application afin de leur rappeler de l’utiliser.
 
-## Cas d’utilisation de l’abonnement {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## Cas d’utilisation de l’abonnement
 
 Vous travaillez chez Adobe.com et proposez un abonnement gratuit à Creative Cloud, avec pour objectif que les utilisateurs passent de la version gratuite à la version d’évaluation de 30 jours voire à la version payante.
 

@@ -3,10 +3,10 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 90%
+source-wordcount: '1009'
+ht-degree: 88%
 
 ---
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 20
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Prise en charge de destinations cloud sécurisées dans le nouveau Report Builder** | Le module complémentaire Report Builder Javascript prend désormais en charge l’exportation de rapports vers les destinations d’espace de stockage suivantes :<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li></ul><p>Auparavant, seules les destinations FTP et d’e-mail étaient disponibles. FTP n’est plus pris en charge en raison de problèmes de sécurité.</p><p>Pour plus d’informations, voir [Planification de classeurs en exportant vers des destinations cloud](/help/analyze/report-builder/report-builder-export.md).</p><p>En plus de ces modifications, lors de la création d’un emplacement dans Adobe Analytics, le champ Utiliser avec fournit désormais la possibilité d’utiliser l’emplacement avec Report Builder, comme décrit dans la section [ Configurer les emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).</p> |  | 19 juin 2025 (initialement le 18 juin) |
-| **Nouvelle expérience de prévisualisation** | Le panneau de prévisualisation, utilisé pour prévisualiser les segments, les mesures calculées, etc., utilise désormais une visualisation par barres horizontales au lieu d’une visualisation en anneau. |  | 18 juin 2025 |
+| **Nouvelle expérience de prévisualisation** | Le panneau d’aperçu, qui est utilisé lorsque vous créez un segment ou configurez les paramètres d’une vue de données, utilise désormais une visualisation à barres horizontales au lieu d’une visualisation en anneau. |  | 18 juin 2025 |
 | **Boîte de dialogue Modèle d’attribution modifié** | Vous pouvez désormais définir le conteneur et la période séparément dans la boîte de dialogue du modèle d’attribution. |  | 18 juin 2025 |
 | **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface d’utilisation des attributs du client ou de la cliente est désormais accessible directement depuis le sélecteur d’applications dans Adobe Experience Cloud. |  | À confirmer |
 | **Médias en streaming : prise en charge des données de planning** | Vous pouvez désormais charger des données planifiées antérieures de contenu de médias en streaming et en direct afin de suivre l’audience plus facilement et avec plus de précision. Les éléments suivants sont des exemples de contenu en direct qui sont pris en charge avec le chargement de données de planning :<ul><li>Plateformes FAST (Free Ad Supported TV)</li><li>Flux locaux</li><li>Sports en direct</li></ul>Le chargement des données de planning vous permet de suivre les audiences des programmes individuels qui ont été diffusés pendant la période que vous avez indiquée dans le fichier de chargement. Vous pouvez même recueillir des données d’audience pour des sujets ou des segments de programme spécifiques. Ces fonctionnalités sont disponibles quelle que soit la manière dont vous avez mis en œuvre Streaming Media Collection.<p>Auparavant, il était difficile de relier avec précision une session donnée à des programmes spécifiques lors de l’analyse du contenu en direct, et il n’était pas possible de relier une session donnée à des sujets individuels ou à des segments de programmes. En savoir plus |  | 15 Août 2025 (Initialement Le 25 Juin 2025) |

@@ -1,19 +1,19 @@
 ---
-description: Découvrir comment gérer les dossiers dans Workspace
+description: Découvrez comment gérer les dossiers dans Analysis Workspace.
 keywords: Analysis Workspace
-title: Gestion des dossiers
+title: Gérer les dossiers
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 86%
 
 ---
 
 # Gestion des dossiers
 
-Vous pouvez gérer les dossiers dans Workspace de deux manières. À partir d’un dossier ou d’un ou plusieurs dossiers sélectionnés dans la liste des projets. La gestion des dossiers comprend le changement de nom, le déplacement ou la suppression de dossiers.
+Vous pouvez gérer les dossiers dans Workspace de deux manières. À partir d’un dossier ou d’un ou plusieurs dossiers sélectionnés dans la liste des projets. Les options Gérer les dossiers incluent le renommage, le déplacement ou la suppression de dossiers.
 
 ## Renommage des dossiers
 
@@ -24,13 +24,13 @@ Pour renommer des dossiers dans Workspace :
 * Sélectionnez un dossier que vous souhaitez renommer dans la [liste des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
    1. Sélectionnez **[!UICONTROL Renommer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez**[!UICONTROL Enregistrer ]**.
 
 * Dans le dossier que vous souhaitez renommer.
 
    1. Sélectionnez **[!UICONTROL Renommer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez**[!UICONTROL Enregistrer ]**.
 
 
 ## Déplacement des dossiers

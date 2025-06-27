@@ -1,19 +1,19 @@
 ---
-title: Éléments de dimension dynamiques ou statiques dans les tableaux à structure libre
-description: Interaction avec des éléments de dimension dynamiques et statiques dans des tableaux.
+title: Éléments De Dimension Dynamiques Et Statiques
+description: Découvrez comment utiliser des éléments de dimension dynamiques ou statiques dans les tableaux à structure libre d’Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 94%
 
 ---
 
 # Éléments de dimension dynamiques et statiques
 
-Dans les tableaux à structure libre, les lignes et les colonnes peuvent contenir diverses valeurs de composant. Ces valeurs peuvent être dynamiques (changent avec le temps) ou statiques (ne changent pas avec le temps), selon l’analyse que vous souhaitez créer.
+Dans les tableaux à structure libre, les lignes et les colonnes peuvent contenir différentes valeurs de composant. Ces valeurs peuvent être dynamiques (changent avec le temps) ou statiques (ne changent pas avec le temps), selon l’analyse que vous souhaitez créer.
 
 ## Éléments de dimension dynamiques
 
@@ -58,7 +58,7 @@ Les lignes dynamiques et statiques se comportent différemment dans la ligne de 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Réorganiser des lignes statiques](https://video.tv.adobe.com/v/33606?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Réorganiser des lignes statiques](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

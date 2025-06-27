@@ -1,14 +1,14 @@
 ---
-description: Chacun des principaux tableaux de comparaison présente un score de différence calculé par plusieurs tests statistiques, selon le mode de comparaison. Toutefois, quel que soit le test utilisé, le score de différence est présenté comme une valeur comprise entre 0 et 1.
+description: Découvrez comment les tests statistiques sont utilisés dans la comparaison de segments.
 keywords: Analysis Workspace ; Segment IQ
-title: Tests statistiques utilisés dans la comparaison de segments
+title: Tests Statistiques Utilisés Dans La Comparaison De Segments
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 95%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
-description: Dans la visualisation de Venn, vous pouvez faire glisser jusqu’à trois segments (depuis les composants) et une mesure afin de générer un diagramme de Venn.
+description: Utilisez la visualisation de Venn pour faire glisser jusqu’à 3 segments et une mesure afin de créer un diagramme de Venn.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -32,11 +32,11 @@ _Cet article présente la visualisation Venn dans_ ![AdobeAnalytics](/help/asset
 
 La visualisation ![Type](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]** vous permet de faire glisser jusqu’à 3 filtres et une mesure (à partir du panneau Composants) pour créer un diagramme de Venn.
 
-![Visualisation Venn qui comprend trois filtres.](assets/venn.png)
+![Visualisation de Venn qui comprend trois filtres.](assets/venn.png)
 
 Vous pouvez ensuite pointer sur les filtres afin d’afficher davantage d’informations sur les pourcentages, etc.
 
-Pour générer un [!UICONTROL tableau à structure libre] à partir de la visualisation [!UICONTROL Venn], sélectionnez l’icône colorée ![StatusOrange](/help/assets/icons/StatusOrange.svg) à côté de l’en-tête **[!UICONTROL Venn]** et sélectionnez **[!UICONTROL Afficher la source de données]**. Un tableau à structure libre **[!UICONTROL Données de Venn]** contenant les données utilisées pour créer la visualisation [!UICONTROL Venn] s’affiche.
+Pour générer un [!UICONTROL Tableau à structure libre] à partir de la visualisation [!UICONTROL Venn], sélectionnez l’icône colorée ![StatusOrange](/help/assets/icons/StatusOrange.svg) à côté de l’en-tête **[!UICONTROL Venn]** et sélectionnez **[!UICONTROL Afficher la source de données]**. Un tableau à structure libre **[!UICONTROL Données de Venn]** contenant les données utilisées pour créer la visualisation [!UICONTROL Venn] s’affiche.
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Venn](https://video.tv.adobe.com/v/3416882/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Venn](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation V
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -1,14 +1,14 @@
 ---
-description: Dans Analysis Workspace, vous pouvez créer des segments d’après un point de contact, ajouter des segments comme point de contact et comparer des processus clés pour plusieurs segments.
+description: Découvrez comment créer des segments à partir d’un point de contact, ajouter des segments en tant que point de contact et comparer les workflows clés sur différents segments dans une analyse des abandons dans Analysis Workspace.
 keywords: abandons et segmentation ; segments dans l’analyse des abandons ; comparer les segments dans les abandons
-title: Application de segments dans l’analyse des abandons
+title: Application De Segments Dans L’Analyse Des Abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 90%
+source-wordcount: '438'
+ht-degree: 71%
 
 ---
 
@@ -18,11 +18,12 @@ Dans Analysis Workspace, vous pouvez créer des segments d’après un point de 
 
 >[!IMPORTANT]
 >
->Les segments utilisés comme points de contrôle dans la visualisation Abandons doivent utiliser un conteneur qui se trouve à un niveau inférieur par rapport au contexte global de la visualisation Abandons. Dans le cas d’une visualisation Abandons sur base du visiteur, les segments utilisés comme points de contrôle doivent être des segments basés sur les visites ou les accès. Dans le cas d’une visualisation Abandons sur base de la visite, les segments utilisés comme point de contrôle doivent être des segments basés sur les accès. Si vous utilisez une combinaison non valide, les abandons seront de 100 %. Nous avons ajouté un avertissement à la visualisation Abandons qui s’affiche lorsque vous ajoutez un segment incompatible en tant que point de contact. Certaines combinaisons de conteneurs de segments non valides entraîneront des diagrammes Abandons non valides, tels que :
-
-* l’utilisation d’un segment basé sur les visiteurs comme point de contact dans une visualisation Abandons sur base du visiteur
-* l’utilisation d’un segment basé sur les visiteurs comme point de contact dans une visualisation Abandons sur base de la visite
-* l’utilisation d’un segment basé sur les visites comme point de contact dans une visualisation Abandons sur base de la visite
+>Les segments utilisés comme points de contrôle dans la visualisation Abandons doivent utiliser un conteneur qui se trouve à un niveau inférieur par rapport au contexte global de la visualisation Abandons. Dans le cas d’une visualisation Abandons sur base du visiteur, les segments utilisés comme points de contrôle doivent être des segments basés sur les visites ou les accès. Dans le cas d’une visualisation Abandons sur base de la visite, les segments utilisés comme point de contrôle doivent être des segments basés sur les accès. Si vous utilisez une combinaison non valide, les abandons seront de 100 %. Un avertissement s’affiche dans la visualisation des abandons lorsque vous ajoutez un segment incompatible comme point de contact. Certaines combinaisons de conteneurs de segments non valides entraîneront des diagrammes Abandons non valides, tels que :
+>
+>* Utilisation d’un segment basé sur les visiteurs comme point de contact dans une visualisation des abandons avec contexte de visiteur.
+>* Utilisation d’un segment basé sur les visiteurs comme point de contact dans une visualisation des abandons avec contexte de visite.
+>* Utilisation d’un segment basé sur les visites comme point de contact dans une visualisation des abandons avec contexte de visite.
+>
 
 ## Création d’un segment à partir d’un point de contact {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
@@ -53,7 +54,7 @@ Vous pouvez comparer un nombre illimité de segments dans la visualisation des a
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/328079?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

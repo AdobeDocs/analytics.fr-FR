@@ -1,14 +1,14 @@
 ---
-description: La visualisation Surface est semblable à un graphique linéaire, mais avec une zone colorée sous la ligne.
-title: Surface et aires empilées
+description: Découvrez la visualisation Surface et Aires empilées .
+title: Aires Et Empilées
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ _Cet article présente les visualisations Surface et Aires empilées dans_ ![Ado
 
 La visualisation Surface comporte une option standard et empilée.
 
-## Surface {#area}
+## Zone {#area}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -50,17 +50,17 @@ La visualisation ![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL Su
 <!-- markdownlint-enable MD034 -->
 
 
-La visualisation ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Aires empilées]** est semblable à un graphique Surface, mais chaque série commence en haut de la série précédente.
+La visualisation ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL Aires empilées]** est semblable à la visualisation Surface, mais chaque série commence au-dessus de la série précédente.
 
-![Aires empilées affichant chaque série en haut de la série précédente.](assets/area-stacked.png)
+![Visualisation Aires empilées affichant chaque série au-dessus de la série précédente.](assets/area-stacked.png)
 
-Utilisez l’option **[!UICONTROL Empilées à 100 %]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation empilée à 100 %.
+Utilisez l’option **[!UICONTROL Empilé à 100 %]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation empilée à 100 %.
 
-![Aires empilées avec une visualisation empilée à 100 %.](assets/area-stacked100.png)
+![Visualisation Aires empilées avec une visualisation empilée à 100 %.](assets/area-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

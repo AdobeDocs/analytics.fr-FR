@@ -1,14 +1,14 @@
 ---
-description: Utilisation de la visualisation par cartes dans un projet Workspace.
+description: Utiliser la visualisation des cartes pour tracer des données sur une visualisation de carte géographique
 title: Carte
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ La visualisation ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Carte]** d
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://video.tv.adobe.com/v/41503/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Pour définir les paramètres de la visualisation, sélectionnez ![Paramètre](/
 | Paramètre | Description |
 |--- |--- |
 | **[!UICONTROL Type de carte]** | |
-| [!UICONTROL Bulles] | Représente les événements à l’aide de bulles. Un graphique en bulles est un graphique à plusieurs variables à mi-chemin entre un graphique de dispersion et un graphique à zones proportionnelles. Il s’agit de l’affichage par défaut. |
-| Carte thermique | Représente les événements à l’aide d’une carte thermique. Une carte thermique est une représentation graphique des données où les valeurs individuelles contenues dans une matrice sont représentées sous la forme de couleurs. |
+| **[!UICONTROL Bulles] | Représente les événements à l’aide de bulles. Un graphique en bulles est un graphique à plusieurs variables à mi-chemin entre un graphique de dispersion et un graphique à zones proportionnelles. Il s’agit de l’affichage par défaut. |
+| [!UICONTROL  Carte thermique ] | Représente les événements à l’aide d’une carte thermique. Une carte thermique est une représentation graphique des données où les valeurs individuelles contenues dans une matrice sont représentées sous la forme de couleurs. |
 | **[!UICONTROL Styles]** | |
 | [!UICONTROL Thème de couleur] | Affiche le jeu de couleurs pour la carte thermique et les bulles. Vous avez le choix entre Corail, Rouges, Verts ou Bleus. La valeur par défaut est Corail. |
 | [!UICONTROL Style de carte] | Vous avez le choix entre De base, Rues, Lumineux, Clair, Foncé et Satellite. |
@@ -132,7 +132,7 @@ Pour définir les paramètres de la visualisation, sélectionnez ![Paramètre](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/35002/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
 
 -->
 

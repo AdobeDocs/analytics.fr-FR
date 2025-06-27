@@ -1,18 +1,18 @@
 ---
-title: Cas d’utilisation de la comparaison de segments
+title: Cas D’Utilisation De Comparaison De Segments
 description: Découvrez des cas d’utilisation concrets sur la manière d’utiliser le panneau de comparaison de segments pour mieux comprendre la stratégie marketing.
 keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
-# Cas d’utilisation de Segment IQ
+# Cas d’utilisation de la comparaison de segments
 
 Le panneau de comparaison de segments est une fonctionnalité largement utilisée dans Analysis Workspace. Les clients découvrent fréquemment de nouvelles façons de générer des informations à partir de celui-ci. Vous trouverez ci-dessous plusieurs cas d’utilisation réussie.
 
@@ -60,7 +60,7 @@ Une grande société de services B2B souhaitait comprendre le type de trafic sur
 
 > *« Nous avons constaté que les personnes achetant des objets connectés Fitbit étaient six fois plus susceptibles de recevoir un message « article épuisé » que les autres clients. Nous avons donc commandé plus d’articles Fitbit afin d’éviter les ruptures de stock. »*
 
-**Scénario :** un grand détaillant en ligne voulait en savoir plus sur la vente d’un des produits phares des fêtes (Fitbit) et déterminer en quoi les acheteurs de Fitbit se distinguaient des autres clients. L’équipe marketing a simplement cliqué avec le bouton droit de la souris sur la ligne « Fitbit » de son rapport des produits, puis a exécuté une analyse rapide avec Segment IQ. Ils ont découvert que les acheteurs des objets connectés Fitbit étaient six fois plus susceptibles de recevoir un message « article épuisé » que n’importe quel autre client. Suite à une analyse plus poussée, l’équipe marketing a réussi à diriger ces visiteurs vers leurs magasins traditionnels en attendant que le service des achats commande davantage d’articles Fitbit. Le détaillant a ainsi évité la multiplication des messages de « rupture de stock » et a pu satisfaire la plus grande partie de la demande des Fêtes.
+**Scénario :** un grand détaillant en ligne voulait en savoir plus sur la vente d’un des produits phares des fêtes (Fitbit) et déterminer en quoi les acheteurs de Fitbit se distinguaient des autres clients. L’équipe marketing a simplement pu cliquer avec le bouton droit sur l’élément de ligne « Fitbit » dans son rapport de produits et exécuter rapidement une analyse Segment IQ. Ils ont constaté que les utilisateurs qui achetaient des objets connectés Fitbit étaient 6 fois plus susceptibles d&#39;obtenir un message de « rupture de stock » que tout autre client. Suite à une analyse plus poussée, l’équipe marketing a réussi à diriger ces visiteurs vers leurs magasins traditionnels en attendant que le service des achats commande davantage d’articles Fitbit. Le détaillant a ainsi évité la multiplication des messages de « rupture de stock » et a pu satisfaire la plus grande partie de la demande des Fêtes.
 
 | Segment 1 | Segment 2 |
 |--- |--- |

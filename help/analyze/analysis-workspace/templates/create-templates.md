@@ -1,13 +1,13 @@
 ---
-description: Vue d’ensemble de l’utilisation des rapports par défaut dans Analysis Workspace.
-title: Utiliser les rapports
+description: Découvrez comment créer et gérer des modèles dans Analysis Workspace.
+title: Création Et Gestion De Modèles
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
-workflow-type: ht
-source-wordcount: '720'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Les administrateurs et administratrices peuvent créer des modèles et les enregistrer pour que d’autres personnes de leur société de connexion puissent les utiliser.
 
-Les membres de la société de connexion peuvent utiliser ces modèles de société comme décrit dans la section [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
+Les membres de la société de connexion peuvent utiliser ces modèles d’entreprise comme décrit dans la section [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
 
 ## Créer un modèle
 
@@ -39,7 +39,7 @@ Pour créer un modèle pouvant être utilisé par des personnes de votre sociét
 
 1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**].
 
-Pour plus d’informations sur la façon dont les utilisateurs et utilisatrices peuvent créer un projet basé sur un modèle, voir [Créer un projet basé sur un modèle](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) dans [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
+Pour plus d’informations sur la façon dont les utilisateurs et utilisatrices peuvent créer un projet basé sur un modèle, consultez [Créer un projet basé sur un modèle](/help/analyze/analysis-workspace/templates/use-templates.md#create-a-project-based-on-a-template) dans [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
 
 ## Modifier ou supprimer un modèle
 
@@ -49,17 +49,17 @@ Les administrateurs et administratrices peuvent modifier ou supprimer des modèl
 
 1. Si vous affichez des modèles dans une vue Colonnes ![icône Vue Colonnes](assets/column-view-icon.png), procédez comme suit :
 
-   1. Accédez au modèle à modifier ou à supprimer, puis sélectionnez l’icône d’informations en regard du nom du modèle.
+   1. Accédez au modèle à modifier ou supprimer, puis sélectionnez l’icône d’informations en regard du nom du modèle.
 
       ![Informations sur le modèle d’entreprise](assets/company-template-info.png)
 
-   1. Sélectionnez **[!UICONTROL Aperçu]**.
+   1. Sélectionnez **[!UICONTROL Prévisualisation]**.
 
-   1. Sélectionnez l’icône Plus, puis **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
+   1. Sélectionnez l’icône Plus, puis sélectionnez **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
 
       ![Modifier ou supprimer un modèle](assets/company-template-edit-delete.png)
 
-1. Si vous affichez des modèles en mode Carte ![icône du mode Carte](assets/card-view-icon.png), procédez comme suit :
+1. Si vous affichez des modèles dans un mode Carte ![icône du mode Carte](assets/card-view-icon.png), procédez comme suit :
 
    1. Recherchez le modèle à modifier ou à supprimer.
 
@@ -67,7 +67,7 @@ Les administrateurs et administratrices peuvent modifier ou supprimer des modèl
 
    1. Sélectionnez l’icône Plus, puis **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
 
-      ![Modifier ou supprimer la carte de modèle d’entreprise](assets/company-template-card-edit-delete.png)
+      ![Modification ou suppression de la carte de modèle d’entreprise](assets/company-template-card-edit-delete.png)
 
 1. Si vous modifiez un modèle, apportez les modifications souhaitées, puis sélectionnez [!UICONTROL **Projet**] > **[!UICONTROL Enregistrer en tant que modèle...]**.
 
@@ -83,31 +83,31 @@ Les administrateurs et administratrices peuvent modifier ou supprimer des modèl
    | **[!UICONTROL Cas d’utilisation]** | Sélectionnez tous les cas d’utilisation qui s’appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux personnes qui y accèdent à partir de la page Modèles d’organisation.</p> |
    | **[!UICONTROL Balises]** | Spécifiez les balises à appliquer au modèle. Les personnes peuvent filtrer la liste des modèles en fonction des balises que vous ajoutez. |
 
-1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**].
+1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**]/
 
 ## Renommer, baliser ou approuver des modèles
 
 Les administrateurs et administratrices peuvent renommer, baliser et approuver les modèles d’entreprise.
 
-1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis l’**[!UICONTROL onglet Projets]** dans le rail de gauche.
+1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis **[!UICONTROL Projets]** dans le rail de gauche.
 
 1. Sélectionnez l’icône de filtre pour filtrer la liste des projets.
 
-1. Dans le rail de filtre, sélectionnez **AUTRES FILTRES**, puis **Modèles d’entreprise**.
+1. Dans le rail de filtrage, sélectionnez **AUTRES FILTRES**, puis **Modèles d’entreprise**.
 
    Une liste des modèles d’entreprise s’affiche. Aucun projet standard ne s’affiche sauf ceux épinglés.
 
-   Les modèles d’entreprise peuvent être identifiés par l’![icône modèles](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) qui précède le nom du modèle.
+   Les modèles d’entreprise peuvent être identifiés par l’![icône de modèles](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) qui précède le nom du modèle.
 
-   ![Afficher les filtres des modèles d’entreprise](assets/company-templates-filter.png)
+   ![Affichage des filtres des modèles d’entreprise](assets/company-templates-filter.png)
 
 1. Cliquez sur l’icône des points de suspension **...** en regard d’un modèle pour afficher les options disponibles.
 
    ![Actions de modèle d’entreprise](assets/company-templates-actions.png)
 
-1. Sélectionnez **[!UICONTROL Renommer]**, **[!UICONTROL Baliser]** ou **[!UICONTROL Approuver]**.
+1. Sélectionnez **[!UICONTROL Renommer]**, **[!UICONTROL Balise]** ou **[!UICONTROL Approuver]**.
 
-   Vous pouvez également modifier un modèle ou en supprimer un comme décrit dans la section [Modifier ou supprimer des modèles](#edit-or-delete-templates).
+   Vous pouvez également modifier un modèle, ou en supprimer un, comme décrit dans la section [Modifier ou supprimer des modèles](#edit-or-delete-templates).
 
 1. (Facultatif) Pour revenir à la vue normale, dans le rail de filtre, désélectionnez **[!UICONTROL Modèles d’entreprise]**.
 
@@ -115,7 +115,7 @@ Les administrateurs et administratrices peuvent renommer, baliser et approuver l
 
 Comme pour les modèles fournis par Adobe, les utilisateurs et utilisatrices de l’entreprise peuvent accéder aux modèles créés par les administrateurs et administratrices.
 
-Pour plus d’informations sur l’accès à un modèle d’entreprise, voir [Accéder à un modèle et l’exécuter](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) dans [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
+Pour plus d’informations sur l’accès à un modèle d’entreprise, consultez [Accès et exécution d’un modèle](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template) dans [Utilisation de modèles](/help/analyze/analysis-workspace/templates/use-templates.md).
 
 ## Masquer lʼonglet Modèles {#hide-reports}
 
