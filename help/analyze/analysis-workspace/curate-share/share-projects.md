@@ -1,14 +1,14 @@
 ---
-description: Partage de projets et rôles de projets dans Workspace
+description: Découvrez comment partager des rôles de projet et dans Workspace
 keywords: Partage de projets Analysis Workspace
 title: Partage de projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -41,12 +41,12 @@ Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsq
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/40030?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
-## Partager avec les utilisateurs, les utilisatrices et les groupes Analysis Workspace de votre organisation {#Add}
+## Partager avec des utilisateurs et des groupes de votre organisation {#Add}
 
 Vous pouvez partager un projet avec des utilisateurs, des utilisatrices ou des groupes Analysis Workspace existants de votre organisation. Les utilisateurs et utilisatrices avec lesquels vous partagez le projet doivent disposer au préalable d’un accès à Adobe Analytics.
 
@@ -83,7 +83,7 @@ Pour partager un rôle de projet spécifique avec des utilisateurs et utilisatri
    Ou
 
    Pour partager un projet individuel uniquement, vous pouvez ouvrir le projet que vous souhaitez partager, puis sélectionner **[!UICONTROL Partager]** > **[!UICONTROL Partager avec les utilisateurs et utilisatrices Workspace]**.
-Si des modifications ne sont pas enregistrées, on vous invitera d’abord à enregistrer votre projet.
+Si des modifications n’ont pas enregistrées, on vous invite d’abord à enregistrer votre projet.
 
    La boîte de dialogue Partage de projets s’affiche. Les sections [!UICONTROL **Partager par lien**] et [!UICONTROL **Paramètres**] de la boîte de dialogue ne sont visibles que lors du partage d’un seul projet.
 
@@ -119,7 +119,7 @@ Lorsque vous partagez un lien comme décrit dans cette section, tenez compte des
 
 Pour partager le lien du projet avec les utilisateurs et utilisatrices de votre organisation, procédez comme suit :
 
-1. Enregistrez le projet. Si des modifications ne sont pas enregistrées, on vous invitera d’abord à enregistrer votre projet avant de partager un lien.
+1. Enregistrez le projet. Si des modifications n’ont pas enregistrées, on vous invite à enregistrer votre projet avant de partager un lien.
 
 1. Sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Partager avec les utilisateurs et utilisatrices Workspace]**, puis sélectionnez **[!UICONTROL Copier]** en regard du champ **[!UICONTROL Partager par lien]**.
 
@@ -157,7 +157,7 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3452452?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -168,7 +168,7 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
 1. Cliquez sur **[!UICONTROL Partager]** > **[!UICONTROL Partager avec n’importe quelle personne]**.
 
-   Si des modifications ne sont pas enregistrées, on vous invitera d’abord à enregistrer votre projet.
+   Si des modifications n’ont pas enregistrées, on vous invite à enregistrer votre projet.
 
    <!-- Add screen shot of new modal -->
 
@@ -212,7 +212,7 @@ Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/327496?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

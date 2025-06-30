@@ -1,20 +1,20 @@
 ---
-description: Envoyez un projet Analysis Workspace par e-mail ou planifiez une diffusion.
-keywords: Analysis Workspace
-title: Planification de projets
+description: Découvrez comment envoyer un projet Analysis Workspace directement ou selon un planning de diffusion par e-mail.
+keywords: Analysis Workspace
+title: Envoyer Et Planifier Des Projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 32%
+source-wordcount: '491'
+ht-degree: 28%
 
 ---
 
-# Envoyer des fichiers à d’autres personnes
+# Envoyer et planifier
 
-Vous pouvez envoyer des rapports Adobe Analytics sous forme de fichiers à des utilisateurs sélectionnés par e-mail. Vous pouvez envoyer des fichiers ad hoc ou configurer les fichiers à envoyer selon un planning. Les fichiers peuvent être envoyés au format CSV ou PDF.
+Vous pouvez envoyer des projets Adobe Analytics sous forme de fichiers à des utilisateurs sélectionnés par e-mail. Vous pouvez envoyer des fichiers ad hoc ou configurer les fichiers à envoyer selon un planning. Les fichiers peuvent être envoyés au format CSV ou PDF.
 
 Toutes les balises appliquées au projet sont automatiquement appliquées à l’export.
 
@@ -24,7 +24,7 @@ D’autres méthodes d’exportation des données Adobe Analytics sont égalemen
 
 ## Envoyer le fichier
 
-Pour envoyer un fichier aux destinataires par e-mail :
+Pour envoyer un fichier ad hoc aux destinataires par e-mail :
 
 1. Sélectionnez **[!UICONTROL Partager] > [!UICONTROL Envoyer le fichier]**.
 1. Spécifiez le type de fichier :
