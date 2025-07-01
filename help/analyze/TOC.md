@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 96%
 
 ---
@@ -131,14 +131,14 @@ ht-degree: 96%
          + [Vue d’ensemble](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Organiser et partager des projets {#curate-share}
+   + Traitement et partage {#curate-share}
       + [Vue d’ensemble](analysis-workspace/curate-share/send-schedule-files.md)
       + [Traitement des projets](analysis-workspace/curate-share/curate.md)
       + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
-      + [Création de liens partageables](analysis-workspace/curate-share/shareable-links.md)
+      + [Liens partageables](analysis-workspace/curate-share/shareable-links.md)
       + [Projets en lecture seule](analysis-workspace/curate-share/view-only-projects.md)
-      + [Téléchargement de projets](analysis-workspace/curate-share/download-send.md)
-      + [Envoyer et planifier des projets](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Télécharger](analysis-workspace/curate-share/download-send.md)
+      + [Envoyer et planifier](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
       + [Présentation d’Attribution](analysis-workspace/attribution/overview.md)
       + [Modèles d’attribution et intervalles de recherche en amont](analysis-workspace/attribution/models.md)
