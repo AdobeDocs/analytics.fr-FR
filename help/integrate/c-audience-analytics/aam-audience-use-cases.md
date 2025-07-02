@@ -22,11 +22,11 @@ En tant qu’entreprise de voyages, vous pouvez rapidement superposer les préf�
 
 ## Modélisation analogue  {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-En tant qu’éditeur multimédia, vous pouvez comparer vos audiences tierces à l’aide de la [comparaison des segments](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) pour comprendre les principales caractéristiques de différenciation. Cette comparaison vous permet de créer des segments propriétaires à forte valeur ajoutée à utiliser pour le ciblage.
+En tant qu’éditeur multimédia, vous pouvez comparer vos audiences tierces à l’aide de la [comparaison des segments](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison) pour comprendre les principales caractéristiques de différenciation. Cette comparaison vous permet de créer des segments propriétaires à forte valeur ajoutée à utiliser pour le ciblage.
 
 ## Analyse des prospects  {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-En tant que détaillant interentreprises, vous pouvez désormais analyser en profondeur le comportement de votre audience cible avant qu’ils n’effectuent un achat à l’aide de la [segmentation séquentielle](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), qui vous aide à comprendre quelles actions favorisent la conversion.
+En tant que détaillant interentreprises, vous pouvez désormais analyser en profondeur le comportement de votre audience cible avant qu’ils n’effectuent un achat à l’aide de la [segmentation séquentielle](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build), qui vous aide à comprendre quelles actions favorisent la conversion.
 
 ## Ciblage démographique  {#section_F034DB721A06419283DBD29D4A1B444B}
 
