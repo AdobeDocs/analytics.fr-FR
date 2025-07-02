@@ -1,13 +1,13 @@
 ---
-description: Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices de cataloguer et de suivre les différents composants dans Analysis Workspace, y compris leur utilisation prévue, qui est approuvée, qui sont des doublons, etc.
+description: Le dictionnaire de données dans Analysis Workspace permet aux utilisateurs et utilisatrices de cataloguer et de suivre les différents composants dans Analysis Workspace, y compris leur utilisation prévue, ceux qui sont approuvés, ceux qui sont des doublons, etc.
 title: Présentation du dictionnaire de données
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="Dictionnaire de données"
->abstract="Le dictionnaire de données aide les utilisateurs et utilisatrices, et les administrateurs et administratrices, à suivre et à mieux comprendre les composants dans leur environnement Analytics. <br/>Les administrateurs et administratrices d’Analytics sont responsable du traitement des informations sur chaque composant du dictionnaire de données."
+>abstract="Le dictionnaire de données aide les utilisateurs et utilisatrices, ainsi que les administrateurs et administratrices, à suivre et à mieux comprendre les composants dans leur environnement Analytics. <br/>Les administrateurs et administratrices d’Analytics sont chargés de traiter les informations sur chaque composant du dictionnaire de données."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Les administrateurs et administratrices d’Analytics sont responsables du trait
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dictionnaire de données pour Analysis Workspace](https://video.tv.adobe.com/v/3422282/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dictionnaire de données pour Analysis Workspace](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"} pour découvrir une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Les informations disponibles dans le dictionnaire de données incluent :
 
 * Composants similaires à celui que vous consultez.
 
-* Si un composant est approuvé par l’administrateur système.
+* Si un composant est approuvé par l’administrateur ou l’administratrice système.
 
 Pour plus d’informations sur l’accès au dictionnaire de données et sur les informations qu’il contient, voir [Afficher des informations sur les composants dans le dictionnaire de données](view-data-dictionary.md).
 
@@ -57,7 +57,7 @@ Pour plus d’informations sur l’accès au dictionnaire de données et sur les
 
 Le dictionnaire de données permet aux administrateurs et administratrices système de suivre et de traiter les composants dans leur environnement Analytics.
 
-Les administrateurs et administratrices d’Analytics peuvent utiliser le dictionnaire de données à ces fins :
+Les administrateurs et administratrices d’Analytics peuvent utiliser le dictionnaire de données à ces fins :
 
 * Identifier les composants en double qui doivent être consolidés.
 
@@ -88,9 +88,9 @@ Pour des informations détaillées sur les différentes options disponibles dans
 
 ## Mettre à jour et traiter le dictionnaire de données
 
-Les administrateurs et administratrices d’Adobe Analytics sont chargés de mettre à jour un dictionnaire de données intègre pour leur entreprise, comme décrit dans la section [Surveiller l’intégrité du dictionnaire de données](monitor-data-dictionary-health.md).
+Les administrateurs et administratrices d’Adobe Analytics sont chargés de mettre à jour un dictionnaire de données intègre pour leur entreprise, comme décrit dans la section [Surveiller l’intégrité du dictionnaire de données](monitor-data-dictionary-health.md).
 
-Dans le cadre de ce processus, les administrateurs et administratrices d’Adobe Analytics peuvent modifier des informations sur chaque composant du dictionnaire de données, comme décrit dans la section [ Modifier les entrées de composant dans le dictionnaire de données](edit-entries-data-dictionary.md).
+Dans le cadre de ce processus, les administrateurs et administratrices d’Adobe Analytics peuvent modifier des informations sur chaque composant du dictionnaire de données, comme décrit dans la section [Modifier les entrées de composant dans le dictionnaire de données](edit-entries-data-dictionary.md).
 
 ## Déplacer, réduire ou fermer le dictionnaire de données
 
@@ -108,7 +108,7 @@ Vous pouvez manipuler la fenêtre du dictionnaire de données de l’une des man
 
   Lorsque vous sélectionnez l’onglet bleu, le dictionnaire de données s’ouvre sur le composant que vous avez consulté le plus récemment.
 
-* Ferme la fenêtre.
+* Fermez la fenêtre.
 
 
 <!--
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422282?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3418028?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

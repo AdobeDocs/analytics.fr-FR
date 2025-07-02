@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -194,24 +194,24 @@ ht-degree: 97%
       + [Supprimer des segments](segmentation/segmentation-workflow/seg-delete.md)
       + [Copier des segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gérer les segments](segmentation/segmentation-workflow/seg-manage.md)
-      + [Publication de segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Publier des segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Utiliser les segments](segmentation/segmentation-workflow/t-seg-apply.md)
    + Référence de segment {#segment-reference}
       + [Opérateurs](segmentation/seg-reference/seg-operators.md)
       + [Compatibilité des segments avec l’entrepôt de données](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
       + [Résolution des problèmes](segmentation/seg-reference/c-troubleshooting.md)
-   + [FAQ sur les segments hérités](segmentation/seg-transition.md)
+   + [Questions fréquentes sur les segments hérités](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
 + Mesures calculées {#calculated-metrics}
    + [Vue d’ensemble](c-calcmetrics/cm-overview.md)
    + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
    + Workflow des mesures calculées {#calcmetric-workflow}
-      + [Création de mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
-      + [Recherche de mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
+      + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [Rechercher des mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Une mesure calculée simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Une mesure calculée plus complexe](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [Mesure calculée simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Mesure calculée plus complexe](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Créer une mesure de participation](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,7 +224,7 @@ ht-degree: 97%
       + [Approbation des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copier des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [Gestion des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [Gérer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + Référence des mesures {#calcmetrics-reference}
       + [Fonctions de base](c-calcmetrics/cm-reference/cm-functions.md)
       + [Fonctions avancées](c-calcmetrics/cm-reference/cm-adv-functions.md)

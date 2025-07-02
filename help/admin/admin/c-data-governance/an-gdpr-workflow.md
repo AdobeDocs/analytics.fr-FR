@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '319'
+ht-degree: 100%
 
 ---
 
