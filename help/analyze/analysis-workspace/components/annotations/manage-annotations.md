@@ -1,13 +1,13 @@
 ---
 title: Gestion des annotations
-description: Comment gérer les annotations dans l’espace de travail.
+description: Comment gérer les annotations dans Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 89%
+source-wordcount: '761'
+ht-degree: 88%
 
 ---
 
@@ -69,7 +69,7 @@ La barre de filtres affiche ➌ les filtres actifs (le cas échéant). Vous pouv
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer les annotations à l’aide du ➍ du panneau de gauche **[!UICONTROL Filtrer]**. Le panneau Filtrer affiche le type de filtre et le nombre d’annotations qui correspondent au filtre. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
+Vous pouvez filtrer les annotations à l’aide du **[!UICONTROL du panneau de gauche]** Filtrer➍. Le panneau Filtrer affiche le type de filtre et le nombre d’annotations qui correspondent au filtre. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
 
 Pour filtrer la liste des filtres :
 

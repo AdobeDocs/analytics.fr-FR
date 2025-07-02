@@ -1,12 +1,12 @@
 ---
-description: Consultez et gérez les rapports planifiés de l’ensemble de l’organisation.
-title: Gestionnaire de projets planifiés
+description: Découvrez comment gérer les projets planifiés.
+title: Projets planifiés
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 42%
+source-wordcount: '786'
+ht-degree: 41%
 
 ---
 

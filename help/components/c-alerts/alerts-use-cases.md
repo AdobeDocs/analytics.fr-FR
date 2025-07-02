@@ -1,35 +1,32 @@
 ---
-description: Cas d’utilisation relatifs à la création et à la gestion d’alertes.
-title: Alertes - Cas d’utilisation
+description: Examinez certains cas d’utilisation pour la création et la gestion des alertes.
+title: Cas d’utilisation des alertes
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# Alertes - Cas d’utilisation
+# Cas d’utilisation des alertes
 
-Vous pouvez créer des alertes comme décrit dans la section [Créer des alertes](/help/components/c-alerts/alert-builder.md).
+Vous pouvez créer des alertes comme décrit dans la section [Créer des alertes](alert-builder.md).
 
 Les sections suivantes présentent des exemples de cas d’utilisation à prendre en compte lors de la création d’alertes.
 
-## Créer une alerte simple filtrée par deux segments {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## Filtrer les alertes
 
-<!-- 
+Vous pouvez créer des alertes simples à l’aide de segments. Par exemple, définissez une alerte sur le nombre de sessions pour les personnes qui visitent la page d’accueil par le biais d’une session d’application mobile.
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## Consolidation (empilement) des alertes plutôt que de créer plusieurs alertes {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Empilement d’alertes
 
-Les alertes empilées sont combinées, ce qui évite d’avoir à gérer plusieurs alertes distinctes.
+Vous pouvez consolider (empiler) les alertes au lieu de créer plusieurs alertes. Les alertes empilées sont combinées, ce qui évite d’avoir à gérer plusieurs alertes distinctes. Dans l’exemple ci-dessous, une alerte est envoyée lorsque l’un des seuils de mesure est déclenché.
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

@@ -1,12 +1,12 @@
 ---
-title: Bonnes pratiques en matière dʼattribution
-description: Quelles sont les bonnes pratiques pour choisir un modèle d’attribution ?
+title: Bonnes pratiques d’attribution
+description: Découvrez les bonnes pratiques pour décider du modèle d’attribution à utiliser.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 75%
+source-wordcount: '422'
+ht-degree: 74%
 
 ---
 
@@ -53,7 +53,7 @@ Dans ce cas, vous utiliserez alors le modèle d’attribution [ En forme de J in
 
 Supposons que votre hypothèse soit la suivante : *« Dans un secteur spécifique (comme l’industrie du voyage), la fenêtre d’attribution est de 60 ou 90 jours, et non de 30 jours, car les clients font beaucoup de recherches avant d’acheter un produit* ».
 
-Dans ce cas, vous pouvez modifier votre [intervalle de recherche en amont](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/attribution/models) à 90 jours.
+Dans ce cas, vous pouvez modifier votre [intervalle de recherche en amont](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models) à 90 jours.
 
 ## Utiliser l’attribution algorithmique
 
@@ -63,4 +63,4 @@ Si vous ne disposez pas encore d’un modèle d’attribution qui fournit des r�
 
 * Il se peut que vous deviez faire appel aux services dʼun spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
 * Vous pouvez vous fier aux données brutes, comme dans les flux de données Adobe.
-* Envisagez dʼutiliser [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez prendre en compte vos données sur les Impressions.
+* Envisagez dʼutiliser [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez prendre en compte vos données sur les Impressions.

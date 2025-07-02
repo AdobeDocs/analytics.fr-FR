@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '773'
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 100%
    + [À propos des segments](segmentation/seg-overview.md)
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Workflow de segmentation {#segmentation-workflow}
+   + Processus {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
       + [Créer des segments](segmentation/segmentation-workflow/seg-create.md)
@@ -196,7 +196,7 @@ ht-degree: 100%
       + [Gérer les segments](segmentation/segmentation-workflow/seg-manage.md)
       + [Publier des segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [Utiliser les segments](segmentation/segmentation-workflow/t-seg-apply.md)
-   + Référence de segment {#segment-reference}
+   + Référence {#segment-reference}
       + [Opérateurs](segmentation/seg-reference/seg-operators.md)
       + [Compatibilité des segments avec l’entrepôt de données](segmentation/seg-reference/seg-compatibility.md)
       + [Droits des segments par rôle](segmentation/seg-reference/seg-rights.md)
@@ -206,7 +206,7 @@ ht-degree: 100%
 + Mesures calculées {#calculated-metrics}
    + [Vue d’ensemble](c-calcmetrics/cm-overview.md)
    + [Vidéos pratiques](c-calcmetrics/cm-videos.md)
-   + Workflow des mesures calculées {#calcmetric-workflow}
+   + Processus {#calcmetric-workflow}
       + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Rechercher des mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
@@ -225,7 +225,7 @@ ht-degree: 100%
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copier des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [Gérer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + Référence des mesures {#calcmetrics-reference}
+   + Référence {#calcmetrics-reference}
       + [Fonctions de base](c-calcmetrics/cm-reference/cm-functions.md)
       + [Fonctions avancées](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [Compatibilité des mesures](c-calcmetrics/cm-compatibility.md)
@@ -240,7 +240,7 @@ ht-degree: 100%
    + [Remarques concernant A4T](vrs/vrs-a4t.md)
    + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Suites de rapports virtuelles et balisage global/multisuite - Remarques](vrs/vrs-considerations.md)
-   + Workflow des suites de rapports virtuelles {#vrs-workflow}
+   + Processus {#vrs-workflow}
       + [Workflow des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Création des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 100%
    + [FAQ sur les analyses entre appareils](cda/faq.md)
 + Alertes {#alerts}
    + [Vue d’ensemble](c-alerts/intellligent-alerts.md)
-   + [Créer](c-alerts/alert-builder.md)
-   + [Gérer](c-alerts/alert-manager.md)
+   + [Créer des alertes](c-alerts/alert-builder.md)
+   + [Gérer les alertes](c-alerts/alert-manager.md)
    + [Cas d’utilisation](c-alerts/alerts-use-cases.md)
 + Classifications {#classifications}
    + [Vue d’ensemble des classifications](classifications/classifications-overview.md)

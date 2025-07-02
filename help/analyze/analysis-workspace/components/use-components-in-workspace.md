@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment ajouter des composants à un projet dans Analysis Workspace.
-title: Utiliser des composants dans Analysis Workspace
+description: Découvrez comment utiliser des composants dans un projet dans Analysis Workspace
+title: Utilisation De Composants Dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ Pour plus d’informations sur les types de composants que vous pouvez ajouter, 
 1. Faites défiler l’écran jusqu’au composant à ajouter ou recherchez-le, puis faites-le glisser vers un panneau ou une visualisation de votre projet.
 
 1. Vous pouvez éventuellement faire glisser un composant vers la zone de dépôt des segments dans un en-tête de panneau. Ce glisser-déposer définit le composant comme un segment et applique le segment à tout le contenu du panneau.
-Pour plus d’informations sur l’utilisation de la zone de dépôt des segments sur un panneau pour segmenter votre panneau, voir [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) dans [Vue d’ensemble des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md).
+Pour plus d’informations sur l’utilisation de la zone de dépôt de segments sur un panneau pour segmenter votre panneau, consultez la section [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) de la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 1. Pour des informations plus détaillées, voir les sections suivantes :
 
@@ -68,7 +68,7 @@ Les mesures vous permettent de quantifier les points de données dans Analysis W
 
 Pour ajouter une mesure à un projet dans Analysis Workspace :
 
-1. Commencez par ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [Ajouter des composants à un projet](#add-components-to-a-project).
+1. Commencez à ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [ Ajouter des composants à un projet ](#add-components-to-a-project).
 
 
 
@@ -97,24 +97,24 @@ Vous pouvez utiliser des segments dans Analysis Workspace de l’une des maniè
 
 * Ajouter des segments à un panneau
 Lorsque vous ajoutez des segments à un panneau, les segments s’appliquent à tout le contenu du panneau.
-Pour plus d’informations sur l’utilisation de la zone de dépôt des segments sur un panneau pour segmenter votre panneau, voir [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) dans [Vue d’ensemble des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md).
+Pour plus d’informations sur l’utilisation de la zone de dépôt de segments sur un panneau pour segmenter votre panneau, consultez la section [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) de la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md).
 
 * Ajouter des segments à une visualisation
 Lorsque vous ajoutez des segments à une colonne d’un tableau à structure libre, les segments s’appliquent à tout le contenu de la colonne du tableau. Vous pouvez également ajouter des segments dans le cadre d’une visualisation des abandons.
 
-* Utiliser des segments dans des composants
-Lorsque vous définissez des composants tels que des [mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), des [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder), voire des [segments](/help/components/segmentation/segmentation-workflow/seg-build.md), vous pouvez utiliser des segments dans le cadre de la définition.
+* Utilisation de segments dans les composants
+Lorsque vous définissez des composants tels que [mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md), [annotations](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder) ou même [segments](/help/components/segmentation/segmentation-workflow/seg-build.md) vous pouvez utiliser des segments dans le cadre de la définition.
 
 
 ### Ajouter des périodes à un projet
 
-Les [périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) déterminent la période de création de rapports dans Analysis Workspace. Elles peuvent être appliquées à un ou plusieurs panneaux au sein d’un projet, ainsi qu’à certaines visualisations (telles que le tableau à structure libre).
+[Périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) déterminez la période de création de rapports dans Analysis Workspace. De plus, une plage de données peut être appliquée aux panneaux d’un projet ainsi qu’à certaines visualisations (comme le tableau à structure libre).
 
 Par défaut, chaque panneau comprend une période. Il existe plusieurs façons de mettre à jour une période pour un panneau. Une méthode de mise à jour d’une période pour un panneau dans Analysis Workspace consiste à faire glisser un composant de période depuis le panneau de gauche :
 
 1. Vous pouvez éventuellement ajouter une période à votre projet dans Analysis Workspace, comme décrit dans la section [Ajouter des composants à un projet](#add-components-to-a-project).
 
-1. Faites glisser et déposez une période depuis le panneau de gauche sur :
+1. Effectuez un glisser-déposer d’une période du panneau de gauche sur :
 
    * La période en cours, pour modifier la période du panneau.
 
@@ -126,7 +126,7 @@ Pour plus d’informations sur l’utilisation et la gestion des périodes dans 
 
 ## Informations sur le composant
 
-Vous pouvez pointer sur n’importe quel composant pour afficher ![Plus d’informations](/help/assets/icons/InfoOutline.svg). Lorsque cette option est sélectionnée, une fenêtre contextuelle s’affiche avec des informations supplémentaires sur le composant.
+Vous pouvez pointer sur n’importe quel composant pour afficher ![Plus d’informations](/help/assets/icons/InfoOutline.svg). Lorsque vous sélectionnez ![InfoOutline](/help/assets/icons/InfoOutline.svg), une fenêtre contextuelle s’affiche avec des informations supplémentaires sur le composant.
 
 ![Informations sur le composant](assets/component-info.png)
 

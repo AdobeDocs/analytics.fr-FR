@@ -1,19 +1,19 @@
 ---
-title: Annotations des cartes de performance mobiles
-description: Découvrez comment afficher les annotations sur les cartes de performance mobiles.
+title: Annotations mobiles
+description: Découvrez comment faire apparaître les annotations dans les cartes de performance mobiles.
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 94%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
 
-# Partage des annotations dans les cartes de performance mobiles
+# Annotations des cartes de performance mobiles
 
 Vous pouvez afficher les annotations créées dans Workspace dans les cartes de performance mobiles. Les annotations dans les cartes de performance mobiles vous permettent de partager les nuances et informations des données contextuelles de votre organisation et de vos campagnes.
 

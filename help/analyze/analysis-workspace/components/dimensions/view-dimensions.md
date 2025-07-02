@@ -1,17 +1,17 @@
 ---
-description: Affichez les valeurs supérieures d’une dimension avant de l’utiliser dans un projet.
+description: Découvrez comment afficher les détails et les principales valeurs d’une dimension dans Analysis Workspace.
 title: Aperçu des dimensions
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# Prévisualiser les dimensions dans Analysis Workspace
+# Aperçu des dimensions
 
 Vous pouvez utiliser les [informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info) pour un composant afin d’afficher les principaux éléments d’une dimension.
 

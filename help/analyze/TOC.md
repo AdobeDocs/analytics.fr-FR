@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 97%
+source-wordcount: '870'
+ht-degree: 96%
 
 ---
 
@@ -46,24 +46,24 @@ ht-degree: 97%
       + [Utiliser les modèles](analysis-workspace/templates/use-templates.md)
       + [Créer des modèles](analysis-workspace/templates/create-templates.md)
    + Composants {#components}
-      + [Vue d’ensemble des composants](analysis-workspace/components/analysis-workspace-components.md)
-      + [Utiliser des composants dans Workspace](analysis-workspace/components/use-components-in-workspace.md)
+      + [Vue d’ensemble](analysis-workspace/components/analysis-workspace-components.md)
+      + [Utiliser les composants](analysis-workspace/components/use-components-in-workspace.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
-         + [Vue d’ensemble des annotations](analysis-workspace/components/annotations/overview.md)
+         + [Vue d’ensemble](analysis-workspace/components/annotations/overview.md)
          + [Création d’annotations](analysis-workspace/components/annotations/create-annotations.md)
          + [Gestion des annotations](analysis-workspace/components/annotations/manage-annotations.md)
          + [Affichage des annotations](analysis-workspace/components/annotations/view-annotations.md)
-         + [Annotations mobiles](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [Annotations des cartes de performance mobiles](analysis-workspace/components/annotations/mobile-annotations.md)
       + Dimensions {#dimensions}
          + [Aperçu des dimensions](analysis-workspace/components/dimensions/view-dimensions.md)
          + [Ventilation des dimensions](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [Dimensions de répartition du temps](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [Mesures](analysis-workspace/components/apply-create-metrics.md)
       + Segments {#segments}
-         + [Création de segments](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [Vue d’ensemble](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segments rapides](analysis-workspace/components/segments/quick-segments.md)
-      + Calendrier et périodes {#calendar-date-ranges}
+      + Périodes {#calendar-date-ranges}
          + [Vue d’ensemble](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Créer des périodes](analysis-workspace/components/calendar-date-ranges/create.md)
          + [Gérer des périodes](analysis-workspace/components/calendar-date-ranges/manage.md)
@@ -141,26 +141,26 @@ ht-degree: 97%
       + [Envoyer et planifier](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution {#attribution}
       + [Présentation d’Attribution](analysis-workspace/attribution/overview.md)
-      + [Modèles d’attribution et intervalles de recherche en amont](analysis-workspace/attribution/models.md)
+      + [Modèle, conteneur et intervalle de recherche en amont](analysis-workspace/attribution/models.md)
       + [Attribution algorithmique](analysis-workspace/attribution/algorithmic.md)
-      + [Bonnes pratiques en matière dʼattribution](analysis-workspace/attribution/best-practices.md)
-      + [FAQ](analysis-workspace/attribution/faq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [Segment IQ](analysis-workspace/segment-iq.md)
+      + [Bonnes pratiques](analysis-workspace/attribution/best-practices.md)
+      + [Questions fréquentes](analysis-workspace/attribution/faq.md)
+   + [Gestion des parcours](analysis-workspace/journey-iq.md)
+   + [Comparaison des segments](analysis-workspace/segment-iq.md)
    + Détection des anomalies {#anomaly-detection}
-      + [Détection des anomalies - Aperçu](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [Affichage des anomalies dans Analysis Workspace](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [Vue d’ensemble](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Afficher les anomalies](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Désactivation de la détection des anomalies](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [Exécution de l’analyse des contributions](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [Techniques statistiques de la détection des anomalies](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [Techniques statistiques](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Préférences de l’utilisateur ou de l’utilisatrice](analysis-workspace/user-preferences.md)
    + FAQ sur Workspace {#workspace-faq}
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
-      + [Optimisation des performances d’Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [Messages d’erreur](analysis-workspace/workspace-faq/error-messages.md)
-      + [Limites d’Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [Configuration requise pour l’administration](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accessibilité dans Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Optimiser les performances](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Erreurs et résolution des problèmes](analysis-workspace/workspace-faq/error-messages.md)
+      + [Limites](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Exigences pour l’administration](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Accessibilité](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Présentation de Report Builder](report-builder/rb-overview.md)
    + [Configuration de Report Builder](report-builder/report-builder-setup.md)

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: ht
-source-wordcount: '6376'
-ht-degree: 100%
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+workflow-type: tm+mt
+source-wordcount: '6374'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Amélioration de la documentation sur les règles de robots. | Mise à jour des informations dans [Comprendre et configurer des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) afin d’améliorer la clarté.<p>Les améliorations sont les suivantes :</p> <ul><li>Mise à jour du titre de l’article afin qu’il soit plus explicite.</li><li>Amélioration de l’organisation des informations</li><li>Ajout d’étapes indiquant des informations basées sur des tâches</li><li>Ajout d’informations supplémentaires sur les exigences de fichier CSV lors du téléchargement de règles de robots.</li></ul> |
 | Nouvelle section Rapports | Ajout d’une nouvelle section Rapports qui contient des informations sur l’[utilisation de modèles](/help/analyze/analysis-workspace/templates/use-templates.md) et la [création de modèles d’entreprise](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Mises à jour de la documentation Détection des anomalies et Analyse des contributions | La documentation relative à la détection des anomalies et à l’analyse des contributions se trouvait auparavant dans une section sur Virtual Analyst. Les modifications suivantes ont été apportées : <ul><li>Le terme Virtual Analyst a été supprimé de la documentation.</li><li>La section sur la [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) a été déplacée directement sous la section Analysis Workspace.</li><li>La documentation sur l’analyse des contributions a été fusionnée dans la documentation sur la détection des anomalies.</li></ul> |
-| « Attribution IQ » a été remplacé par « Attribution ». | Changement de toutes les occurrences d’« Attribution IQ » en « [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) » dans la documentation. |
+| « Attribution IQ » remplacé par « Attribution » | Changement de toutes les occurrences d’« Attribution IQ » en « [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) » dans la documentation. |
 | **Novembre 2023** | |
 | Mises à jour de la rubrique Activation de l’Activity Map | Ajout du contenu [SDK web](/help/analyze/activity-map/getting-started.md) (à la fois manuellement et via l’extension de balises Adobe Experience Platform). |
 | **Octobre 2023** | |
@@ -324,7 +324,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 1er octobre 2019 | Nouvel article sur les [Totaux Espace de travail](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr#cja-workspace). |
 | 28 septembre 2019 | Nouveaux articles sur [les variables de configuration pour l’implémentation JavaScript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 septembre 2019 | Révision de la documentation sur la segmentation afin d’expliquer les [conteneurs Groupe logique](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=fr#logic-group-containers). |
-| 12 septembre 2019 | Nouvelle documentation pour [l’IQ du parcours : analyses sur plusieurs appareils](/help/components/cda/overview.md). |
+| 12 septembre 2019 | Nouvelle documentation pour [ Analyses entre appareils ](/help/components/cda/overview.md) |
 | 12 septembre 2019 | Mise à jour du document sur les [Totaux des mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=fr). |
 | 28 août 2019 | Nouvel article sur [les applications web progressives (PWA) pour Analytics](/help/technotes/pwa.md). |
 | 8 août 2019 | Nouvel article sur les [totaux des mesures calculées](/help/components/c-calcmetrics/cm-totals.md). |

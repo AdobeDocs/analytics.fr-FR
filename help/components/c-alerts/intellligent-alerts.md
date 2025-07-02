@@ -1,12 +1,12 @@
 ---
-description: Les alertes permettent un contrôle granulaire des notifications et leur intégration à la détection des anomalies.
-title: Vue d’ensemble des alertes
+description: Découvrez comment utiliser les alertes pour permettre un contrôle granulaire des notifications et l’intégration à la détection des anomalies.
+title: Présentation des alertes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
@@ -38,7 +38,7 @@ Si une alerte utilise la détection des anomalies, la période de formation vari
 * Granularité quotidienne : 35 jours + même période l’an dernier
 * Granularité horaire : 336 heures
 
-Pour en savoir plus, voir [Techniques statistiques de la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+Pour en savoir plus, consultez [Techniques statistiques utilisées dans la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
 
 ## Créer des alertes
 

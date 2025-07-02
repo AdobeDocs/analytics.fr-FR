@@ -1,12 +1,13 @@
 ---
-title: Gestion des périodes
-description: Partagez, renommez ou supprimez des périodes dans Analysis Workspace.
+title: Gérer les plages de dates
+description: Découvrez comment gérer les périodes dans Analysis Workspace.
 feature: Date Ranges
 role: User
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -33,7 +34,7 @@ La liste des périodes affiche ➊ toutes les périodes. La liste comporte les c
 | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) | Sélectionnez pour privilégier ![Étoile](/help/assets/icons/Star.svg) ou ne pas privilégier ![ÉtoileContour](/help/assets/icons/StarOutline.svg) une période. |
 | **[!UICONTROL Titre et description]** | Pour modifier le titre et la description, sélectionnez le lien du titre, qui ouvre le [créateur de périodes](create.md#date-range-builder). |
 | **[!UICONTROL Propriétaire]** | Propriétaire de la période. |
-| **[!UICONTROL Étiquettes]** | Balises pour cette période. |
+| **[!UICONTROL Balises]** | Balises pour cette période. |
 | **[!UICONTROL Partagé avec]** | Individus ou groupes avec lesquels vous avez partagé la période. Sélectionnez pour ouvrir la boîte de dialogue **[!UICONTROL Partager la période]**. |
 | **[!UICONTROL Date de modification]** | Affiche la date et l’heure de la dernière modification de la période. |
 
@@ -63,7 +64,7 @@ La barre de filtres affiche ➌ les filtres actifs (le cas échéant). Vous pouv
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer les périodes à l’aide du ➍ du panneau de gauche **[!UICONTROL Filtrer]**. Le panneau de filtrage affiche le type de filtre et le nombre de périodes qui respectent le filtre. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
+Vous pouvez filtrer les périodes à l’aide du **[!UICONTROL du panneau de gauche]** Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de périodes qui respectent le filtre. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
 
 Pour filtrer la liste des filtres :
 

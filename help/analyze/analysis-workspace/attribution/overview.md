@@ -1,13 +1,13 @@
 ---
 title: Présentation d’Attribution
-description: Le concept d’attribution du crédit d’un événement de succès à plusieurs éléments de dimension.
+description: Découvrez le concept d’attribution du crédit d’un événement de succès à plusieurs éléments de dimension.
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 89%
+source-wordcount: '489'
+ht-degree: 81%
 
 ---
 
@@ -53,32 +53,32 @@ Attribution propose les fonctionnalités suivantes :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les tableaux à structure libre](https://video.tv.adobe.com/v/39107?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les tableaux à structure libre](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les mesures calculées](https://video.tv.adobe.com/v/41477?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Attribution dans les mesures calculées](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du panneau Attribution](https://video.tv.adobe.com/v/39110?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du panneau Attribution](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de comparaisons côte à côte de modèles d’attribution](https://video.tv.adobe.com/v/327793?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de comparaisons côte à côte de modèles d’attribution](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 ## Outils Adobe Analytics qui ne prennent pas en charge l’attribution
 
-Les outils qui ne prennent pas en charge l’API Analytics 2.0, comme Report Builder, ne prennent pas en charge Attribution.
+Tous les outils qui ne prennent pas en charge l’API Analytics 2.0, tels que [Legacy Report Builder](/help/analyze/legacy-report-builder/home.md), ne prennent pas en charge l’attribution.

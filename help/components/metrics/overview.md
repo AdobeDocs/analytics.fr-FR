@@ -3,10 +3,10 @@ title: Mesures - Aperçu
 description: Consultez le nombre de données ou d’éléments de dimension au fil du temps.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 89%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 Les mesures vous permettent de quantifier les éléments de dimension, par exemple pour identifier les pages de votre site qui présentent le plus de vues. Vous pouvez également établir des tendances dans le temps, par exemple pour déterminer le nombre de commandes passées par les visiteurs sur votre site chaque jour. Un rapport de base présente des lignes de valeurs de chaîne (dimension) en fonction d’une colonne de valeurs numériques (mesure).
 
-Par exemple, si vous combinez la dimension « Page » à la mesure « Visites », vous obtenez un rapport classant les pages les plus visitées :
+Par exemple, si vous combinez la dimension **[!UICONTROL Page]** avec la mesure **[!UICONTROL Visites]**, vous obtenez un rapport avec classement présentant les pages les plus visitées :
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| Page | Visites |
+| --- | ---: |
+| Page d’accueil | 800 |
+| Page produit | 500 |
+| Page d’achat | 100 |
+
+{style="table-layout:fixed"}
 
 Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit probablement d’un [événement personnalisé](custom-events.md) ou d’une [mesure calculée](../c-calcmetrics/cm-overview.md).
 

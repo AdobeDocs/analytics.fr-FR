@@ -4,16 +4,16 @@ title: Affichage des anomalies dans Analysis Workspace
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# Affichage des anomalies dans Analysis Workspace
+# Afficher les anomalies
 
-Vous pouvez afficher les anomalies dans un tableau ou un graphique en courbes.
+Vous pouvez afficher les anomalies dans Analysis Workspace sous forme de tableau ou de graphique en courbes.
 
 ## Affichage des anomalies dans un tableau {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -30,6 +30,7 @@ Vous pouvez afficher les anomalies dans un tableau à structure libre de série 
    La **ligne verticale colorée** de chaque ligne indique ➋ la valeur attendue. La **zone ombrée de couleur** dans chaque ligne ➊ indique la valeur réelle. La comparaison entre la ligne (valeur attendue) et la zone ombrée (valeur réelle) permet de déterminer la présence d’une anomalie. (Une observation est considérée comme anormale en fonction des techniques statistiques avancées décrites dans la section [Techniques statistiques utilisées dans la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).)
 
 1. Sélectionnez ◥ dans le coin supérieur droit d’une ligne pour afficher les détails sur l’anomalie. Cela indique l’ampleur (en pourcentage) de l’écart supérieur ou inférieur entre la valeur réelle et la valeur attendue.
+1. Sélectionnez [Ouvrir l’analyse des contributions](run-contribution-analysis.md) pour lancer l’analyse des contributions.
 
 ## Affichage des anomalies dans un graphique en courbes
 
