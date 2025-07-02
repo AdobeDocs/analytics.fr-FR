@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment utiliser les outils Analytics, notamm
 source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
 source-wordcount: '892'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,10 +31,10 @@ ht-degree: 96%
       + [Démarrage rapide de projets](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Créer des projets](analysis-workspace/build-workspace-project/create-projects.md)
       + [Ouvrir des projets](analysis-workspace/build-workspace-project/open-projects.md)
-      + [Enregistrement des projets](analysis-workspace/build-workspace-project/save-projects.md)
+      + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Table des matières](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Dossiers dans Workspace {#workspace-folders}
-         + [Présentation des dossiers](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Vue d’ensemble des dossiers](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gestion des dossiers](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Ajouter ou déplacer des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -66,7 +66,7 @@ ht-degree: 96%
       + Calendrier et périodes {#calendar-date-ranges}
          + [Vue d’ensemble](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Créer des périodes](analysis-workspace/components/calendar-date-ranges/create.md)
-         + [Gestion des plages de données](analysis-workspace/components/calendar-date-ranges/manage.md)
+         + [Gérer des périodes](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
          + [Exemples](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + Dictionnaire de données {#data-dictionary}
@@ -173,8 +173,8 @@ ht-degree: 96%
    + [Filtrer des dimensions](report-builder/filter-dimensions.md)
    + [Gestion des blocs de données](report-builder/manage-reportbuilder.md)
    + [Planifier des classeurs pour l’e-mail](report-builder/schedule-reportbuilder.md)
-   + [Planification de classeurs pour les exportations cloud](/help/analyze/report-builder/report-builder-export.md)
-   + [Gestion des classeurs planifiés](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
+   + [Planifier des classeurs pour les exports cloud](/help/analyze/report-builder/report-builder-export.md)
+   + [Gérer les classeurs planifiés](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Étiquettes restreintes](report-builder/restricted-labels.md)
    + [Paramètres de Report Builder](report-builder/report-builder-settings.md)
 + Report Builder hérité {#legacy-report-builder}
