@@ -47,5 +47,5 @@ Pour obtenir des informations générales sur le dictionnaire de données, voir 
 >[!MORELIKETHIS]
 >
 >[Paramètres des composants de rapport](/help/components/vrs/vrs-components.md)
->>[Entrées du composant Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>&#x200B;>[Entrées du composant Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
