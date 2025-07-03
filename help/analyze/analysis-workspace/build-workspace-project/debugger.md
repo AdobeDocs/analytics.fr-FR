@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: Débogueur de projet
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -54,7 +55,7 @@ Pour utiliser le débogueur pour une visualisation spécifique :
 
    * **[!UICONTROL Date et heure de la demande]**
    * **[!UICONTROL Date et heure de la réponse]**
-   * **[!UICONTROL Heure de la requête]**
+   * **[!UICONTROL Heure de la demande]**
    * **[!UICONTROL Durée de la file]**
    * **[!UICONTROL Temps de traitement serveur]**
    * **[!UICONTROL Heure de recherche]**
@@ -74,7 +75,7 @@ Pour utiliser le débogueur pour une visualisation spécifique :
    * JSON (réponse)
    * Requête cURL
 
-1. **&#x200B; Utilisez ![Copier](/help/assets/icons/Copy.svg) &#x200B;** [!UICONTROL Copier dans le presse-papiers]d sous **[!UICONTROL Requête cURL]** pour copier la requête dans le presse-papiers.
+1. Utilisez ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier dans le presse-papiers]** sous **[!UICONTROL Requête cURL]** pour copier la requête dans le presse-papiers.
 1. Pointez sur l’une des zones de texte **[!UICONTROL Requête]** ou **[!UICONTROL Réponse]** pour afficher et sélectionnez ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier dans le presse-papiers]** pour copier le contenu de cette zone de texte (XML ou JSON) dans le presse-papiers.
 
 1. Échangez toutes les informations que vous avez copiées et que l’assistance Adobe a demandées pour résoudre les problèmes liés aux visualisations dans votre projet Analysis Workspace.
@@ -95,6 +96,3 @@ Pour désactiver le débogueur :
 1. Sélectionnez **[!UICONTROL Aide]** > **[!UICONTROL Désactiver le débogueur]** dans le menu du projet Analysis Workspace.
 1. Sélectionnez **[!UICONTROL OK]** dans la boîte de dialogue **[!UICONTROL Désactiver le débogueur]**.
 1. Confirmez lorsque le navigateur vous invite à recharger la page ou le site.
-
-
-
