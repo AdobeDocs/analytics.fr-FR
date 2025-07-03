@@ -63,7 +63,7 @@ La visualisation ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Carte]** d
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://video.tv.adobe.com/v/41503/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Pour définir les paramètres de la visualisation, sélectionnez ![Paramètre](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35002/?quality=12&captions=fre_fr)
 
 -->
 
