@@ -1,17 +1,17 @@
 ---
 description: Découvrez comment filtrer et trier les tableaux à structure libre dans Analysis Workspace.
-title: Filtrer Et Trier Des Tableaux
+title: Filtrer Et Trier
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# Filtrer et trier des tableaux à structure libre
+# Filtrer et trier
 
 Les tableaux à structure libre dans Analysis Workspace sont la base de l’analyse de données interactive. Ils peuvent donc contenir des milliers de lignes d’informations. Le filtrage et le tri des données peuvent constituer des éléments essentiels à l’amélioration de l’affichage des informations les plus importantes.
 

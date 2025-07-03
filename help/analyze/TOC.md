@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '868'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 96%
       + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Table des matières](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Dossiers dans Workspace {#workspace-folders}
-         + [Vue d’ensemble des dossiers](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Vue d’ensemble](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gestion des dossiers](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Ajouter ou déplacer des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -42,9 +42,10 @@ ht-degree: 96%
       + [Touches de raccourci](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [Palettes de couleurs](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Densité de la vue](analysis-workspace/build-workspace-project/view-density.md)
+      + [Débogueur](analysis-workspace/build-workspace-project/debugger.md)
    + Modèles {#templates}
-      + [Utiliser les modèles](analysis-workspace/templates/use-templates.md)
-      + [Créer des modèles](analysis-workspace/templates/create-templates.md)
+      + [Utiliser des modèles](analysis-workspace/templates/use-templates.md)
+      + [Créer et gérer des modèles](analysis-workspace/templates/create-templates.md)
    + Composants {#components}
       + [Vue d’ensemble](analysis-workspace/components/analysis-workspace-components.md)
       + [Utiliser les composants](analysis-workspace/components/use-components-in-workspace.md)
@@ -99,8 +100,8 @@ ht-degree: 96%
          + [Vue d’ensemble](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurer](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flux interdimensionnels](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [Surface et aires empilées](analysis-workspace/visualizations/area.md)
-      + [Barres et barres empilées](analysis-workspace/visualizations/bar.md)
+      + [Aires (empilées)](analysis-workspace/visualizations/area.md)
+      + [Barres (empilées)](analysis-workspace/visualizations/bar.md)
       + [Puces](analysis-workspace/visualizations/bullet-graph.md)
       + [Combo](analysis-workspace/visualizations/combo-charts.md)
       + [Anneau](analysis-workspace/visualizations/donut.md)

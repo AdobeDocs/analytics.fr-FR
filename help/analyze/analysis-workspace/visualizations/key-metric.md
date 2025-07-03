@@ -4,10 +4,10 @@ title: Synthèse des mesures clés
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ Cette visualisation aborde divers cas d’utilisation courants, notamment les su
    | **[!UICONTROL Mesure]** | Sélectionnez la mesure à analyser. Toutes les mesures sont prises en charge. |
    | **[!UICONTROL Période principale]** | La période actuelle du tableau à structure libre.<p>Effectuez un choix parmi toutes les périodes disponibles dans votre vue de données.</p> <p>Choisissez [!UICONTROL **Période du panneau**] si vous souhaitez utiliser la même période que celle utilisée sur le panneau où se trouve la visualisation.</p> |
    | **[!UICONTROL Période de comparaison]** | Période à laquelle vous souhaitez comparer la période principale. |
-   | **[!UICONTROL Filtre (facultatif)]** | Tout filtre qui vous intéresse spécifiquement pour cette synthèse. |
+   | **[!UICONTROL Segment (facultatif)]** | Tout segment qui vous intéresse pour ce résumé. |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ Dans le cadre des paramètres de visualisation, des paramètres spécifiques de 
 
 ## Modifier la visualisation
 
-Après avoir créé la visualisation, vous pouvez toujours modifier la configuration d’origine.
+Une fois la visualisation créée, vous pouvez modifier la configuration d’origine.
 
-1. Cliquez sur l’icône en forme de crayon dans le coin supérieur droit de la visualisation (en regard de l’icône d’engrenage des paramètres).
+1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) dans le coin supérieur droit de la visualisation.
 
-   ![Icône Modifier la visualisation](assets/edit-icon.png)
 
-   Vous revenez maintenant à la vue de configuration d’origine.
+   Vous revenez maintenant à la vue de configuration [ d’origine](#configure).
 
-1. Modifiez la mesure, la période principale, la période de comparaison ou le filtre selon vos préférences.
+1. Modifiez la mesure, la période Principale, la période de comparaison ou le segment selon vos préférences.
 
 >[!MORELIKETHIS]
 >

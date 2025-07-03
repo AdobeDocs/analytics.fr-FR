@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
 workflow-type: tm+mt
-source-wordcount: '6374'
+source-wordcount: '6443'
 ht-degree: 99%
 
 ---
@@ -25,6 +25,11 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Juillet 2025** | |
+| Débogueur | Nouvel article sur comment activer, utiliser et désactiver le débogueur de projet dans Analysis Workspace. |
+| Révision et mises à jour | Consultez et mettez à jour la documentation d’Analysis Workspace. Le cas échéant, la documentation est désormais synchronisée avec la documentation de Customer Journey Analytics sur Analysis Workspace. |
+| **Juin 2025** | |
+| Nouvelles actions de raccourci | Les nouveaux raccourcis clavier d’Analysis Workspace permettent désormais de [déplacer les panneaux Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) vers le haut et vers le bas dans un projet. |
 | **Mars 2025** |  |
 | Inventaire Analytics | L’[inventaire Analytics](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/analytics-inventory) présente une vue d’ensemble complète de votre environnement Adobe Analytics, y compris le nombre de projets et de composants, les suites de rapports, les utilisateurs et utilisatrices, etc. |
 | Guide de mise à niveau de Customer Journey Analytics | Permet de générer un [guide détaillé](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics. |

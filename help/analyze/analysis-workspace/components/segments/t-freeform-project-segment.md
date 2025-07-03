@@ -1,12 +1,12 @@
 ---
-description: Découvrez comment créer et utiliser des segments dans Analysis Workspace.
+description: Découvrez comment créer et utiliser des segments dans Analysis Workspace et Adobe Analytics.
 title: Présentation des segments
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---
@@ -27,14 +27,14 @@ Vous pouvez créer et utiliser des segments dans Analysis Workspace et Customer 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation de segments dans Analysis Workspace](https://video.tv.adobe.com/v/41391?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation de segments dans Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recherche et création de segments](https://video.tv.adobe.com/v/3415643?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Recherche et création de segments](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Vous pouvez créer différents types de segments dans Analysis Workspace :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Autres méthodes d’application de segments](https://video.tv.adobe.com/v/33635?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Autres méthodes d’application de segments](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

@@ -1,12 +1,12 @@
 ---
-title: Créer Des Hyperliens Pour Les Dimensions D’Un Tableau À Structure Libre
+title: Créer des liens hypertexte
 description: Découvrez comment créer des liens hypertexte pour les éléments de dimension dans un tableau à structure libre dans Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1596'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Cette fonctionnalité est particulièrement utile lors de la création de liens 
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks pour la dimension](https://video.tv.adobe.com/v/3445782?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks pour la dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

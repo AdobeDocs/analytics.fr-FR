@@ -5,10 +5,10 @@ title: Application De Segments Dans L’Analyse Des Abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 71%
+source-wordcount: '448'
+ht-degree: 42%
 
 ---
 
@@ -25,47 +25,45 @@ Dans Analysis Workspace, vous pouvez créer des segments d’après un point de 
 >* Utilisation d’un segment basé sur les visites comme point de contact dans une visualisation des abandons avec contexte de visite.
 >
 
-## Création d’un segment à partir d’un point de contact {#section_915E8FBF35CD4F34828F860C1CCC2272}
+## Création d’un segment à partir d’un point de contact
 
 1. Créez un segment d’après un point de contact donné qui vous intéresse particulièrement et qu’il peut être utile d’appliquer à d’autres rapports. Pour ce faire, cliquez avec le bouton droit de la souris sur un point de contact, puis sélectionnez **[!UICONTROL Créer un segment d’après le point de contact]**.
 
-   ![](assets/segment-from-touchpoint.png)
+   ![](assets/fallout-createsegment.png)
 
    Le créateur de segments s’ouvre ; il est prérenseigné avec le segment séquentiel prédéfini qui correspond au point de contact que vous avez sélectionné :
 
-   ![](assets/segment-builder.png)
+   ![](assets/fallout-definesegment.png)
 
 1. Nommez et décrivez le segment, puis enregistrez-le.
 
-   Vous pouvez maintenant utiliser ce segment où vous le souhaitez.
+   Vous pouvez désormais utiliser ce segment dans le projet de votre choix.
 
-## Ajout d’un segment comme point de contact {#section_17611C1A07444BE891DC21EE8FC03EFC}
+## Ajout d’un segment comme point de contact
 
-Si, par exemple, pour vos utilisateurs aux États-Unis, vous souhaitez connaître les tendances qui se dégagent et de quelle façon les abandons sont affectés, faites glisser le segment correspondant à ces utilisateurs sur l’abandon :
+Si vous souhaitez voir, par exemple, comment les accès aux applications mobiles ont tendance à affecter les abandons, faites glisser le segment Accès aux applications mobiles dans les abandons :
 
 ![](assets/segment-touchpoint.png)
 
-Vous pouvez aussi créer un point de contact ET en faisant glisser le segment des utilisateurs aux États-Unis sur un autre point de contrôle.
+Vous pouvez également créer un point de contact AND en faisant glisser le segment Accès à l’application mobile sur un autre point de contrôle.
 
-## Comparaison des segments dans la visualisation Abandons {#section_E0B761A69B1545908B52E05379277B56}
+## Comparaison des segments dans la visualisation Abandons
 
 Vous pouvez comparer un nombre illimité de segments dans la visualisation des abandons. (Notez que la vidéo ci-dessous indique que vous pouvez comparer jusqu’à 3 segments, ce qui est faux.)
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/328079?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
-1. Sélectionnez les segments que vous souhaitez comparer dans le rail [!UICONTROL Segments] de gauche. Dans notre exemple, nous avons sélectionné deux segments : Utilisateurs aux États-Unis et Utilisateurs hors des États-Unis.
-1. Faites-les glisser dans la zone de dépôt Segment en haut de l’écran.
+1. Sélectionnez les segments à comparer dans le panneau [!UICONTROL Segment] à gauche. Dans l’exemple, deux segments sont sélectionnés : **[!UICONTROL iOS]** et **[!UICONTROL Android]**.
+1. Faites glisser les trois segments sur la zone de dépôt de segments en haut de la visualisation.
 
-   ![](assets/segment-drop.png)
+   ![](assets/segment-compare.png)
 
-1. Facultatif : vous pouvez conserver le conteneur par défaut Toutes les visites ou le supprimer.
+1. Facultatif : vous pouvez conserver *Toutes les personnes* comme conteneur par défaut ou supprimer le conteneur.
 
-   ![](assets/seg-compare.png)
-
-1. Vous pouvez maintenant comparer les abandons des deux segments, par exemple pour savoir quand un segment est plus performant qu’un autre, entre autres informations.
+1. Vous pouvez maintenant comparer les abandons entre les trois segments, par exemple pour savoir où un segment est plus performant qu’un autre, ou obtenir d’autres informations.
