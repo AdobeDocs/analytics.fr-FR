@@ -1,27 +1,33 @@
 ---
-description: Répertorie quelques considérations que vous devez connaître avant de supprimer des segments.
-title: Suppression des segments
+description: Tenez compte des points suivants avant de supprimer des segments.
+title: Supprimer les segments
 feature: Segmentation
 exl-id: 434b6fec-1dfa-4375-a9de-d47fad2c64bc
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 39%
+source-wordcount: '63'
+ht-degree: 3%
 
 ---
 
-# Suppression des segments
+# Supprimer des segments
 
 Cet article répertorie quelques points à prendre en compte avant de supprimer des segments.
 
 Lorsque vous supprimez un segment :
 
-* Les rapports planifiés et les tableaux de bord auxquels ce segment est appliqué continuent à fonctionner normalement. Par exemple, le segment ou le tableau de bord continue à utiliser le segment supprimé.
-* Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez un segment portant le même nom. Voici un exemple : supposons que vous ayez 2 segments portant le même nom dans différentes suites de rapports :
+* Les rapports planifiés et les tableaux de bord auxquels ce segment est appliqué continuent à fonctionner normalement.
+* Les rapports planifiés ne sont pas mis à jour lorsque vous modifiez un segment portant le même nom.
 
-  | Nom de segment | Suite de rapports |
+<!--
+
+For example: Assume you have 2 segments with the same name in different report suites:
+
+  | Segment name | Report suite |
   |---|---|
-  | Visites depuis la Californie | mainprod |
-  | Visites depuis la Californie | maindev |
+  | Visits from California | mainprod |
+  | Visits from California | maindev |
 
-  Vous disposez d’un signet qui fait référence au segment de la suite de rapports [!UICONTROL mainprod]. Supprimez ensuite ce segment, car il s’agit d’un doublon. Le signet continue à fonctionner, référençant la définition du segment supprimé. Si vous modifiez la définition de segment du segment restant pour inclure l’île Catalina et Tijuana au Mexique, le segment appliqué au signet ne change pas. Le segment utilise l’ancienne définition. Pour corriger ce problème, mettez à jour le signet pour référencer la nouvelle définition. Si vous ne savez pas si un signet, un tableau de bord ou un rapport planifié utilise un segment supprimé, vous pouvez modifier le nom du segment restant pour indiquer si le signet utilise le segment restant.
+  You have a visualization that references the segment for the **[!UICONTROL mainprod]** report suite. Then you delete that segment because the segment is a duplicate. The bookmark will continue to run, referencing the definition of the deleted segment. If you change the segment definition for the remaining segment to include Catalina Island and Tijuana Mexico, the segment applied to the bookmark will not change. The segment will use the old definition. To fix this, update the bookmark to reference the new definition. If you are unsure whether a bookmark, dashboard or scheduled report is using a deleted segment, you could change the name of the remaining segment to indicate whether the bookmark is using the remaining segment.
+
+-->

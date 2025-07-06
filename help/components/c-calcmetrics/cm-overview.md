@@ -1,21 +1,21 @@
 ---
-description: Les mesures calculées et les mesures calculées avancées sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.
-keywords: Mesures calculées ; mesures calculées avancées
-title: Mesures calculées et mesures calculées avancées
+description: Découvrez les mesures calculées que vous pouvez créer à partir de mesures existantes.
+keywords: Mesures calculées
+title: Présentation Des Mesures Calculées
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
 # Vue d’ensemble des mesures calculées
 
-Mesures calculées et personnalisées que vous pouvez créer à partir de mesures existantes.
+Les calculées sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.
 
-Les mesures calculées offrent un moyen très souple pour créer, gérer et organiser des mesures. Elles vous permettent, en tant que personnes spécialisées dans le marketing, responsables de produits et de l’analyse, de poser des questions relatives aux données sans avoir à modifier votre implémentation [!DNL Analytics].
+Les mesures calculées sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes. Les mesures calculées offrent un moyen flexible de créer, gérer et traiter des mesures personnalisées qui vous permettent d’analyser vos données sans avoir à modifier votre implémentation.
 
 Les mesures calculées sont disponibles dans chaque package [!DNL Analytics], mais le pack Adobe Analytics Foundation pour Experience Cloud se limite aux mesures calculées de base, y compris les [types de format (décimal, temps, pourcentage, devise)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md), les [modifications d’affectation (par défaut, linéaire, participation, etc.)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md), les [types de mesures (standard, total)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) et les [opérateurs de base](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (addition, soustraction, multiplication et division).
 
@@ -59,13 +59,13 @@ Certaines fonctionnalités [!DNL Analytics] ne permettent pas d’utiliser des m
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/37941?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://video.tv.adobe.com/v/37940?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

@@ -1,14 +1,14 @@
 ---
 title: Présentation du panneau Comparaison des segments
-description: Découvrez comment utiliser le panneau de comparaison des segments dans Analysis Workspace.
+description: Découvrez comment utiliser le panneau de comparaison des segments pour comparer des segments dans Analysis Workspace.
 keywords: Analysis Workspace ; Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 64%
+source-wordcount: '588'
+ht-degree: 63%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panneau de comparaison des segments"
->abstract="Comparez rapidement deux segments sur tous les points de données pour trouver automatiquement les différences pertinentes.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un segment** : premier segment à analyser.<br/>**Comparer avec** : le deuxième segment en fonction duquel vous souhaitez effectuer la comparaison, qui est automatiquement renseigné avec *Tout le monde* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez remplacer *Tout le monde* par un segment différent.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
+>abstract="Comparez rapidement deux segments sur tous les points de données pour trouver automatiquement les différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajouter un segment** : premier segment à analyser.<br/>**Comparer avec** : le deuxième segment en fonction duquel vous souhaitez effectuer la comparaison, qui est automatiquement renseigné avec *Tout le monde* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez remplacer *Tout le monde* par un segment différent.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau de comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau de comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
-Le panneau Comparaison des segments détecte les différences les plus importantes sur le plan statistique parmi un nombre illimité de segments. La fonction effectue une itération au moyen d’une analyse automatisée de toutes les dimensions et mesures auxquelles vous avez accès. Il détecte automatiquement les caractéristiques clés des segments d’audience qui pilotent les indicateurs de performance clés de votre entreprise et vous permet de voir combien de segments se chevauchent.
+Le panneau Comparaison des segments détecte les différences les plus importantes sur le plan statistique parmi un nombre illimité de segments. La fonction effectue une itération au moyen d’une analyse automatisée de toutes les dimensions et mesures auxquelles vous avez accès. La comparaison découvre automatiquement les caractéristiques clés des segments d’audience qui pilotent les indicateurs de performance clés de votre entreprise et vous permet de voir combien de segments se chevauchent.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://video.tv.adobe.com/v/37598?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

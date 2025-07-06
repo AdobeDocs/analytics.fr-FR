@@ -1,12 +1,12 @@
 ---
-description: Les segments séquentiels sont créés en utilisant l’opérateur THEN au lieu de AND ou OR. THEN implique l’apparition d’un critère de segment, suivi d’un autre. Par défaut, un segment séquentiel identifie toutes les données correspondantes, en affichant le filtre « Inclure tout le monde ». Les segments séquentiels peuvent être filtrés davantage pour obtenir un sous-ensemble d’accès correspondants en utilisant les options « Seulement avant la séquence » et « Seulement nach la séquence ».
-title: Création des segments séquentiels
+description: Découvrez les segments séquentiels qui utilisent l’opérateur THEN pour définir une séquence de conditions de segment.
+title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ De plus, vous pouvez limiter les segments séquentiels à une durée, une granul
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentation séquentielle](https://video.tv.adobe.com/v/37432?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentation séquentielle](https://video.tv.adobe.com/v/25405?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Pour appliquer des contraintes de temps à l’opérateur **[!UICONTROL Then]** 
 1. Sélectionnez ![ Horloge ](/help/assets/icons/Clock.svg).
 1. Sélectionnez **[!UICONTROL Dans]** ou **[!UICONTROL Après]** dans le menu contextuel.
 1. Spécifiez une période (**[!UICONTROL Minute]**, **[!UICONTROL Heure]**, jusqu’à **[!UICONTROL Années]**).
-1. Sélectionnez le ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *nombre *]**&#x200B;pour ouvrir une fenêtre contextuelle qui vous permet de saisir ou de spécifier un nombre à l’aide de&#x200B;**[!UICONTROL -]**&#x200B;ou&#x200B;**[!UICONTROL +]**.
+1. Sélectionnez le ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *nombre *]**pour ouvrir une fenêtre contextuelle qui vous permet de saisir ou de spécifier un nombre à l’aide de**[!UICONTROL -]**ou**[!UICONTROL +]**.
 
 Pour supprimer une contrainte de temps, utilisez ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -97,7 +97,7 @@ Quelques exemples d’utilisation des contraintes de temps.
 
 ##### Opérateur [!UICONTROL After]
 
-Identifiez les visiteurs qui ont visité une page, puis une autre page uniquement après deux semaines. Par exemple, les visiteurs qui ont visité la page d’accueil, mais les femmes | Chaussures page seulement après deux semaines.
+Identifiez les visiteurs qui ont visité une page, puis une autre page uniquement après deux semaines. Par exemple, les visiteurs et visiteuses qui ont visité la page d’accueil, mais les femmes | Chaussures page seulement après deux semaines.
 
 ![Séquence après](assets/sequence-after.png)
 
@@ -113,7 +113,7 @@ Si une page vue de l’Accueil se produit le 1er juin 2024 à 12 h 01, une page 
 
 ##### Opérateur [!UICONTROL After] but [!UICONTROL Within]
 
-Identifiez les visiteurs qui ont visité une page, puis ont visité une autre page après deux semaines, mais dans un délai d’un mois. Par exemple, les visiteurs qui ont visité la page d’accueil , puis, après deux semaines et dans un délai d’un mois, les femmes | Page Chaussures.
+Identifiez les visiteurs et visiteuses qui ont consulté une page, puis qui ont consulté une autre page après deux semaines, mais dans un délai d’un mois. Par exemple, les visiteuses qui ont consulté la page d’accueil d’, puis, après deux semaines et dans un délai d’un mois, les | Page Chaussures.
 
 ![Séquence après mais dans](assets/sequence-afterbutwithin.png)
 
@@ -141,7 +141,7 @@ Les exemples de séquences suivants correspondent ou ne correspondent pas :
 
 Vous pouvez spécifier les données à inclure dans votre segment séquentiel ou dans un conteneur séquentiel qui fait partie de votre segment séquentiel.
 
-### [!UICONTROL &#x200B; Tout le monde &#x200B;] {#include_everyone}
+### [!UICONTROL  Tout le monde ] {#include_everyone}
 
 Pour créer un segment séquentiel qui inclut tout le monde, sélectionnez l’option ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Inclure tout le monde]**.
 
@@ -193,7 +193,7 @@ Lors de la création de rapports sur les sections de site à l’aide de ces tro
 
 ## [!UICONTROL Exclure]
 
-Les définitions de segment incluent toutes les données, sauf si vous excluez spécifiquement les données ![Utilisateur](/help/assets/icons/User.svg) [!UICONTROL Personne], ![Visite](/help/assets/icons/Visit.svg) [!UICONTROL Visite] ou ![PageWeb](/help/assets/icons/WebPage.svg) [!UICONTROL Hit] à l’aide de **[!UICONTROL Exclure]**.
+Les définitions de segment incluent toutes les données, sauf si vous excluez spécifiquement les données ![Utilisateur](/help/assets/icons/User.svg) [!UICONTROL Personne], ![Visite](/help/assets/icons/Visit.svg) [!UICONTROL Visite] ou ![PageWeb](/help/assets/icons/WebPage.svg)[!UICONTROL Hit] à l’aide de **[!UICONTROL Exclure]**.
 
 [!UICONTROL Exclure] vous permet d’ignorer les données courantes et de créer des segments avec plus de focus. Exclure permet également de créer des segments excluant des groupes spécifiques de visiteurs. Par exemple, pour définir un segment qui spécifie les visiteurs qui ont passé des commandes, puis excluant ce groupe de visiteurs afin d’identifier *non-acheteurs*. Une bonne pratique consiste à créer des règles qui utilisent une définition large plutôt que d’essayer d’utiliser [!UICONTROL Exclure] pour cibler des visiteurs spécifiques qui correspondent à des valeurs d’inclusion spécifiques.
 
@@ -213,7 +213,7 @@ Consultez ci-dessous des exemples d’utilisation de [!UICONTROL Exclure].
 
 #### [!UICONTROL Exclure] dans
 
-Identifiez les visiteurs et visiteuses qui ont consulté une page, qui n’en ont pas visité une autre, puis qui ont consulté une autre page. Vous excluez le conteneur à l’aide de ![Paramètre](/help/assets/icons/Setting.svg) [!UICONTROL Exclure]. Un conteneur exclu est identifié par une fine barre rouge sur la gauche.
+Identifiez les visiteurs et visiteuses qui ont consulté une page, qui n’ont pas consulté une autre page, puis qui ont consulté une autre page. Vous excluez le conteneur à l’aide de ![Paramètre](/help/assets/icons/Setting.svg) [!UICONTROL Exclure]. Une fine barre rouge sur la gauche identifie un conteneur exclu.
 
 ![Exclure la séquence](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ Identifiez les visiteurs et visiteuses qui ont visité une page mais n’ont jam
 >
 >Un [!UICONTROL Groupe logique] ne peut être défini que dans un segment séquentiel, ce qui signifie que l’opérateur [!UICONTROL Then] est utilisé dans le conteneur.
 
-Groupe logique vous permet de regrouper des conditions dans un point de contrôle de segment séquentiel unique. Dans le cadre de la séquence, la logique définie dans le conteneur identifié comme Groupe logique est évaluée après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant.
+Les conteneurs Groupe logique servent à regrouper des conditions dans un point de contrôle de segment séquentiel unique. Dans le cadre de la séquence, la logique définie dans le conteneur identifié comme Groupe logique est évaluée après tout point de contrôle séquentiel précédent et avant tout point de contrôle séquentiel suivant.
 
 Les conditions du groupe logique lui-même peuvent être remplies dans n&#39;importe quel ordre. En revanche, les conteneurs non séquentiels (accès, visite, visiteur) n’ont pas besoin que leurs conditions soient remplies dans la séquence globale, ce qui produit des résultats inintuitifs possibles s’ils sont utilisés avec un opérateur **[!UICONTROL Then]**.
 
@@ -257,7 +257,7 @@ Voici des exemples d’utilisation du conteneur Groupe logique .
 
 Identifiez les visiteurs qui ont visité une page, puis consulté chaque page d’un autre ensemble de pages dans n’importe quel ordre. Par exemple, les visiteurs qui ont visité la page d’accueil de , puis ont visité chacune des pages Hommes, Femmes et Enfants , quel que soit l’ordre.
 
-Vous pouvez créer ce segment sans [!UICONTROL &#x200B; Groupe logique &#x200B;], mais la construction sera complexe et laborieuse. Spécifiez chaque séquence de pages que le visiteur peut afficher. Pour plus de clarté, seul le premier conteneur est ouvert ![ChevronDown](/help/assets/icons/ChevronDown.svg) et les autres conteneurs sont fermés ![ChevronRight](/help/assets/icons/ChevronRight.svg). Vous pouvez dériver le contenu des autres conteneurs par les titres.
+Vous pouvez créer ce segment sans [!UICONTROL  Groupe logique ], mais la construction sera complexe et laborieuse. Spécifiez chaque séquence de pages que le visiteur peut afficher. Pour plus de clarté, seul le premier conteneur est ouvert ![ChevronDown](/help/assets/icons/ChevronDown.svg) et les autres conteneurs sont fermés ![ChevronRight](/help/assets/icons/ChevronRight.svg). Vous pouvez dériver le contenu des autres conteneurs par les titres.
 
 ![Exemple n’utilisant pas de groupe logique](assets/logicgroup-example-notusing.png)
 
@@ -273,13 +273,13 @@ Identifiez les visiteurs qui ont visité une page ou une autre page, puis qui on
 
 #### [!UICONTROL Exclure] [!UICONTROL Et]
 
-Identifier les visiteurs qui ont visité une page, puis qui n’ont pas visité explicitement un ensemble de pages, mais qui ont visité une autre page. Par exemple, les visiteurs qui ont visité la page d’accueil n’ont pas visité la page Hommes ou Femmes, mais ont visité la page Enfants .
+Identifier les visiteurs qui ont visité une page, puis qui n’ont pas visité explicitement un ensemble de pages, mais qui ont visité une autre page. Par exemple, les visiteurs qui ont visité la page d’accueil et qui n’ont pas visité la page Hommes ou Femmes, mais qui ont visité la page Enfants .
 
 ![Groupe logique à exclure et](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL Exclure] [!UICONTROL Ou]
 
-Identifiez les visiteurs qui ont visité une page, puis qui n’ont visité explicitement aucune page d’un ensemble de pages, mais qui ont visité une autre page. Par exemple, les visiteurs qui ont visité la page d’accueil n’ont pas visité la page Hommes et femmes, mais ont visité la page Enfants .
+Identifiez les visiteurs qui ont visité une page, puis qui n’ont visité explicitement aucune page d’un ensemble de pages, mais qui ont visité une autre page. Par exemple, les visiteurs qui ont visité la page d’accueil et qui n’ont pas visité la page Hommes et femmes, mais qui ont visité la page Enfants .
 
 ![Groupe logique à exclure et](assets/logicgroup-exclude-or.png)
 
@@ -302,4 +302,4 @@ Dernier exemple : vous souhaitez identifier les visiteurs qui ont appris quelque
 
 >[!MORELIKETHIS]
 >
-> * [Maîtriser la logique séquentielle dans AA et CJA : introduction à THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=fr)
+> * [Maîtriser la logique séquentielle dans AA et CJA : introduction à THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

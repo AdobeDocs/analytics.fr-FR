@@ -1,12 +1,12 @@
 ---
-description: En savoir plus sur
-title: Type de mesure et attribution
+description: Découvrez le type de mesure et l’attribution.
+title: Type De Mesure Et Attribution
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 07590d00341f9016ee0728970483e77cb8d38a9d
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 98%
 
 ---
 
@@ -93,12 +93,12 @@ Consultez [Exemple](#example) pour un exemple d’utilisation d’un modèle d�
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jcurve"
->title="En forme de J"
+>title="Courbe en J"
 >abstract="60 % du crédit à la dernière valeur de dimension, 20 % à la première, 20 % partagés par le milieu."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_jshaped"
->title="En forme de J"
+>title="Courbe en J"
 >abstract="60 % du crédit à la dernière valeur de dimension, 20 % à la première, 20 % partagés par le milieu."
 
 >[!CONTEXTUALHELP]
@@ -113,7 +113,7 @@ Consultez [Exemple](#example) pour un exemple d’utilisation d’un modèle d�
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_timedecay"
->title="Décroissance temporelle"
+>title="Atténuation temporelle"
 >abstract="Les valeurs de dimension les plus proches dans le temps d’une conversion obtiennent le plus de crédit."
 
 >[!CONTEXTUALHELP]

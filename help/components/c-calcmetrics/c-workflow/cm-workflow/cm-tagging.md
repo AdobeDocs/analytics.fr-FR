@@ -1,16 +1,16 @@
 ---
-description: Dans le Gestionnaire de mesures calculées, le balisage des segments permet de les organiser.
-title: Balisage des mesures calculées
+description: Découvrez comment baliser les mesures calculées pour organiser vos mesures calculées.
+title: Baliser les mesures calculées
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 12%
+source-wordcount: '170'
+ht-degree: 5%
 
 ---
 
-# Balisage des mesures calculées
+# Baliser des mesures calculées
 
 
 Dans le [gestionnaire de mesures calculées](cm-manager.md), vous pouvez utiliser des balises pour organiser les mesures calculées. Les administrateurs peuvent baliser toutes les mesures calculées. Les personnes qui ne sont pas administratrices peuvent uniquement baliser les mesures calculées qu’elles créent ou qui ont été partagées avec elles.

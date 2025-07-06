@@ -1,13 +1,13 @@
 ---
-description: Exécution d’un rapport d’analyse des contributions dans un projet Workspace.
+description: Découvrez comment exécuter un rapport d’analyse des contributions dans Analysis Workspace.
 title: Exécution de l’analyse des contributions
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 15%
+source-wordcount: '553'
+ht-degree: 14%
 
 ---
 

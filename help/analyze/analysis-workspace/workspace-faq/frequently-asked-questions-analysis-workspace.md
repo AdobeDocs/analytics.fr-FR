@@ -1,20 +1,20 @@
 ---
-description: Découvrez la configuration requise pour Analysis Workspace.
+description: Découvrez la configuration requise pour Analysis Workspace.
 keywords: Analysis Workspace
-title: Configuration requise pour l’administration
+title: Configuration requise
 feature: Workspace Basics
 role: User, Admin
 exl-id: 89737128-8a99-4f63-8409-9b97af723bce
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 89%
 
 ---
 
-# Configuration requise pour l’administration
+# Configuration requise
 
-Configuration requise pour Analysis Workspace.
+Les conditions requises pour exécuter Analysis Workspace sont les suivantes :
 
 | Exigence | Description |
 |--- |--- |

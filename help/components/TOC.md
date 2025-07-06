@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '759'
+ht-degree: 97%
 
 ---
 
@@ -189,12 +189,12 @@ ht-degree: 100%
       + [Partager des segments](segmentation/segmentation-workflow/t-seg-share.md)
       + [Baliser des segments](segmentation/segmentation-workflow/seg-tag.md)
       + [Filtrer la liste de segments](segmentation/segmentation-workflow/t-seg-filter.md)
-      + [Marquer des segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Marquer les segments comme favoris](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [Approuver des segments](segmentation/segmentation-workflow/seg-approve.md)
       + [Supprimer des segments](segmentation/segmentation-workflow/seg-delete.md)
       + [Copier des segments](segmentation/segmentation-workflow/seg-copy.md)
       + [Gérer les segments](segmentation/segmentation-workflow/seg-manage.md)
-      + [Publier des segments dans Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Publier des segments](segmentation/segmentation-workflow/seg-publish.md)
       + [Utiliser les segments](segmentation/segmentation-workflow/t-seg-apply.md)
    + Référence {#segment-reference}
       + [Opérateurs](segmentation/seg-reference/seg-operators.md)
@@ -210,17 +210,17 @@ ht-degree: 100%
       + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Rechercher des mesures](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [Créer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [Mesure calculée simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [Mesure calculée plus complexe](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [Créer une mesure de participation](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [Un exemple simple](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [Exemple plus complexe](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [Type de mesure et attribution](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [Mesures de participation](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [Mesures segmentées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [Empilage et remplacement des segments](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [Mesures filtrées et pondérées](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [Utilisation des fonctions](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [Baliser des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [Filtrer des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
-      + [Marquer des mesures calculées en tant que Favoris](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
+      + [Marquer les mesures calculées comme favori](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [Approbation des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [Partage des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [Copier des mesures calculées](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)

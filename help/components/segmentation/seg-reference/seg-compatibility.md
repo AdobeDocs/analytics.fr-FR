@@ -1,16 +1,16 @@
 ---
-description: Tous les segments créés dans le créateur de segments ne sont pas compatibles avec Data Warehouse. Ce tableau répertorie les fonctions prises en charge.
+description: Comprenez pourquoi tous les segments créés dans le créateur de segments ne sont pas compatibles avec Data Warehouse. Découvrez les fonctions prises en charge.
 title: Compatibilité des segments avec Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 81%
+source-wordcount: '343'
+ht-degree: 80%
 
 ---
 
-# Compatibilité des segments Data Warehouse
+# Compatibilité des segments avec l’entrepôt de données
 
 Tous les segments créés dans le créateur de segments ne sont pas compatibles avec [!DNL Data Warehouse]. Ce tableau répertorie les fonctions prises en charge.
 

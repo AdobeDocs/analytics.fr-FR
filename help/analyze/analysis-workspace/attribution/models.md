@@ -1,31 +1,31 @@
 ---
-title: Modèles D’Attribution, Conteneurs Et Intervalles De Recherche En Amont
-description: La manière dont les différents types d’attributions répartissent le crédit entre les éléments de dimension.
+title: Composants d’attribution
+description: Découvrez les composants qui définissent l’attribution.
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# Modèles d’attribution, conteneurs et intervalles de recherche en amont
+# Composants d’attribution
 
 Le concept d’attribution dans Adobe Analytics comprend trois composants :
 
-* **Modèles d’attribution :** le modèle décrit la distribution des conversions pour les accès dans un groupe. Par exemple, Première touche ou Dernière touche.
-* **Conteneur** : le conteneur définit la portée de l’attribution ou la manière de regrouper les accès pour chaque modèle.
-* **Intervalle de recherche en amont d’attribution :** l’intervalle de recherche en amont décrit le nombre de jours à rechercher pour le modèle sélectionné.
+* **Modèle d’attribution :** le [modèle](#attribution-model) décrit la répartition des conversions en accès dans un groupe. Par exemple, Première touche ou Dernière touche.
+* **Conteneur** : le [conteneur](#container) définit la portée de l’attribution ou la manière de regrouper les accès pour chaque modèle.
+* **Intervalle de recherche en amont d’attribution :** l’[intervalle de recherche en amont](#lookback-window) décrit le nombre de jours à rechercher en amont pour le modèle sélectionné.
 
 
-## Modèles d’attribution
+## Modèle d’attribution
 
 {{attribution-models-details}}
 
 
-## Conteneurs
+## Conteneur
 
 {{attribution-container}}
 
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40038?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

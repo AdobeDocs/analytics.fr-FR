@@ -1,12 +1,12 @@
 ---
 title: Fonctions de base
-description: Le créateur de mesures calculées permet d’appliquer des fonctions statistiques et mathématiques afin de créer des mesures calculées avancées.
+description: Découvrez les fonctions de base des mesures calculées.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1868'
 ht-degree: 92%
 
 ---
@@ -26,7 +26,7 @@ Le [créateur de mesures calculées](/help/components/c-calcmetrics/c-workflow/c
 
 Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
 
-Le cas échéant, une fonction est annotée avec le type de fonction : [!BADGE Tableau]{type="Neutral"} ou [!BADGE Ligne]{type="Neutral"}
+Le cas échéant et lorsque c’est utile, une fonction est annotée avec le type de fonction : [!BADGE Tableau]{type="Neutral"} ou [!BADGE Ligne]{type="Neutral"}.
 
 ## Que signifie le paramètre d’inclusion de zéros ?
 

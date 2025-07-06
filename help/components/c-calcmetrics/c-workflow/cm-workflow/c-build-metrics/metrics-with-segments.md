@@ -1,12 +1,12 @@
 ---
-description: La segmentation de mesures individuelles permet d’effectuer des comparaisons de mesures dans le même rapport.
+description: Découvrez comment segmenter des mesures individuelles, ce qui vous permet d’effectuer des comparaisons de mesures dans la même visualisation.
 title: Mesures segmentées
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 

@@ -1,12 +1,12 @@
 ---
-description: Indique comment empiler et remplacer des segments dans le créateur de mesures calculées.
-title: Empilage et remplacement des segments
+description: Découvrez comment empiler et remplacer des segments dans le créateur de mesures calculées.
+title: Empilage Et Remplacement De Segments
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 19%
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 Vous pouvez empiler et remplacer des segments dans le créateur de mesures calculées.
 
-## Empilement de segments {#stack-segment}
+## Empiler des segments {#stack-segment}
 
 1. Commencez à créer une mesure, comme décrit dans la section [Création de mesures calculées](cm-build-metrics.md).
 

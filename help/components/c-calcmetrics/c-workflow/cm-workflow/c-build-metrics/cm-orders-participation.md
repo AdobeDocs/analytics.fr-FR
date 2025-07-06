@@ -1,12 +1,12 @@
 ---
-description: Explique comment créer une mesure qui indique les canaux marketing aidant au pilotage des commandes. Cette procédure peut être adaptée à toute dimension ou tout événement de succès.
-title: Mesure Aide à la commande
+description: Explique comment créer une mesure qui indique quels canaux marketing aident à générer des commandes.
+title: Création D’Une Mesure Calculée Plus Complexe
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ Cet article explique un exemple plus complexe de mesure calculée. Ces mesures c
 
 1. Commencez à créer une mesure calculée, comme décrit dans la section [Créer des mesures](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-1. Dans le créateur de Mesures calculées, nommez la mesure `Assisted Orders` ou une autre mesure similaire.
+1. Dans le créateur de Mesures calculées, nommez la mesure `Assisted Online Orders` ou une autre mesure similaire.
 
 1. Sélectionnez la mesure **[!UICONTROL Commandes en ligne]** parmi les composants **[!UICONTROL Mesures]** et faites-la glisser dans la zone **[!UICONTROL Définition]**.
 
@@ -41,4 +41,4 @@ Pour utiliser la mesure calculée :
 
 1. (Facultatif) Partagez la mesure avec d’autres utilisateurs de votre organisation, comme décrit dans la section [Partage de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md).
 
-C’est un moyen facile d’indiquer les canaux marketing qui ont aidé au pilotage des commandes. Vous pouvez également, dans un tableau à structure libre, cliquer avec le bouton droit sur une mesure et ajuster directement le modèle d’attribution depuis le tableau.
+C’est un moyen facile d’indiquer les canaux marketing qui ont aidé au pilotage des commandes. Vous pouvez également sélectionner n’importe quelle mesure dans un tableau à structure libre et, à partir du menu contextuel, ajuster directement le modèle d’attribution à partir du tableau.

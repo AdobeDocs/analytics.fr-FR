@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment utiliser le panneau d’aperçu rapide pour vous guider dans la création de tableaux de données et de visualisations dans Analysis Workspace.
+description: Découvrez comment utiliser le panneau d’aperçu rapide pour vous guider dans la création de tableaux à structure libre et de visualisations dans Analysis Workspace.
 title: Panneau Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 97%
+source-wordcount: '1149'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Aperçu rapide dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir le [panneau Aperçu rapide](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight) de la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Aperçu rapide dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir le [panneau Aperçu rapide](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/quickinsight) de la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Lorsque vous commencez à utiliser [!UICONTROL Analysis Workspace], vous vous de
 * où créer un filtre,
 * etc.
 
-Pour vous aider à répondre à ces questions, l’[!UICONTROL Aperçu rapide] utilise un algorithme qui vous présente les dimensions, les mesures, les filtres et les périodes les plus couramment utilisés par votre entreprise. Cet algorithme est basé sur l’utilisation des composants de données par votre propre entreprise dans [!UICONTROL Analysis Workspace]. Les dimensions, mesures et filtres marqués comme [!UICONTROL POPULAIRE] dans la liste déroulante sont indiqués ici :
+Pour répondre à ces questions, [!UICONTROL Quick Insights] utilise un algorithme qui vous présente les dimensions, mesures, segments et périodes les plus populaires utilisés par votre entreprise. Cet algorithme est basé sur l’utilisation des composants de données par votre propre entreprise dans [!UICONTROL Analysis Workspace]. Les dimensions, mesures et filtres marqués comme [!UICONTROL POPULAIRE] dans la liste déroulante sont indiqués ici :
 
 ![Paneau Aperçu rapide.](assets/popular-tag.png)
 
@@ -59,10 +59,10 @@ Voici quelques-uns des termes de base que vous devez connaître. Chaque tableau 
 |---|---|
 | **[!UICONTROL Dimension]** | Les dimensions sont des descriptions ou caractéristiques de données de mesure qui peuvent être affichées, ventilées et comparées dans un projet. Il s’agit de valeurs et de dates non numériques qui se ventilent en éléments de dimension. Par exemple, *navigateur* ou *page* sont des dimensions. |
 | **[!UICONTROL Élément de dimension]** | Les éléments de dimension sont des valeurs individuelles d’une dimension. Par exemple, les éléments de dimension pour la dimension Navigateur seraient *Chrome*, *Firefox*, *Edge*, etc. |
-| **[!UICONTROL Mesure]** | Les mesures sont des informations quantitatives sur l’activité des individus, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, le chiffre d’affaires, etc. |
+| **[!UICONTROL Mesure]** | Les mesures sont des informations quantitatives sur l’activité des visiteurs, telles que les affichages, les clics publicitaires, les actualisations, la durée moyenne de consultation, les unités, les commandes, le chiffre d’affaires, etc. |
 | **[!UICONTROL Visualisation]** | Workspace offre [une variété de visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) pour créer des représentations visuelles de vos données. Par exemple, des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des nuages de points, etc. |
 | **[!UICONTROL Répartition des dimensions]** | Une répartition de dimension est un moyen de répartir une dimension en fonction d’autres dimensions. Par exemple, vous pouvez répartir les États américains en fonction des périphériques mobiles pour obtenir le nombre de visites via des périphériques mobiles par État. Vous pouvez également répartir les périphériques mobiles par types de périphériques mobiles, par régions, par campagnes internes, etc. |
-| **[!UICONTROL Segments]** | Les filtres vous permettent d’identifier des sous-ensembles de personnes selon des caractéristiques ou des interactions avec des sites web. Par exemple, vous pouvez créer des filtres [!UICONTROL Visiteur ou visiteuse] basés sur les éléments suivants : <li>Attributs : type de navigateur, appareil, nombre de visites, pays, sexe.</li><li>Interactions : campagnes, recherche par mots-clés, moteur de recherche.</li><li>Sorties et entrées : personnes provenant de Facebook, d’une page de destination définie, d’un domaine référent, ou</li><li> Variables personnalisées : champ de formulaire, catégories définies, ID de client. |
+| **[!UICONTROL Segments]** | Les segments vous permettent d’identifier des sous-ensembles de visiteurs selon des caractéristiques ou des interactions Web. Par exemple, vous pouvez créer des filtres [!UICONTROL Visiteur ou visiteuse] basés sur les éléments suivants : <li>Attributs : type de navigateur, appareil, nombre de visites, pays, sexe.</li><li>Interactions : campagnes, recherche par mots-clés, moteur de recherche.</li><li>Sorties et entrées : personnes provenant de Facebook, d’une page de destination définie, d’un domaine référent, ou</li><li> Variables personnalisées : champ de formulaire, catégories définies, ID de client. |
 
 ## Utilisation
 
@@ -94,7 +94,7 @@ Vous pouvez spécifier les blocs de création de trois manières :
 
 * Glissez et déposez les composants à partir du panneau de gauche.
 * Commencez à saisir du texte dans l’un des champs des blocs de création. Lorsque l’entrée est trouvée, le champ de bloc de création se remplit automatiquement avec les valeurs possibles.
-* Spécifiez une liste déroulante de bloc de création (par exemple `Country` dans **[!UICONTROL Analyser]**) et recherchez la liste des valeurs possibles (à l’aide de ![ChevronRight](/help/assets/icons/ChevronRight.svg)) pour la valeur que vous souhaitez utiliser (par exemple, **[!UICONTROL Code de pays]**).
+* Spécifiez une liste déroulante de bloc de création (par exemple **[!UICONTROL Country]** dans **[!UICONTROL Analyze]**) et recherchez dans la liste des valeurs possibles (à l’aide de ![ChevronRight](/help/assets/icons/ChevronRight.svg)) la valeur que vous souhaitez utiliser (par exemple **[!UICONTROL Country code]**).
 
 Sélectionnez **[!UICONTROL Effacer]** pour effacer tous les champs de saisie.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326697/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
 ## Basic key terminology
 

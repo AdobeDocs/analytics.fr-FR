@@ -1,16 +1,16 @@
 ---
-description: Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, Partagés avec moi, Favoris et Approuvés.)
-title: Filtrer des segments
+description: Découvrez comment filtrer les segments par balises, propriétaires et autres filtres.
+title: Filtrer les segments
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 
-# Filtrer la liste des segments
+# Filtrer la liste de segments
 
 Vous pouvez filtrer la liste des segments. L’utilisation d’un filtre sur les segments facilite la recherche des segments disponibles et la gestion des segments à partir du [Gestionnaire de segments](seg-manage.md).
 

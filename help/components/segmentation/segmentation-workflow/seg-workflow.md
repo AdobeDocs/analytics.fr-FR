@@ -1,12 +1,12 @@
 ---
-description: Décrit un workflow suggéré pour les segments créés avec le créateur de segments et gérés par le biais du gestionnaire de segments.
-title: Workflow de segmentation - Aperçu
+description: Découvrez une suggestion de workflow pour créer des segments avec le créateur de segments et les gérer via le gestionnaire de segments.
+title: Présentation du workflow de segmentation
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 48%
+source-wordcount: '266'
+ht-degree: 47%
 
 ---
 

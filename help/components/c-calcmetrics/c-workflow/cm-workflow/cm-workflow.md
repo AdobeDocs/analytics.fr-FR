@@ -1,16 +1,16 @@
 ---
-description: Découvrez les étapes à suivre pour créer des mesures calculées.
-title: Workflow des mesures calculées
+description: Découvrez comment créer des mesures calculées.
+title: Créer des mesures calculées
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
-source-git-commit: 183f6e39fb1d14b7b29817e76da0302ba23cd5d6
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 31%
+source-wordcount: '366'
+ht-degree: 21%
 
 ---
 
-# Création de mesures calculées
+# Créer des mesures calculées
 
 Par défaut, seuls les administrateurs peuvent créer des mesures calculées. Les utilisateurs et utilisatrices disposent de droits pour afficher les mesures calculées, de la même manière que les utilisateurs et utilisatrices affichent d’autres composants (tels que les segments, les annotations, etc.).
 
@@ -22,7 +22,7 @@ Vous pouvez créer une mesure calculée des manières suivantes :
 * **B**. Dans un projet Workspace, dans le panneau de gauche Composants , sélectionnez ![Ajouter](/help/assets/icons/Add.svg) à ![Événement](/help/assets/icons/Event.svg) **Mesures**.
 * **C**. Dans un projet Workspace, dans le menu contextuel de l’en-tête de colonne des mesures, sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**. Dans le sous-menu, vous pouvez sélectionner une fonction ou sélectionner **[!UICONTROL Ouvrir dans le créateur de mesures calculées]**. <br/>Si vous sélectionnez une fonction, la mesure calculée est définie comme mesure de projet uniquement. Lorsque vous modifiez cette mesure par la suite, dans la fenêtre contextuelle [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md), une notification s’affiche dans le [Créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
 * **D**. Dans un projet Workspace, sélectionnez **[!UICONTROL Composants]** dans le menu, puis sélectionnez **[!UICONTROL Créer une mesure]**.
-* **&#x200B;**. Dans un projet Workspace, utilisez le raccourci **[!UICONTROL maj+cmd+c]** (macOS) ou **[!UICONTROL maj+ctrl+c]** (Windows).
+* ****. Dans un projet Workspace, utilisez le raccourci **[!UICONTROL maj+cmd+c]** (macOS) ou **[!UICONTROL maj+ctrl+c]** (Windows).
 
 Pour définir la nouvelle mesure calculée, utilisez le [créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
 
@@ -33,7 +33,7 @@ Avant de créer des mesures calculées, prenez soigneusement en compte le workfl
 
 | Tâche du processus | Description |
 | --- | --- |
-| Planifier les mesures calculées | Notamment pour les mesures qui vont être officiellement « approuvées », il est logique de souligner les mesures calculées qui seront beaucoup utilisées ainsi que leur mode de définition. |
+| Planifier les mesures calculées | En particulier pour les mesures qui vont être officiellement approuvées, il est logique de planifier pour souligner les mesures calculées qui seront largement utilisées et comment elles seront définies. |
 | [Créer](c-build-metrics/cm-build-metrics.md) mesures calculées | Créez et modifiez des mesures calculées et des mesures calculées avancées en vue de les utiliser dans les composants d’[!DNL Analytics].  Consultez les [exemples](c-build-metrics/cm-build-metrics.md) de création de mesures calculées. |
 | [Balise](cm-tagging.md) mesures calculées | Balisez les mesures calculées pour faciliter l’organisation et le partage. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise. |
 | [Approuver](cm-approving.md) les mesures calculées | Approuvez des mesures calculées pour les rendre canoniques. |

@@ -1,22 +1,22 @@
 ---
-description: Le créateur de segments vous permet de comparer et de contraindre des valeurs à l’aide d’opérateurs sélectionnés.
-title: Opérateurs de comparaison pour les segments
+description: Découvrez comment utiliser les opérateurs du créateur de segments pour comparer et contraindre des valeurs.
+title: Opérateurs
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 47%
+source-wordcount: '1191'
+ht-degree: 45%
 
 ---
 
 # Opérateurs de comparaison pour les segments
 
-Le créateur de segments vous permet de comparer et de contraindre des valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : Standard, Data Warehouse et Comptage distinct.
+Le créateur de segments vous permet de comparer et de contraindre des valeurs à l’aide d’opérateurs sélectionnés. Il existe trois catégories d’opérateurs : [Standard](#standard-operators), [Data Warehouse](#data-warehouse-operators) et [Nombre distinct](#distinct-count-operators).
 
 Selon l’opérateur sélectionné :
 
-* Vous pouvez saisir une valeur
+* Vous pouvez saisir une valeur.
 * Vous pouvez saisir une partie d’une valeur et sélectionner dans un menu déroulant (le cas échéant).
 * Sélectionnez immédiatement une valeur dans le menu déroulant (le cas échéant).
 
@@ -46,7 +46,7 @@ Par exemple, vous avez un nom de page appelé *Mon produit cool*.
 | **[!UICONTROL contient tous les]** | Renvoie les éléments comparés aux sous-chaînes, notamment plusieurs valeurs associées. Par exemple, la saisie de `Search Results` avec cet opérateur pour la dimension **[!UICONTROL Nom de page]** correspondrait à *Résultats de la recherche* et *Résultats de la recherche*, mais pas à *Recherche* ou *Résultats* individuellement. La règle correspondrait à *Recherche* ET *Résultats* trouvés ensemble. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
 | **[!UICONTROL ne contient pas tous les]** | Identifie les éléments comparés à des sous-chaînes, y compris plusieurs valeurs jointes, puis renvoie uniquement les éléments sans ces valeurs. Par exemple, la saisie de `Search Results` avec cet opérateur pour la dimension **[!UICONTROL Nom de page]** identifie *Résultats de la recherche* et *Résultats de la recherche* (mais pas *Recherche* ou *Résultats* individuellement), puis exclut ces éléments. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
 | **[!UICONTROL contient n’importe lequel]** | Renvoie les éléments comparés aux sous-chaînes, notamment plusieurs valeurs associées ou identifiées indépendamment. Par exemple, la saisie de `Search Results` avec cet opérateur doit correspondre à *Résultats de la recherche*, *Résultats de la recherche*, *Recherche* et *Résultats*. Il correspond soit à *Recherche* SOIT à *Résultats* trouvés ensemble ou séparément. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
-| **[!UICONTROL ne contient pas n’importe lequel]** | Identifie les éléments d’après les sous-chaînes, puis renvoie les valeurs qui ne contiennent pas ces sous-chaînes. Il peut y avoir plusieurs valeurs jointes ou des valeurs identifiées individuellement. Par exemple, la saisie de `Search Results` pour la dimension **[!UICONTROL Nom de page]** correspondrait à *Résultats de la recherche* s, *Résultats de la recherche* h*, *Recherche* et *Résultats* où *Search* ou *Result* sont trouvés ensemble ou indépendamment. Les éléments qui contiennent ces sous-chaînes seraient ensuite exclus. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
+| **[!UICONTROL ne contient pas n’importe lequel]** | Identifie les éléments d’après les sous-chaînes, puis renvoie les valeurs qui ne contiennent pas ces sous-chaînes. Il peut y avoir plusieurs valeurs jointes ou des valeurs identifiées individuellement. Par exemple, la saisie de `Search Results` pour la dimension **[!UICONTROL Nom de page]** correspondrait à *Résultats de la recherche* s, *Résultats de la recherche*, *Recherche* et *Résultats* où *Search* ou *Result* sont trouvés ensemble ou indépendamment. Les éléments qui contiennent ces sous-chaînes seraient ensuite exclus. Le champ de saisie de cet opérateur est délimité par des espaces (100 mots). |
 | **[!UICONTROL commence par]** | Renvoie les éléments qui commencent par la valeur de chaîne saisie. |
 | **[!UICONTROL ne commence pas par]** | Renvoie tous les éléments qui ne commencent pas par la valeur de chaîne saisie. Il s’agit de l’inverse de l’opérateur **[!UICONTROL commence par]**. |
 | **[!UICONTROL se termine par]** | Renvoie les éléments qui se terminent par une valeur de chaîne saisie. |

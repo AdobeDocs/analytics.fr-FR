@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment afficher et analyser les anomalies de données en contexte, dans Analysis Workspace.
+description: Découvrez la détection des anomalies des données dans Analysis Workspace.
 title: Présentation de la détection des anomalies
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 68%
+source-wordcount: '1295'
+ht-degree: 69%
 
 ---
 
@@ -18,7 +18,7 @@ Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de donn�
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Détection des anomalies](https://video.tv.adobe.com/v/40726?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Détection des anomalies](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 * Pic des événements de mémoire tampon pour la vidéo
 * Pic des faibles débits en bits pour la vidéo
 
-La détection des anomalies et l’[analyse des contributions](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) sont des processus de base d’Analysis Workspace. Vous pouvez exécuter l’analyse des contributions par rapport à n’importe quelle anomalie quotidienne, puis incorporer le résultat dans un projet Analysis Workspace.
+La détection des anomalies et l’[analyse des contributions](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection) sont des processus de base d’Analysis Workspace. Vous pouvez exécuter l’analyse des contributions par rapport à n’importe quelle anomalie quotidienne, puis incorporer le résultat dans un projet Analysis Workspace.
 
 L’algorithme de détection des anomalies d’Analysis Workspace inclut
 
@@ -61,7 +61,7 @@ pour les mesures sélectionnées sur des segments d’audience convergents.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse des contributions](https://video.tv.adobe.com/v/40758?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse des contributions](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +97,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
 | Pourquoi Adobe a-t-il introduit des jetons ?  | L’analyse des contributions a été l’une des capacités les plus intéressantes d’Adobe Analytics. Le fait de disposer d’un petit nombre d’exécutions complètes par mois (plutôt que de seulement 3 dimensions pour certains produits Analytics) vous permet de voir ce que l’analyse des contributions complète illimitée peut vous apporter. |
 | Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ? | Chaque société de connexion (et non chaque utilisateur) obtient un certain nombre de jetons par mois, ce qui permet d’exécuter une analyse des contributions « complète » dans Analysis Workspace.  Chaque fois que vous générez une nouvelle analyse des contributions, vous payez un jeton. Le chargement de projets avec des analyses des contributions pré-exécutées ne coûte pas de jeton. |
 | Si ma société n’a plus de jetons et souhaite exécuter des analyses des contributions supplémentaires, que faire ? | Vous pouvez passer à une autre version d’Adobe Analytics, par exemple de Standard (2 jetons/mois) à Ultimate (20 jetons/mois). Vous ne pouvez pas acheter d’autres jetons. Vous devez effectuer la mise à niveau dans le framework de création de packages existant. |
-| Comment puis-je restreindre l’accès à l’analyse des contributions ? | Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions. Cependant, les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la section [Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home). Donnez l’autorisation d’utiliser l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et à qui vous accordez votre confiance pour ne pas en abuser. L’autorisation est appelée [!UICONTROL Analyse des contributions] sous [!UICONTROL Outils de suites de rapports]. [En savoir plus](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| Comment puis-je restreindre l’accès à l’analyse des contributions ? | Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions. Cependant, les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la section [Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/home). Donnez l’autorisation d’utiliser l’analyse des contributions uniquement aux utilisateurs qui ont une raison légitime de l’utiliser et à qui vous accordez votre confiance pour ne pas en abuser. L’autorisation est appelée [!UICONTROL Analyse des contributions] sous [!UICONTROL Outils de suites de rapports]. [En savoir plus](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | Comment puis-je connaître le nombre de jetons auxquels ma société a droit par mois et combien de jetons ma société a utilisés au cours du mois en cours ? | Accédez à [!UICONTROL Admins] > [!UICONTROL Tous les administrateurs] > [!UICONTROL Accueil des paramètres d’entreprise] > [!UICONTROL Afficher les niveaux d’accès aux fonctions]. Recherchez sous<ul><li>Analyse des contributions : nombre de jetons d’utilisation par mois</li><li>Analyse des contributions : nombre de jetons d’utilisation utilisés ce mois-ci</li></ul> |
 
 ## Autorisations pour la détection des anomalies et l’analyse des contributions

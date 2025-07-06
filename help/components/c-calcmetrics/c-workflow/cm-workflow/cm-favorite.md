@@ -1,16 +1,16 @@
 ---
-description: Le marquage des mesures calculées en tant que favoris est une autre façon de les organiser pour en faciliter l’utilisation.
-title: Marquer des mesures calculées en tant que Favoris
+description: Organisez les mesures calculées en les marquant comme favoris.
+title: Marquage Des Mesures Calculées En Tant Que Favoris
 feature: Calculated Metrics
 exl-id: 978e1af7-dde7-45e6-875a-54dee9251b8c
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 9%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
-# Marquer des mesures calculées en tant que Favoris
+# Marquer les mesures calculées comme favori
 
 Vous pouvez marquer une mesure calculée comme favori. Pour marquer les mesures calculées en tant que favori, vous pouvez organiser votre mesure calculée. Tous les utilisateurs peuvent préférer les mesures calculées.
 

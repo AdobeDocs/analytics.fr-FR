@@ -1,12 +1,12 @@
 ---
-description: Graphique de comparaison utilisant des segments entre administrateurs et non-administrateurs.
-title: Droits des segments par rôle
+description: Découvrez les différences entre les administrateurs et les non-administrateurs pour utiliser et gérer les segments.
+title: Droits Des Segments Par Rôle
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '113'
+ht-degree: 5%
 
 ---
 

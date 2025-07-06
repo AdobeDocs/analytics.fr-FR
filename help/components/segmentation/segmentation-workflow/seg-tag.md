@@ -1,16 +1,16 @@
 ---
-description: Dans le gestionnaire de segments, le balisage des segments vous permet de les organiser.
-title: Balisage des segments
+description: Comprendre comment baliser les segments pour vous permettre d’organiser les segments.
+title: Baliser les segments
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
 
 ---
 
-# Balisage des segments
+# Baliser des segments
 
 Dans le [Gestionnaire de segments](seg-manage.md), vous pouvez utiliser des balises pour organiser les segments. Les administrateurs peuvent baliser tous les segments. Les non-administrateurs ne peuvent baliser que les segments qu’ils créent ou qui ont été partagés avec eux.
 

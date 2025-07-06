@@ -1,20 +1,21 @@
 ---
-title: FAQ sur l’Attribution
+title: Questions Fréquentes Sur L’Attribution
 description: Obtenez des réponses aux questions fréquentes sur l’attribution.
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# FAQ sur l’Attribution
+# Questions fréquentes
 
+Vous trouverez ici les réponses aux questions les plus fréquemment posées sur l’attribution.
 
-+++## Qu’est-ce que l’élément de ligne « Aucun » lors de l’utilisation de l’attribution ?
++++## Quel est l’élément de ligne **[!UICONTROL Aucun]** lors de l’utilisation de l’attribution ?
 
 L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne « Aucune », essayez d’utiliser un intervalle de recherche en amont personnalisé avec une période de recherche en amont plus longue.
 
@@ -23,7 +24,7 @@ L’élément de ligne « Aucun » est un élement fourre-tout qui représente
 
 +++## Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?
 
-Certaines mesures basées sur les visites, telles que les [entrées](/help/components/metrics/entries.md) ou le [taux de rebond](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à celle du créneau du compte rendu des performances. Cette situation est due aux modèles d’attribution qui utilisent une période de recherche arrière, ce qui détermine jusqu’où l’attribution doit remonter pour créditer les mesures. Le scénario le plus courant se produit lorsque les visites englobent minuit. Par exemple :
+Certaines mesures basées sur les visites, telles que les [entrées](/help/components/metrics/entries.md) ou le [taux de rebond](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à la date de début du reporting. Cette situation est due aux modèles d’attribution qui utilisent une période de recherche arrière, ce qui détermine jusqu’où l’attribution doit remonter pour créditer les mesures. Le scénario le plus courant se produit lorsque les visites englobent minuit. Par exemple :
 
 1. Un utilisateur visite votre page d’accueil le 7 septembre à 23 h 55.
 1. Il consulte plusieurs pages, et la dernière consultation a lieu le 8 septembre à 00 h 05.
@@ -44,12 +45,13 @@ Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les do
 +++
 
 
-+++## Quand dois-je utiliser une recherche en amont de l’attribution de visites, de visiteurs et visiteuses ou personnalisée ?
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-Le choix d’une recherche en amont de l’attribution dépend de votre cas d’utilisation. Si les conversions prennent généralement plus longtemps qu’une visite unique, une recherche en amont des visiteurs ou personnalisée est recommandée. Pour les cycles de conversion plus longs, il est préférable d’utiliser des intervalles de recherche en amont personnalisés, car ce sont les seuls types qui permettent d’extraire des données avant le créneau de rapport.
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++## Comment les props et les eVars se comparent-ils lors de l’utilisation de l’attribution ?
 

@@ -5,18 +5,18 @@ keywords: Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 18%
+source-wordcount: '853'
+ht-degree: 15%
 
 ---
 
 # Cas d’utilisation de la comparaison de segments
 
-Le panneau de comparaison des segments est une fonctionnalité très utilisée dans Analysis Workspace. Les clients découvrent fréquemment de nouvelles façons de générer des informations à partir de celui-ci. Vous trouverez ci-dessous plusieurs cas d’utilisation réussie.
+Le panneau de comparaison des segments est une fonctionnalité très utilisée dans Analysis Workspace. Les clients découvrent fréquemment de nouvelles façons d’obtenir des informations avec lors de l’utilisation du panneau. Vous trouverez ci-dessous quelques cas d’utilisation standard
 
-## Cas d’utilisation 1 : comparaison des mises en œuvre mobiles et de bureau
+## Cas d’utilisation 1 : comparaison des implémentations mobile et de bureau
 
 > *« Vous avez comparé les accès d’un site à un autre et vous avez rapidement trouvé un certain nombre d’incohérences au niveau des balises. Vous avez ainsi évité des problèmes de données avant la sortie du produit. »*
 
@@ -25,6 +25,9 @@ Vous êtes responsable d’un site web mobile et d’un site web de bureau, et c
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Conteneur d’accès pour lequel Type d’appareil mobile est égal à Téléphone mobile ou Tablette | Tous les autres |
+
+{style="table-layout:fixed"}
+
 
 ## Cas d’utilisation 2 : comparaison des clients qui utilisent une certaine fonctionnalité avec les clients qui n’en utilisent pas
 
@@ -36,6 +39,9 @@ Une équipe d’optimisation de site de vente au détail souhaite mieux comprend
 |--- |--- |
 | Conteneur de visiteurs dans lequel il existe un événement personnalisé (outil de comparaison de prix) | Tous les autres |
 
+{style="table-layout:fixed"}
+
+
 ## Cas d’utilisation 3 : comparaison des visiteurs de la section Actualités d’un site par rapport aux visiteurs d’autres sections du site
 
 > *« Vous avez découvert que les visiteurs de votre section d’actualités étaient deux fois plus susceptibles de regarder des publicités vidéo. Vous avez donc ajouté d’autres options vidéo à cette section. Vous avez enregistré une augmentation de 7 % des publicités vidéo visionnées ! »*
@@ -45,6 +51,9 @@ Une grande société d’édition multimédia cherche des moyens d’améliorer 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Conteneur de visiteurs pour lequel la section du site est égale à « Actualités » | Tous les autres |
+
+{style="table-layout:fixed"}
+
 
 ## Cas d’utilisation 4 : comparaison des visiteurs issus du référencement payant par rapport aux autres visiteurs
 
@@ -56,12 +65,17 @@ Une grande entreprise de services B2B souhaite comprendre le type de trafic que 
 |--- |--- |
 | Conteneur de visiteurs pour lequel le type de référent est égal au référencement payant | Tous les autres |
 
+{style="table-layout:fixed"}
+
+
 ## Cas d’utilisation 5 : comparaison des acheteurs d’objets Fitbit par rapport aux autres acheteurs
 
-> *« Vous avez constaté que les personnes qui achetaient des objets connectés Fitbit étaient 6 fois plus susceptibles d’obtenir un message de « rupture de stock » que tout le monde. Donc vous avez rapidement commandé plus de Fitbits et évité de manquer de stock ! »*
+> *« Vous avez constaté que les personnes qui achetaient des objets connectés Fitbit étaient 6 fois plus susceptibles d’obtenir un message de « rupture de stock » que tout le monde. Donc, vous avez rapidement commandé plus de Fitbits et évité de manquer de stock ! »*
 
 **Scénario :** un important retailer en ligne s’intéresse à la manière dont l’un des produits de vacances les plus prisés - Fitbit - est vendu et à ce qui rend les acheteurs de Fitbit uniques parmi les autres clients. L’équipe marketing peut sélectionner l’élément de ligne Ajuster dans son rapport de produits et exécuter rapidement une analyse de comparaison de segments à partir du menu contextuel. Ce qu&#39;ils découvrent, c&#39;est que les utilisateurs qui achètent des objets connectés Fitbit sont 6 fois plus susceptibles d&#39;obtenir un message de « rupture de stock » que tout autre client. Après une analyse plus approfondie, l&#39;équipe marketing est en mesure d&#39;orienter ces visiteurs vers leurs magasins physiques en attendant que leur service des achats commande d&#39;autres articles Fitbit à expédier. Par conséquent, le retailer évite davantage de messages « en rupture de stock » et peut répondre à une plus grande partie de la demande pendant les vacances.
 
 | Segment 1 | Segment 2 |
 |--- |--- |
 | Conteneur de visiteurs dans lequel il existe des commandes où la marque Dimension personnalisée est égale à FitBit | Tous les autres |
+
+{style="table-layout:fixed"}
