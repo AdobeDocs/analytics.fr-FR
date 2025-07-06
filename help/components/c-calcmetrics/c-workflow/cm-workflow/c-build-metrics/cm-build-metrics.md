@@ -186,7 +186,7 @@ Pour supprimer un conteneur, sélectionnez ![Fermer](/help/assets/icons/Close.sv
 >[!MORELIKETHIS]
 >
 >[Utilisation des fonctions](cm-using-functions.md)
->>[Segments](/help/components/segmentation/seg-overview.md)
+>&#x200B;>[Segments](/help/components/segmentation/seg-overview.md)
 >
 
 
