@@ -18,7 +18,7 @@ Vous pouvez gérer les paramètres d’Analysis Workspace et ses composants conn
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/3429992/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -101,12 +101,12 @@ Cliquez sur les titres des préférences liées pour plus d’informations et de
 | Section | Préférence | Options |
 | --- | --- | --- |
 | **Afficher** | | |
-|  | [Afficher la densité](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Sélectionnez le contenu à afficher à l’écran en réduisant l’espacement vertical du rail de gauche, des tableaux à structure libre et des tableaux de cohortes. <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
+|  | [Afficher la densité](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density) | Sélectionnez le contenu à afficher à l’écran en réduisant l’espacement vertical du rail de gauche, des tableaux à structure libre et des tableaux de cohortes. <ul><li>Compact</li><li>Confortable</li><li>Développé (par défaut)</li></ul> |
 | | [Palette de couleurs](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes) | Sélectionnez les palettes de couleurs de visualisation utilisées dans Analysis Workspace.<ul><li>**Palette catégorielle** : appliquée à de nombreuses visualisations dans Analysis Workspace. Chaque couleur représente une valeur catégorielle distincte. Choisissez parmi les options fournies par Adobe ou saisissez une palette personnalisée définie par des valeurs hexadécimales délimitées par des virgules.</li><li>**Palette divergente** : appliquée à la table de cohorte dans Analysis Workspace. Cette palette a une signification numérique, avec deux extrêmes et une ligne de base au milieu.</li><li>**Palette séquentielle** : appliquée à l’analyse guidée Tendances de fréquence (barre empilée). Cette palette a une signification numérique allant du clair au foncé.</li></ul> |
 | **Données** | | |
-|  | [Suite de rapports](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/panels) | Choisissez l’emplacement où les tableaux et les visualisations obtiennent leurs données. <ul><li>La plus récente (par défaut)</li><li>Suite de rapports spécifique sélectionnée dans une liste</li></ul> |
-|  | [Calendrier](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/panels) | Effectuez une sélection dans une liste de : <ul><li>Plages fournies par Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
-|  | [Type de panneau](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>À structure libre (par défaut)</li><li>Vide</li><li>Quick Insights</li></ul> |
+|  | [Suite de rapports](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Choisissez l’emplacement où les tableaux et les visualisations obtiennent leurs données. <ul><li>La plus récente (par défaut)</li><li>Suite de rapports spécifique sélectionnée dans une liste</li></ul> |
+|  | [Calendrier](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | Effectuez une sélection dans une liste de : <ul><li>Plages fournies par Adobe (par défaut, ce mois-ci)</li><li>Plages personnalisées</li></ul> |
+|  | [Type de panneau](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/panels) | <ul><li>À structure libre (par défaut)</li><li>Vide</li><li>Quick Insights</li></ul> |
 |  | Compter les instances répétées | Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports. Par exemple, lorsqu’il est activé, ce paramètre traite plusieurs pages vues consécutives sur la même page comme plusieurs pages vues. Lorsque ce paramètre est désactivé, elles sont comptabilisées comme une seule page vue. <p>**Remarque :** ce paramètre affecte uniquement certaines mesures (telles que Visites de page unique) et ne s’applique pas aux visualisations Flux ou Abandons.</p> |
 |  | Format du nombre | <ul><li>1 000,00 (par défaut)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Caractère séparateur CSV | <ul><li>Virgule (par défaut)</li><li>Point-virgule</li><li>Deux-points</li><li>Tube</li><li>Point</li><li>un espace</li><li>Tabulation</li></ul> |
