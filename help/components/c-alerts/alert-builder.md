@@ -3,7 +3,7 @@ description: Découvrez comment créer des alertes dans Analysis Workspace.
 title: Création d’alertes
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 69%
@@ -31,7 +31,7 @@ Pour plus d’informations sur les alertes, voir [Présentation des alertes](int
 
 Pour créer une alerte, procédez comme suit :
 
-1. Utilisez l’une des méthodes suivantes pour créer une alerte. 
+1. Utilisez l’une des méthodes suivantes pour créer une alerte :
 
    * Ouvrez un projet dans Analysis Workspace, puis sélectionnez **[!UICONTROL Composants]** > **[!UICONTROL Créer une alerte]**.
    * Ouvrez un projet dans Analysis Workspace, puis utilisez le raccourci suivant : ***cmd + shift + a*** (macOS) ou ***ctrl + shift + a*** (Windows).
