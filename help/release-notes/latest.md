@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 91a17aa9ae7a0a6c6b7a1fd8d5ffe5d7d2efb294
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1072'
+ht-degree: 94%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (version de juin 2025)
 
-**Dernière mise à jour** : 24 juin 2025
+**Dernière mise à jour** : mardi 7 juillet 2025
 
 Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -20,6 +20,7 @@ Ces notes de mise à jour portent sur la période du 18 juin au 15 juillet 20
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **Champs TNT en direct avec algorithmes** | Livestream est en cours de renouvellement pour s&#39;assurer que la technologie continue d&#39;être moderne et stable. Dans le cadre de cette actualisation, si votre champ TNT contient un algorithme, nous commencerons à incorporer le champ TNT dans la sortie Livestream. Toutefois, seuls les éléments précédemment pris en charge sont concernés : `campaignId`, `recipeId`, `trafficType`, `actionId` et `actionName`. Le schéma TNT global pour Livestream reste inchangé. |   | Juillet 7,2025 |
 | **Prendre en charge des destinations cloud sécurisées dans le nouveau Report Builder** | Le module complémentaire Javascript Report Builder prend désormais en charge l’export de rapports vers les destinations suivantes de stockage dans le cloud :<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>SAS Azure</li><li>RBAC Azure</li></ul><p>Auparavant, seules les destinations FTP et e-mail étaient disponibles. Le protocole FTP n’est plus pris en charge pour des raisons de sécurité.</p><p>Pour plus d’informations, consultez la section [Planifier des classeurs en exportant vers des destinations cloud](/help/analyze/report-builder/report-builder-export.md).</p><p>En plus de ces modifications, lors de la création d’un emplacement dans Adobe Analytics, le champ Utiliser avec fournit désormais la possibilité d’utiliser l’emplacement avec Report Builder, comme indiqué dans la section [Configurer les emplacements d’import et d’export dans le cloud](/help/components/locations/configure-import-locations.md).</p> |  | 19 juin 2025 (initialement le 18 juin) |
 | **Nouvelle expérience de prévisualisation** | Le panneau d’aperçu, qui est utilisé lorsque vous créez un segment ou configurez les paramètres d’une vue de données, utilise désormais une visualisation à barres horizontales au lieu d’une visualisation en anneau. |  | 18 juin 2025 |
 | **Boîte de dialogue Modèle d’attribution modifié** | Vous pouvez désormais définir le conteneur et la période séparément dans la boîte de dialogue du modèle d’attribution. |  | 18 juin 2025 |
