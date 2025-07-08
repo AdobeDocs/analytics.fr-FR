@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment utiliser les outils Analytics, notamm
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
    + [Vue d’ensemble d’Analysis Workspace](analysis-workspace/home.md)
    + Projets {#build-workspace-project}
       + [Vue d’ensemble](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Démarrage rapide de projets](analysis-workspace/build-workspace-project/starter-projects.md)
+      + [Démarrer rapidement des projets](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Créer des projets](analysis-workspace/build-workspace-project/create-projects.md)
       + [Ouvrir des projets](analysis-workspace/build-workspace-project/open-projects.md)
       + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
@@ -36,7 +36,7 @@ ht-degree: 96%
       + Dossiers dans Workspace {#workspace-folders}
          + [Vue d’ensemble](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [Gestion des dossiers](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [Gérer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Ajouter ou déplacer des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [Suites de rapports multiples](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [Touches de raccourci](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
@@ -119,7 +119,7 @@ ht-degree: 96%
    + Panneaux {#panels}
       + [Vue d’ensemble](analysis-workspace/c-panels/panels.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
-      + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
       + [Attribution](analysis-workspace/c-panels/attribution.md)
       + [Tableau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Audience moyenne par minute de média](analysis-workspace/c-panels/average-minute-audience-panel.md)
@@ -132,10 +132,10 @@ ht-degree: 96%
          + [Vue d’ensemble](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Cas d’utilisation](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + Traitement et partage {#curate-share}
+   + Traiter et partager {#curate-share}
       + [Vue d’ensemble](analysis-workspace/curate-share/send-schedule-files.md)
       + [Traitement des projets](analysis-workspace/curate-share/curate.md)
-      + [Partage de projets](analysis-workspace/curate-share/share-projects.md)
+      + [Partager des projets](analysis-workspace/curate-share/share-projects.md)
       + [Création de liens partageables](analysis-workspace/curate-share/shareable-links.md)
       + [Projets en lecture seule](analysis-workspace/curate-share/view-only-projects.md)
       + [Télécharger](analysis-workspace/curate-share/download-send.md)
