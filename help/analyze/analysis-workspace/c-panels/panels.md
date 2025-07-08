@@ -79,7 +79,7 @@ Vous pouvez effectuer les opérations suivantes :
 
 ## Suite de rapports
 
-Chaque panneau est associé à une [suite de rapports](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**dans le menu déroulant en haut à droite du panneau.
+Chaque panneau est associé à une [suite de rapports](/help/admin/admin/c-manage-report-suites/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**&#x200B;dans le menu déroulant en haut à droite du panneau.
 
 Lorsque vous créez un panneau, la suite de rapports par défaut est basée sur la suite de rapports du panneau sur lequel vous avez travaillé pour la dernière fois dans le projet Analysis Workspace.
 
