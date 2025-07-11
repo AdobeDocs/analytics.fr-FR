@@ -6,7 +6,7 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
 workflow-type: tm+mt
 source-wordcount: '1332'
-ht-degree: 45%
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
 >title="Publication Experience Cloud"
->abstract="Vous pouvez publier l’audience dans la bibliothèque d’audiences, où elle peut être utilisée pour des activités marketing dans Target et d’autres solutions Experience Cloud."
+>abstract="Vous pouvez publier l’audience dans la bibliothèque d’audiences, où elle peut être utilisée pour des activités marketing dans Target et d’autres solutions Experience Cloud."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
@@ -30,7 +30,7 @@ Vous pouvez publier des segments Analytics sur Experience Cloud en moins de 8 he
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://video.tv.adobe.com/v/36929?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -41,7 +41,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 
 ## Conditions préalables
 
-* Assurez-vous que la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/segmentation/segmentation-workflow/seg-publish). Dans le cas contraire, vous ne pouvez pas le publier dans Experience Cloud.
+* Assurez-vous que la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish). Dans le cas contraire, vous ne pouvez pas le publier dans Experience Cloud.
 * Assurez-vous que votre entreprise utilise des Experience Cloud ID.
 * Avant de pouvoir publier des segments, votre administrateur doit affecter l’autorisation [!UICONTROL Publication de segments] à un profil de produit dans l’[Admin Console](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/admin-tool-experience-cloud) et vous ajouter au profil de produit.
 
@@ -50,7 +50,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 * **Limites de suites de rapports** : vous pouvez publier jusqu’à 75 segments par suite de rapports. Cette limite est appliquée. Si 75 segments ont déjà été publiés, vous ne pouvez pas en publier d’autres tant que vous n’avez pas annulé la publication de suffisamment de segments pour arriver sous le seuil de 75 segments.
 * **Limites d’abonnements** : les audiences partagées avec [!DNL Experience Cloud] depuis Adobe Analytics ne doivent pas dépasser 20 millions de membres uniques.
 * **Confidentialité des données** : les audiences ne sont pas filtrées d’après l’état d’authentification d’un visiteur. Un visiteur peut être en mesure de parcourir votre site dans des états non authentifiés et authentifiés. Les actions qui se produisent lorsqu’un visiteur n’est pas authentifié peuvent toujours entraîner l’inclusion d’un visiteur dans une audience. Examinez la [politique de confidentialité d’Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html) pour bien comprendre toutes les implications du partage des audiences en matière de confidentialité.
-* Pour plus d’informations sur les **différences entre les segments dans [!DNL Adobe Analytics] et[!DNL Audience Manager]**, voir [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/fr/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments).
+* Pour plus d’informations sur les **différences entre les segments dans [!DNL Adobe Analytics] et[!DNL Audience Manager]**, voir [Présentation des segments dans Analytics et Audience Manager](https://experienceleague.adobe.com/en/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments).
 
 ## Journal de publication des segments
 
@@ -127,14 +127,14 @@ Les captures d’écran suivantes vous montrent comment récupérer l’UUID Ado
 
 1. Lancer Chrome Developer Tools avant le chargement d’une page
 1. Chargez la page et cochez Applications > Cookies. L’UUID Adobe Audience Manager doit être défini dans le tiers
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
 dans le navigateur (`35721780439475290181087231320657663953` dans l’exemple ci-dessous).
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Utiliser la [!UICONTROL visionneuse du profil du visiteur] d’Audience Manager
 
-L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
+L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
 
 ## Afficher les caractéristiques du segment dans [!DNL Audience Manager]
 
