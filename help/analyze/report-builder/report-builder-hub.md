@@ -1,15 +1,15 @@
 ---
-title: Qu’est-ce que Report Builder Hub dans Adobe Analytics ?
+title: Qu’est-ce que le Report Builder Hub dans Adobe Analytics ?
 description: Décrit les composants du centre Report Builder
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 51%
 
 Utilisez le centre Report Builder pour créer, mettre à jour, supprimer et gérer des blocs de données.
 
-Le hub de Report Builder contient les boutons Créer, Gérer et Planifier, le panneau COMMANDES et le panneau ÉDITION RAPIDE.
+Le hub Report Builder contient les boutons Créer, Gérer et Planifier, le panneau COMMANDES et le panneau ÉDITION RAPIDE.
 
 <img src="./assets/hub51.png" alt="Centre Report Builder"/>
 
@@ -25,10 +25,6 @@ Le hub de Report Builder contient les boutons Créer, Gérer et Planifier, le pa
 ## boutons Créer, Gérer et Planifier
 
 Utilisez les boutons Créer, Gérer et Planifier pour créer des blocs de données, gérer des blocs de données existants ou planifier des blocs de données.
-
->[!NOTE]
->
->La planification des classeurs pour cette version de Report Builder sur Adobe Analytics n’a pas encore été publiée, mais elle sera disponible début 2025. Vous pouvez commencer maintenant sur les classeurs qui ne nécessitent pas de planification.
 
 ## Panneau COMMANDES
 
@@ -50,7 +46,7 @@ Utilisez le panneau COMMANDES pour accéder aux commandes compatibles avec les c
 
 Lorsque vous sélectionnez un ou plusieurs blocs de données dans une feuille de calculs, Report Builder affiche le panneau ÉDITION RAPIDE. Vous pouvez utiliser le panneau ÉDITION RAPIDE pour modifier les paramètres d’un seul ou de plusieurs blocs de données en même temps.
 
-![Panneau Modification rapide dans le Report Builder ](./assets/hub2.png)
+![Panneau Modification rapide dans Report Builder](./assets/hub2.png)
 
 Les modifications effectuées à l’aide des sections Édition rapide s’appliquent à tous les blocs de données sélectionnés.
 
@@ -62,7 +58,7 @@ Lorsque vous modifiez la suite de rapports, tous les blocs de données de la sé
 
 Pour modifier la suite de rapports, sélectionnez une nouvelle suite de rapports dans le menu déroulant.
 
-![Hub de Report Builder affichant le menu déroulant de la suite de rapports.](./assets/image16.png)
+![Hub Report Builder affichant le menu déroulant de la suite de rapports.](./assets/image16.png)
 
 ### Période
 
